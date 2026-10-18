@@ -28,12 +28,29 @@ def align(meta: CallMeta, segments: list[Segment]) -> list[Segment]:
     return out
 
 
+def decode_audio(audio_path: Path, rate: int = 16000):
+    """mp3/m4a -> mono float32 at 16 kHz with PyAV. faster-whisper's own decoder breaks on PyAV 15+."""
+    import av
+    import numpy as np
+
+    chunks = []
+    with av.open(str(audio_path)) as container:
+        stream = container.streams.audio[0]
+        resampler = av.AudioResampler(format="s16", layout="mono", rate=rate)
+        for frame in container.decode(stream):
+            for out in resampler.resample(frame):
+                chunks.append(out.to_ndarray().reshape(-1))
+        for out in resampler.resample(None):
+            chunks.append(out.to_ndarray().reshape(-1))
+    return np.concatenate(chunks).astype(np.float32) / 32768.0
+
+
 def transcribe(audio_path: Path, model_size: str = "small") -> list[dict]:
     """Local transcription on CPU. Not used by the fixture run."""
     from faster_whisper import WhisperModel  # optional dependency, pip install -e ".[asr]"
 
     model = WhisperModel(model_size, device="cpu", compute_type="int8")
-    segments, _ = model.transcribe(str(audio_path), vad_filter=True, beam_size=1)
+    segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1)
     return [
         {"t0_ms": int(s.start * 1000), "t1_ms": int(s.end * 1000), "speaker": "", "text": s.text.strip()}
         for s in segments

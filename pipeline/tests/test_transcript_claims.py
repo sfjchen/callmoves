@@ -67,3 +67,15 @@ def test_speaker_heuristic_follows_call_shape():
     assert len(turns) == 7 and turns[1]["text"].startswith("Thanks. Revenue") and turns[1]["t1_ms"] == 12000
     claims = extract_claims_rules(align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [Segment(seg_id=i, **t) for i, t in enumerate(turns)]))
     assert {c.quote[:10] for c in claims} == {"Revenue wa", "Net intere", "We expect "}
+
+
+def test_release_table_millions_match_spoken_billions():
+    from callmoves.novelty import _num_values, _nums_match
+    assert _nums_match(_num_values("Revenue was $21.9 billion, up 2%."), _num_values("Total revenue $ 21,870 21,436"))
+    assert not _nums_match(_num_values("Net interest income of about $13 billion"), _num_values("Total revenue $ 21,870"))
+    assert _nums_match(_num_values("ROTCE was 16.3%"), _num_values("return on tangible common equity 16.3%"))
+
+
+def test_percentages_match_exactly_not_approximately():
+    from callmoves.novelty import _num_values, _nums_match
+    assert not _nums_match(_num_values("roughly 77.5%"), _num_values("in the 78% to 80% range"))
