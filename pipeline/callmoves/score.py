@@ -11,6 +11,7 @@ from .models import Claim, Moment, Segment
 NOVEL_WEIGHT = 1.0
 STALE_WEIGHT = 0.25
 TIMING_SCALE_MIN = 3.0
+VOL_CAP = 10.0   # a single block print without a price move should not dominate the score
 
 
 def timing_weight(minutes_to_flag: float) -> float:
@@ -23,7 +24,7 @@ def score_claim(claim: Claim, bars: pd.DataFrame) -> tuple[float, float, float, 
     ret5, vol_mult = forward_return(bars, claim.ts)
     dist = minutes_to_nearest_flag(bars, claim.ts)
     novelty = NOVEL_WEIGHT if claim.novel else STALE_WEIGHT
-    score = novelty * abs(ret5) * max(1.0, vol_mult) * timing_weight(dist)
+    score = novelty * abs(ret5) * min(VOL_CAP, max(1.0, vol_mult)) * timing_weight(dist)
     return score, ret5, vol_mult, dist
 
 
@@ -42,7 +43,7 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
             continue
         seen_minutes.add(minute)
         moments.append(Moment(
-            rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg_by_id[c.seg_id].t0_ms,
+            rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg_by_id[c.seg_id].time_of(c.quote),
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=ret5, vol_mult=vol_mult,
             nearest_flag_min=(dist if not math.isinf(dist) else -1.0), score=score,

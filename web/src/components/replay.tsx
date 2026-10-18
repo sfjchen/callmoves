@@ -9,6 +9,7 @@ import { clock, mmss, pct, shortSpeaker } from "@/lib/format";
 
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
+const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
 
 type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
@@ -53,7 +54,7 @@ export default function Replay({ data }: { data: CallOutput }) {
 
       <section className="border border-neutral-200 rounded-lg p-3 mb-4">
         <div className="flex items-baseline justify-between mb-1">
-          <div className="text-sm font-medium">Sector-adjusted return (%, cumulative from 08:30) and volume multiple</div>
+          <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(data.bars[0]?.ts ?? data.call.call_start)}) and volume multiple</div>
           <div className="text-sm text-neutral-600 tabular">
             cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs)} into call)
             {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
@@ -72,7 +73,7 @@ export default function Replay({ data }: { data: CallOutput }) {
                 tickFormatter={(t: number) => clock(new Date(start + t))} ticks={ticks(points, start)} fontSize={11}
               />
               <YAxis yAxisId="ret" tickFormatter={(v: number) => `${v.toFixed(1)}%`} fontSize={11} width={48} />
-              <YAxis yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11} width={36} domain={[0, (max: number) => Math.max(5, Math.ceil(max))]} />
+              <YAxis yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11} width={36} domain={[0, VOL_AXIS_MAX]} allowDataOverflow />
               <Tooltip
                 labelFormatter={(t) => `${clock(new Date(start + Number(t)))} ET`}
                 formatter={(v, name) => (name === "cum" ? [`${Number(v).toFixed(2)}%`, "adj. return"] : [`${Number(v).toFixed(1)}x`, "volume"])}

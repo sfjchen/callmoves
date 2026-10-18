@@ -28,7 +28,7 @@ def main(argv=None):
     ap.add_argument("--quarter", required=True)
     ap.add_argument("--etf", required=True)
     ap.add_argument("--call-start", required=True, help="ISO with offset, e.g. 2026-10-13T10:00:00-04:00")
-    ap.add_argument("--audio", type=Path, help="audio file; omit to reuse an existing call.json in --out")
+    ap.add_argument("--audio", type=Path, help="audio file; omit to relabel whisper_segments.json already in --out")
     ap.add_argument("--release", type=Path, required=True)
     ap.add_argument("--prior", type=Path, help="prior-quarter transcript or release")
     ap.add_argument("--company")
@@ -42,9 +42,16 @@ def main(argv=None):
     call_start = datetime.fromisoformat(args.call_start)
 
     call_json = out / "call.json"
+    raw_json = out / "whisper_segments.json"   # kept so speaker labels can be redone without re-transcribing
     if args.audio:
         print(f"transcribing {args.audio} with faster-whisper {args.model} ...", flush=True)
         raw = transcribe(args.audio, model_size=args.model)
+        raw_json.write_text(json.dumps(raw))
+    elif raw_json.exists():
+        raw = json.loads(raw_json.read_text())
+    else:
+        raw = None
+    if raw is not None:
         segments = merge_turns(label_speakers(raw))
         call_json.write_text(json.dumps({
             "ticker": args.ticker, "quarter": args.quarter, "company": args.company, "call_start": args.call_start,
@@ -53,7 +60,7 @@ def main(argv=None):
         print(f"  {len(raw)} whisper segments -> {len(segments)} turns, "
               f"{sum(s['speaker'] == 'Management' for s in segments)} management")
     elif not call_json.exists():
-        ap.error("--audio is required when call.json does not exist yet")
+        ap.error("--audio is required when there is no call.json or whisper_segments.json yet")
 
     print("fetching 1-minute bars ...", flush=True)
     bars = bars_for_call(args.ticker, args.etf, call_start)

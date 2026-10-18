@@ -14,6 +14,7 @@ export type Segment = {
   t1_ms: number;
   speaker: string;
   text: string;
+  parts: { t0_ms: number; text: string }[];
   ts: string;
 };
 

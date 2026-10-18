@@ -8,7 +8,7 @@ Earnings call market-reaction dashboard. Spec: `../spec/`. Owner: Jonathan Chen 
 
 ## Commands
 ```bash
-cd pipeline && .venv/bin/python -m pytest -q                                   # 13 tests, offline, under 1 s
+cd pipeline && .venv/bin/python -m pytest -q                                   # offline, under 1 s
 cd pipeline && .venv/bin/python -m callmoves.run fixtures/acme_q3_2026 --out ../web/data
 cd web && npm run dev                                                           # localhost:3000
 cd web && npm run type-check && npm run lint

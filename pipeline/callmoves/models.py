@@ -15,13 +15,27 @@ class CallMeta(BaseModel):
     company: str | None = None
 
 
+class Part(BaseModel):
+    """One ASR segment inside a merged speaker turn, so a quote can be timed to the sentence, not the turn."""
+    t0_ms: int
+    text: str
+
+
 class Segment(BaseModel):
     seg_id: int
     t0_ms: int
     t1_ms: int
     speaker: str
     text: str
+    parts: list[Part] = []
     ts: datetime | None = None  # filled by align()
+
+    def time_of(self, quote: str) -> int:
+        """Audio offset of the part containing the quote, else the turn start."""
+        for p in self.parts:
+            if quote[:40] in p.text or p.text[:40] in quote:
+                return p.t0_ms
+        return self.t0_ms
 
 
 class Bar(BaseModel):

@@ -21,6 +21,14 @@ METRIC_WORDS = ["revenue", "gross margin", "operating margin", "margin", "free c
 PERIOD = re.compile(r"\b(Q[1-4]|fiscal (?:year )?20\d\d|FY ?20\d\d|full[- ]year|next quarter|fourth quarter|third quarter|this quarter|20\d\d)\b", re.I)
 
 
+def _claim_ts(seg: Segment, quote: str):
+    """Wall-clock time of the sentence itself: turn time plus the offset of the ASR part that holds it."""
+    if seg.ts is None:
+        return None
+    from datetime import timedelta
+    return seg.ts + timedelta(milliseconds=seg.time_of(quote) - seg.t0_ms)
+
+
 def is_management(speaker: str) -> bool:
     return bool(MANAGEMENT.search(speaker))
 
@@ -55,7 +63,7 @@ def extract_claims_rules(segments: list[Segment]) -> list[Claim]:
             claims.append(Claim(
                 claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=sent,
                 metric=metric or "number", value=num.group(0).strip() if num else None,
-                period=per.group(0) if per else None, kind=kind, ts=seg.ts,
+                period=per.group(0) if per else None, kind=kind, ts=_claim_ts(seg, sent),
             ))
     return claims
 
@@ -92,7 +100,7 @@ def extract_claims_llm(segments: list[Segment], model: str = "claude-sonnet-5-5"
                 continue
             kind = c.kind if c.kind in ("guidance", "result", "qualitative") else "qualitative"
             claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=c.quote,
-                                metric=c.metric, value=c.value, period=c.period, kind=kind, ts=seg.ts))
+                                metric=c.metric, value=c.value, period=c.period, kind=kind, ts=_claim_ts(seg, c.quote)))
     return claims
 
 

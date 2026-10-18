@@ -55,14 +55,16 @@ def test_speaker_heuristic_follows_call_shape():
         {"t0_ms": 0, "t1_ms": 5000, "speaker": "", "text": "Good morning. I would now like to turn the call over to John."},
         {"t0_ms": 5000, "t1_ms": 9000, "speaker": "", "text": "Thanks. Revenue was $20 billion this quarter."},
         {"t0_ms": 9000, "t1_ms": 12000, "speaker": "", "text": "Net interest income was $12 billion."},
-        {"t0_ms": 12000, "t1_ms": 15000, "speaker": "", "text": "Our first question comes from Jane at Firm. Please go ahead."},
-        {"t0_ms": 15000, "t1_ms": 18000, "speaker": "", "text": "Thanks. Can you talk about deposit costs?"},
+        {"t0_ms": 12000, "t1_ms": 15000, "speaker": "", "text": "Our first question will come from Jane of Firm."},
+        {"t0_ms": 15000, "t1_ms": 16000, "speaker": "", "text": "Your line is open."},
+        {"t0_ms": 16000, "t1_ms": 17000, "speaker": "", "text": "Hey, thanks for the question."},
+        {"t0_ms": 17000, "t1_ms": 18000, "speaker": "", "text": "Can you talk about deposit costs?"},
         {"t0_ms": 18000, "t1_ms": 22000, "speaker": "", "text": "Sure. We expect deposit costs to fall 10 basis points."},
-        {"t0_ms": 22000, "t1_ms": 25000, "speaker": "", "text": "Our next question comes from Bob at Other."},
+        {"t0_ms": 22000, "t1_ms": 25000, "speaker": "", "text": "The next question will come from Bob of Other. Please go ahead."},
         {"t0_ms": 25000, "t1_ms": 28000, "speaker": "", "text": "Hi, what about expenses?"},
     ]
     labeled = label_speakers(raw)
-    assert [s["speaker"] for s in labeled] == ["Operator", "Management", "Management", "Operator", "Analyst", "Management", "Operator", "Analyst"]
+    assert [s["speaker"] for s in labeled] == ["Operator", "Management", "Management", "Operator", "Operator", "Analyst", "Analyst", "Management", "Operator", "Analyst"]
     turns = merge_turns(labeled)
     assert len(turns) == 7 and turns[1]["text"].startswith("Thanks. Revenue") and turns[1]["t1_ms"] == 12000
     claims = extract_claims_rules(align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [Segment(seg_id=i, **t) for i, t in enumerate(turns)]))
@@ -79,3 +81,13 @@ def test_release_table_millions_match_spoken_billions():
 def test_percentages_match_exactly_not_approximately():
     from callmoves.novelty import _num_values, _nums_match
     assert not _nums_match(_num_values("roughly 77.5%"), _num_values("in the 78% to 80% range"))
+
+
+def test_claim_is_timed_to_its_sentence_not_the_turn():
+    from datetime import timedelta
+    from callmoves.models import Part
+    turn = Segment(seg_id=0, t0_ms=60_000, t1_ms=100_000, speaker="Management",
+                   text="Thanks for the question. Net interest income was $12 billion in the quarter.",
+                   parts=[Part(t0_ms=60_000, text="Thanks for the question."), Part(t0_ms=85_000, text="Net interest income was $12 billion in the quarter.")])
+    [c] = extract_claims_rules(align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [turn]))
+    assert c.ts == T0 + timedelta(seconds=85)

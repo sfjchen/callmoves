@@ -63,29 +63,36 @@ def transcribe(audio_path: Path, model_size: str = "small") -> list[dict]:
 # extractor needs. Real speaker names would come from pyannote on Modal.
 import re
 
-_OPERATOR = re.compile(r"\b(question comes from|next question|please go ahead|your line is (now )?open|listen.only|"
-                       r"concludes today|press star|q&a session|question-and-answer|thank you for standing by|"
-                       r"i would now like to turn the (call|conference) over)\b", re.I)
-_QA_START = re.compile(r"\b(question comes from|first question|our first question|open the (call|line) for questions)\b", re.I)
+_OPERATOR = re.compile(r"\b(questions? (will )?comes? from|next question|final question|first question|please go ahead|"
+                       r"your line is (now )?open|listen.only|concludes today|press star|question and answer session|"
+                       r"question-and-answer|thank you for standing by|stand by for|being recorded|"
+                       r"turn the (call|conference) (back )?over to)\b", re.I)
+_QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.I)
+_INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.I)
+_MAX_ANALYST_SEGMENTS = 8
 
 
 def label_speakers(segments: list[dict]) -> list[dict]:
-    """Assigns Operator, Management or Analyst to raw transcription segments, in place order."""
-    out, in_qa, expect_analyst = [], False, False
+    """Assigns Operator, Management or Analyst to raw transcription segments.
+
+    Prepared remarks are management. In Q&A the operator introduces each analyst, the analyst speaks until a
+    sentence ends in a question mark (or a few segments pass), then management answers until the next operator."""
+    out, in_qa, analyst_left = [], False, 0
     for s in segments:
-        text = s["text"]
+        text = s["text"].strip()
         if _OPERATOR.search(text):
             label = "Operator"
             if _QA_START.search(text):
                 in_qa = True
-            expect_analyst = in_qa and bool(re.search(r"question comes from|next question", text, re.I))
+            if in_qa and _INTRO.search(text):
+                analyst_left = _MAX_ANALYST_SEGMENTS   # "your line is open" follows and must not reset this
         elif not in_qa:
             label = "Management"
-        elif expect_analyst:
+        elif analyst_left > 0:
             label = "Analyst"
-            expect_analyst = False
+            analyst_left = 0 if text.endswith("?") else analyst_left - 1
         else:
-            label = "Analyst" if out and out[-1]["speaker"] == "Analyst" and text.rstrip().endswith("?") else "Management"
+            label = "Management"
         out.append({**s, "speaker": label})
     return out
 
@@ -95,9 +102,11 @@ def merge_turns(segments: list[dict], max_ms: int = 45_000) -> list[dict]:
     turns: list[dict] = []
     for s in segments:
         last = turns[-1] if turns else None
+        part = {"t0_ms": s["t0_ms"], "text": s["text"]}
         if last and last["speaker"] == s["speaker"] and s["t1_ms"] - last["t0_ms"] <= max_ms:
             last["t1_ms"] = s["t1_ms"]
             last["text"] = (last["text"] + " " + s["text"]).strip()
+            last["parts"].append(part)
         else:
-            turns.append(dict(s))
+            turns.append({**s, "parts": [part]})
     return turns
