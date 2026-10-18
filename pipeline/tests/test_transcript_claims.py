@@ -1,0 +1,49 @@
+from datetime import timedelta
+
+from callmoves.claims import extract_claims_rules
+from callmoves.models import CallMeta, Segment
+from callmoves.novelty import judge_novelty_rules
+from callmoves.transcript import align
+from conftest import T0
+
+
+def seg(i, t0, speaker, text):
+    return Segment(seg_id=i, t0_ms=t0, t1_ms=t0 + 1000, speaker=speaker, text=text)
+
+
+def test_align_adds_call_start_to_offsets():
+    meta = CallMeta(ticker="X", quarter="Q1", call_start=T0)
+    out = align(meta, [seg(0, 0, "CEO", "hi"), seg(1, 90_000, "CFO", "bye")])
+    assert out[0].ts == T0 and out[1].ts == T0 + timedelta(seconds=90)
+
+
+def test_rules_extract_guidance_from_management_only():
+    segs = align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [
+        seg(0, 0, "Marcus Lee, CFO", "We are raising our full year revenue guidance to $1.64 billion. Thank you."),
+        seg(1, 5000, "Priya Nair, Analyst", "Is the $1.64 billion number conservative?"),
+        seg(2, 9000, "Operator", "Next question."),
+    ])
+    claims = extract_claims_rules(segs)
+    assert [c.seg_id for c in claims] == [0]
+    assert claims[0].kind == "guidance" and claims[0].value.startswith("$1.64") and claims[0].ts == T0
+
+
+def test_novelty_by_number_and_by_overlap():
+    release = "Acme reiterates revenue guidance of $1.61 billion to $1.62 billion. Deal cycles were steady."
+    segs = align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [
+        seg(0, 0, "CFO", "We had guided to $1.61 billion to $1.62 billion."),
+        seg(1, 1000, "CFO", "We are raising guidance to $1.64 billion to $1.65 billion."),
+    ])
+    old, new = [judge_novelty_rules(c, release, "") for c in extract_claims_rules(segs)]
+    assert old.novel is False and old.matched_doc == "release" and "1.61" in old.matched_text
+    assert new.novel is True and new.matched_text is None
+
+
+def test_same_wording_with_new_numbers_is_novel_and_transitions_are_not_claims():
+    prior = "For the full fiscal year 2026 we are raising our revenue guidance to $1.61 billion to $1.62 billion."
+    segs = align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [
+        seg(0, 0, "CFO", "Now to guidance. We are raising our full year fiscal 2026 revenue guidance to $1.64 billion to $1.65 billion."),
+    ])
+    claims = extract_claims_rules(segs)
+    assert [c.quote[:6] for c in claims] == ["We are"]
+    assert judge_novelty_rules(claims[0], "", prior).novel is True
