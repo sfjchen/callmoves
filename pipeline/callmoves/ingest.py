@@ -33,7 +33,7 @@ def main(argv=None):
     ap.add_argument("--prior", type=Path, help="prior-quarter transcript or release")
     ap.add_argument("--company")
     ap.add_argument("--audio-url", help="URL the web player should use, e.g. /audio/WFC_Q3-2026.mp3")
-    ap.add_argument("--model", default="small", help="faster-whisper model size")
+    ap.add_argument("--model", default="medium", help="faster-whisper model size")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args(argv)
 
