@@ -87,3 +87,40 @@ def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) 
     if flags.empty:
         return float("inf")
     return float((flags.iloc[0] - ts).total_seconds() / 60)
+
+
+def fetch_yfinance_bars(ticker: str, day: datetime) -> pd.DataFrame:
+    """1-minute bars for one day including pre and post market. No key, but only the last 30 days."""
+    import yfinance as yf
+
+    start = day.date().isoformat()
+    end = (day + timedelta(days=1)).date().isoformat()
+    df = yf.download(ticker, start=start, end=end, interval="1m", prepost=True, progress=False, auto_adjust=False)
+    if df.empty:
+        raise RuntimeError(f"yfinance returned no 1-minute bars for {ticker} on {start}")
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+    out = pd.DataFrame({"ts": pd.to_datetime(df.index), "px": df["Close"].to_numpy(), "vol": df["Volume"].to_numpy()})
+    out = out.dropna(subset=["px"]).reset_index(drop=True)
+    out["ts"] = out["ts"].dt.tz_convert("UTC")
+    return out
+
+
+def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:
+    """Polygon when POLYGON_API_KEY is set, otherwise yfinance. Both return ts (UTC), px, vol."""
+    if os.environ.get("POLYGON_API_KEY"):
+        df = fetch_polygon_bars(ticker, start, end)
+    else:
+        df = fetch_yfinance_bars(ticker, start)
+    return df[(df["ts"] >= start) & (df["ts"] <= end)].reset_index(drop=True)
+
+
+def bars_for_call(ticker: str, etf: str, call_start: datetime, before_min: int = 180, after_min: int = 150) -> pd.DataFrame:
+    """Stock and ETF bars around the call, joined on the minute. Window covers a pre-market release and the call."""
+    start = call_start - timedelta(minutes=before_min)
+    end = call_start + timedelta(minutes=after_min)
+    stock = fetch_bars(ticker, start, end)
+    etf_df = fetch_bars(etf, start, end)
+    df = join_stock_etf(stock, etf_df)
+    df = df[df["vol"] > 0].reset_index(drop=True)   # thin pre-market minutes with no trades carry no information
+    return df

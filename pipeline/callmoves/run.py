@@ -1,6 +1,6 @@
-"""Run the whole pipeline on a fixture folder and write one JSON the web app reads.
+"""Run the whole pipeline on a call folder and write one JSON the web app reads.
 
-    python -m callmoves.run fixtures/acme_q3_2026 --out ../web/public/data
+    python -m callmoves.run fixtures/acme_q3_2026 --out ../web/data
 """
 from __future__ import annotations
 
@@ -8,6 +8,8 @@ import argparse
 import json
 from datetime import timedelta
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 from . import market
 from .claims import extract_claims
@@ -33,6 +35,7 @@ def run(fixture: Path) -> CallOutput:
 
 
 def main(argv=None):
+    load_dotenv()
     ap = argparse.ArgumentParser()
     ap.add_argument("fixture", type=Path)
     ap.add_argument("--out", type=Path, default=Path("out"))

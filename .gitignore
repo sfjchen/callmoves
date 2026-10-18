@@ -6,6 +6,8 @@
 *.m4a
 *.wav
 pipeline/out/
+pipeline/raw/
+web/public/audio/
 
 # python
 pipeline/.venv/
@@ -21,3 +23,4 @@ web/next-env.d.ts
 *.tsbuildinfo
 
 .DS_Store
+.vercel/

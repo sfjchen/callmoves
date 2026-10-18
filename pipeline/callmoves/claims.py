@@ -12,7 +12,7 @@ from pydantic import BaseModel
 
 from .models import Claim, Segment
 
-MANAGEMENT = re.compile(r"\b(ceo|cfo|coo|president|chief|founder)\b", re.I)
+MANAGEMENT = re.compile(r"\b(ceo|cfo|coo|president|chief|founder|management)\b", re.I)
 NUMBER = re.compile(r"(\$\s?\d[\d,.]*\s*(?:billion|million|thousand|[bmk])?|\d[\d,.]*\s?%|\b\d[\d,.]*\s*(?:basis points|bps|million|billion|customers|percent)\b)", re.I)
 GUIDANCE = re.compile(r"\b(expect|expects|expecting|guidance|guide|outlook|raise|raising|raised|lower|lowering|forecast|anticipate|target|for the full year|for fiscal|next quarter|fourth quarter|q4)\b", re.I)
 METRIC_WORDS = ["revenue", "gross margin", "operating margin", "margin", "free cash flow", "cash flow", "net retention",

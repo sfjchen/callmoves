@@ -47,3 +47,23 @@ def test_same_wording_with_new_numbers_is_novel_and_transitions_are_not_claims()
     claims = extract_claims_rules(segs)
     assert [c.quote[:6] for c in claims] == ["We are"]
     assert judge_novelty_rules(claims[0], "", prior).novel is True
+
+
+def test_speaker_heuristic_follows_call_shape():
+    from callmoves.transcript import label_speakers, merge_turns
+    raw = [
+        {"t0_ms": 0, "t1_ms": 5000, "speaker": "", "text": "Good morning. I would now like to turn the call over to John."},
+        {"t0_ms": 5000, "t1_ms": 9000, "speaker": "", "text": "Thanks. Revenue was $20 billion this quarter."},
+        {"t0_ms": 9000, "t1_ms": 12000, "speaker": "", "text": "Net interest income was $12 billion."},
+        {"t0_ms": 12000, "t1_ms": 15000, "speaker": "", "text": "Our first question comes from Jane at Firm. Please go ahead."},
+        {"t0_ms": 15000, "t1_ms": 18000, "speaker": "", "text": "Thanks. Can you talk about deposit costs?"},
+        {"t0_ms": 18000, "t1_ms": 22000, "speaker": "", "text": "Sure. We expect deposit costs to fall 10 basis points."},
+        {"t0_ms": 22000, "t1_ms": 25000, "speaker": "", "text": "Our next question comes from Bob at Other."},
+        {"t0_ms": 25000, "t1_ms": 28000, "speaker": "", "text": "Hi, what about expenses?"},
+    ]
+    labeled = label_speakers(raw)
+    assert [s["speaker"] for s in labeled] == ["Operator", "Management", "Management", "Operator", "Analyst", "Management", "Operator", "Analyst"]
+    turns = merge_turns(labeled)
+    assert len(turns) == 7 and turns[1]["text"].startswith("Thanks. Revenue") and turns[1]["t1_ms"] == 12000
+    claims = extract_claims_rules(align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [Segment(seg_id=i, **t) for i, t in enumerate(turns)]))
+    assert {c.quote[:10] for c in claims} == {"Revenue wa", "Net intere", "We expect "}

@@ -10,7 +10,7 @@ Prototype status: the pipeline runs end to end on a fictional fixture, the web a
 cd pipeline
 python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m pytest -q
-.venv/bin/python -m callmoves.run fixtures/acme_q3_2026 --out ../web/public/data
+.venv/bin/python -m callmoves.run fixtures/acme_q3_2026 --out ../web/data
 
 cd ../web
 npm install

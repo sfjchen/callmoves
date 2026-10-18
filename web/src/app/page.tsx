@@ -12,7 +12,7 @@ export default async function Library() {
       <h1 className="text-xl font-semibold mb-1">Call library</h1>
       <p className="text-sm text-neutral-500 mb-4">
         Processed calls. Each row shows the top-ranked moment. Add a call by running the pipeline into{" "}
-        <code className="text-xs bg-neutral-100 px-1 rounded">web/public/data/</code>.
+        <code className="text-xs bg-neutral-100 px-1 rounded">web/data/</code>.
       </p>
       {calls.length === 0 ? (
         <p className="text-neutral-500">No processed calls yet.</p>

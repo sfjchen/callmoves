@@ -1,10 +1,10 @@
-// Server-only data access. The prototype reads the pipeline's JSON files from public/data/.
+// Server-only data access. The prototype reads the pipeline's JSON files from web/data/.
 // Swapping this module for Supabase queries is the next step; nothing else needs to change.
 import { promises as fs } from "fs";
 import path from "path";
 import type { CallOutput, CallSummary } from "./types";
 
-const DATA_DIR = path.join(process.cwd(), "public", "data");
+const DATA_DIR = path.join(process.cwd(), "data");
 
 export async function listCallIds(): Promise<string[]> {
   try {
