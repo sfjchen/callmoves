@@ -69,6 +69,7 @@ def extract_claims_rules(segments: list[Segment]) -> list[Claim]:
 
 
 class _ClaimLLM(BaseModel):
+    seg_id: int
     quote: str
     metric: str
     value: str | None = None
@@ -80,32 +81,53 @@ class _ClaimsLLM(BaseModel):
     claims: list[_ClaimLLM]
 
 
-def extract_claims_llm(segments: list[Segment], model: str = "claude-sonnet-5-5") -> list[Claim]:
+MODEL = "claude-sonnet-5-5"
+CHUNK_CHARS = 6000
+
+_SYSTEM = (
+    "You extract financial claims from earnings-call speaker turns. A claim is one sentence that states a number, "
+    "a change in guidance, or a material statement about the business (demand, pricing, margins, capital return, "
+    "risk). Skip pleasantries, transitions and analysts' questions. For each claim return the seg_id of the turn it "
+    "came from and `quote`, the sentence copied verbatim from that turn. kind is guidance, result or qualitative."
+)
+
+
+def _chunks(segments: list[Segment]) -> list[list[Segment]]:
+    out, cur, size = [], [], 0
+    for seg in segments:
+        if cur and size + len(seg.text) > CHUNK_CHARS:
+            out.append(cur); cur, size = [], 0
+        cur.append(seg); size += len(seg.text)
+    if cur:
+        out.append(cur)
+    return out
+
+
+def extract_claims_llm(segments: list[Segment], model: str = MODEL) -> list[Claim]:
     import anthropic
 
     client = anthropic.Anthropic()
+    by_id = {s.seg_id: s for s in segments}
     claims: list[Claim] = []
-    mgmt = [s for s in segments if is_management(s.speaker)]
-    for seg in mgmt:
-        resp = client.messages.parse(
-            model=model, max_tokens=4000,
-            system=("You extract financial claims from one earnings-call speaker turn. A claim is a sentence stating a "
-                    "number, a guidance change, or a material qualitative statement about the business. `quote` must be "
-                    "a verbatim sentence from the text. kind is guidance, result or qualitative. Return no claims if none."),
-            messages=[{"role": "user", "content": f"Speaker: {seg.speaker}\n\n{seg.text}"}],
-            output_format=_ClaimsLLM,
-        )
+    for chunk in _chunks([s for s in segments if is_management(s.speaker)]):
+        body = "\n\n".join(f"[seg_id {s.seg_id}] {s.speaker}: {s.text}" for s in chunk)
+        resp = client.messages.parse(model=model, max_tokens=8000, system=_SYSTEM,
+                                     messages=[{"role": "user", "content": body}], output_format=_ClaimsLLM)
         for c in resp.parsed_output.claims:
-            if c.quote not in seg.text:        # verifiability rule: quote must exist verbatim or the claim is dropped
+            seg = by_id.get(c.seg_id)
+            if seg is None or c.quote.strip() not in seg.text:   # quote must exist verbatim or the claim is dropped
                 continue
             kind = c.kind if c.kind in ("guidance", "result", "qualitative") else "qualitative"
-            claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=c.quote,
+            claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=c.quote.strip(),
                                 metric=c.metric, value=c.value, period=c.period, kind=kind, ts=_claim_ts(seg, c.quote)))
     return claims
 
 
 def extract_claims(segments: list[Segment]) -> tuple[list[Claim], bool]:
-    """Returns (claims, llm_used)."""
+    """Returns (claims, llm_used). Falls back to the rules if the API call fails (no credits, network)."""
     if os.environ.get("ANTHROPIC_API_KEY"):
-        return extract_claims_llm(segments), True
+        try:
+            return extract_claims_llm(segments), True
+        except Exception as e:  # noqa: BLE001
+            print(f"claude extraction failed, using rules: {str(e)[:160]}")
     return extract_claims_rules(segments), False

@@ -84,33 +84,63 @@ def judge_novelty_rules(claim: Claim, release: str, prior: str, overlap: float =
     return claim.model_copy(update={"novel": True, "matched_doc": None, "matched_text": None})
 
 
-class _NoveltyLLM(BaseModel):
+class _VerdictLLM(BaseModel):
+    claim_id: int
     novel: bool
     matched_doc: str | None = None
     matched_text: str | None = None
 
 
-def judge_novelty_llm(claim: Claim, release: str, prior: str, model: str = "claude-sonnet-5-5") -> Claim:
+class _VerdictsLLM(BaseModel):
+    verdicts: list[_VerdictLLM]
+
+
+MODEL = "claude-sonnet-5-5"
+BATCH = 25
+
+_SYSTEM = (
+    "You decide whether statements from an earnings call are new information relative to two reference documents: "
+    "the earnings release published before the call and the prior quarter's materials. A statement is NOT novel when "
+    "the same fact or number already appears in a document, even if worded differently. If not novel, set matched_doc "
+    "to 'release' or 'prior_call' and matched_text to the sentence it matches, copied from the document. Return one "
+    "verdict per claim_id."
+)
+
+
+def judge_novelty_llm(claims: list[Claim], release: str, prior: str, model: str = MODEL) -> list[Claim]:
     import anthropic
 
     client = anthropic.Anthropic()
-    resp = client.messages.parse(
-        model=model, max_tokens=1000,
-        system=("Decide whether a statement from an earnings call is new information relative to two reference documents. "
-                "It is NOT novel if the same fact or number appears in either document. If not novel, set matched_doc to "
-                "'release' or 'prior_call' and matched_text to the verbatim sentence it matches."),
-        messages=[{"role": "user", "content": [
-            {"type": "text", "text": "Earnings release:\n" + release, "cache_control": {"type": "ephemeral"}},
-            {"type": "text", "text": "Prior-quarter call transcript:\n" + prior, "cache_control": {"type": "ephemeral"}},
-            {"type": "text", "text": f"Statement ({claim.speaker}): {claim.quote}"},
-        ]}],
-        output_format=_NoveltyLLM,
-    )
-    r = resp.parsed_output
-    md = r.matched_doc if r.matched_doc in ("release", "prior_call") else None
-    return claim.model_copy(update={"novel": r.novel, "matched_doc": md, "matched_text": r.matched_text})
+    by_id = {c.claim_id: c for c in claims}
+    out: dict[int, Claim] = {}
+    for i in range(0, len(claims), BATCH):
+        batch = claims[i:i + BATCH]
+        listing = "\n".join(f"[claim_id {c.claim_id}] {c.speaker}: {c.quote}" for c in batch)
+        resp = client.messages.parse(
+            model=model, max_tokens=8000, system=_SYSTEM,
+            messages=[{"role": "user", "content": [
+                {"type": "text", "text": "Earnings release:\n" + release},
+                {"type": "text", "text": "Prior-quarter materials:\n" + (prior or "(none)"),
+                 "cache_control": {"type": "ephemeral"}},   # the two documents are reused by every batch
+                {"type": "text", "text": "Statements:\n" + listing},
+            ]}],
+            output_format=_VerdictsLLM,
+        )
+        for v in resp.parsed_output.verdicts:
+            c = by_id.get(v.claim_id)
+            if c is None:
+                continue
+            md = v.matched_doc if v.matched_doc in ("release", "prior_call") else None
+            out[c.claim_id] = c.model_copy(update={"novel": v.novel, "matched_doc": md if not v.novel else None,
+                                                    "matched_text": (v.matched_text or "")[:300] if not v.novel else None})
+    # anything the model skipped falls back to the rules
+    return [out.get(c.claim_id) or judge_novelty_rules(c, release, prior) for c in claims]
 
 
 def judge_novelty(claims: list[Claim], release: str, prior: str) -> list[Claim]:
-    fn = judge_novelty_llm if os.environ.get("ANTHROPIC_API_KEY") else judge_novelty_rules
-    return [fn(c, release, prior) for c in claims]
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            return judge_novelty_llm(claims, release, prior)
+        except Exception as e:  # noqa: BLE001
+            print(f"claude novelty failed, using rules: {str(e)[:160]}")
+    return [judge_novelty_rules(c, release, prior) for c in claims]
