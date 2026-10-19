@@ -10,6 +10,7 @@ import { clock, mmss, pct, shortSpeaker } from "@/lib/format";
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
 const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
+const CONF = { high: "bg-emerald-100 text-emerald-800", medium: "bg-amber-100 text-amber-800", low: "bg-neutral-100 text-neutral-600" };
 
 type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
@@ -49,7 +50,7 @@ export default function Replay({ data }: { data: CallOutput }) {
           Call {clock(data.call.call_start)} to {clock(data.call_end)} ET, vs {data.call.etf}
         </span>
         <span className="text-xs rounded bg-neutral-100 px-2 py-0.5 text-neutral-600">
-          {flaggedCount} abnormal minutes, {data.claims.length} claims, {data.llm_used ? "Claude" : "rule-based"} extraction
+          {flaggedCount} abnormal minutes, {data.candidate_seg_ids.length} turns read, {data.claims.length} claims, {data.llm_used ? "Claude" : "rule-based"} extraction
         </span>
       </div>
 
@@ -108,7 +109,8 @@ export default function Replay({ data }: { data: CallOutput }) {
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
         <section className="lg:col-span-2 border border-neutral-200 rounded-lg p-3">
-          <h2 className="text-sm font-medium mb-2">Moments, ranked</h2>
+          <h2 className="text-sm font-medium mb-1">Moments, ranked</h2>
+          <p className="text-xs text-neutral-500 mb-2">Statements made just before an abnormal minute, ranked by novelty, size of the move and timing. Associations, not proof.</p>
           <ol className="space-y-2">
             {data.moments.map((m) => (
               <MomentCard key={m.rank} m={m} active={active?.seg_id === m.seg_id} onSelect={() => seek(m.t0_ms)} />
@@ -140,10 +142,12 @@ function MomentCard({ m, active, onSelect }: { m: Moment; active: boolean; onSel
           </span>
         </div>
         <p className="text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
-        <div className="mt-1 text-xs tabular flex gap-3">
-          <span className={up ? "text-emerald-700 font-medium" : "text-red-700 font-medium"}>{pct(m.adj_ret_5m)} next 5 min</span>
+        <div className="mt-1 text-xs tabular flex flex-wrap gap-x-3 gap-y-0.5">
+          <span className={up ? "text-emerald-700 font-medium" : "text-red-700 font-medium"}>{pct(m.ret_5m)} next 5 min</span>
+          <span className="text-neutral-600">vs {pct(m.etf_ret_5m)} sector, {pct(m.adj_ret_5m)} adjusted</span>
           <span className="text-neutral-600">{m.vol_mult.toFixed(1)}x volume</span>
           {m.nearest_flag_min >= 0 && <span className="text-neutral-500">abnormal minute {m.nearest_flag_min === 0 ? "at" : `+${m.nearest_flag_min.toFixed(0)} min after`} the statement</span>}
+          <span className={`ml-auto rounded px-1.5 py-0.5 ${CONF[m.confidence]}`}>{m.confidence} confidence</span>
         </div>
       </button>
     </li>

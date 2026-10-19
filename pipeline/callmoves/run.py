@@ -44,11 +44,14 @@ def run(fixture: Path) -> CallOutput:
     bars_df = market.flag_abnormal(market.adjusted_returns(bars_df))
     release = (fixture / "release.txt").read_text()
     prior = (fixture / "prior_transcript.txt").read_text()
-    claims, llm_used = _claims_with_novelty(fixture, segments, release, prior)
+    # price first: only turns spoken in the 5 minutes before an abnormal minute are read for claims
+    candidates = market.segments_before_flags(segments, bars_df) or segments
+    claims, llm_used = _claims_with_novelty(fixture, candidates, release, prior)
     moments = rank_moments(claims, segments, bars_df)
     call_end = meta.call_start + timedelta(milliseconds=max(s.t1_ms for s in segments))
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=market.to_bars(bars_df),
-                      claims=claims, moments=moments, llm_used=llm_used)
+                      claims=claims, moments=moments, llm_used=llm_used,
+                      candidate_seg_ids=[s.seg_id for s in candidates])
 
 
 def main(argv=None):
@@ -62,11 +65,12 @@ def main(argv=None):
     call_id = f"{result.call.ticker}_{result.call.quarter}".replace(" ", "")
     path = args.out / f"{call_id}.json"
     path.write_text(result.model_dump_json(indent=1))
-    print(f"{call_id}: {len(result.segments)} segments, {len(result.bars)} bars, {len(result.claims)} claims, "
-          f"{sum(b.flagged for b in result.bars)} flagged minutes, llm={'claude' if result.llm_used else 'rules'}")
+    print(f"{call_id}: {len(result.segments)} segments, {len(result.bars)} bars, {sum(b.flagged for b in result.bars)} "
+          f"flagged minutes, {len(result.candidate_seg_ids)} candidate turns, {len(result.claims)} claims, "
+          f"llm={'claude' if result.llm_used else 'rules'}")
     for m in result.moments:
         print(f"  #{m.rank} {m.ts:%H:%M} {m.speaker}: {m.quote[:80]}  adj5m={m.adj_ret_5m:+.2%} vol={m.vol_mult:.1f}x "
-              f"novel={m.novel} score={m.score:.4f}")
+              f"novel={m.novel} {m.confidence} score={m.score:.4f}")
     print(f"wrote {path}")
 
 

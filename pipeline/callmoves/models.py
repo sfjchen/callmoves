@@ -78,9 +78,12 @@ class Moment(BaseModel):
     matched_doc: str | None
     matched_text: str | None
     adj_ret_5m: float
+    ret_5m: float = 0.0
+    etf_ret_5m: float = 0.0
     vol_mult: float
     nearest_flag_min: float
     score: float
+    confidence: Literal["high", "medium", "low"] = "low"
 
 
 class CallOutput(BaseModel):
@@ -91,3 +94,4 @@ class CallOutput(BaseModel):
     claims: list[Claim]
     moments: list[Moment]
     llm_used: bool
+    candidate_seg_ids: list[int] = []   # turns that preceded an abnormal minute, the only ones claims come from

@@ -24,3 +24,13 @@ def test_novel_claim_before_a_move_outranks_stale_claim_in_quiet_minute():
     assert [m.claim_id for m in moments] == [0, 1]
     assert moments[0].adj_ret_5m > 0.008 and moments[0].nearest_flag_min == 1.0
     assert moments[0].score > 5 * moments[1].score
+
+
+def test_candidates_are_turns_in_the_minutes_before_a_flag_and_confidence_grades():
+    from callmoves.score import confidence
+    bars = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={41: 0.012}, vol_bump={41: 5})))
+    segs = [Segment(seg_id=i, t0_ms=m * 60_000, t1_ms=0, speaker="CFO", text="x", ts=T0 + timedelta(minutes=m)) for i, m in enumerate((10, 36, 38, 41, 42))]
+    assert [s.seg_id for s in market.segments_before_flags(segs, bars)] == [1, 2, 3]
+    assert confidence(True, 0.012, 5.0, 1.0) == "high"
+    assert confidence(True, 0.003, 1.2, 4.0) == "medium"
+    assert confidence(False, 0.012, 5.0, 1.0) == "low"

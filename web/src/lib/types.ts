@@ -58,9 +58,12 @@ export type Moment = {
   matched_doc: string | null;
   matched_text: string | null;
   adj_ret_5m: number;
+  ret_5m: number;
+  etf_ret_5m: number;
   vol_mult: number;
   nearest_flag_min: number;
   score: number;
+  confidence: "high" | "medium" | "low";
 };
 
 export type CallOutput = {
@@ -71,6 +74,7 @@ export type CallOutput = {
   claims: Claim[];
   moments: Moment[];
   llm_used: boolean;
+  candidate_seg_ids: number[];
 };
 
 export type CallSummary = {

@@ -72,13 +72,35 @@ def to_bars(df: pd.DataFrame) -> list[Bar]:
             for _, row in df.iterrows()]
 
 
-def forward_return(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> tuple[float, float]:
-    """Adjusted return from the bar at ts to ts+minutes, and the max volume multiple in that window."""
+def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
+    """What happened in the minutes after ts: adjusted, raw stock and ETF returns, and the peak volume multiple."""
     win = df[(df["ts"] >= ts) & (df["ts"] <= ts + timedelta(minutes=minutes))]
     if win.empty:
-        return 0.0, 1.0
-    ret = float((1 + win["adj_ret"]).prod() - 1)
-    return ret, float(win["vol_mult"].max())
+        return {"adj_ret": 0.0, "ret": 0.0, "etf_ret": 0.0, "vol_mult": 1.0}
+    stock = float(win["px"].iloc[-1] / win["px"].iloc[0] - 1) if len(win) > 1 else 0.0
+    etf = float(win["etf_px"].iloc[-1] / win["etf_px"].iloc[0] - 1) if len(win) > 1 else 0.0
+    return {"adj_ret": float((1 + win["adj_ret"]).prod() - 1), "ret": stock, "etf_ret": etf,
+            "vol_mult": float(win["vol_mult"].max())}
+
+
+def forward_return(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> tuple[float, float]:
+    w = forward_window(df, ts, minutes)
+    return w["adj_ret"], w["vol_mult"]
+
+
+def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = 5):
+    """Work backward from the price: keep only the transcript turns spoken in the minutes before an abnormal minute.
+    Summarizing the whole call would surface what sounds important, not what the market reacted to."""
+    flags = list(df.loc[df["flagged"], "ts"])
+    if not flags:
+        return []
+    keep = []
+    for s in segments:
+        if s.ts is None:
+            continue
+        if any(f - timedelta(minutes=lookback_min) <= s.ts <= f for f in flags):
+            keep.append(s)
+    return keep
 
 
 def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) -> float:
