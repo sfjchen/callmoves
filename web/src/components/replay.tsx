@@ -17,6 +17,7 @@ export default function Replay({ data }: { data: CallOutput }) {
   const start = useMemo(() => new Date(data.call.call_start).getTime(), [data.call.call_start]);
   const endMs = new Date(data.call_end).getTime() - start;
   const [cursorMs, setCursorMs] = useState(data.moments[0]?.t0_ms ?? 0);
+  const [audioOk, setAudioOk] = useState(true); // audio is local only, the deployed app has none
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // audio drives the cursor when playing, the cursor drives audio when the user clicks
@@ -100,8 +101,8 @@ export default function Replay({ data }: { data: CallOutput }) {
         </div>
       </section>
 
-      {data.call.audio_url && (
-        <audio ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4"
+      {data.call.audio_url && audioOk && (
+        <audio ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4" onError={() => setAudioOk(false)}
           onTimeUpdate={(e) => setCursorMs(Math.round(e.currentTarget.currentTime * 1000))} />
       )}
 
