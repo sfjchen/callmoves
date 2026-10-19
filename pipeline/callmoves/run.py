@@ -19,15 +19,32 @@ from .score import rank_moments
 from .transcript import align, load_call
 
 
+def _claims_with_novelty(fixture: Path, segments, release: str, prior: str):
+    """Claude results are cached next to the call, keyed by the transcript and documents, so re-scoring is free."""
+    import hashlib
+    from .models import Claim
+
+    key = hashlib.sha256((repr([(s.seg_id, s.text) for s in segments]) + release + prior).encode()).hexdigest()[:16]
+    cache = fixture / "llm_claims.json"
+    if cache.exists():
+        data = json.loads(cache.read_text())
+        if data.get("key") == key:
+            return [Claim(**c) for c in data["claims"]], True
+    claims, llm_used = extract_claims(segments)
+    claims = judge_novelty(claims, release, prior)
+    if llm_used:
+        cache.write_text(json.dumps({"key": key, "claims": [c.model_dump(mode="json") for c in claims]}))
+    return claims, llm_used
+
+
 def run(fixture: Path) -> CallOutput:
     meta, segments = load_call(fixture / "call.json")
     segments = align(meta, segments)
     bars_df = market.load_bars_csv(fixture / "bars.csv")
     bars_df = market.flag_abnormal(market.adjusted_returns(bars_df))
-    claims, llm_used = extract_claims(segments)
     release = (fixture / "release.txt").read_text()
     prior = (fixture / "prior_transcript.txt").read_text()
-    claims = judge_novelty(claims, release, prior)
+    claims, llm_used = _claims_with_novelty(fixture, segments, release, prior)
     moments = rank_moments(claims, segments, bars_df)
     call_end = meta.call_start + timedelta(milliseconds=max(s.t1_ms for s in segments))
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=market.to_bars(bars_df),

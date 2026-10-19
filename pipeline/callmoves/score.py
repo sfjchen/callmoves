@@ -12,6 +12,7 @@ NOVEL_WEIGHT = 1.0
 STALE_WEIGHT = 0.25
 TIMING_SCALE_MIN = 3.0
 VOL_CAP = 10.0   # a single block print without a price move should not dominate the score
+KIND_WEIGHT = {"guidance": 1.0, "result": 0.8, "qualitative": 0.5}   # numbers are checkable, tone is not
 
 
 def timing_weight(minutes_to_flag: float) -> float:
@@ -24,7 +25,7 @@ def score_claim(claim: Claim, bars: pd.DataFrame) -> tuple[float, float, float, 
     ret5, vol_mult = forward_return(bars, claim.ts)
     dist = minutes_to_nearest_flag(bars, claim.ts)
     novelty = NOVEL_WEIGHT if claim.novel else STALE_WEIGHT
-    score = novelty * abs(ret5) * min(VOL_CAP, max(1.0, vol_mult)) * timing_weight(dist)
+    score = novelty * KIND_WEIGHT.get(claim.kind, 0.5) * abs(ret5) * min(VOL_CAP, max(1.0, vol_mult)) * timing_weight(dist)
     return score, ret5, vol_mult, dist
 
 
