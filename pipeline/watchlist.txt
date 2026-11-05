@@ -6,6 +6,6 @@ AAPL XLK
 NVDA SMH
 W XLY
 DUOL XLY
-# TCEHY trades OTC only 9:30-16:00 ET, while Tencent's call runs outside US hours,
-# so the call window has no bars and the run will report it as skipped.
+# TCEHY has no pre/after-hours bars (OTC, 9:30-16:00 ET only). Tencent reports from Hong Kong,
+# so a call outside US hours has no bars in its window and the run reports it as skipped.
 TCEHY KWEB
