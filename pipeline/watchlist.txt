@@ -1,0 +1,11 @@
+# Companies the nightly ingest checks for earnings calls: TICKER SECTOR_ETF, one per line.
+# The ETF is the sector baseline subtracted from each 1-minute return.
+WFC XLF
+JPM XLF
+AAPL XLK
+NVDA SMH
+W XLY
+DUOL XLY
+# TCEHY trades OTC only 9:30-16:00 ET, while Tencent's call runs outside US hours,
+# so the call window has no bars and the run will report it as skipped.
+TCEHY KWEB
