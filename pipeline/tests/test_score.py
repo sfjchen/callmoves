@@ -34,3 +34,18 @@ def test_candidates_are_turns_in_the_minutes_before_a_flag_and_confidence_grades
     assert confidence(True, 0.012, 5.0, 1.0) == "high"
     assert confidence(True, 0.003, 1.2, 4.0) == "medium"
     assert confidence(False, 0.012, 5.0, 1.0) == "low"
+
+
+def test_open_reaction_gives_every_claim_the_same_move_ranked_by_novelty_and_kind_at_low_confidence():
+    bars = market.adjusted_returns(make_bars())
+    segs = [Segment(seg_id=i, t0_ms=m * 60_000, t1_ms=0, speaker="CFO", text="x", ts=T0 + timedelta(minutes=m))
+            for i, m in enumerate((5, 20, 35))]
+    claims = [
+        Claim(claim_id=0, seg_id=0, speaker="CFO", quote="x", metric="revenue", kind="result", ts=segs[0].ts, novel=False),
+        Claim(claim_id=1, seg_id=1, speaker="CFO", quote="x", metric="guidance", kind="guidance", ts=segs[1].ts, novel=True),
+        Claim(claim_id=2, seg_id=2, speaker="CFO", quote="x", metric="tone", kind="qualitative", ts=segs[2].ts, novel=True),
+    ]
+    reaction = {"adj_ret": -0.04, "ret": -0.05, "etf_ret": -0.01, "vol_mult": 6.0}
+    moments = rank_moments(claims, segs, bars, reaction=reaction)
+    assert [m.claim_id for m in moments] == [1, 2, 0]
+    assert all(m.adj_ret_5m == -0.04 and m.nearest_flag_min == -1.0 and m.confidence == "low" for m in moments)

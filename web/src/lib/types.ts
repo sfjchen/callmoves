@@ -66,6 +66,16 @@ export type Moment = {
   confidence: "high" | "medium" | "low";
 };
 
+// Set when the stock did not trade during the call: the move from the last trade before it to just after the next open.
+export type OpenReaction = {
+  from_ts: string;
+  to_ts: string;
+  adj_ret: number;
+  ret: number;
+  etf_ret: number;
+  vol_mult: number;
+};
+
 export type CallOutput = {
   call: CallMeta;
   call_end: string;
@@ -75,6 +85,7 @@ export type CallOutput = {
   moments: Moment[];
   llm_used: boolean;
   candidate_seg_ids: number[];
+  open_reaction?: OpenReaction | null;
 };
 
 export type CallSummary = {

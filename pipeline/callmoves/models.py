@@ -86,6 +86,16 @@ class Moment(BaseModel):
     confidence: Literal["high", "medium", "low"] = "low"
 
 
+class OpenReaction(BaseModel):
+    """The move from the last trade before the call to the minutes after the next open, for a call held while the stock was closed."""
+    from_ts: datetime
+    to_ts: datetime
+    adj_ret: float
+    ret: float
+    etf_ret: float
+    vol_mult: float
+
+
 class CallOutput(BaseModel):
     call: CallMeta
     call_end: datetime
@@ -95,3 +105,4 @@ class CallOutput(BaseModel):
     moments: list[Moment]
     llm_used: bool
     candidate_seg_ids: list[int] = []   # turns that preceded an abnormal minute, the only ones claims come from
+    open_reaction: OpenReaction | None = None   # set when the stock did not trade during the call

@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 from . import market
 from .claims import extract_claims
-from .models import CallOutput
+from .models import CallOutput, OpenReaction
 from .novelty import judge_novelty
 from .score import rank_moments
 from .transcript import align, load_call
@@ -44,14 +44,17 @@ def run(fixture: Path) -> CallOutput:
     bars_df = market.flag_abnormal(market.adjusted_returns(bars_df))
     release = (fixture / "release.txt").read_text()
     prior = (fixture / "prior_transcript.txt").read_text()
-    # price first: only turns spoken in the 5 minutes before an abnormal minute are read for claims
-    candidates = market.segments_before_flags(segments, bars_df) or segments
-    claims, llm_used = _claims_with_novelty(fixture, candidates, release, prior)
-    moments = rank_moments(claims, segments, bars_df)
     call_end = meta.call_start + timedelta(milliseconds=max(s.t1_ms for s in segments))
+    # no trades during the call (an OTC ADR during a Hong Kong call): the next open is the only reaction, read the whole call
+    reaction = market.open_reaction(bars_df, meta.call_start, call_end)
+    # price first: only turns spoken in the 5 minutes before an abnormal minute are read for claims
+    candidates = segments if reaction else (market.segments_before_flags(segments, bars_df) or segments)
+    claims, llm_used = _claims_with_novelty(fixture, candidates, release, prior)
+    moments = rank_moments(claims, segments, bars_df, reaction=reaction)
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=market.to_bars(bars_df),
                       claims=claims, moments=moments, llm_used=llm_used,
-                      candidate_seg_ids=[s.seg_id for s in candidates])
+                      candidate_seg_ids=[s.seg_id for s in candidates],
+                      open_reaction=OpenReaction(**reaction) if reaction else None)
 
 
 def main(argv=None):
