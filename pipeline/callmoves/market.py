@@ -15,6 +15,9 @@ BASELINE_MIN = 20       # trailing window for the volume baseline and return z-s
 Z_THRESHOLD = 2.5       # |z| of the 1-minute adjusted return
 VOL_THRESHOLD = 3.0     # volume / trailing median
 MIN_ABS_RET = 0.002     # 0.2% in a minute, so a volume spike alone is not a flag
+SESSION_TAIL_MIN = 30   # minutes of the prior session kept for a stock that is closed when the call starts
+OPEN_WINDOW_MIN = 30    # minutes after the next open read as the reaction to a call held while it was closed
+EDGE_LOOKUP_DAYS = 5    # how far to look for the prior close and next open: a weekend plus a holiday
 
 
 def load_bars_csv(path: Path) -> pd.DataFrame:
@@ -129,20 +132,72 @@ def fetch_yfinance_bars(ticker: str, day: datetime) -> pd.DataFrame:
 
 
 def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:
-    """Polygon when POLYGON_API_KEY is set, otherwise yfinance. Both return ts (UTC), px, vol."""
+    """Polygon when POLYGON_API_KEY is set, otherwise yfinance one day at a time. Both return ts (UTC), px, vol."""
     if os.environ.get("POLYGON_API_KEY"):
         df = fetch_polygon_bars(ticker, start, end)
     else:
-        df = fetch_yfinance_bars(ticker, start)
+        days = []
+        for i in range((end.date() - start.date()).days + 1):
+            try:
+                days.append(fetch_yfinance_bars(ticker, start + timedelta(days=i)))
+            except RuntimeError:   # weekend, holiday or a day that has not traded yet
+                continue
+        if not days:
+            raise RuntimeError(f"yfinance returned no 1-minute bars for {ticker} between {start} and {end}")
+        df = pd.concat(days, ignore_index=True)
     return df[(df["ts"] >= start) & (df["ts"] <= end)].reset_index(drop=True)
 
 
-def bars_for_call(ticker: str, etf: str, call_start: datetime, before_min: int = 180, after_min: int = 150) -> pd.DataFrame:
-    """Stock and ETF bars around the call, joined on the minute. Window covers a pre-market release and the call."""
+def _traded_bars(ticker: str, etf: str, start: datetime, end: datetime) -> pd.DataFrame:
+    df = join_stock_etf(fetch_bars(ticker, start, end), fetch_bars(etf, start, end))
+    return df[df["vol"] > 0].reset_index(drop=True)   # thin pre-market minutes with no trades carry no information
+
+
+def add_session_edges(window: pd.DataFrame, wide: pd.DataFrame, call_start: datetime, call_end: datetime,
+                      tail_min: int = SESSION_TAIL_MIN, open_min: int = OPEN_WINDOW_MIN) -> pd.DataFrame:
+    """For a stock that does not trade when the call starts (an OTC ADR during a Hong Kong call), add the last
+    `tail_min` traded minutes before the call so the opening gap shows up as a return, and, if nothing traded
+    during the call at all, the first `open_min` minutes of the next session, where the reaction happens."""
+    parts = [window]
+    if window.empty or window["ts"].iloc[0] > call_start:
+        parts.insert(0, wide[wide["ts"] < call_start].tail(tail_min))
+    if window[(window["ts"] >= call_start) & (window["ts"] <= call_end)].empty:
+        after = wide[wide["ts"] > call_end]
+        if after.empty:
+            raise RuntimeError(f"no trades after the call ended at {call_end}; rerun once the next US session opens")
+        parts.append(after[after["ts"] <= after["ts"].iloc[0] + timedelta(minutes=open_min)])
+    df = pd.concat(parts, ignore_index=True).drop_duplicates("ts")
+    return df.sort_values("ts").reset_index(drop=True)
+
+
+def bars_for_call(ticker: str, etf: str, call_start: datetime, call_end: datetime | None = None,
+                  before_min: int = 180, after_min: int = 150) -> pd.DataFrame:
+    """Stock and ETF bars around the call, joined on the minute. Window covers a pre-market release and the call.
+    A stock with no bars at the call start also gets its prior close and, if needed, its next open."""
+    call_end = call_end or call_start + timedelta(minutes=60)
     start = call_start - timedelta(minutes=before_min)
-    end = call_start + timedelta(minutes=after_min)
-    stock = fetch_bars(ticker, start, end)
-    etf_df = fetch_bars(etf, start, end)
-    df = join_stock_etf(stock, etf_df)
-    df = df[df["vol"] > 0].reset_index(drop=True)   # thin pre-market minutes with no trades carry no information
-    return df
+    end = max(call_start + timedelta(minutes=after_min), call_end + timedelta(minutes=30))
+    window = _traded_bars(ticker, etf, start, end)
+    if not window.empty and window["ts"].iloc[0] <= call_start and \
+            not window[(window["ts"] >= call_start) & (window["ts"] <= call_end)].empty:
+        return window
+    now = datetime.now(call_start.tzinfo)
+    wide = _traded_bars(ticker, etf, call_start - timedelta(days=EDGE_LOOKUP_DAYS),
+                        min(now, call_end + timedelta(days=EDGE_LOOKUP_DAYS)))
+    return add_session_edges(window, wide, call_start, call_end)
+
+
+def open_reaction(df: pd.DataFrame, call_start: datetime, call_end: datetime, minutes: int = OPEN_WINDOW_MIN) -> dict | None:
+    """When the stock did not trade during the call, the market's only read is the next open: the sector-adjusted
+    move from the last trade before the call to `minutes` after the first trade after it. None if it did trade."""
+    if not df[(df["ts"] >= call_start) & (df["ts"] <= call_end)].empty:
+        return None
+    before, after = df[df["ts"] < call_start], df[df["ts"] > call_end]
+    if before.empty or after.empty:
+        return None
+    win = after[after["ts"] <= after["ts"].iloc[0] + timedelta(minutes=minutes)]
+    p0, p1 = before.iloc[-1], win.iloc[-1]
+    moves = df.loc[before.index[-1] + 1: win.index[-1], "adj_ret"]   # includes the opening gap bar
+    return {"from_ts": p0["ts"], "to_ts": p1["ts"], "adj_ret": float((1 + moves).prod() - 1),
+            "ret": float(p1["px"] / p0["px"] - 1), "etf_ret": float(p1["etf_px"] / p0["etf_px"] - 1),
+            "vol_mult": float(win["vol_mult"].max())}

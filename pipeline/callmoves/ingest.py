@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -63,7 +63,8 @@ def main(argv=None):
         ap.error("--audio is required when there is no call.json or whisper_segments.json yet")
 
     print("fetching 1-minute bars ...", flush=True)
-    bars = bars_for_call(args.ticker, args.etf, call_start)
+    call_end = call_start + timedelta(milliseconds=max(s["t1_ms"] for s in json.loads(call_json.read_text())["segments"]))
+    bars = bars_for_call(args.ticker, args.etf, call_start, call_end)
     bars.to_csv(out / "bars.csv", index=False)
     print(f"  {len(bars)} bars {bars['ts'].min()} -> {bars['ts'].max()}")
 

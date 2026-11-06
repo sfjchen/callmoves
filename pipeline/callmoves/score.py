@@ -30,20 +30,22 @@ def confidence(novel: bool, adj_ret: float, vol_mult: float, minutes_to_flag: fl
     return "low"
 
 
-def score_claim(claim: Claim, bars: pd.DataFrame) -> tuple[float, dict, float]:
-    w = forward_window(bars, claim.ts)
-    dist = minutes_to_nearest_flag(bars, claim.ts)
+def score_claim(claim: Claim, bars: pd.DataFrame, reaction: dict | None = None) -> tuple[float, dict, float]:
+    """With an open reaction (stock closed during the call) every claim shares that one move and has no timing."""
+    w = reaction or forward_window(bars, claim.ts)
+    dist = float("inf") if reaction else minutes_to_nearest_flag(bars, claim.ts)
     novelty = NOVEL_WEIGHT if claim.novel else STALE_WEIGHT
     score = (novelty * KIND_WEIGHT.get(claim.kind, 0.5) * abs(w["adj_ret"])
              * min(VOL_CAP, max(1.0, w["vol_mult"])) * timing_weight(dist))
     return score, w, dist
 
 
-def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, top_n: int = 5) -> list[Moment]:
+def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, top_n: int = 5,
+                 reaction: dict | None = None) -> list[Moment]:
     seg_by_id = {s.seg_id: s for s in segments}
     scored = []
     for c in claims:
-        score, w, dist = score_claim(c, bars)
+        score, w, dist = score_claim(c, bars, reaction)
         scored.append((score, c, w, dist))
     scored.sort(key=lambda x: x[0], reverse=True)
     moments = []
@@ -58,7 +60,7 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
             etf_ret_5m=w["etf_ret"], vol_mult=w["vol_mult"], nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
-            score=score, confidence=confidence(bool(c.novel), w["adj_ret"], w["vol_mult"], dist),
+            score=score, confidence="low" if reaction else confidence(bool(c.novel), w["adj_ret"], w["vol_mult"], dist),
         ))
         if len(moments) == top_n:
             break

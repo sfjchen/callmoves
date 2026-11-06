@@ -54,53 +54,71 @@ export default function Replay({ data }: { data: CallOutput }) {
         </span>
       </div>
 
-      <section className="border border-neutral-200 rounded-lg p-3 mb-4">
-        <div className="flex items-baseline justify-between mb-1">
-          <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(data.bars[0]?.ts ?? data.call.call_start)}) and volume multiple</div>
-          <div className="text-sm text-neutral-600 tabular">
-            cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs)} into call)
-            {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
+      {data.open_reaction ? (
+        <section className="border border-neutral-200 rounded-lg p-3 mb-4 text-sm">
+          <div className="font-medium mb-1">
+            No {data.call.ticker} trades while the call ran, so the reaction is read at the next open
           </div>
-        </div>
-        <div className="h-72">
-          <ResponsiveContainer width="100%" height="100%">
-            <ComposedChart
-              data={points}
-              margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
-              onClick={(s) => { if (s && typeof s.activeLabel === "number") seek(clamp(s.activeLabel, 0, endMs)); }}
-              style={{ cursor: "pointer" }}
-            >
-              <XAxis
-                dataKey="t" type="number" domain={["dataMin", "dataMax"]} scale="time"
-                tickFormatter={(t: number) => clock(new Date(start + t))} ticks={ticks(points, start)} fontSize={11}
-              />
-              <YAxis yAxisId="ret" tickFormatter={(v: number) => `${v.toFixed(1)}%`} fontSize={11} width={48} />
-              <YAxis yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11} width={36} domain={[0, VOL_AXIS_MAX]} allowDataOverflow />
-              <Tooltip
-                labelFormatter={(t) => `${clock(new Date(start + Number(t)))} ET`}
-                formatter={(v, name) => (name === "cum" ? [`${Number(v).toFixed(2)}%`, "adj. return"] : [`${Number(v).toFixed(1)}x`, "volume"])}
-              />
-              <ReferenceArea yAxisId="ret" x1={0} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
-              <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
-              <Line yAxisId="ret" type="monotone" dataKey="cum" stroke="#1d4ed8" strokeWidth={2} dot={false} isAnimationActive={false} />
-              {points.filter((p) => p.flagged).map((p) => (
-                <ReferenceDot key={p.t} yAxisId="ret" x={p.t} y={p.cum} r={4} fill="#f59e0b" stroke="none" />
-              ))}
-              {data.moments.map((m) => {
-                const p = nearest(points, m.t0_ms);
-                return p ? (
-                  <ReferenceDot key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
-                    label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }} onClick={() => seek(m.t0_ms)} />
-                ) : null;
-              })}
-              <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
-            </ComposedChart>
-          </ResponsiveContainer>
-        </div>
-        <div className="text-xs text-neutral-500 mt-1">
-          Grey band is the call. Orange dots are abnormal minutes. Numbered dots are the ranked moments. Click anywhere to move the cursor.
-        </div>
-      </section>
+          <div className="tabular">
+            {clock(data.open_reaction.from_ts)} ET last trade before the call to {clock(data.open_reaction.to_ts)} ET after the open:{" "}
+            <span className={data.open_reaction.adj_ret >= 0 ? "text-emerald-700 font-medium" : "text-red-700 font-medium"}>
+              {pct(data.open_reaction.ret)}
+            </span>{" "}
+            vs {pct(data.open_reaction.etf_ret)} {data.call.etf}, {pct(data.open_reaction.adj_ret)} adjusted, {data.open_reaction.vol_mult.toFixed(1)}x volume
+          </div>
+          <div className="text-xs text-neutral-500 mt-1">
+            Every statement shares this one move, so moments are ranked by novelty and kind only, all at low confidence.
+          </div>
+        </section>
+      ) : (
+        <section className="border border-neutral-200 rounded-lg p-3 mb-4">
+          <div className="flex items-baseline justify-between mb-1">
+            <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(data.bars[0]?.ts ?? data.call.call_start)}) and volume multiple</div>
+            <div className="text-sm text-neutral-600 tabular">
+              cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs)} into call)
+              {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
+            </div>
+          </div>
+          <div className="h-72">
+            <ResponsiveContainer width="100%" height="100%">
+              <ComposedChart
+                data={points}
+                margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
+                onClick={(s) => { if (s && typeof s.activeLabel === "number") seek(clamp(s.activeLabel, 0, endMs)); }}
+                style={{ cursor: "pointer" }}
+              >
+                <XAxis
+                  dataKey="t" type="number" domain={["dataMin", "dataMax"]} scale="time"
+                  tickFormatter={(t: number) => clock(new Date(start + t))} ticks={ticks(points, start)} fontSize={11}
+                />
+                <YAxis yAxisId="ret" tickFormatter={(v: number) => `${v.toFixed(1)}%`} fontSize={11} width={48} />
+                <YAxis yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11} width={36} domain={[0, VOL_AXIS_MAX]} allowDataOverflow />
+                <Tooltip
+                  labelFormatter={(t) => `${clock(new Date(start + Number(t)))} ET`}
+                  formatter={(v, name) => (name === "cum" ? [`${Number(v).toFixed(2)}%`, "adj. return"] : [`${Number(v).toFixed(1)}x`, "volume"])}
+                />
+                <ReferenceArea yAxisId="ret" x1={0} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
+                <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
+                <Line yAxisId="ret" type="monotone" dataKey="cum" stroke="#1d4ed8" strokeWidth={2} dot={false} isAnimationActive={false} />
+                {points.filter((p) => p.flagged).map((p) => (
+                  <ReferenceDot key={p.t} yAxisId="ret" x={p.t} y={p.cum} r={4} fill="#f59e0b" stroke="none" />
+                ))}
+                {data.moments.map((m) => {
+                  const p = nearest(points, m.t0_ms);
+                  return p ? (
+                    <ReferenceDot key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
+                      label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }} onClick={() => seek(m.t0_ms)} />
+                  ) : null;
+                })}
+                <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </div>
+          <div className="text-xs text-neutral-500 mt-1">
+            Grey band is the call. Orange dots are abnormal minutes. Numbered dots are the ranked moments. Click anywhere to move the cursor.
+          </div>
+        </section>
+      )}
 
       {data.call.audio_url && audioOk && (
         <audio ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4" onError={() => setAudioOk(false)}
@@ -113,7 +131,7 @@ export default function Replay({ data }: { data: CallOutput }) {
           <p className="text-xs text-neutral-500 mb-2">Statements made just before an abnormal minute, ranked by novelty, size of the move and timing. Associations, not proof.</p>
           <ol className="space-y-2">
             {data.moments.map((m) => (
-              <MomentCard key={m.rank} m={m} active={active?.seg_id === m.seg_id} onSelect={() => seek(m.t0_ms)} />
+              <MomentCard key={m.rank} m={m} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id} onSelect={() => seek(m.t0_ms)} />
             ))}
           </ol>
         </section>
@@ -127,7 +145,7 @@ export default function Replay({ data }: { data: CallOutput }) {
   );
 }
 
-function MomentCard({ m, active, onSelect }: { m: Moment; active: boolean; onSelect: () => void }) {
+function MomentCard({ m, atOpen, active, onSelect }: { m: Moment; atOpen: boolean; active: boolean; onSelect: () => void }) {
   const up = m.adj_ret_5m >= 0;
   return (
     <li>
@@ -143,7 +161,7 @@ function MomentCard({ m, active, onSelect }: { m: Moment; active: boolean; onSel
         </div>
         <p className="text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
         <div className="mt-1 text-xs tabular flex flex-wrap gap-x-3 gap-y-0.5">
-          <span className={up ? "text-emerald-700 font-medium" : "text-red-700 font-medium"}>{pct(m.ret_5m)} next 5 min</span>
+          <span className={up ? "text-emerald-700 font-medium" : "text-red-700 font-medium"}>{pct(m.ret_5m)} {atOpen ? "at next open" : "next 5 min"}</span>
           <span className="text-neutral-600">vs {pct(m.etf_ret_5m)} sector, {pct(m.adj_ret_5m)} adjusted</span>
           <span className="text-neutral-600">{m.vol_mult.toFixed(1)}x volume</span>
           {m.nearest_flag_min >= 0 && <span className="text-neutral-500">abnormal minute {m.nearest_flag_min === 0 ? "at" : `+${m.nearest_flag_min.toFixed(0)} min after`} the statement</span>}
