@@ -18,7 +18,12 @@ export default function Replay({ data }: { data: CallOutput }) {
   const start = useMemo(() => new Date(data.call.call_start).getTime(), [data.call.call_start]);
   const endMs = new Date(data.call_end).getTime() - start;
   const [cursorMs, setCursorMs] = useState(data.moments[0]?.t0_ms ?? 0);
-  const [audioOk, setAudioOk] = useState(true); // audio is local only, the deployed app has none
+  const [audioOk, setAudioOk] = useState(false); // audio is local only, show the player once the file answers
+  useEffect(() => {
+    const url = data.call.audio_url;
+    if (!url) return;
+    fetch(url, { method: "HEAD" }).then((r) => setAudioOk(r.ok)).catch(() => setAudioOk(false));
+  }, [data.call.audio_url]);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // audio drives the cursor when playing, the cursor drives audio when the user clicks
@@ -73,7 +78,7 @@ export default function Replay({ data }: { data: CallOutput }) {
       ) : (
         <section className="border border-neutral-200 rounded-lg p-3 mb-4">
           <div className="flex items-baseline justify-between mb-1">
-            <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(data.bars[0]?.ts ?? data.call.call_start)}) and volume multiple</div>
+            <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(new Date(start + (points[0]?.t ?? 0)))}) and volume multiple</div>
             <div className="text-sm text-neutral-600 tabular">
               cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs)} into call)
               {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
@@ -131,13 +136,16 @@ export default function Replay({ data }: { data: CallOutput }) {
           <p className="text-xs text-neutral-500 mb-2">Statements made just before an abnormal minute, ranked by novelty, size of the move and timing. Associations, not proof.</p>
           <ol className="space-y-2">
             {data.moments.map((m) => (
-              <MomentCard key={m.rank} m={m} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id} onSelect={() => seek(m.t0_ms)} />
+              <MomentCard key={m.rank} m={m} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id} onSelect={() => {
+                seek(m.t0_ms);
+                if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" }); // panels stack on phones
+              }} />
             ))}
           </ol>
         </section>
 
         <section className="lg:col-span-3 border border-neutral-200 rounded-lg p-3">
-          <h2 className="text-sm font-medium mb-2">Transcript</h2>
+          <h2 id="transcript" className="text-sm font-medium mb-2">Transcript</h2>
           <TranscriptList segments={data.segments} activeId={active?.seg_id ?? null} momentSegs={new Set(data.moments.map((m) => m.seg_id))} onSelect={(s) => seek(s.t0_ms)} />
         </section>
       </div>

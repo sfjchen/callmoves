@@ -1,4 +1,4 @@
-// Mirrors pipeline/callmoves/models.py (CallOutput). The pipeline writes one JSON per call into public/data/.
+// Mirrors pipeline/callmoves/models.py (CallOutput). The pipeline writes one JSON per call into web/data/.
 export type CallMeta = {
   ticker: string;
   quarter: string;

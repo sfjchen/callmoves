@@ -6,6 +6,8 @@ Prototype status: the pipeline runs end to end on a fictional fixture, the web a
 
 ## Run it
 
+Needs Python 3.12+ and Node 22+.
+
 ```bash
 cd pipeline
 python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"
@@ -17,7 +19,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Set `ANTHROPIC_API_KEY` to use Claude for claim extraction and novelty instead of the rule-based fallback. Set `POLYGON_API_KEY` to pull real 1-minute bars with `market.fetch_polygon_bars`.
+The fixture and the WFC call ship with cached Claude output (`llm_claims.json`), so they run offline. Set `ANTHROPIC_API_KEY` to extract claims for a new call, otherwise the rule-based fallback runs. Set `POLYGON_API_KEY` to pull real 1-minute bars with `market.fetch_polygon_bars`.
 
 ## How a call is processed
 
@@ -30,4 +32,4 @@ Price first, transcript second. Summarizing the call would surface what sounds i
 5. Judge novelty against the release and the prior quarter's materials. A claim already in the release cannot explain a move during the call.
 6. Score = novelty × kind × |adjusted return over the next 5 min| × volume multiple × closeness to the flagged minute. Top 5 become moments, each graded high, medium or low confidence. The wording is "associated with", never "caused".
 
-The fixture plants a guidance raise at 10:12 (+1.8% on 4x volume), a sector-wide move at 10:20 that the adjustment cancels, and a gross margin warning at 10:31 (-1.2%). The ranker finds the first and third and ignores the second.
+The fixture plants a guidance raise at 10:12 (+1.8% on 4x volume), a sector-wide move at 10:20 that the adjustment cancels, and a gross margin warning at 10:31 (-1.2%). The ranker finds the guidance raise and ignores the sector move. The 10:31 drop stays under the z-score threshold since the price-first change, so it is not flagged.

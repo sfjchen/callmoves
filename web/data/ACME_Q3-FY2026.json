@@ -2510,12 +2510,12 @@
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
-   "adj_ret_5m": 0.016679684698231334,
-   "ret_5m": 0.008544078649505238,
-   "etf_ret_5m": 0.000661375661375585,
+   "adj_ret_5m": 0.01670055634750711,
+   "ret_5m": 0.018065602883184262,
+   "etf_ret_5m": 0.0013650465356771502,
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 0.8333333333333334,
-   "score": 0.056108203262671644,
+   "score": 0.056178412667776095,
    "confidence": "high"
   },
   {
@@ -2531,12 +2531,12 @@
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
-   "adj_ret_5m": 0.007934196523487591,
-   "ret_5m": 0.0005655599686371637,
-   "etf_ret_5m": -0.0007648736924794619,
+   "adj_ret_5m": 0.007930841851523263,
+   "ret_5m": 0.006959446348877796,
+   "etf_ret_5m": -0.0009713955026454668,
    "vol_mult": 3.366671268811266,
    "nearest_flag_min": 0.75,
-   "score": 0.02080319527134709,
+   "score": 0.020794399434775783,
    "confidence": "high"
   },
   {
@@ -2552,12 +2552,12 @@
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
-   "adj_ret_5m": 0.01862023911534605,
-   "ret_5m": 0.01873956376539332,
-   "etf_ret_5m": 0.00026888948642112,
+   "adj_ret_5m": 0.01861557204176867,
+   "ret_5m": 0.018553541150384767,
+   "etf_ret_5m": -0.00006203089138390183,
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 2.9166666666666665,
-   "score": 0.01563869078796533,
+   "score": 0.01563477102516802,
    "confidence": "medium"
   },
   {
@@ -2573,12 +2573,12 @@
    "novel": false,
    "matched_doc": "release",
    "matched_text": "For the fourth quarter of fiscal 2026, Acme expects revenue of $425 million to $429 million and non-GAAP operating margin of approximately 23%.",
-   "adj_ret_5m": 0.007949102816893872,
-   "ret_5m": 0.007835314977054919,
-   "etf_ret_5m": -0.00014465499783011815,
+   "adj_ret_5m": 0.00794324827023063,
+   "ret_5m": 0.00795358237173227,
+   "etf_ret_5m": 0.000010334101501641157,
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 4.25,
-   "score": 0.0021403435485500243,
+   "score": 0.0021387671767922303,
    "confidence": "low"
   }
  ],
@@ -2588,5 +2588,6 @@
   8,
   9,
   10
- ]
+ ],
+ "open_reaction": null
 }

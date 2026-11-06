@@ -11,13 +11,12 @@ export default async function Library() {
     <div className="max-w-5xl">
       <h1 className="text-xl font-semibold mb-1">Call library</h1>
       <p className="text-sm text-neutral-500 mb-4">
-        Processed calls. Each row shows the top-ranked moment. Add a call by running the pipeline into{" "}
-        <code className="text-xs bg-neutral-100 px-1 rounded">web/data/</code>.
+        Processed calls. Each row shows the top-ranked moment, click the ticker to replay the call.
       </p>
       {calls.length === 0 ? (
         <p className="text-neutral-500">No processed calls yet.</p>
       ) : (
-        <table className="w-full text-sm border-collapse">
+        <div className="overflow-x-auto"><table className="w-full text-sm border-collapse">
           <thead>
             <tr className="text-left text-neutral-500 border-b border-neutral-200">
               <th className="py-2 pr-4 font-medium">Ticker</th>
@@ -51,7 +50,7 @@ export default async function Library() {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table></div>
       )}
     </div>
   );

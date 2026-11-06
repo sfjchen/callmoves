@@ -80,10 +80,13 @@ def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
     win = df[(df["ts"] >= ts) & (df["ts"] <= ts + timedelta(minutes=minutes))]
     if win.empty:
         return {"adj_ret": 0.0, "ret": 0.0, "etf_ret": 0.0, "vol_mult": 1.0}
-    stock = float(win["px"].iloc[-1] / win["px"].iloc[0] - 1) if len(win) > 1 else 0.0
-    etf = float(win["etf_px"].iloc[-1] / win["etf_px"].iloc[0] - 1) if len(win) > 1 else 0.0
-    return {"adj_ret": float((1 + win["adj_ret"]).prod() - 1), "ret": stock, "etf_ret": etf,
-            "vol_mult": float(win["vol_mult"].max())}
+    # measured from the last close before the statement, so the move inside the statement's own minute counts,
+    # and adjusted = stock minus ETF over those same bars so the 3 numbers on a card reconcile
+    before = df[df["ts"] < ts]
+    base = before.iloc[-1] if not before.empty else win.iloc[0]
+    stock = float(win["px"].iloc[-1] / base["px"] - 1)
+    etf = float(win["etf_px"].iloc[-1] / base["etf_px"] - 1)
+    return {"adj_ret": stock - etf, "ret": stock, "etf_ret": etf, "vol_mult": float(win["vol_mult"].max())}
 
 
 def forward_return(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> tuple[float, float]:

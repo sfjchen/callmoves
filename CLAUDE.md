@@ -1,6 +1,6 @@
 # CallMoves
 
-Earnings call market-reaction dashboard. Spec: `../spec/`. Owner: Jonathan Chen (sfjchen).
+Earnings call market-reaction dashboard. Spec: `../spec/`. Owner: Jonathan Chen (sfjchen). Current state, keys, data provenance and backlog: `CLAUDE.local.md` (gitignored, read it first).
 
 ## Layout
 - `pipeline/` Python 3.12. `callmoves/` has 1 module per step, each a pure function: `transcript.py` (load, align), `market.py` (bars, adjusted returns, abnormal minutes), `claims.py`, `novelty.py`, `score.py`, `run.py` (CLI), `ingest.py` (audio + PDFs + bars -> call folder), `docs.py`. `fixtures/acme_q3_2026/` is a fictional call with planted moves, `fixtures/make_bars.py` regenerates its bars. Tests in `tests/`.
