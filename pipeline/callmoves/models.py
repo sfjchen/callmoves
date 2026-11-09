@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -13,6 +13,7 @@ class CallMeta(BaseModel):
     etf: str = "IGV"
     audio_url: str | None = None
     company: str | None = None
+    audio_offset_ms: int = 0  # audio position of the call start: + for lead-in music, - if the recording started late
 
 
 class Part(BaseModel):
@@ -62,6 +63,8 @@ class Claim(BaseModel):
     novel: bool | None = None
     matched_doc: Literal["release", "prior_call"] | None = None
     matched_text: str | None = None
+    vs_consensus_pct: float | None = None   # (spoken value - consensus) / |consensus|, set for EPS and revenue claims
+    consensus_role: Literal["reported", "next_quarter", "full_year"] | None = None   # the Estimate.role compared with
 
 
 class Moment(BaseModel):
@@ -84,6 +87,24 @@ class Moment(BaseModel):
     nearest_flag_min: float
     score: float
     confidence: Literal["high", "medium", "low"] = "low"
+    vs_consensus_pct: float | None = None
+    consensus_role: Literal["reported", "next_quarter", "full_year"] | None = None
+
+
+class Estimate(BaseModel):
+    """1 analyst consensus figure for 1 period and metric, with the actual when the call reported that period."""
+    period: str                    # fiscal label, e.g. Q3 FY2026, FY2026
+    period_end: date
+    role: Literal["reported", "next_quarter", "full_year"]
+    metric: Literal["eps", "revenue"]
+    consensus: float
+    actual: float | None = None    # reported quarter only
+    surprise_pct: float | None = None   # (actual - consensus) / |consensus|
+    as_of: date                    # the day the value was current (report day for at_report)
+    # at_report: frozen with the reported quarter, before_call: a snapshot or fetch before the call,
+    # after_call: the current value fetched after the call, so the call's news is already in it
+    basis: Literal["at_report", "before_call", "after_call"]
+    source: Literal["alphavantage", "yfinance"]
 
 
 class OpenReaction(BaseModel):
@@ -106,3 +127,4 @@ class CallOutput(BaseModel):
     llm_used: bool
     candidate_seg_ids: list[int] = []   # turns that preceded an abnormal minute, the only ones claims come from
     open_reaction: OpenReaction | None = None   # set when the stock did not trade during the call
+    estimates: list[Estimate] = []

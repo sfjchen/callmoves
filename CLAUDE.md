@@ -3,7 +3,7 @@
 Earnings call market-reaction dashboard. Spec: `../spec/`. Owner: Jonathan Chen (sfjchen). Current state, keys, data provenance and backlog: `CLAUDE.local.md` (gitignored, read it first).
 
 ## Layout
-- `pipeline/` Python 3.12. `callmoves/` has 1 module per step, each a pure function: `transcript.py` (load, align), `market.py` (bars, adjusted returns, abnormal minutes), `claims.py`, `novelty.py`, `score.py`, `run.py` (CLI), `ingest.py` (audio + PDFs + bars -> call folder), `docs.py`. `fixtures/acme_q3_2026/` is a fictional call with planted moves, `fixtures/make_bars.py` regenerates its bars. Tests in `tests/`.
+- `pipeline/` Python 3.12. `callmoves/` has 1 module per step, each a pure function: `transcript.py` (load, align), `market.py` (bars, adjusted returns, abnormal minutes), `claims.py`, `novelty.py`, `score.py`, `estimates.py` (analyst consensus, claim vs consensus), `run.py` (CLI), `ingest.py` (audio + release + bars -> call folder), `audio.py` (MP3 transcode, Supabase upload), `docs.py` (PDF/HTML to text), `eval.py` (precision@k vs hand labels). Real calls live in `data/<ticker>_<quarter>/`. `fixtures/acme_q3_2026/` is a fictional call with planted moves, `fixtures/make_bars.py` regenerates its bars. Tests in `tests/`.
 - `web/` Next.js 16, TypeScript, Tailwind, Recharts. Reads the pipeline's JSON from `web/data/`. `src/lib/data.ts` is the only data access, swap it for Supabase later. Pages: `/` library, `/calls/[id]` replay view. API: `/api/calls`, `/api/calls/[id]`, `/api/calls/[id]/moments`.
 
 ## Commands
@@ -15,9 +15,10 @@ cd web && npm run type-check && npm run lint
 ```
 
 ## Hard rules
-- Raw audio and PDFs go in `pipeline/raw/` and local audio for the player in `web/public/audio/`, both gitignored.
+- Raw audio and PDFs go in `pipeline/raw/` (gitignored). Player audio is mono 48 kbps MP3 in the public Supabase bucket `callmoves-audio`, uploaded by `ingest --upload`, never committed or deployed.
 - Never commit `.env`, audio files or `pipeline/out/`. Do not weaken `.gitignore`.
-- No paid services. Claude and Polygon are optional and only used when their key is set.
+- No paid services. Keys in `pipeline/.env`, each optional: `ANTHROPIC_API_KEY`, `POLYGON_API_KEY` (Massive bars, else yfinance), `ALPHA_VANTAGE_KEY` (consensus, else yfinance, 25 requests a day), `SUPABASE_URL` + `SUPABASE_SERVICE_KEY` (audio upload). Never print their values.
+- No look-ahead: an `after_call` consensus is display only, never scores a claim.
 - A claim must quote the transcript verbatim or it is dropped. Keep that check in both extractors.
 - Steps stay pure functions with the Pydantic models in `models.py` as the contract. Web types in `src/lib/types.ts` mirror them, change both.
 

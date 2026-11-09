@@ -4,7 +4,7 @@
         --call-start 2026-10-13T10:00:00-04:00 --audio raw/wfc_q3.mpeg \
         --release raw/wfc_q3_release.pdf --prior raw/wfc_q2_release.pdf --out data/wfc_q3_2026
 
-Writes call.json (transcript with speakers), bars.csv (stock + ETF, from Polygon or yfinance),
+Writes call.json (transcript with speakers), bars.csv (stock + ETF, from Massive (formerly Polygon) or yfinance),
 release.txt and prior_transcript.txt. Transcription is faster-whisper on CPU, about 20 to 40 min per hour of audio.
 """
 from __future__ import annotations
@@ -16,6 +16,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+from .audio import transcode, upload
 from .docs import load_doc
 from .market import bars_for_call
 from .transcript import label_speakers, merge_turns, transcribe
@@ -32,14 +33,25 @@ def main(argv=None):
     ap.add_argument("--release", type=Path, required=True)
     ap.add_argument("--prior", type=Path, help="prior-quarter transcript or release")
     ap.add_argument("--company")
-    ap.add_argument("--audio-url", help="URL the web player should use, e.g. /audio/WFC_Q3-2026.mp3")
+    ap.add_argument("--audio-url", help="public URL the web player should use, set by --upload")
+    ap.add_argument("--upload", action="store_true",
+                    help="with --audio: transcode to out/<TICKER>_<quarter>.mp3, upload it to Supabase Storage, "
+                         "use its URL")
     ap.add_argument("--model", default="medium", help="faster-whisper model size")
+    ap.add_argument("--audio-offset", type=float, default=0.0,
+                    help="seconds into the audio where the call starts: positive for lead-in music, "
+                         "negative if the recording started late")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args(argv)
 
     out = args.out
     out.mkdir(parents=True, exist_ok=True)
     call_start = datetime.fromisoformat(args.call_start)
+    offset_ms = round(args.audio_offset * 1000)
+    if args.upload and args.audio:
+        name = f"{args.ticker}_{args.quarter}.mp3"
+        args.audio_url = upload(transcode(args.audio, Path("out") / name), name)
+        print(f"uploaded {name} -> {args.audio_url}", flush=True)
 
     call_json = out / "call.json"
     raw_json = out / "whisper_segments.json"   # kept so speaker labels can be redone without re-transcribing
@@ -53,17 +65,25 @@ def main(argv=None):
         raw = None
     if raw is not None:
         segments = merge_turns(label_speakers(raw))
+        # a relabel run without --audio-url keeps the uploaded URL
+        if not args.audio_url and call_json.exists():
+            args.audio_url = json.loads(call_json.read_text()).get("audio_url")
         call_json.write_text(json.dumps({
             "ticker": args.ticker, "quarter": args.quarter, "company": args.company, "call_start": args.call_start,
-            "etf": args.etf, "audio_url": args.audio_url, "segments": segments,
+            "etf": args.etf, "audio_url": args.audio_url, "audio_offset_ms": offset_ms, "segments": segments,
         }, indent=1))
         print(f"  {len(raw)} whisper segments -> {len(segments)} turns, "
               f"{sum(s['speaker'] == 'Management' for s in segments)} management")
+        print(f"  first speech at {raw[0]['t0_ms'] / 1000:.1f} s into the audio, "
+              f"call start taken at {args.audio_offset:.1f} s "
+              f"(set --audio-offset to the lead-in if the call does not start at t=0)")
     elif not call_json.exists():
         ap.error("--audio is required when there is no call.json or whisper_segments.json yet")
 
     print("fetching 1-minute bars ...", flush=True)
-    call_end = call_start + timedelta(milliseconds=max(s["t1_ms"] for s in json.loads(call_json.read_text())["segments"]))
+    call = json.loads(call_json.read_text())
+    call_end = call_start + timedelta(
+            milliseconds=max(s["t1_ms"] for s in call["segments"]) - call.get("audio_offset_ms", 0))
     bars = bars_for_call(args.ticker, args.etf, call_start, call_end)
     bars.to_csv(out / "bars.csv", index=False)
     print(f"  {len(bars)} bars {bars['ts'].min()} -> {bars['ts'].max()}")

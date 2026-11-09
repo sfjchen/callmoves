@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -17,6 +18,9 @@ VOL_THRESHOLD = 3.0     # volume / trailing median
 MIN_ABS_RET = 0.002     # 0.2% in a minute, so a volume spike alone is not a flag
 SESSION_TAIL_MIN = 30   # minutes of the prior session kept for a stock that is closed when the call starts
 OPEN_WINDOW_MIN = 30    # minutes after the next open read as the reaction to a call held while it was closed
+MASSIVE_URL = "https://api.massive.com"   # api.polygon.io still serves the same data
+RATE_WAIT_S = 13.0      # free plan: about 5 requests a minute
+RATE_RETRIES = 5
 EDGE_LOOKUP_DAYS = 5    # how far to look for the prior close and next open: a weekend plus a holiday
 
 
@@ -26,17 +30,29 @@ def load_bars_csv(path: Path) -> pd.DataFrame:
 
 
 def fetch_polygon_bars(ticker: str, start: datetime, end: datetime, api_key: str | None = None) -> pd.DataFrame:
-    """1-minute aggregates from Polygon. Needs POLYGON_API_KEY. Returns ts, px, vol."""
+    """1-minute aggregates from Massive (formerly Polygon.io), pre and post market included. Needs POLYGON_API_KEY.
+    Follows next_url when a range spans more than 1 page, and waits out a 429 since the free plan allows about
+    5 requests a minute. The key goes in a header so it never appears in a URL or an error message.
+    Returns ts (UTC), px, vol."""
     key = api_key or os.environ["POLYGON_API_KEY"]
-    url = (f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/"
+    url = (f"{MASSIVE_URL}/v2/aggs/ticker/{ticker}/range/1/minute/"
            f"{int(start.timestamp() * 1000)}/{int(end.timestamp() * 1000)}")
-    r = httpx.get(url, params={"adjusted": "true", "sort": "asc", "limit": 50000, "apiKey": key}, timeout=30)
-    r.raise_for_status()
-    rows = r.json().get("results", [])
+    params = {"adjusted": "true", "sort": "asc", "limit": 50000}
+    rows, waits = [], 0
+    while url:
+        r = httpx.get(url, params=params, headers={"Authorization": f"Bearer {key}"}, timeout=30)
+        if r.status_code == 429 and waits < RATE_RETRIES:
+            waits += 1
+            time.sleep(float(r.headers.get("Retry-After", RATE_WAIT_S)))
+            continue
+        r.raise_for_status()
+        page = r.json()
+        rows += page.get("results", [])
+        url, params = page.get("next_url"), None   # next_url carries the cursor and the original query
     return pd.DataFrame({
         "ts": pd.to_datetime([x["t"] for x in rows], unit="ms", utc=True),
-        "px": [x["c"] for x in rows],
-        "vol": [x["v"] for x in rows],
+        "px": [float(x["c"]) for x in rows],
+        "vol": [float(x["v"]) for x in rows],
     })
 
 
@@ -53,7 +69,7 @@ def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
     out["adj_ret"] = stock_ret - etf_ret
     out["cum_adj_ret"] = (1 + out["adj_ret"]).cumprod() - 1
     med = out["vol"].shift(1).rolling(BASELINE_MIN, min_periods=5).median()
-    out["vol_mult"] = (out["vol"] / med).replace([np.inf, -np.inf], np.nan).fillna(1.0)
+    out["vol_mult"] = (out["vol"] / med.where(med > 0)).fillna(1.0)   # zero or NaN baseline: neutral 1.0
     return out
 
 
@@ -135,7 +151,7 @@ def fetch_yfinance_bars(ticker: str, day: datetime) -> pd.DataFrame:
 
 
 def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:
-    """Polygon when POLYGON_API_KEY is set, otherwise yfinance one day at a time. Both return ts (UTC), px, vol."""
+    """Massive when POLYGON_API_KEY is set, otherwise yfinance one day at a time. Both return ts (UTC), px, vol."""
     if os.environ.get("POLYGON_API_KEY"):
         df = fetch_polygon_bars(ticker, start, end)
     else:
@@ -151,9 +167,15 @@ def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:
     return df[(df["ts"] >= start) & (df["ts"] <= end)].reset_index(drop=True)
 
 
+def traded_only(df: pd.DataFrame) -> pd.DataFrame:
+    """Keeps the bars that carry information: any volume, or a price change. yfinance reports extended-hours
+    minutes with moving prices but volume 0, so a flat zero-volume minute drops and a moving one stays."""
+    keep = (df["vol"] > 0) | df["px"].ne(df["px"].shift())
+    return df[keep].reset_index(drop=True)
+
+
 def _traded_bars(ticker: str, etf: str, start: datetime, end: datetime) -> pd.DataFrame:
-    df = join_stock_etf(fetch_bars(ticker, start, end), fetch_bars(etf, start, end))
-    return df[df["vol"] > 0].reset_index(drop=True)   # thin pre-market minutes with no trades carry no information
+    return traded_only(join_stock_etf(fetch_bars(ticker, start, end), fetch_bars(etf, start, end)))
 
 
 def add_session_edges(window: pd.DataFrame, wide: pd.DataFrame, call_start: datetime, call_end: datetime,

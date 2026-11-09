@@ -17,6 +17,13 @@ def test_align_adds_call_start_to_offsets():
     assert out[0].ts == T0 and out[1].ts == T0 + timedelta(seconds=90)
 
 
+def test_align_subtracts_audio_offset_and_defaults_to_zero():
+    assert CallMeta(ticker="X", quarter="Q1", call_start=T0).audio_offset_ms == 0
+    meta = CallMeta(ticker="X", quarter="Q1", call_start=T0, audio_offset_ms=30_000)   # 30 s of lead-in music
+    out = align(meta, [seg(0, 30_000, "Operator", "welcome"), seg(1, 90_000, "CFO", "revenue")])
+    assert out[0].ts == T0 and out[1].ts == T0 + timedelta(seconds=60)
+
+
 def test_rules_extract_guidance_from_management_only():
     segs = align(CallMeta(ticker="X", quarter="Q1", call_start=T0), [
         seg(0, 0, "Marcus Lee, CFO", "We are raising our full year revenue guidance to $1.64 billion. Thank you."),

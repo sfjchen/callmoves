@@ -20,10 +20,11 @@ STOP = set("the a an and or of to in on for we our is are was were be been it th
 _UNIT = {"billion": 1e9, "b": 1e9, "million": 1e6, "m": 1e6, "thousand": 1e3, "k": 1e3}
 
 
-def _num_values(text: str, table_scale: float = 1e6) -> set[float]:
+def _num_values(text: str, table_scale: float = 1e6, dollars_only: bool = False) -> set[float]:
     """Numbers in a text as plain magnitudes. '$21.9 billion' -> 2.19e10, '18%' -> 18.
     A bare dollar figure of 1,000 or more also gets a table reading (x table_scale), because releases
-    print '$ 21,870' under a '$ in millions' header while the call says '$21.9 billion'."""
+    print '$ 21,870' under a '$ in millions' header while the call says '$21.9 billion'.
+    dollars_only keeps the dollar figures, which is what an EPS or revenue consensus compares against."""
     out: set[float] = set()
     for raw in NUMBER.findall(text):
         m = re.match(r"(\$?)\s?([\d,]*\.?\d+)\s*(%|percent|billion|million|thousand|basis points|bps|[bmk](?![a-z]))?", raw.strip(), re.I)
@@ -33,6 +34,8 @@ def _num_values(text: str, table_scale: float = 1e6) -> set[float]:
         try:
             v = float(num)
         except ValueError:
+            continue
+        if dollars_only and not dollar:
             continue
         if unit in ("%", "percent", "basis points", "bps"):
             out.add(round(v, 4)); continue

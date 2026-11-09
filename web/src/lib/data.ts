@@ -32,6 +32,9 @@ export async function listCalls(): Promise<CallSummary[]> {
     .filter((c): c is { id: string; call: CallOutput } => c.call !== null)
     .map(({ id, call }) => {
       const top = call.moments[0];
+      const t0 = new Date(call.call.call_start).getTime(), t1 = new Date(call.call_end).getTime();
+      const cum = call.bars.filter((b) => { const t = new Date(b.ts).getTime(); return t >= t0 && t <= t1; }).map((b) => b.cum_adj_ret);
+      const step = Math.max(1, Math.ceil(cum.length / 60));
       return {
         id,
         ticker: call.call.ticker,
@@ -39,7 +42,10 @@ export async function listCalls(): Promise<CallSummary[]> {
         company: call.call.company,
         call_start: call.call.call_start,
         n_moments: call.moments.length,
+        n_flagged: call.bars.filter((b) => b.flagged).length,
+        spark: cum.filter((_, i) => i % step === 0 || i === cum.length - 1),
         top_moment: top ? { ts: top.ts, quote: top.quote, adj_ret_5m: top.adj_ret_5m, speaker: top.speaker } : null,
       };
-    });
+    })
+    .sort((a, b) => b.call_start.localeCompare(a.call_start));
 }

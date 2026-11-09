@@ -12,6 +12,7 @@ NOVEL_WEIGHT = 1.0
 STALE_WEIGHT = 0.25
 TIMING_SCALE_MIN = 3.0
 VOL_CAP = 10.0   # a single block print without a price move should not dominate the score
+CONSENSUS_GAP = 0.01   # a figure this far from consensus moves the stock even when the release printed it first
 KIND_WEIGHT = {"guidance": 1.0, "result": 0.8, "qualitative": 0.5}   # numbers are checkable, tone is not
 
 
@@ -30,11 +31,16 @@ def confidence(novel: bool, adj_ret: float, vol_mult: float, minutes_to_flag: fl
     return "low"
 
 
+def market_relevant(claim: Claim) -> bool:
+    """New information, or an EPS or revenue figure that beats or misses consensus by more than 1%."""
+    return bool(claim.novel) or abs(claim.vs_consensus_pct or 0.0) > CONSENSUS_GAP
+
+
 def score_claim(claim: Claim, bars: pd.DataFrame, reaction: dict | None = None) -> tuple[float, dict, float]:
     """With an open reaction (stock closed during the call) every claim shares that one move and has no timing."""
     w = reaction or forward_window(bars, claim.ts)
     dist = float("inf") if reaction else minutes_to_nearest_flag(bars, claim.ts)
-    novelty = NOVEL_WEIGHT if claim.novel else STALE_WEIGHT
+    novelty = NOVEL_WEIGHT if market_relevant(claim) else STALE_WEIGHT
     score = (novelty * KIND_WEIGHT.get(claim.kind, 0.5) * abs(w["adj_ret"])
              * min(VOL_CAP, max(1.0, w["vol_mult"])) * timing_weight(dist))
     return score, w, dist
@@ -60,7 +66,9 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
             etf_ret_5m=w["etf_ret"], vol_mult=w["vol_mult"], nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
-            score=score, confidence="low" if reaction else confidence(bool(c.novel), w["adj_ret"], w["vol_mult"], dist),
+            vs_consensus_pct=c.vs_consensus_pct, consensus_role=c.consensus_role,
+            score=score,
+            confidence="low" if reaction else confidence(market_relevant(c), w["adj_ret"], w["vol_mult"], dist),
         ))
         if len(moments) == top_n:
             break

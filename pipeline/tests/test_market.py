@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+import httpx
 import numpy as np
 import pandas as pd
 import pytest
@@ -106,3 +107,52 @@ def test_open_reaction_is_the_sector_adjusted_move_to_the_next_open():
 def test_open_reaction_is_none_when_the_stock_traded_during_the_call():
     df = market.adjusted_returns(make_bars())
     assert market.open_reaction(df, T0 + timedelta(minutes=10), T0 + timedelta(minutes=70)) is None
+
+
+def test_traded_only_keeps_moving_zero_volume_bars_and_drops_flat_ones():
+    df = make_bars(n=10)
+    df["vol"] = 0.0
+    df.loc[[4, 5], "px"] = df.loc[3, "px"]      # 2 flat extended-hours minutes with no trades
+    df.loc[7, "vol"] = 100.0                     # a flat minute that did trade
+    df.loc[8, "px"] = df.loc[7, "px"]
+    out = market.traded_only(df)
+    assert list(out["ts"]) == [t for i, t in enumerate(df["ts"]) if i not in (4, 5, 8)]
+    assert out.index.tolist() == list(range(len(out)))
+
+
+def test_zero_volume_baseline_gives_neutral_vol_mult_and_flags_on_z_alone():
+    df = make_bars(stock_bump={40: 0.012})
+    df["vol"] = 0.0
+    out = market.flag_abnormal(market.adjusted_returns(df))
+    assert (out["vol_mult"] == 1.0).all()
+    assert bool(out.loc[40, "flagged"]) and out["flagged"].sum() == 1
+    assert abs(out.loc[40, "z"]) >= market.Z_THRESHOLD and out.loc[40, "vol_mult"] < market.VOL_THRESHOLD
+    regular = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={40: 0.012}, vol_bump={40: 5})))
+    assert abs(regular.loc[40, "vol_mult"] - 5.0) < 1e-9 and regular.loc[40, "vol_mult"] >= market.VOL_THRESHOLD
+
+
+def test_massive_bars_wait_out_a_429_follow_next_url_and_keep_the_key_out_of_urls(monkeypatch):
+    t0 = int(T0.timestamp() * 1000)
+    bar = lambda i, c, v: {"t": t0 + i * 60000, "o": c, "h": c, "l": c, "c": c, "v": v, "n": 1}
+    pages = [httpx.Response(429, headers={"Retry-After": "2"}),
+             httpx.Response(200, json={"status": "OK", "results": [bar(0, 80.5, 100), bar(1, 80.6, 200)],
+                                       "next_url": "https://api.massive.com/v2/aggs/next?cursor=abc"}),
+             httpx.Response(200, json={"status": "OK", "results": [bar(2, 80.7, 300)]})]
+    calls, sleeps = [], []
+
+    def fake_get(url, params=None, headers=None, timeout=None):
+        calls.append((url, params, headers))
+        r = pages[len(calls) - 1]
+        r.request = httpx.Request("GET", url, params=params)
+        return r
+
+    monkeypatch.setattr(market.httpx, "get", fake_get)
+    monkeypatch.setattr(market.time, "sleep", sleeps.append)
+    df = market.fetch_polygon_bars("WFC", T0, T0 + timedelta(minutes=5), api_key="k")
+    assert sleeps == [2.0] and len(calls) == 3
+    assert calls[0][0].startswith(f"{market.MASSIVE_URL}/v2/aggs/ticker/WFC/range/1/minute/{t0}/")
+    assert calls[0][1] == calls[1][1] and calls[1][1]["limit"] == 50000
+    assert calls[2] == ("https://api.massive.com/v2/aggs/next?cursor=abc", None, {"Authorization": "Bearer k"})
+    assert all("apiKey" not in u and "apiKey" not in (q or {}) for u, q, _ in calls)
+    assert list(df.columns) == ["ts", "px", "vol"] and str(df["ts"].dt.tz) == "UTC"
+    assert df["ts"].iloc[0] == T0 and list(df["px"]) == [80.5, 80.6, 80.7] and list(df["vol"]) == [100, 200, 300]

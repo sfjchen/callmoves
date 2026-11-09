@@ -5,7 +5,8 @@
   "call_start": "2026-10-13T10:00:00-04:00",
   "etf": "IGV",
   "audio_url": null,
-  "company": "Acme Software (fictional fixture)"
+  "company": "Acme Software (fictional fixture)",
+  "audio_offset_ms": 0
  },
  "call_end": "2026-10-13T10:39:15-04:00",
  "segments": [
@@ -2423,7 +2424,9 @@
    "ts": "2026-10-13T10:08:45-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "For the fourth quarter of fiscal 2026, Acme expects revenue of $425 million to $429 million and non-GAAP operating margin of approximately 23%."
+   "matched_text": "For the fourth quarter of fiscal 2026, Acme expects revenue of $425 million to $429 million and non-GAAP operating margin of approximately 23%.",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "claim_id": 1,
@@ -2437,7 +2440,9 @@
    "ts": "2026-10-13T10:10:05-04:00",
    "novel": false,
    "matched_doc": "prior_call",
-   "matched_text": "For the full fiscal year 2026 we are raising our revenue guidance to $1.61 billion to $1.62 billion from $1.58 billion to $1.60 billion."
+   "matched_text": "For the full fiscal year 2026 we are raising our revenue guidance to $1.61 billion to $1.62 billion from $1.58 billion to $1.60 billion.",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "claim_id": 2,
@@ -2451,7 +2456,9 @@
    "ts": "2026-10-13T10:10:05-04:00",
    "novel": true,
    "matched_doc": null,
-   "matched_text": null
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "claim_id": 3,
@@ -2465,7 +2472,9 @@
    "ts": "2026-10-13T10:12:10-04:00",
    "novel": true,
    "matched_doc": null,
-   "matched_text": null
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "claim_id": 4,
@@ -2479,7 +2488,9 @@
    "ts": "2026-10-13T10:12:10-04:00",
    "novel": true,
    "matched_doc": null,
-   "matched_text": null
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "claim_id": 5,
@@ -2493,7 +2504,9 @@
    "ts": "2026-10-13T10:13:15-04:00",
    "novel": true,
    "matched_doc": null,
-   "matched_text": null
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
   }
  ],
  "moments": [
@@ -2516,7 +2529,9 @@
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 0.8333333333333334,
    "score": 0.056178412667776095,
-   "confidence": "high"
+   "confidence": "high",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "rank": 2,
@@ -2537,7 +2552,9 @@
    "vol_mult": 3.366671268811266,
    "nearest_flag_min": 0.75,
    "score": 0.020794399434775783,
-   "confidence": "high"
+   "confidence": "high",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "rank": 3,
@@ -2558,7 +2575,9 @@
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 2.9166666666666665,
    "score": 0.01563477102516802,
-   "confidence": "medium"
+   "confidence": "medium",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   },
   {
    "rank": 4,
@@ -2579,7 +2598,9 @@
    "vol_mult": 4.4409499735465285,
    "nearest_flag_min": 4.25,
    "score": 0.0021387671767922303,
-   "confidence": "low"
+   "confidence": "low",
+   "vs_consensus_pct": null,
+   "consensus_role": null
   }
  ],
  "llm_used": true,
@@ -2589,5 +2610,6 @@
   9,
   10
  ],
- "open_reaction": null
+ "open_reaction": null,
+ "estimates": []
 }

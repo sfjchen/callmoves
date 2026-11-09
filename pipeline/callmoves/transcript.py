@@ -21,10 +21,11 @@ def load_call(path: Path) -> tuple[CallMeta, list[Segment]]:
 
 
 def align(meta: CallMeta, segments: list[Segment]) -> list[Segment]:
-    """Audio t=0 is the call start. Every segment gets a wall-clock timestamp."""
+    """Audio t=audio_offset_ms is the call start. Every segment gets a wall-clock timestamp."""
     out = []
     for s in segments:
-        out.append(s.model_copy(update={"ts": meta.call_start + timedelta(milliseconds=s.t0_ms)}))
+        ts = meta.call_start + timedelta(milliseconds=s.t0_ms - meta.audio_offset_ms)
+        out.append(s.model_copy(update={"ts": ts}))
     return out
 
 

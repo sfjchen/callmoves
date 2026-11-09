@@ -1,0 +1,71 @@
+{
+ "_note": "trimmed Alpha Vantage EARNINGS_ESTIMATES and EARNINGS for AAPL, fetched 2026-11-08",
+ "estimates": [
+  {
+   "date": "2028-09-30",
+   "horizon": "fiscal year",
+   "eps_estimate_average": "10.8295",
+   "eps_estimate_average_7_days_ago": "10.8436",
+   "eps_estimate_average_30_days_ago": "10.8337",
+   "eps_estimate_average_60_days_ago": "10.7505",
+   "eps_estimate_average_90_days_ago": "10.8366",
+   "revenue_estimate_average": "571661993480.00"
+  },
+  {
+   "date": "2027-09-30",
+   "horizon": "fiscal year",
+   "eps_estimate_average": "9.4485",
+   "eps_estimate_average_7_days_ago": "8.8414",
+   "eps_estimate_average_30_days_ago": "8.8342",
+   "eps_estimate_average_60_days_ago": "8.8245",
+   "eps_estimate_average_90_days_ago": "8.7977",
+   "revenue_estimate_average": "477708596770.00"
+  },
+  {
+   "date": "2026-12-31",
+   "horizon": "fiscal quarter",
+   "eps_estimate_average": "2.9121",
+   "eps_estimate_average_7_days_ago": "2.8954",
+   "eps_estimate_average_30_days_ago": "2.9059",
+   "eps_estimate_average_60_days_ago": "2.8927",
+   "eps_estimate_average_90_days_ago": "2.9050",
+   "revenue_estimate_average": "153064137540.00"
+  },
+  {
+   "date": "2026-09-30",
+   "horizon": "fiscal quarter",
+   "eps_estimate_average": "2.9035",
+   "eps_estimate_average_7_days_ago": "2.8963",
+   "eps_estimate_average_30_days_ago": "2.9059",
+   "eps_estimate_average_60_days_ago": "2.9109",
+   "eps_estimate_average_90_days_ago": "2.9050",
+   "revenue_estimate_average": "155568783890.00"
+  },
+  {
+   "date": "2026-06-30",
+   "horizon": "fiscal quarter",
+   "eps_estimate_average": "1.8924",
+   "eps_estimate_average_7_days_ago": "1.8940",
+   "eps_estimate_average_30_days_ago": "1.8943",
+   "eps_estimate_average_60_days_ago": "1.8943",
+   "eps_estimate_average_90_days_ago": "1.7395",
+   "revenue_estimate_average": "108959817930.00"
+  }
+ ],
+ "quarterlyEarnings": [
+  {
+   "fiscalDateEnding": "2026-09-30",
+   "reportedDate": "2026-11-02",
+   "reportedEPS": "2.05",
+   "estimatedEPS": "1.98",
+   "reportTime": "post-market"
+  },
+  {
+   "fiscalDateEnding": "2026-06-30",
+   "reportedDate": "2026-07-30",
+   "reportedEPS": "2.02",
+   "estimatedEPS": "1.88",
+   "reportTime": "post-market"
+  }
+ ]
+}

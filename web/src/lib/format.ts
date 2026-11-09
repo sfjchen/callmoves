@@ -18,3 +18,13 @@ export function mmss(ms: number): string {
 export function shortSpeaker(speaker: string): string {
   return speaker.split(",")[0];
 }
+
+// Return direction for color. Moves under 0.10% are noise and stay grey, so green and red mean price direction only.
+export type Dir = "up" | "down" | "flat";
+
+export function dir(x: number): Dir {
+  return Math.abs(x) < 0.001 ? "flat" : x > 0 ? "up" : "down";
+}
+
+export const DIR_HEX: Record<Dir, string> = { up: "#047857", down: "#b91c1c", flat: "#737373" };
+export const DIR_TEXT: Record<Dir, string> = { up: "text-emerald-700", down: "text-red-700", flat: "text-neutral-500" };
