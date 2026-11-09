@@ -57,8 +57,12 @@ def fetch_polygon_bars(ticker: str, start: datetime, end: datetime, api_key: str
 
 
 def join_stock_etf(stock: pd.DataFrame, etf: pd.DataFrame) -> pd.DataFrame:
-    df = stock.merge(etf[["ts", "px"]].rename(columns={"px": "etf_px"}), on="ts", how="inner")
-    return df.sort_values("ts").reset_index(drop=True)
+    """Every stock minute with the ETF's last price at or before it. After the close a sector ETF prints far less
+    often than a stock that just reported, so an exact-minute join drops most of the reaction. A minute with no ETF
+    trade carries its last price, a sector return of 0. Stock minutes before the first ETF print are dropped."""
+    etf_px = etf[["ts", "px"]].rename(columns={"px": "etf_px"}).sort_values("ts")
+    df = pd.merge_asof(stock.sort_values("ts"), etf_px, on="ts", direction="backward")
+    return df.dropna(subset=["etf_px"]).reset_index(drop=True)
 
 
 def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:

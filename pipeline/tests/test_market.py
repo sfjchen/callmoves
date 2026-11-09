@@ -156,3 +156,12 @@ def test_massive_bars_wait_out_a_429_follow_next_url_and_keep_the_key_out_of_url
     assert all("apiKey" not in u and "apiKey" not in (q or {}) for u, q, _ in calls)
     assert list(df.columns) == ["ts", "px", "vol"] and str(df["ts"].dt.tz) == "UTC"
     assert df["ts"].iloc[0] == T0 and list(df["px"]) == [80.5, 80.6, 80.7] and list(df["vol"]) == [100, 200, 300]
+
+
+def test_join_keeps_stock_minutes_the_etf_skipped_with_its_last_price():
+    ts = pd.date_range("2026-11-03 22:00", periods=4, freq="1min", tz="UTC")
+    stock = pd.DataFrame({"ts": ts, "px": [10.0, 11.0, 12.0, 13.0], "vol": [5.0] * 4})
+    etf = pd.DataFrame({"ts": ts[[1, 3]], "px": [100.0, 101.0], "vol": [1.0, 1.0]})
+    out = market.join_stock_etf(stock, etf)
+    assert list(out["ts"]) == list(ts[1:])                 # minute 0 precedes the first ETF print
+    assert list(out["etf_px"]) == [100.0, 100.0, 101.0]    # minute 2 carries the ETF's last price
