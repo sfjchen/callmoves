@@ -87,6 +87,7 @@ class Moment(BaseModel):
     nearest_flag_min: float
     score: float
     confidence: Literal["high", "medium", "low"] = "low"
+    pre_move: bool = False   # the price event began in an earlier minute than the claim
     vs_consensus_pct: float | None = None
     consensus_role: Literal["reported", "next_quarter", "full_year"] | None = None
 

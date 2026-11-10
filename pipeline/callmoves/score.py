@@ -5,7 +5,7 @@ import math
 
 import pandas as pd
 
-from .market import forward_window, minutes_to_nearest_flag
+from .market import flag_events, forward_window, minutes_to_nearest_flag
 from .models import Claim, Moment, Segment
 
 NOVEL_WEIGHT = 1.0
@@ -48,25 +48,34 @@ def score_claim(claim: Claim, bars: pd.DataFrame, reaction: dict | None = None) 
 
 def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, top_n: int = 5,
                  reaction: dict | None = None) -> list[Moment]:
+    """Top claims, at most 1 per price event: a claim belongs to the event of the first flag in its 5-minute
+    window, and the best-scoring claim wins it. A claim spoken after its event's first flagged minute is marked
+    pre_move, since prices may have moved first and shaped what was said. Claims with no flag ahead (and all
+    claims under an open reaction, which share 1 move) dedupe by minute instead."""
     seg_by_id = {s.seg_id: s for s in segments}
+    ev = flag_events(bars) if not reaction else None
     scored = []
     for c in claims:
         score, w, dist = score_claim(c, bars, reaction)
         scored.append((score, c, w, dist))
     scored.sort(key=lambda x: x[0], reverse=True)
     moments = []
-    seen_minutes: set = set()
+    seen: set = set()
     for score, c, w, dist in scored:
         minute = c.ts.replace(second=0, microsecond=0)
-        if minute in seen_minutes:      # one moment per minute, the best-scoring claim wins
+        key, pre_move = ("minute", minute), False
+        if ev is not None and not math.isinf(dist):
+            hit = ev[ev["ts"] >= c.ts].iloc[0]
+            key, pre_move = ("event", int(hit["event"])), bool(hit["start"] < minute)
+        if key in seen:
             continue
-        seen_minutes.add(minute)
+        seen.add(key)
         moments.append(Moment(
             rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg_by_id[c.seg_id].time_of(c.quote),
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
             etf_ret_5m=w["etf_ret"], vol_mult=w["vol_mult"], nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
-            vs_consensus_pct=c.vs_consensus_pct, consensus_role=c.consensus_role,
+            vs_consensus_pct=c.vs_consensus_pct, consensus_role=c.consensus_role, pre_move=pre_move,
             score=score,
             confidence="low" if reaction else confidence(market_relevant(c), w["adj_ret"], w["vol_mult"], dist),
         ))

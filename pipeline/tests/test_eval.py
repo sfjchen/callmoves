@@ -1,8 +1,10 @@
 from datetime import timedelta
+from pathlib import Path
 
-from callmoves.eval import Label, evaluate
-from callmoves.models import Moment
 from conftest import T0
+
+from callmoves.eval import Label, evaluate, placebo
+from callmoves.models import Moment
 
 
 def moment(rank, minute):
@@ -22,3 +24,8 @@ def test_precision_at_k_with_2_minute_tolerance_and_missed_labels():
     assert ev.missed == []
     ev = evaluate([moment(1, 12), moment(2, 13), moment(3, 40)], labels)
     assert ev.precision[3] == 2 / 3 and ev.missed == [labels[1]]
+
+
+def test_placebo_planted_moves_beat_every_time_shift():
+    real, fake = placebo(Path(__file__).parent.parent / "fixtures" / "acme_q3_2026")
+    assert real > max(fake)

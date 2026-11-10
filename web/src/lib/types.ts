@@ -67,6 +67,7 @@ export type Moment = {
   nearest_flag_min: number;
   score: number;
   confidence: "high" | "medium" | "low";
+  pre_move?: boolean;
   vs_consensus_pct?: number | null;
   consensus_role?: Estimate["role"] | null;
 };

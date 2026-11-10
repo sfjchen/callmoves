@@ -119,7 +119,9 @@ export default function Replay({ data }: { data: CallOutput }) {
           Score = novelty × kind × |adjusted return over the next 5 min| × volume multiple × closeness to the flagged minute.
           An EPS or revenue figure more than 1% off analyst consensus counts as new even when the release printed it.
           <br />
-          Top 5 become moments, each graded high, medium or low confidence. Associations, not causes.
+          Top 5 become moments, at most 1 per price event (flagged minutes within 2 min of each other), each graded
+          high, medium or low confidence. &ldquo;Move began earlier&rdquo; marks a statement made after its event started, where the
+          price may have shaped what was said. Associations, not causes.
         </p>
       </details>
 
@@ -296,6 +298,7 @@ function MomentCard({ m, offset, atOpen, active, onSelect }: { m: Moment; offset
         <div className="mt-1.5 text-xs tabular flex flex-wrap gap-x-3 gap-y-0.5 text-neutral-600">
           <span>{m.vol_mult.toFixed(1)}x volume</span>
           {m.nearest_flag_min >= 0 && <span className="text-neutral-500">abnormal minute {m.nearest_flag_min === 0 ? "at" : `+${m.nearest_flag_min.toFixed(0)} min after`} the statement</span>}
+          {m.pre_move && <span className="text-amber-700">move began earlier</span>}
           <span className={`ml-auto rounded px-1.5 py-0.5 ${CONF[m.confidence]}`}>{m.confidence} confidence</span>
         </div>
       </button>

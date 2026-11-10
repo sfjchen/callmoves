@@ -21,6 +21,7 @@ OPEN_WINDOW_MIN = 30    # minutes after the next open read as the reaction to a 
 MASSIVE_URL = "https://api.massive.com"   # api.polygon.io still serves the same data
 RATE_WAIT_S = 13.0      # free plan: about 5 requests a minute
 RATE_RETRIES = 5
+EVENT_GAP_MIN = 2       # flagged minutes this close together are 1 price event
 EDGE_LOOKUP_DAYS = 5    # how far to look for the prior close and next open: a weekend plus a holiday
 
 
@@ -138,6 +139,16 @@ def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = 5):
         if any(f - timedelta(minutes=lookback_min) <= s.ts <= f for f in flags):
             keep.append(s)
     return keep
+
+
+def flag_events(df: pd.DataFrame, gap_min: int = EVENT_GAP_MIN) -> pd.DataFrame:
+    """Groups flagged minutes into price events: a flag more than `gap_min` minutes after the previous one starts a
+    new event. One drop flagged over 4 straight minutes is 1 event, so it yields 1 moment, not 4. Columns: ts,
+    event (id), start (the event's first flagged minute)."""
+    ev = df.loc[df["flagged"], ["ts"]].reset_index(drop=True)
+    ev["event"] = (ev["ts"].diff() > timedelta(minutes=gap_min)).cumsum()
+    ev["start"] = ev.groupby("event")["ts"].transform("min")
+    return ev
 
 
 def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) -> float:

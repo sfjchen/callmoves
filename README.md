@@ -27,6 +27,7 @@ The fixture and the WFC call ship with cached Claude output (`llm_claims.json`) 
 - `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`: `ingest --upload` transcodes the audio to mono 48 kbps MP3 and uploads it.
 
 Precision at 3 and 5 against hand-labeled move times: `.venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>`.
+Placebo check without labels, real statement timing against the same claims shifted 15 to 60 minutes: `.venv/bin/python -m callmoves.eval data/<call> --placebo`. On 2026-11-09 Apple FY26 Q4 and JPMorgan Q3 beat all 20 shifts, Wayfair beat 17, and Duolingo, both Q2 bank calls and Wells Fargo Q3 showed no timing signal.
 
 ## How a call is processed
 
