@@ -4,10 +4,11 @@ import httpx
 import numpy as np
 import pandas as pd
 import pytest
-from hypothesis import given, settings, strategies as st
+from conftest import ET, T0, make_bars
+from hypothesis import given, settings
+from hypothesis import strategies as st
 
 from callmoves import market
-from conftest import ET, T0, make_bars
 
 
 def test_identical_stock_and_etf_has_zero_adjusted_return():
@@ -165,3 +166,13 @@ def test_join_keeps_stock_minutes_the_etf_skipped_with_its_last_price():
     out = market.join_stock_etf(stock, etf)
     assert list(out["ts"]) == list(ts[1:])                 # minute 0 precedes the first ETF print
     assert list(out["etf_px"]) == [100.0, 100.0, 101.0]    # minute 2 carries the ETF's last price
+
+
+def test_open_volume_is_not_flagged_against_the_pre_market_baseline_but_a_later_spike_is():
+    ts = pd.date_range("2026-07-14 13:00", periods=60, freq="1min", tz="UTC")   # 9:00 to 9:59 ET
+    df = make_bars(n=60, stock_bump={30: 0.004, 50: 0.01}, vol_bump={50: 8})
+    df["ts"] = ts
+    df.loc[:29, "vol"] = 200.0                                                   # thin pre-market
+    out = market.flag_abnormal(market.adjusted_returns(df))
+    assert out.loc[30, "vol_mult"] == 1.0 and not out.loc[30, "flagged"]          # 9:30 open, no session baseline yet
+    assert out.loc[50, "flagged"]

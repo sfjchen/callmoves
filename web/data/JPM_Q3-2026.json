@@ -7311,8 +7311,8 @@
    "vol": 491505.031265,
    "adj_ret": 0.002694837839978259,
    "cum_adj_ret": 0.01322129272043382,
-   "vol_mult": 102.04550653077554,
-   "flagged": true
+   "vol_mult": 1.0,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:31:00Z",
@@ -7321,7 +7321,7 @@
    "vol": 146088.105078,
    "adj_ret": 0.0017768945714926598,
    "cum_adj_ret": 0.015021680135189452,
-   "vol_mult": 29.365358634099252,
+   "vol_mult": 1.0,
    "flagged": false
   },
   {
@@ -7331,8 +7331,8 @@
    "vol": 167127.34315,
    "adj_ret": 0.0038752311947833906,
    "cum_adj_ret": 0.018955123813430896,
-   "vol_mult": 33.59448304530716,
-   "flagged": true
+   "vol_mult": 1.0,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:33:00Z",
@@ -7341,8 +7341,8 @@
    "vol": 98420.032725,
    "adj_ret": -0.0021978826869748502,
    "cum_adj_ret": 0.016715579987996998,
-   "vol_mult": 18.58097661456199,
-   "flagged": true
+   "vol_mult": 1.0,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:34:00Z",
@@ -7351,8 +7351,8 @@
    "vol": 100443.458164,
    "adj_ret": -0.006517326179067751,
    "cum_adj_ret": 0.010089312921875093,
-   "vol_mult": 16.933905110680264,
-   "flagged": true
+   "vol_mult": 1.0,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:35:00Z",
@@ -7361,8 +7361,8 @@
    "vol": 83458.946597,
    "adj_ret": -0.004075015792798564,
    "cum_adj_ret": 0.005973183019581496,
-   "vol_mult": 14.070462209727726,
-   "flagged": true
+   "vol_mult": 0.5712918690569587,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:36:00Z",
@@ -7371,8 +7371,8 @@
    "vol": 74216.481414,
    "adj_ret": 0.002072767384756702,
    "cum_adj_ret": 0.00805833142328427,
-   "vol_mult": 11.676580830399232,
-   "flagged": true
+   "vol_mult": 0.6020850266636869,
+   "flagged": false
   },
   {
    "ts": "2026-10-13T13:37:00Z",
@@ -7381,7 +7381,7 @@
    "vol": 71518.430398,
    "adj_ret": 0.001356531996461241,
    "cum_adj_ret": 0.009425794804159393,
-   "vol_mult": 5.937104635474994,
+   "vol_mult": 0.7120267631688627,
    "flagged": false
   },
   {
@@ -7391,7 +7391,7 @@
    "vol": 40670.931523,
    "adj_ret": -0.0018938312864721363,
    "cum_adj_ret": 0.007514112652587279,
-   "vol_mult": 1.8824777376996065,
+   "vol_mult": 0.409033667680121,
    "flagged": false
   },
   {
@@ -7401,7 +7401,7 @@
    "vol": 62037.486585,
    "adj_ret": -0.0015928169562651195,
    "cum_adj_ret": 0.005909327090277916,
-   "vol_mult": 2.8714411749595,
+   "vol_mult": 0.6303339357581991,
    "flagged": false
   },
   {
@@ -7411,7 +7411,7 @@
    "vol": 52738.565895,
    "adj_ret": 0.0010715360750666036,
    "cum_adj_ret": 0.00698719522250113,
-   "vol_mult": 1.5930711505623496,
+   "vol_mult": 0.5799303041131677,
    "flagged": false
   },
   {
@@ -7421,7 +7421,7 @@
    "vol": 43398.001031,
    "adj_ret": 0.0008143496444731335,
    "cum_adj_ret": 0.0078072348869193675,
-   "vol_mult": 0.9291988979835194,
+   "vol_mult": 0.5199921973680887,
    "flagged": false
   },
   {
@@ -7431,7 +7431,7 @@
    "vol": 32261.55083,
    "adj_ret": -0.0007382815531886688,
    "cum_adj_ret": 0.0070631893962322945,
-   "vol_mult": 0.6711608675361365,
+   "vol_mult": 0.40921469168613034,
    "flagged": false
   },
   {
@@ -7441,7 +7441,7 @@
    "vol": 49099.559912,
    "adj_ret": -0.0019714383101778754,
    "cum_adj_ret": 0.005077826443886657,
-   "vol_mult": 1.0214544055810482,
+   "vol_mult": 0.6615721868854051,
    "flagged": false
   },
   {
@@ -7451,7 +7451,7 @@
    "vol": 49109.207303,
    "adj_ret": 0.00008590347998405079,
    "cum_adj_ret": 0.005164166126832903,
-   "vol_mult": 0.9644562272497046,
+   "vol_mult": 0.6739525442791848,
    "flagged": false
   },
   {
@@ -7461,7 +7461,7 @@
    "vol": 44075.547075,
    "adj_ret": 0.0009862559197177934,
    "cum_adj_ret": 0.006155515235963582,
-   "vol_mult": 0.8655181294796441,
+   "vol_mult": 0.6162823600814451,
    "flagged": false
   },
   {
@@ -7471,7 +7471,7 @@
    "vol": 44447.506814,
    "adj_ret": -0.0028843085959230352,
    "cum_adj_ret": 0.003253452234533105,
-   "vol_mult": 0.872822358670338,
+   "vol_mult": 0.6656014621899172,
    "flagged": false
   },
   {
@@ -7481,7 +7481,7 @@
    "vol": 34983.949052,
    "adj_ret": -0.0007425213868429426,
    "cum_adj_ret": 0.0025085150898249697,
-   "vol_mult": 0.686985055313649,
+   "vol_mult": 0.5639162863902798,
    "flagged": false
   },
   {
@@ -7491,7 +7491,7 @@
    "vol": 60584.535249,
    "adj_ret": 0.002132004971499679,
    "cum_adj_ret": 0.004645868227967309,
-   "vol_mult": 1.1897076066890326,
+   "vol_mult": 1.0556999293830391,
    "flagged": false
   },
   {
@@ -7501,7 +7501,7 @@
    "vol": 58449.479545,
    "adj_ret": -0.0013028629968409033,
    "cum_adj_ret": 0.0033369523013240254,
-   "vol_mult": 1.031554536629351,
+   "vol_mult": 0.9647590644175943,
    "flagged": false
   },
   {
@@ -8220,12 +8220,12 @@
    "claim_id": 0,
    "seg_id": 28,
    "speaker": "Management",
-   "quote": "That 5 billion, probably about a quarter of that, I would say, is related to the yield curve.",
-   "metric": "NII growth attributable to yield curve",
-   "value": "about a quarter of $5 billion",
+   "quote": "So we're essentially giving you, you know, guiding to 5 billion of growth from that to the 107.",
+   "metric": "Net interest income growth",
+   "value": "5 billion",
    "period": "next year",
    "kind": "guidance",
-   "ts": "2026-10-13T08:42:05.780000-04:00",
+   "ts": "2026-10-13T08:41:59.460000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -8236,8 +8236,24 @@
    "claim_id": 1,
    "seg_id": 28,
    "speaker": "Management",
+   "quote": "That 5 billion, probably about a quarter of that, I would say, is related to the yield curve.",
+   "metric": "NII growth attributable to yield curve",
+   "value": "about a quarter of 5 billion",
+   "period": "next year",
+   "kind": "guidance",
+   "ts": "2026-10-13T08:42:05.780000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 2,
+   "seg_id": 28,
+   "speaker": "Management",
    "quote": "So we remain, you know, asset sensitive and probably a little bit more asset sensitive than the EAR shows just because of the lower than modeled deposit betas.",
-   "metric": "asset sensitivity",
+   "metric": "Asset sensitivity",
    "value": null,
    "period": null,
    "kind": "qualitative",
@@ -8249,42 +8265,10 @@
    "consensus_role": null
   },
   {
-   "claim_id": 2,
-   "seg_id": 28,
-   "speaker": "Management",
-   "quote": "And the rest of it, I would actually describe pretty straightforwardly as just a continuation of the balance sheet growth and mixed trends that you've seen this year.",
-   "metric": "NII growth drivers",
-   "value": null,
-   "period": "next year",
-   "kind": "guidance",
-   "ts": "2026-10-13T08:42:32.180000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
    "claim_id": 3,
    "seg_id": 29,
    "speaker": "Management",
-   "quote": "So both continued, you know, modest consumer deposit growth, continued wholesale deposit growth, probably a wholesale a bit weaker than what was very strong this year, but we don't actually know.",
-   "metric": "deposit growth",
-   "value": null,
-   "period": "next year",
-   "kind": "guidance",
-   "ts": "2026-10-13T08:42:40.660000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 4,
-   "seg_id": 29,
-   "speaker": "Management",
-   "quote": "I mean, I think there's more uncertainty around that number than normal because of all the things going on around the world.",
+   "quote": "I mean, I mean, I think there's more uncertainty around that number than normal because of all the things going on around the world.",
    "metric": "NII guidance uncertainty",
    "value": null,
    "period": null,
@@ -8297,12 +8281,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 5,
+   "claim_id": 4,
    "seg_id": 31,
    "speaker": "Management",
    "quote": "So we see the consensus right now for 2027 expenses being around 114 billion and our current preliminary read isn't too far from that.",
-   "metric": "2027 expenses",
-   "value": "around $114 billion",
+   "metric": "Expenses",
+   "value": "around 114 billion",
    "period": "2027",
    "kind": "guidance",
    "ts": "2026-10-13T08:44:29.080000-04:00",
@@ -8313,12 +8297,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 6,
+   "claim_id": 5,
    "seg_id": 37,
    "speaker": "Management",
    "quote": "So I think we've told you all that we have probably 30 billion or something of excess capital rush roughly just estimating what all the end games are, which we don't know, but that's plenty.",
-   "metric": "excess capital",
-   "value": "approximately $30 billion",
+   "metric": "Excess capital",
+   "value": "approximately 30 billion",
    "period": null,
    "kind": "qualitative",
    "ts": "2026-10-13T08:45:48.520000-04:00",
@@ -8329,11 +8313,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 7,
+   "claim_id": 6,
    "seg_id": 37,
    "speaker": "Management",
    "quote": "I mean, after you pay a dividend, which hopefully be steady, are we like, we really like investing in organic growth that is the highest and best use of capital for shareholders.",
-   "metric": "capital priorities",
+   "metric": "Capital priorities",
    "value": null,
    "period": null,
    "kind": "qualitative",
@@ -8345,7 +8329,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 8,
+   "claim_id": 7,
    "seg_id": 38,
    "speaker": "Management",
    "quote": "We believe now, which is different than we told you in the past, that we can redeploy that capital at very good returns over time and redeploying that capital at very good terms over time is far better than buying stock at a 6% or whatever the earnings yield would be if you bought it today.",
@@ -8361,7 +8345,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 9,
+   "claim_id": 8,
    "seg_id": 38,
    "speaker": "Management",
    "quote": "you know, the security resiliency initiative, we told you all, we deploy $1.5 trillion over 10 years.",
@@ -8377,12 +8361,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 10,
+   "claim_id": 9,
    "seg_id": 38,
    "speaker": "Management",
    "quote": "And we, you know, we haven't, I don't think we've disclosed the number, but the first year is probably over 200 already.",
    "metric": "security resiliency initiative first-year deployment",
-   "value": "over 200 (billion)",
+   "value": "over $200 billion",
    "period": "first year",
    "kind": "result",
    "ts": "2026-10-13T08:46:54.560000-04:00",
@@ -8393,12 +8377,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 11,
+   "claim_id": 10,
    "seg_id": 38,
    "speaker": "Management",
    "quote": "But I guess it'll be considerably more than that.",
-   "metric": "security resiliency initiative first-year deployment",
-   "value": "considerably more than 200",
+   "metric": "security resiliency initiative deployment",
+   "value": null,
    "period": null,
    "kind": "guidance",
    "ts": "2026-10-13T08:47:01.920000-04:00",
@@ -8409,12 +8393,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 12,
+   "claim_id": 11,
    "seg_id": 39,
    "speaker": "Management",
    "quote": "I want to say that we started at something like 15-7 and we're now at 13-9 during a period during which we've done a ton of internal deployment.",
    "metric": "CET1 ratio",
-   "value": "13.9% from about 15.7%",
+   "value": "from 15.7% to 13.9%",
    "period": null,
    "kind": "result",
    "ts": "2026-10-13T08:47:30.640000-04:00",
@@ -8425,7 +8409,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 13,
+   "claim_id": 12,
    "seg_id": 39,
    "speaker": "Management",
    "quote": "Um, and during that period, we've also, also done a bunch of buybacks.",
@@ -8441,7 +8425,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 14,
+   "claim_id": 13,
    "seg_id": 40,
    "speaker": "Management",
    "quote": "the speed with which we've been able to deploy organically relative to the amount of access that we have and the environment seems pretty clear that it makes sense to keep drive out.",
@@ -8457,12 +8441,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 15,
+   "claim_id": 14,
    "seg_id": 41,
    "speaker": "Management",
    "quote": "I have something across my desk, which is alone, you know, over 10 or $20 billion of financing, uh, in one country.",
-   "metric": "financing in one country",
-   "value": "over $10 or $20 billion",
+   "metric": "financing pipeline in one country",
+   "value": "$10-20 billion",
    "period": null,
    "kind": "qualitative",
    "ts": "2026-10-13T08:48:56.040000-04:00",
@@ -8473,7 +8457,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 16,
+   "claim_id": 15,
    "seg_id": 41,
    "speaker": "Management",
    "quote": "Uh, we think we're doing the right kind of good business at good returns.",
@@ -8489,7 +8473,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 17,
+   "claim_id": 16,
    "seg_id": 43,
    "speaker": "Management",
    "quote": "I was in Europe recently and the pipeline there is actually quite healthy and even more so in IPOs than we would have thought.",
@@ -8505,13 +8489,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 18,
+   "claim_id": 17,
    "seg_id": 44,
    "speaker": "Management",
    "quote": "I think that we do know that the overall environment is robust and supportive.",
-   "metric": "business environment",
+   "metric": "market environment",
    "value": null,
-   "period": null,
+   "period": "Q4",
    "kind": "qualitative",
    "ts": "2026-10-13T08:50:53.850000-04:00",
    "novel": true,
@@ -8521,23 +8505,23 @@
    "consensus_role": null
   },
   {
-   "claim_id": 19,
+   "claim_id": 18,
    "seg_id": 44,
    "speaker": "Management",
    "quote": "And so we did see a little bit of that slowdown and, you know, the second half of September, basically.",
    "metric": "investment banking activity",
-   "value": "slowdown",
+   "value": null,
    "period": "second half of September",
    "kind": "result",
    "ts": "2026-10-13T08:51:12.850000-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "Markets revenue and IB fees each rose at a mid-teens rate, helped by strong levels of client activity, although activity did moderate somewhat during the quarter.",
+   "matched_text": "although activity did moderate somewhat during the quarter.",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
-   "claim_id": 20,
+   "claim_id": 19,
    "seg_id": 47,
    "speaker": "Management",
    "quote": "I'm not going to give you very specific stuff, but we're tightening up a little bit on credit.",
@@ -8553,7 +8537,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 21,
+   "claim_id": 20,
    "seg_id": 47,
    "speaker": "Management",
    "quote": "I think some of the credit terms are kind of a little bit loose.",
@@ -8569,7 +8553,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 22,
+   "claim_id": 21,
    "seg_id": 48,
    "speaker": "Management",
    "quote": "So far, what we see in the current data and what's been true, I would say, for the last few years, the consumer has been quite resilient in the face of a number of headwinds that under different circumstances, you might have expected would present a challenge.",
@@ -8585,7 +8569,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 23,
+   "claim_id": 22,
    "seg_id": 49,
    "speaker": "Management",
    "quote": "Like the consumer is currently very healthy, primarily because of a healthy labor market.",
@@ -8601,7 +8585,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 24,
+   "claim_id": 23,
    "seg_id": 49,
    "speaker": "Management",
    "quote": "That's going to involve higher unemployment, which will produce weaker consumer credit results.",
@@ -8617,11 +8601,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 25,
+   "claim_id": 24,
    "seg_id": 52,
    "speaker": "Management",
    "quote": "I think the simple answer is no significant change to our core expectations here.",
-   "metric": "deposit outlook",
+   "metric": "deposit expectations",
    "value": "no significant change",
    "period": null,
    "kind": "guidance",
@@ -8633,12 +8617,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 26,
+   "claim_id": 25,
    "seg_id": 52,
    "speaker": "Management",
    "quote": "I think we've seen kind of the reassertion of consumer deposit growth over the last couple of quarters as the yield seeking flows have faded.",
    "metric": "consumer deposit growth",
-   "value": "reasserted",
+   "value": "reasserting",
    "period": "last couple of quarters",
    "kind": "result",
    "ts": "2026-10-13T08:54:31.680000-04:00",
@@ -8649,11 +8633,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 27,
+   "claim_id": 26,
    "seg_id": 53,
    "speaker": "Management",
    "quote": "And all else equal, you would probably expect some amount of additional internal migration out of checking savings into, you know, CDs or simplicity, resulting in higher weighted average rate paid.",
-   "metric": "weighted average rate paid on deposits",
+   "metric": "weighted average deposit rate paid",
    "value": "higher",
    "period": null,
    "kind": "guidance",
@@ -8665,15 +8649,15 @@
    "consensus_role": null
   },
   {
-   "claim_id": 28,
+   "claim_id": 27,
    "seg_id": 54,
    "speaker": "Management",
-   "quote": "I don't personally believe that. I continue on that. And therefore, I would expect a little bit of additional pressure.",
+   "quote": "And therefore, I would expect a little bit of additional pressure.",
    "metric": "deposit outflow pressure",
-   "value": "a little bit of additional pressure",
+   "value": "a little bit additional",
    "period": null,
    "kind": "guidance",
-   "ts": "2026-10-13T08:55:46.130000-04:00",
+   "ts": "2026-10-13T08:55:51.770000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -8681,23 +8665,23 @@
    "consensus_role": null
   },
   {
-   "claim_id": 29,
+   "claim_id": 28,
    "seg_id": 54,
    "speaker": "Management",
    "quote": "And the good news, I would say, is that by the net new checking account acquisition, which I think we have like 650 this quarter or something.",
    "metric": "net new checking accounts",
-   "value": "650",
+   "value": "650 (thousand, approximate)",
    "period": "this quarter",
    "kind": "result",
    "ts": "2026-10-13T08:55:57.810000-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "we added over 650,000 net new checking accounts.",
+   "matched_text": "account acquisition remained strong in the quarter as we added over 650,000 net new checking accounts.",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
-   "claim_id": 30,
+   "claim_id": 29,
    "seg_id": 55,
    "speaker": "Management",
    "quote": "So at a high level, I think the simple answer is no real change.",
@@ -8713,7 +8697,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 31,
+   "claim_id": 30,
    "seg_id": 97,
    "speaker": "Management",
    "quote": "our net new checking account growth has been exceptionally strong, 650,000 supporters, so people are reacting, they're responding well to the marketing, they're responding well to the brand, the value proposition, to the sort of multi-decade investment and the product bundle that we offer our consumers.",
@@ -8729,7 +8713,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 32,
+   "claim_id": 31,
    "seg_id": 97,
    "speaker": "Management",
    "quote": "So I think that's really good news and has been a contributor to the kind of reassertion of consumer deposit growth.",
@@ -8745,7 +8729,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 33,
+   "claim_id": 32,
    "seg_id": 98,
    "speaker": "Management",
    "quote": "I think we're relatively optimistic right now and we wouldn't expect radical changes for like small local moves, but we do think a lot about the different rate regimes and how that can affect deposit data.",
@@ -8761,7 +8745,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 34,
+   "claim_id": 33,
    "seg_id": 99,
    "speaker": "Management",
    "quote": "The cash, most of the non-interest barriers is consumer, and that's because we're growing the business and you have different products for different types of consumers.",
@@ -8777,7 +8761,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 35,
+   "claim_id": 34,
    "seg_id": 99,
    "speaker": "Management",
    "quote": "And I think the wholesale side, commercial is much more competitive than that.",
@@ -8793,7 +8777,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 36,
+   "claim_id": 35,
    "seg_id": 103,
    "speaker": "Management",
    "quote": "I've always talked about the 17% being through the cycle.",
@@ -8809,7 +8793,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 37,
+   "claim_id": 36,
    "seg_id": 103,
    "speaker": "Management",
    "quote": "Times are pretty good now with high volume and high asset prices and fairly low credit losses and all that.",
@@ -8825,7 +8809,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 38,
+   "claim_id": 37,
    "seg_id": 103,
    "speaker": "Management",
    "quote": "So if you can earn 17% consistently for a long period of time, that's a really good return for shareholders.",
@@ -8841,14 +8825,14 @@
    "consensus_role": null
   },
   {
-   "claim_id": 39,
+   "claim_id": 38,
    "seg_id": 103,
    "speaker": "Management",
-   "quote": "if you just look across the entire franchise, every single business is performing exceptionally well.",
+   "quote": "but if you just look across the entire franchise, every single business is performing exceptionally well.",
    "metric": "business performance",
    "value": null,
    "period": null,
-   "kind": "result",
+   "kind": "qualitative",
    "ts": "2026-10-13T09:22:42.290000-04:00",
    "novel": true,
    "matched_doc": null,
@@ -8857,7 +8841,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 40,
+   "claim_id": 39,
    "seg_id": 104,
    "speaker": "Management",
    "quote": "The conditions have just been exceptionally favorable.",
@@ -8873,14 +8857,14 @@
    "consensus_role": null
   },
   {
-   "claim_id": 41,
+   "claim_id": 40,
    "seg_id": 104,
    "speaker": "Management",
    "quote": "So the conditions that we've had recently were essentially every part of the franchise is beating records or are not typical by historical standards.",
-   "metric": "franchise performance records",
+   "metric": "franchise performance",
    "value": null,
    "period": null,
-   "kind": "result",
+   "kind": "qualitative",
    "ts": "2026-10-13T09:23:05.530000-04:00",
    "novel": true,
    "matched_doc": null,
@@ -8889,14 +8873,14 @@
    "consensus_role": null
   },
   {
-   "claim_id": 42,
+   "claim_id": 41,
    "seg_id": 104,
    "speaker": "Management",
    "quote": "Yeah, the wholesale build is actually just from new activities.",
    "metric": "wholesale reserve build",
    "value": null,
    "period": null,
-   "kind": "qualitative",
+   "kind": "result",
    "ts": "2026-10-13T09:23:31.090000-04:00",
    "novel": true,
    "matched_doc": null,
@@ -8905,14 +8889,14 @@
    "consensus_role": null
   },
   {
-   "claim_id": 43,
+   "claim_id": 42,
    "seg_id": 105,
    "speaker": "Management",
    "quote": "So it's not downgrades or change in the outlook or anything like that.",
    "metric": "wholesale reserve build drivers",
    "value": null,
    "period": null,
-   "kind": "qualitative",
+   "kind": "result",
    "ts": "2026-10-13T09:23:33.810000-04:00",
    "novel": true,
    "matched_doc": null,
@@ -8921,7 +8905,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 44,
+   "claim_id": 43,
    "seg_id": 105,
    "speaker": "Management",
    "quote": "So I would say that the corporate credit outlook is currently pretty stable.",
@@ -8937,11 +8921,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 45,
+   "claim_id": 44,
    "seg_id": 105,
    "speaker": "Management",
    "quote": "The performance of our borrowers, energy prices, fuel inputs, higher rates, these are all things that will create challenges in different pockets of the economy and CNI space as well as the CRE space for that matter.",
-   "metric": "credit risks",
+   "metric": "credit risk",
    "value": null,
    "period": null,
    "kind": "qualitative",
@@ -8953,7 +8937,7 @@
    "consensus_role": null
   },
   {
-   "claim_id": 46,
+   "claim_id": 45,
    "seg_id": 105,
    "speaker": "Management",
    "quote": "But so far, I mean, it's very early, obviously, but in general, we think corporate balance sheets are in quite good shape.",
@@ -8962,6 +8946,22 @@
    "period": null,
    "kind": "qualitative",
    "ts": "2026-10-13T09:24:06.850000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 46,
+   "seg_id": 105,
+   "speaker": "Management",
+   "quote": "And so there's been resilience, but there are a lot of pressures building up.",
+   "metric": "credit resilience and pressures",
+   "value": null,
+   "period": null,
+   "kind": "qualitative",
+   "ts": "2026-10-13T09:24:13.250000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -8992,24 +8992,8 @@
    "metric": "markets revenue seasonality",
    "value": null,
    "period": "Q3 to Q4",
-   "kind": "qualitative",
-   "ts": "2026-10-13T09:25:18.840000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 49,
-   "seg_id": 112,
-   "speaker": "Management",
-   "quote": "So our base case assumptions right now, all those being equal, are normal seasonal declines between the third and fourth quarter.",
-   "metric": "markets revenue outlook",
-   "value": null,
-   "period": "Q4",
    "kind": "guidance",
-   "ts": "2026-10-13T09:25:32.440000-04:00",
+   "ts": "2026-10-13T09:25:18.840000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -9020,13 +9004,13 @@
  "moments": [
   {
    "rank": 1,
-   "claim_id": 5,
+   "claim_id": 4,
    "seg_id": 31,
    "ts": "2026-10-13T08:44:29.080000-04:00",
    "t0_ms": 869080,
    "speaker": "Management",
    "quote": "So we see the consensus right now for 2027 expenses being around 114 billion and our current preliminary read isn't too far from that.",
-   "metric": "2027 expenses",
+   "metric": "Expenses",
    "kind": "guidance",
    "novel": true,
    "matched_doc": null,
@@ -9043,7 +9027,7 @@
   },
   {
    "rank": 2,
-   "claim_id": 9,
+   "claim_id": 8,
    "seg_id": 38,
    "ts": "2026-10-13T08:46:49.640000-04:00",
    "t0_ms": 1009640,
@@ -9066,13 +9050,13 @@
   },
   {
    "rank": 3,
-   "claim_id": 6,
+   "claim_id": 5,
    "seg_id": 37,
    "ts": "2026-10-13T08:45:48.520000-04:00",
    "t0_ms": 948520,
    "speaker": "Management",
    "quote": "So I think we've told you all that we have probably 30 billion or something of excess capital rush roughly just estimating what all the end games are, which we don't know, but that's plenty.",
-   "metric": "excess capital",
+   "metric": "Excess capital",
    "kind": "qualitative",
    "novel": true,
    "matched_doc": null,
@@ -9089,30 +9073,7 @@
   },
   {
    "rank": 4,
-   "claim_id": 3,
-   "seg_id": 29,
-   "ts": "2026-10-13T08:42:40.660000-04:00",
-   "t0_ms": 760660,
-   "speaker": "Management",
-   "quote": "So both continued, you know, modest consumer deposit growth, continued wholesale deposit growth, probably a wholesale a bit weaker than what was very strong this year, but we don't actually know.",
-   "metric": "deposit growth",
-   "kind": "guidance",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "adj_ret_5m": 0.010441618976256173,
-   "ret_5m": 0.011164946281862154,
-   "etf_ret_5m": 0.0007233273056059808,
-   "vol_mult": 16.183415406729228,
-   "nearest_flag_min": 2.3223333333333334,
-   "score": 0.048147712371986805,
-   "confidence": "medium",
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "rank": 5,
-   "claim_id": 22,
+   "claim_id": 21,
    "seg_id": 48,
    "ts": "2026-10-13T08:52:57.250000-04:00",
    "t0_ms": 1377250,
@@ -9130,6 +9091,29 @@
    "nearest_flag_min": 0.04583333333333333,
    "score": 0.047703522701808734,
    "confidence": "high",
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "rank": 5,
+   "claim_id": 1,
+   "seg_id": 28,
+   "ts": "2026-10-13T08:42:05.780000-04:00",
+   "t0_ms": 725780,
+   "speaker": "Management",
+   "quote": "That 5 billion, probably about a quarter of that, I would say, is related to the yield curve.",
+   "metric": "NII growth attributable to yield curve",
+   "kind": "guidance",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "adj_ret_5m": 0.010441618976256173,
+   "ret_5m": 0.011164946281862154,
+   "etf_ret_5m": 0.0007233273056059808,
+   "vol_mult": 16.183415406729228,
+   "nearest_flag_min": 2.9036666666666666,
+   "score": 0.039666057567760094,
+   "confidence": "medium",
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -9186,9 +9170,7 @@
   108,
   109,
   110,
-  111,
-  112,
-  113
+  111
  ],
  "open_reaction": null,
  "estimates": [

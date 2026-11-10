@@ -65,14 +65,25 @@ def join_stock_etf(stock: pd.DataFrame, etf: pd.DataFrame) -> pd.DataFrame:
     return df.dropna(subset=["etf_px"]).reset_index(drop=True)
 
 
+def session_key(ts: pd.Series) -> pd.Series:
+    """Labels each bar with its trading day and session (0 pre-market, 1 regular, 2 after hours, US Eastern).
+    Baselines restart at each boundary: the 9:30 open prints many times the pre-market volume on any day, so a
+    pre-market baseline would flag the open itself as the reaction to whatever was said just before it."""
+    et = pd.to_datetime(ts, utc=True).dt.tz_convert("America/New_York")
+    mins = et.dt.hour * 60 + et.dt.minute
+    return et.dt.strftime("%Y%m%d") + "-" + ((mins >= 570).astype(int) + (mins >= 960).astype(int)).astype(str)
+
+
 def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
-    """Per minute: stock return minus ETF return, cumulative since the first bar, volume vs trailing median."""
+    """Per minute: stock return minus ETF return, cumulative since the first bar, volume vs the trailing median of
+    the same session."""
     out = df.copy()
     stock_ret = out["px"].pct_change().fillna(0.0)
     etf_ret = out["etf_px"].pct_change().fillna(0.0)
     out["adj_ret"] = stock_ret - etf_ret
     out["cum_adj_ret"] = (1 + out["adj_ret"]).cumprod() - 1
-    med = out["vol"].shift(1).rolling(BASELINE_MIN, min_periods=5).median()
+    med = out.groupby(session_key(out["ts"]))["vol"].transform(
+        lambda v: v.shift(1).rolling(BASELINE_MIN, min_periods=5).median())
     out["vol_mult"] = (out["vol"] / med.where(med > 0)).fillna(1.0)   # zero or NaN baseline: neutral 1.0
     return out
 
@@ -80,9 +91,9 @@ def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
 def flag_abnormal(df: pd.DataFrame) -> pd.DataFrame:
     """Flag a minute when its adjusted return is far outside the trailing baseline, or volume spikes with a real move."""
     out = df.copy()
-    prior = out["adj_ret"].shift(1)
-    mu = prior.rolling(BASELINE_MIN, min_periods=5).mean()
-    sd = prior.rolling(BASELINE_MIN, min_periods=5).std().replace(0, np.nan)
+    roll = out.groupby(session_key(out["ts"]))["adj_ret"].transform
+    mu = roll(lambda r: r.shift(1).rolling(BASELINE_MIN, min_periods=5).mean())
+    sd = roll(lambda r: r.shift(1).rolling(BASELINE_MIN, min_periods=5).std()).replace(0, np.nan)
     z = ((out["adj_ret"] - mu) / sd).fillna(0.0)
     out["z"] = z
     big_move = out["adj_ret"].abs() >= MIN_ABS_RET
