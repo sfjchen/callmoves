@@ -11,13 +11,14 @@ const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
 const WINDOW_MS = 5 * 60_000;  // reaction window after a statement
 const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
-// confidence is blue or grey so that green and red mean price direction only
-const CONF = { high: "bg-blue-100 text-blue-800", medium: "bg-neutral-200 text-neutral-700", low: "bg-neutral-100 text-neutral-500" };
 const GLYPH = { up: "▲", down: "▼", flat: "" };
 
 type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
-// All times in ms since audio t=0, which is the call start minus audio_offset_ms. Wall clock = start + ms.
+/**
+ * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
+ * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms.
+ */
 export default function Replay({ data }: { data: CallOutput }) {
   const offset = data.call.audio_offset_ms ?? 0;
   const start = useMemo(() => new Date(data.call.call_start).getTime() - offset, [data.call.call_start, offset]);
@@ -33,7 +34,7 @@ export default function Replay({ data }: { data: CallOutput }) {
   const [query, setQuery] = useState("");
   const [hit, setHit] = useState(0);
 
-  // audio drives the cursor when playing, the cursor drives audio when the user clicks
+  // Moves the cursor and, when the audio is more than 0.5 s off, the audio with it.
   function seek(ms: number) {
     setCursorMs(ms);
     const a = audioRef.current;
@@ -43,25 +44,30 @@ export default function Replay({ data }: { data: CallOutput }) {
   const points: Point[] = useMemo(
     () =>
       data.bars
-        .map((b) => ({ t: new Date(b.ts).getTime() - start, cum: b.cum_adj_ret * 100, vol_mult: b.vol_mult, flagged: b.flagged }))
+        .map((b) => ({
+          t: new Date(b.ts).getTime() - start, cum: b.cum_adj_ret * 100, vol_mult: b.vol_mult, flagged: b.flagged,
+        }))
         .filter((p) => p.t >= offset - BEFORE_MS && p.t <= endMs + AFTER_MS),
     [data.bars, start, offset, endMs],
   );
   const cursorPoint = useMemo(() => nearest(points, cursorMs), [points, cursorMs]);
   const active = useMemo(() => activeSegment(data.segments, cursorMs), [data.segments, cursorMs]);
   const byTime = useMemo(() => [...data.moments].sort((a, b) => a.t0_ms - b.t0_ms), [data.moments]);
-  const gutter = useMemo(() => segmentReturns(data, start), [data, start]);
   const hits = useMemo(() => {
     const q = query.trim().toLowerCase();
     return q ? data.segments.filter((s) => s.text.toLowerCase().includes(q)) : [];
   }, [data.segments, query]);
   const flaggedCount = data.bars.filter((b) => b.flagged).length;
+  const est = (data.estimates ?? []).filter((e) => e.role === "reported");
 
-  // keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio. Inputs keep their keys.
+  // Keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio. Inputs keep their keys.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const el = e.target as HTMLElement | null;
-      if (e.metaKey || e.ctrlKey || e.altKey || (el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable))) return;
+      if (
+        e.metaKey || e.ctrlKey || e.altKey ||
+        (el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable))
+      ) return;
       const idx = active ? data.segments.indexOf(active) : -1;
       let to: number | undefined;
       if (e.key === "j") to = byTime.find((m) => m.t0_ms > cursorMs)?.t0_ms;
@@ -81,7 +87,7 @@ export default function Replay({ data }: { data: CallOutput }) {
     return () => window.removeEventListener("keydown", onKey);
   });
 
-  // Enter and Shift+Enter cycle the search hits, each hit moves the cursor so the list scrolls to it
+  // Cycles the search hits on Enter and Shift+Enter, moving the cursor so the list scrolls to each hit.
   function onSearchKey(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key !== "Enter" || hits.length === 0) return;
     e.preventDefault();
@@ -94,9 +100,19 @@ export default function Replay({ data }: { data: CallOutput }) {
 
   return (
     <div className="max-w-7xl">
-      <div className="lg:hidden sticky top-0 z-10 -mx-6 -mt-5 mb-3 px-6 py-1.5 bg-white/95 border-b border-neutral-200 text-xs tabular text-neutral-700">
+      <div
+        className={
+          "lg:hidden sticky top-0 z-10 -mx-6 -mt-5 mb-3 px-6 py-1.5 bg-white/95 border-b border-neutral-200 " +
+          "text-xs tabular text-neutral-700"
+        }
+      >
         {clock(new Date(start + cursorMs))} ET · {mmss(cursorMs - offset)}
-        {cursorPoint && <> · <span className={DIR_TEXT[dir(cursorPoint.cum / 100)]}>{pct(cursorPoint.cum / 100)}</span> · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
+        {cursorPoint && (
+          <>
+            {" "}· <span className={DIR_TEXT[dir(cursorPoint.cum / 100)]}>{pct(cursorPoint.cum / 100)}</span> ·{" "}
+            {cursorPoint.vol_mult.toFixed(1)}x volume
+          </>
+        )}
       </div>
 
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-1">
@@ -107,22 +123,38 @@ export default function Replay({ data }: { data: CallOutput }) {
         <span className="text-sm text-neutral-500 tabular">
           Call {clock(data.call.call_start)} to {clock(data.call_end)} ET, vs {data.call.etf}
         </span>
-        <span className="text-xs rounded bg-neutral-100 px-2 py-0.5 text-neutral-600 tabular">
-          {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns read → {data.claims.length} claims → {data.moments.length} moments
-        </span>
+        {est.length > 0 && (
+          <span className="text-xs text-neutral-600 tabular">
+            {est.map((e, i) => (
+              <span key={e.metric} title={`Consensus as of ${new Date(e.as_of).toLocaleDateString("en-US",
+                { month: "short", day: "numeric", timeZone: "UTC" })}${e.basis === "after_call" ?
+                ", after the call, so it already reflects it. Display only, never scores a claim" : ""}`}>
+                {i > 0 && " · "}{e.metric === "eps" ? "EPS" : "Revenue"}{" "}
+                {e.actual != null && e.surprise_pct != null ? (
+                  <span className={DIR_TEXT[dir(e.surprise_pct)]}>
+                    {money(e, e.actual)} vs {money(e, e.consensus)} est {pct(e.surprise_pct, 1)}
+                  </span>
+                ) : `${money(e, e.consensus)} est`}
+                {e.basis === "after_call" && "*"}
+              </span>
+            ))}
+          </span>
+        )}
       </div>
-      <ConsensusStrip estimates={(data.estimates ?? []).filter((e) => e.role === "reported")} />
+      <p className="text-xs text-neutral-600 tabular mb-1">
+        {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns → {data.n_claims} claims →{" "}
+        {data.moments.length} moments
+      </p>
       <details className="text-xs text-neutral-500 mb-3">
-        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-neutral-700">How scoring works</summary>
-        <p className="mt-1 max-w-3xl text-neutral-600">
-          Only turns spoken in the 5 min before an abnormal minute are read for claims ({data.llm_used ? "Claude" : "rule-based"} extraction).
-          Score = novelty × kind × |adjusted return over the next 5 min| × volume multiple × closeness to the flagged minute.
-          An EPS or revenue figure more than 1% off analyst consensus counts as new even when the release printed it.
-          <br />
-          Top 5 become moments, at most 1 per price event (flagged minutes within 2 min of each other), each graded
-          high, medium or low confidence. &ldquo;Move began earlier&rdquo; marks a statement made after its event started, where the
-          price may have shaped what was said. Associations, not causes.
-        </p>
+        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-neutral-700">
+          How it&rsquo;s scored</summary>
+        <ul className="mt-1 max-w-3xl text-neutral-600 space-y-0.5">
+          <li>Reads only turns in the 5 min before an abnormal minute ({data.llm_used ? "Claude" : "rule-based"}).</li>
+          <li>Score = novelty × kind × |5-min adjusted return| × volume multiple × closeness to the minute.</li>
+          <li>An EPS or revenue figure over 1% off consensus counts as new.</li>
+          <li>Top 5, 1 per price event. &ldquo;Move began earlier&rdquo; means the price may have shaped the
+            statement. Associations, not causes.</li>
+        </ul>
       </details>
 
       {data.open_reaction ? (
@@ -131,11 +163,13 @@ export default function Replay({ data }: { data: CallOutput }) {
             No {data.call.ticker} trades while the call ran, so the reaction is read at the next open
           </div>
           <div className="tabular">
-            {clock(data.open_reaction.from_ts)} ET last trade before the call to {clock(data.open_reaction.to_ts)} ET after the open:{" "}
+            {clock(data.open_reaction.from_ts)} ET last trade before the call to{" "}
+            {clock(data.open_reaction.to_ts)} ET after the open:{" "}
             <span className={`font-medium ${DIR_TEXT[dir(data.open_reaction.adj_ret)]}`}>
               {pct(data.open_reaction.ret)}
             </span>{" "}
-            vs {pct(data.open_reaction.etf_ret)} {data.call.etf}, {pct(data.open_reaction.adj_ret)} adjusted, {data.open_reaction.vol_mult.toFixed(1)}x volume
+            vs {pct(data.open_reaction.etf_ret)} {data.call.etf}, {pct(data.open_reaction.adj_ret)} adjusted,{" "}
+            {data.open_reaction.vol_mult.toFixed(1)}x volume
           </div>
           <div className="text-xs text-neutral-500 mt-1">
             Every statement shares this one move, so moments are ranked by novelty and kind only, all at low confidence.
@@ -144,7 +178,10 @@ export default function Replay({ data }: { data: CallOutput }) {
       ) : (
         <section className="border border-neutral-200 rounded-lg p-3 mb-4">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4 mb-1">
-            <div className="text-sm font-medium">Sector-adjusted return vs {data.call.etf} (%, cumulative from {clock(new Date(start + (points[0]?.t ?? 0)))}) and volume multiple</div>
+            <div className="text-sm font-medium">
+              Sector-adjusted return vs {data.call.etf} (%, cumulative from{" "}
+              {clock(new Date(start + (points[0]?.t ?? 0)))}) and volume multiple
+            </div>
             <div className="hidden lg:block text-sm text-neutral-600 tabular">
               cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs - offset)} into call)
               {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
@@ -155,7 +192,9 @@ export default function Replay({ data }: { data: CallOutput }) {
               <ComposedChart
                 data={points}
                 margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
-                onClick={(s) => { if (s && typeof s.activeLabel === "number") seek(clamp(s.activeLabel, offset, endMs)); }}
+                onClick={(s) => {
+                  if (s && typeof s.activeLabel === "number") seek(clamp(s.activeLabel, offset, endMs));
+                }}
                 style={{ cursor: "pointer" }}
               >
                 <XAxis
@@ -163,25 +202,41 @@ export default function Replay({ data }: { data: CallOutput }) {
                   tickFormatter={(t: number) => clock(new Date(start + t))} ticks={ticks(points, start)} fontSize={11}
                 />
                 <YAxis yAxisId="ret" tickFormatter={(v: number) => `${v.toFixed(1)}%`} fontSize={11} width={48} />
-                <YAxis yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11} width={36} domain={[0, VOL_AXIS_MAX]} allowDataOverflow />
+                <YAxis
+                  yAxisId="vol" orientation="right" tickFormatter={(v: number) => `${v.toFixed(0)}x`} fontSize={11}
+                  width={36} domain={[0, VOL_AXIS_MAX]} allowDataOverflow
+                />
                 <Tooltip
                   labelFormatter={(t) => `${clock(new Date(start + Number(t)))} ET`}
-                  formatter={(v, name) => (name === "cum" ? [`${Number(v).toFixed(2)}%`, "adj. return"] : [`${Number(v).toFixed(1)}x`, "volume"])}
+                  formatter={(v, name) => (
+                    name === "cum"
+                      ? [`${Number(v).toFixed(2)}%`, "adj. return"]
+                      : [`${Number(v).toFixed(1)}x`, "volume"]
+                  )}
                 />
                 <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
                 {data.moments.map((m) => (
-                  <ReferenceArea key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]} fillOpacity={0.15} />
+                  <ReferenceArea
+                    key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
+                    fillOpacity={0.15}
+                  />
                 ))}
                 <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
-                <Line yAxisId="ret" type="monotone" dataKey="cum" stroke="#1d4ed8" strokeWidth={2} dot={false} isAnimationActive={false} />
+                <Line
+                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#1d4ed8" strokeWidth={2} dot={false}
+                  isAnimationActive={false}
+                />
                 {points.filter((p) => p.flagged).map((p) => (
                   <ReferenceDot key={p.t} yAxisId="ret" x={p.t} y={p.cum} r={4} fill="#f59e0b" stroke="none" />
                 ))}
                 {data.moments.map((m) => {
                   const p = nearest(points, m.t0_ms);
                   return p ? (
-                    <ReferenceDot key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
-                      label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }} onClick={() => seek(m.t0_ms)} />
+                    <ReferenceDot
+                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
+                      label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }}
+                      onClick={() => seek(m.t0_ms)}
+                    />
                   ) : null;
                 })}
                 <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
@@ -189,33 +244,46 @@ export default function Replay({ data }: { data: CallOutput }) {
             </ResponsiveContainer>
           </div>
           <div className="text-xs text-neutral-500 mt-1">
-            Grey band is the call. Orange dots are abnormal minutes. Numbered dots are the ranked moments, each with its 5-min window shaded by the sign of the adjusted return. Click anywhere to move the cursor.
-          </div>
-          <div className="hidden lg:block text-xs text-neutral-400 mt-0.5">
-            Keys: j / k next and previous moment, 1 to 5 jump to a rank, [ / ] previous and next turn{audioOk ? ", space plays or pauses audio" : ""}.
+            Grey band is the call, orange dots abnormal minutes, numbered dots moments with their 5-min window shaded.
+            <span className="hidden lg:inline cursor-help ml-1 underline decoration-dotted"
+              title={`j / k: next and previous moment. 1 to 5: jump to a rank. [ / ]: previous and next turn.${audioOk ?
+                " Space: play or pause." : ""}`}>?</span>
           </div>
         </section>
       )}
 
       {data.call.audio_url && audioOk && (
-        <audio ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4" onError={() => setAudioOk(false)}
-          onTimeUpdate={(e) => setCursorMs(Math.round(e.currentTarget.currentTime * 1000))} />
+        <audio
+          ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4" onError={() => setAudioOk(false)}
+          onTimeUpdate={(e) => setCursorMs(Math.round(e.currentTarget.currentTime * 1000))}
+        />
       )}
-      {noAudio && <p className="text-xs text-neutral-500 mb-4">Audio is unavailable, click the chart or transcript to move the cursor.</p>}
+      {noAudio && (
+        <p className="text-xs text-neutral-500 mb-4">
+          Audio is unavailable, click the chart or transcript to move the cursor.
+        </p>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
         <section className="lg:col-span-2 border border-neutral-200 rounded-lg p-3">
           <h2 className="text-sm font-medium mb-1">Moments, ranked</h2>
-          <p className="text-xs text-neutral-500 mb-2">Statements made just before an abnormal minute, ranked by novelty, size of the move and timing. Associations, not proof.</p>
           {data.moments.length === 0 ? (
-            <p className="text-sm text-neutral-500">No minute cleared the threshold during the call, {data.candidate_seg_ids.length} turns read.</p>
+            <p className="text-sm text-neutral-500">
+              No minute cleared the threshold during the call, {data.candidate_seg_ids.length} turns read.
+            </p>
           ) : (
             <ol className="space-y-2">
               {data.moments.map((m) => (
-                <MomentCard key={m.rank} m={m} offset={offset} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id} onSelect={() => {
-                  seek(m.t0_ms);
-                  if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" }); // panels stack on phones
-                }} />
+                <MomentCard
+                  key={m.rank} m={m} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id}
+                  onSelect={() => {
+                    seek(m.t0_ms);
+                    // panels stack on phones
+                    if (window.innerWidth < 1024) {
+                      document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                />
               ))}
             </ol>
           )}
@@ -227,13 +295,21 @@ export default function Replay({ data }: { data: CallOutput }) {
             <input
               type="search" value={query} placeholder="Search the transcript" aria-label="Search the transcript"
               onChange={(e) => { setQuery(e.target.value); setHit(0); }} onKeyDown={onSearchKey}
-              className="ml-auto w-48 rounded border border-neutral-300 px-2 py-0.5 text-xs placeholder:text-neutral-400 focus:outline-none focus:ring-1 focus:ring-blue-300"
+              className={
+                "ml-auto w-48 rounded border border-neutral-300 px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
+                "focus:outline-none focus:ring-1 focus:ring-blue-300"
+              }
             />
-            {query.trim() && <span className="text-xs text-neutral-500 tabular w-16">{hits.length ? `${hit + 1} of ${hits.length}` : "0 hits"}</span>}
+            {query.trim() && (
+              <span className="text-xs text-neutral-500 tabular w-16">
+                {hits.length ? `${hit + 1} of ${hits.length}` : "0 hits"}
+              </span>
+            )}
           </div>
           <TranscriptList
-            segments={data.segments} activeId={active?.seg_id ?? null} momentSegs={new Set(data.moments.map((m) => m.seg_id))}
-            gutter={gutter} offset={offset} query={query.trim()} onSelect={(s) => seek(s.t0_ms)}
+            segments={data.segments} activeId={active?.seg_id ?? null}
+            momentSegs={new Set(data.moments.map((m) => m.seg_id))}
+            offset={offset} query={query.trim()} onSelect={(s) => seek(s.t0_ms)}
           />
         </section>
       </div>
@@ -241,81 +317,70 @@ export default function Replay({ data }: { data: CallOutput }) {
   );
 }
 
-// reported-quarter consensus under the header, colored by beat or miss, captioned with when the consensus was current
-function ConsensusStrip({ estimates }: { estimates: Estimate[] }) {
-  if (estimates.length === 0) return null;
-  const money = (e: Estimate, x: number) => (e.metric === "eps" ? `$${x.toFixed(2)}` :
-      x >= 1e9 ? `$${(x / 1e9).toFixed(1)}B` : `$${(x / 1e6).toFixed(0)}M`);
-  const day = (s: string) => new Date(s).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
-  return (
-    <div className="flex flex-wrap gap-x-2 text-xs text-neutral-600 tabular mb-1">
-      {estimates.map((e, i) => (
-        <span key={e.metric}>
-          {i > 0 && "· "}
-          {e.metric === "eps" ? "EPS" : "Revenue"}{" "}
-          {e.actual != null && e.surprise_pct != null ? (
-            <span className={DIR_TEXT[dir(e.surprise_pct)]}>
-              {money(e, e.actual)} vs {money(e, e.consensus)} est ({pct(e.surprise_pct, 1)})
-            </span>
-          ) : (
-            <>{money(e, e.consensus)} est</>
-          )}{" "}
-          <span className="text-neutral-400">consensus as of {day(e.as_of)}, {e.basis.replace("_", " ")}</span>
-        </span>
-      ))}
-    </div>
-  );
+/**
+ * Formats an EPS in dollars or a revenue in $B or $M.
+ */
+function money(e: Estimate, x: number): string {
+  return e.metric === "eps" ? `$${x.toFixed(2)}` : x >= 1e9 ? `$${(x / 1e9).toFixed(1)}B` : `$${(x / 1e6).toFixed(0)}M`;
 }
 
-function MomentCard({ m, offset, atOpen, active, onSelect }: { m: Moment; offset: number; atOpen: boolean; active: boolean; onSelect: () => void }) {
+/**
+ * Renders 1 ranked moment: rank, time, quote and adjusted return, with the evidence shown only while it is active.
+ * Low-confidence moments are dimmed.
+ */
+function MomentCard({ m, atOpen, active, onSelect }: {
+  m: Moment; atOpen: boolean; active: boolean; onSelect: () => void;
+}) {
   const d = dir(m.adj_ret_5m);
   return (
     <li>
-      <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-neutral-50 ${active ? "border-blue-600 bg-blue-50/40" : "border-neutral-200"}`}>
-        <div className="flex gap-3">
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-2 text-xs text-neutral-500">
-              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-700 text-white font-semibold">{m.rank}</span>
-              <span className="tabular">{clock(m.ts)} ET · {mmss(m.t0_ms - offset)}</span>
-              <span className="font-medium text-neutral-700">{shortSpeaker(m.speaker)}</span>
-              <span className="rounded bg-neutral-100 px-1.5 py-0.5">{m.kind}</span>
-              <span className={`rounded px-1.5 py-0.5 ${m.novel ? "bg-blue-100 text-blue-800" : "bg-neutral-100 text-neutral-600"}`}>
-                {m.novel ? "new" : `in ${m.matched_doc === "release" ? "release" : "prior call"}`}
-              </span>
-              {m.vs_consensus_pct != null && (
-                <span className={`rounded bg-neutral-100 px-1.5 py-0.5 tabular ${DIR_TEXT[dir(m.vs_consensus_pct)]}`}>
-                  vs consensus {pct(m.vs_consensus_pct, 1)}
-                </span>
-              )}
-            </div>
-          </div>
-          <div className="shrink-0 text-right tabular">
-            <div className={`text-base font-semibold ${DIR_TEXT[d]}`}>{GLYPH[d]} {pct(m.adj_ret_5m)}</div>
-            <div className="text-[11px] text-neutral-500 leading-tight">adj. {atOpen ? "at next open" : "next 5 min"}<br />{pct(m.ret_5m)} raw, {pct(m.etf_ret_5m)} sector</div>
-          </div>
+      <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-neutral-50 ${active ?
+        "border-blue-600 bg-blue-50/40" : `border-neutral-200 ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
+        <div className="flex items-center gap-2 text-xs text-neutral-500">
+          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-700 text-white
+            font-semibold">{m.rank}</span>
+          <span className="tabular">{clock(m.ts)} ET</span>
+          <span className="rounded bg-neutral-100 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
+          <span className={`ml-auto text-base font-semibold tabular ${DIR_TEXT[d]}`}>
+            {GLYPH[d]} {pct(m.adj_ret_5m)}</span>
         </div>
-        {m.question && <p className="mt-1.5 text-xs leading-snug text-neutral-500 line-clamp-2">
-          <span className="font-medium">Analyst asked:</span> {m.question}</p>}
         <p className="mt-1.5 text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
-        <div className="mt-1.5 text-xs tabular flex flex-wrap gap-x-3 gap-y-0.5 text-neutral-600">
-          <span className="rounded bg-neutral-100 px-1.5">{m.section === "qa" ? "Q&A" : "prepared remarks"}</span>
-          <span>{m.vol_mult.toFixed(1)}x volume</span>
-          {m.nearest_flag_min >= 0 && <span className="text-neutral-500">abnormal minute {m.nearest_flag_min === 0 ? "at" : `+${m.nearest_flag_min.toFixed(0)} min after`} the statement</span>}
-          {m.pre_move && <span className="text-amber-700">move began earlier</span>}
-          <span className={`ml-auto rounded px-1.5 py-0.5 ${CONF[m.confidence]}`}>{m.confidence} confidence</span>
-        </div>
+        {active && (
+          <div className="mt-2 space-y-0.5 text-xs text-neutral-600 tabular">
+            {m.question && <p className="text-neutral-500">
+              <span className="font-medium">Analyst asked:</span> {m.question}</p>}
+            <p>
+              <span className="font-medium">{shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
+              {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs {pct(m.etf_ret_5m)} sector
+            </p>
+            <p>
+              {m.novel ? "New" : `Already in the ${m.matched_doc === "release" ? "release" : "prior call"}`}
+              {m.vs_consensus_pct != null && <>, <span className={DIR_TEXT[dir(m.vs_consensus_pct)]}>
+                {pct(m.vs_consensus_pct, 1)} vs consensus</span></>}
+              {m.nearest_flag_min >= 0 && `, abnormal minute ${m.nearest_flag_min === 0 ? "at" :
+                `+${m.nearest_flag_min.toFixed(0)} min after`} the statement`}
+            </p>
+            <p>
+              {m.pre_move && <span className="text-amber-700">Move began earlier. </span>}
+              {m.confidence} confidence
+            </p>
+          </div>
+        )}
       </button>
     </li>
   );
 }
 
-function TranscriptList({ segments, activeId, momentSegs, gutter, offset, query, onSelect }: {
-  segments: Segment[]; activeId: number | null; momentSegs: Set<number>; gutter: Map<number, number | null>; offset: number;
+/**
+ * Renders the transcript as clickable turns with their 5-min adjusted return, scrolling the active turn to center.
+ */
+function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelect }: {
+  segments: Segment[]; activeId: number | null; momentSegs: Set<number>; offset: number;
   query: string; onSelect: (s: Segment) => void;
 }) {
   const listRef = useRef<HTMLOListElement>(null);
   const activeRef = useRef<HTMLLIElement>(null);
-  // scroll the list, not the page, so the chart stays in view
+  // Scrolls the list, not the page, so the chart stays in view.
   useEffect(() => {
     const list = listRef.current, el = activeRef.current;
     if (!list || !el) return;
@@ -325,16 +390,32 @@ function TranscriptList({ segments, activeId, momentSegs, gutter, offset, query,
     <ol ref={listRef} className="relative max-h-[32rem] overflow-y-auto pr-1 space-y-1">
       {segments.map((s) => {
         const isActive = s.seg_id === activeId;
-        const ret = gutter.get(s.seg_id);
+        const ret = s.adj_ret_5m;
         return (
           <li key={s.seg_id} ref={isActive ? activeRef : undefined}>
-            <button onClick={() => onSelect(s)} className={`flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-neutral-50 ${isActive ? "bg-blue-50 ring-1 ring-blue-300" : ""}`}>
-              <span className="w-12 shrink-0 text-right text-[11px] text-neutral-400 tabular leading-5" title={ret != null ? "adjusted return over the next 5 min" : undefined}>
+            <button
+              onClick={() => onSelect(s)}
+              className={
+                "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-neutral-50 " +
+                (isActive ? "bg-blue-50 ring-1 ring-blue-300" : "")
+              }
+            >
+              <span
+                className="w-12 shrink-0 text-right text-[11px] text-neutral-400 tabular leading-5"
+                title={ret != null ? "adjusted return over the next 5 min" : undefined}
+              >
                 {ret != null ? pct(ret) : ""}
               </span>
               <span className="min-w-0">
                 <span className="text-xs text-neutral-500 tabular mr-2">{mmss(s.t0_ms - offset)}</span>
-                <span className={`text-xs font-medium mr-2 ${momentSegs.has(s.seg_id) ? "text-blue-700" : "text-neutral-700"}`}>{shortSpeaker(s.speaker)}</span>
+                <span
+                  className={
+                    "text-xs font-medium mr-2 " +
+                    (momentSegs.has(s.seg_id) ? "text-blue-700" : "text-neutral-700")
+                  }
+                >
+                  {shortSpeaker(s.speaker)}
+                </span>
                 <span className="text-neutral-800">{highlight(s.text, query)}</span>
               </span>
             </button>
@@ -345,32 +426,27 @@ function TranscriptList({ segments, activeId, momentSegs, gutter, offset, query,
   );
 }
 
-// wraps every case-insensitive occurrence of q in <mark>
+/**
+ * Wraps every case-insensitive occurrence of q in a mark element.
+ */
 function highlight(text: string, q: string): React.ReactNode {
   if (!q) return text;
   const parts = text.split(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi"));
   return parts.map((p, i) => (i % 2 ? <mark key={i} className="bg-yellow-200 rounded-sm">{p}</mark> : p));
 }
 
-// adjusted return from the first bar at or after each candidate turn to 5 min later, null when the bars run out
-function segmentReturns(data: CallOutput, start: number): Map<number, number | null> {
-  const bars = data.bars.map((b) => ({ t: new Date(b.ts).getTime() - start, px: b.px, etf: b.etf_px }));
-  const at = (ms: number) => bars.find((b) => b.t >= ms);
-  const out = new Map<number, number | null>();
-  for (const id of data.candidate_seg_ids) {
-    const s = data.segments.find((x) => x.seg_id === id);
-    const b0 = s && at(s.t0_ms), b1 = s && at(s.t0_ms + WINDOW_MS);
-    out.set(id, b0 && b1 ? b1.px / b0.px - 1 - (b1.etf / b0.etf - 1) : null);
-  }
-  return out;
-}
-
+/**
+ * Returns the last turn that starts at or before ms.
+ */
 function activeSegment(segments: Segment[], ms: number): Segment | null {
   let best: Segment | null = null;
   for (const s of segments) if (s.t0_ms <= ms) best = s; else break;
   return best;
 }
 
+/**
+ * Returns the chart point closest in time to ms.
+ */
 function nearest(points: Point[], ms: number): Point | null {
   if (points.length === 0) return null;
   let best = points[0];
@@ -378,10 +454,16 @@ function nearest(points: Point[], ms: number): Point | null {
   return best;
 }
 
+/**
+ * Limits x to the range lo to hi.
+ */
 function clamp(x: number, lo: number, hi: number) {
   return Math.min(hi, Math.max(lo, x));
 }
 
+/**
+ * Returns chart x ticks every 15 wall-clock minutes.
+ */
 function ticks(points: Point[], start: number): number[] {
   if (points.length === 0) return [];
   const step = 15 * 60_000;

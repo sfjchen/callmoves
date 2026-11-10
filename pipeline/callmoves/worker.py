@@ -11,6 +11,7 @@ import os
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import httpx
 from dotenv import load_dotenv
@@ -23,6 +24,7 @@ TABLE = "callmoves_submissions"
 MAX_AUDIO_MB = 400            # a 2-hour call at 128 kbps is about 115 MB
 MAX_DOC_MB = 30
 DOC_SUFFIX = {"application/pdf": ".pdf", "text/html": ".html", "text/plain": ".txt"}
+ET = ZoneInfo("America/New_York")   # the submit form takes US Eastern, the database returns UTC
 UA = "CallMoves worker (github.com/sfjchen/callmoves)"
 
 
@@ -52,7 +54,7 @@ def process(sub: dict, root: Path) -> str:
     audio = download(sub["audio_url"], raw / "call.audio", MAX_AUDIO_MB)
     release = download(sub["release_url"], raw / "release.html", MAX_DOC_MB)
     args = ["--ticker", sub["ticker"], "--quarter", sub["quarter"], "--etf", sub["etf"],
-            "--call-start", datetime.fromisoformat(sub["call_start"]).isoformat(), "--audio", str(audio),
+            "--call-start", datetime.fromisoformat(sub["call_start"]).astimezone(ET).isoformat(), "--audio", str(audio),
             "--release", str(release), "--upload", "--out", str(out)]
     if sub.get("company"):
         args += ["--company", sub["company"]]

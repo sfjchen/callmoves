@@ -1,3 +1,4 @@
+"""Pydantic models shared by every pipeline step: the contract the web app reads as JSON."""
 from __future__ import annotations
 
 from datetime import date, datetime
@@ -10,7 +11,7 @@ class CallMeta(BaseModel):
     ticker: str
     quarter: str
     call_start: datetime  # wall clock, tz-aware
-    etf: str = "IGV"
+    etf: str
     audio_url: str | None = None
     company: str | None = None
     audio_offset_ms: int = 0  # audio position of the call start: + for lead-in music, - if the recording started late
@@ -35,6 +36,7 @@ class Segment(BaseModel):
     text: str
     parts: list[Part] = []
     ts: datetime | None = None  # filled by align()
+    adj_ret_5m: float | None = None   # sector-adjusted return over the 5 minutes after ts, filled by run()
 
     def time_of(self, quote: str) -> int:
         """Audio offset of the part containing the quote, else the turn start."""
@@ -112,11 +114,12 @@ class Estimate(BaseModel):
     # at_report: frozen with the reported quarter, before_call: a snapshot or fetch before the call,
     # after_call: the current value fetched after the call, so the call's news is already in it
     basis: Literal["at_report", "before_call", "after_call"]
-    source: Literal["alphavantage", "yfinance"]
+    source: Literal["alphavantage"]
 
 
 class OpenReaction(BaseModel):
-    """The move from the last trade before the call to the minutes after the next open, for a call held while the stock was closed."""
+    """The move from the last trade before the call to the minutes after the next open, for a call held while the
+    stock was closed."""
     from_ts: datetime
     to_ts: datetime
     adj_ret: float
@@ -125,12 +128,34 @@ class OpenReaction(BaseModel):
     vol_mult: float
 
 
+class TopMoment(BaseModel):
+    ts: datetime
+    quote: str
+    adj_ret_5m: float
+    speaker: str
+
+
+class CallSummary(BaseModel):
+    """The library row for 1 call: counts, the top moment and a downsampled cumulative adjusted return."""
+    id: str
+    ticker: str
+    quarter: str
+    company: str | None
+    call_start: datetime
+    n_moments: int
+    n_flagged: int
+    spark: list[float]
+    top_moment: TopMoment | None
+
+
 class CallOutput(BaseModel):
     call: CallMeta
     call_end: datetime
     segments: list[Segment]
     bars: list[Bar]
     claims: list[Claim]
+    n_claims: int
+    summary: CallSummary
     moments: list[Moment]
     llm_used: bool
     candidate_seg_ids: list[int] = []   # turns that preceded an abnormal minute, the only ones claims come from

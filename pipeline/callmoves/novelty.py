@@ -10,11 +10,15 @@ import re
 
 from pydantic import BaseModel
 
+from . import llm
 from .claims import NUMBER, split_sentences
 from .models import Claim
 
-STOP = set("the a an and or of to in on for we our is are was were be been it this that with as at by from "
-           "than up down over under about into out which who you i they them their its".split())
+STOP = {
+    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "we", "our", "is", "are", "was", "were", "be",
+    "been", "it", "this", "that", "with", "as", "at", "by", "from", "than", "up", "down", "over", "under",
+    "about", "into", "out", "which", "who", "you", "i", "they", "them", "their", "its",
+}
 
 
 _UNIT = {"billion": 1e9, "b": 1e9, "million": 1e6, "m": 1e6, "thousand": 1e3, "k": 1e3}
@@ -27,7 +31,9 @@ def _num_values(text: str, table_scale: float = 1e6, dollars_only: bool = False)
     dollars_only keeps the dollar figures, which is what an EPS or revenue consensus compares against."""
     out: set[float] = set()
     for raw in NUMBER.findall(text):
-        m = re.match(r"(\$?)\s?([\d,]*\.?\d+)\s*(%|percent|billion|million|thousand|basis points|bps|[bmk](?![a-z]))?", raw.strip(), re.I)
+        m = re.match(
+            r"(\$?)\s?([\d,]*\.?\d+)\s*(%|percent|billion|million|thousand|basis points|bps|[bmk](?![a-z]))?",
+            raw.strip(), re.IGNORECASE)
         if not m:
             continue
         dollar, num, unit = m.group(1), m.group(2).replace(",", ""), (m.group(3) or "").lower()
@@ -47,7 +53,8 @@ def _num_values(text: str, table_scale: float = 1e6, dollars_only: bool = False)
 
 
 def _nums_match(a: set[float], b: set[float], tol: float = 0.01) -> bool:
-    """Exact for small numbers (percentages, basis points), 1% tolerance for dollar magnitudes (rounding on the call)."""
+    """Exact for small numbers (percentages, basis points), 1% tolerance for dollar magnitudes (rounding on the
+    call)."""
     return any(x == y or (x >= 1e5 and abs(x - y) / x <= tol) for x in a for y in b)
 
 
@@ -70,6 +77,7 @@ def best_match(quote: str, doc: str) -> tuple[float, str]:
 
 
 def judge_novelty_rules(claim: Claim, release: str, prior: str, overlap: float = 0.5) -> Claim:
+    """Marks a claim not novel when its numbers or, for a claim without numbers, its wording appear in a document."""
     docs = (("release", release), ("prior_call", prior))
     nums = _num_values(claim.quote)
     for name, doc in docs:
@@ -98,7 +106,6 @@ class _VerdictsLLM(BaseModel):
     verdicts: list[_VerdictLLM]
 
 
-MODEL = "claude-sonnet-5-5"
 BATCH = 25
 
 _SYSTEM = (
@@ -110,37 +117,34 @@ _SYSTEM = (
 )
 
 
-def judge_novelty_llm(claims: list[Claim], release: str, prior: str, model: str = MODEL) -> list[Claim]:
-    import anthropic
-
-    client = anthropic.Anthropic()
+def judge_novelty_llm(claims: list[Claim], release: str, prior: str) -> list[Claim]:
+    """Judges novelty with Claude in batches of BATCH claims, the documents cached across batches. A claim the model
+    skips falls back to the rules."""
     by_id = {c.claim_id: c for c in claims}
     out: dict[int, Claim] = {}
     for i in range(0, len(claims), BATCH):
         batch = claims[i:i + BATCH]
         listing = "\n".join(f"[claim_id {c.claim_id}] {c.speaker}: {c.quote}" for c in batch)
-        resp = client.messages.parse(
-            model=model, max_tokens=8000, system=_SYSTEM,
-            messages=[{"role": "user", "content": [
-                {"type": "text", "text": "Earnings release:\n" + release},
-                {"type": "text", "text": "Prior-quarter materials:\n" + (prior or "(none)"),
-                 "cache_control": {"type": "ephemeral"}},   # the two documents are reused by every batch
-                {"type": "text", "text": "Statements:\n" + listing},
-            ]}],
-            output_format=_VerdictsLLM,
-        )
-        for v in resp.parsed_output.verdicts:
+        content = [
+            {"type": "text", "text": "Earnings release:\n" + release},
+            {"type": "text", "text": "Prior-quarter materials:\n" + (prior or "(none)"),
+             "cache_control": {"type": "ephemeral"}},   # the two documents are reused by every batch
+            {"type": "text", "text": "Statements:\n" + listing},
+        ]
+        for v in llm.parse(_SYSTEM, content, _VerdictsLLM).verdicts:
             c = by_id.get(v.claim_id)
             if c is None:
                 continue
             md = v.matched_doc if v.matched_doc in ("release", "prior_call") else None
-            out[c.claim_id] = c.model_copy(update={"novel": v.novel, "matched_doc": md if not v.novel else None,
-                                                    "matched_text": (v.matched_text or "")[:300] if not v.novel else None})
+            text = None if v.novel else (v.matched_text or "")[:300]
+            out[c.claim_id] = c.model_copy(update={"novel": v.novel, "matched_doc": None if v.novel else md,
+                                                   "matched_text": text})
     # anything the model skipped falls back to the rules
     return [out.get(c.claim_id) or judge_novelty_rules(c, release, prior) for c in claims]
 
 
 def judge_novelty(claims: list[Claim], release: str, prior: str) -> list[Claim]:
+    """Judges every claim with Claude when ANTHROPIC_API_KEY is set, falling back to the rules on failure."""
     if os.environ.get("ANTHROPIC_API_KEY"):
         try:
             return judge_novelty_llm(claims, release, prior)

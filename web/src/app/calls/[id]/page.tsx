@@ -4,7 +4,9 @@ import Replay from "@/components/replay";
 
 export const dynamic = "force-dynamic";
 
-
+/**
+ * Renders the replay view for 1 call, or the 404 page for an unknown id.
+ */
 export default async function CallPage({ params }: PageProps<"/calls/[id]">) {
   const { id } = await params;
   const call = await getCall(id);

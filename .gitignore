@@ -14,7 +14,6 @@ pipeline/.venv/
 __pycache__/
 *.egg-info/
 .pytest_cache/
-.hypothesis/
 
 # node / next
 web/node_modules/

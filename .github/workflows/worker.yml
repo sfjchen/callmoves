@@ -1,5 +1,6 @@
 # Processes calls submitted on the website, 1 per run: transcription on the runner's CPU (faster-whisper medium,
-# about 1 hour per hour of audio), then bars, claims, scoring, and publishing to Supabase. See pipeline/callmoves/worker.py.
+# about 1 hour per hour of audio on the runner), then bars, claims, scoring, and publishing to Supabase.
+# See pipeline/callmoves/worker.py.
 name: worker
 on:
   schedule:
@@ -11,7 +12,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      queued: ${{ steps.queue.outputs.queued }}
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+    steps:
+      - name: check the queue
+        id: queue
+        run: |
+          n=$(curl -sfI "$SUPABASE_URL/rest/v1/callmoves_submissions?select=id&status=eq.queued" \
+            -H "apikey: $SUPABASE_SERVICE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_KEY" \
+            -H "Prefer: count=exact" \
+            | tr -d '\r' | awk -F/ 'tolower($0) ~ /^content-range/ {print $2}')
+          echo "queued=${n:-0}" >> "$GITHUB_OUTPUT"
+          echo "queued: ${n:-0}"
+
   process:
+    needs: check
+    if: needs.check.outputs.queued != '0'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     defaults: { run: { working-directory: pipeline } }
@@ -22,28 +43,14 @@ jobs:
       POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
       ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
     steps:
-      - name: check the queue
-        id: queue
-        run: |
-          n=$(curl -sfI "$SUPABASE_URL/rest/v1/callmoves_submissions?select=id&status=eq.queued" \
-            -H "apikey: $SUPABASE_SERVICE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_KEY" -H "Prefer: count=exact" \
-            | tr -d '\r' | awk -F/ 'tolower($0) ~ /^content-range/ {print $2}')
-          echo "queued=${n:-0}" >> "$GITHUB_OUTPUT"
-          echo "queued: ${n:-0}"
-        working-directory: .
-      - if: steps.queue.outputs.queued != '0'
-        uses: actions/checkout@v4
-      - if: steps.queue.outputs.queued != '0'
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip, cache-dependency-path: pipeline/pyproject.toml }
-      - if: steps.queue.outputs.queued != '0'
-        uses: actions/cache@v4
+      - uses: actions/cache@v4
         with: { path: ~/.cache/huggingface, key: whisper-medium }
-      - if: steps.queue.outputs.queued != '0'
-        run: sudo apt-get install -y -q ffmpeg && pip install -e ".[asr]"
-      - if: steps.queue.outputs.queued != '0'
-        run: python -m callmoves.worker
+      - run: sudo apt-get install -y -q ffmpeg && pip install -e ".[asr]"
+      - run: python -m callmoves.worker
         env: { CALLMOVES_WORK: "${{ runner.temp }}/work" }
-      - if: always() && steps.queue.outputs.queued != '0'
+      - if: always()
         uses: actions/upload-artifact@v4
         with: { name: call-folder, path: "${{ runner.temp }}/work/data", retention-days: 30, if-no-files-found: ignore }

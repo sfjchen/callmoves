@@ -1,22 +1,9 @@
 """Step 6b: analyst consensus for the reported quarter, next quarter and fiscal year, and how far each EPS or revenue
-claim lands from it. A number already in the release still moves the stock when it beats or misses what analysts
-expected.
-
-Alpha Vantage (EARNINGS_ESTIMATES + EARNINGS, 25 requests a day, 1 a second) when ALPHA_VANTAGE_KEY is set, else
-yfinance. Every value is a consensus as some provider holds it on some day, so each row carries a basis:
-- at_report: the EPS estimate the provider stores with the reported quarter (EARNINGS estimatedEPS, yfinance
-  epsEstimate), the number the surprise is measured against. It does not drift the way EARNINGS_ESTIMATES rows for
-  past quarters do (WFC Q3 2026 moved 1.8407 -> 1.8558 in the 4 weeks after the report), so it is taken as frozen.
-- before_call: a 7/30/60/90-day-ago EPS snapshot dated before the call day, or a value fetched before the call starts.
-- after_call: EARNINGS_ESTIMATES is the current consensus, not a frozen one. Fetched after the call, it already reflects
-  the call and later revisions, which pull it toward the actual or the guidance, so a gap to it understates the
-  surprise. Revenue has no snapshots, so every revenue consensus fetched after the call is after_call. It is shown
-  for reference but never scores a claim (match_consensus), since that would use data from after the statement.
-Snapshot ages count from the fetch day, Alpha Vantage does not say when it last refreshed them.
-The reported quarter's revenue actual comes from yfinance's quarterly income statement, Alpha Vantage's EARNINGS has
-only EPS. AV_RAW_DIR, when set, caches the raw responses there so a rerun spends no requests.
-
-    python -m callmoves.estimates AAPL 2026-11-02T17:00-05:00 Q4-2026 --out data/aapl_q3_2026
+claim lands from it. Source: Alpha Vantage (25 requests a day), no key or a failed fetch means no estimates. Each row
+carries a basis: at_report (the EPS estimate stored with the reported quarter, taken as frozen), before_call (a dated
+snapshot or a fetch before the call) or after_call (the current value, which already reflects the call, so it is
+shown but never scores a claim). The reported quarter's revenue actual comes from yfinance, AV has only EPS.
+AV_RAW_DIR, when set, caches the raw responses so a rerun spends no requests.
 """
 from __future__ import annotations
 
@@ -24,9 +11,10 @@ import json
 import os
 import re
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
+import httpx
 import pandas as pd
 
 from .models import Claim, Estimate
@@ -71,48 +59,6 @@ def _forward_ends(rep_end: date, fy_month: int) -> tuple[date, date]:
     nq = (pd.Timestamp(rep_end) + pd.offsets.MonthEnd(3)).date()
     fy = nq.year if nq.month <= fy_month else nq.year + 1
     return nq, (pd.Timestamp(fy, fy_month, 1) + pd.offsets.MonthEnd(0)).date()
-
-
-def normalize_yf(hist: pd.DataFrame, eps_est: pd.DataFrame, rev_est: pd.DataFrame, trend: pd.DataFrame,
-                 call_start: datetime, fetched: datetime, fy_month: int = 12) -> list[Estimate]:
-    """Turns yfinance's earnings_history, earnings_estimate, revenue_estimate and eps_trend frames into Estimate rows.
-    0q is the quarter after the last one in the history, so it is the reported quarter before the call and the
-    next quarter after it. yfinance keeps no past-quarter revenue consensus."""
-    call_d = call_start.date()
-    if hist is None or hist.empty or eps_est is None or eps_est.empty:
-        return []
-    ends = sorted(pd.Timestamp(i).date() for i in hist.index)
-    q0 = (pd.Timestamp(ends[-1]) + pd.offsets.MonthEnd(3)).date()
-    past = [e for e in ends + [q0] if e < call_d and (call_d - e).days <= REPORT_LAG_DAYS]
-    if not past:
-        return []
-    rep_end = past[-1]
-    nq, fy_end = _forward_ends(rep_end, fy_month)
-    out: list[Estimate] = []
-    if rep_end in ends:
-        r = hist.loc[[pd.Timestamp(i).date() == rep_end for i in hist.index]].iloc[0]
-        if pd.notna(r["epsActual"]) and pd.notna(r["epsEstimate"]):
-            out.append(Estimate(period=_label(rep_end, fy_month), period_end=rep_end, role="reported", metric="eps",
-                                consensus=float(r["epsEstimate"]), actual=float(r["epsActual"]),
-                                surprise_pct=pct_vs(float(r["epsActual"]), float(r["epsEstimate"])),
-                                as_of=call_d, basis="at_report", source="yfinance"))
-    roles = {rep_end: "reported", nq: "next_quarter"}
-    for key, end in (("0q", q0), ("+1q", (pd.Timestamp(q0) + pd.offsets.MonthEnd(3)).date()), ("0y", fy_end)):
-        role = "full_year" if key == "0y" else roles.get(end)
-        if role is None:
-            continue
-        label = _label(end, fy_month, year=key == "0y")
-        if key in trend.index and pd.notna(trend.loc[key, "current"]):
-            t = trend.loc[key]
-            v, as_of, basis = _snapshot({0: t["current"], **{n: t[f"{n}daysAgo"] for n in DAYS_AGO}},
-                                        call_start, fetched)
-            out.append(Estimate(period=label, period_end=end, role=role, metric="eps", consensus=v, as_of=as_of,
-                                basis=basis, source="yfinance"))
-        if rev_est is not None and key in rev_est.index and pd.notna(rev_est.loc[key, "avg"]):
-            v, as_of, basis = _snapshot({0: rev_est.loc[key, "avg"]}, call_start, fetched)
-            out.append(Estimate(period=label, period_end=end, role=role, metric="revenue", consensus=v, as_of=as_of,
-                                basis=basis, source="yfinance"))
-    return out
 
 
 def _f(x) -> float | None:
@@ -185,62 +131,48 @@ def normalize_av(est: list[dict], quarterly: list[dict], call_start: datetime, f
     return out
 
 
-def fetch_estimates(ticker: str, call_start: datetime, *, av_key: str | None = None) -> list[Estimate]:
-    """Fetches and normalizes consensus, Alpha Vantage first when a key is set. Any failure or an unknown ticker
-    returns an empty list so the pipeline runs without estimates. Error text never carries the key."""
-    fetched = datetime.now(timezone.utc)
-    raw = Path(os.environ["AV_RAW_DIR"]) if os.environ.get("AV_RAW_DIR") else None
+def _revenue_actuals(ticker: str) -> dict[tuple[int, int], float]:
+    """Returns reported revenue by (year, month) of the quarter end from yfinance, empty on failure."""
     try:
         import yfinance as yf
 
-        t = yf.Ticker(ticker)
+        inc = yf.Ticker(ticker).quarterly_income_stmt
+        return {(c.year, c.month): float(v) for c, v in inc.loc["Total Revenue"].items() if pd.notna(v)}
     except Exception as e:  # noqa: BLE001
-        print(f"yfinance unavailable: {str(e)[:160]}")
-        t = None
-    if av_key:
-        try:
-            import httpx
+        print(f"yfinance revenue actuals failed: {str(e)[:160]}")
+        return {}
 
-            def get(fn: str, want: str) -> dict:
-                """Returns 1 Alpha Vantage response from the raw cache, else fetches it and caches it if it holds
-                data. A rate-limit notice comes back as 200 with an 'Information' field instead of data."""
-                path = raw / f"av_{ticker}_{fn}.json" if raw else None
-                if path and path.exists():
-                    return json.loads(path.read_text())
-                time.sleep(1.2)
-                d = httpx.get(AV_URL, params={"function": fn, "symbol": ticker, "apikey": av_key}, timeout=20).json()
-                if want not in d:
-                    raise RuntimeError(f"{fn}: {str(d)[:200]}")
-                if path:
-                    path.write_text(json.dumps(d, indent=1))
-                return d
 
-            rev = {}
-            try:
-                inc = t.quarterly_income_stmt
-                rev = {(c.year, c.month): float(v) for c, v in inc.loc["Total Revenue"].items() if pd.notna(v)}
-            except Exception as e:  # noqa: BLE001
-                print(f"yfinance revenue actuals failed: {str(e)[:160]}")
-            est = get("EARNINGS_ESTIMATES", "estimates")["estimates"]
-            q = get("EARNINGS", "quarterlyEarnings")["quarterlyEarnings"]
-            # snapshot ages count from when the raw response was fetched, not from this run
-            if raw and (raw / f"av_{ticker}_EARNINGS_ESTIMATES.json").exists():
-                mtime = (raw / f"av_{ticker}_EARNINGS_ESTIMATES.json").stat().st_mtime
-                fetched = datetime.fromtimestamp(mtime, tz=timezone.utc)
-            rows = normalize_av(est, q, call_start, fetched, rev)
-            if rows:
-                return rows
-        except Exception as e:  # noqa: BLE001
-            print(f"alpha vantage estimates failed, trying yfinance: {str(e).replace(av_key, '***')[:200]}")
+def fetch_estimates(ticker: str, call_start: datetime, av_key: str | None) -> list[Estimate]:
+    """Fetches and normalizes Alpha Vantage consensus. No key, a failure or an unknown ticker returns an empty list
+    so the pipeline runs without estimates. Error text never carries the key."""
+    if not av_key:
+        return []
+    raw = Path(os.environ["AV_RAW_DIR"]) if os.environ.get("AV_RAW_DIR") else None
+
+    def get(fn: str, want: str) -> dict:
+        """Returns 1 Alpha Vantage response from the raw cache, else fetches it and caches it if it holds data.
+        A rate-limit notice comes back as 200 with an 'Information' field instead of data."""
+        path = raw / f"av_{ticker}_{fn}.json" if raw else None
+        if path and path.exists():
+            return json.loads(path.read_text())
+        time.sleep(1.2)
+        d = httpx.get(AV_URL, params={"function": fn, "symbol": ticker, "apikey": av_key}, timeout=20).json()
+        if want not in d:
+            raise RuntimeError(f"{fn}: {str(d)[:200]}")
+        if path:
+            path.write_text(json.dumps(d, indent=1))
+        return d
+
     try:
-        hist = t.earnings_history
-        if hist is None or hist.empty:
-            return []
-        fy_ts = t.info.get("lastFiscalYearEnd")
-        fy_month = datetime.fromtimestamp(fy_ts, tz=timezone.utc).month if fy_ts else 12
-        return normalize_yf(hist, t.earnings_estimate, t.revenue_estimate, t.eps_trend, call_start, fetched, fy_month)
+        est = get("EARNINGS_ESTIMATES", "estimates")["estimates"]
+        q = get("EARNINGS", "quarterlyEarnings")["quarterlyEarnings"]
+        # snapshot ages count from when the raw response was fetched, not from this run
+        cached = raw / f"av_{ticker}_EARNINGS_ESTIMATES.json" if raw else None
+        fetched = datetime.fromtimestamp(cached.stat().st_mtime, tz=UTC) if cached else datetime.now(UTC)
+        return normalize_av(est, q, call_start, fetched, _revenue_actuals(ticker))
     except Exception as e:  # noqa: BLE001
-        print(f"yfinance estimates failed, running without: {str(e)[:160]}")
+        print(f"alpha vantage estimates failed, running without: {str(e).replace(av_key, '***')[:200]}")
         return []
 
 
@@ -268,8 +200,9 @@ def _role(claim: Claim, quarter_roles: dict[int, str]) -> str | None:
 # total company revenue, optionally qualified by a period or 'guidance', never a segment or a growth rate
 _QUAL = r"(?:q[1-4]|fy\s?\d{0,4}|\d{4}|full year|fiscal year|quarterly|(?:first|second|third|fourth) quarter|total|net"\
     r"|consolidated|reported|company)"
-_METRIC = {"eps": re.compile(r"\b(eps|earnings per share)\b", re.I),
-           "revenue": re.compile(rf"^(?:{_QUAL}\s+)*revenues?(?:\s+(?:guidance|outlook|range|forecast))?$", re.I)}
+_METRIC = {"eps": re.compile(r"\b(eps|earnings per share)\b", re.IGNORECASE),
+           "revenue": re.compile(rf"^(?:{_QUAL}\s+)*revenues?(?:\s+(?:guidance|outlook|range|forecast))?$",
+                                re.IGNORECASE)}
 
 
 def match_consensus(claims: list[Claim], estimates: list[Estimate]) -> list[Claim]:
@@ -298,37 +231,3 @@ def match_consensus(claims: list[Claim], estimates: list[Estimate]) -> list[Clai
                 c = c.model_copy(update={"vs_consensus_pct": gap, "consensus_role": role})
         out.append(c)
     return out
-
-
-def main(argv=None):
-    """Builds data/<call>/estimates.json ahead of call.json, with the same cache key run.py reads, replacing any
-    existing cache. Prints the rows."""
-    import argparse
-
-    from dotenv import load_dotenv
-
-    from .models import CallMeta
-    from .run import _estimates
-
-    load_dotenv()
-    ap = argparse.ArgumentParser()
-    ap.add_argument("ticker")
-    ap.add_argument("call_start", type=datetime.fromisoformat, help="tz-aware, e.g. 2026-10-13T10:00-04:00")
-    ap.add_argument("quarter", help="the call's fiscal quarter, e.g. Q4-2026, checked against the reported row")
-    ap.add_argument("--out", type=Path, required=True)
-    a = ap.parse_args(argv)
-    if a.call_start.tzinfo is None:
-        ap.error("call_start needs a UTC offset")
-    a.out.mkdir(parents=True, exist_ok=True)
-    (a.out / "estimates.json").unlink(missing_ok=True)
-    rows = _estimates(a.out, CallMeta(ticker=a.ticker, quarter=a.quarter, call_start=a.call_start))
-    want = "Q{} FY{}".format(*a.quarter.upper().lstrip("Q").split("-"))
-    if not any(e.role == "reported" and e.period == want for e in rows):
-        print(f"warning: no reported row for {want}")
-    for e in rows:
-        print(f"  {e.period:10} {e.role:12} {e.metric:7} cons={e.consensus:<16g} act={e.actual} "
-              f"surp={e.surprise_pct if e.surprise_pct is None else f'{e.surprise_pct:+.2%}'} {e.basis} {e.as_of}")
-
-
-if __name__ == "__main__":
-    main()

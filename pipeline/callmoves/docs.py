@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 def pdf_to_text(path: Path) -> str:
+    """Extracts a PDF's text with blank runs collapsed."""
     from pypdf import PdfReader
 
     text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
@@ -17,9 +18,9 @@ def pdf_to_text(path: Path) -> str:
 def html_to_text(raw: str) -> str:
     """Flattens an HTML earnings release to plain text with the stdlib: block tags become line breaks, every other
     tag a space, so a table cell `$` next to `21,870` reads `$ 21,870`, which novelty already matches."""
-    text = re.sub(r"<!--.*?-->", " ", raw, flags=re.S)
-    text = re.sub(r"<(script|style|head)\b.*?</\1\s*>", " ", text, flags=re.S | re.I)
-    text = re.sub(r"<br\s*/?>|</(p|div|h[1-6]|li|tr|table|blockquote)\s*>", "\n", text, flags=re.I)
+    text = re.sub(r"<!--.*?-->", " ", raw, flags=re.DOTALL)
+    text = re.sub(r"<(script|style|head)\b.*?</\1\s*>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<br\s*/?>|</(p|div|h[1-6]|li|tr|table|blockquote)\s*>", "\n", text, flags=re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text).replace("\xa0", " ")
     text = re.sub(r"[ \t]+", " ", text)
@@ -28,6 +29,7 @@ def html_to_text(raw: str) -> str:
 
 
 def load_doc(path: Path) -> str:
+    """Reads a PDF, HTML or plain-text document as text, by suffix."""
     suffix = path.suffix.lower()
     if suffix == ".pdf":
         return pdf_to_text(path)

@@ -3,31 +3,34 @@
 import { headers } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { easternToIso, ETFS, recentSubmissions, submitCall } from "@/lib/submit";
+import { TZ } from "@/lib/format";
+import { ERRORS, ETFS, type ErrorCode, recentSubmissions, submitCall } from "@/lib/submit";
 
 export const dynamic = "force-dynamic";
 
 /**
- * Reads the form, queues the call and redirects back with the new id or the error, so a reload does not resubmit.
+ * Queues the form's call and redirects back with the new id or an error code, so a reload does not resubmit.
  */
 async function submit(fd: FormData) {
   "use server";
-  const f = (k: string) => String(fd.get(k) ?? "").trim();
   const ip = (await headers()).get("x-forwarded-for")?.split(",")[0].trim() ?? "unknown";
-  const r = await submitCall({
-    ticker: f("ticker").toUpperCase(), quarter: f("quarter").toUpperCase(), company: f("company"), etf: f("etf"),
-    call_start: easternToIso(f("call_start")) ?? "", audio_url: f("audio_url"), release_url: f("release_url"),
-    prior_url: f("prior_url"),
-  }, ip);
-  redirect(r.ok ? `/submit?queued=${r.id}` : `/submit?error=${encodeURIComponent(r.error)}`);
+  const r = await submitCall(Object.fromEntries(fd), ip);
+  redirect(r.ok ? `/submit?queued=${r.id}` : `/submit?error=${r.code}`);
 }
 
-const STATUS = { queued: "text-neutral-600", running: "text-blue-700", done: "text-emerald-700", failed: "text-red-700" };
+const STATUS = {
+  queued: "text-neutral-600", running: "text-blue-700", done: "text-emerald-700", failed: "text-red-700",
+};
 const INPUT = "w-full rounded border border-neutral-300 px-2 py-1 placeholder:text-neutral-400 " +
     "focus:outline-none focus:ring-1 focus:ring-blue-300";
 
+/**
+ * Renders the submission form, any queued or error notice, and the latest submissions with their status.
+ */
 export default async function Submit({ searchParams }: PageProps<"/submit">) {
   const sp = await searchParams;
+  const code = typeof sp.error === "string" && Object.hasOwn(ERRORS, sp.error) ? (sp.error as ErrorCode) : null;
+  const err = code && ERRORS[code][1];
   const subs = await recentSubmissions();
   const field = (name: string, label: string, ph: string, req = true, type = "text") => (
     <label className="block">
@@ -44,7 +47,7 @@ export default async function Submit({ searchParams }: PageProps<"/submit">) {
       </p>
       {sp.queued && <p className="mb-3 rounded bg-emerald-50 px-3 py-2 text-emerald-800">Queued. It shows below and
         moves to the library when done.</p>}
-      {sp.error && <p className="mb-3 rounded bg-red-50 px-3 py-2 text-red-800">{String(sp.error)}</p>}
+      {err && <p className="mb-3 rounded bg-red-50 px-3 py-2 text-red-800">{err}</p>}
       <form action={submit} className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
         {field("ticker", "Ticker", "WFC")}
         {field("quarter", "Quarter", "Q3-2026")}
@@ -69,10 +72,11 @@ export default async function Submit({ searchParams }: PageProps<"/submit">) {
                 <td className="py-1.5 pr-4 font-semibold">{s.ticker}</td>
                 <td className="py-1.5 pr-4">{s.quarter}</td>
                 <td className="py-1.5 pr-4 text-neutral-500">{new Date(s.created_at).toLocaleString("en-US",
-                  { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET</td>
+                  { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET</td>
                 <td className={`py-1.5 pr-4 ${STATUS[s.status]}`}>{s.status}</td>
                 <td className="py-1.5">{s.call_id && s.status === "done" ? <Link className="text-blue-700 underline"
-                  href={`/calls/${s.call_id}`}>replay</Link> : <span className="text-red-700">{s.error ?? ""}</span>}</td>
+                  href={`/calls/${s.call_id}`}>replay</Link> :
+                  <span className="text-red-700">{s.error ?? ""}</span>}</td>
               </tr>
             ))}
           </tbody>

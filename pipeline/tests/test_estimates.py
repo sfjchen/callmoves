@@ -2,48 +2,15 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-import pandas as pd
+from conftest import T0, make_bars, segs
 
 from callmoves import market
-from callmoves.estimates import match_consensus, normalize_av, normalize_yf
-from callmoves.models import Claim, Estimate, Segment
+from callmoves.estimates import match_consensus, normalize_av
+from callmoves.models import Claim, Estimate
 from callmoves.score import rank_moments
-from conftest import T0, make_bars
 
 CALL, FETCHED = T0, T0 + timedelta(days=26)   # 26 days later: the 30-day snapshot predates the call
 ET5 = timezone(timedelta(hours=-5))
-
-
-def _yf_frames():
-    hist = pd.DataFrame({"epsActual": [2.0, 1.87], "epsEstimate": [1.72, 1.80]},
-                        index=pd.to_datetime(["2026-06-30", "2026-09-30"]))
-    eps = pd.DataFrame({"avg": [1.79, 1.8, 7.34, 8.0]}, index=["0q", "+1q", "0y", "+1y"])
-    rev = pd.DataFrame({"avg": [22.4e9, 22.8e9, 88.2e9, 92.9e9]}, index=["0q", "+1q", "0y", "+1y"])
-    trend = pd.DataFrame({"current": [1.79, 1.8, 7.34, 8.0], "7daysAgo": [1.79, 1.8, 7.34, 8.0],
-                          "30daysAgo": [1.75, 1.8, 7.30, 8.0], "60daysAgo": [1.7] * 4, "90daysAgo": [1.7] * 4},
-                         index=["0q", "+1q", "0y", "+1y"])
-    return hist, eps, rev, trend
-
-
-def test_yfinance_rows_after_the_call_use_the_pre_call_eps_snapshot_and_mark_revenue_post_call():
-    rows = {(e.role, e.metric): e for e in normalize_yf(*_yf_frames(), CALL, FETCHED)}
-    rep = rows[("reported", "eps")]
-    assert (rep.period, rep.consensus, rep.actual, rep.basis) == ("Q3 FY2026", 1.80, 1.87, "at_report")
-    assert abs(rep.surprise_pct - 0.07 / 1.80) < 1e-9
-    nq = rows[("next_quarter", "eps")]
-    assert (nq.period, nq.consensus, nq.as_of, nq.basis) == ("Q4 FY2026", 1.75, date(2026, 10, 9), "before_call")
-    assert rows[("full_year", "eps")].period == "FY2026"
-    assert rows[("next_quarter", "revenue")].basis == "after_call" and ("reported", "revenue") not in rows
-
-
-def test_snapshot_on_the_call_day_is_not_before_the_call_but_a_fetch_an_hour_before_it_is():
-    hist, eps, rev, trend = _yf_frames()
-    trend = trend.assign(**{"7daysAgo": [1.78] * 4})
-    on_day = {(e.role, e.metric): e for e in normalize_yf(hist, eps, rev, trend, CALL, CALL + timedelta(days=7))}
-    assert on_day[("next_quarter", "eps")].consensus == 1.75   # the 7-day snapshot is dated the call day
-    early = {(e.role, e.metric): e for e in normalize_yf(hist.iloc[:1], eps, rev, trend, CALL,
-                                                         CALL - timedelta(hours=1))}
-    assert early[("reported", "eps")].basis == "before_call" and early[("reported", "eps")].consensus == 1.79
 
 
 def test_alpha_vantage_reported_quarter_comes_from_the_earnings_row_reported_on_the_call_day():
@@ -90,7 +57,7 @@ def test_alpha_vantage_drops_an_at_report_eps_on_another_definition_than_the_est
 
 def _est(role, metric, period, consensus):
     return Estimate(period=period, period_end=CALL.date(), role=role, metric=metric, consensus=consensus,
-                    as_of=CALL.date(), basis="at_report", source="yfinance")
+                    as_of=CALL.date(), basis="at_report", source="alphavantage")
 
 
 def _claim(i, metric, value, period, kind="result", novel=False):
@@ -137,12 +104,11 @@ def test_revenue_matches_in_billions_millions_without_a_dollar_sign_and_in_relea
 def test_empty_estimates_leave_claims_and_moments_unchanged_and_a_beat_scores_like_novel():
     bars = market.flag_abnormal(market.adjusted_returns(
         make_bars(stock_bump={11: 0.01, 41: 0.01}, vol_bump={11: 4, 41: 4})))
-    segs = [Segment(seg_id=i, t0_ms=(10 + 30 * i) * 60_000, t1_ms=0, speaker="CFO", text=f"q{i}",
-                    ts=T0 + timedelta(minutes=10 + 30 * i)) for i in range(2)]
+    ss = segs([(10 + 30 * i, "CFO", f"q{i}") for i in range(2)])
     claims = [_claim(0, "Earnings per share", "$1.87", "Q3"), _claim(1, "Net interest margin", None, "Q4", novel=True)]
     assert match_consensus(claims, []) == claims
-    stale = rank_moments(claims, segs, bars)
-    beat = rank_moments(match_consensus(claims, ESTS), segs, bars)
+    stale = rank_moments(claims, ss, bars)
+    beat = rank_moments(match_consensus(claims, ESTS), ss, bars)
     # the 3.9% EPS beat gets the novel weight (4x the stale one) and overtakes the new NIM remark
     assert [m.claim_id for m in stale] == [1, 0] and [m.claim_id for m in beat] == [0, 1]
     assert abs(beat[0].score / stale[1].score - 4.0) < 1e-9 and beat[0].vs_consensus_pct > 0.01

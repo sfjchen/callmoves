@@ -1,12 +1,12 @@
 """Step 1 and 3: load a timestamped transcript and align it to wall-clock time.
 
-Transcription itself (WhisperX + pyannote on Modal) is out of scope for the prototype.
-The input is the JSON WhisperX would hand back: segments with ms offsets and speaker labels.
-If `faster_whisper` is installed and an audio file is given, `transcribe()` produces that JSON locally.
+The input is call.json: segments with ms offsets and speaker labels. `transcribe()` makes the raw segments with
+faster-whisper on CPU (optional dependency), `label_speakers()` and `merge_turns()` turn them into speaker turns.
 """
 from __future__ import annotations
 
 import json
+import re
 from datetime import timedelta
 from pathlib import Path
 
@@ -14,6 +14,7 @@ from .models import CallMeta, Segment
 
 
 def load_call(path: Path) -> tuple[CallMeta, list[Segment]]:
+    """Reads call.json into the call metadata and its numbered segments."""
     data = json.loads(Path(path).read_text())
     meta = CallMeta(**{k: v for k, v in data.items() if k != "segments"})
     segs = [Segment(seg_id=i, **s) for i, s in enumerate(data["segments"])]
@@ -46,8 +47,8 @@ def decode_audio(audio_path: Path, rate: int = 16000):
     return np.concatenate(chunks).astype(np.float32) / 32768.0
 
 
-def transcribe(audio_path: Path, model_size: str = "small") -> list[dict]:
-    """Local transcription on CPU. Not used by the fixture run."""
+def transcribe(audio_path: Path, model_size: str = "medium") -> list[dict]:
+    """Transcribes audio on CPU with faster-whisper and returns segments with ms offsets and empty speakers."""
     from faster_whisper import (
         WhisperModel,  # optional dependency, pip install -e ".[asr]"
     )
@@ -63,14 +64,13 @@ def transcribe(audio_path: Path, model_size: str = "small") -> list[dict]:
 # ---- speaker labels without diarization ----
 # An earnings call has a fixed shape: operator, prepared remarks by management, then Q&A where the operator
 # introduces each analyst. That is enough to tell management from everyone else, which is all the claim
-# extractor needs. Real speaker names would come from pyannote on Modal.
-import re
-
+# extractor needs.
 _OPERATOR = re.compile(r"\b(questions? (will )?comes? from|next question|final question|first question|please go ahead|"
                        r"your line is (now )?open|listen.only|concludes today|press star|question and answer session|"
                        r"question-and-answer|thank you for standing by|stand by for|being recorded|"
                        r"turn the (call|conference) (back )?over to)\b", re.IGNORECASE)
-_QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.IGNORECASE)
+_QA_START = re.compile(
+        r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.IGNORECASE)
 _INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.IGNORECASE)
 _MAX_ANALYST_SEGMENTS = 8
 

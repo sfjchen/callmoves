@@ -1,8 +1,19 @@
 # CallMoves
 
-Which statements in an earnings call the market reacted to. Give it a timestamped transcript, the earnings release, last quarter's materials and 1-minute prices for the stock and its sector ETF. It finds the abnormal minutes, reads what was said just before each one, and ranks the likely drivers with their evidence and a confidence grade. Transcript, audio and chart replay on 1 cursor.
+Shows which statements in an earnings call the market reacted to. It finds the abnormal minutes in the stock's 1-minute prices (adjusted for its sector ETF), reads what was said just before each one, and ranks the likely drivers with their evidence and a confidence grade. Transcript, audio and price chart replay on 1 cursor. Live at https://callmoves.vercel.app, and anyone can submit a call at `/submit`.
 
-Status: 8 calls are live at callmoves.vercel.app (WFC and JPM Q2 and Q3 2026, Wayfair, Apple, Duolingo, plus a fictional fixture). `callmoves.ingest` builds a call folder from audio (faster-whisper on CPU), the release and prior-quarter documents (PDF or HTML) and 1-minute bars including pre and post market. Results live in the Supabase table `callmoves_calls` (`db/schema.sql`), published by `run --publish` or `python -m callmoves.publish`, player audio in a public Supabase Storage bucket. Anyone can submit a call at `/submit` (no login, 3 an hour per IP, 20 a day in total). The GitHub Actions workflow `worker.yml` checks the queue every 15 minutes and processes 1 call per run with `callmoves.worker`. Without Supabase keys the web app reads `web/data/*.json`, so local dev and CI stay offline.
+## How a call is processed
+
+Price first, transcript second: summarizing the call would surface what sounds important, not what changed expectations.
+
+1. Align the transcript to wall-clock time (`audio_offset_ms` is the audio position of the call start).
+2. Join the stock's 1-minute bars with its sector ETF's. Adjusted return = stock return minus ETF return. Flag minutes where it is far outside the trailing baseline, or volume spikes with a real move.
+3. Keep the turns spoken in the 5 minutes before a flagged minute.
+4. Extract claims (metric, value, period, kind, verbatim quote) with Claude, or rules without a key. A quote that is not in the transcript is dropped.
+5. Judge novelty against the release and the prior quarter's materials. A claim already there cannot explain a move, unless it is an EPS or revenue figure more than 1% off analyst consensus. Only a consensus frozen at the report (`at_report`) or dated before the call (`before_call`) counts, an `after_call` one is shown but never scores.
+6. Score = novelty x kind x |adjusted return over the next 5 min| x volume multiple x closeness to the flagged minute. The top 5 become moments graded high, medium or low. The wording is "associated with", never "caused".
+
+`callmoves.ingest` builds the call folder from audio (faster-whisper on CPU), the release and prior documents (PDF or HTML) and bars. `run --publish` or `callmoves.publish` upserts the result into the Supabase table `callmoves_calls` (`db/schema.sql`). The GitHub Actions workflow `worker.yml` processes submissions from the queue, 1 per run. Without Supabase keys the web app reads `web/data/*.json`.
 
 ## Run it
 
@@ -19,25 +30,19 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-The fixture and the WFC call ship with cached Claude output (`llm_claims.json`) and bars, WFC also with consensus (`estimates.json`), so neither needs Claude to rerun. Keys go in `pipeline/.env`, each optional:
+Every call folder in `pipeline/data/` and the fixture ship with bars and cached Claude output (`llm_claims.json`), so a rerun needs no key. Keys go in `pipeline/.env`, each optional:
 
-- `ANTHROPIC_API_KEY`: Claude extracts claims for a new call, otherwise the rule-based fallback runs.
-- `POLYGON_API_KEY`: 1-minute bars from Massive (formerly Polygon), free plan, otherwise yfinance.
-- `ALPHA_VANTAGE_KEY`: analyst consensus from Alpha Vantage (25 requests a day), otherwise yfinance.
-- `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`: `ingest --upload` transcodes the audio to mono 48 kbps MP3 and uploads it.
+- `ANTHROPIC_API_KEY`: Claude extracts claims and judges novelty for a new call, otherwise the rules run.
+- `POLYGON_API_KEY`: 1-minute bars from Massive (formerly Polygon), free plan. Required to ingest a call.
+- `ALPHA_VANTAGE_KEY`: analyst consensus (25 requests a day), otherwise no consensus.
+- `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`: audio upload (`ingest --upload`), publishing, the worker.
 
-Precision at 3 and 5 against hand-labeled move times: `.venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>`.
-Placebo check without labels, real statement timing against the same claims shifted 15 to 60 minutes: `.venv/bin/python -m callmoves.eval data/<call> --placebo`. On 2026-11-09 Apple FY26 Q4 and JPMorgan Q3 beat all 20 shifts, Wayfair beat 17, and Duolingo, both Q2 bank calls and Wells Fargo Q3 showed no timing signal.
+## Eval
 
-## How a call is processed
+Precision at 3 and 5 against hand-labeled move times:
 
-Price first, transcript second. Summarizing the call would surface what sounds important, not what changed expectations.
+```bash
+.venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>
+```
 
-1. Load the transcript (segments with ms offsets and speakers) and map the audio position `audio_offset_ms` to the call start, so every sentence has a wall-clock time.
-2. Join the stock's 1-minute bars with the sector ETF's. Adjusted return = stock return minus ETF return. Volume multiple = volume over the trailing 20-minute median. Flag minutes where the adjusted return is far outside the trailing baseline or volume spikes with a real move.
-3. Keep only the turns spoken in the 5 minutes before a flagged minute.
-4. Extract claims from those turns (metric, value, period, kind, verbatim quote). A quote that is not in the transcript is dropped.
-5. Judge novelty against the release and the prior quarter's materials. A claim already in the release cannot explain a move during the call, unless it is an EPS or revenue figure more than 1% off analyst consensus. Only a consensus frozen at the report (`at_report`) or dated before the call (`before_call`) counts, one fetched after the call (`after_call`) is shown but never scores.
-6. Score = novelty × kind × |adjusted return over the next 5 min| × volume multiple × closeness to the flagged minute. Top 5 become moments, each graded high, medium or low confidence. The wording is "associated with", never "caused".
-
-The fixture plants a guidance raise at 10:12 (+1.8% on 4x volume), a sector-wide move at 10:20 that the adjustment cancels, and a gross margin warning at 10:31 (-1.2%). The ranker finds the guidance raise and ignores the sector move. The 10:31 drop stays under the z-score threshold since the price-first change, so it is not flagged.
+Placebo check without labels: the real statement timing against the same claims shifted 15 to 60 minutes (`--placebo`). A call with no timing signal does not beat the shifts.

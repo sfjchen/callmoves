@@ -9,7 +9,6 @@ from .market import flag_events, forward_window, minutes_to_nearest_flag
 from .models import Claim, Moment, Segment
 from .transcript import qa_start_ms
 
-NOVEL_WEIGHT = 1.0
 STALE_WEIGHT = 0.25
 TIMING_SCALE_MIN = 3.0
 VOL_CAP = 10.0   # a single block print without a price move should not dominate the score
@@ -19,13 +18,15 @@ QUESTION_CHARS = 400   # analyst questions shown on a card are cut to this lengt
 
 
 def timing_weight(minutes_to_flag: float) -> float:
+    """Returns 1 at a flagged minute, decaying exponentially with distance, 0.1 when no flag follows."""
     if math.isinf(minutes_to_flag):
         return 0.1
     return math.exp(-minutes_to_flag / TIMING_SCALE_MIN)
 
 
 def confidence(novel: bool, adj_ret: float, vol_mult: float, minutes_to_flag: float) -> str:
-    """How much to trust the association. Attribution is uncertain by nature, so the top label is 'high', never 'certain'."""
+    """How much to trust the association. Attribution is uncertain by nature, so the top label is 'high', never
+    'certain'."""
     if novel and abs(adj_ret) >= 0.004 and vol_mult >= 3 and minutes_to_flag <= 2:
         return "high"
     if novel and abs(adj_ret) >= 0.002 and minutes_to_flag <= 5:
@@ -42,8 +43,8 @@ def score_claim(claim: Claim, bars: pd.DataFrame, reaction: dict | None = None) 
     """With an open reaction (stock closed during the call) every claim shares that one move and has no timing."""
     w = reaction or forward_window(bars, claim.ts)
     dist = float("inf") if reaction else minutes_to_nearest_flag(bars, claim.ts)
-    novelty = NOVEL_WEIGHT if market_relevant(claim) else STALE_WEIGHT
-    score = (novelty * KIND_WEIGHT.get(claim.kind, 0.5) * abs(w["adj_ret"])
+    novelty = 1.0 if market_relevant(claim) else STALE_WEIGHT
+    score = (novelty * KIND_WEIGHT[claim.kind] * abs(w["adj_ret"])
              * min(VOL_CAP, max(1.0, w["vol_mult"])) * timing_weight(dist))
     return score, w, dist
 

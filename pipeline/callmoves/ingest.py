@@ -4,8 +4,8 @@
         --call-start 2026-10-13T10:00:00-04:00 --audio raw/wfc_q3.mpeg \
         --release raw/wfc_q3_release.pdf --prior raw/wfc_q2_release.pdf --out data/wfc_q3_2026
 
-Writes call.json (transcript with speakers), bars.csv (stock + ETF, from Massive (formerly Polygon) or yfinance),
-release.txt and prior_transcript.txt. Transcription is faster-whisper on CPU, about 20 to 40 min per hour of audio.
+Writes call.json (transcript with speakers), bars.csv (stock + ETF from Massive, needs POLYGON_API_KEY),
+release.txt and prior_transcript.txt. Transcription is faster-whisper on CPU.
 """
 from __future__ import annotations
 
@@ -23,6 +23,7 @@ from .transcript import label_speakers, merge_turns, transcribe
 
 
 def main(argv=None):
+    """Builds a call folder in --out from audio, release and prior documents, and Massive bars."""
     load_dotenv()
     ap = argparse.ArgumentParser()
     ap.add_argument("--ticker", required=True)
@@ -35,7 +36,7 @@ def main(argv=None):
     ap.add_argument("--company")
     ap.add_argument("--audio-url", help="public URL the web player should use, set by --upload")
     ap.add_argument("--upload", action="store_true",
-                    help="with --audio: transcode to out/<TICKER>_<quarter>.mp3, upload it to Supabase Storage, "
+                    help="with --audio: transcode to <out>/<TICKER>_<quarter>.mp3, upload it to Supabase Storage, "
                          "use its URL")
     ap.add_argument("--model", default="medium", help="faster-whisper model size")
     ap.add_argument("--audio-offset", type=float, default=0.0,
@@ -50,7 +51,7 @@ def main(argv=None):
     offset_ms = round(args.audio_offset * 1000)
     if args.upload and args.audio:
         name = f"{args.ticker}_{args.quarter}.mp3"
-        args.audio_url = upload(transcode(args.audio, Path("out") / name), name)
+        args.audio_url = upload(transcode(args.audio, out / name), name)
         print(f"uploaded {name} -> {args.audio_url}", flush=True)
 
     call_json = out / "call.json"

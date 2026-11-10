@@ -7,37 +7,48 @@ from __future__ import annotations
 
 import os
 import re
+from datetime import timedelta
+from typing import Literal
 
 from pydantic import BaseModel
 
+from . import llm
 from .models import Claim, Segment
 
-MANAGEMENT = re.compile(r"\b(ceo|cfo|coo|president|chief|founder|management)\b", re.I)
-NUMBER = re.compile(r"(\$\s?\d[\d,.]*\s*(?:billion|million|thousand|[bmk])?|\d[\d,.]*\s?%|\b\d[\d,.]*\s*(?:basis points|bps|million|billion|customers|percent)\b)", re.I)
-GUIDANCE = re.compile(r"\b(expect|expects|expecting|guidance|guide|outlook|raise|raising|raised|lower|lowering|forecast|anticipate|target|for the full year|for fiscal|next quarter|fourth quarter|q4)\b", re.I)
+MANAGEMENT = re.compile(r"\b(ceo|cfo|coo|president|chief|founder|management)\b", re.IGNORECASE)
+NUMBER = re.compile(
+        r"(\$\s?\d[\d,.]*\s*(?:billion|million|thousand|[bmk])?|\d[\d,.]*\s?%|"
+        r"\b\d[\d,.]*\s*(?:basis points|bps|million|billion|customers|percent)\b)", re.IGNORECASE)
+GUIDANCE = re.compile(
+        r"\b(expect|expects|expecting|guidance|guide|outlook|raise|raising|raised|lower|lowering|forecast|anticipate|"
+        r"target|for the full year|for fiscal|next quarter|fourth quarter|q4)\b", re.IGNORECASE)
 METRIC_WORDS = ["revenue", "gross margin", "operating margin", "margin", "free cash flow", "cash flow", "net retention",
-                "retention", "customers", "bookings", "arr", "eps", "earnings per share", "operating income", "headcount",
-                "buyback", "guidance", "churn", "pipeline", "backlog", "pricing"]
-PERIOD = re.compile(r"\b(Q[1-4]|fiscal (?:year )?20\d\d|FY ?20\d\d|full[- ]year|next quarter|fourth quarter|third quarter|this quarter|20\d\d)\b", re.I)
+                "retention", "customers", "bookings", "arr", "eps", "earnings per share", "operating income",
+                "headcount", "buyback", "guidance", "churn", "pipeline", "backlog", "pricing"]
+PERIOD = re.compile(
+        r"\b(Q[1-4]|fiscal (?:year )?20\d\d|FY ?20\d\d|full[- ]year|next quarter|fourth quarter|third quarter|"
+        r"this quarter|20\d\d)\b", re.IGNORECASE)
 
 
 def _claim_ts(seg: Segment, quote: str):
     """Wall-clock time of the sentence itself: turn time plus the offset of the ASR part that holds it."""
     if seg.ts is None:
         return None
-    from datetime import timedelta
     return seg.ts + timedelta(milliseconds=seg.time_of(quote) - seg.t0_ms)
 
 
 def is_management(speaker: str) -> bool:
+    """Returns whether the speaker label names a company officer."""
     return bool(MANAGEMENT.search(speaker))
 
 
 def split_sentences(text: str) -> list[str]:
+    """Splits text into stripped sentences at ., ! or ? followed by whitespace."""
     return [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
 
 
 def extract_claims_rules(segments: list[Segment]) -> list[Claim]:
+    """Extracts claims from management sentences that carry a number or guidance wording, with no API call."""
     claims: list[Claim] = []
     for seg in segments:
         if not is_management(seg.speaker):
@@ -74,14 +85,13 @@ class _ClaimLLM(BaseModel):
     metric: str
     value: str | None = None
     period: str | None = None
-    kind: str
+    kind: Literal["guidance", "result", "qualitative"]
 
 
 class _ClaimsLLM(BaseModel):
     claims: list[_ClaimLLM]
 
 
-MODEL = "claude-sonnet-5-5"
 CHUNK_CHARS = 6000
 
 _SYSTEM = (
@@ -103,23 +113,20 @@ def _chunks(segments: list[Segment]) -> list[list[Segment]]:
     return out
 
 
-def extract_claims_llm(segments: list[Segment], model: str = MODEL) -> list[Claim]:
-    import anthropic
-
-    client = anthropic.Anthropic()
+def extract_claims_llm(segments: list[Segment]) -> list[Claim]:
+    """Extracts claims with Claude, 1 call per chunk of management turns. A claim whose quote is not verbatim in its
+    turn is dropped."""
     by_id = {s.seg_id: s for s in segments}
     claims: list[Claim] = []
     for chunk in _chunks([s for s in segments if is_management(s.speaker)]):
         body = "\n\n".join(f"[seg_id {s.seg_id}] {s.speaker}: {s.text}" for s in chunk)
-        resp = client.messages.parse(model=model, max_tokens=8000, system=_SYSTEM,
-                                     messages=[{"role": "user", "content": body}], output_format=_ClaimsLLM)
-        for c in resp.parsed_output.claims:
+        for c in llm.parse(_SYSTEM, body, _ClaimsLLM).claims:
             seg = by_id.get(c.seg_id)
             if seg is None or c.quote.strip() not in seg.text:   # quote must exist verbatim or the claim is dropped
                 continue
-            kind = c.kind if c.kind in ("guidance", "result", "qualitative") else "qualitative"
             claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=c.quote.strip(),
-                                metric=c.metric, value=c.value, period=c.period, kind=kind, ts=_claim_ts(seg, c.quote)))
+                                metric=c.metric, value=c.value, period=c.period, kind=c.kind,
+                                ts=_claim_ts(seg, c.quote)))
     return claims
 
 

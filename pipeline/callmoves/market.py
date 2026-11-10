@@ -26,6 +26,7 @@ EDGE_LOOKUP_DAYS = 5    # how far to look for the prior close and next open: a w
 
 
 def load_bars_csv(path: Path) -> pd.DataFrame:
+    """Reads a call folder's bars.csv sorted by time."""
     df = pd.read_csv(path, parse_dates=["ts"])
     return df.sort_values("ts").reset_index(drop=True)
 
@@ -90,7 +91,8 @@ def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def flag_abnormal(df: pd.DataFrame) -> pd.DataFrame:
-    """Flag a minute when its adjusted return is far outside the trailing baseline, or volume spikes with a real move."""
+    """Flag a minute when its adjusted return is far outside the trailing baseline, or volume spikes with a real
+    move."""
     out = df.copy()
     roll = out.groupby(session_key(out["ts"]))["adj_ret"].transform
     mu = roll(lambda r: r.shift(1).rolling(BASELINE_MIN, min_periods=5).mean())
@@ -103,6 +105,7 @@ def flag_abnormal(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def to_bars(df: pd.DataFrame) -> list[Bar]:
+    """Converts the analyzed frame to Bar models."""
     return [Bar(**{k: row[k] for k in ("ts", "px", "etf_px", "vol", "adj_ret", "cum_adj_ret", "vol_mult", "flagged")})
             for _, row in df.iterrows()]
 
@@ -119,11 +122,6 @@ def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
     stock = float(win["px"].iloc[-1] / base["px"] - 1)
     etf = float(win["etf_px"].iloc[-1] / base["etf_px"] - 1)
     return {"adj_ret": stock - etf, "ret": stock, "etf_ret": etf, "vol_mult": float(win["vol_mult"].max())}
-
-
-def forward_return(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> tuple[float, float]:
-    w = forward_window(df, ts, minutes)
-    return w["adj_ret"], w["vol_mult"]
 
 
 def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = 5):
@@ -159,49 +157,17 @@ def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) 
     return float((flags.iloc[0] - ts).total_seconds() / 60)
 
 
-def fetch_yfinance_bars(ticker: str, day: datetime) -> pd.DataFrame:
-    """1-minute bars for one day including pre and post market. No key, but only the last 30 days."""
-    import yfinance as yf
-
-    start = day.date().isoformat()
-    end = (day + timedelta(days=1)).date().isoformat()
-    df = yf.download(ticker, start=start, end=end, interval="1m", prepost=True, progress=False, auto_adjust=False)
-    if df.empty:
-        raise RuntimeError(f"yfinance returned no 1-minute bars for {ticker} on {start}")
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(0)
-    out = pd.DataFrame({"ts": pd.to_datetime(df.index), "px": df["Close"].to_numpy(), "vol": df["Volume"].to_numpy()})
-    out = out.dropna(subset=["px"]).reset_index(drop=True)
-    out["ts"] = out["ts"].dt.tz_convert("UTC")
-    return out
-
-
 def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:
-    """Massive when POLYGON_API_KEY is set, otherwise yfinance one day at a time. Both return ts (UTC), px, vol."""
-    if os.environ.get("POLYGON_API_KEY"):
-        df = fetch_polygon_bars(ticker, start, end)
-    else:
-        days = []
-        for i in range((end.date() - start.date()).days + 1):
-            try:
-                days.append(fetch_yfinance_bars(ticker, start + timedelta(days=i)))
-            except RuntimeError:   # weekend, holiday or a day that has not traded yet
-                continue
-        if not days:
-            raise RuntimeError(f"yfinance returned no 1-minute bars for {ticker} between {start} and {end}")
-        df = pd.concat(days, ignore_index=True)
+    """Massive bars between start and end as ts (UTC), px, vol. Raises when POLYGON_API_KEY is unset."""
+    if not os.environ.get("POLYGON_API_KEY"):
+        raise RuntimeError("POLYGON_API_KEY is not set: Massive (formerly Polygon) is the only 1-minute bars source")
+    df = fetch_polygon_bars(ticker, start, end)
     return df[(df["ts"] >= start) & (df["ts"] <= end)].reset_index(drop=True)
 
 
-def traded_only(df: pd.DataFrame) -> pd.DataFrame:
-    """Keeps the bars that carry information: any volume, or a price change. yfinance reports extended-hours
-    minutes with moving prices but volume 0, so a flat zero-volume minute drops and a moving one stays."""
-    keep = (df["vol"] > 0) | df["px"].ne(df["px"].shift())
-    return df[keep].reset_index(drop=True)
-
-
 def _traded_bars(ticker: str, etf: str, start: datetime, end: datetime) -> pd.DataFrame:
-    return traded_only(join_stock_etf(fetch_bars(ticker, start, end), fetch_bars(etf, start, end)))
+    """Returns the stock and ETF bars between start and end joined on the minute."""
+    return join_stock_etf(fetch_bars(ticker, start, end), fetch_bars(etf, start, end))
 
 
 def add_session_edges(window: pd.DataFrame, wide: pd.DataFrame, call_start: datetime, call_end: datetime,
@@ -238,7 +204,9 @@ def bars_for_call(ticker: str, etf: str, call_start: datetime, call_end: datetim
     return add_session_edges(window, wide, call_start, call_end)
 
 
-def open_reaction(df: pd.DataFrame, call_start: datetime, call_end: datetime, minutes: int = OPEN_WINDOW_MIN) -> dict | None:
+def open_reaction(
+        df: pd.DataFrame, call_start: datetime, call_end: datetime, minutes: int = OPEN_WINDOW_MIN
+) -> dict | None:
     """When the stock did not trade during the call, the market's only read is the next open: the sector-adjusted
     move from the last trade before the call to `minutes` after the first trade after it. None if it did trade."""
     if not df[(df["ts"] >= call_start) & (df["ts"] <= call_end)].empty:

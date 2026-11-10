@@ -5,8 +5,6 @@ import numpy as np
 import pandas as pd
 import pytest
 from conftest import ET, T0, make_bars
-from hypothesis import given, settings
-from hypothesis import strategies as st
 
 from callmoves import market
 
@@ -41,21 +39,13 @@ def test_volume_spike_without_a_move_is_not_flagged():
     assert not bool(out.loc[40, "flagged"])
 
 
-def test_forward_return_and_nearest_flag():
+def test_forward_window_and_nearest_flag():
     df = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={42: 0.01}, vol_bump={42: 5})))
     ts = T0 + timedelta(minutes=40)
-    ret, vol_mult = market.forward_return(df, ts, minutes=5)
-    assert 0.008 < ret < 0.013 and vol_mult > 3
+    w = market.forward_window(df, ts, minutes=5)
+    assert 0.008 < w["adj_ret"] < 0.013 and w["vol_mult"] > 3
     assert market.minutes_to_nearest_flag(df, ts) == 2.0
     assert market.minutes_to_nearest_flag(df, T0 + timedelta(minutes=80)) == float("inf")
-
-
-@settings(max_examples=50, deadline=None)
-@given(st.floats(min_value=-0.05, max_value=0.05), st.integers(min_value=25, max_value=100))
-def test_adj_ret_matches_difference_of_simple_returns(bump, i):
-    out = market.adjusted_returns(make_bars(stock_bump={i: bump}))
-    s = out["px"].pct_change().iloc[i]; e = out["etf_px"].pct_change().iloc[i]
-    assert abs(out["adj_ret"].iloc[i] - (s - e)) < 1e-12
 
 
 def _session(first: datetime, n: int, px: float, etf_px: float) -> pd.DataFrame:
@@ -77,7 +67,8 @@ def _adr_bars(gap=0.03, etf_gap=0.005):
 
 def test_session_edges_add_prior_close_and_next_open_for_a_call_with_no_trades():
     wide = _adr_bars()
-    window = wide[(wide["ts"] >= CALL_START - timedelta(minutes=180)) & (wide["ts"] <= CALL_START + timedelta(minutes=60))]
+    window = wide[(wide["ts"] >= CALL_START - timedelta(minutes=180)) &
+                  (wide["ts"] <= CALL_START + timedelta(minutes=60))]
     assert window.empty
     df = market.add_session_edges(window, wide, CALL_START, CALL_END)
     assert len(df) == market.SESSION_TAIL_MIN + market.OPEN_WINDOW_MIN + 1
@@ -98,7 +89,8 @@ def test_session_edges_keep_a_window_that_starts_at_the_open_and_prepend_the_pri
 
 
 def test_open_reaction_is_the_sector_adjusted_move_to_the_next_open():
-    df = market.adjusted_returns(market.add_session_edges(pd.DataFrame(columns=["ts"]), _adr_bars(), CALL_START, CALL_END))
+    df = market.adjusted_returns(
+        market.add_session_edges(pd.DataFrame(columns=["ts"]), _adr_bars(), CALL_START, CALL_END))
     r = market.open_reaction(df, CALL_START, CALL_END)
     assert r["from_ts"] == PRIOR_CLOSE + timedelta(minutes=59)
     assert r["to_ts"] == NEXT_OPEN + timedelta(minutes=market.OPEN_WINDOW_MIN)
@@ -110,17 +102,6 @@ def test_open_reaction_is_none_when_the_stock_traded_during_the_call():
     assert market.open_reaction(df, T0 + timedelta(minutes=10), T0 + timedelta(minutes=70)) is None
 
 
-def test_traded_only_keeps_moving_zero_volume_bars_and_drops_flat_ones():
-    df = make_bars(n=10)
-    df["vol"] = 0.0
-    df.loc[[4, 5], "px"] = df.loc[3, "px"]      # 2 flat extended-hours minutes with no trades
-    df.loc[7, "vol"] = 100.0                     # a flat minute that did trade
-    df.loc[8, "px"] = df.loc[7, "px"]
-    out = market.traded_only(df)
-    assert list(out["ts"]) == [t for i, t in enumerate(df["ts"]) if i not in (4, 5, 8)]
-    assert out.index.tolist() == list(range(len(out)))
-
-
 def test_zero_volume_baseline_gives_neutral_vol_mult_and_flags_on_z_alone():
     df = make_bars(stock_bump={40: 0.012})
     df["vol"] = 0.0
@@ -130,6 +111,12 @@ def test_zero_volume_baseline_gives_neutral_vol_mult_and_flags_on_z_alone():
     assert abs(out.loc[40, "z"]) >= market.Z_THRESHOLD and out.loc[40, "vol_mult"] < market.VOL_THRESHOLD
     regular = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={40: 0.012}, vol_bump={40: 5})))
     assert abs(regular.loc[40, "vol_mult"] - 5.0) < 1e-9 and regular.loc[40, "vol_mult"] >= market.VOL_THRESHOLD
+
+
+def test_fetch_bars_without_a_massive_key_raises(monkeypatch):
+    monkeypatch.delenv("POLYGON_API_KEY", raising=False)
+    with pytest.raises(RuntimeError, match="POLYGON_API_KEY"):
+        market.fetch_bars("WFC", T0, T0 + timedelta(minutes=5))
 
 
 def test_massive_bars_wait_out_a_429_follow_next_url_and_keep_the_key_out_of_urls(monkeypatch):

@@ -4,19 +4,20 @@ from pathlib import Path
 import pytest
 
 from callmoves import worker
-from callmoves.publish import summarize
 from callmoves.run import run
 
 FIXTURE = Path(__file__).parent.parent / "fixtures" / "acme_q3_2026"
 
 
-def test_summary_matches_the_web_call_summary_shape():
+def test_run_fills_the_summary_and_each_segments_adjusted_return():
     out = run(FIXTURE)
-    s = summarize(out)
-    assert set(s) == {"id", "ticker", "quarter", "company", "call_start", "n_moments", "n_flagged", "spark", "top_moment"}
-    assert s["id"] == out.call.call_id == "ACME_Q3-FY2026"
-    assert s["n_moments"] == len(out.moments) and 2 <= len(s["spark"]) <= 61
-    assert s["top_moment"]["quote"] == out.moments[0].quote
+    s = out.summary
+    assert s.id == out.call.call_id == "ACME_Q3-FY2026"
+    assert s.n_moments == len(out.moments) and s.n_flagged == sum(b.flagged for b in out.bars)
+    assert 2 <= len(s.spark) <= 61 and s.top_moment.quote == out.moments[0].quote
+    assert out.n_claims == len(out.claims)
+    top = next(g for g in out.segments if g.seg_id == out.moments[0].seg_id)
+    assert top.adj_ret_5m == out.moments[0].adj_ret_5m   # same window as the moment's own
 
 
 class FakeResponse:
