@@ -1,3 +1,5 @@
+from datetime import timedelta
+
 from conftest import claim, make_bars, segs
 
 from callmoves import market
@@ -61,3 +63,21 @@ def test_qa_moments_carry_section_and_the_analyst_question_before_them():
     by_claim = {m.claim_id: m for m in rank_moments([claim(i, ss[i]) for i in (0, 3)], ss, bars)}
     assert by_claim[0].section == "prepared" and by_claim[0].question is None
     assert by_claim[3].section == "qa" and by_claim[3].question == "Can margins hold next year?"
+
+
+def test_claims_whose_window_touches_the_opening_auction_are_skipped():
+    bars = make_bars(stock_bump={6: -0.02, 11: -0.02, 70: -0.006}, vol_bump={6: 5, 11: 5, 70: 5})
+    bars["ts"] -= timedelta(minutes=35)                                  # bar 0 is 9:25 ET, bar 70 is 10:35
+    bars = market.flag_abnormal(market.adjusted_returns(bars))
+    ss = segs([(m, "CFO", "x") for m in (-31, -26, 34)])               # 9:29 and 9:34 touch the open, 10:34 not
+    claims = [claim(i, s) for i, s in enumerate(ss)]
+    assert rank_moments(claims[:2], ss, bars) == []
+    assert [m.claim_id for m in rank_moments(claims, ss, bars)] == [2]
+
+
+def test_claims_with_no_flag_ahead_keep_1_per_5_minute_window():
+    bars = market.flag_abnormal(market.adjusted_returns(make_bars()))
+    ss = segs([(m, "CFO", "x") for m in (20, 21, 23, 30)])
+    moments = rank_moments([claim(i, s) for i, s in enumerate(ss)], ss, bars)
+    assert all(m.nearest_flag_min == -1.0 for m in moments)
+    assert len(moments) == 2 and abs(moments[0].t0_ms - moments[1].t0_ms) >= 5 * 60_000

@@ -10237,41 +10237,15 @@
    0.00596908596830148
   ],
   "top_moment": {
-   "ts": "2026-07-14T09:28:56.560000-04:00",
-   "quote": "On the question of stability, I mean, I don't think it's Pollyannaish to say that regulatory stability is a desirable thing, and I actually think it's a relatively non-partisan idea.",
-   "adj_ret_5m": 0.019751824059317524,
+   "ts": "2026-07-14T08:30:42.760000-04:00",
+   "quote": "Including the significant items noted on the page, the firm delivered net income of $16.9 billion, EPS of $6.14, and an ROTC of 23%.",
+   "adj_ret_5m": -0.001842892481898173,
    "speaker": "Management"
   }
  },
  "moments": [
   {
    "rank": 1,
-   "claim_id": 15,
-   "seg_id": 112,
-   "ts": "2026-07-14T09:28:56.560000-04:00",
-   "t0_ms": 3536560,
-   "speaker": "Management",
-   "quote": "On the question of stability, I mean, I don't think it's Pollyannaish to say that regulatory stability is a desirable thing, and I actually think it's a relatively non-partisan idea.",
-   "metric": "regulatory stability outlook",
-   "kind": "qualitative",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "adj_ret_5m": 0.019751824059317524,
-   "ret_5m": 0.02379132136631923,
-   "etf_ret_5m": 0.004039497307001705,
-   "vol_mult": 3.6840221864376455,
-   "nearest_flag_min": 0.05733333333333333,
-   "score": 0.035694360017335613,
-   "confidence": "high",
-   "pre_move": false,
-   "section": "qa",
-   "question": "Thank you. Jamie and Jeremy, you guys have talked about, you've seen some excesses in underwriting and credit late last year, I think it was Jamie. Jeremy, you talked about risk on in the capital markets. What are you guys seeing in credit underwriting",
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "rank": 2,
    "claim_id": 0,
    "seg_id": 6,
    "ts": "2026-07-14T08:30:42.760000-04:00",
@@ -10297,7 +10271,7 @@
    "consensus_role": "reported"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "claim_id": 3,
    "seg_id": 57,
    "ts": "2026-07-14T08:57:57.920000-04:00",
@@ -10323,7 +10297,7 @@
    "consensus_role": null
   },
   {
-   "rank": 4,
+   "rank": 3,
    "claim_id": 4,
    "seg_id": 64,
    "ts": "2026-07-14T09:01:30.700000-04:00",
@@ -10349,7 +10323,7 @@
    "consensus_role": null
   },
   {
-   "rank": 5,
+   "rank": 4,
    "claim_id": 9,
    "seg_id": 68,
    "ts": "2026-07-14T09:05:02.270000-04:00",
@@ -10371,6 +10345,32 @@
    "pre_move": false,
    "section": "qa",
    "question": "Hi, in response to the earlier question, you were asked about operating negative as negative and you gave the reasons for that, but is operating negative the way you look at things?",
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "rank": 5,
+   "claim_id": 2,
+   "seg_id": 6,
+   "ts": "2026-07-14T08:31:12.360000-04:00",
+   "t0_ms": 72360,
+   "speaker": "Management",
+   "quote": "Expenses of $27.3 billion were up 15% year-on-year, largely driven by volume and revenue-related expense, as well as growth in front office hiring and labor",
+   "metric": "expenses",
+   "kind": "result",
+   "novel": false,
+   "matched_doc": "release",
+   "matched_text": "Noninterest expense was $27.3 billion, up 15%, predominantly driven by higher compensation, including higher revenue-related compensation and growth in the number of front office employees, as well as higher brokerage expense and distribution fees, higher marketing expense, higher technology expense",
+   "adj_ret_5m": 0.0029913690200251697,
+   "ret_5m": 0.0019917266738163075,
+   "etf_ret_5m": -0.0009996423462088622,
+   "vol_mult": 2.8482544447065172,
+   "nearest_flag_min": -1.0,
+   "score": 0.0001704036021408814,
+   "confidence": "low",
+   "pre_move": false,
+   "section": "prepared",
+   "question": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }

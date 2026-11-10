@@ -17,9 +17,10 @@ type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
 /**
  * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
- * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms.
+ * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms. `baseline` (study
+ * condition) hides the moments panel, the scoring explanation and the numbered markers.
  */
-export default function Replay({ data }: { data: CallOutput }) {
+export default function Replay({ data, baseline = false }: { data: CallOutput; baseline?: boolean }) {
   const offset = data.call.audio_offset_ms ?? 0;
   const start = useMemo(() => new Date(data.call.call_start).getTime() - offset, [data.call.call_start, offset]);
   const endMs = new Date(data.call_end).getTime() - start;
@@ -141,11 +142,11 @@ export default function Replay({ data }: { data: CallOutput }) {
           </span>
         )}
       </div>
-      <p className="text-xs text-neutral-600 tabular mb-1">
+      {!baseline && <p className="text-xs text-neutral-600 tabular mb-1">
         {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns → {data.n_claims} claims →{" "}
         {data.moments.length} moments
-      </p>
-      <details className="text-xs text-neutral-500 mb-3">
+      </p>}
+      {!baseline && <details className="text-xs text-neutral-500 mb-3">
         <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-neutral-700">
           How it&rsquo;s scored</summary>
         <ul className="mt-1 max-w-3xl text-neutral-600 space-y-0.5">
@@ -155,7 +156,7 @@ export default function Replay({ data }: { data: CallOutput }) {
           <li>Top 5, 1 per price event. &ldquo;Move began earlier&rdquo; means the price may have shaped the
             statement. Associations, not causes.</li>
         </ul>
-      </details>
+      </details>}
 
       {data.open_reaction ? (
         <section className="border border-neutral-200 rounded-lg p-3 mb-4 text-sm">
@@ -244,7 +245,9 @@ export default function Replay({ data }: { data: CallOutput }) {
             </ResponsiveContainer>
           </div>
           <div className="text-xs text-neutral-500 mt-1">
-            Grey band is the call, orange dots abnormal minutes, numbered dots moments with their 5-min window shaded.
+            {baseline ? "Grey band is the call." :
+              "Grey band is the call, orange dots abnormal minutes, " +
+                "numbered dots moments with their 5-min window shaded."}
             <span className="hidden lg:inline cursor-help ml-1 underline decoration-dotted"
               title={`j / k: next and previous moment. 1 to 5: jump to a rank. [ / ]: previous and next turn.${audioOk ?
                 " Space: play or pause." : ""}`}>?</span>
@@ -265,7 +268,7 @@ export default function Replay({ data }: { data: CallOutput }) {
       )}
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-        <section className="lg:col-span-2 border border-neutral-200 rounded-lg p-3">
+        {!baseline && <section className="lg:col-span-2 border border-neutral-200 rounded-lg p-3">
           <h2 className="text-sm font-medium mb-1">Moments, ranked</h2>
           {data.moments.length === 0 ? (
             <p className="text-sm text-neutral-500">
@@ -287,9 +290,9 @@ export default function Replay({ data }: { data: CallOutput }) {
               ))}
             </ol>
           )}
-        </section>
+        </section>}
 
-        <section className="lg:col-span-3 border border-neutral-200 rounded-lg p-3">
+        <section className={`${baseline ? "lg:col-span-5" : "lg:col-span-3"} border border-neutral-200 rounded-lg p-3`}>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2">
             <h2 id="transcript" className="text-sm font-medium">Transcript</h2>
             <input

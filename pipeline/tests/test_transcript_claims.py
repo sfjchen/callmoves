@@ -84,6 +84,28 @@ def test_speaker_heuristic_follows_call_shape():
     assert {c.quote[:10] for c in claims} == {"Revenue wa", "Net intere", "We expect "}
 
 
+def test_voices_fix_follow_ups_and_handoffs_the_call_shape_mislabels():
+    raw = [
+        {"t0_ms": 0, "t1_ms": 5000, "speaker": "", "text": "Welcome. I would now like to turn the call over to John."},
+        {"t0_ms": 5000, "t1_ms": 40000, "speaker": "", "text": "Thanks. Revenue was $20 billion this quarter."},
+        {"t0_ms": 40000, "t1_ms": 42000, "speaker": "", "text": "Let me turn the call over to Mary."},
+        {"t0_ms": 42000, "t1_ms": 80000, "speaker": "", "text": "Net interest income was $12 billion."},
+        {"t0_ms": 80000, "t1_ms": 84000, "speaker": "", "text": "Our first question will come from Jane of Firm."},
+        {"t0_ms": 84000, "t1_ms": 88000, "speaker": "", "text": "Can you talk about deposit costs?"},
+        {"t0_ms": 88000, "t1_ms": 95000, "speaker": "", "text": "Sure. We expect deposit costs to fall."},
+        {"t0_ms": 95000, "t1_ms": 99000, "speaker": "", "text": "And then a follow-up on expenses."},
+        {"t0_ms": 99000, "t1_ms": 104000, "speaker": "", "text": "Expenses will be flat."},
+    ]
+    voices = [{"t0_ms": a, "t1_ms": b, "cluster": c} for a, b, c in [
+        (0, 5000, "op"), (5000, 42000, "ceo"), (42000, 80000, "cfo"), (80000, 84000, "op"), (84000, 88000, "jane"),
+        (88000, 95000, "cfo"), (95000, 99000, "jane"), (99000, 104000, "ceo")]]
+    assert [s["speaker"] for s in label_speakers(raw)][2] == "Operator"       # the call-shape rules miss both
+    assert [s["speaker"] for s in label_speakers(raw)][7] == "Management"
+    assert [s["speaker"] for s in label_speakers(raw, voices)] == [
+        "Operator", "Management", "Management", "Management", "Operator", "Analyst", "Management", "Analyst",
+        "Management"]
+
+
 def test_release_table_millions_match_spoken_billions():
     assert _nums_match(_num_values("Revenue was $21.9 billion, up 2%."), _num_values("Total revenue $ 21,870 21,436"))
     assert not _nums_match(

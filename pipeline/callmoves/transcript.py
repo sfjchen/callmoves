@@ -1,12 +1,14 @@
 """Step 1 and 3: load a timestamped transcript and align it to wall-clock time.
 
 The input is call.json: segments with ms offsets and speaker labels. `transcribe()` makes the raw segments with
-faster-whisper on CPU (optional dependency), `label_speakers()` and `merge_turns()` turn them into speaker turns.
+faster-whisper on CPU (optional dependency), `diarize()` finds the voices with pyannote when a Hugging Face token is
+set, and `label_speakers()` and `merge_turns()` turn them into speaker turns.
 """
 from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from datetime import timedelta
 from pathlib import Path
 
@@ -61,6 +63,22 @@ def transcribe(audio_path: Path, model_size: str = "medium") -> list[dict]:
     ]
 
 
+DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"   # gated: accept its terms on Hugging Face once
+
+
+def diarize(audio_path: Path, token: str) -> list[dict]:
+    """Splits the audio into speaker turns with pyannote on CPU (optional dependency, pip install -e ".[diarize]").
+    Returns [{t0_ms, t1_ms, cluster}] from the exclusive output, which has no overlapping turns, so each
+    transcript segment maps to 1 voice."""
+    import torch
+    from pyannote.audio import Pipeline
+
+    pipe = Pipeline.from_pretrained(DIARIZATION_MODEL, token=token)
+    out = pipe({"waveform": torch.from_numpy(decode_audio(audio_path))[None], "sample_rate": 16000})
+    return [{"t0_ms": int(t.start * 1000), "t1_ms": int(t.end * 1000), "cluster": c}
+            for t, c in out.exclusive_speaker_diarization]
+
+
 # ---- speaker labels without diarization ----
 # An earnings call has a fixed shape: operator, prepared remarks by management, then Q&A where the operator
 # introduces each analyst. That is enough to tell management from everyone else, which is all the claim
@@ -75,11 +93,19 @@ _INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final ques
 _MAX_ANALYST_SEGMENTS = 8
 
 
-def label_speakers(segments: list[dict]) -> list[dict]:
+_PREPARED_MIN_MS = 30_000   # a voice with this much speech before Q&A is management
+
+
+def label_speakers(segments: list[dict], voices: list[dict] | None = None) -> list[dict]:
     """Assigns Operator, Management or Analyst to raw transcription segments.
 
     Prepared remarks are management. In Q&A the operator introduces each analyst, the analyst speaks until a
-    sentence ends in a question mark (or a few segments pass), then management answers until the next operator."""
+    sentence ends in a question mark (or a few segments pass), then management answers until the next operator.
+    With `voices` from `diarize()`, each segment takes the voice it overlaps most and roles go by voice instead: the
+    voice with the most operator phrases is the operator, a voice with 30 s or more before Q&A is management, and
+    any other voice is an analyst if its first Q&A segment follows the operator. That catches follow-up questions
+    without a question mark, which the call-shape rules give to management. Segments no voice overlaps keep the
+    call-shape label."""
     out, in_qa, analyst_left = [], False, 0
     for s in segments:
         text = s["text"].strip()
@@ -97,7 +123,27 @@ def label_speakers(segments: list[dict]) -> list[dict]:
         else:
             label = "Management"
         out.append({**s, "speaker": label})
-    return out
+    if not voices:
+        return out
+    for s in out:
+        overlap = Counter()
+        for v in voices:
+            overlap[v["cluster"]] += max(0, min(s["t1_ms"], v["t1_ms"]) - max(s["t0_ms"], v["t0_ms"]))
+        top = (+overlap).most_common(1)
+        s["voice"] = top[0][0] if top else None
+    op_hits = Counter(s["voice"] for s in out if s["speaker"] == "Operator" and s["voice"])
+    operator = op_hits.most_common(1)[0][0] if op_hits else None
+    qa_ms = next((s["t0_ms"] for s in out if s["speaker"] == "Operator" and _QA_START.search(s["text"])), None)
+    prepared = Counter()
+    for s in out:
+        if s["voice"] and (qa_ms is None or s["t0_ms"] < qa_ms):
+            prepared[s["voice"]] += s["t1_ms"] - s["t0_ms"]
+    role = {v: "Management" for v, ms in prepared.items() if ms >= _PREPARED_MIN_MS} | {operator: "Operator"}
+    for prev, s in zip([None, *out], out):
+        if s["voice"] not in role and qa_ms is not None and s["t0_ms"] >= qa_ms:
+            role[s["voice"]] = "Analyst" if prev and prev["voice"] == operator else "Management"
+    return [{k: x for k, x in s.items() if k != "voice"} |
+            ({"speaker": role.get(s["voice"], "Management")} if s["voice"] else {}) for s in out]
 
 
 def qa_start_ms(segments) -> int | None:

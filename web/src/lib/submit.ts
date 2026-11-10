@@ -34,10 +34,11 @@ export type SubmissionRow = {
 export type SubmitResult = { ok: true; id: string } | { ok: false; code: ErrorCode };
 
 /**
- * Counts submissions matching a PostgREST filter, from the Content-Range header of a HEAD request.
+ * Counts rows of a table (callmoves_submissions by default) matching a PostgREST filter, from the Content-Range
+ * header of a HEAD request.
  */
-async function count(filter: string): Promise<number> {
-  const res = await sb(`callmoves_submissions?select=id&${filter}`, SB_SERVICE!, { method: "HEAD" }, "count=exact");
+export async function count(filter: string, table = "callmoves_submissions"): Promise<number> {
+  const res = await sb(`${table}?select=id&${filter}`, SB_SERVICE!, { method: "HEAD" }, "count=exact");
   return Number(res.headers.get("content-range")?.split("/")[1] ?? 0);
 }
 
@@ -77,6 +78,13 @@ function invalid(s: Record<string, string>): ErrorCode | null {
 }
 
 /**
+ * Hashes a visitor's IP with the server salt, so rate limits work without storing the address.
+ */
+export function hashIp(ip: string): string {
+  return createHash("sha256").update(`${ip}|${process.env.SUBMIT_SALT ?? ""}`).digest("hex");
+}
+
+/**
  * Trims and normalizes the raw form or JSON fields, validates, rate-limits and queues 1 submission. `ip` comes from
  * the x-forwarded-for header Vercel sets.
  */
@@ -90,7 +98,7 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
   };
   const bad = invalid(s);
   if (bad) return { ok: false, code: bad };
-  const ipHash = createHash("sha256").update(`${ip}|${process.env.SUBMIT_SALT ?? ""}`).digest("hex");
+  const ipHash = hashIp(ip);
   const hourAgo = new Date(Date.now() - 3600e3).toISOString(), dayAgo = new Date(Date.now() - 86400e3).toISOString();
   if (await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`) >= PER_IP_HOUR) return { ok: false, code: "rate" };
   if (await count(`created_at=gt.${dayAgo}`) >= PER_DAY) return { ok: false, code: "full" };

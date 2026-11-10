@@ -56,3 +56,21 @@ begin
 end $$;
 revoke all on function public.callmoves_claim_submission() from public, anon, authenticated;
 grant execute on function public.callmoves_claim_submission() to service_role;
+
+-- Time-to-insight study trials (web /study): 1 row per timed trial, scored server-side against the gold minute (the
+-- largest |sector-adjusted 5-minute move| in the call window). No policies: only the service role reads or writes, so
+-- answers and ip_hash never reach the browser, and /study/results shows aggregates only.
+create table if not exists public.callmoves_study (
+  id uuid primary key default gen_random_uuid(),
+  created_at timestamptz not null default now(),
+  participant text not null,
+  call_id text not null,
+  condition text not null check (condition in ('callmoves', 'baseline')),
+  seconds real not null,
+  answer_clock text not null,
+  answer_quote text check (char_length(answer_quote) <= 400),
+  correct boolean not null,
+  ip_hash text not null
+);
+alter table public.callmoves_study enable row level security;
+create index if not exists callmoves_study_ip on public.callmoves_study (ip_hash, created_at);

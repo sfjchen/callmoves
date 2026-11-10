@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import math
+from datetime import timedelta
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
@@ -15,6 +17,10 @@ VOL_CAP = 10.0   # a single block print without a price move should not dominate
 CONSENSUS_GAP = 0.01   # a figure this far from consensus moves the stock even when the release printed it first
 KIND_WEIGHT = {"guidance": 1.0, "result": 0.8, "qualitative": 0.5}   # numbers are checkable, tone is not
 QUESTION_CHARS = 400   # analyst questions shown on a card are cut to this length
+OPEN_MIN = 9 * 60 + 30   # 9:30 ET, the regular-session open
+OPEN_SETTLE_MIN = 5      # the opening auction prices everything since the prior close, so these minutes are not
+                         # tied to 1 statement
+ET = ZoneInfo("America/New_York")
 
 
 def timing_weight(minutes_to_flag: float) -> float:
@@ -53,9 +59,12 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
                  reaction: dict | None = None) -> list[Moment]:
     """Top claims, at most 1 per price event: a claim belongs to the event of the first flag in its 5-minute
     window, and the best-scoring claim wins it. A claim spoken after its event's first flagged minute is marked
-    pre_move, since prices may have moved first and shaped what was said. Claims with no flag ahead (and all
-    claims under an open reaction, which share 1 move) dedupe by minute instead. A Q&A moment carries the latest
-    analyst question before it, since the market may be reacting to the exchange, not the answer alone."""
+    pre_move, since prices may have moved first and shaped what was said. Claims with no flag ahead keep 1 per
+    5-minute window, since overlapping windows measure the same move, and claims under an open reaction (which all
+    share 1 move) dedupe by minute. Claims whose 5-minute window
+    touches the first OPEN_SETTLE_MIN minutes of the regular session are skipped: a 9:30 call's opening remarks
+    would otherwise win on the opening auction's move. A Q&A moment carries the latest analyst question before it,
+    since the market may be reacting to the exchange, not the answer alone."""
     seg_by_id = {s.seg_id: s for s in segments}
     qa_ms = qa_start_ms(segments)
     ev = flag_events(bars) if not reaction else None
@@ -67,11 +76,18 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
     moments = []
     seen: set = set()
     for score, c, w, dist in scored:
+        et = c.ts.astimezone(ET)
+        if not reaction and OPEN_MIN - 5 <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN:
+            continue
         minute = c.ts.replace(second=0, microsecond=0)
         key, pre_move = ("minute", minute), False
         if ev is not None and not math.isinf(dist):
             hit = ev[ev["ts"] >= c.ts].iloc[0]
             key, pre_move = ("event", int(hit["event"])), bool(hit["start"] < minute)
+        elif not reaction:
+            key = ("window", c.ts)
+            if any(k[0] == "window" and abs(c.ts - k[1]) < timedelta(minutes=5) for k in seen):
+                continue
         if key in seen:
             continue
         seen.add(key)

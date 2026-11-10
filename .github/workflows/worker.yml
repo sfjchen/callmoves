@@ -1,5 +1,6 @@
-# Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription on the runner's CPU (faster-whisper medium,
-# about 1 hour per hour of audio on the runner), then bars, claims, scoring, and publishing to Supabase.
+# Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription on the
+# runner's CPU (faster-whisper medium, GS Q3-2026 took 25 minutes end to end), speaker diarization when HF_TOKEN
+# has access to the gated pyannote model, then bars, claims, scoring, and publishing to Supabase.
 # See pipeline/callmoves/worker.py.
 name: worker
 on:
@@ -47,13 +48,18 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
       ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip, cache-dependency-path: pipeline/pyproject.toml }
       - uses: actions/cache@v4
-        with: { path: ~/.cache/huggingface, key: whisper-medium }
-      - run: sudo apt-get install -y -q ffmpeg && pip install -e ".[asr]"
+        with: { path: ~/.cache/huggingface, key: whisper-medium-pyannote }
+      # CPU-only torch first, so pyannote does not pull the 2 GB CUDA build
+      - run: |
+          sudo apt-get install -y -q ffmpeg
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -e ".[asr,diarize]"
       - run: python -m callmoves.worker
         env: { CALLMOVES_WORK: "${{ runner.temp }}/work" }
       - if: always()

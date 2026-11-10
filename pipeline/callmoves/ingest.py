@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -19,7 +20,7 @@ from dotenv import load_dotenv
 from .audio import transcode, upload
 from .docs import load_doc
 from .market import bars_for_call
-from .transcript import label_speakers, merge_turns, transcribe
+from .transcript import diarize, label_speakers, merge_turns, transcribe
 
 
 def main(argv=None):
@@ -56,16 +57,24 @@ def main(argv=None):
 
     call_json = out / "call.json"
     raw_json = out / "whisper_segments.json"   # kept so speaker labels can be redone without re-transcribing
+    voices_json = out / "diarization.json"     # pyannote voices, reused the same way
     if args.audio:
         print(f"transcribing {args.audio} with faster-whisper {args.model} ...", flush=True)
         raw = transcribe(args.audio, model_size=args.model)
         raw_json.write_text(json.dumps(raw))
+        if os.environ.get("HF_TOKEN"):
+            print("finding voices with pyannote ...", flush=True)
+            try:
+                voices_json.write_text(json.dumps(diarize(args.audio, os.environ["HF_TOKEN"])))
+            except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
+                print(f"  diarization failed, labeling by call shape: {type(e).__name__}: {str(e)[:200]}")
     elif raw_json.exists():
         raw = json.loads(raw_json.read_text())
     else:
         raw = None
     if raw is not None:
-        segments = merge_turns(label_speakers(raw))
+        voices = json.loads(voices_json.read_text()) if voices_json.exists() else None
+        segments = merge_turns(label_speakers(raw, voices))
         # a relabel run without --audio-url keeps the uploaded URL
         if not args.audio_url and call_json.exists():
             args.audio_url = json.loads(call_json.read_text()).get("audio_url")
