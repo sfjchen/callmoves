@@ -1,4 +1,4 @@
-# Processes calls submitted on the website, 1 per run: transcription on the runner's CPU (faster-whisper medium,
+# Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription on the runner's CPU (faster-whisper medium,
 # about 1 hour per hour of audio on the runner), then bars, claims, scoring, and publishing to Supabase.
 # See pipeline/callmoves/worker.py.
 name: worker
@@ -15,7 +15,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     outputs:
-      queued: ${{ steps.queue.outputs.queued }}
+      slots: ${{ steps.queue.outputs.slots }}
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
@@ -27,12 +27,17 @@ jobs:
             -H "apikey: $SUPABASE_SERVICE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_KEY" \
             -H "Prefer: count=exact" \
             | tr -d '\r' | awk -F/ 'tolower($0) ~ /^content-range/ {print $2}')
-          echo "queued=${n:-0}" >> "$GITHUB_OUTPUT"
-          echo "queued: ${n:-0}"
+          n=${n:-0}
+          echo "slots=$(python3 -c "print(list(range(min($n, 4))))")" >> "$GITHUB_OUTPUT"
+          echo "queued: $n"
 
   process:
     needs: check
-    if: needs.check.outputs.queued != '0'
+    if: needs.check.outputs.slots != '[]'
+    strategy:
+      fail-fast: false
+      matrix:
+        slot: ${{ fromJSON(needs.check.outputs.slots) }}
     runs-on: ubuntu-latest
     timeout-minutes: 350
     defaults: { run: { working-directory: pipeline } }
@@ -53,4 +58,8 @@ jobs:
         env: { CALLMOVES_WORK: "${{ runner.temp }}/work" }
       - if: always()
         uses: actions/upload-artifact@v4
-        with: { name: call-folder, path: "${{ runner.temp }}/work/data", retention-days: 30, if-no-files-found: ignore }
+        with:
+          name: call-folder-${{ matrix.slot }}
+          path: ${{ runner.temp }}/work/data
+          retention-days: 30
+          if-no-files-found: ignore
