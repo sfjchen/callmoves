@@ -242,7 +242,8 @@ export default function Replay({ data }: { data: CallOutput }) {
 // reported-quarter consensus under the header, colored by beat or miss, captioned with when the consensus was current
 function ConsensusStrip({ estimates }: { estimates: Estimate[] }) {
   if (estimates.length === 0) return null;
-  const money = (e: Estimate, x: number) => (e.metric === "eps" ? `$${x.toFixed(2)}` : `$${(x / 1e9).toFixed(1)}B`);
+  const money = (e: Estimate, x: number) => (e.metric === "eps" ? `$${x.toFixed(2)}` :
+      x >= 1e9 ? `$${(x / 1e9).toFixed(1)}B` : `$${(x / 1e6).toFixed(0)}M`);
   const day = (s: string) => new Date(s).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
   return (
     <div className="flex flex-wrap gap-x-2 text-xs text-neutral-600 tabular mb-1">
