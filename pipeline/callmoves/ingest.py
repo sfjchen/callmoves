@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 from .audio import transcode, upload
 from .docs import load_doc
 from .market import bars_for_call
-from .transcript import diarize, label_speakers, merge_turns, transcribe
+from .transcript import call_start_ms, diarize, label_speakers, merge_turns, transcribe
 
 _MODAL_TIMEOUT_S = 1200   # past this the GPU never started (Modal queues GPU work without a payment method)
 
@@ -42,16 +42,15 @@ def main(argv=None):
                     help="with --audio: transcode to <out>/<TICKER>_<quarter>.mp3, upload it to Supabase Storage, "
                          "use its URL")
     ap.add_argument("--model", default="medium", help="faster-whisper model size")
-    ap.add_argument("--audio-offset", type=float, default=0.0,
+    ap.add_argument("--audio-offset", type=float,
                     help="seconds into the audio where the call starts: positive for lead-in music, "
-                         "negative if the recording started late")
+                         "negative if the recording started late. Default: the operator's opening line")
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args(argv)
 
     out = args.out
     out.mkdir(parents=True, exist_ok=True)
     call_start = datetime.fromisoformat(args.call_start)
-    offset_ms = round(args.audio_offset * 1000)
     if args.upload and args.audio:
         name = f"{args.ticker}_{args.quarter}.mp3"
         args.audio_url = upload(transcode(args.audio, out / name), name)
@@ -97,6 +96,7 @@ def main(argv=None):
     if raw is not None:
         voices = json.loads(voices_json.read_text()) if voices_json.exists() else None
         segments = merge_turns(label_speakers(raw, voices))
+        offset_ms = call_start_ms(raw) if args.audio_offset is None else round(args.audio_offset * 1000)
         # a relabel run without --audio-url keeps the uploaded URL
         if not args.audio_url and call_json.exists():
             args.audio_url = json.loads(call_json.read_text()).get("audio_url")
@@ -106,9 +106,8 @@ def main(argv=None):
         }, indent=1))
         print(f"  {len(raw)} whisper segments -> {len(segments)} turns, "
               f"{sum(s['speaker'] == 'Management' for s in segments)} management")
-        print(f"  first speech at {raw[0]['t0_ms'] / 1000:.1f} s into the audio, "
-              f"call start taken at {args.audio_offset:.1f} s "
-              f"(set --audio-offset to the lead-in if the call does not start at t=0)")
+        print(f"  first speech at {raw[0]['t0_ms'] / 1000:.1f} s into the audio, call start taken at "
+              f"{offset_ms / 1000:.1f} s ({'--audio-offset' if args.audio_offset is not None else 'opening line'})")
     elif not call_json.exists():
         ap.error("--audio is required when there is no call.json or whisper_segments.json yet")
 

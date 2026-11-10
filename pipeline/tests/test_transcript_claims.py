@@ -5,7 +5,7 @@ from conftest import T0, meta
 from callmoves.claims import extract_claims_rules
 from callmoves.models import Claim, Part, Segment
 from callmoves.novelty import _num_values, _nums_match, judge_novelty_rules
-from callmoves.transcript import align, label_speakers, merge_turns
+from callmoves.transcript import align, call_start_ms, label_speakers, merge_turns
 
 
 def seg(i, t0, speaker, text):
@@ -157,3 +157,14 @@ def test_llm_not_novel_verdict_needs_its_evidence_in_the_named_document(monkeypa
     out = novelty.judge_novelty_llm(claims, release, "")
     assert out[0].novel is True    # invented evidence: the rules decide, and $55 billion is nowhere in the release
     assert out[1].novel is False and out[1].matched_doc == "release"   # whitespace differences still match
+
+
+def test_call_start_skips_lead_in_and_hold_message():
+    """The call starts at the operator's opening line, not at hold music or a hold message before it."""
+    seg = lambda t0, text: {"t0_ms": t0, "t1_ms": t0 + 4000, "text": text}
+    lead_in = [seg(0, "Thank you for standing by. Your conference will begin shortly."),
+               seg(95_000, "Good morning and welcome to the Acme third quarter call."),
+               seg(101_000, "This call is being recorded.")]
+    assert call_start_ms(lead_in) == 95_000
+    assert call_start_ms([seg(0, "Welcome, everyone."), seg(5000, "Thank you.")]) == 0
+    assert call_start_ms([seg(1000, "Revenue rose 5%."), seg(700_000, "Welcome back.")]) == 0

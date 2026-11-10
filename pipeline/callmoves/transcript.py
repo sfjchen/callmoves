@@ -158,6 +158,22 @@ def qa_start_ms(segments) -> int | None:
     return next((s.t0_ms for s in segments if s.speaker == "Operator" and _QA_START.search(s.text)), None)
 
 
+# The operator's opening line marks the call start. Hold messages before it ("will begin shortly") do not.
+_OPENING = re.compile(r"\b(welcome|being recorded|thank you for standing by|good (morning|afternoon|evening|day)|"
+                      r"hello|greetings)\b", re.IGNORECASE)
+_HOLD = re.compile(r"\b(shortly|momentarily|will (now )?begin|continue to hold|please (stand by|hold))\b", re.IGNORECASE)
+_OPENING_MAX_MS = 600_000
+
+
+def call_start_ms(segments: list[dict]) -> int:
+    """Audio offset of the call start: the first operator opening line in the first 10 minutes, else 0.
+
+    Recordings with lead-in music or a hold message start the call later than t=0. All 20 Quartr recordings in
+    data/ open on this line within 0.1 s."""
+    return next((s["t0_ms"] for s in segments if s["t0_ms"] < _OPENING_MAX_MS and _OPENING.search(s["text"])
+                 and not _HOLD.search(s["text"])), 0)
+
+
 def merge_turns(segments: list[dict], max_ms: int = 45_000) -> list[dict]:
     """Joins consecutive same-speaker segments into turns of at most max_ms, for a readable transcript."""
     turns: list[dict] = []
