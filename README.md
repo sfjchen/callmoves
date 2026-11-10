@@ -45,6 +45,6 @@ Precision at 3 and 5 against hand-labeled move times:
 .venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>
 ```
 
-Placebo check without labels: the real statement timing against the same claims shifted 15 to 60 minutes (`.venv/bin/python -m callmoves.eval data/*/ --placebo`). A call with no timing signal does not beat the shifts, and over several calls a sign test asks whether the real timing beats the median shift more often than half the time. News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4. Over the 20 real calls at f68cd7c, the real timing beats the median shift in 16 (sign test p = 0.006).
+Placebo check without labels: the real statement timing against the same claims shifted 15 to 60 minutes (`.venv/bin/python -m callmoves.eval data/*/ --placebo`). A call with no timing signal does not beat the shifts, and over several calls a sign test asks whether the real timing beats the median shift more often than half the time. News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4. Over the 20 real calls at 0275ab4, with speaker diarization, the real timing beats the median shift in 15 (sign test p = 0.021).
 
 The time-to-insight study (`/study`, 2 timed trials, replay with and without moments) is live, but no testers took it, so that metric is not measured.
