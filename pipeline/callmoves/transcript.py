@@ -49,13 +49,14 @@ def decode_audio(audio_path: Path, rate: int = 16000):
     return np.concatenate(chunks).astype(np.float32) / 32768.0
 
 
-def transcribe(audio_path: Path, model_size: str = "medium") -> list[dict]:
-    """Transcribes audio on CPU with faster-whisper and returns segments with ms offsets and empty speakers."""
+def transcribe(audio_path: Path, model_size: str = "medium", device: str = "cpu") -> list[dict]:
+    """Transcribes audio with faster-whisper (int8 on CPU, float16 on a GPU) and returns segments with ms offsets
+    and empty speakers."""
     from faster_whisper import (
         WhisperModel,  # optional dependency, pip install -e ".[asr]"
     )
 
-    model = WhisperModel(model_size, device="cpu", compute_type="int8")
+    model = WhisperModel(model_size, device=device, compute_type="int8" if device == "cpu" else "float16")
     segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1)
     return [
         {"t0_ms": int(s.start * 1000), "t1_ms": int(s.end * 1000), "speaker": "", "text": s.text.strip()}
@@ -66,14 +67,14 @@ def transcribe(audio_path: Path, model_size: str = "medium") -> list[dict]:
 DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"   # gated: accept its terms on Hugging Face once
 
 
-def diarize(audio_path: Path, token: str) -> list[dict]:
-    """Splits the audio into speaker turns with pyannote on CPU (optional dependency, pip install -e ".[diarize]").
+def diarize(audio_path: Path, token: str, device: str = "cpu") -> list[dict]:
+    """Splits the audio into speaker turns with pyannote (optional dependency, pip install -e ".[diarize]").
     Returns [{t0_ms, t1_ms, cluster}] from the exclusive output, which has no overlapping turns, so each
     transcript segment maps to 1 voice."""
     import torch
     from pyannote.audio import Pipeline
 
-    pipe = Pipeline.from_pretrained(DIARIZATION_MODEL, token=token)
+    pipe = Pipeline.from_pretrained(DIARIZATION_MODEL, token=token).to(torch.device(device))
     out = pipe({"waveform": torch.from_numpy(decode_audio(audio_path))[None], "sample_rate": 16000})
     return [{"t0_ms": int(t.start * 1000), "t1_ms": int(t.end * 1000), "cluster": c}
             for t, c in out.exclusive_speaker_diarization]

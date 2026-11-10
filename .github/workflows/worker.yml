@@ -1,6 +1,6 @@
-# Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription on the
-# runner's CPU (faster-whisper medium, GS Q3-2026 took 25 minutes end to end), speaker diarization when HF_TOKEN
-# has access to the gated pyannote model, then bars, claims, scoring, and publishing to Supabase.
+# Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription and
+# speaker diarization on a Modal GPU when MODAL_TOKEN_ID is set (pipeline/callmoves/gpu.py), else or when that
+# fails on the runner's CPU (faster-whisper medium, GS Q3-2026 took 25 minutes end to end), then bars, claims, scoring, and publishing.
 # See pipeline/callmoves/worker.py.
 name: worker
 on:
@@ -49,6 +49,8 @@ jobs:
       POLYGON_API_KEY: ${{ secrets.POLYGON_API_KEY }}
       ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}           # set: transcription and diarization on a Modal GPU
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
       SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}   # SEC EDGAR refuses requests without a contact
     steps:
       - uses: actions/checkout@v4
@@ -56,11 +58,12 @@ jobs:
         with: { python-version: "3.12", cache: pip, cache-dependency-path: pipeline/pyproject.toml }
       - uses: actions/cache@v4
         with: { path: ~/.cache/huggingface, key: whisper-medium-pyannote }
-      # CPU-only torch first, so pyannote does not pull the 2 GB CUDA build
+      # CPU-only torch first, so pyannote does not pull the 2 GB CUDA build. The CPU path stays installed as the
+      # fallback when the Modal call fails
       - run: |
           sudo apt-get install -y -q ffmpeg
           pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -e ".[asr,diarize]"
+          pip install -e ".[asr,diarize,gpu]"
       - run: python -m callmoves.worker
         env: { CALLMOVES_WORK: "${{ runner.temp }}/work" }
       - if: always()

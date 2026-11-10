@@ -22,6 +22,8 @@ from .docs import load_doc
 from .market import bars_for_call
 from .transcript import diarize, label_speakers, merge_turns, transcribe
 
+_MODAL_TIMEOUT_S = 1200   # past this the GPU never started (Modal queues GPU work without a payment method)
+
 
 def main(argv=None):
     """Builds a call folder in --out from audio, release and prior documents, and Massive bars."""
@@ -59,15 +61,35 @@ def main(argv=None):
     raw_json = out / "whisper_segments.json"   # kept so speaker labels can be redone without re-transcribing
     voices_json = out / "diarization.json"     # pyannote voices, reused the same way
     if args.audio:
-        print(f"transcribing {args.audio} with faster-whisper {args.model} ...", flush=True)
-        raw = transcribe(args.audio, model_size=args.model)
-        raw_json.write_text(json.dumps(raw))
-        if os.environ.get("HF_TOKEN"):
-            print("finding voices with pyannote ...", flush=True)
+        mp3 = out / f"{args.ticker}_{args.quarter}.mp3"   # the transcoded upload is 5x smaller to send to the GPU
+        raw = None
+        if os.environ.get("MODAL_TOKEN_ID"):
+            import modal  # optional dependency, pip install -e ".[gpu]"
+
+            from .gpu import APP
+
+            print(f"transcribing and diarizing {args.audio} on a Modal GPU ...", flush=True)
+            call = modal.Function.from_name(APP, "transcribe_and_diarize").spawn(
+                    (mp3 if mp3.exists() else args.audio).read_bytes())
             try:
-                voices_json.write_text(json.dumps(diarize(args.audio, os.environ["HF_TOKEN"])))
-            except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
-                print(f"  diarization failed, labeling by call shape: {type(e).__name__}: {str(e)[:200]}")
+                raw, voices, err = call.get(timeout=_MODAL_TIMEOUT_S)
+            except Exception as e:  # noqa: BLE001 - no GPU scheduled (no payment method) or a remote failure
+                call.cancel()
+                print(f"  Modal failed, falling back to the CPU: {type(e).__name__}: {str(e)[:200]}", flush=True)
+        if raw is None:
+            print(f"transcribing {args.audio} with faster-whisper {args.model} ...", flush=True)
+            raw, voices, err = transcribe(args.audio, model_size=args.model), None, "HF_TOKEN is not set"
+            if os.environ.get("HF_TOKEN"):
+                print("finding voices with pyannote ...", flush=True)
+                try:
+                    voices = diarize(args.audio, os.environ["HF_TOKEN"])
+                except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
+                    err = f"{type(e).__name__}: {str(e)[:200]}"
+        raw_json.write_text(json.dumps(raw))
+        if voices:
+            voices_json.write_text(json.dumps(voices))
+        else:
+            print(f"  no voices, labeling by call shape: {err}")
     elif raw_json.exists():
         raw = json.loads(raw_json.read_text())
     else:
