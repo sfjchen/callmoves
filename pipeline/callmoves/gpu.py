@@ -1,6 +1,7 @@
 """Transcription and speaker diarization on a Modal GPU (https://modal.com), the fast path for ingest, with
-whisper large-v3 instead of the CPU's medium. GPUs need a payment method on the Modal account, else calls queue and
-ingest falls back to the CPU after a timeout.
+whisper large-v3 instead of the CPU's medium. GPUs need a payment method on the Modal account. L4 capacity can run
+out for hours (2026-11-10: none in 9 minutes while A10 and T4 started in under 20 s), so the function falls back
+to those in order, and ingest falls back to the CPU after a timeout.
 
     modal deploy -m callmoves.gpu      # once, and again after changing this file or transcript.py
 
@@ -23,7 +24,7 @@ image = (
 )
 
 
-@app.function(gpu="L4", image=image, volumes={"/cache": cache}, timeout=1800, memory=16384,
+@app.function(gpu=["L4", "A10", "T4"], image=image, volumes={"/cache": cache}, timeout=1800, memory=16384,
               secrets=[modal.Secret.from_name("callmoves-hf")])
 def transcribe_and_diarize(audio: bytes, model_size: str = "large-v3") -> tuple[list[dict], list[dict] | None, str]:
     """Transcribes and diarizes 1 call's audio (any format PyAV reads) and returns (segments, voices, error).
