@@ -6,15 +6,17 @@ A label is a wall-clock time a person says moved the stock. A moment is a hit wh
 label, the spec's success metric (3 of the top 5 within 2 minutes of a labeled move). Several moments may land on
 the same label and each counts, so the harness also lists the labels no moment reached.
 
-    python -m callmoves.eval data/wfc_q3_2026 --placebo
+    python -m callmoves.eval data/*/ --placebo
 
 The placebo needs no labels: it asks whether statements line up with price moves better than the same statements
-moved 15 to 60 minutes away do.
+moved 15 to 60 minutes away do. Over several calls it adds a sign test: under no timing signal, the real score beats
+the median shift in half the calls.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import math
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -80,21 +82,29 @@ def main(argv=None):
     no moment reached. A call folder runs the pipeline, a JSON written by callmoves.run is read as is."""
     load_dotenv()
     ap = argparse.ArgumentParser()
-    ap.add_argument("call", type=Path, help="call folder (runs the pipeline) or a JSON written by callmoves.run")
+    ap.add_argument("calls", type=Path, nargs="+",
+                    help="call folder (runs the pipeline) or a JSON written by callmoves.run, several for --placebo")
     ap.add_argument("--labels", type=Path, help="JSON list of {ts, note}, ts ISO with offset")
     ap.add_argument("--placebo", action="store_true", help="compare against claims shifted in time, no labels")
     args = ap.parse_args(argv)
     if args.placebo:
-        real, fake = placebo(args.call)
-        p = (1 + sum(f >= real for f in fake)) / (1 + len(fake))
-        print(f"top-3 score real {real:.4f}, shifted median {sorted(fake)[len(fake) // 2]:.4f}, "
-              f"beaten by {sum(f >= real for f in fake)}/{len(fake)} shifts, p = {p:.2f}")
+        wins = 0
+        for call in args.calls:
+            real, fake = placebo(call)
+            p, med = (1 + sum(f >= real for f in fake)) / (1 + len(fake)), sorted(fake)[len(fake) // 2]
+            wins += real > med
+            print(f"{call.name}: top-3 score real {real:.4f}, shifted median {med:.4f}, "
+                  f"beaten by {sum(f >= real for f in fake)}/{len(fake)} shifts, p = {p:.2f}")
+        n = len(args.calls)
+        if n > 1:
+            sign_p = sum(math.comb(n, i) for i in range(wins, n + 1)) / 2 ** n
+            print(f"real beats the shifted median in {wins}/{n} calls, 1-sided sign test p = {sign_p:.3f}")
         return
     if not args.labels:
         ap.error("--labels or --placebo is required")
     labels = [Label(**l) for l in json.loads(args.labels.read_text())]
-    moments = run(args.call).moments if args.call.is_dir() else \
-        CallOutput.model_validate_json(args.call.read_text()).moments
+    call = args.calls[0]
+    moments = run(call).moments if call.is_dir() else CallOutput.model_validate_json(call.read_text()).moments
     ev = evaluate(moments, labels)
     for m, h in zip(moments, ev.hits):
         tag = f"hit {labels[h].ts:%H:%M}" if h is not None else "miss"

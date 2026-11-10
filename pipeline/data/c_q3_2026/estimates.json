@@ -1,0 +1,77 @@
+{
+ "key": "C|2026-10-13|alphavantage",
+ "estimates": [
+  {
+   "period": "Q3 FY2026",
+   "period_end": "2026-09-30",
+   "role": "reported",
+   "metric": "eps",
+   "consensus": 2.66,
+   "actual": 2.85,
+   "surprise_pct": 0.07142857142857141,
+   "as_of": "2026-10-13",
+   "basis": "at_report",
+   "source": "alphavantage"
+  },
+  {
+   "period": "Q3 FY2026",
+   "period_end": "2026-09-30",
+   "role": "reported",
+   "metric": "revenue",
+   "consensus": 23719318370.0,
+   "actual": 23839000000.0,
+   "surprise_pct": 0.005045744912778453,
+   "as_of": "2026-11-10",
+   "basis": "after_call",
+   "source": "alphavantage"
+  },
+  {
+   "period": "Q4 FY2026",
+   "period_end": "2026-12-31",
+   "role": "next_quarter",
+   "metric": "eps",
+   "consensus": 2.3056,
+   "actual": null,
+   "surprise_pct": null,
+   "as_of": "2026-10-11",
+   "basis": "before_call",
+   "source": "alphavantage"
+  },
+  {
+   "period": "Q4 FY2026",
+   "period_end": "2026-12-31",
+   "role": "next_quarter",
+   "metric": "revenue",
+   "consensus": 22894177610.0,
+   "actual": null,
+   "surprise_pct": null,
+   "as_of": "2026-11-10",
+   "basis": "after_call",
+   "source": "alphavantage"
+  },
+  {
+   "period": "FY2026",
+   "period_end": "2026-12-31",
+   "role": "full_year",
+   "metric": "eps",
+   "consensus": 11.1611,
+   "actual": null,
+   "surprise_pct": null,
+   "as_of": "2026-10-11",
+   "basis": "before_call",
+   "source": "alphavantage"
+  },
+  {
+   "period": "FY2026",
+   "period_end": "2026-12-31",
+   "role": "full_year",
+   "metric": "revenue",
+   "consensus": 95982005400.0,
+   "actual": null,
+   "surprise_pct": null,
+   "as_of": "2026-11-10",
+   "basis": "after_call",
+   "source": "alphavantage"
+  }
+ ]
+}

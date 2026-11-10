@@ -30,8 +30,10 @@ UA = "CallMoves worker (github.com/sfjchen/callmoves)"
 
 def download(url: str, dst: Path, max_mb: int) -> Path:
     """Streams url to dst with a size cap and returns the path. A document's suffix comes from its content type,
-    since docs.load_doc picks the parser by suffix and IR links often have none."""
-    with httpx.stream("GET", url, follow_redirects=True, timeout=120, headers={"User-Agent": UA}) as r:
+    since docs.load_doc picks the parser by suffix and IR links often have none. SEC EDGAR refuses requests without
+    a contact User-Agent, so sec.gov gets SEC_USER_AGENT."""
+    sec = httpx.URL(url).host.endswith("sec.gov") and os.environ.get("SEC_USER_AGENT")
+    with httpx.stream("GET", url, follow_redirects=True, timeout=120, headers={"User-Agent": sec or UA}) as r:
         r.raise_for_status()
         ctype = r.headers.get("content-type", "").split(";")[0].strip()
         if ctype in DOC_SUFFIX:
@@ -51,15 +53,16 @@ def process(sub: dict, root: Path) -> str:
     call_id = f"{sub['ticker']}_{sub['quarter']}"
     raw, out = root / "raw" / call_id, root / "data" / call_id
     raw.mkdir(parents=True, exist_ok=True)
+    release = download(sub["release_url"], raw / "release.html", MAX_DOC_MB)   # documents first: they fail fast
+    prior = download(sub["prior_url"], raw / "prior.html", MAX_DOC_MB) if sub.get("prior_url") else None
     audio = download(sub["audio_url"], raw / "call.audio", MAX_AUDIO_MB)
-    release = download(sub["release_url"], raw / "release.html", MAX_DOC_MB)
     args = ["--ticker", sub["ticker"], "--quarter", sub["quarter"], "--etf", sub["etf"],
             "--call-start", datetime.fromisoformat(sub["call_start"]).astimezone(ET).isoformat(), "--audio", str(audio),
             "--release", str(release), "--upload", "--out", str(out)]
     if sub.get("company"):
         args += ["--company", sub["company"]]
-    if sub.get("prior_url"):
-        args += ["--prior", str(download(sub["prior_url"], raw / "prior.html", MAX_DOC_MB))]
+    if prior:
+        args += ["--prior", str(prior)]
     ingest.main(args)
     return publish(run(out))
 
