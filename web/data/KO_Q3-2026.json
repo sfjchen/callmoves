@@ -13,9 +13,9 @@
   {
    "seg_id": 0,
    "t0_ms": 0,
-   "t1_ms": 6960,
-   "speaker": "Management",
-   "text": "Hello, everyone. Thank you for joining us and welcome to Coca-Cola Company's third quarter 2026 earnings results conference call.",
+   "t1_ms": 26000,
+   "speaker": "Operator",
+   "text": "Hello, everyone. Thank you for joining us and welcome to Coca-Cola Company's third quarter 2026 earnings results conference call. After today's prepared remarks, we will host a question and answer session. If you would like to ask a question, please press star one to raise your hand. To withdraw your question, press star one again. I will now hand the conference over to Todd Beiger, Vice President and Head of Investor Relations. Mr. Beiger, please go ahead.",
    "parts": [
     {
      "t0_ms": 0,
@@ -24,18 +24,7 @@
     {
      "t0_ms": 4000,
      "text": "third quarter 2026 earnings results conference call."
-    }
-   ],
-   "ts": "2026-10-27T08:30:00-04:00",
-   "adj_ret_5m": -0.0061281186855584036
-  },
-  {
-   "seg_id": 1,
-   "t0_ms": 7840,
-   "t1_ms": 18400,
-   "speaker": "Operator",
-   "text": "After today's prepared remarks, we will host a question and answer session. If you would like to ask a question, please press star one to raise your hand. To withdraw your question, press star one again.",
-   "parts": [
+    },
     {
      "t0_ms": 7840,
      "text": "After today's prepared remarks, we will host a question and answer session."
@@ -47,43 +36,21 @@
     {
      "t0_ms": 16239,
      "text": "To withdraw your question, press star one again."
-    }
-   ],
-   "ts": "2026-10-27T08:30:07.840000-04:00",
-   "adj_ret_5m": -0.002911751026998699
-  },
-  {
-   "seg_id": 2,
-   "t0_ms": 19280,
-   "t1_ms": 22000,
-   "speaker": "Management",
-   "text": "I will now hand the conference over to Todd Beiger,",
-   "parts": [
+    },
     {
      "t0_ms": 19280,
      "text": "I will now hand the conference over to Todd Beiger,"
-    }
-   ],
-   "ts": "2026-10-27T08:30:19.280000-04:00",
-   "adj_ret_5m": -0.002911751026998699
-  },
-  {
-   "seg_id": 3,
-   "t0_ms": 22000,
-   "t1_ms": 26000,
-   "speaker": "Operator",
-   "text": "Vice President and Head of Investor Relations. Mr. Beiger, please go ahead.",
-   "parts": [
+    },
     {
      "t0_ms": 22000,
      "text": "Vice President and Head of Investor Relations. Mr. Beiger, please go ahead."
     }
    ],
-   "ts": "2026-10-27T08:30:22-04:00",
-   "adj_ret_5m": -0.002911751026998699
+   "ts": "2026-10-27T08:30:00-04:00",
+   "adj_ret_5m": -0.0061281186855584036
   },
   {
-   "seg_id": 4,
+   "seg_id": 1,
    "t0_ms": 26960,
    "t1_ms": 67840,
    "speaker": "Management",
@@ -130,11 +97,11 @@
    "adj_ret_5m": -0.002911751026998699
   },
   {
-   "seg_id": 5,
+   "seg_id": 2,
    "t0_ms": 67840,
-   "t1_ms": 78000,
+   "t1_ms": 109840,
    "speaker": "Management",
-   "text": "periodic SEC reports. Following prepared remarks, we will take your questions. Please limit yourself to one question. Re-enter the queue to ask follow-ups.",
+   "text": "periodic SEC reports. Following prepared remarks, we will take your questions. Please limit yourself to one question. Re-enter the queue to ask follow-ups. Now, I will turn the call over to Henrique. Henrique Braun, Chief Executive Officer, Co-Occola System Thanks Todd, and good morning everyone. Our third quarter results reinforce the continued strength of the Co-Cola system. We are acting with speed and discipline, enabling us to deliver strong results in an uneven environment. I want to start by thanking all our associates and bottling partners around the world. Every day, they serve customers, support communities,",
    "parts": [
     {
      "t0_ms": 67840,
@@ -143,33 +110,11 @@
     {
      "t0_ms": 73440,
      "text": "Please limit yourself to one question. Re-enter the queue to ask follow-ups."
-    }
-   ],
-   "ts": "2026-10-27T08:31:07.840000-04:00",
-   "adj_ret_5m": -0.008369824410447757
-  },
-  {
-   "seg_id": 6,
-   "t0_ms": 78000,
-   "t1_ms": 80080,
-   "speaker": "Operator",
-   "text": "Now, I will turn the call over to Henrique.",
-   "parts": [
+    },
     {
      "t0_ms": 78000,
      "text": "Now, I will turn the call over to Henrique."
-    }
-   ],
-   "ts": "2026-10-27T08:31:18-04:00",
-   "adj_ret_5m": -0.008369824410447757
-  },
-  {
-   "seg_id": 7,
-   "t0_ms": 80080,
-   "t1_ms": 123440,
-   "speaker": "Management",
-   "text": "Henrique Braun, Chief Executive Officer, Co-Occola System Thanks Todd, and good morning everyone. Our third quarter results reinforce the continued strength of the Co-Cola system. We are acting with speed and discipline, enabling us to deliver strong results in an uneven environment. I want to start by thanking all our associates and bottling partners around the world. Every day, they serve customers, support communities, and bring our brands to life. This year has required resilience, agility, and strong execution, and our people have continued to rise to the occasion. Their efforts",
-   "parts": [
+    },
     {
      "t0_ms": 80080,
      "text": "Henrique Braun, Chief Executive Officer, Co-Occola System"
@@ -189,7 +134,18 @@
     {
      "t0_ms": 102560,
      "text": "and bottling partners around the world. Every day, they serve customers, support communities,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:31:07.840000-04:00",
+   "adj_ret_5m": -0.008369824410447757
+  },
+  {
+   "seg_id": 3,
+   "t0_ms": 110400,
+   "t1_ms": 155120,
+   "speaker": "Management",
+   "text": "and bring our brands to life. This year has required resilience, agility, and strong execution, and our people have continued to rise to the occasion. Their efforts reinforce my confidence in our updated 2026 guidance and in the long-term opportunities ahead. This morning, I will provide an update on the global landscape and review our third quarter business performance. Then, I will discuss how our system is delivering at scale and adapting locally to create durable growth. John will close with our financial results for the quarter, full year 2026 guidance, and some early considerations",
+   "parts": [
     {
      "t0_ms": 110400,
      "text": "and bring our brands to life. This year has required resilience, agility, and strong"
@@ -197,18 +153,7 @@
     {
      "t0_ms": 116800,
      "text": "execution, and our people have continued to rise to the occasion. Their efforts"
-    }
-   ],
-   "ts": "2026-10-27T08:31:20.080000-04:00",
-   "adj_ret_5m": -0.008369824410447757
-  },
-  {
-   "seg_id": 8,
-   "t0_ms": 123440,
-   "t1_ms": 165840,
-   "speaker": "Management",
-   "text": "reinforce my confidence in our updated 2026 guidance and in the long-term opportunities ahead. This morning, I will provide an update on the global landscape and review our third quarter business performance. Then, I will discuss how our system is delivering at scale and adapting locally to create durable growth. John will close with our financial results for the quarter, full year 2026 guidance, and some early considerations for 2027. First, the global operating environment continues to evolve. Geopolitical disruptions affect several parts of the world,",
-   "parts": [
+    },
     {
      "t0_ms": 123440,
      "text": "reinforce my confidence in our updated 2026 guidance and in the long-term opportunities"
@@ -228,7 +173,18 @@
     {
      "t0_ms": 149120,
      "text": "financial results for the quarter, full year 2026 guidance, and some early considerations"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:31:50.400000-04:00",
+   "adj_ret_5m": -0.008369824410447757
+  },
+  {
+   "seg_id": 4,
+   "t0_ms": 155120,
+   "t1_ms": 197120,
+   "speaker": "Management",
+   "text": "for 2027. First, the global operating environment continues to evolve. Geopolitical disruptions affect several parts of the world, cost pressures have accelerated, and all of this has an impact on many consumers. Yet, our confidence in the long-term opportunity remains unchanged. We have a strong portfolio of $32 billion brands and unmatched system reach with our botling partners. These advantages matter, but so does what we do with them. For several years, we have been strengthening capabilities around consumer recruitment,",
+   "parts": [
     {
      "t0_ms": 155120,
      "text": "for 2027. First, the global operating environment continues to evolve."
@@ -236,18 +192,7 @@
     {
      "t0_ms": 161920,
      "text": "Geopolitical disruptions affect several parts of the world,"
-    }
-   ],
-   "ts": "2026-10-27T08:32:03.440000-04:00",
-   "adj_ret_5m": -0.008542518445476266
-  },
-  {
-   "seg_id": 9,
-   "t0_ms": 166480,
-   "t1_ms": 209680,
-   "speaker": "Management",
-   "text": "cost pressures have accelerated, and all of this has an impact on many consumers. Yet, our confidence in the long-term opportunity remains unchanged. We have a strong portfolio of $32 billion brands and unmatched system reach with our botling partners. These advantages matter, but so does what we do with them. For several years, we have been strengthening capabilities around consumer recruitment, digital, revenue growth management, and system execution. By staying close to consumers and remaining constructively discontented, we continue to adapt in a dynamic environment.",
-   "parts": [
+    },
     {
      "t0_ms": 166480,
      "text": "cost pressures have accelerated, and all of this has an impact on many consumers."
@@ -267,7 +212,18 @@
     {
      "t0_ms": 191200,
      "text": "For several years, we have been strengthening capabilities around consumer recruitment,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:32:35.120000-04:00",
+   "adj_ret_5m": -0.008542518445476266
+  },
+  {
+   "seg_id": 5,
+   "t0_ms": 197120,
+   "t1_ms": 237840,
+   "speaker": "Management",
+   "text": "digital, revenue growth management, and system execution. By staying close to consumers and remaining constructively discontented, we continue to adapt in a dynamic environment. We are increasingly seeing that work reflected in our performance, including this quarter. Volume grew 5% and organic revenue grew 7%. Stepping back, our longer-term performance reflects a more balanced contribution to top-line growth. We expanded margins while continuing to invest in our business. We delivered double-digit comparable earnings",
+   "parts": [
     {
      "t0_ms": 197120,
      "text": "digital, revenue growth management, and system execution. By staying close to consumers and"
@@ -275,18 +231,7 @@
     {
      "t0_ms": 203680,
      "text": "remaining constructively discontented, we continue to adapt in a dynamic environment."
-    }
-   ],
-   "ts": "2026-10-27T08:32:46.480000-04:00",
-   "adj_ret_5m": -0.008542518445476266
-  },
-  {
-   "seg_id": 10,
-   "t0_ms": 209760,
-   "t1_ms": 252160,
-   "speaker": "Management",
-   "text": "We are increasingly seeing that work reflected in our performance, including this quarter. Volume grew 5% and organic revenue grew 7%. Stepping back, our longer-term performance reflects a more balanced contribution to top-line growth. We expanded margins while continuing to invest in our business. We delivered double-digit comparable earnings per share growth and gained value share. Beyond the headline numbers, I'm encouraged by how we are growing. Our disciplined investments and digital capabilities are creating momentum across",
-   "parts": [
+    },
     {
      "t0_ms": 209760,
      "text": "We are increasingly seeing that work reflected in our performance, including this quarter."
@@ -302,7 +247,18 @@
     {
      "t0_ms": 231760,
      "text": "continuing to invest in our business. We delivered double-digit comparable earnings"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:33:17.120000-04:00",
+   "adj_ret_5m": -0.0086803552007364
+  },
+  {
+   "seg_id": 6,
+   "t0_ms": 237840,
+   "t1_ms": 274320,
+   "speaker": "Management",
+   "text": "per share growth and gained value share. Beyond the headline numbers, I'm encouraged by how we are growing. Our disciplined investments and digital capabilities are creating momentum across many of our markets and brands. Yet, we know there is still more work to do. We continue to sharpen how we turn consumer insights into innovation, and we are balancing scale and intimacy to drive stronger execution across our system. Our focus is simple. Keep learning and do a little better every day.",
+   "parts": [
     {
      "t0_ms": 237840,
      "text": "per share growth and gained value share. Beyond the headline numbers, I'm encouraged by how we"
@@ -310,18 +266,7 @@
     {
      "t0_ms": 244800,
      "text": "are growing. Our disciplined investments and digital capabilities are creating momentum across"
-    }
-   ],
-   "ts": "2026-10-27T08:33:29.760000-04:00",
-   "adj_ret_5m": -0.0086803552007364
-  },
-  {
-   "seg_id": 11,
-   "t0_ms": 252160,
-   "t1_ms": 294430,
-   "speaker": "Management",
-   "text": "many of our markets and brands. Yet, we know there is still more work to do. We continue to sharpen how we turn consumer insights into innovation, and we are balancing scale and intimacy to drive stronger execution across our system. Our focus is simple. Keep learning and do a little better every day. This quarter, I spent much of my time with our people and botling partners in several of our markets. These experiences always reinforce the importance of understanding local needs and responding to consumers, a strength of our system across the world.",
-   "parts": [
+    },
     {
      "t0_ms": 252160,
      "text": "many of our markets and brands. Yet, we know there is still more work to do."
@@ -337,7 +282,18 @@
     {
      "t0_ms": 270320,
      "text": "Our focus is simple. Keep learning and do a little better every day."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:33:57.840000-04:00",
+   "adj_ret_5m": -0.0086803552007364
+  },
+  {
+   "seg_id": 7,
+   "t0_ms": 276510,
+   "t1_ms": 315390,
+   "speaker": "Management",
+   "text": "This quarter, I spent much of my time with our people and botling partners in several of our markets. These experiences always reinforce the importance of understanding local needs and responding to consumers, a strength of our system across the world. While every market is different, three themes were consistent. One, affordability is working. Two, both zero sugar and original taste are recruiting consumers. And three, execution and local relevance are helping us win. Let me bring each of these to life across our business.",
+   "parts": [
     {
      "t0_ms": 276510,
      "text": "This quarter, I spent much of my time with our people and botling partners in several of our"
@@ -349,18 +305,7 @@
     {
      "t0_ms": 289550,
      "text": "and responding to consumers, a strength of our system across the world."
-    }
-   ],
-   "ts": "2026-10-27T08:34:12.160000-04:00",
-   "adj_ret_5m": -0.0052090956723702675
-  },
-  {
-   "seg_id": 12,
-   "t0_ms": 295870,
-   "t1_ms": 334670,
-   "speaker": "Management",
-   "text": "While every market is different, three themes were consistent. One, affordability is working. Two, both zero sugar and original taste are recruiting consumers. And three, execution and local relevance are helping us win. Let me bring each of these to life across our business. Starting in North America, we grew revenue and gained value share for the quarter. Volume was even due in part to the timing of the July 4th holiday and temporary challenges in certain finished goods businesses, but performance improved sequentially each month during the quarter.",
-   "parts": [
+    },
     {
      "t0_ms": 295870,
      "text": "While every market is different, three themes were consistent. One, affordability is working."
@@ -372,7 +317,18 @@
     {
      "t0_ms": 308990,
      "text": "local relevance are helping us win. Let me bring each of these to life across our business."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:34:36.510000-04:00",
+   "adj_ret_5m": -0.0052090956723702675
+  },
+  {
+   "seg_id": 8,
+   "t0_ms": 315630,
+   "t1_ms": 356990,
+   "speaker": "Management",
+   "text": "Starting in North America, we grew revenue and gained value share for the quarter. Volume was even due in part to the timing of the July 4th holiday and temporary challenges in certain finished goods businesses, but performance improved sequentially each month during the quarter. Across our total beverage portfolio, we had strong volume growth from many brands, including trademark Coca-Cola, Fairlife, Powerade, Fresca, and Smartwater. Mr. Pibb continued its success with another quarter of double digit volume growth. We are applying our learnings from our",
+   "parts": [
     {
      "t0_ms": 315630,
      "text": "Starting in North America, we grew revenue and gained value share for the quarter. Volume was"
@@ -384,18 +340,7 @@
     {
      "t0_ms": 328670,
      "text": "finished goods businesses, but performance improved sequentially each month during the quarter."
-    }
-   ],
-   "ts": "2026-10-27T08:34:55.870000-04:00",
-   "adj_ret_5m": -0.0052090956723702675
-  },
-  {
-   "seg_id": 13,
-   "t0_ms": 335630,
-   "t1_ms": 376830,
-   "speaker": "Management",
-   "text": "Across our total beverage portfolio, we had strong volume growth from many brands, including trademark Coca-Cola, Fairlife, Powerade, Fresca, and Smartwater. Mr. Pibb continued its success with another quarter of double digit volume growth. We are applying our learnings from our strong sports playbook with the next iteration of fan work is thirsty work, which brings Coca-Cola into football fandom through team packaging, retail activation, and locally relevant fan experiences. For Halloween, we are pairing Fanta's haunted universe with limited edition",
-   "parts": [
+    },
     {
      "t0_ms": 335630,
      "text": "Across our total beverage portfolio, we had strong volume growth from many brands, including"
@@ -407,7 +352,18 @@
     {
      "t0_ms": 349870,
      "text": "with another quarter of double digit volume growth. We are applying our learnings from our"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:35:15.630000-04:00",
+   "adj_ret_5m": -0.004629279879381332
+  },
+  {
+   "seg_id": 9,
+   "t0_ms": 356990,
+   "t1_ms": 401950,
+   "speaker": "Management",
+   "text": "strong sports playbook with the next iteration of fan work is thirsty work, which brings Coca-Cola into football fandom through team packaging, retail activation, and locally relevant fan experiences. For Halloween, we are pairing Fanta's haunted universe with limited edition ghost face punch and collectable packaging that brings the experience from screen to shelf. We're also creating new opportunities across our portfolio. Fairlife expanded its new nutrition plan offerings with the return of fan favorite vanilla, while Body Armor Fit brings sports hydration beyond the workout with a sparkly, zero sugar format with caffeine,",
+   "parts": [
     {
      "t0_ms": 356990,
      "text": "strong sports playbook with the next iteration of fan work is thirsty work, which brings"
@@ -419,18 +375,7 @@
     {
      "t0_ms": 369870,
      "text": "experiences. For Halloween, we are pairing Fanta's haunted universe with limited edition"
-    }
-   ],
-   "ts": "2026-10-27T08:35:35.630000-04:00",
-   "adj_ret_5m": -0.004629279879381332
-  },
-  {
-   "seg_id": 14,
-   "t0_ms": 376830,
-   "t1_ms": 415310,
-   "speaker": "Management",
-   "text": "ghost face punch and collectable packaging that brings the experience from screen to shelf. We're also creating new opportunities across our portfolio. Fairlife expanded its new nutrition plan offerings with the return of fan favorite vanilla, while Body Armor Fit brings sports hydration beyond the workout with a sparkly, zero sugar format with caffeine, electrolytes, and metabolism support. In Latin America, several key markets started the year facing difficult conditions, but our teams responded with market-based and high-quality",
-   "parts": [
+    },
     {
      "t0_ms": 376830,
      "text": "ghost face punch and collectable packaging that brings the experience from screen to shelf."
@@ -446,7 +391,18 @@
     {
      "t0_ms": 395950,
      "text": "sports hydration beyond the workout with a sparkly, zero sugar format with caffeine,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:35:56.990000-04:00",
+   "adj_ret_5m": -0.004629279879381332
+  },
+  {
+   "seg_id": 10,
+   "t0_ms": 401950,
+   "t1_ms": 440830,
+   "speaker": "Management",
+   "text": "electrolytes, and metabolism support. In Latin America, several key markets started the year facing difficult conditions, but our teams responded with market-based and high-quality actions that drove meaningful acceleration in the third quarter. We grew volume, delivered balanced top-line growth, and gained value share with broad-based improvement across the region. In Mexico, the environment remains challenging, but we are seeing encouraging progress by combining affordability, strong revenue growth management capabilities, and locally relevant",
+   "parts": [
     {
      "t0_ms": 401950,
      "text": "electrolytes, and metabolism support. In Latin America, several key markets started the year"
@@ -454,18 +410,7 @@
     {
      "t0_ms": 409470,
      "text": "facing difficult conditions, but our teams responded with market-based and high-quality"
-    }
-   ],
-   "ts": "2026-10-27T08:36:16.830000-04:00",
-   "adj_ret_5m": -0.00041468142663070306
-  },
-  {
-   "seg_id": 15,
-   "t0_ms": 415950,
-   "t1_ms": 460750,
-   "speaker": "Management",
-   "text": "actions that drove meaningful acceleration in the third quarter. We grew volume, delivered balanced top-line growth, and gained value share with broad-based improvement across the region. In Mexico, the environment remains challenging, but we are seeing encouraging progress by combining affordability, strong revenue growth management capabilities, and locally relevant marketing and discipline execution. In Brazil, momentum remained strong across our total beverage portfolio. Trademark Coca-Cola delivered another strong quarter, while Sprite and sports beverages also performed well. We continue to connect our brands with locally relevant",
-   "parts": [
+    },
     {
      "t0_ms": 415950,
      "text": "actions that drove meaningful acceleration in the third quarter. We grew volume, delivered"
@@ -481,7 +426,18 @@
     {
      "t0_ms": 435150,
      "text": "combining affordability, strong revenue growth management capabilities, and locally relevant"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:36:41.950000-04:00",
+   "adj_ret_5m": -0.00041468142663070306
+  },
+  {
+   "seg_id": 11,
+   "t0_ms": 441310,
+   "t1_ms": 482990,
+   "speaker": "Management",
+   "text": "marketing and discipline execution. In Brazil, momentum remained strong across our total beverage portfolio. Trademark Coca-Cola delivered another strong quarter, while Sprite and sports beverages also performed well. We continue to connect our brands with locally relevant passion points, including the Rock in Rio music festival, the Fanta Festival, and the While also investing behind growth opportunities across our total beverage portfolio. In Argentina, the environment remains challenging. We have strong plans in place, and while there is still more work to do, we are encouraged by progress across the region.",
+   "parts": [
     {
      "t0_ms": 441310,
      "text": "marketing and discipline execution. In Brazil, momentum remained strong across our total"
@@ -493,18 +449,7 @@
     {
      "t0_ms": 454750,
      "text": "beverages also performed well. We continue to connect our brands with locally relevant"
-    }
-   ],
-   "ts": "2026-10-27T08:36:55.950000-04:00",
-   "adj_ret_5m": -0.00041468142663070306
-  },
-  {
-   "seg_id": 16,
-   "t0_ms": 460750,
-   "t1_ms": 503630,
-   "speaker": "Management",
-   "text": "passion points, including the Rock in Rio music festival, the Fanta Festival, and the While also investing behind growth opportunities across our total beverage portfolio. In Argentina, the environment remains challenging. We have strong plans in place, and while there is still more work to do, we are encouraged by progress across the region. Moving to EMEA and starting with Europe. For the quarter, we grew volume, but we lost value share in a few key markets in Western Europe, and we are taking actions to improve performance. Following the FIFA World Cup, we transitioned into soccer activations around",
-   "parts": [
+    },
     {
      "t0_ms": 460750,
      "text": "passion points, including the Rock in Rio music festival, the Fanta Festival, and the"
@@ -520,7 +465,18 @@
     {
      "t0_ms": 477630,
      "text": "and while there is still more work to do, we are encouraged by progress across the region."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:37:21.310000-04:00",
+   "adj_ret_5m": 0.0013774089510864007
+  },
+  {
+   "seg_id": 12,
+   "t0_ms": 484910,
+   "t1_ms": 523710,
+   "speaker": "Management",
+   "text": "Moving to EMEA and starting with Europe. For the quarter, we grew volume, but we lost value share in a few key markets in Western Europe, and we are taking actions to improve performance. Following the FIFA World Cup, we transitioned into soccer activations around the English Premier League and Bundesliga, while continuing to build everyday consumption occasions through our MUSE platform. We are complementing these investments in our MUSE platform. We are complementing these efforts with affordable propositions like our",
+   "parts": [
     {
      "t0_ms": 484910,
      "text": "Moving to EMEA and starting with Europe. For the quarter, we grew volume, but we lost"
@@ -532,18 +488,7 @@
     {
      "t0_ms": 496910,
      "text": "performance. Following the FIFA World Cup, we transitioned into soccer activations around"
-    }
-   ],
-   "ts": "2026-10-27T08:37:40.750000-04:00",
-   "adj_ret_5m": 0.0013774089510864007
-  },
-  {
-   "seg_id": 17,
-   "t0_ms": 503630,
-   "t1_ms": 542190,
-   "speaker": "Management",
-   "text": "the English Premier League and Bundesliga, while continuing to build everyday consumption occasions through our MUSE platform. We are complementing these investments in our MUSE platform. We are complementing these efforts with affordable propositions like our 500ml Supercam, and are continuing to focus on price pack architecture to help us recruit consumers and drive transactions. In Africa, despite cycling a tough volume comparison, we gained value share and delivered high single digit volume growth.",
-   "parts": [
+    },
     {
      "t0_ms": 503630,
      "text": "the English Premier League and Bundesliga, while continuing to build everyday consumption"
@@ -555,7 +500,18 @@
     {
      "t0_ms": 516909,
      "text": "our MUSE platform. We are complementing these efforts with affordable propositions like our"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:38:04.910000-04:00",
+   "adj_ret_5m": -0.0006713203212366237
+  },
+  {
+   "seg_id": 13,
+   "t0_ms": 523710,
+   "t1_ms": 563550,
+   "speaker": "Management",
+   "text": "500ml Supercam, and are continuing to focus on price pack architecture to help us recruit consumers and drive transactions. In Africa, despite cycling a tough volume comparison, we gained value share and delivered high single digit volume growth. We celebrated 75 years of Coca-Cola's system in Nigeria with an end-to-end activation. To meet evolving consumer needs in South Africa, we adapted an affordable single serve package from India, giving it a locally relevant name, Moshesha, meaning quick. We also activated our",
+   "parts": [
     {
      "t0_ms": 523710,
      "text": "500ml Supercam, and are continuing to focus on price pack architecture to help us recruit"
@@ -567,18 +523,7 @@
     {
      "t0_ms": 538270,
      "text": "we gained value share and delivered high single digit volume growth."
-    }
-   ],
-   "ts": "2026-10-27T08:38:23.630000-04:00",
-   "adj_ret_5m": -0.0006713203212366237
-  },
-  {
-   "seg_id": 18,
-   "t0_ms": 542350,
-   "t1_ms": 583070,
-   "speaker": "Management",
-   "text": "We celebrated 75 years of Coca-Cola's system in Nigeria with an end-to-end activation. To meet evolving consumer needs in South Africa, we adapted an affordable single serve package from India, giving it a locally relevant name, Moshesha, meaning quick. We also activated our Springbox rugby team partnership with the Be a Box campaign, a limited edition collectible player scams. In Eurasia and the Middle East, ongoing geopolitical conflicts continued to disrupt business in parts of the region. Our system was resilient, delivering",
-   "parts": [
+    },
     {
      "t0_ms": 542350,
      "text": "We celebrated 75 years of Coca-Cola's system in Nigeria with an end-to-end activation. To meet"
@@ -590,7 +535,18 @@
     {
      "t0_ms": 555710,
      "text": "India, giving it a locally relevant name, Moshesha, meaning quick. We also activated our"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:38:43.710000-04:00",
+   "adj_ret_5m": -0.0006713203212366237
+  },
+  {
+   "seg_id": 14,
+   "t0_ms": 563550,
+   "t1_ms": 606510,
+   "speaker": "Management",
+   "text": "Springbox rugby team partnership with the Be a Box campaign, a limited edition collectible player scams. In Eurasia and the Middle East, ongoing geopolitical conflicts continued to disrupt business in parts of the region. Our system was resilient, delivering another strong quarter with volume growth and value share gains. From Coke Studio, featuring Pakistani artists to affordability initiatives, to locally relevant taste innovations like Sprite, Cool Mint, and Fanta Pomegranate, our teams are adapting to dynamic market conditions.",
+   "parts": [
     {
      "t0_ms": 563550,
      "text": "Springbox rugby team partnership with the Be a Box campaign, a limited edition"
@@ -602,18 +558,7 @@
     {
      "t0_ms": 576910,
      "text": "continued to disrupt business in parts of the region. Our system was resilient, delivering"
-    }
-   ],
-   "ts": "2026-10-27T08:39:02.350000-04:00",
-   "adj_ret_5m": 0.0001862910816282648
-  },
-  {
-   "seg_id": 19,
-   "t0_ms": 583070,
-   "t1_ms": 627630,
-   "speaker": "Management",
-   "text": "another strong quarter with volume growth and value share gains. From Coke Studio, featuring Pakistani artists to affordability initiatives, to locally relevant taste innovations like Sprite, Cool Mint, and Fanta Pomegranate, our teams are adapting to dynamic market conditions. Finally, in Asia-Pacific, performance varied across our operating units, but we are encouraged by the progress in many markets. We gained value share and grew volume, revenue and profit, while price mix remained pressured due to a negative geographic mix and affordability",
-   "parts": [
+    },
     {
      "t0_ms": 583070,
      "text": "another strong quarter with volume growth and value share gains. From Coke Studio, featuring"
@@ -625,7 +570,18 @@
     {
      "t0_ms": 596670,
      "text": "Cool Mint, and Fanta Pomegranate, our teams are adapting to dynamic market conditions."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:39:23.550000-04:00",
+   "adj_ret_5m": 0.0001862910816282648
+  },
+  {
+   "seg_id": 15,
+   "t0_ms": 607950,
+   "t1_ms": 648430,
+   "speaker": "Management",
+   "text": "Finally, in Asia-Pacific, performance varied across our operating units, but we are encouraged by the progress in many markets. We gained value share and grew volume, revenue and profit, while price mix remained pressured due to a negative geographic mix and affordability initiatives. India delivered strong volume growth with each of our top 10 brands growing double digits. We are expanding our consumer base by scaling both affordability and premiumization, strengthening execution, and leaning into emerging channels. For example,",
+   "parts": [
     {
      "t0_ms": 607950,
      "text": "Finally, in Asia-Pacific, performance varied across our operating units, but we are encouraged"
@@ -637,18 +593,7 @@
     {
      "t0_ms": 621310,
      "text": "while price mix remained pressured due to a negative geographic mix and affordability"
-    }
-   ],
-   "ts": "2026-10-27T08:39:43.070000-04:00",
-   "adj_ret_5m": 0.0001862910816282648
-  },
-  {
-   "seg_id": 20,
-   "t0_ms": 627630,
-   "t1_ms": 670190,
-   "speaker": "Management",
-   "text": "initiatives. India delivered strong volume growth with each of our top 10 brands growing double digits. We are expanding our consumer base by scaling both affordability and premiumization, strengthening execution, and leaning into emerging channels. For example, we expanded our Sprite and Spicy platform into the QSR channel in India, with meal, combo activations, social media content, and influencer collaborations, which contributed to Sprite's volume growth of nearly 20% in the region. In China, the consumer environment remains",
-   "parts": [
+    },
     {
      "t0_ms": 627630,
      "text": "initiatives. India delivered strong volume growth with each of our top 10 brands growing"
@@ -660,7 +605,18 @@
     {
      "t0_ms": 640910,
      "text": "premiumization, strengthening execution, and leaning into emerging channels. For example,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:40:07.950000-04:00",
+   "adj_ret_5m": 0.003293691478969185
+  },
+  {
+   "seg_id": 16,
+   "t0_ms": 648430,
+   "t1_ms": 689630,
+   "speaker": "Management",
+   "text": "we expanded our Sprite and Spicy platform into the QSR channel in India, with meal, combo activations, social media content, and influencer collaborations, which contributed to Sprite's volume growth of nearly 20% in the region. In China, the consumer environment remains subdued, with cautious spending and soft domestic demand. Despite this, we delivered another strong quarter of volume growth with strength in trademark Coca-Cola and Fanta. We continue to advance our digital capabilities to create more consumption occasions and",
+   "parts": [
     {
      "t0_ms": 648430,
      "text": "we expanded our Sprite and Spicy platform into the QSR channel in India, with meal, combo"
@@ -672,18 +628,7 @@
     {
      "t0_ms": 663070,
      "text": "volume growth of nearly 20% in the region. In China, the consumer environment remains"
-    }
-   ],
-   "ts": "2026-10-27T08:40:27.630000-04:00",
-   "adj_ret_5m": 0.003293691478969185
-  },
-  {
-   "seg_id": 21,
-   "t0_ms": 670270,
-   "t1_ms": 713470,
-   "speaker": "Management",
-   "text": "subdued, with cautious spending and soft domestic demand. Despite this, we delivered another strong quarter of volume growth with strength in trademark Coca-Cola and Fanta. We continue to advance our digital capabilities to create more consumption occasions and connect with consumers in new ways. These actions are helping us drive immediate consumption packages and accelerate significant growth across digital commerce and emerging channels. In Japan, volume declined as consumers remained pressured in a challenging macroeconomic environment that was heavily impacted by a diverse weather.",
-   "parts": [
+    },
     {
      "t0_ms": 670270,
      "text": "subdued, with cautious spending and soft domestic demand. Despite this, we delivered another"
@@ -695,7 +640,18 @@
     {
      "t0_ms": 684750,
      "text": "We continue to advance our digital capabilities to create more consumption occasions and"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:40:48.430000-04:00",
+   "adj_ret_5m": 0.003293691478969185
+  },
+  {
+   "seg_id": 17,
+   "t0_ms": 689630,
+   "t1_ms": 727950,
+   "speaker": "Management",
+   "text": "connect with consumers in new ways. These actions are helping us drive immediate consumption packages and accelerate significant growth across digital commerce and emerging channels. In Japan, volume declined as consumers remained pressured in a challenging macroeconomic environment that was heavily impacted by a diverse weather. For the quarter, we gained share, expanded our consumer base in trademark Coca-Cola, and accelerated zero-sugar volume growth. We are adapting our offerings and executing to meet",
+   "parts": [
     {
      "t0_ms": 689630,
      "text": "connect with consumers in new ways. These actions are helping us drive immediate consumption"
@@ -711,18 +667,7 @@
     {
      "t0_ms": 709390,
      "text": "macroeconomic environment that was heavily impacted by a diverse weather."
-    }
-   ],
-   "ts": "2026-10-27T08:41:10.270000-04:00",
-   "adj_ret_5m": 0.001336812988101288
-  },
-  {
-   "seg_id": 22,
-   "t0_ms": 714670,
-   "t1_ms": 755390,
-   "speaker": "Management",
-   "text": "For the quarter, we gained share, expanded our consumer base in trademark Coca-Cola, and accelerated zero-sugar volume growth. We are adapting our offerings and executing to meet changing needs. In ASEAN and South Pacific, volume growth was broad-based across many key markets. Affordability, zero-sugar offerings, innovation, and stronger execution are helping us recruit consumers and create new growth opportunities, including the launch of Coca-Cola in Thailand. In Vietnam, we are expanding our affordable single-serve package, which is now",
-   "parts": [
+    },
     {
      "t0_ms": 714670,
      "text": "For the quarter, we gained share, expanded our consumer base in trademark Coca-Cola,"
@@ -730,7 +675,18 @@
     {
      "t0_ms": 720670,
      "text": "and accelerated zero-sugar volume growth. We are adapting our offerings and executing to meet"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:41:29.630000-04:00",
+   "adj_ret_5m": 0.001336812988101288
+  },
+  {
+   "seg_id": 18,
+   "t0_ms": 727950,
+   "t1_ms": 769390,
+   "speaker": "Management",
+   "text": "changing needs. In ASEAN and South Pacific, volume growth was broad-based across many key markets. Affordability, zero-sugar offerings, innovation, and stronger execution are helping us recruit consumers and create new growth opportunities, including the launch of Coca-Cola in Thailand. In Vietnam, we are expanding our affordable single-serve package, which is now available in over 400,000 outlets with high repurchase rates. To sum it all up, while the global operating environment remains uneven, we are encouraged by the momentum across",
+   "parts": [
     {
      "t0_ms": 727950,
      "text": "changing needs. In ASEAN and South Pacific, volume growth was broad-based across many key"
@@ -746,18 +702,7 @@
     {
      "t0_ms": 748990,
      "text": "in Thailand. In Vietnam, we are expanding our affordable single-serve package, which is now"
-    }
-   ],
-   "ts": "2026-10-27T08:41:54.670000-04:00",
-   "adj_ret_5m": 0.001336812988101288
-  },
-  {
-   "seg_id": 23,
-   "t0_ms": 755390,
-   "t1_ms": 794750,
-   "speaker": "Management",
-   "text": "available in over 400,000 outlets with high repurchase rates. To sum it all up, while the global operating environment remains uneven, we are encouraged by the momentum across our business and believe in our ability to deliver more for more markets and more for more brands. I'm energized by the progress we're making across the Coca-Cola system. We are learning as we go, continuing to raise the bar, and finding new ways to create value. The actions we're taking are helping us deliver today while strengthening our ability to create",
-   "parts": [
+    },
     {
      "t0_ms": 755390,
      "text": "available in over 400,000 outlets with high repurchase rates. To sum it all up,"
@@ -765,7 +710,18 @@
     {
      "t0_ms": 763470,
      "text": "while the global operating environment remains uneven, we are encouraged by the momentum across"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:42:07.950000-04:00",
+   "adj_ret_5m": 0.0031791093149984295
+  },
+  {
+   "seg_id": 19,
+   "t0_ms": 769390,
+   "t1_ms": 811870,
+   "speaker": "Management",
+   "text": "our business and believe in our ability to deliver more for more markets and more for more brands. I'm energized by the progress we're making across the Coca-Cola system. We are learning as we go, continuing to raise the bar, and finding new ways to create value. The actions we're taking are helping us deliver today while strengthening our ability to create value for the long term. With that, I'll turn the call over to John. Thank you, Enrique, and good morning everyone. Our results once again demonstrate the strength and adaptability of our business. For the quarter, organic revenue grew 7%. Our unit",
+   "parts": [
     {
      "t0_ms": 769390,
      "text": "our business and believe in our ability to deliver more for more markets and more for more"
@@ -781,33 +737,11 @@
     {
      "t0_ms": 788430,
      "text": "The actions we're taking are helping us deliver today while strengthening our ability to create"
-    }
-   ],
-   "ts": "2026-10-27T08:42:35.390000-04:00",
-   "adj_ret_5m": 0.0031791093149984295
-  },
-  {
-   "seg_id": 24,
-   "t0_ms": 794750,
-   "t1_ms": 798830,
-   "speaker": "Operator",
-   "text": "value for the long term. With that, I'll turn the call over to John.",
-   "parts": [
+    },
     {
      "t0_ms": 794750,
      "text": "value for the long term. With that, I'll turn the call over to John."
-    }
-   ],
-   "ts": "2026-10-27T08:43:14.750000-04:00",
-   "adj_ret_5m": 0.005457497544078316
-  },
-  {
-   "seg_id": 25,
-   "t0_ms": 799230,
-   "t1_ms": 839630,
-   "speaker": "Management",
-   "text": "Thank you, Enrique, and good morning everyone. Our results once again demonstrate the strength and adaptability of our business. For the quarter, organic revenue grew 7%. Our unit cases grew 5%. Our two-year, year-to-date volume growth average of 2% reflects a more sustained and balanced contribution to top-line revenue growth. Concentrate sales were two points ahead of unit case volume due to the timing of concentrate shipments. Price mix grew 1%. This was driven by four points of pricing actions, partially offset by three",
-   "parts": [
+    },
     {
      "t0_ms": 799230,
      "text": "Thank you, Enrique, and good morning everyone. Our results once again demonstrate the strength"
@@ -815,7 +749,18 @@
     {
      "t0_ms": 804990,
      "text": "and adaptability of our business. For the quarter, organic revenue grew 7%. Our unit"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:42:49.390000-04:00",
+   "adj_ret_5m": 0.0031791093149984295
+  },
+  {
+   "seg_id": 20,
+   "t0_ms": 811870,
+   "t1_ms": 853870,
+   "speaker": "Management",
+   "text": "cases grew 5%. Our two-year, year-to-date volume growth average of 2% reflects a more sustained and balanced contribution to top-line revenue growth. Concentrate sales were two points ahead of unit case volume due to the timing of concentrate shipments. Price mix grew 1%. This was driven by four points of pricing actions, partially offset by three points of unfavorable mix, primarily due to geographic mix, timing of investments, and category mix. Comparable gross margin increased approximately 170 basis points,",
+   "parts": [
     {
      "t0_ms": 811870,
      "text": "cases grew 5%. Our two-year, year-to-date volume growth average of 2% reflects a more"
@@ -831,18 +776,7 @@
     {
      "t0_ms": 832990,
      "text": "grew 1%. This was driven by four points of pricing actions, partially offset by three"
-    }
-   ],
-   "ts": "2026-10-27T08:43:19.230000-04:00",
-   "adj_ret_5m": 0.005457497544078316
-  },
-  {
-   "seg_id": 26,
-   "t0_ms": 839630,
-   "t1_ms": 883390,
-   "speaker": "Management",
-   "text": "points of unfavorable mix, primarily due to geographic mix, timing of investments, and category mix. Comparable gross margin increased approximately 170 basis points, and comparable operating margin increased approximately 110 basis points. Both reflect underlying expansion, currency tailwinds, and a favorable structural impact from last year's sale of our finished product operations in Nigeria. Importantly, margin expansion did not come at the expense of investment, and we continue to drive greater productivity",
-   "parts": [
+    },
     {
      "t0_ms": 839630,
      "text": "points of unfavorable mix, primarily due to geographic mix, timing of investments,"
@@ -850,7 +784,18 @@
     {
      "t0_ms": 846270,
      "text": "and category mix. Comparable gross margin increased approximately 170 basis points,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:43:31.870000-04:00",
+   "adj_ret_5m": 0.005457497544078316
+  },
+  {
+   "seg_id": 21,
+   "t0_ms": 854270,
+   "t1_ms": 897310,
+   "speaker": "Management",
+   "text": "and comparable operating margin increased approximately 110 basis points. Both reflect underlying expansion, currency tailwinds, and a favorable structural impact from last year's sale of our finished product operations in Nigeria. Importantly, margin expansion did not come at the expense of investment, and we continue to drive greater productivity and efficiency across our operations. We are investing behind our brands and executing revenue growth management strategies that help us better serve consumers across brands,",
+   "parts": [
     {
      "t0_ms": 854270,
      "text": "and comparable operating margin increased approximately 110 basis points. Both reflect"
@@ -866,18 +811,7 @@
     {
      "t0_ms": 877550,
      "text": "did not come at the expense of investment, and we continue to drive greater productivity"
-    }
-   ],
-   "ts": "2026-10-27T08:43:59.630000-04:00",
-   "adj_ret_5m": 0.005457497544078316
-  },
-  {
-   "seg_id": 27,
-   "t0_ms": 883390,
-   "t1_ms": 922510,
-   "speaker": "Management",
-   "text": "and efficiency across our operations. We are investing behind our brands and executing revenue growth management strategies that help us better serve consumers across brands, packages, price points, and occasions. Putting it all together, third quarter comparable earnings per share of 91 cents reflected an 11% increase, including a two-point benefit from currency tailwinds. Year-to-date free cash flow was $11.4 billion, an increase versus the prior year.",
-   "parts": [
+    },
     {
      "t0_ms": 883390,
      "text": "and efficiency across our operations. We are investing behind our brands and executing"
@@ -885,7 +819,18 @@
     {
      "t0_ms": 890830,
      "text": "revenue growth management strategies that help us better serve consumers across brands,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:44:14.270000-04:00",
+   "adj_ret_5m": 0.001850440840317935
+  },
+  {
+   "seg_id": 22,
+   "t0_ms": 897310,
+   "t1_ms": 939630,
+   "speaker": "Management",
+   "text": "packages, price points, and occasions. Putting it all together, third quarter comparable earnings per share of 91 cents reflected an 11% increase, including a two-point benefit from currency tailwinds. Year-to-date free cash flow was $11.4 billion, an increase versus the prior year. Our balance sheet remains strong, with our net debt leverage of 1.3 times EBITDA, which is below our target range of two to two and a half times. We're continuing to judiciously manage our balance sheet as we await a court decision",
+   "parts": [
     {
      "t0_ms": 897310,
      "text": "packages, price points, and occasions. Putting it all together, third quarter comparable earnings"
@@ -897,18 +842,7 @@
     {
      "t0_ms": 916510,
      "text": "Year-to-date free cash flow was $11.4 billion, an increase versus the prior year."
-    }
-   ],
-   "ts": "2026-10-27T08:44:43.390000-04:00",
-   "adj_ret_5m": 0.001850440840317935
-  },
-  {
-   "seg_id": 28,
-   "t0_ms": 923390,
-   "t1_ms": 967340,
-   "speaker": "Management",
-   "text": "Our balance sheet remains strong, with our net debt leverage of 1.3 times EBITDA, which is below our target range of two to two and a half times. We're continuing to judiciously manage our balance sheet as we await a court decision related to our ongoing dispute with the IRS. We are confident in our long-term free cash flow generation and the optionality it gives us as we move through the fourth quarter and into 2027. Our priorities remain the same. Invest in our business and return capital to share owners. Now let me turn to guidance for full year 2026.",
-   "parts": [
+    },
     {
      "t0_ms": 923390,
      "text": "Our balance sheet remains strong, with our net debt leverage of 1.3 times EBITDA,"
@@ -920,7 +854,18 @@
     {
      "t0_ms": 934350,
      "text": "We're continuing to judiciously manage our balance sheet as we await a court decision"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:44:57.310000-04:00",
+   "adj_ret_5m": 0.001850440840317935
+  },
+  {
+   "seg_id": 23,
+   "t0_ms": 939630,
+   "t1_ms": 982540,
+   "speaker": "Management",
+   "text": "related to our ongoing dispute with the IRS. We are confident in our long-term free cash flow generation and the optionality it gives us as we move through the fourth quarter and into 2027. Our priorities remain the same. Invest in our business and return capital to share owners. Now let me turn to guidance for full year 2026. We now expect organic revenue growth of at least 5%, which includes the impact of slight de-stocking and six fewer days in the fourth quarter. Our commodity exposure overall remains",
+   "parts": [
     {
      "t0_ms": 939630,
      "text": "related to our ongoing dispute with the IRS. We are confident in our long-term free cash"
@@ -936,18 +881,7 @@
     {
      "t0_ms": 961470,
      "text": "to share owners. Now let me turn to guidance for full year 2026."
-    }
-   ],
-   "ts": "2026-10-27T08:45:23.390000-04:00",
-   "adj_ret_5m": -5.2443299867199755e-6
-  },
-  {
-   "seg_id": 29,
-   "t0_ms": 968860,
-   "t1_ms": 1011180,
-   "speaker": "Management",
-   "text": "We now expect organic revenue growth of at least 5%, which includes the impact of slight de-stocking and six fewer days in the fourth quarter. Our commodity exposure overall remains manageable. However, we are seeing elevated cost pressures in aggregate driven by increased logistics and transportation costs. We now expect comparable currency neutral earnings per share growth, excluding acquisitions and divestitures of at least 9%. Divestitures are now expected to be an approximate 2% headwind to comparable net revenues and we continue to expect an",
-   "parts": [
+    },
     {
      "t0_ms": 968860,
      "text": "We now expect organic revenue growth of at least 5%, which includes the impact of slight"
@@ -955,7 +889,18 @@
     {
      "t0_ms": 974780,
      "text": "de-stocking and six fewer days in the fourth quarter. Our commodity exposure overall remains"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:45:39.630000-04:00",
+   "adj_ret_5m": -5.2443299867199755e-6
+  },
+  {
+   "seg_id": 24,
+   "t0_ms": 982540,
+   "t1_ms": 1025740,
+   "speaker": "Management",
+   "text": "manageable. However, we are seeing elevated cost pressures in aggregate driven by increased logistics and transportation costs. We now expect comparable currency neutral earnings per share growth, excluding acquisitions and divestitures of at least 9%. Divestitures are now expected to be an approximate 2% headwind to comparable net revenues and we continue to expect an approximate 1% headwind to comparable earnings per share. This assumes the pending sale of Coca-Cola beverages Africa closes during the fourth quarter, subject to regulatory approvals.",
+   "parts": [
     {
      "t0_ms": 982540,
      "text": "manageable. However, we are seeing elevated cost pressures in aggregate driven by increased"
@@ -971,18 +916,7 @@
     {
      "t0_ms": 1005420,
      "text": "to be an approximate 2% headwind to comparable net revenues and we continue to expect an"
-    }
-   ],
-   "ts": "2026-10-27T08:46:08.860000-04:00",
-   "adj_ret_5m": -0.0009374006610631813
-  },
-  {
-   "seg_id": 30,
-   "t0_ms": 1011260,
-   "t1_ms": 1054460,
-   "speaker": "Management",
-   "text": "approximate 1% headwind to comparable earnings per share. This assumes the pending sale of Coca-Cola beverages Africa closes during the fourth quarter, subject to regulatory approvals. Based on current rates and our hedge positions, we continue to expect an approximate one point currency tailwind to comparable net revenues and continue to expect an approximate three point currency tailwind to comparable earnings per share for full year 2026. Our underlying effective tax rate for 2026 is now expected to be 19.7%. This reflects",
-   "parts": [
+    },
     {
      "t0_ms": 1011260,
      "text": "approximate 1% headwind to comparable earnings per share. This assumes the pending sale of"
@@ -990,7 +924,18 @@
     {
      "t0_ms": 1019820,
      "text": "Coca-Cola beverages Africa closes during the fourth quarter, subject to regulatory approvals."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:46:22.540000-04:00",
+   "adj_ret_5m": -0.0009374006610631813
+  },
+  {
+   "seg_id": 25,
+   "t0_ms": 1027660,
+   "t1_ms": 1069260,
+   "speaker": "Management",
+   "text": "Based on current rates and our hedge positions, we continue to expect an approximate one point currency tailwind to comparable net revenues and continue to expect an approximate three point currency tailwind to comparable earnings per share for full year 2026. Our underlying effective tax rate for 2026 is now expected to be 19.7%. This reflects certain benefits in the current year that we do not expect to repeat going forward. All in, we now expect comparable earnings per share growth of at least 11% versus $3 in 2025.",
+   "parts": [
     {
      "t0_ms": 1027660,
      "text": "Based on current rates and our hedge positions, we continue to expect an approximate one point"
@@ -1006,18 +951,7 @@
     {
      "t0_ms": 1045900,
      "text": "Our underlying effective tax rate for 2026 is now expected to be 19.7%. This reflects"
-    }
-   ],
-   "ts": "2026-10-27T08:46:51.260000-04:00",
-   "adj_ret_5m": -0.0009374006610631813
-  },
-  {
-   "seg_id": 31,
-   "t0_ms": 1054460,
-   "t1_ms": 1098980,
-   "speaker": "Management",
-   "text": "certain benefits in the current year that we do not expect to repeat going forward. All in, we now expect comparable earnings per share growth of at least 11% versus $3 in 2025. Finally, we now expect to generate at least $13 billion of free cash flow in 2026. There are some considerations to keep in mind for the rest of the year. As a reminder, the fourth quarter will have six fewer days versus the prior year. We also now expect slight de-stocking in the fourth quarter. Therefore, we expect concentrate",
-   "parts": [
+    },
     {
      "t0_ms": 1054460,
      "text": "certain benefits in the current year that we do not expect to repeat going forward."
@@ -1025,7 +959,18 @@
     {
      "t0_ms": 1061180,
      "text": "All in, we now expect comparable earnings per share growth of at least 11% versus $3 in 2025."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:47:07.660000-04:00",
+   "adj_ret_5m": -0.0012135323562151301
+  },
+  {
+   "seg_id": 26,
+   "t0_ms": 1072220,
+   "t1_ms": 1114190,
+   "speaker": "Management",
+   "text": "Finally, we now expect to generate at least $13 billion of free cash flow in 2026. There are some considerations to keep in mind for the rest of the year. As a reminder, the fourth quarter will have six fewer days versus the prior year. We also now expect slight de-stocking in the fourth quarter. Therefore, we expect concentrate shipments to slightly trail unit case volume for the full year. For the fourth quarter, following the anticipated refranchising of CCBA, we expect a four point headwind to comparable",
+   "parts": [
     {
      "t0_ms": 1072220,
      "text": "Finally, we now expect to generate at least $13 billion of free cash flow in 2026."
@@ -1041,18 +986,7 @@
     {
      "t0_ms": 1092420,
      "text": "We also now expect slight de-stocking in the fourth quarter. Therefore, we expect concentrate"
-    }
-   ],
-   "ts": "2026-10-27T08:47:34.460000-04:00",
-   "adj_ret_5m": -0.0012135323562151301
-  },
-  {
-   "seg_id": 32,
-   "t0_ms": 1098980,
-   "t1_ms": 1139870,
-   "speaker": "Management",
-   "text": "shipments to slightly trail unit case volume for the full year. For the fourth quarter, following the anticipated refranchising of CCBA, we expect a four point headwind to comparable net revenues, a three point headwind to comparable earnings per share and slight margin benefits. While it is too early to provide specific guidance for 2027, we do want to share some considerations based on what we know today. Overall, we expect consumer behaviour to remain largely unchanged, with value being a very important",
-   "parts": [
+    },
     {
      "t0_ms": 1098980,
      "text": "shipments to slightly trail unit case volume for the full year. For the fourth quarter,"
@@ -1060,7 +994,18 @@
     {
      "t0_ms": 1107630,
      "text": "following the anticipated refranchising of CCBA, we expect a four point headwind to comparable"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:47:52.220000-04:00",
+   "adj_ret_5m": -0.0012135323562151301
+  },
+  {
+   "seg_id": 27,
+   "t0_ms": 1114190,
+   "t1_ms": 1154350,
+   "speaker": "Management",
+   "text": "net revenues, a three point headwind to comparable earnings per share and slight margin benefits. While it is too early to provide specific guidance for 2027, we do want to share some considerations based on what we know today. Overall, we expect consumer behaviour to remain largely unchanged, with value being a very important consideration across all markets and income groups. The investments we've made to date and the actions we've taken across our business position us to enter 2027 ready to execute.",
+   "parts": [
     {
      "t0_ms": 1114190,
      "text": "net revenues, a three point headwind to comparable earnings per share and slight margin benefits."
@@ -1076,18 +1021,7 @@
     {
      "t0_ms": 1133150,
      "text": "we expect consumer behaviour to remain largely unchanged, with value being a very important"
-    }
-   ],
-   "ts": "2026-10-27T08:48:18.980000-04:00",
-   "adj_ret_5m": -0.002880025772029282
-  },
-  {
-   "seg_id": 33,
-   "t0_ms": 1139870,
-   "t1_ms": 1182670,
-   "speaker": "Management",
-   "text": "consideration across all markets and income groups. The investments we've made to date and the actions we've taken across our business position us to enter 2027 ready to execute. With respect to commodities, we continue to manage various cost pressures and look for ways to navigate the environment through productivity initiatives with our cross enterprise procurement group and using all of our revenue growth management levers. At the same time, we'll continue to invest behind our brands, maintain disciplined cost management and focus on expanding margins over time.",
-   "parts": [
+    },
     {
      "t0_ms": 1139870,
      "text": "consideration across all markets and income groups. The investments we've made to date"
@@ -1095,7 +1029,18 @@
     {
      "t0_ms": 1146990,
      "text": "and the actions we've taken across our business position us to enter 2027 ready to execute."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:48:34.190000-04:00",
+   "adj_ret_5m": -0.002880025772029282
+  },
+  {
+   "seg_id": 28,
+   "t0_ms": 1156190,
+   "t1_ms": 1198300,
+   "speaker": "Management",
+   "text": "With respect to commodities, we continue to manage various cost pressures and look for ways to navigate the environment through productivity initiatives with our cross enterprise procurement group and using all of our revenue growth management levers. At the same time, we'll continue to invest behind our brands, maintain disciplined cost management and focus on expanding margins over time. With the anticipated refranchising of CCBA, we expect an eight point headwind to comparable net revenues and a two point headwind to comparable earnings per share, but expect",
+   "parts": [
     {
      "t0_ms": 1156190,
      "text": "With respect to commodities, we continue to manage various cost pressures and look for ways"
@@ -1115,18 +1060,7 @@
     {
      "t0_ms": 1176990,
      "text": "maintain disciplined cost management and focus on expanding margins over time."
-    }
-   ],
-   "ts": "2026-10-27T08:48:59.870000-04:00",
-   "adj_ret_5m": -0.002880025772029282
-  },
-  {
-   "seg_id": 34,
-   "t0_ms": 1185180,
-   "t1_ms": 1227180,
-   "speaker": "Management",
-   "text": "With the anticipated refranchising of CCBA, we expect an eight point headwind to comparable net revenues and a two point headwind to comparable earnings per share, but expect positive impacts to both our margins and the return profile of our business. Additionally, as previously announced, we are exploring a potential IPO of our bottling operations in India and will provide further updates as appropriate. Regarding currency, if we assume current rates and our hedge positions, there would be a slight headwind to both comparable",
-   "parts": [
+    },
     {
      "t0_ms": 1185180,
      "text": "With the anticipated refranchising of CCBA, we expect an eight point headwind to comparable"
@@ -1134,7 +1068,18 @@
     {
      "t0_ms": 1191660,
      "text": "net revenues and a two point headwind to comparable earnings per share, but expect"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:49:16.190000-04:00",
+   "adj_ret_5m": -0.0037759411092900264
+  },
+  {
+   "seg_id": 29,
+   "t0_ms": 1198300,
+   "t1_ms": 1241500,
+   "speaker": "Management",
+   "text": "positive impacts to both our margins and the return profile of our business. Additionally, as previously announced, we are exploring a potential IPO of our bottling operations in India and will provide further updates as appropriate. Regarding currency, if we assume current rates and our hedge positions, there would be a slight headwind to both comparable net revenues and comparable earnings per share for full year 2027. Many factors could impact both our currency outlook and broader business outlook between now and when we expect to",
+   "parts": [
     {
      "t0_ms": 1198300,
      "text": "positive impacts to both our margins and the return profile of our business. Additionally,"
@@ -1150,18 +1095,7 @@
     {
      "t0_ms": 1220620,
      "text": "current rates and our hedge positions, there would be a slight headwind to both comparable"
-    }
-   ],
-   "ts": "2026-10-27T08:49:45.180000-04:00",
-   "adj_ret_5m": -0.0037759411092900264
-  },
-  {
-   "seg_id": 35,
-   "t0_ms": 1227180,
-   "t1_ms": 1269220,
-   "speaker": "Management",
-   "text": "net revenues and comparable earnings per share for full year 2027. Many factors could impact both our currency outlook and broader business outlook between now and when we expect to provide guidance in February. To summarize, we are pleased with our third quarter performance. Our proven all weather strategy continues to be our best ally to sustain our momentum for the rest of the year and into 2027. Across our many markets and operating environments, our people continue to rise to the occasion and we are grateful for their dedication",
-   "parts": [
+    },
     {
      "t0_ms": 1227180,
      "text": "net revenues and comparable earnings per share for full year 2027. Many factors could impact"
@@ -1169,7 +1103,18 @@
     {
      "t0_ms": 1235980,
      "text": "both our currency outlook and broader business outlook between now and when we expect to"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:49:58.300000-04:00",
+   "adj_ret_5m": -0.0037759411092900264
+  },
+  {
+   "seg_id": 30,
+   "t0_ms": 1241500,
+   "t1_ms": 1273140,
+   "speaker": "Management",
+   "text": "provide guidance in February. To summarize, we are pleased with our third quarter performance. Our proven all weather strategy continues to be our best ally to sustain our momentum for the rest of the year and into 2027. Across our many markets and operating environments, our people continue to rise to the occasion and we are grateful for their dedication every day. With that operator, we are ready to take questions.",
+   "parts": [
     {
      "t0_ms": 1241500,
      "text": "provide guidance in February. To summarize, we are pleased with our third quarter performance."
@@ -1185,32 +1130,21 @@
     {
      "t0_ms": 1263060,
      "text": "our people continue to rise to the occasion and we are grateful for their dedication"
-    }
-   ],
-   "ts": "2026-10-27T08:50:27.180000-04:00",
-   "adj_ret_5m": -0.0015944418417315198
-  },
-  {
-   "seg_id": 36,
-   "t0_ms": 1269220,
-   "t1_ms": 1273140,
-   "speaker": "Management",
-   "text": "every day. With that operator, we are ready to take questions.",
-   "parts": [
+    },
     {
      "t0_ms": 1269220,
      "text": "every day. With that operator, we are ready to take questions."
     }
    ],
-   "ts": "2026-10-27T08:51:09.220000-04:00",
-   "adj_ret_5m": -0.0013697935710106357
+   "ts": "2026-10-27T08:50:41.500000-04:00",
+   "adj_ret_5m": -0.0015944418417315198
   },
   {
-   "seg_id": 37,
+   "seg_id": 31,
    "t0_ms": 1275380,
-   "t1_ms": 1284100,
+   "t1_ms": 1294260,
    "speaker": "Operator",
-   "text": "Ladies and gentlemen, to ask a question, you'll need to press star one on your telephone. To withdraw your question, press star one again. In the interest of time,",
+   "text": "Ladies and gentlemen, to ask a question, you'll need to press star one on your telephone. To withdraw your question, press star one again. In the interest of time, we ask that you please give yourself to one question. If you have any additional questions, you may rejoin the queue. Our first question comes from Dara Mosenian from Morgan Stanley.",
    "parts": [
     {
      "t0_ms": 1275380,
@@ -1219,52 +1153,30 @@
     {
      "t0_ms": 1279380,
      "text": "telephone. To withdraw your question, press star one again. In the interest of time,"
+    },
+    {
+     "t0_ms": 1284100,
+     "text": "we ask that you please give yourself to one question. If you have any additional questions,"
+    },
+    {
+     "t0_ms": 1288420,
+     "text": "you may rejoin the queue. Our first question comes from Dara Mosenian from Morgan Stanley."
     }
    ],
    "ts": "2026-10-27T08:51:15.380000-04:00",
    "adj_ret_5m": -0.0013697935710106357
   },
   {
-   "seg_id": 38,
-   "t0_ms": 1284100,
-   "t1_ms": 1288420,
-   "speaker": "Management",
-   "text": "we ask that you please give yourself to one question. If you have any additional questions,",
+   "seg_id": 32,
+   "t0_ms": 1294260,
+   "t1_ms": 1335460,
+   "speaker": "Analyst",
+   "text": "Please go ahead, your line is open. Hey, good morning. Obviously another very strong unit case result in Q3 on top of Q2 strength, but the summer results were aided by events such as the World Cup and favorable weather. So, A, I wanted to touch on those events. It'd be helpful just what you learn from the summer events with the World Cup and even America's 250, how you're using technology investments to enable the system to better activate those events, but also really how you're working to hold on to incremental customers or greater demand from the existing customers during the events",
    "parts": [
-    {
-     "t0_ms": 1284100,
-     "text": "we ask that you please give yourself to one question. If you have any additional questions,"
-    }
-   ],
-   "ts": "2026-10-27T08:51:24.100000-04:00",
-   "adj_ret_5m": -0.0013697935710106357
-  },
-  {
-   "seg_id": 39,
-   "t0_ms": 1288420,
-   "t1_ms": 1302020,
-   "speaker": "Operator",
-   "text": "you may rejoin the queue. Our first question comes from Dara Mosenian from Morgan Stanley. Please go ahead, your line is open. Hey, good morning. Obviously another very strong unit",
-   "parts": [
-    {
-     "t0_ms": 1288420,
-     "text": "you may rejoin the queue. Our first question comes from Dara Mosenian from Morgan Stanley."
-    },
     {
      "t0_ms": 1294260,
      "text": "Please go ahead, your line is open. Hey, good morning. Obviously another very strong unit"
-    }
-   ],
-   "ts": "2026-10-27T08:51:28.420000-04:00",
-   "adj_ret_5m": -0.0013697935710106357
-  },
-  {
-   "seg_id": 40,
-   "t0_ms": 1302020,
-   "t1_ms": 1340740,
-   "speaker": "Analyst",
-   "text": "case result in Q3 on top of Q2 strength, but the summer results were aided by events such as the World Cup and favorable weather. So, A, I wanted to touch on those events. It'd be helpful just what you learn from the summer events with the World Cup and even America's 250, how you're using technology investments to enable the system to better activate those events, but also really how you're working to hold on to incremental customers or greater demand from the existing customers during the events as you look across your brand portfolio. And then B, just maybe taking it broader,",
-   "parts": [
+    },
     {
      "t0_ms": 1302020,
      "text": "case result in Q3 on top of Q2 strength, but the summer results were aided by events such"
@@ -1288,37 +1200,26 @@
     {
      "t0_ms": 1331460,
      "text": "customers or greater demand from the existing customers during the events"
-    },
-    {
-     "t0_ms": 1336260,
-     "text": "as you look across your brand portfolio. And then B, just maybe taking it broader,"
     }
    ],
-   "ts": "2026-10-27T08:51:42.020000-04:00",
+   "ts": "2026-10-27T08:51:34.260000-04:00",
    "adj_ret_5m": -0.0013697935710106357
   },
   {
-   "seg_id": 41,
-   "t0_ms": 1341460,
-   "t1_ms": 1348420,
+   "seg_id": 33,
+   "t0_ms": 1336260,
+   "t1_ms": 1357860,
    "speaker": "Analyst",
-   "text": "as you look out to 2027 across the business globally, can you just discuss the challenge",
+   "text": "as you look across your brand portfolio. And then B, just maybe taking it broader, as you look out to 2027 across the business globally, can you just discuss the challenge you see from cycling some of these tougher comparisons on the unit case side and how you think about the system's ability to continue to sustain volume growth going forward? Thanks.",
    "parts": [
+    {
+     "t0_ms": 1336260,
+     "text": "as you look across your brand portfolio. And then B, just maybe taking it broader,"
+    },
     {
      "t0_ms": 1341460,
      "text": "as you look out to 2027 across the business globally, can you just discuss the challenge"
-    }
-   ],
-   "ts": "2026-10-27T08:52:21.460000-04:00",
-   "adj_ret_5m": -0.004158702838984452
-  },
-  {
-   "seg_id": 42,
-   "t0_ms": 1348420,
-   "t1_ms": 1387780,
-   "speaker": "Management",
-   "text": "you see from cycling some of these tougher comparisons on the unit case side and how you think about the system's ability to continue to sustain volume growth going forward? Thanks. Thank you, Dara. It's great to hear from you. Look, first of all, we're really excited with the results that we had on Q3 because it shows sustained and steady momentum that we had from the first half. It was important to continue that through to the Q3, pursuing the numbers that we're getting more from our markets and more from our categories. And that showed up also",
-   "parts": [
+    },
     {
      "t0_ms": 1348420,
      "text": "you see from cycling some of these tougher comparisons on the unit case side and how"
@@ -1326,7 +1227,18 @@
     {
      "t0_ms": 1352980,
      "text": "you think about the system's ability to continue to sustain volume growth going forward? Thanks."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:52:16.260000-04:00",
+   "adj_ret_5m": -0.004158702838984452
+  },
+  {
+   "seg_id": 34,
+   "t0_ms": 1359300,
+   "t1_ms": 1401300,
+   "speaker": "Management",
+   "text": "Thank you, Dara. It's great to hear from you. Look, first of all, we're really excited with the results that we had on Q3 because it shows sustained and steady momentum that we had from the first half. It was important to continue that through to the Q3, pursuing the numbers that we're getting more from our markets and more from our categories. And that showed up also in how we continue to gain value share globally. So, it's 22 consecutive quarters of value share again. So, we're feeling that we got the right momentum. The strategy is working",
+   "parts": [
     {
      "t0_ms": 1359300,
      "text": "Thank you, Dara. It's great to hear from you. Look, first of all, we're really excited with"
@@ -1342,18 +1254,7 @@
     {
      "t0_ms": 1380660,
      "text": "that we're getting more from our markets and more from our categories. And that showed up also"
-    }
-   ],
-   "ts": "2026-10-27T08:52:28.420000-04:00",
-   "adj_ret_5m": -0.004158702838984452
-  },
-  {
-   "seg_id": 43,
-   "t0_ms": 1387780,
-   "t1_ms": 1428500,
-   "speaker": "Management",
-   "text": "in how we continue to gain value share globally. So, it's 22 consecutive quarters of value share again. So, we're feeling that we got the right momentum. The strategy is working in an environment that continues to be very dynamic. To your point about the World Cup, and specifically here in the U.S., also the 250 campaign, those were great moments for us to pressure test our end-to-end activation, going from the brand strategy, the innovations that we brought to life, the revenue growth management and execution coming in a very integrated way.",
-   "parts": [
+    },
     {
      "t0_ms": 1387780,
      "text": "in how we continue to gain value share globally. So, it's 22 consecutive quarters of value share"
@@ -1361,7 +1262,18 @@
     {
      "t0_ms": 1396660,
      "text": "again. So, we're feeling that we got the right momentum. The strategy is working"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:52:39.300000-04:00",
+   "adj_ret_5m": -0.004158702838984452
+  },
+  {
+   "seg_id": 35,
+   "t0_ms": 1401300,
+   "t1_ms": 1443860,
+   "speaker": "Management",
+   "text": "in an environment that continues to be very dynamic. To your point about the World Cup, and specifically here in the U.S., also the 250 campaign, those were great moments for us to pressure test our end-to-end activation, going from the brand strategy, the innovations that we brought to life, the revenue growth management and execution coming in a very integrated way. We showed up really well as a system, not only in North America, but globally. We leveraged that into Q3 and we're going to continue to leverage this in Q4 and 2027. Parts of the tech, data,",
+   "parts": [
     {
      "t0_ms": 1401300,
      "text": "in an environment that continues to be very dynamic. To your point about the World Cup,"
@@ -1377,18 +1289,7 @@
     {
      "t0_ms": 1422660,
      "text": "brought to life, the revenue growth management and execution coming in a very integrated way."
-    }
-   ],
-   "ts": "2026-10-27T08:53:07.780000-04:00",
-   "adj_ret_5m": -0.0029912438135639707
-  },
-  {
-   "seg_id": 44,
-   "t0_ms": 1429380,
-   "t1_ms": 1474260,
-   "speaker": "Management",
-   "text": "We showed up really well as a system, not only in North America, but globally. We leveraged that into Q3 and we're going to continue to leverage this in Q4 and 2027. Parts of the tech, data, and AI that we used during the World Cup, you're seeing on campaigns like Fanta, Halloween, that you can see the connected packaging really with great content and going all the way down to a transaction which brings that ability for us to start pressure test, the opportunities to drive more engagement all the way to transactions moving forward. So, the plans continue to be addressed market by market in an environment that continues to be very dynamic.",
-   "parts": [
+    },
     {
      "t0_ms": 1429380,
      "text": "We showed up really well as a system, not only in North America, but globally. We leveraged that"
@@ -1396,7 +1297,18 @@
     {
      "t0_ms": 1435220,
      "text": "into Q3 and we're going to continue to leverage this in Q4 and 2027. Parts of the tech, data,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:53:21.300000-04:00",
+   "adj_ret_5m": -0.0029912438135639707
+  },
+  {
+   "seg_id": 36,
+   "t0_ms": 1443860,
+   "t1_ms": 1484180,
+   "speaker": "Management",
+   "text": "and AI that we used during the World Cup, you're seeing on campaigns like Fanta, Halloween, that you can see the connected packaging really with great content and going all the way down to a transaction which brings that ability for us to start pressure test, the opportunities to drive more engagement all the way to transactions moving forward. So, the plans continue to be addressed market by market in an environment that continues to be very dynamic. And we feel good about where we are right now for Q3 and building the plans for 2027 as well.",
+   "parts": [
     {
      "t0_ms": 1443860,
      "text": "and AI that we used during the World Cup, you're seeing on campaigns like Fanta, Halloween,"
@@ -1416,22 +1328,22 @@
     {
      "t0_ms": 1469620,
      "text": "addressed market by market in an environment that continues to be very dynamic."
-    }
-   ],
-   "ts": "2026-10-27T08:53:49.380000-04:00",
-   "adj_ret_5m": -0.0029912438135639707
-  },
-  {
-   "seg_id": 45,
-   "t0_ms": 1475780,
-   "t1_ms": 1518740,
-   "speaker": "Management",
-   "text": "And we feel good about where we are right now for Q3 and building the plans for 2027 as well. To the point that you asked as well on what we're going to be bringing in for next year, I always start with the energy that we see with our botulers, our customers, when they see our plans here to date and what we are laying up for the rest of the year next year. Yes, we're cycling year to date, year to date, high volume year, but we earned that, right, with getting closer to the consumer and building",
-   "parts": [
+    },
     {
      "t0_ms": 1475780,
      "text": "And we feel good about where we are right now for Q3 and building the plans for 2027 as well."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:54:03.860000-04:00",
+   "adj_ret_5m": -0.00012147627927161508
+  },
+  {
+   "seg_id": 37,
+   "t0_ms": 1484180,
+   "t1_ms": 1526020,
+   "speaker": "Management",
+   "text": "To the point that you asked as well on what we're going to be bringing in for next year, I always start with the energy that we see with our botulers, our customers, when they see our plans here to date and what we are laying up for the rest of the year next year. Yes, we're cycling year to date, year to date, high volume year, but we earned that, right, with getting closer to the consumer and building the flexibility on our plans to develop the right foundations to get where we are.",
+   "parts": [
     {
      "t0_ms": 1484180,
      "text": "To the point that you asked as well on what we're going to be bringing in for next year,"
@@ -1451,22 +1363,22 @@
     {
      "t0_ms": 1512180,
      "text": "year, but we earned that, right, with getting closer to the consumer and building"
-    }
-   ],
-   "ts": "2026-10-27T08:54:35.780000-04:00",
-   "adj_ret_5m": -0.00012147627927161508
-  },
-  {
-   "seg_id": 46,
-   "t0_ms": 1519620,
-   "t1_ms": 1544180,
-   "speaker": "Management",
-   "text": "the flexibility on our plans to develop the right foundations to get where we are. So, we believe in our momentum, we believe in the plans, a lot still to happen until we get to next year, but we believe that we have everything that is under our control to guarantee that we continue to deliver on our long-term algorithm.",
-   "parts": [
+    },
     {
      "t0_ms": 1519620,
      "text": "the flexibility on our plans to develop the right foundations to get where we are."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:54:44.180000-04:00",
+   "adj_ret_5m": -0.00012147627927161508
+  },
+  {
+   "seg_id": 38,
+   "t0_ms": 1526020,
+   "t1_ms": 1544180,
+   "speaker": "Management",
+   "text": "So, we believe in our momentum, we believe in the plans, a lot still to happen until we get to next year, but we believe that we have everything that is under our control to guarantee that we continue to deliver on our long-term algorithm.",
+   "parts": [
     {
      "t0_ms": 1526020,
      "text": "So, we believe in our momentum, we believe in the plans, a lot still to happen until"
@@ -1480,35 +1392,35 @@
      "text": "to guarantee that we continue to deliver on our long-term algorithm."
     }
    ],
-   "ts": "2026-10-27T08:55:19.620000-04:00",
+   "ts": "2026-10-27T08:55:26.020000-04:00",
    "adj_ret_5m": -0.0019253217922209354
   },
   {
-   "seg_id": 47,
+   "seg_id": 39,
    "t0_ms": 1547700,
-   "t1_ms": 1564400,
+   "t1_ms": 1551700,
    "speaker": "Operator",
-   "text": "Our next question comes from Chris Carey from Wells Fargo Securities. Please go ahead, your line is open. Hi, good morning everyone. Good morning Chris. A key strategy coming into",
+   "text": "Our next question comes from Chris Carey from Wells Fargo Securities. Please go ahead,",
    "parts": [
     {
      "t0_ms": 1547700,
      "text": "Our next question comes from Chris Carey from Wells Fargo Securities. Please go ahead,"
-    },
-    {
-     "t0_ms": 1551700,
-     "text": "your line is open. Hi, good morning everyone. Good morning Chris. A key strategy coming into"
     }
    ],
    "ts": "2026-10-27T08:55:47.700000-04:00",
    "adj_ret_5m": -0.0019253217922209354
   },
   {
-   "seg_id": 48,
-   "t0_ms": 1564400,
-   "t1_ms": 1609200,
+   "seg_id": 40,
+   "t0_ms": 1551700,
+   "t1_ms": 1596240,
    "speaker": "Analyst",
-   "text": "the year was to drive more balanced top line across volume and price mix. Certainly, as noted with Daria's question, you're on track for an exceptional year from a volume delivery standpoint and you'll have to compare against that going into next year, as you just noted. But one of the things that I wanted to drill into a bit was the price mix side, which if it turns out to be about 2% this year, we'll see, could prove one of the lower price mix years in about a decade. So, the question is really as you go into 2027, how do you think the price mix strategy",
+   "text": "your line is open. Hi, good morning everyone. Good morning Chris. A key strategy coming into the year was to drive more balanced top line across volume and price mix. Certainly, as noted with Daria's question, you're on track for an exceptional year from a volume delivery standpoint and you'll have to compare against that going into next year, as you just noted. But one of the things that I wanted to drill into a bit was the price mix side, which if it turns out to be about 2% this year, we'll see,",
    "parts": [
+    {
+     "t0_ms": 1551700,
+     "text": "your line is open. Hi, good morning everyone. Good morning Chris. A key strategy coming into"
+    },
     {
      "t0_ms": 1564400,
      "text": "the year was to drive more balanced top line across volume and price mix. Certainly,"
@@ -1528,7 +1440,18 @@
     {
      "t0_ms": 1590480,
      "text": "the price mix side, which if it turns out to be about 2% this year, we'll see,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:55:51.700000-04:00",
+   "adj_ret_5m": -0.0019253217922209354
+  },
+  {
+   "seg_id": 41,
+   "t0_ms": 1597040,
+   "t1_ms": 1637840,
+   "speaker": "Analyst",
+   "text": "could prove one of the lower price mix years in about a decade. So, the question is really as you go into 2027, how do you think the price mix strategy evolves so as to continue to deliver on the commitments that you have around your top line algorithm? And within that, can you perhaps provide a bit of perspective on how much control you have over that price mix line? There's clearly a geographic mix, there's category mix, you have pricing investments this year. And I think underlying",
+   "parts": [
     {
      "t0_ms": 1597040,
      "text": "could prove one of the lower price mix years in about a decade."
@@ -1536,33 +1459,11 @@
     {
      "t0_ms": 1601760,
      "text": "So, the question is really as you go into 2027, how do you think the price mix strategy"
-    }
-   ],
-   "ts": "2026-10-27T08:56:04.400000-04:00",
-   "adj_ret_5m": -0.0013857109610678764
-  },
-  {
-   "seg_id": 49,
-   "t0_ms": 1610000,
-   "t1_ms": 1616320,
-   "speaker": "Analyst",
-   "text": "evolves so as to continue to deliver on the commitments that you have around",
-   "parts": [
+    },
     {
      "t0_ms": 1610000,
      "text": "evolves so as to continue to deliver on the commitments that you have around"
-    }
-   ],
-   "ts": "2026-10-27T08:56:50-04:00",
-   "adj_ret_5m": -0.0013857109610678764
-  },
-  {
-   "seg_id": 50,
-   "t0_ms": 1616960,
-   "t1_ms": 1661680,
-   "speaker": "Management",
-   "text": "your top line algorithm? And within that, can you perhaps provide a bit of perspective on how much control you have over that price mix line? There's clearly a geographic mix, there's category mix, you have pricing investments this year. And I think underlying the question is just your ability to have control over the complexion of your top line, as opposed to there are just these headwinds coming at the price mix line that are perhaps out of your control as you go into next year. So, I'd love any context on that. Thanks. Thanks, Chris. A topic close to our hearts here. Let me just take a step back from the",
-   "parts": [
+    },
     {
      "t0_ms": 1616960,
      "text": "your top line algorithm? And within that, can you perhaps provide a bit of perspective on"
@@ -1574,7 +1475,18 @@
     {
      "t0_ms": 1631680,
      "text": "there's category mix, you have pricing investments this year. And I think underlying"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:56:37.040000-04:00",
+   "adj_ret_5m": -0.0013857109610678764
+  },
+  {
+   "seg_id": 42,
+   "t0_ms": 1637840,
+   "t1_ms": 1652400,
+   "speaker": "Analyst",
+   "text": "the question is just your ability to have control over the complexion of your top line, as opposed to there are just these headwinds coming at the price mix line that are perhaps out of your control as you go into next year. So, I'd love any context on that. Thanks.",
+   "parts": [
     {
      "t0_ms": 1637840,
      "text": "the question is just your ability to have control over the complexion of your top line,"
@@ -1586,22 +1498,22 @@
     {
      "t0_ms": 1647440,
      "text": "out of your control as you go into next year. So, I'd love any context on that. Thanks."
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:57:17.840000-04:00",
+   "adj_ret_5m": 0.0005578815092461831
+  },
+  {
+   "seg_id": 43,
+   "t0_ms": 1653280,
+   "t1_ms": 1697840,
+   "speaker": "Management",
+   "text": "Thanks, Chris. A topic close to our hearts here. Let me just take a step back from the quarter, in fact the last two quarters, and just a reminder that when you think about the two-year volume keg, it's still around the 2% mark, maybe slightly above that given the last two quarters. So, we still feel good about the objective to deliver a balanced revenue algorithm, two to three points volume, two to three points price mix as we move forward. When you take into account some of the factors that have impacted our price mix",
+   "parts": [
     {
      "t0_ms": 1653280,
      "text": "Thanks, Chris. A topic close to our hearts here. Let me just take a step back from the"
-    }
-   ],
-   "ts": "2026-10-27T08:56:56.960000-04:00",
-   "adj_ret_5m": -0.0013857109610678764
-  },
-  {
-   "seg_id": 51,
-   "t0_ms": 1661680,
-   "t1_ms": 1706080,
-   "speaker": "Management",
-   "text": "quarter, in fact the last two quarters, and just a reminder that when you think about the two-year volume keg, it's still around the 2% mark, maybe slightly above that given the last two quarters. So, we still feel good about the objective to deliver a balanced revenue algorithm, two to three points volume, two to three points price mix as we move forward. When you take into account some of the factors that have impacted our price mix numbers recently, it's worth unpacking a little bit. We mentioned in the script that",
-   "parts": [
+    },
     {
      "t0_ms": 1661680,
      "text": "quarter, in fact the last two quarters, and just a reminder that when you think about the"
@@ -1621,22 +1533,22 @@
     {
      "t0_ms": 1689920,
      "text": "forward. When you take into account some of the factors that have impacted our price mix"
-    },
-    {
-     "t0_ms": 1698480,
-     "text": "numbers recently, it's worth unpacking a little bit. We mentioned in the script that"
     }
    ],
-   "ts": "2026-10-27T08:57:41.680000-04:00",
+   "ts": "2026-10-27T08:57:33.280000-04:00",
    "adj_ret_5m": 0.0005578815092461831
   },
   {
-   "seg_id": 52,
-   "t0_ms": 1706640,
-   "t1_ms": 1746400,
+   "seg_id": 44,
+   "t0_ms": 1698480,
+   "t1_ms": 1737920,
    "speaker": "Management",
-   "text": "we had four points of underlying pricing in the quarter, and that's pretty consistent with our year-to-date numbers. A little bit of higher inflation from a couple of markets in the emerging world, but pretty consistent. I think it's the mix piece that has had a bigger impact on that PMO number, and maybe a little bit of a surprise to some. Within that, about two-thirds of it relate to actions that either we have taken ourselves",
+   "text": "numbers recently, it's worth unpacking a little bit. We mentioned in the script that we had four points of underlying pricing in the quarter, and that's pretty consistent with our year-to-date numbers. A little bit of higher inflation from a couple of markets in the emerging world, but pretty consistent. I think it's the mix piece that has had a bigger impact on that PMO number, and maybe a little bit of a surprise to some.",
    "parts": [
+    {
+     "t0_ms": 1698480,
+     "text": "numbers recently, it's worth unpacking a little bit. We mentioned in the script that"
+    },
     {
      "t0_ms": 1706640,
      "text": "we had four points of underlying pricing in the quarter, and that's pretty consistent with"
@@ -1652,22 +1564,22 @@
     {
      "t0_ms": 1729760,
      "text": "has had a bigger impact on that PMO number, and maybe a little bit of a surprise to some."
-    },
-    {
-     "t0_ms": 1738400,
-     "text": "Within that, about two-thirds of it relate to actions that either we have taken ourselves"
     }
    ],
-   "ts": "2026-10-27T08:58:26.640000-04:00",
+   "ts": "2026-10-27T08:58:18.480000-04:00",
    "adj_ret_5m": 0.0002947397345300917
   },
   {
-   "seg_id": 53,
-   "t0_ms": 1746400,
-   "t1_ms": 1785760,
+   "seg_id": 45,
+   "t0_ms": 1738400,
+   "t1_ms": 1779680,
    "speaker": "Management",
-   "text": "proactively or reflect just some of the inherent mix that has taken place this year, particularly with the finished goods performance. If you were to factor in the Topo Chico situation we've had this year, and you factor in the timing of investments, you take those out. Our price mix for the year is pretty much within the band that we would look to deliver. Now, as we go into 2027, it's a little early to give specifics on",
+   "text": "Within that, about two-thirds of it relate to actions that either we have taken ourselves proactively or reflect just some of the inherent mix that has taken place this year, particularly with the finished goods performance. If you were to factor in the Topo Chico situation we've had this year, and you factor in the timing of investments, you take those out. Our price mix for the year is pretty much within the band that we would",
    "parts": [
+    {
+     "t0_ms": 1738400,
+     "text": "Within that, about two-thirds of it relate to actions that either we have taken ourselves"
+    },
     {
      "t0_ms": 1746400,
      "text": "proactively or reflect just some of the inherent mix that has taken place this year,"
@@ -1683,22 +1595,22 @@
     {
      "t0_ms": 1771520,
      "text": "you take those out. Our price mix for the year is pretty much within the band that we would"
-    },
+    }
+   ],
+   "ts": "2026-10-27T08:58:58.400000-04:00",
+   "adj_ret_5m": 0.0002947397345300917
+  },
+  {
+   "seg_id": 46,
+   "t0_ms": 1779680,
+   "t1_ms": 1819200,
+   "speaker": "Management",
+   "text": "look to deliver. Now, as we go into 2027, it's a little early to give specifics on what we expect for 2027, but just look at the volume keg or the volume momentum that we have been delivering. We're continuing to look closely across the world at pricing dynamics going into 2027. Inflation is one factor, but we also take into account a number of other factors. The state of the consumer market by market, the competitive environment,",
+   "parts": [
     {
      "t0_ms": 1779680,
      "text": "look to deliver. Now, as we go into 2027, it's a little early to give specifics on"
-    }
-   ],
-   "ts": "2026-10-27T08:59:06.400000-04:00",
-   "adj_ret_5m": -0.00003977202279659142
-  },
-  {
-   "seg_id": 54,
-   "t0_ms": 1786720,
-   "t1_ms": 1829280,
-   "speaker": "Management",
-   "text": "what we expect for 2027, but just look at the volume keg or the volume momentum that we have been delivering. We're continuing to look closely across the world at pricing dynamics going into 2027. Inflation is one factor, but we also take into account a number of other factors. The state of the consumer market by market, the competitive environment, customer environment, etc. We provide a little more color in that in Feb, but the mix piece",
-   "parts": [
+    },
     {
      "t0_ms": 1786720,
      "text": "what we expect for 2027, but just look at the volume keg or the volume momentum that we have"
@@ -1714,22 +1626,22 @@
     {
      "t0_ms": 1813920,
      "text": "factors. The state of the consumer market by market, the competitive environment,"
-    },
-    {
-     "t0_ms": 1820400,
-     "text": "customer environment, etc. We provide a little more color in that in Feb, but the mix piece"
     }
    ],
-   "ts": "2026-10-27T08:59:46.720000-04:00",
+   "ts": "2026-10-27T08:59:39.680000-04:00",
    "adj_ret_5m": -0.00003977202279659142
   },
   {
-   "seg_id": 55,
-   "t0_ms": 1829280,
+   "seg_id": 47,
+   "t0_ms": 1820400,
    "t1_ms": 1852640,
    "speaker": "Management",
-   "text": "we'll continue to see some geomix headwinds just given the nature of the overall portfolio globally with the developing markets will continue, I believe, to outgrow some of the developed markets volumetrically. Two-thirds of the mix, as I said, this quarter were due to factors which we think are manageable going into next year.",
+   "text": "customer environment, etc. We provide a little more color in that in Feb, but the mix piece we'll continue to see some geomix headwinds just given the nature of the overall portfolio globally with the developing markets will continue, I believe, to outgrow some of the developed markets volumetrically. Two-thirds of the mix, as I said, this quarter were due to factors which we think are manageable going into next year.",
    "parts": [
+    {
+     "t0_ms": 1820400,
+     "text": "customer environment, etc. We provide a little more color in that in Feb, but the mix piece"
+    },
     {
      "t0_ms": 1829280,
      "text": "we'll continue to see some geomix headwinds just given the nature of the overall portfolio"
@@ -1747,11 +1659,11 @@
      "text": "were due to factors which we think are manageable going into next year."
     }
    ],
-   "ts": "2026-10-27T09:00:29.280000-04:00",
+   "ts": "2026-10-27T09:00:20.400000-04:00",
    "adj_ret_5m": -0.0036972065497951068
   },
   {
-   "seg_id": 56,
+   "seg_id": 48,
    "t0_ms": 1852640,
    "t1_ms": 1860560,
    "speaker": "Operator",
@@ -1770,11 +1682,11 @@
    "adj_ret_5m": -0.0036972065497951068
   },
   {
-   "seg_id": 57,
+   "seg_id": 49,
    "t0_ms": 1860560,
-   "t1_ms": 1900430,
+   "t1_ms": 1905470,
    "speaker": "Analyst",
-   "text": "LORINNE LIEBERMANN Great, thanks. Good morning. I wanted to talk a little bit about reinvestment. I know the mantra is more with more, and it looks like this quarter, in terms of the reinvestment that went into SGA, there was a lot of more. So if you could just talk a bit about how much advertising and marketing was up, how much of this is sort of a set the stage into 27 because the gross margins, and also while we're on margins, underlying gross margin, I think, in the slide was up 70 basis points. So just curious how to think about that. You talked about mix has actually been a headwind. So is it just the absolute strength of the volume flowing through",
+   "text": "LORINNE LIEBERMANN Great, thanks. Good morning. I wanted to talk a little bit about reinvestment. I know the mantra is more with more, and it looks like this quarter, in terms of the reinvestment that went into SGA, there was a lot of more. So if you could just talk a bit about how much advertising and marketing was up, how much of this is sort of a set the stage into 27 because the gross margins, and also while we're on margins, underlying gross margin, I think, in the slide was up 70 basis points. So just curious how to think about that. You talked about mix has actually been a headwind. So is it just the absolute strength of the volume flowing through that's driving that gross margin strength? So marketing investments, where the SGA dollars",
    "parts": [
     {
      "t0_ms": 1860560,
@@ -1807,26 +1719,37 @@
     {
      "t0_ms": 1895710,
      "text": "actually been a headwind. So is it just the absolute strength of the volume flowing through"
+    },
+    {
+     "t0_ms": 1900510,
+     "text": "that's driving that gross margin strength? So marketing investments, where the SGA dollars"
     }
    ],
    "ts": "2026-10-27T09:01:00.560000-04:00",
    "adj_ret_5m": -0.001519398803149663
   },
   {
-   "seg_id": 58,
-   "t0_ms": 1900510,
-   "t1_ms": 1940030,
-   "speaker": "Management",
-   "text": "that's driving that gross margin strength? So marketing investments, where the SGA dollars went, and then drivers of the underlying 70 basis points on gross margin. Thanks. LORINNE LIEBERMANN Yes, Lauren, thank you. Let me start with the gross margin numbers. As you're well aware, we think of gross margin in three distinctive buckets. The underlying strength of the business, the structural and currency were benefiting from some currency headwinds or some currency tailwinds this year. But the underlying numbers just",
+   "seg_id": 50,
+   "t0_ms": 1905470,
+   "t1_ms": 1909070,
+   "speaker": "Analyst",
+   "text": "went, and then drivers of the underlying 70 basis points on gross margin. Thanks.",
    "parts": [
-    {
-     "t0_ms": 1900510,
-     "text": "that's driving that gross margin strength? So marketing investments, where the SGA dollars"
-    },
     {
      "t0_ms": 1905470,
      "text": "went, and then drivers of the underlying 70 basis points on gross margin. Thanks."
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:01:45.470000-04:00",
+   "adj_ret_5m": -0.001519398803149663
+  },
+  {
+   "seg_id": 51,
+   "t0_ms": 1909150,
+   "t1_ms": 1950590,
+   "speaker": "Management",
+   "text": "LORINNE LIEBERMANN Yes, Lauren, thank you. Let me start with the gross margin numbers. As you're well aware, we think of gross margin in three distinctive buckets. The underlying strength of the business, the structural and currency were benefiting from some currency headwinds or some currency tailwinds this year. But the underlying numbers just reflect the quality of top line and the ongoing focus we have on managing our cost base. So",
+   "parts": [
     {
      "t0_ms": 1909150,
      "text": "LORINNE LIEBERMANN Yes, Lauren, thank you. Let me start with the gross margin"
@@ -1842,22 +1765,22 @@
     {
      "t0_ms": 1930670,
      "text": "currency headwinds or some currency tailwinds this year. But the underlying numbers just"
-    }
-   ],
-   "ts": "2026-10-27T09:01:40.510000-04:00",
-   "adj_ret_5m": -0.001519398803149663
-  },
-  {
-   "seg_id": 59,
-   "t0_ms": 1940030,
-   "t1_ms": 1983870,
-   "speaker": "Management",
-   "text": "reflect the quality of top line and the ongoing focus we have on managing our cost base. So as you think about the underlying going forward, implied in our algorithm is modest expansion, we believe we have the ability to sustain that as we go forward. Regarding the marketing investments, yes, we have taken a number of actions in recent months to set us up for a strong start to 2027. We have double digit growth above the line,",
-   "parts": [
+    },
     {
      "t0_ms": 1940030,
      "text": "reflect the quality of top line and the ongoing focus we have on managing our cost base. So"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:01:49.150000-04:00",
+   "adj_ret_5m": -0.001519398803149663
+  },
+  {
+   "seg_id": 52,
+   "t0_ms": 1952670,
+   "t1_ms": 1989070,
+   "speaker": "Management",
+   "text": "as you think about the underlying going forward, implied in our algorithm is modest expansion, we believe we have the ability to sustain that as we go forward. Regarding the marketing investments, yes, we have taken a number of actions in recent months to set us up for a strong start to 2027. We have double digit growth above the line, and we have a number of programs that we're working in partnership with our",
+   "parts": [
     {
      "t0_ms": 1952670,
      "text": "as you think about the underlying going forward, implied in our algorithm is modest expansion,"
@@ -1873,22 +1796,22 @@
     {
      "t0_ms": 1974350,
      "text": "to set us up for a strong start to 2027. We have double digit growth above the line,"
-    }
-   ],
-   "ts": "2026-10-27T09:02:20.030000-04:00",
-   "adj_ret_5m": -0.0028270117445708953
-  },
-  {
-   "seg_id": 60,
-   "t0_ms": 1983870,
-   "t1_ms": 2014590,
-   "speaker": "Management",
-   "text": "and we have a number of programs that we're working in partnership with our botters on, as I said, to be ready for a strong start into 2027. I would expect as we go forward that we will have marketing investments growing more or less in line with gross margins to get the shape of the P&L where we want it to be, not just for 2027,",
-   "parts": [
+    },
     {
      "t0_ms": 1983870,
      "text": "and we have a number of programs that we're working in partnership with our"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:02:32.670000-04:00",
+   "adj_ret_5m": -0.0028270117445708953
+  },
+  {
+   "seg_id": 53,
+   "t0_ms": 1989070,
+   "t1_ms": 2014590,
+   "speaker": "Management",
+   "text": "botters on, as I said, to be ready for a strong start into 2027. I would expect as we go forward that we will have marketing investments growing more or less in line with gross margins to get the shape of the P&L where we want it to be, not just for 2027,",
+   "parts": [
     {
      "t0_ms": 1989070,
      "text": "botters on, as I said, to be ready for a strong start into 2027. I would expect as we go forward"
@@ -1902,11 +1825,11 @@
      "text": "gross margins to get the shape of the P&L where we want it to be, not just for 2027,"
     }
    ],
-   "ts": "2026-10-27T09:03:03.870000-04:00",
+   "ts": "2026-10-27T09:03:09.070000-04:00",
    "adj_ret_5m": -0.003190723562655484
   },
   {
-   "seg_id": 61,
+   "seg_id": 54,
    "t0_ms": 2014590,
    "t1_ms": 2026590,
    "speaker": "Operator",
@@ -1925,7 +1848,7 @@
    "adj_ret_5m": -0.003190723562655484
   },
   {
-   "seg_id": 62,
+   "seg_id": 55,
    "t0_ms": 2027710,
    "t1_ms": 2070590,
    "speaker": "Analyst",
@@ -1964,27 +1887,16 @@
    "adj_ret_5m": -0.003190723562655484
   },
   {
-   "seg_id": 63,
+   "seg_id": 56,
    "t0_ms": 2071230,
-   "t1_ms": 2076670,
-   "speaker": "Analyst",
-   "text": "LORINNE LIEBERMANN Thank you, Steve. Look, first of all, we always look at that",
+   "t1_ms": 2114110,
+   "speaker": "Management",
+   "text": "LORINNE LIEBERMANN Thank you, Steve. Look, first of all, we always look at that from a system point of view. Everything starts from how we're going to first grow our plans aligned with our brand plans per market. And we feel that we have great plans for 2027, and we are actually anticipating that with investments this year, as we have done in previous years, to be ahead of the curve, to get the momentum that we have and the flexibility that we build during the year to continue to invest on those plans.",
    "parts": [
     {
      "t0_ms": 2071230,
      "text": "LORINNE LIEBERMANN Thank you, Steve. Look, first of all, we always look at that"
-    }
-   ],
-   "ts": "2026-10-27T09:04:31.230000-04:00",
-   "adj_ret_5m": -0.0032272072024894793
-  },
-  {
-   "seg_id": 64,
-   "t0_ms": 2077630,
-   "t1_ms": 2121070,
-   "speaker": "Management",
-   "text": "from a system point of view. Everything starts from how we're going to first grow our plans aligned with our brand plans per market. And we feel that we have great plans for 2027, and we are actually anticipating that with investments this year, as we have done in previous years, to be ahead of the curve, to get the momentum that we have and the flexibility that we build during the year to continue to invest on those plans. Regarding costs, which is one input into the plan, the environment remains very fluid.",
-   "parts": [
+    },
     {
      "t0_ms": 2077630,
      "text": "from a system point of view. Everything starts from how we're going to first grow"
@@ -2004,22 +1916,22 @@
     {
      "t0_ms": 2107790,
      "text": "and the flexibility that we build during the year to continue to invest on those plans."
-    },
-    {
-     "t0_ms": 2114110,
-     "text": "Regarding costs, which is one input into the plan, the environment remains very fluid."
     }
    ],
-   "ts": "2026-10-27T09:04:37.630000-04:00",
+   "ts": "2026-10-27T09:04:31.230000-04:00",
    "adj_ret_5m": -0.0032272072024894793
   },
   {
-   "seg_id": 65,
-   "t0_ms": 2122350,
-   "t1_ms": 2161870,
+   "seg_id": 57,
+   "t0_ms": 2114110,
+   "t1_ms": 2154750,
    "speaker": "Management",
-   "text": "The commodities have been manageable for us at this time. Looking forward, we are working with the bottlers right now through all the levers that we have as a system. One of them is our cross enterprise procurement group that we procure the big commodities that we have for next year together. And with that, we bring also other levers into the equation, which is productivity, cost management, and our RGM tools to ensure that we have an",
+   "text": "Regarding costs, which is one input into the plan, the environment remains very fluid. The commodities have been manageable for us at this time. Looking forward, we are working with the bottlers right now through all the levers that we have as a system. One of them is our cross enterprise procurement group that we procure the big commodities that we have for next year together. And with that, we bring also other levers into the equation,",
    "parts": [
+    {
+     "t0_ms": 2114110,
+     "text": "Regarding costs, which is one input into the plan, the environment remains very fluid."
+    },
     {
      "t0_ms": 2122350,
      "text": "The commodities have been manageable for us at this time. Looking forward, we are"
@@ -2035,22 +1947,22 @@
     {
      "t0_ms": 2147070,
      "text": "for next year together. And with that, we bring also other levers into the equation,"
-    },
-    {
-     "t0_ms": 2154750,
-     "text": "which is productivity, cost management, and our RGM tools to ensure that we have an"
     }
    ],
-   "ts": "2026-10-27T09:05:22.350000-04:00",
+   "ts": "2026-10-27T09:05:14.110000-04:00",
    "adj_ret_5m": -0.00017110591456104274
   },
   {
-   "seg_id": 66,
-   "t0_ms": 2161870,
+   "seg_id": 58,
+   "t0_ms": 2154750,
    "t1_ms": 2180190,
    "speaker": "Management",
-   "text": "operational environment that can be totally linked with our growth plans for next year. So more to come as we learn during the next few months, but so far it has been something that we believe is going to be manageable on the overall scheme of things.",
+   "text": "which is productivity, cost management, and our RGM tools to ensure that we have an operational environment that can be totally linked with our growth plans for next year. So more to come as we learn during the next few months, but so far it has been something that we believe is going to be manageable on the overall scheme of things.",
    "parts": [
+    {
+     "t0_ms": 2154750,
+     "text": "which is productivity, cost management, and our RGM tools to ensure that we have an"
+    },
     {
      "t0_ms": 2161870,
      "text": "operational environment that can be totally linked with our growth plans for next year."
@@ -2064,11 +1976,11 @@
      "text": "that we believe is going to be manageable on the overall scheme of things."
     }
    ],
-   "ts": "2026-10-27T09:06:01.870000-04:00",
-   "adj_ret_5m": -0.0032345632449768402
+   "ts": "2026-10-27T09:05:54.750000-04:00",
+   "adj_ret_5m": -0.00017110591456104274
   },
   {
-   "seg_id": 67,
+   "seg_id": 59,
    "t0_ms": 2182860,
    "t1_ms": 2187180,
    "speaker": "Operator",
@@ -2083,7 +1995,7 @@
    "adj_ret_5m": -0.0032345632449768402
   },
   {
-   "seg_id": 68,
+   "seg_id": 60,
    "t0_ms": 2187180,
    "t1_ms": 2228220,
    "speaker": "Analyst",
@@ -2122,7 +2034,7 @@
    "adj_ret_5m": -0.0032345632449768402
   },
   {
-   "seg_id": 69,
+   "seg_id": 61,
    "t0_ms": 2228220,
    "t1_ms": 2267900,
    "speaker": "Management",
@@ -2157,7 +2069,7 @@
    "adj_ret_5m": -0.0018127826136964398
   },
   {
-   "seg_id": 70,
+   "seg_id": 62,
    "t0_ms": 2268460,
    "t1_ms": 2313020,
    "speaker": "Management",
@@ -2192,7 +2104,7 @@
    "adj_ret_5m": -0.0018127826136964398
   },
   {
-   "seg_id": 71,
+   "seg_id": 63,
    "t0_ms": 2313020,
    "t1_ms": 2355660,
    "speaker": "Management",
@@ -2227,7 +2139,7 @@
    "adj_ret_5m": -0.0019964209648147824
   },
   {
-   "seg_id": 72,
+   "seg_id": 64,
    "t0_ms": 2355660,
    "t1_ms": 2400300,
    "speaker": "Management",
@@ -2266,7 +2178,7 @@
    "adj_ret_5m": -0.002728268009634327
   },
   {
-   "seg_id": 73,
+   "seg_id": 65,
    "t0_ms": 2400300,
    "t1_ms": 2406540,
    "speaker": "Management",
@@ -2281,7 +2193,7 @@
    "adj_ret_5m": -0.0018367939458384663
   },
   {
-   "seg_id": 74,
+   "seg_id": 66,
    "t0_ms": 2406540,
    "t1_ms": 2420580,
    "speaker": "Operator",
@@ -2300,7 +2212,7 @@
    "adj_ret_5m": -0.0018367939458384663
   },
   {
-   "seg_id": 75,
+   "seg_id": 67,
    "t0_ms": 2420580,
    "t1_ms": 2463060,
    "speaker": "Analyst",
@@ -2335,11 +2247,11 @@
    "adj_ret_5m": -0.0018367939458384663
   },
   {
-   "seg_id": 76,
+   "seg_id": 68,
    "t0_ms": 2463700,
-   "t1_ms": 2475940,
+   "t1_ms": 2496340,
    "speaker": "Analyst",
-   "text": "and you have the six-year selling days. John, you called out also the dis-talking comment, but you had also had said that in the third quarter. So I was ahead of the third quarter.",
+   "text": "and you have the six-year selling days. John, you called out also the dis-talking comment, but you had also had said that in the third quarter. So I was ahead of the third quarter. So I was hoping to think about how it's a wide range. Of course, minimum five allows you to have a wide range there. But just thinking how demand and dis-talking and how we should rethink how many points of headwind that could be. Thank you. Okay, Andrea. So I'll start",
    "parts": [
     {
      "t0_ms": 2463700,
@@ -2348,18 +2260,7 @@
     {
      "t0_ms": 2471220,
      "text": "but you had also had said that in the third quarter. So I was ahead of the third quarter."
-    }
-   ],
-   "ts": "2026-10-27T09:11:03.700000-04:00",
-   "adj_ret_5m": 0.0015622696948917048
-  },
-  {
-   "seg_id": 77,
-   "t0_ms": 2475940,
-   "t1_ms": 2519940,
-   "speaker": "Management",
-   "text": "So I was hoping to think about how it's a wide range. Of course, minimum five allows you to have a wide range there. But just thinking how demand and dis-talking and how we should rethink how many points of headwind that could be. Thank you. Okay, Andrea. So I'll start with your question, especially on our strategy on the affordability. John can chime in on the outlook. So look, the affordability, you need to look at this on the full context of revenue growth management. It's one of the legs of how we get closer to the consumer these",
-   "parts": [
+    },
     {
      "t0_ms": 2475940,
      "text": "So I was hoping to think about how it's a wide range. Of course, minimum five allows you to"
@@ -2371,7 +2272,18 @@
     {
      "t0_ms": 2490740,
      "text": "rethink how many points of headwind that could be. Thank you. Okay, Andrea. So I'll start"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:11:03.700000-04:00",
+   "adj_ret_5m": 0.0015622696948917048
+  },
+  {
+   "seg_id": 69,
+   "t0_ms": 2496340,
+   "t1_ms": 2540820,
+   "speaker": "Management",
+   "text": "with your question, especially on our strategy on the affordability. John can chime in on the outlook. So look, the affordability, you need to look at this on the full context of revenue growth management. It's one of the legs of how we get closer to the consumer these days. The premiumization is equally important. So we always look at both. What we are seeing across the world, and this is something that especially in my travel the last quarter going divide and conquering here with John going different parts of the world, we have seen that",
+   "parts": [
     {
      "t0_ms": 2496340,
      "text": "with your question, especially on our strategy on the affordability. John can chime in on"
@@ -2383,18 +2295,7 @@
     {
      "t0_ms": 2511140,
      "text": "revenue growth management. It's one of the legs of how we get closer to the consumer these"
-    }
-   ],
-   "ts": "2026-10-27T09:11:15.940000-04:00",
-   "adj_ret_5m": 0.0015622696948917048
-  },
-  {
-   "seg_id": 78,
-   "t0_ms": 2519940,
-   "t1_ms": 2558260,
-   "speaker": "Management",
-   "text": "days. The premiumization is equally important. So we always look at both. What we are seeing across the world, and this is something that especially in my travel the last quarter going divide and conquering here with John going different parts of the world, we have seen that value continues to be something that cuts across every market and every consumer that we see all over the world. And that means different things for the consumer, which then touches into affordability and premiumization in a way that we capitalize that in our plans. I may",
-   "parts": [
+    },
     {
      "t0_ms": 2519940,
      "text": "days. The premiumization is equally important. So we always look at both. What we are seeing"
@@ -2406,7 +2307,18 @@
     {
      "t0_ms": 2534500,
      "text": "divide and conquering here with John going different parts of the world, we have seen that"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:11:36.340000-04:00",
+   "adj_ret_5m": 0.0015622696948917048
+  },
+  {
+   "seg_id": 70,
+   "t0_ms": 2541460,
+   "t1_ms": 2580260,
+   "speaker": "Management",
+   "text": "value continues to be something that cuts across every market and every consumer that we see all over the world. And that means different things for the consumer, which then touches into affordability and premiumization in a way that we capitalize that in our plans. I may elaborate on that. On the affordability, what we always look at is do we have the right value, the relevance of that brand, and the worth-choosing option for the consumer to keep them in the franchise? And if the answer is yes, we continue to push forward and",
+   "parts": [
     {
      "t0_ms": 2541460,
      "text": "value continues to be something that cuts across every market and every consumer that we see all"
@@ -2418,18 +2330,7 @@
     {
      "t0_ms": 2552580,
      "text": "affordability and premiumization in a way that we capitalize that in our plans. I may"
-    }
-   ],
-   "ts": "2026-10-27T09:11:59.940000-04:00",
-   "adj_ret_5m": 0.0015622696948917048
-  },
-  {
-   "seg_id": 79,
-   "t0_ms": 2558260,
-   "t1_ms": 2600980,
-   "speaker": "Management",
-   "text": "elaborate on that. On the affordability, what we always look at is do we have the right value, the relevance of that brand, and the worth-choosing option for the consumer to keep them in the franchise? And if the answer is yes, we continue to push forward and get more coverage of that packaging format. If not, we adapt our plans and put that in place. A good example of that is what we did in Africa, piggybacking from what we've learned in India, where they had one package, which is a single serve PET package with placement technology",
-   "parts": [
+    },
     {
      "t0_ms": 2558260,
      "text": "elaborate on that. On the affordability, what we always look at is do we have the right value,"
@@ -2441,7 +2342,18 @@
     {
      "t0_ms": 2573300,
      "text": "keep them in the franchise? And if the answer is yes, we continue to push forward and"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:12:21.460000-04:00",
+   "adj_ret_5m": 0.00031048503897690427
+  },
+  {
+   "seg_id": 71,
+   "t0_ms": 2580260,
+   "t1_ms": 2624900,
+   "speaker": "Management",
+   "text": "get more coverage of that packaging format. If not, we adapt our plans and put that in place. A good example of that is what we did in Africa, piggybacking from what we've learned in India, where they had one package, which is a single serve PET package with placement technology that can allow you to go in longer routes and still keep the shelf life high. Now we imported that into Africa, and that plays on affordability on both of these markets. And it's going to continue to be very important moving forward because the consumer loves the brands but needs to be closer to what they can afford. On the premiumization side,",
+   "parts": [
     {
      "t0_ms": 2580260,
      "text": "get more coverage of that packaging format. If not, we adapt our plans and put that in place."
@@ -2453,18 +2365,7 @@
     {
      "t0_ms": 2595060,
      "text": "where they had one package, which is a single serve PET package with placement technology"
-    }
-   ],
-   "ts": "2026-10-27T09:12:38.260000-04:00",
-   "adj_ret_5m": 0.00031048503897690427
-  },
-  {
-   "seg_id": 80,
-   "t0_ms": 2600980,
-   "t1_ms": 2642740,
-   "speaker": "Management",
-   "text": "that can allow you to go in longer routes and still keep the shelf life high. Now we imported that into Africa, and that plays on affordability on both of these markets. And it's going to continue to be very important moving forward because the consumer loves the brands but needs to be closer to what they can afford. On the premiumization side, that's equally important on this equation, we play the category mix. There are a few brands that continue to help us with that. In North America, you've got Core Power, you've got Smart Water, and you've got in other parts of the world also different packaging sizes",
-   "parts": [
+    },
     {
      "t0_ms": 2600980,
      "text": "that can allow you to go in longer routes and still keep the shelf life high. Now we"
@@ -2480,7 +2381,18 @@
     {
      "t0_ms": 2618980,
      "text": "loves the brands but needs to be closer to what they can afford. On the premiumization side,"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:13:00.260000-04:00",
+   "adj_ret_5m": 0.001123095511861849
+  },
+  {
+   "seg_id": 72,
+   "t0_ms": 2624900,
+   "t1_ms": 2663780,
+   "speaker": "Management",
+   "text": "that's equally important on this equation, we play the category mix. There are a few brands that continue to help us with that. In North America, you've got Core Power, you've got Smart Water, and you've got in other parts of the world also different packaging sizes that allows us to play with the convenience. And that value equation for the consumer also works really well. And in the overall RGM strategy, we end up delivering what we need. So it goes in tandem, affordability, and premiumization. And that's where you're going",
+   "parts": [
     {
      "t0_ms": 2624900,
      "text": "that's equally important on this equation, we play the category mix. There are a few brands"
@@ -2492,18 +2404,7 @@
     {
      "t0_ms": 2635860,
      "text": "you've got Smart Water, and you've got in other parts of the world also different packaging sizes"
-    }
-   ],
-   "ts": "2026-10-27T09:13:20.980000-04:00",
-   "adj_ret_5m": 0.001123095511861849
-  },
-  {
-   "seg_id": 81,
-   "t0_ms": 2642740,
-   "t1_ms": 2683140,
-   "speaker": "Management",
-   "text": "that allows us to play with the convenience. And that value equation for the consumer also works really well. And in the overall RGM strategy, we end up delivering what we need. So it goes in tandem, affordability, and premiumization. And that's where you're going to see not only the rest of the year, but building into 2027. John, if you want to add on that. Yeah, Andrea, the whole marriage of unit cases with our concentrate shipments this year has",
-   "parts": [
+    },
     {
      "t0_ms": 2642740,
      "text": "that allows us to play with the convenience. And that value equation for the consumer also"
@@ -2515,7 +2416,18 @@
     {
      "t0_ms": 2658100,
      "text": "So it goes in tandem, affordability, and premiumization. And that's where you're going"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:13:44.900000-04:00",
+   "adj_ret_5m": 0.001123095511861849
+  },
+  {
+   "seg_id": 73,
+   "t0_ms": 2663780,
+   "t1_ms": 2703620,
+   "speaker": "Management",
+   "text": "to see not only the rest of the year, but building into 2027. John, if you want to add on that. Yeah, Andrea, the whole marriage of unit cases with our concentrate shipments this year has proven to be maybe the more challenging year since I've been around for a few reasons. You've got the first quarter and the fourth quarter, the plus six, the minus six days. We have, as we've seen since the start of the year around the world, an external environment",
+   "parts": [
     {
      "t0_ms": 2663780,
      "text": "to see not only the rest of the year, but building into 2027. John, if you want to add on that."
@@ -2523,18 +2435,7 @@
     {
      "t0_ms": 2672420,
      "text": "Yeah, Andrea, the whole marriage of unit cases with our concentrate shipments this year has"
-    }
-   ],
-   "ts": "2026-10-27T09:14:02.740000-04:00",
-   "adj_ret_5m": 0.0010048658354818718
-  },
-  {
-   "seg_id": 82,
-   "t0_ms": 2683140,
-   "t1_ms": 2727540,
-   "speaker": "Management",
-   "text": "proven to be maybe the more challenging year since I've been around for a few reasons. You've got the first quarter and the fourth quarter, the plus six, the minus six days. We have, as we've seen since the start of the year around the world, an external environment that's quite unpredictable. And I think our system has a tendency to want to get ahead of that. And so the expectation that we highlighted in guidance reflects the best information we have at the moment. There's a couple of our segments where we do expect to see",
-   "parts": [
+    },
     {
      "t0_ms": 2683140,
      "text": "proven to be maybe the more challenging year since I've been around for a few reasons."
@@ -2546,7 +2447,18 @@
     {
      "t0_ms": 2697220,
      "text": "We have, as we've seen since the start of the year around the world, an external environment"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:14:23.780000-04:00",
+   "adj_ret_5m": 0.0010048658354818718
+  },
+  {
+   "seg_id": 74,
+   "t0_ms": 2703620,
+   "t1_ms": 2740260,
+   "speaker": "Management",
+   "text": "that's quite unpredictable. And I think our system has a tendency to want to get ahead of that. And so the expectation that we highlighted in guidance reflects the best information we have at the moment. There's a couple of our segments where we do expect to see some destocking on the back of what has happened year to date. But we've still got some distance to go in the year and we're keeping a close eye on this area. And",
+   "parts": [
     {
      "t0_ms": 2703620,
      "text": "that's quite unpredictable. And I think our system has a tendency to want to get ahead of that."
@@ -2558,18 +2470,7 @@
     {
      "t0_ms": 2722020,
      "text": "we have at the moment. There's a couple of our segments where we do expect to see"
-    }
-   ],
-   "ts": "2026-10-27T09:14:43.140000-04:00",
-   "adj_ret_5m": 0.0010048658354818718
-  },
-  {
-   "seg_id": 83,
-   "t0_ms": 2727540,
-   "t1_ms": 2769780,
-   "speaker": "Management",
-   "text": "some destocking on the back of what has happened year to date. But we've still got some distance to go in the year and we're keeping a close eye on this area. And with six less days, it's difficult to predict with accuracy just the cutoffs as we move towards the end of the year. So that's the best information we have at the moment. And based on all the inputs we get from around the world and if there's changes through the quarter, we'll certainly have the opportunity to update closer to the end of the year.",
-   "parts": [
+    },
     {
      "t0_ms": 2727540,
      "text": "some destocking on the back of what has happened year to date. But we've still got"
@@ -2577,7 +2478,18 @@
     {
      "t0_ms": 2733060,
      "text": "some distance to go in the year and we're keeping a close eye on this area. And"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:15:03.620000-04:00",
+   "adj_ret_5m": 0.0005494505494505475
+  },
+  {
+   "seg_id": 75,
+   "t0_ms": 2741220,
+   "t1_ms": 2784980,
+   "speaker": "Management",
+   "text": "with six less days, it's difficult to predict with accuracy just the cutoffs as we move towards the end of the year. So that's the best information we have at the moment. And based on all the inputs we get from around the world and if there's changes through the quarter, we'll certainly have the opportunity to update closer to the end of the year. Our next question comes from Robert Otenstein from Evercore. Please go ahead. Your line is open. Great. Thank you very much. You had a pretty nice increase in your guidance",
+   "parts": [
     {
      "t0_ms": 2741220,
      "text": "with six less days, it's difficult to predict with accuracy just the cutoffs as we move towards"
@@ -2593,37 +2505,26 @@
     {
      "t0_ms": 2763620,
      "text": "we'll certainly have the opportunity to update closer to the end of the year."
-    }
-   ],
-   "ts": "2026-10-27T09:15:27.540000-04:00",
-   "adj_ret_5m": 0.0005494505494505475
-  },
-  {
-   "seg_id": 84,
-   "t0_ms": 2769780,
-   "t1_ms": 2776900,
-   "speaker": "Operator",
-   "text": "Our next question comes from Robert Otenstein from Evercore. Please go ahead. Your line is open.",
-   "parts": [
+    },
     {
      "t0_ms": 2769780,
      "text": "Our next question comes from Robert Otenstein from Evercore. Please go ahead. Your line is open."
-    }
-   ],
-   "ts": "2026-10-27T09:16:09.780000-04:00",
-   "adj_ret_5m": -0.00041171606258294524
-  },
-  {
-   "seg_id": 85,
-   "t0_ms": 2777780,
-   "t1_ms": 2819940,
-   "speaker": "Analyst",
-   "text": "Great. Thank you very much. You had a pretty nice increase in your guidance for free cash flow. Your leverage is down to I think 1.3 you said. So I was wondering if you could talk about the drivers on the free cash flow. And then you mentioned in the opening comments about increased optionality from your strong free cash flow and balance sheet going into 27. So maybe if you could elaborate on that and then put these comments in the context of potential outcomes from the IRS case.",
-   "parts": [
+    },
     {
      "t0_ms": 2777780,
      "text": "Great. Thank you very much. You had a pretty nice increase in your guidance"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:15:41.220000-04:00",
+   "adj_ret_5m": 0.0005494505494505475
+  },
+  {
+   "seg_id": 76,
+   "t0_ms": 2785860,
+   "t1_ms": 2827980,
+   "speaker": "Management",
+   "text": "for free cash flow. Your leverage is down to I think 1.3 you said. So I was wondering if you could talk about the drivers on the free cash flow. And then you mentioned in the opening comments about increased optionality from your strong free cash flow and balance sheet going into 27. So maybe if you could elaborate on that and then put these comments in the context of potential outcomes from the IRS case. Thank you. Thank you. Let me take those one by one. So free cash flow year to date,",
+   "parts": [
     {
      "t0_ms": 2785860,
      "text": "for free cash flow. Your leverage is down to I think 1.3 you said. So I was wondering"
@@ -2643,37 +2544,26 @@
     {
      "t0_ms": 2813780,
      "text": "in the context of potential outcomes from the IRS case."
-    }
-   ],
-   "ts": "2026-10-27T09:16:17.780000-04:00",
-   "adj_ret_5m": -0.00041171606258294524
-  },
-  {
-   "seg_id": 86,
-   "t0_ms": 2819940,
-   "t1_ms": 2834780,
-   "speaker": "Analyst",
-   "text": "Thank you. Thank you. Let me take those one by one. So free cash flow year to date, three primary drivers. The first and the most important one is underlying business",
-   "parts": [
+    },
     {
      "t0_ms": 2819940,
      "text": "Thank you. Thank you. Let me take those one by one. So free cash flow year to date,"
-    },
-    {
-     "t0_ms": 2829180,
-     "text": "three primary drivers. The first and the most important one is underlying business"
     }
    ],
-   "ts": "2026-10-27T09:16:59.940000-04:00",
+   "ts": "2026-10-27T09:16:25.860000-04:00",
    "adj_ret_5m": -0.00041171606258294524
   },
   {
-   "seg_id": 87,
-   "t0_ms": 2834780,
-   "t1_ms": 2879340,
+   "seg_id": 77,
+   "t0_ms": 2829180,
+   "t1_ms": 2870140,
    "speaker": "Management",
-   "text": "performance has been strong. We continue to make progress on working capital initiatives, our cash conversion cycle, if I get it correct, is as good as it's been for many years at the moment. And then we have some timing that will play its way through the rest of the year. For example, our CAPEX year to date is a little behind what you would typically expect and we expect that to make up in the fourth quarter. So key message though is free",
+   "text": "three primary drivers. The first and the most important one is underlying business performance has been strong. We continue to make progress on working capital initiatives, our cash conversion cycle, if I get it correct, is as good as it's been for many years at the moment. And then we have some timing that will play its way through the rest of the year. For example, our CAPEX year to date is a little behind what you would typically",
    "parts": [
+    {
+     "t0_ms": 2829180,
+     "text": "three primary drivers. The first and the most important one is underlying business"
+    },
     {
      "t0_ms": 2834780,
      "text": "performance has been strong. We continue to make progress on working capital initiatives,"
@@ -2689,22 +2579,22 @@
     {
      "t0_ms": 2862540,
      "text": "year. For example, our CAPEX year to date is a little behind what you would typically"
-    },
-    {
-     "t0_ms": 2870220,
-     "text": "expect and we expect that to make up in the fourth quarter. So key message though is free"
     }
    ],
-   "ts": "2026-10-27T09:17:14.780000-04:00",
+   "ts": "2026-10-27T09:17:09.180000-04:00",
    "adj_ret_5m": 0.0008394043351286351
   },
   {
-   "seg_id": 88,
-   "t0_ms": 2879340,
-   "t1_ms": 2921980,
+   "seg_id": 78,
+   "t0_ms": 2870220,
+   "t1_ms": 2913980,
    "speaker": "Management",
-   "text": "cash flow is strong and we've got momentum as we close out the year into next year. We've used the word optionality very deliberately over the last number of months because we are in a situation where we're anticipating a decision in the coming months in the IRS case. And at the same time, we continue to think ahead as to the various outcomes that that decision could generate and feel good where we are with respect to the current situation.",
+   "text": "expect and we expect that to make up in the fourth quarter. So key message though is free cash flow is strong and we've got momentum as we close out the year into next year. We've used the word optionality very deliberately over the last number of months because we are in a situation where we're anticipating a decision in the coming months in the IRS case. And at the same time, we continue to think ahead as to the various outcomes that that",
    "parts": [
+    {
+     "t0_ms": 2870220,
+     "text": "expect and we expect that to make up in the fourth quarter. So key message though is free"
+    },
     {
      "t0_ms": 2879340,
      "text": "cash flow is strong and we've got momentum as we close out the year into next year."
@@ -2720,22 +2610,22 @@
     {
      "t0_ms": 2905660,
      "text": "And at the same time, we continue to think ahead as to the various outcomes that that"
-    },
-    {
-     "t0_ms": 2913980,
-     "text": "decision could generate and feel good where we are with respect to the current situation."
     }
    ],
-   "ts": "2026-10-27T09:17:59.340000-04:00",
+   "ts": "2026-10-27T09:17:50.220000-04:00",
    "adj_ret_5m": 0.0008394043351286351
   },
   {
-   "seg_id": 89,
-   "t0_ms": 2922220,
-   "t1_ms": 2964380,
+   "seg_id": 79,
+   "t0_ms": 2913980,
+   "t1_ms": 2956460,
    "speaker": "Management",
-   "text": "Good where we are with respect to being able to manage a best and worst case scenario. So the name of the game has really been to strengthen the balance sheet. I believe our balance sheet today is in as good a shape as it's been for many years. And to be ready in 27 to deliver on the priorities that we outlined in the script. We'll continue to invest in the business, primarily in the short term organically. We remain open to other opportunities. We don't see them in the immediate horizon. And as always, we're here to",
+   "text": "decision could generate and feel good where we are with respect to the current situation. Good where we are with respect to being able to manage a best and worst case scenario. So the name of the game has really been to strengthen the balance sheet. I believe our balance sheet today is in as good a shape as it's been for many years. And to be ready in 27 to deliver on the priorities that we outlined in the script. We'll continue to invest in the business, primarily in the short term organically. We remain open to",
    "parts": [
+    {
+     "t0_ms": 2913980,
+     "text": "decision could generate and feel good where we are with respect to the current situation."
+    },
     {
      "t0_ms": 2922220,
      "text": "Good where we are with respect to being able to manage a best and worst case scenario. So"
@@ -2755,22 +2645,22 @@
     {
      "t0_ms": 2949740,
      "text": "invest in the business, primarily in the short term organically. We remain open to"
-    },
-    {
-     "t0_ms": 2957020,
-     "text": "other opportunities. We don't see them in the immediate horizon. And as always, we're here to"
     }
    ],
-   "ts": "2026-10-27T09:18:42.220000-04:00",
+   "ts": "2026-10-27T09:18:33.980000-04:00",
    "adj_ret_5m": 0.001707801481276916
   },
   {
-   "seg_id": 90,
-   "t0_ms": 2965020,
+   "seg_id": 80,
+   "t0_ms": 2957020,
    "t1_ms": 2996380,
    "speaker": "Management",
-   "text": "return capital to our share owners. And again, at the moment, that's primarily through our dividend. So think of the work today. It has been focused on strengthening the balance sheet, being ready for a decision and the outcome of that decision to do the right thing for the business and to be ready for whatever that might mean in 27 and 28.",
+   "text": "other opportunities. We don't see them in the immediate horizon. And as always, we're here to return capital to our share owners. And again, at the moment, that's primarily through our dividend. So think of the work today. It has been focused on strengthening the balance sheet, being ready for a decision and the outcome of that decision to do the right thing for the business and to be ready for whatever that might mean in 27 and 28.",
    "parts": [
+    {
+     "t0_ms": 2957020,
+     "text": "other opportunities. We don't see them in the immediate horizon. And as always, we're here to"
+    },
     {
      "t0_ms": 2965020,
      "text": "return capital to our share owners. And again, at the moment, that's primarily through our"
@@ -2788,11 +2678,11 @@
      "text": "business and to be ready for whatever that might mean in 27 and 28."
     }
    ],
-   "ts": "2026-10-27T09:19:25.020000-04:00",
+   "ts": "2026-10-27T09:19:17.020000-04:00",
    "adj_ret_5m": 0.003538155323520642
   },
   {
-   "seg_id": 91,
+   "seg_id": 81,
    "t0_ms": 2999620,
    "t1_ms": 3003540,
    "speaker": "Operator",
@@ -2807,11 +2697,11 @@
    "adj_ret_5m": 0.003538155323520642
   },
   {
-   "seg_id": 92,
+   "seg_id": 82,
    "t0_ms": 3005380,
-   "t1_ms": 3045780,
+   "t1_ms": 3034980,
    "speaker": "Analyst",
-   "text": "Great. Thank you. Good morning, everyone. So I wanted to follow up on this question on North America. You touched on some of the timing dynamics, but you also mentioned that you saw sequential improvement in volume performance each month throughout the quarter. So I was wondering if you could elaborate on that and have you seen that momentum continue into the fourth quarter? And then John, you touched on the at home versus away from home component. I'd be curious if you've seen any notable shifts in that dynamic as the years progressed. Thanks. So on the volume, yes, we saw that improvement month-on-month on the quarter. And the biggest",
+   "text": "Great. Thank you. Good morning, everyone. So I wanted to follow up on this question on North America. You touched on some of the timing dynamics, but you also mentioned that you saw sequential improvement in volume performance each month throughout the quarter. So I was wondering if you could elaborate on that and have you seen that momentum continue into the fourth quarter? And then John, you touched on the at home versus away from home component. I'd be curious if you've seen any notable shifts in that dynamic as the years progressed. Thanks.",
    "parts": [
     {
      "t0_ms": 3005380,
@@ -2836,37 +2726,26 @@
     {
      "t0_ms": 3029300,
      "text": "be curious if you've seen any notable shifts in that dynamic as the years progressed. Thanks."
-    },
-    {
-     "t0_ms": 3036580,
-     "text": "So on the volume, yes, we saw that improvement month-on-month on the quarter. And the biggest"
     }
    ],
    "ts": "2026-10-27T09:20:05.380000-04:00",
    "adj_ret_5m": 0.00892200745543803
   },
   {
-   "seg_id": 93,
-   "t0_ms": 3046500,
-   "t1_ms": 3056660,
-   "speaker": "Analyst",
-   "text": "impact in that was really what we said before was the July 4th impact that fell into the Q2. So we",
+   "seg_id": 83,
+   "t0_ms": 3036580,
+   "t1_ms": 3080020,
+   "speaker": "Management",
+   "text": "So on the volume, yes, we saw that improvement month-on-month on the quarter. And the biggest impact in that was really what we said before was the July 4th impact that fell into the Q2. So we knew that would start the first month of the quarter lagging behind it. What we have seen, and I mentioned when you look at the overall flat volume for the quarter, we're cycling a good performance of Topo Chico last year as well, which has also an impact on that.",
    "parts": [
+    {
+     "t0_ms": 3036580,
+     "text": "So on the volume, yes, we saw that improvement month-on-month on the quarter. And the biggest"
+    },
     {
      "t0_ms": 3046500,
      "text": "impact in that was really what we said before was the July 4th impact that fell into the Q2. So we"
-    }
-   ],
-   "ts": "2026-10-27T09:20:46.500000-04:00",
-   "adj_ret_5m": 0.00892200745543803
-  },
-  {
-   "seg_id": 94,
-   "t0_ms": 3056660,
-   "t1_ms": 3099860,
-   "speaker": "Management",
-   "text": "knew that would start the first month of the quarter lagging behind it. What we have seen, and I mentioned when you look at the overall flat volume for the quarter, we're cycling a good performance of Topo Chico last year as well, which has also an impact on that. And we just got back with Topo Chico in Texas. So it's great news, I think, to everybody and to the consumers that have been waiting for too long. It's the first step back. And we will",
-   "parts": [
+    },
     {
      "t0_ms": 3056660,
      "text": "knew that would start the first month of the quarter lagging behind it. What we have seen,"
@@ -2878,7 +2757,18 @@
     {
      "t0_ms": 3072420,
      "text": "a good performance of Topo Chico last year as well, which has also an impact on that."
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:20:36.580000-04:00",
+   "adj_ret_5m": 0.00892200745543803
+  },
+  {
+   "seg_id": 84,
+   "t0_ms": 3080580,
+   "t1_ms": 3122820,
+   "speaker": "Management",
+   "text": "And we just got back with Topo Chico in Texas. So it's great news, I think, to everybody and to the consumers that have been waiting for too long. It's the first step back. And we will sequence that moving into 2027. So that volume will start to come back. So definitely it's something that we're looking forward to. The other ones, really the momentum that we have, we grew Coca-Cola trademark, like we mentioned, really good growth on the zero",
+   "parts": [
     {
      "t0_ms": 3080580,
      "text": "And we just got back with Topo Chico in Texas. So it's great news, I think, to everybody and"
@@ -2886,18 +2776,7 @@
     {
      "t0_ms": 3090820,
      "text": "to the consumers that have been waiting for too long. It's the first step back. And we will"
-    }
-   ],
-   "ts": "2026-10-27T09:20:56.660000-04:00",
-   "adj_ret_5m": 0.00892200745543803
-  },
-  {
-   "seg_id": 95,
-   "t0_ms": 3099860,
-   "t1_ms": 3140740,
-   "speaker": "Management",
-   "text": "sequence that moving into 2027. So that volume will start to come back. So definitely it's something that we're looking forward to. The other ones, really the momentum that we have, we grew Coca-Cola trademark, like we mentioned, really good growth on the zero variant as well. Fairlife continues to grow, Powerade grew as well, Fresca, Mr. Pib has been another very good surprise. Still small in the overall volume to impact the overall volume for",
-   "parts": [
+    },
     {
      "t0_ms": 3099860,
      "text": "sequence that moving into 2027. So that volume will start to come back. So definitely"
@@ -2909,7 +2788,18 @@
     {
      "t0_ms": 3114980,
      "text": "we grew Coca-Cola trademark, like we mentioned, really good growth on the zero"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:21:20.580000-04:00",
+   "adj_ret_5m": 0.006147091108671843
+  },
+  {
+   "seg_id": 85,
+   "t0_ms": 3123460,
+   "t1_ms": 3166900,
+   "speaker": "Management",
+   "text": "variant as well. Fairlife continues to grow, Powerade grew as well, Fresca, Mr. Pib has been another very good surprise. Still small in the overall volume to impact the overall volume for North America. But within the innovation pipeline, it's something that we're very excited with that. So all in all, what we see is we have the momentum, we got the right plans in place, but we have also going into the Q4, which is important to reinforce the biggest quarter that we had in North America last year. And we have six last days. So you need to",
+   "parts": [
     {
      "t0_ms": 3123460,
      "text": "variant as well. Fairlife continues to grow, Powerade grew as well, Fresca, Mr. Pib has been"
@@ -2917,18 +2807,7 @@
     {
      "t0_ms": 3132900,
      "text": "another very good surprise. Still small in the overall volume to impact the overall volume for"
-    }
-   ],
-   "ts": "2026-10-27T09:21:39.860000-04:00",
-   "adj_ret_5m": 0.006147091108671843
-  },
-  {
-   "seg_id": 96,
-   "t0_ms": 3140740,
-   "t1_ms": 3176100,
-   "speaker": "Management",
-   "text": "North America. But within the innovation pipeline, it's something that we're very excited with that. So all in all, what we see is we have the momentum, we got the right plans in place, but we have also going into the Q4, which is important to reinforce the biggest quarter that we had in North America last year. And we have six last days. So you need to compose that with the equation. But when you look into a daily average sales, we have the momentum that was built over the quarter.",
-   "parts": [
+    },
     {
      "t0_ms": 3140740,
      "text": "North America. But within the innovation pipeline, it's something that we're very"
@@ -2944,7 +2823,18 @@
     {
      "t0_ms": 3160260,
      "text": "that we had in North America last year. And we have six last days. So you need to"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:22:03.460000-04:00",
+   "adj_ret_5m": 0.004522963702082938
+  },
+  {
+   "seg_id": 86,
+   "t0_ms": 3167540,
+   "t1_ms": 3176100,
+   "speaker": "Management",
+   "text": "compose that with the equation. But when you look into a daily average sales, we have the momentum that was built over the quarter.",
+   "parts": [
     {
      "t0_ms": 3167540,
      "text": "compose that with the equation. But when you look into a daily average sales, we"
@@ -2954,11 +2844,11 @@
      "text": "have the momentum that was built over the quarter."
     }
    ],
-   "ts": "2026-10-27T09:22:20.740000-04:00",
+   "ts": "2026-10-27T09:22:47.540000-04:00",
    "adj_ret_5m": 0.004522963702082938
   },
   {
-   "seg_id": 97,
+   "seg_id": 87,
    "t0_ms": 3176100,
    "t1_ms": 3184240,
    "speaker": "Operator",
@@ -2973,7 +2863,7 @@
    "adj_ret_5m": 0.004522963702082938
   },
   {
-   "seg_id": 98,
+   "seg_id": 88,
    "t0_ms": 3186000,
    "t1_ms": 3229360,
    "speaker": "Analyst",
@@ -3016,16 +2906,27 @@
    "adj_ret_5m": 0.000320485982354235
   },
   {
-   "seg_id": 99,
+   "seg_id": 89,
    "t0_ms": 3229680,
-   "t1_ms": 3272960,
-   "speaker": "Management",
-   "text": "for 2027 at this point. Thanks very much. Yeah, great question. And the short answer is no. We need to take into account what's unfolded over the last 24 to 48 hours. And we'll continue to do so. As you've seen throughout the year, there's been quite a lot of movement. So it's one we're watching very carefully. And if there's sufficient movement over the course of the next number of weeks, we'll certainly would want to provide an update on that.",
+   "t1_ms": 3231440,
+   "speaker": "Analyst",
+   "text": "for 2027 at this point. Thanks very much.",
    "parts": [
     {
      "t0_ms": 3229680,
      "text": "for 2027 at this point. Thanks very much."
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:23:49.680000-04:00",
+   "adj_ret_5m": 0.000320485982354235
+  },
+  {
+   "seg_id": 90,
+   "t0_ms": 3232240,
+   "t1_ms": 3272960,
+   "speaker": "Management",
+   "text": "Yeah, great question. And the short answer is no. We need to take into account what's unfolded over the last 24 to 48 hours. And we'll continue to do so. As you've seen throughout the year, there's been quite a lot of movement. So it's one we're watching very carefully. And if there's sufficient movement over the course of the next number of weeks, we'll certainly would want to provide an update on that.",
+   "parts": [
     {
      "t0_ms": 3232240,
      "text": "Yeah, great question. And the short answer is no. We need to take into account"
@@ -3047,11 +2948,11 @@
      "text": "the next number of weeks, we'll certainly would want to provide an update on that."
     }
    ],
-   "ts": "2026-10-27T09:23:49.680000-04:00",
+   "ts": "2026-10-27T09:23:52.240000-04:00",
    "adj_ret_5m": 0.000320485982354235
   },
   {
-   "seg_id": 100,
+   "seg_id": 91,
    "t0_ms": 3273600,
    "t1_ms": 3295120,
    "speaker": "Management",
@@ -3074,7 +2975,7 @@
    "adj_ret_5m": -0.0025878262159800824
   },
   {
-   "seg_id": 101,
+   "seg_id": 92,
    "t0_ms": 3299970,
    "t1_ms": 3304130,
    "speaker": "Operator",
@@ -3089,7 +2990,7 @@
    "adj_ret_5m": -0.0025878262159800824
   },
   {
-   "seg_id": 102,
+   "seg_id": 93,
    "t0_ms": 3304130,
    "t1_ms": 3348610,
    "speaker": "Analyst",
@@ -3128,31 +3029,31 @@
    "adj_ret_5m": 0.008486182148611965
   },
   {
-   "seg_id": 103,
+   "seg_id": 94,
    "t0_ms": 3348610,
-   "t1_ms": 3354050,
+   "t1_ms": 3358450,
    "speaker": "Analyst",
-   "text": "And so to what degree can you help us forecast what margins would look like in the context of",
+   "text": "And so to what degree can you help us forecast what margins would look like in the context of maybe better aligned unit case volume and gross margins? Thank you.",
    "parts": [
     {
      "t0_ms": 3348610,
      "text": "And so to what degree can you help us forecast what margins would look like in the context of"
+    },
+    {
+     "t0_ms": 3354610,
+     "text": "maybe better aligned unit case volume and gross margins? Thank you."
     }
    ],
    "ts": "2026-10-27T09:25:48.610000-04:00",
    "adj_ret_5m": 0.008486182148611965
   },
   {
-   "seg_id": 104,
-   "t0_ms": 3354610,
-   "t1_ms": 3391090,
+   "seg_id": 95,
+   "t0_ms": 3358450,
+   "t1_ms": 3399730,
    "speaker": "Management",
-   "text": "maybe better aligned unit case volume and gross margins? Thank you. Yeah. Sure. On the destocking, as I said in the previous question on this topic, it's somewhat of an anomalous year in trying to predict exactly. Right now, if you ask me, we expect shipments to run slightly behind volumes for the full year. That's our in-going assumption that's linked to the guidance that we've provided.",
+   "text": "Yeah. Sure. On the destocking, as I said in the previous question on this topic, it's somewhat of an anomalous year in trying to predict exactly. Right now, if you ask me, we expect shipments to run slightly behind volumes for the full year. That's our in-going assumption that's linked to the guidance that we've provided. And as I've said, there's a lot happening around the world and there's every possibility",
    "parts": [
-    {
-     "t0_ms": 3354610,
-     "text": "maybe better aligned unit case volume and gross margins? Thank you."
-    },
     {
      "t0_ms": 3358450,
      "text": "Yeah. Sure. On the destocking, as I said in the previous question on this topic,"
@@ -3168,22 +3069,22 @@
     {
      "t0_ms": 3385250,
      "text": "in-going assumption that's linked to the guidance that we've provided."
-    }
-   ],
-   "ts": "2026-10-27T09:25:54.610000-04:00",
-   "adj_ret_5m": 0.008486182148611965
-  },
-  {
-   "seg_id": 105,
-   "t0_ms": 3393410,
-   "t1_ms": 3437630,
-   "speaker": "Management",
-   "text": "And as I've said, there's a lot happening around the world and there's every possibility that that could deviate. But that's the in-going assumption as we head into the rest of the year. On your margin question, if I line up cases, shipments, everything else, we expect to have margin expansion for the full year. And again, the exact amounts",
-   "parts": [
+    },
     {
      "t0_ms": 3393410,
      "text": "And as I've said, there's a lot happening around the world and there's every possibility"
-    },
+    }
+   ],
+   "ts": "2026-10-27T09:25:58.450000-04:00",
+   "adj_ret_5m": 0.008486182148611965
+  },
+  {
+   "seg_id": 96,
+   "t0_ms": 3399730,
+   "t1_ms": 3437630,
+   "speaker": "Management",
+   "text": "that that could deviate. But that's the in-going assumption as we head into the rest of the year. On your margin question, if I line up cases, shipments, everything else, we expect to have margin expansion for the full year. And again, the exact amounts",
+   "parts": [
     {
      "t0_ms": 3399730,
      "text": "that that could deviate. But that's the in-going assumption as we head into the"
@@ -3197,11 +3098,11 @@
      "text": "we expect to have margin expansion for the full year. And again, the exact amounts"
     }
    ],
-   "ts": "2026-10-27T09:26:33.410000-04:00",
+   "ts": "2026-10-27T09:26:39.730000-04:00",
    "adj_ret_5m": 0.006012298215733014
   },
   {
-   "seg_id": 106,
+   "seg_id": 97,
    "t0_ms": 3438670,
    "t1_ms": 3445870,
    "speaker": "Management",
@@ -3216,7 +3117,7 @@
    "adj_ret_5m": 0.012026402434267003
   },
   {
-   "seg_id": 107,
+   "seg_id": 98,
    "t0_ms": 3450450,
    "t1_ms": 3455090,
    "speaker": "Operator",
@@ -3231,11 +3132,11 @@
    "adj_ret_5m": 0.012026402434267003
   },
   {
-   "seg_id": 108,
+   "seg_id": 99,
    "t0_ms": 3457420,
-   "t1_ms": 3501580,
+   "t1_ms": 3492060,
    "speaker": "Analyst",
-   "text": "Great. Thanks, morning, everyone. And congrats on another strong quarter. We've mentioned the brand twice, but haven't spent a lot of time on the strategy. And that's FairLife, which has been a fantastic success story. Additional capacity came on this year. So we've seen a nice reacceleration in the scanner data. A few questions related to the brand. One, can you talk about updated plans and how you're defining success? Two, where you see the brand sourcing occasions at the moment? And then three, maybe an update on the opportunity for the brand outside of the U.S. understanding the supply chain complexities. So thank you. Okay. Thanks, Kevin. Look, we love the brand as you know, and it's fantastic.",
+   "text": "Great. Thanks, morning, everyone. And congrats on another strong quarter. We've mentioned the brand twice, but haven't spent a lot of time on the strategy. And that's FairLife, which has been a fantastic success story. Additional capacity came on this year. So we've seen a nice reacceleration in the scanner data. A few questions related to the brand. One, can you talk about updated plans and how you're defining success? Two, where you see the brand sourcing occasions at the moment? And then three, maybe an update on the opportunity for the brand outside of the U.S. understanding the supply chain complexities. So",
    "parts": [
     {
      "t0_ms": 3457420,
@@ -3264,22 +3165,22 @@
     {
      "t0_ms": 3487180,
      "text": "opportunity for the brand outside of the U.S. understanding the supply chain complexities. So"
-    },
-    {
-     "t0_ms": 3492060,
-     "text": "thank you. Okay. Thanks, Kevin. Look, we love the brand as you know, and it's fantastic."
     }
    ],
    "ts": "2026-10-27T09:27:37.420000-04:00",
    "adj_ret_5m": 0.012026402434267003
   },
   {
-   "seg_id": 109,
-   "t0_ms": 3502780,
-   "t1_ms": 3544860,
+   "seg_id": 100,
+   "t0_ms": 3492060,
+   "t1_ms": 3536780,
    "speaker": "Management",
-   "text": "Performance and we pleased to see number one, not the quarter of strong and double digit growth across all the variants. Right. So FairLife, the nutrition plan, and also on core power. And that has been really encouraging. You remember that at the beginning of the year, we're still lagging behind, you know, the demand and supply with the ramp up of Webster. So we're getting better and better at that with the ramp up of the plant. And to the extent that we were able to launch also a new flavor for nutrition plan, the vanilla flavor, which is",
+   "text": "thank you. Okay. Thanks, Kevin. Look, we love the brand as you know, and it's fantastic. Performance and we pleased to see number one, not the quarter of strong and double digit growth across all the variants. Right. So FairLife, the nutrition plan, and also on core power. And that has been really encouraging. You remember that at the beginning of the year, we're still lagging behind, you know, the demand and supply with the ramp up of Webster. So we're getting better and better at that with the ramp up of the plant. And to the extent that",
    "parts": [
+    {
+     "t0_ms": 3492060,
+     "text": "thank you. Okay. Thanks, Kevin. Look, we love the brand as you know, and it's fantastic."
+    },
     {
      "t0_ms": 3502780,
      "text": "Performance and we pleased to see number one, not the quarter of strong and double digit"
@@ -3299,22 +3200,22 @@
     {
      "t0_ms": 3529500,
      "text": "So we're getting better and better at that with the ramp up of the plant. And to the extent that"
-    },
-    {
-     "t0_ms": 3536780,
-     "text": "we were able to launch also a new flavor for nutrition plan, the vanilla flavor, which is"
     }
    ],
-   "ts": "2026-10-27T09:28:22.780000-04:00",
+   "ts": "2026-10-27T09:28:12.060000-04:00",
    "adj_ret_5m": 0.01326995397764641
   },
   {
-   "seg_id": 110,
-   "t0_ms": 3544860,
+   "seg_id": 101,
+   "t0_ms": 3536780,
    "t1_ms": 3578940,
    "speaker": "Management",
-   "text": "doing really well as well. And we announced already that we're going to have in the pipeline going to 2027, the banana flavor, which is great, right? We have a lot of fans for that flavor. And it's something that we always wanted to start expanding. So good news is we're getting the product back on the shelf to keep up with the demand. And the pipeline looks strong going into 2027. When you look at",
+   "text": "we were able to launch also a new flavor for nutrition plan, the vanilla flavor, which is doing really well as well. And we announced already that we're going to have in the pipeline going to 2027, the banana flavor, which is great, right? We have a lot of fans for that flavor. And it's something that we always wanted to start expanding. So good news is we're getting the product back on the shelf to keep up with the demand. And the pipeline looks strong going into 2027. When you look at",
    "parts": [
+    {
+     "t0_ms": 3536780,
+     "text": "we were able to launch also a new flavor for nutrition plan, the vanilla flavor, which is"
+    },
     {
      "t0_ms": 3544860,
      "text": "doing really well as well. And we announced already that we're going to have in the"
@@ -3336,11 +3237,11 @@
      "text": "looks strong going into 2027. When you look at"
     }
    ],
-   "ts": "2026-10-27T09:29:04.860000-04:00",
-   "adj_ret_5m": 0.01565433437089281
+   "ts": "2026-10-27T09:28:56.780000-04:00",
+   "adj_ret_5m": 0.01326995397764641
   },
   {
-   "seg_id": 111,
+   "seg_id": 102,
    "t0_ms": 3580940,
    "t1_ms": 3616300,
    "speaker": "Management",
@@ -3371,7 +3272,7 @@
    "adj_ret_5m": 0.01565433437089281
   },
   {
-   "seg_id": 112,
+   "seg_id": 103,
    "t0_ms": 3620140,
    "t1_ms": 3625100,
    "speaker": "Operator",
@@ -3390,7 +3291,7 @@
    "adj_ret_5m": -0.0011260053751533938
   },
   {
-   "seg_id": 113,
+   "seg_id": 104,
    "t0_ms": 3635730,
    "t1_ms": 3678620,
    "speaker": "Management",
@@ -3425,7 +3326,7 @@
    "adj_ret_5m": -0.0011260053751533938
   },
   {
-   "seg_id": 114,
+   "seg_id": 105,
    "t0_ms": 3678620,
    "t1_ms": 3683500,
    "speaker": "Management",
@@ -3440,33 +3341,22 @@
    "adj_ret_5m": 0.002775251503324472
   },
   {
-   "seg_id": 115,
+   "seg_id": 106,
    "t0_ms": 3685180,
-   "t1_ms": 3687980,
+   "t1_ms": 3689980,
    "speaker": "Operator",
-   "text": "Ladies and gentlemen, this concludes today's conference call.",
+   "text": "Ladies and gentlemen, this concludes today's conference call. Thank you for participating. You may now disconnect.",
    "parts": [
     {
      "t0_ms": 3685180,
      "text": "Ladies and gentlemen, this concludes today's conference call."
-    }
-   ],
-   "ts": "2026-10-27T09:31:25.180000-04:00",
-   "adj_ret_5m": 0.002775251503324472
-  },
-  {
-   "seg_id": 116,
-   "t0_ms": 3687980,
-   "t1_ms": 3689980,
-   "speaker": "Management",
-   "text": "Thank you for participating. You may now disconnect.",
-   "parts": [
+    },
     {
      "t0_ms": 3687980,
      "text": "Thank you for participating. You may now disconnect."
     }
    ],
-   "ts": "2026-10-27T09:31:27.980000-04:00",
+   "ts": "2026-10-27T09:31:25.180000-04:00",
    "adj_ret_5m": 0.002775251503324472
   }
  ],
@@ -6055,9 +5945,9 @@
  "claims": [
   {
    "claim_id": 0,
-   "seg_id": 8,
+   "seg_id": 3,
    "speaker": "Management",
-   "quote": "reinforce my confidence in our updated 2026 guidance and in the long-term opportunities ahead.",
+   "quote": "Their efforts reinforce my confidence in our updated 2026 guidance and in the long-term opportunities ahead.",
    "metric": "2026 guidance confidence",
    "value": null,
    "period": "FY2026",
@@ -6071,14 +5961,14 @@
   },
   {
    "claim_id": 1,
-   "seg_id": 9,
+   "seg_id": 4,
    "speaker": "Management",
-   "quote": "cost pressures have accelerated, and all of this has an impact on many consumers.",
-   "metric": "cost pressures / consumer impact",
+   "quote": "Geopolitical disruptions affect several parts of the world, cost pressures have accelerated, and all of this has an impact on many consumers.",
+   "metric": "operating environment risk",
    "value": null,
    "period": null,
    "kind": "qualitative",
-   "ts": "2026-10-27T08:32:46.480000-04:00",
+   "ts": "2026-10-27T08:32:41.920000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6087,10 +5977,10 @@
   },
   {
    "claim_id": 2,
-   "seg_id": 9,
+   "seg_id": 4,
    "speaker": "Management",
    "quote": "We have a strong portfolio of $32 billion brands and unmatched system reach with our botling partners.",
-   "metric": "billion-dollar brands portfolio",
+   "metric": "billion-dollar brands",
    "value": "$32 billion brands",
    "period": null,
    "kind": "qualitative",
@@ -6103,44 +5993,44 @@
   },
   {
    "claim_id": 3,
-   "seg_id": 10,
+   "seg_id": 5,
    "speaker": "Management",
    "quote": "Volume grew 5% and organic revenue grew 7%.",
-   "metric": "unit case volume and organic revenue growth",
+   "metric": "volume growth and organic revenue growth",
    "value": "volume +5%, organic revenue +7%",
-   "period": "Q3 2026",
+   "period": "Q3",
    "kind": "result",
    "ts": "2026-10-27T08:33:37.120000-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "Global Unit Case Volume Grew 5%",
+   "matched_text": "Global Unit Case Volume Grew 5%\n\nNet Revenues Grew 7%;\nOrganic Revenues (Non-GAAP) Grew 7%",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
    "claim_id": 4,
-   "seg_id": 10,
+   "seg_id": 5,
    "speaker": "Management",
    "quote": "We expanded margins while continuing to invest in our business.",
    "metric": "margins",
    "value": null,
-   "period": "Q3 2026",
+   "period": null,
    "kind": "result",
-   "ts": "2026-10-27T08:33:29.760000-04:00",
+   "ts": "2026-10-27T08:33:17.120000-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "Operating margin: Operating margin was 33.4% versus 32.0% in the prior year, and comparable operating margin (non-GAAP) was 32.9% versus 31.9% in the prior year.",
+   "matched_text": "Operating margin was 33.4% versus 32.0% in the prior year, and comparable operating margin (non-GAAP) was 32.9% versus 31.9% in the prior year.",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
    "claim_id": 5,
-   "seg_id": 10,
+   "seg_id": 5,
    "speaker": "Management",
-   "quote": "We delivered double-digit comparable earnings per share growth and gained value share.",
-   "metric": "comparable EPS growth and value share",
-   "value": "double-digit EPS growth",
-   "period": "Q3 2026",
+   "quote": "We delivered double-digit comparable earnings",
+   "metric": "comparable EPS growth",
+   "value": "double-digit",
+   "period": "Q3",
    "kind": "result",
    "ts": "2026-10-27T08:33:51.760000-04:00",
    "novel": false,
@@ -6151,12 +6041,60 @@
   },
   {
    "claim_id": 6,
-   "seg_id": 12,
+   "seg_id": 6,
+   "speaker": "Management",
+   "quote": "per share growth and gained value share.",
+   "metric": "value share",
+   "value": null,
+   "period": "Q3",
+   "kind": "result",
+   "ts": "2026-10-27T08:33:57.840000-04:00",
+   "novel": false,
+   "matched_doc": "release",
+   "matched_text": "Market share: The company gained value share in total nonalcoholic ready-to-drink (“NARTD”) beverages.",
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 7,
+   "seg_id": 7,
+   "speaker": "Management",
+   "quote": "One, affordability is working.",
+   "metric": "affordability demand",
+   "value": null,
+   "period": null,
+   "kind": "qualitative",
+   "ts": "2026-10-27T08:34:55.870000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 8,
+   "seg_id": 7,
+   "speaker": "Management",
+   "quote": "Two, both zero sugar and original taste are recruiting consumers.",
+   "metric": "consumer recruitment zero sugar and original taste",
+   "value": null,
+   "period": null,
+   "kind": "qualitative",
+   "ts": "2026-10-27T08:35:01.950000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 9,
+   "seg_id": 8,
    "speaker": "Management",
    "quote": "Starting in North America, we grew revenue and gained value share for the quarter.",
    "metric": "North America revenue and value share",
    "value": null,
-   "period": "Q3 2026",
+   "period": "Q3",
    "kind": "result",
    "ts": "2026-10-27T08:35:15.630000-04:00",
    "novel": false,
@@ -6166,13 +6104,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 7,
-   "seg_id": 12,
+   "claim_id": 10,
+   "seg_id": 8,
    "speaker": "Management",
    "quote": "Volume was even due in part to the timing of the July 4th holiday and temporary challenges in certain finished goods businesses, but performance improved sequentially each month during the quarter.",
    "metric": "North America volume",
    "value": "even",
-   "period": "Q3 2026",
+   "period": "Q3",
    "kind": "result",
    "ts": "2026-10-27T08:35:21.550000-04:00",
    "novel": true,
@@ -6182,13 +6120,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 8,
-   "seg_id": 13,
+   "claim_id": 11,
+   "seg_id": 8,
    "speaker": "Management",
    "quote": "Mr. Pibb continued its success with another quarter of double digit volume growth.",
    "metric": "Mr. Pibb volume growth",
    "value": "double digit",
-   "period": "Q3 2026",
+   "period": "Q3",
    "kind": "result",
    "ts": "2026-10-27T08:35:49.870000-04:00",
    "novel": true,
@@ -6198,15 +6136,15 @@
    "consensus_role": null
   },
   {
-   "claim_id": 9,
-   "seg_id": 55,
+   "claim_id": 12,
+   "seg_id": 47,
    "speaker": "Management",
-   "quote": "we'll continue to see some geomix headwinds just given the nature of the overall portfolio globally with the developing markets will continue, I believe, to outgrow some of the developed markets volumetrically.",
+   "quote": "We provide a little more color in that in Feb, but the mix piece we'll continue to see some geomix headwinds just given the nature of the overall portfolio globally with the developing markets will continue, I believe, to outgrow some of the developed markets volumetrically.",
    "metric": "geographic mix headwind",
    "value": null,
    "period": "2027",
    "kind": "guidance",
-   "ts": "2026-10-27T09:00:29.280000-04:00",
+   "ts": "2026-10-27T09:00:20.400000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6214,13 +6152,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 10,
-   "seg_id": 55,
+   "claim_id": 13,
+   "seg_id": 47,
    "speaker": "Management",
    "quote": "Two-thirds of the mix, as I said, this quarter were due to factors which we think are manageable going into next year.",
-   "metric": "mix headwind manageability",
+   "metric": "mix headwind factors",
    "value": "two-thirds",
-   "period": "Q3 2026",
+   "period": "Q3",
    "kind": "qualitative",
    "ts": "2026-10-27T09:00:42.640000-04:00",
    "novel": true,
@@ -6230,11 +6168,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 11,
-   "seg_id": 59,
+   "claim_id": 14,
+   "seg_id": 52,
    "speaker": "Management",
-   "quote": "So as you think about the underlying going forward, implied in our algorithm is modest expansion, we believe we have the ability to sustain that as we go forward.",
-   "metric": "underlying margin expansion",
+   "quote": "as you think about the underlying going forward, implied in our algorithm is modest expansion, we believe we have the ability to sustain that as we go forward.",
+   "metric": "underlying gross margin expansion",
    "value": "modest expansion",
    "period": "going forward",
    "kind": "guidance",
@@ -6246,12 +6184,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 12,
-   "seg_id": 59,
+   "claim_id": 15,
+   "seg_id": 52,
    "speaker": "Management",
-   "quote": "We have double digit growth above the line,",
+   "quote": "We have double digit growth above the line, and we have a number of programs that we're working in partnership with our",
    "metric": "above-the-line marketing growth",
-   "value": "double digit",
+   "value": "double digit growth",
    "period": null,
    "kind": "result",
    "ts": "2026-10-27T09:02:54.350000-04:00",
@@ -6262,8 +6200,8 @@
    "consensus_role": null
   },
   {
-   "claim_id": 13,
-   "seg_id": 60,
+   "claim_id": 16,
+   "seg_id": 53,
    "speaker": "Management",
    "quote": "I would expect as we go forward that we will have marketing investments growing more or less in line with gross margins to get the shape of the P&L where we want it to be, not just for 2027,",
    "metric": "marketing investment growth",
@@ -6278,13 +6216,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 14,
-   "seg_id": 64,
+   "claim_id": 17,
+   "seg_id": 56,
    "speaker": "Management",
    "quote": "And we feel that we have great plans for 2027, and we are actually anticipating that with investments this year, as we have done in previous years, to be ahead of the curve, to get the momentum that we have and the flexibility that we build during the year to continue to invest on those plans.",
-   "metric": "marketing investment ahead of 2027",
+   "metric": "2027 plans and investment",
    "value": null,
-   "period": "2026-2027",
+   "period": "2027",
    "kind": "qualitative",
    "ts": "2026-10-27T09:04:52.909000-04:00",
    "novel": true,
@@ -6294,27 +6232,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 15,
-   "seg_id": 64,
-   "speaker": "Management",
-   "quote": "Regarding costs, which is one input into the plan, the environment remains very fluid.",
-   "metric": "cost environment",
-   "value": "very fluid",
-   "period": null,
-   "kind": "qualitative",
-   "ts": "2026-10-27T09:05:14.110000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 16,
-   "seg_id": 94,
+   "claim_id": 18,
+   "seg_id": 83,
    "speaker": "Management",
    "quote": "What we have seen, and I mentioned when you look at the overall flat volume for the quarter, we're cycling a good performance of Topo Chico last year as well, which has also an impact on that.",
-   "metric": "North America volume",
+   "metric": "volume",
    "value": "flat",
    "period": "quarter",
    "kind": "result",
@@ -6326,15 +6248,15 @@
    "consensus_role": null
   },
   {
-   "claim_id": 17,
-   "seg_id": 95,
+   "claim_id": 19,
+   "seg_id": 84,
    "speaker": "Management",
-   "quote": "So that volume will start to come back.",
-   "metric": "Topo Chico volume recovery",
+   "quote": "And we just got back with Topo Chico in Texas.",
+   "metric": "Topo Chico availability in Texas",
    "value": null,
-   "period": "2027",
-   "kind": "guidance",
-   "ts": "2026-10-27T09:21:39.860000-04:00",
+   "period": null,
+   "kind": "qualitative",
+   "ts": "2026-10-27T09:21:20.580000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6342,29 +6264,45 @@
    "consensus_role": null
   },
   {
-   "claim_id": 18,
-   "seg_id": 95,
+   "claim_id": 20,
+   "seg_id": 84,
    "speaker": "Management",
-   "quote": "The other ones, really the momentum that we have, we grew Coca-Cola trademark, like we mentioned, really good growth on the zero variant as well.",
-   "metric": "Coca-Cola trademark growth",
+   "quote": "And we will sequence that moving into 2027.",
+   "metric": "Topo Chico volume recovery",
    "value": null,
-   "period": "quarter",
-   "kind": "result",
-   "ts": "2026-10-27T09:21:48.420000-04:00",
-   "novel": false,
-   "matched_doc": "release",
-   "matched_text": "Trademark Coca-Cola grew 5% and Coca-Cola Zero Sugar grew 16%, both driven by growth across all geographic operating segments.",
+   "period": "2027",
+   "kind": "guidance",
+   "ts": "2026-10-27T09:21:20.580000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
-   "claim_id": 19,
-   "seg_id": 95,
+   "claim_id": 21,
+   "seg_id": 84,
+   "speaker": "Management",
+   "quote": "The other ones, really the momentum that we have, we grew Coca-Cola trademark, like we mentioned, really good growth on the zero",
+   "metric": "Coca-Cola trademark growth",
+   "value": "really good growth on zero",
+   "period": null,
+   "kind": "result",
+   "ts": "2026-10-27T09:21:48.420000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 22,
+   "seg_id": 85,
    "speaker": "Management",
    "quote": "Fairlife continues to grow, Powerade grew as well, Fresca, Mr. Pib has been another very good surprise.",
-   "metric": "Fairlife, Powerade, Fresca, Mr. Pib growth",
+   "metric": "brand growth in North America",
    "value": null,
-   "period": "quarter",
+   "period": null,
    "kind": "result",
    "ts": "2026-10-27T09:22:03.460000-04:00",
    "novel": true,
@@ -6374,8 +6312,8 @@
    "consensus_role": null
   },
   {
-   "claim_id": 20,
-   "seg_id": 96,
+   "claim_id": 23,
+   "seg_id": 86,
    "speaker": "Management",
    "quote": "But when you look into a daily average sales, we have the momentum that was built over the quarter.",
    "metric": "daily average sales momentum",
@@ -6390,13 +6328,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 21,
-   "seg_id": 99,
+   "claim_id": 24,
+   "seg_id": 90,
    "speaker": "Management",
    "quote": "And if there's sufficient movement over the course of the next number of weeks, we'll certainly would want to provide an update on that.",
    "metric": "guidance update for currency movement",
    "value": null,
-   "period": null,
+   "period": "next number of weeks",
    "kind": "guidance",
    "ts": "2026-10-27T09:24:17.520000-04:00",
    "novel": true,
@@ -6406,14 +6344,14 @@
    "consensus_role": null
   },
   {
-   "claim_id": 22,
-   "seg_id": 100,
+   "claim_id": 25,
+   "seg_id": 91,
    "speaker": "Management",
    "quote": "The numbers that I talked about in the script do not reflect the movement in the real, particularly over the last day or two.",
-   "metric": "currency impact on guidance numbers",
-   "value": "excludes recent real movement",
+   "metric": "guidance currency assumption",
+   "value": null,
    "period": null,
-   "kind": "qualitative",
+   "kind": "guidance",
    "ts": "2026-10-27T09:24:39.840000-04:00",
    "novel": true,
    "matched_doc": null,
@@ -6422,8 +6360,8 @@
    "consensus_role": null
   },
   {
-   "claim_id": 23,
-   "seg_id": 104,
+   "claim_id": 26,
+   "seg_id": 95,
    "speaker": "Management",
    "quote": "Right now, if you ask me, we expect shipments to run slightly behind volumes for the full year.",
    "metric": "shipments vs volumes",
@@ -6438,12 +6376,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 24,
-   "seg_id": 105,
+   "claim_id": 27,
+   "seg_id": 96,
    "speaker": "Management",
    "quote": "On your margin question, if I line up cases, shipments, everything else, we expect to have margin expansion for the full year.",
-   "metric": "margin",
-   "value": "expansion",
+   "metric": "margin expansion",
+   "value": null,
    "period": "full year",
    "kind": "guidance",
    "ts": "2026-10-27T09:26:45.490000-04:00",
@@ -6452,32 +6390,16 @@
    "matched_text": null,
    "vs_consensus_pct": null,
    "consensus_role": null
-  },
-  {
-   "claim_id": 25,
-   "seg_id": 106,
-   "speaker": "Management",
-   "quote": "that we're anticipating, it's really on trend with what we've seen thus far this year.",
-   "metric": "margin expansion amount",
-   "value": "on trend with year to date",
-   "period": "full year",
-   "kind": "guidance",
-   "ts": "2026-10-27T09:27:18.670000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
   }
  ],
- "n_claims": 26,
+ "n_claims": 28,
  "summary": {
   "id": "KO_Q3-2026",
   "ticker": "KO",
   "quarter": "Q3-2026",
   "company": "Coca-Cola",
   "call_start": "2026-10-27T08:30:00-04:00",
-  "n_moments": 4,
+  "n_moments": 3,
   "n_flagged": 20,
   "spark": [
    0.0028165826394159765,
@@ -6523,8 +6445,8 @@
  "moments": [
   {
    "rank": 1,
-   "claim_id": 8,
-   "seg_id": 13,
+   "claim_id": 11,
+   "seg_id": 8,
    "ts": "2026-10-27T08:35:49.870000-04:00",
    "t0_ms": 349870,
    "speaker": "Management",
@@ -6549,13 +6471,13 @@
   },
   {
    "rank": 2,
-   "claim_id": 21,
-   "seg_id": 99,
-   "ts": "2026-10-27T09:24:17.520000-04:00",
-   "t0_ms": 3257520,
+   "claim_id": 25,
+   "seg_id": 91,
+   "ts": "2026-10-27T09:24:39.840000-04:00",
+   "t0_ms": 3279840,
    "speaker": "Management",
-   "quote": "And if there's sufficient movement over the course of the next number of weeks, we'll certainly would want to provide an update on that.",
-   "metric": "guidance update for currency movement",
+   "quote": "The numbers that I talked about in the script do not reflect the movement in the real, particularly over the last day or two.",
+   "metric": "guidance currency assumption",
    "kind": "guidance",
    "novel": true,
    "matched_doc": null,
@@ -6564,19 +6486,19 @@
    "ret_5m": -0.006128255635806545,
    "etf_ret_5m": -0.003540429419826463,
    "vol_mult": 13.818265840628401,
-   "nearest_flag_min": 0.708,
-   "score": 0.020438151328777243,
+   "nearest_flag_min": 0.336,
+   "score": 0.02313631167805872,
    "confidence": "medium",
    "pre_move": false,
    "section": "qa",
-   "question": "Hey, good morning. Thanks for taking the question. John, I was just hoping to get maybe a clarification and then the question is tied to that. But on the currency effects guidance for 2027, I just wanted to understand if that was updated through yesterday and the context of it being obviously, there's been some pretty big currency movements even in the last 48 hours and some big important markets ",
+   "question": "for 2027 at this point. Thanks very much.",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
    "rank": 3,
-   "claim_id": 13,
-   "seg_id": 60,
+   "claim_id": 16,
+   "seg_id": 53,
    "ts": "2026-10-27T09:03:18.030000-04:00",
    "t0_ms": 1998030,
    "speaker": "Management",
@@ -6595,33 +6517,7 @@
    "confidence": "medium",
    "pre_move": false,
    "section": "qa",
-   "question": "LORINNE LIEBERMANN Great, thanks. Good morning. I wanted to talk a little bit about reinvestment. I know the mantra is more with more, and it looks like this quarter, in terms of the reinvestment that went into SGA, there was a lot of more. So if you could just talk a bit about how much advertising and marketing was up, how much of this is sort of a set the stage into 27 because the gross margins,",
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "rank": 4,
-   "claim_id": 15,
-   "seg_id": 64,
-   "ts": "2026-10-27T09:05:14.110000-04:00",
-   "t0_ms": 2114110,
-   "speaker": "Management",
-   "quote": "Regarding costs, which is one input into the plan, the environment remains very fluid.",
-   "metric": "cost environment",
-   "kind": "qualitative",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "adj_ret_5m": -0.00017110591456104274,
-   "ret_5m": 0.0,
-   "etf_ret_5m": 0.00017110591456104274,
-   "vol_mult": 3.4741637050435306,
-   "nearest_flag_min": -1.0,
-   "score": 0.000029722497904312704,
-   "confidence": "low",
-   "pre_move": false,
-   "section": "qa",
-   "question": "LORINNE LIEBERMANN Thank you, Steve. Look, first of all, we always look at that",
+   "question": "went, and then drivers of the underlying 70 basis points on gross margin. Thanks.",
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -6638,20 +6534,26 @@
   7,
   8,
   9,
-  10,
-  11,
-  12,
-  13,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
   55,
   56,
-  57,
-  58,
-  59,
-  60,
-  61,
-  62,
-  63,
-  64,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
   92,
   93,
   94,
@@ -6659,16 +6561,7 @@
   96,
   97,
   98,
-  99,
-  100,
-  101,
-  102,
-  103,
-  104,
-  105,
-  106,
-  107,
-  108
+  99
  ],
  "open_reaction": null,
  "estimates": [

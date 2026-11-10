@@ -13,25 +13,14 @@
   {
    "seg_id": 0,
    "t0_ms": 0,
-   "t1_ms": 1000,
-   "speaker": "Management",
-   "text": "Welcome, everyone.",
+   "t1_ms": 30320,
+   "speaker": "Operator",
+   "text": "Welcome, everyone. Thank you for standing by for the Alphabet Third Quarter 2026 Earnings Conference Call. At this time, all participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during the session, you will need to press star 1 on your telephone. I would now like to hand the conference over to your speaker today, Jim Friedland, Head of Investor Relations. Please go ahead.",
    "parts": [
     {
      "t0_ms": 0,
      "text": "Welcome, everyone."
-    }
-   ],
-   "ts": "2026-10-28T16:30:00-04:00",
-   "adj_ret_5m": -0.0034214514227983717
-  },
-  {
-   "seg_id": 1,
-   "t0_ms": 1460,
-   "t1_ms": 21860,
-   "speaker": "Operator",
-   "text": "Thank you for standing by for the Alphabet Third Quarter 2026 Earnings Conference Call. At this time, all participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during the session, you will need to press star 1 on your telephone.",
-   "parts": [
+    },
     {
      "t0_ms": 1460,
      "text": "Thank you for standing by for the Alphabet Third Quarter 2026 Earnings Conference Call."
@@ -47,18 +36,7 @@
     {
      "t0_ms": 17120,
      "text": "To ask a question during the session, you will need to press star 1 on your telephone."
-    }
-   ],
-   "ts": "2026-10-28T16:30:01.460000-04:00",
-   "adj_ret_5m": -0.003186472648881611
-  },
-  {
-   "seg_id": 2,
-   "t0_ms": 22860,
-   "t1_ms": 28760,
-   "speaker": "Management",
-   "text": "I would now like to hand the conference over to your speaker today, Jim Friedland, Head of Investor Relations.",
-   "parts": [
+    },
     {
      "t0_ms": 22860,
      "text": "I would now like to hand the conference over to your speaker today, Jim Friedland,"
@@ -66,28 +44,17 @@
     {
      "t0_ms": 27280,
      "text": "Head of Investor Relations."
-    }
-   ],
-   "ts": "2026-10-28T16:30:22.860000-04:00",
-   "adj_ret_5m": -0.003186472648881611
-  },
-  {
-   "seg_id": 3,
-   "t0_ms": 29320,
-   "t1_ms": 30320,
-   "speaker": "Operator",
-   "text": "Please go ahead.",
-   "parts": [
+    },
     {
      "t0_ms": 29320,
      "text": "Please go ahead."
     }
    ],
-   "ts": "2026-10-28T16:30:29.320000-04:00",
-   "adj_ret_5m": -0.003186472648881611
+   "ts": "2026-10-28T16:30:00-04:00",
+   "adj_ret_5m": -0.0034214514227983717
   },
   {
-   "seg_id": 4,
+   "seg_id": 1,
    "t0_ms": 31620,
    "t1_ms": 72380,
    "speaker": "Management",
@@ -134,11 +101,11 @@
    "adj_ret_5m": -0.003186472648881611
   },
   {
-   "seg_id": 5,
+   "seg_id": 2,
    "t0_ms": 72740,
-   "t1_ms": 90220,
+   "t1_ms": 116860,
    "speaker": "Management",
-   "text": "A reconciliation of non-GAAP to GAAP measures is included in today's earnings press release, which is distributed and available to the public through our investor relations website located at abc.xyz forward slash investor. Our comments will be on year-over-year comparisons unless we state otherwise.",
+   "text": "A reconciliation of non-GAAP to GAAP measures is included in today's earnings press release, which is distributed and available to the public through our investor relations website located at abc.xyz forward slash investor. Our comments will be on year-over-year comparisons unless we state otherwise. And now I'll turn the call over to Sundar. Thanks, Jim. And hello, everyone. Q3 was a strong quarter for Alphabet. Our deep full-stack approach is driving momentum across the business with many opportunities ahead. Let me give you a quick snapshot of the quarter. Alphabet revenues grew 25% year-over-year. We are now at a half a trillion dollar annual run rate. That's remarkable growth.",
    "parts": [
     {
      "t0_ms": 72740,
@@ -147,33 +114,11 @@
     {
      "t0_ms": 86640,
      "text": "Our comments will be on year-over-year comparisons unless we state otherwise."
-    }
-   ],
-   "ts": "2026-10-28T16:31:12.740000-04:00",
-   "adj_ret_5m": 0.0009125949005854839
-  },
-  {
-   "seg_id": 6,
-   "t0_ms": 90860,
-   "t1_ms": 92900,
-   "speaker": "Operator",
-   "text": "And now I'll turn the call over to Sundar.",
-   "parts": [
+    },
     {
      "t0_ms": 90860,
      "text": "And now I'll turn the call over to Sundar."
-    }
-   ],
-   "ts": "2026-10-28T16:31:30.860000-04:00",
-   "adj_ret_5m": 0.0009125949005854839
-  },
-  {
-   "seg_id": 7,
-   "t0_ms": 94540,
-   "t1_ms": 134980,
-   "speaker": "Management",
-   "text": "Thanks, Jim. And hello, everyone. Q3 was a strong quarter for Alphabet. Our deep full-stack approach is driving momentum across the business with many opportunities ahead. Let me give you a quick snapshot of the quarter. Alphabet revenues grew 25% year-over-year. We are now at a half a trillion dollar annual run rate. That's remarkable growth. Search is strong momentum. Our AI investments are driving increased usage and overall query growth, including commercial queries. In fact, our year-over-year query growth rate is the highest it's been in the last five years. Google Cloud revenues grew 103%.",
-   "parts": [
+    },
     {
      "t0_ms": 94540,
      "text": "Thanks, Jim. And hello, everyone."
@@ -201,7 +146,18 @@
     {
      "t0_ms": 115700,
      "text": "That's remarkable growth."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:31:12.740000-04:00",
+   "adj_ret_5m": 0.0009125949005854839
+  },
+  {
+   "seg_id": 3,
+   "t0_ms": 117660,
+   "t1_ms": 160260,
+   "speaker": "Management",
+   "text": "Search is strong momentum. Our AI investments are driving increased usage and overall query growth, including commercial queries. In fact, our year-over-year query growth rate is the highest it's been in the last five years. Google Cloud revenues grew 103%. Our AI infrastructure and solutions are the major drivers for cloud growth, and our customers see us as the leading provider here, so there's huge demand. We are working hard to bring more capacity online to meet this long-term demand. At the same time, we are seeing strong demand for our TPU systems across a wide range of customers, and we expect that to continue as we scale.",
+   "parts": [
     {
      "t0_ms": 117660,
      "text": "Search is strong momentum."
@@ -217,18 +173,7 @@
     {
      "t0_ms": 131860,
      "text": "Google Cloud revenues grew 103%."
-    }
-   ],
-   "ts": "2026-10-28T16:31:34.540000-04:00",
-   "adj_ret_5m": 0.0009125949005854839
-  },
-  {
-   "seg_id": 8,
-   "t0_ms": 135660,
-   "t1_ms": 170000,
-   "speaker": "Management",
-   "text": "Our AI infrastructure and solutions are the major drivers for cloud growth, and our customers see us as the leading provider here, so there's huge demand. We are working hard to bring more capacity online to meet this long-term demand. At the same time, we are seeing strong demand for our TPU systems across a wide range of customers, and we expect that to continue as we scale. I'm excited to welcome Thomas to the call, and he'll share more about cloud's momentum. On our AI models, customers are using our models more than ever.",
-   "parts": [
+    },
     {
      "t0_ms": 135660,
      "text": "Our AI infrastructure and solutions are the major drivers for cloud growth, and our customers see us as the leading provider here, so there's huge demand."
@@ -240,7 +185,18 @@
     {
      "t0_ms": 150900,
      "text": "At the same time, we are seeing strong demand for our TPU systems across a wide range of customers, and we expect that to continue as we scale."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:31:57.660000-04:00",
+   "adj_ret_5m": 0.0009125949005854839
+  },
+  {
+   "seg_id": 4,
+   "t0_ms": 161380,
+   "t1_ms": 201300,
+   "speaker": "Management",
+   "text": "I'm excited to welcome Thomas to the call, and he'll share more about cloud's momentum. On our AI models, customers are using our models more than ever. Our first-party model APIs are now processing nearly 32 billion tokens per minute, 40% more than last quarter, and more than four times what we processed a year ago. And with Gemini 4 Argonne and now Carbon, which we announced today, we are excited to be leading at the frontier. The Gemini app is now at one billion users and is the fastest growing product in Google's history. Lastly, we have surpassed 150 million YouTube music and premium subscribers globally, including Trials.",
+   "parts": [
     {
      "t0_ms": 161380,
      "text": "I'm excited to welcome Thomas to the call, and he'll share more about cloud's momentum."
@@ -248,18 +204,7 @@
     {
      "t0_ms": 165960,
      "text": "On our AI models, customers are using our models more than ever."
-    }
-   ],
-   "ts": "2026-10-28T16:32:15.660000-04:00",
-   "adj_ret_5m": 0.0004034786828945869
-  },
-  {
-   "seg_id": 9,
-   "t0_ms": 170320,
-   "t1_ms": 210180,
-   "speaker": "Management",
-   "text": "Our first-party model APIs are now processing nearly 32 billion tokens per minute, 40% more than last quarter, and more than four times what we processed a year ago. And with Gemini 4 Argonne and now Carbon, which we announced today, we are excited to be leading at the frontier. The Gemini app is now at one billion users and is the fastest growing product in Google's history. Lastly, we have surpassed 150 million YouTube music and premium subscribers globally, including Trials. Today, I'll talk more about our AI progress, our global consumer platforms led by Search and YouTube, then our long-term bets.",
-   "parts": [
+    },
     {
      "t0_ms": 170320,
      "text": "Our first-party model APIs are now processing nearly 32 billion tokens per minute, 40% more than last quarter, and more than four times what we processed a year ago."
@@ -275,22 +220,22 @@
     {
      "t0_ms": 194240,
      "text": "Lastly, we have surpassed 150 million YouTube music and premium subscribers globally, including Trials."
-    },
-    {
-     "t0_ms": 202460,
-     "text": "Today, I'll talk more about our AI progress, our global consumer platforms led by Search and YouTube, then our long-term bets."
     }
    ],
-   "ts": "2026-10-28T16:32:50.320000-04:00",
+   "ts": "2026-10-28T16:32:41.380000-04:00",
    "adj_ret_5m": 0.0004034786828945869
   },
   {
-   "seg_id": 10,
-   "t0_ms": 211580,
-   "t1_ms": 248800,
+   "seg_id": 5,
+   "t0_ms": 202460,
+   "t1_ms": 234840,
    "speaker": "Management",
-   "text": "Starting with AI, highlighted by our Gemini 4 series of frontier models, we are seeing strong demand and usage for Argonne, which we launched two weeks ago. In fact, on our developer platforms, usage in the first week ramped up three and a half times faster than Gemini 3, even with capacity constraints. Argonne is proving to do really well in areas like finance, legal, cybersecurity, and science. Developers and cloud customers are already using it for things like untangling legacy code bases, accelerating scientific research, robotics, discovering product improvements, and domain-specific cloud-based solutions.",
+   "text": "Today, I'll talk more about our AI progress, our global consumer platforms led by Search and YouTube, then our long-term bets. Starting with AI, highlighted by our Gemini 4 series of frontier models, we are seeing strong demand and usage for Argonne, which we launched two weeks ago. In fact, on our developer platforms, usage in the first week ramped up three and a half times faster than Gemini 3, even with capacity constraints. Argonne is proving to do really well in areas like finance, legal, cybersecurity, and science.",
    "parts": [
+    {
+     "t0_ms": 202460,
+     "text": "Today, I'll talk more about our AI progress, our global consumer platforms led by Search and YouTube, then our long-term bets."
+    },
     {
      "t0_ms": 211580,
      "text": "Starting with AI, highlighted by our Gemini 4 series of frontier models, we are seeing strong demand and usage for Argonne, which we launched two weeks ago."
@@ -302,22 +247,22 @@
     {
      "t0_ms": 229600,
      "text": "Argonne is proving to do really well in areas like finance, legal, cybersecurity, and science."
-    },
-    {
-     "t0_ms": 235640,
-     "text": "Developers and cloud customers are already using it for things like untangling legacy code bases, accelerating scientific research, robotics, discovering product improvements, and domain-specific cloud-based solutions."
     }
    ],
-   "ts": "2026-10-28T16:33:31.580000-04:00",
+   "ts": "2026-10-28T16:33:22.460000-04:00",
    "adj_ret_5m": -0.0010020608940062292
   },
   {
-   "seg_id": 11,
-   "t0_ms": 248800,
-   "t1_ms": 288960,
+   "seg_id": 6,
+   "t0_ms": 235640,
+   "t1_ms": 272100,
    "speaker": "Management",
-   "text": "And at Google, just in the last few weeks, teams across Chrome, Ads, and Search have used Argonne to write and optimize code much faster, shipping 35% more code with 30% fewer errors. Argonne is just the start of the Gemini 4 series. Today, we announced Carbon. It's our strongest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. It ranks number one on the recently updated Artificial Analysis Intelligence Index at 59. Carbon outperforms Argonne across almost every domain like full-stack web development, multimodal understanding, complex knowledge work, and scientific reasoning.",
+   "text": "Developers and cloud customers are already using it for things like untangling legacy code bases, accelerating scientific research, robotics, discovering product improvements, and domain-specific cloud-based solutions. And at Google, just in the last few weeks, teams across Chrome, Ads, and Search have used Argonne to write and optimize code much faster, shipping 35% more code with 30% fewer errors. Argonne is just the start of the Gemini 4 series. Today, we announced Carbon. It's our strongest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.",
    "parts": [
+    {
+     "t0_ms": 235640,
+     "text": "Developers and cloud customers are already using it for things like untangling legacy code bases, accelerating scientific research, robotics, discovering product improvements, and domain-specific cloud-based solutions."
+    },
     {
      "t0_ms": 248800,
      "text": "And at Google, just in the last few weeks, teams across Chrome, Ads, and Search have used Argonne to write and optimize code much faster, shipping 35% more code with 30% fewer errors."
@@ -329,22 +274,22 @@
     {
      "t0_ms": 265260,
      "text": "Today, we announced Carbon. It's our strongest frontier model with state-of-the-art cybersecurity and long-horizon capabilities."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:33:55.640000-04:00",
+   "adj_ret_5m": -0.0010020608940062292
+  },
+  {
+   "seg_id": 7,
+   "t0_ms": 272100,
+   "t1_ms": 310980,
+   "speaker": "Management",
+   "text": "It ranks number one on the recently updated Artificial Analysis Intelligence Index at 59. Carbon outperforms Argonne across almost every domain like full-stack web development, multimodal understanding, complex knowledge work, and scientific reasoning. We are rolling Carbon out first to a subset of trusted cyber defenders before we expand access, and it's being tested by our new technology, Argonne. Beyond our Gemini 4 series, yesterday we announced Genie 4, our most advanced world model yet that simulates safe, realistic, interactive worlds with native audio in real time.",
+   "parts": [
     {
      "t0_ms": 272100,
      "text": "It ranks number one on the recently updated Artificial Analysis Intelligence Index at 59. Carbon outperforms Argonne across almost every domain like full-stack web development, multimodal understanding, complex knowledge work, and scientific reasoning."
-    }
-   ],
-   "ts": "2026-10-28T16:34:08.800000-04:00",
-   "adj_ret_5m": -0.0031523794950023554
-  },
-  {
-   "seg_id": 12,
-   "t0_ms": 289960,
-   "t1_ms": 329000,
-   "speaker": "Management",
-   "text": "We are rolling Carbon out first to a subset of trusted cyber defenders before we expand access, and it's being tested by our new technology, Argonne. Beyond our Gemini 4 series, yesterday we announced Genie 4, our most advanced world model yet that simulates safe, realistic, interactive worlds with native audio in real time. It is an important building block for training robots and agents. This rapid progress underscores our incredible model momentum. We are at the point where AI is helping us increase our training and launch velocity. I would expect the next 12 months to see continued acceleration because of RSI.",
-   "parts": [
+    },
     {
      "t0_ms": 289960,
      "text": "We are rolling Carbon out first to a subset of trusted cyber defenders before we expand access, and it's being tested by our new technology, Argonne."
@@ -352,7 +297,18 @@
     {
      "t0_ms": 300080,
      "text": "Beyond our Gemini 4 series, yesterday we announced Genie 4, our most advanced world model yet that simulates safe, realistic, interactive worlds with native audio in real time."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:34:32.100000-04:00",
+   "adj_ret_5m": -0.0031523794950023554
+  },
+  {
+   "seg_id": 8,
+   "t0_ms": 311980,
+   "t1_ms": 352660,
+   "speaker": "Management",
+   "text": "It is an important building block for training robots and agents. This rapid progress underscores our incredible model momentum. We are at the point where AI is helping us increase our training and launch velocity. I would expect the next 12 months to see continued acceleration because of RSI. We have more models coming soon, including more efficient versions to help developers optimize for speed and cost and to deploy across our billions of users. Let's turn to Search, which is bringing the benefits of AI to more people than any other product in the world. Just like our shift to mobile over a decade ago, we are focused on building the best search user experience followed by monetization.",
+   "parts": [
     {
      "t0_ms": 311980,
      "text": "It is an important building block for training robots and agents. This rapid progress underscores our incredible model momentum."
@@ -364,18 +320,7 @@
     {
      "t0_ms": 325000,
      "text": "I would expect the next 12 months to see continued acceleration because of RSI."
-    }
-   ],
-   "ts": "2026-10-28T16:34:49.960000-04:00",
-   "adj_ret_5m": -0.0031523794950023554
-  },
-  {
-   "seg_id": 13,
-   "t0_ms": 330000,
-   "t1_ms": 373660,
-   "speaker": "Management",
-   "text": "We have more models coming soon, including more efficient versions to help developers optimize for speed and cost and to deploy across our billions of users. Let's turn to Search, which is bringing the benefits of AI to more people than any other product in the world. Just like our shift to mobile over a decade ago, we are focused on building the best search user experience followed by monetization. We are building one seamless experience across AI overviews, AI mode, and traditional search. And people are using our AI features more, searching in entirely new ways. Their queries are longer, personalized, and multimodal. Queries in AI are more complex and more efficient than other products.",
-   "parts": [
+    },
     {
      "t0_ms": 330000,
      "text": "We have more models coming soon, including more efficient versions to help developers optimize for speed and cost and to deploy across our billions of users."
@@ -387,7 +332,18 @@
     {
      "t0_ms": 346660,
      "text": "Just like our shift to mobile over a decade ago, we are focused on building the best search user experience followed by monetization."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:35:11.980000-04:00",
+   "adj_ret_5m": -0.00018274380914140576
+  },
+  {
+   "seg_id": 9,
+   "t0_ms": 353660,
+   "t1_ms": 388720,
+   "speaker": "Management",
+   "text": "We are building one seamless experience across AI overviews, AI mode, and traditional search. And people are using our AI features more, searching in entirely new ways. Their queries are longer, personalized, and multimodal. Queries in AI are more complex and more efficient than other products. Queries in AI mode are on average three times longer than traditional searches. And one in five AI mode searches globally use voice, images, or documents. We have now crossed over 50 billion visual searches per month.",
+   "parts": [
     {
      "t0_ms": 353660,
      "text": "We are building one seamless experience across AI overviews, AI mode, and traditional search."
@@ -403,18 +359,7 @@
     {
      "t0_ms": 369660,
      "text": "Queries in AI are more complex and more efficient than other products."
-    }
-   ],
-   "ts": "2026-10-28T16:35:30-04:00",
-   "adj_ret_5m": -0.00018274380914140576
-  },
-  {
-   "seg_id": 14,
-   "t0_ms": 373720,
-   "t1_ms": 414780,
-   "speaker": "Management",
-   "text": "Queries in AI mode are on average three times longer than traditional searches. And one in five AI mode searches globally use voice, images, or documents. We have now crossed over 50 billion visual searches per month. One area I am excited about is helping people get things done, be it booking reservations, filling in forms, scheduling appointments, or making purchases. As AI becomes more personal and starts taking action for people and businesses, trust and security matter more than ever. People already put their trust in Google to get things done in their daily lives, and our leadership here remains an important differentiator.",
-   "parts": [
+    },
     {
      "t0_ms": 373720,
      "text": "Queries in AI mode are on average three times longer than traditional searches."
@@ -426,7 +371,18 @@
     {
      "t0_ms": 384720,
      "text": "We have now crossed over 50 billion visual searches per month."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:35:53.660000-04:00",
+   "adj_ret_5m": -0.00018274380914140576
+  },
+  {
+   "seg_id": 10,
+   "t0_ms": 389720,
+   "t1_ms": 430840,
+   "speaker": "Management",
+   "text": "One area I am excited about is helping people get things done, be it booking reservations, filling in forms, scheduling appointments, or making purchases. As AI becomes more personal and starts taking action for people and businesses, trust and security matter more than ever. People already put their trust in Google to get things done in their daily lives, and our leadership here remains an important differentiator. We focus first on getting these agentic experiences right with the Gemini agent for enterprise, because the bar for security, safety, and governance is extremely high. As the next step, we are bringing these features to search, and also, of course, to our billion users on the Gemini app.",
+   "parts": [
     {
      "t0_ms": 389720,
      "text": "One area I am excited about is helping people get things done, be it booking reservations, filling in forms, scheduling appointments, or making purchases."
@@ -438,18 +394,7 @@
     {
      "t0_ms": 406780,
      "text": "People already put their trust in Google to get things done in their daily lives, and our leadership here remains an important differentiator."
-    }
-   ],
-   "ts": "2026-10-28T16:36:13.720000-04:00",
-   "adj_ret_5m": -0.0015069609507640802
-  },
-  {
-   "seg_id": 15,
-   "t0_ms": 415780,
-   "t1_ms": 459900,
-   "speaker": "Management",
-   "text": "We focus first on getting these agentic experiences right with the Gemini agent for enterprise, because the bar for security, safety, and governance is extremely high. As the next step, we are bringing these features to search, and also, of course, to our billion users on the Gemini app. People are already using the Gemini app to do more than ask questions. They are using it to do things, including complex multi-step agentic queries. Our Gemini 4 series has been a really big step forward here, and has already been handling these complex tasks really well. Agents will operate as a unifying layer across our products, so you will see us extend these agentic experiences beyond search in the Gemini app to Chrome, Android, and our workspace products as well.",
-   "parts": [
+    },
     {
      "t0_ms": 415780,
      "text": "We focus first on getting these agentic experiences right with the Gemini agent for enterprise, because the bar for security, safety, and governance is extremely high."
@@ -457,7 +402,18 @@
     {
      "t0_ms": 424840,
      "text": "As the next step, we are bringing these features to search, and also, of course, to our billion users on the Gemini app."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:36:29.720000-04:00",
+   "adj_ret_5m": -0.0015069609507640802
+  },
+  {
+   "seg_id": 11,
+   "t0_ms": 431840,
+   "t1_ms": 474960,
+   "speaker": "Management",
+   "text": "People are already using the Gemini app to do more than ask questions. They are using it to do things, including complex multi-step agentic queries. Our Gemini 4 series has been a really big step forward here, and has already been handling these complex tasks really well. Agents will operate as a unifying layer across our products, so you will see us extend these agentic experiences beyond search in the Gemini app to Chrome, Android, and our workspace products as well. On to YouTube, which continues to lead in the living room as the number one streaming platform in the U.S. in terms of watch time. It's also seeing good subscriber growth, as I mentioned. At Made on YouTube last month, we announced more than 30 products and features for creators and viewers.",
+   "parts": [
     {
      "t0_ms": 431840,
      "text": "People are already using the Gemini app to do more than ask questions."
@@ -473,18 +429,7 @@
     {
      "t0_ms": 448900,
      "text": "Agents will operate as a unifying layer across our products, so you will see us extend these agentic experiences beyond search in the Gemini app to Chrome, Android, and our workspace products as well."
-    }
-   ],
-   "ts": "2026-10-28T16:36:55.780000-04:00",
-   "adj_ret_5m": -0.0015069609507640802
-  },
-  {
-   "seg_id": 16,
-   "t0_ms": 460900,
-   "t1_ms": 499020,
-   "speaker": "Management",
-   "text": "On to YouTube, which continues to lead in the living room as the number one streaming platform in the U.S. in terms of watch time. It's also seeing good subscriber growth, as I mentioned. At Made on YouTube last month, we announced more than 30 products and features for creators and viewers. One great example is custom feeds, where you can simply pick a topic you love and get a tailored video home feed based on that topic. Philip will say more on YouTube. On to our long-term bets. Waymo is on a great trajectory. We have now driven more than 300 million fully autonomous miles. Waymo now operates in 15 major U.S. cities and just recently opened up service to the public in San Antonio, San Diego, and Tampa with planned expansions into Canada, Germany, Singapore, and Spain.",
-   "parts": [
+    },
     {
      "t0_ms": 460900,
      "text": "On to YouTube, which continues to lead in the living room as the number one streaming platform in the U.S. in terms of watch time."
@@ -496,7 +441,18 @@
     {
      "t0_ms": 470960,
      "text": "At Made on YouTube last month, we announced more than 30 products and features for creators and viewers."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:37:11.840000-04:00",
+   "adj_ret_5m": -0.0008223739918467032
+  },
+  {
+   "seg_id": 12,
+   "t0_ms": 475960,
+   "t1_ms": 518020,
+   "speaker": "Management",
+   "text": "One great example is custom feeds, where you can simply pick a topic you love and get a tailored video home feed based on that topic. Philip will say more on YouTube. On to our long-term bets. Waymo is on a great trajectory. We have now driven more than 300 million fully autonomous miles. Waymo now operates in 15 major U.S. cities and just recently opened up service to the public in San Antonio, San Diego, and Tampa with planned expansions into Canada, Germany, Singapore, and Spain. We are also seeing strong progress across our other long-term initiatives. Isomorphic is using Oregon to support drug design research.",
+   "parts": [
     {
      "t0_ms": 475960,
      "text": "One great example is custom feeds, where you can simply pick a topic you love and get a tailored video home feed based on that topic."
@@ -520,18 +476,7 @@
     {
      "t0_ms": 494020,
      "text": "Waymo now operates in 15 major U.S. cities and just recently opened up service to the public in San Antonio, San Diego, and Tampa with planned expansions into Canada, Germany, Singapore, and Spain."
-    }
-   ],
-   "ts": "2026-10-28T16:37:40.900000-04:00",
-   "adj_ret_5m": -0.0008223739918467032
-  },
-  {
-   "seg_id": 17,
-   "t0_ms": 510020,
-   "t1_ms": 552080,
-   "speaker": "Management",
-   "text": "We are also seeing strong progress across our other long-term initiatives. Isomorphic is using Oregon to support drug design research. We demonstrated magic state cultivation for the first time in quantum computing and launched our TPUs into space with Project Suncatcher. So it's been a busy quarter and there's much more to come. I want to thank our employees for their work this quarter. And over to you, Philip. Thanks, Sondar. And hello, everyone. I'll highlight our momentum across Search, YouTube, and partnerships. We continue to accelerate the deployment of Gemini models across our market. We are also expanding our entire ads infrastructure to boost performance in the three areas I've highlighted before.",
-   "parts": [
+    },
     {
      "t0_ms": 510020,
      "text": "We are also seeing strong progress across our other long-term initiatives."
@@ -539,7 +484,18 @@
     {
      "t0_ms": 515020,
      "text": "Isomorphic is using Oregon to support drug design research."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:37:55.960000-04:00",
+   "adj_ret_5m": -0.0008223739918467032
+  },
+  {
+   "seg_id": 13,
+   "t0_ms": 518080,
+   "t1_ms": 558080,
+   "speaker": "Management",
+   "text": "We demonstrated magic state cultivation for the first time in quantum computing and launched our TPUs into space with Project Suncatcher. So it's been a busy quarter and there's much more to come. I want to thank our employees for their work this quarter. And over to you, Philip. Thanks, Sondar. And hello, everyone. I'll highlight our momentum across Search, YouTube, and partnerships. We continue to accelerate the deployment of Gemini models across our market. We are also expanding our entire ads infrastructure to boost performance in the three areas I've highlighted before. Ads quality, advertiser tools, and AI user experiences. First, ads quality.",
+   "parts": [
     {
      "t0_ms": 518080,
      "text": "We demonstrated magic state cultivation for the first time in quantum computing and launched our TPUs into space with Project Suncatcher."
@@ -575,18 +531,7 @@
     {
      "t0_ms": 549080,
      "text": "entire ads infrastructure to boost performance in the three areas I've highlighted before."
-    }
-   ],
-   "ts": "2026-10-28T16:38:30.020000-04:00",
-   "adj_ret_5m": -0.010415270667624044
-  },
-  {
-   "seg_id": 18,
-   "t0_ms": 553080,
-   "t1_ms": 594080,
-   "speaker": "Management",
-   "text": "Ads quality, advertiser tools, and AI user experiences. First, ads quality. The integration of Gemini models into our ads infrastructure is improving how we decode user intent and drive ads relevance. For example, in Q3, we made the biggest update to product listing ads in a decade, adding new AI capabilities to help users make more confident purchase decisions. Already, we've seen satisfaction increase by 19% and dissatisfaction drop more than half. We're also seeing AI models enable better prediction of clicks and conversions, stronger overall performance, and deeper personalization of ads. For instance, through several innovations and personalization modeling,",
-   "parts": [
+    },
     {
      "t0_ms": 553080,
      "text": "Ads quality, advertiser tools, and AI user experiences."
@@ -594,7 +539,18 @@
     {
      "t0_ms": 557080,
      "text": "First, ads quality."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:38:38.080000-04:00",
+   "adj_ret_5m": -0.010415270667624044
+  },
+  {
+   "seg_id": 14,
+   "t0_ms": 559080,
+   "t1_ms": 602080,
+   "speaker": "Management",
+   "text": "The integration of Gemini models into our ads infrastructure is improving how we decode user intent and drive ads relevance. For example, in Q3, we made the biggest update to product listing ads in a decade, adding new AI capabilities to help users make more confident purchase decisions. Already, we've seen satisfaction increase by 19% and dissatisfaction drop more than half. We're also seeing AI models enable better prediction of clicks and conversions, stronger overall performance, and deeper personalization of ads. For instance, through several innovations and personalization modeling, we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026.",
+   "parts": [
     {
      "t0_ms": 559080,
      "text": "The integration of Gemini models into our ads infrastructure is improving how we decode user intent and drive ads relevance."
@@ -622,22 +578,22 @@
     {
      "t0_ms": 591080,
      "text": "For instance, through several innovations and personalization modeling,"
-    }
-   ],
-   "ts": "2026-10-28T16:39:13.080000-04:00",
-   "adj_ret_5m": -0.006279196876699977
-  },
-  {
-   "seg_id": 19,
-   "t0_ms": 595080,
-   "t1_ms": 638080,
-   "speaker": "Management",
-   "text": "we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026. Overall, AI is accelerating our ads development and drives the majority of our product launches. Second, advertiser tools. We're ensuring every advertiser, from global brands to small businesses, can seamlessly participate in our AI surfaces. AI Max and Performance Max continue to see strong adoption. To give marketers even more control, we're now introducing a way to test different budgets and ROI targets across multiple Search campaigns in a single AI Max A-B test. To drive better performance, we integrated our AI creative tools directly into AI Max.",
-   "parts": [
+    },
     {
      "t0_ms": 595080,
      "text": "we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026."
-    },
+    }
+   ],
+   "ts": "2026-10-28T16:39:19.080000-04:00",
+   "adj_ret_5m": -0.006279196876699977
+  },
+  {
+   "seg_id": 15,
+   "t0_ms": 602080,
+   "t1_ms": 638080,
+   "speaker": "Management",
+   "text": "Overall, AI is accelerating our ads development and drives the majority of our product launches. Second, advertiser tools. We're ensuring every advertiser, from global brands to small businesses, can seamlessly participate in our AI surfaces. AI Max and Performance Max continue to see strong adoption. To give marketers even more control, we're now introducing a way to test different budgets and ROI targets across multiple Search campaigns in a single AI Max A-B test. To drive better performance, we integrated our AI creative tools directly into AI Max.",
+   "parts": [
     {
      "t0_ms": 602080,
      "text": "Overall, AI is accelerating our ads development and drives the majority of our product launches."
@@ -667,11 +623,11 @@
      "text": "To drive better performance, we integrated our AI creative tools directly into AI Max."
     }
    ],
-   "ts": "2026-10-28T16:39:55.080000-04:00",
-   "adj_ret_5m": -0.006279196876699977
+   "ts": "2026-10-28T16:40:02.080000-04:00",
+   "adj_ret_5m": -0.004115422689049408
   },
   {
-   "seg_id": 20,
+   "seg_id": 16,
    "t0_ms": 639080,
    "t1_ms": 678080,
    "speaker": "Management",
@@ -706,7 +662,7 @@
    "adj_ret_5m": -0.004115422689049408
   },
   {
-   "seg_id": 21,
+   "seg_id": 17,
    "t0_ms": 678080,
    "t1_ms": 717080,
    "speaker": "Management",
@@ -741,7 +697,7 @@
    "adj_ret_5m": -0.004110815821913416
   },
   {
-   "seg_id": 22,
+   "seg_id": 18,
    "t0_ms": 718080,
    "t1_ms": 755080,
    "speaker": "Management",
@@ -776,7 +732,7 @@
    "adj_ret_5m": -0.004110815821913416
   },
   {
-   "seg_id": 23,
+   "seg_id": 19,
    "t0_ms": 756080,
    "t1_ms": 795080,
    "speaker": "Management",
@@ -807,7 +763,7 @@
    "adj_ret_5m": -0.006222139220614986
   },
   {
-   "seg_id": 24,
+   "seg_id": 20,
    "t0_ms": 796080,
    "t1_ms": 839080,
    "speaker": "Management",
@@ -846,7 +802,7 @@
    "adj_ret_5m": 0.0030626652002112564
   },
   {
-   "seg_id": 25,
+   "seg_id": 21,
    "t0_ms": 840080,
    "t1_ms": 884080,
    "speaker": "Management",
@@ -885,7 +841,7 @@
    "adj_ret_5m": 0.003744111283279672
   },
   {
-   "seg_id": 26,
+   "seg_id": 22,
    "t0_ms": 884080,
    "t1_ms": 923080,
    "speaker": "Management",
@@ -928,7 +884,7 @@
    "adj_ret_5m": 0.003744111283279672
   },
   {
-   "seg_id": 27,
+   "seg_id": 23,
    "t0_ms": 924080,
    "t1_ms": 968080,
    "speaker": "Management",
@@ -963,7 +919,7 @@
    "adj_ret_5m": 0.00335290125551424
   },
   {
-   "seg_id": 28,
+   "seg_id": 24,
    "t0_ms": 970080,
    "t1_ms": 1014080,
    "speaker": "Management",
@@ -998,7 +954,7 @@
    "adj_ret_5m": 0.0018104436366397358
   },
   {
-   "seg_id": 29,
+   "seg_id": 25,
    "t0_ms": 1015080,
    "t1_ms": 1053080,
    "speaker": "Management",
@@ -1021,7 +977,7 @@
    "adj_ret_5m": 0.0018104436366397358
   },
   {
-   "seg_id": 30,
+   "seg_id": 26,
    "t0_ms": 1053080,
    "t1_ms": 1092080,
    "speaker": "Management",
@@ -1048,7 +1004,7 @@
    "adj_ret_5m": 0.0018619452249568624
   },
   {
-   "seg_id": 31,
+   "seg_id": 27,
    "t0_ms": 1092080,
    "t1_ms": 1137080,
    "speaker": "Management",
@@ -1071,7 +1027,7 @@
    "adj_ret_5m": 0.003761436801084317
   },
   {
-   "seg_id": 32,
+   "seg_id": 28,
    "t0_ms": 1138080,
    "t1_ms": 1175080,
    "speaker": "Management",
@@ -1098,7 +1054,7 @@
    "adj_ret_5m": 0.003761436801084317
   },
   {
-   "seg_id": 33,
+   "seg_id": 29,
    "t0_ms": 1176080,
    "t1_ms": 1218080,
    "speaker": "Management",
@@ -1125,7 +1081,7 @@
    "adj_ret_5m": 0.004132231404958553
   },
   {
-   "seg_id": 34,
+   "seg_id": 30,
    "t0_ms": 1218080,
    "t1_ms": 1260080,
    "speaker": "Management",
@@ -1152,7 +1108,7 @@
    "adj_ret_5m": 0.003726561873812262
   },
   {
-   "seg_id": 35,
+   "seg_id": 31,
    "t0_ms": 1260080,
    "t1_ms": 1296080,
    "speaker": "Management",
@@ -1179,7 +1135,7 @@
    "adj_ret_5m": 0.004736129905277275
   },
   {
-   "seg_id": 36,
+   "seg_id": 32,
    "t0_ms": 1297080,
    "t1_ms": 1329080,
    "speaker": "Management",
@@ -1198,7 +1154,7 @@
    "adj_ret_5m": 0.004736129905277275
   },
   {
-   "seg_id": 37,
+   "seg_id": 33,
    "t0_ms": 1329080,
    "t1_ms": 1366080,
    "speaker": "Management",
@@ -1217,7 +1173,7 @@
    "adj_ret_5m": 0.0034128539568831773
   },
   {
-   "seg_id": 38,
+   "seg_id": 34,
    "t0_ms": 1366080,
    "t1_ms": 1391080,
    "speaker": "Management",
@@ -1236,7 +1192,7 @@
    "adj_ret_5m": 0.0034128539568831773
   },
   {
-   "seg_id": 39,
+   "seg_id": 35,
    "t0_ms": 1392080,
    "t1_ms": 1431080,
    "speaker": "Management",
@@ -1255,7 +1211,7 @@
    "adj_ret_5m": 0.0020748793085985096
   },
   {
-   "seg_id": 40,
+   "seg_id": 36,
    "t0_ms": 1432080,
    "t1_ms": 1466080,
    "speaker": "Management",
@@ -1278,7 +1234,7 @@
    "adj_ret_5m": 0.0020748793085985096
   },
   {
-   "seg_id": 41,
+   "seg_id": 37,
    "t0_ms": 1466080,
    "t1_ms": 1509080,
    "speaker": "Management",
@@ -1297,7 +1253,7 @@
    "adj_ret_5m": 0.0022262699858328627
   },
   {
-   "seg_id": 42,
+   "seg_id": 38,
    "t0_ms": 1510080,
    "t1_ms": 1554080,
    "speaker": "Management",
@@ -1320,7 +1276,7 @@
    "adj_ret_5m": 0.00043802014892690977
   },
   {
-   "seg_id": 43,
+   "seg_id": 39,
    "t0_ms": 1555080,
    "t1_ms": 1591080,
    "speaker": "Management",
@@ -1339,7 +1295,7 @@
    "adj_ret_5m": 0.00043802014892690977
   },
   {
-   "seg_id": 44,
+   "seg_id": 40,
    "t0_ms": 1592080,
    "t1_ms": 1632080,
    "speaker": "Management",
@@ -1366,7 +1322,7 @@
    "adj_ret_5m": -0.005311074621419554
   },
   {
-   "seg_id": 45,
+   "seg_id": 41,
    "t0_ms": 1633080,
    "t1_ms": 1669080,
    "speaker": "Management",
@@ -1389,7 +1345,7 @@
    "adj_ret_5m": -0.011555946872016443
   },
   {
-   "seg_id": 46,
+   "seg_id": 42,
    "t0_ms": 1669080,
    "t1_ms": 1706080,
    "speaker": "Management",
@@ -1416,7 +1372,7 @@
    "adj_ret_5m": -0.011555946872016443
   },
   {
-   "seg_id": 47,
+   "seg_id": 43,
    "t0_ms": 1707080,
    "t1_ms": 1743080,
    "speaker": "Management",
@@ -1443,7 +1399,7 @@
    "adj_ret_5m": -0.009035511108052896
   },
   {
-   "seg_id": 48,
+   "seg_id": 44,
    "t0_ms": 1744080,
    "t1_ms": 1789080,
    "speaker": "Management",
@@ -1470,7 +1426,7 @@
    "adj_ret_5m": -0.006718736321892127
   },
   {
-   "seg_id": 49,
+   "seg_id": 45,
    "t0_ms": 1790080,
    "t1_ms": 1830080,
    "speaker": "Management",
@@ -1505,7 +1461,7 @@
    "adj_ret_5m": -0.006718736321892127
   },
   {
-   "seg_id": 50,
+   "seg_id": 46,
    "t0_ms": 1831080,
    "t1_ms": 1872080,
    "speaker": "Management",
@@ -1536,7 +1492,7 @@
    "adj_ret_5m": -0.005615882999783106
   },
   {
-   "seg_id": 51,
+   "seg_id": 47,
    "t0_ms": 1872080,
    "t1_ms": 1916080,
    "speaker": "Management",
@@ -1567,7 +1523,7 @@
    "adj_ret_5m": -0.0008809677091451418
   },
   {
-   "seg_id": 52,
+   "seg_id": 48,
    "t0_ms": 1917080,
    "t1_ms": 1959080,
    "speaker": "Management",
@@ -1598,7 +1554,7 @@
    "adj_ret_5m": -0.0008809677091451418
   },
   {
-   "seg_id": 53,
+   "seg_id": 49,
    "t0_ms": 1960080,
    "t1_ms": 2004080,
    "speaker": "Management",
@@ -1629,7 +1585,7 @@
    "adj_ret_5m": 0.0029809781468825847
   },
   {
-   "seg_id": 54,
+   "seg_id": 50,
    "t0_ms": 2005080,
    "t1_ms": 2023080,
    "speaker": "Management",
@@ -1652,52 +1608,30 @@
    "adj_ret_5m": -0.0004430829041461859
   },
   {
-   "seg_id": 55,
+   "seg_id": 51,
    "t0_ms": 2024080,
-   "t1_ms": 2031810,
+   "t1_ms": 2046810,
    "speaker": "Operator",
-   "text": "Thank you. As a reminder, to ask a question, you will need to press star 1 on your telephone.",
+   "text": "Thank you. As a reminder, to ask a question, you will need to press star 1 on your telephone. To prevent any background noise, we ask that you please mute your line once your question has been stated. And our first question comes from Doug Anmuth with JPMorgan. Your line is now open.",
    "parts": [
     {
      "t0_ms": 2024080,
      "text": "Thank you. As a reminder, to ask a question, you will need to press star 1 on your telephone."
+    },
+    {
+     "t0_ms": 2032810,
+     "text": "To prevent any background noise, we ask that you please mute your line once your question has been stated."
+    },
+    {
+     "t0_ms": 2040810,
+     "text": "And our first question comes from Doug Anmuth with JPMorgan. Your line is now open."
     }
    ],
    "ts": "2026-10-28T17:03:44.080000-04:00",
    "adj_ret_5m": -0.0004430829041461859
   },
   {
-   "seg_id": 56,
-   "t0_ms": 2032810,
-   "t1_ms": 2038810,
-   "speaker": "Management",
-   "text": "To prevent any background noise, we ask that you please mute your line once your question has been stated.",
-   "parts": [
-    {
-     "t0_ms": 2032810,
-     "text": "To prevent any background noise, we ask that you please mute your line once your question has been stated."
-    }
-   ],
-   "ts": "2026-10-28T17:03:52.810000-04:00",
-   "adj_ret_5m": -0.0004430829041461859
-  },
-  {
-   "seg_id": 57,
-   "t0_ms": 2040810,
-   "t1_ms": 2046810,
-   "speaker": "Operator",
-   "text": "And our first question comes from Doug Anmuth with JPMorgan. Your line is now open.",
-   "parts": [
-    {
-     "t0_ms": 2040810,
-     "text": "And our first question comes from Doug Anmuth with JPMorgan. Your line is now open."
-    }
-   ],
-   "ts": "2026-10-28T17:04:00.810000-04:00",
-   "adj_ret_5m": -0.003327329894074915
-  },
-  {
-   "seg_id": 58,
+   "seg_id": 52,
    "t0_ms": 2048810,
    "t1_ms": 2090810,
    "speaker": "Analyst",
@@ -1728,11 +1662,11 @@
    "adj_ret_5m": -0.003327329894074915
   },
   {
-   "seg_id": 59,
+   "seg_id": 53,
    "t0_ms": 2094590,
-   "t1_ms": 2122590,
-   "speaker": "Analyst",
-   "text": "Thanks, Doug. We definitely started seeing a step change, I would say with 3.8 Flash internally as our models got better at long horizon tasks, agent decoding, etc. But I'm definitely seeing a huge point of inflection once we've started deploying Oregon internally.",
+   "t1_ms": 2136590,
+   "speaker": "Management",
+   "text": "Thanks, Doug. We definitely started seeing a step change, I would say with 3.8 Flash internally as our models got better at long horizon tasks, agent decoding, etc. But I'm definitely seeing a huge point of inflection once we've started deploying Oregon internally. It is one of the most meaningful internal productivity levers we have seen on software engineering, directly tracking high quality code that's getting checked in, the rate at which it's getting checked in,",
    "parts": [
     {
      "t0_ms": 2094590,
@@ -1745,22 +1679,22 @@
     {
      "t0_ms": 2113590,
      "text": "But I'm definitely seeing a huge point of inflection once we've started deploying Oregon internally."
+    },
+    {
+     "t0_ms": 2123590,
+     "text": "It is one of the most meaningful internal productivity levers we have seen on software engineering, directly tracking high quality code that's getting checked in, the rate at which it's getting checked in,"
     }
    ],
    "ts": "2026-10-28T17:04:54.590000-04:00",
    "adj_ret_5m": -0.003327329894074915
   },
   {
-   "seg_id": 60,
-   "t0_ms": 2123590,
-   "t1_ms": 2163590,
+   "seg_id": 54,
+   "t0_ms": 2136590,
+   "t1_ms": 2181590,
    "speaker": "Management",
-   "text": "It is one of the most meaningful internal productivity levers we have seen on software engineering, directly tracking high quality code that's getting checked in, the rate at which it's getting checked in, reducing the number of rollbacks, but more importantly, people are tackling massive problems, as well as we are beginning to see innovation on the product and the consumer experience side from deploying those models. But all this happened only about four weeks ago. We are now deploying carbon internally, and carbon is a meaningful step up from Oregon.",
+   "text": "reducing the number of rollbacks, but more importantly, people are tackling massive problems, as well as we are beginning to see innovation on the product and the consumer experience side from deploying those models. But all this happened only about four weeks ago. We are now deploying carbon internally, and carbon is a meaningful step up from Oregon. So as we roll it out and make it all widely available to Googlers with more compute, I expect to, that's what I was referring to, and I'm even more excited since I said that in the podcast, and what I would view as a golden year ahead in terms of us being able to be more productive.",
    "parts": [
-    {
-     "t0_ms": 2123590,
-     "text": "It is one of the most meaningful internal productivity levers we have seen on software engineering, directly tracking high quality code that's getting checked in, the rate at which it's getting checked in,"
-    },
     {
      "t0_ms": 2136590,
      "text": "reducing the number of rollbacks, but more importantly, people are tackling massive problems, as well as we are beginning to see innovation on the product and the consumer experience side from deploying those models."
@@ -1768,22 +1702,22 @@
     {
      "t0_ms": 2155590,
      "text": "But all this happened only about four weeks ago. We are now deploying carbon internally, and carbon is a meaningful step up from Oregon."
-    }
-   ],
-   "ts": "2026-10-28T17:05:23.590000-04:00",
-   "adj_ret_5m": -0.004421277461350681
-  },
-  {
-   "seg_id": 61,
-   "t0_ms": 2164590,
-   "t1_ms": 2197590,
-   "speaker": "Management",
-   "text": "So as we roll it out and make it all widely available to Googlers with more compute, I expect to, that's what I was referring to, and I'm even more excited since I said that in the podcast, and what I would view as a golden year ahead in terms of us being able to be more productive. And so excited for the innovation ahead. Phillip? Yeah, Doug. On the second part of your question, Logan, Q3 search grew 12% year over year to 63 billion. And when you look at the change in growth rate from Q2 to Q3, there were a few drivers here. So first, there was FX.",
-   "parts": [
+    },
     {
      "t0_ms": 2164590,
      "text": "So as we roll it out and make it all widely available to Googlers with more compute, I expect to, that's what I was referring to, and I'm even more excited since I said that in the podcast, and what I would view as a golden year ahead in terms of us being able to be more productive."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:05:36.590000-04:00",
+   "adj_ret_5m": -0.004421277461350681
+  },
+  {
+   "seg_id": 55,
+   "t0_ms": 2182590,
+   "t1_ms": 2225590,
+   "speaker": "Management",
+   "text": "And so excited for the innovation ahead. Phillip? Yeah, Doug. On the second part of your question, Logan, Q3 search grew 12% year over year to 63 billion. And when you look at the change in growth rate from Q2 to Q3, there were a few drivers here. So first, there was FX. It was the single largest driver of search deceleration relative to Q2. Second, there were vertical specific dynamics. In retail, some of our APAC advertisers were impacted by the EU eliminating its de minimis exemption. In media and entertainment, spend normalized after an unseasonably strong Q2 driven by the FIFA World Cup, which had more matches and therefore more advertising budgets allocated in June than actually in July.",
+   "parts": [
     {
      "t0_ms": 2182590,
      "text": "And so excited for the innovation ahead. Phillip?"
@@ -1791,18 +1725,7 @@
     {
      "t0_ms": 2184590,
      "text": "Yeah, Doug. On the second part of your question, Logan, Q3 search grew 12% year over year to 63 billion. And when you look at the change in growth rate from Q2 to Q3, there were a few drivers here. So first, there was FX."
-    }
-   ],
-   "ts": "2026-10-28T17:06:04.590000-04:00",
-   "adj_ret_5m": -0.0078000474785498985
-  },
-  {
-   "seg_id": 62,
-   "t0_ms": 2198590,
-   "t1_ms": 2234590,
-   "speaker": "Management",
-   "text": "It was the single largest driver of search deceleration relative to Q2. Second, there were vertical specific dynamics. In retail, some of our APAC advertisers were impacted by the EU eliminating its de minimis exemption. In media and entertainment, spend normalized after an unseasonably strong Q2 driven by the FIFA World Cup, which had more matches and therefore more advertising budgets allocated in June than actually in July. It's also to the next part of your question, it's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode.",
-   "parts": [
+    },
     {
      "t0_ms": 2198590,
      "text": "It was the single largest driver of search deceleration relative to Q2. Second, there were vertical specific dynamics. In retail, some of our APAC advertisers were impacted by the EU eliminating its de minimis exemption."
@@ -1810,32 +1733,32 @@
     {
      "t0_ms": 2211590,
      "text": "In media and entertainment, spend normalized after an unseasonably strong Q2 driven by the FIFA World Cup, which had more matches and therefore more advertising budgets allocated in June than actually in July."
-    },
-    {
-     "t0_ms": 2226590,
-     "text": "It's also to the next part of your question, it's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode."
     }
    ],
-   "ts": "2026-10-28T17:06:38.590000-04:00",
+   "ts": "2026-10-28T17:06:22.590000-04:00",
    "adj_ret_5m": -0.0078000474785498985
   },
   {
-   "seg_id": 63,
-   "t0_ms": 2235590,
+   "seg_id": 56,
+   "t0_ms": 2226590,
    "t1_ms": 2249590,
    "speaker": "Management",
-   "text": "To be clear, we feel very good about our trajectory here. Our ad experiments have shown promising results and we're now scaling ads within both AI overuse and AI mode to more users and more queries, including, as I mentioned, international markets and multi-turn ads in the US.",
+   "text": "It's also to the next part of your question, it's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode. To be clear, we feel very good about our trajectory here. Our ad experiments have shown promising results and we're now scaling ads within both AI overuse and AI mode to more users and more queries, including, as I mentioned, international markets and multi-turn ads in the US.",
    "parts": [
+    {
+     "t0_ms": 2226590,
+     "text": "It's also to the next part of your question, it's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode."
+    },
     {
      "t0_ms": 2235590,
      "text": "To be clear, we feel very good about our trajectory here. Our ad experiments have shown promising results and we're now scaling ads within both AI overuse and AI mode to more users and more queries, including, as I mentioned, international markets and multi-turn ads in the US."
     }
    ],
-   "ts": "2026-10-28T17:07:15.590000-04:00",
+   "ts": "2026-10-28T17:07:06.590000-04:00",
    "adj_ret_5m": -0.006834410064604057
   },
   {
-   "seg_id": 64,
+   "seg_id": 57,
    "t0_ms": 2250590,
    "t1_ms": 2263310,
    "speaker": "Operator",
@@ -1850,11 +1773,11 @@
    "adj_ret_5m": -0.006834410064604057
   },
   {
-   "seg_id": 65,
+   "seg_id": 58,
    "t0_ms": 2264310,
-   "t1_ms": 2291310,
+   "t1_ms": 2305310,
    "speaker": "Analyst",
-   "text": "Thanks for taking my questions. I have two. Let me start with agentic. You rolled out Spark to some of the users throughout the year. Anas Thunder, you've talked a lot about shipping more agentic products to the broader base of users. Can you just help us understand a little bit some of the key hurdles you have to overcome technologically to ship out agentic products to the full base of users? Is it model efficiency? Is it capacity? Is it the technologies already?",
+   "text": "Thanks for taking my questions. I have two. Let me start with agentic. You rolled out Spark to some of the users throughout the year. Anas Thunder, you've talked a lot about shipping more agentic products to the broader base of users. Can you just help us understand a little bit some of the key hurdles you have to overcome technologically to ship out agentic products to the full base of users? Is it model efficiency? Is it capacity? Is it the technologies already? What do we have to do technologically to do that? And then the second one, just on to Doug's question on search. Anas, can you help us better understand the search performance comparison factor that you talked about impacting search?",
    "parts": [
     {
      "t0_ms": 2264310,
@@ -1867,18 +1790,7 @@
     {
      "t0_ms": 2279310,
      "text": "Can you just help us understand a little bit some of the key hurdles you have to overcome technologically to ship out agentic products to the full base of users? Is it model efficiency? Is it capacity? Is it the technologies already?"
-    }
-   ],
-   "ts": "2026-10-28T17:07:44.310000-04:00",
-   "adj_ret_5m": -0.006834410064604057
-  },
-  {
-   "seg_id": 66,
-   "t0_ms": 2291310,
-   "t1_ms": 2335310,
-   "speaker": "Management",
-   "text": "What do we have to do technologically to do that? And then the second one, just on to Doug's question on search. Anas, can you help us better understand the search performance comparison factor that you talked about impacting search? How do we think about that as we go into 4Q1Q, just looking at the compares? Thanks. Thanks, Brian. First of all, on agents, what an exciting and dynamic area. I think when I look at our new models and we see the capabilities of the kind of complex tasks they can take in an automated way and execute with very, very high quality,",
-   "parts": [
+    },
     {
      "t0_ms": 2291310,
      "text": "What do we have to do technologically to do that?"
@@ -1886,11 +1798,33 @@
     {
      "t0_ms": 2295310,
      "text": "And then the second one, just on to Doug's question on search. Anas, can you help us better understand the search performance comparison factor that you talked about impacting search?"
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:07:44.310000-04:00",
+   "adj_ret_5m": -0.006834410064604057
+  },
+  {
+   "seg_id": 59,
+   "t0_ms": 2306310,
+   "t1_ms": 2311310,
+   "speaker": "Analyst",
+   "text": "How do we think about that as we go into 4Q1Q, just looking at the compares? Thanks.",
+   "parts": [
     {
      "t0_ms": 2306310,
      "text": "How do we think about that as we go into 4Q1Q, just looking at the compares? Thanks."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:08:26.310000-04:00",
+   "adj_ret_5m": -0.00602614735121898
+  },
+  {
+   "seg_id": 60,
+   "t0_ms": 2312310,
+   "t1_ms": 2353310,
+   "speaker": "Management",
+   "text": "Thanks, Brian. First of all, on agents, what an exciting and dynamic area. I think when I look at our new models and we see the capabilities of the kind of complex tasks they can take in an automated way and execute with very, very high quality, it's clear that the agentic capabilities we've all envisioned are going to be real. And so I couldn't be more excited to bring the next generation agentic experiences to our users. To your question, I would say a few things. I think the Gemini 4 model series has been important.",
+   "parts": [
     {
      "t0_ms": 2312310,
      "text": "Thanks, Brian. First of all, on agents, what an exciting and dynamic area."
@@ -1898,18 +1832,7 @@
     {
      "t0_ms": 2318310,
      "text": "I think when I look at our new models and we see the capabilities of the kind of complex tasks they can take in an automated way and execute with very, very high quality,"
-    }
-   ],
-   "ts": "2026-10-28T17:08:11.310000-04:00",
-   "adj_ret_5m": -0.00602614735121898
-  },
-  {
-   "seg_id": 67,
-   "t0_ms": 2335310,
-   "t1_ms": 2377310,
-   "speaker": "Management",
-   "text": "it's clear that the agentic capabilities we've all envisioned are going to be real. And so I couldn't be more excited to bring the next generation agentic experiences to our users. To your question, I would say a few things. I think the Gemini 4 model series has been important. We are working on distilled versions of our carbon models so that we can deploy it across a billion user scale efficiently, both from a compute, from a latency standpoint, and from a quality standpoint. So that's been an important area of investment. Definitely making sure you need more than a capable model at scale. You need a robust harness.",
-   "parts": [
+    },
     {
      "t0_ms": 2335310,
      "text": "it's clear that the agentic capabilities we've all envisioned are going to be real. And so I couldn't be more excited to bring the next generation agentic experiences to our users."
@@ -1917,7 +1840,18 @@
     {
      "t0_ms": 2349310,
      "text": "To your question, I would say a few things. I think the Gemini 4 model series has been important."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:08:32.310000-04:00",
+   "adj_ret_5m": -0.00602614735121898
+  },
+  {
+   "seg_id": 61,
+   "t0_ms": 2353310,
+   "t1_ms": 2392310,
+   "speaker": "Management",
+   "text": "We are working on distilled versions of our carbon models so that we can deploy it across a billion user scale efficiently, both from a compute, from a latency standpoint, and from a quality standpoint. So that's been an important area of investment. Definitely making sure you need more than a capable model at scale. You need a robust harness. You need a highly secure runtime, and this is where GCP comes in, being able to give each and every one of our users a secure runtime with 24-7 availability in the cloud, the right ecosystem of skills and connectors.",
+   "parts": [
     {
      "t0_ms": 2353310,
      "text": "We are working on distilled versions of our carbon models so that we can deploy it across a billion user scale efficiently, both from a compute, from a latency standpoint, and from a quality standpoint."
@@ -1925,22 +1859,22 @@
     {
      "t0_ms": 2369310,
      "text": "So that's been an important area of investment. Definitely making sure you need more than a capable model at scale. You need a robust harness."
-    }
-   ],
-   "ts": "2026-10-28T17:08:55.310000-04:00",
-   "adj_ret_5m": -0.00602614735121898
-  },
-  {
-   "seg_id": 68,
-   "t0_ms": 2378310,
-   "t1_ms": 2422310,
-   "speaker": "Management",
-   "text": "You need a highly secure runtime, and this is where GCP comes in, being able to give each and every one of our users a secure runtime with 24-7 availability in the cloud, the right ecosystem of skills and connectors. So all of that is the foundation. We have been hard at work, and we decided to roll it out to Enterprise first, which we announced with our Gemini agent for Enterprise, essentially because they have the highest bar for security governance and controls, and it's been well received, and we are in the process of expanding that. Later this year, we will bring that same experience to consumers, obviously starting with the one billion users in our Gemini app.",
-   "parts": [
+    },
     {
      "t0_ms": 2378310,
      "text": "You need a highly secure runtime, and this is where GCP comes in, being able to give each and every one of our users a secure runtime with 24-7 availability in the cloud, the right ecosystem of skills and connectors."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:09:13.310000-04:00",
+   "adj_ret_5m": -0.011672622086098317
+  },
+  {
+   "seg_id": 62,
+   "t0_ms": 2393310,
+   "t1_ms": 2422310,
+   "speaker": "Management",
+   "text": "So all of that is the foundation. We have been hard at work, and we decided to roll it out to Enterprise first, which we announced with our Gemini agent for Enterprise, essentially because they have the highest bar for security governance and controls, and it's been well received, and we are in the process of expanding that. Later this year, we will bring that same experience to consumers, obviously starting with the one billion users in our Gemini app.",
+   "parts": [
     {
      "t0_ms": 2393310,
      "text": "So all of that is the foundation. We have been hard at work, and we decided to roll it out to Enterprise first, which we announced with our Gemini agent for Enterprise,"
@@ -1954,11 +1888,11 @@
      "text": "Later this year, we will bring that same experience to consumers, obviously starting with the one billion users in our Gemini app."
     }
    ],
-   "ts": "2026-10-28T17:09:38.310000-04:00",
+   "ts": "2026-10-28T17:09:53.310000-04:00",
    "adj_ret_5m": -0.011672622086098317
   },
   {
-   "seg_id": 69,
+   "seg_id": 63,
    "t0_ms": 2422310,
    "t1_ms": 2460360,
    "speaker": "Management",
@@ -1981,7 +1915,7 @@
    "adj_ret_5m": -0.009691274719833554
   },
   {
-   "seg_id": 70,
+   "seg_id": 64,
    "t0_ms": 2460360,
    "t1_ms": 2505360,
    "speaker": "Management",
@@ -2008,7 +1942,7 @@
    "adj_ret_5m": -0.004580100488771888
   },
   {
-   "seg_id": 71,
+   "seg_id": 65,
    "t0_ms": 2506360,
    "t1_ms": 2509180,
    "speaker": "Management",
@@ -2023,7 +1957,7 @@
    "adj_ret_5m": -0.004580100488771888
   },
   {
-   "seg_id": 72,
+   "seg_id": 66,
    "t0_ms": 2509180,
    "t1_ms": 2517900,
    "speaker": "Operator",
@@ -2038,27 +1972,16 @@
    "adj_ret_5m": -0.004580100488771888
   },
   {
-   "seg_id": 73,
+   "seg_id": 67,
    "t0_ms": 2519900,
-   "t1_ms": 2534900,
+   "t1_ms": 2551900,
    "speaker": "Analyst",
-   "text": "Thanks so much for taking the question. Based on some of the comments you've made recently, Sundar, on compute constraints, can you refresh for us your key priorities for the application of compute as it becomes available across the organization?",
+   "text": "Thanks so much for taking the question. Based on some of the comments you've made recently, Sundar, on compute constraints, can you refresh for us your key priorities for the application of compute as it becomes available across the organization? And the second part may be for you or Thomas would be within Google Cloud specifically. How does your view continue to evolve with respect to the application of compute to cloud customer needs relative to external TPU? Thanks so much.",
    "parts": [
     {
      "t0_ms": 2519900,
      "text": "Thanks so much for taking the question. Based on some of the comments you've made recently, Sundar, on compute constraints, can you refresh for us your key priorities for the application of compute as it becomes available across the organization?"
-    }
-   ],
-   "ts": "2026-10-28T17:11:59.900000-04:00",
-   "adj_ret_5m": -0.004580100488771888
-  },
-  {
-   "seg_id": 74,
-   "t0_ms": 2534900,
-   "t1_ms": 2573900,
-   "speaker": "Management",
-   "text": "And the second part may be for you or Thomas would be within Google Cloud specifically. How does your view continue to evolve with respect to the application of compute to cloud customer needs relative to external TPU? Thanks so much. Thanks. Thanks, Eric. I'll start and then Thomas will answer the second half. Definitely, computer allocation is an area where we are spending a lot of time on because of the forward planning that's needed. I would start with saying we feel fortunate to have an extraordinary set of opportunities ahead of us.",
-   "parts": [
+    },
     {
      "t0_ms": 2534900,
      "text": "And the second part may be for you or Thomas would be within Google Cloud specifically. How does your view continue to evolve with respect to the application of compute to cloud customer needs relative to external TPU?"
@@ -2066,7 +1989,18 @@
     {
      "t0_ms": 2550900,
      "text": "Thanks so much."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:11:59.900000-04:00",
+   "adj_ret_5m": -0.004580100488771888
+  },
+  {
+   "seg_id": 68,
+   "t0_ms": 2552900,
+   "t1_ms": 2597900,
+   "speaker": "Management",
+   "text": "Thanks. Thanks, Eric. I'll start and then Thomas will answer the second half. Definitely, computer allocation is an area where we are spending a lot of time on because of the forward planning that's needed. I would start with saying we feel fortunate to have an extraordinary set of opportunities ahead of us. We are operating a scale consumer business that reaches billions of people, a hyperscale cloud business with a lot of momentum, and of course a range of other highly important areas across Google and Alphabet. We always take a long range planning, and so each of our business areas submit long range plans with a very disciplined ROIC framework.",
+   "parts": [
     {
      "t0_ms": 2552900,
      "text": "Thanks. Thanks, Eric. I'll start and then Thomas will answer the second half."
@@ -2074,18 +2008,7 @@
     {
      "t0_ms": 2557900,
      "text": "Definitely, computer allocation is an area where we are spending a lot of time on because of the forward planning that's needed. I would start with saying we feel fortunate to have an extraordinary set of opportunities ahead of us."
-    }
-   ],
-   "ts": "2026-10-28T17:12:14.900000-04:00",
-   "adj_ret_5m": -0.003731726522647083
-  },
-  {
-   "seg_id": 75,
-   "t0_ms": 2574900,
-   "t1_ms": 2619900,
-   "speaker": "Management",
-   "text": "We are operating a scale consumer business that reaches billions of people, a hyperscale cloud business with a lot of momentum, and of course a range of other highly important areas across Google and Alphabet. We always take a long range planning, and so each of our business areas submit long range plans with a very disciplined ROIC framework. And so, you know, I would broadly think of all of this as a long range planning process, not a short term allocation exercise. Obviously, our AI models underlie everything we do from search and YouTube to cloud to Waymo and so on. So it's the foundation and we view it as a highly leveraged approach.",
-   "parts": [
+    },
     {
      "t0_ms": 2574900,
      "text": "We are operating a scale consumer business that reaches billions of people, a hyperscale cloud business with a lot of momentum, and of course a range of other highly important areas across Google and Alphabet."
@@ -2093,7 +2016,18 @@
     {
      "t0_ms": 2586900,
      "text": "We always take a long range planning, and so each of our business areas submit long range plans with a very disciplined ROIC framework."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:12:32.900000-04:00",
+   "adj_ret_5m": -0.003731726522647083
+  },
+  {
+   "seg_id": 69,
+   "t0_ms": 2598900,
+   "t1_ms": 2641900,
+   "speaker": "Management",
+   "text": "And so, you know, I would broadly think of all of this as a long range planning process, not a short term allocation exercise. Obviously, our AI models underlie everything we do from search and YouTube to cloud to Waymo and so on. So it's the foundation and we view it as a highly leveraged approach. The full stack approach drives a lot of efficiency, as well as gives us a lot of optionality across a wide variety of opportunities. So obviously, that is the foundation and we plan for that for the long term too. And about that, as I said, we really look at our businesses and really take a disciplined long range planning approach.",
+   "parts": [
     {
      "t0_ms": 2598900,
      "text": "And so, you know, I would broadly think of all of this as a long range planning process, not a short term allocation exercise."
@@ -2101,18 +2035,7 @@
     {
      "t0_ms": 2606900,
      "text": "Obviously, our AI models underlie everything we do from search and YouTube to cloud to Waymo and so on. So it's the foundation and we view it as a highly leveraged approach."
-    }
-   ],
-   "ts": "2026-10-28T17:12:54.900000-04:00",
-   "adj_ret_5m": -0.003731726522647083
-  },
-  {
-   "seg_id": 76,
-   "t0_ms": 2620900,
-   "t1_ms": 2656900,
-   "speaker": "Management",
-   "text": "The full stack approach drives a lot of efficiency, as well as gives us a lot of optionality across a wide variety of opportunities. So obviously, that is the foundation and we plan for that for the long term too. And about that, as I said, we really look at our businesses and really take a disciplined long range planning approach. To us, obviously, we are seeing very, very robust demand signals across a wide variety of areas. And so we view it as an extraordinary set of opportunities and we are investing for that moment. Thomas?",
-   "parts": [
+    },
     {
      "t0_ms": 2620900,
      "text": "The full stack approach drives a lot of efficiency, as well as gives us a lot of optionality across a wide variety of opportunities."
@@ -2124,7 +2047,18 @@
     {
      "t0_ms": 2634900,
      "text": "And about that, as I said, we really look at our businesses and really take a disciplined long range planning approach."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:13:18.900000-04:00",
+   "adj_ret_5m": -0.0023921904435690866
+  },
+  {
+   "seg_id": 70,
+   "t0_ms": 2642900,
+   "t1_ms": 2686900,
+   "speaker": "Management",
+   "text": "To us, obviously, we are seeing very, very robust demand signals across a wide variety of areas. And so we view it as an extraordinary set of opportunities and we are investing for that moment. Thomas? Eric, on the demand in cloud, we are always managing our portfolio to ensure we have a breadth of customers. And we have different types of customers from digital natives, AI labs, traditional enterprises, financial and capital markets customers. So it's a broad set of customers. Many of them have either started with using TPU systems, for example, in our cloud.",
+   "parts": [
     {
      "t0_ms": 2642900,
      "text": "To us, obviously, we are seeing very, very robust demand signals across a wide variety of areas."
@@ -2132,18 +2066,7 @@
     {
      "t0_ms": 2651900,
      "text": "And so we view it as an extraordinary set of opportunities and we are investing for that moment. Thomas?"
-    }
-   ],
-   "ts": "2026-10-28T17:13:40.900000-04:00",
-   "adj_ret_5m": -0.0023921904435690866
-  },
-  {
-   "seg_id": 77,
-   "t0_ms": 2657900,
-   "t1_ms": 2695900,
-   "speaker": "Management",
-   "text": "Eric, on the demand in cloud, we are always managing our portfolio to ensure we have a breadth of customers. And we have different types of customers from digital natives, AI labs, traditional enterprises, financial and capital markets customers. So it's a broad set of customers. Many of them have either started with using TPU systems, for example, in our cloud. We have over 100 significant TPU customers who start in our cloud. They learn to use TPUs.",
-   "parts": [
+    },
     {
      "t0_ms": 2657900,
      "text": "Eric, on the demand in cloud, we are always managing our portfolio to ensure we have a breadth of customers."
@@ -2155,22 +2078,22 @@
     {
      "t0_ms": 2676900,
      "text": "So it's a broad set of customers. Many of them have either started with using TPU systems, for example, in our cloud."
-    },
-    {
-     "t0_ms": 2687900,
-     "text": "We have over 100 significant TPU customers who start in our cloud. They learn to use TPUs."
     }
    ],
-   "ts": "2026-10-28T17:14:17.900000-04:00",
+   "ts": "2026-10-28T17:14:02.900000-04:00",
    "adj_ret_5m": 0.001962674746918136
   },
   {
-   "seg_id": 78,
-   "t0_ms": 2695900,
+   "seg_id": 71,
+   "t0_ms": 2687900,
    "t1_ms": 2728900,
    "speaker": "Management",
-   "text": "And remember, TPU system is a combination of hardware, system software, compilers, the whole thing, assembled as a system, including optical networking and other things. We've taken a very deliberate approach on how we're bringing TPUs to customers. The first one is to build the right silicon. So we have AT for training, 8i for inference. They both offer substantial price performance and performance improvements relative to prior generations.",
+   "text": "We have over 100 significant TPU customers who start in our cloud. They learn to use TPUs. And remember, TPU system is a combination of hardware, system software, compilers, the whole thing, assembled as a system, including optical networking and other things. We've taken a very deliberate approach on how we're bringing TPUs to customers. The first one is to build the right silicon. So we have AT for training, 8i for inference. They both offer substantial price performance and performance improvements relative to prior generations.",
    "parts": [
+    {
+     "t0_ms": 2687900,
+     "text": "We have over 100 significant TPU customers who start in our cloud. They learn to use TPUs."
+    },
     {
      "t0_ms": 2695900,
      "text": "And remember, TPU system is a combination of hardware, system software, compilers, the whole thing, assembled as a system, including optical networking and other things."
@@ -2188,11 +2111,11 @@
      "text": "They both offer substantial price performance and performance improvements relative to prior generations."
     }
    ],
-   "ts": "2026-10-28T17:14:55.900000-04:00",
+   "ts": "2026-10-28T17:14:47.900000-04:00",
    "adj_ret_5m": 0.001962674746918136
   },
   {
-   "seg_id": 79,
+   "seg_id": 72,
    "t0_ms": 2729900,
    "t1_ms": 2766900,
    "speaker": "Management",
@@ -2219,7 +2142,7 @@
    "adj_ret_5m": 0.00006877342594813207
   },
   {
-   "seg_id": 80,
+   "seg_id": 73,
    "t0_ms": 2766900,
    "t1_ms": 2803900,
    "speaker": "Management",
@@ -2242,7 +2165,7 @@
    "adj_ret_5m": -0.0008927651684235149
   },
   {
-   "seg_id": 81,
+   "seg_id": 74,
    "t0_ms": 2804900,
    "t1_ms": 2817620,
    "speaker": "Operator",
@@ -2257,11 +2180,11 @@
    "adj_ret_5m": -0.0008927651684235149
   },
   {
-   "seg_id": 82,
+   "seg_id": 75,
    "t0_ms": 2818620,
-   "t1_ms": 2845620,
+   "t1_ms": 2853620,
    "speaker": "Analyst",
-   "text": "Thanks. I wanted to stick with the TPU resale business topic that you just mentioned. So in that last quarter, you kind of said that the revenue will be recognized on system sales, I believe. So if a gigawatt of TPU, full system, costs around $35 billion for the compute and all the kind of components around it, what percent of that are we actually recognizing as revenue?",
+   "text": "Thanks. I wanted to stick with the TPU resale business topic that you just mentioned. So in that last quarter, you kind of said that the revenue will be recognized on system sales, I believe. So if a gigawatt of TPU, full system, costs around $35 billion for the compute and all the kind of components around it, what percent of that are we actually recognizing as revenue? And what kind of flow through does that have in terms of margin profile relative to where the Google Cloud segment currently sits?",
    "parts": [
     {
      "t0_ms": 2818620,
@@ -2274,22 +2197,22 @@
     {
      "t0_ms": 2834620,
      "text": "So if a gigawatt of TPU, full system, costs around $35 billion for the compute and all the kind of components around it, what percent of that are we actually recognizing as revenue?"
+    },
+    {
+     "t0_ms": 2845620,
+     "text": "And what kind of flow through does that have in terms of margin profile relative to where the Google Cloud segment currently sits?"
     }
    ],
    "ts": "2026-10-28T17:16:58.620000-04:00",
    "adj_ret_5m": -0.0008927651684235149
   },
   {
-   "seg_id": 83,
-   "t0_ms": 2845620,
-   "t1_ms": 2890620,
-   "speaker": "Management",
-   "text": "And what kind of flow through does that have in terms of margin profile relative to where the Google Cloud segment currently sits? And then I guess the second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the TPU? The second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the capex intensity of Alphabet? As you start to kind of hand off some of the future capex to the AI labs and may not require as much capex intensity on your own, in your own data centers.",
+   "seg_id": 76,
+   "t0_ms": 2853620,
+   "t1_ms": 2892620,
+   "speaker": "Analyst",
+   "text": "And then I guess the second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the TPU? The second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the capex intensity of Alphabet? As you start to kind of hand off some of the future capex to the AI labs and may not require as much capex intensity on your own, in your own data centers. Thoughts on that would be great. Thank you.",
    "parts": [
-    {
-     "t0_ms": 2845620,
-     "text": "And what kind of flow through does that have in terms of margin profile relative to where the Google Cloud segment currently sits?"
-    },
     {
      "t0_ms": 2853620,
      "text": "And then I guess the second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the TPU?"
@@ -2301,22 +2224,22 @@
     {
      "t0_ms": 2878620,
      "text": "As you start to kind of hand off some of the future capex to the AI labs and may not require as much capex intensity on your own, in your own data centers."
-    }
-   ],
-   "ts": "2026-10-28T17:17:25.620000-04:00",
-   "adj_ret_5m": -0.0034364261168384758
-  },
-  {
-   "seg_id": 84,
-   "t0_ms": 2890620,
-   "t1_ms": 2934620,
-   "speaker": "Management",
-   "text": "Thoughts on that would be great. Thank you. Yeah, let me combine these two questions. First, obviously, we don't provide specific financials at the product level. But let me walk through how to think about the financials associated with the TPU system sales. And obviously, just as a reminder, and Thomas can elaborate on that as well, a TPU system is not just a chip, but it's a specialized system that combines multiple things, including hardware, compute, storage, networking. So we are selling much more than just a chip, software, training, inference. There is a significant added value that's being provided to the customer that's purchasing a TPU system.",
-   "parts": [
+    },
     {
      "t0_ms": 2890620,
      "text": "Thoughts on that would be great. Thank you."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:17:33.620000-04:00",
+   "adj_ret_5m": -0.0034364261168384758
+  },
+  {
+   "seg_id": 77,
+   "t0_ms": 2892620,
+   "t1_ms": 2934620,
+   "speaker": "Management",
+   "text": "Yeah, let me combine these two questions. First, obviously, we don't provide specific financials at the product level. But let me walk through how to think about the financials associated with the TPU system sales. And obviously, just as a reminder, and Thomas can elaborate on that as well, a TPU system is not just a chip, but it's a specialized system that combines multiple things, including hardware, compute, storage, networking. So we are selling much more than just a chip, software, training, inference. There is a significant added value that's being provided to the customer that's purchasing a TPU system.",
+   "parts": [
     {
      "t0_ms": 2892620,
      "text": "Yeah, let me combine these two questions. First, obviously, we don't provide specific financials at the product level."
@@ -2338,11 +2261,11 @@
      "text": "There is a significant added value that's being provided to the customer that's purchasing a TPU system."
     }
    ],
-   "ts": "2026-10-28T17:18:10.620000-04:00",
+   "ts": "2026-10-28T17:18:12.620000-04:00",
    "adj_ret_5m": -0.008209740307006053
   },
   {
-   "seg_id": 85,
+   "seg_id": 78,
    "t0_ms": 2934620,
    "t1_ms": 2975620,
    "speaker": "Management",
@@ -2381,7 +2304,7 @@
    "adj_ret_5m": -0.008209740307006053
   },
   {
-   "seg_id": 86,
+   "seg_id": 79,
    "t0_ms": 2975620,
    "t1_ms": 3013620,
    "speaker": "Management",
@@ -2416,7 +2339,7 @@
    "adj_ret_5m": -0.008213340664627644
   },
   {
-   "seg_id": 87,
+   "seg_id": 80,
    "t0_ms": 3013620,
    "t1_ms": 3023620,
    "speaker": "Management",
@@ -2431,7 +2354,7 @@
    "adj_ret_5m": -0.009077467936595252
   },
   {
-   "seg_id": 88,
+   "seg_id": 81,
    "t0_ms": 3034020,
    "t1_ms": 3041020,
    "speaker": "Operator",
@@ -2446,11 +2369,11 @@
    "adj_ret_5m": -0.009077467936595252
   },
   {
-   "seg_id": 89,
+   "seg_id": 82,
    "t0_ms": 3041020,
-   "t1_ms": 3058020,
+   "t1_ms": 3080020,
    "speaker": "Analyst",
-   "text": "Great. Thank you. I have some questions on the egenic transition. You did launch the universal shopping cart. Clearly people are liking and using egenic use cases. As more of that happens, how do you plan to manage the search transition to egenic use?",
+   "text": "Great. Thank you. I have some questions on the egenic transition. You did launch the universal shopping cart. Clearly people are liking and using egenic use cases. As more of that happens, how do you plan to manage the search transition to egenic use? Do you think that could be a headwind? And second, do you think egenic could actually drive more monetization for your traffic over the long term? And then I'll go again at TPU margins. We're wondering, do you think this is a really good business for you and maybe why? If you can't give us the margins, why do you think this is a good way to use all this capacity? Thank you.",
    "parts": [
     {
      "t0_ms": 3041020,
@@ -2467,18 +2390,7 @@
     {
      "t0_ms": 3052020,
      "text": "As more of that happens, how do you plan to manage the search transition to egenic use?"
-    }
-   ],
-   "ts": "2026-10-28T17:20:41.020000-04:00",
-   "adj_ret_5m": -0.009077467936595252
-  },
-  {
-   "seg_id": 90,
-   "t0_ms": 3058020,
-   "t1_ms": 3098020,
-   "speaker": "Management",
-   "text": "Do you think that could be a headwind? And second, do you think egenic could actually drive more monetization for your traffic over the long term? And then I'll go again at TPU margins. We're wondering, do you think this is a really good business for you and maybe why? If you can't give us the margins, why do you think this is a good way to use all this capacity? Thank you. We're in the early days of egenic, but maybe directly to the second part of your question, but we view egenic experiences as clearly additive. Our focus is building trust, secure, super scale experiences that users love, anchored frankly on egenic commerce,",
-   "parts": [
+    },
     {
      "t0_ms": 3058020,
      "text": "Do you think that could be a headwind?"
@@ -2498,7 +2410,18 @@
     {
      "t0_ms": 3075020,
      "text": "If you can't give us the margins, why do you think this is a good way to use all this capacity? Thank you."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:20:41.020000-04:00",
+   "adj_ret_5m": -0.009077467936595252
+  },
+  {
+   "seg_id": 83,
+   "t0_ms": 3083020,
+   "t1_ms": 3127020,
+   "speaker": "Management",
+   "text": "We're in the early days of egenic, but maybe directly to the second part of your question, but we view egenic experiences as clearly additive. Our focus is building trust, secure, super scale experiences that users love, anchored frankly on egenic commerce, foundational blocks like you mentioned universal commerce, the cart, the agents, payments protocols, and so on. When users shop, and that's important, there's a part of the journey they don't like, the grunt work, which is frankly fantastic to automate with AI. But we also want to enhance, not just automate away the discovery experience that people frankly love in so many cases, users like choice, and they want to consider things way beyond price like brand loyalty, customer service, and so on.",
+   "parts": [
     {
      "t0_ms": 3083020,
      "text": "We're in the early days of egenic, but maybe directly to the second part of your question,"
@@ -2510,18 +2433,7 @@
     {
      "t0_ms": 3090020,
      "text": "Our focus is building trust, secure, super scale experiences that users love, anchored frankly on egenic commerce,"
-    }
-   ],
-   "ts": "2026-10-28T17:20:58.020000-04:00",
-   "adj_ret_5m": -0.009077467936595252
-  },
-  {
-   "seg_id": 91,
-   "t0_ms": 3098020,
-   "t1_ms": 3137020,
-   "speaker": "Management",
-   "text": "foundational blocks like you mentioned universal commerce, the cart, the agents, payments protocols, and so on. When users shop, and that's important, there's a part of the journey they don't like, the grunt work, which is frankly fantastic to automate with AI. But we also want to enhance, not just automate away the discovery experience that people frankly love in so many cases, users like choice, and they want to consider things way beyond price like brand loyalty, customer service, and so on. So we're really architecting these egenic workflows in a way that we can intentionally design the time and the space for users to explore those choices.",
-   "parts": [
+    },
     {
      "t0_ms": 3098020,
      "text": "foundational blocks like you mentioned universal commerce, the cart, the agents, payments protocols, and so on."
@@ -2541,22 +2453,22 @@
     {
      "t0_ms": 3120020,
      "text": "users like choice, and they want to consider things way beyond price like brand loyalty, customer service, and so on."
-    },
-    {
-     "t0_ms": 3127020,
-     "text": "So we're really architecting these egenic workflows in a way that we can intentionally design the time and the space for users to explore those choices."
     }
    ],
-   "ts": "2026-10-28T17:21:38.020000-04:00",
+   "ts": "2026-10-28T17:21:23.020000-04:00",
    "adj_ret_5m": -0.007971612193696909
   },
   {
-   "seg_id": 92,
-   "t0_ms": 3137020,
-   "t1_ms": 3178020,
+   "seg_id": 84,
+   "t0_ms": 3127020,
+   "t1_ms": 3170020,
    "speaker": "Management",
-   "text": "So simple example, an agent could respond, here's the insurance product we found, and here's another strong option, one of which is a higher premium, maybe a little deductible, and they're currently offering a very special discount. So given that there's almost never only one perfect option for a decision, we're actually confident that we can actually provide really interesting, compelling advertising models for egenic use cases, and obviously you can imagine going beyond us with subscriptions and other payment methods. But I'm really actually excited about the advertising opportunities in an egenic world. Overall, I would add and say, look, I would view it as an expansion opportunity, right?",
+   "text": "So we're really architecting these egenic workflows in a way that we can intentionally design the time and the space for users to explore those choices. So simple example, an agent could respond, here's the insurance product we found, and here's another strong option, one of which is a higher premium, maybe a little deductible, and they're currently offering a very special discount. So given that there's almost never only one perfect option for a decision, we're actually confident that we can actually provide really interesting, compelling advertising models for egenic use cases, and obviously you can imagine going beyond us with subscriptions and other payment methods. But I'm really actually excited about the advertising opportunities in an egenic world.",
    "parts": [
+    {
+     "t0_ms": 3127020,
+     "text": "So we're really architecting these egenic workflows in a way that we can intentionally design the time and the space for users to explore those choices."
+    },
     {
      "t0_ms": 3137020,
      "text": "So simple example, an agent could respond, here's the insurance product we found, and here's another strong option,"
@@ -2576,22 +2488,22 @@
     {
      "t0_ms": 3166020,
      "text": "But I'm really actually excited about the advertising opportunities in an egenic world."
-    },
-    {
-     "t0_ms": 3170020,
-     "text": "Overall, I would add and say, look, I would view it as an expansion opportunity, right?"
     }
    ],
-   "ts": "2026-10-28T17:22:17.020000-04:00",
+   "ts": "2026-10-28T17:22:07.020000-04:00",
    "adj_ret_5m": -0.00541379310344825
   },
   {
-   "seg_id": 93,
-   "t0_ms": 3178020,
-   "t1_ms": 3223020,
+   "seg_id": 85,
+   "t0_ms": 3170020,
+   "t1_ms": 3207020,
    "speaker": "Management",
-   "text": "Anytime, just like a few years ago, being able to incorporate AI chat use cases in search allowed people to ask more and do more in search, which is what is playing out in our usage, I think agents would again be an opportunity to expand the types of problems we solve for our users. I think people always underestimate all the components you need to deliver these complex experiences for users. And search on the surface looks simple, but there's extraordinary deep levels of investment and things we have built over time, like Knowledge Graph being an example, and so our understanding of the world, et cetera.",
+   "text": "Overall, I would add and say, look, I would view it as an expansion opportunity, right? Anytime, just like a few years ago, being able to incorporate AI chat use cases in search allowed people to ask more and do more in search, which is what is playing out in our usage, I think agents would again be an opportunity to expand the types of problems we solve for our users. I think people always underestimate all the components you need to deliver these complex experiences for users.",
    "parts": [
+    {
+     "t0_ms": 3170020,
+     "text": "Overall, I would add and say, look, I would view it as an expansion opportunity, right?"
+    },
     {
      "t0_ms": 3178020,
      "text": "Anytime, just like a few years ago, being able to incorporate AI chat use cases in search allowed people to ask more and do more in search,"
@@ -2603,7 +2515,18 @@
     {
      "t0_ms": 3198020,
      "text": "I think people always underestimate all the components you need to deliver these complex experiences for users."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:22:50.020000-04:00",
+   "adj_ret_5m": -0.00541379310344825
+  },
+  {
+   "seg_id": 86,
+   "t0_ms": 3207020,
+   "t1_ms": 3251020,
+   "speaker": "Management",
+   "text": "And search on the surface looks simple, but there's extraordinary deep levels of investment and things we have built over time, like Knowledge Graph being an example, and so our understanding of the world, et cetera. So I think, you know, I'm excited about agents, and I would view it as a new frontier, which brings in a new set of use cases to search. And so we are excited to work through that. On TPU systems and margins, we don't break out margins for individual products or infrastructure components. However, we see several benefits from designing and manufacturing TPU systems.",
+   "parts": [
     {
      "t0_ms": 3207020,
      "text": "And search on the surface looks simple, but there's extraordinary deep levels of investment and things we have built over time,"
@@ -2611,18 +2534,7 @@
     {
      "t0_ms": 3218020,
      "text": "like Knowledge Graph being an example, and so our understanding of the world, et cetera."
-    }
-   ],
-   "ts": "2026-10-28T17:22:58.020000-04:00",
-   "adj_ret_5m": -0.00541379310344825
-  },
-  {
-   "seg_id": 94,
-   "t0_ms": 3223020,
-   "t1_ms": 3257020,
-   "speaker": "Management",
-   "text": "So I think, you know, I'm excited about agents, and I would view it as a new frontier, which brings in a new set of use cases to search. And so we are excited to work through that. On TPU systems and margins, we don't break out margins for individual products or infrastructure components. However, we see several benefits from designing and manufacturing TPU systems. So, first of all, to remind you, the TPU system is not just a chip, but it's a complete system.",
-   "parts": [
+    },
     {
      "t0_ms": 3223020,
      "text": "So I think, you know, I'm excited about agents, and I would view it as a new frontier, which brings in a new set of use cases to search."
@@ -2638,22 +2550,22 @@
     {
      "t0_ms": 3244020,
      "text": "However, we see several benefits from designing and manufacturing TPU systems."
-    },
-    {
-     "t0_ms": 3251020,
-     "text": "So, first of all, to remind you, the TPU system is not just a chip, but it's a complete system."
     }
    ],
-   "ts": "2026-10-28T17:23:43.020000-04:00",
+   "ts": "2026-10-28T17:23:27.020000-04:00",
    "adj_ret_5m": -0.0024579338469606915
   },
   {
-   "seg_id": 95,
-   "t0_ms": 3257020,
+   "seg_id": 87,
+   "t0_ms": 3251020,
    "t1_ms": 3293020,
    "speaker": "Management",
-   "text": "Given the price performance benefits of TPU systems relative to competitors, growing demand for accelerated compute and the scarcity of accelerated compute, we're very focused on continuing to improve margins as we scale the business. Two additional points. First of all, when Anant mentioned that we procure components to build inventory, we only do that after we have signed contracts. So all of the inventory that for TPU systems are associated with committed contracts.",
+   "text": "So, first of all, to remind you, the TPU system is not just a chip, but it's a complete system. Given the price performance benefits of TPU systems relative to competitors, growing demand for accelerated compute and the scarcity of accelerated compute, we're very focused on continuing to improve margins as we scale the business. Two additional points. First of all, when Anant mentioned that we procure components to build inventory, we only do that after we have signed contracts. So all of the inventory that for TPU systems are associated with committed contracts.",
    "parts": [
+    {
+     "t0_ms": 3251020,
+     "text": "So, first of all, to remind you, the TPU system is not just a chip, but it's a complete system."
+    },
     {
      "t0_ms": 3257020,
      "text": "Given the price performance benefits of TPU systems relative to competitors, growing demand for accelerated compute and the scarcity of accelerated compute,"
@@ -2675,11 +2587,11 @@
      "text": "So all of the inventory that for TPU systems are associated with committed contracts."
     }
    ],
-   "ts": "2026-10-28T17:24:17.020000-04:00",
+   "ts": "2026-10-28T17:24:11.020000-04:00",
    "adj_ret_5m": -0.002431739431739577
   },
   {
-   "seg_id": 96,
+   "seg_id": 88,
    "t0_ms": 3293020,
    "t1_ms": 3321020,
    "speaker": "Management",
@@ -2702,7 +2614,7 @@
    "adj_ret_5m": -0.002431739431739577
   },
   {
-   "seg_id": 97,
+   "seg_id": 89,
    "t0_ms": 3321020,
    "t1_ms": 3333560,
    "speaker": "Operator",
@@ -2717,11 +2629,11 @@
    "adj_ret_5m": -0.0021357437801450274
   },
   {
-   "seg_id": 98,
+   "seg_id": 90,
    "t0_ms": 3333560,
-   "t1_ms": 3369560,
+   "t1_ms": 3378560,
    "speaker": "Analyst",
-   "text": "Yes, thanks for taking the questions. I'm going to be on the same couple topics, but just on agentic. You know, if you've kind of just taken a look at some of the early more agentic style use cases on Gemini AI mode and kind of observing some of the 3P integrations with Google properties, anything that surprised you or changed your view? I know we've talked a lot about commerce, but perhaps on like consumer productivity as well. And then either Thomas or not, just on kind of cloud growth, is there anything you could share just around the rate of growth of Google Cloud excluding the TPU system sales and just how much of that's been kind of constrained by capacity?",
+   "text": "Yes, thanks for taking the questions. I'm going to be on the same couple topics, but just on agentic. You know, if you've kind of just taken a look at some of the early more agentic style use cases on Gemini AI mode and kind of observing some of the 3P integrations with Google properties, anything that surprised you or changed your view? I know we've talked a lot about commerce, but perhaps on like consumer productivity as well. And then either Thomas or not, just on kind of cloud growth, is there anything you could share just around the rate of growth of Google Cloud excluding the TPU system sales and just how much of that's been kind of constrained by capacity? And as some of that 3P capacity comes online in Q4, is it fair to kind of assume an acceleration of that Google Cloud business? Thank you.",
    "parts": [
     {
      "t0_ms": 3333560,
@@ -2746,22 +2658,22 @@
     {
      "t0_ms": 3360560,
      "text": "is there anything you could share just around the rate of growth of Google Cloud excluding the TPU system sales and just how much of that's been kind of constrained by capacity?"
+    },
+    {
+     "t0_ms": 3369560,
+     "text": "And as some of that 3P capacity comes online in Q4, is it fair to kind of assume an acceleration of that Google Cloud business? Thank you."
     }
    ],
    "ts": "2026-10-28T17:25:33.560000-04:00",
    "adj_ret_5m": -0.0021357437801450274
   },
   {
-   "seg_id": 99,
-   "t0_ms": 3369560,
-   "t1_ms": 3406560,
+   "seg_id": 91,
+   "t0_ms": 3378560,
+   "t1_ms": 3418560,
    "speaker": "Management",
-   "text": "And as some of that 3P capacity comes online in Q4, is it fair to kind of assume an acceleration of that Google Cloud business? Thank you. Look, maybe I'll take the first part on what we're observing on these early agentic style use cases. We are definitely seeing it. Just recently in the Gemini app, we've added a task tab and where people are actually typing in agentic queries, and so we can observe that. Look, in all of this, users really want, they want to be delighted, so they effectively are, you know, looking for, they have a high bar.",
+   "text": "Look, maybe I'll take the first part on what we're observing on these early agentic style use cases. We are definitely seeing it. Just recently in the Gemini app, we've added a task tab and where people are actually typing in agentic queries, and so we can observe that. Look, in all of this, users really want, they want to be delighted, so they effectively are, you know, looking for, they have a high bar. What encourages repeat use is your ability to, you know, more handle these longer tasks and actually deliver a satisfactory outcome at the end.",
    "parts": [
-    {
-     "t0_ms": 3369560,
-     "text": "And as some of that 3P capacity comes online in Q4, is it fair to kind of assume an acceleration of that Google Cloud business? Thank you."
-    },
     {
      "t0_ms": 3378560,
      "text": "Look, maybe I'll take the first part on what we're observing on these early agentic style use cases."
@@ -2773,22 +2685,22 @@
     {
      "t0_ms": 3396560,
      "text": "Look, in all of this, users really want, they want to be delighted, so they effectively are, you know, looking for, they have a high bar."
-    }
-   ],
-   "ts": "2026-10-28T17:26:09.560000-04:00",
-   "adj_ret_5m": -0.00024424000651324107
-  },
-  {
-   "seg_id": 100,
-   "t0_ms": 3406560,
-   "t1_ms": 3442560,
-   "speaker": "Management",
-   "text": "What encourages repeat use is your ability to, you know, more handle these longer tasks and actually deliver a satisfactory outcome at the end. You know, just like having seen this in other areas, including coding, et cetera, you know, when you're doing it at 70%, it looks like it doesn't work until you cross a certain threshold and it really takes off. And so we are closely learning from all of it, you know, identifying gaps, laying all the foundations I talked about earlier.",
-   "parts": [
+    },
     {
      "t0_ms": 3406560,
      "text": "What encourages repeat use is your ability to, you know, more handle these longer tasks and actually deliver a satisfactory outcome at the end."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:26:18.560000-04:00",
+   "adj_ret_5m": -0.00024424000651324107
+  },
+  {
+   "seg_id": 92,
+   "t0_ms": 3418560,
+   "t1_ms": 3461560,
+   "speaker": "Management",
+   "text": "You know, just like having seen this in other areas, including coding, et cetera, you know, when you're doing it at 70%, it looks like it doesn't work until you cross a certain threshold and it really takes off. And so we are closely learning from all of it, you know, identifying gaps, laying all the foundations I talked about earlier. And, you know, I'm confident it's an area where you will see a lot of progress across our surfaces, you know, as we go through later this year in 2017. The one thing as we transition to TPUs, one of the comments I would make on the TPU systems is, look, in the semiconductor industry, economies of scale matter.",
+   "parts": [
     {
      "t0_ms": 3418560,
      "text": "You know, just like having seen this in other areas, including coding, et cetera, you know, when you're doing it at 70%, it looks like it doesn't work until you cross a certain threshold and it really takes off."
@@ -2796,18 +2708,7 @@
     {
      "t0_ms": 3432560,
      "text": "And so we are closely learning from all of it, you know, identifying gaps, laying all the foundations I talked about earlier."
-    }
-   ],
-   "ts": "2026-10-28T17:26:46.560000-04:00",
-   "adj_ret_5m": -0.00024424000651324107
-  },
-  {
-   "seg_id": 101,
-   "t0_ms": 3442560,
-   "t1_ms": 3482560,
-   "speaker": "Management",
-   "text": "And, you know, I'm confident it's an area where you will see a lot of progress across our surfaces, you know, as we go through later this year in 2017. The one thing as we transition to TPUs, one of the comments I would make on the TPU systems is, look, in the semiconductor industry, economies of scale matter. So I would look at our ability to do, you know, TPUs both for deploying in our data centers and TPU systems and others data centers as an ability to scale up the product, which directly translates into better economics.",
-   "parts": [
+    },
     {
      "t0_ms": 3442560,
      "text": "And, you know, I'm confident it's an area where you will see a lot of progress across our surfaces, you know, as we go through later this year in 2017."
@@ -2815,22 +2716,22 @@
     {
      "t0_ms": 3452560,
      "text": "The one thing as we transition to TPUs, one of the comments I would make on the TPU systems is, look, in the semiconductor industry, economies of scale matter."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:26:58.560000-04:00",
+   "adj_ret_5m": -0.00024424000651324107
+  },
+  {
+   "seg_id": 93,
+   "t0_ms": 3461560,
+   "t1_ms": 3506560,
+   "speaker": "Management",
+   "text": "So I would look at our ability to do, you know, TPUs both for deploying in our data centers and TPU systems and others data centers as an ability to scale up the product, which directly translates into better economics. To address the question on the rate of growth of cloud, you know, a Google Cloud segment delivered record growth in the third quarter with cloud revenues up 103% to 30.7 billion. The strongest growth contributor was Google Cloud Platform with strength in both AI and core GCP.",
+   "parts": [
     {
      "t0_ms": 3461560,
      "text": "So I would look at our ability to do, you know, TPUs both for deploying in our data centers and TPU systems and others data centers as an ability to scale up the product, which directly translates into better economics."
-    }
-   ],
-   "ts": "2026-10-28T17:27:22.560000-04:00",
-   "adj_ret_5m": 0.0009655722358978824
-  },
-  {
-   "seg_id": 102,
-   "t0_ms": 3483560,
-   "t1_ms": 3525560,
-   "speaker": "Management",
-   "text": "To address the question on the rate of growth of cloud, you know, a Google Cloud segment delivered record growth in the third quarter with cloud revenues up 103% to 30.7 billion. The strongest growth contributor was Google Cloud Platform with strength in both AI and core GCP. So GCP accounted for the vast majority of revenue generated in Q3 and cloud revenue growth, excluding the impact of TPU system sales, was again very, very strong. Demand was also strong across our product lines. So we see three things going on.",
-   "parts": [
+    },
     {
      "t0_ms": 3483560,
      "text": "To address the question on the rate of growth of cloud, you know, a Google Cloud segment delivered record growth in the third quarter with cloud revenues up 103% to 30.7 billion."
@@ -2838,7 +2739,18 @@
     {
      "t0_ms": 3497560,
      "text": "The strongest growth contributor was Google Cloud Platform with strength in both AI and core GCP."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:27:41.560000-04:00",
+   "adj_ret_5m": 0.0009655722358978824
+  },
+  {
+   "seg_id": 94,
+   "t0_ms": 3506560,
+   "t1_ms": 3544560,
+   "speaker": "Management",
+   "text": "So GCP accounted for the vast majority of revenue generated in Q3 and cloud revenue growth, excluding the impact of TPU system sales, was again very, very strong. Demand was also strong across our product lines. So we see three things going on. One, as people use Gemini, we see revenue growth from Gemini itself. But we also see that as people use Gemini, it drives growth in other parts of our portfolio. For instance, as they build agents, they use compute to perform a task. And so they buy compute.",
+   "parts": [
     {
      "t0_ms": 3506560,
      "text": "So GCP accounted for the vast majority of revenue generated in Q3 and cloud revenue growth, excluding the impact of TPU system sales, was again very, very strong."
@@ -2846,18 +2758,7 @@
     {
      "t0_ms": 3518560,
      "text": "Demand was also strong across our product lines. So we see three things going on."
-    }
-   ],
-   "ts": "2026-10-28T17:28:03.560000-04:00",
-   "adj_ret_5m": 0.0044403879222836284
-  },
-  {
-   "seg_id": 103,
-   "t0_ms": 3525560,
-   "t1_ms": 3566560,
-   "speaker": "Management",
-   "text": "One, as people use Gemini, we see revenue growth from Gemini itself. But we also see that as people use Gemini, it drives growth in other parts of our portfolio. For instance, as they build agents, they use compute to perform a task. And so they buy compute. They use storage to store memories of the agent, database to serve up what's called context for the agent to reason on. And obviously, given all the cybersecurity threats, we are seeing strong growth in our cybersecurity portfolio. So we are confident about our growth and the diversity in our growth.",
-   "parts": [
+    },
     {
      "t0_ms": 3525560,
      "text": "One, as people use Gemini, we see revenue growth from Gemini itself."
@@ -2869,7 +2770,18 @@
     {
      "t0_ms": 3537560,
      "text": "For instance, as they build agents, they use compute to perform a task. And so they buy compute."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:28:26.560000-04:00",
+   "adj_ret_5m": 0.0044403879222836284
+  },
+  {
+   "seg_id": 95,
+   "t0_ms": 3544560,
+   "t1_ms": 3587560,
+   "speaker": "Management",
+   "text": "They use storage to store memories of the agent, database to serve up what's called context for the agent to reason on. And obviously, given all the cybersecurity threats, we are seeing strong growth in our cybersecurity portfolio. So we are confident about our growth and the diversity in our growth. We're also seeing new customers buy into GCP and accelerating growth and new customer adoption. So we also see that as a growth vector for us. And we are always at any point in time. We could obviously serve a lot more demand with capacity, but we are managing all of these parameters and growth carefully.",
+   "parts": [
     {
      "t0_ms": 3544560,
      "text": "They use storage to store memories of the agent, database to serve up what's called context for the agent to reason on."
@@ -2881,18 +2793,7 @@
     {
      "t0_ms": 3559560,
      "text": "So we are confident about our growth and the diversity in our growth."
-    }
-   ],
-   "ts": "2026-10-28T17:28:45.560000-04:00",
-   "adj_ret_5m": 0.0044403879222836284
-  },
-  {
-   "seg_id": 104,
-   "t0_ms": 3566560,
-   "t1_ms": 3587560,
-   "speaker": "Management",
-   "text": "We're also seeing new customers buy into GCP and accelerating growth and new customer adoption. So we also see that as a growth vector for us. And we are always at any point in time. We could obviously serve a lot more demand with capacity, but we are managing all of these parameters and growth carefully.",
-   "parts": [
+    },
     {
      "t0_ms": 3566560,
      "text": "We're also seeing new customers buy into GCP and accelerating growth and new customer adoption."
@@ -2906,11 +2807,11 @@
      "text": "We could obviously serve a lot more demand with capacity, but we are managing all of these parameters and growth carefully."
     }
    ],
-   "ts": "2026-10-28T17:29:26.560000-04:00",
+   "ts": "2026-10-28T17:29:04.560000-04:00",
    "adj_ret_5m": 0.008219919402066456
   },
   {
-   "seg_id": 105,
+   "seg_id": 96,
    "t0_ms": 3587560,
    "t1_ms": 3602060,
    "speaker": "Operator",
@@ -2925,7 +2826,7 @@
    "adj_ret_5m": 0.008219919402066456
   },
   {
-   "seg_id": 106,
+   "seg_id": 97,
    "t0_ms": 3602060,
    "t1_ms": 3641060,
    "speaker": "Analyst",
@@ -2956,16 +2857,27 @@
    "adj_ret_5m": 0.008712524928322862
   },
   {
-   "seg_id": 107,
+   "seg_id": 98,
    "t0_ms": 3641060,
-   "t1_ms": 3677060,
-   "speaker": "Management",
-   "text": "And how do you think if those variables matter, what are you doing to protect consumer trust and privacy as you build out agentic consumer tools? Thanks. Thanks, Michael. Great questions. On the first one, look, you know, we've long viewed what we build as, you know, categories of things which we build as products. And then there are categories of things which we build as platforms. Right. And you need to have a clear view on which is which. And when you're building things as platforms, you really work hard to make the platform great and make sure it works for everyone.",
+   "t1_ms": 3650060,
+   "speaker": "Analyst",
+   "text": "And how do you think if those variables matter, what are you doing to protect consumer trust and privacy as you build out agentic consumer tools?",
    "parts": [
     {
      "t0_ms": 3641060,
      "text": "And how do you think if those variables matter, what are you doing to protect consumer trust and privacy as you build out agentic consumer tools?"
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:30:41.060000-04:00",
+   "adj_ret_5m": 0.008712524928322862
+  },
+  {
+   "seg_id": 99,
+   "t0_ms": 3650060,
+   "t1_ms": 3687060,
+   "speaker": "Management",
+   "text": "Thanks. Thanks, Michael. Great questions. On the first one, look, you know, we've long viewed what we build as, you know, categories of things which we build as products. And then there are categories of things which we build as platforms. Right. And you need to have a clear view on which is which. And when you're building things as platforms, you really work hard to make the platform great and make sure it works for everyone. We have a long history of operating many platforms, be it a browser, be it operating system, be it an extraordinarily successful cloud platform.",
+   "parts": [
     {
      "t0_ms": 3650060,
      "text": "Thanks. Thanks, Michael. Great questions. On the first one, look, you know, we've long viewed what we build as, you know, categories of things which we build as products."
@@ -2977,22 +2889,22 @@
     {
      "t0_ms": 3669060,
      "text": "And when you're building things as platforms, you really work hard to make the platform great and make sure it works for everyone."
-    }
-   ],
-   "ts": "2026-10-28T17:30:41.060000-04:00",
-   "adj_ret_5m": 0.008712524928322862
-  },
-  {
-   "seg_id": 108,
-   "t0_ms": 3677060,
-   "t1_ms": 3713060,
-   "speaker": "Management",
-   "text": "We have a long history of operating many platforms, be it a browser, be it operating system, be it an extraordinarily successful cloud platform. And in all of that, you know, we worked hard to provide it to all players and be a great customer. You've seen us work on our models with other companies, including Apple, with whom we compete in many, many areas. Similarly, we view our TPU systems as an important platform we are building. We want to be world class in how we build it.",
-   "parts": [
+    },
     {
      "t0_ms": 3677060,
      "text": "We have a long history of operating many platforms, be it a browser, be it operating system, be it an extraordinarily successful cloud platform."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:30:50.060000-04:00",
+   "adj_ret_5m": 0.008712524928322862
+  },
+  {
+   "seg_id": 100,
+   "t0_ms": 3687060,
+   "t1_ms": 3731060,
+   "speaker": "Management",
+   "text": "And in all of that, you know, we worked hard to provide it to all players and be a great customer. You've seen us work on our models with other companies, including Apple, with whom we compete in many, many areas. Similarly, we view our TPU systems as an important platform we are building. We want to be world class in how we build it. That means you're putting it against market forces, testing it and competing for people who would have the most demanding workloads on top of it. And I think that's what makes sure those teams are continuing to be at the frontier.",
+   "parts": [
     {
      "t0_ms": 3687060,
      "text": "And in all of that, you know, we worked hard to provide it to all players and be a great customer."
@@ -3004,18 +2916,7 @@
     {
      "t0_ms": 3704060,
      "text": "Similarly, we view our TPU systems as an important platform we are building. We want to be world class in how we build it."
-    }
-   ],
-   "ts": "2026-10-28T17:31:17.060000-04:00",
-   "adj_ret_5m": 0.005994871439462202
-  },
-  {
-   "seg_id": 109,
-   "t0_ms": 3713060,
-   "t1_ms": 3758060,
-   "speaker": "Management",
-   "text": "That means you're putting it against market forces, testing it and competing for people who would have the most demanding workloads on top of it. And I think that's what makes sure those teams are continuing to be at the frontier. So that's how we think about it. And over time, I think, you know, that always ends up in expanding opportunities. And we've been able to do well taking that approach for a very long period of time. Second on agentic behavior, I mean, to the earlier question, and I think I should have emphasized, people really when people are approaching these agentic experiences,",
-   "parts": [
+    },
     {
      "t0_ms": 3713060,
      "text": "That means you're putting it against market forces, testing it and competing for people who would have the most demanding workloads on top of it."
@@ -3023,7 +2924,18 @@
     {
      "t0_ms": 3723060,
      "text": "And I think that's what makes sure those teams are continuing to be at the frontier."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:31:27.060000-04:00",
+   "adj_ret_5m": 0.005994871439462202
+  },
+  {
+   "seg_id": 101,
+   "t0_ms": 3731060,
+   "t1_ms": 3771060,
+   "speaker": "Management",
+   "text": "So that's how we think about it. And over time, I think, you know, that always ends up in expanding opportunities. And we've been able to do well taking that approach for a very long period of time. Second on agentic behavior, I mean, to the earlier question, and I think I should have emphasized, people really when people are approaching these agentic experiences, we clearly see people are concerned about safety and trust. I mean, it is a very, very high factor in how they want to use these things.",
+   "parts": [
     {
      "t0_ms": 3731060,
      "text": "So that's how we think about it. And over time, I think, you know, that always ends up in expanding opportunities."
@@ -3035,18 +2947,7 @@
     {
      "t0_ms": 3745060,
      "text": "Second on agentic behavior, I mean, to the earlier question, and I think I should have emphasized, people really when people are approaching these agentic experiences,"
-    }
-   ],
-   "ts": "2026-10-28T17:31:53.060000-04:00",
-   "adj_ret_5m": 0.005994871439462202
-  },
-  {
-   "seg_id": 110,
-   "t0_ms": 3758060,
-   "t1_ms": 3798060,
-   "speaker": "Management",
-   "text": "we clearly see people are concerned about safety and trust. I mean, it is a very, very high factor in how they want to use these things. And, you know, over decades, the trust we have built by delivering these experiences in a safe way across many consumer products with scale in billions of users, as well as this putting in end to end as we are building our models and agents, deploying them both with extensive testing, the kind of real time monitoring we do as we deploy these at scale.",
-   "parts": [
+    },
     {
      "t0_ms": 3758060,
      "text": "we clearly see people are concerned about safety and trust."
@@ -3054,7 +2955,18 @@
     {
      "t0_ms": 3764060,
      "text": "I mean, it is a very, very high factor in how they want to use these things."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:32:11.060000-04:00",
+   "adj_ret_5m": 0.004611918249722402
+  },
+  {
+   "seg_id": 102,
+   "t0_ms": 3771060,
+   "t1_ms": 3804060,
+   "speaker": "Management",
+   "text": "And, you know, over decades, the trust we have built by delivering these experiences in a safe way across many consumer products with scale in billions of users, as well as this putting in end to end as we are building our models and agents, deploying them both with extensive testing, the kind of real time monitoring we do as we deploy these at scale. I think all of that will end up being a huge differentiator. And we already hear about it from our users.",
+   "parts": [
     {
      "t0_ms": 3771060,
      "text": "And, you know, over decades, the trust we have built by delivering these experiences in a safe way across many consumer products with scale in billions of users,"
@@ -3066,32 +2978,32 @@
     {
      "t0_ms": 3793060,
      "text": "the kind of real time monitoring we do as we deploy these at scale."
-    }
-   ],
-   "ts": "2026-10-28T17:32:38.060000-04:00",
-   "adj_ret_5m": 0.004611918249722402
-  },
-  {
-   "seg_id": 111,
-   "t0_ms": 3798060,
-   "t1_ms": 3816270,
-   "speaker": "Management",
-   "text": "I think all of that will end up being a huge differentiator. And we already hear about it from our users. And I think they would work with their feet as this frontier goes through. Thank you. Thank you.",
-   "parts": [
+    },
     {
      "t0_ms": 3798060,
      "text": "I think all of that will end up being a huge differentiator. And we already hear about it from our users."
-    },
+    }
+   ],
+   "ts": "2026-10-28T17:32:51.060000-04:00",
+   "adj_ret_5m": 0.004611918249722402
+  },
+  {
+   "seg_id": 103,
+   "t0_ms": 3804060,
+   "t1_ms": 3816270,
+   "speaker": "Management",
+   "text": "And I think they would work with their feet as this frontier goes through. Thank you. Thank you.",
+   "parts": [
     {
      "t0_ms": 3804060,
      "text": "And I think they would work with their feet as this frontier goes through. Thank you. Thank you."
     }
    ],
-   "ts": "2026-10-28T17:33:18.060000-04:00",
+   "ts": "2026-10-28T17:33:24.060000-04:00",
    "adj_ret_5m": 0.0017966347648825653
   },
   {
-   "seg_id": 112,
+   "seg_id": 104,
    "t0_ms": 3816270,
    "t1_ms": 3825270,
    "speaker": "Operator",
@@ -3106,7 +3018,7 @@
    "adj_ret_5m": 0.0017966347648825653
   },
   {
-   "seg_id": 113,
+   "seg_id": 105,
    "t0_ms": 3825270,
    "t1_ms": 3835610,
    "speaker": "Management",
@@ -3125,7 +3037,7 @@
    "adj_ret_5m": 0.0017966347648825653
   },
   {
-   "seg_id": 114,
+   "seg_id": 106,
    "t0_ms": 3835610,
    "t1_ms": 3842610,
    "speaker": "Operator",
@@ -6455,27 +6367,11 @@
  "claims": [
   {
    "claim_id": 0,
-   "seg_id": 17,
-   "speaker": "Management",
-   "quote": "We demonstrated magic state cultivation for the first time in quantum computing and launched our TPUs into space with Project Suncatcher.",
-   "metric": "long-term initiatives progress",
-   "value": null,
-   "period": null,
-   "kind": "qualitative",
-   "ts": "2026-10-28T16:38:38.080000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 1,
-   "seg_id": 18,
+   "seg_id": 14,
    "speaker": "Management",
    "quote": "Already, we've seen satisfaction increase by 19% and dissatisfaction drop more than half.",
    "metric": "user satisfaction with product listing ads",
-   "value": "+19% satisfaction; dissatisfaction down more than half",
+   "value": "+19%; dissatisfaction down more than half",
    "period": "Q3",
    "kind": "result",
    "ts": "2026-10-28T16:39:36.080000-04:00",
@@ -6486,15 +6382,31 @@
    "consensus_role": null
   },
   {
-   "claim_id": 2,
-   "seg_id": 18,
+   "claim_id": 1,
+   "seg_id": 14,
    "speaker": "Management",
-   "quote": "The integration of Gemini models into our ads infrastructure is improving how we decode user intent and drive ads relevance.",
-   "metric": "ads relevance from Gemini integration",
+   "quote": "For instance, through several innovations and personalization modeling, we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026.",
+   "metric": "incremental advertiser value on Discover ads",
+   "value": "18% incremental advertiser value; 8% increase in user sentiment",
+   "period": "2026",
+   "kind": "result",
+   "ts": "2026-10-28T16:39:51.080000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 2,
+   "seg_id": 15,
+   "speaker": "Management",
+   "quote": "Overall, AI is accelerating our ads development and drives the majority of our product launches.",
+   "metric": "AI role in ads development and product launches",
    "value": null,
    "period": null,
    "kind": "qualitative",
-   "ts": "2026-10-28T16:39:19.080000-04:00",
+   "ts": "2026-10-28T16:40:02.080000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6503,23 +6415,7 @@
   },
   {
    "claim_id": 3,
-   "seg_id": 19,
-   "speaker": "Management",
-   "quote": "we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026.",
-   "metric": "Discover ads advertiser value and user sentiment",
-   "value": "18% incremental advertiser value; 8% increase in user sentiment",
-   "period": "2026",
-   "kind": "result",
-   "ts": "2026-10-28T16:39:55.080000-04:00",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 4,
-   "seg_id": 19,
+   "seg_id": 15,
    "speaker": "Management",
    "quote": "AI Max and Performance Max continue to see strong adoption.",
    "metric": "AI Max and Performance Max adoption",
@@ -6534,11 +6430,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 5,
-   "seg_id": 20,
+   "claim_id": 4,
+   "seg_id": 16,
    "speaker": "Management",
    "quote": "In Q3 alone, Gemini models helped advertisers generate over 1.5 billion campaign assets, up over 7x year over year.",
-   "metric": "campaign assets generated by Gemini",
+   "metric": "campaign assets generated with Gemini models",
    "value": "over 1.5 billion, up over 7x YoY",
    "period": "Q3",
    "kind": "result",
@@ -6550,8 +6446,8 @@
    "consensus_role": null
   },
   {
-   "claim_id": 6,
-   "seg_id": 20,
+   "claim_id": 5,
+   "seg_id": 16,
    "speaker": "Management",
    "quote": "For example, by using AI Max to capture long-form and multilingual queries, Telstra saw a 52% increase in conversions and a 36% reduction in cost per order showing up in key moments however the customers search.",
    "metric": "Telstra conversions and cost per order with AI Max",
@@ -6566,11 +6462,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 7,
-   "seg_id": 21,
+   "claim_id": 6,
+   "seg_id": 17,
    "speaker": "Management",
    "quote": "On AI mode, many of these queries are upper funnel queries, allowing us to capture new high-value commercial intent.",
-   "metric": "AI mode query mix",
+   "metric": "AI Mode query mix and commercial intent",
    "value": null,
    "period": null,
    "kind": "qualitative",
@@ -6582,11 +6478,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 8,
-   "seg_id": 21,
+   "claim_id": 7,
+   "seg_id": 17,
    "speaker": "Management",
    "quote": "In addition, the majority of AI mode queries are incremental, creating more monetization opportunities over time.",
-   "metric": "AI mode query incrementality",
+   "metric": "incrementality of AI Mode queries",
    "value": "majority incremental",
    "period": null,
    "kind": "qualitative",
@@ -6598,11 +6494,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 9,
-   "seg_id": 21,
+   "claim_id": 8,
+   "seg_id": 17,
    "speaker": "Management",
    "quote": "Click-through rates are already similar between sponsored and organic product list items within AI mode.",
-   "metric": "AI mode click-through rates sponsored vs organic",
+   "metric": "click-through rates sponsored vs organic in AI Mode",
    "value": "similar",
    "period": null,
    "kind": "result",
@@ -6614,11 +6510,11 @@
    "consensus_role": null
   },
   {
-   "claim_id": 10,
-   "seg_id": 21,
+   "claim_id": 9,
+   "seg_id": 17,
    "speaker": "Management",
    "quote": "Based on these collective results, we're now scaling high-quality ads within AI overviews in AI mode to more users and queries.",
-   "metric": "ads scaling in AI Overviews and AI Mode",
+   "metric": "scaling of ads in AI Overviews and AI Mode",
    "value": null,
    "period": null,
    "kind": "guidance",
@@ -6630,12 +6526,28 @@
    "consensus_role": null
   },
   {
+   "claim_id": 10,
+   "seg_id": 17,
+   "speaker": "Management",
+   "quote": "This includes taking our monetization footprint global for the first time.",
+   "metric": "global monetization footprint of AI Mode ads",
+   "value": null,
+   "period": null,
+   "kind": "guidance",
+   "ts": "2026-10-28T16:41:53.080000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
    "claim_id": 11,
-   "seg_id": 22,
+   "seg_id": 18,
    "speaker": "Management",
    "quote": "Today, we're announcing the expansion of ads in AI mode into international markets alongside multi-turn ads in AI mode in the US.",
-   "metric": "ads in AI Mode expansion",
-   "value": "international markets and multi-turn ads in US",
+   "metric": "expansion of ads in AI Mode",
+   "value": "international markets plus multi-turn ads in US",
    "period": null,
    "kind": "guidance",
    "ts": "2026-10-28T16:41:58.080000-04:00",
@@ -6647,10 +6559,10 @@
   },
   {
    "claim_id": 12,
-   "seg_id": 22,
+   "seg_id": 18,
    "speaker": "Management",
    "quote": "The universal commerce protocol, UCP, is being rapidly adopted by retailers.",
-   "metric": "UCP retailer adoption",
+   "metric": "UCP adoption by retailers",
    "value": null,
    "period": null,
    "kind": "qualitative",
@@ -6663,7 +6575,7 @@
   },
   {
    "claim_id": 13,
-   "seg_id": 23,
+   "seg_id": 19,
    "speaker": "Management",
    "quote": "Today, UCP enables direct checkout for hundreds of thousands of brands across Google, including Chewy, Nike, Tapestry, and many more.",
    "metric": "brands with UCP direct checkout",
@@ -6733,7 +6645,7 @@
   {
    "rank": 1,
    "claim_id": 13,
-   "seg_id": 23,
+   "seg_id": 19,
    "ts": "2026-10-28T16:42:36.080000-04:00",
    "t0_ms": 756080,
    "speaker": "Management",
@@ -6759,13 +6671,13 @@
  ],
  "llm_used": true,
  "candidate_seg_ids": [
+  13,
+  14,
+  15,
+  16,
   17,
   18,
-  19,
-  20,
-  21,
-  22,
-  23
+  19
  ],
  "open_reaction": null,
  "estimates": [

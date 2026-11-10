@@ -13,9 +13,9 @@
   {
    "seg_id": 0,
    "t0_ms": 0,
-   "t1_ms": 25280,
+   "t1_ms": 39760,
    "speaker": "Management",
-   "text": "Good evening everyone and welcome to Duolingo's Q3 earnings webcast. Today after market close we released this quarter's shareholder letter, a copy of which you can find on our website at investors.duolingo.com. On today's call we have Luis Van On, our co-founder and CEO, and Jillian Munson, our CFO. They will begin with prepared remarks before we open the call for questions. Analysts may ask a question by using the raise hand feature. Please note that",
+   "text": "Good evening everyone and welcome to Duolingo's Q3 earnings webcast. Today after market close we released this quarter's shareholder letter, a copy of which you can find on our website at investors.duolingo.com. On today's call we have Luis Van On, our co-founder and CEO, and Jillian Munson, our CFO. They will begin with prepared remarks before we open the call for questions. Analysts may ask a question by using the raise hand feature. Please note that this call is being recorded and all participants are currently in listen-only mode. Before we begin, please note that we will make forward-looking statements regarding future events and financial performance. These statements are subject to risks and uncertainties described in our SEC",
    "parts": [
     {
      "t0_ms": 0,
@@ -36,33 +36,11 @@
     {
      "t0_ms": 20240,
      "text": "for questions. Analysts may ask a question by using the raise hand feature. Please note that"
-    }
-   ],
-   "ts": "2026-11-03T17:00:00-05:00",
-   "adj_ret_5m": -0.0027056383449343135
-  },
-  {
-   "seg_id": 1,
-   "t0_ms": 25280,
-   "t1_ms": 30560,
-   "speaker": "Operator",
-   "text": "this call is being recorded and all participants are currently in listen-only mode. Before we begin,",
-   "parts": [
+    },
     {
      "t0_ms": 25280,
      "text": "this call is being recorded and all participants are currently in listen-only mode. Before we begin,"
-    }
-   ],
-   "ts": "2026-11-03T17:00:25.280000-05:00",
-   "adj_ret_5m": -0.0027056383449343135
-  },
-  {
-   "seg_id": 2,
-   "t0_ms": 30560,
-   "t1_ms": 74080,
-   "speaker": "Management",
-   "text": "please note that we will make forward-looking statements regarding future events and financial performance. These statements are subject to risks and uncertainties described in our SEC filings and are based on our assumptions we believe to be reasonable as of today. We undertake no obligation to update them. We will also discuss both GAAP and non-GAAP financial measures. Reconciliation between the two can be found in our earnings materials and we encourage you to review them when evaluating our performance. And now I will hand it over to Luis. Thanks Debbie and thank you all for joining. We had a great Q3. Daily active uses accelerated for a second quarter in a row to 29% year-over-year growth up from 23% in Q2.",
-   "parts": [
+    },
     {
      "t0_ms": 30560,
      "text": "please note that we will make forward-looking statements regarding future events and financial"
@@ -70,7 +48,18 @@
     {
      "t0_ms": 34880,
      "text": "performance. These statements are subject to risks and uncertainties described in our SEC"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:00:00-05:00",
+   "adj_ret_5m": -0.0027056383449343135
+  },
+  {
+   "seg_id": 1,
+   "t0_ms": 39760,
+   "t1_ms": 83920,
+   "speaker": "Management",
+   "text": "filings and are based on our assumptions we believe to be reasonable as of today. We undertake no obligation to update them. We will also discuss both GAAP and non-GAAP financial measures. Reconciliation between the two can be found in our earnings materials and we encourage you to review them when evaluating our performance. And now I will hand it over to Luis. Thanks Debbie and thank you all for joining. We had a great Q3. Daily active uses accelerated for a second quarter in a row to 29% year-over-year growth up from 23% in Q2. Bookings, revenue, and profitability were also ahead of expectations. At the beginning of the year, we laid out a plan to prioritize teaching better and user growth,",
+   "parts": [
     {
      "t0_ms": 39760,
      "text": "filings and are based on our assumptions we believe to be reasonable as of today. We undertake"
@@ -94,18 +83,7 @@
     {
      "t0_ms": 69120,
      "text": "for a second quarter in a row to 29% year-over-year growth up from 23% in Q2."
-    }
-   ],
-   "ts": "2026-11-03T17:00:30.560000-05:00",
-   "adj_ret_5m": -0.0027056383449343135
-  },
-  {
-   "seg_id": 3,
-   "t0_ms": 74800,
-   "t1_ms": 114640,
-   "speaker": "Management",
-   "text": "Bookings, revenue, and profitability were also ahead of expectations. At the beginning of the year, we laid out a plan to prioritize teaching better and user growth, knowing it would take time to see results. We're now seeing the user acceleration we hope for and I'm proud of how our team has executed against our strategy. We expect this momentum to continue with year-over-year DAU growth in Q4 similar to Q3 and Q4 bookings slightly ahead of our previous guidance. Every new learner expands the audience we can monetize over time. While teaching better and user growth remain our top priorities for this year, we're gradually leaning more into monetization in ways that preserve the quality of our free",
-   "parts": [
+    },
     {
      "t0_ms": 74800,
      "text": "Bookings, revenue, and profitability were also ahead of expectations."
@@ -113,7 +91,18 @@
     {
      "t0_ms": 79200,
      "text": "At the beginning of the year, we laid out a plan to prioritize teaching better and user growth,"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:00:39.760000-05:00",
+   "adj_ret_5m": -0.0027056383449343135
+  },
+  {
+   "seg_id": 2,
+   "t0_ms": 83920,
+   "t1_ms": 124640,
+   "speaker": "Management",
+   "text": "knowing it would take time to see results. We're now seeing the user acceleration we hope for and I'm proud of how our team has executed against our strategy. We expect this momentum to continue with year-over-year DAU growth in Q4 similar to Q3 and Q4 bookings slightly ahead of our previous guidance. Every new learner expands the audience we can monetize over time. While teaching better and user growth remain our top priorities for this year, we're gradually leaning more into monetization in ways that preserve the quality of our free experience. Our ambition is to ultimately reach one billion learners and build a much larger business over time. The more people we can teach, the bigger that opportunity becomes.",
+   "parts": [
     {
      "t0_ms": 83920,
      "text": "knowing it would take time to see results. We're now seeing the user acceleration we hope"
@@ -137,18 +126,7 @@
     {
      "t0_ms": 110080,
      "text": "we're gradually leaning more into monetization in ways that preserve the quality of our free"
-    }
-   ],
-   "ts": "2026-11-03T17:01:14.800000-05:00",
-   "adj_ret_5m": -0.002833319079791341
-  },
-  {
-   "seg_id": 4,
-   "t0_ms": 114640,
-   "t1_ms": 157970,
-   "speaker": "Management",
-   "text": "experience. Our ambition is to ultimately reach one billion learners and build a much larger business over time. The more people we can teach, the bigger that opportunity becomes. With that, I'll turn it over to Jillian. Thank you Luis and glad you're all here this evening. We started the year with an ambitious plan to re-accelerate our growth and our Q3 results show we're executing well. The numbers from the quarter are pretty straightforward, so I'll double click on just two items. First, a look at how broad our DAU and bookings growth was. Year-over-year DAU growth accelerated across eight of our ten largest countries.",
-   "parts": [
+    },
     {
      "t0_ms": 114640,
      "text": "experience. Our ambition is to ultimately reach one billion learners and build a much larger"
@@ -156,7 +134,18 @@
     {
      "t0_ms": 120400,
      "text": "business over time. The more people we can teach, the bigger that opportunity becomes."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:01:23.920000-05:00",
+   "adj_ret_5m": -0.002833319079791341
+  },
+  {
+   "seg_id": 3,
+   "t0_ms": 125280,
+   "t1_ms": 168610,
+   "speaker": "Management",
+   "text": "With that, I'll turn it over to Jillian. Thank you Luis and glad you're all here this evening. We started the year with an ambitious plan to re-accelerate our growth and our Q3 results show we're executing well. The numbers from the quarter are pretty straightforward, so I'll double click on just two items. First, a look at how broad our DAU and bookings growth was. Year-over-year DAU growth accelerated across eight of our ten largest countries. Additionally, year-over-year subscription bookings growth was in the double digits in the majority of the regions we serve. Secondly, Q3 operating expenses include an",
+   "parts": [
     {
      "t0_ms": 125280,
      "text": "With that, I'll turn it over to Jillian. Thank you Luis and glad you're all here this"
@@ -176,18 +165,7 @@
     {
      "t0_ms": 151810,
      "text": "growth was. Year-over-year DAU growth accelerated across eight of our ten largest countries."
-    }
-   ],
-   "ts": "2026-11-03T17:01:54.640000-05:00",
-   "adj_ret_5m": -0.002833319079791341
-  },
-  {
-   "seg_id": 5,
-   "t0_ms": 157970,
-   "t1_ms": 198370,
-   "speaker": "Management",
-   "text": "Additionally, year-over-year subscription bookings growth was in the double digits in the majority of the regions we serve. Secondly, Q3 operating expenses include an 11 million dollar bonus accrual. This bonus rewards our team for re-accelerating user growth. We're on track to hit the targets, so we've begun to record the expense. A second portion of the bonus is included in our Q4 guidance, and we expect to pay the full bonus in early 2027. Turning to Q4, we expect year-over-year bookings growth of 13%, revenue growth of 14%, and an adjusted EBITDA margin of 26.1%.",
-   "parts": [
+    },
     {
      "t0_ms": 157970,
      "text": "Additionally, year-over-year subscription bookings growth was in the double digits"
@@ -195,7 +173,18 @@
     {
      "t0_ms": 162050,
      "text": "in the majority of the regions we serve. Secondly, Q3 operating expenses include an"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:02:05.280000-05:00",
+   "adj_ret_5m": -0.00219329118670597
+  },
+  {
+   "seg_id": 4,
+   "t0_ms": 168610,
+   "t1_ms": 209410,
+   "speaker": "Management",
+   "text": "11 million dollar bonus accrual. This bonus rewards our team for re-accelerating user growth. We're on track to hit the targets, so we've begun to record the expense. A second portion of the bonus is included in our Q4 guidance, and we expect to pay the full bonus in early 2027. Turning to Q4, we expect year-over-year bookings growth of 13%, revenue growth of 14%, and an adjusted EBITDA margin of 26.1%. To help you build your models, I want to give you just a couple items to consider. We expect gross margin to fall slightly from Q3 as we roll out video call to all paid",
+   "parts": [
     {
      "t0_ms": 168610,
      "text": "11 million dollar bonus accrual. This bonus rewards our team for re-accelerating user growth."
@@ -215,18 +204,7 @@
     {
      "t0_ms": 190610,
      "text": "bookings growth of 13%, revenue growth of 14%, and an adjusted EBITDA margin of 26.1%."
-    }
-   ],
-   "ts": "2026-11-03T17:02:37.970000-05:00",
-   "adj_ret_5m": -0.00219329118670597
-  },
-  {
-   "seg_id": 6,
-   "t0_ms": 199650,
-   "t1_ms": 239490,
-   "speaker": "Management",
-   "text": "To help you build your models, I want to give you just a couple items to consider. We expect gross margin to fall slightly from Q3 as we roll out video call to all paid subscribers. Operating expenses will likely grow faster than revenue because of our continued investments and the second portion of the bonus I just mentioned. As a result, we expect adjusted EBITDA to be roughly flat year-over-year at 84 million dollars. For the full year, we expect to deliver 12% year-over-year bookings growth and 18% revenue growth paired with a 26.5% adjusted EBITDA margin. We plan to provide our full",
-   "parts": [
+    },
     {
      "t0_ms": 199650,
      "text": "To help you build your models, I want to give you just a couple items to consider."
@@ -234,7 +212,18 @@
     {
      "t0_ms": 204530,
      "text": "We expect gross margin to fall slightly from Q3 as we roll out video call to all paid"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:02:48.610000-05:00",
+   "adj_ret_5m": -0.00219329118670597
+  },
+  {
+   "seg_id": 5,
+   "t0_ms": 209410,
+   "t1_ms": 248770,
+   "speaker": "Management",
+   "text": "subscribers. Operating expenses will likely grow faster than revenue because of our continued investments and the second portion of the bonus I just mentioned. As a result, we expect adjusted EBITDA to be roughly flat year-over-year at 84 million dollars. For the full year, we expect to deliver 12% year-over-year bookings growth and 18% revenue growth paired with a 26.5% adjusted EBITDA margin. We plan to provide our full outlook for 2027 in February. We are encouraged by the momentum we're seeing in our business and look forward to answering your questions. Back to you, operator.",
+   "parts": [
     {
      "t0_ms": 209410,
      "text": "subscribers. Operating expenses will likely grow faster than revenue because of our continued"
@@ -254,18 +243,7 @@
     {
      "t0_ms": 232290,
      "text": "revenue growth paired with a 26.5% adjusted EBITDA margin. We plan to provide our full"
-    }
-   ],
-   "ts": "2026-11-03T17:03:19.650000-05:00",
-   "adj_ret_5m": -0.00219329118670597
-  },
-  {
-   "seg_id": 7,
-   "t0_ms": 239490,
-   "t1_ms": 248770,
-   "speaker": "Management",
-   "text": "outlook for 2027 in February. We are encouraged by the momentum we're seeing in our business and look forward to answering your questions. Back to you, operator.",
-   "parts": [
+    },
     {
      "t0_ms": 239490,
      "text": "outlook for 2027 in February. We are encouraged by the momentum we're seeing in our business"
@@ -275,31 +253,20 @@
      "text": "and look forward to answering your questions. Back to you, operator."
     }
    ],
-   "ts": "2026-11-03T17:03:59.490000-05:00",
+   "ts": "2026-11-03T17:03:29.410000-05:00",
    "adj_ret_5m": -0.00219329118670597
   },
   {
-   "seg_id": 8,
+   "seg_id": 6,
    "t0_ms": 251250,
-   "t1_ms": 254850,
+   "t1_ms": 294240,
    "speaker": "Operator",
-   "text": "We will now move to our question and answer session. At this time, if you would like to",
+   "text": "We will now move to our question and answer session. At this time, if you would like to ask a question, please click on the raise hand button which can be found on the black bar at the bottom of your screen. You may remove yourself from the queue at any time by lowering your hand. When it is your turn, you will receive a message on your screen asking to be promoted to a panelist. Please accept. Wait a moment and once you have been promoted, you will hear your name called and you may unmute your video and audio and ask your question. Your Zoom application may disappear momentarily. This is expected and your window will reappear. We are allowing analysts one relevant follow-up to their main question. We will now pause a moment to allow the team to gather and assemble the queue. Your first question comes from Yugal Arunian. Please unmute your video and audio and ask your question.",
    "parts": [
     {
      "t0_ms": 251250,
      "text": "We will now move to our question and answer session. At this time, if you would like to"
-    }
-   ],
-   "ts": "2026-11-03T17:04:11.250000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 9,
-   "t0_ms": 254850,
-   "t1_ms": 284610,
-   "speaker": "Management",
-   "text": "ask a question, please click on the raise hand button which can be found on the black bar at the bottom of your screen. You may remove yourself from the queue at any time by lowering your hand. When it is your turn, you will receive a message on your screen asking to be promoted to a panelist. Please accept. Wait a moment and once you have been promoted, you will hear your name called and you may unmute your video and audio and ask your question. Your Zoom application may disappear momentarily. This is expected and your window will reappear. We are allowing analysts one relevant follow-up to their main question. We will now pause a",
-   "parts": [
+    },
     {
      "t0_ms": 254850,
      "text": "ask a question, please click on the raise hand button which can be found on the black bar at"
@@ -327,41 +294,41 @@
     {
      "t0_ms": 280530,
      "text": "We are allowing analysts one relevant follow-up to their main question. We will now pause a"
-    }
-   ],
-   "ts": "2026-11-03T17:04:14.850000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 10,
-   "t0_ms": 284610,
-   "t1_ms": 290880,
-   "speaker": "Operator",
-   "text": "moment to allow the team to gather and assemble the queue. Your first question comes from Yugal",
-   "parts": [
+    },
     {
      "t0_ms": 284610,
      "text": "moment to allow the team to gather and assemble the queue. Your first question comes from Yugal"
-    }
-   ],
-   "ts": "2026-11-03T17:04:44.610000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 11,
-   "t0_ms": 290880,
-   "t1_ms": 328750,
-   "speaker": "Analyst",
-   "text": "Arunian. Please unmute your video and audio and ask your question. Hi, Yugal. Hey, good afternoon, guys. Thanks for taking the questions. I guess I want to maybe start with the MA U growth that you guys are seeing and expect to continue into 4Q. A number of levers you guys are pushing here and maybe if you could just kind of quantify or qualify what the biggest drivers are between the new partnerships and the games and the juniors toy hunt and those kind of engagement features that you're driving. Then just a",
-   "parts": [
+    },
     {
      "t0_ms": 290880,
      "text": "Arunian. Please unmute your video and audio and ask your question."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:04:11.250000-05:00",
+   "adj_ret_5m": 0.004029952040942586
+  },
+  {
+   "seg_id": 7,
+   "t0_ms": 297070,
+   "t1_ms": 297550,
+   "speaker": "Analyst",
+   "text": "Hi, Yugal.",
+   "parts": [
     {
      "t0_ms": 297070,
      "text": "Hi, Yugal."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:04:57.070000-05:00",
+   "adj_ret_5m": 0.004029952040942586
+  },
+  {
+   "seg_id": 8,
+   "t0_ms": 298190,
+   "t1_ms": 341630,
+   "speaker": "Management",
+   "text": "Hey, good afternoon, guys. Thanks for taking the questions. I guess I want to maybe start with the MA U growth that you guys are seeing and expect to continue into 4Q. A number of levers you guys are pushing here and maybe if you could just kind of quantify or qualify what the biggest drivers are between the new partnerships and the games and the juniors toy hunt and those kind of engagement features that you're driving. Then just a second part of that question, any difference in terms of monetization or retention or other KPIs that you're seeing from these partnerships and should we expect you to do more of those?",
+   "parts": [
     {
      "t0_ms": 298190,
      "text": "Hey, good afternoon, guys. Thanks for taking the questions. I guess I want to maybe start"
@@ -381,37 +348,26 @@
     {
      "t0_ms": 322750,
      "text": "juniors toy hunt and those kind of engagement features that you're driving. Then just a"
-    }
-   ],
-   "ts": "2026-11-03T17:04:50.880000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 12,
-   "t0_ms": 328750,
-   "t1_ms": 336830,
-   "speaker": "Analyst",
-   "text": "second part of that question, any difference in terms of monetization or retention or other",
-   "parts": [
+    },
     {
      "t0_ms": 328750,
      "text": "second part of that question, any difference in terms of monetization or retention or other"
-    }
-   ],
-   "ts": "2026-11-03T17:05:28.750000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 13,
-   "t0_ms": 336830,
-   "t1_ms": 377390,
-   "speaker": "Management",
-   "text": "KPIs that you're seeing from these partnerships and should we expect you to do more of those? Thanks. Okay, yeah. Thank you for the question. So first of all, the majority of our growth for this year comes from product improvements. We've in the past discussed our notion of the green machine, which is basically an optimization system that we have that just makes the app better over time. Basically every week the app has hundreds of new A-B tests that make it a little better. The vast majority of our improvement in active users comes from improvements in retention because of that, the product's getting better. Now over the last few months we've had a",
-   "parts": [
+    },
     {
      "t0_ms": 336830,
      "text": "KPIs that you're seeing from these partnerships and should we expect you to do more of those?"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:04:58.190000-05:00",
+   "adj_ret_5m": 0.004029952040942586
+  },
+  {
+   "seg_id": 9,
+   "t0_ms": 341630,
+   "t1_ms": 382990,
+   "speaker": "Management",
+   "text": "Thanks. Okay, yeah. Thank you for the question. So first of all, the majority of our growth for this year comes from product improvements. We've in the past discussed our notion of the green machine, which is basically an optimization system that we have that just makes the app better over time. Basically every week the app has hundreds of new A-B tests that make it a little better. The vast majority of our improvement in active users comes from improvements in retention because of that, the product's getting better. Now over the last few months we've had a few events that are also very important and important to call out. One of them was the",
+   "parts": [
     {
      "t0_ms": 341630,
      "text": "Thanks. Okay, yeah. Thank you for the question. So first of all, the majority of our growth for"
@@ -435,22 +391,22 @@
     {
      "t0_ms": 371150,
      "text": "retention because of that, the product's getting better. Now over the last few months we've had a"
-    }
-   ],
-   "ts": "2026-11-03T17:05:36.830000-05:00",
-   "adj_ret_5m": 0.004029952040942586
-  },
-  {
-   "seg_id": 14,
-   "t0_ms": 377390,
-   "t1_ms": 417070,
-   "speaker": "Management",
-   "text": "few events that are also very important and important to call out. One of them was the streak revival last quarter. This quarter we had the partnerships with Brawl Stars and also Eggy Party and they did bring users, but I really want to emphasize that we just believe that the majority of it is from improvements to the app, which is why we think that this is going to continue going forward. In terms of the uses that we get from these partnerships, they retain very well and part of the reason for that is because we did some product work to make it so that the way these partnerships work is that you're a player of Brawl Stars",
-   "parts": [
+    },
     {
      "t0_ms": 377390,
      "text": "few events that are also very important and important to call out. One of them was the"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:05:41.630000-05:00",
+   "adj_ret_5m": 0.004029952040942586
+  },
+  {
+   "seg_id": 10,
+   "t0_ms": 382990,
+   "t1_ms": 427630,
+   "speaker": "Management",
+   "text": "streak revival last quarter. This quarter we had the partnerships with Brawl Stars and also Eggy Party and they did bring users, but I really want to emphasize that we just believe that the majority of it is from improvements to the app, which is why we think that this is going to continue going forward. In terms of the uses that we get from these partnerships, they retain very well and part of the reason for that is because we did some product work to make it so that the way these partnerships work is that you're a player of Brawl Stars or whatever the game that is partnering with us is. You come to Duolingo to get rewards for that game, for Brawl Stars for example, but in order to get the rewards we get you to stay multiple",
+   "parts": [
     {
      "t0_ms": 382990,
      "text": "streak revival last quarter. This quarter we had the partnerships with Brawl Stars and also"
@@ -474,18 +430,7 @@
     {
      "t0_ms": 410830,
      "text": "to make it so that the way these partnerships work is that you're a player of Brawl Stars"
-    }
-   ],
-   "ts": "2026-11-03T17:06:17.390000-05:00",
-   "adj_ret_5m": 0.006935877395185086
-  },
-  {
-   "seg_id": 15,
-   "t0_ms": 417070,
-   "t1_ms": 458110,
-   "speaker": "Management",
-   "text": "or whatever the game that is partnering with us is. You come to Duolingo to get rewards for that game, for Brawl Stars for example, but in order to get the rewards we get you to stay multiple days on Duolingo and what that does is it builds a habit and so we see that these players that are coming in have very good retention. And I think as you think about both DAU and bookings, I think what we've been talking about is how broad-based the growth was in the quarter, both from a geographic perspective in terms of how the product's working. We're feeling really good about the broadness of the growth we're seeing in the business across both DAU and monetization. Yeah, I mean we're basically growing across all regions and we accelerated",
-   "parts": [
+    },
     {
      "t0_ms": 417070,
      "text": "or whatever the game that is partnering with us is. You come to Duolingo to get rewards for"
@@ -493,7 +438,18 @@
     {
      "t0_ms": 422590,
      "text": "that game, for Brawl Stars for example, but in order to get the rewards we get you to stay multiple"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:06:22.990000-05:00",
+   "adj_ret_5m": 0.006935877395185086
+  },
+  {
+   "seg_id": 11,
+   "t0_ms": 427630,
+   "t1_ms": 464220,
+   "speaker": "Management",
+   "text": "days on Duolingo and what that does is it builds a habit and so we see that these players that are coming in have very good retention. And I think as you think about both DAU and bookings, I think what we've been talking about is how broad-based the growth was in the quarter, both from a geographic perspective in terms of how the product's working. We're feeling really good about the broadness of the growth we're seeing in the business across both DAU and monetization. Yeah, I mean we're basically growing across all regions and we accelerated across eight of our top 10 markets in terms of DAU growth so we're very happy with that.",
+   "parts": [
     {
      "t0_ms": 427630,
      "text": "days on Duolingo and what that does is it builds a habit and so we see that these players that"
@@ -517,52 +473,41 @@
     {
      "t0_ms": 453470,
      "text": "monetization. Yeah, I mean we're basically growing across all regions and we accelerated"
-    }
-   ],
-   "ts": "2026-11-03T17:06:57.070000-05:00",
-   "adj_ret_5m": 0.006935877395185086
-  },
-  {
-   "seg_id": 16,
-   "t0_ms": 458110,
-   "t1_ms": 464220,
-   "speaker": "Management",
-   "text": "across eight of our top 10 markets in terms of DAU growth so we're very happy with that.",
-   "parts": [
+    },
     {
      "t0_ms": 458110,
      "text": "across eight of our top 10 markets in terms of DAU growth so we're very happy with that."
     }
    ],
-   "ts": "2026-11-03T17:07:38.110000-05:00",
+   "ts": "2026-11-03T17:07:07.630000-05:00",
    "adj_ret_5m": 0.006284916201117374
   },
   {
-   "seg_id": 17,
+   "seg_id": 12,
    "t0_ms": 464220,
-   "t1_ms": 468380,
+   "t1_ms": 472940,
    "speaker": "Operator",
-   "text": "Thanks so much for taking my question. Thank you. Your next question comes from",
+   "text": "Thanks so much for taking my question. Thank you. Your next question comes from the line of Wyatt Swanson with D. Davidson & Co. Please unmute your audio and video and ask",
    "parts": [
     {
      "t0_ms": 464220,
      "text": "Thanks so much for taking my question. Thank you. Your next question comes from"
+    },
+    {
+     "t0_ms": 468380,
+     "text": "the line of Wyatt Swanson with D. Davidson & Co. Please unmute your audio and video and ask"
     }
    ],
    "ts": "2026-11-03T17:07:44.220000-05:00",
    "adj_ret_5m": 0.006284916201117374
   },
   {
-   "seg_id": 18,
-   "t0_ms": 468380,
+   "seg_id": 13,
+   "t0_ms": 472940,
    "t1_ms": 499260,
    "speaker": "Analyst",
-   "text": "the line of Wyatt Swanson with D. Davidson & Co. Please unmute your audio and video and ask your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on that and whether you expect those trends to change at all?",
+   "text": "your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on that and whether you expect those trends to change at all?",
    "parts": [
-    {
-     "t0_ms": 468380,
-     "text": "the line of Wyatt Swanson with D. Davidson & Co. Please unmute your audio and video and ask"
-    },
     {
      "t0_ms": 472940,
      "text": "your questions. Thanks guys. Could you guys give some color on the paid subscriber additions"
@@ -580,11 +525,11 @@
      "text": "you give any additional color on that and whether you expect those trends to change at all?"
     }
    ],
-   "ts": "2026-11-03T17:07:48.380000-05:00",
+   "ts": "2026-11-03T17:07:52.940000-05:00",
    "adj_ret_5m": 0.006284916201117374
   },
   {
-   "seg_id": 19,
+   "seg_id": 14,
    "t0_ms": 499820,
    "t1_ms": 542940,
    "speaker": "Management",
@@ -627,7 +572,7 @@
    "adj_ret_5m": 0.006284916201117374
   },
   {
-   "seg_id": 20,
+   "seg_id": 15,
    "t0_ms": 542940,
    "t1_ms": 586860,
    "speaker": "Management",
@@ -670,11 +615,11 @@
    "adj_ret_5m": -0.004163775156141525
   },
   {
-   "seg_id": 21,
+   "seg_id": 16,
    "t0_ms": 586860,
-   "t1_ms": 611580,
+   "t1_ms": 620380,
    "speaker": "Management",
-   "text": "like we talked about that does really well with IAPs. And there's just a number of other things that we're going to be doing and we're slowly starting to monetize more that way. Another thing that we're really excited about is you know chess is completely under-monetized. We're going to be monetizing it. Chess you know we're very proud we just hit 10 million daily active users in chess. So it's now a relatively significant amount of our users are doing chess",
+   "text": "like we talked about that does really well with IAPs. And there's just a number of other things that we're going to be doing and we're slowly starting to monetize more that way. Another thing that we're really excited about is you know chess is completely under-monetized. We're going to be monetizing it. Chess you know we're very proud we just hit 10 million daily active users in chess. So it's now a relatively significant amount of our users are doing chess and we think there's a lot of low-hanging fruit there. Got it. Thanks, Cas. Your next question",
    "parts": [
     {
      "t0_ms": 586860,
@@ -695,37 +640,37 @@
     {
      "t0_ms": 605580,
      "text": "active users in chess. So it's now a relatively significant amount of our users are doing chess"
+    },
+    {
+     "t0_ms": 612460,
+     "text": "and we think there's a lot of low-hanging fruit there. Got it. Thanks, Cas. Your next question"
     }
    ],
    "ts": "2026-11-03T17:09:46.860000-05:00",
    "adj_ret_5m": -0.004163775156141525
   },
   {
-   "seg_id": 22,
-   "t0_ms": 612460,
-   "t1_ms": 620380,
-   "speaker": "Operator",
-   "text": "and we think there's a lot of low-hanging fruit there. Got it. Thanks, Cas. Your next question",
-   "parts": [
-    {
-     "t0_ms": 612460,
-     "text": "and we think there's a lot of low-hanging fruit there. Got it. Thanks, Cas. Your next question"
-    }
-   ],
-   "ts": "2026-11-03T17:10:12.460000-05:00",
-   "adj_ret_5m": -0.004163775156141525
-  },
-  {
-   "seg_id": 23,
+   "seg_id": 17,
    "t0_ms": 620380,
-   "t1_ms": 662780,
-   "speaker": "Analyst",
-   "text": "comes from the line of Ryan McDonald with Needham and Company. Please unmute your audio and video and ask your question. Hi Ryan. Hi how's it going? Thanks for taking my questions. You know Luis just wondering if you could kind of provide a little more color on sort of in the early days of the testing of moving video called the Super Duolingo. What you're seeing in terms of user engagement there or even conversion and then how that sort of informed your view about the decision to sunset Duolingo Max here? Yeah it's a great question. I mean you know when we first started Duolingo Max, a higher subscription tier, what we did we had to start it because we had some AI features that were just very expensive to serve. I mean the cost of these AI",
+   "t1_ms": 625180,
+   "speaker": "Operator",
+   "text": "comes from the line of Ryan McDonald with Needham and Company. Please unmute your audio and video",
    "parts": [
     {
      "t0_ms": 620380,
      "text": "comes from the line of Ryan McDonald with Needham and Company. Please unmute your audio and video"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:10:20.380000-05:00",
+   "adj_ret_5m": -0.004163775156141525
+  },
+  {
+   "seg_id": 18,
+   "t0_ms": 625180,
+   "t1_ms": 647420,
+   "speaker": "Analyst",
+   "text": "and ask your question. Hi Ryan. Hi how's it going? Thanks for taking my questions. You know Luis just wondering if you could kind of provide a little more color on sort of in the early days of the testing of moving video called the Super Duolingo. What you're seeing in terms of user engagement there or even conversion and then how that sort of informed your view about",
+   "parts": [
     {
      "t0_ms": 625180,
      "text": "and ask your question. Hi Ryan. Hi how's it going? Thanks for taking my questions."
@@ -741,7 +686,18 @@
     {
      "t0_ms": 640780,
      "text": "user engagement there or even conversion and then how that sort of informed your view about"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:10:25.180000-05:00",
+   "adj_ret_5m": -0.004163775156141525
+  },
+  {
+   "seg_id": 19,
+   "t0_ms": 647420,
+   "t1_ms": 691900,
+   "speaker": "Management",
+   "text": "the decision to sunset Duolingo Max here? Yeah it's a great question. I mean you know when we first started Duolingo Max, a higher subscription tier, what we did we had to start it because we had some AI features that were just very expensive to serve. I mean the cost of these AI features was high. We did say back then that if we managed to bring the cost down we may put these features in other tiers. What happened was that the you know the premium feature of Duolingo Max which was video call when we first launched it, it was costing about 30 cents per call just generally on AI inference. We've managed to reduce that cost to well under one cent per call and that's mainly by moving to open source models or open weight models.",
+   "parts": [
     {
      "t0_ms": 647420,
      "text": "the decision to sunset Duolingo Max here? Yeah it's a great question. I mean you know when we"
@@ -753,18 +709,7 @@
     {
      "t0_ms": 659020,
      "text": "we had some AI features that were just very expensive to serve. I mean the cost of these AI"
-    }
-   ],
-   "ts": "2026-11-03T17:10:20.380000-05:00",
-   "adj_ret_5m": -0.004163775156141525
-  },
-  {
-   "seg_id": 24,
-   "t0_ms": 662780,
-   "t1_ms": 703500,
-   "speaker": "Management",
-   "text": "features was high. We did say back then that if we managed to bring the cost down we may put these features in other tiers. What happened was that the you know the premium feature of Duolingo Max which was video call when we first launched it, it was costing about 30 cents per call just generally on AI inference. We've managed to reduce that cost to well under one cent per call and that's mainly by moving to open source models or open weight models. So we feel really good about that and that allowed us to put video call in Super and that was actually a really good thing. When we A-B tested that it's good for",
-   "parts": [
+    },
     {
      "t0_ms": 662780,
      "text": "features was high. We did say back then that if we managed to bring the cost down we may put"
@@ -784,7 +729,18 @@
     {
      "t0_ms": 688140,
      "text": "call and that's mainly by moving to open source models or open weight models."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:10:47.420000-05:00",
+   "adj_ret_5m": -0.004163775156141525
+  },
+  {
+   "seg_id": 20,
+   "t0_ms": 693260,
+   "t1_ms": 736780,
+   "speaker": "Management",
+   "text": "So we feel really good about that and that allowed us to put video call in Super and that was actually a really good thing. When we A-B tested that it's good for revenue but also it allows us to give video call to about 10 times as many users because we just have many more Super subscribers than we have Max subscribers and that's good because that means 10 times as many people are learning better, they'll tell their friends etc etc. So we just view this as very positive and because of that and when we tested just we actually just tested a Sunsetting Max it was very clear that the right decision was to Sunset Max so we've started doing that. We don't think you know in the short term we don't think this is going",
+   "parts": [
     {
      "t0_ms": 693260,
      "text": "So we feel really good about that and that allowed us to put video call in"
@@ -792,18 +748,7 @@
     {
      "t0_ms": 697580,
      "text": "Super and that was actually a really good thing. When we A-B tested that it's good for"
-    }
-   ],
-   "ts": "2026-11-03T17:11:02.780000-05:00",
-   "adj_ret_5m": -0.003122831367106116
-  },
-  {
-   "seg_id": 25,
-   "t0_ms": 704060,
-   "t1_ms": 747180,
-   "speaker": "Management",
-   "text": "revenue but also it allows us to give video call to about 10 times as many users because we just have many more Super subscribers than we have Max subscribers and that's good because that means 10 times as many people are learning better, they'll tell their friends etc etc. So we just view this as very positive and because of that and when we tested just we actually just tested a Sunsetting Max it was very clear that the right decision was to Sunset Max so we've started doing that. We don't think you know in the short term we don't think this is going to have a major bookings impact. It's slightly positive it's not a major bookings impact but in the long term we think this is really going to help us because more and more people are going to get Super. I mean this is one of the main reasons why people are going to get",
-   "parts": [
+    },
     {
      "t0_ms": 704060,
      "text": "revenue but also it allows us to give video call to about 10 times as many users because"
@@ -827,7 +772,18 @@
     {
      "t0_ms": 731900,
      "text": "started doing that. We don't think you know in the short term we don't think this is going"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:11:33.260000-05:00",
+   "adj_ret_5m": -0.003122831367106116
+  },
+  {
+   "seg_id": 21,
+   "t0_ms": 736780,
+   "t1_ms": 772140,
+   "speaker": "Management",
+   "text": "to have a major bookings impact. It's slightly positive it's not a major bookings impact but in the long term we think this is really going to help us because more and more people are going to get Super. I mean this is one of the main reasons why people are going to get Super so we feel pretty good about that. Yeah and I think what's interesting about the process we've taken here is that we've worked down the exposure to Max fairly significantly so the vast majority of our bookings now is not Max it's single digits and both in terms of the number of paid subscribers and the bookings there so it's become a very small thing that we're going to we're going to manage and we've obviously shown this year that we can manage these things",
+   "parts": [
     {
      "t0_ms": 736780,
      "text": "to have a major bookings impact. It's slightly positive it's not a major bookings impact but"
@@ -839,18 +795,7 @@
     {
      "t0_ms": 744620,
      "text": "going to get Super. I mean this is one of the main reasons why people are going to get"
-    }
-   ],
-   "ts": "2026-11-03T17:11:44.060000-05:00",
-   "adj_ret_5m": -0.003122831367106116
-  },
-  {
-   "seg_id": 26,
-   "t0_ms": 747180,
-   "t1_ms": 788860,
-   "speaker": "Management",
-   "text": "Super so we feel pretty good about that. Yeah and I think what's interesting about the process we've taken here is that we've worked down the exposure to Max fairly significantly so the vast majority of our bookings now is not Max it's single digits and both in terms of the number of paid subscribers and the bookings there so it's become a very small thing that we're going to we're going to manage and we've obviously shown this year that we can manage these things quite well. And Julie maybe just assumptions for sort of like churn as you're going through the process and is this something that you're going to push out sort of all at once to existing Max subscribers or you just kind of do it gradually upon renewal? Thanks. So we have",
-   "parts": [
+    },
     {
      "t0_ms": 747180,
      "text": "Super so we feel pretty good about that. Yeah and I think what's interesting about the process"
@@ -870,7 +815,18 @@
     {
      "t0_ms": 768700,
      "text": "to we're going to manage and we've obviously shown this year that we can manage these things"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:12:16.780000-05:00",
+   "adj_ret_5m": -0.003122831367106116
+  },
+  {
+   "seg_id": 22,
+   "t0_ms": 772140,
+   "t1_ms": 788860,
+   "speaker": "Analyst",
+   "text": "quite well. And Julie maybe just assumptions for sort of like churn as you're going through the process and is this something that you're going to push out sort of all at once to existing Max subscribers or you just kind of do it gradually upon renewal? Thanks. So we have",
+   "parts": [
     {
      "t0_ms": 772140,
      "text": "quite well. And Julie maybe just assumptions for sort of like churn as you're going through"
@@ -884,11 +840,11 @@
      "text": "Max subscribers or you just kind of do it gradually upon renewal? Thanks. So we have"
     }
    ],
-   "ts": "2026-11-03T17:12:27.180000-05:00",
+   "ts": "2026-11-03T17:12:52.140000-05:00",
    "adj_ret_5m": -0.003122831367106116
   },
   {
-   "seg_id": 27,
+   "seg_id": 23,
    "t0_ms": 788860,
    "t1_ms": 832380,
    "speaker": "Management",
@@ -931,10 +887,10 @@
    "adj_ret_5m": -0.004437196391394838
   },
   {
-   "seg_id": 28,
+   "seg_id": 24,
    "t0_ms": 832380,
    "t1_ms": 837100,
-   "speaker": "Operator",
+   "speaker": "Management",
    "text": "ability to manage it. Awesome thank you. Your next question comes from the line of",
    "parts": [
     {
@@ -946,16 +902,27 @@
    "adj_ret_5m": -0.004437196391394838
   },
   {
-   "seg_id": 29,
+   "seg_id": 25,
    "t0_ms": 837100,
-   "t1_ms": 876540,
-   "speaker": "Analyst",
-   "text": "Shweta Kajuria with Wolf. Please unmute your audio and video and ask your question. Hi Shweta. Good to see you both. Thanks for taking my questions. Can I please try two? One is a follow-up on bookings growth. So how do you think about this lag between DAU growth and bookings growth as we think about bookings growth catching up? How should we be thinking about it as we think of 27? And then the second one is on growth margins. Is 72% the guidance that you provided, Jillian, a good run rate now that you know video call transition will happen when we think about costs coming down but at the same time usage for video going",
+   "t1_ms": 841420,
+   "speaker": "Operator",
+   "text": "Shweta Kajuria with Wolf. Please unmute your audio and video and ask your question. Hi",
    "parts": [
     {
      "t0_ms": 837100,
      "text": "Shweta Kajuria with Wolf. Please unmute your audio and video and ask your question. Hi"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:13:57.100000-05:00",
+   "adj_ret_5m": -0.004437196391394838
+  },
+  {
+   "seg_id": 26,
+   "t0_ms": 841420,
+   "t1_ms": 883580,
+   "speaker": "Analyst",
+   "text": "Shweta. Good to see you both. Thanks for taking my questions. Can I please try two? One is a follow-up on bookings growth. So how do you think about this lag between DAU growth and bookings growth as we think about bookings growth catching up? How should we be thinking about it as we think of 27? And then the second one is on growth margins. Is 72% the guidance that you provided, Jillian, a good run rate now that you know video call transition will happen when we think about costs coming down but at the same time usage for video going up? Is it a good run rate sort of a margin to think of? Thank you. Yeah for I'll let",
+   "parts": [
     {
      "t0_ms": 841420,
      "text": "Shweta. Good to see you both. Thanks for taking my questions. Can I please try two? One is a"
@@ -979,28 +946,17 @@
     {
      "t0_ms": 870380,
      "text": "will happen when we think about costs coming down but at the same time usage for video going"
-    }
-   ],
-   "ts": "2026-11-03T17:13:57.100000-05:00",
-   "adj_ret_5m": -0.004437196391394838
-  },
-  {
-   "seg_id": 30,
-   "t0_ms": 876540,
-   "t1_ms": 883580,
-   "speaker": "Analyst",
-   "text": "up? Is it a good run rate sort of a margin to think of? Thank you. Yeah for I'll let",
-   "parts": [
+    },
     {
      "t0_ms": 876540,
      "text": "up? Is it a good run rate sort of a margin to think of? Thank you. Yeah for I'll let"
     }
    ],
-   "ts": "2026-11-03T17:14:36.540000-05:00",
+   "ts": "2026-11-03T17:14:01.420000-05:00",
    "adj_ret_5m": -0.0002745644599303487
   },
   {
-   "seg_id": 31,
+   "seg_id": 27,
    "t0_ms": 883660,
    "t1_ms": 927340,
    "speaker": "Management",
@@ -1043,7 +999,7 @@
    "adj_ret_5m": -0.0002745644599303487
   },
   {
-   "seg_id": 32,
+   "seg_id": 28,
    "t0_ms": 927340,
    "t1_ms": 968940,
    "speaker": "Management",
@@ -1086,10 +1042,10 @@
    "adj_ret_5m": -0.0013937282229964376
   },
   {
-   "seg_id": 33,
+   "seg_id": 29,
    "t0_ms": 968940,
    "t1_ms": 974940,
-   "speaker": "Operator",
+   "speaker": "Management",
    "text": "us do that this year. Okay thank you both. Your next question comes from a line of Brian Smielik",
    "parts": [
     {
@@ -1101,16 +1057,27 @@
    "adj_ret_5m": -0.002436477549599636
   },
   {
-   "seg_id": 34,
+   "seg_id": 30,
    "t0_ms": 974940,
-   "t1_ms": 1015020,
-   "speaker": "Analyst",
-   "text": "with JP Morgan. Please unmute your audio and video and ask your questions. Hi Brian. Hey thanks for taking the questions. Just two quick ones from my end. Last quarter we talked about current improvements at all-time highs and new cohorts are retaining better. Just curious any updates you have there especially as the velocity of DAU growth starts to accelerate what have you know the overall curve trends look like on a cohort basis and then Jillian just briefly on paid marketing as well I believe up nicely year on year as you gain greater efficacy. Can you just talk about some of the LTV to cat curves that you're seeing and where you're deploying marketing spend by channel? Thank you. Yeah I can talk a little about curve. I mean we",
+   "t1_ms": 979820,
+   "speaker": "Operator",
+   "text": "with JP Morgan. Please unmute your audio and video and ask your questions. Hi Brian. Hey",
    "parts": [
     {
      "t0_ms": 974940,
      "text": "with JP Morgan. Please unmute your audio and video and ask your questions. Hi Brian. Hey"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:16:14.940000-05:00",
+   "adj_ret_5m": -0.002436477549599636
+  },
+  {
+   "seg_id": 31,
+   "t0_ms": 979820,
+   "t1_ms": 1015020,
+   "speaker": "Analyst",
+   "text": "thanks for taking the questions. Just two quick ones from my end. Last quarter we talked about current improvements at all-time highs and new cohorts are retaining better. Just curious any updates you have there especially as the velocity of DAU growth starts to accelerate what have you know the overall curve trends look like on a cohort basis and then Jillian just briefly on paid marketing as well I believe up nicely year on year as you gain greater efficacy. Can you just talk about some of the LTV to cat curves that you're seeing and where you're deploying marketing spend by channel? Thank you. Yeah I can talk a little about curve. I mean we",
+   "parts": [
     {
      "t0_ms": 979820,
      "text": "thanks for taking the questions. Just two quick ones from my end. Last quarter we talked about"
@@ -1140,11 +1107,11 @@
      "text": "deploying marketing spend by channel? Thank you. Yeah I can talk a little about curve. I mean we"
     }
    ],
-   "ts": "2026-11-03T17:16:14.940000-05:00",
+   "ts": "2026-11-03T17:16:19.820000-05:00",
    "adj_ret_5m": -0.002436477549599636
   },
   {
-   "seg_id": 35,
+   "seg_id": 32,
    "t0_ms": 1015020,
    "t1_ms": 1055820,
    "speaker": "Management",
@@ -1183,7 +1150,7 @@
    "adj_ret_5m": -0.002436477549599636
   },
   {
-   "seg_id": 36,
+   "seg_id": 33,
    "t0_ms": 1055820,
    "t1_ms": 1098700,
    "speaker": "Management",
@@ -1226,11 +1193,11 @@
    "adj_ret_5m": -0.002436477549599636
   },
   {
-   "seg_id": 37,
+   "seg_id": 34,
    "t0_ms": 1098780,
-   "t1_ms": 1111260,
+   "t1_ms": 1119100,
    "speaker": "Management",
-   "text": "in 2026 and will be probably again in 27. Yeah I should say for you know internally this is one of the biggest wins we've had this year that we became actually intelligent about",
+   "text": "in 2026 and will be probably again in 27. Yeah I should say for you know internally this is one of the biggest wins we've had this year that we became actually intelligent about performance marketing and I'm very happy about that. Awesome thank you. Your next question comes",
    "parts": [
     {
      "t0_ms": 1098780,
@@ -1239,37 +1206,37 @@
     {
      "t0_ms": 1105740,
      "text": "one of the biggest wins we've had this year that we became actually intelligent about"
+    },
+    {
+     "t0_ms": 1111260,
+     "text": "performance marketing and I'm very happy about that. Awesome thank you. Your next question comes"
     }
    ],
    "ts": "2026-11-03T17:18:18.780000-05:00",
    "adj_ret_5m": -0.002443876576565196
   },
   {
-   "seg_id": 38,
-   "t0_ms": 1111260,
-   "t1_ms": 1119100,
-   "speaker": "Operator",
-   "text": "performance marketing and I'm very happy about that. Awesome thank you. Your next question comes",
-   "parts": [
-    {
-     "t0_ms": 1111260,
-     "text": "performance marketing and I'm very happy about that. Awesome thank you. Your next question comes"
-    }
-   ],
-   "ts": "2026-11-03T17:18:31.260000-05:00",
-   "adj_ret_5m": -0.002443876576565196
-  },
-  {
-   "seg_id": 39,
+   "seg_id": 35,
    "t0_ms": 1119100,
-   "t1_ms": 1145820,
-   "speaker": "Analyst",
-   "text": "from Mark Mahaney with Evercore please unmute your audio and video and ask your question. Mark hello. Okay thank you. Let's try two questions. I know this video call functionality as you're rolling it out across more of the Super Duolingo users subscriber base. What have you seen so far in terms of the boost that's had to engagement and retention or satisfaction?",
+   "t1_ms": 1122940,
+   "speaker": "Operator",
+   "text": "from Mark Mahaney with Evercore please unmute your audio and video and ask your question.",
    "parts": [
     {
      "t0_ms": 1119100,
      "text": "from Mark Mahaney with Evercore please unmute your audio and video and ask your question."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:18:39.100000-05:00",
+   "adj_ret_5m": -0.002443876576565196
+  },
+  {
+   "seg_id": 36,
+   "t0_ms": 1123900,
+   "t1_ms": 1164860,
+   "speaker": "Analyst",
+   "text": "Mark hello. Okay thank you. Let's try two questions. I know this video call functionality as you're rolling it out across more of the Super Duolingo users subscriber base. What have you seen so far in terms of the boost that's had to engagement and retention or satisfaction? I would assume that it's had a material impact it's one of the reasons why as the costs come down you're spreading it out but what have you actually seen in the data so far is too early to tell and then secondly I know you talked about chess earlier so how about my second favorite topic which is math and how many users and I didn't see anything in here but maybe it's",
+   "parts": [
     {
      "t0_ms": 1123900,
      "text": "Mark hello. Okay thank you. Let's try two questions. I know this video call functionality"
@@ -1281,18 +1248,7 @@
     {
      "t0_ms": 1138380,
      "text": "you seen so far in terms of the boost that's had to engagement and retention or satisfaction?"
-    }
-   ],
-   "ts": "2026-11-03T17:18:39.100000-05:00",
-   "adj_ret_5m": -0.002443876576565196
-  },
-  {
-   "seg_id": 40,
-   "t0_ms": 1148060,
-   "t1_ms": 1189740,
-   "speaker": "Management",
-   "text": "I would assume that it's had a material impact it's one of the reasons why as the costs come down you're spreading it out but what have you actually seen in the data so far is too early to tell and then secondly I know you talked about chess earlier so how about my second favorite topic which is math and how many users and I didn't see anything in here but maybe it's in your press release but the adoption you're seeing there is there an opportunity there to also do a separate or a combined price action? Thank you very much. Yeah thank you for both questions. So video call I mean look we feel really good about video call it is a feature that actually teaches you conversation and we see adoption of it you know continue to grow. The",
-   "parts": [
+    },
     {
      "t0_ms": 1148060,
      "text": "I would assume that it's had a material impact it's one of the reasons why as the costs"
@@ -1308,7 +1264,18 @@
     {
      "t0_ms": 1160220,
      "text": "favorite topic which is math and how many users and I didn't see anything in here but maybe it's"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:18:43.900000-05:00",
+   "adj_ret_5m": -0.002443876576565196
+  },
+  {
+   "seg_id": 37,
+   "t0_ms": 1164860,
+   "t1_ms": 1177900,
+   "speaker": "Analyst",
+   "text": "in your press release but the adoption you're seeing there is there an opportunity there to also do a separate or a combined price action? Thank you very much. Yeah thank you for both",
+   "parts": [
     {
      "t0_ms": 1164860,
      "text": "in your press release but the adoption you're seeing there is there an opportunity there to"
@@ -1316,7 +1283,18 @@
     {
      "t0_ms": 1172140,
      "text": "also do a separate or a combined price action? Thank you very much. Yeah thank you for both"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:19:24.860000-05:00",
+   "adj_ret_5m": -0.002443876576565196
+  },
+  {
+   "seg_id": 38,
+   "t0_ms": 1177900,
+   "t1_ms": 1218700,
+   "speaker": "Management",
+   "text": "questions. So video call I mean look we feel really good about video call it is a feature that actually teaches you conversation and we see adoption of it you know continue to grow. The team just keeps making it better and better and we see and you know one of the ways we measure it is just number of words spoken per active user not not proactive user video call but proactive user of Duolingo and that number just keeps going up. It's kind of I think it's roughly doubled over the last year or so. So we feel pretty good about that and the other thing is we know that when people try video call during the free trial they you know for certain",
+   "parts": [
     {
      "t0_ms": 1177900,
      "text": "questions. So video call I mean look we feel really good about video call it is a feature"
@@ -1324,18 +1302,7 @@
     {
      "t0_ms": 1181900,
      "text": "that actually teaches you conversation and we see adoption of it you know continue to grow. The"
-    }
-   ],
-   "ts": "2026-11-03T17:19:08.060000-05:00",
-   "adj_ret_5m": -0.002443876576565196
-  },
-  {
-   "seg_id": 41,
-   "t0_ms": 1189740,
-   "t1_ms": 1233500,
-   "speaker": "Management",
-   "text": "team just keeps making it better and better and we see and you know one of the ways we measure it is just number of words spoken per active user not not proactive user video call but proactive user of Duolingo and that number just keeps going up. It's kind of I think it's roughly doubled over the last year or so. So we feel pretty good about that and the other thing is we know that when people try video call during the free trial they you know for certain types of video calls that we tailor to the user the user's difficulty then they are more likely to subscribe to actually pay for the subscription so we feel we feel really good about this is a feature that just keeps getting better. In terms of math look this is also my",
-   "parts": [
+    },
     {
      "t0_ms": 1189740,
      "text": "team just keeps making it better and better and we see and you know one of the ways we measure"
@@ -1355,7 +1322,18 @@
     {
      "t0_ms": 1211500,
      "text": "is we know that when people try video call during the free trial they you know for certain"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:19:37.900000-05:00",
+   "adj_ret_5m": -0.002443876576565196
+  },
+  {
+   "seg_id": 39,
+   "t0_ms": 1218700,
+   "t1_ms": 1261100,
+   "speaker": "Management",
+   "text": "types of video calls that we tailor to the user the user's difficulty then they are more likely to subscribe to actually pay for the subscription so we feel we feel really good about this is a feature that just keeps getting better. In terms of math look this is also my favorite topic. I love math. I love our math product. It keeps getting better and better. It's also a huge opportunity. There's about a billion people in the world learning math so I really think it's a huge opportunity. It is growing about at the same rate as languages so I'm happy that it is growing but I would hope that it can start growing at the rate that chess is growing which is growing faster. So we're going to continue making it a better",
+   "parts": [
     {
      "t0_ms": 1218700,
      "text": "types of video calls that we tailor to the user the user's difficulty then they are more"
@@ -1367,18 +1345,7 @@
     {
      "t0_ms": 1229100,
      "text": "this is a feature that just keeps getting better. In terms of math look this is also my"
-    }
-   ],
-   "ts": "2026-11-03T17:19:49.740000-05:00",
-   "adj_ret_5m": -0.002443876576565196
-  },
-  {
-   "seg_id": 42,
-   "t0_ms": 1233500,
-   "t1_ms": 1274880,
-   "speaker": "Management",
-   "text": "favorite topic. I love math. I love our math product. It keeps getting better and better. It's also a huge opportunity. There's about a billion people in the world learning math so I really think it's a huge opportunity. It is growing about at the same rate as languages so I'm happy that it is growing but I would hope that it can start growing at the rate that chess is growing which is growing faster. So we're going to continue making it a better teaching tool. One of the things that we have found by the way is this is not that big of a thing to learn but people prefer to play the game of chess than to learn math. They're both",
-   "parts": [
+    },
     {
      "t0_ms": 1233500,
      "text": "favorite topic. I love math. I love our math product. It keeps getting better and better."
@@ -1398,7 +1365,18 @@
     {
      "t0_ms": 1255260,
      "text": "chess is growing which is growing faster. So we're going to continue making it a better"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:20:18.700000-05:00",
+   "adj_ret_5m": -0.0038381018841592285
+  },
+  {
+   "seg_id": 40,
+   "t0_ms": 1261100,
+   "t1_ms": 1274880,
+   "speaker": "Management",
+   "text": "teaching tool. One of the things that we have found by the way is this is not that big of a thing to learn but people prefer to play the game of chess than to learn math. They're both",
+   "parts": [
     {
      "t0_ms": 1261100,
      "text": "teaching tool. One of the things that we have found by the way is this is not that big of a"
@@ -1408,14 +1386,14 @@
      "text": "thing to learn but people prefer to play the game of chess than to learn math. They're both"
     }
    ],
-   "ts": "2026-11-03T17:20:33.500000-05:00",
-   "adj_ret_5m": -0.0038381018841592285
+   "ts": "2026-11-03T17:21:01.100000-05:00",
+   "adj_ret_5m": -0.005582693649685999
   },
   {
-   "seg_id": 43,
+   "seg_id": 41,
    "t0_ms": 1274880,
    "t1_ms": 1282480,
-   "speaker": "Operator",
+   "speaker": "Analyst",
    "text": "good. I think they're both good but hey. Thank you very much. Yeah. Thanks Mar. Your next question",
    "parts": [
     {
@@ -1427,11 +1405,11 @@
    "adj_ret_5m": -0.005582693649685999
   },
   {
-   "seg_id": 44,
+   "seg_id": 42,
    "t0_ms": 1282480,
-   "t1_ms": 1308460,
-   "speaker": "Analyst",
-   "text": "is going to be audio only from the line of Omar Dasuki with Bank of America. Please unmute your audio and ask your question. Hi Omar. Hi there. Thanks for taking my question. I wanted to elaborate a little bit on the gaming partnerships. You highlighted Brawl Stars and Egy Pardee which you said brought in millions of new users. So how scalable is this approach?",
+   "t1_ms": 1294620,
+   "speaker": "Operator",
+   "text": "is going to be audio only from the line of Omar Dasuki with Bank of America. Please unmute your audio and ask your question. Hi Omar. Hi there. Thanks for taking my question.",
    "parts": [
     {
      "t0_ms": 1282480,
@@ -1440,7 +1418,18 @@
     {
      "t0_ms": 1286560,
      "text": "unmute your audio and ask your question. Hi Omar. Hi there. Thanks for taking my question."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:21:22.480000-05:00",
+   "adj_ret_5m": -0.005582693649685999
+  },
+  {
+   "seg_id": 43,
+   "t0_ms": 1295340,
+   "t1_ms": 1325900,
+   "speaker": "Analyst",
+   "text": "I wanted to elaborate a little bit on the gaming partnerships. You highlighted Brawl Stars and Egy Pardee which you said brought in millions of new users. So how scalable is this approach? Have you approached a meaningful percentage of like the top 100 mobile games developers out there and what is the economic incentive for a game publisher to collaborate with you? Particularly that you're kind of competing for the same consumer attention.",
+   "parts": [
     {
      "t0_ms": 1295340,
      "text": "I wanted to elaborate a little bit on the gaming partnerships. You highlighted Brawl Stars and"
@@ -1448,18 +1437,7 @@
     {
      "t0_ms": 1300700,
      "text": "Egy Pardee which you said brought in millions of new users. So how scalable is this approach?"
-    }
-   ],
-   "ts": "2026-11-03T17:21:22.480000-05:00",
-   "adj_ret_5m": -0.005582693649685999
-  },
-  {
-   "seg_id": 45,
-   "t0_ms": 1309500,
-   "t1_ms": 1352540,
-   "speaker": "Management",
-   "text": "Have you approached a meaningful percentage of like the top 100 mobile games developers out there and what is the economic incentive for a game publisher to collaborate with you? Particularly that you're kind of competing for the same consumer attention. Then I have a follow up along the same lines. Yeah. So we're very happy with these partnerships. I mean generally for a lot of partnerships people come to us as opposed to us having to go to them. I mean just historically people really want to partner with us. So we're very happy. We think we're going to continue doing some of these. Now it's not the case that there are hundreds of such partners that we're going to do. So we're seeing more.",
-   "parts": [
+    },
     {
      "t0_ms": 1309500,
      "text": "Have you approached a meaningful percentage of like the top 100 mobile games"
@@ -1471,7 +1449,18 @@
     {
      "t0_ms": 1320060,
      "text": "with you? Particularly that you're kind of competing for the same consumer attention."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:21:35.340000-05:00",
+   "adj_ret_5m": -0.005582693649685999
+  },
+  {
+   "seg_id": 44,
+   "t0_ms": 1326700,
+   "t1_ms": 1366780,
+   "speaker": "Management",
+   "text": "Then I have a follow up along the same lines. Yeah. So we're very happy with these partnerships. I mean generally for a lot of partnerships people come to us as opposed to us having to go to them. I mean just historically people really want to partner with us. So we're very happy. We think we're going to continue doing some of these. Now it's not the case that there are hundreds of such partners that we're going to do. So we're seeing more. This is probably going to happen a couple of times a year. And they do bring users and we're very happy with that. But most of our events if you look at what the plan for next year most of our events are first party events. These are our own things that we're",
+   "parts": [
     {
      "t0_ms": 1326700,
      "text": "Then I have a follow up along the same lines. Yeah. So we're very happy with these partnerships."
@@ -1491,18 +1480,7 @@
     {
      "t0_ms": 1346700,
      "text": "the case that there are hundreds of such partners that we're going to do. So we're seeing more."
-    }
-   ],
-   "ts": "2026-11-03T17:21:49.500000-05:00",
-   "adj_ret_5m": -0.005582693649685999
-  },
-  {
-   "seg_id": 46,
-   "t0_ms": 1352540,
-   "t1_ms": 1392300,
-   "speaker": "Management",
-   "text": "This is probably going to happen a couple of times a year. And they do bring users and we're very happy with that. But most of our events if you look at what the plan for next year most of our events are first party events. These are our own things that we're going to do. Things like avatar suits and stuff like that. In terms of what is the incentive for the game publishers. There's no monetary there's no money being exchanged in these partnerships. We didn't pay them and they didn't pay us to do that. What we're finding with them with these partnerships is that it's a win-win for both. They get a bunch of users and we get a bunch of users. So it doesn't seem like we're competing for that. And generally the incentive",
-   "parts": [
+    },
     {
      "t0_ms": 1352540,
      "text": "This is probably going to happen a couple of times a year. And they do bring users"
@@ -1514,7 +1492,18 @@
     {
      "t0_ms": 1363100,
      "text": "next year most of our events are first party events. These are our own things that we're"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:22:06.700000-05:00",
+   "adj_ret_5m": -0.005582693649685999
+  },
+  {
+   "seg_id": 45,
+   "t0_ms": 1367660,
+   "t1_ms": 1409900,
+   "speaker": "Management",
+   "text": "going to do. Things like avatar suits and stuff like that. In terms of what is the incentive for the game publishers. There's no monetary there's no money being exchanged in these partnerships. We didn't pay them and they didn't pay us to do that. What we're finding with them with these partnerships is that it's a win-win for both. They get a bunch of users and we get a bunch of users. So it doesn't seem like we're competing for that. And generally the incentive is just cross promotion. And for certain games certainly the case for Supercell and Brawl Stars they do a lot of things to keep their game fresh. And one of the things that they did when they did the partnership with us is for about a period of a few weeks the entire game was just",
+   "parts": [
     {
      "t0_ms": 1367660,
      "text": "going to do. Things like avatar suits and stuff like that. In terms of what is the incentive for"
@@ -1534,18 +1523,7 @@
     {
      "t0_ms": 1386140,
      "text": "of users. So it doesn't seem like we're competing for that. And generally the incentive"
-    }
-   ],
-   "ts": "2026-11-03T17:22:32.540000-05:00",
-   "adj_ret_5m": -0.005582693649685999
-  },
-  {
-   "seg_id": 47,
-   "t0_ms": 1392700,
-   "t1_ms": 1418700,
-   "speaker": "Management",
-   "text": "is just cross promotion. And for certain games certainly the case for Supercell and Brawl Stars they do a lot of things to keep their game fresh. And one of the things that they did when they did the partnership with us is for about a period of a few weeks the entire game was just themed with Duolingo. And their players like this. It was a very positive thing in their community. So that's the incentive for doing that. They gained also a bunch of active",
-   "parts": [
+    },
     {
      "t0_ms": 1392700,
      "text": "is just cross promotion. And for certain games certainly the case for Supercell and Brawl Stars"
@@ -1557,7 +1535,18 @@
     {
      "t0_ms": 1404540,
      "text": "did the partnership with us is for about a period of a few weeks the entire game was just"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:22:47.660000-05:00",
+   "adj_ret_5m": -0.005582693649685999
+  },
+  {
+   "seg_id": 46,
+   "t0_ms": 1409900,
+   "t1_ms": 1418700,
+   "speaker": "Management",
+   "text": "themed with Duolingo. And their players like this. It was a very positive thing in their community. So that's the incentive for doing that. They gained also a bunch of active",
+   "parts": [
     {
      "t0_ms": 1409900,
      "text": "themed with Duolingo. And their players like this. It was a very positive thing in their"
@@ -1567,14 +1556,14 @@
      "text": "community. So that's the incentive for doing that. They gained also a bunch of active"
     }
    ],
-   "ts": "2026-11-03T17:23:12.700000-05:00",
+   "ts": "2026-11-03T17:23:29.900000-05:00",
    "adj_ret_5m": -0.004262455453846736
   },
   {
-   "seg_id": 48,
+   "seg_id": 47,
    "t0_ms": 1418700,
    "t1_ms": 1458500,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "users and revenue. Okay and my follow-up penetrates more. How should we think?",
    "parts": [
     {
@@ -1586,7 +1575,7 @@
    "adj_ret_5m": -0.004262455453846736
   },
   {
-   "seg_id": 49,
+   "seg_id": 48,
    "t0_ms": 1461710,
    "t1_ms": 1490110,
    "speaker": "Management",
@@ -1617,31 +1606,31 @@
    "adj_ret_5m": -0.004262455453846736
   },
   {
-   "seg_id": 50,
+   "seg_id": 49,
    "t0_ms": 1494130,
-   "t1_ms": 1498850,
+   "t1_ms": 1516000,
    "speaker": "Operator",
-   "text": "Thank you Omar. Your next question comes from the line of Ron Josie with Citi. Please unmute",
+   "text": "Thank you Omar. Your next question comes from the line of Ron Josie with Citi. Please unmute your audio and video and ask your question. Hi Ron. I think you're muted Ron. There you are.",
    "parts": [
     {
      "t0_ms": 1494130,
      "text": "Thank you Omar. Your next question comes from the line of Ron Josie with Citi. Please unmute"
+    },
+    {
+     "t0_ms": 1498850,
+     "text": "your audio and video and ask your question. Hi Ron. I think you're muted Ron. There you are."
     }
    ],
    "ts": "2026-11-03T17:24:54.130000-05:00",
    "adj_ret_5m": -0.004262455453846736
   },
   {
-   "seg_id": 51,
-   "t0_ms": 1498850,
-   "t1_ms": 1536160,
+   "seg_id": 50,
+   "t0_ms": 1516000,
+   "t1_ms": 1540080,
    "speaker": "Analyst",
-   "text": "your audio and video and ask your question. Hi Ron. I think you're muted Ron. There you are. We hear you. Hey you can hear me? Yeah hi. Perfect thank you. Sorry about that. This is James Michael with Scriven Los Angeles for Ron. Given experiments per week grew faster than head count last year. You bring machine driven two-quartes of acceleration. Can you provide more color on the underlying changes in the architecture of the testing process?",
+   "text": "We hear you. Hey you can hear me? Yeah hi. Perfect thank you. Sorry about that. This is James Michael with Scriven Los Angeles for Ron. Given experiments per week grew faster than head count last year. You bring machine driven two-quartes of acceleration. Can you provide more color on the underlying changes in the architecture of the testing process? And how much more throughput there could be of AI to turn more of the",
    "parts": [
-    {
-     "t0_ms": 1498850,
-     "text": "your audio and video and ask your question. Hi Ron. I think you're muted Ron. There you are."
-    },
     {
      "t0_ms": 1516000,
      "text": "We hear you. Hey you can hear me? Yeah hi. Perfect thank you. Sorry about that. This is"
@@ -1657,22 +1646,22 @@
     {
      "t0_ms": 1532160,
      "text": "more color on the underlying changes in the architecture of the testing process?"
-    }
-   ],
-   "ts": "2026-11-03T17:24:58.850000-05:00",
-   "adj_ret_5m": -0.004262455453846736
-  },
-  {
-   "seg_id": 52,
-   "t0_ms": 1536800,
-   "t1_ms": 1578800,
-   "speaker": "Management",
-   "text": "And how much more throughput there could be of AI to turn more of the experiment design and analysis? Oh yeah we're very happy about that. If you look right now the number of experiments that we ran, call it the last month, is up about 90% year over year compared to last year. And our employee number grew by like 10%. So per capita this is a major improvement. A lot of that, not entirely, but a lot of that is because of AI. We're just seeing, you know, it took some time for the promise of AI encoding to actually turn",
-   "parts": [
+    },
     {
      "t0_ms": 1536800,
      "text": "And how much more throughput there could be of AI to turn more of the"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:25:16-05:00",
+   "adj_ret_5m": 0.0011152364273205873
+  },
+  {
+   "seg_id": 51,
+   "t0_ms": 1540080,
+   "t1_ms": 1585040,
+   "speaker": "Management",
+   "text": "experiment design and analysis? Oh yeah we're very happy about that. If you look right now the number of experiments that we ran, call it the last month, is up about 90% year over year compared to last year. And our employee number grew by like 10%. So per capita this is a major improvement. A lot of that, not entirely, but a lot of that is because of AI. We're just seeing, you know, it took some time for the promise of AI encoding to actually turn into improvements in speed, but we are now seeing that. And we're seeing not just significantly",
+   "parts": [
     {
      "t0_ms": 1540080,
      "text": "experiment design and analysis? Oh yeah we're very happy about that. If you look right now"
@@ -1692,22 +1681,22 @@
     {
      "t0_ms": 1569200,
      "text": "We're just seeing, you know, it took some time for the promise of AI encoding to actually turn"
-    }
-   ],
-   "ts": "2026-11-03T17:25:36.800000-05:00",
-   "adj_ret_5m": 0.0011152364273205873
-  },
-  {
-   "seg_id": 53,
-   "t0_ms": 1578800,
-   "t1_ms": 1621600,
-   "speaker": "Management",
-   "text": "into improvements in speed, but we are now seeing that. And we're seeing not just significantly higher experiment count, which I believe will continue going up and up and up, but also the latency, the time between an idea to it being in front of the users is much shorter now. And that allows us to iterate a lot. And I think that's extremely compatible with our process of improvement because we just run a ton of A-B tests. And what's good about AI is it's particularly good at these smaller changes. You know, larger changes, a lot of times it still kind of messes up. But the smaller stuff, it's pretty good at it. And we mainly run",
-   "parts": [
+    },
     {
      "t0_ms": 1578800,
      "text": "into improvements in speed, but we are now seeing that. And we're seeing not just significantly"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:25:40.080000-05:00",
+   "adj_ret_5m": 0.0011152364273205873
+  },
+  {
+   "seg_id": 52,
+   "t0_ms": 1585040,
+   "t1_ms": 1626400,
+   "speaker": "Management",
+   "text": "higher experiment count, which I believe will continue going up and up and up, but also the latency, the time between an idea to it being in front of the users is much shorter now. And that allows us to iterate a lot. And I think that's extremely compatible with our process of improvement because we just run a ton of A-B tests. And what's good about AI is it's particularly good at these smaller changes. You know, larger changes, a lot of times it still kind of messes up. But the smaller stuff, it's pretty good at it. And we mainly run on hundreds and hundreds of tiny changes. So we're finding it quite compatible with the",
+   "parts": [
     {
      "t0_ms": 1585040,
      "text": "higher experiment count, which I believe will continue going up and up and up, but also"
@@ -1731,22 +1720,22 @@
     {
      "t0_ms": 1615120,
      "text": "times it still kind of messes up. But the smaller stuff, it's pretty good at it. And we mainly run"
-    }
-   ],
-   "ts": "2026-11-03T17:26:18.800000-05:00",
-   "adj_ret_5m": 0.002871578947368336
-  },
-  {
-   "seg_id": 54,
-   "t0_ms": 1621600,
-   "t1_ms": 1666320,
-   "speaker": "Management",
-   "text": "on hundreds and hundreds of tiny changes. So we're finding it quite compatible with the way we operate. And this is why we feel pretty good about our ability to continue growing both our DAUs because of growth in retention, but also our monetization. Because we're going to, my sense is next year, I don't know the exact quantity, but we're going to run a hell of a lot more experiments next year than we did this year. Helpful. Quick follow up on that. Last quarter you flagged shorter attention spans and testing shorter minimum session length. Has anything shipped here and are you seeing data malgames specifically from session frequency as well as retention? Yeah, we're working, this is something we're really working on. You know, we're not disclosing any of that, but we are actively,",
-   "parts": [
+    },
     {
      "t0_ms": 1621600,
      "text": "on hundreds and hundreds of tiny changes. So we're finding it quite compatible with the"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:26:25.040000-05:00",
+   "adj_ret_5m": 0.002871578947368336
+  },
+  {
+   "seg_id": 53,
+   "t0_ms": 1626400,
+   "t1_ms": 1646640,
+   "speaker": "Management",
+   "text": "way we operate. And this is why we feel pretty good about our ability to continue growing both our DAUs because of growth in retention, but also our monetization. Because we're going to, my sense is next year, I don't know the exact quantity, but we're going to run a hell of a lot more experiments next year than we did this year. Helpful. Quick follow up on that.",
+   "parts": [
     {
      "t0_ms": 1626400,
      "text": "way we operate. And this is why we feel pretty good about our ability to continue growing"
@@ -1762,7 +1751,18 @@
     {
      "t0_ms": 1639360,
      "text": "of a lot more experiments next year than we did this year. Helpful. Quick follow up on that."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:27:06.400000-05:00",
+   "adj_ret_5m": 0.002871578947368336
+  },
+  {
+   "seg_id": 54,
+   "t0_ms": 1646640,
+   "t1_ms": 1653840,
+   "speaker": "Analyst",
+   "text": "Last quarter you flagged shorter attention spans and testing shorter minimum session length. Has anything shipped here and are you seeing data malgames specifically from",
+   "parts": [
     {
      "t0_ms": 1646640,
      "text": "Last quarter you flagged shorter attention spans and testing shorter minimum session length."
@@ -1770,7 +1770,18 @@
     {
      "t0_ms": 1650720,
      "text": "Has anything shipped here and are you seeing data malgames specifically from"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:27:26.640000-05:00",
+   "adj_ret_5m": 0.002871578947368336
+  },
+  {
+   "seg_id": 55,
+   "t0_ms": 1653840,
+   "t1_ms": 1673840,
+   "speaker": "Management",
+   "text": "session frequency as well as retention? Yeah, we're working, this is something we're really working on. You know, we're not disclosing any of that, but we are actively, we have staffed teams now to try to increase engagement throughout. And we feel pretty good",
+   "parts": [
     {
      "t0_ms": 1653840,
      "text": "session frequency as well as retention? Yeah, we're working, this is something we're"
@@ -1778,36 +1789,29 @@
     {
      "t0_ms": 1659600,
      "text": "really working on. You know, we're not disclosing any of that, but we are actively,"
-    }
-   ],
-   "ts": "2026-11-03T17:27:01.600000-05:00",
-   "adj_ret_5m": 0.002871578947368336
-  },
-  {
-   "seg_id": 55,
-   "t0_ms": 1667360,
-   "t1_ms": 1673840,
-   "speaker": "Management",
-   "text": "we have staffed teams now to try to increase engagement throughout. And we feel pretty good",
-   "parts": [
+    },
     {
      "t0_ms": 1667360,
      "text": "we have staffed teams now to try to increase engagement throughout. And we feel pretty good"
     }
    ],
-   "ts": "2026-11-03T17:27:47.360000-05:00",
+   "ts": "2026-11-03T17:27:33.840000-05:00",
    "adj_ret_5m": 0.002871578947368336
   },
   {
    "seg_id": 56,
    "t0_ms": 1673840,
-   "t1_ms": 1681810,
+   "t1_ms": 1686130,
    "speaker": "Operator",
-   "text": "about that work. Your next question comes from the line of Justin Patterson with KeyBank. Please",
+   "text": "about that work. Your next question comes from the line of Justin Patterson with KeyBank. Please unmute your audio and video. Justin, how are you? I'm great, Luis. How are you doing?",
    "parts": [
     {
      "t0_ms": 1673840,
      "text": "about that work. Your next question comes from the line of Justin Patterson with KeyBank. Please"
+    },
+    {
+     "t0_ms": 1681810,
+     "text": "unmute your audio and video. Justin, how are you? I'm great, Luis. How are you doing?"
     }
    ],
    "ts": "2026-11-03T17:27:53.840000-05:00",
@@ -1815,25 +1819,10 @@
   },
   {
    "seg_id": 57,
-   "t0_ms": 1681810,
-   "t1_ms": 1686130,
-   "speaker": "Analyst",
-   "text": "unmute your audio and video. Justin, how are you? I'm great, Luis. How are you doing?",
-   "parts": [
-    {
-     "t0_ms": 1681810,
-     "text": "unmute your audio and video. Justin, how are you? I'm great, Luis. How are you doing?"
-    }
-   ],
-   "ts": "2026-11-03T17:28:01.810000-05:00",
-   "adj_ret_5m": -0.00140350877192974
-  },
-  {
-   "seg_id": 58,
    "t0_ms": 1686930,
-   "t1_ms": 1727170,
-   "speaker": "Management",
-   "text": "Also great. Great. Well, first off, congratulations just with the DAU progress this year. You've certainly come a long way within there. I guess as we head out of this year and into 2027, how do you think about just the right degree of friction and steps to put back into the app and steps to monetize so you don't repeat the lessons of 2025 within there? That'll have one fall out. It's a great question. I mean, we're, we have a strict guardrail inside the company to not degrade the free user experience anymore. The good news is that we really, you know, we took this year to figure out how to monetize",
+   "t1_ms": 1709010,
+   "speaker": "Analyst",
+   "text": "Also great. Great. Well, first off, congratulations just with the DAU progress this year. You've certainly come a long way within there. I guess as we head out of this year and into 2027, how do you think about just the right degree of friction and steps to put back into the app and steps to monetize so you don't repeat the lessons of 2025 within there?",
    "parts": [
     {
      "t0_ms": 1686930,
@@ -1850,7 +1839,18 @@
     {
      "t0_ms": 1703010,
      "text": "back into the app and steps to monetize so you don't repeat the lessons of 2025 within there?"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:28:06.930000-05:00",
+   "adj_ret_5m": -0.00140350877192974
+  },
+  {
+   "seg_id": 58,
+   "t0_ms": 1709010,
+   "t1_ms": 1744690,
+   "speaker": "Management",
+   "text": "That'll have one fall out. It's a great question. I mean, we're, we have a strict guardrail inside the company to not degrade the free user experience anymore. The good news is that we really, you know, we took this year to figure out how to monetize without degrading the free user experience. And I think we just found the number of levers that work that we feel pretty good about that. But yeah, I mean, this is a lesson learned. We do not want to mess up the free user experience anymore. I don't believe that's going to happen.",
+   "parts": [
     {
      "t0_ms": 1709010,
      "text": "That'll have one fall out. It's a great question. I mean, we're,"
@@ -1862,18 +1862,7 @@
     {
      "t0_ms": 1721410,
      "text": "The good news is that we really, you know, we took this year to figure out how to monetize"
-    }
-   ],
-   "ts": "2026-11-03T17:28:06.930000-05:00",
-   "adj_ret_5m": -0.00140350877192974
-  },
-  {
-   "seg_id": 59,
-   "t0_ms": 1727170,
-   "t1_ms": 1770370,
-   "speaker": "Management",
-   "text": "without degrading the free user experience. And I think we just found the number of levers that work that we feel pretty good about that. But yeah, I mean, this is a lesson learned. We do not want to mess up the free user experience anymore. I don't believe that's going to happen. Got it. And I'm thinking about just the decision to deprecate Max in this way, putting Max users into the super family plan. You know, talk about just why that's the right choice versus the individual family plan, or excuse me, the individual super plan. And then, that creates the potential for more paid sharing, if you will, friends, potentially sharing with one another. So I'd love to hear about how you're thinking of the guardrails in there. So these are",
-   "parts": [
+    },
     {
      "t0_ms": 1727170,
      "text": "without degrading the free user experience. And I think we just found the number of levers"
@@ -1885,7 +1874,18 @@
     {
      "t0_ms": 1739410,
      "text": "do not want to mess up the free user experience anymore. I don't believe that's going to happen."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:28:29.010000-05:00",
+   "adj_ret_5m": -0.00140350877192974
+  },
+  {
+   "seg_id": 59,
+   "t0_ms": 1745570,
+   "t1_ms": 1774370,
+   "speaker": "Analyst",
+   "text": "Got it. And I'm thinking about just the decision to deprecate Max in this way, putting Max users into the super family plan. You know, talk about just why that's the right choice versus the individual family plan, or excuse me, the individual super plan. And then, that creates the potential for more paid sharing, if you will, friends, potentially sharing with one another. So I'd love to hear about how you're thinking of the guardrails in there. So these are truly net new people versus some canceling and just getting on a friends plan.",
+   "parts": [
     {
      "t0_ms": 1745570,
      "text": "Got it. And I'm thinking about just the decision to deprecate Max in this way,"
@@ -1905,22 +1905,22 @@
     {
      "t0_ms": 1765970,
      "text": "one another. So I'd love to hear about how you're thinking of the guardrails in there. So these are"
+    },
+    {
+     "t0_ms": 1770370,
+     "text": "truly net new people versus some canceling and just getting on a friends plan."
     }
    ],
-   "ts": "2026-11-03T17:28:47.170000-05:00",
+   "ts": "2026-11-03T17:29:05.570000-05:00",
    "adj_ret_5m": -0.00140350877192974
   },
   {
    "seg_id": 60,
-   "t0_ms": 1770370,
-   "t1_ms": 1807410,
+   "t0_ms": 1775010,
+   "t1_ms": 1815490,
    "speaker": "Management",
-   "text": "truly net new people versus some canceling and just getting on a friends plan. Yeah, it's a good question. I mean, the first thing to say is that at the moment, even though family plan is a pretty good deal when compared to the individual, even though that's the case, we like it because it has extremely high retention. So over time, it just, you know, we like it. The retention is really good. And it makes sense that the retention is really good. If you have five people, as long as one of them is still using it, you know, they kind of keep paying for the plan. So that's why we like it.",
+   "text": "Yeah, it's a good question. I mean, the first thing to say is that at the moment, even though family plan is a pretty good deal when compared to the individual, even though that's the case, we like it because it has extremely high retention. So over time, it just, you know, we like it. The retention is really good. And it makes sense that the retention is really good. If you have five people, as long as one of them is still using it, you know, they kind of keep paying for the plan. So that's why we like it. The reason we decided to move Max individual to super family was because they're roughly the",
    "parts": [
-    {
-     "t0_ms": 1770370,
-     "text": "truly net new people versus some canceling and just getting on a friends plan."
-    },
     {
      "t0_ms": 1775010,
      "text": "Yeah, it's a good question. I mean, the first thing to say is that at the moment,"
@@ -1944,22 +1944,22 @@
     {
      "t0_ms": 1802370,
      "text": "using it, you know, they kind of keep paying for the plan. So that's why we like it."
+    },
+    {
+     "t0_ms": 1807410,
+     "text": "The reason we decided to move Max individual to super family was because they're roughly the"
     }
    ],
-   "ts": "2026-11-03T17:29:30.370000-05:00",
+   "ts": "2026-11-03T17:29:35.010000-05:00",
    "adj_ret_5m": -0.00140350877192974
   },
   {
    "seg_id": 61,
-   "t0_ms": 1807410,
-   "t1_ms": 1847090,
+   "t0_ms": 1815490,
+   "t1_ms": 1859250,
    "speaker": "Management",
-   "text": "The reason we decided to move Max individual to super family was because they're roughly the same price. So, you know, that allowed us to not have kind of a one time decrease in bookings from these people. And for them, we think it's a good deal. I mean, it's basically the identical features, just you can invite five more people. And, you know, that'll happen. I'm sure there's some amount of cannibalization, but we're not really seeing that in the numbers. It's not material enough for us to like see anything that is like, oh, this is actually bad for us because we've been maybe testing this for a little while and we just,",
+   "text": "same price. So, you know, that allowed us to not have kind of a one time decrease in bookings from these people. And for them, we think it's a good deal. I mean, it's basically the identical features, just you can invite five more people. And, you know, that'll happen. I'm sure there's some amount of cannibalization, but we're not really seeing that in the numbers. It's not material enough for us to like see anything that is like, oh, this is actually bad for us because we've been maybe testing this for a little while and we just, it looks good. Yeah, I think it speaks just into our confidence and the size of the market opportunity here. You know, to be able to do that, and we're really not concerned that we're",
    "parts": [
-    {
-     "t0_ms": 1807410,
-     "text": "The reason we decided to move Max individual to super family was because they're roughly the"
-    },
     {
      "t0_ms": 1815490,
      "text": "same price. So, you know, that allowed us to not have kind of a one time decrease in bookings"
@@ -1983,18 +1983,7 @@
     {
      "t0_ms": 1842930,
      "text": "this is actually bad for us because we've been maybe testing this for a little while and we just,"
-    }
-   ],
-   "ts": "2026-11-03T17:30:07.410000-05:00",
-   "adj_ret_5m": -0.0028633565928575244
-  },
-  {
-   "seg_id": 62,
-   "t0_ms": 1847810,
-   "t1_ms": 1872450,
-   "speaker": "Management",
-   "text": "it looks good. Yeah, I think it speaks just into our confidence and the size of the market opportunity here. You know, to be able to do that, and we're really not concerned that we're going to impact our market opportunity. I mean, we continue to be extremely bullish about what's ahead for us and the billion learners that we think we can touch. It's going to give us a much bigger business over time. Great. Thank you both. Thank you.",
-   "parts": [
+    },
     {
      "t0_ms": 1847810,
      "text": "it looks good. Yeah, I think it speaks just into our confidence and the size of the market"
@@ -2002,7 +1991,18 @@
     {
      "t0_ms": 1853170,
      "text": "opportunity here. You know, to be able to do that, and we're really not concerned that we're"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:30:15.490000-05:00",
+   "adj_ret_5m": -0.0028633565928575244
+  },
+  {
+   "seg_id": 62,
+   "t0_ms": 1859250,
+   "t1_ms": 1872450,
+   "speaker": "Management",
+   "text": "going to impact our market opportunity. I mean, we continue to be extremely bullish about what's ahead for us and the billion learners that we think we can touch. It's going to give us a much bigger business over time. Great. Thank you both. Thank you.",
+   "parts": [
     {
      "t0_ms": 1859250,
      "text": "going to impact our market opportunity. I mean, we continue to be extremely bullish about"
@@ -2016,7 +2016,7 @@
      "text": "give us a much bigger business over time. Great. Thank you both. Thank you."
     }
    ],
-   "ts": "2026-11-03T17:30:47.810000-05:00",
+   "ts": "2026-11-03T17:30:59.250000-05:00",
    "adj_ret_5m": -0.0028633565928575244
   },
   {
@@ -2037,9 +2037,9 @@
   {
    "seg_id": 64,
    "t0_ms": 1877730,
-   "t1_ms": 1920590,
+   "t1_ms": 1907390,
    "speaker": "Analyst",
-   "text": "audio and video and ask your question. Yeah. Hey, thanks so much for the question. Greatly appreciate it. You know, I think the other change this year to cheering beyond the deprecation of max is the white tier. I've been seeing white tier be kind of merchandised to me in my testing of the app pretty frequently in the third quarter and the beginning of the fourth quarter. So just any thoughts about your expectations around kind of light penetration next year and the state of the advertising experience in Duolingo right now would be great. Thank you. Okay. So it's light on ads. We are testing it. We have not pushed it very far and we may try to push it more. I mean,",
+   "text": "audio and video and ask your question. Yeah. Hey, thanks so much for the question. Greatly appreciate it. You know, I think the other change this year to cheering beyond the deprecation of max is the white tier. I've been seeing white tier be kind of merchandised to me in my testing of the app pretty frequently in the third quarter and the beginning of the fourth quarter. So just any thoughts about your expectations around kind of light penetration next year and the state of the advertising experience in Duolingo right now",
    "parts": [
     {
      "t0_ms": 1877730,
@@ -2064,14 +2064,6 @@
     {
      "t0_ms": 1902910,
      "text": "of light penetration next year and the state of the advertising experience in Duolingo right now"
-    },
-    {
-     "t0_ms": 1907390,
-     "text": "would be great. Thank you. Okay. So it's light on ads. We are testing it."
-    },
-    {
-     "t0_ms": 1914990,
-     "text": "We have not pushed it very far and we may try to push it more. I mean,"
     }
    ],
    "ts": "2026-11-03T17:31:17.730000-05:00",
@@ -2079,11 +2071,19 @@
   },
   {
    "seg_id": 65,
-   "t0_ms": 1920590,
-   "t1_ms": 1961950,
+   "t0_ms": 1907390,
+   "t1_ms": 1948190,
    "speaker": "Management",
-   "text": "we're mainly driven by the results of our A-B test and I think our A-B test for light have just not been home runs. I think there's probably some wins there, but they just haven't been home runs. So I don't actually know what will happen with light. It's a much cheaper plan that also has ads. I just don't know what will happen. It may be the case that ends up only being served in certain regions, kind of probably regions with lower GDP per capita, but I don't actually know. At the moment, this is pretty small and we just have not seen it be a major home run, but it's there. It's still being tested. In terms of ads, we feel very good about ads in terms of the team. We now have an actual serious team working on",
+   "text": "would be great. Thank you. Okay. So it's light on ads. We are testing it. We have not pushed it very far and we may try to push it more. I mean, we're mainly driven by the results of our A-B test and I think our A-B test for light have just not been home runs. I think there's probably some wins there, but they just haven't been home runs. So I don't actually know what will happen with light. It's a much cheaper plan that also has ads. I just don't know what will happen. It may be the case that ends up only being served in certain regions, kind of probably regions with lower GDP per capita, but I don't actually know. At the moment, this is pretty small and we just have not seen",
    "parts": [
+    {
+     "t0_ms": 1907390,
+     "text": "would be great. Thank you. Okay. So it's light on ads. We are testing it."
+    },
+    {
+     "t0_ms": 1914990,
+     "text": "We have not pushed it very far and we may try to push it more. I mean,"
+    },
     {
      "t0_ms": 1920590,
      "text": "we're mainly driven by the results of our A-B test and I think our A-B test for light have"
@@ -2107,7 +2107,18 @@
     {
      "t0_ms": 1944110,
      "text": "but I don't actually know. At the moment, this is pretty small and we just have not seen"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:31:47.390000-05:00",
+   "adj_ret_5m": -0.0028633565928575244
+  },
+  {
+   "seg_id": 66,
+   "t0_ms": 1948190,
+   "t1_ms": 1991470,
+   "speaker": "Management",
+   "text": "it be a major home run, but it's there. It's still being tested. In terms of ads, we feel very good about ads in terms of the team. We now have an actual serious team working on our own ads business. So we feel like next year our ads business is going to do well. And just to remind you about our ads business, we had historically not invested much in our own ads. And so what we did is we just used these ad networks with kind of the lowest common denominator of ads. And what we're doing now is we are switching those to much higher quality ads. Now that takes some time to do. In part, we're doing it through direct sales.",
+   "parts": [
     {
      "t0_ms": 1948190,
      "text": "it be a major home run, but it's there. It's still being tested. In terms of ads,"
@@ -2115,18 +2126,7 @@
     {
      "t0_ms": 1954350,
      "text": "we feel very good about ads in terms of the team. We now have an actual serious team working on"
-    }
-   ],
-   "ts": "2026-11-03T17:32:00.590000-05:00",
-   "adj_ret_5m": -0.0028633565928575244
-  },
-  {
-   "seg_id": 66,
-   "t0_ms": 1961950,
-   "t1_ms": 2005790,
-   "speaker": "Management",
-   "text": "our own ads business. So we feel like next year our ads business is going to do well. And just to remind you about our ads business, we had historically not invested much in our own ads. And so what we did is we just used these ad networks with kind of the lowest common denominator of ads. And what we're doing now is we are switching those to much higher quality ads. Now that takes some time to do. In part, we're doing it through direct sales. We now have a direct sales team. It's not a very large direct sales team, but it's a very good direct sales team. But we're doing some of that. And also we're just switching the ads to higher quality ads. So the transition is going to take some time, but once we're done",
-   "parts": [
+    },
     {
      "t0_ms": 1961950,
      "text": "our own ads business. So we feel like next year our ads business is going to do well."
@@ -2146,7 +2146,18 @@
     {
      "t0_ms": 1986270,
      "text": "quality ads. Now that takes some time to do. In part, we're doing it through direct sales."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:32:28.190000-05:00",
+   "adj_ret_5m": -0.0028633565928575244
+  },
+  {
+   "seg_id": 67,
+   "t0_ms": 1991470,
+   "t1_ms": 2035230,
+   "speaker": "Management",
+   "text": "We now have a direct sales team. It's not a very large direct sales team, but it's a very good direct sales team. But we're doing some of that. And also we're just switching the ads to higher quality ads. So the transition is going to take some time, but once we're done with the transition, you're just going to see ads that are significantly higher quality on Duolingo with kind of more well-known brands and higher quality brands, and in addition, that pay us more. I think over the long term we feel actually pretty excited about our ads business. Perfect. Thank you. The team made some really nice progress during the quarter. So if you look at the full quarter, the ads business was sort of flattish, but actually it exited the quarter growing nicely. So we think the team is making good progress there. Great. Thanks.",
+   "parts": [
     {
      "t0_ms": 1991470,
      "text": "We now have a direct sales team. It's not a very large direct sales team, but it's a very"
@@ -2158,18 +2169,7 @@
     {
      "t0_ms": 2000670,
      "text": "ads to higher quality ads. So the transition is going to take some time, but once we're done"
-    }
-   ],
-   "ts": "2026-11-03T17:32:41.950000-05:00",
-   "adj_ret_5m": -0.0028633565928575244
-  },
-  {
-   "seg_id": 67,
-   "t0_ms": 2005790,
-   "t1_ms": 2035230,
-   "speaker": "Management",
-   "text": "with the transition, you're just going to see ads that are significantly higher quality on Duolingo with kind of more well-known brands and higher quality brands, and in addition, that pay us more. I think over the long term we feel actually pretty excited about our ads business. Perfect. Thank you. The team made some really nice progress during the quarter. So if you look at the full quarter, the ads business was sort of flattish, but actually it exited the quarter growing nicely. So we think the team is making good progress there. Great. Thanks.",
-   "parts": [
+    },
     {
      "t0_ms": 2005790,
      "text": "with the transition, you're just going to see ads that are significantly higher quality"
@@ -2203,31 +2203,20 @@
      "text": "Great. Thanks."
     }
    ],
-   "ts": "2026-11-03T17:33:25.790000-05:00",
+   "ts": "2026-11-03T17:33:11.470000-05:00",
    "adj_ret_5m": 0.0014054813773716202
   },
   {
    "seg_id": 68,
    "t0_ms": 2036350,
-   "t1_ms": 2038990,
+   "t1_ms": 2041870,
    "speaker": "Operator",
-   "text": "Your next question comes from the line of Andrew Boone with Citizens.",
+   "text": "Your next question comes from the line of Andrew Boone with Citizens. Andrew, hi. Please mute your audio and video and ask your question.",
    "parts": [
     {
      "t0_ms": 2036350,
      "text": "Your next question comes from the line of Andrew Boone with Citizens."
-    }
-   ],
-   "ts": "2026-11-03T17:33:56.350000-05:00",
-   "adj_ret_5m": 0.0014054813773716202
-  },
-  {
-   "seg_id": 69,
-   "t0_ms": 2038990,
-   "t1_ms": 2062190,
-   "speaker": "Analyst",
-   "text": "Andrew, hi. Please mute your audio and video and ask your question. Guys, appreciate you taking the question. I wanted to go first in terms of following up on Justin's question. As we think about 2027, you guys clearly have transitioned from monetization now into engagement. As we go back to a monetization format, should we expect a change in terms of how you guys are going after that? Is that different in-app purchases?",
-   "parts": [
+    },
     {
      "t0_ms": 2038990,
      "text": "Andrew, hi."
@@ -2235,7 +2224,18 @@
     {
      "t0_ms": 2039470,
      "text": "Please mute your audio and video and ask your question."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:33:56.350000-05:00",
+   "adj_ret_5m": 0.0014054813773716202
+  },
+  {
+   "seg_id": 69,
+   "t0_ms": 2042910,
+   "t1_ms": 2083790,
+   "speaker": "Analyst",
+   "text": "Guys, appreciate you taking the question. I wanted to go first in terms of following up on Justin's question. As we think about 2027, you guys clearly have transitioned from monetization now into engagement. As we go back to a monetization format, should we expect a change in terms of how you guys are going after that? Is that different in-app purchases? Are there anything that are now off limits? Is it a restarting of the engine that was previously up and going, or are you guys going to approach this differently? And then just my second question, another follow-up. But as we think about AI unlocking Duolingo broadly, Luis, is the biggest needle mover for AI, is it internal? Is it new",
+   "parts": [
     {
      "t0_ms": 2042910,
      "text": "Guys, appreciate you taking the question. I wanted to go first in terms of following"
@@ -2251,18 +2251,7 @@
     {
      "t0_ms": 2058270,
      "text": "a change in terms of how you guys are going after that? Is that different in-app purchases?"
-    }
-   ],
-   "ts": "2026-11-03T17:33:58.990000-05:00",
-   "adj_ret_5m": 0.0014054813773716202
-  },
-  {
-   "seg_id": 70,
-   "t0_ms": 2062190,
-   "t1_ms": 2106500,
-   "speaker": "Management",
-   "text": "Are there anything that are now off limits? Is it a restarting of the engine that was previously up and going, or are you guys going to approach this differently? And then just my second question, another follow-up. But as we think about AI unlocking Duolingo broadly, Luis, is the biggest needle mover for AI, is it internal? Is it new products that become available? And what happens as we've seen AI deflation come through the model? What does that unlock for you in terms of internal processes that now become available maybe in a year or two years, as we've seen with video calls? Thank you. Great. In terms of monetization, I don't know exactly how to answer your question",
-   "parts": [
+    },
     {
      "t0_ms": 2062190,
      "text": "Are there anything that are now off limits? Is it a restarting of the engine that was"
@@ -2278,7 +2267,18 @@
     {
      "t0_ms": 2077150,
      "text": "Duolingo broadly, Luis, is the biggest needle mover for AI, is it internal? Is it new"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:34:02.910000-05:00",
+   "adj_ret_5m": 0.0022700988477984962
+  },
+  {
+   "seg_id": 70,
+   "t0_ms": 2083790,
+   "t1_ms": 2098830,
+   "speaker": "Analyst",
+   "text": "products that become available? And what happens as we've seen AI deflation come through the model? What does that unlock for you in terms of internal processes that now become available maybe in a year or two years, as we've seen with video calls? Thank you.",
+   "parts": [
     {
      "t0_ms": 2083790,
      "text": "products that become available? And what happens as we've seen AI deflation come"
@@ -2290,22 +2290,22 @@
     {
      "t0_ms": 2094429,
      "text": "now become available maybe in a year or two years, as we've seen with video calls? Thank you."
-    },
-    {
-     "t0_ms": 2099950,
-     "text": "Great. In terms of monetization, I don't know exactly how to answer your question"
     }
    ],
-   "ts": "2026-11-03T17:34:22.190000-05:00",
+   "ts": "2026-11-03T17:34:43.790000-05:00",
    "adj_ret_5m": 0.0022700988477984962
   },
   {
    "seg_id": 71,
-   "t0_ms": 2107220,
-   "t1_ms": 2149140,
+   "t0_ms": 2099950,
+   "t1_ms": 2143620,
    "speaker": "Management",
-   "text": "in terms of is it a restart? We've been working on monetization this year. It's just we told the monetization team, look, you cannot degrade the free user experience anymore. We have to come up with new ways of monetizing. And they have. And that's working really well. So I think you're going to see us, first of all, the way you're going to see us work is similar to how we've been working the whole time, which is we're going to run thousands of A-B tests to try to monetize better. The one thing that you're not going to see us do is add friction to the free user experience. But we're going to do all kinds of things. Certainly there's IAPs in there. Certainly there's better ads in there. But there's also other things that get people to subscribe. Video call is a good thing. Video",
+   "text": "Great. In terms of monetization, I don't know exactly how to answer your question in terms of is it a restart? We've been working on monetization this year. It's just we told the monetization team, look, you cannot degrade the free user experience anymore. We have to come up with new ways of monetizing. And they have. And that's working really well. So I think you're going to see us, first of all, the way you're going to see us work is similar to how we've been working the whole time, which is we're going to run thousands of A-B tests to try to monetize better. The one thing that you're not going to see us do is add friction to the free user experience. But we're going to do all kinds of things. Certainly there's IAPs in there. Certainly there's better ads in there. But",
    "parts": [
+    {
+     "t0_ms": 2099950,
+     "text": "Great. In terms of monetization, I don't know exactly how to answer your question"
+    },
     {
      "t0_ms": 2107220,
      "text": "in terms of is it a restart? We've been working on monetization this year. It's just we"
@@ -2337,22 +2337,22 @@
     {
      "t0_ms": 2139460,
      "text": "of things. Certainly there's IAPs in there. Certainly there's better ads in there. But"
-    },
-    {
-     "t0_ms": 2143620,
-     "text": "there's also other things that get people to subscribe. Video call is a good thing. Video"
     }
    ],
-   "ts": "2026-11-03T17:35:07.220000-05:00",
-   "adj_ret_5m": 0.004275708444524073
+   "ts": "2026-11-03T17:34:59.950000-05:00",
+   "adj_ret_5m": 0.0022700988477984962
   },
   {
    "seg_id": 72,
-   "t0_ms": 2149140,
-   "t1_ms": 2191100,
+   "t0_ms": 2143620,
+   "t1_ms": 2168020,
    "speaker": "Management",
-   "text": "call for the longest time was just available in Macs. Now that it's in Super, I think we feel a lot better about merchandising it more often because it's a lot more affordable. The reality is that Macs was a pretty expensive plan. So we feel pretty good about that. But generally, the type of work they're going to do is just a lot of A-B tests. Luis, I don't mean to interrupt, but does that imply that conversion rates then don't improve on a go-forward basis because you guys then need to grow with users without additional friction? I don't know the answer to your question, whether we're going to be able to improve them or not. Obviously, we do want to improve conversion rates. I don't know. I feel like there are some things, you know, some of the things we've done this year have",
+   "text": "there's also other things that get people to subscribe. Video call is a good thing. Video call for the longest time was just available in Macs. Now that it's in Super, I think we feel a lot better about merchandising it more often because it's a lot more affordable. The reality is that Macs was a pretty expensive plan. So we feel pretty good about that. But generally, the type of work they're going to do is just a lot of A-B tests.",
    "parts": [
+    {
+     "t0_ms": 2143620,
+     "text": "there's also other things that get people to subscribe. Video call is a good thing. Video"
+    },
     {
      "t0_ms": 2149140,
      "text": "call for the longest time was just available in Macs. Now that it's in Super, I think we feel a"
@@ -2368,7 +2368,18 @@
     {
      "t0_ms": 2165220,
      "text": "the type of work they're going to do is just a lot of A-B tests."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:35:43.620000-05:00",
+   "adj_ret_5m": 0.004275708444524073
+  },
+  {
+   "seg_id": 73,
+   "t0_ms": 2168820,
+   "t1_ms": 2176900,
+   "speaker": "Analyst",
+   "text": "Luis, I don't mean to interrupt, but does that imply that conversion rates then don't improve on a go-forward basis because you guys then need to grow with users without",
+   "parts": [
     {
      "t0_ms": 2168820,
      "text": "Luis, I don't mean to interrupt, but does that imply that conversion rates then don't"
@@ -2376,7 +2387,18 @@
     {
      "t0_ms": 2172980,
      "text": "improve on a go-forward basis because you guys then need to grow with users without"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:36:08.820000-05:00",
+   "adj_ret_5m": 0.004275708444524073
+  },
+  {
+   "seg_id": 74,
+   "t0_ms": 2176900,
+   "t1_ms": 2221420,
+   "speaker": "Management",
+   "text": "additional friction? I don't know the answer to your question, whether we're going to be able to improve them or not. Obviously, we do want to improve conversion rates. I don't know. I feel like there are some things, you know, some of the things we've done this year have improved conversion rates. Things like longer free trials improve conversion rates. And by the way, at the moment, we're not offering longer free trials to every user. We've kind of given them to some users. We're going to expand that further. So I do believe there's some increase in conversion rates. I don't know by how much. But what is true is that what you're not going to see us do is kind of squeezing users. You're not going to see us do that. Yeah. And I think, Andrew, you already saw in the quarter, we reaccelerated bookings",
+   "parts": [
     {
      "t0_ms": 2176900,
      "text": "additional friction? I don't know the answer to your question, whether we're going to be able"
@@ -2388,18 +2410,7 @@
     {
      "t0_ms": 2187900,
      "text": "feel like there are some things, you know, some of the things we've done this year have"
-    }
-   ],
-   "ts": "2026-11-03T17:35:49.140000-05:00",
-   "adj_ret_5m": 0.004275708444524073
-  },
-  {
-   "seg_id": 73,
-   "t0_ms": 2191100,
-   "t1_ms": 2233740,
-   "speaker": "Management",
-   "text": "improved conversion rates. Things like longer free trials improve conversion rates. And by the way, at the moment, we're not offering longer free trials to every user. We've kind of given them to some users. We're going to expand that further. So I do believe there's some increase in conversion rates. I don't know by how much. But what is true is that what you're not going to see us do is kind of squeezing users. You're not going to see us do that. Yeah. And I think, Andrew, you already saw in the quarter, we reaccelerated bookings growth in the quarter relative to last quarter. And I think you're seeing us be careful about how we go do all that. One of the things we've talked to you all about is that top of the funnel",
-   "parts": [
+    },
     {
      "t0_ms": 2191100,
      "text": "improved conversion rates. Things like longer free trials improve conversion rates. And by the"
@@ -2423,7 +2434,18 @@
     {
      "t0_ms": 2217020,
      "text": "Yeah. And I think, Andrew, you already saw in the quarter, we reaccelerated bookings"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:36:16.900000-05:00",
+   "adj_ret_5m": 0.004275708444524073
+  },
+  {
+   "seg_id": 75,
+   "t0_ms": 2221420,
+   "t1_ms": 2261900,
+   "speaker": "Management",
+   "text": "growth in the quarter relative to last quarter. And I think you're seeing us be careful about how we go do all that. One of the things we've talked to you all about is that top of the funnel matters a lot. Top of the funnel converts a multitude of the amount that the core base does. And so that's why you've seen us work on things like paid marketing, some of these outreach things growing in new places and new products. And I think that's a piece of the puzzle, too, on an aggregate basis. And then your second part of your question was about AI. There are two places, and you mentioned there are two places that AI really helps.",
+   "parts": [
     {
      "t0_ms": 2221420,
      "text": "growth in the quarter relative to last quarter. And I think you're seeing us be careful about how"
@@ -2431,18 +2453,7 @@
     {
      "t0_ms": 2228780,
      "text": "we go do all that. One of the things we've talked to you all about is that top of the funnel"
-    }
-   ],
-   "ts": "2026-11-03T17:36:31.100000-05:00",
-   "adj_ret_5m": 0.004275708444524073
-  },
-  {
-   "seg_id": 74,
-   "t0_ms": 2233740,
-   "t1_ms": 2272300,
-   "speaker": "Management",
-   "text": "matters a lot. Top of the funnel converts a multitude of the amount that the core base does. And so that's why you've seen us work on things like paid marketing, some of these outreach things growing in new places and new products. And I think that's a piece of the puzzle, too, on an aggregate basis. And then your second part of your question was about AI. There are two places, and you mentioned there are two places that AI really helps. One is just internal productivity. And the other one is AI features in the product. We're very happy about both. In terms of internal productivity, like I said previously",
-   "parts": [
+    },
     {
      "t0_ms": 2233740,
      "text": "matters a lot. Top of the funnel converts a multitude of the amount that the core base does."
@@ -2462,7 +2473,18 @@
     {
      "t0_ms": 2257340,
      "text": "There are two places, and you mentioned there are two places that AI really helps."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:37:01.420000-05:00",
+   "adj_ret_5m": 0.004275708444524073
+  },
+  {
+   "seg_id": 76,
+   "t0_ms": 2261900,
+   "t1_ms": 2304940,
+   "speaker": "Management",
+   "text": "One is just internal productivity. And the other one is AI features in the product. We're very happy about both. In terms of internal productivity, like I said previously in the call, we're just seeing our team be able to ship A-B tests much faster. And we're getting to the point where simpler A-B tests are now being shipped by non-engineers. So a person who's a product manager or a designer is now able to fully, from idea to it's in the app, they're able to do it now by themselves without the help of an engineer. Now that doesn't mean we don't need engineers. We need engineers for all kinds of things, including the system. We built an internal system that allows us to do that. We're",
+   "parts": [
     {
      "t0_ms": 2261900,
      "text": "One is just internal productivity. And the other one is AI features in the product."
@@ -2470,18 +2492,7 @@
     {
      "t0_ms": 2267020,
      "text": "We're very happy about both. In terms of internal productivity, like I said previously"
-    }
-   ],
-   "ts": "2026-11-03T17:37:13.740000-05:00",
-   "adj_ret_5m": 0.004275708444524073
-  },
-  {
-   "seg_id": 75,
-   "t0_ms": 2272300,
-   "t1_ms": 2313900,
-   "speaker": "Management",
-   "text": "in the call, we're just seeing our team be able to ship A-B tests much faster. And we're getting to the point where simpler A-B tests are now being shipped by non-engineers. So a person who's a product manager or a designer is now able to fully, from idea to it's in the app, they're able to do it now by themselves without the help of an engineer. Now that doesn't mean we don't need engineers. We need engineers for all kinds of things, including the system. We built an internal system that allows us to do that. We're trying to make the system better and better. So we definitely have a major need for engineers. The fact is that significantly more people are able to run their own A-B tests.",
-   "parts": [
+    },
     {
      "t0_ms": 2272300,
      "text": "in the call, we're just seeing our team be able to ship A-B tests much faster. And we're"
@@ -2505,7 +2516,18 @@
     {
      "t0_ms": 2300780,
      "text": "including the system. We built an internal system that allows us to do that. We're"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:37:41.900000-05:00",
+   "adj_ret_5m": 0.004275708444524073
+  },
+  {
+   "seg_id": 77,
+   "t0_ms": 2304940,
+   "t1_ms": 2345900,
+   "speaker": "Management",
+   "text": "trying to make the system better and better. So we definitely have a major need for engineers. The fact is that significantly more people are able to run their own A-B tests. I don't know the precise increase in the number of A-B tests we'll run next year, but it will be multiples of what we ran this year. I don't know if it'll be 3x, I don't know if it'll be 10x. I don't know because all this stuff keeps changing. But it will be multiples. So I'm very happy with that. That, I think, is one of the things that we feel bullish about. In terms of the product, you'll just see us put AI in a lot more places. We're working on a number of features, particularly for practicing speaking, that are",
+   "parts": [
     {
      "t0_ms": 2304940,
      "text": "trying to make the system better and better. So we definitely have a major need for engineers."
@@ -2513,18 +2535,7 @@
     {
      "t0_ms": 2309340,
      "text": "The fact is that significantly more people are able to run their own A-B tests."
-    }
-   ],
-   "ts": "2026-11-03T17:37:52.300000-05:00",
-   "adj_ret_5m": 0.004275708444524073
-  },
-  {
-   "seg_id": 76,
-   "t0_ms": 2315020,
-   "t1_ms": 2351260,
-   "speaker": "Management",
-   "text": "I don't know the precise increase in the number of A-B tests we'll run next year, but it will be multiples of what we ran this year. I don't know if it'll be 3x, I don't know if it'll be 10x. I don't know because all this stuff keeps changing. But it will be multiples. So I'm very happy with that. That, I think, is one of the things that we feel bullish about. In terms of the product, you'll just see us put AI in a lot more places. We're working on a number of features, particularly for practicing speaking, that are not just video call, that you'll see there. And in addition to that, you'll just see",
-   "parts": [
+    },
     {
      "t0_ms": 2315020,
      "text": "I don't know the precise increase in the number of A-B tests we'll run next year, but"
@@ -2548,22 +2559,22 @@
     {
      "t0_ms": 2340300,
      "text": "places. We're working on a number of features, particularly for practicing speaking, that are"
-    },
-    {
-     "t0_ms": 2345900,
-     "text": "not just video call, that you'll see there. And in addition to that, you'll just see"
     }
    ],
-   "ts": "2026-11-03T17:38:35.020000-05:00",
+   "ts": "2026-11-03T17:38:24.940000-05:00",
    "adj_ret_5m": 0.009137462830489107
   },
   {
-   "seg_id": 77,
-   "t0_ms": 2351820,
+   "seg_id": 78,
+   "t0_ms": 2345900,
    "t1_ms": 2366460,
    "speaker": "Management",
-   "text": "improvements in how fast we can ship new teaching modules, let's call them. For example, we're just going to teach a lot more chess, a lot more content. We're able to just ship it",
+   "text": "not just video call, that you'll see there. And in addition to that, you'll just see improvements in how fast we can ship new teaching modules, let's call them. For example, we're just going to teach a lot more chess, a lot more content. We're able to just ship it",
    "parts": [
+    {
+     "t0_ms": 2345900,
+     "text": "not just video call, that you'll see there. And in addition to that, you'll just see"
+    },
     {
      "t0_ms": 2351820,
      "text": "improvements in how fast we can ship new teaching modules, let's call them. For example,"
@@ -2573,11 +2584,11 @@
      "text": "we're just going to teach a lot more chess, a lot more content. We're able to just ship it"
     }
    ],
-   "ts": "2026-11-03T17:39:11.820000-05:00",
+   "ts": "2026-11-03T17:39:05.900000-05:00",
    "adj_ret_5m": 0.0034810639523581433
   },
   {
-   "seg_id": 78,
+   "seg_id": 79,
    "t0_ms": 2366460,
    "t1_ms": 2374800,
    "speaker": "Operator",
@@ -2592,11 +2603,11 @@
    "adj_ret_5m": 0.0034810639523581433
   },
   {
-   "seg_id": 79,
+   "seg_id": 80,
    "t0_ms": 2374800,
-   "t1_ms": 2392320,
+   "t1_ms": 2406800,
    "speaker": "Analyst",
-   "text": "James. Please unmute your audio and video and ask your question. Great, thank you. Two-part question for me on gross margin. First, maybe for you, Gillian. Will the sun setting at max have any impact on gross margin beyond what you've outlined in the fourth quarter?",
+   "text": "James. Please unmute your audio and video and ask your question. Great, thank you. Two-part question for me on gross margin. First, maybe for you, Gillian. Will the sun setting at max have any impact on gross margin beyond what you've outlined in the fourth quarter? And then second, for you, Luis, the mix of direct payments outside the App Store, any change to how you're thinking about that opportunity either just as a result of the rise in personal agents to drive traffic more direct to you or just more time in market testing?",
    "parts": [
     {
      "t0_ms": 2374800,
@@ -2609,18 +2620,7 @@
     {
      "t0_ms": 2387600,
      "text": "at max have any impact on gross margin beyond what you've outlined in the fourth quarter?"
-    }
-   ],
-   "ts": "2026-11-03T17:39:34.800000-05:00",
-   "adj_ret_5m": 0.0034810639523581433
-  },
-  {
-   "seg_id": 80,
-   "t0_ms": 2392320,
-   "t1_ms": 2431600,
-   "speaker": "Management",
-   "text": "And then second, for you, Luis, the mix of direct payments outside the App Store, any change to how you're thinking about that opportunity either just as a result of the rise in personal agents to drive traffic more direct to you or just more time in market testing? Thanks. So Alex, our guidance for the fourth quarter, which implies gross margin will come down just about a point-ish, is inclusive of the transition we're expecting on max. I think as you've seen our team do all year, we're always having an eye to how do we get more efficient with our AI spend. But I think we also want to fit more AI in the product and then balance that",
-   "parts": [
+    },
     {
      "t0_ms": 2392320,
      "text": "And then second, for you, Luis, the mix of direct payments outside the App Store,"
@@ -2632,7 +2632,18 @@
     {
      "t0_ms": 2402160,
      "text": "in personal agents to drive traffic more direct to you or just more time in market testing?"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:39:34.800000-05:00",
+   "adj_ret_5m": 0.0034810639523581433
+  },
+  {
+   "seg_id": 81,
+   "t0_ms": 2406800,
+   "t1_ms": 2447680,
+   "speaker": "Management",
+   "text": "Thanks. So Alex, our guidance for the fourth quarter, which implies gross margin will come down just about a point-ish, is inclusive of the transition we're expecting on max. I think as you've seen our team do all year, we're always having an eye to how do we get more efficient with our AI spend. But I think we also want to fit more AI in the product and then balance that to our bottom line. So you will, we believe, see some decline in the gross margin sequentially, but still a very attractive number. And we'll be able to put a lot more AI content in the product and do the max transition as well. Yeah. And in terms of direct payments,",
+   "parts": [
     {
      "t0_ms": 2406800,
      "text": "Thanks. So Alex, our guidance for the fourth quarter, which implies gross margin will come"
@@ -2648,18 +2659,7 @@
     {
      "t0_ms": 2425040,
      "text": "our AI spend. But I think we also want to fit more AI in the product and then balance that"
-    }
-   ],
-   "ts": "2026-11-03T17:39:52.320000-05:00",
-   "adj_ret_5m": 0.0034810639523581433
-  },
-  {
-   "seg_id": 81,
-   "t0_ms": 2431600,
-   "t1_ms": 2476400,
-   "speaker": "Management",
-   "text": "to our bottom line. So you will, we believe, see some decline in the gross margin sequentially, but still a very attractive number. And we'll be able to put a lot more AI content in the product and do the max transition as well. Yeah. And in terms of direct payments, we do, for the longest time, at least in our apps, I mean, we have an iPhone app, an Android app, and a website. For the longest time, you could only do direct payments on our website. We can now do direct payments in certain regions or for certain users for our apps. We do use it in certain cases. And particularly one of the places where we're using it quite a bit is in performance marketing. When we acquire user-report performance marketing, we actually acquire them to a website and then get them to download the app. That's pretty",
-   "parts": [
+    },
     {
      "t0_ms": 2431600,
      "text": "to our bottom line. So you will, we believe, see some decline in the gross margin sequentially,"
@@ -2671,7 +2671,18 @@
     {
      "t0_ms": 2442880,
      "text": "product and do the max transition as well. Yeah. And in terms of direct payments,"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:40:06.800000-05:00",
+   "adj_ret_5m": -0.0034965034965035446
+  },
+  {
+   "seg_id": 82,
+   "t0_ms": 2448160,
+   "t1_ms": 2491520,
+   "speaker": "Management",
+   "text": "we do, for the longest time, at least in our apps, I mean, we have an iPhone app, an Android app, and a website. For the longest time, you could only do direct payments on our website. We can now do direct payments in certain regions or for certain users for our apps. We do use it in certain cases. And particularly one of the places where we're using it quite a bit is in performance marketing. When we acquire user-report performance marketing, we actually acquire them to a website and then get them to download the app. That's pretty standard practice. So you'll see us do some of that. I don't know, just by judging the number of people we have working on this, I don't know if this is going to be a major driver for next year. I mean, we do use them in different places, but it is not the case that",
+   "parts": [
     {
      "t0_ms": 2448160,
      "text": "we do, for the longest time, at least in our apps, I mean, we have an iPhone app, an Android app,"
@@ -2695,18 +2706,7 @@
     {
      "t0_ms": 2472560,
      "text": "we actually acquire them to a website and then get them to download the app. That's pretty"
-    }
-   ],
-   "ts": "2026-11-03T17:40:31.600000-05:00",
-   "adj_ret_5m": -0.0034965034965035446
-  },
-  {
-   "seg_id": 82,
-   "t0_ms": 2476400,
-   "t1_ms": 2515120,
-   "speaker": "Management",
-   "text": "standard practice. So you'll see us do some of that. I don't know, just by judging the number of people we have working on this, I don't know if this is going to be a major driver for next year. I mean, we do use them in different places, but it is not the case that at the moment where we must switch everything to direct payments. That's not currently in the cards. Got it. And as it relates to the record Q3 gross margin, you wouldn't attribute any of that to the growing mix of driving traffic directly to yourself? No, the main delta in the gross margin was better revenue and less AI costs than we expected",
-   "parts": [
+    },
     {
      "t0_ms": 2476400,
      "text": "standard practice. So you'll see us do some of that. I don't know, just by judging"
@@ -2718,11 +2718,33 @@
     {
      "t0_ms": 2487440,
      "text": "for next year. I mean, we do use them in different places, but it is not the case that"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:40:48.160000-05:00",
+   "adj_ret_5m": -0.0034965034965035446
+  },
+  {
+   "seg_id": 83,
+   "t0_ms": 2491520,
+   "t1_ms": 2496800,
+   "speaker": "Management",
+   "text": "at the moment where we must switch everything to direct payments. That's not currently in",
+   "parts": [
     {
      "t0_ms": 2491520,
      "text": "at the moment where we must switch everything to direct payments. That's not currently in"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:41:31.520000-05:00",
+   "adj_ret_5m": -0.002797202797202858
+  },
+  {
+   "seg_id": 84,
+   "t0_ms": 2496800,
+   "t1_ms": 2507520,
+   "speaker": "Analyst",
+   "text": "the cards. Got it. And as it relates to the record Q3 gross margin, you wouldn't attribute any of that to the growing mix of driving traffic directly to yourself?",
+   "parts": [
     {
      "t0_ms": 2496800,
      "text": "the cards. Got it. And as it relates to the record Q3 gross margin, you wouldn't attribute"
@@ -2730,41 +2752,52 @@
     {
      "t0_ms": 2503120,
      "text": "any of that to the growing mix of driving traffic directly to yourself?"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:41:36.800000-05:00",
+   "adj_ret_5m": -0.002797202797202858
+  },
+  {
+   "seg_id": 85,
+   "t0_ms": 2507520,
+   "t1_ms": 2515120,
+   "speaker": "Management",
+   "text": "No, the main delta in the gross margin was better revenue and less AI costs than we expected",
+   "parts": [
     {
      "t0_ms": 2507520,
      "text": "No, the main delta in the gross margin was better revenue and less AI costs than we expected"
     }
    ],
-   "ts": "2026-11-03T17:41:16.400000-05:00",
+   "ts": "2026-11-03T17:41:47.520000-05:00",
    "adj_ret_5m": -0.002797202797202858
   },
   {
-   "seg_id": 83,
+   "seg_id": 86,
    "t0_ms": 2515120,
-   "t1_ms": 2520080,
+   "t1_ms": 2523280,
    "speaker": "Operator",
-   "text": "going through. All right. Thank you both. Your next question comes from the line of Ross",
+   "text": "going through. All right. Thank you both. Your next question comes from the line of Ross Sandler with Barclays. Please unmute your audio and video and ask your question.",
    "parts": [
     {
      "t0_ms": 2515120,
      "text": "going through. All right. Thank you both. Your next question comes from the line of Ross"
+    },
+    {
+     "t0_ms": 2520080,
+     "text": "Sandler with Barclays. Please unmute your audio and video and ask your question."
     }
    ],
    "ts": "2026-11-03T17:41:55.120000-05:00",
    "adj_ret_5m": -0.002797202797202858
   },
   {
-   "seg_id": 84,
-   "t0_ms": 2520080,
-   "t1_ms": 2564240,
+   "seg_id": 87,
+   "t0_ms": 2524320,
+   "t1_ms": 2568960,
    "speaker": "Analyst",
-   "text": "Sandler with Barclays. Please unmute your audio and video and ask your question. Hey guys. Louise, I wanted to go back to the big picture with AI. So we can all see that AI is progressing at a pretty massive clip. The models are getting better. The latency is getting faster. Meta even followed you guys with kind of a sassy avatar launch recently. But, you know, the question I have is that like, there's some academic research that says one-on-one tutoring is sort of one of the best ways for anyone to kind of learn a new subject.",
+   "text": "Hey guys. Louise, I wanted to go back to the big picture with AI. So we can all see that AI is progressing at a pretty massive clip. The models are getting better. The latency is getting faster. Meta even followed you guys with kind of a sassy avatar launch recently. But, you know, the question I have is that like, there's some academic research that says one-on-one tutoring is sort of one of the best ways for anyone to kind of learn a new subject. So you talked a little bit earlier about how you're going to integrate some of these,",
    "parts": [
-    {
-     "t0_ms": 2520080,
-     "text": "Sandler with Barclays. Please unmute your audio and video and ask your question."
-    },
     {
      "t0_ms": 2524320,
      "text": "Hey guys. Louise, I wanted to go back to the big picture with AI. So we can all see"
@@ -2784,37 +2817,26 @@
     {
      "t0_ms": 2555360,
      "text": "one-on-one tutoring is sort of one of the best ways for anyone to kind of learn a new subject."
-    }
-   ],
-   "ts": "2026-11-03T17:42:00.080000-05:00",
-   "adj_ret_5m": -0.002797202797202858
-  },
-  {
-   "seg_id": 85,
-   "t0_ms": 2564240,
-   "t1_ms": 2577200,
-   "speaker": "Analyst",
-   "text": "So you talked a little bit earlier about how you're going to integrate some of these, you know, more native AI interactive elements to the app. Right now it's been like kind of an",
-   "parts": [
+    },
     {
      "t0_ms": 2564240,
      "text": "So you talked a little bit earlier about how you're going to integrate some of these,"
-    },
-    {
-     "t0_ms": 2570080,
-     "text": "you know, more native AI interactive elements to the app. Right now it's been like kind of an"
     }
    ],
-   "ts": "2026-11-03T17:42:44.240000-05:00",
+   "ts": "2026-11-03T17:42:04.320000-05:00",
    "adj_ret_5m": -0.002797202797202858
   },
   {
-   "seg_id": 86,
-   "t0_ms": 2577200,
-   "t1_ms": 2618960,
-   "speaker": "Management",
-   "text": "add-on with video, but I'm curious how you're thinking about like the long-term, could these become much more core versus kind of the tap and learn gamified tap and learn use case that we started with at Duolingo? And, you know, how does that change, I guess, the business model for Duolingo as you integrate more of that? Just thoughts on that would be great. Yeah, it's a great question. And when we think about a lot, we know today, you know, a few years ago, maybe four or five years ago, we did a bunch of research that shows that Duolingo was about as good as a classroom for language learning. We've gotten better to the point where I'm pretty sure",
+   "seg_id": 88,
+   "t0_ms": 2570080,
+   "t1_ms": 2602400,
+   "speaker": "Analyst",
+   "text": "you know, more native AI interactive elements to the app. Right now it's been like kind of an add-on with video, but I'm curious how you're thinking about like the long-term, could these become much more core versus kind of the tap and learn gamified tap and learn use case that we started with at Duolingo? And, you know, how does that change, I guess, the business model for Duolingo as you integrate more of that? Just thoughts on that would be great. Yeah,",
    "parts": [
+    {
+     "t0_ms": 2570080,
+     "text": "you know, more native AI interactive elements to the app. Right now it's been like kind of an"
+    },
     {
      "t0_ms": 2577200,
      "text": "add-on with video, but I'm curious how you're thinking about like the long-term, could these"
@@ -2830,7 +2852,18 @@
     {
      "t0_ms": 2597360,
      "text": "for Duolingo as you integrate more of that? Just thoughts on that would be great. Yeah,"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:42:50.080000-05:00",
+   "adj_ret_5m": -0.002797202797202858
+  },
+  {
+   "seg_id": 89,
+   "t0_ms": 2602400,
+   "t1_ms": 2646720,
+   "speaker": "Management",
+   "text": "it's a great question. And when we think about a lot, we know today, you know, a few years ago, maybe four or five years ago, we did a bunch of research that shows that Duolingo was about as good as a classroom for language learning. We've gotten better to the point where I'm pretty sure we're better than a classroom now. But we are today not as good as a one-on-one human tutor. Nothing has gotten as good as a one-on-one, a good one-on-one human tutor is still better than where we're at now. We think that over the next few years, we will be able to be as good as a one-on-one human tutor because we just see how much we're improving every year. I mean, the thing about one-on-one human tutors is that they're not improving. They're like, it's about as good as we are, but we're improving. So we think we're going to get there.",
+   "parts": [
     {
      "t0_ms": 2602400,
      "text": "it's a great question. And when we think about a lot, we know today, you know, a few years"
@@ -2842,18 +2875,7 @@
     {
      "t0_ms": 2614880,
      "text": "good as a classroom for language learning. We've gotten better to the point where I'm pretty sure"
-    }
-   ],
-   "ts": "2026-11-03T17:42:57.200000-05:00",
-   "adj_ret_5m": -0.002797202797202858
-  },
-  {
-   "seg_id": 87,
-   "t0_ms": 2618960,
-   "t1_ms": 2662960,
-   "speaker": "Management",
-   "text": "we're better than a classroom now. But we are today not as good as a one-on-one human tutor. Nothing has gotten as good as a one-on-one, a good one-on-one human tutor is still better than where we're at now. We think that over the next few years, we will be able to be as good as a one-on-one human tutor because we just see how much we're improving every year. I mean, the thing about one-on-one human tutors is that they're not improving. They're like, it's about as good as we are, but we're improving. So we think we're going to get there. Now, there's something very important to mention, which is that to a large extent, even though one-on-one human tutors are very effective at teaching, to a large extent, most people don't want to do that. I mean, there's a small fraction of people that are",
-   "parts": [
+    },
     {
      "t0_ms": 2618960,
      "text": "we're better than a classroom now. But we are today not as good as a one-on-one human tutor."
@@ -2877,7 +2899,18 @@
     {
      "t0_ms": 2641920,
      "text": "like, it's about as good as we are, but we're improving. So we think we're going to get there."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:43:22.400000-05:00",
+   "adj_ret_5m": -0.009623307500445377
+  },
+  {
+   "seg_id": 90,
+   "t0_ms": 2646720,
+   "t1_ms": 2688720,
+   "speaker": "Management",
+   "text": "Now, there's something very important to mention, which is that to a large extent, even though one-on-one human tutors are very effective at teaching, to a large extent, most people don't want to do that. I mean, there's a small fraction of people that are willing to do that, but most people just don't want to, even if it's given out for free. It happens that it's not that compelling of an experience on your mobile phone when compared to TikTok or Instagram or whatever. It's just not that compelling. So what we want to do is we want to have something that is as effective as a one-on-one human tutor, and we think we can do it, but it will not look like a one-on-one human tutor. It will, in the end, still feel",
+   "parts": [
     {
      "t0_ms": 2646720,
      "text": "Now, there's something very important to mention, which is that to a large extent,"
@@ -2889,18 +2922,7 @@
     {
      "t0_ms": 2658000,
      "text": "most people don't want to do that. I mean, there's a small fraction of people that are"
-    }
-   ],
-   "ts": "2026-11-03T17:43:38.960000-05:00",
-   "adj_ret_5m": -0.009623307500445377
-  },
-  {
-   "seg_id": 88,
-   "t0_ms": 2662960,
-   "t1_ms": 2705360,
-   "speaker": "Management",
-   "text": "willing to do that, but most people just don't want to, even if it's given out for free. It happens that it's not that compelling of an experience on your mobile phone when compared to TikTok or Instagram or whatever. It's just not that compelling. So what we want to do is we want to have something that is as effective as a one-on-one human tutor, and we think we can do it, but it will not look like a one-on-one human tutor. It will, in the end, still feel gamified because ultimately the thing that is most important, even though one-on-one human tutors are very efficient and effective, the thing that is most important, the major failure mode, is people just dropping off. You can have a very effective one-on-one human tutor, but people will be like, yeah, I'm going to stop going to that.",
-   "parts": [
+    },
     {
      "t0_ms": 2662960,
      "text": "willing to do that, but most people just don't want to, even if it's given out for free."
@@ -2920,7 +2942,18 @@
     {
      "t0_ms": 2683600,
      "text": "it, but it will not look like a one-on-one human tutor. It will, in the end, still feel"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:44:06.720000-05:00",
+   "adj_ret_5m": -0.004894762604013669
+  },
+  {
+   "seg_id": 91,
+   "t0_ms": 2688720,
+   "t1_ms": 2731760,
+   "speaker": "Management",
+   "text": "gamified because ultimately the thing that is most important, even though one-on-one human tutors are very efficient and effective, the thing that is most important, the major failure mode, is people just dropping off. You can have a very effective one-on-one human tutor, but people will be like, yeah, I'm going to stop going to that. So what we're working on is it'll still feel gamified, but you will see a lot more AI in there for us trying to meet you where you are. I mean, by the way, the reason one-on-one human tutors are better than a classroom or better than what we do right now is that they are really good at adapting to you. They're just, they just, and they do even things like they read your facial expression. When they're saying something to you, they can see that you're like,",
+   "parts": [
     {
      "t0_ms": 2688720,
      "text": "gamified because ultimately the thing that is most important, even though one-on-one human"
@@ -2936,18 +2969,7 @@
     {
      "t0_ms": 2702800,
      "text": "but people will be like, yeah, I'm going to stop going to that."
-    }
-   ],
-   "ts": "2026-11-03T17:44:22.960000-05:00",
-   "adj_ret_5m": -0.004894762604013669
-  },
-  {
-   "seg_id": 89,
-   "t0_ms": 2706480,
-   "t1_ms": 2748160,
-   "speaker": "Management",
-   "text": "So what we're working on is it'll still feel gamified, but you will see a lot more AI in there for us trying to meet you where you are. I mean, by the way, the reason one-on-one human tutors are better than a classroom or better than what we do right now is that they are really good at adapting to you. They're just, they just, and they do even things like they read your facial expression. When they're saying something to you, they can see that you're like, you look confused. So you don't even have to say anything. They quickly adapt to you. That's why they're so good. And this, I believe the technology to do that is just getting better and better, and we'll be able to do that. It'll take some time, but we'll get there, I think. And then Ross, the sheer number of users of Duolingo and the database we have",
-   "parts": [
+    },
     {
      "t0_ms": 2706480,
      "text": "So what we're working on is it'll still feel gamified, but you will see a lot more AI in"
@@ -2967,7 +2989,18 @@
     {
      "t0_ms": 2728240,
      "text": "your facial expression. When they're saying something to you, they can see that you're like,"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:44:48.720000-05:00",
+   "adj_ret_5m": -0.004894762604013669
+  },
+  {
+   "seg_id": 92,
+   "t0_ms": 2731760,
+   "t1_ms": 2776080,
+   "speaker": "Management",
+   "text": "you look confused. So you don't even have to say anything. They quickly adapt to you. That's why they're so good. And this, I believe the technology to do that is just getting better and better, and we'll be able to do that. It'll take some time, but we'll get there, I think. And then Ross, the sheer number of users of Duolingo and the database we have puts us in a position to do the best that can be out there in the market. I think that's a really powerful thing that we have, that just the incredible number of people who use us every single day and working off that data to come up with the exact right way to teach them. Yeah. I mean, that's a really good point. The data that we have in terms of people learning. I mean, I don't think anybody, well, we know we just, nobody has the amount of data of people learning that we do. Thank you. Your next question comes from",
+   "parts": [
     {
      "t0_ms": 2731760,
      "text": "you look confused. So you don't even have to say anything. They quickly adapt to you."
@@ -2983,18 +3016,7 @@
     {
      "t0_ms": 2743120,
      "text": "there, I think. And then Ross, the sheer number of users of Duolingo and the database we have"
-    }
-   ],
-   "ts": "2026-11-03T17:45:06.480000-05:00",
-   "adj_ret_5m": -0.0035087719298245723
-  },
-  {
-   "seg_id": 90,
-   "t0_ms": 2748160,
-   "t1_ms": 2770160,
-   "speaker": "Management",
-   "text": "puts us in a position to do the best that can be out there in the market. I think that's a really powerful thing that we have, that just the incredible number of people who use us every single day and working off that data to come up with the exact right way to teach them. Yeah. I mean, that's a really good point. The data that we have in terms of people learning. I mean, I don't think anybody, well, we know we just, nobody has the amount",
-   "parts": [
+    },
     {
      "t0_ms": 2748160,
      "text": "puts us in a position to do the best that can be out there in the market."
@@ -3014,37 +3036,37 @@
     {
      "t0_ms": 2766080,
      "text": "people learning. I mean, I don't think anybody, well, we know we just, nobody has the amount"
-    }
-   ],
-   "ts": "2026-11-03T17:45:48.160000-05:00",
-   "adj_ret_5m": -0.0035087719298245723
-  },
-  {
-   "seg_id": 91,
-   "t0_ms": 2770160,
-   "t1_ms": 2776080,
-   "speaker": "Operator",
-   "text": "of data of people learning that we do. Thank you. Your next question comes from",
-   "parts": [
+    },
     {
      "t0_ms": 2770160,
      "text": "of data of people learning that we do. Thank you. Your next question comes from"
     }
    ],
-   "ts": "2026-11-03T17:46:10.160000-05:00",
-   "adj_ret_5m": -0.00364656381486661
+   "ts": "2026-11-03T17:45:31.760000-05:00",
+   "adj_ret_5m": -0.0035087719298245723
   },
   {
-   "seg_id": 92,
+   "seg_id": 93,
    "t0_ms": 2776160,
-   "t1_ms": 2814960,
-   "speaker": "Analyst",
-   "text": "Alina of Nathan Feather with Morgan Stanley. Please unmute your audio and video and ask your question. Hey, everyone. Two on my end. First, when you talk about focusing more on monetization next year than you did this year, what does that actually mean internally? Is that more people dedicated to monetization tasks? Is that changing the hurdles for what you accept? How should we think about what that actually means? And then second, just given the real success of the chess course, how are you thinking about new course expansion, both in terms of the timeline for when you might pursue that a little more aggressively, but also the type of subjects you think would be applicable here may be different than what you had tried previously. Thank you.",
+   "t1_ms": 2779920,
+   "speaker": "Operator",
+   "text": "Alina of Nathan Feather with Morgan Stanley. Please unmute your audio and video and ask your",
    "parts": [
     {
      "t0_ms": 2776160,
      "text": "Alina of Nathan Feather with Morgan Stanley. Please unmute your audio and video and ask your"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:46:16.160000-05:00",
+   "adj_ret_5m": -0.00364656381486661
+  },
+  {
+   "seg_id": 94,
+   "t0_ms": 2779920,
+   "t1_ms": 2814960,
+   "speaker": "Analyst",
+   "text": "question. Hey, everyone. Two on my end. First, when you talk about focusing more on monetization next year than you did this year, what does that actually mean internally? Is that more people dedicated to monetization tasks? Is that changing the hurdles for what you accept? How should we think about what that actually means? And then second, just given the real success of the chess course, how are you thinking about new course expansion, both in terms of the timeline for when you might pursue that a little more aggressively, but also the type of subjects you think would be applicable here may be different than what you had tried previously. Thank you.",
+   "parts": [
     {
      "t0_ms": 2779920,
      "text": "question. Hey, everyone. Two on my end. First, when you talk about focusing more on monetization"
@@ -3074,11 +3096,11 @@
      "text": "think would be applicable here may be different than what you had tried previously. Thank you."
     }
    ],
-   "ts": "2026-11-03T17:46:16.160000-05:00",
+   "ts": "2026-11-03T17:46:19.920000-05:00",
    "adj_ret_5m": -0.00364656381486661
   },
   {
-   "seg_id": 93,
+   "seg_id": 95,
    "t0_ms": 2815840,
    "t1_ms": 2859120,
    "speaker": "Management",
@@ -3125,7 +3147,7 @@
    "adj_ret_5m": -0.00364656381486661
   },
   {
-   "seg_id": 94,
+   "seg_id": 96,
    "t0_ms": 2860320,
    "t1_ms": 2890030,
    "speaker": "Management",
@@ -3152,31 +3174,31 @@
    "adj_ret_5m": -0.00364656381486661
   },
   {
-   "seg_id": 95,
+   "seg_id": 97,
    "t0_ms": 2892110,
-   "t1_ms": 2896190,
+   "t1_ms": 2900340,
    "speaker": "Operator",
-   "text": "Your next question will be audio only from the line of Arvind Ramnani with Truist. Please",
+   "text": "Your next question will be audio only from the line of Arvind Ramnani with Truist. Please unmute your audio and ask your question. Hi, Arvind.",
    "parts": [
     {
      "t0_ms": 2892110,
      "text": "Your next question will be audio only from the line of Arvind Ramnani with Truist. Please"
+    },
+    {
+     "t0_ms": 2896190,
+     "text": "unmute your audio and ask your question. Hi, Arvind."
     }
    ],
    "ts": "2026-11-03T17:48:12.110000-05:00",
    "adj_ret_5m": -0.0014756517461879115
   },
   {
-   "seg_id": 96,
-   "t0_ms": 2896190,
-   "t1_ms": 2924380,
+   "seg_id": 98,
+   "t0_ms": 2904300,
+   "t1_ms": 2934060,
    "speaker": "Analyst",
-   "text": "unmute your audio and ask your question. Hi, Arvind. Thanks for doing this. I don't know why my video is notching, but nevertheless, I just really want to ask about these inference costs and DAUs. So you've had a nice jump in your DAUs up like 30%. What is that doing to inference cost per DAU?",
+   "text": "Thanks for doing this. I don't know why my video is notching, but nevertheless, I just really want to ask about these inference costs and DAUs. So you've had a nice jump in your DAUs up like 30%. What is that doing to inference cost per DAU? Are you seeing your cost per user coming down faster than AI usage per user going up?",
    "parts": [
-    {
-     "t0_ms": 2896190,
-     "text": "unmute your audio and ask your question. Hi, Arvind."
-    },
     {
      "t0_ms": 2904300,
      "text": "Thanks for doing this. I don't know why my video is notching, but nevertheless,"
@@ -3188,22 +3210,22 @@
     {
      "t0_ms": 2915020,
      "text": "jump in your DAUs up like 30%. What is that doing to inference cost per DAU?"
-    }
-   ],
-   "ts": "2026-11-03T17:48:16.190000-05:00",
-   "adj_ret_5m": -0.0014756517461879115
-  },
-  {
-   "seg_id": 97,
-   "t0_ms": 2926220,
-   "t1_ms": 2970780,
-   "speaker": "Management",
-   "text": "Are you seeing your cost per user coming down faster than AI usage per user going up? Yeah, we are seeing that. We have been putting a lot more AI in the product, and we are seeing cost per DAU come down quite significantly. The main reason is for the majority of our uses, open weight models are about as good as frontier models. There are some small cases where a frontier model is still needed, but for the majority of our uses, the open weight models are plenty good. So whenever we're able to switch from using a frontier model to an open",
-   "parts": [
+    },
     {
      "t0_ms": 2926220,
      "text": "Are you seeing your cost per user coming down faster than AI usage per user going up?"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:48:24.300000-05:00",
+   "adj_ret_5m": -0.0014756517461879115
+  },
+  {
+   "seg_id": 99,
+   "t0_ms": 2934140,
+   "t1_ms": 2976220,
+   "speaker": "Management",
+   "text": "Yeah, we are seeing that. We have been putting a lot more AI in the product, and we are seeing cost per DAU come down quite significantly. The main reason is for the majority of our uses, open weight models are about as good as frontier models. There are some small cases where a frontier model is still needed, but for the majority of our uses, the open weight models are plenty good. So whenever we're able to switch from using a frontier model to an open weight model, the cost savings are pretty high, and we're able to do that quite a bit. So our",
+   "parts": [
     {
      "t0_ms": 2934140,
      "text": "Yeah, we are seeing that. We have been putting a lot more AI in the product, and we are seeing"
@@ -3223,26 +3245,37 @@
     {
      "t0_ms": 2963180,
      "text": "models are plenty good. So whenever we're able to switch from using a frontier model to an open"
-    }
-   ],
-   "ts": "2026-11-03T17:48:46.220000-05:00",
-   "adj_ret_5m": -0.0014756517461879115
-  },
-  {
-   "seg_id": 98,
-   "t0_ms": 2970780,
-   "t1_ms": 3010700,
-   "speaker": "Management",
-   "text": "weight model, the cost savings are pretty high, and we're able to do that quite a bit. So our team has done a really great job at being responsible about that. Yeah, of course. And I think at the forefront of it, it seems like that's what the more experienced or the most sophisticated users of AI are doing is they start with the frontier models and they eventually migrate, particularly if you have a level of sophistication. And I guess the other thing is you want to put more AI in the free experience to drive the growth. And I think you've cited",
-   "parts": [
+    },
     {
      "t0_ms": 2970780,
      "text": "weight model, the cost savings are pretty high, and we're able to do that quite a bit. So our"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:48:54.140000-05:00",
+   "adj_ret_5m": -0.0014756517461879115
+  },
+  {
+   "seg_id": 100,
+   "t0_ms": 2976220,
+   "t1_ms": 2982300,
+   "speaker": "Management",
+   "text": "team has done a really great job at being responsible about that. Yeah, of course. And",
+   "parts": [
     {
      "t0_ms": 2976220,
      "text": "team has done a really great job at being responsible about that. Yeah, of course. And"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:49:36.220000-05:00",
+   "adj_ret_5m": -0.0014756517461879115
+  },
+  {
+   "seg_id": 101,
+   "t0_ms": 2982300,
+   "t1_ms": 3025500,
+   "speaker": "Analyst",
+   "text": "I think at the forefront of it, it seems like that's what the more experienced or the most sophisticated users of AI are doing is they start with the frontier models and they eventually migrate, particularly if you have a level of sophistication. And I guess the other thing is you want to put more AI in the free experience to drive the growth. And I think you've cited as one of the big reasons the cost of video dropped like 95% or whatever. So the question I'm going to ask is where does inference cost for your free user stop making sense? Inference",
+   "parts": [
     {
      "t0_ms": 2982300,
      "text": "I think at the forefront of it, it seems like that's what the more experienced or the"
@@ -3258,18 +3291,7 @@
     {
      "t0_ms": 3003420,
      "text": "you want to put more AI in the free experience to drive the growth. And I think you've cited"
-    }
-   ],
-   "ts": "2026-11-03T17:49:30.780000-05:00",
-   "adj_ret_5m": -0.0014756517461879115
-  },
-  {
-   "seg_id": 99,
-   "t0_ms": 3010700,
-   "t1_ms": 3054620,
-   "speaker": "Management",
-   "text": "as one of the big reasons the cost of video dropped like 95% or whatever. So the question I'm going to ask is where does inference cost for your free user stop making sense? Inference is you can deliver that very inexpensively, but it's a break point where inference cost for free user really doesn't make any sense. And you say like, yeah, we're going to stop giving this to the free user. Yeah, I guess the way I'll answer your question is that we are going to spend some on inference cost in free users next year. It's not a ton, but we are going to spend",
-   "parts": [
+    },
     {
      "t0_ms": 3010700,
      "text": "as one of the big reasons the cost of video dropped like 95% or whatever. So the question"
@@ -3277,7 +3299,18 @@
     {
      "t0_ms": 3019100,
      "text": "I'm going to ask is where does inference cost for your free user stop making sense? Inference"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:49:42.300000-05:00",
+   "adj_ret_5m": -0.0014756517461879115
+  },
+  {
+   "seg_id": 102,
+   "t0_ms": 3025500,
+   "t1_ms": 3037100,
+   "speaker": "Analyst",
+   "text": "is you can deliver that very inexpensively, but it's a break point where inference cost for free user really doesn't make any sense. And you say like, yeah, we're going to stop giving this",
+   "parts": [
     {
      "t0_ms": 3025500,
      "text": "is you can deliver that very inexpensively, but it's a break point where inference cost for free"
@@ -3285,7 +3318,18 @@
     {
      "t0_ms": 3032220,
      "text": "user really doesn't make any sense. And you say like, yeah, we're going to stop giving this"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:50:25.500000-05:00",
+   "adj_ret_5m": 0.0007042253521125641
+  },
+  {
+   "seg_id": 103,
+   "t0_ms": 3037900,
+   "t1_ms": 3065100,
+   "speaker": "Management",
+   "text": "to the free user. Yeah, I guess the way I'll answer your question is that we are going to spend some on inference cost in free users next year. It's not a ton, but we are going to spend some on that because we do want to give some of these AI features to free users. But you call it single digit millions that we're going to spend next year on inference cost for free users",
+   "parts": [
     {
      "t0_ms": 3037900,
      "text": "to the free user. Yeah, I guess the way I'll answer your question is that we are going to"
@@ -3293,18 +3337,7 @@
     {
      "t0_ms": 3046540,
      "text": "spend some on inference cost in free users next year. It's not a ton, but we are going to spend"
-    }
-   ],
-   "ts": "2026-11-03T17:50:10.700000-05:00",
-   "adj_ret_5m": 0.0007042253521125641
-  },
-  {
-   "seg_id": 100,
-   "t0_ms": 3054620,
-   "t1_ms": 3099420,
-   "speaker": "Management",
-   "text": "some on that because we do want to give some of these AI features to free users. But you call it single digit millions that we're going to spend next year on inference cost for free users on kind of live inference costs. Yeah. And sorry, last question on this is are you still like, and I'm not looking for the next quarter, but are you still a few years away where your business becomes large enough where you basically are going to own some of the compute or how are you accessing this? Are you using the AI cloud? Are you using the inference providers? Are you doing this internally? Like how are you accessing the inference or the compute to do this? Yeah, I mean, it's all of the above. I think the majority",
-   "parts": [
+    },
     {
      "t0_ms": 3054620,
      "text": "some on that because we do want to give some of these AI features to free users. But you call it"
@@ -3312,7 +3345,18 @@
     {
      "t0_ms": 3061260,
      "text": "single digit millions that we're going to spend next year on inference cost for free users"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:50:37.900000-05:00",
+   "adj_ret_5m": 0.0007042253521125641
+  },
+  {
+   "seg_id": 104,
+   "t0_ms": 3065100,
+   "t1_ms": 3092540,
+   "speaker": "Analyst",
+   "text": "on kind of live inference costs. Yeah. And sorry, last question on this is are you still like, and I'm not looking for the next quarter, but are you still a few years away where your business becomes large enough where you basically are going to own some of the compute or how are you accessing this? Are you using the AI cloud? Are you using the inference providers? Are you doing this internally? Like how are you accessing the",
+   "parts": [
     {
      "t0_ms": 3065100,
      "text": "on kind of live inference costs. Yeah. And sorry, last question on this is are you still"
@@ -3332,22 +3376,22 @@
     {
      "t0_ms": 3087580,
      "text": "inference providers? Are you doing this internally? Like how are you accessing the"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:51:05.100000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 105,
+   "t0_ms": 3092540,
+   "t1_ms": 3111820,
+   "speaker": "Management",
+   "text": "inference or the compute to do this? Yeah, I mean, it's all of the above. I think the majority right now is inference providers. But we're trying some internally, so it's kind of all of the above, but we'll do what makes sense for the business. Yeah, that's the same.",
+   "parts": [
     {
      "t0_ms": 3092540,
      "text": "inference or the compute to do this? Yeah, I mean, it's all of the above. I think the majority"
-    }
-   ],
-   "ts": "2026-11-03T17:50:54.620000-05:00",
-   "adj_ret_5m": 0.0007042253521125641
-  },
-  {
-   "seg_id": 101,
-   "t0_ms": 3099420,
-   "t1_ms": 3126060,
-   "speaker": "Management",
-   "text": "right now is inference providers. But we're trying some internally, so it's kind of all of the above, but we'll do what makes sense for the business. Yeah, that's the same. Yeah, classic A-B testing, which is always been very hard on that. Yeah, the team's really creative on this and has done a really excellent job at managing it. Yeah, perfect. Yeah, thank you very much.",
-   "parts": [
+    },
     {
      "t0_ms": 3099420,
      "text": "right now is inference providers. But we're trying some internally, so it's kind of all"
@@ -3355,49 +3399,82 @@
     {
      "t0_ms": 3105660,
      "text": "of the above, but we'll do what makes sense for the business. Yeah, that's the same."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:51:32.540000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 106,
+   "t0_ms": 3112860,
+   "t1_ms": 3118140,
+   "speaker": "Analyst",
+   "text": "Yeah, classic A-B testing, which is always been very hard on that.",
+   "parts": [
     {
      "t0_ms": 3112860,
      "text": "Yeah, classic A-B testing, which is always been very hard on that."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:51:52.860000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 107,
+   "t0_ms": 3118140,
+   "t1_ms": 3122700,
+   "speaker": "Management",
+   "text": "Yeah, the team's really creative on this and has done a really excellent job at managing it.",
+   "parts": [
     {
      "t0_ms": 3118140,
      "text": "Yeah, the team's really creative on this and has done a really excellent job at managing it."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:51:58.140000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 108,
+   "t0_ms": 3123740,
+   "t1_ms": 3126060,
+   "speaker": "Analyst",
+   "text": "Yeah, perfect. Yeah, thank you very much.",
+   "parts": [
     {
      "t0_ms": 3123740,
      "text": "Yeah, perfect. Yeah, thank you very much."
     }
    ],
-   "ts": "2026-11-03T17:51:39.420000-05:00",
+   "ts": "2026-11-03T17:52:03.740000-05:00",
    "adj_ret_5m": 0.00014076576576571576
   },
   {
-   "seg_id": 102,
+   "seg_id": 109,
    "t0_ms": 3127020,
-   "t1_ms": 3131020,
+   "t1_ms": 3133100,
    "speaker": "Operator",
-   "text": "Your next, your last question comes from the line of Ralph Scharkart with William Blair.",
+   "text": "Your next, your last question comes from the line of Ralph Scharkart with William Blair. Please unmute your audio and video and ask your question.",
    "parts": [
     {
      "t0_ms": 3127020,
      "text": "Your next, your last question comes from the line of Ralph Scharkart with William Blair."
+    },
+    {
+     "t0_ms": 3131020,
+     "text": "Please unmute your audio and video and ask your question."
     }
    ],
    "ts": "2026-11-03T17:52:07.020000-05:00",
    "adj_ret_5m": 0.00014076576576571576
   },
   {
-   "seg_id": 103,
-   "t0_ms": 3131020,
-   "t1_ms": 3152140,
+   "seg_id": 110,
+   "t0_ms": 3133660,
+   "t1_ms": 3173660,
    "speaker": "Analyst",
-   "text": "Please unmute your audio and video and ask your question. Oh, hey, Jalen. Hey, Luis. I jumped on light, so apologize if you covered this, but you mentioned on the call that you're going to be running multiple more tests in 2027, maybe reference like 90% of your testing and year to date. I'm guessing that's mainly on the product side, but can you sort of clarify also if that's on the monetization side?",
+   "text": "Oh, hey, Jalen. Hey, Luis. I jumped on light, so apologize if you covered this, but you mentioned on the call that you're going to be running multiple more tests in 2027, maybe reference like 90% of your testing and year to date. I'm guessing that's mainly on the product side, but can you sort of clarify also if that's on the monetization side? But maybe the more important question is, how are you able to run these tests next year at this scale and then also focus on the monetization? Do those experiments need to drop by, I don't know, a rate of half to 45% year-over-year growth, but kind of walk us through the path that you could continue to run these experiments and drive monetization next year. Thanks a lot.",
    "parts": [
-    {
-     "t0_ms": 3131020,
-     "text": "Please unmute your audio and video and ask your question."
-    },
     {
      "t0_ms": 3133660,
      "text": "Oh, hey, Jalen. Hey, Luis. I jumped on light, so apologize if you covered this, but"
@@ -3413,18 +3490,7 @@
     {
      "t0_ms": 3148700,
      "text": "the product side, but can you sort of clarify also if that's on the monetization side?"
-    }
-   ],
-   "ts": "2026-11-03T17:52:11.020000-05:00",
-   "adj_ret_5m": 0.00014076576576571576
-  },
-  {
-   "seg_id": 104,
-   "t0_ms": 3152220,
-   "t1_ms": 3194620,
-   "speaker": "Management",
-   "text": "But maybe the more important question is, how are you able to run these tests next year at this scale and then also focus on the monetization? Do those experiments need to drop by, I don't know, a rate of half to 45% year-over-year growth, but kind of walk us through the path that you could continue to run these experiments and drive monetization next year. Thanks a lot. Yeah, so the way we improve the product is we work on three main things. We do improvements to, we call it user growth. So that usually is improvements in retention of the product that increases the daily active users. We do improvements in monetization and then we do",
-   "parts": [
+    },
     {
      "t0_ms": 3152220,
      "text": "But maybe the more important question is, how are you able to run these tests next year at this"
@@ -3440,7 +3506,18 @@
     {
      "t0_ms": 3169340,
      "text": "that you could continue to run these experiments and drive monetization next year. Thanks a lot."
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:52:13.660000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 111,
+   "t0_ms": 3174540,
+   "t1_ms": 3215900,
+   "speaker": "Management",
+   "text": "Yeah, so the way we improve the product is we work on three main things. We do improvements to, we call it user growth. So that usually is improvements in retention of the product that increases the daily active users. We do improvements in monetization and then we do improvements in teaching better. In all, in these three buckets, the way we work is we basically run a ton of A-B tests in each one of them with the aim at improving one of these things. So this particular A-B test is aimed at improving monetization. This particular A-B test is aimed at teaching better, et cetera. And we just run a lot of these. At the moment, like we",
+   "parts": [
     {
      "t0_ms": 3174540,
      "text": "Yeah, so the way we improve the product is we work on three main things. We do improvements to,"
@@ -3452,18 +3529,7 @@
     {
      "t0_ms": 3189740,
      "text": "increases the daily active users. We do improvements in monetization and then we do"
-    }
-   ],
-   "ts": "2026-11-03T17:52:32.220000-05:00",
-   "adj_ret_5m": 0.00014076576576571576
-  },
-  {
-   "seg_id": 105,
-   "t0_ms": 3194620,
-   "t1_ms": 3238540,
-   "speaker": "Management",
-   "text": "improvements in teaching better. In all, in these three buckets, the way we work is we basically run a ton of A-B tests in each one of them with the aim at improving one of these things. So this particular A-B test is aimed at improving monetization. This particular A-B test is aimed at teaching better, et cetera. And we just run a lot of these. At the moment, like we mentioned, we're about 90% higher than, you know, for example, the last month we ran 90% more A-B tests than we did one year ago. We believe that that will continue increasing. So just overall, we're going to be able for monetization, but also for teaching better, but also for daily active users, we're going to be able to run a lot more experiments next year.",
-   "parts": [
+    },
     {
      "t0_ms": 3194620,
      "text": "improvements in teaching better. In all, in these three buckets, the way we work is we basically"
@@ -3479,7 +3545,18 @@
     {
      "t0_ms": 3210940,
      "text": "at teaching better, et cetera. And we just run a lot of these. At the moment, like we"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:52:54.540000-05:00",
+   "adj_ret_5m": 0.00014076576576571576
+  },
+  {
+   "seg_id": 112,
+   "t0_ms": 3215900,
+   "t1_ms": 3259420,
+   "speaker": "Management",
+   "text": "mentioned, we're about 90% higher than, you know, for example, the last month we ran 90% more A-B tests than we did one year ago. We believe that that will continue increasing. So just overall, we're going to be able for monetization, but also for teaching better, but also for daily active users, we're going to be able to run a lot more experiments next year. I don't know how many more because it depends on a lot of things, how our processes improve, et cetera. But it really is getting to the point where the bottleneck is, you know, you're starting to get cookie bottlenecks that were not the thing that we used to normally think about bottlenecks. For example, a bottleneck now is ideas. I mean, like even coming up with",
+   "parts": [
     {
      "t0_ms": 3215900,
      "text": "mentioned, we're about 90% higher than, you know, for example, the last month we ran 90%"
@@ -3495,18 +3572,7 @@
     {
      "t0_ms": 3233020,
      "text": "but also for daily active users, we're going to be able to run a lot more experiments next year."
-    }
-   ],
-   "ts": "2026-11-03T17:53:14.620000-05:00",
-   "adj_ret_5m": 0.0
-  },
-  {
-   "seg_id": 106,
-   "t0_ms": 3238540,
-   "t1_ms": 3283500,
-   "speaker": "Management",
-   "text": "I don't know how many more because it depends on a lot of things, how our processes improve, et cetera. But it really is getting to the point where the bottleneck is, you know, you're starting to get cookie bottlenecks that were not the thing that we used to normally think about bottlenecks. For example, a bottleneck now is ideas. I mean, like even coming up with ideas of what to test, we're just, that has become a bottleneck. Another bottleneck is when, for example, one of the things that we're able to do now is like we mentioned in a previous answer, we're able to get non-engineers to actually launch an A-B test. So like a product manager or a designer is actually able, we built an internal piece of software that allows",
-   "parts": [
+    },
     {
      "t0_ms": 3238540,
      "text": "I don't know how many more because it depends on a lot of things, how our processes improve,"
@@ -3522,7 +3588,18 @@
     {
      "t0_ms": 3253660,
      "text": "think about bottlenecks. For example, a bottleneck now is ideas. I mean, like even coming up with"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:53:35.900000-05:00",
+   "adj_ret_5m": 0.0
+  },
+  {
+   "seg_id": 113,
+   "t0_ms": 3259420,
+   "t1_ms": 3303580,
+   "speaker": "Management",
+   "text": "ideas of what to test, we're just, that has become a bottleneck. Another bottleneck is when, for example, one of the things that we're able to do now is like we mentioned in a previous answer, we're able to get non-engineers to actually launch an A-B test. So like a product manager or a designer is actually able, we built an internal piece of software that allows a product manager to just, without the help of an engineer, do an entire change to that. They're not large changes, they're small stuff. But we're able to do that. But you know, another bottleneck comes, what if that person is a product manager, they introduce a bug to the app, who fixes it? Because I don't think they'll know how to fix this. So this is the type, our processes are",
+   "parts": [
     {
      "t0_ms": 3259420,
      "text": "ideas of what to test, we're just, that has become a bottleneck. Another bottleneck is when,"
@@ -3538,18 +3615,7 @@
     {
      "t0_ms": 3278300,
      "text": "manager or a designer is actually able, we built an internal piece of software that allows"
-    }
-   ],
-   "ts": "2026-11-03T17:53:58.540000-05:00",
-   "adj_ret_5m": 0.0
-  },
-  {
-   "seg_id": 107,
-   "t0_ms": 3283580,
-   "t1_ms": 3326500,
-   "speaker": "Management",
-   "text": "a product manager to just, without the help of an engineer, do an entire change to that. They're not large changes, they're small stuff. But we're able to do that. But you know, another bottleneck comes, what if that person is a product manager, they introduce a bug to the app, who fixes it? Because I don't think they'll know how to fix this. So this is the type, our processes are going to have to change and we're in the middle of that. Like, you know, half of the things I don't even know the answer for what it is the case, what we're going to do. But I do know that we're going to be able to run, you know, some integer multiple of the number of A-B tests that we ran this year. Thank you. Yeah, thank you very much. I'm showing no further questions.",
-   "parts": [
+    },
     {
      "t0_ms": 3283580,
      "text": "a product manager to just, without the help of an engineer, do an entire change to that. They're not"
@@ -3565,7 +3631,18 @@
     {
      "t0_ms": 3299500,
      "text": "Because I don't think they'll know how to fix this. So this is the type, our processes are"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:54:19.420000-05:00",
+   "adj_ret_5m": 0.0
+  },
+  {
+   "seg_id": 114,
+   "t0_ms": 3303580,
+   "t1_ms": 3326500,
+   "speaker": "Management",
+   "text": "going to have to change and we're in the middle of that. Like, you know, half of the things I don't even know the answer for what it is the case, what we're going to do. But I do know that we're going to be able to run, you know, some integer multiple of the number of A-B tests that we ran this year. Thank you. Yeah, thank you very much. I'm showing no further questions.",
+   "parts": [
     {
      "t0_ms": 3303580,
      "text": "going to have to change and we're in the middle of that. Like, you know, half of the"
@@ -3583,20 +3660,31 @@
      "text": "that we ran this year. Thank you. Yeah, thank you very much. I'm showing no further questions."
     }
    ],
-   "ts": "2026-11-03T17:54:43.580000-05:00",
+   "ts": "2026-11-03T17:55:03.580000-05:00",
    "adj_ret_5m": 0.0
   },
   {
-   "seg_id": 108,
+   "seg_id": 115,
    "t0_ms": 3326500,
-   "t1_ms": 3345060,
-   "speaker": "Management",
-   "text": "This concludes the Q&A section of the call. I would now like to turn the call back to the host for the closing remarks. Just thank you all for being here and thank you for the great questions. And especially thank you to the team for the really great work so far this year. We're very proud of our results.",
+   "t1_ms": 3330180,
+   "speaker": "Operator",
+   "text": "This concludes the Q&A section of the call. I would now like to turn the call back to the",
    "parts": [
     {
      "t0_ms": 3326500,
      "text": "This concludes the Q&A section of the call. I would now like to turn the call back to the"
-    },
+    }
+   ],
+   "ts": "2026-11-03T17:55:26.500000-05:00",
+   "adj_ret_5m": 0.0
+  },
+  {
+   "seg_id": 116,
+   "t0_ms": 3330180,
+   "t1_ms": 3345060,
+   "speaker": "Management",
+   "text": "host for the closing remarks. Just thank you all for being here and thank you for the great questions. And especially thank you to the team for the really great work so far this year. We're very proud of our results.",
+   "parts": [
     {
      "t0_ms": 3330180,
      "text": "host for the closing remarks. Just thank you all for being here and thank you for the great"
@@ -3610,7 +3698,7 @@
      "text": "We're very proud of our results."
     }
    ],
-   "ts": "2026-11-03T17:55:26.500000-05:00",
+   "ts": "2026-11-03T17:55:30.180000-05:00",
    "adj_ret_5m": 0.0
   }
  ],
@@ -5769,12 +5857,12 @@
  "claims": [
   {
    "claim_id": 0,
-   "seg_id": 13,
+   "seg_id": 9,
    "speaker": "Management",
    "quote": "So first of all, the majority of our growth for this year comes from product improvements.",
-   "metric": "share of growth from product improvements",
-   "value": "majority",
-   "period": "this year",
+   "metric": "DAU growth driver",
+   "value": "majority from product improvements",
+   "period": "FY",
    "kind": "qualitative",
    "ts": "2026-11-03T17:05:41.630000-05:00",
    "novel": true,
@@ -5785,11 +5873,11 @@
   },
   {
    "claim_id": 1,
-   "seg_id": 13,
+   "seg_id": 9,
    "speaker": "Management",
    "quote": "The vast majority of our improvement in active users comes from improvements in retention because of that, the product's getting better.",
-   "metric": "active user improvement from retention",
-   "value": "vast majority",
+   "metric": "active user growth driver",
+   "value": "retention improvements",
    "period": null,
    "kind": "qualitative",
    "ts": "2026-11-03T17:06:04.750000-05:00",
@@ -5801,14 +5889,30 @@
   },
   {
    "claim_id": 2,
-   "seg_id": 14,
+   "seg_id": 10,
    "speaker": "Management",
-   "quote": "In terms of the uses that we get from these partnerships, they retain very well and part of the reason for that is because we did some product work to make it so that the way these partnerships work is that you're a player of Brawl Stars",
+   "quote": "This quarter we had the partnerships with Brawl Stars and also Eggy Party and they did bring users, but I really want to emphasize that we just believe that the majority of it is from improvements to the app, which is why we think that this is going to continue going forward.",
+   "metric": "DAU growth drivers / partnerships",
+   "value": null,
+   "period": "current quarter",
+   "kind": "qualitative",
+   "ts": "2026-11-03T17:06:22.990000-05:00",
+   "novel": false,
+   "matched_doc": "release",
+   "matched_text": "This quarter, we partnered with two mobile games: Brawl Stars, a global multiplayer game, and Eggy Party, a game popular in China.",
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 3,
+   "seg_id": 11,
+   "speaker": "Management",
+   "quote": "so we see that these players that are coming in have very good retention.",
    "metric": "retention of partnership users",
-   "value": "retain very well",
+   "value": null,
    "period": null,
    "kind": "qualitative",
-   "ts": "2026-11-03T17:06:37.870000-05:00",
+   "ts": "2026-11-03T17:07:07.630000-05:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -5816,13 +5920,13 @@
    "consensus_role": null
   },
   {
-   "claim_id": 3,
-   "seg_id": 15,
+   "claim_id": 4,
+   "seg_id": 11,
    "speaker": "Management",
    "quote": "We're feeling really good about the broadness of the growth we're seeing in the business across both DAU and monetization.",
-   "metric": "breadth of DAU and monetization growth",
+   "metric": "growth breadth across DAU and monetization",
    "value": null,
-   "period": null,
+   "period": "current quarter",
    "kind": "qualitative",
    "ts": "2026-11-03T17:07:28.750000-05:00",
    "novel": true,
@@ -5832,31 +5936,15 @@
    "consensus_role": null
   },
   {
-   "claim_id": 4,
-   "seg_id": 15,
+   "claim_id": 5,
+   "seg_id": 11,
    "speaker": "Management",
-   "quote": "Yeah, I mean we're basically growing across all regions and we accelerated",
-   "metric": "regional growth",
-   "value": "all regions",
-   "period": "quarter",
+   "quote": "Yeah, I mean we're basically growing across all regions and we accelerated across eight of our top 10 markets in terms of DAU growth so we're very happy with that.",
+   "metric": "DAU growth acceleration by market",
+   "value": "8 of top 10 markets accelerated",
+   "period": "current quarter",
    "kind": "result",
    "ts": "2026-11-03T17:07:33.470000-05:00",
-   "novel": false,
-   "matched_doc": "release",
-   "matched_text": "Our user growth this year in every region of the world and in every subject we teach reinforces our belief that we still have an enormous opportunity ahead of us.",
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 5,
-   "seg_id": 16,
-   "speaker": "Management",
-   "quote": "across eight of our top 10 markets in terms of DAU growth so we're very happy with that.",
-   "metric": "top markets with accelerating DAU growth",
-   "value": "8 of top 10",
-   "period": "quarter",
-   "kind": "result",
-   "ts": "2026-11-03T17:07:38.110000-05:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -5865,7 +5953,7 @@
   },
   {
    "claim_id": 6,
-   "seg_id": 19,
+   "seg_id": 14,
    "speaker": "Management",
    "quote": "So in terms of subs growth probably that bottoms in a couple quarters as we work through the bookings from prior to this quarter.",
    "metric": "subscriber growth",
@@ -5881,11 +5969,11 @@
   },
   {
    "claim_id": 7,
-   "seg_id": 19,
+   "seg_id": 14,
    "speaker": "Management",
    "quote": "So as we rebuild the bookings growth that revenue growth will come after and those subs growth numbers will come as well.",
-   "metric": "bookings, revenue and subscriber growth",
-   "value": "rebuilding bookings growth, with revenue and subs growth to follow",
+   "metric": "revenue and subscriber growth",
+   "value": null,
    "period": null,
    "kind": "guidance",
    "ts": "2026-11-03T17:08:42.460000-05:00",
@@ -5945,7 +6033,7 @@
   {
    "rank": 1,
    "claim_id": 6,
-   "seg_id": 19,
+   "seg_id": 14,
    "ts": "2026-11-03T17:08:36.059000-05:00",
    "t0_ms": 516059,
    "speaker": "Management",
@@ -5964,25 +6052,22 @@
    "confidence": "high",
    "pre_move": false,
    "section": "qa",
-   "question": "the line of Wyatt Swanson with D. Davidson & Co. Please unmute your audio and video and ask your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on ",
+   "question": "your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on that and whether you expect those trends to change at all?",
    "vs_consensus_pct": null,
    "consensus_role": null
   }
  ],
  "llm_used": true,
  "candidate_seg_ids": [
+  6,
+  7,
   8,
   9,
   10,
   11,
   12,
   13,
-  14,
-  15,
-  16,
-  17,
-  18,
-  19
+  14
  ],
  "open_reaction": null,
  "estimates": [

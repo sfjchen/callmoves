@@ -138,9 +138,9 @@
   {
    "seg_id": 3,
    "t0_ms": 113920,
-   "t1_ms": 146320,
+   "t1_ms": 152960,
    "speaker": "Management",
-   "text": "including from memory chips and customer demand and spending including the impact of recessionary fears, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the internet, online commerce, cloud services and new and emerging technologies and the various factors detailed in our filings with the SEC. Our guidance assumes among other things that we don't conclude any additional business acquisitions or structuring or legal settlements. It's not possible to accurately predict demand for our goods and services and therefore our actual results could differ materially from our",
+   "text": "including from memory chips and customer demand and spending including the impact of recessionary fears, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the internet, online commerce, cloud services and new and emerging technologies and the various factors detailed in our filings with the SEC. Our guidance assumes among other things that we don't conclude any additional business acquisitions or structuring or legal settlements. It's not possible to accurately predict demand for our goods and services and therefore our actual results could differ materially from our guidance. And now I'll turn the call over to Andy. Thanks Dave. We're reporting $201.9",
    "parts": [
     {
      "t0_ms": 113920,
@@ -169,6 +169,10 @@
     {
      "t0_ms": 142800,
      "text": "goods and services and therefore our actual results could differ materially from our"
+    },
+    {
+     "t0_ms": 146320,
+     "text": "guidance. And now I'll turn the call over to Andy. Thanks Dave. We're reporting $201.9"
     }
    ],
    "ts": "2026-10-29T17:01:53.920000-04:00",
@@ -176,21 +180,6 @@
   },
   {
    "seg_id": 4,
-   "t0_ms": 146320,
-   "t1_ms": 152960,
-   "speaker": "Operator",
-   "text": "guidance. And now I'll turn the call over to Andy. Thanks Dave. We're reporting $201.9",
-   "parts": [
-    {
-     "t0_ms": 146320,
-     "text": "guidance. And now I'll turn the call over to Andy. Thanks Dave. We're reporting $201.9"
-    }
-   ],
-   "ts": "2026-10-29T17:02:26.320000-04:00",
-   "adj_ret_5m": -0.0060088655393203405
-  },
-  {
-   "seg_id": 5,
    "t0_ms": 152960,
    "t1_ms": 195680,
    "speaker": "Management",
@@ -229,7 +218,7 @@
    "adj_ret_5m": -0.0060088655393203405
   },
   {
-   "seg_id": 6,
+   "seg_id": 5,
    "t0_ms": 195680,
    "t1_ms": 236000,
    "speaker": "Management",
@@ -272,7 +261,7 @@
    "adj_ret_5m": -0.0059862521749640685
   },
   {
-   "seg_id": 7,
+   "seg_id": 6,
    "t0_ms": 236000,
    "t1_ms": 278160,
    "speaker": "Management",
@@ -315,7 +304,7 @@
    "adj_ret_5m": -0.0059862521749640685
   },
   {
-   "seg_id": 8,
+   "seg_id": 7,
    "t0_ms": 278720,
    "t1_ms": 320640,
    "speaker": "Management",
@@ -358,7 +347,7 @@
    "adj_ret_5m": -0.01011217391304342
   },
   {
-   "seg_id": 9,
+   "seg_id": 8,
    "t0_ms": 320640,
    "t1_ms": 365040,
    "speaker": "Management",
@@ -401,7 +390,7 @@
    "adj_ret_5m": -0.0036895709202764415
   },
   {
-   "seg_id": 10,
+   "seg_id": 9,
    "t0_ms": 365040,
    "t1_ms": 405360,
    "speaker": "Management",
@@ -440,7 +429,7 @@
    "adj_ret_5m": 0.005433115716601655
   },
   {
-   "seg_id": 11,
+   "seg_id": 10,
    "t0_ms": 405360,
    "t1_ms": 446720,
    "speaker": "Management",
@@ -483,7 +472,7 @@
    "adj_ret_5m": 0.005433115716601655
   },
   {
-   "seg_id": 12,
+   "seg_id": 11,
    "t0_ms": 446720,
    "t1_ms": 487360,
    "speaker": "Management",
@@ -522,7 +511,7 @@
    "adj_ret_5m": 0.010835095137420758
   },
   {
-   "seg_id": 13,
+   "seg_id": 12,
    "t0_ms": 487360,
    "t1_ms": 529200,
    "speaker": "Management",
@@ -565,7 +554,7 @@
    "adj_ret_5m": 0.005565702243491177
   },
   {
-   "seg_id": 14,
+   "seg_id": 13,
    "t0_ms": 529200,
    "t1_ms": 572080,
    "speaker": "Management",
@@ -608,7 +597,7 @@
    "adj_ret_5m": 0.005565702243491177
   },
   {
-   "seg_id": 15,
+   "seg_id": 14,
    "t0_ms": 572080,
    "t1_ms": 614720,
    "speaker": "Management",
@@ -647,7 +636,7 @@
    "adj_ret_5m": 0.00865007980702237
   },
   {
-   "seg_id": 16,
+   "seg_id": 15,
    "t0_ms": 614720,
    "t1_ms": 655360,
    "speaker": "Management",
@@ -686,7 +675,7 @@
    "adj_ret_5m": 0.0030606052753644475
   },
   {
-   "seg_id": 17,
+   "seg_id": 16,
    "t0_ms": 655360,
    "t1_ms": 699840,
    "speaker": "Management",
@@ -729,7 +718,7 @@
    "adj_ret_5m": 0.0030606052753644475
   },
   {
-   "seg_id": 18,
+   "seg_id": 17,
    "t0_ms": 699840,
    "t1_ms": 742240,
    "speaker": "Management",
@@ -772,7 +761,7 @@
    "adj_ret_5m": 0.0035267439162155467
   },
   {
-   "seg_id": 19,
+   "seg_id": 18,
    "t0_ms": 742240,
    "t1_ms": 784320,
    "speaker": "Management",
@@ -815,7 +804,7 @@
    "adj_ret_5m": 0.004267182739294717
   },
   {
-   "seg_id": 20,
+   "seg_id": 19,
    "t0_ms": 784320,
    "t1_ms": 824560,
    "speaker": "Management",
@@ -858,7 +847,7 @@
    "adj_ret_5m": 0.0004848799365662071
   },
   {
-   "seg_id": 21,
+   "seg_id": 20,
    "t0_ms": 825360,
    "t1_ms": 868960,
    "speaker": "Management",
@@ -901,7 +890,7 @@
    "adj_ret_5m": 0.0004848799365662071
   },
   {
-   "seg_id": 22,
+   "seg_id": 21,
    "t0_ms": 868960,
    "t1_ms": 910320,
    "speaker": "Management",
@@ -944,7 +933,7 @@
    "adj_ret_5m": -0.0047652396562898325
   },
   {
-   "seg_id": 23,
+   "seg_id": 22,
    "t0_ms": 910320,
    "t1_ms": 948960,
    "speaker": "Management",
@@ -983,7 +972,7 @@
    "adj_ret_5m": -0.005373834425870472
   },
   {
-   "seg_id": 24,
+   "seg_id": 23,
    "t0_ms": 949680,
    "t1_ms": 991360,
    "speaker": "Management",
@@ -1018,7 +1007,7 @@
    "adj_ret_5m": -0.005373834425870472
   },
   {
-   "seg_id": 25,
+   "seg_id": 24,
    "t0_ms": 991360,
    "t1_ms": 1033119,
    "speaker": "Management",
@@ -1061,7 +1050,7 @@
    "adj_ret_5m": -0.007391304347826089
   },
   {
-   "seg_id": 26,
+   "seg_id": 25,
    "t0_ms": 1033119,
    "t1_ms": 1075600,
    "speaker": "Management",
@@ -1104,7 +1093,7 @@
    "adj_ret_5m": -0.008669417897480436
   },
   {
-   "seg_id": 27,
+   "seg_id": 26,
    "t0_ms": 1075600,
    "t1_ms": 1119840,
    "speaker": "Management",
@@ -1147,7 +1136,7 @@
    "adj_ret_5m": -0.008669417897480436
   },
   {
-   "seg_id": 28,
+   "seg_id": 27,
    "t0_ms": 1119840,
    "t1_ms": 1164080,
    "speaker": "Management",
@@ -1190,7 +1179,7 @@
    "adj_ret_5m": -0.0016603311923799602
   },
   {
-   "seg_id": 29,
+   "seg_id": 28,
    "t0_ms": 1164080,
    "t1_ms": 1208960,
    "speaker": "Management",
@@ -1233,7 +1222,7 @@
    "adj_ret_5m": -0.0012257425204735828
   },
   {
-   "seg_id": 30,
+   "seg_id": 29,
    "t0_ms": 1208960,
    "t1_ms": 1253760,
    "speaker": "Management",
@@ -1276,7 +1265,7 @@
    "adj_ret_5m": -0.0062941357077065385
   },
   {
-   "seg_id": 31,
+   "seg_id": 30,
    "t0_ms": 1254720,
    "t1_ms": 1295920,
    "speaker": "Management",
@@ -1315,7 +1304,7 @@
    "adj_ret_5m": -0.0062941357077065385
   },
   {
-   "seg_id": 32,
+   "seg_id": 31,
    "t0_ms": 1295920,
    "t1_ms": 1339360,
    "speaker": "Management",
@@ -1358,7 +1347,7 @@
    "adj_ret_5m": -0.003942181340341633
   },
   {
-   "seg_id": 33,
+   "seg_id": 32,
    "t0_ms": 1339360,
    "t1_ms": 1381840,
    "speaker": "Management",
@@ -1397,7 +1386,7 @@
    "adj_ret_5m": 0.007430622472933246
   },
   {
-   "seg_id": 34,
+   "seg_id": 33,
    "t0_ms": 1381840,
    "t1_ms": 1421840,
    "speaker": "Management",
@@ -1436,7 +1425,7 @@
    "adj_ret_5m": 0.006477307540811328
   },
   {
-   "seg_id": 35,
+   "seg_id": 34,
    "t0_ms": 1421840,
    "t1_ms": 1463920,
    "speaker": "Management",
@@ -1475,7 +1464,7 @@
    "adj_ret_5m": 0.006477307540811328
   },
   {
-   "seg_id": 36,
+   "seg_id": 35,
    "t0_ms": 1463920,
    "t1_ms": 1506160,
    "speaker": "Management",
@@ -1514,11 +1503,11 @@
    "adj_ret_5m": 0.007544190534672479
   },
   {
-   "seg_id": 37,
+   "seg_id": 36,
    "t0_ms": 1506160,
-   "t1_ms": 1544350,
+   "t1_ms": 1530880,
    "speaker": "Management",
-   "text": "we will continue to expense the majority of Leo-related costs in Q4. We're ready to serve customers this holiday season and to support the millions of customers building with AWS. I want to thank our teams across Amazon for their hard work and focus on customers. Our commitment to elevating the customer experience remains the only reliable way to create lasting value for our shareholders. With that, let's move on to your questions. Thank you. At this time, we will now open the call up for questions. We ask each caller to please limit yourself to one question. If you would like to ask a",
+   "text": "we will continue to expense the majority of Leo-related costs in Q4. We're ready to serve customers this holiday season and to support the millions of customers building with AWS. I want to thank our teams across Amazon for their hard work and focus on customers. Our commitment to elevating the customer experience remains the only reliable way to create lasting value for our shareholders. With that, let's move on to your questions.",
    "parts": [
     {
      "t0_ms": 1506160,
@@ -1539,7 +1528,18 @@
     {
      "t0_ms": 1526000,
      "text": "create lasting value for our shareholders. With that, let's move on to your questions."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:25:06.160000-04:00",
+   "adj_ret_5m": 0.014985323652093152
+  },
+  {
+   "seg_id": 37,
+   "t0_ms": 1535470,
+   "t1_ms": 1578290,
+   "speaker": "Operator",
+   "text": "Thank you. At this time, we will now open the call up for questions. We ask each caller to please limit yourself to one question. If you would like to ask a question, please press star one on your keypad. We ask that when you pose your question, you pick up your handsets to provide optimum sound quality. Once again, to initiate a question, please press star then one on your touchtone telephone at this time. Please hold while we pull for questions. Thank you. Our first question comes from the line of Justin Post with Bank of America.",
+   "parts": [
     {
      "t0_ms": 1535470,
      "text": "Thank you. At this time, we will now open the call up for questions."
@@ -1547,97 +1547,53 @@
     {
      "t0_ms": 1539630,
      "text": "We ask each caller to please limit yourself to one question. If you would like to ask a"
-    }
-   ],
-   "ts": "2026-10-29T17:25:06.160000-04:00",
-   "adj_ret_5m": 0.014985323652093152
-  },
-  {
-   "seg_id": 38,
-   "t0_ms": 1544350,
-   "t1_ms": 1549550,
-   "speaker": "Operator",
-   "text": "question, please press star one on your keypad. We ask that when you pose your question,",
-   "parts": [
+    },
     {
      "t0_ms": 1544350,
      "text": "question, please press star one on your keypad. We ask that when you pose your question,"
-    }
-   ],
-   "ts": "2026-10-29T17:25:44.350000-04:00",
-   "adj_ret_5m": 0.014985323652093152
-  },
-  {
-   "seg_id": 39,
-   "t0_ms": 1549550,
-   "t1_ms": 1555870,
-   "speaker": "Management",
-   "text": "you pick up your handsets to provide optimum sound quality. Once again, to initiate a question,",
-   "parts": [
+    },
     {
      "t0_ms": 1549550,
      "text": "you pick up your handsets to provide optimum sound quality. Once again, to initiate a question,"
-    }
-   ],
-   "ts": "2026-10-29T17:25:49.550000-04:00",
-   "adj_ret_5m": 0.014985323652093152
-  },
-  {
-   "seg_id": 40,
-   "t0_ms": 1555870,
-   "t1_ms": 1560030,
-   "speaker": "Operator",
-   "text": "please press star then one on your touchtone telephone at this time.",
-   "parts": [
+    },
     {
      "t0_ms": 1555870,
      "text": "please press star then one on your touchtone telephone at this time."
-    }
-   ],
-   "ts": "2026-10-29T17:25:55.870000-04:00",
-   "adj_ret_5m": 0.014985323652093152
-  },
-  {
-   "seg_id": 41,
-   "t0_ms": 1561070,
-   "t1_ms": 1563150,
-   "speaker": "Management",
-   "text": "Please hold while we pull for questions. Thank you.",
-   "parts": [
+    },
     {
      "t0_ms": 1561070,
      "text": "Please hold while we pull for questions. Thank you."
-    }
-   ],
-   "ts": "2026-10-29T17:26:01.070000-04:00",
-   "adj_ret_5m": 0.013016710642040463
-  },
-  {
-   "seg_id": 42,
-   "t0_ms": 1573170,
-   "t1_ms": 1578290,
-   "speaker": "Operator",
-   "text": "Our first question comes from the line of Justin Post with Bank of America.",
-   "parts": [
+    },
     {
      "t0_ms": 1573170,
      "text": "Our first question comes from the line of Justin Post with Bank of America."
     }
    ],
-   "ts": "2026-10-29T17:26:13.170000-04:00",
-   "adj_ret_5m": 0.013016710642040463
+   "ts": "2026-10-29T17:25:35.470000-04:00",
+   "adj_ret_5m": 0.014985323652093152
   },
   {
-   "seg_id": 43,
+   "seg_id": 38,
    "t0_ms": 1579170,
-   "t1_ms": 1617090,
-   "speaker": "Analyst",
-   "text": "Please proceed with your question. Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice, but the quarter over quarter growth slowed? I'm just wondering if there's any call outs there on the customer side or token costs or anything that kind of drove that and how you're thinking about the capacity adds in Q4. Then Brian, maybe just any impact of fuel costs on your guidance in Q4. Thank you. Thank you. Yeah, I'll start with the growth question. We're really pleased with the growth. 39.3% on a business that's got a $104 billion annual",
+   "t1_ms": 1580770,
+   "speaker": "Operator",
+   "text": "Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 1579170,
      "text": "Please proceed with your question."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:26:19.170000-04:00",
+   "adj_ret_5m": 0.013016710642040463
+  },
+  {
+   "seg_id": 39,
+   "t0_ms": 1582050,
+   "t1_ms": 1605010,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice, but the quarter over quarter growth slowed? I'm just wondering if there's any call outs there on the customer side or token costs or anything that kind of drove that and how you're thinking about the capacity adds in Q4. Then Brian, maybe just any impact of fuel costs on your guidance in Q4. Thank you.",
+   "parts": [
     {
      "t0_ms": 1582050,
      "text": "Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice,"
@@ -1657,7 +1613,18 @@
     {
      "t0_ms": 1603090,
      "text": "on your guidance in Q4. Thank you."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:26:22.050000-04:00",
+   "adj_ret_5m": 0.013016710642040463
+  },
+  {
+   "seg_id": 40,
+   "t0_ms": 1605010,
+   "t1_ms": 1648850,
+   "speaker": "Management",
+   "text": "Thank you. Yeah, I'll start with the growth question. We're really pleased with the growth. 39.3% on a business that's got a $104 billion annual revenue run rate is quite unusual. Our fastest growth in about five years or six quarter consecutively of acceleration. We're adding quite a bit of capacity. I think if you look at what's driving the growth right now, it's a combination of a few things. First, on the AI side, the unusual top to bottom stack functionality we have, whether you're building your own model with SageMaker AI, which is the easiest way to build your own",
+   "parts": [
     {
      "t0_ms": 1605010,
      "text": "Thank you. Yeah, I'll start with the growth question."
@@ -1665,18 +1632,7 @@
     {
      "t0_ms": 1609410,
      "text": "We're really pleased with the growth. 39.3% on a business that's got a $104 billion annual"
-    }
-   ],
-   "ts": "2026-10-29T17:26:19.170000-04:00",
-   "adj_ret_5m": 0.013016710642040463
-  },
-  {
-   "seg_id": 44,
-   "t0_ms": 1617090,
-   "t1_ms": 1659490,
-   "speaker": "Management",
-   "text": "revenue run rate is quite unusual. Our fastest growth in about five years or six quarter consecutively of acceleration. We're adding quite a bit of capacity. I think if you look at what's driving the growth right now, it's a combination of a few things. First, on the AI side, the unusual top to bottom stack functionality we have, whether you're building your own model with SageMaker AI, which is the easiest way to build your own model, or you want to leverage one of the leading frontier models with high security and very strong price performance, people can use Bedrock. Whether you are",
-   "parts": [
+    },
     {
      "t0_ms": 1617090,
      "text": "revenue run rate is quite unusual. Our fastest growth in about five years or six"
@@ -1696,7 +1652,18 @@
     {
      "t0_ms": 1643570,
      "text": "you're building your own model with SageMaker AI, which is the easiest way to build your own"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:26:45.010000-04:00",
+   "adj_ret_5m": 0.013016710642040463
+  },
+  {
+   "seg_id": 41,
+   "t0_ms": 1648850,
+   "t1_ms": 1689010,
+   "speaker": "Management",
+   "text": "model, or you want to leverage one of the leading frontier models with high security and very strong price performance, people can use Bedrock. Whether you are building your own agents where we have capabilities like Strands and Agent Core to build and to run those securely and scalably, or you're going to use turnkey agents, which most companies do. If you just look across Kero for coding and Connect for call center and Transform for migrations and Quick, which is growing incredibly fast as an AI companion at work, people are adopting those very quickly.",
+   "parts": [
     {
      "t0_ms": 1648850,
      "text": "model, or you want to leverage one of the leading frontier models with high security"
@@ -1704,18 +1671,7 @@
     {
      "t0_ms": 1654130,
      "text": "and very strong price performance, people can use Bedrock. Whether you are"
-    }
-   ],
-   "ts": "2026-10-29T17:26:57.090000-04:00",
-   "adj_ret_5m": 0.013016710642040463
-  },
-  {
-   "seg_id": 45,
-   "t0_ms": 1661010,
-   "t1_ms": 1702450,
-   "speaker": "Management",
-   "text": "building your own agents where we have capabilities like Strands and Agent Core to build and to run those securely and scalably, or you're going to use turnkey agents, which most companies do. If you just look across Kero for coding and Connect for call center and Transform for migrations and Quick, which is growing incredibly fast as an AI companion at work, people are adopting those very quickly. And then we add a lot of capacity every quarter. Now the amount that we add every quarter is not equal. We're adding different amounts each quarter, but if I look at how much we've added this",
-   "parts": [
+    },
     {
      "t0_ms": 1661010,
      "text": "building your own agents where we have capabilities like Strands and Agent Core"
@@ -1735,7 +1691,18 @@
     {
      "t0_ms": 1682370,
      "text": "incredibly fast as an AI companion at work, people are adopting those very quickly."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:27:28.850000-04:00",
+   "adj_ret_5m": 0.0056111352762069355
+  },
+  {
+   "seg_id": 42,
+   "t0_ms": 1689010,
+   "t1_ms": 1727490,
+   "speaker": "Management",
+   "text": "And then we add a lot of capacity every quarter. Now the amount that we add every quarter is not equal. We're adding different amounts each quarter, but if I look at how much we've added this year and what we have planned over the next, I'll call it eight quarters or so, which is about as far out as we get, eight to ten quarters. We have a lot of capacity coming as well. And then I layer on top of that too just the impact of chips. We're very well positioned for what's happening in AI because increasingly what you're finding right now is most customers,",
+   "parts": [
     {
      "t0_ms": 1689010,
      "text": "And then we add a lot of capacity every quarter. Now the amount that we add every quarter is not"
@@ -1743,18 +1710,7 @@
     {
      "t0_ms": 1695010,
      "text": "equal. We're adding different amounts each quarter, but if I look at how much we've added this"
-    }
-   ],
-   "ts": "2026-10-29T17:27:41.010000-04:00",
-   "adj_ret_5m": 0.0056111352762069355
-  },
-  {
-   "seg_id": 46,
-   "t0_ms": 1702450,
-   "t1_ms": 1745010,
-   "speaker": "Management",
-   "text": "year and what we have planned over the next, I'll call it eight quarters or so, which is about as far out as we get, eight to ten quarters. We have a lot of capacity coming as well. And then I layer on top of that too just the impact of chips. We're very well positioned for what's happening in AI because increasingly what you're finding right now is most customers, every customer that uses AI at scale, but particularly enterprises now as they're starting to deploy more inference into production, they are very eager to save on price performance. And Tranium, with the meaningful advantage it has in price performance versus",
-   "parts": [
+    },
     {
      "t0_ms": 1702450,
      "text": "year and what we have planned over the next, I'll call it eight quarters or so, which is"
@@ -1770,7 +1726,18 @@
     {
      "t0_ms": 1721010,
      "text": "for what's happening in AI because increasingly what you're finding right now is most customers,"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:28:09.010000-04:00",
+   "adj_ret_5m": 0.0032178110188285647
+  },
+  {
+   "seg_id": 43,
+   "t0_ms": 1727490,
+   "t1_ms": 1768450,
+   "speaker": "Management",
+   "text": "every customer that uses AI at scale, but particularly enterprises now as they're starting to deploy more inference into production, they are very eager to save on price performance. And Tranium, with the meaningful advantage it has in price performance versus other alternatives, is very compelling to people. And then as more and more people are using AI in a very broad way, it drives a lot of the core in capabilities like reinforcement learning and post-training and tool calling. And we have the leading CPU chip in Graviton, which is about 30 to 40 percent more price performance than their other x86 providers.",
+   "parts": [
     {
      "t0_ms": 1727490,
      "text": "every customer that uses AI at scale, but particularly enterprises now as they're"
@@ -1782,18 +1749,7 @@
     {
      "t0_ms": 1739570,
      "text": "price performance. And Tranium, with the meaningful advantage it has in price performance versus"
-    }
-   ],
-   "ts": "2026-10-29T17:28:22.450000-04:00",
-   "adj_ret_5m": 0.0032178110188285647
-  },
-  {
-   "seg_id": 47,
-   "t0_ms": 1745010,
-   "t1_ms": 1788050,
-   "speaker": "Management",
-   "text": "other alternatives, is very compelling to people. And then as more and more people are using AI in a very broad way, it drives a lot of the core in capabilities like reinforcement learning and post-training and tool calling. And we have the leading CPU chip in Graviton, which is about 30 to 40 percent more price performance than their other x86 providers. So those things are really driving very significant growth. The amount of capacity we add each quarter will vary, but at this scale to be projecting growing over 40 percent year over year in each of 2027 and 2028 is pretty significant. And the fact that we believe",
-   "parts": [
+    },
     {
      "t0_ms": 1745010,
      "text": "other alternatives, is very compelling to people. And then as more and more people"
@@ -1809,7 +1765,18 @@
     {
      "t0_ms": 1763410,
      "text": "which is about 30 to 40 percent more price performance than their other x86 providers."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:28:47.490000-04:00",
+   "adj_ret_5m": 0.0032178110188285647
+  },
+  {
+   "seg_id": 44,
+   "t0_ms": 1768450,
+   "t1_ms": 1812910,
+   "speaker": "Management",
+   "text": "So those things are really driving very significant growth. The amount of capacity we add each quarter will vary, but at this scale to be projecting growing over 40 percent year over year in each of 2027 and 2028 is pretty significant. And the fact that we believe that this can be a trillion dollar revenue business in five to ten years, it's an extraordinary unusual opportunity that we're very excited to be pursuing. And Justin, on your question about fuel and line hole inflation, I would say, I'm not going to give an exact number for you, but it is higher in Q4 than it was in Q3. If you remember, we instituted a fuel surcharge at the beginning of the year for",
+   "parts": [
     {
      "t0_ms": 1768450,
      "text": "So those things are really driving very significant growth. The amount of capacity"
@@ -1821,18 +1788,7 @@
     {
      "t0_ms": 1782450,
      "text": "year over year in each of 2027 and 2028 is pretty significant. And the fact that we believe"
-    }
-   ],
-   "ts": "2026-10-29T17:29:05.010000-04:00",
-   "adj_ret_5m": 0.007723216229158503
-  },
-  {
-   "seg_id": 48,
-   "t0_ms": 1788050,
-   "t1_ms": 1829230,
-   "speaker": "Management",
-   "text": "that this can be a trillion dollar revenue business in five to ten years, it's an extraordinary unusual opportunity that we're very excited to be pursuing. And Justin, on your question about fuel and line hole inflation, I would say, I'm not going to give an exact number for you, but it is higher in Q4 than it was in Q3. If you remember, we instituted a fuel surcharge at the beginning of the year for FDA sellers that recovers some but not all of the costs that we're seeing on fuel for those shipments. And then the remaining part is on the retail inbound shipments and outbound shipments. So it's in there. It's a little bit higher than Q3.",
-   "parts": [
+    },
     {
      "t0_ms": 1788050,
      "text": "that this can be a trillion dollar revenue business in five to ten years, it's an"
@@ -1852,7 +1808,18 @@
     {
      "t0_ms": 1809150,
      "text": "If you remember, we instituted a fuel surcharge at the beginning of the year for"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:29:28.450000-04:00",
+   "adj_ret_5m": 0.007723216229158503
+  },
+  {
+   "seg_id": 45,
+   "t0_ms": 1813550,
+   "t1_ms": 1829230,
+   "speaker": "Management",
+   "text": "FDA sellers that recovers some but not all of the costs that we're seeing on fuel for those shipments. And then the remaining part is on the retail inbound shipments and outbound shipments. So it's in there. It's a little bit higher than Q3.",
+   "parts": [
     {
      "t0_ms": 1813550,
      "text": "FDA sellers that recovers some but not all of the costs that we're seeing on fuel for"
@@ -1866,35 +1833,35 @@
      "text": "and outbound shipments. So it's in there. It's a little bit higher than Q3."
     }
    ],
-   "ts": "2026-10-29T17:29:48.050000-04:00",
-   "adj_ret_5m": 0.007723216229158503
+   "ts": "2026-10-29T17:30:13.550000-04:00",
+   "adj_ret_5m": 0.005435964340073873
   },
   {
-   "seg_id": 49,
+   "seg_id": 46,
    "t0_ms": 1832980,
-   "t1_ms": 1838020,
+   "t1_ms": 1839940,
    "speaker": "Operator",
-   "text": "Thank you. Our next question comes from the line of Brian Nowak with Morgan Stanley.",
+   "text": "Thank you. Our next question comes from the line of Brian Nowak with Morgan Stanley. Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 1832980,
      "text": "Thank you. Our next question comes from the line of Brian Nowak with Morgan Stanley."
+    },
+    {
+     "t0_ms": 1838660,
+     "text": "Please proceed with your question."
     }
    ],
    "ts": "2026-10-29T17:30:32.980000-04:00",
    "adj_ret_5m": 0.005435964340073873
   },
   {
-   "seg_id": 50,
-   "t0_ms": 1838660,
-   "t1_ms": 1868740,
+   "seg_id": 47,
+   "t0_ms": 1841060,
+   "t1_ms": 1879380,
    "speaker": "Analyst",
-   "text": "Please proceed with your question. Thanks for my questions. I have two. Andy, your excitement about AWS is coming through the line. It's pretty rare you'd make comments about a trillion dollars of revenue five to ten years from now. It's more than you should give. So can you just maybe walk us through how you get to that trillion of dollars? Is it top down? Is it bottom is up? So what gives you confidence you're going to be able to put up that type of revenue growth and to get to that type of number in the next five to ten years?",
+   "text": "Thanks for my questions. I have two. Andy, your excitement about AWS is coming through the line. It's pretty rare you'd make comments about a trillion dollars of revenue five to ten years from now. It's more than you should give. So can you just maybe walk us through how you get to that trillion of dollars? Is it top down? Is it bottom is up? So what gives you confidence you're going to be able to put up that type of revenue growth and to get to that type of number in the next five to ten years? Then the second one just for either of you, on the robotic side, as we look into 27, what are the key milestones you're both focused on on the robotic side for the retail business?",
    "parts": [
-    {
-     "t0_ms": 1838660,
-     "text": "Please proceed with your question."
-    },
     {
      "t0_ms": 1841060,
      "text": "Thanks for my questions. I have two. Andy, your excitement about AWS is coming through the"
@@ -1918,18 +1885,7 @@
     {
      "t0_ms": 1865300,
      "text": "and to get to that type of number in the next five to ten years?"
-    }
-   ],
-   "ts": "2026-10-29T17:30:38.660000-04:00",
-   "adj_ret_5m": 0.005435964340073873
-  },
-  {
-   "seg_id": 51,
-   "t0_ms": 1868740,
-   "t1_ms": 1912660,
-   "speaker": "Management",
-   "text": "Then the second one just for either of you, on the robotic side, as we look into 27, what are the key milestones you're both focused on on the robotic side for the retail business? Yeah, on the AWS side, if you just look at the growth rates, Brian, look at the growth rates on the run rate and then look at what we're projecting in 27 and 28. And as I've said a few times, we will always, despite how much capacity we're providing, the big chunks of capacity that people take, the hundreds of megawatts, or sometimes up to a gigawatt of capacity, those big chunks are reserved well in advance",
-   "parts": [
+    },
     {
      "t0_ms": 1868740,
      "text": "Then the second one just for either of you, on the robotic side, as we look into 27,"
@@ -1937,7 +1893,18 @@
     {
      "t0_ms": 1874420,
      "text": "what are the key milestones you're both focused on on the robotic side for the retail business?"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:30:41.060000-04:00",
+   "adj_ret_5m": 0.005435964340073873
+  },
+  {
+   "seg_id": 48,
+   "t0_ms": 1881060,
+   "t1_ms": 1925620,
+   "speaker": "Management",
+   "text": "Yeah, on the AWS side, if you just look at the growth rates, Brian, look at the growth rates on the run rate and then look at what we're projecting in 27 and 28. And as I've said a few times, we will always, despite how much capacity we're providing, the big chunks of capacity that people take, the hundreds of megawatts, or sometimes up to a gigawatt of capacity, those big chunks are reserved well in advance because you can't leave a gigawatt of capacity hanging around. And so we have very good visibility into 27 and 28 and some of 29 too with respect to what customers want in those",
+   "parts": [
     {
      "t0_ms": 1881060,
      "text": "Yeah, on the AWS side, if you just look at the growth rates, Brian,"
@@ -1957,18 +1924,7 @@
     {
      "t0_ms": 1906740,
      "text": "or sometimes up to a gigawatt of capacity, those big chunks are reserved well in advance"
-    }
-   ],
-   "ts": "2026-10-29T17:31:08.740000-04:00",
-   "adj_ret_5m": 0.0014759506858827987
-  },
-  {
-   "seg_id": 52,
-   "t0_ms": 1912660,
-   "t1_ms": 1953300,
-   "speaker": "Management",
-   "text": "because you can't leave a gigawatt of capacity hanging around. And so we have very good visibility into 27 and 28 and some of 29 too with respect to what customers want in those really big chunks of capacity. We will always leave a fair bit of capacity available for on demand on EC2 or in Bedrock and we're working closely with our customers and they'll have plenty of capacity to be able to use in AWS. But we have very good visibility into the next few years and what AWS looks like. Those types of growth rates when you do the math on the revenue and the revenue run rate we have, get you pretty quickly to escalating numbers.",
-   "parts": [
+    },
     {
      "t0_ms": 1912660,
      "text": "because you can't leave a gigawatt of capacity hanging around. And so we have very good"
@@ -1976,7 +1932,18 @@
     {
      "t0_ms": 1917620,
      "text": "visibility into 27 and 28 and some of 29 too with respect to what customers want in those"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:31:21.060000-04:00",
+   "adj_ret_5m": 0.0014759506858827987
+  },
+  {
+   "seg_id": 49,
+   "t0_ms": 1925620,
+   "t1_ms": 1967220,
+   "speaker": "Management",
+   "text": "really big chunks of capacity. We will always leave a fair bit of capacity available for on demand on EC2 or in Bedrock and we're working closely with our customers and they'll have plenty of capacity to be able to use in AWS. But we have very good visibility into the next few years and what AWS looks like. Those types of growth rates when you do the math on the revenue and the revenue run rate we have, get you pretty quickly to escalating numbers. And then I'd say that on top of not believing that a lot of the usage we see today is going to attenuate anytime soon, we're still really early in enterprises using inference in their",
+   "parts": [
     {
      "t0_ms": 1925620,
      "text": "really big chunks of capacity. We will always leave a fair bit of capacity available for on"
@@ -1996,18 +1963,7 @@
     {
      "t0_ms": 1947780,
      "text": "revenue and the revenue run rate we have, get you pretty quickly to escalating numbers."
-    }
-   ],
-   "ts": "2026-10-29T17:31:52.660000-04:00",
-   "adj_ret_5m": 0.0014759506858827987
-  },
-  {
-   "seg_id": 53,
-   "t0_ms": 1953300,
-   "t1_ms": 1993220,
-   "speaker": "Management",
-   "text": "And then I'd say that on top of not believing that a lot of the usage we see today is going to attenuate anytime soon, we're still really early in enterprises using inference in their production applications in a pervasive way. It's just, it is just really early. And some of that is enterprises having enough people who know how to operate in AI and post-trade and fine-tune models for the right applications. Some of it is the cost of inference. I think if we all want enterprises to be able to use inference the way we all believe they will, we have to keep working on taking the cost of inference down. That is a huge mission for",
-   "parts": [
+    },
     {
      "t0_ms": 1953300,
      "text": "And then I'd say that on top of not believing that a lot of the usage we see today is going"
@@ -2015,7 +1971,18 @@
     {
      "t0_ms": 1960020,
      "text": "to attenuate anytime soon, we're still really early in enterprises using inference in their"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:32:05.620000-04:00",
+   "adj_ret_5m": 0.0015571607768503082
+  },
+  {
+   "seg_id": 50,
+   "t0_ms": 1967220,
+   "t1_ms": 2008500,
+   "speaker": "Management",
+   "text": "production applications in a pervasive way. It's just, it is just really early. And some of that is enterprises having enough people who know how to operate in AI and post-trade and fine-tune models for the right applications. Some of it is the cost of inference. I think if we all want enterprises to be able to use inference the way we all believe they will, we have to keep working on taking the cost of inference down. That is a huge mission for AWS. It's one of the significant reasons why we're building our own custom silicon and tranium is that we just really believe it's incredibly important for customers to be able to use inference in a much more cost effective way. That has come down a lot, the cost of inference",
+   "parts": [
     {
      "t0_ms": 1967220,
      "text": "production applications in a pervasive way. It's just, it is just really early. And some of"
@@ -2035,18 +2002,7 @@
     {
      "t0_ms": 1988660,
      "text": "we have to keep working on taking the cost of inference down. That is a huge mission for"
-    }
-   ],
-   "ts": "2026-10-29T17:32:33.300000-04:00",
-   "adj_ret_5m": 0.0015571607768503082
-  },
-  {
-   "seg_id": 54,
-   "t0_ms": 1993220,
-   "t1_ms": 2036500,
-   "speaker": "Management",
-   "text": "AWS. It's one of the significant reasons why we're building our own custom silicon and tranium is that we just really believe it's incredibly important for customers to be able to use inference in a much more cost effective way. That has come down a lot, the cost of inference over the last couple of years. And I think it will come down meaningfully more. And so, you know, and then you just think about, just think about what you're seeing. You know, if you think about security as an example, just by itself, the models today are so advanced that the vulnerabilities that they're finding humans just haven't felt. And if you've had access to these models, it leads to you're using these models to both find them and ultimately",
-   "parts": [
+    },
     {
      "t0_ms": 1993220,
      "text": "AWS. It's one of the significant reasons why we're building our own custom silicon and"
@@ -2058,7 +2014,18 @@
     {
      "t0_ms": 2003140,
      "text": "use inference in a much more cost effective way. That has come down a lot, the cost of inference"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:32:47.220000-04:00",
+   "adj_ret_5m": 0.0015571607768503082
+  },
+  {
+   "seg_id": 51,
+   "t0_ms": 2008500,
+   "t1_ms": 2052179,
+   "speaker": "Management",
+   "text": "over the last couple of years. And I think it will come down meaningfully more. And so, you know, and then you just think about, just think about what you're seeing. You know, if you think about security as an example, just by itself, the models today are so advanced that the vulnerabilities that they're finding humans just haven't felt. And if you've had access to these models, it leads to you're using these models to both find them and ultimately to help with patching them and deploying. And there are some people who think that the amount, the total amount of tokens used over the next year or two, 20% of it, if some significant percent of it may end up being just security. And that's a relatively",
+   "parts": [
     {
      "t0_ms": 2008500,
      "text": "over the last couple of years. And I think it will come down meaningfully more. And so,"
@@ -2078,18 +2045,7 @@
     {
      "t0_ms": 2031220,
      "text": "access to these models, it leads to you're using these models to both find them and ultimately"
-    }
-   ],
-   "ts": "2026-10-29T17:33:13.220000-04:00",
-   "adj_ret_5m": 0.0012569892939187088
-  },
-  {
-   "seg_id": 55,
-   "t0_ms": 2036500,
-   "t1_ms": 2075300,
-   "speaker": "Management",
-   "text": "to help with patching them and deploying. And there are some people who think that the amount, the total amount of tokens used over the next year or two, 20% of it, if some significant percent of it may end up being just security. And that's a relatively new use case on top of what we're seeing with coding and how that continues to grow on top of what we're seeing with the various, I'll call it AI companions, both in the consumer space and in the workspace like with QUIC. And these are just the initial big use cases. And you layer on top of that what you're going to see with enterprises where I believe virtually",
-   "parts": [
+    },
     {
      "t0_ms": 2036500,
      "text": "to help with patching them and deploying. And there are some people who think that"
@@ -2101,7 +2057,18 @@
     {
      "t0_ms": 2047460,
      "text": "if some significant percent of it may end up being just security. And that's a relatively"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:33:28.500000-04:00",
+   "adj_ret_5m": 0.0012569892939187088
+  },
+  {
+   "seg_id": 52,
+   "t0_ms": 2052179,
+   "t1_ms": 2091139,
+   "speaker": "Management",
+   "text": "new use case on top of what we're seeing with coding and how that continues to grow on top of what we're seeing with the various, I'll call it AI companions, both in the consumer space and in the workspace like with QUIC. And these are just the initial big use cases. And you layer on top of that what you're going to see with enterprises where I believe virtually every enterprise, modern enterprise production application will be rewritten to be agentically capable. Because that's the way you're going to have to deploy if you want to move quickly or you want to actually guard in the right way against some of the security risks. There is just",
+   "parts": [
     {
      "t0_ms": 2052179,
      "text": "new use case on top of what we're seeing with coding and how that continues to grow"
@@ -2117,18 +2084,7 @@
     {
      "t0_ms": 2070739,
      "text": "And you layer on top of that what you're going to see with enterprises where I believe virtually"
-    }
-   ],
-   "ts": "2026-10-29T17:33:56.500000-04:00",
-   "adj_ret_5m": 0.0012569892939187088
-  },
-  {
-   "seg_id": 56,
-   "t0_ms": 2075300,
-   "t1_ms": 2120180,
-   "speaker": "Management",
-   "text": "every enterprise, modern enterprise production application will be rewritten to be agentically capable. Because that's the way you're going to have to deploy if you want to move quickly or you want to actually guard in the right way against some of the security risks. There is just so much AI coming. So you can't predict with any certainty five to 10 years from now, especially these types of growth rates, but it's not a stretch for us to imagine that this could be over a trillion dollar business. On the robotics side, what I would say is that it's pretty remarkable what's happening in robotics right now. I'll say in general,",
-   "parts": [
+    },
     {
      "t0_ms": 2075300,
      "text": "every enterprise, modern enterprise production application will be rewritten to be agentically"
@@ -2140,7 +2096,18 @@
     {
      "t0_ms": 2086100,
      "text": "or you want to actually guard in the right way against some of the security risks. There is just"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:34:12.179000-04:00",
+   "adj_ret_5m": -0.0063680399647320085
+  },
+  {
+   "seg_id": 53,
+   "t0_ms": 2091139,
+   "t1_ms": 2131220,
+   "speaker": "Management",
+   "text": "so much AI coming. So you can't predict with any certainty five to 10 years from now, especially these types of growth rates, but it's not a stretch for us to imagine that this could be over a trillion dollar business. On the robotics side, what I would say is that it's pretty remarkable what's happening in robotics right now. I'll say in general, but particularly at Amazon, we have over a million robots now in our fulfillment network. And while they're having very significant impact on our cost structure and on our productivity",
+   "parts": [
     {
      "t0_ms": 2091139,
      "text": "so much AI coming. So you can't predict with any certainty five to 10 years from now,"
@@ -2156,18 +2123,7 @@
     {
      "t0_ms": 2114820,
      "text": "it's pretty remarkable what's happening in robotics right now. I'll say in general,"
-    }
-   ],
-   "ts": "2026-10-29T17:34:35.300000-04:00",
-   "adj_ret_5m": -0.0063680399647320085
-  },
-  {
-   "seg_id": 57,
-   "t0_ms": 2120180,
-   "t1_ms": 2160420,
-   "speaker": "Management",
-   "text": "but particularly at Amazon, we have over a million robots now in our fulfillment network. And while they're having very significant impact on our cost structure and on our productivity and on safety, if you look at our safety numbers in our fulfillment network, they're at record low numbers. We've made huge progress over the last four to five years. And robotics has been a big piece of that. And yet I would tell you we're still so early with respect to both what we have deployed, built and deployed, and what we're working on. And I think that you'll see we will always have a lot of teammates in our fulfillment centers. But I think a lot of",
-   "parts": [
+    },
     {
      "t0_ms": 2120180,
      "text": "but particularly at Amazon, we have over a million robots now in our fulfillment network."
@@ -2175,7 +2131,18 @@
     {
      "t0_ms": 2125860,
      "text": "And while they're having very significant impact on our cost structure and on our productivity"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:34:51.139000-04:00",
+   "adj_ret_5m": -0.0063680399647320085
+  },
+  {
+   "seg_id": 54,
+   "t0_ms": 2131220,
+   "t1_ms": 2171780,
+   "speaker": "Management",
+   "text": "and on safety, if you look at our safety numbers in our fulfillment network, they're at record low numbers. We've made huge progress over the last four to five years. And robotics has been a big piece of that. And yet I would tell you we're still so early with respect to both what we have deployed, built and deployed, and what we're working on. And I think that you'll see we will always have a lot of teammates in our fulfillment centers. But I think a lot of the jobs that we have that are more repetitive that we have humans doing will be done by robots. I think we're investing in all sorts of additional robotics of all different form",
+   "parts": [
     {
      "t0_ms": 2131220,
      "text": "and on safety, if you look at our safety numbers in our fulfillment network, they're"
@@ -2195,18 +2162,7 @@
     {
      "t0_ms": 2154580,
      "text": "see we will always have a lot of teammates in our fulfillment centers. But I think a lot of"
-    }
-   ],
-   "ts": "2026-10-29T17:35:20.180000-04:00",
-   "adj_ret_5m": -0.0014273356401383053
-  },
-  {
-   "seg_id": 58,
-   "t0_ms": 2160420,
-   "t1_ms": 2204980,
-   "speaker": "Management",
-   "text": "the jobs that we have that are more repetitive that we have humans doing will be done by robots. I think we're investing in all sorts of additional robotics of all different form factors. I think we have the opportunity to also assist on some of the delivering of the last 100 yards to customer stores. We have a lot coming. And so for us, the way we measure robotics are does it lead to comparable or better productivity, safety, cost structure, and time to delivery. And when we like that combination of economics, we will deploy it at scale in our fulfillment network. And if I look at the new designs that we have coming in our",
-   "parts": [
+    },
     {
      "t0_ms": 2160420,
      "text": "the jobs that we have that are more repetitive that we have humans doing will be done by"
@@ -2214,7 +2170,18 @@
     {
      "t0_ms": 2165300,
      "text": "robots. I think we're investing in all sorts of additional robotics of all different form"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:35:31.220000-04:00",
+   "adj_ret_5m": -0.0014273356401383053
+  },
+  {
+   "seg_id": 55,
+   "t0_ms": 2171780,
+   "t1_ms": 2212340,
+   "speaker": "Management",
+   "text": "factors. I think we have the opportunity to also assist on some of the delivering of the last 100 yards to customer stores. We have a lot coming. And so for us, the way we measure robotics are does it lead to comparable or better productivity, safety, cost structure, and time to delivery. And when we like that combination of economics, we will deploy it at scale in our fulfillment network. And if I look at the new designs that we have coming in our fulfillment network, including our expansion of same day facilities, they are very heavy on",
+   "parts": [
     {
      "t0_ms": 2171780,
      "text": "factors. I think we have the opportunity to also assist on some of the delivering of the last"
@@ -2234,56 +2201,56 @@
     {
      "t0_ms": 2199300,
      "text": "scale in our fulfillment network. And if I look at the new designs that we have coming in our"
-    }
-   ],
-   "ts": "2026-10-29T17:36:00.420000-04:00",
-   "adj_ret_5m": 0.003057650628521813
-  },
-  {
-   "seg_id": 59,
-   "t0_ms": 2204980,
-   "t1_ms": 2217060,
-   "speaker": "Management",
-   "text": "fulfillment network, including our expansion of same day facilities, they are very heavy on robotics. So we think it's had a big impact. And we think it's small compared to what it's",
-   "parts": [
+    },
     {
      "t0_ms": 2204980,
      "text": "fulfillment network, including our expansion of same day facilities, they are very heavy on"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:36:11.780000-04:00",
+   "adj_ret_5m": 0.003057650628521813
+  },
+  {
+   "seg_id": 56,
+   "t0_ms": 2212340,
+   "t1_ms": 2217060,
+   "speaker": "Management",
+   "text": "robotics. So we think it's had a big impact. And we think it's small compared to what it's",
+   "parts": [
     {
      "t0_ms": 2212340,
      "text": "robotics. So we think it's had a big impact. And we think it's small compared to what it's"
     }
    ],
-   "ts": "2026-10-29T17:36:44.980000-04:00",
+   "ts": "2026-10-29T17:36:52.340000-04:00",
    "adj_ret_5m": 0.003057650628521813
   },
   {
-   "seg_id": 60,
+   "seg_id": 57,
    "t0_ms": 2217060,
-   "t1_ms": 2225710,
+   "t1_ms": 2230750,
    "speaker": "Operator",
-   "text": "going to be in the next five years. Thank you. Our next question comes from",
+   "text": "going to be in the next five years. Thank you. Our next question comes from the line of Mark Mahaney with Evercore ISI. Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 2217060,
      "text": "going to be in the next five years. Thank you. Our next question comes from"
+    },
+    {
+     "t0_ms": 2225710,
+     "text": "the line of Mark Mahaney with Evercore ISI. Please proceed with your question."
     }
    ],
    "ts": "2026-10-29T17:36:57.060000-04:00",
    "adj_ret_5m": 0.003057650628521813
   },
   {
-   "seg_id": 61,
-   "t0_ms": 2225710,
-   "t1_ms": 2269310,
+   "seg_id": 58,
+   "t0_ms": 2232350,
+   "t1_ms": 2274910,
    "speaker": "Analyst",
-   "text": "the line of Mark Mahaney with Evercore ISI. Please proceed with your question. Two things. One, first, thanks a lot for the forward comments on AWS growth. Could I ask you to draw out on margins too? I know that margins can move up and down quarter to quarter. But over the next two years, do you think the current margin structure is relatively stable? We kind of hold at these kind of high 30s, 40% operating margins for AWS. And then on perishable checkout, I'm super excited about this opportunity just watching how it's rolled out in my neighborhood and in other areas. How much coverage do you have for perishable checkout? In other words, how many prime households do you think you've covered",
+   "text": "Two things. One, first, thanks a lot for the forward comments on AWS growth. Could I ask you to draw out on margins too? I know that margins can move up and down quarter to quarter. But over the next two years, do you think the current margin structure is relatively stable? We kind of hold at these kind of high 30s, 40% operating margins for AWS. And then on perishable checkout, I'm super excited about this opportunity just watching how it's rolled out in my neighborhood and in other areas. How much coverage do you have for perishable checkout? In other words, how many prime households do you think you've covered with perishable checkout? And for those that have used it, how much of a boost do you",
    "parts": [
-    {
-     "t0_ms": 2225710,
-     "text": "the line of Mark Mahaney with Evercore ISI. Please proceed with your question."
-    },
     {
      "t0_ms": 2232350,
      "text": "Two things. One, first, thanks a lot for the forward comments on AWS growth. Could I"
@@ -2311,22 +2278,22 @@
     {
      "t0_ms": 2265070,
      "text": "for perishable checkout? In other words, how many prime households do you think you've covered"
-    }
-   ],
-   "ts": "2026-10-29T17:37:05.710000-04:00",
-   "adj_ret_5m": -0.0053984020729863635
-  },
-  {
-   "seg_id": 62,
-   "t0_ms": 2269310,
-   "t1_ms": 2312190,
-   "speaker": "Management",
-   "text": "with perishable checkout? And for those that have used it, how much of a boost do you think that is per prime household? Like, is this something that increases spend per prime household by 20%, 50%, 100%? Just given how large the fresh grocery category is. Thanks a lot. Hey, Mark, let me start with the operating margin outlook for AWS. So we're not guiding out beyond, we're not guiding at all on our margin for AWS. But I can tell you, give you my color on it. So, you know, very, it seems very strong out margin 38.7% this quarter. And I would add that the profitability you've been seeing recently",
-   "parts": [
+    },
     {
      "t0_ms": 2269310,
      "text": "with perishable checkout? And for those that have used it, how much of a boost do you"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:37:12.350000-04:00",
+   "adj_ret_5m": -0.0053984020729863635
+  },
+  {
+   "seg_id": 59,
+   "t0_ms": 2274910,
+   "t1_ms": 2285950,
+   "speaker": "Analyst",
+   "text": "think that is per prime household? Like, is this something that increases spend per prime household by 20%, 50%, 100%? Just given how large the fresh grocery category is. Thanks a lot.",
+   "parts": [
     {
      "t0_ms": 2274910,
      "text": "think that is per prime household? Like, is this something that increases spend per prime"
@@ -2334,7 +2301,18 @@
     {
      "t0_ms": 2279630,
      "text": "household by 20%, 50%, 100%? Just given how large the fresh grocery category is. Thanks a lot."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:37:54.910000-04:00",
+   "adj_ret_5m": -0.0053984020729863635
+  },
+  {
+   "seg_id": 60,
+   "t0_ms": 2287230,
+   "t1_ms": 2323630,
+   "speaker": "Management",
+   "text": "Hey, Mark, let me start with the operating margin outlook for AWS. So we're not guiding out beyond, we're not guiding at all on our margin for AWS. But I can tell you, give you my color on it. So, you know, very, it seems very strong out margin 38.7% this quarter. And I would add that the profitability you've been seeing recently is really not a random output. It's a result of a lot of discipline, efficiency gains, capacity optimization, closely managing our fixed cost. And as Andy said, you know,",
+   "parts": [
     {
      "t0_ms": 2287230,
      "text": "Hey, Mark, let me start with the operating margin outlook for AWS. So we're not guiding"
@@ -2350,18 +2328,7 @@
     {
      "t0_ms": 2304910,
      "text": "out margin 38.7% this quarter. And I would add that the profitability you've been seeing recently"
-    }
-   ],
-   "ts": "2026-10-29T17:37:49.310000-04:00",
-   "adj_ret_5m": -0.0053984020729863635
-  },
-  {
-   "seg_id": 63,
-   "t0_ms": 2312190,
-   "t1_ms": 2354750,
-   "speaker": "Management",
-   "text": "is really not a random output. It's a result of a lot of discipline, efficiency gains, capacity optimization, closely managing our fixed cost. And as Andy said, you know, the inclusion of overtime more and more custom chips into our cost structure. However, you know, there are other things bouncing around. In fact, the, you know, the outsize growth of AI puts margin pressure on the business as a whole, because the margins are lower there. We are happy with the progression in both core and AI margins. And they're, as Andy said earlier, they're ahead of where the core was at a similar point in time, but they're still",
-   "parts": [
+    },
     {
      "t0_ms": 2312190,
      "text": "is really not a random output. It's a result of a lot of discipline, efficiency gains,"
@@ -2369,7 +2336,18 @@
     {
      "t0_ms": 2318270,
      "text": "capacity optimization, closely managing our fixed cost. And as Andy said, you know,"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:38:07.230000-04:00",
+   "adj_ret_5m": -0.0033766233766233666
+  },
+  {
+   "seg_id": 61,
+   "t0_ms": 2323630,
+   "t1_ms": 2365630,
+   "speaker": "Management",
+   "text": "the inclusion of overtime more and more custom chips into our cost structure. However, you know, there are other things bouncing around. In fact, the, you know, the outsize growth of AI puts margin pressure on the business as a whole, because the margins are lower there. We are happy with the progression in both core and AI margins. And they're, as Andy said earlier, they're ahead of where the core was at a similar point in time, but they're still lower. So there's gonna be that mixed issue. There's also headwinds from component pricing that we've talked about. So cannot predict it, but there's going to be always a confluence of",
+   "parts": [
     {
      "t0_ms": 2323630,
      "text": "the inclusion of overtime more and more custom chips into our cost structure. However, you"
@@ -2389,18 +2367,7 @@
     {
      "t0_ms": 2350510,
      "text": "earlier, they're ahead of where the core was at a similar point in time, but they're still"
-    }
-   ],
-   "ts": "2026-10-29T17:38:32.190000-04:00",
-   "adj_ret_5m": -0.0033766233766233666
-  },
-  {
-   "seg_id": 64,
-   "t0_ms": 2354750,
-   "t1_ms": 2397870,
-   "speaker": "Management",
-   "text": "lower. So there's gonna be that mixed issue. There's also headwinds from component pricing that we've talked about. So cannot predict it, but there's going to be always a confluence of these multiple factors that we're working very hard on the cost side and the efficiency side and dealing with investments and new product margins as they start up and launch and reach scale. On the perishables checkout, Mark, I share your enthusiasm about it. It's, you know, as you know, we've had a, you know, we've had a big grocery business for a while and it's mostly been in the middle aisles of what you'd find in a grocery store, consumables, canned goods,",
-   "parts": [
+    },
     {
      "t0_ms": 2354750,
      "text": "lower. So there's gonna be that mixed issue. There's also headwinds from component pricing"
@@ -2408,7 +2375,18 @@
     {
      "t0_ms": 2359390,
      "text": "that we've talked about. So cannot predict it, but there's going to be always a confluence of"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:38:43.630000-04:00",
+   "adj_ret_5m": -0.0033766233766233666
+  },
+  {
+   "seg_id": 62,
+   "t0_ms": 2365630,
+   "t1_ms": 2406670,
+   "speaker": "Management",
+   "text": "these multiple factors that we're working very hard on the cost side and the efficiency side and dealing with investments and new product margins as they start up and launch and reach scale. On the perishables checkout, Mark, I share your enthusiasm about it. It's, you know, as you know, we've had a, you know, we've had a big grocery business for a while and it's mostly been in the middle aisles of what you'd find in a grocery store, consumables, canned goods, pharmaceutical items, beauty products. And we've had this, you know, leading organic grocery store and Whole Foods Market, which also is growing faster than the rest of the grocery",
+   "parts": [
     {
      "t0_ms": 2365630,
      "text": "these multiple factors that we're working very hard on the cost side and the efficiency side"
@@ -2428,18 +2406,7 @@
     {
      "t0_ms": 2392670,
      "text": "been in the middle aisles of what you'd find in a grocery store, consumables, canned goods,"
-    }
-   ],
-   "ts": "2026-10-29T17:39:14.750000-04:00",
-   "adj_ret_5m": 0.0032172514238510974
-  },
-  {
-   "seg_id": 65,
-   "t0_ms": 2397870,
-   "t1_ms": 2439070,
-   "speaker": "Management",
-   "text": "pharmaceutical items, beauty products. And we've had this, you know, leading organic grocery store and Whole Foods Market, which also is growing faster than the rest of the grocery segment, both in the top line and the bottom line with a new format and daily shop in urban environments. It's doing really well that we're in the process of rolling out over next couple of years. We've always known if we wanted to be able to serve customers the way we think they want to be served and the way we want to, we have to have a mass offering. It starts with perishables. And, you know, if you look at the total spend per household, you know, when we look at the difference between the total amount of spend that we think",
-   "parts": [
+    },
     {
      "t0_ms": 2397870,
      "text": "pharmaceutical items, beauty products. And we've had this, you know, leading organic grocery"
@@ -2447,7 +2414,18 @@
     {
      "t0_ms": 2402270,
      "text": "store and Whole Foods Market, which also is growing faster than the rest of the grocery"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:39:25.630000-04:00",
+   "adj_ret_5m": 0.0032172514238510974
+  },
+  {
+   "seg_id": 63,
+   "t0_ms": 2406670,
+   "t1_ms": 2445630,
+   "speaker": "Management",
+   "text": "segment, both in the top line and the bottom line with a new format and daily shop in urban environments. It's doing really well that we're in the process of rolling out over next couple of years. We've always known if we wanted to be able to serve customers the way we think they want to be served and the way we want to, we have to have a mass offering. It starts with perishables. And, you know, if you look at the total spend per household, you know, when we look at the difference between the total amount of spend that we think our consumers and customers are spending on items that we could serve them on versus",
+   "parts": [
     {
      "t0_ms": 2406670,
      "text": "segment, both in the top line and the bottom line with a new format and daily shop in"
@@ -2471,22 +2449,22 @@
     {
      "t0_ms": 2434190,
      "text": "you know, when we look at the difference between the total amount of spend that we think"
-    }
-   ],
-   "ts": "2026-10-29T17:39:57.870000-04:00",
-   "adj_ret_5m": 0.0032172514238510974
-  },
-  {
-   "seg_id": 66,
-   "t0_ms": 2440270,
-   "t1_ms": 2485230,
-   "speaker": "Management",
-   "text": "our consumers and customers are spending on items that we could serve them on versus what they spend on us, the biggest difference is grocery. And, you know, a lot of your shops, a lot of grocery starts with perishables. And so we are, we really are excited that we feel like we found something with shipping perishables out of our same day facilities. You know, we grown our everyday essentials about three times faster than the rest of our store. It represents about half of our units now, if I look at all the everyday essentials. We find as customers who shop perishables through our same day delivery, they buy about seven times more everyday essential units than those that don't. So again, if you're trying to close that",
-   "parts": [
+    },
     {
      "t0_ms": 2440270,
      "text": "our consumers and customers are spending on items that we could serve them on versus"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:40:06.670000-04:00",
+   "adj_ret_5m": 0.0013860614198466514
+  },
+  {
+   "seg_id": 64,
+   "t0_ms": 2445630,
+   "t1_ms": 2485230,
+   "speaker": "Management",
+   "text": "what they spend on us, the biggest difference is grocery. And, you know, a lot of your shops, a lot of grocery starts with perishables. And so we are, we really are excited that we feel like we found something with shipping perishables out of our same day facilities. You know, we grown our everyday essentials about three times faster than the rest of our store. It represents about half of our units now, if I look at all the everyday essentials. We find as customers who shop perishables through our same day delivery, they buy about seven times more everyday essential units than those that don't. So again, if you're trying to close that",
+   "parts": [
     {
      "t0_ms": 2445630,
      "text": "what they spend on us, the biggest difference is grocery. And, you know, a lot of your shops,"
@@ -2516,11 +2494,11 @@
      "text": "more everyday essential units than those that don't. So again, if you're trying to close that"
     }
    ],
-   "ts": "2026-10-29T17:40:40.270000-04:00",
+   "ts": "2026-10-29T17:40:45.630000-04:00",
    "adj_ret_5m": 0.0013860614198466514
   },
   {
-   "seg_id": 67,
+   "seg_id": 65,
    "t0_ms": 2485230,
    "t1_ms": 2520590,
    "speaker": "Management",
@@ -2559,31 +2537,31 @@
    "adj_ret_5m": -0.0006715487192605618
   },
   {
-   "seg_id": 68,
+   "seg_id": 66,
    "t0_ms": 2525730,
-   "t1_ms": 2531970,
+   "t1_ms": 2533970,
    "speaker": "Operator",
-   "text": "Thank you. Our next question comes from the line of Eric Sheridan with Goldman Sachs.",
+   "text": "Thank you. Our next question comes from the line of Eric Sheridan with Goldman Sachs. Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 2525730,
      "text": "Thank you. Our next question comes from the line of Eric Sheridan with Goldman Sachs."
+    },
+    {
+     "t0_ms": 2532610,
+     "text": "Please proceed with your question."
     }
    ],
    "ts": "2026-10-29T17:42:05.730000-04:00",
    "adj_ret_5m": 0.0039079461571862595
   },
   {
-   "seg_id": 69,
-   "t0_ms": 2532610,
-   "t1_ms": 2551650,
+   "seg_id": 67,
+   "t0_ms": 2534930,
+   "t1_ms": 2569090,
    "speaker": "Analyst",
-   "text": "Please proceed with your question. Thanks so much for taking the question. Maybe a two-parter on market opportunities within AWS. First, you know, with respect to bedrock, what have been your key learnings about the market opportunity around bedrock and how it might continue to scale in the years ahead?",
+   "text": "Thanks so much for taking the question. Maybe a two-parter on market opportunities within AWS. First, you know, with respect to bedrock, what have been your key learnings about the market opportunity around bedrock and how it might continue to scale in the years ahead? And then with respect to the decision to sell tranium externally, how do you think about balancing the market opportunity of external sales relative to the need for compute for that opportunity relative to other opportunities broadly across both internal use cases and AWS?",
    "parts": [
-    {
-     "t0_ms": 2532610,
-     "text": "Please proceed with your question."
-    },
     {
      "t0_ms": 2534930,
      "text": "Thanks so much for taking the question. Maybe a two-parter on market opportunities within AWS."
@@ -2595,18 +2573,7 @@
     {
      "t0_ms": 2545890,
      "text": "market opportunity around bedrock and how it might continue to scale in the years ahead?"
-    }
-   ],
-   "ts": "2026-10-29T17:42:12.610000-04:00",
-   "adj_ret_5m": 0.0039079461571862595
-  },
-  {
-   "seg_id": 70,
-   "t0_ms": 2551650,
-   "t1_ms": 2594850,
-   "speaker": "Management",
-   "text": "And then with respect to the decision to sell tranium externally, how do you think about balancing the market opportunity of external sales relative to the need for compute for that opportunity relative to other opportunities broadly across both internal use cases and AWS? Thanks so much. Yeah, on the bedrock side, you know, I would tell you, you've probably heard this from us multiple times over the last couple years, but one of the lessons that we've learned, you know, I'll say for 20 plus years in offering technology to customers is that there is not one tool to",
-   "parts": [
+    },
     {
      "t0_ms": 2551650,
      "text": "And then with respect to the decision to sell tranium externally, how do you think"
@@ -2618,7 +2585,18 @@
     {
      "t0_ms": 2562770,
      "text": "for that opportunity relative to other opportunities broadly across both internal use cases and AWS?"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:42:14.930000-04:00",
+   "adj_ret_5m": 0.0039079461571862595
+  },
+  {
+   "seg_id": 68,
+   "t0_ms": 2569090,
+   "t1_ms": 2609250,
+   "speaker": "Management",
+   "text": "Thanks so much. Yeah, on the bedrock side, you know, I would tell you, you've probably heard this from us multiple times over the last couple years, but one of the lessons that we've learned, you know, I'll say for 20 plus years in offering technology to customers is that there is not one tool to rule the world. People always assume that whatever is in the lead early on is going to be the only thing or things that people use. And it's never the case. It's not true in database. It hasn't been true in analytics. In the beginning of AI, everyone said the only",
+   "parts": [
     {
      "t0_ms": 2569090,
      "text": "Thanks so much. Yeah, on the bedrock side,"
@@ -2634,18 +2612,7 @@
     {
      "t0_ms": 2587170,
      "text": "for 20 plus years in offering technology to customers is that there is not one tool to"
-    }
-   ],
-   "ts": "2026-10-29T17:42:31.650000-04:00",
-   "adj_ret_5m": 0.0039079461571862595
-  },
-  {
-   "seg_id": 71,
-   "t0_ms": 2594850,
-   "t1_ms": 2634450,
-   "speaker": "Management",
-   "text": "rule the world. People always assume that whatever is in the lead early on is going to be the only thing or things that people use. And it's never the case. It's not true in database. It hasn't been true in analytics. In the beginning of AI, everyone said the only framework people use is TensorFlow. It turns out, you know, PyTorch is much bigger now. And so it's not going to be true with models either. You know, in, you know, I'll say in the next two to three years, I think there's going to be six to eight models that are about as good as each other, or at least good enough for 95 plus percent of the workloads. And some will be better at reasoning and some will be better at coding and some will be better",
-   "parts": [
+    },
     {
      "t0_ms": 2594850,
      "text": "rule the world. People always assume that whatever is in the lead early on is going to be"
@@ -2657,7 +2624,18 @@
     {
      "t0_ms": 2605570,
      "text": "It hasn't been true in analytics. In the beginning of AI, everyone said the only"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:42:49.090000-04:00",
+   "adj_ret_5m": 0.0039079461571862595
+  },
+  {
+   "seg_id": 69,
+   "t0_ms": 2610130,
+   "t1_ms": 2652770,
+   "speaker": "Management",
+   "text": "framework people use is TensorFlow. It turns out, you know, PyTorch is much bigger now. And so it's not going to be true with models either. You know, in, you know, I'll say in the next two to three years, I think there's going to be six to eight models that are about as good as each other, or at least good enough for 95 plus percent of the workloads. And some will be better at reasoning and some will be better at coding and some will be better at visual pieces and some will be lower latency and some will be lower cost. And most customers are going to use multiple models and many will use multiple models in the same generative AI application. And so what customers really want to do, and we see this validated",
+   "parts": [
     {
      "t0_ms": 2610130,
      "text": "framework people use is TensorFlow. It turns out, you know, PyTorch is much bigger now."
@@ -2677,18 +2655,7 @@
     {
      "t0_ms": 2630370,
      "text": "some will be better at reasoning and some will be better at coding and some will be better"
-    }
-   ],
-   "ts": "2026-10-29T17:43:14.850000-04:00",
-   "adj_ret_5m": 0.0010112066718790391
-  },
-  {
-   "seg_id": 72,
-   "t0_ms": 2634450,
-   "t1_ms": 2675010,
-   "speaker": "Management",
-   "text": "at visual pieces and some will be lower latency and some will be lower cost. And most customers are going to use multiple models and many will use multiple models in the same generative AI application. And so what customers really want to do, and we see this validated over and over again when we talk to customers, is they want a service that has really broad selection of those frontier models and that has very good price performance and it has very strong security and access control. And they want that service so that they can kind of decide what combination of models they want to use and to swap them back and forth as they leapfrog",
-   "parts": [
+    },
     {
      "t0_ms": 2634450,
      "text": "at visual pieces and some will be lower latency and some will be lower cost. And most"
@@ -2700,7 +2667,18 @@
     {
      "t0_ms": 2646050,
      "text": "generative AI application. And so what customers really want to do, and we see this validated"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:43:30.130000-04:00",
+   "adj_ret_5m": 0.0010112066718790391
+  },
+  {
+   "seg_id": 70,
+   "t0_ms": 2652770,
+   "t1_ms": 2693810,
+   "speaker": "Management",
+   "text": "over and over again when we talk to customers, is they want a service that has really broad selection of those frontier models and that has very good price performance and it has very strong security and access control. And they want that service so that they can kind of decide what combination of models they want to use and to swap them back and forth as they leapfrog each other as different constraints or their applications require them. And that's what we see with Bedrock. People are very excited about it. We have, you know, we have both closed models and models like Anthropic and OpenAI models. We have open models with Kimi and",
+   "parts": [
     {
      "t0_ms": 2652770,
      "text": "over and over again when we talk to customers, is they want a service that has really broad"
@@ -2716,18 +2694,7 @@
     {
      "t0_ms": 2670370,
      "text": "what combination of models they want to use and to swap them back and forth as they leapfrog"
-    }
-   ],
-   "ts": "2026-10-29T17:43:54.450000-04:00",
-   "adj_ret_5m": 0.0010112066718790391
-  },
-  {
-   "seg_id": 73,
-   "t0_ms": 2675010,
-   "t1_ms": 2719730,
-   "speaker": "Management",
-   "text": "each other as different constraints or their applications require them. And that's what we see with Bedrock. People are very excited about it. We have, you know, we have both closed models and models like Anthropic and OpenAI models. We have open models with Kimi and GLM and others. I think the Western world is very hungry for additional open models that are Western open models. So I believe that will happen over time as well. But I think that the size of the opportunity in Bedrock is gigantic and it could be a service as large as EC2, which is a very large service today in AWS. So I think it's very large.",
-   "parts": [
+    },
     {
      "t0_ms": 2675010,
      "text": "each other as different constraints or their applications require them. And that's what we"
@@ -2739,7 +2706,18 @@
     {
      "t0_ms": 2687410,
      "text": "models and models like Anthropic and OpenAI models. We have open models with Kimi and"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:44:12.770000-04:00",
+   "adj_ret_5m": -0.0010834236186348933
+  },
+  {
+   "seg_id": 71,
+   "t0_ms": 2693810,
+   "t1_ms": 2733570,
+   "speaker": "Management",
+   "text": "GLM and others. I think the Western world is very hungry for additional open models that are Western open models. So I believe that will happen over time as well. But I think that the size of the opportunity in Bedrock is gigantic and it could be a service as large as EC2, which is a very large service today in AWS. So I think it's very large. On the balance of chips and what you sell externally versus what you use inside your cloud, it's a very good question. And it's a question that we're continuing to evaluate",
+   "parts": [
     {
      "t0_ms": 2693810,
      "text": "GLM and others. I think the Western world is very hungry for additional open models that are"
@@ -2755,18 +2733,7 @@
     {
      "t0_ms": 2714850,
      "text": "as EC2, which is a very large service today in AWS. So I think it's very large."
-    }
-   ],
-   "ts": "2026-10-29T17:44:35.010000-04:00",
-   "adj_ret_5m": -0.0010834236186348933
-  },
-  {
-   "seg_id": 74,
-   "t0_ms": 2720690,
-   "t1_ms": 2762610,
-   "speaker": "Management",
-   "text": "On the balance of chips and what you sell externally versus what you use inside your cloud, it's a very good question. And it's a question that we're continuing to evaluate as we speak. I would say that the number of companies who have a significant cloud business and chips strong enough to sell externally is effectively two. So there really aren't many customers that have to grapple with the same type of problem at this type of scale. And at this point, everybody is producing their advanced chips with the same provider.",
-   "parts": [
+    },
     {
      "t0_ms": 2720690,
      "text": "On the balance of chips and what you sell externally versus what you use inside your"
@@ -2774,7 +2741,18 @@
     {
      "t0_ms": 2727970,
      "text": "cloud, it's a very good question. And it's a question that we're continuing to evaluate"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:44:53.810000-04:00",
+   "adj_ret_5m": -0.0010834236186348933
+  },
+  {
+   "seg_id": 72,
+   "t0_ms": 2733570,
+   "t1_ms": 2777890,
+   "speaker": "Management",
+   "text": "as we speak. I would say that the number of companies who have a significant cloud business and chips strong enough to sell externally is effectively two. So there really aren't many customers that have to grapple with the same type of problem at this type of scale. And at this point, everybody is producing their advanced chips with the same provider. There's only so many chips that provider can provide each year. Everybody gets an allocation and you have to decide with that allocation how much of it you want to sell externally and how much of it you want to use in your cloud. And there's a trade-off. If you",
+   "parts": [
     {
      "t0_ms": 2733570,
      "text": "as we speak. I would say that the number of companies who have a significant cloud business"
@@ -2790,18 +2768,7 @@
     {
      "t0_ms": 2754850,
      "text": "And at this point, everybody is producing their advanced chips with the same provider."
-    }
-   ],
-   "ts": "2026-10-29T17:45:20.690000-04:00",
-   "adj_ret_5m": -0.0034171028158657135
-  },
-  {
-   "seg_id": 75,
-   "t0_ms": 2762610,
-   "t1_ms": 2803490,
-   "speaker": "Management",
-   "text": "There's only so many chips that provider can provide each year. Everybody gets an allocation and you have to decide with that allocation how much of it you want to sell externally and how much of it you want to use in your cloud. And there's a trade-off. If you sell externally, you're able to realize more revenue in the short term because you get to recognize the revenue as soon as it leaves your inventory. And on the flip side, if you decide to use it inside your cloud in the form of EC2 instances or bedrock, you actually will end up driving more absolute revenue and free cash flow from those chips because you get to use them",
-   "parts": [
+    },
     {
      "t0_ms": 2762610,
      "text": "There's only so many chips that provider can provide each year. Everybody gets an allocation"
@@ -2813,7 +2780,18 @@
     {
      "t0_ms": 2774050,
      "text": "and how much of it you want to use in your cloud. And there's a trade-off. If you"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:45:33.570000-04:00",
+   "adj_ret_5m": -0.0034171028158657135
+  },
+  {
+   "seg_id": 73,
+   "t0_ms": 2777890,
+   "t1_ms": 2821330,
+   "speaker": "Management",
+   "text": "sell externally, you're able to realize more revenue in the short term because you get to recognize the revenue as soon as it leaves your inventory. And on the flip side, if you decide to use it inside your cloud in the form of EC2 instances or bedrock, you actually will end up driving more absolute revenue and free cash flow from those chips because you get to use them over five to six years and drive revenue for a longer period of time. So you have to really think through what you want to do. To date, I would say that we've taken a different approach in how we've used our chips than the other provider who has this same type of balancing",
+   "parts": [
     {
      "t0_ms": 2777890,
      "text": "sell externally, you're able to realize more revenue in the short term because you get to"
@@ -2829,18 +2807,7 @@
     {
      "t0_ms": 2798290,
      "text": "driving more absolute revenue and free cash flow from those chips because you get to use them"
-    }
-   ],
-   "ts": "2026-10-29T17:46:02.610000-04:00",
-   "adj_ret_5m": -0.008000000000000007
-  },
-  {
-   "seg_id": 76,
-   "t0_ms": 2803490,
-   "t1_ms": 2847890,
-   "speaker": "Management",
-   "text": "over five to six years and drive revenue for a longer period of time. So you have to really think through what you want to do. To date, I would say that we've taken a different approach in how we've used our chips than the other provider who has this same type of balancing act going on. And as I mentioned earlier, we believe we're going to have a very significant business selling chips externally and we're going to start in late 2027. And we will be thinking through that balance, I think, probably every year. But they'll both be very significant. Our ability to create price performance scalable chips is going to be a very significant strategic",
-   "parts": [
+    },
     {
      "t0_ms": 2803490,
      "text": "over five to six years and drive revenue for a longer period of time. So you have to really"
@@ -2852,7 +2819,18 @@
     {
      "t0_ms": 2815890,
      "text": "in how we've used our chips than the other provider who has this same type of balancing"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:46:17.890000-04:00",
+   "adj_ret_5m": -0.008000000000000007
+  },
+  {
+   "seg_id": 74,
+   "t0_ms": 2821330,
+   "t1_ms": 2857330,
+   "speaker": "Management",
+   "text": "act going on. And as I mentioned earlier, we believe we're going to have a very significant business selling chips externally and we're going to start in late 2027. And we will be thinking through that balance, I think, probably every year. But they'll both be very significant. Our ability to create price performance scalable chips is going to be a very significant strategic advantage for us at scale, both in our own cost structure as well as building a separate business and selling external chips. And selling external chips really is a very different",
+   "parts": [
     {
      "t0_ms": 2821330,
      "text": "act going on. And as I mentioned earlier, we believe we're going to have a very significant"
@@ -2868,18 +2846,7 @@
     {
      "t0_ms": 2839490,
      "text": "Our ability to create price performance scalable chips is going to be a very significant strategic"
-    }
-   ],
-   "ts": "2026-10-29T17:46:43.490000-04:00",
-   "adj_ret_5m": -0.008000000000000007
-  },
-  {
-   "seg_id": 77,
-   "t0_ms": 2847890,
-   "t1_ms": 2857330,
-   "speaker": "Management",
-   "text": "advantage for us at scale, both in our own cost structure as well as building a separate business and selling external chips. And selling external chips really is a very different",
-   "parts": [
+    },
     {
      "t0_ms": 2847890,
      "text": "advantage for us at scale, both in our own cost structure as well as building a separate"
@@ -2889,35 +2856,35 @@
      "text": "business and selling external chips. And selling external chips really is a very different"
     }
    ],
-   "ts": "2026-10-29T17:47:27.890000-04:00",
+   "ts": "2026-10-29T17:47:01.330000-04:00",
    "adj_ret_5m": -0.00865051903114189
   },
   {
-   "seg_id": 78,
+   "seg_id": 75,
    "t0_ms": 2857330,
-   "t1_ms": 2866500,
+   "t1_ms": 2871460,
    "speaker": "Operator",
-   "text": "business than your cloud infrastructure business. Thank you. Our next question comes from the",
+   "text": "business than your cloud infrastructure business. Thank you. Our next question comes from the line of Doug Anmuth with JP Morgan. Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 2857330,
      "text": "business than your cloud infrastructure business. Thank you. Our next question comes from the"
+    },
+    {
+     "t0_ms": 2866500,
+     "text": "line of Doug Anmuth with JP Morgan. Please proceed with your question."
     }
    ],
    "ts": "2026-10-29T17:47:37.330000-04:00",
    "adj_ret_5m": -0.00865051903114189
   },
   {
-   "seg_id": 79,
-   "t0_ms": 2866500,
-   "t1_ms": 2889940,
+   "seg_id": 76,
+   "t0_ms": 2871460,
+   "t1_ms": 2899700,
    "speaker": "Analyst",
-   "text": "line of Doug Anmuth with JP Morgan. Please proceed with your question. Thanks for rotating questions. When you think about the 40% plus AWS revenue growth each of the next two years and then the multi-year path beyond that, can you just talk about the capex required to drive that kind of revenue over the next couple of years and beyond?",
+   "text": "Thanks for rotating questions. When you think about the 40% plus AWS revenue growth each of the next two years and then the multi-year path beyond that, can you just talk about the capex required to drive that kind of revenue over the next couple of years and beyond? And then also, Andy, any updates just to how you're thinking about the duration of returns on both servers and networking and then also data centers? Thanks.",
    "parts": [
-    {
-     "t0_ms": 2866500,
-     "text": "line of Doug Anmuth with JP Morgan. Please proceed with your question."
-    },
     {
      "t0_ms": 2871460,
      "text": "Thanks for rotating questions. When you think about the 40% plus AWS revenue growth each of the"
@@ -2929,18 +2896,7 @@
     {
      "t0_ms": 2884900,
      "text": "required to drive that kind of revenue over the next couple of years and beyond?"
-    }
-   ],
-   "ts": "2026-10-29T17:47:46.500000-04:00",
-   "adj_ret_5m": -0.00865051903114189
-  },
-  {
-   "seg_id": 80,
-   "t0_ms": 2889940,
-   "t1_ms": 2934580,
-   "speaker": "Management",
-   "text": "And then also, Andy, any updates just to how you're thinking about the duration of returns on both servers and networking and then also data centers? Thanks. Yeah, I'll take them in reverse order. So on the break even on our infrastructure, as I mentioned in my opening comments, we're continuing to move that left. We're continuing to make that shorter. There are a lot of cores a little bit different from AI, a little bit different from how you finance these things. It varies depending on which you're talking about. But we're continuing to make progress, as we historically have been pretty good at doing if you think about AWS, at finding ways to extend useful lives and to",
-   "parts": [
+    },
     {
      "t0_ms": 2889940,
      "text": "And then also, Andy, any updates just to how you're thinking about the duration of"
@@ -2948,7 +2904,18 @@
     {
      "t0_ms": 2895140,
      "text": "returns on both servers and networking and then also data centers? Thanks."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:47:51.460000-04:00",
+   "adj_ret_5m": -0.00865051903114189
+  },
+  {
+   "seg_id": 77,
+   "t0_ms": 2899780,
+   "t1_ms": 2938420,
+   "speaker": "Management",
+   "text": "Yeah, I'll take them in reverse order. So on the break even on our infrastructure, as I mentioned in my opening comments, we're continuing to move that left. We're continuing to make that shorter. There are a lot of cores a little bit different from AI, a little bit different from how you finance these things. It varies depending on which you're talking about. But we're continuing to make progress, as we historically have been pretty good at doing if you think about AWS, at finding ways to extend useful lives and to make the break even sooner. And we're making good progress there too.",
+   "parts": [
     {
      "t0_ms": 2899780,
      "text": "Yeah, I'll take them in reverse order. So on the break even on our infrastructure,"
@@ -2972,22 +2939,22 @@
     {
      "t0_ms": 2928420,
      "text": "pretty good at doing if you think about AWS, at finding ways to extend useful lives and to"
-    }
-   ],
-   "ts": "2026-10-29T17:48:09.940000-04:00",
-   "adj_ret_5m": -0.006573146431720578
-  },
-  {
-   "seg_id": 81,
-   "t0_ms": 2935300,
-   "t1_ms": 2976340,
-   "speaker": "Management",
-   "text": "make the break even sooner. And we're making good progress there too. On the capex involved to grow the way we're talking about, it's meaningful. I think that the way we think about it, Doug, is that this is a once in a lifetime opportunity. I think what we're seeing with AI, it's the biggest transformation in our lifetime. And if the idea of being able to grow 39% with $184 billion annual run rate and to grow 40% a year on top of that in each of the next two years and ultimately end up as a trillion",
-   "parts": [
+    },
     {
      "t0_ms": 2935300,
      "text": "make the break even sooner. And we're making good progress there too."
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:48:19.780000-04:00",
+   "adj_ret_5m": -0.006573146431720578
+  },
+  {
+   "seg_id": 78,
+   "t0_ms": 2939220,
+   "t1_ms": 2982100,
+   "speaker": "Management",
+   "text": "On the capex involved to grow the way we're talking about, it's meaningful. I think that the way we think about it, Doug, is that this is a once in a lifetime opportunity. I think what we're seeing with AI, it's the biggest transformation in our lifetime. And if the idea of being able to grow 39% with $184 billion annual run rate and to grow 40% a year on top of that in each of the next two years and ultimately end up as a trillion dollar plus business, we're going to invest to continue being the leader. We are the leader",
+   "parts": [
     {
      "t0_ms": 2939220,
      "text": "On the capex involved to grow the way we're talking about, it's meaningful."
@@ -3007,22 +2974,22 @@
     {
      "t0_ms": 2968420,
      "text": "40% a year on top of that in each of the next two years and ultimately end up as a trillion"
-    }
-   ],
-   "ts": "2026-10-29T17:48:55.300000-04:00",
-   "adj_ret_5m": -0.006573146431720578
-  },
-  {
-   "seg_id": 82,
-   "t0_ms": 2976340,
-   "t1_ms": 3018580,
-   "speaker": "Management",
-   "text": "dollar plus business, we're going to invest to continue being the leader. We are the leader today in the infrastructure and AI space. And would it be more convenient if this type of acceleration and opportunity happened over 25 years and you could spread the capex over 25 years? Yeah, it might be more convenient, but that's not the world that we live in and that's not the opportunity. And we can fund this plan. And I think it will forever change the size of Amazon. It will forever change our revenue. It will forever change our free cash flow.",
-   "parts": [
+    },
     {
      "t0_ms": 2976340,
      "text": "dollar plus business, we're going to invest to continue being the leader. We are the leader"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:48:59.220000-04:00",
+   "adj_ret_5m": -0.006573146431720578
+  },
+  {
+   "seg_id": 79,
+   "t0_ms": 2982100,
+   "t1_ms": 3021860,
+   "speaker": "Management",
+   "text": "today in the infrastructure and AI space. And would it be more convenient if this type of acceleration and opportunity happened over 25 years and you could spread the capex over 25 years? Yeah, it might be more convenient, but that's not the world that we live in and that's not the opportunity. And we can fund this plan. And I think it will forever change the size of Amazon. It will forever change our revenue. It will forever change our free cash flow. And we're going to invest and we're going to pursue it to continue to be the significant",
+   "parts": [
     {
      "t0_ms": 2982100,
      "text": "today in the infrastructure and AI space. And would it be more convenient if this type of"
@@ -3042,52 +3009,41 @@
     {
      "t0_ms": 3011700,
      "text": "the size of Amazon. It will forever change our revenue. It will forever change our free cash flow."
-    }
-   ],
-   "ts": "2026-10-29T17:49:36.340000-04:00",
-   "adj_ret_5m": -0.008676789587852451
-  },
-  {
-   "seg_id": 83,
-   "t0_ms": 3018580,
-   "t1_ms": 3021860,
-   "speaker": "Management",
-   "text": "And we're going to invest and we're going to pursue it to continue to be the significant",
-   "parts": [
+    },
     {
      "t0_ms": 3018580,
      "text": "And we're going to invest and we're going to pursue it to continue to be the significant"
     }
    ],
-   "ts": "2026-10-29T17:50:18.580000-04:00",
-   "adj_ret_5m": -0.00520833333333337
+   "ts": "2026-10-29T17:49:42.100000-04:00",
+   "adj_ret_5m": -0.008676789587852451
   },
   {
-   "seg_id": 84,
+   "seg_id": 80,
    "t0_ms": 3021860,
-   "t1_ms": 3033470,
+   "t1_ms": 3036750,
    "speaker": "Operator",
-   "text": "leader like we are today. Thank you. And our final question comes from the line of Ross",
+   "text": "leader like we are today. Thank you. And our final question comes from the line of Ross Sandler with Barclays. Please proceed with your question.",
    "parts": [
     {
      "t0_ms": 3021860,
      "text": "leader like we are today. Thank you. And our final question comes from the line of Ross"
+    },
+    {
+     "t0_ms": 3033470,
+     "text": "Sandler with Barclays. Please proceed with your question."
     }
    ],
    "ts": "2026-10-29T17:50:21.860000-04:00",
    "adj_ret_5m": -0.00520833333333337
   },
   {
-   "seg_id": 85,
-   "t0_ms": 3033470,
+   "seg_id": 81,
+   "t0_ms": 3037230,
    "t1_ms": 3076350,
    "speaker": "Analyst",
-   "text": "Sandler with Barclays. Please proceed with your question. Great. Yeah, I thought I'd double down on the Bedrock question. So the token marketplace on Bedrock seems to be one of the hottest services in AI right now. And our understanding is the majority of these workloads are running on tranium. So as this becomes a bigger part of the overall AWS story, like you just mentioned, Andy, how might that impact both revenue growth, but especially margins at AWS as you kind of shift from selling bare metal to selling more inferences of service? Could you just talk about that? Thank you.",
+   "text": "Great. Yeah, I thought I'd double down on the Bedrock question. So the token marketplace on Bedrock seems to be one of the hottest services in AI right now. And our understanding is the majority of these workloads are running on tranium. So as this becomes a bigger part of the overall AWS story, like you just mentioned, Andy, how might that impact both revenue growth, but especially margins at AWS as you kind of shift from selling bare metal to selling more inferences of service? Could you just talk about that? Thank you.",
    "parts": [
-    {
-     "t0_ms": 3033470,
-     "text": "Sandler with Barclays. Please proceed with your question."
-    },
     {
      "t0_ms": 3037230,
      "text": "Great. Yeah, I thought I'd double down on the Bedrock question. So the token marketplace on"
@@ -3113,31 +3069,20 @@
      "text": "to selling more inferences of service? Could you just talk about that? Thank you."
     }
    ],
-   "ts": "2026-10-29T17:50:33.470000-04:00",
+   "ts": "2026-10-29T17:50:37.230000-04:00",
    "adj_ret_5m": -0.00520833333333337
   },
   {
-   "seg_id": 86,
+   "seg_id": 82,
    "t0_ms": 3077390,
-   "t1_ms": 3086190,
-   "speaker": "Analyst",
-   "text": "Yeah. Well, you know, you're right that the majority and most of Bedrock today is being",
+   "t1_ms": 3119470,
+   "speaker": "Management",
+   "text": "Yeah. Well, you know, you're right that the majority and most of Bedrock today is being run on top of tranium. And we do that in meaningful part because we really like the price performance that we're getting. And it allows us to both keep prices as low as possible for customers, as well as our ability. You know, we like the margins associated with it. You know, if you think about margins in the cloud space and you're looking at different players and what their cost structure looks like, there are a few things to pay attention",
    "parts": [
     {
      "t0_ms": 3077390,
      "text": "Yeah. Well, you know, you're right that the majority and most of Bedrock today is being"
-    }
-   ],
-   "ts": "2026-10-29T17:51:17.390000-04:00",
-   "adj_ret_5m": -0.00004359197907588541
-  },
-  {
-   "seg_id": 87,
-   "t0_ms": 3086190,
-   "t1_ms": 3124670,
-   "speaker": "Management",
-   "text": "run on top of tranium. And we do that in meaningful part because we really like the price performance that we're getting. And it allows us to both keep prices as low as possible for customers, as well as our ability. You know, we like the margins associated with it. You know, if you think about margins in the cloud space and you're looking at different players and what their cost structure looks like, there are a few things to pay attention to. You know, the first is for their data centers, how many of them are they actually",
-   "parts": [
+    },
     {
      "t0_ms": 3086190,
      "text": "run on top of tranium. And we do that in meaningful part because we really like"
@@ -3157,22 +3102,22 @@
     {
      "t0_ms": 3113710,
      "text": "players and what their cost structure looks like, there are a few things to pay attention"
-    },
-    {
-     "t0_ms": 3119470,
-     "text": "to. You know, the first is for their data centers, how many of them are they actually"
     }
    ],
-   "ts": "2026-10-29T17:51:26.190000-04:00",
+   "ts": "2026-10-29T17:51:17.390000-04:00",
    "adj_ret_5m": -0.00004359197907588541
   },
   {
-   "seg_id": 88,
-   "t0_ms": 3125550,
-   "t1_ms": 3168350,
+   "seg_id": 83,
+   "t0_ms": 3119470,
+   "t1_ms": 3162750,
    "speaker": "Management",
-   "text": "buying or long leasing versus doing COLO or NeoCloud? I mean, NeoCloud are about 3,500 basis points worse in operating margin than if you long lease them. So, you know, and then you look at, you know, what is the hardware on top of which they're running? And, you know, if you're using the hardware that everybody else is using, you'll have a comparable cost structure to what everybody is doing. And if you have the ability to use hardware that's different, you'll have an advantage. And so I think when you look at",
+   "text": "to. You know, the first is for their data centers, how many of them are they actually buying or long leasing versus doing COLO or NeoCloud? I mean, NeoCloud are about 3,500 basis points worse in operating margin than if you long lease them. So, you know, and then you look at, you know, what is the hardware on top of which they're running? And, you know, if you're using the hardware that everybody else is using, you'll have a comparable cost structure to what everybody is doing. And if you have the ability to use",
    "parts": [
+    {
+     "t0_ms": 3119470,
+     "text": "to. You know, the first is for their data centers, how many of them are they actually"
+    },
     {
      "t0_ms": 3125550,
      "text": "buying or long leasing versus doing COLO or NeoCloud? I mean, NeoCloud are about"
@@ -3192,22 +3137,22 @@
     {
      "t0_ms": 3157790,
      "text": "a comparable cost structure to what everybody is doing. And if you have the ability to use"
-    },
+    }
+   ],
+   "ts": "2026-10-29T17:51:59.470000-04:00",
+   "adj_ret_5m": -0.00004359197907588541
+  },
+  {
+   "seg_id": 84,
+   "t0_ms": 3163390,
+   "t1_ms": 3207550,
+   "speaker": "Management",
+   "text": "hardware that's different, you'll have an advantage. And so I think when you look at what we're doing, most of our capacity is either owned or long leased, which is, you know, it enjoys better operating margins than what you'll find when people are mostly doing COLO or Neo or a big chunk doing COLO or Neo. And the fact that we're running on top of our own chip that's providing both advantage price performance and more cost effective for ourselves because we own it, I think gives us some structural cost advantages that I think are going to be very helpful to customers as we pass them back to customers and helpful to the",
+   "parts": [
     {
      "t0_ms": 3163390,
      "text": "hardware that's different, you'll have an advantage. And so I think when you look at"
-    }
-   ],
-   "ts": "2026-10-29T17:52:05.550000-04:00",
-   "adj_ret_5m": 0.0013089005235602524
-  },
-  {
-   "seg_id": 89,
-   "t0_ms": 3168350,
-   "t1_ms": 3207550,
-   "speaker": "Management",
-   "text": "what we're doing, most of our capacity is either owned or long leased, which is, you know, it enjoys better operating margins than what you'll find when people are mostly doing COLO or Neo or a big chunk doing COLO or Neo. And the fact that we're running on top of our own chip that's providing both advantage price performance and more cost effective for ourselves because we own it, I think gives us some structural cost advantages that I think are going to be very helpful to customers as we pass them back to customers and helpful to the",
-   "parts": [
+    },
     {
      "t0_ms": 3168350,
      "text": "what we're doing, most of our capacity is either owned or long leased, which is, you know,"
@@ -3233,11 +3178,11 @@
      "text": "going to be very helpful to customers as we pass them back to customers and helpful to the"
     }
    ],
-   "ts": "2026-10-29T17:52:48.350000-04:00",
+   "ts": "2026-10-29T17:52:43.390000-04:00",
    "adj_ret_5m": 0.0013089005235602524
   },
   {
-   "seg_id": 90,
+   "seg_id": 85,
    "t0_ms": 3207550,
    "t1_ms": 3228380,
    "speaker": "Management",
@@ -6579,7 +6524,7 @@
  "claims": [
   {
    "claim_id": 0,
-   "seg_id": 33,
+   "seg_id": 32,
    "speaker": "Management",
    "quote": "Moving to our AWS segment, revenue was $46 billion and grew 39.3% year-over-year, driven by both core and AI services.",
    "metric": "AWS revenue",
@@ -6595,7 +6540,7 @@
   },
   {
    "claim_id": 1,
-   "seg_id": 33,
+   "seg_id": 32,
    "speaker": "Management",
    "quote": "We added $3.8 billion in quarter-over-quarter revenue.",
    "metric": "AWS sequential revenue increase",
@@ -6611,7 +6556,7 @@
   },
   {
    "claim_id": 2,
-   "seg_id": 33,
+   "seg_id": 32,
    "speaker": "Management",
    "quote": "AWS now has an annualized revenue run rate of $184 billion.",
    "metric": "AWS annualized revenue run rate",
@@ -6627,14 +6572,14 @@
   },
   {
    "claim_id": 3,
-   "seg_id": 33,
+   "seg_id": 32,
    "speaker": "Management",
-   "quote": "We see a strong linkage between AI spend and growth in our revenue for core services.",
-   "metric": "AI spend linkage to core services revenue",
+   "quote": "Customers continue to move to the cloud and scale their use of AWS core services, and increasingly customers who want the full benefits of AI are accelerating their transition to the cloud.",
+   "metric": "AWS cloud demand",
    "value": null,
    "period": null,
    "kind": "qualitative",
-   "ts": "2026-10-29T17:22:56-04:00",
+   "ts": "2026-10-29T17:22:38.160000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6643,7 +6588,7 @@
   },
   {
    "claim_id": 4,
-   "seg_id": 34,
+   "seg_id": 33,
    "speaker": "Management",
    "quote": "AWS operating income was $17.8 billion with an operating margin of 38.7%, reflecting strong growth and our focus on driving efficiencies.",
    "metric": "AWS operating income and margin",
@@ -6653,13 +6598,29 @@
    "ts": "2026-10-29T17:23:11.600000-04:00",
    "novel": false,
    "matched_doc": "release",
-   "matched_text": "Operating margin -- % of AWS net sales 32.9 % 34.6 % 35.0 % 37.7 % 39.4 % 38.7 %",
+   "matched_text": "AWS segment operating income was $17.8 billion, compared with $11.4 billion in third quarter 2025.",
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
    "claim_id": 5,
-   "seg_id": 35,
+   "seg_id": 33,
+   "speaker": "Management",
+   "quote": "As we've long said, we expect AWS operating margins to fluctuate, driven in part by the level of investment we're making",
+   "metric": "AWS operating margin outlook",
+   "value": "expected to fluctuate",
+   "period": null,
+   "kind": "guidance",
+   "ts": "2026-10-29T17:23:36.880000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 6,
+   "seg_id": 34,
    "speaker": "Management",
    "quote": "Our AI offerings are gaining traction with customers, with AI revenue growing triple digits year over year.",
    "metric": "AI revenue growth",
@@ -6667,15 +6628,15 @@
    "period": "Q3",
    "kind": "result",
    "ts": "2026-10-29T17:23:41.840000-04:00",
-   "novel": false,
-   "matched_doc": "prior_call",
-   "matched_text": "Exceeded a $25 billion annual revenue run rate for AWS’s AI business, growing triple-digit percentages year-over-year.",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
-   "claim_id": 6,
-   "seg_id": 35,
+   "claim_id": 7,
+   "seg_id": 34,
    "speaker": "Management",
    "quote": "Now turning to our cash catbacks, which was $75.9 billion in Q3.",
    "metric": "Cash capex",
@@ -6690,8 +6651,8 @@
    "consensus_role": null
   },
   {
-   "claim_id": 7,
-   "seg_id": 35,
+   "claim_id": 8,
+   "seg_id": 34,
    "speaker": "Management",
    "quote": "We continue to make significant investments, especially in AI, as we believe it to be a massive opportunity with the potential to drive long-term revenue and free cash flow, as well as return on invested capital.",
    "metric": "AI investment",
@@ -6706,8 +6667,24 @@
    "consensus_role": null
   },
   {
-   "claim_id": 8,
-   "seg_id": 36,
+   "claim_id": 9,
+   "seg_id": 35,
+   "speaker": "Management",
+   "quote": "Q4 operating income is expected to be between $28.5 billion and $33.5 billion.",
+   "metric": "Operating income guidance",
+   "value": "$28.5 billion to $33.5 billion",
+   "period": "Q4",
+   "kind": "guidance",
+   "ts": "2026-10-29T17:24:35.520000-04:00",
+   "novel": false,
+   "matched_doc": "release",
+   "matched_text": "Operating income is expected to be between $28.5 billion and $33.5 billion, compared with $25.0 billion in fourth quarter 2025.",
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 10,
+   "seg_id": 35,
    "speaker": "Management",
    "quote": "We estimate the year-over-year impact of changes in foreign exchange rates based on current rates, which we expect to be a headwind of approximately 60 basis points in the quarter.",
    "metric": "FX impact on net sales",
@@ -6722,28 +6699,12 @@
    "consensus_role": null
   },
   {
-   "claim_id": 9,
-   "seg_id": 36,
-   "speaker": "Management",
-   "quote": "Q4 operating income is expected to be between $28.5 billion and $33.5 billion.",
-   "metric": "Operating income",
-   "value": "$28.5 billion to $33.5 billion",
-   "period": "Q4",
-   "kind": "guidance",
-   "ts": "2026-10-29T17:24:35.520000-04:00",
-   "novel": false,
-   "matched_doc": "release",
-   "matched_text": "Operating income is expected to be between $28.5 billion and $33.5 billion, compared with $25.0 billion in fourth quarter 2025.",
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "claim_id": 10,
-   "seg_id": 36,
+   "claim_id": 11,
+   "seg_id": 35,
    "speaker": "Management",
    "quote": "Amazon Leo's commercial service is on track to begin initial service this year, and we expect to begin capitalizing certain costs in Q1 of next year, including production and launch costs.",
-   "metric": "Amazon Leo service launch and cost capitalization",
-   "value": "initial service this year; capitalizing costs from Q1 next year",
+   "metric": "Amazon Leo cost capitalization",
+   "value": "begin capitalizing in Q1 next year",
    "period": "Q1 next year",
    "kind": "guidance",
    "ts": "2026-10-29T17:24:50.560000-04:00",
@@ -6754,31 +6715,47 @@
    "consensus_role": null
   },
   {
-   "claim_id": 11,
-   "seg_id": 44,
+   "claim_id": 12,
+   "seg_id": 36,
    "speaker": "Management",
-   "quote": "Our fastest growth in about five years or six quarter consecutively of acceleration.",
-   "metric": "AWS growth acceleration",
-   "value": "fastest growth in about five years; six consecutive quarters of acceleration",
-   "period": null,
-   "kind": "result",
-   "ts": "2026-10-29T17:26:57.090000-04:00",
-   "novel": false,
-   "matched_doc": "release",
-   "matched_text": "AWS net sales increased 39.3%—its fastest growth in nearly five years—to a $184 billion annualized revenue run rate",
+   "quote": "we will continue to expense the majority of Leo-related costs in Q4.",
+   "metric": "Leo cost expensing",
+   "value": "majority expensed",
+   "period": "Q4",
+   "kind": "guidance",
+   "ts": "2026-10-29T17:25:06.160000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
   {
-   "claim_id": 12,
-   "seg_id": 44,
+   "claim_id": 13,
+   "seg_id": 40,
    "speaker": "Management",
-   "quote": "We're adding quite a bit of capacity.",
-   "metric": "AWS capacity additions",
-   "value": null,
-   "period": null,
-   "kind": "qualitative",
-   "ts": "2026-10-29T17:27:02.450000-04:00",
+   "quote": "39.3% on a business that's got a $104 billion annual revenue run rate is quite unusual.",
+   "metric": "AWS growth rate",
+   "value": "39.3%",
+   "period": "Q3",
+   "kind": "result",
+   "ts": "2026-10-29T17:26:49.410000-04:00",
+   "novel": true,
+   "matched_doc": null,
+   "matched_text": null,
+   "vs_consensus_pct": null,
+   "consensus_role": null
+  },
+  {
+   "claim_id": 14,
+   "seg_id": 40,
+   "speaker": "Management",
+   "quote": "Our fastest growth in about five years or six quarter consecutively of acceleration.",
+   "metric": "AWS growth acceleration",
+   "value": "fastest in about five years; six consecutive quarters of acceleration",
+   "period": "Q3",
+   "kind": "result",
+   "ts": "2026-10-29T17:26:57.090000-04:00",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
@@ -6786,14 +6763,14 @@
    "consensus_role": null
   }
  ],
- "n_claims": 13,
+ "n_claims": 15,
  "summary": {
   "id": "AMZN_Q3-2026",
   "ticker": "AMZN",
   "quarter": "Q3-2026",
   "company": "Amazon",
   "call_start": "2026-10-29T17:00:00-04:00",
-  "n_moments": 2,
+  "n_moments": 1,
   "n_flagged": 5,
   "spark": [
    -0.06018178989565848,
@@ -6852,68 +6829,43 @@
    -0.055409959440796186
   ],
   "top_moment": {
-   "ts": "2026-10-29T17:24:50.560000-04:00",
-   "quote": "Amazon Leo's commercial service is on track to begin initial service this year, and we expect to begin capitalizing certain costs in Q1 of next year, including production and launch costs.",
-   "adj_ret_5m": 0.007544190534672479,
+   "ts": "2026-10-29T17:26:57.090000-04:00",
+   "quote": "Our fastest growth in about five years or six quarter consecutively of acceleration.",
+   "adj_ret_5m": 0.013016710642040463,
    "speaker": "Management"
   }
  },
  "moments": [
   {
    "rank": 1,
-   "claim_id": 10,
-   "seg_id": 36,
-   "ts": "2026-10-29T17:24:50.560000-04:00",
-   "t0_ms": 1490560,
+   "claim_id": 14,
+   "seg_id": 40,
+   "ts": "2026-10-29T17:26:57.090000-04:00",
+   "t0_ms": 1617090,
    "speaker": "Management",
-   "quote": "Amazon Leo's commercial service is on track to begin initial service this year, and we expect to begin capitalizing certain costs in Q1 of next year, including production and launch costs.",
-   "metric": "Amazon Leo service launch and cost capitalization",
-   "kind": "guidance",
+   "quote": "Our fastest growth in about five years or six quarter consecutively of acceleration.",
+   "metric": "AWS growth acceleration",
+   "kind": "result",
    "novel": true,
    "matched_doc": null,
    "matched_text": null,
-   "adj_ret_5m": 0.007544190534672479,
-   "ret_5m": 0.007544190534672479,
+   "adj_ret_5m": 0.013016710642040463,
+   "ret_5m": 0.013016710642040463,
    "etf_ret_5m": 0.0,
    "vol_mult": 1.4310247924359487,
-   "nearest_flag_min": 2.1573333333333333,
-   "score": 0.005259613347823304,
+   "nearest_flag_min": 0.0485,
+   "score": 0.014662813190205142,
    "confidence": "medium",
    "pre_move": false,
-   "section": "prepared",
-   "question": null,
-   "vs_consensus_pct": null,
-   "consensus_role": null
-  },
-  {
-   "rank": 2,
-   "claim_id": 12,
-   "seg_id": 44,
-   "ts": "2026-10-29T17:27:02.450000-04:00",
-   "t0_ms": 1622450,
-   "speaker": "Management",
-   "quote": "We're adding quite a bit of capacity.",
-   "metric": "AWS capacity additions",
-   "kind": "qualitative",
-   "novel": true,
-   "matched_doc": null,
-   "matched_text": null,
-   "adj_ret_5m": 0.0056111352762069355,
-   "ret_5m": 0.0056111352762069355,
-   "etf_ret_5m": 0.0,
-   "vol_mult": 1.4789135012300412,
-   "nearest_flag_min": -1.0,
-   "score": 0.00041491918586052963,
-   "confidence": "low",
-   "pre_move": false,
    "section": "qa",
-   "question": "Please proceed with your question. Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice, but the quarter over quarter growth slowed? I'm just wondering if there's any call outs there on the customer side or token costs or anything that kind of drove that and how you're thinking about the capacity adds in Q4. Then Brian, maybe just any impact of fuel costs on your",
+   "question": "Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice, but the quarter over quarter growth slowed? I'm just wondering if there's any call outs there on the customer side or token costs or anything that kind of drove that and how you're thinking about the capacity adds in Q4. Then Brian, maybe just any impact of fuel costs on your guidance in Q4. Thank you.",
    "vs_consensus_pct": null,
    "consensus_role": null
   }
  ],
  "llm_used": true,
  "candidate_seg_ids": [
+  32,
   33,
   34,
   35,
@@ -6921,11 +6873,7 @@
   37,
   38,
   39,
-  40,
-  41,
-  42,
-  43,
-  44
+  40
  ],
  "open_reaction": null,
  "estimates": [

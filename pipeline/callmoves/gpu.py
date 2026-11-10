@@ -50,3 +50,23 @@ def transcribe_and_diarize(audio: bytes, model_size: str = "large-v3") -> tuple[
     print(f"diarized in {time.time() - t:.0f}s total, error: {err or None}", flush=True)
     cache.commit()
     return raw, voices, err
+
+
+@app.function(gpu=["L4", "A10", "T4"], image=image, volumes={"/cache": cache}, timeout=1800, memory=16384,
+              secrets=[modal.Secret.from_name("callmoves-hf")])
+def diarize_url(audio_url: str) -> list[dict]:
+    """Diarizes 1 call's published audio, for calls transcribed before the GPU path existed: their whisper
+    segments and cached claims stay as they are, only the speaker labels change."""
+    import os
+    import tempfile
+    import urllib.request
+    from pathlib import Path
+
+    from callmoves.transcript import diarize
+
+    with tempfile.NamedTemporaryFile(suffix=".mp3") as f:
+        f.write(urllib.request.urlopen(audio_url, timeout=120).read())
+        f.flush()
+        voices = diarize(Path(f.name), os.environ["HF_TOKEN"], device="cuda")
+    cache.commit()
+    return voices
