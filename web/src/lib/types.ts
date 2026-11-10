@@ -68,6 +68,8 @@ export type Moment = {
   score: number;
   confidence: "high" | "medium" | "low";
   pre_move?: boolean;
+  section?: "prepared" | "qa";
+  question?: string | null;
   vs_consensus_pct?: number | null;
   consensus_role?: Estimate["role"] | null;
 };

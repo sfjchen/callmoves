@@ -7,6 +7,7 @@ import pandas as pd
 
 from .market import flag_events, forward_window, minutes_to_nearest_flag
 from .models import Claim, Moment, Segment
+from .transcript import qa_start_ms
 
 NOVEL_WEIGHT = 1.0
 STALE_WEIGHT = 0.25
@@ -14,6 +15,7 @@ TIMING_SCALE_MIN = 3.0
 VOL_CAP = 10.0   # a single block print without a price move should not dominate the score
 CONSENSUS_GAP = 0.01   # a figure this far from consensus moves the stock even when the release printed it first
 KIND_WEIGHT = {"guidance": 1.0, "result": 0.8, "qualitative": 0.5}   # numbers are checkable, tone is not
+QUESTION_CHARS = 400   # analyst questions shown on a card are cut to this length
 
 
 def timing_weight(minutes_to_flag: float) -> float:
@@ -51,8 +53,10 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
     """Top claims, at most 1 per price event: a claim belongs to the event of the first flag in its 5-minute
     window, and the best-scoring claim wins it. A claim spoken after its event's first flagged minute is marked
     pre_move, since prices may have moved first and shaped what was said. Claims with no flag ahead (and all
-    claims under an open reaction, which share 1 move) dedupe by minute instead."""
+    claims under an open reaction, which share 1 move) dedupe by minute instead. A Q&A moment carries the latest
+    analyst question before it, since the market may be reacting to the exchange, not the answer alone."""
     seg_by_id = {s.seg_id: s for s in segments}
+    qa_ms = qa_start_ms(segments)
     ev = flag_events(bars) if not reaction else None
     scored = []
     for c in claims:
@@ -70,12 +74,16 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
         if key in seen:
             continue
         seen.add(key)
+        seg = seg_by_id[c.seg_id]
+        in_qa = qa_ms is not None and seg.t0_ms >= qa_ms
+        asked = [s for s in segments if in_qa and qa_ms <= s.t0_ms < seg.t0_ms and "Analyst" in s.speaker]
         moments.append(Moment(
-            rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg_by_id[c.seg_id].time_of(c.quote),
+            rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg.time_of(c.quote),
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
             etf_ret_5m=w["etf_ret"], vol_mult=w["vol_mult"], nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
             vs_consensus_pct=c.vs_consensus_pct, consensus_role=c.consensus_role, pre_move=pre_move,
+            section="qa" if in_qa else "prepared", question=asked[-1].text[:QUESTION_CHARS] if asked else None,
             score=score,
             confidence="low" if reaction else confidence(market_relevant(c), w["adj_ret"], w["vol_mult"], dist),
         ))

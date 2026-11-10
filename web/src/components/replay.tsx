@@ -294,8 +294,11 @@ function MomentCard({ m, offset, atOpen, active, onSelect }: { m: Moment; offset
             <div className="text-[11px] text-neutral-500 leading-tight">adj. {atOpen ? "at next open" : "next 5 min"}<br />{pct(m.ret_5m)} raw, {pct(m.etf_ret_5m)} sector</div>
           </div>
         </div>
+        {m.question && <p className="mt-1.5 text-xs leading-snug text-neutral-500 line-clamp-2">
+          <span className="font-medium">Analyst asked:</span> {m.question}</p>}
         <p className="mt-1.5 text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
         <div className="mt-1.5 text-xs tabular flex flex-wrap gap-x-3 gap-y-0.5 text-neutral-600">
+          <span className="rounded bg-neutral-100 px-1.5">{m.section === "qa" ? "Q&A" : "prepared remarks"}</span>
           <span>{m.vol_mult.toFixed(1)}x volume</span>
           {m.nearest_flag_min >= 0 && <span className="text-neutral-500">abnormal minute {m.nearest_flag_min === 0 ? "at" : `+${m.nearest_flag_min.toFixed(0)} min after`} the statement</span>}
           {m.pre_move && <span className="text-amber-700">move began earlier</span>}

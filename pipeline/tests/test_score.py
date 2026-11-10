@@ -1,10 +1,9 @@
 from datetime import timedelta
 
-from conftest import T0, make_bars
-
 from callmoves import market
 from callmoves.models import Claim, Segment
 from callmoves.score import rank_moments, timing_weight
+from conftest import T0, make_bars
 
 
 def test_timing_weight_decays_and_floors():
@@ -65,3 +64,17 @@ def test_one_moment_per_price_event_and_claims_inside_an_event_are_pre_move():
     assert not any(m.pre_move for m in moments)
     late = rank_moments(claims[2:3], segs, bars)[0]                        # said at 42, the event began at 41
     assert late.pre_move
+
+
+def test_qa_moments_carry_section_and_the_analyst_question_before_them():
+    bars = market.adjusted_returns(make_bars(stock_bump={21: 0.01, 51: 0.01}))
+    bars["flagged"] = bars.index.isin([21, 51])
+    rows = [(20, "Management", "We expect margins near 30%."), (45, "Operator", "Our first question comes from Ann."),
+            (46, "Analyst", "Can margins hold next year?"), (50, "Management", "Margins will expand next year.")]
+    segs = [Segment(seg_id=i, t0_ms=m * 60_000, t1_ms=0, speaker=sp, text=tx, ts=T0 + timedelta(minutes=m))
+            for i, (m, sp, tx) in enumerate(rows)]
+    claims = [Claim(claim_id=i, seg_id=i, speaker="Management", quote=segs[i].text, metric="m", kind="guidance",
+                    ts=segs[i].ts, novel=True) for i in (0, 3)]
+    by_claim = {m.claim_id: m for m in rank_moments(claims, segs, bars)}
+    assert by_claim[0].section == "prepared" and by_claim[0].question is None
+    assert by_claim[3].section == "qa" and by_claim[3].question == "Can margins hold next year?"

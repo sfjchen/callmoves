@@ -48,7 +48,9 @@ def decode_audio(audio_path: Path, rate: int = 16000):
 
 def transcribe(audio_path: Path, model_size: str = "small") -> list[dict]:
     """Local transcription on CPU. Not used by the fixture run."""
-    from faster_whisper import WhisperModel  # optional dependency, pip install -e ".[asr]"
+    from faster_whisper import (
+        WhisperModel,  # optional dependency, pip install -e ".[asr]"
+    )
 
     model = WhisperModel(model_size, device="cpu", compute_type="int8")
     segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1)
@@ -67,9 +69,9 @@ import re
 _OPERATOR = re.compile(r"\b(questions? (will )?comes? from|next question|final question|first question|please go ahead|"
                        r"your line is (now )?open|listen.only|concludes today|press star|question and answer session|"
                        r"question-and-answer|thank you for standing by|stand by for|being recorded|"
-                       r"turn the (call|conference) (back )?over to)\b", re.I)
-_QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.I)
-_INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.I)
+                       r"turn the (call|conference) (back )?over to)\b", re.IGNORECASE)
+_QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.IGNORECASE)
+_INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.IGNORECASE)
 _MAX_ANALYST_SEGMENTS = 8
 
 
@@ -96,6 +98,13 @@ def label_speakers(segments: list[dict]) -> list[dict]:
             label = "Management"
         out.append({**s, "speaker": label})
     return out
+
+
+def qa_start_ms(segments) -> int | None:
+    """Audio offset where Q&A begins: the first operator turn that introduces a question. None for a call with no
+    detected Q&A. Research finds the Q&A carries more new information than the prepared remarks (Matsumoto,
+    Pronk and Roelofsen 2011), so moments say which part they come from."""
+    return next((s.t0_ms for s in segments if s.speaker == "Operator" and _QA_START.search(s.text)), None)
 
 
 def merge_turns(segments: list[dict], max_ms: int = 45_000) -> list[dict]:
