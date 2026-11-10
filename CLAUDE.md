@@ -4,7 +4,8 @@ Earnings call market-reaction dashboard. Spec: `../spec/`. Owner: Jonathan Chen 
 
 ## Layout
 - `pipeline/` Python 3.12. `callmoves/` has 1 module per step, each a pure function: `transcript.py` (load, align), `market.py` (bars, adjusted returns, abnormal minutes), `claims.py`, `novelty.py`, `score.py`, `estimates.py` (analyst consensus, claim vs consensus), `run.py` (CLI), `ingest.py` (audio + release + bars -> call folder), `audio.py` (MP3 transcode, Supabase upload), `docs.py` (PDF/HTML to text), `eval.py` (precision@k vs hand labels). Real calls live in `data/<ticker>_<quarter>/`. `fixtures/acme_q3_2026/` is a fictional call with planted moves, `fixtures/make_bars.py` regenerates its bars. Tests in `tests/`.
-- `web/` Next.js 16, TypeScript, Tailwind, Recharts. Reads the pipeline's JSON from `web/data/`. `src/lib/data.ts` is the only data access, swap it for Supabase later. Pages: `/` library, `/calls/[id]` replay view. API: `/api/calls`, `/api/calls/[id]`, `/api/calls/[id]/moments`.
+- `web/` Next.js 16, TypeScript, Tailwind, Recharts. `src/lib/data.ts` is the only call data access: Supabase `callmoves_calls` when `SUPABASE_URL` and `SUPABASE_ANON_KEY` are set (Vercel), else `web/data/*.json`. `src/lib/submit.ts` queues submissions (service key, IP rate limit). Pages: `/` library, `/calls/[id]` replay view, `/submit`. API: `/api/calls` (GET list, POST submit), `/api/calls/[id]`, `/api/calls/[id]/moments`.
+- `db/schema.sql` Supabase tables (prefix `callmoves_`, the project holds unrelated tables). `pipeline/callmoves/worker.py` + `.github/workflows/worker.yml` process the submission queue on GitHub Actions, keys are repo secrets. `publish.py` upserts a call.
 
 ## Commands
 ```bash

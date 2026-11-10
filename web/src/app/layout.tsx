@@ -14,6 +14,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-b border-neutral-200 px-6 py-3 flex items-baseline gap-4">
           <Link href="/" className="font-semibold text-lg">CallMoves</Link>
           <span className="text-sm text-neutral-500">which statements the market reacted to</span>
+          <Link href="/submit" className="ml-auto text-sm text-blue-700">Submit a call</Link>
         </header>
         <main className="flex-1 px-6 py-5">{children}</main>
       </body>

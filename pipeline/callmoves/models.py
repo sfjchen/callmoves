@@ -15,6 +15,11 @@ class CallMeta(BaseModel):
     company: str | None = None
     audio_offset_ms: int = 0  # audio position of the call start: + for lead-in music, - if the recording started late
 
+    @property
+    def call_id(self) -> str:
+        """Identifies the call in URLs, file names and the callmoves_calls table, e.g. WFC_Q3-2026."""
+        return f"{self.ticker}_{self.quarter}".replace(" ", "")
+
 
 class Part(BaseModel):
     """One ASR segment inside a merged speaker turn, so a quote can be timed to the sentence, not the turn."""

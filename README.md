@@ -2,7 +2,7 @@
 
 Which statements in an earnings call the market reacted to. Give it a timestamped transcript, the earnings release, last quarter's materials and 1-minute prices for the stock and its sector ETF. It finds the abnormal minutes, reads what was said just before each one, and ranks the likely drivers with their evidence and a confidence grade. Transcript, audio and chart replay on 1 cursor.
 
-Status: the pipeline runs end to end on a fictional fixture and on real calls (WFC Q3 2026 is deployed at callmoves.vercel.app). `callmoves.ingest` builds a call folder from audio (faster-whisper on CPU), the release and prior-quarter documents (PDF or HTML) and 1-minute bars including pre and post market. Player audio lives in a public Supabase Storage bucket, the call JSON still ships in `web/data/`.
+Status: 8 calls are live at callmoves.vercel.app (WFC and JPM Q2 and Q3 2026, Wayfair, Apple, Duolingo, plus a fictional fixture). `callmoves.ingest` builds a call folder from audio (faster-whisper on CPU), the release and prior-quarter documents (PDF or HTML) and 1-minute bars including pre and post market. Results live in the Supabase table `callmoves_calls` (`db/schema.sql`), published by `run --publish` or `python -m callmoves.publish`, player audio in a public Supabase Storage bucket. Anyone can submit a call at `/submit` (no login, 3 an hour per IP, 20 a day in total). The GitHub Actions workflow `worker.yml` checks the queue every 15 minutes and processes 1 call per run with `callmoves.worker`. Without Supabase keys the web app reads `web/data/*.json`, so local dev and CI stay offline.
 
 ## Run it
 

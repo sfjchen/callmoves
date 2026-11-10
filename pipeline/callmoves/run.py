@@ -17,6 +17,7 @@ from .claims import extract_claims
 from .estimates import fetch_estimates, match_consensus
 from .models import CallMeta, CallOutput, Estimate, OpenReaction
 from .novelty import judge_novelty
+from .publish import publish
 from .score import rank_moments
 from .transcript import align, load_call
 
@@ -24,6 +25,7 @@ from .transcript import align, load_call
 def _claims_with_novelty(fixture: Path, segments, release: str, prior: str):
     """Claude results are cached next to the call, keyed by the transcript and documents, so re-scoring is free."""
     import hashlib
+
     from .models import Claim
 
     key = hashlib.sha256((repr([(s.seg_id, s.text) for s in segments]) + release + prior).encode()).hexdigest()[:16]
@@ -82,10 +84,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("fixture", type=Path)
     ap.add_argument("--out", type=Path, default=Path("out"))
+    ap.add_argument("--publish", action="store_true", help="also upsert the result into Supabase callmoves_calls")
     args = ap.parse_args(argv)
     result = run(args.fixture)
     args.out.mkdir(parents=True, exist_ok=True)
-    call_id = f"{result.call.ticker}_{result.call.quarter}".replace(" ", "")
+    call_id = result.call.call_id
     path = args.out / f"{call_id}.json"
     path.write_text(result.model_dump_json(indent=1))
     print(f"{call_id}: {len(result.segments)} segments, {len(result.bars)} bars, {sum(b.flagged for b in result.bars)} "
@@ -95,6 +98,8 @@ def main(argv=None):
         print(f"  #{m.rank} {m.ts:%H:%M} {m.speaker}: {m.quote[:80]}  adj5m={m.adj_ret_5m:+.2%} vol={m.vol_mult:.1f}x "
               f"novel={m.novel} vs_cons={m.vs_consensus_pct} {m.confidence} score={m.score:.4f}")
     print(f"wrote {path}")
+    if args.publish:
+        print(f"published {publish(result)}")
 
 
 if __name__ == "__main__":
