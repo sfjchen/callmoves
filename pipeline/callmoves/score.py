@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from .market import flag_events, forward_window, minutes_to_nearest_flag
+from .market import flag_events, forward_window, minute_of, minutes_to_nearest_flag
 from .models import Claim, Moment, Segment
 from .transcript import qa_start_ms
 
@@ -79,10 +79,10 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
         et = c.ts.astimezone(ET)
         if not reaction and OPEN_MIN - 5 <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN:
             continue
-        minute = c.ts.replace(second=0, microsecond=0)
+        minute = minute_of(c.ts)
         key, pre_move = ("minute", minute), False
         if ev is not None and not math.isinf(dist):
-            hit = ev[ev["ts"] >= c.ts].iloc[0]
+            hit = ev[ev["ts"] >= minute].iloc[0]
             key, pre_move = ("event", int(hit["event"])), bool(hit["start"] < minute)
         elif not reaction:
             key = ("window", c.ts)

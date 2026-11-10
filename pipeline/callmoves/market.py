@@ -78,11 +78,13 @@ def session_key(ts: pd.Series) -> pd.Series:
 
 def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
     """Per minute: stock return minus ETF return, cumulative since the first bar, volume vs the trailing median of
-    the same session."""
+    the same session, and `gap_min`, the minutes since the previous bar. Massive omits minutes with no trade, so a
+    bar after a gap carries the return of the whole gap."""
     out = df.copy()
     stock_ret = out["px"].pct_change().fillna(0.0)
     etf_ret = out["etf_px"].pct_change().fillna(0.0)
     out["adj_ret"] = stock_ret - etf_ret
+    out["gap_min"] = (pd.to_datetime(out["ts"]).diff().dt.total_seconds() / 60).fillna(1.0).clip(lower=1.0)
     out["cum_adj_ret"] = (1 + out["adj_ret"]).cumprod() - 1
     med = out.groupby(session_key(out["ts"]))["vol"].transform(
         lambda v: v.shift(1).rolling(BASELINE_MIN, min_periods=5).median())
@@ -92,12 +94,14 @@ def adjusted_returns(df: pd.DataFrame) -> pd.DataFrame:
 
 def flag_abnormal(df: pd.DataFrame) -> pd.DataFrame:
     """Flag a minute when its adjusted return is far outside the trailing baseline, or volume spikes with a real
-    move."""
+    move. Returns are scaled to 1 minute by the square root of the gap before the z-score, since a return's variance
+    grows with its time span, so a bar after 10 quiet minutes is not judged as a 1-minute jump."""
     out = df.copy()
-    roll = out.groupby(session_key(out["ts"]))["adj_ret"].transform
+    per_min = out["adj_ret"] / np.sqrt(out["gap_min"])
+    roll = per_min.groupby(session_key(out["ts"])).transform
     mu = roll(lambda r: r.shift(1).rolling(BASELINE_MIN, min_periods=5).mean())
     sd = roll(lambda r: r.shift(1).rolling(BASELINE_MIN, min_periods=5).std()).replace(0, np.nan)
-    z = ((out["adj_ret"] - mu) / sd).fillna(0.0)
+    z = ((per_min - mu) / sd).fillna(0.0)
     out["z"] = z
     big_move = out["adj_ret"].abs() >= MIN_ABS_RET
     out["flagged"] = ((z.abs() >= Z_THRESHOLD) | (out["vol_mult"] >= VOL_THRESHOLD)) & big_move
@@ -110,14 +114,22 @@ def to_bars(df: pd.DataFrame) -> list[Bar]:
             for _, row in df.iterrows()]
 
 
+def minute_of(ts: datetime) -> datetime:
+    """The start of the minute holding ts. A bar's ts is its minute's start and its px that minute's close, so the
+    bar for a statement at 10:00:30 is the 10:00 bar."""
+    return ts.replace(second=0, microsecond=0)
+
+
 def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
-    """What happened in the minutes after ts: adjusted, raw stock and ETF returns, and the peak volume multiple."""
-    win = df[(df["ts"] >= ts) & (df["ts"] <= ts + timedelta(minutes=minutes))]
+    """What happened in the statement's own minute and the minutes after it, `minutes` bars in all: adjusted, raw
+    stock and ETF returns, and the peak volume multiple."""
+    t0 = minute_of(ts)
+    win = df[(df["ts"] >= t0) & (df["ts"] < t0 + timedelta(minutes=minutes))]
     if win.empty:
         return {"adj_ret": 0.0, "ret": 0.0, "etf_ret": 0.0, "vol_mult": 1.0}
-    # measured from the last close before the statement, so the move inside the statement's own minute counts,
-    # and adjusted = stock minus ETF over those same bars so the 3 numbers on a card reconcile
-    before = df[df["ts"] < ts]
+    # measured from the last close before the statement's minute, and adjusted = stock minus ETF over those same
+    # bars so the 3 numbers on a card reconcile
+    before = df[df["ts"] < t0]
     base = before.iloc[-1] if not before.empty else win.iloc[0]
     stock = float(win["px"].iloc[-1] / base["px"] - 1)
     etf = float(win["etf_px"].iloc[-1] / base["etf_px"] - 1)
@@ -134,7 +146,7 @@ def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = 5):
     for s in segments:
         if s.ts is None:
             continue
-        if any(f - timedelta(minutes=lookback_min) <= s.ts <= f for f in flags):
+        if any(f - timedelta(minutes=lookback_min) <= minute_of(s.ts) <= f for f in flags):
             keep.append(s)
     return keep
 
@@ -150,11 +162,13 @@ def flag_events(df: pd.DataFrame, gap_min: int = EVENT_GAP_MIN) -> pd.DataFrame:
 
 
 def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) -> float:
-    """Distance in minutes to the nearest flagged minute at or after ts (a statement precedes its reaction)."""
-    flags = df.loc[df["flagged"] & (df["ts"] >= ts) & (df["ts"] <= ts + timedelta(minutes=lookahead)), "ts"]
+    """Whole minutes from the statement's minute to the nearest flagged minute at or after it (a statement precedes
+    its reaction, and a flag in its own minute is 0)."""
+    t0 = minute_of(ts)
+    flags = df.loc[df["flagged"] & (df["ts"] >= t0) & (df["ts"] <= t0 + timedelta(minutes=lookahead)), "ts"]
     if flags.empty:
         return float("inf")
-    return float((flags.iloc[0] - ts).total_seconds() / 60)
+    return float((flags.iloc[0] - t0).total_seconds() / 60)
 
 
 def fetch_bars(ticker: str, start: datetime, end: datetime) -> pd.DataFrame:

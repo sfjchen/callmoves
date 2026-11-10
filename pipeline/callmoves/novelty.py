@@ -119,8 +119,9 @@ _SYSTEM = (
 
 def judge_novelty_llm(claims: list[Claim], release: str, prior: str) -> list[Claim]:
     """Judges novelty with Claude in batches of BATCH claims, the documents cached across batches. A claim the model
-    skips falls back to the rules."""
+    skips, or calls not novel with a matched_text that is not in the named document, falls back to the rules."""
     by_id = {c.claim_id: c for c in claims}
+    flat = {doc: " ".join(text.split()).casefold() for doc, text in (("release", release), ("prior_call", prior))}
     out: dict[int, Claim] = {}
     for i in range(0, len(claims), BATCH):
         batch = claims[i:i + BATCH]
@@ -137,6 +138,10 @@ def judge_novelty_llm(claims: list[Claim], release: str, prior: str) -> list[Cla
                 continue
             md = v.matched_doc if v.matched_doc in ("release", "prior_call") else None
             text = None if v.novel else (v.matched_text or "")[:300]
+            # a "not novel" verdict cuts the score, so its evidence must be in the document it names, else the
+            # rules decide that claim
+            if not v.novel and (md is None or not text.strip() or " ".join(text.split()).casefold() not in flat[md]):
+                continue
             out[c.claim_id] = c.model_copy(update={"novel": v.novel, "matched_doc": None if v.novel else md,
                                                    "matched_text": text})
     # anything the model skipped falls back to the rules

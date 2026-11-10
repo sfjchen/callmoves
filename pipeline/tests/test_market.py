@@ -48,6 +48,25 @@ def test_forward_window_and_nearest_flag():
     assert market.minutes_to_nearest_flag(df, T0 + timedelta(minutes=80)) == float("inf")
 
 
+def test_statement_mid_minute_counts_its_own_minutes_move():
+    # bar 42 (minute start T0+42) closes 1% up, and the statement comes 30 s into that minute
+    df = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={42: 0.01}, vol_bump={42: 5})))
+    ts = T0 + timedelta(minutes=42, seconds=30)
+    assert market.forward_window(df, ts)["adj_ret"] > 0.008
+    assert market.minutes_to_nearest_flag(df, ts) == 0.0
+    assert market.forward_window(df, T0 + timedelta(minutes=43))["adj_ret"] < 0.003   # the next minute misses it
+
+
+def test_return_across_a_gap_is_scaled_to_1_minute():
+    # 0.3% over a 16-minute gap is normal drift at this volatility (about 1.8 sd), the same 0.3% in 1 minute is a jump
+    gapped = make_bars(stock_bump={60: 0.003})
+    gapped = gapped.drop(index=range(45, 60)).reset_index(drop=True)
+    flagged = market.flag_abnormal(market.adjusted_returns(gapped))
+    assert not flagged.loc[flagged["ts"] == T0 + timedelta(minutes=60), "flagged"].item()
+    plain = market.flag_abnormal(market.adjusted_returns(make_bars(stock_bump={60: 0.003})))
+    assert plain.loc[plain["ts"] == T0 + timedelta(minutes=60), "flagged"].item()
+
+
 def _session(first: datetime, n: int, px: float, etf_px: float) -> pd.DataFrame:
     return pd.DataFrame({"ts": [first + timedelta(minutes=i) for i in range(n)],
                          "px": px, "etf_px": etf_px, "vol": 10000.0})

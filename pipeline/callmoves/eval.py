@@ -9,8 +9,11 @@ the same label and each counts, so the harness also lists the labels no moment r
     python -m callmoves.eval data/*/ --placebo
 
 The placebo needs no labels: it asks whether statements line up with price moves better than the same statements
-moved 15 to 60 minutes away do. Over several calls it adds a sign test: under no timing signal, the real score beats
-the median shift in half the calls.
+moved in time do. Each shift rotates every claim around the call by the same amount, wrapping past the end, so the
+shifted claims stay inside the call, in the same session and with the same bars. Shifting claims outside the call
+compared the call's volatility with quieter minutes instead (found 2026-11-10). Over several calls it adds a sign
+test: under no timing signal, the real score beats the median shift in half the calls. Calls on the same day and
+sector are not independent, so the pooled p-value is a rough guide, not a test of the shipped Claude path.
 """
 from __future__ import annotations
 
@@ -32,7 +35,8 @@ from .score import rank_moments
 from .transcript import align, load_call
 
 TOLERANCE = timedelta(minutes=2)
-SHIFTS_MIN = [s for s in range(-60, 61, 5) if abs(s) >= 15]   # far enough that no shifted claim keeps its own move
+MIN_SHIFT_MIN = 15   # far enough that no shifted claim keeps its own move
+SHIFT_STEP_MIN = 5
 
 
 class Label(BaseModel):
@@ -59,13 +63,16 @@ def evaluate(moments: list[Moment], labels: list[Label], ks: tuple[int, ...] = (
     return Evaluation(hits=hits, precision=precision, missed=[l for i, l in enumerate(labels) if i not in hits])
 
 
-def placebo(call: Path, shifts: list[int] = SHIFTS_MIN, k: int = 3) -> tuple[float, list[float]]:
-    """Ranks rule-based claims from every turn against the real bars, then again with every claim moved by each
-    shift, and returns the real top-k score sum and the shifted sums. Claims come from all turns, not the
-    price-first candidates, so the real run gets no head start, and the rule extractor keeps every run offline and
-    identical. If statements carry no timing signal, the real sum is just 1 draw among the shifted ones."""
+def placebo(call: Path, k: int = 3) -> tuple[float, list[float]]:
+    """Ranks rule-based claims from every turn against the real bars, then again with every claim rotated around the
+    call by each shift from MIN_SHIFT_MIN to the call length minus MIN_SHIFT_MIN, and returns the real top-k score
+    sum and the shifted sums. Claims come from all turns, not the price-first candidates, so the real run gets no
+    head start, and the rule extractor keeps every run offline and identical. If statements carry no timing signal,
+    the real sum is just 1 draw among the shifted ones."""
     meta, segments = load_call(call / "call.json")
     segments = align(meta, segments)
+    start, span = segments[0].ts, segments[-1].ts - segments[0].ts
+    shifts = range(MIN_SHIFT_MIN, int(span.total_seconds() // 60) - MIN_SHIFT_MIN + 1, SHIFT_STEP_MIN)
     bars = market.flag_abnormal(market.adjusted_returns(market.load_bars_csv(call / "bars.csv")))
     release, prior = (call / "release.txt").read_text(), (call / "prior_transcript.txt").read_text()
     claims = [judge_novelty_rules(c, release, prior) for c in extract_claims_rules(segments)]
@@ -73,7 +80,10 @@ def placebo(call: Path, shifts: list[int] = SHIFTS_MIN, k: int = 3) -> tuple[flo
     def top_sum(cs) -> float:
         return sum(m.score for m in rank_moments(cs, segments, bars, top_n=k))
 
-    fake = [top_sum([c.model_copy(update={"ts": c.ts + timedelta(minutes=s)}) for c in claims]) for s in shifts]
+    def rotate(ts: datetime, s: int) -> datetime:
+        return start + (ts - start + timedelta(minutes=s)) % span
+
+    fake = [top_sum([c.model_copy(update={"ts": rotate(c.ts, s)}) for c in claims]) for s in shifts]
     return top_sum(claims), fake
 
 

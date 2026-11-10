@@ -45,8 +45,9 @@ export async function saveTrial(raw: Record<string, unknown>, ip: string): Promi
   const gold = call && goldTs(call);
   if (!gold) return fail(400, "Unknown call.");
   const ipHash = hashIp(ip), hourAgo = new Date(Date.now() - 3600e3).toISOString();
-  if (await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`, "callmoves_study") >= PER_IP_HOUR)
-    return fail(429, "Too many trials this hour. Try again later.");
+  const recent = await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`, "callmoves_study").catch(() => null);
+  if (recent === null) return fail(500, "Could not save the trial.");   // fail closed, as in submit.ts
+  if (recent >= PER_IP_HOUR) return fail(429, "Too many trials this hour. Try again later.");
   const res = await sb("callmoves_study", SB_SERVICE, {
     method: "POST",
     body: JSON.stringify({

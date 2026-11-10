@@ -3,7 +3,7 @@ from datetime import timedelta
 from conftest import T0, meta
 
 from callmoves.claims import extract_claims_rules
-from callmoves.models import Part, Segment
+from callmoves.models import Claim, Part, Segment
 from callmoves.novelty import _num_values, _nums_match, judge_novelty_rules
 from callmoves.transcript import align, label_speakers, merge_turns
 
@@ -106,6 +106,23 @@ def test_voices_fix_follow_ups_and_handoffs_the_call_shape_mislabels():
         "Management"]
 
 
+def test_an_analyst_split_into_2_voices_stays_an_analyst():
+    raw = [
+        {"t0_ms": 0, "t1_ms": 40000, "speaker": "", "text": "Revenue was $20 billion this quarter."},
+        {"t0_ms": 40000, "t1_ms": 44000, "speaker": "", "text": "We will take our next question from Jane of Firm."},
+        {"t0_ms": 44000, "t1_ms": 45000, "speaker": "", "text": "Hi, John."},
+        {"t0_ms": 45000, "t1_ms": 52000, "speaker": "", "text": "Thanks for taking the questions. On deposits,"},
+        {"t0_ms": 52000, "t1_ms": 56000, "speaker": "", "text": "where do costs go next year?"},
+        {"t0_ms": 56000, "t1_ms": 70000, "speaker": "", "text": "Thanks. We think deposit costs fall a little."},
+    ]
+    voices = [{"t0_ms": a, "t1_ms": b, "cluster": c} for a, b, c in [
+        (0, 40000, "ceo"), (40000, 44000, "op"), (44000, 45000, "jane_a"), (45000, 56000, "jane_b"),
+        (56000, 70000, "cfo")]]
+    # "next question" starts Q&A here (no "first question" on this call), and the 2nd analyst voice keeps the floor
+    assert [s["speaker"] for s in label_speakers(raw, voices)] == [
+        "Management", "Operator", "Analyst", "Analyst", "Analyst", "Management"]
+
+
 def test_release_table_millions_match_spoken_billions():
     assert _nums_match(_num_values("Revenue was $21.9 billion, up 2%."), _num_values("Total revenue $ 21,870 21,436"))
     assert not _nums_match(
@@ -124,3 +141,19 @@ def test_claim_is_timed_to_its_sentence_not_the_turn():
                           Part(t0_ms=85_000, text="Net interest income was $12 billion in the quarter.")])
     [c] = extract_claims_rules(align(meta(), [turn]))
     assert c.ts == T0 + timedelta(seconds=85)
+
+
+def test_llm_not_novel_verdict_needs_its_evidence_in_the_named_document(monkeypatch):
+    from callmoves import novelty
+
+    release = "Total revenue was $20.1 billion.\nNet interest income rose 3%."
+    claims = [Claim(claim_id=i, seg_id=0, speaker="CFO", quote=q, metric="m", kind="guidance") for i, q in
+              enumerate(["We expect expenses of about $55 billion next year.", "Revenue was $20.1 billion."])]
+    verdicts = novelty._VerdictsLLM(verdicts=[
+        novelty._VerdictLLM(claim_id=0, novel=False, matched_doc="release", matched_text="Expenses of $55 billion."),
+        novelty._VerdictLLM(claim_id=1, novel=False, matched_doc="release", matched_text="Total revenue was  $20.1 billion."),
+    ])
+    monkeypatch.setattr(novelty.llm, "parse", lambda *a, **k: verdicts)
+    out = novelty.judge_novelty_llm(claims, release, "")
+    assert out[0].novel is True    # invented evidence: the rules decide, and $55 billion is nowhere in the release
+    assert out[1].novel is False and out[1].matched_doc == "release"   # whitespace differences still match

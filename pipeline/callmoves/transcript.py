@@ -88,8 +88,8 @@ _OPERATOR = re.compile(r"\b(questions? (will )?comes? from|next question|final q
                        r"your line is (now )?open|listen.only|concludes today|press star|question and answer session|"
                        r"question-and-answer|thank you for standing by|stand by for|being recorded|"
                        r"turn the (call|conference) (back )?over to)\b", re.IGNORECASE)
-_QA_START = re.compile(
-        r"\b(questions? (will )?comes? from|first question|take your questions|begin the question)\b", re.IGNORECASE)
+_QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|next question|take your questions|"
+                       r"begin the question)\b", re.IGNORECASE)
 _INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.IGNORECASE)
 _MAX_ANALYST_SEGMENTS = 8
 
@@ -104,8 +104,9 @@ def label_speakers(segments: list[dict], voices: list[dict] | None = None) -> li
     sentence ends in a question mark (or a few segments pass), then management answers until the next operator.
     With `voices` from `diarize()`, each segment takes the voice it overlaps most and roles go by voice instead: the
     voice with the most operator phrases is the operator, a voice with 30 s or more before Q&A is management, and
-    any other voice is an analyst if its first Q&A segment follows the operator. That catches follow-up questions
-    without a question mark, which the call-shape rules give to management. Segments no voice overlaps keep the
+    any other voice is an analyst if its first Q&A segment follows the operator, or follows an analyst while the
+    call-shape rules still give the analyst the floor. That catches follow-up questions without a question mark,
+    which the call-shape rules give to management. Segments no voice overlaps keep the
     call-shape label."""
     out, in_qa, analyst_left = [], False, 0
     for s in segments:
@@ -142,7 +143,10 @@ def label_speakers(segments: list[dict], voices: list[dict] | None = None) -> li
     role = {v: "Management" for v, ms in prepared.items() if ms >= _PREPARED_MIN_MS} | {operator: "Operator"}
     for prev, s in zip([None, *out], out):
         if s["voice"] not in role and qa_ms is not None and s["t0_ms"] >= qa_ms:
-            role[s["voice"]] = "Analyst" if prev and prev["voice"] == operator else "Management"
+            # diarization can split 1 analyst into 2 voices ("Hi, Yugal." then the question), so a voice that
+            # follows an analyst while the call-shape rules still give the floor to the analyst is 1 too
+            after_analyst = prev and role.get(prev["voice"]) == "Analyst" and s["speaker"] == "Analyst"
+            role[s["voice"]] = "Analyst" if prev and (prev["voice"] == operator or after_analyst) else "Management"
     return [{k: x for k, x in s.items() if k != "voice"} |
             ({"speaker": role.get(s["voice"], "Management")} if s["voice"] else {}) for s in out]
 

@@ -40,6 +40,10 @@ create table if not exists public.callmoves_submissions (
 alter table public.callmoves_submissions enable row level security;
 create index if not exists callmoves_submissions_ip on public.callmoves_submissions (ip_hash, created_at);
 create index if not exists callmoves_submissions_status on public.callmoves_submissions (status, created_at);
+-- At most 1 pending submission per call: the insert of a racing duplicate fails with 409, which /submit reports
+-- as already queued.
+create unique index if not exists callmoves_submissions_pending on public.callmoves_submissions (ticker, quarter)
+  where status in ('queued', 'running');
 
 -- Claims the oldest queued submission for 1 worker run. A run that died mid-job leaves a row running, so rows
 -- running for over 6 hours (the GitHub Actions job limit) go back to the queue first.

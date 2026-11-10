@@ -29,10 +29,14 @@ def html_to_text(raw: str) -> str:
 
 
 def load_doc(path: Path) -> str:
-    """Reads a PDF, HTML or plain-text document as text, by suffix."""
+    """Reads a PDF, HTML or plain-text document as text, by suffix. NUL characters are dropped: some PDFs extract
+    with them (W's prior transcript had 470), and Postgres text rejects them when a quote copied from the document
+    is published."""
     suffix = path.suffix.lower()
     if suffix == ".pdf":
-        return pdf_to_text(path)
-    if suffix in (".html", ".htm"):
-        return html_to_text(path.read_text(errors="replace"))
-    return path.read_text()
+        text = pdf_to_text(path)
+    elif suffix in (".html", ".htm"):
+        text = html_to_text(path.read_text(errors="replace"))
+    else:
+        text = path.read_text()
+    return text.replace("\x00", "")

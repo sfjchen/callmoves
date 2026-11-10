@@ -16,7 +16,7 @@ export const ERRORS = {
   ticker: [400, "Ticker must be 1 to 6 capital letters."],
   quarter: [400, "Quarter must look like Q3-2026."],
   etf: [400, "Pick a sector ETF from the list."],
-  start: [400, "Call start must be a date and time."],
+  start: [400, "Call start must be a date and time, with a UTC offset when sent to the API."],
   future: [400, "The call must already have happened."],
   links: [400, "Audio and release links must be https URLs."],
   company: [400, "Company name is too long."],
@@ -35,16 +35,19 @@ export type SubmitResult = { ok: true; id: string } | { ok: false; code: ErrorCo
 
 /**
  * Counts rows of a table (callmoves_submissions by default) matching a PostgREST filter, from the Content-Range
- * header of a HEAD request.
+ * header of a HEAD request. Throws when Supabase fails, so a rate limit never reads an error as 0 rows.
  */
 export async function count(filter: string, table = "callmoves_submissions"): Promise<number> {
   const res = await sb(`${table}?select=id&${filter}`, SB_SERVICE!, { method: "HEAD" }, "count=exact");
-  return Number(res.headers.get("content-range")?.split("/")[1] ?? 0);
+  const total = res.headers.get("content-range")?.split("/")[1];
+  if (!res.ok || total === undefined || total === "*") throw new Error(`Supabase ${res.status} counting ${table}`);
+  return Number(total);
 }
 
 /**
  * Converts a datetime-local value ("2026-11-17T17:00"), read as US Eastern time, to an ISO string with offset.
- * The offset is that of the given date, so daylight saving is handled. Any other value passes through unchanged.
+ * The offset is that of the given date, so daylight saving is handled. Any other value passes through unchanged,
+ * and `invalid` then requires it to carry its own offset.
  */
 function easternToIso(local: string): string {
   const m = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})$/.exec(local);
@@ -70,7 +73,8 @@ function invalid(s: Record<string, string>): ErrorCode | null {
   if (!/^[A-Z][A-Z.]{0,5}$/.test(s.ticker)) return "ticker";
   if (!/^Q[1-4]-20\d{2}$/.test(s.quarter)) return "quarter";
   if (!ETFS.includes(s.etf)) return "etf";
-  if (Number.isNaN(Date.parse(s.call_start))) return "start";
+  // an ISO string without an offset parses as local or UTC depending on its form, hours off for a US call
+  if (!/(Z|[+-]\d{2}:\d{2})$/.test(s.call_start) || Number.isNaN(Date.parse(s.call_start))) return "start";
   if (Date.parse(s.call_start) > Date.now()) return "future";
   if (!s.audio_url || !s.release_url || !https(s.audio_url) || !https(s.release_url) || !https(s.prior_url))
     return "links";
@@ -100,16 +104,21 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
   if (bad) return { ok: false, code: bad };
   const ipHash = hashIp(ip);
   const hourAgo = new Date(Date.now() - 3600e3).toISOString(), dayAgo = new Date(Date.now() - 86400e3).toISOString();
-  if (await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`) >= PER_IP_HOUR) return { ok: false, code: "rate" };
-  if (await count(`created_at=gt.${dayAgo}`) >= PER_DAY) return { ok: false, code: "full" };
-  // the worker upserts audio and results by call id, so a repeat would overwrite a finished call
-  if (await callExists(`${s.ticker}_${s.quarter}`)) return { ok: false, code: "exists" };
-  if (await count(`ticker=eq.${s.ticker}&quarter=eq.${s.quarter}&status=in.(queued,running)`) > 0)
-    return { ok: false, code: "queued" };
+  try {
+    if (await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`) >= PER_IP_HOUR) return { ok: false, code: "rate" };
+    if (await count(`created_at=gt.${dayAgo}`) >= PER_DAY) return { ok: false, code: "full" };
+    // the worker upserts audio and results by call id, so a repeat would overwrite a finished call
+    if (await callExists(`${s.ticker}_${s.quarter}`)) return { ok: false, code: "exists" };
+  } catch {
+    return { ok: false, code: "fail" };   // fail closed: no limit check, no insert
+  }
+  // a pending duplicate is refused by the callmoves_submissions_pending unique index, so 2 racing requests cannot
+  // both queue the same call
   const res = await sb("callmoves_submissions?select=id", SB_SERVICE, {
     method: "POST",
     body: JSON.stringify({ ...s, company: s.company || null, prior_url: s.prior_url || null, ip_hash: ipHash }),
   }, "return=representation");
+  if (res.status === 409) return { ok: false, code: "queued" };
   if (!res.ok) return { ok: false, code: "fail" };
   return { ok: true, id: ((await res.json()) as { id: string }[])[0].id };
 }

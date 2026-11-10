@@ -1,4 +1,4 @@
-from callmoves.docs import html_to_text
+from callmoves.docs import html_to_text, load_doc
 
 RELEASE = """<!DOCTYPE html><html><head><title>Q3 Results</title><style>td { color: red }</style></head>
 <body><!-- tracking --><script>var x = 1 &lt; 2;</script>
@@ -19,3 +19,9 @@ def test_html_to_text_strips_markup_and_keeps_table_cells_apart():
     for gone in ("Q3 Results", "color: red", "tracking", "var x", "<"):
         assert gone not in text
     assert "\n\n\n" not in text and "  " not in text
+
+
+def test_load_doc_drops_nul_characters(tmp_path):
+    p = tmp_path / "prior.txt"
+    p.write_text("Revenue\x00 was $3.1 billion.")
+    assert load_doc(p) == "Revenue was $3.1 billion."
