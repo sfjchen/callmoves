@@ -5,7 +5,8 @@
         --release raw/wfc_q3_release.pdf --prior raw/wfc_q2_release.pdf --out data/wfc_q3_2026
 
 Writes call.json (transcript with speakers), bars.csv (stock + ETF from Massive, needs POLYGON_API_KEY),
-release.txt and prior_transcript.txt. Transcription is faster-whisper on CPU.
+release.txt and prior_transcript.txt. Transcription and diarization run on a Modal GPU when MODAL_TOKEN_ID is set,
+else faster-whisper and pyannote on the CPU.
 """
 from __future__ import annotations
 
@@ -22,7 +23,7 @@ from .docs import load_doc
 from .market import bars_for_call
 from .transcript import call_start_ms, diarize, label_speakers, merge_turns, transcribe
 
-_MODAL_TIMEOUT_S = 1200   # past this the GPU never started (Modal queues GPU work without a payment method)
+_MODAL_TIMEOUT_S = 1200   # past this no GPU was scheduled, so the CPU takes over
 
 
 def main(argv=None):
