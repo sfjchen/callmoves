@@ -46,3 +46,21 @@ export function dir(x: number): Dir {
 
 export const DIR_HEX: Record<Dir, string> = { up: "#047857", down: "#b91c1c", flat: "#737373" };
 export const DIR_TEXT: Record<Dir, string> = { up: "text-emerald-700", down: "text-red-700", flat: "text-neutral-500" };
+
+/**
+ * Formats a pipeline quarter label compactly, "Q3-2026" -> "Q3 '26". Labels in another shape pass through.
+ */
+export function shortQuarter(q: string): string {
+  const m = /^(Q\d)-(?:FY)?\d{2}(\d{2})$/.exec(q);
+  return m ? `${m[1]} '${m[2]}` : q;
+}
+
+// Sector names of the SPDR sector ETFs the pipeline benchmarks against.
+export const SECTOR: Record<string, string> = {
+  XLF: "Financials", XLV: "Health care", XLI: "Industrials", XLK: "Technology", XLC: "Communication",
+  XLY: "Consumer discretionary", XLP: "Consumer staples", XLE: "Energy", XLU: "Utilities", XLB: "Materials",
+  XLRE: "Real estate", IGV: "Software",
+};
+
+// How a moment's peers moved in the same minutes, as shown on cards and the comps panel.
+export const SPILL_LABEL = { sector: "peers moved too", company: "stock alone", mixed: "peers partly" } as const;

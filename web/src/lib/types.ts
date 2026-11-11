@@ -36,6 +36,10 @@ export type Moment = {
   adj_ret_5m: number;
   ret_5m: number;
   etf_ret_5m: number;
+  bench_ret_5m?: number | null; // what adj_ret_5m is measured against (the ETF unless a market model is shipped)
+  spy_ret_5m?: number | null;
+  peer_ret_5m?: number | null;  // equal-weight peer index over the same 5 minutes
+  spillover?: "sector" | "company" | "mixed" | null; // did peers move with the stock in those minutes
   vol_mult: number;
   nearest_flag_min: number;
   confidence: "high" | "medium" | "low";
@@ -91,6 +95,22 @@ export type CallOutput = {
   open_reaction?: OpenReaction | null;
   estimates?: Estimate[];
   stats?: Stats | null;
+  context?: Context | null;
+};
+
+// Peer and cross-asset prices on 1 minute grid over the call, for the comps panel.
+export type ContextSeries = {
+  sym: string;
+  role: "stock" | "sector" | "peer" | "market" | "rates" | "dollar" | "credit" | "gold" | "oil";
+  px: (number | null)[];
+};
+
+export type Context = {
+  ts: string[];
+  series: ContextSeries[];
+  benchmark: "etf" | "market" | "peers";
+  betas: Record<string, number>;
+  r2: number | null;
 };
 
 export type CallSummary = {
@@ -99,6 +119,10 @@ export type CallSummary = {
   quarter: string;
   company: string | null;
   call_start: string;
+  etf?: string | null;
+  themes?: string[];
+  n_moments?: number;
   spark: number[]; // cum_adj_ret over the call window, downsampled to about 60 points for the library sparkline
-  top_moment: Pick<Moment, "quote" | "adj_ret_5m"> | null;
+  top_moment: (Pick<Moment, "ts" | "quote" | "adj_ret_5m" | "speaker"> &
+    Partial<Pick<Moment, "vol_mult" | "spillover">>) | null;
 };

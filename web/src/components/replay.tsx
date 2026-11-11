@@ -7,7 +7,10 @@ import {
   Bar, ComposedChart, Line, ReferenceArea, ReferenceDot, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis,
 } from "recharts";
 import type { CallOutput, Estimate, Moment, Segment } from "@/lib/types";
-import { clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortSpeaker, WINDOW_MS } from "@/lib/format";
+import {
+  clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
+} from "@/lib/format";
+import Comps from "@/components/comps";
 
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
@@ -61,6 +64,15 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
   }, [data.segments, query]);
   const flaggedCount = data.bars.filter((b) => b.flagged).length;
   const est = (data.estimates ?? []).filter((e) => e.role === "reported");
+  const lead = data.moments[0];
+  const benchLabel = data.context?.benchmark === "market" ? "market model"
+    : data.context?.benchmark === "peers" ? "peers model" : data.call.etf;
+
+  // Moves the cursor to a moment and, on phones where the panels stack, scrolls to the transcript.
+  function select(m: Moment) {
+    seek(m.t0_ms);
+    if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
+  }
 
   // Keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio. Inputs keep their keys.
   useEffect(() => {
@@ -104,7 +116,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
     <div className="max-w-7xl">
       <div
         className={
-          "lg:hidden sticky top-0 z-10 -mx-6 -mt-5 mb-3 px-6 py-1.5 bg-white/95 border-b border-neutral-200 " +
+          "lg:hidden sticky top-0 z-10 -mx-6 -mt-5 mb-3 px-6 py-1.5 bg-nb-bg/95 border-b border-nb-border " +
           "text-xs tabular text-neutral-700"
         }
       >
@@ -117,16 +129,17 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
         )}
       </div>
 
-      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-1">
-        <h1 className="text-xl font-semibold">
-          {data.call.ticker} <span className="font-normal text-neutral-500">{data.call.quarter}</span>
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+        <h1 className="text-3xl leading-tight">
+          {data.call.ticker} <span className="text-nb-muted">{shortQuarter(data.call.quarter)}</span>
         </h1>
-        {data.call.company && <span className="text-sm text-neutral-600">{data.call.company}</span>}
-        <span className="text-sm text-neutral-500 tabular">
-          Call {clock(data.call.call_start)} to {clock(data.call_end)} ET, vs {data.call.etf}
+        {data.call.company && <span className="text-sm text-nb-muted">{data.call.company}</span>}
+        <span className="text-sm text-nb-muted tabular">
+          {new Date(data.call.call_start).toLocaleDateString("en-US", { month: "short", day: "numeric",
+            year: "numeric", timeZone: TZ })}, {clock(data.call.call_start)} to {clock(data.call_end)} ET
         </span>
         {est.length > 0 && (
-          <span className="text-xs text-neutral-600 tabular">
+          <span className="text-xs text-nb-muted tabular">
             {est.map((e, i) => (
               <span key={e.metric} title={`Consensus as of ${new Date(e.as_of).toLocaleDateString("en-US",
                 { month: "short", day: "numeric", timeZone: "UTC" })}${e.basis === "after_call" ?
@@ -143,29 +156,47 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
           </span>
         )}
       </div>
-      {!baseline && <p className="text-xs text-neutral-600 tabular mb-1">
-        {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns → {data.n_claims} claims →{" "}
-        {data.moments.length} moments
-      </p>}
-      {!baseline && <details className="text-xs text-neutral-500 mb-3">
-        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-neutral-700">
-          How it&rsquo;s scored</summary>
-        <ul className="mt-1 max-w-3xl text-neutral-600 space-y-0.5">
-          <li>Reads only turns in the 5 min before an abnormal minute ({data.llm_used ? "Claude" : "rule-based"}).</li>
-          <li>Score = novelty × kind × |5-min adjusted return| × volume multiple × closeness to the minute.</li>
-          <li>An EPS or revenue figure over 1% off consensus counts as new.</li>
-          <li>Top 5, 1 per price event. &ldquo;Move began earlier&rdquo; means the price may have shaped the
-            statement. Associations, not causes.</li>
-          {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li className="tabular">
-            Processed {data.stats.audio_min} min of audio in{" "}
-            {Math.round(((data.stats.ingest_s ?? 0) + (data.stats.claude_s ?? 0)) / 60)} min for $
-            {(data.stats.gpu_usd + data.stats.claude_usd).toFixed(2)} (GPU ${data.stats.gpu_usd.toFixed(2)}, Claude $
-            {data.stats.claude_usd.toFixed(2)}).</li>}
-        </ul>
-      </details>}
+
+      {!baseline && (
+        <section className="card mt-2 mb-3 px-3 py-2.5" aria-label="Biggest move">
+          {lead ? (
+            <p className="text-[15px] leading-snug">
+              <span className="font-semibold">Biggest move {clock(lead.ts)} ET:</span>{" "}
+              <span className={`font-semibold tabular ${DIR_TEXT[dir(lead.adj_ret_5m)]}`}>
+                {GLYPH[dir(lead.adj_ret_5m)]} {pct(lead.adj_ret_5m)}</span>{" "}
+              vs {benchLabel} in 5 min on {lead.vol_mult.toFixed(1)}x volume
+              {lead.spillover && <span className="text-nb-muted"> ({SPILL_LABEL[lead.spillover]})</span>}, after{" "}
+              {shortSpeaker(lead.speaker)} said &ldquo;{lead.quote.length > 160 ? lead.quote.slice(0, 157) + "..." :
+                lead.quote}&rdquo;
+            </p>
+          ) : (
+            <p className="text-sm text-nb-muted">No minute cleared the abnormal-move threshold during the call.</p>
+          )}
+          {data.moments.length > 0 && (
+            <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
+              {data.moments.map((m) => (
+                <button key={m.rank} onClick={() => select(m)}
+                  className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${active?.seg_id === m.seg_id ?
+                    "border-nb-accent bg-white" : "border-nb-border"}`}>
+                  <span className="font-semibold text-nb-accent">{m.rank}</span> {clock(m.ts)}{" "}
+                  <span className={DIR_TEXT[dir(m.adj_ret_5m)]}>{pct(m.adj_ret_5m)}</span>
+                </button>
+              ))}
+              {audioOk && lead && (
+                <button onClick={() => { select(lead); void audioRef.current?.play(); }}
+                  className="rounded-full bg-nb-accent px-2.5 py-0.5 text-white">▶ Play #1</button>
+              )}
+              <span className="hidden lg:inline ml-auto text-nb-muted">
+                <kbd>j</kbd> <kbd>k</kbd> next and previous moment · <kbd>1</kbd>-<kbd>5</kbd> rank
+                {audioOk && <> · <kbd>space</kbd> play</>}
+              </span>
+            </div>
+          )}
+        </section>
+      )}
 
       {data.open_reaction ? (
-        <section className="border border-neutral-200 rounded-lg p-3 mb-4 text-sm">
+        <section className="card p-3 mb-4 text-sm">
           <div className="font-medium mb-1">
             No {data.call.ticker} trades while the call ran, so the reaction is read at the next open
           </div>
@@ -178,18 +209,18 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
             vs {pct(data.open_reaction.etf_ret)} {data.call.etf}, {pct(data.open_reaction.adj_ret)} adjusted,{" "}
             {data.open_reaction.vol_mult.toFixed(1)}x volume
           </div>
-          <div className="text-xs text-neutral-500 mt-1">
+          <div className="text-xs text-nb-muted mt-1">
             Every statement shares this one move, so moments are ranked by novelty and kind only, all at low confidence.
           </div>
         </section>
       ) : (
-        <section className="border border-neutral-200 rounded-lg p-3 mb-4">
+        <section className="card p-3 mb-4">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4 mb-1">
             <div className="text-sm font-medium">
-              Sector-adjusted return vs {data.call.etf} (%, cumulative from{" "}
+              Return vs {benchLabel} (%, cumulative from{" "}
               {clock(new Date(start + (points[0]?.t ?? 0)))}) and volume multiple
             </div>
-            <div className="hidden lg:block text-sm text-neutral-600 tabular">
+            <div className="hidden lg:block text-sm text-nb-muted tabular">
               cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs - offset)} into call)
               {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
             </div>
@@ -221,7 +252,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                       : [`${Number(v).toFixed(1)}x`, "volume"]
                   )}
                 />
-                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
+                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#efe8dd" fillOpacity={0.9} />
                 {data.moments.map((m) => (
                   <ReferenceArea
                     key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
@@ -230,7 +261,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                 ))}
                 <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
                 <Line
-                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#1d4ed8" strokeWidth={2} dot={false}
+                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#1a1a1a" strokeWidth={1.75} dot={false}
                   isAnimationActive={false}
                 />
                 {points.filter((p) => p.flagged).map((p) => (
@@ -240,7 +271,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                   const p = nearest(points, m.t0_ms);
                   return p ? (
                     <ReferenceDot
-                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
+                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#8c3838" stroke="#fff" strokeWidth={1.5}
                       label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }}
                       onClick={() => seek(m.t0_ms)}
                     />
@@ -250,7 +281,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
               </ComposedChart>
             </ResponsiveContainer>
           </div>
-          <div className="text-xs text-neutral-500 mt-1">
+          <div className="text-xs text-nb-muted mt-1">
             {baseline ? "Grey band is the call." :
               "Grey band is the call, orange dots abnormal minutes, " +
                 "numbered dots moments with their 5-min window shaded."}
@@ -268,16 +299,16 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
         />
       )}
       {noAudio && (
-        <p className="text-xs text-neutral-500 mb-4">
+        <p className="text-xs text-nb-muted mb-4">
           Audio is unavailable, click the chart or transcript to move the cursor.
         </p>
       )}
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-        {!baseline && <section className="lg:col-span-2 border border-neutral-200 rounded-lg p-3">
-          <h2 className="text-sm font-medium mb-1">Moments, ranked</h2>
+        {!baseline && <section className="lg:col-span-2 card p-3">
+          <h2 className="text-lg mb-1">Moments, ranked</h2>
           {data.moments.length === 0 ? (
-            <p className="text-sm text-neutral-500">
+            <p className="text-sm text-nb-muted">
               No minute cleared the threshold during the call, {data.candidate_seg_ids.length} turns read.
             </p>
           ) : (
@@ -285,32 +316,30 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
               {data.moments.map((m) => (
                 <MomentCard
                   key={m.rank} m={m} atOpen={!!data.open_reaction} active={active?.seg_id === m.seg_id}
-                  onSelect={() => {
-                    seek(m.t0_ms);
-                    // panels stack on phones
-                    if (window.innerWidth < 1024) {
-                      document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
-                    }
-                  }}
+                  onSelect={() => select(m)}
                 />
               ))}
             </ol>
           )}
+          {data.context && !data.open_reaction && (
+            <Comps ctx={data.context} ticker={data.call.ticker} start={data.call.call_start} end={data.call_end}
+              moment={data.moments.find((m) => m.seg_id === active?.seg_id) ?? lead} />
+          )}
         </section>}
 
-        <section className={`${baseline ? "lg:col-span-5" : "lg:col-span-3"} border border-neutral-200 rounded-lg p-3`}>
+        <section className={`${baseline ? "lg:col-span-5" : "lg:col-span-3"} card p-3`}>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2">
-            <h2 id="transcript" className="text-sm font-medium">Transcript</h2>
+            <h2 id="transcript" className="text-lg">Transcript</h2>
             <input
               type="search" value={query} placeholder="Search the transcript" aria-label="Search the transcript"
               onChange={(e) => { setQuery(e.target.value); setHit(0); }} onKeyDown={onSearchKey}
               className={
-                "ml-auto w-48 rounded border border-neutral-300 px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
-                "focus:outline-none focus:ring-1 focus:ring-blue-300"
+                "ml-auto w-48 rounded border border-nb-border px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
+                "focus:outline-none focus:ring-1 focus:ring-nb-accent/40"
               }
             />
             {query.trim() && (
-              <span className="text-xs text-neutral-500 tabular w-16">
+              <span className="text-xs text-nb-muted tabular w-16">
                 {hits.length ? `${hit + 1} of ${hits.length}` : "0 hits"}
               </span>
             )}
@@ -322,6 +351,27 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
           />
         </section>
       </div>
+      {!baseline && <details className="mt-3 text-xs text-nb-muted">
+        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-nb-text">
+          How moments are found</summary>
+        <ul className="mt-1 max-w-3xl space-y-0.5 tabular">
+          <li>Price first: {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns spoken in the 5 min
+            before them → {data.n_claims} claims ({data.llm_used ? "Claude" : "rule-based"}) → {data.moments.length}{" "}
+            moments, 1 per price event.</li>
+          <li>Abnormal = 1-minute return vs {benchLabel} far outside its trailing 20 minutes, or 3x volume with a
+            0.2% move.{data.context?.benchmark !== "etf" && data.context?.r2 != null &&
+              ` Betas fitted on the 3 sessions before the call, R² ${data.context.r2.toFixed(2)}.`}</li>
+          <li>Score = novelty × kind × |5-min adjusted return| × volume multiple × closeness to the minute. An EPS or
+            revenue figure over 1% off consensus counts as new.</li>
+          <li>&ldquo;Move began earlier&rdquo; means the price may have shaped the statement. Associations, not
+            causes.</li>
+          {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li>
+            Processed {data.stats.audio_min} min of audio in{" "}
+            {Math.round(((data.stats.ingest_s ?? 0) + (data.stats.claude_s ?? 0)) / 60)} min for $
+            {(data.stats.gpu_usd + data.stats.claude_usd).toFixed(2)} (GPU ${data.stats.gpu_usd.toFixed(2)}, Claude $
+            {data.stats.claude_usd.toFixed(2)}).</li>}
+        </ul>
+      </details>}
     </div>
   );
 }
@@ -343,24 +393,28 @@ function MomentCard({ m, atOpen, active, onSelect }: {
   const d = dir(m.adj_ret_5m);
   return (
     <li>
-      <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-neutral-50 ${active ?
-        "border-blue-600 bg-blue-50/40" : `border-neutral-200 ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
-        <div className="flex items-center gap-2 text-xs text-neutral-500">
-          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-blue-700 text-white
+      <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-white ${active ?
+        "border-nb-accent bg-white" : `border-nb-border ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
+        <div className="flex items-center gap-2 text-xs text-nb-muted">
+          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-nb-accent text-white
             font-semibold">{m.rank}</span>
           <span className="tabular">{clock(m.ts)} ET</span>
-          <span className="rounded bg-neutral-100 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
+          <span className="rounded bg-nb-border/70 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
+          {m.spillover && <span className="rounded border border-nb-border px-1.5 py-0.5">
+            {SPILL_LABEL[m.spillover]}</span>}
           <span className={`ml-auto text-base font-semibold tabular ${DIR_TEXT[d]}`}>
             {GLYPH[d]} {pct(m.adj_ret_5m)}</span>
         </div>
         <p className="mt-1.5 text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
         {active && (
-          <div className="mt-2 space-y-0.5 text-xs text-neutral-600 tabular">
-            {m.question && <p className="text-neutral-500">
+          <div className="mt-2 space-y-0.5 text-xs text-nb-muted tabular">
+            {m.question && <p className="text-nb-muted">
               <span className="font-medium">Analyst asked:</span> {m.question}</p>}
             <p>
               <span className="font-medium">{shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
-              {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs {pct(m.etf_ret_5m)} sector
+              {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs {pct(m.bench_ret_5m ?? m.etf_ret_5m)}{" "}
+              {m.bench_ret_5m != null && m.bench_ret_5m !== m.etf_ret_5m ? "benchmark" : "sector"}
+              {m.peer_ret_5m != null && <>, peers {pct(m.peer_ret_5m)}</>}
             </p>
             <p>
               {m.novel ? "New" : `Already in the ${m.matched_doc === "release" ? "release" : "prior call"}`}
@@ -405,8 +459,8 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
             <button
               onClick={() => onSelect(s)}
               className={
-                "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-neutral-50 " +
-                (isActive ? "bg-blue-50 ring-1 ring-blue-300" : "")
+                "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-white " +
+                (isActive ? "bg-white ring-1 ring-nb-accent/40" : "")
               }
             >
               <span
@@ -416,11 +470,11 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
                 {ret != null ? pct(ret) : ""}
               </span>
               <span className="min-w-0">
-                <span className="text-xs text-neutral-500 tabular mr-2">{mmss(s.t0_ms - offset)}</span>
+                <span className="text-xs text-nb-muted tabular mr-2">{mmss(s.t0_ms - offset)}</span>
                 <span
                   className={
                     "text-xs font-medium mr-2 " +
-                    (momentSegs.has(s.seg_id) ? "text-blue-700" : "text-neutral-700")
+                    (momentSegs.has(s.seg_id) ? "text-nb-accent" : "text-neutral-700")
                   }
                 >
                   {shortSpeaker(s.speaker)}

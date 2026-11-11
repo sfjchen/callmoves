@@ -1,9 +1,62 @@
 @import "tailwindcss";
 
+/* sfjc.dev notebook palette, light only. Patrick Hand is for the masthead and headings, body text and numbers use
+   Inter so tables stay legible. */
+@theme {
+  --color-nb-bg: #fcf9f4;
+  --color-nb-paper: #faf6f0;
+  --color-nb-text: #1a1a1a;
+  --color-nb-muted: #6b6359;
+  --color-nb-accent: #8c3838;
+  --color-nb-border: #eee9e2;
+  --font-hand: var(--font-patrick), "Patrick Hand", cursive;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: var(--color-nb-bg);
+  background-image: repeating-linear-gradient(transparent, transparent 30px, rgba(26, 26, 26, 0.02) 30px,
+    rgba(26, 26, 26, 0.02) 31px);
+  background-attachment: fixed;
+  color: var(--color-nb-text);
+}
+
+h1, h2, .hand {
+  font-family: var(--font-hand);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.card {
+  background: var(--color-nb-paper);
+  border: 1px solid var(--color-nb-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.card-hover {
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .tabular {
   font-variant-numeric: tabular-nums;
+}
+
+kbd {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  border: 1px solid var(--color-nb-border);
+  border-bottom-width: 2px;
+  border-radius: 0.25rem;
+  padding: 0 0.3rem;
+  background: #fff;
 }
