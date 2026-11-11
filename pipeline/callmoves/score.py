@@ -135,13 +135,14 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
 
 
 def with_placebo(moments: list[Moment], bars: pd.DataFrame, start: datetime, end: datetime) -> list[Moment]:
-    """Copies of the moments with placebo_pct: the share of the call's start minutes, from start to end, whose
-    |5-minute adjusted return| is at least the moment's. Minutes whose window touches the opening auction are left
-    out, as the scorer skips them, and so are minutes within WINDOW_MIN of the moment, whose windows share its
-    move. None when no minute is left to compare."""
-    t0 = minute_of(start)
+    """Returns copies of the moments with placebo_pct: the share of the call's start minutes, from start to end,
+    whose |5-minute adjusted return| is at least the moment's. Minutes whose window touches the opening auction are
+    left out, as the scorer skips them, and so are minutes within WINDOW_MIN of the moment, whose windows share its
+    move, and minutes with no trade in their window, which would count as no move. None when no minute is left."""
+    t0, ts = minute_of(start), pd.to_datetime(bars["ts"])
     grid = [t0 + timedelta(minutes=i) for i in range(int((end - t0).total_seconds() // 60) + 1)]
-    moves = [(t, abs(forward_window(bars, t)["adj_ret"])) for t in grid if not touches_open(t)]
+    moves = [(t, abs(forward_window(bars, t)["adj_ret"])) for t in grid if not touches_open(t)
+             and ((ts >= t) & (ts < t + timedelta(minutes=WINDOW_MIN))).any()]
     out = []
     for m in moments:
         pool = [r for t, r in moves if abs(t - minute_of(m.ts)) > timedelta(minutes=WINDOW_MIN)]
