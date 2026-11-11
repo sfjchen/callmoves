@@ -40,6 +40,7 @@ from .transcript import align, load_call
 
 SPARK_POINTS = 60   # library sparkline resolution
 # topics a library card can show, matched on each claim's metric and quote; a call shows its 3 most frequent
+# (copied to web/src/lib/themes.json for /themes, tests/test_themes.py keeps the 2 equal)
 THEMES = {
     "Guidance": r"guidance|outlook|full[- ]year|expect\w* .*(20\d\d|next quarter)",
     "NII": r"net interest income|\bNII\b|net interest margin", "AI": r"\bAI\b|artificial intelligence|data center",

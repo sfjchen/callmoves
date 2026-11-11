@@ -1,0 +1,15 @@
+{
+  "Guidance": "guidance|outlook|full[- ]year|expect\\w* .*(20\\d\\d|next quarter)",
+  "NII": "net interest income|\\bNII\\b|net interest margin",
+  "AI": "\\bAI\\b|artificial intelligence|data center",
+  "Capex": "capex|capital expenditure|capital spending",
+  "Margins": "margin",
+  "Credit": "credit|charge-off|provision|delinquen",
+  "Buybacks": "buyback|repurchase|dividend",
+  "Pricing": "pricing|price increase",
+  "Costs": "expense|cost|efficien|head ?count",
+  "Tariffs": "tariff",
+  "Deals": "investment banking|M&A|pipeline",
+  "Demand": "demand|volume|traffic|orders|backlog",
+  "Pipeline": "approval|trial|launch|FDA"
+}

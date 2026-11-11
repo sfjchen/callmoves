@@ -22,13 +22,16 @@ type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 /**
  * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
  * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms. `baseline` (study
- * condition) hides the moments panel, the scoring explanation and the numbered markers.
+ * condition) hides the moments panel, the scoring explanation and the numbered markers. `startMs` (a ?t= link)
+ * places the cursor there instead of at the top moment.
  */
-export default function Replay({ data, baseline = false }: { data: CallOutput; baseline?: boolean }) {
+export default function Replay({ data, baseline = false, startMs }: {
+  data: CallOutput; baseline?: boolean; startMs?: number;
+}) {
   const offset = data.call.audio_offset_ms ?? 0;
   const start = useMemo(() => new Date(data.call.call_start).getTime() - offset, [data.call.call_start, offset]);
   const endMs = new Date(data.call_end).getTime() - start;
-  const [cursorMs, setCursorMs] = useState(data.moments[0]?.t0_ms ?? offset);
+  const [cursorMs, setCursorMs] = useState(startMs ?? data.moments[0]?.t0_ms ?? offset);
   const [audioOk, setAudioOk] = useState<boolean | null>(null); // null until the HEAD check on the Supabase URL answers
   useEffect(() => {
     const url = data.call.audio_url;
@@ -388,7 +391,7 @@ function money(e: Estimate, x: number): string {
  * Renders 1 ranked moment: rank, time, quote and adjusted return, with the evidence shown only while it is active.
  * Low-confidence moments are dimmed.
  */
-function MomentCard({ m, atOpen, active, onSelect }: {
+export function MomentCard({ m, atOpen, active, onSelect }: {
   m: Moment; atOpen: boolean; active: boolean; onSelect: () => void;
 }) {
   const d = dir(m.adj_ret_5m);

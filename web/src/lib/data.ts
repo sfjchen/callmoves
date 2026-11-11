@@ -4,7 +4,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { SB_URL, sb } from "./supabase";
-import type { CallOutput, CallSummary } from "./types";
+import type { CallMoments, CallOutput, CallSummary } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const SB_KEY = process.env.SUPABASE_ANON_KEY;
@@ -38,12 +38,9 @@ export async function getCall(id: string): Promise<CallOutput | null> {
 }
 
 /**
- * Lists every call for the library, newest first.
+ * Reads every call in web/data/, newest first, for the local fallback of the list functions below.
  */
-export async function listCalls(): Promise<CallSummary[]> {
-  if (SB_URL && SB_KEY) {
-    return (await sbRows<{ summary: CallSummary }>("select=summary&order=call_start.desc")).map((r) => r.summary);
-  }
+async function localCalls(): Promise<CallOutput[]> {
   let files: string[] = [];
   try {
     files = (await fs.readdir(DATA_DIR)).filter((f) => f.endsWith(".json"));
@@ -53,6 +50,31 @@ export async function listCalls(): Promise<CallSummary[]> {
   const calls = await Promise.all(files.map((f) => getCall(f.slice(0, -5))));
   return calls
     .filter((c): c is CallOutput => c !== null)
-    .map((c) => c.summary)
-    .sort((a, b) => b.call_start.localeCompare(a.call_start));
+    .sort((a, b) => b.summary.call_start.localeCompare(a.summary.call_start));
+}
+
+/**
+ * Lists every call for the library, newest first.
+ */
+export async function listCalls(): Promise<CallSummary[]> {
+  if (SB_URL && SB_KEY) {
+    return (await sbRows<{ summary: CallSummary }>("select=summary&order=call_start.desc")).map((r) => r.summary);
+  }
+  return (await localCalls()).map((c) => c.summary);
+}
+
+/**
+ * Lists every real call's summary with its ranked moments, newest first, for the pages that look across calls. The
+ * fictional ACME fixture is left out, as in the study. On Supabase it selects only those JSON paths, not the
+ * transcript and bars.
+ */
+export async function listMoments(): Promise<CallMoments[]> {
+  if (SB_URL && SB_KEY) {
+    const rows = await sbRows<{ summary: CallSummary; moments: CallMoments["moments"] | null; open: unknown }>(
+      "select=summary,moments:data->moments,open:data->open_reaction&order=call_start.desc");
+    return rows.filter((r) => r.summary.ticker !== "ACME")
+      .map((r) => ({ summary: r.summary, moments: r.moments ?? [], atOpen: r.open != null }));
+  }
+  return (await localCalls()).filter((c) => c.summary.ticker !== "ACME")
+    .map((c) => ({ summary: c.summary, moments: c.moments, atOpen: !!c.open_reaction }));
 }

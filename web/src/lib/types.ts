@@ -47,6 +47,8 @@ export type Moment = {
   section?: "prepared" | "qa";
   question?: string | null;
   vs_consensus_pct?: number | null;
+  metric?: string | null;      // what the claim is about, "Markets NII"
+  placebo_pct?: number | null; // share of the call's minutes whose 5-min move was at least this large
 };
 
 // Analyst consensus for 1 period and metric. basis: at_report is frozen with the reported quarter, before_call predates
@@ -126,3 +128,6 @@ export type CallSummary = {
   top_moment: (Pick<Moment, "ts" | "quote" | "adj_ret_5m" | "speaker"> &
     Partial<Pick<Moment, "vol_mult" | "spillover">>) | null;
 };
+
+// 1 call's summary and ranked moments, for pages that look across calls without loading transcripts.
+export type CallMoments = { summary: CallSummary; moments: Moment[]; atOpen: boolean };
