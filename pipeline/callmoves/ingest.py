@@ -76,7 +76,8 @@ def main(argv=None):
                     (mp3 if mp3.exists() else args.audio).read_bytes())
             try:
                 raw, voices, err, stats = call.get(timeout=_MODAL_TIMEOUT_S)
-                stats["gpu_usd"] = round(stats["gpu_s"] / 3600 * (GPU_USD_H.get(stats["gpu"], 1.10) + HOST_USD_H), 4)
+                gpu_h = GPU_USD_H.get(stats["gpu"], max(GPU_USD_H.values()))   # an unlisted GPU is priced high
+                stats["gpu_usd"] = round(stats["gpu_s"] / 3600 * (gpu_h + HOST_USD_H), 4)
             except Exception as e:  # noqa: BLE001 - no GPU scheduled (no payment method) or a remote failure
                 call.cancel()
                 print(f"  Modal failed, falling back to the CPU: {type(e).__name__}: {str(e)[:200]}", flush=True)

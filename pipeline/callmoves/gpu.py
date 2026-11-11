@@ -17,7 +17,7 @@ APP = "callmoves-gpu"
 GPUS = ["L4", "A10", "T4"]
 MEMORY_GB = 16
 # USD per hour from `modal billing rates` (2026-11): each GPU, plus the container's memory and about 1 CPU core
-GPU_USD_H = {"NVIDIA L4": 0.80, "NVIDIA A10G": 1.10, "Tesla T4": 0.59}
+GPU_USD_H = {"NVIDIA L4": 0.80, "NVIDIA A10": 1.10, "Tesla T4": 0.59}
 HOST_USD_H = MEMORY_GB * 0.008 + 0.0473
 app = modal.App(APP)
 cache = modal.Volume.from_name("callmoves-model-cache", create_if_missing=True)
