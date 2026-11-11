@@ -7,7 +7,8 @@ import { useEffect, useState } from "react";
 import { loadState, type StudyState } from "@/lib/study-state";
 
 /**
- * Renders the participant id, the trial list and a Start button for the first trial not yet done.
+ * Renders the participant id, the trial list, a Start button for the first trial not yet done, and a reset that
+ * hands the browser to the next participant.
  */
 export default function StudyHome({ ids }: { ids: string[] }) {
   const [st, setSt] = useState<StudyState | null>(null);
@@ -34,6 +35,9 @@ export default function StudyHome({ ids }: { ids: string[] }) {
       ) : (
         <p className="rounded bg-emerald-50 px-3 py-2 text-emerald-800">Both trials are done. Thank you.</p>
       )}
+      <button type="button" onClick={() => setSt(loadState(ids, true))}
+        className="block mt-4 text-xs text-neutral-500 underline underline-offset-2 hover:text-neutral-700">
+        Next participant on this device</button>
     </div>
   );
 }

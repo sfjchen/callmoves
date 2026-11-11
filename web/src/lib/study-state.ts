@@ -20,10 +20,12 @@ function shuffled<T>(xs: T[]): T[] {
 
 /**
  * Loads this browser's study state, or creates one: a random id, 2 different calls from ids and the 2 conditions in
- * random order, so each participant sees both conditions on different calls.
+ * random order, so each participant sees both conditions on different calls. `fresh` replaces the stored state, for
+ * the next visitor on a shared machine such as the Expo laptop.
  */
-export function loadState(ids: string[]): StudyState {
+export function loadState(ids: string[], fresh = false): StudyState {
   try {
+    if (fresh) throw new Error("new participant");
     const s = JSON.parse(localStorage.getItem(KEY) ?? "null") as StudyState | null;
     if (s?.pid && s.trials?.length === 2) return s;
   } catch { /* falls through to a new state */ }
