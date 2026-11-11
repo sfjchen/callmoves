@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -57,6 +58,8 @@ def main(argv=None):
         args.audio_url = upload(transcode(args.audio, out / name), name)
         print(f"uploaded {name} -> {args.audio_url}", flush=True)
 
+    t0 = time.time()
+    stats = {}
     call_json = out / "call.json"
     raw_json = out / "whisper_segments.json"   # kept so speaker labels can be redone without re-transcribing
     voices_json = out / "diarization.json"     # pyannote voices, reused the same way
@@ -66,13 +69,14 @@ def main(argv=None):
         if os.environ.get("MODAL_TOKEN_ID"):
             import modal  # optional dependency, pip install -e ".[gpu]"
 
-            from .gpu import APP
+            from .gpu import APP, GPU_USD_H, HOST_USD_H
 
             print(f"transcribing and diarizing {args.audio} on a Modal GPU ...", flush=True)
             call = modal.Function.from_name(APP, "transcribe_and_diarize").spawn(
                     (mp3 if mp3.exists() else args.audio).read_bytes())
             try:
-                raw, voices, err = call.get(timeout=_MODAL_TIMEOUT_S)
+                raw, voices, err, stats = call.get(timeout=_MODAL_TIMEOUT_S)
+                stats["gpu_usd"] = round(stats["gpu_s"] / 3600 * (GPU_USD_H.get(stats["gpu"], 1.10) + HOST_USD_H), 4)
             except Exception as e:  # noqa: BLE001 - no GPU scheduled (no payment method) or a remote failure
                 call.cancel()
                 print(f"  Modal failed, falling back to the CPU: {type(e).__name__}: {str(e)[:200]}", flush=True)
@@ -86,6 +90,7 @@ def main(argv=None):
                 except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
                     err = f"{type(e).__name__}: {str(e)[:200]}"
         raw_json.write_text(json.dumps(raw))
+        stats["audio_min"] = round(raw[-1]["t1_ms"] / 60000, 1)
         if voices:
             voices_json.write_text(json.dumps(voices))
         else:
@@ -122,6 +127,8 @@ def main(argv=None):
 
     (out / "release.txt").write_text(load_doc(args.release))
     (out / "prior_transcript.txt").write_text(load_doc(args.prior) if args.prior else "")
+    if args.audio:   # stats.json describes the last full ingest, a relabel run keeps it
+        (out / "stats.json").write_text(json.dumps({**stats, "ingest_s": round(time.time() - t0)}))
     print(f"wrote {out}/")
 
 

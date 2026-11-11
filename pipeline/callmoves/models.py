@@ -148,6 +148,25 @@ class CallSummary(BaseModel):
     top_moment: TopMoment | None
 
 
+class Stats(BaseModel):
+    """What processing 1 call took: audio length, wall time and USD per paid service. Fields stay None for a step
+    that ran before tracking existed or ran for free (the CPU fallback on the GitHub runner)."""
+    audio_min: float | None = None
+    ingest_s: float | None = None        # download excluded: transcription, diarization, bars, documents, upload
+    gpu: str | None = None
+    gpu_s: float | None = None
+    gpu_usd: float | None = None
+    claude_s: float | None = None        # claim extraction and novelty judging
+    claude_tokens: dict[str, int] | None = None
+    claude_usd: float | None = None
+
+    @property
+    def total_usd(self) -> float | None:
+        """Returns the summed cost of the paid steps that were recorded, None when none was."""
+        parts = [x for x in (self.gpu_usd, self.claude_usd) if x is not None]
+        return round(sum(parts), 4) if parts else None
+
+
 class CallOutput(BaseModel):
     call: CallMeta
     call_end: datetime
@@ -161,3 +180,4 @@ class CallOutput(BaseModel):
     candidate_seg_ids: list[int] = []   # turns that preceded an abnormal minute, the only ones claims come from
     open_reaction: OpenReaction | None = None   # set when the stock did not trade during the call
     estimates: list[Estimate] = []
+    stats: Stats | None = None

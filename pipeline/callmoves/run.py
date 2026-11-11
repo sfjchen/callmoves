@@ -9,12 +9,13 @@ import hashlib
 import json
 import math
 import os
+import time
 from datetime import timedelta
 from pathlib import Path
 
 from dotenv import load_dotenv
 
-from . import market
+from . import llm, market
 from .claims import extract_claims
 from .estimates import fetch_estimates, match_consensus
 from .models import (
@@ -23,6 +24,7 @@ from .models import (
     Claim,
     Estimate,
     OpenReaction,
+    Stats,
     TopMoment,
 )
 from .novelty import judge_novelty
@@ -66,8 +68,16 @@ def run(fixture: Path) -> CallOutput:
         claims, llm_used = extract_claims(candidates)
         return judge_novelty(claims, release, prior), llm_used
 
+    stats_path = fixture / "stats.json"
+    stats = json.loads(stats_path.read_text()) if stats_path.exists() else {}
+    llm.USAGE.clear()
+    t0 = time.time()
     ckey = hashlib.sha256((repr([(s.seg_id, s.text) for s in candidates]) + release + prior).encode()).hexdigest()[:16]
     claims, llm_used = _cached(fixture / "llm_claims.json", ckey, "claims", Claim, extract)
+    if llm.USAGE:   # Claude ran this time (a cache hit costs nothing and keeps the recorded cost)
+        stats |= {"claude_s": round(time.time() - t0), "claude_tokens": dict(llm.USAGE),
+                  "claude_usd": round(sum(n * llm.PRICE[k] for k, n in llm.USAGE.items()) / 1e6, 4)}
+        stats_path.write_text(json.dumps(stats))
 
     def fetch():
         rows = fetch_estimates(meta.ticker, meta.call_start, os.environ.get("ALPHA_VANTAGE_KEY"))
@@ -92,7 +102,8 @@ def run(fixture: Path) -> CallOutput:
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=bars, claims=claims, n_claims=len(claims),
                       summary=summary, moments=moments, llm_used=llm_used,
                       candidate_seg_ids=[s.seg_id for s in candidates],
-                      open_reaction=OpenReaction(**reaction) if reaction else None, estimates=estimates)
+                      open_reaction=OpenReaction(**reaction) if reaction else None, estimates=estimates,
+                      stats=Stats(**stats) if stats else None)
 
 
 def main(argv=None):

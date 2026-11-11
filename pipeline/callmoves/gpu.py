@@ -14,6 +14,11 @@ from __future__ import annotations
 import modal
 
 APP = "callmoves-gpu"
+GPUS = ["L4", "A10", "T4"]
+MEMORY_GB = 16
+# USD per hour from `modal billing rates` (2026-11): each GPU, plus the container's memory and about 1 CPU core
+GPU_USD_H = {"NVIDIA L4": 0.80, "NVIDIA A10G": 1.10, "Tesla T4": 0.59}
+HOST_USD_H = MEMORY_GB * 0.008 + 0.0473
 app = modal.App(APP)
 cache = modal.Volume.from_name("callmoves-model-cache", create_if_missing=True)
 image = (
@@ -24,19 +29,24 @@ image = (
 )
 
 
-@app.function(gpu=["L4", "A10", "T4"], image=image, volumes={"/cache": cache}, timeout=1800, memory=16384,
+@app.function(gpu=GPUS, image=image, volumes={"/cache": cache}, timeout=1800, memory=MEMORY_GB * 1024,
               secrets=[modal.Secret.from_name("callmoves-hf")])
-def transcribe_and_diarize(audio: bytes, model_size: str = "large-v3") -> tuple[list[dict], list[dict] | None, str]:
-    """Transcribes and diarizes 1 call's audio (any format PyAV reads) and returns (segments, voices, error).
+def transcribe_and_diarize(
+        audio: bytes, model_size: str = "large-v3") -> tuple[list[dict], list[dict] | None, str, dict]:
+    """Transcribes and diarizes 1 call's audio (any format PyAV reads) and returns (segments, voices, error, usage).
     Voices are None with the error text when diarization fails, for example before the gated model's terms are
-    accepted, so the call still gets a transcript and call-shape speaker labels."""
+    accepted, so the call still gets a transcript and call-shape speaker labels. Usage names the GPU and the seconds
+    the function ran, model loading included, which is what Modal bills."""
     import os
     import tempfile
     import time
     from pathlib import Path
 
+    import torch
+
     from callmoves.transcript import diarize, transcribe
 
+    t0 = time.time()
     with tempfile.NamedTemporaryFile(suffix=".audio") as f:
         f.write(audio)
         f.flush()
@@ -49,24 +59,4 @@ def transcribe_and_diarize(audio: bytes, model_size: str = "large-v3") -> tuple[
             voices, err = None, f"{type(e).__name__}: {str(e)[:200]}"
     print(f"diarized in {time.time() - t:.0f}s total, error: {err or None}", flush=True)
     cache.commit()
-    return raw, voices, err
-
-
-@app.function(gpu=["L4", "A10", "T4"], image=image, volumes={"/cache": cache}, timeout=1800, memory=16384,
-              secrets=[modal.Secret.from_name("callmoves-hf")])
-def diarize_url(audio_url: str) -> list[dict]:
-    """Diarizes 1 call's published audio, for calls transcribed before the GPU path existed: their whisper
-    segments and cached claims stay as they are, only the speaker labels change."""
-    import os
-    import tempfile
-    import urllib.request
-    from pathlib import Path
-
-    from callmoves.transcript import diarize
-
-    with tempfile.NamedTemporaryFile(suffix=".mp3") as f:
-        f.write(urllib.request.urlopen(audio_url, timeout=120).read())
-        f.flush()
-        voices = diarize(Path(f.name), os.environ["HF_TOKEN"], device="cuda")
-    cache.commit()
-    return voices
+    return raw, voices, err, {"gpu": torch.cuda.get_device_name(0), "gpu_s": round(time.time() - t0)}

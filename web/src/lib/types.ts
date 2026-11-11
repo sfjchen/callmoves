@@ -67,6 +67,17 @@ export type OpenReaction = {
   vol_mult: number;
 };
 
+// What processing the call took. Fields are null for steps that ran before tracking existed or ran for free.
+export type Stats = {
+  audio_min: number | null;
+  ingest_s: number | null;
+  gpu: string | null;
+  gpu_s: number | null;
+  gpu_usd: number | null;
+  claude_s: number | null;
+  claude_usd: number | null;
+};
+
 export type CallOutput = {
   call: CallMeta;
   call_end: string;
@@ -79,6 +90,7 @@ export type CallOutput = {
   summary: CallSummary;
   open_reaction?: OpenReaction | null;
   estimates?: Estimate[];
+  stats?: Stats | null;
 };
 
 export type CallSummary = {

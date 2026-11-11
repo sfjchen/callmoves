@@ -155,6 +155,11 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
           <li>An EPS or revenue figure over 1% off consensus counts as new.</li>
           <li>Top 5, 1 per price event. &ldquo;Move began earlier&rdquo; means the price may have shaped the
             statement. Associations, not causes.</li>
+          {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li className="tabular">
+            Processed {data.stats.audio_min} min of audio in{" "}
+            {Math.round(((data.stats.ingest_s ?? 0) + (data.stats.claude_s ?? 0)) / 60)} min for $
+            {(data.stats.gpu_usd + data.stats.claude_usd).toFixed(2)} (GPU ${data.stats.gpu_usd.toFixed(2)}, Claude $
+            {data.stats.claude_usd.toFixed(2)}).</li>}
         </ul>
       </details>}
 

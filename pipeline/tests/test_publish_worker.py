@@ -59,3 +59,29 @@ def test_download_follows_public_redirects_and_refuses_private_or_plain_http_hop
         worker.download("https://files.example.com/c", tmp_path / "c.html", 1)
     with pytest.raises(ValueError, match="non-public"):
         worker.download("https://internal.example.com/x", tmp_path / "x.html", 1)
+
+
+def test_run_prices_fresh_claude_calls_and_keeps_the_recorded_cost_on_a_cache_hit(tmp_path, monkeypatch):
+    """A cache miss records Claude's tokens and USD next to the ingest's GPU cost, a rerun leaves both alone."""
+    import shutil
+
+    from callmoves import llm
+    from callmoves import run as run_mod
+
+    call = tmp_path / "call"
+    shutil.copytree(FIXTURE, call)
+    (call / "llm_claims.json").unlink(missing_ok=True)
+    (call / "stats.json").write_text('{"gpu": "NVIDIA L4", "gpu_usd": 0.05}')
+    extract = run_mod.extract_claims
+
+    def fake_extract(segments):
+        """Runs the rule extractor and books 1M input and 100k output tokens, as a Claude call would."""
+        llm.USAGE.update({"input_tokens": 1_000_000, "output_tokens": 100_000})
+        claims, _ = extract(segments)
+        return claims, True
+
+    monkeypatch.setattr(run_mod, "extract_claims", fake_extract)
+    stats = run(call).stats
+    assert (stats.gpu, stats.claude_usd, stats.total_usd) == ("NVIDIA L4", 3.0, 3.05)
+    llm.USAGE.update({"input_tokens": 500_000})   # leftover tokens from earlier work are cleared, not booked
+    assert run(call).stats.claude_usd == 3.0
