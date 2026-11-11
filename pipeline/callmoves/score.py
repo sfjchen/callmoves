@@ -3,7 +3,7 @@ spike x closeness to a flagged minute, at most 1 moment per price event."""
 from __future__ import annotations
 
 import math
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 import pandas as pd
 
@@ -67,6 +67,13 @@ def market_relevant(claim: Claim) -> bool:
     return bool(claim.novel) or abs(claim.vs_consensus_pct or 0.0) > CONSENSUS_GAP
 
 
+def touches_open(ts: datetime) -> bool:
+    """True when a 5-minute window starting at ts touches the first OPEN_SETTLE_MIN minutes of the regular session,
+    where the opening auction prices everything since the prior close."""
+    et = ts.astimezone(ET)
+    return OPEN_MIN - WINDOW_MIN <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN
+
+
 def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, top_n: int = 5,
                  reaction: dict | None = None) -> list[Moment]:
     """Top claims, at most 1 per price event: a claim belongs to the event of the first flag in its 5-minute
@@ -92,8 +99,7 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
     moments = []
     seen: set = set()
     for score, c, w, dist in scored:
-        et = c.ts.astimezone(ET)
-        if not reaction and OPEN_MIN - WINDOW_MIN <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN:
+        if not reaction and touches_open(c.ts):
             continue
         minute = minute_of(c.ts)
         key, pre_move = ("minute", minute), False
@@ -126,3 +132,20 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
         if len(moments) == top_n:
             break
     return moments
+
+
+def with_placebo(moments: list[Moment], bars: pd.DataFrame, start: datetime, end: datetime) -> list[Moment]:
+    """Returns copies of the moments with placebo_pct: the share of the call's start minutes, from start to end,
+    whose |5-minute adjusted return| is at least the moment's. Minutes whose window touches the opening auction are
+    left out, as the scorer skips them, and so are minutes within WINDOW_MIN of the moment, whose windows share its
+    move, and minutes with no trade in their window, which would count as no move. None when no minute is left."""
+    t0, ts = minute_of(start), pd.to_datetime(bars["ts"])
+    grid = [t0 + timedelta(minutes=i) for i in range(int((end - t0).total_seconds() // 60) + 1)]
+    moves = [(t, abs(forward_window(bars, t)["adj_ret"])) for t in grid if not touches_open(t)
+             and ((ts >= t) & (ts < t + timedelta(minutes=WINDOW_MIN))).any()]
+    out = []
+    for m in moments:
+        pool = [r for t, r in moves if abs(t - minute_of(m.ts)) > timedelta(minutes=WINDOW_MIN)]
+        pct = sum(r >= abs(m.adj_ret_5m) for r in pool) / len(pool) if pool else None
+        out.append(m.model_copy(update={"placebo_pct": pct}))
+    return out

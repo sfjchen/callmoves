@@ -35,7 +35,7 @@ from .models import (
 )
 from .novelty import judge_novelty
 from .publish import publish
-from .score import rank_moments
+from .score import rank_moments, with_placebo
 from .transcript import align, load_call
 
 SPARK_POINTS = 60   # library sparkline resolution
@@ -105,6 +105,7 @@ def run(fixture: Path) -> CallOutput:
     claims = match_consensus(claims, estimates)
     moments = rank_moments(claims, segments, bars_df, reaction=reaction)
     if not reaction:
+        moments = with_placebo(moments, bars_df, meta.call_start, call_end)
         segments = [s.model_copy(update={"adj_ret_5m": market.forward_window(bars_df, s.ts)["adj_ret"]})
                     for s in segments]
     bars = [Bar(**{k: row[k] for k in ("ts", "px", "etf_px", "vol", "adj_ret", "cum_adj_ret", "vol_mult", "flagged")})
