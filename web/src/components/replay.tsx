@@ -22,7 +22,8 @@ type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 /**
  * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
  * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms. `baseline` (study
- * condition) hides the moments panel, the scoring explanation and the numbered markers.
+ * condition) hides the moments panel, the scoring explanation and the numbered markers. Search ticks and the Q&A band
+ * come from the transcript alone, so they stay in the baseline view.
  */
 export default function Replay({ data, baseline = false }: { data: CallOutput; baseline?: boolean }) {
   const offset = data.call.audio_offset_ms ?? 0;
@@ -36,8 +37,9 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
     fetch(url, { method: "HEAD" }).then((r) => setAudioOk(r.ok)).catch(() => setAudioOk(false));
   }, [data.call.audio_url]);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const searchRef = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
-  const [hit, setHit] = useState(0);
+  const [hit, setHit] = useState(-1); // index into hits of the last hit jumped to, -1 before the first jump
 
   // Moves the cursor and, when the audio is more than 0.5 s off, the audio with it.
   function seek(ms: number) {
@@ -62,6 +64,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
     const q = query.trim().toLowerCase();
     return q ? data.segments.filter((s) => s.text.toLowerCase().includes(q)) : [];
   }, [data.segments, query]);
+  const qaMs = data.qa_start_ms != null && data.qa_start_ms < endMs ? data.qa_start_ms : null; // null: no Q&A band
   const flaggedCount = data.bars.filter((b) => b.flagged).length;
   const est = (data.estimates ?? []).filter((e) => e.role === "reported");
   const lead = data.moments[0];
@@ -74,7 +77,7 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
     if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
   }
 
-  // Keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio. Inputs keep their keys.
+  // Keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio, / search. Inputs keep their keys.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const el = e.target as HTMLElement | null;
@@ -82,6 +85,11 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
         e.metaKey || e.ctrlKey || e.altKey ||
         (el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable))
       ) return;
+      if (e.key === "/") {
+        e.preventDefault();
+        searchRef.current?.focus();
+        return;
+      }
       const idx = active ? data.segments.indexOf(active) : -1;
       let to: number | undefined;
       if (e.key === "j") to = byTime.find((m) => m.t0_ms > cursorMs)?.t0_ms;
@@ -101,13 +109,24 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
     return () => window.removeEventListener("keydown", onKey);
   });
 
-  // Cycles the search hits on Enter and Shift+Enter, moving the cursor so the list scrolls to each hit.
+  // Moves the cursor, audio and transcript to search hit i and scrolls it into view in the hit list.
+  function jump(i: number) {
+    setHit(i);
+    seek(hits[i].t0_ms);
+    document.getElementById(`hit-${i}`)?.scrollIntoView({ block: "nearest" });
+  }
+
+  // Enter and Shift+Enter cycle the search hits, starting at the first or last. Esc clears the search, then leaves it.
   function onSearchKey(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Escape") {
+      e.preventDefault();
+      if (query) { setQuery(""); setHit(-1); } else e.currentTarget.blur();
+      return;
+    }
     if (e.key !== "Enter" || hits.length === 0) return;
     e.preventDefault();
-    const next = (hit + (e.shiftKey ? -1 : 1) + hits.length) % hits.length;
-    setHit(next);
-    seek(hits[next].t0_ms);
+    const n = hits.length;
+    jump(hit < 0 ? (e.shiftKey ? n - 1 : 0) : (hit + (e.shiftKey ? -1 : 1) + n) % n);
   }
 
   const noAudio = !data.call.audio_url || audioOk === false;
@@ -231,9 +250,12 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                 data={points}
                 margin={{ top: 10, right: 10, left: 0, bottom: 0 }}
                 onClick={(s) => {
-                  if (s && typeof s.activeLabel === "number") seek(clamp(s.activeLabel, offset, endMs));
+                  const p = s?.activeTooltipIndex != null ? points[Number(s.activeTooltipIndex)] : undefined;
+                  if (p) seek(clamp(p.t, offset, endMs));
                 }}
                 style={{ cursor: "pointer" }}
+                // mousemove unthrottled: a tap's compat mousemove sets the minute before its click reads it
+                throttledEvents={["touchmove", "pointermove", "scroll", "wheel"]}
               >
                 <XAxis
                   dataKey="t" type="number" domain={["dataMin", "dataMax"]} scale="time"
@@ -253,6 +275,12 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                   )}
                 />
                 <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#efe8dd" fillOpacity={0.9} />
+                {qaMs != null && (
+                  <ReferenceArea
+                    yAxisId="ret" x1={qaMs} x2={endMs} fill="#e2d8c8" fillOpacity={0.9}
+                    label={{ value: "Q&A", position: "insideTopLeft", fill: "#6b6359", fontSize: 10 }}
+                  />
+                )}
                 {data.moments.map((m) => (
                   <ReferenceArea
                     key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
@@ -277,17 +305,27 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
                     />
                   ) : null;
                 })}
+                {hits.map((s, i) => (
+                  <ReferenceLine
+                    key={s.seg_id} yAxisId="vol" segment={[{ x: s.t0_ms, y: 0 }, { x: s.t0_ms, y: 1.5 }]}
+                    stroke={i === hit ? "#1a1a1a" : "#6b6359"} strokeWidth={i === hit ? 2 : 1.25}
+                  />
+                ))}
                 <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
               </ComposedChart>
             </ResponsiveContainer>
           </div>
           <div className="text-xs text-nb-muted mt-1">
-            {baseline ? "Grey band is the call." :
+            {baseline ? "Grey band is the call" :
               "Grey band is the call, orange dots abnormal minutes, " +
-                "numbered dots moments with their 5-min window shaded."}
+                "numbered dots moments with their 5-min window shaded"}
+            {qaMs != null && `, darker from ${clock(new Date(start + qaMs))} ET where the operator ` +
+              "opens Q&A (before it, prepared remarks)"}
+            {hits.length > 0 && ", grey ticks at the bottom transcript matches for the search"}.
+            {" "}Click or tap the chart to jump there.
             <span className="hidden lg:inline cursor-help ml-1 underline decoration-dotted"
               title={`j / k: next and previous moment. 1 to 5: jump to a rank. [ / ]: previous and next turn.${audioOk ?
-                " Space: play or pause." : ""}`}>?</span>
+                " Space: play or pause." : ""} /: search, Esc clears it.`}>?</span>
           </div>
         </section>
       )}
@@ -331,8 +369,9 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2">
             <h2 id="transcript" className="text-lg">Transcript</h2>
             <input
-              type="search" value={query} placeholder="Search the transcript" aria-label="Search the transcript"
-              onChange={(e) => { setQuery(e.target.value); setHit(0); }} onKeyDown={onSearchKey}
+              ref={searchRef} type="search" value={query} placeholder="Search the transcript ( / )"
+              aria-label="Search the transcript" onChange={(e) => { setQuery(e.target.value); setHit(-1); }}
+              onKeyDown={onSearchKey}
               className={
                 "ml-auto w-48 rounded border border-nb-border px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
                 "focus:outline-none focus:ring-1 focus:ring-nb-accent/40"
@@ -340,10 +379,27 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
             />
             {query.trim() && (
               <span className="text-xs text-nb-muted tabular w-16">
-                {hits.length ? `${hit + 1} of ${hits.length}` : "0 hits"}
+                {hit >= 0 ? `${hit + 1} of ${hits.length}` : `${hits.length} hit${hits.length === 1 ? "" : "s"}`}
               </span>
             )}
           </div>
+          {hits.length > 0 && (
+            <ol aria-label="Search hits" className="mb-2 max-h-32 overflow-y-auto rounded border border-nb-border">
+              {hits.map((s, i) => {
+                const at = s.text.toLowerCase().indexOf(query.trim().toLowerCase()); // clips long turns to the match
+                return <li key={s.seg_id}>
+                  <button id={`hit-${i}`} onClick={() => jump(i)}
+                    className={`flex w-full gap-2 px-2 py-1 text-left text-xs hover:bg-white ${i === hit ?
+                      "bg-white" : ""}`}>
+                    <span className="shrink-0 tabular text-nb-muted">{clock(new Date(start + s.t0_ms))}</span>
+                    <span className="shrink-0 font-medium text-neutral-700">{shortSpeaker(s.speaker)}</span>
+                    <span className="min-w-0 truncate text-neutral-800">
+                      {highlight(at > 16 ? "..." + s.text.slice(at - 12) : s.text, query.trim())}</span>
+                  </button>
+                </li>;
+              })}
+            </ol>
+          )}
           <TranscriptList
             segments={data.segments} activeId={active?.seg_id ?? null}
             momentSegs={new Set(data.moments.map((m) => m.seg_id))}

@@ -36,7 +36,7 @@ from .models import (
 from .novelty import judge_novelty
 from .publish import publish
 from .score import rank_moments
-from .transcript import align, load_call
+from .transcript import align, load_call, qa_start_ms
 
 SPARK_POINTS = 60   # library sparkline resolution
 # topics a library card can show, matched on each claim's metric and quote; a call shows its 3 most frequent
@@ -139,7 +139,8 @@ def run(fixture: Path) -> CallOutput:
                       summary=summary, moments=moments, llm_used=llm_used,
                       candidate_seg_ids=[s.seg_id for s in candidates],
                       open_reaction=OpenReaction(**reaction) if reaction else None, estimates=estimates,
-                      stats=Stats(**stats) if stats else None, context=context)
+                      stats=Stats(**stats) if stats else None, context=context,
+                      qa_start_ms=qa_start_ms(segments))
 
 
 def main(argv=None):

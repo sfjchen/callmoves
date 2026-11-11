@@ -18,6 +18,8 @@ def test_run_fills_the_summary_and_each_segments_adjusted_return():
     assert out.n_claims == len(out.claims)
     top = next(g for g in out.segments if g.seg_id == out.moments[0].seg_id)
     assert top.adj_ret_5m == out.moments[0].adj_ret_5m   # same window as the moment's own
+    assert out.qa_start_ms == 870_000   # the operator's "first question comes from" turn
+    assert all((m.section == "qa") == (m.t0_ms >= out.qa_start_ms) for m in out.moments)
 
 
 ADDRS = {"files.example.com": "93.184.215.14", "cdn.example.com": "93.184.215.15", "internal.example.com": "10.0.0.5"}
