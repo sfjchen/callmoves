@@ -151,7 +151,8 @@ def test_llm_not_novel_verdict_needs_its_evidence_in_the_named_document(monkeypa
               enumerate(["We expect expenses of about $55 billion next year.", "Revenue was $20.1 billion."])]
     verdicts = novelty._VerdictsLLM(verdicts=[
         novelty._VerdictLLM(claim_id=0, novel=False, matched_doc="release", matched_text="Expenses of $55 billion."),
-        novelty._VerdictLLM(claim_id=1, novel=False, matched_doc="release", matched_text="Total revenue was  $20.1 billion."),
+        novelty._VerdictLLM(claim_id=1, novel=False, matched_doc="release",
+                            matched_text="Total revenue was  $20.1 billion."),
     ])
     monkeypatch.setattr(novelty.llm, "parse", lambda *a, **k: verdicts)
     out = novelty.judge_novelty_llm(claims, release, "")

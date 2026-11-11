@@ -19,11 +19,17 @@ from .models import CallOutput
 TABLE = "callmoves_calls"
 
 
-def publish(out: CallOutput) -> str:
-    """Upserts 1 call by its id and returns the id."""
+def db_client():
+    """Returns a Supabase client with the service key from SUPABASE_URL and SUPABASE_SERVICE_KEY. Shared by publish,
+    the audio upload and the worker."""
     from supabase import create_client
 
-    db = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"])
+    return create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"])
+
+
+def publish(out: CallOutput) -> str:
+    """Upserts 1 call by its id and returns the id."""
+    db = db_client()
     data = json.loads(out.model_dump_json())
     db.table(TABLE).upsert({
         "id": out.call.call_id, "ticker": out.call.ticker, "quarter": out.call.quarter, "company": out.call.company,

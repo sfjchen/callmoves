@@ -1,3 +1,5 @@
+// Replay view for 1 call (client component): price chart, audio player, ranked
+// moments and transcript on 1 shared cursor.
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -5,11 +7,10 @@ import {
   Bar, ComposedChart, Line, ReferenceArea, ReferenceDot, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis,
 } from "recharts";
 import type { CallOutput, Estimate, Moment, Segment } from "@/lib/types";
-import { clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortSpeaker } from "@/lib/format";
+import { clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortSpeaker, WINDOW_MS } from "@/lib/format";
 
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
-const WINDOW_MS = 5 * 60_000;  // reaction window after a statement
 const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
 const GLYPH = { up: "▲", down: "▼", flat: "" };
 

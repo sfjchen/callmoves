@@ -5,9 +5,10 @@ Uploading needs SUPABASE_URL and SUPABASE_SERVICE_KEY in pipeline/.env.
 """
 from __future__ import annotations
 
-import os
 import subprocess
 from pathlib import Path
+
+from .publish import db_client
 
 BUCKET = "callmoves-audio"
 
@@ -28,9 +29,7 @@ def upload(path: Path, object_name: str) -> str:
     Uploads `path` to the audio bucket as `object_name`, overwriting an earlier upload.
     Returns the public URL.
     """
-    from supabase import create_client
-
-    store = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"]).storage.from_(BUCKET)
+    store = db_client().storage.from_(BUCKET)
     store.upload(object_name, path.read_bytes(),
                  file_options={"content-type": "audio/mpeg", "upsert": "true", "cache-control": "31536000"})
     return store.get_public_url(object_name).rstrip("?")

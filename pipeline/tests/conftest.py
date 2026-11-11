@@ -2,7 +2,6 @@ from datetime import datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
-import pytest
 
 from callmoves.models import CallMeta, Claim, Segment
 
@@ -40,8 +39,3 @@ def make_bars(n=120, stock_bump=None, etf_bump=None, vol_bump=None, seed=1):
         "ts": [T0 + timedelta(minutes=i) for i in range(n)],
         "px": 100 * np.cumprod(1 + stock), "etf_px": 50 * np.cumprod(1 + etf), "vol": vol,
     })
-
-
-@pytest.fixture
-def flat_bars():
-    return make_bars()

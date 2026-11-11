@@ -1,3 +1,4 @@
+// Ranked moments endpoint.
 import { NextResponse } from "next/server";
 import { getCall } from "@/lib/data";
 

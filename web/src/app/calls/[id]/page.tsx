@@ -1,3 +1,4 @@
+// Replay page for 1 call, with the study bar and the stripped baseline view when opened from /study.
 import { notFound } from "next/navigation";
 import { getCall } from "@/lib/data";
 import Replay from "@/components/replay";

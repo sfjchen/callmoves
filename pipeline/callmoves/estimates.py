@@ -1,4 +1,4 @@
-"""Step 6b: analyst consensus for the reported quarter, next quarter and fiscal year, and how far each EPS or revenue
+"""Analyst consensus for the reported quarter, next quarter and fiscal year, and how far each EPS or revenue
 claim lands from it. Source: Alpha Vantage (25 requests a day), no key or a failed fetch means no estimates. Each row
 carries a basis: at_report (the EPS estimate stored with the reported quarter, taken as frozen), before_call (a dated
 snapshot or a fetch before the call) or after_call (the current value, which already reflects the call, so it is
@@ -54,13 +54,6 @@ def _snapshot(snaps: dict[int, float | None], call_start: datetime, fetched: dat
     return float(snaps[0]), fetched.date(), "after_call"
 
 
-def _forward_ends(rep_end: date, fy_month: int) -> tuple[date, date]:
-    """Returns the next quarter's end and the end of the fiscal year it falls in."""
-    nq = (pd.Timestamp(rep_end) + pd.offsets.MonthEnd(3)).date()
-    fy = nq.year if nq.month <= fy_month else nq.year + 1
-    return nq, (pd.Timestamp(fy, fy_month, 1) + pd.offsets.MonthEnd(0)).date()
-
-
 def _f(x) -> float | None:
     """Parses an Alpha Vantage field, which is a string, 'None' or missing."""
     try:
@@ -91,7 +84,9 @@ def normalize_av(est: list[dict], quarterly: list[dict], call_start: datetime, f
         if not past:
             return []
         rep_end = max(past)
-    nq, fy_end = _forward_ends(rep_end, fy_month)
+    nq = (pd.Timestamp(rep_end) + pd.offsets.MonthEnd(3)).date()   # the next quarter's end
+    nq_fy = nq.year if nq.month <= fy_month else nq.year + 1
+    fy_end = (pd.Timestamp(nq_fy, fy_month, 1) + pd.offsets.MonthEnd(0)).date()   # end of the fiscal year it is in
     out: list[Estimate] = []
     cons = _f(rep.get("estimatedEPS")) if rep else None
     # EARNINGS and EARNINGS_ESTIMATES can define EPS differently (W Q3 2026: 0.31 vs 0.81, DUOL 0.55 vs 1.59). When
@@ -131,18 +126,6 @@ def normalize_av(est: list[dict], quarterly: list[dict], call_start: datetime, f
     return out
 
 
-def _revenue_actuals(ticker: str) -> dict[tuple[int, int], float]:
-    """Returns reported revenue by (year, month) of the quarter end from yfinance, empty on failure."""
-    try:
-        import yfinance as yf
-
-        inc = yf.Ticker(ticker).quarterly_income_stmt
-        return {(c.year, c.month): float(v) for c, v in inc.loc["Total Revenue"].items() if pd.notna(v)}
-    except Exception as e:  # noqa: BLE001
-        print(f"yfinance revenue actuals failed: {str(e)[:160]}")
-        return {}
-
-
 def fetch_estimates(ticker: str, call_start: datetime, av_key: str | None) -> list[Estimate]:
     """Fetches and normalizes Alpha Vantage consensus. No key, a failure or an unknown ticker returns an empty list
     so the pipeline runs without estimates. Error text never carries the key."""
@@ -170,7 +153,16 @@ def fetch_estimates(ticker: str, call_start: datetime, av_key: str | None) -> li
         # snapshot ages count from when the raw response was fetched, not from this run
         cached = raw / f"av_{ticker}_EARNINGS_ESTIMATES.json" if raw else None
         fetched = datetime.fromtimestamp(cached.stat().st_mtime, tz=UTC) if cached else datetime.now(UTC)
-        return normalize_av(est, q, call_start, fetched, _revenue_actuals(ticker))
+        # reported revenue by (year, month) of the quarter end from yfinance, empty on failure
+        try:
+            import yfinance as yf
+
+            inc = yf.Ticker(ticker).quarterly_income_stmt
+            rev = {(c.year, c.month): float(v) for c, v in inc.loc["Total Revenue"].items() if pd.notna(v)}
+        except Exception as e:  # noqa: BLE001
+            print(f"yfinance revenue actuals failed: {str(e)[:160]}")
+            rev = {}
+        return normalize_av(est, q, call_start, fetched, rev)
     except Exception as e:  # noqa: BLE001
         print(f"alpha vantage estimates failed, running without: {str(e).replace(av_key, '***')[:200]}")
         return []

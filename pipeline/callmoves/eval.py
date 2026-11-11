@@ -55,6 +55,7 @@ def evaluate(moments: list[Moment], labels: list[Label], ks: tuple[int, ...] = (
     """Matches each moment to its nearest label and scores the top k.
     Fewer than k moments are scored over their count."""
     def nearest(ts: datetime) -> int | None:
+        """Returns the index of the label within tol of ts that is closest to it, else None."""
         i = min(range(len(labels)), key=lambda i: abs(labels[i].ts - ts))
         return i if abs(labels[i].ts - ts) <= tol else None
 
@@ -78,12 +79,11 @@ def placebo(call: Path, k: int = 3) -> tuple[float, list[float]]:
     claims = [judge_novelty_rules(c, release, prior) for c in extract_claims_rules(segments)]
 
     def top_sum(cs) -> float:
+        """Returns the summed score of the top k moments ranked from claims cs."""
         return sum(m.score for m in rank_moments(cs, segments, bars, top_n=k))
 
-    def rotate(ts: datetime, s: int) -> datetime:
-        return start + (ts - start + timedelta(minutes=s)) % span
-
-    fake = [top_sum([c.model_copy(update={"ts": rotate(c.ts, s)}) for c in claims]) for s in shifts]
+    fake = [top_sum([c.model_copy(update={"ts": start + (c.ts - start + timedelta(minutes=s)) % span}) for c in claims])
+            for s in shifts]
     return top_sum(claims), fake
 
 

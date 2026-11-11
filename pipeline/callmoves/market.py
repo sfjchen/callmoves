@@ -1,17 +1,19 @@
-"""Step 2 and 4: 1-minute bars, sector-adjusted returns, abnormal-minute detection."""
+"""Market side of the pipeline: 1-minute bars from Massive, the sector-adjusted return of each minute, abnormal-
+minute detection and the price window around a statement."""
 from __future__ import annotations
 
 import os
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import httpx
 import numpy as np
 import pandas as pd
 
-from .models import Bar
-
+ET = ZoneInfo("America/New_York")   # US Eastern, the zone of session boundaries and the submit form
+WINDOW_MIN = 5          # a statement's reaction window, and how far before a flag a turn still counts
 BASELINE_MIN = 20       # trailing window for the volume baseline and return z-score
 Z_THRESHOLD = 2.5       # |z| of the 1-minute adjusted return
 VOL_THRESHOLD = 3.0     # volume / trailing median
@@ -71,7 +73,7 @@ def session_key(ts: pd.Series) -> pd.Series:
     """Labels each bar with its trading day and session (0 pre-market, 1 regular, 2 after hours, US Eastern).
     Baselines restart at each boundary: the 9:30 open prints many times the pre-market volume on any day, so a
     pre-market baseline would flag the open itself as the reaction to whatever was said just before it."""
-    et = pd.to_datetime(ts, utc=True).dt.tz_convert("America/New_York")
+    et = pd.to_datetime(ts, utc=True).dt.tz_convert(ET)
     mins = et.dt.hour * 60 + et.dt.minute
     return et.dt.strftime("%Y%m%d") + "-" + ((mins >= 570).astype(int) + (mins >= 960).astype(int)).astype(str)
 
@@ -108,19 +110,13 @@ def flag_abnormal(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-def to_bars(df: pd.DataFrame) -> list[Bar]:
-    """Converts the analyzed frame to Bar models."""
-    return [Bar(**{k: row[k] for k in ("ts", "px", "etf_px", "vol", "adj_ret", "cum_adj_ret", "vol_mult", "flagged")})
-            for _, row in df.iterrows()]
-
-
 def minute_of(ts: datetime) -> datetime:
     """The start of the minute holding ts. A bar's ts is its minute's start and its px that minute's close, so the
     bar for a statement at 10:00:30 is the 10:00 bar."""
     return ts.replace(second=0, microsecond=0)
 
 
-def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
+def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = WINDOW_MIN) -> dict:
     """What happened in the statement's own minute and the minutes after it, `minutes` bars in all: adjusted, raw
     stock and ETF returns, and the peak volume multiple."""
     t0 = minute_of(ts)
@@ -136,7 +132,7 @@ def forward_window(df: pd.DataFrame, ts: datetime, minutes: int = 5) -> dict:
     return {"adj_ret": stock - etf, "ret": stock, "etf_ret": etf, "vol_mult": float(win["vol_mult"].max())}
 
 
-def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = 5):
+def segments_before_flags(segments, df: pd.DataFrame, lookback_min: int = WINDOW_MIN):
     """Work backward from the price: keep only the transcript turns spoken in the minutes before an abnormal minute.
     Summarizing the whole call would surface what sounds important, not what the market reacted to."""
     flags = list(df.loc[df["flagged"], "ts"])
@@ -161,7 +157,7 @@ def flag_events(df: pd.DataFrame, gap_min: int = EVENT_GAP_MIN) -> pd.DataFrame:
     return ev
 
 
-def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = 5) -> float:
+def minutes_to_nearest_flag(df: pd.DataFrame, ts: datetime, lookahead: int = WINDOW_MIN) -> float:
     """Whole minutes from the statement's minute to the nearest flagged minute at or after it (a statement precedes
     its reaction, and a flag in its own minute is 0)."""
     t0 = minute_of(ts)

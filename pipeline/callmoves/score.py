@@ -1,13 +1,20 @@
-"""Step 7: score = novelty x size of the move over the next 5 minutes x volume spike x closeness to a flagged minute."""
+"""Scores claims and ranks them into moments: score = novelty x size of the move over the next 5 minutes x volume
+spike x closeness to a flagged minute, at most 1 moment per price event."""
 from __future__ import annotations
 
 import math
 from datetime import timedelta
-from zoneinfo import ZoneInfo
 
 import pandas as pd
 
-from .market import flag_events, forward_window, minute_of, minutes_to_nearest_flag
+from .market import (
+    ET,
+    WINDOW_MIN,
+    flag_events,
+    forward_window,
+    minute_of,
+    minutes_to_nearest_flag,
+)
 from .models import Claim, Moment, Segment
 from .transcript import qa_start_ms
 
@@ -20,7 +27,6 @@ QUESTION_CHARS = 400   # analyst questions shown on a card are cut to this lengt
 OPEN_MIN = 9 * 60 + 30   # 9:30 ET, the regular-session open
 OPEN_SETTLE_MIN = 5      # the opening auction prices everything since the prior close, so these minutes are not
                          # tied to 1 statement
-ET = ZoneInfo("America/New_York")
 
 
 def timing_weight(minutes_to_flag: float) -> float:
@@ -45,16 +51,6 @@ def market_relevant(claim: Claim) -> bool:
     return bool(claim.novel) or abs(claim.vs_consensus_pct or 0.0) > CONSENSUS_GAP
 
 
-def score_claim(claim: Claim, bars: pd.DataFrame, reaction: dict | None = None) -> tuple[float, dict, float]:
-    """With an open reaction (stock closed during the call) every claim shares that one move and has no timing."""
-    w = reaction or forward_window(bars, claim.ts)
-    dist = float("inf") if reaction else minutes_to_nearest_flag(bars, claim.ts)
-    novelty = 1.0 if market_relevant(claim) else STALE_WEIGHT
-    score = (novelty * KIND_WEIGHT[claim.kind] * abs(w["adj_ret"])
-             * min(VOL_CAP, max(1.0, w["vol_mult"])) * timing_weight(dist))
-    return score, w, dist
-
-
 def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, top_n: int = 5,
                  reaction: dict | None = None) -> list[Moment]:
     """Top claims, at most 1 per price event: a claim belongs to the event of the first flag in its 5-minute
@@ -70,14 +66,18 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
     ev = flag_events(bars) if not reaction else None
     scored = []
     for c in claims:
-        score, w, dist = score_claim(c, bars, reaction)
-        scored.append((score, c, w, dist))
+        # with an open reaction (stock closed during the call) every claim shares that one move and has no timing
+        w = reaction or forward_window(bars, c.ts)
+        dist = float("inf") if reaction else minutes_to_nearest_flag(bars, c.ts)
+        novelty = 1.0 if market_relevant(c) else STALE_WEIGHT
+        scored.append((novelty * KIND_WEIGHT[c.kind] * abs(w["adj_ret"]) * min(VOL_CAP, max(1.0, w["vol_mult"]))
+                       * timing_weight(dist), c, w, dist))
     scored.sort(key=lambda x: x[0], reverse=True)
     moments = []
     seen: set = set()
     for score, c, w, dist in scored:
         et = c.ts.astimezone(ET)
-        if not reaction and OPEN_MIN - 5 <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN:
+        if not reaction and OPEN_MIN - WINDOW_MIN <= et.hour * 60 + et.minute < OPEN_MIN + OPEN_SETTLE_MIN:
             continue
         minute = minute_of(c.ts)
         key, pre_move = ("minute", minute), False
@@ -86,7 +86,7 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
             key, pre_move = ("event", int(hit["event"])), bool(hit["start"] < minute)
         elif not reaction:
             key = ("window", c.ts)
-            if any(k[0] == "window" and abs(c.ts - k[1]) < timedelta(minutes=5) for k in seen):
+            if any(k[0] == "window" and abs(c.ts - k[1]) < timedelta(minutes=WINDOW_MIN) for k in seen):
                 continue
         if key in seen:
             continue

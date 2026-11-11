@@ -1,6 +1,7 @@
 # Processes calls submitted on the website, up to 4 in parallel per run (1 matrix job each): transcription and
 # speaker diarization on a Modal GPU when MODAL_TOKEN_ID is set (pipeline/callmoves/gpu.py), else or when that
-# fails on the runner's CPU (faster-whisper medium, GS Q3-2026 took 25 minutes end to end), then bars, claims, scoring, and publishing.
+# fails on the runner's CPU (faster-whisper medium, GS Q3-2026 took 25 minutes end to end), then bars, claims,
+# scoring, and publishing.
 # See pipeline/callmoves/worker.py.
 name: worker
 on:

@@ -19,6 +19,7 @@ from . import llm, market
 from .claims import extract_claims
 from .estimates import fetch_estimates, match_consensus
 from .models import (
+    Bar,
     CallOutput,
     CallSummary,
     Claim,
@@ -65,6 +66,7 @@ def run(fixture: Path) -> CallOutput:
     candidates = segments if reaction else (market.segments_before_flags(segments, bars_df) or segments)
 
     def extract():
+        """Returns (judged claims, llm_used) for the candidate turns."""
         claims, llm_used = extract_claims(candidates)
         return judge_novelty(claims, release, prior), llm_used
 
@@ -80,8 +82,9 @@ def run(fixture: Path) -> CallOutput:
         stats_path.write_text(json.dumps(stats))
 
     def fetch():
+        """Returns (estimates, whether to cache them), an empty result is not cached."""
         rows = fetch_estimates(meta.ticker, meta.call_start, os.environ.get("ALPHA_VANTAGE_KEY"))
-        return rows, bool(rows)   # an empty result is not cached, so a failed fetch is retried on the next run
+        return rows, bool(rows)   # so a failed fetch is retried on the next run
 
     key = f"{meta.ticker}|{meta.call_start.date()}|alphavantage"
     estimates, _ = _cached(fixture / "estimates.json", key, "estimates", Estimate, fetch)
@@ -90,7 +93,8 @@ def run(fixture: Path) -> CallOutput:
     if not reaction:
         segments = [s.model_copy(update={"adj_ret_5m": market.forward_window(bars_df, s.ts)["adj_ret"]})
                     for s in segments]
-    bars = market.to_bars(bars_df)
+    bars = [Bar(**{k: row[k] for k in ("ts", "px", "etf_px", "vol", "adj_ret", "cum_adj_ret", "vol_mult", "flagged")})
+            for _, row in bars_df.iterrows()]
     cum = [b.cum_adj_ret for b in bars if meta.call_start <= b.ts <= call_end]
     step = max(1, math.ceil(len(cum) / SPARK_POINTS))
     top = moments[0] if moments else None

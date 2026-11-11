@@ -1,13 +1,13 @@
 // Server-only store for the time-to-insight study: picks the calls a trial may use, validates and scores a trial
 // against the gold minute, writes it to callmoves_study (service key, no RLS policies) and aggregates the results.
-// The rate limit and IP hash come from submit.ts so both tables hash visitors the same way.
+// The rate limit and IP hash come from request.ts so both tables hash visitors the same way.
 import { getCall, listCalls } from "./data";
 import { clock } from "./format";
 import { goldTs, withinGold } from "./gold";
-import { SB_URL, sb } from "./supabase";
-import { count, hashIp } from "./submit";
+import { field, hashIp, ipHourCount } from "./request";
+import { SB_SERVICE, SB_URL, sb } from "./supabase";
 
-const SB_SERVICE = process.env.SUPABASE_SERVICE_KEY;
+const TABLE = "callmoves_study";
 const PER_IP_HOUR = 20;  // trials per IP per hour
 const UNDER_S = 120;     // the metric's threshold: top mover found in under 2 minutes
 export const CONDITIONS = ["callmoves", "baseline"] as const;
@@ -32,7 +32,7 @@ export async function studyCalls(): Promise<string[]> {
 export async function saveTrial(raw: Record<string, unknown>, ip: string): Promise<StudyResult> {
   const fail = (status: number, error: string): StudyResult => ({ ok: false, status, error });
   if (!SB_URL || !SB_SERVICE) return fail(503, "The study is not configured here.");
-  const s = (k: string) => (typeof raw[k] === "string" ? (raw[k] as string).trim() : "");
+  const s = field(raw);
   const [pid, callId, cond, clk, quote] = [s("participant"), s("call_id"), s("condition"), s("answer_clock"),
     s("answer_quote")];
   const secs = Number(raw.seconds);
@@ -44,11 +44,11 @@ export async function saveTrial(raw: Record<string, unknown>, ip: string): Promi
   const call = await getCall(callId);
   const gold = call && goldTs(call);
   if (!gold) return fail(400, "Unknown call.");
-  const ipHash = hashIp(ip), hourAgo = new Date(Date.now() - 3600e3).toISOString();
-  const recent = await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`, "callmoves_study").catch(() => null);
+  const ipHash = hashIp(ip);
+  const recent = await ipHourCount(TABLE, ipHash).catch(() => null);
   if (recent === null) return fail(500, "Could not save the trial.");   // fail closed, as in submit.ts
   if (recent >= PER_IP_HOUR) return fail(429, "Too many trials this hour. Try again later.");
-  const res = await sb("callmoves_study", SB_SERVICE, {
+  const res = await sb(TABLE, SB_SERVICE, {
     method: "POST",
     body: JSON.stringify({
       participant: pid, call_id: callId, condition: cond, seconds: secs, answer_clock: clk,
@@ -59,26 +59,19 @@ export async function saveTrial(raw: Record<string, unknown>, ip: string): Promi
 }
 
 /**
- * Returns the middle value of a non-empty list, averaging the 2 middle values for an even count.
- */
-function median(xs: number[]): number {
-  const v = [...xs].sort((a, b) => a - b), m = v.length >> 1;
-  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
-}
-
-/**
  * Aggregates the stored trials per condition and counts participants. Never returns a row, answer or quote.
  */
 export async function studyStats(): Promise<{ participants: number; byCond: CondStats[] }> {
   if (!SB_URL || !SB_SERVICE) return { participants: 0, byCond: [] };
-  const res = await sb("callmoves_study?select=participant,condition,seconds,correct&limit=10000", SB_SERVICE);
+  const res = await sb(`${TABLE}?select=participant,condition,seconds,correct&limit=10000`, SB_SERVICE);
   const rows = res.ok ? ((await res.json()) as { participant: string; condition: Condition; seconds: number;
     correct: boolean }[]) : [];
   const byCond = CONDITIONS.flatMap((condition) => {
     const r = rows.filter((x) => x.condition === condition);
+    const v = r.map((x) => x.seconds).sort((a, b) => a - b), m = v.length >> 1;   // for the median
     return r.length ? [{
-      condition, trials: r.length, medianS: median(r.map((x) => x.seconds)), correct: r.filter((x) => x.correct).length,
-      under: r.filter((x) => x.seconds < UNDER_S).length,
+      condition, trials: r.length, medianS: v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2,
+      correct: r.filter((x) => x.correct).length, under: r.filter((x) => x.seconds < UNDER_S).length,
       correctUnder: r.filter((x) => x.correct && x.seconds < UNDER_S).length,
     }] : [];
   });

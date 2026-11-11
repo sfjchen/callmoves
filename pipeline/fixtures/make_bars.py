@@ -39,7 +39,8 @@ for k, r, v in ((idx(10, 31), -0.006, 3.2), (idx(10, 32), -0.004, 3.0), (idx(10,
 
 px = 148.0 * np.cumprod(1 + stock_ret)
 etf_px = 96.0 * np.cumprod(1 + etf_ret)
-df = pd.DataFrame({"ts": [t.isoformat() for t in ts], "px": px.round(3), "etf_px": etf_px.round(3), "vol": vol.round(0).astype(int)})
+df = pd.DataFrame({"ts": [t.isoformat() for t in ts], "px": px.round(3), "etf_px": etf_px.round(3),
+                   "vol": vol.round(0).astype(int)})
 out = Path(__file__).parent / "acme_q3_2026" / "bars.csv"
 df.to_csv(out, index=False)
 print(f"wrote {out} ({len(df)} bars)")

@@ -1,4 +1,4 @@
-"""Step 1 and 3: load a timestamped transcript and align it to wall-clock time.
+"""Loads a timestamped transcript and aligns it to wall-clock time.
 
 The input is call.json: segments with ms offsets and speaker labels. `transcribe()` makes the raw segments with
 faster-whisper on CPU (optional dependency), `diarize()` finds the voices with pyannote when a Hugging Face token is
@@ -161,7 +161,8 @@ def qa_start_ms(segments) -> int | None:
 # The operator's opening line marks the call start. Hold messages before it ("will begin shortly") do not.
 _OPENING = re.compile(r"\b(welcome|being recorded|thank you for standing by|good (morning|afternoon|evening|day)|"
                       r"hello|greetings)\b", re.IGNORECASE)
-_HOLD = re.compile(r"\b(shortly|momentarily|will (now )?begin|continue to hold|please (stand by|hold))\b", re.IGNORECASE)
+_HOLD = re.compile(r"\b(shortly|momentarily|will (now )?begin|continue to hold|please (stand by|hold))\b",
+                   re.IGNORECASE)
 _OPENING_MAX_MS = 600_000
 
 

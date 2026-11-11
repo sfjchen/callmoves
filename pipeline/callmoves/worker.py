@@ -13,24 +13,21 @@ import socket
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import httpx
 from dotenv import load_dotenv
 
 from . import ingest
-from .publish import publish
+from .market import ET
+from .publish import db_client, publish
 from .run import run
 
 TABLE = "callmoves_submissions"
 MAX_AUDIO_MB = 400            # a 2-hour call at 128 kbps is about 115 MB
 MAX_DOC_MB = 30
 DOC_SUFFIX = {"application/pdf": ".pdf", "text/html": ".html", "text/plain": ".txt"}
-ET = ZoneInfo("America/New_York")   # the submit form takes US Eastern, the database returns UTC
-UA = "CallMoves worker (github.com/sfjchen/callmoves)"
-
-
 MAX_REDIRECTS = 5
+UA = "CallMoves worker (github.com/sfjchen/callmoves)"
 
 
 def public_https(url: httpx.URL) -> httpx.URL:
@@ -100,9 +97,7 @@ def process(sub: dict, root: Path) -> str:
 def main() -> int:
     """Processes at most 1 submission. Exits 0 when the queue is empty or the call is done, 1 when it failed."""
     load_dotenv()
-    from supabase import create_client
-
-    db = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_SERVICE_KEY"])
+    db = db_client()
     rows = db.rpc("callmoves_claim_submission").execute().data
     if not rows:
         print("queue empty")

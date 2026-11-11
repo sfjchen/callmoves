@@ -1,3 +1,4 @@
+// Full call endpoint.
 import { NextResponse } from "next/server";
 import { getCall } from "@/lib/data";
 

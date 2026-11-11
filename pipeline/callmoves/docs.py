@@ -1,18 +1,10 @@
-"""Reference documents: the earnings release (and optionally the prior quarter's) as plain text."""
+"""Reference documents: the earnings release (and optionally the prior quarter's) as plain text, from a PDF, an HTML
+file or a text file."""
 from __future__ import annotations
 
 import html
 import re
 from pathlib import Path
-
-
-def pdf_to_text(path: Path) -> str:
-    """Extracts a PDF's text with blank runs collapsed."""
-    from pypdf import PdfReader
-
-    text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
-    text = re.sub(r"[ \t]+", " ", text)
-    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
 def html_to_text(raw: str) -> str:
@@ -34,7 +26,11 @@ def load_doc(path: Path) -> str:
     is published."""
     suffix = path.suffix.lower()
     if suffix == ".pdf":
-        text = pdf_to_text(path)
+        from pypdf import PdfReader
+
+        text = "\n".join((page.extract_text() or "") for page in PdfReader(str(path)).pages)
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()   # blank runs collapsed
     elif suffix in (".html", ".htm"):
         text = html_to_text(path.read_text(errors="replace"))
     else:

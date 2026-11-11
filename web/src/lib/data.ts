@@ -38,16 +38,6 @@ export async function getCall(id: string): Promise<CallOutput | null> {
 }
 
 /**
- * Returns whether a call id is already in the library.
- */
-export async function callExists(id: string): Promise<boolean> {
-  if (SB_URL && SB_KEY) {
-    return ID_RE.test(id) && (await sbRows<unknown>(`select=id&id=eq.${encodeURIComponent(id)}`)).length > 0;
-  }
-  return (await getCall(id)) !== null;
-}
-
-/**
  * Lists every call for the library, newest first.
  */
 export async function listCalls(): Promise<CallSummary[]> {

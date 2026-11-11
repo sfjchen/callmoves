@@ -1,3 +1,4 @@
+// Root layout: the page shell with the header links, shared by every route.
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";

@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { markDone, startKey } from "@/lib/study-state";
+import { markDone } from "@/lib/study-state";
 import { mmss } from "@/lib/format";
 
 /**
@@ -19,7 +19,7 @@ export default function StudyBar({ callId, pid, condition }: { callId: string; p
   const [err, setErr] = useState("");
   // Reads the start stamped by Start, or stamps now, then ticks until the answer is sent.
   useEffect(() => {
-    const k = startKey(pid, callId);
+    const k = `cm_study_t0_${pid}_${callId}`;   // so a reload does not restart the timer
     try { t0.current = Number(localStorage.getItem(k)) || 0; } catch { /* stamped below */ }
     if (!t0.current) {
       t0.current = Date.now();

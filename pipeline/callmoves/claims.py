@@ -1,4 +1,4 @@
-"""Step 5: pull structured claims out of management's statements.
+"""Pulls structured claims out of management's statements.
 
 Uses Claude (structured output) when ANTHROPIC_API_KEY is set, otherwise a rule-based extractor,
 so the pipeline and tests run offline. Both return the same Claim shape.
@@ -102,39 +102,32 @@ _SYSTEM = (
 )
 
 
-def _chunks(segments: list[Segment]) -> list[list[Segment]]:
-    out, cur, size = [], [], 0
-    for seg in segments:
-        if cur and size + len(seg.text) > CHUNK_CHARS:
-            out.append(cur); cur, size = [], 0
-        cur.append(seg); size += len(seg.text)
-    if cur:
-        out.append(cur)
-    return out
-
-
-def extract_claims_llm(segments: list[Segment]) -> list[Claim]:
-    """Extracts claims with Claude, 1 call per chunk of management turns. A claim whose quote is not verbatim in its
-    turn is dropped."""
-    by_id = {s.seg_id: s for s in segments}
-    claims: list[Claim] = []
-    for chunk in _chunks([s for s in segments if is_management(s.speaker)]):
-        body = "\n\n".join(f"[seg_id {s.seg_id}] {s.speaker}: {s.text}" for s in chunk)
-        for c in llm.parse(_SYSTEM, body, _ClaimsLLM).claims:
-            seg = by_id.get(c.seg_id)
-            if seg is None or c.quote.strip() not in seg.text:   # quote must exist verbatim or the claim is dropped
-                continue
-            claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker, quote=c.quote.strip(),
-                                metric=c.metric, value=c.value, period=c.period, kind=c.kind,
-                                ts=_claim_ts(seg, c.quote)))
-    return claims
-
-
 def extract_claims(segments: list[Segment]) -> tuple[list[Claim], bool]:
-    """Returns (claims, llm_used). Falls back to the rules if the API call fails (no credits, network)."""
+    """Returns (claims, llm_used). With ANTHROPIC_API_KEY, Claude extracts the claims, 1 call per chunk of management
+    turns, and a claim whose quote is not verbatim in its turn is dropped. Falls back to the rules if the API call
+    fails (no credits, network)."""
     if os.environ.get("ANTHROPIC_API_KEY"):
         try:
-            return extract_claims_llm(segments), True
+            by_id = {s.seg_id: s for s in segments}
+            chunks: list[list[Segment]] = []
+            size = 0
+            for seg in (s for s in segments if is_management(s.speaker)):
+                if not chunks or size + len(seg.text) > CHUNK_CHARS:
+                    chunks.append([])
+                    size = 0
+                chunks[-1].append(seg)
+                size += len(seg.text)
+            claims: list[Claim] = []
+            for chunk in chunks:
+                body = "\n\n".join(f"[seg_id {s.seg_id}] {s.speaker}: {s.text}" for s in chunk)
+                for c in llm.parse(_SYSTEM, body, _ClaimsLLM).claims:
+                    seg = by_id.get(c.seg_id)
+                    if seg is None or c.quote.strip() not in seg.text:   # quote must exist verbatim or it is dropped
+                        continue
+                    claims.append(Claim(claim_id=len(claims), seg_id=seg.seg_id, speaker=seg.speaker,
+                                        quote=c.quote.strip(), metric=c.metric, value=c.value, period=c.period,
+                                        kind=c.kind, ts=_claim_ts(seg, c.quote)))
+            return claims, True
         except Exception as e:  # noqa: BLE001
             print(f"claude extraction failed, using rules: {str(e)[:160]}")
     return extract_claims_rules(segments), False

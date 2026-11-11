@@ -1,4 +1,4 @@
-"""Step 6: is each claim new, or already in the earnings release or last quarter's call?
+"""Is each claim new, or already in the earnings release or last quarter's call?
 
 A claim already in the release cannot explain a move during the call. Rule-based matching when offline:
 the claim's numbers appear in the document, or the sentence overlaps heavily with a document sentence.
@@ -59,21 +59,8 @@ def _nums_match(a: set[float], b: set[float], tol: float = 0.01) -> bool:
 
 
 def _words(s: str) -> set[str]:
+    """Returns the content words of a sentence: lowercase, no stop words, longer than 2 letters."""
     return {w for w in re.findall(r"[a-z]+", s.lower()) if w not in STOP and len(w) > 2}
-
-
-def best_match(quote: str, doc: str) -> tuple[float, str]:
-    """Highest Jaccard overlap between the quote and any sentence in the document."""
-    q = _words(quote)
-    best, best_s = 0.0, ""
-    for sent in split_sentences(doc):
-        w = _words(sent)
-        if not w or not q:
-            continue
-        j = len(q & w) / len(q | w)
-        if j > best:
-            best, best_s = j, sent
-    return best, best_s
 
 
 def judge_novelty_rules(claim: Claim, release: str, prior: str, overlap: float = 0.5) -> Claim:
@@ -87,11 +74,16 @@ def judge_novelty_rules(claim: Claim, release: str, prior: str, overlap: float =
             for sent in split_sentences(doc):
                 if _nums_match(nums, _num_values(sent)):
                     return claim.model_copy(update={"novel": False, "matched_doc": name, "matched_text": sent[:300]})
-        j, sent = best_match(claim.quote, doc)
-        # same wording with different numbers is new information (a raised guide), so overlap alone
-        # only counts when the claim carries no numbers
-        if j >= overlap and not nums:
-            return claim.model_copy(update={"novel": False, "matched_doc": name, "matched_text": sent[:300]})
+            # same wording with different numbers is new information (a raised guide), so overlap alone
+            # only counts when the claim carries no numbers
+            continue
+        q, best, best_s = _words(claim.quote), 0.0, ""
+        for sent in split_sentences(doc):   # highest Jaccard overlap with any document sentence
+            w = _words(sent)
+            if w and q and len(q & w) / len(q | w) > best:
+                best, best_s = len(q & w) / len(q | w), sent
+        if best >= overlap:
+            return claim.model_copy(update={"novel": False, "matched_doc": name, "matched_text": best_s[:300]})
     return claim.model_copy(update={"novel": True, "matched_doc": None, "matched_text": None})
 
 

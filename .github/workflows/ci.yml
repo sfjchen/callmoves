@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip, cache-dependency-path: pipeline/pyproject.toml }
       - run: pip install -e ".[dev]"
+      - run: ruff check callmoves tests
       - run: pytest -q
       - run: python -m callmoves.run fixtures/acme_q3_2026 --out /tmp/out
 

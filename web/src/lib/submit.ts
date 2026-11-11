@@ -1,12 +1,11 @@
 // Server-only submission queue: validates a call submitted from the form or POST /api/calls, rate-limits by
 // hashed IP, and inserts it into callmoves_submissions for the GitHub Actions worker (pipeline/callmoves/worker.py).
 // Uses the service key: the table has row-level security with no policies, so the browser never reads it directly.
-import { createHash } from "crypto";
-import { callExists } from "./data";
 import { TZ } from "./format";
-import { SB_URL, sb } from "./supabase";
+import { count, field, hashIp, ipHourCount } from "./request";
+import { SB_SERVICE, SB_URL, sb } from "./supabase";
 
-const SB_SERVICE = process.env.SUPABASE_SERVICE_KEY;
+const TABLE = "callmoves_submissions";
 const PER_IP_HOUR = 3;     // submissions per IP per hour
 const PER_DAY = 20;        // submissions per day across everyone, so a spam run cannot exhaust the worker
 export const ETFS = ["XLF", "XLK", "XLY", "XLC", "XLV", "XLE", "XLI", "XLP", "XLU", "XLB", "XLRE", "SPY"];
@@ -32,17 +31,6 @@ export type SubmissionRow = {
   call_id: string | null; error: string | null;
 };
 export type SubmitResult = { ok: true; id: string } | { ok: false; code: ErrorCode };
-
-/**
- * Counts rows of a table (callmoves_submissions by default) matching a PostgREST filter, from the Content-Range
- * header of a HEAD request. Throws when Supabase fails, so a rate limit never reads an error as 0 rows.
- */
-export async function count(filter: string, table = "callmoves_submissions"): Promise<number> {
-  const res = await sb(`${table}?select=id&${filter}`, SB_SERVICE!, { method: "HEAD" }, "count=exact");
-  const total = res.headers.get("content-range")?.split("/")[1];
-  if (!res.ok || total === undefined || total === "*") throw new Error(`Supabase ${res.status} counting ${table}`);
-  return Number(total);
-}
 
 /**
  * Converts a datetime-local value ("2026-11-17T17:00"), read as US Eastern time, to an ISO string with offset.
@@ -82,19 +70,12 @@ function invalid(s: Record<string, string>): ErrorCode | null {
 }
 
 /**
- * Hashes a visitor's IP with the server salt, so rate limits work without storing the address.
- */
-export function hashIp(ip: string): string {
-  return createHash("sha256").update(`${ip}|${process.env.SUBMIT_SALT ?? ""}`).digest("hex");
-}
-
-/**
  * Trims and normalizes the raw form or JSON fields, validates, rate-limits and queues 1 submission. `ip` comes from
  * the x-forwarded-for header Vercel sets.
  */
 export async function submitCall(raw: Record<string, unknown>, ip: string): Promise<SubmitResult> {
   if (!SB_URL || !SB_SERVICE) return { ok: false, code: "config" };
-  const f = (k: string) => (typeof raw[k] === "string" ? (raw[k] as string).trim() : "");
+  const f = field(raw);
   const s = {
     ticker: f("ticker").toUpperCase(), quarter: f("quarter").toUpperCase(), company: f("company"),
     etf: f("etf").toUpperCase(), call_start: easternToIso(f("call_start")), audio_url: f("audio_url"),
@@ -103,18 +84,18 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
   const bad = invalid(s);
   if (bad) return { ok: false, code: bad };
   const ipHash = hashIp(ip);
-  const hourAgo = new Date(Date.now() - 3600e3).toISOString(), dayAgo = new Date(Date.now() - 86400e3).toISOString();
+  const dayAgo = new Date(Date.now() - 86400e3).toISOString();
   try {
-    if (await count(`ip_hash=eq.${ipHash}&created_at=gt.${hourAgo}`) >= PER_IP_HOUR) return { ok: false, code: "rate" };
-    if (await count(`created_at=gt.${dayAgo}`) >= PER_DAY) return { ok: false, code: "full" };
+    if (await ipHourCount(TABLE, ipHash) >= PER_IP_HOUR) return { ok: false, code: "rate" };
+    if (await count(TABLE, `created_at=gt.${dayAgo}`) >= PER_DAY) return { ok: false, code: "full" };
     // the worker upserts audio and results by call id, so a repeat would overwrite a finished call
-    if (await callExists(`${s.ticker}_${s.quarter}`)) return { ok: false, code: "exists" };
+    if (await count("callmoves_calls", `id=eq.${s.ticker}_${s.quarter}`)) return { ok: false, code: "exists" };
   } catch {
     return { ok: false, code: "fail" };   // fail closed: no limit check, no insert
   }
   // a pending duplicate is refused by the callmoves_submissions_pending unique index, so 2 racing requests cannot
   // both queue the same call
-  const res = await sb("callmoves_submissions?select=id", SB_SERVICE, {
+  const res = await sb(`${TABLE}?select=id`, SB_SERVICE, {
     method: "POST",
     body: JSON.stringify({ ...s, company: s.company || null, prior_url: s.prior_url || null, ip_hash: ipHash }),
   }, "return=representation");
@@ -128,7 +109,7 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
  */
 export async function recentSubmissions(limit = 20): Promise<SubmissionRow[]> {
   if (!SB_URL || !SB_SERVICE) return [];
-  const res = await sb(`callmoves_submissions?select=id,created_at,ticker,quarter,status,call_id,error` +
+  const res = await sb(`${TABLE}?select=id,created_at,ticker,quarter,status,call_id,error` +
     `&order=created_at.desc&limit=${limit}`, SB_SERVICE);
   return res.ok ? ((await res.json()) as SubmissionRow[]) : [];
 }

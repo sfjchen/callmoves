@@ -1,3 +1,4 @@
+// Library page: every processed call newest first with its sparkline and top moment, filterable by ticker.
 import Link from "next/link";
 import { listCalls } from "@/lib/data";
 import { dir, DIR_HEX, DIR_TEXT, pct, TZ } from "@/lib/format";

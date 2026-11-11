@@ -45,8 +45,3 @@ export function markDone(callId: string) {
     localStorage.setItem(KEY, JSON.stringify(s));
   } catch { /* the next visit to /study shows the trial as open */ }
 }
-
-/**
- * Returns the localStorage key holding when a trial's timer started, so a reload does not restart the timer.
- */
-export const startKey = (pid: string, callId: string) => `cm_study_t0_${pid}_${callId}`;
