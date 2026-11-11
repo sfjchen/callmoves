@@ -209,3 +209,4 @@ class CallOutput(BaseModel):
     estimates: list[Estimate] = []
     stats: Stats | None = None
     context: Context | None = None
+    qa_start_ms: int | None = None   # audio offset of the first operator turn that opens Q&A, None without Q&A

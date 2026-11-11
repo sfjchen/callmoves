@@ -97,6 +97,7 @@ export type CallOutput = {
   estimates?: Estimate[];
   stats?: Stats | null;
   context?: Context | null;
+  qa_start_ms?: number | null; // audio offset of the operator turn that opens Q&A, null when none was detected
 };
 
 // Peer and cross-asset prices on 1 minute grid over the call, for the comps panel.
