@@ -215,10 +215,12 @@ def agree(a: dict, b: dict) -> bool:
     return a["choice"] != "statement" or abs(a["t_ms"] - b["t_ms"]) < SAME_SENTENCE_MS
 
 
-def quotes(headline: str, sentence: str) -> bool:
+def quotes(headline: str, sentence: str, company: str) -> bool:
     """Whether a headline quotes a sentence: at least half of the headline's content words (over 3 characters,
-    at least 3 of them) appear in the sentence."""
-    words = {w for w in re.findall(r"[a-z0-9.%$]+", headline.lower()) if len(w) > 3}
+    at least 3 of them, not part of the company's name, which every headline and the operator's welcome share)
+    appear in the sentence."""
+    name = set(re.findall(r"[a-z0-9.%$]+", company.lower()))
+    words = {w for w in re.findall(r"[a-z0-9.%$]+", headline.lower()) if len(w) > 3} - name
     return len(words) >= 3 and len(words & set(re.findall(r"[a-z0-9.%$]+", sentence.lower()))) >= len(words) / 2
 
 
@@ -236,7 +238,7 @@ def gold_labels(flags: list[dict]) -> dict[str, dict]:
         _, meta, segs, _ = load_folder(f["call_id"])
         sents = sentences(meta, segs, start, BLIND_BEFORE_MIN)
         for h in near:
-            hit = [x for x in sents if quotes(h["text"], x["text"])]
+            hit = [x for x in sents if quotes(h["text"], x["text"], meta.company)]
             if hit:
                 out[f["id"]] = {"t_ms": hit[-1]["t_ms"], "seg_id": hit[-1]["seg_id"], "headline": h["url"]}
     return out
@@ -246,16 +248,18 @@ def clock_check() -> None:
     """Checks the transcript clock against squawk headlines: for every headline that quotes 1 sentence of its call
     (`quotes`, a unique match), the lag is headline time minus the sentence's wall-clock time. Squawk desks post
     after hearing a remark, so a negative lag means our clock runs late by at least that much, and the smallest lag
-    per call bounds how early our clock can be. Prints per-call counts, minimum and median lag."""
+    per call bounds how early our clock can be. Headlines posted before the call started summarize the release, not
+    the call, and are skipped. Prints per-call counts, minimum and median lag."""
     heads = json.loads(HEADLINES.read_text())
     lags = defaultdict(list)
     for call_id in sorted({h["call_id"] for h in heads}):
         _, meta, segs, _ = load_folder(call_id)
         sents = sentences(meta, segs, meta.call_start + timedelta(hours=4), 5 * 60)
         for h in (h for h in heads if h["call_id"] == call_id):
-            hit = [x for x in sents if quotes(h["text"], x["text"])]
-            if len(hit) == 1:
-                lags[call_id].append((datetime.fromisoformat(h["ts"]) - hit[0]["ts"]).total_seconds() / 60)
+            ts = datetime.fromisoformat(h["ts"])
+            hit = [x for x in sents if quotes(h["text"], x["text"], meta.company)]
+            if ts >= meta.call_start and len(hit) == 1:
+                lags[call_id].append((ts - hit[0]["ts"]).total_seconds() / 60)
     allv = sorted(v for vs in lags.values() for v in vs)
     print(f"{len(heads)} headlines, {len(allv)} quote 1 sentence, in {len(lags)} calls (lag = posted - spoken, min)")
     for call_id, vs in sorted(lags.items()):

@@ -19,9 +19,13 @@ def test_kappa_matches_hand_computed_values():
 
 def test_quotes_needs_half_the_content_words():
     said = "We now expect full year net interest income to be slightly below 2 billion in markets."
-    assert quotes("WELLS FARGO CEO: EXPECT MARKETS NET INTEREST INCOME SLIGHTLY BELOW $2 BILLION", said)
-    assert not quotes("WELLS FARGO ANNOUNCES NEW BUYBACK AUTHORIZATION OF $40 BILLION", said)
-    assert not quotes("WFC: EXPECT", said)   # too few content words to tell
+    co = "Wells Fargo & Company"
+    assert quotes("WELLS FARGO CEO: EXPECT MARKETS NET INTEREST INCOME SLIGHTLY BELOW $2 BILLION", said, co)
+    assert not quotes("WELLS FARGO ANNOUNCES NEW BUYBACK AUTHORIZATION OF $40 BILLION", said, co)
+    assert not quotes("WFC: EXPECT", said, co)   # too few content words to tell
+    # the company's name alone does not make a match
+    assert not quotes("WELLS FARGO CFO: NIM EXPECTED TO STABILIZE IN Q4",
+                      "Welcome and thank you for joining the Wells Fargo second quarter call.", co)
 
 
 def test_agree_allows_adjacent_sentences_of_1_remark():
