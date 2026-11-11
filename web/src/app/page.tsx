@@ -7,7 +7,7 @@ import type { CallSummary } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-const SORTS = { date: "Newest", call: "Biggest call move", moment: "Biggest moment" } as const;
+const SORTS = { date: "Newest", call: "Biggest call move", moment: "Biggest top moment" } as const;
 type Sort = keyof typeof SORTS;
 
 /**

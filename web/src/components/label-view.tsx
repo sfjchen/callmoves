@@ -83,7 +83,8 @@ export default function LabelView({ flag, k, done, total }: {
             <li key={s.n}>
               <button disabled={busy} onClick={() => send("statement", s.n)}
                 className="flex w-full gap-2 px-2 py-1.5 text-left text-sm hover:bg-white disabled:opacity-50">
-                <span className={`w-16 shrink-0 tabular text-xs leading-5 ${after ? "text-nb-accent" : "text-nb-muted"}`}>
+                <span className={`w-16 shrink-0 tabular text-xs leading-5 ${
+                  after ? "text-nb-accent" : "text-nb-muted"}`}>
                   {new Date(s.ts).toLocaleTimeString("en-US", { hour12: false, timeZone: "America/New_York" })}</span>
                 <span><span className="text-xs font-medium mr-1.5">{shortSpeaker(s.speaker)}</span>{s.text}</span>
               </button>

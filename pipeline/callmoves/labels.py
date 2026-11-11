@@ -5,6 +5,7 @@
     python -m callmoves.labels packets                # writes the richer per-flag views the protocol agent reads
     python -m callmoves.labels agent labels/agent_protocol.json   # uploads the protocol agent's labels
     python -m callmoves.labels report                 # precision at 3 and 5 per tier, Cohen's kappa between raters
+    python -m callmoves.labels align                  # transcript clock vs squawk headline times
 
 A flag is 1 price event (`market.flag_events`) that starts during the call, measured against the sector ETF when the
 set was frozen, so labels never move when the shipped benchmark changes. The blind view is what the /label page
@@ -206,9 +207,16 @@ def answer(row: dict, sents_t: list[int]) -> str:
     return f"s{t}"
 
 
+def quotes(headline: str, sentence: str) -> bool:
+    """Whether a headline quotes a sentence: at least half of the headline's content words (over 3 characters,
+    at least 3 of them) appear in the sentence."""
+    words = {w for w in re.findall(r"[a-z0-9.%$]+", headline.lower()) if len(w) > 3}
+    return len(words) >= 3 and len(words & set(re.findall(r"[a-z0-9.%$]+", sentence.lower()))) >= len(words) / 2
+
+
 def gold_labels(flags: list[dict]) -> dict[str, dict]:
-    """Flags a headline backs: a headline posted within GOLD_TOL of the event start shares at least half of its
-    content words with 1 sentence of the blind window. Returns flag id -> {t_ms, seg_id, headline}."""
+    """Flags a headline backs: a headline posted within GOLD_TOL of the event start quotes 1 sentence of the blind
+    window (`quotes`), the latest such sentence wins. Returns flag id -> {t_ms, seg_id, headline}."""
     heads = json.loads(HEADLINES.read_text()) if HEADLINES.exists() else []
     out = {}
     for f in flags:
@@ -220,13 +228,34 @@ def gold_labels(flags: list[dict]) -> dict[str, dict]:
         _, meta, segs, _ = load_folder(f["call_id"])
         sents = sentences(meta, segs, start, BLIND_BEFORE_MIN)
         for h in near:
-            words = {w for w in re.findall(r"[a-z0-9.%$]+", h["text"].lower()) if len(w) > 3}
-            best = max(sents, key=lambda s: len(words & set(re.findall(r"[a-z0-9.%$]+", s["text"].lower()))),
-                       default=None)
-            shared = len(words & set(re.findall(r"[a-z0-9.%$]+", best["text"].lower()))) if best else 0
-            if words and shared >= len(words) / 2:
-                out[f["id"]] = {"t_ms": best["t_ms"], "seg_id": best["seg_id"], "headline": h["url"]}
+            hit = [x for x in sents if quotes(h["text"], x["text"])]
+            if hit:
+                out[f["id"]] = {"t_ms": hit[-1]["t_ms"], "seg_id": hit[-1]["seg_id"], "headline": h["url"]}
     return out
+
+
+def clock_check() -> None:
+    """Checks the transcript clock against squawk headlines: for every headline that quotes 1 sentence of its call
+    (`quotes`, a unique match), the lag is headline time minus the sentence's wall-clock time. Squawk desks post
+    after hearing a remark, so a negative lag means our clock runs late by at least that much, and the smallest lag
+    per call bounds how early our clock can be. Prints per-call counts, minimum and median lag."""
+    heads = json.loads(HEADLINES.read_text())
+    lags = defaultdict(list)
+    for call_id in sorted({h["call_id"] for h in heads}):
+        _, meta, segs, _ = load_folder(call_id)
+        sents = sentences(meta, segs, meta.call_start + timedelta(hours=4), 5 * 60)
+        for h in (h for h in heads if h["call_id"] == call_id):
+            hit = [x for x in sents if quotes(h["text"], x["text"])]
+            if len(hit) == 1:
+                lags[call_id].append((datetime.fromisoformat(h["ts"]) - hit[0]["ts"]).total_seconds() / 60)
+    allv = sorted(v for vs in lags.values() for v in vs)
+    print(f"{len(heads)} headlines, {len(allv)} quote 1 sentence, in {len(lags)} calls (lag = posted - spoken, min)")
+    for call_id, vs in sorted(lags.items()):
+        vs.sort()
+        print(f"  {call_id:16} n={len(vs):2}  min {vs[0]:+6.1f}  median {vs[len(vs) // 2]:+6.1f}")
+    if allv:
+        print(f"all: min {allv[0]:+.1f}, median {allv[len(allv) // 2]:+.1f}, "
+              f"negative {sum(v < 0 for v in allv)}, under 1 min {sum(v < 1 for v in allv)}")
 
 
 def report() -> None:
@@ -291,7 +320,7 @@ def main(argv=None):
     """Runs 1 subcommand, see the module docstring."""
     load_dotenv()
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["flags", "opus", "packets", "agent", "report"])
+    ap.add_argument("cmd", choices=["flags", "opus", "packets", "agent", "report", "align"])
     ap.add_argument("paths", type=Path, nargs="*")
     args = ap.parse_args(argv)
     if args.cmd == "flags":
@@ -345,6 +374,8 @@ def main(argv=None):
             rows.append(as_row(f, "agent-protocol", Label(**{k: x[k] for k in Label.model_fields}), sents))
         save(rows)
         print(f"saved {len(rows)} agent-protocol labels")
+    elif args.cmd == "align":
+        clock_check()
     else:
         report()
 

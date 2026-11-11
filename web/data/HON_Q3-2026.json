@@ -9146,20 +9146,28 @@
   "quarter": "Q3-2026",
   "company": "Honeywell",
   "call_start": "2026-10-22T08:30:00-04:00",
+  "etf": "XLI",
+  "themes": [
+   "Demand",
+   "Margins",
+   "Deals"
+  ],
   "n_moments": 1,
   "n_flagged": 6,
   "spark": [
-   -0.0028740398237002696,
-   -0.004548630911885954,
-   -0.01301653192995278,
-   -0.007008846968831861,
-   -0.0003123795186276146
+   0.004997775351668787,
+   0.0033231842634831033,
+   -0.0051447167545837225,
+   0.0008629682065371957,
+   0.007559435656741442
   ],
   "top_moment": {
    "ts": "2026-10-22T09:24:18.070000-04:00",
    "quote": "And that's why we believe it's a multi-year cycle.",
    "adj_ret_5m": -0.00850659437620127,
-   "speaker": "Management"
+   "speaker": "Management",
+   "vol_mult": 10.095049504950495,
+   "spillover": null
   }
  },
  "moments": [
@@ -9179,6 +9187,10 @@
    "adj_ret_5m": -0.00850659437620127,
    "ret_5m": -0.009672897196261632,
    "etf_ret_5m": -0.001166302820060361,
+   "bench_ret_5m": -0.001166302820060361,
+   "spy_ret_5m": null,
+   "peer_ret_5m": null,
+   "spillover": null,
    "vol_mult": 10.095049504950495,
    "nearest_flag_min": 4.0,
    "score": 0.011211569663389955,
@@ -9301,5 +9313,6 @@
    "cache_creation_input_tokens": 39394
   },
   "claude_usd": 0.1236
- }
+ },
+ "context": null
 }

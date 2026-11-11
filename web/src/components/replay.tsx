@@ -158,10 +158,10 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
       </div>
 
       {!baseline && (
-        <section className="card mt-2 mb-3 px-3 py-2.5" aria-label="Biggest move">
+        <section className="card mt-2 mb-3 px-3 py-2.5" aria-label="Top moment">
           {lead ? (
             <p className="text-[15px] leading-snug">
-              <span className="font-semibold">Biggest move {clock(lead.ts)} ET:</span>{" "}
+              <span className="font-semibold">Top moment {clock(lead.ts)} ET:</span>{" "}
               <span className={`font-semibold tabular ${DIR_TEXT[dir(lead.adj_ret_5m)]}`}>
                 {GLYPH[dir(lead.adj_ret_5m)]} {pct(lead.adj_ret_5m)}</span>{" "}
               vs {benchLabel} in 5 min on {lead.vol_mult.toFixed(1)}x volume
@@ -356,7 +356,8 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
           How moments are found</summary>
         <ul className="mt-1 max-w-3xl space-y-0.5 tabular">
           <li>Price first: {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns spoken in the 5 min
-            before them → {data.n_claims} claims ({data.llm_used ? "Claude" : "rule-based"}) → {data.moments.length}{" "}
+            before them → {data.n_claims} claims ({data.llm_used ? "Claude" : "rule-based"}) →{" "}
+            {data.moments.length}{" "}
             moments, 1 per price event.</li>
           <li>Abnormal = 1-minute return vs {benchLabel} far outside its trailing 20 minutes, or 3x volume with a
             0.2% move.{data.context?.benchmark !== "etf" && data.context?.r2 != null &&
@@ -412,7 +413,8 @@ function MomentCard({ m, atOpen, active, onSelect }: {
               <span className="font-medium">Analyst asked:</span> {m.question}</p>}
             <p>
               <span className="font-medium">{shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
-              {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs {pct(m.bench_ret_5m ?? m.etf_ret_5m)}{" "}
+              {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs{" "}
+              {pct(m.bench_ret_5m ?? m.etf_ret_5m)}{" "}
               {m.bench_ret_5m != null && m.bench_ret_5m !== m.etf_ret_5m ? "benchmark" : "sector"}
               {m.peer_ret_5m != null && <>, peers {pct(m.peer_ret_5m)}</>}
             </p>

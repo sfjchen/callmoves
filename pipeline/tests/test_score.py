@@ -90,3 +90,4 @@ def test_spillover_tags():
     assert spillover(-0.01, 0.004) == "company"     # peers went the other way
     assert spillover(-0.01, -0.003) == "mixed"
     assert spillover(-0.01, None) is None
+    assert spillover(0.0009, 0.0013) is None        # the stock barely moved, nothing to attribute

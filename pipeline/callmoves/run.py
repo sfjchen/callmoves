@@ -121,7 +121,9 @@ def run(fixture: Path) -> CallOutput:
             ts=list(at["ts"]), benchmark=fit["benchmark"], betas=fit["betas"], r2=fit["r2"],
             series=[ContextSeries(sym=sym, role=role, px=[None if pd.isna(x) else round(float(x), 4) for x in at[sym]])
                     for sym, role in roles.items() if sym in at])
-    cum = [b.cum_adj_ret for b in bars if meta.call_start <= b.ts <= call_end]
+    # the sparkline starts at 0 at the call start, so its last point is the move over the call
+    base = next((b.cum_adj_ret for b in reversed(bars) if b.ts < meta.call_start), 0.0)
+    cum = [b.cum_adj_ret - base for b in bars if meta.call_start <= b.ts <= call_end]
     step = max(1, math.ceil(len(cum) / SPARK_POINTS))
     top = moments[0] if moments else None
     counts = Counter(t for c in claims for t, rx in THEMES.items()
