@@ -22,13 +22,17 @@ type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 /**
  * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
  * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms. `baseline` (study
- * condition) hides the moments panel, the scoring explanation and the numbered markers.
+ * condition) hides the moments panel, the scoring explanation and the numbered markers. `initialRank` (from a shared
+ * ?m= link) is the moment selected on load.
  */
-export default function Replay({ data, baseline = false }: { data: CallOutput; baseline?: boolean }) {
+export default function Replay({ data, baseline = false, initialRank }: {
+  data: CallOutput; baseline?: boolean; initialRank?: number;
+}) {
   const offset = data.call.audio_offset_ms ?? 0;
   const start = useMemo(() => new Date(data.call.call_start).getTime() - offset, [data.call.call_start, offset]);
   const endMs = new Date(data.call_end).getTime() - start;
-  const [cursorMs, setCursorMs] = useState(data.moments[0]?.t0_ms ?? offset);
+  const [cursorMs, setCursorMs] = useState(
+    (data.moments.find((m) => m.rank === initialRank) ?? data.moments[0])?.t0_ms ?? offset);
   const [audioOk, setAudioOk] = useState<boolean | null>(null); // null until the HEAD check on the Supabase URL answers
   useEffect(() => {
     const url = data.call.audio_url;
@@ -68,9 +72,13 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
   const benchLabel = data.context?.benchmark === "market" ? "market model"
     : data.context?.benchmark === "peers" ? "peers model" : data.call.etf;
 
-  // Moves the cursor to a moment and, on phones where the panels stack, scrolls to the transcript.
+  // Moves the cursor to a moment, keeps it in the URL as ?m=<rank> without a reload so the link can be shared, and
+  // on phones where the panels stack scrolls to the transcript.
   function select(m: Moment) {
     seek(m.t0_ms);
+    const u = new URL(window.location.href);
+    u.searchParams.set("m", String(m.rank));
+    window.history.replaceState(null, "", u);
     if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
   }
 
@@ -385,15 +393,21 @@ function money(e: Estimate, x: number): string {
 }
 
 /**
- * Renders 1 ranked moment: rank, time, quote and adjusted return, with the evidence shown only while it is active.
- * Low-confidence moments are dimmed.
+ * Renders 1 ranked moment: rank, time, quote and adjusted return, with the evidence and a Copy link button shown only
+ * while it is active. Low-confidence moments are dimmed.
  */
 function MomentCard({ m, atOpen, active, onSelect }: {
   m: Moment; atOpen: boolean; active: boolean; onSelect: () => void;
 }) {
   const d = dir(m.adj_ret_5m);
+  const [copied, setCopied] = useState(false);
+  // Copies the moment's link without the study parameters, or shows it in a prompt where the clipboard is blocked.
+  function copy() {
+    const url = `${window.location.origin}${window.location.pathname}?m=${m.rank}`;
+    navigator.clipboard.writeText(url).then(() => setCopied(true), () => window.prompt("Copy this link", url));
+  }
   return (
-    <li>
+    <li className="relative">
       <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-white ${active ?
         "border-nb-accent bg-white" : `border-nb-border ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
         <div className="flex items-center gap-2 text-xs text-nb-muted">
@@ -432,6 +446,11 @@ function MomentCard({ m, atOpen, active, onSelect }: {
           </div>
         )}
       </button>
+      {active && (
+        <button onClick={copy} onBlur={() => setCopied(false)}
+          className="absolute bottom-2.5 right-2.5 text-xs text-nb-accent hover:underline underline-offset-2">
+          {copied ? "Copied" : "Copy link"}</button>
+      )}
     </li>
   );
 }

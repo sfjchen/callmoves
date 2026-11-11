@@ -30,6 +30,10 @@ export type SubmissionRow = {
   id: string; created_at: string; ticker: string; quarter: string; status: "queued" | "running" | "done" | "failed";
   call_id: string | null; error: string | null;
 };
+// 1 submission for its status page: `ahead` counts the queued submissions created before it, null once it left the
+// queue.
+export type SubmissionStatus = SubmissionRow & { started_at: string | null; ahead: number | null };
+const PUBLIC_COLS = "id,created_at,ticker,quarter,status,call_id,error";
 export type SubmitResult = { ok: true; id: string } | { ok: false; code: ErrorCode };
 
 /**
@@ -109,7 +113,21 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
  */
 export async function recentSubmissions(limit = 20): Promise<SubmissionRow[]> {
   if (!SB_URL || !SB_SERVICE) return [];
-  const res = await sb(`${TABLE}?select=id,created_at,ticker,quarter,status,call_id,error` +
-    `&order=created_at.desc&limit=${limit}`, SB_SERVICE);
+  const res = await sb(`${TABLE}?select=${PUBLIC_COLS}&order=created_at.desc&limit=${limit}`, SB_SERVICE);
   return res.ok ? ((await res.json()) as SubmissionRow[]) : [];
+}
+
+/**
+ * Returns 1 submission by id with the same public fields plus its place in the queue, or null for an unknown or
+ * malformed id. Throws when Supabase fails, so a status page can tell an outage from a missing row.
+ */
+export async function getSubmission(id: string): Promise<SubmissionStatus | null> {
+  if (!SB_URL || !SB_SERVICE || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)) return null;
+  const res = await sb(`${TABLE}?select=${PUBLIC_COLS},started_at&id=eq.${id}`, SB_SERVICE);
+  if (!res.ok) throw new Error(`Supabase ${res.status} reading ${TABLE}`);
+  const row = ((await res.json()) as Omit<SubmissionStatus, "ahead">[])[0];
+  if (!row) return null;
+  const ahead = row.status === "queued"
+    ? await count(TABLE, `status=eq.queued&created_at=lt.${encodeURIComponent(row.created_at)}`) : null;
+  return { ...row, ahead };
 }
