@@ -207,6 +207,14 @@ def answer(row: dict, sents_t: list[int]) -> str:
     return f"s{t}"
 
 
+def agree(a: dict, b: dict) -> bool:
+    """Whether 2 labels give the same answer: the same kind, or 2 statements less than SAME_SENTENCE_MS apart in
+    the audio, since 2 raters may name adjacent sentences of 1 remark."""
+    if a["choice"] != b["choice"]:
+        return False
+    return a["choice"] != "statement" or abs(a["t_ms"] - b["t_ms"]) < SAME_SENTENCE_MS
+
+
 def quotes(headline: str, sentence: str) -> bool:
     """Whether a headline quotes a sentence: at least half of the headline's content words (over 3 characters,
     at least 3 of them) appear in the sentence."""
@@ -279,14 +287,17 @@ def report() -> None:
     for i, a in enumerate(raters):
         for b in raters[i + 1:]:
             both = sorted(set(by_rater[a]) & set(by_rater[b]))
-            k = kappa([answer(by_rater[a][x], sent_t[x]) for x in both],
-                      [answer(by_rater[b][x], sent_t[x]) for x in both])
+            ans_a = [answer(by_rater[a][x], sent_t[x]) for x in both]
+            # a rater naming a sentence within SAME_SENTENCE_MS of the other's counts as the same answer
+            ans_b = [y if agree(by_rater[a][x], by_rater[b][x]) else answer(by_rater[b][x], sent_t[x])
+                     for x, y in zip(both, ans_a)]
+            k = kappa(ans_a, ans_b)
             print(f"kappa {a} vs {b}: {k if k is None else round(k, 2)} on {len(both)} shared flags")
     gold = gold_labels(flags)
     silver = {}
     for x, r in by_rater.get("opus-blind", {}).items():
         o = by_rater.get("agent-protocol", {}).get(x)
-        if o and answer(r, sent_t[x]) == answer(o, sent_t[x]):
+        if o and agree(r, o):
             silver[x] = r
     tiers = {"gold": {x: {"choice": "statement", **g} for x, g in gold.items()}, "silver": silver,
              "human": by_rater.get("user", {})}

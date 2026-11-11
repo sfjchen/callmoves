@@ -167,13 +167,16 @@ def predict(calls: list[Path], benchmark: str) -> None:
         res.append({"call": held, "n": len(te), "model": pred.corr(te["y"], method="spearman"),
                     "vol": te["pre_vol"].corr(te["y"], method="spearman"),
                     "ex_ante": te["ex_ante"].corr(te["y"], method="spearman")})
-    r = pd.DataFrame(res).fillna(0.0)
-    n = len(r)
-    print(f"{len(df)} claims in {df['call'].nunique()} calls, {n} held-out calls with 5+ claims, benchmark {benchmark}")
+    r = pd.DataFrame(res)
+    print(f"{len(df)} claims in {df['call'].nunique()} calls, {len(r)} held-out calls with 5+ claims, "
+          f"benchmark {benchmark}")
     for col in ("model", "vol", "ex_ante"):
         print(f"  mean Spearman {col}: {r[col].mean():+.3f} (median {r[col].median():+.3f})")
     for other in ("vol", "ex_ante"):
-        wins = int((r["model"] > r[other]).sum())
+        # a call where either correlation is undefined (a constant predictor) or both tie says nothing either way
+        d = (r["model"] - r[other]).dropna()
+        d = d[d != 0]
+        wins, n = int((d > 0).sum()), len(d)
         p = sum(math.comb(n, i) for i in range(wins, n + 1)) / 2 ** n
         print(f"  model beats {other} in {wins}/{n} calls, 1-sided sign test p = {p:.3f}")
 

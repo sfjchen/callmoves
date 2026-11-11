@@ -4,7 +4,7 @@ clock check.
 """
 import pytest
 
-from callmoves.labels import kappa, quotes
+from callmoves.labels import agree, kappa, quotes
 
 
 def test_kappa_matches_hand_computed_values():
@@ -22,3 +22,11 @@ def test_quotes_needs_half_the_content_words():
     assert quotes("WELLS FARGO CEO: EXPECT MARKETS NET INTEREST INCOME SLIGHTLY BELOW $2 BILLION", said)
     assert not quotes("WELLS FARGO ANNOUNCES NEW BUYBACK AUTHORIZATION OF $40 BILLION", said)
     assert not quotes("WFC: EXPECT", said)   # too few content words to tell
+
+
+def test_agree_allows_adjacent_sentences_of_1_remark():
+    st = {"choice": "statement", "t_ms": 600_000}
+    assert agree(st, {"choice": "statement", "t_ms": 620_000})
+    assert not agree(st, {"choice": "statement", "t_ms": 640_000})
+    assert not agree(st, {"choice": "release", "t_ms": None})
+    assert agree({"choice": "market", "t_ms": None}, {"choice": "market", "t_ms": None})
