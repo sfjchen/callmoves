@@ -62,5 +62,10 @@ export const SECTOR: Record<string, string> = {
   XLRE: "Real estate", IGV: "Software",
 };
 
+// Typical wait for a submitted call, from README "Cost and speed" and the worker's cron in
+// .github/workflows/worker.yml.
+export const WORKER_WAIT = "The worker checks the queue every 15 minutes and runs up to 4 calls at once. A whole " +
+  "job took 10.2 min at the median over the 25 calls it processed on 2026-11-11 (6.6 to 13.0).";
+
 // How a moment's peers moved in the same minutes, as shown on cards and the comps panel.
 export const SPILL_LABEL = { sector: "peers moved too", company: "stock alone", mixed: "peers partly" } as const;

@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { clock } from "@/lib/format";
+import { clock, WORKER_WAIT } from "@/lib/format";
 import type { SubmissionStatus } from "@/lib/submit";
 
 const POLL_MS = 15_000;
@@ -47,9 +47,8 @@ export default function SubmitStatus({ initial }: { initial: SubmissionStatus })
       {s.status === "failed" && <p className="text-red-700">Failed{s.error ? `: ${s.error}` : "."}</p>}
       {pending && (
         <p className="mt-3 text-xs text-nb-muted">
-          The worker checks the queue every 15 minutes and runs up to 4 calls at once. A whole job took 10.2 min at
-          the median over the last 25 calls (6.6 to 13.0). This page checks every 15 s, and the link keeps working if
-          you come back later.{stale && " The last check failed, retrying."}
+          {WORKER_WAIT} This page checks every 15 s, and the link keeps working if you come back later.
+          {stale && " The last check failed, retrying."}
         </p>
       )}
     </div>

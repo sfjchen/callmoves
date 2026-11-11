@@ -1,5 +1,6 @@
 // Submission status endpoint, polled by /submit/status. Reads the queue row with the service key on the server and
-// returns only the public fields (no URLs, no IP hash).
+// returns only the fields /submit already lists publicly: no submitted links, no IP hash. `error` is the worker's
+// message, which can name a link that failed to download.
 import { NextResponse } from "next/server";
 import { getSubmission } from "@/lib/submit";
 import { SB_SERVICE, SB_URL } from "@/lib/supabase";

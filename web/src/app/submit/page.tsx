@@ -4,7 +4,7 @@
 import { headers } from "next/headers";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { TZ } from "@/lib/format";
+import { TZ, WORKER_WAIT } from "@/lib/format";
 import { ERRORS, ETFS, type ErrorCode, recentSubmissions, submitCall } from "@/lib/submit";
 
 export const dynamic = "force-dynamic";
@@ -44,9 +44,8 @@ export default async function Submit({ searchParams }: PageProps<"/submit">) {
     <div className="max-w-3xl text-sm">
       <h1 className="text-xl font-semibold mb-1">Submit a call</h1>
       <p className="text-neutral-500 mb-3">
-        The worker transcribes the audio, pulls 1-minute prices and ranks the moments. It checks the queue every 15
-        minutes, and a whole job took 10.2 min at the median over the last 25 calls. At most 3 submissions an hour
-        per visitor.
+        The worker transcribes the audio, pulls 1-minute prices and ranks the moments. {WORKER_WAIT} At most 3
+        submissions an hour per visitor.
       </p>
       {err && <p className="mb-3 rounded bg-red-50 px-3 py-2 text-red-800">{err}</p>}
       <form action={submit} className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">

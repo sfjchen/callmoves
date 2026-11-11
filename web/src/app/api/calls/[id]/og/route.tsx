@@ -3,7 +3,7 @@
 import { ImageResponse } from "next/og";
 import { getCall } from "@/lib/data";
 import { clock, DIR_HEX, dir, pct, shortQuarter, shortSpeaker } from "@/lib/format";
-import { benchName, clip, sharedMoment } from "@/lib/share";
+import { benchName, clip, NO_MOMENT, sharedMoment } from "@/lib/share";
 
 const NB = { bg: "#fcf9f4", paper: "#faf6f0", text: "#1a1a1a", muted: "#6b6359", accent: "#8c3838", border: "#eee9e2" };
 const FONT_CSS = "https://fonts.googleapis.com/css2?family=Patrick+Hand";
@@ -17,10 +17,11 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
   const m = sharedMoment(call, new URL(req.url).searchParams.get("m"));
   // Google serves the TTF Satori needs to a non-browser user agent. Without it the image falls back to the default
   // sans, so a font outage never breaks the preview.
-  hand ??= fetch(FONT_CSS)
+  hand ??= fetch(FONT_CSS, { signal: AbortSignal.timeout(3000) })
     .then((r) => r.text())
     .then((css) => /src: url\((.+?)\) format\('truetype'\)/.exec(css)?.[1])
-    .then((u) => (u ? fetch(u).then((r) => (r.ok ? r.arrayBuffer() : null)) : null))
+    .then((u) => (u ? fetch(u, { signal: AbortSignal.timeout(3000) }) : null))
+    .then((r) => (r?.ok ? r.arrayBuffer() : null))
     .catch(() => null);
   const font = await hand;
   if (!font) hand = undefined;   // retries on the next request
@@ -62,7 +63,7 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
           </div>
         ) : (
           <div style={{ display: "flex", marginTop: 48, fontSize: 36, color: NB.muted }}>
-            No minute cleared the abnormal-move threshold during the call.</div>
+            {NO_MOMENT}</div>
         )}
         <div style={{ display: "flex", marginTop: 24, fontSize: 24, color: NB.muted }}>
           <span style={{ fontFamily: handFam, fontSize: 34, color: NB.accent, marginRight: 16 }}>CallMoves</span>

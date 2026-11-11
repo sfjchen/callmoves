@@ -1,10 +1,11 @@
 // Replay page for 1 call, with the study bar and the stripped baseline view when opened from /study. ?m=<rank> opens
 // with that moment selected, and the page's Open Graph and Twitter tags preview it.
+import { createHash } from "crypto";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getCall } from "@/lib/data";
 import { shortQuarter } from "@/lib/format";
-import { momentLine, sharedMoment } from "@/lib/share";
+import { momentLine, NO_MOMENT, sharedMoment } from "@/lib/share";
 import Replay from "@/components/replay";
 import StudyBar from "@/components/study-bar";
 
@@ -12,7 +13,8 @@ export const dynamic = "force-dynamic";
 
 /**
  * Builds the title, description and preview image tags for a call link, from the ?m= moment or the top one. The
- * relative image URL resolves against the Vercel production domain, or localhost in development.
+ * relative image URL resolves against the Vercel production domain, or localhost in development. Its v= hash of the
+ * moment changes when a rerun changes it, since X, Slack and Facebook cache preview images by URL.
  */
 export async function generateMetadata({ params, searchParams }: PageProps<"/calls/[id]">): Promise<Metadata> {
   const { id } = await params;
@@ -20,8 +22,9 @@ export async function generateMetadata({ params, searchParams }: PageProps<"/cal
   if (!call) return {};
   const m = sharedMoment(call, (await searchParams).m);
   const title = `${call.call.ticker} ${shortQuarter(call.call.quarter)} earnings call | CallMoves`;
-  const description = m ? momentLine(call, m) : "No minute cleared the abnormal-move threshold during the call.";
-  const image = { url: `/api/calls/${id}/og${m ? `?m=${m.rank}` : ""}`, width: 1200, height: 630, alt: description };
+  const description = m ? momentLine(call, m) : NO_MOMENT;
+  const v = createHash("sha1").update(JSON.stringify(m ?? call.call)).digest("hex").slice(0, 8);
+  const image = { url: `/api/calls/${id}/og?m=${m?.rank ?? 1}&v=${v}`, width: 1200, height: 630, alt: description };
   return {
     title, description,
     openGraph: { title, description, type: "website", images: [image] },

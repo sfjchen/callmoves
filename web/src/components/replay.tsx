@@ -11,6 +11,7 @@ import {
   clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
 } from "@/lib/format";
 import Comps from "@/components/comps";
+import { benchName } from "@/lib/share";
 
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
@@ -69,8 +70,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
   const flaggedCount = data.bars.filter((b) => b.flagged).length;
   const est = (data.estimates ?? []).filter((e) => e.role === "reported");
   const lead = data.moments[0];
-  const benchLabel = data.context?.benchmark === "market" ? "market model"
-    : data.context?.benchmark === "peers" ? "peers model" : data.call.etf;
+  const benchLabel = benchName(data);
 
   // Moves the cursor to a moment, keeps it in the URL as ?m=<rank> without a reload so the link can be shared, and
   // on phones where the panels stack scrolls to the transcript.
@@ -404,7 +404,9 @@ function MomentCard({ m, atOpen, active, onSelect }: {
   // Copies the moment's link without the study parameters, or shows it in a prompt where the clipboard is blocked.
   function copy() {
     const url = `${window.location.origin}${window.location.pathname}?m=${m.rank}`;
-    navigator.clipboard.writeText(url).then(() => setCopied(true), () => window.prompt("Copy this link", url));
+    // navigator.clipboard is undefined outside a secure context, such as plain http on a LAN address
+    (navigator.clipboard?.writeText(url) ?? Promise.reject(new Error("no clipboard")))
+      .then(() => setCopied(true), () => window.prompt("Copy this link", url));
   }
   return (
     <li className="relative">

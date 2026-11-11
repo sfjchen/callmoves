@@ -109,7 +109,7 @@ export async function submitCall(raw: Record<string, unknown>, ip: string): Prom
 }
 
 /**
- * Lists the latest submissions with only the fields safe to show anyone: no URLs, no IP hash.
+ * Lists the latest submissions with only the fields safe to show anyone: no submitted links, no IP hash.
  */
 export async function recentSubmissions(limit = 20): Promise<SubmissionRow[]> {
   if (!SB_URL || !SB_SERVICE) return [];
@@ -118,8 +118,8 @@ export async function recentSubmissions(limit = 20): Promise<SubmissionRow[]> {
 }
 
 /**
- * Returns 1 submission by id with the same public fields plus its place in the queue, or null for an unknown or
- * malformed id. Throws when Supabase fails, so a status page can tell an outage from a missing row.
+ * Returns 1 submission by id with the same public fields plus its start time and place in the queue, or null for an
+ * unknown or malformed id. Throws when Supabase fails, so a status page can tell an outage from a missing row.
  */
 export async function getSubmission(id: string): Promise<SubmissionStatus | null> {
   if (!SB_URL || !SB_SERVICE || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)) return null;

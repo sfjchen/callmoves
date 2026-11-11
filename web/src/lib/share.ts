@@ -3,6 +3,8 @@
 import { clock, pct, shortSpeaker } from "./format";
 import type { CallOutput, Moment } from "./types";
 
+export const NO_MOMENT = "No minute cleared the abnormal-move threshold during the call.";
+
 /**
  * Returns the moment whose rank is the ?m= value, else the top moment, or undefined for a call without moments.
  */
@@ -21,10 +23,13 @@ export function benchName(call: CallOutput): string {
 }
 
 /**
- * Shortens a quote to at most n characters, cutting at a word boundary and adding an ellipsis.
+ * Shortens a quote to at most n characters, cutting at the last word boundary (or mid-word when there is none) and
+ * adding an ellipsis.
  */
 export function clip(s: string, n: number): string {
-  return s.length <= n ? s : s.slice(0, s.lastIndexOf(" ", n - 3)).replace(/[,;:.]$/, "") + "...";
+  if (s.length <= n) return s;
+  const cut = s.lastIndexOf(" ", n - 3);
+  return s.slice(0, cut > 0 ? cut : n - 3).replace(/[,;:.]$/, "") + "...";
 }
 
 /**
