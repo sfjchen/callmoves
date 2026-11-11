@@ -47,6 +47,7 @@ export type Moment = {
   section?: "prepared" | "qa";
   question?: string | null;
   vs_consensus_pct?: number | null;
+  placebo_pct?: number | null;  // share of the call's other minutes whose 5-min adjusted move was at least as large
 };
 
 // Analyst consensus for 1 period and metric. basis: at_report is frozen with the reported quarter, before_call predates

@@ -1,9 +1,9 @@
 from datetime import timedelta
 
-from conftest import claim, make_bars, segs
+from conftest import T0, claim, make_bars, segs
 
 from callmoves import market
-from callmoves.score import confidence, rank_moments, timing_weight
+from callmoves.score import confidence, rank_moments, timing_weight, with_placebo
 
 
 def test_timing_weight_decays_and_floors():
@@ -91,3 +91,19 @@ def test_spillover_tags():
     assert spillover(-0.01, -0.003) == "mixed"
     assert spillover(-0.01, None) is None
     assert spillover(0.0009, 0.0013) is None        # the stock barely moved, nothing to attribute
+
+
+def test_placebo_pct_is_the_share_of_other_call_minutes_that_moved_at_least_as_much():
+    bars = market.adjusted_returns(make_bars(stock_bump={41: 0.012, 70: 0.03, 90: -0.03}))
+    bars["flagged"] = bars.index.isin([41])
+    ss = segs([(40, "CFO", "x")])
+    m = with_placebo(rank_moments([claim(0, ss[0])], ss, bars), bars, T0, T0 + timedelta(minutes=100))[0]
+    # 101 start minutes, minus 35 to 45 around the moment = 90, of which 66 to 70 and 86 to 90 hold a 3% bar
+    assert m.adj_ret_5m > 0.01 and m.placebo_pct == 10 / 90
+    assert with_placebo([m], bars, T0 + timedelta(minutes=36), T0 + timedelta(minutes=44))[0].placebo_pct is None
+    bars = make_bars(stock_bump={5: 0.03, 41: 0.012, 70: 0.03, 90: -0.03})
+    bars["ts"] -= timedelta(minutes=35)                                  # bar 0 is 9:25 ET, bars 0 to 9 touch the open
+    bars = market.adjusted_returns(bars)
+    m = m.model_copy(update={"ts": m.ts - timedelta(minutes=35)})
+    m = with_placebo([m], bars, T0 - timedelta(minutes=35), T0 + timedelta(minutes=65))[0]
+    assert m.placebo_pct == 10 / 80                                      # the 3% auction bar at 9:30 is left out

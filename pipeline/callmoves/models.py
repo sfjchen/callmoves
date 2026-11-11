@@ -102,6 +102,8 @@ class Moment(BaseModel):
     pre_move: bool = False   # the price event began in an earlier minute than the claim
     section: Literal["prepared", "qa"] = "prepared"
     question: str | None = None   # in Q&A, the analyst question this answer follows
+    # share of the call's other start minutes whose |5-min adjusted return| is at least this one's, None at the open
+    placebo_pct: float | None = None
     vs_consensus_pct: float | None = None
     consensus_role: Literal["reported", "next_quarter", "full_year"] | None = None
 

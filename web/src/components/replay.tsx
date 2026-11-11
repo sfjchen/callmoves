@@ -364,6 +364,9 @@ export default function Replay({ data, baseline = false }: { data: CallOutput; b
               ` Betas fitted on the 3 sessions before the call, R² ${data.context.r2.toFixed(2)}.`}</li>
           <li>Score = novelty × kind × |5-min adjusted return| × volume multiple × closeness to the minute. An EPS or
             revenue figure over 1% off consensus counts as new.</li>
+          <li>Each card compares its 5-min adjusted move with every other start minute of the call (skipping the
+            opening auction and the 5 min around it): a low share means the move it preceded was rare for this
+            call.</li>
           <li>&ldquo;Move began earlier&rdquo; means the price may have shaped the statement. Associations, not
             causes.</li>
           {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li>
@@ -425,6 +428,8 @@ function MomentCard({ m, atOpen, active, onSelect }: {
               {m.nearest_flag_min >= 0 && `, abnormal minute ${m.nearest_flag_min === 0 ? "at" :
                 `+${m.nearest_flag_min.toFixed(0)} min after`} the statement`}
             </p>
+            {m.placebo_pct != null && <p>
+              A random minute of this call moved at least this much {Math.round(m.placebo_pct * 100)}% of the time.</p>}
             <p>
               {m.pre_move && <span className="text-amber-700">Move began earlier. </span>}
               {m.confidence} confidence
