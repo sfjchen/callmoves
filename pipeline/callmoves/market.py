@@ -78,7 +78,16 @@ def fetch_polygon_bars(ticker: str, start: datetime, end: datetime, api_key: str
     params = {"adjusted": "true", "sort": "asc", "limit": 50000}
     rows, waits = [], 0
     while url:
-        r = httpx.get(url, params=params, headers={"Authorization": f"Bearer {key}"}, timeout=30)
+        try:
+            r = httpx.get(url, params=params, headers={"Authorization": f"Bearer {key}"}, timeout=30)
+        except httpx.TransportError:
+            # a dropped connection or failed DNS lookup is retried like a rate limit, the 45-call backfill
+            # runs for over an hour and died once on a 1-off DNS failure
+            if waits >= RATE_RETRIES:
+                raise
+            waits += 1
+            time.sleep(RATE_WAIT_S)
+            continue
         if r.status_code == 429 and waits < RATE_RETRIES:
             waits += 1
             time.sleep(float(r.headers.get("Retry-After", RATE_WAIT_S)))
