@@ -51,7 +51,8 @@ SPILL_MIN = 0.0015   # a peer move under 0.15% is flat
 
 def spillover(ret: float, peer_ret: float | None) -> str | None:
     """Did peers move with the stock: "sector" when the peer index went the same way by at least half the stock's
-    move, "company" when it stayed flat or went the other way, "mixed" in between, None without peers or when the stock itself barely moved."""
+    move, "company" when it stayed flat or went the other way, "mixed" in between, None without peers or when the
+    stock itself barely moved."""
     if peer_ret is None or abs(ret) < SPILL_MIN:
         return None
     if peer_ret * ret > 0 and abs(peer_ret) >= max(SPILL_MIN, abs(ret) / 2):
