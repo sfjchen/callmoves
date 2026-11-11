@@ -10,7 +10,8 @@ export const dynamic = "force-dynamic";
  * Renders the replay view for 1 call, or the 404 page for an unknown id. With ?study=callmoves|baseline&p=<id> it
  * adds the study bar, and the baseline condition gets the call stripped of everything CallMoves computed (moments,
  * flagged minutes, per-turn returns) so none of it reaches the browser. Outside the study, ?t=<seconds since audio
- * start> opens the replay at that point, as the /guess and /themes links do.
+ * start> opens the replay at that point, as the /guess and /themes links do (rounded up, so the cursor lands in
+ * the moment's turn).
  */
 export default async function CallPage({ params, searchParams }: PageProps<"/calls/[id]">) {
   const { id } = await params;

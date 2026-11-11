@@ -67,7 +67,7 @@ export default async function ThemesPage() {
             <ol className="space-y-1.5">
               {rows.map(({ c, m, atOpen }) => (
                 <li key={`${c.id}-${m.rank}`}>
-                  <Link href={`/calls/${c.id}?t=${Math.floor(m.t0_ms / 1000)}`}
+                  <Link href={`/calls/${c.id}?t=${Math.ceil(m.t0_ms / 1000)}`}
                     className="card card-hover block px-3 py-2">
                     <div className="flex flex-wrap items-baseline gap-x-2 text-xs text-nb-muted tabular">
                       <span className="text-sm font-semibold text-nb-text">{c.ticker}</span>

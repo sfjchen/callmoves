@@ -28,6 +28,7 @@ type Score = { right: number; total: number; seen: string[] };
 
 const KEY = "callmoves-guess";
 const CLIP_MS = 30_000; // audio played before the statement
+const STOP_EARLY_MS = 300; // timeupdate fires every 15 to 250 ms, so the clip stops this far ahead of the quote
 
 /**
  * Stores the running score, silently skipped when storage is blocked.
@@ -75,10 +76,12 @@ export default function Guess({ data }: { data: GuessData }) {
 
   const base = [...data.bars].reverse().find((b) => b.before)?.cum ?? 0;
   const points = data.bars.filter((b) => guess || b.before).map((b) => ({ min: b.min, ret: (b.cum - base) * 100 }));
-  const replayHref = `/calls/${data.id}?t=${Math.floor(m.t0_ms / 1000)}`;
+  const replayHref = `/calls/${data.id}?t=${Math.ceil(m.t0_ms / 1000)}`;
   const right = guess !== null && (guess === "up") === m.adj_ret_5m > 0;
 
-  // Records the answer, updates and stores the score, and picks the next call, unseen ones first.
+  /**
+   * Records the answer, updates and stores the score, and picks the next call, unseen ones first.
+   */
   function answer(g: "up" | "down") {
     if (guess) return;
     audioRef.current?.pause();
@@ -93,7 +96,9 @@ export default function Guess({ data }: { data: GuessData }) {
     setNext(others.length ? others[Math.floor(Math.random() * others.length)] : null);
   }
 
-  // Plays the 30 seconds before the statement and stops at it.
+  /**
+   * Plays the 30 seconds before the statement, stopped just ahead of it by onTimeUpdate.
+   */
   function playClip() {
     const a = audioRef.current;
     if (!a) return;
@@ -101,7 +106,9 @@ export default function Guess({ data }: { data: GuessData }) {
     void a.play();
   }
 
-  // Resets the score and the list of calls already played.
+  /**
+   * Resets the score and the list of calls already played.
+   */
   function resetScore() {
     const s = { right: 0, total: 0, seen: [] };
     setScore(s);
@@ -123,7 +130,7 @@ export default function Guess({ data }: { data: GuessData }) {
       <p className="mt-1 text-sm text-nb-muted">
         <span className="font-semibold text-nb-text">{data.ticker}</span> {shortQuarter(data.quarter)}
         {data.company && <> · {data.company}</>} · call at {clock(data.callStart)} ET. Below is everything up to
-        the statement CallMoves ranked first, at {clock(m.ts)} ET.
+        the statement CallMoves ranked #{m.rank}, at {clock(m.ts)} ET.
       </p>
 
       <section className="card mt-3 p-3" aria-label="Price before the statement">
@@ -156,7 +163,7 @@ export default function Guess({ data }: { data: GuessData }) {
             ▶ Play the 30 s before</button>
           <audio ref={audioRef} src={data.audioUrl} preload="none" className="hidden"
             onError={() => setAudioOk(false)} onTimeUpdate={(e) => {
-              if (!guess && e.currentTarget.currentTime * 1000 >= m.t0_ms) e.currentTarget.pause();
+              if (!guess && e.currentTarget.currentTime * 1000 >= m.t0_ms - STOP_EARLY_MS) e.currentTarget.pause();
             }} />
           <button onClick={() => audioRef.current?.pause()} className="text-sm text-nb-accent underline">pause</button>
         </div>

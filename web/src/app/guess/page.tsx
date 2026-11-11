@@ -1,5 +1,5 @@
-// Guess the move: 1 call's price path and transcript cut just before its top-ranked moment, then the reveal. The
-// server sends only what the game needs, with every per-turn return and flagged minute removed.
+// Guess the move: 1 call's price path and transcript cut just before its top-ranked moment, then the reveal. Per-turn
+// returns and flagged minutes are left out, the answer itself is in the props (as in /api/calls/[id]/moments).
 import Link from "next/link";
 import { getCall, listMoments } from "@/lib/data";
 import { WINDOW_MS } from "@/lib/format";
@@ -11,16 +11,18 @@ const LEAD_MS = 20 * 60_000; // minutes of price shown before the statement
 const TAIL_MS = 2 * 60_000;  // minutes shown after the 5-minute window once revealed
 
 /**
- * Renders the game for ?call=<id>, or a random call with a top moment during market hours. Calls read at the next
- * open are left out, their moments all share 1 overnight move.
+ * Renders the game for ?call=<id>, or a random call, on its highest-ranked moment whose move began after the
+ * statement (a pre_move one would show the answer on the chart). Calls read at the next open are left out, their
+ * moments all share 1 overnight move.
  */
 export default async function GuessPage({ searchParams }: PageProps<"/guess">) {
   const sp = await searchParams;
-  const pool = (await listMoments()).filter((c) => c.moments.length > 0 && !c.atOpen).map((c) => c.summary.id);
+  const pool = (await listMoments()).filter((c) => !c.atOpen && c.moments.some((m) => !m.pre_move))
+    .map((c) => c.summary.id);
   const asked = typeof sp.call === "string" && pool.includes(sp.call) ? sp.call : null;
   // eslint-disable-next-line react-hooks/purity -- the page renders per request, a new random call each time
   const call = pool.length ? await getCall(asked ?? pool[Math.floor(Math.random() * pool.length)]) : null;
-  const m = call?.moments[0];
+  const m = call?.moments.find((x) => !x.pre_move);
   if (!call || !m) {
     return (
       <p className="mx-auto max-w-3xl text-nb-muted">

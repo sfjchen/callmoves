@@ -7,6 +7,7 @@ import "./globals.css";
 
 const patrick = Patrick_Hand({ weight: "400", subsets: ["latin"], variable: "--font-patrick" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const NAV = [["/guess", "Guess the move"], ["/themes", "Themes"], ["/submit", "Submit a call"]] as const;
 
 export const metadata: Metadata = {
   title: "CallMoves",
@@ -26,7 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Link href="/" className="hand text-2xl text-nb-text">CallMoves</Link>
           <span className="hidden sm:inline text-xs text-nb-muted">what moved the stock during the earnings call</span>
           <nav className="ml-auto flex flex-wrap justify-end gap-x-3 gap-y-0.5 text-sm">
-            {[["/guess", "Guess the move"], ["/themes", "Themes"], ["/submit", "Submit a call"]].map(([href, label]) => (
+            {NAV.map(([href, label]) => (
               <Link key={href} href={href} className="text-nb-accent hover:underline underline-offset-2">{label}</Link>
             ))}
           </nav>
