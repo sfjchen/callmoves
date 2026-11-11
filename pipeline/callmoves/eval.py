@@ -14,12 +14,18 @@ shifted claims stay inside the call, in the same session and with the same bars.
 compared the call's volatility with quieter minutes instead (found 2026-11-10). Over several calls it adds a sign
 test: under no timing signal, the real score beats the median shift in half the calls. Calls on the same day and
 sector are not independent, so the pooled p-value is a rough guide, not a test of the shipped Claude path.
+
+    python -m callmoves.eval data/*/ --stats
+
+Stats sums what each call cost and took from its stats.json (written by ingest and run since 2026-11-10), against
+the spec's target of a 60-minute call in under 15 minutes for under $2.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import math
+from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -28,7 +34,7 @@ from pydantic import BaseModel
 
 from . import market
 from .claims import extract_claims_rules
-from .models import CallOutput, Moment
+from .models import CallOutput, Moment, Stats
 from .novelty import judge_novelty_rules
 from .run import run
 from .score import rank_moments
@@ -96,7 +102,21 @@ def main(argv=None):
                     help="call folder (runs the pipeline) or a JSON written by callmoves.run, several for --placebo")
     ap.add_argument("--labels", type=Path, help="JSON list of {ts, note}, ts ISO with offset")
     ap.add_argument("--placebo", action="store_true", help="compare against claims shifted in time, no labels")
+    ap.add_argument("--stats", action="store_true", help="cost and processing time per call from stats.json")
     args = ap.parse_args(argv)
+    if args.stats:
+        rows = [Stats(**json.loads((c / "stats.json").read_text())) for c in args.calls if (c / "stats.json").exists()]
+        rows = [r for r in rows if r.gpu_usd is not None and r.claude_usd is not None]
+        for k, f in {"audio min": lambda r: r.audio_min, "processing min": lambda r: (r.ingest_s + r.claude_s) / 60,
+                     "min per audio hour": lambda r: (r.ingest_s + r.claude_s) / r.audio_min,
+                     "GPU $": lambda r: r.gpu_usd, "Claude $": lambda r: r.claude_usd,
+                     "total $": lambda r: r.total_usd}.items():
+            xs = sorted(f(r) for r in rows)
+            print(f"{k}: median {xs[len(xs) // 2]:.2f}, min {xs[0]:.2f}, max {xs[-1]:.2f}")
+        print(f"total ${sum(r.total_usd for r in rows):.2f} for {len(rows)} of {len(args.calls)} calls with both GPU "
+              f"and Claude cost recorded, GPUs: "
+              f"{dict(sorted(Counter(r.gpu for r in rows).items()))}")
+        return
     if args.placebo:
         wins = 0
         for call in args.calls:
