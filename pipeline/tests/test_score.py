@@ -81,3 +81,12 @@ def test_claims_with_no_flag_ahead_keep_1_per_5_minute_window():
     moments = rank_moments([claim(i, s) for i, s in enumerate(ss)], ss, bars)
     assert all(m.nearest_flag_min == -1.0 for m in moments)
     assert len(moments) == 2 and abs(moments[0].t0_ms - moments[1].t0_ms) >= 5 * 60_000
+
+
+def test_spillover_tags():
+    from callmoves.score import spillover
+    assert spillover(-0.01, -0.006) == "sector"
+    assert spillover(-0.01, 0.0005) == "company"
+    assert spillover(-0.01, 0.004) == "company"     # peers went the other way
+    assert spillover(-0.01, -0.003) == "mixed"
+    assert spillover(-0.01, None) is None

@@ -9,10 +9,13 @@ import hashlib
 import json
 import math
 import os
+import re
 import time
+from collections import Counter
 from datetime import timedelta
 from pathlib import Path
 
+import pandas as pd
 from dotenv import load_dotenv
 
 from . import llm, market
@@ -23,6 +26,8 @@ from .models import (
     CallOutput,
     CallSummary,
     Claim,
+    Context,
+    ContextSeries,
     Estimate,
     OpenReaction,
     Stats,
@@ -34,6 +39,16 @@ from .score import rank_moments
 from .transcript import align, load_call
 
 SPARK_POINTS = 60   # library sparkline resolution
+# topics a library card can show, matched on each claim's metric and quote; a call shows its 3 most frequent
+THEMES = {
+    "Guidance": r"guidance|outlook|full[- ]year|expect\w* .*(20\d\d|next quarter)",
+    "NII": r"net interest income|\bNII\b|net interest margin", "AI": r"\bAI\b|artificial intelligence|data center",
+    "Capex": r"capex|capital expenditure|capital spending", "Margins": r"margin", "Credit": r"credit|charge-off|"
+    r"provision|delinquen", "Buybacks": r"buyback|repurchase|dividend", "Pricing": r"pricing|price increase",
+    "Costs": r"expense|cost|efficien|head ?count", "Tariffs": r"tariff", "Deals": r"investment banking|M&A|pipeline",
+    "Demand": r"demand|volume|traffic|orders|backlog", "Pipeline": r"approval|trial|launch|FDA",
+}
+CONTEXT_PAD = timedelta(minutes=15)   # comps panel minutes kept before and after the call
 
 
 def _cached(path: Path, key: str, field: str, model, build):
@@ -54,8 +69,7 @@ def run(fixture: Path) -> CallOutput:
     moments, then fill the library summary and each segment's 5-minute adjusted return."""
     meta, segments = load_call(fixture / "call.json")
     segments = align(meta, segments)
-    bars_df = market.load_bars_csv(fixture / "bars.csv")
-    bars_df = market.flag_abnormal(market.adjusted_returns(bars_df))
+    bars_df, ctx, fit = market.load_call_bars(fixture, meta.ticker, meta.etf, meta.call_start)
     release = (fixture / "release.txt").read_text()
     prior = (fixture / "prior_transcript.txt").read_text()
     call_end = meta.call_start + timedelta(milliseconds=max(s.t1_ms for s in segments) - meta.audio_offset_ms)
@@ -95,19 +109,35 @@ def run(fixture: Path) -> CallOutput:
                     for s in segments]
     bars = [Bar(**{k: row[k] for k in ("ts", "px", "etf_px", "vol", "adj_ret", "cum_adj_ret", "vol_mult", "flagged")})
             for _, row in bars_df.iterrows()]
+    context = None
+    if ctx is not None:
+        grid = bars_df[(bars_df["ts"] >= meta.call_start - CONTEXT_PAD) & (bars_df["ts"] <= call_end + CONTEXT_PAD)]
+        wide = ctx[ctx["ts"] >= grid["ts"].min() - CONTEXT_PAD].pivot_table(
+            index="ts", columns="sym", values="px", aggfunc="last").sort_index().ffill()
+        at = pd.merge_asof(grid[["ts"]], wide.reset_index(), on="ts", direction="backward")
+        peers = market.PEERS.get(meta.ticker, [])
+        roles = {meta.ticker: "stock", meta.etf: "sector"} | {p: "peer" for p in peers} | market.CROSS_ASSETS
+        context = Context(
+            ts=list(at["ts"]), benchmark=fit["benchmark"], betas=fit["betas"], r2=fit["r2"],
+            series=[ContextSeries(sym=sym, role=role, px=[None if pd.isna(x) else round(float(x), 4) for x in at[sym]])
+                    for sym, role in roles.items() if sym in at])
     cum = [b.cum_adj_ret for b in bars if meta.call_start <= b.ts <= call_end]
     step = max(1, math.ceil(len(cum) / SPARK_POINTS))
     top = moments[0] if moments else None
+    counts = Counter(t for c in claims for t, rx in THEMES.items()
+                     if re.search(rx, f"{c.metric} {c.quote}", re.IGNORECASE))
     summary = CallSummary(
         id=meta.call_id, ticker=meta.ticker, quarter=meta.quarter, company=meta.company, call_start=meta.call_start,
+        etf=meta.etf, themes=[t for t, _ in counts.most_common(3)],
         n_moments=len(moments), n_flagged=sum(b.flagged for b in bars),
         spark=[c for i, c in enumerate(cum) if i % step == 0 or i == len(cum) - 1],
-        top_moment=top and TopMoment(ts=top.ts, quote=top.quote, adj_ret_5m=top.adj_ret_5m, speaker=top.speaker))
+        top_moment=top and TopMoment(ts=top.ts, quote=top.quote, adj_ret_5m=top.adj_ret_5m, speaker=top.speaker,
+                                  vol_mult=top.vol_mult, spillover=top.spillover))
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=bars, claims=claims, n_claims=len(claims),
                       summary=summary, moments=moments, llm_used=llm_used,
                       candidate_seg_ids=[s.seg_id for s in candidates],
                       open_reaction=OpenReaction(**reaction) if reaction else None, estimates=estimates,
-                      stats=Stats(**stats) if stats else None)
+                      stats=Stats(**stats) if stats else None, context=context)
 
 
 def main(argv=None):

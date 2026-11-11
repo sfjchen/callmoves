@@ -46,6 +46,21 @@ def confidence(novel: bool, adj_ret: float, vol_mult: float, minutes_to_flag: fl
     return "low"
 
 
+SPILL_MIN = 0.0015   # a peer move under 0.15% is flat
+
+
+def spillover(ret: float, peer_ret: float | None) -> str | None:
+    """Did peers move with the stock: "sector" when the peer index went the same way by at least half the stock's
+    move, "company" when it stayed flat or went the other way, "mixed" in between, None without peers."""
+    if peer_ret is None:
+        return None
+    if peer_ret * ret > 0 and abs(peer_ret) >= max(SPILL_MIN, abs(ret) / 2):
+        return "sector"
+    if abs(peer_ret) < SPILL_MIN or peer_ret * ret < 0 or abs(peer_ret) <= abs(ret) / 4:
+        return "company"
+    return "mixed"
+
+
 def market_relevant(claim: Claim) -> bool:
     """New information, or an EPS or revenue figure that beats or misses consensus by more than 1%."""
     return bool(claim.novel) or abs(claim.vs_consensus_pct or 0.0) > CONSENSUS_GAP
@@ -98,7 +113,10 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
             rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg.time_of(c.quote),
             speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
-            etf_ret_5m=w["etf_ret"], vol_mult=w["vol_mult"], nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
+            etf_ret_5m=w["etf_ret"], bench_ret_5m=w.get("bench_ret"),
+            spy_ret_5m=w.get("spy_ret"), peer_ret_5m=w.get("peer_ret"),
+            spillover=None if reaction else spillover(w["ret"], w.get("peer_ret")), vol_mult=w["vol_mult"],
+            nearest_flag_min=(dist if not math.isinf(dist) else -1.0),
             vs_consensus_pct=c.vs_consensus_pct, consensus_role=c.consensus_role, pre_move=pre_move,
             section="qa" if in_qa else "prepared", question=asked[-1].text[:QUESTION_CHARS] if asked else None,
             score=score,

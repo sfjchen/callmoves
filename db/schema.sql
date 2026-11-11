@@ -78,3 +78,24 @@ create table if not exists public.callmoves_study (
 );
 alter table public.callmoves_study enable row level security;
 create index if not exists callmoves_study_ip on public.callmoves_study (ip_hash, created_at);
+
+-- Blind attribution labels: for 1 flagged price event (flag_id = "<call id>@<event start, ISO UTC>"), the
+-- statement a rater says most plausibly moved the stock, or none / release / market / other. Raters: "user" (the
+-- hidden /label page), "opus-blind" (Claude Opus on the same blind view), "agent-protocol" (a labeling agent
+-- following pipeline/labels/PROTOCOL.md). Service role only, like submissions.
+create table if not exists public.callmoves_labels (
+  id bigint generated always as identity primary key,
+  created_at timestamptz not null default now(),
+  flag_id text not null check (char_length(flag_id) <= 80),
+  call_id text not null check (char_length(call_id) <= 40),
+  flag_ts timestamptz not null,
+  rater text not null check (rater ~ '^[a-z0-9-]{2,40}$'),
+  choice text not null check (choice in ('statement', 'none', 'release', 'market', 'other')),
+  seg_id int,
+  t_ms int,                -- audio position of the chosen sentence, set with seg_id
+  confidence smallint not null default 2 check (confidence between 1 and 3),
+  reason text check (char_length(reason) <= 500),
+  unique (flag_id, rater),
+  check ((choice = 'statement') = (seg_id is not null and t_ms is not null))
+);
+alter table public.callmoves_labels enable row level security;

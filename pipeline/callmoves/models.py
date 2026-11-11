@@ -90,6 +90,11 @@ class Moment(BaseModel):
     adj_ret_5m: float
     ret_5m: float = 0.0
     etf_ret_5m: float = 0.0
+    bench_ret_5m: float | None = None   # the benchmark adj_ret_5m is measured against (the ETF in the "etf" model)
+    spy_ret_5m: float | None = None
+    peer_ret_5m: float | None = None    # equal-weight peer index over the same bars
+    # did peers move with the stock in these minutes: "sector" (with it), "company" (flat or against), "mixed"
+    spillover: Literal["sector", "company", "mixed"] | None = None
     vol_mult: float
     nearest_flag_min: float
     score: float
@@ -117,6 +122,22 @@ class Estimate(BaseModel):
     source: Literal["alphavantage"]
 
 
+class ContextSeries(BaseModel):
+    sym: str
+    role: Literal["stock", "sector", "peer", "market", "rates", "dollar", "credit", "gold", "oil"]
+    px: list[float | None]   # last print at or before each Context.ts minute
+
+
+class Context(BaseModel):
+    """Peer and cross-asset prices over the call, 1 shared minute grid, for the comps panel, plus the benchmark
+    the abnormal returns use and its fit (betas on the days before the call)."""
+    ts: list[datetime]
+    series: list[ContextSeries]
+    benchmark: Literal["etf", "market", "peers"] = "etf"
+    betas: dict[str, float] = {}
+    r2: float | None = None
+
+
 class OpenReaction(BaseModel):
     """The move from the last trade before the call to the minutes after the next open, for a call held while the
     stock was closed."""
@@ -133,6 +154,8 @@ class TopMoment(BaseModel):
     quote: str
     adj_ret_5m: float
     speaker: str
+    vol_mult: float = 1.0
+    spillover: Literal["sector", "company", "mixed"] | None = None
 
 
 class CallSummary(BaseModel):
@@ -142,6 +165,8 @@ class CallSummary(BaseModel):
     quarter: str
     company: str | None
     call_start: datetime
+    etf: str | None = None
+    themes: list[str] = []   # up to 3 topics the claims kept coming back to, e.g. NII, AI, guidance
     n_moments: int
     n_flagged: int
     spark: list[float]
@@ -181,3 +206,4 @@ class CallOutput(BaseModel):
     open_reaction: OpenReaction | None = None   # set when the stock did not trade during the call
     estimates: list[Estimate] = []
     stats: Stats | None = None
+    context: Context | None = None

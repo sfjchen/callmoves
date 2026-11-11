@@ -182,3 +182,57 @@ def test_open_volume_is_not_flagged_against_the_pre_market_baseline_but_a_later_
     out = market.flag_abnormal(market.adjusted_returns(df))
     assert out.loc[30, "vol_mult"] == 1.0 and not out.loc[30, "flagged"]          # 9:30 open, no session baseline yet
     assert out.loc[50, "flagged"]
+
+
+def make_context(beta=1.5, days=(7, 8, 9), call_jump=0.0, seed=2):
+    """Long context table for stock X, ETF IGV, SPY and peers P1 P2 on 3 prior sessions and the call day (T0's),
+    with X = beta x IGV + noise on every day and a jump of call_jump in X at T0 + 30 min on the call day."""
+    rng = np.random.default_rng(seed)
+    rows = []
+    for d in (*days, 13):
+        ts = [datetime(2026, 10, d, 10, 0, tzinfo=ET) + timedelta(minutes=i) for i in range(120)]
+        etf = rng.normal(0, 0.001, 120)
+        stock = beta * etf + rng.normal(0, 0.0002, 120)
+        if d == 13:
+            stock[30] += call_jump
+        px = {"X": 100 * np.cumprod(1 + stock), "IGV": 50 * np.cumprod(1 + etf),
+              "SPY": 400 * np.cumprod(1 + etf / 2), "P1": 20 * np.cumprod(1 + etf), "P2": 30 * np.cumprod(1 + etf)}
+        rows += [{"ts": t, "sym": s, "px": p[i], "vol": 1000.0} for s, p in px.items() for i, t in enumerate(ts)]
+    ctx = pd.DataFrame(rows)
+    ctx["ts"] = pd.to_datetime(ctx["ts"], utc=True)
+    return ctx
+
+
+def call_day_bars(ctx):
+    """The call day's X and IGV rows from a context table, as bars."""
+    day = ctx[ctx["ts"] >= pd.Timestamp("2026-10-13", tz="UTC")]
+    wide = day.pivot(index="ts", columns="sym", values="px").reset_index()
+    return pd.DataFrame({"ts": wide["ts"], "px": wide["X"], "etf_px": wide["IGV"], "vol": 10000.0})
+
+
+def test_market_model_fits_betas_on_prior_days_only():
+    ctx = make_context(call_jump=0.05)
+    bars, fit = market.with_context(call_day_bars(ctx), ctx, "X", "IGV", T0, "market")
+    assert fit["benchmark"] == "market" and fit["n"] > 300 and fit["r2"] > 0.9
+    # SPY is IGV / 2 here, so only the summed exposure is identified: 1.5 = b_IGV + b_SPY / 2
+    assert abs(fit["betas"]["IGV"] + fit["betas"]["SPY"] / 2 - 1.5) < 0.05
+    adj = market.adjusted_returns(bars)
+    assert adj.loc[30, "adj_ret"] > 0.045   # the call-day jump survives, the beta-driven part is removed
+    assert adj.drop(index=30)["adj_ret"].abs().max() < 0.002
+
+
+def test_etf_benchmark_and_missing_context_fall_back_to_the_etf():
+    ctx = make_context()
+    bars = call_day_bars(ctx)
+    for c, b in ((ctx, "etf"), (None, "market")):
+        out, fit = market.with_context(bars, c, "X", "IGV", T0, b)
+        assert fit["benchmark"] == "etf" and np.allclose(out["bench_px"], out["etf_px"])
+
+
+def test_forward_window_reports_peer_and_benchmark_moves(monkeypatch):
+    monkeypatch.setitem(market.PEERS, "X", ["P1", "P2"])
+    ctx = make_context(call_jump=0.02)
+    bars, _ = market.with_context(call_day_bars(ctx), ctx, "X", "IGV", T0, "peers")
+    w = market.forward_window(market.adjusted_returns(bars), T0 + timedelta(minutes=30))
+    assert w["peer_ret"] is not None and w["spy_ret"] is not None
+    assert abs(w["adj_ret"] - (w["ret"] - w["bench_ret"])) < 1e-12
