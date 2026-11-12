@@ -11109,7 +11109,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.06666666666666667,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11140,7 +11141,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.045454545454545456,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11171,7 +11173,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.3181818181818182,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11202,7 +11205,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "where you've been versus maybe where that mix is heading as you look to 2030.",
-   "placebo_pct": 0.6122448979591837,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11233,7 +11237,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thanks and good morning. I had a couple questions around PowerGen. Two quarters ago you detailed some of the Prime Power projects you've done and gave gigawatt numbers. Do you have any update there? Is Prime Power still expanding for you, either in general, if you have any update on gigawatts? And then you mentioned you're taking orders into 29. Does that imply that 28 is sold out? Are you selling",
-   "placebo_pct": 0.022727272727272728,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -12509,5 +12514,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1983900
 }

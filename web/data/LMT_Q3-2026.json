@@ -7015,7 +7015,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7046,7 +7047,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Yeah. Hey, Jim. Thanks. Good morning, everybody. Can we talk a little bit more about Vectus and, you know, what that means for you guys, CCA, and then, I mean, just part of a broader question of, you know, what is going on in the skunkworks, if you can give us a little bit of flavor for that",
-   "placebo_pct": 0.29545454545454547,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7077,7 +7079,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "I wanted to maybe follow up on that, but ask on F-35 specifically, would just be interested, to see how the F-35 agreement changes the margin profile across production, sustainment, and development, and how you think about Aero's ability to expand beyond the 10% margin marker. And just on Lot 20, how do we think about the signing of the agreement and timing there and the margin profile on that spe",
-   "placebo_pct": 0.32653061224489793,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -8201,5 +8204,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1919170
 }

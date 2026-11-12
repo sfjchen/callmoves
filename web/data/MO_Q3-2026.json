@@ -5034,7 +5034,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "the pressure on the smoker is beginning to ease? And then secondly, on Cowboy Cut, can you maybe help us understand where you see the sub-brands positioning within the broader Marlborough portfolio? I know initially it was launched at a discount to Marlborough Black, but we're now seeing it priced above Black in some states, while in other states it's sort of yet to be introduced. How should we th",
-   "placebo_pct": 0.5172413793103449,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -5688,5 +5689,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1246240
 }

@@ -11,7 +11,7 @@ import {
   clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
 } from "@/lib/format";
 import Comps from "@/components/comps";
-import { benchName } from "@/lib/share";
+import { benchName, clip } from "@/lib/share";
 
 const MAX_TICKS = 40;  // more search matches than this would fill the chart with ticks, so it shows none
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
@@ -22,19 +22,44 @@ const GLYPH = { up: "▲", down: "▼", flat: "" };
 type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
 /**
+ * Records a guess in the cm_guesses cookie (call id -> right) unless the call was guessed before, and returns whether
+ * it counted plus the right and total counts. It lives outside the component because React's rules forbid writing
+ * document.cookie during a component's own code.
+ */
+function recordGuess(id: string, right: boolean): { scored: boolean; k: number; n: number } {
+  let prev: Record<string, boolean> = {};
+  try {
+    prev = JSON.parse(decodeURIComponent(document.cookie.match(/(?:^|; )cm_guesses=([^;]*)/)?.[1] ?? "{}"));
+  } catch { /* a malformed cookie starts the score over */ }
+  const scored = !(id in prev);
+  const s = scored ? { ...prev, [id]: right } : prev;
+  document.cookie = `cm_guesses=${encodeURIComponent(JSON.stringify(s))}; path=/; max-age=31536000; samesite=lax`;
+  return { scored, k: Object.values(s).filter(Boolean).length, n: Object.keys(s).length };
+}
+
+/**
  * Renders the replay view: header, price chart, audio player, ranked moments and transcript. All times are in ms
  * since audio t=0, which is the call start minus audio_offset_ms, so wall clock = start + ms. `baseline` (study
  * condition) hides the moments panel, the scoring explanation and the numbered markers. `initialRank` (from a shared
  * ?m= link) is the moment selected on load. Search and the Q&A band come from the transcript alone, so they stay in
- * the baseline view.
+ * the baseline view. `guess` (?guess=1) gets a call cut at its top moment and hides what baseline hides until the
+ * reader answers, then fetches the full call and shows it in place with the answer and a score kept in the
+ * cm_guesses cookie (call id -> right), which /guess reads to skip calls already guessed.
  */
-export default function Replay({ data, baseline = false, initialRank }: {
+export default function Replay({ data: initial, baseline = false, initialRank, guess }: {
   data: CallOutput; baseline?: boolean; initialRank?: number;
+  guess?: { ms: number; quote: string; speaker: string; bench: string };
 }) {
+  const [full, setFull] = useState<CallOutput | null>(null); // the whole call, fetched once the guess is in
+  const [result, setResult] = useState<({ right: boolean } & ReturnType<typeof recordGuess>) | null>(null);
+  const [guessState, setGuessState] = useState<"ask" | "busy" | "error">("ask");
+  const asking = useRef(false);
+  const data = full ?? initial;
+  const hide = baseline || (!!guess && !full);
   const offset = data.call.audio_offset_ms ?? 0;
   const start = useMemo(() => new Date(data.call.call_start).getTime() - offset, [data.call.call_start, offset]);
   const endMs = new Date(data.call_end).getTime() - start;
-  const [cursorMs, setCursorMs] = useState(
+  const [cursorMs, setCursorMs] = useState(guess?.ms ??
     (data.moments.find((m) => m.rank === initialRank) ?? data.moments[0])?.t0_ms ?? offset);
   const [audioOk, setAudioOk] = useState<boolean | null>(null); // null until the HEAD check on the Supabase URL answers
   useEffect(() => {
@@ -139,12 +164,30 @@ export default function Replay({ data, baseline = false, initialRank }: {
 
   const noAudio = !data.call.audio_url || audioOk === false;
 
+  // Fetches the full call, scores the guess unless this call was guessed before, and reveals the rest in place.
+  async function answer(up: boolean) {
+    if (asking.current) return; // a 2nd click before the re-render would score the call twice
+    asking.current = true;
+    setGuessState("busy");
+    try {
+      const r = await fetch(`/api/calls/${data.summary.id}`);
+      if (!r.ok) throw new Error(`status ${r.status}`);
+      const c = (await r.json()) as CallOutput;
+      const right = up === c.moments[0].adj_ret_5m > 0;
+      setResult({ right, ...recordGuess(c.summary.id, right) });
+      setFull(c);
+    } catch {
+      asking.current = false;
+      setGuessState("error");
+    }
+  }
+
   return (
     <div className="max-w-7xl">
       <div
         className={
-          "lg:hidden sticky top-0 z-10 -mx-6 -mt-5 mb-3 px-6 py-1.5 bg-nb-bg/95 border-b border-nb-border " +
-          "text-xs tabular text-neutral-700"
+          "lg:hidden sticky top-0 z-10 -mx-4 sm:-mx-6 -mt-5 mb-3 px-4 sm:px-6 py-1.5 bg-nb-bg/95 " +
+          "border-b border-nb-border text-xs tabular text-neutral-700"
         }
       >
         {clock(new Date(start + cursorMs))} ET · {mmss(cursorMs - offset)}
@@ -184,7 +227,40 @@ export default function Replay({ data, baseline = false, initialRank }: {
         )}
       </div>
 
-      {!baseline && (
+      {guess && (
+        <section className="card mt-2 mb-3 px-3 py-2.5 border-nb-accent" aria-label="Guess the move">
+          {!result ? (
+            <>
+              <p className="text-[15px] leading-snug">
+                <span className="font-semibold">Guess the move.</span> At {clock(new Date(start + guess.ms))} ET{" "}
+                {shortSpeaker(guess.speaker)} said &ldquo;{clip(guess.quote, 160)}&rdquo;. Over the next 5
+                minutes, did {data.call.ticker} beat or trail {guess.bench}?
+              </p>
+              <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
+                {([[true, "▲ Beat"], [false, "▼ Trail"]] as const).map(([up, label]) => (
+                  <button key={label} onClick={() => answer(up)} disabled={guessState === "busy"}
+                    className="rounded-full bg-nb-accent px-3 py-0.5 text-white disabled:opacity-50">{label}</button>
+                ))}
+                <span className="text-xs text-nb-muted">{guessState === "error" ?
+                  "Could not load the answer, try again." : "The chart and transcript stop here."}</span>
+              </div>
+            </>
+          ) : (
+            <p className="text-[15px] leading-snug">
+              <span className="font-semibold">{result.right ? "Right." : "Wrong."}</span> {data.call.ticker}{" "}
+              {lead.adj_ret_5m > 0 ? "beat" : "trailed"} {guess.bench} by{" "}
+              <span className={`font-semibold tabular ${DIR_TEXT[dir(lead.adj_ret_5m)]}`}>
+                {GLYPH[dir(lead.adj_ret_5m)]} {(Math.abs(lead.adj_ret_5m) * 100).toFixed(2)}%</span> over the next
+              5 minutes.{" "}
+              {result.scored ? "" : "Guessed before, so not scored. "}Score {result.k} of {result.n}.{" "}
+              <a href="/guess" className="text-nb-accent underline underline-offset-2">
+                Next call</a>
+            </p>
+          )}
+        </section>
+      )}
+
+      {!hide && (
         <section className="card mt-2 mb-3 px-3 py-2.5" aria-label="Top moment">
           {lead ? (
             <p className="text-[15px] leading-snug">
@@ -193,8 +269,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
                 {GLYPH[dir(lead.adj_ret_5m)]} {pct(lead.adj_ret_5m)}</span>{" "}
               vs {benchLabel} in 5 min on {lead.vol_mult.toFixed(1)}x volume
               {lead.spillover && <span className="text-nb-muted"> ({SPILL_LABEL[lead.spillover]})</span>}, after{" "}
-              {shortSpeaker(lead.speaker)} said &ldquo;{lead.quote.length > 160 ? lead.quote.slice(0, 157) + "..." :
-                lead.quote}&rdquo;
+              {shortSpeaker(lead.speaker)} said &ldquo;{clip(lead.quote, 160)}&rdquo;
             </p>
           ) : (
             <p className="text-sm text-nb-muted">No minute cleared the abnormal-move threshold during the call.</p>
@@ -326,7 +401,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
             </ResponsiveContainer>
           </div>
           <div className="text-xs text-nb-muted mt-1">
-            {baseline ? "Grey band is the call" :
+            {hide ? "Grey band is the call" :
               "Grey band is the call, orange dots abnormal minutes, " +
                 "numbered dots moments with their 5-min window shaded"}
             {hits.length > 0 && hits.length <= MAX_TICKS && ", grey ticks at the bottom search matches"}.
@@ -351,7 +426,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
       )}
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-        {!baseline && <section className="lg:col-span-2 card p-3">
+        {!hide && <section className="lg:col-span-2 card p-3">
           <h2 className="text-lg mb-1">Moments, ranked</h2>
           {data.moments.length === 0 ? (
             <p className="text-sm text-nb-muted">
@@ -373,7 +448,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
           )}
         </section>}
 
-        <section className={`${baseline ? "lg:col-span-5" : "lg:col-span-3"} card p-3`}>
+        <section className={`${hide ? "lg:col-span-5" : "lg:col-span-3"} card p-3`}>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-2">
             <h2 id="transcript" className="text-lg">Transcript</h2>
             <input
@@ -403,7 +478,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
           />
         </section>
       </div>
-      {!baseline && <details className="mt-3 text-xs text-nb-muted">
+      {!hide && <details className="mt-3 text-xs text-nb-muted">
         <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-nb-text">
           How moments are found</summary>
         <ul className="mt-1 max-w-3xl space-y-0.5 tabular">

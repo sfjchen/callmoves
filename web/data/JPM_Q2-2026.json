@@ -10429,7 +10429,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.32075471698113206,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": 0.09838998211091231,
    "consensus_role": "reported"
   },
@@ -10460,7 +10461,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Hi, in response to the earlier question, you were asked about operating negative as negative and you gave the reasons for that, but is operating negative the way you look at things? I mean, when you grow revenues 15% core year over year, percentage wise, it's negative, but dollar wise, I think it's positive when I look at slide two, and I don't know why- It's really positive. I'm not gonna create ",
-   "placebo_pct": 0.4791666666666667,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10491,7 +10493,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thank you and glad to hear you're reading. My parents will be proud. Thanks, Jimmy.",
-   "placebo_pct": 1.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10522,7 +10525,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Yeah, well, all fair. Appreciate it. And then just maybe a quick one on regulation. Is there any update on the thoughts on potential for adjustments to the regulatory proposals? Since I know you and your peers have been particularly vocal around the GSIB surcharge and some elements of Basel 3. Just curious if there's been any developments there.",
-   "placebo_pct": 0.9375,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -11995,5 +11999,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 363370
 }

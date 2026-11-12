@@ -6273,7 +6273,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on that and whether you expect those trends to change at all?",
-   "placebo_pct": 0.046511627906976744,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6304,7 +6305,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "you know, more native AI interactive elements to the app. Right now it's been like kind of an add-on with video, but I'm curious how you're thinking about like the long-term, could these become much more core versus kind of the tap and learn gamified tap and learn use case that we started with at Duolingo? And, you know, how does that change, I guess, the business model for Duolingo as you integra",
-   "placebo_pct": 0.5348837209302325,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6335,7 +6337,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "your questions. Thanks guys. Could you guys give some color on the paid subscriber additions relative to daily active users? Paid subs growth has continued to slow year over year despite DAUs picking back up. Is that predominantly a function of extended free trials or could you give any additional color on that and whether you expect those trends to change at all?",
-   "placebo_pct": 0.23255813953488372,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6366,7 +6369,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "you know, more native AI interactive elements to the app. Right now it's been like kind of an add-on with video, but I'm curious how you're thinking about like the long-term, could these become much more core versus kind of the tap and learn gamified tap and learn use case that we started with at Duolingo? And, you know, how does that change, I guess, the business model for Duolingo as you integra",
-   "placebo_pct": 0.13953488372093023,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -6845,5 +6849,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 251250
 }

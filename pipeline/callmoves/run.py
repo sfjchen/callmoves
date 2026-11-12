@@ -42,11 +42,18 @@ SPARK_POINTS = 60   # library sparkline resolution
 # topics a library card can show, matched on each claim's metric and quote; a call shows its 3 most frequent
 THEMES = {
     "Guidance": r"guidance|outlook|full[- ]year|expect\w* .*(20\d\d|next quarter)",
-    "NII": r"net interest income|\bNII\b|net interest margin", "AI": r"\bAI\b|artificial intelligence|data center",
-    "Capex": r"capex|capital expenditure|capital spending", "Margins": r"margin", "Credit": r"credit|charge-off|"
-    r"provision|delinquen", "Buybacks": r"buyback|repurchase|dividend", "Pricing": r"pricing|price increase",
-    "Costs": r"expense|cost|efficien|head ?count", "Tariffs": r"tariff", "Deals": r"investment banking|M&A|pipeline",
-    "Demand": r"demand|volume|traffic|orders|backlog", "Pipeline": r"approval|trial|launch|FDA",
+    "NII": r"net interest income|\bNII\b|net interest margin",
+    "AI": r"\bAI\b|artificial intelligence|data center",
+    "Capex": r"capex|capital expenditure|capital spending",
+    "Margins": r"(?<!interest )margin",
+    "Credit": r"credit|charge-off|provision|delinquen",
+    "Buybacks": r"buyback|repurchase|dividend",
+    "Pricing": r"pricing|price increase",
+    "Costs": r"expense|cost|efficien|head ?count",
+    "Tariffs": r"tariff",
+    "Deals": r"investment banking|M&A|deal pipeline|advisory",
+    "Demand": r"demand|volume|traffic|orders|backlog",
+    "Pipeline": r"approval|trial|launch|FDA",
 }
 CONTEXT_PAD = timedelta(minutes=15)   # comps panel minutes kept before and after the call
 

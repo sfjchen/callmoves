@@ -4526,7 +4526,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.3488372093023256,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -4557,7 +4558,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Hello this is Richard Wagner for Jason. I had a question regarding the IKOTIDE psoriasis launch. Are there lessons that can be learned that would be useful when IKOTIDE launches in IBD? Specifically in IBD competitors are developing high efficacy combination programs and wondering how that could affect the efficacy perception by physicians",
-   "placebo_pct": 0.8913043478260869,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -5516,5 +5518,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1986210
 }

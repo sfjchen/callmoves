@@ -8754,9 +8754,10 @@
    "score": 0.04342375421402371,
    "confidence": "high",
    "pre_move": false,
-   "section": "qa",
+   "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": 9,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -8785,9 +8786,10 @@
    "score": 0.028201077991705386,
    "confidence": "high",
    "pre_move": false,
-   "section": "qa",
+   "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": 8,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -8816,9 +8818,10 @@
    "score": 0.011166749056620125,
    "confidence": "medium",
    "pre_move": false,
-   "section": "qa",
+   "section": "prepared",
    "question": null,
-   "placebo_pct": 0.05555555555555555,
+   "placebo_n": 8,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -8847,9 +8850,10 @@
    "score": 0.0003341522669439503,
    "confidence": "low",
    "pre_move": false,
-   "section": "qa",
+   "section": "prepared",
    "question": null,
-   "placebo_pct": 0.7627118644067796,
+   "placebo_n": 8,
+   "placebo_k": 6,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -10145,5 +10149,5 @@
   "betas": {},
   "r2": null
  },
- "qa_start_ms": 74360
+ "qa_start_ms": 2110440
 }

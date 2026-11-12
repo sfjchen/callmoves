@@ -9148,7 +9148,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": 14,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9179,7 +9180,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "There does seem to be a disconnect on both revenue and the earnings lines versus your own expectations. So as you examined street forecasts, what are the key assumptions that you think are getting most mismodeled in the P&L relative to your own internal expectations as you look out towards that period? Thank you.",
-   "placebo_pct": 0.03278688524590164,
+   "placebo_n": 14,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9210,7 +9212,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "There does seem to be a disconnect on both revenue and the earnings lines versus your own expectations. So as you examined street forecasts, what are the key assumptions that you think are getting most mismodeled in the P&L relative to your own internal expectations as you look out towards that period? Thank you.",
-   "placebo_pct": 0.8484848484848485,
+   "placebo_n": 14,
+   "placebo_k": 14,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9241,7 +9244,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.3770491803278688,
+   "placebo_n": 14,
+   "placebo_k": 6,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -10669,5 +10673,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 2003640
 }

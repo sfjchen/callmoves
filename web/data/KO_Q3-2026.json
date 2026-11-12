@@ -6510,7 +6510,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.022222222222222223,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6541,7 +6542,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "We've spoken about this before, but just the reality is that a lot of the inflationary pressures facing the system today sit more heavily with your bottling partners than with the concentrate business itself. And I guess, in that context, as you approach collective 2027 planning, how would you characterize bottler economics today and their stance relative to those inflationary pressures, and any i",
-   "placebo_pct": 0.3181818181818182,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6572,7 +6574,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Great. Thank you. Good morning, everyone. So I wanted to follow up on this question on North America. You touched on some of the timing dynamics, but you also mentioned that you saw sequential improvement in volume performance each month throughout the quarter. So I was wondering if you could elaborate on that and have you seen that momentum continue into the fourth quarter? And then John, you tou",
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6603,7 +6606,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.8181818181818182,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6634,7 +6638,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "We've spoken about this before, but just the reality is that a lot of the inflationary pressures facing the system today sit more heavily with your bottling partners than with the concentrate business itself. And I guess, in that context, as you approach collective 2027 planning, how would you characterize bottler economics today and their stance relative to those inflationary pressures, and any i",
-   "placebo_pct": 0.9318181818181818,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -7819,5 +7824,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1275380
 }

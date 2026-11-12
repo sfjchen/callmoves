@@ -5957,7 +5957,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "John, and Randy. I guess, you know, Kathy and John, you've previously talked about acceleration and growth in 2028. But I think when we think about the potential range of outcomes in 2027, can you just give us an understanding of what drives the low end versus the high end of your outlook? And also with this meaningful step up in 2028 of acceleration, what are the key operating milestones or poten",
-   "placebo_pct": 0.6046511627906976,
+   "placebo_n": 10,
+   "placebo_k": 7,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -7099,5 +7100,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1367070
 }

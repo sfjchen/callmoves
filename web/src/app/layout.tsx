@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * Renders the page shell: masthead with the library and submit links, the page content and the sfjc.dev footer.
+ * Renders the page shell: masthead with the library, guess and submit links, the page content and the sfjc.dev footer.
  */
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -26,7 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <header className="border-b border-nb-border px-4 sm:px-6 py-2.5 flex items-baseline gap-4">
           <Link href="/" className="hand text-2xl text-nb-text">CallMoves</Link>
           <span className="hidden sm:inline text-xs text-nb-muted">what moved the stock during the earnings call</span>
-          <Link href="/submit" className="ml-auto text-sm text-nb-accent hover:underline underline-offset-2">
+          <a href="/guess" className="ml-auto text-sm text-nb-accent hover:underline underline-offset-2">
+            Guess the move</a>
+          <Link href="/submit" className="text-sm text-nb-accent hover:underline underline-offset-2">
             Submit a call</Link>
         </header>
         <main className="flex-1 px-4 sm:px-6 py-5">{children}</main>

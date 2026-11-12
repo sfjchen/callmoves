@@ -10462,7 +10462,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Got it. And I guess one other question. Improving and durable learning has been a big focus for you. Help me solve for this. Like when we look at the growth in prime and equity financing, you could make the argument that it's adding to the cyclicality of the business if there's like deleveraging among hedge funds, et cetera. And sure, like I'm not talking about quarter to quarter volatility. But h",
-   "placebo_pct": 0.1111111111111111,
+   "placebo_n": 12,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10493,7 +10494,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "You still have plenty of excess. You know, JP Morgan mentioned the fourth quarter should be super active in trading and should not have a seasonal slowdown. You know, how should we think about, you know, capital consumption going forward? Thank you.",
-   "placebo_pct": 0.1111111111111111,
+   "placebo_n": 12,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10524,7 +10526,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Maybe just a quick follow up on the SLR. Given financing activity is much more leverage intensive, you guys have obviously seen outsized gains on the financing side. Speak to where you're comfortable running under the SLR constraint while supporting continued balance sheet expansion. And specifically your appetite to grow in more nascent financing areas such as tax aware strategies. Just given you",
-   "placebo_pct": 0.05555555555555555,
+   "placebo_n": 12,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10555,7 +10558,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.13793103448275862,
+   "placebo_n": 12,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10586,7 +10590,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "And then you spoke to the year to date comp ratio 30%. Is that the best way we should be thinking about your expectations for the full year? And have we seen a few investors noted this morning about the strong performance on the comp ratio? Is there something to do with like revenue mix? Equities revenue has been really, really strong. That's generally considered a lower comp ratio business. Has t",
-   "placebo_pct": 0.5370370370370371,
+   "placebo_n": 12,
+   "placebo_k": 8,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -12061,5 +12066,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1547850
 }

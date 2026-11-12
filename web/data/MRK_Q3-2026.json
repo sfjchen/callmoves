@@ -6679,8 +6679,8 @@
   "etf": "XLV",
   "themes": [
    "Pipeline",
-   "Deals",
-   "Costs"
+   "Costs",
+   "Pricing"
   ],
   "n_moments": 1,
   "n_flagged": 6,
@@ -6766,7 +6766,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.9512195121951219,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -7680,5 +7681,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1550730
 }

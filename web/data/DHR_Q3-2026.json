@@ -9252,7 +9252,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "and how do you think about evolving the playbook?",
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9283,7 +9284,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "One follow-up on your prepared remarks from earlier on the call. You outlined several priorities. What's the biggest one that you expect to have the greatest impact over the near term, say over the next 12 to 18 months? And what operating or financial metrics should investors use to assess progress pursuant to that top priority? Sure. You know, step one is really to be able to get the best and the",
-   "placebo_pct": 0.25,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9314,7 +9316,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.19230769230769232,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9345,7 +9348,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "in and Julie congrats on the new role. So within life sciences maybe walk through the key end markets of where we are in the recovery within academic and then biotech but maybe specifically within emerging biotech and then also within industrial and semis and then what are you hearing from customers in terms of where they are with spending versus kind of where we still have room in the recovery an",
-   "placebo_pct": 0.23214285714285715,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9376,7 +9380,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.36538461538461536,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -10437,5 +10442,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1811700
 }

@@ -1,0 +1,863 @@
+[
+ {
+  "flag_id": "JPM_Q2-2026@2026-07-14T12:30Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 3,
+  "reason": "SPY +0.83%, peers +0.74%, XLF +0.36% at 08:30 vs JPM +0.49%, call only opening remarks"
+ },
+ {
+  "flag_id": "JPM_Q2-2026@2026-07-14T13:01Z",
+  "choice": "statement",
+  "sentence": 107,
+  "confidence": 1,
+  "reason": "JPM +0.41% vs XLF/SPY flat, Dimon on marginal operating leverage as revenue rises, weak link"
+ },
+ {
+  "flag_id": "JPM_Q2-2026@2026-07-14T13:05Z",
+  "choice": "statement",
+  "sentence": 87,
+  "confidence": 1,
+  "reason": "Dimon \"can get better\" after \"as good as it gets\" tone, JPM +0.23% vs XLF flat"
+ },
+ {
+  "flag_id": "JPM_Q2-2026@2026-07-14T13:28Z",
+  "choice": "statement",
+  "sentence": 121,
+  "confidence": 1,
+  "reason": "JPM -0.30% while XLF/SPY flat, move starts 09:27 as CEO notes mild credit deterioration"
+ },
+ {
+  "flag_id": "JPM_Q3-2026@2026-10-13T12:45Z",
+  "choice": "statement",
+  "sentence": 104,
+  "confidence": 2,
+  "reason": "JPM +0.3% at 08:45 with ETF/SPY flat, ~$30B excess capital remark, bigger jump follows 08:47"
+ },
+ {
+  "flag_id": "JPM_Q3-2026@2026-10-13T12:52Z",
+  "choice": "statement",
+  "sentence": 126,
+  "confidence": 2,
+  "reason": "Dimon says credit terms a bit loose, tightening up, ETF/SPY flat, headline repeats it 3 min later"
+ },
+ {
+  "flag_id": "JPM_Q3-2026@2026-10-13T13:22Z",
+  "choice": "statement",
+  "sentence": 90,
+  "confidence": 1,
+  "reason": "JPM -0.24% vs ETF flat, cautious \"times pretty good, 17% through cycle\" answer, low volume"
+ },
+ {
+  "flag_id": "JPM_Q3-2026@2026-10-13T13:25Z",
+  "choice": "statement",
+  "sentence": 112,
+  "confidence": 1,
+  "reason": "JPM +0.22% vs ETF flat, Q4 markets seasonal decline \"not the same\", weak timing"
+ },
+ {
+  "flag_id": "PM_Q3-2026@2026-10-21T13:09Z",
+  "choice": "statement",
+  "sentence": 70,
+  "confidence": 2,
+  "reason": "PM -0.33% vs XLP flat, new guide HTU shipments slightly below adjusted IMS"
+ },
+ {
+  "flag_id": "PM_Q3-2026@2026-10-21T13:21Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "PM slides from 09:16 to -1.3% with XLP flat, no standout sentence in transcript window"
+ },
+ {
+  "flag_id": "PM_Q3-2026@2026-10-21T13:36Z",
+  "choice": "statement",
+  "sentence": 32,
+  "confidence": 2,
+  "reason": "PM -0.6% vs XLP flat, FY EPS range $8.29-$8.44 midpoint below $8.42 consensus"
+ },
+ {
+  "flag_id": "PM_Q3-2026@2026-10-21T13:52Z",
+  "choice": "statement",
+  "sentence": 97,
+  "confidence": 2,
+  "reason": "PM +0.56% vs XLP flat, Zyn share positive since June, users returning from competitors"
+ },
+ {
+  "flag_id": "NEE_Q3-2026@2026-10-21T13:29Z",
+  "choice": "statement",
+  "sentence": 72,
+  "confidence": 2,
+  "reason": "NEE +1.0% vs XLU +0.17%, 2026 EPS guide unchanged and targeting high end"
+ },
+ {
+  "flag_id": "NEE_Q3-2026@2026-10-21T13:35Z",
+  "choice": "statement",
+  "sentence": 80,
+  "confidence": 1,
+  "reason": "NEE -0.4% on 35x volume, ETF flat, Virginia concessions answer, weak link"
+ },
+ {
+  "flag_id": "NEE_Q3-2026@2026-10-21T14:00Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "NEE -0.5% at call end, ETF -0.2%, remarks routine competitive comments"
+ },
+ {
+  "flag_id": "USB_Q3-2026@2026-10-15T13:11Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "USB -0.4% vs XLF flat, window remarks routine and positive, nothing stands out"
+ },
+ {
+  "flag_id": "USB_Q3-2026@2026-10-15T13:22Z",
+  "choice": "statement",
+  "sentence": 85,
+  "confidence": 1,
+  "reason": "USB -0.7% vs XLF -0.2%, answer on buyback pause and capital demands from Amazon book"
+ },
+ {
+  "flag_id": "USB_Q3-2026@2026-10-15T13:29Z",
+  "choice": "statement",
+  "sentence": 60,
+  "confidence": 1,
+  "reason": "USB +1.8% rebound vs XLF +0.2%, branch investment $200M to $300M, move starts after 09:27"
+ },
+ {
+  "flag_id": "AMZN_Q3-2026@2026-10-29T21:27Z",
+  "choice": "statement",
+  "sentence": 35,
+  "confidence": 2,
+  "reason": "AMZN +1.1% vs XLY flat, AWS growth 39.3% fastest in 5 years, headlines are 9 min earlier"
+ },
+ {
+  "flag_id": "DUK_Q3-2026@2026-11-05T15:15Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "DUK -0.34% with XLU -0.14% and peers -0.16%, drifting together, no new sentence"
+ },
+ {
+  "flag_id": "NOC_Q3-2026@2026-10-20T13:55Z",
+  "choice": "statement",
+  "sentence": 66,
+  "confidence": 2,
+  "reason": "NOC dips -0.28% vs ETF flat, CEO says 2027 range wider than analysts would like"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:09Z",
+  "choice": "statement",
+  "sentence": 85,
+  "confidence": 2,
+  "reason": "Sales +7% and EPS +9% acceleration spoken as ABT jumped, ETF flat"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:14Z",
+  "choice": "statement",
+  "sentence": 73,
+  "confidence": 1,
+  "reason": "TactiFlex Duo FDA approval earlier than expected, ETF flat, weak timing"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:20Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Q&A opens with nutrition question, nothing new, ETF flat"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:25Z",
+  "choice": "statement",
+  "sentence": 118,
+  "confidence": 1,
+  "reason": "Nutrition volume growth well above peers, jump with ETF flat"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:29Z",
+  "choice": "statement",
+  "sentence": 150,
+  "confidence": 2,
+  "reason": "Litigation need not be resolved for separation, stock +1.8% while ETF flat"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T13:40Z",
+  "choice": "statement",
+  "sentence": 121,
+  "confidence": 1,
+  "reason": "Conservative top-line stance after pricing comments, ABT fell while ETF rose"
+ },
+ {
+  "flag_id": "ABT_Q3-2026@2026-10-21T14:03Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Q&A on pivotal data, no preview of data, sector drifting lower too"
+ },
+ {
+  "flag_id": "ABBV_Q3-2026@2026-10-30T13:11Z",
+  "choice": "statement",
+  "sentence": 75,
+  "confidence": 1,
+  "reason": "Juvmo ramp slow, Medicare coverage not until 2028, small dip"
+ },
+ {
+  "flag_id": "ABBV_Q3-2026@2026-10-30T13:14Z",
+  "choice": "statement",
+  "sentence": 74,
+  "confidence": 1,
+  "reason": "Skyrizi Crohn's induction results with specific percentages, thin volume"
+ },
+ {
+  "flag_id": "ABBV_Q3-2026@2026-10-30T13:17Z",
+  "choice": "statement",
+  "sentence": 76,
+  "confidence": 1,
+  "reason": "Ludicizumab HS75 31% response, drop with ETF flat, thin volume"
+ },
+ {
+  "flag_id": "ABBV_Q3-2026@2026-10-30T13:29Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Peers +0.42 vs ABBV +0.69 and XLV rising, EPS beat sentence not clearly separate"
+ },
+ {
+  "flag_id": "UPS_Q3-2026@2026-10-27T12:32Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Premarket drift, only anniversary remarks spoken"
+ },
+ {
+  "flag_id": "UPS_Q3-2026@2026-10-27T12:39Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small drop with ETF flat, no standout sentence"
+ },
+ {
+  "flag_id": "UPS_Q3-2026@2026-10-27T12:44Z",
+  "choice": "statement",
+  "sentence": 43,
+  "confidence": 2,
+  "reason": "Q4 US volume lower YoY (squawked later), UPS -3.5% with ETF flat, EPS beat consensus"
+ },
+ {
+  "flag_id": "UPS_Q3-2026@2026-10-27T12:50Z",
+  "choice": "statement",
+  "sentence": 2,
+  "confidence": 3,
+  "reason": "Squawk 08:52 repeats Q4 US daily volume lower YoY"
+ },
+ {
+  "flag_id": "BAC_Q3-2026@2026-10-14T12:40Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small bounce, sector level similar, nothing standing out"
+ },
+ {
+  "flag_id": "BAC_Q3-2026@2026-10-14T12:43Z",
+  "choice": "statement",
+  "sentence": 21,
+  "confidence": 2,
+  "reason": "2027 NII growth 8% or more raised guide, +1.4% jump with XLF flat"
+ },
+ {
+  "flag_id": "DUOL_Q3-2026@2026-11-03T22:09Z",
+  "choice": "statement",
+  "sentence": 31,
+  "confidence": 1,
+  "reason": "Slowly monetizing more via IAPs, jump with SPY flat, thin"
+ },
+ {
+  "flag_id": "DUOL_Q3-2026@2026-11-03T22:44Z",
+  "choice": "statement",
+  "sentence": 37,
+  "confidence": 1,
+  "reason": "Human tutor still better than product today, stock fading"
+ },
+ {
+  "flag_id": "GOOGL_Q3-2026@2026-10-28T20:43Z",
+  "choice": "statement",
+  "sentence": 80,
+  "confidence": 3,
+  "reason": "Squawk 2 min later repeats AI mode ads international expansion"
+ },
+ {
+  "flag_id": "PNC_Q3-2026@2026-10-15T14:36Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small dip, peers moved less than half, routine Q&A on retail growth"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:05Z",
+  "choice": "release",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Call opens after EPS beat and raised guide, no sentence stands out, XLV flat"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:13Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Thin premarket jump, only strategy talk before it"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:23Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small drop on thin volume, only restated release figures"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:29Z",
+  "choice": "statement",
+  "sentence": 74,
+  "confidence": 2,
+  "reason": "2027 core growth 4-5% starting point, stock fell 1.4% vs flat XLV"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:32Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Rebound after sell-off, CEO Q&A answer is routine"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T12:37Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move, answer restates priorities"
+ },
+ {
+  "flag_id": "DHR_Q3-2026@2026-10-21T13:02Z",
+  "choice": "statement",
+  "sentence": 34,
+  "confidence": 1,
+  "reason": "Life sciences beat internal expectations 3rd quarter in a row, weak match"
+ },
+ {
+  "flag_id": "C_Q3-2026@2026-10-13T15:22Z",
+  "choice": "statement",
+  "sentence": 32,
+  "confidence": 2,
+  "reason": "Expense growth to outpace revenue, C fell 1% while XLF flat"
+ },
+ {
+  "flag_id": "C_Q3-2026@2026-10-13T15:28Z",
+  "choice": "statement",
+  "sentence": 28,
+  "confidence": 2,
+  "reason": "No move on Investor Day return targets, C bounced vs flat XLF"
+ },
+ {
+  "flag_id": "C_Q3-2026@2026-10-13T15:31Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Capital return remarks restate release"
+ },
+ {
+  "flag_id": "C_Q3-2026@2026-10-13T15:57Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small bounce, generic services answer"
+ },
+ {
+  "flag_id": "W_Q3-2026@2026-11-04T13:07Z",
+  "choice": "statement",
+  "sentence": 25,
+  "confidence": 2,
+  "reason": "Marketing spend ratio below 10% first time since 2021, W up 2.2% vs XLY flat"
+ },
+ {
+  "flag_id": "W_Q3-2026@2026-11-04T13:23Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Erratic thin ticks, loyalty answer not news"
+ },
+ {
+  "flag_id": "W_Q3-2026@2026-11-04T13:36Z",
+  "choice": "statement",
+  "sentence": 53,
+  "confidence": 1,
+  "reason": "Margin back near 15% next quarter, rebound off the low"
+ },
+ {
+  "flag_id": "W_Q3-2026@2026-11-04T13:53Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Thin drift up, store and Way Day answers routine"
+ },
+ {
+  "flag_id": "BMY_Q3-2026@2026-10-29T12:00Z",
+  "choice": "release",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Drop at call open, only operator and IR lines, EPS guide update in release"
+ },
+ {
+  "flag_id": "BMY_Q3-2026@2026-10-29T12:25Z",
+  "choice": "statement",
+  "sentence": 161,
+  "confidence": 1,
+  "reason": "IPF primary vs secondary endpoint hint, spike then reversal"
+ },
+ {
+  "flag_id": "GD_Q3-2026@2026-10-30T13:03Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move, beat remarks restate release"
+ },
+ {
+  "flag_id": "GD_Q3-2026@2026-10-30T13:18Z",
+  "choice": "statement",
+  "sentence": 38,
+  "confidence": 2,
+  "reason": "CEO says this is her last call, GD fell while XLI flat"
+ },
+ {
+  "flag_id": "HON_Q3-2026@2026-10-22T13:28Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Brief 1% dip reversed in 2 min, only Q&A pricing and margin answers"
+ },
+ {
+  "flag_id": "XOM_Q3-2026@2026-10-30T14:01Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "XLE and peers fell with XOM from 09:59, no sentence before it"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T12:30Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Call opening, only routine remarks, tiny move"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T12:50Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Premarket jitter, no standout sentence before the bounce"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T12:55Z",
+  "choice": "statement",
+  "sentence": 14,
+  "confidence": 2,
+  "reason": "Over $1B transformation charge quantified just before the jump, XLC flat"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T12:58Z",
+  "choice": "statement",
+  "sentence": 15,
+  "confidence": 1,
+  "reason": "Fiber/gig pricing at $30-40 in Q3, drift down began 08:57, XLC flat"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T13:10Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move, answer on transformation restates known Q4 charge"
+ },
+ {
+  "flag_id": "CMCSA_Q3-2026@2026-10-22T13:15Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move amid agentic/partner talk, nothing specific"
+ },
+ {
+  "flag_id": "KO_Q3-2026@2026-10-27T12:30Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Call opens, all routine, peers and XLP flat"
+ },
+ {
+  "flag_id": "KO_Q3-2026@2026-10-27T12:34Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Decline from release continues, only restated results and hedge"
+ },
+ {
+  "flag_id": "KO_Q3-2026@2026-10-27T13:05Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Blip that partly reverts, no new info before it"
+ },
+ {
+  "flag_id": "KO_Q3-2026@2026-10-27T13:25Z",
+  "choice": "statement",
+  "sentence": 28,
+  "confidence": 1,
+  "reason": "FX guidance excludes recent real move, KO up while XLP and peers down"
+ },
+ {
+  "flag_id": "KO_Q3-2026@2026-10-27T13:28Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Peers -0.67 and XLP down in the same minutes as the KO fall, open dislocation"
+ },
+ {
+  "flag_id": "LMT_Q3-2026@2026-10-22T12:36Z",
+  "choice": "statement",
+  "sentence": 62,
+  "confidence": 1,
+  "reason": "Volume spike with GM Defense PAC-3 capacity news, XLI and peers flat"
+ },
+ {
+  "flag_id": "LMT_Q3-2026@2026-10-22T13:13Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small fade during Vectis answer, nothing new"
+ },
+ {
+  "flag_id": "LMT_Q3-2026@2026-10-22T13:27Z",
+  "choice": "statement",
+  "sentence": 53,
+  "confidence": 2,
+  "reason": "High single-digit revenue growth next year, new and specific, XLI flat"
+ },
+ {
+  "flag_id": "PFE_Q3-2026@2026-11-03T15:05Z",
+  "choice": "statement",
+  "sentence": 46,
+  "confidence": 1,
+  "reason": "Obesity trial plan just before drop, peers weak but PFE broke away"
+ },
+ {
+  "flag_id": "PFE_Q3-2026@2026-11-03T16:05Z",
+  "choice": "statement",
+  "sentence": 43,
+  "confidence": 2,
+  "reason": "No efficacy impact from lower Cmax dose, PFE rose while XLV flat"
+ },
+ {
+  "flag_id": "PFE_Q3-2026@2026-11-03T16:11Z",
+  "choice": "statement",
+  "sentence": 61,
+  "confidence": 1,
+  "reason": "CEO says street $5B vs Pfizer $600M for competing product, small move"
+ },
+ {
+  "flag_id": "MCD_Q3-2026@2026-11-04T13:38Z",
+  "choice": "statement",
+  "sentence": 60,
+  "confidence": 1,
+  "reason": "Digital offers exceeded expectations, XLY and peers flat"
+ },
+ {
+  "flag_id": "MCD_Q3-2026@2026-11-04T13:58Z",
+  "choice": "statement",
+  "sentence": 69,
+  "confidence": 1,
+  "reason": "Wings showing strong incrementality, XLY and peers flat"
+ },
+ {
+  "flag_id": "MO_Q3-2026@2026-10-29T13:29Z",
+  "choice": "statement",
+  "sentence": 56,
+  "confidence": 1,
+  "reason": "Confident on raised 4.5-6% guidance range, XLP and peers flat"
+ },
+ {
+  "flag_id": "WFC_Q2-2026@2026-07-14T14:19Z",
+  "choice": "other",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Move starts 10:21-10:22 after every visible sentence; CFO NIM outlook headline follows"
+ },
+ {
+  "flag_id": "WFC_Q2-2026@2026-07-14T14:22Z",
+  "choice": "other",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Same break-away after the visible text; squawk NIM compression/stabilize outlook"
+ },
+ {
+  "flag_id": "WFC_Q2-2026@2026-07-14T14:27Z",
+  "choice": "statement",
+  "sentence": 28,
+  "confidence": 2,
+  "reason": "Rebound as CFO maintains NII guidance of 50B, stronger 2H"
+ },
+ {
+  "flag_id": "WFC_Q3-2026@2026-10-13T14:03Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 3,
+  "reason": "XLF -0.77% and peers -1.13% vs stock -1.49%, drop began before the call"
+ },
+ {
+  "flag_id": "WFC_Q3-2026@2026-10-13T14:31Z",
+  "choice": "statement",
+  "sentence": 93,
+  "confidence": 2,
+  "reason": "Drop at 10:31 right after markets NII guide of about 1.8B, ETF flat"
+ },
+ {
+  "flag_id": "WFC_Q3-2026@2026-10-13T14:54Z",
+  "choice": "statement",
+  "sentence": 62,
+  "confidence": 2,
+  "reason": "Jump after CFO says Q4 expenses are not a jumping-off point, more efficiency, ETF flat"
+ },
+ {
+  "flag_id": "AAPL_Q4-2026@2026-11-02T22:09Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Choppy thin after-hours noise, only routine product remarks"
+ },
+ {
+  "flag_id": "AAPL_Q4-2026@2026-11-02T22:13Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Drift down with no specific sentence, ETF flat"
+ },
+ {
+  "flag_id": "AAPL_Q4-2026@2026-11-02T22:26Z",
+  "choice": "statement",
+  "sentence": 78,
+  "confidence": 3,
+  "reason": "Gross margin guide 45-46% with memory costs, squawk repeats it within 2 min, ETF flat"
+ },
+ {
+  "flag_id": "AAPL_Q4-2026@2026-11-02T22:30Z",
+  "choice": "statement",
+  "sentence": 45,
+  "confidence": 2,
+  "reason": "Continued drop after gross margin guide, squawk within 2 min, ETF flat"
+ },
+ {
+  "flag_id": "RTX_Q3-2026@2026-10-20T12:42Z",
+  "choice": "statement",
+  "sentence": 85,
+  "confidence": 1,
+  "reason": "Jump as Pratt president retirement announced, release already priced"
+ },
+ {
+  "flag_id": "RTX_Q3-2026@2026-10-20T13:17Z",
+  "choice": "statement",
+  "sentence": 112,
+  "confidence": 1,
+  "reason": "Dip as Pratt contract asset growth discussed, ETF flat"
+ },
+ {
+  "flag_id": "RTX_Q3-2026@2026-10-20T13:20Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Spike reverses within 1 min, nothing new in margin remarks"
+ },
+ {
+  "flag_id": "RTX_Q3-2026@2026-10-20T13:28Z",
+  "choice": "other",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Call ended, peer NOC +3% on its own news, RTX diverges"
+ },
+ {
+  "flag_id": "PG_Q1-2027@2026-10-22T12:41Z",
+  "choice": "statement",
+  "sentence": 30,
+  "confidence": 1,
+  "reason": "Drop as guidance only maintained, environment volatile and challenging, ETF flat"
+ },
+ {
+  "flag_id": "PG_Q1-2027@2026-10-22T13:22Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move, nothing specific stands out"
+ },
+ {
+  "flag_id": "PG_Q1-2027@2026-10-22T13:29Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small move into the 9:30 open, no relevant sentence"
+ },
+ {
+  "flag_id": "META_Q3-2026@2026-10-21T20:35Z",
+  "choice": "statement",
+  "sentence": 61,
+  "confidence": 3,
+  "reason": "Muse revenue per user above family of apps, squawk repeats within 2 min, ETF small"
+ },
+ {
+  "flag_id": "META_Q3-2026@2026-10-21T21:00Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Slow drift down, ETF flat, no specific sentence"
+ },
+ {
+  "flag_id": "MRK_Q3-2026@2026-10-29T13:29Z",
+  "choice": "statement",
+  "sentence": 43,
+  "confidence": 2,
+  "reason": "Reassuring Keytruda LOE as a hill after 2027 guide, stock up as XLV fell"
+ },
+ {
+  "flag_id": "CAT_Q3-2026@2026-10-29T12:30Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "CAT flat, only XLI jumped pre-open, call only operator and intro lines"
+ },
+ {
+  "flag_id": "CAT_Q3-2026@2026-10-29T12:34Z",
+  "choice": "statement",
+  "sentence": 49,
+  "confidence": 2,
+  "reason": "Drop starts 08:34, margin ex-tariff recoveries only in line with expectations"
+ },
+ {
+  "flag_id": "CAT_Q3-2026@2026-10-29T12:40Z",
+  "choice": "statement",
+  "sentence": 100,
+  "confidence": 1,
+  "reason": "Rebound in minute of full-year sales guidance reaffirmed, weak link"
+ },
+ {
+  "flag_id": "CAT_Q3-2026@2026-10-29T13:04Z",
+  "choice": "statement",
+  "sentence": 99,
+  "confidence": 1,
+  "reason": "Q&A start, 'nothing different' on prime power, XLI flat, weak link"
+ },
+ {
+  "flag_id": "CAT_Q3-2026@2026-10-29T13:29Z",
+  "choice": "other",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Jump at 09:29 after call ended, no transcript, open-related not market"
+ },
+ {
+  "flag_id": "JNJ_Q3-2026@2026-10-13T12:37Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small dip while XLV rose, garbled transcript, nothing stands out"
+ },
+ {
+  "flag_id": "JNJ_Q3-2026@2026-10-13T12:51Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Small rebound, garbled prepared remarks, nothing specific"
+ },
+ {
+  "flag_id": "JNJ_Q3-2026@2026-10-13T13:23Z",
+  "choice": "statement",
+  "sentence": 20,
+  "confidence": 1,
+  "reason": "Drop vs flat XLV at start of Q&A answer on UC phase 3 data, weak link"
+ },
+ {
+  "flag_id": "JNJ_Q3-2026@2026-10-13T13:26Z",
+  "choice": "statement",
+  "sentence": 15,
+  "confidence": 1,
+  "reason": "Small rebound as 40% of eligible patients untreated for anticoagulants"
+ },
+ {
+  "flag_id": "JNJ_Q3-2026@2026-10-13T13:29Z",
+  "choice": "statement",
+  "sentence": 18,
+  "confidence": 1,
+  "reason": "Drop on 9.7x volume, intl surgery weakness and Middle East caution"
+ },
+ {
+  "flag_id": "TRV_Q3-2026@2026-10-16T13:03Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 1,
+  "reason": "Tiny dip in line with morning drift, results restated release"
+ },
+ {
+  "flag_id": "TRV_Q3-2026@2026-10-16T13:13Z",
+  "choice": "statement",
+  "sentence": 56,
+  "confidence": 1,
+  "reason": "Slide after catastrophe losses of $538M, weak link"
+ },
+ {
+  "flag_id": "TRV_Q3-2026@2026-10-16T13:26Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "XLF and CB rose with TRV, over half of its move"
+ },
+ {
+  "flag_id": "TRV_Q3-2026@2026-10-16T14:03Z",
+  "choice": "none",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Fade near call end while XLF flat, nothing new said"
+ },
+ {
+  "flag_id": "T_Q3-2026@2026-10-21T12:46Z",
+  "choice": "statement",
+  "sentence": 97,
+  "confidence": 2,
+  "reason": "Capex $1B lower but reallocated to working capital and interest, stock fell vs XLC up"
+ },
+ {
+  "flag_id": "T_Q3-2026@2026-10-21T13:20Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "TMUS and VZ fell alongside T over half its move, Q&A answer routine"
+ },
+ {
+  "flag_id": "T_Q3-2026@2026-10-21T13:29Z",
+  "choice": "market",
+  "sentence": null,
+  "confidence": 2,
+  "reason": "Peers TMUS and VZ rose with T at call end, no new statement"
+ },
+ {
+  "flag_id": "MMM_Q3-2026@2026-10-20T13:05Z",
+  "choice": "statement",
+  "sentence": 44,
+  "confidence": 2,
+  "reason": "Sharp drop with XLI flat, AFFF mediator litigation remark"
+ },
+ {
+  "flag_id": "MMM_Q3-2026@2026-10-20T13:12Z",
+  "choice": "statement",
+  "sentence": 64,
+  "confidence": 2,
+  "reason": "Drop on 50x volume as organic growth 3.3% disclosed, XLI flat"
+ },
+ {
+  "flag_id": "MSFT_Q1-2027@2026-10-28T21:56Z",
+  "choice": "statement",
+  "sentence": 81,
+  "confidence": 3,
+  "reason": "Squawk repeats Q2 agents and infra guidance 2 min later, stock-specific jump"
+ }
+]

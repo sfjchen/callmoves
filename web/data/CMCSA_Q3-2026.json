@@ -7181,7 +7181,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "irrational?",
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7212,7 +7213,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.3409090909090909,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7243,7 +7245,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.3181818181818182,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7274,7 +7277,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Hi. Thank you for taking the question. Just a quick follow-up. Jason, in your prepared remark, you talked about I think there's a higher than typical volume of customers facing transition. Can you maybe just help unpack what that is? Does that pertain to the legacy customers? Is that new pricing and packaging customers? Just wanted to kind of double-click on that.",
-   "placebo_pct": 0.08695652173913043,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -7305,7 +7309,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Great, thanks very much, team, too, if I may. First I wanted to hear how you're thinking about your overall pricing power in broadband. And do you think the rise of AI agents like Muse could potentially impact the connectivity sector? And do you think it could be a deflationary force or an opportunity for you on both the customer acquisition and retention front? And then second, I think this is a ",
-   "placebo_pct": 0.6818181818181818,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -8368,5 +8373,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1521720
 }

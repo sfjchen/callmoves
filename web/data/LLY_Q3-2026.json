@@ -11194,7 +11194,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": 12,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11225,7 +11226,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.0,
+   "placebo_n": 12,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11256,7 +11258,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.11538461538461539,
+   "placebo_n": 12,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11287,7 +11290,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thank you so much. This is a follow-up to Chris's earlier question. And with all due respect, Lilly's financial guidance hasn't been a good predictor on ultimate results. And I'm curious, what is the most frequent source of the surprise? So specifically, has it tended to be positive unit developments? Or has it been lack of negatives on price? Or is it some desire to just lean incredibly cautiousl",
-   "placebo_pct": 0.34615384615384615,
+   "placebo_n": 11,
+   "placebo_k": 5,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -11318,7 +11322,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Great. Thanks so much, and congrats. You've raised guidance on the top line by roughly $10 billion year to date. I guess you reflect on what's happening here. Just talk a little bit about what's going on, et cetera. And probably as importantly, just when you think about these dynamics going fundamentally larger inkerton opportunity than you anticipated, or is this more of a pull forward of dinner ",
-   "placebo_pct": 0.46153846153846156,
+   "placebo_n": 12,
+   "placebo_k": 4,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -12721,5 +12726,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1498460
 }

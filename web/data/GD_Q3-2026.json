@@ -5815,7 +5815,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.07142857142857142,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": -0.029086223027721007,
    "consensus_role": "full_year"
   },
@@ -5846,7 +5847,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.6666666666666666,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": 0.0845410628019325,
    "consensus_role": "reported"
   },
@@ -5877,7 +5879,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.7407407407407407,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -6654,5 +6657,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1092920
 }

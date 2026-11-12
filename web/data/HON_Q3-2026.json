@@ -9150,7 +9150,7 @@
   "themes": [
    "Demand",
    "Margins",
-   "Deals"
+   "Pricing"
   ],
   "n_moments": 1,
   "n_flagged": 6,
@@ -9198,7 +9198,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thank you. Good morning, guys. Hey, Joe. Good morning. I'm going to focus both my questions on PA&T. So, I guess on the project side of the business with Brent now sitting above 110, typically that stimulates investments from your customers. I don't know if you can maybe just give us a little bit of background on like what your customer conversations are like today, whether the pipeline has like m",
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -9629,5 +9630,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 1083540
 }

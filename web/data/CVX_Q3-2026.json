@@ -10371,7 +10371,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thanks for the time. My question is on capital allocation. Mike, specifically, obviously the balance sheet now is even what I call beyond pristine. When you look forward, you tend to have numerous exploration opportunities. I just think the opportunities, both organically and externally, are just broad. So given the, I guess my question is, given how low the balance sheet is now, is your thoughts ",
-   "placebo_pct": 0.1,
+   "placebo_n": 11,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10402,7 +10403,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.02,
+   "placebo_n": 11,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10433,7 +10435,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Thanks for taking the question. It's been a year since you hired a new head of global exploration, and we hit on AI earlier and you have a lot of good technology details in the deck, but just more broadly, would love to hear your observations on the progress you've made in the exploration portfolio over the last 12 months. You know, what you're most excited about going forward? And just while it's",
-   "placebo_pct": 0.04,
+   "placebo_n": 11,
+   "placebo_k": 0,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10464,7 +10467,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Yeah, good morning. Appreciate the color on your opportunity set in Venezuela as an early mover advantage. I was wondering if you could maybe touch a little bit on the cost structure. I know that when you put that out in September, it was probably $10 a barrel lower than we're thinking. And maybe you could also, also elaborate on how you're managing some of the above ground risks as we think about",
-   "placebo_pct": 0.1,
+   "placebo_n": 11,
+   "placebo_k": 1,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -10495,7 +10499,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Good morning. I was wondering if I can pick your brain a little bit on the clean chain margins. We started the year at record lows, saw a massive bounce in 2Q. We are moderating a little, but we're still above mid-cycle. And I think your own project is probably going to start up sometime next year. So just trying to understand global supply dynamics, how much capacity is offline. And also, I'm try",
-   "placebo_pct": 0.2,
+   "placebo_n": 12,
+   "placebo_k": 2,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -11775,5 +11780,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 749960
 }

@@ -1,5 +1,6 @@
 // Library page: every processed call grouped by sector, as compact cards with the call's move against its sector
-// ETF, the top moment and the call's themes. Filter by ticker, company, quarter or theme, sort by date or move size.
+// ETF, the top moment and the call's themes. Filter by ticker, company, quarter or sector, or by 1 theme with the chips
+// under the header, and sort by date or move size.
 import Link from "next/link";
 import { listCalls } from "@/lib/data";
 import { clock, dir, DIR_HEX, DIR_TEXT, pct, SECTOR, shortQuarter, shortSpeaker, SPILL_LABEL, TZ } from "@/lib/format";
@@ -90,8 +91,14 @@ export default async function Library({ searchParams }: PageProps<"/">) {
   const sort: Sort = String(sp.sort) in SORTS ? (String(sp.sort) as Sort) : "date";
   const needle = q.toLowerCase();
   const all = await listCalls();
-  const calls = all.filter((c) => [c.ticker, c.company ?? "", c.quarter, SECTOR[c.etf ?? ""] ?? "", ...(c.themes ?? [])]
-    .some((f) => f.toLowerCase().includes(needle)));
+  const theme = String(sp.theme ?? "");
+  const calls = all.filter((c) => (!theme || c.themes?.includes(theme)) &&
+    [c.ticker, c.company ?? "", c.quarter, SECTOR[c.etf ?? ""] ?? ""].some((f) => f.toLowerCase().includes(needle)));
+  const themes = new Map<string, number>();
+  for (const c of all) for (const t of c.themes ?? []) themes.set(t, (themes.get(t) ?? 0) + 1);
+  // a chip link keeps the search and sort, and the active chip clears the theme
+  const href = (t: string) => `/?${new URLSearchParams({ ...(q && { q }), ...(sort !== "date" && { sort }),
+    ...(t !== theme && { theme: t }) })}`;
   const key = (c: CallSummary) => sort === "call" ? -Math.abs(c.spark[c.spark.length - 1] ?? 0)
     : sort === "moment" ? -Math.abs(c.top_moment?.adj_ret_5m ?? 0) : -new Date(c.call_start).getTime();
   const groups = new Map<string, CallSummary[]>();
@@ -112,8 +119,8 @@ export default async function Library({ searchParams }: PageProps<"/">) {
         </div>
         <form className="flex flex-wrap gap-2 text-sm w-full sm:w-auto">
           <input
-            type="search" name="q" defaultValue={q} placeholder="Ticker, company, sector or theme"
-            className={"min-w-0 flex-1 sm:w-64 rounded border border-nb-border bg-white px-2 py-1 " +
+            type="search" name="q" defaultValue={q} placeholder="Ticker, company or sector"
+            className={"min-w-0 basis-full sm:basis-auto sm:w-64 rounded border border-nb-border bg-white px-2 py-1 " +
               "placeholder:text-nb-muted/70 focus:outline-none focus:ring-1 focus:ring-nb-accent/40"}
             aria-label="Filter calls"
           />
@@ -121,11 +128,21 @@ export default async function Library({ searchParams }: PageProps<"/">) {
             className="rounded border border-nb-border bg-white px-2 py-1">
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
+          {theme && <input type="hidden" name="theme" value={theme} />}
           <button className="rounded bg-nb-accent px-3 py-1 text-white">Apply</button>
         </form>
       </div>
+      <nav className="-mt-2 mb-4 flex flex-wrap gap-1.5 text-xs" aria-label="Filter by theme">
+        {[...themes].sort((a, b) => b[1] - a[1]).map(([t, n]) => (
+          <Link key={t} href={href(t)} aria-current={t === theme || undefined}
+            className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${t === theme ?
+              "border-nb-accent bg-white text-nb-text" : "border-nb-border text-nb-muted"}`}>
+            {t} <span className="opacity-70">{n}</span>{t === theme && " ×"}</Link>
+        ))}
+      </nav>
       {calls.length === 0 ? (
-        <p className="text-nb-muted">{all.length === 0 ? "No processed calls yet." : `No call matches "${q}".`}</p>
+        <p className="text-nb-muted">{all.length === 0 ? "No processed calls yet." :
+          `No call matches${q ? ` "${q}"` : ""}${theme ? ` with theme ${theme}` : ""}.`}</p>
       ) : ordered.map(([sector, cs]) => (
         <details key={sector} open className="mb-5 group">
           <summary className="flex cursor-pointer items-baseline gap-2 border-b border-nb-border pb-1 mb-2.5

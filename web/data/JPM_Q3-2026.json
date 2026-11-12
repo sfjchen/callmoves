@@ -9111,7 +9111,8 @@
    "pre_move": true,
    "section": "qa",
    "question": "Yes, thank you. Good morning. Um, my first question just is on capital management. You know, we were fielding a lot of inbound questions from investors in terms of the billion dollar buyback versus, you know, the normal cadence of around 7 billion. And I know that there's no normal cadence and I know that buyback is the last priority. Um, but perhaps, you know, take us through how you should think",
-   "placebo_pct": 0.0,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9142,7 +9143,8 @@
    "pre_move": true,
    "section": "qa",
    "question": "Thanks. Hi, good morning. On the consumer side, it's nice to see the 4% year over year CCB deposit growth. I'm just wondering, you know, aside from agentic, just what do you think in terms of either rate seeking behavior, the deposit margin has been up for the last few quarters, which is also good to see. And I'm just wondering, you know, any change in your expectations for either growth or how yo",
-   "placebo_pct": 0.11363636363636363,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9173,7 +9175,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Good morning, I was hoping you could talk more about how the growing non-interest-bearing deposits when a number of peers aren't, and then just how you're thinking about that specific buck or deposits in a higher rate environment if you can continue to grow.",
-   "placebo_pct": 0.5909090909090909,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -9204,7 +9207,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Hi, thanks for taking the question. So JP Morgan's ROTC target through the cycle is 17% versus the 21% today. Is there anything you're seeing either in the macro environment or competitive environment that could accelerate a path to 17% or is that not anywhere on the horizon?",
-   "placebo_pct": 0.22916666666666666,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -10541,5 +10545,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 332410
 }

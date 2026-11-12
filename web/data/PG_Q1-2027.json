@@ -6612,7 +6612,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "the pricing that you alluded to that potentially being negotiated. So I would just want to double check on that. And then in terms of the phasing of productivity, you had this 250 basis points improvement in the operating margin. How we should be thinking of the phasing as we go",
-   "placebo_pct": 0.020833333333333332,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6643,7 +6644,8 @@
    "pre_move": false,
    "section": "prepared",
    "question": null,
-   "placebo_pct": 0.21739130434782608,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6674,7 +6676,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Great. Morning, everyone. And congrats on the strong results. Andrea, can we zoom out, I guess, a bit and maybe just talk about industry growth, which despite all the discussion about pressure on the consumer, it seems like the consumer is still fairly resilient and the category growth really hasn't changed dramatically at this point. So maybe you can just sort of comment, take us around sort of k",
-   "placebo_pct": 0.45098039215686275,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   },
@@ -6705,7 +6708,8 @@
    "pre_move": false,
    "section": "qa",
    "question": "Great. Morning, everyone. And congrats on the strong results. Andrea, can we zoom out, I guess, a bit and maybe just talk about industry growth, which despite all the discussion about pressure on the consumer, it seems like the consumer is still fairly resilient and the category growth really hasn't changed dramatically at this point. So maybe you can just sort of comment, take us around sort of k",
-   "placebo_pct": 0.36,
+   "placebo_n": null,
+   "placebo_k": null,
    "vs_consensus_pct": null,
    "consensus_role": null
   }
@@ -7976,5 +7980,6 @@
   "benchmark": "etf",
   "betas": {},
   "r2": null
- }
+ },
+ "qa_start_ms": 950830
 }
