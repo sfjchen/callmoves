@@ -1,6 +1,6 @@
 # CallMoves
 
-Shows which statements in an earnings call the market reacted to. It finds the abnormal minutes in the stock's 1-minute prices (adjusted for its sector ETF), reads what was said just before each one, and ranks the likely drivers with their evidence and a confidence grade. Transcript, audio and price chart replay on 1 cursor. Live at https://callmoves.vercel.app, and anyone can submit a call at `/submit`.
+Shows which statements in an earnings call the market reacted to. It finds the abnormal minutes in the stock's 1-minute prices (adjusted for its sector ETF), reads what was said just before each one, and ranks the likely drivers with their evidence and a confidence grade. Transcript, audio and price chart replay on 1 cursor. Live at https://callmoves.sfjc.dev (also https://callmoves.vercel.app). Anyone can submit a call at `/submit`, and `/guess` plays a call up to its biggest moment and asks which way the stock went next (the page gets no data from after that moment until you answer).
 
 ## How a call is processed
 
@@ -45,13 +45,43 @@ Precision at 3 and 5 against hand-labeled move times:
 .venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>
 ```
 
-Placebo check without labels (`.venv/bin/python -m callmoves.eval data/*/ --placebo`): the real statement timing against the same claims rotated around the call by 15 minutes or more, wrapping past the end, so shifted claims stay in the same session and bars. Over several calls a sign test asks whether the real timing beats the median shift more often than half the time. Over all 45 real calls at 3564117 the real timing beats the median shift in 29 (sign test p = 0.036, log `callmoves-placebo-3564117-20261110-1835.log`). The method was tuned on the first 20 (14 of 20, p = 0.058 at 1077ccc). On the 25 calls added after that, untouched by tuning, it is 15 of 25 (p = 0.21, log `callmoves-placebo-heldout-3564117-20261110-1836.log`), so the held-out evidence on its own is weak. An earlier version shifted claims outside the call and reported p = 0.021, but that partly measured that calls are more volatile than the minutes around them. News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4.
+Placebo check without labels (`.venv/bin/python -m callmoves.eval data/*/ --placebo`): the real statement timing against the same claims rotated around the call by 15 minutes or more, wrapping past the end, so shifted claims stay in the same session and bars. Over several calls a sign test asks whether the real timing beats the median shift more often than half the time. Over all 45 real calls at 64f11f5 the real timing beats the median shift in 29 (sign test p = 0.036, log `callmoves-placebo-etf-64f11f5-20261111-1611.log`). The method was tuned on the first 20 (14 of 20, p = 0.058 at 1077ccc). On the 25 calls added after that, untouched by tuning, it is 15 of 25 (p = 0.21, log `callmoves-placebo-heldout-HEAD.log`), so the held-out evidence on its own is weak. An earlier version shifted claims outside the call and reported p = 0.021, but that partly measured that calls are more volatile than the minutes around them. News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4.
+
+### Benchmarks
+
+`market.py` can measure the stock against its sector ETF (`etf`, shipped), a market model fitted on the 3 sessions before the call (betas on SPY and the ETF, `market`), or the same plus an equal-weight peer basket (`peers`). `pipeline/data/<call>/context.csv.gz` holds the 1-minute bars of SPY, the peers and the cross-asset ETFs (TLT, UUP, HYG, GLD, USO) for every call, so all 3 run offline. Placebo at 64f11f5 (`eval data/*/ --placebo --benchmark <b>`):
+
+| Benchmark | Real beats median shift | Sign test p | Log |
+| --- | --- | --- | --- |
+| etf | 29/45 | 0.036 | `callmoves-placebo-etf-64f11f5-20261111-1611.log` |
+| market | 30/45 | 0.018 | `callmoves-placebo-market-64f11f5-20261111-1611.log` |
+| peers | 29/45 | 0.036 | `callmoves-placebo-peers-64f11f5-20261111-1612.log` |
+
+1 call apart is not a reason to switch, so the ETF stays: it is the one a reader can check on any chart.
+
+### Attribution labels
+
+`pipeline/labels/PROTOCOL.md` defines the unit (123 flagged price events in 41 calls, frozen in `flags.json`) and 3 raters who never see CallMoves' moments or scores: `opus-blind` (Claude Opus, price table and 5 min of transcript), `agent-protocol` (Claude Sonnet agents following the protocol on richer packets, `labels packets`, answers in `agent_protocol.json`) and me on `/label`. At 64f11f5 (`labels report`, log `callmoves-labels-report-64f11f5-20261111-1612.log`):
+
+| Tier | Labeled flags | Precision at 3 | Precision at 5 |
+| --- | --- | --- | --- |
+| gold (squawk headline quotes a sentence within 2 min) | 1 | 0/1 | 0/1 |
+| silver (both model raters agree) | 55 | 0.58 (26/45) | 0.55 (28/51) |
+| human | 0 so far | | |
+
+Cohen's kappa between the 2 model raters is 0.41 on all 123 flags. Silver labels are model labels, so these precisions say the shipped ranking agrees with 2 independent model readings, not that it is right.
+
+`labels align` checks the clock against 28 squawk headlines on X that quote a call sentence: in 12 calls they post at least 1.5 min after the sentence (median 4.0, none before it, log `callmoves-align-64f11f5-20261111-1612.log`), so no call's timing is off by more than the posting lag.
+
+`eval data/*/ --predict` asks whether claim features predict the next 5 minutes: a ridge model, left out 1 call at a time. Its mean Spearman correlation with the realized move is -0.053, against -0.099 for trailing volatility and -0.055 for the score's ex-ante part (log `callmoves-predict-64f11f5-20261111-1612.log`). Nothing predicts the move before it happens, so no prediction ships, and the moments stay a price-first reading.
+
+### Study
 
 The time-to-insight study (`/study`, 2 timed trials, replay with and without moments) is live with no testers yet. It runs at the Final Project Expo, where "Next participant on this device" resets the shared laptop between visitors, and `/study/results` shows the aggregates.
 
 ## Cost and speed
 
-Ingest and run write `stats.json` per call: GPU model and seconds (priced at Modal's list rate plus the container's memory and CPU), Claude tokens (priced at Sonnet 5.5 list rates) and wall time. Over the 25 calls processed by the worker on 2026-11-11 (`eval data/*/ --stats`, log `callmoves-stats-3564117-20261110-1835.log`):
+Ingest and run write `stats.json` per call: GPU model and seconds (priced at Modal's list rate plus the container's memory and CPU), Claude tokens (priced at Sonnet 5.5 list rates) and wall time. Over the 25 calls processed by the worker on 2026-11-11 (`eval data/*/ --stats`, log `callmoves-stats-64f11f5-20261111-1613.log`):
 
 | Per call | Median | Range |
 | --- | --- | --- |
