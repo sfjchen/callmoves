@@ -9,6 +9,8 @@ const patrick = Patrick_Hand({ weight: "400", subsets: ["latin"], variable: "--f
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
+  // preview image URLs are relative, so crawlers on any deploy resolve them against the production domain
+  metadataBase: new URL("https://callmoves.sfjc.dev"),
   title: "CallMoves",
   description: "Which statements on an earnings call came right before the stock moved, replayed with chart, " +
     "transcript and audio",

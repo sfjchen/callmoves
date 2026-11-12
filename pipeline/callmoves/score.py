@@ -25,6 +25,8 @@ CONSENSUS_GAP = 0.01   # a figure this far from consensus moves the stock even w
 KIND_WEIGHT = {"guidance": 1.0, "result": 0.8, "qualitative": 0.5}   # numbers are checkable, tone is not
 QUESTION_CHARS = 400   # analyst questions shown on a card are cut to this length
 OPEN_MIN = 9 * 60 + 30   # 9:30 ET, the regular-session open
+CLOSE_MIN = 16 * 60      # 16:00 ET, its close
+PLACEBO_MIN_N = 8        # fewer other 5-minute windows than this cannot show how unusual a move is
 OPEN_SETTLE_MIN = 5      # the opening auction prices everything since the prior close, so these minutes are not
                          # tied to 1 statement
 
@@ -135,17 +137,27 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
 
 
 def with_placebo(moments: list[Moment], bars: pd.DataFrame, start: datetime, end: datetime) -> list[Moment]:
-    """Returns copies of the moments with placebo_pct: the share of the call's start minutes, from start to end,
-    whose |5-minute adjusted return| is at least the moment's. Minutes whose window touches the opening auction are
-    left out, as the scorer skips them, and so are minutes within WINDOW_MIN of the moment, whose windows share its
-    move, and minutes with no trade in their window, which would count as no move. None when no minute is left."""
-    t0, ts = minute_of(start), pd.to_datetime(bars["ts"])
-    grid = [t0 + timedelta(minutes=i) for i in range(int((end - t0).total_seconds() // 60) + 1)]
-    moves = [(t, abs(forward_window(bars, t)["adj_ret"])) for t in grid if not touches_open(t)
-             and ((ts >= t) & (ts < t + timedelta(minutes=WINDOW_MIN))).any()]
+    """Returns copies of the moments with placebo_n, the number of the call's other 5-minute windows, and
+    placebo_k, how many of them moved at least as much (|adjusted return|) as the moment's. The windows tile the call
+    from the moment's minute in 5-minute steps, so they do not overlap it or each other. Only regular-session windows
+    with a trade count: a pre- or after-market window is measured from a stale bar, and one touching the opening
+    auction prices the whole night. Fewer than PLACEBO_MIN_N windows give None, too few to say how unusual a move is.
+    Moments are picked for big moves, so a low count is expected by design: it says how unusual, not why."""
+    ts = pd.to_datetime(bars["ts"])
     out = []
     for m in moments:
-        pool = [r for t, r in moves if abs(t - minute_of(m.ts)) > timedelta(minutes=WINDOW_MIN)]
-        pct = sum(r >= abs(m.adj_ret_5m) for r in pool) / len(pool) if pool else None
-        out.append(m.model_copy(update={"placebo_pct": pct}))
+        t0 = minute_of(m.ts)
+        step = timedelta(minutes=WINDOW_MIN)
+        lo, hi = -int((t0 - minute_of(start)) / step), int((end - t0) / step)
+        pool = []
+        for k in range(lo, hi + 1):
+            t = t0 + k * step
+            et = t.astimezone(ET)
+            if k == 0 or touches_open(t) or not OPEN_MIN <= et.hour * 60 + et.minute <= CLOSE_MIN - WINDOW_MIN:
+                continue
+            if ((ts >= t) & (ts < t + step)).any():
+                pool.append(abs(forward_window(bars, t)["adj_ret"]))
+        ok = len(pool) >= PLACEBO_MIN_N
+        out.append(m.model_copy(update={"placebo_n": len(pool) if ok else None,
+                                        "placebo_k": sum(r >= abs(m.adj_ret_5m) for r in pool) if ok else None}))
     return out

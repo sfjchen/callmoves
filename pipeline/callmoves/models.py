@@ -103,7 +103,8 @@ class Moment(BaseModel):
     section: Literal["prepared", "qa"] = "prepared"
     question: str | None = None   # in Q&A, the analyst question this answer follows
     # share of the call's other start minutes whose |5-min adjusted return| is at least this one's, None at the open
-    placebo_pct: float | None = None
+    placebo_n: int | None = None   # the call's other regular-session 5-minute windows (score.with_placebo)
+    placebo_k: int | None = None   # how many of them moved at least as much
     vs_consensus_pct: float | None = None
     consensus_role: Literal["reported", "next_quarter", "full_year"] | None = None
 

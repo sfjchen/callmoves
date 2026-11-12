@@ -93,19 +93,26 @@ def test_spillover_tags():
     assert spillover(0.0009, 0.0013) is None        # the stock barely moved, nothing to attribute
 
 
-def test_placebo_pct_is_the_share_of_other_call_minutes_that_moved_at_least_as_much():
-    bars = market.adjusted_returns(make_bars(stock_bump={41: 0.012, 70: 0.03, 90: -0.03}))
+def test_placebo_counts_the_other_5_minute_windows_that_moved_as_much():
+    bars = market.adjusted_returns(make_bars(stock_bump={41: 0.012, 71: 0.03, 91: -0.03, 101: 0.012}))
     bars["flagged"] = bars.index.isin([41])
     ss = segs([(40, "CFO", "x")])
     m = with_placebo(rank_moments([claim(0, ss[0])], ss, bars), bars, T0, T0 + timedelta(minutes=100))[0]
-    # 101 start minutes, minus 35 to 45 around the moment = 90, of which 66 to 70 and 86 to 90 hold a 3% bar
-    assert m.adj_ret_5m > 0.01 and m.placebo_pct == 10 / 90
-    assert with_placebo([m], bars, T0 + timedelta(minutes=36), T0 + timedelta(minutes=44))[0].placebo_pct is None
-    gap = bars.drop(index=range(95, 101)).reset_index(drop=True)      # no trade 95 to 100: starts 95, 96 see none
-    assert with_placebo([m], gap, T0, T0 + timedelta(minutes=100))[0].placebo_pct == 10 / 88
-    bars = make_bars(stock_bump={5: 0.03, 41: 0.012, 70: 0.03, 90: -0.03})
-    bars["ts"] -= timedelta(minutes=35)                                  # bar 0 is 9:25 ET, bars 0 to 9 touch the open
-    bars = market.adjusted_returns(bars)
-    m = m.model_copy(update={"ts": m.ts - timedelta(minutes=35)})
-    m = with_placebo([m], bars, T0 - timedelta(minutes=35), T0 + timedelta(minutes=65))[0]
-    assert m.placebo_pct == 10 / 80                                      # the 3% auction bar at 9:30 is left out
+    # windows start at minute 40 + 5k: 0, 5 ... 100 minus the moment's own = 20, the ones from 70, 90 and 100 hold a
+    # bump at least as big (91 is negative), none of them overlaps the moment's window
+    assert m.adj_ret_5m > 0.01 and (m.placebo_k, m.placebo_n) == (3, 20)
+    assert with_placebo([m], bars, T0 + timedelta(minutes=30), T0 + timedelta(minutes=50))[0].placebo_n is None
+    gap = bars.drop(index=range(95, 100)).reset_index(drop=True)       # no trade 95 to 99: that window is left out
+    assert with_placebo([m], gap, T0, T0 + timedelta(minutes=100))[0].placebo_n == 19
+    neg = m.model_copy(update={"adj_ret_5m": -m.adj_ret_5m})            # the size of the move counts, not its sign
+    assert with_placebo([neg], bars, T0, T0 + timedelta(minutes=100))[0].placebo_k == 3
+    top = max(abs(market.forward_window(bars, T0 + timedelta(minutes=t))["adj_ret"]) for t in (70, 90))
+    tie = m.model_copy(update={"adj_ret_5m": top})                       # an equal move counts as moving as much
+    assert with_placebo([tie], bars, T0, T0 + timedelta(minutes=100))[0].placebo_k == 1
+    early = make_bars(stock_bump={41: 0.012, 71: 0.03})
+    early["ts"] -= timedelta(minutes=40)                                # bar 0 is 9:20 ET, the moment is at 10:00
+    early = market.adjusted_returns(early)
+    e = with_placebo([m.model_copy(update={"ts": m.ts - timedelta(minutes=40)})], early, T0 - timedelta(minutes=40),
+                     T0 + timedelta(minutes=60))[0]
+    # pre-market 9:20 and 9:25 and the 9:30 auction window are left out: 9:35 to 11:00 is 18 windows minus the moment
+    assert (e.placebo_k, e.placebo_n) == (1, 17)

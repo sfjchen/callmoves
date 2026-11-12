@@ -1,5 +1,6 @@
 // Status of 1 submitted call (client component): queued, processing, done or failed, refreshed from
-// /api/submissions/{id} every 15 s until the call is done or failed, with a link to the replay when done.
+// /api/submissions/{id} every 30 s while the tab is visible, until the call is done, failed or gone, with a link to
+// the replay when done.
 "use client";
 
 import Link from "next/link";
@@ -7,7 +8,7 @@ import { useEffect, useState } from "react";
 import { clock, WORKER_WAIT } from "@/lib/format";
 import type { SubmissionStatus } from "@/lib/submit";
 
-const POLL_MS = 15_000;
+const POLL_MS = 30_000;  // the worker only picks up the queue every 15 min
 const STEPS = [["queued", "Queued"], ["running", "Processing"], ["done", "Done"]] as const;
 
 /**
@@ -20,8 +21,12 @@ export default function SubmitStatus({ initial }: { initial: SubmissionStatus })
   useEffect(() => {
     if (!pending) return;
     const t = setInterval(() => {
+      if (document.hidden) return;   // a background tab waits until it is looked at again
       fetch(`/api/submissions/${s.id}`, { cache: "no-store" })
-        .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+        .then((r) => {
+          if (r.status === 404) { clearInterval(t); setStale(true); }   // the row is gone, nothing more to read
+          return r.ok ? r.json() : Promise.reject(new Error(String(r.status)));
+        })
         .then((next: SubmissionStatus) => { setS(next); setStale(false); }, () => setStale(true));
     }, POLL_MS);
     return () => clearInterval(t);
@@ -47,7 +52,7 @@ export default function SubmitStatus({ initial }: { initial: SubmissionStatus })
       {s.status === "failed" && <p className="text-red-700">Failed{s.error ? `: ${s.error}` : "."}</p>}
       {pending && (
         <p className="mt-3 text-xs text-nb-muted">
-          {WORKER_WAIT} This page checks every 15 s, and the link keeps working if you come back later.
+          {WORKER_WAIT} This page checks every 30 s, and the link keeps working if you come back later.
           {stale && " The last check failed, retrying."}
         </p>
       )}

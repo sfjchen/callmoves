@@ -90,6 +90,15 @@ _OPERATOR = re.compile(r"\b(questions? (will )?comes? from|next question|final q
                        r"turn the (call|conference) (back )?over to)\b", re.IGNORECASE)
 _QA_START = re.compile(r"\b(questions? (will )?comes? from|first question|next question|take your questions|"
                        r"begin the question)\b", re.IGNORECASE)
+# "Following our prepared remarks, we'll take your questions" announces the Q&A without starting it
+_LATER = re.compile(r"\b(following|after|at the end|later)\b", re.IGNORECASE)
+
+
+def opens_qa(text: str) -> bool:
+    """Whether a turn starts the Q&A: 1 of its sentences introduces a question and does not announce it for later."""
+    return any(_QA_START.search(x) and not _LATER.search(x) for x in re.split(r"(?<=[.?!])\s+", text))
+
+
 _INTRO = re.compile(r"\b(questions? (will )?comes? from|next question|final question)\b", re.IGNORECASE)
 _MAX_ANALYST_SEGMENTS = 8
 
@@ -113,7 +122,7 @@ def label_speakers(segments: list[dict], voices: list[dict] | None = None) -> li
         text = s["text"].strip()
         if _OPERATOR.search(text):
             label = "Operator"
-            if _QA_START.search(text):
+            if opens_qa(text):
                 in_qa = True
             if in_qa and _INTRO.search(text):
                 analyst_left = _MAX_ANALYST_SEGMENTS   # "your line is open" follows and must not reset this
@@ -135,7 +144,7 @@ def label_speakers(segments: list[dict], voices: list[dict] | None = None) -> li
         s["voice"] = top[0][0] if top else None
     op_hits = Counter(s["voice"] for s in out if s["speaker"] == "Operator" and s["voice"])
     operator = op_hits.most_common(1)[0][0] if op_hits else None
-    qa_ms = next((s["t0_ms"] for s in out if s["speaker"] == "Operator" and _QA_START.search(s["text"])), None)
+    qa_ms = next((s["t0_ms"] for s in out if s["speaker"] == "Operator" and opens_qa(s["text"])), None)
     prepared = Counter()
     for s in out:
         if s["voice"] and (qa_ms is None or s["t0_ms"] < qa_ms):
@@ -155,7 +164,7 @@ def qa_start_ms(segments) -> int | None:
     """Audio offset where Q&A begins: the first operator turn that introduces a question. None for a call with no
     detected Q&A. Research finds the Q&A carries more new information than the prepared remarks (Matsumoto,
     Pronk and Roelofsen 2011), so moments say which part they come from."""
-    return next((s.t0_ms for s in segments if s.speaker == "Operator" and _QA_START.search(s.text)), None)
+    return next((s.t0_ms for s in segments if s.speaker == "Operator" and opens_qa(s.text)), None)
 
 
 # The operator's opening line marks the call start. Hold messages before it ("will begin shortly") do not.

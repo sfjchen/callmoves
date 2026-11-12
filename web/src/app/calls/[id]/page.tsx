@@ -13,7 +13,7 @@ export const dynamic = "force-dynamic";
 
 /**
  * Builds the title, description and preview image tags for a call link, from the ?m= moment or the top one. The
- * relative image URL resolves against the Vercel production domain, or localhost in development. Its v= hash of the
+ * relative image URL resolves against metadataBase (layout.tsx), callmoves.sfjc.dev. Its v= hash of the
  * moment changes when a rerun changes it, since X, Slack and Facebook cache preview images by URL.
  */
 export async function generateMetadata({ params, searchParams }: PageProps<"/calls/[id]">): Promise<Metadata> {
@@ -34,7 +34,7 @@ export async function generateMetadata({ params, searchParams }: PageProps<"/cal
 
 /**
  * Renders the replay view for 1 call, or the 404 page for an unknown id. With ?study=callmoves|baseline&p=<id> it
- * adds the study bar, and the baseline condition gets the call stripped of everything CallMoves computed (moments,
+ * adds the study bar, and the baseline condition gets the call stripped of everything derived from prices (moments,
  * flagged minutes, per-turn returns) so none of it reaches the browser.
  */
 export default async function CallPage({ params, searchParams }: PageProps<"/calls/[id]">) {

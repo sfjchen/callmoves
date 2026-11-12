@@ -5,7 +5,13 @@ from conftest import T0, meta
 from callmoves.claims import extract_claims_rules
 from callmoves.models import Claim, Part, Segment
 from callmoves.novelty import _num_values, _nums_match, judge_novelty_rules
-from callmoves.transcript import align, call_start_ms, label_speakers, merge_turns
+from callmoves.transcript import (
+    align,
+    call_start_ms,
+    label_speakers,
+    merge_turns,
+    opens_qa,
+)
 
 
 def seg(i, t0, speaker, text):
@@ -169,3 +175,11 @@ def test_call_start_skips_lead_in_and_hold_message():
     assert call_start_ms(lead_in) == 95_000
     assert call_start_ms([seg(0, "Welcome, everyone."), seg(5000, "Thank you.")]) == 0
     assert call_start_ms([seg(1000, "Revenue rose 5%."), seg(700_000, "Welcome back.")]) == 0
+
+
+def test_an_announced_qa_does_not_start_it():
+    # ABBV's safe-harbor turn ends "Following our prepared remarks, we'll take your questions" at minute 1
+    assert not opens_qa("Reconciliations are on our website. Following our prepared remarks, we'll take your "
+                        "questions. So with that, I'll turn the call over to Rob.")
+    assert opens_qa("Thank you. Our first question comes from Chris Schott with JPMorgan.")
+    assert opens_qa("Thanks, Chris. Operator, next question, please.")

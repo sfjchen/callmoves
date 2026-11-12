@@ -2,7 +2,7 @@
 // moments and transcript on 1 shared cursor.
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
   Bar, ComposedChart, Line, ReferenceArea, ReferenceDot, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis,
 } from "recharts";
@@ -13,6 +13,7 @@ import {
 import Comps from "@/components/comps";
 import { benchName } from "@/lib/share";
 
+const MAX_TICKS = 40;  // more search matches than this would fill the chart with ticks, so it shows none
 const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
 const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
@@ -65,10 +66,10 @@ export default function Replay({ data, baseline = false, initialRank }: {
   const cursorPoint = useMemo(() => nearest(points, cursorMs), [points, cursorMs]);
   const active = useMemo(() => activeSegment(data.segments, cursorMs), [data.segments, cursorMs]);
   const byTime = useMemo(() => [...data.moments].sort((a, b) => a.t0_ms - b.t0_ms), [data.moments]);
-  const hits = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return q ? data.segments.filter((s) => s.text.toLowerCase().includes(q)) : [];
-  }, [data.segments, query]);
+  // filtering waits for typing to pause, and 1 letter matches nearly every turn, so search starts at 2
+  const q = useDeferredValue(query.trim().toLowerCase());
+  const hits = useMemo(() => q.length < 2 ? [] : data.segments.filter((s) => s.text.toLowerCase().includes(q)),
+    [data.segments, q]);
   const qaMs = data.qa_start_ms != null && data.qa_start_ms < endMs ? data.qa_start_ms : null; // null: no Q&A band
   const flaggedCount = data.bars.filter((b) => b.flagged).length;
   const est = (data.estimates ?? []).filter((e) => e.role === "reported");
@@ -117,11 +118,11 @@ export default function Replay({ data, baseline = false, initialRank }: {
     return () => window.removeEventListener("keydown", onKey);
   });
 
-  // Moves the cursor, audio and transcript to search hit i and scrolls it into view in the hit list.
+  // Moves the cursor, audio and transcript to search hit i, wrapping around at either end.
   function jump(i: number) {
-    setHit(i);
-    seek(hits[i].t0_ms);
-    document.getElementById(`hit-${i}`)?.scrollIntoView({ block: "nearest" });
+    const n = hits.length;
+    setHit((i + n) % n);
+    seek(hits[(i + n) % n].t0_ms);
   }
 
   // Enter and Shift+Enter cycle the search hits, starting at the first or last. Esc clears the search, then leaves it.
@@ -133,8 +134,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
     }
     if (e.key !== "Enter" || hits.length === 0) return;
     e.preventDefault();
-    const n = hits.length;
-    jump(hit < 0 ? (e.shiftKey ? n - 1 : 0) : (hit + (e.shiftKey ? -1 : 1) + n) % n);
+    jump(hit < 0 ? (e.shiftKey ? -1 : 0) : hit + (e.shiftKey ? -1 : 1));
   }
 
   const noAudio = !data.call.audio_url || audioOk === false;
@@ -286,9 +286,11 @@ export default function Replay({ data, baseline = false, initialRank }: {
                 {qaMs != null && (
                   <ReferenceArea
                     yAxisId="ret" x1={qaMs} x2={endMs} fill="#e2d8c8" fillOpacity={0.9}
-                    label={{ value: "Q&A", position: "insideTopLeft", fill: "#6b6359", fontSize: 10 }}
+                    label={{ value: `Q&A ${clock(new Date(start + qaMs))}`, position: "insideTopLeft", fill: "#6b6359",
+                      fontSize: 10 }}
                   />
                 )}
+                {qaMs != null && <ReferenceLine yAxisId="ret" x={qaMs} stroke="#6b6359" strokeWidth={1} />}
                 {data.moments.map((m) => (
                   <ReferenceArea
                     key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
@@ -313,7 +315,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
                     />
                   ) : null;
                 })}
-                {hits.map((s, i) => (
+                {hits.length <= MAX_TICKS && hits.map((s, i) => (
                   <ReferenceLine
                     key={s.seg_id} yAxisId="vol" segment={[{ x: s.t0_ms, y: 0 }, { x: s.t0_ms, y: 1.5 }]}
                     stroke={i === hit ? "#1a1a1a" : "#6b6359"} strokeWidth={i === hit ? 2 : 1.25}
@@ -327,9 +329,7 @@ export default function Replay({ data, baseline = false, initialRank }: {
             {baseline ? "Grey band is the call" :
               "Grey band is the call, orange dots abnormal minutes, " +
                 "numbered dots moments with their 5-min window shaded"}
-            {qaMs != null && `, darker from ${clock(new Date(start + qaMs))} ET where the operator ` +
-              "opens Q&A (before it, prepared remarks)"}
-            {hits.length > 0 && ", grey ticks at the bottom transcript matches for the search"}.
+            {hits.length > 0 && hits.length <= MAX_TICKS && ", grey ticks at the bottom search matches"}.
             {" "}Click or tap the chart to jump there.
             <span className="hidden lg:inline cursor-help ml-1 underline decoration-dotted"
               title={`j / k: next and previous moment. 1 to 5: jump to a rank. [ / ]: previous and next turn.${audioOk ?
@@ -385,33 +385,21 @@ export default function Replay({ data, baseline = false, initialRank }: {
                 "focus:outline-none focus:ring-1 focus:ring-nb-accent/40"
               }
             />
-            {query.trim() && (
-              <span className="text-xs text-nb-muted tabular w-16">
-                {hit >= 0 ? `${hit + 1} of ${hits.length}` : `${hits.length} hit${hits.length === 1 ? "" : "s"}`}
-              </span>
-            )}
+            {q.length >= 2 && <span className="flex items-center gap-1 text-xs text-nb-muted tabular">
+              <span aria-live="polite">{hits.length === 0 ? "no match" : hit >= 0 ? `${hit + 1} of ${hits.length}` :
+                `${hits.length} match${hits.length === 1 ? "" : "es"}`}</span>
+              {hits.length > 0 && <>
+                <button aria-label="Previous match" onClick={() => jump(hit < 0 ? -1 : hit - 1)}
+                  className="rounded border border-nb-border px-1.5 hover:bg-white">↑</button>
+                <button aria-label="Next match" onClick={() => jump(hit + 1)}
+                  className="rounded border border-nb-border px-1.5 hover:bg-white">↓</button>
+              </>}
+            </span>}
           </div>
-          {hits.length > 0 && (
-            <ol aria-label="Search hits" className="mb-2 max-h-32 overflow-y-auto rounded border border-nb-border">
-              {hits.map((s, i) => {
-                const at = s.text.toLowerCase().indexOf(query.trim().toLowerCase()); // clips long turns to the match
-                return <li key={s.seg_id}>
-                  <button id={`hit-${i}`} onClick={() => jump(i)}
-                    className={`flex w-full gap-2 px-2 py-1 text-left text-xs hover:bg-white ${i === hit ?
-                      "bg-white" : ""}`}>
-                    <span className="shrink-0 tabular text-nb-muted">{clock(new Date(start + s.t0_ms))}</span>
-                    <span className="shrink-0 font-medium text-neutral-700">{shortSpeaker(s.speaker)}</span>
-                    <span className="min-w-0 truncate text-neutral-800">
-                      {highlight(at > 16 ? "..." + s.text.slice(at - 12) : s.text, query.trim())}</span>
-                  </button>
-                </li>;
-              })}
-            </ol>
-          )}
           <TranscriptList
             segments={data.segments} activeId={active?.seg_id ?? null}
             momentSegs={new Set(data.moments.map((m) => m.seg_id))}
-            offset={offset} query={query.trim()} onSelect={(s) => seek(s.t0_ms)}
+            offset={offset} query={q.length < 2 ? "" : q} onSelect={(s) => seek(s.t0_ms)}
           />
         </section>
       </div>
@@ -428,9 +416,8 @@ export default function Replay({ data, baseline = false, initialRank }: {
               ` Betas fitted on the 3 sessions before the call, R² ${data.context.r2.toFixed(2)}.`}</li>
           <li>Score = novelty × kind × |5-min adjusted return| × volume multiple × closeness to the minute. An EPS or
             revenue figure over 1% off consensus counts as new.</li>
-          <li>Each card compares the 5-min adjusted move after the statement with every other traded start minute
-            of the call, skipping the opening auction and the 5 min either side of the statement: a low share means
-            that move was rare for this call.</li>
+          <li>Each card counts the call&apos;s other 5-min windows (regular session, no opening auction) that moved
+            as much. Moments are picked for big moves, so a low count is expected: it says how unusual, not why.</li>
           <li>&ldquo;Move began earlier&rdquo; means the price may have shaped the statement. Associations, not
             causes.</li>
           {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li>
@@ -500,9 +487,9 @@ function MomentCard({ m, atOpen, active, onSelect }: {
               {m.nearest_flag_min >= 0 && `, abnormal minute ${m.nearest_flag_min === 0 ? "at" :
                 `+${m.nearest_flag_min.toFixed(0)} min after`} the statement`}
             </p>
-            {m.placebo_pct != null && <p>
-              A random minute of this call moved at least this much{" "}
-              {m.placebo_pct > 0 && m.placebo_pct < 0.005 ? "<1" : Math.round(m.placebo_pct * 100)}% of the time.</p>}
+            {m.placebo_n != null && m.placebo_k != null && <p>
+              {m.placebo_k === 0 ? `Bigger than all ${m.placebo_n} other 5-min windows of the call`
+                : `${m.placebo_k} of ${m.placebo_n} other 5-min windows of the call moved as much`}</p>}
             <p>
               {m.pre_move && <span className="text-amber-700">Move began earlier. </span>}
               {m.confidence} confidence

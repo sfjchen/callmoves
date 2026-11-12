@@ -75,7 +75,8 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
       width: 1200, height: 630,
       fonts: font ? [{ name: "Patrick Hand", data: font, weight: 400, style: "normal" }] : undefined,
       // a rerun or newly published call changes the numbers, so no year-long immutable cache
-      headers: { "Cache-Control": "public, max-age=3600" },
+      // s-maxage lets Vercel's CDN serve crawlers, the v= hash in the URL changes when the moment does
+      headers: { "Cache-Control": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400" },
     },
   );
 }
