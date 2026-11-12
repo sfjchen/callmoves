@@ -10,6 +10,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const SB_KEY = process.env.SUPABASE_ANON_KEY;
 const ID_RE = /^[A-Za-z0-9_.-]+$/;
 const REVALIDATE_S = 60;
+const FIXTURE = "ACME";   // the synthetic test call, reachable by its URL but never listed
 
 /**
  * Fetches rows of callmoves_calls with the anon key, which row-level security limits to reads. Cached for
@@ -38,11 +39,13 @@ export async function getCall(id: string): Promise<CallOutput | null> {
 }
 
 /**
- * Lists every call for the library, newest first.
+ * Lists every real call for the library, newest first.
  */
 export async function listCalls(): Promise<CallSummary[]> {
+  const real = (c: CallSummary) => c.ticker !== FIXTURE;
   if (SB_URL && SB_KEY) {
-    return (await sbRows<{ summary: CallSummary }>("select=summary&order=call_start.desc")).map((r) => r.summary);
+    return (await sbRows<{ summary: CallSummary }>("select=summary&order=call_start.desc")).map((r) => r.summary)
+      .filter(real);
   }
   let files: string[] = [];
   try {
@@ -54,5 +57,6 @@ export async function listCalls(): Promise<CallSummary[]> {
   return calls
     .filter((c): c is CallOutput => c !== null)
     .map((c) => c.summary)
+    .filter(real)
     .sort((a, b) => b.call_start.localeCompare(a.call_start));
 }

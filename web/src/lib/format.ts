@@ -1,5 +1,6 @@
 // Formatting helpers and shared constants for the web app: US Eastern clock times, signed percents, mm:ss, the
-// price-direction colors, and the 5-minute reaction window both the replay chart and the study gold answer use.
+// Stanford palette shared by the charts and the share image, and the 5-minute reaction window both the replay
+// chart and the study gold answer use.
 export const TZ = "America/New_York";
 export const WINDOW_MS = 5 * 60_000;   // reaction window after a statement
 
@@ -44,8 +45,15 @@ export function dir(x: number): Dir {
   return Math.abs(x) < 0.001 ? "flat" : x > 0 ? "up" : "down";
 }
 
-export const DIR_HEX: Record<Dir, string> = { up: "#047857", down: "#b91c1c", flat: "#737373" };
-export const DIR_TEXT: Record<Dir, string> = { up: "text-emerald-700", down: "text-red-700", flat: "text-neutral-500" };
+// Stanford identity colors (identity.stanford.edu). Class names use the @theme tokens in globals.css, while SVG
+// charts and the OG image cannot read CSS variables, so they take these hex values.
+export const PAL = {
+  page: "#f4f4f4", surface: "#ffffff", ink: "#2e2d29", muted: "#53565a", faint: "#6d6c69", line: "#d5d5d4",
+  rule: "#eaeaea", brand: "#8c1515", mark: "#007c92", markBg: "#e5f1f3", flag: "#e98300",
+  up: "#006f54", down: "#b1040e",
+};
+export const DIR_HEX: Record<Dir, string> = { up: PAL.up, down: PAL.down, flat: PAL.faint };
+export const DIR_TEXT: Record<Dir, string> = { up: "text-up", down: "text-down", flat: "text-muted" };
 
 /**
  * Formats a pipeline quarter label compactly, "Q3-2026" -> "Q3 '26". Labels in another shape pass through.

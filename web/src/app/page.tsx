@@ -3,7 +3,9 @@
 // under the header, and sort by date or move size.
 import Link from "next/link";
 import { listCalls } from "@/lib/data";
-import { clock, dir, DIR_HEX, DIR_TEXT, pct, SECTOR, shortQuarter, shortSpeaker, SPILL_LABEL, TZ } from "@/lib/format";
+import {
+  clock, dir, DIR_HEX, DIR_TEXT, PAL, pct, SECTOR, shortQuarter, shortSpeaker, SPILL_LABEL, TZ,
+} from "@/lib/format";
 import type { CallSummary } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -23,9 +25,9 @@ function Sparkline({ pts }: { pts: number[] }) {
   const last = pts[pts.length - 1];
   return (
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} className="shrink-0" aria-hidden>
-      <line x1={PAD} x2={W - PAD} y1={y(0)} y2={y(0)} stroke="#e5e5e5" strokeDasharray="2 2" />
+      <line x1={PAD} x2={W - PAD} y1={y(0)} y2={y(0)} stroke={PAL.rule} strokeDasharray="2 2" />
       <polyline points={pts.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ")}
-        fill="none" stroke="#737373" strokeWidth={1.25} />
+        fill="none" stroke={PAL.faint} strokeWidth={1.25} />
       <circle cx={x(pts.length - 1)} cy={y(last)} r={2.5} fill={DIR_HEX[dir(last)]} />
     </svg>
   );
@@ -129,14 +131,14 @@ export default async function Library({ searchParams }: PageProps<"/">) {
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
           {theme && <input type="hidden" name="theme" value={theme} />}
-          <button className="rounded bg-accent px-3 py-1 text-white">Apply</button>
+          <button className="rounded bg-brand px-3 py-1 text-white hover:bg-brand-dark">Apply</button>
         </form>
       </div>
       <nav className="-mt-2 mb-4 flex flex-wrap gap-1.5 text-xs" aria-label="Filter by theme">
         {[...themes].sort((a, b) => b[1] - a[1]).map(([t, n]) => (
           <Link key={t} href={href(t)} aria-current={t === theme || undefined}
             className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${t === theme ?
-              "border-accent bg-white text-ink" : "border-line text-muted"}`}>
+              "border-brand bg-white text-ink" : "border-line text-muted"}`}>
             {t} <span className="opacity-70">{n}</span>{t === theme && " ×"}</Link>
         ))}
       </nav>

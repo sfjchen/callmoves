@@ -8,7 +8,7 @@ import {
 } from "recharts";
 import type { CallOutput, Estimate, Moment, Segment } from "@/lib/types";
 import {
-  clock, dir, DIR_HEX, DIR_TEXT, mmss, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
+  clock, dir, DIR_HEX, DIR_TEXT, mmss, PAL, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
 } from "@/lib/format";
 import Comps from "@/components/comps";
 import { benchName, clip } from "@/lib/share";
@@ -187,7 +187,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
       <div
         className={
           "lg:hidden sticky top-0 z-10 -mx-4 sm:-mx-6 -mt-5 mb-3 px-4 sm:px-6 py-1.5 bg-page/95 " +
-          "border-b border-line text-xs tabular text-neutral-700"
+          "border-b border-line text-xs tabular text-ink"
         }
       >
         {clock(new Date(start + cursorMs))} ET · {mmss(cursorMs - offset)}
@@ -228,7 +228,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
       </div>
 
       {guess && (
-        <section className="card mt-2 mb-3 px-3 py-2.5 border-accent" aria-label="Guess the move">
+        <section className="card mt-2 mb-3 px-3 py-2.5 border-brand" aria-label="Guess the move">
           {!result ? (
             <>
               <p className="text-[15px] leading-snug">
@@ -239,7 +239,8 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
                 {([[true, "▲ Beat"], [false, "▼ Trail"]] as const).map(([up, label]) => (
                   <button key={label} onClick={() => answer(up)} disabled={guessState === "busy"}
-                    className="rounded-full bg-accent px-3 py-0.5 text-white disabled:opacity-50">{label}</button>
+                    className="rounded-full bg-ink px-3 py-0.5 text-white hover:bg-ink/85 disabled:opacity-50">
+                    {label}</button>
                 ))}
                 <span className="text-xs text-muted">{guessState === "error" ?
                   "Could not load the answer, try again." : "The chart and transcript stop here."}</span>
@@ -279,14 +280,14 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               {data.moments.map((m) => (
                 <button key={m.rank} onClick={() => select(m)}
                   className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${active?.seg_id === m.seg_id ?
-                    "border-accent bg-white" : "border-line"}`}>
-                  <span className="font-semibold text-accent">{m.rank}</span> {clock(m.ts)}{" "}
+                    "border-mark bg-white" : "border-line"}`}>
+                  <span className="font-semibold text-mark">{m.rank}</span> {clock(m.ts)}{" "}
                   <span className={DIR_TEXT[dir(m.adj_ret_5m)]}>{pct(m.adj_ret_5m)}</span>
                 </button>
               ))}
               {audioOk && lead && (
                 <button onClick={() => { select(lead); void audioRef.current?.play(); }}
-                  className="rounded-full bg-accent px-2.5 py-0.5 text-white">▶ Play #1</button>
+                  className="rounded-full bg-brand px-2.5 py-0.5 text-white">▶ Play #1</button>
               )}
               <span className="hidden lg:inline ml-auto text-muted">
                 <kbd>j</kbd> <kbd>k</kbd> next and previous moment · <kbd>1</kbd>-<kbd>5</kbd> rank
@@ -357,35 +358,36 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                       : [`${Number(v).toFixed(1)}x`, "volume"]
                   )}
                 />
-                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
+                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill={PAL.page} fillOpacity={0.9} />
                 {qaMs != null && (
                   <ReferenceArea
-                    yAxisId="ret" x1={qaMs} x2={endMs} fill="#e8eefc" fillOpacity={0.9}
-                    label={{ value: `Q&A ${clock(new Date(start + qaMs))}`, position: "insideTopLeft", fill: "#737373",
+                    yAxisId="ret" x1={qaMs} x2={endMs} fill={PAL.markBg} fillOpacity={0.9}
+                    label={{ value: `Q&A ${clock(new Date(start + qaMs))}`, position: "insideTopLeft", fill: PAL.muted,
                       fontSize: 10 }}
                   />
                 )}
-                {qaMs != null && <ReferenceLine yAxisId="ret" x={qaMs} stroke="#737373" strokeWidth={1} />}
+                {qaMs != null && <ReferenceLine yAxisId="ret" x={qaMs} stroke={PAL.faint} strokeWidth={1} />}
                 {data.moments.map((m) => (
                   <ReferenceArea
                     key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
                     fillOpacity={0.15}
                   />
                 ))}
-                <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
+                <Bar yAxisId="vol" dataKey="vol_mult" fill={PAL.line} isAnimationActive={false} />
                 <Line
-                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#171717" strokeWidth={1.75} dot={false}
+                  yAxisId="ret" type="monotone" dataKey="cum" stroke={PAL.ink} strokeWidth={1.75} dot={false}
                   isAnimationActive={false}
                 />
                 {points.filter((p) => p.flagged).map((p) => (
-                  <ReferenceDot key={p.t} yAxisId="ret" x={p.t} y={p.cum} r={4} fill="#f59e0b" stroke="none" />
+                  <ReferenceDot key={p.t} yAxisId="ret" x={p.t} y={p.cum} r={4} fill={PAL.flag} stroke="none" />
                 ))}
                 {data.moments.map((m) => {
                   const p = nearest(points, m.t0_ms);
                   return p ? (
                     <ReferenceDot
-                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
-                      label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }}
+                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill={PAL.mark} stroke={PAL.surface}
+                      strokeWidth={1.5}
+                      label={{ value: String(m.rank), fill: PAL.surface, fontSize: 10, fontWeight: 600 }}
                       onClick={() => seek(m.t0_ms)}
                     />
                   ) : null;
@@ -393,10 +395,10 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 {hits.length <= MAX_TICKS && hits.map((s, i) => (
                   <ReferenceLine
                     key={s.seg_id} yAxisId="vol" segment={[{ x: s.t0_ms, y: 0 }, { x: s.t0_ms, y: 1.5 }]}
-                    stroke={i === hit ? "#171717" : "#737373"} strokeWidth={i === hit ? 2 : 1.25}
+                    stroke={i === hit ? PAL.ink : PAL.faint} strokeWidth={i === hit ? 2 : 1.25}
                   />
                 ))}
-                <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
+                <ReferenceLine yAxisId="ret" x={cursorMs} stroke={PAL.ink} strokeDasharray="4 3" />
               </ComposedChart>
             </ResponsiveContainer>
           </div>
@@ -456,7 +458,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               aria-label="Search the transcript" onChange={(e) => { setQuery(e.target.value); setHit(-1); }}
               onKeyDown={onSearchKey}
               className={
-                "ml-auto w-48 rounded border border-line px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
+                "ml-auto w-48 rounded border border-line px-2 py-0.5 text-xs placeholder:text-faint " +
                 "focus:outline-none focus:ring-1 focus:ring-accent/40"
               }
             />
@@ -532,9 +534,9 @@ function MomentCard({ m, atOpen, active, onSelect }: {
   return (
     <li className="relative">
       <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-white ${active ?
-        "border-accent bg-white" : `border-line ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
+        "border-mark bg-white" : `border-line ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
         <div className="flex items-center gap-2 text-xs text-muted">
-          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-accent text-white
+          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-mark text-white
             font-semibold">{m.rank}</span>
           <span className="tabular">{clock(m.ts)} ET</span>
           <span className="rounded bg-line/70 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
@@ -566,7 +568,7 @@ function MomentCard({ m, atOpen, active, onSelect }: {
               {m.placebo_k === 0 ? `Bigger than all ${m.placebo_n} other 5-min windows of the call`
                 : `${m.placebo_k} of ${m.placebo_n} other 5-min windows of the call moved as much`}</p>}
             <p>
-              {m.pre_move && <span className="text-amber-700">Move began earlier. </span>}
+              {m.pre_move && <span className="font-medium text-ink">Move began earlier. </span>}
               {m.confidence} confidence
             </p>
           </div>
@@ -611,7 +613,7 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
               }
             >
               <span
-                className="w-12 shrink-0 text-right text-[11px] text-neutral-400 tabular leading-5"
+                className="w-12 shrink-0 text-right text-[11px] text-faint tabular leading-5"
                 title={ret != null ? "adjusted return over the next 5 min" : undefined}
               >
                 {ret != null ? pct(ret) : ""}
@@ -621,12 +623,12 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
                 <span
                   className={
                     "text-xs font-medium mr-2 " +
-                    (momentSegs.has(s.seg_id) ? "text-accent" : "text-neutral-700")
+                    (momentSegs.has(s.seg_id) ? "text-mark" : "text-ink")
                   }
                 >
                   {shortSpeaker(s.speaker)}
                 </span>
-                <span className="text-neutral-800">{highlight(s.text, query)}</span>
+                <span className="text-ink">{highlight(s.text, query)}</span>
               </span>
             </button>
           </li>
@@ -642,7 +644,7 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
 function highlight(text: string, q: string): React.ReactNode {
   if (!q) return text;
   const parts = text.split(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi"));
-  return parts.map((p, i) => (i % 2 ? <mark key={i} className="bg-yellow-200 rounded-sm">{p}</mark> : p));
+  return parts.map((p, i) => (i % 2 ? <mark key={i} className="bg-highlight rounded-sm">{p}</mark> : p));
 }
 
 /**

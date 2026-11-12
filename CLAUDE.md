@@ -28,4 +28,5 @@ cd web && npm run type-check && npm run lint
 ## Conventions
 - Python: type hints, Pydantic v2 models, pandas for the math, no notebooks, ruff clean. Tests on synthetic series, never on API calls.
 - Web: strict TypeScript, `@/` imports, server components read data, client components are `replay.tsx`, `study-bar.tsx`, `study-home.tsx` and `submit-status.tsx`.
+- Colors: Stanford identity palette. Class names use the `@theme` tokens in `web/src/app/globals.css`, SVG charts and the OG image use the same hex values from `PAL` in `web/src/lib/format.ts`. Keep shared values in sync, no raw Tailwind palette classes.
 - Numbers in docs and UI as numerals.

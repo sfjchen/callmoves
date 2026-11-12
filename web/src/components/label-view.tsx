@@ -6,7 +6,7 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { LabelFlag } from "@/lib/labels";
-import { clock, shortSpeaker } from "@/lib/format";
+import { clock, PAL, shortSpeaker } from "@/lib/format";
 
 const KINDS = [
   { key: "n", choice: "none", text: "None stands out" },
@@ -63,17 +63,17 @@ export default function LabelView({ flag, k, done, total }: {
       <div className="my-2 flex flex-wrap items-center gap-1.5 text-sm">
         {KINDS.map((x) => (
           <button key={x.key} disabled={busy} onClick={() => send(x.choice)}
-            className="rounded border border-line bg-white px-2 py-1 hover:border-accent disabled:opacity-50">
+            className="rounded border border-line bg-white px-2 py-1 hover:border-brand disabled:opacity-50">
             <kbd>{x.key}</kbd> {x.text}</button>
         ))}
         <span className="ml-auto text-xs text-muted">confidence{" "}
           {([1, 2, 3] as const).map((c) => (
             <button key={c} onClick={() => setConf(c)} className={`ml-1 rounded px-1.5 py-0.5 ${conf === c ?
-              "bg-accent text-white" : "border border-line"}`}><kbd>{c}</kbd> {CONF[c]}</button>
+              "bg-brand text-white" : "border border-line"}`}><kbd>{c}</kbd> {CONF[c]}</button>
           ))}
         </span>
       </div>
-      {err && <p className="text-sm text-red-700">{err}</p>}
+      {err && <p className="text-sm text-down">{err}</p>}
       <p className="text-xs text-muted mb-1">Click the sentence that most plausibly moved the stock. A sentence
         after the move began cannot be its cause.</p>
       <ol className="card divide-y divide-line max-h-[55vh] overflow-y-auto">
@@ -84,7 +84,7 @@ export default function LabelView({ flag, k, done, total }: {
               <button disabled={busy} onClick={() => send("statement", s.n)}
                 className="flex w-full gap-2 px-2 py-1.5 text-left text-sm hover:bg-white disabled:opacity-50">
                 <span className={`w-16 shrink-0 tabular text-xs leading-5 ${
-                  after ? "text-accent" : "text-muted"}`}>
+                  after ? "text-mark" : "text-muted"}`}>
                   {new Date(s.ts).toLocaleTimeString("en-US", { hour12: false, timeZone: "America/New_York" })}</span>
                 <span><span className="text-xs font-medium mr-1.5">{shortSpeaker(s.speaker)}</span>{s.text}</span>
               </button>
@@ -114,19 +114,19 @@ function PathChart({ flag, start }: { flag: LabelFlag; start: number }) {
   const last = new Date(flag.minutes[flag.minutes.length - 1]).getTime() + 60_000;
   return (
     <svg viewBox={`0 0 ${W} ${H}`} className="card w-full" role="img" aria-label="price path around the flag">
-      <rect x={x(start)} width={Math.max(2, x(last) - x(start))} y={0} height={H - 22} fill="#f59e0b" opacity={0.15} />
+      <rect x={x(start)} width={Math.max(2, x(last) - x(start))} y={0} height={H - 22} fill={PAL.flag} opacity={0.15} />
       {p.map((v, i) => (
         <rect key={i} x={x(t[i]) - 3} width={6} y={H - 22 - Math.min(10, v.vol_mult) * 4}
-          height={Math.min(10, v.vol_mult) * 4} fill="#d4d4d4" />
+          height={Math.min(10, v.vol_mult) * 4} fill={PAL.line} />
       ))}
-      <polyline points={line(e)} fill="none" stroke="#737373" strokeWidth={1.25} strokeDasharray="4 3" />
-      <polyline points={line(s)} fill="none" stroke="#171717" strokeWidth={2} />
+      <polyline points={line(e)} fill="none" stroke={PAL.faint} strokeWidth={1.25} strokeDasharray="4 3" />
+      <polyline points={line(s)} fill="none" stroke={PAL.ink} strokeWidth={2} />
       {t.filter((v) => new Date(v).getUTCMinutes() % 5 === 0).map((v) => (
-        <text key={v} x={x(v)} y={H - 6} fontSize={11} textAnchor="middle" fill="#737373">{clock(new Date(v))}</text>
+        <text key={v} x={x(v)} y={H - 6} fontSize={11} textAnchor="middle" fill={PAL.faint}>{clock(new Date(v))}</text>
       ))}
-      <text x={PAD} y={14} fontSize={11} fill="#171717">{flag.ticker} {s[s.length - 1] >= 0 ? "+" : ""}
+      <text x={PAD} y={14} fontSize={11} fill={PAL.ink}>{flag.ticker} {s[s.length - 1] >= 0 ? "+" : ""}
         {s[s.length - 1].toFixed(2)}%</text>
-      <text x={PAD + 110} y={14} fontSize={11} fill="#737373">{flag.etf} (dashed) {e[e.length - 1] >= 0 ? "+" : ""}
+      <text x={PAD + 110} y={14} fontSize={11} fill={PAL.faint}>{flag.etf} (dashed) {e[e.length - 1] >= 0 ? "+" : ""}
         {e[e.length - 1].toFixed(2)}%</text>
     </svg>
   );

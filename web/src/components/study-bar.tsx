@@ -47,30 +47,31 @@ export default function StudyBar({ callId, pid, condition }: { callId: string; p
   }
 
   return (
-    <div className="fixed top-0 inset-x-0 z-50 border-b border-blue-200 bg-blue-50 px-6 py-2 text-sm">
+    <div className="fixed top-0 inset-x-0 z-50 border-b border-mark/30 bg-mark-bg px-6 py-2 text-sm">
       <form onSubmit={submit} className="flex flex-wrap items-center gap-x-3 gap-y-1">
         <span className="font-semibold tabular w-14">{mmss(ms)}</span>
         {state === "done" ? (
           <>
-            <span className="text-emerald-800">Saved. Thank you.</span>
-            <Link href="/study" className="text-blue-700 underline">Back to the study</Link>
+            <span className="text-up">Saved. Thank you.</span>
+            <Link href="/study" className="text-accent underline">Back to the study</Link>
           </>
         ) : (
           <>
-            <span className="text-neutral-700">Biggest move began at (ET)</span>
+            <span className="text-ink">Biggest move began at (ET)</span>
             <input
               value={clk} onChange={(e) => setClk(e.target.value)} placeholder="hh:mm" required aria-label="Clock time"
-              pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" className="w-20 rounded border border-neutral-300 px-2 py-0.5"
+              pattern="([01]?[0-9]|2[0-3]):[0-5][0-9]" className="w-20 rounded border border-line px-2 py-0.5"
             />
             <input
               value={quote} onChange={(e) => setQuote(e.target.value)} placeholder="Quote said just before it"
               aria-label="Quote" maxLength={400}
-              className="min-w-48 flex-1 rounded border border-neutral-300 px-2 py-0.5"
+              className="min-w-48 flex-1 rounded border border-line px-2 py-0.5"
             />
-            <button disabled={state === "sending"} className="rounded bg-blue-700 px-3 py-0.5 text-white">
+            <button disabled={state === "sending"}
+              className="rounded bg-brand px-3 py-0.5 text-white hover:bg-brand-dark">
               Submit
             </button>
-            {err && <span className="text-red-700">{err}</span>}
+            {err && <span className="text-down">{err}</span>}
           </>
         )}
       </form>

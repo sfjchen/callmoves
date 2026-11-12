@@ -4,7 +4,7 @@ import { listCalls } from "@/lib/data";
 import { withPost } from "@/lib/request";
 import { ERRORS, submitCall } from "@/lib/submit";
 
-// GET /api/calls?ticker=ACME  -> library list with each call's top moment
+// GET /api/calls?ticker=WFC  -> library list with each call's top moment
 export async function GET(req: Request) {
   const ticker = new URL(req.url).searchParams.get("ticker")?.toUpperCase();
   const calls = await listCalls();

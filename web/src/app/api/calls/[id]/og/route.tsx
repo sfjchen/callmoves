@@ -1,11 +1,9 @@
 // Open Graph preview image for 1 call: ticker, quarter, and 1 moment (?m=<rank>, else the top one) with its time,
-// move vs the benchmark and a short quote, on the palette from globals.css.
+// move vs the benchmark and a short quote, on the shared Stanford palette.
 import { ImageResponse } from "next/og";
 import { getCall } from "@/lib/data";
-import { clock, DIR_HEX, dir, pct, shortQuarter, shortSpeaker } from "@/lib/format";
+import { clock, DIR_HEX, dir, PAL, pct, shortQuarter, shortSpeaker } from "@/lib/format";
 import { benchName, clip, NO_MOMENT, sharedMoment } from "@/lib/share";
-
-const PAL = { bg: "#f7f7f8", paper: "#ffffff", text: "#171717", muted: "#5c5c66", accent: "#1d4ed8", border: "#e4e4e7" };
 
 // GET /api/calls/{id}/og?m=<rank> -> 1200x630 PNG
 export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id]/og">) {
@@ -18,7 +16,7 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
     (
       <div style={{
         width: "100%", height: "100%", display: "flex", flexDirection: "column", padding: "56px 72px",
-        background: PAL.bg, color: PAL.text, fontSize: 28,
+        background: PAL.page, color: PAL.ink, fontSize: 28, borderTop: `14px solid ${PAL.brand}`,
       }}>
         <div style={{ display: "flex", alignItems: "baseline", gap: 24 }}>
           <span style={{ fontSize: 88, fontWeight: 700, lineHeight: 1 }}>{c.ticker}</span>
@@ -29,12 +27,12 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
         {m ? (
           <div style={{
             display: "flex", flexDirection: "column", marginTop: 36, padding: "28px 36px", flexGrow: 1,
-            background: PAL.paper, border: `2px solid ${PAL.border}`, borderRadius: 16,
+            background: PAL.surface, border: `2px solid ${PAL.rule}`, borderRadius: 16,
           }}>
             <div style={{ display: "flex", alignItems: "center", gap: 18, color: PAL.muted }}>
               <span style={{
                 display: "flex", alignItems: "center", justifyContent: "center", width: 44, height: 44,
-                borderRadius: 22, background: PAL.accent, color: "#fff", fontSize: 26, fontWeight: 700,
+                borderRadius: 22, background: PAL.mark, color: PAL.surface, fontSize: 26, fontWeight: 700,
               }}>{m.rank}</span>
               <span>{`${clock(m.ts)} ET`}</span>
               <span style={{ marginLeft: "auto", fontSize: 52, fontWeight: 700, color: DIR_HEX[dir(m.adj_ret_5m)] }}>
@@ -53,7 +51,7 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
             {NO_MOMENT}</div>
         )}
         <div style={{ display: "flex", marginTop: 24, fontSize: 24, color: PAL.muted }}>
-          <span style={{ fontSize: 30, fontWeight: 700, color: PAL.accent, marginRight: 16 }}>CallMoves</span>
+          <span style={{ fontSize: 30, fontWeight: 700, color: PAL.brand, marginRight: 16 }}>CallMoves</span>
           <span style={{ alignSelf: "center" }}>what moved the stock during the earnings call</span>
         </div>
       </div>

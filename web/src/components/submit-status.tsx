@@ -38,7 +38,7 @@ export default function SubmitStatus({ initial }: { initial: SubmissionStatus })
         {STEPS.map(([k, label], i) => (
           <li key={k} className="flex items-center gap-2">
             {i > 0 && <span className="text-muted">→</span>}
-            <span className={`rounded-full border px-2.5 py-0.5 ${i === at ? "border-accent bg-white font-semibold" :
+            <span className={`rounded-full border px-2.5 py-0.5 ${i === at ? "border-brand bg-white font-semibold" :
               i < at ? "border-line text-ink" : "border-line text-muted"}`}>{label}</span>
           </li>
         ))}
@@ -49,7 +49,7 @@ export default function SubmitStatus({ initial }: { initial: SubmissionStatus })
         speaker diarization, 1-minute bars, claims and scoring.</p>}
       {s.status === "done" && (s.call_id ? <p>Done. <Link href={`/calls/${s.call_id}`}
         className="text-accent underline underline-offset-2">Open the replay</Link></p> : <p>Done.</p>)}
-      {s.status === "failed" && <p className="text-red-700">Failed{s.error ? `: ${s.error}` : "."}</p>}
+      {s.status === "failed" && <p className="text-down">Failed{s.error ? `: ${s.error}` : "."}</p>}
       {pending && (
         <p className="mt-3 text-xs text-muted">
           {WORKER_WAIT} This page checks every 30 s, and the link keeps working if you come back later.

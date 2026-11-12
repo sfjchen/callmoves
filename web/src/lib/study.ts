@@ -17,11 +17,10 @@ export type CondStats = { condition: Condition; trials: number; medianS: number;
   correctUnder: number };
 
 /**
- * Lists the ids of calls a trial may use: real calls (not the fictional ACME one) that traded during the call, so
- * the gold minute exists.
+ * Lists the ids of calls a trial may use: calls that traded during the call, so the gold minute exists.
  */
 export async function studyCalls(): Promise<string[]> {
-  const calls = await Promise.all((await listCalls()).filter((c) => c.ticker !== "ACME").map((c) => getCall(c.id)));
+  const calls = await Promise.all((await listCalls()).map((c) => getCall(c.id)));
   return calls.flatMap((c) => (c && !c.open_reaction && goldTs(c) ? [`${c.call.ticker}_${c.call.quarter}`] : []));
 }
 
