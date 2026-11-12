@@ -28,7 +28,7 @@ export default async function StatusPage({ searchParams }: PageProps<"/submit/st
     <div className="max-w-2xl text-sm">
       <h1 className="text-xl font-semibold mb-1">{s ? `${s.ticker} ${s.quarter}` : "Submission status"}</h1>
       {s ? <SubmitStatus initial={s} /> : <p className="rounded bg-red-50 px-3 py-2 text-red-800">{err}</p>}
-      <p className="mt-4"><Link href="/submit" className="text-nb-accent underline underline-offset-2">
+      <p className="mt-4"><Link href="/submit" className="text-accent underline underline-offset-2">
         All submissions</Link></p>
     </div>
   );

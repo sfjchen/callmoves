@@ -1,11 +1,9 @@
-// Root layout: the page shell in the sfjc.dev notebook style, with the masthead, nav and footer shared by every
-// route.
+// Root layout: the page shell with the masthead, nav and footer shared by every route.
 import type { Metadata } from "next";
-import { Inter, Patrick_Hand } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const patrick = Patrick_Hand({ weight: "400", subsets: ["latin"], variable: "--font-patrick" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
@@ -21,20 +19,20 @@ export const metadata: Metadata = {
  */
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`h-full antialiased ${patrick.variable} ${inter.variable}`}>
+    <html lang="en" className={`h-full antialiased ${inter.variable}`}>
       <body className="min-h-full flex flex-col font-sans">
-        <header className="border-b border-nb-border px-4 sm:px-6 py-2.5 flex items-baseline gap-4">
-          <Link href="/" className="hand text-2xl text-nb-text">CallMoves</Link>
-          <span className="hidden sm:inline text-xs text-nb-muted">what moved the stock during the earnings call</span>
-          <a href="/guess" className="ml-auto text-sm text-nb-accent hover:underline underline-offset-2">
+        <header className="bg-surface border-b border-line px-4 sm:px-6 py-3 flex items-baseline gap-4">
+          <Link href="/" className="text-lg font-semibold tracking-tight text-ink">CallMoves</Link>
+          <span className="hidden sm:inline text-xs text-muted">what moved the stock during the earnings call</span>
+          <a href="/guess" className="ml-auto text-sm text-accent hover:underline underline-offset-2">
             Guess the move</a>
-          <Link href="/submit" className="text-sm text-nb-accent hover:underline underline-offset-2">
+          <Link href="/submit" className="text-sm text-accent hover:underline underline-offset-2">
             Submit a call</Link>
         </header>
         <main className="flex-1 px-4 sm:px-6 py-5">{children}</main>
-        <footer className="py-6 text-center text-sm text-nb-muted">
+        <footer className="py-6 text-center text-sm text-muted">
           Made by Jonathan Chen ·{" "}
-          <a href="https://sfjc.dev/about" className="text-nb-accent hover:underline underline-offset-2">About</a>
+          <a href="https://sfjc.dev/about" className="text-accent hover:underline underline-offset-2">About</a>
         </footer>
       </body>
     </html>

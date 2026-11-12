@@ -39,13 +39,13 @@ export default function Comps({ ctx, ticker, start, end, moment }: {
   return (
     <div className="mt-4">
       <h2 className="text-lg">Comps</h2>
-      <p className="text-[11px] text-nb-muted mb-1">
+      <p className="text-[11px] text-muted mb-1">
         Over the call, and {moment ? <>in the 5 min after #{moment.rank} at {clock(moment.ts)} ET</> :
           "around a moment once one is selected"}.
       </p>
       <table className="w-full text-xs tabular">
         <thead>
-          <tr className="text-left text-nb-muted border-b border-nb-border">
+          <tr className="text-left text-muted border-b border-line">
             <th className="py-1 font-normal">Symbol</th>
             <th className="py-1 font-normal hidden sm:table-cell" />
             <th className="py-1 font-normal text-right">Call</th>
@@ -58,9 +58,9 @@ export default function Comps({ ctx, ticker, start, end, moment }: {
             const mom = m0 != null ? move(ts, s.px, m0, m0 + WINDOW_MS) : null;
             const pts = s.px.filter((_, i) => inCall[i]).filter((x): x is number => x != null);
             return (
-              <tr key={s.sym} className={`border-b border-nb-border/60 ${s.sym === ticker ? "font-semibold" : ""}`}>
+              <tr key={s.sym} className={`border-b border-line/60 ${s.sym === ticker ? "font-semibold" : ""}`}>
                 <td className="py-1 pr-2 whitespace-nowrap">
-                  {s.sym} <span className="font-normal text-nb-muted">{ROLE_LABEL[s.role]}</span></td>
+                  {s.sym} <span className="font-normal text-muted">{ROLE_LABEL[s.role]}</span></td>
                 <td className="py-1 hidden sm:table-cell"><Spark pts={pts} /></td>
                 <td className={`py-1 text-right ${call != null ? DIR_TEXT[dir(call)] : ""}`}>
                   {call != null ? pct(call) : "—"}</td>

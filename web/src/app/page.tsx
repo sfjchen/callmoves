@@ -23,9 +23,9 @@ function Sparkline({ pts }: { pts: number[] }) {
   const last = pts[pts.length - 1];
   return (
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} className="shrink-0" aria-hidden>
-      <line x1={PAD} x2={W - PAD} y1={y(0)} y2={y(0)} stroke="#e2dbd1" strokeDasharray="2 2" />
+      <line x1={PAD} x2={W - PAD} y1={y(0)} y2={y(0)} stroke="#e5e5e5" strokeDasharray="2 2" />
       <polyline points={pts.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ")}
-        fill="none" stroke="#6b6359" strokeWidth={1.25} />
+        fill="none" stroke="#737373" strokeWidth={1.25} />
       <circle cx={x(pts.length - 1)} cy={y(last)} r={2.5} fill={DIR_HEX[dir(last)]} />
     </svg>
   );
@@ -44,21 +44,21 @@ function CallCard({ c }: { c: CallSummary }) {
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline gap-2">
             <span className="text-lg font-semibold tracking-tight">{c.ticker}</span>
-            <span className="text-xs text-nb-muted tabular whitespace-nowrap">{shortQuarter(c.quarter)} · {date}</span>
+            <span className="text-xs text-muted tabular whitespace-nowrap">{shortQuarter(c.quarter)} · {date}</span>
           </div>
-          {c.company && <div className="text-xs text-nb-muted truncate">{c.company}</div>}
+          {c.company && <div className="text-xs text-muted truncate">{c.company}</div>}
         </div>
         <div className="text-right">
           <div className="flex items-center gap-1.5 justify-end">
             <Sparkline pts={c.spark} />
             <span className={`text-sm font-semibold tabular ${DIR_TEXT[dir(end)]}`}>{pct(end)}</span>
           </div>
-          <div className="text-[11px] text-nb-muted">call vs {c.etf ?? "sector"}</div>
+          <div className="text-[11px] text-muted">call vs {c.etf ?? "sector"}</div>
         </div>
       </div>
       {top ? (
-        <div className="mt-2 border-t border-nb-border pt-2">
-          <div className="flex items-baseline gap-2 text-[11px] text-nb-muted tabular">
+        <div className="mt-2 border-t border-line pt-2">
+          <div className="flex items-baseline gap-2 text-[11px] text-muted tabular">
             <span>Top moment {clock(top.ts)} ET</span>
             {top.speaker && <span className="truncate">{shortSpeaker(top.speaker)}</span>}
             <span className={`ml-auto shrink-0 text-sm font-semibold ${DIR_TEXT[dir(top.adj_ret_5m)]}`}>
@@ -68,12 +68,12 @@ function CallCard({ c }: { c: CallSummary }) {
           <p className="mt-0.5 text-sm leading-snug line-clamp-2">&ldquo;{top.quote}&rdquo;</p>
         </div>
       ) : (
-        <p className="mt-2 border-t border-nb-border pt-2 text-xs text-nb-muted">No abnormal minute during the call.</p>
+        <p className="mt-2 border-t border-line pt-2 text-xs text-muted">No abnormal minute during the call.</p>
       )}
       {(c.themes?.length || top?.spillover) && (
         <div className="mt-2 flex flex-wrap gap-1 text-[11px]">
-          {c.themes?.map((t) => <span key={t} className="rounded bg-nb-border/70 px-1.5 py-0.5">{t}</span>)}
-          {top?.spillover && <span className="rounded border border-nb-border px-1.5 py-0.5 text-nb-muted">
+          {c.themes?.map((t) => <span key={t} className="rounded bg-line/70 px-1.5 py-0.5">{t}</span>)}
+          {top?.spillover && <span className="rounded border border-line px-1.5 py-0.5 text-muted">
             top moment: {SPILL_LABEL[top.spillover]}</span>}
         </div>
       )}
@@ -111,8 +111,8 @@ export default async function Library({ searchParams }: PageProps<"/">) {
     <div className="mx-auto max-w-6xl">
       <div className="flex flex-wrap items-end gap-x-4 gap-y-2 mb-4">
         <div className="mr-auto">
-          <h1 className="text-3xl leading-tight">Call library</h1>
-          <p className="text-sm text-nb-muted">
+          <h1 className="text-2xl leading-tight">Call library</h1>
+          <p className="text-sm text-muted">
             {all.length} earnings calls. Each card shows the stock&rsquo;s move against its sector ETF over the call
             and the statement just before its biggest abnormal minute.
           </p>
@@ -120,36 +120,36 @@ export default async function Library({ searchParams }: PageProps<"/">) {
         <form className="flex flex-wrap gap-2 text-sm w-full sm:w-auto">
           <input
             type="search" name="q" defaultValue={q} placeholder="Ticker, company or sector"
-            className={"min-w-0 basis-full sm:basis-auto sm:w-64 rounded border border-nb-border bg-white px-2 py-1 " +
-              "placeholder:text-nb-muted/70 focus:outline-none focus:ring-1 focus:ring-nb-accent/40"}
+            className={"min-w-0 basis-full sm:basis-auto sm:w-64 rounded border border-line bg-white px-2 py-1 " +
+              "placeholder:text-muted/70 focus:outline-none focus:ring-1 focus:ring-accent/40"}
             aria-label="Filter calls"
           />
           <select name="sort" defaultValue={sort} aria-label="Sort calls"
-            className="rounded border border-nb-border bg-white px-2 py-1">
+            className="rounded border border-line bg-white px-2 py-1">
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
           {theme && <input type="hidden" name="theme" value={theme} />}
-          <button className="rounded bg-nb-accent px-3 py-1 text-white">Apply</button>
+          <button className="rounded bg-accent px-3 py-1 text-white">Apply</button>
         </form>
       </div>
       <nav className="-mt-2 mb-4 flex flex-wrap gap-1.5 text-xs" aria-label="Filter by theme">
         {[...themes].sort((a, b) => b[1] - a[1]).map(([t, n]) => (
           <Link key={t} href={href(t)} aria-current={t === theme || undefined}
             className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${t === theme ?
-              "border-nb-accent bg-white text-nb-text" : "border-nb-border text-nb-muted"}`}>
+              "border-accent bg-white text-ink" : "border-line text-muted"}`}>
             {t} <span className="opacity-70">{n}</span>{t === theme && " ×"}</Link>
         ))}
       </nav>
       {calls.length === 0 ? (
-        <p className="text-nb-muted">{all.length === 0 ? "No processed calls yet." :
+        <p className="text-muted">{all.length === 0 ? "No processed calls yet." :
           `No call matches${q ? ` "${q}"` : ""}${theme ? ` with theme ${theme}` : ""}.`}</p>
       ) : ordered.map(([sector, cs]) => (
         <details key={sector} open className="mb-5 group">
-          <summary className="flex cursor-pointer items-baseline gap-2 border-b border-nb-border pb-1 mb-2.5
+          <summary className="flex cursor-pointer items-baseline gap-2 border-b border-line pb-1 mb-2.5
             list-none [&::-webkit-details-marker]:hidden">
-            <span className="text-nb-muted text-xs w-3 transition-transform group-open:rotate-90">▸</span>
-            <h2 className="text-xl">{sector}</h2>
-            <span className="text-xs text-nb-muted tabular">{cs.length} {cs.length === 1 ? "call" : "calls"}
+            <span className="text-muted text-xs w-3 transition-transform group-open:rotate-90">▸</span>
+            <h2 className="text-base">{sector}</h2>
+            <span className="text-xs text-muted tabular">{cs.length} {cs.length === 1 ? "call" : "calls"}
               {cs[0].etf && ` · vs ${cs[0].etf}`}</span>
           </summary>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">

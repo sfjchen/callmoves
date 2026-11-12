@@ -186,8 +186,8 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
     <div className="max-w-7xl">
       <div
         className={
-          "lg:hidden sticky top-0 z-10 -mx-4 sm:-mx-6 -mt-5 mb-3 px-4 sm:px-6 py-1.5 bg-nb-bg/95 " +
-          "border-b border-nb-border text-xs tabular text-neutral-700"
+          "lg:hidden sticky top-0 z-10 -mx-4 sm:-mx-6 -mt-5 mb-3 px-4 sm:px-6 py-1.5 bg-page/95 " +
+          "border-b border-line text-xs tabular text-neutral-700"
         }
       >
         {clock(new Date(start + cursorMs))} ET · {mmss(cursorMs - offset)}
@@ -200,16 +200,16 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
       </div>
 
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-        <h1 className="text-3xl leading-tight">
-          {data.call.ticker} <span className="text-nb-muted">{shortQuarter(data.call.quarter)}</span>
+        <h1 className="text-2xl leading-tight">
+          {data.call.ticker} <span className="text-muted">{shortQuarter(data.call.quarter)}</span>
         </h1>
-        {data.call.company && <span className="text-sm text-nb-muted">{data.call.company}</span>}
-        <span className="text-sm text-nb-muted tabular">
+        {data.call.company && <span className="text-sm text-muted">{data.call.company}</span>}
+        <span className="text-sm text-muted tabular">
           {new Date(data.call.call_start).toLocaleDateString("en-US", { month: "short", day: "numeric",
             year: "numeric", timeZone: TZ })}, {clock(data.call.call_start)} to {clock(data.call_end)} ET
         </span>
         {est.length > 0 && (
-          <span className="text-xs text-nb-muted tabular">
+          <span className="text-xs text-muted tabular">
             {est.map((e, i) => (
               <span key={e.metric} title={`Consensus as of ${new Date(e.as_of).toLocaleDateString("en-US",
                 { month: "short", day: "numeric", timeZone: "UTC" })}${e.basis === "after_call" ?
@@ -228,7 +228,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
       </div>
 
       {guess && (
-        <section className="card mt-2 mb-3 px-3 py-2.5 border-nb-accent" aria-label="Guess the move">
+        <section className="card mt-2 mb-3 px-3 py-2.5 border-accent" aria-label="Guess the move">
           {!result ? (
             <>
               <p className="text-[15px] leading-snug">
@@ -239,9 +239,9 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
                 {([[true, "▲ Beat"], [false, "▼ Trail"]] as const).map(([up, label]) => (
                   <button key={label} onClick={() => answer(up)} disabled={guessState === "busy"}
-                    className="rounded-full bg-nb-accent px-3 py-0.5 text-white disabled:opacity-50">{label}</button>
+                    className="rounded-full bg-accent px-3 py-0.5 text-white disabled:opacity-50">{label}</button>
                 ))}
-                <span className="text-xs text-nb-muted">{guessState === "error" ?
+                <span className="text-xs text-muted">{guessState === "error" ?
                   "Could not load the answer, try again." : "The chart and transcript stop here."}</span>
               </div>
             </>
@@ -253,7 +253,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 {GLYPH[dir(lead.adj_ret_5m)]} {(Math.abs(lead.adj_ret_5m) * 100).toFixed(2)}%</span> over the next
               5 minutes.{" "}
               {result.scored ? "" : "Guessed before, so not scored. "}Score {result.k} of {result.n}.{" "}
-              <a href="/guess" className="text-nb-accent underline underline-offset-2">
+              <a href="/guess" className="text-accent underline underline-offset-2">
                 Next call</a>
             </p>
           )}
@@ -268,27 +268,27 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               <span className={`font-semibold tabular ${DIR_TEXT[dir(lead.adj_ret_5m)]}`}>
                 {GLYPH[dir(lead.adj_ret_5m)]} {pct(lead.adj_ret_5m)}</span>{" "}
               vs {benchLabel} in 5 min on {lead.vol_mult.toFixed(1)}x volume
-              {lead.spillover && <span className="text-nb-muted"> ({SPILL_LABEL[lead.spillover]})</span>}, after{" "}
+              {lead.spillover && <span className="text-muted"> ({SPILL_LABEL[lead.spillover]})</span>}, after{" "}
               {shortSpeaker(lead.speaker)} said &ldquo;{clip(lead.quote, 160)}&rdquo;
             </p>
           ) : (
-            <p className="text-sm text-nb-muted">No minute cleared the abnormal-move threshold during the call.</p>
+            <p className="text-sm text-muted">No minute cleared the abnormal-move threshold during the call.</p>
           )}
           {data.moments.length > 0 && (
             <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
               {data.moments.map((m) => (
                 <button key={m.rank} onClick={() => select(m)}
                   className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${active?.seg_id === m.seg_id ?
-                    "border-nb-accent bg-white" : "border-nb-border"}`}>
-                  <span className="font-semibold text-nb-accent">{m.rank}</span> {clock(m.ts)}{" "}
+                    "border-accent bg-white" : "border-line"}`}>
+                  <span className="font-semibold text-accent">{m.rank}</span> {clock(m.ts)}{" "}
                   <span className={DIR_TEXT[dir(m.adj_ret_5m)]}>{pct(m.adj_ret_5m)}</span>
                 </button>
               ))}
               {audioOk && lead && (
                 <button onClick={() => { select(lead); void audioRef.current?.play(); }}
-                  className="rounded-full bg-nb-accent px-2.5 py-0.5 text-white">▶ Play #1</button>
+                  className="rounded-full bg-accent px-2.5 py-0.5 text-white">▶ Play #1</button>
               )}
-              <span className="hidden lg:inline ml-auto text-nb-muted">
+              <span className="hidden lg:inline ml-auto text-muted">
                 <kbd>j</kbd> <kbd>k</kbd> next and previous moment · <kbd>1</kbd>-<kbd>5</kbd> rank
                 {audioOk && <> · <kbd>space</kbd> play</>}
               </span>
@@ -311,7 +311,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
             vs {pct(data.open_reaction.etf_ret)} {data.call.etf}, {pct(data.open_reaction.adj_ret)} adjusted,{" "}
             {data.open_reaction.vol_mult.toFixed(1)}x volume
           </div>
-          <div className="text-xs text-nb-muted mt-1">
+          <div className="text-xs text-muted mt-1">
             Every statement shares this one move, so moments are ranked by novelty and kind only, all at low confidence.
           </div>
         </section>
@@ -322,7 +322,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               Return vs {benchLabel} (%, cumulative from{" "}
               {clock(new Date(start + (points[0]?.t ?? 0)))}) and volume multiple
             </div>
-            <div className="hidden lg:block text-sm text-nb-muted tabular">
+            <div className="hidden lg:block text-sm text-muted tabular">
               cursor {clock(new Date(start + cursorMs))} ET ({mmss(cursorMs - offset)} into call)
               {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
             </div>
@@ -357,15 +357,15 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                       : [`${Number(v).toFixed(1)}x`, "volume"]
                   )}
                 />
-                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#efe8dd" fillOpacity={0.9} />
+                <ReferenceArea yAxisId="ret" x1={offset} x2={endMs} fill="#f5f5f5" fillOpacity={0.9} />
                 {qaMs != null && (
                   <ReferenceArea
-                    yAxisId="ret" x1={qaMs} x2={endMs} fill="#e2d8c8" fillOpacity={0.9}
-                    label={{ value: `Q&A ${clock(new Date(start + qaMs))}`, position: "insideTopLeft", fill: "#6b6359",
+                    yAxisId="ret" x1={qaMs} x2={endMs} fill="#e8eefc" fillOpacity={0.9}
+                    label={{ value: `Q&A ${clock(new Date(start + qaMs))}`, position: "insideTopLeft", fill: "#737373",
                       fontSize: 10 }}
                   />
                 )}
-                {qaMs != null && <ReferenceLine yAxisId="ret" x={qaMs} stroke="#6b6359" strokeWidth={1} />}
+                {qaMs != null && <ReferenceLine yAxisId="ret" x={qaMs} stroke="#737373" strokeWidth={1} />}
                 {data.moments.map((m) => (
                   <ReferenceArea
                     key={m.rank} yAxisId="ret" x1={m.t0_ms} x2={m.t0_ms + WINDOW_MS} fill={DIR_HEX[dir(m.adj_ret_5m)]}
@@ -374,7 +374,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 ))}
                 <Bar yAxisId="vol" dataKey="vol_mult" fill="#d4d4d4" isAnimationActive={false} />
                 <Line
-                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#1a1a1a" strokeWidth={1.75} dot={false}
+                  yAxisId="ret" type="monotone" dataKey="cum" stroke="#171717" strokeWidth={1.75} dot={false}
                   isAnimationActive={false}
                 />
                 {points.filter((p) => p.flagged).map((p) => (
@@ -384,7 +384,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                   const p = nearest(points, m.t0_ms);
                   return p ? (
                     <ReferenceDot
-                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#8c3838" stroke="#fff" strokeWidth={1.5}
+                      key={m.rank} yAxisId="ret" x={p.t} y={p.cum} r={9} fill="#1d4ed8" stroke="#fff" strokeWidth={1.5}
                       label={{ value: String(m.rank), fill: "#fff", fontSize: 10, fontWeight: 600 }}
                       onClick={() => seek(m.t0_ms)}
                     />
@@ -393,14 +393,14 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 {hits.length <= MAX_TICKS && hits.map((s, i) => (
                   <ReferenceLine
                     key={s.seg_id} yAxisId="vol" segment={[{ x: s.t0_ms, y: 0 }, { x: s.t0_ms, y: 1.5 }]}
-                    stroke={i === hit ? "#1a1a1a" : "#6b6359"} strokeWidth={i === hit ? 2 : 1.25}
+                    stroke={i === hit ? "#171717" : "#737373"} strokeWidth={i === hit ? 2 : 1.25}
                   />
                 ))}
                 <ReferenceLine yAxisId="ret" x={cursorMs} stroke="#171717" strokeDasharray="4 3" />
               </ComposedChart>
             </ResponsiveContainer>
           </div>
-          <div className="text-xs text-nb-muted mt-1">
+          <div className="text-xs text-muted mt-1">
             {hide ? "Grey band is the call" :
               "Grey band is the call, orange dots abnormal minutes, " +
                 "numbered dots moments with their 5-min window shaded"}
@@ -420,7 +420,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
         />
       )}
       {noAudio && (
-        <p className="text-xs text-nb-muted mb-4">
+        <p className="text-xs text-muted mb-4">
           Audio is unavailable, click the chart or transcript to move the cursor.
         </p>
       )}
@@ -429,7 +429,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
         {!hide && <section className="lg:col-span-2 card p-3">
           <h2 className="text-lg mb-1">Moments, ranked</h2>
           {data.moments.length === 0 ? (
-            <p className="text-sm text-nb-muted">
+            <p className="text-sm text-muted">
               No minute cleared the threshold during the call, {data.candidate_seg_ids.length} turns read.
             </p>
           ) : (
@@ -456,18 +456,18 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               aria-label="Search the transcript" onChange={(e) => { setQuery(e.target.value); setHit(-1); }}
               onKeyDown={onSearchKey}
               className={
-                "ml-auto w-48 rounded border border-nb-border px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
-                "focus:outline-none focus:ring-1 focus:ring-nb-accent/40"
+                "ml-auto w-48 rounded border border-line px-2 py-0.5 text-xs placeholder:text-neutral-400 " +
+                "focus:outline-none focus:ring-1 focus:ring-accent/40"
               }
             />
-            {q.length >= 2 && <span className="flex items-center gap-1 text-xs text-nb-muted tabular">
+            {q.length >= 2 && <span className="flex items-center gap-1 text-xs text-muted tabular">
               <span aria-live="polite">{hits.length === 0 ? "no match" : hit >= 0 ? `${hit + 1} of ${hits.length}` :
                 `${hits.length} match${hits.length === 1 ? "" : "es"}`}</span>
               {hits.length > 0 && <>
                 <button aria-label="Previous match" onClick={() => jump(hit < 0 ? -1 : hit - 1)}
-                  className="rounded border border-nb-border px-1.5 hover:bg-white">↑</button>
+                  className="rounded border border-line px-1.5 hover:bg-white">↑</button>
                 <button aria-label="Next match" onClick={() => jump(hit + 1)}
-                  className="rounded border border-nb-border px-1.5 hover:bg-white">↓</button>
+                  className="rounded border border-line px-1.5 hover:bg-white">↓</button>
               </>}
             </span>}
           </div>
@@ -478,8 +478,8 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
           />
         </section>
       </div>
-      {!hide && <details className="mt-3 text-xs text-nb-muted">
-        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-nb-text">
+      {!hide && <details className="mt-3 text-xs text-muted">
+        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-ink">
           How moments are found</summary>
         <ul className="mt-1 max-w-3xl space-y-0.5 tabular">
           <li>Price first: {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns spoken in the 5 min
@@ -532,21 +532,21 @@ function MomentCard({ m, atOpen, active, onSelect }: {
   return (
     <li className="relative">
       <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-white ${active ?
-        "border-nb-accent bg-white" : `border-nb-border ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
-        <div className="flex items-center gap-2 text-xs text-nb-muted">
-          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-nb-accent text-white
+        "border-accent bg-white" : `border-line ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
+        <div className="flex items-center gap-2 text-xs text-muted">
+          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-accent text-white
             font-semibold">{m.rank}</span>
           <span className="tabular">{clock(m.ts)} ET</span>
-          <span className="rounded bg-nb-border/70 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
-          {m.spillover && <span className="rounded border border-nb-border px-1.5 py-0.5">
+          <span className="rounded bg-line/70 px-1.5 py-0.5">{m.section === "qa" ? "Q&A" : "prepared"}</span>
+          {m.spillover && <span className="rounded border border-line px-1.5 py-0.5">
             {SPILL_LABEL[m.spillover]}</span>}
           <span className={`ml-auto text-base font-semibold tabular ${DIR_TEXT[d]}`}>
             {GLYPH[d]} {pct(m.adj_ret_5m)}</span>
         </div>
         <p className="mt-1.5 text-sm leading-snug">&ldquo;{m.quote}&rdquo;</p>
         {active && (
-          <div className="mt-2 space-y-0.5 text-xs text-nb-muted tabular">
-            {m.question && <p className="text-nb-muted">
+          <div className="mt-2 space-y-0.5 text-xs text-muted tabular">
+            {m.question && <p className="text-muted">
               <span className="font-medium">Analyst asked:</span> {m.question}</p>}
             <p>
               <span className="font-medium">{shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
@@ -574,7 +574,7 @@ function MomentCard({ m, atOpen, active, onSelect }: {
       </button>
       {active && (
         <button onClick={copy} onBlur={() => setCopied(false)}
-          className="absolute bottom-2.5 right-2.5 text-xs text-nb-accent hover:underline underline-offset-2">
+          className="absolute bottom-2.5 right-2.5 text-xs text-accent hover:underline underline-offset-2">
           {copied ? "Copied" : "Copy link"}</button>
       )}
     </li>
@@ -607,7 +607,7 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
               onClick={() => onSelect(s)}
               className={
                 "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-white " +
-                (isActive ? "bg-white ring-1 ring-nb-accent/40" : "")
+                (isActive ? "bg-white ring-1 ring-accent/40" : "")
               }
             >
               <span
@@ -617,11 +617,11 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
                 {ret != null ? pct(ret) : ""}
               </span>
               <span className="min-w-0">
-                <span className="text-xs text-nb-muted tabular mr-2">{mmss(s.t0_ms - offset)}</span>
+                <span className="text-xs text-muted tabular mr-2">{mmss(s.t0_ms - offset)}</span>
                 <span
                   className={
                     "text-xs font-medium mr-2 " +
-                    (momentSegs.has(s.seg_id) ? "text-nb-accent" : "text-neutral-700")
+                    (momentSegs.has(s.seg_id) ? "text-accent" : "text-neutral-700")
                   }
                 >
                   {shortSpeaker(s.speaker)}
