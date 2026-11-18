@@ -46,23 +46,23 @@ Precision at 3 and 5 against hand-labeled move times:
 .venv/bin/python -m callmoves.eval <call folder or JSON> --labels <labels.json>
 ```
 
-Placebo check without labels (`.venv/bin/python -m callmoves.eval data/*/ --placebo`): the real statement timing against the same claims rotated around the call by 15 minutes or more, wrapping past the end, so shifted claims stay in the same session and bars. Over several calls a sign test asks whether the real timing beats the median shift more often than half the time. Over all 45 real calls at 64f11f5 the real timing beats the median shift in 29 (sign test p = 0.036, log `callmoves-placebo-etf-64f11f5-20261111-1611.log`). The method was tuned on the first 20 (14 of 20, p = 0.058 at 1077ccc). On the 25 calls added after that, untouched by tuning, it is 15 of 25 (p = 0.21, log `callmoves-placebo-heldout-ee0cb15-20261111-1614.log`), so the held-out evidence on its own is weak. An earlier version shifted claims outside the call and reported p = 0.021, but that partly measured that calls are more volatile than the minutes around them. News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4.
+Placebo check without labels (`.venv/bin/python -m callmoves.eval data/*/ --placebo`): the real statement timing against 2 nulls. `--null rotate` (default) rotates the claims inside their own section, prepared remarks or Q&A, by 10 minutes or more, so a shifted claim keeps its section and bars. `--null cross` keeps the call's claims and lays them at other calls' timings, which asks whether the real timing beats the usual shape of a call. A sign test asks whether the real timing beats the null's median in more than half the calls. At d67a079 over 75 calls, rotate gives 46 of 75 (p = 0.032, log `callmoves-placebo-etf-d67a079-20261118-0301.log`) and cross 41 of 75 (p = 0.24, log `callmoves-placebo-cross-d67a079-20261118-0302.log`). On the 28 calls added after both nulls were written, rotate gives 16 of 28 (p = 0.29, log `callmoves-placebo-heldout-d67a079-20261118-0306.log`) and cross 18 of 28 (p = 0.09, log `callmoves-placebo-heldout-cross-d67a079-20261118-0306.log`). So the timing signal is weak: some of it is the shape every call shares. Before (64f11f5) a wrap-around shift over 45 calls gave 29 of 45 (p = 0.036). News coverage almost always attributes the move to the release, not to a statement on the call (19 of 20 calls checked), so news-drafted labels exist only for Apple FY26 Q4.
 
 ### Benchmarks
 
-`market.py` can measure the stock against its sector ETF (`etf`, shipped), a market model fitted on the 3 sessions before the call (betas on SPY and the ETF, `market`), or the same plus an equal-weight peer basket (`peers`). `pipeline/data/<call>/context.csv.gz` holds the 1-minute bars of SPY, the peers and the cross-asset ETFs (TLT, UUP, HYG, GLD, USO) for every call, so all 3 run offline. Placebo at 64f11f5 (`eval data/*/ --placebo --benchmark <b>`):
+`market.py` can measure the stock against its sector ETF (`etf`, shipped), a market model fitted on the 3 sessions before the call (betas on SPY and the ETF, `market`), or the same plus an equal-weight peer basket (`peers`). `pipeline/data/<call>/context.csv.gz` holds the 1-minute bars of SPY, the peers and the cross-asset ETFs (TLT, UUP, HYG, GLD, USO) for every call, so all 3 run offline. Placebo (rotate) at d67a079 over 75 calls (`eval data/*/ --placebo --benchmark <b>`):
 
 | Benchmark | Real beats median shift | Sign test p | Log |
 | --- | --- | --- | --- |
-| etf | 29/45 | 0.036 | `callmoves-placebo-etf-64f11f5-20261111-1611.log` |
-| market | 30/45 | 0.018 | `callmoves-placebo-market-64f11f5-20261111-1611.log` |
-| peers | 29/45 | 0.036 | `callmoves-placebo-peers-64f11f5-20261111-1612.log` |
+| etf | 46/75 | 0.032 | `callmoves-placebo-etf-d67a079-20261118-0301.log` |
+| market | 46/75 | 0.032 | `callmoves-placebo-market-d67a079-20261118-0301.log` |
+| peers | 42/75 | 0.18 | `callmoves-placebo-peers-d67a079-20261118-0302.log` |
 
-1 call apart is not a reason to switch, so the ETF stays: it is the one a reader can check on any chart.
+The market model ties the ETF, so the ETF stays: it is the one a reader can check on any chart.
 
 ### Attribution labels
 
-`pipeline/labels/PROTOCOL.md` defines the unit (123 flagged price events in 41 calls, frozen in `flags.json`) and 3 raters who never see CallMoves' moments or scores: `opus-blind` (Claude Opus, price table and 5 min of transcript), `agent-protocol` (Claude Sonnet agents following the protocol on richer packets, `labels packets`, answers in `agent_protocol.json`) and me on `/label`. At 64f11f5 (`labels report`, log `callmoves-labels-report-64f11f5-20261111-1612.log`):
+`pipeline/labels/PROTOCOL.md` defines the unit (123 flagged price events in 41 calls, frozen in `flags.json`) and 3 raters who never see CallMoves' moments or scores: `opus-blind` (Claude Opus, price table and 5 min of transcript), `agent-protocol` (Claude Sonnet agents following the protocol on richer packets, `labels packets`, answers in `agent_protocol.json`) and me on `/label`. At d67a079 (`labels report`, log `callmoves-labels-report-d67a079-20261118-0307.log`):
 
 | Tier | Labeled flags | Precision at 3 | Precision at 5 |
 | --- | --- | --- | --- |
@@ -74,7 +74,7 @@ Cohen's kappa between the 2 model raters is 0.41 on all 123 flags. Silver labels
 
 `labels align` checks the clock against 28 squawk headlines on X that quote a call sentence: in 12 calls they post at least 1.5 min after the sentence (median 4.0, none before it, log `callmoves-align-64f11f5-20261111-1612.log`), so no call's timing is off by more than the posting lag.
 
-`eval data/*/ --predict` asks whether claim features predict the next 5 minutes: a ridge model, left out 1 call at a time. Its mean Spearman correlation with the realized move is -0.053, against -0.099 for trailing volatility and -0.055 for the score's ex-ante part (log `callmoves-predict-64f11f5-20261111-1612.log`). Nothing predicts the move before it happens, so no prediction ships, and the moments stay a price-first reading.
+`eval data/*/ --predict` asks whether claim features predict the next 5 minutes: a ridge model, left out 1 call at a time. Over 72 calls its mean Spearman correlation with the realized move is -0.005, against -0.065 for trailing volatility and -0.043 for the score's ex-ante part (log `callmoves-predict-d67a079-20261118-0307.log`). Nothing predicts the move before it happens, so no prediction ships, and the moments stay a price-first reading.
 
 ### Study
 
@@ -82,17 +82,17 @@ The time-to-insight study (`/study`, 2 timed trials, replay with and without mom
 
 ## Cost and speed
 
-Ingest and run write `stats.json` per call: GPU model and seconds (priced at Modal's list rate plus the container's memory and CPU), Claude tokens (priced at Sonnet 5.5 list rates) and wall time. Over the 25 calls processed by the worker on 2026-11-11 (`eval data/*/ --stats`, log `callmoves-stats-64f11f5-20261111-1613.log`):
+Ingest and run write `stats.json` per call: GPU model and seconds (priced at Modal's list rate plus the container's memory and CPU), Claude tokens (priced at Sonnet 5.5 list rates) and wall time. Over the 54 of 75 calls with both GPU and Claude cost recorded (`eval data/*/ --stats`, log `callmoves-stats-d67a079-20261118-0305.log`):
 
 | Per call | Median | Range |
 | --- | --- | --- |
 | Audio | 60.6 min | 38.3 to 78.0 |
-| Processing (transcription, diarization, bars, claims) | 8.1 min | 3.5 to 10.5 |
-| GPU (24 on an A10, 1 on an L4) | $0.14 | $0.06 to $0.20 |
-| Claude | $0.17 | $0.07 to $0.36 |
-| Total | $0.33 | $0.21 to $0.50 |
+| Processing (transcription, diarization, bars, claims) | 7.4 min | 3.0 to 36.5 |
+| GPU (50 on an A10, 1 A10G, 2 L4, 1 T4) | $0.14 | $0.06 to $0.20 |
+| Claude | $0.07 | $0.05 to $0.89 |
+| Total | $0.22 | $0.14 to $1.03 |
 
-The spec's target was a 60-minute call in under 15 minutes for under $2. The 25 calls cost $8.08 together. A whole worker job, with the runner's setup, the downloads and the audio upload, took 10.2 min at the median (6.6 to 13.0, log `callmoves-worker-jobs-3564117-20261110-1837.log`). The call page shows its own line under "How it's scored".
+The spec's target was a 60-minute call in under 15 minutes for under $2. The 54 calls cost $15.41 together. A whole worker job, with the runner's setup, the downloads and the audio upload, took 10.2 min at the median (6.6 to 13.0, log `callmoves-worker-jobs-3564117-20261110-1837.log`). The call page shows its own line under "How it's scored".
 
 ## Limits
 
