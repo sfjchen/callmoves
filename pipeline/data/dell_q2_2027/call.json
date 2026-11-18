@@ -1,0 +1,3735 @@
+{
+ "ticker": "DELL",
+ "quarter": "Q2-2027",
+ "company": "Dell Technologies",
+ "call_start": "2026-09-01T16:30:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/DELL_Q2-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 43900,
+   "speaker": "Operator",
+   "text": "Good afternoon, and welcome to the fiscal year 2027 second quarter financial results conference call for Dell Technologies, Inc. I'd like to inform all participants this call is being recorded at the request of Dell Technologies. This broadcast is the copyrighted property of Dell Technologies, Inc. Any rebroadcast of this information in whole or part without the prior written permission of Dell Technologies is prohibited. Following prepared remarks, we will conduct a question and answer session. If you have a question, simply press star then one on your telephone keypad at any time during the presentation. I'd like to turn the call over to Paul Franz, head of investigations.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon, and welcome to the fiscal year 2027 second quarter financial results conference call for Dell Technologies, Inc."
+    },
+    {
+     "t0_ms": 8620,
+     "text": "I'd like to inform all participants this call is being recorded at the request of Dell Technologies."
+    },
+    {
+     "t0_ms": 14900,
+     "text": "This broadcast is the copyrighted property of Dell Technologies, Inc."
+    },
+    {
+     "t0_ms": 19640,
+     "text": "Any rebroadcast of this information in whole or part without the prior written permission of Dell Technologies is prohibited."
+    },
+    {
+     "t0_ms": 26920,
+     "text": "Following prepared remarks, we will conduct a question and answer session."
+    },
+    {
+     "t0_ms": 32479,
+     "text": "If you have a question, simply press star then one on your telephone keypad at any time during the presentation."
+    },
+    {
+     "t0_ms": 40260,
+     "text": "I'd like to turn the call over to Paul Franz, head of investigations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 44600,
+   "t1_ms": 45980,
+   "speaker": "Operator",
+   "text": "Mr. Franz, you may begin.",
+   "parts": [
+    {
+     "t0_ms": 44600,
+     "text": "Mr. Franz, you may begin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 48400,
+   "t1_ms": 87740,
+   "speaker": "Management",
+   "text": "Thanks, everyone, for joining us. With me today are Jeff Clark, David Kennedy, and Tyler Johnson. Our earnings materials are available on our IR website, and I encourage you to visit our website at www.dell.com. We encourage you to review these materials. Also, please take some time to review the presentation, which includes additional content, to complement our discussion this afternoon. During this call, unless otherwise indicated, all references to financial measures refer to non-GAAP financial measures, including non-GAAP gross margin, operating expenses, operating income, net income, diluted earnings per share, free cash flow, and adjusted free cash flow.",
+   "parts": [
+    {
+     "t0_ms": 48400,
+     "text": "Thanks, everyone, for joining us."
+    },
+    {
+     "t0_ms": 50180,
+     "text": "With me today are Jeff Clark, David Kennedy, and Tyler Johnson."
+    },
+    {
+     "t0_ms": 54300,
+     "text": "Our earnings materials are available on our IR website,"
+    },
+    {
+     "t0_ms": 58160,
+     "text": "and I encourage you to visit our website at www.dell.com."
+    },
+    {
+     "t0_ms": 58580,
+     "text": "We encourage you to review these materials."
+    },
+    {
+     "t0_ms": 61240,
+     "text": "Also, please take some time to review the presentation, which includes additional content, to complement our discussion this afternoon."
+    },
+    {
+     "t0_ms": 69680,
+     "text": "During this call, unless otherwise indicated, all references to financial measures refer to non-GAAP financial measures,"
+    },
+    {
+     "t0_ms": 77600,
+     "text": "including non-GAAP gross margin, operating expenses, operating income, net income, diluted earnings per share, free cash flow, and adjusted free cash flow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 87740,
+   "t1_ms": 130860,
+   "speaker": "Management",
+   "text": "A reconciliation of these measures to their most directly comparable GAAP measures can be found in our web deck and our press release. Growth percentages refer to year-over-year change unless otherwise specified. Statements made during this call that relate to future results and events are forward-looking statements based on current expectations. Actual results and events could differ materially from those projected due to a number of risks and uncertainties, which are discussed in our web deck. We assume no obligation to update our forward-looking statements. Now, I'll turn it over to Jeff. Thanks, Paul, and thanks, everyone, for joining us. Another outstanding quarter.",
+   "parts": [
+    {
+     "t0_ms": 87740,
+     "text": "A reconciliation of these measures to their most directly comparable GAAP measures can be found in our web deck and our press release."
+    },
+    {
+     "t0_ms": 96620,
+     "text": "Growth percentages refer to year-over-year change unless otherwise specified."
+    },
+    {
+     "t0_ms": 101940,
+     "text": "Statements made during this call that relate to future results and events are forward-looking statements based on current expectations."
+    },
+    {
+     "t0_ms": 109800,
+     "text": "Actual results and events could differ materially from those projected due to a number of risks and uncertainties,"
+    },
+    {
+     "t0_ms": 116680,
+     "text": "which are discussed in our web deck."
+    },
+    {
+     "t0_ms": 117740,
+     "text": "We assume no obligation to update our forward-looking statements."
+    },
+    {
+     "t0_ms": 124500,
+     "text": "Now, I'll turn it over to Jeff."
+    },
+    {
+     "t0_ms": 126640,
+     "text": "Thanks, Paul, and thanks, everyone, for joining us."
+    },
+    {
+     "t0_ms": 129280,
+     "text": "Another outstanding quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 131380,
+   "t1_ms": 173780,
+   "speaker": "Management",
+   "text": "I am proud of how our team executed across the business, delivering record revenue and record earnings per share. Revenue was $47 billion, up 58%, and earnings per share was $7.04, up 203%. These results reflect the compounding benefits of our competitive advantages, the breadth of our portfolio, and the strength of our operating model. Our modernization efforts are driving greater efficiency and significant operating leverage, enabling us to grow earnings faster than revenue. Customers no longer see IT environments simply as cost centers, but as value drivers that enable growth, productivity, and competitive advantage.",
+   "parts": [
+    {
+     "t0_ms": 131380,
+     "text": "I am proud of how our team executed across the business, delivering record revenue and record earnings per share."
+    },
+    {
+     "t0_ms": 138400,
+     "text": "Revenue was $47 billion, up 58%, and earnings per share was $7.04, up 203%."
+    },
+    {
+     "t0_ms": 147740,
+     "text": "These results reflect the compounding benefits of our competitive advantages,"
+    },
+    {
+     "t0_ms": 152460,
+     "text": "the breadth of our portfolio, and the strength of our operating model."
+    },
+    {
+     "t0_ms": 156120,
+     "text": "Our modernization efforts are driving greater efficiency and significant operating leverage,"
+    },
+    {
+     "t0_ms": 161780,
+     "text": "enabling us to grow earnings faster than revenue."
+    },
+    {
+     "t0_ms": 165300,
+     "text": "Customers no longer see IT environments simply as cost centers,"
+    },
+    {
+     "t0_ms": 168760,
+     "text": "but as value drivers that enable growth, productivity, and competitive advantage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 174440,
+   "t1_ms": 214600,
+   "speaker": "Management",
+   "text": "As a result, they are expanding and reallocating budgets to support their customers' growth and productivity. We are also expanding and reallocating budgets to support their customers' growth and productivity. We are also expanding and reallocating budgets to support continued investment. This is creating opportunities across our portfolio, from infrastructure to client devices. Our world-class supply chain and ability to serve customers across their IT environments are helping us meet more of their needs and gain share. Our deployment and service capabilities are helping customers integrate solutions across their IT environments and capture more value quickly. The proof is in our results. Over the past 12 months, we have booked more than 130,000, and we have delivered more than $130 billion in AI server orders. In just the past two quarters, we have generated almost as much revenue",
+   "parts": [
+    {
+     "t0_ms": 174440,
+     "text": "As a result, they are expanding and reallocating budgets"
+    },
+    {
+     "t0_ms": 177360,
+     "text": "to support their customers' growth and productivity."
+    },
+    {
+     "t0_ms": 177620,
+     "text": "We are also expanding and reallocating budgets to support their customers' growth and productivity."
+    },
+    {
+     "t0_ms": 177740,
+     "text": "We are also expanding and reallocating budgets to support continued investment."
+    },
+    {
+     "t0_ms": 179440,
+     "text": "This is creating opportunities across our portfolio, from infrastructure to client devices."
+    },
+    {
+     "t0_ms": 184820,
+     "text": "Our world-class supply chain and ability to serve customers across their IT environments"
+    },
+    {
+     "t0_ms": 189720,
+     "text": "are helping us meet more of their needs and gain share."
+    },
+    {
+     "t0_ms": 193860,
+     "text": "Our deployment and service capabilities are helping customers integrate solutions"
+    },
+    {
+     "t0_ms": 198080,
+     "text": "across their IT environments and capture more value quickly."
+    },
+    {
+     "t0_ms": 202880,
+     "text": "The proof is in our results."
+    },
+    {
+     "t0_ms": 204260,
+     "text": "Over the past 12 months, we have booked more than 130,000,"
+    },
+    {
+     "t0_ms": 207260,
+     "text": "and we have delivered more than $130 billion in AI server orders."
+    },
+    {
+     "t0_ms": 210760,
+     "text": "In just the past two quarters, we have generated almost as much revenue"
+    }
+   ]
+  },
+  {
+   "t0_ms": 214600,
+   "t1_ms": 256079,
+   "speaker": "Management",
+   "text": "from traditional servers and networking as we have in any prior full year in company history. Storage returned to growth and share gain, with strong demand for Dell IP storage products, and CSG revenue is growing at the fastest rate in five years. It is clear why demand for our solutions is exceeding available supply. Our results and guidance demonstrate the strength, and the strength of our position as customers enter a new era of infrastructure modernization. Customers are modernizing their data centers for both AI and non-AI workloads, and the benefits are meaningful. AI is an important catalyst, but the opportunity extends well beyond AI-optimized infrastructure.",
+   "parts": [
+    {
+     "t0_ms": 214600,
+     "text": "from traditional servers and networking as we have in any prior full year in company history."
+    },
+    {
+     "t0_ms": 221340,
+     "text": "Storage returned to growth and share gain, with strong demand for Dell IP storage products,"
+    },
+    {
+     "t0_ms": 226820,
+     "text": "and CSG revenue is growing at the fastest rate in five years."
+    },
+    {
+     "t0_ms": 230640,
+     "text": "It is clear why demand for our solutions is exceeding available supply."
+    },
+    {
+     "t0_ms": 234340,
+     "text": "Our results and guidance demonstrate the strength,"
+    },
+    {
+     "t0_ms": 237260,
+     "text": "and the strength of our position as customers enter a new era of infrastructure modernization."
+    },
+    {
+     "t0_ms": 242380,
+     "text": "Customers are modernizing their data centers for both AI and non-AI workloads,"
+    },
+    {
+     "t0_ms": 247380,
+     "text": "and the benefits are meaningful."
+    },
+    {
+     "t0_ms": 249380,
+     "text": "AI is an important catalyst, but the opportunity extends well beyond AI-optimized infrastructure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 256079,
+   "t1_ms": 297140,
+   "speaker": "Management",
+   "text": "AI requires modern, disaggregated architectures that keep data accessible and in motion across compute, storage, and networking. It is also accelerating investment across traditional, and in-person, cloud-based infrastructure. It is also accelerating investment across traditional, and in-person, cloud-based infrastructure. It is also accelerating investment across traditional, IT environments, as customers see greater performance, efficiency, and resiliency. Our AI server momentum continues to accelerate. We booked $60.9 billion of AI orders in this quarter, the most in our history. We are also seeing AI-related tailwinds in traditional servers and networking, along with early signs of increased storage demand as customers prepare, manage, and protect growing volumes of data. Deployment methods are evolving as well. On-prem and edge infrastructure are changing.",
+   "parts": [
+    {
+     "t0_ms": 256079,
+     "text": "AI requires modern, disaggregated architectures that keep data accessible"
+    },
+    {
+     "t0_ms": 261079,
+     "text": "and in motion across compute, storage, and networking."
+    },
+    {
+     "t0_ms": 264140,
+     "text": "It is also accelerating investment across traditional,"
+    },
+    {
+     "t0_ms": 265380,
+     "text": "and in-person, cloud-based infrastructure."
+    },
+    {
+     "t0_ms": 266140,
+     "text": "It is also accelerating investment across traditional,"
+    },
+    {
+     "t0_ms": 267140,
+     "text": "and in-person, cloud-based infrastructure. It is also accelerating investment across traditional,"
+    },
+    {
+     "t0_ms": 267260,
+     "text": "IT environments, as customers see greater performance, efficiency, and resiliency."
+    },
+    {
+     "t0_ms": 272380,
+     "text": "Our AI server momentum continues to accelerate."
+    },
+    {
+     "t0_ms": 275380,
+     "text": "We booked $60.9 billion of AI orders in this quarter, the most in our history."
+    },
+    {
+     "t0_ms": 281380,
+     "text": "We are also seeing AI-related tailwinds in traditional servers and networking,"
+    },
+    {
+     "t0_ms": 286380,
+     "text": "along with early signs of increased storage demand as customers prepare, manage,"
+    },
+    {
+     "t0_ms": 290380,
+     "text": "and protect growing volumes of data."
+    },
+    {
+     "t0_ms": 293380,
+     "text": "Deployment methods are evolving as well."
+    },
+    {
+     "t0_ms": 295380,
+     "text": "On-prem and edge infrastructure are changing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 297140,
+   "t1_ms": 336260,
+   "speaker": "Management",
+   "text": "The AI infrastructure offers attractive token economics for the right workloads, while giving customers greater control over their data and intellectual property. Our portfolio, global reach, and deep customer relationships position us to help customers design, deploy their right solutions for their performance, cost, and security requirements. Together, these trends are expanding our addressable market, and driving demand across compute, networking, storage, and PCs. This represents a significant long-term opportunity for AI. It plays directly to our strengths and expands the value we can deliver across the entire IT environment. Now, onto the results.",
+   "parts": [
+    {
+     "t0_ms": 297140,
+     "text": "The AI infrastructure offers attractive token economics for the right workloads,"
+    },
+    {
+     "t0_ms": 301260,
+     "text": "while giving customers greater control over their data and intellectual property."
+    },
+    {
+     "t0_ms": 305260,
+     "text": "Our portfolio, global reach, and deep customer relationships position us to help customers design,"
+    },
+    {
+     "t0_ms": 311260,
+     "text": "deploy their right solutions for their performance, cost, and security requirements."
+    },
+    {
+     "t0_ms": 315260,
+     "text": "Together, these trends are expanding our addressable market,"
+    },
+    {
+     "t0_ms": 319260,
+     "text": "and driving demand across compute, networking, storage, and PCs."
+    },
+    {
+     "t0_ms": 323260,
+     "text": "This represents a significant long-term opportunity for AI."
+    },
+    {
+     "t0_ms": 326260,
+     "text": "It plays directly to our strengths and expands the value we can deliver across the entire IT environment."
+    },
+    {
+     "t0_ms": 334260,
+     "text": "Now, onto the results."
+    }
+   ]
+  },
+  {
+   "t0_ms": 336260,
+   "t1_ms": 380260,
+   "speaker": "Management",
+   "text": "Starting with ISG, revenue increased 89% to a record $31.8 billion, with operating income of $4.8 billion and an operating income rate of 15%. In AI, demand continues to accelerate. In Q2, we booked a record of $60.9 billion. We are also seeing a growth in our IT environment. We are also seeing a growth in our IT environment. We are also seeing a growth in our IT environment. We are also seeing $17.9 billion in AI orders and a recognized $16.4 billion in AI server revenue. We exited the quarter with a record $95 billion of AI backlog, and our pipeline continues to grow sequentially, and remains multiples of our backlog, even after converting $131.7 billion into orders over the past 12 months. even after converting $131.7 billion into orders over the past 12 months.",
+   "parts": [
+    {
+     "t0_ms": 336260,
+     "text": "Starting with ISG, revenue increased 89% to a record $31.8 billion,"
+    },
+    {
+     "t0_ms": 343260,
+     "text": "with operating income of $4.8 billion and an operating income rate of 15%."
+    },
+    {
+     "t0_ms": 349260,
+     "text": "In AI, demand continues to accelerate."
+    },
+    {
+     "t0_ms": 352260,
+     "text": "In Q2, we booked a record of $60.9 billion."
+    },
+    {
+     "t0_ms": 354260,
+     "text": "We are also seeing a growth in our IT environment."
+    },
+    {
+     "t0_ms": 355260,
+     "text": "We are also seeing a growth in our IT environment."
+    },
+    {
+     "t0_ms": 356260,
+     "text": "We are also seeing a growth in our IT environment."
+    },
+    {
+     "t0_ms": 357260,
+     "text": "We are also seeing $17.9 billion in AI orders and a recognized $16.4 billion in AI server revenue."
+    },
+    {
+     "t0_ms": 363260,
+     "text": "We exited the quarter with a record $95 billion of AI backlog,"
+    },
+    {
+     "t0_ms": 368260,
+     "text": "and our pipeline continues to grow sequentially, and remains multiples of our backlog,"
+    },
+    {
+     "t0_ms": 373260,
+     "text": "even after converting $131.7 billion into orders over the past 12 months."
+    },
+    {
+     "t0_ms": 378260,
+     "text": "even after converting $131.7 billion into orders over the past 12 months."
+    }
+   ]
+  },
+  {
+   "t0_ms": 380260,
+   "t1_ms": 420170,
+   "speaker": "Management",
+   "text": "Demand is broadening across NEOclouds, Sovereigns, and Enterprise customers, and our customer count has surpassed 6,500. The scale and complexity of these deployments reinforce why customers choose us. AI infrastructure requires much more than assembling and delivering components. These opportunities demand significant engineering, design, and deployment expertise, with some engagements requiring upwards of 50 unique designs as customers optimize for workload performance and power strength. Our engineering capabilities, broad portfolio, global supply chain,",
+   "parts": [
+    {
+     "t0_ms": 380260,
+     "text": "Demand is broadening across NEOclouds, Sovereigns, and Enterprise customers,"
+    },
+    {
+     "t0_ms": 384260,
+     "text": "and our customer count has surpassed 6,500."
+    },
+    {
+     "t0_ms": 387600,
+     "text": "The scale and complexity of these deployments reinforce why customers choose us."
+    },
+    {
+     "t0_ms": 392820,
+     "text": "AI infrastructure requires much more than assembling and delivering components."
+    },
+    {
+     "t0_ms": 397480,
+     "text": "These opportunities demand significant engineering, design, and deployment expertise,"
+    },
+    {
+     "t0_ms": 402320,
+     "text": "with some engagements requiring upwards of 50 unique designs"
+    },
+    {
+     "t0_ms": 406560,
+     "text": "as customers optimize for workload performance and power strength."
+    },
+    {
+     "t0_ms": 415430,
+     "text": "Our engineering capabilities, broad portfolio, global supply chain,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 420290,
+   "t1_ms": 462410,
+   "speaker": "Management",
+   "text": "and ability to deploy and support infrastructure at scale globally differentiate us and enable customers to move from design to production more quickly. We demonstrated those capabilities again by becoming the first to ship RAC systems engineered on the NVIDIA Vera Rubin platform. The AI market is evolving rapidly, and we are focused on expanding our platforms and capabilities, solving increasingly complex problems, and innovating across the infrastructure stack. With accelerating demand and a growing pipeline and differentiated capabilities, we are well positioned to capture the opportunity ahead. Moving to traditional servers, revenue was up 122%",
+   "parts": [
+    {
+     "t0_ms": 420290,
+     "text": "and ability to deploy and support infrastructure at scale globally differentiate us"
+    },
+    {
+     "t0_ms": 425550,
+     "text": "and enable customers to move from design to production more quickly."
+    },
+    {
+     "t0_ms": 429830,
+     "text": "We demonstrated those capabilities again by becoming the first to ship RAC systems"
+    },
+    {
+     "t0_ms": 434370,
+     "text": "engineered on the NVIDIA Vera Rubin platform."
+    },
+    {
+     "t0_ms": 437790,
+     "text": "The AI market is evolving rapidly, and we are focused on expanding our platforms and capabilities,"
+    },
+    {
+     "t0_ms": 444010,
+     "text": "solving increasingly complex problems,"
+    },
+    {
+     "t0_ms": 445430,
+     "text": "and innovating across the infrastructure stack."
+    },
+    {
+     "t0_ms": 449390,
+     "text": "With accelerating demand and a growing pipeline and differentiated capabilities,"
+    },
+    {
+     "t0_ms": 453810,
+     "text": "we are well positioned to capture the opportunity ahead."
+    },
+    {
+     "t0_ms": 457430,
+     "text": "Moving to traditional servers, revenue was up 122%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 462410,
+   "t1_ms": 505370,
+   "speaker": "Management",
+   "text": "as demand remains exceptionally strong, supported by multiple vectors of growth. First, a majority of our growth is coming from existing customers as they continue to refresh and modernize their data centers to support customers. Second, we are seeing a growing trend of customers that require meaningful CPU compute capacity to support AI and agentic workflows. These workloads are creating incremental demand for traditional servers. We are executing very well against both opportunities and gaining share. Over the past two quarters, we have gained more than 10 points",
+   "parts": [
+    {
+     "t0_ms": 462410,
+     "text": "as demand remains exceptionally strong, supported by multiple vectors of growth."
+    },
+    {
+     "t0_ms": 468030,
+     "text": "First, a majority of our growth is coming from existing customers"
+    },
+    {
+     "t0_ms": 471190,
+     "text": "as they continue to refresh and modernize their data centers to support customers."
+    },
+    {
+     "t0_ms": 475430,
+     "text": "Second, we are seeing a growing trend of customers that require meaningful CPU compute capacity"
+    },
+    {
+     "t0_ms": 490370,
+     "text": "to support AI and agentic workflows."
+    },
+    {
+     "t0_ms": 493590,
+     "text": "These workloads are creating incremental demand for traditional servers."
+    },
+    {
+     "t0_ms": 498270,
+     "text": "We are executing very well against both opportunities and gaining share."
+    },
+    {
+     "t0_ms": 502090,
+     "text": "Over the past two quarters, we have gained more than 10 points"
+    }
+   ]
+  },
+  {
+   "t0_ms": 505370,
+   "t1_ms": 547590,
+   "speaker": "Management",
+   "text": "of traditional server share, and we expect to gain share again this quarter. With the majority of the install base still on 14th generation or older servers, we see a significant and durable refresh opportunity ahead. The strength and breadth of demand, combined with our continued share gains, demonstrate the competitiveness of our portfolio and the consistency of our execution. Turning to storage, revenue is up 26%, as strong demand for our Dell IP portfolio translated into revenue. We are seeing revenue growth and improved storage profitability. Dell IP delivered another record demand growth quarter, making this our sixth consecutive quarter of demand growth above market. Demand remains broad-based.",
+   "parts": [
+    {
+     "t0_ms": 505370,
+     "text": "of traditional server share, and we expect to gain share again this quarter."
+    },
+    {
+     "t0_ms": 510690,
+     "text": "With the majority of the install base still on 14th generation or older servers,"
+    },
+    {
+     "t0_ms": 514850,
+     "text": "we see a significant and durable refresh opportunity ahead."
+    },
+    {
+     "t0_ms": 519590,
+     "text": "The strength and breadth of demand, combined with our continued share gains,"
+    },
+    {
+     "t0_ms": 523669,
+     "text": "demonstrate the competitiveness of our portfolio and the consistency of our execution."
+    },
+    {
+     "t0_ms": 529050,
+     "text": "Turning to storage, revenue is up 26%, as strong demand for our Dell IP portfolio"
+    },
+    {
+     "t0_ms": 533790,
+     "text": "translated into revenue."
+    },
+    {
+     "t0_ms": 535370,
+     "text": "We are seeing revenue growth and improved storage profitability."
+    },
+    {
+     "t0_ms": 538410,
+     "text": "Dell IP delivered another record demand growth quarter,"
+    },
+    {
+     "t0_ms": 542010,
+     "text": "making this our sixth consecutive quarter of demand growth above market."
+    },
+    {
+     "t0_ms": 546250,
+     "text": "Demand remains broad-based."
+    }
+   ]
+  },
+  {
+   "t0_ms": 547930,
+   "t1_ms": 592330,
+   "speaker": "Management",
+   "text": "Enterprises continue to modernize their storage environments as data growth increases the importance of keeping data available and secure. At the same time, we are beginning to see incremental demand from AI workloads, which require customers to prepare, manage, and move increasingly large, and we are seeing a significant increase in demand growth. We saw strong growth across PowerFlex, PowerStore, PowerProtect, and PowerVault, with PowerStore posting double-digit demand growth for the ninth consecutive quarter. PowerScale and ObjectScale also drove another exceptional quarter in unstructured storage, which has now grown a double-digit or better for three consecutive quarters. Storage is becoming a more meaningful contributor to our growth and profitability.",
+   "parts": [
+    {
+     "t0_ms": 547930,
+     "text": "Enterprises continue to modernize their storage environments"
+    },
+    {
+     "t0_ms": 550830,
+     "text": "as data growth increases the importance of keeping data available and secure."
+    },
+    {
+     "t0_ms": 556550,
+     "text": "At the same time, we are beginning to see incremental demand from AI workloads,"
+    },
+    {
+     "t0_ms": 561070,
+     "text": "which require customers to prepare, manage, and move increasingly large,"
+    },
+    {
+     "t0_ms": 565370,
+     "text": "and we are seeing a significant increase in demand growth."
+    },
+    {
+     "t0_ms": 566370,
+     "text": "We saw strong growth across PowerFlex, PowerStore, PowerProtect, and PowerVault,"
+    },
+    {
+     "t0_ms": 572370,
+     "text": "with PowerStore posting double-digit demand growth for the ninth consecutive quarter."
+    },
+    {
+     "t0_ms": 577130,
+     "text": "PowerScale and ObjectScale also drove another exceptional quarter in unstructured storage,"
+    },
+    {
+     "t0_ms": 583150,
+     "text": "which has now grown a double-digit or better for three consecutive quarters."
+    },
+    {
+     "t0_ms": 588550,
+     "text": "Storage is becoming a more meaningful contributor to our growth and profitability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 593130,
+   "t1_ms": 635210,
+   "speaker": "Management",
+   "text": "Dell IP continues to increase as a percentage of demand growth. We are seeing a significant increase in demand growth for our product, and margins continue to improve, supporting overall ISG pressure gains, expanding Dell IP mix, and accelerating pace of product development give us confidence in the opportunity ahead. Turning to CSG, revenue grew 20% with demand growth across all regions and verticals. Commercial revenue grew 22%, our eighth consecutive quarter of growth, with demand up for the tenth quarter. Large enterprise customers continue to refresh their PCs, PC install base, driving double-digit growth across all regions. More cost-sensitive customers are extending their upgrade cycles.",
+   "parts": [
+    {
+     "t0_ms": 593130,
+     "text": "Dell IP continues to increase as a percentage of demand growth."
+    },
+    {
+     "t0_ms": 595210,
+     "text": "We are seeing a significant increase in demand growth for our product,"
+    },
+    {
+     "t0_ms": 595370,
+     "text": "and margins continue to improve, supporting overall ISG pressure gains,"
+    },
+    {
+     "t0_ms": 604070,
+     "text": "expanding Dell IP mix, and accelerating pace of product development"
+    },
+    {
+     "t0_ms": 607570,
+     "text": "give us confidence in the opportunity ahead."
+    },
+    {
+     "t0_ms": 611050,
+     "text": "Turning to CSG, revenue grew 20% with demand growth across all regions and verticals."
+    },
+    {
+     "t0_ms": 616930,
+     "text": "Commercial revenue grew 22%, our eighth consecutive quarter of growth,"
+    },
+    {
+     "t0_ms": 621470,
+     "text": "with demand up for the tenth quarter."
+    },
+    {
+     "t0_ms": 623530,
+     "text": "Large enterprise customers continue to refresh their PCs,"
+    },
+    {
+     "t0_ms": 626810,
+     "text": "PC install base, driving double-digit growth across all regions."
+    },
+    {
+     "t0_ms": 631890,
+     "text": "More cost-sensitive customers are extending their upgrade cycles."
+    }
+   ]
+  },
+  {
+   "t0_ms": 635750,
+   "t1_ms": 677230,
+   "speaker": "Management",
+   "text": "This is increasing the number of older devices in the install base and expanding the long-term refresh opportunity for CSG. Consumer revenue is up 7%, the fourth consecutive quarter of demand growth. CSG profitability remains strong, benefiting from price discipline and greater scale. In closing, we delivered record revenue, and EPS with continued strong cash flow and record capital returned to shareholders. Our results reflect several reinforcing factors. First, infrastructure demand is growing structurally, driven by data center modernization, AI adoption, and attractive economics of deploying workloads on-prem.",
+   "parts": [
+    {
+     "t0_ms": 635750,
+     "text": "This is increasing the number of older devices in the install base"
+    },
+    {
+     "t0_ms": 639310,
+     "text": "and expanding the long-term refresh opportunity for CSG."
+    },
+    {
+     "t0_ms": 643010,
+     "text": "Consumer revenue is up 7%, the fourth consecutive quarter of demand growth."
+    },
+    {
+     "t0_ms": 648170,
+     "text": "CSG profitability remains strong, benefiting from price discipline and greater scale."
+    },
+    {
+     "t0_ms": 653790,
+     "text": "In closing, we delivered record revenue,"
+    },
+    {
+     "t0_ms": 656810,
+     "text": "and EPS with continued strong cash flow and record capital returned to shareholders."
+    },
+    {
+     "t0_ms": 663850,
+     "text": "Our results reflect several reinforcing factors."
+    },
+    {
+     "t0_ms": 667750,
+     "text": "First, infrastructure demand is growing structurally,"
+    },
+    {
+     "t0_ms": 670770,
+     "text": "driven by data center modernization, AI adoption,"
+    },
+    {
+     "t0_ms": 674390,
+     "text": "and attractive economics of deploying workloads on-prem."
+    }
+   ]
+  },
+  {
+   "t0_ms": 677730,
+   "t1_ms": 719670,
+   "speaker": "Management",
+   "text": "Second, our broad-based portfolio across AI infrastructure, traditional servers and networking, storage and PCs enable us to serve, the full range of our customers' needs. And lastly, we delivered value at scale through our engineering and deployment expertise, supply chain scale, and fast discipline operating model. Our four-year operating expense rate guidance of approximately 8% of revenue is the lowest in our company's 42-year history, demonstrates the operating leverage this model can deliver. These advantages reinforce one another. They are driving growth. We have a strong portfolio, share gains, profitability, and cash generation.",
+   "parts": [
+    {
+     "t0_ms": 677730,
+     "text": "Second, our broad-based portfolio across AI infrastructure,"
+    },
+    {
+     "t0_ms": 681590,
+     "text": "traditional servers and networking, storage and PCs enable us to serve,"
+    },
+    {
+     "t0_ms": 686790,
+     "text": "the full range of our customers' needs."
+    },
+    {
+     "t0_ms": 689210,
+     "text": "And lastly, we delivered value at scale through our engineering and deployment expertise,"
+    },
+    {
+     "t0_ms": 695650,
+     "text": "supply chain scale, and fast discipline operating model."
+    },
+    {
+     "t0_ms": 699290,
+     "text": "Our four-year operating expense rate guidance of approximately 8% of revenue"
+    },
+    {
+     "t0_ms": 704750,
+     "text": "is the lowest in our company's 42-year history,"
+    },
+    {
+     "t0_ms": 708770,
+     "text": "demonstrates the operating leverage this model can deliver."
+    },
+    {
+     "t0_ms": 712470,
+     "text": "These advantages reinforce one another."
+    },
+    {
+     "t0_ms": 714630,
+     "text": "They are driving growth."
+    },
+    {
+     "t0_ms": 716170,
+     "text": "We have a strong portfolio, share gains, profitability, and cash generation."
+    }
+   ]
+  },
+  {
+   "t0_ms": 719670,
+   "t1_ms": 763170,
+   "speaker": "Management",
+   "text": "By creating more value for our customers, we compound our advantages and create durable cash flow and long-term value for our shareholders. I am proud of our team's performance. We enter the second half with strong momentum and confidence in our position. With that, let me turn it over to David to walk through the financials and our outlook. Thanks, Jeff. We delivered another record quarter, capping a very strong first half of the year. The team executed exceptionally well, driving record revenue, record EPS, and record shareholder returns. Total revenue was up 58% to $47 billion. Gross margin dollars grew 78% to $9.9 billion.",
+   "parts": [
+    {
+     "t0_ms": 719670,
+     "text": "By creating more value for our customers, we compound our advantages"
+    },
+    {
+     "t0_ms": 722990,
+     "text": "and create durable cash flow and long-term value for our shareholders."
+    },
+    {
+     "t0_ms": 727550,
+     "text": "I am proud of our team's performance."
+    },
+    {
+     "t0_ms": 729550,
+     "text": "We enter the second half with strong momentum and confidence in our position."
+    },
+    {
+     "t0_ms": 733730,
+     "text": "With that, let me turn it over to David to walk through the financials and our outlook."
+    },
+    {
+     "t0_ms": 740150,
+     "text": "Thanks, Jeff."
+    },
+    {
+     "t0_ms": 741150,
+     "text": "We delivered another record quarter, capping a very strong first half of the year."
+    },
+    {
+     "t0_ms": 746170,
+     "text": "The team executed exceptionally well, driving record revenue, record EPS, and record shareholder returns."
+    },
+    {
+     "t0_ms": 753170,
+     "text": "Total revenue was up 58% to $47 billion."
+    },
+    {
+     "t0_ms": 758170,
+     "text": "Gross margin dollars grew 78% to $9.9 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 763170,
+   "t1_ms": 805170,
+   "speaker": "Management",
+   "text": "Gross margin rate was 21.1%, driven by an improvement in ISG margin rate and a higher mix of ISG revenue. Operating expenses were up 22%. We were able to deliver a lot of revenue. We delivered an incredible revenue of $13 million to $4 billion, primarily from variable compensation tied to our outperformance. Building on last quarter, we continued to drive significant scale in the P&L, with optics down 250 basis points to 8.5% of revenue. Operating income grew 160% to $5.9 billion, or 12.6% of revenue, driven by higher revenue, scale,",
+   "parts": [
+    {
+     "t0_ms": 763170,
+     "text": "Gross margin rate was 21.1%, driven by an improvement in ISG margin rate and a higher mix of ISG revenue."
+    },
+    {
+     "t0_ms": 772170,
+     "text": "Operating expenses were up 22%."
+    },
+    {
+     "t0_ms": 775170,
+     "text": "We were able to deliver a lot of revenue."
+    },
+    {
+     "t0_ms": 776170,
+     "text": "We delivered an incredible revenue of $13 million to $4 billion,"
+    },
+    {
+     "t0_ms": 780170,
+     "text": "primarily from variable compensation tied to our outperformance."
+    },
+    {
+     "t0_ms": 784170,
+     "text": "Building on last quarter, we continued to drive significant scale in the P&L,"
+    },
+    {
+     "t0_ms": 789170,
+     "text": "with optics down 250 basis points to 8.5% of revenue."
+    },
+    {
+     "t0_ms": 795170,
+     "text": "Operating income grew 160% to $5.9 billion, or 12.6% of revenue,"
+    },
+    {
+     "t0_ms": 803170,
+     "text": "driven by higher revenue, scale,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 805170,
+   "t1_ms": 842770,
+   "speaker": "Management",
+   "text": "servers, storage, and CSG. Net income was up 189% to $4.6 billion, primarily driven by strong operating income. Diluted EPS increased 203% to $7.04, a record. Moving to ISG. ISG delivered record revenue of $31.8 billion, up 89%, marking the 10th consecutive quarter of double-digit or better revenue growth. AI server momentum accelerated, and we set records across the board,",
+   "parts": [
+    {
+     "t0_ms": 805170,
+     "text": "servers, storage, and CSG. Net income was up 189% to $4.6 billion, primarily driven by strong"
+    },
+    {
+     "t0_ms": 814390,
+     "text": "operating income. Diluted EPS increased 203% to $7.04, a record. Moving to ISG. ISG delivered"
+    },
+    {
+     "t0_ms": 826910,
+     "text": "record revenue of $31.8 billion, up 89%, marking the 10th consecutive quarter of double-digit"
+    },
+    {
+     "t0_ms": 835390,
+     "text": "or better revenue growth. AI server momentum accelerated, and we set records across the board,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 843470,
+   "t1_ms": 887290,
+   "speaker": "Management",
+   "text": "including $60.9 billion in orders, $16.4 billion in revenue, and $95 billion in ending backlog. Traditional server and networking revenue was $10.4 billion, and $95 billion in ending backlog. The demand continued to outpace supply. Storage revenue was $4.9 billion, up 26%, with strong demand across the Dell IP portfolio, driving revenue growth and significant margin contribution. Dell IP storage demand has grown above market for six consecutive quarters. Unstructured storage remained one of our fastest-growing solutions. Dell IP storage has grown above market for six consecutive quarters. Unstructured storage remained one of our fastest-growing solutions,",
+   "parts": [
+    {
+     "t0_ms": 843470,
+     "text": "including $60.9 billion in orders, $16.4 billion in revenue, and $95 billion in ending backlog."
+    },
+    {
+     "t0_ms": 854050,
+     "text": "Traditional server and networking revenue was $10.4 billion, and $95 billion in ending backlog."
+    },
+    {
+     "t0_ms": 856890,
+     "text": "The demand continued to outpace supply. Storage revenue was $4.9 billion, up 26%, with strong"
+    },
+    {
+     "t0_ms": 869890,
+     "text": "demand across the Dell IP portfolio, driving revenue growth and significant margin contribution."
+    },
+    {
+     "t0_ms": 877450,
+     "text": "Dell IP storage demand has grown above market for six consecutive quarters. Unstructured storage"
+    },
+    {
+     "t0_ms": 885010,
+     "text": "remained one of our fastest-growing solutions. Dell IP storage has grown above market for six"
+    },
+    {
+     "t0_ms": 886870,
+     "text": "consecutive quarters. Unstructured storage remained one of our fastest-growing solutions,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 887690,
+   "t1_ms": 932190,
+   "speaker": "Management",
+   "text": "with broader strength across the rest of the portfolio. ISG operating income was a record $4.8 billion, up 225%, marking the ninth consecutive quarter of double-digit or better growth, primarily driven by higher revenue across the business. Operating margin was 15%, up 620 basis points. Looking at the key drivers of margin performance, a number of factors came together, and went our way this quarter. The demand environment was strong, mix and rates were favorable, and the team executed with discipline. While we would not expect every benefit to continue at this level, the quarter also reflects meaningful",
+   "parts": [
+    {
+     "t0_ms": 887690,
+     "text": "with broader strength across the rest of the portfolio. ISG operating income was a record"
+    },
+    {
+     "t0_ms": 893890,
+     "text": "$4.8 billion, up 225%, marking the ninth consecutive quarter of double-digit or better growth,"
+    },
+    {
+     "t0_ms": 902250,
+     "text": "primarily driven by higher revenue across the business. Operating margin was 15%, up 620 basis"
+    },
+    {
+     "t0_ms": 910910,
+     "text": "points. Looking at the key drivers of margin performance, a number of factors came together,"
+    },
+    {
+     "t0_ms": 916870,
+     "text": "and went our way this quarter."
+    },
+    {
+     "t0_ms": 919330,
+     "text": "The demand environment was strong,"
+    },
+    {
+     "t0_ms": 921690,
+     "text": "mix and rates were favorable,"
+    },
+    {
+     "t0_ms": 923830,
+     "text": "and the team executed with discipline."
+    },
+    {
+     "t0_ms": 926490,
+     "text": "While we would not expect every benefit"
+    },
+    {
+     "t0_ms": 928250,
+     "text": "to continue at this level,"
+    },
+    {
+     "t0_ms": 930330,
+     "text": "the quarter also reflects meaningful"
+    }
+   ]
+  },
+  {
+   "t0_ms": 932190,
+   "t1_ms": 973960,
+   "speaker": "Management",
+   "text": "structural improvements in the business, which is reflected in our second half guidance. Looking more closely at the drivers, first, we are realizing the benefits of our multi-year modernization journey. That work is driving greater efficiency and strong operating leverage, resulting in significant scale. Second, storage profitability was up, with a higher mix of Dell IT and rate expansion across the solutions. And third, we maintained strong operational price discipline in a dynamic environment, reflecting our team's strong execution and continued focus on supporting our customers. Turning to CSG,",
+   "parts": [
+    {
+     "t0_ms": 932190,
+     "text": "structural improvements in the business,"
+    },
+    {
+     "t0_ms": 934330,
+     "text": "which is reflected in our second half guidance."
+    },
+    {
+     "t0_ms": 936850,
+     "text": "Looking more closely at the drivers,"
+    },
+    {
+     "t0_ms": 941020,
+     "text": "first, we are realizing the benefits"
+    },
+    {
+     "t0_ms": 943180,
+     "text": "of our multi-year modernization journey."
+    },
+    {
+     "t0_ms": 946220,
+     "text": "That work is driving greater efficiency"
+    },
+    {
+     "t0_ms": 948300,
+     "text": "and strong operating leverage,"
+    },
+    {
+     "t0_ms": 950480,
+     "text": "resulting in significant scale."
+    },
+    {
+     "t0_ms": 953000,
+     "text": "Second, storage profitability was up,"
+    },
+    {
+     "t0_ms": 955620,
+     "text": "with a higher mix of Dell IT"
+    },
+    {
+     "t0_ms": 957100,
+     "text": "and rate expansion across the solutions."
+    },
+    {
+     "t0_ms": 960680,
+     "text": "And third, we maintained strong operational"
+    },
+    {
+     "t0_ms": 963240,
+     "text": "price discipline in a dynamic environment,"
+    },
+    {
+     "t0_ms": 966540,
+     "text": "reflecting our team's strong execution"
+    },
+    {
+     "t0_ms": 968540,
+     "text": "and continued focus on supporting our customers."
+    },
+    {
+     "t0_ms": 972480,
+     "text": "Turning to CSG,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 974840,
+   "t1_ms": 1019040,
+   "speaker": "Management",
+   "text": "CSG revenue was up 20% to $15 billion, commercial revenue grew for the eighth consecutive quarter up 22% to $13.2 billion, and consumer revenue increased 7% to $1.8 billion. CSG operating income was $1.1 billion, or 7.6% of revenue, driven by pricing discipline and the benefits of scale in the P&L. We will continue to balance customer demand with availability of supply to drive profitable and sustainable business. We will continue to balance customer demand with availability of supply to drive profitable and sustainable business. We will continue to balance customer demand with availability of supply to drive profitable and sustainable business. We will continue to balance customer demand with availability of supply to drive profitable and sustainable business. CSG remains an integral part of the business. It provides scale across our supply chain and manufacturing, completes our end-to-end portfolio",
+   "parts": [
+    {
+     "t0_ms": 974840,
+     "text": "CSG revenue was up 20% to $15 billion,"
+    },
+    {
+     "t0_ms": 978300,
+     "text": "commercial revenue grew for the eighth consecutive quarter"
+    },
+    {
+     "t0_ms": 982620,
+     "text": "up 22% to $13.2 billion,"
+    },
+    {
+     "t0_ms": 986660,
+     "text": "and consumer revenue increased 7% to $1.8 billion."
+    },
+    {
+     "t0_ms": 992480,
+     "text": "CSG operating income was $1.1 billion,"
+    },
+    {
+     "t0_ms": 996160,
+     "text": "or 7.6% of revenue,"
+    },
+    {
+     "t0_ms": 998820,
+     "text": "driven by pricing discipline"
+    },
+    {
+     "t0_ms": 1000160,
+     "text": "and the benefits of scale in the P&L."
+    },
+    {
+     "t0_ms": 1002880,
+     "text": "We will continue to balance customer demand"
+    },
+    {
+     "t0_ms": 1005480,
+     "text": "with availability of supply"
+    },
+    {
+     "t0_ms": 1007420,
+     "text": "to drive profitable and sustainable business."
+    },
+    {
+     "t0_ms": 1008280,
+     "text": "We will continue to balance customer demand"
+    },
+    {
+     "t0_ms": 1009280,
+     "text": "with availability of supply to drive profitable and sustainable business."
+    },
+    {
+     "t0_ms": 1009320,
+     "text": "We will continue to balance customer demand"
+    },
+    {
+     "t0_ms": 1009340,
+     "text": "with availability of supply to drive profitable and sustainable business."
+    },
+    {
+     "t0_ms": 1009400,
+     "text": "We will continue to balance customer demand"
+    },
+    {
+     "t0_ms": 1009780,
+     "text": "with availability of supply to drive profitable and sustainable business."
+    },
+    {
+     "t0_ms": 1009840,
+     "text": "CSG remains an integral part of the business."
+    },
+    {
+     "t0_ms": 1013620,
+     "text": "It provides scale across our supply chain and manufacturing,"
+    },
+    {
+     "t0_ms": 1017340,
+     "text": "completes our end-to-end portfolio"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1019040,
+   "t1_ms": 1063940,
+   "speaker": "Management",
+   "text": "with the essential productivity device, and is our most happily efficient business. Together, these strengths make CSG a significant source of cash generation and helps fund growth across Dell and capital returns to our shareholders. Moving to cash and the balance sheet, we delivered another strong, cash quarter, with cash flow from operations of $2.2 billion and a juxtapre cash flow of $8.1 billion. This was primarily driven by sequential revenue growth and higher profitability. We returned an all-time record $4.3 billion to shareholders this quarter, including repurchasing 9.5 million shares at an average price of $401 per share",
+   "parts": [
+    {
+     "t0_ms": 1019040,
+     "text": "with the essential productivity device,"
+    },
+    {
+     "t0_ms": 1021680,
+     "text": "and is our most happily efficient business."
+    },
+    {
+     "t0_ms": 1024619,
+     "text": "Together, these strengths make CSG"
+    },
+    {
+     "t0_ms": 1026560,
+     "text": "a significant source of cash generation"
+    },
+    {
+     "t0_ms": 1029020,
+     "text": "and helps fund growth across Dell"
+    },
+    {
+     "t0_ms": 1031300,
+     "text": "and capital returns to our shareholders."
+    },
+    {
+     "t0_ms": 1034240,
+     "text": "Moving to cash and the balance sheet,"
+    },
+    {
+     "t0_ms": 1036220,
+     "text": "we delivered another strong,"
+    },
+    {
+     "t0_ms": 1038280,
+     "text": "cash quarter,"
+    },
+    {
+     "t0_ms": 1039420,
+     "text": "with cash flow from operations of $2.2 billion"
+    },
+    {
+     "t0_ms": 1042000,
+     "text": "and a juxtapre cash flow of $8.1 billion."
+    },
+    {
+     "t0_ms": 1046420,
+     "text": "This was primarily driven by sequential revenue growth"
+    },
+    {
+     "t0_ms": 1049120,
+     "text": "and higher profitability."
+    },
+    {
+     "t0_ms": 1051560,
+     "text": "We returned an all-time record"
+    },
+    {
+     "t0_ms": 1053320,
+     "text": "$4.3 billion to shareholders this quarter,"
+    },
+    {
+     "t0_ms": 1057180,
+     "text": "including repurchasing 9.5 million shares"
+    },
+    {
+     "t0_ms": 1059940,
+     "text": "at an average price of $401 per share"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1063940,
+   "t1_ms": 1108500,
+   "speaker": "Management",
+   "text": "and paying a dividend of approximately $0.63 per share. This acceleration in shareholder return of $2.2 billion quarter-on-quarter reflects our agility and commitment to capital deployment as we generate more significant adjusts to pre-cash flow as well as our confidence in our long-term value creation. We ended the quarter with $14.2 billion in cash and investments, of $0.2 billion sequentially, and our core leverage ratio is at 0.8x. Overall, our strong cash generation and healthy balance sheet, further validated by positive credit rating actions during the quarter, provide significant flexibility to invest in the business",
+   "parts": [
+    {
+     "t0_ms": 1063940,
+     "text": "and paying a dividend of approximately"
+    },
+    {
+     "t0_ms": 1066620,
+     "text": "$0.63 per share."
+    },
+    {
+     "t0_ms": 1068280,
+     "text": "This acceleration in shareholder return"
+    },
+    {
+     "t0_ms": 1071660,
+     "text": "of $2.2 billion quarter-on-quarter"
+    },
+    {
+     "t0_ms": 1074740,
+     "text": "reflects our agility and commitment to capital deployment"
+    },
+    {
+     "t0_ms": 1078040,
+     "text": "as we generate more significant adjusts to pre-cash flow"
+    },
+    {
+     "t0_ms": 1081400,
+     "text": "as well as our confidence in our long-term value creation."
+    },
+    {
+     "t0_ms": 1085880,
+     "text": "We ended the quarter with $14.2 billion"
+    },
+    {
+     "t0_ms": 1088140,
+     "text": "in cash and investments,"
+    },
+    {
+     "t0_ms": 1090200,
+     "text": "of $0.2 billion sequentially,"
+    },
+    {
+     "t0_ms": 1092840,
+     "text": "and our core leverage ratio is at 0.8x."
+    },
+    {
+     "t0_ms": 1096420,
+     "text": "Overall, our strong cash generation"
+    },
+    {
+     "t0_ms": 1098280,
+     "text": "and healthy balance sheet,"
+    },
+    {
+     "t0_ms": 1100860,
+     "text": "further validated by positive credit rating actions"
+    },
+    {
+     "t0_ms": 1103460,
+     "text": "during the quarter,"
+    },
+    {
+     "t0_ms": 1104980,
+     "text": "provide significant flexibility to invest in the business"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1108500,
+   "t1_ms": 1152560,
+   "speaker": "Management",
+   "text": "and continue returning capital to shareholders. Turning to guidance, we've had a strong first half of the year and we expect the second half to be stronger. The momentum we've seen continues and we are raising our expectations across every line of business. Our second half gross margin rate outlook has improved over the past 90 days and we continue to drive significant operating leverage and scale. For Q3, we expect revenue to be $49 billion at the midpoint, up roughly 80% year-on-year. We expect ISG to grow roughly 145%, supported by $19 billion in AI server revenue.",
+   "parts": [
+    {
+     "t0_ms": 1108500,
+     "text": "and continue returning capital to shareholders."
+    },
+    {
+     "t0_ms": 1112520,
+     "text": "Turning to guidance,"
+    },
+    {
+     "t0_ms": 1114520,
+     "text": "we've had a strong first half of the year"
+    },
+    {
+     "t0_ms": 1117080,
+     "text": "and we expect the second half to be stronger."
+    },
+    {
+     "t0_ms": 1119940,
+     "text": "The momentum we've seen continues"
+    },
+    {
+     "t0_ms": 1122020,
+     "text": "and we are raising our expectations"
+    },
+    {
+     "t0_ms": 1123980,
+     "text": "across every line of business."
+    },
+    {
+     "t0_ms": 1126420,
+     "text": "Our second half gross margin"
+    },
+    {
+     "t0_ms": 1128280,
+     "text": "rate outlook has improved over the past 90 days"
+    },
+    {
+     "t0_ms": 1131740,
+     "text": "and we continue to drive significant operating leverage"
+    },
+    {
+     "t0_ms": 1134920,
+     "text": "and scale."
+    },
+    {
+     "t0_ms": 1136600,
+     "text": "For Q3, we expect revenue to be $49 billion"
+    },
+    {
+     "t0_ms": 1140080,
+     "text": "at the midpoint,"
+    },
+    {
+     "t0_ms": 1142060,
+     "text": "up roughly 80% year-on-year."
+    },
+    {
+     "t0_ms": 1145100,
+     "text": "We expect ISG to grow roughly 145%,"
+    },
+    {
+     "t0_ms": 1148760,
+     "text": "supported by $19 billion in AI server revenue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1153740,
+   "t1_ms": 1198660,
+   "speaker": "Management",
+   "text": "CSG revenue is expected to be up roughly 15%. Operating expenses are expected to be down low single digits sequentially. Operating income is expected to grow roughly 120%. We expect ISG operating income rate to be up just over a point year-over-year, even as AI server revenue more than triples year-over-year. We expect CSG operating income rate to moderate to roughly 6% as we balance demand, share, and profitability. We anticipate a diluted share count of approximately 651 million shares. Diluted non-GAAP earnings per share",
+   "parts": [
+    {
+     "t0_ms": 1153740,
+     "text": "CSG revenue is expected to be up roughly 15%."
+    },
+    {
+     "t0_ms": 1158280,
+     "text": "Operating expenses are expected to be down"
+    },
+    {
+     "t0_ms": 1161500,
+     "text": "low single digits sequentially."
+    },
+    {
+     "t0_ms": 1164320,
+     "text": "Operating income is expected to grow roughly 120%."
+    },
+    {
+     "t0_ms": 1168260,
+     "text": "We expect ISG operating income rate"
+    },
+    {
+     "t0_ms": 1172540,
+     "text": "to be up just over a point year-over-year,"
+    },
+    {
+     "t0_ms": 1175920,
+     "text": "even as AI server revenue more than triples year-over-year."
+    },
+    {
+     "t0_ms": 1180500,
+     "text": "We expect CSG operating income rate"
+    },
+    {
+     "t0_ms": 1183400,
+     "text": "to moderate to roughly 6%"
+    },
+    {
+     "t0_ms": 1186400,
+     "text": "as we balance demand,"
+    },
+    {
+     "t0_ms": 1187660,
+     "text": "share, and profitability."
+    },
+    {
+     "t0_ms": 1190220,
+     "text": "We anticipate a diluted share count"
+    },
+    {
+     "t0_ms": 1192420,
+     "text": "of approximately 651 million shares."
+    },
+    {
+     "t0_ms": 1196480,
+     "text": "Diluted non-GAAP earnings per share"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1198660,
+   "t1_ms": 1243060,
+   "speaker": "Management",
+   "text": "is expected to be $6.50, up over 150% at the midpoint. For the full year, we are raising our revenue guide by $25 billion to $192 billion at the midpoint, up roughly 70%, with diluted non-GAAP EPS of $25.50. We expect ISG to grow roughly 120%, driven by AI server revenue up 3x year-over-year to $74 billion. We expect traditional servers to grow just over 100%, storage up in the mid-teens, and CSG revenue to grow in the mid-teens. Excluding the mixed impact of AI servers,",
+   "parts": [
+    {
+     "t0_ms": 1198660,
+     "text": "is expected to be $6.50,"
+    },
+    {
+     "t0_ms": 1201440,
+     "text": "up over 150% at the midpoint."
+    },
+    {
+     "t0_ms": 1205460,
+     "text": "For the full year,"
+    },
+    {
+     "t0_ms": 1206340,
+     "text": "we are raising our revenue guide"
+    },
+    {
+     "t0_ms": 1207800,
+     "text": "by $25 billion to $192 billion"
+    },
+    {
+     "t0_ms": 1210720,
+     "text": "at the midpoint,"
+    },
+    {
+     "t0_ms": 1212000,
+     "text": "up roughly 70%,"
+    },
+    {
+     "t0_ms": 1213520,
+     "text": "with diluted non-GAAP EPS of $25.50."
+    },
+    {
+     "t0_ms": 1217660,
+     "text": "We expect ISG to grow roughly 120%,"
+    },
+    {
+     "t0_ms": 1224800,
+     "text": "driven by AI server revenue"
+    },
+    {
+     "t0_ms": 1226960,
+     "text": "up 3x year-over-year to $74 billion."
+    },
+    {
+     "t0_ms": 1230760,
+     "text": "We expect traditional servers"
+    },
+    {
+     "t0_ms": 1232720,
+     "text": "to grow just over 100%,"
+    },
+    {
+     "t0_ms": 1235620,
+     "text": "storage up in the mid-teens,"
+    },
+    {
+     "t0_ms": 1237400,
+     "text": "and CSG revenue to grow in the mid-teens."
+    },
+    {
+     "t0_ms": 1240780,
+     "text": "Excluding the mixed impact of AI servers,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1243540,
+   "t1_ms": 1288160,
+   "speaker": "Management",
+   "text": "gross margin rates are up year-over-year. We expect ISG to grow roughly 50%. We expect ISG to grow roughly 50%. We expect ISG to grow roughly 50%. Our modernization efforts are paying off, simplifying, standardizing, automating, and enhancing our operating model with AI, delivering significant operating leverage, with operating expenses to be approximately 8% of revenue, the lowest level in the company's 42-year history. With gross margin improvement and the benefits of significant scale, operating income is expected to grow approximately 120%, with over two points of rate improvement year-over-year. with over two points of rate improvement year-over-year. I&O is expected to be between $1.4 and $1.5 billion. I&O is expected to be between $1.4 and $1.5 billion. Diluted non-gap earnings per share is expected to be $25.50,",
+   "parts": [
+    {
+     "t0_ms": 1243540,
+     "text": "gross margin rates are up year-over-year."
+    },
+    {
+     "t0_ms": 1246060,
+     "text": "We expect ISG to grow roughly 50%."
+    },
+    {
+     "t0_ms": 1246500,
+     "text": "We expect ISG to grow roughly 50%."
+    },
+    {
+     "t0_ms": 1246780,
+     "text": "We expect ISG to grow roughly 50%."
+    },
+    {
+     "t0_ms": 1247000,
+     "text": "Our modernization efforts are paying off,"
+    },
+    {
+     "t0_ms": 1250060,
+     "text": "simplifying, standardizing, automating,"
+    },
+    {
+     "t0_ms": 1252600,
+     "text": "and enhancing our operating model with AI,"
+    },
+    {
+     "t0_ms": 1255360,
+     "text": "delivering significant operating leverage,"
+    },
+    {
+     "t0_ms": 1257860,
+     "text": "with operating expenses to be approximately 8% of revenue,"
+    },
+    {
+     "t0_ms": 1261580,
+     "text": "the lowest level in the company's 42-year history."
+    },
+    {
+     "t0_ms": 1265280,
+     "text": "With gross margin improvement"
+    },
+    {
+     "t0_ms": 1267120,
+     "text": "and the benefits of significant scale,"
+    },
+    {
+     "t0_ms": 1269880,
+     "text": "operating income is expected to grow approximately 120%,"
+    },
+    {
+     "t0_ms": 1273520,
+     "text": "with over two points of rate improvement year-over-year."
+    },
+    {
+     "t0_ms": 1277000,
+     "text": "with over two points of rate improvement year-over-year."
+    },
+    {
+     "t0_ms": 1278000,
+     "text": "I&O is expected to be between $1.4 and $1.5 billion."
+    },
+    {
+     "t0_ms": 1282500,
+     "text": "I&O is expected to be between $1.4 and $1.5 billion."
+    },
+    {
+     "t0_ms": 1282880,
+     "text": "Diluted non-gap earnings per share is expected to be $25.50,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1288680,
+   "t1_ms": 1332760,
+   "speaker": "Management",
+   "text": "up approximately 150% at the midpoint. In closing, we've delivered another exceptional quarter, capping a record first half of the year. Over the past two quarters, revenue was $90.8 billion, up 71%. EPS grew $280,000, up 78% to $11.90. We generated record cash flow from operations of $6.3 billion and returned an all-time record $6.3 billion to shareholders. The team executed exceptionally well across the business. The second quarter provided further evidence that AI momentum is accelerating, with $60.9 billion in orders, $16.4 billion in revenue,",
+   "parts": [
+    {
+     "t0_ms": 1288680,
+     "text": "up approximately 150% at the midpoint."
+    },
+    {
+     "t0_ms": 1293020,
+     "text": "In closing, we've delivered another exceptional quarter,"
+    },
+    {
+     "t0_ms": 1296720,
+     "text": "capping a record first half of the year."
+    },
+    {
+     "t0_ms": 1300020,
+     "text": "Over the past two quarters,"
+    },
+    {
+     "t0_ms": 1301280,
+     "text": "revenue was $90.8 billion, up 71%."
+    },
+    {
+     "t0_ms": 1304900,
+     "text": "EPS grew $280,000,"
+    },
+    {
+     "t0_ms": 1307000,
+     "text": "up 78% to $11.90."
+    },
+    {
+     "t0_ms": 1309900,
+     "text": "We generated record cash flow from operations of $6.3 billion"
+    },
+    {
+     "t0_ms": 1314200,
+     "text": "and returned an all-time record $6.3 billion to shareholders."
+    },
+    {
+     "t0_ms": 1318960,
+     "text": "The team executed exceptionally well across the business."
+    },
+    {
+     "t0_ms": 1323420,
+     "text": "The second quarter provided further evidence"
+    },
+    {
+     "t0_ms": 1325620,
+     "text": "that AI momentum is accelerating,"
+    },
+    {
+     "t0_ms": 1328180,
+     "text": "with $60.9 billion in orders,"
+    },
+    {
+     "t0_ms": 1330880,
+     "text": "$16.4 billion in revenue,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1333260,
+   "t1_ms": 1376820,
+   "speaker": "Management",
+   "text": "and a backlog approaching $100 billion. At the same time, traditional servers, storage, and CSG all contributed, reinforcing the breadth and balance of our portfolio. Beyond the numbers, I would highlight the operating discipline. The modernization work we've invested in over several years is showing up in scale, in margin structure, and in our ability to execute in a dynamic supply environment. We're entering the second half from a position of strength and will continue to balance growth with discipline to drive long-term share, and to build on that long-term shareholder value. You are seeing the compounding benefits of our durable competitive advantages, differentiated operating model, and operational discipline.",
+   "parts": [
+    {
+     "t0_ms": 1333260,
+     "text": "and a backlog approaching $100 billion."
+    },
+    {
+     "t0_ms": 1335280,
+     "text": "At the same time,"
+    },
+    {
+     "t0_ms": 1337000,
+     "text": "traditional servers, storage, and CSG all contributed,"
+    },
+    {
+     "t0_ms": 1341340,
+     "text": "reinforcing the breadth and balance of our portfolio."
+    },
+    {
+     "t0_ms": 1345180,
+     "text": "Beyond the numbers, I would highlight the operating discipline."
+    },
+    {
+     "t0_ms": 1349000,
+     "text": "The modernization work we've invested in over several years"
+    },
+    {
+     "t0_ms": 1352620,
+     "text": "is showing up in scale, in margin structure,"
+    },
+    {
+     "t0_ms": 1356080,
+     "text": "and in our ability to execute in a dynamic supply environment."
+    },
+    {
+     "t0_ms": 1360260,
+     "text": "We're entering the second half from a position of strength"
+    },
+    {
+     "t0_ms": 1363200,
+     "text": "and will continue to balance growth with discipline"
+    },
+    {
+     "t0_ms": 1365760,
+     "text": "to drive long-term share,"
+    },
+    {
+     "t0_ms": 1366900,
+     "text": "and to build on that long-term shareholder value."
+    },
+    {
+     "t0_ms": 1368900,
+     "text": "You are seeing the compounding benefits"
+    },
+    {
+     "t0_ms": 1370520,
+     "text": "of our durable competitive advantages,"
+    },
+    {
+     "t0_ms": 1372940,
+     "text": "differentiated operating model,"
+    },
+    {
+     "t0_ms": 1374740,
+     "text": "and operational discipline."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1376820,
+   "t1_ms": 1398900,
+   "speaker": "Management",
+   "text": "We're excited about the second half and confident in our long-term value creation. Thank you to the team for their execution, and thank you all for your time today. Now I'll turn it back to Paul to begin Q&A. Thanks, David, and let's get to Q&A. In order to ensure we get to as many of you as possible, please ask one concise question. Let's go with the first question.",
+   "parts": [
+    {
+     "t0_ms": 1376820,
+     "text": "We're excited about the second half"
+    },
+    {
+     "t0_ms": 1378480,
+     "text": "and confident in our long-term value creation."
+    },
+    {
+     "t0_ms": 1381480,
+     "text": "Thank you to the team for their execution,"
+    },
+    {
+     "t0_ms": 1383820,
+     "text": "and thank you all for your time today."
+    },
+    {
+     "t0_ms": 1386060,
+     "text": "Now I'll turn it back to Paul to begin Q&A."
+    },
+    {
+     "t0_ms": 1389880,
+     "text": "Thanks, David, and let's get to Q&A."
+    },
+    {
+     "t0_ms": 1392080,
+     "text": "In order to ensure we get to as many of you as possible,"
+    },
+    {
+     "t0_ms": 1394880,
+     "text": "please ask one concise question."
+    },
+    {
+     "t0_ms": 1396900,
+     "text": "Let's go with the first question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1398900,
+   "t1_ms": 1405330,
+   "speaker": "Operator",
+   "text": "Our first question will come from Amit Daryani with Evercore.",
+   "parts": [
+    {
+     "t0_ms": 1398900,
+     "text": "Our first question will come from Amit Daryani with Evercore."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1405330,
+   "t1_ms": 1449700,
+   "speaker": "Analyst",
+   "text": "Thanks, Rob. Good afternoon, everyone, and congrats on a really nice sprint here. I want to spend some time on the non-AI part of ISG. If I look at it, traditional server growth of 122% was actually faster than AI compute, and storage grew 26% as well. I think a worry folks will have is, is this driven by a combination of pricing and pre-buys rather than real demand? So I don't know if you can spend some time just talking about, you know, what do you think is driving this demand, and if there's a way to think about pricing versus demand versus share gains, and really any cut on what workloads or use cases are you seeing this infrastructure going into, and the durability effect would be helpful. Thank you. Sure, Amit.",
+   "parts": [
+    {
+     "t0_ms": 1405330,
+     "text": "Thanks, Rob."
+    },
+    {
+     "t0_ms": 1409700,
+     "text": "Good afternoon, everyone, and congrats on a really nice sprint here."
+    },
+    {
+     "t0_ms": 1412700,
+     "text": "I want to spend some time on the non-AI part of ISG."
+    },
+    {
+     "t0_ms": 1417700,
+     "text": "If I look at it, traditional server growth of 122%"
+    },
+    {
+     "t0_ms": 1420700,
+     "text": "was actually faster than AI compute,"
+    },
+    {
+     "t0_ms": 1422700,
+     "text": "and storage grew 26% as well."
+    },
+    {
+     "t0_ms": 1425700,
+     "text": "I think a worry folks will have is,"
+    },
+    {
+     "t0_ms": 1427700,
+     "text": "is this driven by a combination of pricing and pre-buys"
+    },
+    {
+     "t0_ms": 1429700,
+     "text": "rather than real demand?"
+    },
+    {
+     "t0_ms": 1431700,
+     "text": "So I don't know if you can spend some time just talking about,"
+    },
+    {
+     "t0_ms": 1433700,
+     "text": "you know, what do you think is driving this demand,"
+    },
+    {
+     "t0_ms": 1435700,
+     "text": "and if there's a way to think about pricing versus demand"
+    },
+    {
+     "t0_ms": 1438700,
+     "text": "versus share gains, and really any cut on what workloads"
+    },
+    {
+     "t0_ms": 1441700,
+     "text": "or use cases are you seeing this infrastructure going into,"
+    },
+    {
+     "t0_ms": 1444700,
+     "text": "and the durability effect would be helpful."
+    },
+    {
+     "t0_ms": 1446700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1448700,
+     "text": "Sure, Amit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1449700,
+   "t1_ms": 1493700,
+   "speaker": "Management",
+   "text": "Let me try a little bit. So if you look at traditional servers and what we're seeing, which is the vast majority of the growth that we saw in the quarter, it's a consistent pattern. It's a consistent theme that I think we talked about last quarter. One, there's a modernization in the data center. That modernization continues to drive consolidation. It is increasing space, driving power efficiency, cooling, and it's obviously driving demand, and demand for new servers that have more cores, new servers that have more DRAM, and new servers that have more storage in them as we consolidate an aged install base. Secondly, that's probably the next big opportunity for us.",
+   "parts": [
+    {
+     "t0_ms": 1449700,
+     "text": "Let me try a little bit."
+    },
+    {
+     "t0_ms": 1451700,
+     "text": "So if you look at traditional servers and what we're seeing,"
+    },
+    {
+     "t0_ms": 1454700,
+     "text": "which is the vast majority of the growth that we saw in the quarter,"
+    },
+    {
+     "t0_ms": 1459700,
+     "text": "it's a consistent pattern."
+    },
+    {
+     "t0_ms": 1461700,
+     "text": "It's a consistent theme that I think we talked about last quarter."
+    },
+    {
+     "t0_ms": 1464700,
+     "text": "One, there's a modernization in the data center."
+    },
+    {
+     "t0_ms": 1468700,
+     "text": "That modernization continues to drive consolidation."
+    },
+    {
+     "t0_ms": 1472700,
+     "text": "It is increasing space, driving power efficiency, cooling,"
+    },
+    {
+     "t0_ms": 1477700,
+     "text": "and it's obviously driving demand,"
+    },
+    {
+     "t0_ms": 1479700,
+     "text": "and demand for new servers that have more cores,"
+    },
+    {
+     "t0_ms": 1482700,
+     "text": "new servers that have more DRAM,"
+    },
+    {
+     "t0_ms": 1484700,
+     "text": "and new servers that have more storage in them"
+    },
+    {
+     "t0_ms": 1486700,
+     "text": "as we consolidate an aged install base."
+    },
+    {
+     "t0_ms": 1489700,
+     "text": "Secondly, that's probably the next big opportunity"
+    },
+    {
+     "t0_ms": 1491700,
+     "text": "for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1493700,
+   "t1_ms": 1536700,
+   "speaker": "Management",
+   "text": "As much as we've modernized, and to give you a sense that it's not an end near or it's a one-time thing, we still have 1.2 million assets that are 14G or older in the install base. They have to be upgraded. They're going to have to be consolidated with new technology, whether it's our 17G and the consolidation ratios are 6 to 8 to 1, or our new 18G. Right. So, we have a new technology that will begin shipping next month where we see consolidation rates in the 12 to 14 servers for our new 18G server. That is going to happen, and a forcing function is going to be the security environment that we live in today.",
+   "parts": [
+    {
+     "t0_ms": 1493700,
+     "text": "As much as we've modernized, and to give you a sense that it's not"
+    },
+    {
+     "t0_ms": 1496700,
+     "text": "an end near or it's a one-time thing,"
+    },
+    {
+     "t0_ms": 1499700,
+     "text": "we still have 1.2 million assets that are 14G or older in the install base."
+    },
+    {
+     "t0_ms": 1507700,
+     "text": "They have to be upgraded."
+    },
+    {
+     "t0_ms": 1510700,
+     "text": "They're going to have to be consolidated with new technology,"
+    },
+    {
+     "t0_ms": 1514700,
+     "text": "whether it's our 17G and the consolidation ratios are 6 to 8 to 1,"
+    },
+    {
+     "t0_ms": 1519700,
+     "text": "or our new 18G."
+    },
+    {
+     "t0_ms": 1520700,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 1521700,
+     "text": "So, we have a new technology that will begin shipping next month"
+    },
+    {
+     "t0_ms": 1523700,
+     "text": "where we see consolidation rates in the 12 to 14 servers"
+    },
+    {
+     "t0_ms": 1526700,
+     "text": "for our new 18G server."
+    },
+    {
+     "t0_ms": 1529700,
+     "text": "That is going to happen,"
+    },
+    {
+     "t0_ms": 1531700,
+     "text": "and a forcing function is going to be the security environment"
+    },
+    {
+     "t0_ms": 1534700,
+     "text": "that we live in today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1536700,
+   "t1_ms": 1580200,
+   "speaker": "Management",
+   "text": "So, we think about what's happening in the world of security and driving increased resilience and new requirements like post-quantum cryptography coming online. Old infrastructure has to be updated. And then, increasingly, we're seeing enterprises drive AI workloads, specifically, I know your question was specifically the non-ones, but it's complemented by growth there. In storage, we see a very similar dynamic. We have the dynamic of our products are very, very competitive in the marketplace. Data continues to grow. So, regardless of the inflationary environment that exists, more data is being created on the planet and on the market. And that's going to be a very,",
+   "parts": [
+    {
+     "t0_ms": 1536700,
+     "text": "So, we think about what's happening in the world of security"
+    },
+    {
+     "t0_ms": 1539700,
+     "text": "and driving increased resilience and new requirements"
+    },
+    {
+     "t0_ms": 1542700,
+     "text": "like post-quantum cryptography coming online."
+    },
+    {
+     "t0_ms": 1546700,
+     "text": "Old infrastructure has to be updated."
+    },
+    {
+     "t0_ms": 1549700,
+     "text": "And then, increasingly,"
+    },
+    {
+     "t0_ms": 1550700,
+     "text": "we're seeing enterprises drive AI workloads,"
+    },
+    {
+     "t0_ms": 1553700,
+     "text": "specifically,"
+    },
+    {
+     "t0_ms": 1554700,
+     "text": "I know your question was specifically the non-ones,"
+    },
+    {
+     "t0_ms": 1557700,
+     "text": "but it's complemented by growth there."
+    },
+    {
+     "t0_ms": 1559700,
+     "text": "In storage, we see a very similar dynamic."
+    },
+    {
+     "t0_ms": 1562700,
+     "text": "We have the dynamic of our products are very,"
+    },
+    {
+     "t0_ms": 1565700,
+     "text": "very competitive in the marketplace."
+    },
+    {
+     "t0_ms": 1570200,
+     "text": "Data continues to grow."
+    },
+    {
+     "t0_ms": 1572200,
+     "text": "So, regardless of the inflationary environment that exists,"
+    },
+    {
+     "t0_ms": 1575200,
+     "text": "more data is being created on the planet and on the market."
+    },
+    {
+     "t0_ms": 1579200,
+     "text": "And that's going to be a very,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1580200,
+   "t1_ms": 1624200,
+   "speaker": "Management",
+   "text": "very important part of our future. And that data is being created on the planet at the edge and data centers in the cloud. And that data has to be stored. It has to be encrypted and protected. And those are the opportunities that we see, which is why we believe our Dell IP portfolio has a pretty significant tailwind. Think about it. I think if we blend Q1 and Q2 together, we grew storage 17% in the first half of the year. And we see IP storage growing ahead of the market for six consecutive quarters on a demand basis. We could run off a bunch of fund numbers. Power storage has now grown 10 consecutive quarters in a row. We have power scale five quarters in a row. Object scale four quarters in a row.",
+   "parts": [
+    {
+     "t0_ms": 1580200,
+     "text": "very important part of our future."
+    },
+    {
+     "t0_ms": 1583200,
+     "text": "And that data is being created on the planet at the edge"
+    },
+    {
+     "t0_ms": 1586200,
+     "text": "and data centers in the cloud."
+    },
+    {
+     "t0_ms": 1588200,
+     "text": "And that data has to be stored."
+    },
+    {
+     "t0_ms": 1590200,
+     "text": "It has to be encrypted and protected."
+    },
+    {
+     "t0_ms": 1592200,
+     "text": "And those are the opportunities that we see,"
+    },
+    {
+     "t0_ms": 1594200,
+     "text": "which is why we believe our Dell IP portfolio"
+    },
+    {
+     "t0_ms": 1598200,
+     "text": "has a pretty significant tailwind."
+    },
+    {
+     "t0_ms": 1601200,
+     "text": "Think about it."
+    },
+    {
+     "t0_ms": 1602200,
+     "text": "I think if we blend Q1 and Q2 together,"
+    },
+    {
+     "t0_ms": 1604200,
+     "text": "we grew storage 17% in the first half of the year."
+    },
+    {
+     "t0_ms": 1608200,
+     "text": "And we see IP storage growing ahead of the market"
+    },
+    {
+     "t0_ms": 1610200,
+     "text": "for six consecutive quarters on a demand basis."
+    },
+    {
+     "t0_ms": 1613200,
+     "text": "We could run off a bunch of fund numbers."
+    },
+    {
+     "t0_ms": 1615200,
+     "text": "Power storage has now grown 10 consecutive quarters in a row."
+    },
+    {
+     "t0_ms": 1619200,
+     "text": "We have power scale five quarters in a row."
+    },
+    {
+     "t0_ms": 1622200,
+     "text": "Object scale four quarters in a row."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1624200,
+   "t1_ms": 1668200,
+   "speaker": "Management",
+   "text": "Data domain three quarters in a row. Our old flasher rate has grown now 10 quarters in a row. So, there is inherent demand. Our products are more competitive. And we're seeing that play out in the marketplace from the largest enterprise companies. We're seeing that play out in the marketplace from the largest enterprise companies. And then there, there's also the opportunity to grow with AI, which is driven by agents and KB cash and new techniques in the AI world. I hope that helps. And maybe to add, Jeff, I think it's part of the durability of that growth and demand. Again, we see as part of our guide, our second half growth rates maintaining what you've seen in the first half. So, Jeff mentioned the 70% growth in storage. Pretty similar mid-teens for the second half.",
+   "parts": [
+    {
+     "t0_ms": 1624200,
+     "text": "Data domain three quarters in a row."
+    },
+    {
+     "t0_ms": 1626200,
+     "text": "Our old flasher rate has grown now 10 quarters in a row."
+    },
+    {
+     "t0_ms": 1629200,
+     "text": "So, there is inherent demand."
+    },
+    {
+     "t0_ms": 1631200,
+     "text": "Our products are more competitive."
+    },
+    {
+     "t0_ms": 1633200,
+     "text": "And we're seeing that play out in the marketplace"
+    },
+    {
+     "t0_ms": 1636200,
+     "text": "from the largest enterprise companies."
+    },
+    {
+     "t0_ms": 1638200,
+     "text": "We're seeing that play out in the marketplace"
+    },
+    {
+     "t0_ms": 1640200,
+     "text": "from the largest enterprise companies."
+    },
+    {
+     "t0_ms": 1642200,
+     "text": "And then there, there's also the opportunity to grow with AI,"
+    },
+    {
+     "t0_ms": 1645200,
+     "text": "which is driven by agents and KB cash"
+    },
+    {
+     "t0_ms": 1648200,
+     "text": "and new techniques in the AI world."
+    },
+    {
+     "t0_ms": 1650200,
+     "text": "I hope that helps."
+    },
+    {
+     "t0_ms": 1652200,
+     "text": "And maybe to add, Jeff,"
+    },
+    {
+     "t0_ms": 1653200,
+     "text": "I think it's part of the durability of that growth and demand."
+    },
+    {
+     "t0_ms": 1657200,
+     "text": "Again, we see as part of our guide,"
+    },
+    {
+     "t0_ms": 1659200,
+     "text": "our second half growth rates maintaining what you've seen in the first half."
+    },
+    {
+     "t0_ms": 1663200,
+     "text": "So, Jeff mentioned the 70% growth in storage."
+    },
+    {
+     "t0_ms": 1666200,
+     "text": "Pretty similar mid-teens for the second half."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1668200,
+   "t1_ms": 1686200,
+   "speaker": "Management",
+   "text": "We'll continue to guide to traditional server, growing triple digits, again, for the second half as we drive that through. So, we continue to see pipelines build. We continue to see the use cases that Jeff mentioned. And it all points to a more broad-based, more durable ecosystem.",
+   "parts": [
+    {
+     "t0_ms": 1668200,
+     "text": "We'll continue to guide to traditional server,"
+    },
+    {
+     "t0_ms": 1671200,
+     "text": "growing triple digits, again,"
+    },
+    {
+     "t0_ms": 1673200,
+     "text": "for the second half as we drive that through."
+    },
+    {
+     "t0_ms": 1675200,
+     "text": "So, we continue to see pipelines build."
+    },
+    {
+     "t0_ms": 1678200,
+     "text": "We continue to see the use cases that Jeff mentioned."
+    },
+    {
+     "t0_ms": 1681200,
+     "text": "And it all points to a more broad-based,"
+    },
+    {
+     "t0_ms": 1684200,
+     "text": "more durable ecosystem."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1686200,
+   "t1_ms": 1696850,
+   "speaker": "Operator",
+   "text": "Thanks, Alex. And the next question will come from Ben Reitzes with Mellius Research.",
+   "parts": [
+    {
+     "t0_ms": 1686200,
+     "text": "Thanks, Alex."
+    },
+    {
+     "t0_ms": 1689350,
+     "text": "And the next question will come from Ben Reitzes"
+    },
+    {
+     "t0_ms": 1693850,
+     "text": "with Mellius Research."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1696850,
+   "t1_ms": 1740850,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks, and I'll echo pretty much everything that Jeff said. Pretty impressive quarter and guide there. Wanted to ask about a little longer term. Your partner in AI servers talked about growing 70% next year in overall revenue. You guys are growing faster than that. Your backlog just surged. And you also have these CPU racks that are new, adding to traditional servers. Would you be willing to, you know, should you grow kind of in line with NVIDIA for next year? You know, you guys are really part of the ACIE segment they have.",
+   "parts": [
+    {
+     "t0_ms": 1696850,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 1698850,
+     "text": "Thanks, and I'll echo pretty much everything"
+    },
+    {
+     "t0_ms": 1700850,
+     "text": "that Jeff said."
+    },
+    {
+     "t0_ms": 1701850,
+     "text": "Pretty impressive quarter and guide there."
+    },
+    {
+     "t0_ms": 1704850,
+     "text": "Wanted to ask about a little longer term."
+    },
+    {
+     "t0_ms": 1708850,
+     "text": "Your partner in AI servers talked about growing 70% next year"
+    },
+    {
+     "t0_ms": 1714850,
+     "text": "in overall revenue."
+    },
+    {
+     "t0_ms": 1716850,
+     "text": "You guys are growing faster than that."
+    },
+    {
+     "t0_ms": 1718850,
+     "text": "Your backlog just surged."
+    },
+    {
+     "t0_ms": 1721850,
+     "text": "And you also have these CPU racks that are new,"
+    },
+    {
+     "t0_ms": 1727850,
+     "text": "adding to traditional servers."
+    },
+    {
+     "t0_ms": 1729850,
+     "text": "Would you be willing to, you know,"
+    },
+    {
+     "t0_ms": 1731850,
+     "text": "should you grow kind of in line with NVIDIA for next year?"
+    },
+    {
+     "t0_ms": 1736850,
+     "text": "You know, you guys are really part of the ACIE segment they have."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1740850,
+   "t1_ms": 1751850,
+   "speaker": "Analyst",
+   "text": "Do you see that kind of growth rate in your future? Or anything you want to kind of say about your long-term growth rate, given it's so much better than expected? Would be appreciated. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1740850,
+     "text": "Do you see that kind of growth rate in your future?"
+    },
+    {
+     "t0_ms": 1743850,
+     "text": "Or anything you want to kind of say about your long-term growth rate,"
+    },
+    {
+     "t0_ms": 1746850,
+     "text": "given it's so much better than expected?"
+    },
+    {
+     "t0_ms": 1748850,
+     "text": "Would be appreciated."
+    },
+    {
+     "t0_ms": 1749850,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1751850,
+   "t1_ms": 1794850,
+   "speaker": "Management",
+   "text": "Thanks, Ben. Look, I think if you anchor in on our second half trajectory, building on the last question, you can see, you know, we like the position in relation to the durability that we see in the demand. We see it across the portfolio, and that's giving us tremendous leverage. As we continue to grow, that scale that we get in the P&L, again, offers us the opportunity to continue to find scale and growth in the business. The second half growth, which is 68%, is pretty much a mirror image to the first half, 71%. And it's obvious we're seeing signs where the data, the data center is turning in from this hot center approach to a value creator.",
+   "parts": [
+    {
+     "t0_ms": 1751850,
+     "text": "Thanks, Ben."
+    },
+    {
+     "t0_ms": 1752850,
+     "text": "Look, I think if you anchor in on our second half trajectory,"
+    },
+    {
+     "t0_ms": 1755850,
+     "text": "building on the last question, you can see, you know,"
+    },
+    {
+     "t0_ms": 1759850,
+     "text": "we like the position in relation to the durability that we see in the demand."
+    },
+    {
+     "t0_ms": 1763850,
+     "text": "We see it across the portfolio,"
+    },
+    {
+     "t0_ms": 1765850,
+     "text": "and that's giving us tremendous leverage."
+    },
+    {
+     "t0_ms": 1768850,
+     "text": "As we continue to grow, that scale that we get in the P&L, again,"
+    },
+    {
+     "t0_ms": 1772850,
+     "text": "offers us the opportunity to continue to find scale and growth in the business."
+    },
+    {
+     "t0_ms": 1779850,
+     "text": "The second half growth, which is 68%,"
+    },
+    {
+     "t0_ms": 1782850,
+     "text": "is pretty much a mirror image to the first half, 71%."
+    },
+    {
+     "t0_ms": 1786850,
+     "text": "And it's obvious we're seeing signs where the data,"
+    },
+    {
+     "t0_ms": 1789850,
+     "text": "the data center is turning in from this hot center approach to a value creator."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1794850,
+   "t1_ms": 1839260,
+   "speaker": "Management",
+   "text": "And the ecosystem and the enterprise customers that we're seeing are starting to embrace that. You know, there's lots of complexity in execution. I think right now, really keen to execute a strong second half, continue that great momentum as we go through the second half of the year. I think we'll be in a great position at that point, and we'll continue to look for the growth going forward. And then maybe some more context around that. Our five-quarter pipeline grew sequentially. That's after booking $131.7 billion of orders over the past four quarters. I think that gives you a sense of what's happening today. And then if I look at the longer-term trends, I know you're a believer in this, but as we see it,",
+   "parts": [
+    {
+     "t0_ms": 1794850,
+     "text": "And the ecosystem and the enterprise customers that we're seeing are starting to embrace that."
+    },
+    {
+     "t0_ms": 1799850,
+     "text": "You know, there's lots of complexity in execution."
+    },
+    {
+     "t0_ms": 1802850,
+     "text": "I think right now, really keen to execute a strong second half,"
+    },
+    {
+     "t0_ms": 1807850,
+     "text": "continue that great momentum as we go through the second half of the year."
+    },
+    {
+     "t0_ms": 1811850,
+     "text": "I think we'll be in a great position at that point,"
+    },
+    {
+     "t0_ms": 1813850,
+     "text": "and we'll continue to look for the growth going forward."
+    },
+    {
+     "t0_ms": 1816850,
+     "text": "And then maybe some more context around that."
+    },
+    {
+     "t0_ms": 1819850,
+     "text": "Our five-quarter pipeline grew sequentially."
+    },
+    {
+     "t0_ms": 1822850,
+     "text": "That's after booking $131.7 billion of orders over the past four quarters."
+    },
+    {
+     "t0_ms": 1830260,
+     "text": "I think that gives you a sense of what's happening today."
+    },
+    {
+     "t0_ms": 1833260,
+     "text": "And then if I look at the longer-term trends,"
+    },
+    {
+     "t0_ms": 1836260,
+     "text": "I know you're a believer in this, but as we see it,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1839260,
+   "t1_ms": 1884260,
+   "speaker": "Management",
+   "text": "adjunct demand is reshaping the data center and the underlying infrastructure. Inference is past training and is pure demand in our industry. We think the tokens that inference drives is going to grow 87 times the 3,600-quadrillion tokens by 2030. Training demand grows 5x to 850 zettaphots by 2030. Enterprise adjunct is expected to be the single largest workload by 2028. We're expecting AI to be 75% of all data center demand by 2030. Adding 200 gigawatts of power over that same timeframe and half of that, we believe, is right in our sweet spot with our customers,",
+   "parts": [
+    {
+     "t0_ms": 1839260,
+     "text": "adjunct demand is reshaping the data center and the underlying infrastructure."
+    },
+    {
+     "t0_ms": 1845260,
+     "text": "Inference is past training and is pure demand in our industry."
+    },
+    {
+     "t0_ms": 1849260,
+     "text": "We think the tokens that inference drives is going to grow 87 times the 3,600-quadrillion tokens by 2030."
+    },
+    {
+     "t0_ms": 1857260,
+     "text": "Training demand grows 5x to 850 zettaphots by 2030."
+    },
+    {
+     "t0_ms": 1862260,
+     "text": "Enterprise adjunct is expected to be the single largest workload by 2028."
+    },
+    {
+     "t0_ms": 1869260,
+     "text": "We're expecting AI to be 75% of all data center demand by 2030."
+    },
+    {
+     "t0_ms": 1875260,
+     "text": "Adding 200 gigawatts of power over that same timeframe"
+    },
+    {
+     "t0_ms": 1878260,
+     "text": "and half of that, we believe, is right in our sweet spot with our customers,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1884260,
+   "t1_ms": 1926260,
+   "speaker": "Management",
+   "text": "the neocloud sovereigns and enterprises. And if you look at that math, we think the opportunity in front of us is more than a trillion dollars over that timeframe. And we believe we're well-positioned. We believe that our model is differentiated, that our engineering is differentiating ourselves with every customer that we interact with. The scale of our deployment capabilities is unmatched globally. We believe what we're doing on the support side is equally important, helping customers ramp getting to that first token faster than anyone else and then keeping it running. And then the DFS component that we have to help customers in that bridge point from an order to that first token",
+   "parts": [
+    {
+     "t0_ms": 1884260,
+     "text": "the neocloud sovereigns and enterprises."
+    },
+    {
+     "t0_ms": 1887260,
+     "text": "And if you look at that math, we think the opportunity in front of us"
+    },
+    {
+     "t0_ms": 1891260,
+     "text": "is more than a trillion dollars over that timeframe."
+    },
+    {
+     "t0_ms": 1894260,
+     "text": "And we believe we're well-positioned."
+    },
+    {
+     "t0_ms": 1896260,
+     "text": "We believe that our model is differentiated,"
+    },
+    {
+     "t0_ms": 1899260,
+     "text": "that our engineering is differentiating ourselves with every customer that we interact with."
+    },
+    {
+     "t0_ms": 1904260,
+     "text": "The scale of our deployment capabilities is unmatched globally."
+    },
+    {
+     "t0_ms": 1908260,
+     "text": "We believe what we're doing on the support side is equally important,"
+    },
+    {
+     "t0_ms": 1913260,
+     "text": "helping customers ramp getting to that first token faster than anyone else"
+    },
+    {
+     "t0_ms": 1918260,
+     "text": "and then keeping it running."
+    },
+    {
+     "t0_ms": 1920260,
+     "text": "And then the DFS component that we have to help customers in that bridge point from an order to that first token"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1926260,
+   "t1_ms": 1945260,
+   "speaker": "Management",
+   "text": "is something that we believe is differentiating us, and we're going to continue to focus on that. And then if you believe that demand is there, it drives more servers in the agentic workload, and it drives more data around the client. And that agentic workload growing each of those areas for us as well. Thanks, Ed.",
+   "parts": [
+    {
+     "t0_ms": 1926260,
+     "text": "is something that we believe is differentiating us, and we're going to continue to focus on that."
+    },
+    {
+     "t0_ms": 1930260,
+     "text": "And then if you believe that demand is there, it drives more servers in the agentic workload,"
+    },
+    {
+     "t0_ms": 1936260,
+     "text": "and it drives more data around the client."
+    },
+    {
+     "t0_ms": 1938260,
+     "text": "And that agentic workload growing each of those areas for us as well."
+    },
+    {
+     "t0_ms": 1943260,
+     "text": "Thanks, Ed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1945260,
+   "t1_ms": 1950890,
+   "speaker": "Operator",
+   "text": "And our next question will come from Mark Newman with Bernstein.",
+   "parts": [
+    {
+     "t0_ms": 1945260,
+     "text": "And our next question will come from Mark Newman with Bernstein."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1950890,
+   "t1_ms": 1995360,
+   "speaker": "Analyst",
+   "text": "Thanks very much. Congrats again on the fantastic numbers. A few more details on the huge strengths you're seeing in both traditional and AI servers. First of all, for traditional servers, this has been traditionally almost all, you know, the most popular service. And I think that's because of the fact that we're now in the age of enterprise customers. And I believe you're lumping in the CPU racks, the agentic AI servers that are CPU racks in there, I believe. Is this traditional server category still almost all enterprise,",
+   "parts": [
+    {
+     "t0_ms": 1950890,
+     "text": "Thanks very much."
+    },
+    {
+     "t0_ms": 1954360,
+     "text": "Congrats again on the fantastic numbers."
+    },
+    {
+     "t0_ms": 1957360,
+     "text": "A few more details on the huge strengths you're seeing in both traditional and AI servers."
+    },
+    {
+     "t0_ms": 1965360,
+     "text": "First of all, for traditional servers, this has been traditionally almost all,"
+    },
+    {
+     "t0_ms": 1970360,
+     "text": "you know, the most popular service."
+    },
+    {
+     "t0_ms": 1972360,
+     "text": "And I think that's because of the fact that we're now in the age of enterprise customers."
+    },
+    {
+     "t0_ms": 1978360,
+     "text": "And I believe you're lumping in the CPU racks, the agentic AI servers that are CPU racks in there, I believe."
+    },
+    {
+     "t0_ms": 1987360,
+     "text": "Is this traditional server category still almost all enterprise,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1995360,
+   "t1_ms": 2036360,
+   "speaker": "Analyst",
+   "text": "or are you seeing a portion of that from, say, the I wondered if you could give us any hints in terms of the relative growth rate between enterprise versus other larger customers. in the AI server mix, because previously you said enterprise had been growing faster.",
+   "parts": [
+    {
+     "t0_ms": 1995360,
+     "text": "or are you seeing a portion of that from, say,"
+    },
+    {
+     "t0_ms": 2000360,
+     "text": "the"
+    },
+    {
+     "t0_ms": 2018360,
+     "text": "I wondered if you could give us any hints in terms of the relative growth rate between enterprise versus other larger customers."
+    },
+    {
+     "t0_ms": 2028360,
+     "text": "in the AI server mix, because previously you said enterprise had been growing faster."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2036360,
+   "t1_ms": 2045360,
+   "speaker": "Analyst",
+   "text": "And I just wondered if that is still the case given the huge step up, particularly in the orders. Thanks very much.",
+   "parts": [
+    {
+     "t0_ms": 2036360,
+     "text": "And I just wondered if that is still the case given the huge step up, particularly in the orders."
+    },
+    {
+     "t0_ms": 2043360,
+     "text": "Thanks very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2045360,
+   "t1_ms": 2090360,
+   "speaker": "Management",
+   "text": "You bet. Mark, traditional server, the 122% growth, it's primarily our historical enterprise customers. I'd stress demand outstrips supply. Demand was even greater than the results that we published there. We are supply constrained. But demand is from our traditional enterprise customers. That's where the vast majority of the workloads are. That's where the modernization is occurring. That's where the aged install base is. That's where the heightened awareness around security and resiliency has been driving demand. I introduced last quarter that we are beginning to see, you know, the demand. We see an AI servers.",
+   "parts": [
+    {
+     "t0_ms": 2045360,
+     "text": "You bet."
+    },
+    {
+     "t0_ms": 2046360,
+     "text": "Mark, traditional server, the 122% growth, it's primarily our historical enterprise customers."
+    },
+    {
+     "t0_ms": 2055360,
+     "text": "I'd stress demand outstrips supply."
+    },
+    {
+     "t0_ms": 2057360,
+     "text": "Demand was even greater than the results that we published there."
+    },
+    {
+     "t0_ms": 2062360,
+     "text": "We are supply constrained."
+    },
+    {
+     "t0_ms": 2064360,
+     "text": "But demand is from our traditional enterprise customers."
+    },
+    {
+     "t0_ms": 2068360,
+     "text": "That's where the vast majority of the workloads are."
+    },
+    {
+     "t0_ms": 2071360,
+     "text": "That's where the modernization is occurring."
+    },
+    {
+     "t0_ms": 2073360,
+     "text": "That's where the aged install base is."
+    },
+    {
+     "t0_ms": 2075360,
+     "text": "That's where the heightened awareness around security and resiliency has been driving demand."
+    },
+    {
+     "t0_ms": 2082360,
+     "text": "I introduced last quarter that we are beginning to see, you know, the demand."
+    },
+    {
+     "t0_ms": 2086360,
+     "text": "We see an AI servers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2090360,
+   "t1_ms": 2132360,
+   "speaker": "Management",
+   "text": "And when I talked about that, and it would be the same that happened this past quarter, that there are neoplots buying that. Some of our high frequency trader customers are buying those types of servers, as well as very advanced in their AI deployments, our largest and most sophisticated enterprise customers. So vast majority of that 122% growth are traditional customers across all segments, all geos. AI servers are beginning to show up with that set of customers, which is exciting to see. That grew quarter over quarter. It grew across neoplots. It grew across our HFT customers, as well as our enterprise customers. So that's exciting to see.",
+   "parts": [
+    {
+     "t0_ms": 2090360,
+     "text": "And when I talked about that, and it would be the same that happened this past quarter, that there are neoplots buying that."
+    },
+    {
+     "t0_ms": 2096360,
+     "text": "Some of our high frequency trader customers are buying those types of servers, as well as very advanced in their AI deployments, our largest and most sophisticated enterprise customers."
+    },
+    {
+     "t0_ms": 2109360,
+     "text": "So vast majority of that 122% growth are traditional customers across all segments, all geos."
+    },
+    {
+     "t0_ms": 2115360,
+     "text": "AI servers are beginning to show up with that set of customers, which is exciting to see."
+    },
+    {
+     "t0_ms": 2122360,
+     "text": "That grew quarter over quarter."
+    },
+    {
+     "t0_ms": 2124360,
+     "text": "It grew across neoplots."
+    },
+    {
+     "t0_ms": 2126360,
+     "text": "It grew across our HFT customers, as well as our enterprise customers."
+    },
+    {
+     "t0_ms": 2130360,
+     "text": "So that's exciting to see."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2132360,
+   "t1_ms": 2176360,
+   "speaker": "Management",
+   "text": "And then the mix inside our traditional AI business is exciting. And something that we've talked about and I think we mentioned in our remarks, we now have more than 6,500 customers. Buying Dell AI factory. 3,300 of them have happened in the last three quarters. It took us eight quarters to get to the first 3,200. That acceleration is enterprise. Enterprise customers grew quarter over quarter, year over year. Repeat buyers grew quarter over quarter and year over year. Enterprise revenue grew quarter over quarter and year over year. And the pipeline of enterprise customers grew sequentially as well. So we are seeing more enterprise customers.",
+   "parts": [
+    {
+     "t0_ms": 2132360,
+     "text": "And then the mix inside our traditional AI business is exciting."
+    },
+    {
+     "t0_ms": 2138360,
+     "text": "And something that we've talked about and I think we mentioned in our remarks, we now have more than 6,500 customers."
+    },
+    {
+     "t0_ms": 2144360,
+     "text": "Buying Dell AI factory."
+    },
+    {
+     "t0_ms": 2147360,
+     "text": "3,300 of them have happened in the last three quarters."
+    },
+    {
+     "t0_ms": 2151360,
+     "text": "It took us eight quarters to get to the first 3,200."
+    },
+    {
+     "t0_ms": 2155360,
+     "text": "That acceleration is enterprise."
+    },
+    {
+     "t0_ms": 2158360,
+     "text": "Enterprise customers grew quarter over quarter, year over year."
+    },
+    {
+     "t0_ms": 2162360,
+     "text": "Repeat buyers grew quarter over quarter and year over year."
+    },
+    {
+     "t0_ms": 2165360,
+     "text": "Enterprise revenue grew quarter over quarter and year over year."
+    },
+    {
+     "t0_ms": 2168360,
+     "text": "And the pipeline of enterprise customers grew sequentially as well."
+    },
+    {
+     "t0_ms": 2173360,
+     "text": "So we are seeing more enterprise customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2176360,
+   "t1_ms": 2205360,
+   "speaker": "Management",
+   "text": "The mix didn't necessarily change because we are still winning on the sovereign side as well as the large neocloud side. But the momentum with enterprise, that's measured by number of customers. The number of customers that are buying repeatedly is all up and the indicators are strong. And they tend to buy more storage and they tend to buy more networking when they engage with us. A more complete solution. I hope that helps. Thanks, Mark.",
+   "parts": [
+    {
+     "t0_ms": 2176360,
+     "text": "The mix didn't necessarily change because we are still winning on the sovereign side as well as the large neocloud side."
+    },
+    {
+     "t0_ms": 2184360,
+     "text": "But the momentum with enterprise, that's measured by number of customers."
+    },
+    {
+     "t0_ms": 2189360,
+     "text": "The number of customers that are buying repeatedly is all up and the indicators are strong."
+    },
+    {
+     "t0_ms": 2194360,
+     "text": "And they tend to buy more storage and they tend to buy more networking when they engage with us."
+    },
+    {
+     "t0_ms": 2201360,
+     "text": "A more complete solution."
+    },
+    {
+     "t0_ms": 2202360,
+     "text": "I hope that helps."
+    },
+    {
+     "t0_ms": 2204360,
+     "text": "Thanks, Mark."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2205360,
+   "t1_ms": 2206360,
+   "speaker": "Operator",
+   "text": "Yeah, thanks so much.",
+   "parts": [
+    {
+     "t0_ms": 2205360,
+     "text": "Yeah, thanks so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2206360,
+   "t1_ms": 2208360,
+   "speaker": "Analyst",
+   "text": "And we'll take a question from Kevin.",
+   "parts": [
+    {
+     "t0_ms": 2206360,
+     "text": "And we'll take a question from Kevin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2208360,
+   "t1_ms": 2246480,
+   "speaker": "Management",
+   "text": "Regulatory requirements about how long that's got to be retained and what the protection policies are with that. So you have another new source of growth for storage. You see the same happening with KV cash and how it's being used and driving more efficient inference. So we see more of a growth in the storage.",
+   "parts": [
+    {
+     "t0_ms": 2208360,
+     "text": "Regulatory requirements about how long that's got to be retained and what the protection policies are with that."
+    },
+    {
+     "t0_ms": 2231480,
+     "text": "So you have another new source of growth for storage."
+    },
+    {
+     "t0_ms": 2236480,
+     "text": "You see the same happening with KV cash and how it's being used and driving more efficient inference."
+    },
+    {
+     "t0_ms": 2244480,
+     "text": "So we see more of a growth in the storage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2246480,
+   "t1_ms": 2282480,
+   "speaker": "Management",
+   "text": "So we see multiple new lines or new paths for storage growth in our businesses. If we think about this across agendic workloads as we head towards physical AI and what's going to happen in manufacturing and IoT sensors and robotics, which drive tremendous amounts of multimodal unstructured data, our for like to call it unstructured repositories. There's a lot of structured data and databases. The growth of that is immense and we actually see it accelerating, not slowing down.",
+   "parts": [
+    {
+     "t0_ms": 2246480,
+     "text": "So we see multiple new lines or new paths for storage growth in our businesses."
+    },
+    {
+     "t0_ms": 2254480,
+     "text": "If we think about this across agendic workloads as we head towards physical AI and what's going to happen in manufacturing and IoT sensors and robotics,"
+    },
+    {
+     "t0_ms": 2267480,
+     "text": "which drive tremendous amounts of multimodal unstructured data, our for like to call it unstructured repositories."
+    },
+    {
+     "t0_ms": 2274480,
+     "text": "There's a lot of structured data and databases."
+    },
+    {
+     "t0_ms": 2277480,
+     "text": "The growth of that is immense and we actually see it accelerating, not slowing down."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2282480,
+   "t1_ms": 2322090,
+   "speaker": "Management",
+   "text": "And that both actually produce something even more worthwhile to help the agents be more efficient, et cetera, to help training. That virtuous cycle we believe is just starting. And as we understand it today, we're very optimistic about the growth of storage going forward in the AI world. And we're positioned quite well across all of our storage assets.",
+   "parts": [
+    {
+     "t0_ms": 2282480,
+     "text": "And that both actually produce something even more worthwhile to help the agents be more efficient, et cetera, to help training."
+    },
+    {
+     "t0_ms": 2304090,
+     "text": "That virtuous cycle we believe is just starting."
+    },
+    {
+     "t0_ms": 2308090,
+     "text": "And as we understand it today, we're very optimistic about the growth of storage going forward in the AI world."
+    },
+    {
+     "t0_ms": 2316090,
+     "text": "And we're positioned quite well across all of our storage assets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2322090,
+   "t1_ms": 2341920,
+   "speaker": "Management",
+   "text": "We protect and as we build more of our data automation platform, we think about our data management work. I think we have a huge opportunity to grow and to be even more important to our customers as their data needs grow.",
+   "parts": [
+    {
+     "t0_ms": 2322090,
+     "text": "We protect and as we build more of our data automation platform, we think about our data management work."
+    },
+    {
+     "t0_ms": 2334920,
+     "text": "I think we have a huge opportunity to grow and to be even more important to our customers as their data needs grow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2341920,
+   "t1_ms": 2352490,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question will come from Asiya Merchant with Tati.",
+   "parts": [
+    {
+     "t0_ms": 2341920,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2345570,
+     "text": "And our next question will come from Asiya Merchant with Tati."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2352490,
+   "t1_ms": 2391030,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for taking my question and great results here. Can I just ask a little bit about supply? Jeff, I know you mentioned supply constraints. Maybe if you can just help us understand where these supply constraints, if anything's changed from the last quarter. You know, clearly some of the component makers are talking about supply agreements that have been signed. How do you think about your supply going ahead and what we should think about where some of the incremental supply constraints are perhaps relative to last quarter in order to meet the demand durability requirements? You know, that you're talking about even going into next year. Thank you. You betcha. How I think about supply, as I'm often reminded by our sales force, it's not enough.",
+   "parts": [
+    {
+     "t0_ms": 2352490,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2355030,
+     "text": "Thanks for taking my question and great results here."
+    },
+    {
+     "t0_ms": 2357030,
+     "text": "Can I just ask a little bit about supply?"
+    },
+    {
+     "t0_ms": 2360030,
+     "text": "Jeff, I know you mentioned supply constraints."
+    },
+    {
+     "t0_ms": 2363030,
+     "text": "Maybe if you can just help us understand where these supply constraints, if anything's changed from the last quarter."
+    },
+    {
+     "t0_ms": 2370030,
+     "text": "You know, clearly some of the component makers are talking about supply agreements that have been signed."
+    },
+    {
+     "t0_ms": 2375030,
+     "text": "How do you think about your supply going ahead and what we should think about where some of the incremental supply constraints are perhaps relative to last quarter"
+    },
+    {
+     "t0_ms": 2384030,
+     "text": "in order to meet the demand durability requirements?"
+    },
+    {
+     "t0_ms": 2386030,
+     "text": "You know, that you're talking about even going into next year."
+    },
+    {
+     "t0_ms": 2388030,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2389030,
+     "text": "You betcha."
+    },
+    {
+     "t0_ms": 2390030,
+     "text": "How I think about supply, as I'm often reminded by our sales force, it's not enough."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2391030,
+   "t1_ms": 2433030,
+   "speaker": "Management",
+   "text": "So we are doing everything we can to get more supply. In today's environment, that's a very difficult task. What we've been doing is I think optimizing the bits and bytes that we have coming in, whether that be with configuration, that being building networks, or even just the the data management. So we're doing that. We're building net sets to maximize the output of the corporation out of the factories. Our ability to increase guidance by the $25 billion is a direct reflection of our ability to optimize what's coming in, shaping demand,",
+   "parts": [
+    {
+     "t0_ms": 2391030,
+     "text": "So we are doing everything we can to get more supply."
+    },
+    {
+     "t0_ms": 2392030,
+     "text": "In today's environment, that's a very difficult task."
+    },
+    {
+     "t0_ms": 2393030,
+     "text": "What we've been doing is I think optimizing the bits and bytes that we have coming in, whether that be with configuration, that being building networks,"
+    },
+    {
+     "t0_ms": 2398030,
+     "text": "or even just the"
+    },
+    {
+     "t0_ms": 2413030,
+     "text": "the data management."
+    },
+    {
+     "t0_ms": 2414030,
+     "text": "So we're doing that."
+    },
+    {
+     "t0_ms": 2415030,
+     "text": "We're building net sets to maximize the output of the corporation out of the factories."
+    },
+    {
+     "t0_ms": 2422030,
+     "text": "Our ability to increase guidance by the $25 billion is a direct reflection of our ability to optimize what's coming in, shaping demand,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2433030,
+   "t1_ms": 2474280,
+   "speaker": "Management",
+   "text": "planning it accordingly, and getting it out the door. One of the things that we did earlier this year is we saw the PC market showing signs of softening in the second half. And we're going to do that. We're going to optimize the bits and bytes we have towards the infrastructure business. There's a lead time associated with that. We're working through that lead time which is part of why the second half looks a little better. We've been able to realize greater shipments as a result of that. But constraints remain the same. DRAM, DRAM, DRAM, followed by NAND, NAND, NAND. We have spotty CPU shortages. There are shortages with disk drives. We have issues with disk drives. We have issues with RAM. We have issues with storage.",
+   "parts": [
+    {
+     "t0_ms": 2433030,
+     "text": "planning it accordingly, and getting it out the door."
+    },
+    {
+     "t0_ms": 2437030,
+     "text": "One of the things that we did earlier this year is we saw the PC market showing signs of softening in the second half."
+    },
+    {
+     "t0_ms": 2443030,
+     "text": "And we're going to do that."
+    },
+    {
+     "t0_ms": 2444030,
+     "text": "We're going to optimize the bits and bytes we have towards the infrastructure business."
+    },
+    {
+     "t0_ms": 2446030,
+     "text": "There's a lead time associated with that."
+    },
+    {
+     "t0_ms": 2449030,
+     "text": "We're working through that lead time which is part of why the second half looks a little better."
+    },
+    {
+     "t0_ms": 2453280,
+     "text": "We've been able to realize greater shipments as a result of that."
+    },
+    {
+     "t0_ms": 2456280,
+     "text": "But constraints remain the same."
+    },
+    {
+     "t0_ms": 2458280,
+     "text": "DRAM, DRAM, DRAM, followed by NAND, NAND, NAND."
+    },
+    {
+     "t0_ms": 2467280,
+     "text": "We have spotty CPU shortages."
+    },
+    {
+     "t0_ms": 2469280,
+     "text": "There are shortages with disk drives."
+    },
+    {
+     "t0_ms": 2471280,
+     "text": "We have issues with disk drives."
+    },
+    {
+     "t0_ms": 2472280,
+     "text": "We have issues with RAM."
+    },
+    {
+     "t0_ms": 2473280,
+     "text": "We have issues with storage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2474280,
+   "t1_ms": 2517410,
+   "speaker": "Management",
+   "text": "with disk drives. If you go further down in the supply chain, just about every product going through a leading node is constrained. Mature nodes that are building MOSFETs, power ICs, microcontrollers, drivers are constrained. There are shortages of ABS substrate, T-glass, all of which we monitor. There are shortages in optical. The AI supply chain is working redline all out to build CDUs, power, the life of a supply chain person at Dell. This is what we do, chasing parts. We love it. Trying to optimize the outcomes for the company. I think we've done largely a good job of that with the second half guide up, and we'll continue to focus on trying",
+   "parts": [
+    {
+     "t0_ms": 2474280,
+     "text": "with disk drives. If you go further down in the supply chain,"
+    },
+    {
+     "t0_ms": 2478480,
+     "text": "just about every product going through a leading node is constrained."
+    },
+    {
+     "t0_ms": 2483260,
+     "text": "Mature nodes that are building MOSFETs, power ICs,"
+    },
+    {
+     "t0_ms": 2486100,
+     "text": "microcontrollers, drivers are constrained. There are shortages of ABS"
+    },
+    {
+     "t0_ms": 2490000,
+     "text": "substrate, T-glass, all of which we monitor. There are shortages in optical."
+    },
+    {
+     "t0_ms": 2494360,
+     "text": "The AI supply chain is working redline"
+    },
+    {
+     "t0_ms": 2498440,
+     "text": "all out to build CDUs, power, the life of a supply chain"
+    },
+    {
+     "t0_ms": 2505330,
+     "text": "person at Dell. This is what we do, chasing parts. We love it."
+    },
+    {
+     "t0_ms": 2509630,
+     "text": "Trying to optimize the outcomes for the company. I think we've done largely a good job of that"
+    },
+    {
+     "t0_ms": 2513610,
+     "text": "with the second half guide up, and we'll continue to focus on trying"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2517410,
+   "t1_ms": 2521670,
+   "speaker": "Management",
+   "text": "to get more supply and take the supply we have and optimize the output.",
+   "parts": [
+    {
+     "t0_ms": 2517410,
+     "text": "to get more supply and take the supply we have and optimize the output."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2523730,
+   "t1_ms": 2533700,
+   "speaker": "Operator",
+   "text": "Thanks, Asya. And the next question will come from Aaron Rakers with Wells Fargo. Hi, guys. This is Michael",
+   "parts": [
+    {
+     "t0_ms": 2523730,
+     "text": "Thanks, Asya. And the next question will come from Aaron"
+    },
+    {
+     "t0_ms": 2528620,
+     "text": "Rakers with Wells Fargo. Hi, guys. This is Michael"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2533700,
+   "t1_ms": 2560000,
+   "speaker": "Analyst",
+   "text": "Stetnoff. On behalf of Aaron, thanks so much for letting me ask the question. I wanted to ask on the storage business, obviously very strong. Within that, you mentioned several solidly performing Dell IP portfolio products, one of which I wanted to ask about is Lightning. How is that contributing at this point, and what level of attachment are you seeing to those cloud AI",
+   "parts": [
+    {
+     "t0_ms": 2533700,
+     "text": "Stetnoff. On behalf of Aaron, thanks so much for letting me ask the question."
+    },
+    {
+     "t0_ms": 2538460,
+     "text": "I wanted to ask"
+    },
+    {
+     "t0_ms": 2539980,
+     "text": "on the storage business, obviously very strong."
+    },
+    {
+     "t0_ms": 2543820,
+     "text": "Within that, you mentioned several"
+    },
+    {
+     "t0_ms": 2546100,
+     "text": "solidly performing Dell IP portfolio products, one of which"
+    },
+    {
+     "t0_ms": 2552000,
+     "text": "I wanted to ask about is Lightning. How is that contributing"
+    },
+    {
+     "t0_ms": 2556100,
+     "text": "at this point, and what level of attachment are you seeing to those cloud AI"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2560000,
+   "t1_ms": 2599740,
+   "speaker": "Management",
+   "text": "server deals? Well, Lightning, our parallel file system design for native AI use case. We continue to have that product out in the field. We continue to see interest. It's still a relatively new product. It's in beta at several customers. We're in run-offs against other competitors with the product that will continue, and as it builds momentum, I'm certain we'll give you an update in the future, but that's where Lightning is at the moment. Thank you. Thank you. And our next question will come",
+   "parts": [
+    {
+     "t0_ms": 2560000,
+     "text": "server deals? Well, Lightning, our parallel file system"
+    },
+    {
+     "t0_ms": 2565180,
+     "text": "design for"
+    },
+    {
+     "t0_ms": 2570400,
+     "text": "native AI use case."
+    },
+    {
+     "t0_ms": 2572060,
+     "text": "We continue to have that product out in the field. We continue"
+    },
+    {
+     "t0_ms": 2576160,
+     "text": "to see interest. It's still a relatively new product."
+    },
+    {
+     "t0_ms": 2580000,
+     "text": "It's in beta at several customers. We're in run-offs against"
+    },
+    {
+     "t0_ms": 2584020,
+     "text": "other competitors with the product that will continue, and as"
+    },
+    {
+     "t0_ms": 2587760,
+     "text": "it builds momentum, I'm certain we'll give you an update in the future, but that's where Lightning"
+    },
+    {
+     "t0_ms": 2592120,
+     "text": "is at the moment. Thank you. Thank you. And our next question will come"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2599740,
+   "t1_ms": 2605320,
+   "speaker": "Operator",
+   "text": "from Joseph Cardosa with JP Morgan. Hi, guys, and",
+   "parts": [
+    {
+     "t0_ms": 2599740,
+     "text": "from Joseph Cardosa with JP Morgan. Hi, guys, and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2605320,
+   "t1_ms": 2638080,
+   "speaker": "Analyst",
+   "text": "congrats on the results here. Thanks for the question. Maybe can you guys, and I know you guys talked about the traditional business here in Lent, but maybe just curious if we break down the growth that you're seeing on the traditional server and storage side between volume and pricing. Relative to your earlier view, how much of the upside is coming from each of those vectors, and maybe more importantly, as you think about going forward in the momentum you're seeing in the business, how are you thinking about having room for customers to keep on digesting these higher prices, and in your customer discussions, are you starting to see any pushback? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2605320,
+     "text": "congrats on the results here."
+    },
+    {
+     "t0_ms": 2607080,
+     "text": "Thanks for the question. Maybe can you guys, and I know you guys talked about the"
+    },
+    {
+     "t0_ms": 2611200,
+     "text": "traditional business here in Lent, but maybe just curious if we break down the growth"
+    },
+    {
+     "t0_ms": 2615240,
+     "text": "that you're seeing on the traditional server and storage side between volume and"
+    },
+    {
+     "t0_ms": 2619080,
+     "text": "pricing. Relative to your earlier view, how much of the upside is coming from"
+    },
+    {
+     "t0_ms": 2623020,
+     "text": "each of those vectors, and maybe more importantly, as you think about going"
+    },
+    {
+     "t0_ms": 2627080,
+     "text": "forward in the momentum you're seeing in the business, how are you thinking about having room"
+    },
+    {
+     "t0_ms": 2631100,
+     "text": "for customers to keep on digesting these higher prices, and in your customer discussions,"
+    },
+    {
+     "t0_ms": 2635420,
+     "text": "are you starting to see any pushback?"
+    },
+    {
+     "t0_ms": 2637080,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2638080,
+   "t1_ms": 2674640,
+   "speaker": "Management",
+   "text": "By revenue and growth. If I look at what we're seeing in traditional servers, we're seeing, again, this notion of modernization that's driving higher core count, more DRAM, and more storage. Configurations are part of this modernization or consolidation, and they continue to grow rapidly.",
+   "parts": [
+    {
+     "t0_ms": 2638080,
+     "text": "By revenue and growth. If I look at what we're seeing in traditional servers, we're seeing, again,"
+    },
+    {
+     "t0_ms": 2657360,
+     "text": "this notion of modernization that's driving higher core count, more DRAM, and more storage."
+    },
+    {
+     "t0_ms": 2668840,
+     "text": "Configurations are part of this modernization or consolidation, and they continue to grow rapidly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2675160,
+   "t1_ms": 2717750,
+   "speaker": "Management",
+   "text": "They cost more than they did last quarter and the quarter before and the quarter without RAN supply. This quarter, on guidance of the...",
+   "parts": [
+    {
+     "t0_ms": 2675160,
+     "text": "They cost more than they did last quarter and the quarter before and the quarter without RAN supply."
+    },
+    {
+     "t0_ms": 2709000,
+     "text": "This quarter, on guidance of the..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2717870,
+   "t1_ms": 2758740,
+   "speaker": "Management",
+   "text": "The server business, which is very healthy, more storage. I think I mentioned to one of the earlier questions, as we see a ramp down of our partner IP portfolio, it's being offset by more units in our Dell IP portfolio that come with higher revenue and higher margin rates, seeing a greater use of our storage products in AI applications, which is good to see, most notably with our unstructured products,",
+   "parts": [
+    {
+     "t0_ms": 2717870,
+     "text": "The server business, which is very healthy, more storage."
+    },
+    {
+     "t0_ms": 2730890,
+     "text": "I think I mentioned to one of the earlier questions, as we see a ramp down of our partner IP portfolio,"
+    },
+    {
+     "t0_ms": 2738590,
+     "text": "it's being offset by more units in our Dell IP portfolio that come with higher revenue and higher margin rates,"
+    },
+    {
+     "t0_ms": 2746190,
+     "text": "seeing a greater use of our storage products in AI applications, which is good to see, most notably with our unstructured products,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2758740,
+   "t1_ms": 2796620,
+   "speaker": "Management",
+   "text": "which had unprecedented growth, again, but I rattled off a bunch of numbers earlier about every category of our traditional or core Dell IP portfolio growing multiple quarters now. The Dell IP stack has grown six consecutive quarters now ahead of the marketplace. We expect to take share again. And currently, some of that is uplifted by the increased cost of the underlying material. Our software-defined products are doing well. We'll take one more question before we go. Do you have a question?",
+   "parts": [
+    {
+     "t0_ms": 2758740,
+     "text": "which had unprecedented growth, again, but I rattled off a bunch of numbers earlier about every category of our traditional or core Dell IP portfolio"
+    },
+    {
+     "t0_ms": 2768160,
+     "text": "growing multiple quarters now."
+    },
+    {
+     "t0_ms": 2771300,
+     "text": "The Dell IP stack has grown six consecutive quarters now ahead of the marketplace."
+    },
+    {
+     "t0_ms": 2776960,
+     "text": "We expect to take share again."
+    },
+    {
+     "t0_ms": 2779220,
+     "text": "And currently, some of that is uplifted by the increased cost of the underlying material."
+    },
+    {
+     "t0_ms": 2783340,
+     "text": "Our software-defined products are doing well."
+    },
+    {
+     "t0_ms": 2793700,
+     "text": "We'll take one more question before we go."
+    },
+    {
+     "t0_ms": 2795620,
+     "text": "Do you have a question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2797560,
+   "t1_ms": 2801080,
+   "speaker": "Operator",
+   "text": "And that question will come from David Vogt with UBS.",
+   "parts": [
+    {
+     "t0_ms": 2797560,
+     "text": "And that question will come from David Vogt with UBS."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2803140,
+   "t1_ms": 2838300,
+   "speaker": "Analyst",
+   "text": "Great. Thanks, guys, for squeezing me in. Maybe for Jeff and David, can you help us understand sort of the long-term margin differentials as customers, you know, modernize to next-gen servers off of older generation servers like 14 on the way to like 17G, 18G? And how much of the margin uplift that you're seeing in ISG comes from a like-for-like, margin lift as we modernize data centers versus sort of your efficiency improvements and scale economics that you're seeing just from more volume going through the supply chain? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2803140,
+     "text": "Great. Thanks, guys, for squeezing me in."
+    },
+    {
+     "t0_ms": 2805220,
+     "text": "Maybe for Jeff and David, can you help us understand sort of the long-term margin differentials"
+    },
+    {
+     "t0_ms": 2811200,
+     "text": "as customers, you know, modernize to next-gen servers off of older generation servers like 14 on the way to like 17G, 18G?"
+    },
+    {
+     "t0_ms": 2820980,
+     "text": "And how much of the margin uplift that you're seeing in ISG comes from a like-for-like,"
+    },
+    {
+     "t0_ms": 2827060,
+     "text": "margin lift as we modernize data centers versus sort of your efficiency improvements and scale economics that you're seeing just from more volume going through the supply chain?"
+    },
+    {
+     "t0_ms": 2837300,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2839560,
+   "t1_ms": 2881480,
+   "speaker": "Management",
+   "text": "Yeah, I mean, if you look at our Q2 results here, ISG opting at 15 points, obviously tremendous performance. Jeff outlined it earlier, the number one driver here is a scale conversation given the growth that we're seeing, the accelerated growth that we're seeing. That for the ISG business was a driver of just over 400 basis points. For the full-year guide, it's worth over 650 basis points. You see the leverage that we can adopt into the ecosystem. Outside of that, you then, as you do your storage growth, and again, as we drive that 13% guide, or 15% guide, excuse me, for the full year,",
+   "parts": [
+    {
+     "t0_ms": 2839560,
+     "text": "Yeah, I mean, if you look at our Q2 results here, ISG opting at 15 points, obviously tremendous performance."
+    },
+    {
+     "t0_ms": 2848600,
+     "text": "Jeff outlined it earlier, the number one driver here is a scale conversation given the growth that we're seeing, the accelerated growth that we're seeing."
+    },
+    {
+     "t0_ms": 2857060,
+     "text": "That for the ISG business was a driver of just over 400 basis points."
+    },
+    {
+     "t0_ms": 2863700,
+     "text": "For the full-year guide, it's worth over 650 basis points."
+    },
+    {
+     "t0_ms": 2867000,
+     "text": "You see the leverage that we can adopt into the ecosystem."
+    },
+    {
+     "t0_ms": 2871180,
+     "text": "Outside of that, you then, as you do your storage growth, and again, as we drive that 13% guide, or 15% guide, excuse me, for the full year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2882040,
+   "t1_ms": 2914840,
+   "speaker": "Management",
+   "text": "that $2.5 billion of incremental storage is a huge drag. In terms of revenue dollars that we've pushed through. As you look at our guide for the second half of the year, then, for ISG, you'll see it's up over a point in the second half. And you'll see it grow from Q3 to Q4 also, even with the expansion of AI, which is over 3x growth year-on-year, the $74 billion guide. So all of that kind of contributing to a robust portfolio. And then across the rest of the portfolio, it's really about...",
+   "parts": [
+    {
+     "t0_ms": 2882040,
+     "text": "that $2.5 billion of incremental storage is a huge drag."
+    },
+    {
+     "t0_ms": 2886640,
+     "text": "In terms of revenue dollars that we've pushed through."
+    },
+    {
+     "t0_ms": 2890200,
+     "text": "As you look at our guide for the second half of the year, then, for ISG, you'll see it's up over a point in the second half."
+    },
+    {
+     "t0_ms": 2898340,
+     "text": "And you'll see it grow from Q3 to Q4 also, even with the expansion of AI, which is over 3x growth year-on-year, the $74 billion guide."
+    },
+    {
+     "t0_ms": 2908840,
+     "text": "So all of that kind of contributing to a robust portfolio."
+    },
+    {
+     "t0_ms": 2913560,
+     "text": "And then across the rest of the portfolio, it's really about..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2916640,
+   "t1_ms": 2960340,
+   "speaker": "Management",
+   "text": "Mix, product mix, geomix, and just traditional execution pricing discipline and operational rigor across our supply chain, engineering, and sales teams. All right. We'll move it over to Jeff to close this out. Sure. Thanks, Paul. Thanks, everyone, for joining us today. Our advantages are compounding. Our addressable opportunity is expanding. And our differentiated operating model is delivering significant leverage. With our full-year OpEx rate. At a 42-year low. We raised our full-year guide by $25 billion to $192 billion. With $25.50 of EPS. We are optimistic about a stronger second half.",
+   "parts": [
+    {
+     "t0_ms": 2916640,
+     "text": "Mix, product mix, geomix, and just traditional execution pricing discipline and operational rigor across our supply chain, engineering, and sales teams."
+    },
+    {
+     "t0_ms": 2928440,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2928760,
+     "text": "We'll move it over to Jeff to close this out."
+    },
+    {
+     "t0_ms": 2931780,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2932020,
+     "text": "Thanks, Paul."
+    },
+    {
+     "t0_ms": 2932540,
+     "text": "Thanks, everyone, for joining us today."
+    },
+    {
+     "t0_ms": 2935000,
+     "text": "Our advantages are compounding."
+    },
+    {
+     "t0_ms": 2937340,
+     "text": "Our addressable opportunity is expanding."
+    },
+    {
+     "t0_ms": 2940000,
+     "text": "And our differentiated operating model is delivering significant leverage."
+    },
+    {
+     "t0_ms": 2944260,
+     "text": "With our full-year OpEx rate."
+    },
+    {
+     "t0_ms": 2946760,
+     "text": "At a 42-year low."
+    },
+    {
+     "t0_ms": 2948840,
+     "text": "We raised our full-year guide by $25 billion to $192 billion."
+    },
+    {
+     "t0_ms": 2953840,
+     "text": "With $25.50 of EPS."
+    },
+    {
+     "t0_ms": 2957240,
+     "text": "We are optimistic about a stronger second half."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2960340,
+   "t1_ms": 2964140,
+   "speaker": "Management",
+   "text": "And the momentum we carry into next year. Thanks, everyone, for your time today.",
+   "parts": [
+    {
+     "t0_ms": 2960340,
+     "text": "And the momentum we carry into next year."
+    },
+    {
+     "t0_ms": 2962340,
+     "text": "Thanks, everyone, for your time today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2965980,
+   "t1_ms": 2972680,
+   "speaker": "Operator",
+   "text": "Thank you. That does conclude today's conference. We do thank you for your participation. And have an excellent day.",
+   "parts": [
+    {
+     "t0_ms": 2965980,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2966980,
+     "text": "That does conclude today's conference."
+    },
+    {
+     "t0_ms": 2968780,
+     "text": "We do thank you for your participation."
+    },
+    {
+     "t0_ms": 2971380,
+     "text": "And have an excellent day."
+    }
+   ]
+  }
+ ]
+}

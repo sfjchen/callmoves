@@ -1,0 +1,4499 @@
+{
+ "ticker": "AMAT",
+ "quarter": "Q4-2026",
+ "company": "Applied Materials",
+ "call_start": "2026-11-12T16:30:00-05:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/AMAT_Q4-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 19020,
+   "speaker": "Operator",
+   "text": "Welcome to the Applying Materials fourth quarter of fiscal 2026 earnings call. During the presentation, all participants will be in a listen-only mode. Afterwards, you will be invited to participate in a question-and-answer session. I would now like to turn the call over to Mike Sullivan, Corporate Vice President of Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Welcome to the Applying Materials fourth quarter of fiscal 2026 earnings call."
+    },
+    {
+     "t0_ms": 5220,
+     "text": "During the presentation, all participants will be in a listen-only mode."
+    },
+    {
+     "t0_ms": 8860,
+     "text": "Afterwards, you will be invited to participate in a question-and-answer session."
+    },
+    {
+     "t0_ms": 13500,
+     "text": "I would now like to turn the call over to Mike Sullivan,"
+    },
+    {
+     "t0_ms": 15980,
+     "text": "Corporate Vice President of Investor Relations."
+    },
+    {
+     "t0_ms": 18420,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 21110,
+   "t1_ms": 58310,
+   "speaker": "Management",
+   "text": "Good afternoon, everyone, and thank you for joining today's call. With me are Gary Dickerson, our President and CEO, and Bryce Hill, our Chief Financial Officer. Before we begin, I'd like to remind you that today's call includes forward-looking statements, which are subject to risks and uncertainties that could cause our actual results to differ. Information concerning these risks and uncertainties is discussed in our most recent Form 10-Q and other filings with the SEC. Today's call also includes non-GAAP financial measures. Reconciliations to GAAP measures can be found in today's earnings press release and in our quarterly earnings materials, which are available on our website at ir.appliedmaterials.com.",
+   "parts": [
+    {
+     "t0_ms": 21110,
+     "text": "Good afternoon, everyone, and thank you for joining today's call."
+    },
+    {
+     "t0_ms": 24030,
+     "text": "With me are Gary Dickerson, our President and CEO,"
+    },
+    {
+     "t0_ms": 26590,
+     "text": "and Bryce Hill, our Chief Financial Officer."
+    },
+    {
+     "t0_ms": 28570,
+     "text": "Before we begin, I'd like to remind you that today's call includes forward-looking statements,"
+    },
+    {
+     "t0_ms": 33550,
+     "text": "which are subject to risks and uncertainties that could cause our actual results to differ."
+    },
+    {
+     "t0_ms": 38290,
+     "text": "Information concerning these risks and uncertainties is discussed in our most recent Form 10-Q"
+    },
+    {
+     "t0_ms": 43210,
+     "text": "and other filings with the SEC."
+    },
+    {
+     "t0_ms": 45750,
+     "text": "Today's call also includes non-GAAP financial measures."
+    },
+    {
+     "t0_ms": 49010,
+     "text": "Reconciliations to GAAP measures can be found in today's earnings press release"
+    },
+    {
+     "t0_ms": 52690,
+     "text": "and in our quarterly earnings materials,"
+    },
+    {
+     "t0_ms": 54810,
+     "text": "which are available on our website at ir.appliedmaterials.com."
+    }
+   ]
+  },
+  {
+   "t0_ms": 58570,
+   "t1_ms": 101090,
+   "speaker": "Management",
+   "text": "In addition, any comments regarding calendar 2026 refer to fiscal Q2 2026 through fiscal Q1 2027. And with that introduction, I'd now like to turn the call over to Gary Dickerson. Thanks, Mike. With quarterly results at the top end of our guidance range and all-time highs for revenue and profitability, Applied delivered a record fiscal 2026 in our seventh consecutive year of growth. I would like to recognize our employees and supply chain partners around the world for their outstanding execution this year, which enabled us to maintain high levels of customer trust during an unprecedented industry ramp.",
+   "parts": [
+    {
+     "t0_ms": 58570,
+     "text": "In addition, any comments regarding calendar 2026 refer to fiscal Q2 2026 through fiscal Q1 2027."
+    },
+    {
+     "t0_ms": 68290,
+     "text": "And with that introduction, I'd now like to turn the call over to Gary Dickerson."
+    },
+    {
+     "t0_ms": 72470,
+     "text": "Thanks, Mike."
+    },
+    {
+     "t0_ms": 73530,
+     "text": "With quarterly results at the top end of our guidance range and all-time highs for revenue"
+    },
+    {
+     "t0_ms": 78530,
+     "text": "and profitability, Applied delivered a record fiscal 2026"
+    },
+    {
+     "t0_ms": 83790,
+     "text": "in our seventh consecutive year of growth."
+    },
+    {
+     "t0_ms": 86830,
+     "text": "I would like to recognize our employees"
+    },
+    {
+     "t0_ms": 88550,
+     "text": "and supply chain partners around the world for their outstanding execution this year,"
+    },
+    {
+     "t0_ms": 94290,
+     "text": "which enabled us to maintain high levels"
+    },
+    {
+     "t0_ms": 96610,
+     "text": "of customer trust during an unprecedented industry ramp."
+    }
+   ]
+  },
+  {
+   "t0_ms": 101870,
+   "t1_ms": 145130,
+   "speaker": "Management",
+   "text": "As this is our year-end call, I'll begin with a brief review of our performance in 2026. I'll provide our perspective on the market environment as demand continues to strengthen. Finally, I'll talk about how Applied has built the most enabling portfolio to advance the AI computing roadmap, giving us a strong foundation for multi-year revenue and profit growth. In fiscal 2026, we grew revenue more than 21% and earnings nearly twice as fast, reflecting the operating leverage in our model. Based on the midpoint of our first quarter guidance,",
+   "parts": [
+    {
+     "t0_ms": 101870,
+     "text": "As this is our year-end call, I'll begin with a brief review of our performance in 2026."
+    },
+    {
+     "t0_ms": 109090,
+     "text": "I'll provide our perspective on the market environment as demand continues to strengthen."
+    },
+    {
+     "t0_ms": 115290,
+     "text": "Finally, I'll talk about how Applied has built"
+    },
+    {
+     "t0_ms": 118550,
+     "text": "the most enabling portfolio to advance the AI computing roadmap,"
+    },
+    {
+     "t0_ms": 123990,
+     "text": "giving us a strong foundation for multi-year revenue and profit growth."
+    },
+    {
+     "t0_ms": 130889,
+     "text": "In fiscal 2026, we grew revenue more than 21%"
+    },
+    {
+     "t0_ms": 135130,
+     "text": "and earnings nearly twice as fast, reflecting the operating leverage in our model."
+    },
+    {
+     "t0_ms": 142730,
+     "text": "Based on the midpoint of our first quarter guidance,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 145130,
+   "t1_ms": 188790,
+   "speaker": "Management",
+   "text": "we expect our semiconductor systems revenue, which is 12%, to be up more than 40% in calendar 2026. As AI computing drives strong secular growth in semiconductors and wafer fab equipment, Applied is outgrowing the wafer fab equipment market because we've built leadership positions in the most enabling, highest value technologies for AI computing. Our outperformance is driven by addressable market growth and nodal share gains in both advanced Foundry Logic and DRAM, our strength in advanced packaging, where we expect revenues to be up around 90%",
+   "parts": [
+    {
+     "t0_ms": 145130,
+     "text": "we expect our semiconductor systems revenue,"
+    },
+    {
+     "t0_ms": 148550,
+     "text": "which is 12%, to be up more than 40% in calendar 2026."
+    },
+    {
+     "t0_ms": 153990,
+     "text": "As AI computing drives strong secular growth"
+    },
+    {
+     "t0_ms": 157350,
+     "text": "in semiconductors and wafer fab equipment,"
+    },
+    {
+     "t0_ms": 160150,
+     "text": "Applied is outgrowing the wafer fab equipment market"
+    },
+    {
+     "t0_ms": 163770,
+     "text": "because we've built leadership positions"
+    },
+    {
+     "t0_ms": 166750,
+     "text": "in the most enabling, highest value technologies for AI computing."
+    },
+    {
+     "t0_ms": 172810,
+     "text": "Our outperformance is driven by addressable market growth"
+    },
+    {
+     "t0_ms": 177030,
+     "text": "and nodal share gains"
+    },
+    {
+     "t0_ms": 178550,
+     "text": "in both advanced Foundry Logic and DRAM,"
+    },
+    {
+     "t0_ms": 182050,
+     "text": "our strength in advanced packaging,"
+    },
+    {
+     "t0_ms": 184550,
+     "text": "where we expect revenues to be up around 90%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 188790,
+   "t1_ms": 233170,
+   "speaker": "Management",
+   "text": "this calendar year, and our growing inspection and metrology business, where we're on track to increase revenue more than 50% in calendar 2026. Demand for advanced semiconductors remains much higher than supply, and multi-year investments in new fab capacity are needed for the industry to close this supply-demand gap. We expect 2027 to be another record year for the market and for applied. Our current view is that wafer fab equipment demand will be up more than 30% year over year, and we are in a strong position to outperform the market again.",
+   "parts": [
+    {
+     "t0_ms": 188790,
+     "text": "this calendar year,"
+    },
+    {
+     "t0_ms": 190530,
+     "text": "and our growing inspection and metrology business,"
+    },
+    {
+     "t0_ms": 193830,
+     "text": "where we're on track to increase revenue"
+    },
+    {
+     "t0_ms": 196570,
+     "text": "more than 50% in calendar 2026."
+    },
+    {
+     "t0_ms": 201370,
+     "text": "Demand for advanced semiconductors"
+    },
+    {
+     "t0_ms": 203210,
+     "text": "remains much higher than supply,"
+    },
+    {
+     "t0_ms": 206310,
+     "text": "and multi-year investments in new fab capacity"
+    },
+    {
+     "t0_ms": 209310,
+     "text": "are needed for the industry to close this supply-demand gap."
+    },
+    {
+     "t0_ms": 214910,
+     "text": "We expect 2027 to be another record year"
+    },
+    {
+     "t0_ms": 218950,
+     "text": "for the market and for applied."
+    },
+    {
+     "t0_ms": 221530,
+     "text": "Our current view is that wafer fab equipment demand"
+    },
+    {
+     "t0_ms": 224830,
+     "text": "will be up more than 30% year over year,"
+    },
+    {
+     "t0_ms": 227970,
+     "text": "and we are in a strong position to outperform the market again."
+    }
+   ]
+  },
+  {
+   "t0_ms": 233170,
+   "t1_ms": 274810,
+   "speaker": "Management",
+   "text": "The rate of industry growth will depend on how quickly the end-to-end semiconductor ecosystem can scale, all the way from clean room construction to equipment components and raw material supply. At applied, we're taking multiple actions to ensure we have the capacity and resources in place to support our customers' ramps. We are working more closely with customers on demand planning. Our largest customers are giving us rolling eight-quarter forecasts and earlier orders. We are working more closely with customers on demand planning. Our largest customers are giving us rolling eight-quarter forecasts and earlier orders. We are working more closely with customers on demand planning. Our largest customers are giving us rolling eight-quarter forecasts and earlier orders. We're also deepening our collaboration with suppliers. In fact, I recently met with more than 250 senior executives",
+   "parts": [
+    {
+     "t0_ms": 233170,
+     "text": "The rate of industry growth will depend on how quickly"
+    },
+    {
+     "t0_ms": 236270,
+     "text": "the end-to-end semiconductor ecosystem can scale,"
+    },
+    {
+     "t0_ms": 240110,
+     "text": "all the way from clean room construction"
+    },
+    {
+     "t0_ms": 242870,
+     "text": "to equipment components and raw material supply."
+    },
+    {
+     "t0_ms": 247250,
+     "text": "At applied, we're taking multiple actions"
+    },
+    {
+     "t0_ms": 249850,
+     "text": "to ensure we have the capacity and resources in place"
+    },
+    {
+     "t0_ms": 253250,
+     "text": "to support our customers' ramps."
+    },
+    {
+     "t0_ms": 255650,
+     "text": "We are working more closely with customers on demand planning."
+    },
+    {
+     "t0_ms": 259290,
+     "text": "Our largest customers are giving us rolling eight-quarter forecasts"
+    },
+    {
+     "t0_ms": 264230,
+     "text": "and earlier orders."
+    },
+    {
+     "t0_ms": 265270,
+     "text": "We are working more closely with customers on demand planning. Our largest customers are giving us rolling eight-quarter forecasts and earlier orders."
+    },
+    {
+     "t0_ms": 266270,
+     "text": "We are working more closely with customers on demand planning. Our largest customers are giving us rolling eight-quarter forecasts and earlier orders."
+    },
+    {
+     "t0_ms": 266310,
+     "text": "We're also deepening our collaboration with suppliers."
+    },
+    {
+     "t0_ms": 269410,
+     "text": "In fact, I recently met with more than 250 senior executives"
+    }
+   ]
+  },
+  {
+   "t0_ms": 274810,
+   "t1_ms": 317130,
+   "speaker": "Management",
+   "text": "from our key suppliers to align on capacity ramp expectations and readiness to serve a range of growth scenarios. In an AI data center, approximately 60% of the capital cost is silicon, and more than 85% of this silicon content is leading and more than 85% of this silicon content is leading edge foundry logic, DRAM, and advanced packaging. These three areas have the greatest impact on the AI computing roadmap, are expected to be the fastest growing parts of wafer fab equipment in 2027, and together drive approximately 75%",
+   "parts": [
+    {
+     "t0_ms": 274810,
+     "text": "from our key suppliers to align on capacity ramp expectations"
+    },
+    {
+     "t0_ms": 280250,
+     "text": "and readiness to serve a range of growth scenarios."
+    },
+    {
+     "t0_ms": 285250,
+     "text": "In an AI data center, approximately 60% of the capital cost is silicon,"
+    },
+    {
+     "t0_ms": 291470,
+     "text": "and more than 85% of this silicon content is leading"
+    },
+    {
+     "t0_ms": 296170,
+     "text": "and more than 85% of this silicon content is leading"
+    },
+    {
+     "t0_ms": 296270,
+     "text": "edge foundry logic, DRAM, and advanced packaging."
+    },
+    {
+     "t0_ms": 300810,
+     "text": "These three areas have the greatest impact"
+    },
+    {
+     "t0_ms": 303770,
+     "text": "on the AI computing roadmap,"
+    },
+    {
+     "t0_ms": 306110,
+     "text": "are expected to be the fastest growing parts"
+    },
+    {
+     "t0_ms": 309210,
+     "text": "of wafer fab equipment in 2027,"
+    },
+    {
+     "t0_ms": 312710,
+     "text": "and together drive approximately 75%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 317130,
+   "t1_ms": 361710,
+   "speaker": "Management",
+   "text": "of WFE growth through 2030. This is exactly where applied has invested over the past several years to build the industry's most enabling portfolio, positioning us to outperform the market again in 2027 and beyond as we gain share at major device inflections. In mid-October, we unveiled the Epic Center in Silicon Valley and hosted an investor breakfast in San Francisco. Thanks to all of you who attended in person or online. At the investor event, we shared three main things. The unprecedented opportunities created by the AI era,",
+   "parts": [
+    {
+     "t0_ms": 317130,
+     "text": "of WFE growth through 2030."
+    },
+    {
+     "t0_ms": 320870,
+     "text": "This is exactly where applied has invested"
+    },
+    {
+     "t0_ms": 323890,
+     "text": "over the past several years"
+    },
+    {
+     "t0_ms": 326170,
+     "text": "to build the industry's most enabling portfolio,"
+    },
+    {
+     "t0_ms": 330010,
+     "text": "positioning us to outperform the market again in 2027 and beyond"
+    },
+    {
+     "t0_ms": 336550,
+     "text": "as we gain share at major device inflections."
+    },
+    {
+     "t0_ms": 340690,
+     "text": "In mid-October, we unveiled the Epic Center in Silicon Valley"
+    },
+    {
+     "t0_ms": 345530,
+     "text": "and hosted an investor breakfast in San Francisco."
+    },
+    {
+     "t0_ms": 349030,
+     "text": "Thanks to all of you who attended in person or online."
+    },
+    {
+     "t0_ms": 353430,
+     "text": "At the investor event, we shared three main things."
+    },
+    {
+     "t0_ms": 356030,
+     "text": "The unprecedented opportunities created by the AI era,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 361710,
+   "t1_ms": 404770,
+   "speaker": "Management",
+   "text": "the unique advantages in applied's capabilities and portfolio to address these opportunities, and how we are creating more value for customers and capturing more value for applied. As the pace of the global AI deployment increases and the adoption of AI rapidly broadens, there's an intense battle for AI computing leadership that comes down to two interconnected races, and applied is central to both. The first race is a race for technology leadership, which is enabled by accelerating the chip and packaging roadmaps that drive improvements in data center tokens per second per watt.",
+   "parts": [
+    {
+     "t0_ms": 361710,
+     "text": "the unique advantages in applied's capabilities"
+    },
+    {
+     "t0_ms": 364870,
+     "text": "and portfolio to address these opportunities,"
+    },
+    {
+     "t0_ms": 368550,
+     "text": "and how we are creating more value for customers"
+    },
+    {
+     "t0_ms": 371650,
+     "text": "and capturing more value for applied."
+    },
+    {
+     "t0_ms": 374750,
+     "text": "As the pace of the global AI deployment increases"
+    },
+    {
+     "t0_ms": 378090,
+     "text": "and the adoption of AI rapidly broadens,"
+    },
+    {
+     "t0_ms": 381830,
+     "text": "there's an intense battle for AI computing leadership"
+    },
+    {
+     "t0_ms": 385490,
+     "text": "that comes down to two interconnected races,"
+    },
+    {
+     "t0_ms": 388970,
+     "text": "and applied is central to both."
+    },
+    {
+     "t0_ms": 392290,
+     "text": "The first race is a race for technology leadership,"
+    },
+    {
+     "t0_ms": 395390,
+     "text": "which is enabled by accelerating the chip"
+    },
+    {
+     "t0_ms": 397810,
+     "text": "and packaging roadmaps that drive improvements"
+    },
+    {
+     "t0_ms": 401030,
+     "text": "in data center tokens per second per watt."
+    }
+   ]
+  },
+  {
+   "t0_ms": 404770,
+   "t1_ms": 445490,
+   "speaker": "Management",
+   "text": "The second is a race to add new chip manufacturing capacity by rapidly ramping new fabs while also optimizing the output of existing factories. At applied, we have created the industry's leading portfolio of materials innovation, integration innovation, and yield innovation technologies. The foundation for our leadership in materials innovation is our comprehensive and connected technology portfolio. We serve around 55% of total wafer fab equipment with number one positions in CVD, PVD,",
+   "parts": [
+    {
+     "t0_ms": 404770,
+     "text": "The second is a race to add new chip manufacturing capacity"
+    },
+    {
+     "t0_ms": 409490,
+     "text": "by rapidly ramping new fabs while also optimizing the output"
+    },
+    {
+     "t0_ms": 415490,
+     "text": "of existing factories."
+    },
+    {
+     "t0_ms": 417890,
+     "text": "At applied, we have created the industry's leading portfolio"
+    },
+    {
+     "t0_ms": 422230,
+     "text": "of materials innovation, integration innovation,"
+    },
+    {
+     "t0_ms": 425830,
+     "text": "and yield innovation technologies."
+    },
+    {
+     "t0_ms": 429070,
+     "text": "The foundation for our leadership"
+    },
+    {
+     "t0_ms": 430670,
+     "text": "in materials innovation is our comprehensive"
+    },
+    {
+     "t0_ms": 433610,
+     "text": "and connected technology portfolio."
+    },
+    {
+     "t0_ms": 436570,
+     "text": "We serve around 55% of total wafer fab equipment"
+    },
+    {
+     "t0_ms": 441650,
+     "text": "with number one positions in CVD, PVD,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 445490,
+   "t1_ms": 490130,
+   "speaker": "Management",
+   "text": "epitaxy, CMP, implant, thermal processing, e-beam, and conductor etch for advanced foundry logic and DRAM. At advanced nodes, smaller feature sizes, three-dimensional structures, and the introduction of novel materials all drive immense process complexity. The interaction between process steps is critical, especially when it comes to engineering interfaces where the layers of materials are now just one to two nanometers thick. That's why co-developing deposition etch treatment inspection and measurement technologies and solving integration challenges",
+   "parts": [
+    {
+     "t0_ms": 445490,
+     "text": "epitaxy, CMP, implant, thermal processing, e-beam,"
+    },
+    {
+     "t0_ms": 450890,
+     "text": "and conductor etch for advanced foundry logic and DRAM."
+    },
+    {
+     "t0_ms": 455770,
+     "text": "At advanced nodes, smaller feature sizes,"
+    },
+    {
+     "t0_ms": 459070,
+     "text": "three-dimensional structures, and the introduction"
+    },
+    {
+     "t0_ms": 462170,
+     "text": "of novel materials all drive immense process complexity."
+    },
+    {
+     "t0_ms": 467710,
+     "text": "The interaction between process steps is critical,"
+    },
+    {
+     "t0_ms": 471050,
+     "text": "especially when it comes to engineering interfaces where the layers"
+    },
+    {
+     "t0_ms": 475390,
+     "text": "of materials are now just one to two nanometers thick."
+    },
+    {
+     "t0_ms": 480590,
+     "text": "That's why co-developing deposition etch treatment inspection"
+    },
+    {
+     "t0_ms": 485230,
+     "text": "and measurement technologies and solving integration challenges"
+    }
+   ]
+  },
+  {
+   "t0_ms": 490130,
+   "t1_ms": 534850,
+   "speaker": "Management",
+   "text": "from the very start of development is such a powerful advantage and one that applied is uniquely positioned to deliver. Applied has also built world-class integration, modeling, and simulation teams. As well as, we have developed a number of new applications, as well as, comprehensive lab infrastructure to accelerate transistor, wiring, memory, and advanced packaging innovations. As yield and output become increasingly critical for customers, Applied is bringing new yield innovations to market. We have the highest resolution and fastest e-beam imaging combined with industry-leading AI-enabled services that we call AIX. E-beam and AIX enable the most advanced and most advanced",
+   "parts": [
+    {
+     "t0_ms": 490130,
+     "text": "from the very start of development is such a powerful advantage and one"
+    },
+    {
+     "t0_ms": 495510,
+     "text": "that applied is uniquely positioned to deliver."
+    },
+    {
+     "t0_ms": 499690,
+     "text": "Applied has also built world-class integration, modeling,"
+    },
+    {
+     "t0_ms": 503150,
+     "text": "and simulation teams."
+    },
+    {
+     "t0_ms": 504850,
+     "text": "As well as, we have developed a number of new applications,"
+    },
+    {
+     "t0_ms": 505390,
+     "text": "as well as, comprehensive lab infrastructure to accelerate"
+    },
+    {
+     "t0_ms": 509590,
+     "text": "transistor, wiring, memory, and advanced packaging innovations."
+    },
+    {
+     "t0_ms": 514530,
+     "text": "As yield and output become increasingly critical for customers,"
+    },
+    {
+     "t0_ms": 518409,
+     "text": "Applied is bringing new yield innovations to market."
+    },
+    {
+     "t0_ms": 521970,
+     "text": "We have the highest resolution and fastest e-beam imaging combined"
+    },
+    {
+     "t0_ms": 527250,
+     "text": "with industry-leading AI-enabled services that we call AIX."
+    },
+    {
+     "t0_ms": 533710,
+     "text": "E-beam and AIX enable the most advanced and most advanced"
+    }
+   ]
+  },
+  {
+   "t0_ms": 534850,
+   "t1_ms": 577150,
+   "speaker": "Management",
+   "text": "AI-enabled services in the world. AIX enables faster learning cycles in R&D, faster transfer and qualification of new technologies in pilot production, and more good ships out in high-volume manufacturing. Applied has by far the largest number of connected systems in the field, with more than 37,000 chambers connected to AIX today, growing at more than 20% annually. Materials innovation integrates AIX with the world's largest E-beam and AIX-based technology. The most advanced of these technologies, integration innovation and yield innovation, are all accelerated by our EPIC platform. EPIC enables Applied to develop technology side-by-side with customers",
+   "parts": [
+    {
+     "t0_ms": 534850,
+     "text": "AI-enabled services in the world."
+    },
+    {
+     "t0_ms": 535850,
+     "text": "AIX enables faster learning cycles in R&D, faster transfer and"
+    },
+    {
+     "t0_ms": 539850,
+     "text": "qualification of new technologies in pilot production, and more good"
+    },
+    {
+     "t0_ms": 544990,
+     "text": "ships out in high-volume manufacturing."
+    },
+    {
+     "t0_ms": 548530,
+     "text": "Applied has by far the largest number of connected systems in the field,"
+    },
+    {
+     "t0_ms": 553330,
+     "text": "with more than 37,000 chambers connected to AIX today,"
+    },
+    {
+     "t0_ms": 558670,
+     "text": "growing at more than 20% annually."
+    },
+    {
+     "t0_ms": 563170,
+     "text": "Materials innovation integrates AIX with the world's largest"
+    },
+    {
+     "t0_ms": 564810,
+     "text": "E-beam and AIX-based technology."
+    },
+    {
+     "t0_ms": 566310,
+     "text": "The most advanced of these technologies, integration innovation and yield"
+    },
+    {
+     "t0_ms": 568410,
+     "text": "innovation, are all accelerated by our EPIC platform."
+    },
+    {
+     "t0_ms": 571210,
+     "text": "EPIC enables Applied to develop technology side-by-side with customers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 577150,
+   "t1_ms": 618130,
+   "speaker": "Management",
+   "text": "and partners, providing them with much earlier access to next-generation applied technology, accelerated cycles of learning, and faster transfer and ramp to high yield and output. For Applied, EPIC means we are designed to integrate new technologies, which we began earlier at new chip and packaging architectures, gain better visibility into multiple generations of customer roadmaps, and increase our R&D productivity. Since our last earnings call, we have added four more EPIC partners, Intel, Kyoksha, Bessie, and UCLA, bringing our total number of announced",
+   "parts": [
+    {
+     "t0_ms": 577150,
+     "text": "and partners, providing them with much earlier access to next-generation"
+    },
+    {
+     "t0_ms": 582630,
+     "text": "applied technology, accelerated cycles of learning, and faster transfer"
+    },
+    {
+     "t0_ms": 588610,
+     "text": "and ramp to high yield and output."
+    },
+    {
+     "t0_ms": 592210,
+     "text": "For Applied, EPIC means we are designed to integrate new technologies,"
+    },
+    {
+     "t0_ms": 594810,
+     "text": "which we began earlier at new chip and packaging architectures,"
+    },
+    {
+     "t0_ms": 599110,
+     "text": "gain better visibility into multiple generations of customer roadmaps,"
+    },
+    {
+     "t0_ms": 604150,
+     "text": "and increase our R&D productivity."
+    },
+    {
+     "t0_ms": 607450,
+     "text": "Since our last earnings call, we have added four more EPIC partners,"
+    },
+    {
+     "t0_ms": 611830,
+     "text": "Intel, Kyoksha, Bessie, and UCLA, bringing our total number of announced"
+    }
+   ]
+  },
+  {
+   "t0_ms": 618130,
+   "t1_ms": 658270,
+   "speaker": "Management",
+   "text": "EPIC partnerships to 15, clear validation of the value of co-innovating with Applied. At our investor event, we also outlined our 2025 to 2030 value creation targets to gain more than two points of wafer fab equipment share, increase service revenue per install-based tool by 20% or more, and increase gross margin and operating margin by five and ten points respectively. I am confident. We will make meaningful progress toward these targets in 2027,",
+   "parts": [
+    {
+     "t0_ms": 618130,
+     "text": "EPIC partnerships to 15, clear validation of the value of co-innovating"
+    },
+    {
+     "t0_ms": 624810,
+     "text": "with Applied."
+    },
+    {
+     "t0_ms": 626510,
+     "text": "At our investor event, we also outlined our 2025 to 2030 value creation"
+    },
+    {
+     "t0_ms": 633610,
+     "text": "targets to gain more than two points of wafer fab equipment share,"
+    },
+    {
+     "t0_ms": 638150,
+     "text": "increase service revenue per install-based tool by 20% or more,"
+    },
+    {
+     "t0_ms": 644330,
+     "text": "and increase gross margin and operating margin by five and ten points"
+    },
+    {
+     "t0_ms": 650210,
+     "text": "respectively."
+    },
+    {
+     "t0_ms": 651830,
+     "text": "I am confident."
+    },
+    {
+     "t0_ms": 652970,
+     "text": "We will make meaningful progress toward these targets in 2027,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 658270,
+   "t1_ms": 696250,
+   "speaker": "Management",
+   "text": "and all our teams are driving to higher targets. Before I hand over to Bryce, I'll quickly summarize. Fiscal 2026 was a record year for Applied Materials, and we're on track to grow our semiconductor systems business more than 40% this calendar year. We are growing faster than the wafer fab equipment market because of the strong leadership position we've built in leading-edge foundry logic, DRAM, and advanced packaging. These are the most enabling areas for AI computing, the fastest growing parts",
+   "parts": [
+    {
+     "t0_ms": 658270,
+     "text": "and all our teams are driving to higher targets."
+    },
+    {
+     "t0_ms": 663250,
+     "text": "Before I hand over to Bryce, I'll quickly summarize."
+    },
+    {
+     "t0_ms": 666490,
+     "text": "Fiscal 2026 was a record year for Applied Materials, and we're on track"
+    },
+    {
+     "t0_ms": 672030,
+     "text": "to grow our semiconductor systems business more than 40% this calendar year."
+    },
+    {
+     "t0_ms": 678630,
+     "text": "We are growing faster than the wafer fab equipment market because of"
+    },
+    {
+     "t0_ms": 682930,
+     "text": "the strong leadership position we've built in leading-edge foundry logic,"
+    },
+    {
+     "t0_ms": 687830,
+     "text": "DRAM, and advanced packaging."
+    },
+    {
+     "t0_ms": 690510,
+     "text": "These are the most enabling areas for AI computing, the fastest growing parts"
+    }
+   ]
+  },
+  {
+   "t0_ms": 696250,
+   "t1_ms": 739650,
+   "speaker": "Management",
+   "text": "of wafer fab equipment in 2027, and where Applied has invested strategically to build the industry's most enabling portfolio. We see 2027 as another record year for the industry and another year for the industry and for the industry. of outperformance for Applied, in which we expect to make significant progress towards our long-term targets. In short, AI is driving a multi-year expansion in semiconductor demand, and Applied has never been better positioned to lead and outgrow the market. Bryce, over to you. Thanks, Gary. I'm pleased to share that Applied delivered a third consecutive quarter of double",
+   "parts": [
+    {
+     "t0_ms": 696250,
+     "text": "of wafer fab equipment in 2027, and where Applied has invested strategically"
+    },
+    {
+     "t0_ms": 703290,
+     "text": "to build the industry's most enabling portfolio."
+    },
+    {
+     "t0_ms": 707390,
+     "text": "We see 2027 as another record year for the industry and another year for the"
+    },
+    {
+     "t0_ms": 712350,
+     "text": "industry and for the industry."
+    },
+    {
+     "t0_ms": 712930,
+     "text": "of outperformance for Applied, in which we expect to make significant progress towards our long-term"
+    },
+    {
+     "t0_ms": 719970,
+     "text": "targets. In short, AI is driving a multi-year expansion in semiconductor demand, and Applied"
+    },
+    {
+     "t0_ms": 727590,
+     "text": "has never been better positioned to lead and outgrow the market. Bryce, over to you."
+    },
+    {
+     "t0_ms": 734510,
+     "text": "Thanks, Gary. I'm pleased to share that Applied delivered a third consecutive quarter of double"
+    }
+   ]
+  },
+  {
+   "t0_ms": 739650,
+   "t1_ms": 780650,
+   "speaker": "Management",
+   "text": "digit sequential in year-over-year growth in revenue, operating profit, and non-gap earnings per share. Fiscal Q4 also marks our 14th consecutive quarter of year-over-year gross margin expansion, which demonstrates the customer value of our highly enabling product and services portfolio. We expect to outperform the market this calendar year with strong growth in DRAM, leading-edge foundry logic, and advanced packaging, which is precisely where we've been investing to lead. I'd like to thank our manufacturer, and operations teams, and our partners for responding to further increases in customer demand and helping make these strong results possible. On today's call, I'll update you on",
+   "parts": [
+    {
+     "t0_ms": 739650,
+     "text": "digit sequential in year-over-year growth in revenue, operating profit, and non-gap earnings"
+    },
+    {
+     "t0_ms": 744790,
+     "text": "per share. Fiscal Q4 also marks our 14th consecutive quarter of year-over-year gross margin expansion,"
+    },
+    {
+     "t0_ms": 752090,
+     "text": "which demonstrates the customer value of our highly enabling product and services portfolio."
+    },
+    {
+     "t0_ms": 757610,
+     "text": "We expect to outperform the market this calendar year with strong growth in DRAM,"
+    },
+    {
+     "t0_ms": 762910,
+     "text": "leading-edge foundry logic, and advanced packaging, which is precisely where we've"
+    },
+    {
+     "t0_ms": 766710,
+     "text": "been investing to lead. I'd like to thank our manufacturer,"
+    },
+    {
+     "t0_ms": 769830,
+     "text": "and operations teams, and our partners for responding to further increases in customer"
+    },
+    {
+     "t0_ms": 774590,
+     "text": "demand and helping make these strong results possible. On today's call, I'll update you on"
+    }
+   ]
+  },
+  {
+   "t0_ms": 780650,
+   "t1_ms": 820350,
+   "speaker": "Management",
+   "text": "the demand environment, summarize our fiscal 2026 and Q4 results, and provide our Q1 business outlook. All the leading indicators we track continue to point upwards. Cloud CapEx is expected to increase more than 50% in 2027 to well over a trillion dollars. in dollars. AI token usage is growing exponentially. The increasing variety of AI models is enabling more applications and generating positive economics, both for service providers and for early adopters like Applied Materials. AI is now a core part of everyday work at Applied.",
+   "parts": [
+    {
+     "t0_ms": 780650,
+     "text": "the demand environment, summarize our fiscal 2026 and Q4 results, and provide our Q1 business"
+    },
+    {
+     "t0_ms": 787530,
+     "text": "outlook. All the leading indicators we track continue to point upwards. Cloud CapEx is"
+    },
+    {
+     "t0_ms": 793890,
+     "text": "expected to increase more than 50% in 2027 to well over a trillion dollars."
+    },
+    {
+     "t0_ms": 799650,
+     "text": "in dollars. AI token usage is growing exponentially. The increasing variety of AI models is enabling"
+    },
+    {
+     "t0_ms": 807710,
+     "text": "more applications and generating positive economics, both for service providers and for"
+    },
+    {
+     "t0_ms": 813810,
+     "text": "early adopters like Applied Materials. AI is now a core part of everyday work at Applied."
+    }
+   ]
+  },
+  {
+   "t0_ms": 821090,
+   "t1_ms": 862710,
+   "speaker": "Management",
+   "text": "Over 80% of our employees use tools like Microsoft Copilot and Anthropix Cloud, along with newer domain-specific tools for materials discovery and engineering. Inferencing is driving positive results throughout the company, from equipment and software development to field service, operations, and back office functions. All our software developers use AI, with an average productivity gain of over 40%. As a result, our monthly token consumption grew by more than 50 times this year, and we expect our token and task usage to increase substantially in 2020. We are now in the early 2027, as we find more ways to use AI to accelerate revenue, improve customer",
+   "parts": [
+    {
+     "t0_ms": 821090,
+     "text": "Over 80% of our employees use tools like Microsoft Copilot and Anthropix Cloud, along with newer"
+    },
+    {
+     "t0_ms": 828110,
+     "text": "domain-specific tools for materials discovery and engineering. Inferencing is driving positive"
+    },
+    {
+     "t0_ms": 834510,
+     "text": "results throughout the company, from equipment and software development to field service,"
+    },
+    {
+     "t0_ms": 839410,
+     "text": "operations, and back office functions. All our software developers use AI, with an average"
+    },
+    {
+     "t0_ms": 845790,
+     "text": "productivity gain of over 40%. As a result, our monthly token consumption grew by more than 50"
+    },
+    {
+     "t0_ms": 851890,
+     "text": "times this year, and we expect our token and task usage to increase substantially in 2020."
+    },
+    {
+     "t0_ms": 858110,
+     "text": "We are now in the early 2027, as we find more ways to use AI to accelerate revenue, improve customer"
+    }
+   ]
+  },
+  {
+   "t0_ms": 862710,
+   "t1_ms": 905550,
+   "speaker": "Management",
+   "text": "service, and operate more efficiently. AI continues to drive strong, incremental growth in wafer demand, with leading-edge logic and DRAM fabs running at full utilization. NAND is not far behind, and ICAPS is now in a healthy zone. In the near term, a major focus is expanding our supply chain capacity to further increase the number of systems we can produce. We've raised our demand forecast to our suppliers every quarter this year, and they are partnering with us as the 2027 demand outlook continues to increase. We've mapped our supply chain, and our teams and partners are executing to manage pinch points and deliver another very",
+   "parts": [
+    {
+     "t0_ms": 862710,
+     "text": "service, and operate more efficiently. AI continues to drive strong, incremental growth in wafer demand,"
+    },
+    {
+     "t0_ms": 870930,
+     "text": "with leading-edge logic and DRAM fabs running at full utilization. NAND is not far behind,"
+    },
+    {
+     "t0_ms": 877430,
+     "text": "and ICAPS is now in a healthy zone. In the near term, a major focus is expanding our supply chain"
+    },
+    {
+     "t0_ms": 884710,
+     "text": "capacity to further increase the number of systems we can produce."
+    },
+    {
+     "t0_ms": 888110,
+     "text": "We've raised our demand forecast to our suppliers every quarter this year, and they are partnering"
+    },
+    {
+     "t0_ms": 893630,
+     "text": "with us as the 2027 demand outlook continues to increase. We've mapped our supply chain,"
+    },
+    {
+     "t0_ms": 900610,
+     "text": "and our teams and partners are executing to manage pinch points and deliver another very"
+    }
+   ]
+  },
+  {
+   "t0_ms": 905550,
+   "t1_ms": 948090,
+   "speaker": "Management",
+   "text": "strong growth year. Over the medium term, cleanroom capacity remains a gaining factor for how much equipment the industry can consume. Fortunately, we're tracking more than 20 fab ramps and line expansions in 2027 alone. We've created new teams and AIX technologies that will help our customers accelerate these ramps and maximize wafer output and yields. Longer term, demand signals from our customers remain very positive, with more than 10 major fabs and expansion projects added to our tracker for the third quarter in a row. Many of these new projects are not expected to come online until 2029 and 2030, but we're still working on a lot of new projects. We're working",
+   "parts": [
+    {
+     "t0_ms": 905550,
+     "text": "strong growth year. Over the medium term, cleanroom capacity remains a gaining factor"
+    },
+    {
+     "t0_ms": 911130,
+     "text": "for how much equipment the industry can consume. Fortunately, we're tracking more than 20 fab ramps"
+    },
+    {
+     "t0_ms": 918110,
+     "text": "and line expansions in 2027 alone. We've created new teams and AIX technologies that will help our"
+    },
+    {
+     "t0_ms": 925830,
+     "text": "customers accelerate these ramps and maximize wafer output and yields. Longer term, demand signals from"
+    },
+    {
+     "t0_ms": 934010,
+     "text": "our customers remain very positive, with more than 10 major fabs and expansion projects added"
+    },
+    {
+     "t0_ms": 939610,
+     "text": "to our tracker for the third quarter in a row. Many of these new projects are not expected to"
+    },
+    {
+     "t0_ms": 944630,
+     "text": "come online until 2029 and 2030, but we're still working on a lot of new projects. We're working"
+    }
+   ]
+  },
+  {
+   "t0_ms": 948110,
+   "t1_ms": 986110,
+   "speaker": "Management",
+   "text": "hard to build a new report system that will support the new solutions and a better, more sustainable, and enhanced 5-10 year horizon for our customers throughout 2020. At Applied, we're already working with customers to forecast their needs through 2030. To support our customers' growth, we are investing to be able to double our systems output from Q42026 levels by 2028, and more than double our manufacturing and lab capacity by 2030. Next, I'll briefly summarize the results of our research. The results of our research show that in the last two years, we've expanded our supply chain to what was an average of We summarized fiscal 2026 during which we grew revenue by over 21% to $34.4 billion,",
+   "parts": [
+    {
+     "t0_ms": 948110,
+     "text": "hard to build a new report system that will support the new solutions and a better, more"
+    },
+    {
+     "t0_ms": 952910,
+     "text": "sustainable, and enhanced 5-10 year horizon for our customers throughout 2020."
+    },
+    {
+     "t0_ms": 958870,
+     "text": "At Applied, we're already working with customers to forecast their needs through 2030. To support"
+    },
+    {
+     "t0_ms": 963430,
+     "text": "our customers' growth, we are investing to be able to double our systems output from"
+    },
+    {
+     "t0_ms": 967690,
+     "text": "Q42026 levels by 2028, and more than double our manufacturing and lab capacity by 2030."
+    },
+    {
+     "t0_ms": 975430,
+     "text": "Next, I'll briefly summarize the results of our research. The results of our research"
+    },
+    {
+     "t0_ms": 977230,
+     "text": "show that in the last two years, we've expanded our supply chain to what was an average of"
+    },
+    {
+     "t0_ms": 978110,
+     "text": "We summarized fiscal 2026 during which we grew revenue by over 21% to $34.4 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 986110,
+   "t1_ms": 1027530,
+   "speaker": "Management",
+   "text": "expanded non-GAAP gross margin by 130 basis points to 50.1%, and increased non-GAAP EPS by 37% to $12.89. We generated double-digit revenue growth in Semi Systems and AGS and increased gross margins in both segments by around 150 basis points. Operating cash flow was $8.9 billion, up 11%, and after $2.7 billion in capital expenditures, free cash flow was $6.2 billion, up 9%. We distributed over $4.7 billion to shareholders, including nearly $3.2 billion in stock buybacks",
+   "parts": [
+    {
+     "t0_ms": 986110,
+     "text": "expanded non-GAAP gross margin by 130 basis points to 50.1%, and increased non-GAAP EPS"
+    },
+    {
+     "t0_ms": 993230,
+     "text": "by 37% to $12.89."
+    },
+    {
+     "t0_ms": 997470,
+     "text": "We generated double-digit revenue growth in Semi Systems and AGS and increased gross margins"
+    },
+    {
+     "t0_ms": 1003810,
+     "text": "in both segments by around 150 basis points."
+    },
+    {
+     "t0_ms": 1008590,
+     "text": "Operating cash flow was $8.9 billion, up 11%, and after $2.7 billion in capital expenditures,"
+    },
+    {
+     "t0_ms": 1016110,
+     "text": "free cash flow was $6.2 billion, up 9%."
+    },
+    {
+     "t0_ms": 1020890,
+     "text": "We distributed over $4.7 billion to shareholders, including nearly $3.2 billion in stock buybacks"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1027530,
+   "t1_ms": 1031290,
+   "speaker": "Management",
+   "text": "and $1.6 billion in cash dividends.",
+   "parts": [
+    {
+     "t0_ms": 1027530,
+     "text": "and $1.6 billion in cash dividends."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1031290,
+   "t1_ms": 1033589,
+   "speaker": "Analyst",
+   "text": "Turning to our Q4 results.",
+   "parts": [
+    {
+     "t0_ms": 1031290,
+     "text": "Turning to our Q4 results."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1033589,
+   "t1_ms": 1074550,
+   "speaker": "Management",
+   "text": "We delivered the highest dollar growth in our history, generating record revenue of $10.4 billion, which is up 14% sequentially and 53% year-over-year. Non-GAAP gross margin increased to 50.6%, up 20 basis points sequentially and 250 basis points year-over-year, driven by favorable mix effects and higher pricing. Non-GAAP operating margin expanded to a record 35.3%, up 109%. We delivered the highest dollar growth in our history, generating record revenue of $4.7 billion, up 11%, and after $2.7 billion in capital expenditures, free cash flow was $4.7 billion, up 11%, and between $10.4 billion and 50 basis points sequentially and 50 basis points year-over-year. We delivered strong operating leverage with Non-GAAP OpEx as a percent of revenue, declining",
+   "parts": [
+    {
+     "t0_ms": 1033589,
+     "text": "We delivered the highest dollar growth in our history, generating record revenue of"
+    },
+    {
+     "t0_ms": 1038970,
+     "text": "$10.4 billion, which is up 14% sequentially and 53% year-over-year."
+    },
+    {
+     "t0_ms": 1046210,
+     "text": "Non-GAAP gross margin increased to 50.6%, up 20 basis points sequentially and 250 basis"
+    },
+    {
+     "t0_ms": 1053070,
+     "text": "points year-over-year, driven by favorable mix effects and higher pricing."
+    },
+    {
+     "t0_ms": 1058890,
+     "text": "Non-GAAP operating margin expanded to a record 35.3%, up 109%."
+    },
+    {
+     "t0_ms": 1062370,
+     "text": "We delivered the highest dollar growth in our history, generating record revenue of"
+    },
+    {
+     "t0_ms": 1063370,
+     "text": "$4.7 billion, up 11%, and after $2.7 billion in capital expenditures, free cash flow"
+    },
+    {
+     "t0_ms": 1064370,
+     "text": "was $4.7 billion, up 11%, and between $10.4 billion and 50 basis points sequentially and"
+    },
+    {
+     "t0_ms": 1065370,
+     "text": "50 basis points year-over-year."
+    },
+    {
+     "t0_ms": 1066370,
+     "text": "We delivered strong operating leverage with Non-GAAP OpEx as a percent of revenue, declining"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1074550,
+   "t1_ms": 1117790,
+   "speaker": "Management",
+   "text": "by 430 basis points year-over-year to 15.2%. We increased Non-GAAP earnings per share to a record $4.16, up 19% sequentially and 92% year-over-year. We plan to drive further gross margin expansion by introducing more and more non-GAAP operating leverage, including non-GAAP operating leverage, and non-GAAP operating leverage, up 19% sequentially and 92% year-over-year. We also plan to further increase operating leverage and margins as our AI and automation strategies enable us to scale our support function capabilities with minimal increases in headcount. Turning to segment performance in Q4, semiconductor systems delivered record revenue of $8 billion,",
+   "parts": [
+    {
+     "t0_ms": 1074550,
+     "text": "by 430 basis points year-over-year to 15.2%."
+    },
+    {
+     "t0_ms": 1079870,
+     "text": "We increased Non-GAAP earnings per share to a record $4.16, up 19% sequentially and 92%"
+    },
+    {
+     "t0_ms": 1088110,
+     "text": "year-over-year."
+    },
+    {
+     "t0_ms": 1089110,
+     "text": "We plan to drive further gross margin expansion by introducing more and more non-GAAP operating"
+    },
+    {
+     "t0_ms": 1091990,
+     "text": "leverage, including non-GAAP operating leverage, and non-GAAP operating leverage, up 19% sequentially"
+    },
+    {
+     "t0_ms": 1092990,
+     "text": "and 92% year-over-year."
+    },
+    {
+     "t0_ms": 1093370,
+     "text": "We also plan to further increase operating leverage and margins as our AI and automation"
+    },
+    {
+     "t0_ms": 1102710,
+     "text": "strategies enable us to scale our support function capabilities with minimal increases"
+    },
+    {
+     "t0_ms": 1108390,
+     "text": "in headcount."
+    },
+    {
+     "t0_ms": 1110570,
+     "text": "Turning to segment performance in Q4, semiconductor systems delivered record revenue of $8 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1117790,
+   "t1_ms": 1157790,
+   "speaker": "Management",
+   "text": "up 14% sequentially and 64% year-over-year, including record sales in Korea and North Korea. We also plan to increase operating leverage and margins as our AI and automation strategies, enable us to scale our support function capabilities with minimal increases in headcount. and Taiwan. DRAM grew strongly as we expected it would, and we posted record revenue in both DRAM and advanced packaging. From a product perspective in Q4, we had record revenue in deposition across PVD, CVD, ALD, and epitaxy. We also had record revenue in etch, CMP, and process control. Segment non-gap gross margin increased 240 basis points year-over-year to 55.2%, and non-gap operating margin increased over 940 basis points year-over-year to 39%.",
+   "parts": [
+    {
+     "t0_ms": 1117790,
+     "text": "up 14% sequentially and 64% year-over-year, including record sales in Korea and North Korea."
+    },
+    {
+     "t0_ms": 1122490,
+     "text": "We also plan to increase operating leverage and margins as our AI and automation strategies,"
+    },
+    {
+     "t0_ms": 1123330,
+     "text": "enable us to scale our support function capabilities with minimal increases in headcount."
+    },
+    {
+     "t0_ms": 1123370,
+     "text": "and Taiwan. DRAM grew strongly as we expected it would, and we posted record revenue in both DRAM"
+    },
+    {
+     "t0_ms": 1129810,
+     "text": "and advanced packaging. From a product perspective in Q4, we had record revenue in deposition across"
+    },
+    {
+     "t0_ms": 1136550,
+     "text": "PVD, CVD, ALD, and epitaxy. We also had record revenue in etch, CMP, and process control."
+    },
+    {
+     "t0_ms": 1145810,
+     "text": "Segment non-gap gross margin increased 240 basis points year-over-year to 55.2%,"
+    },
+    {
+     "t0_ms": 1151450,
+     "text": "and non-gap operating margin increased over 940 basis points year-over-year to 39%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1157790,
+   "t1_ms": 1200750,
+   "speaker": "Management",
+   "text": "Applied global services delivered record revenue of $1.9 billion, up 26% year-over-year, reflecting record revenue in both services and spares. AGS gross margin grew 100 basis points year-over-year to 35.1%, and non-gap operating margin increased nearly 170 basis points to 30.5%. Other revenues increased by 0.1% to 0.5%. Other revenues increased by 0.1% to 0.5%. Other revenues increased by 0.1% to 0.5%. The overall revenue of $517 million was in line with our expectations for the quarter. We generated record operating cash flow of $3.3 billion in Q4. Capital expenditures declined sequentially to $684 million, resulting in record free cash flow of $2.6 billion.",
+   "parts": [
+    {
+     "t0_ms": 1157790,
+     "text": "Applied global services delivered record revenue of $1.9 billion, up 26% year-over-year,"
+    },
+    {
+     "t0_ms": 1165010,
+     "text": "reflecting record revenue in both services and spares. AGS gross margin grew 100 basis points"
+    },
+    {
+     "t0_ms": 1171490,
+     "text": "year-over-year to 35.1%, and non-gap operating margin increased nearly 170 basis points to 30.5%."
+    },
+    {
+     "t0_ms": 1180410,
+     "text": "Other revenues increased by 0.1% to 0.5%."
+    },
+    {
+     "t0_ms": 1181430,
+     "text": "Other revenues increased by 0.1% to 0.5%. Other revenues increased by 0.1% to 0.5%."
+    },
+    {
+     "t0_ms": 1181450,
+     "text": "The overall revenue of $517 million was in line with our expectations for the quarter."
+    },
+    {
+     "t0_ms": 1187710,
+     "text": "We generated record operating cash flow of $3.3 billion in Q4. Capital expenditures declined"
+    },
+    {
+     "t0_ms": 1195290,
+     "text": "sequentially to $684 million, resulting in record free cash flow of $2.6 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1201490,
+   "t1_ms": 1240250,
+   "speaker": "Management",
+   "text": "We distributed over $2.4 billion to shareholders, including $2 billion in stock buybacks and $421 million in cash dividends. We have $10.8 billion remaining in our share buyback authorization and continue to expect to distribute 80% to 100% of free cash flow to shareholders over time. Now, I'll share our business outlook for Q1, which, as a reminder, is a 14-week quarter, which benefits AGS revenue growth in the period. We expect company revenue of $11.1 billion, plus or minus $500 million, which is up 58% year-over-year at the midpoint. We expect company revenue of $11.1 billion, plus or minus $500 million, which is up 58% year-over-year at the midpoint.",
+   "parts": [
+    {
+     "t0_ms": 1201490,
+     "text": "We distributed over $2.4 billion to shareholders, including $2 billion in stock buybacks"
+    },
+    {
+     "t0_ms": 1207590,
+     "text": "and $421 million in cash dividends."
+    },
+    {
+     "t0_ms": 1210270,
+     "text": "We have $10.8 billion remaining in our share buyback authorization and continue to expect"
+    },
+    {
+     "t0_ms": 1216270,
+     "text": "to distribute 80% to 100% of free cash flow to shareholders over time."
+    },
+    {
+     "t0_ms": 1220990,
+     "text": "Now, I'll share our business outlook for Q1, which, as a reminder, is a 14-week quarter,"
+    },
+    {
+     "t0_ms": 1227790,
+     "text": "which benefits AGS revenue growth in the period."
+    },
+    {
+     "t0_ms": 1231150,
+     "text": "We expect company revenue of $11.1 billion, plus or minus $500 million, which is up 58%"
+    },
+    {
+     "t0_ms": 1237610,
+     "text": "year-over-year at the midpoint."
+    },
+    {
+     "t0_ms": 1239510,
+     "text": "We expect company revenue of $11.1 billion, plus or minus $500 million, which is up 58% year-over-year at the midpoint."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1240250,
+   "t1_ms": 1284150,
+   "speaker": "Management",
+   "text": "We expect non-GAAP EPS of $4.35, plus or minus $0.20, which is up 83% year-over-year. Within this outlook, we expect semiconductor systems revenue of around $8.7 billion, up 69% year-over-year, our first AGS quarter of $2 billion, up 28% year-over-year, and other revenue of around $400 million. We expect non-GAAP gross margin to increase to approximately $50%. We expect non-GAAP operating expenses of around $1.7 billion. We are modeling a non-GAAP tax rate of around 13%.",
+   "parts": [
+    {
+     "t0_ms": 1240250,
+     "text": "We expect non-GAAP EPS of $4.35, plus or minus $0.20, which is up 83% year-over-year."
+    },
+    {
+     "t0_ms": 1248370,
+     "text": "Within this outlook, we expect semiconductor systems revenue of around $8.7 billion, up"
+    },
+    {
+     "t0_ms": 1254670,
+     "text": "69% year-over-year, our first AGS quarter of $2 billion, up 28% year-over-year, and"
+    },
+    {
+     "t0_ms": 1263670,
+     "text": "other revenue of around $400 million."
+    },
+    {
+     "t0_ms": 1265690,
+     "text": "We expect non-GAAP gross margin to increase to approximately $50%."
+    },
+    {
+     "t0_ms": 1270250,
+     "text": "We expect non-GAAP operating expenses of around $1.7 billion."
+    },
+    {
+     "t0_ms": 1280450,
+     "text": "We are modeling a non-GAAP tax rate of around 13%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1284150,
+   "t1_ms": 1326590,
+   "speaker": "Management",
+   "text": "Finally, to help with your modeling after the 14-week quarter, we expect AGS revenue to remain close to Q1 levels in Q2 and OPEX in Q2 to be around 15% of revenue. In summary, AI continues to add a fast-growing and incremental layer of demand to the industry. The investments we've made to help enable this new wave have given us a rich and growing portfolio of highly enabling products and services. Our technology leadership in the most critical markets is now evident in our strong revenue growth and gross margin expansion. Our focus on operating leverage is producing record operating margins and contributing",
+   "parts": [
+    {
+     "t0_ms": 1284150,
+     "text": "Finally, to help with your modeling after the 14-week quarter, we expect AGS revenue"
+    },
+    {
+     "t0_ms": 1291330,
+     "text": "to remain close to Q1 levels in Q2 and OPEX in Q2 to be around 15% of revenue."
+    },
+    {
+     "t0_ms": 1298370,
+     "text": "In summary,"
+    },
+    {
+     "t0_ms": 1300250,
+     "text": "AI continues to add a fast-growing and incremental layer of demand to the industry."
+    },
+    {
+     "t0_ms": 1305390,
+     "text": "The investments we've made to help enable this new wave have given us a rich and growing"
+    },
+    {
+     "t0_ms": 1309850,
+     "text": "portfolio of highly enabling products and services."
+    },
+    {
+     "t0_ms": 1313250,
+     "text": "Our technology leadership in the most critical markets is now evident in our strong revenue"
+    },
+    {
+     "t0_ms": 1318790,
+     "text": "growth and gross margin expansion."
+    },
+    {
+     "t0_ms": 1321070,
+     "text": "Our focus on operating leverage is producing record operating margins and contributing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1326590,
+   "t1_ms": 1369990,
+   "speaker": "Management",
+   "text": "to strong cash flow and shareholder distributions, including the largest quarterly share buyback in over eight years! We continue to have long visibility from our customers, expect another strong record year in 2027, and are making substantial investments to be able to ramp to higher levels beyond next year. We have high confidence in our strategy, and that we will demonstrate continuous progress on share gains, gross margin expansion, and operating leverage. Now Mike, let's start the Q&A. Thanks, Bryce! us reach as many people as we can on today's call please ask just one question and no more than one brief follow-up operator let's please begin certainly and ladies and gentlemen if you do",
+   "parts": [
+    {
+     "t0_ms": 1326590,
+     "text": "to strong cash flow and shareholder distributions,"
+    },
+    {
+     "t0_ms": 1329430,
+     "text": "including the largest quarterly share buyback in over eight years!"
+    },
+    {
+     "t0_ms": 1334150,
+     "text": "We continue to have long visibility from our customers, expect another strong record year"
+    },
+    {
+     "t0_ms": 1338810,
+     "text": "in 2027, and are making substantial investments to be able to ramp to higher levels beyond"
+    },
+    {
+     "t0_ms": 1345710,
+     "text": "next year."
+    },
+    {
+     "t0_ms": 1347110,
+     "text": "We have high confidence in our strategy, and that we will demonstrate continuous progress"
+    },
+    {
+     "t0_ms": 1352110,
+     "text": "on share gains, gross margin expansion, and operating leverage."
+    },
+    {
+     "t0_ms": 1356430,
+     "text": "Now Mike, let's start the Q&A."
+    },
+    {
+     "t0_ms": 1358430,
+     "text": "Thanks, Bryce!"
+    },
+    {
+     "t0_ms": 1359430,
+     "text": "us reach as many people as we can on today's call please ask just one question and no more than one"
+    },
+    {
+     "t0_ms": 1364470,
+     "text": "brief follow-up operator let's please begin certainly and ladies and gentlemen if you do"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1369990,
+   "t1_ms": 1383110,
+   "speaker": "Operator",
+   "text": "have a question at this time please press star 1-1 on your telephone if your question has been answered and you'd like to remove yourself from the queue simply press star 1-1 again and our first question for today comes from the line of cj muse from canterford's gerald your",
+   "parts": [
+    {
+     "t0_ms": 1369990,
+     "text": "have a question at this time please press star 1-1 on your telephone if your question has been"
+    },
+    {
+     "t0_ms": 1374310,
+     "text": "answered and you'd like to remove yourself from the queue simply press star 1-1 again"
+    },
+    {
+     "t0_ms": 1378470,
+     "text": "and our first question for today comes from the line of cj muse from canterford's gerald your"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1383110,
+   "t1_ms": 1422130,
+   "speaker": "Analyst",
+   "text": "question please yeah good afternoon thanks for taking the question i guess first question we'd love to hear um how uh the demand environment has changed or evolved in the last three months you talked about visibility at the 28 29 would love to hear you know you know more of you know how those conversations are going and if you can be kind of specific around end market boundary logic drem and and i guess as part of it you know i think bryce you talked about doubling your system output but also doubling manufacturing and lab capacity by 2030 if you can kind of kind of bridge what kind of growth you're implying overall for the future and i think that's a big question for you and i think that's a big question for you and i think that's a big question for you and i think that's a big question for you and i think that's a big question for shipments you know into the 28 and then 30 time frame as part of it would be very helpful thanks",
+   "parts": [
+    {
+     "t0_ms": 1383110,
+     "text": "question please yeah good afternoon thanks for taking the question i guess first question we'd"
+    },
+    {
+     "t0_ms": 1387350,
+     "text": "love to hear um how uh the demand environment has changed or evolved in the last three months"
+    },
+    {
+     "t0_ms": 1393350,
+     "text": "you talked about visibility at the 28 29 would love to hear you know you know more of you know"
+    },
+    {
+     "t0_ms": 1398390,
+     "text": "how those conversations are going and if you can be kind of specific around end market boundary"
+    },
+    {
+     "t0_ms": 1403190,
+     "text": "logic drem and and i guess as part of it you know i think bryce you talked about doubling"
+    },
+    {
+     "t0_ms": 1407750,
+     "text": "your system output but also doubling manufacturing and lab capacity by 2030 if you can kind of kind"
+    },
+    {
+     "t0_ms": 1413190,
+     "text": "of bridge what kind of growth you're implying overall for the future and i think that's a"
+    },
+    {
+     "t0_ms": 1417270,
+     "text": "big question for you and i think that's a big question for you and i think that's a big question"
+    },
+    {
+     "t0_ms": 1417330,
+     "text": "for you and i think that's a big question for you and i think that's a big question for shipments"
+    },
+    {
+     "t0_ms": 1418130,
+     "text": "you know into the 28 and then 30 time frame as part of it would be very helpful thanks"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1423730,
+   "t1_ms": 1466570,
+   "speaker": "Management",
+   "text": "sure uh nice to hear from you cj so uh on the demand you know environment over the last 90 days we've continued to see increases from customers so uh you know we mentioned that we added more than 10 projects to our factory tractor those are fab you know new fab construction projects and existing fab conversions that are added so that's the third quarter in a row that we've added more than than 10 projects to the tracker. So the environment continues to strengthen. We see that the leading edge logic and DRAM market are constrained. So customers are looking to add capacity as much as possible and pull in projects where they can do. So the environment continues to be similar",
+   "parts": [
+    {
+     "t0_ms": 1423730,
+     "text": "sure uh nice to hear from you cj so uh on the demand you know environment over the last 90 days"
+    },
+    {
+     "t0_ms": 1429810,
+     "text": "we've continued to see increases from customers so uh you know we mentioned that we added more than"
+    },
+    {
+     "t0_ms": 1435570,
+     "text": "10 projects to our factory tractor those are fab you know new fab construction projects and existing"
+    },
+    {
+     "t0_ms": 1442050,
+     "text": "fab conversions that are added so that's the third quarter in a row that we've added more than"
+    },
+    {
+     "t0_ms": 1447250,
+     "text": "than 10 projects to the tracker. So the environment continues to strengthen. We see that the leading"
+    },
+    {
+     "t0_ms": 1453270,
+     "text": "edge logic and DRAM market are constrained. So customers are looking to add capacity as much"
+    },
+    {
+     "t0_ms": 1460910,
+     "text": "as possible and pull in projects where they can do. So the environment continues to be similar"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1466570,
+   "t1_ms": 1508910,
+   "speaker": "Management",
+   "text": "to prior quarters where it continues to strengthen from that perspective. And then on capacity investments, we are increasing our capacity. By 2028, we'll be able to double our output. So we just had an $8 billion quarter. So you can calculate that. That'll be a capacity capability that we'll have. And then since we're not fully loaded today, doubling the output is one thing. Doubling our capacity is another thing, which we'll accomplish by 2030. So that will allow an even greater level of output. The way we think of it is we have to have the capacity to construct. We have to have the capacity to construct. We have to have the capacity to cover all ranges of scenarios from an output perspective. And we're definitely looking at",
+   "parts": [
+    {
+     "t0_ms": 1466570,
+     "text": "to prior quarters where it continues to strengthen from that perspective. And then on capacity"
+    },
+    {
+     "t0_ms": 1472290,
+     "text": "investments, we are increasing our capacity. By 2028, we'll be able to double our output."
+    },
+    {
+     "t0_ms": 1478650,
+     "text": "So we just had an $8 billion quarter. So you can calculate that. That'll be a capacity capability"
+    },
+    {
+     "t0_ms": 1484190,
+     "text": "that we'll have. And then since we're not fully loaded today, doubling the output is one thing."
+    },
+    {
+     "t0_ms": 1491350,
+     "text": "Doubling our capacity is another thing, which we'll accomplish by 2030. So that will allow"
+    },
+    {
+     "t0_ms": 1496410,
+     "text": "an even greater level of output. The way we think of it is we have to have the capacity"
+    },
+    {
+     "t0_ms": 1501750,
+     "text": "to construct. We have to have the capacity to construct. We have to have the capacity to"
+    },
+    {
+     "t0_ms": 1502270,
+     "text": "cover all ranges of scenarios from an output perspective. And we're definitely looking at"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1508910,
+   "t1_ms": 1548900,
+   "speaker": "Management",
+   "text": "the growth rate that continues to pick up and making sure that we'll have the capacity to accomplish that. And then we're also sharing all this information with our suppliers. CJ, one thing I would add beyond the leading edge Foundry Logic and DRAM, which are being driven by AI, advanced packaging is another area that we see tremendous demand from customers. We talked about our business being up 90% in calendar year 26. We see very strong growth in 27 and also going forward in that segment also. Very helpful. And a quick follow-up,",
+   "parts": [
+    {
+     "t0_ms": 1508910,
+     "text": "the growth rate that continues to pick up and making sure that we'll have the capacity to"
+    },
+    {
+     "t0_ms": 1513990,
+     "text": "accomplish that. And then we're also sharing all this information with our suppliers."
+    },
+    {
+     "t0_ms": 1520210,
+     "text": "CJ, one thing I would add beyond the leading edge Foundry Logic and DRAM,"
+    },
+    {
+     "t0_ms": 1525890,
+     "text": "which are being driven by AI, advanced packaging is another area that we see tremendous demand"
+    },
+    {
+     "t0_ms": 1532570,
+     "text": "from customers. We talked about our business being up 90% in calendar year 26. We see very"
+    },
+    {
+     "t0_ms": 1540150,
+     "text": "strong growth in 27 and also going forward in that segment also. Very helpful. And a quick follow-up,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1549580,
+   "t1_ms": 1568420,
+   "speaker": "Analyst",
+   "text": "if you could speak to kind of the work that you're doing with your suppliers and your suppliers' suppliers, you know, are you kind of funding, you know, giving upfront deposits? You know, we'd love to hear kind of how you're facilitating, you know, what should be, you know, another tremendous kind of growth vector over the",
+   "parts": [
+    {
+     "t0_ms": 1549580,
+     "text": "if you could speak to kind of the work that you're doing with your suppliers and your suppliers'"
+    },
+    {
+     "t0_ms": 1553780,
+     "text": "suppliers, you know, are you kind of funding, you know,"
+    },
+    {
+     "t0_ms": 1558320,
+     "text": "giving upfront deposits? You know, we'd love to hear kind of how you're facilitating,"
+    },
+    {
+     "t0_ms": 1563400,
+     "text": "you know, what should be, you know, another tremendous kind of growth vector over the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1568420,
+   "t1_ms": 1610160,
+   "speaker": "Management",
+   "text": "coming two, three plus years. Yeah, it's a great question, CJ. You know, we talk about having over 2,000 suppliers and everybody needs to increase their output. And the first thing we've done is made sure we've got all of the data coming from our customers and getting to our suppliers. We talk about the eight quarter forecast. We're getting to our suppliers. We're getting to our suppliers. We're getting to our suppliers. that data to them. We're getting it in detail so that they can plan their output. The second thing that we're doing is, you know, working closely with the actual schedules for each quarter as we go through those eight quarters of the year. And as far as investments, I think all the suppliers are, you know, incentivized to make these investments and grow their own profitability.",
+   "parts": [
+    {
+     "t0_ms": 1568420,
+     "text": "coming two, three plus years. Yeah, it's a great question, CJ. You know,"
+    },
+    {
+     "t0_ms": 1573960,
+     "text": "we talk about having over 2,000 suppliers and everybody needs to increase their output. And"
+    },
+    {
+     "t0_ms": 1579300,
+     "text": "the first thing we've done is made sure we've got all of the data coming from our customers"
+    },
+    {
+     "t0_ms": 1584140,
+     "text": "and getting to our suppliers. We talk about the eight quarter forecast."
+    },
+    {
+     "t0_ms": 1587620,
+     "text": "We're getting to our suppliers. We're getting to our suppliers. We're getting to our suppliers."
+    },
+    {
+     "t0_ms": 1588300,
+     "text": "that data to them. We're getting it in detail so that they can plan their output. The second thing"
+    },
+    {
+     "t0_ms": 1594100,
+     "text": "that we're doing is, you know, working closely with the actual schedules for each quarter as we"
+    },
+    {
+     "t0_ms": 1600300,
+     "text": "go through those eight quarters of the year. And as far as investments, I think all the suppliers"
+    },
+    {
+     "t0_ms": 1606160,
+     "text": "are, you know, incentivized to make these investments and grow their own profitability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1610620,
+   "t1_ms": 1634210,
+   "speaker": "Management",
+   "text": "So we don't see any issues there. And, you know, from, you know, what's it look like? We don't see any roadblocks to the higher levels of demand that are being envisioned. There'll be plenty of pinch points that we talk about. So just about all the suppliers need to add capacity and add labor. So we're working on that with each of them. Thank you. Thank you. And our next question",
+   "parts": [
+    {
+     "t0_ms": 1610620,
+     "text": "So we don't see any issues there. And, you know, from, you know, what's it look like?"
+    },
+    {
+     "t0_ms": 1615360,
+     "text": "We don't see any roadblocks to the higher levels of demand that are being envisioned. There'll be"
+    },
+    {
+     "t0_ms": 1621020,
+     "text": "plenty of pinch points that we talk about. So just about all the suppliers need to add capacity and"
+    },
+    {
+     "t0_ms": 1625960,
+     "text": "add labor. So we're working on that with each of them. Thank you. Thank you. And our next question"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1634210,
+   "t1_ms": 1640610,
+   "speaker": "Operator",
+   "text": "comes from the line of Timothy Arcuri from UBS. Your question, please. Thanks a lot. Bryce, I'm",
+   "parts": [
+    {
+     "t0_ms": 1634210,
+     "text": "comes from the line of Timothy Arcuri from UBS. Your question, please. Thanks a lot. Bryce, I'm"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1640610,
+   "t1_ms": 1656440,
+   "speaker": "Analyst",
+   "text": "wondering if you can give us just a sense of what the mix is assumed for fiscal Q1. And I ask because you know, we've been talking about the mix for fiscal Q1 for a long time. And I think it's a lot of people are wondering if DRAM was up a ton for fiscal Q4. So I'm wondering if you think it'll be up a lot again. If you can give us like a sense of what the mix looks like. Hi, Tim. Yeah,",
+   "parts": [
+    {
+     "t0_ms": 1640610,
+     "text": "wondering if you can give us just a sense of what the mix is assumed for fiscal Q1. And I ask because"
+    },
+    {
+     "t0_ms": 1646550,
+     "text": "you know, we've been talking about the mix for fiscal Q1 for a long time. And I think it's a"
+    },
+    {
+     "t0_ms": 1646590,
+     "text": "lot of people are wondering if DRAM was up a ton for fiscal Q4. So I'm wondering if you think it'll"
+    },
+    {
+     "t0_ms": 1650030,
+     "text": "be up a lot again. If you can give us like a sense of what the mix looks like. Hi, Tim. Yeah,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1656540,
+   "t1_ms": 1696980,
+   "speaker": "Management",
+   "text": "we're expecting similar trends looking at Q1 where DRAM and leading logic will be very strong. We think both of those end markets are constrained. So customers are doing whatever they can to increase capacity as rapidly as possible. So we actually see a similar mix to what we saw in Q4. And as we look through the year for 27, we expect that to stay about the same. So leading edge DRAM and advanced packaging being the strongest growers for the year. And what's changing for us in 27 is that ICAPS, you know, the mature logic technologies, that looks like it will start to",
+   "parts": [
+    {
+     "t0_ms": 1656540,
+     "text": "we're expecting similar trends looking at Q1 where DRAM and leading logic will be very strong."
+    },
+    {
+     "t0_ms": 1663260,
+     "text": "We think both of those end markets are constrained. So customers are doing whatever they can to"
+    },
+    {
+     "t0_ms": 1669300,
+     "text": "increase capacity as rapidly as possible. So we actually see a similar mix to what we saw"
+    },
+    {
+     "t0_ms": 1677740,
+     "text": "in Q4. And as we look through the year for 27, we expect that to stay about the same. So leading"
+    },
+    {
+     "t0_ms": 1684280,
+     "text": "edge DRAM and advanced packaging being the strongest growers for the year. And what's changing for us"
+    },
+    {
+     "t0_ms": 1690260,
+     "text": "in 27 is that ICAPS, you know, the mature logic technologies, that looks like it will start to"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1696980,
+   "t1_ms": 1720580,
+   "speaker": "Management",
+   "text": "grow again and see greater investment in 27 as the market has digested, you know, the capacity and is getting normal from a capacity utilization perspective. So I'm wondering if you can give us a little bit of a sense of what the mix looks like. Yeah, maybe one thing I would also add, Tim, is that relative to the ICAPS growth in 27, it's going to be growing much faster in non-China versus China.",
+   "parts": [
+    {
+     "t0_ms": 1696980,
+     "text": "grow again and see greater investment in 27 as the market has digested, you know, the capacity and is"
+    },
+    {
+     "t0_ms": 1704500,
+     "text": "getting normal from a capacity utilization perspective. So I'm wondering if you can give us a"
+    },
+    {
+     "t0_ms": 1707720,
+     "text": "little bit of a sense of what the mix looks like. Yeah, maybe one thing I would also add, Tim, is that relative to the ICAPS growth in 27, it's going to be growing much faster in non-China versus China."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1723410,
+   "t1_ms": 1761390,
+   "speaker": "Analyst",
+   "text": "Okay, Gary, thank you. So Gary, I just wanted to ask, so the stock market sometimes leads fundamentals, but not always. And, you know, we know that there is a mismatch between what the supply chain is building in terms of gigawatts that will be ready from a, you know, shell point of view versus what, you know, the, you know, chips are being made. So I'm wondering if you can give us a sense of what the mix looks like. So, you know, I think that's a great question. I mean, I think there's a lot of things that we can build. So have you seen lately in the past, I don't know, a few weeks or months or anything, have you seen any customers come to you and said, hey, you know, things are great, but I might not want to take that tool exactly when I thought I would. And so, you know, maybe I want to take that a quarter or two or like a month or two later. Are you seeing any of that? Or is literally everyone pushing to get tools as fast as they can? Thanks, Gary.",
+   "parts": [
+    {
+     "t0_ms": 1723410,
+     "text": "Okay, Gary, thank you. So Gary, I just wanted to ask, so the stock market sometimes leads"
+    },
+    {
+     "t0_ms": 1728310,
+     "text": "fundamentals, but not always. And, you know, we know that there is a mismatch between what the"
+    },
+    {
+     "t0_ms": 1732870,
+     "text": "supply chain is building in terms of gigawatts that will be ready from a, you know, shell point"
+    },
+    {
+     "t0_ms": 1736290,
+     "text": "of view versus what, you know, the, you know, chips are being made. So I'm wondering if you can give us a sense of what the mix looks like."
+    },
+    {
+     "t0_ms": 1739550,
+     "text": "So, you know, I think that's a great question. I mean, I think there's a lot of things that we can build. So have you seen lately in the past, I don't know, a few weeks or months or anything, have you seen any customers come to you and said, hey, you know, things are great, but I might not want to take that tool exactly when I thought I would. And so, you know, maybe I want to take that a quarter or two or like a month or two later. Are you seeing any of that? Or is literally everyone pushing to get tools as fast as they can? Thanks, Gary."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1762270,
+   "t1_ms": 1785940,
+   "speaker": "Management",
+   "text": "No, it's very clear the answer is no. Nobody is saying that they're not wanting the tools as fast as we can get them. I've been traveling quite a bit over the last couple of months, and we're constantly receiving requests from customers to accelerate our ramp and deliver earlier. Thank you, Jay.",
+   "parts": [
+    {
+     "t0_ms": 1762270,
+     "text": "No, it's very clear the answer is no."
+    },
+    {
+     "t0_ms": 1764710,
+     "text": "Nobody is saying that they're not wanting the tools as fast as we can get them."
+    },
+    {
+     "t0_ms": 1770070,
+     "text": "I've been traveling quite a bit over the last couple of months,"
+    },
+    {
+     "t0_ms": 1773730,
+     "text": "and we're constantly receiving requests from customers to accelerate our ramp and deliver earlier."
+    },
+    {
+     "t0_ms": 1785680,
+     "text": "Thank you, Jay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1787780,
+   "t1_ms": 1793920,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question comes from the line of Vivek Arya from Bank of America Securities. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 1787780,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1788700,
+     "text": "And our next question comes from the line of Vivek Arya from Bank of America Securities."
+    },
+    {
+     "t0_ms": 1793220,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1795420,
+   "t1_ms": 1837880,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. Gary, I wanted to ask the last question in a slightly different way, which is let's say there are, you know, if there is any slowdown in data center build-out, right, whether it is next year and it impacts whether it's next year or 2028, what do you think that does to WSE forecast? Do you think your customers, you know, are planning this deployment for the long term so they're not going to be phased right by slowdown, right, any short term? Right. Slowdown. Just how should investors think about the impact on the semi-cap industry if there is any, you know, temporary or a little bit extended slowdown in the build-out of data centers?",
+   "parts": [
+    {
+     "t0_ms": 1795420,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1797320,
+     "text": "Gary, I wanted to ask the last question in a slightly different way,"
+    },
+    {
+     "t0_ms": 1800800,
+     "text": "which is let's say there are, you know, if there is any slowdown in data center build-out, right,"
+    },
+    {
+     "t0_ms": 1807280,
+     "text": "whether it is next year and it impacts whether it's next year or 2028,"
+    },
+    {
+     "t0_ms": 1812000,
+     "text": "what do you think that does to WSE forecast?"
+    },
+    {
+     "t0_ms": 1815440,
+     "text": "Do you think your customers, you know, are planning this deployment for the long term"
+    },
+    {
+     "t0_ms": 1820760,
+     "text": "so they're not going to be phased right by slowdown, right, any short term?"
+    },
+    {
+     "t0_ms": 1824920,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 1825400,
+     "text": "Slowdown."
+    },
+    {
+     "t0_ms": 1825760,
+     "text": "Just how should investors think about the impact on the semi-cap industry"
+    },
+    {
+     "t0_ms": 1830820,
+     "text": "if there is any, you know, temporary or a little bit extended slowdown in the build-out of data centers?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1839300,
+   "t1_ms": 1880880,
+   "speaker": "Management",
+   "text": "Yeah, thanks for the question. So as I mentioned on the last question, what I'm seeing, and, you know, some of our leading customer CEOs I'm meeting on a monthly basis is really requesting, you know, a lot of the time, you know, a lot of the time, you know, I think demand in all of those areas, especially the ones that are being driven by AI, leading foundry logic, DRAM, and advanced packaging, demand is significant. And as you know, it takes time to ramp capacity. So, I mean, you have to start with a view of computing demand and everything we see, everything I hear when I'm talking to companies through the ecosystem,",
+   "parts": [
+    {
+     "t0_ms": 1839300,
+     "text": "Yeah, thanks for the question."
+    },
+    {
+     "t0_ms": 1841000,
+     "text": "So as I mentioned on the last question, what I'm seeing, and, you know,"
+    },
+    {
+     "t0_ms": 1847220,
+     "text": "some of our leading customer CEOs I'm meeting on a monthly basis is really requesting,"
+    },
+    {
+     "t0_ms": 1855400,
+     "text": "you know, a lot of the time, you know, a lot of the time, you know,"
+    },
+    {
+     "t0_ms": 1857240,
+     "text": "I think demand in all of those areas, especially the ones that are being driven by AI,"
+    },
+    {
+     "t0_ms": 1862000,
+     "text": "leading foundry logic, DRAM, and advanced packaging, demand is significant."
+    },
+    {
+     "t0_ms": 1866440,
+     "text": "And as you know, it takes time to ramp capacity."
+    },
+    {
+     "t0_ms": 1871060,
+     "text": "So, I mean, you have to start with a view of computing demand and everything we see,"
+    },
+    {
+     "t0_ms": 1876900,
+     "text": "everything I hear when I'm talking to companies through the ecosystem,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1881600,
+   "t1_ms": 1922200,
+   "speaker": "Management",
+   "text": "computing demand is going to continue to go higher. And so, you know, I don't see any signs from people that they're concerned about ramping too quickly. It's really the opposite where people want us to pull in and ramp faster. I don't know, Bryce, if you want to add any color. Yeah, I'll just add the point, Vivek, probably no surprise, but supply exceeds demand, especially, you know, DRAM and leading logic. So there's some buffer there between, I'm sorry, sorry, demand exceeds supply. Okay. There's some buffer there. And then, you know, we have markets that are underserved at this point also. So we have PC market.",
+   "parts": [
+    {
+     "t0_ms": 1881600,
+     "text": "computing demand is going to continue to go higher."
+    },
+    {
+     "t0_ms": 1884740,
+     "text": "And so, you know, I don't see any signs from people that they're concerned about ramping too quickly."
+    },
+    {
+     "t0_ms": 1892840,
+     "text": "It's really the opposite where people want us to pull in and ramp faster."
+    },
+    {
+     "t0_ms": 1898140,
+     "text": "I don't know, Bryce, if you want to add any color."
+    },
+    {
+     "t0_ms": 1899980,
+     "text": "Yeah, I'll just add the point, Vivek, probably no surprise, but supply exceeds demand,"
+    },
+    {
+     "t0_ms": 1904640,
+     "text": "especially, you know, DRAM and leading logic."
+    },
+    {
+     "t0_ms": 1907240,
+     "text": "So there's some buffer there between, I'm sorry, sorry, demand exceeds supply."
+    },
+    {
+     "t0_ms": 1914060,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 1914740,
+     "text": "There's some buffer there."
+    },
+    {
+     "t0_ms": 1915920,
+     "text": "And then, you know, we have markets that are underserved at this point also."
+    },
+    {
+     "t0_ms": 1919800,
+     "text": "So we have PC market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1922760,
+   "t1_ms": 1941400,
+   "speaker": "Management",
+   "text": "You've got smartphone markets that are constrained, smart TVs that are constrained. So we think there's a considerable amount of buffer in the market, you know, even if data center were to have less demand over the next couple of years. And I think Gary highlighted that's not what we're seeing, just to be clear.",
+   "parts": [
+    {
+     "t0_ms": 1922760,
+     "text": "You've got smartphone markets that are constrained, smart TVs that are constrained."
+    },
+    {
+     "t0_ms": 1928500,
+     "text": "So we think there's a considerable amount of buffer in the market, you know,"
+    },
+    {
+     "t0_ms": 1932580,
+     "text": "even if data center were to have less demand over the next couple of years."
+    },
+    {
+     "t0_ms": 1937940,
+     "text": "And I think Gary highlighted that's not what we're seeing, just to be clear."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1943000,
+   "t1_ms": 1986180,
+   "speaker": "Analyst",
+   "text": "All right. Very helpful. Thank you, everyone. And from. From my follow up, you know, if I look at last year, when the year started, I think the expectation was that you would grow your semi systems over 20%, right? And now the actual number is likely to be closer to 40%, right? So you grew much faster. And there was the same, you know, conservatism, conservatism around, you know, availability of clean room and so forth. So what got better through last year? And then I guess the real question is that when you are saying the industry will grow 30%. Is that a line in the sand? Like what can help the industry grow faster than 30%? Like why can't, you know, the same thing that happened in 26 happen in 27 also? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1943000,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 1943380,
+     "text": "Very helpful."
+    },
+    {
+     "t0_ms": 1943820,
+     "text": "Thank you, everyone."
+    },
+    {
+     "t0_ms": 1944380,
+     "text": "And from."
+    },
+    {
+     "t0_ms": 1944740,
+     "text": "From my follow up, you know, if I look at last year, when the year started, I think"
+    },
+    {
+     "t0_ms": 1949840,
+     "text": "the expectation was that you would grow your semi systems over 20%, right?"
+    },
+    {
+     "t0_ms": 1954940,
+     "text": "And now the actual number is likely to be closer to 40%, right?"
+    },
+    {
+     "t0_ms": 1958900,
+     "text": "So you grew much faster."
+    },
+    {
+     "t0_ms": 1960800,
+     "text": "And there was the same, you know, conservatism, conservatism around, you know, availability"
+    },
+    {
+     "t0_ms": 1965100,
+     "text": "of clean room and so forth."
+    },
+    {
+     "t0_ms": 1967100,
+     "text": "So what got better through last year?"
+    },
+    {
+     "t0_ms": 1970240,
+     "text": "And then I guess the real question is that when you are saying the industry will grow"
+    },
+    {
+     "t0_ms": 1973580,
+     "text": "30%."
+    },
+    {
+     "t0_ms": 1974380,
+     "text": "Is that a line in the sand?"
+    },
+    {
+     "t0_ms": 1976140,
+     "text": "Like what can help the industry grow faster than 30%?"
+    },
+    {
+     "t0_ms": 1979780,
+     "text": "Like why can't, you know, the same thing that happened in 26 happen in 27 also?"
+    },
+    {
+     "t0_ms": 1985840,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1987440,
+   "t1_ms": 2017340,
+   "speaker": "Management",
+   "text": "Yeah, that's a great question. So, so we do think it's governed by clean room and clean room availability. Now, to your point, all through last year, customers were able to either add clean room, pull in projects, work on projects that increased output from their family, you know, from their family, you know, from their friends, from their family, you know, from their family, from their work, from their employees, from their factories, by doing upgrades and those sorts of things. So those are the, those are the tools that customers have to increase output. I think the macro equation at the end of the day is guided by the clean room that can become available.",
+   "parts": [
+    {
+     "t0_ms": 1987440,
+     "text": "Yeah, that's a great question."
+    },
+    {
+     "t0_ms": 1988580,
+     "text": "So, so we do think it's governed by clean room and clean room availability."
+    },
+    {
+     "t0_ms": 1993280,
+     "text": "Now, to your point, all through last year, customers were able to either add clean room,"
+    },
+    {
+     "t0_ms": 1999020,
+     "text": "pull in projects, work on projects that increased output from their family, you know,"
+    },
+    {
+     "t0_ms": 2002540,
+     "text": "from their family, you know, from their friends, from their family, you know, from their family,"
+    },
+    {
+     "t0_ms": 2003540,
+     "text": "from their work, from their employees, from their factories, by doing upgrades and those"
+    },
+    {
+     "t0_ms": 2006480,
+     "text": "sorts of things."
+    },
+    {
+     "t0_ms": 2007900,
+     "text": "So those are the, those are the tools that customers have to increase output."
+    },
+    {
+     "t0_ms": 2011700,
+     "text": "I think the macro equation at the end of the day is guided by the clean room that can become"
+    },
+    {
+     "t0_ms": 2016840,
+     "text": "available."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2022390,
+   "t1_ms": 2028470,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question comes from the line of Stacy Ruskin from Bernstein Research. Your question please.",
+   "parts": [
+    {
+     "t0_ms": 2022390,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2023270,
+     "text": "And our next question comes from the line of Stacy Ruskin from Bernstein Research."
+    },
+    {
+     "t0_ms": 2027530,
+     "text": "Your question please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2029230,
+   "t1_ms": 2051889,
+   "speaker": "Analyst",
+   "text": "Hi guys, thanks for taking my questions. Um, first, if you grew equipment, do you're going to grow equipment more than 40% in 26? I guess. What do you think? WFE actually is growing on a percentage basis in 2026. And given you see WFE growing more than 30% in 2027, do you think we should expect the same kind of outperformance in 2027 relative to WFE that we're seeing in 2026?",
+   "parts": [
+    {
+     "t0_ms": 2029230,
+     "text": "Hi guys, thanks for taking my questions."
+    },
+    {
+     "t0_ms": 2030930,
+     "text": "Um, first, if you grew equipment, do you're going to grow equipment more than 40% in 26?"
+    },
+    {
+     "t0_ms": 2036810,
+     "text": "I guess."
+    },
+    {
+     "t0_ms": 2037410,
+     "text": "What do you think?"
+    },
+    {
+     "t0_ms": 2037990,
+     "text": "WFE actually is growing on a percentage basis in 2026."
+    },
+    {
+     "t0_ms": 2042430,
+     "text": "And given you see WFE growing more than 30% in 2027,"
+    },
+    {
+     "t0_ms": 2046330,
+     "text": "do you think we should expect the same kind of outperformance in 2027"
+    },
+    {
+     "t0_ms": 2049270,
+     "text": "relative to WFE that we're seeing in 2026?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2053510,
+   "t1_ms": 2081489,
+   "speaker": "Management",
+   "text": "Hi, Stacey. Yeah, we do think that WFE, that we're outperforming WFE in 2026, and we expect that in 2027 also. And that's on the strength of our top positions in leading logic, DRAM, and advanced packaging and the strong mix to those being the fast-growing markets. So I think, you know, greater than 40% for our business and whatever our business is slightly less than that for WFE for 2026.",
+   "parts": [
+    {
+     "t0_ms": 2053510,
+     "text": "Hi, Stacey."
+    },
+    {
+     "t0_ms": 2054370,
+     "text": "Yeah, we do think that WFE, that we're outperforming WFE in 2026,"
+    },
+    {
+     "t0_ms": 2059850,
+     "text": "and we expect that in 2027 also."
+    },
+    {
+     "t0_ms": 2062030,
+     "text": "And that's on the strength of our top positions in leading logic, DRAM,"
+    },
+    {
+     "t0_ms": 2067409,
+     "text": "and advanced packaging and the strong mix to those being the fast-growing markets."
+    },
+    {
+     "t0_ms": 2072030,
+     "text": "So I think, you know, greater than 40% for our business"
+    },
+    {
+     "t0_ms": 2077370,
+     "text": "and whatever our business is slightly less than that for WFE for 2026."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2084219,
+   "t1_ms": 2109220,
+   "speaker": "Analyst",
+   "text": "Thanks. For my follow-up, you know, you had some competitors calling out near-term supply constraints that actually impacted their outlook in the next quarter. Are you actually seeing any of this? It sounded like the same kind of stuff that you guys would be buying anyways. Are you seeing any of that? Is that actually? I mean, as strong as the outlook is, is it impaired in any way by supply constraints? And would it be higher if you weren't seeing anything or if you're seeing anything at all?",
+   "parts": [
+    {
+     "t0_ms": 2084219,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2084920,
+     "text": "For my follow-up, you know,"
+    },
+    {
+     "t0_ms": 2086840,
+     "text": "you had some competitors calling out near-term supply constraints"
+    },
+    {
+     "t0_ms": 2090060,
+     "text": "that actually impacted their outlook in the next quarter."
+    },
+    {
+     "t0_ms": 2093360,
+     "text": "Are you actually seeing any of this?"
+    },
+    {
+     "t0_ms": 2095239,
+     "text": "It sounded like the same kind of stuff that you guys would be buying anyways."
+    },
+    {
+     "t0_ms": 2097860,
+     "text": "Are you seeing any of that?"
+    },
+    {
+     "t0_ms": 2098720,
+     "text": "Is that actually?"
+    },
+    {
+     "t0_ms": 2099440,
+     "text": "I mean,"
+    },
+    {
+     "t0_ms": 2099620,
+     "text": "as strong as the outlook is,"
+    },
+    {
+     "t0_ms": 2101400,
+     "text": "is it impaired in any way by supply constraints?"
+    },
+    {
+     "t0_ms": 2103780,
+     "text": "And would it be higher if you weren't seeing anything"
+    },
+    {
+     "t0_ms": 2107040,
+     "text": "or if you're seeing anything at all?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2109980,
+   "t1_ms": 2154220,
+   "speaker": "Management",
+   "text": "Yeah, Stacey, good question. As I've highlighted, there's a few pinch points from a supply perspective. Our Q1 number would be slightly higher if everything were perfectly available. It's not a major impact, but we are working closely with all the suppliers. You saw three sequential quarters of more than double-digit, growth as we went through the year. And supply chain is just reacting greatly. And, you know, we're working hard to increase the output. And we expect to increase the output every quarter this year. Yeah, Stacey, I would add, you know, at least for me, you know, as I'm engaging with all of our customers, they want us to ship as fast as we can. I mean, just demand is very, very strong. Compute demand is very strong.",
+   "parts": [
+    {
+     "t0_ms": 2109980,
+     "text": "Yeah, Stacey, good question."
+    },
+    {
+     "t0_ms": 2111440,
+     "text": "As I've highlighted,"
+    },
+    {
+     "t0_ms": 2112640,
+     "text": "there's a few pinch points from a supply perspective."
+    },
+    {
+     "t0_ms": 2115860,
+     "text": "Our Q1 number would be slightly higher"
+    },
+    {
+     "t0_ms": 2117960,
+     "text": "if everything were perfectly available."
+    },
+    {
+     "t0_ms": 2121100,
+     "text": "It's not a major impact,"
+    },
+    {
+     "t0_ms": 2122840,
+     "text": "but we are working closely with all the suppliers."
+    },
+    {
+     "t0_ms": 2126200,
+     "text": "You saw three sequential quarters of more than double-digit,"
+    },
+    {
+     "t0_ms": 2129620,
+     "text": "growth as we went through the year."
+    },
+    {
+     "t0_ms": 2132000,
+     "text": "And supply chain is just reacting greatly."
+    },
+    {
+     "t0_ms": 2134900,
+     "text": "And, you know, we're working hard to increase the output."
+    },
+    {
+     "t0_ms": 2137400,
+     "text": "And we expect to increase the output every quarter this year."
+    },
+    {
+     "t0_ms": 2141680,
+     "text": "Yeah, Stacey, I would add, you know, at least for me, you know,"
+    },
+    {
+     "t0_ms": 2144420,
+     "text": "as I'm engaging with all of our customers,"
+    },
+    {
+     "t0_ms": 2148360,
+     "text": "they want us to ship as fast as we can."
+    },
+    {
+     "t0_ms": 2150420,
+     "text": "I mean, just demand is very, very strong."
+    },
+    {
+     "t0_ms": 2152860,
+     "text": "Compute demand is very strong."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2154640,
+   "t1_ms": 2167500,
+   "speaker": "Management",
+   "text": "So, and as Bryce said, I think our teams have done a really great job in ramping. But, you know, we have more work to do in 27. But we are in a very strong position to outperform going forward.",
+   "parts": [
+    {
+     "t0_ms": 2154640,
+     "text": "So, and as Bryce said, I think our teams have done a really great job in ramping."
+    },
+    {
+     "t0_ms": 2160520,
+     "text": "But, you know, we have more work to do in 27."
+    },
+    {
+     "t0_ms": 2164160,
+     "text": "But we are in a very strong position to outperform going forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2169200,
+   "t1_ms": 2170960,
+   "speaker": "Analyst",
+   "text": "Thank you, guys. Appreciate it.",
+   "parts": [
+    {
+     "t0_ms": 2169200,
+     "text": "Thank you, guys."
+    },
+    {
+     "t0_ms": 2170300,
+     "text": "Appreciate it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2172400,
+   "t1_ms": 2177400,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question comes to the line of Atif Malik from Citi. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2172400,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2172900,
+     "text": "And our next question comes to the line of Atif Malik from Citi."
+    },
+    {
+     "t0_ms": 2176560,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2179240,
+   "t1_ms": 2197780,
+   "speaker": "Analyst",
+   "text": "Hi, thank you for taking my questions. I have a question on the DRAM roadmap. One of the memory makers is going to pursue 3D DRAM versus 4F squared. And I know you guys have done a good job in the master class. So, what are your thoughts on that? Thank you. I think the question is, you know, we have a lot of different processes covering the technology. If you can just remind us about applied materials, product positioning, and opportunity on one versus another.",
+   "parts": [
+    {
+     "t0_ms": 2179240,
+     "text": "Hi, thank you for taking my questions."
+    },
+    {
+     "t0_ms": 2180720,
+     "text": "I have a question on the DRAM roadmap."
+    },
+    {
+     "t0_ms": 2183120,
+     "text": "One of the memory makers is going to pursue 3D DRAM versus 4F squared."
+    },
+    {
+     "t0_ms": 2187700,
+     "text": "And I know you guys have done a good job in the master class."
+    },
+    {
+     "t0_ms": 2189960,
+     "text": "So, what are your thoughts on that?"
+    },
+    {
+     "t0_ms": 2190400,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2190500,
+     "text": "I think the question is, you know,"
+    },
+    {
+     "t0_ms": 2191500,
+     "text": "we have a lot of different processes covering the technology."
+    },
+    {
+     "t0_ms": 2192500,
+     "text": "If you can just remind us about applied materials, product positioning,"
+    },
+    {
+     "t0_ms": 2195620,
+     "text": "and opportunity on one versus another."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2199780,
+   "t1_ms": 2243720,
+   "speaker": "Management",
+   "text": "Yeah, thanks for the question. One thing I would do is point to the investor breakfast. And there was a slide in there where we show the Foundry Logic technology nodes and DRAM technology nodes. And what you see there in DRAM is as you go to new version, we're gaining share. And then as you go to 4F squared and 3D DRAM, our servable market is increasing and our share is increasing multiple points. So from applied material standpoint, DRAM is a very strong segment for us. We're much larger than our nearest process equipment competitors.",
+   "parts": [
+    {
+     "t0_ms": 2199780,
+     "text": "Yeah, thanks for the question."
+    },
+    {
+     "t0_ms": 2200800,
+     "text": "One thing I would do is point to the investor breakfast."
+    },
+    {
+     "t0_ms": 2204480,
+     "text": "And there was a slide in there where we show the Foundry Logic technology nodes"
+    },
+    {
+     "t0_ms": 2212020,
+     "text": "and DRAM technology nodes."
+    },
+    {
+     "t0_ms": 2214980,
+     "text": "And what you see there in DRAM is as you go to new version,"
+    },
+    {
+     "t0_ms": 2220380,
+     "text": "we're gaining share."
+    },
+    {
+     "t0_ms": 2221380,
+     "text": "And then as you go to 4F squared and 3D DRAM, our servable market is increasing and our share"
+    },
+    {
+     "t0_ms": 2232800,
+     "text": "is increasing multiple points."
+    },
+    {
+     "t0_ms": 2235180,
+     "text": "So from applied material standpoint, DRAM is a very strong segment for us."
+    },
+    {
+     "t0_ms": 2240100,
+     "text": "We're much larger than our nearest process equipment competitors."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2243720,
+   "t1_ms": 2280240,
+   "speaker": "Management",
+   "text": "We're in very deep co-innovation relationships with every one of these different companies. So for applied, we're going to be using a lot of different technologies. We're in a good position, certainly a 6F squared adoption continues. And you have new transistors for higher speed bandwidth on those chips. And then as you go to 4F squared and 3D DRAM, we showed in that breakfast that our SAM share is increasing for 4F squared and 3D DRAM. We also show the SAM per 100,000 wafer starts increasing significantly as you go from 6F squared to 4F squared.",
+   "parts": [
+    {
+     "t0_ms": 2243720,
+     "text": "We're in very deep co-innovation relationships with every one of these different companies."
+    },
+    {
+     "t0_ms": 2249200,
+     "text": "So for applied, we're going to be using a lot of different technologies."
+    },
+    {
+     "t0_ms": 2250260,
+     "text": "We're in a good position, certainly a 6F squared adoption continues."
+    },
+    {
+     "t0_ms": 2255820,
+     "text": "And you have new transistors for higher speed bandwidth on those chips."
+    },
+    {
+     "t0_ms": 2260960,
+     "text": "And then as you go to 4F squared and 3D DRAM, we showed in that breakfast"
+    },
+    {
+     "t0_ms": 2266180,
+     "text": "that our SAM share is increasing for 4F squared and 3D DRAM."
+    },
+    {
+     "t0_ms": 2271740,
+     "text": "We also show the SAM per 100,000 wafer starts increasing significantly as you go from 6F squared"
+    },
+    {
+     "t0_ms": 2279640,
+     "text": "to 4F squared."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2280240,
+   "t1_ms": 2297080,
+   "speaker": "Management",
+   "text": "So again, from applied standpoint, we are deeply engaged with every one of these companies. And we have the most enabling technologies for these major inflections. So again, this is an area where we have very, very deep co-innovation relationships.",
+   "parts": [
+    {
+     "t0_ms": 2280240,
+     "text": "So again, from applied standpoint, we are deeply engaged with every one of these companies."
+    },
+    {
+     "t0_ms": 2288800,
+     "text": "And we have the most enabling technologies for these major inflections."
+    },
+    {
+     "t0_ms": 2292700,
+     "text": "So again, this is an area where we have very, very deep co-innovation relationships."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2297080,
+   "t1_ms": 2310120,
+   "speaker": "Analyst",
+   "text": "Thank you, Gary. And Bryce, for the AGS part, you mentioned growing 20% annually and service revenue per two also growing 20%. So how should we think about AGS growth for next year?",
+   "parts": [
+    {
+     "t0_ms": 2297080,
+     "text": "Thank you, Gary."
+    },
+    {
+     "t0_ms": 2299900,
+     "text": "And Bryce, for the AGS part, you mentioned growing 20% annually and service revenue per"
+    },
+    {
+     "t0_ms": 2305480,
+     "text": "two also growing 20%."
+    },
+    {
+     "t0_ms": 2307040,
+     "text": "So how should we think about AGS growth for next year?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2310120,
+   "t1_ms": 2353240,
+   "speaker": "Management",
+   "text": "Yeah. So we've highlighted mid-teens, so I think 15% for the horizon. The way I would think about that is the installed base grows 5% to 10% each year, and the revenue per tool grows 5% to 10% each year. So giving you a total of approximately 15%. This year, we grew faster on the benefiting from the increase in utilization across the whole ecosystem. So we're close to 100%. So you don't get that unique benefit again in the forward years. But those are the two building blocks. And we expect to continue to build new products that help the customers ramp and get the highest yields.",
+   "parts": [
+    {
+     "t0_ms": 2310120,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2311520,
+     "text": "So we've highlighted mid-teens, so I think 15% for the horizon."
+    },
+    {
+     "t0_ms": 2319280,
+     "text": "The way I would think about that is the installed base grows 5% to 10% each year, and the revenue"
+    },
+    {
+     "t0_ms": 2325220,
+     "text": "per tool grows 5% to 10% each year."
+    },
+    {
+     "t0_ms": 2328980,
+     "text": "So giving you a total of approximately 15%."
+    },
+    {
+     "t0_ms": 2332300,
+     "text": "This year, we grew faster on the benefiting from the increase in utilization across the"
+    },
+    {
+     "t0_ms": 2337960,
+     "text": "whole ecosystem."
+    },
+    {
+     "t0_ms": 2339140,
+     "text": "So we're close to 100%."
+    },
+    {
+     "t0_ms": 2340900,
+     "text": "So you don't get that unique benefit again in the forward years."
+    },
+    {
+     "t0_ms": 2344600,
+     "text": "But those are the two building blocks."
+    },
+    {
+     "t0_ms": 2346320,
+     "text": "And we expect to continue to build new products that help the customers ramp and get the highest"
+    },
+    {
+     "t0_ms": 2350900,
+     "text": "yields."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2353240,
+   "t1_ms": 2361520,
+   "speaker": "Operator",
+   "text": "Thanks. Thank you. And our next question comes from the line of Chris Sanker from TD Cowen. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2353240,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2355580,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2356580,
+     "text": "And our next question comes from the line of Chris Sanker from TD Cowen."
+    },
+    {
+     "t0_ms": 2360520,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2361520,
+   "t1_ms": 2362520,
+   "speaker": "Analyst",
+   "text": "Hi.",
+   "parts": [
+    {
+     "t0_ms": 2361520,
+     "text": "Hi."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2362520,
+   "t1_ms": 2403340,
+   "speaker": "Management",
+   "text": "Thanks for taking my question. Bryce, I just want to follow up on the component, the supply question. It seems like you're not adding inventory as much, and days of inventories is also down in the space. I'm wondering why wouldn't you be more aggressive in adding inventory and along the same path, you kind of gave some thought on AGS in April. Any idea to think about Chinese systems in April quarter? And then I'll add a quick follow up. Yeah. Thanks, Chris. Nice to hear from you. So we added just over $300 million of inventory in the quarter, $6.9 billion of inventory. And I think it's fair. I would like to have even more inventory. So we're working on that with the suppliers. And, you know, we're working on that with the suppliers. And, you know, we're working on that with the suppliers. And, you know, we're working on that with the suppliers.",
+   "parts": [
+    {
+     "t0_ms": 2362520,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2363520,
+     "text": "Bryce, I just want to follow up on the component, the supply question."
+    },
+    {
+     "t0_ms": 2368380,
+     "text": "It seems like you're not adding inventory as much, and days of inventories is also down"
+    },
+    {
+     "t0_ms": 2373340,
+     "text": "in the space."
+    },
+    {
+     "t0_ms": 2374100,
+     "text": "I'm wondering why wouldn't you be more aggressive in adding inventory and along the same path,"
+    },
+    {
+     "t0_ms": 2378340,
+     "text": "you kind of gave some thought on AGS in April."
+    },
+    {
+     "t0_ms": 2381340,
+     "text": "Any idea to think about Chinese systems in April quarter?"
+    },
+    {
+     "t0_ms": 2384340,
+     "text": "And then I'll add a quick follow up."
+    },
+    {
+     "t0_ms": 2386340,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2387340,
+     "text": "Thanks, Chris."
+    },
+    {
+     "t0_ms": 2388340,
+     "text": "Nice to hear from you."
+    },
+    {
+     "t0_ms": 2389340,
+     "text": "So we added just over $300 million of inventory in the quarter, $6.9 billion of inventory."
+    },
+    {
+     "t0_ms": 2396340,
+     "text": "And I think it's fair."
+    },
+    {
+     "t0_ms": 2398340,
+     "text": "I would like to have even more inventory."
+    },
+    {
+     "t0_ms": 2399340,
+     "text": "So we're working on that with the suppliers."
+    },
+    {
+     "t0_ms": 2400340,
+     "text": "And, you know, we're working on that with the suppliers."
+    },
+    {
+     "t0_ms": 2401340,
+     "text": "And, you know, we're working on that with the suppliers."
+    },
+    {
+     "t0_ms": 2402340,
+     "text": "And, you know, we're working on that with the suppliers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2403340,
+   "t1_ms": 2446940,
+   "speaker": "Management",
+   "text": "And I'll just highlight again, we had three quarters of double digit increases in output. So we're definitely, you know, pushing the system. And we'll continue working on that as we go through the year. And it's a good point. We would like to have more inventory. Any color on April quarter, any systems? Yeah. Nothing specific at this point. Yeah. What we said was we expect to increase output every quarter this year as we work with the supply chain. Gotcha. And also a quick follow up. So, you know, this year it seems like when you started the year to ending the year, DRAM WC actually grew pretty substantially.",
+   "parts": [
+    {
+     "t0_ms": 2403340,
+     "text": "And I'll just highlight again, we had three quarters of double digit increases in output."
+    },
+    {
+     "t0_ms": 2408340,
+     "text": "So we're definitely, you know, pushing the system."
+    },
+    {
+     "t0_ms": 2411340,
+     "text": "And we'll continue working on that as we go through the year."
+    },
+    {
+     "t0_ms": 2415340,
+     "text": "And it's a good point."
+    },
+    {
+     "t0_ms": 2416340,
+     "text": "We would like to have more inventory."
+    },
+    {
+     "t0_ms": 2420850,
+     "text": "Any color on April quarter, any systems?"
+    },
+    {
+     "t0_ms": 2427690,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2428690,
+     "text": "Nothing specific at this point."
+    },
+    {
+     "t0_ms": 2430690,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2431690,
+     "text": "What we said was we expect to increase output every quarter this year as we work with the supply chain."
+    },
+    {
+     "t0_ms": 2437940,
+     "text": "Gotcha."
+    },
+    {
+     "t0_ms": 2438940,
+     "text": "And also a quick follow up."
+    },
+    {
+     "t0_ms": 2439940,
+     "text": "So, you know, this year it seems like when you started the year to ending the year, DRAM WC actually grew pretty substantially."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2446940,
+   "t1_ms": 2490570,
+   "speaker": "Management",
+   "text": "A lot of it was conversion driven. How do you think about it in 2017? Do you think conversion slow down and Greenfield picks up? Or do you think conversions continue for next year? I think our customers are doing everything they can to increase output, everything they can do on upgrades and certainly much more aggressive investments in Greenfield. So I would say both. One thing that I've seen more so than any point in my career is the focus on yield and output innovation. We talked about this in the investor breakfast. Every customer that I'm talking to, they want more good chips per wafer and they want more wafers out.",
+   "parts": [
+    {
+     "t0_ms": 2446940,
+     "text": "A lot of it was conversion driven."
+    },
+    {
+     "t0_ms": 2448940,
+     "text": "How do you think about it in 2017?"
+    },
+    {
+     "t0_ms": 2450940,
+     "text": "Do you think conversion slow down and Greenfield picks up?"
+    },
+    {
+     "t0_ms": 2453940,
+     "text": "Or do you think conversions continue for next year?"
+    },
+    {
+     "t0_ms": 2458570,
+     "text": "I think our customers are doing everything they can to increase output, everything they can do on upgrades and certainly much more aggressive investments in Greenfield."
+    },
+    {
+     "t0_ms": 2470570,
+     "text": "So I would say both."
+    },
+    {
+     "t0_ms": 2472570,
+     "text": "One thing that I've seen more so than any point in my career is the focus on yield and output innovation."
+    },
+    {
+     "t0_ms": 2480570,
+     "text": "We talked about this in the investor breakfast."
+    },
+    {
+     "t0_ms": 2483570,
+     "text": "Every customer that I'm talking to, they want more good chips per wafer and they want more wafers out."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2490570,
+   "t1_ms": 2529570,
+   "speaker": "Management",
+   "text": "So I would say that, and again, I traveled quite a bit over the last couple of months with all of our leading customers. This is creating tremendous pull for our customers. Yeah. And I think that's a tremendous pull for our AGS business. We talked about having over 37,000 chambers connected to these AI enabled AIX servers. And Tim Dean in the investor breakfast talked about what we're doing in advanced matching, in predictive models for preventative maintenance, a number of innovations that we're driving in our service business that I really think is going to accelerate our service growth. And I think that's incredibly valuable for our customers.",
+   "parts": [
+    {
+     "t0_ms": 2490570,
+     "text": "So I would say that, and again, I traveled quite a bit over the last couple of months with all of our leading customers."
+    },
+    {
+     "t0_ms": 2497570,
+     "text": "This is creating tremendous pull for our customers."
+    },
+    {
+     "t0_ms": 2498570,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2499570,
+     "text": "And I think that's a tremendous pull for our AGS business."
+    },
+    {
+     "t0_ms": 2501570,
+     "text": "We talked about having over 37,000 chambers connected to these AI enabled AIX servers."
+    },
+    {
+     "t0_ms": 2509570,
+     "text": "And Tim Dean in the investor breakfast talked about what we're doing in advanced matching, in predictive models for preventative maintenance, a number of innovations that we're driving in our service business that I really think is going to accelerate our service growth."
+    },
+    {
+     "t0_ms": 2527570,
+     "text": "And I think that's incredibly valuable for our customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2529570,
+   "t1_ms": 2541980,
+   "speaker": "Management",
+   "text": "So I see, again, more pull there in yield innovation and output innovation than I've ever seen in my career. Very helpful, Geddy. Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 2529570,
+     "text": "So I see, again, more pull there in yield innovation and output innovation than I've ever seen in my career."
+    },
+    {
+     "t0_ms": 2538570,
+     "text": "Very helpful, Geddy."
+    },
+    {
+     "t0_ms": 2540980,
+     "text": "Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2541980,
+   "t1_ms": 2550380,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question comes from the line of Harlan Sir from JPMorgan. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2541980,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2544380,
+     "text": "And our next question comes from the line of Harlan Sir from JPMorgan."
+    },
+    {
+     "t0_ms": 2548380,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2550380,
+   "t1_ms": 2558380,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thanks for taking my question. On your process control segment, the team is anticipating 50% plus growth this calendar year.",
+   "parts": [
+    {
+     "t0_ms": 2550380,
+     "text": "Yeah, good afternoon."
+    },
+    {
+     "t0_ms": 2551380,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2553380,
+     "text": "On your process control segment, the team is anticipating 50% plus growth this calendar year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2558380,
+   "t1_ms": 2559380,
+   "speaker": "Operator",
+   "text": "That's faster than you think.",
+   "parts": [
+    {
+     "t0_ms": 2558380,
+     "text": "That's faster than you think."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2559380,
+   "t1_ms": 2588380,
+   "speaker": "Analyst",
+   "text": "Yeah. So you're talking about a combination of growth in your overall system segment growth, combination of strength in your eBeam and optical portfolio. Next year you have the launch of your advanced packaging inspection platform. But next year is also biased towards aggressive technology migration and, therefore, strong focus on yield and cost. Given this sort of backdrop, does the applied team anticipate PDC outgrowing your overall semi-systems business next year as well?",
+   "parts": [
+    {
+     "t0_ms": 2559380,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2560380,
+     "text": "So you're talking about a combination of growth in your overall system segment growth, combination of strength in your eBeam and optical portfolio."
+    },
+    {
+     "t0_ms": 2567380,
+     "text": "Next year you have the launch of your advanced packaging inspection platform."
+    },
+    {
+     "t0_ms": 2571380,
+     "text": "But next year is also biased towards aggressive technology migration and, therefore, strong focus on yield and cost."
+    },
+    {
+     "t0_ms": 2578380,
+     "text": "Given this sort of backdrop, does the applied team anticipate PDC outgrowing your overall semi-systems business next year as well?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2588380,
+   "t1_ms": 2625380,
+   "speaker": "Management",
+   "text": "Oh, thanks, Harlan. I think we're growing over 50% in both our eBeam and our optical businesses and, of course, for the business overall. There's really tremendous pull. Our eBeam is leading. We're two times bigger than our nearest competitor. And that's increasingly important as our customers are driving these big architecture inflections. eBeam, you can't fix what you can't see. We can look into structures and uniquely, we can look at the structure and the structure of the structure. And that's really important. We can look at the structure of the structure and uniquely improve yield. And that has also tremendous synergies.",
+   "parts": [
+    {
+     "t0_ms": 2588380,
+     "text": "Oh, thanks, Harlan."
+    },
+    {
+     "t0_ms": 2589380,
+     "text": "I think we're growing over 50% in both our eBeam and our optical businesses and, of course, for the business overall."
+    },
+    {
+     "t0_ms": 2596380,
+     "text": "There's really tremendous pull."
+    },
+    {
+     "t0_ms": 2598380,
+     "text": "Our eBeam is leading."
+    },
+    {
+     "t0_ms": 2600380,
+     "text": "We're two times bigger than our nearest competitor."
+    },
+    {
+     "t0_ms": 2602380,
+     "text": "And that's increasingly important as our customers are driving these big architecture inflections."
+    },
+    {
+     "t0_ms": 2607380,
+     "text": "eBeam, you can't fix what you can't see."
+    },
+    {
+     "t0_ms": 2610380,
+     "text": "We can look into structures and uniquely, we can look at the structure and the structure of the structure."
+    },
+    {
+     "t0_ms": 2616380,
+     "text": "And that's really important."
+    },
+    {
+     "t0_ms": 2617380,
+     "text": "We can look at the structure of the structure and uniquely improve yield."
+    },
+    {
+     "t0_ms": 2622380,
+     "text": "And that has also tremendous synergies."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2625380,
+   "t1_ms": 2665380,
+   "speaker": "Management",
+   "text": "I think Keith in the investor breakfast did a great job showing the synergies between this leadership that we have with our eBeam imaging and then how we're accelerating our process equipment innovations to enable device architecture inflections for our customers. So I would say, again, the efficiency is stronger than it's ever been. The pull from our customers are very strong. And we have very strong product pipelines. So in eBeam, we'll bring to market some really important new innovations that are critical for our customers to accelerate their roadmaps. And in optical, you mentioned advanced packaging.",
+   "parts": [
+    {
+     "t0_ms": 2625380,
+     "text": "I think Keith in the investor breakfast did a great job showing the synergies between this leadership that we have with our eBeam imaging"
+    },
+    {
+     "t0_ms": 2634380,
+     "text": "and then how we're accelerating our process equipment innovations to enable device architecture inflections for our customers."
+    },
+    {
+     "t0_ms": 2644380,
+     "text": "So I would say, again,"
+    },
+    {
+     "t0_ms": 2645380,
+     "text": "the efficiency is stronger than it's ever been."
+    },
+    {
+     "t0_ms": 2647380,
+     "text": "The pull from our customers are very strong."
+    },
+    {
+     "t0_ms": 2650380,
+     "text": "And we have very strong product pipelines."
+    },
+    {
+     "t0_ms": 2653380,
+     "text": "So in eBeam, we'll bring to market some really important new innovations that are critical for our customers to accelerate their roadmaps."
+    },
+    {
+     "t0_ms": 2662380,
+     "text": "And in optical, you mentioned advanced packaging."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2665380,
+   "t1_ms": 2684380,
+   "speaker": "Management",
+   "text": "We have a number of big innovations in our optical business that I feel very optimistic about. So, you know, I would say that PDC will see very, very strong growth again in 27. And I think, you know, overall applied, we'll also see strong growth in 27.",
+   "parts": [
+    {
+     "t0_ms": 2665380,
+     "text": "We have a number of big innovations in our optical business that I feel very optimistic about."
+    },
+    {
+     "t0_ms": 2672380,
+     "text": "So, you know,"
+    },
+    {
+     "t0_ms": 2673380,
+     "text": "I would say that PDC will see very,"
+    },
+    {
+     "t0_ms": 2675380,
+     "text": "very strong growth again in 27."
+    },
+    {
+     "t0_ms": 2679380,
+     "text": "And I think, you know,"
+    },
+    {
+     "t0_ms": 2680380,
+     "text": "overall applied,"
+    },
+    {
+     "t0_ms": 2681380,
+     "text": "we'll also see strong growth in 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2684380,
+   "t1_ms": 2717730,
+   "speaker": "Analyst",
+   "text": "Thanks for that, Gary. And then for Bryce, AGS, another quarter of strong growth, second consecutive quarter, 30% plus operating margins, incremental operating margins, sort of in this high 30s, low 40% range. That's for the third consecutive quarter. Is this how we should think about the operating margin trajectory on future revenue growth? Maybe a little bit longer term within your calendar 30, total corporate operating margin target of 40%. What's your assumption for AGS operating margins within that?",
+   "parts": [
+    {
+     "t0_ms": 2684380,
+     "text": "Thanks for that, Gary."
+    },
+    {
+     "t0_ms": 2686380,
+     "text": "And then for Bryce,"
+    },
+    {
+     "t0_ms": 2687380,
+     "text": "AGS, another quarter of strong growth,"
+    },
+    {
+     "t0_ms": 2689380,
+     "text": "second consecutive quarter,"
+    },
+    {
+     "t0_ms": 2690380,
+     "text": "30% plus operating margins,"
+    },
+    {
+     "t0_ms": 2693380,
+     "text": "incremental operating margins,"
+    },
+    {
+     "t0_ms": 2695380,
+     "text": "sort of in this high 30s,"
+    },
+    {
+     "t0_ms": 2696380,
+     "text": "low 40% range."
+    },
+    {
+     "t0_ms": 2698380,
+     "text": "That's for the third consecutive quarter."
+    },
+    {
+     "t0_ms": 2700380,
+     "text": "Is this how we should think about the operating margin trajectory on future revenue growth?"
+    },
+    {
+     "t0_ms": 2705380,
+     "text": "Maybe a little bit longer term within your calendar 30,"
+    },
+    {
+     "t0_ms": 2708380,
+     "text": "total corporate operating margin target of 40%."
+    },
+    {
+     "t0_ms": 2711380,
+     "text": "What's your assumption for AGS operating margins within that?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2717730,
+   "t1_ms": 2744490,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Harlan. We do expect to continue to advance operating margins and gross margins in AGS. And what you see is with new products being launched, those products have a lot of value for customers in terms of yield and output management. And that's helping with our margin growth. So definitely a contributor to the overall targets for the company.",
+   "parts": [
+    {
+     "t0_ms": 2717730,
+     "text": "Yeah, thanks, Harlan."
+    },
+    {
+     "t0_ms": 2718730,
+     "text": "We do expect to continue to advance operating margins and gross margins in AGS."
+    },
+    {
+     "t0_ms": 2726730,
+     "text": "And what you see is with new products being launched,"
+    },
+    {
+     "t0_ms": 2729730,
+     "text": "those products have a lot of value for customers in terms of yield and output management."
+    },
+    {
+     "t0_ms": 2735730,
+     "text": "And that's helping with our margin growth."
+    },
+    {
+     "t0_ms": 2738730,
+     "text": "So definitely a contributor to the overall targets for the company."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2744490,
+   "t1_ms": 2754120,
+   "speaker": "Operator",
+   "text": "Thanks, Bryce. Thank you. And our next question comes from the line of Jim Schneider from Goldman Sachs. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2744490,
+     "text": "Thanks, Bryce."
+    },
+    {
+     "t0_ms": 2747120,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2748120,
+     "text": "And our next question comes from the line of Jim Schneider from Goldman Sachs."
+    },
+    {
+     "t0_ms": 2752120,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2754120,
+   "t1_ms": 2778120,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thanks for taking my question. I was wondering if you could maybe comment on the pace of gross margin expansion you expect over, say, the next four or six quarters. Obviously, you're getting some good uplift in Q1. Maybe talk about what's driving that. Aside from mix and maybe talk about how much operational improvement or pricing improvement you can see over the course of the next year.",
+   "parts": [
+    {
+     "t0_ms": 2754120,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 2755120,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2756120,
+     "text": "I was wondering if you could maybe comment on the pace of gross margin expansion you expect over,"
+    },
+    {
+     "t0_ms": 2761120,
+     "text": "say, the next four or six quarters."
+    },
+    {
+     "t0_ms": 2763120,
+     "text": "Obviously, you're getting some good uplift in Q1."
+    },
+    {
+     "t0_ms": 2767120,
+     "text": "Maybe talk about what's driving that."
+    },
+    {
+     "t0_ms": 2769120,
+     "text": "Aside from mix and maybe talk about how much operational improvement"
+    },
+    {
+     "t0_ms": 2773120,
+     "text": "or pricing improvement you can see over the course of the next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2778120,
+   "t1_ms": 2821120,
+   "speaker": "Management",
+   "text": "Hi, Jim. Thanks for the question. You know, what we're seeing, we have some ramp costs that are, you know, being overcome by the yield \u2013 I'm sorry, by the output increases that we're having and also price increases for our tools as we launch new tools that are more and more valuable for customers. So, really, the dynamics that we see is a faster-growing semi-market helps with gross margins, and then the pricing helps with gross margins. In the Q4 just printed and in our Q1 outlook, we've got some ramp costs as we're adding, you know, employees and training employees for the higher level of ramp. That's the other side of the equation for us.",
+   "parts": [
+    {
+     "t0_ms": 2778120,
+     "text": "Hi, Jim."
+    },
+    {
+     "t0_ms": 2779120,
+     "text": "Thanks for the question."
+    },
+    {
+     "t0_ms": 2781120,
+     "text": "You know, what we're seeing, we have some ramp costs that are, you know,"
+    },
+    {
+     "t0_ms": 2786120,
+     "text": "being overcome by the yield \u2013 I'm sorry, by the output increases that we're having"
+    },
+    {
+     "t0_ms": 2792120,
+     "text": "and also price increases for our tools as we launch new tools that are more and more valuable for customers."
+    },
+    {
+     "t0_ms": 2798120,
+     "text": "So, really, the dynamics that we see is a faster-growing semi-market helps with gross margins,"
+    },
+    {
+     "t0_ms": 2804120,
+     "text": "and then the pricing helps with gross margins."
+    },
+    {
+     "t0_ms": 2807120,
+     "text": "In the Q4 just printed and in our Q1 outlook, we've got some ramp costs as we're adding, you know,"
+    },
+    {
+     "t0_ms": 2815120,
+     "text": "employees and training employees for the higher level of ramp."
+    },
+    {
+     "t0_ms": 2818120,
+     "text": "That's the other side of the equation for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2821120,
+   "t1_ms": 2865120,
+   "speaker": "Management",
+   "text": "But in general, we expect to continue to advance gross margin as we go through the year. And I think you can sort of see that. And I think you can sort of judge the pace by what you see in Q4 and Q1. Yeah, Jim, maybe let me add that I think the setup for us is very positive. We are leading in the fastest-growing parts of the market, the leading foundry, Logic, DRAM, and Advanced Packaging. And as we talked about in the investor breakfast, we are enabling these major architecture innovations for our customers. We're bringing high-value products to market. And that gives us a tailwind in terms of our semi-systems gross margin. So I would expect that, you know, we'll continue to drive that forward.",
+   "parts": [
+    {
+     "t0_ms": 2821120,
+     "text": "But in general, we expect to continue to advance gross margin as we go through the year."
+    },
+    {
+     "t0_ms": 2826120,
+     "text": "And I think you can sort of see that."
+    },
+    {
+     "t0_ms": 2827120,
+     "text": "And I think you can sort of judge the pace by what you see in Q4 and Q1."
+    },
+    {
+     "t0_ms": 2831120,
+     "text": "Yeah, Jim, maybe let me add that I think the setup for us is very positive."
+    },
+    {
+     "t0_ms": 2838120,
+     "text": "We are leading in the fastest-growing parts of the market, the leading foundry,"
+    },
+    {
+     "t0_ms": 2842120,
+     "text": "Logic, DRAM, and Advanced Packaging."
+    },
+    {
+     "t0_ms": 2845120,
+     "text": "And as we talked about in the investor breakfast,"
+    },
+    {
+     "t0_ms": 2848120,
+     "text": "we are enabling these major architecture innovations for our customers."
+    },
+    {
+     "t0_ms": 2853120,
+     "text": "We're bringing high-value products to market."
+    },
+    {
+     "t0_ms": 2856120,
+     "text": "And that gives us a tailwind in terms of our semi-systems gross margin."
+    },
+    {
+     "t0_ms": 2860120,
+     "text": "So I would expect that, you know, we'll continue to drive that forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2865120,
+   "t1_ms": 2899460,
+   "speaker": "Management",
+   "text": "And as I talked about earlier on the call, this value for the yield and output innovation in our services also is incredibly valuable. So we're very well positioned there. I would expect, 27, you're going to see significant progress in margins and then also going forward as these new devices, ramp our positions there are very strong. The value we're creating is very strong. And it puts us in a good position to share value with customers as those new technologies ramp.",
+   "parts": [
+    {
+     "t0_ms": 2865120,
+     "text": "And as I talked about earlier on the call, this value for the yield and output innovation in our services"
+    },
+    {
+     "t0_ms": 2872120,
+     "text": "also is incredibly valuable."
+    },
+    {
+     "t0_ms": 2875120,
+     "text": "So we're very well positioned there."
+    },
+    {
+     "t0_ms": 2877120,
+     "text": "I would expect, 27, you're going to see significant progress in margins and then also going forward as these new devices,"
+    },
+    {
+     "t0_ms": 2886120,
+     "text": "ramp our positions there are very strong."
+    },
+    {
+     "t0_ms": 2889120,
+     "text": "The value we're creating is very strong."
+    },
+    {
+     "t0_ms": 2892120,
+     "text": "And it puts us in a good position to share value with customers as those new technologies ramp."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2899460,
+   "t1_ms": 2917460,
+   "speaker": "Analyst",
+   "text": "That's helpful. Thanks. And then as we look into fiscal 27, can you maybe comment on sort of what you expect from China? I'm assuming you're expecting the growth to be better than it was in 26, but maybe not as good as the overall market. And maybe just comment on China's impact on gross margins too.",
+   "parts": [
+    {
+     "t0_ms": 2899460,
+     "text": "That's helpful. Thanks."
+    },
+    {
+     "t0_ms": 2900460,
+     "text": "And then as we look into fiscal 27, can you maybe comment on sort of what you expect from China?"
+    },
+    {
+     "t0_ms": 2907460,
+     "text": "I'm assuming you're expecting the growth to be better than it was in 26,"
+    },
+    {
+     "t0_ms": 2912460,
+     "text": "but maybe not as good as the overall market."
+    },
+    {
+     "t0_ms": 2914460,
+     "text": "And maybe just comment on China's impact on gross margins too."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2917460,
+   "t1_ms": 2942460,
+   "speaker": "Management",
+   "text": "Yeah. Hi, Jim. You've got the right dynamic with the fast growth in leading edge DRAM advanced packaging that we're seeing. We do expect to see growth in China, but it won't be as fast as those markets that are being pulled by AI. So, you know, our share that's related to China or our shipments to China will probably be less than 25% of the business as we look into 27.",
+   "parts": [
+    {
+     "t0_ms": 2917460,
+     "text": "Yeah. Hi, Jim."
+    },
+    {
+     "t0_ms": 2919460,
+     "text": "You've got the right dynamic with the fast growth in leading edge DRAM advanced packaging that we're seeing."
+    },
+    {
+     "t0_ms": 2926460,
+     "text": "We do expect to see growth in China, but it won't be as fast as those markets that are being pulled by AI."
+    },
+    {
+     "t0_ms": 2932460,
+     "text": "So, you know, our share that's related to China or our shipments to China will probably be less than 25% of the business as we look into 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2942460,
+   "t1_ms": 2954530,
+   "speaker": "Operator",
+   "text": "And our next question comes from the line of Chris Castle from Washington. Chris Castle from Wolf Research. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2942460,
+     "text": "And our next question comes from the line of Chris Castle from Washington."
+    },
+    {
+     "t0_ms": 2950530,
+     "text": "Chris Castle from Wolf Research."
+    },
+    {
+     "t0_ms": 2952530,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2954530,
+   "t1_ms": 2997530,
+   "speaker": "Analyst",
+   "text": "Yes, thanks. Good afternoon. So your first question is with regard to some of the clean room space constraints that you discussed in your remarks. And, you know, it sounds like that's one of the main constraints on shipments as you go into next year. You spoke about having eight quarters of visibility. What are you seeing into 28? And obviously, you know, not providing guidance at this point, but if you could talk about what you're seeing in terms of your customers' clean room availability as you go into 28. Do we get to a point where we can see accelerated WFE growth based on clean room availability?",
+   "parts": [
+    {
+     "t0_ms": 2954530,
+     "text": "Yes, thanks."
+    },
+    {
+     "t0_ms": 2956530,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 2958530,
+     "text": "So your first question is with regard to some of the clean room space constraints that you discussed in your remarks."
+    },
+    {
+     "t0_ms": 2965530,
+     "text": "And, you know, it sounds like that's one of the main constraints on shipments as you go into next year."
+    },
+    {
+     "t0_ms": 2973530,
+     "text": "You spoke about having eight quarters of visibility."
+    },
+    {
+     "t0_ms": 2977530,
+     "text": "What are you seeing into 28?"
+    },
+    {
+     "t0_ms": 2979530,
+     "text": "And obviously, you know, not providing guidance at this point, but if you could talk about what you're seeing in terms of your customers' clean room availability as you go into 28."
+    },
+    {
+     "t0_ms": 2990530,
+     "text": "Do we get to a point where we can see accelerated WFE growth based on clean room availability?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2997530,
+   "t1_ms": 3006530,
+   "speaker": "Analyst",
+   "text": "Do we still stay tight as an industry in 28 where clean room still becomes a constraint even beyond 27?",
+   "parts": [
+    {
+     "t0_ms": 2997530,
+     "text": "Do we still stay tight as an industry in 28 where clean room still becomes a constraint even beyond 27?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3006530,
+   "t1_ms": 3048530,
+   "speaker": "Management",
+   "text": "Hi, Chris. I think the best way to picture it. I think the best way to picture this is it's an expanding, you know, expanding envelope each year. So, you know, we've talked about how each quarter companies have added projects. A lot of those projects, for example, this quarter, more than ten projects added. A large number of them are in 29 and 30 in terms of when those factories open up. And so as customers continue to add to the roadmap, it expands every year, but especially in the out years. So I would think of it as an expanding equation. Where you should expect the WFE market to continue to grow as more and more clean room is added each year. And that matches our expectation.",
+   "parts": [
+    {
+     "t0_ms": 3006530,
+     "text": "Hi, Chris."
+    },
+    {
+     "t0_ms": 3007530,
+     "text": "I think the best way to picture it."
+    },
+    {
+     "t0_ms": 3009530,
+     "text": "I think the best way to picture this is it's an expanding, you know, expanding envelope each year."
+    },
+    {
+     "t0_ms": 3014530,
+     "text": "So, you know, we've talked about how each quarter companies have added projects."
+    },
+    {
+     "t0_ms": 3019530,
+     "text": "A lot of those projects, for example, this quarter, more than ten projects added."
+    },
+    {
+     "t0_ms": 3023530,
+     "text": "A large number of them are in 29 and 30 in terms of when those factories open up."
+    },
+    {
+     "t0_ms": 3028530,
+     "text": "And so as customers continue to add to the roadmap, it expands every year, but especially in the out years."
+    },
+    {
+     "t0_ms": 3035530,
+     "text": "So I would think of it as an expanding equation."
+    },
+    {
+     "t0_ms": 3038530,
+     "text": "Where you should expect the WFE market to continue to grow as more and more clean room is added each year."
+    },
+    {
+     "t0_ms": 3046530,
+     "text": "And that matches our expectation."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3048530,
+   "t1_ms": 3069300,
+   "speaker": "Management",
+   "text": "You know, we highlighted at that same investor breakfast that the growth rate for WFE that we experienced the last ten years, we expect it to be larger as we look forward. And it's really this AI demand that's, you know, incremental to what we've seen in the past.",
+   "parts": [
+    {
+     "t0_ms": 3048530,
+     "text": "You know, we highlighted at that same investor breakfast that the growth rate for WFE that we experienced the last ten years, we expect it to be larger as we look forward."
+    },
+    {
+     "t0_ms": 3059530,
+     "text": "And it's really this AI demand that's, you know, incremental to what we've seen in the past."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3069300,
+   "t1_ms": 3096300,
+   "speaker": "Analyst",
+   "text": "Thanks. As a follow-up question. Something else. You folks talked about at the investor breakfast on hybrid bonding. And could you give us an update on that and kind of outlook and timing given what you're seeing in the industry? And, you know, particularly as AI demand is increasingly driven by inference, what does that have, what impact does that have on hybrid bonding adoption?",
+   "parts": [
+    {
+     "t0_ms": 3069300,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 3070300,
+     "text": "As a follow-up question."
+    },
+    {
+     "t0_ms": 3071300,
+     "text": "Something else."
+    },
+    {
+     "t0_ms": 3072300,
+     "text": "You folks talked about at the investor breakfast on hybrid bonding."
+    },
+    {
+     "t0_ms": 3076300,
+     "text": "And could you give us an update on that and kind of outlook and timing given what you're seeing in the industry?"
+    },
+    {
+     "t0_ms": 3084300,
+     "text": "And, you know, particularly as AI demand is increasingly driven by inference, what does that have, what impact does that have on hybrid bonding adoption?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3096300,
+   "t1_ms": 3136300,
+   "speaker": "Management",
+   "text": "Yeah, I'll start. And I think today we see that. In leading logic for some of the 3D packaging solutions. And then we know all the memory customers are evaluating it for HBM. And that's in process. You'll have to talk to them about actual insertion and adoption points. But we think it's a very important technology. We think it's critical to the, you know, 3D and advanced packaging market. And, you know, obviously we're making investments there. Yeah, I think relative to power and performance, hybrid bonding is a very important technology. And it's very important for IO density and shortening the wiring length.",
+   "parts": [
+    {
+     "t0_ms": 3096300,
+     "text": "Yeah, I'll start."
+    },
+    {
+     "t0_ms": 3099300,
+     "text": "And I think today we see that."
+    },
+    {
+     "t0_ms": 3101300,
+     "text": "In leading logic for some of the 3D packaging solutions."
+    },
+    {
+     "t0_ms": 3105300,
+     "text": "And then we know all the memory customers are evaluating it for HBM."
+    },
+    {
+     "t0_ms": 3109300,
+     "text": "And that's in process."
+    },
+    {
+     "t0_ms": 3111300,
+     "text": "You'll have to talk to them about actual insertion and adoption points."
+    },
+    {
+     "t0_ms": 3115300,
+     "text": "But we think it's a very important technology."
+    },
+    {
+     "t0_ms": 3119300,
+     "text": "We think it's critical to the, you know, 3D and advanced packaging market."
+    },
+    {
+     "t0_ms": 3123300,
+     "text": "And, you know, obviously we're making investments there."
+    },
+    {
+     "t0_ms": 3125300,
+     "text": "Yeah, I think relative to power and performance, hybrid bonding is a very important technology."
+    },
+    {
+     "t0_ms": 3129300,
+     "text": "And it's very important for IO density and shortening the wiring length."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3136300,
+   "t1_ms": 3179300,
+   "speaker": "Management",
+   "text": "So when I'm engaging with all of our customers, this is a prime topic. So we're seeing adoption in high volume manufacturing in logic. But again, this is a very important technology for power and performance going forward. And we talked about this in the investor breakfast. We serve about 80% of the steps for hybrid bonding. And, you know, we're in a very strong position in that market. We're certainly a very strong position in high bandwidth memory stacking. We have a very, very high share. And all of that's contributing to our very strong growth in packaging in 26.",
+   "parts": [
+    {
+     "t0_ms": 3136300,
+     "text": "So when I'm engaging with all of our customers, this is a prime topic."
+    },
+    {
+     "t0_ms": 3143300,
+     "text": "So we're seeing adoption in high volume manufacturing in logic."
+    },
+    {
+     "t0_ms": 3147300,
+     "text": "But again, this is a very important technology for power and performance going forward."
+    },
+    {
+     "t0_ms": 3153300,
+     "text": "And we talked about this in the investor breakfast."
+    },
+    {
+     "t0_ms": 3157300,
+     "text": "We serve about 80% of the steps for hybrid bonding."
+    },
+    {
+     "t0_ms": 3163300,
+     "text": "And, you know, we're in a very strong position in that market."
+    },
+    {
+     "t0_ms": 3166300,
+     "text": "We're certainly a very strong position in high bandwidth memory stacking."
+    },
+    {
+     "t0_ms": 3171300,
+     "text": "We have a very, very high share."
+    },
+    {
+     "t0_ms": 3173300,
+     "text": "And all of that's contributing to our very strong growth in packaging in 26."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3179300,
+   "t1_ms": 3204300,
+   "speaker": "Management",
+   "text": "And for sure, hybrid bonding will be adopted further in both logic and memory. And again, we're seeing a lot of growth in that. Again, Applied is in a really good position with our partnership with Bessie in hybrid bonding. But also in all of those adjacent steps, Applied has very strong positions. And that will enable us to drive significant packaging growth going forward.",
+   "parts": [
+    {
+     "t0_ms": 3179300,
+     "text": "And for sure, hybrid bonding will be adopted further in both logic and memory."
+    },
+    {
+     "t0_ms": 3186300,
+     "text": "And again, we're seeing a lot of growth in that."
+    },
+    {
+     "t0_ms": 3187300,
+     "text": "Again, Applied is in a really good position with our partnership with Bessie in hybrid bonding."
+    },
+    {
+     "t0_ms": 3193300,
+     "text": "But also in all of those adjacent steps, Applied has very strong positions."
+    },
+    {
+     "t0_ms": 3199300,
+     "text": "And that will enable us to drive significant packaging growth going forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3204300,
+   "t1_ms": 3216580,
+   "speaker": "Operator",
+   "text": "Thank you. Thank you. And our next question comes from the line, Ocho Quattrochi from Wells Fargo. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 3204300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3208580,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3209580,
+     "text": "And our next question comes from the line, Ocho Quattrochi from Wells Fargo."
+    },
+    {
+     "t0_ms": 3214580,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3216580,
+   "t1_ms": 3231580,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking the question. Just given it sounds like you think that non-China ICAP strengthens next year and maybe even China grows as well, why should we not think about your outperformance at WFE maybe accelerating in 2027 relative to 26?",
+   "parts": [
+    {
+     "t0_ms": 3216580,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 3218580,
+     "text": "Just given it sounds like you think that non-China ICAP strengthens next year and maybe even China grows as well,"
+    },
+    {
+     "t0_ms": 3224580,
+     "text": "why should we not think about your outperformance at WFE maybe accelerating in 2027 relative to 26?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3231580,
+   "t1_ms": 3272660,
+   "speaker": "Management",
+   "text": "We do expect to see, you know, rest of world investments. I think when you look at the customers worldwide, that digestion that we talked about the last few years with all the incremental investment in China looks like it's completing its cycle. So some of the rest of world customers, you know, we expect to see that. And then in China, you know, we expect to see that also. And I'll just say, focusing in on China, for the customers that we can serve, our addressable market in China, we think we're gaining share in 2026. And we think that's on the strength of, you know, mostly 28 nanometer type investments. So we feel good about execution in China.",
+   "parts": [
+    {
+     "t0_ms": 3231580,
+     "text": "We do expect to see, you know, rest of world investments."
+    },
+    {
+     "t0_ms": 3237660,
+     "text": "I think when you look at the customers worldwide, that digestion that we talked about the last few years with all the incremental investment in China looks like it's completing its cycle."
+    },
+    {
+     "t0_ms": 3247660,
+     "text": "So some of the rest of world customers,"
+    },
+    {
+     "t0_ms": 3249660,
+     "text": "you know, we expect to see that."
+    },
+    {
+     "t0_ms": 3250660,
+     "text": "And then in China, you know, we expect to see that also."
+    },
+    {
+     "t0_ms": 3252660,
+     "text": "And I'll just say, focusing in on China, for the customers that we can serve, our addressable market in China, we think we're gaining share in 2026."
+    },
+    {
+     "t0_ms": 3264660,
+     "text": "And we think that's on the strength of, you know, mostly 28 nanometer type investments."
+    },
+    {
+     "t0_ms": 3270660,
+     "text": "So we feel good about execution in China."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3272660,
+   "t1_ms": 3278660,
+   "speaker": "Management",
+   "text": "And, you know, we'll continue to serve that market as we go forward. Thank you. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3272660,
+     "text": "And, you know, we'll continue to serve that market as we go forward."
+    },
+    {
+     "t0_ms": 3276660,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3277660,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3278660,
+   "t1_ms": 3299430,
+   "speaker": "Analyst",
+   "text": "And maybe as a follow up, you know, you increased the advanced packaging growth rate again. Maybe could you help us understand just, you know, what's from HBM versus Foundry logic? And then also, how do we think about that into 2027?",
+   "parts": [
+    {
+     "t0_ms": 3278660,
+     "text": "And maybe as a follow up, you know, you increased the advanced packaging growth rate again."
+    },
+    {
+     "t0_ms": 3287450,
+     "text": "Maybe could you help us understand just, you know, what's from HBM versus Foundry logic?"
+    },
+    {
+     "t0_ms": 3294450,
+     "text": "And then also, how do we think about that into 2027?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3299430,
+   "t1_ms": 3344430,
+   "speaker": "Management",
+   "text": "Yeah. So we've increased each quarter. And that really is like the rest of the equation where we saw additional projects and additional capacity being requested as we went through the year. So, yeah. So, you know, we're going to see that growth in the next year. From the advanced packaging market, a large portion of that in 2026 is HBM related packaging. And that sees tremendous growth in 2026. Yeah. I'd say 2027 also HBM remains very strong. And going forward, what our customers are focused on are new packaging architectures. They want to make the body sizes as large as they can. And Applied has invested to create a new packaging architecture. And we've invested to create the leading portfolio for those inflections.",
+   "parts": [
+    {
+     "t0_ms": 3299430,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3300430,
+     "text": "So we've increased each quarter."
+    },
+    {
+     "t0_ms": 3302430,
+     "text": "And that really is like the rest of the equation where we saw additional projects and additional capacity being requested as we went through the year."
+    },
+    {
+     "t0_ms": 3310430,
+     "text": "So, yeah."
+    },
+    {
+     "t0_ms": 3311430,
+     "text": "So, you know, we're going to see that growth in the next year."
+    },
+    {
+     "t0_ms": 3313430,
+     "text": "From the advanced packaging market, a large portion of that in 2026 is HBM related packaging."
+    },
+    {
+     "t0_ms": 3319430,
+     "text": "And that sees tremendous growth in 2026."
+    },
+    {
+     "t0_ms": 3323430,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3324430,
+     "text": "I'd say 2027 also HBM remains very strong."
+    },
+    {
+     "t0_ms": 3328430,
+     "text": "And going forward, what our customers are focused on are new packaging architectures."
+    },
+    {
+     "t0_ms": 3334430,
+     "text": "They want to make the body sizes as large as they can."
+    },
+    {
+     "t0_ms": 3337430,
+     "text": "And Applied has invested to create a new packaging architecture."
+    },
+    {
+     "t0_ms": 3339430,
+     "text": "And we've invested to create the leading portfolio for those inflections."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3344430,
+   "t1_ms": 3374430,
+   "speaker": "Management",
+   "text": "And so, again, as I'm engaging with all of these customers on a constant basis, this is an incredibly important focus for all of them because multi-chip connectivity for AI compute performance is really important. So, again, that portfolio that we've created over the last several years and that we've added to with some big innovations, also the acquisition of Next. That gives us a tailwind into 2027 and going forward. Thanks, Ed. Operator, we have time for one more question, please. Certainly. And our final question for today then comes from the line of Melissa Weathers from Deutsche Bank.",
+   "parts": [
+    {
+     "t0_ms": 3344430,
+     "text": "And so, again, as I'm engaging with all of these customers on a constant basis, this is an incredibly important focus for all of them because multi-chip connectivity for AI compute performance is really important."
+    },
+    {
+     "t0_ms": 3358430,
+     "text": "So, again, that portfolio that we've created over the last several years and that we've added to with some big innovations, also the acquisition of Next."
+    },
+    {
+     "t0_ms": 3367430,
+     "text": "That gives us a tailwind into 2027 and going forward."
+    },
+    {
+     "t0_ms": 3370430,
+     "text": "Thanks, Ed."
+    },
+    {
+     "t0_ms": 3371430,
+     "text": "Operator, we have time for one more question, please."
+    },
+    {
+     "t0_ms": 3372430,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 3373430,
+     "text": "And our final question for today then comes from the line of Melissa Weathers from Deutsche Bank."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3374430,
+   "t1_ms": 3375430,
+   "speaker": "Analyst",
+   "text": "Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 3374430,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3375430,
+   "t1_ms": 3381430,
+   "speaker": "Operator",
+   "text": "Hi. Thank you for squeezing me in. I'm sorry if I missed this, but as we think about the growth in 2027 and the shape of how that year is going to shape up, any way that we should be thinking about, like, first half versus second half, I don't know if there's some big clean room there. I think it's important to think about that. I think it's important to think about that. I think it's important to think about that.",
+   "parts": [
+    {
+     "t0_ms": 3375430,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 3376430,
+     "text": "Thank you for squeezing me in."
+    },
+    {
+     "t0_ms": 3377430,
+     "text": "I'm sorry if I missed this, but as we think about the growth in 2027 and the shape of how that year is going to shape up, any way that we should be thinking about, like, first half versus second half, I don't know if there's some big clean room there."
+    },
+    {
+     "t0_ms": 3378430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3379430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3380430,
+     "text": "I think it's important to think about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3381430,
+   "t1_ms": 3405630,
+   "speaker": "Analyst",
+   "text": "I think it's important to think about that. I think it's important to think about that. I think it's important to think about that. I think it's important to think about that. I think it's important to think about that. I think it's important to think about that. All right. We have about 20 minutes. Just one more question. Melissa, if you could just kind of give us the answer, please. Sure. So, we wanted to try to be professional about the way that we think about the next quarter. So, we have 20 minutes to think about the next quarter. And I think that that's something that we're always a little extra careful about. And I think that's going to be a really big question for folks. Is it going to be anything of the current code at this stage? What's that going to be, or is there anything that we're aware of that we're not thinking about like as a product that we're going to be using? No, no, no, no. making sure we have in our models or capacity coming online, just any color on first half versus second half dynamics next year.",
+   "parts": [
+    {
+     "t0_ms": 3381430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3382430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3383430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3384430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3385430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3386430,
+     "text": "I think it's important to think about that."
+    },
+    {
+     "t0_ms": 3387430,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 3388430,
+     "text": "We have about 20 minutes."
+    },
+    {
+     "t0_ms": 3389430,
+     "text": "Just one more question."
+    },
+    {
+     "t0_ms": 3390430,
+     "text": "Melissa, if you could just kind of give us the answer, please."
+    },
+    {
+     "t0_ms": 3391430,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 3392430,
+     "text": "So, we wanted to try to be professional about the way that we think about the next quarter."
+    },
+    {
+     "t0_ms": 3393430,
+     "text": "So, we have 20 minutes to think about the next quarter."
+    },
+    {
+     "t0_ms": 3394430,
+     "text": "And I think that that's something that we're always a little extra careful about."
+    },
+    {
+     "t0_ms": 3395430,
+     "text": "And I think that's going to be a really big question for folks."
+    },
+    {
+     "t0_ms": 3396430,
+     "text": "Is it going to be anything of the current code at this stage?"
+    },
+    {
+     "t0_ms": 3397430,
+     "text": "What's that going to be, or is there anything that we're aware of that we're not thinking about like as a product that we're going to be using?"
+    },
+    {
+     "t0_ms": 3398430,
+     "text": "No, no, no, no."
+    },
+    {
+     "t0_ms": 3399430,
+     "text": "making sure we have in our models or capacity coming online,"
+    },
+    {
+     "t0_ms": 3401990,
+     "text": "just any color on first half versus second half dynamics next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3406630,
+   "t1_ms": 3421250,
+   "speaker": "Management",
+   "text": "Hi, Melissa. It's Bryce. Nice to hear your voice. We expect to increase output every quarter as we go through the year. So I think that gives you a perspective on the shape. I don't think there's much from a clean room dynamics that's not known at this point.",
+   "parts": [
+    {
+     "t0_ms": 3406630,
+     "text": "Hi, Melissa. It's Bryce. Nice to hear your voice."
+    },
+    {
+     "t0_ms": 3409870,
+     "text": "We expect to increase output every quarter as we go through the year."
+    },
+    {
+     "t0_ms": 3413630,
+     "text": "So I think that gives you a perspective on the shape."
+    },
+    {
+     "t0_ms": 3416390,
+     "text": "I don't think there's much from a clean room dynamics that's not known at this point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3423650,
+   "t1_ms": 3446170,
+   "speaker": "Analyst",
+   "text": "Got it. And then on the other business, I know it's tiny, but I think if I remember from last quarter, you guys talked about some resegmenting some of the panel business out of that. So just high level on that other business, can you remind us what the trajectory is? And I think also there might be a gross margin headwind there. So just any modeling color on the other business would be helpful.",
+   "parts": [
+    {
+     "t0_ms": 3423650,
+     "text": "Got it. And then on the other business, I know it's tiny,"
+    },
+    {
+     "t0_ms": 3427550,
+     "text": "but I think if I remember from last quarter,"
+    },
+    {
+     "t0_ms": 3429870,
+     "text": "you guys talked about some resegmenting some of the panel business out of that."
+    },
+    {
+     "t0_ms": 3434750,
+     "text": "So just high level on that other business, can you remind us what the trajectory is?"
+    },
+    {
+     "t0_ms": 3440570,
+     "text": "And I think also there might be a gross margin headwind there."
+    },
+    {
+     "t0_ms": 3443390,
+     "text": "So just any modeling color on the other business would be helpful."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3447350,
+   "t1_ms": 3491970,
+   "speaker": "Management",
+   "text": "Sure. On other, which is the collection of our non-reportable operating segments in the company, the largest one is display. Display had a strong quarter in Q4 2020, and it was up to $126 million, over $500 million. We said that we would tell you if it changed in terms of its performance. So that business, think of the gross margins in the 40% range and the operating margins in the 20s. And what we've said is for the foreseeable future, please model that business as approximately $400 million per quarter from a revenue perspective. So that's where we are right now. So put in $400 million for Q1. And then for future, we're going to be looking at $400 million. So that's where we are right now. So put in $400 million for Q1. And then for future, we're going to be looking at $400 million for Q2. So that's where we are right now. So put in $400 million for Q1. And we'll let you know when it changes.",
+   "parts": [
+    {
+     "t0_ms": 3447350,
+     "text": "Sure. On other, which is the collection of our non-reportable operating segments in the company,"
+    },
+    {
+     "t0_ms": 3455110,
+     "text": "the largest one is display. Display had a strong quarter in Q4 2020,"
+    },
+    {
+     "t0_ms": 3460030,
+     "text": "and it was up to $126 million, over $500 million."
+    },
+    {
+     "t0_ms": 3463070,
+     "text": "We said that we would tell you if it changed in terms of its performance."
+    },
+    {
+     "t0_ms": 3467770,
+     "text": "So that business, think of the gross margins in the 40% range and the operating margins in the 20s."
+    },
+    {
+     "t0_ms": 3475590,
+     "text": "And what we've said is for the foreseeable future,"
+    },
+    {
+     "t0_ms": 3479090,
+     "text": "please model that business as approximately $400 million per quarter from a revenue perspective."
+    },
+    {
+     "t0_ms": 3485530,
+     "text": "So that's where we are right now."
+    },
+    {
+     "t0_ms": 3486730,
+     "text": "So put in $400 million for Q1."
+    },
+    {
+     "t0_ms": 3489250,
+     "text": "And then for future, we're going to be looking at $400 million."
+    },
+    {
+     "t0_ms": 3489650,
+     "text": "So that's where we are right now. So put in $400 million for Q1."
+    },
+    {
+     "t0_ms": 3489670,
+     "text": "And then for future, we're going to be looking at $400 million for Q2."
+    },
+    {
+     "t0_ms": 3489790,
+     "text": "So that's where we are right now. So put in $400 million for Q1."
+    },
+    {
+     "t0_ms": 3489870,
+     "text": "And we'll let you know when it changes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3492730,
+   "t1_ms": 3510490,
+   "speaker": "Management",
+   "text": "And then that other segment will be approximately break-even as we move through the quarters. The profits from the display business are spent in our other adjacencies, the businesses that Gary highlighted at our investor breakfast that we're investing in as adjacencies to grow.",
+   "parts": [
+    {
+     "t0_ms": 3492730,
+     "text": "And then that other segment will be approximately break-even as we move through the quarters."
+    },
+    {
+     "t0_ms": 3498670,
+     "text": "The profits from the display business are spent in our other adjacencies,"
+    },
+    {
+     "t0_ms": 3504370,
+     "text": "the businesses that Gary highlighted at our investor breakfast"
+    },
+    {
+     "t0_ms": 3507890,
+     "text": "that we're investing in as adjacencies to grow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3512760,
+   "t1_ms": 3513580,
+   "speaker": "Analyst",
+   "text": "Perfect. Thanks, Bryce.",
+   "parts": [
+    {
+     "t0_ms": 3512760,
+     "text": "Perfect. Thanks, Bryce."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3514160,
+   "t1_ms": 3555240,
+   "speaker": "Management",
+   "text": "Thank you. Yeah, thanks, Melissa, for your question. And Bryce, would you like to give us your closing thoughts for today? Sure, Mike. I'm pleased that the investments we've made are driving strong financial results, including record quarterly revenue growth and continued gross margin expansion. We look forward to seeing many of you here in Santa Clara this quarter and at conferences, including RBC in New York, UBS in Scottsdale, Wells Fargo in Dana Point, and Barclays in San Francisco. Mike, let's go ahead and close the call. All right, great. Thanks, Bryce. And I'd like to let you know that a replay of today's call is going to be available on the IR page of our website by 5 o'clock. And we'd really like to thank you for your continued interest in applied materials.",
+   "parts": [
+    {
+     "t0_ms": 3514160,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3515680,
+     "text": "Yeah, thanks, Melissa, for your question."
+    },
+    {
+     "t0_ms": 3517620,
+     "text": "And Bryce, would you like to give us your closing thoughts for today?"
+    },
+    {
+     "t0_ms": 3519880,
+     "text": "Sure, Mike."
+    },
+    {
+     "t0_ms": 3520660,
+     "text": "I'm pleased that the investments we've made are driving strong financial results,"
+    },
+    {
+     "t0_ms": 3524400,
+     "text": "including record quarterly revenue growth and continued gross margin expansion."
+    },
+    {
+     "t0_ms": 3529360,
+     "text": "We look forward to seeing many of you here in Santa Clara this quarter and at conferences,"
+    },
+    {
+     "t0_ms": 3533660,
+     "text": "including RBC in New York, UBS in Scottsdale, Wells Fargo in Dana Point, and Barclays in San Francisco."
+    },
+    {
+     "t0_ms": 3540620,
+     "text": "Mike, let's go ahead and close the call."
+    },
+    {
+     "t0_ms": 3543880,
+     "text": "All right, great. Thanks, Bryce."
+    },
+    {
+     "t0_ms": 3544680,
+     "text": "And I'd like to let you know that a replay of today's call is going to be available on the IR page of our website"
+    },
+    {
+     "t0_ms": 3549620,
+     "text": "by 5 o'clock."
+    },
+    {
+     "t0_ms": 3550660,
+     "text": "And we'd really like to thank you for your continued interest in applied materials."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3557470,
+   "t1_ms": 3563490,
+   "speaker": "Operator",
+   "text": "Thank you, ladies and gentlemen, for your participation at today's conference. This does conclude the program. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3557470,
+     "text": "Thank you, ladies and gentlemen, for your participation at today's conference."
+    },
+    {
+     "t0_ms": 3560530,
+     "text": "This does conclude the program."
+    },
+    {
+     "t0_ms": 3562590,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

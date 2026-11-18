@@ -1,7 +1,8 @@
 """Transcription and speaker diarization on a Modal GPU (https://modal.com), the fast path for ingest, with
 whisper large-v3 instead of the CPU's medium. GPUs need a payment method on the Modal account. L4 capacity can run
 out for hours (2026-11-10: none in 9 minutes while A10 and T4 started in under 20 s), so the function falls back
-to those in order, and ingest falls back to the CPU after a timeout.
+to those in order. When Modal fails, ingest falls back to the CPU on a GitHub runner
+and fails the call anywhere else.
 
     modal deploy -m callmoves.gpu      # once, and again after changing this file or transcript.py
 

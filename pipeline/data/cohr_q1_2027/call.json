@@ -1,0 +1,4411 @@
+{
+ "ticker": "COHR",
+ "quarter": "Q1-2027",
+ "company": "Coherent",
+ "call_start": "2026-11-04T16:30:00-05:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/COHR_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 11800,
+   "speaker": "Operator",
+   "text": "Please note this event is being recorded. It is now my pleasure to introduce your host, Mr. Paul Silverstein, Senior Vice President of Investor Relations for Coherent. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Please note this event is being recorded."
+    },
+    {
+     "t0_ms": 3100,
+     "text": "It is now my pleasure to introduce your host, Mr. Paul Silverstein, Senior Vice President"
+    },
+    {
+     "t0_ms": 8820,
+     "text": "of Investor Relations for Coherent."
+    },
+    {
+     "t0_ms": 10920,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 14860,
+   "t1_ms": 57600,
+   "speaker": "Management",
+   "text": "Thank you, Operator, and good afternoon, everyone. With me today are Jim Anderson, Coherent CEO, and Sherry Luther, Coherent CFO. During today's call, we will provide a financial and business review of the first quarter of fiscal 2027 and the business outlook for the second quarter of fiscal 2027. Our earnings press release can be found in the Investor Relations section of our company website at Coherent.com. I would like to remind everyone that during our conference call, we may make projections or other forward-looking statements regarding future events or the future financial performance of the company. These are subject to a number of significant risks and uncertainties, and our actual results may differ materially. For a discussion of factors that could affect our future financial results in business,",
+   "parts": [
+    {
+     "t0_ms": 14860,
+     "text": "Thank you, Operator, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 17440,
+     "text": "With me today are Jim Anderson, Coherent CEO, and Sherry Luther, Coherent CFO."
+    },
+    {
+     "t0_ms": 22460,
+     "text": "During today's call, we will provide a financial and business review of the first quarter of"
+    },
+    {
+     "t0_ms": 26820,
+     "text": "fiscal 2027 and the business outlook for the second quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 31720,
+     "text": "Our earnings press release can be found in the Investor Relations section of our company"
+    },
+    {
+     "t0_ms": 35880,
+     "text": "website at Coherent.com."
+    },
+    {
+     "t0_ms": 38440,
+     "text": "I would like to remind everyone that during our conference call, we may make projections"
+    },
+    {
+     "t0_ms": 42580,
+     "text": "or other forward-looking statements regarding future events or the future financial performance"
+    },
+    {
+     "t0_ms": 46940,
+     "text": "of the company."
+    },
+    {
+     "t0_ms": 48120,
+     "text": "These are subject to a number of significant risks and uncertainties, and our actual results"
+    },
+    {
+     "t0_ms": 52440,
+     "text": "may differ materially."
+    },
+    {
+     "t0_ms": 53940,
+     "text": "For a discussion of factors that could affect our future financial results in business,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 57880,
+   "t1_ms": 100920,
+   "speaker": "Management",
+   "text": "please refer to the disclosure in today's earnings release or most recent forms of financial statements. Thank you. Thank you, Paul, and thank you, everyone, for joining today's call.",
+   "parts": [
+    {
+     "t0_ms": 57880,
+     "text": "please refer to the disclosure in today's earnings release or most recent forms"
+    },
+    {
+     "t0_ms": 61660,
+     "text": "of financial statements."
+    },
+    {
+     "t0_ms": 61720,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 91720,
+     "text": "Thank you, Paul, and thank you, everyone, for joining today's call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 101620,
+   "t1_ms": 143180,
+   "speaker": "Management",
+   "text": "Q1 marked a strong start to fiscal 2027. Revenue increased 16% sequentially and 56% year-over-year on a pro forma basis. Non-GAAP EPS increased 80% year-over-year, reflecting continued gross margin expansion and operating leverage. Strong customer demand and our rapid capacity to deliver on-demand and high-performance capacity expansion are supporting this growth, with near-term bookings and newly signed LTAs providing multi-year visibility. We remain on track to achieve our first $3 billion revenue quarter by the end of fiscal 27. We expect the full-year pro forma revenue growth rate to exceed 60%, more than double our fiscal 26 pro forma growth rate.",
+   "parts": [
+    {
+     "t0_ms": 101620,
+     "text": "Q1 marked a strong start to fiscal 2027."
+    },
+    {
+     "t0_ms": 104720,
+     "text": "Revenue increased 16% sequentially and 56% year-over-year on a pro forma basis."
+    },
+    {
+     "t0_ms": 111200,
+     "text": "Non-GAAP EPS increased 80% year-over-year, reflecting continued gross margin expansion"
+    },
+    {
+     "t0_ms": 116720,
+     "text": "and operating leverage."
+    },
+    {
+     "t0_ms": 118520,
+     "text": "Strong customer demand and our rapid capacity to deliver on-demand and high-performance"
+    },
+    {
+     "t0_ms": 121720,
+     "text": "capacity expansion are supporting this growth, with near-term bookings and newly signed"
+    },
+    {
+     "t0_ms": 126800,
+     "text": "LTAs providing multi-year visibility."
+    },
+    {
+     "t0_ms": 129800,
+     "text": "We remain on track to achieve our first $3 billion revenue quarter by the end of fiscal"
+    },
+    {
+     "t0_ms": 134500,
+     "text": "27."
+    },
+    {
+     "t0_ms": 135420,
+     "text": "We expect the full-year pro forma revenue growth rate to exceed 60%, more than double"
+    },
+    {
+     "t0_ms": 140840,
+     "text": "our fiscal 26 pro forma growth rate."
+    }
+   ]
+  },
+  {
+   "t0_ms": 143560,
+   "t1_ms": 181600,
+   "speaker": "Management",
+   "text": "We also have a clear line of sight to our first $4 billion revenue quarter in fiscal 28. Coherent is a photonics platform. We are a large platform company, bringing together technologies across the optical signal chain, from materials and components through subsystems and complete solutions. Our breadth positions us to support customers across data center and communications networks. We're at the center of an extraordinary expansion in optical networking infrastructure, driven by rapid AI growth, the transition from copper to optical connectivity, and rising demand for bandwidth and energy efficiency across increasingly large and complex data centers.",
+   "parts": [
+    {
+     "t0_ms": 143560,
+     "text": "We also have a clear line of sight to our first $4 billion revenue quarter in fiscal"
+    },
+    {
+     "t0_ms": 148580,
+     "text": "28."
+    },
+    {
+     "t0_ms": 149880,
+     "text": "Coherent is a photonics platform."
+    },
+    {
+     "t0_ms": 151620,
+     "text": "We are a large platform company, bringing together technologies across the optical signal"
+    },
+    {
+     "t0_ms": 155160,
+     "text": "chain, from materials and components through subsystems and complete solutions."
+    },
+    {
+     "t0_ms": 160820,
+     "text": "Our breadth positions us to support customers across data center and communications networks."
+    },
+    {
+     "t0_ms": 166040,
+     "text": "We're at the center of an extraordinary expansion in optical networking infrastructure,"
+    },
+    {
+     "t0_ms": 170880,
+     "text": "driven by rapid AI growth, the transition from copper to optical connectivity, and"
+    },
+    {
+     "t0_ms": 176260,
+     "text": "rising demand for bandwidth and energy efficiency across increasingly large and complex data"
+    },
+    {
+     "t0_ms": 181380,
+     "text": "centers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 181620,
+   "t1_ms": 225860,
+   "speaker": "Management",
+   "text": "Our established businesses continue to grow rapidly, with data center revenue up 85% year over year in Q1. At the same time, new growth areas are ramping as well. For example, scale across data center interconnect revenue is growing rapidly, with Q1 revenue roughly quadrupling year over year, and reaching a nearly $1 billion annualized revenue run rate. In addition, PhotonLink, our newly announced integrated optics platform, is also growing rapidly. We expect PhotonLink revenue to exceed $100 million in our March quarter. Accelerating revenue growth, continued gross margin expansion, and operating leverage position us to grow profitability faster than revenue.",
+   "parts": [
+    {
+     "t0_ms": 181620,
+     "text": "Our established businesses continue to grow rapidly, with data center revenue up 85% year"
+    },
+    {
+     "t0_ms": 189160,
+     "text": "over year in Q1."
+    },
+    {
+     "t0_ms": 190660,
+     "text": "At the same time, new growth areas are ramping as well."
+    },
+    {
+     "t0_ms": 194600,
+     "text": "For example, scale across data center interconnect revenue is growing rapidly, with Q1 revenue"
+    },
+    {
+     "t0_ms": 200340,
+     "text": "roughly quadrupling year over year, and reaching a nearly $1 billion annualized revenue run"
+    },
+    {
+     "t0_ms": 205940,
+     "text": "rate."
+    },
+    {
+     "t0_ms": 206900,
+     "text": "In addition, PhotonLink, our newly announced integrated optics platform, is also growing"
+    },
+    {
+     "t0_ms": 211600,
+     "text": "rapidly."
+    },
+    {
+     "t0_ms": 211620,
+     "text": "We expect PhotonLink revenue to exceed $100 million in our March quarter."
+    },
+    {
+     "t0_ms": 218500,
+     "text": "Accelerating revenue growth, continued gross margin expansion, and operating leverage position"
+    },
+    {
+     "t0_ms": 223320,
+     "text": "us to grow profitability faster than revenue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 226420,
+   "t1_ms": 270500,
+   "speaker": "Management",
+   "text": "We expect fiscal 27 to be an exceptional year for Coherent. Moving to our data center and communications segment, revenue increased 21% sequentially and 79% year over year, marking a fourth consecutive quarter of accelerating growth, on both the sequential and year over year basis. The segment now accounts for 82% of Coherent's total revenue. Near-term demand remains strong, and our visibility into long-term demand continues to improve. Order coverage through calendar 27 is exceptional, and customer orders increasingly extend into calendar 28. We signed multiple new LTAs in Q1, and customer LTAs typically extend through the end of the decade. We continue to see no signs of attenuation in demand. We continue to see no signs of attenuation in demand.",
+   "parts": [
+    {
+     "t0_ms": 226420,
+     "text": "We expect fiscal 27 to be an exceptional year for Coherent."
+    },
+    {
+     "t0_ms": 230800,
+     "text": "Moving to our data center and communications segment, revenue increased 21% sequentially"
+    },
+    {
+     "t0_ms": 235700,
+     "text": "and 79% year over year, marking a fourth consecutive quarter of accelerating growth,"
+    },
+    {
+     "t0_ms": 241620,
+     "text": "on both the sequential and year over year basis."
+    },
+    {
+     "t0_ms": 244120,
+     "text": "The segment now accounts for 82% of Coherent's total revenue."
+    },
+    {
+     "t0_ms": 248420,
+     "text": "Near-term demand remains strong, and our visibility into long-term demand continues to improve."
+    },
+    {
+     "t0_ms": 255200,
+     "text": "Order coverage through calendar 27 is exceptional, and customer orders increasingly extend into"
+    },
+    {
+     "t0_ms": 260380,
+     "text": "calendar 28."
+    },
+    {
+     "t0_ms": 261380,
+     "text": "We signed multiple new LTAs in Q1, and customer LTAs typically extend through the end of the"
+    },
+    {
+     "t0_ms": 267500,
+     "text": "decade."
+    },
+    {
+     "t0_ms": 268500,
+     "text": "We continue to see no signs of attenuation in demand."
+    },
+    {
+     "t0_ms": 269500,
+     "text": "We continue to see no signs of attenuation in demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 270500,
+   "t1_ms": 313120,
+   "speaker": "Management",
+   "text": "We continue to see no signs of attenuation in demand. We continue to see no signs of attenuation in demand. This leaves us looking at Q2 and Q3\u0435\u0439 been marked 4 of the assertions mosted in Q1's data centric store market movements. Game plan revenue slower than revenue400 percent at Q2. Data center revenue increased 17% sequentially and 85% year over year, marking our fourth consecutive quarter of double digit sequential growth. We expect another quarter of strong sequential and year over year growth then the current quarter. In data center transceivers, we are ramping 1.6T products with multiple customers while continuing to grow 800 gig revenue. We expect strong transceiver revenue growth in Q2, driven by both 1.6T and 800 gig. We expect 1.6T revenue to continue ramping rapidly over the coming quarters, while 800 gig revenue continues to grow through calendar 27.",
+   "parts": [
+    {
+     "t0_ms": 270500,
+     "text": "We continue to see no signs of attenuation in demand."
+    },
+    {
+     "t0_ms": 271500,
+     "text": "We continue to see no signs of attenuation in demand."
+    },
+    {
+     "t0_ms": 274460,
+     "text": "This leaves us looking at Q2 and Q3\u0435\u0439 been marked 4 of the assertions mosted in Q1's"
+    },
+    {
+     "t0_ms": 275460,
+     "text": "data centric store market movements."
+    },
+    {
+     "t0_ms": 276460,
+     "text": "Game plan revenue slower than revenue400 percent at Q2."
+    },
+    {
+     "t0_ms": 277460,
+     "text": "Data center revenue increased 17% sequentially and 85% year over year, marking our fourth"
+    },
+    {
+     "t0_ms": 280840,
+     "text": "consecutive quarter of double digit sequential growth."
+    },
+    {
+     "t0_ms": 284340,
+     "text": "We expect another quarter of strong sequential and year over year growth then the current"
+    },
+    {
+     "t0_ms": 288180,
+     "text": "quarter."
+    },
+    {
+     "t0_ms": 290180,
+     "text": "In data center transceivers, we are ramping 1.6T products with multiple customers while"
+    },
+    {
+     "t0_ms": 294560,
+     "text": "continuing to grow 800 gig revenue."
+    },
+    {
+     "t0_ms": 297740,
+     "text": "We expect strong transceiver revenue growth in Q2, driven by both 1.6T and 800 gig."
+    },
+    {
+     "t0_ms": 303620,
+     "text": "We expect 1.6T revenue to continue ramping rapidly over the coming quarters, while 800"
+    },
+    {
+     "t0_ms": 308880,
+     "text": "gig revenue continues to grow through calendar 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 313120,
+   "t1_ms": 357960,
+   "speaker": "Management",
+   "text": "At ECOC in September, we demonstrated our progress beyond 1.6T with a 3.2T OSFP pluggable transceiver built with our 400 gig differential EMLs and photodiodes. We expect pluggable transceivers to remain the dominant form factor for scale-out networks over the coming years. Engagement is helping shape the industry ecosystem for emerging formats, demonstrating XPO at OFC and also supporting the new USFP form factor. Turning to OCS, customer engagement is broadening across scale-across, scale-out, and scale-up networks, spanning our 320x320 platform and denser configurations. We're expanding production at two sites to meet demand.",
+   "parts": [
+    {
+     "t0_ms": 313120,
+     "text": "At ECOC in September, we demonstrated our progress beyond 1.6T with a 3.2T OSFP pluggable"
+    },
+    {
+     "t0_ms": 320000,
+     "text": "transceiver built with our 400 gig differential EMLs and photodiodes."
+    },
+    {
+     "t0_ms": 325700,
+     "text": "We expect pluggable transceivers to remain the dominant form factor for scale-out networks"
+    },
+    {
+     "t0_ms": 329900,
+     "text": "over the coming years."
+    },
+    {
+     "t0_ms": 332240,
+     "text": "Engagement is helping shape the industry ecosystem for emerging formats, demonstrating XPO at"
+    },
+    {
+     "t0_ms": 337660,
+     "text": "OFC and also supporting the new USFP form factor."
+    },
+    {
+     "t0_ms": 343340,
+     "text": "Turning to OCS, customer engagement is broadening across scale-across, scale-out, and scale-up"
+    },
+    {
+     "t0_ms": 348620,
+     "text": "networks, spanning our 320x320 platform and denser configurations."
+    },
+    {
+     "t0_ms": 354720,
+     "text": "We're expanding production at two sites to meet demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 357960,
+   "t1_ms": 402260,
+   "speaker": "Management",
+   "text": "As capacity ramps, we expect OCS to become an increasingly meaningful control platform distributor to revenue growth and expansion. At ECOC in September, we launched PhotonLink, our new platform for integrated optics. It's designed to address the transition from copper to optical connectivity in AI data centers, creating a significant opportunity for Coherent. We estimate that CPO, NPO, and chip-to-chip optical interconnects represent approximately $30 billion of market opportunity by 2030, bringing our total market opportunity for data center and communications to about $90 billion in 2030. Photon Link brings together Coherence photonic technologies and manufacturing capabilities",
+   "parts": [
+    {
+     "t0_ms": 357960,
+     "text": "As capacity ramps, we expect OCS to become an increasingly meaningful control platform"
+    },
+    {
+     "t0_ms": 362240,
+     "text": "distributor to revenue growth and expansion."
+    },
+    {
+     "t0_ms": 365540,
+     "text": "At ECOC in September, we launched PhotonLink, our new platform for integrated optics."
+    },
+    {
+     "t0_ms": 371420,
+     "text": "It's designed to address the transition from copper to optical connectivity in AI"
+    },
+    {
+     "t0_ms": 376420,
+     "text": "data centers, creating a significant opportunity for Coherent."
+    },
+    {
+     "t0_ms": 380640,
+     "text": "We estimate that CPO, NPO, and chip-to-chip optical interconnects represent approximately"
+    },
+    {
+     "t0_ms": 386460,
+     "text": "$30 billion of market opportunity by 2030, bringing our total market opportunity for"
+    },
+    {
+     "t0_ms": 392240,
+     "text": "data center and communications to about $90 billion in 2030."
+    },
+    {
+     "t0_ms": 397520,
+     "text": "Photon Link brings together Coherence photonic technologies and manufacturing capabilities"
+    }
+   ]
+  },
+  {
+   "t0_ms": 402260,
+   "t1_ms": 445140,
+   "speaker": "Management",
+   "text": "in an end-to-end platform that spans the optical signal chain from generating and shaping light through transmission and detection to converting the signal to electrical form. The platform is designed for a wide range of architectures and applications, including TPO and NPO, scale-out and scale-up networks, and scale-in chip-to-chip links. It includes lasers, laser modules, complex fiber assemblies, and other optical components, and supports indium phosphide-based CW lasers and Vixel-based technologies. We believe this breadth and depth differentiates us. For an XPU or switch chip with 100 terabits per second of bandwidth, we estimate our content",
+   "parts": [
+    {
+     "t0_ms": 402260,
+     "text": "in an end-to-end platform that spans the optical signal chain from generating and shaping light"
+    },
+    {
+     "t0_ms": 407880,
+     "text": "through transmission and detection to converting the signal to electrical form."
+    },
+    {
+     "t0_ms": 413120,
+     "text": "The platform is designed for a wide range of architectures and applications, including"
+    },
+    {
+     "t0_ms": 417660,
+     "text": "TPO and NPO, scale-out and scale-up networks, and scale-in chip-to-chip links."
+    },
+    {
+     "t0_ms": 424080,
+     "text": "It includes lasers, laser modules, complex fiber assemblies, and other optical components,"
+    },
+    {
+     "t0_ms": 430480,
+     "text": "and supports indium phosphide-based CW lasers and Vixel-based technologies."
+    },
+    {
+     "t0_ms": 436220,
+     "text": "We believe this breadth and depth differentiates us."
+    },
+    {
+     "t0_ms": 439700,
+     "text": "For an XPU or switch chip with 100 terabits per second of bandwidth, we estimate our content"
+    }
+   ]
+  },
+  {
+   "t0_ms": 445140,
+   "t1_ms": 488540,
+   "speaker": "Management",
+   "text": "opportunity can reach approximately 15,000. Customer engagement is validating the opportunity. In Q1, we signed another significant Photon Link LTA with a major AI company. The total revenue value of this new LTA is approximately $20 billion over five years, with revenue beginning to ramp in early calendar 28. This is in addition to our previously announced LTA with NVIDIA. Beyond these two anchor customers, we have more than 10 additional CPO engagements, and we have more than 10 additional CTO engagements. We have more than 10 additional CTO engagements. We have more than 10 additional CTO engagements. We have more than 10 additional CTO engagements. More than 10 NPO engagements. And more than 5 chip-to-chip engagements. We expect Photon Link revenue to ramp quickly over the coming quarters.",
+   "parts": [
+    {
+     "t0_ms": 445140,
+     "text": "opportunity can reach approximately 15,000."
+    },
+    {
+     "t0_ms": 447640,
+     "text": "Customer engagement is validating the opportunity."
+    },
+    {
+     "t0_ms": 453600,
+     "text": "In Q1, we signed another significant Photon Link LTA with a major AI company."
+    },
+    {
+     "t0_ms": 458900,
+     "text": "The total revenue value of this new LTA is approximately $20 billion over five years,"
+    },
+    {
+     "t0_ms": 464700,
+     "text": "with revenue beginning to ramp in early calendar 28."
+    },
+    {
+     "t0_ms": 469060,
+     "text": "This is in addition to our previously announced LTA with NVIDIA."
+    },
+    {
+     "t0_ms": 473140,
+     "text": "Beyond these two anchor customers, we have more than 10 additional CPO engagements, and"
+    },
+    {
+     "t0_ms": 476060,
+     "text": "we have more than 10 additional CTO engagements."
+    },
+    {
+     "t0_ms": 477020,
+     "text": "We have more than 10 additional CTO engagements."
+    },
+    {
+     "t0_ms": 477520,
+     "text": "We have more than 10 additional CTO engagements."
+    },
+    {
+     "t0_ms": 477620,
+     "text": "We have more than 10 additional CTO engagements."
+    },
+    {
+     "t0_ms": 478120,
+     "text": "More than 10 NPO engagements."
+    },
+    {
+     "t0_ms": 480800,
+     "text": "And more than 5 chip-to-chip engagements."
+    },
+    {
+     "t0_ms": 484200,
+     "text": "We expect Photon Link revenue to ramp quickly over the coming quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 488540,
+   "t1_ms": 530980,
+   "speaker": "Management",
+   "text": "We expect revenue to exceed $100 million in our March quarter and to exceed $250 million per quarter before the end of calendar 27. Expected shipments in the current quarter include a range of CPO products, including our ultra-high power 400 milliwatt CW laser. Our fiber assembly solutions and other products. Photon Link is initially being deployed in CPO scale-out applications. We expect to begin shipping Photon Link products for CPO and NPO scale-up applications in the second half of calendar 27. Over time, we expect Photon Link to become a multi-billion dollar product line for Coherent.",
+   "parts": [
+    {
+     "t0_ms": 488540,
+     "text": "We expect revenue to exceed $100 million in our March quarter and to exceed $250 million"
+    },
+    {
+     "t0_ms": 495380,
+     "text": "per quarter before the end of calendar 27."
+    },
+    {
+     "t0_ms": 499460,
+     "text": "Expected shipments in the current quarter include a range of CPO products, including"
+    },
+    {
+     "t0_ms": 503860,
+     "text": "our ultra-high power 400 milliwatt CW laser."
+    },
+    {
+     "t0_ms": 507500,
+     "text": "Our fiber assembly solutions and other products."
+    },
+    {
+     "t0_ms": 511740,
+     "text": "Photon Link is initially being deployed in CPO scale-out applications."
+    },
+    {
+     "t0_ms": 516880,
+     "text": "We expect to begin shipping Photon Link products for CPO and NPO scale-up applications in the"
+    },
+    {
+     "t0_ms": 522620,
+     "text": "second half of calendar 27."
+    },
+    {
+     "t0_ms": 525460,
+     "text": "Over time, we expect Photon Link to become a multi-billion dollar product line for Coherent."
+    }
+   ]
+  },
+  {
+   "t0_ms": 530980,
+   "t1_ms": 572220,
+   "speaker": "Management",
+   "text": "Expanding our indium phosphide capacity is a key enabler of growth in both indium phosphide pluggable transceivers and indium phosphide transceivers. And we expect to see growth in both the and the NPO. We expect to see growth in both the NPO and NPO transceivers. And we expect to see growth in both the NPO and NPO transceivers. Next slide. Most of the gross margin benefit of our indium phosphide expansion is still ahead of us,",
+   "parts": [
+    {
+     "t0_ms": 530980,
+     "text": "Expanding our indium phosphide capacity is a key enabler of growth in both indium phosphide"
+    },
+    {
+     "t0_ms": 535400,
+     "text": "pluggable transceivers and indium phosphide transceivers."
+    },
+    {
+     "t0_ms": 537380,
+     "text": "And we expect to see growth in both the"
+    },
+    {
+     "t0_ms": 553760,
+     "text": "and the NPO."
+    },
+    {
+     "t0_ms": 555620,
+     "text": "We expect to see growth in both the NPO and NPO transceivers."
+    },
+    {
+     "t0_ms": 560720,
+     "text": "And we expect to see growth in both the NPO and NPO transceivers."
+    },
+    {
+     "t0_ms": 565620,
+     "text": "Next slide."
+    },
+    {
+     "t0_ms": 566620,
+     "text": "Most of the gross margin benefit of our indium phosphide expansion is still ahead of us,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 572220,
+   "t1_ms": 611020,
+   "speaker": "Management",
+   "text": "as the expansion will enable us to increase our mix of internally sourced indium phosphide components, which have a tremendous cost advantage. We remain on track to more than double our internal indium phosphide output capacity again by the end of calendar 27. We've secured the substrates and other critical inputs needed to support this ramp. And given the strength of customer demand, our planning additional capacity expansion, we expect to see growth in both the NPO and NPO transceivers. Our six-inch lines in Texas and Sweden are producing EMLs, CW lasers, and high-speed photodiodes, with yields that continue to exceed those of our three-inch lines.",
+   "parts": [
+    {
+     "t0_ms": 572220,
+     "text": "as the expansion will enable us to increase our mix of internally sourced indium phosphide"
+    },
+    {
+     "t0_ms": 576500,
+     "text": "components, which have a tremendous cost advantage."
+    },
+    {
+     "t0_ms": 580720,
+     "text": "We remain on track to more than double our internal indium phosphide output capacity"
+    },
+    {
+     "t0_ms": 584680,
+     "text": "again by the end of calendar 27."
+    },
+    {
+     "t0_ms": 588380,
+     "text": "We've secured the substrates and other critical inputs needed to support this ramp."
+    },
+    {
+     "t0_ms": 592540,
+     "text": "And given the strength of customer demand, our planning additional capacity expansion,"
+    },
+    {
+     "t0_ms": 596480,
+     "text": "we expect to see growth in both the NPO and NPO transceivers."
+    },
+    {
+     "t0_ms": 599100,
+     "text": "Our six-inch lines in Texas and Sweden are producing EMLs, CW lasers, and high-speed"
+    },
+    {
+     "t0_ms": 604800,
+     "text": "photodiodes, with yields that continue to exceed those of our three-inch lines."
+    }
+   ]
+  },
+  {
+   "t0_ms": 611020,
+   "t1_ms": 654830,
+   "speaker": "Management",
+   "text": "Production includes our 400 milliwatt CW laser for CPO, which is covered by our NVIDIA partnership, and is expected to begin generating revenue this quarter. We also remain on track to begin six-inch indium phosphide production in Zurich in the first half of calendar 27. Further extending what we believe is a meaningful manufacturing advantage. Moving to communications, revenue increased 34% sequentially and 84% year-over-year. And we expect another quarter of strong sequential and year-over-year growth in the current quarter. Traditional telecom continued to grow, but the primary growth driver was Scale Across, which has quickly become the largest source of revenue within communications.",
+   "parts": [
+    {
+     "t0_ms": 611020,
+     "text": "Production includes our 400 milliwatt CW laser for CPO, which is covered by our NVIDIA partnership,"
+    },
+    {
+     "t0_ms": 617720,
+     "text": "and is expected to begin generating revenue this quarter."
+    },
+    {
+     "t0_ms": 621040,
+     "text": "We also remain on track to begin six-inch indium phosphide production in Zurich in"
+    },
+    {
+     "t0_ms": 625280,
+     "text": "the first half of calendar 27."
+    },
+    {
+     "t0_ms": 626280,
+     "text": "Further extending what we believe is a meaningful manufacturing advantage."
+    },
+    {
+     "t0_ms": 633430,
+     "text": "Moving to communications, revenue increased 34% sequentially and 84% year-over-year."
+    },
+    {
+     "t0_ms": 639550,
+     "text": "And we expect another quarter of strong sequential and year-over-year growth in the current quarter."
+    },
+    {
+     "t0_ms": 644730,
+     "text": "Traditional telecom continued to grow, but the primary growth driver was Scale Across,"
+    },
+    {
+     "t0_ms": 649730,
+     "text": "which has quickly become the largest source of revenue within communications."
+    }
+   ]
+  },
+  {
+   "t0_ms": 654830,
+   "t1_ms": 697320,
+   "speaker": "Management",
+   "text": "Over the past year, we've expanded our data center interconnect portfolio. We've also expanded our data center infrastructure portfolio to help customers connect data centers with greater capacity and efficiency. Building on our leadership in pump lasers and our broad component portfolio, we've introduced higher-level products, including modules, line cards, subsystems, and our new multi-rail solution. These offerings are seeing strong customer demand and help customers make better use of existing fiber while scaling high-capacity links between distributed AI data centers. In Q1, Scale Across revenue increased by $1.5 billion. Scale Across revenue exceeded $200 million, up 53% sequentially, and nearly four-fold year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 654830,
+     "text": "Over the past year, we've expanded our data center interconnect portfolio."
+    },
+    {
+     "t0_ms": 657670,
+     "text": "We've also expanded our data center infrastructure portfolio to help customers connect data centers"
+    },
+    {
+     "t0_ms": 660330,
+     "text": "with greater capacity and efficiency."
+    },
+    {
+     "t0_ms": 663830,
+     "text": "Building on our leadership in pump lasers and our broad component portfolio, we've introduced"
+    },
+    {
+     "t0_ms": 669450,
+     "text": "higher-level products, including modules, line cards, subsystems, and our new multi-rail"
+    },
+    {
+     "t0_ms": 675070,
+     "text": "solution."
+    },
+    {
+     "t0_ms": 676590,
+     "text": "These offerings are seeing strong customer demand and help customers make better use"
+    },
+    {
+     "t0_ms": 680830,
+     "text": "of existing fiber while scaling high-capacity links between distributed AI data centers."
+    },
+    {
+     "t0_ms": 688040,
+     "text": "In Q1, Scale Across revenue increased by $1.5 billion."
+    },
+    {
+     "t0_ms": 689040,
+     "text": "Scale Across revenue exceeded $200 million, up 53% sequentially, and nearly four-fold"
+    },
+    {
+     "t0_ms": 695580,
+     "text": "year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 697320,
+   "t1_ms": 740560,
+   "speaker": "Management",
+   "text": "That puts the business at a nearly $1 billion annualized revenue run rate, making it one of our fastest-growing businesses. With multi-rail beginning to ramp in our March quarter, we expect quarterly Scale Across revenue to roughly double from the Q1 level by the end of calendar 2020. Turning to industrial, Q1 revenue is flat sequentially and year-over-year on a pro forma basis. Bookings were strong, led by semiconductor capital equipment customers, and we expect growth to resume in the current quarter. Near-term growth is being driven by semiconductor capital equipment, AI infrastructure, and fusion energy. In semiconductor equipment, our lasers, precision optics, and engineered materials serve front-end",
+   "parts": [
+    {
+     "t0_ms": 697320,
+     "text": "That puts the business at a nearly $1 billion annualized revenue run rate, making it one"
+    },
+    {
+     "t0_ms": 701920,
+     "text": "of our fastest-growing businesses."
+    },
+    {
+     "t0_ms": 704740,
+     "text": "With multi-rail beginning to ramp in our March quarter, we expect quarterly Scale Across"
+    },
+    {
+     "t0_ms": 709500,
+     "text": "revenue to roughly double from the Q1 level by the end of calendar 2020."
+    },
+    {
+     "t0_ms": 715460,
+     "text": "Turning to industrial, Q1 revenue is flat sequentially and year-over-year on a pro forma"
+    },
+    {
+     "t0_ms": 720320,
+     "text": "basis."
+    },
+    {
+     "t0_ms": 721700,
+     "text": "Bookings were strong, led by semiconductor capital equipment customers, and we expect"
+    },
+    {
+     "t0_ms": 725540,
+     "text": "growth to resume in the current quarter."
+    },
+    {
+     "t0_ms": 728600,
+     "text": "Near-term growth is being driven by semiconductor capital equipment, AI infrastructure, and fusion"
+    },
+    {
+     "t0_ms": 733560,
+     "text": "energy."
+    },
+    {
+     "t0_ms": 735100,
+     "text": "In semiconductor equipment, our lasers, precision optics, and engineered materials serve front-end"
+    }
+   ]
+  },
+  {
+   "t0_ms": 740560,
+   "t1_ms": 783220,
+   "speaker": "Management",
+   "text": "applications and we've seen a strong uptick in bookings. In AI infrastructure, our CO2 lasers and Zinc selenide optics are used to drill a advanced circuit boards for AI servers. Demand is also growing for our pulsed laser deposition systems used to produce high-temperature superconductor tape for magnetic diffusion. Over the longer term, we see significant opportunities in data center XPU cooling and quantum technologies. For AI data centers, our Thermodyte material can enable higher XPU performance and token generation. We're shipping prototypes to several strategic customers this quarter, and we expect revenue to begin ramping in the second half of calendar 27.",
+   "parts": [
+    {
+     "t0_ms": 740560,
+     "text": "applications and we've seen a strong uptick in bookings."
+    },
+    {
+     "t0_ms": 745040,
+     "text": "In AI infrastructure, our CO2 lasers and Zinc selenide optics are used to drill a"
+    },
+    {
+     "t0_ms": 750320,
+     "text": "advanced circuit boards for AI servers. Demand is also growing for our pulsed laser deposition"
+    },
+    {
+     "t0_ms": 756080,
+     "text": "systems used to produce high-temperature superconductor tape for magnetic diffusion."
+    },
+    {
+     "t0_ms": 761840,
+     "text": "Over the longer term, we see significant opportunities in data center XPU cooling"
+    },
+    {
+     "t0_ms": 766300,
+     "text": "and quantum technologies. For AI data centers, our Thermodyte material can enable higher XPU"
+    },
+    {
+     "t0_ms": 772500,
+     "text": "performance and token generation. We're shipping prototypes to several strategic customers this"
+    },
+    {
+     "t0_ms": 778620,
+     "text": "quarter, and we expect revenue to begin ramping in the second half of calendar 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 784180,
+   "t1_ms": 827860,
+   "speaker": "Management",
+   "text": "In quantum, we supply lasers and materials to leading quantum technology developers and are engaged in next-generation programs. Given the multiple growth areas, we expect our industrial segment to return to growth and build momentum over the coming years. In summary, Q1 demonstrated the strength of our growth momentum and the breadth of our opportunity. Demand remains strong, customer commitments continue to deepen our visibility, and we are expanding capacity ahead of plan. Established businesses continue to grow rapidly, while new growth areas are ramping quickly. Our focus is on execution, expanding capacity, delivering for our customers, and improving profitability as we grow. We believe this combination positions",
+   "parts": [
+    {
+     "t0_ms": 784180,
+     "text": "In quantum, we supply lasers and materials to leading quantum technology developers"
+    },
+    {
+     "t0_ms": 788840,
+     "text": "and are engaged in next-generation programs. Given the multiple growth areas, we expect our"
+    },
+    {
+     "t0_ms": 794760,
+     "text": "industrial segment to return to growth and build momentum over the coming years. In summary, Q1"
+    },
+    {
+     "t0_ms": 801020,
+     "text": "demonstrated the strength of our growth momentum and the breadth of our opportunity. Demand remains"
+    },
+    {
+     "t0_ms": 806440,
+     "text": "strong, customer commitments continue to deepen our visibility, and we are"
+    },
+    {
+     "t0_ms": 810640,
+     "text": "expanding capacity ahead of plan. Established businesses continue to grow rapidly, while new"
+    },
+    {
+     "t0_ms": 816140,
+     "text": "growth areas are ramping quickly. Our focus is on execution, expanding capacity, delivering for"
+    },
+    {
+     "t0_ms": 822580,
+     "text": "our customers, and improving profitability as we grow. We believe this combination positions"
+    }
+   ]
+  },
+  {
+   "t0_ms": 827860,
+   "t1_ms": 872440,
+   "speaker": "Management",
+   "text": "coherent for sustained growth in fiscal 27 and beyond. I want to thank our team for their outstanding work this quarter. I'll now turn the call over to Sherry. Thank you, Jim. I'm extremely pleased with the outstanding work that you've done. I'm very pleased with the outstanding work that you've done. I'm extremely pleased with the outstanding work that you've done. I'm extremely pleased with the outstanding work that you've done. I'm extremely pleased with the outstanding work that you've done. Our performance in the first quarter represents a powerful continuation of our growth trajectory, characterized by accelerating top-line momentum, durable structural gross margin expansion, and significant operating leverage. The compounding impact of these operational drivers fuels non-gap EPS growth to significantly outpace revenue growth. We achieved this strong performance while preserving balance sheet flexibility and strategically directing capital towards",
+   "parts": [
+    {
+     "t0_ms": 827860,
+     "text": "coherent for sustained growth in fiscal 27 and beyond. I want to thank our team for their"
+    },
+    {
+     "t0_ms": 833460,
+     "text": "outstanding work this quarter. I'll now turn the call over to Sherry. Thank you, Jim. I'm extremely"
+    },
+    {
+     "t0_ms": 841240,
+     "text": "pleased with the outstanding work that you've done. I'm very pleased with the outstanding"
+    },
+    {
+     "t0_ms": 842440,
+     "text": "work that you've done. I'm extremely pleased with the outstanding work that you've done. I'm extremely"
+    },
+    {
+     "t0_ms": 843500,
+     "text": "pleased with the outstanding work that you've done. I'm extremely pleased with the outstanding work that you've done."
+    },
+    {
+     "t0_ms": 844100,
+     "text": "Our performance in the first quarter represents a powerful continuation of our growth trajectory,"
+    },
+    {
+     "t0_ms": 850040,
+     "text": "characterized by accelerating top-line momentum, durable structural gross margin expansion,"
+    },
+    {
+     "t0_ms": 855580,
+     "text": "and significant operating leverage. The compounding impact of these operational drivers fuels"
+    },
+    {
+     "t0_ms": 861480,
+     "text": "non-gap EPS growth to significantly outpace revenue growth. We achieved this strong performance"
+    },
+    {
+     "t0_ms": 867840,
+     "text": "while preserving balance sheet flexibility and strategically directing capital towards"
+    }
+   ]
+  },
+  {
+   "t0_ms": 872440,
+   "t1_ms": 914340,
+   "speaker": "Management",
+   "text": "targeted capacity expansions and making investments in our product roadmap to support robust AI data center and communications demand. Let me now provide a summary of our results. First quarter revenue was a record $2.37 billion, representing a sequential acceleration of 16% and a substantial 50% increase year over year. This performance was driven by the continued AI infrastructure build-out across our data center and communications businesses. On a pro forma basis, excluding the financial impact of the aerospace and defense business and the Munich, Germany product division, both of which were divested in 2026,",
+   "parts": [
+    {
+     "t0_ms": 872440,
+     "text": "targeted capacity expansions and making investments in our product roadmap to support robust AI data"
+    },
+    {
+     "t0_ms": 878880,
+     "text": "center and communications demand. Let me now provide a summary of our results."
+    },
+    {
+     "t0_ms": 885680,
+     "text": "First quarter revenue was a record $2.37 billion, representing a sequential acceleration of 16%"
+    },
+    {
+     "t0_ms": 892800,
+     "text": "and a substantial 50% increase year over year. This performance was driven by the continued AI"
+    },
+    {
+     "t0_ms": 899480,
+     "text": "infrastructure build-out across our data center and communications businesses."
+    },
+    {
+     "t0_ms": 904120,
+     "text": "On a pro forma basis, excluding the financial impact of the aerospace and defense business"
+    },
+    {
+     "t0_ms": 909180,
+     "text": "and the Munich, Germany product division, both of which were divested in 2026,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 914940,
+   "t1_ms": 959460,
+   "speaker": "Management",
+   "text": "revenue increased 16% sequentially and 56% year over year. Our non-GAAP gross margin for the first quarter was 40.6%, representing a 37 basis point increase sequentially and a 184 basis point increase sequentially. This was a significant increase in revenue for the first quarter. Our non-GAAP gross margin for the first quarter was 40.6%, representing a 37 basis point improvement as compared to the year-ago quarter. This continuous expansion reflects durable pricing optimization and structural cost improvements, particularly within our data center and communications segment. The improvements in gross margin, both sequentially and year over year, were driven primarily by pricing optimization, lower product input costs, and improved manufacturing yields. We have made significant progress with our pricing optimization strategy to ensure that",
+   "parts": [
+    {
+     "t0_ms": 914940,
+     "text": "revenue increased 16% sequentially and 56% year over year. Our non-GAAP gross margin for the"
+    },
+    {
+     "t0_ms": 921980,
+     "text": "first quarter was 40.6%, representing a 37 basis point increase sequentially and a 184"
+    },
+    {
+     "t0_ms": 929160,
+     "text": "basis point increase sequentially. This was a significant increase in revenue for the"
+    },
+    {
+     "t0_ms": 929460,
+     "text": "first quarter. Our non-GAAP gross margin for the first quarter was 40.6%, representing a 37 basis"
+    },
+    {
+     "t0_ms": 929480,
+     "text": "point improvement as compared to the year-ago quarter. This continuous expansion reflects"
+    },
+    {
+     "t0_ms": 935720,
+     "text": "durable pricing optimization and structural cost improvements, particularly within our data center"
+    },
+    {
+     "t0_ms": 941280,
+     "text": "and communications segment. The improvements in gross margin, both sequentially and year over year,"
+    },
+    {
+     "t0_ms": 947460,
+     "text": "were driven primarily by pricing optimization, lower product input costs, and improved manufacturing"
+    },
+    {
+     "t0_ms": 953540,
+     "text": "yields. We have made significant progress with our pricing optimization strategy to ensure that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 959460,
+   "t1_ms": 1002860,
+   "speaker": "Management",
+   "text": "we price our highly differentiated products for the value they provide to our customers. Our gross margin profile is also benefiting from the transition to 6-inch Indian boss fight as we continue to scale our production capacity. Given the progress that we have made over the past couple of years and our current trajectory, it is clear that we need to raise our gross margin target. We now expect to achieve our first quarter with gross margin above 45% before the end of calendar 2020. We are also looking to increase our gross margin target by a third of the year. We are also looking to increase our gross margin target by a third of the year. We are also looking to increase our gross margin target by a third of the year. We are also looking to increase our gross margin target by a third of the year. We believe the drivers of this gross margin expansion are continued pricing optimization, ramp of new growth platforms, full operational leverage of our 6-inch Indian boss fight capacity,",
+   "parts": [
+    {
+     "t0_ms": 959460,
+     "text": "we price our highly differentiated products for the value they provide to our customers."
+    },
+    {
+     "t0_ms": 964720,
+     "text": "Our gross margin profile is also benefiting from the transition to 6-inch Indian boss fight as we"
+    },
+    {
+     "t0_ms": 970480,
+     "text": "continue to scale our production capacity. Given the progress that we have made over the past couple"
+    },
+    {
+     "t0_ms": 976520,
+     "text": "of years and our current trajectory, it is clear that we need to raise our gross margin target."
+    },
+    {
+     "t0_ms": 982760,
+     "text": "We now expect to achieve our first quarter with gross margin above 45% before the end of calendar"
+    },
+    {
+     "t0_ms": 989200,
+     "text": "2020. We are also looking to increase our gross margin target by a third of the year. We are also"
+    },
+    {
+     "t0_ms": 989440,
+     "text": "looking to increase our gross margin target by a third of the year. We are also looking to increase our"
+    },
+    {
+     "t0_ms": 990440,
+     "text": "gross margin target by a third of the year. We are also looking to increase our gross margin target by a third of the year."
+    },
+    {
+     "t0_ms": 990480,
+     "text": "We believe the drivers of this gross margin expansion are continued pricing optimization,"
+    },
+    {
+     "t0_ms": 996460,
+     "text": "ramp of new growth platforms, full operational leverage of our 6-inch Indian boss fight capacity,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1003380,
+   "t1_ms": 1044130,
+   "speaker": "Management",
+   "text": "and other cost improvements. I also want to note that the new over 45% target is 300 basis points higher than the long-term target we provided to the investment community only 18 months ago. First quarter non-gap operating expense was $400.00. The new over 45% target is $412.00 compared to $377.00 in Q4 and $304.00 in the year-ago quarter. Non-gap operating expenses as a percentage of revenue decreased meaningfully to 17.4% down from 18.4% in the prior quarter and 19.2% in the year-ago quarter.",
+   "parts": [
+    {
+     "t0_ms": 1003380,
+     "text": "and other cost improvements. I also want to note that the new over 45% target is 300 basis points"
+    },
+    {
+     "t0_ms": 1011900,
+     "text": "higher than the long-term target we provided to the investment community only 18 months ago."
+    },
+    {
+     "t0_ms": 1017480,
+     "text": "First quarter non-gap operating expense was $400.00."
+    },
+    {
+     "t0_ms": 1022130,
+     "text": "The new over 45% target is $412.00 compared to $377.00 in Q4 and $304.00 in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1029130,
+     "text": "Non-gap operating expenses as a percentage of revenue decreased meaningfully to 17.4% down from 18.4% in the prior quarter and 19.2% in the year-ago quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1044130,
+   "t1_ms": 1082870,
+   "speaker": "Management",
+   "text": "This improvement reflects enhanced operational discipline and underscores the powerful operating leverage inherent in our business. From an R&D perspective, we are strategically directing our capital toward high conviction, long-term growth drivers, which Jim outlined in his remarks. This disciplined approach ensures our investments are concentrated where they generate the highest financial returns and drive sustainable revenue growth. Our first quarter non-gap operating margin increased to 23.2% from 21.8% in the prior quarter and 19.5% in the year-ago quarter.",
+   "parts": [
+    {
+     "t0_ms": 1044130,
+     "text": "This improvement reflects enhanced operational discipline and underscores the powerful operating leverage inherent in our business."
+    },
+    {
+     "t0_ms": 1051870,
+     "text": "From an R&D perspective, we are strategically directing our capital toward high conviction, long-term growth drivers, which Jim outlined in his remarks."
+    },
+    {
+     "t0_ms": 1063250,
+     "text": "This disciplined approach ensures our investments are concentrated where they generate the highest financial returns and drive sustainable revenue growth."
+    },
+    {
+     "t0_ms": 1071330,
+     "text": "Our first quarter non-gap operating margin increased to 23.2% from 21.8% in the prior quarter and 19.5% in the year-ago quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1083150,
+   "t1_ms": 1127510,
+   "speaker": "Management",
+   "text": "The sequential and year-over-year increases were driven by strong revenue growth, expanding gross margin, and structural expense discipline. First quarter non-gap earnings per diluted share was $2.09, up 20% from the prior quarter and up 80% from the year-ago quarter. Earnings growth continued to exceed revenue growth demonstrating gross margin expansion and operational leverage accelerating our bottom line profitability. And Jimmy? Turning to the balance sheet, we closed the quarter with a healthy cash balance of $2.34 billion compared to $2.59 billion at the end of the prior quarter and $1.55 billion at the end of the year-ago quarter.",
+   "parts": [
+    {
+     "t0_ms": 1083150,
+     "text": "The sequential and year-over-year increases were driven by strong revenue growth, expanding gross margin, and structural expense discipline."
+    },
+    {
+     "t0_ms": 1091590,
+     "text": "First quarter non-gap earnings per diluted share was $2.09, up 20% from the prior quarter and up 80% from the year-ago quarter."
+    },
+    {
+     "t0_ms": 1103710,
+     "text": "Earnings growth continued to exceed revenue growth demonstrating gross margin expansion and operational leverage accelerating our bottom line profitability."
+    },
+    {
+     "t0_ms": 1112530,
+     "text": "And Jimmy?"
+    },
+    {
+     "t0_ms": 1113150,
+     "text": "Turning to the balance sheet, we closed the quarter with a healthy cash balance of $2.34 billion compared to $2.59 billion at the end of the prior quarter and $1.55 billion at the end of the year-ago quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1128250,
+   "t1_ms": 1165990,
+   "speaker": "Management",
+   "text": "Our debt leverage ratio at the end of Q1 was 1.1 times as we continued to maintain a highly resilient and flexible balance sheet. Consistent with our capital allocation priorities, we strategically invested in opportunities that will drive long-term growth and profitability. Capital expenditures for the first quarter increased sequentially to $776 million, up from $556 million in the prior quarter and $104 million in the year-ago quarter. These investments directly support the future growth of our data center and communications businesses with excellent financial returns.",
+   "parts": [
+    {
+     "t0_ms": 1128250,
+     "text": "Our debt leverage ratio at the end of Q1 was 1.1 times as we continued to maintain a highly resilient and flexible balance sheet."
+    },
+    {
+     "t0_ms": 1136750,
+     "text": "Consistent with our capital allocation priorities, we strategically invested in opportunities that will drive long-term growth and profitability."
+    },
+    {
+     "t0_ms": 1146450,
+     "text": "Capital expenditures for the first quarter increased sequentially to $776 million, up from $556 million in the prior quarter and $104 million in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1158810,
+     "text": "These investments directly support the future growth of our data center and communications businesses with excellent financial returns."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1166750,
+   "t1_ms": 1209570,
+   "speaker": "Management",
+   "text": "Our conviction to deploy this capital at an accelerated rate is backed by exceptional customer visibility, a robust pipeline of committed purchase orders, and additional multi-year supply agreements. Furthermore, this capacity offers significant fungibility as our infrastructure can be efficiently repurposed to support multiple product lines. Given the strong visibility and record backlog, we expect capital expenditures to increase sequentially again in the second quarter. With our strong balance sheet and profitability trajectory, we possess the scale and flexibility to continue investing capital toward high ROI growth initiatives while supporting customer demand.",
+   "parts": [
+    {
+     "t0_ms": 1166750,
+     "text": "Our conviction to deploy this capital at an accelerated rate is backed by exceptional customer visibility, a robust pipeline of committed purchase orders, and additional multi-year supply agreements."
+    },
+    {
+     "t0_ms": 1180290,
+     "text": "Furthermore, this capacity offers significant fungibility as our infrastructure can be efficiently repurposed to support multiple product lines."
+    },
+    {
+     "t0_ms": 1189130,
+     "text": "Given the strong visibility and record backlog, we expect capital expenditures to increase sequentially again in the second quarter."
+    },
+    {
+     "t0_ms": 1197570,
+     "text": "With our strong balance sheet and profitability trajectory, we possess the scale and flexibility to continue investing capital toward high ROI growth initiatives while supporting customer demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1210510,
+   "t1_ms": 1248910,
+   "speaker": "Management",
+   "text": "I will now turn to our guidance for the second quarter of fiscal 2027. We expect revenue to be between $2.55 billion and $2.75 billion. We expect non-GAAP gross margin to be between 40% and 42%. We expect total operating expenses of between $430 million and $450 million on a non-GAAP basis. We expect the tax rate for the quarter to be between 18% and 20% on a non-GAAP basis. We expect non-GAAP diluted EPS to be between $2.28 and $2.48.",
+   "parts": [
+    {
+     "t0_ms": 1210510,
+     "text": "I will now turn to our guidance for the second quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 1215350,
+     "text": "We expect revenue to be between $2.55 billion and $2.75 billion."
+    },
+    {
+     "t0_ms": 1221690,
+     "text": "We expect non-GAAP gross margin to be between 40% and 42%."
+    },
+    {
+     "t0_ms": 1227570,
+     "text": "We expect total operating expenses of between $430 million and $450 million on a non-GAAP basis."
+    },
+    {
+     "t0_ms": 1236010,
+     "text": "We expect the tax rate for the quarter to be between 18% and 20% on a non-GAAP basis."
+    },
+    {
+     "t0_ms": 1242570,
+     "text": "We expect non-GAAP diluted EPS to be between $2.28 and $2.48."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1249930,
+   "t1_ms": 1280830,
+   "speaker": "Management",
+   "text": "In summary, fiscal 2027 is off to a powerful start with strong financial momentum backed by data and data. Sharing opportunities in states is elements of our explicarity. Fixed",
+   "parts": [
+    {
+     "t0_ms": 1249930,
+     "text": "In summary, fiscal 2027 is off to a powerful start with strong financial momentum backed by data and data."
+    },
+    {
+     "t0_ms": 1256710,
+     "text": "Sharing opportunities in states is elements of our explicarity."
+    },
+    {
+     "t0_ms": 1259630,
+     "text": "Fixed"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1284480,
+   "t1_ms": 1317800,
+   "speaker": "Operator",
+   "text": "questions that drive long-term shareholder value. To ask a question, you may press star, then 1 on your touchtone phone. If you are using a speakerphone, please pick up your handset before pressing any keys. If at any time your question has been addressed and you would like to withdraw your question, please press star, then 2. At this time, we will pause momentarily to assemble our roster. The first question today comes from Joseph Cardoso with J.P. Morgan. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1284480,
+     "text": "questions that drive long-term shareholder value."
+    },
+    {
+     "t0_ms": 1285400,
+     "text": "To ask a question, you may press star, then 1 on your touchtone phone."
+    },
+    {
+     "t0_ms": 1291860,
+     "text": "If you are using a speakerphone, please pick up your handset before pressing any keys."
+    },
+    {
+     "t0_ms": 1297160,
+     "text": "If at any time your question has been addressed and you would like to withdraw your question, please press star, then 2."
+    },
+    {
+     "t0_ms": 1304680,
+     "text": "At this time, we will pause momentarily to assemble our roster."
+    },
+    {
+     "t0_ms": 1312020,
+     "text": "The first question today comes from Joseph Cardoso with J.P. Morgan."
+    },
+    {
+     "t0_ms": 1316880,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1318660,
+   "t1_ms": 1340720,
+   "speaker": "Analyst",
+   "text": "Hi, good afternoon, and thank you for the questions here. I really appreciate some of the disclosures that you provided this quarter and wanted to first start with PhotonLink and the initial visibility you provided there. I was hoping you could provide more color with respect to the ramp itself, especially just given the backdrop of the $20 billion agreement that you've highlighted. And then I have a follow-up. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1318660,
+     "text": "Hi, good afternoon, and thank you for the questions here."
+    },
+    {
+     "t0_ms": 1322160,
+     "text": "I really appreciate some of the disclosures that you provided this quarter and wanted to first start with PhotonLink and the initial visibility you provided there."
+    },
+    {
+     "t0_ms": 1330560,
+     "text": "I was hoping you could provide more color with respect to the ramp itself, especially just given the backdrop of the $20 billion agreement that you've highlighted."
+    },
+    {
+     "t0_ms": 1339540,
+     "text": "And then I have a follow-up. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1342260,
+   "t1_ms": 1385720,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Joel. So, first of all, yeah, we're certainly really pleased with the momentum that we have around PhotonLink. And kind of whether you measure by customer engagement or LTAs, as you mentioned, or just, you know, the revenue outlook that I mentioned in the prepared remarks, we're just really pleased with the progress there. And just as a reminder, you know, PhotonLink is, we kind of consider it a one-stop shop for integrated optics. It's basically our platform for allowing customers to basically have a platform that allows for the optical link. It's not just a one-stop shop from end to end. It's the complete optical signal chain and all the technology along the optical technology along that path.",
+   "parts": [
+    {
+     "t0_ms": 1342260,
+     "text": "Yeah, thanks, Joel."
+    },
+    {
+     "t0_ms": 1343260,
+     "text": "So, first of all, yeah, we're certainly really pleased with the momentum that we have around PhotonLink."
+    },
+    {
+     "t0_ms": 1348660,
+     "text": "And kind of whether you measure by customer engagement or LTAs, as you mentioned, or just, you know, the revenue outlook that I mentioned in the prepared remarks, we're just really pleased with the progress there."
+    },
+    {
+     "t0_ms": 1362020,
+     "text": "And just as a reminder, you know, PhotonLink is, we kind of consider it a one-stop shop for integrated optics."
+    },
+    {
+     "t0_ms": 1368980,
+     "text": "It's basically our platform for allowing customers to basically have a platform that allows for the optical link."
+    },
+    {
+     "t0_ms": 1378660,
+     "text": "It's not just a one-stop shop from end to end."
+    },
+    {
+     "t0_ms": 1379440,
+     "text": "It's the complete optical signal chain and all the technology along the optical technology along that path."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1385880,
+   "t1_ms": 1429700,
+   "speaker": "Management",
+   "text": "And really excited about the progress. As I mentioned in the prepared remarks, over 20 customer engagements on CPO, over 10 on, or sorry, over 10 on CPO, over 10 on NPO, and then over five chip-to-chip engagements. So the customer engagement's very extensive and they continue to grow. You mentioned or asked about the LTA. Really pleased about that. Major AI customer. And that LTA is, as I said, $20 billion over a five-year period. And the revenue for that would start at the beginning of calendar 28. But the PhotonLink revenue ramp is starting ahead of that. We'll ship a little bit of, a small amount of PhotonLink revenue this quarter.",
+   "parts": [
+    {
+     "t0_ms": 1385880,
+     "text": "And really excited about the progress."
+    },
+    {
+     "t0_ms": 1388480,
+     "text": "As I mentioned in the prepared remarks, over 20 customer engagements on CPO, over 10 on, or sorry, over 10 on CPO, over 10 on NPO, and then over five chip-to-chip engagements."
+    },
+    {
+     "t0_ms": 1401160,
+     "text": "So the customer engagement's very extensive and they continue to grow."
+    },
+    {
+     "t0_ms": 1404880,
+     "text": "You mentioned or asked about the LTA."
+    },
+    {
+     "t0_ms": 1407320,
+     "text": "Really pleased about that."
+    },
+    {
+     "t0_ms": 1408660,
+     "text": "Major AI customer."
+    },
+    {
+     "t0_ms": 1411320,
+     "text": "And that LTA is, as I said, $20 billion over a five-year period."
+    },
+    {
+     "t0_ms": 1416240,
+     "text": "And the revenue for that would start at the beginning of calendar 28."
+    },
+    {
+     "t0_ms": 1421620,
+     "text": "But the PhotonLink revenue ramp is starting ahead of that."
+    },
+    {
+     "t0_ms": 1425240,
+     "text": "We'll ship a little bit of, a small amount of PhotonLink revenue this quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1430280,
+   "t1_ms": 1471260,
+   "speaker": "Management",
+   "text": "But we expect to ship over $100 million in our March quarter. And then before the end of calendar 25, expect to ship over. $250 million a quarter. So really pleased with all of that progress. The other thing that I would add is, you know, if we look further out, we're expecting this over time to become a multi-billion dollar product line. The initial shipments of PhotonLink are all around CPO and the scale-out network. But when we start to ship into CPO and NPO and to scale-up networks, I think that drives another huge leg of demand.",
+   "parts": [
+    {
+     "t0_ms": 1430280,
+     "text": "But we expect to ship over $100 million in our March quarter."
+    },
+    {
+     "t0_ms": 1433740,
+     "text": "And then before the end of calendar 25, expect to ship over."
+    },
+    {
+     "t0_ms": 1438660,
+     "text": "$250 million a quarter."
+    },
+    {
+     "t0_ms": 1440180,
+     "text": "So really pleased with all of that progress."
+    },
+    {
+     "t0_ms": 1447700,
+     "text": "The other thing that I would add is, you know, if we look further out, we're expecting this over time to become a multi-billion dollar product line."
+    },
+    {
+     "t0_ms": 1456100,
+     "text": "The initial shipments of PhotonLink are all around CPO and the scale-out network."
+    },
+    {
+     "t0_ms": 1462360,
+     "text": "But when we start to ship into CPO and NPO and to scale-up networks, I think that drives another huge leg of demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1473500,
+   "t1_ms": 1491700,
+   "speaker": "Management",
+   "text": "And that will be the much bigger adoption that we see. And that, we expect to start to ship revenue into CPO and NPO applications in the scale-up domain towards the end of calendar 27. So, yeah, we're excited about the progress and expect this to become a major product line for us.",
+   "parts": [
+    {
+     "t0_ms": 1473500,
+     "text": "And that will be the much bigger adoption that we see."
+    },
+    {
+     "t0_ms": 1476680,
+     "text": "And that, we expect to start to ship revenue into CPO and NPO applications in the scale-up domain towards the end of calendar 27."
+    },
+    {
+     "t0_ms": 1485940,
+     "text": "So, yeah, we're excited about the progress and expect this to become a major product line for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1493160,
+   "t1_ms": 1507080,
+   "speaker": "Analyst",
+   "text": "Thank you for that, Jim. And maybe in a similar vein, wanted to touch on the scale-across ECI opportunity. Particularly curious how we should think about the customers and products that are underpinning. The revenue outlook to double by the end of the next calendar year.",
+   "parts": [
+    {
+     "t0_ms": 1493160,
+     "text": "Thank you for that, Jim."
+    },
+    {
+     "t0_ms": 1494400,
+     "text": "And maybe in a similar vein, wanted to touch on the scale-across ECI opportunity."
+    },
+    {
+     "t0_ms": 1499420,
+     "text": "Particularly curious how we should think about the customers and products that are underpinning."
+    },
+    {
+     "t0_ms": 1503400,
+     "text": "The revenue outlook to double by the end of the next calendar year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1508970,
+   "t1_ms": 1550150,
+   "speaker": "Management",
+   "text": "Yeah, thanks again. This has been a really great growth area for us over the past year. In fact, it's surprised us a little bit how quickly this has grown. So overall, so DCI and scale-across, that falls within our communications part of our business, which is essentially everything outside of all communications outside of the data center. And if we look at that segment overall, communications grew 84% year over year. But while telecom grew most of that, the vast majority of that growth was driven by DCI. And so what's going on there is you're seeing these large AI workloads that are spanning multiple data centers.",
+   "parts": [
+    {
+     "t0_ms": 1508970,
+     "text": "Yeah, thanks again."
+    },
+    {
+     "t0_ms": 1509750,
+     "text": "This has been a really great growth area for us over the past year."
+    },
+    {
+     "t0_ms": 1515250,
+     "text": "In fact, it's surprised us a little bit how quickly this has grown."
+    },
+    {
+     "t0_ms": 1520550,
+     "text": "So overall, so DCI and scale-across, that falls within our communications part of our business,"
+    },
+    {
+     "t0_ms": 1526990,
+     "text": "which is essentially everything outside of all communications outside of the data center."
+    },
+    {
+     "t0_ms": 1531150,
+     "text": "And if we look at that segment overall,"
+    },
+    {
+     "t0_ms": 1534710,
+     "text": "communications grew 84% year over year."
+    },
+    {
+     "t0_ms": 1538910,
+     "text": "But while telecom grew most of that, the vast majority of that growth was driven by DCI."
+    },
+    {
+     "t0_ms": 1544030,
+     "text": "And so what's going on there is you're seeing these large AI workloads that are spanning multiple data centers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1550450,
+   "t1_ms": 1594110,
+   "speaker": "Management",
+   "text": "And so that's driving the need for much greater bandwidth and connectivity, optical connectivity between data centers. And so that's what's driving, that's the underlying market dynamic that's driving the growth. And then you asked about customers and products. So, you know, we've been doing a lot of work on that. So customers would be either equipment makers, so we're certainly selling into multiple different equipment makers that, whose equipment goes into scale-across applications, but also selling directly to hyperscalers as well. And so it's a mixture of both types of customers. And then the products, it's interesting, we sell, in this part of the market, we sell products at multiple levels of the value chain. So we sell components.",
+   "parts": [
+    {
+     "t0_ms": 1550450,
+     "text": "And so that's driving the need for much greater bandwidth and connectivity, optical connectivity between data centers."
+    },
+    {
+     "t0_ms": 1557030,
+     "text": "And so that's what's driving, that's the underlying market dynamic that's driving the growth."
+    },
+    {
+     "t0_ms": 1561770,
+     "text": "And then you asked about customers and products."
+    },
+    {
+     "t0_ms": 1564050,
+     "text": "So, you know, we've been doing a lot of work on that."
+    },
+    {
+     "t0_ms": 1564710,
+     "text": "So customers would be either equipment makers,"
+    },
+    {
+     "t0_ms": 1568070,
+     "text": "so we're certainly selling into multiple different equipment makers that,"
+    },
+    {
+     "t0_ms": 1572910,
+     "text": "whose equipment goes into scale-across applications,"
+    },
+    {
+     "t0_ms": 1574990,
+     "text": "but also selling directly to hyperscalers as well."
+    },
+    {
+     "t0_ms": 1578610,
+     "text": "And so it's a mixture of both types of customers."
+    },
+    {
+     "t0_ms": 1583110,
+     "text": "And then the products, it's interesting, we sell, in this part of the market,"
+    },
+    {
+     "t0_ms": 1587690,
+     "text": "we sell products at multiple levels of the value chain."
+    },
+    {
+     "t0_ms": 1591230,
+     "text": "So we sell components."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1594710,
+   "t1_ms": 1636630,
+   "speaker": "Management",
+   "text": "Like, for instance, pump lasers that go into a wide range of different equipment. One level up in the value chain, we sell subsystems and modules. So ZR, ZR plus modules, line cards, amplifiers, rotums, et cetera. And then one level up from that, in some cases, sell complete solutions to our customers as well. So we're selling across multiple levels of the value chain. And so I think that's helped us really maximize the growth here as well. And as I mentioned in the prepared remarks, if we look at our Q1 revenue, it was over $200 million. So we're basically at about a billion-dollar annualized revenue run rate now.",
+   "parts": [
+    {
+     "t0_ms": 1594710,
+     "text": "Like, for instance, pump lasers that go into a wide range of different equipment."
+    },
+    {
+     "t0_ms": 1600170,
+     "text": "One level up in the value chain, we sell subsystems and modules."
+    },
+    {
+     "t0_ms": 1604970,
+     "text": "So ZR, ZR plus modules, line cards, amplifiers, rotums, et cetera."
+    },
+    {
+     "t0_ms": 1611770,
+     "text": "And then one level up from that, in some cases, sell complete solutions to our customers as well."
+    },
+    {
+     "t0_ms": 1617830,
+     "text": "So we're selling across multiple levels of the value chain."
+    },
+    {
+     "t0_ms": 1620670,
+     "text": "And so I think that's helped us really maximize the growth here as well."
+    },
+    {
+     "t0_ms": 1624710,
+     "text": "And as I mentioned in the prepared remarks, if we look at our Q1 revenue,"
+    },
+    {
+     "t0_ms": 1630590,
+     "text": "it was over $200 million."
+    },
+    {
+     "t0_ms": 1631910,
+     "text": "So we're basically at about a billion-dollar annualized revenue run rate now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1636750,
+   "t1_ms": 1673350,
+   "speaker": "Management",
+   "text": "And that Q1 growth had quadrupled year over year. And we expect that if you take that Q1 baseline, we expect the revenue to double again before the end of calendar 27. And so that growth that we've seen to date, that's ahead of multi-rails. So we expect that. We expect multi-rail revenue, which is a \u2013 multi-rail is a great solution, some great technology that we have there. We expect that to start \u2013 that revenue to start to ramp in our March quarter. And so it's been a really good area of growth, and we expect this to continue to be a very good area of growth over the coming quarters as well.",
+   "parts": [
+    {
+     "t0_ms": 1636750,
+     "text": "And that Q1 growth had quadrupled year over year."
+    },
+    {
+     "t0_ms": 1640830,
+     "text": "And we expect that if you take that Q1 baseline,"
+    },
+    {
+     "t0_ms": 1643410,
+     "text": "we expect the revenue to double again before the end of calendar 27."
+    },
+    {
+     "t0_ms": 1649630,
+     "text": "And so that growth that we've seen to date, that's ahead of multi-rails."
+    },
+    {
+     "t0_ms": 1653630,
+     "text": "So we expect that."
+    },
+    {
+     "t0_ms": 1654630,
+     "text": "We expect multi-rail revenue, which is a \u2013 multi-rail is a great solution,"
+    },
+    {
+     "t0_ms": 1659230,
+     "text": "some great technology that we have there."
+    },
+    {
+     "t0_ms": 1661230,
+     "text": "We expect that to start \u2013 that revenue to start to ramp in our March quarter."
+    },
+    {
+     "t0_ms": 1665450,
+     "text": "And so it's been a really good area of growth,"
+    },
+    {
+     "t0_ms": 1668250,
+     "text": "and we expect this to continue to be a very good area of growth over the coming quarters as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1674950,
+   "t1_ms": 1676470,
+   "speaker": "Analyst",
+   "text": "Thank you, Jim. Appreciate all the color.",
+   "parts": [
+    {
+     "t0_ms": 1674950,
+     "text": "Thank you, Jim."
+    },
+    {
+     "t0_ms": 1675730,
+     "text": "Appreciate all the color."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1677530,
+   "t1_ms": 1678190,
+   "speaker": "Management",
+   "text": "Thanks, Joel.",
+   "parts": [
+    {
+     "t0_ms": 1677530,
+     "text": "Thanks, Joel."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1679550,
+   "t1_ms": 1684310,
+   "speaker": "Operator",
+   "text": "The next question comes from Simon Leopold with Raymond James. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1679550,
+     "text": "The next question comes from Simon Leopold with Raymond James."
+    },
+    {
+     "t0_ms": 1683310,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1684630,
+   "t1_ms": 1711090,
+   "speaker": "Analyst",
+   "text": "Thanks for taking your question. First, Jim, I want to thank you for the increased transparency on slide seven. I know this is something I've been probably annoying you about. So thank you. The slide did not mention OCS. I know you talked about the product group in your prepared remarks. But could you update us on your progress and expectation for this product group? And then I've got a follow-up, please.",
+   "parts": [
+    {
+     "t0_ms": 1684630,
+     "text": "Thanks for taking your question."
+    },
+    {
+     "t0_ms": 1687350,
+     "text": "First, Jim, I want to thank you for the increased transparency on slide seven."
+    },
+    {
+     "t0_ms": 1692190,
+     "text": "I know this is something I've been probably annoying you about."
+    },
+    {
+     "t0_ms": 1696570,
+     "text": "So thank you."
+    },
+    {
+     "t0_ms": 1697950,
+     "text": "The slide did not mention OCS."
+    },
+    {
+     "t0_ms": 1700350,
+     "text": "I know you talked about the product group in your prepared remarks."
+    },
+    {
+     "t0_ms": 1704130,
+     "text": "But could you update us on your progress and expectation for this product group?"
+    },
+    {
+     "t0_ms": 1709550,
+     "text": "And then I've got a follow-up, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1712630,
+   "t1_ms": 1757050,
+   "speaker": "Management",
+   "text": "Yeah, sure. Thanks, Simon. And thanks for the feedback. The feedback, as always. We're always looking to improve, so appreciate the feedback. But, yeah, in OCS, I did mention in the prepared remarks, OCS falls within our data center part of our business. And just reiterating, data center was up 85% year-over-year in our Q1. OCS continued to make good progress. We've got really extensive customer engagement. We've seen that customer engagement continue to expand. But at this point, I think we're really hopeful we can see such a shift. We're seeing an increase in the number of cases of OCS that have changed over the last few weeks. And we're hoping that we see more growth in the Q1 period,",
+   "parts": [
+    {
+     "t0_ms": 1712630,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 1713030,
+     "text": "Thanks, Simon."
+    },
+    {
+     "t0_ms": 1713850,
+     "text": "And thanks for the feedback."
+    },
+    {
+     "t0_ms": 1714510,
+     "text": "The feedback, as always."
+    },
+    {
+     "t0_ms": 1715530,
+     "text": "We're always looking to improve, so appreciate the feedback."
+    },
+    {
+     "t0_ms": 1719430,
+     "text": "But, yeah, in OCS, I did mention in the prepared remarks,"
+    },
+    {
+     "t0_ms": 1722710,
+     "text": "OCS falls within our data center part of our business."
+    },
+    {
+     "t0_ms": 1728190,
+     "text": "And just reiterating, data center was up 85% year-over-year in our Q1."
+    },
+    {
+     "t0_ms": 1734730,
+     "text": "OCS continued to make good progress."
+    },
+    {
+     "t0_ms": 1737190,
+     "text": "We've got really extensive customer engagement."
+    },
+    {
+     "t0_ms": 1740290,
+     "text": "We've seen that customer engagement continue to expand."
+    },
+    {
+     "t0_ms": 1744510,
+     "text": "But at this point, I think we're really hopeful we can see such a shift."
+    },
+    {
+     "t0_ms": 1748410,
+     "text": "We're seeing an increase in the number of cases of OCS that have changed over the last few weeks."
+    },
+    {
+     "t0_ms": 1752730,
+     "text": "And we're hoping that we see more growth in the Q1 period,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1757050,
+   "t1_ms": 1799610,
+   "speaker": "Management",
+   "text": "because it's a $1.9 billion dollar growth. And then for the Q2 period, we're hoping we can see a stronger growth rate. This will mean that there's not necessarily as much change in the Q2 period. And I think we'll see more growth here in the Q3. Certainly. Excellent. Thanks. Thanks, Simon. Thanks, Simon. We have a very differentiated technology. It's liquid crystal. It's non-mechanical technology. It has better power efficiency and better reliability than MEMS-based solutions. So we feel really well positioned. We're ramping production, and I think it will be an increasingly larger contributor to our revenue growth in the quarters to come. And maybe the last thing to add is we see the market opportunity for OCS",
+   "parts": [
+    {
+     "t0_ms": 1757050,
+     "text": "because it's a $1.9 billion dollar growth."
+    },
+    {
+     "t0_ms": 1761770,
+     "text": "And then for the Q2 period, we're hoping we can see a stronger growth rate."
+    },
+    {
+     "t0_ms": 1765750,
+     "text": "This will mean that there's not necessarily as much change in the Q2 period."
+    },
+    {
+     "t0_ms": 1770290,
+     "text": "And I think we'll see more growth here in the Q3."
+    },
+    {
+     "t0_ms": 1773430,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 1773630,
+     "text": "Excellent."
+    },
+    {
+     "t0_ms": 1773750,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1773830,
+     "text": "Thanks, Simon."
+    },
+    {
+     "t0_ms": 1773910,
+     "text": "Thanks, Simon."
+    },
+    {
+     "t0_ms": 1774290,
+     "text": "We have a very differentiated technology."
+    },
+    {
+     "t0_ms": 1776770,
+     "text": "It's liquid crystal."
+    },
+    {
+     "t0_ms": 1777870,
+     "text": "It's non-mechanical technology."
+    },
+    {
+     "t0_ms": 1780110,
+     "text": "It has better power efficiency and better reliability than MEMS-based solutions."
+    },
+    {
+     "t0_ms": 1784750,
+     "text": "So we feel really well positioned."
+    },
+    {
+     "t0_ms": 1786790,
+     "text": "We're ramping production,"
+    },
+    {
+     "t0_ms": 1788450,
+     "text": "and I think it will be an increasingly larger contributor to our revenue growth"
+    },
+    {
+     "t0_ms": 1793830,
+     "text": "in the quarters to come."
+    },
+    {
+     "t0_ms": 1795390,
+     "text": "And maybe the last thing to add is we see the market opportunity for OCS"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1799610,
+   "t1_ms": 1804670,
+   "speaker": "Management",
+   "text": "as at least $4 billion by 2030. It could be larger than that. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 1799610,
+     "text": "as at least $4 billion by 2030."
+    },
+    {
+     "t0_ms": 1802690,
+     "text": "It could be larger than that."
+    },
+    {
+     "t0_ms": 1804290,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1805110,
+   "t1_ms": 1817230,
+   "speaker": "Analyst",
+   "text": "Thanks. And as a follow-up, I have a hard question, one that I imagine you anticipate getting, is what does the proposed consolidation of Lumentum and Marvell mean to you? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1805110,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1805830,
+     "text": "And as a follow-up, I have a hard question,"
+    },
+    {
+     "t0_ms": 1809190,
+     "text": "one that I imagine you anticipate getting,"
+    },
+    {
+     "t0_ms": 1811890,
+     "text": "is what does the proposed consolidation of Lumentum and Marvell mean to you?"
+    },
+    {
+     "t0_ms": 1816850,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1818570,
+   "t1_ms": 1860170,
+   "speaker": "Management",
+   "text": "Yeah. Thanks, Simon. No, I don't think that's a hard question at all. I think happy to answer that. I'd give a few thoughts on this. I think number one is it definitely demonstrates that optics and photonics and, you know, the technology that we use to make the data center architecture is becoming an absolutely critical part of data center architecture. You know, as we look forward, as we convert the entire scale-up network, and then even the scale-in chip-to-chip communication links, over time, all of that getting converted from copper to optical, photonic technology is absolutely critical to making that happen, to driving the innovation in data center architecture.",
+   "parts": [
+    {
+     "t0_ms": 1818570,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1819050,
+     "text": "Thanks, Simon."
+    },
+    {
+     "t0_ms": 1820590,
+     "text": "No, I don't think that's a hard question at all."
+    },
+    {
+     "t0_ms": 1822750,
+     "text": "I think happy to answer that."
+    },
+    {
+     "t0_ms": 1825850,
+     "text": "I'd give a few thoughts on this."
+    },
+    {
+     "t0_ms": 1828110,
+     "text": "I think number one is it definitely demonstrates that optics and photonics"
+    },
+    {
+     "t0_ms": 1834230,
+     "text": "and,"
+    },
+    {
+     "t0_ms": 1834290,
+     "text": "you know,"
+    },
+    {
+     "t0_ms": 1835290,
+     "text": "the technology that we use to make the data center architecture is becoming an absolutely critical part of data center architecture."
+    },
+    {
+     "t0_ms": 1839290,
+     "text": "You know, as we look forward, as we convert the entire scale-up network,"
+    },
+    {
+     "t0_ms": 1844590,
+     "text": "and then even the scale-in chip-to-chip communication links,"
+    },
+    {
+     "t0_ms": 1848770,
+     "text": "over time, all of that getting converted from copper to optical,"
+    },
+    {
+     "t0_ms": 1853170,
+     "text": "photonic technology is absolutely critical to making that happen,"
+    },
+    {
+     "t0_ms": 1856950,
+     "text": "to driving the innovation in data center architecture."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1860170,
+   "t1_ms": 1902590,
+   "speaker": "Management",
+   "text": "So I think it's a proof point around just the criticality of optics and photonics, and then I think for coherent, I think it just, it highlights the tremendous strategic value of the portfolio that is within coherent. There's no other company, I believe, on the planet that has a broader and deeper set of photonic and optical technology. If you look at the entire optical signal chain from the generation of the light to the transmission through our fiber optic cable that we make to detection on the other side, I don't think there's any other company that's got a better portfolio. So I think it definitely highlights the strategic importance of our technology platform. And then look, I think from a customer perspective,",
+   "parts": [
+    {
+     "t0_ms": 1860170,
+     "text": "So I think it's a proof point around just the criticality of optics and photonics,"
+    },
+    {
+     "t0_ms": 1864290,
+     "text": "and then I think for coherent,"
+    },
+    {
+     "t0_ms": 1866290,
+     "text": "I think it just, it highlights the tremendous strategic value of the portfolio that is within coherent."
+    },
+    {
+     "t0_ms": 1872490,
+     "text": "There's no other company, I believe, on the planet that has a broader and deeper set of photonic and optical technology."
+    },
+    {
+     "t0_ms": 1880970,
+     "text": "If you look at the entire optical signal chain from the generation of the light to the transmission through our fiber optic cable that we make"
+    },
+    {
+     "t0_ms": 1889090,
+     "text": "to detection on the other side,"
+    },
+    {
+     "t0_ms": 1891230,
+     "text": "I don't think there's any other company that's got a better portfolio."
+    },
+    {
+     "t0_ms": 1894290,
+     "text": "So I think it definitely highlights the strategic importance of our technology platform."
+    },
+    {
+     "t0_ms": 1899590,
+     "text": "And then look, I think from a customer perspective,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1902590,
+   "t1_ms": 1946290,
+   "speaker": "Management",
+   "text": "I think that, I think a lot of, for a lot of our customers, I think it's really important that they have an independent photonic optical supplier and partner. And so I think it positions us really well to be that independent optical supplier that's going to support, without any competitive conflict, can support multiple different customers and support both hyperscaler customers, can support semiconductor customers. And so I think it positions us really well to be that partner of choice in terms of optics for the industry. So look, we think we're really well positioned from both a technology standpoint,",
+   "parts": [
+    {
+     "t0_ms": 1902590,
+     "text": "I think that, I think a lot of, for a lot of our customers,"
+    },
+    {
+     "t0_ms": 1908590,
+     "text": "I think it's really important that they have an independent photonic optical supplier and partner."
+    },
+    {
+     "t0_ms": 1916090,
+     "text": "And so I think it positions us really well to be that independent optical supplier that's going to support,"
+    },
+    {
+     "t0_ms": 1923990,
+     "text": "without any competitive conflict,"
+    },
+    {
+     "t0_ms": 1926290,
+     "text": "can support multiple different customers and support both hyperscaler customers,"
+    },
+    {
+     "t0_ms": 1932290,
+     "text": "can support semiconductor customers."
+    },
+    {
+     "t0_ms": 1935290,
+     "text": "And so I think it positions us really well to be that partner of choice in terms of optics for the industry."
+    },
+    {
+     "t0_ms": 1942290,
+     "text": "So look, we think we're really well positioned from both a technology standpoint,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1946290,
+   "t1_ms": 1961190,
+   "speaker": "Management",
+   "text": "manufacturing standpoint, and strategically. And I think we're on a really great growth trajectory. And I think you can see some of that, already in the photon link technology and the photon link revenue ramp. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1946290,
+     "text": "manufacturing standpoint, and strategically."
+    },
+    {
+     "t0_ms": 1949290,
+     "text": "And I think we're on a really great growth trajectory."
+    },
+    {
+     "t0_ms": 1952290,
+     "text": "And I think you can see some of that,"
+    },
+    {
+     "t0_ms": 1953890,
+     "text": "already in the photon link technology and the photon link revenue ramp."
+    },
+    {
+     "t0_ms": 1959190,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1961190,
+   "t1_ms": 1970300,
+   "speaker": "Operator",
+   "text": "The next question comes from Tom O'Malley with Barclays. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1961190,
+     "text": "The next question comes from Tom O'Malley with Barclays."
+    },
+    {
+     "t0_ms": 1968300,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1970300,
+   "t1_ms": 2001800,
+   "speaker": "Analyst",
+   "text": "Hey guys, thanks for taking my question. Thanks for the additional color as well. I guess the first part of the question for you, Jim, is why now in terms of giving the longer term forecast, it's been something that you've kind of held off on doing for a while. You gave 3 billion and then 4 billion next year. And then the second part of the question, is that all backed with supply? How are you able to get visibility that far out? Is that already in the books today? Or perhaps you could give us like what percentage of that is backed with supply today, or if you need to add any to get you to those numbers?",
+   "parts": [
+    {
+     "t0_ms": 1970300,
+     "text": "Hey guys, thanks for taking my question."
+    },
+    {
+     "t0_ms": 1972300,
+     "text": "Thanks for the additional color as well."
+    },
+    {
+     "t0_ms": 1974300,
+     "text": "I guess the first part of the question for you, Jim,"
+    },
+    {
+     "t0_ms": 1976300,
+     "text": "is why now in terms of giving the longer term forecast,"
+    },
+    {
+     "t0_ms": 1979300,
+     "text": "it's been something that you've kind of held off on doing for a while."
+    },
+    {
+     "t0_ms": 1982300,
+     "text": "You gave 3 billion and then 4 billion next year."
+    },
+    {
+     "t0_ms": 1985300,
+     "text": "And then the second part of the question,"
+    },
+    {
+     "t0_ms": 1986800,
+     "text": "is that all backed with supply?"
+    },
+    {
+     "t0_ms": 1989800,
+     "text": "How are you able to get visibility that far out?"
+    },
+    {
+     "t0_ms": 1992300,
+     "text": "Is that already in the books today?"
+    },
+    {
+     "t0_ms": 1994300,
+     "text": "Or perhaps you could give us like what percentage of that is backed with supply today,"
+    },
+    {
+     "t0_ms": 1997800,
+     "text": "or if you need to add any to get you to those numbers?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2001800,
+   "t1_ms": 2045800,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Tom. I think it is a little bit different. We are providing a little bit longer term visibility than we normally would. I think it's really backed by the just extraordinary level of visibility that we have on the business. When I look at the backlog, the bookings, so both near term visibility and long term visibility, if I look at just the backlog that we have, I mean, calendar 27 is basically booked out, and the customers are booking out calendar 28 now. So from a near term booking demand perspective, we have great visibility. We've signed a number of new LTAs over the past quarter. I mentioned one of the big LTAs as part of the photon link.",
+   "parts": [
+    {
+     "t0_ms": 2001800,
+     "text": "Yeah, thanks, Tom."
+    },
+    {
+     "t0_ms": 2002800,
+     "text": "I think it is a little bit different."
+    },
+    {
+     "t0_ms": 2005800,
+     "text": "We are providing a little bit longer term visibility than we normally would."
+    },
+    {
+     "t0_ms": 2010300,
+     "text": "I think it's really backed by the just extraordinary level of visibility that we have on the business."
+    },
+    {
+     "t0_ms": 2016800,
+     "text": "When I look at the backlog, the bookings,"
+    },
+    {
+     "t0_ms": 2019800,
+     "text": "so both near term visibility and long term visibility,"
+    },
+    {
+     "t0_ms": 2022800,
+     "text": "if I look at just the backlog that we have,"
+    },
+    {
+     "t0_ms": 2025800,
+     "text": "I mean, calendar 27 is basically booked out,"
+    },
+    {
+     "t0_ms": 2029800,
+     "text": "and the customers are booking out calendar 28 now."
+    },
+    {
+     "t0_ms": 2033800,
+     "text": "So from a near term booking demand perspective,"
+    },
+    {
+     "t0_ms": 2037300,
+     "text": "we have great visibility."
+    },
+    {
+     "t0_ms": 2038800,
+     "text": "We've signed a number of new LTAs over the past quarter."
+    },
+    {
+     "t0_ms": 2043300,
+     "text": "I mentioned one of the big LTAs as part of the photon link."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2046800,
+   "t1_ms": 2090780,
+   "speaker": "Management",
+   "text": "So that's one of the big LTAs that we've had in the last couple of years, where we've had a lot of LTAs coming in with a lot of prepared remarks. But the LTAs also give us really good visibility because they include very high quality forecasts, long term forecasts. So I think that's, given that really good visibility, that's certainly giving us confidence. And then also, great that you mentioned supply. We've done a number of things within our supply base that those views that we gave, whether it's the $3 billion this year and the $4 billion quarter next year, is underpinned by supply agreements. Also, remember that we're highly vertically integrated,",
+   "parts": [
+    {
+     "t0_ms": 2046800,
+     "text": "So that's one of the big LTAs that we've had in the last couple of years,"
+    },
+    {
+     "t0_ms": 2049800,
+     "text": "where we've had a lot of LTAs coming in with a lot of prepared remarks."
+    },
+    {
+     "t0_ms": 2053800,
+     "text": "But the LTAs also give us really good visibility"
+    },
+    {
+     "t0_ms": 2056800,
+     "text": "because they include very high quality forecasts,"
+    },
+    {
+     "t0_ms": 2060800,
+     "text": "long term forecasts."
+    },
+    {
+     "t0_ms": 2061800,
+     "text": "So I think that's, given that really good visibility,"
+    },
+    {
+     "t0_ms": 2064800,
+     "text": "that's certainly giving us confidence."
+    },
+    {
+     "t0_ms": 2066800,
+     "text": "And then also, great that you mentioned supply."
+    },
+    {
+     "t0_ms": 2071800,
+     "text": "We've done a number of things within our supply base"
+    },
+    {
+     "t0_ms": 2074800,
+     "text": "that those views that we gave, whether it's the $3 billion this year and the $4 billion quarter next year,"
+    },
+    {
+     "t0_ms": 2082199,
+     "text": "is underpinned by supply agreements."
+    },
+    {
+     "t0_ms": 2086159,
+     "text": "Also, remember that we're highly vertically integrated,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2090780,
+   "t1_ms": 2132050,
+   "speaker": "Management",
+   "text": "so a lot of that's underpinned by our own internal supply. One of the constraints has been indium phosphide, and I'm just really pleased with how the team has executed very, very well on the indium phosphide production ramp. We've doubled production capacity a quarter earlier than what we thought we would, and that gives me the confidence that they're going to achieve, the team's going to achieve our plan to more than double capacity again by the end of calendar 27. So you put all that together, and, yeah, we're feeling really good about the outlook and the visibility for the business.",
+   "parts": [
+    {
+     "t0_ms": 2090780,
+     "text": "so a lot of that's underpinned by our own internal supply."
+    },
+    {
+     "t0_ms": 2094620,
+     "text": "One of the constraints has been indium phosphide,"
+    },
+    {
+     "t0_ms": 2103030,
+     "text": "and I'm just really pleased with how the team has executed very, very well on the indium phosphide production ramp."
+    },
+    {
+     "t0_ms": 2112990,
+     "text": "We've doubled production capacity a quarter earlier than what we thought we would,"
+    },
+    {
+     "t0_ms": 2117870,
+     "text": "and that gives me the confidence that they're going to achieve,"
+    },
+    {
+     "t0_ms": 2121030,
+     "text": "the team's going to achieve our plan to more than double capacity again by the end of calendar 27."
+    },
+    {
+     "t0_ms": 2126690,
+     "text": "So you put all that together, and, yeah, we're feeling really good about the outlook and the visibility for the business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2133030,
+   "t1_ms": 2154290,
+   "speaker": "Analyst",
+   "text": "Super helpful. And then just as my follow-up for that LCA, obviously $20 billion, a pretty robust number over that five years. Could you just give us any color just around that customer, perhaps? And then if you can't talk about the customer around some of the solutions, obviously it's photon-linked, so it spans a large number of your products, but any more specificity would be really helpful, just given the size of that customer.",
+   "parts": [
+    {
+     "t0_ms": 2133030,
+     "text": "Super helpful."
+    },
+    {
+     "t0_ms": 2134570,
+     "text": "And then just as my follow-up for that LCA, obviously $20 billion, a pretty robust number over that five years."
+    },
+    {
+     "t0_ms": 2139530,
+     "text": "Could you just give us any color just around that customer, perhaps?"
+    },
+    {
+     "t0_ms": 2143410,
+     "text": "And then if you can't talk about the customer around some of the solutions,"
+    },
+    {
+     "t0_ms": 2146190,
+     "text": "obviously it's photon-linked, so it spans a large number of your products,"
+    },
+    {
+     "t0_ms": 2149910,
+     "text": "but any more specificity would be really helpful, just given the size of that customer."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2155250,
+   "t1_ms": 2197570,
+   "speaker": "Management",
+   "text": "Yeah, sure. So definitely a leading AI data center customer name you would definitely recognize. Right? And so we're really proud of that partnership, excited about it. That's all that LTA for $20 billion is all around photon-link technology. I would call it, I would say it's anchored by our laser, our 400-milliwatt CW laser. That's kind of the anchor of that LTA. But it's more than, we're selling more than just that laser. So we're selling more, you know, call it a higher-level solution. So more than just that laser. So we're really, really pleased by that.",
+   "parts": [
+    {
+     "t0_ms": 2155250,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 2156250,
+     "text": "So definitely a leading AI data center customer name you would definitely recognize."
+    },
+    {
+     "t0_ms": 2163030,
+     "text": "Right?"
+    },
+    {
+     "t0_ms": 2164170,
+     "text": "And so we're really proud of that partnership, excited about it."
+    },
+    {
+     "t0_ms": 2169770,
+     "text": "That's all that LTA for $20 billion is all around photon-link technology."
+    },
+    {
+     "t0_ms": 2175290,
+     "text": "I would call it, I would say it's anchored by our laser, our 400-milliwatt CW laser."
+    },
+    {
+     "t0_ms": 2181750,
+     "text": "That's kind of the anchor of that LTA."
+    },
+    {
+     "t0_ms": 2184390,
+     "text": "But it's more than, we're selling more than just that laser."
+    },
+    {
+     "t0_ms": 2188070,
+     "text": "So we're selling more, you know, call it a higher-level solution."
+    },
+    {
+     "t0_ms": 2193030,
+     "text": "So more than just that laser."
+    },
+    {
+     "t0_ms": 2195910,
+     "text": "So we're really, really pleased by that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2197650,
+   "t1_ms": 2226030,
+   "speaker": "Management",
+   "text": "As I mentioned, the revenue, we expect the revenue to start to flow from that in early 2028 and to ramp over the course of the quarters of years after that. And so really pleased with that. And I think given the engagement that we have on photon-link across many different customers, many different solutions, we certainly expect to sign more long-term agreements and partnerships with LTA. And I think that's something that we're going to be able to do with photon-link over the coming quarters as well.",
+   "parts": [
+    {
+     "t0_ms": 2197650,
+     "text": "As I mentioned, the revenue, we expect the revenue to start to flow from that in early 2028"
+    },
+    {
+     "t0_ms": 2203830,
+     "text": "and to ramp over the course of the quarters of years after that."
+    },
+    {
+     "t0_ms": 2208170,
+     "text": "And so really pleased with that."
+    },
+    {
+     "t0_ms": 2210450,
+     "text": "And I think given the engagement that we have on photon-link across many different customers,"
+    },
+    {
+     "t0_ms": 2216050,
+     "text": "many different solutions, we certainly expect to sign more long-term agreements"
+    },
+    {
+     "t0_ms": 2221830,
+     "text": "and partnerships with LTA."
+    },
+    {
+     "t0_ms": 2223030,
+     "text": "And I think that's something that we're going to be able to do with photon-link"
+    },
+    {
+     "t0_ms": 2225030,
+     "text": "over the coming quarters as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2226030,
+   "t1_ms": 2227030,
+   "speaker": "Analyst",
+   "text": "Thanks a lot, Jim.",
+   "parts": [
+    {
+     "t0_ms": 2226030,
+     "text": "Thanks a lot, Jim."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2227030,
+   "t1_ms": 2238320,
+   "speaker": "Operator",
+   "text": "The next question comes from George Nodder with Wolf Research. Please go ahead. Hi, guys.",
+   "parts": [
+    {
+     "t0_ms": 2227030,
+     "text": "The next question comes from George Nodder with Wolf Research."
+    },
+    {
+     "t0_ms": 2234200,
+     "text": "Please go ahead."
+    },
+    {
+     "t0_ms": 2237320,
+     "text": "Hi, guys."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2238320,
+   "t1_ms": 2267300,
+   "speaker": "Analyst",
+   "text": "Thanks a lot. I guess I just wanted to ask a question about the 45% gross margin outlook before the end of 28. So I guess I'm curious, like what does that assume about your transceiver business? I'm just wondering if to hit that, you need to gate your transceiver supply or transceiver supply. Is that a transceiver ramp or is this just a case where everything can ramp in unison and it naturally would ramp and you wind up at 45% gross margins? What's the view there? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2238320,
+     "text": "Thanks a lot."
+    },
+    {
+     "t0_ms": 2239320,
+     "text": "I guess I just wanted to ask a question about the 45% gross margin outlook before the end"
+    },
+    {
+     "t0_ms": 2247600,
+     "text": "of 28."
+    },
+    {
+     "t0_ms": 2248600,
+     "text": "So I guess I'm curious, like what does that assume about your transceiver business?"
+    },
+    {
+     "t0_ms": 2253060,
+     "text": "I'm just wondering if to hit that, you need to gate your transceiver supply or transceiver"
+    },
+    {
+     "t0_ms": 2256120,
+     "text": "supply."
+    },
+    {
+     "t0_ms": 2257320,
+     "text": "Is that a transceiver ramp or is this just a case where everything can ramp in unison"
+    },
+    {
+     "t0_ms": 2261840,
+     "text": "and it naturally would ramp and you wind up at 45% gross margins?"
+    },
+    {
+     "t0_ms": 2266340,
+     "text": "What's the view there?"
+    },
+    {
+     "t0_ms": 2267120,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2268320,
+   "t1_ms": 2311180,
+   "speaker": "Management",
+   "text": "Yeah, thanks, George. I'll start and then see if Sherry has any color to add. But yeah, we haven't assumed that we're kind of artificially gating the transceiver business. So there's no assumption on that. We're assuming that the transceiver business grows at what we think is, you know, a reasonable growth rate to expect from the transceiver business. But on top of that, we do have new products that are ramping on top of that. You know, PhotonLink, a number of new products in data center interconnect, OCS ramping over time as well. And so you put all those products ramping over time and those products are accretive to the company's margin.",
+   "parts": [
+    {
+     "t0_ms": 2268320,
+     "text": "Yeah, thanks, George."
+    },
+    {
+     "t0_ms": 2271060,
+     "text": "I'll start and then see if Sherry has any color to add."
+    },
+    {
+     "t0_ms": 2274140,
+     "text": "But yeah, we haven't assumed that we're kind of artificially gating the transceiver business."
+    },
+    {
+     "t0_ms": 2279260,
+     "text": "So there's no assumption on that."
+    },
+    {
+     "t0_ms": 2280960,
+     "text": "We're assuming that the transceiver business grows at what we think is,"
+    },
+    {
+     "t0_ms": 2287320,
+     "text": "you know, a reasonable growth rate to expect from the transceiver business."
+    },
+    {
+     "t0_ms": 2291320,
+     "text": "But on top of that, we do have new products that are ramping on top of that."
+    },
+    {
+     "t0_ms": 2296560,
+     "text": "You know, PhotonLink, a number of new products in data center interconnect, OCS ramping over"
+    },
+    {
+     "t0_ms": 2302360,
+     "text": "time as well."
+    },
+    {
+     "t0_ms": 2304040,
+     "text": "And so you put all those products ramping over time and those products are accretive"
+    },
+    {
+     "t0_ms": 2310080,
+     "text": "to the company's margin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2311700,
+   "t1_ms": 2347320,
+   "speaker": "Management",
+   "text": "I think the new product ramp helps as well. And then in addition to that, the other thing that I would add more on the, cost side is number of different cost activities that we're driving. But certainly a big one of it is we expect additional leverage in terms of gross margin from our Indian Phosphide ramp. I think there's, as I mentioned briefly in the prepared remarks, I think most of the benefit from Indian Phosphide expansion is still ahead of us. And so I think there's a good component of the margin expansion that's kind of underpinned by the Indian Phosphide expansion.",
+   "parts": [
+    {
+     "t0_ms": 2311700,
+     "text": "I think the new product ramp helps as well."
+    },
+    {
+     "t0_ms": 2314420,
+     "text": "And then in addition to that, the other thing that I would add more on the,"
+    },
+    {
+     "t0_ms": 2317320,
+     "text": "cost side is number of different cost activities that we're driving."
+    },
+    {
+     "t0_ms": 2321000,
+     "text": "But certainly a big one of it is we expect additional leverage in terms of gross margin"
+    },
+    {
+     "t0_ms": 2327320,
+     "text": "from our Indian Phosphide ramp."
+    },
+    {
+     "t0_ms": 2330140,
+     "text": "I think there's, as I mentioned briefly in the prepared remarks, I think most of the benefit"
+    },
+    {
+     "t0_ms": 2335400,
+     "text": "from Indian Phosphide expansion is still ahead of us."
+    },
+    {
+     "t0_ms": 2338060,
+     "text": "And so I think there's a good component of the margin expansion that's kind of underpinned"
+    },
+    {
+     "t0_ms": 2344980,
+     "text": "by the Indian Phosphide expansion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2347320,
+   "t1_ms": 2372580,
+   "speaker": "Analyst",
+   "text": "Is it possible to get the company to hire margins than 45% over time? I mean, I guess I'm maybe looking at Lumentum as an example. Those guys obviously have had quite a bit of margin expansion. Obviously the fastest growing parts of that business are many of the areas where you're kind of looking for growth going forward. Is 45% just a stop in a bigger picture or a bigger number? What do you think?",
+   "parts": [
+    {
+     "t0_ms": 2347320,
+     "text": "Is it possible to get the company to hire margins than 45% over time?"
+    },
+    {
+     "t0_ms": 2353160,
+     "text": "I mean, I guess I'm maybe looking at Lumentum as an example."
+    },
+    {
+     "t0_ms": 2356460,
+     "text": "Those guys obviously have had quite a bit of margin expansion."
+    },
+    {
+     "t0_ms": 2359380,
+     "text": "Obviously the fastest growing parts of that business are many of the areas where you're"
+    },
+    {
+     "t0_ms": 2364500,
+     "text": "kind of looking for growth going forward."
+    },
+    {
+     "t0_ms": 2367720,
+     "text": "Is 45% just a stop in a bigger picture or a bigger number?"
+    },
+    {
+     "t0_ms": 2372040,
+     "text": "What do you think?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2373620,
+   "t1_ms": 2416060,
+   "speaker": "Management",
+   "text": "I don't think there's any structural barrier to us driving growth. I think we're looking at a gross margin above 40%. In fact, I think Sherry, in her remarks, I think she said over 45% before the end of calendar 28, I think is the way she said it, right? So yeah, we certainly don't view, just like our old target of 42% where we said over 42, we never viewed that as a stopping point. We viewed that as a stop along the way. And I would say 45% is, yeah, a stop along the way. And I don't see any structural. There's no reason why the company couldn't continue to drive gross margins beyond that. Yeah, I would just add that, you know, the target that we put out about 18 months ago",
+   "parts": [
+    {
+     "t0_ms": 2373620,
+     "text": "I don't think there's any structural barrier to us driving growth."
+    },
+    {
+     "t0_ms": 2377320,
+     "text": "I think we're looking at a gross margin above 40%."
+    },
+    {
+     "t0_ms": 2379540,
+     "text": "In fact, I think Sherry, in her remarks, I think she said over 45% before the end of"
+    },
+    {
+     "t0_ms": 2386740,
+     "text": "calendar 28, I think is the way she said it, right?"
+    },
+    {
+     "t0_ms": 2389620,
+     "text": "So yeah, we certainly don't view, just like our old target of 42% where we said over 42,"
+    },
+    {
+     "t0_ms": 2396040,
+     "text": "we never viewed that as a stopping point."
+    },
+    {
+     "t0_ms": 2399520,
+     "text": "We viewed that as a stop along the way."
+    },
+    {
+     "t0_ms": 2402460,
+     "text": "And I would say 45% is, yeah, a stop along the way."
+    },
+    {
+     "t0_ms": 2405740,
+     "text": "And I don't see any structural."
+    },
+    {
+     "t0_ms": 2407320,
+     "text": "There's no reason why the company couldn't continue to drive gross margins beyond that."
+    },
+    {
+     "t0_ms": 2411700,
+     "text": "Yeah, I would just add that, you know, the target that we put out about 18 months ago"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2416060,
+   "t1_ms": 2458920,
+   "speaker": "Management",
+   "text": "at our investor day of over 42%, that was a three to four year target that we put out. But we pulled that in, right, in only 18 months, now raising our target to over 45%. So, you know, as we get close to that target, you know, we'll certainly reevaluate, you know, and look at, you know, what makes sense beyond that. But it's just a stop along the way. Yeah, and George, maybe the other thing I'd add is, you know, we're certainly, you know, super focused on gross margin expansion. But the other thing that we're very focused on is operating leverage, right? And I think we're quite pleased to see that we're gaining operating leverage in terms of OPEX as a percentage of sales, and we expect that to continue as well.",
+   "parts": [
+    {
+     "t0_ms": 2416060,
+     "text": "at our investor day of over 42%, that was a three to four year target that we put out."
+    },
+    {
+     "t0_ms": 2422680,
+     "text": "But we pulled that in, right, in only 18 months, now raising our target to over 45%."
+    },
+    {
+     "t0_ms": 2428400,
+     "text": "So, you know, as we get close to that target, you know, we'll certainly reevaluate, you know,"
+    },
+    {
+     "t0_ms": 2433440,
+     "text": "and look at, you know, what makes sense beyond that."
+    },
+    {
+     "t0_ms": 2435740,
+     "text": "But it's just a stop along the way."
+    },
+    {
+     "t0_ms": 2437320,
+     "text": "Yeah, and George, maybe the other thing I'd add is, you know, we're certainly, you know,"
+    },
+    {
+     "t0_ms": 2442140,
+     "text": "super focused on gross margin expansion."
+    },
+    {
+     "t0_ms": 2444420,
+     "text": "But the other thing that we're very focused on is operating leverage, right?"
+    },
+    {
+     "t0_ms": 2448340,
+     "text": "And I think we're quite pleased to see that we're gaining operating leverage in terms"
+    },
+    {
+     "t0_ms": 2454560,
+     "text": "of OPEX as a percentage of sales, and we expect that to continue as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2458920,
+   "t1_ms": 2463000,
+   "speaker": "Management",
+   "text": "So I think, you know, you should expect continued operating leverage as well.",
+   "parts": [
+    {
+     "t0_ms": 2458920,
+     "text": "So I think, you know, you should expect continued operating leverage as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2464380,
+   "t1_ms": 2464740,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2464380,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2467840,
+   "t1_ms": 2472760,
+   "speaker": "Operator",
+   "text": "The next question comes from John Williams. Thank you. Thank you. This is Marco Conti with Deutsche Bank. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2467840,
+     "text": "The next question comes from John Williams."
+    },
+    {
+     "t0_ms": 2469580,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2469740,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2469780,
+     "text": "This is Marco Conti with Deutsche Bank."
+    },
+    {
+     "t0_ms": 2471880,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2474320,
+   "t1_ms": 2500420,
+   "speaker": "Analyst",
+   "text": "Yeah, great. Thank you for taking my questions. Congrats on the quarter. Maybe starting with PhotonLink, I wanted to touch on the scale-in slash scale-up opportunity with MicroVixel. You mentioned you had five engagements, I believe, chip to chip. I'm curious if you could talk in a little bit more detail here whether there is anything you can quantify in terms of revenue to come online next year, anything around MicroVixel. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2474320,
+     "text": "Yeah, great."
+    },
+    {
+     "t0_ms": 2474900,
+     "text": "Thank you for taking my questions."
+    },
+    {
+     "t0_ms": 2476660,
+     "text": "Congrats on the quarter."
+    },
+    {
+     "t0_ms": 2478460,
+     "text": "Maybe starting with PhotonLink, I wanted to touch on the scale-in slash scale-up opportunity"
+    },
+    {
+     "t0_ms": 2484820,
+     "text": "with MicroVixel."
+    },
+    {
+     "t0_ms": 2486600,
+     "text": "You mentioned you had five engagements, I believe, chip to chip."
+    },
+    {
+     "t0_ms": 2490340,
+     "text": "I'm curious if you could talk in a little bit more detail here whether there is anything"
+    },
+    {
+     "t0_ms": 2494660,
+     "text": "you can quantify in terms of revenue to come online next year, anything around MicroVixel."
+    },
+    {
+     "t0_ms": 2499420,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2500420,
+   "t1_ms": 2543000,
+   "speaker": "Management",
+   "text": "Yeah. So thanks for asking about MicroVixel. So certainly when I look across the PhotonLink engagements, there is, I would say, many Vixel, MicroVixel. We call it multi-core Vixel because the multi-core Vixel attaches to our multi-core fiber that we produce. But multiple of those engagements involve our Vixel technology. I mean, maybe just as a reminder of the companies. We have a lot of companies, sort of, depth in Vixel technology. Number one is we've shipped over 700 million Vixels into data center applications over the past year.",
+   "parts": [
+    {
+     "t0_ms": 2500420,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2501420,
+     "text": "So thanks for asking about MicroVixel."
+    },
+    {
+     "t0_ms": 2503920,
+     "text": "So certainly when I look across the PhotonLink engagements, there is, I would say, many Vixel,"
+    },
+    {
+     "t0_ms": 2511200,
+     "text": "MicroVixel."
+    },
+    {
+     "t0_ms": 2512200,
+     "text": "We call it multi-core Vixel because the multi-core Vixel attaches to our multi-core fiber that"
+    },
+    {
+     "t0_ms": 2518420,
+     "text": "we produce."
+    },
+    {
+     "t0_ms": 2521540,
+     "text": "But multiple of those engagements involve our Vixel technology."
+    },
+    {
+     "t0_ms": 2525740,
+     "text": "I mean, maybe just as a reminder of the companies."
+    },
+    {
+     "t0_ms": 2529220,
+     "text": "We have a lot of companies, sort of, depth in Vixel technology."
+    },
+    {
+     "t0_ms": 2534220,
+     "text": "Number one is we've shipped over 700 million Vixels into data center applications over the"
+    },
+    {
+     "t0_ms": 2542000,
+     "text": "past year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2543000,
+   "t1_ms": 2587780,
+   "speaker": "Management",
+   "text": "So we have enormous manufacturing expertise in Vixels. Also at the ECOC conference when we launched PhotonLink, we talked about our technology in Vixels, MicroVixels, Vixel arrays, et cetera. You know, we showed that we have a lot of technology in Vixels. We showed that one of the things that we showed was that we had industry-leading energy efficiency around Vixels. We showed a one picojoule per bit capability, which I think is very industry-leading capability. And so Vixel is definitely a core technology, something that the company has a long history in and we have multiple engagements. I think you'll see that deployed in NPO applications. I think that's a great point.",
+   "parts": [
+    {
+     "t0_ms": 2543000,
+     "text": "So we have enormous manufacturing expertise in Vixels."
+    },
+    {
+     "t0_ms": 2547180,
+     "text": "Also at the ECOC conference when we launched PhotonLink, we talked about our technology"
+    },
+    {
+     "t0_ms": 2554000,
+     "text": "in Vixels, MicroVixels, Vixel arrays, et cetera."
+    },
+    {
+     "t0_ms": 2558040,
+     "text": "You know, we showed that we have a lot of technology in Vixels."
+    },
+    {
+     "t0_ms": 2559000,
+     "text": "We showed that one of the things that we showed was that we had industry-leading energy"
+    },
+    {
+     "t0_ms": 2565240,
+     "text": "efficiency around Vixels."
+    },
+    {
+     "t0_ms": 2568380,
+     "text": "We showed a one picojoule per bit capability, which I think is very industry-leading capability."
+    },
+    {
+     "t0_ms": 2576720,
+     "text": "And so Vixel is definitely a core technology, something that the company has a long history"
+    },
+    {
+     "t0_ms": 2582280,
+     "text": "in and we have multiple engagements."
+    },
+    {
+     "t0_ms": 2585220,
+     "text": "I think you'll see that deployed in NPO applications."
+    },
+    {
+     "t0_ms": 2586780,
+     "text": "I think that's a great point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2587780,
+   "t1_ms": 2612740,
+   "speaker": "Management",
+   "text": "Yeah. I think that's a great point. I think that's a great point. And so in terms of Vixels, we've deployed in NPO applications relatively in scale up NPO applications in relatively short amount of time. I think you also asked about scale in chip-to-chip. I think that's a little further out in time. I think PhotonLink in scale in applications is more in the 2029 to 2030, but we'll definitely see I think Vixels deployed in NPO applications well before that.",
+   "parts": [
+    {
+     "t0_ms": 2587780,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2588780,
+     "text": "I think that's a great point."
+    },
+    {
+     "t0_ms": 2589560,
+     "text": "I think that's a great point."
+    },
+    {
+     "t0_ms": 2590560,
+     "text": "And so in terms of Vixels, we've deployed in NPO applications relatively in scale up"
+    },
+    {
+     "t0_ms": 2591560,
+     "text": "NPO applications in relatively short amount of time."
+    },
+    {
+     "t0_ms": 2596480,
+     "text": "I think you also asked about scale in chip-to-chip."
+    },
+    {
+     "t0_ms": 2599380,
+     "text": "I think that's a little further out in time."
+    },
+    {
+     "t0_ms": 2601660,
+     "text": "I think PhotonLink in scale in applications is more in the 2029 to 2030, but we'll definitely"
+    },
+    {
+     "t0_ms": 2608520,
+     "text": "see I think Vixels deployed in NPO applications well before that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2612740,
+   "t1_ms": 2634780,
+   "speaker": "Analyst",
+   "text": "If I can just ask a follow-up, it's going to be a tough question. Sorry to put you on the spot. Go ahead. But I've been receiving a lot of questions from investors around Chinese laser suppliers. I was wondering if you could provide any kind of thoughts on basically more supply coming in online and whether you see them competing for ultra-high-powered lasers for CWs.",
+   "parts": [
+    {
+     "t0_ms": 2612740,
+     "text": "If I can just ask a follow-up, it's going to be a tough question."
+    },
+    {
+     "t0_ms": 2617020,
+     "text": "Sorry to put you on the spot."
+    },
+    {
+     "t0_ms": 2618020,
+     "text": "Go ahead."
+    },
+    {
+     "t0_ms": 2618780,
+     "text": "But I've been receiving a lot of questions from investors around Chinese laser suppliers."
+    },
+    {
+     "t0_ms": 2623540,
+     "text": "I was wondering if you could provide any kind of thoughts on basically more supply coming"
+    },
+    {
+     "t0_ms": 2628660,
+     "text": "in online and whether you see them competing for ultra-high-powered lasers for CWs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2634780,
+   "t1_ms": 2675350,
+   "speaker": "Management",
+   "text": "Yeah. So I don't see that those competitors in terms of ultra-high power, if you're talking about like the 400 milliwatt CW laser. Yeah. We're not seeing competition from China. Yeah. Yeah. Yeah. So we really only have one competitor there as far as we can see, right? So really not seeing any other competitors out there with high power CW laser capability. All right. Thank you. Before we go to the next goal of...",
+   "parts": [
+    {
+     "t0_ms": 2634780,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2637120,
+     "text": "So I don't see that those competitors in terms of ultra-high power, if you're talking about"
+    },
+    {
+     "t0_ms": 2643320,
+     "text": "like the 400 milliwatt CW laser."
+    },
+    {
+     "t0_ms": 2645120,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2646120,
+     "text": "We're not seeing competition from China."
+    },
+    {
+     "t0_ms": 2647120,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2648120,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2649120,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2650120,
+     "text": "So we really only have one competitor there as far as we can see, right?"
+    },
+    {
+     "t0_ms": 2656120,
+     "text": "So really not seeing any other competitors out there with high power CW laser capability."
+    },
+    {
+     "t0_ms": 2663120,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2666430,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2668770,
+     "text": "Before we go to the next goal of..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2675350,
+   "t1_ms": 2685280,
+   "speaker": "Operator",
+   "text": "The next question comes from Dan Xu with Bernstein. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2675350,
+     "text": "The next question comes from Dan Xu with Bernstein."
+    },
+    {
+     "t0_ms": 2684280,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2685280,
+   "t1_ms": 2701460,
+   "speaker": "Analyst",
+   "text": "Hey, thanks for the question. You mentioned that scale of optics should start towards the end of calendar 2027. Anything you can share about whether the initial deployments are NPO or CPO, and also about whether this is primarily going to be on VIXOs, or will this start with IMP-based lasers?",
+   "parts": [
+    {
+     "t0_ms": 2685280,
+     "text": "Hey, thanks for the question."
+    },
+    {
+     "t0_ms": 2688280,
+     "text": "You mentioned that scale of optics should start towards the end of calendar 2027."
+    },
+    {
+     "t0_ms": 2692280,
+     "text": "Anything you can share about whether the initial deployments are NPO or CPO,"
+    },
+    {
+     "t0_ms": 2696280,
+     "text": "and also about whether this is primarily going to be on VIXOs,"
+    },
+    {
+     "t0_ms": 2699580,
+     "text": "or will this start with IMP-based lasers?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2702780,
+   "t1_ms": 2740040,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Dan. So I think what we'll see, we'll definitely see CPO in scale up. We certainly believe that. I think we'll see NPO scale up soon after that as well. If not by the end of calendar 27, I think we'll certainly see deployment in the early part of 28. So I think in scale up, both CPO and NPO within either that late 27 or early 28 timeframe in the scale up applications. And then I think, did you ask, what was the second part of your question, Dan? VIXO.",
+   "parts": [
+    {
+     "t0_ms": 2702780,
+     "text": "Yeah, thanks, Dan."
+    },
+    {
+     "t0_ms": 2703860,
+     "text": "So I think what we'll see, we'll definitely see CPO in scale up."
+    },
+    {
+     "t0_ms": 2708320,
+     "text": "We certainly believe that."
+    },
+    {
+     "t0_ms": 2710000,
+     "text": "I think we'll see NPO scale up soon after that as well."
+    },
+    {
+     "t0_ms": 2716540,
+     "text": "If not by the end of calendar 27,"
+    },
+    {
+     "t0_ms": 2719540,
+     "text": "I think we'll certainly see deployment in the early part of 28."
+    },
+    {
+     "t0_ms": 2724060,
+     "text": "So I think in scale up, both CPO and NPO within either that late 27"
+    },
+    {
+     "t0_ms": 2731000,
+     "text": "or early 28 timeframe in the scale up applications."
+    },
+    {
+     "t0_ms": 2735020,
+     "text": "And then I think, did you ask, what was the second part of your question, Dan?"
+    },
+    {
+     "t0_ms": 2739640,
+     "text": "VIXO."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2740060,
+   "t1_ms": 2742200,
+   "speaker": "Analyst",
+   "text": "How much of it is VIXO versus IMP?",
+   "parts": [
+    {
+     "t0_ms": 2740060,
+     "text": "How much of it is VIXO versus IMP?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2743140,
+   "t1_ms": 2764240,
+   "speaker": "Management",
+   "text": "Yeah, I think the initial deployment is indium phosphide, the high-power CW lasers. That's for CPO in both initially scale out and then in scale up. And then I think VIXOs will happen in that NPO kind of early 28 timeframe. Got it. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2743140,
+     "text": "Yeah, I think the initial deployment is indium phosphide,"
+    },
+    {
+     "t0_ms": 2747420,
+     "text": "the high-power CW lasers."
+    },
+    {
+     "t0_ms": 2748820,
+     "text": "That's for CPO in both initially scale out and then in scale up."
+    },
+    {
+     "t0_ms": 2754040,
+     "text": "And then I think VIXOs will happen in that NPO kind of early 28 timeframe."
+    },
+    {
+     "t0_ms": 2763620,
+     "text": "Got it. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2764620,
+   "t1_ms": 2770910,
+   "speaker": "Operator",
+   "text": "The next question comes from Ryan Kuntz with Needham. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2764620,
+     "text": "The next question comes from Ryan Kuntz with Needham."
+    },
+    {
+     "t0_ms": 2770030,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2772490,
+   "t1_ms": 2806550,
+   "speaker": "Analyst",
+   "text": "This is Jeff Opson on for Ryan. Thank you for the question. You noted ramping the indium phosphide supply for your own, laser supply and, you know, that'd be able to lead to, you know, the margin expansion from weaning off external sources. I'm just curious if there's any color on what the split is currently versus internal versus external and kind of how or the timeline of that over time as it relates to the margin expansion. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2772490,
+     "text": "This is Jeff Opson on for Ryan."
+    },
+    {
+     "t0_ms": 2775210,
+     "text": "Thank you for the question."
+    },
+    {
+     "t0_ms": 2777490,
+     "text": "You noted ramping the indium phosphide supply for your own,"
+    },
+    {
+     "t0_ms": 2782430,
+     "text": "laser supply and, you know, that'd be able to lead to, you know,"
+    },
+    {
+     "t0_ms": 2786890,
+     "text": "the margin expansion from weaning off external sources."
+    },
+    {
+     "t0_ms": 2790490,
+     "text": "I'm just curious if there's any color on what the split is currently versus internal versus"
+    },
+    {
+     "t0_ms": 2798270,
+     "text": "external and kind of how or the timeline of that over time as it relates to the margin expansion."
+    },
+    {
+     "t0_ms": 2806190,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2808090,
+   "t1_ms": 2852270,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Jeff. We haven't broken out the split, but I can tell you the split hasn't changed. Much in a year. We're using about the same mix of internal versus external now as we were a year ago. So although we've doubled our internal indium, indium phosphide supply, our, the primary usage of our internal indium phosphide parts is in our data center transceivers. And if you look at the growth rate of our data center business, data center transceivers, it's basically tracked the growth of our indium phosphide, which is about a quarter of the capacity, although one, basically one quarter later, because when in the quarter we produce the lasers, the next quarter is when we ship the transceivers.",
+   "parts": [
+    {
+     "t0_ms": 2808090,
+     "text": "Yeah, thanks, Jeff."
+    },
+    {
+     "t0_ms": 2809050,
+     "text": "We haven't broken out the split, but I can tell you the split hasn't changed."
+    },
+    {
+     "t0_ms": 2812430,
+     "text": "Much in a year."
+    },
+    {
+     "t0_ms": 2814050,
+     "text": "We're using about the same mix of internal versus external now as we were a year ago."
+    },
+    {
+     "t0_ms": 2822050,
+     "text": "So although we've doubled our internal indium,"
+    },
+    {
+     "t0_ms": 2824350,
+     "text": "indium phosphide supply,"
+    },
+    {
+     "t0_ms": 2826510,
+     "text": "our,"
+    },
+    {
+     "t0_ms": 2827010,
+     "text": "the primary usage of our internal indium phosphide parts is in our data center transceivers."
+    },
+    {
+     "t0_ms": 2832670,
+     "text": "And if you look at the growth rate of our data center business,"
+    },
+    {
+     "t0_ms": 2836010,
+     "text": "data center transceivers,"
+    },
+    {
+     "t0_ms": 2837470,
+     "text": "it's basically tracked the growth of our indium phosphide,"
+    },
+    {
+     "t0_ms": 2842430,
+     "text": "which is about a quarter of the capacity, although one,"
+    },
+    {
+     "t0_ms": 2845050,
+     "text": "basically one quarter later,"
+    },
+    {
+     "t0_ms": 2846430,
+     "text": "because when in the quarter we produce the lasers,"
+    },
+    {
+     "t0_ms": 2849310,
+     "text": "the next quarter is when we ship the transceivers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2852270,
+   "t1_ms": 2895170,
+   "speaker": "Management",
+   "text": "And so essentially our transceivers have been businesses grown at the same rate as our internal indium phosphide, which means that our mix of internal versus external really hasn't changed much over the, to shift more of the mix from, from external towards internal. Now, I'll always think we always believe we'll have some portion of our supply from external for our transceiver business, but we believe over the coming quarters, we'll start to shift more towards internal.",
+   "parts": [
+    {
+     "t0_ms": 2852270,
+     "text": "And so essentially our transceivers have been businesses grown at the same rate as our internal indium phosphide,"
+    },
+    {
+     "t0_ms": 2860970,
+     "text": "which means that our mix of internal versus external really hasn't changed much over the,"
+    },
+    {
+     "t0_ms": 2877550,
+     "text": "to shift more of the mix from,"
+    },
+    {
+     "t0_ms": 2880590,
+     "text": "from external towards internal."
+    },
+    {
+     "t0_ms": 2882830,
+     "text": "Now,"
+    },
+    {
+     "t0_ms": 2883170,
+     "text": "I'll always think we always believe we'll have some portion of our supply from external for our transceiver business,"
+    },
+    {
+     "t0_ms": 2891470,
+     "text": "but we believe over the coming quarters,"
+    },
+    {
+     "t0_ms": 2893050,
+     "text": "we'll start to shift more towards internal."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2895410,
+   "t1_ms": 2929690,
+   "speaker": "Management",
+   "text": "And that's really because it's a tremendous cost advantage for us to use our internally produced lasers, especially the ones that are made on the six inch platform. And in my prepared remarks, when I said, you know, the majority of the benefit from six inch indium phosphide is ahead of us, that's actually what really what I'm referring to is that benefit of changing the mix towards internal is largely ahead of us. And, and that's a much bigger cost structure, cost structure improvement. Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 2895410,
+     "text": "And that's really because it's a tremendous cost advantage for us to use our internally produced lasers,"
+    },
+    {
+     "t0_ms": 2902470,
+     "text": "especially the ones that are made on the six inch platform."
+    },
+    {
+     "t0_ms": 2906670,
+     "text": "And in my prepared remarks,"
+    },
+    {
+     "t0_ms": 2908630,
+     "text": "when I said,"
+    },
+    {
+     "t0_ms": 2909790,
+     "text": "you know,"
+    },
+    {
+     "t0_ms": 2910050,
+     "text": "the majority of the benefit from six inch indium phosphide is ahead of us,"
+    },
+    {
+     "t0_ms": 2913170,
+     "text": "that's actually what really what I'm referring to is that benefit of changing the mix towards internal is largely ahead of us."
+    },
+    {
+     "t0_ms": 2920370,
+     "text": "And,"
+    },
+    {
+     "t0_ms": 2920790,
+     "text": "and that's a much bigger cost structure,"
+    },
+    {
+     "t0_ms": 2923830,
+     "text": "cost structure improvement."
+    },
+    {
+     "t0_ms": 2926050,
+     "text": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2929690,
+   "t1_ms": 2936660,
+   "speaker": "Operator",
+   "text": "The next question comes from Papa Celia with Citi. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2929690,
+     "text": "The next question comes from Papa Celia with Citi."
+    },
+    {
+     "t0_ms": 2935540,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2936660,
+   "t1_ms": 2974460,
+   "speaker": "Analyst",
+   "text": "Thank you. Thank you for taking my question and congrats on the very impressive results. Jim, I wanted to maybe double click on the 15,000, $15,000 of content per, I think, hundred teach that you mentioned earlier and at ECOC. So assuming that is probably the full stack opportunity, which might be a longer term figure, but I thought it would be helpful to also have a sense even qualitatively on what percentage I guess of that 15,000 you expect to capture in the near term versus longer term and how it may change kind of beyond 27.",
+   "parts": [
+    {
+     "t0_ms": 2936660,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2938960,
+     "text": "Thank you for taking my question and congrats on the very impressive results."
+    },
+    {
+     "t0_ms": 2942740,
+     "text": "Jim,"
+    },
+    {
+     "t0_ms": 2943580,
+     "text": "I wanted to maybe double click on the 15,000,"
+    },
+    {
+     "t0_ms": 2946660,
+     "text": "$15,000 of content per,"
+    },
+    {
+     "t0_ms": 2949240,
+     "text": "I think,"
+    },
+    {
+     "t0_ms": 2949660,
+     "text": "hundred teach that you mentioned earlier and at ECOC."
+    },
+    {
+     "t0_ms": 2953540,
+     "text": "So assuming that is probably the full stack opportunity,"
+    },
+    {
+     "t0_ms": 2957120,
+     "text": "which might be a longer term figure,"
+    },
+    {
+     "t0_ms": 2959160,
+     "text": "but I thought it would be helpful to also have a sense even qualitatively on what percentage I guess of that 15,000 you expect to capture in the near term versus longer term and how it may change kind of beyond 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2976160,
+   "t1_ms": 3020740,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Papa. The yeah, the 15,000 basically represents if you, if you take an example of a chip that needed 100 terabit of IO, and if we were using our full our full photon link portfolio, which would include not just the lasers, but all the other components, isolators, thermoelectric coolers, laser modules, full our full fiber assembly kit, all the connectors, et cetera. So everything that we do, if you use all that the the content per chip would be, we estimated about $15,000 per chip. Now, it'll depend on the customer in their particular application. How much of that content they utilize,",
+   "parts": [
+    {
+     "t0_ms": 2976160,
+     "text": "Yeah,"
+    },
+    {
+     "t0_ms": 2976360,
+     "text": "thanks,"
+    },
+    {
+     "t0_ms": 2976620,
+     "text": "Papa."
+    },
+    {
+     "t0_ms": 2977540,
+     "text": "The yeah,"
+    },
+    {
+     "t0_ms": 2978200,
+     "text": "the 15,000 basically represents if you,"
+    },
+    {
+     "t0_ms": 2981500,
+     "text": "if you take an example of a chip that needed 100 terabit of IO,"
+    },
+    {
+     "t0_ms": 2987120,
+     "text": "and if we were using our full our full photon link portfolio,"
+    },
+    {
+     "t0_ms": 2991780,
+     "text": "which would include not just the lasers,"
+    },
+    {
+     "t0_ms": 2994160,
+     "text": "but all the other components,"
+    },
+    {
+     "t0_ms": 2995380,
+     "text": "isolators,"
+    },
+    {
+     "t0_ms": 2996080,
+     "text": "thermoelectric coolers,"
+    },
+    {
+     "t0_ms": 2997320,
+     "text": "laser modules,"
+    },
+    {
+     "t0_ms": 2998540,
+     "text": "full our full fiber assembly kit,"
+    },
+    {
+     "t0_ms": 3002200,
+     "text": "all the connectors,"
+    },
+    {
+     "t0_ms": 3003000,
+     "text": "et cetera."
+    },
+    {
+     "t0_ms": 3003500,
+     "text": "So everything that we do,"
+    },
+    {
+     "t0_ms": 3006320,
+     "text": "if you use all that the the content per chip would be,"
+    },
+    {
+     "t0_ms": 3010400,
+     "text": "we estimated about $15,000 per chip."
+    },
+    {
+     "t0_ms": 3013240,
+     "text": "Now,"
+    },
+    {
+     "t0_ms": 3013520,
+     "text": "it'll depend on the customer in their particular application."
+    },
+    {
+     "t0_ms": 3018560,
+     "text": "How much of that content they utilize,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3020740,
+   "t1_ms": 3065200,
+   "speaker": "Management",
+   "text": "whether they utilize a portion of that, all of it. That will really depend on the particular engagement, but that 15,000 is sort of the opportunity that's out there for us, I think we'll see over the over the next year or two. photon link ramps, I think we'll see customers that leverage the vast majority of that. And I think we'll also see customers that leverage a subset of that. So I think we'll definitely, we'll see a mix of that. And we're happy to support our customers, whether they want the entire solution or they want a portion of it, we'll work with them on whatever works best for them. But regardless of the amount of content they take, for us, we see this as all greenfield",
+   "parts": [
+    {
+     "t0_ms": 3020740,
+     "text": "whether they utilize a portion of that,"
+    },
+    {
+     "t0_ms": 3023480,
+     "text": "all of it."
+    },
+    {
+     "t0_ms": 3024240,
+     "text": "That will really depend on the particular engagement,"
+    },
+    {
+     "t0_ms": 3027740,
+     "text": "but that 15,000 is sort of the opportunity that's out there for us,"
+    },
+    {
+     "t0_ms": 3032160,
+     "text": "I think we'll see over the over the next year or two."
+    },
+    {
+     "t0_ms": 3036200,
+     "text": "photon link ramps, I think we'll see customers that leverage the vast majority of that. And I"
+    },
+    {
+     "t0_ms": 3042720,
+     "text": "think we'll also see customers that leverage a subset of that. So I think we'll definitely,"
+    },
+    {
+     "t0_ms": 3047700,
+     "text": "we'll see a mix of that. And we're happy to support our customers, whether they want the"
+    },
+    {
+     "t0_ms": 3053180,
+     "text": "entire solution or they want a portion of it, we'll work with them on whatever works best for"
+    },
+    {
+     "t0_ms": 3058060,
+     "text": "them. But regardless of the amount of content they take, for us, we see this as all greenfield"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3065200,
+   "t1_ms": 3082940,
+   "speaker": "Management",
+   "text": "growth because most of photon link adoption over time will be driven by scale up. And again, that's all greenfield growth for us because that's us in the industry converting copper links to optical links over time. So we see it as greenfield revenue growth.",
+   "parts": [
+    {
+     "t0_ms": 3065200,
+     "text": "growth because most of photon link adoption over time will be driven by scale up. And again,"
+    },
+    {
+     "t0_ms": 3072020,
+     "text": "that's all greenfield growth for us because that's us in the industry converting copper links to"
+    },
+    {
+     "t0_ms": 3078980,
+     "text": "optical links over time. So we see it as greenfield revenue growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3085200,
+   "t1_ms": 3086800,
+   "speaker": "Analyst",
+   "text": "Got it. That's very helpful. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3085200,
+     "text": "Got it. That's very helpful. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3087060,
+   "t1_ms": 3094280,
+   "speaker": "Operator",
+   "text": "The next question comes from Cody Acree with Stonex Financial. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3087060,
+     "text": "The next question comes from Cody Acree with Stonex Financial. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3095180,
+   "t1_ms": 3136220,
+   "speaker": "Management",
+   "text": "Hey guys, thanks for taking my question. Sherry, maybe first of all, I want to know, how do you think the industry is going to continue to grow? And I think for you, if we go back to the gross margin discussion, can you maybe help to stratify the contribution part of that? Can you talk about the impossible six-inch ramp yields, increasing utilization rates, maybe even your mixed thoughts? And just if you can also factor into that the competitive dynamics on your module and your transceiver piece of more global Chinese competition. So I think that's a great question. I think that's a great question. I think that's a great question. I think that's a great question. I think that's a great question. I think that's a great question. I think that's a great question. And what's inherently just a more price-sensitive market?",
+   "parts": [
+    {
+     "t0_ms": 3095180,
+     "text": "Hey guys, thanks for taking my question."
+    },
+    {
+     "t0_ms": 3097600,
+     "text": "Sherry, maybe first of all, I want to know, how do you think the industry is going to"
+    },
+    {
+     "t0_ms": 3098540,
+     "text": "continue to grow? And I think for you, if we go back to the gross margin discussion,"
+    },
+    {
+     "t0_ms": 3101640,
+     "text": "can you maybe help to stratify the contribution part of that? Can you talk about the"
+    },
+    {
+     "t0_ms": 3111480,
+     "text": "impossible six-inch ramp yields, increasing utilization rates, maybe even your mixed"
+    },
+    {
+     "t0_ms": 3117380,
+     "text": "thoughts? And just if you can also factor into that the competitive dynamics on your module and"
+    },
+    {
+     "t0_ms": 3125760,
+     "text": "your transceiver piece of more global Chinese competition. So I think that's a great question."
+    },
+    {
+     "t0_ms": 3131980,
+     "text": "I think that's a great question. I think that's a great question. I think that's a great question."
+    },
+    {
+     "t0_ms": 3132480,
+     "text": "I think that's a great question. I think that's a great question. I think that's a great question."
+    },
+    {
+     "t0_ms": 3132880,
+     "text": "And what's inherently just a more price-sensitive market?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3137640,
+   "t1_ms": 3181580,
+   "speaker": "Management",
+   "text": "Yeah, sure, Cody. I think you cut out a little bit, but I think you were asking for more color on what the drivers are to gross margin expansion over 45%. That's what I think your question is. Yeah, okay. So if I were to rank order, I think that the largest contributors are going to be our new product ramps and that full operational leverage of our six-inch Indian phosphide capacity and then pricing optimization, followed by cost reduction. That's a great question. That's kind of how I would rank order it. And the timing of some of those things kicking in, right, will vary. But certainly new product ramps, I mean, those are gross margin accretive. The new products that Jim referred to earlier in his prepared remarks, those are gross margin accretive. And so that will benefit our gross margin. As we continue to shift our supply from external to",
+   "parts": [
+    {
+     "t0_ms": 3137640,
+     "text": "Yeah, sure, Cody. I think you cut out a little bit, but I think you were asking for"
+    },
+    {
+     "t0_ms": 3140780,
+     "text": "more color on what the drivers are to gross margin expansion over 45%. That's what I think"
+    },
+    {
+     "t0_ms": 3145940,
+     "text": "your question is. Yeah, okay. So if I were to rank order, I think that the largest contributors"
+    },
+    {
+     "t0_ms": 3153020,
+     "text": "are going to be our new product ramps and that full operational leverage of our six-inch Indian"
+    },
+    {
+     "t0_ms": 3157600,
+     "text": "phosphide capacity and then pricing optimization, followed by cost reduction. That's a great question."
+    },
+    {
+     "t0_ms": 3161980,
+     "text": "That's kind of how I would rank order it. And the timing of some of those things kicking in,"
+    },
+    {
+     "t0_ms": 3166140,
+     "text": "right, will vary. But certainly new product ramps, I mean, those are gross margin accretive. The new"
+    },
+    {
+     "t0_ms": 3170660,
+     "text": "products that Jim referred to earlier in his prepared remarks, those are gross margin accretive."
+    },
+    {
+     "t0_ms": 3175520,
+     "text": "And so that will benefit our gross margin. As we continue to shift our supply from external to"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3181580,
+   "t1_ms": 3216720,
+   "speaker": "Management",
+   "text": "internal, as Jim talked about a little bit ago, that's going to drive significant opportunity in our gross margin. And then pricing optimization, rather, I mean, that is an area that we're going to be very aware. I think we will continue to have benefit there, you know, fully in our data center communication segment, certainly in our industrial too, but definitely in data center communications, there's opportunity for that. We saw that to be a large contributor during the current quarter as well as in prior quarters. And so that will continue to be a benefit as well to drive to over 45%. And, you know, cost reductions, that will always continue to be something that we focus",
+   "parts": [
+    {
+     "t0_ms": 3181580,
+     "text": "internal, as Jim talked about a little bit ago, that's going to drive significant opportunity in"
+    },
+    {
+     "t0_ms": 3186780,
+     "text": "our gross margin. And then pricing optimization, rather, I mean, that is an area that we're going to"
+    },
+    {
+     "t0_ms": 3191980,
+     "text": "be very aware. I think we will continue to have benefit there, you know, fully in our data center"
+    },
+    {
+     "t0_ms": 3196600,
+     "text": "communication segment, certainly in our industrial too, but definitely in data center communications,"
+    },
+    {
+     "t0_ms": 3201160,
+     "text": "there's opportunity for that. We saw that to be a large contributor during the current quarter as"
+    },
+    {
+     "t0_ms": 3206340,
+     "text": "well as in prior quarters. And so that will continue to be a benefit as well to drive to"
+    },
+    {
+     "t0_ms": 3211600,
+     "text": "over 45%. And, you know, cost reductions, that will always continue to be something that we focus"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3216720,
+   "t1_ms": 3226190,
+   "speaker": "Operator",
+   "text": "on. But that's how I would rank order them. Next question comes from Carl Ackerman with BNP. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3216720,
+     "text": "on. But that's how I would rank order them. Next question comes from Carl Ackerman with"
+    },
+    {
+     "t0_ms": 3224030,
+     "text": "BNP."
+    },
+    {
+     "t0_ms": 3224670,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3227790,
+   "t1_ms": 3253990,
+   "speaker": "Analyst",
+   "text": "Thank you. Jim, you spoke about how customers are beginning to book out to calendar 2028 that gives you confidence in your growth forecast. At the same time, there is investor concern about the financing and permitting of data centers here in the United States. In light of this, how does the team align its laser production capacity plans with your major customers? And has the team considered customer prepayments for additional laser production capacity? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3227790,
+     "text": "Thank you. Jim, you spoke about how customers are beginning to book out to calendar 2028 that gives you confidence in your growth forecast. At the same time, there is investor concern about the financing and permitting of data centers here in the United States. In light of this, how does the team align its laser production capacity plans with your major customers? And has the team considered customer prepayments for additional laser production capacity? Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3254670,
+   "t1_ms": 3295870,
+   "speaker": "Management",
+   "text": "Thanks, Carl. The answer to the last part of the question is yes, definitely. Maybe I'll start with the end of the question. So, we've signed a number of LTAs over the past quarters. The one public LTA that is the one with NVIDIA that we signed back in March, but we've signed a number of other LTAs. The LTAs follow, all follow a general pattern. In one part of the LTAs, we've signed a number of other LTAs. of the LTA is typically some sort of upfront payment from the customer. It could be either prepayment or NRE. There's different forms of payment, but there's some sort of upfront",
+   "parts": [
+    {
+     "t0_ms": 3254670,
+     "text": "Thanks, Carl."
+    },
+    {
+     "t0_ms": 3256790,
+     "text": "The answer to the last part of the question is yes, definitely."
+    },
+    {
+     "t0_ms": 3260910,
+     "text": "Maybe I'll start with the end of"
+    },
+    {
+     "t0_ms": 3262510,
+     "text": "the question. So, we've"
+    },
+    {
+     "t0_ms": 3265490,
+     "text": "signed a number of LTAs over"
+    },
+    {
+     "t0_ms": 3268250,
+     "text": "the past quarters. The one public"
+    },
+    {
+     "t0_ms": 3271370,
+     "text": "LTA that is the one with NVIDIA that we"
+    },
+    {
+     "t0_ms": 3274530,
+     "text": "signed back in March, but we've signed a number of other LTAs."
+    },
+    {
+     "t0_ms": 3277990,
+     "text": "The LTAs follow, all"
+    },
+    {
+     "t0_ms": 3281030,
+     "text": "follow a general pattern. In one"
+    },
+    {
+     "t0_ms": 3284230,
+     "text": "part of the LTAs, we've signed a number of other LTAs."
+    },
+    {
+     "t0_ms": 3284670,
+     "text": "of the LTA is typically some sort of upfront payment from the customer. It could be either"
+    },
+    {
+     "t0_ms": 3291410,
+     "text": "prepayment or NRE. There's different forms of payment, but there's some sort of upfront"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3295870,
+   "t1_ms": 3335510,
+   "speaker": "Management",
+   "text": "payment from the customer. And what we do that for is for two reasons. Number one is it makes sure that the customers have skin in the game. But number two is we use that upfront payment to help fund the CapEx to build the capacity for that customer, right? We think it's important that if we're going to go build the capacity that the customers either fund that or help co-fund that. And so far, we've had customers be very willing to do that. And I think that's worked really well for us. And so I would say almost every LTA that we've signed has that general pattern. And",
+   "parts": [
+    {
+     "t0_ms": 3295870,
+     "text": "payment from the customer. And what we do that for is for two reasons. Number one is it makes"
+    },
+    {
+     "t0_ms": 3302590,
+     "text": "sure that the customers have skin in the game. But number two is we use that upfront payment"
+    },
+    {
+     "t0_ms": 3306950,
+     "text": "to help fund the CapEx to build the capacity for that customer, right? We think it's important that"
+    },
+    {
+     "t0_ms": 3314650,
+     "text": "if we're going to go build the capacity that the customers either fund that or help co-fund that."
+    },
+    {
+     "t0_ms": 3320770,
+     "text": "And so far, we've had customers be very willing to do that. And I think that's worked really well"
+    },
+    {
+     "t0_ms": 3328690,
+     "text": "for us. And so I would say almost every LTA that we've signed has that general pattern. And"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3335510,
+   "t1_ms": 3377250,
+   "speaker": "Management",
+   "text": "so that certainly gives us better confidence and helps offset the risk in terms of our own capital deployment. But I guess on the first part of your question, we certainly work very, very closely with our customers on planning out the demand. I think one thing to keep in mind with Indian phosphide capacity is remember that it's not just being driven by data center demand. There's two things driving optics, in general, optics demand, right? Number one is data center growth. But number two is in the case of integrated optics, it's the data center growth. And so we're going to have to take a look at that. And number three is the conversion of the copper links to optical over",
+   "parts": [
+    {
+     "t0_ms": 3335510,
+     "text": "so that certainly gives us better confidence and helps offset the risk in terms of our own capital"
+    },
+    {
+     "t0_ms": 3343090,
+     "text": "deployment."
+    },
+    {
+     "t0_ms": 3343970,
+     "text": "But I guess on the first part of your question, we certainly work very, very closely with our"
+    },
+    {
+     "t0_ms": 3349190,
+     "text": "customers on planning out the demand. I think one thing to keep in mind with Indian phosphide"
+    },
+    {
+     "t0_ms": 3356470,
+     "text": "capacity is remember that it's not just being driven by data center demand. There's two things"
+    },
+    {
+     "t0_ms": 3363590,
+     "text": "driving optics, in general, optics demand, right? Number one is data center growth. But number two"
+    },
+    {
+     "t0_ms": 3371090,
+     "text": "is in the case of integrated optics, it's the data center growth. And so we're going to have to"
+    },
+    {
+     "t0_ms": 3373970,
+     "text": "take a look at that. And number three is the conversion of the copper links to optical over"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3377250,
+   "t1_ms": 3416540,
+   "speaker": "Management",
+   "text": "time. And that is a technology trend that, in my view, is independent of the market demand. That's a technology trend that will happen regardless of the data center demand, because that's necessitated by the ability to achieve the bandwidth and the link speeds that we need to achieve in the scale-up domain or chip-to-chip is we have to switch to optics over time. And so that's an independent technology trend. And that's certainly part of what's driving the Indian phosphide capacity demand over the long term. The next question comes from Mita Marshall",
+   "parts": [
+    {
+     "t0_ms": 3377250,
+     "text": "time. And that is a technology trend that, in my view, is independent of the market demand. That's"
+    },
+    {
+     "t0_ms": 3384810,
+     "text": "a technology trend that will happen regardless of the data center demand, because that's"
+    },
+    {
+     "t0_ms": 3390810,
+     "text": "necessitated by the ability to achieve the bandwidth and the link speeds that we need to"
+    },
+    {
+     "t0_ms": 3398610,
+     "text": "achieve in the scale-up domain or chip-to-chip is we have to switch to optics over time. And so"
+    },
+    {
+     "t0_ms": 3403970,
+     "text": "that's an independent technology trend. And that's certainly part of what's driving the Indian"
+    },
+    {
+     "t0_ms": 3409310,
+     "text": "phosphide capacity demand over the long term. The next question comes from Mita Marshall"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3416540,
+   "t1_ms": 3459920,
+   "speaker": "Management",
+   "text": "with Morgan Stanley. Please go ahead. Great. Thanks. Maybe just a question on substrate availability. I think there had been some concern in the market around availability of six-inch versus three-inch. I know you noted in the prepared remarks that you had gotten capacity, but maybe if you could just speak about kind of a six-inch versus three-inch substrate availability and how that's impacting expansion plans. Thanks. Yeah, thanks, Mita. So we have over on six-inch in particular, but three-inch as well. We do continue to buy three-inch wafers. We do still have three-inch production, but all of our",
+   "parts": [
+    {
+     "t0_ms": 3416540,
+     "text": "with Morgan Stanley. Please go ahead. Great. Thanks. Maybe just a question on"
+    },
+    {
+     "t0_ms": 3422700,
+     "text": "substrate availability. I think there had been some concern in the market around availability"
+    },
+    {
+     "t0_ms": 3428180,
+     "text": "of six-inch versus three-inch. I know you noted in the prepared remarks that you had"
+    },
+    {
+     "t0_ms": 3435600,
+     "text": "gotten capacity, but maybe if you could just speak about kind of a six-inch versus three-inch"
+    },
+    {
+     "t0_ms": 3441720,
+     "text": "substrate availability and how that's impacting expansion plans. Thanks."
+    },
+    {
+     "t0_ms": 3447480,
+     "text": "Yeah, thanks, Mita. So we have over on six-inch in particular, but three-inch as well. We do"
+    },
+    {
+     "t0_ms": 3454640,
+     "text": "continue to buy three-inch wafers. We do still have three-inch production, but all of our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3459920,
+   "t1_ms": 3502760,
+   "speaker": "Management",
+   "text": "expansion is mostly on six-inch moving forward. And we have over four-inch and five-inch and five-inch. So we have over five different suppliers of substrates. We've signed long-term agreements with a number of those suppliers. And when I look at our next step of more than doubling the capacity by the end of calendar 27, we believe we've secured the necessary substrates for that capacity expansion. And then we've certainly, you know, we have plans in place to further expand capacity beyond 27, and we're certainly working with or already have in place, um, substrate capacity for that as well. So I think the, you know, the summary is we have",
+   "parts": [
+    {
+     "t0_ms": 3459920,
+     "text": "expansion is mostly on six-inch moving forward. And we have over four-inch and five-inch"
+    },
+    {
+     "t0_ms": 3465600,
+     "text": "and five-inch. So we have over five different suppliers of substrates. We've signed long-term"
+    },
+    {
+     "t0_ms": 3471640,
+     "text": "agreements with a number of those suppliers. And when I look at our next step of more than"
+    },
+    {
+     "t0_ms": 3477960,
+     "text": "doubling the capacity by the end of calendar 27, we believe we've secured the necessary"
+    },
+    {
+     "t0_ms": 3484800,
+     "text": "substrates for that capacity expansion. And then we've certainly, you know, we have plans in place"
+    },
+    {
+     "t0_ms": 3490260,
+     "text": "to further expand capacity beyond 27, and we're certainly working with or already have in place,"
+    },
+    {
+     "t0_ms": 3495600,
+     "text": "um, substrate capacity for that as well. So I think the, you know, the summary is we have"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3502760,
+   "t1_ms": 3507200,
+   "speaker": "Management",
+   "text": "multiple different suppliers, and we've made sure that we have the substrate capacity for the",
+   "parts": [
+    {
+     "t0_ms": 3502760,
+     "text": "multiple different suppliers, and we've made sure that we have the substrate capacity for the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3507200,
+   "t1_ms": 3514600,
+   "speaker": "Operator",
+   "text": "expansion. The next question comes from Sean O'Loughlin with TD Cowan. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3507200,
+     "text": "expansion. The next question comes from Sean O'Loughlin with TD Cowan. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3516080,
+   "t1_ms": 3536880,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for squeezing me in. I'll make it quick. Um, Jim, can you just talk about how, uh, fungible your, uh, capital installment, capital installed base is across Indiaphosphide versus Gallium Arsenide if we, you know, maybe we end up in a world that is more Vixel or multi-core Vixel heavy than it is ultra-high power CW?",
+   "parts": [
+    {
+     "t0_ms": 3516080,
+     "text": "Great. Thanks for squeezing me in. I'll make it quick. Um, Jim, can you just talk about how, uh,"
+    },
+    {
+     "t0_ms": 3522120,
+     "text": "fungible your, uh, capital installment, capital installed base is across"
+    },
+    {
+     "t0_ms": 3528000,
+     "text": "Indiaphosphide versus Gallium Arsenide if we, you know, maybe we end up in a world that"
+    },
+    {
+     "t0_ms": 3532380,
+     "text": "is more Vixel or multi-core Vixel heavy than it is ultra-high power CW?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3537220,
+   "t1_ms": 3580860,
+   "speaker": "Management",
+   "text": "Thanks for getting the question. Thanks. Sure. I would say there, there's some fungibility, but not, not, it's not like you can easily switch a line from Indiaphosphide to Gallium Arsenide or vice versa. But I will note that, um, we, we have a tremendous amount of Gallium Arsenide, uh, Vixel that can be deployed. And, and so, and I think that the stats that we shared at the PhotonLink, um, launch is that today we have capacity, uh, to produce, uh, over a billion, over a billion Vixel arrays, um, annually. So we have a tremendous amount of capacity, um, that we could deploy. And so to the extent that we saw a broad-based adoption and rapid ramp of Vixel technology,",
+   "parts": [
+    {
+     "t0_ms": 3537220,
+     "text": "Thanks for getting the question. Thanks. Sure. I would say there, there's some fungibility,"
+    },
+    {
+     "t0_ms": 3543360,
+     "text": "but not, not, it's not like you can easily switch a line from Indiaphosphide to Gallium Arsenide or"
+    },
+    {
+     "t0_ms": 3549660,
+     "text": "vice versa. But I will note that, um, we, we have a tremendous amount of Gallium Arsenide, uh,"
+    },
+    {
+     "t0_ms": 3558000,
+     "text": "Vixel that can be deployed. And, and so, and I think that the stats that we shared at the PhotonLink,"
+    },
+    {
+     "t0_ms": 3560040,
+     "text": "um, launch is that today we have capacity, uh, to produce, uh, over a billion, over a billion"
+    },
+    {
+     "t0_ms": 3568720,
+     "text": "Vixel arrays, um, annually. So we have a tremendous amount of capacity, um, that we could deploy."
+    },
+    {
+     "t0_ms": 3575180,
+     "text": "And so to the extent that we saw a broad-based adoption and rapid ramp of Vixel technology,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3581400,
+   "t1_ms": 3605140,
+   "speaker": "Management",
+   "text": "I don't think we'd, there's probably anybody else in the industry that's better positioned to, to source or to supply that data. So I think that's a really good point. Um, and I think that's demand than coherent is. And so we feel really well positioned on gallium arsenide Vixel technology and or capacity. And then on any phosphide, obviously, we're ramping that very, very quickly. And so I think on both, we're on a good path.",
+   "parts": [
+    {
+     "t0_ms": 3581400,
+     "text": "I don't think we'd, there's probably anybody else in the industry that's better positioned to,"
+    },
+    {
+     "t0_ms": 3585780,
+     "text": "to source or to supply that data. So I think that's a really good point. Um, and I think that's"
+    },
+    {
+     "t0_ms": 3588000,
+     "text": "demand than coherent is. And so we feel really well positioned on gallium arsenide Vixel technology"
+    },
+    {
+     "t0_ms": 3595720,
+     "text": "and or capacity. And then on any phosphide, obviously, we're ramping that very, very quickly."
+    },
+    {
+     "t0_ms": 3601380,
+     "text": "And so I think on both, we're on a good path."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3608640,
+   "t1_ms": 3613820,
+   "speaker": "Operator",
+   "text": "Our last question today comes from Ananda Barua with Loop Capital. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3608640,
+     "text": "Our last question today comes from Ananda Barua with Loop Capital. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3613820,
+   "t1_ms": 3655560,
+   "speaker": "Management",
+   "text": "Hey, thanks, guys. Really appreciate it. And congrats on the progress here. And I guess, Jim, let me just ask you a capacity question, supply capacity, supply question from the other direction. Yeah, there's also been a conversation just in the financial community about at an industry level, you know, excess, you know, INP, EML capacity at some point in calendar 28. Um, you're also talking now you're also talking about, you know, sort of contract agreements, going going sort of well into that timeframe. So would love to get your opinion on sort of how",
+   "parts": [
+    {
+     "t0_ms": 3613820,
+     "text": "Hey, thanks, guys. Really appreciate it. And congrats on the progress here. And I guess,"
+    },
+    {
+     "t0_ms": 3623300,
+     "text": "Jim, let me just ask you a capacity question, supply capacity, supply question from the other"
+    },
+    {
+     "t0_ms": 3628500,
+     "text": "direction. Yeah, there's also been a conversation just in the financial community about at an"
+    },
+    {
+     "t0_ms": 3635680,
+     "text": "industry level, you know, excess, you know, INP, EML capacity at some point in calendar 28."
+    },
+    {
+     "t0_ms": 3642160,
+     "text": "Um, you're also talking now you're also talking about, you know, sort of contract agreements,"
+    },
+    {
+     "t0_ms": 3648240,
+     "text": "going going sort of well into that timeframe. So would love to get your opinion on sort of how"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3655560,
+   "t1_ms": 3672160,
+   "speaker": "Management",
+   "text": "you view the potential for for an oversupply situation at an industry level going through 28. Thanks. Yeah, I think through 27 and into 28. I don't see that as a risk given that you're going through 28. I don't see that as a risk given that you're going through 28. I don't see that as a risk given that you're going through 28. I don't see that as a risk given that",
+   "parts": [
+    {
+     "t0_ms": 3655560,
+     "text": "you view the potential for for an oversupply situation at an industry level going through 28."
+    },
+    {
+     "t0_ms": 3662680,
+     "text": "Thanks. Yeah, I think through 27 and into 28. I don't see that as a risk given that"
+    },
+    {
+     "t0_ms": 3671300,
+     "text": "you're going through 28. I don't see that as a risk given that you're going through 28."
+    },
+    {
+     "t0_ms": 3672140,
+     "text": "I don't see that as a risk given that you're going through 28. I don't see that as a risk given that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3672160,
+   "t1_ms": 3702160,
+   "speaker": "Management",
+   "text": "just the demand that pluggable transceivers is creating, but also the demand that integrated optics is going to create for lasers, as well as there's quite a bit of indium phosphide that's also used in some of the DCI applications too. So when I look across all of that, I don't see an oversupply risk through calendar 28. I also think for us, because most of our indium phosphide gives us a lot of indium phosphide gives us a lot of",
+   "parts": [
+    {
+     "t0_ms": 3672160,
+     "text": "just the demand that pluggable transceivers is creating, but also the demand that integrated optics is going to create for lasers, as well as there's quite a bit of indium phosphide that's also used in some of the DCI applications too. So when I look across all of that, I don't see an oversupply risk through calendar 28. I also think for us, because most of our indium phosphide gives us a lot of"
+    },
+    {
+     "t0_ms": 3702140,
+     "text": "indium phosphide gives us a lot of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3702160,
+   "t1_ms": 3732120,
+   "speaker": "Management",
+   "text": "indium phosphide gives us a lot of supply, it gets used in our well I guess today all of it. Today all of our indium phosphide gets used in our own products. And, and we don't we don't even produce enough today for to meet all the demand of our own products. For us, I don't. That's not a primary concern for us. If you know, I think if we were, if there were more supply externally, that that may affect us if, if we were supplying indium phosphide lasers externally, but we're not going to be using any of those.",
+   "parts": [
+    {
+     "t0_ms": 3702160,
+     "text": "indium phosphide gives us a lot of supply, it gets used in our well I guess today all of it. Today all of our indium phosphide gets used in our own products. And, and we don't we don't even produce enough today for to meet all the demand of our own products. For us, I don't. That's not a primary concern for us. If you know, I think if we were, if there were more supply externally, that that may affect us if, if we were supplying indium phosphide lasers externally, but we're not going to be using any of those."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3732120,
+   "t1_ms": 3755980,
+   "speaker": "Management",
+   "text": "And, you know, I think our plan is to over time to start to use more indium phosphide, more of our internal indium phosphide production in our to change to increase the mix towards internal over time. So, so I, yeah, I guess the short answer to your question is we don't see any, any big oversupply situation into 28.",
+   "parts": [
+    {
+     "t0_ms": 3732120,
+     "text": "And, you know, I think our plan is to over time to start to use more indium phosphide, more of our internal indium phosphide production in our to change to increase the mix towards internal over time. So, so I, yeah, I guess the short answer to your question is we don't see any, any big oversupply situation into 28."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3755980,
+   "t1_ms": 3763750,
+   "speaker": "Operator",
+   "text": "This concludes our question and answer session. I would like to turn the conference back over for any closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 3755980,
+     "text": "This concludes our question and answer session. I would like to turn the conference back over for any closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3766820,
+   "t1_ms": 3791400,
+   "speaker": "Management",
+   "text": "Great. And thanks everybody for joining us on the call today. So we certainly, certainly enter the remainder of the year with great momentum, exceptional customer demand. And as we were just talking about rapidly expanding capacity, just want to say thanks to, especially to all of our employees, our customers, our partners, and of course our shareholders for the continued support. And we look forward to updating you again next quarter. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3766820,
+     "text": "Great. And thanks everybody for joining us on the call today. So we certainly, certainly enter the remainder of the year with great momentum, exceptional customer demand. And as we were just talking about rapidly expanding capacity, just want to say thanks to, especially to all of our employees, our customers, our partners, and of course our shareholders for the continued support. And we look forward to updating you again next quarter. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3791560,
+   "t1_ms": 3798440,
+   "speaker": "Operator",
+   "text": "The conference is now concluded. Thank you for attending today's presentation. You may now disconnect. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3791560,
+     "text": "The conference is now concluded. Thank you for attending today's presentation."
+    },
+    {
+     "t0_ms": 3797320,
+     "text": "You may now disconnect."
+    },
+    {
+     "t0_ms": 3798200,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

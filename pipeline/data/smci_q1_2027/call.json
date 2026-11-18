@@ -1,0 +1,4251 @@
+{
+ "ticker": "SMCI",
+ "quarter": "Q1-2027",
+ "company": "Super Micro Computer",
+ "call_start": "2026-11-03T17:00:00-05:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/SMCI_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 42600,
+   "speaker": "Operator",
+   "text": "Thank you for standing by. My name is Jen, and I will be your conference operator today. At this time, I would like to welcome everyone to Supermicro's first quarter fiscal year 2027 earnings call. Joining us today are Charles Liang, founder, president, and chief executive officer, Mark Long, chief financial officer, former chief financial officer, David Wiegand, and Michael Steger, senior vice president of corporate development. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question and answer session. If you would like to ask a question, please press star one to raise your hand.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Thank you for standing by."
+    },
+    {
+     "t0_ms": 1700,
+     "text": "My name is Jen, and I will be your conference operator today."
+    },
+    {
+     "t0_ms": 5240,
+     "text": "At this time, I would like to welcome everyone"
+    },
+    {
+     "t0_ms": 7640,
+     "text": "to Supermicro's first quarter fiscal year"
+    },
+    {
+     "t0_ms": 10220,
+     "text": "2027 earnings call."
+    },
+    {
+     "t0_ms": 12860,
+     "text": "Joining us today are Charles Liang, founder, president,"
+    },
+    {
+     "t0_ms": 16700,
+     "text": "and chief executive officer, Mark Long,"
+    },
+    {
+     "t0_ms": 19600,
+     "text": "chief financial officer, former chief financial officer,"
+    },
+    {
+     "t0_ms": 23260,
+     "text": "David Wiegand, and Michael Steger,"
+    },
+    {
+     "t0_ms": 25700,
+     "text": "senior vice president of corporate development."
+    },
+    {
+     "t0_ms": 27700,
+     "text": "All lines have been placed on mute"
+    },
+    {
+     "t0_ms": 30680,
+     "text": "to prevent any background noise."
+    },
+    {
+     "t0_ms": 33120,
+     "text": "After the speaker's remarks,"
+    },
+    {
+     "t0_ms": 34520,
+     "text": "there will be a question and answer session."
+    },
+    {
+     "t0_ms": 36900,
+     "text": "If you would like to ask a question,"
+    },
+    {
+     "t0_ms": 39100,
+     "text": "please press star one to raise your hand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 43100,
+   "t1_ms": 51160,
+   "speaker": "Operator",
+   "text": "To withdraw your question, press star one again. Thank you. Michael Steger, you may begin your conference.",
+   "parts": [
+    {
+     "t0_ms": 43100,
+     "text": "To withdraw your question, press star one again."
+    },
+    {
+     "t0_ms": 47860,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 49060,
+     "text": "Michael Steger, you may begin your conference."
+    }
+   ]
+  },
+  {
+   "t0_ms": 54410,
+   "t1_ms": 99090,
+   "speaker": "Management",
+   "text": "Thank you, Jen. Good afternoon, and welcome to Supermicro's conference call for the first quarter of fiscal 2020. As you heard with me today, our Charles Liang, founder, chairman, chief executive officer, Mark Long, chief financial officer, and former chief financial officer, David Wiegand. By now, you should have received a copy of the press release from the company that was distributed at the close of regular trading and is available on the company's website. Our call is being webcast live on Supermicro's investor relations website and will be available for replay until the conference call later to discuss our potential results for the second quarter of fiscal 2027. The content of today's call is Supermicro's property. It can't be reproduced or transcribed without our prior written consent. During this call, we may make forward-looking statements",
+   "parts": [
+    {
+     "t0_ms": 54410,
+     "text": "Thank you, Jen."
+    },
+    {
+     "t0_ms": 55410,
+     "text": "Good afternoon, and welcome to Supermicro's conference call"
+    },
+    {
+     "t0_ms": 58190,
+     "text": "for the first quarter of fiscal 2020."
+    },
+    {
+     "t0_ms": 59910,
+     "text": "As you heard with me today,"
+    },
+    {
+     "t0_ms": 62310,
+     "text": "our Charles Liang, founder, chairman,"
+    },
+    {
+     "t0_ms": 63990,
+     "text": "chief executive officer, Mark Long,"
+    },
+    {
+     "t0_ms": 66690,
+     "text": "chief financial officer,"
+    },
+    {
+     "t0_ms": 68190,
+     "text": "and former chief financial officer, David Wiegand."
+    },
+    {
+     "t0_ms": 70590,
+     "text": "By now, you should have received a copy"
+    },
+    {
+     "t0_ms": 72070,
+     "text": "of the press release from the company"
+    },
+    {
+     "t0_ms": 73310,
+     "text": "that was distributed at the close of regular trading"
+    },
+    {
+     "t0_ms": 75730,
+     "text": "and is available on the company's website."
+    },
+    {
+     "t0_ms": 77830,
+     "text": "Our call is being webcast live"
+    },
+    {
+     "t0_ms": 79270,
+     "text": "on Supermicro's investor relations website"
+    },
+    {
+     "t0_ms": 81270,
+     "text": "and will be available for replay"
+    },
+    {
+     "t0_ms": 82750,
+     "text": "until the conference call later"
+    },
+    {
+     "t0_ms": 85510,
+     "text": "to discuss our potential results"
+    },
+    {
+     "t0_ms": 87210,
+     "text": "for the second quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 89910,
+     "text": "The content of today's call is Supermicro's property."
+    },
+    {
+     "t0_ms": 92530,
+     "text": "It can't be reproduced or transcribed"
+    },
+    {
+     "t0_ms": 94710,
+     "text": "without our prior written consent."
+    },
+    {
+     "t0_ms": 96870,
+     "text": "During this call, we may make forward-looking statements"
+    }
+   ]
+  },
+  {
+   "t0_ms": 99090,
+   "t1_ms": 143030,
+   "speaker": "Management",
+   "text": "based on current expectations, including with respect to our business plans and performance, ongoing market trends, and future financial results. These are subject to a number of significant risks and uncertainties, and our actual results may differ materially. For discussion of factors that could affect our future financial results in business, please refer to the disclosure in today's earnings release, our most recent form, and the reports that we may file on Form 8K with the Securities and Exchange Commission. All of our statements are made as of today, November 3rd, 2026, and are based on information currently available to us. Except as required by law, we assume no obligation to update any such statements. During this call, we will discuss non-GAAP financial measures. You can find a reconciliation of these non-GAAP",
+   "parts": [
+    {
+     "t0_ms": 99090,
+     "text": "based on current expectations, including with respect"
+    },
+    {
+     "t0_ms": 101490,
+     "text": "to our business plans and performance,"
+    },
+    {
+     "t0_ms": 103590,
+     "text": "ongoing market trends, and future financial results."
+    },
+    {
+     "t0_ms": 106830,
+     "text": "These are subject to a number of significant risks"
+    },
+    {
+     "t0_ms": 109030,
+     "text": "and uncertainties, and our actual results may differ"
+    },
+    {
+     "t0_ms": 111170,
+     "text": "materially."
+    },
+    {
+     "t0_ms": 111770,
+     "text": "For discussion of factors"
+    },
+    {
+     "t0_ms": 113530,
+     "text": "that could affect our future financial results"
+    },
+    {
+     "t0_ms": 115270,
+     "text": "in business, please refer to the disclosure"
+    },
+    {
+     "t0_ms": 117230,
+     "text": "in today's earnings release, our most recent form,"
+    },
+    {
+     "t0_ms": 119910,
+     "text": "and the reports that we may file on Form 8K"
+    },
+    {
+     "t0_ms": 124290,
+     "text": "with the Securities and Exchange Commission."
+    },
+    {
+     "t0_ms": 125910,
+     "text": "All of our statements are made as of today,"
+    },
+    {
+     "t0_ms": 128550,
+     "text": "November 3rd, 2026, and are based on information"
+    },
+    {
+     "t0_ms": 131250,
+     "text": "currently available to us."
+    },
+    {
+     "t0_ms": 133290,
+     "text": "Except as required by law, we assume no obligation"
+    },
+    {
+     "t0_ms": 135730,
+     "text": "to update any such statements."
+    },
+    {
+     "t0_ms": 137430,
+     "text": "During this call, we will discuss non-GAAP financial measures."
+    },
+    {
+     "t0_ms": 140910,
+     "text": "You can find a reconciliation of these non-GAAP"
+    }
+   ]
+  },
+  {
+   "t0_ms": 143030,
+   "t1_ms": 187090,
+   "speaker": "Management",
+   "text": "financial measures to GAAP financial measures in our prepared remarks, which is posted on our website. Our second quarter of fiscal 2027, the quiet period begins at the close of business Friday, December 11th, 2026. With that, let me turn the call over to Charles. Thank you, Michael, and thank you all for joining us today. Following fiscal 2026, where we nearly double our annual revenue, fiscal 2007 is off to a record start. Q1 revenue reached $19.9 billion, beating the high end of our pre-announcement, and well ahead of our original outlook of $15 billion. This is a great achievement,",
+   "parts": [
+    {
+     "t0_ms": 143030,
+     "text": "financial measures to GAAP financial measures"
+    },
+    {
+     "t0_ms": 145030,
+     "text": "in our prepared remarks, which is posted on our website."
+    },
+    {
+     "t0_ms": 147830,
+     "text": "Our second quarter of fiscal 2027,"
+    },
+    {
+     "t0_ms": 149910,
+     "text": "the quiet period begins at the close of business Friday,"
+    },
+    {
+     "t0_ms": 152410,
+     "text": "December 11th, 2026."
+    },
+    {
+     "t0_ms": 154110,
+     "text": "With that, let me turn the call over to Charles."
+    },
+    {
+     "t0_ms": 156210,
+     "text": "Thank you, Michael, and thank you all for joining us today."
+    },
+    {
+     "t0_ms": 161790,
+     "text": "Following fiscal 2026,"
+    },
+    {
+     "t0_ms": 164230,
+     "text": "where we nearly double our annual revenue,"
+    },
+    {
+     "t0_ms": 168130,
+     "text": "fiscal 2007 is off to a record start."
+    },
+    {
+     "t0_ms": 172410,
+     "text": "Q1 revenue reached $19.9 billion,"
+    },
+    {
+     "t0_ms": 175310,
+     "text": "beating the high end of our pre-announcement,"
+    },
+    {
+     "t0_ms": 179910,
+     "text": "and well ahead of our original outlook of $15 billion."
+    },
+    {
+     "t0_ms": 185110,
+     "text": "This is a great achievement,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 187090,
+   "t1_ms": 231830,
+   "speaker": "Management",
+   "text": "and it shows more and more customers prefer our AI and IT total solutions. Most importantly, our data center building block solution, DCBBS, central to this growth, driven deep customer trust, and preference, enhancing our profitability, and creating a sustainable long-term shareholder value. For over 30 years, SimpleMineCore's focus has always been on delivering optimized total solution value to our customers.",
+   "parts": [
+    {
+     "t0_ms": 187090,
+     "text": "and it shows more and more customers prefer our AI"
+    },
+    {
+     "t0_ms": 193530,
+     "text": "and IT total solutions."
+    },
+    {
+     "t0_ms": 196270,
+     "text": "Most importantly, our data center building block solution,"
+    },
+    {
+     "t0_ms": 200670,
+     "text": "DCBBS, central to this growth, driven deep customer trust,"
+    },
+    {
+     "t0_ms": 209910,
+     "text": "and preference, enhancing our profitability,"
+    },
+    {
+     "t0_ms": 214910,
+     "text": "and creating a sustainable long-term shareholder value."
+    },
+    {
+     "t0_ms": 220490,
+     "text": "For over 30 years, SimpleMineCore's focus"
+    },
+    {
+     "t0_ms": 225130,
+     "text": "has always been on delivering optimized total solution value"
+    },
+    {
+     "t0_ms": 230370,
+     "text": "to our customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 231830,
+   "t1_ms": 276830,
+   "speaker": "Management",
+   "text": "We will continue to leverage our engineering technology, global resource, and manufacturing capacity. We have high year to accelerate the customer's deployment. Moreover, I'm glad that not just large cloud and new cloud, small cloud company, company and organization across enterprise, storage, IOT, and both country and corporate solving verticals are relying on and adopting SimpleMineCore's total solution every day. We have executed our commitment to drive a higher ultimate profitability in Q1.",
+   "parts": [
+    {
+     "t0_ms": 231830,
+     "text": "We will continue to leverage our engineering technology,"
+    },
+    {
+     "t0_ms": 236010,
+     "text": "global resource, and manufacturing capacity."
+    },
+    {
+     "t0_ms": 239370,
+     "text": "We have high year to accelerate the customer's deployment."
+    },
+    {
+     "t0_ms": 244370,
+     "text": "Moreover, I'm glad that not just large cloud"
+    },
+    {
+     "t0_ms": 249370,
+     "text": "and new cloud, small cloud company,"
+    },
+    {
+     "t0_ms": 253390,
+     "text": "company and organization across enterprise, storage, IOT,"
+    },
+    {
+     "t0_ms": 258390,
+     "text": "and both country and corporate solving verticals"
+    },
+    {
+     "t0_ms": 263390,
+     "text": "are relying on and adopting SimpleMineCore's"
+    },
+    {
+     "t0_ms": 267070,
+     "text": "total solution every day."
+    },
+    {
+     "t0_ms": 268830,
+     "text": "We have executed our commitment to drive a higher"
+    },
+    {
+     "t0_ms": 273830,
+     "text": "ultimate profitability in Q1."
+    }
+   ]
+  },
+  {
+   "t0_ms": 276830,
+   "t1_ms": 318850,
+   "speaker": "Management",
+   "text": "Non-GAAP growth margin expanded by 330 basis points, year over year, to 12.8%. This expansion was driven by a healthier customer mix across enterprise AI and IT accounts. A diverse customer base, a product line built on our system building blocks, and a growing revenue contribution from our higher margin DCBBS mode, including our DCBBS hardware, software, and unique service stacks.",
+   "parts": [
+    {
+     "t0_ms": 276830,
+     "text": "Non-GAAP growth margin expanded by 330 basis points,"
+    },
+    {
+     "t0_ms": 283850,
+     "text": "year over year, to 12.8%."
+    },
+    {
+     "t0_ms": 286850,
+     "text": "This expansion was driven by a healthier customer mix"
+    },
+    {
+     "t0_ms": 292850,
+     "text": "across enterprise AI and IT accounts."
+    },
+    {
+     "t0_ms": 296850,
+     "text": "A diverse customer base,"
+    },
+    {
+     "t0_ms": 298830,
+     "text": "a product line built on our system building blocks,"
+    },
+    {
+     "t0_ms": 302830,
+     "text": "and a growing revenue contribution"
+    },
+    {
+     "t0_ms": 305830,
+     "text": "from our higher margin DCBBS mode,"
+    },
+    {
+     "t0_ms": 309850,
+     "text": "including our DCBBS hardware,"
+    },
+    {
+     "t0_ms": 313850,
+     "text": "software, and unique service stacks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 318850,
+   "t1_ms": 358830,
+   "speaker": "Management",
+   "text": "This directly aligns with our strategic roadmap to build a sustainable double digital growth margin model. By delivering superior technology innovation, faster TTM and TTD, faster time to market and faster time to deployment, and total solution value. Proven over more than two years in real-world customer deployments, DCBBS delivers four key values. That non-traditional server OEM and overseas,",
+   "parts": [
+    {
+     "t0_ms": 318850,
+     "text": "This directly aligns with our strategic roadmap"
+    },
+    {
+     "t0_ms": 323850,
+     "text": "to build a sustainable double digital growth margin model."
+    },
+    {
+     "t0_ms": 328830,
+     "text": "By delivering superior technology innovation,"
+    },
+    {
+     "t0_ms": 332830,
+     "text": "faster TTM and TTD,"
+    },
+    {
+     "t0_ms": 336830,
+     "text": "faster time to market and faster time to deployment,"
+    },
+    {
+     "t0_ms": 340850,
+     "text": "and total solution value."
+    },
+    {
+     "t0_ms": 343850,
+     "text": "Proven over more than two years in real-world customer"
+    },
+    {
+     "t0_ms": 347850,
+     "text": "deployments, DCBBS delivers four key values."
+    },
+    {
+     "t0_ms": 353850,
+     "text": "That non-traditional server OEM and overseas,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 358830,
+   "t1_ms": 401830,
+   "speaker": "Management",
+   "text": "and the first, optimize TTD, time to delivery. By delivering factory test, product and player drug scale systems, and DCBBS building block complete solution, including data center management software, directly to customer side. Second, optimize TTO, by delivering live compute readiness, from quarters to months, and further down to weeks. And third, DCBBS maximize the system uptime,",
+   "parts": [
+    {
+     "t0_ms": 358830,
+     "text": "and the"
+    },
+    {
+     "t0_ms": 373830,
+     "text": "first, optimize TTD, time to delivery."
+    },
+    {
+     "t0_ms": 376830,
+     "text": "By delivering factory test, product and player drug scale systems,"
+    },
+    {
+     "t0_ms": 381830,
+     "text": "and DCBBS building block complete solution,"
+    },
+    {
+     "t0_ms": 383830,
+     "text": "including data center management software,"
+    },
+    {
+     "t0_ms": 385830,
+     "text": "directly to customer side."
+    },
+    {
+     "t0_ms": 386830,
+     "text": "Second, optimize TTO,"
+    },
+    {
+     "t0_ms": 387830,
+     "text": "by delivering live compute readiness,"
+    },
+    {
+     "t0_ms": 391830,
+     "text": "from quarters to months,"
+    },
+    {
+     "t0_ms": 393830,
+     "text": "and further down to weeks."
+    },
+    {
+     "t0_ms": 396830,
+     "text": "And third, DCBBS maximize the system uptime,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 401830,
+   "t1_ms": 444830,
+   "speaker": "Management",
+   "text": "through building block that eliminating thermal, power, software, and service bottleneck. And number four, lower TCO, by slashing energy consumption and facility downtime, to accelerate and improve data center profitability. Whether our customer building gigawatt scale AI factory, or deploying rapid single container part solution, SuperMango's DCBBS help build AI infrastructure faster, better, greener, and at a lower cost to our customers. Because optimized hardware,",
+   "parts": [
+    {
+     "t0_ms": 401830,
+     "text": "through building block that eliminating thermal,"
+    },
+    {
+     "t0_ms": 405830,
+     "text": "power, software, and service bottleneck."
+    },
+    {
+     "t0_ms": 408830,
+     "text": "And number four, lower TCO,"
+    },
+    {
+     "t0_ms": 411830,
+     "text": "by slashing energy consumption and facility downtime,"
+    },
+    {
+     "t0_ms": 415830,
+     "text": "to accelerate and improve data center profitability."
+    },
+    {
+     "t0_ms": 419830,
+     "text": "Whether our customer building gigawatt scale AI factory,"
+    },
+    {
+     "t0_ms": 425830,
+     "text": "or deploying rapid single container part solution,"
+    },
+    {
+     "t0_ms": 430830,
+     "text": "SuperMango's DCBBS help build AI infrastructure faster,"
+    },
+    {
+     "t0_ms": 436830,
+     "text": "better, greener, and at a lower cost to our customers."
+    },
+    {
+     "t0_ms": 442830,
+     "text": "Because optimized hardware,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 444830,
+   "t1_ms": 487830,
+   "speaker": "Management",
+   "text": "cannot run an efficient AI data center. Managing thousands of liquid core GPU rack, require intelligent real-time software orchestration. SuperCloud Composer SCM delivers SIMDIS, rack scale management, and full stack hardware facility integration. SuperMango data center manager SDM, provide complete power and thermal control, from individual node, up to floor building infrastructure, for end-to-end hardware lifecycle management.",
+   "parts": [
+    {
+     "t0_ms": 444830,
+     "text": "cannot run an efficient AI data center."
+    },
+    {
+     "t0_ms": 448830,
+     "text": "Managing thousands of liquid core GPU rack,"
+    },
+    {
+     "t0_ms": 453830,
+     "text": "require intelligent real-time software orchestration."
+    },
+    {
+     "t0_ms": 458830,
+     "text": "SuperCloud Composer SCM delivers SIMDIS,"
+    },
+    {
+     "t0_ms": 464830,
+     "text": "rack scale management,"
+    },
+    {
+     "t0_ms": 466830,
+     "text": "and full stack hardware facility integration."
+    },
+    {
+     "t0_ms": 470830,
+     "text": "SuperMango data center manager SDM,"
+    },
+    {
+     "t0_ms": 473830,
+     "text": "provide complete power and thermal control,"
+    },
+    {
+     "t0_ms": 478830,
+     "text": "from individual node,"
+    },
+    {
+     "t0_ms": 480830,
+     "text": "up to floor building infrastructure,"
+    },
+    {
+     "t0_ms": 483830,
+     "text": "for end-to-end hardware lifecycle management."
+    }
+   ]
+  },
+  {
+   "t0_ms": 487830,
+   "t1_ms": 531240,
+   "speaker": "Management",
+   "text": "And our SuperMango operation manager, SOM suite, featuring director and developer console modules, enable bare metal model, and pocket as service, with ease for LLM and agentic AI workloads. Attaching SCM, SDM, and SOM directly to our DCBBS portfolio, eliminates software fragmentation for our customers, while driven higher value software attachability. Furthermore,",
+   "parts": [
+    {
+     "t0_ms": 487830,
+     "text": "And our SuperMango operation manager,"
+    },
+    {
+     "t0_ms": 490830,
+     "text": "SOM suite,"
+    },
+    {
+     "t0_ms": 493830,
+     "text": "featuring director and developer console modules,"
+    },
+    {
+     "t0_ms": 498830,
+     "text": "enable bare metal model,"
+    },
+    {
+     "t0_ms": 502830,
+     "text": "and pocket as service,"
+    },
+    {
+     "t0_ms": 504830,
+     "text": "with ease for LLM and agentic AI workloads."
+    },
+    {
+     "t0_ms": 510830,
+     "text": "Attaching SCM, SDM, and SOM directly to our DCBBS portfolio,"
+    },
+    {
+     "t0_ms": 520240,
+     "text": "eliminates software fragmentation for our customers,"
+    },
+    {
+     "t0_ms": 525240,
+     "text": "while driven higher value software attachability."
+    },
+    {
+     "t0_ms": 530240,
+     "text": "Furthermore,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 531240,
+   "t1_ms": 575240,
+   "speaker": "Management",
+   "text": "SCM enhances, enhanced core home service now features, AI driven new course diagnosis, significantly improving data center uptime, and giving our customer complete operational confidence. Equally critical to our total solution advantage, is our new expanded global data center service organization. Here, our on-site deployment teams, backed by R&D engineer, and well-trained post deployment service staff, work directly alongside customer's team,",
+   "parts": [
+    {
+     "t0_ms": 531240,
+     "text": "SCM enhances,"
+    },
+    {
+     "t0_ms": 533240,
+     "text": "enhanced core home service now features,"
+    },
+    {
+     "t0_ms": 537240,
+     "text": "AI driven new course diagnosis,"
+    },
+    {
+     "t0_ms": 541240,
+     "text": "significantly improving data center uptime,"
+    },
+    {
+     "t0_ms": 545240,
+     "text": "and giving our customer complete operational confidence."
+    },
+    {
+     "t0_ms": 551240,
+     "text": "Equally critical to our total solution advantage,"
+    },
+    {
+     "t0_ms": 555240,
+     "text": "is our new expanded global data center service organization."
+    },
+    {
+     "t0_ms": 562240,
+     "text": "Here,"
+    },
+    {
+     "t0_ms": 563240,
+     "text": "our on-site deployment teams,"
+    },
+    {
+     "t0_ms": 566240,
+     "text": "backed by R&D engineer,"
+    },
+    {
+     "t0_ms": 568240,
+     "text": "and well-trained post deployment service staff,"
+    },
+    {
+     "t0_ms": 572240,
+     "text": "work directly alongside customer's team,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 575240,
+   "t1_ms": 620240,
+   "speaker": "Management",
+   "text": "through tier service offering, to efficiently maximize cluster uptime. By using automated telemetry, our service team, continuously monitoring, thermal, power delivery, and node health in real time, to solve potential problems, before they cost downtime. While our dedicated on-site engineer, handle deployment, validation, and immediately hardware maintenance. This proactive, high touch service model, builds deep customer trust, drives high value,",
+   "parts": [
+    {
+     "t0_ms": 575240,
+     "text": "through tier service offering,"
+    },
+    {
+     "t0_ms": 578240,
+     "text": "to efficiently maximize cluster uptime."
+    },
+    {
+     "t0_ms": 582240,
+     "text": "By using automated telemetry,"
+    },
+    {
+     "t0_ms": 586240,
+     "text": "our service team,"
+    },
+    {
+     "t0_ms": 588240,
+     "text": "continuously monitoring,"
+    },
+    {
+     "t0_ms": 591240,
+     "text": "thermal, power delivery,"
+    },
+    {
+     "t0_ms": 593240,
+     "text": "and node health in real time,"
+    },
+    {
+     "t0_ms": 596240,
+     "text": "to solve potential problems,"
+    },
+    {
+     "t0_ms": 598240,
+     "text": "before they cost downtime."
+    },
+    {
+     "t0_ms": 601240,
+     "text": "While our dedicated on-site engineer,"
+    },
+    {
+     "t0_ms": 605240,
+     "text": "handle deployment, validation,"
+    },
+    {
+     "t0_ms": 607240,
+     "text": "and immediately hardware maintenance."
+    },
+    {
+     "t0_ms": 611240,
+     "text": "This proactive,"
+    },
+    {
+     "t0_ms": 612240,
+     "text": "high touch service model,"
+    },
+    {
+     "t0_ms": 615240,
+     "text": "builds deep customer trust,"
+    },
+    {
+     "t0_ms": 618240,
+     "text": "drives high value,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 620240,
+   "t1_ms": 665240,
+   "speaker": "Management",
+   "text": "and to realize this unmatched, our global manufacturing footprint, and scale, are ramping rapidly. We are actually, expanding our physical footprint, with major projects, underway in Silicon Valley, and Taiwan. That will add, million of square feet of, fully automated, production space, and, or active service bandwidth. Furthermore, we are accelerating our, containerized, data center, production,",
+   "parts": [
+    {
+     "t0_ms": 620240,
+     "text": "and"
+    },
+    {
+     "t0_ms": 638140,
+     "text": "to realize this unmatched,"
+    },
+    {
+     "t0_ms": 640240,
+     "text": "our global manufacturing footprint,"
+    },
+    {
+     "t0_ms": 645240,
+     "text": "and scale,"
+    },
+    {
+     "t0_ms": 646240,
+     "text": "are ramping rapidly."
+    },
+    {
+     "t0_ms": 648240,
+     "text": "We are actually,"
+    },
+    {
+     "t0_ms": 649240,
+     "text": "expanding our physical footprint,"
+    },
+    {
+     "t0_ms": 651240,
+     "text": "with major projects,"
+    },
+    {
+     "t0_ms": 652240,
+     "text": "underway in Silicon Valley,"
+    },
+    {
+     "t0_ms": 653240,
+     "text": "and Taiwan."
+    },
+    {
+     "t0_ms": 654240,
+     "text": "That will add,"
+    },
+    {
+     "t0_ms": 655240,
+     "text": "million of square feet of,"
+    },
+    {
+     "t0_ms": 656240,
+     "text": "fully automated,"
+    },
+    {
+     "t0_ms": 657240,
+     "text": "production space,"
+    },
+    {
+     "t0_ms": 658240,
+     "text": "and,"
+    },
+    {
+     "t0_ms": 659240,
+     "text": "or active service bandwidth."
+    },
+    {
+     "t0_ms": 660240,
+     "text": "Furthermore,"
+    },
+    {
+     "t0_ms": 661240,
+     "text": "we are accelerating our,"
+    },
+    {
+     "t0_ms": 662240,
+     "text": "containerized,"
+    },
+    {
+     "t0_ms": 663240,
+     "text": "data center,"
+    },
+    {
+     "t0_ms": 664240,
+     "text": "production,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 665240,
+   "t1_ms": 706240,
+   "speaker": "Management",
+   "text": "in Asia, and USA. Together, we are expanding our, digital, and cloud, infrastructure, and cloud, to the next level. We are also, expanding our, digital, and cloud, infrastructure, and cloud, and cloud, to the next level. Together, our global manufacturing, and service network, put us, on track, to, produce, more than, 8,000, of the world's, most powerful, racks, per month, including, over 4,000, DLRC, racks, by this, December. On the technology front, SuperMaker continues, to lead the market, across,",
+   "parts": [
+    {
+     "t0_ms": 665240,
+     "text": "in Asia,"
+    },
+    {
+     "t0_ms": 666240,
+     "text": "and USA."
+    },
+    {
+     "t0_ms": 667240,
+     "text": "Together,"
+    },
+    {
+     "t0_ms": 668240,
+     "text": "we are expanding our,"
+    },
+    {
+     "t0_ms": 669240,
+     "text": "digital,"
+    },
+    {
+     "t0_ms": 670240,
+     "text": "and cloud,"
+    },
+    {
+     "t0_ms": 671240,
+     "text": "infrastructure,"
+    },
+    {
+     "t0_ms": 672240,
+     "text": "and cloud,"
+    },
+    {
+     "t0_ms": 673240,
+     "text": "to the next level."
+    },
+    {
+     "t0_ms": 674240,
+     "text": "We are also,"
+    },
+    {
+     "t0_ms": 675240,
+     "text": "expanding our,"
+    },
+    {
+     "t0_ms": 676240,
+     "text": "digital,"
+    },
+    {
+     "t0_ms": 677240,
+     "text": "and cloud,"
+    },
+    {
+     "t0_ms": 678240,
+     "text": "infrastructure,"
+    },
+    {
+     "t0_ms": 679240,
+     "text": "and cloud,"
+    },
+    {
+     "t0_ms": 680240,
+     "text": "and cloud,"
+    },
+    {
+     "t0_ms": 681240,
+     "text": "to the next level."
+    },
+    {
+     "t0_ms": 682240,
+     "text": "Together,"
+    },
+    {
+     "t0_ms": 683240,
+     "text": "our global manufacturing,"
+    },
+    {
+     "t0_ms": 684240,
+     "text": "and service network,"
+    },
+    {
+     "t0_ms": 685240,
+     "text": "put us,"
+    },
+    {
+     "t0_ms": 686240,
+     "text": "on track,"
+    },
+    {
+     "t0_ms": 687240,
+     "text": "to,"
+    },
+    {
+     "t0_ms": 688240,
+     "text": "produce,"
+    },
+    {
+     "t0_ms": 689240,
+     "text": "more than,"
+    },
+    {
+     "t0_ms": 690240,
+     "text": "8,000,"
+    },
+    {
+     "t0_ms": 691240,
+     "text": "of the world's,"
+    },
+    {
+     "t0_ms": 692240,
+     "text": "most powerful,"
+    },
+    {
+     "t0_ms": 693240,
+     "text": "racks,"
+    },
+    {
+     "t0_ms": 694240,
+     "text": "per month,"
+    },
+    {
+     "t0_ms": 695240,
+     "text": "including,"
+    },
+    {
+     "t0_ms": 696240,
+     "text": "over 4,000,"
+    },
+    {
+     "t0_ms": 697240,
+     "text": "DLRC,"
+    },
+    {
+     "t0_ms": 698240,
+     "text": "racks,"
+    },
+    {
+     "t0_ms": 699240,
+     "text": "by this,"
+    },
+    {
+     "t0_ms": 700240,
+     "text": "December."
+    },
+    {
+     "t0_ms": 701240,
+     "text": "On the technology front,"
+    },
+    {
+     "t0_ms": 702240,
+     "text": "SuperMaker continues,"
+    },
+    {
+     "t0_ms": 703240,
+     "text": "to lead the market,"
+    },
+    {
+     "t0_ms": 705240,
+     "text": "across,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 706240,
+   "t1_ms": 741200,
+   "speaker": "Management",
+   "text": "silicon platforms we are among the first to market the shipping nvidia vera rubin mvr 72 racks with our dc bbs and dlc2 liquid cool stack we recently have also launched the nvidia rubin and vera rubin cpu rack and they are ready to ship now as well by the way our optimized dsx part solutions are also",
+   "parts": [
+    {
+     "t0_ms": 706240,
+     "text": "silicon platforms we are among the first to market the shipping nvidia vera rubin mvr 72 racks with"
+    },
+    {
+     "t0_ms": 716080,
+     "text": "our dc bbs and dlc2 liquid cool stack we recently have also launched the nvidia rubin and vera rubin"
+    },
+    {
+     "t0_ms": 726560,
+     "text": "cpu rack and they are ready to ship now as well by the way our optimized dsx part solutions are also"
+    }
+   ]
+  },
+  {
+   "t0_ms": 741200,
+   "t1_ms": 780560,
+   "speaker": "Management",
+   "text": "coming soon for amd mi350 and mi355x platform a good demand momentum now still as we advance to heroes and mi uh 450 total solutions additionally we are progressing intel geom 6 plus platform alongside our new arm agi cpu based solutions optimized specifically for a genetic ai market at the same time we continue to expand our comprehensive edge",
+   "parts": [
+    {
+     "t0_ms": 741200,
+     "text": "coming soon for amd mi350 and mi355x platform a good demand momentum now still as we advance to"
+    },
+    {
+     "t0_ms": 754160,
+     "text": "heroes and mi uh"
+    },
+    {
+     "t0_ms": 756560,
+     "text": "450 total solutions additionally we are progressing intel geom"
+    },
+    {
+     "t0_ms": 763520,
+     "text": "6 plus platform alongside our new arm agi cpu based solutions optimized specifically for"
+    },
+    {
+     "t0_ms": 773120,
+     "text": "a genetic ai market at the same time we continue to expand our comprehensive edge"
+    }
+   ]
+  },
+  {
+   "t0_ms": 780560,
+   "t1_ms": 824180,
+   "speaker": "Management",
+   "text": "and iot product portfolio while consistently growing our storage product line, bringing real-time complete package of inferencing capability directly to the intelligent edge. These new products accelerate our strategic focus on enterprise customers as company expand toward scaling agentic model. Enterprise data governance and high-sluice inferencing workload. We recently announced several major strategic partnerships",
+   "parts": [
+    {
+     "t0_ms": 780560,
+     "text": "and iot product portfolio while consistently growing our storage"
+    },
+    {
+     "t0_ms": 786560,
+     "text": "product line, bringing real-time complete package"
+    },
+    {
+     "t0_ms": 791180,
+     "text": "of inferencing capability directly"
+    },
+    {
+     "t0_ms": 794660,
+     "text": "to the intelligent edge."
+    },
+    {
+     "t0_ms": 797980,
+     "text": "These new products accelerate our strategic focus"
+    },
+    {
+     "t0_ms": 805060,
+     "text": "on enterprise customers as company expand"
+    },
+    {
+     "t0_ms": 809120,
+     "text": "toward scaling agentic model."
+    },
+    {
+     "t0_ms": 812780,
+     "text": "Enterprise data governance and high-sluice inferencing"
+    },
+    {
+     "t0_ms": 817800,
+     "text": "workload."
+    },
+    {
+     "t0_ms": 819040,
+     "text": "We recently announced several major strategic partnerships"
+    }
+   ]
+  },
+  {
+   "t0_ms": 824180,
+   "t1_ms": 868320,
+   "speaker": "Management",
+   "text": "combining Schiphol Michaels, DCBBS, which is the world's leading technology company, including Cisco, NetApp, Nutanix, and others. With additional T01 partnership coming soon, we are embedded in the network. We are also the leading Schiphol Michaels, DCBBS, footprint deeply into the world's most trusted enterprise. I know some investor and market experts have recently raised questions and concerns about AI capital expenditure efficiency and return on investment. Let me be clear.",
+   "parts": [
+    {
+     "t0_ms": 824180,
+     "text": "combining Schiphol Michaels, DCBBS,"
+    },
+    {
+     "t0_ms": 828200,
+     "text": "which is the world's leading technology company,"
+    },
+    {
+     "t0_ms": 832380,
+     "text": "including Cisco, NetApp, Nutanix, and others."
+    },
+    {
+     "t0_ms": 837660,
+     "text": "With additional T01 partnership coming soon,"
+    },
+    {
+     "t0_ms": 841380,
+     "text": "we are embedded in the network."
+    },
+    {
+     "t0_ms": 842760,
+     "text": "We are also the leading Schiphol Michaels, DCBBS,"
+    },
+    {
+     "t0_ms": 846140,
+     "text": "footprint deeply into the world's most trusted enterprise."
+    },
+    {
+     "t0_ms": 852960,
+     "text": "I know some investor and market experts"
+    },
+    {
+     "t0_ms": 856440,
+     "text": "have recently raised questions and concerns"
+    },
+    {
+     "t0_ms": 859440,
+     "text": "about AI capital expenditure efficiency and return"
+    },
+    {
+     "t0_ms": 864960,
+     "text": "on investment."
+    },
+    {
+     "t0_ms": 866880,
+     "text": "Let me be clear."
+    }
+   ]
+  },
+  {
+   "t0_ms": 868320,
+   "t1_ms": 912440,
+   "speaker": "Management",
+   "text": "Schiphol Michaels is uniquely positioned to thrive in this environment. For over 30 years, we have been focusing on the server and storage industry right here in the United States. No longer than almost all of our competitors. Building a mature, well-established domestic manufacturing and engineering footprint that our competitors simply have to match. This deeper US heritage. This deep US heritage. This deep US heritage. This deep US heritage. This deep US heritage. This deep US heritage. This deep US heritage. This deep US heritage. And combined with our unique DCBBS hardware, software, and service total solution,",
+   "parts": [
+    {
+     "t0_ms": 868320,
+     "text": "Schiphol Michaels is uniquely positioned to thrive"
+    },
+    {
+     "t0_ms": 873160,
+     "text": "in this environment."
+    },
+    {
+     "t0_ms": 874200,
+     "text": "For over 30 years, we have been focusing on the server"
+    },
+    {
+     "t0_ms": 880460,
+     "text": "and storage industry right here in the United States."
+    },
+    {
+     "t0_ms": 886120,
+     "text": "No longer than almost all of our competitors."
+    },
+    {
+     "t0_ms": 889620,
+     "text": "Building a mature, well-established domestic manufacturing"
+    },
+    {
+     "t0_ms": 894440,
+     "text": "and engineering footprint that our competitors simply"
+    },
+    {
+     "t0_ms": 898680,
+     "text": "have to match."
+    },
+    {
+     "t0_ms": 901140,
+     "text": "This deeper US heritage."
+    },
+    {
+     "t0_ms": 902720,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 903320,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 903420,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 903680,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 904040,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 904120,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 904200,
+     "text": "This deep US heritage."
+    },
+    {
+     "t0_ms": 904960,
+     "text": "And combined with our unique DCBBS hardware,"
+    },
+    {
+     "t0_ms": 909140,
+     "text": "software, and service total solution,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 912440,
+   "t1_ms": 956080,
+   "speaker": "Management",
+   "text": "directly solve the ROI challenge for our customers by optimizing TTD, time to delivery, TTO, time to online, and computing uptime, and energy efficiency. Whether our customers are building massive T01, AI, AI factory, or deploying enterprise agentic AI workload, Schiphol Michaels ensures their capital investment convert into revenue faster and more cost efficiently than anyone else we believe. We are achieving strong internal discipline",
+   "parts": [
+    {
+     "t0_ms": 912440,
+     "text": "directly solve the ROI challenge for our customers"
+    },
+    {
+     "t0_ms": 917460,
+     "text": "by optimizing TTD, time to delivery,"
+    },
+    {
+     "t0_ms": 921540,
+     "text": "TTO, time to online, and computing uptime,"
+    },
+    {
+     "t0_ms": 926100,
+     "text": "and energy efficiency."
+    },
+    {
+     "t0_ms": 928440,
+     "text": "Whether our customers are building massive T01, AI,"
+    },
+    {
+     "t0_ms": 934040,
+     "text": "AI factory, or deploying enterprise agentic AI workload,"
+    },
+    {
+     "t0_ms": 939200,
+     "text": "Schiphol Michaels ensures their capital investment convert"
+    },
+    {
+     "t0_ms": 944180,
+     "text": "into revenue faster and more cost efficiently than anyone else"
+    },
+    {
+     "t0_ms": 950320,
+     "text": "we believe."
+    },
+    {
+     "t0_ms": 952720,
+     "text": "We are achieving strong internal discipline"
+    }
+   ]
+  },
+  {
+   "t0_ms": 956080,
+   "t1_ms": 998420,
+   "speaker": "Management",
+   "text": "through continuous operational optimization, factory automation, and skill. We are achieving strong internal discipline through continuous operational optimization, factory automation, factory automation, and skill. We have successfully reduced our inventory and production turnaround time through technology, process refinement, and training. We have successfully reduced our inventory and production turnaround time from about 100 days to 74 days over the past three quarters. From about 100 days to 74 days over the past three quarters. Looking ahead, our target is to further streamline our inventory and production cycle. down to 50 days over the coming quarters.",
+   "parts": [
+    {
+     "t0_ms": 956080,
+     "text": "through continuous operational optimization, factory automation,"
+    },
+    {
+     "t0_ms": 963160,
+     "text": "and skill."
+    },
+    {
+     "t0_ms": 963880,
+     "text": "We are achieving strong internal discipline through continuous operational optimization,"
+    },
+    {
+     "t0_ms": 966960,
+     "text": "factory automation, factory automation, and skill."
+    },
+    {
+     "t0_ms": 968840,
+     "text": "We have successfully reduced our inventory and production turnaround time"
+    },
+    {
+     "t0_ms": 970420,
+     "text": "through technology, process refinement, and training."
+    },
+    {
+     "t0_ms": 972420,
+     "text": "We have successfully reduced our inventory and production turnaround time"
+    },
+    {
+     "t0_ms": 978400,
+     "text": "from about 100 days to 74 days over the past three quarters."
+    },
+    {
+     "t0_ms": 985720,
+     "text": "From about 100 days to 74 days over the past three quarters."
+    },
+    {
+     "t0_ms": 987300,
+     "text": "Looking ahead, our target is to further streamline our inventory and production cycle."
+    },
+    {
+     "t0_ms": 993720,
+     "text": "down to 50 days over the coming quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 998420,
+   "t1_ms": 1036859,
+   "speaker": "Management",
+   "text": "It's not easy, but we believe we will achieve it. This ongoing efficiency optimization will continue to strengthen Supermicro's cash flow, working capital cycle, and drive higher bottom line profitability. Doesn't matter how competitive the market gets, more customers will love Supermicro BCPBS. They include data center end-to-end hardware, management software, and end-to-end data center services.",
+   "parts": [
+    {
+     "t0_ms": 998420,
+     "text": "It's not easy, but we believe we will achieve it."
+    },
+    {
+     "t0_ms": 1003280,
+     "text": "This ongoing efficiency optimization"
+    },
+    {
+     "t0_ms": 1005960,
+     "text": "will continue to strengthen Supermicro's cash flow,"
+    },
+    {
+     "t0_ms": 1010480,
+     "text": "working capital cycle,"
+    },
+    {
+     "t0_ms": 1013100,
+     "text": "and drive higher bottom line profitability."
+    },
+    {
+     "t0_ms": 1018520,
+     "text": "Doesn't matter how competitive the market gets,"
+    },
+    {
+     "t0_ms": 1021440,
+     "text": "more customers will love Supermicro BCPBS."
+    },
+    {
+     "t0_ms": 1026619,
+     "text": "They include data center end-to-end hardware,"
+    },
+    {
+     "t0_ms": 1031859,
+     "text": "management software, and end-to-end data center services."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1038940,
+   "t1_ms": 1081220,
+   "speaker": "Management",
+   "text": "Now, let's turn to our outlook for fiscal year 2027. While overall demand and our growth momentum remain very strong across every front, we must recognize that key component shortage continue to impact delivery timeline across the IT industry, even GPU. New customer program and strategic ecosystem partnership are ramping strongly, but we want to remain prudent about some key components availability and volatility.",
+   "parts": [
+    {
+     "t0_ms": 1038940,
+     "text": "Now, let's turn to our outlook for fiscal year 2027."
+    },
+    {
+     "t0_ms": 1044500,
+     "text": "While overall demand and our growth momentum"
+    },
+    {
+     "t0_ms": 1048160,
+     "text": "remain very strong across every front,"
+    },
+    {
+     "t0_ms": 1051220,
+     "text": "we must recognize that key component shortage"
+    },
+    {
+     "t0_ms": 1056220,
+     "text": "continue to impact delivery timeline"
+    },
+    {
+     "t0_ms": 1060220,
+     "text": "across the IT industry, even GPU."
+    },
+    {
+     "t0_ms": 1065220,
+     "text": "New customer program and strategic ecosystem partnership"
+    },
+    {
+     "t0_ms": 1071220,
+     "text": "are ramping strongly, but we want to remain prudent"
+    },
+    {
+     "t0_ms": 1076220,
+     "text": "about some key components availability and volatility."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1081220,
+   "t1_ms": 1121320,
+   "speaker": "Management",
+   "text": "We are optimizing level of baseline levels of\u9019\u662f\u6211\u5011\u76ee\u524d\u6240\u770b\u7684, and our fiscal revenue target, which is 1.2 billion to 7.2 billion. But we also want to keep our markets all the way up to 2.5 billion. As we heard on the~? I'll turn it over to Mr. Progray to share some of our current data technology values. Thank you, Mr. Progray. Mr. Progray, please. we are pleased to welcome a long long time uh industry technology leader sasha krishnapura",
+   "parts": [
+    {
+     "t0_ms": 1081220,
+     "text": "We are optimizing level of baseline levels"
+    },
+    {
+     "t0_ms": 1084060,
+     "text": "of\u9019\u662f\u6211\u5011\u76ee\u524d\u6240\u770b\u7684,"
+    },
+    {
+     "t0_ms": 1087220,
+     "text": "and our fiscal revenue target,"
+    },
+    {
+     "t0_ms": 1090020,
+     "text": "which is 1.2 billion to 7.2 billion."
+    },
+    {
+     "t0_ms": 1093920,
+     "text": "But we also want to keep our markets"
+    },
+    {
+     "t0_ms": 1096220,
+     "text": "all the way up to 2.5 billion."
+    },
+    {
+     "t0_ms": 1098720,
+     "text": "As we heard on the~?"
+    },
+    {
+     "t0_ms": 1101820,
+     "text": "I'll turn it over to Mr. Progray"
+    },
+    {
+     "t0_ms": 1104920,
+     "text": "to share some of our current data technology values."
+    },
+    {
+     "t0_ms": 1109220,
+     "text": "Thank you, Mr. Progray."
+    },
+    {
+     "t0_ms": 1110220,
+     "text": "Mr. Progray, please."
+    },
+    {
+     "t0_ms": 1110920,
+     "text": "we are pleased to welcome a long long time uh industry technology leader sasha krishnapura"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1121320,
+   "t1_ms": 1156120,
+   "speaker": "Management",
+   "text": "to our bowl of director bringing deep data center operational experience and expertise to support our scaling second my sincerely uh thanks to david wagon for his six years of cfo leadership during our period of massive growth we look forward to his ongoing support and contribution in optimizing our operation to a much bigger scale finally i'm delighted to introduce margara",
+   "parts": [
+    {
+     "t0_ms": 1121320,
+     "text": "to our bowl of director bringing deep data center operational experience and expertise to support"
+    },
+    {
+     "t0_ms": 1129160,
+     "text": "our scaling second my sincerely uh thanks to david wagon for his six years of cfo leadership"
+    },
+    {
+     "t0_ms": 1140040,
+     "text": "during our period of massive growth we look forward to his ongoing support and contribution"
+    },
+    {
+     "t0_ms": 1147800,
+     "text": "in optimizing our operation to a much bigger scale finally i'm delighted to introduce margara"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1156840,
+   "t1_ms": 1195960,
+   "speaker": "Management",
+   "text": "our new cfo who who's dedicated uh i guess 30 40 years of tech and financial leadership will be a strong head for our next phase of growth now i will change what i call to mark thank you charles and good afternoon everyone this is my first call with you so let me take two minutes before we get to the numbers i've spent much my career in technology infrastructure finance including as chief financial officer of a public company in this industry what brought me to super micro is that",
+   "parts": [
+    {
+     "t0_ms": 1156840,
+     "text": "our new cfo who who's dedicated uh i guess 30 40 years of tech and financial leadership"
+    },
+    {
+     "t0_ms": 1168360,
+     "text": "will be a strong head"
+    },
+    {
+     "t0_ms": 1170040,
+     "text": "for our next phase of growth now i will change what i call to mark thank you charles and good"
+    },
+    {
+     "t0_ms": 1176840,
+     "text": "afternoon everyone this is my first call with you so let me take two minutes before we get to the"
+    },
+    {
+     "t0_ms": 1182920,
+     "text": "numbers i've spent much my career in technology infrastructure finance including as chief"
+    },
+    {
+     "t0_ms": 1189640,
+     "text": "financial officer of a public company in this industry what brought me to super micro is that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1195960,
+   "t1_ms": 1239240,
+   "speaker": "Management",
+   "text": "the hardest part is already built deep engineering advantage a real lead in liquid cooling and rack scale integration and a key position in the largest infrastructure build out of our careers what the company needs now is financial capability that matches its engineering and operating capabilities i'm excited to join super micro at this pivotal time and look forward to helping charles and the team continue to deliver an expanding portfolio of innovative solutions to a growing global customer base including some of the largest most demanding customers who are shaping the future",
+   "parts": [
+    {
+     "t0_ms": 1195960,
+     "text": "the hardest part is already built deep engineering advantage a real lead in liquid cooling and rack"
+    },
+    {
+     "t0_ms": 1204600,
+     "text": "scale integration and a key position in the largest infrastructure build out of our careers"
+    },
+    {
+     "t0_ms": 1212520,
+     "text": "what the company needs now is financial capability that matches its engineering and operating"
+    },
+    {
+     "t0_ms": 1218600,
+     "text": "capabilities i'm excited to join super micro at this pivotal time and look forward to helping"
+    },
+    {
+     "t0_ms": 1224360,
+     "text": "charles and the team"
+    },
+    {
+     "t0_ms": 1226120,
+     "text": "continue to deliver an expanding portfolio of innovative solutions to a growing global"
+    },
+    {
+     "t0_ms": 1232200,
+     "text": "customer base including some of the largest most demanding customers who are shaping the future"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1239240,
+   "t1_ms": 1277840,
+   "speaker": "Management",
+   "text": "of the ai era to do that will require continued financial discipline transparency deeper engagement with stakeholders working capital management and capital structure optimization will be my areas of focus. Now to the quarter. Total revenue was $19.9 billion, up 298% year over year and 79% sequentially. That is above our guidance range of $14.5 billion to $15.5 billion",
+   "parts": [
+    {
+     "t0_ms": 1239240,
+     "text": "of the ai era to do that will require continued financial discipline transparency"
+    },
+    {
+     "t0_ms": 1247720,
+     "text": "deeper engagement with stakeholders working capital management and capital structure"
+    },
+    {
+     "t0_ms": 1254200,
+     "text": "optimization"
+    },
+    {
+     "t0_ms": 1255960,
+     "text": "will be my areas of focus. Now to the quarter. Total revenue was $19.9 billion, up 298% year"
+    },
+    {
+     "t0_ms": 1267900,
+     "text": "over year and 79% sequentially. That is above our guidance range of $14.5 billion to $15.5 billion"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1277840,
+   "t1_ms": 1318120,
+   "speaker": "Management",
+   "text": "and above the preliminary range of $18.5 billion to $19.5 billion we provided on October 20th. As Charles noted, approximately $2.3 billion represented deployments originally scheduled for earlier periods due to customer and data center readiness. Excluding that, underlying revenue was approximately $17.6 billion. AI solutions contributed approximately 71% of revenue compared with 59% in Q4.",
+   "parts": [
+    {
+     "t0_ms": 1277840,
+     "text": "and above the preliminary range of $18.5 billion to $19.5 billion we provided on October 20th."
+    },
+    {
+     "t0_ms": 1288560,
+     "text": "As Charles noted, approximately $2.3 billion represented deployments originally scheduled"
+    },
+    {
+     "t0_ms": 1296200,
+     "text": "for earlier periods due to customer and data center readiness. Excluding that,"
+    },
+    {
+     "t0_ms": 1302720,
+     "text": "underlying revenue was approximately $17.6 billion."
+    },
+    {
+     "t0_ms": 1307840,
+     "text": "AI solutions contributed approximately 71% of revenue compared with 59% in Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1318780,
+   "t1_ms": 1362120,
+   "speaker": "Management",
+   "text": "Based on our current backlog, we expect AI-related solutions to represent approximately 70% to 80% of revenue for fiscal 2027. Enterprise and channel revenue was $4.9 billion or 25% of revenue, up 229% year over year. Andckai Web Solutions' provides value-added knowledge-based Blaze!",
+   "parts": [
+    {
+     "t0_ms": 1318780,
+     "text": "Based on our current backlog, we expect AI-related solutions to represent approximately 70% to 80%"
+    },
+    {
+     "t0_ms": 1326920,
+     "text": "of revenue for fiscal 2027. Enterprise and channel revenue was $4.9 billion or 25% of revenue,"
+    },
+    {
+     "t0_ms": 1337760,
+     "text": "up 229% year over year."
+    },
+    {
+     "t0_ms": 1340880,
+     "text": "Andckai Web Solutions'"
+    },
+    {
+     "t0_ms": 1360860,
+     "text": "provides value-added knowledge-based Blaze!"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1362120,
+   "t1_ms": 1401080,
+   "speaker": "Management",
+   "text": "These success stories architecture are also a big part of the design and technology spoiler dwelling on future technology growing trends for AI in Q4. \ud574\uc11c transformaciones en la design de una yada aEE ov\ub294\uc9c0! The growth periods of API, piecefalos en el a\u00f1o de 2021, han derivado en milles del a\u00f1o y habr\u00e1 efectos Wilde es Universidad Unidas ese aspectobinario de aprendizaje de la tesis especialada, screenoria de por \u00faltimo espacio de la Comentaci\u00f3n y comunicaci\u00f3n. lashes y perdes de atenci\u00f3n a las HoVs en caso de mov\u5371\ufffd \u0443\u043c, weakness capables deivo de di cogn frase de Johan Maris, as to not have Awareness of Individual, \ub124 necessidades externos, inspiraci\u00f3n, etc. small in relative terms grew significantly both year over year and sequential. By geography, the United States represented 80% of revenue, Europe 11%, Asia 6%, and the rest of the world 3%. The United States grew 771% year over year and 103% sequential. While the U.S. remains the largest market for large-scale AI data centers, we are seeing",
+   "parts": [
+    {
+     "t0_ms": 1362120,
+     "text": "These success stories architecture are also a big part of the design and technology"
+    },
+    {
+     "t0_ms": 1365760,
+     "text": "spoiler dwelling on future technology growing trends for AI in Q4."
+    },
+    {
+     "t0_ms": 1366000,
+     "text": "\ud574\uc11c transformaciones en la design de una yada aEE ov\ub294\uc9c0!"
+    },
+    {
+     "t0_ms": 1366060,
+     "text": "The growth periods of API, piecefalos en"
+    },
+    {
+     "t0_ms": 1367060,
+     "text": "el a\u00f1o de 2021, han derivado en milles del a\u00f1o y habr\u00e1 efectos Wilde es Universidad Unidas"
+    },
+    {
+     "t0_ms": 1368100,
+     "text": "ese aspectobinario de aprendizaje de la tesis especialada,"
+    },
+    {
+     "t0_ms": 1369300,
+     "text": "screenoria de por \u00faltimo espacio de la Comentaci\u00f3n y comunicaci\u00f3n."
+    },
+    {
+     "t0_ms": 1369520,
+     "text": "lashes y perdes de atenci\u00f3n a las HoVs en caso de mov\u5371\ufffd \u0443\u043c,"
+    },
+    {
+     "t0_ms": 1369620,
+     "text": "weakness capables deivo de di cogn frase de Johan Maris,"
+    },
+    {
+     "t0_ms": 1370040,
+     "text": "as to not have Awareness of Individual,"
+    },
+    {
+     "t0_ms": 1370060,
+     "text": "\ub124 necessidades externos,"
+    },
+    {
+     "t0_ms": 1370100,
+     "text": "inspiraci\u00f3n,"
+    },
+    {
+     "t0_ms": 1370240,
+     "text": "etc."
+    },
+    {
+     "t0_ms": 1370500,
+     "text": "small in relative terms grew significantly both year over year and sequential."
+    },
+    {
+     "t0_ms": 1376940,
+     "text": "By geography, the United States represented 80% of revenue, Europe 11%, Asia 6%, and the"
+    },
+    {
+     "t0_ms": 1384520,
+     "text": "rest of the world 3%."
+    },
+    {
+     "t0_ms": 1387480,
+     "text": "The United States grew 771% year over year and 103% sequential."
+    },
+    {
+     "t0_ms": 1395240,
+     "text": "While the U.S. remains the largest market for large-scale AI data centers, we are seeing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1401080,
+   "t1_ms": 1441340,
+   "speaker": "Management",
+   "text": "growing momentum in other regions as large customers expand globally and governments and enterprises plan and fund significant AI data centers in Europe, Asia, and the Middle East. In the quarter, one large data center customer represented 44% of revenue, compared with 28% for fiscal 2026. In our 10Q, you will also see that two customers accounted for 49% and 17% of accounts receivable at quarter end. I want to provide more context for this.",
+   "parts": [
+    {
+     "t0_ms": 1401080,
+     "text": "growing momentum in other regions as large customers expand globally and governments"
+    },
+    {
+     "t0_ms": 1407620,
+     "text": "and enterprises plan and fund significant AI data centers in Europe, Asia, and the Middle"
+    },
+    {
+     "t0_ms": 1413860,
+     "text": "East."
+    },
+    {
+     "t0_ms": 1416020,
+     "text": "In the quarter, one large data center customer represented 44% of revenue, compared with"
+    },
+    {
+     "t0_ms": 1422620,
+     "text": "28% for fiscal 2026."
+    },
+    {
+     "t0_ms": 1425220,
+     "text": "In our 10Q, you will also see that two customers accounted for 49% and 17% of accounts receivable"
+    },
+    {
+     "t0_ms": 1435220,
+     "text": "at quarter end."
+    },
+    {
+     "t0_ms": 1436900,
+     "text": "I want to provide more context for this."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1441340,
+   "t1_ms": 1484380,
+   "speaker": "Management",
+   "text": "Concentration at this level is a consequence of the scale at which AI infrastructure is now being built. A single deployment today can exceed our total quarterly revenue from just one year ago. We expect concentration to stay elevated while these build-outs run and to moderate as our enterprise and sovereign businesses grow. What matters alongside the concentration is the quality of the exposure. So let me give you that. Deferred revenue increased by approximately $3.1 billion during the quarter, an overwhelming majority of which reflects customers paying in advance of delivery.",
+   "parts": [
+    {
+     "t0_ms": 1441340,
+     "text": "Concentration at this level is a consequence of the scale at which AI infrastructure is"
+    },
+    {
+     "t0_ms": 1446540,
+     "text": "now being built."
+    },
+    {
+     "t0_ms": 1448380,
+     "text": "A single deployment today can exceed our total quarterly revenue from just one year ago."
+    },
+    {
+     "t0_ms": 1454620,
+     "text": "We expect concentration to stay elevated while these build-outs run and to moderate"
+    },
+    {
+     "t0_ms": 1460860,
+     "text": "as our enterprise and sovereign businesses grow."
+    },
+    {
+     "t0_ms": 1466060,
+     "text": "What matters alongside the concentration is the quality of the exposure."
+    },
+    {
+     "t0_ms": 1470900,
+     "text": "So let me give you that."
+    },
+    {
+     "t0_ms": 1473380,
+     "text": "Deferred revenue increased by approximately $3.1 billion during the quarter, an overwhelming"
+    },
+    {
+     "t0_ms": 1479500,
+     "text": "majority of which reflects customers paying in advance of delivery."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1484380,
+   "t1_ms": 1526090,
+   "speaker": "Management",
+   "text": "Dave's sales outstanding. We recorded no material credit losses in the quarter. On large deployments, we frequently require deposits and often bill against delivery milestones. We evaluate counterparty credit before committing manufacturing capacity and critical components. We maintain a $1.8 billion receivables purchase facility that gives us flexibility on both cash timing and credit exposure. We have declined business in this market on terms we were not comfortable with.",
+   "parts": [
+    {
+     "t0_ms": 1484380,
+     "text": "Dave's sales outstanding."
+    },
+    {
+     "t0_ms": 1487890,
+     "text": "We recorded no material credit losses in the quarter."
+    },
+    {
+     "t0_ms": 1496170,
+     "text": "On large deployments, we frequently require deposits and often bill against delivery milestones."
+    },
+    {
+     "t0_ms": 1503450,
+     "text": "We evaluate counterparty credit before committing manufacturing capacity and critical components."
+    },
+    {
+     "t0_ms": 1511150,
+     "text": "We maintain a $1.8 billion receivables purchase facility that gives us flexibility on both"
+    },
+    {
+     "t0_ms": 1517810,
+     "text": "cash timing and credit exposure."
+    },
+    {
+     "t0_ms": 1521630,
+     "text": "We have declined business in this market on terms we were not comfortable with."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1526090,
+   "t1_ms": 1568970,
+   "speaker": "Management",
+   "text": "And in the current environment, I expect we will continue to make that choice. Non-GAAP gross margin was 12.8%. That is 200 to 240 basis points above our guidance range of 10.4% to 10.8%. And 330 basis points above the first quarter. So that's a lot of money. Dave? I'm sorry. I'm sorry. You're welcome, Dave. I think we're going to be dropping out of the first quarter of last year. On a GAAP basis, gross margin was 12.7%. It is also down 480 basis points from the 17.6% we reported in Q4. And I want to take that apart because a single factor explanation would be misleading.",
+   "parts": [
+    {
+     "t0_ms": 1526090,
+     "text": "And in the current environment, I expect we will continue to make that choice."
+    },
+    {
+     "t0_ms": 1532390,
+     "text": "Non-GAAP gross margin was 12.8%."
+    },
+    {
+     "t0_ms": 1536090,
+     "text": "That is 200 to 240 basis points above our guidance range of 10.4% to 10.8%."
+    },
+    {
+     "t0_ms": 1543090,
+     "text": "And 330 basis points above the first quarter."
+    },
+    {
+     "t0_ms": 1546090,
+     "text": "So that's a lot of money."
+    },
+    {
+     "t0_ms": 1547090,
+     "text": "Dave?"
+    },
+    {
+     "t0_ms": 1547290,
+     "text": "I'm sorry."
+    },
+    {
+     "t0_ms": 1548290,
+     "text": "I'm sorry."
+    },
+    {
+     "t0_ms": 1549290,
+     "text": "You're welcome, Dave."
+    },
+    {
+     "t0_ms": 1550290,
+     "text": "I think we're going to be dropping out of the first quarter of last year."
+    },
+    {
+     "t0_ms": 1551290,
+     "text": "On a GAAP basis, gross margin was 12.7%."
+    },
+    {
+     "t0_ms": 1553630,
+     "text": "It is also down 480 basis points from the 17.6% we reported in Q4."
+    },
+    {
+     "t0_ms": 1563190,
+     "text": "And I want to take that apart because a single factor explanation would be misleading."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1568970,
+   "t1_ms": 1611430,
+   "speaker": "Management",
+   "text": "The key factor impacting gross margin was the Q1 AI revenue mix, which increased from 59% in Q4 to 4.4%. to 71 percent in q1 the customer and product mix within our q1 business was weighted toward large-scale ai deployment deployments which carry lower gross margins than the more diversified enterprise and channel business benefits from tariff relief and lower inventory reserves during the quarter were largely offset by certain lower margin deferred revenues which were recognized during the quarter i want to be precise about one point because i know how the mixed",
+   "parts": [
+    {
+     "t0_ms": 1568970,
+     "text": "The key factor impacting gross margin was the Q1 AI revenue mix, which increased from"
+    },
+    {
+     "t0_ms": 1575370,
+     "text": "59% in Q4 to 4.4%."
+    },
+    {
+     "t0_ms": 1577110,
+     "text": "to 71 percent in q1 the customer and product mix within our q1 business was weighted toward"
+    },
+    {
+     "t0_ms": 1585190,
+     "text": "large-scale ai deployment deployments which carry lower gross margins than the more diversified"
+    },
+    {
+     "t0_ms": 1591910,
+     "text": "enterprise and channel business benefits from tariff relief and lower inventory reserves"
+    },
+    {
+     "t0_ms": 1598870,
+     "text": "during the quarter were largely offset by certain lower margin deferred revenues which were"
+    },
+    {
+     "t0_ms": 1604870,
+     "text": "recognized during the quarter i want to be precise about one point because i know how the mixed"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1611430,
+   "t1_ms": 1649590,
+   "speaker": "Management",
+   "text": "figures can be read the sequential decline is not evidence that ai platform revenue lacks margin it reflects which customers took delivery in which order the clearest way to see the underlying trend is to look at the last two quarters together which neutralizes the deferral timing across q4 and q1 combined revenue was approximately 31.1 billion dollars and non-gap gross margin was approximately 14.5 for the same two quarters a year earlier revenue was approximately 10.8 billion dollars",
+   "parts": [
+    {
+     "t0_ms": 1611430,
+     "text": "figures can be read the sequential decline is not evidence that ai platform revenue lacks margin"
+    },
+    {
+     "t0_ms": 1619030,
+     "text": "it reflects which customers took delivery in which order the clearest way to see the underlying trend"
+    },
+    {
+     "t0_ms": 1626550,
+     "text": "is to look at the last two quarters together which neutralizes the deferral timing"
+    },
+    {
+     "t0_ms": 1632790,
+     "text": "across q4 and q1 combined"
+    },
+    {
+     "t0_ms": 1634870,
+     "text": "revenue was approximately 31.1 billion dollars and non-gap gross margin was approximately 14.5"
+    },
+    {
+     "t0_ms": 1643350,
+     "text": "for the same two quarters a year earlier revenue was approximately 10.8 billion dollars"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1649590,
+   "t1_ms": 1694310,
+   "speaker": "Management",
+   "text": "and gross margin was approximately 9.5 percent on that normalized basis revenue nearly tripled and gross margin improved by roughly 500 basis points we continue to demonstrate today net debt now does this cover a permanent loss of serious\u5f15\u53d1 and the loss of \uace0\uc6a9 log simmer Auburn Moxon's\ufffd GPS\ub2c8\uae4c trading tank sehr accent\u5316 i\u00e7indeIn a quarter , 19% significant operating leverage revenue grew 298% year-over-year against an 89% increase in non-gap operating expenses gap operating expenses were 477 million up 67 percent year-over-year and",
+   "parts": [
+    {
+     "t0_ms": 1649590,
+     "text": "and gross margin was approximately 9.5 percent on that normalized basis revenue nearly tripled"
+    },
+    {
+     "t0_ms": 1657750,
+     "text": "and gross margin improved by roughly 500 basis points we continue to demonstrate"
+    },
+    {
+     "t0_ms": 1665270,
+     "text": "today net debt now does this cover a permanent loss of serious\u5f15\u53d1 and the loss of \uace0\uc6a9"
+    },
+    {
+     "t0_ms": 1673750,
+     "text": "log simmer Auburn Moxon's\ufffd GPS\ub2c8\uae4c trading tank sehr accent\u5316 i\u00e7indeIn a quarter ,"
+    },
+    {
+     "t0_ms": 1679990,
+     "text": "19% significant operating leverage revenue grew 298% year-over-year against an 89% increase in"
+    },
+    {
+     "t0_ms": 1689190,
+     "text": "non-gap operating expenses gap operating expenses were 477 million up 67 percent year-over-year and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1694310,
+   "t1_ms": 1735370,
+   "speaker": "Management",
+   "text": "sequentially. The sequential increases reflect higher headcount costs and research and development spending as we invest in multiple new platforms for AI data center and enterprise applications. Non-GAAP operating margin was 10.9% compared with 14.3% in Q4. Here too, the two-quarter view is more useful one. Across Q4 and Q1 combined, non-GAAP operating expenses were approximately $741 million or about 2.4% of revenue, and non-GAAP operating margin was approximately 12.1%",
+   "parts": [
+    {
+     "t0_ms": 1694310,
+     "text": "sequentially. The sequential increases reflect higher headcount costs and research and development"
+    },
+    {
+     "t0_ms": 1701090,
+     "text": "spending as we invest in multiple new platforms for AI data center and enterprise applications."
+    },
+    {
+     "t0_ms": 1709450,
+     "text": "Non-GAAP operating margin was 10.9% compared with 14.3% in Q4. Here too, the two-quarter view is"
+    },
+    {
+     "t0_ms": 1717890,
+     "text": "more useful one. Across Q4 and Q1 combined, non-GAAP operating expenses were approximately"
+    },
+    {
+     "t0_ms": 1726090,
+     "text": "$741 million or about 2.4% of revenue, and non-GAAP operating margin was approximately 12.1%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1735370,
+   "t1_ms": 1772830,
+   "speaker": "Management",
+   "text": "compared with roughly 5.4% for the same two quarters a year earlier. We intend to keep investing in R&D, field service, and our global footprint, and we expect tomorrow, expect operating expenses to keep growing well below the rate of revenue. Other income and expense was a net expense of $34 million, consisting of $49 million of interest expense and other expense offset by $83 million of interest expense on our convertible nodes and revolving credit facilities.",
+   "parts": [
+    {
+     "t0_ms": 1735370,
+     "text": "compared with roughly 5.4% for the same two quarters a year earlier. We intend to keep"
+    },
+    {
+     "t0_ms": 1743170,
+     "text": "investing in R&D, field service, and our global footprint, and we expect tomorrow,"
+    },
+    {
+     "t0_ms": 1747870,
+     "text": "expect operating expenses to keep growing well below the rate of revenue."
+    },
+    {
+     "t0_ms": 1754250,
+     "text": "Other income and expense was a net expense of $34 million, consisting of $49 million"
+    },
+    {
+     "t0_ms": 1760730,
+     "text": "of interest expense and other expense offset by $83 million of interest expense on our"
+    },
+    {
+     "t0_ms": 1769210,
+     "text": "convertible nodes and revolving credit facilities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1772830,
+   "t1_ms": 1815870,
+   "speaker": "Management",
+   "text": "The tax provision was $435 million on a GAAP basis and $455 million on a non-GAAP basis with an effective tax rate of 21.4% on both bases. I would like to expand on some points made in the last earnings call regarding earnings per share because our capital structure now has a moving part that I do not think is well understood. We calculate earnings per share using the two-class method, which reflects the mandatory convertible preferred stock we issued in Q4. That instrument carries a fixed dividend of approximately $75 million per quarter and",
+   "parts": [
+    {
+     "t0_ms": 1772830,
+     "text": "The tax provision was $435 million on a GAAP basis and $455 million on a non-GAAP basis"
+    },
+    {
+     "t0_ms": 1781910,
+     "text": "with an effective tax rate of 21.4% on both bases."
+    },
+    {
+     "t0_ms": 1788150,
+     "text": "I would like to expand on some points made in the last earnings call regarding earnings"
+    },
+    {
+     "t0_ms": 1793110,
+     "text": "per share because our capital structure now has a moving part that I do not think is well"
+    },
+    {
+     "t0_ms": 1799230,
+     "text": "understood."
+    },
+    {
+     "t0_ms": 1800350,
+     "text": "We calculate earnings per share using the"
+    },
+    {
+     "t0_ms": 1802830,
+     "text": "two-class method, which reflects the mandatory convertible preferred stock we issued in Q4."
+    },
+    {
+     "t0_ms": 1810350,
+     "text": "That instrument carries a fixed dividend of approximately $75 million per quarter and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1815870,
+   "t1_ms": 1860810,
+   "speaker": "Management",
+   "text": "converts to common stock in June 2029. Between now and then, both the dividend and the allocation of earnings to that participating security reduce earnings available to common shareholders this quarter by approximately $312 million in aggregate. GAAP diluted earnings per share were $1.75 against guidance of $0.89 to $0.98. Non-GAAP diluted earnings per share were $1.81 against guidance of $1.01 to $1.10. GAAP basic earnings per share were $1.92.",
+   "parts": [
+    {
+     "t0_ms": 1815870,
+     "text": "converts to common stock in June 2029."
+    },
+    {
+     "t0_ms": 1821450,
+     "text": "Between now and then, both the dividend and the allocation of earnings to that participating"
+    },
+    {
+     "t0_ms": 1826590,
+     "text": "security reduce earnings available to common shareholders this quarter by approximately"
+    },
+    {
+     "t0_ms": 1832810,
+     "text": "$312 million in aggregate."
+    },
+    {
+     "t0_ms": 1837450,
+     "text": "GAAP diluted earnings per share were $1.75 against guidance of $0.89 to $0.98."
+    },
+    {
+     "t0_ms": 1846150,
+     "text": "Non-GAAP diluted earnings per share were $1.81 against guidance of $1.01 to $1.10."
+    },
+    {
+     "t0_ms": 1856010,
+     "text": "GAAP basic earnings per share were $1.92."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1860810,
+   "t1_ms": 1903030,
+   "speaker": "Management",
+   "text": "Now, we will look at how to work in capital, which I think will help explain key elements of how we operate our business. Our cash conversion cycle improved from 149 days to 97 days, a 52-day improvement in a single quarter. At our Q1 revenue run rate, that difference represents roughly $10 billion of working capital the business would otherwise have needed to fund. The cash flow statement shows this. We used $434 million of cash in operations on $19.9 billion of revenue.",
+   "parts": [
+    {
+     "t0_ms": 1860810,
+     "text": "Now,"
+    },
+    {
+     "t0_ms": 1862810,
+     "text": "we will look at how to work in capital, which I think will help explain key elements of"
+    },
+    {
+     "t0_ms": 1867050,
+     "text": "how we operate our business."
+    },
+    {
+     "t0_ms": 1869050,
+     "text": "Our cash conversion cycle improved from 149 days to 97 days, a 52-day improvement in a"
+    },
+    {
+     "t0_ms": 1877930,
+     "text": "single quarter."
+    },
+    {
+     "t0_ms": 1880050,
+     "text": "At our Q1 revenue run rate, that difference represents roughly $10 billion of working"
+    },
+    {
+     "t0_ms": 1886010,
+     "text": "capital the business would otherwise have needed to fund."
+    },
+    {
+     "t0_ms": 1890250,
+     "text": "The cash flow statement shows this."
+    },
+    {
+     "t0_ms": 1892650,
+     "text": "We used $434 million of cash in operations on $19.9 billion of revenue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1903030,
+   "t1_ms": 1939190,
+   "speaker": "Management",
+   "text": "For all of fiscal 2026, we used $6.8 billion on $39.1 billion of revenue. Capital expenditure in the quarter was $47 million, so free cash flow was negative $481 million against negative $7.1 billion. We also had $10.7 billion in the fiscal 2026. Let me break down the 52 days, including both the positives and the areas for potential improvement. Days of inventory improved 45 days to 74.",
+   "parts": [
+    {
+     "t0_ms": 1903030,
+     "text": "For all of fiscal 2026, we used $6.8 billion on $39.1 billion of revenue."
+    },
+    {
+     "t0_ms": 1912690,
+     "text": "Capital expenditure in the quarter was $47 million, so free cash flow was negative $481"
+    },
+    {
+     "t0_ms": 1919890,
+     "text": "million against negative $7.1 billion."
+    },
+    {
+     "t0_ms": 1921890,
+     "text": "We also had $10.7 billion in the fiscal 2026."
+    },
+    {
+     "t0_ms": 1923930,
+     "text": "Let me break down the 52 days, including both the positives and the areas for potential"
+    },
+    {
+     "t0_ms": 1933130,
+     "text": "improvement."
+    },
+    {
+     "t0_ms": 1934130,
+     "text": "Days of inventory improved 45 days to 74."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1939190,
+   "t1_ms": 1982130,
+   "speaker": "Management",
+   "text": "Day sales outstanding improved 23 days to 36, helped by faster collections and by customer prepayments. Day payable outstanding moved against the current payable outstanding. Now, us from 29 days to 13, which consumed roughly $3 billion and reflects timing of payments to suppliers in a supply-constrained environment. The largest single driver was customer prepayment. Deferred revenue increased approximately $3.1 billion in the quarter. Accounts receivable grew $3.6 billion, and inventory grew $2.5 billion to support the",
+   "parts": [
+    {
+     "t0_ms": 1939190,
+     "text": "Day sales outstanding improved 23 days to 36, helped by faster collections and by customer"
+    },
+    {
+     "t0_ms": 1948270,
+     "text": "prepayments."
+    },
+    {
+     "t0_ms": 1949270,
+     "text": "Day payable outstanding moved against the current payable outstanding."
+    },
+    {
+     "t0_ms": 1950770,
+     "text": "Now,"
+    },
+    {
+     "t0_ms": 1951890,
+     "text": "us from 29 days to 13, which consumed roughly $3 billion and reflects timing of payments"
+    },
+    {
+     "t0_ms": 1960230,
+     "text": "to suppliers in a supply-constrained environment."
+    },
+    {
+     "t0_ms": 1964550,
+     "text": "The largest single driver was customer prepayment."
+    },
+    {
+     "t0_ms": 1969490,
+     "text": "Deferred revenue increased approximately $3.1 billion in the quarter."
+    },
+    {
+     "t0_ms": 1973690,
+     "text": "Accounts receivable grew $3.6 billion, and inventory grew $2.5 billion to support the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1982130,
+   "t1_ms": 2025960,
+   "speaker": "Management",
+   "text": "revenue ahead of us, and prepayments funded most of that bill. We expect the cash conversion cycle for the current quarter to be within the band of plus or minus 10% versus Q1, which enables us to appropriately manage our working capital while also executing against attractive market opportunities. We ended the quarter with $6.9 billion of cash and cash equivalents. Bank borrowing and convertible notes totaled $8.6 billion for net debt of $1.7 billion, compared with $1.2 billion at the end of Q4.",
+   "parts": [
+    {
+     "t0_ms": 1982130,
+     "text": "revenue ahead of us, and prepayments funded most of that bill."
+    },
+    {
+     "t0_ms": 1989220,
+     "text": "We expect the cash conversion cycle for the current quarter to be within the band of plus"
+    },
+    {
+     "t0_ms": 1995000,
+     "text": "or minus 10% versus Q1, which enables us to appropriately manage our working capital while"
+    },
+    {
+     "t0_ms": 2002500,
+     "text": "also executing against attractive market opportunities."
+    },
+    {
+     "t0_ms": 2005640,
+     "text": "We ended the quarter with $6.9 billion of cash and cash equivalents."
+    },
+    {
+     "t0_ms": 2013980,
+     "text": "Bank borrowing and convertible notes totaled $8.6 billion for net debt of $1.7 billion,"
+    },
+    {
+     "t0_ms": 2022400,
+     "text": "compared with $1.2 billion at the end of Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2027200,
+   "t1_ms": 2068750,
+   "speaker": "Management",
+   "text": "Inventory was $15.1 billion, up from $12.9 billion, built to support the revenue we expect in coming quarters. We are in compliance with all covenants at Q1. On capital structure more broadly, we are starting from a strong foundation. The $5.6 billion we raised in June was raised specifically to fund the working capital behind the orders we are now delivering. As we identify high-quality growth opportunities, we will optimize our capital structure to support them, and we will do that in ways that fortify the balance sheet without compromising the balance sheet.",
+   "parts": [
+    {
+     "t0_ms": 2027200,
+     "text": "Inventory was $15.1 billion, up from $12.9 billion, built to support the revenue we expect"
+    },
+    {
+     "t0_ms": 2035160,
+     "text": "in coming quarters."
+    },
+    {
+     "t0_ms": 2037500,
+     "text": "We are in compliance with all covenants at Q1."
+    },
+    {
+     "t0_ms": 2043490,
+     "text": "On capital structure more broadly, we are starting from a strong foundation."
+    },
+    {
+     "t0_ms": 2047590,
+     "text": "The $5.6 billion we raised in June was raised specifically to fund the working capital behind"
+    },
+    {
+     "t0_ms": 2054610,
+     "text": "the orders we are now delivering."
+    },
+    {
+     "t0_ms": 2057610,
+     "text": "As we identify high-quality growth opportunities, we will optimize our capital structure to"
+    },
+    {
+     "t0_ms": 2064110,
+     "text": "support them, and we will do that in ways that fortify the balance sheet without compromising"
+    },
+    {
+     "t0_ms": 2068170,
+     "text": "the balance sheet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2069350,
+   "t1_ms": 2108790,
+   "speaker": "Management",
+   "text": "We will also be focusing on the fiscal year. Turning to guidance, for the second quarter of fiscal 2027, we expect net sales of",
+   "parts": [
+    {
+     "t0_ms": 2069350,
+     "text": "We will also be focusing on the"
+    },
+    {
+     "t0_ms": 2099350,
+     "text": "fiscal year. Turning to guidance, for the second quarter of fiscal 2027, we expect net sales of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2108790,
+   "t1_ms": 2150050,
+   "speaker": "Management",
+   "text": "$19.5 billion to $21.5 billion, and gross margin of 12% to 12.5%. We expect gap diluted earnings per share of $1.59 to $1.83, and non-gap diluted earnings per share of $1.66 to $1.90. That guidance assumes gap operating expenses of approximately $455 million, including approximately $102 million of stock-based compensation, which is excluded from non-gap.",
+   "parts": [
+    {
+     "t0_ms": 2108790,
+     "text": "$19.5 billion to $21.5 billion, and gross margin of 12% to 12.5%. We expect gap diluted earnings"
+    },
+    {
+     "t0_ms": 2120070,
+     "text": "per share of $1.59 to $1.83, and non-gap diluted earnings per share of $1.66 to $1.90."
+    },
+    {
+     "t0_ms": 2134250,
+     "text": "That guidance assumes gap operating expenses of approximately $455 million, including approximately"
+    },
+    {
+     "t0_ms": 2142350,
+     "text": "$102 million of stock-based compensation, which is excluded from non-gap."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2150070,
+   "t1_ms": 2188070,
+   "speaker": "Management",
+   "text": "We expect other income and expense, including interest expense, to result in a net expense of approximately $58 million. Gap and non-gap tax rates of approximately 21%, and gap diluted share count of approximately $753 million, and a non-gap diluted count of approximately $769 million. Preferred dividends of approximately $7.5 million, and non-gap tax rates of approximately $75 million, and capital expenditure of $70 million to $80 million. For the full fiscal year,",
+   "parts": [
+    {
+     "t0_ms": 2150070,
+     "text": "We expect other income and expense, including interest expense, to result in a net expense"
+    },
+    {
+     "t0_ms": 2156290,
+     "text": "of approximately $58 million. Gap and non-gap tax rates of approximately 21%, and gap diluted"
+    },
+    {
+     "t0_ms": 2167270,
+     "text": "share count of approximately $753 million, and a non-gap diluted count of approximately"
+    },
+    {
+     "t0_ms": 2175970,
+     "text": "$769 million. Preferred dividends of approximately $7.5 million, and non-gap tax rates of approximately"
+    },
+    {
+     "t0_ms": 2180050,
+     "text": "$75 million, and capital expenditure of $70 million to $80 million. For the full fiscal year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2188150,
+   "t1_ms": 2233090,
+   "speaker": "Management",
+   "text": "we are raising our revenue outlook to $72 billion to $82 billion, from $65 billion to $72 billion. We expect full year gross margin of 11.8% to 12.2%. Let me connect that to the quarter we just reported. Q1 included approximately $1.5 billion of gross margin of $1.5 billion, and non-gap tax rates of approximately $2.3 billion of catch-up from prior period deployments. So, underlying revenue was approximately $17.6 billion. The full year range does not assume back catch-up repeats. It does assume continued sequential growth in underlying demand, and it reflects materially",
+   "parts": [
+    {
+     "t0_ms": 2188150,
+     "text": "we are raising our revenue outlook to $72 billion to $82 billion, from $65 billion to $72 billion."
+    },
+    {
+     "t0_ms": 2197470,
+     "text": "We expect full year gross margin of 11.8% to 12.2%. Let me connect that to the quarter we just"
+    },
+    {
+     "t0_ms": 2207190,
+     "text": "reported. Q1 included approximately $1.5 billion of gross margin of $1.5 billion, and non-gap tax rates"
+    },
+    {
+     "t0_ms": 2210050,
+     "text": "of approximately $2.3 billion of catch-up from prior period deployments. So, underlying revenue"
+    },
+    {
+     "t0_ms": 2217090,
+     "text": "was approximately $17.6 billion. The full year range does not assume back catch-up repeats."
+    },
+    {
+     "t0_ms": 2226210,
+     "text": "It does assume continued sequential growth in underlying demand, and it reflects materially"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2233090,
+   "t1_ms": 2271870,
+   "speaker": "Management",
+   "text": "better visibility into customer deployment schedules than we had 90 days ago. Our business continues to strengthen and momentum is building for fiscal 2027. Although, we are gated by supply constraints and data center readiness, and we are focused on disciplined execution, credit worthy counterparties, and expanding our higher margin revenue streams. On margin, I want to be straightforward about what the full year range implies, with Q1 at 12.8%, and Q2 guided to 208, this will decrease a lot. and Q2 guided to 12 to 12.5%.",
+   "parts": [
+    {
+     "t0_ms": 2233090,
+     "text": "better visibility into customer deployment schedules than we had 90 days ago."
+    },
+    {
+     "t0_ms": 2240050,
+     "text": "Our business continues to strengthen and momentum is building for fiscal 2027. Although, we"
+    },
+    {
+     "t0_ms": 2247470,
+     "text": "are gated by supply constraints and data center readiness, and we are focused on disciplined"
+    },
+    {
+     "t0_ms": 2254570,
+     "text": "execution, credit worthy counterparties, and expanding our higher margin revenue streams."
+    },
+    {
+     "t0_ms": 2261070,
+     "text": "On margin, I want to be straightforward about what the full year range implies, with Q1 at 12.8%, and Q2 guided to 208, this will decrease a lot."
+    },
+    {
+     "t0_ms": 2268130,
+     "text": "and Q2 guided to 12 to 12.5%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2271870,
+   "t1_ms": 2316130,
+   "speaker": "Management",
+   "text": "The full year range implies gross margin in the second half below the first half. That is a mixed effect. We expect AI solutions to move toward the upper end of the 70 to 80% range as the large deployments in our backlog shift, and those carry lower gross margin than enterprise and channel verticals. Within each category, we expect margins to hold or improve. What governs the range is not demand, and it is not our ability to build. It is the pace at which customer facilities become ready to receive what we have already manufactured and the availability of key components.",
+   "parts": [
+    {
+     "t0_ms": 2271870,
+     "text": "The full year range implies gross margin in the second half below the first half."
+    },
+    {
+     "t0_ms": 2278950,
+     "text": "That is a mixed effect."
+    },
+    {
+     "t0_ms": 2280330,
+     "text": "We expect AI solutions to move toward the upper end of the 70 to 80% range"
+    },
+    {
+     "t0_ms": 2287530,
+     "text": "as the large deployments in our backlog shift,"
+    },
+    {
+     "t0_ms": 2291090,
+     "text": "and those carry lower gross margin than enterprise and channel verticals."
+    },
+    {
+     "t0_ms": 2295430,
+     "text": "Within each category, we expect margins to hold or improve."
+    },
+    {
+     "t0_ms": 2301390,
+     "text": "What governs the range is not demand, and it is not our ability to build."
+    },
+    {
+     "t0_ms": 2306510,
+     "text": "It is the pace at which customer facilities become ready to receive what we have already manufactured"
+    },
+    {
+     "t0_ms": 2313210,
+     "text": "and the availability of key components."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2317050,
+   "t1_ms": 2355210,
+   "speaker": "Management",
+   "text": "The binding constraints on AI build-outs across this industry right now are land, power, and data center shelves. We have better visibility into that than we did, and we will update you as the year progresses. Let me close where I started. This was a quarter of strong growth with high-quality customers. Revenue nearly quadrupled year over year. Gross margin came in well above our guidance, and customer prepayments funded most of the working capital needed to deliver it. Behind those results is a broad and innovative portfolio,",
+   "parts": [
+    {
+     "t0_ms": 2317050,
+     "text": "The binding constraints on AI build-outs across this industry right now are land, power, and data center shelves."
+    },
+    {
+     "t0_ms": 2325430,
+     "text": "We have better visibility into that than we did, and we will update you as the year progresses."
+    },
+    {
+     "t0_ms": 2332030,
+     "text": "Let me close where I started."
+    },
+    {
+     "t0_ms": 2334470,
+     "text": "This was a quarter of strong growth with high-quality customers."
+    },
+    {
+     "t0_ms": 2339310,
+     "text": "Revenue nearly quadrupled year over year."
+    },
+    {
+     "t0_ms": 2342810,
+     "text": "Gross margin came in well above our guidance,"
+    },
+    {
+     "t0_ms": 2346130,
+     "text": "and customer prepayments funded most of the working capital needed to deliver it."
+    },
+    {
+     "t0_ms": 2351390,
+     "text": "Behind those results is a broad and innovative portfolio,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2355430,
+   "t1_ms": 2399090,
+   "speaker": "Management",
+   "text": "from DC, VBS, rack scale, and liquid-cooled systems to enterprise storage, edge, and software. It positions us for the most demanding workloads and the widest range of use case in the AI build-out. My focus going forward is the one I described at the outset, financial discipline so that growth is profitable growth, transparency so that you can see how this business works from quarter to quarter, including the timing effects that moves our numbers. Deeper engagement with all of our stakeholders, working capital management, building on the improvement in our cash conversion cycle this quarter,",
+   "parts": [
+    {
+     "t0_ms": 2355430,
+     "text": "from DC, VBS, rack scale, and liquid-cooled systems to enterprise storage, edge, and software."
+    },
+    {
+     "t0_ms": 2365110,
+     "text": "It positions us for the most demanding workloads and the widest range of use case in the AI build-out."
+    },
+    {
+     "t0_ms": 2373110,
+     "text": "My focus going forward is the one I described at the outset,"
+    },
+    {
+     "t0_ms": 2377210,
+     "text": "financial discipline so that growth is profitable growth,"
+    },
+    {
+     "t0_ms": 2381270,
+     "text": "transparency so that you can see how this business works from quarter to quarter,"
+    },
+    {
+     "t0_ms": 2385970,
+     "text": "including the timing effects that moves our numbers."
+    },
+    {
+     "t0_ms": 2390390,
+     "text": "Deeper engagement with all of our stakeholders,"
+    },
+    {
+     "t0_ms": 2393790,
+     "text": "working capital management,"
+    },
+    {
+     "t0_ms": 2395590,
+     "text": "building on the improvement in our cash conversion cycle this quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2399450,
+   "t1_ms": 2414610,
+   "speaker": "Management",
+   "text": "and a capital structure optimized to support high-quality growth from a strong foundation. I'm looking forward to meeting many of you over the coming months. Michael, we are ready for questions. Great, Jan, let's poll for questions.",
+   "parts": [
+    {
+     "t0_ms": 2399450,
+     "text": "and a capital structure optimized to support high-quality growth from a strong foundation."
+    },
+    {
+     "t0_ms": 2406130,
+     "text": "I'm looking forward to meeting many of you over the coming months."
+    },
+    {
+     "t0_ms": 2409670,
+     "text": "Michael, we are ready for questions."
+    },
+    {
+     "t0_ms": 2412470,
+     "text": "Great, Jan, let's poll for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2415430,
+   "t1_ms": 2455990,
+   "speaker": "Operator",
+   "text": "Thank you. We will now begin the question and answer session. Please limit yourself to one question and one follow-up. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. We ask that you pick up your handset when asking a question to allow for optimum sound quality. If you are muted locally, please remember to unmute your device. Please stand by while we continue. We will now begin the Q&A session. Your first question comes from the line of Catherine Murphy with Goldman Sachs. Your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2415430,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2416970,
+     "text": "We will now begin the question and answer session."
+    },
+    {
+     "t0_ms": 2419850,
+     "text": "Please limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 2423670,
+     "text": "If you would like to ask a question, please press star 1 to raise your hand."
+    },
+    {
+     "t0_ms": 2429330,
+     "text": "To withdraw your question, press star 1 again."
+    },
+    {
+     "t0_ms": 2434030,
+     "text": "We ask that you pick up your handset when asking a question to allow for optimum sound quality."
+    },
+    {
+     "t0_ms": 2439750,
+     "text": "If you are muted locally, please remember to unmute your device."
+    },
+    {
+     "t0_ms": 2444370,
+     "text": "Please stand by while we continue."
+    },
+    {
+     "t0_ms": 2445270,
+     "text": "We will now begin the Q&A session."
+    },
+    {
+     "t0_ms": 2449270,
+     "text": "Your first question comes from the line of Catherine Murphy with Goldman Sachs."
+    },
+    {
+     "t0_ms": 2453990,
+     "text": "Your line is open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2456890,
+   "t1_ms": 2483880,
+   "speaker": "Analyst",
+   "text": "Great. Thank you for the question and great to connect. First, I want to ask just about the raised revenue outlook. Understand that land, power, and data center shelves are the binding constraints here. But wanted to understand in your full year outlook and then in your pipeline, what share of those projects do you have? What's the next step in the direction of the line of site into the off-takers and the committed volume there?",
+   "parts": [
+    {
+     "t0_ms": 2456890,
+     "text": "Great. Thank you for the question and great to connect."
+    },
+    {
+     "t0_ms": 2460470,
+     "text": "First, I want to ask just about the raised revenue outlook."
+    },
+    {
+     "t0_ms": 2464490,
+     "text": "Understand that land, power, and data center shelves are the binding constraints here."
+    },
+    {
+     "t0_ms": 2470210,
+     "text": "But wanted to understand in your full year outlook and then in your pipeline,"
+    },
+    {
+     "t0_ms": 2474110,
+     "text": "what share of those projects do you have?"
+    },
+    {
+     "t0_ms": 2476710,
+     "text": "What's the next step in the direction of the line of site into the off-takers and the committed volume there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2483880,
+   "t1_ms": 2528330,
+   "speaker": "Management",
+   "text": "And then I have a follow-up question. Thank you. Yeah. As you know, the power and even GPU, some component shortage, right? But because our solution outperform the industry's solution, so especially with our DCPBS. DCPBS not just provide a data center hardware building block, but software and service. customer build the data center quicker and also keep their computing power uptime much better. So indeed, we continue to gain more customers and gain market share. So we feel pretty optimistic for a continual market share growth.",
+   "parts": [
+    {
+     "t0_ms": 2483880,
+     "text": "And then I have a follow-up question. Thank you."
+    },
+    {
+     "t0_ms": 2485560,
+     "text": "Yeah. As you know, the power and even GPU, some component shortage, right?"
+    },
+    {
+     "t0_ms": 2494100,
+     "text": "But because our solution outperform the industry's solution, so especially with our DCPBS."
+    },
+    {
+     "t0_ms": 2501880,
+     "text": "DCPBS not just provide a data center hardware building block,"
+    },
+    {
+     "t0_ms": 2506500,
+     "text": "but software and service."
+    },
+    {
+     "t0_ms": 2508120,
+     "text": "customer build the data center quicker and also keep their computing power uptime much"
+    },
+    {
+     "t0_ms": 2514520,
+     "text": "better."
+    },
+    {
+     "t0_ms": 2515520,
+     "text": "So indeed, we continue to gain more customers and gain market share."
+    },
+    {
+     "t0_ms": 2519580,
+     "text": "So we feel pretty optimistic for a continual market share growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2528330,
+   "t1_ms": 2544890,
+   "speaker": "Analyst",
+   "text": "And then as a follow-up, could you talk more about the customer prepayments in the quarter and how we should think about that continuing to support your working capital efficiency going forward? Is that something we can expect in the value that DCBBS and the market share gain strategy that you've talked about?",
+   "parts": [
+    {
+     "t0_ms": 2528330,
+     "text": "And then as a follow-up, could you talk more about the customer prepayments in the quarter"
+    },
+    {
+     "t0_ms": 2532910,
+     "text": "and how we should think about that continuing to support your working capital efficiency"
+    },
+    {
+     "t0_ms": 2537170,
+     "text": "going forward?"
+    },
+    {
+     "t0_ms": 2538170,
+     "text": "Is that something we can expect in the value that DCBBS and the market share gain strategy"
+    },
+    {
+     "t0_ms": 2543890,
+     "text": "that you've talked about?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2544890,
+   "t1_ms": 2585400,
+   "speaker": "Management",
+   "text": "Yeah. As you know, I mean, now cash flow a little bit tied to lots of companies. But at the Schieber-Michael, because we have a better total solution, again, our DCBBS, that attract lots of customers. So basically, we see a good sign. Most of our customers are able to pay us on time. And we feel very started to continue to grow our business. Mark, you may add something. Yeah. I think the advantage, as Charles pointed out, is really around the quality of the customer base.",
+   "parts": [
+    {
+     "t0_ms": 2544890,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2547300,
+     "text": "As you know, I mean, now cash flow a little bit tied to lots of companies."
+    },
+    {
+     "t0_ms": 2552680,
+     "text": "But at the Schieber-Michael, because we have a better total solution, again, our DCBBS,"
+    },
+    {
+     "t0_ms": 2559020,
+     "text": "that attract lots of customers."
+    },
+    {
+     "t0_ms": 2560760,
+     "text": "So basically, we see a good sign."
+    },
+    {
+     "t0_ms": 2564960,
+     "text": "Most of our customers are able to pay us on time."
+    },
+    {
+     "t0_ms": 2568580,
+     "text": "And we feel very started to continue to grow our business."
+    },
+    {
+     "t0_ms": 2573340,
+     "text": "Mark, you may add something."
+    },
+    {
+     "t0_ms": 2575340,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2576340,
+     "text": "I think the advantage, as Charles pointed out, is really around the quality of the customer"
+    },
+    {
+     "t0_ms": 2584400,
+     "text": "base."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2585400,
+   "t1_ms": 2628340,
+   "speaker": "Management",
+   "text": "So very large creditworthy customers who pay very quickly. They provide very strong cash flow for us. The broad customer base is providing more prepayments. And that discipline enables us to fund a lot more of this working capital. And I think you should expect that to continue. So we feel like we're in very good position. The company has done a lot since they raised capital in the summer and since the cash conversion cycle has improved.",
+   "parts": [
+    {
+     "t0_ms": 2585400,
+     "text": "So very large creditworthy customers who pay very quickly."
+    },
+    {
+     "t0_ms": 2592760,
+     "text": "They provide very strong cash flow for us."
+    },
+    {
+     "t0_ms": 2598580,
+     "text": "The broad customer base is providing more prepayments."
+    },
+    {
+     "t0_ms": 2604580,
+     "text": "And that discipline enables us to fund a lot more of this working capital."
+    },
+    {
+     "t0_ms": 2611480,
+     "text": "And I think you should expect that to continue."
+    },
+    {
+     "t0_ms": 2616400,
+     "text": "So we feel like we're in very good position."
+    },
+    {
+     "t0_ms": 2620080,
+     "text": "The company has done a lot since they raised capital in the summer and since the cash conversion"
+    },
+    {
+     "t0_ms": 2627020,
+     "text": "cycle has improved."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2628580,
+   "t1_ms": 2671840,
+   "speaker": "Management",
+   "text": "So working capital efficiency has gone up substantially. Yeah. As we get share, we improve our business in terms of cash flow in two areas. One is we improve inventory and production turnaround time from about 100 days to now 70 days. And we believe we will be able to continue to improve that production and inventory turnaround time. Second phase, second point, as Mark just said, we get in have a higher quality customer. And those customers pay on time or even pay quick turnaround.",
+   "parts": [
+    {
+     "t0_ms": 2628580,
+     "text": "So working capital efficiency has gone up substantially."
+    },
+    {
+     "t0_ms": 2633580,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2634580,
+     "text": "As we get share, we improve our business in terms of cash flow in two areas."
+    },
+    {
+     "t0_ms": 2641520,
+     "text": "One is we improve inventory and production turnaround time from about 100 days to now"
+    },
+    {
+     "t0_ms": 2650200,
+     "text": "70 days."
+    },
+    {
+     "t0_ms": 2652020,
+     "text": "And we believe we will be able to continue to improve that production and inventory turnaround"
+    },
+    {
+     "t0_ms": 2658340,
+     "text": "time."
+    },
+    {
+     "t0_ms": 2659340,
+     "text": "Second phase, second point, as Mark just said, we get in have a higher quality customer."
+    },
+    {
+     "t0_ms": 2666160,
+     "text": "And those customers pay on time or even pay quick turnaround."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2671840,
+   "t1_ms": 2680810,
+   "speaker": "Management",
+   "text": "So we are very solid in this area.",
+   "parts": [
+    {
+     "t0_ms": 2671840,
+     "text": "So we are very solid in this area."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2680810,
+   "t1_ms": 2687650,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Ananda Barua with Loop Capital. Your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2680810,
+     "text": "Your next question comes from the line of Ananda Barua with Loop Capital."
+    },
+    {
+     "t0_ms": 2685650,
+     "text": "Your line is open."
+    },
+    {
+     "t0_ms": 2686650,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2687650,
+   "t1_ms": 2722810,
+   "speaker": "Analyst",
+   "text": "Yeah. Thanks, guys, for taking the question. Congrats on the progress. And thank you. Thank you. Thanks, Mark. And Mark, welcome. I have two if I could. I guess the first one, Mark, is just on the growth margin and the way to think about the dynamics that are layering in through the balance of the fiscal year. Correct me if I'm wrong here. I actually have to hit the midpoint of your guide while down in the second half of the year, sort of flat around 12% the next three quarters. So correct me if that's wrong.",
+   "parts": [
+    {
+     "t0_ms": 2687650,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2688650,
+     "text": "Thanks, guys, for taking the question."
+    },
+    {
+     "t0_ms": 2690810,
+     "text": "Congrats on the progress."
+    },
+    {
+     "t0_ms": 2691810,
+     "text": "And thank you."
+    },
+    {
+     "t0_ms": 2692810,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2693810,
+     "text": "Thanks, Mark."
+    },
+    {
+     "t0_ms": 2694810,
+     "text": "And Mark, welcome."
+    },
+    {
+     "t0_ms": 2695810,
+     "text": "I have two if I could."
+    },
+    {
+     "t0_ms": 2698810,
+     "text": "I guess the first one, Mark, is just on the growth margin and the way to think about the"
+    },
+    {
+     "t0_ms": 2704390,
+     "text": "dynamics that are layering in through the balance of the fiscal year."
+    },
+    {
+     "t0_ms": 2710190,
+     "text": "Correct me if I'm wrong here."
+    },
+    {
+     "t0_ms": 2711190,
+     "text": "I actually have to hit the midpoint of your guide while down in the second half of the"
+    },
+    {
+     "t0_ms": 2716310,
+     "text": "year, sort of flat around 12% the next three quarters."
+    },
+    {
+     "t0_ms": 2721810,
+     "text": "So correct me if that's wrong."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2722810,
+   "t1_ms": 2766050,
+   "speaker": "Analyst",
+   "text": "And then really the question is, you talked about AI mix sort of being a factor in there. Could you share a little bit about inside of the AI customer base? Like what are the moving parts on the margins? I think Charles in the past has talked about improvement in AI mix. I think that's a great question. Yeah. So I think the improvement in AI margins, sort of as in the go forward and just interested to know what the dynamics at play are, are there as you go through the rest of the fiscal year inside the AI margins. And then I have a quick follow up.",
+   "parts": [
+    {
+     "t0_ms": 2722810,
+     "text": "And then really the question is, you talked about AI mix sort of being a factor in there."
+    },
+    {
+     "t0_ms": 2734810,
+     "text": "Could you share a little bit about inside of the AI customer base?"
+    },
+    {
+     "t0_ms": 2742450,
+     "text": "Like what are the moving parts on the margins?"
+    },
+    {
+     "t0_ms": 2747090,
+     "text": "I think Charles in the past has talked about improvement in AI mix."
+    },
+    {
+     "t0_ms": 2749810,
+     "text": "I think that's a great question."
+    },
+    {
+     "t0_ms": 2750810,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2751810,
+     "text": "So I think the improvement in AI margins, sort of as in the go forward and just interested"
+    },
+    {
+     "t0_ms": 2758270,
+     "text": "to know what the dynamics at play are, are there as you go through the rest of the fiscal"
+    },
+    {
+     "t0_ms": 2763050,
+     "text": "year inside the AI margins."
+    },
+    {
+     "t0_ms": 2764050,
+     "text": "And then I have a quick follow up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2766050,
+   "t1_ms": 2810060,
+   "speaker": "Management",
+   "text": "Thanks. Yeah. As I just shared, in the last three quarters or four quarters, our production time and also our production quality, ERA, dramatically improved. And that's a big part of the growth. And I think that's a big part of the growth. And I think that's a big part of the growth. It's also a big part of the growth we can improve. And that make our turnaround time quicker and make our customer happier because of better TDD and better TTO, help customer time to online. So customer appreciate that. Plus our PCB is in service may help customer further. And better quality customer, we can be able to get more customers, especially including",
+   "parts": [
+    {
+     "t0_ms": 2766050,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2768300,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2769300,
+     "text": "As I just shared, in the last three quarters or four quarters, our production time and"
+    },
+    {
+     "t0_ms": 2777100,
+     "text": "also our production quality, ERA, dramatically improved."
+    },
+    {
+     "t0_ms": 2779060,
+     "text": "And that's a big part of the growth."
+    },
+    {
+     "t0_ms": 2780060,
+     "text": "And I think that's a big part of the growth."
+    },
+    {
+     "t0_ms": 2781060,
+     "text": "And I think that's a big part of the growth."
+    },
+    {
+     "t0_ms": 2782060,
+     "text": "It's also a big part of the growth we can improve."
+    },
+    {
+     "t0_ms": 2783400,
+     "text": "And that make our turnaround time quicker and make our customer happier because of better"
+    },
+    {
+     "t0_ms": 2791940,
+     "text": "TDD and better TTO, help customer time to online."
+    },
+    {
+     "t0_ms": 2797160,
+     "text": "So customer appreciate that."
+    },
+    {
+     "t0_ms": 2798860,
+     "text": "Plus our PCB is in service may help customer further."
+    },
+    {
+     "t0_ms": 2804680,
+     "text": "And better quality customer, we can be able to get more customers, especially including"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2810060,
+   "t1_ms": 2850680,
+   "speaker": "Management",
+   "text": "a enterprise agent. Yeah. uh asmo so uh those are positive impacting our business yeah and and i think just to kind of build on what charles said in terms of the guide for the year what you're seeing is you know we have good line of sight and now the business is stabilizing and kind of has this foundation in this 12 gross margin range with room as we continue to diversify our customer base and our",
+   "parts": [
+    {
+     "t0_ms": 2810060,
+     "text": "a enterprise agent."
+    },
+    {
+     "t0_ms": 2811060,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2812060,
+     "text": "uh asmo so uh those are positive impacting our business yeah and and i think just to kind of"
+    },
+    {
+     "t0_ms": 2823640,
+     "text": "build on what charles said in terms of the guide for the year what you're seeing is you know we"
+    },
+    {
+     "t0_ms": 2833480,
+     "text": "have good line of sight and now the business is stabilizing and kind of has this foundation"
+    },
+    {
+     "t0_ms": 2841320,
+     "text": "in this 12 gross margin range with room as we continue to diversify our customer base and our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2850680,
+   "t1_ms": 2892820,
+   "speaker": "Management",
+   "text": "product sets uh to uh expand those gross margins further so you know the precise modeling you know you're you're relatively close on on your original question but you know for us the the visibility is very important and i think that's a very important point and i think that's a very important point and i think that's a very important point uh and as charles pointed out the gross margin across all of our customer categories hasn't improved that's really the important thing and this is a function of what charles was talking about in terms of our great engineering our great",
+   "parts": [
+    {
+     "t0_ms": 2850680,
+     "text": "product sets uh to uh expand those gross margins further so you know the precise modeling you know"
+    },
+    {
+     "t0_ms": 2862280,
+     "text": "you're you're relatively close on on your original question but you know for us the the visibility"
+    },
+    {
+     "t0_ms": 2870920,
+     "text": "is very important and i think that's a very important point and i think that's a very important"
+    },
+    {
+     "t0_ms": 2871300,
+     "text": "point and i think that's a very important point uh and as charles pointed out the gross margin"
+    },
+    {
+     "t0_ms": 2876740,
+     "text": "across all of our customer categories hasn't improved that's really the important thing and"
+    },
+    {
+     "t0_ms": 2885300,
+     "text": "this is a function of what charles was talking about in terms of our great engineering our great"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2892820,
+   "t1_ms": 2937300,
+   "speaker": "Management",
+   "text": "product set and the execution of the team so you know we we feel like we're in a very good position at , you know, this scale and we see enormous opportunities going forward yeah like our people like our pc pps we provided not just data center building block solution hardware components but also software also have a customer kind of a keep up time so all those almost become one of our business mode so uh customers like our product uh more and more customers like our solution",
+   "parts": [
+    {
+     "t0_ms": 2892820,
+     "text": "product set and the execution of the team so you know we we feel like we're in a very good position"
+    },
+    {
+     "t0_ms": 2900500,
+     "text": "at"
+    },
+    {
+     "t0_ms": 2901300,
+     "text": ", you know, this scale and we see enormous opportunities going forward yeah like our"
+    },
+    {
+     "t0_ms": 2908900,
+     "text": "people like our pc pps we provided not just data center building block solution hardware"
+    },
+    {
+     "t0_ms": 2919540,
+     "text": "components but also software also have a customer"
+    },
+    {
+     "t0_ms": 2924260,
+     "text": "kind of a keep up time so all those almost become one of our business mode"
+    },
+    {
+     "t0_ms": 2931700,
+     "text": "so uh customers like our product uh more and more customers like our solution"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2939430,
+   "t1_ms": 2960150,
+   "speaker": "Analyst",
+   "text": "that's really great context guys and they could the quick follow-up is what what's a reasonable expectation for opportunity with the CPU business you know just with all the structural tailwinds as you go through the the fiscal year here and uh and that's it for me thanks yeah as you know",
+   "parts": [
+    {
+     "t0_ms": 2939430,
+     "text": "that's really great context guys and they could the quick follow-up is what what's a reasonable"
+    },
+    {
+     "t0_ms": 2944550,
+     "text": "expectation for opportunity with the CPU business you know just with all the structural tailwinds"
+    },
+    {
+     "t0_ms": 2952790,
+     "text": "as you go through the the fiscal year here and uh and that's it for me thanks yeah as you know"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2960150,
+   "t1_ms": 2988110,
+   "speaker": "Management",
+   "text": "Argentic AI is getting very popular. So we're getting lots of customers, including lots of enterprise customers. They are buying our CPU-based solution, including Intel CPU-based AMD, including NVIDIA Veriline. Our NVIDIA Veriline solution is ready, and including ARM solution. So we see a much stronger CPU demand now and looking forward.",
+   "parts": [
+    {
+     "t0_ms": 2960150,
+     "text": "Argentic AI is getting very popular."
+    },
+    {
+     "t0_ms": 2962690,
+     "text": "So we're getting lots of customers,"
+    },
+    {
+     "t0_ms": 2964990,
+     "text": "including lots of enterprise customers."
+    },
+    {
+     "t0_ms": 2967570,
+     "text": "They are buying our CPU-based solution,"
+    },
+    {
+     "t0_ms": 2971090,
+     "text": "including Intel CPU-based AMD,"
+    },
+    {
+     "t0_ms": 2974290,
+     "text": "including NVIDIA Veriline."
+    },
+    {
+     "t0_ms": 2976590,
+     "text": "Our NVIDIA Veriline solution is ready,"
+    },
+    {
+     "t0_ms": 2979590,
+     "text": "and including ARM solution."
+    },
+    {
+     "t0_ms": 2981090,
+     "text": "So we see a much stronger CPU demand now"
+    },
+    {
+     "t0_ms": 2986830,
+     "text": "and looking forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2988110,
+   "t1_ms": 2997850,
+   "speaker": "Operator",
+   "text": "So your next question comes from the line of Joseph Cardoso with JP Morgan. Your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2988110,
+     "text": "So your next question comes from the line"
+    },
+    {
+     "t0_ms": 2993110,
+     "text": "of Joseph Cardoso with JP Morgan."
+    },
+    {
+     "t0_ms": 2995930,
+     "text": "Your line is open."
+    },
+    {
+     "t0_ms": 2997110,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2999970,
+   "t1_ms": 3043830,
+   "speaker": "Analyst",
+   "text": "Hi, thanks for the questions here. And Mark, looking forward to working with you. Maybe just for my first, if I could, you know, it sounds like in your prepared remarks, you're not including any more catch-up or deferred deliveries in the guidance. But I guess maybe first question here is just, can you just clarify if there are still deferred deliveries that are remaining? And just to clarify, I'm just not embedded in the outlook. And then the second portion of that question is more as we kind of strip that out of the numbers, you're still kind of implying moderation and growth coming into the second half of the year versus the first half. But maybe can you just walk us through the dynamics that are influencing that? And if it has anything to do maybe with the concentration with your largest customer here, maybe fading going into the back half.",
+   "parts": [
+    {
+     "t0_ms": 2999970,
+     "text": "Hi, thanks for the questions here."
+    },
+    {
+     "t0_ms": 3001790,
+     "text": "And Mark, looking forward to working with you."
+    },
+    {
+     "t0_ms": 3004410,
+     "text": "Maybe just for my first, if I could,"
+    },
+    {
+     "t0_ms": 3006830,
+     "text": "you know, it sounds like in your prepared remarks,"
+    },
+    {
+     "t0_ms": 3009950,
+     "text": "you're not including any more catch-up"
+    },
+    {
+     "t0_ms": 3011610,
+     "text": "or deferred deliveries in the guidance."
+    },
+    {
+     "t0_ms": 3014250,
+     "text": "But I guess maybe first question here is just,"
+    },
+    {
+     "t0_ms": 3017470,
+     "text": "can you just clarify if there are still deferred deliveries"
+    },
+    {
+     "t0_ms": 3020590,
+     "text": "that are remaining?"
+    },
+    {
+     "t0_ms": 3021550,
+     "text": "And just to clarify,"
+    },
+    {
+     "t0_ms": 3021670,
+     "text": "I'm just not embedded in the outlook."
+    },
+    {
+     "t0_ms": 3023350,
+     "text": "And then the second portion of that question is more"
+    },
+    {
+     "t0_ms": 3025550,
+     "text": "as we kind of strip that out of the numbers,"
+    },
+    {
+     "t0_ms": 3027750,
+     "text": "you're still kind of implying moderation and growth"
+    },
+    {
+     "t0_ms": 3030250,
+     "text": "coming into the second half of the year"
+    },
+    {
+     "t0_ms": 3032130,
+     "text": "versus the first half."
+    },
+    {
+     "t0_ms": 3033550,
+     "text": "But maybe can you just walk us through the dynamics"
+    },
+    {
+     "t0_ms": 3035550,
+     "text": "that are influencing that?"
+    },
+    {
+     "t0_ms": 3037490,
+     "text": "And if it has anything to do maybe with the concentration"
+    },
+    {
+     "t0_ms": 3040150,
+     "text": "with your largest customer here,"
+    },
+    {
+     "t0_ms": 3042130,
+     "text": "maybe fading going into the back half."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3043970,
+   "t1_ms": 3045730,
+   "speaker": "Analyst",
+   "text": "And then I do have a follow-up. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3043970,
+     "text": "And then I do have a follow-up."
+    },
+    {
+     "t0_ms": 3045470,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3048540,
+   "t1_ms": 3093360,
+   "speaker": "Management",
+   "text": "Yeah, I think the key point about deferred revenue historically kind of looking back was that there was, you know, this set of deliveries and deployments that had been delayed and they had been carried over from product quarters. In, you know, a typical quarter, you will have some revenue recognition based on deliveries and you may have one or two deployments that are delayed. But, you know, those, that was a larger than typical amount of revenue that had been deferred. And when that was released, that caused, you know, a number of things.",
+   "parts": [
+    {
+     "t0_ms": 3048540,
+     "text": "Yeah, I think the key point about deferred revenue"
+    },
+    {
+     "t0_ms": 3051920,
+     "text": "historically kind of looking back"
+    },
+    {
+     "t0_ms": 3054820,
+     "text": "was that there was, you know,"
+    },
+    {
+     "t0_ms": 3058160,
+     "text": "this set of deliveries and deployments"
+    },
+    {
+     "t0_ms": 3063080,
+     "text": "that had been delayed"
+    },
+    {
+     "t0_ms": 3064440,
+     "text": "and they had been carried over from product quarters."
+    },
+    {
+     "t0_ms": 3069220,
+     "text": "In, you know, a typical quarter,"
+    },
+    {
+     "t0_ms": 3072480,
+     "text": "you will have some revenue recognition"
+    },
+    {
+     "t0_ms": 3074660,
+     "text": "based on deliveries"
+    },
+    {
+     "t0_ms": 3075940,
+     "text": "and you may have one or two deployments"
+    },
+    {
+     "t0_ms": 3078720,
+     "text": "that are delayed."
+    },
+    {
+     "t0_ms": 3079480,
+     "text": "But, you know,"
+    },
+    {
+     "t0_ms": 3081440,
+     "text": "those,"
+    },
+    {
+     "t0_ms": 3081800,
+     "text": "that was a larger than typical amount of revenue"
+    },
+    {
+     "t0_ms": 3087000,
+     "text": "that had been deferred."
+    },
+    {
+     "t0_ms": 3089020,
+     "text": "And when that was released,"
+    },
+    {
+     "t0_ms": 3090880,
+     "text": "that caused, you know, a number of things."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3093500,
+   "t1_ms": 3135620,
+   "speaker": "Management",
+   "text": "Revenue went up. And as we mentioned, that was margin dilutive on an overall basis. But going forward, we don't expect the same types and the same magnitude of delayed deployments through the second half of the year. So, we still expect a lot from Flexter. For the most part, it is going to be the deferred revenue. And most of the deferred revenue is either customer prepayments or, you know, we have our service and software revenue that, you know, we typically defer over a number of periods. Yeah. The good thing is, you know,",
+   "parts": [
+    {
+     "t0_ms": 3093500,
+     "text": "Revenue went up."
+    },
+    {
+     "t0_ms": 3094740,
+     "text": "And as we mentioned,"
+    },
+    {
+     "t0_ms": 3095640,
+     "text": "that was margin dilutive on an overall basis."
+    },
+    {
+     "t0_ms": 3100260,
+     "text": "But going forward,"
+    },
+    {
+     "t0_ms": 3101860,
+     "text": "we don't expect the same types"
+    },
+    {
+     "t0_ms": 3104940,
+     "text": "and the same magnitude"
+    },
+    {
+     "t0_ms": 3106260,
+     "text": "of delayed deployments"
+    },
+    {
+     "t0_ms": 3110760,
+     "text": "through the second half of the year."
+    },
+    {
+     "t0_ms": 3111740,
+     "text": "So, we still expect a lot from Flexter."
+    },
+    {
+     "t0_ms": 3113120,
+     "text": "For the most part,"
+    },
+    {
+     "t0_ms": 3113980,
+     "text": "it is going to be the deferred revenue."
+    },
+    {
+     "t0_ms": 3114820,
+     "text": "And most of the deferred revenue"
+    },
+    {
+     "t0_ms": 3115960,
+     "text": "is either customer prepayments or, you know,"
+    },
+    {
+     "t0_ms": 3121320,
+     "text": "we have our service and software revenue that,"
+    },
+    {
+     "t0_ms": 3128460,
+     "text": "you know, we typically defer over a number of periods."
+    },
+    {
+     "t0_ms": 3133260,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3134040,
+     "text": "The good thing is, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3135620,
+   "t1_ms": 3180220,
+   "speaker": "Management",
+   "text": "since we introduced DCBBAs, some of our customers, and some of our consumers, even our internal people are a little bit confused. So that's why they kind of have a certain argument about when to recognize. But now our DCPBS is a much mature business. So not just our internal people now familiar with our DCPBS and customer understand which services they buy, which services they do not buy. So we should not cover that. So since it's getting much clearer, much mature. So that will help our before in revenue cover up.",
+   "parts": [
+    {
+     "t0_ms": 3135620,
+     "text": "since we introduced DCBBAs, some of our customers,"
+    },
+    {
+     "t0_ms": 3140940,
+     "text": "and some of our consumers,"
+    },
+    {
+     "t0_ms": 3141680,
+     "text": "even our internal people are a little bit confused."
+    },
+    {
+     "t0_ms": 3145280,
+     "text": "So that's why they kind of have a certain argument"
+    },
+    {
+     "t0_ms": 3150000,
+     "text": "about when to recognize."
+    },
+    {
+     "t0_ms": 3151600,
+     "text": "But now our DCPBS is a much mature business."
+    },
+    {
+     "t0_ms": 3156760,
+     "text": "So not just our internal people"
+    },
+    {
+     "t0_ms": 3159800,
+     "text": "now familiar with our DCPBS"
+    },
+    {
+     "t0_ms": 3162320,
+     "text": "and customer understand which services they buy,"
+    },
+    {
+     "t0_ms": 3166820,
+     "text": "which services they do not buy."
+    },
+    {
+     "t0_ms": 3168980,
+     "text": "So we should not cover that."
+    },
+    {
+     "t0_ms": 3170960,
+     "text": "So since it's getting much clearer, much mature."
+    },
+    {
+     "t0_ms": 3175220,
+     "text": "So that will help our before in revenue cover up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3181300,
+   "t1_ms": 3219800,
+   "speaker": "Management",
+   "text": "Yeah. And the second question regarding guidance and moderation in growth in the second half, what you're really hearing is just our sort of range of expectations based on the supply constraints and, you know, trying to get the supply constraints and the demand to engage where the data center readiness for large deployments will land us. But as we mentioned in the prepared remarks, demand remains extremely strong and especially the interest in the DCPBS product portfolio.",
+   "parts": [
+    {
+     "t0_ms": 3181300,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3182140,
+     "text": "And the second question regarding guidance"
+    },
+    {
+     "t0_ms": 3185400,
+     "text": "and moderation in growth in the second half,"
+    },
+    {
+     "t0_ms": 3191100,
+     "text": "what you're really hearing is just our sort of range"
+    },
+    {
+     "t0_ms": 3195860,
+     "text": "of expectations based on the supply constraints"
+    },
+    {
+     "t0_ms": 3199380,
+     "text": "and, you know,"
+    },
+    {
+     "t0_ms": 3200360,
+     "text": "trying to get the supply constraints"
+    },
+    {
+     "t0_ms": 3200940,
+     "text": "and the demand to engage where the data center readiness"
+    },
+    {
+     "t0_ms": 3204440,
+     "text": "for large deployments will land us."
+    },
+    {
+     "t0_ms": 3207520,
+     "text": "But as we mentioned in the prepared remarks,"
+    },
+    {
+     "t0_ms": 3211880,
+     "text": "demand remains extremely strong"
+    },
+    {
+     "t0_ms": 3214800,
+     "text": "and especially the interest in the DCPBS product portfolio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3223920,
+   "t1_ms": 3268380,
+   "speaker": "Analyst",
+   "text": "Now, got it very clear. And then maybe as my second one, just dovetailing off of that a little bit, and maybe this is a two-parter as well, but you know, you're talking about maybe shortage, you know, and maybe this is a two-parter as well, but you know, you're talking about maybe shortage, and maybe this is a two-parter as well, but you know, you're talking about maybe shortage, is here going into, or one of the supply kindness I guess in terms of the total ecosystem. Can you maybe just touch on what's the most mining constraint as you think about the 2Q and second-half outlook, is it largely associated with the GTUs or is it other elements on the component side? And then the second question is just more around, obviously, within this backdrop of shortages, pricing has obviously been a strong element in terms of pass through, and you wait, you can kind of help us think through as we think about your 27 outlook how much of the growth is",
+   "parts": [
+    {
+     "t0_ms": 3223920,
+     "text": "Now, got it very clear."
+    },
+    {
+     "t0_ms": 3225600,
+     "text": "And then maybe as my second one,"
+    },
+    {
+     "t0_ms": 3227280,
+     "text": "just dovetailing off of that a little bit,"
+    },
+    {
+     "t0_ms": 3229520,
+     "text": "and maybe this is a two-parter as well,"
+    },
+    {
+     "t0_ms": 3231520,
+     "text": "but you know, you're talking about maybe shortage, you know,"
+    },
+    {
+     "t0_ms": 3232400,
+     "text": "and maybe this is a two-parter as well, but you know, you're talking about maybe shortage,"
+    },
+    {
+     "t0_ms": 3233400,
+     "text": "and maybe this is a two-parter as well, but you know, you're talking about maybe shortage,"
+    },
+    {
+     "t0_ms": 3234100,
+     "text": "is here going into,"
+    },
+    {
+     "t0_ms": 3235380,
+     "text": "or one of the supply kindness I guess"
+    },
+    {
+     "t0_ms": 3237860,
+     "text": "in terms of the total ecosystem."
+    },
+    {
+     "t0_ms": 3239720,
+     "text": "Can you maybe just touch on what's the most mining constraint"
+    },
+    {
+     "t0_ms": 3242860,
+     "text": "as you think about the 2Q and second-half outlook,"
+    },
+    {
+     "t0_ms": 3245560,
+     "text": "is it largely associated with the GTUs"
+    },
+    {
+     "t0_ms": 3248280,
+     "text": "or is it other elements on the component side?"
+    },
+    {
+     "t0_ms": 3252100,
+     "text": "And then the second question is just more around,"
+    },
+    {
+     "t0_ms": 3255120,
+     "text": "obviously, within this backdrop of shortages,"
+    },
+    {
+     "t0_ms": 3257820,
+     "text": "pricing has obviously been a strong element"
+    },
+    {
+     "t0_ms": 3261040,
+     "text": "in terms of pass through,"
+    },
+    {
+     "t0_ms": 3262580,
+     "text": "and you wait,"
+    },
+    {
+     "t0_ms": 3263500,
+     "text": "you can kind of help us think through as we think about your 27 outlook how much of the growth is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3268380,
+   "t1_ms": 3275420,
+   "speaker": "Analyst",
+   "text": "being driven by units as opposed to cost faster thank you yeah very good question i mean the",
+   "parts": [
+    {
+     "t0_ms": 3268380,
+     "text": "being driven by units as opposed to cost faster thank you yeah very good question i mean the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3275420,
+   "t1_ms": 3320300,
+   "speaker": "Management",
+   "text": "reason why we have a conservative number for annual revenue 72 to 82 billion because we are concerning about some key components shortage and also uh meco economy so if the component shortage won't be a big issue and if the medical economy is health then for sure our second half will be much bigger than our first half so we hope to show and that's why we are very optimistic to see uh our second half have a much better performance than first half and even as the case 72 to 82 billion become very very conservative",
+   "parts": [
+    {
+     "t0_ms": 3275420,
+     "text": "reason why we have a conservative number for annual revenue 72 to 82 billion because we are"
+    },
+    {
+     "t0_ms": 3283180,
+     "text": "concerning about some key components shortage and also uh meco economy so if the component"
+    },
+    {
+     "t0_ms": 3294380,
+     "text": "shortage won't be a big issue and if the medical economy is health then for sure our second half"
+    },
+    {
+     "t0_ms": 3302620,
+     "text": "will be much bigger than our first half so we hope to show and that's why we are very optimistic"
+    },
+    {
+     "t0_ms": 3310460,
+     "text": "to see uh our second half have a much better"
+    },
+    {
+     "t0_ms": 3313180,
+     "text": "performance than first half and even as the case 72 to 82 billion become very very conservative"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3322140,
+   "t1_ms": 3363820,
+   "speaker": "Management",
+   "text": "yeah and you know i think your point about the growth in asps uh really driven by the um the cost of key components that it's been going up sometimes more than quarterly um you know our outlook does not uh for for the second half does not uh you know encompass significant growth in asps so um you know again we have a relatively conservative approach there and we're really",
+   "parts": [
+    {
+     "t0_ms": 3322140,
+     "text": "yeah and you know i think your point about the growth in asps uh really driven by the um"
+    },
+    {
+     "t0_ms": 3333340,
+     "text": "the cost of key components that it's been going up sometimes more than quarterly um you know our"
+    },
+    {
+     "t0_ms": 3343180,
+     "text": "outlook does not uh for for the second half does not uh you know encompass significant growth in"
+    },
+    {
+     "t0_ms": 3353740,
+     "text": "asps so um you know again we have a relatively conservative approach there and we're really"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3363820,
+   "t1_ms": 3391120,
+   "speaker": "Management",
+   "text": "looking at the details of customer deployments you know what they need which product sets what our capacity is and kind of how to manage that. And as Charles pointed out, our demand far outstrips the availability of key components. Your next question comes from the line",
+   "parts": [
+    {
+     "t0_ms": 3363820,
+     "text": "looking at the details of customer deployments you know what they need which product sets what our"
+    },
+    {
+     "t0_ms": 3373180,
+     "text": "capacity is and kind of how to manage that. And as Charles pointed out, our demand far outstrips"
+    },
+    {
+     "t0_ms": 3381960,
+     "text": "the availability of key components. Your next question comes from the line"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3391120,
+   "t1_ms": 3395600,
+   "speaker": "Operator",
+   "text": "of Rupaloo Bhattacharya with Bank of America. Your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3391120,
+     "text": "of Rupaloo Bhattacharya with Bank of America. Your line is open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3396280,
+   "t1_ms": 3420980,
+   "speaker": "Analyst",
+   "text": "Hi, thanks for taking my questions. And Mark, congrats on the role, and I look forward to working with you. Maybe I'll ask you my first question. As you look out over the next 12 months, do you think Supermicro has enough cash and cash flow to self-fund the investments that are needed to support the strong growth that you're seeing? What would cause you to raise more capital? And do you have a preference for debt versus equity? And I have a follow-up.",
+   "parts": [
+    {
+     "t0_ms": 3396280,
+     "text": "Hi, thanks for taking my questions. And Mark, congrats on the role, and I look forward to"
+    },
+    {
+     "t0_ms": 3400100,
+     "text": "working with you. Maybe I'll ask you my first question. As you look out over the next 12 months,"
+    },
+    {
+     "t0_ms": 3405820,
+     "text": "do you think Supermicro has enough cash and cash flow to self-fund the investments that are needed"
+    },
+    {
+     "t0_ms": 3412060,
+     "text": "to support the strong growth that you're seeing? What would cause you to raise more capital?"
+    },
+    {
+     "t0_ms": 3417280,
+     "text": "And do you have a preference for debt versus equity? And I have a follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3423010,
+   "t1_ms": 3467170,
+   "speaker": "Management",
+   "text": "Very good question. As you know, by the end of the last quarter, our cash is 6 billion. Yeah. We never have so much cash. In the bank. So, indeed, the cash flow at this moment, we don't worry. Even if second half continue to grow strongly, if the macro economy is healthy, our cash flow is in much stronger position than before ever. Right. Yeah. As Charles pointed out, I mean, starting with $6.9 billion of cash puts us in a very good position. And I think that's a very good position. And I think that's a very good position.",
+   "parts": [
+    {
+     "t0_ms": 3423010,
+     "text": "Very good question. As you know, by the end of the last quarter, our cash is 6 billion."
+    },
+    {
+     "t0_ms": 3432090,
+     "text": "Yeah. We never have so much cash."
+    },
+    {
+     "t0_ms": 3437190,
+     "text": "In the bank. So, indeed, the cash flow at this moment, we don't worry."
+    },
+    {
+     "t0_ms": 3443510,
+     "text": "Even if second half continue to grow strongly, if the macro economy is healthy,"
+    },
+    {
+     "t0_ms": 3451890,
+     "text": "our cash flow is in much stronger position than before ever."
+    },
+    {
+     "t0_ms": 3457250,
+     "text": "Right. Yeah. As Charles pointed out, I mean, starting with $6.9 billion of cash puts us in a"
+    },
+    {
+     "t0_ms": 3466250,
+     "text": "very good position. And I think that's a very good position. And I think that's a very good position."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3467190,
+   "t1_ms": 3508950,
+   "speaker": "Management",
+   "text": "As we mentioned, our working capital efficiency has gone up, our ability to fund our working capital needs through our focus on high-quality customers and some customer prepayments. That puts us in a great position so that we can optimize our capital structure. We can think about trade-offs if we have very attractive opportunities that require, you know, some cash flow. There are big market institutions that we have to invest in. I think there is a lot of opportunity to invest in that. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3467190,
+     "text": "As we mentioned, our working capital efficiency has gone up, our ability to fund"
+    },
+    {
+     "t0_ms": 3472110,
+     "text": "our working capital needs through our focus on high-quality customers and some customer"
+    },
+    {
+     "t0_ms": 3481150,
+     "text": "prepayments. That puts us in a great position so that we can optimize our capital structure."
+    },
+    {
+     "t0_ms": 3488330,
+     "text": "We can think about trade-offs if we have very attractive opportunities that require,"
+    },
+    {
+     "t0_ms": 3497190,
+     "text": "you know, some cash flow."
+    },
+    {
+     "t0_ms": 3498330,
+     "text": "There are big market institutions that we have to invest in."
+    },
+    {
+     "t0_ms": 3502190,
+     "text": "I think there is a lot of opportunity to invest in that."
+    },
+    {
+     "t0_ms": 3507650,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3508950,
+   "t1_ms": 3541250,
+   "speaker": "Management",
+   "text": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434.com Gain and then the equity market. And then we have our $1.8 billion capitalized facility. As we said, we have some incremental funding. We have our $1.8 billion working capital facility. as far as the debt markets, I think we would look at kind of, you know, what was available and how it would best position the company for continued success and provide us with the right,",
+   "parts": [
+    {
+     "t0_ms": 3508950,
+     "text": "\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434.com Gain and then the equity market."
+    },
+    {
+     "t0_ms": 3513650,
+     "text": "And then we have our $1.8 billion capitalized facility."
+    },
+    {
+     "t0_ms": 3519150,
+     "text": "As we said, we have some incremental funding."
+    },
+    {
+     "t0_ms": 3521730,
+     "text": "We have our $1.8 billion working capital facility."
+    },
+    {
+     "t0_ms": 3525510,
+     "text": "as far as the debt markets, I think we would look at kind of, you know, what was available"
+    },
+    {
+     "t0_ms": 3532210,
+     "text": "and how it would best position the company for continued success and provide us with the right,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3541370,
+   "t1_ms": 3559250,
+   "speaker": "Operator",
+   "text": "you know, leverage structure. Due to time constraints, we'll be taking one final question. This question comes from the line of George Notter with Wolf Research. Your line is",
+   "parts": [
+    {
+     "t0_ms": 3541370,
+     "text": "you know, leverage structure. Due to time constraints, we'll be taking one final"
+    },
+    {
+     "t0_ms": 3552930,
+     "text": "question. This question comes from the line of George Notter with Wolf Research. Your line is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3559250,
+   "t1_ms": 3582050,
+   "speaker": "Analyst",
+   "text": "open. Please go ahead. Hi, guys. It's Brendan Rogers on for George. I guess just a question on what's changed in your conversations with customers in the last 90 days in order to get this better visibility. Like, is this a feature of today's market? Like, customers are extending the forecast timelines that they're giving you? Or is this sort of more of a shift in how you're",
+   "parts": [
+    {
+     "t0_ms": 3559250,
+     "text": "open. Please go ahead. Hi, guys. It's Brendan Rogers on for George. I guess just a question"
+    },
+    {
+     "t0_ms": 3567570,
+     "text": "on what's changed in your conversations with customers in the last 90 days in order to get"
+    },
+    {
+     "t0_ms": 3572810,
+     "text": "this better visibility. Like, is this a feature of today's market? Like, customers are extending"
+    },
+    {
+     "t0_ms": 3577530,
+     "text": "the forecast timelines that they're giving you? Or is this sort of more of a shift in how you're"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3582050,
+   "t1_ms": 3621740,
+   "speaker": "Management",
+   "text": "managing the business? Yeah, as we mentioned, we have a strong back order. And you know, we've been doing a lot of work on the back order. And we've been doing a lot of work on so we have a choice to select healthy customers and customer order quality, customer quality, very important to us. So we have a chance to select it from some point of view. Yeah, and I think as Charles pointed out, we are getting better visibility from",
+   "parts": [
+    {
+     "t0_ms": 3582050,
+     "text": "managing the business? Yeah, as we mentioned, we have a strong back order. And"
+    },
+    {
+     "t0_ms": 3590820,
+     "text": "you know, we've been doing a lot of work on the back order. And we've been doing a lot of work on"
+    },
+    {
+     "t0_ms": 3591780,
+     "text": "so we have a choice to select healthy customers and customer order quality, customer quality,"
+    },
+    {
+     "t0_ms": 3604260,
+     "text": "very important to us. So we have a chance to select it from some point of view."
+    },
+    {
+     "t0_ms": 3613480,
+     "text": "Yeah, and I think as Charles pointed out, we are getting better visibility from"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3621780,
+   "t1_ms": 3649280,
+   "speaker": "Management",
+   "text": "a number of our customers, some very large, some moderately large, and we're getting, you know, visibility across geographies. And the growth of the enterprise business is another factor that will, you know, provide enhanced visibility and stability to our overall",
+   "parts": [
+    {
+     "t0_ms": 3621780,
+     "text": "a number of our customers, some very large, some moderately large, and we're getting,"
+    },
+    {
+     "t0_ms": 3630900,
+     "text": "you know, visibility across geographies. And the growth of the enterprise business"
+    },
+    {
+     "t0_ms": 3638980,
+     "text": "is another factor that will, you know, provide enhanced visibility and stability to our overall"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3649280,
+   "t1_ms": 3661340,
+   "speaker": "Operator",
+   "text": "revenue stream. We have reached the end of the Q&A session. This concludes today's call. Thank you for attending. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3649280,
+     "text": "revenue stream. We have reached the end of the Q&A session. This concludes today's call."
+    },
+    {
+     "t0_ms": 3658940,
+     "text": "Thank you for attending. You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

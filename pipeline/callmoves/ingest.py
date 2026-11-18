@@ -24,7 +24,7 @@ from .docs import load_doc
 from .market import bars_for_call
 from .transcript import call_start_ms, diarize, label_speakers, merge_turns, transcribe
 
-_MODAL_TIMEOUT_S = 1200   # past this no GPU was scheduled, so the CPU takes over
+_MODAL_TIMEOUT_S = 2400   # the remote function stops at 1800 s, the rest covers waiting for a GPU
 
 
 def main(argv=None):
@@ -78,8 +78,12 @@ def main(argv=None):
                 raw, voices, err, stats = call.get(timeout=_MODAL_TIMEOUT_S)
                 gpu_h = GPU_USD_H.get(stats["gpu"], max(GPU_USD_H.values()))   # an unlisted GPU is priced high
                 stats["gpu_usd"] = round(stats["gpu_s"] / 3600 * (gpu_h + HOST_USD_H), 4)
-            except Exception as e:  # noqa: BLE001 - no GPU scheduled (no payment method) or a remote failure
+            except Exception as e:  # no GPU scheduled (no payment method) or a remote failure
                 call.cancel()
+                # only a GitHub runner falls back to its CPU: locally CLS Q3-2026 took 3.4 h and held the laptop, so
+                # the call fails and a later batch retries it
+                if not os.environ.get("GITHUB_ACTIONS"):
+                    raise RuntimeError(f"Modal failed: {type(e).__name__}: {str(e)[:200]}") from e
                 print(f"  Modal failed, falling back to the CPU: {type(e).__name__}: {str(e)[:200]}", flush=True)
         if raw is None:
             print(f"transcribing {args.audio} with faster-whisper {args.model} ...", flush=True)

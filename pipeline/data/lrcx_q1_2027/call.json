@@ -1,0 +1,5335 @@
+{
+ "ticker": "LRCX",
+ "quarter": "Q1-2027",
+ "company": "Lam Research",
+ "call_start": "2026-10-21T17:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/LRCX_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 9280,
+   "speaker": "Operator",
+   "text": "Please also note, today's event is being recorded. I would now like to turn the conference over to Ram Ganesh, Vice President, Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Please also note, today's event is being recorded."
+    },
+    {
+     "t0_ms": 3720,
+     "text": "I would now like to turn the conference over to Ram Ganesh, Vice President, Investor Relations."
+    },
+    {
+     "t0_ms": 8540,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 10640,
+   "t1_ms": 54240,
+   "speaker": "Management",
+   "text": "Thank you, and good afternoon, everyone. Welcome to the LAM Research Quarterly Earnings Conference Call. With me today are Tim Archer, President and Chief Executive Officer, and Doug Bettinger, Executive Vice President and Chief Financial Officer. During today's call, we will share our overview on the business environment, and we will review our financial results for the September 2026 quarter and our outlook for the December 2026 quarter. The press release detailing our financial results was distributed a little after 1 p.m. Pacific time. The release and the accompanying presentation slides for today's call can be also found on the Investor section of the company's website. Today's presentation and Q&A include forward-looking statements",
+   "parts": [
+    {
+     "t0_ms": 10640,
+     "text": "Thank you, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 13220,
+     "text": "Welcome to the LAM Research Quarterly Earnings Conference Call."
+    },
+    {
+     "t0_ms": 16740,
+     "text": "With me today are Tim Archer, President and Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 20740,
+     "text": "and Doug Bettinger, Executive Vice President and Chief Financial Officer."
+    },
+    {
+     "t0_ms": 25260,
+     "text": "During today's call, we will share our overview on the business environment,"
+    },
+    {
+     "t0_ms": 28740,
+     "text": "and we will review our financial results for the September 2026 quarter"
+    },
+    {
+     "t0_ms": 32880,
+     "text": "and our outlook for the December 2026 quarter."
+    },
+    {
+     "t0_ms": 36960,
+     "text": "The press release detailing our financial results was distributed a little after 1 p.m. Pacific time."
+    },
+    {
+     "t0_ms": 42820,
+     "text": "The release and the accompanying presentation slides for today's call"
+    },
+    {
+     "t0_ms": 46160,
+     "text": "can be also found on the Investor section of the company's website."
+    },
+    {
+     "t0_ms": 51200,
+     "text": "Today's presentation and Q&A include forward-looking statements"
+    }
+   ]
+  },
+  {
+   "t0_ms": 54240,
+   "t1_ms": 98680,
+   "speaker": "Management",
+   "text": "based on our current beliefs, expectations, and assumptions. These statements are subject to risks and uncertainties, and actual results could differ materially from those expressed or implied in such statements. For a discussion of factors that could cause actual results to differ materially, please refer to the risk factors in our most recently filed periodic reports on Form 10-K, on Form 10-Q, and subsequent filings with the SEC, and the cautionary statement in the accompanying presentation slides. Today's discussion of our financial results will be presented in the following format. The first is the financial results. The second is the financial results. The third is the financial results. All these results are presented on a non-GAAP financial basis, unless otherwise specified. A detailed reconciliation between GAAP and non-GAAP results can be found in the accompanying presentation slides.",
+   "parts": [
+    {
+     "t0_ms": 54240,
+     "text": "based on our current beliefs, expectations, and assumptions."
+    },
+    {
+     "t0_ms": 57440,
+     "text": "These statements are subject to risks and uncertainties,"
+    },
+    {
+     "t0_ms": 61280,
+     "text": "and actual results could differ materially from those expressed or implied in such statements."
+    },
+    {
+     "t0_ms": 65860,
+     "text": "For a discussion of factors that could cause actual results to differ materially,"
+    },
+    {
+     "t0_ms": 70500,
+     "text": "please refer to the risk factors in our most recently filed periodic reports on Form 10-K,"
+    },
+    {
+     "t0_ms": 75940,
+     "text": "on Form 10-Q, and subsequent filings with the SEC,"
+    },
+    {
+     "t0_ms": 79940,
+     "text": "and the cautionary statement in the accompanying presentation slides."
+    },
+    {
+     "t0_ms": 83600,
+     "text": "Today's discussion of our financial results will be presented in the following format."
+    },
+    {
+     "t0_ms": 85560,
+     "text": "The first is the financial results."
+    },
+    {
+     "t0_ms": 86560,
+     "text": "The second is the financial results."
+    },
+    {
+     "t0_ms": 87280,
+     "text": "The third is the financial results."
+    },
+    {
+     "t0_ms": 87420,
+     "text": "All these results are presented on a non-GAAP financial basis,"
+    },
+    {
+     "t0_ms": 89900,
+     "text": "unless otherwise specified."
+    },
+    {
+     "t0_ms": 92380,
+     "text": "A detailed reconciliation between GAAP and non-GAAP results"
+    },
+    {
+     "t0_ms": 95900,
+     "text": "can be found in the accompanying presentation slides."
+    }
+   ]
+  },
+  {
+   "t0_ms": 99820,
+   "t1_ms": 143660,
+   "speaker": "Management",
+   "text": "This call is scheduled to last until 3 p.m. Pacific time. A replay of this call will be made available later this afternoon on our website. And with that, I'll hand the call over to Tim. Thanks, Ram, and thank you to everyone joining us today. In the September quarter, LAM again delivered record revenue and profitability profitability. Gross margin, operating margin, and EPS all reach new highs, with operating margin topping 40% for the first time. Our performance throughout the year reflects the broad strength of our product portfolio and a relentless focus on operational execution as AI continues to drive unprecedented semiconductor demand and increasing device complexity. Including the midpoint of our",
+   "parts": [
+    {
+     "t0_ms": 99820,
+     "text": "This call is scheduled to last until 3 p.m. Pacific time."
+    },
+    {
+     "t0_ms": 103220,
+     "text": "A replay of this call will be made available later this afternoon on our website."
+    },
+    {
+     "t0_ms": 107840,
+     "text": "And with that, I'll hand the call over to Tim."
+    },
+    {
+     "t0_ms": 110760,
+     "text": "Thanks, Ram, and thank you to everyone joining us today."
+    },
+    {
+     "t0_ms": 113660,
+     "text": "In the September quarter, LAM again delivered record revenue and profitability"
+    },
+    {
+     "t0_ms": 117260,
+     "text": "profitability. Gross margin, operating margin, and EPS all reach new highs, with operating margin"
+    },
+    {
+     "t0_ms": 124340,
+     "text": "topping 40% for the first time. Our performance throughout the year reflects the broad strength"
+    },
+    {
+     "t0_ms": 130240,
+     "text": "of our product portfolio and a relentless focus on operational execution as AI continues to drive"
+    },
+    {
+     "t0_ms": 136780,
+     "text": "unprecedented semiconductor demand and increasing device complexity. Including the midpoint of our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 143660,
+   "t1_ms": 186280,
+   "speaker": "Management",
+   "text": "December quarter guidance, we expect calendar year 2026 systems revenue to grow well over 40% year-on-year. Rising deposition and edge intensity across all device types and advanced packaging solutions is continuing to drive greater opportunity for LAM. Over the past few years, increasing device complexity and a push towards greater 3D scaling have driven a four-point expansion of our served available market, or SEM, to the next level. We are now in the early stages of our 3D scaling, and we are looking to expand our LAM as a percentage of WFE. When combined with share gains from products addressing this growing SEM, we expect 2026 to mark our third consecutive year of WFE outperformance.",
+   "parts": [
+    {
+     "t0_ms": 143660,
+     "text": "December quarter guidance, we expect calendar year 2026 systems revenue to grow well over 40%"
+    },
+    {
+     "t0_ms": 150740,
+     "text": "year-on-year. Rising deposition and edge intensity across all device types and advanced packaging"
+    },
+    {
+     "t0_ms": 157880,
+     "text": "solutions is continuing to drive greater opportunity for LAM. Over the past few years,"
+    },
+    {
+     "t0_ms": 164720,
+     "text": "increasing device complexity and a push towards greater 3D scaling have driven a four-point"
+    },
+    {
+     "t0_ms": 170740,
+     "text": "expansion of our served available market, or"
+    },
+    {
+     "t0_ms": 173480,
+     "text": "SEM, to the next level. We are now in the early stages of our 3D scaling, and we are"
+    },
+    {
+     "t0_ms": 173640,
+     "text": "looking to expand our LAM as a percentage of WFE. When combined with share gains from products"
+    },
+    {
+     "t0_ms": 178780,
+     "text": "addressing this growing SEM, we expect 2026 to mark our third consecutive year of WFE outperformance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 187240,
+   "t1_ms": 228420,
+   "speaker": "Management",
+   "text": "For calendar year 2026, we expect WFE in the mid $150 billion range. Our preliminary 2027 WFE outlook is for more than $200 billion of spending, with percentage growth led by DRAM, followed by leading edge foundry logic, and NAND. As we move into calendar year 2027, we see clean room space availability and supply chain constraints for certain components continuing to limit chip makers and equipment companies' ability to fully meet end demand. We are actively working with our suppliers to accelerate their capacity expansion plans, and our confident LAM is well positioned to deliver on",
+   "parts": [
+    {
+     "t0_ms": 187240,
+     "text": "For calendar year 2026, we expect WFE in the mid $150 billion range. Our preliminary 2027 WFE"
+    },
+    {
+     "t0_ms": 196480,
+     "text": "outlook is for more than $200 billion of spending, with percentage growth led by DRAM, followed by"
+    },
+    {
+     "t0_ms": 203460,
+     "text": "leading edge foundry logic, and NAND. As we move into calendar year 2027, we see clean room space"
+    },
+    {
+     "t0_ms": 210500,
+     "text": "availability and supply chain constraints for certain components continuing to limit chip makers"
+    },
+    {
+     "t0_ms": 216580,
+     "text": "and equipment companies' ability to fully meet end demand. We are actively working with our suppliers"
+    },
+    {
+     "t0_ms": 222580,
+     "text": "to accelerate their capacity expansion plans, and our confident LAM is well positioned to deliver on"
+    }
+   ]
+  },
+  {
+   "t0_ms": 228420,
+   "t1_ms": 268940,
+   "speaker": "Management",
+   "text": "the strong demand we see ahead. Underpinning our outlook for WFE 2020, we expect a growth of $1.5 billion. This growth is the continued rapid adoption of AI by enterprises and consumers. It is reported that average weekly token usage is up roughly 250-fold in the past 18 months. As AI moves increasingly towards autonomous agentic workflows, demand for compute, memory, and storage solutions continues to expand. For example, in NAND, AI performance and economics are driving demand for multiple tiers of storage. optimized for different workloads. QLC today provides cost-effective storage for rapidly",
+   "parts": [
+    {
+     "t0_ms": 228420,
+     "text": "the strong demand we see ahead. Underpinning our outlook for WFE 2020, we expect a growth of $1.5"
+    },
+    {
+     "t0_ms": 233280,
+     "text": "billion. This growth is the continued rapid adoption of AI by enterprises and consumers. It is"
+    },
+    {
+     "t0_ms": 240800,
+     "text": "reported that average weekly token usage is up roughly 250-fold in the past 18 months. As AI moves"
+    },
+    {
+     "t0_ms": 247980,
+     "text": "increasingly towards autonomous agentic workflows, demand for compute, memory, and storage solutions"
+    },
+    {
+     "t0_ms": 254160,
+     "text": "continues to expand. For example, in NAND, AI performance and economics are driving demand for multiple"
+    },
+    {
+     "t0_ms": 262320,
+     "text": "tiers of storage."
+    },
+    {
+     "t0_ms": 263280,
+     "text": "optimized for different workloads. QLC today provides cost-effective storage for rapidly"
+    }
+   ]
+  },
+  {
+   "t0_ms": 268940,
+   "t1_ms": 311320,
+   "speaker": "Management",
+   "text": "growing AI data volumes. TLC storage is used as a high-bandwidth tier for context memory and KB cache workloads. An SLC-class NAND is emerging for low-latency, high-speed access in agentic AI. We believe adoption of an SLC storage tier could become a meaningful driver of NAND wafer capacity. Converting from TLC to SLC-class devices reduces bits per device by roughly three times. Said differently, for each percentage point mix shift of NAND bits to SLC-class devices, approximately 2% more installed wafer capacity will be needed to support the same bit",
+   "parts": [
+    {
+     "t0_ms": 268940,
+     "text": "growing AI data volumes. TLC storage is used as a high-bandwidth tier for context memory"
+    },
+    {
+     "t0_ms": 275500,
+     "text": "and KB cache workloads. An SLC-class NAND is emerging for low-latency, high-speed access"
+    },
+    {
+     "t0_ms": 283160,
+     "text": "in agentic AI. We believe adoption of an SLC storage tier could become a meaningful driver"
+    },
+    {
+     "t0_ms": 290320,
+     "text": "of NAND wafer capacity. Converting from TLC to SLC-class devices reduces bits per device by"
+    },
+    {
+     "t0_ms": 297920,
+     "text": "roughly three times. Said differently, for each percentage point mix shift of NAND bits to SLC-class"
+    },
+    {
+     "t0_ms": 304700,
+     "text": "devices, approximately 2% more installed wafer capacity will be needed to support the same bit"
+    }
+   ]
+  },
+  {
+   "t0_ms": 311320,
+   "t1_ms": 350240,
+   "speaker": "Management",
+   "text": "demand. Incremental growth in bit demand would further amplify wafer capacity requirements. We expect all of the NANDs to be able to support the same bit demand. We expect all three storage tiers to grow, increasing the value and strategic importance of NAND. We believe NAND is best positioned to benefit from this inflection. We have the industry's largest installed base of NAND systems and a comprehensive product portfolio spanning all critical deposition and etch steps. Any increase in NAND bit demand, whether satisfied through installed base upgrades or capacity additions, will generate additional need for NAND's tools and technology.",
+   "parts": [
+    {
+     "t0_ms": 311320,
+     "text": "demand. Incremental growth in bit demand would further amplify wafer capacity requirements."
+    },
+    {
+     "t0_ms": 318780,
+     "text": "We expect all"
+    },
+    {
+     "t0_ms": 320260,
+     "text": "of the NANDs to be able to support the same bit demand."
+    },
+    {
+     "t0_ms": 320300,
+     "text": "We expect all three storage tiers to grow, increasing the value and strategic importance"
+    },
+    {
+     "t0_ms": 324640,
+     "text": "of NAND. We believe NAND is best positioned to benefit from this inflection. We have the"
+    },
+    {
+     "t0_ms": 331000,
+     "text": "industry's largest installed base of NAND systems and a comprehensive product portfolio spanning"
+    },
+    {
+     "t0_ms": 336780,
+     "text": "all critical deposition and etch steps. Any increase in NAND bit demand, whether satisfied"
+    },
+    {
+     "t0_ms": 343300,
+     "text": "through installed base upgrades or capacity additions, will generate additional need for"
+    },
+    {
+     "t0_ms": 348780,
+     "text": "NAND's tools and technology."
+    }
+   ]
+  },
+  {
+   "t0_ms": 350240,
+   "t1_ms": 392520,
+   "speaker": "Management",
+   "text": "FoundryLogic and DRAM are seeing a similar device-level evolution to satisfy AI's emerging performance requirements. From advanced patterning and backside power to next-generation packaging, we see billions of dollars of potential SAM expansion and share gain opportunities for LAM in the years ahead. We are seeing the impact of our targeted investments in FoundryLogic and DRAM products in our calendar year 2026 results. These two market segments, including the NAND NAND, have accounted for approximately 80% of LAM's systems revenue growth year-to-date. A good example is our focus on advanced patterning requirements for FoundryLogic and DRAM. With",
+   "parts": [
+    {
+     "t0_ms": 350240,
+     "text": "FoundryLogic and DRAM are seeing a similar device-level evolution to satisfy AI's emerging"
+    },
+    {
+     "t0_ms": 356900,
+     "text": "performance requirements. From advanced patterning and backside power to next-generation packaging,"
+    },
+    {
+     "t0_ms": 363020,
+     "text": "we see billions of dollars of potential SAM expansion and share gain opportunities for"
+    },
+    {
+     "t0_ms": 368180,
+     "text": "LAM in the years ahead. We are seeing the impact of our targeted investments in FoundryLogic and"
+    },
+    {
+     "t0_ms": 373940,
+     "text": "DRAM products in our calendar year 2026 results. These two market segments,"
+    },
+    {
+     "t0_ms": 380180,
+     "text": "including the NAND NAND, have accounted for approximately 80% of LAM's systems revenue"
+    },
+    {
+     "t0_ms": 384120,
+     "text": "growth year-to-date."
+    },
+    {
+     "t0_ms": 385120,
+     "text": "A good example is our focus on advanced patterning requirements for FoundryLogic and DRAM. With"
+    }
+   ]
+  },
+  {
+   "t0_ms": 392520,
+   "t1_ms": 431720,
+   "speaker": "Management",
+   "text": "each technology node bringing more stringent EUV pattern fidelity and defectivity requirements, LAM's ACARA etch, conductor etch, and ether dry resist tools are being paired to deliver unprecedented scaling capability. Importantly, these tools are also focused on the performance of the product, and are also helping improve the productivity of DRAM scaling at a time when maximizing FAB output is a critical priority for our customers. Multiple chip makers are adopting ACARA for its ability to etch very high aspect ratio features with exceptional profile control, while at the same time delivering up to a 50% reduction in wafer-to-wafer and",
+   "parts": [
+    {
+     "t0_ms": 392520,
+     "text": "each technology node bringing more stringent EUV pattern fidelity and defectivity requirements,"
+    },
+    {
+     "t0_ms": 399040,
+     "text": "LAM's ACARA etch, conductor etch, and ether dry resist tools are being paired to deliver"
+    },
+    {
+     "t0_ms": 404980,
+     "text": "unprecedented scaling capability. Importantly, these tools are also focused on the performance"
+    },
+    {
+     "t0_ms": 410120,
+     "text": "of the product, and are also helping improve the productivity of DRAM scaling at a time"
+    },
+    {
+     "t0_ms": 413440,
+     "text": "when maximizing FAB output is a critical priority for our customers. Multiple chip makers are"
+    },
+    {
+     "t0_ms": 419940,
+     "text": "adopting ACARA for its ability to etch very high aspect ratio features with exceptional"
+    },
+    {
+     "t0_ms": 425060,
+     "text": "profile control, while at the same time delivering up to a 50% reduction in wafer-to-wafer and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 431720,
+   "t1_ms": 469400,
+   "speaker": "Management",
+   "text": "lot-to-lot variability, and up to a 50% gain in wafer output per FAB footprint. Similarly, LAM's ether dry resist solution has demonstrated sub-10 nm resolution at the highest pattern density and fidelity with high NA EUV. It helps achieve this result while requiring 10% lower exposure dose, improving scanner productivity, and reducing patterning cost per wafer. Ether solutions are already ramping in HBM high-volume manufacturing with low NA EUV, and we see additional insertion opportunities ahead, but this is just a brief overview of the solution.",
+   "parts": [
+    {
+     "t0_ms": 431720,
+     "text": "lot-to-lot variability, and up to a 50% gain in wafer output per FAB footprint. Similarly,"
+    },
+    {
+     "t0_ms": 440120,
+     "text": "LAM's ether dry resist solution has demonstrated sub-10 nm resolution at the highest pattern"
+    },
+    {
+     "t0_ms": 447300,
+     "text": "density and fidelity with high NA EUV. It helps achieve this result while requiring"
+    },
+    {
+     "t0_ms": 452920,
+     "text": "10% lower exposure dose, improving scanner productivity, and reducing patterning cost"
+    },
+    {
+     "t0_ms": 459060,
+     "text": "per wafer. Ether solutions are already ramping in HBM high-volume manufacturing with low"
+    },
+    {
+     "t0_ms": 465980,
+     "text": "NA EUV, and we see additional insertion opportunities ahead, but this is just a brief overview of"
+    },
+    {
+     "t0_ms": 469300,
+     "text": "the solution."
+    }
+   ]
+  },
+  {
+   "t0_ms": 470120,
+   "t1_ms": 501240,
+   "speaker": "Management",
+   "text": "As a result, we now expect cumulative ether-related revenue to reach approximately $2.5 billion by the end of the decade, roughly $1 billion above our prior expectations. Backside power is another example of where LAM's strength in deposition and etch is evident. Separating power and signal routing allows for thicker backside metallization to reduce resistance and improve power efficiency. Slide 10. Backside power and signal routing can be used to reduce resistance and improve power efficiency. As Sara enshrines, candle's work is a critical part of the solution.",
+   "parts": [
+    {
+     "t0_ms": 470120,
+     "text": "As a result, we now expect cumulative ether-related revenue to reach approximately $2.5 billion"
+    },
+    {
+     "t0_ms": 481280,
+     "text": "by the end of the decade, roughly $1 billion above our prior expectations. Backside power"
+    },
+    {
+     "t0_ms": 488040,
+     "text": "is another example of where LAM's strength in deposition and etch is evident. Separating"
+    },
+    {
+     "t0_ms": 493540,
+     "text": "power and signal routing allows for thicker backside metallization to reduce resistance"
+    },
+    {
+     "t0_ms": 498760,
+     "text": "and improve power efficiency."
+    },
+    {
+     "t0_ms": 500020,
+     "text": "Slide 10. Backside power and signal routing can be used to reduce resistance and improve power efficiency."
+    },
+    {
+     "t0_ms": 500120,
+     "text": "As Sara enshrines, candle's work is a critical part of the solution."
+    }
+   ]
+  },
+  {
+   "t0_ms": 501240,
+   "t1_ms": 543000,
+   "speaker": "Management",
+   "text": "Slide 11 Remarkable For a Cold\u89cc Under wool\u016f Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver Saver productivity, and superior on-wafer performance. Flex delivers high-throughput dielectric etch with low defect levels, leveraging its differentiated small-volume chamber design and confined plasma.",
+   "parts": [
+    {
+     "t0_ms": 501240,
+     "text": "Slide 11 Remarkable"
+    },
+    {
+     "t0_ms": 523840,
+     "text": "For a Cold\u89cc"
+    },
+    {
+     "t0_ms": 525000,
+     "text": "Under wool\u016f"
+    },
+    {
+     "t0_ms": 525140,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 525500,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 525760,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 526100,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 526600,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 526800,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 526860,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527020,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527140,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527200,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527320,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527420,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527480,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527680,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527720,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 527820,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 528000,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 528020,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 528160,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 528420,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 528780,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 529000,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 529280,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 529660,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 529740,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 529980,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 530000,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 530020,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 530040,
+     "text": "Saver"
+    },
+    {
+     "t0_ms": 530120,
+     "text": "productivity, and superior on-wafer performance."
+    },
+    {
+     "t0_ms": 533760,
+     "text": "Flex delivers high-throughput dielectric etch with low defect levels, leveraging its differentiated"
+    },
+    {
+     "t0_ms": 539940,
+     "text": "small-volume chamber design and confined plasma."
+    }
+   ]
+  },
+  {
+   "t0_ms": 544060,
+   "t1_ms": 588180,
+   "speaker": "Management",
+   "text": "New materials such as molybdenum are also being introduced to enable more efficient electrical connections between the backside and front side of the wafer. For this emerging application, our Halo tool is gaining traction by enabling both plasma and thermal processes within a single chamber while delivering industry-leading productivity. We are gaining share in this expanding backside power SAM opportunity and recently secured pool-of-record wins for all four products at a leading customer. In advanced packaging, our market-leading Syndian product is winning advanced logic in HPM TSV applications. Syndian's differentiated hardware design enables rapid process switching,",
+   "parts": [
+    {
+     "t0_ms": 544060,
+     "text": "New materials such as molybdenum are also being introduced to enable more efficient"
+    },
+    {
+     "t0_ms": 548680,
+     "text": "electrical connections between the backside and front side of the wafer."
+    },
+    {
+     "t0_ms": 552460,
+     "text": "For this emerging application, our Halo tool is gaining traction by enabling both plasma"
+    },
+    {
+     "t0_ms": 558620,
+     "text": "and thermal processes within a single chamber while delivering industry-leading productivity."
+    },
+    {
+     "t0_ms": 564600,
+     "text": "We are gaining share in this expanding backside power SAM opportunity and recently secured"
+    },
+    {
+     "t0_ms": 570260,
+     "text": "pool-of-record wins for all four products at a leading customer."
+    },
+    {
+     "t0_ms": 575160,
+     "text": "In advanced packaging, our market-leading Syndian product is winning advanced logic"
+    },
+    {
+     "t0_ms": 581180,
+     "text": "in HPM TSV applications."
+    },
+    {
+     "t0_ms": 583980,
+     "text": "Syndian's differentiated hardware design enables rapid process switching,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 588620,
+   "t1_ms": 632600,
+   "speaker": "Management",
+   "text": "to deliver highly uniform TSV profiles, smooth sidewalls, and high-volume productivity. Recently, we attained four new positions across multiple customers. Our Stryker ALD product also achieved multiple TSV liner wins due to the film's superior step coverage and low etch rate. Beyond TSV applications, we secured additional vector and TIOS3D wins for high-energy bonding films and inter-die gap fill applications. With HAI and xSens, our products leave up to 98% of the market for non-and ultra-low-intensity HDDs. Our Parallel Packaging portfolio exclusivity is a major growth driver for our local company. To be able to backtrack in the next-generation AI and high-performance computing devices,",
+   "parts": [
+    {
+     "t0_ms": 588620,
+     "text": "to deliver highly uniform TSV profiles, smooth sidewalls, and high-volume productivity."
+    },
+    {
+     "t0_ms": 595420,
+     "text": "Recently, we attained four new positions across multiple customers."
+    },
+    {
+     "t0_ms": 600380,
+     "text": "Our Stryker ALD product also achieved multiple TSV liner wins due to the film's superior step coverage and low etch rate."
+    },
+    {
+     "t0_ms": 609740,
+     "text": "Beyond TSV applications, we secured additional vector and TIOS3D wins for high-energy bonding films and inter-die gap fill applications."
+    },
+    {
+     "t0_ms": 618620,
+     "text": "With HAI and xSens, our products leave up to 98% of the market for non-and ultra-low-intensity"
+    },
+    {
+     "t0_ms": 626600,
+     "text": "HDDs."
+    },
+    {
+     "t0_ms": 627600,
+     "text": "Our Parallel Packaging portfolio exclusivity is a major growth driver for our local company."
+    },
+    {
+     "t0_ms": 629300,
+     "text": "To be able to backtrack in the next-generation AI and high-performance computing devices,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 632600,
+   "t1_ms": 676140,
+   "speaker": "Management",
+   "text": "customers are increasingly turning their sights toward panel-level packaging to scale manufacturing. Our panel-level packaging portfolio continues to gain momentum across fan-out packaging, glass-core substrates, and High- parse-Vaporized ohms. and emerging substrate and interposer architectures. To date, we have shipped panel plating systems to more than 20 customers worldwide, across panel sizes ranging from 300 by 300 millimeter to 600 by 600 millimeter. Customers continue to select our Callisto platform for its differentiated coplanarity and plating uniformity performance across bumps, pillars, and redistribution layers.",
+   "parts": [
+    {
+     "t0_ms": 632600,
+     "text": "customers are increasingly turning their sights toward panel-level packaging to scale manufacturing."
+    },
+    {
+     "t0_ms": 641180,
+     "text": "Our panel-level packaging portfolio continues to gain momentum across fan-out packaging,"
+    },
+    {
+     "t0_ms": 647420,
+     "text": "glass-core substrates, and High- parse-Vaporized ohms."
+    },
+    {
+     "t0_ms": 648540,
+     "text": "and emerging substrate and interposer architectures."
+    },
+    {
+     "t0_ms": 653120,
+     "text": "To date, we have shipped panel plating systems to more than 20 customers worldwide,"
+    },
+    {
+     "t0_ms": 658860,
+     "text": "across panel sizes ranging from 300 by 300 millimeter to 600 by 600 millimeter."
+    },
+    {
+     "t0_ms": 666080,
+     "text": "Customers continue to select our Callisto platform for its differentiated coplanarity"
+    },
+    {
+     "t0_ms": 671020,
+     "text": "and plating uniformity performance across bumps, pillars, and redistribution layers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 676140,
+   "t1_ms": 717380,
+   "speaker": "Management",
+   "text": "Callisto is also well positioned to benefit from increasing adoption of glass core substrates through emerging through glass via applications. Given our customer engagement, installed base growth, and technology leadership, we expect to achieve panel-level packaging market share that surpasses the strong position we already hold in current wafer-level packaging. And finally, turning to CSBG, we are set to exit calendar year 2026 with solid momentum, with annual revenue expected to grow more than 30% year over year. This is more than twice the rate of our long-term target set at our last analyst day.",
+   "parts": [
+    {
+     "t0_ms": 676140,
+     "text": "Callisto is also well positioned to benefit from increasing adoption of glass core substrates"
+    },
+    {
+     "t0_ms": 682200,
+     "text": "through emerging through glass via applications."
+    },
+    {
+     "t0_ms": 685820,
+     "text": "Given our customer engagement, installed base growth, and technology leadership,"
+    },
+    {
+     "t0_ms": 690940,
+     "text": "we expect to achieve panel-level packaging market share that surpasses the strong position"
+    },
+    {
+     "t0_ms": 696820,
+     "text": "we already hold in current wafer-level packaging."
+    },
+    {
+     "t0_ms": 700100,
+     "text": "And finally, turning to CSBG, we are set to exit calendar year 2026"
+    },
+    {
+     "t0_ms": 706120,
+     "text": "with solid momentum, with annual revenue expected to grow more than 30% year over year."
+    },
+    {
+     "t0_ms": 713000,
+     "text": "This is more than twice the rate of our long-term target set at our last analyst day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 718200,
+   "t1_ms": 758580,
+   "speaker": "Management",
+   "text": "Growth is broad-based across upgrades, spares, and services, supported by high-fab utilization and customers' continued focus on installed base efficiency. The value we are delivering with equipment intelligence and Dextro Cobots recently helped us secure performance-based service, with multiple memory manufacturers. We expect CSBG momentum to continue in calendar year 2027, with revenue growing over 15% year over year. So to wrap up, we believe the industry is in the early stages of a multi-year investment cycle, with customer visibility extending through 2028.",
+   "parts": [
+    {
+     "t0_ms": 718200,
+     "text": "Growth is broad-based across upgrades, spares, and services, supported by high-fab utilization"
+    },
+    {
+     "t0_ms": 723940,
+     "text": "and customers' continued focus on installed base efficiency."
+    },
+    {
+     "t0_ms": 728560,
+     "text": "The value we are delivering with equipment intelligence and Dextro Cobots"
+    },
+    {
+     "t0_ms": 733040,
+     "text": "recently helped us secure performance-based service,"
+    },
+    {
+     "t0_ms": 736120,
+     "text": "with multiple memory manufacturers."
+    },
+    {
+     "t0_ms": 739240,
+     "text": "We expect CSBG momentum to continue in calendar year 2027,"
+    },
+    {
+     "t0_ms": 743900,
+     "text": "with revenue growing over 15% year over year."
+    },
+    {
+     "t0_ms": 748500,
+     "text": "So to wrap up, we believe the industry is in the early stages of a multi-year investment cycle,"
+    },
+    {
+     "t0_ms": 755460,
+     "text": "with customer visibility extending through 2028."
+    }
+   ]
+  },
+  {
+   "t0_ms": 759480,
+   "t1_ms": 801460,
+   "speaker": "Management",
+   "text": "Increasing manufacturing complexity, new materials integration, and advanced packaging are driving higher-quality packaging. We believe the industry is in the early stages of a multi-year investment cycle. We believe the industry is in the early stages of a multi-year investment cycle. Our technology leadership, growing install base, and strategic investments in product innovation and manufacturing capacity position LAM to capitalize on these inflections and drive sustained outperformance. Thank you, and here's David. Great. Thank you, Jim. Good afternoon, everyone, and thank you for joining our call today during what I know is a very busy earnings season. We were pleased with our continued strong execution, and the September quarter, resulting in our fifth consecutive quarter of record revenue,",
+   "parts": [
+    {
+     "t0_ms": 759480,
+     "text": "Increasing manufacturing complexity, new materials integration, and advanced packaging"
+    },
+    {
+     "t0_ms": 764660,
+     "text": "are driving higher-quality packaging."
+    },
+    {
+     "t0_ms": 766120,
+     "text": "We believe the industry is in the early stages of a multi-year investment cycle."
+    },
+    {
+     "t0_ms": 768900,
+     "text": "We believe the industry is in the early stages of a multi-year investment cycle."
+    },
+    {
+     "t0_ms": 770300,
+     "text": "Our technology leadership, growing install base, and strategic investments in product innovation"
+    },
+    {
+     "t0_ms": 775780,
+     "text": "and manufacturing capacity position LAM to capitalize on these inflections"
+    },
+    {
+     "t0_ms": 780360,
+     "text": "and drive sustained outperformance."
+    },
+    {
+     "t0_ms": 783580,
+     "text": "Thank you, and here's David."
+    },
+    {
+     "t0_ms": 785720,
+     "text": "Great. Thank you, Jim."
+    },
+    {
+     "t0_ms": 787260,
+     "text": "Good afternoon, everyone, and thank you for joining our call today"
+    },
+    {
+     "t0_ms": 790120,
+     "text": "during what I know is a very busy earnings season."
+    },
+    {
+     "t0_ms": 793140,
+     "text": "We were pleased with our continued strong execution,"
+    },
+    {
+     "t0_ms": 796120,
+     "text": "and the September quarter, resulting in our fifth consecutive quarter of record revenue,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 801740,
+   "t1_ms": 845180,
+   "speaker": "Management",
+   "text": "as well as record gross margin, operating margin, and earnings per share. September quarter revenue was $8.22 billion, which was up 22% sequentially, and up 54% from the same period in 2025. The deferred revenue balance at quarter end was $2.66 billion, which was an increase of $2.66 billion. The return on sales was $227 million from the June quarter. This grew primarily due to increased sales volume, and it was partially offset by a decrease in customer down payments. From a market segment perspective, September quarter systems revenue",
+   "parts": [
+    {
+     "t0_ms": 801740,
+     "text": "as well as record gross margin, operating margin, and earnings per share."
+    },
+    {
+     "t0_ms": 807840,
+     "text": "September quarter revenue was $8.22 billion, which was up 22% sequentially,"
+    },
+    {
+     "t0_ms": 814880,
+     "text": "and up 54% from the same period in 2025."
+    },
+    {
+     "t0_ms": 819900,
+     "text": "The deferred revenue balance at quarter end was $2.66 billion,"
+    },
+    {
+     "t0_ms": 823660,
+     "text": "which was an increase of $2.66 billion."
+    },
+    {
+     "t0_ms": 826120,
+     "text": "The return on sales was $227 million from the June quarter."
+    },
+    {
+     "t0_ms": 830040,
+     "text": "This grew primarily due to increased sales volume, and it was partially offset"
+    },
+    {
+     "t0_ms": 835820,
+     "text": "by a decrease in customer down payments."
+    },
+    {
+     "t0_ms": 840200,
+     "text": "From a market segment perspective, September quarter systems revenue"
+    }
+   ]
+  },
+  {
+   "t0_ms": 845180,
+   "t1_ms": 888120,
+   "speaker": "Management",
+   "text": "and memory was 46%, which was consistent with the prior quarter. On a dollar basis, this represented a record level for memory, and a record level for sales. And it was up 120% from the same period in 2025. Within memory, non-volatile memory accounted for 26% of our systems revenue, up from the June quarter's level of 23%. On a dollar basis, NAND revenue increased approximately 40% sequentially as the industry continued spending on conversions to 256 layer and above class devices. We are seeing initial spending increase by about 20%. We are seeing a decline in the number of devices that are being used,",
+   "parts": [
+    {
+     "t0_ms": 845180,
+     "text": "and memory was 46%, which was consistent with the prior quarter."
+    },
+    {
+     "t0_ms": 851300,
+     "text": "On a dollar basis, this represented a record level for memory,"
+    },
+    {
+     "t0_ms": 855800,
+     "text": "and a record level for sales."
+    },
+    {
+     "t0_ms": 856120,
+     "text": "And it was up 120% from the same period in 2025."
+    },
+    {
+     "t0_ms": 861900,
+     "text": "Within memory, non-volatile memory accounted for 26% of our systems revenue,"
+    },
+    {
+     "t0_ms": 866700,
+     "text": "up from the June quarter's level of 23%."
+    },
+    {
+     "t0_ms": 870240,
+     "text": "On a dollar basis, NAND revenue increased approximately 40% sequentially"
+    },
+    {
+     "t0_ms": 876160,
+     "text": "as the industry continued spending on conversions to 256 layer and above class devices."
+    },
+    {
+     "t0_ms": 883800,
+     "text": "We are seeing initial spending increase by about 20%."
+    },
+    {
+     "t0_ms": 886120,
+     "text": "We are seeing a decline in the number of devices that are being used,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 888120,
+   "t1_ms": 931190,
+   "speaker": "Management",
+   "text": "and we are seeing a decline in the number of devices that are being used. We are seeing a decline in the number of devices that are being used, and we are seeing a decline in the number of devices that are being used. DRAM revenue reached a record growing sequentially on a dollar basis, but down a little bit on a percentage basis, from 23% of systems revenue in the June quarter to 20% in the September quarter. DRAM spending remained focused on technology additions and upgrades across the one alpha, one beta, and one gamma nodes that is enabling DDR5, LPDDR5, and LPDDR5. LPDDR5, and more importantly, hot bandwidth memory. Foundry also achieved record revenue. Its share of systems revenue increased to 46% from 44% in the June quarter.",
+   "parts": [
+    {
+     "t0_ms": 888120,
+     "text": "and we are seeing a decline in the number of devices that are being used."
+    },
+    {
+     "t0_ms": 891430,
+     "text": "We are seeing a decline in the number of devices that are being used,"
+    },
+    {
+     "t0_ms": 891470,
+     "text": "and we are seeing a decline in the number of devices that are being used."
+    },
+    {
+     "t0_ms": 891490,
+     "text": "DRAM revenue reached a record growing sequentially on a dollar basis,"
+    },
+    {
+     "t0_ms": 894850,
+     "text": "but down a little bit on a percentage basis,"
+    },
+    {
+     "t0_ms": 897390,
+     "text": "from 23% of systems revenue in the June quarter to 20% in the September quarter."
+    },
+    {
+     "t0_ms": 904230,
+     "text": "DRAM spending remained focused on technology additions and upgrades"
+    },
+    {
+     "t0_ms": 909190,
+     "text": "across the one alpha, one beta, and one gamma nodes that is enabling DDR5,"
+    },
+    {
+     "t0_ms": 916010,
+     "text": "LPDDR5, and LPDDR5."
+    },
+    {
+     "t0_ms": 917110,
+     "text": "LPDDR5, and more importantly, hot bandwidth memory."
+    },
+    {
+     "t0_ms": 921270,
+     "text": "Foundry also achieved record revenue."
+    },
+    {
+     "t0_ms": 923870,
+     "text": "Its share of systems revenue increased to 46% from 44% in the June quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 932130,
+   "t1_ms": 976110,
+   "speaker": "Management",
+   "text": "Strength in the quarter was driven by investment in leading-edge nodes, including advanced packaging, as well as mature node spending in China. And finally, logic and other, were 8% of our systems revenue in the September quarter, slightly down from the prior quarter's level of 10%. Most of the spending here was targeted at leading-edge process nodes. Let me now discuss the regional composition of our total revenue. China contributed 35% of revenue, up from the June quarter level of 26%. We saw strong investments here by both domestic and multinational customers. In the December,",
+   "parts": [
+    {
+     "t0_ms": 932130,
+     "text": "Strength in the quarter was driven by investment in leading-edge nodes,"
+    },
+    {
+     "t0_ms": 936210,
+     "text": "including advanced packaging, as well as mature node spending in China."
+    },
+    {
+     "t0_ms": 941710,
+     "text": "And finally, logic and other,"
+    },
+    {
+     "t0_ms": 943450,
+     "text": "were 8% of our systems revenue in the September quarter,"
+    },
+    {
+     "t0_ms": 946310,
+     "text": "slightly down from the prior quarter's level of 10%."
+    },
+    {
+     "t0_ms": 949810,
+     "text": "Most of the spending here was targeted at leading-edge process nodes."
+    },
+    {
+     "t0_ms": 955010,
+     "text": "Let me now discuss the regional composition of our total revenue."
+    },
+    {
+     "t0_ms": 960670,
+     "text": "China contributed 35% of revenue, up from the June quarter level of 26%."
+    },
+    {
+     "t0_ms": 966930,
+     "text": "We saw strong investments here by both domestic and multinational customers."
+    },
+    {
+     "t0_ms": 973870,
+     "text": "In the December,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 976310,
+   "t1_ms": 1020680,
+   "speaker": "Management",
+   "text": "quarter, we expect China will represent a significantly lower percentage of our total revenue, compared with the September quarter. Korea's contribution to revenue in the September quarter remained unchanged from the June quarter level at 20%. The Taiwan region contributed 18% of revenue, down from the June quarter at 27%. The customer support business group generated a fourth consecutive quarter of record revenues at nearly $2.5 billion, a half billion dollars in the September quarter. This was up slightly from the June quarter and 40% higher than the same period in 2025. Each component of CSBG remained strong with",
+   "parts": [
+    {
+     "t0_ms": 976310,
+     "text": "quarter, we expect China will represent a significantly lower percentage of our total revenue,"
+    },
+    {
+     "t0_ms": 983090,
+     "text": "compared with the September quarter."
+    },
+    {
+     "t0_ms": 986930,
+     "text": "Korea's contribution to revenue in the September quarter remained unchanged from the June quarter"
+    },
+    {
+     "t0_ms": 990730,
+     "text": "level at 20%."
+    },
+    {
+     "t0_ms": 992930,
+     "text": "The Taiwan region contributed 18% of revenue, down from the June quarter at 27%."
+    },
+    {
+     "t0_ms": 999630,
+     "text": "The customer support business group generated a fourth consecutive quarter of record revenues at nearly $2.5 billion,"
+    },
+    {
+     "t0_ms": 1007560,
+     "text": "a half billion dollars in the September quarter. This was up slightly from the June quarter"
+    },
+    {
+     "t0_ms": 1012760,
+     "text": "and 40% higher than the same period in 2025. Each component of CSBG remained strong with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1020680,
+   "t1_ms": 1064620,
+   "speaker": "Management",
+   "text": "the prior quarter. Turning to the gross margin performance, the September quarter came in at an all-time record of 52.4%, improving from the June quarter level of 52% due to favorable customer and product mix. Additionally, we continue to balance our cost and pricing postures. Operating expenses for the June quarter were a billion dollars, up from the prior quarter amount of $916 billion. The increase was primarily driven by higher incentive compensation due to our increased profitability levels. We are also investing incremental resources.",
+   "parts": [
+    {
+     "t0_ms": 1020680,
+     "text": "the prior quarter. Turning to the gross margin performance, the September quarter came in"
+    },
+    {
+     "t0_ms": 1026980,
+     "text": "at an all-time record of 52.4%, improving from the June quarter level of 52% due to"
+    },
+    {
+     "t0_ms": 1034839,
+     "text": "favorable customer and product mix. Additionally, we continue to balance our cost and pricing"
+    },
+    {
+     "t0_ms": 1042060,
+     "text": "postures. Operating expenses for the June quarter were a billion dollars, up from the"
+    },
+    {
+     "t0_ms": 1048140,
+     "text": "prior quarter amount of $916 billion. The increase was primarily driven by higher incentive"
+    },
+    {
+     "t0_ms": 1056040,
+     "text": "compensation due to our increased profitability levels. We are also investing incremental"
+    },
+    {
+     "t0_ms": 1064040,
+     "text": "resources."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1064840,
+   "t1_ms": 1109460,
+   "speaker": "Management",
+   "text": "To support growing programs like ACARA, Halo, Panel Form Factors, and Dextro, R&D accounted for approximately two-thirds of our total operating expenses. Operating margin for the September quarter was another record at 40.2% compared to the June quarter level of 38.4%. This improvement reflected stronger gross margins and continuing operating leverage as our business scaled. The non-GAAP tax rate was 16.5% for the quarter compared to 11% in the June quarter and in line with our expectations. The increase was primarily driven by a higher U.S. tax rate",
+   "parts": [
+    {
+     "t0_ms": 1064840,
+     "text": "To support growing programs like ACARA, Halo, Panel Form Factors, and Dextro, R&D accounted"
+    },
+    {
+     "t0_ms": 1073680,
+     "text": "for approximately two-thirds of our total operating expenses. Operating margin for the"
+    },
+    {
+     "t0_ms": 1080660,
+     "text": "September quarter was another record at 40.2% compared to the June quarter level of 38.4%."
+    },
+    {
+     "t0_ms": 1087480,
+     "text": "This improvement reflected stronger gross margins and continuing operating leverage"
+    },
+    {
+     "t0_ms": 1093660,
+     "text": "as our business scaled."
+    },
+    {
+     "t0_ms": 1094840,
+     "text": "The non-GAAP tax rate was 16.5% for the quarter compared to 11% in the June quarter and in"
+    },
+    {
+     "t0_ms": 1102720,
+     "text": "line with our expectations. The increase was primarily driven by a higher U.S. tax rate"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1109460,
+   "t1_ms": 1153880,
+   "speaker": "Management",
+   "text": "on foreign earnings as well as expected shifts in the geographic mix of income. We expect the tax rate to remain in this range for the December quarter and likely beyond. I'd encourage everyone to make sure they have their earnings model in place. We are also looking to increase the cost of our business by a significant amount. We are also looking to increase our business by a significant amount. In fact, we are adopting various business models, including for future business models we're looking to expand that tax rate to include more other income and expense. The income and expense for the September quarter was approximately $16 million in income compared with $19 million in expense in the June quarter. The improvement in OI&E was due to foreign exchange fluctuations, higher interest income, as well as favorability in our venture portfolio. As we've talked about in the past, you should expect to see some variability in OI&E quarter-to-quarter",
+   "parts": [
+    {
+     "t0_ms": 1109460,
+     "text": "on foreign earnings as well as expected shifts in the geographic mix of income. We expect"
+    },
+    {
+     "t0_ms": 1117180,
+     "text": "the tax rate to remain in this range for the December quarter and likely beyond. I'd encourage"
+    },
+    {
+     "t0_ms": 1122800,
+     "text": "everyone to make sure they have their earnings model in place. We are also looking to increase"
+    },
+    {
+     "t0_ms": 1123680,
+     "text": "the cost of our business by a significant amount. We are also looking to increase our"
+    },
+    {
+     "t0_ms": 1124680,
+     "text": "business by a significant amount. In fact, we are adopting various business models,"
+    },
+    {
+     "t0_ms": 1127080,
+     "text": "including for future business models we're looking to expand that tax rate to include"
+    },
+    {
+     "t0_ms": 1128500,
+     "text": "more other income and expense."
+    },
+    {
+     "t0_ms": 1129560,
+     "text": "The income and expense for the September quarter was approximately $16 million in income compared"
+    },
+    {
+     "t0_ms": 1133720,
+     "text": "with $19 million in expense in the June quarter. The improvement in OI&E was due to foreign"
+    },
+    {
+     "t0_ms": 1139620,
+     "text": "exchange fluctuations, higher interest income, as well as favorability in our venture portfolio."
+    },
+    {
+     "t0_ms": 1147800,
+     "text": "As we've talked about in the past, you should expect to see some variability in OI&E quarter-to-quarter"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1153880,
+   "t1_ms": 1194400,
+   "speaker": "Management",
+   "text": "dictated by market action. As you can see, a upward trend in the interest rate has been showing tremendous results, including on average, the current U.S. cash rate is called. For the factors. For the September quarter, diluted earnings per share were a record at $2.20. The diluted share count was roughly 1.26 billion shares, which was relatively unchanged with the June quarter. Let me pivot to capital return. We allocated approximately $1 billion to share repurchases and we paid $325 million in dividends in the September quarter. During the quarter, we entered into an accelerated share repurchase structure that will continue to execute in the December quarter. We returned approximately 41 percent of",
+   "parts": [
+    {
+     "t0_ms": 1153880,
+     "text": "dictated by market action. As you can see, a upward trend in the interest rate has been"
+    },
+    {
+     "t0_ms": 1154560,
+     "text": "showing tremendous results, including on average, the current U.S. cash rate is called. For the"
+    },
+    {
+     "t0_ms": 1154680,
+     "text": "factors. For the September quarter, diluted earnings per share were a record"
+    },
+    {
+     "t0_ms": 1160580,
+     "text": "at $2.20. The diluted share count was roughly 1.26 billion shares, which was"
+    },
+    {
+     "t0_ms": 1167040,
+     "text": "relatively unchanged with the June quarter. Let me pivot to capital return."
+    },
+    {
+     "t0_ms": 1172280,
+     "text": "We allocated approximately $1 billion to share repurchases and we paid"
+    },
+    {
+     "t0_ms": 1178320,
+     "text": "$325 million in dividends in the September quarter. During the quarter, we"
+    },
+    {
+     "t0_ms": 1184620,
+     "text": "entered into an accelerated share repurchase structure that will continue"
+    },
+    {
+     "t0_ms": 1188960,
+     "text": "to execute in the December quarter. We returned approximately 41 percent of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1194400,
+   "t1_ms": 1235320,
+   "speaker": "Management",
+   "text": "free cash flow in the quarter and 59 percent in the calendar year to date. I would point out that we also used $750 million to pay down maturing debt during the year. Our long-term plans remain to return 85 percent of free cash flow to shareholders. We have three three-year plans to return 85 percent of free cash flow to shareholders. We have three $3 billion remaining at our board authorized share purchase program. Our cash and short-term investments totaled $7.5 billion at the end of the September quarter, which was up from $5.6 billion at the end of the June quarter. The factors behind the increase were cash from operating activities, partly offset by",
+   "parts": [
+    {
+     "t0_ms": 1194400,
+     "text": "free cash flow in the quarter and 59 percent in the calendar year to date. I"
+    },
+    {
+     "t0_ms": 1199580,
+     "text": "would point out that we also used $750 million to pay down maturing debt during"
+    },
+    {
+     "t0_ms": 1206740,
+     "text": "the year. Our long-term plans remain to return 85 percent of free cash flow to"
+    },
+    {
+     "t0_ms": 1212180,
+     "text": "shareholders. We have three"
+    },
+    {
+     "t0_ms": 1214600,
+     "text": "three-year plans to return 85 percent of free cash flow to shareholders. We have three"
+    },
+    {
+     "t0_ms": 1214620,
+     "text": "$3 billion remaining at our board authorized share purchase program."
+    },
+    {
+     "t0_ms": 1220620,
+     "text": "Our cash and short-term investments totaled $7.5 billion at the end of the September quarter,"
+    },
+    {
+     "t0_ms": 1225720,
+     "text": "which was up from $5.6 billion at the end of the June quarter."
+    },
+    {
+     "t0_ms": 1230260,
+     "text": "The factors behind the increase were cash from operating activities, partly offset by"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1235320,
+   "t1_ms": 1277200,
+   "speaker": "Management",
+   "text": "our capital return activities as well as capital expenditure. The September quarter was also a record for our free cash flow, coming in at $3.24 billion in the quarter. And as I mentioned last quarter, we've been increasing our cash levels a little bit to support growing business volumes as well as capital investments in this growing demand environment. The sales outstanding were 63 days in the September quarter, a decrease from 72 days in the June quarter. Inventory at the September quarter end. Our cash flow totaled $4.6 billion, which was an increase of $274 million from the June",
+   "parts": [
+    {
+     "t0_ms": 1235320,
+     "text": "our capital return activities as well as capital expenditure."
+    },
+    {
+     "t0_ms": 1240300,
+     "text": "The September quarter was also a record for our free cash flow, coming in at $3.24 billion"
+    },
+    {
+     "t0_ms": 1247200,
+     "text": "in the quarter."
+    },
+    {
+     "t0_ms": 1248200,
+     "text": "And as I mentioned last quarter, we've been increasing our cash levels a little bit to"
+    },
+    {
+     "t0_ms": 1253060,
+     "text": "support growing business volumes as well as capital investments in this growing demand"
+    },
+    {
+     "t0_ms": 1259200,
+     "text": "environment."
+    },
+    {
+     "t0_ms": 1261580,
+     "text": "The sales outstanding were 63 days in the September quarter, a decrease from 72 days"
+    },
+    {
+     "t0_ms": 1266600,
+     "text": "in the June quarter."
+    },
+    {
+     "t0_ms": 1269600,
+     "text": "Inventory at the September quarter end."
+    },
+    {
+     "t0_ms": 1271600,
+     "text": "Our cash flow totaled $4.6 billion, which was an increase of $274 million from the June"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1277200,
+   "t1_ms": 1317560,
+   "speaker": "Management",
+   "text": "quarter as we're building inventory to meet the expected future demand for our products. Nonetheless, inventory turns continued to strengthen to 3.4 times versus three times in the prior quarter. I would just mention this was the highest level of inventory turns in nearly seven years. Our non-cash expenses for the September quarter included approximately $1.5 billion in cash flow, approximately $115 million in equity compensation, $106 million in depreciation, and $16 million for amortization. Capital expenditures in the September quarter were $258 million, which was up from the June",
+   "parts": [
+    {
+     "t0_ms": 1277200,
+     "text": "quarter as we're building inventory to meet the expected future demand for our products."
+    },
+    {
+     "t0_ms": 1283840,
+     "text": "Nonetheless, inventory turns continued to strengthen to 3.4 times versus three times"
+    },
+    {
+     "t0_ms": 1290360,
+     "text": "in the prior quarter."
+    },
+    {
+     "t0_ms": 1292480,
+     "text": "I would just mention this was the highest level of inventory turns in nearly seven years."
+    },
+    {
+     "t0_ms": 1298680,
+     "text": "Our non-cash expenses for the September quarter included approximately $1.5 billion in cash"
+    },
+    {
+     "t0_ms": 1301500,
+     "text": "flow, approximately $115 million in equity compensation, $106 million in depreciation,"
+    },
+    {
+     "t0_ms": 1308380,
+     "text": "and $16 million for amortization."
+    },
+    {
+     "t0_ms": 1312380,
+     "text": "Capital expenditures in the September quarter were $258 million, which was up from the June"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1317560,
+   "t1_ms": 1361840,
+   "speaker": "Management",
+   "text": "quarter at $189 million. Capital spending grew as we continue to increase our lab infrastructure and expand our manufacturing facilities globally. Slide 11. We ended the September quarter with approximately 24,300 regular full-time employees, which was a growth of approximately 1,900 people from the prior quarter. Headcount increased primarily in our factory and field teams to support expanding manufacturing activities and growing tool installations. We also added headcount in R&D. Now let's turn to our non-GAAP guidance for the December 2026 quarter.",
+   "parts": [
+    {
+     "t0_ms": 1317560,
+     "text": "quarter at $189 million."
+    },
+    {
+     "t0_ms": 1322500,
+     "text": "Capital spending grew as we continue to increase our lab infrastructure and expand our manufacturing"
+    },
+    {
+     "t0_ms": 1328940,
+     "text": "facilities globally."
+    },
+    {
+     "t0_ms": 1330500,
+     "text": "Slide 11."
+    },
+    {
+     "t0_ms": 1331500,
+     "text": "We ended the September quarter with approximately 24,300 regular full-time employees, which"
+    },
+    {
+     "t0_ms": 1339100,
+     "text": "was a growth of approximately 1,900 people from the prior quarter."
+    },
+    {
+     "t0_ms": 1344620,
+     "text": "Headcount increased primarily in our factory and field teams to support expanding manufacturing"
+    },
+    {
+     "t0_ms": 1350000,
+     "text": "activities and growing tool installations."
+    },
+    {
+     "t0_ms": 1354620,
+     "text": "We also added headcount in R&D."
+    },
+    {
+     "t0_ms": 1358440,
+     "text": "Now let's turn to our non-GAAP guidance for the December 2026 quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1361840,
+   "t1_ms": 1402520,
+   "speaker": "Management",
+   "text": "We're expecting revenue of $8.6 billion, plus or minus $400 million. I would mention that this revenue guide would have been a bit higher if not for some near-term supply chain constraints that we are actively managing. We're expecting gross margin of 52.5% plus or minus one percentage point. Slide 12. Slide 13. We're expecting a little bit in spite of headwinds related to customer mix. We're expecting operating margin of 40.5% plus or minus one percentage point, and finally",
+   "parts": [
+    {
+     "t0_ms": 1361840,
+     "text": "We're expecting revenue of $8.6 billion, plus or minus $400 million."
+    },
+    {
+     "t0_ms": 1368840,
+     "text": "I would mention that this revenue guide would have been a bit higher if not for some near-term"
+    },
+    {
+     "t0_ms": 1378420,
+     "text": "supply chain constraints that we are actively managing."
+    },
+    {
+     "t0_ms": 1383600,
+     "text": "We're expecting gross margin of 52.5% plus or minus one percentage point."
+    },
+    {
+     "t0_ms": 1388840,
+     "text": "Slide 12."
+    },
+    {
+     "t0_ms": 1389840,
+     "text": "Slide 13."
+    },
+    {
+     "t0_ms": 1390840,
+     "text": "We're expecting a little bit in spite of headwinds related to customer mix."
+    },
+    {
+     "t0_ms": 1395240,
+     "text": "We're expecting operating margin of 40.5% plus or minus one percentage point, and finally"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1402520,
+   "t1_ms": 1446840,
+   "speaker": "Management",
+   "text": "earnings per share of $2.33 plus or minus 15 cents based on a share count of approximately 1.253 billion shares. Slide 14. Slide 15. Slide 16. Slide 17. Slide 18. Slide 19. Slide 20. Slide 21. Slide 22. Slide 23. Slide 24. Slide 25. Slide 26. Slide 27. Slide 28. Slide 29. Slide 30. Slide 31. Slide 32. Slide 33. Slide 34. Slide 35. Slide 36. Slide 37. Slide 38. Slide 39. Slide 40. Slide 41. Slide 42. Slide 43. Slide 44. Slide 45. Slide 46. Slide 47.",
+   "parts": [
+    {
+     "t0_ms": 1402520,
+     "text": "earnings per share of $2.33 plus or minus 15 cents based on a share count of approximately"
+    },
+    {
+     "t0_ms": 1410040,
+     "text": "1.253 billion shares."
+    },
+    {
+     "t0_ms": 1412940,
+     "text": "Slide 14."
+    },
+    {
+     "t0_ms": 1413940,
+     "text": "Slide 15."
+    },
+    {
+     "t0_ms": 1414940,
+     "text": "Slide 16."
+    },
+    {
+     "t0_ms": 1415940,
+     "text": "Slide 17."
+    },
+    {
+     "t0_ms": 1416940,
+     "text": "Slide 18."
+    },
+    {
+     "t0_ms": 1417940,
+     "text": "Slide 19."
+    },
+    {
+     "t0_ms": 1418940,
+     "text": "Slide 20."
+    },
+    {
+     "t0_ms": 1419940,
+     "text": "Slide 21."
+    },
+    {
+     "t0_ms": 1420840,
+     "text": "Slide 22."
+    },
+    {
+     "t0_ms": 1421840,
+     "text": "Slide 23."
+    },
+    {
+     "t0_ms": 1422840,
+     "text": "Slide 24."
+    },
+    {
+     "t0_ms": 1423840,
+     "text": "Slide 25."
+    },
+    {
+     "t0_ms": 1424840,
+     "text": "Slide 26."
+    },
+    {
+     "t0_ms": 1425840,
+     "text": "Slide 27."
+    },
+    {
+     "t0_ms": 1426840,
+     "text": "Slide 28."
+    },
+    {
+     "t0_ms": 1427840,
+     "text": "Slide 29."
+    },
+    {
+     "t0_ms": 1428840,
+     "text": "Slide 30."
+    },
+    {
+     "t0_ms": 1429840,
+     "text": "Slide 31."
+    },
+    {
+     "t0_ms": 1430840,
+     "text": "Slide 32."
+    },
+    {
+     "t0_ms": 1431840,
+     "text": "Slide 33."
+    },
+    {
+     "t0_ms": 1432840,
+     "text": "Slide 34."
+    },
+    {
+     "t0_ms": 1433840,
+     "text": "Slide 35."
+    },
+    {
+     "t0_ms": 1434840,
+     "text": "Slide 36."
+    },
+    {
+     "t0_ms": 1435840,
+     "text": "Slide 37."
+    },
+    {
+     "t0_ms": 1436840,
+     "text": "Slide 38."
+    },
+    {
+     "t0_ms": 1437840,
+     "text": "Slide 39."
+    },
+    {
+     "t0_ms": 1438840,
+     "text": "Slide 40."
+    },
+    {
+     "t0_ms": 1439840,
+     "text": "Slide 41."
+    },
+    {
+     "t0_ms": 1440840,
+     "text": "Slide 42."
+    },
+    {
+     "t0_ms": 1441840,
+     "text": "Slide 43."
+    },
+    {
+     "t0_ms": 1442840,
+     "text": "Slide 44."
+    },
+    {
+     "t0_ms": 1443840,
+     "text": "Slide 45."
+    },
+    {
+     "t0_ms": 1444840,
+     "text": "Slide 46."
+    },
+    {
+     "t0_ms": 1445840,
+     "text": "Slide 47."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1446840,
+   "t1_ms": 1462280,
+   "speaker": "Management",
+   "text": "Slide 48. Slide 49. Slide 50. Slide 51. uninvested capital level that is comfortably above the competition. Operator, that concludes our prepared remarks. Tim and I would now like to open up the call for questions.",
+   "parts": [
+    {
+     "t0_ms": 1446840,
+     "text": "Slide 48."
+    },
+    {
+     "t0_ms": 1447840,
+     "text": "Slide 49."
+    },
+    {
+     "t0_ms": 1448840,
+     "text": "Slide 50."
+    },
+    {
+     "t0_ms": 1449840,
+     "text": "Slide 51."
+    },
+    {
+     "t0_ms": 1450840,
+     "text": "uninvested capital level that is comfortably above the competition."
+    },
+    {
+     "t0_ms": 1456480,
+     "text": "Operator, that concludes our prepared remarks."
+    },
+    {
+     "t0_ms": 1459860,
+     "text": "Tim and I would now like to open up the call for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1463860,
+   "t1_ms": 1492780,
+   "speaker": "Operator",
+   "text": "Thank you. We will now begin the question and answer session. To ask a question, you may press star then 1 on your telephone keypad. If you're using a speakerphone, we ask that you please pick up your handset before pressing the keys. If at any time your question has been addressed and you'd like to withdraw your question, please press star then 2. And once again, we do ask that you please limit yourself to one question and a single follow-up. Today's first question comes from Timothy Arcuri at UBS. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1463860,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1464800,
+     "text": "We will now begin the question and answer session."
+    },
+    {
+     "t0_ms": 1467760,
+     "text": "To ask a question, you may press star then 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1471960,
+     "text": "If you're using a speakerphone, we ask that you please pick up your handset"
+    },
+    {
+     "t0_ms": 1474920,
+     "text": "before pressing the keys."
+    },
+    {
+     "t0_ms": 1476860,
+     "text": "If at any time your question has been addressed and you'd like to withdraw"
+    },
+    {
+     "t0_ms": 1479820,
+     "text": "your question, please press star then 2."
+    },
+    {
+     "t0_ms": 1482860,
+     "text": "And once again, we do ask that you please limit yourself to one question"
+    },
+    {
+     "t0_ms": 1485760,
+     "text": "and a single follow-up."
+    },
+    {
+     "t0_ms": 1488500,
+     "text": "Today's first question comes from Timothy Arcuri at UBS."
+    },
+    {
+     "t0_ms": 1491940,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1494420,
+   "t1_ms": 1528160,
+   "speaker": "Analyst",
+   "text": "Thanks a lot. Doug, I don't think I've ever seen a quarter where you grew systems 35% Q1Q, so kudos on that. You did talk about the near-term constraints. I guess you can see that from payables. I think payables were up like a billion three. So can you give us a sense? Is it fair to say this is costing you like $300 million to $400 million? Is that like a reasonable number to assume that that's costing you in the guidance for December? And do you get that back in March? So do you get back on this sort of 10% plus or minus systems growth in March? Do you actually get that back? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1494420,
+     "text": "Thanks a lot."
+    },
+    {
+     "t0_ms": 1495660,
+     "text": "Doug, I don't think I've ever seen a quarter where you grew systems 35% Q1Q,"
+    },
+    {
+     "t0_ms": 1500120,
+     "text": "so kudos on that."
+    },
+    {
+     "t0_ms": 1502100,
+     "text": "You did talk about the near-term constraints."
+    },
+    {
+     "t0_ms": 1504840,
+     "text": "I guess you can see that from payables."
+    },
+    {
+     "t0_ms": 1507080,
+     "text": "I think payables were up like a billion three."
+    },
+    {
+     "t0_ms": 1510560,
+     "text": "So can you give us a sense?"
+    },
+    {
+     "t0_ms": 1512140,
+     "text": "Is it fair to say this is costing you like $300 million to $400 million?"
+    },
+    {
+     "t0_ms": 1515120,
+     "text": "Is that like a reasonable number to assume that that's costing you"
+    },
+    {
+     "t0_ms": 1518340,
+     "text": "in the guidance for December?"
+    },
+    {
+     "t0_ms": 1519960,
+     "text": "And do you get that back in March?"
+    },
+    {
+     "t0_ms": 1521620,
+     "text": "So do you get back on this sort of 10% plus or minus systems growth in March?"
+    },
+    {
+     "t0_ms": 1526020,
+     "text": "Do you actually get that back?"
+    },
+    {
+     "t0_ms": 1528000,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1529260,
+   "t1_ms": 1545720,
+   "speaker": "Management",
+   "text": "Yeah, Tim, that's a good question. I'm not going to put a specific number on it. In the script I said it would have been a little bit higher. So it would have been a little bit higher. And yeah, Tim, to the extent that it's something we would have shipped in December, because of timing, we will ship that in the March quarter.",
+   "parts": [
+    {
+     "t0_ms": 1529260,
+     "text": "Yeah, Tim, that's a good question."
+    },
+    {
+     "t0_ms": 1530540,
+     "text": "I'm not going to put a specific number on it."
+    },
+    {
+     "t0_ms": 1532820,
+     "text": "In the script I said it would have been a little bit higher."
+    },
+    {
+     "t0_ms": 1536620,
+     "text": "So it would have been a little bit higher."
+    },
+    {
+     "t0_ms": 1538180,
+     "text": "And yeah, Tim, to the extent that it's something we would have shipped in December,"
+    },
+    {
+     "t0_ms": 1542120,
+     "text": "because of timing, we will ship that in the March quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1548210,
+   "t1_ms": 1579970,
+   "speaker": "Analyst",
+   "text": "Okay, Doug. And then can you just talk about there was a call hosted by a big memory company today, and they were talking about 4F squared. And they were saying that they're going to prioritize 3DD RAM rather than 4F squared. And your stock traded down, which was a little bit odd to me. It seems that people don't really understand what your position is there. So, Tim, I wonder, maybe you can talk about that. Can you talk about how you do for in like a, you know, a 3D world versus like a 4F squared world and sort of, you know, what you're seeing in terms of your customers' DRAM roadmaps? Thanks, Tim.",
+   "parts": [
+    {
+     "t0_ms": 1548210,
+     "text": "Okay, Doug."
+    },
+    {
+     "t0_ms": 1548670,
+     "text": "And then can you just talk about there was a call hosted by a big memory company today,"
+    },
+    {
+     "t0_ms": 1554850,
+     "text": "and they were talking about 4F squared."
+    },
+    {
+     "t0_ms": 1557150,
+     "text": "And they were saying that they're going to prioritize 3DD RAM rather than 4F squared."
+    },
+    {
+     "t0_ms": 1562090,
+     "text": "And your stock traded down, which was a little bit odd to me."
+    },
+    {
+     "t0_ms": 1565250,
+     "text": "It seems that people don't really understand what your position is there."
+    },
+    {
+     "t0_ms": 1568350,
+     "text": "So, Tim, I wonder, maybe you can talk about that."
+    },
+    {
+     "t0_ms": 1570290,
+     "text": "Can you talk about how you do for in like a, you know,"
+    },
+    {
+     "t0_ms": 1573310,
+     "text": "a 3D world versus like a 4F squared world and sort of, you know,"
+    },
+    {
+     "t0_ms": 1576770,
+     "text": "what you're seeing in terms of your customers' DRAM roadmaps?"
+    },
+    {
+     "t0_ms": 1579670,
+     "text": "Thanks, Tim."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1581530,
+   "t1_ms": 1623050,
+   "speaker": "Management",
+   "text": "Sure. You know, obviously we don't know exactly what the reaction was or why people would have reacted in that way because, you know, we've said for a long time that as all device architectures go 3D, etch and deposition intensity rises. Now, I would say that in some ways, interestingly, the longer it takes to get there, the more we're seeing momentum for some of our other scaling activities. And so we focused on this even in this call, advanced patterning. You know, if you want to extend the current architecture in which devices are getting, patterns are getting even smaller, that's why we're starting to see this uptick in processes like ether,",
+   "parts": [
+    {
+     "t0_ms": 1581530,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 1582650,
+     "text": "You know, obviously we don't know exactly what the reaction was"
+    },
+    {
+     "t0_ms": 1586250,
+     "text": "or why people would have reacted in that way because, you know,"
+    },
+    {
+     "t0_ms": 1589270,
+     "text": "we've said for a long time that as all device architectures go 3D,"
+    },
+    {
+     "t0_ms": 1594270,
+     "text": "etch and deposition intensity rises."
+    },
+    {
+     "t0_ms": 1597370,
+     "text": "Now, I would say that in some ways, interestingly, the longer it takes to get there,"
+    },
+    {
+     "t0_ms": 1603290,
+     "text": "the more we're seeing momentum for some of our other scaling activities."
+    },
+    {
+     "t0_ms": 1608490,
+     "text": "And so we focused on this even in this call, advanced patterning."
+    },
+    {
+     "t0_ms": 1612230,
+     "text": "You know, if you want to extend the current architecture in which devices are getting,"
+    },
+    {
+     "t0_ms": 1617070,
+     "text": "patterns are getting even smaller, that's why we're starting to see this uptick in processes like ether,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1623050,
+   "t1_ms": 1649930,
+   "speaker": "Management",
+   "text": "processes like a CARA for conductor etch. You know, the processes that are needed to etch and create those smaller structures. So, I would say that, you know, we're seeing a lot of momentum for some of our other scaling activities. So, I would say that, you know, we're seeing a lot of momentum for some of our other scaling activities. I'd say in the short term, etch and depth intensity are rising. And if really we're making a leap right from 6F squared to 3D DRAM, then etch and depth intensity is going to rise even faster, even sooner than we would have thought. And that's a great thing. Okay, Tim, thank you. Yep, thanks, Tim.",
+   "parts": [
+    {
+     "t0_ms": 1623050,
+     "text": "processes like a CARA for conductor etch."
+    },
+    {
+     "t0_ms": 1626870,
+     "text": "You know, the processes that are needed to etch and create those smaller structures."
+    },
+    {
+     "t0_ms": 1632130,
+     "text": "So, I would say that, you know, we're seeing a lot of momentum for some of our other scaling activities."
+    },
+    {
+     "t0_ms": 1633230,
+     "text": "So, I would say that, you know, we're seeing a lot of momentum for some of our other scaling activities."
+    },
+    {
+     "t0_ms": 1633270,
+     "text": "I'd say in the short term, etch and depth intensity are rising."
+    },
+    {
+     "t0_ms": 1636650,
+     "text": "And if really we're making a leap right from 6F squared to 3D DRAM,"
+    },
+    {
+     "t0_ms": 1640770,
+     "text": "then etch and depth intensity is going to rise even faster,"
+    },
+    {
+     "t0_ms": 1643430,
+     "text": "even sooner than we would have thought."
+    },
+    {
+     "t0_ms": 1644670,
+     "text": "And that's a great thing."
+    },
+    {
+     "t0_ms": 1647290,
+     "text": "Okay, Tim, thank you."
+    },
+    {
+     "t0_ms": 1649190,
+     "text": "Yep, thanks, Tim."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1651050,
+   "t1_ms": 1655330,
+   "speaker": "Operator",
+   "text": "Thank you. And our next question today comes from Melissa Weathers at Deutsche Bank. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1651050,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1651630,
+     "text": "And our next question today comes from Melissa Weathers at Deutsche Bank."
+    },
+    {
+     "t0_ms": 1654730,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1656310,
+   "t1_ms": 1678650,
+   "speaker": "Analyst",
+   "text": "Hi, thanks so much for the question. I wanted to also ask on the supply constraints. I think you said you're working with your supply chain to make sure some of those bottlenecks get resolved. Can you just give a little more color on what actions you're taking? Could you consider any co-investments or help on the capital side with those guys? Just what needs to happen to relax those constraints?",
+   "parts": [
+    {
+     "t0_ms": 1656310,
+     "text": "Hi, thanks so much for the question."
+    },
+    {
+     "t0_ms": 1658050,
+     "text": "I wanted to also ask on the supply constraints."
+    },
+    {
+     "t0_ms": 1661070,
+     "text": "I think you said you're working with your supply chain"
+    },
+    {
+     "t0_ms": 1663210,
+     "text": "to make sure some of those bottlenecks get resolved."
+    },
+    {
+     "t0_ms": 1667470,
+     "text": "Can you just give a little more color on what actions you're taking?"
+    },
+    {
+     "t0_ms": 1670590,
+     "text": "Could you consider any co-investments or help on the capital side with those guys?"
+    },
+    {
+     "t0_ms": 1674990,
+     "text": "Just what needs to happen to relax those constraints?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1680150,
+   "t1_ms": 1724570,
+   "speaker": "Management",
+   "text": "Listen, Melissa, yeah, I mean, we're always working with our supply chain to make sure they're ready for the demand environment that we see. But given how strong things have been, we're seeing a little bit of tightness. I'm not going to get into specifically where we're going to get into the tightness. I'm not going to get into where it is, except I would tell you that we're managing it just like we always do. We'll continue to do that. But it just got a little bit tied in the corner. I have every expectation we'll effectively manage this as well as anybody in the industry will. And, yeah, if we needed to make some level investments, we'd be open to that. But, frankly, a lot of our suppliers are well capitalized and can manage this on their own from a financial standpoint. Tim, would you add anything? No, I think that's correct. I mean, frankly, for those of us who are around during the COVID shortages, this is nothing like that.",
+   "parts": [
+    {
+     "t0_ms": 1680150,
+     "text": "Listen, Melissa, yeah, I mean, we're always working with our supply chain"
+    },
+    {
+     "t0_ms": 1683090,
+     "text": "to make sure they're ready for the demand environment that we see."
+    },
+    {
+     "t0_ms": 1685730,
+     "text": "But given how strong things have been, we're seeing a little bit of tightness."
+    },
+    {
+     "t0_ms": 1688750,
+     "text": "I'm not going to get into specifically"
+    },
+    {
+     "t0_ms": 1690830,
+     "text": "where we're going to get into the tightness."
+    },
+    {
+     "t0_ms": 1691070,
+     "text": "I'm not going to get into where it is,"
+    },
+    {
+     "t0_ms": 1692190,
+     "text": "except I would tell you that we're managing it just like we always do."
+    },
+    {
+     "t0_ms": 1697350,
+     "text": "We'll continue to do that."
+    },
+    {
+     "t0_ms": 1698810,
+     "text": "But it just got a little bit tied in the corner."
+    },
+    {
+     "t0_ms": 1701610,
+     "text": "I have every expectation we'll effectively manage this"
+    },
+    {
+     "t0_ms": 1704370,
+     "text": "as well as anybody in the industry will."
+    },
+    {
+     "t0_ms": 1707050,
+     "text": "And, yeah, if we needed to make some level investments, we'd be open to that."
+    },
+    {
+     "t0_ms": 1711450,
+     "text": "But, frankly, a lot of our suppliers are well capitalized"
+    },
+    {
+     "t0_ms": 1715030,
+     "text": "and can manage this on their own from a financial standpoint."
+    },
+    {
+     "t0_ms": 1717970,
+     "text": "Tim, would you add anything?"
+    },
+    {
+     "t0_ms": 1718950,
+     "text": "No, I think that's correct."
+    },
+    {
+     "t0_ms": 1720890,
+     "text": "I mean, frankly,"
+    },
+    {
+     "t0_ms": 1721070,
+     "text": "for those of us who are around during the COVID shortages,"
+    },
+    {
+     "t0_ms": 1723450,
+     "text": "this is nothing like that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1725030,
+   "t1_ms": 1767930,
+   "speaker": "Management",
+   "text": "We learned a lot of lessons during that period. And, in fact, just in the last two months, we've hosted a couple of big events with our global suppliers to really lay out what we have in terms of expectations for growth into the next couple of years. And, you know, where you can run into problems is, you know, within our own products, as we talked about etch-and-depth decision intensity increasing in certain parts of our business, like we talked about advanced packaging, for instance, really being a major driver of growth for lamb, you can find certain suppliers that are seeing percentage growth of our demand to them rising even much faster than lamb itself is growing. And so, yeah, I think we have been very clearly communicating that to those suppliers and really asking for transparency",
+   "parts": [
+    {
+     "t0_ms": 1725030,
+     "text": "We learned a lot of lessons during that period."
+    },
+    {
+     "t0_ms": 1727710,
+     "text": "And, in fact, just in the last two months,"
+    },
+    {
+     "t0_ms": 1729530,
+     "text": "we've hosted a couple of big events with our global suppliers"
+    },
+    {
+     "t0_ms": 1734130,
+     "text": "to really lay out what we have in terms of expectations"
+    },
+    {
+     "t0_ms": 1737730,
+     "text": "for growth into the next couple of years."
+    },
+    {
+     "t0_ms": 1740090,
+     "text": "And, you know, where you can run into problems is, you know,"
+    },
+    {
+     "t0_ms": 1742630,
+     "text": "within our own products,"
+    },
+    {
+     "t0_ms": 1744970,
+     "text": "as we talked about etch-and-depth decision intensity increasing"
+    },
+    {
+     "t0_ms": 1747690,
+     "text": "in certain parts of our business,"
+    },
+    {
+     "t0_ms": 1749210,
+     "text": "like we talked about advanced packaging,"
+    },
+    {
+     "t0_ms": 1750890,
+     "text": "for instance, really being a major driver of growth for lamb,"
+    },
+    {
+     "t0_ms": 1754130,
+     "text": "you can find certain suppliers that are seeing percentage growth"
+    },
+    {
+     "t0_ms": 1757510,
+     "text": "of our demand to them rising even much faster"
+    },
+    {
+     "t0_ms": 1759990,
+     "text": "than lamb itself is growing."
+    },
+    {
+     "t0_ms": 1761330,
+     "text": "And so, yeah, I think we have been very clearly communicating"
+    },
+    {
+     "t0_ms": 1765090,
+     "text": "that to those suppliers and really asking for transparency"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1768390,
+   "t1_ms": 1776170,
+   "speaker": "Management",
+   "text": "to the help they need to keep up with the pace that we're dragging in the industry. And I think we'll be caught up very shortly.",
+   "parts": [
+    {
+     "t0_ms": 1768390,
+     "text": "to the help they need to keep up with the pace"
+    },
+    {
+     "t0_ms": 1771310,
+     "text": "that we're dragging in the industry."
+    },
+    {
+     "t0_ms": 1773090,
+     "text": "And I think we'll be caught up very shortly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1778240,
+   "t1_ms": 1809020,
+   "speaker": "Analyst",
+   "text": "Thanks for that. And then on the NAND spending cycle, and that upgrade opportunity that you guys have been talking about, you pulled it in last quarter. And then it's nice to hear about the 384 layer devices that I think are starting to, you guys are shipping to. So can you update us on where you, like what inning you think we're at in that NAND upgrade cycle? What trends are you seeing? And yeah, maybe any forward-looking comments on the SLC and some of those new opportunities.",
+   "parts": [
+    {
+     "t0_ms": 1778240,
+     "text": "Thanks for that."
+    },
+    {
+     "t0_ms": 1778800,
+     "text": "And then on the NAND spending cycle,"
+    },
+    {
+     "t0_ms": 1782360,
+     "text": "and that upgrade opportunity that you guys have been talking about,"
+    },
+    {
+     "t0_ms": 1784860,
+     "text": "you pulled it in last quarter."
+    },
+    {
+     "t0_ms": 1786360,
+     "text": "And then it's nice to hear about the 384 layer devices"
+    },
+    {
+     "t0_ms": 1790640,
+     "text": "that I think are starting to, you guys are shipping to."
+    },
+    {
+     "t0_ms": 1793360,
+     "text": "So can you update us on where you, like what inning you think we're at"
+    },
+    {
+     "t0_ms": 1798460,
+     "text": "in that NAND upgrade cycle?"
+    },
+    {
+     "t0_ms": 1799960,
+     "text": "What trends are you seeing?"
+    },
+    {
+     "t0_ms": 1801060,
+     "text": "And yeah, maybe any forward-looking comments on the SLC"
+    },
+    {
+     "t0_ms": 1806720,
+     "text": "and some of those new opportunities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1810320,
+   "t1_ms": 1852920,
+   "speaker": "Management",
+   "text": "Yeah, I think in terms, you know, there's still, there's still room to go on the upgrade cycle. In fact, you know, when you're in a period of high demand, actually taking tools offline to do the upgrade, sometimes it's also a scheduling challenge for customers and for us. But, you know, I'd say that we're working our way through that. And we said that we would be finishing that, you know, in 2027. And so, but we also pointed out that then you just roll to sort of the next upgrade cycle. And so, remember, that upgrade was from 128 layer to kind of into the 200, a layer class devices. And as you just mentioned, people were already moving into the 300 and 400 layer devices. You know, we've been engaged on those in R&D for quite some time.",
+   "parts": [
+    {
+     "t0_ms": 1810320,
+     "text": "Yeah, I think in terms, you know, there's still,"
+    },
+    {
+     "t0_ms": 1812180,
+     "text": "there's still room to go on the upgrade cycle."
+    },
+    {
+     "t0_ms": 1814680,
+     "text": "In fact, you know, when you're in a period of high demand,"
+    },
+    {
+     "t0_ms": 1818640,
+     "text": "actually taking tools offline to do the upgrade,"
+    },
+    {
+     "t0_ms": 1820880,
+     "text": "sometimes it's also a scheduling challenge for customers and for us."
+    },
+    {
+     "t0_ms": 1824500,
+     "text": "But, you know, I'd say that we're working our way through that."
+    },
+    {
+     "t0_ms": 1827940,
+     "text": "And we said that we would be finishing that, you know, in 2027."
+    },
+    {
+     "t0_ms": 1832480,
+     "text": "And so, but we also pointed out that then you just roll"
+    },
+    {
+     "t0_ms": 1835600,
+     "text": "to sort of the next upgrade cycle."
+    },
+    {
+     "t0_ms": 1837180,
+     "text": "And so, remember, that upgrade was from 128 layer to kind of into the 200,"
+    },
+    {
+     "t0_ms": 1842180,
+     "text": "a layer class devices."
+    },
+    {
+     "t0_ms": 1843940,
+     "text": "And as you just mentioned, people were already moving into the 300"
+    },
+    {
+     "t0_ms": 1847240,
+     "text": "and 400 layer devices."
+    },
+    {
+     "t0_ms": 1849360,
+     "text": "You know, we've been engaged on those in R&D for quite some time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1852920,
+   "t1_ms": 1896860,
+   "speaker": "Management",
+   "text": "But I think the real thing we wanted to point out today is that, well, we used to just talk about layer counts as the driver for LAM equipment demand and wafer capacity needs. You know, now you're really seeing this separation of storage tiers and each of the devices within NAND. And so, we're starting to be more specialized to different workloads within AI. And that actually, just like it did in DRAM with HBM and the impact on bits that could be manufactured per wafer, you're starting to see the performance needs of AI start to create a need for higher performance, low latency devices. And I think we just had a customer talk in some detail about that opportunity.",
+   "parts": [
+    {
+     "t0_ms": 1852920,
+     "text": "But I think the real thing we wanted to point out today is that, well,"
+    },
+    {
+     "t0_ms": 1856700,
+     "text": "we used to just talk about layer counts as the driver for LAM equipment demand"
+    },
+    {
+     "t0_ms": 1862360,
+     "text": "and wafer capacity needs."
+    },
+    {
+     "t0_ms": 1864160,
+     "text": "You know, now you're really seeing this separation of storage tiers and each"
+    },
+    {
+     "t0_ms": 1870560,
+     "text": "of the devices within NAND."
+    },
+    {
+     "t0_ms": 1872180,
+     "text": "And so, we're starting to be more specialized to different workloads within AI."
+    },
+    {
+     "t0_ms": 1875940,
+     "text": "And that actually, just like it did in DRAM with HBM and the impact on bits"
+    },
+    {
+     "t0_ms": 1882400,
+     "text": "that could be manufactured per wafer, you're starting to see the performance needs"
+    },
+    {
+     "t0_ms": 1887340,
+     "text": "of AI start to create a need for higher performance, low latency devices."
+    },
+    {
+     "t0_ms": 1892540,
+     "text": "And I think we just had a customer talk in some detail about that opportunity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1896860,
+   "t1_ms": 1907380,
+   "speaker": "Management",
+   "text": "And I think that's going to drive NAND wafer capacity demand and the performance needs of AI. So, that's a big part of it. And I think that's going to drive the intensity for LAMs equipment. Thanks, Melissa. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1896860,
+     "text": "And I think that's going to drive NAND wafer capacity demand"
+    },
+    {
+     "t0_ms": 1900560,
+     "text": "and the performance needs of AI."
+    },
+    {
+     "t0_ms": 1901940,
+     "text": "So, that's a big part of it."
+    },
+    {
+     "t0_ms": 1902180,
+     "text": "And I think that's going to drive the intensity for LAMs equipment."
+    },
+    {
+     "t0_ms": 1906520,
+     "text": "Thanks, Melissa."
+    },
+    {
+     "t0_ms": 1907080,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1907380,
+   "t1_ms": 1914120,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Chris Sincart with TD Cowen. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1907380,
+     "text": "And our next question today comes from Chris Sincart with TD Cowen."
+    },
+    {
+     "t0_ms": 1912220,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1914120,
+   "t1_ms": 1941720,
+   "speaker": "Analyst",
+   "text": "Yeah, hi. Thanks for taking my question. I have two of them. Doug or Tim, when I look at your Q4 guide, you know, I understand you're talking about mid 150 billion WFE, but the implied WFE for Q4 is like almost 180 billion or so. I'm just wondering, are there any episodic revenues in Q4? Or is some of the price increases that the semi, front-end semi-equipment companies, the doing impacting Q4 and kind of, you know, making the WFE number larger? And then I have a quick follow-up.",
+   "parts": [
+    {
+     "t0_ms": 1914120,
+     "text": "Yeah, hi."
+    },
+    {
+     "t0_ms": 1914380,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1915380,
+     "text": "I have two of them."
+    },
+    {
+     "t0_ms": 1916320,
+     "text": "Doug or Tim, when I look at your Q4 guide, you know, I understand you're talking"
+    },
+    {
+     "t0_ms": 1921000,
+     "text": "about mid 150 billion WFE, but the implied WFE for Q4 is like almost 180 billion or so."
+    },
+    {
+     "t0_ms": 1926740,
+     "text": "I'm just wondering, are there any episodic revenues in Q4?"
+    },
+    {
+     "t0_ms": 1929580,
+     "text": "Or is some of the price increases that the semi, front-end semi-equipment companies,"
+    },
+    {
+     "t0_ms": 1933760,
+     "text": "the doing impacting Q4 and kind of, you know, making the WFE number larger?"
+    },
+    {
+     "t0_ms": 1939620,
+     "text": "And then I have a quick follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1941720,
+   "t1_ms": 1958000,
+   "speaker": "Management",
+   "text": "Yeah, Chris. No, there's nothing unique or one-off or episodic, to use your word, in the December quarter. It's just consistent with customer demand, frankly. And like I alluded to, it would have been a little bit higher if not for some of these supply chain constraints. But there's not anything one-off.",
+   "parts": [
+    {
+     "t0_ms": 1941720,
+     "text": "Yeah, Chris."
+    },
+    {
+     "t0_ms": 1942280,
+     "text": "No, there's nothing unique or one-off or episodic, to use your word, in the December quarter."
+    },
+    {
+     "t0_ms": 1946940,
+     "text": "It's just consistent with customer demand, frankly."
+    },
+    {
+     "t0_ms": 1949700,
+     "text": "And like I alluded to, it would have been a little bit higher if not for some"
+    },
+    {
+     "t0_ms": 1953820,
+     "text": "of these supply chain constraints."
+    },
+    {
+     "t0_ms": 1955200,
+     "text": "But there's not anything one-off."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1958000,
+   "t1_ms": 1977320,
+   "speaker": "Analyst",
+   "text": "Got it, Doug. And then I guess a quick follow-up. I think in your prepared comments you mentioned China would be six, significantly lower in December versus September. Kind of wondering, can you quantify that? How would the mix look like? Because it seems like September quarter was a surprise on the upside with both MN's multinationals and domestics coming in.",
+   "parts": [
+    {
+     "t0_ms": 1958000,
+     "text": "Got it, Doug."
+    },
+    {
+     "t0_ms": 1958940,
+     "text": "And then I guess a quick follow-up."
+    },
+    {
+     "t0_ms": 1960520,
+     "text": "I think in your prepared comments you mentioned China would be six,"
+    },
+    {
+     "t0_ms": 1963520,
+     "text": "significantly lower in December versus September."
+    },
+    {
+     "t0_ms": 1966200,
+     "text": "Kind of wondering, can you quantify that?"
+    },
+    {
+     "t0_ms": 1968420,
+     "text": "How would the mix look like?"
+    },
+    {
+     "t0_ms": 1969560,
+     "text": "Because it seems like September quarter was a surprise on the upside"
+    },
+    {
+     "t0_ms": 1972840,
+     "text": "with both MN's multinationals and domestics coming in."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1977320,
+   "t1_ms": 2005200,
+   "speaker": "Management",
+   "text": "Yeah, Chris, to us it wasn't a surprise. It was exactly as expected. And yeah, I mean, the domestic customers in September were strong, but so were the global multinationals. Yeah, I expect it in December will be meaningfully down, driven by the domestic customers. I expect in the December quarter the multinationals in China likely continue to be reasonably strong, but the percent of revenue in China will be meaningfully down in the December quarter.",
+   "parts": [
+    {
+     "t0_ms": 1977320,
+     "text": "Yeah, Chris, to us it wasn't a surprise."
+    },
+    {
+     "t0_ms": 1978840,
+     "text": "It was exactly as expected."
+    },
+    {
+     "t0_ms": 1980420,
+     "text": "And yeah, I mean, the domestic customers in September were strong,"
+    },
+    {
+     "t0_ms": 1984840,
+     "text": "but so were the global multinationals."
+    },
+    {
+     "t0_ms": 1987720,
+     "text": "Yeah, I expect it in December will be meaningfully down,"
+    },
+    {
+     "t0_ms": 1991860,
+     "text": "driven by the domestic customers."
+    },
+    {
+     "t0_ms": 1993520,
+     "text": "I expect in the December quarter the multinationals in China likely continue"
+    },
+    {
+     "t0_ms": 1998460,
+     "text": "to be reasonably strong, but the percent of revenue in China will be meaningfully"
+    },
+    {
+     "t0_ms": 2002900,
+     "text": "down in the December quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2005200,
+   "t1_ms": 2007520,
+   "speaker": "Analyst",
+   "text": "Thanks a lot, Doug.",
+   "parts": [
+    {
+     "t0_ms": 2005200,
+     "text": "Thanks a lot, Doug."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2007520,
+   "t1_ms": 2009400,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Chris.",
+   "parts": [
+    {
+     "t0_ms": 2007520,
+     "text": "Yeah, thanks, Chris."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2009400,
+   "t1_ms": 2014460,
+   "speaker": "Operator",
+   "text": "All right, next question today comes from Harlan Sir at JPMorgan. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2009400,
+     "text": "All right, next question today comes from Harlan Sir at JPMorgan."
+    },
+    {
+     "t0_ms": 2013760,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2014460,
+   "t1_ms": 2024760,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thanks for taking my question. On CSBG, 36% growth first nine months of this year for your outlook greater than 30% of the market. What's your take on that? Yeah, thanks, Doug. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question. I think it's a good question.",
+   "parts": [
+    {
+     "t0_ms": 2014460,
+     "text": "Yeah, good afternoon."
+    },
+    {
+     "t0_ms": 2016540,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2017740,
+     "text": "On CSBG, 36% growth first nine months of this year for your outlook greater than 30%"
+    },
+    {
+     "t0_ms": 2021520,
+     "text": "of the market."
+    },
+    {
+     "t0_ms": 2022200,
+     "text": "What's your take on that?"
+    },
+    {
+     "t0_ms": 2022400,
+     "text": "Yeah, thanks, Doug."
+    },
+    {
+     "t0_ms": 2022520,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2022600,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2022700,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2022840,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2022900,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023000,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023080,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023160,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023800,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023840,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2023860,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2024000,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2024100,
+     "text": "I think it's a good question."
+    },
+    {
+     "t0_ms": 2024420,
+     "text": "I think it's a good question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2024760,
+   "t1_ms": 2025600,
+   "speaker": "Management",
+   "text": "I think it's a good question.",
+   "parts": [
+    {
+     "t0_ms": 2024760,
+     "text": "I think it's a good question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2025600,
+   "t1_ms": 2061710,
+   "speaker": "Analyst",
+   "text": "The growth still wins, I assume, higher spares as customer utilizations are at record levels, higher sales of higher dollar value upgrades for NAND, and maybe strength in reliance, right, as the mature sectors of the market start to come back. And of course, you have your intelligence services offerings. Can you guys just rank order these growth drivers? And more importantly, on a year-over-year basis, how much higher are CSBG operating margins? I'm just wondering. What kind of mix and volume dynamics within CSBG are contributing to the strong overall operating margin profile?",
+   "parts": [
+    {
+     "t0_ms": 2025600,
+     "text": "The growth still wins, I assume, higher spares as customer"
+    },
+    {
+     "t0_ms": 2029860,
+     "text": "utilizations are at record levels, higher sales of higher dollar value"
+    },
+    {
+     "t0_ms": 2034940,
+     "text": "upgrades for NAND, and maybe strength in reliance, right, as the"
+    },
+    {
+     "t0_ms": 2038620,
+     "text": "mature sectors of the market start to come back."
+    },
+    {
+     "t0_ms": 2041940,
+     "text": "And of course, you have your intelligence services offerings."
+    },
+    {
+     "t0_ms": 2044400,
+     "text": "Can you guys just rank order these growth drivers?"
+    },
+    {
+     "t0_ms": 2046720,
+     "text": "And more importantly, on a year-over-year basis, how much higher"
+    },
+    {
+     "t0_ms": 2050620,
+     "text": "are CSBG operating margins?"
+    },
+    {
+     "t0_ms": 2052239,
+     "text": "I'm just wondering."
+    },
+    {
+     "t0_ms": 2052960,
+     "text": "What kind of mix and volume dynamics within CSBG are contributing to the"
+    },
+    {
+     "t0_ms": 2057340,
+     "text": "strong overall operating margin profile?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2061710,
+   "t1_ms": 2103150,
+   "speaker": "Management",
+   "text": "Yeah. I'll let Doug talk about the rank order in terms of financial impact in the short term. But if I were to rank order them in terms of my excitement, clearly, as we've talked about, we see equipment intelligence, the cobot-driven maintenance, the performance-based service contracts we talked about as really kind of the new. New part of our CSBG business that's really catching on. And we're in an environment right now where, just as there was an earlier question about if people are trying to shrink devices even faster to get more bits or more performance out, that creates an intolerance to variability in",
+   "parts": [
+    {
+     "t0_ms": 2061710,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2062290,
+     "text": "I'll let Doug talk about the rank order in terms of financial impact in"
+    },
+    {
+     "t0_ms": 2066730,
+     "text": "the short term."
+    },
+    {
+     "t0_ms": 2067290,
+     "text": "But if I were to rank order them in terms of my excitement, clearly, as"
+    },
+    {
+     "t0_ms": 2072570,
+     "text": "we've talked about, we see equipment intelligence, the cobot-driven"
+    },
+    {
+     "t0_ms": 2077710,
+     "text": "maintenance, the performance-based service contracts we talked about as"
+    },
+    {
+     "t0_ms": 2082710,
+     "text": "really kind of the new."
+    },
+    {
+     "t0_ms": 2083770,
+     "text": "New part of our CSBG business that's really catching on."
+    },
+    {
+     "t0_ms": 2087690,
+     "text": "And we're in an environment right now where, just as there was an earlier"
+    },
+    {
+     "t0_ms": 2091730,
+     "text": "question about if people are trying to shrink devices even faster to get more"
+    },
+    {
+     "t0_ms": 2096530,
+     "text": "bits or more performance out, that creates an intolerance to variability in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2103150,
+   "t1_ms": 2146390,
+   "speaker": "Management",
+   "text": "the process, whether that's in the process control or the maintenance. That's exactly where equipment intelligence and cobot's come into play. So we're seeing strong pull for that element. And I think that's a really good example of where we're at. And I think that's a really good example of where we're at. And I think that's a really good example of where we're at. And I think that's a really good example of where we're at. And I think that's a really good example of where we're at. And that's something new for our CSBG business. And so I'm very excited about that becoming a bigger growth driver for us than it has been in the past. And I'll let Doug talk about upgrades, spares, and everything else. Yeah, Harlan, you know, we don't specifically give you hard numbers on each of the individual sub-components. What I would tell you relative to strength of each of them, though, given how strong utilization in the industry, spares and service are just humming along, as you would expect. I've always said spares is the biggest thing. Right. Spares is the biggest individual component, and that continues to be true.",
+   "parts": [
+    {
+     "t0_ms": 2103150,
+     "text": "the process, whether that's in the process control or the maintenance."
+    },
+    {
+     "t0_ms": 2107010,
+     "text": "That's exactly where equipment intelligence and cobot's come into play."
+    },
+    {
+     "t0_ms": 2110510,
+     "text": "So we're seeing strong pull for that element."
+    },
+    {
+     "t0_ms": 2111850,
+     "text": "And I think that's a really good example of where we're at."
+    },
+    {
+     "t0_ms": 2112850,
+     "text": "And I think that's a really good example of where we're at."
+    },
+    {
+     "t0_ms": 2112930,
+     "text": "And I think that's a really good example of where we're at."
+    },
+    {
+     "t0_ms": 2113010,
+     "text": "And I think that's a really good example of where we're at."
+    },
+    {
+     "t0_ms": 2113150,
+     "text": "And I think that's a really good example of where we're at."
+    },
+    {
+     "t0_ms": 2114150,
+     "text": "And that's something new for our CSBG business."
+    },
+    {
+     "t0_ms": 2115150,
+     "text": "And so I'm very excited about that becoming a bigger growth driver for us than it has"
+    },
+    {
+     "t0_ms": 2120150,
+     "text": "been in the past."
+    },
+    {
+     "t0_ms": 2121150,
+     "text": "And I'll let Doug talk about upgrades, spares, and everything else."
+    },
+    {
+     "t0_ms": 2124150,
+     "text": "Yeah, Harlan, you know, we don't specifically give you hard numbers on each of the individual"
+    },
+    {
+     "t0_ms": 2128150,
+     "text": "sub-components."
+    },
+    {
+     "t0_ms": 2129150,
+     "text": "What I would tell you relative to strength of each of them, though, given how strong"
+    },
+    {
+     "t0_ms": 2133150,
+     "text": "utilization in the industry, spares and service are just humming along, as you would expect."
+    },
+    {
+     "t0_ms": 2139150,
+     "text": "I've always said spares is the biggest thing."
+    },
+    {
+     "t0_ms": 2142150,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2142390,
+     "text": "Spares is the biggest individual component, and that continues to be true."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2146390,
+   "t1_ms": 2169390,
+   "speaker": "Management",
+   "text": "But I'm not going to be specific on the other ones. But what you alluded to is right. Given where we're at in the NAND conversion slash upgrade cycle, that portion of the business continues to be strong. And yes, Reliant did quite nicely last quarter, given the strength of investment at mature node spending. And I expect you'll see all of these trends continue into next year.",
+   "parts": [
+    {
+     "t0_ms": 2146390,
+     "text": "But I'm not going to be specific on the other ones."
+    },
+    {
+     "t0_ms": 2149390,
+     "text": "But what you alluded to is right."
+    },
+    {
+     "t0_ms": 2151390,
+     "text": "Given where we're at in the NAND conversion slash upgrade cycle, that portion of the business"
+    },
+    {
+     "t0_ms": 2158390,
+     "text": "continues to be strong."
+    },
+    {
+     "t0_ms": 2159390,
+     "text": "And yes, Reliant did quite nicely last quarter, given the strength of investment at mature"
+    },
+    {
+     "t0_ms": 2164390,
+     "text": "node spending."
+    },
+    {
+     "t0_ms": 2165390,
+     "text": "And I expect you'll see all of these trends continue into next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2169390,
+   "t1_ms": 2201740,
+   "speaker": "Analyst",
+   "text": "Yeah, no, I appreciate that. And then as a follow-up. You know, the supply tightness and leading edge foundry logic is creating tightness in mature and specialty nodes, analog power, microcontrollers. Foundry supply here is tightening very rapidly, right? It looks like mature foundry suppliers, internal IDM factories, they're kind of all increasing capacity. You just said that this is reflected in your Reliance business. But if I exclude China, are you anticipating this segment of your customer base to grow this year?",
+   "parts": [
+    {
+     "t0_ms": 2169390,
+     "text": "Yeah, no, I appreciate that."
+    },
+    {
+     "t0_ms": 2170390,
+     "text": "And then as a follow-up."
+    },
+    {
+     "t0_ms": 2171390,
+     "text": "You know, the supply tightness and leading edge foundry logic is creating tightness in"
+    },
+    {
+     "t0_ms": 2176390,
+     "text": "mature and specialty nodes, analog power, microcontrollers."
+    },
+    {
+     "t0_ms": 2180390,
+     "text": "Foundry supply here is tightening very rapidly, right?"
+    },
+    {
+     "t0_ms": 2183390,
+     "text": "It looks like mature foundry suppliers, internal IDM factories, they're kind of all increasing"
+    },
+    {
+     "t0_ms": 2189390,
+     "text": "capacity."
+    },
+    {
+     "t0_ms": 2190390,
+     "text": "You just said that this is reflected in your Reliance business."
+    },
+    {
+     "t0_ms": 2193390,
+     "text": "But if I exclude China, are you anticipating this segment of your customer base to grow"
+    },
+    {
+     "t0_ms": 2199390,
+     "text": "this year?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2201740,
+   "t1_ms": 2220740,
+   "speaker": "Management",
+   "text": "Probably not in a meaningful way this year, Harlan. I do expect as we get into next year that mature node spending outside of China will be strong because of the dynamics you were just referring to. I'm not sure that it's really sticking out quite yet in 2026.",
+   "parts": [
+    {
+     "t0_ms": 2201740,
+     "text": "Probably not in a meaningful way this year, Harlan."
+    },
+    {
+     "t0_ms": 2206740,
+     "text": "I do expect as we get into next year that mature node spending outside of China will"
+    },
+    {
+     "t0_ms": 2211740,
+     "text": "be strong because of the dynamics you were just referring to."
+    },
+    {
+     "t0_ms": 2215740,
+     "text": "I'm not sure that it's really sticking out quite yet in 2026."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2220740,
+   "t1_ms": 2222740,
+   "speaker": "Analyst",
+   "text": "Got it. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2220740,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 2221740,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2222740,
+   "t1_ms": 2225740,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Harlan. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2222740,
+     "text": "Yeah, thanks, Harlan."
+    },
+    {
+     "t0_ms": 2224740,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2225740,
+   "t1_ms": 2231740,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Srini Pajuri with RBC Capital Markets. Please go ahead. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2225740,
+     "text": "And our next question today comes from Srini Pajuri with RBC Capital Markets."
+    },
+    {
+     "t0_ms": 2229740,
+     "text": "Please go ahead."
+    },
+    {
+     "t0_ms": 2230740,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2231740,
+   "t1_ms": 2266740,
+   "speaker": "Analyst",
+   "text": "Tim, I'm looking at your systems business growth. I think last year you were up 40%. And then this year, you're probably going to grow 45%, both well above the WFE growth. So looking out to next year, given you are 200 billion plus outlook, roughly 30%, let's say, I suspect you expect to outgrow that market next year as well. Can you talk about what are the drivers? Is it the market? Is it the business? What are the drivers? Is it driven by any particular end market like NAND or DRAM or any product line or anything else you can comment on? It would be helpful.",
+   "parts": [
+    {
+     "t0_ms": 2231740,
+     "text": "Tim, I'm looking at your systems business growth."
+    },
+    {
+     "t0_ms": 2233740,
+     "text": "I think last year you were up 40%."
+    },
+    {
+     "t0_ms": 2236740,
+     "text": "And then this year, you're probably going to grow 45%, both well above the WFE growth."
+    },
+    {
+     "t0_ms": 2243740,
+     "text": "So looking out to next year, given you are 200 billion plus outlook, roughly 30%, let's"
+    },
+    {
+     "t0_ms": 2250740,
+     "text": "say, I suspect you expect to outgrow that market next year as well."
+    },
+    {
+     "t0_ms": 2254740,
+     "text": "Can you talk about what are the drivers?"
+    },
+    {
+     "t0_ms": 2256740,
+     "text": "Is it the market?"
+    },
+    {
+     "t0_ms": 2257740,
+     "text": "Is it the business?"
+    },
+    {
+     "t0_ms": 2258740,
+     "text": "What are the drivers?"
+    },
+    {
+     "t0_ms": 2259740,
+     "text": "Is it driven by any particular end market like NAND or DRAM or any product line or anything"
+    },
+    {
+     "t0_ms": 2264740,
+     "text": "else you can comment on?"
+    },
+    {
+     "t0_ms": 2265740,
+     "text": "It would be helpful."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2266740,
+   "t1_ms": 2310740,
+   "speaker": "Management",
+   "text": "Yeah, I guess I would, at a very general level, I would say it's driven by the increase in deposition and edge intensity across all devices. And if there were a few things I'd point out, just as maybe obvious trends in the market, LAM's exposure in the advanced packaging space is extremely high. And I think advanced packaging is extremely high. And I think advanced packaging continues to play an even more vital role in just about every device that's feeding into AI today. And so that's, I think, a great position where we'll see outperformance. And we talked even about that extending in the panel level. But it really is in every device. I mean, you see NAND layers growing.",
+   "parts": [
+    {
+     "t0_ms": 2266740,
+     "text": "Yeah, I guess I would, at a very general level, I would say it's driven by the increase in"
+    },
+    {
+     "t0_ms": 2273740,
+     "text": "deposition and edge intensity across all devices."
+    },
+    {
+     "t0_ms": 2276740,
+     "text": "And if there were a few things I'd point out, just as maybe obvious trends in the market,"
+    },
+    {
+     "t0_ms": 2282740,
+     "text": "LAM's exposure in the advanced packaging space is extremely high."
+    },
+    {
+     "t0_ms": 2286740,
+     "text": "And I think advanced packaging is extremely high."
+    },
+    {
+     "t0_ms": 2287740,
+     "text": "And I think advanced packaging continues to play an even more vital role in just about"
+    },
+    {
+     "t0_ms": 2294740,
+     "text": "every device that's feeding into AI today."
+    },
+    {
+     "t0_ms": 2298740,
+     "text": "And so that's, I think, a great position where we'll see outperformance."
+    },
+    {
+     "t0_ms": 2303740,
+     "text": "And we talked even about that extending in the panel level."
+    },
+    {
+     "t0_ms": 2306740,
+     "text": "But it really is in every device."
+    },
+    {
+     "t0_ms": 2308740,
+     "text": "I mean, you see NAND layers growing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2310740,
+   "t1_ms": 2353740,
+   "speaker": "Management",
+   "text": "You see new architectures coming to NAND. You see, we talked a little bit about the emergence of SLC class NAND. You're starting to hear from our customers. Foundry Logic, we've talked about success in GATE all around. We invested four or five years ago in an entire set of products focused on improving our position in Foundry Logic and DRAM. And I commented on the fact that today, those products are driving a significant portion of our growth here in the years in which Foundry Logic and DRAM are leading the charge on growth. And so we're extremely happy with that. NAND is yet to emerge. NAND is yet to emerge to its full potential from our perspective. And I think you're starting to hear about it and the strategic role it can play in AI.",
+   "parts": [
+    {
+     "t0_ms": 2310740,
+     "text": "You see new architectures coming to NAND."
+    },
+    {
+     "t0_ms": 2312740,
+     "text": "You see, we talked a little bit about the emergence of SLC class NAND."
+    },
+    {
+     "t0_ms": 2316740,
+     "text": "You're starting to hear from our customers."
+    },
+    {
+     "t0_ms": 2319740,
+     "text": "Foundry Logic, we've talked about success in GATE all around."
+    },
+    {
+     "t0_ms": 2322740,
+     "text": "We invested four or five years ago in an entire set of products focused on improving our position"
+    },
+    {
+     "t0_ms": 2329740,
+     "text": "in Foundry Logic and DRAM."
+    },
+    {
+     "t0_ms": 2331740,
+     "text": "And I commented on the fact that today, those products are driving a significant portion"
+    },
+    {
+     "t0_ms": 2336740,
+     "text": "of our growth here in the years in which Foundry Logic and DRAM are leading the charge on growth."
+    },
+    {
+     "t0_ms": 2342740,
+     "text": "And so we're extremely happy with that."
+    },
+    {
+     "t0_ms": 2344740,
+     "text": "NAND is yet to emerge."
+    },
+    {
+     "t0_ms": 2345740,
+     "text": "NAND is yet to emerge to its full potential from our perspective."
+    },
+    {
+     "t0_ms": 2349740,
+     "text": "And I think you're starting to hear about it and the strategic role it can play in AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2353740,
+   "t1_ms": 2398140,
+   "speaker": "Management",
+   "text": "And so, I don't know, it's hard to project exactly. We'd love to see all the devices grow. But I think the single greatest theme is, regardless of which device we're talking about, deposition and edge will play a greater role in 2027. And if you think about, we had this model, which was the $100 billion of AI cap back in the early 20th century. And we had a lot of techs being about $10 billion in WFE. But the important thing is, that $10 billion next year, LAM's opportunity in that $10 billion would be even greater than it is this year because of the device evolution. And so I think that edge intensity is just the way to think about LAM's opportunity.",
+   "parts": [
+    {
+     "t0_ms": 2353740,
+     "text": "And so, I don't know, it's hard to project exactly."
+    },
+    {
+     "t0_ms": 2357740,
+     "text": "We'd love to see all the devices grow."
+    },
+    {
+     "t0_ms": 2359740,
+     "text": "But I think the single greatest theme is, regardless of which device we're talking about,"
+    },
+    {
+     "t0_ms": 2365740,
+     "text": "deposition and edge will play a greater role in 2027."
+    },
+    {
+     "t0_ms": 2369740,
+     "text": "And if you think about, we had this model, which was the $100 billion of AI cap back"
+    },
+    {
+     "t0_ms": 2375740,
+     "text": "in the early 20th century."
+    },
+    {
+     "t0_ms": 2377740,
+     "text": "And we had a lot of techs being about $10 billion in WFE."
+    },
+    {
+     "t0_ms": 2381740,
+     "text": "But the important thing is, that $10 billion next year, LAM's opportunity in that $10 billion"
+    },
+    {
+     "t0_ms": 2387740,
+     "text": "would be even greater than it is this year because of the device evolution."
+    },
+    {
+     "t0_ms": 2390740,
+     "text": "And so I think that edge intensity is just the way to think about LAM's opportunity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2398140,
+   "t1_ms": 2429140,
+   "speaker": "Analyst",
+   "text": "Right. And then maybe on the growth margins, Doug, your guiding actually slightly increased despite, you know, you highlighted some customer mix headwinds. I'm suspecting that's related to China. So I guess on a normalized basis, as we look out to the next few quarters, you know, once China normalizes, how should we think about growth margins? I mean, you know, in the past, you did talk about some pricing actions. And of course, you have the cost and efficiency improvements as well. So just curious as to how we should think about growth margins as we go into next year.",
+   "parts": [
+    {
+     "t0_ms": 2398140,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2399140,
+     "text": "And then maybe on the growth margins, Doug, your guiding actually slightly increased despite,"
+    },
+    {
+     "t0_ms": 2405140,
+     "text": "you know, you highlighted some customer mix headwinds."
+    },
+    {
+     "t0_ms": 2407140,
+     "text": "I'm suspecting that's related to China."
+    },
+    {
+     "t0_ms": 2409140,
+     "text": "So I guess on a normalized basis, as we look out to the next few quarters, you know, once China normalizes,"
+    },
+    {
+     "t0_ms": 2415140,
+     "text": "how should we think about growth margins?"
+    },
+    {
+     "t0_ms": 2417140,
+     "text": "I mean, you know, in the past, you did talk about some pricing actions."
+    },
+    {
+     "t0_ms": 2421140,
+     "text": "And of course, you have the cost and efficiency improvements as well."
+    },
+    {
+     "t0_ms": 2425140,
+     "text": "So just curious as to how we should think about growth margins as we go into next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2429140,
+   "t1_ms": 2471140,
+   "speaker": "Management",
+   "text": "Yeah, listen, in the near term, Srini, I think you're going to be plus or minus the level that we're at. We did suggest over the next year, we're going to be at about $100 billion. That's the next several years. We see an opportunity to expand growth margin in the mid-50s. So you kind of triangulate yourself between these two points. But in the near term, it will bounce around generally where it is. And, yeah, the things that contributed to our very strong growth margin as well as our expectation of how we're going to drive improvement into the future are our new product introductions, right? We've got some very nice technically differentiated new products like Aqara and Ether. We're excited about where that's all going to trend from a profitability standpoint.",
+   "parts": [
+    {
+     "t0_ms": 2429140,
+     "text": "Yeah, listen, in the near term, Srini, I think you're going to be plus or minus the level that we're at."
+    },
+    {
+     "t0_ms": 2435140,
+     "text": "We did suggest over the next year, we're going to be at about $100 billion."
+    },
+    {
+     "t0_ms": 2437140,
+     "text": "That's the next several years."
+    },
+    {
+     "t0_ms": 2438140,
+     "text": "We see an opportunity to expand growth margin in the mid-50s."
+    },
+    {
+     "t0_ms": 2441140,
+     "text": "So you kind of triangulate yourself between these two points."
+    },
+    {
+     "t0_ms": 2445140,
+     "text": "But in the near term, it will bounce around generally where it is."
+    },
+    {
+     "t0_ms": 2449140,
+     "text": "And, yeah, the things that contributed to our very strong growth margin as well as our expectation of how we're going to drive"
+    },
+    {
+     "t0_ms": 2457140,
+     "text": "improvement into the future are our new product introductions, right?"
+    },
+    {
+     "t0_ms": 2461140,
+     "text": "We've got some very nice technically differentiated new products like Aqara and Ether."
+    },
+    {
+     "t0_ms": 2467140,
+     "text": "We're excited about where that's all going to trend from a profitability standpoint."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2471140,
+   "t1_ms": 2503140,
+   "speaker": "Management",
+   "text": "We've talked about our close-to-customer strategy relative to how we're manufacturing closer to where the fabs are. And that's contributed and still has a little bit of juice left to squeeze there. And then we've also talked about the fact that we're working on pricing. All of those things have contributed to getting us to the all-time record level that we printed in the September quarter. And levers we're going to keep trying to pull as we go into the future to get to that mid-50s that we've said we were \u2013 Yeah. \u2013 going to drive towards. Thanks, Alex. Thanks, Srini. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2471140,
+     "text": "We've talked about our close-to-customer strategy relative to how we're manufacturing closer to where the fabs are."
+    },
+    {
+     "t0_ms": 2477140,
+     "text": "And that's contributed and still has a little bit of juice left to squeeze there."
+    },
+    {
+     "t0_ms": 2481140,
+     "text": "And then we've also talked about the fact that we're working on pricing."
+    },
+    {
+     "t0_ms": 2484140,
+     "text": "All of those things have contributed to getting us to the all-time record level that we printed in the September quarter."
+    },
+    {
+     "t0_ms": 2490140,
+     "text": "And levers we're going to keep trying to pull as we go into the future to get to that mid-50s that we've said we were \u2013"
+    },
+    {
+     "t0_ms": 2495140,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2496140,
+     "text": "\u2013 going to drive towards."
+    },
+    {
+     "t0_ms": 2498140,
+     "text": "Thanks, Alex."
+    },
+    {
+     "t0_ms": 2500140,
+     "text": "Thanks, Srini."
+    },
+    {
+     "t0_ms": 2502140,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2503140,
+   "t1_ms": 2509140,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Vivek Arya with Bank of America Securities. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2503140,
+     "text": "And our next question today comes from Vivek Arya with Bank of America Securities."
+    },
+    {
+     "t0_ms": 2508140,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2509140,
+   "t1_ms": 2553140,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. For the first one, if I look at last year, you were able to kind of consistently expand your WSE expectations. I think you started the year at mid-130s. You know, now it's like mid-150s. So I'm curious. What helped you increase WSE expectations, right, last year? And then what are the constraints next year that you think can be resolved to help do better than this 30% or so industry growth? And I know you mentioned some, you know, constraints in the near term. I'm curious if they are the same constraints that limit industry growth for next year or they are different. So just what can help you do better than this 30% industry WSE growth?",
+   "parts": [
+    {
+     "t0_ms": 2509140,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2511140,
+     "text": "For the first one, if I look at last year, you were able to kind of consistently expand your WSE expectations."
+    },
+    {
+     "t0_ms": 2520140,
+     "text": "I think you started the year at mid-130s."
+    },
+    {
+     "t0_ms": 2522140,
+     "text": "You know, now it's like mid-150s."
+    },
+    {
+     "t0_ms": 2524140,
+     "text": "So I'm curious."
+    },
+    {
+     "t0_ms": 2525140,
+     "text": "What helped you increase WSE expectations, right, last year?"
+    },
+    {
+     "t0_ms": 2531140,
+     "text": "And then what are the constraints next year that you think can be resolved to help do better than this 30% or so industry growth?"
+    },
+    {
+     "t0_ms": 2540140,
+     "text": "And I know you mentioned some, you know, constraints in the near term."
+    },
+    {
+     "t0_ms": 2543140,
+     "text": "I'm curious if they are the same constraints that limit industry growth for next year or they are different."
+    },
+    {
+     "t0_ms": 2548140,
+     "text": "So just what can help you do better than this 30% industry WSE growth?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2553140,
+   "t1_ms": 2591140,
+   "speaker": "Management",
+   "text": "Yeah, Vivek, I'll start and then I'll let Tim add. You know, as we've walked through this year, you're absolutely right. We started mid-130s and then we went to a little bit more than 140 and then a little more than 150 and then we just took you to mid-150s. Basically what we saw happening across all aspects of our customer base is everybody squeezed a little more out of the clean rooms that they had and or pulled projects in a little bit quicker than maybe they originally intended. That's generally what happened. And frankly, we did exactly the same thing. Yeah. And with the more than 200 number, we're giving you our initial starting point, more than 200.",
+   "parts": [
+    {
+     "t0_ms": 2553140,
+     "text": "Yeah, Vivek, I'll start and then I'll let Tim add."
+    },
+    {
+     "t0_ms": 2556140,
+     "text": "You know, as we've walked through this year, you're absolutely right."
+    },
+    {
+     "t0_ms": 2558140,
+     "text": "We started mid-130s and then we went to a little bit more than 140 and then a little more than 150 and then we just took you to mid-150s."
+    },
+    {
+     "t0_ms": 2566140,
+     "text": "Basically what we saw happening across all aspects of our customer base is everybody squeezed a little more out of the clean rooms that they had and or pulled projects in a little bit quicker than maybe they originally intended."
+    },
+    {
+     "t0_ms": 2579140,
+     "text": "That's generally what happened."
+    },
+    {
+     "t0_ms": 2580140,
+     "text": "And frankly, we did exactly the same thing."
+    },
+    {
+     "t0_ms": 2581140,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2582140,
+     "text": "And with the more than 200 number, we're giving you our initial starting point, more than 200."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2591140,
+   "t1_ms": 2602620,
+   "speaker": "Management",
+   "text": "We normally don't give you this much specificity this early in the year and we'll give you a sharper pencil on that when we get to the earnings call next quarter. Gotcha.",
+   "parts": [
+    {
+     "t0_ms": 2591140,
+     "text": "We normally don't give you this much specificity this early in the year and we'll give you a sharper pencil on that when we get to the earnings call next quarter."
+    },
+    {
+     "t0_ms": 2600140,
+     "text": "Gotcha."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2602620,
+   "t1_ms": 2629620,
+   "speaker": "Analyst",
+   "text": "And for my follow-up, Doug, you mentioned something about an accelerated, you know, repurchase plan. I think you can all guess what that is due to. But it would help to hear from you also and if you could help give some sense of what the magnitude is, how long you plan to, you know, continue it. I know you mentioned you have $3 billion left in the buy-by. But just how much is the ASR component, how long it continues? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2602620,
+     "text": "And for my follow-up, Doug, you mentioned something about an accelerated, you know, repurchase plan."
+    },
+    {
+     "t0_ms": 2609620,
+     "text": "I think you can all guess what that is due to."
+    },
+    {
+     "t0_ms": 2612620,
+     "text": "But it would help to hear from you also and if you could help give some sense of what the magnitude is, how long you plan to, you know, continue it."
+    },
+    {
+     "t0_ms": 2621620,
+     "text": "I know you mentioned you have $3 billion left in the buy-by."
+    },
+    {
+     "t0_ms": 2624620,
+     "text": "But just how much is the ASR component, how long it continues?"
+    },
+    {
+     "t0_ms": 2627620,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2629620,
+   "t1_ms": 2673930,
+   "speaker": "Management",
+   "text": "Yeah. I mean, Vivek, the way these accelerated share repurchase structures work is you enter into them, you get some shares up front and then they execute over time depending on where the share price is and volatility. And things like that. I'm not going to disclose actually the start or end date because there's ranges around it. I don't like people to know what we do and how we do it except I will reinforce for you it's going to continue to execute in December. And then we will likely be doing other things in the market relative to the buy-back, right? Our medium long-term goals remain unchanged, which is to return 85% of free cash flow to shareholders. Thank you. Yeah. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2629620,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2630620,
+     "text": "I mean, Vivek, the way these accelerated share repurchase structures work is you enter into them, you get some shares up front and then they execute over time depending on where the share price is and volatility."
+    },
+    {
+     "t0_ms": 2641620,
+     "text": "And things like that."
+    },
+    {
+     "t0_ms": 2643620,
+     "text": "I'm not going to disclose actually the start or end date because there's ranges around it."
+    },
+    {
+     "t0_ms": 2648620,
+     "text": "I don't like people to know what we do and how we do it except I will reinforce for you it's going to continue to execute in December."
+    },
+    {
+     "t0_ms": 2655620,
+     "text": "And then we will likely be doing other things in the market relative to the buy-back, right?"
+    },
+    {
+     "t0_ms": 2661620,
+     "text": "Our medium long-term goals remain unchanged, which is to return 85% of free cash flow to shareholders."
+    },
+    {
+     "t0_ms": 2669620,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2671930,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2672930,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2673930,
+   "t1_ms": 2674930,
+   "speaker": "Management",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2673930,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2674930,
+   "t1_ms": 2680930,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Lateef Malik with Citi. Please go ahead. Hi.",
+   "parts": [
+    {
+     "t0_ms": 2674930,
+     "text": "And our next question today comes from Lateef Malik with Citi."
+    },
+    {
+     "t0_ms": 2678930,
+     "text": "Please go ahead."
+    },
+    {
+     "t0_ms": 2679930,
+     "text": "Hi."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2680930,
+   "t1_ms": 2705930,
+   "speaker": "Analyst",
+   "text": "Thank you for taking my question. The first one for Tim. Tim, I thought your panel-level packaging comments are extremely bullish. You're talking about a share that will exceed the wafer-level packaging. Can you just kind of double-click in terms of the industry ramp on panel-level packaging and your products? Are the products the same as wafer-level packaging? Are they similar as wafer-level like Sabre that will drive this growth?",
+   "parts": [
+    {
+     "t0_ms": 2680930,
+     "text": "Thank you for taking my question."
+    },
+    {
+     "t0_ms": 2682930,
+     "text": "The first one for Tim."
+    },
+    {
+     "t0_ms": 2683930,
+     "text": "Tim, I thought your panel-level packaging comments are extremely bullish."
+    },
+    {
+     "t0_ms": 2687930,
+     "text": "You're talking about a share that will exceed the wafer-level packaging."
+    },
+    {
+     "t0_ms": 2691930,
+     "text": "Can you just kind of double-click in terms of the industry ramp on panel-level packaging and your products?"
+    },
+    {
+     "t0_ms": 2698930,
+     "text": "Are the products the same as wafer-level packaging?"
+    },
+    {
+     "t0_ms": 2700930,
+     "text": "Are they similar as wafer-level like Sabre that will drive this growth?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2705930,
+   "t1_ms": 2742930,
+   "speaker": "Management",
+   "text": "Yeah. I mean, at a fundamental level, they're similar. I mean, I think part of our optimism in this space is, one, it makes sense. I mean, obviously, we talked on the last \u2013 I think on the last earnings call about how packages themselves are getting larger, which in many cases is \u2013 they're too big for wafer-level packaging. And so panels make sense as you try to assemble bigger and bigger system-level solutions. So, you know, we saw that quite a while ago, and we've been investing in panels for several years. And I would say we're still, though, in the very, very early stages. I mean, it's wafer-level packaging is the predominant method.",
+   "parts": [
+    {
+     "t0_ms": 2705930,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2706930,
+     "text": "I mean, at a fundamental level, they're similar."
+    },
+    {
+     "t0_ms": 2709930,
+     "text": "I mean, I think part of our optimism in this space is, one, it makes sense."
+    },
+    {
+     "t0_ms": 2713930,
+     "text": "I mean, obviously, we talked on the last \u2013 I think on the last earnings call about how packages themselves are getting larger, which in many cases is \u2013 they're too big for wafer-level packaging."
+    },
+    {
+     "t0_ms": 2723930,
+     "text": "And so panels make sense as you try to assemble bigger and bigger system-level solutions."
+    },
+    {
+     "t0_ms": 2728930,
+     "text": "So, you know, we saw that quite a while ago, and we've been investing in panels for several years."
+    },
+    {
+     "t0_ms": 2733930,
+     "text": "And I would say we're still, though, in the very, very early stages."
+    },
+    {
+     "t0_ms": 2737930,
+     "text": "I mean, it's wafer-level packaging is the predominant method."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2742930,
+   "t1_ms": 2770930,
+   "speaker": "Management",
+   "text": "But as we talked about the shipments to more than 20 customers, you can think of those as really the, you know, planting the seeds for an industry that I think is going to ultimately assume a fair bit of the packaging work for the industry. Thank you. And the processes that we talked about, we don't call it SABR in this case. I mean, but there is a plating \u2013 there's a plating aspect to this and some other processes that I think will do extremely well within panel level.",
+   "parts": [
+    {
+     "t0_ms": 2742930,
+     "text": "But as we talked about the shipments to more than 20 customers, you can think of those as really the, you know, planting the seeds for an industry that I think is going to ultimately assume a fair bit of the packaging work for the industry."
+    },
+    {
+     "t0_ms": 2756930,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2757930,
+     "text": "And the processes that we talked about, we don't call it SABR in this case."
+    },
+    {
+     "t0_ms": 2762930,
+     "text": "I mean, but there is a plating \u2013 there's a plating aspect to this and some other processes that I think will do extremely well within panel level."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2770930,
+   "t1_ms": 2795430,
+   "speaker": "Analyst",
+   "text": "Great. And then, Doug, on that $200 billion-plus basis-type equipment outlook for next year, your rank order is DRAM, Foundry Logic, and NAND, which is the same as 90 days ago. But has the gap between DRAM and Foundry Logic expectations narrowed? Given some of the announcements on the new Logic fabs from Foundry and TerraFab-like?",
+   "parts": [
+    {
+     "t0_ms": 2770930,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2773430,
+     "text": "And then, Doug, on that $200 billion-plus basis-type equipment outlook for next year, your rank order is DRAM, Foundry Logic, and NAND, which is the same as 90 days ago."
+    },
+    {
+     "t0_ms": 2783430,
+     "text": "But has the gap between DRAM and Foundry Logic expectations narrowed?"
+    },
+    {
+     "t0_ms": 2788430,
+     "text": "Given some of the announcements on the new Logic fabs from Foundry and TerraFab-like?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2795430,
+   "t1_ms": 2812430,
+   "speaker": "Management",
+   "text": "No, Akif, they really haven't. And as you might expect, all of these projects perhaps that people are now publicly hearing about, we knew about in advance of that. So it really hasn't changed much. Thank you. Yeah, thanks, Akif. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2795430,
+     "text": "No, Akif, they really haven't."
+    },
+    {
+     "t0_ms": 2798430,
+     "text": "And as you might expect, all of these projects perhaps that people are now publicly hearing about, we knew about in advance of that."
+    },
+    {
+     "t0_ms": 2805430,
+     "text": "So it really hasn't changed much."
+    },
+    {
+     "t0_ms": 2807430,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2809430,
+     "text": "Yeah, thanks, Akif."
+    },
+    {
+     "t0_ms": 2811430,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2812430,
+   "t1_ms": 2817430,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Jim Schneider at Goldman Sachs. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2812430,
+     "text": "And our next question today comes from Jim Schneider at Goldman Sachs."
+    },
+    {
+     "t0_ms": 2816430,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2817430,
+   "t1_ms": 2862270,
+   "speaker": "Management",
+   "text": "Good evening. Thanks for taking my question. I was wondering, as you look into 2027, can you maybe frame for us some of the moving pieces that could adjust the WFE outlook, you know, higher or lower? How much of it really is your customers' individual spending plans for the different technology or product areas versus just the general availability of clean room space overall? Yeah, Jim, I'll start, and then I'll let Tim add. You know, when we look into next year, we see 10 new tier 1. We see 10 new tier 1 fabs coming online between the beginning of the year and the end of the year. And they will layer in over time. So obviously that's a contributor. This year has been primarily clean room constrained.",
+   "parts": [
+    {
+     "t0_ms": 2817430,
+     "text": "Good evening."
+    },
+    {
+     "t0_ms": 2820740,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2821740,
+     "text": "I was wondering, as you look into 2027, can you maybe frame for us some of the moving pieces that could adjust the WFE outlook, you know, higher or lower?"
+    },
+    {
+     "t0_ms": 2832740,
+     "text": "How much of it really is your customers' individual spending plans for the different technology or product areas versus just the general availability of clean room space overall?"
+    },
+    {
+     "t0_ms": 2843740,
+     "text": "Yeah, Jim, I'll start, and then I'll let Tim add."
+    },
+    {
+     "t0_ms": 2848270,
+     "text": "You know, when we look into next year, we see 10 new tier 1."
+    },
+    {
+     "t0_ms": 2850270,
+     "text": "We see 10 new tier 1 fabs coming online between the beginning of the year and the end of the year."
+    },
+    {
+     "t0_ms": 2854270,
+     "text": "And they will layer in over time."
+    },
+    {
+     "t0_ms": 2856270,
+     "text": "So obviously that's a contributor."
+    },
+    {
+     "t0_ms": 2859270,
+     "text": "This year has been primarily clean room constrained."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2862270,
+   "t1_ms": 2904270,
+   "speaker": "Management",
+   "text": "And then again, you see, like we said, some emerging supply chain constraints that we're confident we're going to be able to work through effectively. But the whole industry is going to have to work through very similar things. And so all this at the end of the day has to get balanced. Every equipment company needs to be able to supply things. Clean rooms need to come on on schedule. People need to hire and train to make sure they're all ready. The industry is good at doing this, and we're great at doing it. But all of those things have to come into play when you're thinking about what the next year is going to look like. Yeah, and I think in my prepared remarks, I talked about the fact that we have visibility through 2028. You know, that's really from the demand side.",
+   "parts": [
+    {
+     "t0_ms": 2862270,
+     "text": "And then again, you see, like we said, some emerging supply chain constraints that we're confident we're going to be able to work through effectively."
+    },
+    {
+     "t0_ms": 2870270,
+     "text": "But the whole industry is going to have to work through very similar things."
+    },
+    {
+     "t0_ms": 2874270,
+     "text": "And so all this at the end of the day has to get balanced."
+    },
+    {
+     "t0_ms": 2877270,
+     "text": "Every equipment company needs to be able to supply things."
+    },
+    {
+     "t0_ms": 2879270,
+     "text": "Clean rooms need to come on on schedule."
+    },
+    {
+     "t0_ms": 2881270,
+     "text": "People need to hire and train to make sure they're all ready."
+    },
+    {
+     "t0_ms": 2885270,
+     "text": "The industry is good at doing this, and we're great at doing it."
+    },
+    {
+     "t0_ms": 2890270,
+     "text": "But all of those things have to come into play when you're thinking about what the next year is going to look like."
+    },
+    {
+     "t0_ms": 2896270,
+     "text": "Yeah, and I think in my prepared remarks, I talked about the fact that we have visibility through 2028."
+    },
+    {
+     "t0_ms": 2902270,
+     "text": "You know, that's really from the demand side."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2904270,
+   "t1_ms": 2937270,
+   "speaker": "Management",
+   "text": "And so I think that, you know, where we're saying it might just be a little bit early to get there, early to get such a precise number on WFE is simply because we think by the January call, which is the normal time we would get that level of detail, we'll have a better view of clean room schedules, of supply chain constraints, and really be able to hone in on that. But it's, you know, those are the things we're looking at. And just as this year, you know, we were able to work through those. And I think as we get closer, we'll get a better sense for how the industry is responding.",
+   "parts": [
+    {
+     "t0_ms": 2904270,
+     "text": "And so I think that, you know, where we're saying it might just be a little bit early to get there,"
+    },
+    {
+     "t0_ms": 2908270,
+     "text": "early to get such a precise number on WFE is simply because we think by the January call,"
+    },
+    {
+     "t0_ms": 2913270,
+     "text": "which is the normal time we would get that level of detail,"
+    },
+    {
+     "t0_ms": 2916270,
+     "text": "we'll have a better view of clean room schedules, of supply chain constraints, and really be able to hone in on that."
+    },
+    {
+     "t0_ms": 2923270,
+     "text": "But it's, you know, those are the things we're looking at."
+    },
+    {
+     "t0_ms": 2928270,
+     "text": "And just as this year, you know, we were able to work through those."
+    },
+    {
+     "t0_ms": 2932270,
+     "text": "And I think as we get closer, we'll get a better sense for how the industry is responding."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2938270,
+   "t1_ms": 2940970,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2938270,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2940970,
+   "t1_ms": 2943250,
+   "speaker": "Management",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2940970,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2943250,
+   "t1_ms": 2949250,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Stacy Raskin with Bernstein Research. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2943250,
+     "text": "And our next question today comes from Stacy Raskin with Bernstein Research."
+    },
+    {
+     "t0_ms": 2947250,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2949250,
+   "t1_ms": 2991250,
+   "speaker": "Management",
+   "text": "Hi, guys. Thanks for taking my questions. For the first one, like I understand that this more than 200 billion WV next year is a constrained number. Do you guys have a point of view on what that number would be if it was not constrained, if clean rooms were available, if supply chain was not as tight as it is? Where do you think \u2013 I guess what I meant is where do you think the demand for WV is? And for WVAs in 2027 versus the supply number that you've given? Yeah, listen, Stacy, you always ask these interesting questions. You know we're not going to answer them. But I love the questions nonetheless. Listen, things are going to continue to be constrained, we think, in the next year by the things that we've described.",
+   "parts": [
+    {
+     "t0_ms": 2949250,
+     "text": "Hi, guys."
+    },
+    {
+     "t0_ms": 2950250,
+     "text": "Thanks for taking my questions."
+    },
+    {
+     "t0_ms": 2952250,
+     "text": "For the first one, like I understand that this more than 200 billion WV next year is a constrained number."
+    },
+    {
+     "t0_ms": 2958250,
+     "text": "Do you guys have a point of view on what that number would be if it was not constrained,"
+    },
+    {
+     "t0_ms": 2962250,
+     "text": "if clean rooms were available, if supply chain was not as tight as it is?"
+    },
+    {
+     "t0_ms": 2967250,
+     "text": "Where do you think \u2013 I guess what I meant is where do you think the demand for WV is?"
+    },
+    {
+     "t0_ms": 2970250,
+     "text": "And for WVAs in 2027 versus the supply number that you've given?"
+    },
+    {
+     "t0_ms": 2976250,
+     "text": "Yeah, listen, Stacy, you always ask these interesting questions."
+    },
+    {
+     "t0_ms": 2980250,
+     "text": "You know we're not going to answer them."
+    },
+    {
+     "t0_ms": 2983250,
+     "text": "But I love the questions nonetheless."
+    },
+    {
+     "t0_ms": 2986250,
+     "text": "Listen, things are going to continue to be constrained, we think, in the next year by the things that we've described."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2991250,
+   "t1_ms": 3034250,
+   "speaker": "Management",
+   "text": "I'm not going to put a number on what the unconstrained demand would be. It probably \u2013 not probably. It would be higher. But I'm not going to give you a precise number. And like I said, we'll fine-tune what we think the number is and give you a little more specificity on the next quarter call also. Okay. That's helpful. For my follow-up, I did follow up on the NAND upgrades relative to the services. It sounded like upgrades were strong. I don't know if that meant that they grew sequentially or not. I assume they did because the NAND revenues grew a bunch. But the CSBG revenues were kind of flattish, and I thought the upgrades were in CSBG. So if that's the case, I guess what I'm asking is did upgrades drive the NAND growth?",
+   "parts": [
+    {
+     "t0_ms": 2991250,
+     "text": "I'm not going to put a number on what the unconstrained demand would be."
+    },
+    {
+     "t0_ms": 2995250,
+     "text": "It probably \u2013 not probably."
+    },
+    {
+     "t0_ms": 2998250,
+     "text": "It would be higher."
+    },
+    {
+     "t0_ms": 3000250,
+     "text": "But I'm not going to give you a precise number."
+    },
+    {
+     "t0_ms": 3003250,
+     "text": "And like I said, we'll fine-tune what we think the number is"
+    },
+    {
+     "t0_ms": 3006250,
+     "text": "and give you a little more specificity on the next quarter call also."
+    },
+    {
+     "t0_ms": 3011250,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 3012250,
+     "text": "That's helpful."
+    },
+    {
+     "t0_ms": 3013250,
+     "text": "For my follow-up, I did follow up on the NAND upgrades relative to the services."
+    },
+    {
+     "t0_ms": 3017250,
+     "text": "It sounded like upgrades were strong."
+    },
+    {
+     "t0_ms": 3020250,
+     "text": "I don't know if that meant that they grew sequentially or not."
+    },
+    {
+     "t0_ms": 3022250,
+     "text": "I assume they did because the NAND revenues grew a bunch."
+    },
+    {
+     "t0_ms": 3024250,
+     "text": "But the CSBG revenues were kind of flattish, and I thought the upgrades were in CSBG."
+    },
+    {
+     "t0_ms": 3029250,
+     "text": "So if that's the case, I guess what I'm asking is did upgrades drive the NAND growth?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3034250,
+   "t1_ms": 3066710,
+   "speaker": "Management",
+   "text": "And if they did, what else was going on in CSBG to absorb the growth such that the overall was flat? Yeah, listen, Stacey, upgrades are a part of NAND and also CSBG. But NAND also, when you go through these conversions, you need to buy new equipment also. So obviously there was a contribution in the NAND spending from new equipment also. Was it bigger than the upgrade piece? Sounds like it was. Both were meaningful contributions.",
+   "parts": [
+    {
+     "t0_ms": 3034250,
+     "text": "And if they did, what else was going on in CSBG to absorb the growth such that the overall was flat?"
+    },
+    {
+     "t0_ms": 3040250,
+     "text": "Yeah, listen, Stacey, upgrades are a part of NAND and also CSBG."
+    },
+    {
+     "t0_ms": 3045250,
+     "text": "But NAND also, when you go through these conversions, you need to buy new equipment also."
+    },
+    {
+     "t0_ms": 3050250,
+     "text": "So obviously there was a contribution in the NAND spending from new equipment also."
+    },
+    {
+     "t0_ms": 3057250,
+     "text": "Was it bigger than the upgrade piece?"
+    },
+    {
+     "t0_ms": 3060710,
+     "text": "Sounds like it was."
+    },
+    {
+     "t0_ms": 3062710,
+     "text": "Both were meaningful contributions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3066710,
+   "t1_ms": 3069380,
+   "speaker": "Operator",
+   "text": "Okay.",
+   "parts": [
+    {
+     "t0_ms": 3066710,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3069380,
+   "t1_ms": 3071380,
+   "speaker": "Management",
+   "text": "Thank you, guys. Thanks, Stacey.",
+   "parts": [
+    {
+     "t0_ms": 3069380,
+     "text": "Thank you, guys."
+    },
+    {
+     "t0_ms": 3070380,
+     "text": "Thanks, Stacey."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3071380,
+   "t1_ms": 3077380,
+   "speaker": "Operator",
+   "text": "And our next question today comes from Blaine Curtis at Jefferies. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3071380,
+     "text": "And our next question today comes from Blaine Curtis at Jefferies."
+    },
+    {
+     "t0_ms": 3076380,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3077380,
+   "t1_ms": 3087380,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for squeezing in. I actually want to ask on the NAND side, you mentioned SLC. That could be a big transition. Is that something you're seeing from customers, or is that still a potential transition?",
+   "parts": [
+    {
+     "t0_ms": 3077380,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 3078380,
+     "text": "Thanks for squeezing in."
+    },
+    {
+     "t0_ms": 3079380,
+     "text": "I actually want to ask on the NAND side, you mentioned SLC."
+    },
+    {
+     "t0_ms": 3081380,
+     "text": "That could be a big transition."
+    },
+    {
+     "t0_ms": 3082380,
+     "text": "Is that something you're seeing from customers, or is that still a potential transition?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3087380,
+   "t1_ms": 3130380,
+   "speaker": "Management",
+   "text": "I think it's something you're starting to hear from customers talked about. I mean, fundamentally, this idea of customizing memory and storage hierarchy to the different workloads, I think, is now pretty well understood. And so I think that this is emerging as one of the potential solutions for low latency NAND access. And so I think if you go look just in the last recent days and weeks, there's been discussion of SLC NAND emerging as part of that transition. A little bit longer, I mean, for a little bit longer time, there's been discussion also of things like high bandwidth flash and the role it can play.",
+   "parts": [
+    {
+     "t0_ms": 3087380,
+     "text": "I think it's something you're starting to hear from customers talked about."
+    },
+    {
+     "t0_ms": 3091380,
+     "text": "I mean, fundamentally, this idea of customizing memory and storage hierarchy to the different"
+    },
+    {
+     "t0_ms": 3098380,
+     "text": "workloads, I think, is now pretty well understood."
+    },
+    {
+     "t0_ms": 3101380,
+     "text": "And so I think that this is emerging as one of the potential solutions for low latency NAND access."
+    },
+    {
+     "t0_ms": 3110380,
+     "text": "And so I think if you go look just in the last recent days and weeks, there's been discussion of SLC NAND emerging as part of that transition."
+    },
+    {
+     "t0_ms": 3120380,
+     "text": "A little bit longer, I mean, for a little bit longer time, there's been discussion also of things like high bandwidth flash and the role it can play."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3130380,
+   "t1_ms": 3158380,
+   "speaker": "Management",
+   "text": "And so we're really starting to see NAND move from sort of a singular application we've always thought of to now one in which perhaps the device performances themselves will need to be customized. And that will have implications for us, but it will also, from a process perspective, really what we were highlighting here was the fact that we're not just going to be using the NAND for the NAND equipment content that we have to deliver to Google. So it's part of a series of kinds of things we'll be working on in the coming years.",
+   "parts": [
+    {
+     "t0_ms": 3130380,
+     "text": "And so we're really starting to see NAND move from sort of a singular application we've always thought of to now one in which perhaps the device performances themselves will need to be customized."
+    },
+    {
+     "t0_ms": 3141380,
+     "text": "And that will have implications for us, but it will also, from a process perspective, really what we were highlighting here was the fact that we're not just going to be using the NAND for the"
+    },
+    {
+     "t0_ms": 3150380,
+     "text": "NAND equipment content that we have to deliver to Google."
+    },
+    {
+     "t0_ms": 3153380,
+     "text": "So it's part of a series of kinds of things we'll be working on in the coming years."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3158380,
+   "t1_ms": 3174380,
+   "speaker": "Analyst",
+   "text": "So, again, it's just working in the context of that. Great. Excellent. Now, another question we have from Rainer. We have a question from Peter. What's the impact you would have on waiver capacity needs, and therefore, perhaps in uptick in NAND equipment demand? Excellent. And I want to ask on advanced packaging. I think you said last time it would grow over 70% for the calendar year. I was curious what the update is.",
+   "parts": [
+    {
+     "t0_ms": 3158380,
+     "text": "So, again, it's just working in the context of that."
+    },
+    {
+     "t0_ms": 3160380,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3161380,
+     "text": "Excellent."
+    },
+    {
+     "t0_ms": 3162380,
+     "text": "Now, another question we have from Rainer."
+    },
+    {
+     "t0_ms": 3163380,
+     "text": "We have a question from Peter."
+    },
+    {
+     "t0_ms": 3164380,
+     "text": "What's the impact you would have on waiver capacity needs, and therefore, perhaps in uptick in NAND equipment demand?"
+    },
+    {
+     "t0_ms": 3169380,
+     "text": "Excellent."
+    },
+    {
+     "t0_ms": 3170380,
+     "text": "And I want to ask on advanced packaging."
+    },
+    {
+     "t0_ms": 3171380,
+     "text": "I think you said last time it would grow over 70% for the calendar year."
+    },
+    {
+     "t0_ms": 3172380,
+     "text": "I was curious what the update is."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3174380,
+   "t1_ms": 3183820,
+   "speaker": "Management",
+   "text": "And then when you look at, you know, it's probably at the smaller end, so you didn't mention it. But in terms of that 200 billion outlook, like, any thoughts on advanced packaging growth next year? Yeah, Blaine, 70% for this year is still the right number. and I would be stunned if advanced packaging didn't grow nicely next year.",
+   "parts": [
+    {
+     "t0_ms": 3174380,
+     "text": "And then when you look at, you know, it's probably at the smaller end, so you didn't mention it."
+    },
+    {
+     "t0_ms": 3176380,
+     "text": "But in terms of that 200 billion outlook, like, any thoughts on advanced packaging growth next year?"
+    },
+    {
+     "t0_ms": 3177380,
+     "text": "Yeah, Blaine, 70% for this year is still the right number."
+    },
+    {
+     "t0_ms": 3178380,
+     "text": "and I would be stunned if advanced packaging didn't grow nicely next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3186290,
+   "t1_ms": 3186630,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3186290,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3187410,
+   "t1_ms": 3188350,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Blake.",
+   "parts": [
+    {
+     "t0_ms": 3187410,
+     "text": "Yeah, thanks, Blake."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3189350,
+   "t1_ms": 3193510,
+   "speaker": "Operator",
+   "text": "Our next question comes from Shane Brett at Morgan Stanley. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3189350,
+     "text": "Our next question comes from Shane Brett at Morgan Stanley."
+    },
+    {
+     "t0_ms": 3192710,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3194150,
+   "t1_ms": 3214930,
+   "speaker": "Analyst",
+   "text": "Great. Thank you for letting me ask a question. So my first question is on Foundry Logic. At your 2025 investor day, you talked about your Foundry Logic SAM per weight for increasing 2x. Just how far are we towards that 2x with the shift from 3 nanometer to a nanometer? Or if I rephrase that, how high did our SAM grow from 3 nanometer to a nanometer? And do you think your share gains would accelerate with the transition to 1.4? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3194150,
+     "text": "Great. Thank you for letting me ask a question."
+    },
+    {
+     "t0_ms": 3196330,
+     "text": "So my first question is on Foundry Logic."
+    },
+    {
+     "t0_ms": 3198050,
+     "text": "At your 2025 investor day, you talked about your Foundry Logic SAM per weight"
+    },
+    {
+     "t0_ms": 3201550,
+     "text": "for increasing 2x."
+    },
+    {
+     "t0_ms": 3202930,
+     "text": "Just how far are we towards that 2x with the shift from 3 nanometer to a nanometer?"
+    },
+    {
+     "t0_ms": 3206590,
+     "text": "Or if I rephrase that, how high did our SAM grow from 3 nanometer to a nanometer?"
+    },
+    {
+     "t0_ms": 3211210,
+     "text": "And do you think your share gains would accelerate with the transition to 1.4?"
+    },
+    {
+     "t0_ms": 3214590,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3217570,
+   "t1_ms": 3256630,
+   "speaker": "Management",
+   "text": "Yeah, that 2x was a multi-generational shift. And so it's a little bit hard to put exactly where we are in that, maybe halfway through if I thought about that roadmap that we gave there. But really, as we've moved forward, though, we've seen just new emerging applications. I talked about a couple of them today. Clearly advanced packaging. Patterning itself is becoming ever more critical. We talked about the growth in ether. We talked about the use of ACARA for conductor edge. Backside power really starting to get a lot more attention, being a very edge-in-depth, position-intensive application.",
+   "parts": [
+    {
+     "t0_ms": 3217570,
+     "text": "Yeah, that 2x was a multi-generational shift."
+    },
+    {
+     "t0_ms": 3222850,
+     "text": "And so it's a little bit hard to put exactly where we are in that,"
+    },
+    {
+     "t0_ms": 3226090,
+     "text": "maybe halfway through if I thought about that roadmap that we gave there."
+    },
+    {
+     "t0_ms": 3231310,
+     "text": "But really, as we've moved forward, though, we've seen just new emerging applications."
+    },
+    {
+     "t0_ms": 3236050,
+     "text": "I talked about a couple of them today."
+    },
+    {
+     "t0_ms": 3237690,
+     "text": "Clearly advanced packaging."
+    },
+    {
+     "t0_ms": 3238570,
+     "text": "Patterning itself is becoming ever more critical."
+    },
+    {
+     "t0_ms": 3242630,
+     "text": "We talked about the growth in ether."
+    },
+    {
+     "t0_ms": 3244310,
+     "text": "We talked about the use of ACARA for conductor edge."
+    },
+    {
+     "t0_ms": 3249010,
+     "text": "Backside power really starting to get a lot more attention,"
+    },
+    {
+     "t0_ms": 3253930,
+     "text": "being a very edge-in-depth, position-intensive application."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3258090,
+   "t1_ms": 3301770,
+   "speaker": "Management",
+   "text": "We just see a number of elements of that improvement. And then I commented about how excited I was about advanced packaging. I mean, it's advanced packaging. Packaging is playing a huge role within FoundryLogic and our exposure to the WFE there. And so I just think FoundryLogic is turning into a good story. The thing we've highlighted over the last couple of calls, though, just to remind you is the role we play in GATE all around, our strength in ALD, our strength in surface treatment. Those are areas where I think even at the investor day, we might not have realized just how strong, how strong the uptake would be for things like the Argos surface treatment tool.",
+   "parts": [
+    {
+     "t0_ms": 3258090,
+     "text": "We just see a number of elements of that improvement."
+    },
+    {
+     "t0_ms": 3262770,
+     "text": "And then I commented about how excited I was about advanced packaging."
+    },
+    {
+     "t0_ms": 3266710,
+     "text": "I mean, it's advanced packaging."
+    },
+    {
+     "t0_ms": 3268450,
+     "text": "Packaging is playing a huge role within FoundryLogic"
+    },
+    {
+     "t0_ms": 3270970,
+     "text": "and our exposure to the WFE there."
+    },
+    {
+     "t0_ms": 3275350,
+     "text": "And so I just think FoundryLogic is turning into a good story."
+    },
+    {
+     "t0_ms": 3280650,
+     "text": "The thing we've highlighted over the last couple of calls, though,"
+    },
+    {
+     "t0_ms": 3283230,
+     "text": "just to remind you is the role we play in GATE all around,"
+    },
+    {
+     "t0_ms": 3287110,
+     "text": "our strength in ALD, our strength in surface treatment."
+    },
+    {
+     "t0_ms": 3293750,
+     "text": "Those are areas where I think even at the investor day,"
+    },
+    {
+     "t0_ms": 3296330,
+     "text": "we might not have realized just how strong,"
+    },
+    {
+     "t0_ms": 3298450,
+     "text": "how strong the uptake would be for things like the Argos surface treatment tool."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3301930,
+   "t1_ms": 3311310,
+   "speaker": "Management",
+   "text": "So I feel like the story just kind of keeps getting better and better the more complex the devices get across all three device types, FoundryLogic, DRAM, and NAND.",
+   "parts": [
+    {
+     "t0_ms": 3301930,
+     "text": "So I feel like the story just kind of keeps getting better and better"
+    },
+    {
+     "t0_ms": 3305790,
+     "text": "the more complex the devices get across all three device types,"
+    },
+    {
+     "t0_ms": 3309990,
+     "text": "FoundryLogic, DRAM, and NAND."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3312650,
+   "t1_ms": 3332350,
+   "speaker": "Analyst",
+   "text": "Got it. And for my follow-up, it'll be on advanced packaging. So at Semicon West, one of your colleagues did a great presentation on breaking the integration wall and advanced packaging for the AI era with one of the highlights being key challenges to hybrid bonding adoption at scale. Just how does LAM enable hybrid bonding? And is more hybrid bonding better or worse for our advanced packaging share? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3312650,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 3313290,
+     "text": "And for my follow-up, it'll be on advanced packaging."
+    },
+    {
+     "t0_ms": 3315430,
+     "text": "So at Semicon West, one of your colleagues did a great presentation"
+    },
+    {
+     "t0_ms": 3318230,
+     "text": "on breaking the integration wall and advanced packaging for the AI era"
+    },
+    {
+     "t0_ms": 3321370,
+     "text": "with one of the highlights being key challenges to hybrid bonding adoption at scale."
+    },
+    {
+     "t0_ms": 3325950,
+     "text": "Just how does LAM enable hybrid bonding?"
+    },
+    {
+     "t0_ms": 3328170,
+     "text": "And is more hybrid bonding better or worse for our advanced packaging share?"
+    },
+    {
+     "t0_ms": 3332030,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3335770,
+   "t1_ms": 3376950,
+   "speaker": "Management",
+   "text": "Well, I think that we participate in the elements of the process that help enable hybrid bonding. And so obviously as a deposition in X company, we don't do the bonding ourselves, but we talked about a number of films, whether it's in the dielectric space or in the metal space, that ultimately play an important role in achieving successful hybrid bonding. And so there is an opportunity for LAM. Who does that? And how does that transition? But I think that overall, look, the reality is success in advanced packaging, whatever version it is, will lead to greater adoption of advanced packaging. And ultimately, given our very high share position, that's a good thing for us.",
+   "parts": [
+    {
+     "t0_ms": 3335770,
+     "text": "Well, I think that we participate in the elements of the process"
+    },
+    {
+     "t0_ms": 3340510,
+     "text": "that help enable hybrid bonding."
+    },
+    {
+     "t0_ms": 3343010,
+     "text": "And so obviously as a deposition in X company, we don't do the bonding ourselves,"
+    },
+    {
+     "t0_ms": 3347210,
+     "text": "but we talked about a number of films, whether it's in the dielectric space"
+    },
+    {
+     "t0_ms": 3351330,
+     "text": "or in the metal space, that ultimately play an important role"
+    },
+    {
+     "t0_ms": 3354710,
+     "text": "in achieving successful hybrid bonding."
+    },
+    {
+     "t0_ms": 3357230,
+     "text": "And so there is an opportunity for LAM."
+    },
+    {
+     "t0_ms": 3360450,
+     "text": "Who does that?"
+    },
+    {
+     "t0_ms": 3360930,
+     "text": "And how does that transition?"
+    },
+    {
+     "t0_ms": 3362190,
+     "text": "But I think that overall, look, the reality is success in advanced packaging,"
+    },
+    {
+     "t0_ms": 3368450,
+     "text": "whatever version it is, will lead to greater adoption of advanced packaging."
+    },
+    {
+     "t0_ms": 3373210,
+     "text": "And ultimately, given our very high share position, that's a good thing for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3377310,
+   "t1_ms": 3386330,
+   "speaker": "Management",
+   "text": "Hybrid bonding, I know it's a very etched-in-deposition intensive process compared to other parts of the semiconductor manufacturing process itself.",
+   "parts": [
+    {
+     "t0_ms": 3377310,
+     "text": "Hybrid bonding, I know it's a very etched-in-deposition intensive process compared"
+    },
+    {
+     "t0_ms": 3381850,
+     "text": "to other parts of the semiconductor manufacturing process itself."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3386330,
+   "t1_ms": 3389110,
+   "speaker": "Analyst",
+   "text": "Thanks, Shane. Got it. Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 3386330,
+     "text": "Thanks, Shane."
+    },
+    {
+     "t0_ms": 3388210,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 3388430,
+     "text": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3391310,
+   "t1_ms": 3394510,
+   "speaker": "Operator",
+   "text": "And our next question today comes from B.C. J. Rakesh with Mizuho.",
+   "parts": [
+    {
+     "t0_ms": 3391310,
+     "text": "And our next question today comes from B.C."
+    },
+    {
+     "t0_ms": 3392790,
+     "text": "J. Rakesh with Mizuho."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3394510,
+   "t1_ms": 3395390,
+   "speaker": "Management",
+   "text": "Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3394510,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3395390,
+   "t1_ms": 3407040,
+   "speaker": "Operator",
+   "text": "B.C. J., are you there? B.C., your line is open, or are you perhaps on mute?",
+   "parts": [
+    {
+     "t0_ms": 3395390,
+     "text": "B.C. J., are you there?"
+    },
+    {
+     "t0_ms": 3403200,
+     "text": "B.C., your line is open, or are you perhaps on mute?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3407040,
+   "t1_ms": 3435820,
+   "speaker": "Analyst",
+   "text": "Oh, I was on mute. Sorry about that. So Tim and Doug gave some interesting comments on the NAND side. You mentioned every 1% move to SLC drives about, requires about 2% increase in wafer capacity. So as you look at next year with the move to SLC and potentially some HBF, any thoughts on how you think what percent of the market moves to HBF? Yeah. Yeah. So the market moves to SLC, is it like 5% or how do you see that?",
+   "parts": [
+    {
+     "t0_ms": 3407040,
+     "text": "Oh, I was on mute."
+    },
+    {
+     "t0_ms": 3409060,
+     "text": "Sorry about that."
+    },
+    {
+     "t0_ms": 3410200,
+     "text": "So Tim and Doug gave some interesting comments on the NAND side."
+    },
+    {
+     "t0_ms": 3414620,
+     "text": "You mentioned every 1% move to SLC drives about, requires about 2% increase in wafer capacity."
+    },
+    {
+     "t0_ms": 3421140,
+     "text": "So as you look at next year with the move to SLC and potentially some HBF, any thoughts"
+    },
+    {
+     "t0_ms": 3427480,
+     "text": "on how you think what percent of the market moves to HBF?"
+    },
+    {
+     "t0_ms": 3430580,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3430640,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3430700,
+     "text": "So the market moves to SLC, is it like 5% or how do you see that?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3435820,
+   "t1_ms": 3455420,
+   "speaker": "Management",
+   "text": "I think it's too early for us to make any comment on that, and it would be probably something our customers could actually be commenting on. But what you can rest assured is that in that sense, the intensity of LAM equipment in manufacturing those devices and those wafers would go up.",
+   "parts": [
+    {
+     "t0_ms": 3435820,
+     "text": "I think it's too early for us to make any comment on that, and it would be probably"
+    },
+    {
+     "t0_ms": 3439320,
+     "text": "something our customers could actually be commenting on."
+    },
+    {
+     "t0_ms": 3443400,
+     "text": "But what you can rest assured is that in that sense, the intensity of LAM equipment in manufacturing"
+    },
+    {
+     "t0_ms": 3451980,
+     "text": "those devices and those wafers would go up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3455420,
+   "t1_ms": 3483100,
+   "speaker": "Analyst",
+   "text": "Got it. And then a quick follow-up. You know, the advanced packaging side. You mentioned, obviously, you have, you know, there's a whole COPAWS and EMAPT coming. And I guess LAM has huge opportunities on the metallization, pre-clean, PSV, et cetera. Just wondering if there's a way to size that opportunity as you've done before for every 100,000 wafers of EMAPT or COPAWS. Like, how would you size that opportunity for LAM? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3455420,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 3457020,
+     "text": "And then a quick follow-up."
+    },
+    {
+     "t0_ms": 3458020,
+     "text": "You know, the advanced packaging side."
+    },
+    {
+     "t0_ms": 3460100,
+     "text": "You mentioned, obviously, you have, you know, there's a whole COPAWS and EMAPT coming."
+    },
+    {
+     "t0_ms": 3465780,
+     "text": "And I guess LAM has huge opportunities on the metallization, pre-clean, PSV, et cetera."
+    },
+    {
+     "t0_ms": 3471880,
+     "text": "Just wondering if there's a way to size that opportunity as you've done before for every"
+    },
+    {
+     "t0_ms": 3476660,
+     "text": "100,000 wafers of EMAPT or COPAWS."
+    },
+    {
+     "t0_ms": 3479340,
+     "text": "Like, how would you size that opportunity for LAM?"
+    },
+    {
+     "t0_ms": 3482100,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3483100,
+   "t1_ms": 3496100,
+   "speaker": "Management",
+   "text": "Yeah. I think maybe we'll take that as an action for some work to still be done. We're not prepared to do that today. Yeah. Yeah. Thanks, KJ. Thanks, KJ. Thank you. Thanks. Yeah. You bet.",
+   "parts": [
+    {
+     "t0_ms": 3483100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3484100,
+     "text": "I think maybe we'll take that as an action for some work to still be done."
+    },
+    {
+     "t0_ms": 3487100,
+     "text": "We're not prepared to do that today."
+    },
+    {
+     "t0_ms": 3488100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3489100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3490100,
+     "text": "Thanks, KJ."
+    },
+    {
+     "t0_ms": 3491100,
+     "text": "Thanks, KJ."
+    },
+    {
+     "t0_ms": 3492100,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3493100,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 3494100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3495100,
+     "text": "You bet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3496100,
+   "t1_ms": 3501740,
+   "speaker": "Operator",
+   "text": "Operator, we're going to take one more question. Absolutely. And our final question today comes from Brian Chen at Stifel. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3496100,
+     "text": "Operator, we're going to take one more question."
+    },
+    {
+     "t0_ms": 3497100,
+     "text": "Absolutely."
+    },
+    {
+     "t0_ms": 3498100,
+     "text": "And our final question today comes from Brian Chen at Stifel."
+    },
+    {
+     "t0_ms": 3500740,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3501740,
+   "t1_ms": 3519180,
+   "speaker": "Analyst",
+   "text": "Hi there. Good afternoon. Thanks for letting us ask a few quick questions here. Maybe, Doug, firstly, days of inventory kind of running a little bit over maybe a quarter at the moment. Clearly has drawn down. You said the turns have been really strong. Ideally, where would you want that to be?",
+   "parts": [
+    {
+     "t0_ms": 3501740,
+     "text": "Hi there."
+    },
+    {
+     "t0_ms": 3502740,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 3503740,
+     "text": "Thanks for letting us ask a few quick questions here."
+    },
+    {
+     "t0_ms": 3506780,
+     "text": "Maybe, Doug, firstly, days of inventory kind of running a little bit over maybe a quarter"
+    },
+    {
+     "t0_ms": 3513400,
+     "text": "at the moment."
+    },
+    {
+     "t0_ms": 3514400,
+     "text": "Clearly has drawn down."
+    },
+    {
+     "t0_ms": 3515400,
+     "text": "You said the turns have been really strong."
+    },
+    {
+     "t0_ms": 3517100,
+     "text": "Ideally, where would you want that to be?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3520100,
+   "t1_ms": 3538100,
+   "speaker": "Management",
+   "text": "Yeah. Listen, we're super comfortable where it is right now. You know, as the company scales up, you do get some level of efficiency. Offsetting that though right now, we are trying to build inventory in anticipation of the growing demand we see into the next year. But I think, you know, we collectively feel pretty good about where we're at at 3.4 times.",
+   "parts": [
+    {
+     "t0_ms": 3520100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3521180,
+     "text": "Listen, we're super comfortable where it is right now."
+    },
+    {
+     "t0_ms": 3523000,
+     "text": "You know, as the company scales up, you do get some level of efficiency."
+    },
+    {
+     "t0_ms": 3527220,
+     "text": "Offsetting that though right now, we are trying to build inventory in anticipation"
+    },
+    {
+     "t0_ms": 3530900,
+     "text": "of the growing demand we see into the next year."
+    },
+    {
+     "t0_ms": 3533500,
+     "text": "But I think, you know, we collectively feel pretty good about where we're at at 3.4 times."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3538100,
+   "t1_ms": 3562920,
+   "speaker": "Analyst",
+   "text": "Yeah. Great. Maybe just the last question here. Is the $1 billion increase in your dry resist revenue outlook reflective more of, you know, guiding logic and DRAM customers in terms of the adoption of that platform? Or is it more towards existing customers pulling forward introduction of the timing of dry resist?",
+   "parts": [
+    {
+     "t0_ms": 3538100,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3540380,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3541380,
+     "text": "Maybe just the last question here."
+    },
+    {
+     "t0_ms": 3543380,
+     "text": "Is the $1 billion increase in your dry resist revenue outlook reflective more of, you know,"
+    },
+    {
+     "t0_ms": 3550920,
+     "text": "guiding logic and DRAM customers in terms of the adoption of that platform?"
+    },
+    {
+     "t0_ms": 3555660,
+     "text": "Or is it more towards existing customers pulling forward introduction of the timing of dry"
+    },
+    {
+     "t0_ms": 3560640,
+     "text": "resist?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3562920,
+   "t1_ms": 3588100,
+   "speaker": "Management",
+   "text": "I think it's a little bit of both. I mean, there have been some additional customer adoptions. But really, it is as you really become PTOR for something like we mentioned, HBM manufacturing, and the volumes are growing there, a number of pools, and therefore the business just continues to expand. And so we feel like we're positioned. We feel like we're positioned in production for some of the fast-growing parts of the market. And that's why we're able to take the number up.",
+   "parts": [
+    {
+     "t0_ms": 3562920,
+     "text": "I think it's a little bit of both."
+    },
+    {
+     "t0_ms": 3565320,
+     "text": "I mean, there have been some additional customer adoptions."
+    },
+    {
+     "t0_ms": 3568020,
+     "text": "But really, it is as you really become PTOR for something like we mentioned, HBM manufacturing,"
+    },
+    {
+     "t0_ms": 3575500,
+     "text": "and the volumes are growing there, a number of pools, and therefore the business just"
+    },
+    {
+     "t0_ms": 3579280,
+     "text": "continues to expand."
+    },
+    {
+     "t0_ms": 3580280,
+     "text": "And so we feel like we're positioned."
+    },
+    {
+     "t0_ms": 3581280,
+     "text": "We feel like we're positioned in production for some of the fast-growing parts of the"
+    },
+    {
+     "t0_ms": 3586100,
+     "text": "market."
+    },
+    {
+     "t0_ms": 3587100,
+     "text": "And that's why we're able to take the number up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3588100,
+   "t1_ms": 3590700,
+   "speaker": "Analyst",
+   "text": "Great.",
+   "parts": [
+    {
+     "t0_ms": 3588100,
+     "text": "Great."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3590700,
+   "t1_ms": 3622620,
+   "speaker": "Management",
+   "text": "Great. Thank you. Thanks, Brian. Listen, thanks everybody for joining the call today. You know, we're really excited about where the business is performing. We're really excited about what things look like into the next year. And I think we're probably the most excited about a third consecutive year of outperformance and an expectation that we're going to continue to drive those things into the next calendar year. So I know we'll see a lot of you guys in NDRs and conferences in the coming quarter, and we look forward to seeing you. Thanks for joining the call. Thank you. That concludes today's conference call.",
+   "parts": [
+    {
+     "t0_ms": 3590700,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3591700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3592700,
+     "text": "Thanks, Brian."
+    },
+    {
+     "t0_ms": 3593700,
+     "text": "Listen, thanks everybody for joining the call today."
+    },
+    {
+     "t0_ms": 3595700,
+     "text": "You know, we're really excited about where the business is performing."
+    },
+    {
+     "t0_ms": 3599280,
+     "text": "We're really excited about what things look like into the next year."
+    },
+    {
+     "t0_ms": 3603000,
+     "text": "And I think we're probably the most excited about a third consecutive year of outperformance"
+    },
+    {
+     "t0_ms": 3608180,
+     "text": "and an expectation that we're going to continue to drive those things into the next calendar"
+    },
+    {
+     "t0_ms": 3612800,
+     "text": "year."
+    },
+    {
+     "t0_ms": 3613800,
+     "text": "So I know we'll see a lot of you guys in NDRs and conferences in the coming quarter, and"
+    },
+    {
+     "t0_ms": 3618620,
+     "text": "we look forward to seeing you."
+    },
+    {
+     "t0_ms": 3619620,
+     "text": "Thanks for joining the call."
+    },
+    {
+     "t0_ms": 3620620,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3621620,
+     "text": "That concludes today's conference call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3622620,
+   "t1_ms": 3631620,
+   "speaker": "Operator",
+   "text": "We thank you all for attending today's presentation. You may now disconnect your lines and have a wonderful day. END END END END END END END",
+   "parts": [
+    {
+     "t0_ms": 3622620,
+     "text": "We thank you all for attending today's presentation."
+    },
+    {
+     "t0_ms": 3623620,
+     "text": "You may now disconnect your lines and have a wonderful day."
+    },
+    {
+     "t0_ms": 3624620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3625620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3626620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3627620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3628620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3629620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3630620,
+     "text": "END"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3631620,
+   "t1_ms": 3642800,
+   "speaker": "Management",
+   "text": "END END END END END END END END END END END END END END",
+   "parts": [
+    {
+     "t0_ms": 3631620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3632620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3633620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3634620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3635620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3636620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3637620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3638620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3639620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3640620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3641620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3642620,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3642660,
+     "text": "END"
+    },
+    {
+     "t0_ms": 3642720,
+     "text": "END"
+    }
+   ]
+  }
+ ]
+}

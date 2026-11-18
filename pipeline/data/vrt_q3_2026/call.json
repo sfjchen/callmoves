@@ -1,0 +1,4867 @@
+{
+ "ticker": "VRT",
+ "quarter": "Q3-2026",
+ "company": "Vertiv",
+ "call_start": "2026-10-28T11:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/VRT_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 26020,
+   "speaker": "Operator",
+   "text": "Good morning. My name is Warren, and I will be your conference operator today. At this time, I would like to welcome everyone to Vertiv's third quarter 2026 earnings conference call. All lines have been placed on mute to prevent any background noise. Please note that this call is being recorded. I would now like to turn the program over to your host for today's conference call, Lynn Maxiner, Vice President of Investor Relations.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good morning. My name is Warren, and I will be your conference operator today."
+    },
+    {
+     "t0_ms": 4960,
+     "text": "At this time, I would like to welcome everyone to Vertiv's third quarter 2026 earnings conference call."
+    },
+    {
+     "t0_ms": 11660,
+     "text": "All lines have been placed on mute to prevent any background noise."
+    },
+    {
+     "t0_ms": 15740,
+     "text": "Please note that this call is being recorded."
+    },
+    {
+     "t0_ms": 19000,
+     "text": "I would now like to turn the program over to your host for today's conference call,"
+    },
+    {
+     "t0_ms": 23120,
+     "text": "Lynn Maxiner, Vice President of Investor Relations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 26020,
+   "t1_ms": 70120,
+   "speaker": "Management",
+   "text": "Great. Good morning, and welcome to Vertiv's third quarter 2026 earnings conference call. During the course of this call, we will make forward-looking statements regarding future events, including the future financial and operating performance of Vertiv. These statements are subject to material risk and uncertainties that could cause actual results to differ materially from those in the forward-looking statements. We undertake no obligation to update these statements as a result of new information or future events. Please refer to the cautionary. We will continue to provide information on the current financial situation and the risk of future events, including the risk of future events, including the risk of future events, including the risk of future events, and other filings made with the SEC. Additionally, non-GAAP measures referenced today are defined and reconciled in our earnings press release",
+   "parts": [
+    {
+     "t0_ms": 26020,
+     "text": "Great. Good morning, and welcome to Vertiv's third quarter 2026 earnings conference call."
+    },
+    {
+     "t0_ms": 33480,
+     "text": "During the course of this call, we will make forward-looking statements regarding future events,"
+    },
+    {
+     "t0_ms": 37560,
+     "text": "including the future financial and operating performance of Vertiv."
+    },
+    {
+     "t0_ms": 41280,
+     "text": "These statements are subject to material risk and uncertainties"
+    },
+    {
+     "t0_ms": 44120,
+     "text": "that could cause actual results to differ materially from those in the forward-looking statements."
+    },
+    {
+     "t0_ms": 49200,
+     "text": "We undertake no obligation to update these statements as a result of new information or future events."
+    },
+    {
+     "t0_ms": 54260,
+     "text": "Please refer to the cautionary."
+    },
+    {
+     "t0_ms": 56020,
+     "text": "We will continue to provide information on the current financial situation"
+    },
+    {
+     "t0_ms": 58520,
+     "text": "and the risk of future events, including the risk of future events,"
+    },
+    {
+     "t0_ms": 60200,
+     "text": "including the risk of future events, including the risk of future events,"
+    },
+    {
+     "t0_ms": 61900,
+     "text": "and other filings made with the SEC."
+    },
+    {
+     "t0_ms": 64560,
+     "text": "Additionally, non-GAAP measures referenced today are defined and reconciled in our earnings press release"
+    }
+   ]
+  },
+  {
+   "t0_ms": 70120,
+   "t1_ms": 113310,
+   "speaker": "Management",
+   "text": "and in the investor slide deck found on our website at investors.vertiv.com. Finally, during the Q&A portion of the call, please be mindful of others in the queue and limit yourself to one question. With that, I'll turn the call over to Executive Chairman Dave Cody. Well, to paraphrase Mark Twain, the rumors of our demise have been greatly exaggerated. I'm really pleased with the third quarter and our year-to-date performance. This performance is testament to how customers look at Vertiv, our thought leader, with leading technology and reliability, undeniable ability to scale, and superior service performance and capabilities.",
+   "parts": [
+    {
+     "t0_ms": 70120,
+     "text": "and in the investor slide deck found on our website at investors.vertiv.com."
+    },
+    {
+     "t0_ms": 76020,
+     "text": "Finally, during the Q&A portion of the call, please be mindful of others in the queue"
+    },
+    {
+     "t0_ms": 80220,
+     "text": "and limit yourself to one question."
+    },
+    {
+     "t0_ms": 82380,
+     "text": "With that, I'll turn the call over to Executive Chairman Dave Cody."
+    },
+    {
+     "t0_ms": 86020,
+     "text": "Well, to paraphrase Mark Twain, the rumors of our demise have been greatly exaggerated."
+    },
+    {
+     "t0_ms": 94930,
+     "text": "I'm really pleased with the third quarter and our year-to-date performance."
+    },
+    {
+     "t0_ms": 99370,
+     "text": "This performance is testament to how customers look at Vertiv, our thought leader,"
+    },
+    {
+     "t0_ms": 105130,
+     "text": "with leading technology and reliability, undeniable ability to scale,"
+    },
+    {
+     "t0_ms": 110370,
+     "text": "and superior service performance and capabilities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 113730,
+   "t1_ms": 155950,
+   "speaker": "Management",
+   "text": "This is reflected, among other things, in our strong, Q3 organic orders on top of very strong first-half organic orders, as Gio will mention. Q3 organic orders are not only strong, but also very balanced across customer types. Orders are strong no matter how you look at them, with or without neoclouds. Our customers clearly believe in us. By the way, to be clear, we're not planning to share orders data going forward. This order strength and financial performance notwithstanding, Gio will be the first to say that we are relentlessly focused",
+   "parts": [
+    {
+     "t0_ms": 113730,
+     "text": "This is reflected, among other things, in our strong,"
+    },
+    {
+     "t0_ms": 117170,
+     "text": "Q3 organic orders on top of very strong first-half organic orders, as Gio will mention."
+    },
+    {
+     "t0_ms": 126410,
+     "text": "Q3 organic orders are not only strong, but also very balanced across customer types."
+    },
+    {
+     "t0_ms": 133650,
+     "text": "Orders are strong no matter how you look at them, with or without neoclouds."
+    },
+    {
+     "t0_ms": 139910,
+     "text": "Our customers clearly believe in us."
+    },
+    {
+     "t0_ms": 142510,
+     "text": "By the way, to be clear, we're not planning to share orders data going forward."
+    },
+    {
+     "t0_ms": 147170,
+     "text": "This order strength and financial performance notwithstanding,"
+    },
+    {
+     "t0_ms": 152490,
+     "text": "Gio will be the first to say that we are relentlessly focused"
+    }
+   ]
+  },
+  {
+   "t0_ms": 156150,
+   "t1_ms": 196090,
+   "speaker": "Management",
+   "text": "on further improving our customer and financial performance across the board. We can still be a lot better. Gio is never satisfied. What you're seeing in these results isn't something that happened overnight. This is the payoff from years of seed planting, years of investing in technology, capacity, service, and technology. Thank you. We believe in all capabilities, because we believed this opportunity was going to be big. Turns out, it's even bigger than most people imagined. And we believe it's going to stay big for a long time. We are just at the beginning of the digital age, and we anticipate it has decades left to run.",
+   "parts": [
+    {
+     "t0_ms": 156150,
+     "text": "on further improving our customer and financial performance across the board."
+    },
+    {
+     "t0_ms": 162030,
+     "text": "We can still be a lot better."
+    },
+    {
+     "t0_ms": 164090,
+     "text": "Gio is never satisfied."
+    },
+    {
+     "t0_ms": 167050,
+     "text": "What you're seeing in these results isn't something that happened overnight."
+    },
+    {
+     "t0_ms": 170630,
+     "text": "This is the payoff from years of seed planting, years of investing in technology, capacity,"
+    },
+    {
+     "t0_ms": 176290,
+     "text": "service, and technology."
+    },
+    {
+     "t0_ms": 176950,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 177170,
+     "text": "We believe in all capabilities, because we believed this opportunity was going to be big."
+    },
+    {
+     "t0_ms": 182310,
+     "text": "Turns out, it's even bigger than most people imagined."
+    },
+    {
+     "t0_ms": 186030,
+     "text": "And we believe it's going to stay big for a long time."
+    },
+    {
+     "t0_ms": 189670,
+     "text": "We are just at the beginning of the digital age, and we anticipate it has decades left to run."
+    }
+   ]
+  },
+  {
+   "t0_ms": 196750,
+   "t1_ms": 241010,
+   "speaker": "Management",
+   "text": "The foundation for it is data storage and processing, which means data centers. No data centers, no digital age. And Vertiv. Vertiv supplies the picks and shovels. We are at the forefront of the technology change in those picks and shovels, and intend to stay there. As you know, I've always believed it's important to have a great position in a good industry, preferably with technology differentiation, and then develop a high-performance culture, so you then perform well for customers and investors. Vertiv is doing that. I'm pleased with how rapidly the high-performance culture is developing at Vertiv. And the more technology we can develop, the more we can make a difference. And I think that's what's so exciting about Vertiv. The technology changes, the better it is for us.",
+   "parts": [
+    {
+     "t0_ms": 196750,
+     "text": "The foundation for it is data storage and processing, which means data centers."
+    },
+    {
+     "t0_ms": 203450,
+     "text": "No data centers, no digital age."
+    },
+    {
+     "t0_ms": 205910,
+     "text": "And Vertiv."
+    },
+    {
+     "t0_ms": 207170,
+     "text": "Vertiv supplies the picks and shovels."
+    },
+    {
+     "t0_ms": 209210,
+     "text": "We are at the forefront of the technology change in those picks and shovels, and intend to stay there."
+    },
+    {
+     "t0_ms": 214890,
+     "text": "As you know, I've always believed it's important to have a great position in a good industry,"
+    },
+    {
+     "t0_ms": 219350,
+     "text": "preferably with technology differentiation, and then develop a high-performance culture,"
+    },
+    {
+     "t0_ms": 225550,
+     "text": "so you then perform well for customers and investors."
+    },
+    {
+     "t0_ms": 228950,
+     "text": "Vertiv is doing that."
+    },
+    {
+     "t0_ms": 231190,
+     "text": "I'm pleased with how rapidly the high-performance culture is developing at Vertiv."
+    },
+    {
+     "t0_ms": 235510,
+     "text": "And the more technology we can develop, the more we can make a difference."
+    },
+    {
+     "t0_ms": 237010,
+     "text": "And I think that's what's so exciting about Vertiv."
+    },
+    {
+     "t0_ms": 239010,
+     "text": "The technology changes, the better it is for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 241010,
+   "t1_ms": 286010,
+   "speaker": "Management",
+   "text": "It's exciting stuff. Like that famous book says, we're accomplishing two seemingly conflicting things at the same time. We're delivering very strong results today, while investing aggressively for tomorrow. That's generally hard to do. Most companies choose one or the other. Gio and his team are doing both. And I believe the gap between us and everyone else just keeps getting wider. And I think that's what's so exciting about Vertiv. And the fact is, we're still early. We ain't done yet. Not even close. As you've heard me say in the past, buy now while supplies last. So let me hand it over to Gio to take you through it all. Gio? Well, thank you very much, Dave. And let us go to slide three.",
+   "parts": [
+    {
+     "t0_ms": 241010,
+     "text": "It's exciting stuff."
+    },
+    {
+     "t0_ms": 243010,
+     "text": "Like that famous book says, we're accomplishing two seemingly conflicting things at the same time."
+    },
+    {
+     "t0_ms": 249010,
+     "text": "We're delivering very strong results today, while investing aggressively for tomorrow."
+    },
+    {
+     "t0_ms": 255010,
+     "text": "That's generally hard to do."
+    },
+    {
+     "t0_ms": 257010,
+     "text": "Most companies choose one or the other."
+    },
+    {
+     "t0_ms": 259010,
+     "text": "Gio and his team are doing both."
+    },
+    {
+     "t0_ms": 261010,
+     "text": "And I believe the gap between us and everyone else just keeps getting wider."
+    },
+    {
+     "t0_ms": 265010,
+     "text": "And I think that's what's so exciting about Vertiv."
+    },
+    {
+     "t0_ms": 267010,
+     "text": "And the fact is, we're still early."
+    },
+    {
+     "t0_ms": 269010,
+     "text": "We ain't done yet."
+    },
+    {
+     "t0_ms": 271010,
+     "text": "Not even close."
+    },
+    {
+     "t0_ms": 273010,
+     "text": "As you've heard me say in the past, buy now while supplies last."
+    },
+    {
+     "t0_ms": 277010,
+     "text": "So let me hand it over to Gio to take you through it all."
+    },
+    {
+     "t0_ms": 280010,
+     "text": "Gio?"
+    },
+    {
+     "t0_ms": 281010,
+     "text": "Well, thank you very much, Dave."
+    },
+    {
+     "t0_ms": 284010,
+     "text": "And let us go to slide three."
+    }
+   ]
+  },
+  {
+   "t0_ms": 286010,
+   "t1_ms": 327010,
+   "speaker": "Management",
+   "text": "A very strong quarter indeed. Net sales up 61% versus Q3 2025 with broad base trends across all regions. America's highest-growing economy. Up 75%. APOC up 50%. And EMEA back to convincing growth at 23%. Organic net sales grew approximately 55% with an additional 6% from acquisitions. Disciplined execution drove adjusted operating margin to 25.2%, up to 190 basis points year-on-year, exceeding our guidance. Adjusted operating profit.",
+   "parts": [
+    {
+     "t0_ms": 286010,
+     "text": "A very strong quarter indeed."
+    },
+    {
+     "t0_ms": 288010,
+     "text": "Net sales up 61% versus Q3 2025 with broad base trends across all regions."
+    },
+    {
+     "t0_ms": 295010,
+     "text": "America's highest-growing economy."
+    },
+    {
+     "t0_ms": 297010,
+     "text": "Up 75%."
+    },
+    {
+     "t0_ms": 299010,
+     "text": "APOC up 50%."
+    },
+    {
+     "t0_ms": 302010,
+     "text": "And EMEA back to convincing growth at 23%."
+    },
+    {
+     "t0_ms": 307010,
+     "text": "Organic net sales grew approximately 55% with an additional 6% from acquisitions."
+    },
+    {
+     "t0_ms": 314010,
+     "text": "Disciplined execution drove adjusted operating margin to 25.2%, up to 190 basis points year-on-year, exceeding our guidance."
+    },
+    {
+     "t0_ms": 325010,
+     "text": "Adjusted operating profit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 327010,
+   "t1_ms": 369010,
+   "speaker": "Management",
+   "text": "It was over $1 billion, up 83% year-over-year. Adjusted diluted EPS of $2.21 were up 78%, primarily driven by higher volume and continued operational productivity. Adjusted free cash flow was up 50% year-on-year at $652 million. Our net cash position continued. With negative leverage of 0.02 times at quarter end. The balance sheet remains very strong. We are raising our full year guidance across all key metrics.",
+   "parts": [
+    {
+     "t0_ms": 327010,
+     "text": "It was over $1 billion, up 83% year-over-year."
+    },
+    {
+     "t0_ms": 333010,
+     "text": "Adjusted diluted EPS of $2.21 were up 78%, primarily driven by higher volume and continued operational productivity."
+    },
+    {
+     "t0_ms": 346010,
+     "text": "Adjusted free cash flow was up 50% year-on-year at $652 million."
+    },
+    {
+     "t0_ms": 353010,
+     "text": "Our net cash position continued."
+    },
+    {
+     "t0_ms": 355010,
+     "text": "With negative leverage of 0.02 times at quarter end."
+    },
+    {
+     "t0_ms": 361010,
+     "text": "The balance sheet remains very strong."
+    },
+    {
+     "t0_ms": 365010,
+     "text": "We are raising our full year guidance across all key metrics."
+    }
+   ]
+  },
+  {
+   "t0_ms": 369010,
+   "t1_ms": 411010,
+   "speaker": "Management",
+   "text": "Net sales expected at $14.65 billion. $650 million up on July guidance. And approximately 38% organic growth. Adjusted diluted EPS now expected at $7.15, up 70% from 25. And adjusted operating profit guidance raised to more than $3.5 billion, up 68% year-on-year. Full year adjusted operating margin expected to be 24%. Approximately 360 basis points higher than 2025. And adjusted free cash flow guidance raised to 2.7%.",
+   "parts": [
+    {
+     "t0_ms": 369010,
+     "text": "Net sales expected at $14.65 billion."
+    },
+    {
+     "t0_ms": 374010,
+     "text": "$650 million up on July guidance."
+    },
+    {
+     "t0_ms": 378010,
+     "text": "And approximately 38% organic growth."
+    },
+    {
+     "t0_ms": 383010,
+     "text": "Adjusted diluted EPS now expected at $7.15, up 70% from 25."
+    },
+    {
+     "t0_ms": 391010,
+     "text": "And adjusted operating profit guidance raised to more than $3.5 billion, up 68% year-on-year."
+    },
+    {
+     "t0_ms": 399010,
+     "text": "Full year adjusted operating margin expected to be 24%."
+    },
+    {
+     "t0_ms": 404010,
+     "text": "Approximately 360 basis points higher than 2025."
+    },
+    {
+     "t0_ms": 409010,
+     "text": "And adjusted free cash flow guidance raised to 2.7%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 411010,
+   "t1_ms": 456010,
+   "speaker": "Management",
+   "text": "And adjusted net cash flow guidance raised to $2.7 billion. And with that, let's move to slide four. And I start with the market environment. Our pipeline remains very strong. Global. Demand signals are clear and broad-based across technologies, customer types, and regions. We expect another year of robust orders growth. You know, we do not disclose orders. And we'll continue not to. But it is worth sharing that our Q3 orders were more than 100% up year-on-year organically. This to give a sense of what this strength practically translates into.",
+   "parts": [
+    {
+     "t0_ms": 411010,
+     "text": "And adjusted net cash flow guidance raised to $2.7 billion."
+    },
+    {
+     "t0_ms": 415010,
+     "text": "And with that, let's move to slide four."
+    },
+    {
+     "t0_ms": 418010,
+     "text": "And I start with the market environment."
+    },
+    {
+     "t0_ms": 421010,
+     "text": "Our pipeline remains very strong."
+    },
+    {
+     "t0_ms": 424010,
+     "text": "Global."
+    },
+    {
+     "t0_ms": 426010,
+     "text": "Demand signals are clear and broad-based across technologies, customer types, and regions."
+    },
+    {
+     "t0_ms": 433010,
+     "text": "We expect another year of robust orders growth."
+    },
+    {
+     "t0_ms": 438010,
+     "text": "You know, we do not disclose orders."
+    },
+    {
+     "t0_ms": 440010,
+     "text": "And we'll continue not to."
+    },
+    {
+     "t0_ms": 442010,
+     "text": "But it is worth sharing that our Q3 orders were more than 100% up year-on-year organically."
+    },
+    {
+     "t0_ms": 450010,
+     "text": "This to give a sense of what this strength practically translates into."
+    }
+   ]
+  },
+  {
+   "t0_ms": 456010,
+   "t1_ms": 501010,
+   "speaker": "Management",
+   "text": "Also, important to share that our customer mix, colo, hyper, enterprise, neocloud, et cetera, very much represents the market mix. Let's now talk regionally. America's pipeline's sequential quarter-to-quarter growth is the fastest we have seen all year. Translating into very strong organic Q3 orders. Yes, power availability permitting, general sentiment, and construction site skill labor availability are pacing items. But not slowing down growth. We've been talking about the EMEA spring uncoiling. In Q3, the pipeline EMEA has approximately 3.5 billion units. In Q4, the pipeline EMEA has approximately doubled year-on-year.",
+   "parts": [
+    {
+     "t0_ms": 456010,
+     "text": "Also, important to share that our customer mix, colo, hyper, enterprise, neocloud, et cetera, very much represents the market mix."
+    },
+    {
+     "t0_ms": 467010,
+     "text": "Let's now talk regionally."
+    },
+    {
+     "t0_ms": 470010,
+     "text": "America's pipeline's sequential quarter-to-quarter growth is the fastest we have seen all year."
+    },
+    {
+     "t0_ms": 476010,
+     "text": "Translating into very strong organic Q3 orders."
+    },
+    {
+     "t0_ms": 480010,
+     "text": "Yes, power availability permitting, general sentiment, and construction site skill labor availability are pacing items."
+    },
+    {
+     "t0_ms": 488010,
+     "text": "But not slowing down growth."
+    },
+    {
+     "t0_ms": 492010,
+     "text": "We've been talking about the EMEA spring uncoiling."
+    },
+    {
+     "t0_ms": 496010,
+     "text": "In Q3, the pipeline EMEA has approximately 3.5 billion units."
+    },
+    {
+     "t0_ms": 498010,
+     "text": "In Q4, the pipeline EMEA has approximately doubled year-on-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 501010,
+   "t1_ms": 545010,
+   "speaker": "Management",
+   "text": "And organic orders grew even more. Momentum is now in the market. And we see these dynamics carrying well into 2027 and beyond. When it comes to APAC, it's a broad-based strength, particularly in Australia and India. Organic orders were up substantially in the quarter in APAC. China is showing encouraging green shoots. Commercial execution continues. Commercial execution continues to be favorable. And we expect positive price costs in 26. Including the current impact of tariffs and countermeasures. And now to the right of the slide. And let's talk about operations and supply chain.",
+   "parts": [
+    {
+     "t0_ms": 501010,
+     "text": "And organic orders grew even more."
+    },
+    {
+     "t0_ms": 504010,
+     "text": "Momentum is now in the market."
+    },
+    {
+     "t0_ms": 506010,
+     "text": "And we see these dynamics carrying well into 2027 and beyond."
+    },
+    {
+     "t0_ms": 511010,
+     "text": "When it comes to APAC, it's a broad-based strength, particularly in Australia and India."
+    },
+    {
+     "t0_ms": 517010,
+     "text": "Organic orders were up substantially in the quarter in APAC."
+    },
+    {
+     "t0_ms": 522010,
+     "text": "China is showing encouraging green shoots."
+    },
+    {
+     "t0_ms": 526010,
+     "text": "Commercial execution continues."
+    },
+    {
+     "t0_ms": 527010,
+     "text": "Commercial execution continues to be favorable."
+    },
+    {
+     "t0_ms": 530010,
+     "text": "And we expect positive price costs in 26."
+    },
+    {
+     "t0_ms": 534010,
+     "text": "Including the current impact of tariffs and countermeasures."
+    },
+    {
+     "t0_ms": 539010,
+     "text": "And now to the right of the slide."
+    },
+    {
+     "t0_ms": 541010,
+     "text": "And let's talk about operations and supply chain."
+    }
+   ]
+  },
+  {
+   "t0_ms": 545010,
+   "t1_ms": 585010,
+   "speaker": "Management",
+   "text": "The sequential and year-on-year revenue growth you saw in the quarter reflects the combination of ongoing capacity expansion, improving utilization, vertical operating system adoption, and overall disciplined backlog execution. It also reflects increasingly mature execution for complex converged infrastructure projects. We are making significant capacity investments globally to be well positioned to serve our customers and execute on a robust backlog. In the Americas, we announced several new or expanded facilities for infrastructure solutions, power management, thermal management, and energy efficiency. And we are also looking at the future of energy efficiency.",
+   "parts": [
+    {
+     "t0_ms": 545010,
+     "text": "The sequential and year-on-year revenue growth you saw in the quarter reflects the combination of ongoing capacity expansion, improving utilization,"
+    },
+    {
+     "t0_ms": 555010,
+     "text": "vertical operating system adoption,"
+    },
+    {
+     "t0_ms": 557010,
+     "text": "and overall disciplined backlog execution."
+    },
+    {
+     "t0_ms": 560010,
+     "text": "It also reflects increasingly mature execution for complex converged infrastructure projects."
+    },
+    {
+     "t0_ms": 569010,
+     "text": "We are making significant capacity investments globally to be well positioned to serve our customers and execute on a robust backlog."
+    },
+    {
+     "t0_ms": 578010,
+     "text": "In the Americas, we announced several new or expanded facilities for infrastructure solutions, power management, thermal management, and energy efficiency."
+    },
+    {
+     "t0_ms": 584010,
+     "text": "And we are also looking at the future of energy efficiency."
+    }
+   ]
+  },
+  {
+   "t0_ms": 585010,
+   "t1_ms": 627010,
+   "speaker": "Management",
+   "text": "We are expanding our Slovakia campus for power and thermal management and infrastructure solutions, scaling up our power facilities in India. In Ireland, sorry. We are also on track to doubling chiller production capacity by year-end. In Asia Pacific, our new Johor Malaysia factory is now operational, strengthening our ability to serve customers across South Asia and Asia Pacific. And we are also expanding our power and thermal management and infrastructure solutions. We are also expanding our power and thermal management and infrastructure solutions, strengthening our ability to serve customers across South Asia and Australia. These capacity additions are already contributing to our Q3 and Q4 growth. And it's not just our own capacity.",
+   "parts": [
+    {
+     "t0_ms": 585010,
+     "text": "We are expanding our Slovakia campus for power and thermal management and infrastructure solutions, scaling up our power facilities in India."
+    },
+    {
+     "t0_ms": 598010,
+     "text": "In Ireland, sorry."
+    },
+    {
+     "t0_ms": 600010,
+     "text": "We are also on track to doubling chiller production capacity by year-end."
+    },
+    {
+     "t0_ms": 605010,
+     "text": "In Asia Pacific, our new Johor Malaysia factory is now operational, strengthening our ability to serve customers across South Asia and Asia Pacific."
+    },
+    {
+     "t0_ms": 612010,
+     "text": "And we are also expanding our power and thermal management and infrastructure solutions."
+    },
+    {
+     "t0_ms": 613010,
+     "text": "We are also expanding our power and thermal management and infrastructure solutions, strengthening our ability to serve customers across South Asia and Australia."
+    },
+    {
+     "t0_ms": 617010,
+     "text": "These capacity additions are already contributing to our Q3 and Q4 growth."
+    },
+    {
+     "t0_ms": 624010,
+     "text": "And it's not just our own capacity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 627010,
+   "t1_ms": 671630,
+   "speaker": "Management",
+   "text": "We keep on proactively securing and expanding long-term capacity agreements with key suppliers to ensure they scale in lockstep with our growth. I may also welcome Mike Reesha, our new EVP of manufacturing and logistics. Mike brings very strong operational experience and capabilities and very strong lean expertise. Anders remains with us in a senior advisory capacity focused on a successful handover and on special projects. And let us now go to slide five. Time to first token matters a lot to our customers. It indicates how quickly an investment in AI data center and compute becomes revenue generating.",
+   "parts": [
+    {
+     "t0_ms": 627010,
+     "text": "We keep on proactively securing and expanding long-term capacity agreements with key suppliers to ensure they scale in lockstep with our growth."
+    },
+    {
+     "t0_ms": 638010,
+     "text": "I may also welcome Mike Reesha, our new EVP of manufacturing and logistics."
+    },
+    {
+     "t0_ms": 642010,
+     "text": "Mike brings very strong operational experience and capabilities and very strong lean expertise."
+    },
+    {
+     "t0_ms": 649650,
+     "text": "Anders remains with us in a senior advisory capacity focused on a successful handover and on special projects."
+    },
+    {
+     "t0_ms": 657970,
+     "text": "And let us now go to slide five."
+    },
+    {
+     "t0_ms": 661050,
+     "text": "Time to first token matters a lot to our customers."
+    },
+    {
+     "t0_ms": 664330,
+     "text": "It indicates how quickly an investment in AI data center and compute becomes revenue generating."
+    }
+   ]
+  },
+  {
+   "t0_ms": 672010,
+   "t1_ms": 714010,
+   "speaker": "Management",
+   "text": "I want to highlight the work we're doing with NVIDIA, the source system, and Polar Data Center to significantly reduce time to first token, accelerating every phase of the cycle. The design phase, for example. Pre-engineered reference designs are configured and validated in a digital twin. This reduces the design time by a factor of 10. And the deployment phase. Factory built and modularly deployed. Infrastructure significantly removes complexity from site. It happens in parallel with site preparation. This cuts deployment time by up to half.",
+   "parts": [
+    {
+     "t0_ms": 672010,
+     "text": "I want to highlight the work we're doing with NVIDIA, the source system, and Polar Data Center to significantly reduce time to first token, accelerating every phase of the cycle."
+    },
+    {
+     "t0_ms": 686710,
+     "text": "The design phase, for example."
+    },
+    {
+     "t0_ms": 688510,
+     "text": "Pre-engineered reference designs are configured and validated in a digital twin."
+    },
+    {
+     "t0_ms": 693930,
+     "text": "This reduces the design time by a factor of 10."
+    },
+    {
+     "t0_ms": 698810,
+     "text": "And the deployment phase."
+    },
+    {
+     "t0_ms": 700150,
+     "text": "Factory built and modularly deployed."
+    },
+    {
+     "t0_ms": 702010,
+     "text": "Infrastructure significantly removes complexity from site."
+    },
+    {
+     "t0_ms": 706010,
+     "text": "It happens in parallel with site preparation."
+    },
+    {
+     "t0_ms": 709010,
+     "text": "This cuts deployment time by up to half."
+    }
+   ]
+  },
+  {
+   "t0_ms": 714010,
+   "t1_ms": 757010,
+   "speaker": "Management",
+   "text": "The result is up to 30% more cumulative AI token output in the first 12 months from project kickoff. Same installed capacity, just productive much sooner for our customers. Polar Data Center is already applying this at the first time. And we're going to see that. We're going to see that in the first 41 megawatts phase of its Her\u00f8ya campus in Norway. And it's scalable to 100 megawatts. And with that, over to you, Craig. Thanks, Gio. Let's move to slide six and talk through our third quarter financial results in more detail. Our adjusted diluted EPS was $2.21, up 97 cents or 78% versus prior year.",
+   "parts": [
+    {
+     "t0_ms": 714010,
+     "text": "The result is up to 30% more cumulative AI token output in the first 12 months from project kickoff."
+    },
+    {
+     "t0_ms": 723010,
+     "text": "Same installed capacity, just productive much sooner for our customers."
+    },
+    {
+     "t0_ms": 728010,
+     "text": "Polar Data Center is already applying this at the first time."
+    },
+    {
+     "t0_ms": 730010,
+     "text": "And we're going to see that."
+    },
+    {
+     "t0_ms": 732010,
+     "text": "We're going to see that in the first 41 megawatts phase of its Her\u00f8ya campus in Norway."
+    },
+    {
+     "t0_ms": 738010,
+     "text": "And it's scalable to 100 megawatts."
+    },
+    {
+     "t0_ms": 741010,
+     "text": "And with that, over to you, Craig."
+    },
+    {
+     "t0_ms": 744010,
+     "text": "Thanks, Gio."
+    },
+    {
+     "t0_ms": 745010,
+     "text": "Let's move to slide six and talk through our third quarter financial results in more detail."
+    },
+    {
+     "t0_ms": 750010,
+     "text": "Our adjusted diluted EPS was $2.21, up 97 cents or 78% versus prior year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 757010,
+   "t1_ms": 798010,
+   "speaker": "Management",
+   "text": "And 41 cents above the midpoint of our guidance. The year-over-year improvement was driven by higher after-tax adjusted operating profit, primarily from increased revenue and operating profit rate expansion. On the top line, net sales were approximately $4.3 billion. That's up approximately $1.6 billion or 61% versus prior year. Organic sales growth was approximately 55% with an additional 6% from acquisitions. By region, Americas grew 66% organically. APAC grew 48%. APAC grew 48% organically. And EMEA grew 19% organically. All regions were above the 3Q revenue guidance.",
+   "parts": [
+    {
+     "t0_ms": 757010,
+     "text": "And 41 cents above the midpoint of our guidance."
+    },
+    {
+     "t0_ms": 760010,
+     "text": "The year-over-year improvement was driven by higher after-tax adjusted operating profit,"
+    },
+    {
+     "t0_ms": 765010,
+     "text": "primarily from increased revenue and operating profit rate expansion."
+    },
+    {
+     "t0_ms": 769010,
+     "text": "On the top line, net sales were approximately $4.3 billion."
+    },
+    {
+     "t0_ms": 773010,
+     "text": "That's up approximately $1.6 billion or 61% versus prior year."
+    },
+    {
+     "t0_ms": 778010,
+     "text": "Organic sales growth was approximately 55% with an additional 6% from acquisitions."
+    },
+    {
+     "t0_ms": 785010,
+     "text": "By region, Americas grew 66% organically."
+    },
+    {
+     "t0_ms": 788010,
+     "text": "APAC grew 48%."
+    },
+    {
+     "t0_ms": 789010,
+     "text": "APAC grew 48% organically."
+    },
+    {
+     "t0_ms": 791010,
+     "text": "And EMEA grew 19% organically."
+    },
+    {
+     "t0_ms": 794010,
+     "text": "All regions were above the 3Q revenue guidance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 798010,
+   "t1_ms": 840010,
+   "speaker": "Management",
+   "text": "Moving to adjusted operating profit, we delivered approximately $1.1 billion. That's up $491 million or 83% versus prior year. And $169 million above the midpoint of our guidance. Adjusted operating margins of 25.2% expanded 290 basis points year-over-year and came in 70 basis points above guidance. The margin expansion was driven by strong sales volume increase, operating leverage, and continued productivity. The business teams continue to show the ability to scale operations while expanding margins. As we have mentioned in prior calls, we're continuing to invest in capacity in engineering R&D to support future business growth.",
+   "parts": [
+    {
+     "t0_ms": 798010,
+     "text": "Moving to adjusted operating profit, we delivered approximately $1.1 billion."
+    },
+    {
+     "t0_ms": 803010,
+     "text": "That's up $491 million or 83% versus prior year."
+    },
+    {
+     "t0_ms": 807010,
+     "text": "And $169 million above the midpoint of our guidance."
+    },
+    {
+     "t0_ms": 811010,
+     "text": "Adjusted operating margins of 25.2% expanded 290 basis points year-over-year and came in"
+    },
+    {
+     "t0_ms": 818010,
+     "text": "70 basis points above guidance."
+    },
+    {
+     "t0_ms": 820010,
+     "text": "The margin expansion was driven by strong sales volume increase, operating leverage,"
+    },
+    {
+     "t0_ms": 826010,
+     "text": "and continued productivity."
+    },
+    {
+     "t0_ms": 827010,
+     "text": "The business teams continue to show the ability to scale operations while expanding margins."
+    },
+    {
+     "t0_ms": 832010,
+     "text": "As we have mentioned in prior calls, we're continuing to invest in capacity in engineering"
+    },
+    {
+     "t0_ms": 836010,
+     "text": "R&D to support future business growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 840010,
+   "t1_ms": 884010,
+   "speaker": "Management",
+   "text": "To round out the quarter, adjusted free cash flow was $652 million, up $216 million or 50% from prior year. The improvement was driven by higher adjusted operating profit, partially offset by working capital usage and higher net capex. Net leverage at quarter end was negative 0.2 times, providing significant strategic flexibility. Flipping to slide 7, let's look at segment performance by region. America has delivered an outstanding quarter. Net sales were approximately $3 billion, up 75% with organic growth of 66%. Organic sales growth remained robust in the quarter. Adjusted operating margin came in at 29.4%, driven by strong operational leverage.",
+   "parts": [
+    {
+     "t0_ms": 840010,
+     "text": "To round out the quarter, adjusted free cash flow was $652 million, up $216 million or"
+    },
+    {
+     "t0_ms": 846010,
+     "text": "50% from prior year."
+    },
+    {
+     "t0_ms": 847010,
+     "text": "The improvement was driven by higher adjusted operating profit, partially offset by working"
+    },
+    {
+     "t0_ms": 852010,
+     "text": "capital usage and higher net capex."
+    },
+    {
+     "t0_ms": 855010,
+     "text": "Net leverage at quarter end was negative 0.2 times, providing significant strategic flexibility."
+    },
+    {
+     "t0_ms": 862010,
+     "text": "Flipping to slide 7, let's look at segment performance by region."
+    },
+    {
+     "t0_ms": 866010,
+     "text": "America has delivered an outstanding quarter."
+    },
+    {
+     "t0_ms": 869010,
+     "text": "Net sales were approximately $3 billion, up 75% with organic growth of 66%."
+    },
+    {
+     "t0_ms": 875010,
+     "text": "Organic sales growth remained robust in the quarter."
+    },
+    {
+     "t0_ms": 879010,
+     "text": "Adjusted operating margin came in at 29.4%, driven by strong operational leverage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 884010,
+   "t1_ms": 928010,
+   "speaker": "Management",
+   "text": "Moving to APAC, the region had strong results with net sales of $779 million, up 50%, with organic growth of 48%. Four-year outlook remains positive, driven by strong in-market demand and continued commercial execution. Adjusted operating margin of 17% expanded 380 basis points year-over-year, up $3.2 million. In AMEA, net sales were $545 million, up 23%, with organic growth of 19%. The market continues to strengthen with accelerating pipeline conversion, positioning the region well for continued organic sales growth. Adjusted operating margin of 28% expanded 920 basis points year-over-year, driven by improved operational leverage and commercial execution. The region's net sales growth was positive, with 5.2 million net sales, up 23%. The region's net sales growth was positive, with 5.2 million net sales, up 3.2 million",
+   "parts": [
+    {
+     "t0_ms": 884010,
+     "text": "Moving to APAC, the region had strong results with net sales of $779 million, up 50%, with"
+    },
+    {
+     "t0_ms": 891010,
+     "text": "organic growth of 48%."
+    },
+    {
+     "t0_ms": 893010,
+     "text": "Four-year outlook remains positive, driven by strong in-market demand and continued commercial"
+    },
+    {
+     "t0_ms": 898010,
+     "text": "execution."
+    },
+    {
+     "t0_ms": 899010,
+     "text": "Adjusted operating margin of 17% expanded 380 basis points year-over-year, up $3.2 million."
+    },
+    {
+     "t0_ms": 903010,
+     "text": "In AMEA, net sales were $545 million, up 23%, with organic growth of 19%."
+    },
+    {
+     "t0_ms": 907010,
+     "text": "The market continues to strengthen with accelerating pipeline conversion, positioning the region"
+    },
+    {
+     "t0_ms": 910010,
+     "text": "well for continued organic sales growth."
+    },
+    {
+     "t0_ms": 911010,
+     "text": "Adjusted operating margin of 28% expanded 920 basis points year-over-year, driven by"
+    },
+    {
+     "t0_ms": 916010,
+     "text": "improved operational leverage and commercial execution."
+    },
+    {
+     "t0_ms": 918010,
+     "text": "The region's net sales growth was positive, with 5.2 million net sales, up 23%."
+    },
+    {
+     "t0_ms": 923010,
+     "text": "The region's net sales growth was positive, with 5.2 million net sales, up 3.2 million"
+    }
+   ]
+  },
+  {
+   "t0_ms": 928010,
+   "t1_ms": 972010,
+   "speaker": "Management",
+   "text": "year-over-year, driven by strong in-market demand and continued commercial execution. Moving to APAC, the region had strong operating leverage. The region's net sales growth was positive, with 5.2 million net sales, up 3.2 million year-over-year, driven by improved operational leverage and commercial execution. There was very strong performance across all three regions in third quarter. Turning to slide eight, let's walk through our fourth quarter 2026 guidance. For Q4, we're projecting adjusted diluted EPS of $2.25 at the midpoint. That represents 65% growth versus prior year. The year-over-year improvement is driven by higher after-tax adjusted operating profit, primarily from increased revenue and operating profit rate expansion. On net sales, we expect approximately $4.4 billion at the midpoint. That's up approximately $1.5 billion, or 53% versus prior year.",
+   "parts": [
+    {
+     "t0_ms": 928010,
+     "text": "year-over-year, driven by strong in-market demand and continued commercial execution."
+    },
+    {
+     "t0_ms": 931010,
+     "text": "Moving to APAC, the region had strong operating leverage."
+    },
+    {
+     "t0_ms": 932010,
+     "text": "The region's net sales growth was positive, with 5.2 million net sales, up 3.2 million"
+    },
+    {
+     "t0_ms": 934010,
+     "text": "year-over-year, driven by improved operational leverage and commercial execution."
+    },
+    {
+     "t0_ms": 935010,
+     "text": "There was very strong performance across all three regions in third quarter."
+    },
+    {
+     "t0_ms": 938010,
+     "text": "Turning to slide eight, let's walk through our fourth quarter 2026 guidance."
+    },
+    {
+     "t0_ms": 943010,
+     "text": "For Q4, we're projecting adjusted diluted EPS of $2.25 at the midpoint."
+    },
+    {
+     "t0_ms": 948010,
+     "text": "That represents 65% growth versus prior year."
+    },
+    {
+     "t0_ms": 953010,
+     "text": "The year-over-year improvement is driven by higher after-tax adjusted operating profit,"
+    },
+    {
+     "t0_ms": 958010,
+     "text": "primarily from increased revenue and operating profit rate expansion."
+    },
+    {
+     "t0_ms": 961010,
+     "text": "On net sales, we expect approximately $4.4 billion at the midpoint."
+    },
+    {
+     "t0_ms": 967010,
+     "text": "That's up approximately $1.5 billion, or 53% versus prior year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 972010,
+   "t1_ms": 1017010,
+   "speaker": "Management",
+   "text": "Organic sales growth is expected to be approximately 50%, with an additional 3% from acquisitions. We expect continued strong organic growth across all regions, with Americas in the mid-50s, APAC in the mid-50s, and EMEA in the low 20s. Adjusted operating profit is expected to be approximately $1.1 billion at the midpoint. We expect a strong growth across all regions, with Americas in the mid-50s, APAC in the mid-50s, and EMEA in the low 20s. That's up approximately $470 million, or 70% versus prior year. Adjusted operating margin rate is expected to be 25.8% at the midpoint. That's up 260 basis points year-over-year, and that's driven by strong organic sales growth and operating leverage, which is all setting some small-mix impact. As you can see, we expect another strong quarter, reflecting the ongoing excellent operational performance of our business teams.",
+   "parts": [
+    {
+     "t0_ms": 972010,
+     "text": "Organic sales growth is expected to be approximately 50%, with an additional 3% from acquisitions."
+    },
+    {
+     "t0_ms": 978010,
+     "text": "We expect continued strong organic growth across all regions, with Americas in the mid-50s,"
+    },
+    {
+     "t0_ms": 982010,
+     "text": "APAC in the mid-50s, and EMEA in the low 20s."
+    },
+    {
+     "t0_ms": 986010,
+     "text": "Adjusted operating profit is expected to be approximately $1.1 billion at the midpoint."
+    },
+    {
+     "t0_ms": 989010,
+     "text": "We expect a strong growth across all regions, with Americas in the mid-50s, APAC in the mid-50s,"
+    },
+    {
+     "t0_ms": 990010,
+     "text": "and EMEA in the low 20s."
+    },
+    {
+     "t0_ms": 991010,
+     "text": "That's up approximately $470 million, or 70% versus prior year."
+    },
+    {
+     "t0_ms": 995010,
+     "text": "Adjusted operating margin rate is expected to be 25.8% at the midpoint."
+    },
+    {
+     "t0_ms": 999010,
+     "text": "That's up 260 basis points year-over-year, and that's driven by strong organic sales"
+    },
+    {
+     "t0_ms": 1004010,
+     "text": "growth and operating leverage, which is all setting some small-mix impact."
+    },
+    {
+     "t0_ms": 1008010,
+     "text": "As you can see, we expect another strong quarter, reflecting the ongoing excellent operational"
+    },
+    {
+     "t0_ms": 1013010,
+     "text": "performance of our business teams."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1017010,
+   "t1_ms": 1061370,
+   "speaker": "Management",
+   "text": "Now, onto slide nine, let's talk about the growth of our operating capital. On to slide nine, let's talk about updated full-year 2026 guidance. We're raising our guidance across all key metrics. Starting with the adjusted diluted EPS, we now expect $7.15 at the midpoint. That's up approximately $2.95 or 70% versus 2025 and an increase of 45 cents versus our prior guidance. The year-over-year improvement is driven by higher after-tax adjusted operating profit, primarily from increased revenue and operating profit rate expansion. For net sales, we now expect $14.65 billion at the midpoint. That's up approximately $4.4 billion or 43% versus 2025 and an increase of $650 million",
+   "parts": [
+    {
+     "t0_ms": 1017010,
+     "text": "Now, onto slide nine, let's talk about the growth of our operating capital."
+    },
+    {
+     "t0_ms": 1020010,
+     "text": "On to slide nine, let's talk about updated full-year 2026 guidance."
+    },
+    {
+     "t0_ms": 1024310,
+     "text": "We're raising our guidance across all key metrics."
+    },
+    {
+     "t0_ms": 1028710,
+     "text": "Starting with the adjusted diluted EPS, we now expect $7.15 at the midpoint."
+    },
+    {
+     "t0_ms": 1034710,
+     "text": "That's up approximately $2.95 or 70% versus 2025 and an increase of 45 cents versus our"
+    },
+    {
+     "t0_ms": 1041410,
+     "text": "prior guidance."
+    },
+    {
+     "t0_ms": 1042910,
+     "text": "The year-over-year improvement is driven by higher after-tax adjusted operating profit,"
+    },
+    {
+     "t0_ms": 1046790,
+     "text": "primarily from increased revenue and operating profit rate expansion."
+    },
+    {
+     "t0_ms": 1050850,
+     "text": "For net sales, we now expect $14.65 billion at the midpoint."
+    },
+    {
+     "t0_ms": 1054830,
+     "text": "That's up approximately $4.4 billion or 43% versus 2025 and an increase of $650 million"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1061370,
+   "t1_ms": 1105830,
+   "speaker": "Management",
+   "text": "versus our prior guidance. Organic sales growth is expected to be approximately 38% with an additional 4% from acquisitions and 1% from favorable currency. By region, we expect America's organic growth in the high 40s. APAC in the mid-30s. And EMEA in the low to mid single digits. Moving to adjusted operating profit, we now expect approximately $3.5 billion at the midpoint. That's up approximately $1.4 billion or 68% versus 2025 and an increase of $190 million versus our prior guidance. Adjusted operating margin is expected to be 24% at the midpoint. That's approximately 360 basis points of expansion from 2025 and 20 basis points above our prior",
+   "parts": [
+    {
+     "t0_ms": 1061370,
+     "text": "versus our prior guidance."
+    },
+    {
+     "t0_ms": 1063610,
+     "text": "Organic sales growth is expected to be approximately 38% with an additional 4% from acquisitions"
+    },
+    {
+     "t0_ms": 1069170,
+     "text": "and 1% from favorable currency."
+    },
+    {
+     "t0_ms": 1071990,
+     "text": "By region, we expect America's organic growth in the high 40s."
+    },
+    {
+     "t0_ms": 1075770,
+     "text": "APAC in the mid-30s."
+    },
+    {
+     "t0_ms": 1076770,
+     "text": "And EMEA in the low to mid single digits."
+    },
+    {
+     "t0_ms": 1080210,
+     "text": "Moving to adjusted operating profit, we now expect approximately $3.5 billion at the midpoint."
+    },
+    {
+     "t0_ms": 1085770,
+     "text": "That's up approximately $1.4 billion or 68% versus 2025 and an increase of $190 million"
+    },
+    {
+     "t0_ms": 1092810,
+     "text": "versus our prior guidance."
+    },
+    {
+     "t0_ms": 1095370,
+     "text": "Adjusted operating margin is expected to be 24% at the midpoint."
+    },
+    {
+     "t0_ms": 1099470,
+     "text": "That's approximately 360 basis points of expansion from 2025 and 20 basis points above our prior"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1105830,
+   "t1_ms": 1150650,
+   "speaker": "Management",
+   "text": "guidance. The margin expansion is driven by strong organic sales growth, continued operating leverage, and ongoing productivity realization. Finally, adjusted free cash flow is expected to be $2.7 billion at the midpoint. That's up $813 million or 43% versus 2025. The year-over-year improvement is driven by higher adjusted operating profit and cash interest favorability, partially offset by higher net capex as we continue to invest in capacity expansion and operating capability. Thank you. Thank you, Craig. And let's go to slide 10 for some initial thoughts on 2027. Data center demand is accelerating despite pacing items like power availability, permitting some data center sentiment headwinds, shortage of skilled labor for site activity.",
+   "parts": [
+    {
+     "t0_ms": 1105830,
+     "text": "guidance."
+    },
+    {
+     "t0_ms": 1106770,
+     "text": "The margin expansion is driven by strong organic sales growth, continued operating leverage,"
+    },
+    {
+     "t0_ms": 1112450,
+     "text": "and ongoing productivity realization."
+    },
+    {
+     "t0_ms": 1114650,
+     "text": "Finally, adjusted free cash flow is expected to be $2.7 billion at the midpoint."
+    },
+    {
+     "t0_ms": 1120050,
+     "text": "That's up $813 million or 43% versus 2025."
+    },
+    {
+     "t0_ms": 1124750,
+     "text": "The year-over-year improvement is driven by higher adjusted operating profit and cash"
+    },
+    {
+     "t0_ms": 1128610,
+     "text": "interest favorability, partially offset by higher net capex as we continue to invest"
+    },
+    {
+     "t0_ms": 1133850,
+     "text": "in capacity expansion and operating capability."
+    },
+    {
+     "t0_ms": 1135770,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1136770,
+     "text": "Thank you, Craig."
+    },
+    {
+     "t0_ms": 1137770,
+     "text": "And let's go to slide 10 for some initial thoughts on 2027."
+    },
+    {
+     "t0_ms": 1141770,
+     "text": "Data center demand is accelerating despite pacing items like power availability, permitting"
+    },
+    {
+     "t0_ms": 1145650,
+     "text": "some data center sentiment headwinds, shortage of skilled labor for site activity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1150650,
+   "t1_ms": 1195410,
+   "speaker": "Management",
+   "text": "Many of these pacing items are due to the fact that we are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. We are in a time of crisis. technology, expanding capacity, and scaling our supply chain and services to widen our",
+   "parts": [
+    {
+     "t0_ms": 1150650,
+     "text": "Many of these pacing items are due to the fact that we are in a time of crisis."
+    },
+    {
+     "t0_ms": 1155650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1157650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1159650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1161650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1163650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1165650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1166650,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1168530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1169530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1170530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1171530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1172530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1173530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1174530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1175530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1176530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1177530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1178530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1179530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1180530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1181530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1182530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1183530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1184530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1185530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1186530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1187530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1188530,
+     "text": "We are in a time of crisis."
+    },
+    {
+     "t0_ms": 1189530,
+     "text": "technology, expanding capacity, and scaling our supply chain and services to widen our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1195410,
+   "t1_ms": 1235090,
+   "speaker": "Management",
+   "text": "competitive lead and stay ahead of our customers' evolving needs and timelines. Growing at this pace is a lot of work, as not always orderly, but we are clearly demonstrating the operational strength to deliver on this challenge. Despite an ongoing inflationary environment, we expect continuous margin expansion powered by productivity, strong commercial execution, operational rigor, and increasingly deep, vertical operating system adoption. We expect to continue generating significant adjusted free cash flow, enabling strategic",
+   "parts": [
+    {
+     "t0_ms": 1195410,
+     "text": "competitive lead and stay ahead of our customers' evolving needs and timelines."
+    },
+    {
+     "t0_ms": 1202630,
+     "text": "Growing at this pace is a lot of work, as not always orderly, but we are clearly demonstrating"
+    },
+    {
+     "t0_ms": 1208890,
+     "text": "the operational strength to deliver on this challenge."
+    },
+    {
+     "t0_ms": 1213670,
+     "text": "Despite an ongoing inflationary environment, we expect continuous margin expansion powered"
+    },
+    {
+     "t0_ms": 1219130,
+     "text": "by productivity, strong commercial execution, operational rigor, and increasingly deep,"
+    },
+    {
+     "t0_ms": 1226310,
+     "text": "vertical operating system adoption."
+    },
+    {
+     "t0_ms": 1229090,
+     "text": "We expect to continue generating significant adjusted free cash flow, enabling strategic"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1235090,
+   "t1_ms": 1279110,
+   "speaker": "Management",
+   "text": "reinvestment in engineering and R&D while expanding capacity and pursuing targeted acquisitions that drive shareholder value. The demand environment remains strong heading into 2027. And we are looking to expand our supply chain and services to the market. Thank you. Thank you. Thank you. Thank you. Thank you. We believe we are well positioned to capture it and gain market share. We expect strong growth across all financial metrics. And let us go to slide 11 and wrap up. A strong Q3 performance with exceeded guidance, the team continues to raise the bar. We raised our 2026 guidance across all key metrics and feel good about how we will end the year and the momentum we carry.",
+   "parts": [
+    {
+     "t0_ms": 1235090,
+     "text": "reinvestment in engineering and R&D while expanding capacity and pursuing targeted acquisitions"
+    },
+    {
+     "t0_ms": 1241130,
+     "text": "that drive shareholder value."
+    },
+    {
+     "t0_ms": 1243810,
+     "text": "The demand environment remains strong heading into 2027."
+    },
+    {
+     "t0_ms": 1248750,
+     "text": "And we are looking to expand our supply chain and services to the market."
+    },
+    {
+     "t0_ms": 1248870,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1248970,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1248990,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1249050,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1249130,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1249250,
+     "text": "We believe we are well positioned to capture it and gain market share."
+    },
+    {
+     "t0_ms": 1253990,
+     "text": "We expect strong growth across all financial metrics."
+    },
+    {
+     "t0_ms": 1260630,
+     "text": "And let us go to slide 11 and wrap up."
+    },
+    {
+     "t0_ms": 1264350,
+     "text": "A strong Q3 performance with exceeded guidance, the team continues to raise the bar."
+    },
+    {
+     "t0_ms": 1269890,
+     "text": "We raised our 2026 guidance across all key metrics and feel good about how we will end"
+    },
+    {
+     "t0_ms": 1276830,
+     "text": "the year and the momentum we carry."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1279110,
+   "t1_ms": 1317950,
+   "speaker": "Management",
+   "text": "into 2027. We closed the acquisition of a utility innovation group at the microgrid solution, advanced power controls, and behind-the-meter power design capabilities. We also closed the acquisition of King Environmental Services, expanding our fluid management and load testing services in Europe. I also want to provide further evidence of the strength of our execution through a couple of examples. First, our long-tenured partnership with EdgeConnects and the design, engineering, and construction management firm BCEI. They continue to expand",
+   "parts": [
+    {
+     "t0_ms": 1279110,
+     "text": "into 2027. We closed the acquisition of a utility innovation group at the microgrid solution,"
+    },
+    {
+     "t0_ms": 1286270,
+     "text": "advanced power controls, and behind-the-meter power design capabilities. We also closed the"
+    },
+    {
+     "t0_ms": 1291590,
+     "text": "acquisition of King Environmental Services, expanding our fluid management and load testing"
+    },
+    {
+     "t0_ms": 1297650,
+     "text": "services in Europe. I also want to provide further evidence of the strength of our execution"
+    },
+    {
+     "t0_ms": 1303530,
+     "text": "through a couple of examples. First, our long-tenured partnership with EdgeConnects"
+    },
+    {
+     "t0_ms": 1310130,
+     "text": "and the design, engineering, and construction management firm BCEI. They continue to expand"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1317950,
+   "t1_ms": 1357350,
+   "speaker": "Management",
+   "text": "globally with Vertiv as their preferred end-to-end powertrain thermal chain and services partner. Vertiv's innovation, quality, scale, and reliability are enabling the deployment of gigawatt-scale facilities across the globe. We are proud of the trust this customer has in Vertiv to deliver at scale. Next, our collaboration with SGC Energy and KT Cloud on the Gunsan AI Data Center project in South Korea, designed to enable scalable, high-density AI data centers. The project",
+   "parts": [
+    {
+     "t0_ms": 1317950,
+     "text": "globally with Vertiv as their preferred end-to-end powertrain thermal chain and services partner."
+    },
+    {
+     "t0_ms": 1325210,
+     "text": "Vertiv's innovation, quality, scale, and reliability are enabling the deployment of"
+    },
+    {
+     "t0_ms": 1331070,
+     "text": "gigawatt-scale facilities across the globe."
+    },
+    {
+     "t0_ms": 1333530,
+     "text": "We are proud of the trust this customer has in Vertiv to deliver at scale."
+    },
+    {
+     "t0_ms": 1341450,
+     "text": "Next, our collaboration with SGC Energy and KT Cloud on the Gunsan AI Data Center project in"
+    },
+    {
+     "t0_ms": 1350310,
+     "text": "South Korea, designed to enable scalable, high-density AI data centers. The project"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1357350,
+   "t1_ms": 1378810,
+   "speaker": "Management",
+   "text": "is utilizing our converging infrastructure to accelerate time-to-token and deliver applications to the world. We are proud of the trust this customer has in Vertiv to deliver at scale. Global reach, technical depth, quality and reliability, scale, and industrial leading services define Vertiv's value proposition. And with that, I think it's time to go to the Q&A part.",
+   "parts": [
+    {
+     "t0_ms": 1357350,
+     "text": "is utilizing our converging infrastructure to accelerate time-to-token and deliver"
+    },
+    {
+     "t0_ms": 1363410,
+     "text": "applications to the world. We are proud of the trust this customer has in Vertiv to deliver at scale."
+    },
+    {
+     "t0_ms": 1363530,
+     "text": "Global reach, technical depth, quality and reliability, scale, and industrial leading"
+    },
+    {
+     "t0_ms": 1370690,
+     "text": "services define Vertiv's value proposition. And with that, I think it's time to go to the Q&A part."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1379830,
+   "t1_ms": 1406260,
+   "speaker": "Operator",
+   "text": "We will now begin the question and answer session. In order to ask a question, press star, then the number one on your telephone keypad. In the interest of time, please limit yourself to one question. And if you have a follow-up question, please rejoin the queue. We will pause for just a moment to compile the Q&A roster. The first question comes from Amit Daryanani with Evercore.",
+   "parts": [
+    {
+     "t0_ms": 1379830,
+     "text": "We will now begin the question and answer session. In order to ask a question,"
+    },
+    {
+     "t0_ms": 1384730,
+     "text": "press star, then the number one on your telephone keypad. In the interest of time,"
+    },
+    {
+     "t0_ms": 1389750,
+     "text": "please limit yourself to one question. And if you have a follow-up question,"
+    },
+    {
+     "t0_ms": 1393530,
+     "text": "please rejoin the queue. We will pause for just a moment to compile the Q&A roster."
+    },
+    {
+     "t0_ms": 1402620,
+     "text": "The first question comes from Amit Daryanani with Evercore."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1409160,
+   "t1_ms": 1453800,
+   "speaker": "Analyst",
+   "text": "Good morning, good afternoon, everyone. Gio, extremely impressive set of numbers for September quarter, and you're seeing 100% plus auto growth right now, which I think is well in excess of the underlying gigawatts of capacity addition the AI ecosystem would do going forward. This would almost imply that we're not going to be able to do a lot of the work that we're doing right now, but we're going to be able to do a lot of the work that we're doing right now, and the success of Vertiv is actually picking up market share at this point, which I think is very different from the investor concerns around the quarter, around product quality and potential share loss. Perhaps if you think about the strength in September, the 100% plus auto growth, can you just talk about how much of this was catch-up versus underlying demand getting better, and to the extent you can focus in on your share within these AI deployments",
+   "parts": [
+    {
+     "t0_ms": 1409160,
+     "text": "Good morning, good afternoon, everyone. Gio, extremely impressive set of numbers for September"
+    },
+    {
+     "t0_ms": 1415760,
+     "text": "quarter, and you're seeing 100% plus auto growth right now, which I think is well in excess of"
+    },
+    {
+     "t0_ms": 1420720,
+     "text": "the underlying gigawatts of capacity addition the AI ecosystem would do going forward. This would"
+    },
+    {
+     "t0_ms": 1427100,
+     "text": "almost imply that we're not going to be able to do a lot of the work that we're doing right now,"
+    },
+    {
+     "t0_ms": 1428580,
+     "text": "but we're going to be able to do a lot of the work that we're doing right now, and the success of"
+    },
+    {
+     "t0_ms": 1432000,
+     "text": "Vertiv is actually picking up market share at this point, which I think is very different from the"
+    },
+    {
+     "t0_ms": 1433040,
+     "text": "investor concerns around the quarter, around product quality and potential share loss."
+    },
+    {
+     "t0_ms": 1439620,
+     "text": "Perhaps if you think about the strength in September, the 100% plus auto growth,"
+    },
+    {
+     "t0_ms": 1444460,
+     "text": "can you just talk about how much of this was catch-up versus underlying demand getting better,"
+    },
+    {
+     "t0_ms": 1449840,
+     "text": "and to the extent you can focus in on your share within these AI deployments"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1453800,
+   "t1_ms": 1456620,
+   "speaker": "Analyst",
+   "text": "and how that's evolving, that would be really helpful. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1453800,
+     "text": "and how that's evolving, that would be really helpful. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1456860,
+   "t1_ms": 1499900,
+   "speaker": "Management",
+   "text": "Thank you, Gio. Thank you for that. Well, thank you, Amit. And as you're saying, we stronger believe that this growth is above the market growth. If you go back to the market model that we shared with you in May, we believe that's pretty intact in terms of outlook of the market. That is squarely there. So if we continue to talk about orders and our orders trajectory, and we'll specifically talk about Q3 here, but as you heard, we're pretty positive about orders, more broadly speaking. But it is, I think, a way to demonstrate that the industry believes in Invertiv",
+   "parts": [
+    {
+     "t0_ms": 1456860,
+     "text": "Thank you, Gio."
+    },
+    {
+     "t0_ms": 1457260,
+     "text": "Thank you for that."
+    },
+    {
+     "t0_ms": 1458580,
+     "text": "Well, thank you, Amit."
+    },
+    {
+     "t0_ms": 1460720,
+     "text": "And as you're saying, we stronger believe that this growth is above the market growth."
+    },
+    {
+     "t0_ms": 1466380,
+     "text": "If you go back to the market model that we shared with you in May,"
+    },
+    {
+     "t0_ms": 1470200,
+     "text": "we believe that's pretty intact in terms of outlook of the market."
+    },
+    {
+     "t0_ms": 1473580,
+     "text": "That is squarely there."
+    },
+    {
+     "t0_ms": 1478220,
+     "text": "So if we continue to talk about orders and our orders trajectory,"
+    },
+    {
+     "t0_ms": 1484200,
+     "text": "and we'll specifically talk about Q3 here,"
+    },
+    {
+     "t0_ms": 1486620,
+     "text": "but as you heard, we're pretty positive about orders, more broadly speaking."
+    },
+    {
+     "t0_ms": 1494320,
+     "text": "But it is, I think, a way to demonstrate that the industry believes in Invertiv"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1499900,
+   "t1_ms": 1520240,
+   "speaker": "Management",
+   "text": "and that our technology, our execution, our customer strength, our customer relationships, and our ability to deliver are certainly serving our customers very, very well. Is it catch-up? We're not talking about catch-up. We're talking about orders. So orders are a reflection of strength in the market.",
+   "parts": [
+    {
+     "t0_ms": 1499900,
+     "text": "and that our technology, our execution, our customer strength,"
+    },
+    {
+     "t0_ms": 1505340,
+     "text": "our customer relationships, and our ability to deliver"
+    },
+    {
+     "t0_ms": 1508340,
+     "text": "are certainly serving our customers very, very well."
+    },
+    {
+     "t0_ms": 1514100,
+     "text": "Is it catch-up?"
+    },
+    {
+     "t0_ms": 1514960,
+     "text": "We're not talking about catch-up."
+    },
+    {
+     "t0_ms": 1516620,
+     "text": "We're talking about orders."
+    },
+    {
+     "t0_ms": 1517980,
+     "text": "So orders are a reflection of strength in the market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1524460,
+   "t1_ms": 1528380,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Scott Davis with Mellius Research.",
+   "parts": [
+    {
+     "t0_ms": 1524460,
+     "text": "Your next question comes from the line of Scott Davis with Mellius Research."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1529940,
+   "t1_ms": 1570840,
+   "speaker": "Analyst",
+   "text": "Hey, good morning, everybody. And congrats on the very strong snapback in numbers here. Gio, I want to just follow on a little bit on Amit's question there. As it relates to some of the chatter out there of supply chains, chain issues and such, and also product quality issues, there's been chatter of compressors that have been burning out and heat levels and UPS machines or UPS systems that are overheating. And could you give us a little bit of color? I mean, one could characterize it as kind of normal product development challenges,",
+   "parts": [
+    {
+     "t0_ms": 1529940,
+     "text": "Hey, good morning, everybody."
+    },
+    {
+     "t0_ms": 1531860,
+     "text": "And congrats on the very strong snapback in numbers here."
+    },
+    {
+     "t0_ms": 1539280,
+     "text": "Gio, I want to just follow on a little bit on Amit's question there."
+    },
+    {
+     "t0_ms": 1544540,
+     "text": "As it relates to some of the chatter out there of supply chains,"
+    },
+    {
+     "t0_ms": 1550240,
+     "text": "chain issues and such, and also product quality issues,"
+    },
+    {
+     "t0_ms": 1553860,
+     "text": "there's been chatter of compressors that have been burning out"
+    },
+    {
+     "t0_ms": 1556940,
+     "text": "and heat levels and UPS machines or UPS systems that are overheating."
+    },
+    {
+     "t0_ms": 1562840,
+     "text": "And could you give us a little bit of color?"
+    },
+    {
+     "t0_ms": 1566700,
+     "text": "I mean, one could characterize it as kind of normal product development challenges,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1571760,
+   "t1_ms": 1591760,
+   "speaker": "Analyst",
+   "text": "and one could characterize it as a door opening for competitors. So how do you guys think about it? And should we? We have confidence, given the numbers you just provided, that these issues are all seemingly overblown, and we should just look onward. And I'll pass it on after that. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1571760,
+     "text": "and one could characterize it as a door opening for competitors."
+    },
+    {
+     "t0_ms": 1576660,
+     "text": "So how do you guys think about it?"
+    },
+    {
+     "t0_ms": 1579260,
+     "text": "And should we?"
+    },
+    {
+     "t0_ms": 1580240,
+     "text": "We have confidence, given the numbers you just provided,"
+    },
+    {
+     "t0_ms": 1583080,
+     "text": "that these issues are all seemingly overblown,"
+    },
+    {
+     "t0_ms": 1587320,
+     "text": "and we should just look onward."
+    },
+    {
+     "t0_ms": 1589900,
+     "text": "And I'll pass it on after that."
+    },
+    {
+     "t0_ms": 1591400,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1592860,
+   "t1_ms": 1637420,
+   "speaker": "Management",
+   "text": "Well, thank you, Scott. Well, again, best answer is our performance. Certainly, we operate at high levels of growth and in a very vibrant environment when it comes to the product quality. And when it comes to new products being launched. Many of these new products are new to the industry, if you will. So this growth and this new product situation is always creating acceleration across the portfolio.",
+   "parts": [
+    {
+     "t0_ms": 1592860,
+     "text": "Well, thank you, Scott."
+    },
+    {
+     "t0_ms": 1594240,
+     "text": "Well, again, best answer is our performance."
+    },
+    {
+     "t0_ms": 1601600,
+     "text": "Certainly, we operate at high levels of growth"
+    },
+    {
+     "t0_ms": 1605840,
+     "text": "and in a very vibrant environment"
+    },
+    {
+     "t0_ms": 1609720,
+     "text": "when it comes to the product quality."
+    },
+    {
+     "t0_ms": 1610220,
+     "text": "And when it comes to new products being launched."
+    },
+    {
+     "t0_ms": 1613060,
+     "text": "Many of these new products are new to the industry, if you will."
+    },
+    {
+     "t0_ms": 1619640,
+     "text": "So this growth and this new product situation"
+    },
+    {
+     "t0_ms": 1624940,
+     "text": "is always creating acceleration across the portfolio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1637420,
+   "t1_ms": 1680520,
+   "speaker": "Management",
+   "text": "But when we look at the quality data, we are optimistic about what we see. We feel good about the trajectory. We feel good about the direction. When it comes to new products, it's true that if the new product mix is higher, then there is a kind of a higher, let's say, statistically distributed curve in the initial phase of new product. So there might be a mix there. But when we look at the way, the infant phase of a new product quality evolves, how it evolves, we see improvements, constant improvements.",
+   "parts": [
+    {
+     "t0_ms": 1637420,
+     "text": "But when we look at the quality data,"
+    },
+    {
+     "t0_ms": 1641560,
+     "text": "we are optimistic about what we see."
+    },
+    {
+     "t0_ms": 1645000,
+     "text": "We feel good about the trajectory."
+    },
+    {
+     "t0_ms": 1648240,
+     "text": "We feel good about the direction."
+    },
+    {
+     "t0_ms": 1651560,
+     "text": "When it comes to new products,"
+    },
+    {
+     "t0_ms": 1653500,
+     "text": "it's true that if the new product mix is higher,"
+    },
+    {
+     "t0_ms": 1656640,
+     "text": "then there is a kind of a higher,"
+    },
+    {
+     "t0_ms": 1660480,
+     "text": "let's say, statistically distributed curve"
+    },
+    {
+     "t0_ms": 1664520,
+     "text": "in the initial phase of new product."
+    },
+    {
+     "t0_ms": 1667100,
+     "text": "So there might be a mix there."
+    },
+    {
+     "t0_ms": 1668940,
+     "text": "But when we look at the way,"
+    },
+    {
+     "t0_ms": 1671560,
+     "text": "the infant phase of a new product quality evolves,"
+    },
+    {
+     "t0_ms": 1675800,
+     "text": "how it evolves, we see improvements,"
+    },
+    {
+     "t0_ms": 1678440,
+     "text": "constant improvements."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1680520,
+   "t1_ms": 1711470,
+   "speaker": "Management",
+   "text": "So we feel good about that. And it is a complicated industry. It is a complicated set of products. And that's true across the entire industry. It's not an averted thing. So I feel pretty good at where we are. We are not perfect. Absolutely, we're not perfect. But we believe that we continue to reinvigorate and reinforce and focus on quality and reliability as one of the competitive advantages for us. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1680520,
+     "text": "So we feel good about that."
+    },
+    {
+     "t0_ms": 1682960,
+     "text": "And it is a complicated industry."
+    },
+    {
+     "t0_ms": 1685120,
+     "text": "It is a complicated set of products."
+    },
+    {
+     "t0_ms": 1687400,
+     "text": "And that's true across the entire industry."
+    },
+    {
+     "t0_ms": 1689860,
+     "text": "It's not an averted thing."
+    },
+    {
+     "t0_ms": 1692800,
+     "text": "So I feel pretty good at where we are."
+    },
+    {
+     "t0_ms": 1695280,
+     "text": "We are not perfect."
+    },
+    {
+     "t0_ms": 1696760,
+     "text": "Absolutely, we're not perfect."
+    },
+    {
+     "t0_ms": 1698240,
+     "text": "But we believe that we continue to reinvigorate"
+    },
+    {
+     "t0_ms": 1701000,
+     "text": "and reinforce and focus on quality and reliability"
+    },
+    {
+     "t0_ms": 1705640,
+     "text": "as one of the competitive advantages for us."
+    },
+    {
+     "t0_ms": 1711050,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1713250,
+   "t1_ms": 1717050,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Steve Tusa with Wells Fargo.",
+   "parts": [
+    {
+     "t0_ms": 1713250,
+     "text": "Your next question comes from the line of Steve Tusa"
+    },
+    {
+     "t0_ms": 1716070,
+     "text": "with Wells Fargo."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1719520,
+   "t1_ms": 1744380,
+   "speaker": "Analyst",
+   "text": "Hi, good morning. Morning. Morning. Can we just get an update on the supply chain issues from the second quarter, how those played out, and whether you, you know, were actually comfortable with kind of like capturing that revenue into this year, and then just a capex, maybe a preview of capex for 2027?",
+   "parts": [
+    {
+     "t0_ms": 1719520,
+     "text": "Hi, good morning."
+    },
+    {
+     "t0_ms": 1721300,
+     "text": "Morning."
+    },
+    {
+     "t0_ms": 1721640,
+     "text": "Morning."
+    },
+    {
+     "t0_ms": 1722800,
+     "text": "Can we just get an update on the supply chain issues"
+    },
+    {
+     "t0_ms": 1727740,
+     "text": "from the second quarter, how those played out,"
+    },
+    {
+     "t0_ms": 1732140,
+     "text": "and whether you, you know,"
+    },
+    {
+     "t0_ms": 1733540,
+     "text": "were actually comfortable"
+    },
+    {
+     "t0_ms": 1734080,
+     "text": "with kind of like capturing that revenue into this year,"
+    },
+    {
+     "t0_ms": 1736980,
+     "text": "and then just a capex, maybe a preview of capex for 2027?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1746000,
+   "t1_ms": 1789540,
+   "speaker": "Management",
+   "text": "Yeah, so I'd say, thanks, Steve. On kind of a recap of the 2Q, some of that revenue, the delayed revenue, did filter into the third quarter number. So I think we capped it somewhere around 100 to 150 million. I think that was some of the recovery we felt in third quarter. In terms of our future, we're going to have to look at, you know, we're going to have to look at, you know, we're going to have to look at, you know, we're going to have to look at, you know, the feeling of where we sit right now. Again, we're continuing to build up those resiliencies in those factories and ensuring that they can deliver the project level outcomes that we expect to. So we said before that it was going to be an ongoing thing that we're continuing to improve at. We saw some definite improvements in third quarter, so that was what you felt come through, and we saw some recovery of that in the revenue basis. But we're going to continue to work on making sure",
+   "parts": [
+    {
+     "t0_ms": 1746000,
+     "text": "Yeah, so I'd say, thanks, Steve."
+    },
+    {
+     "t0_ms": 1748240,
+     "text": "On kind of a recap of the 2Q, some of that revenue,"
+    },
+    {
+     "t0_ms": 1752280,
+     "text": "the delayed revenue, did filter into the third quarter number."
+    },
+    {
+     "t0_ms": 1755540,
+     "text": "So I think we capped it somewhere around 100"
+    },
+    {
+     "t0_ms": 1757820,
+     "text": "to 150 million."
+    },
+    {
+     "t0_ms": 1758800,
+     "text": "I think that was some of the recovery we felt"
+    },
+    {
+     "t0_ms": 1760640,
+     "text": "in third quarter."
+    },
+    {
+     "t0_ms": 1761900,
+     "text": "In terms of our future, we're going to have to look at,"
+    },
+    {
+     "t0_ms": 1763920,
+     "text": "you know, we're going to have to look at, you know,"
+    },
+    {
+     "t0_ms": 1764080,
+     "text": "we're going to have to look at, you know,"
+    },
+    {
+     "t0_ms": 1764120,
+     "text": "we're going to have to look at, you know,"
+    },
+    {
+     "t0_ms": 1764580,
+     "text": "the feeling of where we sit right now."
+    },
+    {
+     "t0_ms": 1765340,
+     "text": "Again, we're continuing to build up those resiliencies"
+    },
+    {
+     "t0_ms": 1768280,
+     "text": "in those factories and ensuring"
+    },
+    {
+     "t0_ms": 1769800,
+     "text": "that they can deliver the project level outcomes"
+    },
+    {
+     "t0_ms": 1773740,
+     "text": "that we expect to."
+    },
+    {
+     "t0_ms": 1774580,
+     "text": "So we said before that it was going to be an ongoing thing"
+    },
+    {
+     "t0_ms": 1777300,
+     "text": "that we're continuing to improve at."
+    },
+    {
+     "t0_ms": 1779220,
+     "text": "We saw some definite improvements in third quarter,"
+    },
+    {
+     "t0_ms": 1781360,
+     "text": "so that was what you felt come through,"
+    },
+    {
+     "t0_ms": 1783280,
+     "text": "and we saw some recovery of that in the revenue basis."
+    },
+    {
+     "t0_ms": 1786280,
+     "text": "But we're going to continue to work on making sure"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1789540,
+   "t1_ms": 1825420,
+   "speaker": "Management",
+   "text": "that we can deliver at a steady pace and an ongoing pace around those. Those project level outcomes. So I think for us, it's continued effort there. And we did put the capacity in place, as you saw. A little bit of that capacity does drive, you know, some of the margin things that we've talked about, but definitely put the capacity in place. And your question, we won't highlight, you know, 2027 now from an outlook on what our percentage of CapEx would be. Again, we've given a guide for that in the long-term guidance, and we'd update any of that as we cut through fourth quarter. Great. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1789540,
+     "text": "that we can deliver at a steady pace and an ongoing pace"
+    },
+    {
+     "t0_ms": 1792720,
+     "text": "around those."
+    },
+    {
+     "t0_ms": 1793420,
+     "text": "Those project level outcomes."
+    },
+    {
+     "t0_ms": 1795880,
+     "text": "So I think for us, it's continued effort there."
+    },
+    {
+     "t0_ms": 1798960,
+     "text": "And we did put the capacity in place, as you saw."
+    },
+    {
+     "t0_ms": 1801520,
+     "text": "A little bit of that capacity does drive, you know,"
+    },
+    {
+     "t0_ms": 1804400,
+     "text": "some of the margin things that we've talked about,"
+    },
+    {
+     "t0_ms": 1806400,
+     "text": "but definitely put the capacity in place."
+    },
+    {
+     "t0_ms": 1809380,
+     "text": "And your question, we won't highlight, you know,"
+    },
+    {
+     "t0_ms": 1811880,
+     "text": "2027 now from an outlook on what our percentage"
+    },
+    {
+     "t0_ms": 1816480,
+     "text": "of CapEx would be."
+    },
+    {
+     "t0_ms": 1817980,
+     "text": "Again, we've given a guide for that in the long-term guidance,"
+    },
+    {
+     "t0_ms": 1821080,
+     "text": "and we'd update any of that as we cut through fourth quarter."
+    },
+    {
+     "t0_ms": 1823420,
+     "text": "Great. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1825420,
+   "t1_ms": 1833470,
+   "speaker": "Operator",
+   "text": "Your next question comes from Joe O'Dee with Vertical Research.",
+   "parts": [
+    {
+     "t0_ms": 1825420,
+     "text": "Your next question comes from Joe O'Dee"
+    },
+    {
+     "t0_ms": 1829870,
+     "text": "with Vertical Research."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1833470,
+   "t1_ms": 1863730,
+   "speaker": "Analyst",
+   "text": "Hi. Good morning. Thanks for taking my question. Can you just talk about the mixed dynamics in Americas and some of the margin spread there, even if not quantified, just trying to think through the opportunities moving forward as you sort of gain some efficiencies on new products and thinking about, well, what that could mean for margin expansion as you see a narrowing spread between some of these buckets?",
+   "parts": [
+    {
+     "t0_ms": 1833470,
+     "text": "Hi. Good morning."
+    },
+    {
+     "t0_ms": 1834250,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1836490,
+     "text": "Can you just talk about the mixed dynamics in Americas"
+    },
+    {
+     "t0_ms": 1842190,
+     "text": "and some of the margin spread there, even if not quantified,"
+    },
+    {
+     "t0_ms": 1847470,
+     "text": "just trying to think through the opportunities moving forward"
+    },
+    {
+     "t0_ms": 1851150,
+     "text": "as you sort of gain some efficiencies on new products"
+    },
+    {
+     "t0_ms": 1855070,
+     "text": "and thinking about, well,"
+    },
+    {
+     "t0_ms": 1856430,
+     "text": "what that could mean for margin expansion as you see"
+    },
+    {
+     "t0_ms": 1859670,
+     "text": "a narrowing spread between some of these buckets?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1863730,
+   "t1_ms": 1906890,
+   "speaker": "Management",
+   "text": "Yeah, yeah. I would say you're exactly right. So some of the margin you're seeing in Americas, again, the incrementals are a little bit lower in the second half than they were the first half because of some favorable comps. But you also see there, Joe, in the second half that Americas had a large ramp in capacity, which would drive some inefficiency there. So and then on the point of the mix, the mix would be that the product side had more output than normal in terms of services. So you got a little bit of a mixed factor there. So as that balances back out, you might have a little bit of a pickup on a mix there. And as we got better in terms of bringing our capacity online and getting through that learning curve, you have some potential there as well to continue to work through your margins.",
+   "parts": [
+    {
+     "t0_ms": 1863730,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t0_ms": 1864190,
+     "text": "I would say you're exactly right."
+    },
+    {
+     "t0_ms": 1865810,
+     "text": "So some of the margin you're seeing in Americas, again,"
+    },
+    {
+     "t0_ms": 1868750,
+     "text": "the incrementals are a little bit lower in the second half"
+    },
+    {
+     "t0_ms": 1870990,
+     "text": "than they were the first half because of some favorable comps."
+    },
+    {
+     "t0_ms": 1873350,
+     "text": "But you also see there, Joe, in the second half"
+    },
+    {
+     "t0_ms": 1876270,
+     "text": "that Americas had a large ramp in capacity,"
+    },
+    {
+     "t0_ms": 1879450,
+     "text": "which would drive some inefficiency there."
+    },
+    {
+     "t0_ms": 1881770,
+     "text": "So and then on the point of the mix,"
+    },
+    {
+     "t0_ms": 1884590,
+     "text": "the mix would be that the product side"
+    },
+    {
+     "t0_ms": 1886430,
+     "text": "had more output than normal in terms of services."
+    },
+    {
+     "t0_ms": 1889810,
+     "text": "So you got a little bit of a mixed factor there."
+    },
+    {
+     "t0_ms": 1891610,
+     "text": "So as that balances back out, you might have a little bit"
+    },
+    {
+     "t0_ms": 1894470,
+     "text": "of a pickup on a mix there."
+    },
+    {
+     "t0_ms": 1896150,
+     "text": "And as we got better in terms of bringing our capacity online"
+    },
+    {
+     "t0_ms": 1900430,
+     "text": "and getting through that learning curve,"
+    },
+    {
+     "t0_ms": 1902190,
+     "text": "you have some potential there as well to continue"
+    },
+    {
+     "t0_ms": 1904870,
+     "text": "to work through your margins."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1906890,
+   "t1_ms": 1933250,
+   "speaker": "Management",
+   "text": "I would say as we think about growing this business and the level we're growing it and bringing on capacity, we're always being prudent about how we do that and creating capabilities. So we'll continue to do that. And I think the 30% to 35% that we put out there is the right way to think about it, 30% always being when we're kind of in the ramp mode and trying to make sure we stay there, and the high end of that being 35%. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1906890,
+     "text": "I would say as we think about growing this business"
+    },
+    {
+     "t0_ms": 1909830,
+     "text": "and the level we're growing it and bringing on capacity,"
+    },
+    {
+     "t0_ms": 1912470,
+     "text": "we're always being prudent about how we do that and creating"
+    },
+    {
+     "t0_ms": 1915870,
+     "text": "capabilities."
+    },
+    {
+     "t0_ms": 1916590,
+     "text": "So we'll continue to do that."
+    },
+    {
+     "t0_ms": 1917830,
+     "text": "And I think the 30% to 35% that we put out there"
+    },
+    {
+     "t0_ms": 1920970,
+     "text": "is the right way to think about it, 30% always being"
+    },
+    {
+     "t0_ms": 1923530,
+     "text": "when we're kind of in the ramp mode"
+    },
+    {
+     "t0_ms": 1925270,
+     "text": "and trying to make sure we stay there,"
+    },
+    {
+     "t0_ms": 1926730,
+     "text": "and the high end of that being 35%."
+    },
+    {
+     "t0_ms": 1930410,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1933250,
+   "t1_ms": 1939050,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Andrew Aubin with Bank of America.",
+   "parts": [
+    {
+     "t0_ms": 1933250,
+     "text": "Your next question comes from the line of Andrew Aubin"
+    },
+    {
+     "t0_ms": 1936130,
+     "text": "with Bank of America."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1939050,
+   "t1_ms": 1941570,
+   "speaker": "Analyst",
+   "text": "Yes, good morning.",
+   "parts": [
+    {
+     "t0_ms": 1939050,
+     "text": "Yes, good morning."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1941570,
+   "t1_ms": 1943510,
+   "speaker": "Operator",
+   "text": "Good morning.",
+   "parts": [
+    {
+     "t0_ms": 1941570,
+     "text": "Good morning."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1943510,
+   "t1_ms": 1964770,
+   "speaker": "Analyst",
+   "text": "Just maybe can we talk about your service organization? Seems like a big differentiator. Yes. Thank you. Thank you. We do have our services at risk. Inside the market, can you share some KPIs and particularly getting quite a few questions about any difference in attachment rates on electrical and thermal, and how should we think about the opportunity there going",
+   "parts": [
+    {
+     "t0_ms": 1943510,
+     "text": "Just maybe can we talk about your service organization?"
+    },
+    {
+     "t0_ms": 1946750,
+     "text": "Seems like a big differentiator."
+    },
+    {
+     "t0_ms": 1947910,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1948410,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1948910,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1949390,
+     "text": "We do have our services at risk."
+    },
+    {
+     "t0_ms": 1951530,
+     "text": "Inside the market, can you share some KPIs"
+    },
+    {
+     "t0_ms": 1954650,
+     "text": "and particularly getting quite a few questions"
+    },
+    {
+     "t0_ms": 1957590,
+     "text": "about any difference in attachment rates"
+    },
+    {
+     "t0_ms": 1960050,
+     "text": "on electrical and thermal, and how"
+    },
+    {
+     "t0_ms": 1962650,
+     "text": "should we think about the opportunity there going"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1964770,
+   "t1_ms": 2009370,
+   "speaker": "Management",
+   "text": "forward? Thank you. Well, thanks for your question. Coastal Services is a very important differentiator for us. We've been vocal, and we continue proof of the fact that it is making a difference. And it's making a difference, especially when the industry is complex and when there are a lot of new technologies being deployed, particularly in these times. We will not go into details of attached rates, but let's talk directionally. We're pleased by the direction in which our attached rates are evolving. That's a metric that we obsessively and obsessively and very granularly measure,",
+   "parts": [
+    {
+     "t0_ms": 1964770,
+     "text": "forward?"
+    },
+    {
+     "t0_ms": 1965270,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1966990,
+     "text": "Well, thanks for your question."
+    },
+    {
+     "t0_ms": 1968250,
+     "text": "Coastal Services is a very important differentiator"
+    },
+    {
+     "t0_ms": 1974970,
+     "text": "for us."
+    },
+    {
+     "t0_ms": 1977130,
+     "text": "We've been vocal, and we continue"
+    },
+    {
+     "t0_ms": 1978910,
+     "text": "proof of the fact that it is making a difference."
+    },
+    {
+     "t0_ms": 1982250,
+     "text": "And it's making a difference, especially when the industry is complex and when there are"
+    },
+    {
+     "t0_ms": 1986230,
+     "text": "a lot of new technologies being deployed, particularly in these times."
+    },
+    {
+     "t0_ms": 1992210,
+     "text": "We will not go into details of attached rates, but let's talk directionally."
+    },
+    {
+     "t0_ms": 1998170,
+     "text": "We're pleased by the direction in which our attached rates are evolving."
+    },
+    {
+     "t0_ms": 2002150,
+     "text": "That's a metric that we obsessively and obsessively and very granularly measure,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2009890,
+   "t1_ms": 2050409,
+   "speaker": "Management",
+   "text": "regionally, product line, everything. I would say that there's not necessarily a dramatic difference between the electrical and mechanical part. It's more specific maybe to some product lines within the larger groups of technologies. But again, you heard us talk about converging infrastructure. We talked about system level, all things that create even further opportunities for attachment on a broader install base. So please with where we're going.",
+   "parts": [
+    {
+     "t0_ms": 2009890,
+     "text": "regionally, product line, everything."
+    },
+    {
+     "t0_ms": 2013930,
+     "text": "I would say that there's not necessarily a dramatic difference between the electrical"
+    },
+    {
+     "t0_ms": 2020750,
+     "text": "and mechanical part."
+    },
+    {
+     "t0_ms": 2022090,
+     "text": "It's more specific maybe to some product lines within the larger groups of technologies."
+    },
+    {
+     "t0_ms": 2030570,
+     "text": "But again,"
+    },
+    {
+     "t0_ms": 2031610,
+     "text": "you heard us talk about converging infrastructure."
+    },
+    {
+     "t0_ms": 2035550,
+     "text": "We talked about system level, all things that create even further opportunities for attachment"
+    },
+    {
+     "t0_ms": 2044550,
+     "text": "on a broader install base."
+    },
+    {
+     "t0_ms": 2048370,
+     "text": "So please with where we're going."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2051750,
+   "t1_ms": 2052650,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2051750,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2054960,
+   "t1_ms": 2058800,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Andy Kaplowitz with Citigroup.",
+   "parts": [
+    {
+     "t0_ms": 2054960,
+     "text": "Your next question comes from the line of Andy Kaplowitz with Citigroup."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2061199,
+   "t1_ms": 2062000,
+   "speaker": "Analyst",
+   "text": "Good morning, everyone.",
+   "parts": [
+    {
+     "t0_ms": 2061199,
+     "text": "Good morning, everyone."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2063000,
+   "t1_ms": 2063739,
+   "speaker": "Operator",
+   "text": "Andy. Andy.",
+   "parts": [
+    {
+     "t0_ms": 2063000,
+     "text": "Andy."
+    },
+    {
+     "t0_ms": 2063560,
+     "text": "Andy."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2065100,
+   "t1_ms": 2084159,
+   "speaker": "Analyst",
+   "text": "Thank you. You know, maybe you can further characterize the order pipeline for us. I think you suggest it continues to grow, but does it continue to maybe widen out by geography as you go into twenty seven? Obviously, the biggest opportunity seems to continue to be in the US. But how big of an opportunity is Europe these days or, interestingly, India as you go into twenty seven and beyond?",
+   "parts": [
+    {
+     "t0_ms": 2065100,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2065580,
+     "text": "You know, maybe you can further characterize the order pipeline for us."
+    },
+    {
+     "t0_ms": 2069100,
+     "text": "I think you suggest it continues to grow, but does it continue to maybe widen out by"
+    },
+    {
+     "t0_ms": 2073260,
+     "text": "geography as you go into twenty seven?"
+    },
+    {
+     "t0_ms": 2075580,
+     "text": "Obviously, the biggest opportunity seems to continue to be in the US."
+    },
+    {
+     "t0_ms": 2078280,
+     "text": "But how big of an opportunity is Europe these days or, interestingly, India as you go into"
+    },
+    {
+     "t0_ms": 2082980,
+     "text": "twenty seven and beyond?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2088179,
+   "t1_ms": 2128240,
+   "speaker": "Management",
+   "text": "I, you know, I go back to what I was saying in terms of pipeline and strength, the broad base of strength. Of course, we start from from America. You start from the USA and you start from the United States. You start from India. You start from the United States. You start from Europe, you start from the United States. You start from the United States. You start from Europe. America's for us, which of course the central gravity of the America's for us is, and for the market is the U.S., that is intrinsically and absolutely unequivocally the largest market in the world. So I was very explicit about the fact that we are very pleased about pipeline growth in the Americas, very pleased in terms of an absolute acceleration of pipeline in the Americas in the third quarter.",
+   "parts": [
+    {
+     "t0_ms": 2088179,
+     "text": "I, you know, I go back to what I was saying in terms of pipeline and strength, the broad"
+    },
+    {
+     "t0_ms": 2093120,
+     "text": "base of strength."
+    },
+    {
+     "t0_ms": 2094060,
+     "text": "Of course, we start from from America."
+    },
+    {
+     "t0_ms": 2095340,
+     "text": "You start from the USA and you start from the United States."
+    },
+    {
+     "t0_ms": 2095380,
+     "text": "You start from India."
+    },
+    {
+     "t0_ms": 2095620,
+     "text": "You start from the United States."
+    },
+    {
+     "t0_ms": 2095860,
+     "text": "You start from Europe, you start from the United States."
+    },
+    {
+     "t0_ms": 2095940,
+     "text": "You start from the United States."
+    },
+    {
+     "t0_ms": 2096219,
+     "text": "You start from Europe."
+    },
+    {
+     "t0_ms": 2096260,
+     "text": "America's for us, which of course the central gravity of the America's for us is, and for"
+    },
+    {
+     "t0_ms": 2101460,
+     "text": "the market is the U.S., that is intrinsically and absolutely unequivocally the largest market"
+    },
+    {
+     "t0_ms": 2109860,
+     "text": "in the world."
+    },
+    {
+     "t0_ms": 2112620,
+     "text": "So I was very explicit about the fact that we are very pleased about pipeline growth"
+    },
+    {
+     "t0_ms": 2119700,
+     "text": "in the Americas, very pleased in terms of an absolute acceleration of pipeline in the"
+    },
+    {
+     "t0_ms": 2126420,
+     "text": "Americas in the third quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2129280,
+   "t1_ms": 2170200,
+   "speaker": "Management",
+   "text": "But the situation is certainly very, very convincing also outside. So I think it's very widespread geographically, though, of course, some markets' starting point is smaller, sometimes very much smaller than the Americas. But that's okay. It's relative growth that matters. We were talking about. The strength in India and the acceleration in India have already come specifically to India, as you were asking, an extremely convincing landscape, an extremely convincing landscape in terms of the combination of the pipeline and our strength in the market.",
+   "parts": [
+    {
+     "t0_ms": 2129280,
+     "text": "But the situation is certainly very, very convincing also outside."
+    },
+    {
+     "t0_ms": 2135140,
+     "text": "So I think it's very widespread geographically, though, of course, some markets' starting"
+    },
+    {
+     "t0_ms": 2141440,
+     "text": "point is smaller, sometimes very much smaller than the Americas."
+    },
+    {
+     "t0_ms": 2144940,
+     "text": "But that's okay."
+    },
+    {
+     "t0_ms": 2146280,
+     "text": "It's relative growth that matters."
+    },
+    {
+     "t0_ms": 2148300,
+     "text": "We were talking about."
+    },
+    {
+     "t0_ms": 2149700,
+     "text": "The strength in India and the acceleration in India have already come specifically to"
+    },
+    {
+     "t0_ms": 2157020,
+     "text": "India, as you were asking, an extremely convincing landscape, an extremely convincing landscape"
+    },
+    {
+     "t0_ms": 2163240,
+     "text": "in terms of the combination of the pipeline and our strength in the market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2170200,
+   "t1_ms": 2183180,
+   "speaker": "Management",
+   "text": "So please don't think that it's only the Americas, but please be convinced with us. That the Americas is an absolutely strong market for us.",
+   "parts": [
+    {
+     "t0_ms": 2170200,
+     "text": "So please don't think that it's only the Americas, but please be convinced with us."
+    },
+    {
+     "t0_ms": 2179700,
+     "text": "That the Americas is an absolutely strong market for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2183180,
+   "t1_ms": 2185840,
+   "speaker": "Analyst",
+   "text": "Appreciate it, Kalar.",
+   "parts": [
+    {
+     "t0_ms": 2183180,
+     "text": "Appreciate it, Kalar."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2185840,
+   "t1_ms": 2193790,
+   "speaker": "Operator",
+   "text": "Your next question comes from Mark Delaney with Goldman Sachs. Yes.",
+   "parts": [
+    {
+     "t0_ms": 2185840,
+     "text": "Your next question comes from Mark Delaney with Goldman Sachs."
+    },
+    {
+     "t0_ms": 2191380,
+     "text": "Yes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2193790,
+   "t1_ms": 2218310,
+   "speaker": "Analyst",
+   "text": "Good morning. Congratulations on the strong results, and I appreciate you taking the question. Gio, I was hoping you could give us a bit more of an update on the 800-volt momentum. I know a number of different products that Vertiv is bringing to market with respect to 800-volt. Can you share a bit more around how that customer momentum is progressing and how impactful 800-volt is? What are the potential 800-volt products may be for revenue in 2027?",
+   "parts": [
+    {
+     "t0_ms": 2193790,
+     "text": "Good morning."
+    },
+    {
+     "t0_ms": 2194790,
+     "text": "Congratulations on the strong results, and I appreciate you taking the question."
+    },
+    {
+     "t0_ms": 2197790,
+     "text": "Gio, I was hoping you could give us a bit more of an update on the 800-volt momentum."
+    },
+    {
+     "t0_ms": 2201790,
+     "text": "I know a number of different products that Vertiv is bringing to market with respect"
+    },
+    {
+     "t0_ms": 2207790,
+     "text": "to 800-volt."
+    },
+    {
+     "t0_ms": 2208790,
+     "text": "Can you share a bit more around how that customer momentum is progressing and how impactful"
+    },
+    {
+     "t0_ms": 2213790,
+     "text": "800-volt is?"
+    },
+    {
+     "t0_ms": 2214310,
+     "text": "What are the potential 800-volt products may be for revenue in 2027?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2218310,
+   "t1_ms": 2261790,
+   "speaker": "Management",
+   "text": "Well, thank you for the question. Certainly a very important one. We were pretty explicit about our roadmap and what we see in the markets when in July we dedicated one page of our earnings deck to the evolution of power infrastructure, including the 800-volt . Remember, we talked about three model configurations. It's probably more complex than that, but from the current infrastructure to the 800-volt DC to the rack and the row all the way to an end-to-end 800-volt DC. I'd say the situation continues to be consistent with that.",
+   "parts": [
+    {
+     "t0_ms": 2218310,
+     "text": "Well, thank you for the question."
+    },
+    {
+     "t0_ms": 2221310,
+     "text": "Certainly a very important one."
+    },
+    {
+     "t0_ms": 2223850,
+     "text": "We were pretty explicit about our roadmap and what we see in the markets when in July"
+    },
+    {
+     "t0_ms": 2229830,
+     "text": "we dedicated one page of our earnings deck to the evolution of power infrastructure,"
+    },
+    {
+     "t0_ms": 2239790,
+     "text": "including the 800-volt ."
+    },
+    {
+     "t0_ms": 2241310,
+     "text": "Remember, we talked about three model configurations."
+    },
+    {
+     "t0_ms": 2243790,
+     "text": "It's probably more complex than that, but from the current infrastructure to the 800-volt"
+    },
+    {
+     "t0_ms": 2250790,
+     "text": "DC to the rack and the row all the way to an end-to-end 800-volt DC."
+    },
+    {
+     "t0_ms": 2257790,
+     "text": "I'd say the situation continues to be consistent with that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2261790,
+   "t1_ms": 2301790,
+   "speaker": "Management",
+   "text": "We are pleased with the direction of travel as Vertiv, and the demand in the market is evolving in the same direction. We have a very strong interaction that we described pretty much three months ago with a, let's say, initial 800-volt to the rack with medium-voltage AC or low-voltage AC with BASC as an intermediate, if you will, configuration when going to the full 800-volt DC. We've been in the validation part as we speak. We've been in the validation part as we speak. We've been in the validation part as we speak.",
+   "parts": [
+    {
+     "t0_ms": 2261790,
+     "text": "We are pleased with the direction of travel as Vertiv, and the demand in the market is"
+    },
+    {
+     "t0_ms": 2270790,
+     "text": "evolving in the same direction."
+    },
+    {
+     "t0_ms": 2272790,
+     "text": "We have a very strong interaction that we described pretty much three months ago with"
+    },
+    {
+     "t0_ms": 2279790,
+     "text": "a, let's say, initial 800-volt to the rack with medium-voltage AC or low-voltage AC"
+    },
+    {
+     "t0_ms": 2286790,
+     "text": "with BASC as an intermediate, if you will, configuration when going to the full 800-volt"
+    },
+    {
+     "t0_ms": 2295790,
+     "text": "DC."
+    },
+    {
+     "t0_ms": 2296790,
+     "text": "We've been in the validation part as we speak."
+    },
+    {
+     "t0_ms": 2299790,
+     "text": "We've been in the validation part as we speak."
+    },
+    {
+     "t0_ms": 2300790,
+     "text": "We've been in the validation part as we speak."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2301790,
+   "t1_ms": 2331790,
+   "speaker": "Management",
+   "text": "We've started to be revenue-generating during 2027, and 2027 being the customer validation phase of the full native 800-volt DC and then the deployment into the market in 28. So pretty much the same picture we saw back then. Pretty pleased about our trajectory, and very consistent with what we shared in May and in July again.",
+   "parts": [
+    {
+     "t0_ms": 2301790,
+     "text": "We've started to be revenue-generating during 2027, and 2027 being the customer validation"
+    },
+    {
+     "t0_ms": 2312790,
+     "text": "phase of the full native 800-volt DC and then the deployment into the market in 28."
+    },
+    {
+     "t0_ms": 2320790,
+     "text": "So pretty much the same picture we saw back then."
+    },
+    {
+     "t0_ms": 2324790,
+     "text": "Pretty pleased about our trajectory, and very consistent with what we shared in May and"
+    },
+    {
+     "t0_ms": 2330790,
+     "text": "in July again."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2331790,
+   "t1_ms": 2340470,
+   "speaker": "Operator",
+   "text": "Your next question comes from Amit Mehrotra with UBS.",
+   "parts": [
+    {
+     "t0_ms": 2331790,
+     "text": "Your next question comes from Amit Mehrotra with UBS."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2342630,
+   "t1_ms": 2380310,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Good morning. I guess I wanted to ask about maybe just overly tactical first. Usually, you see a pretty nice step up in revenue, 3Q to 4Q. The guidance implies sort of more sequentially flat. Obviously, 3Q was much better. So maybe you can just address that. And then as all this capacity is coming online and the pipeline is great and orders are great, is that jump off point in 4Q in terms of organic growth sort of the right way to think about growth in 27? And maybe if you don't want to answer it that precisely,",
+   "parts": [
+    {
+     "t0_ms": 2342630,
+     "text": "Great. Thank you. Good morning. I guess I wanted to ask about maybe just overly tactical first."
+    },
+    {
+     "t0_ms": 2351050,
+     "text": "Usually, you see a pretty nice step up in revenue, 3Q to 4Q. The guidance implies sort of more"
+    },
+    {
+     "t0_ms": 2358910,
+     "text": "sequentially flat. Obviously, 3Q was much better. So maybe you can just address that. And then as"
+    },
+    {
+     "t0_ms": 2365550,
+     "text": "all this capacity is coming online and the pipeline is great and orders are great,"
+    },
+    {
+     "t0_ms": 2370750,
+     "text": "is that jump off point in 4Q in terms of organic growth sort of the right way to think about"
+    },
+    {
+     "t0_ms": 2376090,
+     "text": "growth in 27? And maybe if you don't want to answer it that precisely,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2380850,
+   "t1_ms": 2394670,
+   "speaker": "Analyst",
+   "text": "is there any reason why organic growth doesn't accelerate in 27 in light of capacity and order momentum sort of moving in the right direction? Thanks, Amit. I'll start with the",
+   "parts": [
+    {
+     "t0_ms": 2380850,
+     "text": "is there any reason why organic growth doesn't accelerate in 27 in light of capacity and order"
+    },
+    {
+     "t0_ms": 2387710,
+     "text": "momentum sort of moving in the right direction? Thanks, Amit. I'll start with the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2394670,
+   "t1_ms": 2436630,
+   "speaker": "Management",
+   "text": "question. I think it's a good question. I think it's a good question. I think it's a good question. Second quarter to third quarter kind of delay that kind of raised up third quarter a little bit there. So we had that delay in second quarter of revenue recognition. Came in third quarter, so brought third quarter up a little bit more than would have historically been there. So if you adjust for that 100, 150 million, you're more in a sequential nature that we've seen in the past from the third quarter to fourth quarter number if you look at that per the guide. So I think that a little bit of a normalization there. And again, as you and I have said, as we walk through the things, there's always some prudence in the way that we look at our guide. So our fourth quarter guide would be assessing for that as well. In terms of kind of where does it set us going into",
+   "parts": [
+    {
+     "t0_ms": 2394670,
+     "text": "question. I think it's a good question. I think it's a good question. I think it's a good question."
+    },
+    {
+     "t0_ms": 2395550,
+     "text": "Second quarter to third quarter kind of delay that kind of raised up third quarter a little bit"
+    },
+    {
+     "t0_ms": 2400810,
+     "text": "there. So we had that delay in second quarter of revenue recognition. Came in third quarter,"
+    },
+    {
+     "t0_ms": 2406010,
+     "text": "so brought third quarter up a little bit more than would have historically been there. So if"
+    },
+    {
+     "t0_ms": 2411310,
+     "text": "you adjust for that 100, 150 million, you're more in a sequential nature that we've seen in the past"
+    },
+    {
+     "t0_ms": 2416050,
+     "text": "from the third quarter to fourth quarter number if you look at that per the guide. So I think that"
+    },
+    {
+     "t0_ms": 2420810,
+     "text": "a little bit of a normalization there. And again, as you and I have said, as we walk through the"
+    },
+    {
+     "t0_ms": 2425550,
+     "text": "things, there's always some prudence in the way that we look at our guide. So our fourth quarter"
+    },
+    {
+     "t0_ms": 2430070,
+     "text": "guide would be assessing for that as well. In terms of kind of where does it set us going into"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2436630,
+   "t1_ms": 2466820,
+   "speaker": "Management",
+   "text": "2027, again, we feel good about where we are right now and exiting the year. We won't comment on 2027 of where it's going to go. Just to point back to the fact of pipelines look good. As Gio mentioned, the order book looks good. And we feel confident about our ability to execute given the third quarter and what we have in front of us here in fourth quarter. So I think that's a good thing to look at for the fourth quarter. By the way, Amit, while I got you, I loved your headline today too. Well done.",
+   "parts": [
+    {
+     "t0_ms": 2436630,
+     "text": "2027, again, we feel good about where we are right now and exiting the year. We won't comment on"
+    },
+    {
+     "t0_ms": 2442510,
+     "text": "2027 of where it's going to go. Just to point back to the fact of pipelines look good. As"
+    },
+    {
+     "t0_ms": 2448150,
+     "text": "Gio mentioned, the order book looks good. And we feel confident about our ability to execute given"
+    },
+    {
+     "t0_ms": 2452710,
+     "text": "the third quarter and what we have in front of us here in fourth quarter. So I think that's a good"
+    },
+    {
+     "t0_ms": 2455550,
+     "text": "thing to look at for the fourth quarter."
+    },
+    {
+     "t0_ms": 2459220,
+     "text": "By the way, Amit, while I got you, I loved your headline today too. Well done."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2466820,
+   "t1_ms": 2470820,
+   "speaker": "Analyst",
+   "text": "Thank you, sir. Have a good day, guys. Thank you, Mitt.",
+   "parts": [
+    {
+     "t0_ms": 2466820,
+     "text": "Thank you, sir. Have a good day, guys."
+    },
+    {
+     "t0_ms": 2468820,
+     "text": "Thank you, Mitt."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2470820,
+   "t1_ms": 2478660,
+   "speaker": "Operator",
+   "text": "Your next question comes from Toby O'Quara with Morgan Stanley.",
+   "parts": [
+    {
+     "t0_ms": 2470820,
+     "text": "Your next question comes from Toby O'Quara with Morgan Stanley."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2478660,
+   "t1_ms": 2501660,
+   "speaker": "Analyst",
+   "text": "Thank you for the question. I wanted to talk about the inventory dynamic into the quarter. This is a pretty sizable ramp up over 100% year over year. Is that kind of just a reset of your normal market? Is that more operating positioning? Or is that part of transitional phase as you start to readjust supply chains to support modular?",
+   "parts": [
+    {
+     "t0_ms": 2478660,
+     "text": "Thank you for the question. I wanted to talk about the inventory dynamic into the quarter."
+    },
+    {
+     "t0_ms": 2484660,
+     "text": "This is a pretty sizable ramp up over 100% year over year. Is that kind of just a reset of your normal"
+    },
+    {
+     "t0_ms": 2490660,
+     "text": "market?"
+    },
+    {
+     "t0_ms": 2491660,
+     "text": "Is that more operating positioning? Or is that part of transitional phase as you start to readjust supply"
+    },
+    {
+     "t0_ms": 2498660,
+     "text": "chains to support modular?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2501660,
+   "t1_ms": 2532700,
+   "speaker": "Management",
+   "text": "I think it's a little bit of both. It's definitely the ramp to support the growth that we have and ensuring that we have the right level of resiliency in the factory as well as we talked about last quarter. So you're getting a kind of a feed through on both of those, Toby. That's causing that ramp in inventory. So it's definitely to support the go forward growth. But it's also to ensure that we have the right level of resiliency as we get more into this pattern of delivering the projects like a product level business.",
+   "parts": [
+    {
+     "t0_ms": 2501660,
+     "text": "I think it's a little bit of both. It's definitely the ramp to support the growth that we have and ensuring that we have the right level of resiliency in the factory as well as we talked about last quarter. So you're getting a kind of a feed through on both of those, Toby."
+    },
+    {
+     "t0_ms": 2515660,
+     "text": "That's causing that ramp in inventory. So it's definitely to support the go forward growth."
+    },
+    {
+     "t0_ms": 2520660,
+     "text": "But it's also to ensure that we have the right level of resiliency as we get more into this pattern of delivering the projects like a product level business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2532700,
+   "t1_ms": 2547700,
+   "speaker": "Analyst",
+   "text": "Thank you. And then if I could follow up on any commentary on the mix of liquid cooling, have you started to see that take greater share of your order book and revenues? And how should we think about the potential margin impact there?",
+   "parts": [
+    {
+     "t0_ms": 2532700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2533700,
+     "text": "And then if I could follow up on any commentary on the mix of liquid cooling, have you started to see that take greater share of your order book and revenues? And how should we think about the potential margin impact there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2547700,
+   "t1_ms": 2580700,
+   "speaker": "Management",
+   "text": "We will not be specific. We've never been specific. We've been in other occasion vocals about our found, let's say, satisfaction with the direction of travel, if you will, of our liquid cooling business. So not only liquid cooling is becoming a much, taking a much bigger share of the, let's say, first level heat extraction. So the mix is definitely moving towards liquid cooling in the market.",
+   "parts": [
+    {
+     "t0_ms": 2547700,
+     "text": "We will not be specific."
+    },
+    {
+     "t0_ms": 2549700,
+     "text": "We've never been specific."
+    },
+    {
+     "t0_ms": 2551700,
+     "text": "We've been in other occasion vocals about our found, let's say, satisfaction with the direction of travel, if you will, of our liquid cooling business."
+    },
+    {
+     "t0_ms": 2565700,
+     "text": "So not only liquid cooling is becoming a much, taking a much bigger share of the, let's say, first level heat extraction."
+    },
+    {
+     "t0_ms": 2575700,
+     "text": "So the mix is definitely moving towards liquid cooling in the market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2580700,
+   "t1_ms": 2623700,
+   "speaker": "Management",
+   "text": "And we're also very, very satisfied about our role in the industry and our win rates and, that I say, leadership in this part of the business. It doesn't mean that air cooling is going away, as we said several times. It is a small portion, a small portion of, let's say, the total heat extracted from a high density rack. There's still a lot of heat. There's still a lot of air being extracted. But I'd say that as this evolves, what I think is extremely, becomes even more important, prominent, is the system level.",
+   "parts": [
+    {
+     "t0_ms": 2580700,
+     "text": "And we're also very, very satisfied about our role in the industry and our win rates and, that I say, leadership in this part of the business."
+    },
+    {
+     "t0_ms": 2594700,
+     "text": "It doesn't mean that air cooling is going away, as we said several times."
+    },
+    {
+     "t0_ms": 2598700,
+     "text": "It is a small portion, a small portion of, let's say, the total heat extracted from a high density rack."
+    },
+    {
+     "t0_ms": 2609700,
+     "text": "There's still a lot of heat."
+    },
+    {
+     "t0_ms": 2610700,
+     "text": "There's still a lot of air being extracted."
+    },
+    {
+     "t0_ms": 2612700,
+     "text": "But I'd say that as this evolves, what I think is extremely, becomes even more important, prominent, is the system level."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2623700,
+   "t1_ms": 2663700,
+   "speaker": "Management",
+   "text": "So the coordination between the liquid cooling, the air cooling, and the heat rejection. So the power, the total thermal chain system. You were talking about, well, it is, what direction is it going to go? Is it mixing us from a margin standpoint? I'd say we're pretty, we're pretty pleased and fully factored in. Of course, the numbers that you see and the numbers that we guide for the rest of the year. But we feel good about liquid cooling across the board, including the service attached side.",
+   "parts": [
+    {
+     "t0_ms": 2623700,
+     "text": "So the coordination between the liquid cooling, the air cooling, and the heat rejection."
+    },
+    {
+     "t0_ms": 2628700,
+     "text": "So the power, the total thermal chain system."
+    },
+    {
+     "t0_ms": 2635700,
+     "text": "You were talking about, well, it is, what direction is it going to go?"
+    },
+    {
+     "t0_ms": 2639700,
+     "text": "Is it mixing us from a margin standpoint?"
+    },
+    {
+     "t0_ms": 2643700,
+     "text": "I'd say we're pretty, we're pretty pleased and fully factored in."
+    },
+    {
+     "t0_ms": 2650700,
+     "text": "Of course, the numbers that you see and the numbers that we guide for the rest of the year."
+    },
+    {
+     "t0_ms": 2655700,
+     "text": "But we feel good about liquid cooling across the board, including the service attached side."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2663700,
+   "t1_ms": 2673150,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from Nigel Koh with Wolf Research.",
+   "parts": [
+    {
+     "t0_ms": 2663700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2667490,
+     "text": "Your next question comes from Nigel Koh with Wolf Research."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2673150,
+   "t1_ms": 2715010,
+   "speaker": "Analyst",
+   "text": "Thanks. Good morning, everyone. Nigel, maybe talk about, there's obviously a lot of noise around your internal supply chain. Maybe just talk about, you know, what kind of, what measures you took to enable, obviously, the incredible ramp up, you know, kind of in the third quarter. And then maybe kind of touch on your degree of satisfaction right now and where you are right now and where you can improve. And then just that leads into my question around the higher of, you know, the higher the price. You know, I know you're the director of the new EVP, Manufacturing Supply Chain. What are you hoping that Mike brings to the organization and any problems that you're hoping he can solve?",
+   "parts": [
+    {
+     "t0_ms": 2673150,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2676010,
+     "text": "Good morning, everyone."
+    },
+    {
+     "t0_ms": 2677010,
+     "text": "Nigel, maybe talk about, there's obviously a lot of noise around your internal supply chain."
+    },
+    {
+     "t0_ms": 2684010,
+     "text": "Maybe just talk about, you know, what kind of, what measures you took to enable, obviously, the incredible ramp up, you know, kind of in the third quarter."
+    },
+    {
+     "t0_ms": 2693010,
+     "text": "And then maybe kind of touch on your degree of satisfaction right now and where you are right now and where you can improve."
+    },
+    {
+     "t0_ms": 2701010,
+     "text": "And then just that leads into my question around the higher of, you know, the higher the price."
+    },
+    {
+     "t0_ms": 2704010,
+     "text": "You know, I know you're the director of the new EVP, Manufacturing Supply Chain."
+    },
+    {
+     "t0_ms": 2709010,
+     "text": "What are you hoping that Mike brings to the organization and any problems that you're hoping he can solve?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2715010,
+   "t1_ms": 2758910,
+   "speaker": "Management",
+   "text": "Thanks. When it comes to dynamics, Craig explained a little bit the dynamics in terms of revenue recognition, Q2, Q3, et cetera. We were very transparent and explicit about the fact that what we're doing, What we are doing in terms of bringing it into a factory, incredible complexity that you have on site, requires building processes, building, maturing a modus operandi that is first to the market. And I would say unique still in our industry. We progressed well.",
+   "parts": [
+    {
+     "t0_ms": 2715010,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2718010,
+     "text": "When it comes to dynamics, Craig explained a little bit the dynamics in terms of revenue recognition, Q2, Q3, et cetera."
+    },
+    {
+     "t0_ms": 2726010,
+     "text": "We were very transparent and explicit about the fact that what we're doing,"
+    },
+    {
+     "t0_ms": 2733010,
+     "text": "What we are doing in terms of bringing it into a factory,"
+    },
+    {
+     "t0_ms": 2737810,
+     "text": "incredible complexity that you have on site,"
+    },
+    {
+     "t0_ms": 2741170,
+     "text": "requires building processes,"
+    },
+    {
+     "t0_ms": 2746070,
+     "text": "building, maturing a modus operandi"
+    },
+    {
+     "t0_ms": 2748930,
+     "text": "that is first to the market."
+    },
+    {
+     "t0_ms": 2751870,
+     "text": "And I would say unique still in our industry."
+    },
+    {
+     "t0_ms": 2756270,
+     "text": "We progressed well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2758910,
+   "t1_ms": 2802930,
+   "speaker": "Management",
+   "text": "I'm pleased with the progress on our learning curve that is a combination of how we execute and how we really architect the entire system, how it works. So pretty pleased about that. Are we done? Not yet. But not in terms of feeling nervous about the future, but feeling fully kind of satisfied about having developed the perfect and having matured across the, perfect process. That is something that will continue to evolve. And that is something that will continue to create a competitive advantage for us. I think we are ahead in the industry",
+   "parts": [
+    {
+     "t0_ms": 2758910,
+     "text": "I'm pleased with the progress on our learning curve"
+    },
+    {
+     "t0_ms": 2763070,
+     "text": "that is a combination of how we execute"
+    },
+    {
+     "t0_ms": 2765450,
+     "text": "and how we really architect the entire system,"
+    },
+    {
+     "t0_ms": 2768950,
+     "text": "how it works."
+    },
+    {
+     "t0_ms": 2770170,
+     "text": "So pretty pleased about that."
+    },
+    {
+     "t0_ms": 2771810,
+     "text": "Are we done?"
+    },
+    {
+     "t0_ms": 2773350,
+     "text": "Not yet."
+    },
+    {
+     "t0_ms": 2774250,
+     "text": "But not in terms of feeling nervous about the future,"
+    },
+    {
+     "t0_ms": 2779410,
+     "text": "but feeling fully kind of satisfied"
+    },
+    {
+     "t0_ms": 2783630,
+     "text": "about having developed the perfect"
+    },
+    {
+     "t0_ms": 2786630,
+     "text": "and having matured across the,"
+    },
+    {
+     "t0_ms": 2788970,
+     "text": "perfect process."
+    },
+    {
+     "t0_ms": 2790450,
+     "text": "That is something that will continue to evolve."
+    },
+    {
+     "t0_ms": 2793130,
+     "text": "And that is something that will continue to create"
+    },
+    {
+     "t0_ms": 2797050,
+     "text": "a competitive advantage for us."
+    },
+    {
+     "t0_ms": 2799930,
+     "text": "I think we are ahead in the industry"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2802930,
+   "t1_ms": 2846470,
+   "speaker": "Management",
+   "text": "and still work to do. But pleased with the direction we're going. Your question about Mike and as an opportunity to welcome again Mike and a big thank you for what everything that Anders, have done. We continue to expand. We continue to take the operational execution to the next level. So there's nothing specific that I would say, that's the one thing that will be addressed. This is a very convincing and broad reaching evolution towards operational excellence, towards a fully mature,",
+   "parts": [
+    {
+     "t0_ms": 2802930,
+     "text": "and still work to do."
+    },
+    {
+     "t0_ms": 2806730,
+     "text": "But pleased with the direction we're going."
+    },
+    {
+     "t0_ms": 2809070,
+     "text": "Your question about Mike"
+    },
+    {
+     "t0_ms": 2812370,
+     "text": "and as an opportunity to welcome again Mike"
+    },
+    {
+     "t0_ms": 2814930,
+     "text": "and a big thank you for what everything that Anders,"
+    },
+    {
+     "t0_ms": 2818910,
+     "text": "have done."
+    },
+    {
+     "t0_ms": 2819790,
+     "text": "We continue to expand."
+    },
+    {
+     "t0_ms": 2822050,
+     "text": "We continue to take the operational execution"
+    },
+    {
+     "t0_ms": 2825790,
+     "text": "to the next level."
+    },
+    {
+     "t0_ms": 2828290,
+     "text": "So there's nothing specific that I would say,"
+    },
+    {
+     "t0_ms": 2830470,
+     "text": "that's the one thing that will be addressed."
+    },
+    {
+     "t0_ms": 2834030,
+     "text": "This is a very convincing"
+    },
+    {
+     "t0_ms": 2837250,
+     "text": "and broad reaching evolution"
+    },
+    {
+     "t0_ms": 2841390,
+     "text": "towards operational excellence,"
+    },
+    {
+     "t0_ms": 2843910,
+     "text": "towards a fully mature,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2847510,
+   "t1_ms": 2854730,
+   "speaker": "Management",
+   "text": "vertigo operating system, and that's the direction Mike will continue to drive towards. And he is extremely qualified for that.",
+   "parts": [
+    {
+     "t0_ms": 2847510,
+     "text": "vertigo operating system,"
+    },
+    {
+     "t0_ms": 2848910,
+     "text": "and that's the direction Mike will continue to drive towards."
+    },
+    {
+     "t0_ms": 2852470,
+     "text": "And he is extremely qualified for that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2860680,
+   "t1_ms": 2864720,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Nicole DeBlaise with Deutsche Bank.",
+   "parts": [
+    {
+     "t0_ms": 2860680,
+     "text": "Your next question comes from the line of Nicole DeBlaise"
+    },
+    {
+     "t0_ms": 2863720,
+     "text": "with Deutsche Bank."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2866770,
+   "t1_ms": 2893190,
+   "speaker": "Analyst",
+   "text": "Yeah, thank you. Good morning, guys. Good morning. Hello, Nicole. Gio, you highlighted a number of times some of the pacing factors, power availability, permitting, moratoriums, et cetera. Just curious, like if you look from a higher level of like how the cadence of your shipments is coming together and when customers are asking for shipments, are you seeing any evidence of data center construction projects pushing to the right because of these pacing items?",
+   "parts": [
+    {
+     "t0_ms": 2866770,
+     "text": "Yeah, thank you."
+    },
+    {
+     "t0_ms": 2867350,
+     "text": "Good morning, guys."
+    },
+    {
+     "t0_ms": 2868770,
+     "text": "Good morning."
+    },
+    {
+     "t0_ms": 2869270,
+     "text": "Hello, Nicole."
+    },
+    {
+     "t0_ms": 2871350,
+     "text": "Gio, you highlighted a number of times"
+    },
+    {
+     "t0_ms": 2873070,
+     "text": "some of the pacing factors,"
+    },
+    {
+     "t0_ms": 2874590,
+     "text": "power availability, permitting, moratoriums, et cetera."
+    },
+    {
+     "t0_ms": 2878470,
+     "text": "Just curious, like if you look from a higher level"
+    },
+    {
+     "t0_ms": 2880730,
+     "text": "of like how the cadence of your shipments is coming together"
+    },
+    {
+     "t0_ms": 2884270,
+     "text": "and when customers are asking for shipments,"
+    },
+    {
+     "t0_ms": 2886670,
+     "text": "are you seeing any evidence"
+    },
+    {
+     "t0_ms": 2888030,
+     "text": "of data center construction projects"
+    },
+    {
+     "t0_ms": 2890690,
+     "text": "pushing to the right because of these pacing items?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2895650,
+   "t1_ms": 2940010,
+   "speaker": "Management",
+   "text": "What we see in terms of movements at project level is nothing out of the ordinary from what we have seen in the industry over the years. So it's a construction activity. So sometimes there are slippages. There are complexities on site. Some of the complexity, of course, we are addressing changing the name of the gain with our converged infrastructure. But we do not see those dynamics translating into the meaningful or let's say material out of the ordinary shifts. Clearly, customers and the customers we work with are pretty savvy.",
+   "parts": [
+    {
+     "t0_ms": 2895650,
+     "text": "What we see in terms of movements at project level"
+    },
+    {
+     "t0_ms": 2901050,
+     "text": "is nothing out of the ordinary"
+    },
+    {
+     "t0_ms": 2904590,
+     "text": "from what we have seen in the industry over the years."
+    },
+    {
+     "t0_ms": 2907730,
+     "text": "So it's a construction activity."
+    },
+    {
+     "t0_ms": 2910050,
+     "text": "So sometimes there are slippages."
+    },
+    {
+     "t0_ms": 2912870,
+     "text": "There are complexities on site."
+    },
+    {
+     "t0_ms": 2914070,
+     "text": "Some of the complexity, of course,"
+    },
+    {
+     "t0_ms": 2915690,
+     "text": "we are addressing changing the name of the gain"
+    },
+    {
+     "t0_ms": 2919070,
+     "text": "with our converged infrastructure."
+    },
+    {
+     "t0_ms": 2921850,
+     "text": "But we do not see those dynamics translating into the meaningful"
+    },
+    {
+     "t0_ms": 2930390,
+     "text": "or let's say material out of the ordinary shifts."
+    },
+    {
+     "t0_ms": 2935930,
+     "text": "Clearly, customers and the customers we work"
+    },
+    {
+     "t0_ms": 2938850,
+     "text": "with are pretty savvy."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2940010,
+   "t1_ms": 2950690,
+   "speaker": "Management",
+   "text": "And I know that when they start a project, they start from the beginning. They start from the beginning. They start from the beginning. And they're not secure material and technology for that project when they know that the project can be taken to completion.",
+   "parts": [
+    {
+     "t0_ms": 2940010,
+     "text": "And I know that when they start a project,"
+    },
+    {
+     "t0_ms": 2943510,
+     "text": "they start from the beginning."
+    },
+    {
+     "t0_ms": 2943950,
+     "text": "They start from the beginning."
+    },
+    {
+     "t0_ms": 2944050,
+     "text": "They start from the beginning."
+    },
+    {
+     "t0_ms": 2944550,
+     "text": "And they're not secure material and technology"
+    },
+    {
+     "t0_ms": 2945750,
+     "text": "for that project when they know"
+    },
+    {
+     "t0_ms": 2947450,
+     "text": "that the project can be taken to completion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2950690,
+   "t1_ms": 2958850,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from the line of Luke Junk with Baird.",
+   "parts": [
+    {
+     "t0_ms": 2950690,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2953030,
+     "text": "Your next question comes"
+    },
+    {
+     "t0_ms": 2956810,
+     "text": "from the line of Luke Junk with Baird."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2958850,
+   "t1_ms": 2987790,
+   "speaker": "Analyst",
+   "text": "Good morning. Thanks for taking the question. Do you have maybe a little bigger picture question? I think you had previously said you were planning portfolio launches for 800 volt in the second half of this year. Can you just comment on where that stands from an industrialization standpoint right now and then secondarily, maybe, if there's any color you could share on the scope of that opportunity in terms of your relationship with chip makers versus hyperscalers and maybe where you're most engaged right now or even what's animating what might be going into backlog? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2958850,
+     "text": "Good morning."
+    },
+    {
+     "t0_ms": 2960750,
+     "text": "Thanks for taking the question."
+    },
+    {
+     "t0_ms": 2961790,
+     "text": "Do you have maybe a little bigger picture question?"
+    },
+    {
+     "t0_ms": 2963950,
+     "text": "I think you had previously said you were planning portfolio launches"
+    },
+    {
+     "t0_ms": 2967130,
+     "text": "for 800 volt in the second half of this year."
+    },
+    {
+     "t0_ms": 2969170,
+     "text": "Can you just comment on where that stands"
+    },
+    {
+     "t0_ms": 2970730,
+     "text": "from an industrialization standpoint right now"
+    },
+    {
+     "t0_ms": 2973530,
+     "text": "and then secondarily, maybe,"
+    },
+    {
+     "t0_ms": 2975630,
+     "text": "if there's any color you could share on the scope of that opportunity"
+    },
+    {
+     "t0_ms": 2978850,
+     "text": "in terms of your relationship with chip makers versus hyperscalers"
+    },
+    {
+     "t0_ms": 2982130,
+     "text": "and maybe where you're most engaged right now"
+    },
+    {
+     "t0_ms": 2984730,
+     "text": "or even what's animating what might be going into backlog?"
+    },
+    {
+     "t0_ms": 2987290,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2987790,
+   "t1_ms": 3030170,
+   "speaker": "Management",
+   "text": "As I was saying, we're pleased with the progress right now. When it comes to the way we think about product launches today, we cannot think in terms of product launches separate from, having the right capacity, dedicated produce line, dedicated supply chains with that. So, that's an increasing sorry. in, it's part of, of a new product and new technology launch. So certainly at 800 volt DC in its various guises as I explain earlier, when I answered to previous question,",
+   "parts": [
+    {
+     "t0_ms": 2987790,
+     "text": "As I was saying, we're pleased with the progress right now."
+    },
+    {
+     "t0_ms": 2994870,
+     "text": "When it comes to the way we think about product launches today,"
+    },
+    {
+     "t0_ms": 2999570,
+     "text": "we cannot think in terms of product launches separate from,"
+    },
+    {
+     "t0_ms": 3005510,
+     "text": "having the right capacity, dedicated produce line,"
+    },
+    {
+     "t0_ms": 3009310,
+     "text": "dedicated supply chains with that."
+    },
+    {
+     "t0_ms": 3011010,
+     "text": "So, that's an increasing sorry."
+    },
+    {
+     "t0_ms": 3012950,
+     "text": "in, it's part of, of a new product and new technology launch."
+    },
+    {
+     "t0_ms": 3019890,
+     "text": "So certainly at 800 volt DC"
+    },
+    {
+     "t0_ms": 3023370,
+     "text": "in its various guises as I explain earlier,"
+    },
+    {
+     "t0_ms": 3027290,
+     "text": "when I answered to previous question,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3030170,
+   "t1_ms": 3073230,
+   "speaker": "Management",
+   "text": "be it at 800 volt DC to the rack or the pod or be in the entire\u5f1f\uc774\ub9ac, you know, inner pit water similar to it. Yes, units, right? Thing that came from the right capacity, dedicated production line dedicated supply chains, without, so that can increase it, sorry in part of of a new product and new technology launch. So certainly, 800 volt DC in its various guises as I explained earlier when answering to a previous question, being a the raki, the Raki, or the pod or it be The entire 800-volt DC has no exception to that. If anything, it's certainly, let's say, a pinnacle of where we have to match supply chain footprint, capacity, and technology all at the same time. And that's what we're doing. So the industrialization is an intrinsic part of the product launch. When it comes to who are we working with on the customer and customer validation standpoint, it's really a combination of customers, either hyperscalers and partners on the silicon side. But I will not be much more specific about that.",
+   "parts": [
+    {
+     "t0_ms": 3030170,
+     "text": "be it at 800 volt DC to the rack or the pod or be"
+    },
+    {
+     "t0_ms": 3034510,
+     "text": "in the entire\u5f1f\uc774\ub9ac, you know, inner pit water similar to it."
+    },
+    {
+     "t0_ms": 3035230,
+     "text": "Yes, units, right?"
+    },
+    {
+     "t0_ms": 3035390,
+     "text": "Thing that came from the right capacity, dedicated production line dedicated supply chains, without, so that can increase it, sorry in part of of a new product and new technology launch. So certainly, 800 volt DC in its various guises as I explained earlier when answering to a previous question, being a the raki, the Raki, or the pod or it be"
+    },
+    {
+     "t0_ms": 3035510,
+     "text": "The entire 800-volt DC has no exception to that."
+    },
+    {
+     "t0_ms": 3038550,
+     "text": "If anything, it's certainly, let's say, a pinnacle of where we have to match supply chain footprint, capacity, and technology all at the same time."
+    },
+    {
+     "t0_ms": 3049330,
+     "text": "And that's what we're doing."
+    },
+    {
+     "t0_ms": 3051450,
+     "text": "So the industrialization is an intrinsic part of the product launch."
+    },
+    {
+     "t0_ms": 3055230,
+     "text": "When it comes to who are we working with on the customer and customer validation standpoint, it's really a combination of customers, either hyperscalers and partners on the silicon side."
+    },
+    {
+     "t0_ms": 3070770,
+     "text": "But I will not be much more specific about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3073550,
+   "t1_ms": 3076150,
+   "speaker": "Management",
+   "text": "Understood. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3073550,
+     "text": "Understood. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3078420,
+   "t1_ms": 3082520,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Ananda Barua with Loop Capital.",
+   "parts": [
+    {
+     "t0_ms": 3078420,
+     "text": "Your next question comes from the line of Ananda Barua with Loop Capital."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3084760,
+   "t1_ms": 3129700,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks, guys. Thanks for taking the question. Really appreciate it. Gio. I would just love to get your thoughts on the DSX pod that NVIDIA announced last week, which is intended to, as you well know because you're partners, speed up, speed up, you know, kind of time to stand up. And they also have this broader, as you're aware, DSX AI factory platform. If that gains any real momentum, does that help you guys faster to revenue? Or is it more? I feel like the data center takes sort of a set amount of time to set up. And it's more time to first token for them, but not necessarily an impact to you.",
+   "parts": [
+    {
+     "t0_ms": 3084760,
+     "text": "Yeah, thanks, guys."
+    },
+    {
+     "t0_ms": 3085680,
+     "text": "Thanks for taking the question."
+    },
+    {
+     "t0_ms": 3087160,
+     "text": "Really appreciate it."
+    },
+    {
+     "t0_ms": 3089000,
+     "text": "Gio."
+    },
+    {
+     "t0_ms": 3089680,
+     "text": "I would just love to get your thoughts on the DSX pod that NVIDIA announced last week, which is intended to, as you well know because you're partners, speed up, speed up, you know, kind of time to stand up."
+    },
+    {
+     "t0_ms": 3104220,
+     "text": "And they also have this broader, as you're aware, DSX AI factory platform."
+    },
+    {
+     "t0_ms": 3108920,
+     "text": "If that gains any real momentum, does that help you guys faster to revenue?"
+    },
+    {
+     "t0_ms": 3118040,
+     "text": "Or is it more?"
+    },
+    {
+     "t0_ms": 3119680,
+     "text": "I feel like the data center takes sort of a set amount of time to set up."
+    },
+    {
+     "t0_ms": 3124080,
+     "text": "And it's more time to first token for them, but not necessarily an impact to you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3129800,
+   "t1_ms": 3135540,
+   "speaker": "Analyst",
+   "text": "But just wondering if it can increase your velocity of order to revenue. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3129800,
+     "text": "But just wondering if it can increase your velocity of order to revenue."
+    },
+    {
+     "t0_ms": 3135440,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3136220,
+   "t1_ms": 3180760,
+   "speaker": "Management",
+   "text": "Well, clearly very much involved in everything DSX, be it the DSX pod or the broader DSX AI factory data center design. Very, very involved. And that's public information, as we know. As you correctly say, the fundamental driver is time to token. And the value, as I mentioned in one of the early slides, the value can be billions of dollars for our customers. So clearly there is an acceleration up, very strong appetite for acceleration across the industry. And that's the value that we're looking for in the entire industry.",
+   "parts": [
+    {
+     "t0_ms": 3136220,
+     "text": "Well, clearly very much involved in everything DSX, be it the DSX pod or the broader DSX AI factory data center design."
+    },
+    {
+     "t0_ms": 3149680,
+     "text": "Very, very involved."
+    },
+    {
+     "t0_ms": 3151360,
+     "text": "And that's public information, as we know."
+    },
+    {
+     "t0_ms": 3154420,
+     "text": "As you correctly say, the fundamental driver is time to token."
+    },
+    {
+     "t0_ms": 3160200,
+     "text": "And the value, as I mentioned in one of the early slides, the value can be billions of dollars for our customers."
+    },
+    {
+     "t0_ms": 3172020,
+     "text": "So clearly there is an acceleration up, very strong appetite for acceleration across the industry."
+    },
+    {
+     "t0_ms": 3179680,
+     "text": "And that's the value that we're looking for in the entire industry."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3181280,
+   "t1_ms": 3221920,
+   "speaker": "Management",
+   "text": "We were explicit and we've been very explicit about our converged infrastructure, modular converged infrastructure, where you have reference designs that then gets configured more and more, as I mentioned, using simulation and digital twin to compress not only the deployment time, but also the design time. So we do not design snowflakes. But we go about deploying things that have already been engineered and are just tailored on a specific data center. So what we're doing with a converged infrastructure, one core smart run,",
+   "parts": [
+    {
+     "t0_ms": 3181280,
+     "text": "We were explicit and we've been very explicit about our converged infrastructure, modular converged infrastructure,"
+    },
+    {
+     "t0_ms": 3189920,
+     "text": "where you have reference designs that then gets configured more and more, as I mentioned,"
+    },
+    {
+     "t0_ms": 3198180,
+     "text": "using simulation and digital twin to compress not only the deployment time, but also the design time."
+    },
+    {
+     "t0_ms": 3206660,
+     "text": "So we do not design snowflakes."
+    },
+    {
+     "t0_ms": 3209680,
+     "text": "But we go about deploying things that have already been engineered and are just tailored on a specific data center."
+    },
+    {
+     "t0_ms": 3217360,
+     "text": "So what we're doing with a converged infrastructure, one core smart run,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3222640,
+   "t1_ms": 3260760,
+   "speaker": "Management",
+   "text": "and what we are doing together with NVIDIA on the DSX, be the pod or the broader, is exactly going in the same direction. So we share that ambition. We share that vision. And we're going to continue to do that. And we're going to continue to do that. And, you know, I was talking about us accelerating the learning curve of being operationally excellent in everything, execution of those complex, let's say, delivery processes. That is exactly going into the direction of creating that competitive advantage.",
+   "parts": [
+    {
+     "t0_ms": 3222640,
+     "text": "and what we are doing together with NVIDIA on the DSX, be the pod or the broader, is exactly going in the same direction."
+    },
+    {
+     "t0_ms": 3235540,
+     "text": "So we share that ambition."
+    },
+    {
+     "t0_ms": 3237580,
+     "text": "We share that vision."
+    },
+    {
+     "t0_ms": 3239120,
+     "text": "And we're going to continue to do that."
+    },
+    {
+     "t0_ms": 3239400,
+     "text": "And we're going to continue to do that."
+    },
+    {
+     "t0_ms": 3239680,
+     "text": "And, you know, I was talking about us accelerating the learning curve of being operationally excellent in everything,"
+    },
+    {
+     "t0_ms": 3249240,
+     "text": "execution of those complex, let's say, delivery processes."
+    },
+    {
+     "t0_ms": 3256240,
+     "text": "That is exactly going into the direction of creating that competitive advantage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3261660,
+   "t1_ms": 3262300,
+   "speaker": "Analyst",
+   "text": "Acceleration?",
+   "parts": [
+    {
+     "t0_ms": 3261660,
+     "text": "Acceleration?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3262440,
+   "t1_ms": 3280880,
+   "speaker": "Management",
+   "text": "Well, certainly. We believe that this will continue to expand our \u2013 goes in the direction of us expanding. So, we are now in a situation where we're just at the very core market share, and certainly works very well as a very strong technology, pool-through vehicles for us.",
+   "parts": [
+    {
+     "t0_ms": 3262440,
+     "text": "Well, certainly."
+    },
+    {
+     "t0_ms": 3263700,
+     "text": "We believe that this will continue to expand our \u2013 goes in the direction of us expanding."
+    },
+    {
+     "t0_ms": 3269340,
+     "text": "So, we are now in a situation where we're just at the very core market share, and certainly works very well as a very strong technology, pool-through vehicles for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3282770,
+   "t1_ms": 3285990,
+   "speaker": "Analyst",
+   "text": "That's really great context. I really appreciate it. Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 3282770,
+     "text": "That's really great context."
+    },
+    {
+     "t0_ms": 3284390,
+     "text": "I really appreciate it."
+    },
+    {
+     "t0_ms": 3285310,
+     "text": "Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3285990,
+   "t1_ms": 3292230,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from Varun Govindaraj with Bernstein.",
+   "parts": [
+    {
+     "t0_ms": 3285990,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3288890,
+     "text": "Your next question comes from Varun Govindaraj with Bernstein."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3294230,
+   "t1_ms": 3330490,
+   "speaker": "Management",
+   "text": "Good morning, everyone. Congratulations on the strong quarter. And thank you for the question. I had a quick question on orders slash backlogs. Do you continue to amazed by the large number of markets that you've worked in? Do you continue to amazed by the large number of markets that you've worked in? continue to see customers essentially widening the aperture to which they're willing to put in orders for? I mean, is there another way? Are they just placing orders further down the timeline? And is that having any impact on the backlog? Because in the past, you've said 12 to 18 months. Is that still the range or has it shifted around a little bit? Thank you. Well, thank you for the question, Ian. It is an important question for us and it's around",
+   "parts": [
+    {
+     "t0_ms": 3294230,
+     "text": "Good morning, everyone."
+    },
+    {
+     "t0_ms": 3295030,
+     "text": "Congratulations on the strong quarter."
+    },
+    {
+     "t0_ms": 3296530,
+     "text": "And thank you for the question."
+    },
+    {
+     "t0_ms": 3298570,
+     "text": "I had a quick question on orders slash backlogs."
+    },
+    {
+     "t0_ms": 3301670,
+     "text": "Do you continue to amazed by the large number of markets that you've worked in?"
+    },
+    {
+     "t0_ms": 3301970,
+     "text": "Do you continue to amazed by the large number of markets that you've worked in?"
+    },
+    {
+     "t0_ms": 3302110,
+     "text": "continue to see customers essentially widening the aperture to which they're willing to put in"
+    },
+    {
+     "t0_ms": 3307330,
+     "text": "orders for? I mean, is there another way? Are they just placing orders further down the timeline?"
+    },
+    {
+     "t0_ms": 3312850,
+     "text": "And is that having any impact on the backlog? Because in the past, you've said 12 to 18 months."
+    },
+    {
+     "t0_ms": 3317450,
+     "text": "Is that still the range or has it shifted around a little bit? Thank you."
+    },
+    {
+     "t0_ms": 3321770,
+     "text": "Well, thank you for the question, Ian. It is an important question for us and it's around"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3330490,
+   "t1_ms": 3368770,
+   "speaker": "Management",
+   "text": "what is backlog coverage here. The dynamics of orders in terms of how far out orders are placed has not changed dramatically. I would say not changed a lot quarter to quarter in the last few quarters. We're talking about that 12, 18 months and can be very, very much true right now. And that's certainly one of the aspects that we... I think we've analyzed a lot. Clearly, as you all very well remember, we are very strict in what we",
+   "parts": [
+    {
+     "t0_ms": 3330490,
+     "text": "what is backlog coverage here. The dynamics of orders in terms of how far out orders are placed"
+    },
+    {
+     "t0_ms": 3344150,
+     "text": "has not changed dramatically. I would say not changed a lot quarter to quarter in the last few"
+    },
+    {
+     "t0_ms": 3350830,
+     "text": "quarters. We're talking about that 12, 18 months and can be very, very much true right now. And"
+    },
+    {
+     "t0_ms": 3357350,
+     "text": "that's certainly one of the aspects that we..."
+    },
+    {
+     "t0_ms": 3360490,
+     "text": "I think we've analyzed a lot. Clearly, as you all very well remember, we are very strict in what we"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3368770,
+   "t1_ms": 3396730,
+   "speaker": "Management",
+   "text": "call a backlog. We don't call a capacity agreement backlog. We only call backlog what is squarely a purchase order. So, no, I would say the shape of the backlog has not changed dramatically, of course. Orders are very strong news. We were saying. So, you can imagine that reflect in the outbacks. Understood. Thank you, Gio.",
+   "parts": [
+    {
+     "t0_ms": 3368770,
+     "text": "call a backlog. We don't call a capacity agreement backlog. We only call backlog what is squarely a"
+    },
+    {
+     "t0_ms": 3376450,
+     "text": "purchase order. So, no, I would say the shape of the backlog has not changed dramatically, of course."
+    },
+    {
+     "t0_ms": 3387190,
+     "text": "Orders are very strong news."
+    },
+    {
+     "t0_ms": 3390490,
+     "text": "We were saying. So, you can imagine that reflect in the outbacks."
+    },
+    {
+     "t0_ms": 3395730,
+     "text": "Understood. Thank you, Gio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3397530,
+   "t1_ms": 3407370,
+   "speaker": "Operator",
+   "text": "Your next question comes from Andrew Buscalia with BNP Paribas. Hey, good morning, everyone. Good morning.",
+   "parts": [
+    {
+     "t0_ms": 3397530,
+     "text": "Your next question comes from Andrew Buscalia with BNP Paribas."
+    },
+    {
+     "t0_ms": 3405310,
+     "text": "Hey, good morning, everyone."
+    },
+    {
+     "t0_ms": 3407030,
+     "text": "Good morning."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3407510,
+   "t1_ms": 3436730,
+   "speaker": "Analyst",
+   "text": "Good morning, Andrew. I'm just wondering, as we look into 27, anything you'd like to set us up with in terms of margins? And I say that because we had some noise in the back half of this year. But I want to know if there's anything that you'd like to set up with incremental volume and better mix and capacity going away. Just set you up for, I think, what should be a really strong starting point. Do we see these kind of exit margins as the starting point for next year?",
+   "parts": [
+    {
+     "t0_ms": 3407510,
+     "text": "Good morning, Andrew."
+    },
+    {
+     "t0_ms": 3409350,
+     "text": "I'm just wondering, as we look into 27, anything you'd like to set us up with in terms of margins?"
+    },
+    {
+     "t0_ms": 3416110,
+     "text": "And I say that because we had some noise in the back half of this year."
+    },
+    {
+     "t0_ms": 3420490,
+     "text": "But I want to know if there's anything that you'd like to set up with incremental volume and better mix and capacity going away."
+    },
+    {
+     "t0_ms": 3426250,
+     "text": "Just set you up for, I think, what should be a really strong starting point."
+    },
+    {
+     "t0_ms": 3431110,
+     "text": "Do we see these kind of exit margins as the starting point for next year?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3436730,
+   "t1_ms": 3479220,
+   "speaker": "Management",
+   "text": "No. We won't specifically talk about 2027 in terms of where we sit on incrementals. I say, historically, what we've said and kind of go forward with what we laid out in the long-term planning is, you know, we're going to have to be a little bit more flexible. I think, you know, I think, you know, I think that's something that we've talked about a lot. I think, you know, I think that's something that we've talked about a lot. But I think, you know, I think that's something that we've talked about a lot. But I think, you know, I think that's something that we've talked about a lot. We aim to be at the 30% to 35%. A lot of things can influence that, especially when you're going through growth. And if you go through growth, you tend to see a little bit lower of that. If you are more of a steady state, you see a little bit of a higher of that based on where your volume is. So I'd say that's still the right framework to look at it through. We wouldn't change our framework at all. But I won't specifically comment on 2027 until, you know, we provide guidance for that in the next quarter. Got it.",
+   "parts": [
+    {
+     "t0_ms": 3436730,
+     "text": "No."
+    },
+    {
+     "t0_ms": 3439250,
+     "text": "We won't specifically talk about 2027 in terms of where we sit on incrementals."
+    },
+    {
+     "t0_ms": 3444590,
+     "text": "I say, historically, what we've said and kind of go forward with what we laid out in the long-term planning is, you know, we're going to have to be a little bit more flexible."
+    },
+    {
+     "t0_ms": 3448650,
+     "text": "I think, you know, I think, you know, I think that's something that we've talked about a lot."
+    },
+    {
+     "t0_ms": 3448730,
+     "text": "I think, you know, I think that's something that we've talked about a lot."
+    },
+    {
+     "t0_ms": 3448810,
+     "text": "But I think, you know, I think that's something that we've talked about a lot."
+    },
+    {
+     "t0_ms": 3448850,
+     "text": "But I think, you know, I think that's something that we've talked about a lot."
+    },
+    {
+     "t0_ms": 3450950,
+     "text": "We aim to be at the 30% to 35%."
+    },
+    {
+     "t0_ms": 3454050,
+     "text": "A lot of things can influence that, especially when you're going through growth."
+    },
+    {
+     "t0_ms": 3457810,
+     "text": "And if you go through growth, you tend to see a little bit lower of that."
+    },
+    {
+     "t0_ms": 3460610,
+     "text": "If you are more of a steady state, you see a little bit of a higher of that based on where your volume is."
+    },
+    {
+     "t0_ms": 3465290,
+     "text": "So I'd say that's still the right framework to look at it through."
+    },
+    {
+     "t0_ms": 3468230,
+     "text": "We wouldn't change our framework at all."
+    },
+    {
+     "t0_ms": 3470030,
+     "text": "But I won't specifically comment on 2027 until, you know, we provide guidance for that in the next quarter."
+    },
+    {
+     "t0_ms": 3478480,
+     "text": "Got it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3479220,
+   "t1_ms": 3487330,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from Noah Kay with Oppenheimer.",
+   "parts": [
+    {
+     "t0_ms": 3479220,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3481990,
+     "text": "Your next question comes from Noah Kay with Oppenheimer."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3487330,
+   "t1_ms": 3520450,
+   "speaker": "Analyst",
+   "text": "Good morning. Thank you. And just to follow up there, you know, incremental margins sequentially from 3Q to 4Q are above the historical average. And I guess in the absence of any other factors, that would imply, you know, you are getting more efficient as you ramp these new offerings. So maybe you can comment on if that's the right read or if there are any kind of timing expense-related benefits in the quarter. And the corollary to that is really the EMEA margins, which continue to step up. You know, are these levels sustainable? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3487330,
+     "text": "Good morning."
+    },
+    {
+     "t0_ms": 3488330,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3489330,
+     "text": "And just to follow up there, you know, incremental margins sequentially from 3Q to 4Q are above the historical average."
+    },
+    {
+     "t0_ms": 3497330,
+     "text": "And I guess in the absence of any other factors, that would imply, you know, you are getting more efficient as you ramp these new offerings."
+    },
+    {
+     "t0_ms": 3504330,
+     "text": "So maybe you can comment on if that's the right read or if there are any kind of timing expense-related benefits in the quarter."
+    },
+    {
+     "t0_ms": 3512450,
+     "text": "And the corollary to that is really the EMEA margins, which continue to step up."
+    },
+    {
+     "t0_ms": 3516450,
+     "text": "You know, are these levels sustainable?"
+    },
+    {
+     "t0_ms": 3518450,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3520450,
+   "t1_ms": 3560180,
+   "speaker": "Management",
+   "text": "Yeah, I mean, again, I think you do see a little bit of a pickup on the third quarter to fourth quarter incremental margins. I wouldn't say it's significant. You are feeling a little bit of a pickup there from APAC getting, when I say they're facilitated, online more. You see that a little bit. And, again, you still see some good pull through on EMEA. So, again, I don't think it's materially different. I think it's a little bit more of a pull through. I don't think it's materially different from third quarter to fourth quarter. But definitely you're feeling the positive impacts of EMEA and you're feeling the positive impacts of APAC getting more, let's say, their facility running at a more standard basis.",
+   "parts": [
+    {
+     "t0_ms": 3520450,
+     "text": "Yeah, I mean, again, I think you do see a little bit of a pickup on the third quarter to fourth quarter incremental margins."
+    },
+    {
+     "t0_ms": 3527450,
+     "text": "I wouldn't say it's significant."
+    },
+    {
+     "t0_ms": 3529450,
+     "text": "You are feeling a little bit of a pickup there from APAC getting, when I say they're facilitated, online more."
+    },
+    {
+     "t0_ms": 3535450,
+     "text": "You see that a little bit."
+    },
+    {
+     "t0_ms": 3536450,
+     "text": "And, again, you still see some good pull through on EMEA."
+    },
+    {
+     "t0_ms": 3539450,
+     "text": "So, again, I don't think it's materially different."
+    },
+    {
+     "t0_ms": 3540450,
+     "text": "I think it's a little bit more of a pull through."
+    },
+    {
+     "t0_ms": 3541450,
+     "text": "I don't think it's materially different from third quarter to fourth quarter."
+    },
+    {
+     "t0_ms": 3544450,
+     "text": "But definitely you're feeling the positive impacts of EMEA and you're feeling the positive impacts of APAC getting more, let's say, their facility running at a more standard basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3560180,
+   "t1_ms": 3566180,
+   "speaker": "Operator",
+   "text": "Your next question comes from David Tarantino with KeyBank Capital Markets.",
+   "parts": [
+    {
+     "t0_ms": 3560180,
+     "text": "Your next question comes from David Tarantino with KeyBank Capital Markets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3566180,
+   "t1_ms": 3593180,
+   "speaker": "Analyst",
+   "text": "Hey, thanks. Good morning, guys. Maybe just on capital allocation and utility innovation groups specifically, can you talk about the opportunities about moving up to the grid interconnect part of the market? As behind-the-meter power is increasingly leveraged. And then, maybe more broadly on capital allocation, even incorporating these deals, the balance sheets still pristine. How should we think about capital allocation moving forward? And would you consider doing opportunistic buybacks in this kind of choppy market?",
+   "parts": [
+    {
+     "t0_ms": 3566180,
+     "text": "Hey, thanks."
+    },
+    {
+     "t0_ms": 3567180,
+     "text": "Good morning, guys."
+    },
+    {
+     "t0_ms": 3568180,
+     "text": "Maybe just on capital allocation and utility innovation groups specifically, can you talk about the opportunities about moving up to the grid interconnect part of the market?"
+    },
+    {
+     "t0_ms": 3576180,
+     "text": "As behind-the-meter power is increasingly leveraged."
+    },
+    {
+     "t0_ms": 3579180,
+     "text": "And then, maybe more broadly on capital allocation, even incorporating these deals, the balance sheets still pristine."
+    },
+    {
+     "t0_ms": 3585180,
+     "text": "How should we think about capital allocation moving forward?"
+    },
+    {
+     "t0_ms": 3588180,
+     "text": "And would you consider doing opportunistic buybacks in this kind of choppy market?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3593180,
+   "t1_ms": 3637180,
+   "speaker": "Management",
+   "text": "I'll start with the capital allocation question first. Again, I don't think our strategy will change there. We have, you know, cash on the balance sheet. We'd like to have the dry powder to be able to do. Investments in both ourselves and investments in, you know, inorganic plays that we believe are scalable and we believe those are the right levels of returns we'd like. We'll continuously look at things like, you know, buybacks, dividends, and stuff like that. But in terms of where we see the most value, accretive nature is investing in our own capabilities and capacity and or inorganic plays. On your question on UIG, I think it was a strategic play that allows us to get at the table sooner. Allows us to get into the conversation of the architecture sooner.",
+   "parts": [
+    {
+     "t0_ms": 3593180,
+     "text": "I'll start with the capital allocation question first."
+    },
+    {
+     "t0_ms": 3597180,
+     "text": "Again, I don't think our strategy will change there."
+    },
+    {
+     "t0_ms": 3601180,
+     "text": "We have, you know, cash on the balance sheet."
+    },
+    {
+     "t0_ms": 3603180,
+     "text": "We'd like to have the dry powder to be able to do."
+    },
+    {
+     "t0_ms": 3605180,
+     "text": "Investments in both ourselves and investments in, you know, inorganic plays that we believe are scalable and we believe those are the right levels of returns we'd like."
+    },
+    {
+     "t0_ms": 3614180,
+     "text": "We'll continuously look at things like, you know, buybacks, dividends, and stuff like that."
+    },
+    {
+     "t0_ms": 3619180,
+     "text": "But in terms of where we see the most value, accretive nature is investing in our own capabilities and capacity and or inorganic plays."
+    },
+    {
+     "t0_ms": 3627180,
+     "text": "On your question on UIG, I think it was a strategic play that allows us to get at the table sooner."
+    },
+    {
+     "t0_ms": 3634180,
+     "text": "Allows us to get into the conversation of the architecture sooner."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3637180,
+   "t1_ms": 3675560,
+   "speaker": "Management",
+   "text": "And so that was a unique position where we could go up further the value chain and start the conversation of how do you architect all the way back to the data center with Verta products. And we think it's a great hit for us to be able to do that. And it'll be very synergistic to start the conversation earlier of what architecture is in the data center and what architecture is at the microgrid. So, and I don't know, Gio, if you wanted to add anything. No. I think it looks fine. I think it looks very well. So I'm very pleased about that. I'm looking forward to adding a segment to our powertrain. Great. Thanks, guys.",
+   "parts": [
+    {
+     "t0_ms": 3637180,
+     "text": "And so that was a unique position where we could go up further the value chain and start the conversation of how do you architect all the way back to the data center with Verta products."
+    },
+    {
+     "t0_ms": 3649180,
+     "text": "And we think it's a great hit for us to be able to do that."
+    },
+    {
+     "t0_ms": 3652180,
+     "text": "And it'll be very synergistic to start the conversation earlier of what architecture is in the data center and what architecture is at the microgrid."
+    },
+    {
+     "t0_ms": 3660180,
+     "text": "So, and I don't know, Gio, if you wanted to add anything."
+    },
+    {
+     "t0_ms": 3662180,
+     "text": "No."
+    },
+    {
+     "t0_ms": 3663180,
+     "text": "I think it looks fine."
+    },
+    {
+     "t0_ms": 3664180,
+     "text": "I think it looks very well."
+    },
+    {
+     "t0_ms": 3665180,
+     "text": "So I'm very pleased about that."
+    },
+    {
+     "t0_ms": 3667180,
+     "text": "I'm looking forward to adding a segment to our powertrain."
+    },
+    {
+     "t0_ms": 3673560,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3674560,
+     "text": "Thanks, guys."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3675560,
+   "t1_ms": 3689560,
+   "speaker": "Operator",
+   "text": "Thank you. There are no further questions at this time. Thank you. This concludes our question and answer session. I would like to turn the conference back over to Gio Albertazzi for any closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 3675560,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3677560,
+     "text": "There are no further questions at this time."
+    },
+    {
+     "t0_ms": 3679560,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3680560,
+     "text": "This concludes our question and answer session."
+    },
+    {
+     "t0_ms": 3683560,
+     "text": "I would like to turn the conference back over to Gio Albertazzi for any closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3689560,
+   "t1_ms": 3732560,
+   "speaker": "Management",
+   "text": "Well, thank you, Warren. And thank you all for the questions. And full time today. This was a quarter where the organization showed what it's made of. And the opportunity in front of us is significant and it is durable. Our customers are building at scale and complexity that this industry has never seen. And they need partners who can scale technology, execution, quality, reliability, and services. That is where the Vertiv team, that's what the Vertiv team does. I am proud of what we accomplished this quarter. Proud and pleased, but certainly never satisfied. There is more ahead. And we're ready for it.",
+   "parts": [
+    {
+     "t0_ms": 3689560,
+     "text": "Well, thank you, Warren."
+    },
+    {
+     "t0_ms": 3692560,
+     "text": "And thank you all for the questions."
+    },
+    {
+     "t0_ms": 3694560,
+     "text": "And full time today."
+    },
+    {
+     "t0_ms": 3696560,
+     "text": "This was a quarter where the organization showed what it's made of."
+    },
+    {
+     "t0_ms": 3700560,
+     "text": "And the opportunity in front of us is significant and it is durable."
+    },
+    {
+     "t0_ms": 3704560,
+     "text": "Our customers are building at scale and complexity that this industry has never seen."
+    },
+    {
+     "t0_ms": 3710560,
+     "text": "And they need partners who can scale technology, execution, quality, reliability, and services."
+    },
+    {
+     "t0_ms": 3716560,
+     "text": "That is where the Vertiv team, that's what the Vertiv team does."
+    },
+    {
+     "t0_ms": 3722560,
+     "text": "I am proud of what we accomplished this quarter."
+    },
+    {
+     "t0_ms": 3725560,
+     "text": "Proud and pleased, but certainly never satisfied."
+    },
+    {
+     "t0_ms": 3729560,
+     "text": "There is more ahead."
+    },
+    {
+     "t0_ms": 3730560,
+     "text": "And we're ready for it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3732560,
+   "t1_ms": 3735560,
+   "speaker": "Management",
+   "text": "With that, thank you all.",
+   "parts": [
+    {
+     "t0_ms": 3732560,
+     "text": "With that, thank you all."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3735560,
+   "t1_ms": 3742560,
+   "speaker": "Operator",
+   "text": "The conference has now concluded. Thank you for attending today's presentation. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3735560,
+     "text": "The conference has now concluded."
+    },
+    {
+     "t0_ms": 3738560,
+     "text": "Thank you for attending today's presentation."
+    },
+    {
+     "t0_ms": 3740560,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}
