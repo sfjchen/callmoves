@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-30T09:00:00-04:00",
   "etf": "XLI",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/GD_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/GD_Q3-2026.mp3",
   "company": "General Dynamics",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 26120,
    "speaker": "Operator",
    "text": "Good morning and welcome to the General Dynamics third quarter 2026 earnings conference call. All participants will be in listen-only mode. After today's prepared remarks, we will host a question and answer session. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. Please note this event is being recorded. I would now like to turn the conference over to Nicole Shelton, Vice President of Investor",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -47,6 +48,7 @@
    "t1_ms": 69700,
    "speaker": "Management",
    "text": "Relations. Please go ahead. Thank you, Operator, and good morning, everyone. Welcome to the General Dynamics third quarter 2026 conference call. Any forward-looking statements made today represent our estimates regarding the company's outlook. These estimates are subject to some risks and uncertainties. Additional information regarding these factors is contained in the company's 10-K, 10-Q, and 8-K filings. We will also refer to certain non-GAAP financial measures. For additional disclosures about these non-GAAP financial measures, please call the office of financial services. For additional information on non-GAAP measures, including reconciliations to comparable GAAP measures, please see the slides that accompany this webcast, which are available on the Investor Relations page of our website, InvestorRelations.gd.com. On the call today are",
+   "name": "Nicole Shelton, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 26120,
@@ -94,6 +96,7 @@
    "t1_ms": 107580,
    "speaker": "Management",
    "text": "Phoebe Novakovic, Chairman and Chief Executive Officer, Danny Deeb, President, and Kim Korea, Chief Financial Officer. I will now turn the call over to Phoebe. Thank you, Nicole. Good morning, everyone, and thanks for being with us. For those of you who are on our second quarter call, you may recall that we described it as a superb quarter, better than a powerful first quarter. While this quarter is even better, the quarter-over-year-ago quarter results, the sequential results, and the year-to-date results are all very good, as you will learn from these remarks and the charts attached to our press release. So now let's proceed to the",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 69700,
@@ -133,6 +136,7 @@
    "t1_ms": 151400,
    "speaker": "Management",
    "text": "more prosaic. We reported earnings of $4.49 per diluted share on revenue of $14.5 million, operating earnings of $1.527 million, and net earnings of $1.229 million. Against the year-ago quarter, revenue is up 12.9 percent. Importantly, operating earnings are up 14.7 percent, and net earnings are up 16.1 percent. As a result, earnings per diluted share are up 61 cents, or 15.7 percent. The operating earnings are up 16.1 percent, and net earnings are up 16.1 percent. As a result, earnings per diluted share are up 16.7 percent. As a result, earnings per diluted share are up 16.7 percent. The operating margin for the entire company is 10.5 percent, a 20-basis point improvement over the",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 107580,
@@ -172,6 +176,7 @@
    "t1_ms": 189300,
    "speaker": "Management",
    "text": "year-ago quarter, which coupled with the revenue growth led to the very strong earnings growth. While Marine led the way on revenue increases, each of our other three segments had revenue increases as well. With respect to operating earnings, Aerospace and Marine led the way with strong double-digit increases as each of our shipyards has steadily improved its throughput and productivity. Sequentially, against this superb second quarter, revenue is up 3.3 percent. Operating earnings are up 4.6 percent, and diluted earnings per share up about 6 percent.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 151400,
@@ -207,6 +212,7 @@
    "t1_ms": 228820,
    "speaker": "Management",
    "text": "On a year-to-date basis, revenue is up 10.4 percent. Operating earnings are up 12.9 percent, and earnings per share are up 13.6 percent, benefited by a 30-basis point improvement in operating margin. In short summary, we enjoy double-digit increases in revenue, operating earnings, net earnings, and diluted earnings per share on both a quarter-over-quarter and year-to-date basis. We also beat consensus by 37 cents in the quarter on more revenue and operating earnings than anticipated by the sell side. In short, it is a splendid quarter.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 189300,
@@ -246,6 +252,7 @@
    "t1_ms": 273680,
    "speaker": "Management",
    "text": "Year-to-date figures leave us in a place where we need to adjust our forecast for the year. I will do that later in these remarks. Let me ask our CFO, Kim Correa, to provide detail on our strong order activity, rapidly growing backlog, and continued efficient cash generation, as well as other relevant financial data. Thank you, Phoebe, and good morning. I'll start with orders and backlog, where we had a truly historic quarter, nearly $99 billion in debt. New orders drove our backlog to a record $220 billion, doubling the level of a year ago. Our total estimated contract value, which includes options and IDIQ contracts, ended the quarter at $271 billion.",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 228820,
@@ -301,6 +308,7 @@
    "t1_ms": 318080,
    "speaker": "Management",
    "text": "These results reflect the strength of demand across our businesses. The marine systems segment led the way with significant contracts awards at Electric Boat, including $29.5 billion for five additional Columbia-class submarines in Build 2 and $42.1 billion for nine additional Virginia-class submarines in Block 6. In our technology segment, book-to-bill was a strong 1.4 times, and combat was just shy of one-to-one following a very strong second quarter. Overall, the defense segment book-to-bill was 8.5 times. In aerospace, our dollar-based book-to-bill was 1.4 times, and even higher for Gulfstream alone. To give you some perspective,",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 274580,
@@ -348,6 +356,7 @@
    "t1_ms": 359980,
    "speaker": "Management",
    "text": "new aircraft orders in the first nine months of 2026 were up over 30% from last year, demonstrating sustained demand across the entire Gulfstream product line. Turning to cash, our performance continues to be outstanding. We generated $1.7 billion of operating cash flow, which, when combined with the strong $4 billion from the first half, yields over $5.7 billion of operating cash flow in the first nine months of the year. Each of our segments contributed, exceeding their planned cash flows and driving operating working capital down nearly $1.7 billion from the end of 2025, despite an increase in revenue of over 10%.",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 318080,
@@ -395,6 +404,7 @@
    "t1_ms": 403300,
    "speaker": "Management",
    "text": "As I mentioned on the July call, we contributed $500 million to our pension plans in the quarter. With this voluntary contribution, our frozen plans are essentially funded, and we are now in a position to de-risk the plans and eliminate significant volatility going forward to control the economy. We are now in a position to de-risk the plans and eliminate significant volatility going forward to control the pension costs flowing to our contracts. Capital expenditures were $481 million in the quarter, more than the total amount in the first half of the year. In the first nine months of 2026, capital expenditures were 2.2% of sales. We continue to expect capital expenditures between 3.5% and 4% of sales for the full year,",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 361460,
@@ -446,6 +456,7 @@
    "t1_ms": 447220,
    "speaker": "Management",
    "text": "so you should expect a fourth quarter of significant growth as we close out the year and continue to increase our sales. We continue to invest, especially in our shipyards, to accelerate production and meet future demand. Even with this ramp-up in investment and our pension contribution, our free cash flow performance has been exceptional. We generated $1.2 billion for the quarter, yielding a cash conversion rate of 100%, and $4.8 billion for the first nine months, an impressive 137% of net earnings. We continue to expect free cash flow conversion at around $107 billion. We continue to expect free cash flow conversion at around $107 billion. We continue to expect free cash flow conversion at around $107 billion. In the next six months, tuition andrev Jordyn adjust your appetite scales for your future income development, students, and staff,",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 403900,
@@ -509,6 +520,7 @@
    "t1_ms": 488920,
    "speaker": "Management",
    "text": "and bestow views and grant points to the капitol gov. Nineteenth. Ann receivables. million notes in June. Our balance sheet remained strong. We ended the quarter with a cash balance of approximately $4.4 billion and a net debt position of $2.6 billion, a $3 billion improvement from year end. Turning to interest, our net interest expense in the third quarter was $45",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 449380,
@@ -548,6 +560,7 @@
    "t1_ms": 526680,
    "speaker": "Management",
    "text": "million compared to $74 million in the respective 2025 period and $163 million for the first nine months of 2026 compared to $251 million in the same period of 2025. The decrease in our net interest expense is due to more interest income on higher cash balances throughout 2026, allowing us to avoid the commercial paper borrowing costs that we incurred in 2025. We have not been in the commercial paper market at all thus far in 2026. At this point, our expectation for net interest expense for the year is approximately $215 million.",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 488920,
@@ -583,6 +596,7 @@
    "t1_ms": 566920,
    "speaker": "Management",
    "text": "Finally, the effective tax rate in the quarter was 17.3%, bringing the tax rate for the first nine months of 2026 to 17.6%. In summary, it was another outstanding quarter. Phoebe, that concludes my remarks. I'll turn it back over to you. Thanks, Kim. Now I will briefly review the financial performance for each of the groups, and Danny will interject additional detail. First, aerospace. Aerospace had a very good quarter with revenue of $3.5 billion, and the tax rate was $3.5 billion. We had a very good quarter with revenue of $3.5 billion. We had a very good quarter with revenue of $3.5 billion in operating earnings of $513 million with a 14.5% operating margin. Revenue",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 527340,
@@ -622,6 +636,7 @@
    "t1_ms": 607220,
    "speaker": "Management",
    "text": "is $302 million more than last year's third quarter, a 9.3% increase. To give you a sense of perspective here, Gulfstream's new aircraft revenue is up on the delivery of one more aircraft, 40 in total, and a slightly more favorable mix. We also saw good revenue increases in aircraft services at Gulfstream, as well as at jet aviation across their portfolio. Operating earnings of $513 million are up $83 million, driven in part by the increased revenue, but most importantly by a 120 basis point improvement in operating margin. At Gulfstream, we continue to",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 566920,
@@ -657,6 +672,7 @@
    "t1_ms": 647190,
    "speaker": "Management",
    "text": "see efficiency gains in manufacturing and completions, particularly on the G700 and G800. We've delivered only our 30th, and although it's relatively early since its entry into service, performance on that airplane has been very strong with additional opportunity ahead of us. We've also been a highlight this quarter as the fleet expands. Volume at our MRO centers and at jet aviation activity at our U.S. FBA. Turning to market demand, aerospace had a 1.4 times book to bill in the quarter. There were five more",
+   "name": null,
    "parts": [
     {
      "t0_ms": 607220,
@@ -692,6 +708,7 @@
    "t1_ms": 687050,
    "speaker": "Management",
    "text": "airplane orders than the year-ago quarter. The book to bill over the trailing 12-month basis is 1.4 times. So, we see very active interest across all models in the U.S., Western Europe, and Southeast Asia, but some cautious concern from customers in the Middle East. They are, however, still active in the pipeline, but slow to provide orders. This is not surprising given the current geopolitical environment there. In summary, the aerospace team had a special quarter, both operationally and in terms of order activity. So, let's move on to the defense businesses. First, combat.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 647190,
@@ -739,6 +756,7 @@
    "t1_ms": 730260,
    "speaker": "Management",
    "text": "Combat systems had revenue of $2.39 billion, up 6% over the year-ago quarter. Earnings up $330 million or down $5 million on a 110 basis points contractual in operating margins due largely to a transition from legacy production programs to new development programs, autonomous systems. Earnings were up nice at ordnance and tactical systems, as well as European land systems. Sequentially, revenue is up 4.2% at earnings from this fair. As I mentioned, combat systems are an area in our economy where there is massive trade updates in defense, messages, and accidents. They have dovage over the last 30 years. So, when we have trips like this, it's an area going through events. And we'll explain the real market for damn well what or the chance are up 3.8%. Demand for combat systems products is strong, primarily driven by U.S. allies. Orders for wheeled and tracked vehicles are increasing in the increased threat environment.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 687050,
@@ -794,6 +812,7 @@
    "t1_ms": 768400,
    "speaker": "Management",
    "text": "In addition, ordnance and tactical systems continue to have particularly strong growth in munitions. As Phoebe mentioned, our international vehicle portfolio, and particularly our European operations, with ELS revenues up 28% versus a year ago quarter. Demand for the Piranha platform and Eagle family of vehicles continues to be strong across several markets. At ordnance and tactical systems, we are doing our part to support the missile ramp for both medium and large",
+   "name": null,
    "parts": [
     {
      "t0_ms": 730580,
@@ -825,6 +844,7 @@
    "t1_ms": 810440,
    "speaker": "Management",
    "text": "systems. Once again, our shipyards are each demonstrating strong revenue growth on a quarter over a year ago quarter basis. This year's quarter's revenue growth of 21% was driven by Columbia and Virginia class construction volumes, followed by DDG 51 and TAO construction volumes. The growth at BASC for the fifth quarter in a row is particularly encouraging. Earnings improved 34.4% on an 80 basis point improvement in operating margins. We can point to clear,",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 768400,
@@ -860,6 +880,7 @@
    "t1_ms": 851620,
    "speaker": "Management",
    "text": "measurable productivity gains in electric boats, particularly significantly increased earned hours in both the second and third quarters of the year. As you know, to support this growth, we have made significant investments in each of our shipyards, particularly in electric boats. We will continue to invest as we move forward to support the additional demand we see in the national security interests of the United States. We experienced more of delivering more ships. Four Virginia class submarines will be delivered",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 810760,
@@ -895,6 +916,7 @@
    "t1_ms": 888500,
    "speaker": "Management",
    "text": "in the next few months. We will have delivered five Virginia class submarines and five Virginia ships and all Columbia build one ships are in various stages of construction. We will be hyper focused on delivering the first Columbia and first Virginia VPM ships by the end of 2028. Finally, on the most recent Virginia and Columbia awards, we are procuring long lead items and have started sub assembly construction. Turning to technologies, this group is also experiencing growth in revenue and earnings,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 851620,
@@ -930,6 +952,7 @@
    "t1_ms": 924500,
    "speaker": "Management",
    "text": "albeit not at the pace experienced by... Revenue of $3.7 billion represents an increase of 10.8% over the third quarter of 2025. Both businesses contributed respectable growth, but GDI... led the way. Operating earnings of $346 million are up 5.8% over the year-ago quarter. Operating margin decreased 40 basis points largely as a result of mixed shift. Sequentially, we saw some incremental gains in both revenue and earnings. On a year-to-date basis, we",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 888500,
@@ -965,6 +988,7 @@
    "t1_ms": 957760,
    "speaker": "Management",
    "text": "have revenue growth of 6.3% and earnings growth of 3.7%. Groups order activity was also encouraging with a book to bill of 1.4 times through the quarter and 1.3 times through the year-to-date. I'll just add a little more color to Phoebe's point on an encouraging book to burst nine months of the year, outpaced any full-year admission system. In addition to highly differentiated",
+   "name": null,
    "parts": [
     {
      "t0_ms": 924500,
@@ -992,6 +1016,7 @@
    "t1_ms": 998830,
    "speaker": "Management",
    "text": "systems in land and air... Let's turn to guidance for 2026. At the outset, I want to review what we have told you to date. In January, we told you to assume an EPS range of $16.10 to $16.50. In April, our updated guidance for 2026 was an EPS range of $16.45 to $16.55. In July, we increased that to an EPS in the range of $16.80 to $16.90.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 957760,
@@ -1023,6 +1048,7 @@
    "t1_ms": 1039710,
    "speaker": "Management",
    "text": "In light of our performance in the third quarter and year-to-date, we once again increased our forecast at between $17.20 to $17.30 per diluted share, almost 7% higher than the previous year. So, we're going to continue to increase our forecast. What we've done is make that increase higher than we anticipated at the beginning of the year. This contemplates revenue between $56.5 billion to $56.8 billion and operating margin around 10.5%. You've already heard Kim's commentary about our estimates for cash flow for the year, and interest expense. We do not plan to update segment guidance. As usual, we will provide our forecast for 2027 in January after our planning process has concluded.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 998830,
@@ -1070,6 +1096,7 @@
    "t1_ms": 1081510,
    "speaker": "Management",
    "text": "So to wrap up, we go into the fourth quarter coming off a very strong year-to-date figure. We feel good about the potential for the full year. So on a personal note, before I hand over the call to Danny and Kim to answer your questions, I would like to thank you all for the collaboration over the last 14 years. I have appreciated your rich understanding of the sector, your willingness to engage, and your objective assessments. While I will remain as Executive Chair to work with Danny, his team, and the Board, this is my last earnings call. I wish each of you the best in the future. Nicole, back to you. Thank you, Phoebe.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1039710,
@@ -1125,6 +1152,7 @@
    "t1_ms": 1092920,
    "speaker": "Management",
    "text": "As a reminder, we ask participants to ask one question and one follow-up so that everyone has a chance to participate. Operator, could you please remind participants how to enter the queue?",
+   "name": "Nicole Shelton, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 1081510,
@@ -1148,6 +1176,7 @@
    "t1_ms": 1128700,
    "speaker": "Operator",
    "text": "We will now begin the question and answer session. Please limit yourself to one question and one follow-up. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. We ask that you pick up your handset when asking a question to allow for optimum sound quality. If you are muted locally, please remember to unmute your device. Please stand by while we compile the Q&A roster. Your first question comes from the line of Seth Seifman of JPMorgan. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1092920,
@@ -1207,6 +1236,7 @@
    "t1_ms": 1164100,
    "speaker": "Analyst",
    "text": "Hey, thanks very much and good morning. And Phoebe, I just want to say congratulations. And I appreciate it. And all the best. Thanks for everything over the years. Maybe starting off in marine, the margin was quite strong in the quarter, highest margin for a few years. When we think about the signing of the contracts, the impact that that may have had versus the sustainable level of margin and whether we can think of this as an upward trajectory that maybe even season eight in 2027. I think that's a good question.",
+   "name": "Seth Seifman, JPMorgan",
    "parts": [
     {
      "t0_ms": 1128700,
@@ -1262,6 +1292,7 @@
    "t1_ms": 1164300,
    "speaker": "Management",
    "text": "I think that's a good question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1164100,
@@ -1277,6 +1308,7 @@
    "t1_ms": 1167640,
    "speaker": "Analyst",
    "text": "I think that's a good question. I think that's a good question. I think that's a good question. I think that's a good question. I think that's a good question. I think that's a good question. What kind of takeaways should be happening this quarter? Yeah.",
+   "name": "Seth Seifman, JPMorgan",
    "parts": [
     {
      "t0_ms": 1164300,
@@ -1320,6 +1352,7 @@
    "t1_ms": 1209900,
    "speaker": "Management",
    "text": "Let me take operating performance, Virginia block four, where we're coming to the end of that delivery order. And we should expect to deliver that last vote in the next several months. And so, because of the strong performance, we actually had a one-time cumulative catch pickup on the booking rate, which spiked the margin a little bit in the quarter. But when you isolate for, feel better this third quarter, you really do have this ability to stock up on the booking rate. than it was in the first half of the year.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1167640,
@@ -1363,6 +1396,7 @@
    "t1_ms": 1246100,
    "speaker": "Management",
    "text": "And I think that is a demonstration of the continued performance and operations across. I think the awards, the most recent awards, really didn't have any impact or any significant impact on the margin rate in the Marine Group. And so I think as you think about it looking forward, I would isolate for that one-time CUME catch booking rate on Block 4, which is a good thing because it's associated with performance, and think about the Marine Group being in that mid-7% range as a baseline with the opportunity to grow from there as we steadily improve performance and output.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1210680,
@@ -1418,6 +1452,7 @@
    "t1_ms": 1276660,
    "speaker": "Analyst",
    "text": "Great. Great. Thanks. And then as a follow-up, I know that Mark Burns was at NBAA recently talking about Gulfstream and production rates and the potential to reach 200 deliveries. A year. Can you talk a little bit about how you see the long-term multi-year outlook for Gulfstream delivery?",
+   "name": "Seth Seifman, JPMorgan",
    "parts": [
     {
      "t0_ms": 1248840,
@@ -1457,6 +1492,7 @@
    "t1_ms": 1321440,
    "speaker": "Management",
    "text": "Sure. So you use and produce more than 200 aircraft in 2029. And so when you think about it in terms of manufacturing, completion, and delivery, and we have the workforce and the facilities to produce 200 aircraft. And on that path there, we expect and are certainly hopeful that our suppliers will be able to keep up to go beyond 200 in more facilities and equipment,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1277720,
@@ -1500,6 +1536,7 @@
    "t1_ms": 1327280,
    "speaker": "Management",
    "text": "and we're prepared to do so if the demand dictates that.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1321440,
@@ -1515,6 +1552,7 @@
    "t1_ms": 1333020,
    "speaker": "Operator",
    "text": "Your next question comes from the line of Peter Arment of Baird. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1327520,
@@ -1534,6 +1572,7 @@
    "t1_ms": 1361320,
    "speaker": "Analyst",
    "text": "Hey, thanks. Good morning. And I'll echo Seth's comments. Phoebe, thanks for all the support over the years. Appreciate it, and best of luck. And Danny, congrats. Danny, maybe could you talk a little bit about your opportunities in supporting kind of as a supplier with the missile framework agreements? I know that there was an announcement in August kind of looking to support that. Could you give us a little more color on the opportunity for GD and OTS there?",
+   "name": "Peter Arment, Baird",
    "parts": [
     {
      "t0_ms": 1334560,
@@ -1589,6 +1628,7 @@
    "t1_ms": 1400270,
    "speaker": "Management",
    "text": "Yeah, so we are a subcontractor to a number of the missile primes and are on a number of the missile systems. At Ordnance and Tactical Motor Cases, we are not a huge part of it. We're not a single digit. We're not a single digit. We're not a low single digits. But we are in the process of ramping up and supporting that entire front.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1362500,
@@ -1636,6 +1676,7 @@
    "t1_ms": 1422670,
    "speaker": "Analyst",
    "text": "Got it. And just as a quick follow-up, just switching back to kind of Seth's comments around Marine, is there a point where, you know, you guys have given us a lot of data over the last year around earned hours worked up and material flow improving. Is there a point where we're getting, you know, more mature in Columbia where we start seeing improved milestones there? Any color there would be helpful. Thanks, Danny. Yeah.",
+   "name": "Peter Arment, Baird",
    "parts": [
     {
      "t0_ms": 1400410,
@@ -1691,6 +1732,7 @@
    "t1_ms": 1461710,
    "speaker": "Management",
    "text": "Yeah, we are on both Columbia and Virginia. I think when we look at this year versus the same, continue to see efficiency gains across those platforms. And we've brought on a lot of new shipbuilders. That electric boat alone will be at 8,000 by the end of the year. And as those new shipbuilders get more and more experience, we'll continue to see efficiencies accelerate. So we're very pleased with where we are on Columbia specifically and also Virginia.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1423750,
@@ -1738,6 +1780,7 @@
    "t1_ms": 1471350,
    "speaker": "Operator",
    "text": "Your next question. From the line of Ken Herbert of RBC Capital Markets. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1462110,
@@ -1765,6 +1808,7 @@
    "t1_ms": 1503380,
    "speaker": "Analyst",
    "text": "Thank you. Yes. And congratulations, Phoebe and Danny. I maybe just want to start on the balance sheet if I could. It's obviously in a great spot. It sounds like CapEx is running higher to support the growth. Can you just talk about how we think about CapEx in 27 and 28? How we think about where you're comfortable with the leverage? And maybe any step change in capital allocation considering the strong balance sheet?",
+   "name": "Ken Herbert, RBC Capital Markets",
    "parts": [
     {
      "t0_ms": 1474380,
@@ -1812,6 +1856,7 @@
    "t1_ms": 1550470,
    "speaker": "Management",
    "text": "I'll take the CapEx portion of the question. And, you know, as it relates to 2026, we have seen an increase thus far. And we expect that the fourth quarter, we have a significant ramp expected in the fourth quarter. As a lot of those projects continue, and we'll see if we can spend what we intend to spend in the fourth quarter, some of that will be in the fourth quarter. So I think that's a good question. Some of that could slip over into 2027, but we intend to keep on track there. In terms of 2027, I think the CapEx will probably stay elevated, although we haven't come completely through our planning process. So I think you would expect that we would be spending, again, probably in this range in 2027.",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 1506070,
@@ -1863,6 +1908,7 @@
    "t1_ms": 1575210,
    "speaker": "Management",
    "text": "But we'll hone that in as we go through the planning process. I think your other question was related to leverage. And capital allocation. I mean, we continue to support the dividend as it relates to share repurchase. And we are repurchasing shares enough to cover dilution at this point in time. So I think that's where we are there.",
+   "name": "Kim Korea, CFO",
    "parts": [
     {
      "t0_ms": 1550650,
@@ -1898,6 +1944,7 @@
    "t1_ms": 1599320,
    "speaker": "Analyst",
    "text": "Great. And just as a follow-up, can you just talk? I know you've been spending to support, obviously, the ramp in Virginia and Columbia. But how do we think about spending specifically within the marine segment over the next few years? And are you fully capitalized? How are you fully capitalized to support the delivery growth expected in the next three to four years?",
+   "name": "Ken Herbert, RBC Capital Markets",
    "parts": [
     {
      "t0_ms": 1578670,
@@ -1933,6 +1980,7 @@
    "t1_ms": 1637890,
    "speaker": "Management",
    "text": "Yeah. I've been fully capitalized even in the last five years in anticipation of this volume increase. The next few years, we will incapacitate productivity and automation and continue forever. But it will certainly continue for the next few years.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1599320,
@@ -1960,6 +2008,7 @@
    "t1_ms": 1644230,
    "speaker": "Operator",
    "text": "Your next question, from the line of Ronald Epstein of Bank of America. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1637890,
@@ -1983,6 +2032,7 @@
    "t1_ms": 1659840,
    "speaker": "Analyst",
    "text": "Hi, this is Reed on for Ron. I was just wondering if you could provide a bit more background on the growth in the technology. And kind of how we should think about growth going forward between GDIT and GDMS.",
+   "name": "Reed (on for Ronald Epstein), Bank of America",
    "parts": [
     {
      "t0_ms": 1646620,
@@ -2006,6 +2056,7 @@
    "t1_ms": 1701360,
    "speaker": "Management",
    "text": "Yeah. So I think both GDIT and MS have done very well and had very strong quarter and year-to-date growth. I think fourth quarter will be a little down. And that speaks more to the strength of the third than any particular. When you look at 26 as compared to 2025, we'll be up in the mid-single digits. And I think you can expect that that growth will be there. And I think that's something that we can expect to see sustained over time. I think the relative contribution from each of those grew relatively consistent.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1659840,
@@ -2049,6 +2100,7 @@
    "t1_ms": 1712240,
    "speaker": "Operator",
    "text": "Great. Thank you. Your next question comes from the line of Miles Walton of Wolf Research. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1701360,
@@ -2080,6 +2132,7 @@
    "t1_ms": 1735240,
    "speaker": "Analyst",
    "text": "Thanks, Phoebe. Congratulations on the long tenure and for trying to keep all our verbal IQs as high as we can get. In terms of, you know, a prosaic question. On the services growth, what was that? Was that double digits? And was there any test aircraft that went out the door in Gulfstream this quarter?",
+   "name": "Myles Walton, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1714240,
@@ -2115,6 +2168,7 @@
    "t1_ms": 1765390,
    "speaker": "Management",
    "text": "Yeah. Services grew in the aerospace segment in both Gulfstream and jet aviation. At Gulfstream, it was significantly a little bit less so sequentially but still larger than it was in the previous quarter. At jet aviation, it was across the board. And against all comparables, it will continue to grow as the fleet expands.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1735240,
@@ -2146,6 +2200,7 @@
    "t1_ms": 1790760,
    "speaker": "Management",
    "text": "It's from I wouldn't it's not I wouldn't call it as dilutive, but it came from across the board. Fair enough.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1765390,
@@ -2165,6 +2220,7 @@
    "t1_ms": 1805760,
    "speaker": "Analyst",
    "text": "And in terms of ELS growth of 28%, could you just give us a benchmark as to what proportion of combat is ELS at this point? I know it's 4Q loaded. Is that level of growth expected to continue? Thanks. Yeah.",
+   "name": "Myles Walton, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1790760,
@@ -2196,6 +2252,7 @@
    "t1_ms": 1845020,
    "speaker": "Management",
    "text": "Look, I don't have the exact numbers. But historically, land systems has been a very, very important part of our industry. And the number of systems has been about half. OTS has been the remaining half. And yet to become a pretty significant portion. When you think about the international portfolio in combat, of which ELS is a big part of, it almost represents 50 portfolio. And that 80% of that is direct. And the majority of that comes out of ELS.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1805760,
@@ -2239,6 +2296,7 @@
    "t1_ms": 1852020,
    "speaker": "Operator",
    "text": "Your next question comes from the line of Doug Harned of Bernstein. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1845020,
@@ -2262,6 +2320,7 @@
    "t1_ms": 1882020,
    "speaker": "Analyst",
    "text": "Thank you. Good morning. Going back to Gulfstream, and first, I do want to congratulate Phoebe. It's hard for me to believe it's been 14 years, but it's been great working with you. Thank you. And thinking about Gulfstream in that context, you know, the last two quarters with, you know, pretty amazing book to bill, services up.",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 1852020,
@@ -2297,6 +2356,7 @@
    "t1_ms": 1906020,
    "speaker": "Analyst",
    "text": "And I think it's a great opportunity to talk about the When I take the geopolitical context that Phoebe, that you had described, how are you seeing customer discussions at this point, if I put the Middle East aside, given the geopolitical concerns, fuel prices?",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 1882020,
@@ -2316,6 +2376,7 @@
    "t1_ms": 1943810,
    "speaker": "Management",
    "text": "What are the drivers now that you're seeing for such high growth? So I'll take that. I think North America and Western Europe and Asia, you know, are the drivers. And I think that's a great opportunity to talk about that. I think North America and Western Europe and Asia has continued to be robust. And as you mentioned, Middle East aside, still a lot of interest there, but certainly a little bit more cautious in terms of actually placing orders. I think that has continued. And certainly as it relates to jet aviation, even the Middle East has continued to be robust. Really, we have not seen any discernible impact from that perspective on demand. And when we look forward, and as obviously as we've been doing, we've been seeing a lot of growth.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1906020,
@@ -2367,6 +2428,7 @@
    "t1_ms": 1958970,
    "speaker": "Management",
    "text": "And as obviously as we perform in this current quarter and the entire year, but when we look forward, we continue to see a fair bit of demand out there. And specifically...",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1943810,
@@ -2386,6 +2448,7 @@
    "t1_ms": 1992970,
    "speaker": "Analyst",
    "text": "Well, and then changing gears a little bit, if I go over to marine systems, with the annual announcement of Arsenal 2 in Baltimore, which is particularly focused on Virginia class, how does that fit in to the operational planning that you're doing at Electric Boat and the other ones that you're doing at the Pacific? Yeah. So, I mean, we're talking about the electric boat and it's going on at Newport News. And is this something that will be helpful in terms of improving throughput, or is it, in a sense, competition? How do you think about that move?",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 1958970,
@@ -2421,6 +2484,7 @@
    "t1_ms": 2026080,
    "speaker": "Management",
    "text": "Yeah, look, for us, we welcome any new entrance into the supply chain for the submarine industrial base. It's critical that we attract them, and I think these large orders help do that. Specifically, as it relates to Andro. We are very focused on the four significant components that they're going to provide us. And those are torpedo tubes, impulse tanks, and auxiliary tanks. And these are areas where we need additional capacity, and that's what we're focused on with them, getting those items.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1992970,
@@ -2456,6 +2520,7 @@
    "t1_ms": 2036930,
    "speaker": "Operator",
    "text": "Your next question, from the line of Sheila Kayaoglu of Jefferies. Your line is open. Please go ahead. Thanks.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2026080,
@@ -2483,6 +2548,7 @@
    "t1_ms": 2076929,
    "speaker": "Analyst",
    "text": "Good morning. And Phoebe, congratulations on a pretty spectacular launch. Thank you. I think you've done a pretty spectacular career in giving us something to aspire to and always making these earnings calls a bit spicy, so I appreciate that. Maybe, Phoebe, if you can, can you just talk about Gulfstream? I think you developed four or five new jets over your tenure. I lost track, to be honest. How do you think about Gulfstream's trajectory over the medium term, whatever you're willing to give? And maybe as a follow-up to that and Doug's question as well, the order growth is strong. Do you think that's competitive win rates or just customer win rates driving the demand momentum? Thank you.",
+   "name": "Sheila Kahyaoglu, Jefferies",
    "parts": [
     {
      "t0_ms": 2036930,
@@ -2538,6 +2604,7 @@
    "t1_ms": 2120930,
    "speaker": "Management",
    "text": "So, as you know, as we've talked before, the family of airplanes that we have at Gulfstream, and we are adding to it, has been part of a 15-year strategic plan. We believe that investment in platforms that met our customers' needs in terms of the needs, in speed, capacity, efficiency, and comfort, would drive demand. And so we have a whole new fleet of clean sheet airplanes in our portfolio, and we're pretty excited about it.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2076929,
@@ -2565,6 +2632,7 @@
    "t1_ms": 2156930,
    "speaker": "Management",
    "text": "And I think that that transition has been very successful. You know, I think that's a great point. And, you know, there has not been a case, at least in business aviation, that I'm aware of where you retire, take the 450. You retire the 450, a very successful high margin program. It goes out on a positive earnings basis and is replaced by an all-new clean sheet of airplanes, heel-to-toe, heel-to-toe.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2120930,
@@ -2596,6 +2664,7 @@
    "t1_ms": 2189230,
    "speaker": "Management",
    "text": "And I think that that, the theory of the case, back 15, 12 years, about 13 years ago, I guess, when we came up with this, the theory of the case was new product will drive demand. And we know our customers, and we designed these airplanes for their... So I think that strategy, you're seeing it now. And it was, we're pretty excited about it, and we're pretty excited about the future of Gulfstream. I'll let Danny answer the other. To Phoebe's point, the success. Yeah.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2156930,
@@ -2635,6 +2704,7 @@
    "t1_ms": 2210710,
    "speaker": "Management",
    "text": "I think the success of this all-new family of aircraft just reinforces our commitment to continue to develop the port, continue to invest in our product lineup, both from a new aircraft standpoint, as well as sophisticated projects, or stay on this path.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2189230,
@@ -2650,6 +2720,7 @@
    "t1_ms": 2214520,
    "speaker": "Analyst",
    "text": "Okay.",
+   "name": "Sheila Kahyaoglu, Jefferies",
    "parts": [
     {
      "t0_ms": 2210710,
@@ -2665,6 +2736,7 @@
    "t1_ms": 2224210,
    "speaker": "Operator",
    "text": "Thank you. Your next question, from the line of Gautam Khanna of TD Cowan. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2214520,
@@ -2692,6 +2764,7 @@
    "t1_ms": 2254650,
    "speaker": "Analyst",
    "text": "Yeah. Thank you. And congrats to Phoebe and Danny. I echo the sentiment. Thank you. And to some others. I wanted to ask about Gulfstream next year. I know you guys talked about the 280-300 transition. If you could just update us on kind of how... What's your current view on kind of the gap on some of the smaller jets, and what that might mean for margins, just as we start thinking about 27?",
+   "name": "Gautam Khanna, TD Cowen",
    "parts": [
     {
      "t0_ms": 2224210,
@@ -2743,6 +2816,7 @@
    "t1_ms": 2293160,
    "speaker": "Management",
    "text": "Yeah. So as we... As the 280 phases out, as I think we've seen, we're going to have a lot of changes. And I think that's going to be a big part of the future of Gulfstream. But as the 280 phases out, as I think we've said in previous calls, there will be a gap between that and the 300. We prefer if we didn't have it, but we have it. That said, we will more than offset the reduction in the 280 volume with additional large-cabin aircraft, and as a result, we'll have a more favorable mix, and that will obviously have a positive impact on margins. And that said, even with reduced number of 280s, it will not preclude us from having a better 2027 than 2026. So on delivery...",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2254650,
@@ -2806,6 +2880,7 @@
    "t1_ms": 2304680,
    "speaker": "Management",
    "text": "And just to put a finer point on it, when does that gap begin?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2293160,
@@ -2821,6 +2896,7 @@
    "t1_ms": 2309680,
    "speaker": "Analyst",
    "text": "Is it after the first quarter, or do you have a sense for when the last 280s...",
+   "name": "Gautam Khanna, TD Cowen",
    "parts": [
     {
      "t0_ms": 2304680,
@@ -2836,6 +2912,7 @@
    "t1_ms": 2332950,
    "speaker": "Management",
    "text": "Yeah. It goes into kind of middle of next year is when we expect the 280s will finish delivery. And then we expect towards the end of next year. And then deliveries will obviously... Delivery will obviously happen after that, and it'll be somewhat dependent on the situation in the Middle East.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2309680,
@@ -2871,6 +2948,7 @@
    "t1_ms": 2342570,
    "speaker": "Operator",
    "text": "Your next question from the line of Christine LeWog of Morgan Stanley. Your line is open. Please go ahead. Hey, good morning, everyone.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2332950,
@@ -2898,6 +2976,7 @@
    "t1_ms": 2343570,
    "speaker": "Analyst",
    "text": "And Phoebe, congrats.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2342570,
@@ -2913,6 +2992,7 @@
    "t1_ms": 2387570,
    "speaker": "Management",
    "text": "You know, Phoebe, I mean, you've already made significant investments in Gulfstream, you know, as you talked about, and it seems like the business is positioned well for the next decade, maybe even the next two decades. And now you've got unprecedented visibility marine, a record backlog. What's the next step? So, I guess, when you think about the business where you're in a strong position of growth, you've got a strong cash generation, the balance sheet is pristine and in a net cash position, how do we think about your appetite for adding another leg to the business, even maybe looking at something that the defense tech companies are doing, perhaps in low-cost, high-volume equipment? And also, Danny, I think you've got a lot of questions about the business. I think you've got a lot of questions about the business.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2343570,
@@ -2972,6 +3052,7 @@
    "t1_ms": 2430980,
    "speaker": "Management",
    "text": "And also, Danny, as you step into the CEO role, are there particular areas of the portfolio where you see opportunities to invest, either organically or through M&A, that could shape GD's next phase of growth, similar to what Phoebe did? Well, let me just emphasize first principles. We invest where we believe that we can get a good return and provide products for our customers. So, we have invested, as you noted, over the last few years in both the defense businesses heavily and the defense businesses in Gulfstream, because we anticipated growth. And that growth is materializing.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2387570,
@@ -3019,6 +3100,7 @@
    "t1_ms": 2475050,
    "speaker": "Management",
    "text": "It will continue to increase in some areas and will continue to invest in our business as appropriate. We have never discussed M&A, and so we're not going to go there now. I would just say that we are very, very careful. Companies that get outside their lane into adjacencies, your ability to manage risk decreases and the risk increases. So, we are very cautious with how we spend our precious capital. And when we do, we're looking for a strong return and then our ability to meet our customers' needs. I doubt that will ever change. That's what we're looking for. We don't have much to add to that.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2430980,
@@ -3078,6 +3160,7 @@
    "t1_ms": 2490720,
    "speaker": "Management",
    "text": "I think Phoebe's cap... We've thought about capital allocation, specifically around M&A. We've thought about capital allocation. We've thought about capital allocation, specifically around M&A. We expect that to continue. Great. Well, thank you very much, and congrats again. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2475050,
@@ -3121,6 +3204,7 @@
    "t1_ms": 2500190,
    "speaker": "Operator",
    "text": "Thank you. Your next question from the line of Andre Madrid of U.S. Bancorp BTIG. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2490720,
@@ -3148,6 +3232,7 @@
    "t1_ms": 2530990,
    "speaker": "Analyst",
    "text": "Yep. Thanks. Good morning, and congratulations, Phoebe and Danny. You know, we were discussing technologies. I want to go back there. It's been, you know, I think 2021 was the last year we saw double-digit margins there. And we've looked at a lot of different things. there. You provided some color on how we should expect the business to trend on the top line. Could you maybe talk about some of the moving pieces that might get us back to double digits at that segment and maybe talk about that in reference to GDIT and mission systems more",
+   "name": "Andre Madrid, BTIG",
    "parts": [
     {
      "t0_ms": 2500190,
@@ -3199,6 +3284,7 @@
    "t1_ms": 2567420,
    "speaker": "Management",
    "text": "specifically? Look, I think the pieces of this portfolio continue to grow. In the case of mission systems specifically, really we've had a strategy of developing highly differentiated products, electronic systems that can be proliferated across a large number of systems. Part of that strategy has been to develop those systems and those electronic systems where the threat environment has dictated and where we see strong demand and often ahead of need. I think that's",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2530990,
@@ -3230,6 +3316,7 @@
    "t1_ms": 2611380,
    "speaker": "Management",
    "text": "served us well. We'll continue to see them invest and grow. IT has done a very good job in this environment. We found ourselves in over the last 24 months or so in terms of adjudications of the ability to do that. We've done a very good job in the last 24 months or so in terms of the ability to do that. We've done a very good job in the last 24 months or so in terms of ability to grow the portfolio activity in that space has slowed down significantly. And they've done that because they've invested in mission-ready technologies and been able to grow on contract",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2567420,
@@ -3265,6 +3352,7 @@
    "t1_ms": 2636420,
    "speaker": "Management",
    "text": "work with the use of OTAs and price contracting. So I think between those two things, I continue to see both in the overall time goes on. Got it. That's very helpful. And then maybe pivoting to",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2611380,
@@ -3284,6 +3372,7 @@
    "t1_ms": 2647720,
    "speaker": "Analyst",
    "text": "combat systems, we dug in pretty deep on land systems, specifically ELS. But I want to discuss maybe what some of the milestones we should be looking out for on the OTS side would be.",
+   "name": "Andre Madrid, BTIG",
    "parts": [
     {
      "t0_ms": 2636420,
@@ -3303,6 +3392,7 @@
    "t1_ms": 2694160,
    "speaker": "Management",
    "text": "Yeah, there's a lot of stuff happening in the munitions world. We are, I think as we've talked in the past, we're investing in solid rocket motor capability to support Lockheed Martin in this instance. And that facility is going up per plan, and we expect that to be qualified and producing solid rocket motors in 2028 over at Mesquite on the artillery side. We are executing the revised projects per plan that we have with the Army. We expect to be producing test rounds next year and in production in early 28. So those are a couple of major milestones. And then I think we've talked a little bit about our support to the missile primes,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2649940,
@@ -3342,6 +3432,7 @@
    "t1_ms": 2711270,
    "speaker": "Management",
    "text": "and that's happening as we speak. And we are, hitting the numbers that we're committing to over there. So there's a lot of stuff happening in the munitions group. Ben, I think we have time for one more question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2694220,
@@ -3365,6 +3456,7 @@
    "t1_ms": 2719080,
    "speaker": "Operator",
    "text": "Your next question from the line of David Strauss of Wells Fargo. Your line is open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2713160,
@@ -3380,6 +3472,7 @@
    "t1_ms": 2760430,
    "speaker": "Analyst",
    "text": "Thanks, Maureen and Phoebe. Congrats on your legacy. And I think setting up Danny for a lot of success here moving forward. Danny, just, trying to put a bit of a finer point on the growth that we could expect for Marine from here. If I just look, you know, on average over the last couple of years, you know, you've seen about $2 billion of kind of annual revenue growth in that business. Is there any reason to think that into, you know, next year that we wouldn't see a similar just kind of absolute level of revenue",
+   "name": "David Strauss, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2722530,
@@ -3419,6 +3512,7 @@
    "t1_ms": 2805190,
    "speaker": "Management",
    "text": "growth? Yeah, I mean, we'll obviously, David, we'll provide guidance in January, but I think we'll continue to grow. And we'll continue to grow. And we'll continue to grow. And we'll continue to grow. And we'll continue to grow. And we'll continue to grow. And we'll continue to grow. But you've pointed it out. I mean, we have seen by any definition of the word will grow $2 billion over 2025. And we're starting to get into the law of large numbers here where a number on top of what we currently are. We will continue to grow, however, and we fully expect to and not just at NASCO. So I think you will, you'll hear more about this in January. But I think the broad theme is",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2760430,
@@ -3458,6 +3552,7 @@
    "t1_ms": 2808790,
    "speaker": "Management",
    "text": "that we will continue to grow, maybe not quite at this pace, but we'll continue to grow. And we'll",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2805190,
@@ -3473,6 +3568,7 @@
    "t1_ms": 2837520,
    "speaker": "Analyst",
    "text": "certainly see continued growth. Okay. And over on the tech and combat side of things, you know, just given the strong bookings and the backlog growth we've seen this year, is there a reason why growth, you know, in those businesses wouldn't accelerate a bit from here, I guess, from kind of the mid single digit rate that we're seeing, you know, out of those businesses this year?",
+   "name": "David Strauss, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2808810,
@@ -3500,6 +3596,7 @@
    "t1_ms": 2878240,
    "speaker": "Management",
    "text": "Yeah. So, so combat is interesting in that, and the fact that we have European land systems that has grown when you look at it compared to last in 2025, the same quarter at 28%, and ordnance tactical systems at 16%. And that's been offset a little bit by this transition that land systems is is going through in terms of a larger share of development programs in the portfolio. And it speaks to the strength of the totality that the largest part. So,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2838620,
@@ -3539,6 +3636,7 @@
    "t1_ms": 2899320,
    "speaker": "Management",
    "text": "26 as compared to 25. And I think you will continue to see it grow. Again, in January, we'll have more to see. We are converting the backlog that you see in this record, backlog that you see as we speak, and that will continue to happen and accelerate.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2878280,
@@ -3562,6 +3660,7 @@
    "t1_ms": 2906490,
    "speaker": "Operator",
    "text": "There are no further questions at this time. I will now turn the call back to Nicole Shelton",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2902130,
@@ -3577,6 +3676,7 @@
    "t1_ms": 2922230,
    "speaker": "Management",
    "text": "for closing remarks. Thank you. And thank you, everyone, for joining our call today. As a reminder, please refer to the General Dynamics website for the third quarter earnings release and highlights presentation. If you have additional questions, I can be reached at 703-876-3152.",
+   "name": "Nicole Shelton, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 2906490,
@@ -3600,6 +3700,7 @@
    "t1_ms": 2927350,
    "speaker": "Operator",
    "text": "This concludes today's call. Thank you for attending. You may now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2923510,
@@ -5783,6 +5884,7 @@
    "quote": "In January, we told you to assume an EPS range of $16.10 to $16.50.",
    "adj_ret_5m": -0.006673764574515073,
    "speaker": "Management",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "vol_mult": 25.717646838268795,
    "spillover": "company"
   }
@@ -5796,6 +5898,7 @@
    "t0_ms": 971170,
    "speaker": "Management",
    "quote": "In January, we told you to assume an EPS range of $16.10 to $16.50.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "metric": "2026 EPS guidance (January)",
    "kind": "guidance",
    "novel": true,
@@ -5828,6 +5931,7 @@
    "t0_ms": 107580,
    "speaker": "Management",
    "quote": "We reported earnings of $4.49 per diluted share on revenue of $14.5 million, operating earnings of $1.527 million, and net earnings of $1.229 million.",
+   "name": "Phoebe Novakovic, Chairman and CEO",
    "metric": "Diluted EPS",
    "kind": "result",
    "novel": false,
@@ -5860,6 +5964,7 @@
    "t0_ms": 252500,
    "speaker": "Management",
    "quote": "I'll start with orders and backlog, where we had a truly historic quarter, nearly $99 billion in debt.",
+   "name": "Kim Korea, CFO",
    "metric": "Orders",
    "kind": "result",
    "novel": false,
@@ -5986,14 +6091,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 332.0,
   "gpu_usd": 0.1176,
-  "claude_s": 42.0,
+  "claude_s": 11.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 5714,
-   "output_tokens": 7127,
-   "cache_read_input_tokens": 13740,
-   "cache_creation_input_tokens": 13740
+   "input_tokens": 2,
+   "output_tokens": 1236,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 20406
   },
-  "claude_usd": 0.1184
+  "claude_usd": 0.0684
  },
  "context": {
   "ts": [

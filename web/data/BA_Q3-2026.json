@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-27T10:30:00-04:00",
   "etf": "XLI",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/BA_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/BA_Q3-2026.mp3",
   "company": "Boeing",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 33400,
    "speaker": "Operator",
    "text": "Thank you for standing by. Good day, everyone, and welcome to the Boeing Company's third quarter, 2026 earnings conference call. At this time, all participants are in a listen-only mode. Please be advised that today's call is being recorded. The management discussion and slide presentation, plus the analyst question and answer session, are being broadcast live over the internet. To ask a question on today's call, please press star, then one, on your telephone. At this time, I am turning the call over to Mr. Eric Hill, Vice President of Investor Relations for opening remarks and introductions. Mr. Hill, please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -83,6 +84,7 @@
    "t1_ms": 78300,
    "speaker": "Management",
    "text": "Thank you and good morning. Welcome to Boeing's quarterly earnings call. With me today are Kelly Ortberg, Boeing's President and Chief Executive Officer, and Jay Malabay, Boeing's Executive Vice President and Chief Financial Officer. This quarter's webcast, earnings release, and presentation, which include relevant disclosures and non-GAAP reconciliations, are available on our website. Today's discussion includes forward-looking statements that are subject to risks and uncertainties, including the ones described in our SEC filings. As always, we'll leave time at the end of the call for analyst questions. With that, I will turn the call over to Kelly Ortberg. Well, thanks, Eric, and good morning, everyone. Thanks for joining in today's call. As we enter the final months of the year,",
+   "name": "Eric Hill, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 34900,
@@ -170,6 +172,7 @@
    "t1_ms": 120400,
    "speaker": "Management",
    "text": "we're continuing to make progress across our businesses, having completed many of the key milestones in our 2026 plan and building on the trust we've restored with our stakeholders. Through the third quarter, we've delivered 161 commercial aircraft, the most since 2018. We received FAA certification for the 737-7 in July and the 737-10 just last week. We reached a new four-year agreement with the union representing our engineering and technical workforce in the Pacific Northwest, avoiding any work interruption. And we secured major program awards across our defense",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 78300,
@@ -233,6 +236,7 @@
    "t1_ms": 163700,
    "speaker": "Management",
    "text": "and space portfolio, including multi-billion dollar contracts on key programs like the PAC-3 and the F-15EX. And we scored a generational win with the U.S. Navy when they selected Boeing to design, build, and deliver its sixth-generation fighter jet, making Boeing the exclusive sixth-generation fighter company for both the U.S. Air Force and the U.S. Navy. These accomplishments reflect the significant progress we're making and they're made possible by the sustained focus of our team on safety, quality, and performance. We know there's more work to do and I've said before, our progress is not always gonna be perfectly linear, but we continue to improve",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 120400,
@@ -300,6 +304,7 @@
    "t1_ms": 207600,
    "speaker": "Management",
    "text": "and I'm confident we're on the right track. I'll touch on the highlights I just shared, as well as areas that require more attention in the quarters ahead, and let's start with our development programs. All year we've said that certifying our new aircraft models is one of our most important goals. The FAA certification of the 737-7 and the dash 10 represents the culmination of nearly 1,500 test flights and more than 4,000 hours of ground and flight testing. And I want to thank our employees who worked on or supported these programs and never lost sight of our mission. And to our customers and partners, I extend my gratitude for the steadfast support and confidence in these airplanes.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 163700,
@@ -375,6 +380,7 @@
    "t1_ms": 249100,
    "speaker": "Management",
    "text": "And we look forward to the newest members of the 737 MAX family, delivering on their promise of greater efficiency and more capability. With the 737-7 and dash 10 FAA certification we're complete. Our focus now centers squarely on the 777-9. We continue to make progress on flight testing and still need approval to begin the balance of the flight test program, including ETOPS testing. We continue to expect first delivery in 2027, and all of our latest assumptions continue to be within the EAC we reset last year. Turning now to our commercial factories.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 207600,
@@ -438,6 +444,7 @@
    "t1_ms": 292200,
    "speaker": "Management",
    "text": "On 737, we continue to work towards stabilizing production at 47 airplanes per month. Our factory key performance indicators are performing well, particularly in the final assembly where we've seen a 40% improvement in rework since the start of last year. However, as I mentioned at a conference last month, it is taking us longer than we had expected to demonstrate performance at rate 47. We're making progress, but we still have more work to do. And I'm expecting it'll take us into next year to get fully stable at this rate. Our output of wings is improving, but we need to demonstrate sustained performance at this level and ensure we have a high-confidence plan",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 249100,
@@ -509,6 +516,7 @@
    "t1_ms": 336900,
    "speaker": "Management",
    "text": "to step up to rate 52 when the system is ready. To reach 52 aircraft per month, we have to get the Northline certified and producing our back shops, including wings, stable and ready, and fuselages in Wichita stable at the higher rates. Taken together and integrating our learning from this year, our financial plan will target rate 52 in the back half of 2027. And as I've said many times before, it's more important that we do this ramp right than what particular month we achieve a rate break. And we'll stay disciplined here. Switching now to 787, we are stable at eight aircraft per month while the factory is performing well.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 292200,
@@ -576,6 +584,7 @@
    "t1_ms": 380500,
    "speaker": "Management",
    "text": "While we have stability in our factory, delivery cadence has been uneven month to month due to the seat certification challenges we've discussed previously. We are seeing increased stability in our supply chain and closely watching engine delivery performance as it remains the pacing item for rate 10. We still expect to start the transition to 10 per month yet this year, and we're making good progress on our Charleston expansion to support even higher production rates. Beyond the progress we're making in our factories, we're also continuing to position Boeing for the long term. That is showing up in the quality of our backlog, the demand we're seeing across the portfolio and in the investments and program wins",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 336900,
@@ -651,6 +660,7 @@
    "t1_ms": 422800,
    "speaker": "Management",
    "text": "that position us well into the future. Last month, we achieved a transformational win that'll shape the company for decades to come when the U.S. Navy selected Boeing as the winner of the FAXX competition. To be selected for another six generation fighter program is a testament to our innovation, our team and trust we built with our customers. It is a true honor to support the national security priorities and a responsibility we take very seriously. In addition to FAXX, we continue to see strong demand for proven franchises across our defense and space portfolio. Boeing received a seven year contract to accelerate",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 380500,
@@ -722,6 +732,7 @@
    "t1_ms": 467800,
    "speaker": "Management",
    "text": "and eventually triple the PAC-3 Seeker production supported by our early investments in facilities, workforce and supply chain. In the quarter, we also received a contract to manufacture 22 more F-15EX aircraft for the U.S. Air Force. And this award brings the total number of aircraft under contract to 120 with the potential for additional upside as the F-15EX continues to demonstrate the value of its unmatched payload and range capability. Beyond new franchise wins, we also continue to see tangible benefits from the active management approach we've talked about. As I said last quarter, Starliner was a program where we still had work to do with the customer.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 422800,
@@ -797,6 +808,7 @@
    "t1_ms": 511600,
    "speaker": "Management",
    "text": "We've since worked with NASA on a path forward to support future flights while reducing our program risks, including $359 million of additional NASA funding. Taken together, these are the kinds of actions and outcomes that will support our customers, strengthen Boeing and position us well for the future. That long-term position is also beginning to give us greater visibility into the financial path forward. As I mentioned, over the last two years, we've made exceptional progress restoring trust, retiring risk and transforming our culture and rebuilding the foundation of safety and quality that will help ensure durable success. We have also been deliberate",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 467800,
@@ -868,6 +880,7 @@
    "t1_ms": 554500,
    "speaker": "Management",
    "text": "about not getting ahead of ourselves given the range of outcomes tied to the production ramp, certification timing and other critical program execution. But we appreciate that it's been difficult for share owners to assess how our progress will translate into financial performance. We're now at a point where the range of outcomes is narrowing. As we look ahead, our outlook is supported by a record backlog of $745 billion with improved pricing dynamics, a more stable production system and better underwriting on development programs and our plans for continued progress on aircraft certification. Taken together, those factors give us confidence",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 511600,
@@ -943,6 +956,7 @@
    "t1_ms": 598000,
    "speaker": "Management",
    "text": "to share a multi-year free cash flow target for the business. We've narrowed our range and expect to generate approximately $2 billion of free cash flow in 2026. I'm expecting that that'll improve to about $3 billion in 2027, inclusive of the additional capex to support the FAXX development. We believe this should improve to about $6 billion in 2028 as we start to burn off some of the headwinds and accelerate from there. And I expect to achieve the $10 billion target in 2029. Jay will provide further color on the elements driving this trajectory in his remarks, but it's important to highlight we continue to see significant growth potential",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 554500,
@@ -1022,6 +1036,7 @@
    "t1_ms": 640700,
    "speaker": "Management",
    "text": "beyond the 10 billion in line with our prior comments. So to sum it up, we remain well-positioned for the long-term. I'm pleased with our progress we've made so far. We've come a long way, but we're entering a new phase and the bar is higher now. As it should be, our job is to keep raising our performance to meet higher expectations while always prioritizing safety, quality, and stability. I'm confident we'll get there because we're doing the right work and taking the right actions to build more durable, dependable performance over time. So before we close, I wanna thank all of our employees for the work they're doing every day to move Boeing forward. And with that, I'll turn it over to Jay",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 598000,
@@ -1101,6 +1116,7 @@
    "t1_ms": 685500,
    "speaker": "Management",
    "text": "to discuss our financial results in more detail before we move to question and answer. Thanks, Kelly, and good morning, everyone. Starting with consolidated financial results for the quarter, revenue of $24.2 billion was up 4%, primarily driven by higher defense and services volume, partially offset by less favorable commercial delivery mix in the quarter. Operating margin improved to 1.5% and core earnings per share improved to a loss of 34 cents, reflecting higher segment earnings and lower corporate expenses. Pre-cash flow was positive $464 million in the quarter in improvement versus the prior year, driven by improved working capital, partially offset by the Department of Justice",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 640700,
@@ -1176,6 +1192,7 @@
    "t1_ms": 728500,
    "speaker": "Management",
    "text": "settlement payments of approximately $700 million and planned capbacks for our investments to expand capacity in Charleston and St. Louis. Turning to BCA on the next page, BCA delivered 161 airplanes in the quarter. Revenue was $10.7 billion, down 3% year over year, driven primarily by less favorable delivery mix. Operating margin of negative 6.5% improved materially versus the prior year's results, which were impacted by the 777X charge. That improvement was partially offset by a reduction in booking rates associated with production rate adjustments and higher estimated supply chain costs.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 685500,
@@ -1243,6 +1260,7 @@
    "t1_ms": 772900,
    "speaker": "Management",
    "text": "Backlog at BCA increased again to a new record level of $612 billion. It includes over 6,300 airplanes. This includes orders during the quarter from Turkish Airlines, Ethiopian Airlines, and Lufthansa. Clicking down on commercial program performance, starting with the 737, we delivered 124 airplanes in the quarter. As we close out the year, the delay in stability at 47 per month is expected to translate to the lower delivery output and come in shy of the 500 delivery target. Let me remind you that we've built Dash 7 and Dash 10 aircraft prior to certification that will start delivering early next year. Going forward, we expect longer intervals",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 728500,
@@ -1318,6 +1336,7 @@
    "t1_ms": 816400,
    "speaker": "Management",
    "text": "between rate steps the higher we go, which is more in line with our historical demonstrated performance. That said, our team has detailed plans for what is required to get to higher rates, and we continue to make investments to create more capacity and resiliency in our production system that will enable stronger performance at higher levels with a consistent focus on safety and quality. On the 787, we delivered 22 airplanes in the quarter. We continue to expect to deliver 90 to 100 airplanes in the year, but expect it to be closer to the lower end given the delays in getting to rate 10. In Charleston, our factory expansion is underway, and we expect the majority of the capability to come online late next year.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 772900,
@@ -1397,6 +1416,7 @@
    "t1_ms": 860500,
    "speaker": "Management",
    "text": "In addition to the two lines in our current footprint, our second final assembly building will add a third line that increases capacity, flexibility, and resiliency in our production system. On the current 777 metal wing freighter, we received FAA approval for incremental production of up to 35 units, further extending the most popular, dedicated freighter of all time. During the quarter, our 777 freighter and 767 tanker production lines were disrupted by a supplier of wing components. Shipments from that supplier have resumed. However, there will be a gap in our production system that gradually flows through these production lines over the next few quarters. The cost of that disruption was not material in the third quarter,",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 816400,
@@ -1480,6 +1500,7 @@
    "t1_ms": 905500,
    "speaker": "Management",
    "text": "but will be treated as abnormal cost and period expense over the next few quarters. Finally, on 777X, as Kelly mentioned, we remain on track for first delivery in 2027. As we get closer to certification, we have firmed up our production and delivery plan. We are currently producing airplanes at a rate of approximately one per month and expect to stay at that level for most of 2027. These latest assumptions are within our EAC. With respect to program cash flow, we continue to expect 2027 to be a significant use of cash with 2028 improving before turning positive in 2029. Like the rest of our programs, we are prioritizing safety, quality, and stability as we ramp this new production system",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 860500,
@@ -1559,6 +1580,7 @@
    "t1_ms": 949500,
    "speaker": "Management",
    "text": "and work towards a delivery schedule that our customers can reliably plan for. Okay, let's shift over to BDS on the next page. BDS delivered 30 aircraft and three satellites in the quarter. Revenue increased 15% to $7.9 billion, driven primarily by higher volume, including growth on classified programs and missiles and weapons. Spirit contributed approximately $160 million to sales in the quarter or two points of growth. BDS operating margin was 6.2% in the quarter and includes a $252 million gain on the sale of HRL laboratories. Across the BDS portfolio, we continue to see operating performance gains in line with our expectations of steady margin improvement.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 905500,
@@ -1642,6 +1664,7 @@
    "t1_ms": 991200,
    "speaker": "Management",
    "text": "And we remain confident in our path to high single digit operating margins by the end of the decade. BDS booked $23 billion in orders during the quarter with record backlog of $101 billion. And we remain committed to our strategy of entering into appropriate contract structures on new business. Importantly in the quarter, BDS was selected by the US Navy to design, build, and deliver the FA-XX Next Generation fighter aircraft. This order was not included in our third quarter backlog pending completion of the source selection and evaluation process. Now moving to global services on the next page. BDS sustained its momentum and delivered another quarter of strong financial performance.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 949500,
@@ -1729,6 +1752,7 @@
    "t1_ms": 1035099,
    "speaker": "Management",
    "text": "Revenue was up 4% to $5.6 billion. Excluding the impact of the digital aviation solutions divestiture, revenue was up 11% from prior year, primarily driven by government and commercial modifications volume. Operating margin of 18.3% was up from prior year on favorable volume and mix partially offset by the divestiture last year. Both commercial and government businesses delivered double-digit margins in the quarter. Operationally, the BDS team continues to demonstrate process improvements across the business. For example, on the C-17 heavy maintenance program, we continue to perform work at record low rework levels while taking on greater scope of work for our customer,",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 991200,
@@ -1816,6 +1840,7 @@
    "t1_ms": 1079500,
    "speaker": "Management",
    "text": "supporting revenue growth and margin performance. BDS received $5 billion of orders and ended the quarter with a backlog of $33 billion. Shifting over to cash and debt. Cash in marketable securities ended at $20.7 billion, primarily reflecting cashflow generated in the quarter. But that balance was unchanged from the prior quarter at $45.9 billion. We continue to maintain access to $10 billion of revolving credit facilities, all of which remain undrawn. And we remain committed to strengthening the balance sheet and supporting our investment grade rating. Now, let me provide some additional context on our free cashflow outlook and targets. First, as Kelly noted, we have narrowed our prior range",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1035099,
@@ -1903,6 +1928,7 @@
    "t1_ms": 1124300,
    "speaker": "Management",
    "text": "and expect to deliver approximately $2 billion of free cashflow in 2026. This includes the assumption of the KC-46A tanker lot 13 order and advance as well as other seasonal working capital benefits in the quarter. As Kelly said, we have increased clarity into our medium term financial plan. In 2027, we expect to generate approximately $3 billion of free cashflow, followed by approximately $6 billion in 2028 and $10 billion in 2029 with significant growth potential beyond that in future years. For financial planning purposes, these targets assume that 777X will be certified by mid-year 2027. For 2027, in addition to the absence",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1079500,
@@ -1986,6 +2012,7 @@
    "t1_ms": 1168700,
    "speaker": "Management",
    "text": "of the DOJ payment made in 2026, we expect free cashflow growth to be driven by higher commercial deliveries, modestly improved cash margins on the 737 and 787 programs, continued improvement at BDS and continued steady growth at BGS. We expect these fundamental growth drivers to be partially offset by the impact of less favorable working capital, including lower year-over-year BCA order deposits and around $1 billion of increased capex, which includes the growth associated with recent awards in BDS. Keep in mind, as we discussed earlier this year, 2027 free cashflow will be significantly impacted by the legacy cash drags.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1124300,
@@ -2065,6 +2092,7 @@
    "t1_ms": 1212900,
    "speaker": "Management",
    "text": "Beyond 2027, we expect these legacy cash drags to continue to abate in the path to $10 billion to be underpinned by higher 737 and 787 deliveries with improving cash margins, positive cash contribution from 777X, profitable growth at BDS and BGS, and still elevated but lower capex. As we have said before, there remains significant growth beyond the $10 billion in the future. All of this is underwritten by the robustness and pricing included in our record backlog of $745 billion. As we advance, we would expect to provide additional assumptions in support of this free cashflow plan and other elements of the P&L.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1168700,
@@ -2140,6 +2168,7 @@
    "t1_ms": 1238860,
    "speaker": "Management",
    "text": "Okay, summing it up, our focus remains on deliberate and disciplined execution consisting of steady deliveries, validated rate step-ups, and operational performance that builds upon itself. We will not sacrifice long-term durability. Every decision is made to enable us to deliver on the full potential of the business. With that, let's open up the line for questions.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1212900,
@@ -2187,6 +2216,7 @@
    "t1_ms": 1253260,
    "speaker": "Operator",
    "text": "We will now begin the question and answer session. In the interest of time and to allow for broader participation, we ask that you limit yourself to one single part question. Our first question comes from a line of Myles Walton from Wolf Research. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1238860,
@@ -2230,6 +2260,7 @@
    "t1_ms": 1288910,
    "speaker": "Analyst",
    "text": "Thanks. Good morning, Jay. You went through a lot there on the walk from 26 to 27 free cashflow. A lot of positives, but yet it's only, you know, extra DOJ payment, a few hundred million dollars of growth. Could you size the advances as being abnormal in 27 and then maybe walk us a little bit more on the three billion expansion in 28? Is that three quarters from 777X? Maybe just the combination of N29.",
+   "name": "Myles Walton, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1254460,
@@ -2289,6 +2320,7 @@
    "t1_ms": 1332710,
    "speaker": "Management",
    "text": "Okay, sure. Thanks, Myles. Let me maybe slow it down a little bit. I was moving pretty quick there through the materials. And just go back and just another quick summary here. As you mentioned, Myles, the DOJ payment doesn't repeat in 2027. That's a $700 million benefit. As I also said during my prepared remarks, we'll get the benefit from a higher BCA delivery volume as well as modestly improving cash margins. You may recall in the second quarter, I discussed BCA margins and they were about and they stood in for 2026 around break even. So our contribution from BCA will be largely from the improving cash margins in 2027. Of course, we'll have continued growth from improvement from BDS and BGS.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1288910,
@@ -2368,6 +2400,7 @@
    "t1_ms": 1374810,
    "speaker": "Management",
    "text": "So those all taken together provide positive benefit to cash flow in 2027. As you mentioned, and as I mentioned in my prepared remarks, we will expect to have lower customer deposits. BCA 2026 was just a very strong year. It's trending to be a record year. The market is strong. Our campaign activity and pipelines remains robust. So we still expect 2027 order cash to be pretty strong as well, but just not at the same record level of 2027. And yeah, I would kind of size that in a range of a few billion dollars of impact. And then as I mentioned, just to close it out, the capex will be higher at $5 billion.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1332710,
@@ -2443,6 +2476,7 @@
    "t1_ms": 1419410,
    "speaker": "Management",
    "text": "So it's about a billion dollars higher than 2024. So those are all the building blocks of 2027 free cash flow. As we get into 28 and really 29, it's kind of a similar story. These legacy drags continue to abate and they come down. And so we'll see improving cash margins and we'll also get the benefit, a higher benefit from higher delivery volumes because now we'll be working from positive cash margins. And so we'll get a double benefit from both of those. And that's all supported by the backlog that we have. As we get to 2029 more specifically, we'll be at higher production levels. And so I've said in the past that we expect",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1374810,
@@ -2518,6 +2552,7 @@
    "t1_ms": 1462710,
    "speaker": "Management",
    "text": "that the building blocks of a $10 billion free cash flow on a normalized basis is around 52 on 737 for deliveries on a delivery rate around 10 for the 787 on a delivery rate and positive cash generation out of triple seven program. In 29 specifically, we'll be operating at higher production levels, which will translate into higher delivery levels. And so we'll be closer to the mid to high 50s on deliveries. And 29 will be closer to around 12 per month on a 787 and we'll be generating positive free cash flow or expect to generate positive free cash flow on the triple seven X and 29. The reason we need to be at higher levels",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1419410,
@@ -2589,6 +2624,7 @@
    "t1_ms": 1484210,
    "speaker": "Management",
    "text": "is because we'll still have some residual drags in 29. And I expect those to be fully behind us for the most part by 29. So there's runway, as I mentioned in my prepared remarks in 2030 and beyond above $10 billion. So hopefully that encapsulates 27 and also the future year outlook for you. All right, thanks, Jay.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1462710,
@@ -2632,6 +2668,7 @@
    "t1_ms": 1489110,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Seth Seifman from JP Morgan. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1484210,
@@ -2655,6 +2692,7 @@
    "t1_ms": 1533210,
    "speaker": "Analyst",
    "text": "Hey, thanks very much and good morning. Wanted to ask a little bit about the unit returns on aircraft. You talked in the release about some cost growth that we're seeing. If you could, both from the supply chain and from the process of increasing rates, if you could give a little more color on what that is and then also how it affects your thinking about unit cash profitability in the out years. And then on the pricing side, the fact that we're looking at kind of a more gradual ramp up in rates,",
+   "name": "Seth Seifman, JP Morgan",
    "parts": [
     {
      "t0_ms": 1490610,
@@ -2718,6 +2756,7 @@
    "t1_ms": 1543410,
    "speaker": "Analyst",
    "text": "is that affecting the ability to kind of, the timing on moving beyond some of these legacy drags on unit revenue?",
+   "name": "Seth Seifman, JP Morgan",
    "parts": [
     {
      "t0_ms": 1533310,
@@ -2741,6 +2780,7 @@
    "t1_ms": 1589210,
    "speaker": "Management",
    "text": "Seth, let me kind of walk you through. Let me start with the BCA margins here in the third quarter. I did talk about them being impacted by the rate adjustments as well as higher supply chain costs. We had to roll those, as you know, through our EACs which resulted in an impact to our booking rates. Specifically on, I also had to talk related to the 777 program, the existing freighter program and the 767 program, we expect some abnormal costs to carry forward now in the fourth quarter into the first half of the year. I expect those to put some pressure on, call it third quarter run rate margins over that period of time, but they will abate and pretty much diminish",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1544810,
@@ -2820,6 +2860,7 @@
    "t1_ms": 1632410,
    "speaker": "Management",
    "text": "in the second half of the year. When you take into account the benefit of cost-based extensions at a higher price backlog and other performance with the higher volumes, we will make some significant improvement in the back half of the year, put ourselves in a position to get to about break even in early 2028. As it relates to cash, all of this that we talked about in these impacts here in the third quarter, all contemplated and factored into our clash flow projections as well as the ramp in the cash margins over this period of time. And so I don't really see much of a difference there. We've absorbed it, we've contemplated that. And with the pricing, it's already in the backlog, highly confident in the improving margin profile",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1589210,
@@ -2899,6 +2940,7 @@
    "t1_ms": 1639130,
    "speaker": "Management",
    "text": "of the BCA programs, both 737 and 787.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1633410,
@@ -2914,6 +2956,7 @@
    "t1_ms": 1642290,
    "speaker": "Analyst",
    "text": "Thanks very much.",
+   "name": "Seth Seifman, JP Morgan",
    "parts": [
     {
      "t0_ms": 1639130,
@@ -2929,6 +2972,7 @@
    "t1_ms": 1647190,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Sheila Kiaglu from Jeffreys, your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1642290,
@@ -2948,6 +2992,7 @@
    "t1_ms": 1681990,
    "speaker": "Analyst",
    "text": "Thank you, good morning. Jay, Kelly, thank you so much for all that long-term color, Kelly, but maybe if we could just step back and talk about the macro, lots of interest around how higher for longer oil prices might affect the aerospace industry. And obviously you have a key unique perspective on that. Can you maybe talk to customer channels you're checking to assess the market, whether it's orders, the services business, or just how you're seeing lease rates move around just given the capacity cuts and with your long-term guidance, the free cash flow, what sort of oil price does that assume?",
+   "name": "Sheila Kahyaoglu, Jefferies",
    "parts": [
     {
      "t0_ms": 1648890,
@@ -3015,6 +3060,7 @@
    "t1_ms": 1726890,
    "speaker": "Management",
    "text": "Yeah, Sheila, so we are, just to confirm, we are in constant contact with all of our customers here as we're navigating through these high fuel prices. I think the actual impact is gonna be different depending on the airline. Obviously a large portion of our backlog is going into replacement aircraft. So for those customers who are bringing on new aircraft to replace older aircraft, these are much more fuel efficient. And in fact, the high fuel prices are driving them to really, really want these aircraft sooner. So the area that we may see softness is in the overall growth, depending on what the airline overall growth would be. So far we haven't seen, Sheila,",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 1682990,
@@ -3090,6 +3136,7 @@
    "t1_ms": 1769490,
    "speaker": "Management",
    "text": "we haven't seen anybody wanting to replan their order growth. If that should happen, quite frankly, given our oversold backlog, I think there's opportunity for us to shift around and manage through that. But obviously it's something we have to keep an eye on. So far the airlines have been, for the most part, flowing the higher fuel into ticket prices. I think over the next coming quarters, we'll have to watch that. But again, at a macro level, I feel pretty good about our ability to manage, even if we do see some softening demand on the growth market, because there's plenty of customers",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 1726890,
@@ -3165,6 +3212,7 @@
    "t1_ms": 1782490,
    "speaker": "Management",
    "text": "who are looking for airplanes faster for replacement. So we may have to rewicker a little bit of our firing order. If that happens, it's not happening yet. We'll have to keep close to our customers here.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 1769490,
@@ -3196,6 +3244,7 @@
    "t1_ms": 1787190,
    "speaker": "Analyst",
    "text": "Great, thank you.",
+   "name": "Sheila Kahyaoglu, Jefferies",
    "parts": [
     {
      "t0_ms": 1784090,
@@ -3211,6 +3260,7 @@
    "t1_ms": 1795690,
    "speaker": "Operator",
    "text": "Your next question comes from a line of David Strauss from Wells Fargo. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1787190,
@@ -3234,6 +3284,7 @@
    "t1_ms": 1836330,
    "speaker": "Analyst",
    "text": "Thanks, Morrie everyone. Morrie, Jay, the walk to 27, can you maybe just put a finer point on what you're expecting for MAX and 77 deliveries, including what you're assuming for liquidation of the seven and 10 inventory. And then, triple 7X, I think that's obviously pretty big. The timing there is a pretty big risk item to be outlook. Let's say that slips out of 27 in the 28. How much of a risk could that be to that 3 billion cash guide? Thanks.",
+   "name": "David Strauss, Wells Fargo",
    "parts": [
     {
      "t0_ms": 1795690,
@@ -3297,6 +3348,7 @@
    "t1_ms": 1882290,
    "speaker": "Management",
    "text": "Okay, just on the inventory aircraft, next year we expect between a dash 7 and dash 10, deliver around 30 aircraft that are prebuilt going into the year. On the 27 cash bridge, what was the, it was on the triple 7. He was asking about the triple 7, if it would slip out. Oh, and the triple 7, okay, the triple 7X program. You know, look, that's a scenario that would be significant. We're on a good path though, as Kelly mentioned, there is prepared remarks. I think the risk would be more of later in the year, which would have a kind of some impact on deliveries. Think about deliveries next year",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1837790,
@@ -3368,6 +3420,7 @@
    "t1_ms": 1894190,
    "speaker": "Management",
    "text": "between 10 to 15 in that ballpark. And so, you know, maybe you'd see some deliveries come down a little bit. And so I think that that could be absorbed within the guide that this $3 billion.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1882290,
@@ -3399,6 +3452,7 @@
    "t1_ms": 1905590,
    "speaker": "Analyst",
    "text": "Yeah, and I was also hoping to get just the, what you're exactly assuming for max deliveries and 787 deliveries in total next year. Oh yeah, okay, so yeah,",
+   "name": "David Strauss, Wells Fargo",
    "parts": [
     {
      "t0_ms": 1895790,
@@ -3426,6 +3480,7 @@
    "t1_ms": 1924720,
    "speaker": "Management",
    "text": "that's the question I forgot a piece of the tape. So that will give them a color in January. What I can tell you is think about total deliveries at BCA to be up 10% plus, similar this year. And we'll get more color on that more specifically by program in January.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1905590,
@@ -3461,6 +3516,7 @@
    "t1_ms": 1930920,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Scott Micus from Melius Research. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1924720,
@@ -3484,6 +3540,7 @@
    "t1_ms": 1963220,
    "speaker": "Analyst",
    "text": "Good morning, Kelly and Jay. Jay, I think you mentioned in the out year, 2029 timeframe, you're expecting 737 production in the mid to high 50s and 12 per month on the 787. You're gonna be at 52 per month in the back half of next year on the 37 and moving to 10 per month on the 787 by the end of this year. I'm just curious why it will take roughly two years to move up to those higher rates contemplated in the 29 targets. Just has the outlook for the supply chain deteriorated at all?",
+   "name": "Scott Mikus, Melius Research",
    "parts": [
     {
      "t0_ms": 1930920,
@@ -3543,6 +3600,7 @@
    "t1_ms": 1988570,
    "speaker": "Management",
    "text": "No, good question. It's a very good question. And typically what we have is deliveries do lag the production, but what I would characterize as the reconciliation of that is really the upside opportunity that we have to 2029. If we're able to deliver at these higher rates that we're producing it, then that would provide upside of the $10 billion target that we have out there.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1964220,
@@ -3590,6 +3648,7 @@
    "t1_ms": 1995370,
    "speaker": "Analyst",
    "text": "Okay, got it. And then if I could just follow up real quick, any assumption on cash taxes or cash interest by the time you get to 29?",
+   "name": "Scott Mikus, Melius Research",
    "parts": [
     {
      "t0_ms": 1988570,
@@ -3617,6 +3676,7 @@
    "t1_ms": 2013980,
    "speaker": "Management",
    "text": "It's more of the same. We won't start to have taxes kick in into the early 2030s. Interest will come down a little bit accordingly with the maturities, but not significant interest cash.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1996470,
@@ -3648,6 +3708,7 @@
    "t1_ms": 2018580,
    "speaker": "Operator",
    "text": "Your next question comes from a line up, Doug Harnett from Bernstein. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2013980,
@@ -3671,6 +3732,7 @@
    "t1_ms": 2061179,
    "speaker": "Analyst",
    "text": "Good morning, thank you. You know, Kelly, if I go back to August on the 737, we talked in and things looked pretty stable. It seemed at 47 a month, although, you know, as you highlighted, there are, you know, there were wings, Wichita engines, all those things to think about. Engines, I think, seemed fine. But, you know, in September, you described the challenges on drilling holes on the wing. But as we look at getting to stability now, you know, what has to happen? Is the wing issue resolved at this point? Where does Wichita stand?",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 2020080,
@@ -3738,6 +3800,7 @@
    "t1_ms": 2076880,
    "speaker": "Analyst",
    "text": "And how do we get comfortable that if the visibility wasn't that good back earlier in the summer, how do we get comfortable that things are moving on to the right track to get to that 52 point next year?",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 2062580,
@@ -3769,6 +3832,7 @@
    "t1_ms": 2120980,
    "speaker": "Management",
    "text": "Yeah, okay, so let me first of all say that engines aren't a problem in this equation. So you can kind of take that out of the equation. We had a series of flow enablers to allow us to ramp up production from 42 to 47 to support that in our wings back office or back shop. That's where we built all the wings for the 737 aircraft. And some of those flow enablers just flat out did not yield the flow savings. Some did, some didn't. So we had to step back and make some changes to that. We've got some additional flow enablers. In some cases, we're adding some capacity where we didn't see the flow enablers yield.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2077780,
@@ -3844,6 +3908,7 @@
    "t1_ms": 2163180,
    "speaker": "Management",
    "text": "And we're going through that process right now. Now, early signs are encouraging. We are improving, but we're not yet to where I can say we're stably producing wings to support the 47 a month rate. So we're gonna wanna dwell on that for a little while to make sure we're stable and don't end up in an unstable situation with production. Now, that informs our next rate increase obviously. So we didn't go as smoothly from 42 to 47 as we did from 38 to 42. And so we're gonna wanna make sure in the next rate break at 52 that we very much have understood and tested",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2121080,
@@ -3911,6 +3976,7 @@
    "t1_ms": 2206780,
    "speaker": "Management",
    "text": "all of our rate enabling functions in the back shops to make sure that they're gonna yield. The other thing is recognize that for rate 52, we've gotta have the Everett line up and running as well. Really no change to our outlook there. That's going well. In fact, yesterday we rolled out our first dash 10 from the Everett production facility. So look, we gotta get wings stable. And that's been a challenge for us. And it just, as a result of the process improvement, yields weren't there. And so what we're gonna do is learn from that and make sure before we go to the next rate,",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2163180,
@@ -3978,6 +4044,7 @@
    "t1_ms": 2216380,
    "speaker": "Management",
    "text": "we've fully tested these improvement areas and make sure that they are gonna yield the next rate increase.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2206780,
@@ -4001,6 +4068,7 @@
    "t1_ms": 2240980,
    "speaker": "Analyst",
    "text": "But if I can, are there any other watch items here? In other words, if you get the wings really, that's done, once that's done, things like fuselage is coming out of Wichita, other supply chain questions. Are there any other significant watch items or will you feel pretty good on this once you've cleared the wing situation?",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 2217880,
@@ -4044,6 +4112,7 @@
    "t1_ms": 2285280,
    "speaker": "Management",
    "text": "I think right now wings are what have caused us the instability. Part of that is because we do have inventory and fuselages. But once we get through wings, fuselage will be an important focus area for us as well. And backing up on that, remember that we are producing fuselages at a lower rate than the final assembly intentionally to burn down inventory. So the balance of this year and early into next year, we do have to see the ramp up of fuselages also. And we get synchronized with the final assembly at rate 52. So that's all in the calculus of our go-forward plan here getting wings stable,",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2240980,
@@ -4119,6 +4188,7 @@
    "t1_ms": 2311580,
    "speaker": "Management",
    "text": "ramping up the fuselage. I wouldn't point you to anything else in the supply chain right now. I mean, there's always the pop-up kind of things like we've had with the GKN windows that we're working to alleviate. But there's no systemic challenge I see right now. Again, I think it's wings fuselage will be important for this next rate break.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2285280,
@@ -4166,6 +4236,7 @@
    "t1_ms": 2316110,
    "speaker": "Analyst",
    "text": "Okay, thank you.",
+   "name": "Doug Harned, Bernstein",
    "parts": [
     {
      "t0_ms": 2312780,
@@ -4181,6 +4252,7 @@
    "t1_ms": 2320710,
    "speaker": "Operator",
    "text": "Your next question comes from a line, Peter Arment from Baird. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2316110,
@@ -4204,6 +4276,7 @@
    "t1_ms": 2353610,
    "speaker": "Analyst",
    "text": "Hey, thanks. Good morning, Kelly and Jay. Well, you just kind of touched upon which a little bit of, but maybe if you could just give us an update of the ongoing ramp of what you're seeing in spirit, any metrics you want to share on that progress. And then Jay, just to kind of confirming, you know, BCA cycling at much higher levels. It sounds like you're calling out a potential break even margin in play for 27. Are you expecting BCA margins to return to more historical levels with your kind of 29 outlook? Just maybe any color there on the slope of the margin recovery at BCA. That'd be helpful, thanks.",
+   "name": "Peter Arment, Baird",
    "parts": [
     {
      "t0_ms": 2321610,
@@ -4283,6 +4356,7 @@
    "t1_ms": 2393910,
    "speaker": "Management",
    "text": "Okay, let me start with Wichita. So, you know, overall the integration is going according to our integration plan. One of the things that we really are focused on while we kept Wichita at a lower rate was to implement our safety and quality plan at Wichita that we were very successful in implementing in Renton, as you know. And so we've been doing that. I would say that that's probably slowed them down a little bit as we've implemented some of these safety and quality features. You'll see our inventory of fuselages probably a little bit lower or burning down a little bit faster than what our baseline plan said.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2353610,
@@ -4358,6 +4432,7 @@
    "t1_ms": 2438010,
    "speaker": "Management",
    "text": "But again, we've got the ramp up plans in place that's contemplated in our forecast here as we go forward and also contributing to making sure we stay stable at 47 a little bit longer before we move to 52. And the margin recovery Peter, you know, we often anchor and compare to 2018 margins. But what I could say there is in a 737, it will ramp up the margin profile but will not reach what it was in 2018 either on a percentage or absolute basis. By contrast, the 787 by 2029 will exceed what it was on 2018, both on an absolute basis as well as a percentage basis.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2393910,
@@ -4425,6 +4500,7 @@
    "t1_ms": 2442010,
    "speaker": "Management",
    "text": "Taken together overall will be a net benefit in 29.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2438010,
@@ -4440,6 +4516,7 @@
    "t1_ms": 2447800,
    "speaker": "Analyst",
    "text": "That's helpful, thank you.",
+   "name": "Peter Arment, Baird",
    "parts": [
     {
      "t0_ms": 2444310,
@@ -4455,6 +4532,7 @@
    "t1_ms": 2452600,
    "speaker": "Operator",
    "text": "Our next question comes from the line of Noah Poppenack from Goldman Sachs. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2447800,
@@ -4478,6 +4556,7 @@
    "t1_ms": 2496210,
    "speaker": "Analyst",
    "text": "Hey, good morning guys. It seems like a decent amount of the variance in the free cash trajectory you just provided versus maybe what some people are thinking is capex. So you gave us a 27 capex. Maybe you could just give us the capital plan for 28, 29 or when you get back to normalize as a percentage of revenue. And then on 777, I guess it's fairly surprising to hear the answer to the prior question that you could absorb another slide. Just, you know, last time it had to slide everybody had to move free cash around a lot. So should we interpret that as you are providing conservative numbers you want to be able to beat",
+   "name": "Noah Poponak, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2454000,
@@ -4549,6 +4628,7 @@
    "t1_ms": 2502610,
    "speaker": "Analyst",
    "text": "or is it just that the 777 delivery plan is so late in 27 that it can slide?",
+   "name": "Noah Poponak, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2496210,
@@ -4568,6 +4648,7 @@
    "t1_ms": 2545910,
    "speaker": "Management",
    "text": "Yeah, let me address 777 now and let you talk about the cash flow. When we did the reset last, you know, the last reset, major reset on the 777 program, we definitely put management reserve in there to allow for additional schedule pressure going forward. Now, I don't want to imply that the 777 program has moved to the middle of next year. We are still driving to the team for certification. But what we're saying is we financially provisioned such that if certification delays to the middle of the year, that we'll still be able to do that within our EAC.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2502610,
@@ -4631,6 +4712,7 @@
    "t1_ms": 2590710,
    "speaker": "Management",
    "text": "We're driving to a much earlier date right now. We don't yet, as I said in my prepared remarks, we don't yet have the full authorization for the flight test program. There's a couple things I will note is the FAA had a tremendous amount of work to do on the dash seven and dash 10 certification, as did our test teams. And having that work behind us really does allow us to both parties to put more resources on the 777 test work that's yet ahead of us. So I'm hopeful to see us accelerate that here as we run through the balance of the year and run into next year.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2545910,
@@ -4698,6 +4780,7 @@
    "t1_ms": 2635210,
    "speaker": "Management",
    "text": "Airplanes are flying. We're making progress on the test program. We are getting some incremental authorization for additional flight testing from the FAA that think of it as kind of an extension to the TIA-4B. We still have these big flight tests yet ahead of us, flight test authorizations yet ahead of us. So we're working hard to get all that done. I will also say that I think we now know after the dash seven and dash 10 what it takes to get certification complete in this new post-ACSA world of regulation. And so that's factored into our planning",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2590710,
@@ -4761,6 +4844,7 @@
    "t1_ms": 2665340,
    "speaker": "Management",
    "text": "and we're off executing that with the FAA now. On your question, Noah, on CAPEX, for 27, about $5 billion as I mentioned, 20 and 29 would be around $4 billion each in each year. Just going back, circling back on the 777X on the cash, again, it was in the context of really the way Kelly just laid it out. You're talking an impact of a few months, a month or two is what I was quantifying.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2635210,
@@ -4808,6 +4892,7 @@
    "t1_ms": 2680590,
    "speaker": "Analyst",
    "text": "Going to four is still 3% of revenue the company was running. You know, is it structurally higher or does that, you know, you just have a lot of new projects and that does eventually work back down as a percentage of revenue.",
+   "name": "Noah Poponak, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2665340,
@@ -4843,6 +4928,7 @@
    "t1_ms": 2697230,
    "speaker": "Management",
    "text": "Yeah, I would expect it to be higher than 2%. It'll come down, I think over time, but it'll be kind of three plus, three to four is the right way to look at it on normalized basis out in the future. Thank you. Yep.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2680590,
@@ -4882,6 +4968,7 @@
    "t1_ms": 2701730,
    "speaker": "Operator",
    "text": "Your next question comes from a line of John Godin from Citi. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2697230,
@@ -4905,6 +4992,7 @@
    "t1_ms": 2745230,
    "speaker": "Analyst",
    "text": "Hey guys, thanks for taking my question. Kelly and Jay, you know, obviously a lot of new detail about the free cashflow for the next few years. If we took it at face value, it kind of seems like all the numbers are just sort of parallel shifting lower. And what I want to ask about is just make sure we haven't lost sight of the North Star beyond 2029. Obviously you don't have specific numbers out there, but if we thought about our model should be changing in 2030 and 2031 or whenever you kind of view getting past this period of ramp, has that ultimate number,",
+   "name": "Jon Godin, Citi",
    "parts": [
     {
      "t0_ms": 2702730,
@@ -4968,6 +5056,7 @@
    "t1_ms": 2755430,
    "speaker": "Analyst",
    "text": "that kind of more full earnings power changed in your mind, has that North Star shifted at all and any other color on that that you're willing to give would be helpful.",
+   "name": "Jon Godin, Citi",
    "parts": [
     {
      "t0_ms": 2745230,
@@ -4995,6 +5084,7 @@
    "t1_ms": 2794210,
    "speaker": "Management",
    "text": "No, I don't believe so. I think both Kelly's and I's comments both said the same thing, which was we expect significant growth beyond 2029. And so we will see continued runway on the margin improvement. And that'll be a continued source of increasing cashflow in addition to volumes. You know, back on the prior question where we were talking about what we're assuming for 2029 from a delivery perspective, that also provides runway to deliver at a rate 63 and at a rate 14 at 787. So that'll be a compounding benefit going beyond 2029.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2755430,
@@ -5066,6 +5156,7 @@
    "t1_ms": 2802860,
    "speaker": "Analyst",
    "text": "So is it fair to describe what's happening here as a steepening of the overall free cashflow profile, but getting to the same point?",
+   "name": "Jon Godin, Citi",
    "parts": [
     {
      "t0_ms": 2794210,
@@ -5089,6 +5180,7 @@
    "t1_ms": 2818960,
    "speaker": "Management",
    "text": "You know, John, I kind of look at it as almost like from expectations more of a one year shift to the right. I don't think our expectations about the slope or the absolute endpoint has changed at all.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2802860,
@@ -5116,6 +5208,7 @@
    "t1_ms": 2823060,
    "speaker": "Analyst",
    "text": "Appreciate that. Very clear. Thanks.",
+   "name": "Jon Godin, Citi",
    "parts": [
     {
      "t0_ms": 2819060,
@@ -5131,6 +5224,7 @@
    "t1_ms": 2830340,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Ron Epstein from Bank of America. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2823060,
@@ -5154,6 +5248,7 @@
    "t1_ms": 2869640,
    "speaker": "Analyst",
    "text": "Kelly and Jay, I promise I will not ask a cashflow question, but let's talk about something more fun. You guys won at 47. You won FAXX. It would appear that the future of practical aircraft, military aviation for the US is in Boeing's hands. So Kelly, how are you thinking about that for BDS? We think more broadly about BDS. How could BDS grow? What's that mean for margin? I mean, that's a real structural change, right? I mean, just a couple of years ago, I don't think anybody thought that was in the cards, but here it is. Yeah, Ron. So how can you think about it?",
+   "name": "Ron Epstein, Bank of America",
    "parts": [
     {
      "t0_ms": 2830340,
@@ -5225,6 +5320,7 @@
    "t1_ms": 2913540,
    "speaker": "Management",
    "text": "Yeah, so, well, first of all, we are going to see higher growth out of our defense portfolio than maybe what we thought a year ago. I think we were thinking more in terms of low single digit revenue growth. Clearly that's going to be more towards the high middle, middle single digit or higher going forward. The important part is all these programs are also being underwritten with the right contract type. So not only are we booking more orders, we're booking more orders that won't result in some of the challenges we've had. And it's not just the order booking, Ron. We've, you know, we've moved MQ25. We've moved T7 to Milestones C on both of those. A big new order on F15EX,",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2869640,
@@ -5304,6 +5400,7 @@
    "t1_ms": 2957940,
    "speaker": "Management",
    "text": "and there's more to come on that. The PAC 3 Seeker growth. And we've done MOUs with all of our customers on these big fixed price development contracts. And we've got Starliner kind of under control here in the last quarter. So look, I feel much, much better about both the growth profile, but also the margin performance profile. We still have to get through. We're not done with the development programs till we're done. But Steve Parker and his team are doing a really, really good job of finding, you know, win-win scenarios with our customers to get these projects move forward. So the outlook is strong. Our products across the board are in strong demand.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2913540,
@@ -5387,6 +5484,7 @@
    "t1_ms": 2968480,
    "speaker": "Management",
    "text": "And, you know, the budget supports additional growth. So look, I think our defense portfolio is a little bit of a sleeper here.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2958840,
@@ -5410,6 +5508,7 @@
    "t1_ms": 2986280,
    "speaker": "Analyst",
    "text": "It just has a follow on, just to kind of reiterate a question we get a lot. This is for either of you guys on FAXX or F47, if you can say, you know, people ask, you know, is it fixed price development? Can you give us a hint? Is it not? I'm hoping it's not. Can you give us a hint there?",
+   "name": "Ron Epstein, Bank of America",
    "parts": [
     {
      "t0_ms": 2968480,
@@ -5457,6 +5556,7 @@
    "t1_ms": 2994980,
    "speaker": "Management",
    "text": "So the FA, the F47 is cost plus, and the FAXX, I can't say, but I just say it's an appropriate contract type.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 2986280,
@@ -5480,6 +5580,7 @@
    "t1_ms": 2999400,
    "speaker": "Analyst",
    "text": "Thank you very much.",
+   "name": "David Strauss, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2996280,
@@ -5495,6 +5596,7 @@
    "t1_ms": 3005980,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Gavin Parsons from UBS. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2999400,
@@ -5518,6 +5620,7 @@
    "t1_ms": 3050130,
    "speaker": "Management",
    "text": "Thank you. Morning. Morning. I was hoping to get your latest thoughts on the possibility of a new single aisle aircraft and then separately whether or not there's any assumption for higher R&D and capex related to that in the 29 free cash guide. Thanks. So really nothing's changed on our outlook on a new airplane. We've got a team working in our product development right now trying to define what that looks like and what the market timing is. So really no change in our outlook. And certainly that's any investment we need for that is contemplated in our cash outlook here. Yeah, that's right. And it's, you know, not significant types of investments here.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 3005980,
@@ -5601,6 +5704,7 @@
    "t1_ms": 3076460,
    "speaker": "Management",
    "text": "More of our investments would be in a kind of R&D tech development type. So we will be ramping down as we finish the, well, we're ramping down right now as we finish the 737 program. When we finish the 777 program, you will see a shift of resources and spending from those development programs to new programs. Thank you.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 3050130,
@@ -5648,6 +5752,7 @@
    "t1_ms": 3081460,
    "speaker": "Operator",
    "text": "Your next question comes from a line of Gautam Khanna from T.D. Cowan. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3076460,
@@ -5671,6 +5776,7 @@
    "t1_ms": 3090660,
    "speaker": "Management",
    "text": "Yes. Good morning, guys. I was wondering if you could elaborate on the shape of deferred production across the three programs.",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 3082760,
@@ -5698,6 +5804,7 @@
    "t1_ms": 3102860,
    "speaker": "Analyst",
    "text": "If you can give us some sense for how much those balances will grow and aggregate next year and then when they will decline and by how much in 28 and 29 in your assumptions. Thank you.",
+   "name": "Seth Seifman, JP Morgan",
    "parts": [
     {
      "t0_ms": 3091960,
@@ -5729,6 +5836,7 @@
    "t1_ms": 3147260,
    "speaker": "Management",
    "text": "Yeah, Gautam, I'm not gonna get into the specific changes, but what I'll tell you is in a 737 and 787, they essentially start to flatten out next year. So they're a lower use of cash going into 28 and 29 they become sources of cash and they become pretty significant sources of cash and drive working capital in total to continue to be a source of cash. So those are, I think directionally where they're going. The 777X program because it's gonna be early on in deliveries that will grow and that will grow over the next few years. But again, the cash drivers will be because of the improved profitability and the 737 and 787 programs will see nice benefit from the production reductions",
+   "name": "Jay Malave, EVP and CFO",
    "parts": [
     {
      "t0_ms": 3102860,
@@ -5804,6 +5912,7 @@
    "t1_ms": 3151960,
    "speaker": "Management",
    "text": "on those too. Operator, we have more analyst questions.",
+   "name": "Eric Hill, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 3147260,
@@ -5823,6 +5932,7 @@
    "t1_ms": 3162560,
    "speaker": "Operator",
    "text": "Certainly, your final question comes from the line of Robert Stallard from Vertical Research Partners. Your line is open. Thanks so much. Good morning.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3153460,
@@ -5854,6 +5964,7 @@
    "t1_ms": 3178460,
    "speaker": "Analyst",
    "text": "Good morning. Kelly, maybe just to round things off here. I was wondering if you could comment on what has allowed you to give this free cash flow guidance here. What has changed in terms of your output that gives you the confidence to give these numbers?",
+   "name": "Robert Stallard, Vertical Research Partners",
    "parts": [
     {
      "t0_ms": 3163360,
@@ -5889,6 +6000,7 @@
    "t1_ms": 3223360,
    "speaker": "Management",
    "text": "Yeah, Rob, look, it's been a couple of years of really taking challenges face on and getting those challenges put to bed. We have significantly reduced the risk of this portfolio. If you look at just two years back, every one of our fixed price development programs was challenged. We've got that at hand. We didn't know whether we'd won any of the next generation 6th gen fighters. We've won both of those. So we've got that well at hand. And we can see the improved performance in how we're underwriting our defense business. We also were, if you recall, two years ago, we were coming out of a strike and we were producing at zero in our commercial factories.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 3178460,
@@ -5968,6 +6080,7 @@
    "t1_ms": 3267560,
    "speaker": "Management",
    "text": "We've successfully ramped up to 38. Albeit the ramp to 47 is probably taken longer than anybody wants. Everybody wants us to go faster. I get that. But we're going to stay disciplined as we ramp up here. And I think as we've looked at this, we feel like we have a better handle on the risk to where we can provide you an outlook that we can meet. And so I think now's the time, the bar as we said in our prepared remarks, the expectations are rising. We recognize that. And I think that's good. And the expectations on ourselves are rising. And so we're providing this with confidence that the team's ready to go execute.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 3223360,
@@ -6047,6 +6160,7 @@
    "t1_ms": 3277560,
    "speaker": "Management",
    "text": "There's still things out there that we got to deal with, but not near the uncertainty we had before. So I feel like it's a good time to do it.",
+   "name": "Kelly Ortberg, President and CEO",
    "parts": [
     {
      "t0_ms": 3267560,
@@ -6070,6 +6184,7 @@
    "t1_ms": 3281820,
    "speaker": "Analyst",
    "text": "That's great. Thanks, Kelly.",
+   "name": "Robert Stallard, Vertical Research Partners",
    "parts": [
     {
      "t0_ms": 3278560,
@@ -6085,6 +6200,7 @@
    "t1_ms": 3287720,
    "speaker": "Operator",
    "text": "And that completes the Boeing Company's third quarter, 2026 earnings conference call. Thank you for joining.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3281820,
@@ -9693,6 +9809,7 @@
    "quote": "And I'm expecting it'll take us into next year to get fully stable at this rate.",
    "adj_ret_5m": -0.02046077178936756,
    "speaker": "Management",
+   "name": "Kelly Ortberg, President and CEO",
    "vol_mult": 6.125635624763152,
    "spillover": "company"
   }
@@ -9706,6 +9823,7 @@
    "t0_ms": 278500,
    "speaker": "Management",
    "quote": "And I'm expecting it'll take us into next year to get fully stable at this rate.",
+   "name": "Kelly Ortberg, President and CEO",
    "metric": "737 rate 47 stability timing",
    "kind": "guidance",
    "novel": true,
@@ -9819,7 +9937,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 12.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 1197,
+   "cache_read_input_tokens": 3560,
+   "cache_creation_input_tokens": 19823
+  },
+  "claude_usd": 0.0619
+ },
  "context": {
   "ts": [
    "2026-10-27T14:15:00Z",

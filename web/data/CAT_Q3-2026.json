@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-29T08:30:00-04:00",
   "etf": "XLI",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/CAT_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/CAT_Q3-2026.mp3",
   "company": "Caterpillar",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 29040,
    "speaker": "Operator",
    "text": "Welcome to the third quarter, 2026 Caterpillar Earnings Conference call. Please be advised that today's conference is being recorded. All lines have been placed on mute to prevent any background noise. Following the speaker's remarks, we will have a question and answer session. If you would like to ask a question, please press star, then one on your telephone keypad. To withdraw your question, please press star, then one again. I would now like to hand the conference over to your speaker today, Alex Kapper. Thank you. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -67,6 +68,7 @@
    "t1_ms": 71320,
    "speaker": "Management",
    "text": "Thank you, Audra. Good morning everyone, and welcome to Caterpillar's third quarter of 2026 Earnings call. I'm Alex Kapper, Vice President of Investor Relations. Joining me today are Joe Creed, Chairman and CEO, Kyle Epley, Chief Financial Officer, Stephanie Boffman, Senior Vice President of the Global Finance Services Division, and Ryan Coleman, Senior Director of IR. During our call, we'll be discussing third quarter earnings release we issued earlier You can find our slides, the news release, and a webcast recap at investors.caterpillar.com under events and presentations. The content of this call is protected by U.S. and international copyright law.",
+   "name": "Alex Kapper, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 30040,
@@ -118,6 +120,7 @@
    "t1_ms": 116600,
    "speaker": "Management",
    "text": "Any rebroadcast, retransmission, reproduction, or distribution of all or part of this content without Caterpillar's prior written permission is prohibited. Moving to slide two. During our call today, we'll make forward-looking statements which are subject to risks and uncertainties. We'll also make assumptions that could cause our actual results to be different than the information we're sharing with you on this call. Please refer to our recent SEC filings and the forward-looking statements reminder and the news release for details on factors that individually or in aggregate could cause our actual results to vary materially from our forecast. A detailed discussion of the many factors that we believe may have a material effect on our business on an ongoing basis is contained in our SEC filings.",
+   "name": "Alex Kapper, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 72040,
@@ -177,6 +180,7 @@
    "t1_ms": 160520,
    "speaker": "Management",
    "text": "On today's call, we'll also refer to non-GAAP numbers. For any reconciliation of any non-GAAP numbers to the appropriate U.S. GAAP numbers, please see the appendix of the earnings call slides. For today's agenda, Joe will begin by sharing his perspectives about our results, and he'll highlight key initiatives across our segments. Then he'll discuss our full year outlook and insights about our end markets. Kyle will provide a detailed overview of results and share key assumptions looking forward. We'll conclude by taking your questions. Now let's advance to slide three and turn the call over to Joe Creed. Good morning and thanks Alex. I appreciate everyone joining us today. Our third quarter results reflect the durability of our end markets",
+   "name": "Alex Kapper, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 117880,
@@ -236,6 +240,7 @@
    "t1_ms": 204520,
    "speaker": "Management",
    "text": "with our highest sales quarter ever, strong order rates, and a record backlog. Our team continues to execute our strategic priorities in a dynamic environment, positioning us for a strong year. Sales and revenues were $20.7 billion, up 17% versus the prior year, driven by strong end market demand. We delivered adjusted profit per share of $7.20, an increase of 45% versus last year. Strong order rates across all three of our primary segments drove backlog to a record $78 billion. That's an increase of approximately $38 billion, or 96% from the third quarter last year. And marks the fourth consecutive quarter of sequential backlog growth in all three",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 160520,
@@ -287,6 +292,7 @@
    "t1_ms": 246760,
    "speaker": "Management",
    "text": "of our primary segments. The quarter demonstrated the team's ability to execute in a high growth environment. Specifically, our power and energy team continued to increase production of large reciprocating engines and turbines while simultaneously expanding capacity to meet demand. The team is effectively managing the operational challenges that come with this rapid growth. Bringing additional capacity online is still the top pacing factor for growth and power and energy. So working diligently to execute our plans and meet our customers' needs. As I mentioned, sales and revenues were $20.7 billion, and they were in line with our expectations. The increase from the prior year was primarily driven by strong growth in sales volume",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 204520,
@@ -346,6 +352,7 @@
    "t1_ms": 286710,
    "speaker": "Management",
    "text": "and favorable price realization in all three of our primary segments. Third quarter adjusted operating profit margin was 20.6%. Excluding IEPA tariff recoveries, adjusted operating profit margin was in line with our expectations. In the third quarter, we generated MP&E free cash flow of $3.8 billion and deployed $2 billion to shareholders through share repurchases and dividends. Now I'll review third quarter retail statistics. In power and energy, sales to users were $2.8 billion. In power and energy, sales to users grew a robust 36%.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 246760,
@@ -393,6 +400,7 @@
    "t1_ms": 332680,
    "speaker": "Management",
    "text": "Power generation grew 75%, driven by continued very strong demand for turbines and large reciprocating engines used in data center applications. Sales to users in oil and gas increased 5% and were driven by turbines and turbine-related services. Industrial sales to users were down due to softness in the EME region. Now for construction industries. We have one of the broadest ranges of products, technology, and services to support customers whether they prefer to own lease or rent equipment. Combined with healthy construction activity, our unique position has allowed us to outpace the industry throughout the year. In the third quarter, total sales to users increased 20%, marking the seventh",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 288470,
@@ -448,6 +456,7 @@
    "t1_ms": 372680,
    "speaker": "Management",
    "text": "consecutive quarter of year-over-year growth. In North America, sales to users grew a robust 27% in line with expectations. Dealer rental revenue in North America continued to grow, driving increased investment in their equipment fleets. We also saw strong customer interest in the CAT dealer-owned rental joint venture called Major Projects, which was launched last quarter. As a reminder, Major Projects will serve customers developing large-scale infrastructure across North America, including transportation, energy, manufacturing, and data center builds. It's a supplemental national rental solution to help deliver larger size-class",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 332680,
@@ -499,6 +508,7 @@
    "t1_ms": 413940,
    "speaker": "Management",
    "text": "construction equipment and capabilities where existing individual dealer rental fleets aren't sufficient to execute at scale. As a result, rental fleet loading was exceptionally strong in the third quarter, contributing significantly to sales to users' growth compared with prior year when fleet loading was a slight headwind. Even excluding the positive impact from the rental fleet loading, sales to users' growth was strong, driven by residential and non-residential construction activity. Sales to users in Iami were above expectations, with growth driven by strength in Europe and Africa, partially offset by softness in the Middle East.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 372680,
@@ -546,6 +556,7 @@
    "t1_ms": 458550,
    "speaker": "Management",
    "text": "In Asia Pacific, sales to users outside of China were lower than we anticipated and declined slightly due to timing. China, however, continued to grow from a low base as we expected. Latin America continued to grow but at a lower rate than we anticipated. For resource industries, third quarter sales to users increased 4%, which is below our expectations. Sales to users were higher in heavy construction and quarry and aggregates, but lower in mining due to delays in shipping and commissioning. The rail decrease was driven by lower international locomotive deliveries. Turning to slide four, I'll cover a few highlights since our last earnings call, starting with power and energy.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 415380,
@@ -601,6 +612,7 @@
    "t1_ms": 499670,
    "speaker": "Management",
    "text": "We serve customers across the power and energy value chain, and demand for our solutions remains strong. To ensure we can meet their needs and maintain operational excellence, we're continually evaluating opportunities to repurpose underutilized facilities across our footprint. In line with that approach, we plan to use a portion of our Winston-Salem North Carolina facility, which currently produces locomotive engines, as a second assembly and test location for the 3,600 series of the North Carolina Reciprocating Engine. The footprint will support our oil and gas customers to meet the growing need for natural gas compression. The initiative directly supports previously announced plans to increase",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 458550,
@@ -660,6 +672,7 @@
    "t1_ms": 542460,
    "speaker": "Management",
    "text": "large reciprocating engine capacity to nearly three times the 2024 level by 2030. Utilizing our existing footprint and workforce is the most cost-effective and quickest way for us to bring additional capacity online. In construction industries, we launched CAT Compact, which is a key part of our strategy to reach more small contractors in the growing compact construction equipment industry. To support that growth and meet increasing customer demand, we announced a $1 billion investment to expand manufacturing capacity in Sanford, North Carolina. The investment will create a modern technology-enabled manufacturing environment designed to improve safety, quality, and operational",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 499670,
@@ -719,6 +732,7 @@
    "t1_ms": 586620,
    "speaker": "Management",
    "text": "performance while supporting long-term growth. The facility will incorporate advanced manufacturing technologies, automation, digital production systems, and integrated logistics capabilities to create a more connected and efficient operation. This demonstrates how we're aligning our investments to meet our 2030 targets and positioning Caterpillar for long-term profitable growth. And in resource industries, we announced last month that we're working with Luckstone to expand autonomous hauling technology across the country. The expansion follows a highly successful pilot at the Bull Run Quarry, where autonomous trucks have hauled more than 3.5 million tons since going live in November of 2024. These deployments also mark the first use of Caterpillar's autonomous",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 542460,
@@ -782,6 +796,7 @@
    "t1_ms": 629350,
    "speaker": "Management",
    "text": "technology on a CAT 775 truck, expanding our advanced autonomy capabilities beyond large mining applications and into quarry and aggregates. The next step is to expand our technology to the extent that we can, and into quarry and aggregates. Through this customer collaboration, we gained insights that are helping us refine and scale our autonomous hauling solutions to deliver measurable value for operations at shop sites around the world. This expansion marks another important step towards our goal of tripling the number of CAT autonomous trucks by 2030 compared with 2024. Now on slide five, I'll provide an update on our outlook.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 586620,
@@ -845,6 +860,7 @@
    "t1_ms": 673210,
    "speaker": "Management",
    "text": "Our strong execution through the first nine months positions us well to meet our full year outlook. We continue to expect our full year 2026 sales and revenues to grow in the mid to high teens. Strong order rates and a growing backlog reflect continued broad based momentum across our business, despite ongoing geopolitical uncertainty. Excluding the favorable impact from IEPA tariff recoveries, we continue to expect full year adjusted operating profit margin to be near the bottom of the target range. Our full year margin expectation reflects the strategic investments we're making to execute our growth strategy as well as the ongoing impact of tariffs and higher freight costs due to elevated energy prices.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 631240,
@@ -912,6 +928,7 @@
    "t1_ms": 718730,
    "speaker": "Management",
    "text": "We remain focused on delivering long term OPEC growth and we aim to operate around the midpoint of our adjusted operating profit margin target range over time. We're also maintaining our MP&E free cash flow expectations to be in the top half of our annual target range. Kyle will provide additional details to you shortly. And now I'll discuss our key end markets, starting with power and energy. We continue to work closely with our customers, which allows us to understand and respond to their evolving needs. Customers view of demand for both oil and gas and power generation remains strong. As I mentioned, backlog continues to grow due to strong order rates and we're now taking some large reciprocating",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 674810,
@@ -979,6 +996,7 @@
    "t1_ms": 760780,
    "speaker": "Management",
    "text": "orders as far out as 2029 and turbine orders into 2030. We continue to anticipate full year growth and power generation for both cat reciprocating engines and solar turbines driven by increasing energy demand to support the data center build out related to cloud computing and generative AI. Additionally, prime power demand continues to trend higher as customers look to Caterpillar's turbine and reciprocating engine products to support their need for power solutions. After a record year for sales in 2025, oil and gas is expected to grow moderately again this year. Reciprocating engine sales are anticipated to increase driven by strong demand and gas compression applications.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 718730,
@@ -1046,6 +1064,7 @@
    "t1_ms": 804620,
    "speaker": "Management",
    "text": "We also see continued momentum and demand for reciprocating engine aftermarket parts. Solar turbines, oil and gas sales are expected to grow and the backlog remains healthy with solid order and inquiry activity. Demand for products and industrial applications is expected to grow moderately in 2026 as well. For construction industries, we expect strong fourth quarter and full year sales to users growth supported by healthy end markets. The outlook for North America remains positive with construction spending at healthy levels. Non-residential construction investment continues to be supported by the IIJA, critical infrastructure programs and data centers.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 761980,
@@ -1117,6 +1136,7 @@
    "t1_ms": 849050,
    "speaker": "Management",
    "text": "We expect fourth quarter dealer rental fleet loading to remain strong. However, it will contribute less to sales to users growth than in the third quarter due to lapping strong rental loading in the fourth quarter of last year. In Iaimi, Europe is expected to remain stable, supported by non-residential construction, while construction activity in Africa is projected to remain strong. The Middle East continues to face challenges and we currently anticipate only a limited impact on Iaimi sales to users. In Asia Pacific, outside of China, stable economic conditions are expected. In China, we anticipate moderate conditions with full year growth in the above 10 ton excavator industry off low levels of activity.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 805580,
@@ -1192,6 +1212,7 @@
    "t1_ms": 894870,
    "speaker": "Management",
    "text": "We expect full year growth in Latin America. We're seeing continued positive momentum in resource industries with robust order rates driving strong backlog growth. Customer product utilization is high and the age of the fleet remains elevated. Most key commodities remain above investment thresholds and customers are focused on the long term. For full year 2026, we expect strong sales to users growth, primarily driven by rising demand for copper and gold, increasing activity in the Canadian oil sands, and positive dynamics in heavy construction and quarry and aggregates. We expect commissioning delays from the third quarter to catch up, which will contribute to strong sales to users growth in the fourth quarter.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 850410,
@@ -1267,6 +1288,7 @@
    "t1_ms": 940140,
    "speaker": "Management",
    "text": "We continue to expect rebuild activity to increase moderately compared with last year. Rail services are anticipated to grow for the year and we now expect locomotive deliveries to be slightly lower year over year due to timing of deliveries. And finally, earlier this month, we announced that Derek York will succeed Denise Johnson as group president of resource industries. I want to congratulate Denise on a remarkable career. Under her leadership, resource industries return to profitability and position Caterpillar as an industry leader in mining autonomy and technology. I'm deeply grateful for all she's done to strengthen our relationships with customers, develop our people, and shape the future of our company.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 896470,
@@ -1338,6 +1360,7 @@
    "t1_ms": 981980,
    "speaker": "Management",
    "text": "Her impact and influence will be remembered long after her retirement. I've worked closely with Derek for well over a decade and I'm confident in his ability to lead the RIT team into its next chapter of innovation, growth, and customer success. He's a highly respected leader who understands our customers, our strategy, and the industries that we serve. With that, I'll turn it over to Kyle. Kyle. Thank you, Joe. Good morning, everyone. I'm going to take a few minutes to walk you through our third quarter results, including details about segment performance as well as the balance sheet and cash flow. I will finish with remarks on our expectations for the fourth quarter and current full year assumptions.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 940780,
@@ -1425,6 +1448,7 @@
    "t1_ms": 1027579,
    "speaker": "Management",
    "text": "Beginning on slide six, sales and revenues were $20.7 billion, up 17% versus the prior year, which was in line with our expectations. Adjusted operating profit was $4.3 billion and our adjusted operating profit margin was 20.6%. Excluding the IEPA tariff recoveries, both were in line with our expectations. Moving to slide seven, the 17% increase in sales and revenues compared to the third quarter of 2025 was primarily driven by strong growth and sales volume and favorable price realization. The stronger sales volume was mainly driven by higher sales of equipment to end users, supported by healthy end market demand and strong",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 983180,
@@ -1492,6 +1516,7 @@
    "t1_ms": 1069580,
    "speaker": "Management",
    "text": "execution by our team. Dealer inventory increased by $300 million in construction industries compared to an increase of $600 million in the third quarter of 2025. This created a modest headwind to sales volume in the quarter and was in line with our expectations. Sales and revenues, both at a consolidated level and across all three primary segments, were in line with our expectations. Moving to operating profit on slide eight, operating profit in the third quarter increased by 38% to $4.2 billion. Adjusted operating profit of $4.3 billion also increased by 38% versus the prior year.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1027579,
@@ -1563,6 +1588,7 @@
    "t1_ms": 1114340,
    "speaker": "Management",
    "text": "The adjusted operating profit margin was 20.6%, which was an increase of 310 basis points compared to the prior year. The margin benefited from the profit impact of higher sales volume and favorable price realization. This was partially offset by higher manufacturing costs, mainly driven by higher freight and higher expenses related to our capacity expansions. In the quarter, we recognized $128 million in IEPA tariff recoveries. Nearly all this amount is reflected in corporate items. For tariffs introduced since the beginning of 2025 and excluding IEPA recoveries, our third quarter tariff costs were approximately $600",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1070700,
@@ -1642,6 +1668,7 @@
    "t1_ms": 1155780,
    "speaker": "Management",
    "text": "million and about flat year over year, as we anticipated. Moving to slide nine, profit per share was $7.13 in the quarter. Adjusted profit per share was $7.20. Excluding discrete items, the provision for income taxes in the third quarter of 2026 reflected a global estimated annual effective tax rate of 23%. Finally, the year over year impact from the reduction in the average number of shares outstanding due to share repurchases resulted in a favorable impact on adjusted profit per share of approximately $0.15 compared to the third quarter of 2025.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1114340,
@@ -1713,6 +1740,7 @@
    "t1_ms": 1203210,
    "speaker": "Management",
    "text": "On slide 10, I will now review the third quarter results of our segments, starting with power and energy. For power and energy, sales of $8.8 billion increased by 18% versus the prior year, which was in line with our expectations. The sales increase versus the prior year was mainly due to higher sales volume and favorable price realization. Services revenues were also strong in the quarter, especially for sales into oil and gas applications. Third quarter profit for power and energy increased by 31% versus the prior year to $2.1 billion. The segments margin of 24.4% was an increase of 250 basis points versus the prior year.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1158650,
@@ -1792,6 +1820,7 @@
    "t1_ms": 1247290,
    "speaker": "Management",
    "text": "The increase was mainly due to the profit impact of higher sales volume. Favorable price realization was mostly offset by unfavorable manufacturing costs driven by spend related to our capacity expansions, including higher depreciation along with higher freight and material costs. Segment margins matched our expectations. Now moving to slide 11. Construction industry sales increased by 18% in the third quarter to $8 billion as we anticipated. The sales increase versus the prior year was primarily due to the higher sales volume and favorable price realization. Higher sales volume was mainly driven by sales of equipment to end users, which",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1203850,
@@ -1871,6 +1900,7 @@
    "t1_ms": 1291500,
    "speaker": "Management",
    "text": "included strong contributions from both retail sales and rental fleet loading. Both residential and non-residential industries contributed to the growth. Third quarter profit for construction industries was $1.8 billion, a 33% increase versus the prior year. The segments margin of 22.9% was an increase of 250 basis points versus the prior year, mainly driven by favorable price realization and the profit impact of higher sales volume. This was partially offset by unfavorable manufacturing costs, including the impact of freight and tariff costs. SG&A and R&D expenses related to our digital and technology investments also",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1247290,
@@ -1950,6 +1980,7 @@
    "t1_ms": 1334300,
    "speaker": "Management",
    "text": "increased compared to the prior year. Segment margin was also consistent with our expectations. Turning to slide 12. Resource industry sales, which were broadly in line with our expectations, increased by 15% in the third quarter to $4.6 billion, primarily driven by higher sales volume. Price realization was also favorable versus the prior year and slightly better than our expectations, primarily driven by positive geographic mix. Third quarter profit for resource industries increased by 14% versus the prior year to $622 million. The segments margin of 13.5% was roughly unchanged versus the prior year.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1291500,
@@ -2033,6 +2064,7 @@
    "t1_ms": 1379910,
    "speaker": "Management",
    "text": "This was mainly driven by unfavorable manufacturing costs, primarily due to higher material costs, including tariffs, offset by the profit impact of higher sales volume and favorable price realization. Overall, the segment margin was about in line with our expectations. Moving to slide 13. Financial products revenues increased by 9% versus the prior year to $1.2 billion, mainly due to higher average earning assets across all regions. Segment profit increased by 10% to $264 million. This increase was primarily due to a favorable impact from higher average earning assets, partially offset by a higher provision for credit losses. Our customers' financial health remained",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1335260,
@@ -2124,6 +2156,7 @@
    "t1_ms": 1424870,
    "speaker": "Management",
    "text": "strong. Past dues were 1.31% in the quarter, down 16 basis points versus the prior year, and remains the lowest level we have recorded since 1998. The allowance rate was 0.91% at the end of the third quarter. Business activity within CalFinancial remains healthy. Retail new business volume grew by 6% versus the prior year. In addition, used equipment inventory levels continue to remain low and conversion rates remain above historical averages as customers continue to choose to purchase their equipment at the end of their lease term. Moving on to slide 14. MP&E free cash flow was $3.8 billion",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1379910,
@@ -2215,6 +2248,7 @@
    "t1_ms": 1468980,
    "speaker": "Management",
    "text": "in the quarter. This was an increase of roughly $600 million versus the prior year, mainly driven by stronger profit. CapEx spend was about $700 million in the quarter. We deployed $2 billion to shareholders in the third quarter, of which share repurchases accounted for $1.2 billion and nearly $750 million for our quarterly dividend payment. Earlier this year, we announced our sixth consecutive year of high single-digit quarterly dividend increase, and this year will mark 33 consecutive years of paying higher annual dividends to our shareholders. Our balance sheet remains strong. We have ample liquidity with an",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1424870,
@@ -2302,6 +2336,7 @@
    "t1_ms": 1511400,
    "speaker": "Management",
    "text": "enterprise cash balance of $7.9 billion. In addition, there is $1.6 billion in slightly longer-dated liquid marketable securities to improve yields on our cash. Now, for outlook assumptions. Turning to slide 15. I will start with the fourth quarter. In-user demand remains favorable across all three primary segments, and the team is working diligently to deliver on our commitments for the year. At the same time, we are aware of potential headwinds presented by higher cost inflation, which we continue to monitor closely. For the fourth quarter, we anticipate moderate sales growth versus the prior year.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1468980,
@@ -2393,6 +2428,7 @@
    "t1_ms": 1555020,
    "speaker": "Management",
    "text": "As a reminder, we are lapping a strong quarter last year, which creates a tougher comparison this year. Now, let me walk you through each of our three primary segments. In power and energy, we anticipate moderate sales growth in the fourth quarter versus the prior year, as we lap a strong prior year fourth quarter and continue to ramp capacity. Volume growth is expected to be driven by continued strength and power generation, modest growth in oil and gas, and moderate growth in industrial applications as it continues to recover. We also expect favorable price realization. In construction industries, we expect sales to be similar to the prior year.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1512200,
@@ -2496,6 +2532,7 @@
    "t1_ms": 1599340,
    "speaker": "Management",
    "text": "We anticipate the typical seasonal dealer inventory reduction to be roughly $1.6 billion, which compares to a decline of $600 million in the fourth quarter of 2025. As a result, we expect the year over year impact to be about a $1 billion headwind to sales volume in the fourth quarter against a backdrop of continued strong sales to users and industry growth. As a result, we expect sales volume in construction industries to be down modestly versus the prior year. However, we continue to expect favorable price realization in the fourth quarter. Despite the drawdown, we continue to expect dealer inventories at the end of the year to be higher than the",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1555660,
@@ -2603,6 +2640,7 @@
    "t1_ms": 1642810,
    "speaker": "Management",
    "text": "prior year in anticipation of strong sales to users in 2027. In resource industries, we expect strong sales growth in the fourth quarter versus the prior year. Volume is expected to be driven by higher sales to users and services growth. We also anticipate favorable price realization. I will now provide some color on our fourth quarter margin expectations versus the prior year. At the enterprise level, we expect higher adjusted operating profit margin versus the prior year. This is primarily due to favorable price realization and a profit impact of higher sales volume. Excluding the impact of lower tariffs, we expect unfavorable",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1599340,
@@ -2714,6 +2752,7 @@
    "t1_ms": 1685670,
    "speaker": "Management",
    "text": "manufacturing costs driven by higher freight as well as expenses related to our capacity expansions. SG&A and R&D expenses are also expected to be higher driven by our continued investment in the strategic initiatives aligned with our 2030 goals. We anticipate tariff costs excluding IEPA recoveries of around $600 million, which is similar to what we incurred in the third quarter. But roughly $200 million lower than what we incurred in the fourth quarter of 2025. We continue to expect about 50% of the tariffs to be incurred in construction industries and 25% in both power and energy and resource industries.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1642810,
@@ -2813,6 +2852,7 @@
    "t1_ms": 1732150,
    "speaker": "Management",
    "text": "Now for our fourth quarter margin expectations in our three primary segments. In power and energy, we anticipate favorable price realization and stronger volume to drive a higher margin percentage compared to the prior year. The higher margin compared to the prior year is expected to be partially offset by unfavorable manufacturing costs including depreciation and expenses related to our capacity expansions, along with higher material and freight costs. We expect fourth quarter margin to be similar to the third quarter. In construction industries, we anticipate a higher margin percentage compared to the prior year, primarily due to the favorable price realization, which is partially offset by lower sales volume.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1687590,
@@ -2928,6 +2968,7 @@
    "t1_ms": 1777030,
    "speaker": "Management",
    "text": "Excluding the impact of lower tariffs, manufacturing costs are expected to be higher driven by freight. We also expect higher SG&A and R&D related to our technology investments. Also, as a reminder, our construction industry's fourth quarter margin typically has a sequential step down from the third quarter. We expect this seasonality change to be slightly more than our typical average step down due to the expected lower sales volume, higher SG&A and R&D related to our technology and digital investments, as well as higher freight costs. In resource industries, we anticipate a higher margin percentage compared to the prior year driven by favorable price",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1732950,
@@ -3035,6 +3076,7 @@
    "t1_ms": 1821910,
    "speaker": "Management",
    "text": "realization and a profit impact of higher sales volume, partially offset by unfavorable manufacturing costs including freight and material. Now on slide 16. Let me provide a few comments on the full year. As Joe mentioned, we continue to anticipate sales and revenues growth in the mid to high teens for the full year 2026. Our strong full year sales and revenues expectations is supported by strong sales to users growth across all three primary segments driven by healthy end markets, strong order rates across all three primary segments driving our backlog growth, increased output from",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1777030,
@@ -3130,6 +3172,7 @@
    "t1_ms": 1865190,
    "speaker": "Management",
    "text": "our capacity expansion plans which remain on schedule, and a strong year of services growth. Now for our adjusted operating profit margin for the full year. Compared to last year, we expect a higher adjusted operating profit margin which reflects profit impact of higher sales and favorable price realization, partially offset by unfavorable manufacturing costs including spend related to our capacity expansion which includes higher depreciation expense as well as higher freight. We also expect higher SG&A and R&D. Excluding IEPA tariff recoveries, our full year adjusted operating",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1821910,
@@ -3221,6 +3264,7 @@
    "t1_ms": 1909400,
    "speaker": "Management",
    "text": "profit margin is expected to be near the bottom of our target range. Excluding our reported year to date IEPA tariff recoveries of about $520 million, we continue to expect full year 2026 tariff costs of around $2.2 billion. Our outlook does not include any additional IEPA tariff recoveries in the fourth quarter. We now expect restructuring costs of about $300 million in 2026 which is on the low end of our prior range. Our estimated global annual effective tax rate remains approximately 23% for 2026, excluding discrete items. We also continue to expect MP&E",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1865190,
@@ -3312,6 +3356,7 @@
    "t1_ms": 1952220,
    "speaker": "Management",
    "text": "free cash flow to be in the top half of our annual target range of $6 to $15 billion. Our capex spend for 2026 is now anticipated to be about $3.3 billion which is slightly below our prior expectations of $3.5 billion. Now turning to slide 17 to summarize. We delivered another very strong quarter with a year to date financial results tracking toward another record year for Caterpillar. Our end markets remain healthy with strong order rates and a growing backlog. We continue to drive improved probability in a dynamic operating environment.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1909400,
@@ -3407,6 +3452,7 @@
    "t1_ms": 1982400,
    "speaker": "Management",
    "text": "We will remain disciplined and committed to operational excellence and the O&E model. We will continue to look for ways to invest efficiently. We will maintain a strong balance sheet and continue to return substantially all of our MP&E free cash flow to our shareholders through dividends and share repurchases over time. And finally, we will continue to execute our strategy for profitable growth. With that, we will take your question.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1953420,
@@ -3482,6 +3528,7 @@
    "t1_ms": 2023380,
    "speaker": "Operator",
    "text": "Thank you. We will now begin the question and answer session. If you would like to ask a question, please press star one on your telephone keypad to raise your hand and enter the queue. If you would like to start your question, simply press star one again. Please note we are only allowing one question per analyst. Your first question comes from the line of Tammy Zaccaria from JP Morgan. Your line is now open. Ms. Zaccaria, your line is open. You may have your line on mute.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1983900,
@@ -3569,6 +3616,7 @@
    "t1_ms": 2034660,
    "speaker": "Operator",
    "text": "Hearing no response, we'll go next to Rob Wertheimer with Mellius Research.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2030580,
@@ -3592,6 +3640,7 @@
    "t1_ms": 2065239,
    "speaker": "Analyst",
    "text": "Thanks and good morning. I had a couple questions around PowerGen. Two quarters ago you detailed some of the Prime Power projects you've done and gave gigawatt numbers. Do you have any update there? Is Prime Power still expanding for you, either in general, if you have any update on gigawatts? And then you mentioned you're taking orders into 29. Does that imply that 28 is sold out? Are you selling out current capacity but leaving future capacity for future orders? Can you talk about how you manage backlog there? Thank you.",
+   "name": "Rob Wertheimer, Melius Research",
    "parts": [
     {
      "t0_ms": 2036660,
@@ -3687,6 +3736,7 @@
    "t1_ms": 2109940,
    "speaker": "Management",
    "text": "Good morning, Rob. We still continue to see trending higher Prime Power. Both turbines and reciprocating gensets. I've had a handful of discussions with customers for Prime Power just in this last quarter. So a lot of quoting activity continuing to go on. And I think we'll continue to see that trend as we move into the future. We're not seeing anything different in that space. When it comes to orders and sort of backlog, if it's significant order in gas Prime Power, we're probably looking at 2029. We'll probably still roll some diesel backup orders into 2028 when we're not completely full.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2066820,
@@ -3790,6 +3840,7 @@
    "t1_ms": 2133540,
    "speaker": "Management",
    "text": "But we have frame agreements in the pipeline that kind of convert to orders as we move over time. Again, we continue to have extended backlog. I'm happy that the backlog grew in all three segments. And what we're hearing from our customers is they still want more from us if we can get them more power. So we're trying to ramp as quickly as we can and still hit our customers needs.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2109940,
@@ -3861,6 +3912,7 @@
    "t1_ms": 2139030,
    "speaker": "Operator",
    "text": "We'll go next to Tammy Zakaria at JP Morgan.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2133540,
@@ -3880,6 +3932,7 @@
    "t1_ms": 2145370,
    "speaker": "Analyst",
    "text": "Hi, good morning. Can you hear me?",
+   "name": "Tami Zakaria, JP Morgan",
    "parts": [
     {
      "t0_ms": 2139030,
@@ -3899,6 +3952,7 @@
    "t1_ms": 2147210,
    "speaker": "Management",
    "text": "We can.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2146810,
@@ -3914,6 +3968,7 @@
    "t1_ms": 2188010,
    "speaker": "Analyst",
    "text": "Hi, thank you so much for taking my question. So I just wanted to touch on that backlog comment. I think I heard Joe say that the engines and turbine orders are now going as far as 2029, 2030. So is it that the total orders you receive in the quarter are primarily for the out years or are the majority of the orders booked still for the next 12 months? And given the new capacity that will be coming online, when would you expect this record backlog to start stepping down? Or is it the new normal for the backlog magnitude?",
+   "name": "Tami Zakaria, JP Morgan",
    "parts": [
     {
      "t0_ms": 2149130,
@@ -4009,6 +4064,7 @@
    "t1_ms": 2233210,
    "speaker": "Management",
    "text": "Yeah, good morning, Tammy. Thanks for the question. So I want to be clear. We're taking our orders into 29. We have some in 29 and 2030. We still have more to fill. This is a bit of a complicated question because it's going to depend on the product. So for large reciprocating engines and turbines, we're definitely extended out into late 28 into 29. Genset, smaller engines, obviously lead times are much shorter than that. And on the machine side of the business, the backlog grew in all three segments. Aside from a couple of products where we're ramping production and operationally trying",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2189370,
@@ -4108,6 +4164,7 @@
    "t1_ms": 2277770,
    "speaker": "Management",
    "text": "to ramp production, and even in those, we're not extended near as far. I would like to produce and get our production ramp closer to Stu's. So when we look at the backlog, we want to make sure we're looking at the backlog in the context of sales to users and order rates and the entire system and how it works. So if we can sales to users stay healthy, which is what we're expecting, and we can produce more product, we'll continue to take orders. But I would like to see the backlog. If we can get it to even come in on the machine side because we can keep up, that would be a good thing. And I also think if you, when you look at, we've had a few quarters of backlog growth. I think we'll continue to see some backlog growth, but it's going to really depend. Customers have time to place orders",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2233210,
@@ -4243,6 +4300,7 @@
    "t1_ms": 2322650,
    "speaker": "Management",
    "text": "and sort of digest what we have. So I don't know that quarter to quarter it's going to be something we look at as the singular metric as we start to move out, especially as we get extended. We're continuing to do long-term planning with our big data center customers and prime power customers. We're seeing demand for cloud compute and our backup power continue to be strong. And then AI obviously comes in on top of that and the prime power numbers. So with those frame agreements, we have a line of sight past the backlog and we continue to talk to our customers. And then on prime power, those are big projects and I think they get negotiated individually and those can come in lumpy in the backlog as can mining orders.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2278330,
@@ -4346,6 +4404,7 @@
    "t1_ms": 2345850,
    "speaker": "Management",
    "text": "So I'm really pleased with the backlog growth we saw in this quarter. It was broad-based, oil and gas, PowerGen, RI, and NCI. So we have good momentum. And just for reference, we expect 58% of our backlog is expected to be sold within the next 12 months. That's comparative to 59% last quarter.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2322650,
@@ -4413,6 +4472,7 @@
    "t1_ms": 2351220,
    "speaker": "Operator",
    "text": "We'll move next to Jamie Cook at Trua Securities.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2348580,
@@ -4432,6 +4492,7 @@
    "t1_ms": 2397080,
    "speaker": "Analyst",
    "text": "Excuse me. Good morning. I guess my question, Joe, is just around your longer-term margin framework that you guys have put out there. You guys have done an exceptional job, but the margins have been pushing towards the lower end. Obviously, we have tariffs and inflationary pressures, etc. But what do you think with capacity coming online and price costs in your backlog? What's a reasonable time for us to assume we can get back towards the mid to high end of your longer-term target range? And what would be the major drivers behind that? And then last, is there any way you can help us frame how much incremental capacity is coming online in 2027 on a dollar basis or any way you could frame it? Thank you.",
+   "name": "Jamie Cook, Truist Securities",
    "parts": [
     {
      "t0_ms": 2353140,
@@ -4535,6 +4596,7 @@
    "t1_ms": 2443140,
    "speaker": "Management",
    "text": "Good morning, Jamie. As far as the margin target range, I've said many times I want to operate towards the middle of that range. The sales are growing at a really good clip, which is a good thing. And we've been able to, to the best we can, keep up with customer demand. And it's a progressive target. So as our margins are going up, the target continues to increase. So we're kind of skipping along the bottom. I would expect, and we'll talk to you a lot more about 2027 in the next quarter, that we start to claw our way off the bottom of that margin target range as we go forward while we still try to keep up with demand. We also are trying to do this with the tariff headwind in a smart way where we're not slowing down investments",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2398580,
@@ -4642,6 +4704,7 @@
    "t1_ms": 2456820,
    "speaker": "Management",
    "text": "that would impact the growth and the momentum we have in the business. So I'm happy with the progress we've made. Our margins continue to go up as our volume goes up. And over the next couple of years, we want to try to work our way back to the midpoint.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2443140,
@@ -4689,6 +4752,7 @@
    "t1_ms": 2463180,
    "speaker": "Operator",
    "text": "Next, we'll move to David Russo at Evercore ISI.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2460380,
@@ -4708,6 +4772,7 @@
    "t1_ms": 2509180,
    "speaker": "Analyst",
    "text": "Hi, thank you for the time. I'm trying to figure out the revenue sequentially and what it means when we think about 27 revenue. If you look at the sequential revenue three to four Q, let's use the guide for the full year mid to high teens. Right? Let's call it 17%. It implies the fourth quarter, even if I give you back the extra billion, right? The headwind of the dealer inventory. It implies the revenue is barely up sequentially. And over a long period of time, fourth quarter is up 5 to 10%. It moves around. But a year where you're adding capacity, it's a big focus. And the demand there, you speak to it in retail, even the backlog is still pretty solid. Just trying to understand,",
+   "name": "David Raso, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2464540,
@@ -4819,6 +4884,7 @@
    "t1_ms": 2525020,
    "speaker": "Analyst",
    "text": "is there some capacity issue supplier issue? Why is the revenue growth so modest sequentially, especially given the capacity at it? And any implications on how to think about 27 top line would be appreciated as well. Thank you.",
+   "name": "David Raso, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2509180,
@@ -4866,6 +4932,7 @@
    "t1_ms": 2571100,
    "speaker": "Management",
    "text": "Good morning, David. As we said in prepared remark, on power and energy, it's really paced by capacity and timing customer deliveries. So we're not seeing anything, different in the business that we would say would impact the fourth quarter. But it is hand to mouth, right? The teams are working really hard. We had a test that'll go down for a little bit in the third quarter that we were able to overcome. But there's no slack in the system. And then as you mentioned, and we've kind of said we're going to have the inventory draw down in CI, which seasonally isn't unusual. It's going to be a little different than the patterns that we had last year. And then RI, we are, as we mentioned,",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2527020,
@@ -4973,6 +5040,7 @@
    "t1_ms": 2615100,
    "speaker": "Management",
    "text": "we think operationally we're trying to ramp. So we're going to obviously get as much product out as we can on large mining trucks and some of those products. But I don't think there's, other than typical seasonality and things that we've talked about on trying to ramp production, we're pretty confident. And this is an inline, our third quarter results came in line as we expected. We haven't really changed our view for what we plan to do in the fourth quarter. And as you think about how we're going to finish the year, again, we'll talk to you more about 2027 in January, but our backlog continues to increase. We have longer line of sight. We are drawing down CI inventory 1.6 billion. We're going to finish the year with almost $700 million more of inventory in place",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2571100,
@@ -5096,6 +5164,7 @@
    "t1_ms": 2652060,
    "speaker": "Management",
    "text": "than we finished 2025 heading into 2026. So we feel good about where we sit right now. And David, I just, this is Kyle, just to remind you, and I said in my prepared remarks, when we talk about the growth, it's off a really tough comparison versus 4Q last year, just from a consolidated level, and then especially from a power and energy standpoint. But going into 2027, the deal inventory increase in CI, we still expect really strong stews across all three primary segments and 4Q going into 2027.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 2615100,
@@ -5175,6 +5244,7 @@
    "t1_ms": 2658490,
    "speaker": "Operator",
    "text": "We'll take our next question from Michael Senniger at Bank of America.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2655290,
@@ -5198,6 +5268,7 @@
    "t1_ms": 2705210,
    "speaker": "Analyst",
    "text": "Hey, everyone. Thanks for taking my question. And just kind of following up on David Rasse's question, the Q4 implying a moderate sales growth, you guys talked about the dealer D-stock. I know your target is 6% to 9% CAGR on the revenue growth side. Some years higher, some years lower to get to that average. Just with the backlog with where it is, the framework agreements, and I understand there's a quarter dynamic with D-stocking, but why would the setup for 2027, should we be thinking that we're above that 6% to 9% CAGR at the higher end based on where retail sales are and where we're seeing it? What would hold us back to be in that line? I'm just kind of curious what the setup",
+   "name": "Michael Feniger, Bank of America",
    "parts": [
     {
      "t0_ms": 2660490,
@@ -5309,6 +5380,7 @@
    "t1_ms": 2707450,
    "speaker": "Analyst",
    "text": "and the building blocks would look like for next year on that.",
+   "name": "Michael Feniger, Bank of America",
    "parts": [
     {
      "t0_ms": 2705210,
@@ -5328,6 +5400,7 @@
    "t1_ms": 2754660,
    "speaker": "Management",
    "text": "Yeah, so 2027, again, we know that much different than how I answered David's question. I mean, we're finishing the year strong. We had, as Kyle mentioned, a really strong fourth quarter last year. So when we say moderate growth year over year, some of that's a comp issue. We're based on capacity, on power and energy. We think we'll continue to increase capacity. It's not a cliff event, as we've said. So every quarter, we try to get more and more product out. We expect to continue that. When it comes to the dealer inventory drawdown, one dealers are independent businesses, just to remind you. We do work with them. And we want to make sure we have the right inventory in the right place, in the right regions of the world with the right products. And we do feel like",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2710660,
@@ -5439,6 +5512,7 @@
    "t1_ms": 2788420,
    "speaker": "Management",
    "text": "we're in a good position heading into 2027, finishing the year with more dealer inventory in CI than we finished last year. So our orders continue to go up. We've had three really strong quarters in a row of orders in our eye, having some operational challenges and inefficiencies as we ramp. But I think we'll continue to work those and get those behind us. So we're pretty confident and bullish in where we sit right now as we watch things. We're focused on delivering a strong fourth quarter and a strong finish to the year. And we'll talk to you guys more about 27 in January.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2754660,
@@ -5510,6 +5584,7 @@
    "t1_ms": 2793590,
    "speaker": "Operator",
    "text": "Next, we'll go to Chad Dillard at Bernstein.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2788420,
@@ -5525,6 +5600,7 @@
    "t1_ms": 2828230,
    "speaker": "Analyst",
    "text": "Hey, good morning, guys. Just wanted to spend some time on the mining business. I recall from the beginning of this year, you talked about orders being the highest, I think, since 2012. So I was wondering if you could give an update on how that's trending. And talk about what's driving it more refurbishment versus replacement. And if you can just give a little bit more color on some of the challenges that you're seeing and do you have a line of sight to seeing that being resolved in the next quarter or so?",
+   "name": "Chad Dillard, Bernstein",
    "parts": [
     {
      "t0_ms": 2794150,
@@ -5588,6 +5664,7 @@
    "t1_ms": 2874140,
    "speaker": "Management",
    "text": "Yeah, good morning. We've had three really good order quarters in a row for our eye, which we're really happy about. As I mentioned in prepared remarks, driven a lot by mining and both heavy construction. But in mining in particular, copper and gold, we're starting to see activity in the Canadian oil sands. Services are continuing to grow. So customers are using the fleet and we're seeing aftermarket rebuilds continue to happen and customers are starting to order equipment. So that's all a really good sign. As we try to ramp, particularly in large mining trucks, is where we've been actually increasing capacity at some of our factories where we can inside our four walls",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2830540,
@@ -5659,6 +5736,7 @@
    "t1_ms": 2903260,
    "speaker": "Management",
    "text": "and working with the supply base to get ramped up. They're just sort of, I would say, as normal growing pains and operational challenges when you're increasing capacity and trying to get product out the door. So we'll continue to work those. I think we'll get them behind this as we move forward. But it's a great sign that we've had this strength and orders as we've been waiting for orders to kind of pick up in mining for quite a while. So we're really happy with what we've seen in the first three months of, or the first three quarters of this year.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2874140,
@@ -5722,6 +5800,7 @@
    "t1_ms": 2910410,
    "speaker": "Operator",
    "text": "We'll go next to Jerry Revich at Wells Fargo Securities.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2907290,
@@ -5737,6 +5816,7 @@
    "t1_ms": 2954740,
    "speaker": "Analyst",
    "text": "Hi, good morning everyone. And congratulations to Denise and Derek. Hi, Joe, Kyle, I want to ask in terms of, as you think about the production slots and lead times out to 2930 for urbans and large reciprocating engines, as you folks look at the permit requirements out that far and the counterparty is given some angst about credit in the market, can you just talk about if you've seen any shifts in timing and backlog? And I don't know if you can share of what proportion of those production slots are backed by hyperscalers just to build comfort around the moving pieces, given all of the use on the permitting side.",
+   "name": "Jerry Revich, Wells Fargo Securities",
    "parts": [
     {
      "t0_ms": 2912500,
@@ -5812,6 +5892,7 @@
    "t1_ms": 2999380,
    "speaker": "Management",
    "text": "Yeah, I mean, I don't think we would quantify hyperscalers versus COOs versus others or IPPs, but we work with all of them. Typically when we roll orders from pipeline in the backlog and working with other customers, we generally have line of sight to the project that they're working on. Our teams are working closely with customers. We continue to see strong oil and gas activity as well for large engines. So, as we think of this, we've always tend to move, if we can, some slots around to meet customer needs to deliver on their projects. And we've been doing that in the last couple of years because we want to make sure we meet our customers timeline,",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2955140,
@@ -5887,6 +5968,7 @@
    "t1_ms": 3042980,
    "speaker": "Management",
    "text": "but also no need to get product there early. It allows us to meet more customer demand if we're getting it when they need it. And we haven't seen really any significant change in how we're working with our customers to deliver projects. And product to get their project timelines. So, we continue to talk to our customers. We stay close to them. We'll follow their lead, but we're not seeing significant changes. But as I said earlier, as we're extended pretty far out, I mean, this is going to be, this is unusual for us. Typically we will have 12 months or less line of sight to our backlog. And now in particularly this situation, customers are placing orders pretty far out there. We have a lot of quoting out in 2930. We've got some quoting activity even beyond as we talk to customers.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2999380,
@@ -5986,6 +6068,7 @@
    "t1_ms": 3068100,
    "speaker": "Management",
    "text": "But I think they have time to firm up those orders and place the firm orders and move them into our backlog. So we'll see our backlog kind of move in a lumpy way moving forward. But we'll continue to watch sales to users, continue to watch order rates, our backlog all in conjunction together and stay close to our customers as we move into the end of this year and into next year. We'll move to our next question from Mick Dobre at Baird.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3042980,
@@ -6045,6 +6128,7 @@
    "t1_ms": 3076300,
    "speaker": "Operator",
    "text": "Yeah, thank you. Good morning. And just to follow up on these last comments,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3068100,
@@ -6068,6 +6152,7 @@
    "t1_ms": 3115260,
    "speaker": "Analyst",
    "text": "if we're kind of looking at backlog progression or maybe looking at it from the perspective of book to bill, it was as high as 1.7 earlier this year, decelerated to about 1.3 and a quarter here. As you look at a fourth quarter, based on what you know, how do you see the backlog? Given that you're taking out orders into 29, maybe even 30 for solar, is there some kind of slippage in terms of bookings given how constrained from a capacity we seem to be? Thank you. One of the things you have to look at book to bill is we continue to increase production as well. So our sales are continuing to go up.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3076300,
@@ -6143,6 +6228,7 @@
    "t1_ms": 3161020,
    "speaker": "Management",
    "text": "And as I mentioned, for certain products, you know, we're still looking at the same numbers that we were looking at last year. For certain products, you know, when you look at our backlog, all three segments are in there and all three have been growing. There's some of them we'd like to actually bring in and increase production. And so as we continue to ramp, you know, book to bill will sort of move around. And then in power and energy again, we're extended way longer than we've ever been. And so we continue to talk to our customers. That's why it's great to have the frame agreements and sort of the pipeline view beyond what's in the backlog. That's what we're using to plan with customers. And those orders are rolling to the backlog at different times as we continue to move forward.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3116140,
@@ -6234,6 +6320,7 @@
    "t1_ms": 3201420,
    "speaker": "Management",
    "text": "You know, RI and prime power projects, as I mentioned earlier, will also probably come in in not, you know, a smooth sequential fashion. They'll be lumpy depending on when those orders get placed because they're typically big orders. So, you know, I think we'll continue to talk to our customers. And, you know, again, you can't just look at one metric like backlog growth in a quarter or book to bill in a quarter has to be taken into context with continued momentum and sales to users, our ability to produce more and get more product out the door. There's a lot of things that we're watching on the health of the business, more than just book to bill and a singular backlog number.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3161020,
@@ -6317,6 +6404,7 @@
    "t1_ms": 3207850,
    "speaker": "Operator",
    "text": "Our next question comes from Kyle Menges at Citi.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3201420,
@@ -6332,6 +6420,7 @@
    "t1_ms": 3252740,
    "speaker": "Analyst",
    "text": "Great. Thanks for taking my question. I would love to hear from you guys how the landscape might be changing a little bit as far as the demand you're seeing in the data center market. Maybe talk a little bit about how you're seeing things evolve in demand for turbines versus Nat gas resets and then for diesel backup. And then also just as you're booking into the latter part of this decade and having a lot of discussions, it sounds like a lot of quoting activity to 2030 and even beyond. Would love to get just some sense of how you could see your mix shifting maybe that mix of prime versus backups",
+   "name": "Kyle Menges, Citi",
    "parts": [
     {
      "t0_ms": 3210420,
@@ -6403,6 +6492,7 @@
    "t1_ms": 3258420,
    "speaker": "Analyst",
    "text": "where you've been versus maybe where that mix is heading as you look to 2030.",
+   "name": "Kyle Menges, Citi",
    "parts": [
     {
      "t0_ms": 3252740,
@@ -6422,6 +6512,7 @@
    "t1_ms": 3304390,
    "speaker": "Management",
    "text": "Yeah, as we talk to our customers, we've not seen really any change since the last quarter in our discussions with customers. We continue to see momentum in, you know, standby diesel backup, which has been the growing base of our business for quite a while, you know, before even really AI started to accelerate the growth even more, driven by a lot of demand for cloud compute. Then, you know, AI has obviously accelerated that, you know, when it comes to prime power versus diesel, you know, that's one of the things that's, you know, good about the capacity we put in place. It's pretty fungible as long as we have line of sight to those orders. You know, if you get the largest 3520, you know, that one,",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3260550,
@@ -6505,6 +6596,7 @@
    "t1_ms": 3348150,
    "speaker": "Management",
    "text": "they're probably a little more extended on the gas 3520K. But keep in mind as well, the capacity we have in place and the momentum we have, you know, it's more than just power generation. We continue to see the momentum there, oil and gas, and I think we're going to move a lot of natural gas in the next few years and a really strong in gas compression, both at solar turbines and in our reciprocating engine business. Demand is there for that. It's for marine and large engines also go into our mining products as well. So as the mining picks up, you know, we're excited about, you know, making sure that we can serve those customers. And really when you talk about, aside from diesel standby, all these other applications, we, as the field population grows, we need to be able to support customers",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3304390,
@@ -6608,6 +6700,7 @@
    "t1_ms": 3357510,
    "speaker": "Management",
    "text": "in the aftermarket and grow services. So the capacity is all aligned to what we plan to have. In place to meet our goals in 2030.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3348150,
@@ -6631,6 +6724,7 @@
    "t1_ms": 3363180,
    "speaker": "Operator",
    "text": "We'll go next to Kristen Owen at Oppenheimer.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3360860,
@@ -6646,6 +6740,7 @@
    "t1_ms": 3396640,
    "speaker": "Analyst",
    "text": "Hi, good morning. Thank you for the question. You know, we've talked a lot about the synchronous growth within the portfolio, but I'm hoping you can maybe double click for us on the construction side. You called out the tough comps here in the fourth quarter, but backlog growth in construction, can you maybe help us understand or give us some color on the underlying demand, how much of that growth is going into rental for your own fleet versus third parties, and maybe some of those other sources of demand outside of rental and mega projects. Thank you.",
+   "name": "Kristen Owen, Oppenheimer",
    "parts": [
     {
      "t0_ms": 3364700,
@@ -6717,6 +6812,7 @@
    "t1_ms": 3442860,
    "speaker": "Management",
    "text": "Yeah, good morning, Kristen. Yeah, we've seen really strong order rates, strong stews continue in construction. So we're really excited about the progress we have there and the initiatives that we've announced. I think it's the seventh consecutive stew growth quarter. And, you know, we'll see as we move forward. Our goal and our strategy really is to get customers in the cabs and cab machines, whether they want to rent or lease or buy. And we're seeing customers do all three. We're really excited, you know, and we're heavy in the fleet load in the major projects fleet in the third quarter. And, you know, basically, as soon as we can get fleet on the ground, they're moving to projects. So, you know, I think that's going to be a great initiative for us to continue to drive rental.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3399100,
@@ -6804,6 +6900,7 @@
    "t1_ms": 3487100,
    "speaker": "Management",
    "text": "And the point of that is to supplement, if you think about that strategy, the major projects, JV, it supplements the local dealer where they wouldn't be able to get on, have the scale to get to projects before. So it drives not only major projects, but allows each of the individual dealers to be in more rental deals as they move forward as well. So we're seeing great progress there. We're excited about Cat Compact and how we're taking care of customers in the growing compact equipment industry. And, you know, in particular, we've seen it's large infrastructure projects, high IJ spending, still has a lot of money left to be spent and projects left to be completed. I'm confident, you know, we'll continue to prioritize critical infrastructure as we move forward.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3444060,
@@ -6895,6 +6992,7 @@
    "t1_ms": 3508220,
    "speaker": "Management",
    "text": "Data centers obviously have a little bit of a rollover into CI as well. And so we're seeing really good momentum with the CI team. We're getting closer to customers than we ever have. And that's, it's showing in their results. And, you know, we're seeing strength in all three of our segments right now, which is really exciting.",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3487100,
@@ -6942,6 +7040,7 @@
    "t1_ms": 3517450,
    "speaker": "Operator",
    "text": "And today's final question comes from the line of Stephen Volkman from Jeffries.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3513290,
@@ -6961,6 +7060,7 @@
    "t1_ms": 3531540,
    "speaker": "Analyst",
    "text": "Hey, good morning. Thanks for sneaking me in. Joe, I'm just wondering any update on the 10 megawatt Mac restart that you're doing and how we should think about that kind of ramping going forward.",
+   "name": "Stephen Volkmann, Jefferies",
    "parts": [
     {
      "t0_ms": 3519620,
@@ -6996,6 +7096,7 @@
    "t1_ms": 3576570,
    "speaker": "Management",
    "text": "And good morning, Stephen. Yeah, we plan to ship our first units here in the fourth quarter. And we'll continue to ramp as we go through next year on restarting the 10 megawatt MAK engine and using it in power generation. I think that's going to be a great opportunity for us as we move into, you know, we'll get started here in the fourth quarter, but as we move into 2027. So everything's on track with that program. All right. Well, that was the last question. So I just want to say thanks for joining us today. We really appreciate your questions. And I'm really proud of our team, you know, the CatoPRO team's strong performance in what's been a pretty dynamic environment",
+   "name": "Joe Creed, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3532900,
@@ -7079,6 +7180,7 @@
    "t1_ms": 3617850,
    "speaker": "Management",
    "text": "as we try to ramp production, add capacity, and take care of our customers. We're well positioned to deliver a strong year and we'll continue creating long-term value for our customers and shareholders. So thank you. I'll turn it back over to Alex. Thank you, Joe, Kyle, Stephanie, and everyone who joined us today. A replay of our call will be available online later this morning. We'll also post a transcript on our investor relations website as soon as it's available. You'll also find a third quarter results video with our CFO and an SEC filing with our sales to users data. Visit investors.cato.com and then click on financials to view those materials. If you have any questions, please reach out to me or Ryan Coleman. The investor relations general phone number",
+   "name": "Alex Kapper, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 3576570,
@@ -7178,6 +7280,7 @@
    "t1_ms": 3624010,
    "speaker": "Management",
    "text": "is 309-675-4549. Now let's turn it back to Audra to conclude our call.",
+   "name": "Alex Kapper, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 3617850,
@@ -7197,6 +7300,7 @@
    "t1_ms": 3630810,
    "speaker": "Operator",
    "text": "Thank you. And that concludes our call. Thank you for joining. You may all now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3625610,
@@ -11077,6 +11181,7 @@
    "quote": "In the third quarter, we generated MP&E free cash flow of $3.8 billion and deployed $2 billion to shareholders through share repurchases and dividends.",
    "adj_ret_5m": -0.009053521878290782,
    "speaker": "Management",
+   "name": "Joe Creed, Chairman and CEO",
    "vol_mult": 9.796426063635577,
    "spillover": "company"
   }
@@ -11090,6 +11195,7 @@
    "t0_ms": 262970,
    "speaker": "Management",
    "quote": "In the third quarter, we generated MP&E free cash flow of $3.8 billion and deployed $2 billion to shareholders through share repurchases and dividends.",
+   "name": "Joe Creed, Chairman and CEO",
    "metric": "MP&E free cash flow and shareholder returns",
    "kind": "result",
    "novel": true,
@@ -11122,6 +11228,7 @@
    "t0_ms": 616170,
    "speaker": "Management",
    "quote": "This expansion marks another important step towards our goal of tripling the number of CAT autonomous trucks by 2030 compared with 2024.",
+   "name": "Joe Creed, Chairman and CEO",
    "metric": "CAT autonomous trucks",
    "kind": "guidance",
    "novel": true,
@@ -11154,6 +11261,7 @@
    "t0_ms": 1865190,
    "speaker": "Management",
    "quote": "profit margin is expected to be near the bottom of our target range.",
+   "name": "Kyle Epley, Chief Financial Officer",
    "metric": "adjusted operating profit margin excluding IEPA tariff recoveries",
    "kind": "guidance",
    "novel": true,
@@ -11186,6 +11294,7 @@
    "t0_ms": 3267030,
    "speaker": "Management",
    "quote": "We continue to see momentum in, you know, standby diesel backup, which has been the growing base of our business for quite a while, you know, before even really AI started to accelerate the growth even more, driven by a lot of demand for cloud compute.",
+   "name": "Joe Creed, Chairman and CEO",
    "metric": "standby diesel backup demand",
    "kind": "qualitative",
    "novel": true,
@@ -11218,6 +11327,7 @@
    "t0_ms": 2104420,
    "speaker": "Management",
    "quote": "We'll probably still roll some diesel backup orders into 2028 when we're not completely full.",
+   "name": "Joe Creed, Chairman and CEO",
    "metric": "diesel backup order delivery timing",
    "kind": "qualitative",
    "novel": true,
@@ -11359,7 +11469,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 10.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 1030,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 45525
+  },
+  "claude_usd": 0.1241
+ },
  "context": {
   "ts": [
    "2026-10-29T12:15:00Z",

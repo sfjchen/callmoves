@@ -3,7 +3,8 @@ from pathlib import Path
 
 from conftest import T0
 
-from callmoves.eval import Label, evaluate, placebo
+from callmoves import market
+from callmoves.eval import Label, cross_null, evaluate, placebo, placebo_inputs
 from callmoves.models import Moment
 
 
@@ -26,6 +27,21 @@ def test_precision_at_k_with_2_minute_tolerance_and_missed_labels():
     assert ev.precision[3] == 2 / 3 and ev.missed == [labels[1]]
 
 
+ACME = Path(__file__).parent.parent / "fixtures" / "acme_q3_2026"
+
+
 def test_placebo_planted_moves_beat_every_time_shift():
-    real, fake = placebo(Path(__file__).parent.parent / "fixtures" / "acme_q3_2026")
-    assert real > max(fake)
+    real, fake = placebo(*placebo_inputs(ACME, market.BENCHMARK))
+    assert fake and real > max(fake)
+
+
+def test_placebo_skips_a_call_too_short_to_shift():
+    segs, bars, claims = placebo_inputs(ACME, market.BENCHMARK)
+    short = [s for s in segs if s.ts - segs[0].ts < timedelta(minutes=20)]
+    assert placebo(short, bars, [c for c in claims if c.seg_id <= short[-1].seg_id])[1] == []
+
+
+def test_cross_null_scores_each_call_against_the_other_calls_timings():
+    loaded = {"a": placebo_inputs(ACME, market.BENCHMARK), "b": placebo_inputs(ACME, market.BENCHMARK)}
+    res = cross_null(loaded)
+    assert len(res["a"][1]) == 1 and res["a"][1][0] == res["a"][0]   # the same profile restores the call

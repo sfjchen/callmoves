@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-21T09:00:00-04:00",
   "etf": "XLU",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/NEE_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/NEE_Q3-2026.mp3",
   "company": "NextEra Energy",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 36300,
    "speaker": "Operator",
    "text": "Good morning and welcome to the NextEra Energy, Inc. Third Quarter 2026 Earnings Call. All participants will be in listen-only mode. Should you need assistance, please signal a conference specialist by pressing the star key followed by zero. After today's presentation, there will be an opportunity to ask questions. To ask a question, you may press star then one on a touchtone phone. To withdraw your question, please press star then two. Please note this event is being recorded. I would now like to turn the conference over to Michael Dowling, Director of Investor Relations. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -59,6 +60,7 @@
    "t1_ms": 83300,
    "speaker": "Management",
    "text": "Good morning, everyone, and thank you for joining our Third Quarter 2026 Financial Results Conference Call for NextEra Energy. With me this morning are John Ketchum, Chairman, President, and Chief Executive Officer of NextEra Energy. Mike Dunn, Executive Vice President and Chief Financial Officer of NextEra Energy. Armando Pimentel, Vice Chairman of NextEra Energy. Scott Borys, President and Chief Executive Officer of Florida Power and Light Company. Brian Bolster, President and Chief Executive Officer of NextEra Energy Resources. And Mark Hickson, Executive Vice President of NextEra Energy. John will start with opening remarks, and then Mike will provide an overview of our results. Our executive team will then be available to answer your questions. We will be making forward-looking statements during this call based on current expectations and assumptions,",
+   "name": "Michael Dowling, Director of Investor Relations",
    "parts": [
     {
      "t0_ms": 38660,
@@ -118,6 +120,7 @@
    "t1_ms": 127640,
    "speaker": "Management",
    "text": "which are subject to risks and uncertainties. Actual results could differ materially from our forward-looking statements, if any of our key assumptions are incorrect or because of other factors discussed in today's earnings news release, in the comments made during this conference call, in the risk factors section of the accompanying presentation, or in our latest reports and filings with the Securities and Exchange Commission, each of which can be found on our website, www.nextereaenergy.com. We do not undertake any duty to update any forward-looking statements. Today's presentation also includes references to non-GAAP financial measures. You should refer to the information contained in the slides accompanying today's presentation, for definitional information and reconciliations of historical non-GAAP measures to the closest GAAP financial measure. With that, I will turn the call over to John.",
+   "name": "Michael Dowling, Director of Investor Relations",
    "parts": [
     {
      "t0_ms": 83520,
@@ -169,6 +172,7 @@
    "t1_ms": 168940,
    "speaker": "Management",
    "text": "Thanks, Michael, and good morning, everyone. NextEra Energy delivered strong third quarter results with adjusted earnings per share increasing 9.7% year over year. In addition, through the first nine months of the year, our adjusted earnings per share has increased 9.5% and has been increasing by about 1.5% since the beginning of the last year. The continued strong financial and operational performance at both FPL and Energy Resources positions our company well to meet its overall objectives for the year. Before I turn to the progress we have made executing against our broader strategy,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 127640,
@@ -204,6 +208,7 @@
    "t1_ms": 208520,
    "speaker": "Management",
    "text": "I want to spend a moment on Hurricane Isaias. FPL continues to stand shoulder to shoulder with our communities throughout the year, especially throughout Northwest Florida, devastated by this high-end Category 2 storm. While we have restored power to all customers able to safely accept service, it will undoubtedly take months for life to truly recover from the destructive wind, torrential rain, and toppled trees that ravaged many homes and businesses. In preparation for the storm, FPL assembled a restoration workforce of approximately 17,000 men and women from the state of Tennessee to the U.S.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 168940,
@@ -243,6 +248,7 @@
    "t1_ms": 249840,
    "speaker": "Management",
    "text": "29 states, pre-positioning crews, equipment, and supplies ahead of the storm so that restoration could begin as soon as conditions were safe. I want to recognize our employees and the thousands of contractors, mutual assistance crews, first responders, and community partners who worked around the clock for our customers. Their preparation, dedication, commitment, and selflessness allowed us to restore power safely and quickly. The hurricane exited our service area early Saturday morning, and by Tuesday, we restored power to more than 97% of customers affected.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 208520,
@@ -278,6 +284,7 @@
    "t1_ms": 294280,
    "speaker": "Management",
    "text": "Early forensic analysis shows investing in a stronger, smarter, and more storm-resilient grid benefited our customers. Not a single hardened transmission or distribution pole failed during East IAEA. Underground neighborhood power lines performed approximately 14 times better than overhead lines, and smart grid technology avoided approximately 140,000 outages. To be clear, these investments do not make the grid hurricane-proof, but together with our preparation and coordinated response, they have reduced both the number and duration of outages and enable us to get our customers' lives back to normal.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 250880,
@@ -321,6 +328,7 @@
    "t1_ms": 339720,
    "speaker": "Management",
    "text": "But it is our people who make the biggest difference, and I again want to say thank you to our teams and the thousands of mutual assistance crews who worked tirelessly to support our communities when they needed us most. A year ago, we laid out a clear plan for NextEra Energy with more than 12 ways to deliver value for our customers across our regulated and long-term contracted businesses. The backdrop, then, is the same as it is today. America needs more electrons on the grid. Affordability, reliability, scale, and speed to market are more important than ever. But here's what's materially different between then and now.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 295280,
@@ -356,6 +364,7 @@
    "t1_ms": 382720,
    "speaker": "Management",
    "text": "Today, we're not just talking about a plan. We have executed and continue to execute against that plan, and in many areas, we have exceeded our own expectations. In a complex environment where power demand continues to accelerate, we have to be more efficient. We have to be more efficient. And if that economy continues to accelerate, customers cannot afford to wait. They need a partner who can deliver now and do it affordably. That is exactly what we continue to do all across America. It's why we believe NextEra Energy remains one of the best positioned companies in the sector. No company does more to build generation and energy infrastructure necessary to keep pace with the demand for power across this country. We have the scale, the balance sheet, the supply chain, the technology, the infrastructure that makes it possible for us to keep pace.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 339720,
@@ -407,6 +416,7 @@
    "t1_ms": 421770,
    "speaker": "Management",
    "text": "the supply chain, the technology, the customer relationships, and the development and operating expertise to build what our customers need when and where they need it. We are executing across the full set of growth opportunities we laid out 12 months ago by staying focused on affordability, reliability, and delivering every day for our customers. I could not be prouder of the team's execution this year, and I could not be more excited about what we have left to accomplish in 2026 and beyond. At FPL, we continue to support Florida's strong and growing economy. Florida",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 382720,
@@ -442,6 +452,7 @@
    "t1_ms": 462950,
    "speaker": "Management",
    "text": "remains one of the fastest growing states in the nation, supported by continued net-end migration, job creation, and business investment. Florida's $1.9 trillion annual economy is the 14th largest in the world. Florida's growth continues to drive the need for new energy infrastructure across the state, and we are making smart capital investments to meet those customer needs. We also continue to demonstrate that serving growth can be done affordably and reliably. FPL's typical residential bill is approximately 37 percent below the national average and is only projected to increase",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 421770,
@@ -481,6 +492,7 @@
    "t1_ms": 506110,
    "speaker": "Management",
    "text": "2 percent annually on average through the end of the decade. We drive consistently low bills through FPL's annual growth and service growth. We are making smart capital investments to meet the need for exceptional operating efficiency. FPL's non-fuel O&M is more than 70 percent lower than the industry average on a dollar-per-megawatt-hour basis. Customers also continue to benefit from top-decile reliability that's more than 60 percent better than the national average. This performance is the direct result of a proven long-term strategy centered on sustained, disciplined capital investment scale, a strong balance sheet, and credit rating, a highly efficient operating model, and a diverse generation fleet. FPL's customer service is also",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 462950,
@@ -524,6 +536,7 @@
    "t1_ms": 549590,
    "speaker": "Management",
    "text": "ranked top-decile nationally for residential customer satisfaction while maintaining the lowest billing cost per customer. We've worked hard to extend this customer value proposition in northwest Florida over the last eight years. In addition to reliability investments, we've focused on customer affordability. When adjusting for inflation, we've focused on customer affordability. FPL's typical residential bill in that part of the state is now approximately 25 percent lower than it was in 2018 before we acquired Gulf Power. We have also put into place a large load framework that allows us to serve new demand while ensuring existing customers are protected from the",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 506110,
@@ -563,6 +576,7 @@
    "t1_ms": 590950,
    "speaker": "Management",
    "text": "incremental costs required to serve that growth. FPL's large load tariff is not only one of the most customer protective in America, it's protections and protection of the customer's environment. FPL's large load tariff is also one of the most customer protective in America. We have also been largely codified into Florida law. Needless to say, hyperscalers know exactly how we plan to serve them in Florida. As we discussed throughout the year, the interest is high. It's why we raised our large load expectations from six gigawatts to eight gigawatts by 2032, and we remain confident in our ability to announce a large load transaction by the end of the year. At Energy Resources, we have turned an extraordinary opportunity into a product of our own. FPL's large load tariff is",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 549590,
@@ -606,6 +620,7 @@
    "t1_ms": 635690,
    "speaker": "Management",
    "text": "set into real execution across the board in both our regulated and long-term contracted businesses. Our regulated and invested capital, along with our secured capital expenditures across electric and gas transmission, have increased roughly 25% to approximately $12.7 billion since December 2025. In the first quarter, Lone Star Transmission received ERCOT approval to build portions of two new transmission lines in north-central Texas to improve reliability in the region. And in the second quarter, MISO selected NextEra Energy Transmission to build two large-scale 765 kV",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 590970,
@@ -641,6 +656,7 @@
    "t1_ms": 678430,
    "speaker": "Management",
    "text": "transmission projects in Illinois to help deliver safe, reliable, and cost-competitive energy for decades. In addition, our gas transmission... transmission business formed a joint venture during the quarter with Chesapeake Utilities Corporation to build a $1.2 billion, 97-mile intrastate gas pipeline in South Florida. We continue to add renewables and storage to our backlog at a pace that underscores the strength of our customer demand and the value of our speed-to-power development platform. For the quarter, Energy Resources added 3.7 gigawatts of renewable energy to the state's gas and gas distribution. This helps to improve the overall capacity of our battery and jet power generation system and",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 635690,
@@ -688,6 +704,7 @@
    "t1_ms": 717230,
    "speaker": "Management",
    "text": "interactively connect some of the sources of our energy and gas production. This includes another strong quarter of battery storage origination at 2.4 gigawatts. Importantly, we have multiple growth avenues for battery storage. We built standalone battery storage, co-locate storage at existing sites, develop storage as a grid solution, and expand batteries from four hours to eight hours at existing projects. In a market driven by a significant need for quick capacity solutions, our energy production system energy resources remains well positioned to serve customers with battery storage. Here's what's important. With these new additions to our backlog and projects that reach commercial operation,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 678430,
@@ -735,6 +752,7 @@
    "t1_ms": 762110,
    "speaker": "Management",
    "text": "we've now achieved greater than two-thirds of the midpoint of our 2026 through 2029 development expectations, and we added approximately 15 gigawatts to the backlog in the last 12 months. We also continue to make significant progress across our large load opportunity set. Today, we've advanced more than 20 gigawatts of large load projects, over 18 gigawatts of which are gas-fired generation. We expect these opportunities to drive value in two different ways. The first is our federal hubs, where Energy Resources expects to develop, build, and operate projects for fees without investing capital. The second is our federal hubs, where Energy Resources expects to develop, build, and operate projects for fees without investing capital.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 717930,
@@ -786,6 +804,7 @@
    "t1_ms": 806400,
    "speaker": "Management",
    "text": "The second includes projects that we expect to develop, own, and operate ourselves. With the federal hubs, we have signed definitive agreements to develop, construct, and operate three projects across Texas and Pennsylvania, totaling approximately 16.5 gigawatts that have secured $5.7 billion in initial funding year-to-date. Energy Resources earns fees based on a predetermined schedule for development and construction of the projects and for the first 20 years of the project. We expect to develop and operate projects for fees without investing capital. The third is our federal hubs, where Energy Resources expects to develop, build, and operate projects for fees without investing capital. Across all three federal hubs, we are advancing construction and PPA solicitation in parallel to maximize speed to market while working to secure required permits and other approvals.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 762110,
@@ -841,6 +860,7 @@
    "t1_ms": 850460,
    "speaker": "Management",
    "text": "We expect to serve significant load as early as 2028 and 2029 using behind-the-meter generation and then ramp to the full requirements of these campuses from 2030 through 2032. Importantly, each of these projects are perfect examples of matchmaking, attracting new electric load with new power generation, ensuring data centers pay for their own generation and infrastructure, not existing utility customers. While we do not put any capital into the projects, we expect federal hubs to generate approximately 50% of the expected adjusted earnings per share that Energy Resources would receive if we own the projects ourselves over the first 20 years of operation.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 807100,
@@ -888,6 +908,7 @@
    "t1_ms": 890820,
    "speaker": "Management",
    "text": "The three federal hubs, on an equivalent, are adjusted to EPA's basis are approximately equal to the top end of our natural gas development expectations of 4 to 8 gigawatts by 2032. We also have the opportunity to build and own battery storage to support data center load at these federal hub opportunities, which could be an incremental 6 to 11 gigawatts or an approximate 15 to 30% potential upside to our storage development expectations. We also continue to advance. a significant pipeline of large load projects that we expect to own and operate ourselves.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 850980,
@@ -931,6 +952,7 @@
    "t1_ms": 933400,
    "speaker": "Management",
    "text": "In July, we were part of a coalition of energy, infrastructure, and utility companies that announced a strategic partnership to develop a data center campus at the U.S. Department of Energy's Paducah site in western Kentucky. NextEra Energy expects to build and own dedicated generation resources to power the campus, including up to 2 gigawatts of natural gas and up to 2.6 gigawatts of battery storage systems. We also have a development pipeline of 30 potential hubs we are discussing with the market, and we continue to expect that number to rise to 40 by year end. Duane Arnold, our nuclear plant in Iowa, remains on track to be recommissioned and reenter",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 891400,
@@ -974,6 +996,7 @@
    "t1_ms": 975240,
    "speaker": "Management",
    "text": "service no later than Q1 2029. During the quarter, we closed a loan with the Department of Energy for the U.S. Department of Energy to build a data center for the U.S. Department of Energy. We are working to develop new greenfield sites. Of course, any new nuclear build would have to include the right commercial terms and conditions",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 933400,
@@ -1005,6 +1028,7 @@
    "t1_ms": 1018000,
    "speaker": "Management",
    "text": "with appropriate risk-sharing mechanisms that limit our ultimate exposure. We also continue to successfully recontract across our existing portfolio. During the quarter, we executed a 20-year power purchase agreement for approximately 1 gigawatt of our Point Beach nuclear asset in Wisconsin at a competitive price, which remains subject to approval by the Public Service Commission of Wisconsin. The full agreement will be made available to the U.S. Department of Energy in the next few years. The full output of the plant is now contracted into the 2050s. Since the last earnings call, we also recontracted over 250 megawatts of existing renewable projects. This brings our year-to-date recontracting total to nearly 1,400 megawatts of renewables,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 975240,
@@ -1052,6 +1076,7 @@
    "t1_ms": 1062760,
    "speaker": "Management",
    "text": "which have been priced on average at a roughly $20 per megawatt-hour premium above recent realized pricing for these projects. In total, we've recontracted nearly 2,400 megawatts to the U.S. Department of Energy. The total amount of new products to date this year is $1.5 billion. Bottom line, we believe it's important to do what we say. Last year, we laid out our plan across 12 key growth areas. And one year later, we're delivering. Our growth plan is not dependent on any single technology, customer, market, or policy outcome. We have multiple ways to deliver affordable and reliable power for our customers. As proud as we are of what we've accomplished, we are not satisfied. That has always been our goal. That has always been our goal. That has always been part of the culture at NextEra Energy,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1018720,
@@ -1111,6 +1136,7 @@
    "t1_ms": 1103920,
    "speaker": "Management",
    "text": "never settling and constantly looking for ways to get better every day for our customers. And when it comes to the opportunities set in front of us, the runway for growth is significant. We also continue to advance our pending combination with Dominion Energy. As I've said before, this is a merger of addition, not subtraction. We are bringing together two industry leaders with a shared commitment to safety, reliability, affordability, customer service, and execution at a time when the power industry is tasked with meeting rapidly growing electricity demand. America needs new generation and transmission.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1062920,
@@ -1150,6 +1176,7 @@
    "t1_ms": 1145040,
    "speaker": "Management",
    "text": "And customers expect us to meet that growth while continuing to keep their bills affordable. That is what makes this combination so compelling. Dominion Energy brings deep local knowledge and experienced workforce, critical generation assets, a significant transmission, and distribution system, and longstanding relationships with its customers and communities. NextEra Energy brings additional scale, balance sheet strength, a strong credit rating, supply chain reach, and one of the largest energy infrastructure development and construction platforms in the country. In addition, the combination adds global leadership in renewables and battery storage,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1104200,
@@ -1193,6 +1220,7 @@
    "t1_ms": 1180900,
    "speaker": "Management",
    "text": "driving the ability to accelerate clean energy and battery storage. Bringing all of these capabilities together would give the combined company an even stronger platform to buy, build, finance, and operate the infrastructure our customers need more efficiently over time. Importantly, this combination is about preserving Dominion Energy's strengths while putting NextEra Energy's scale and capability behind them. Dominion Energy would remain locally led and separately regulated while gaining access to NextEra Energy's experience, and the ability to deliver the best of its customers. NextEra Energy is a global company.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1145040,
@@ -1228,6 +1256,7 @@
    "t1_ms": 1224100,
    "speaker": "Management",
    "text": "We have a wide range of experience across the full energy value chain, including renewables, battery storage, nuclear, natural gas generation, transmission, and grid infrastructure. We believe that the combination of local expertise and national scale will uniquely position the combined company to help meet unprecedented energy demand while maintaining an intense focus on reliability, affordability, and customer service that both companies share. And we are backing that commitment. We are backing that strategic rationale with tangible commitments to Dominion Energy's customers, employees, and communities. In September, we announced an enhanced benefits package that demonstrates our commitment to Virginia.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1180900,
@@ -1263,6 +1292,7 @@
    "t1_ms": 1268100,
    "speaker": "Management",
    "text": "We've provided additional commitments that further demonstrate our dedication to protecting and delivering value for customers. We organized the package around affordability, jobs, and building more clean energy and battery storage faster than ever. We are also working with the Department of Energy to develop a new package that will provide more clean energy and battery storage faster than ever. We are also working with the Department of Energy to develop a new package that will provide more clean energy and battery storage faster than ever. And we're committed to implementing thoughts and plans to Redevelop the sagt họ!.. We have doubled the residential billed credit from two to four years to provide an additional $100 million of shareholder-funded support for our Dominion Energy Customer Bills program through 2038. We have doubled the residential billed credits from two to four years to provide an additional $100 million of shareholder-funded support through Dominion Energy's Customer Bills program through 2038.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1224100,
@@ -1302,6 +1332,7 @@
    "t1_ms": 1311780,
    "speaker": "Management",
    "text": "that support cost-competitive contractors, suppliers, and service providers doing business in Virginia, committed to creating 600 new NextEra Energy jobs in Virginia who will work out of a new shareholder-funded co-headquarters tower in downtown Richmond and committed to maintaining Virginia employee headcount for the next five years. And we intend to bring others with us to Virginia. Through our extensive supplier relationships, we have already secured letters of intent for at least 400 new jobs if the combination is approved, bringing the total to 1,000 new Virginia jobs",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1268100,
@@ -1345,6 +1376,7 @@
    "t1_ms": 1354080,
    "speaker": "Management",
    "text": "as we work to create an ecosystem of economic growth centered on energy. We believe these additional commitments deliver on those priorities and further demonstrate the tangible benefits of the next five years. This combination can deliver for customers and communities. We also will continue to engage in constructive dialogue with stakeholders in South Carolina and North Carolina, and we expect to share specifics as those conversations move forward. I am confident this combination will deliver benefits that matter most to each state. We have reached several important milestones since our last call. On September 3rd, shareholder-funded co-headquarters will be able to receive a share of the next five years.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1311780,
@@ -1396,6 +1428,7 @@
    "t1_ms": 1397280,
    "speaker": "Management",
    "text": "We expect to see shareholders and shareholders of both NextEra Energy and Dominion Energy approve the pending combination, satisfying an important closing condition. The state regulatory reviews are also moving forward. In Virginia and South Carolina, procedural schedules have been set with hearings in November and December, and we expect final orders in January 2027. In North Carolina, the Commission has established a procedural schedule with expert witness hearings beginning in February 2027. The federal review processes are also underway and continuing. We continue to expect the combination will close in the second half of 2027. With that, I'll turn the call over to Mike.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 1354080,
@@ -1447,6 +1480,7 @@
    "t1_ms": 1439760,
    "speaker": "Management",
    "text": "Thank you, John, and good morning, everyone. For the third quarter of 2026, FPL's earnings per share increased by six cents year over year. The principal driver of this performance, FPL's regulatory capital employee growth of approximately 9.2% year over year. FPL's capital expenditures were approximately $2.4 billion for the quarter, and we expect FPL's full-year capital investments to be approximately $12 billion. For the 12 months ending September 2026,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1397700,
@@ -1490,6 +1524,7 @@
    "t1_ms": 1480860,
    "speaker": "Management",
    "text": "FPL has reported return on equity, for regulatory purposes, will be approximately 11.8%. During the third quarter, we reversed approximately $172 million of the rate stabilization mechanism, leaving FPL with an after-tax balance of roughly $1.5 billion. FPL's third quarter retail sales increased 2.8% from the prior year comparable period. Due to customer growth and weather. On a weather normalized basis, from the prior year comparable period,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1441420,
@@ -1553,6 +1588,7 @@
    "t1_ms": 1523650,
    "speaker": "Management",
    "text": "retail sales increased by 1.4% due to an increase in customer growth. Now let's turn to energy resources, which reported adjusted earnings growth of approximately 13% year over year. At energy resources, adjusted earnings per share increased by 1.4%. This is a good sign. In addition, FPL's annual revenue has increased by 6 cents year over year. To align with our 12 ways to grow, we have made select changes to certain categories that I will walk through. Contributions from new investments, which now include federal hubs, increased 9 cents per share,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1480860,
@@ -1616,6 +1652,7 @@
    "t1_ms": 1568610,
    "speaker": "Management",
    "text": "primarily driven by continued growth in our power generation portfolio and initial contributions from federal hubs. Existing energy assets, now include contributions from natural gas and peaking generation, which were in other prior to this quarter. Federal hubs will move from new investments to existing energy assets after 12 months of fees earned. Contributions from our existing energy portfolio increased 5 cents year over year, primarily reflecting more normalized wind resource compared with the prior year period. Wind resources, which are now in the peak generation, are now in the peak of their growth. Wind resource for the third quarter of 2026",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1523650,
@@ -1691,6 +1728,7 @@
    "t1_ms": 1612610,
    "speaker": "Management",
    "text": "was approximately 101% of the long-term average versus only 90% in the third quarter of 2025. The comparative contribution from our customer supply business decreased by 4 cents per share, primarily driven by timing of origination activity last year. Regulated operations is a new category, and it is a new category, and will include contributions from NextEra Energy Transmission and regulated gas transmission assets. All other impacts decreased by 4 cents per share, primarily driven by interest expense and timing of capital recycling in the prior year comparable quarter.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1568610,
@@ -1758,6 +1796,7 @@
    "t1_ms": 1655610,
    "speaker": "Management",
    "text": "Energy resources had a strong quarter of new renewables and storage origination, adding 3.7 gigawatts to the backlog. With these additions, our backlog now totals nearly 36.7 gigawatts after taking into account more than 1.8 gigawatts of new projects placed into service since our last earnings call. This highlights the continued strong demand for renewables and storage and marks the fourth consecutive quarter that energy resources has added over 3.5 gigawatts to its backlog. We only have 17.6 gigawatts left",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1612610,
@@ -1825,6 +1864,7 @@
    "t1_ms": 1697950,
    "speaker": "Management",
    "text": "to add to our 2026 through 2029 backlog before we hit the midpoint of our development expectations over that period. Turning now to our third quarter 2026 consolidated results. Adjusted earnings per share from corporate and other decreased by 1 cent per share year over year. We remain well positioned to navigate the current interest rate environment through our more than $48 billion forward starting interest rate hedging program, which has an average rate of approximately 4% and an average tenor of approximately nine years.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1655610,
@@ -1884,6 +1924,7 @@
    "t1_ms": 1739950,
    "speaker": "Management",
    "text": "This program allows us to lock in project economics at PPA execution and avoid window risk. Additionally, this program helps support our refinancings as large portals of energy and other of our near-term maturities are hedged.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1697950,
@@ -1919,6 +1960,7 @@
    "t1_ms": 1778140,
    "speaker": "Management",
    "text": "earnings per share. Our 2026 adjusted earnings per share expectations range of $3.92 to $4.02 remains unchanged, and we are targeting the high end of that range. We expect to grow adjusted earnings per share at a compound annual growth rate of 8% plus through 2032 and are targeting the same from 2032 through 2035, all off the 2025 base of $3.71 of adjusted earnings per share.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1739950,
@@ -1946,6 +1988,7 @@
    "t1_ms": 1820920,
    "speaker": "Management",
    "text": "From 2025 to 2032, we expect that our average annual growth in operating cash will be at or above our adjusted earnings per share compound annual growth rate range. And we also continue to expect that our range of annual growth per share will persist with our adjusted earnings per share actual growth rate range and our adjusted earnings per share compound annual growth rate range. to grow our dividends per share roughly 10% per year through 2026 off a 2024 base, and 6% per year from year-end 2026 through 2028. As always, our expectations assume our caveats. That concludes our prepared remarks, and with that, we will open the line for questions.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1778220,
@@ -1989,6 +2032,7 @@
    "t1_ms": 1861150,
    "speaker": "Operator",
    "text": "Thank you. We will now open the line for questions for the question and answer session. To ask a question, you may press star then 1 on your telephone keypad. If you are using a speakerphone, please pick up your handset before pressing the keys. If at any time your question has been addressed and you would like to withdraw your question, please press star then 2. At this time, we will pause momentarily to assemble our raffia. The first question comes from Steve Fleischman with Wolf Research. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1821380,
@@ -2036,6 +2080,7 @@
    "t1_ms": 1903710,
    "speaker": "Analyst",
    "text": "Yeah, hi, good morning. Thanks. So just, I guess, first question on the, looks like you're tracking already through three-quarters to the high end of the range, and it looks like you're also starting to already get the income from the Federal Hub process, but probably if it was done through, normal contracting would have come when the plants start running down the road. So just, how should we think about the potential for kind of rebasing in the near term of the outlook, just given that new addition and how you're tracking so far?",
+   "name": "Steve Fleischman, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1863130,
@@ -2079,6 +2124,7 @@
    "t1_ms": 1944570,
    "speaker": "Management",
    "text": "Thanks, Steve. As you noted, we expect to have adjusted earnings per share of $3.92 to $4.02 this year, and are talking about that. So, I'm going to go ahead and ask Steve. Thanks, Steve. So, I'm going to go ahead and ask Steve. So, I'm going to go ahead and ask Steve. We're targeting the high end of that range. The high end of that range also includes the El Nino impacts that we expect to occur on our wind facilities in Q4 of this year. And as we look at what those wind impacts could be, we expect that generation to be anywhere between 90 to 95 percent of the long-term average. So, we expect to be at the high end of our range despite those impacts. As we look at our long-term forecast,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1905130,
@@ -2146,6 +2192,7 @@
    "t1_ms": 1971430,
    "speaker": "Management",
    "text": "I would point you to the S4, where we have provided to our board, to Dominion's board, and out publicly to what our expectations are for our growth of our business. And so, while we have maintained our existing earnings per share growth of 8 percent plus on a long-term basis, in a combination with Dominion, we expect that to be 9 percent plus.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1944570,
@@ -2173,6 +2220,7 @@
    "t1_ms": 2014500,
    "speaker": "Analyst",
    "text": "Okay. Great. And then just separately, yesterday or two days ago, we got the proposed views of the governor's office in Virginia and the Virginia staff. And the governor's office proposal seems to have a lot of pretty onerous positions. Staff, maybe not as much, but all potentially on ring fence. So, maybe, John, you could give some perspective on those. How do you find proposals and how do you find a path, particularly with the governor's office, to some kind of resolution there?",
+   "name": "Steve Fleischman, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1971730,
@@ -2220,6 +2268,7 @@
    "t1_ms": 2054940,
    "speaker": "Management",
    "text": "Yeah, Steve, thanks for the question. First of all, I mean, here's how I look at it. You know, we have the intervener testimony in, right? We're going through all of that. And as I look at it, I really look forward to prosecuting this case as we move forward, our rebuttal, and then hearings. Okay. And then, you know, we'll talk about the rebuttal in mid-November. As we have reached out, you know, across the stakeholder group, we've talked quite a bit about this. I think this case breaks down to really, you know, three things. One is affordability. The second is jobs. And the third is clean energy.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2016020,
@@ -2287,6 +2336,7 @@
    "t1_ms": 2097800,
    "speaker": "Management",
    "text": "And I think we have really put forward a very, very strong case in each of those areas. Of course, there'll be some nuances that we'll have to deal with, you know, as we go along. But, you know, we're going to have to deal with that. I look at affordability, you know, moving the residential rate credits from two to four years. I mean, we have almost, you know, $2 billion in rate credits in front of the Virginia SEC in our current proposal. And, you know, that is by far, you know, the most of any transaction of this nature. We increased that commitment to the energy share program by $100 million to help us get to that point. We have a lot of support from the state.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2054940,
@@ -2338,6 +2388,7 @@
    "t1_ms": 2142800,
    "speaker": "Management",
    "text": "We have a lot of support from the state to help, you know, those in need. We have the long-term scale benefits, which I think speak for themselves when you look at the need to add new generation and transmission to Virginia to decrease reliance on expensive imports. And then I just point to the track record, you know, of FPL, which I went through, you know, 37, a bill 37% lower than the national average. It's 20% lower today than it was 20 years ago while investing in generation, while investing in transmission to keep up with growth from one of the fastest growing states in the country on jobs. I think we just have an incredible story. You know, first of all, this, you know, Dominion will stay locally led, locally run.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2097800,
@@ -2389,6 +2440,7 @@
    "t1_ms": 2182800,
    "speaker": "Management",
    "text": "We're not making any changes there. We're actually bringing the thousand jobs to Virginia and to Richmond, 600 of our own, 400 from the letters of intent from suppliers that I talked to. Suppliers that I talked about, the new office tower, really trying to create an ecosystem, you know, around Virginia with the $5 billion supplier program, the $100 million workforce development program. I don't know if folks saw it. Virginia Chamber put a study out here recently not only talking about the direct economic benefits of what we put forward, but the indirect. I mean, this is just billions of dollars of money.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2142800,
@@ -2436,6 +2488,7 @@
    "t1_ms": 2222800,
    "speaker": "Management",
    "text": "This is just billions of dollars of potential investment opportunity for Virginia and just, you know, thousands of direct and indirect jobs. And they'll crystallize that report, you know, here in the middle of November. So affordability jobs. And the last one is clean energy. And, you know, when I look at clean energy, you know, we're the world's leader, right, in renewables. We're the world's leader in storage. If we can't get it done, I don't know who else can in terms of meeting the requirements of the Clean Economy Act in Virginia.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2182800,
@@ -2479,6 +2532,7 @@
    "t1_ms": 2260800,
    "speaker": "Management",
    "text": "The combined company will become the second largest in the United States in nuclear. And I think when you look at the pieces and you put them together, there's just no company better positioned to deliver on Virginia's goals. And the governor's recently released energy plan in this combined company. I think that is just undeniable. So, you know, we look forward to prosecuting that case as we move forward. And, again, it's going to be really, really important that we're also able to bring speed to power to the table, right, which is what we do every single day. Look at the results of this quarter.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2222800,
@@ -2522,6 +2576,7 @@
    "t1_ms": 2300800,
    "speaker": "Management",
    "text": "And, you know, I'll be super disappointed if we can't accelerate the storage build in Virginia, for example, you know, to help. But I think we're going to have to alleviate some of the high, you know, import charges they're facing, both on the energy and the capacity side. Because it's very important when you have a supply-demand imbalance like we see in Virginia that we get new generation transmission up and running as quickly as we can, but do it in an affordable way for customers, which I think our package does. And really look forward to bringing this case forward in front of the Commission in mid-November.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2260800,
@@ -2557,6 +2612,7 @@
    "t1_ms": 2314800,
    "speaker": "Management",
    "text": "And really looking forward to responding to the intervener testimony that we saw come in Monday, which we're still digesting, and in a very strong rebuttal that we'll file here in a couple of weeks.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2300800,
@@ -2572,6 +2628,7 @@
    "t1_ms": 2318820,
    "speaker": "Analyst",
    "text": "Thank you.",
+   "name": "Steve Fleischman, Wolfe Research",
    "parts": [
     {
      "t0_ms": 2314800,
@@ -2587,6 +2644,7 @@
    "t1_ms": 2319820,
    "speaker": "Management",
    "text": "Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2318820,
@@ -2602,6 +2660,7 @@
    "t1_ms": 2324820,
    "speaker": "Operator",
    "text": "The next question comes from Paul Zimbardo with Jefferies. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2319820,
@@ -2621,6 +2680,7 @@
    "t1_ms": 2350420,
    "speaker": "Analyst",
    "text": "Hi. Good morning, team. Thanks for taking the time. Thanks, Paul. You know, thank you. The first one I was going to ask, if you could, obviously there's this permitting reform bill out there. If you could kind of discuss your thoughts on it and specifically what it could mean for NextEra, whether it's the wind platform competitive transmission, just if you have any thoughts on that.",
+   "name": "Paul Zimbardo, Jefferies",
    "parts": [
     {
      "t0_ms": 2324820,
@@ -2660,6 +2720,7 @@
    "t1_ms": 2391420,
    "speaker": "Management",
    "text": "Yeah, absolutely. I'll take that. This is John. I mean, look, you know, first of all, we've been trying to get permitting reform legislation moving forward for the industry for quite some time now. And I think it's great to see both sides of the aisle, you know, come together and really trying to make a conscientious effort to move a package forward that makes sense. Like, and there are puts and takes in the bill. There's some good things. There's always going to be some things that may perhaps you don't like as much, but that's the spirit of compromise. And I think when I look at the overall features of the bill, it does a lot of great things. And, you know, we need more linear infrastructure in this country.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2350420,
@@ -2711,6 +2772,7 @@
    "t1_ms": 2429420,
    "speaker": "Management",
    "text": "And I think it's great to see that in this country, which requires permitting reform, whether that is new transmission to enable more generation across the United States or its new, you know, gas transmission, you know, across the U.S. You know, we are in a period where power demand is expected to increase sixfold across this country. And it's imperative that we do right by our customers, which means getting power to where it needs to go. And having linear infrastructure available to meet those needs as we look to the future. So I think there are a lot of promising things in the bill.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2391420,
@@ -2742,6 +2804,7 @@
    "t1_ms": 2444560,
    "speaker": "Management",
    "text": "I applaud the efforts of Congress, you know, to really try to move this forward and looking forward to potential outcomes as we approach the end of the year. Okay, great.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2429420,
@@ -2761,6 +2824,7 @@
    "t1_ms": 2459560,
    "speaker": "Analyst",
    "text": "Thank you. And then one other last one from me quick. Could you frame the benefit of the federal hubs in the third quarter? And just any way you'd recommend we think about it for calendar 2026 or 2027 in the interim early years? Thank you.",
+   "name": "Paul Zimbardo, Jefferies",
    "parts": [
     {
      "t0_ms": 2444560,
@@ -2792,6 +2856,7 @@
    "t1_ms": 2496130,
    "speaker": "Management",
    "text": "In the interim early years, it's going to be a relatively modest payment that is based on the development activities that we are pursuing. As you look at that as that grows, you can imagine a relatively modest payment in 26 and 27. And then that will grow over time through 2032 when we receive the federal funds. When we receive the operating fees, and you just look at those operating fees from 2032 to 2052, you'd expect those to be roughly half the earnings per share as if we owned the facilities. Okay, great.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2459560,
@@ -2823,6 +2888,7 @@
    "t1_ms": 2506720,
    "speaker": "Operator",
    "text": "Thank you very much. Thank you. The next question comes from Constantine Lednev with Wells Fargo. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2496130,
@@ -2850,6 +2916,7 @@
    "t1_ms": 2527350,
    "speaker": "Analyst",
    "text": "Hi, good morning, John and team. Maybe just shifting to Florida. In terms of the data center targets, the data center targets, we're looking at the data center targets. We're looking at the data center targets. The targets are up, but the deals aren't signed yet. How much visibility do you have into the advanced development stages? What does that ramp timing look like? And is there availability of turbines to serve that ramp?",
+   "name": "Constantine Lednev, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2506720,
@@ -2893,6 +2960,7 @@
    "t1_ms": 2571350,
    "speaker": "Management",
    "text": "Constantine, good morning. It's Scott. I'll take that. I think as John said on the call this morning, we remain confident. We have a large pipeline of over 20 gigawatts of interest, as we've indicated in prior quarters. That remains. These are complicated deals, multibillion-dollar deals that take some time. Given the outside environment, we're working with the local communities to build the consensus and support so we can move forward before we announce these deals. I think as we said previously, if you look at our system, to serve the first couple of gigawatts of large load, we really just need to build battery storage, given that we've got a strong base load gas fleet and the nuclear fleet behind that. So we're well positioned and, again, remain confident with announcing a deal before the end of the year.",
+   "name": "Scott Borys, President and CEO, Florida Power & Light",
    "parts": [
     {
      "t0_ms": 2527350,
@@ -2944,6 +3012,7 @@
    "t1_ms": 2591630,
    "speaker": "Analyst",
    "text": "Okay, perfect. And then maybe a broader question in terms of equity needs and capital markets tightening. Do you see any incremental funding needs versus the equity plan announced earlier? And any thoughts around alternative instruments, alternative funding sources, especially as projects start increasing in size over time?",
+   "name": "Constantine Lednev, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2571350,
@@ -2971,6 +3040,7 @@
    "t1_ms": 2636580,
    "speaker": "Management",
    "text": "Thanks. To take that in terms of our expected equity issuances, as we look through 2032, we remain consistent in the range that we have provided of roughly 12 to 17 billion. Okay. So we're looking at $1.5 billion of total equity needs through 2032. And as we do look at the various funding plans that we have, you have seen us diversify our corporate funding across the globe. This year we've been in markets such as Europe, in Australia, in Canada, and the U.S. So we are providing access to multiple markets to raise our financing. And then as you look at our project level financing, we're looking at a lot of different markets. So we're looking at a lot of different markets.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2591630,
@@ -3018,6 +3088,7 @@
    "t1_ms": 2680310,
    "speaker": "Management",
    "text": "And then as you look at our project level financing, we remain the tax equity providers partner of choice. Many times they are selecting us because of the stability and the confidence they have in our projects. In addition to that, you will see that with the rise of many of our partners in the financial spectrum, those partners such as the larger asset managers are also looking to deploy capital with us. And so we are working with those partners in a new path of raising funds. So when you look across the broad transom, we have multiple different ways to raise our financing and feel very confident about where we sit. Okay.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2636580,
@@ -3053,6 +3124,7 @@
    "t1_ms": 2695310,
    "speaker": "Analyst",
    "text": "So no major changes to the plan? And maybe just a quick follow-up to Steve's question on the Virginia merger process, is there a path to find any concessions through the rebuttal process? Or any partial settlement options? Anything of the sort?",
+   "name": "Constantine Lednev, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2680310,
@@ -3080,6 +3152,7 @@
    "t1_ms": 2728020,
    "speaker": "Management",
    "text": "of the sort. Yeah, Constantine, this is John. I'll speak to that, you know, again. You know, first of all, I think we put a very, very strong case forward. As I said before, I'm not going to go back through the details again. But absolutely, I mean, in the rebuttal process and through the hearings themselves, I mean, there's always, you know, opportunities for compromise on certain specific issues. But again, you know, I stand behind the strength of the filing that we have",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2695310,
@@ -3111,6 +3184,7 @@
    "t1_ms": 2735430,
    "speaker": "Analyst",
    "text": "put forward. Excellent. Really appreciate it. Thanks for the time today. Thank you.",
+   "name": "Constantine Lednev, Wells Fargo",
    "parts": [
     {
      "t0_ms": 2728020,
@@ -3126,6 +3200,7 @@
    "t1_ms": 2741710,
    "speaker": "Operator",
    "text": "Thank you. The next question comes from Nick Campanella with Barclays. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2736370,
@@ -3141,6 +3216,7 @@
    "t1_ms": 2786470,
    "speaker": "Analyst",
    "text": "Good morning. Thanks for all the information today. I just wanted to ask on, you know, follow up on the funding and financing. Just, you know, given the four to six gigawatts of gas development with the gas industry, you know, what's the next step? I mean, I think, you know, it's going to be substantial CapEx, and now that's kind of capital light. And you're getting, you know, the associated earnings for your plan. Can you do less asset sales? And, you know, can there be downward pressure kind of overall there from the balance sheet room that that creates? And is keeping that net income and EBITDA now, you know, upside to the plan? And is that included in the S-1 earnings power? Can you kind of talk through, you know, the asset sales? I think you had recycling of seven to 12 in the last couple of years. And I think that's going to be",
+   "name": "Nick Campanella, Barclays",
    "parts": [
     {
      "t0_ms": 2742110,
@@ -3188,6 +3264,7 @@
    "t1_ms": 2789350,
    "speaker": "Analyst",
    "text": "a big part of the plan. And just wondering if there's downward pressure there. Thanks.",
+   "name": "Nick Campanella, Barclays",
    "parts": [
     {
      "t0_ms": 2786490,
@@ -3203,6 +3280,7 @@
    "t1_ms": 2830410,
    "speaker": "Management",
    "text": "Yeah, I think when we look at our assets that we invest into, we intend to hold those assets through their life, because we believe these are very attractive investments for us. Now, when we put together the asset recycling, we have based that on history where parties come to us and say that they value that more than the value that we see for our shareholders. And when that happens, we will execute capital recycling. But our base plan for how we run our business is to not rely on capital recycling to meet equity needs, because we believe these projects are best suited for our investors. We believe these are very",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2790350,
@@ -3242,6 +3320,7 @@
    "t1_ms": 2848370,
    "speaker": "Management",
    "text": "attractive projects. So, as we move over time, I would expect us to look to see that $7 to $12 billion of capital recycling, and for us to look to hold on to more of that. And last, there's an opportunistic opportunity where a party comes in and says, you know, I'm going to invest in a lot of capital recycling. And I would expect us to look to see that $7 to $12 billion of capital recycling. And comes in and values it far more than we value it.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2830410,
@@ -3273,6 +3352,7 @@
    "t1_ms": 2865310,
    "speaker": "Analyst",
    "text": "Okay, thanks. I appreciate that. And then, I mean, just one follow-up on, you know, getting a data center deal done in Florida this year. Is there anything that you can kind of offer on the sizing of this? Is this, you know, getting a couple hundred megawatts done, or could it be something more sizable near a gigawatt?",
+   "name": "Nick Campanella, Barclays",
    "parts": [
     {
      "t0_ms": 2851590,
@@ -3312,6 +3392,7 @@
    "t1_ms": 2872450,
    "speaker": "Management",
    "text": "Nick, we're not going to comment on that. Obviously, we'll announce that at the time a deal is announced.",
+   "name": "Scott Borys, President and CEO, Florida Power & Light",
    "parts": [
     {
      "t0_ms": 2867010,
@@ -3331,6 +3412,7 @@
    "t1_ms": 2876160,
    "speaker": "Analyst",
    "text": "No problem. Have a great day. Thanks.",
+   "name": "Nick Campanella, Barclays",
    "parts": [
     {
      "t0_ms": 2874800,
@@ -3354,6 +3436,7 @@
    "t1_ms": 2883180,
    "speaker": "Operator",
    "text": "Thank you. The next question comes from Carly Davenport with Goldman Sachs. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2877840,
@@ -3377,6 +3460,7 @@
    "t1_ms": 2916580,
    "speaker": "Analyst",
    "text": "Hey, good morning. Thanks so much for taking the questions and for all the updates today. Just one for me, more on the industry side. I guess on the solar front, it seemed like the backlog got revised a little bit lower in certain years, and it seems like costs across the industry have been rising due to interest rates, Section 232, and some equipment constraints. I guess, could you just talk a little bit about any sort, sort of cost pressures you might be seeing on the solar side and confidence in your ability to pass those costs through in higher PPA prices?",
+   "name": "Carly Davenport, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2884920,
@@ -3432,6 +3516,7 @@
    "t1_ms": 2961580,
    "speaker": "Management",
    "text": "Yeah, sure. Carly, let me go ahead and take it, and then Brian can fill in with anything that I might have missed. But, you know, first of all, you know, we continue to see in our discussions as we look to the future with customers strong demand. And when I think about solar and where, solar prices out against alternative technology, it's a very compelling product offering. And when I think about, you know, how we are positioned around our supply chain, I think we've got a real competitive advantage there. And so I like the outlook for our ability to continue to develop and offer solar as a competitive offering to customers.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 2918620,
@@ -3503,6 +3588,7 @@
    "t1_ms": 3004660,
    "speaker": "Management",
    "text": "And then also when you think about combining that with storage with four, particularly going to eight hours, an expansion opportunity over time, it just, it just further adds to the appeal. So, you know, we have not changed really, you know, our, our views and continue to feel very good about the solar market moving forward. The only thing I'd add is that in the, as we're out with customers right now, we've seen a focus on capacity. And so that's why we've seen a big pickup in storage. We are starting to see our customers look for more energy products. And so, I do think you're going to see a shift in the, in the coming quarters back towards more energy than, than capacity.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2961580,
@@ -3590,6 +3676,7 @@
    "t1_ms": 3025460,
    "speaker": "Management",
    "text": "As you think about those products and it's very consistent with what's going on in the market. There's a need to fill in capacity. And when people get that, that sorted out, they're going to look at their energy needs. And that's what we're seeing amongst our customers. So it's, it's, you know, these things ebb and flow, but, but we feel like the mix is going to be consistent with our expectations over time.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3004660,
@@ -3649,6 +3736,7 @@
    "t1_ms": 3030320,
    "speaker": "Analyst",
    "text": "Got it. Great. That's really helpful context. I'll leave it there. Thank you.",
+   "name": "Carly Davenport, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 3027540,
@@ -3680,6 +3768,7 @@
    "t1_ms": 3039180,
    "speaker": "Operator",
    "text": "Thank you. The next question comes from Nick Amakuchi with Evercore ISI. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3032400,
@@ -3703,6 +3792,7 @@
    "t1_ms": 3067550,
    "speaker": "Analyst",
    "text": "Hey guys. Good morning. Just wanted to ask you just as we kind of think about the Virginia process, and obviously we don't want, you know, the truth to get in the good political headlines, but just kind of thinking through that. And obviously the statute says, you know, it's a do no harm. So can we just kind of walk through like the baseline of that when you're talking about a do no harm clause? And, and kind of just how to think about any, any type of go forward on that?",
+   "name": "Nick Amicucci, Evercore ISI",
    "parts": [
     {
      "t0_ms": 3041070,
@@ -3770,6 +3860,7 @@
    "t1_ms": 3112340,
    "speaker": "Management",
    "text": "Yeah, Nick, this is John. I'll, I'll go ahead and take that. I mean, the standard is adequate service, adjusted reasonable rates, right? Like you said, it's a do no harm statute. And I, you know, the proposal that we have put forward, you know, around affordability with the four years of, of credits, almost, you know, $2 billion, $100 million. And, and, and, and, and, you know, energy share program step up through 2038, the long term scale benefits that we bring the track record of running one of the best run utilities in the United States. I'd say the best run and in Florida Power and Light. You know, I like our chances under that standard,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 3067550,
@@ -3909,6 +4000,7 @@
    "t1_ms": 3156800,
    "speaker": "Management",
    "text": "you know, reflecting the affordability benefits there. That's not for me to decide. That's for the, the SEC to decide on the job side. You know, look, I mean, I think, we are, you know, making a real commitment to, to Virginia. It's going to stay locally run, locally led, but we're also moving more roles from next era also to Virginia. So I think from a job standpoint and a capability of running generation transmission and all the planning that goes into running an affordable and reliable system for customers, I think I feel very good about where we stand there and on the clean energy point of being able to build more generation, generation transmission, affordably and reliably, you know, in Virginia,",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 3112380,
@@ -4008,6 +4100,7 @@
    "t1_ms": 3184260,
    "speaker": "Management",
    "text": "you know, to make sure that, you know, we, we are able to comply, you know, with that do no harm, you know, standard. I feel good about what we're putting forward there as well. But again, all that is not for me to decide. It's for the SEC to decide. They, they will apply the law and I, I have no doubt that, you know, they will look at all the facts and circumstances, you know, the filing and, and, and do their job at the end of the day. And that's all you can ask for.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "parts": [
     {
      "t0_ms": 3157140,
@@ -4111,6 +4204,7 @@
    "t1_ms": 3203390,
    "speaker": "Analyst",
    "text": "Thanks, Sean. And then as we kind of think about to just the point beach operation and, and when that's approved, how can we, how can we kind of think about the earnings uplift and what kind of start dates should we be, should we be kind of pointing to?",
+   "name": "Nick Amicucci, Evercore ISI",
    "parts": [
     {
      "t0_ms": 3187890,
@@ -4150,6 +4244,7 @@
    "t1_ms": 3247550,
    "speaker": "Management",
    "text": "On Point Beach, you said? Yeah. So on Point Beach has a current contract with, you know, Wisconsin Energy. And as those contracts roll off in 2031 to 2033, the new contract will be put in place. And I think as we mentioned in December is that we believe the overall contribution will be roughly 21 cents on average from Point Beach under this new contract. Yeah. Nick, just to be clear, I, you used the word uprate. This, I mean, this is our recontracting the existing facility. This is not, not an upgrade. It's just taking the existing capacity and extending out the contract for 20 years when, when the, when the contract goes off. Yeah.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3203390,
@@ -4253,6 +4348,7 @@
    "t1_ms": 3250250,
    "speaker": "Analyst",
    "text": "Understood. Sorry. Misspoke there. Thanks guys.",
+   "name": "Nick Amicucci, Evercore ISI",
    "parts": [
     {
      "t0_ms": 3247550,
@@ -4280,6 +4376,7 @@
    "t1_ms": 3275190,
    "speaker": "Operator",
    "text": "Thank you. The next question comes from Jeremy Connett with J.P. Morgan. Please go ahead. Excuse me, Jeremy, your line is open. Is your phone muted accidentally? Please go ahead. Hi, good morning. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3252490,
@@ -4339,6 +4436,7 @@
    "t1_ms": 3293610,
    "speaker": "Analyst",
    "text": "Thanks for all the details today. Just want to kind of come back to the nuclear side, if I will. I think you talked a bit about, you know, the SMRs earlier and was just wondering within NextEra's strategy, if you see room for large scale in any scenario or suggest SMR, if you could just walk us through the gifts and takes there, that'd be helpful. Thanks.",
+   "name": "Jeremy Tonet, J.P. Morgan",
    "parts": [
     {
      "t0_ms": 3275190,
@@ -4390,6 +4488,7 @@
    "t1_ms": 3337700,
    "speaker": "Management",
    "text": "Hey Jeremy, it's Brian. I mean, I'm going to start with, with something that we repeat often, which is we build for customers, right? And so that's, we're going to take that input first and foremost. And then John has said this several times. As we look at the, the opportunity set, we're also going to look to make sure that we've got those four wallets in place. So as we look at, at any nuclear opportunity, that involves new build, we're going to want to be able to, to look at our investors and say, you know, we know where we're going to be able to draw the line from a, from a capital perspective. And so I'd say those are going to be our first two guiding lights as we look at opportunities, which is, you know, what, what is good? What does the customer need? And two,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3293610,
@@ -4513,6 +4612,7 @@
    "t1_ms": 3370600,
    "speaker": "Management",
    "text": "what is the structure that's going to protect our shareholders? I do think we have a bias and John talked towards it towards, you know, SMRs because I do think there's a benefit to the SMRs, the scale of capital you're putting to work, especially as we start out in, in this industry again, rebuilding. But again, if, if, if the protections are right and the customer has a very strong preference for something of large scale, then, then we're obviously going to look at that. But, but you know, we have a preference, but, but at the end of the day, we're, we're building these for the, for the customers and we need to have the right protections in place.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3337700,
@@ -4612,6 +4712,7 @@
    "t1_ms": 3373800,
    "speaker": "Analyst",
    "text": "Got it. Understood. That's helpful. Thank you.",
+   "name": "Jeremy Tonet, J.P. Morgan",
    "parts": [
     {
      "t0_ms": 3370600,
@@ -4639,6 +4740,7 @@
    "t1_ms": 3380100,
    "speaker": "Operator",
    "text": "Thank you. The next question comes from David Arcaro with Morgan Stanley. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3373800,
@@ -4662,6 +4764,7 @@
    "t1_ms": 3402580,
    "speaker": "Analyst",
    "text": "Oh, hey, good morning. Thanks so much. I wanted to ask on the, on the electric and gas transmission side of things, you're already tracking at 25% growth rate, you know, ahead of the original plan. I was wondering what's the potential for further extension and upside in that side of the business?",
+   "name": "David Arcaro, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 3380600,
@@ -4713,6 +4816,7 @@
    "t1_ms": 3446480,
    "speaker": "Management",
    "text": "As we look at our transmission broadly and we looked at roughly eight, you know, 20 to 25% CAGR and rate based growth from 2025 through, 2032, we believe that what we're doing today positions us well to hit that overall metric. And so obviously as we look at where could we see additional opportunities, I think as we look there, it's really on the gas transmission side. One of the key things that we had seen in, in December of, of 2025 was a very robust process on electric transmission. But as we look now at the opportunity set, particularly with bring your own generation and the needs that we are seeing across the gas value chain,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3402580,
@@ -4776,6 +4880,7 @@
    "t1_ms": 3488980,
    "speaker": "Management",
    "text": "that we think that that can be an opportunity for us to, to expand beyond our expectations. But I would caution that our overall growth expectations for this segment are already quite high in the 20% plus range. Yeah. I mean, David, I appreciate the, the, the comment and, and we're, we're very excited about the growth that we've achieved, but I would remind everyone just so we can, we can put these things in perspective because compound growth rates get, get skewing. We're growing effectively a small utility into like a $50 billion utility. If we hit our numbers from the standpoint of you just think a rate based type multiple against these. So, you know, we're, we're there, we've had good success. We're very, very happy with the targets that we put out there,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3446480,
@@ -4879,6 +4984,7 @@
    "t1_ms": 3506780,
    "speaker": "Management",
    "text": "but just to give people a sense of the magnet order of magnitude that we're, we're talking about from a, from a, the size of what we'll have when we're done. I mean, that would be, you know, on, on the order of a, you know, $50 billion type utility, just sitting within energy resources. So we're, we're, we're staying quite busy. Yeah,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3488980,
@@ -4954,6 +5060,7 @@
    "t1_ms": 3538780,
    "speaker": "Analyst",
    "text": "absolutely. Yeah, that makes a lot of sense. And then just other question I had, you know, in the, in the broader backdrop of rising rates on the renewable side of the business, you know, the question that we usually come to, you know, are you able to pass through, you know, higher cost of capital in new PPA rates with, with new renewable contracts, and are you able to potentially see higher equity returns going forward to reflect that as well?",
+   "name": "David Arcaro, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 3506780,
@@ -5025,6 +5132,7 @@
    "t1_ms": 3578480,
    "speaker": "Management",
    "text": "So as we look at today's environment, number one, when we sign our PPAs, we lock in the interest rates to lock in the economics. And then the second question is, as we look, how exposed are we to interest, interest rate movements for our, you know, for origination activities? And there are two key things that we see driving today that a lot of people are looking at. And they're going to allow us to pass that through. Number one is that people need power. And so when you need power, people are looking for the lowest cost power and the people who can execute and deliver that. And in both cases, that's us. And so when we look at their comparative alternatives,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3538780,
@@ -5108,6 +5216,7 @@
    "t1_ms": 3619880,
    "speaker": "Management",
    "text": "they're going to be higher and they are going to be less reliable from an execution perspective for what we're providing. Then the second piece is obviously that as you look at tax credits, particularly for wind and solar, those help reduce the cost of wind and solar relative to other choices. So those two things create us in a place where we are competing against the other projects and we're able to pass through the interest rates of those to our customers. Michael, the only thing I'd add is we were never the low cost bidder in the market. And so actually this is helping us because I think others are feeling a lot more pressure because their margins were skinnier. And so they're having to get close. So I actually think it's going to help us.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3578480,
@@ -5159,6 +5268,7 @@
    "t1_ms": 3639190,
    "speaker": "Management",
    "text": "It's going to help us on a market share perspective as well as return perspective because it's flushing out some of the low cost bidders that were in the market. So we're quite comfortable with our competitive position in this rate environment or anything consistent with what we've been seeing recently.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3619880,
@@ -5178,6 +5288,7 @@
    "t1_ms": 3653580,
    "speaker": "Operator",
    "text": "Got it. Okay. Thanks. Appreciate it. Thank you. This concludes our question and answer session and the conference has also now concluded. Thank you for attending today's presentation. You may all now. Disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3639190,
@@ -7491,6 +7602,7 @@
    "quote": "As we look at our transmission broadly and we looked at roughly eight, you know, 20 to 25% CAGR and rate based growth from 2025 through, 2032, we believe that what we're doing today positions us well to hit that overall metric.",
    "adj_ret_5m": -0.005134268552225207,
    "speaker": "Management",
+   "name": null,
    "vol_mult": 7.010561320483012,
    "spillover": "mixed"
   }
@@ -7504,6 +7616,7 @@
    "t0_ms": 3402580,
    "speaker": "Management",
    "quote": "As we look at our transmission broadly and we looked at roughly eight, you know, 20 to 25% CAGR and rate based growth from 2025 through, 2032, we believe that what we're doing today positions us well to hit that overall metric.",
+   "name": null,
    "metric": "transmission rate base CAGR",
    "kind": "guidance",
    "novel": true,
@@ -7536,6 +7649,7 @@
    "t0_ms": 2124800,
    "speaker": "Management",
    "quote": "It's 20% lower today than it was 20 years ago while investing in generation, while investing in transmission to keep up with growth from one of the fastest growing states in the country on jobs.",
+   "name": "John Ketchum, Chairman, President and CEO",
    "metric": "FPL customer bill vs 20 years ago",
    "kind": "result",
    "novel": true,
@@ -7568,6 +7682,7 @@
    "t0_ms": 1441420,
    "speaker": "Management",
    "quote": "FPL has reported return on equity, for regulatory purposes, will be approximately 11.8%.",
+   "name": null,
    "metric": "FPL regulatory ROE",
    "kind": "result",
    "novel": true,
@@ -7708,14 +7823,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 370.0,
   "gpu_usd": 0.1311,
-  "claude_s": 35.0,
+  "claude_s": 8.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 8706,
-   "output_tokens": 6177,
-   "cache_read_input_tokens": 50220,
-   "cache_creation_input_tokens": 50220
+   "input_tokens": 2,
+   "output_tokens": 1027,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 19919
   },
-  "claude_usd": 0.2098
+  "claude_usd": 0.065
  },
  "context": {
   "ts": [

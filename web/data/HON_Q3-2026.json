@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-22T08:30:00-04:00",
   "etf": "XLI",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/HON_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/HON_Q3-2026.mp3",
   "company": "Honeywell",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 24220,
    "speaker": "Operator",
    "text": "Thank you for standing by and welcome to the Honeywell Technologies third quarter 2026 earnings conference call. At this time all participants are in a listen only mode. After the speaker's presentation there will be a question and answer session. Please be advised that today's call is being recorded. I would now like to hand the call over to Mark Macaluso, Senior Vice President of Investor Relations. Please go ahead sir.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -47,6 +48,7 @@
    "t1_ms": 63940,
    "speaker": "Management",
    "text": "Thank you. Good morning and welcome to Honeywell Technologies third quarter 2026 earnings conference call. Joining me today are Honeywell Technologies Chairman and Chief Executive Officer Vilmal Kapoor and Senior Vice President and Chief Financial Officer Mike Stepniak. This webcast and the presentation materials including non-gap reconciliations are available on our Investor Relations website. From time to time we post new information on the Investor Relations website that may be of interest or material to you. Our discussion today includes forward-looking statements that are based on our best view of the world and of our businesses as we see them today and are subject to certain risks and",
+   "name": "Mark Macaluso, SVP, Investor Relations",
    "parts": [
     {
      "t0_ms": 24220,
@@ -90,6 +92,7 @@
    "t1_ms": 107480,
    "speaker": "Management",
    "text": "uncertainties including those described in our recent SEC filings. This morning we will review our financial results for the third quarter of 2026 and discuss our updated 2026 guidance. And as always we'll leave time for your questions at the end. With that it's my pleasure to turn over to Vilmal who will begin on slide three. Thank you Mark and good morning everyone. Our first quarter as a standalone pure play automation company was a clear demonstration of the value creation strategy we laid out during investor day in June with broad-based organic growth, strong margin expansion and higher free cash flow conversion. And I'm very pleased with the result our teams delivered. This quarter showed the",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 63940,
@@ -133,6 +136,7 @@
    "t1_ms": 143900,
    "speaker": "Management",
    "text": "breadth and quality of new Honeywell Technologies portfolio with strong results across all segments. We delivered 7% organic sales growth above the high end of the targets we unveiled at investor day in June. Demand across the portfolio was broad-based which drove short cycle orders growth of 8% excluding our divestitures led by industrial and building automation. Additionally the growth inflection we expected in process automation technology is occurring with the business growing 8% organically in third quarter.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 107480,
@@ -168,6 +172,7 @@
    "t1_ms": 187420,
    "speaker": "Management",
    "text": "As I will talk more about shortly we believe P&T is beginning a multi-year growth inflection fueled by a robust project backlog and continued capital investment in energy sector, especially in Africa, Middle East and US. On profitability we expanded margins by 370 basis point to over 21% through strategic pricing, productivity actions and the continued reduction in the stranded cost. Importantly, with accelerated progress this quarter we now expect to eliminate all remaining stranded costs by end of 2026 just six months after the aerospace spin-off demonstrating our strong execution capabilities.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 144220,
@@ -199,6 +204,7 @@
    "t1_ms": 227900,
    "speaker": "Management",
    "text": "Together this combination of profitable growth and the fixed cost productivity drove adjusted EPS of $2.27 up 34% year-over-year. To round out the story the cash conversion accelerated to 95% for the quarter and we expect to be above 100% conversion in the fourth quarter. As a result of our strong execution this quarter and momentum heading into fourth quarter we are raising our full year 2026 guide across all metrics. The growth inflection is in P&T and the turnaround in industrial automation are well underway compounded by eight straight quarters",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 188620,
@@ -234,6 +240,7 @@
    "t1_ms": 268560,
    "speaker": "Management",
    "text": "of our performance in building automation. Mike will talk more about our stronger outlook for Q4. oken in a few minutes. Our transformation into a pure play automation company is complete as our third quarter results have demonstrated we have strong position in growing in markets, differentiated offerings and clear competitive advantage in higher growth verticals like LNG and data centers. We are instrumenting the business to outperform both in 2027 and over the long term with strong short cycle demand a backlog of nearly 19 billion dollars and momentum and young technologies customize our inherited interest rate. And the partnership will deliver the Wire coronavirus momentum across the portfolio. This gives me and the leadership team great confidence in delivering",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 227900,
@@ -289,6 +296,7 @@
    "t1_ms": 308360,
    "speaker": "Management",
    "text": "of our 2029 targets. Let's now turn to slide four to talk more about the order trends in the business. The key takeaway is that demand remains strong across most of our portfolio. We saw growth across our short cycle businesses led by sensing and measurement in industrial automation and double digit growth in building automation product businesses. Orders in data center vertical were up over 100%. In P&T, we saw strong refining catalyst demand consistent with our expectation for a second half recovery. And on original basis, we saw strength in India, the Middle East and Africa.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 268560,
@@ -324,6 +332,7 @@
    "t1_ms": 350360,
    "speaker": "Management",
    "text": "In process automation and technology, we are navigating tough prior year comparison due to the two strategic low carbon energy and LNG awards in third and fourth quarter of 2025, which were each seven years. We saw growth in the market in the last year and we saw growth in the market in the last year. From time to time, large awards like this do not always correlate with underlying market demand we are seeing, which is why we have elected to present a normalized view of the demand. Excluding the impact of Q3 award last year, total company orders are up 3% organically. Furthermore, book to build in this quarter was 1.0, which drove ending backlog to nearly 19 billion, up 7%, excluding our divestitures. In P&T specifically, the backlog was 1.0, which drove ending backlog to nearly 19 billion, up 7%, excluding our divestitures.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 308360,
@@ -371,6 +380,7 @@
    "t1_ms": 394480,
    "speaker": "Management",
    "text": "In Q3, the backlog was up double digits, driven by these large project awards. We continue to believe that the ongoing transition to LNG and renewable as priority-fueled, increasing pipeline activity from refurbishment and rebuilds in Middle East and the refining build-out in Africa will drive a meaningful energy up cycle over the next several years. Looking ahead to the fourth quarter, we expect orders to grow in the high single-digit range, excluding the large LNG award shown in the chart on slide 4. This will be driven by demand in Middle East, India and Asia Pacific in process technology and building automation, continued short cycle demand in building automation products and sensing and utilities in industrial automation and momentum in our high growth verticals.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 350360,
@@ -402,6 +412,7 @@
    "t1_ms": 437900,
    "speaker": "Management",
    "text": "Let us now turn to slide five to discuss a favorable dynamics we are seeing in the global energy value chain, reinforcing our growth outlook for process automation and technology business. On a global basis, we continue to see activity increasing on large energy projects, including over $1 billion in process technology orders since quarter one of 2026. P&T backlog is over 10% higher than a year ago, supported by wind across LNG, refining at petrochemicals and low carbon energy projects. The breadth of these orders is important too. We are seeing investments across North America, the Middle East, Africa. and Asia rather than a single region.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 395340,
@@ -437,6 +448,7 @@
    "t1_ms": 481560,
    "speaker": "Management",
    "text": "LNG remains strong in US and internationally, while refining and petrochemical orders include major projects in Africa and continued activity across Middle East and Asia. Low carbon energy remains a small part of the business overall, but it's growing at a strong double digit rate with wins in areas such as sustainable aviation fuel and carbon capture. And we continue to believe that longer term, this will be a growth driver. These orders are also growing at a strong double digit rate. We continue to see these orders expand our install base and create opportunities beyond the initial project win. As these facilities come online and operate at high utilization rate, they will drive future demand for catalyst, automation, digital modernization and lifecycle services.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 438540,
@@ -472,6 +484,7 @@
    "t1_ms": 525340,
    "speaker": "Management",
    "text": "Overall, the strength and global diversity of the orders give us confidence in the outlook for continued growth of P&T segment as we enter 2027. In conclusion, we are seeing robust backlog growth. and commercial momentum across our business, and we expect 2027 organic growth to be at or above our long-term growth algorithm. Let me now turn it to Mike to discuss the third quarter results and our 2026 outlook in more detail. Thank you, Vimal, and good morning. In the third quarter, Honeywell Technologies delivered strong results that surpassed our expectations across most metrics. Sales grew 7% organically with strength across all segments.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 482060,
@@ -539,6 +552,7 @@
    "t1_ms": 571220,
    "speaker": "Management",
    "text": "Process automation technology sales grew 8% organically, led by double-digit growth in projects and return to growth in aftermarket, led by refining catalyst demand. Project sales grew 14% year over year, led by strong LNG and petrochemical backlog conversion. The momentum in building automation continued with 8% organic growth. Our eighth straight quarter of high single-digit growth evidenced that we were able to build a strong and sustainable business that we continue to gain share in the market. This was principally driven by 11% organic growth in products, led by both the fire and security businesses, while solutions also grew 4% organically, driven by strength in services. On a regional basis, we saw double-digit growth in both India and Asia Pacific, with continued strength in the markets.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 526620,
@@ -626,6 +640,7 @@
    "t1_ms": 614600,
    "speaker": "Management",
    "text": "Finally, in industrial automation, organic sales were up 4% in the third quarter, led by double-digit growth in the market. This was a significant increase in sales in the last quarter, and we expect to see a growth in the market and double-digit growth in solutions, principally in industrial measurement and utilities. Product sales were roughly flat, with SENSIC and industrial measurement demand offset by industry-wide deferrals in metered deployments across the utility segment. On profitability, segment profit grew 23% and segment margin expanded 370 basis points to 21.3% driven by productivity, accelerated strength and cost elimination, as well as strategic pricing actions and volume leverage. We also saw a significant increase in the market growth in the third quarter, led by double-digit growth in the market.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 571220,
@@ -725,6 +740,7 @@
    "t1_ms": 658600,
    "speaker": "Management",
    "text": "This more than offset rising inflation, headwinds from the mix of projects versus aftermarket, and the acquisition impact in process automation technology. By segment, in industrial automation, price and productivity actions in the core business drove 350 basis points of margin expansion, with the business firmly on path to deliver 22% segment margin in the fourth quarter. In building automation, segment margin expanded another 30 basis points to 21.3% driven by productivity, and segment margin expanded another 30 basis points to 27% driven by volume leverage and pricing actions that more than offset rising inflation. And in process automation technology, margin contracted as expected, driven by mixed headwinds steaming from higher project growth and dilution related to the acquisition",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 614600,
@@ -824,6 +840,7 @@
    "t1_ms": 702600,
    "speaker": "Management",
    "text": "of Johnson Maddy's Catalyst Technologies business. Adjusted earnings per share was up 34%, driven primarily by 23% segment profit growth and lower interest expense and a higher market share than the previous year. In the fourth quarter, free cash flow was up 15% to roughly $690 million, while our conversion increased to 95% in the quarter. We expect free cash flow conversion to be above 100% in the fourth quarter as we drive working capital improvements including strong receivable collections. Let's now move to slide 7 to discuss the third quarter segment margin and adjusted EPS bridges. Starting with margin, segment margin is a key component in the market.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 658600,
@@ -923,6 +940,7 @@
    "t1_ms": 746600,
    "speaker": "Management",
    "text": "In the third quarter, we are delivering stronger incremental margin in our short cycle businesses, driving roughly 70 basis points of volume leverage. We are also continuing to effectively mitigate high inflation with strategic pricing actions, productivity and a reduction in stranded costs. We expect inflation to remain at these levels at least into the first half of 2027. Our strong market positions, installed base driven business model and the mission critical nature of our offerings, will help us to make a difference in our ability to successfully navigate this inflationary environment. On adjusted EPS, earnings growth in the third quarter was presently driven by a strong operational performance in all three segments,",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 702600,
@@ -1022,6 +1040,7 @@
    "t1_ms": 790600,
    "speaker": "Management",
    "text": "which allowed us to overcome the operating loss from our divestitures. Below segment profit, interest and other expenses declined year over year, while our tax rate was slightly higher. We are making good progress in our short cycle businesses, and we are also continuing to increase our overall revenue by over $1 billion. Our focus on offsetting inflation, delivering productivity and aggressively eliminating stranded costs for transformation is having a meaningful impact. This provides a strong foundation for 2027. Let's turn to slide 8 to provide an update on our leverage commitments. As I discussed at the investor day, we are committed to reducing our gross leverage to less than three times this year by lowering our gross debt balance",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 746600,
@@ -1121,6 +1140,7 @@
    "t1_ms": 834040,
    "speaker": "Management",
    "text": "at the end of 2026. This will be enabled by the acceleration in free cash flow that we expect to continue in the fourth quarter. We expect our year-end cash balance to be approximately $3 billion, resulting in a net debt of around $10 billion. Importantly, the cash generation and continued reduction in our leverage will increase our capital allocation flexibility, including capacity to pursue disciplined M&A. Let's now turn to slide 9 As you can see here, we have made considerable progress reducing fixed costs related to the portfolio transformation and we expect this to continue in 2027. We are implementing",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 790600,
@@ -1216,6 +1236,7 @@
    "t1_ms": 876040,
    "speaker": "Management",
    "text": "a cross-functional shared services model across the company with a simplified and more flexible corporate structure. More importantly, during this time we continue to invest in our businesses to drive future growth. The progress on stranded cost reduction underscores the pace of execution across the organization and the progress we are making in building a simpler, more focused company. This will position the company for long-term, profitable growth. Executing stranded cost take-out within six months of the aerospace spins demonstrates the strong operational execution capabilities of Honeywell Technologies. Let's turn to slide 10 to discuss our revised full-year outlook.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 834040,
@@ -1311,6 +1332,7 @@
    "t1_ms": 919540,
    "speaker": "Management",
    "text": "Today we are raising our full-year organic growth, adjusted earnings per share, increasing cash flow guidance, as well as tightening our margin guidance around the previous high end. We now expect full-year organic growth of 4% to 5%, up from 3% to 4% previously, driven by our execution in the third quarter and stronger outlook in the fourth quarter. By business, in the fourth quarter we expect to see continued strength in buildings and across both products and solutions, high single-digit growth in process automation and technology, conversion and higher catalyst volumes, and continued stancing and industrial measurement demand in industrial automation.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 876040,
@@ -1406,6 +1428,7 @@
    "t1_ms": 963540,
    "speaker": "Management",
    "text": "As a result, we expect to deliver 5% to 6% organic growth. With the performance today, we expect to be at the high end of our full-year margin range at 20.5% and at approximately 22% for the fourth quarter. This will continue to be driven by pricing, productivity and volume leverage, overcoming higher inflation and anticipated mixed headwinds in process automation technology, driven by higher project activity and dilution from the catalyst technology's acquisition. Industrial automation should be at 22% margin in the fourth quarter, while building automation is expected to expand margins 70 to 90 basis points, and process automation technology",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 919540,
@@ -1505,6 +1528,7 @@
    "t1_ms": 1007540,
    "speaker": "Management",
    "text": "will end the fourth quarter around 21.5%. We now expect full-year adjusted EPS in the range of $8.40 to $8.45, which represents a $0.23 improvement at the midpoint. Notably, the low end of our guidance range is now above our previous high end. This results in full-year earnings growth of approximately 30%. Lastly, our free cash flow guidance is up $100 million to $2.1 billion given the higher income conversion. You can find additional information on our 2026 outlook in the appendix of our presentation. This includes estimates for corporate and below the line items.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 963540,
@@ -1604,6 +1628,7 @@
    "t1_ms": 1051540,
    "speaker": "Management",
    "text": "Thank you for your time today. Let me now turn the call back to Vimal to wrap up before the Q&A. Thank you, Mike. We are proud of our results in the first quarter as a standalone company. We surpassed our expectations across most metrics, and we see encouraging demand signal in many key end markets. We believe P&T is at the beginning of a multi-year growth inflection coinciding with an up cycle in global energy markets. We are also encouraged by the turnaround the team is driving in industrial automation and building automation continues to execute on all fronts. We are also launching new offerings on our Forge platform, both in building automation and process automation technology, creating a robust foundation",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1007540,
@@ -1703,6 +1728,7 @@
    "t1_ms": 1083540,
    "speaker": "Management",
    "text": "for future growth. With our performance this quarter and backlog of nearly $19 billion, we are confidently raising our 2026 outlook across all metrics setting up for a strong start to 2027. Thank you for joining us today, and Mark, let's now take some questions. Vimal, Mike, and I are now available to answer your questions. We kindly ask that you please be mindful of others in the queue by asking one question and one related follow-up. Operator, please open the line for Q&A.",
+   "name": "Vimal Kapoor, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1051540,
@@ -1778,6 +1804,7 @@
    "t1_ms": 1103540,
    "speaker": "Operator",
    "text": "Thank you. If you'd like to ask a question, please press star 1 on your telephone keypad. A confirmation tone will indicate your line is in the question queue. You may press star 2 if you'd like to remove your question from the queue. Our first question comes from the line of Nigel Koh with Wolf Research. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1083540,
@@ -1829,6 +1856,7 @@
    "t1_ms": 1133020,
    "speaker": "Analyst",
    "text": "Oh, thanks. Good morning. Thanks for the question, guys. Good morning. Good morning. I'm curious for Q, auto growth, we're still only one month into the quarter. I'm assuming December is a pretty important month for bookings. I'm just wondering what gives you the confidence that the pipeline converts into orders? Maybe just touch on how...",
+   "name": "Nigel Coe, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1103540,
@@ -1888,6 +1916,7 @@
    "t1_ms": 1169020,
    "speaker": "Management",
    "text": "So far, Nigel, the first three weeks of October has been trending on and above expectations, so that certainly is a good data point. We look at our statistical performance against pipeline, our wind rates when we forecast it. We also provision for some adequate contingency for things which cannot happen as projected. So overall, our confidence to what we are stating on high single-digit orders growth in quarter four, less of the low carbon energy or LNG order, I'm sorry, which we booked last year, which was several hundred million dollars. We remain highly confident on that.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1133020,
@@ -1971,6 +2000,7 @@
    "t1_ms": 1189350,
    "speaker": "Analyst",
    "text": "Okay. And then, Mike, a quick one on stranded costs. Good news that you'll be done by the end of this year. I think that's about six months earlier than expected. Does that change your perspective on your corporate expense for next year? I think that the guide was less than $600 million.",
+   "name": "Nigel Coe, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1169020,
@@ -2018,6 +2048,7 @@
    "t1_ms": 1223820,
    "speaker": "Management",
    "text": "Right. So it's a little bit early. And we'll talk about it in February. But for next year, just like we talked about, I think, before, we plan for our corporate costs to be about $400 million. And then we're instrumenting the teams, obviously, to productivity and margin expansion north of 60 bps, like we talked about. So I feel we have a really good setup. Like you said, we're ahead. And that has implications as far as us having a really good momentum going to next year. And we'll work with that.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1189350,
@@ -2093,6 +2124,7 @@
    "t1_ms": 1225820,
    "speaker": "Analyst",
    "text": "Great. And of course, I meant less than $400 million.",
+   "name": "Nigel Coe, Wolfe Research",
    "parts": [
     {
      "t0_ms": 1223820,
@@ -2108,6 +2140,7 @@
    "t1_ms": 1227820,
    "speaker": "Management",
    "text": "Thanks, Mike.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1225820,
@@ -2123,6 +2156,7 @@
    "t1_ms": 1235540,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Julian Mitchell with JPMorgan. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1227820,
@@ -2146,6 +2180,7 @@
    "t1_ms": 1279540,
    "speaker": "Analyst",
    "text": "Hi. Good morning. Just wanted to start off with a question on the IA segment. You know, it's had a sort of rocky or uneven time for a few years for various reasons. Looks to be very well set today with a large sequential margin increase. Guided for the fourth quarter. I suppose maybe when we try and look a little bit further out, how confident are you in continued margin expansion at IA in the coming quarters? And given the macro backdrop is a bit choppy, anything concerning you've seen in the order rates of IA, the shorter cycle pieces?",
+   "name": "Julian Mitchell, JPMorgan",
    "parts": [
     {
      "t0_ms": 1235540,
@@ -2245,6 +2280,7 @@
    "t1_ms": 1323540,
    "speaker": "Management",
    "text": "So overall, Julian, for IA, we remain very confident on continued performance in both top line recovery and margin rate expansion. The reason for that is the basics are improving, as we talked about it in Investor Day very rapidly. Our own time delivery now is it used to be just shy of 40% is now 60%. Our positives are down 18%. Our new product launches are being highly accepted by our channel partners and our OE customers. So those foundations have turned the business from a negative territory to now low single digit. And we do expect that it will continue to progress and find its pathway to more mid-single digit growth",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1279540,
@@ -2344,6 +2380,7 @@
    "t1_ms": 1361540,
    "speaker": "Management",
    "text": "as we lap from 26 to 27. So we remain very convicted. Same is true on the margin rate. We expect the year to end at 22%. Primarily, it's a higher quality business now. And from this baseline, as we continue to execute our pricing action, productivity action, we remain very confident on the margin expansion and also achieve our 25% goal by 2029. So overall, sensing and measurement, building a unique segment in industrial automation, that's our pathway. And we remain highly convicted this is a high quality business as part of our portfolio.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1323540,
@@ -2431,6 +2468,7 @@
    "t1_ms": 1387140,
    "speaker": "Analyst",
    "text": "That's helpful. And then just a quick follow up on PAT. You know, margin pressure kind of year on year in the third quarter that's continuing into the fourth. Should we assume that margins stay under that type of pressure until the Johnson Matthey acquisition anniversaries? Or is there anything in the base business moving around that could help the margins sooner?",
+   "name": "Julian Mitchell, JPMorgan",
    "parts": [
     {
      "t0_ms": 1361540,
@@ -2490,6 +2528,7 @@
    "t1_ms": 1431140,
    "speaker": "Management",
    "text": "Yeah, so versus where the team finished at the 22.2%, I would say next quarter 21.5%. And then in the first half, I would say probably something similar. But next year, P&T is going to expand margins. And what's happening there is one, we have catalyst mixes starting to mix up. That volume is going to grow. That's going to help the project volume mix is going to abate. And as you know, we obviously are integrating CT. So in the second half, we will be substantively past CT integration. We see a really good margin expansion into the second half of 2027.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1387140,
@@ -2589,6 +2628,7 @@
    "t1_ms": 1455140,
    "speaker": "Management",
    "text": "And I just remind you, like we talked about, this is a multi-year cycle. In 2028, there is a significant margin pickup again as we're counting on catalyst volume. So we have very good visibility to this cycle. We have proven it cycle over cycle over multiple decades. And we're extremely confident on the progression of the business in that fashion.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1431140,
@@ -2648,6 +2688,7 @@
    "t1_ms": 1460390,
    "speaker": "Analyst",
    "text": "Great. Thank you. Thank you.",
+   "name": "Julian Mitchell, JPMorgan",
    "parts": [
     {
      "t0_ms": 1455140,
@@ -2667,6 +2708,7 @@
    "t1_ms": 1468390,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Steve Tusa with Wells Fargo. Please proceed with your question. Hi, good morning.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1460390,
@@ -2694,6 +2736,7 @@
    "t1_ms": 1498390,
    "speaker": "Analyst",
    "text": "Thank you. Very helpful chart on the segment bridge. Can you just, I think, kind of teasing out core incrementals, putting everything else aside on volume, roughly 40%, is that right? And then, can you just discuss that inflation number, the 350 basis points? Like what was that in the first and second quarter? And then what do you expect for that in the fourth?",
+   "name": "Steve Tusa, Wells Fargo",
    "parts": [
     {
      "t0_ms": 1468390,
@@ -2765,6 +2808,7 @@
    "t1_ms": 1542390,
    "speaker": "Management",
    "text": "Sure. So you're exactly right. I think on core we're about 40% incrementals. Price to cost in the third quarter was about 30 bps net positive. So that 350 bps that you see on inflation is a little bit higher versus the first half. But also our price is higher. We're averaging about 3.5% price in the first half. We'll average about 4.5% in the second half. 4% for the year. That's going to be on the year basis maybe 10, 20 bps of I would say margin expansion from price cost. And we see obviously inflation elevated. We expect that",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1498390,
@@ -2864,6 +2908,7 @@
    "t1_ms": 1558390,
    "speaker": "Management",
    "text": "to continue into year end and then starting to abate in the first half. Everything we get from our teams as far as planning for next year, we see inflation coming down a bit. So the price will move with that. But it's still around that 3 to 4%",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1542390,
@@ -2907,6 +2952,7 @@
    "t1_ms": 1576390,
    "speaker": "Analyst",
    "text": "Okay. And then just for the fourth quarter, my follow up is the margin went to the low end of the range I guess for the fourth quarter. Is that really just the price cost timing stepping up a little bit sequentially? Just curious to that or just conservatism?",
+   "name": "Steve Tusa, Wells Fargo",
    "parts": [
     {
      "t0_ms": 1558390,
@@ -2954,6 +3000,7 @@
    "t1_ms": 1620390,
    "speaker": "Management",
    "text": "No, not at all. Pricing costs as well. We actually manage price in the third quarter to account for year end. It's really just mixed. So revenues coming up and like Vimu talked, the products are performing extremely well. We don't see anything changing in products. On the other hand, projects is doing better and city outlook is better and they're dilutive to our overall mix and that's what's dragging our margin to that 400 basis. Still I would say at the high end of our guide for the year 20.5%. It's about 300 bps margin expansion for the year. Really good setup for next year. Yep, thanks a lot. Appreciate it.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 1576390,
@@ -3053,6 +3100,7 @@
    "t1_ms": 1628660,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Scott Davis with Milius Research. Please proceed with your",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1620390,
@@ -3076,6 +3124,7 @@
    "t1_ms": 1668660,
    "speaker": "Analyst",
    "text": "question. Thanks operator. Good morning Vimu, Mike, and Mark. Appreciate the shorter comments today too to leave more time for Q&A. Guys, you've been seemingly gaining a meaningful amount of share in fire security. It seems for a while now. That was always a pretty low growth business like literally like a 1 to 2% type growth business. You seem to have made it something a little bit bigger. Can you just update us on what you're doing there and what's kind of changed at the margin? What's driving that growth or at least the sustainability of that growth?",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 1628660,
@@ -3167,6 +3216,7 @@
    "t1_ms": 1712660,
    "speaker": "Management",
    "text": "I think the fundamental is the our higher cycle of new product introduction coupled with the mixed change of the end markets. So we continue to amplify our new product introduction and maintaining a very high vitality by which we then gain share from a competition. Forge is playing a very important role. Fire business was the first out of the door to build a connected solution by which you can configure our fire panels remotely. We introduced that almost three years back. So what it does is, Scott, that while the software content is low, it pulls the core product. And that value proposition is very compelling for our channel partners",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1668660,
@@ -3266,6 +3316,7 @@
    "t1_ms": 1756660,
    "speaker": "Management",
    "text": "because they save significant commissioning time, inspection time, and improves their P&L. Also, we have had benefiting from data center growth. We have some unique products in fire for data center growth for early detection of fire in a very unique environment because you have a lot of electrical cables, a lot of servers. So there's a unique way we detect fire there. We have differentiated product line. We also introduced some unique new products for detecting fire in batteries as more and more lithium-ion batteries are being used. On the security side, we're benefiting from very premium position of LenLS2. They continue to perform and double digit growth rates across the world. And Honeywell added a lot of value in that",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1712660,
@@ -3365,6 +3416,7 @@
    "t1_ms": 1778660,
    "speaker": "Management",
    "text": "business by globalizing it. We talked about that hypothesis when we acquired the business, and we clearly see growth of that business outside the US with a lot of synergies we are bringing in. So all in all, I would say we maintain the momentum in this business, and we see no reason that we won't perform at this level in the foreseeable future.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1756660,
@@ -3420,6 +3472,7 @@
    "t1_ms": 1808660,
    "speaker": "Analyst",
    "text": "So just to follow up on that, on Forge, just that answer was complete, but how do you go to market with Forge then? Is this kind of the, is it getting wrapped in as a standard offering with every install, or does it come in as kind of a sidecar, if you will, and priced separately? How do you guys go to market with it and get value for it, or is it just more of a tool you use to be able to gain share, because you've got another kind of",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 1778660,
@@ -3491,6 +3544,7 @@
    "t1_ms": 1852660,
    "speaker": "Management",
    "text": "So there are, no, very good question, Scott. There are three sales motions for Forge today. So it's our recurring revenue is now coming close to a billion dollars in 2026, just shy of that. The first sales motion is Forge is sold along with our service contracts. So we make our customers connect to Forge, change the pricing of our service contract because we are able to provide higher value outcome. So that's sales motion one. Sales motion two is there are unique applications built in to make our existing offering better, like I gave an example of FirePanel. So they are now, even though we sell it as a standalone offering, but it goes hand in hand with our four products. And then the third",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1808660,
@@ -3590,6 +3644,7 @@
    "t1_ms": 1896660,
    "speaker": "Management",
    "text": "is a standalone offering of Forge, which we launched, I would say, 18 to 24 months back, first in buildings, where we can connect standalone buildings of even competitors, apart from Honeywell install base, to get better insight into customers, energy consumption, predictive maintenance, emissions. And we launched a similar offering for Process earlier this year. In that scenario, it's sold as a standalone SaaS software. So all three sales motions are in place, and as we talked about in Investor Day, we expect our ARR to grow. Our aspiration is 15%. We want to have high aspiration. This year probably will be slightly shy of that,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1852660,
@@ -3689,6 +3744,7 @@
    "t1_ms": 1902660,
    "speaker": "Management",
    "text": "more like 12, 13. But we'll continue to work our way through to get closer to 15% every year.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1896660,
@@ -3712,6 +3768,7 @@
    "t1_ms": 1908660,
    "speaker": "Analyst",
    "text": "Very helpful. Best of luck. I'll pass it on. Thank you, guys. Thanks, Scott. Thank you.",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 1902660,
@@ -3735,6 +3792,7 @@
    "t1_ms": 1916660,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Amit Murotra with UBS. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1908660,
@@ -3762,6 +3820,7 @@
    "t1_ms": 1956660,
    "speaker": "Analyst",
    "text": "Great. Thank you. Good morning, everybody. I think maybe just starting with Process and just understanding sort of the mid- to long-term growth opportunity as these maybe comps normalize. Obviously, great to see the high single-digit growth as you expected. I know there's been sort of a management change recently from building to process. I think forged cognition is maybe part of the growth story. So just talk about sort of beyond, you know, the first half of 27 and into the second half and beyond. What we think the sort of run rate, steady state growth opportunity is for process.",
+   "name": "Amit Mehrotra, UBS",
    "parts": [
     {
      "t0_ms": 1916660,
@@ -3853,6 +3912,7 @@
    "t1_ms": 2000660,
    "speaker": "Management",
    "text": "So we see, Amit, the growth in process automation technology both on the project side and on the aftermarket in services and catalyst side. The project side, if you see the chart we added into our prepared remarks, we see continued investments in LNG. So our backlog is, you know, very strong for LNG. We also see investments in Africa and Middle East and Asia on traditional refining, which is helping us a lot in our backlog. And finally, we also see activity in low carbon energy projects. Just as a reminder, we have licensed 100 projects so far in sustainable aviation fuel. And only about 20% of those have",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1956660,
@@ -3952,6 +4012,7 @@
    "t1_ms": 2044660,
    "speaker": "Management",
    "text": "been built so far. So there's a lot of runway people coming back to us with FIDs, which then turn into a significant revenue stream. So project activity remains very robust and very diversified. Then on the aftermarket side, we expect the second half of 2026 catalyst growth to be double digit. It's double digit in Q3. It's going to be actually mid-teens growth in Q4. And given the higher margins our customers are making on the finished products, we expect catalyst demand to remain strong in 2027, more normalized year. And on the automation side, we see strength in our services portfolio, cybersecurity, our Forge offering, we call it",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2000660,
@@ -4051,6 +4112,7 @@
    "t1_ms": 2066659,
    "speaker": "Management",
    "text": "Plant Cognition. So that offering is also getting strong customer reception. So across the board, as Mike laid out, we see this as a multi-year cycle in which the project strength will provide us a top line growth and will maintain our margin with a high mix of catalyst and services and software as we progress.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2044660,
@@ -4106,6 +4168,7 @@
    "t1_ms": 2110660,
    "speaker": "Analyst",
    "text": "Got it. Okay. That's helpful. And maybe just as a follow-up, I know 2027 guidance is forthcoming, but I think, Vimal, you talked about sort of at or above the long-term algorithm. I think, Mike, maybe a couple months ago, you sort of floated this idea of 15% EPS growth. If I just sort of compare the two, I would say bottom line EPS growth, maybe I would have expected something a little bit higher, just given the margin opportunity. Maybe just unpack that a little bit for us. Maybe the IA margins headwind in the first half of next year, maybe that's what's driving it, but to the extent that you can, just sort of",
+   "name": "Amit Mehrotra, UBS",
    "parts": [
     {
      "t0_ms": 2066659,
@@ -4205,6 +4268,7 @@
    "t1_ms": 2118660,
    "speaker": "Analyst",
    "text": "fill in the color between what you've already commented on 2027, between the algorithm versus the 15% EPS growth.",
+   "name": "Amit Mehrotra, UBS",
    "parts": [
     {
      "t0_ms": 2110660,
@@ -4232,6 +4296,7 @@
    "t1_ms": 2162660,
    "speaker": "Management",
    "text": "I would say, Amit, the setup for 2027 is very strong. First for starters, our midpoint of the guide for 2026 is up by 23 cents. So we are starting at a higher baseline. On the top line, we remain very confident on performing at upper end of our 4-6% guide. Our backlog is very strong. Our short cycle momentum sustained itself and we continue to maintain our share or gain share through new products, so that's going to continue. On the margin rate, we have done a good job to manage inflation through price cost. It's slightly positive. We expect to maintain that. And we have maintained our fixed cost by elimination of stranded costs ahead of time. So we expect to maintain that. And when you see the setup here,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2118660,
@@ -4331,6 +4396,7 @@
    "t1_ms": 2188520,
    "speaker": "Management",
    "text": "across the board, top line, margin expansion and fixed cost, we expect a strong print in 2027. I can't tell you specifics because I'll be giving you a guide, which I think we'll have to wait for February when we plan to come back there. But final comment I'll make is, directionally, we are on the road to deliver $12 or better, our long-term 2029 guide we set up in Investor Day.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2162660,
@@ -4390,6 +4456,7 @@
    "t1_ms": 2193930,
    "speaker": "Analyst",
    "text": "Thank you very much. Thanks, Amit. Thank you.",
+   "name": "Amit Mehrotra, UBS",
    "parts": [
     {
      "t0_ms": 2188520,
@@ -4409,6 +4476,7 @@
    "t1_ms": 2199930,
    "speaker": "Operator",
    "text": "Our next question comes from the line of Nicole DeBlaise with Deutsche Bank. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2193930,
@@ -4432,6 +4500,7 @@
    "t1_ms": 2201930,
    "speaker": "Analyst",
    "text": "Yeah, thanks. Good morning, guys.",
+   "name": "Nicole DeBlase, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 2199930,
@@ -4447,6 +4516,7 @@
    "t1_ms": 2203930,
    "speaker": "Management",
    "text": "Morning.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2201930,
@@ -4462,6 +4532,7 @@
    "t1_ms": 2221930,
    "speaker": "Analyst",
    "text": "If we could just start with the 4Q outlook. I think you're embedding a little bit of a deceleration organic growth. The backlog is obviously so strong. Short cycle order growth's so strong. Can you maybe talk through the expectations by segment, like what's driving the modest deceleration that you've embedded for 4Q?",
+   "name": "Nicole DeBlase, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 2203930,
@@ -4509,6 +4580,7 @@
    "t1_ms": 2265930,
    "speaker": "Management",
    "text": "I would say, probably this is just more of conservatism than anything else. Like we said, I think on the short cycle orders, they're extremely strong. On product side, both BA and IA booked in third quarter high single digit, double digit growth. So we feel good about that. And then projects are incrementally better. So I think it's just more mix. And like we said, we'll do 4 to 5% in the for the year and 5 to 6 in the fourth quarter. And as we stand today, we're probably on the higher end of the five versus so it's incrementally",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 2221930,
@@ -4608,6 +4680,7 @@
    "t1_ms": 2281930,
    "speaker": "Management",
    "text": "I would say we feel better about the fourth quarter. I think it's fair to say, Nicole, we don't see any change quarter on quarter. I think the revenue mix can be different within a quarter for projects. But other than that, fundamentals of the business remains very strong quarter over quarter.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2265930,
@@ -4651,6 +4724,7 @@
    "t1_ms": 2297930,
    "speaker": "Analyst",
    "text": "Okay, understood. Thank you. And then maybe just in IA, you guys referenced some deferrals in utility meter deployments. Can you just give some more color on what's going on there and if that's expected to continue into 4Q or into 27, the timeline for that kind of rectifying.",
+   "name": "Nicole DeBlase, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 2281930,
@@ -4694,6 +4768,7 @@
    "t1_ms": 2341930,
    "speaker": "Management",
    "text": "Thank you. I think that's more of an upside opportunity for us in 2027. We've introduced some very new technology both for gas meters and water meters. Gas meters unlike electricity meters have not been upgraded at a large scale by utilities over the last decade. So our technology being new is being tested by multiple utilities and each utility done their testing by themselves rather than this being a common testing protocol which just adds time. So we are in the process of working with our testing of our new gas meter with several utilities",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2297930,
@@ -4793,6 +4868,7 @@
    "t1_ms": 2367930,
    "speaker": "Management",
    "text": "and once they complete that cycle, which could be six to nine months, we expect them to turn into a major rollout 27 onwards for several years. So actually the low growth in our metering business is actually already factored in in 26 and potentially in 27 but looking ahead, it's going to turn into a tailwind when these adoption rates will take up in the period ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2341930,
@@ -4856,6 +4932,7 @@
    "t1_ms": 2369930,
    "speaker": "Analyst",
    "text": "Thanks, Vimal. I'll pass it on.",
+   "name": "Nicole DeBlase, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 2367930,
@@ -4871,6 +4948,7 @@
    "t1_ms": 2378460,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Andrew Oben, with Bank of America. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2369930,
@@ -4894,6 +4972,7 @@
    "t1_ms": 2416460,
    "speaker": "Analyst",
    "text": "Hi, yes, thanks so much. Can you hear me? Yep, very well. Excellent. Just a question. A little bit on process automation and technology on the aftermarket services. I think you highlighted some good tailwinds on Catalyst, but if I look at sort of year-over-year comps, I mean the comps has gotten quite a bit easier versus last quarter, so I would have expected more of a pickup sequential and organic growth. What are the headwinds that the business is facing? Because clearly the Catalyst business is accelerating. But what are the headwinds?",
+   "name": "Andrew Obin, Bank of America",
    "parts": [
     {
      "t0_ms": 2380460,
@@ -4977,6 +5056,7 @@
    "t1_ms": 2460460,
    "speaker": "Management",
    "text": "I mean, I won't call it headwinds. When you grow at 8% and then you grow subsequent quarter probably at 7%, I may not call it headwinds. I would simply call it the cycle of the projects. I can't control the milestone when they have to be achieved, so they come at a certain timing. So I would say broadly speaking, the P&T revenue profile on organic growth basis is very similar between Q3 and Q4. Q3 was slightly higher versus Q4, but not substantially different. You are talking in narrow range here. Catalyst demand is very strong in quarter four, sequentially better than quarter three. We were double digit and we are going to go towards mid-teens growth in Catalyst. For example,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2416460,
@@ -5076,6 +5156,7 @@
    "t1_ms": 2482460,
    "speaker": "Management",
    "text": "in quarter three, our refining Catalyst growth was up 80%. So we expect to maintain high rates there. Services growth also remains strong in automation, more like low to mid single digit. So fundamentals are very robust in this business. I think the change you see is just the sequencing of the projects within a quarter.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2460460,
@@ -5131,6 +5212,7 @@
    "t1_ms": 2510460,
    "speaker": "Analyst",
    "text": "Okay. And just maybe another question on industrial automation on the products. What would it take for the products to start growing faster? Because I think you guys sort of talked about initiatives to get deliveries, on time delivery improved. So that would sort of lead to a lot of good things happening. What would it take for that growth in that business to inflect materially positive? Or are we waiting for the new product introduction as you alluded in the prior answer?",
+   "name": "Andrew Obin, Bank of America",
    "parts": [
     {
      "t0_ms": 2482460,
@@ -5198,6 +5280,7 @@
    "t1_ms": 2554460,
    "speaker": "Management",
    "text": "Thank you. Directionally speaking, Andrew, if you observe, we have been turning this business to slow growth. Now we are at low single digit territory right now. I would also like this to go to mid single digit territory. And we expect that to occur in you know, 2027 moving forward. I think the drivers are fundamentals are the same. I talked about improving customer service, better delivery, improved, you know, fast due rates. That's certainly already happening. New product launches and its penetration takes time. I think that's the only variable. As some of them gets more penetration, we expect to continue to perform better in this segment. So there's no doubt in my mind.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2510460,
@@ -5297,6 +5380,7 @@
    "t1_ms": 2588460,
    "speaker": "Management",
    "text": "I think it's just the timing as we go from low single digit to mid single digit in this portfolio, in this business in 2027. And Andrew, I would just add that the third quarter orders for industrial automation core were up 15%. So this is a business that's going to the next year probably with the best backlog it has seen in over five years. We're quite confident about finishing. And we expect fourth quarter orders to be up high single digit. So there's a lot of momentum here. It's just the cycling of the business going from one phase to another phase.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2554460,
@@ -5376,6 +5460,7 @@
    "t1_ms": 2594380,
    "speaker": "Analyst",
    "text": "Great. I appreciate the call. Thanks. Thank you.",
+   "name": "Andrew Obin, Bank of America",
    "parts": [
     {
      "t0_ms": 2588460,
@@ -5395,6 +5480,7 @@
    "t1_ms": 2600380,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Andrew Kaplowitz with Citigroup. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2594380,
@@ -5418,6 +5504,7 @@
    "t1_ms": 2624650,
    "speaker": "Analyst",
    "text": "Hey, good morning, everyone. Vilma, I think we know your data center business overall is still a relatively small part of Honeywell. But last quarter, I think you mentioned your offerings and power generation were beginning to help your process business in data centers in addition to building automation. So how do we think about that data center, call it ecosystem, and how it might help you in 27 and beyond?",
+   "name": "Andrew Kaplowitz, Citigroup",
    "parts": [
     {
      "t0_ms": 2600380,
@@ -5473,6 +5560,7 @@
    "t1_ms": 2668650,
    "speaker": "Management",
    "text": "Certainly, you know, we always talked about data centers, mid-single digit business for BA, building automation. We are now turning to a point with the change in demand of the customer. We continue to see this can become actually at some point mid-single digit of Honeywell. Because now we see the demand in process automation. We saw year-to-date orders growth of more than 100%. And based upon the pipeline visibility we have, we expect very high growth in 2027 also. It will be mixing up not only the building automation, but even some process automation order for power island, you know, for controls, for energy storage, that solution is being mixed up.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2624650,
@@ -5572,6 +5660,7 @@
    "t1_ms": 2712650,
    "speaker": "Management",
    "text": "One interesting thing which is occurring in addition to this for the last, I would say, six months is liquid cooling. As liquid cooling will take more penetration, we expect our share of spend to further go up. We are working with customers for sensing for liquid cooling from our sensors business. And our Sundyne pumps are a premium solution to circulate those liquid cooling. Those will, as we can imagine, those are going to scale in future, probably more post 27. But what I see is something we started with a very modest content in building automation.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2668650,
@@ -5671,6 +5760,7 @@
    "t1_ms": 2738650,
    "speaker": "Management",
    "text": "Now we added process automation, and now we are adding even our content from process technology and industrial automation. It's truly becoming a pan Honeywell strategy. And we continue to improve our content. Last comment I'll make is, as we grow, as data center growth is happening outside US, in Europe and in Asia, particularly in Korea and India, we expect to continue to do well because of our global presence and global execution",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2712650,
@@ -5734,6 +5824,7 @@
    "t1_ms": 2766650,
    "speaker": "Analyst",
    "text": "capabilities. And then, Vimal, I think you and Mike mentioned that you'll get net leverage down under 2.25 by the end of the year. And so, and I think you also mentioned at that point you could pursue, I think you said disciplined M&A. So, how do you characterize the environment right now? Obviously, it's, you know, the new company or the new Honeywell technology. So, any sort of re-priorities that you have as you move forward here toward the end of the year?",
+   "name": "Andrew Kaplowitz, Citigroup",
    "parts": [
     {
      "t0_ms": 2738650,
@@ -5801,6 +5892,7 @@
    "t1_ms": 2810650,
    "speaker": "Management",
    "text": "I mean, our highest priority is for us to get our leverage ratio three or below and continue to work it way down as we get into 27 and generate more cash. We want our leverage to further improve. I think from an M&A perspective, it's an optionality. As you know, our 2029, $12 commitment is all organic. So, we have no compulsion. We have no need to wake up and think about an M&A to do our meet our organic earnings commitment. Having said that, we're looking at options three ways. Highest priority being industrial automation. How we look at adding more content in measurement and sensing.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2766650,
@@ -5900,6 +5992,7 @@
    "t1_ms": 2842650,
    "speaker": "Management",
    "text": "That's the highest priority. Second area we're looking at it is higher growth verticals. How can we add more content to further top grade our portfolio? And finally, we never overlook some of the frontier technologies. You know, there are always tuck-ins which can change the profile of our businesses. And we look at these mid-sized and very small businesses in addition to that. But all said, I think near term you will see us staying very disciplined on our debt pay down. And we'll work our pipeline for M&A for 27 onwards.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2810650,
@@ -5975,6 +6068,7 @@
    "t1_ms": 2847930,
    "speaker": "Analyst",
    "text": "Appreciate all the color. Thank you.",
+   "name": "Andrew Kaplowitz, Citigroup",
    "parts": [
     {
      "t0_ms": 2842650,
@@ -5994,6 +6088,7 @@
    "t1_ms": 2855930,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Joe O'Day with Vertical Research Partners. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2847930,
@@ -6021,6 +6116,7 @@
    "t1_ms": 2881930,
    "speaker": "Analyst",
    "text": "Hi, good morning. Thanks for taking my question. Can you talk a little bit about the self-help opportunities moving forward? What you're most excited about heading into next year? Not sure if you've perhaps touched on this with Johnson Matthey and Catalyst Technologies, but just on the heels of the speed with which you did the stranded cost takeout, kind of thinking about other parts of the organization where you see the biggest self-help opportunities.",
+   "name": "Joe O'Dea, Vertical Research Partners",
    "parts": [
     {
      "t0_ms": 2855930,
@@ -6084,6 +6180,7 @@
    "t1_ms": 2925930,
    "speaker": "Management",
    "text": "I would say just quickly maybe two or three which stand out the most, and that's obviously a focus for us as a company. One is we're moving more into lighter headquarters and more of adoption of shared services across the company, which is obviously will help us continue to focus on productivity, which is value engineering, component engineering. That's more from a supply chain standpoint and how we think about NPI. That's a significant opportunity for us. And finally, we're obviously working through adoption of AI. All of our teams are already trained or being trained on AI. Everybody has access to the models we're using across the company,",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 2881930,
@@ -6183,6 +6280,7 @@
    "t1_ms": 2969930,
    "speaker": "Management",
    "text": "and that's really an opportunity for us in terms of managing OEF. And it's not as far as reduction OEF, but manage the OEF growth or staying flat on OEF while we obviously grow mid to high-sync, which is operation. Two points I'll add to what Mike said on the self-help side. First is on the Catalyst Technologies business, as we integrate the business, we are seeing higher cost synergies than we had forecasted, so that should certainly help us in our 2027 planning. We're also working on sales synergies, building pipeline, but that you can imagine that takes time to convert into a real revenue. So we do expect CT business to overdrive from cost-energy",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2925930,
@@ -6282,6 +6380,7 @@
    "t1_ms": 3009930,
    "speaker": "Management",
    "text": "standpoint. Final point I would say is cross-sell between different parts of Honeywell. I gave an example of Data Center just in my remarks couple of minutes before on how something which was centered around just one segment, we are doing it cross-segment. We are doing that in other verticals too. For example, in life sciences, how we cross-sell between building and process automation. Or in semiconductor, where we have a very strong position in gas detection, how we also accelerate our participation in fire detection, which comes from building automation. So that's also self-help. It's leveraging our sales channels to the fullest potential, and certainly we are maximizing our efforts on",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2969930,
@@ -6373,6 +6472,7 @@
    "t1_ms": 3039780,
    "speaker": "Analyst",
    "text": "that. And then on building automation and demand visibility, clearly strength is in the Data Center side of things, but maybe talking about in-markets, ex-Data Center, obviously the growth rates over the past couple of years are tougher comps, but what the product innovation pipeline looks like, what that means in terms of the growth visibility you have heading into next year in the non-Data Center parts of building automation?",
+   "name": "Joe O'Dea, Vertical Research Partners",
    "parts": [
     {
      "t0_ms": 3009930,
@@ -6440,6 +6540,7 @@
    "t1_ms": 3083780,
    "speaker": "Management",
    "text": "I think the building automation business is the content of higher growth verticals. And in high growth verticals we count three data centers, healthcare and hospitality is 20%. 80% of the business comes from core or base business and that's growing at mid-single digit. And that's on the strength of great customer service and new products. To your question on new products, we have several big launches coming up. Ahead, really right now, we have a new version of our security system launch which is cloud-based. That's going to play in the mid-segment. A lot of our new offerings are actually going into the mid-segment as a broader theme. A new version of our fire system going into a mid-segment. We're also",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3039780,
@@ -6539,6 +6640,7 @@
    "t1_ms": 3109780,
    "speaker": "Management",
    "text": "looking at similar offering in building management system. We are refreshing our EBI platform with the newer versions. Across the board, we have learned that as we continue to accelerate our vitality and innovate, we will perform at this level of mid-single digit plus. And the pipeline is very full and I'm extremely confident on performance of results by this business.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3083780,
@@ -6602,6 +6704,7 @@
    "t1_ms": 3114790,
    "speaker": "Analyst",
    "text": "Thank you.",
+   "name": "Joe O'Dea, Vertical Research Partners",
    "parts": [
     {
      "t0_ms": 3109780,
@@ -6617,6 +6720,7 @@
    "t1_ms": 3122070,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Joe Ritchie with Goldman Sachs. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3114790,
@@ -6640,6 +6744,7 @@
    "t1_ms": 3156070,
    "speaker": "Analyst",
    "text": "Thank you. Good morning, guys. Hey, Joe. Good morning. I'm going to focus both my questions on PA&T. So, I guess on the project side of the business with Brent now sitting above 110, typically that stimulates investments from your customers. I don't know if you can maybe just give us a little bit of background on like what your customer conversations are like today, whether the pipeline has like materially increased over the past year. I thought that slide number five was very helpful, but just any color you can give us on that would be great.",
+   "name": "Joe Ritchie, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 3122070,
@@ -6719,6 +6824,7 @@
    "t1_ms": 3200070,
    "speaker": "Management",
    "text": "So, we as we said in the chart, Joe, we see investment certainly in diversity of fuels and energy security. What I mean by that is Africa was not seen as a destination of investments by refining petrochemicals. So, if you recall during Investor Day, he was up there and talking about partnership with Honeywell. They're not only expanding their existing refinery by 100%, which is the largest refinery in the world, they are doubling it. They're also putting additional refinery in Kenya. These are all firm projects. If you look at their cash flow, it's basically billions of dollars in a quarter. So, these are high certainty projects.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3156070,
@@ -6818,6 +6924,7 @@
    "t1_ms": 3244070,
    "speaker": "Management",
    "text": "There are additional investments happening in Africa on petrochemical side too, so we can clearly see that as a trend. One thing which we highlighted is also low carbon energy projects are finally taking shape from a low base. We had two big wins on carbon capture related projects in quarter three, and we have some robust pipeline for quarter four ahead for us. So, there are some investments happening, and the driver for that is European Union continues to hold its mandate for SAF adoption, and to fulfill that demand is more capacity which is required. Finally, we do see capacity addition for petrochemicals. Our licensing activity and automation business in petrochemicals continues",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3200070,
@@ -6917,6 +7024,7 @@
    "t1_ms": 3264070,
    "speaker": "Management",
    "text": "to remain strong. So, when you add it all together, it's less linked to the oil price. It's more linked to the drivers which are more broader energy security, resiliency, low carbon fuels, or the broader demand of petrochemicals. And that's why we believe it's a multi-year cycle. It's less linked to the price. It's more linked to other drivers. That's why it gives us more",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3244070,
@@ -6968,6 +7076,7 @@
    "t1_ms": 3293770,
    "speaker": "Analyst",
    "text": "conviction. Yeah, super helpful, Vimal. And I guess maybe just to ask Andrew's question slightly differently from before. On the refining side of the business, are you seeing any deferral, just given where crack spreads are, refiners maybe running out harder a little bit, given profitability looks really, really good right now. So, are you seeing any of that business maybe pushing out into next year, or has that remained very healthy for you?",
+   "name": "Joe Ritchie, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 3264070,
@@ -7035,6 +7144,7 @@
    "t1_ms": 3337770,
    "speaker": "Management",
    "text": "I would say what we all read, deferrals are higher uptime by U.S. refineries is factually correct, which essentially means that some of the activity which requires a shutdown cannot be performed. You know, we look at our services business, aftermarket business in two buckets. A lot of it can be done online. So, a lot of our automation offerings do not require a plan to shut down. If you want to harden your control system for cybersecurity, or you want to migrate to the current version, it can be done online. So, those businesses get protected even though customers are running at a higher rate. But there are things which you need to replace, like a Sundyne pump has to be replaced, you need a shutdown. Or if you want to refurbish",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3293770,
@@ -7134,6 +7244,7 @@
    "t1_ms": 3377770,
    "speaker": "Management",
    "text": "a catalyst. So, to me, there's some demand moving right, but it's not a lost demand, it's moving, it's kind of pent up demand which will eventually show up. But when you look at the global view, the overall services and catalyst demand is very stable. As I mentioned before, we see the catalyst demand to be in high teens in quarter four. Next year, we see overall catalysts to be very stable. With single digit growth services, growth remains very stable. So, yeah, absolutely, this is a trend of high utilization and no shutdowns. But it doesn't change the overall dynamics of the business for us in the near term.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3337770,
@@ -7225,6 +7336,7 @@
    "t1_ms": 3382680,
    "speaker": "Analyst",
    "text": "Thank you, very helpful.",
+   "name": "Joe Ritchie, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 3377770,
@@ -7240,6 +7352,7 @@
    "t1_ms": 3394440,
    "speaker": "Operator",
    "text": "Thanks, Joe. Thank you. Our next question comes from the line of Varun Gurindaraj with Bernstein. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3382680,
@@ -7271,6 +7384,7 @@
    "t1_ms": 3420440,
    "speaker": "Analyst",
    "text": "Good morning, everyone. Thanks for the question. Sure, good morning. So, question on PAT. When you're looking at projects and their delivery times, have they been in line with historical norms? I think there's been a concern that we're short labor in North America and that might lead to some of this just getting stretched. Are you seeing any of that in your numbers or is that not really a concern right now?",
+   "name": "Varun Gurindaraj, Bernstein",
    "parts": [
     {
      "t0_ms": 3394440,
@@ -7334,6 +7448,7 @@
    "t1_ms": 3452440,
    "speaker": "Management",
    "text": "Not a concern because a large part of our backlog is actually not in North America. LNG backlog is in North America. Everything else is in the rest of the world. And in case of LNG, we build our own equipment in our own factory and we have enough capacity to fulfill all the backlogs, so we don't have any concern on that. On a broader basis, the construction labor or labor shortages is a trend, but that's not driving any impact on our revenue execution on a visible basis.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3420440,
@@ -7409,6 +7524,7 @@
    "t1_ms": 3472440,
    "speaker": "Analyst",
    "text": "Appreciate it. Thank you. And then just as a side note, so on industrial automation, big sequential jump from 18.4 to 22%, how much of that is coming from the spins of WWS and PSS and how much of that is more productivity? Feels at this point, everyone's very confident about the number, but just any color on that",
+   "name": "Varun Gurindaraj, Bernstein",
    "parts": [
     {
      "t0_ms": 3452440,
@@ -7460,6 +7576,7 @@
    "t1_ms": 3489690,
    "speaker": "Management",
    "text": "split? Yes, I would say that organically, if you will, the business is probably expanding 150 plus bps just by operation getting better. The rest of it is related to the TAW separation.",
+   "name": "Mike Stepniak, SVP and CFO",
    "parts": [
     {
      "t0_ms": 3472440,
@@ -7503,6 +7620,7 @@
    "t1_ms": 3497210,
    "speaker": "Analyst",
    "text": "Perfect. Thank you so much. Thank you. Thanks, Rui.",
+   "name": "Varun Gurindaraj, Bernstein",
    "parts": [
     {
      "t0_ms": 3489690,
@@ -7522,6 +7640,7 @@
    "t1_ms": 3505210,
    "speaker": "Operator",
    "text": "Thank you. Our final question this morning comes from the line of Dan DeCicco with BMO Capital Markets. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3497210,
@@ -7549,6 +7668,7 @@
    "t1_ms": 3523210,
    "speaker": "Analyst",
    "text": "Great. Thank you for me and Dan here. On the inflation topic, 4.5% price in half two, just what businesses are you having to push the hardest on price? And then is there anywhere in the portfolio where this might be proving to be a little bit more challenging? Thank you.",
+   "name": "Dan DeCicco, BMO Capital Markets",
    "parts": [
     {
      "t0_ms": 3505210,
@@ -7596,6 +7716,7 @@
    "t1_ms": 3567210,
    "speaker": "Management",
    "text": "I mean, the pricing is, I would say there's a large deviation within the segment. You know, pricing is a factor of inflation in a segment. And inflation drivers vary from semiconductor to electronic to metals like copper and brass. I would say that our overall pricing is a narrow range. It doesn't vary from business 1% and some businesses 10%. It's not in that wide range. You can have a range from 3.5% to 4.5%. It's a very narrow range for us. The pricing attainment doesn't require only the action of pricing, but it requires good customer service, good customer communication, a good pipeline of new product. And I think that comprehensive",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3523210,
@@ -7695,6 +7816,7 @@
    "t1_ms": 3573210,
    "speaker": "Management",
    "text": "360-degree view is what we have really adopted to attain the price and keep the price cost positive.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3567210,
@@ -7718,6 +7840,7 @@
    "t1_ms": 3580620,
    "speaker": "Analyst",
    "text": "Great. Thank you.",
+   "name": "Dan DeCicco, BMO Capital Markets",
    "parts": [
     {
      "t0_ms": 3573210,
@@ -7733,6 +7856,7 @@
    "t1_ms": 3586620,
    "speaker": "Operator",
    "text": "Thank you. Ladies and gentlemen, that concludes our question and answer session. I'll turn the floor back to Mr. Kapoor for final comments.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3580620,
@@ -7756,6 +7880,7 @@
    "t1_ms": 3630620,
    "speaker": "Management",
    "text": "Thank you. I would like to thank our share owners, our customers, and all Honeywell Technologies future shaper around the world for the strong third quarter results you delivered. Today marks another important milestone in our journey as a new Honeywell Technologies. Our first quarter, as a standalone pay-or-play automation company, demonstrated progress on all three elements for our investment case. Broad-based organic growth, strong margin expansion, and a higher free cash flow conversion. P&T is converting its backlog into organic growth. IA is driving meaningful turnaround, and BA continues to deliver. With nearly $19 billion in our backlog and a strong 2026 outlook, we enter the fourth quarter with strong momentum and increased confidence in our ability to deliver the commitments we",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3586620,
@@ -7855,6 +7980,7 @@
    "t1_ms": 3636620,
    "speaker": "Management",
    "text": "outlined at Investor Day. Thank you all for joining us today, and we hope you have a great rest of your day.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3630620,
@@ -9166,6 +9292,7 @@
    "quote": "And that's why we believe it's a multi-year cycle.",
    "adj_ret_5m": -0.00850659437620127,
    "speaker": "Management",
+   "name": null,
    "vol_mult": 10.095049504950495,
    "spillover": "company"
   }
@@ -9179,6 +9306,7 @@
    "t0_ms": 3258070,
    "speaker": "Management",
    "quote": "And that's why we believe it's a multi-year cycle.",
+   "name": null,
    "metric": "energy investment cycle duration",
    "kind": "qualitative",
    "novel": true,
@@ -9307,14 +9435,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 288.0,
   "gpu_usd": 0.102,
-  "claude_s": 13.0,
+  "claude_s": 22.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 3075,
-   "output_tokens": 1898,
-   "cache_read_input_tokens": 0,
-   "cache_creation_input_tokens": 39394
+   "input_tokens": 2,
+   "output_tokens": 2846,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 20929
   },
-  "claude_usd": 0.1236
+  "claude_usd": 0.0858
  },
  "context": {
   "ts": [

@@ -34,6 +34,7 @@ class Segment(BaseModel):
     t1_ms: int
     speaker: str
     text: str
+    name: str | None = None   # "Colette Kress, CFO" when speakers.py could name the voice, speaker stays the role
     parts: list[Part] = []
     ts: datetime | None = None  # filled by align()
     adj_ret_5m: float | None = None   # sector-adjusted return over the 5 minutes after ts, filled by run()
@@ -82,6 +83,7 @@ class Moment(BaseModel):
     t0_ms: int
     speaker: str
     quote: str
+    name: str | None = None
     metric: str
     kind: str
     novel: bool
@@ -157,6 +159,7 @@ class TopMoment(BaseModel):
     quote: str
     adj_ret_5m: float
     speaker: str
+    name: str | None = None
     vol_mult: float = 1.0
     spillover: Literal["sector", "company", "mixed"] | None = None
 

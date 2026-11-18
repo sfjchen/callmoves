@@ -36,6 +36,7 @@ from .models import (
 from .novelty import judge_novelty
 from .publish import publish
 from .score import rank_moments, with_placebo
+from .speakers import name_speakers
 from .transcript import align, load_call, qa_start_ms
 
 SPARK_POINTS = 60   # library sparkline resolution
@@ -97,6 +98,10 @@ def run(fixture: Path) -> CallOutput:
     t0 = time.time()
     ckey = hashlib.sha256((repr([(s.seg_id, s.text) for s in candidates]) + release + prior).encode()).hexdigest()[:16]
     claims, llm_used = _cached(fixture / "llm_claims.json", ckey, "claims", Claim, extract)
+    segments = name_speakers(fixture, segments, meta.company)
+    # naming can show a "management" turn was an analyst's follow-up, whose words are no company claim
+    analysts = {s.seg_id for s in segments if s.speaker == "Analyst"}
+    claims = [c for c in claims if c.seg_id not in analysts]
     if llm.USAGE:   # Claude ran this time (a cache hit costs nothing and keeps the recorded cost)
         stats |= {"claude_s": round(time.time() - t0), "claude_backend": llm.backend(),
                   "claude_tokens": dict(llm.USAGE),
@@ -143,7 +148,7 @@ def run(fixture: Path) -> CallOutput:
         n_moments=len(moments), n_flagged=sum(b.flagged for b in bars),
         spark=[c for i, c in enumerate(cum) if i % step == 0 or i == len(cum) - 1],
         top_moment=top and TopMoment(ts=top.ts, quote=top.quote, adj_ret_5m=top.adj_ret_5m, speaker=top.speaker,
-                                  vol_mult=top.vol_mult, spillover=top.spillover))
+                                  name=top.name, vol_mult=top.vol_mult, spillover=top.spillover))
     return CallOutput(call=meta, call_end=call_end, segments=segments, bars=bars, claims=claims, n_claims=len(claims),
                       summary=summary, moments=moments, llm_used=llm_used,
                       candidate_seg_ids=[s.seg_id for s in candidates],

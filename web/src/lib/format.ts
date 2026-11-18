@@ -29,10 +29,11 @@ export function mmss(ms: number): string {
 }
 
 /**
- * Returns a speaker label without its title, "Marcus Lee, CFO" -> "Marcus Lee".
+ * Returns the speaker's name without its title when the voice was named ("Marcus Lee, CFO" -> "Marcus Lee"), else
+ * the role.
  */
-export function shortSpeaker(speaker: string): string {
-  return speaker.split(",")[0];
+export function shortSpeaker(speaker: string, name?: string | null): string {
+  return (name || speaker).split(",")[0];
 }
 
 // Return direction for color. Moves under 0.10% are noise and stay grey, so green and red mean price direction only.

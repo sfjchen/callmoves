@@ -9,9 +9,10 @@ the same label and each counts, so the harness also lists the labels no moment r
     python -m callmoves.eval data/*/ --placebo
 
 The placebo needs no labels: it asks whether statements line up with price moves better than the same statements
-moved in time do. Each shift rotates every claim around the call by the same amount, wrapping past the end, so the
-shifted claims stay inside the call, in the same session and with the same bars. Shifting claims outside the call
-compared the call's volatility with quieter minutes instead (found 2026-11-10). Over several calls it adds a sign
+moved in time do. Each shift rotates claims inside their own section (prepared remarks or Q&A), wrapping past its
+end, so the shifted claims keep the same session, bars and claim density. Shifting claims outside the call compared
+the call's volatility with quieter minutes (found 2026-11-10), and rotating over the whole call compared the dense
+prepared remarks with Q&A (found 2026-11-17). `--null cross` lays other calls' claim timings on each call instead. Over several calls it adds a sign
 test: under no timing signal, the real score beats the median shift in half the calls. Calls on the same day and
 sector are not independent, so the pooled p-value is a rough guide, not a test of the shipped Claude path.
 
@@ -37,7 +38,7 @@ from pydantic import BaseModel
 from . import market
 from .claims import extract_claims_rules
 from .estimates import match_consensus
-from .models import CallOutput, Estimate, Moment, Stats
+from .models import CallOutput, Claim, Estimate, Moment, Segment, Stats
 from .novelty import judge_novelty_rules
 from .run import run
 from .score import (
@@ -51,7 +52,7 @@ from .score import (
 from .transcript import align, load_call, qa_start_ms
 
 TOLERANCE = timedelta(minutes=2)
-MIN_SHIFT_MIN = 15   # far enough that no shifted claim keeps its own move
+MIN_SHIFT_MIN = 10   # past the 5-minute window and the timing decay (exp(-10/3) = 0.04), so no claim keeps its move
 SHIFT_STEP_MIN = 5
 
 
@@ -80,28 +81,71 @@ def evaluate(moments: list[Moment], labels: list[Label], ks: tuple[int, ...] = (
     return Evaluation(hits=hits, precision=precision, missed=[l for i, l in enumerate(labels) if i not in hits])
 
 
-def placebo(call: Path, k: int = 3, benchmark: str = market.BENCHMARK) -> tuple[float, list[float]]:
-    """Ranks rule-based claims from every turn against the real bars, then again with every claim rotated around the
-    call by each shift from MIN_SHIFT_MIN to the call length minus MIN_SHIFT_MIN, and returns the real top-k score
-    sum and the shifted sums. Claims come from all turns, not the price-first candidates, so the real run gets no
-    head start, and the rule extractor keeps every run offline and identical. If statements carry no timing signal,
-    the real sum is just 1 draw among the shifted ones. `benchmark` picks what the stock's move is measured
-    against."""
+def placebo_inputs(call: Path, benchmark: str) -> tuple[list[Segment], pd.DataFrame, list[Claim]]:
+    """Loads 1 call's aligned segments, bars against `benchmark`, and rule-based claims from every turn. Claims come
+    from all turns, not the price-first candidates, so the real run gets no head start, and the rule extractor keeps
+    every run offline and identical."""
     meta, segments = load_call(call / "call.json")
     segments = align(meta, segments)
-    start, span = segments[0].ts, segments[-1].ts - segments[0].ts
-    shifts = range(MIN_SHIFT_MIN, int(span.total_seconds() // 60) - MIN_SHIFT_MIN + 1, SHIFT_STEP_MIN)
     bars, _, _ = market.load_call_bars(call, meta.ticker, meta.etf, meta.call_start, benchmark)
     release, prior = (call / "release.txt").read_text(), (call / "prior_transcript.txt").read_text()
-    claims = [judge_novelty_rules(c, release, prior) for c in extract_claims_rules(segments)]
+    return segments, bars, [judge_novelty_rules(c, release, prior) for c in extract_claims_rules(segments)]
 
-    def top_sum(cs) -> float:
-        """Returns the summed score of the top k moments ranked from claims cs."""
-        return sum(m.score for m in rank_moments(cs, segments, bars, top_n=k))
 
-    fake = [top_sum([c.model_copy(update={"ts": start + (c.ts - start + timedelta(minutes=s)) % span}) for c in claims])
-            for s in shifts]
-    return top_sum(claims), fake
+def top_sum(claims: list[Claim], segments: list[Segment], bars: pd.DataFrame, k: int = 3) -> float:
+    """Returns the summed score of the top k moments ranked from `claims`."""
+    return sum(m.score for m in rank_moments(claims, segments, bars, top_n=k))
+
+
+def placebo(segments: list[Segment], bars: pd.DataFrame, claims: list[Claim]) -> tuple[float, list[float]]:
+    """Returns the real top-3 score sum and the sums with claims rotated in time. Each section (prepared remarks,
+    Q&A) rotates inside its own span, by an amount mapped into [MIN_SHIFT_MIN, span - MIN_SHIFT_MIN], so shifted
+    claims keep the section's density and volatility: rotating over the whole call moved the dense prepared-remarks
+    claims into Q&A and back, which tested the call's shape instead of its statements (found 2026-11-17, real beat
+    whole-call rotation in 30/47 calls but other calls' timings in only 24/47). A section shorter than 2 x
+    MIN_SHIFT_MIN stays in place, which only makes the test harder to pass. If statements carry no timing signal,
+    the real sum is just 1 draw among the shifted ones. An empty list means no section is long enough."""
+    qa_ms = qa_start_ms(segments)
+    qa_ts = next((s.ts for s in segments if s.t0_ms >= qa_ms), None) if qa_ms is not None else None
+    bounds = [(segments[0].ts, qa_ts or segments[-1].ts), (qa_ts, segments[-1].ts)] if qa_ts else \
+        [(segments[0].ts, segments[-1].ts)]
+    spans = [int((b - a).total_seconds() // 60) for a, b in bounds]
+    if max(spans) < 2 * MIN_SHIFT_MIN:
+        return top_sum(claims, segments, bars), []
+
+    def rotated(c: Claim, s: int) -> Claim:
+        """Returns c moved s minutes, mapped into its own section's valid shifts and wrapped inside it."""
+        i = 1 if qa_ts and c.ts >= qa_ts else 0
+        (a, b), span = bounds[i], spans[i]
+        if span < 2 * MIN_SHIFT_MIN:
+            return c
+        eff = MIN_SHIFT_MIN + (s - MIN_SHIFT_MIN) % (span - 2 * MIN_SHIFT_MIN + 1)
+        return c.model_copy(update={"ts": a + (c.ts - a + timedelta(minutes=eff)) % (b - a)})
+
+    shifts = range(MIN_SHIFT_MIN, max(spans) - MIN_SHIFT_MIN + 1, SHIFT_STEP_MIN)
+    return top_sum(claims, segments, bars), [top_sum([rotated(c, s) for c in claims], segments, bars) for s in shifts]
+
+
+def cross_null(loaded: dict[str, tuple]) -> dict[str, tuple[float, list[float]]]:
+    """For each call, the real top-3 sum and the sums with its own claims retimed to every other call's timing
+    profile: the j-th of n claims in time order moves to the same quantile of the other call's claim offsets from its
+    first segment. Claims, count and the call's bars stay, so only the link between a statement and its minute
+    breaks. Laying the other call's own claims on the bars (tried first, 24/47) also swapped in a different claim
+    count, which moves the top-3 sum by itself."""
+    out = {}
+    for name, (segs, bars, claims) in loaded.items():
+        start, span, n = segs[0].ts, segs[-1].ts - segs[0].ts, len(claims)
+        mine = sorted(claims, key=lambda c: c.ts)
+        fake = []
+        for other, (osegs, _, oclaims) in loaded.items():
+            offs = sorted(c.ts - osegs[0].ts for c in oclaims)
+            if other == name or not offs or n == 0:
+                continue
+            moved = [c.model_copy(update={"ts": start + min(span, offs[round(j * (len(offs) - 1) / max(1, n - 1))])})
+                     for j, c in enumerate(mine)]
+            fake.append(top_sum(moved, segs, bars))
+        out[name] = top_sum(claims, segs, bars), fake
+    return out
 
 
 PRED_FEATURES = ("guidance", "result", "novel", "cons_gap", "qa", "pre_vol", "pre_move", "peer_pre", "log_min")
@@ -192,6 +236,8 @@ def main(argv=None):
     ap.add_argument("--placebo", action="store_true", help="compare against claims shifted in time, no labels")
     ap.add_argument("--benchmark", choices=market.BENCHMARKS, default=market.BENCHMARK,
                     help="placebo: measure moves against the sector ETF or a market model fitted before the call")
+    ap.add_argument("--null", choices=("rotate", "cross"), default="rotate",
+                    help="placebo: rotate claims inside each section, or lay other calls' claim timings on the bars")
     ap.add_argument("--predict", action="store_true",
                     help="leave-one-call-out check of a next-5-minute move model from claim features")
     ap.add_argument("--stats", action="store_true", help="cost and processing time per call from stats.json")
@@ -213,17 +259,20 @@ def main(argv=None):
         predict(args.calls, args.benchmark)
         return
     if args.placebo:
-        wins = 0
-        for call in args.calls:
-            real, fake = placebo(call, benchmark=args.benchmark)
+        loaded = {c.name: placebo_inputs(c, args.benchmark) for c in args.calls}
+        res = cross_null(loaded) if args.null == "cross" else {k: placebo(*v) for k, v in loaded.items()}
+        wins = n = 0
+        for name, (real, fake) in res.items():
+            if not fake:
+                print(f"{name}: skipped, no section is {2 * MIN_SHIFT_MIN} minutes long")
+                continue
             p, med = (1 + sum(f >= real for f in fake)) / (1 + len(fake)), sorted(fake)[len(fake) // 2]
-            wins += real > med
-            print(f"{call.name}: top-3 score real {real:.4f}, shifted median {med:.4f}, "
-                  f"beaten by {sum(f >= real for f in fake)}/{len(fake)} shifts, p = {p:.2f}")
-        n = len(args.calls)
+            wins, n = wins + (real > med), n + 1
+            print(f"{name}: top-3 score real {real:.4f}, {args.null} median {med:.4f}, "
+                  f"beaten by {sum(f >= real for f in fake)}/{len(fake)}, p = {p:.2f}")
         if n > 1:
             sign_p = sum(math.comb(n, i) for i in range(wins, n + 1)) / 2 ** n
-            print(f"real beats the shifted median in {wins}/{n} calls, 1-sided sign test p = {sign_p:.3f}")
+            print(f"real beats the {args.null} median in {wins}/{n} calls, 1-sided sign test p = {sign_p:.3f}")
         return
     if not args.labels:
         ap.error("--labels or --placebo is required")

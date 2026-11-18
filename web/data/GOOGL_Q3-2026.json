@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-28T16:30:00-04:00",
   "etf": "XLC",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/GOOGL_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/GOOGL_Q3-2026.mp3",
   "company": "Alphabet",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 30320,
    "speaker": "Operator",
    "text": "Welcome, everyone. Thank you for standing by for the Alphabet Third Quarter 2026 Earnings Conference Call. At this time, all participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during the session, you will need to press star 1 on your telephone. I would now like to hand the conference over to your speaker today, Jim Friedland, Head of Investor Relations. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -59,6 +60,7 @@
    "t1_ms": 72380,
    "speaker": "Management",
    "text": "Thank you. Good afternoon, everyone, and welcome to Alphabet's Third Quarter 2026 Earnings Conference Call. With us today are Sundar Pichai, Philip Schindler, Thomas Kurian, and Anant Ashkenazi. Now I'll quickly cover the safe harbor. Some of the statements that we make today regarding our business operations and financial performance may be considered forward-looking. Such statements are based on current expectations and assumptions that are subject to a number of risks and uncertainties. Actual results could differ materially. Please refer to our forms 10-K and 10-Q, including the risk factors. We undertake no obligation to update any forward-looking statement. During this call, we will present both GAAP and non-GAAP financial measures.",
+   "name": "Jim Friedland, Head of Investor Relations",
    "parts": [
     {
      "t0_ms": 31620,
@@ -106,6 +108,7 @@
    "t1_ms": 116860,
    "speaker": "Management",
    "text": "A reconciliation of non-GAAP to GAAP measures is included in today's earnings press release, which is distributed and available to the public through our investor relations website located at abc.xyz forward slash investor. Our comments will be on year-over-year comparisons unless we state otherwise. And now I'll turn the call over to Sundar. Thanks, Jim. And hello, everyone. Q3 was a strong quarter for Alphabet. Our deep full-stack approach is driving momentum across the business with many opportunities ahead. Let me give you a quick snapshot of the quarter. Alphabet revenues grew 25% year-over-year. We are now at a half a trillion dollar annual run rate. That's remarkable growth.",
+   "name": "Jim Friedland, Head of Investor Relations",
    "parts": [
     {
      "t0_ms": 72740,
@@ -157,6 +160,7 @@
    "t1_ms": 160260,
    "speaker": "Management",
    "text": "Search is strong momentum. Our AI investments are driving increased usage and overall query growth, including commercial queries. In fact, our year-over-year query growth rate is the highest it's been in the last five years. Google Cloud revenues grew 103%. Our AI infrastructure and solutions are the major drivers for cloud growth, and our customers see us as the leading provider here, so there's huge demand. We are working hard to bring more capacity online to meet this long-term demand. At the same time, we are seeing strong demand for our TPU systems across a wide range of customers, and we expect that to continue as we scale.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 117660,
@@ -196,6 +200,7 @@
    "t1_ms": 201300,
    "speaker": "Management",
    "text": "I'm excited to welcome Thomas to the call, and he'll share more about cloud's momentum. On our AI models, customers are using our models more than ever. Our first-party model APIs are now processing nearly 32 billion tokens per minute, 40% more than last quarter, and more than four times what we processed a year ago. And with Gemini 4 Argonne and now Carbon, which we announced today, we are excited to be leading at the frontier. The Gemini app is now at one billion users and is the fastest growing product in Google's history. Lastly, we have surpassed 150 million YouTube music and premium subscribers globally, including Trials.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 161380,
@@ -231,6 +236,7 @@
    "t1_ms": 234840,
    "speaker": "Management",
    "text": "Today, I'll talk more about our AI progress, our global consumer platforms led by Search and YouTube, then our long-term bets. Starting with AI, highlighted by our Gemini 4 series of frontier models, we are seeing strong demand and usage for Argonne, which we launched two weeks ago. In fact, on our developer platforms, usage in the first week ramped up three and a half times faster than Gemini 3, even with capacity constraints. Argonne is proving to do really well in areas like finance, legal, cybersecurity, and science.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 202460,
@@ -258,6 +264,7 @@
    "t1_ms": 272100,
    "speaker": "Management",
    "text": "Developers and cloud customers are already using it for things like untangling legacy code bases, accelerating scientific research, robotics, discovering product improvements, and domain-specific cloud-based solutions. And at Google, just in the last few weeks, teams across Chrome, Ads, and Search have used Argonne to write and optimize code much faster, shipping 35% more code with 30% fewer errors. Argonne is just the start of the Gemini 4 series. Today, we announced Carbon. It's our strongest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 235640,
@@ -285,6 +292,7 @@
    "t1_ms": 310980,
    "speaker": "Management",
    "text": "It ranks number one on the recently updated Artificial Analysis Intelligence Index at 59. Carbon outperforms Argonne across almost every domain like full-stack web development, multimodal understanding, complex knowledge work, and scientific reasoning. We are rolling Carbon out first to a subset of trusted cyber defenders before we expand access, and it's being tested by our new technology, Argonne. Beyond our Gemini 4 series, yesterday we announced Genie 4, our most advanced world model yet that simulates safe, realistic, interactive worlds with native audio in real time.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 272100,
@@ -308,6 +316,7 @@
    "t1_ms": 352660,
    "speaker": "Management",
    "text": "It is an important building block for training robots and agents. This rapid progress underscores our incredible model momentum. We are at the point where AI is helping us increase our training and launch velocity. I would expect the next 12 months to see continued acceleration because of RSI. We have more models coming soon, including more efficient versions to help developers optimize for speed and cost and to deploy across our billions of users. Let's turn to Search, which is bringing the benefits of AI to more people than any other product in the world. Just like our shift to mobile over a decade ago, we are focused on building the best search user experience followed by monetization.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 311980,
@@ -343,6 +352,7 @@
    "t1_ms": 388720,
    "speaker": "Management",
    "text": "We are building one seamless experience across AI overviews, AI mode, and traditional search. And people are using our AI features more, searching in entirely new ways. Their queries are longer, personalized, and multimodal. Queries in AI are more complex and more efficient than other products. Queries in AI mode are on average three times longer than traditional searches. And one in five AI mode searches globally use voice, images, or documents. We have now crossed over 50 billion visual searches per month.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 353660,
@@ -382,6 +392,7 @@
    "t1_ms": 430840,
    "speaker": "Management",
    "text": "One area I am excited about is helping people get things done, be it booking reservations, filling in forms, scheduling appointments, or making purchases. As AI becomes more personal and starts taking action for people and businesses, trust and security matter more than ever. People already put their trust in Google to get things done in their daily lives, and our leadership here remains an important differentiator. We focus first on getting these agentic experiences right with the Gemini agent for enterprise, because the bar for security, safety, and governance is extremely high. As the next step, we are bringing these features to search, and also, of course, to our billion users on the Gemini app.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 389720,
@@ -413,6 +424,7 @@
    "t1_ms": 474960,
    "speaker": "Management",
    "text": "People are already using the Gemini app to do more than ask questions. They are using it to do things, including complex multi-step agentic queries. Our Gemini 4 series has been a really big step forward here, and has already been handling these complex tasks really well. Agents will operate as a unifying layer across our products, so you will see us extend these agentic experiences beyond search in the Gemini app to Chrome, Android, and our workspace products as well. On to YouTube, which continues to lead in the living room as the number one streaming platform in the U.S. in terms of watch time. It's also seeing good subscriber growth, as I mentioned. At Made on YouTube last month, we announced more than 30 products and features for creators and viewers.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 431840,
@@ -452,6 +464,7 @@
    "t1_ms": 518020,
    "speaker": "Management",
    "text": "One great example is custom feeds, where you can simply pick a topic you love and get a tailored video home feed based on that topic. Philip will say more on YouTube. On to our long-term bets. Waymo is on a great trajectory. We have now driven more than 300 million fully autonomous miles. Waymo now operates in 15 major U.S. cities and just recently opened up service to the public in San Antonio, San Diego, and Tampa with planned expansions into Canada, Germany, Singapore, and Spain. We are also seeing strong progress across our other long-term initiatives. Isomorphic is using Oregon to support drug design research.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 475960,
@@ -495,6 +508,7 @@
    "t1_ms": 558080,
    "speaker": "Management",
    "text": "We demonstrated magic state cultivation for the first time in quantum computing and launched our TPUs into space with Project Suncatcher. So it's been a busy quarter and there's much more to come. I want to thank our employees for their work this quarter. And over to you, Philip. Thanks, Sondar. And hello, everyone. I'll highlight our momentum across Search, YouTube, and partnerships. We continue to accelerate the deployment of Gemini models across our market. We are also expanding our entire ads infrastructure to boost performance in the three areas I've highlighted before. Ads quality, advertiser tools, and AI user experiences. First, ads quality.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 518080,
@@ -550,6 +564,7 @@
    "t1_ms": 602080,
    "speaker": "Management",
    "text": "The integration of Gemini models into our ads infrastructure is improving how we decode user intent and drive ads relevance. For example, in Q3, we made the biggest update to product listing ads in a decade, adding new AI capabilities to help users make more confident purchase decisions. Already, we've seen satisfaction increase by 19% and dissatisfaction drop more than half. We're also seeing AI models enable better prediction of clicks and conversions, stronger overall performance, and deeper personalization of ads. For instance, through several innovations and personalization modeling, we delivered 18% incremental advertiser value and an 8% increase in user sentiment on Discover ads in 2026.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 559080,
@@ -593,6 +608,7 @@
    "t1_ms": 638080,
    "speaker": "Management",
    "text": "Overall, AI is accelerating our ads development and drives the majority of our product launches. Second, advertiser tools. We're ensuring every advertiser, from global brands to small businesses, can seamlessly participate in our AI surfaces. AI Max and Performance Max continue to see strong adoption. To give marketers even more control, we're now introducing a way to test different budgets and ROI targets across multiple Search campaigns in a single AI Max A-B test. To drive better performance, we integrated our AI creative tools directly into AI Max.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 602080,
@@ -632,6 +648,7 @@
    "t1_ms": 678080,
    "speaker": "Management",
    "text": "In Q3 alone, Gemini models helped advertisers generate over 1.5 billion campaign assets, up over 7x year over year. For example, by using AI Max to capture long-form and multilingual queries, Telstra saw a 52% increase in conversions and a 36% reduction in cost per order showing up in key moments however the customers search. Third, AI user experiences. Sundar mentioned the distinct behavioral changes we're seeing as users ask entirely new categories of questions. We think of Search holistically, a unified product spanning traditional results and AI-powered search.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 639080,
@@ -667,6 +684,7 @@
    "t1_ms": 717080,
    "speaker": "Management",
    "text": "On AI mode, many of these queries are upper funnel queries, allowing us to capture new high-value commercial intent. In addition, the majority of AI mode queries are incremental, creating more monetization opportunities over time. Additionally, our user research shows that people are comfortable with ads on these surfaces and find them highly relevant. Click-through rates are already similar between sponsored and organic product list items within AI mode. Based on these collective results, we're now scaling high-quality ads within AI overviews in AI mode to more users and queries. This includes taking our monetization footprint global for the first time.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 678080,
@@ -702,6 +720,7 @@
    "t1_ms": 755080,
    "speaker": "Management",
    "text": "Today, we're announcing the expansion of ads in AI mode into international markets alongside multi-turn ads in AI mode in the US. As always, our approach is deliberate, prioritizing the user experience and engagement first, and then scaling the formats that drive proven ROI for advertisers. That discipline is what gives us a strong, durable foundation for the future. As Sundar mentioned, we're in the early stages of agentic experiences across our services and excited about the commercial opportunities ahead. The universal commerce protocol, UCP, is being rapidly adopted by retailers.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 718080,
@@ -737,6 +756,7 @@
    "t1_ms": 795080,
    "speaker": "Management",
    "text": "Today, UCP enables direct checkout for hundreds of thousands of brands across Google, including Chewy, Nike, Tapestry, and many more. We're combining this with the agent payments protocol as we build for the future of commerce. Our focus spans two fronts, unlocking agentic capabilities that act on behalf of the consumer and designing practical tools that give shoppers confidence and control. We launched Universal Cart this quarter to support that second track, mirroring how people actually shop today across Google. This allows retailers to maintain their relationships with customers while helping to capture sales and avoid abandoned carts.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 756080,
@@ -768,6 +788,7 @@
    "t1_ms": 839080,
    "speaker": "Management",
    "text": "Moving to YouTube. We view YouTube as a flywheel of creators, viewers, and advertisers. First, creators. Every day, more than 20 million videos are being uploaded. We're making creation easier with new generative AI tools in YouTube Studio, plus a conversational editing assistant in shorts and YouTube Create. Looking at viewership. At Made on YouTube, we introduce short series where creators can structure their shorts into seasons and episodes. Sequential playback makes it seamless for viewers to discover new shorts and keep watching. The third part is monetization, starting with ads. Our focus remains on delivering value across the entire funnel.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 796080,
@@ -807,6 +828,7 @@
    "t1_ms": 884080,
    "speaker": "Management",
    "text": "In Q3, Living Room accounted for over one third of total YouTube ads revenues. Small and medium advertisers continue to adopt demand gen driving direct response. On YouTube, Wayfair's demand gen campaigns drove a 2.3 times higher return on ad spend compared with traditional video reach campaigns. Our YouTube Creator Partnerships program connects brands with over 3 million creators to drive highly effective campaigns. Brands like Lexus continue to partner with creators like Colin and Samir, driving the 11% lift in brand consideration. More than 1.3 million channels are enrolled in YouTube shopping globally. Building on this momentum, we recently announced that Amazon is joining YouTube shopping.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 840080,
@@ -846,6 +868,7 @@
    "t1_ms": 923080,
    "speaker": "Management",
    "text": "With YouTube shopping, US creators can now tag Amazon products directly in their videos, shorts and live streams, driving direct conversions. Importantly, our subscription ecosystem continues to complement our advertising business. Subscriptions continue to grow faster than ads, led by YouTube Music Premium. YouTube Premium has more than 150 million subscribers. With Premium and Premium Lite, viewers have choice. As more people opt into premium experiences, it's a win for viewers, creators and our business. Subscriptions help fund the creator ecosystem and drive the platform forward. Finally, strategic partnerships.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 884080,
@@ -889,6 +912,7 @@
    "t1_ms": 968080,
    "speaker": "Management",
    "text": "Businesses are choosing Google because we bring together cloud, AI, ads and consumer platforms to accelerate their transformation. We expanded our partnership with American Express to support the ongoing modernization of their contact centers and collaborate on agentic commerce across search and wallet. And Unity signed an expanded multi-year cloud deal to use our full AI stack to power the next generation game engine. Our commercial priorities are clear. Expanding advertiser ROI, systematically advancing our AI monetization efficiency and scaling our ecosystem partnerships to support the next era of discovery. In closing, I want to thank Googlers everywhere for their incredible execution and our customers and partners for their continued trust. Thomas, over to you.",
+   "name": "Philip Schindler, Chief Business Officer",
    "parts": [
     {
      "t0_ms": 924080,
@@ -924,6 +948,7 @@
    "t1_ms": 1014080,
    "speaker": "Management",
    "text": "Our strong momentum is driven by our integrated AI portfolio of chips, models, data, security and agent platforms. All designed to work together. We have strong diversification across our product lines, industries and customers. Google Cloud now has 18 product lines with more than $1 billion each in annual revenue. And our growth this quarter was driven by strong growth in Google Cloud Platform with strength in both AI and core GCP. TPU system sales were also a meaningful contributor.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 970080,
@@ -959,6 +984,7 @@
    "t1_ms": 1053080,
    "speaker": "Management",
    "text": "Over the past 12 months, more than 2,600 customers have used at least 100 billion tokens and nearly 75, at least 10 trillion tokens on Gemini Enterprise. Nearly 90% of the Fortune 100 use Gemini Enterprise and customers who use Gemini Enterprise in Q3 2025 more than quadruple their spend with us year over year. One of the important ways in which customers are using Gemini is for knowledge work.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1015080,
@@ -982,6 +1008,7 @@
    "t1_ms": 1092080,
    "speaker": "Management",
    "text": "Across all our AI services, we have sold more than 100 million seats for knowledge work. Gemini Enterprise now includes the Gemini agent that is deeply integrated across our entire cloud portfolio. It can research and answer questions, write and run code and automate process flows with one agent, one API and a single prompt window. It gives companies strong security and cost controls and the widest choice of frontier models.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1053080,
@@ -1009,6 +1036,7 @@
    "t1_ms": 1137080,
    "speaker": "Management",
    "text": "Customers include BNP Paribas who is deploying Gemini Enterprise to more than 65,000 employees to streamline workflows while maintaining strict enterprise grade security and data governance. Tata Steel who deployed more than 300 specialized AI agents in just nine months to enhance manufacturing safety, optimize supply chains and cut service times for customers by 50%. Alta Beauty who built the Alta AI shopping assistant resulting in a 3x higher conversion rate than traditional browsing on their site.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1092080,
@@ -1032,6 +1060,7 @@
    "t1_ms": 1175080,
    "speaker": "Management",
    "text": "Gemini is also driving acceleration for our database, analytics and cybersecurity products. Gemini can now help users find, analyze and visualize information from structured and unstructured data. Gemini uses our knowledge catalog to find the right sources and definitions of information, improving accuracy, lowering token cost and making responses more reliable. Gemini uses our lake house to access information from multiple systems with zero copy.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1138080,
@@ -1059,6 +1088,7 @@
    "t1_ms": 1218080,
    "speaker": "Management",
    "text": "To respond to agentic analysis, BigQuery improved query speed over 40% year over year while reducing query processing cost by over 50% year over year. Customers include Deutsche Telekom which uses BigQuery cloud storage and knowledge catalog to build a unified data lake house across 40 plus legacy on-premise systems. Etsy which migrated three petabytes of data to unified lake house. By using BigQuery and Iceberg, they now perform critical data joins up to 60% faster.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1176080,
@@ -1086,6 +1116,7 @@
    "t1_ms": 1260080,
    "speaker": "Management",
    "text": "The growing risk of cybersecurity threats is also driving strong demand for our AI powered security platform. Our Gemini Flash cyber models are frontier models that automate vulnerability discovery across 20 programming languages and patch 2.6 times more reliably than other models. And there's even better performance to come as we roll out Argonne and Carbon. Our security platform integrates threat intelligence, cyber response prioritization, automated scanning, code remediation and monitoring.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1218080,
@@ -1113,6 +1144,7 @@
    "t1_ms": 1296080,
    "speaker": "Management",
    "text": "Gemini and Google threat intelligence autonomously analyzes millions of external events every day with 98% accuracy. And more than 95% of WIS customers are adopting AI powered features and growth continues. These security tools protect critical infrastructure, including financial institutions like Banorte and Google Cloud. And even more critical solutions like Banorte and Jack Henry and telecommunication providers such as AT&T.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1260080,
@@ -1140,6 +1172,7 @@
    "t1_ms": 1329080,
    "speaker": "Management",
    "text": "All of this is powered by our leading AI infrastructure spanning our TPU systems, Axion CPUs, the latest Nvidia GPUs and our agent compute engine, which is specifically designed for AI agents. Our TPU systems are specialized systems built for AI, combining hardware, compute storage and networking with systems components and optimized software for training and inference.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1297080,
@@ -1159,6 +1192,7 @@
    "t1_ms": 1366080,
    "speaker": "Management",
    "text": "TPU 8T and 8I offer up to 2.7 times better training performance and 80% better inference price performance respectively versus our previous generation of TPUs. To make it easy for developers to port workloads to TPUs, we recently worked closely with Meta to deliver Torch TPU, which allows users to train, serve and deploy PyTorch models on TPUs using the tools they're already familiar with and rely on.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1329080,
@@ -1178,6 +1212,7 @@
    "t1_ms": 1391080,
    "speaker": "Management",
    "text": "Nearly 100 customers use TPUs today, and we're seeing strong and growing demand from many others. In addition to our work with Anthropic, both directly and via Broadcom and public reference customers like Apple, who are scaling pre-training of their foundation models on the latest generation of TPUs.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1366080,
@@ -1197,6 +1232,7 @@
    "t1_ms": 1431080,
    "speaker": "Management",
    "text": "We're also working with new frontier model companies, including Mirandil and physical intelligence, capital markets firms, including Citadel Securities and Jump Trading, universities like Caltech and public sector service providers, including Casava and Serascale. Given continued strong and accelerating demand, we've recently entered into partnerships to deliver TPU systems with both Crux AI and Oracle with more in the works. Over to you, Anat.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 1392080,
@@ -1216,6 +1252,7 @@
    "t1_ms": 1466080,
    "speaker": "Management",
    "text": "Thank you, Thomas. My comments will focus on year-over-year comparisons for the third quarter unless I state otherwise. I will start with the results at the alphabet level and will then cover our segment results. I'll end with some commentary on our outlook for the fourth quarter and full year 2026. We had a strong third quarter, delivering our 13th consecutive quarter of double-digit revenue growth. Consolidated revenues were $127.6 billion, up 25% in both reported and constant currency.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1432080,
@@ -1239,6 +1276,7 @@
    "t1_ms": 1509080,
    "speaker": "Management",
    "text": "Total cost of revenue was $51.4 billion, up 24%. TAC was $16.4 billion, up 10%. Other cost of revenues was $35.1 billion, up 32%, driven by hardware costs primarily related to the sales of TPU systems, increase in depreciation, content acquisition costs, and technical infrastructure operations costs. Total operating expenses were up 20% to $35.6 billion. R&D expenses increased by 36%, driven by compensation primarily for investment in AI talent as well as depreciation.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1466080,
@@ -1258,6 +1296,7 @@
    "t1_ms": 1554080,
    "speaker": "Management",
    "text": "Sales and marketing expenses were up 22% due to investments in Gemini and compensation. And GMA expenses decreased 17%, primarily due to lapping of higher legal expenses that occurred in Q3 last year, partially offset by current year legal charges. Operating income increased 30% to $40.6 billion, and operating margin was 31.8%. Other income and expenses was negative $8.2 billion, due primarily to unrealized loss from our investment in SpaceX from a decline in its stock price in the third quarter. Net income and earnings per share decreased due to the decline in OINE.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1510080,
@@ -1281,6 +1320,7 @@
    "t1_ms": 1591080,
    "speaker": "Management",
    "text": "We generated strong operating cash flow of $42.3 billion in the third quarter and $179.6 billion for the trial in 12 months. Operating cash flow was negatively impacted by the buildup of inventory for TPU system sales as well as a $5.2 billion cash payment for a 2018 EC fine following the conclusion of the appeal process. CapEx was $51.4 billion in the third quarter, with the vast majority of the spend in technical infrastructure to support our investments in AI.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1555080,
@@ -1300,6 +1340,7 @@
    "t1_ms": 1632080,
    "speaker": "Management",
    "text": "Approximately 65% of our investments in technical infrastructure in Q3 was related to servers and networking equipment, which generally have useful lives of 6 years. The remaining 35% was for data centers, which have useful lives of 7 to 40 years. We had negative free cash flow of $9.1 billion in the third quarter, driven by our investments in CapEx. Free cash flow in the third quarter was also affected by the aforementioned inventory build to support TPU system sales and payment of the EC fine. Free cash flow was $19.7 billion for the trial in 12 months.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1592080,
@@ -1327,6 +1368,7 @@
    "t1_ms": 1669080,
    "speaker": "Management",
    "text": "We ended the quarter with $265.1 billion in cash and marketable securities, which includes $90.4 billion of marketable equity securities. Long-term debt was $125.1 billion. We have also entered into multi-year agreements to secure capacity for technical infrastructure and inventory as well as leases and energy. At the end of the third quarter, we had future purchase commitments of $924 billion and pre-commencement leases and other obligations of $152 billion.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1633080,
@@ -1350,6 +1392,7 @@
    "t1_ms": 1706080,
    "speaker": "Management",
    "text": "These dollar amounts reflect the maximum contractual obligations. However, a number of these agreements have variable pricing and volume flexibility, which could result in lower spend. And as mentioned in our press release, our board of directors declared a quarterly cash dividend on our common stock of $0.22 per share, which is payable in December. Turning to segment results, Google services revenues increased 11% to $96.3 billion, reflecting strong growth in search and subscriptions. Total advertising revenues were up 11%, with growth across all major verticals.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1669080,
@@ -1377,6 +1420,7 @@
    "t1_ms": 1743080,
    "speaker": "Management",
    "text": "As we stated in our outlook last quarter, FX was a slight headwind on year-over-year growth rates and had a more significant impact on a sequential basis. Google search and other advertising revenues increased by 12% to $63.3 billion, with retail driving the largest contribution, followed by finance. YouTube advertising revenues increased 9% to $11.2 billion, with brand driving the largest contribution and notable strength in living room. Network advertising revenues of $7.5 billion were up 1%.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1707080,
@@ -1404,6 +1448,7 @@
    "t1_ms": 1789080,
    "speaker": "Management",
    "text": "Subscription platforms and devices revenues increased 11% this quarter to $14.3 billion, driven by strong growth in YouTube subscriptions, particularly in YouTube Music and Premium, and strong demand for AI plans in Google One. Google services operating income increased 17% to $39.2 billion, and operating margin was 40.7%. The Google Cloud segment delivered record growth in the third quarter. Cloud revenues were up 103% to $30.7 billion, driven by strong growth in GCP, with strength in AI, including both AI infrastructure and AI solutions, and core GCP.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1744080,
@@ -1431,6 +1476,7 @@
    "t1_ms": 1830080,
    "speaker": "Management",
    "text": "TPU system sales were also a meaningful contributor. GCP accounted for the vast majority of the revenue generated in Q3. The cloud revenue growth rate, excluding the impact of TPU systems, was again incredibly strong. Cloud operating income was $11.1 billion, more than tripling year over year. Operating margin increased from 23.7% in the third quarter last year to 36.2%. The third-party bridging capacity, which we discussed on our prior call, came online only at the very end of Q3, and therefore had limited negative impact to our margin in the quarter.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1790080,
@@ -1466,6 +1512,7 @@
    "t1_ms": 1872080,
    "speaker": "Management",
    "text": "Google Cloud's backlog was $561 billion in the third quarter, with the majority of the backlog related to typical GCP contracts. We expect to recognize just over 55% of the total backlog as revenues over the next 24 months. In other bets, revenues were $372 million, and the operating loss was $2 billion as we continue to expand Waymo's business and invest in key other bets. In alphabet-level activities, the operating loss was $7.7 billion, driven by shared AI R&D expenses. I'll now turn to our outlook for the remainder of 2026.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1831080,
@@ -1497,6 +1544,7 @@
    "t1_ms": 1916080,
    "speaker": "Management",
    "text": "First, in terms of revenues, at current spot rates, we would expect a slightly larger FX headwinds to our consolidated revenues in Q4 relative to the prior quarter. This impact will be seen primarily in search and YouTube ads. In Google services, we will continue to lap the search performance acceleration that began in the third quarter last year, which will pressure revenue growth in Q4. In Google Cloud, we expect TPU system sales to continue to scale in Q4, followed by a meaningful revenue ramp in 2027. With respect to cloud margins, given the supply constraint environment, we started utilizing third-party compute capacity at the end of Q3, and will ramp usage in Q4.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1872080,
@@ -1528,6 +1576,7 @@
    "t1_ms": 1959080,
    "speaker": "Management",
    "text": "We expect margin headwinds in the near term as we utilize this capacity. Moving to investments, our full-year 2026 capex guidance range of $195 to $205 billion remain unchanged. We continue to expect our capex to increase significantly in 2027, and will provide further details on our Q4 call. In terms of expenses, the significant increase in our investment in technical infrastructure will continue to weigh on the P&L in the form of higher depreciation expenses and related data centers' operation costs such as energy. Before we move to Q&A, let me say a few words on how we think about return on invested capital and free cash flow.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1917080,
@@ -1559,6 +1608,7 @@
    "t1_ms": 2004080,
    "speaker": "Management",
    "text": "We are in a unique position to be able to monetize our AI investments across many products that reach billions of users and enterprises. Our AI investments in Search are driving our highest query growth in half a decade. Google Cloud has generated tens of billions of dollars in AI revenues year-to-date, and Google One is our fastest-growing subscription product driven by demand for AI plans. Throughout this investment cycle, we expect to generate an attractive ROIC that remains meaningfully above our cost of capital and anticipate generating strong cash flow from operations. Our sizable investments in technical infrastructure and inventory build of TPU systems as we scale that business will put pressure on free cash flows.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 1960080,
@@ -1590,6 +1640,7 @@
    "t1_ms": 2023080,
    "speaker": "Management",
    "text": "Q3 was a strong quarter highlighted by our innovation and disciplined execution across all areas of the business, including the launch of Gemini 4. I want to take this opportunity to thank our employees for their contributions to our performance. We will now open the call for Q&A.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2005080,
@@ -1613,6 +1664,7 @@
    "t1_ms": 2046810,
    "speaker": "Operator",
    "text": "Thank you. As a reminder, to ask a question, you will need to press star 1 on your telephone. To prevent any background noise, we ask that you please mute your line once your question has been stated. And our first question comes from Doug Anmuth with JPMorgan. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2024080,
@@ -1636,6 +1688,7 @@
    "t1_ms": 2090810,
    "speaker": "Analyst",
    "text": "Thanks for taking questions. One for Sundar and one for Phillip. Sundar, on a recent podcast, you said that 2027 could be the golden age of productivity for Google because of the new class of models and how they'll integrate with your other products. We're hoping you could elaborate on that and just share more how you think about the opportunities set there ahead. And then Phillip, just on query growth, the fastest in five years, but obviously some deceleration and surge growth. Can you just help us understand the disconnect there? Is it simply that you haven't been showing as many ads basically in AI overviews and AI mode, and that's now becoming a bigger percentage of the overall queries? Thanks.",
+   "name": "Doug Anmuth, JPMorgan",
    "parts": [
     {
      "t0_ms": 2048810,
@@ -1667,6 +1720,7 @@
    "t1_ms": 2136590,
    "speaker": "Management",
    "text": "Thanks, Doug. We definitely started seeing a step change, I would say with 3.8 Flash internally as our models got better at long horizon tasks, agent decoding, etc. But I'm definitely seeing a huge point of inflection once we've started deploying Oregon internally. It is one of the most meaningful internal productivity levers we have seen on software engineering, directly tracking high quality code that's getting checked in, the rate at which it's getting checked in,",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2094590,
@@ -1694,6 +1748,7 @@
    "t1_ms": 2181590,
    "speaker": "Management",
    "text": "reducing the number of rollbacks, but more importantly, people are tackling massive problems, as well as we are beginning to see innovation on the product and the consumer experience side from deploying those models. But all this happened only about four weeks ago. We are now deploying carbon internally, and carbon is a meaningful step up from Oregon. So as we roll it out and make it all widely available to Googlers with more compute, I expect to, that's what I was referring to, and I'm even more excited since I said that in the podcast, and what I would view as a golden year ahead in terms of us being able to be more productive.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2136590,
@@ -1717,6 +1772,7 @@
    "t1_ms": 2225590,
    "speaker": "Management",
    "text": "And so excited for the innovation ahead. Phillip? Yeah, Doug. On the second part of your question, Logan, Q3 search grew 12% year over year to 63 billion. And when you look at the change in growth rate from Q2 to Q3, there were a few drivers here. So first, there was FX. It was the single largest driver of search deceleration relative to Q2. Second, there were vertical specific dynamics. In retail, some of our APAC advertisers were impacted by the EU eliminating its de minimis exemption. In media and entertainment, spend normalized after an unseasonably strong Q2 driven by the FIFA World Cup, which had more matches and therefore more advertising budgets allocated in June than actually in July.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2182590,
@@ -1744,6 +1800,7 @@
    "t1_ms": 2249590,
    "speaker": "Management",
    "text": "It's also to the next part of your question, it's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode. To be clear, we feel very good about our trajectory here. Our ad experiments have shown promising results and we're now scaling ads within both AI overuse and AI mode to more users and more queries, including, as I mentioned, international markets and multi-turn ads in the US.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2226590,
@@ -1763,6 +1820,7 @@
    "t1_ms": 2263310,
    "speaker": "Operator",
    "text": "Our next question comes from the line of Brian Nowak with Morgan Stanley. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2250590,
@@ -1778,6 +1836,7 @@
    "t1_ms": 2305310,
    "speaker": "Analyst",
    "text": "Thanks for taking my questions. I have two. Let me start with agentic. You rolled out Spark to some of the users throughout the year. Anas Thunder, you've talked a lot about shipping more agentic products to the broader base of users. Can you just help us understand a little bit some of the key hurdles you have to overcome technologically to ship out agentic products to the full base of users? Is it model efficiency? Is it capacity? Is it the technologies already? What do we have to do technologically to do that? And then the second one, just on to Doug's question on search. Anas, can you help us better understand the search performance comparison factor that you talked about impacting search?",
+   "name": "Brian Nowak, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2264310,
@@ -1809,6 +1868,7 @@
    "t1_ms": 2311310,
    "speaker": "Analyst",
    "text": "How do we think about that as we go into 4Q1Q, just looking at the compares? Thanks.",
+   "name": "Brian Nowak, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2306310,
@@ -1824,6 +1884,7 @@
    "t1_ms": 2353310,
    "speaker": "Management",
    "text": "Thanks, Brian. First of all, on agents, what an exciting and dynamic area. I think when I look at our new models and we see the capabilities of the kind of complex tasks they can take in an automated way and execute with very, very high quality, it's clear that the agentic capabilities we've all envisioned are going to be real. And so I couldn't be more excited to bring the next generation agentic experiences to our users. To your question, I would say a few things. I think the Gemini 4 model series has been important.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2312310,
@@ -1851,6 +1912,7 @@
    "t1_ms": 2392310,
    "speaker": "Management",
    "text": "We are working on distilled versions of our carbon models so that we can deploy it across a billion user scale efficiently, both from a compute, from a latency standpoint, and from a quality standpoint. So that's been an important area of investment. Definitely making sure you need more than a capable model at scale. You need a robust harness. You need a highly secure runtime, and this is where GCP comes in, being able to give each and every one of our users a secure runtime with 24-7 availability in the cloud, the right ecosystem of skills and connectors.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2353310,
@@ -1874,6 +1936,7 @@
    "t1_ms": 2422310,
    "speaker": "Management",
    "text": "So all of that is the foundation. We have been hard at work, and we decided to roll it out to Enterprise first, which we announced with our Gemini agent for Enterprise, essentially because they have the highest bar for security governance and controls, and it's been well received, and we are in the process of expanding that. Later this year, we will bring that same experience to consumers, obviously starting with the one billion users in our Gemini app.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2393310,
@@ -1897,6 +1960,7 @@
    "t1_ms": 2460360,
    "speaker": "Management",
    "text": "We already see people in the app moving beyond chat to what our task and agent-like experience is, and so the trust users have in our products, the fact that all their context is right there, I think sets us up well. But we are really focused as a company on delivering that unified experience across our products, and you should expect to see a lot of progress later this year. Thanks, and on the second question with regards to my comments, I believe you're referring to the outlook with regards to search.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2422310,
@@ -1920,6 +1984,7 @@
    "t1_ms": 2505360,
    "speaker": "Management",
    "text": "A couple of dynamics that I've mentioned, one is on sequential related to impact of FX headwinds, which we saw this this quarter as well versus the previous quarter. So where we are today with current spot rates, we expect that this will be somewhat of a headwind to Q4 results. And then when we look at the year-over-year comparisons, this quarter we started lapping the acceleration we saw in search growth in 2025, the backend of 2025. We left about three points of growth versus Q3, and then we expect to see that continue in Q4, a couple of points of lapping that growth acceleration that we saw at the end of 2025.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2460360,
@@ -1947,6 +2012,7 @@
    "t1_ms": 2509180,
    "speaker": "Management",
    "text": "Great. Thank you.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2506360,
@@ -1962,6 +2028,7 @@
    "t1_ms": 2517900,
    "speaker": "Operator",
    "text": "Our next question comes from the line of Eric Sheridan with Goldman Sachs. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2509180,
@@ -1977,6 +2044,7 @@
    "t1_ms": 2551900,
    "speaker": "Analyst",
    "text": "Thanks so much for taking the question. Based on some of the comments you've made recently, Sundar, on compute constraints, can you refresh for us your key priorities for the application of compute as it becomes available across the organization? And the second part may be for you or Thomas would be within Google Cloud specifically. How does your view continue to evolve with respect to the application of compute to cloud customer needs relative to external TPU? Thanks so much.",
+   "name": "Eric Sheridan, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2519900,
@@ -2000,6 +2068,7 @@
    "t1_ms": 2597900,
    "speaker": "Management",
    "text": "Thanks. Thanks, Eric. I'll start and then Thomas will answer the second half. Definitely, computer allocation is an area where we are spending a lot of time on because of the forward planning that's needed. I would start with saying we feel fortunate to have an extraordinary set of opportunities ahead of us. We are operating a scale consumer business that reaches billions of people, a hyperscale cloud business with a lot of momentum, and of course a range of other highly important areas across Google and Alphabet. We always take a long range planning, and so each of our business areas submit long range plans with a very disciplined ROIC framework.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2552900,
@@ -2027,6 +2096,7 @@
    "t1_ms": 2641900,
    "speaker": "Management",
    "text": "And so, you know, I would broadly think of all of this as a long range planning process, not a short term allocation exercise. Obviously, our AI models underlie everything we do from search and YouTube to cloud to Waymo and so on. So it's the foundation and we view it as a highly leveraged approach. The full stack approach drives a lot of efficiency, as well as gives us a lot of optionality across a wide variety of opportunities. So obviously, that is the foundation and we plan for that for the long term too. And about that, as I said, we really look at our businesses and really take a disciplined long range planning approach.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 2598900,
@@ -2058,6 +2128,7 @@
    "t1_ms": 2686900,
    "speaker": "Management",
    "text": "To us, obviously, we are seeing very, very robust demand signals across a wide variety of areas. And so we view it as an extraordinary set of opportunities and we are investing for that moment. Thomas? Eric, on the demand in cloud, we are always managing our portfolio to ensure we have a breadth of customers. And we have different types of customers from digital natives, AI labs, traditional enterprises, financial and capital markets customers. So it's a broad set of customers. Many of them have either started with using TPU systems, for example, in our cloud.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 2642900,
@@ -2089,6 +2160,7 @@
    "t1_ms": 2728900,
    "speaker": "Management",
    "text": "We have over 100 significant TPU customers who start in our cloud. They learn to use TPUs. And remember, TPU system is a combination of hardware, system software, compilers, the whole thing, assembled as a system, including optical networking and other things. We've taken a very deliberate approach on how we're bringing TPUs to customers. The first one is to build the right silicon. So we have AT for training, 8i for inference. They both offer substantial price performance and performance improvements relative to prior generations.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 2687900,
@@ -2120,6 +2192,7 @@
    "t1_ms": 2766900,
    "speaker": "Management",
    "text": "Second, we've optimized the software. The optimization of the software is not just to make the systems run better and to give you great performance, but also to see makes portability seamless. Recently, we introduced, for example, PyTorch, which opens up a much larger market for us by optimizing PyTorch on the TPU. Third, we are broadening distribution. So in the past, you could use TPUs in our cloud. Now we make for customers who want TPU systems in their data centers. We're making TPU systems available in their data centers.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 2729900,
@@ -2147,6 +2220,7 @@
    "t1_ms": 2803900,
    "speaker": "Management",
    "text": "We're also broadening availability to other providers. For example, we announced a partnership with Oracle and we've launched, along with Blackstone, an agreement for Crux.ai, a joint venture to offer customers TPU systems. We are seeing extraordinary demand and strong growth from both AI labs, capital markets, financial service institutions, and enterprises. And if you imagine these 100 plus customers growing to many more and also scaling their use into TPU systems, we see strong demand over the future.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 2766900,
@@ -2170,6 +2244,7 @@
    "t1_ms": 2817620,
    "speaker": "Operator",
    "text": "Our next question comes from Ross Sandler with Barclays. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2804900,
@@ -2185,6 +2260,7 @@
    "t1_ms": 2853620,
    "speaker": "Analyst",
    "text": "Thanks. I wanted to stick with the TPU resale business topic that you just mentioned. So in that last quarter, you kind of said that the revenue will be recognized on system sales, I believe. So if a gigawatt of TPU, full system, costs around $35 billion for the compute and all the kind of components around it, what percent of that are we actually recognizing as revenue? And what kind of flow through does that have in terms of margin profile relative to where the Google Cloud segment currently sits?",
+   "name": "Ross Sandler, Barclays",
    "parts": [
     {
      "t0_ms": 2818620,
@@ -2212,6 +2288,7 @@
    "t1_ms": 2892620,
    "speaker": "Analyst",
    "text": "And then I guess the second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the TPU? The second part of the question would be, as you help companies like Anthropic bring on more of their own kind of first party infrastructure, what does that mean for the capex intensity of Alphabet? As you start to kind of hand off some of the future capex to the AI labs and may not require as much capex intensity on your own, in your own data centers. Thoughts on that would be great. Thank you.",
+   "name": "Ross Sandler, Barclays",
    "parts": [
     {
      "t0_ms": 2853620,
@@ -2239,6 +2316,7 @@
    "t1_ms": 2934620,
    "speaker": "Management",
    "text": "Yeah, let me combine these two questions. First, obviously, we don't provide specific financials at the product level. But let me walk through how to think about the financials associated with the TPU system sales. And obviously, just as a reminder, and Thomas can elaborate on that as well, a TPU system is not just a chip, but it's a specialized system that combines multiple things, including hardware, compute, storage, networking. So we are selling much more than just a chip, software, training, inference. There is a significant added value that's being provided to the customer that's purchasing a TPU system.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2892620,
@@ -2270,6 +2348,7 @@
    "t1_ms": 2975620,
    "speaker": "Management",
    "text": "And the way this works, and this is linked to your second portion of the question, when we sign an agreement with the customer to sell TPU systems, once we sign that agreement, you'll first see that showing up in our backlog. And then we start building inventory. So think about this from a capex versus cash perspective. We build the inventory ahead of getting the revenue stream in. So I think I've alluded to this on the previous call. You see inventory balances go up or previously inventory balances primarily were some of our hardware products. Now those TPU systems that are not yet sold will be showing up.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2934620,
@@ -2309,6 +2388,7 @@
    "t1_ms": 3013620,
    "speaker": "Management",
    "text": "So you see cash going out and we're building up the inventory base. And then as we start delivering and billing customers for these TPU systems, then you see cash coming in. So it's not the traditional kind of capex as you're thinking about this. And I think that's the essence of your question, but rather a different cycle of cash flow generation. Now, given that we are in the process of building up and ramping up that business, you're seeing that cash needs in our cash flow statements and you see those inventory built.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 2975620,
@@ -2344,6 +2424,7 @@
    "t1_ms": 3023620,
    "speaker": "Management",
    "text": "To date, we've had some system sales recorded as revenue, but expect more of it to come in through 2027.",
+   "name": "Anat Ashkenazi, CFO",
    "parts": [
     {
      "t0_ms": 3013620,
@@ -2359,6 +2440,7 @@
    "t1_ms": 3041020,
    "speaker": "Operator",
    "text": "Our next question comes from a line of Justin Post with Bank of America. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3034020,
@@ -2374,6 +2456,7 @@
    "t1_ms": 3080020,
    "speaker": "Analyst",
    "text": "Great. Thank you. I have some questions on the egenic transition. You did launch the universal shopping cart. Clearly people are liking and using egenic use cases. As more of that happens, how do you plan to manage the search transition to egenic use? Do you think that could be a headwind? And second, do you think egenic could actually drive more monetization for your traffic over the long term? And then I'll go again at TPU margins. We're wondering, do you think this is a really good business for you and maybe why? If you can't give us the margins, why do you think this is a good way to use all this capacity? Thank you.",
+   "name": "Justin Post, Bank of America",
    "parts": [
     {
      "t0_ms": 3041020,
@@ -2421,6 +2504,7 @@
    "t1_ms": 3127020,
    "speaker": "Management",
    "text": "We're in the early days of egenic, but maybe directly to the second part of your question, but we view egenic experiences as clearly additive. Our focus is building trust, secure, super scale experiences that users love, anchored frankly on egenic commerce, foundational blocks like you mentioned universal commerce, the cart, the agents, payments protocols, and so on. When users shop, and that's important, there's a part of the journey they don't like, the grunt work, which is frankly fantastic to automate with AI. But we also want to enhance, not just automate away the discovery experience that people frankly love in so many cases, users like choice, and they want to consider things way beyond price like brand loyalty, customer service, and so on.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3083020,
@@ -2464,6 +2548,7 @@
    "t1_ms": 3170020,
    "speaker": "Management",
    "text": "So we're really architecting these egenic workflows in a way that we can intentionally design the time and the space for users to explore those choices. So simple example, an agent could respond, here's the insurance product we found, and here's another strong option, one of which is a higher premium, maybe a little deductible, and they're currently offering a very special discount. So given that there's almost never only one perfect option for a decision, we're actually confident that we can actually provide really interesting, compelling advertising models for egenic use cases, and obviously you can imagine going beyond us with subscriptions and other payment methods. But I'm really actually excited about the advertising opportunities in an egenic world.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3127020,
@@ -2499,6 +2584,7 @@
    "t1_ms": 3207020,
    "speaker": "Management",
    "text": "Overall, I would add and say, look, I would view it as an expansion opportunity, right? Anytime, just like a few years ago, being able to incorporate AI chat use cases in search allowed people to ask more and do more in search, which is what is playing out in our usage, I think agents would again be an opportunity to expand the types of problems we solve for our users. I think people always underestimate all the components you need to deliver these complex experiences for users.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3170020,
@@ -2526,6 +2612,7 @@
    "t1_ms": 3251020,
    "speaker": "Management",
    "text": "And search on the surface looks simple, but there's extraordinary deep levels of investment and things we have built over time, like Knowledge Graph being an example, and so our understanding of the world, et cetera. So I think, you know, I'm excited about agents, and I would view it as a new frontier, which brings in a new set of use cases to search. And so we are excited to work through that. On TPU systems and margins, we don't break out margins for individual products or infrastructure components. However, we see several benefits from designing and manufacturing TPU systems.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3207020,
@@ -2561,6 +2648,7 @@
    "t1_ms": 3293020,
    "speaker": "Management",
    "text": "So, first of all, to remind you, the TPU system is not just a chip, but it's a complete system. Given the price performance benefits of TPU systems relative to competitors, growing demand for accelerated compute and the scarcity of accelerated compute, we're very focused on continuing to improve margins as we scale the business. Two additional points. First of all, when Anant mentioned that we procure components to build inventory, we only do that after we have signed contracts. So all of the inventory that for TPU systems are associated with committed contracts.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 3251020,
@@ -2596,6 +2684,7 @@
    "t1_ms": 3321020,
    "speaker": "Management",
    "text": "Additionally, by putting TPU systems in third party facilities and in customer data centers, it allows us, one, to broaden out addressable markets. For some industries, they have data in their premise that they cannot move to a cloud, and it allows us to bring accelerated compute to where the data sets. Additionally, it also offsets the need for us to have to pre-build facilities to host these TPU systems.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 3293020,
@@ -2619,6 +2708,7 @@
    "t1_ms": 3333560,
    "speaker": "Operator",
    "text": "Our next question comes from the line of Mark Schmulik with Alliance Bernstein. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3321020,
@@ -2634,6 +2724,7 @@
    "t1_ms": 3378560,
    "speaker": "Analyst",
    "text": "Yes, thanks for taking the questions. I'm going to be on the same couple topics, but just on agentic. You know, if you've kind of just taken a look at some of the early more agentic style use cases on Gemini AI mode and kind of observing some of the 3P integrations with Google properties, anything that surprised you or changed your view? I know we've talked a lot about commerce, but perhaps on like consumer productivity as well. And then either Thomas or not, just on kind of cloud growth, is there anything you could share just around the rate of growth of Google Cloud excluding the TPU system sales and just how much of that's been kind of constrained by capacity? And as some of that 3P capacity comes online in Q4, is it fair to kind of assume an acceleration of that Google Cloud business? Thank you.",
+   "name": "Mark Shmulik, AllianceBernstein",
    "parts": [
     {
      "t0_ms": 3333560,
@@ -2673,6 +2764,7 @@
    "t1_ms": 3418560,
    "speaker": "Management",
    "text": "Look, maybe I'll take the first part on what we're observing on these early agentic style use cases. We are definitely seeing it. Just recently in the Gemini app, we've added a task tab and where people are actually typing in agentic queries, and so we can observe that. Look, in all of this, users really want, they want to be delighted, so they effectively are, you know, looking for, they have a high bar. What encourages repeat use is your ability to, you know, more handle these longer tasks and actually deliver a satisfactory outcome at the end.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3378560,
@@ -2700,6 +2792,7 @@
    "t1_ms": 3461560,
    "speaker": "Management",
    "text": "You know, just like having seen this in other areas, including coding, et cetera, you know, when you're doing it at 70%, it looks like it doesn't work until you cross a certain threshold and it really takes off. And so we are closely learning from all of it, you know, identifying gaps, laying all the foundations I talked about earlier. And, you know, I'm confident it's an area where you will see a lot of progress across our surfaces, you know, as we go through later this year in 2017. The one thing as we transition to TPUs, one of the comments I would make on the TPU systems is, look, in the semiconductor industry, economies of scale matter.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3418560,
@@ -2727,6 +2820,7 @@
    "t1_ms": 3506560,
    "speaker": "Management",
    "text": "So I would look at our ability to do, you know, TPUs both for deploying in our data centers and TPU systems and others data centers as an ability to scale up the product, which directly translates into better economics. To address the question on the rate of growth of cloud, you know, a Google Cloud segment delivered record growth in the third quarter with cloud revenues up 103% to 30.7 billion. The strongest growth contributor was Google Cloud Platform with strength in both AI and core GCP.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 3461560,
@@ -2750,6 +2844,7 @@
    "t1_ms": 3544560,
    "speaker": "Management",
    "text": "So GCP accounted for the vast majority of revenue generated in Q3 and cloud revenue growth, excluding the impact of TPU system sales, was again very, very strong. Demand was also strong across our product lines. So we see three things going on. One, as people use Gemini, we see revenue growth from Gemini itself. But we also see that as people use Gemini, it drives growth in other parts of our portfolio. For instance, as they build agents, they use compute to perform a task. And so they buy compute.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 3506560,
@@ -2781,6 +2876,7 @@
    "t1_ms": 3587560,
    "speaker": "Management",
    "text": "They use storage to store memories of the agent, database to serve up what's called context for the agent to reason on. And obviously, given all the cybersecurity threats, we are seeing strong growth in our cybersecurity portfolio. So we are confident about our growth and the diversity in our growth. We're also seeing new customers buy into GCP and accelerating growth and new customer adoption. So we also see that as a growth vector for us. And we are always at any point in time. We could obviously serve a lot more demand with capacity, but we are managing all of these parameters and growth carefully.",
+   "name": "Thomas Kurian, CEO, Google Cloud",
    "parts": [
     {
      "t0_ms": 3544560,
@@ -2816,6 +2912,7 @@
    "t1_ms": 3602060,
    "speaker": "Operator",
    "text": "And our last question comes from Michael Nathanson with Mopit Nathanson. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3587560,
@@ -2831,6 +2928,7 @@
    "t1_ms": 3641060,
    "speaker": "Analyst",
    "text": "Thanks. I have two for Sundar. In an early answer to Eric's question about TPU and cloud, we heard a willingness to work with some of your competitors or companies that we may view as competitors in models and cloud. I wonder how you think about the philosophy here about working with people that maybe are competing with you and why the strategy is an opportunity, not a risk longer term to make sense. And then secondly, on agentic consumer behavior, one of the debates is around safety and trust. Do you share with us what you've learned so far about safety and trust? Are those variables that matter to consumers?",
+   "name": "Michael Nathanson, MoffettNathanson",
    "parts": [
     {
      "t0_ms": 3602060,
@@ -2862,6 +2960,7 @@
    "t1_ms": 3650060,
    "speaker": "Analyst",
    "text": "And how do you think if those variables matter, what are you doing to protect consumer trust and privacy as you build out agentic consumer tools?",
+   "name": "Michael Nathanson, MoffettNathanson",
    "parts": [
     {
      "t0_ms": 3641060,
@@ -2877,6 +2976,7 @@
    "t1_ms": 3687060,
    "speaker": "Management",
    "text": "Thanks. Thanks, Michael. Great questions. On the first one, look, you know, we've long viewed what we build as, you know, categories of things which we build as products. And then there are categories of things which we build as platforms. Right. And you need to have a clear view on which is which. And when you're building things as platforms, you really work hard to make the platform great and make sure it works for everyone. We have a long history of operating many platforms, be it a browser, be it operating system, be it an extraordinarily successful cloud platform.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3650060,
@@ -2904,6 +3004,7 @@
    "t1_ms": 3731060,
    "speaker": "Management",
    "text": "And in all of that, you know, we worked hard to provide it to all players and be a great customer. You've seen us work on our models with other companies, including Apple, with whom we compete in many, many areas. Similarly, we view our TPU systems as an important platform we are building. We want to be world class in how we build it. That means you're putting it against market forces, testing it and competing for people who would have the most demanding workloads on top of it. And I think that's what makes sure those teams are continuing to be at the frontier.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3687060,
@@ -2935,6 +3036,7 @@
    "t1_ms": 3771060,
    "speaker": "Management",
    "text": "So that's how we think about it. And over time, I think, you know, that always ends up in expanding opportunities. And we've been able to do well taking that approach for a very long period of time. Second on agentic behavior, I mean, to the earlier question, and I think I should have emphasized, people really when people are approaching these agentic experiences, we clearly see people are concerned about safety and trust. I mean, it is a very, very high factor in how they want to use these things.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3731060,
@@ -2966,6 +3068,7 @@
    "t1_ms": 3804060,
    "speaker": "Management",
    "text": "And, you know, over decades, the trust we have built by delivering these experiences in a safe way across many consumer products with scale in billions of users, as well as this putting in end to end as we are building our models and agents, deploying them both with extensive testing, the kind of real time monitoring we do as we deploy these at scale. I think all of that will end up being a huge differentiator. And we already hear about it from our users.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3771060,
@@ -2993,6 +3096,7 @@
    "t1_ms": 3816270,
    "speaker": "Management",
    "text": "And I think they would work with their feet as this frontier goes through. Thank you. Thank you.",
+   "name": "Sundar Pichai, CEO",
    "parts": [
     {
      "t0_ms": 3804060,
@@ -3008,6 +3112,7 @@
    "t1_ms": 3825270,
    "speaker": "Operator",
    "text": "And that concludes our question and answer session for today. I'd like to turn the conference back over to Jim Friedman for any further remarks.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3816270,
@@ -3023,6 +3128,7 @@
    "t1_ms": 3835610,
    "speaker": "Management",
    "text": "Thanks, everyone, for joining us today. We look forward to speaking with you again on our fourth quarter 2026 call. Thank you and have a good evening.",
+   "name": "Jim Friedland, Head of Investor Relations",
    "parts": [
     {
      "t0_ms": 3825270,
@@ -3042,6 +3148,7 @@
    "t1_ms": 3842610,
    "speaker": "Operator",
    "text": "Thank you, everyone. This concludes today's conference call. Thank you for participating. You may now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3835610,
@@ -6693,6 +6800,7 @@
    "quote": "Every day, more than 20 million videos are being uploaded.",
    "adj_ret_5m": -0.006222139220614986,
    "speaker": "Management",
+   "name": "Philip Schindler, Chief Business Officer",
    "vol_mult": 1.3550221525494413,
    "spillover": null
   }
@@ -6706,6 +6814,7 @@
    "t0_ms": 803080,
    "speaker": "Management",
    "quote": "Every day, more than 20 million videos are being uploaded.",
+   "name": "Philip Schindler, Chief Business Officer",
    "metric": "daily YouTube video uploads",
    "kind": "result",
    "novel": true,
@@ -6817,7 +6926,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 17.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 2252,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 19911
+  },
+  "claude_usd": 0.0773
+ },
  "context": {
   "ts": [
    "2026-10-28T20:15:00Z",

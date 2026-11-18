@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-21T08:00:00-04:00",
   "etf": "XLV",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/DHR_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/DHR_Q3-2026.mp3",
   "company": "Danaher",
   "audio_offset_ms": 4460
  },
@@ -16,6 +16,7 @@
    "t1_ms": 40240,
    "speaker": "Operator",
    "text": "My name is Chelsea, and I will be your conference facilitator this morning. At this time, I would like to welcome everyone to Danaher Corporation's third quarter 2026 earnings results conference call. All lines have been placed on mute to prevent any background noise. After the speakers' remarks, there will be a question and answer session. If you would like to ask a question during that time, simply press star then the number one on your telephone keypad. If you would like to withdraw your question, please press star two. I will now turn the call over to Ms. Rachel Bottenstall, Vice President of Investor Relations. Ms. Bottenstall, you may begin your conference.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -67,6 +68,7 @@
    "t1_ms": 81430,
    "speaker": "Management",
    "text": "Good morning, everyone, and thanks for joining us on the call. With us today are Julie Sawyer-Montgomery, our President and Chief Executive Officer, and Matt Pagino, our Executive Vice President and Chief Financial Officer. I'd like to point out that our earnings release quarterly report on Form 10Q, the slide presentation, supplementing today's call, the reconciliations and other information required by SEC Regulation G relating to any non-GAAP financial measures provided during the call, and a note containing details of historical and anticipated future financial performance are all available on the Investors section of our website, www.danaher.com,",
+   "name": "Rachel Bottenstall, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 40760,
@@ -110,6 +112,7 @@
    "t1_ms": 122530,
    "speaker": "Management",
    "text": "under the heading Quarterly Earnings. The audio portion of this call will be archived on the Investors section of our website later today under the heading Events and Earnings. and Presentations, and will remain archived until our next quarterly call. A dial-in replay of this call will also be available until November 4, 2026. During the presentation, we will describe certain of the more significant factors that impacted year-over-year performance. Our Form 10Q and the supplemental materials I referenced describe additional factors that impacted year-over-year performance. Unless otherwise noted, all references in these remarks and supplemental materials to company-specific financial metrics relate to the following. The first is the financial metrics. The second is the financial metrics. The third is the financial metrics. The fourth is the financial metrics. The fifth is the financial metrics. The sixth is the financial metrics. The sixth is the financial metrics. The seventh is the financial metrics. The eighth is the solutions to costs. The seventh is the financial metrics. And the final is the financial metrics, which results from",
+   "name": "Rachel Bottenstall, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 81750,
@@ -169,6 +172,7 @@
    "t1_ms": 162290,
    "speaker": "Management",
    "text": "continuing operations in the third quarter of 2026. And all references to period to period increases or decreases in financial metrics are year-over-year. We may also describe certain products and devices which have applications submitted and pending for certain regulatory approvals or are available only in certain markets. During the call, we will make forward-looking statements within the meaning of our federal security laws, including statements regarding events or developments that we believe or anticipate will or may occur in the future. occur in the future. These forward-looking statements are subject to a number of risks and uncertainties, including those set forth in our SEC fire links, and actual results may differ materially from any forward-looking statements that we make today.",
+   "name": "Rachel Bottenstall, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 122530,
@@ -216,6 +220,7 @@
    "t1_ms": 206590,
    "speaker": "Management",
    "text": "These forward-looking statements speak only as of the date that they are made, and we do not assume any obligation to update any forward-looking statements except as required by law. With that, I'd like to turn the call over to Julie. Thank you, Rachel, and good morning, everyone. Before we get into the quarter, I'd like to share my perspective on Danaher today and the opportunity ahead as I begin this next chapter as CEO. The opportunity for Danaher is straightforward, to become the defining leader in life sciences and diagnostics, a company that unambiguously gains share, delivers sustainable profitable growth, and helps our customers improve outcomes for patients around the world. The foundation we built at Danaher is strong. We operate",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 162290,
@@ -271,6 +276,7 @@
    "t1_ms": 245510,
    "speaker": "Management",
    "text": "leading businesses, foster deep customer relationships, and empower talented people, all enabled by the Danaher business system. At the same time, growth over the past several years has not consistently reflected the full potential of our portfolio. We've navigated significant changes in our markets, but regardless of the environment, we hold ourselves to a higher standard. We see a meaningful opportunity to accelerate sustainable core revenue, and to build a sustainable business model that is relationally anchored to ourcream efficient business model.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 206590,
@@ -302,6 +308,7 @@
    "t1_ms": 287610,
    "speaker": "Management",
    "text": "It's great to see peopleAdditional capital, gains share, more consistently, and more fully translate the strengths of our portfolio into differentiated performance. I'm confident in what we built and I'm energized by what I've seen across Danaher these last few months. Our focus now is strengthening execution and delivering on that potential. Recently, I had a conversation with one of our executives preparing for a customer meeting related to Alzheimer's disease. It often has me wondered when I heard it so gracefully. I mean, it's a collision. First of all, what's a collision? It' What started as a discussion about how one of our businesses could help address a particular part of that customer's challenge quickly expanded to cover the roles seven different operating companies could play across discovery, AI-enabled target selection, laboratory automation, process development, scale-up, and diagnostic testing.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 245510,
@@ -353,6 +360,7 @@
    "t1_ms": 321710,
    "speaker": "Management",
    "text": "And when the challenge is Alzheimer's disease, speed matters, both to the scientists working to understand it and the families waiting for answers. That conversation reinforced something important. Our customers don't think about their challenges through the lens of our organizational structure. They have a problem to solve, and they want the best partnership and solutions we can bring them. I see this as critical to Danaher's next chapter. As some of our greatest opportunities sit at the intersections of our businesses.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 287610,
@@ -388,6 +396,7 @@
    "t1_ms": 363110,
    "speaker": "Management",
    "text": "We will preserve what makes our operating company structure advantage, the customer intimacy, the accountability, while making it easier to bring the full power of Danaher to our customers. Our foundation and the power of the Danaher business system have given us leadership positions across the life sciences and diagnostic markets, and a unique role in helping accelerate the transition. Our data and data science businesses have helped us transform our translation of scientific discovery into human impact. Our life science businesses enable discovery, our biotechnology businesses help turn those discoveries into scaled and accessible therapies, and our diagnostics businesses help guide treatment.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 322590,
@@ -419,6 +428,7 @@
    "t1_ms": 406770,
    "speaker": "Management",
    "text": "Together, Danaher spans a broad path from experiment to patient, with DBS adding speed and operating discipline at scale. We call that innovation at the speed of life. Helping close the distance between human need and the science that answers it. And as we enter this next chapter, we'll accelerate that ambition by focusing on four strategic priorities. Commercial excellence, innovation, talent, and effective capital allocation. Each is important, but our most immediate opportunity is commercial execution. Danaher has said that the most important thing in our business is the ability to do business. Danaher has said that the most important thing in our business is the ability to do business.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 364050,
@@ -462,6 +472,7 @@
    "t1_ms": 443910,
    "speaker": "Management",
    "text": "Danaher has successfully repositioned its portfolio with three platforms across the life sciences and diagnostics markets. With that portfolio transformation largely complete, our focus is shifting from reshaping the portfolio to delivering more growth from the businesses we own. We will focus our leadership attention on exceptional commercial execution, enhancing our pursuit of unambiguous shared success. We will focus our leadership attention on exceptional commercial execution, enhancing our pursuit of unambiguous shared success. We will focus our leadership attention on exceptional commercial execution, enhancing our pursuit of unambiguous shared success.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 407350,
@@ -493,6 +504,7 @@
    "t1_ms": 484610,
    "speaker": "Management",
    "text": "And as we wurdenerize the SPS, we will continue to expand its economies through our Takes Together with Danaher. We will drive consistency and rigour and commercial execution across our businesses. This means simplifying and strengthening our commercial processes, and empowering our leaders to make more entrepreneurial decisions. and deep customer relationships. These will remain fundamental to how we compete, but Danaher has tremendous scale and breadth, and we can do more to use that advantage. That means making the broader strength of our portfolio and capabilities more accessible to customers.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 445150,
@@ -544,6 +556,7 @@
    "t1_ms": 528330,
    "speaker": "Management",
    "text": "We've already taken practical steps to show up as a more connected Danaher. In diagnostics, for example, we are successfully deepening customer relationships by bringing leaders from across our businesses together with key customers to look across the portfolio, better understand their priorities, and identify where a more coordinated approach can create additional value. We do this by having our key diagnostics leaders in the same room at the same time with our key customers to understand their biggest pain points and where we can drive incremental value. This approach has generated meaningful incremental revenue opportunities",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 485630,
@@ -599,6 +612,7 @@
    "t1_ms": 570990,
    "speaker": "Management",
    "text": "and is helping drive share gains across our diagnostics businesses. And as we bring more of Danaher to our customers, we can also become more systematic about connecting capabilities across our businesses to solve more customer needs. Algevron and Cytiva's recent collaboration deliver an end-to-end mRNA solution to the customer's customer experience. This solution is a great example, helping streamline our customers' development processes while meaningfully accelerating timelines. Ultimately, our commercial strategy is straightforward. Execute better and more entrepreneurially,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 528330,
@@ -658,6 +672,7 @@
    "t1_ms": 613730,
    "speaker": "Management",
    "text": "show up together as Danaher for our customers, and connect our capabilities where we can create greater value. We will make it easier for customers to access the full strength of our customers, and create greater value. We'll make it easier for customers to interact with us and know more about the experience of Danaher and look to us when trying to solve their most important challenges. Our second priority is delivering more innovation. Danaher is already at the forefront of innovation, but I believe strengthening our innovation capabilities represents one of our largest opportunities to accelerate long-term growth. Delivering on our brand promise, innovation at the speed of life, means we will be deliberate and straightforward about our products and services.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 570990,
@@ -725,6 +740,7 @@
    "t1_ms": 654180,
    "speaker": "Management",
    "text": "deliberate and strategic about where we invest in R&D and ensure we appropriately allocate resources behind our best ideas. That means more closely linking strategy and R&D investments, concentrating resources behind the highest potential initiatives, and working more closely across our businesses and external partners to move promising innovations. We will also fund transformational opportunities at the enterprise level when we believe Danaher has a clear right to win and larger investment can create meaningful competitive advantage.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 613730,
@@ -764,6 +780,7 @@
    "t1_ms": 696560,
    "speaker": "Management",
    "text": "These decisions will require clear choices and greater enterprise-level conviction about where we can create the most value. Innovation cycles take time, but over the long term, we believe this more focused approach can support higher-end innovation. Thank you. And to me, this is the heart of innovation at the speed of life, helping promising science move faster towards the patients who need it. Our third priority is being the home and destination for exceptional talent.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 654180,
@@ -807,6 +824,7 @@
    "t1_ms": 735340,
    "speaker": "Management",
    "text": "We believe our ability to attract and develop exceptional talent in science and technology AI, commercial and operating disciplines will increasingly set us apart from competitors. We also need to develop and deploy our people more intentionally against Danaher's highest priority growth and innovation opportunities. Danaher has given me that kind of exposure in my own career, learning DBS and then applying it across commercial, R&D, and business leadership. I want us to continue to create exceptional opportunity for the next generation of leaders.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 697140,
@@ -846,6 +864,7 @@
    "t1_ms": 779800,
    "speaker": "Management",
    "text": "As we evolve DBS for the AI era, I believe we can create an even more compelling place for the best talent in our industry. And our fourth priority is being more disciplined with our capital and resources. M&A and capital deployment have been essential drivers of Danaher's growth and will remain so. We will maintain the robust investment criteria that has served us well for many decades while bringing strategic clarity and discipline to how we allocate capital and resources. We are focused on deepening our positions in attractive markets and identifying strategically",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 735340,
@@ -889,6 +908,7 @@
    "t1_ms": 822140,
    "speaker": "Management",
    "text": "compounding areas that build from the strengths we already have in our businesses. Our objective is to deliver high returns on our investments with greater consistency, while positioning Danaher for sustainably differentiated and profitable growth. Across each of these priorities, there is a common idea. We create more value by building a stronger, more connected company. That doesn't mean changing what makes our operating companies successful. It means preserving their customer intimacy and accountability, while making it easier to share ideas, capabilities, talent, and resources. That's what Danaher does. Danaher is a strong partner.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 779800,
@@ -940,6 +960,7 @@
    "t1_ms": 865980,
    "speaker": "Management",
    "text": "We need to socially contribute to more people's scaling. We are drawn to market our志ánh mistwe Fisher leap and one of Danaher's goals here in theater sources across Danaher — and using our scale where it gives us an advantage. AI is one capability we believe can help us do just that. solutions to life faster and more effectively than many. Over time, we believe AI can make DBS simpler and more powerful, while DBS can help us implement AI with the rigor and consistency",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 822140,
@@ -979,6 +1000,7 @@
    "t1_ms": 908040,
    "speaker": "Management",
    "text": "that have long defined Danaher. We see opportunities for AI to strengthen commercial execution and innovation. For example, helping our teams identify opportunities earlier, improve sales funnel management, and dramatically reduce R&D timelines. AI can help simplify work and drive greater productivity. But AI isn't only about making Danaher better. It is also changing the needs of our customers and creating new opportunities across our portfolio. For example, we see growing demand for solutions that cut across our life sciences businesses that enable more automated,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 865980,
@@ -1018,6 +1040,7 @@
    "t1_ms": 950950,
    "speaker": "Management",
    "text": "autonomous labs and workflows. We see longer-term opportunities across our biotechnology and diagnostics platforms to make therapies more efficient and make treatment decisions more precise. This is why we are accelerating AI deployment across the enterprise and establishing AI partnerships. Stepping back, we believe a more connected Danaher with a stronger focus on commercial excellence, innovation and talent, andatenancy. This means we have more innovative튼 nacho, more innovative technologies and more innovative output solutions than before. We look forward to more Patton & Barber-Ross7 managers. To return to our ongoing supply chain vision, PhotosSpace is being affected by their product Moreover, the economy has gone to zero during 2020 and it has escaped the radar of new technologies and entrada Software hub. The Kenner stocks industry is upcoming for another 10,000 employees, investigatot моat121, innovation, and talent can be a stronger Danaher. We intend to bring the best of Danaher to our customers to better leverage our talent, platforms, and brand and simplify how we operate",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 908440,
@@ -1073,6 +1096,7 @@
    "t1_ms": 992610,
    "speaker": "Management",
    "text": "so our teams can focus on the opportunities that matter most. Together, these actions can help us move faster and more fully realize the potential of our portfolio. So, I am incredibly excited about what lies ahead. We are starting from a position of strength with meaningful room to deliver more. That will take time, and we know credibility will be earned through results. Our focus now is making clear choices about where we invest and executing with greater speed and consistency. We believe that can accelerate profitable growth, drive share gains, and most importantly,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 950950,
@@ -1136,6 +1160,7 @@
    "t1_ms": 1034869,
    "speaker": "Management",
    "text": "help our customers improve outcomes for patients around the world. With that, let me turn to our third quarter results. Our third quarter came in ahead of our expectations on both the top and bottom line, with biotechnology, life sciences, and diagnostics core revenue, excluding respiratory revenue, all growing mid-single digits or better. Core revenue growth, excluding respiratory revenue, improved to 5.5%. And we delivered a nearly 30% adjusted operating profit margin. These results reflect both improved in-market conditions and the benefit of strong commercial",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 993050,
@@ -1199,6 +1224,7 @@
    "t1_ms": 1078090,
    "speaker": "Management",
    "text": "and operational execution across the portfolio. We're particularly encouraged by the improved momentum we saw across our businesses. Underlying demand across large pharma and biopharma remained robust. Biotech activity continued to strengthen. And while academic demand remained high, demand remained below historic levels, demand improved sequentially. Meanwhile, clinical and applied-in markets remained healthy and continued to perform well. Having spent considerable time with our teams over the past several weeks, I've seen firsthand the talent, innovation, and customer focus that make Danaher unique. Let me walk you through a few notable examples",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1034869,
@@ -1274,6 +1300,7 @@
    "t1_ms": 1120010,
    "speaker": "Management",
    "text": "from across Danaher this quarter. During a recent visit to Cytiva's website in Uppsala, Sweden, I had the opportunity to spend time with the teams developing and manufacturing some of our industry-leading products. Seeing firsthand the depth of science and engineering behind these technologies reinforced my confidence in our competitive position. I was particularly impressed by the process development team and how closely that team works side-by-side with customers to solve their most difficult challenges. We've had a partnership as long been important in traditional monoclonal antibodies, and it becomes even more valuable as our customers move",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1078090,
@@ -1345,6 +1372,7 @@
    "t1_ms": 1162010,
    "speaker": "Management",
    "text": "towards more complex molecules and modalities. We're bringing innovation and process expertise to help customers solve those challenges, and importantly, we're seeing that differentiated approach help us win more specifications with customers. Next, we recently announced our first AI-powered autonomous device. This is the first AI-powered autonomous device that we've launched in the Uppsala University's AI-powered autonomous device lab. Based at Adcam, this lab brings together AI, robotics, and technologies from across our portfolio, including Cytiva, Beckman-Coulter Life Sciences, gene data, IDT, and molecular devices,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1120010,
@@ -1408,6 +1436,7 @@
    "t1_ms": 1206010,
    "speaker": "Management",
    "text": "to offer a connected design, make, and test workflow. By continuously learning from each experiment, the platform is designed to help researchers move from the idea of a single reagent up to eight times faster, while generating up to 10 times higher volume compared to existing models, helping accelerate scientific discovery while providing the rigorous quality and reproducibility required to advance AI-driven drug discovery. Our partnership with NVIDIA, announced last week, will further advance this vision by connecting our instruments and workflows with NVIDIA's capabilities to help shape autonomous science for our customers.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1162010,
@@ -1471,6 +1500,7 @@
    "t1_ms": 1248320,
    "speaker": "Management",
    "text": "On the capital allocation front, Leica Biosystems closed the acquisition of StatLab in early Q4. StatLab strengthens Leica's value proposition by enabling a more complete pathology workflow, while advancing our integrated delivery network strategy, and helping clinicians diagnose cancer faster and more precisely. We're very pleased to welcome the StatLab team to Danaher. Finally, Massimo, our other recent acquisition, continued to track ahead of our initial expectations and delivered another quarter of high single-digit revenue growth. Having spent time with the team just last week,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1206010,
@@ -1526,6 +1556,7 @@
    "t1_ms": 1293320,
    "speaker": "Management",
    "text": "the integration is progressing well across the business with a healthy funnel of cost savings and commercial synergy opportunities. The team has also continued to innovate at an impressive pace, recently receiving FDA clearance for its SmartSep platform, that can help detect atrial fibrillation, a common heart rhythm disorder that often goes undetected and significantly increases the risk of stroke. This technology can help patients earlier who may benefit from further medical evaluation and care. I want to congratulate the Massimo team for their sixth FDA clearance this year and for extending the value of their technology beyond monitoring to help detect important clinical conditions",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1248320,
@@ -1593,6 +1624,7 @@
    "t1_ms": 1335320,
    "speaker": "Management",
    "text": "like atrial fibrillation. And with that, I'll turn the call over to Matt, who will walk you through our Q3 results and guidance in more detail. Thanks, Julie, and good morning, everyone. As Julie stated, we delivered a solid third quarter with better-than-expected growth, earnings, and cash flow. Sales were $6.6 billion, and core growth, excluding respiratory revenue, was up 5.5%. And encouraging 100 basis points acceleration from the second quarter and a continuation of the improvement we've seen throughout the year. Respiratory revenue, while slightly better than expected, represented an approximately 250 basis point headwind in the quarter,",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1293320,
@@ -1652,6 +1684,7 @@
    "t1_ms": 1379760,
    "speaker": "Management",
    "text": "resulting in core revenue growth of 3%. Geographically, core revenues in developed markets were flat. Western Europe grew mid-single digits, and North America was down low single digits, primarily driven by lower respiratory revenue. Core revenues in high-growth markets increased approximately 10%, with healthy growth across all major regions. China was up high single digits, with growth in all three of our segments. Biotechnology and life sciences were supported by healthier funding, and investment levels and diagnostics continued to move beyond the most significant impacts of China's health care policy changes. Our gross profit margin for the third quarter was 58.5%.",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1335320,
@@ -1719,6 +1752,7 @@
    "t1_ms": 1423580,
    "speaker": "Management",
    "text": "Our adjusted operating profit margin of 29% was up 110 basis points, and exceeded expectations, driven primarily by strong operational execution, with a modest benefit from tariff refunds received during the quarter. Adjusted diluted net earnings per common share of $2.11 were up approximately 11.5%. We generated $1.6 billion of free cash flow in the quarter and $4 billion in the first three quarters of the year, resulting in a year-to-date free cash flow to net income conversion ratio of 128%, further underwriting the debt. This is a significant increase in the differentiated quality of our earnings. Now, turning towards our business segments.",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1379760,
@@ -1782,6 +1816,7 @@
    "t1_ms": 1468470,
    "speaker": "Management",
    "text": "Core revenue in our biotechnology segment increased 5%. Core revenue in discovery and medical decreased low single digits, with solid growth in protein research instrumentation more than offset by timing and lab consumables. Core revenue in bioprocessing grew towards the upper end of mid-single digits, modestly better than our expectations. Consumables were up mid-single digits, led by upstream consumables, while equipment increased low single digits. Orders grew mid-teens in the quarter, with particular strength in both upstream consumables as well as regits. There is no change to our full-year expectation of mid-single digit core revenue growth for bioprocessing. Demand trends remain healthy across the business,",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1423580,
@@ -1849,6 +1884,7 @@
    "t1_ms": 1513470,
    "speaker": "Management",
    "text": "supported by strong commercial production activity and a robust pipeline of new programs. These underlying market trends, combined with Cytiva's differentiated portfolio, deep scientific expertise, and recent innovations, reinforce our confidence in the business's ability to deliver sustainable, high single-digit long-term revenue growth, while helping customers improve yields, increase manufacturing efficiency, and scale new therapies. Now, turning to our life sciences segment. Core revenue increased 4.5%. Core revenue in Paul's applied filtration business increased mid-single digits, driven by continued robust growth in aerospace and microelectronics. Core revenue in our life sciences instruments businesses",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1468470,
@@ -1924,6 +1960,7 @@
    "t1_ms": 1556880,
    "speaker": "Management",
    "text": "increased mid-single digits in the quarter. SCIEX led the way with strong demand from pharma and biopharma customers, a modest improvement in U.S. academic spending, and continued momentum for new products, such as Xenotop 8600. Beckman Coulter Life Sciences also delivered strong results, including in automation, where the team has seen increased demand for AI-enabled solutions and services. Core revenue in our life sciences consumables businesses collectively grew low single digits in the quarter, driven by continued momentum in IDT's MRD and next-generation sequencing product lines, while ABCAM saw improved academic demand and solid traction from pharma",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1513470,
@@ -1995,6 +2032,7 @@
    "t1_ms": 1599880,
    "speaker": "Management",
    "text": "and biopharma commercial initiatives. Now, moving to our diagnostic segment. Core revenue growth excluding respiratory revenue was up 7%. Respiratory revenue was an approximately 650 basis point headwind in the quarter, resulting in core revenue growth of 50 basis points. Core revenue in our clinical diagnostics businesses increased mid-single digits in the quarter. We saw notable performance at Leica Biosystems, with particular strong momentum in digital pathology as well as advanced staining. Beckman Coulter Diagnostics also delivered its highest core growth quarter in more than two years. The traction we saw from new product introductions, including the DXi 9000,",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1556880,
@@ -2070,6 +2108,7 @@
    "t1_ms": 1643880,
    "speaker": "Management",
    "text": "together with easing China policy-related headwinds, reinforces our confidence in Beckman's competitive position and ability to accelerate their growth trajectory. In molecular diagnostics, core revenue in Cepheid's non-respiratory business increased low double digits, led by growth in Group A strep, virology, and sexual health assays. Respiratory revenue was approximately 350 million pieces, down year-over-year due primarily to lower global infection rates, but modestly ahead of our expectations as we saw customers purchase ahead of the upcoming respiratory season. Now, let's turn to our fourth quarter and full-year 2026 outlook and give you an initial perspective on how we're thinking about 2027. In the fourth quarter, we expect core revenue growth,",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1599880,
@@ -2145,6 +2184,7 @@
    "t1_ms": 1688700,
    "speaker": "Management",
    "text": "excluding respiratory revenue, to be in the 4-5% range. We expect respiratory revenue to be in the 4-5% range, and we expect core revenue growth to be in the 4-5% range. We expect respiratory revenue to be in approximately 150 basis point headwind. Additionally, we expect a fourth quarter adjusted operating profit margin of approximately 29.5%. For the full year 2026, we are increasing our full-year adjusted diluted net EPS guidance to $8.57 to $8.62 versus our prior range of $8.45 to $8.60. This reflects the benefit of our third quarter and represents double-digit year-over-year EPS growth.",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1643880,
@@ -2212,6 +2252,7 @@
    "t1_ms": 1733700,
    "speaker": "Management",
    "text": "Now, turning to 2027. While it's still too early to provide a formal outlook, we want to give you some perspective on how we're thinking about core growth next year. We're encouraged by the improvement in the end markets and the growth we've delivered throughout 2026. Excluding respiratory revenue, core revenue growth has averaged 4-5% over the past several quarters. So, as we look to 2027, we expect a growth of about 1.5% over the next four to five years. So, as we look to 2027, we think that 4-5% core revenue growth, excluding respiratory revenue, is the right starting point as we sit today. We'll provide a more quantitative and detailed guidance outlook in January, but hopefully this gives you a helpful starting point for how we're thinking about next year.",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 1688700,
@@ -2303,6 +2344,7 @@
    "t1_ms": 1777700,
    "speaker": "Management",
    "text": "With that, I'll turn the call back over to Julie. Thanks, Matt. So, to wrap up, we're pleased to deliver better-than-expected third quarter results and encouraged by the improving growth trends we saw across the business. As I reflect on my first few weeks as CEO, the time I spent with our teams and customers has only strengthened my conviction in the solid foundation Danaher has built. My focus now is simple. Create more value for customers, accelerate innovation, attract and develop great talent, and deploy capital in ways that strengthens Danaher for the long term. These priorities are designed to drive faster and more durable core growth, deliver unambiguous share gains, and more fully translate the strength of our portfolio",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1733700,
@@ -2398,6 +2440,7 @@
    "t1_ms": 1811700,
    "speaker": "Management",
    "text": "into differentiated performance. While realizing the full potential of these opportunities will take time, I am confident that with DBS as our foundation, we're uniquely positioned to turn those opportunities into results for our customers and the patients they serve, our associates, and our shareholders. I'm excited about what we can accomplish together and the results we can deliver as we continue building an even stronger Danaher. So with that, I'll turn the call back over to Rachel. Thanks, Julie. That concludes our formal comments. We're now ready for questions.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1777700,
@@ -2481,6 +2524,7 @@
    "t1_ms": 1837700,
    "speaker": "Operator",
    "text": "Thank you, Rachel. At this time, if you would like to ask a question, please press star 1 on your keypad. To leave the queue at any time, please press star 2. We ask that you please limit yourself to one question and one follow-up. Once again, that is star 1 to ask a question, and our first question will come from Doug Schinkel with UBS. Please go ahead. Hi. Good morning.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1811700,
@@ -2548,6 +2592,7 @@
    "t1_ms": 1880340,
    "speaker": "Analyst",
    "text": "Thank you for taking my questions. And Julie, welcome to the call. So as the new CEO, you're new to the role, but as we all know, you are certainly not new to Danaher. So recognizing that and also that this has been a challenging period for the company, but also that Danaher has a legacy of operational and operational development and is a key part of our business. So I'm excited to hear what you have to say about that. So, Doug, you have a legacy of operational excellence and solid capital deployment. How are you balancing, you know, the legacy of a company that has business school case studies written about its strategy and execution versus the opportunity and need to make change? Essentially, as you sit here today, what's foundational",
+   "name": "Doug Schenkel, UBS",
    "parts": [
     {
      "t0_ms": 1837700,
@@ -2667,6 +2712,7 @@
    "t1_ms": 1885510,
    "speaker": "Analyst",
    "text": "and how do you think about evolving the playbook?",
+   "name": "Doug Schenkel, UBS",
    "parts": [
     {
      "t0_ms": 1880340,
@@ -2682,6 +2728,7 @@
    "t1_ms": 1929510,
    "speaker": "Management",
    "text": "Doug, thank you. And thank you for the thoughtful question. Danaher is a great company and one I am incredibly proud to lead. And we have a great heritage with HBS case studies written about us. And I know exactly what you are referring to as I read that case study when I decided to join Danaher nine years ago. We also have truly unique differentiators that continue to serve us well today. Exceptional talent, a great portfolio, and a continuous improvement culture supported by a business system that is unparalleled. At the same time, as I said earlier, we have a great team of people that are working with us and we have a great team of people that are working with us and we have a great team of people that are working with us and at the same time, as I said in my prepared remarks, we have an opportunity to grow at a higher rate than we have in recent years.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1885510,
@@ -2805,6 +2852,7 @@
    "t1_ms": 1974510,
    "speaker": "Management",
    "text": "And when I talk to our teams, I say that unambiguous share gain is our true report card. So I want to preserve what makes us great, but also ensure we are focused on the most important priorities for who we are today. So let me break that down a bit. You heard me talk about becoming a more connected Danaher. When that Harvard case study was written, our businesses were lower growth markets and our customers typically bought from a single operating company. We are in a very different situation today. Higher growth, scientific markets, with the same customers buying across three, six, twelve operating companies.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1929510,
@@ -2888,6 +2936,7 @@
    "t1_ms": 2019510,
    "speaker": "Management",
    "text": "So we will keep the advantages of our operating company structure in place. I think of that as the accountability of the customer and technical intimacy and the unique development opportunities for our people. But we will also work in a more connected way that makes it easier for customers to access the full power of Danaher. You know, I still talk to customers who are surprised to learn that company XYZ is part of Danaher. And yet we are a strategic partner to those customers. These customers are inevitably interested in a broader conversation that can lead to higher share of wallet for us and better solutions for the customer. And that same thinking,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 1974510,
@@ -2975,6 +3024,7 @@
    "t1_ms": 2063510,
    "speaker": "Management",
    "text": "ensuring we are focused on what matters most for the company we are today, extends to our other priorities. You heard me say we will focus more on commercial excellence. Now that we are in a growthier market, more leadership focus on commercial prowess leads to more value creation. I also spoke about the importance of strategy-led innovation. This is important because our markets today are fueled by scientific discovery. And as a result, we need to know where the puck is going and to make focused, higher impact investments. And talent. For this age and these markets, we need to develop and attract the best AI, science, technology,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2019510,
@@ -3062,6 +3112,7 @@
    "t1_ms": 2103160,
    "speaker": "Management",
    "text": "and operating talent to innovate at the speed of life. And we will want to continue to focus on capital allocation while ensuring we do so in strategically compounding ways to help the flywheel of our businesses turn better and faster. So what you hear me saying is I don't view these priorities as a generic playbook, but as what best enables us to become that defining leader now that we are a fully scaled life sciences and diagnostics company. Thanks for that, Julie.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2063510,
@@ -3137,6 +3188,7 @@
    "t1_ms": 2130160,
    "speaker": "Analyst",
    "text": "One follow-up on your prepared remarks from earlier on the call. You outlined several priorities. What's the biggest one that you expect to have the greatest impact over the near term, say over the next 12 to 18 months? And what operating or financial metrics should investors use to assess progress pursuant to that top priority? Sure. You know, step one is really to be able to get the best and the most effective",
+   "name": "Doug Schenkel, UBS",
    "parts": [
     {
      "t0_ms": 2103160,
@@ -3208,6 +3260,7 @@
    "t1_ms": 2174160,
    "speaker": "Management",
    "text": "investment in the market. And that's really important. And step one is really prioritizing and aligning our teams around accelerated profitable growth and unambiguous share gain as the report card. And that's what our investors should be looking for. And that leads to a clear near-term opportunity to further drive commercial excellence across the enterprise. This means being super clear on simple but powerful expectations for our sales team and what leaders will drive and inspect. And frankly, this is where DBS creates a real advantage for us. What will then further accelerate this is when we consistently show up as a more connected Danaher.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2130160,
@@ -3307,6 +3360,7 @@
    "t1_ms": 2219160,
    "speaker": "Management",
    "text": "There are pockets across the business where this is working extremely well. I mentioned we've seen a lot of success with this in diagnostics where we started to speak to customers as diagnostic solutions in addition to individual operating companies. And this has led to much more senior and strategic dialogues and value propositions that have created several hundred millions of dollars of opportunity in a short time. We are also seeing this in our life sciences approach to the new tech bios. And we have approached these AI native drug development companies this way from the start. And I really like the traction we are seeing. And one of the things",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2174160,
@@ -3410,6 +3464,7 @@
    "t1_ms": 2250120,
    "speaker": "Management",
    "text": "I've been looking at and pleased to learn over the course of my transition to CEO is that when I talk to customers across all three of our platforms, they want to see more of this from us. So, you know, these changes will take some time, but our report card is higher core growth, profitable core growth, and unambiguous share gain.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2219160,
@@ -3465,6 +3520,7 @@
    "t1_ms": 2257120,
    "speaker": "Operator",
    "text": "Thank you. Our next question will come from Vijay Kumar with Evercore ISI. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2250120,
@@ -3492,6 +3548,7 @@
    "t1_ms": 2300120,
    "speaker": "Analyst",
    "text": "Hi, guys. Good morning, and thank you for taking my question. And Julie, congratulations to you. I guess my first question, Matt, I think you made some helpful comments here on the FSFL 27 framework. I'm curious, when I look at your bioprocessing segments, came in quite solid here in 3Q, and you have a few moving pieces in your 27. The instrument orders have been quite solid here year to date. You could see some activity from onshoring. You do have a catch up from this order push out and consumables. So I'm curious, should bioprocessing be pushing very high singles, low double digits, you know, when you think about FSFL 27?",
+   "name": "Vijay Kumar, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2257120,
@@ -3583,6 +3640,7 @@
    "t1_ms": 2343120,
    "speaker": "Management",
    "text": "Yeah, Vijay, thanks for the question here. So I think just to start with bioprocessing here for 26 and how we feel like we're going to finish the year. So no change to our full year expectations for 2026 for bioprocessing. Mid single digit core growth. We saw Q3 was actually a bit better than we expected the upper end of that mid single digit range. And from an orders perspective, they remain strong. Mid teens order growth that was led by upstream consumables as well as resins. So given order trends and those order trends that we're seeing, we'd expect to see bioprocessing growth rates continue to improve in 2027. We gave that overall Danaher,",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2300120,
@@ -3662,6 +3720,7 @@
    "t1_ms": 2386120,
    "speaker": "Management",
    "text": "outlook of 4 to 5% core growth, extra respiratory as we want to get through our planning processes. And as we'll do with the rest of our businesses, we want to see how Q4 shapes up here before we provide more formal guidance, whether it's around bioprocessing or the other segments here. But all in, good to see the order trajectory view bioprocessing long term as a high single digit growth business and encouraged by what we're seeing. And, you know, Vijay, I can add a little bit of color here, because as you would imagine, this is a place where I've spent quite a bit of time recently, both with the team and with customers. And, you know, my conclusion is we have a differentiated portfolio with the most",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 2343120,
@@ -3733,6 +3792,7 @@
    "t1_ms": 2431120,
    "speaker": "Management",
    "text": "comprehensive offering and bioprocessing. And this really positions us to win with virtually any customer across nearly every step of the workflow. You know, we like the secular drivers. There's a record number of monoclonal antibodies. We have monoclonal antibodies coming to market. The acceleration of biosimilars and newer modalities like the antibody drug conjugate cell therapy, the bi-tri specifics are adding to the volume and of course the reshoring opportunity. And as I meet with customers, it is clear they value us as a critical partner and not just a supplier. They bring to us their most critical problems and we are very good at solving them.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2386120,
@@ -3804,6 +3864,7 @@
    "t1_ms": 2440120,
    "speaker": "Management",
    "text": "So all in, very confident that bioprocessing is a high single digit business here over the long term, as Matt has said.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2431120,
@@ -3831,6 +3892,7 @@
    "t1_ms": 2469120,
    "speaker": "Analyst",
    "text": "That's helpful, Julie. And maybe one for you on capital deployment. Love to hear your views on capital deployment. You know, you come from diagnostics. We've seen a couple of acquisitions within this segment. How are you thinking of M&A opportunities and areas of interest for Danahar? And the reason I ask on areas of interest, is that kind of signaling a more a meta-curt, if you will, or how are you thinking of areas of priorities?",
+   "name": "Vijay Kumar, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2440120,
@@ -3890,6 +3952,7 @@
    "t1_ms": 2513430,
    "speaker": "Management",
    "text": "Yeah, thanks Vijay. M&A remains our bias for capital allocation as we think it's the best way to compound returns over the long term. And we're going to continue to look for strategically compounding M&A. And of course we'll keep a robust investment criteria that has served us well for decades. And we see Massimo and just recently here, StatLab as good examples of this. And I see opportunities to strengthen all three of our platforms, both organically and inorganically through M&A. You know,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2469120,
@@ -3949,6 +4012,7 @@
    "t1_ms": 2555430,
    "speaker": "Management",
    "text": "you talk about Massimo. I actually don't see that as a med tech M&A play. I see it as a continuous diagnostic that is strategically compounding with our diagnostics business. We already see the commercial synergies at work and we're able to have scientific conversations around how the combination of continuous monitoring and biomarkers can lead to better outcomes for patients. So just another example of something that we view as a, strategically compounding. There's certainly no bias here to med tech. Thank you. Our next question comes from Tycho Peterson with Jefferies. Please go ahead. Hey, thanks.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2513430,
@@ -4016,6 +4080,7 @@
    "t1_ms": 2564900,
    "speaker": "Operator",
    "text": "Matt, I want to stress test the assumptions you kind of put out for next year, the four to 5%. I have a lot of people asking why you're not kind of accelerating here. Appreciate your comments on bio production. You know, a minute ago you had the order of resident delays, obviously in biotech that should come through. You don't have the China VBP headwinds.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2555430,
@@ -4055,6 +4120,7 @@
    "t1_ms": 2596780,
    "speaker": "Analyst",
    "text": "You don't have the China VBP headwinds. You don't have the China VBP headwinds. You don't have the China VBP headwinds. You don't have the China VBP headwinds. You don't have the China VBP headwinds. You've got recovering biotech, academic picking up a bit. So, you know, why on earth would X respiratory be the same? I think, you know, you kind of alluded to the fact you just want to see how 4Q shapes up and four to five is maybe a floor, but maybe get us comfortable there's something that you're not baking in that's getting worse. Hey, Tycho. This is Julie, of course. So, you know, as not to be a big fan of the COVID-19 pandemic, I think it's important to be aware of the fact that we're in a time of crisis. And I think that's something that we need to be aware of. And I think that's something that we need to be aware of. And I think that's something that we need to be aware of. And I think that's something that we need to be aware of. So, you know, as not to be a big fan of the COVID-19 pandemic, I think it's important to be aware of the fact that we're in a time of crisis. And I think that's something that we need to be aware of. So, you know, as not to be a big fan of the COVID-19 pandemic, I think it's important to be aware of the fact that we're in a time of crisis. And I think that's something that we need to be aware of. So, you know, why on earth would X respiratory be the same? I think, you know, you kind of alluded to the fact you just want to see how 4Q shapes up and four to five is maybe a floor, but maybe get us comfortable there's something that you're not baking in that's getting worse.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2564900,
@@ -4178,6 +4244,7 @@
    "t1_ms": 2640480,
    "speaker": "Management",
    "text": "Hey, Tycho. This is Julie, of course. As Matt discussed, we've delivered core growth ex-respiratory in the 4% to 5% range the last few quarters, and so we think that's a reasonable starting point for 2027 based on the current in-market conditions. I'm only a few weeks into the CEO role, but the time I spent with our teams and customers has certainly reinforced my confidence in our positioning and the improving in markets, but we really want to work through our typical planning process here that we go through in Q4, and then we will provide you a more quantitative outlook in January.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2596780,
@@ -4221,6 +4288,7 @@
    "t1_ms": 2669870,
    "speaker": "Analyst",
    "text": "Okay. And then follow-up, Julie, on diagnostics. You know, on respiratory, you guys did a good job walking down expectations for respiratory this year. You know, I understand a weak flu season overall, but why another $100 million cut when the data is starting to turn here, 3Q came in above? Is that conservatism, or, you know, are you seeing something in the data that leads to, you know, a new wave of COVID-19? Yeah. So, I think that's a good answer to the cut here, and then as we think about 27, we have a lot of questions about the endemic rate. Is $1.5 billion the right way to think about it, or how do you think about the new endemic rate?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2642990,
@@ -4276,6 +4344,7 @@
    "t1_ms": 2710990,
    "speaker": "Management",
    "text": "Yeah, Teiko, so we are planning for $1.5 billion in respiratory this year, and I think that's also the right starting point for next year as well, and really what I want to do here is to create an expectation for a down-the-middle-of-the-road flu season. And as you know, there is variability in flu seasons year to year, season to season, and yes, that can create a couple hundred million dollars of bookends around that number. What we're seeing in Q4 sounds like you follow it.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2671650,
@@ -4311,6 +4380,7 @@
    "t1_ms": 2751470,
    "speaker": "Management",
    "text": "As you know, you know, we've been lower than last year almost every week this year. There's been just this little bit of a tick up recently, but we think that's way, way too early to call, and you really can't say much about the flu season until you see that ILI curve tick above 3%, and then you're sort of officially in the season, and that doesn't typically happen to late November, early December, after everyone's enjoyed some Thanksgiving turkey. So at this point, we think it's prudent just to call what we now see as that more typical down-the-road flu season.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2710990,
@@ -4354,6 +4424,7 @@
    "t1_ms": 2761880,
    "speaker": "Operator",
    "text": "Thank you. Our next question will come from Jack Meehan with Opron Research. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2751490,
@@ -4377,6 +4448,7 @@
    "t1_ms": 2785780,
    "speaker": "Analyst",
    "text": "Thank you, and good morning. Julie, I wanted to poll you a little bit more on your views on AI. I appreciate all the emphasis that got in your opening remarks. Just would love to hear from you now that you're in the CEO seat, just how you think about the implications for Danaher, and any updates you can share around how you're deploying it with DBS?",
+   "name": "Jack Meehan, Nephron Research",
    "parts": [
     {
      "t0_ms": 2762320,
@@ -4412,6 +4484,7 @@
    "t1_ms": 2830340,
    "speaker": "Management",
    "text": "Sure. Yeah. So thanks for the question. We see AI-driven drug discovery as a significant long-term opportunity for us, and in my view, it will clearly make the world a healthier place, which is incredibly exciting. And we believe that Danaher is uniquely positioned to help shape this market, frankly, because we have all of the building blocks. You know, our breadth as Danaher has always been a very, very important part of our business, and we're very proud of that. So it's been a competitive advantage for us. But even more so, I believe that will be the case in the age of AI. So we have all five pieces of the equation needed.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2786100,
@@ -4471,6 +4544,7 @@
    "t1_ms": 2874380,
    "speaker": "Management",
    "text": "We have the instruments. Think about molecular devices, SIEX, Leica Micro. We have the consumables, IDT, Adcam. We have the automation, BECLS, our Automata partner. Thank you. We have the software and gene data and IDBS. And lastly, we have the scale that makes us a priority for the frontier labs. So while it's not material today, we have started to see a modest benefit to our orders and revenue. And frankly, it's at the forefront of every customer conversation I have in life science.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2830340,
@@ -4518,6 +4592,7 @@
    "t1_ms": 2916980,
    "speaker": "Management",
    "text": "And it's our ambition. We're committed to be a leading partner as our customers adopt AI. And we believe the full power of our platforms positions us exceptionally well to use AI to help accelerate scientific discovery. And of course, we're also using it internally. You know, I think that DBS and AI have a really natural synergy. As a company, culturally, we accept AI as a tool. We're committed to it. We're committed to it. We're committed to it. We're committed to it. We're committed to it. We're committed to it. And certainly we want to be useful in that. And so we're doing a lot of research on this. And we've done a lot of research on it. So we're doing a lot of research on field research and also looking at a lot of research and Measured predictive Process Model. We're doing some work on that right now. And we've also started to see a fair amount of data about processes and identifying the critical path in that process.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2874380,
@@ -4609,6 +4684,7 @@
    "t1_ms": 2933980,
    "speaker": "Management",
    "text": "And that enables us to focus AI on where it's going to create the most value for us. And then we have the ability to follow that up with strong KPIs and daily management. I think that's going to be a really powerful combination as we roll out AI here.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2916980,
@@ -4632,6 +4708,7 @@
    "t1_ms": 2952120,
    "speaker": "Analyst",
    "text": "Excellent. And then maybe just would be great to double-click a little bit on some of the announcements that have come out related to AI, whether it's with NVIDIA or the Autonomous Lab LabCam. Just like what's the bigger strategy here? Is there a potential to broaden some of these things across the organization?",
+   "name": "Jack Meehan, Nephron Research",
    "parts": [
     {
      "t0_ms": 2933980,
@@ -4659,6 +4736,7 @@
    "t1_ms": 2997400,
    "speaker": "Management",
    "text": "Sure. Yeah, we were very excited to announce our plans for our first AI-powered autonomous lab. And that brings together AI, robotics, and technologies from across Danaher into an integrated continuous learning workflow. So the simplest way to think about this is that we are working to connect AI to the physical experiment. Lots of organizations can ask AI what their next experiment should be. I still remember the first time I saw that work. It was amazing. But we can. We can do more. Our autonomous lab has AI design the experiment.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2953360,
@@ -4710,6 +4788,7 @@
    "t1_ms": 3039500,
    "speaker": "Management",
    "text": "And then our technology makes the reagents and tests those reagents. And then the results be the next experiment. So this creates a full design, make, test, closed loop, which is leading to 8x faster discovery of reagents in a 10x productivity environment. So that's the first step. And then the second step is the final enhancement. And the autonomous lab, that's something that we are starting here within Danaher. We've gotten a lot of customer interest in it. And customers even, you know, going to see that at work at our AB-CAM facility.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 2997920,
@@ -4757,6 +4836,7 @@
    "t1_ms": 3082800,
    "speaker": "Management",
    "text": "So we want to demonstrate that we can do it in Danaher and then work with our customers. The NVIDIA collaboration is also something that we've been working on for a long time. And we've been working on it for a long time. And it's something we recently announced. And there we're collaborating with NVIDIA to help accelerate the adoption of AI and scientific research in drug discovery. And the goal is to combine our instruments, automation, and software with NVIDIA's AI and advanced computing technologies. So this means more intelligent instruments and automated lab workflows via edge computing. And it means exploring AI and advanced computing technologies. And it means developing AI models in digital twins to simulate",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3039820,
@@ -4812,6 +4892,7 @@
    "t1_ms": 3114780,
    "speaker": "Management",
    "text": "and optimize experiments before running them. So a lot of work underway here with NVIDIA. And we're excited to build on the collaboration over time. And frankly, we're also working with Anthropic. And you probably saw some of the model hardware standards that were part of their research preview program. And this is about making our instruments easier to connect to other agents. And this is about making our instruments easier to connect to other agents. and other instruments. So we think that's an important part of utilizing the value of our breadth.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3082800,
@@ -4859,6 +4940,7 @@
    "t1_ms": 3124220,
    "speaker": "Operator",
    "text": "Thank you. Our next question will come from Scott Davis with Milius Research. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3117960,
@@ -4874,6 +4956,7 @@
    "t1_ms": 3161780,
    "speaker": "Analyst",
    "text": "Hey, good morning, Julie and Matt and Rachel. Julie, I wanted to dig into this commercial execution just a little bit because it sounds easy and I'm sure it's incredibly difficult. So what's the first step? Do you have to change compensation schemes? Do you have to change out people? I mean, how do you really drive? I mean, I'm sure Reiner cared about commercial execution. So how do you really drive change at the pace that you want to drive? Do you have to change, I think, some processes and structure around that to get",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 3125560,
@@ -4909,6 +4992,7 @@
    "t1_ms": 3204680,
    "speaker": "Management",
    "text": "there? Yeah, you know, thanks for the thoughtful question. You know, there's a couple of steps here. You know, one in terms of commercial execution, I am a fanatic on what we referred to at Dan or Her as the commercial standard condition. And this is really taking DBS down to a very simple place and being extremely clear about what we expect from our sales teams. And we've really doubled down on that in diagnostics. And the other platforms have taken that as, you know, some inspiration and have been holding workshops to make sure that we are doing the",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3161780,
@@ -4944,6 +5028,7 @@
    "t1_ms": 3243200,
    "speaker": "Management",
    "text": "same. And one of the things that's interesting is we're even experimenting with how AI can make how we coach and inspect our sales results even simpler, which I think is a really exciting opportunity for us. And then when it comes to this more connected, selling process, you know, it's both easy and difficult. And I think that it's easy when you kind of get the incentives right. And you touched on that. When we first started doing this in",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3204680,
@@ -4975,6 +5060,7 @@
    "t1_ms": 3276000,
    "speaker": "Management",
    "text": "diagnostics, one of our rules is when we have a solutions group team go out and talk to customers, no one's incentives are ever hurt. And frankly, the opportunity is, you know, it's just not clear enough here that I'm happy to double pay on incentives. Because as you're using the power of to increase our share of wallet with customers, there's a significant win-win opportunities there to go after. Thanks for the question.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3243200,
@@ -5006,6 +5092,7 @@
    "t1_ms": 3314660,
    "speaker": "Analyst",
    "text": "And no, thanks for the answer and the high integrity of that answer. But I'm going to ask the same exact question around M&A because clearly there's, you know, Daner's 50-year history. There's a a long history of very successful M&A, and there's been a few stinkers in there, obviously, that have impacted your portfolio of late. But how do you change? I mean, do you feel the need to change the process? And again, I was asking in kind of the same way, process over the people. Do you change kind of how you work the funnel? I mean, how do you drive to that",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 3276000,
@@ -5041,6 +5128,7 @@
    "t1_ms": 3337400,
    "speaker": "Analyst",
    "text": "lower risk, higher consistency, higher return kind of mandate and still put capital to work? Because I've seen other companies go through these stages and they kind of freeze. They become afraid to do deals because they're afraid to make a mistake. So how do you keep that flywheel moving so that you're putting capital to work, but increase your hit rate from here?",
+   "name": "Scott Davis, Melius Research",
    "parts": [
     {
      "t0_ms": 3314660,
@@ -5068,6 +5156,7 @@
    "t1_ms": 3374640,
    "speaker": "Management",
    "text": "Yeah, no, thank you for the question. We certainly don't want to freeze capital allocation. Application remains a priority for us. And frankly, we have great processes and great teams for M&A. So you mentioned some that haven't performed as well in the recent path. And I think as a company, we have learned from that. But our focus is really just ensuring that we're doing strategically compounding M&A with a robust return profile.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3338840,
@@ -5103,6 +5192,7 @@
    "t1_ms": 3387500,
    "speaker": "Management",
    "text": "And if you look at our recent deals, obviously it's early days, but I think that they will be strong returns for us and strategically compounding.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3374660,
@@ -5122,6 +5212,7 @@
    "t1_ms": 3397190,
    "speaker": "Operator",
    "text": "Thank you. Our next question will come from Casey Woodring with JPMorgan. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3391550,
@@ -5137,6 +5228,7 @@
    "t1_ms": 3417470,
    "speaker": "Analyst",
    "text": "Great. Thank you for taking my questions. And Julie, looking forward to working with you. Maybe a follow-up to an earlier question, but just on Massimo, you talked a little bit about how you view the business. How do you see the business as a whole? How do you see the business fitting into Danaher? And you obviously led that deal as head of diagnostics, but maybe can you just walk through the current trends you're seeing in that business and how we should think about Massimo contribution next year?",
+   "name": "Casey Woodring, JPMorgan",
    "parts": [
     {
      "t0_ms": 3398790,
@@ -5172,6 +5264,7 @@
    "t1_ms": 3459110,
    "speaker": "Management",
    "text": "Yeah, thank you for the question. Massimo is off to a great start. They delivered high single digits here in Q3, their first full quarter as part of Danaher and year to date as well. And I was just with the team last week. The integration, the implementation is progressing extremely well. They've already completed in our, in sustainment for over 10 Kaizens with more planned along the way. And frankly, it's just tremendously rewarding to work with that team and see them get excited about DBS,",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3419030,
@@ -5207,6 +5300,7 @@
    "t1_ms": 3497850,
    "speaker": "Management",
    "text": "how the lean thinking can support a better cost position, better on-premise, on-time delivery for the customers. And then also, you know, we have a healthy funnel of the commercial synergies that we were anticipating. And, you know, in true Danaher fashion, we will also learn from Massimo. We're extremely impressed by their rate of innovation and some of their commercial techniques as well. And that's always been part of what makes Danaher stronger.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3459110,
@@ -5242,6 +5336,7 @@
    "t1_ms": 3524180,
    "speaker": "Analyst",
    "text": "Understood. That's helpful. And then, you know, maybe as a follow-up, you called out mid-teens order growth and bioprocessing. If you could maybe just double click on the equipment piece of that order growth, you know, maybe parse out how much pent up demand you're seeing over the last several quarters. And then we'll also be curious to hear on reshoring as well, kind of what you're seeing from an order perspective there and how reshoring could potentially contribute to growth",
+   "name": "Casey Woodring, JPMorgan",
    "parts": [
     {
      "t0_ms": 3498150,
@@ -5273,6 +5368,7 @@
    "t1_ms": 3564000,
    "speaker": "Management",
    "text": "in 27. Thank you. Sure, Casey. I'll take the order growth part of the question. And then kick it over to Julie for reshoring. So another quarter of mid-teens order growth overall in bioprocessing that was led by upstream consumables as well as resins, encouraged by those trends, continue to build backlog here. And also when you think about equipment versus consumable orders year to date, both up nicely with those equipment orders continuing in that strong double-digit range. So really supportive of those improving on end market and underlying trends in the business. Yes. And, Casey, I think it's important to note that we're not only looking at the end market, but also looking at the end of the year. So we're looking at the end of the year. And so we're looking at the end of the year. And so we're looking at the end of the year. And so we're looking at the end of the year. And so we're looking at the end of the year. And so we're looking at the end of the year. And so we're looking at the end of the year. Yes. And, Casey, on reshoring, I mean, reshoring is playing out largely as we expected.",
+   "name": "Matt Pagino, EVP and CFO",
    "parts": [
     {
      "t0_ms": 3524180,
@@ -5332,6 +5428,7 @@
    "t1_ms": 3603180,
    "speaker": "Management",
    "text": "We're seeing some brownfield activity today, and that has a modest impact to our order book at the moment. Those larger greenfield projects are still in the planning phases. The funnel and quoting activity is beginning to pick up. But we see that as more of a 2020 8-plus event in terms of when it starts to hit the P&L. We do think this is a strong opportunity ultimately for the business and it could be a billion dollar market opportunity in the U.S. but as I said we'll expect",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3564380,
@@ -5363,6 +5460,7 @@
    "t1_ms": 3613710,
    "speaker": "Management",
    "text": "it to play out across several years mostly starting in 2028. Thank you. Our last question",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3603180,
@@ -5378,6 +5476,7 @@
    "t1_ms": 3620110,
    "speaker": "Operator",
    "text": "will come from Evie Kozlowski with Goldman Sachs. Please go ahead. Great thank you for squeezing me",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3613710,
@@ -5393,6 +5492,7 @@
    "t1_ms": 3644270,
    "speaker": "Analyst",
    "text": "in and Julie congrats on the new role. So within life sciences maybe walk through the key end markets of where we are in the recovery within academic and then biotech but maybe specifically within emerging biotech and then also within industrial and semis and then what are you hearing from customers in terms of where they are with spending versus kind of where we still have room in the recovery and any areas that investors should look for for potential acceleration and",
+   "name": "Evan Kozlowski, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 3620110,
@@ -5424,6 +5524,7 @@
    "t1_ms": 3686930,
    "speaker": "Management",
    "text": "leverage for upside into next year. Great thank you Evie for the question. So you know So you saw here in Q3, we grew 4.5% and finished above our expectations, driven by the improving in markets and the traction and some recent commercial initiatives, as well as some new product launches. And frankly, this is the third quarter in a row where life sciences has beat our internal expectations. The in markets continue to steadily improve. Large pharma and biopharma remained robust. Biotech funding is reading through.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3644270,
@@ -5471,6 +5572,7 @@
    "t1_ms": 3731130,
    "speaker": "Management",
    "text": "Academic demand still below historic levels, but improved modestly, sequentially. And we saw continued strength in clinical and applied markets, including in micro E at Paul. And our customers, they are really interested. And we're starting to see that. We're starting to see some of that early demand for the AI driven workflow solutions. And that's first starting to show up in automation at Beckman Life Sciences. And as I mentioned, I think we're very well positioned here in AI. Customers like the breadth of our portfolio.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3686930,
@@ -5518,6 +5620,7 @@
    "t1_ms": 3746020,
    "speaker": "Management",
    "text": "And we will turn that into a value proposition for them that's around ease of integration through common funding. So that's really exciting. And I think we've got standards across the instrument.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "parts": [
     {
      "t0_ms": 3731130,
@@ -5545,6 +5648,7 @@
    "t1_ms": 3752780,
    "speaker": "Operator",
    "text": "We've now reached our allotted time for questions. And I'd like to turn the call back over to Rachel for any additional or closing remarks.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3746020,
@@ -5564,6 +5668,7 @@
    "t1_ms": 3762020,
    "speaker": "Management",
    "text": "Perfect. Thank you, operator. Thank you, everyone, for joining us today, this morning. We'll be around the rest of the day in the week for follow ups if any of you have questions. Thank you.",
+   "name": "Rachel Bottenstall, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 3752780,
@@ -5595,6 +5700,7 @@
    "t1_ms": 3770300,
    "speaker": "Operator",
    "text": "Thank you, ladies and gentlemen. This brings us to the end of today's meeting. We appreciate your time and participation. And you may now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3762020,
@@ -9220,6 +9326,7 @@
    "quote": "Higher growth, scientific markets, with the same customers buying across three, six, twelve operating companies.",
    "adj_ret_5m": 0.020943681804398206,
    "speaker": "Management",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "vol_mult": 99.78649604604365,
    "spillover": "company"
   }
@@ -9233,6 +9340,7 @@
    "t0_ms": 1965510,
    "speaker": "Management",
    "quote": "Higher growth, scientific markets, with the same customers buying across three, six, twelve operating companies.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "metric": "customer cross-buying across operating companies",
    "kind": "qualitative",
    "novel": true,
@@ -9265,6 +9373,7 @@
    "t0_ms": 2192160,
    "speaker": "Management",
    "quote": "And this has led to much more senior and strategic dialogues and value propositions that have created several hundred millions of dollars of opportunity in a short time.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "metric": "diagnostics commercial opportunity created",
    "kind": "result",
    "novel": true,
@@ -9297,6 +9406,7 @@
    "t0_ms": 1683700,
    "speaker": "Management",
    "quote": "This reflects the benefit of our third quarter and represents double-digit year-over-year EPS growth.",
+   "name": "Matt Pagino, EVP and CFO",
    "metric": "Adjusted EPS growth",
    "kind": "guidance",
    "novel": true,
@@ -9329,6 +9439,7 @@
    "t0_ms": 3666910,
    "speaker": "Management",
    "quote": "And frankly, this is the third quarter in a row where life sciences has beat our internal expectations.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "metric": "life sciences vs internal expectations",
    "kind": "result",
    "novel": true,
@@ -9361,6 +9472,7 @@
    "t0_ms": 641000,
    "speaker": "Management",
    "quote": "We will also fund transformational opportunities at the enterprise level when we believe Danaher has a clear right to win and larger investment can create meaningful competitive advantage.",
+   "name": "Julie Sawyer-Montgomery, President and CEO",
    "metric": "enterprise-level R&D funding",
    "kind": "guidance",
    "novel": true,
@@ -9531,14 +9643,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 430.0,
   "gpu_usd": 0.1523,
-  "claude_s": 81.0,
+  "claude_s": 8.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 18457,
-   "output_tokens": 12778,
-   "cache_read_input_tokens": 50928,
-   "cache_creation_input_tokens": 25464
+   "input_tokens": 2,
+   "output_tokens": 839,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 19150
   },
-  "claude_usd": 0.2334
+  "claude_usd": 0.0612
  },
  "context": {
   "ts": [

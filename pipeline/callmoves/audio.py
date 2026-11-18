@@ -1,8 +1,7 @@
 """Call audio for the web player: transcodes to small mono MP3 and uploads it to the public Hugging Face dataset
-`jchen04/callmoves-audio`, which serves files with CORS and range requests and has no storage cap.
-
-The first 45 calls stay in the public Supabase bucket `callmoves-audio`, which is nearly at the free plan's 1 GB.
-Uploading needs HF_TOKEN (write access to the dataset) in pipeline/.env.
+`jchen04/callmoves-audio`, which serves files with CORS and range requests and has no hard storage cap for public
+datasets. The first 45 calls moved there byte for byte from the Supabase bucket `callmoves-audio` on 2026-11-17,
+when it neared the free plan's 1 GB. Uploading needs HF_TOKEN (write access to the dataset) in pipeline/.env.
 """
 from __future__ import annotations
 

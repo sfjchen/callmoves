@@ -44,7 +44,7 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
             <div style={{ display: "flex", marginTop: 20, fontSize: 36, lineHeight: 1.3 }}>
               {`\u201c${clip(m.quote, 170)}\u201d`}</div>
             <div style={{ display: "flex", marginTop: "auto", color: PAL.muted, fontSize: 24 }}>
-              {`${shortSpeaker(m.speaker)}, ${m.section === "qa" ? "Q&A" : "prepared remarks"}`}</div>
+              {`${shortSpeaker(m.speaker, m.name)}, ${m.section === "qa" ? "Q&A" : "prepared remarks"}`}</div>
           </div>
         ) : (
           <div style={{ display: "flex", marginTop: 48, fontSize: 36, color: PAL.muted }}>

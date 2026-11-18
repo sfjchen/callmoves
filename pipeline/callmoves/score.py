@@ -120,7 +120,7 @@ def rank_moments(claims: list[Claim], segments: list[Segment], bars: pd.DataFram
         asked = [s for s in segments if in_qa and qa_ms <= s.t0_ms < seg.t0_ms and "Analyst" in s.speaker]
         moments.append(Moment(
             rank=len(moments) + 1, claim_id=c.claim_id, seg_id=c.seg_id, ts=c.ts, t0_ms=seg.time_of(c.quote),
-            speaker=c.speaker, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
+            speaker=c.speaker, name=seg.name, quote=c.quote, metric=c.metric, kind=c.kind, novel=bool(c.novel),
             matched_doc=c.matched_doc, matched_text=c.matched_text, adj_ret_5m=w["adj_ret"], ret_5m=w["ret"],
             etf_ret_5m=w["etf_ret"], bench_ret_5m=w.get("bench_ret"),
             spy_ret_5m=w.get("spy_ret"), peer_ret_5m=w.get("peer_ret"),

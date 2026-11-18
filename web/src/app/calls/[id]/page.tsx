@@ -30,7 +30,7 @@ function strip(call: CallOutput, keepBar: (b: Bar) => boolean, keepSeg: (s: Segm
     bars: call.bars.filter(keepBar).map((b) => ({ ts: b.ts, cum_adj_ret: b.cum_adj_ret, vol_mult: b.vol_mult,
       flagged: false })),
     segments: call.segments.filter(keepSeg).map((s) => ({ seg_id: s.seg_id, t0_ms: s.t0_ms, speaker: s.speaker,
-      text: s.text, adj_ret_5m: null })),
+      name: s.name, text: s.text, adj_ret_5m: null })),
   };
 }
 
@@ -73,7 +73,7 @@ export default async function CallPage({ params, searchParams }: PageProps<"/cal
     const cut = new Date(call.call.call_start).getTime() - (call.call.audio_offset_ms ?? 0) + top.t0_ms;
     const data = strip(call, (b) => new Date(b.ts).getTime() + MIN_MS <= cut, (s) => s.t0_ms <= top.t0_ms);
     return <Replay data={data} guess={{ ms: top.t0_ms, quote: top.quote, speaker: top.speaker,
-      bench: benchName(call) }} />;
+      name: top.name, bench: benchName(call) }} />;
   }
   const pid = typeof sp.p === "string" && /^[A-Za-z0-9-]{4,40}$/.test(sp.p) ? sp.p : null;
   const study = pid && (sp.study === "callmoves" || sp.study === "baseline") ? sp.study : null;

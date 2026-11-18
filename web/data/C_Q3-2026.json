@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-13T15:00:00Z",
   "etf": "XLF",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/C_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/C_Q3-2026.mp3",
   "company": "Citigroup",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 24000,
    "speaker": "Operator",
    "text": "Hello and welcome to Citi's third quarter 2026 earnings call. Today's call will be hosted by Margo Pillich, head of Citi Strategy, M&A and Investor Relations. We ask that you please hold all questions until the completion of the formal remarks, at which time you will be given instructions for the question and answer session. Also as a reminder, this conference is being recorded today. If you have any objections, please disconnect at this time.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -47,6 +48,7 @@
    "t1_ms": 65200,
    "speaker": "Management",
    "text": "Ms. Pillich, you may begin. Thank you, operator. Good morning and thank you all for joining our third quarter 2026 earnings call. I am joined today by our chair and chief executive officer, Jane Fraser, and our chief financial officer, Gonzalo Lucchetti. I'd like to remind you that today's presentation, which is available for download on our website, citigroup.com, may contain forward-looking statements which are based on management's current expectations and are subject to uncertainty and changes in circumstances. Actual results may differ materially from these statements due to a variety of factors, including those described in our earnings materials as well as in our SEC filings.",
+   "name": "Margo Pillich, Head of Citi Strategy, M&A and Investor Relations",
    "parts": [
     {
      "t0_ms": 24000,
@@ -90,6 +92,7 @@
    "t1_ms": 109520,
    "speaker": "Management",
    "text": "And with that, I'll turn it over to Jane. Thank you, Margo, and good morning to everyone. This morning, we reported net income of $5.2 billion for the third quarter, with an EPS of $2.85 and an ROTC of 11.5%. Our returns improved meaningfully in services, banking, wealth, and U.S. consumer cards. The firm's ROTC grew by 180 basis points over last year, and our net income was up 17%. With revenues up 8% year over year, we delivered our best third quarter revenue in a decade, and we saw revenue growth in four out of",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 65200,
@@ -125,6 +128,7 @@
    "t1_ms": 149440,
    "speaker": "Management",
    "text": "our five businesses. As previously shared, we pulled some of our planned investments and severance into this quarter. We remained very intentional around our expenses and our investments in talent and technology. Even with this pull forward, we delivered positive operating leverage, holding expense growth to 3%, excluding last year's notable item. Our overall performance continues to demonstrate the disciplined and consistent execution of our strategy. Now let's go through our five businesses. This was another standout quarter in services,",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 109520,
@@ -160,6 +164,7 @@
    "t1_ms": 191520,
    "speaker": "Management",
    "text": "with revenues up 15%. Growth was broad-based across every driver, from deposits to commercial card spend, and we saw continued momentum in trade loans and cross-border activity across the network. We continue to lead through innovation, bringing new real-time capabilities to our clients, with the launch of CitiToken services in the UAE and Japan, and the introduction of Custody Plus. Assets under Custody and Administration grew by 16%, and we are laser-focused on winning and onboarding further new mandates. In markets, revenues were",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 149440,
@@ -195,6 +200,7 @@
    "t1_ms": 234320,
    "speaker": "Management",
    "text": "up 6%. Equities revenues were up 14%, driven by our performance in prime and in Asia, where we have been investing to gain share. FIC was up 4%. Rates was pressured by the trading environment, but we saw good growth in FX and spread products, both stable revenue streams. In banking, revenues were up 6%. We performed particularly well in ECM, where we played meaningful roles in the six largest transactions of the quarter, including leading SK Hynex, the largest ever IPO of an Asian-based issuer. And in leverage finance, we led SoftBank's",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 191520,
@@ -230,6 +236,7 @@
    "t1_ms": 277120,
    "speaker": "Management",
    "text": "$11 billion high-yield offering, the largest ever of its kind. I am proud of these wins, and how our client relationships and bankers, including the new talent we have attracted, allowed us to land these mandates. As you have seen this quarter, we are continuing to invest responsibly in high-quality talent to build on our strengths and fill identified gaps in our franchise. Wealth's performance continues to steadily improve, with growth across all three businesses. ROTCE was over 14%, significantly higher than last year. We brought in $38 billion",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 234320,
@@ -265,6 +272,7 @@
    "t1_ms": 317520,
    "speaker": "Management",
    "text": "in net new investment assets this quarter, up over 100% from a year ago. We continue to launch new offerings, such as Premium Boost, to deepen client relationships, and are seeing strong uptake of our wealth offering by our retail bank clients. In U.S. consumer cards, revenues were flat as a result of higher partner payments. At the same time, our general purpose portfolio drove 6% growth in total average loans. We are increasing investment in this business, both through our deep relationships with key partners and differentiated rewards for our",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 277120,
@@ -300,6 +308,7 @@
    "t1_ms": 358800,
    "speaker": "Management",
    "text": "customers, as you saw with the acquisition of Card. With returns of over 21% in the quarter, this is already a very attractive business, and the benefits of our investments will continue to scale over time. In legacy franchises, we closed on the sale of a 1.4% equity stake of Banamex, bringing the total amount divested so far to 49%. We're now busy preparing for Banamex's deconsolidation from Citi next year. The IPO would happen after that, when market conditions allow, and when the usual regulatory requirements are met.",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 317520,
@@ -335,6 +344,7 @@
    "t1_ms": 403360,
    "speaker": "Management",
    "text": "At that point, our international consumer divestitures will be nearly complete. Turning to capital, we returned over $4 billion to our shareholders this quarter, including $3 billion in share buybacks. We have also utilized about $900 million of our disallowed DTAs so far this year, slightly above the path we discussed at Investor Day in May. Our tangible book value per share rose 6% to $101.59. And our CET1 ratio stood at 12.8%, and remains about 120 basis points above our current regulatory minimum.",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 359600,
@@ -370,6 +380,7 @@
    "t1_ms": 448800,
    "speaker": "Management",
    "text": "I know that the opportunities and risks that AI presents are on everyone's mind. Our transformation has modernized our core technology platform, giving us the foundation we need to implement AI firm-wide. As I've said before, we're approaching AI through four lenses. How it can help us grow, how we can deploy it to operate more efficiently, how we can teach our people to use these new capabilities, and how we can strengthen our defenses given the enhanced threat environment we and our clients face. I've talked frequently in the past about what we're doing on the first three, and we're excited about the top line benefits and the efficiencies we are delivering,",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 404800,
@@ -413,6 +424,7 @@
    "t1_ms": 488880,
    "speaker": "Management",
    "text": "and the many opportunities to do more for our clients. But let me spend a minute on the fourth lens. Our cyber defense strategy is about being on the front foot, about moving fast and retaining trust. We don't wait for risks to happen. We're constantly preparing and improving our defenses. We're in the business of managing risk every day, and this is no different. We've been hardening our systems and running challenging and disruptive scenarios to stress test our defenses and our responses. We then modify our playbooks based on what we've",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 449600,
@@ -448,6 +460,7 @@
    "t1_ms": 531840,
    "speaker": "Management",
    "text": "learned, so we're ready before an event occurs, not after. We're focused on our resilience and working with our peers and regulators on reducing systemic risk, even as we deploy AI to improve the performance of our firm. Finally, on the macro environment, conditions did soften a bit during the third quarter, and while various headwinds, most recently higher energy prices and tighter monetary policies have been challenging, the global economy has held up remarkably well. In the U.S., whilst much has been made of the AI boom, the consumer is still driving much of the growth, the labor market is stable,",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 488880,
@@ -487,6 +500,7 @@
    "t1_ms": 576160,
    "speaker": "Management",
    "text": "and companies remain active. Our near-term economic outlook remains positive. China is seeing similar benefits from AI, but without the consumer spend needed for balanced growth, and so their economy leans heavily on exports, and Europe remains structurally challenged. That backdrop is exactly why clients are leaning on our network. They're engaged, and they are healthy, as you will see from our credit numbers. They're open to strategic opportunities whilst being keenly aware that there could be more disruptions ahead. Our focus is on delivering our network and providing the intellectual firepower to help",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 531840,
@@ -526,6 +540,7 @@
    "t1_ms": 615520,
    "speaker": "Management",
    "text": "them compete more effectively, raise capital, or manage their supply chains. They know we will be at their side, no matter what environment they face. This quarter was another proof point of our consistent execution and delivery in the face of a dynamic environment. In terms of the journey ahead, as you know, we expect to exceed this year's ROTCE target of 10 to 11%, even as we pull forward the investments to support our near-term target of 11 to 13%. These are simply the next waypoints on our path to reach 14 to 15%",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 576160,
@@ -561,6 +576,7 @@
    "t1_ms": 653340,
    "speaker": "Management",
    "text": "in a sustainable manner, which we will do. With that, let me turn it to Gonzalo, and then we would both be delighted to take your questions. Thank you, Jane, and good morning, everyone. I'm going to start with the firm-wide financial results, focusing on year-over-year comparisons unless I indicate otherwise, and then review the performance of our businesses in greater detail. On slide four, we show financial results for the full firm, which demonstrate the progress we've made and the momentum of our strategy. This quarter, we reported net income of $5.2",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 616400,
@@ -600,6 +616,7 @@
    "t1_ms": 692780,
    "speaker": "Management",
    "text": "billion, EPS of $2.85, and ROTCE of 11.5% on $23.8 billion of revenues, generating positive operating leverage. Total revenues were up 8% during by-growth in services, wealth, markets, and banking, partially offset by a decline in all other. Net interest income excluding markets, which you can see on the bottom left side of the slide, was up 7% during by-growth in services, wealth, and U.S. consumer cards, partially offset by declines in all other and banking. Non-interest revenues excluding markets were up 12%",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 653340,
@@ -635,6 +652,7 @@
    "t1_ms": 733580,
    "speaker": "Management",
    "text": "during by-growth in all other services, banking, and wealth, partially offset by a decline in U.S. consumer cards. And total markets revenues were up 6%. Expenses of $14 billion were down 2% on a reported basis, with an efficiency ratio of 58.5%. Excluding the impact of the $726 million Banamex Goodwill Impairment notable item from the third quarter of last year, expenses were up 3%. And cost of credit was $2.6 billion, which included a firm-wide net reserve bill of $369 million. Looking at the firm on a year-to-date",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 693580,
@@ -670,6 +688,7 @@
    "t1_ms": 777420,
    "speaker": "Management",
    "text": "basis, we generated positive operating leverage and an ROTCE of 12.6%. On slide 5, we showed the expense and efficiency trend over the past five quarters. As I just mentioned, excluding the impact of the notable item last year, expenses were up 3%, primarily driven by higher transactional and product servicing, deposit insurance costs, and a compensation and benefits, partially offset by lower professional services expenses. On a year-to-date basis, we have recognized over $1 billion of severance, largely across functions, technology, and operations, as we continue to drive structural efficiencies and bring down transformation expenses and stranded costs to create capacity for business",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 733580,
@@ -713,6 +732,7 @@
    "t1_ms": 820300,
    "speaker": "Management",
    "text": "growth. On slide 6, we showed U.S. Cards and corporate credit metrics. At the end of the quarter, we had over $22 billion in total reserves, with a reserve-to-funding low ratio of 2.5%. Our reserves incorporate an eight-quarter weighted average unemployment rate of 5.3%, which includes a down-set scenario average unemployment rate of nearly 7%. We maintained a high-quality credit card portfolio with approximately 86% of balances extended to consumers with FICO scores of 660 or higher, and a reserve-to-funding low ratio in our U.S. Cards portfolio of 7.7%. And we continue to see strong consumer credit performance,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 777420,
@@ -752,6 +772,7 @@
    "t1_ms": 859020,
    "speaker": "Management",
    "text": "as both net credit loss and delinquency rates in our overall Cards portfolio decline year over year. Looking at the right-hand side of the slide, you can see that our corporate exposure is 79% investment grade, and in the quarter, corporate non-accrual loans, as well as corporate net credit losses, remained low. We are confident in the high-quality nature of our portfolios, which reflect our robust risk appetite framework and rigorous client selection. Turning to capital, liquidity, and the balance sheet on slide 7, where I will speak to sequential variances. Our total assets of $2.9 trillion increased",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 820300,
@@ -791,6 +812,7 @@
    "t1_ms": 900380,
    "speaker": "Management",
    "text": "2% driven by growth in trading-related assets and loans. Net end-of-period loans increased 3% driven by growth in markets and banking. Our $1.5 trillion deposit base remains well diversified and increased 1% primarily driven by growth in services. We reported a 114% average LCR and over $1 trillion of available liquidity resources. In the third quarter, we continued to deploy capital to support accretive client activity, while at the same time prioritizing the return of capital to common shareholders, as evidenced by the $3 billion in buybacks and the 12% increase in our quarterly common stock dividend.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 859020,
@@ -830,6 +852,7 @@
    "t1_ms": 946300,
    "speaker": "Management",
    "text": "We ended the quarter at 12.8% CET1 ratio under the binding standardized approach, approximately 120 basis points above the 11.6% regulatory capital requirement. Turning to the businesses on slide 8, we showed the results for services in the third quarter. Revenues were up 15% driven by growth across both TTS and security services, reflecting the benefits of our continued investments in the business. NII increased 17% driven by higher average deposit balances and deposit spreads. NIR increased 12% driven by growth in fees as we continue to see strong activity and engagement with both corporate and commercial clients, driving momentum across underlying KPIs.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 901820,
@@ -873,6 +896,7 @@
    "t1_ms": 989500,
    "speaker": "Management",
    "text": "Expenses increased 10%, primarily driven by higher severance as well as volume and revenue-related expenses. Average loans increased 14%, largely driven by working capital loans and export agency finance. Average deposits increased 16%, primarily driven by growth in the US. Services generated positive operating leverage, net income of $2.6 billion, and a narrow TCE of 31.2% in the quarter and 29.7% year-to-date. Turning to markets on slide 9, revenues were up 6% driven by growth across both equities and fixed income. Fixed income revenues were up 4%, with spread products and other fixed income",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 946300,
@@ -916,6 +940,7 @@
    "t1_ms": 1031579,
    "speaker": "Management",
    "text": "up 13% driven by an increase in spread products financing revenues. And rates and currencies was flat, with growth in currencies on higher volumes offset by lower revenues in rates. Equities revenues were up 14%, driven by continued momentum in prime services as balances grew by over 40%, partially offset by a decline in derivatives revenues. Expenses increased 7%, driven by higher transactional expenses and compensation. Average loans increased 30%, primarily driven by spread products as we execute against our investor-based strategy to drive more stable financing revenues.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 990300,
@@ -955,6 +980,7 @@
    "t1_ms": 1075420,
    "speaker": "Management",
    "text": "Markets delivered net income of $1.7 billion, a narrow TCE of 12.3% in the quarter and 15.9% year-to-date. Turning to banking on slide 10, revenues were up 6%, driven by growth in investment banking and gains on loan hedges, partially offset by a decline in corporate lending. Investment banking revenues increased 9%, driven by 77% growth in ECM, partially offset by declines of 4% and 3% in advisory and DCM respectively. Corporate lending revenues excluding gains on loan hedges declined 16%, driven by lower loan spreads partially offset by higher average loan",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1032780,
@@ -990,6 +1016,7 @@
    "t1_ms": 1118860,
    "speaker": "Management",
    "text": "balances and commitments. Expenses increased 8%, driven by higher compensation and continued investments in the business. Cost of credit was $23 million, consisting of $43 million in net trade losses and a net reserve release of $20 million. Banking delivered net income of $378 million, a narrow TCE of 19.2% in the quarter and 17.7% year-to-date. Turning to wealth on slide 11, revenues were up 15%, driven by growth across all businesses. NII, which you can see on the bottom left side of the slide, increased 20%, driven by higher deposit spreads",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1075420,
@@ -1025,6 +1052,7 @@
    "t1_ms": 1161340,
    "speaker": "Management",
    "text": "and average deposit balances, partially offset by lower mortgage spreads. NIR was up 5%, largely driven by higher investment fee revenue. Client investment assets were up 15%, primarily driven by net new investment asset flows, which were $38 billion in the quarter, contributing to over $75 billion in the last 12 months, representing 11% organic growth. Expenses increased 3%, driven by higher compensation. Cost of credit was $102 million, consisting of $70 million of net credit losses and a net reserve build of $32 million. Average loans were up 4%,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1118860,
@@ -1060,6 +1088,7 @@
    "t1_ms": 1201340,
    "speaker": "Management",
    "text": "as we continue to grow securities-based lending and mortgages. Average deposits were up 3%, driven by growth in the private bank, partially offset by a modest decline in city gold and retail banking. Wealth had a pre-tax margin of 22%, generated positive operating leverage, net income of $585 million, and a narrow TCE of 14.3% in the quarter and 13.2% year to date. Turning to U.S. consumer cards on slide 12. As a reminder, our year-over-year results continue to reflect the impact from the acquisition of the Adik American Airlines co-branded car",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1161900,
@@ -1095,6 +1124,7 @@
    "t1_ms": 1245500,
    "speaker": "Management",
    "text": "portfolio on board in April. In the quarter, revenues were flat, with growth in NII offset by a decline in NIR. NII was up 6%, driven by higher interest-earning balances. NIR was down 62%, driven by higher accruals from partner payments as well as rewards costs, reflecting our investments for growth, partially offset by higher interchange and annual fees. Consistent with the strategy we laid out at Investor Day, we saw growth in general purpose cards, with spend volume up 13% and average loans up 9%, both partially offset by declines in private label cards. Expenses increased 2%, driven by higher transactional expenses",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1201340,
@@ -1134,6 +1164,7 @@
    "t1_ms": 1286460,
    "speaker": "Management",
    "text": "as well as advertising and marketing, as we invest to drive future acquisitions and continued customer engagement, largely offset by lower compensation. Cost of credit was $1.9 billion, consisting of $1.7 billion of net credit losses and a net reserve bill of $208 million, primarily driven by changes in the macroeconomic outlook. US consumer cards delivered net income of $851 million and ROTCE of 21.8% in the quarter and 21% year-to-date. As I mentioned last quarter, while we expect ROTCE to remain around our through-the-cycle target for the",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1245500,
@@ -1169,6 +1200,7 @@
    "t1_ms": 1328780,
    "speaker": "Management",
    "text": "business, in certain quarters we do expect expense growth to outpace revenue growth, as we invest in the business to drive engagement and acquisitions, with some of these investments reflected as control revenues and others as expenses. Turning to slide 13, we show results for all other on a managed basis, which includes corporate other and and excludes divestiture-related impacts, notably the $726 million Banaam Excludes Goodwill Impairment in the third quarter last year. Revenues were down 3%, driven by declines in legacy franchises and corporate other. Expenses were down 14%, driven by lower transformation expenses in corporate other, as well as lower expenses from our exits",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1286460,
@@ -1212,6 +1244,7 @@
    "t1_ms": 1371420,
    "speaker": "Management",
    "text": "and wind-downs, which declined to a run rate of approximately $100 million in the quarter, partially offset by the impact of Mexican peso appreciation. Cost of credit was $532 million, consisting of net credit losses of $433 million, driven by consumer loans in Mexico and a net reserve bill of $99 million. And we've reduced the total firmwide DTAs deducted from CET1 capital by approximately $900 million year-to-date, as U.S. profitability continues to improve. Additionally, in the appendix of the presentation on slide 20, we have provided an overview of financial impacts related to the Banaam",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1328780,
@@ -1251,6 +1284,7 @@
    "t1_ms": 1414780,
    "speaker": "Management",
    "text": "Excludes Divestiture. There are three points that I would like to highlight. First, upon our full exit from Banaam Excludes, we expect the cumulative net capital impact to reflect the release of CET1 capital associated with the Banaam Excludes RWA, removal of certain CET1 deductions, and the cumulative gains or losses over the divestiture horizon. Second, as we have shared previously, as part of the deconsolidation process, we expect to recognize an approximate $9 billion CTA-related loss through the P&L in early 2027. And third, we expect the impacts related to the deconsolidation process to be slightly accretive to our CET1 capital ratio.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1371420,
@@ -1294,6 +1328,7 @@
    "t1_ms": 1456540,
    "speaker": "Management",
    "text": "To close, we've included our full year 2026 outlook on slide 14. We expect to deliver an ROTC above 11% for the full year, supported by NII X Markets growth in the mid to high 6% range, and continued NIR X Markets growth driven by fee momentum in services, banking, and wealth, partially offset by USCC. And in markets, we expect a typical seasonal decline in the fourth quarter around the same magnitude as last year, which was 20%, or possibly a bit more given the strong performance so far this year. Given this outlook for revenue combined with our continued focus on expense discipline,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1415980,
@@ -1333,6 +1368,7 @@
    "t1_ms": 1499100,
    "speaker": "Management",
    "text": "we expect our full year efficiency ratio to be below 60%. As it relates to credit, based on the strong performance we have seen so far this year and our expectations for the fourth quarter, we now expect a full year total US credit cards NCL rate of around 4%, the low end of the range we provided previously, while the ACL will continue to be a function of the macroeconomic environment and business volumes. And we will continue to provide the businesses with capital to pursue accretive growth opportunities while returning capital to shareholders. We remain confident in the strategy we laid out at Investor Day and in our ability to deliver on all of our commitments. As we take a step back, the results in the third quarter",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1456540,
@@ -1376,6 +1412,7 @@
    "t1_ms": 1514780,
    "speaker": "Management",
    "text": "and year to date this year represent significant progress towards our goal of improved firmwide and business performance. Our strategy is working and we have a clear path to delivering higher, sustainable returns. With that, Jen and I would be glad to take your questions.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1499100,
@@ -1399,6 +1436,7 @@
    "t1_ms": 1550780,
    "speaker": "Operator",
    "text": "At this time, we will open the floor for questions. For today's session, we'll be utilizing the raise hand feature. If you'd like to ask a question, simply click on the raise hand button at the bottom of your screen. If you have joined by phone, please press star nine to raise your hand. Once you've been called on, please unmute your audio and begin to ask your question. If you've dialed in, you can unmute by pressing star six. Please limit to one question. Thank you. We'll now pause a moment to assemble the queue. Our first question comes from the line of John McDonald with Truist. You may now dial star six to unmute and ask your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1514780,
@@ -1438,6 +1476,7 @@
    "t1_ms": 1585020,
    "speaker": "Analyst",
    "text": "Hi, good morning. I was hoping to kick off. You could put your strong year to date results on ROTCE into context. Obviously, you've got the 12.6 ROTCE for the year and 11 and a half this quarter. It implies a little bit of deceleration in the fourth quarter if you do something ending up at 11 and 12 for the year. So understanding there's lots of factors around seasonality and how much spending you pull forward. Could you speak a little bit to the near term expectations and trajectory for ROTCE for the fourth quarter and then",
+   "name": "John McDonald, Truist",
    "parts": [
     {
      "t0_ms": 1553100,
@@ -1473,6 +1512,7 @@
    "t1_ms": 1625920,
    "speaker": "Management",
    "text": "as you look out for the next two years? Good morning, John. Thanks very much for the question. It's a great question. I think maybe a couple of thoughts to step in there. The first is our number one priority is driving sustainable return improvement. That's very clear. The second piece that you can see from our results throughout this year is that our strategy is working. You're seeing the compounding effect of client intensity and execution milestone after execution milestone in a constructive backdrop, but that execution is clearly there. The next piece I would mention is we have lifted our guidance now again",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1585020,
@@ -1512,6 +1552,7 @@
    "t1_ms": 1669680,
    "speaker": "Management",
    "text": "from the high end of the 10 to 11 or a bit better than 11 to above 11. So that hopefully gives you a sense of the confidence that we have and the discipline that we have going into the end of the year. Now to your point, and I think you alluded to this in your question already, there is a natural seasonality. I just mentioned that in my remarks as it relates to markets. There are other elements beyond markets too. And so when you think about the market component alone, that's about last year was about 20 percent decline quarter on quarter between Q3 and Q4. This year as I mentioned a few minutes ago would be a bit worse on the basis of how strong the year has been so far and kind of the dynamism in the",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1626720,
@@ -1555,6 +1596,7 @@
    "t1_ms": 1712320,
    "speaker": "Management",
    "text": "market right now. So when you flow the math similar for ROTC, even if you look historically over the last couple of years and you adjust for the typical notable items that may be there from time to time, you do land at a high single digits rate. And so that more or less sets you up for the above 11 that we're looking at. But you can see kind of the confidence coming through in how we've been raising the estimates over the last 30 days a couple of times over. As you look forward into 2027, I think undeniably we have business momentum. You can see that on our revenue growth, right? Seven percent a year ago. Ex notable items. First half of the year about 14 percent. This quarter about eight percent. You look at the drivers, you can see",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1669680,
@@ -1598,6 +1640,7 @@
    "t1_ms": 1741760,
    "speaker": "Management",
    "text": "the client momentum driving that revenue growth. So we feel very good about that. We haven't moved an inch from our investor day commitments. The near term targets for returns, just as a reminder for everyone, are 11 to 13 percent into the 27 and 28 time period. So we're comfortable with that. And we also tested those for a range of environments, right? So we're not expecting the sun always to be shining, the wind in our backs and our walking downhill. We have tested that for a range of outcomes. Thank you.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1712320,
@@ -1633,6 +1676,7 @@
    "t1_ms": 1759120,
    "speaker": "Analyst",
    "text": "Thanks, Gonzalo. Appreciate that. And maybe just as a follow up, a question on capital. How are you thinking about the glide path to the capital target you laid out in investor day and how do rates factor into that in terms of rates and what it means for buybacks? Thank you.",
+   "name": "John McDonald, Truist",
    "parts": [
     {
      "t0_ms": 1743280,
@@ -1656,6 +1700,7 @@
    "t1_ms": 1805200,
    "speaker": "Management",
    "text": "Thank you for the follow up. Maybe just to baseline everyone again, today we're at our CET one of 12.8 percent, which is about 120 basis points above our regulatory minimum as per investor day, the regulatory minimum that we talked about and you were alluding on your question to the glide path. We have talked about how we are now at 11.6 percent as a regulatory minimum. And we are assumption is that we go into 13 point into 12.1 percent as a regulatory minimum started in January of 2028. In investor day, we gave a directional target of 13.1 percent. So that gives you a sense of the direction of travel. We continue to be comfortable with that direction of travel. So that I think is the",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1760880,
@@ -1699,6 +1744,7 @@
    "t1_ms": 1848560,
    "speaker": "Management",
    "text": "key piece. The second piece is and going into the buybacks component of your question too, I would say a couple of things. First, maybe restating our framework, right? Our framework is we hold capital for resilience and flexibility and we deploy it for returns and to distribute to shareholders. And that's kind of the staircase that we talked about in investor day. And that's hopefully you're seeing that's applied that every single one of the quarters this year. Right? When you look at this quarter as one example, I feel good about how we were able to deploy our balance sheet to fuel the revenue growth that you're seeing, the improving returns year near that you're seeing. And at the same time, return four billion dollars of capital to",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1805200,
@@ -1742,6 +1788,7 @@
    "t1_ms": 1882720,
    "speaker": "Management",
    "text": "shareholders, three of which in buybacks, while still holding an appropriate cushion above the requirements to be able to navigate the environment. So being, and by the way, along the way absorbing some OCI shifts that happened due to rates in the quarter. So I feel good about that ability to balance that equation. We did that in the preceding quarters as well, maybe with a bit less OCI action, but that hopefully gives you a sense of business has momentum. We do have a balanced framework in place and we try to find the appropriate balance there. Always starting with, you know, being a source of resilience. Thank you.",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1848560,
@@ -1781,6 +1828,7 @@
    "t1_ms": 1893710,
    "speaker": "Operator",
    "text": "Thank you. For today's call, we invite a limit of one question plus one follow up. Our next question will come from Mike Mayo with Bell Swargo. You may now unmute and",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1885390,
@@ -1800,6 +1848,7 @@
    "t1_ms": 1923950,
    "speaker": "Analyst",
    "text": "ask your question. Hey Gonzalo. On the second quarter earnings call, you talked about pulling forward investment spending the five billion over three years to now, I guess, 500 million this year. How much of that has been spent in the third quarter? Why did you pull it forward? What are you spending it on? And does that mean after this year it's 4.5 billion dollars of investment spending or will you increase the total? Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1893710,
@@ -1831,6 +1880,7 @@
    "t1_ms": 1964350,
    "speaker": "Management",
    "text": "All right. Good morning, Mike. Thanks very much for the question. Maybe let me spend a second on how we think about expenses, how we think about efficiency. Again, returns number one, sustainable return improvement. But when we think about how we approach expenses, hopefully you can see the very sharp expense discipline. That's not an initiative. That's how we operate the business every day and for every dollar. And we talked about investor day that in order to unlock the client driven growth that we are aspiring to, we needed to deploy incremental investments over three years of about five billion dollars, which you just alluded to. And we also said that we're going to find these investments the hard way,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1924590,
@@ -1874,6 +1924,7 @@
    "t1_ms": 2007150,
    "speaker": "Management",
    "text": "be a relentless structural efficiency focus. We talk about stranded cost, about transformation cost and about the structural efficiency. So that hopefully gives you a sense for how we think about expense management. So the pull forward that we talked about, maybe to answer one piece of the question quickly, is a hundred percent inside the five billion dollars, right? The five hundred million dollars or so that I spoke recently about being part of that pull forward in the second half of the year. That's fully embedded inside the five billion dollars. We have not moved anything related to our investor day expectations. And then to your other sub question around how much of that landed into this quarter, you can think of it as about",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 1965070,
@@ -1917,6 +1968,7 @@
    "t1_ms": 2045950,
    "speaker": "Management",
    "text": "half of it landed in this quarter. You can see about two hundred million dollars of severance in the quarter. So that's a good portion of it. And then there's a few investments extra around technology, around marketing, around client experience that we also we also supported. And again, that severance is directly linked to one of those three, the biggest of the three legs of our structure of our, you know, self-funding investments, which are the structural efficiency focus with the processes that Jane has alluded to in the past, the hundred plus end to end processes that we have looked at. We review those every week and those are part of the unlocking through automation and AI the efficiencies",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2007150,
@@ -1960,6 +2012,7 @@
    "t1_ms": 2052190,
    "speaker": "Management",
    "text": "that we're looking to, you know, to deploy. Thank you. And then one follow up. Like you",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2045950,
@@ -1975,6 +2028,7 @@
    "t1_ms": 2080830,
    "speaker": "Analyst",
    "text": "said, you're not always planning for the sun to always be shining and the wind at your back. But the return for the fourth quarter, if you back into it, looks really lousy to for you to get to 11 percent. When you say the sun might not always be shining, the wind's not at your back. You did say markets won't be as strong. I get it. But are you assuming something might go terribly wrong in the fourth quarter? You're just giving the usual caution and caveat.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2052190,
@@ -2006,6 +2060,7 @@
    "t1_ms": 2109310,
    "speaker": "Management",
    "text": "It's let me go with the latter on that. Thank you, Mike. Yeah. So, you know, we're guiding to above 11 percent, which is again an improvement from the a bit over 11 that we talked about 30 days ago. And of course, there's a range. We could do better, but it's hard to predict early in the quarter, especially how, you know, some of the activity will play out in the market, you know, mostly. And so it's really anchored on that. And yes,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2082830,
@@ -2037,6 +2092,7 @@
    "t1_ms": 2124700,
    "speaker": "Operator",
    "text": "abundance of caution. Thank you. Our next question will come from the line of Erica Najarian with UBS. Feel free to unmute and ask your question. Hi. Sorry about that delay in",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2109310,
@@ -2056,6 +2112,7 @@
    "t1_ms": 2166940,
    "speaker": "Analyst",
    "text": "unmuting. Thank you for taking my question. Just wanted to double click on John's question on capital. So I guess this is a bit of a compound question for my first question. And I apologize. The way you responded to John's question is that you can continue to, you know, deploy capital into growth as well as keep up this pace of buybacks. And I just wanted to make sure we heard that correctly because, you know, AOC aside, I think a lot of your investors, you know, the buyback pacing is important. And so I guess just wanted to confirm that you can continue in this pace of buyback at around these levels,",
+   "name": "Erica Najarian, UBS",
    "parts": [
     {
      "t0_ms": 2124700,
@@ -2095,6 +2152,7 @@
    "t1_ms": 2194620,
    "speaker": "Analyst",
    "text": "even with higher rates. And, you know, in terms of the glide path to a CT1 minimum of 12.1 percent by January 1st, 2028, is your understanding that Basel 3 endgame revisions and GSIP revisions would be mostly prospective and you won't get any, you know, sort of retrospective or retroactive adjustments that could help you in terms of, you know, forward GSIP surcharge increases?",
+   "name": "Erica Najarian, UBS",
    "parts": [
     {
      "t0_ms": 2167660,
@@ -2122,6 +2180,7 @@
    "t1_ms": 2236380,
    "speaker": "Management",
    "text": "Maybe if I jump in just in terms of the big picture here, you've heard us talking about a lot of upside potential. We've got a lot of different opportunities which are high returning to be investing in. So as Gonzalo said, once we're comfortable around the resiliency of our capital base, which we feel very good about, we see a lot of opportunities to deploy capital into high returning opportunities that will drive the growth and scale that underpins the presentation we gave at Invest Today and laid out that in a lot of detail. We know buybacks are important. We know return of capital",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2196460,
@@ -2161,6 +2220,7 @@
    "t1_ms": 2278540,
    "speaker": "Management",
    "text": "is important to our shareholders. We make that judgment as to what the right balance is. But I think all of our investors will want us to make sure that we are investing behind these long-term high return growth opportunities that will drive the performance and competitiveness of the bank. Gonzalo, over to you for the nitty gritty. Thank you, Jane. And thank you, Erika. Good morning. Thank you for the question. So I think, you know, maybe a couple of thoughts on maybe to start on buybacks and then pull back up into the path on capital. Just as a reminder, right, what we said for this year, let me start in the here and now, and then maybe without giving you the",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2236380,
@@ -2204,6 +2264,7 @@
    "t1_ms": 2322860,
    "speaker": "Management",
    "text": "decimal precision going forward, I can describe the shape of how we think about it. In the here and now, we just, you know, completed, you know, with this quarter of about $3 billion of repurchases, year to date, 13.3. Last year was 13 billion. And we had said earlier that we expected this year to do more than last year, which we just achieved in the third quarter. So we are, in that sense, you know, doing what we said we're going to do. When you think about the framework going forward, I think you highlighted, you know, what I was talking about a little bit earlier, that we plotted that investor day, that glide path for capital for us. And let me talk in maybe regulatory minimum terms, going from 11.6 to 12.1. That's on",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2278540,
@@ -2247,6 +2308,7 @@
    "t1_ms": 2362780,
    "speaker": "Management",
    "text": "the back, of course, of having enabled the business, the balance sheet, to support the high levels of activity that we've seen over the last couple of years and have you seen us grow, you know, various businesses, not only the markets business, but also banking services and some of our, you know, franchises. And so that is directly linked to that. It was expected. That's why we discussed it at investor day. To your point, it's a bit unknown exactly how all the rules, right, when we're done, which we should see, you know, more of those over the next, you know, several months. And then we will have, you know, full visibility with models and market shock scenarios and so on. Really, we will know probably around next",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2322860,
@@ -2290,6 +2352,7 @@
    "t1_ms": 2404380,
    "speaker": "Management",
    "text": "year the full impact that that may have on that glide path. So as of now, we're operating on the basis of what we know, which are current rules. And on the basis of those current rules, that glide path goes from 11.6 to 12.1, which obviously means we will need to build, you know, that capital trajectory, again, absent some changes from the rules. And then what you'll see in the future is what you have seen, you know, year to date. We manage that very balanced framework, right, of holding capital for resilience and flexibility first, and then deploying it as you've seen us do this quarter and even in the prior quarters, supporting very strong activity for, you know, pursuing returns that are accretive and supporting our clients,",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2362780,
@@ -2333,6 +2396,7 @@
    "t1_ms": 2417580,
    "speaker": "Management",
    "text": "as well as distributing to shareholders. You can see how much of a priority it is on the basis of the progress we've made even in the last couple of quarters against our $30 billion program that we announced at investor day. Thank you. Thank you. And just",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2404380,
@@ -2356,6 +2420,7 @@
    "t1_ms": 2459500,
    "speaker": "Analyst",
    "text": "as a quick follow up here on the markets commentary, so just to put a framework around it, you know, you mentioned that you continue to deploy balance sheet and high returning opportunities. And one of your peers that is typically quite conservative, you know, had talked about, you know, deploying capital and not having that much seasonality in the fourth quarter, you know, because of all the activity levels, in terms of your comment of, you know, markets down 20% quarter over quarter, and that underpins sort of the implied high single digits, ROTC. Is that conservatism, you know, in terms of the typical seasonality, or is that more of a comment on mix in terms of you guys are still",
+   "name": "Erica Najarian, UBS",
    "parts": [
     {
      "t0_ms": 2417580,
@@ -2399,6 +2464,7 @@
    "t1_ms": 2469900,
    "speaker": "Analyst",
    "text": "building out the equities business, you know, to, you know, a more optimized size, you know, just trying to unpack the market commentary for the quarter. Erica, I think you're reading too",
+   "name": "Erica Najarian, UBS",
    "parts": [
     {
      "t0_ms": 2459500,
@@ -2418,6 +2484,7 @@
    "t1_ms": 2482540,
    "speaker": "Management",
    "text": "much into it. This is just the normal seasonality that we have seen over many, many years between a strong third quarter, and the typical fourth quarter. It's no more than that. Don't read too",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2469900,
@@ -2437,6 +2504,7 @@
    "t1_ms": 2507060,
    "speaker": "Operator",
    "text": "much into it. Our next question comes from the line of Glenn Shore with Evercore ISI. You may now unmute and ask your question. Glenn, I see I have you in with two connections. Both are enabled. Feel free to dial star six if you prefer to use your phone. Thank you. Sorry",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2482540,
@@ -2460,6 +2528,7 @@
    "t1_ms": 2529220,
    "speaker": "Analyst",
    "text": "about that. So follow up on the equity side. You know, your prime values are up over 40%. Your revenues were up 14. Still a pretty good gap versus the biggest peers. So maybe let's talk about where you're investing and what your aspirations are for the equities business, because there is a pretty big upside if you continue to strengthen the franchise there. Thanks.",
+   "name": "Glenn Schorr, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2507060,
@@ -2487,6 +2556,7 @@
    "t1_ms": 2572820,
    "speaker": "Management",
    "text": "Yeah, look, as Andy said, at Invest Today, you know, we were late to invest in equities. And what we are systematically doing is scaling our equities business primarily by committing the resources to grow the prime balances, making the necessary investments in technology. And we see a lot of room to gain share ahead in prime. We're doing so with very diligent client selection and risk management. But the client appetite for Citi is clearly there. Clients meet with them all over the world. They keep telling me they want an alternative in this market. And they want that to be Citi because they know and trust us,",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2530180,
@@ -2526,6 +2596,7 @@
    "t1_ms": 2594260,
    "speaker": "Management",
    "text": "particularly from the fixed income side over history. And that gives us an easier path for expansion and our growth in equities and continued momentum there. So you'll see us steadily investing in execution. And I think we feel confident in our ability to continue growing",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2572820,
@@ -2549,6 +2620,7 @@
    "t1_ms": 2621180,
    "speaker": "Analyst",
    "text": "there. Okay, and maybe a similar but different follow up on the wealth side. You had very strong net new money flows. You had good 15% investment asset growth, but I think that the wealth fees were only up 5%. I don't know if that's a mix. Get them in the door, mix them up, provide more advice. But curious if you can provide a little color behind those trends. Thanks.",
+   "name": "Glenn Schorr, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2594260,
@@ -2576,6 +2648,7 @@
    "t1_ms": 2667340,
    "speaker": "Management",
    "text": "Let me maybe ask. I'll answer your question directly and as asked and then I'll give you maybe the broader perspective on wealth. But very quickly, that's the only the result of a couple of strategic decisions that we took a year ago that were lacking. So that's what's dampening that growth rate on the 5%. One that gets lapped, you're going to see a closer matching between some of the drivers and the revenue. That's kind of the simplest version, I think. Thank you for the question. And I think the broader piece there, we're pleased with what we're seeing in terms of momentum from our wealth business. Revenue growing 15% with good expense discipline at 3%. We're accumulating several quarters of very positive operating leverage. And that's what's driving the improvement on returns. Returns for",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2622700,
@@ -2623,6 +2696,7 @@
    "t1_ms": 2689180,
    "speaker": "Management",
    "text": "business were about 7.6% a year ago, then 10.8% in the first quarter. And now this quarter and last quarter, they were a bit above 14%. So that gives us confidence that soon we'll be able to get into the 15 to 20% near term target window that we spoke about at Investor Day. But yes, the business has good momentum, good NIA quarter. And overall, we're seeing",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2667500,
@@ -2650,6 +2724,7 @@
    "t1_ms": 2707360,
    "speaker": "Operator",
    "text": "good traction. Thank you. For our next question, we'll go to Manan Gossalia with Morgan Stanley. Please use star six to unmute. I see your line is open, Manan. We're not hearing you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2689180,
@@ -2667,8 +2742,9 @@
    "seg_id": 75,
    "t0_ms": 2707360,
    "t1_ms": 2751440,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "You may need to unmute locally. Hi, can you hear me now? We can. Oh, yes. Perfect. Sorry about that. So I just want to clarify the comment on the capital side. So the 13.1% capital target for Next TR, that excludes finalization of the capital rules. Once we get finalization and maybe as you go through the stress test and you see the results of that revisiting that 13.1 is still on the table. Thank you, Manan. Good morning and thank you for the question. First to the first part of your question, yes, the 13.1% which anchors to a minimum reg requirement of 12.1% into January of 2028 anchors to current rules. So it does not",
+   "name": "Manan Gosalia, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2707360,
@@ -2708,6 +2784,7 @@
    "t1_ms": 2793200,
    "speaker": "Management",
    "text": "include anything related to any of the rules that are in play that some of which have been released and others haven't. But obviously we need to see, to your point, we need to see what the run or the first run of the new set of SCV happens and then as well as the Basel 3 and the GC components as well. So that's that buildup between the 11.6 minimum now to the 12.1 that I was just describing incorporates exactly and only the current rules. I mean, the second thing I'll mention as it relates to capital which is also not not baked in and is the part that number one we control number two I feel better about and you can kind of see that",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2751440,
@@ -2747,6 +2824,7 @@
    "t1_ms": 2831440,
    "speaker": "Management",
    "text": "even though it's still with all models in the you know release results from this year, right, you can see our SCV from the peak of 4.3 coming down over a few years into 3.6 which is the current level and then the one the latest run which obviously doesn't count at 3.3. But directionally it gives you hopefully the reaffirmation of the signal of what I was talking at the very beginning of the call which is that the strategy is working and the strategy working means we have simplified the bank quite a bit, right, we have increased the level of accountability. You can see the progress on returns and the proof points quarter after quarter",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2793200,
@@ -2784,8 +2862,9 @@
    "seg_id": 78,
    "t0_ms": 2832320,
    "t1_ms": 2873790,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "and as you as you think about that the PPNR increases stabilizes and the loss absorption capacity improves and that all of that is a lot more within our control and that's you know that's what we expect over time to also you know flow through but again not considered in. Thank you. Okay perfect and then just pivoting over to rates and rate sensitivity. With short-end rates moving higher in both the U.S. and internationally, how should we think about the rate sensitivity of the business and given the strong services business that you guys have in the strong deposit growth there I'm sure that drives a lot of the rate sensitivity if you can just",
+   "name": "Manan Gosalia, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2832320,
@@ -2825,6 +2904,7 @@
    "t1_ms": 2913790,
    "speaker": "Management",
    "text": "talk about that and how we should think about it over the next year or so. Yeah thank you very very good question so I think maybe a couple of thoughts. The first one let me talk for a second about the here and now and then the going forward in the here and now you just saw us upgrade our guidance again of going on NIIX markets to mid to high 60s versus the original beginning of the year five to six percent sorry and what we said you know a few weeks ago that we were going to be you know high end of that spectrum and that gives you a sense for you know again the confidence that we have. The second piece is as a reminder the vast majority",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2873790,
@@ -2864,6 +2944,7 @@
    "t1_ms": 2958510,
    "speaker": "Management",
    "text": "of the bus for us is driven by client volumes so it really is up to us having success in deepening relationships and also attracting new clients across you know the range of our franchise and you saw the NIIX markets at about you know seven percent this quarter you're seeing the positive growth of 11 percent and loans x market growth of seven percent so good momentum really across the franchise there and when you think about you know a higher for longer environment that should be for us net positive given aggregate asset sensitivity positioning that we have even if of course you have to in the short term absorb the OCIS we just did. When you think about that asset sensitivity maybe to give you a bit more color there",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2913790,
@@ -2907,6 +2988,7 @@
    "t1_ms": 3003310,
    "speaker": "Management",
    "text": "and hopefully not a lot more than what you bargained for is overall that asset sensitivity you can see in our disclosures is non-USD from the structural position that we have across the world from our services franchise and so we feel we're very well positioned there to take advantage of you know the global rate hacks many of which have already happened between February and now you know across the world and then you will see also we're relatively neutral on a USD basis at least within 12 months because given the short duration of our portfolio we actually do turn asset sensitive in year two and relatively quickly as we know those reinvestments come in so net-net all of that should put us in you know in something that is constructive as it relates to you know higher for longer rates of course some businesses",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 2959390,
@@ -2954,6 +3036,7 @@
    "t1_ms": 3044350,
    "speaker": "Management",
    "text": "and you alluded to this services would be a large beneficiary in this particular you know picture and the reason for that even if there are as always some puts and takes right you have to think about the volumes right and how those will play out there will be competition for deposits money supply may tighten and so far what we have seen is the betas are performing in line with our expectations the teaming services this is true also in our teaming wealth very focused on quality and not you know and not on giving away pricing and so that discipline pricing and discipline quality focus even if i look at q3 as you know a proof point for me is our deposit",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3003310,
@@ -2993,6 +3076,7 @@
    "t1_ms": 3060580,
    "speaker": "Management",
    "text": "growth in services was faster for operating deposits than it was for the you know the overall deposit so that gives you a sense of how much focus shami and the team have on the quality of what we are engaging with with funds thank you for our next question",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3044350,
@@ -3016,6 +3100,7 @@
    "t1_ms": 3064260,
    "speaker": "Operator",
    "text": "we'll go to ibrahim punawala with bank of america you may now unmute your line and ask",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3060580,
@@ -3031,6 +3116,7 @@
    "t1_ms": 3095140,
    "speaker": "Analyst",
    "text": "a question hey good morning can you yes we can okay hey jane i guess the first question just i apologies if i missed something on the capital on the back and forth if we i think gundzala you mentioned if nothing changes on capital the requirements obviously go up by 50 basis points is the point there that if the fed finalizes rules before the end of the year then you have better flexibility than if they don't like that's how we should think about it",
+   "name": "Ibrahim Poonawala, Bank of America",
    "parts": [
     {
      "t0_ms": 3064260,
@@ -3062,6 +3148,7 @@
    "t1_ms": 3139490,
    "speaker": "Management",
    "text": "hi good morning ibrahim not exactly the the way i think about it is the glide path anchors to current rules that's on the back of our decisions also to support business growth and that's what we're looking at of course the the piece on capital to your point around the rules is an unknown at this point right so we have to see the totality of the rules come through some of which have been published others have not yet and even post publishing i think we will need to see how you know the models are running to the first run because remember it's going to be a brand new set of you know components there and not only new models but also how market shocks are managed and handled and the scenario piece we have to see that come through and probably by i think towards the middle of the year we're going",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3097410,
@@ -3109,6 +3196,7 @@
    "t1_ms": 3161650,
    "speaker": "Management",
    "text": "to have you know perfect clarity of exactly what the glide path will look like and obviously we'll keep you updated along the way but you know i wasn't implying that we'll have perfect you know clear vision by the end of the year because i don't think that we will right i think we'll have some more information but i i do think that there's going to be some unknowns still especially on the numerical front which ultimately is what you and us you know want to have thank",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3139490,
@@ -3140,6 +3228,7 @@
    "t1_ms": 3200290,
    "speaker": "Analyst",
    "text": "you understood all right so i guess and then somewhere in there for us the takeaways there might be some volatility or tempering in the pace of buybacks understood and then next just the other question and services we're tracking about whatever 29 30 percent rotce jane you talked about the strength in the business i'm just trying to understand what brings that business from close to 30 to the mid-20s target that you'll have is it just that the incremental growth will be so dilutive assuming rates don't do anything like why should that go from 30 to let's say 25 that's a the the target we have is a",
+   "name": "Ibrahim Poonawala, Bank of America",
    "parts": [
     {
      "t0_ms": 3161650,
@@ -3179,6 +3268,7 @@
    "t1_ms": 3241490,
    "speaker": "Management",
    "text": "through the cycle target but i think we look we feel very good about our services business because we see think of it as a cumulative business with really four pillars of further growth that at high returns deepening with existing clients acquiring new clients particularly commercial banking and the like capturing share in some of these high growth verticals particularly the fintech space as well as investing in next generation platforms and solutions and that is giving us a model that is pretty almost impossible to replicate it is a true moat between the unrivaled global footprint comprehensive market leading solutions",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3200290,
@@ -3218,6 +3308,7 @@
    "t1_ms": 3285650,
    "speaker": "Management",
    "text": "the extensive client base with ever-growing global needs and then the indisputable scale which is enabling us to invest significantly in the platforms in the innovation agenda it's about a two billion dollars of investments a year and then you add on AI into this which is driving further process improvements which is developing innovative solutions for us and also improving the client experience so all these different elements are really translating into our ability to win new mandates up about 40 percent year over year in our win rate and with minimal client attrition sustainable revenue growth high profitability through the",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3241490,
@@ -3257,6 +3348,7 @@
    "t1_ms": 3299090,
    "speaker": "Management",
    "text": "cycle so to my mind this is this is a wonderful business in which we are the indisputed leader and it will continue to go from strength to strength because we're on the front foot in it",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3285650,
@@ -3276,6 +3368,7 @@
    "t1_ms": 3310740,
    "speaker": "Operator",
    "text": "next we'll go to ken houston with autonomous ken feel free to unmute and ask your question",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3302660,
@@ -3291,6 +3384,7 @@
    "t1_ms": 3357260,
    "speaker": "Analyst",
    "text": "hi good morning um just one one follow-up on on the services side um gonzalez in a higher rate of environment you know the deposit growth has continued to be really strong even sequentially do you do you anticipate any changes to um you know invest how your clients uh you know use the balance sheet um given all the points that have already been made you know about just ongoing strength and development of the platform and within that how much more room do you have in terms of the you know the securities repricing and you know can nii continue to outgrow deposit growth as it has been because you still have you know some more room there how much more",
+   "name": "Ken Usdin, Autonomous",
    "parts": [
     {
      "t0_ms": 3315020,
@@ -3330,6 +3424,7 @@
    "t1_ms": 3400700,
    "speaker": "Management",
    "text": "room do you still have there thank you thank you very much ken for the question let me maybe let me start first maybe on the nii x markets deposit equation we are our nii x market this quarter was about you know seven percent uh year-on-year vis-a-vis uh deposits growing at 11 percent and loans growing at seven percent so we're not seeing that effect of nii outgrowing the drivers at the aggregate level for the firm that's also true in our services business if you look at you know our the nii for the business well the ni for the business is more or less in sync actually i guess for services in particular but that also depends on some of the",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3357260,
@@ -3369,6 +3464,7 @@
    "t1_ms": 3445660,
    "speaker": "Management",
    "text": "you know the the interplay you know across the firm with services what i would say to your question which i think is a great question on the sustainability of growth and we spoke about this at investor day and and since then you know one time or two is we do expect over time for the level of growth that you're seeing that 16 percent year-on-year deposit growth you know to normalize a bit right we're not saying that we are going to be able to grow into eternity at four times you know money supply levels at the same time what you just heard from jane right it's a we're very confident in the mode that we have how embedded we are with clients we are deploying you know two billion dollars per year of technology investments on both propelling the core capabilities and investing in the core but also innovating you",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3400700,
@@ -3416,6 +3512,7 @@
    "t1_ms": 3486540,
    "speaker": "Management",
    "text": "probably if you look back the last 90 days we would have made you know four or five different announcements that give you a sense that there's a lot of tech investment and capability there and to jane's point decline momentum and so we feel good about that you know nii trajectory recognizing that remember these are through the cycle business right and we spoke about this at investor day two the business for the nine years between 2016 and 2025 and remember those years had zero rates they had medium rates and they had high rates and all the different flavors right and even within that we were able to grow the business at about eight percent kegar in revenue terms at about six percent kegar in deposit terms so that that kind of tells you",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3445660,
@@ -3459,6 +3556,7 @@
    "t1_ms": 3501260,
    "speaker": "Management",
    "text": "that we we pressure tested this business through different environment and weather patterns and so that's why even though you may see moderation on the level of growth on deposits and have those normalized as we said before we are confident in the trajectory that we have there",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3486540,
@@ -3482,6 +3580,7 @@
    "t1_ms": 3544690,
    "speaker": "Analyst",
    "text": "thank you got it and one just follow up on the earlier cost point so you're if you're 500 million in the second half it's kind of you know pretty level between three q and four q including the severance that you spent in the three q and maybe some more in the fourth what do we need to think about in terms of jump off points i know we're not going to get into 27 guidance now but i think there's an important debate about like does that does that run rate do we do we still have the benefits of transformation and stranded coming down can you kind of maybe just try to you know put that in a in a box for us about like how we exit this year and how we start next thanks i think you should feel good about how",
+   "name": "Ken Usdin, Autonomous",
    "parts": [
     {
      "t0_ms": 3501260,
@@ -3525,6 +3624,7 @@
    "t1_ms": 3587970,
    "speaker": "Management",
    "text": "we exit this year i think we're demonstrating a lot of discipline in the expense side we're taking down the stranded cost you see the run rate now at the 100 million a quarter level you see the benefits of the transformation costs coming down and you see us investing in the structural efficiencies particularly leveraging ai and automation in a very in a material tangible way to continue to drive improvements in the operating efficiency going forward we're making investments both to grow the top line as well as to drive efficiency in the firm going forward so i would say you should feel good about the jump off point",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3544690,
@@ -3564,6 +3664,7 @@
    "t1_ms": 3596050,
    "speaker": "Management",
    "text": "and the discipline that we're continuing to demonstrate our next question comes from the",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3587970,
@@ -3579,6 +3680,7 @@
    "t1_ms": 3599330,
    "speaker": "Operator",
    "text": "line of scott seifers with td cowan you may now unmute and ask your question",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3596050,
@@ -3594,6 +3696,7 @@
    "t1_ms": 3629140,
    "speaker": "Analyst",
    "text": "morning there i guess after everyone thank you for taking the question um i wanted to ask another rate rate based question this time just on the effect on customers you know it's uh it feels like everyone's customers yours included have been just kind of remarkably resilient in the face of rising rates maybe just sort of some updated thoughts on at what point you would see higher rates affecting customer customer behavior more visibly thank you scott",
+   "name": "Scott Siefers, TD Cowen",
    "parts": [
     {
      "t0_ms": 3601330,
@@ -3625,6 +3728,7 @@
    "t1_ms": 3672500,
    "speaker": "Management",
    "text": "for the question so maybe let me go perhaps around our businesses a bit on the you know the rate impact on customers that you're pointing to maybe starting with consumer again this you know so far have been you know moderate increases right but i guess to your point you're probably looking forward and thinking what about the accumulation of you know higher rates if the curve plays out as currently predicted with that's right right okay yeah no that makes sense that's a fair question i think you know as you see you know cumulative effects over time you may start to see on the marginal segment now as a reminder for us right on the consumer end as an example 86 percent of our portfolio is prime plus and in addition our strategy because",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3629140,
@@ -3668,6 +3772,7 @@
    "t1_ms": 3716420,
    "speaker": "Management",
    "text": "we are as we talked about our investor day we're shifting as our clients and the market is taking us there to general purpose cards right and you're seeing that in the drivers that already tells you that that that that mix uh that mix will also be be driving towards you know improvement in the ncl so what you're seeing in our ncl is both the combination of the resilience playing through but also our risk appetite framework and our strategy working so you're right i think that at some stage probably not with you know a single rate high but if you accumulate you know something that is over several you know quarters and something that moves quite a bit higher some of the marginal segments probably below the FICO band they're going to feel you know a bit of pressure in terms of the you know the",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3672500,
@@ -3715,6 +3820,7 @@
    "t1_ms": 3759060,
    "speaker": "Management",
    "text": "and maybe on the corporate end yeah i look on the on the corporate side i think we're starting to see some some of the impact so while spreads are remaining tight in investment grade refinancing activity should stay elevated but i think what we're seeing is a higher rate environment may impact the tenor however but where the change may be felt more in some of the customer behavior is you've got an upcoming three-year maturity wall and that is going to occur in a much different rate spread and liquidity environment it could bring more high yield issuers to the market but it could also um you know indicate some areas of potential stress so the behavior",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3717220,
@@ -3754,6 +3860,7 @@
    "t1_ms": 3799060,
    "speaker": "Management",
    "text": "shift we've seen this quarter is syndicated debt and loan insurance moderated in favor of loans and revolvers to the flexibility that they they provide as rates move and then of course you turn to the AI the broad AI ecosystem and I don't think that um higher rates is going to trump the imperative to invest um there we're not seeing a slowdown investment in the broader AI ecosystem your behavior there um the there's simply not enough compute compute energy remains a bottleneck requiring more investment that's globally not just in the",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3759060,
@@ -3789,6 +3896,7 @@
    "t1_ms": 3831630,
    "speaker": "Management",
    "text": "US and so obviously we'll we keep an eye on sentiment and the other dynamics that are happening there but we're not anticipating a lot of shift in behavior um I would say though we do have the luxury at city that we have a very investment grade um heavy client base on the institutional and a prime heavy on the consumer front so we don't tend to see um you know we have a high quality client base to leave it at that perfect thank you very much I",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3799060,
@@ -3820,6 +3928,7 @@
    "t1_ms": 3839260,
    "speaker": "Operator",
    "text": "appreciate all that color our next question comes from the line of Chris McGrady with KBW you",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3831630,
@@ -3835,6 +3944,7 @@
    "t1_ms": 3851420,
    "speaker": "Analyst",
    "text": "may now unmute and ask your question oh great thanks for putting me in um if we think of our capital um allocation into the lending business into 27 um given rate the rate",
+   "name": "Chris McGratty, KBW",
    "parts": [
     {
      "t0_ms": 3839260,
@@ -3854,6 +3964,7 @@
    "t1_ms": 3892270,
    "speaker": "Management",
    "text": "discussion is there any change in where you see the best returns either by product or geography um hi Chris uh good afternoon I suppose now um I think probably a bit early to say as you think about 2027 right because we as everybody else we have to go through our you know planning cycles and look at you know stare at what also was this quarter and the level of activity the market is pretty dynamic and Jane was just alluding to a few of the elements there right what's happening with rates what are the reverberations right will it impact and some of the questions around the maturity world that Jane was talking about and any supply",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3851420,
@@ -3893,6 +4004,7 @@
    "t1_ms": 3935550,
    "speaker": "Management",
    "text": "competition right does it does it impact for some projects especially maybe outside of the AI and tech you know um turbo boost what does what if what if any impact does it have in other industries on some of the marginal projects so I think we have to see a bit you know how the fourth quarter plays out and how you know the rate environment also lands to have a clear picture as to into 2027 yeah but I but I also just remind everyone is when we're looking at um capital allocation to lending we don't think of it just as a product there's tremendous cross-sell of our platform um and so this is one of the the disciplines that Viz has really driven into the business and and the team is um you know how do we think",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 3892270,
@@ -3936,6 +4048,7 @@
    "t1_ms": 3974270,
    "speaker": "Management",
    "text": "of it within that lens what I would say is we are very attentive at the moment um you know given it is quite a dynamic environment underwriting with a trim it with a lot of discipline um we have a very diversified not a concentrated um portfolio uh we've got rigorous limits that we're putting in place we stress test so if the cycles disappoint um we're in a good position around it and we lend with uh to companies with durable cash flows and collateral and so I think we feel we feel very good about um where we're sitting right now and our ability",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3935550,
@@ -3971,6 +4084,7 @@
    "t1_ms": 3992400,
    "speaker": "Management",
    "text": "to support clients in the growth cycle but also to be that port in a storm if things um do turn a different direction at some point thank you very much our next question comes from",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3974270,
@@ -3990,6 +4104,7 @@
    "t1_ms": 3995840,
    "speaker": "Operator",
    "text": "matt o'connor with deutsch bank you may now dial star six and ask your question",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3992400,
@@ -4003,8 +4118,9 @@
    "seg_id": 115,
    "t0_ms": 3998190,
    "t1_ms": 4042590,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "hi um wanted to ask on credit card you've obviously been leaning in on the general purpose uh and seeing good spend volume growth good uh growth and loans and then you know the cost of that is kind of uh contra revenue uh how far along are you in kind of the drag of um uh you know those initiatives as you think about the revenues all right thank you thanks very much uh matt for the question I think uh maybe just to anchor for let me start with a with a technical and then I'll give you the broader piece you're correct I think in the we talked about how in the nir front there will be especially some of the contra revenue plays through in this particular quarter you can see the rewards piece playing through as well as",
+   "name": "Matt O'Connor, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 3998190,
@@ -4048,6 +4164,7 @@
    "t1_ms": 4085710,
    "speaker": "Management",
    "text": "remember we have you know in place some profit sharing agreements with some of our partners so the fact that losses are performing quite well that some of that gets shared still are critical for us because we don't share 100 but but uh but that is what has a little bit of an impact on the revenue but to your point when you look at the drivers and what we said about our strategy which is the pivot towards you know purpose card and you're seeing those drivers you know healthy and if you look back the last two or three years those same drivers we've been growing if you think about a car's business always the three engines that one thinks about is spend borrow and acquire and on all three we've been growing at about a five to six percent annual rate for the last you know three years compounded and so that's what's driving the nii that's what gives us confidence what I also like about it is this is a scale",
+   "name": "Gonzalo Luchetti, CFO",
    "parts": [
     {
      "t0_ms": 4042590,
@@ -4097,8 +4214,9 @@
    "seg_id": 117,
    "t0_ms": 4085710,
    "t1_ms": 4124670,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "franchise and we are operating at around our through the cycle targets so whilst we are investing and to jane's earlier point we're not losing the discipline on returns and on expenses as we go along thank you okay and then on the private label side it's obviously a lot smaller a much smaller piece of the overall business and that's kind of been grinding down just remind us that there's you know opportunities to move from those balances to the general purpose portfolio over time or if there's other kind of strategic options with that business over time thank you yeah I think what we've been seeing is this shift",
+   "name": "Matt O'Connor, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 4085710,
@@ -4138,6 +4256,7 @@
    "t1_ms": 4145229,
    "speaker": "Management",
    "text": "to more of the co-brand proposition and so a fair number of the partners we've been in or are in discussions about pivoting to more of a co-brand which is in in line with much of the consumer behavior so that that's um that is off our one of our areas of focus there",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4124670,
@@ -4161,6 +4280,7 @@
    "t1_ms": 4153020,
    "speaker": "Operator",
    "text": "you're right for our next question we'll go to the line of david kiavarini with geoffrey's",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4146189,
@@ -4176,6 +4296,7 @@
    "t1_ms": 4164460,
    "speaker": "Analyst",
    "text": "you may now unmute and ask your question hi thanks for taking the question um I wanted to ask about the investment banking uh pipeline how should we think about the pipeline for the",
+   "name": "David Chiaverini, Jefferies",
    "parts": [
     {
      "t0_ms": 4153020,
@@ -4195,6 +4316,7 @@
    "t1_ms": 4204940,
    "speaker": "Management",
    "text": "fourth quarter look um if I think you should feel pretty good about the pipeline um it's a it's a solid pipeline to say the least um us is the center of the action for both advisory and capital markets you know we're seeing a bit of pickup in some europe and obviously and asia but a lot of this is about the us in terms of pipeline equity markets is more follow on driven um the ipo market continues to be a bit more selective so certainly an option for issuers with durable earnings and the dcm pipeline is strong um but it's um supported by clients",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4164460,
@@ -4230,6 +4352,7 @@
    "t1_ms": 4247420,
    "speaker": "Management",
    "text": "acting before rates move higher and stay there for longer um I mentioned that we're expecting refinancing activity to stay elevated particularly in investment grade because the spreads are pretty tight there um and as we look further out you've got this three year maturity wall occurring um and the overall sentiment for deal making is constructive we're seeing continued capex elevated strategic dialogues and so yeah I would say we expect to see an above average wallet even if it pulls a bit back from the 26 near record levels for the rest of the year and the bit that's it's brighter has been sponsors they've continued to",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4204940,
@@ -4269,6 +4392,7 @@
    "t1_ms": 4260080,
    "speaker": "Management",
    "text": "sit on aged assets that are just slower to monetize but we see continued engagement with them for mna and ipo so as long as macro stable we don't see that changing thanks for",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4247420,
@@ -4288,6 +4412,7 @@
    "t1_ms": 4273520,
    "speaker": "Analyst",
    "text": "that and then I also wanted to ask about the ai infrastructure build out in what ways is city participating in or not in the financing of this build out and talk about the appetite city has",
+   "name": "David Chiaverini, Jefferies",
    "parts": [
     {
      "t0_ms": 4260080,
@@ -4307,6 +4432,7 @@
    "t1_ms": 4310960,
    "speaker": "Management",
    "text": "for it yes um we the tech and uh the tech and the related ai activity has been um has been very busy for us um we if you look at it we were in equity capital markets room involved in the lead roles on sk hynix and intel um in equity capital markets is water same in dcm we're on 17 of the top 25 investment grade deals um including the largest lead left in the you know the lead left of the largest ever high yield bond issue that was for a soft bank so we",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4273520,
@@ -4338,6 +4464,7 @@
    "t1_ms": 4334770,
    "speaker": "Management",
    "text": "have been very active in the in the ai space um really across across the board um financing advisory um and uh and helping advise clients on how they can be growing yep our next question",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4311040,
@@ -4357,6 +4484,7 @@
    "t1_ms": 4340770,
    "speaker": "Operator",
    "text": "comes from kunpeng ma with china securities please go ahead hi good afternoon jane and",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4334770,
@@ -4372,6 +4500,7 @@
    "t1_ms": 4367410,
    "speaker": "Analyst",
    "text": "don't know uh this is good hi hi nice to meet you uh yeah i have a question on the services business uh you know it's a very good time for global transaction banking but i'm wondering if we could have some color from the client side i mean what kind of client activities and client demands supporting this kind of very good strong performance and also how about the sustainability that kind of typical client demands thank you",
+   "name": "Kunpeng Ma, China Securities",
    "parts": [
     {
      "t0_ms": 4340770,
@@ -4403,6 +4532,7 @@
    "t1_ms": 4410770,
    "speaker": "Management",
    "text": "um well our client if you think about what do our clients need they they're looking at liquidity payment custody um solutions across across the board and across the world um they're looking for increasingly always on real time interoperable efficient and secure solutions um for their cash management for their custody um and all of their liquidity and payment needs so it's a little bit of they want to have their cake eat it without putting on the calories um and we we're at we're in a position to provide that comprehensive market",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4369250,
@@ -4438,6 +4568,7 @@
    "t1_ms": 4451730,
    "speaker": "Management",
    "text": "leading set of solutions to those clients holistic needs we're seeing the client base growing um a lot as we get new high growth verticals coming in particularly in the fintech space and some of the digital asset players but also we've seen it in e-commerce um as the world gets more fragmented ironically um we're seeing a lot more activity um clients moving money differently around the world we've seen clients connecting the middle east to asia uh in a way that didn't happen five years ago or latin america to asia that had not been a",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4410770,
@@ -4473,6 +4604,7 @@
    "t1_ms": 4478210,
    "speaker": "Management",
    "text": "major corridor that's been growing in addition to all the usual ones that we see so on that the client base is uh is really ripe for a platform like cities and that's where we're seeing very little client attrition we're seeing a lot of growth and deepening with existing clients but we're also excited to see a lot of new client acquisition coming through as well",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4451730,
@@ -4500,6 +4632,7 @@
    "t1_ms": 4505570,
    "speaker": "Analyst",
    "text": "thank you jane very helpful may i have a quick follow-up on the digital assets you just mentioned about yeah you know those guys are very active like stable coins like rwas and all that kind of digital assets i'm wondering if you can share some color with us about the contribution of such kind of digitalization or you know yeah or paying of such kind of activities yeah yep so",
+   "name": "Kunpeng Ma, China Securities",
    "parts": [
     {
      "t0_ms": 4479890,
@@ -4527,6 +4660,7 @@
    "t1_ms": 4548450,
    "speaker": "Management",
    "text": "i think the area that we've been seeing it goes back to what is the client need ideally they want an efficient secure way to move their money around as much in an instant and always on mode and that that really does look at uh a connection between the fiat world and the stable coin that's the interoperability point being important and the choice that we give our clients our idea is let's give the clients a choice between all the different platforms and capabilities and then they can choose which is the best for their particular need there's not a one-size-fits-all here as i've said before",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4506530,
@@ -4566,6 +4700,7 @@
    "t1_ms": 4588050,
    "speaker": "Management",
    "text": "the city token services and the tokenization and deposits is probably the area we'd be most excited about because it's so easy for a client to move money from one account within city to another taking advantage of our blockchain and that this is a capability now operating in seven markets around the world and and it also connects into our 24 seven clearing capabilities so that means it's not only instant always on between city accounts but connects into 300 banks and who of our peers around the world so that's a fabulous proposition for a client",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4548450,
@@ -4601,6 +4736,7 @@
    "t1_ms": 4626450,
    "speaker": "Management",
    "text": "what i we'd see less on stable coin honestly um i think that's the nature of our client base and they fight stable coin is it is a bit more clunky um there's more complexity and compliance accounting and tax removing money around the world with it whereas tokenization provides them the least hassle and easiest way to do it so that's why we've been seeing more growth there obviously in custody um with digital asset custody and our platform going live later this year um this will be uh an area that we will be a one-stop shop in custody and",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4588930,
@@ -4636,6 +4772,7 @@
    "t1_ms": 4635060,
    "speaker": "Operator",
    "text": "that will include for coin for our next question we'll return to the line of mike mayo",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4626450,
@@ -4651,6 +4788,7 @@
    "t1_ms": 4674020,
    "speaker": "Analyst",
    "text": "with wells fargo hi i'd like to return back to the implication of ai on city group um when it i mean is city an ai victim or beneficiary and the victim is the ai scare trade that your deposit will flow out of city group due to more advanced cash sorting maybe you can address that part of the question with how much you spend on cyber security what you spend to protect customers privacy and identity and on the other side of that is how you can deploy ai for additional efficiencies and i saw you move to the top 10 moved up a lot of places in the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4635060,
@@ -4686,6 +4824,7 @@
    "t1_ms": 4680100,
    "speaker": "Analyst",
    "text": "most recent ai survey and if you could just describe what you've done on an enterprise level",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4674020,
@@ -4701,6 +4840,7 @@
    "t1_ms": 4722020,
    "speaker": "Management",
    "text": "or how you're getting benefits out of ai thank you okay um well we are i i was offended that we were merely in the top 10 i think you've mostly understated where we should be mike but i'm sure we'll talk about that later um we're deploying ai at scale with measurable results so let me talk about the benefits first then i'll talk a bit about um the the cyber security side um i think we've talked about one we're supporting our clients on the build out and the transformation of their businesses so we're making um capturing a significant share of the activity of our clients in as that ecosystem is mobilizing capital at pace",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4680100,
@@ -4740,6 +4880,7 @@
    "t1_ms": 4767540,
    "speaker": "Management",
    "text": "the second is our own adoption of ai and that is both earning and saving us money we're tangibly improving productivity and efficiency through the bank let me give you a couple of examples ai is accelerating our product development life cycle so we are launching new products at lower cost and at faster speed and we're typically seeing about 30 to 40 percent increase in the speed with which we are launching products um another example 14 000 of our engineers use our main agentic coding tool devon that makes it much more efficient for us to do the work in in-house so we've been in sourcing work",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4723300,
@@ -4779,6 +4920,7 @@
    "t1_ms": 4809620,
    "speaker": "Management",
    "text": "we've reduced our tech vendor spend by 30 percent year over year as a consequence and that's still got a long way to run um then probably the big one around a hundred of our most manual processes have or are being re-engineered end to end leveraging ai and automation this is a firm-wide systematic program it's a very important pillar of the structural efficiencies that will further improve our operating efficiency in the near term this year alone we're seeing the financial benefits from ai and automation significantly outweigh the investments we've made here today and that will only accelerate in coming years",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4767620,
@@ -4818,6 +4960,7 @@
    "t1_ms": 4851220,
    "speaker": "Management",
    "text": "because having made the investment um the benefits just will recur year after year and will keep improving on them and then we're also using ai to um to generate revenue and improve the client experience earlier days still on the revenue generation but like in services our ai tools for our client service agents alive in 82 countries response times have improved for our clients by 21 client satisfaction scores are better you've heard us talk about city sky in pilot now in our wealth franchise so ai is happening all across our firm um and it's",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4809620,
@@ -4853,6 +4996,7 @@
    "t1_ms": 4892820,
    "speaker": "Management",
    "text": "drive it's helping us earn and it's helping us save money in terms of making us safer we continue to invest in leading edge capabilities to bolster our cyber defenses and we're deploying ai responsibly um so on the cyber front um and what we're well look ai is tremendously exciting but ai does put powerful tools in the hands of bad actors we if we're going to innovate at speed we have to manage risk at speed and retain trust so i'm i'm very happy with how we're deploying the frontier models securely",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4851220,
@@ -4888,6 +5032,7 @@
    "t1_ms": 4936340,
    "speaker": "Management",
    "text": "through a structured harness across our entire perimeter so we're identifying and addressing vulnerabilities at speed and scale and working closely with our peers and the leaders of major industries to make sure that um defenses cross industries too because unfortunately ai's arriving in a world that's deeply uh interconnected i am not worried about deposit flight risk um in services the benefit that we have of just this so hard to replicate the network we've got um the multiple dimensions of it but you can see we demonstrate constantly we're at the forefront and the cutting edge of applying those innovations",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4892820,
@@ -4927,6 +5072,7 @@
    "t1_ms": 4972900,
    "speaker": "Management",
    "text": "and the new capabilities to disrupt ourselves to advance our proposition to clients and that's why we just have this very high win rate and continually bringing in new clients and new business onto the platform with very little attrition um so i am i am you're always worried um we always my job is to worry um but my job is also to make sure that we do something about that and we're doing that in a very constructive and a way that retains trust",
+   "name": "Jane Fraser, Chair and CEO",
    "parts": [
     {
      "t0_ms": 4936340,
@@ -4958,6 +5104,7 @@
    "t1_ms": 4979890,
    "speaker": "Operator",
    "text": "and there are no further questions i will turn the call over to margo pillage for closing remarks",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4975970,
@@ -4973,6 +5120,7 @@
    "t1_ms": 4985490,
    "speaker": "Management",
    "text": "thank you operator thank you all for joining us today we look forward to speaking with you and",
+   "name": "Margo Pillich, Head of Citi Strategy, M&A and Investor Relations",
    "parts": [
     {
      "t0_ms": 4980850,
@@ -4988,6 +5136,7 @@
    "t1_ms": 4995980,
    "speaker": "Operator",
    "text": "addressing any follow-up questions you have this concludes the city third quarter 2026 earnings call you may now disconnect",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4985490,
@@ -8969,6 +9118,7 @@
    "quote": "And we've reduced the total firmwide DTAs deducted from CET1 capital by approximately $900 million year-to-date, as U.S. profitability continues to improve.",
    "adj_ret_5m": -0.011871909691486104,
    "speaker": "Management",
+   "name": "Gonzalo Luchetti, CFO",
    "vol_mult": 10.54213728537149,
    "spillover": "mixed"
   }
@@ -8982,6 +9132,7 @@
    "t0_ms": 1353340,
    "speaker": "Management",
    "quote": "And we've reduced the total firmwide DTAs deducted from CET1 capital by approximately $900 million year-to-date, as U.S. profitability continues to improve.",
+   "name": "Gonzalo Luchetti, CFO",
    "metric": "DTAs deducted from CET1 reduction",
    "kind": "result",
    "novel": true,
@@ -9014,6 +9165,7 @@
    "t0_ms": 1626720,
    "speaker": "Management",
    "quote": "from the high end of the 10 to 11 or a bit better than 11 to above 11.",
+   "name": "Gonzalo Luchetti, CFO",
    "metric": "Full year ROTCE guidance",
    "kind": "guidance",
    "novel": true,
@@ -9046,6 +9198,7 @@
    "t0_ms": 1843360,
    "speaker": "Management",
    "quote": "And at the same time, return four billion dollars of capital to",
+   "name": "Gonzalo Luchetti, CFO",
    "metric": "Capital returned to shareholders",
    "kind": "result",
    "novel": true,
@@ -9078,6 +9231,7 @@
    "t0_ms": 3253410,
    "speaker": "Management",
    "quote": "it's about a two billion dollars of investments a year",
+   "name": "Jane Fraser, Chair and CEO",
    "metric": "annual platform and innovation investment",
    "kind": "result",
    "novel": true,
@@ -9215,7 +9369,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 10.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 1151,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 40417
+  },
+  "claude_usd": 0.1126
+ },
  "context": {
   "ts": [
    "2026-10-13T14:45:00Z",

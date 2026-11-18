@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-11-04T08:30:00-05:00",
   "etf": "XLY",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/MCD_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/MCD_Q3-2026.mp3",
   "company": "McDonalds",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 42480,
    "speaker": "Management",
    "text": "Hello and welcome to McDonald's third quarter 2026 investor conference call. At the request of McDonald's Corporation, this conference is being recorded. Following today's presentation, there will be a question and answer session for investors. At that time, investors only may ask a question by pressing star 1 on their touchtone phone. I would now like to turn the conference over to Mr. Dexter Combalet, Vice President of Investor Relations for McDonald's Corporation. Mr. Combalet, you may begin. Good morning, everyone, and thank you for joining us. With me on the call today are Chairman and Chief Executive Officer Chris Kamchinsky and Chief Financial Officer Ian Borden.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -67,6 +68,7 @@
    "t1_ms": 87060,
    "speaker": "Management",
    "text": "As a reminder, the forward-looking statements in our earnings release and 8K filing also apply to our comments on the call today. Both of those documents are available on our website, as are reconciliations of any non-GAAP financial measures mentioned on today's call, along with their coursework. We will also be providing a full list of the corresponding GAAP measures. Following prepared remarks this morning, we will take your questions. Please limit yourself to one question and then re-enter the queue for any additional questions. Today's conference call is being webcast and is also being recorded for replay via our website. And now, I'll turn it over to Chris. Thanks, Dexter, and good morning, everyone. During today's call, I'll start with the next steps we're taking to build momentum in the U.S.",
+   "name": "Dexter Combalet, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 43280,
@@ -126,6 +128,7 @@
    "t1_ms": 130580,
    "speaker": "Management",
    "text": "Ian will then provide details on our performance in the quarter. And then, Chris will provide an update on how we're advancing McDonald's Next across the system. In the third quarter, McDonald's delivered global comparable sales of 1.5% and system sales growth of 4% in constant currency, reflecting the growing contribution from new restaurant openings. Our international markets delivered another quarter of solid results, supported by the continued strong execution across value, menu, and marketing in most of our largest markets, even amidst the continued challenging consumer environment. In the U.S., performance improved as the quarter progressed, with comparable sales turning positive in September, following a slightly negative result in July and August.",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 87060,
@@ -181,6 +184,7 @@
    "t1_ms": 171420,
    "speaker": "Management",
    "text": "That improvement followed a series of interventions we initiated during the quarter, restoring some digital offers to drive frequency with our most engaged customers, shifting marketing support toward proven value platforms, and stepping up our focus on restaurant-level execution. We're encouraged by the initial response to those interventions, and the direction of the business. At the same time, we know there's more work to do. Our focus now is to build on that improvement and accelerate baseline performance. Specifically, that includes three additional interventions in the months ahead. First, and most importantly, nailing the final piece of our value equation, entry-level offerings.",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 130580,
@@ -232,6 +236,7 @@
    "t1_ms": 213980,
    "speaker": "Management",
    "text": "Second, engaging our most frequent customers by stepping up compelling digital offers that give them more reasons to visit. And third, enhancing taste and quality credentials are our biggest equities, including system training on taste, quality, and great hospitality. We know there's particular interest in our U.S. value plan, so allow me to elaborate on the specific steps that we are taking and their expected timing. Just last week, we began an eight-week test of two new everyday affordable price menu constructs across all day parts in about 1,900 restaurants across a handful of regions. We're testing mix-and-match bundles that give customers greater choice and provide familiar ordering behaviors",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 171420,
@@ -287,6 +292,7 @@
    "t1_ms": 257079,
    "speaker": "Management",
    "text": "for prior buy-one, add-one offers. We're also testing fixed bundles that give customers a set combination at an attractive price and make ordering straightforward. At the same time, franchisees representing about an additional 4,000 restaurants have chosen to move forward with similar entry-level bundles in advance of the formal test results. Together, these restaurants and those participating in the formal test represent, more than, 40% of the U.S. system, reflecting strong alignment around the opportunity. We used the results of this test to determine which structure resonates most with customers, works best operationally, and delivers sustainable incremental traffic and sales for franchisees.",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 213980,
@@ -342,6 +348,7 @@
    "t1_ms": 301060,
    "speaker": "Management",
    "text": "Our goal is to launch a new program nationally in early 2027. We've already made significant improvements to address holistic value across our menu, which contributed to improvement in value and experience scores across our menu. across our top 10 markets. Today, our base menu pricing across the industry's most popular menu items in chicken, beef, and beverages is generally below that of our nearing competitors. Our five and six dollar meal deals remain industry standouts, and our extra value meals on everyday fan favorites have become a proven platform to drive incremental sales. And we provide a compelling broad set of digital offers to more than 45 million loyalty members in the US through the McDonald's app.",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 257079,
@@ -417,6 +424,7 @@
    "t1_ms": 346880,
    "speaker": "Management",
    "text": "Our goal is straightforward. Customers should see a clear and compelling value proposition every time they consider McDonald's, whether they're looking for an affordable individual item, a complete meal, or a digital offer in the mobile app. In conclusion, we're exactly where we hoped to be when we shared our comments regarding US performance at Investor Day. We're taking the right steps to improve our near-term performance in the US, and I'm encouraged by our baseline traffic trends in September, and October. At the same time, beverages continues to perform well and are contributing to incremental chef growth. With that, I'll hand it over to Ian to take you through the quarter in more detail. Thanks, Chris, and good morning, everyone. In the third quarter, global comparable sales grew 1.5%",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 301900,
@@ -516,6 +524,7 @@
    "t1_ms": 389880,
    "speaker": "Management",
    "text": "in a soft consumer environment, particularly in Europe. In spite of the environment, we continued to gain or hold share across the majority of our top markets. Beginning with the US, comparable sales declined 0.2% for the quarter, and are up 1.4% on a year-to-date basis. As Chris just highlighted, comp sales improved as the quarter progressed, turning positive in September as a result of steps we took during the quarter to begin to stabilize baseline guest counts. One step was to partially restore a broader range of regional and national digital offers to drive higher frequency of visits from active loyalty members, as well as to generate traffic from new and lapsed loyalty members. Examples of these offers included",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 346880,
@@ -607,6 +616,7 @@
    "t1_ms": 433300,
    "speaker": "Management",
    "text": "a $2 breakfast sandwich and free fries with a $1 minimum purchase. The initial responses to the mass digital offers exceeded expectations for both incremental guest counts and sales, and helped to reverse the decline in baseline trends we saw in Q2 and early in Q3. The second step was reallocating marketing support toward rest-of-day entry-level meal deals and extra value meals, proven and compelling components of our market. We are also using a non-price-to-value approach to increase our value offerings. Since relaunching EVMs more than a year ago, unit sales from our top EVMs are up about 7% versus the prior year, and we've consistently seen incremental traffic with higher average check in margin.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 389880,
@@ -686,6 +696,7 @@
    "t1_ms": 476260,
    "speaker": "Management",
    "text": "This trend continued late in the quarter behind nationally price-pointed offerings, including a $5 sausage McMuffin and egg meal, and an $8 Big Mac meal. As Chris noted, the U.S. is also testing additional entry-level value offerings, expect to launch in early 2027 to complement these strong existing value programs. Turning to menu, our new specialty beverage platform continued to perform well, delivering clear incrementality in the quarter behind strong take rates and repeat purchases across the assortment. We continued to see checks that included a specialty beverage up about 50% compared to the full-day average check, with a majority of units sold after lunch.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 433300,
@@ -741,6 +752,7 @@
    "t1_ms": 519760,
    "speaker": "Management",
    "text": "The addition of Red Bull Dragonberry Energizer in August delivered a boost to the platform, with minimal cannibalization of refreshers and crafted sodas. During the six-week advertised launch window, it sold the most units within the platform and lifted total specialty beverage category sales. In short, for the U.S. overall, we're encouraged by the initial response to the interventions we undertook to improve baseline trends and how the U.S. system is acting together to strengthen business. We also saw a significant increase in sales in the last two years, with a significant increase in sales in the last two years. Turning to the international operated markets, comparable sales increased 1.4% led by Australia and Germany, and we gained or held share in most of our top markets.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 476260,
@@ -796,6 +808,7 @@
    "t1_ms": 561260,
    "speaker": "Management",
    "text": "IOM comparable sales decelerated slightly as compared to the second quarter. This primarily reflected the continued underperformance versus our expectations in France, as well as the impact on restaurant operating hours from the recent escalation of the war in Ukraine. Excluding these two factors, IOM comparable sales would have exceeded our expectation for the quarter, as markets continued to execute our playbook of delivering everyday value, offering relevant menu innovation, and driving strong marketing. Beginning with value, Australia expanded its McSmart platform with new pricing tiers for meal bundles that drove incremental sales and guest counts.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 519760,
@@ -839,6 +852,7 @@
    "t1_ms": 604260,
    "speaker": "Management",
    "text": "Germany and the U.K. strengthened their affordability platforms with a particular focus on families. The U.S. economy has been growing rapidly since the beginning of the pandemic, and the U.S. economy has been growing rapidly since the beginning of the pandemic. The U.S. economy has been growing rapidly since the beginning of the pandemic, including price-pointed happy meal offers. The U.S. economy has been growing rapidly since the beginning of the pandemic, including price-pointed happy meal offers. The U.S. economy has been growing rapidly since the beginning of the pandemic, including price-pointed happy meal offers. Additional value initiatives, such as the U.K.'s Chicken McNuggets Extra Value Meal Add-On and Saver's Breakfast Offers, helped drive guest visits and strengthen value perceptions. For menu innovation, the launch of specialty beverages in Australia early in July significantly exceeded expectations, with strong take rates and contribution to sales. Australia delivered many of the business performance and demographic trends we've shared about this platform in other markets. Specialty beverages also continued to deliver strong performance in Canada and Germany.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 561260,
@@ -898,6 +912,7 @@
    "t1_ms": 649180,
    "speaker": "Management",
    "text": "Canada's launch of Red Bull Energizers in the quarter exceeded overall unit sales forecasts and was incremental to other specialty beverage sales. In Germany, the platform featured its first specialty beverage LTO, the Italo Spritz, and continued to drive incremental guest counts, improve baseline momentum, and capture beverage market share in the quarter. The performance across the U.S., Canada, Germany, and Australia reinforces our confidence that the specialty beverages can become a sustainable global growth platform under McDonald's Next and be a key driver for our goal to capture an additional 1.5 percentage points of beverage market share by 2030. We remain on track to launch specialty beverages across nearly all of our European markets",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 604260,
@@ -949,6 +964,7 @@
    "t1_ms": 693060,
    "speaker": "Management",
    "text": "by mid-2027 and across more international developmental licensed markets throughout 2027. Beyond beverages, we continue to see solid momentum in another global growth platform under McDonald's Next, large beef burgers. In Australia, the Quarter Pounder was again the center of innovation and marketing, featuring the Quarter Pounder Deluxe and Double Quarter Pounder BBQ Bacon, with the performance of both exceeding expectations. And Australia's successful Quarter Pound innovation has confirmed the opportunity that we believe exists with this equity across other markets, which will be a focus of our future. Germany also continued to build on the momentum of the Big Arch platform, featuring the Big",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 649180,
@@ -1000,6 +1016,7 @@
    "t1_ms": 735720,
    "speaker": "Management",
    "text": "Arch with Bacon and Big Tasty Bacon, with performance beating expectations and supporting beef market share gains in the quarter. The UK and Spain also featured Big Arch during their quarter, extending positive performance in the beef category to these markets. Turning to marketing, as we highlighted on our investor day, Menu Heist is an example of how we can improve our beef market share by 2027. We are also looking to expand our business to the market, and now we are leveraging our global scale to offer customers a curated selection of international menu favorites at their local McDonald's restaurant to create customer excitement, drive guest visits, and keep the McDonald's brand at the center of the experience. In both Germany and Canada, the campaign generated strong sales and guest count growth. Germany",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 693060,
@@ -1055,6 +1072,7 @@
    "t1_ms": 779920,
    "speaker": "Management",
    "text": "delivered one of its highest sales weeks ever in the market, supported by menu items such as Mic Extreme Bacon from Spain and McCrispy Chili Sauce from McDonald's. chili honey from Canada. And in the UK, menu heists launched at the end of September with early social media trends showing strong customer excitement. While many of our major IOM markets delivered strong execution during the quarter, France continued to perform below our expectations, which Chris will discuss in a few minutes. Turning to the international developmental license markets, comparable sales increased 4.2 percent, with all geographic regions delivering positive comparable sales. Japan led the way, driven by strong execution across value, menu,",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 735720,
@@ -1098,6 +1116,7 @@
    "t1_ms": 820800,
    "speaker": "Management",
    "text": "and marketing, and has now delivered 44 quarters of consecutive comp sales growth. IDL's comparable sales growth was tempered by results in China, as the near-term macro environment and consumer backdrop remained challenging. At the same time, the China team continued to drive operational efficiency, which supported improved bottom-line performance versus the prior year quarter. Turning to the enterprise P&L, our top-line performance drove adjusted earnings per share of $3.57, including a one-cent headwind from foreign currency translation. On a constant currency basis, adjusted earnings per share increased 11 percent compared with the prior year quarter.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 779920,
@@ -1141,6 +1160,7 @@
    "t1_ms": 863680,
    "speaker": "Management",
    "text": "We currently estimate no impact of foreign currency translation on adjusted earnings per share for the fourth quarter versus the prior year, based on current exchange rates. As always, this is the topic of future and future discussion. In the third quarter, we generated nearly $4.2 billion in restaurant margins. Our year-to-date adjusted operating margin was 48.3%, reflecting higher other operating income, including the benefit from our re-franchising efforts, which led to higher gains on sale of restaurants. We are making steady progress towards our goal of having 98% of our global restaurant emotions production, which will continue to be an되. Portfolio franchisees Re-franchise service",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 821600,
@@ -1192,6 +1212,7 @@
    "t1_ms": 908140,
    "speaker": "Management",
    "text": "175 restaurants across the U.S. and IOM so far this year. SG&A expenses were 2% of system-wide sales in the quarter, and we continue to expect SG&A as a percentage of system-wide sales for the full year to be approximately 2.2%. As we discussed at Investor Day, we expect the investments we've made in global systems, shared capabilities, and high-quality enterprise data will begin contributing to improved efficiency on SG&A as a percentage of system-wide sales in 2027. Turning to new unit growth, we remain disciplined in our development decisions as we continue to open restaurants only where we expect attractive long-term returns for both McDonald's and",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 863680,
@@ -1231,6 +1252,7 @@
    "t1_ms": 948220,
    "speaker": "Management",
    "text": "franchisees. We now expect 2,500 gross restaurant openings globally this year, slightly below our target of 2,600, but remain on track for approximately 2,500. As we continue to open restaurants, we expect 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our target of 2,500 gross restaurant openings globally this year, slightly below our to $3.9 billion, reflecting opening slightly fewer gross new restaurants in owned markets, as well as the impact of foreign currency. In summary, our third quarter results were consistent with the trajectory that we previously",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 908140,
@@ -1318,6 +1340,7 @@
    "t1_ms": 989960,
    "speaker": "Management",
    "text": "outlined for the U.S. business, alongside continued solid performance across most of our international business. We're encouraged by the improvement in U.S. baseline trends that we saw as the quarter progressed, and remain focused on the further work to do to position the business for stronger, more consistent performance in 2027. At the same time, we'll continue investing behind McDonald's Next at scale to drive sustainable long-term growth and productivity. And with that, let me turn it back over to Chris. Thanks, Ian. I want to offer a quick word on France. A few weeks ago, our franchisees in France voted in support of a well-defined and holistic path forward, including simplifying the market's governance,",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 948220,
@@ -1377,6 +1400,7 @@
    "t1_ms": 1034210,
    "speaker": "Management",
    "text": "structure to enable greater flexibility and agility for our business moving forward. This was a historic vote, and I want to thank our franchisees for their partnership to get the business back on track. While we continue to face short-term disruptions to our business in France due to the recent protests, we're now better positioned to drive growth behind stronger marketing support and the right combination of innovation, value, and improved execution. Six weeks ago, we hosted Investor Day here in Chicago to detail McDonald's' Next, our new long-term growth strategy. At its core, McDonald's Next is all about how we improve the customer experience, from the food we serve to the hospitality that we offer, while making our restaurants easier",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 989980,
@@ -1428,6 +1452,7 @@
    "t1_ms": 1075670,
    "speaker": "Management",
    "text": "to operate and more efficient. Our ambition is simple, to be the first choice for more customers more often. Across the global system, our franchisees, suppliers, and employees are now stepping up, exchanging ideas, sharing solutions, and providing feedback. That's how we get better. And it demonstrates the power of our unique three-legged stool model. On McDonald's Next as a multi-year strategy, we're already putting elements of it into action. Our internal mantra is, Next is Now. In early October, on our Founders' Day, also known as Ray Kroc's birthday, we launched Make It Golden. Make It Golden is the largest capability-building initiative in our history, focusing on elevating",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1034210,
@@ -1487,6 +1512,7 @@
    "t1_ms": 1120460,
    "speaker": "Management",
    "text": "the guest experience by delivering great-tasting food and uniquely McDonald's hospitality. We're giving restaurant teams the training and tools to create more of these moments, more consistently and at scale. In the first month, we completed the first round of trainings for our key leaders and experts who are responsible for cascading Make It Golden across more than 18,000 restaurants in the first quarter. We're also making great progress rolling out our new beverage platform. Today, nearly 18,000 restaurants across the US, Germany, Canada, and Australia are driving incrementality by giving customers new opportunities. We're on track to expand our specialty beverage platform to more than 7,000 additional restaurants",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1075670,
@@ -1538,6 +1564,7 @@
    "t1_ms": 1163990,
    "speaker": "Management",
    "text": "across Europe by mid-2027. We've already begun setting up operational pilots for hand-breaded chicken in the US and Ireland as we work to elevate taste and quality in our fastest-growing category. In early 2027, we'll launch full advertised sales tests in about 100 restaurants in a couple US cities. We'll also launch a full national rollout across Ireland. We're starting to open remodeled next restaurants across the globe, with the first international restaurant opened in Poland a few weeks ago, followed shortly by Spain. As we shared at Investor Day, we've reimagined the design of our restaurants to deliver a more appealing modern customer experience with new kitchen layouts and equipment to",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1120460,
@@ -1589,6 +1616,7 @@
    "t1_ms": 1204500,
    "speaker": "Management",
    "text": "support future menu innovation and gold standard execution alongside our new restaurant operating platform, ArchIQ. We're on track to expand our specialty beverage platform to more than 18,000 restaurants across Ireland. We're on track to begin remodeling hundreds of US restaurants in 2027 as we ramp up to a global run rate in excess of 5,000 restaurants per year beginning in 2028. And finally, we're expanding testing of ArchIQ, our smart ordering system, across more drive-thrus in the US and Australia, where it's giving our crew more time to spend with our customers and make sure every order is delicious. We expect ArchIQ to be deployed across a majority of US restaurants by the end of 2027, with",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1163990,
@@ -1640,6 +1668,7 @@
    "t1_ms": 1247040,
    "speaker": "Management",
    "text": "further pilots planned internationally through 2027. This is Next in Action, strengthening how we operate today while building the growth platforms and capabilities that will position McDonald's to lead for the long term. We'll continue to regularly update you on our progress and associated results behind key elements of Next throughout 2027. At McDonald's, nothing is real until it's real in the restaurants. As we close out 2026, we're focused on the future. We're focused on the future. We're focused on the future. We're focused on the future. We're focused on the future. We're focused on the future. We're focused on the future. We're focused on reestablishing momentum on our US business while expanding share gains across our international business. I'm encouraged by our near-term progress and excited about the upside potential that McDonald's",
+   "name": "Chris Kempczinski, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1204500,
@@ -1715,6 +1744,7 @@
    "t1_ms": 1290400,
    "speaker": "Management",
    "text": "Next will unlock for our business in the years ahead. With that, we'll take your questions. Thank you. As a reminder, if you are an investor and would like to ask a question, please press star followed by the number one on your telephone keypad. We ask that you limit yourself. to one question and re-queue for any additional questions. Thanks. Good morning, guys. I guess the question is just about franchisee conversations. Since we were last together, first of all, do you feel like there's alignment in the U.S.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1247040,
@@ -1766,6 +1796,7 @@
    "t1_ms": 1313180,
    "speaker": "Management",
    "text": "on value at this point, and that being the primary mover as we go into early 2027? Then, I guess, second, on the next strategy, do you feel like they've been very receptive to the elements you laid out in September, the investment required, and the timeline, or any updates on your thinking there?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1290400,
@@ -1801,6 +1832,7 @@
    "t1_ms": 1360440,
    "speaker": "Management",
    "text": "Strong alignment around, as mentioned in my preparation, we already see some version of",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1313600,
@@ -1816,6 +1848,7 @@
    "t1_ms": 1400980,
    "speaker": "Management",
    "text": "we're in good shape with franchisees, but broadly, customer experience, taste. In our system, as you know, conversations are always around the house. One of the things that I think is so good about our system is now we're digging in. We've got teams, particularly in the U.S., working through each of these elements.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1360440,
@@ -1847,6 +1880,7 @@
    "t1_ms": 1445350,
    "speaker": "Management",
    "text": "If you think about remodels, there's franchisees now who have a team who are going through line by line, item by item on the remodel, and I'm sure they're going to find opportunity. There's always a good conversation on that, and so I would expect we're going to get to a remodel program. Then, on the other piece of this, which I know there's been conversation around hand-breaded chicken is why we have the tests out there. We've got two AST cities in early 2027. I think I was in Ireland for a couple days",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1401320,
@@ -1886,6 +1920,7 @@
    "t1_ms": 1472320,
    "speaker": "Management",
    "text": "with franchisees there going and visiting the restaurants as they prepare for hand-breading. So this is where McDonald's folks just get super excited because now they're getting into the operational details. How do we make this work? What are the challenges? How do we make it better? And so I do feel we'll share with you progress.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1445350,
@@ -1913,6 +1948,7 @@
    "t1_ms": 1477730,
    "speaker": "Operator",
    "text": "Here at UBS.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1472320,
@@ -1926,8 +1962,9 @@
    "seg_id": 36,
    "t0_ms": 1481210,
    "t1_ms": 1523400,
-   "speaker": "Management",
+   "speaker": "Analyst",
    "text": "Morning, guys. Thanks a lot for all that detail on the U.S. strategy. Following the encouraging improvement in the U.S. trends through the quarter post the interventions that you noted, can you touch a little bit more on how you're thinking about that U.S. sales trajectory over the balance of this year and any high-level thoughts to share on the path into 27 as you think about the benefits from the interventions and the benefits from next? Thank you. Good morning, Dennis. It's Ian. Let me maybe start, and then I'll let Chris chime in maybe at the end. And the results that we've seen in Q3 are all kind of conflicted.",
+   "name": "Dennis, UBS",
    "parts": [
     {
      "t0_ms": 1481210,
@@ -1975,6 +2012,7 @@
    "t1_ms": 1565500,
    "speaker": "Management",
    "text": "I think we're in a position to be confirmatory to what we outlined there, which was that our focus was about how we got the U.S. business in a stronger position as we exit 2026. I think certainly we feel really good about the work and the decisions that Sky and the U.S. system collectively are putting into place. I think we're, as you heard us say in our upfront remarks, we're encouraged by the baseline traffic trends that we've seen through September and now through October. And I think we remain really confident that the U.S. is on the right path to exit 2026 in a stronger position. I might just also touch on IOM because I'm sure that's a question that's coming.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 1523580,
@@ -2018,6 +2056,7 @@
    "t1_ms": 1600080,
    "speaker": "Management",
    "text": "And I just would say with IOM, I think as we outlined in our opening remarks, see in almost the majority of our large international markets, we're holding or gaining share. It's a soft consumer environment, but we're doing well. And I think our international markets are very consistently executing that playbook of menu marketing and value. I think to be largely consistent through the rest of the year.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 1565500,
@@ -2053,6 +2092,7 @@
    "t1_ms": 1607360,
    "speaker": "Operator",
    "text": "Over to JP Morgan. Hi, thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1600080,
@@ -2072,6 +2112,7 @@
    "t1_ms": 1652200,
    "speaker": "Management",
    "text": "So I have had an opportunity to visit a fully operational next door with hand-breaded chicken. And I will tell you, I'm very impressed to kind of see that operating in person. The point of the question is, when I look at... The hand-breaded chicken platform, does it make more sense to maybe just pursue significant upgrades of the sandwich, of the strip, for example, as part of hand-breading and maybe pursue those type of product categories versus going into what I think might just be a higher risk category with bone in wings? And I do ask the bone in wing question in the context of the Mighty Wing kind of experience",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1607360,
@@ -2115,6 +2156,7 @@
    "t1_ms": 1682740,
    "speaker": "Management",
    "text": "of 10 years ago. Is there something significant maybe that we could have learned from that in terms of the ease of execution of that product? Thank you so much.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1652200,
@@ -2142,6 +2184,7 @@
    "t1_ms": 1720220,
    "speaker": "Management",
    "text": "We're doing in there and we've got in looking at two experience and feedback on restaurants, but we're seeing that wings provides really strong incrementality. Again, it's in those 10 restaurants, it's really early, but that's an interesting learning. So I think we're in kind of the now, how do we actually go about and execute whether there's...",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1682740,
@@ -2169,6 +2212,7 @@
    "t1_ms": 1756710,
    "speaker": "Management",
    "text": "Maybe the only hook, John, just looking at the... Okay. I think I'm kind of confident that there may be some nuances market to market in that, but we certainly have had success with wings in a number of markets globally. And so we certainly know it.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 1720220,
@@ -2200,6 +2244,7 @@
    "t1_ms": 1759670,
    "speaker": "Operator",
    "text": "Our next question is from Sarah Senator of Bank of America.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1756710,
@@ -2215,6 +2260,7 @@
    "t1_ms": 1800860,
    "speaker": "Analyst",
    "text": "Great. Thank you very much. Just maybe a quick clarification on the model and a question on the Make It Golden. So you mentioned it's a large capability building initiative on hospitality. I guess, how are you... Or are you changing how you measure for... Franchisees? I know you have, I think the pace metrics out there, but I'm wondering if as you pivot, are you... If you focus on perhaps different metrics, if that's changed what you're asking franchisees to be measured on or how often. And then just quickly on the model, it looks like pretty healthy gains on the sale of...",
+   "name": "Sarah Senatore, Bank of America",
    "parts": [
     {
      "t0_ms": 1759670,
@@ -2274,6 +2320,7 @@
    "t1_ms": 1814700,
    "speaker": "Analyst",
    "text": "Or the re-franchising of IOM units. Any comments on how we should think about... That going forward or what the implications for the rent and royalty might be?",
+   "name": "Sarah Senatore, Bank of America",
    "parts": [
     {
      "t0_ms": 1800860,
@@ -2297,6 +2344,7 @@
    "t1_ms": 1831140,
    "speaker": "Management",
    "text": "Thanks. Sarah, thanks for the question. I'll take the... We go about...",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1814700,
@@ -2324,6 +2372,7 @@
    "t1_ms": 1905880,
    "speaker": "Management",
    "text": "Through the training that we've got here with restaurants and...",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1831140,
@@ -2339,6 +2388,7 @@
    "t1_ms": 1946770,
    "speaker": "Management",
    "text": "Which is going to be the customer and we're making significant enhancements... Morning, Sarah. It's Ian. So let me maybe just touch on your question on gains. I mean, I think as we talked about kind of in the opening comments, I mean, gains are obviously up this year. That's as you know, part of kind of the next strategy of getting us by end of 28 to 98% franchised globally. I think it's been about 175 restaurants so far in 26 through US and IOM segments that have been re-franchised.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 1905880,
@@ -2390,6 +2440,7 @@
    "t1_ms": 1973770,
    "speaker": "Management",
    "text": "And I would expect that kind of level of activity to kind of carry forward in through the next couple of years. Obviously, as you know, in the model that has an impact on revenue, which is a big part of the revenue. But I think that's a big part of the revenue. I think that's one of the reasons why our revenue was a bit down in Q3 because we moved that 100% revenue to obviously a franchised contribution of revenue. So I think looking forward, we feel really confident about the path to kind of get us to the objective of 98% by end of 28.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 1946770,
@@ -2437,6 +2488,7 @@
    "t1_ms": 1977670,
    "speaker": "Operator",
    "text": "Our next question is from Andrew Charles at TD Cowen.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1973770,
@@ -2452,6 +2504,7 @@
    "t1_ms": 2009110,
    "speaker": "Analyst",
    "text": "Great. Thank you. Ian, just quick clarification that you called out 4Q US comps or position to see improvement through your end. Just make sure that we got the right message that you expect 4Q US comps to improve from 3Q's level. And then Chris, my question was that as a follow up to an earlier question that in the past, you guys have quantified US owner-operator support for different initiatives like the EVM revamp last September. I'm curious, where does that support level sit for the next investments?",
+   "name": "Andrew Charles, TD Cowen",
    "parts": [
     {
      "t0_ms": 1977670,
@@ -2503,6 +2556,7 @@
    "t1_ms": 2043160,
    "speaker": "Management",
    "text": "I did not say that encouraged by the improvement in baseline trends that we saw through September. And I said we're on path to what we've said consistently, which is that we want the US business to be in a stronger position of the actual support that we're providing through next. That varies country by country.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2009110,
@@ -2534,6 +2588,7 @@
    "t1_ms": 2067520,
    "speaker": "Management",
    "text": "It's one of the things that Sky is getting into right now with US owner-operator. A partnering program landed, but certainly we shared it at investor day, the broad parade",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2043160,
@@ -2553,6 +2608,7 @@
    "t1_ms": 2077969,
    "speaker": "Operator",
    "text": "like and there's no change to that. Next question is from Dave Palmer at Evercore.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2067520,
@@ -2572,6 +2628,7 @@
    "t1_ms": 2121710,
    "speaker": "Analyst",
    "text": "Good morning. Question on the US same-store sales outlook and in particular, sort of the changes you're making and how you go to market with ideas. It sounds like you're making some tweaks there when you talk about make it golden and you're testing value right now. I know there's a lot of investor concern about the curation of ideas and what that means for franchisee alignment, especially after to the 2025 chicken introductions and value changes this year and the sort of the redos of those. So any changes you're making and how you go to market and why you think that the history, the hit rate will be getting better going forward would be super helpful.",
+   "name": "Dave Palmer, Evercore",
    "parts": [
     {
      "t0_ms": 2077969,
@@ -2623,6 +2680,7 @@
    "t1_ms": 2148440,
    "speaker": "Management",
    "text": "Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2121710,
@@ -2638,6 +2696,7 @@
    "t1_ms": 2191310,
    "speaker": "Management",
    "text": "One-way doors that are better and you see the results in our to inform and get us sort",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2148440,
@@ -2653,6 +2712,7 @@
    "t1_ms": 2235470,
    "speaker": "Management",
    "text": "of a lot of knowledge and information based on our experience around the world where we're and that's what we did with EVM that you'll remember about a year ago where we knew where we needed to be on EVM space. We just went ahead and did it. And I think that proved to be the right decision. So this is something we're always in conversations on with our partners. Yeah. Thank you. So it's really important that we have our franchisees. There's not sort of a one-size-fits-all approach on this, but it's really about the size of",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2191310,
@@ -2704,6 +2764,7 @@
    "t1_ms": 2241700,
    "speaker": "Management",
    "text": "the decision, the permanence of the decision and making sure that we get it right.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2235470,
@@ -2719,6 +2780,7 @@
    "t1_ms": 2244320,
    "speaker": "Operator",
    "text": "Our next question from Danilo Gargiulo at Bernstein.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2241700,
@@ -2734,6 +2796,7 @@
    "t1_ms": 2286910,
    "speaker": "Analyst",
    "text": "Great. Good morning. A quick clarification and the real question specifically on ION. So the clarification is to what extent are the protests weighing on your results right now? Anything to call out in the ION markets? Because we've seen some, you know, rife with the ION. Okay. process in the major markets. So if there is anything that you know you're willing to share regarding the impact on on McDonald's so we can normalize for next year. And then the real question is you know it's really encouraging to see that you are maintaining or actually gaining market share in some of your IOM markets. At the same time we are seeing some market economic pressure that are mounting. We've seen some print from CPI in some countries that is actually very",
+   "name": "Danilo Gargiulo, Bernstein",
    "parts": [
     {
      "t0_ms": 2244320,
@@ -2801,6 +2864,7 @@
    "t1_ms": 2296750,
    "speaker": "Analyst",
    "text": "elevated. So to what extent you expect IOM to be you know positive comes into next year. What you have under control versus how much macro will be weighing",
+   "name": "Danilo Gargiulo, Bernstein",
    "parts": [
     {
      "t0_ms": 2286910,
@@ -2820,6 +2884,7 @@
    "t1_ms": 2338290,
    "speaker": "Management",
    "text": "you know your results next year. And thank you very much. I do think that there is certainly into Q4 but hopefully we get into 2027. In terms of the your",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2296750,
@@ -2839,6 +2904,7 @@
    "t1_ms": 2381140,
    "speaker": "Management",
    "text": "read on the macroeconomic situation certainly it's muted in Europe about gaining share and I think what we're encouraged is that we're maintaining or gaining share in the majority of our markets. So I think that's a good question. I think that's a good question. I think that's a good question. I think that's a good question. I think that's a good question. So kind of control what you can control and the macro is going to be the macro but so long as we are gaining share in the majority of markets that really is what we're setting ourselves up to be able to do in 2027. And maybe the only hook to know just from from me would be just to kind of emphasize I think what Chris has talked about. I mean I think we're seeing consistency of results across most of our top IOM markets and that always gives you confidence as we",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2338290,
@@ -2894,6 +2960,7 @@
    "t1_ms": 2418120,
    "speaker": "Management",
    "text": "said in our opening remarks that they're implementing the playbook. The playbook is working and I think they're leaning into the opportunities they've got despite the kind of macro around them. I mean the opportunity we've got to address is France and as Chris talked about in his upfront remarks we think we've made a you know a really significant step forward with our system our franchisees in France to get some of our kind of internal structural barriers addressed and allow us to be able to operate a lot more efficiently and a lot more with a lot more agility to kind of get the right plans going in France as we kind of work through 2027.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2381140,
@@ -2941,6 +3008,7 @@
    "t1_ms": 2422340,
    "speaker": "Operator",
    "text": "Peter Saleh at BTIG.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2418120,
@@ -2956,6 +3024,7 @@
    "t1_ms": 2450570,
    "speaker": "Analyst",
    "text": "Great thanks for taking the question. I was hoping you guys could elaborate a little bit more on the eight-week value test that you mentioned and maybe just what you're seeing how you're measuring the success of that platform and you know why is the EVM discounts just not enough why do you need to go further? Just just a little bit more about that. A little bit more detail on that would be helpful thanks.",
+   "name": "Peter Saleh, BTIG",
    "parts": [
     {
      "t0_ms": 2422340,
@@ -2991,6 +3060,7 @@
    "t1_ms": 2466800,
    "speaker": "Management",
    "text": "We measure those tests the same way we measure most of our value tests which is around",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2450570,
@@ -3006,6 +3076,7 @@
    "t1_ms": 2502000,
    "speaker": "Management",
    "text": "incrementality. I've franchisee and then on on EVMs and why it's on the menu board",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2466800,
@@ -3021,6 +3092,7 @@
    "t1_ms": 2536970,
    "speaker": "Management",
    "text": "and we're in a good place you need to get your meal bundles to have good entry-level value and particularly for that low-income consumer they're looking for great entry-level value and we have not too we didn't land that like we needed to and so that's what we're in the midst.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2502000,
@@ -3048,6 +3120,7 @@
    "t1_ms": 2580880,
    "speaker": "Management",
    "text": "Talked a fair bit about the consistency of our results there. We've had those options in place they've largely been in place for a",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2536970,
@@ -3067,6 +3140,7 @@
    "t1_ms": 2591960,
    "speaker": "Management",
    "text": "longer period of time and they're clearly working because we're winning share in kind of those challenging marketplaces and I think value has been a core component of that.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2580880,
@@ -3090,6 +3164,7 @@
    "t1_ms": 2594960,
    "speaker": "Operator",
    "text": "Our next question is from John Tower at Citi.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2591960,
@@ -3105,6 +3180,7 @@
    "t1_ms": 2637690,
    "speaker": "Analyst",
    "text": "Great thanks for taking the question. I was hoping we could dig into the beverage platform in the US specifically so far obviously it sounds like it's a nice platform for you. I'm curious if you could speak to you know what customers you're drawing in where they're coming from it sounds like it's hitting in the afternoon well for you and not cannibalizing the existing specialty platform but perhaps the other beverages that you have in the menu are not getting picked up as much and curious about your experience so far with that consumer are they seeking a greater velocity of new news than the existing base and therefore you know going forward are you gonna have to change that?",
+   "name": "John Tower, Citi",
    "parts": [
     {
      "t0_ms": 2594960,
@@ -3152,6 +3228,7 @@
    "t1_ms": 2643570,
    "speaker": "Analyst",
    "text": "Or do you have to kind of keep that wheel moving at a faster turn and then perhaps the base menu?",
+   "name": "John Tower, Citi",
    "parts": [
     {
      "t0_ms": 2637690,
@@ -3167,6 +3244,7 @@
    "t1_ms": 2687240,
    "speaker": "Management",
    "text": "Morning John. Well let me let me start and I'm sure Chris may want to weigh in. I mean I think what we've talked about consistent result, employed beverages, I think confident in the opportunity. I mean I think US specifically what we're seeing which is why we're you know very enthusiastic about the opportunity is",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2643570,
@@ -3194,6 +3272,7 @@
    "t1_ms": 2730980,
    "speaker": "Management",
    "text": "that more than half of the occasions are coming after lunch so they're coming at the end of the day where the restaurants are generally less busy. We've got capacity. I think that's a strong confirmation that there's kind of a good incrementality to those visits. We're seeing strong check in in in transactions that include a beverage in general about 50% higher than the overall average day check so we're seeing strong food attachment and the customer base skews younger. So we're seeing where we know it's going to be. It's kind of a constant trend and we've had some great results since the beginning of the pandemic. We've been seeing some really good results. We've seen some good results.",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2687240,
@@ -3249,6 +3328,7 @@
    "t1_ms": 2775180,
    "speaker": "Management",
    "text": "Yeah so I think that's a good point. I think it's a good example of what's going on with the economy. I mean I think every day that we're seeing is something that's happening. The market is dominating with the kind of key consumers that are in the category in the general marketplace. For sure like I proposition is, is great value for money relative to what's available in other parts of the market. And I think our foundational layer is doing that really well. As I talked about in kind of my opening remarks, starting to rotate some new news. Germany did that in the quarter with what they called their Italo Spritz, which was their best performing beverage in the portfolio in the quarter. So we know new news is going to be important. Obviously, we just want to make sure",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2730980,
@@ -3296,6 +3376,7 @@
    "t1_ms": 2816100,
    "speaker": "Management",
    "text": "we're doing that at the right pace while continuing to kind of invest in the underlying platform. As far as cannibalization, I mean, of course, there's going to be some element of cannibalization, like anytime you're kind of adding incremental options to the menu. But I think what we're trying to really emphasize is there is clear incrementality. We know beverages are driving incremental visits and incremental sales for restaurants. And ultimately, that means, of course, incremental profitability for the franchisees and for the restaurants. So it's all of those things together that are getting us even more convicted about the opportunity and the fact that we're seeing that consistently in each market that's bringing the",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 2775180,
@@ -3339,6 +3420,7 @@
    "t1_ms": 2857480,
    "speaker": "Management",
    "text": "opportunity to life. The only thing I would add, I think Ian covered that really well, but as you think about long term, we do think that there's an opportunity and a need for us to offer an even broader assortment of beverages. And part of what is inherent in the next remodels is we just need to increase space. We don't have adequate space in back of house to be able to offer kind of our full ambition of what we want to do in beverages. And so part of that, actually, one of the most significant investments associated with the next remodel is actually increasing what we call the beverage sell to give ourselves the platform to offer that broader variety of beverages going forward.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2816100,
@@ -3378,6 +3460,7 @@
    "t1_ms": 2861340,
    "speaker": "Operator",
    "text": "Questions from Handy Barish at Jefferies.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2857480,
@@ -3393,6 +3476,7 @@
    "t1_ms": 2892340,
    "speaker": "Analyst",
    "text": "Yeah, good morning, guys. I'm wondering if you could address kind of the, you know, the marketing advantage dollar wise you guys have is obviously significant, but the messaging just doesn't seem to have, you know, kind of cut through, if you will. Are there any changes you can highlight at this point, just in terms of maybe where that message is being delivered and how some of the marketing spend is shifting between channels, perhaps?",
+   "name": "Andy Barish, Jefferies",
    "parts": [
     {
      "t0_ms": 2864700,
@@ -3424,6 +3508,7 @@
    "t1_ms": 2935030,
    "speaker": "Management",
    "text": "Sure. Anything there and more to come on that. We talked a lot about it at Investor Day, as you know, consumer next and how we're thinking about changing our go to market approach, changing our demand generation approach, really emphasizing and leveraging the fact that McDonald's is one of the world's biggest global brands. And we can generate talk value that few other brands do.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2894740,
@@ -3451,6 +3536,7 @@
    "t1_ms": 2976680,
    "speaker": "Management",
    "text": "And we haven't in my Morgan would share this as well. We haven't done as much as we could to harness that and really channel it into driving brand love for us. And so that is going to be something that you're going to see. Our next question is from Chris O'Callit, Baird. Good morning and thanks for taking my question. Where do discussions with franchisees stand on getting better alignment around pricing across the full menu heading into next year? Not just the advertised value offers. And I'm just curious what needs to change to make the execution more consistent from restaurant to restaurant.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2935030,
@@ -3494,6 +3580,7 @@
    "t1_ms": 3018650,
    "speaker": "Management",
    "text": "And then maybe lastly, I think you guys had mentioned in the past that you expected system pricing to be in the mid single digit range at some point in the fourth quarter. I'm just curious if that was still the plan. We've had some discussions with franchisees around pricing and focused on the U.S. right now, but largely we're in a good century level value. So, our base menu pricing, as we compare and benchmark versus our competitors within the trading area, we are at a different in the U.S. Still good about that. As I mentioned, we feel really good about where we are with our meal bundles and other elements.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2976680,
@@ -3529,6 +3616,7 @@
    "t1_ms": 3060500,
    "speaker": "Management",
    "text": "So, problem in the economic environment. So, we're going to constantly keep looking at it, but we're starting from a good position on that. As you think about it. about 2027, certainly we're still expecting to see mid-single-digit food and paper inflation. And that is higher than, as you know, our long-term historical trends there. And so it is going to continue to be sort of a needle that we're going to have to thread of how do we make sure that we're getting pricing through to account for the inflation that we're seeing, but also make sure that we continue to lead with customers who are offering great value and affordability.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3018650,
@@ -3572,6 +3660,7 @@
    "t1_ms": 3064470,
    "speaker": "Operator",
    "text": "Next question is from Brian Bittner at Optimer.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3060500,
@@ -3587,6 +3676,7 @@
    "t1_ms": 3105510,
    "speaker": "Analyst",
    "text": "Thank you. Good morning. You guys talked about several action plans you took to improve baseline sales during the quarter and into 4Q. And one of those was the restoration of national digital offers. Can you maybe help us understand how big of a business this is for you? Or maybe you can explain how impactful it is when you do get it right? And just in the same vein, can you also update us on what you're seeing with that low-end consumer? Some of your peers that have reported earnings already are talking about some improvements in this important cohort for the first time all year. And just curious maybe what your updated",
+   "name": "Brian Bittner, Oppenheimer",
    "parts": [
     {
      "t0_ms": 3067910,
@@ -3626,6 +3716,7 @@
    "t1_ms": 3149710,
    "speaker": "Management",
    "text": "thoughts on the low-end is. Let me start, and then I'm sure Chris may want to weigh in. I mean, I think you're right. We talked about Q3, and one of those was to national digital offers, which are really, really important for our high-frequent users, our loyalty members. I think... So I think that was certainly one of the things that contributed to the improvement in our baseline traffic momentum that we talked about. But we also said we've got more work to do, and that's certainly what Sky and the U.S. system are focused on through the rest of the year. I",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 3105510,
@@ -3665,6 +3756,7 @@
    "t1_ms": 3191450,
    "speaker": "Management",
    "text": "mean, our loyalty membership in the U.S. is almost 30% of our customer base. So it's a really important part. It's a part of our customer base that we interact with on a very regular basis, and as we've talked about before, the frequency of that loyalty base is much higher as members get into loyalty. In fact, it goes up about two and a half times in the 12 months post joining the loyalty program. So connecting with those customers and getting offers in place that resonate with them and are clear and compelling is really important. And as I said, we've made progress,",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 3149710,
@@ -3700,6 +3792,7 @@
    "t1_ms": 3235980,
    "speaker": "Management",
    "text": "but we've got more work to do on that front. That's the one thing that the U.S. system is working through. Yeah, I would just add, I think digital offers is important. If you think about our business, we've got about a third of our sales, and those frequent customers represent the majority of our sales. The occasional customer, while important, the customer is super sensitive to digital offers.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3191550,
@@ -3731,6 +3824,7 @@
    "t1_ms": 3275130,
    "speaker": "Management",
    "text": "We learned there is... We've got to make that right, and when you... A program that we're really valued by the frequent customer, the impact on that is... And that can be pretty... Go back. Frankford at Guggenheim.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3237870,
@@ -3766,6 +3860,7 @@
    "t1_ms": 3313120,
    "speaker": "Management",
    "text": "Hey, thanks for the question. I wanted to just ask maybe briefly about delivery. I think China, part of the reason maybe it was soft this quarter is some of the aggregators have pulled back from the market. And I guess I'm wondering what your experience is like right now in either the U.S. and maybe some of the key IOM markets. Are you still seeing that grow? And kind of any other thoughts on the strategy? Thanks. Sure. Well, within China, it's definitely cheaper.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3277950,
@@ -3801,6 +3896,7 @@
    "t1_ms": 3357370,
    "speaker": "Management",
    "text": "For a period of time to order delivery requires a significant amount of subsidization that was going in by the third-party delivery providers. That is reversed out. They've pulled back on a lot of those offers. And so that has negatively impacted traffic. broader market and impacted us. Delivery globally, though, is still performance for ourselves in delivery. Because of our size, because of the proximity of our restaurants to customers, we are a preferred",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3313400,
@@ -3832,6 +3928,7 @@
    "t1_ms": 3391150,
    "speaker": "Management",
    "text": "venue for those 3PO. We're still feeling good about our delivery business. We feel good about the share gains that we're seeing in delivery. We continue to be a source of concern. I make sure that incremental options on that. But delivery is still broadly growing.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3357370,
@@ -3851,6 +3948,7 @@
    "t1_ms": 3394760,
    "speaker": "Operator",
    "text": "Our next question is from Chris Carrillo at KeyBank.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3391150,
@@ -3866,6 +3964,7 @@
    "t1_ms": 3429910,
    "speaker": "Analyst",
    "text": "Hi. Good morning. Can you comment on how per store operating cash flows are now shaping up for the year, just maybe relative to the $500,000 level? You referenced that investor day. And then on the cost outlook, I believe you just mentioned you expect the cost outlook in 27 to include mid-single digit food and paper inflation, if I heard that correctly. So how is that factoring into your latest conversations with franchisees on the value initiatives for next year? Thank you.",
+   "name": "Chris Carrillo, KeyBanc",
    "parts": [
     {
      "t0_ms": 3398150,
@@ -3889,6 +3988,7 @@
    "t1_ms": 3473620,
    "speaker": "Management",
    "text": "Yeah, thanks, Chris. With franchisees on pricing, we've actually had leadership franchisees at headquarters. So we've got a lot of different stakeholders, and we've got to make sure that we've got the right value. That's why we've got the entry-level value testing, in terms of the code to do that.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3429910,
@@ -3912,6 +4012,7 @@
    "t1_ms": 3517580,
    "speaker": "Management",
    "text": "And then in terms of how that plays out in 2027, when you've got the mid-single digit food and paper inflation, which is what we are seeing, continue to be nimble there. And I think we've got, through our RGM team, I think much better insight and clarity around those key value items, the ones that we've got to get right from pricing. And those... areas to be able to push through a little bit of pricing. So it varies restaurant to restaurant, operator by operator. We are going to find ways to go try to push that through. But over the last",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3474240,
@@ -3943,6 +4044,7 @@
    "t1_ms": 3545140,
    "speaker": "Management",
    "text": "18 years, we've proceeded very cautiously with that. And I think we're aligned with franchisees on that. Your question around cash flows and where that stands, I don't have the latest number, your number, but that 500 and whether we're slightly above or below that, I think.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3517580,
@@ -3966,6 +4068,7 @@
    "t1_ms": 3586430,
    "speaker": "Management",
    "text": "The only maybe to drive the U.S. system is in kind of working through their 27 plan. And the focus is how do we get the strongest possible top line growth in the environment that we're operating in? Obviously, that doesn't mean, of course, we don't take pricing or franchisees don't make decisions to take pricing. But the best thing for us to do is get the baseline of",
+   "name": "Ian Borden, CFO",
    "parts": [
     {
      "t0_ms": 3545140,
@@ -3993,6 +4096,7 @@
    "t1_ms": 3619180,
    "speaker": "Management",
    "text": "our business back into the spot where we want it to be and also look after the rest. Thank you, everyone, for joining us today. That concludes our Q&A session. Any follow-up questions, please email either at McDonald's IR inbox or myself, and we could set up a time for a further discussion. Again, thank you, everybody, for joining, and we will talk to you later. This concludes McDonald's Corporation Investor Call. You may now disconnect and have a great day.",
+   "name": "Dexter Combalet, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 3586430,
@@ -6763,6 +6867,7 @@
    "quote": "During the six-week advertised launch window, it sold the most units within the platform and lifted total specialty beverage category sales.",
    "adj_ret_5m": 0.004902720088296952,
    "speaker": "Management",
+   "name": "Ian Borden, CFO",
    "vol_mult": 26.514812401330378,
    "spillover": "company"
   }
@@ -6776,6 +6881,7 @@
    "t0_ms": 486140,
    "speaker": "Management",
    "quote": "During the six-week advertised launch window, it sold the most units within the platform and lifted total specialty beverage category sales.",
+   "name": "Ian Borden, CFO",
    "metric": "Red Bull Dragonberry Energizer sales",
    "kind": "result",
    "novel": true,
@@ -6808,6 +6914,7 @@
    "t0_ms": 1553580,
    "speaker": "Management",
    "quote": "And I think we remain really confident that the U.S. is on the right path to exit 2026 in a stronger position.",
+   "name": "Ian Borden, CFO",
    "metric": "U.S. business position",
    "kind": "guidance",
    "novel": true,
@@ -6937,14 +7044,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 374.0,
   "gpu_usd": 0.1325,
-  "claude_s": 23.0,
+  "claude_s": 19.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 6634,
-   "output_tokens": 3321,
-   "cache_read_input_tokens": 10788,
-   "cache_creation_input_tokens": 10788
+   "input_tokens": 2,
+   "output_tokens": 2478,
+   "cache_read_input_tokens": 1044,
+   "cache_creation_input_tokens": 19371
   },
-  "claude_usd": 0.0745
+  "claude_usd": 0.0733
  },
  "context": {
   "ts": [

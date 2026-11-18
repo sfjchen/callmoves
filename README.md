@@ -6,14 +6,14 @@ Shows which statements in an earnings call the market reacted to. It finds the a
 
 Price first, transcript second: summarizing the call would surface what sounds important, not what changed expectations.
 
-1. Align the transcript to wall-clock time (`audio_offset_ms` is the audio position of the call start). Speaker roles come from pyannote voices plus the call's shape (operator, prepared remarks, Q&A).
+1. Align the transcript to wall-clock time (`audio_offset_ms` is the audio position of the call start). Speaker roles come from pyannote voices plus the call's shape (operator, prepared remarks, Q&A). Names come from the call's own introductions (`speakers.py`): Claude maps each voice to the person the operator or IR introduced, a name is kept only with a verbatim introducing quote and a close match to the spoken name, and an analyst's follow-up that the shape rules gave to management is relabeled and drops out of the claims.
 2. Join the stock's 1-minute bars with its sector ETF's. Adjusted return = stock return minus ETF return. Flag minutes where it is far outside the trailing baseline (a return after minutes with no trade is scaled to 1 minute first), or volume spikes with a real move.
 3. Keep the turns spoken in the 5 minutes before a flagged minute.
 4. Extract claims (metric, value, period, kind, verbatim quote) with Claude, or rules without a key. A quote that is not in the transcript is dropped.
 5. Judge novelty against the release and the prior quarter's materials. A claim already there cannot explain a move, unless it is an EPS or revenue figure more than 1% off analyst consensus. Only a consensus frozen at the report (`at_report`) or dated before the call (`before_call`) counts, an `after_call` one is shown but never scores.
 6. Score = novelty x kind x |adjusted return over the statement's minute and the 4 after it| x volume multiple x closeness to the flagged minute. The top 5 become moments graded high, medium or low. The wording is "associated with", never "caused".
 
-`callmoves.ingest` builds the call folder from audio (faster-whisper large-v3 and pyannote on a Modal GPU, `pipeline/callmoves/gpu.py`, or medium on the CPU when Modal is unset or fails), the release and prior documents (PDF or HTML) and bars. `run --publish` or `callmoves.publish` upserts the result into the Supabase table `callmoves_calls` (`db/schema.sql`). The GitHub Actions workflow `worker.yml` processes submissions from the queue, up to 4 in parallel per run. Without Supabase keys the web app reads `web/data/*.json`.
+`callmoves.ingest` builds the call folder from audio (faster-whisper large-v3 and pyannote on a Modal GPU, `pipeline/callmoves/gpu.py`, or medium on the CPU when Modal is unset or fails), the release and prior documents (PDF or HTML) and bars. `run --publish` or `callmoves.publish` upserts the result into the Supabase table `callmoves_calls` (`db/schema.sql`). The GitHub Actions workflow `worker.yml` processes submissions from the queue, up to 4 in parallel per run. Calls I add myself skip the queue: `CALLMOVES_LLM=cli python -m callmoves.worker --batch calls.json` runs the same steps locally and sends the Claude steps through the logged-in Claude Code CLI (`claude -p --json-schema`) instead of the API key. Player audio lives in the public Hugging Face dataset `jchen04/callmoves-audio` (the first 45 calls moved there byte for byte from Supabase Storage on 2026-11-17). Without Supabase keys the web app reads `web/data/*.json`.
 
 ## Run it
 
@@ -32,10 +32,11 @@ npm run dev        # http://localhost:3000
 
 Every call folder in `pipeline/data/` and the fixture ship with bars and cached Claude output (`llm_claims.json`), so a rerun needs no key. Keys go in `pipeline/.env`, each optional:
 
-- `ANTHROPIC_API_KEY`: Claude extracts claims and judges novelty for a new call, otherwise the rules run.
+- `ANTHROPIC_API_KEY`: Claude extracts claims and judges novelty for a new call, otherwise the rules run. `CALLMOVES_LLM=cli` uses the Claude Code login instead, and a failed Claude step then stops the call.
 - `POLYGON_API_KEY`: 1-minute bars from Massive (formerly Polygon), free plan. Required to ingest a call.
 - `ALPHA_VANTAGE_KEY`: analyst consensus (25 requests a day), otherwise no consensus.
-- `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`: audio upload (`ingest --upload`), publishing, the worker.
+- `HF_TOKEN`: audio upload (`ingest --upload`) and the pyannote speaker model.
+- `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`: publishing, the worker.
 
 ## Eval
 
@@ -95,8 +96,10 @@ The spec's target was a 60-minute call in under 15 minutes for under $2. The 25 
 
 ## Limits
 
+- Audio is used for transcription, voices and names only. CallMoves does not score tone of voice (pitch, pace, hesitation), and it does not read news or macro releases: SPY, rates, dollar, credit, gold and oil bars sit beside each call as context, not as inputs to the score. Nothing is trained, so more calls add test power, not accuracy.
 - The placebo is exploratory: thresholds and speaker rules were tuned on the first 20 calls, 10 calls share XLF (4 of them on 2026-10-13) and others share a sector and a day, so they are not independent, and it uses the offline rule extractor on every turn, not Claude on the price-first candidates the site shows.
 - A 1-hour call allows only 5 to 12 within-call shifts, so no single call can reach p = 0.05.
 - The call start is the operator's opening line ("welcome", "being recorded", hold messages skipped, `transcript.call_start_ms`), and `ingest --audio-offset` overrides it. All 45 Quartr recordings open on that line within 4.5 s, so `audio_offset_ms` is 0 for 42 calls, 110 for META, 180 for PNC and 4460 for DHR. No source gives the wall-clock time the operator started: stockanalysis.com has only the event date and releases give the scheduled time. The Quartr file name carries its upload time, for the first 20 calls 2.2 to 25.5 min (median 4.2) after the scheduled start plus the recording length, so an operator who started late started at most that late. A late start shifts every statement by that much.
 - Before 9:30 and after 16:00 ET a sector ETF trades rarely, so its last price can be minutes old and its catch-up shows up as a stock-minus-ETF move in a later minute. Many calls start at 8:00 to 9:00 ET, so their first half runs in these thin pre-market bars.
+- Semis and AI hardware calls use SMH as the sector ETF, which holds several of the same stocks (NVDA, TSM, AVGO among them), so part of a large holding's own move is subtracted out. Most of these calls run after the close, in thin extended-hours bars, so they count for no regular-session placebo windows. TSM and Kioxia (KXIAY, an OTC ADR) talk while the US market is closed, so their reaction is the next open.
 - Calls are volatile: up to 40% of in-call minutes are flagged (HON, mostly pre-market), about 8% for the median call, so a statement can land near a flag by chance. That is why moments carry a grade and the wording is "associated with".

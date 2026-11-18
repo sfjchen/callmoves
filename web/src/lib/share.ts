@@ -38,5 +38,5 @@ export function clip(s: string, n: number): string {
 export function momentLine(call: CallOutput, m: Moment): string {
   const when = call.open_reaction ? "at the next open" : "in 5 min";
   return `${clock(m.ts)} ET: ${pct(m.adj_ret_5m)} vs ${benchName(call)} ${when} after ` +
-    `${shortSpeaker(m.speaker)} said "${clip(m.quote, 140)}"`;
+    `${shortSpeaker(m.speaker, m.name)} said "${clip(m.quote, 140)}"`;
 }

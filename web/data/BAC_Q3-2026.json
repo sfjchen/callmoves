@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-14T08:30:00-04:00",
   "etf": "XLF",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/BAC_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/BAC_Q3-2026.mp3",
   "company": "Bank of America",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 31040,
    "speaker": "Operator",
    "text": "Hello and welcome everyone joining today's Bank of America earnings announcement. At this time all participants are in a listen-only mode. Later you will have the opportunity to ask questions during the question and answer session. You may register to ask a question at any time by pressing star 1 on your telephone keypad. Please note this call is being recorded. We are standing by if you should need any assistance. It is now my pleasure to turn the meeting over to Lee McIntyre of Bank of America.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -59,6 +60,7 @@
    "t1_ms": 73750,
    "speaker": "Management",
    "text": "Thank you, Leo. Good morning everyone and thanks for joining us to talk through our third quarter results. I'm joined by Brian Moynihan, our Chair and CEO, and Alistair Borthwick, our CFO. As always the earnings release and presentation are posted on the investor relations section of BankofAmerica.com during the call. Before we begin, a quick reminder, during the call we may make forward-looking statements and refer to non-GAAP financial measures. These reflect management's current views and are subject to risk and uncertainties conciliation in our earnings materials and SEC filings on our website.",
+   "name": "Lee McIntyre, Investor Relations, Bank of America",
    "parts": [
     {
      "t0_ms": 31040,
@@ -106,6 +108,7 @@
    "t1_ms": 114610,
    "speaker": "Management",
    "text": "Over to you, Brian. Closest to customers, wealth clients and commercial clients, the main street businesses show continued strength on wealth management flows, higher NII, and better credit. Revenue, investment, banking revenue were lower. We reported net income of $6.9 billion after tax. So we've adjusted those results to take into account the non-tax",
+   "name": null,
    "parts": [
     {
      "t0_ms": 73750,
@@ -137,6 +140,7 @@
    "t1_ms": 150190,
    "speaker": "Management",
    "text": "deductible regulatory settlement charge of $1.2 billion, which is 17 cents per share. We must understand about the settlement. We understand the seriousness of compliance and we're responsible for getting it right. We have invested, second, we've invested billions of dollars in technology to dedicate thousands of employees to combat the team as far along with and committed to completing the work required to be addressed by the regulators. Third, we have committed the resources and the ongoing cost of regulatory",
+   "name": null,
    "parts": [
     {
      "t0_ms": 114610,
@@ -172,6 +176,7 @@
    "t1_ms": 190180,
    "speaker": "Management",
    "text": "settlement charge, $1.1 billion, approximately one point. Our businesses and products and geographies allows us to meet more of each client's needs, deepen relationships and drive growth. The connectivity between business units is strong and continues to be a competitive advantage. It's an activity of our clients, which brings us to slide three. The Bank of America, our clearest economic signal comes from the daily activity of the 70 million clients and thousands of businesses at the bank with us. And the message has",
+   "name": null,
    "parts": [
     {
      "t0_ms": 150190,
@@ -211,6 +216,7 @@
    "t1_ms": 229100,
    "speaker": "Management",
    "text": "been consistent. Consumers continue to spend. We year to date money moving up 5% from 2025 and you can see that in slide three, similar to what it was for the third quarter and similar to what has shown up so far in early. Clients invested and hired selectively, supported solid growth in jobs and wages. Clients remain engaged and continue to seek advice while commercial clients use more of our lending, treasury and payments capabilities. Payment volumes, digital activity, loan demand and wealth flows and you can see the digital",
+   "name": null,
    "parts": [
     {
      "t0_ms": 190180,
@@ -246,6 +252,7 @@
    "t1_ms": 263170,
    "speaker": "Management",
    "text": "activity in the slides in the appendix as we all see. The economic uncertainty that prevails in digital political instability are always present. But what our clients are actually doing is continuing to point to a resilient and growing economy in the United States. That activity has produced organic growth across our board. Slide four shows an addition of organic growth for the order three. Once again, we grew through",
+   "name": null,
    "parts": [
     {
      "t0_ms": 229100,
@@ -277,6 +284,7 @@
    "t1_ms": 304220,
    "speaker": "Management",
    "text": "both client acquisition, 200,000 of net new. We now have 39 million checks and nearly eight straight. That's quite a flywheel. We open more than one million new cards at 5% consistent with our medium term goals disclosed at investor day. The focus on investment in that card product is producing results. Our wealth clients generated approximately $41 billion",
+   "name": null,
    "parts": [
     {
      "t0_ms": 263170,
@@ -304,6 +312,7 @@
    "t1_ms": 340210,
    "speaker": "Management",
    "text": "of flow. We continue to add affluent and high net worth relationships across global wealth and consumer investments. Across those businesses, clients entrust us with more than $5.7 trillion of their family's balance. Every single segment from small business to business banking, the global commercial bank and the global core, small businesses to largest companies, financial relationships. It bodes well for our loan growth that we'll talk about",
+   "name": null,
    "parts": [
     {
      "t0_ms": 304220,
@@ -335,6 +344,7 @@
    "t1_ms": 383650,
    "speaker": "Management",
    "text": "later, but also as these commercials and our people, our technology, our capabilities in digital, these deep relationships continued in our core banking businesses and global banking's commercial businesses drove most of the revenue and earnings growth, while",
+   "name": null,
    "parts": [
     {
      "t0_ms": 340210,
@@ -358,6 +368,7 @@
    "t1_ms": 422670,
    "speaker": "Management",
    "text": "markets and investment banking revenue declined from prior periods and reduced client activity and changing market conditions, including a major shift in interest rates, significantly affected our leading thick micro businesses, including credit mortgages. Those declines more than offset growth elsewhere in trading. It's nearly $30 billion up around 3% year over year. It's an NII and 17% growth in asset management fees, investment banking,",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 383650,
@@ -389,6 +400,7 @@
    "t1_ms": 464460,
    "speaker": "Management",
    "text": "and sales and trading revenue. NII reached 16% basis. Net interest yield of 2.16%. Improved 15 basis points year over year and 8 basis points from the prior quarter, moving us closer to the 2.3% medium term target we outlined at investor day. Credit quality improved. Capital and liquidity remained strong on slide six as evidenced by the",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 422670,
@@ -416,6 +428,7 @@
    "t1_ms": 507500,
    "speaker": "Management",
    "text": "improvement in our net interest yield. Total assets were $3.4 trillion. That was down 2% from Q2. Ending deposits increased $14 billion from Q2 and remained above $2 trillion. Rose $34 billion to $1.25 trillion. And we funded that growth by reducing securities balances, while lower markets, assets, and higher deposits allowed us to reduce short term wholesale funding, thereby continuing to improve the net interest yield and consecutive quarters reflecting continued activity across both commercial and consumer clients. Global liquidity sources",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 464460,
@@ -451,6 +464,7 @@
    "t1_ms": 549870,
    "speaker": "Management",
    "text": "remain strong at $914 billion and capital stayed well above regulatory minimums. CET1 was 10.9% down roughly 35 basis points from Q2, primarily reflecting higher funded and unfunded loans and a $3 billion reduction in CET1 capital. Capital distributions exceeded net income due to the regulatory settlement charge and we also had a $1.8 billion portion of AOCI of AFS securities that impacted CET1 from higher rates. We continued to limit the AOCI effect of higher long term rates on much of the AFS securities portfolio and a little less than half of the",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 507500,
@@ -486,6 +500,7 @@
    "t1_ms": 588880,
    "speaker": "Management",
    "text": "total Q3 AOCI decline related to cash flow hedges and did not affect CET1. Despite the AOCI impact, tangible common equity ratio with the second quarter turned $8.3 billion to shareholders this quarter through dividends and share repurchases, until generation to deposits on slide seven where you can see they're at $2 trillion now up $31 billion from the third quarter",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 549870,
@@ -513,6 +528,7 @@
    "t1_ms": 626270,
    "speaker": "Management",
    "text": "of 2025. Despite our intentional runoff of $11 billion of higher cost deposits recorded in all other, global banking deposits grew 6% and consumer deposits increased modestly with low interest and non-interest bearing balances up nearly 3%. GWIM deposits remain stable and well priced. Our deposit mix in deposits accounting for more than 75% of year over year deposit growth. We also remain disciplined on pricing with the total deposit rate rising",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 588880,
@@ -544,6 +560,7 @@
    "t1_ms": 662980,
    "speaker": "Management",
    "text": "just three basis points 9%. Our focus on operating deposits and our low loan to deposit ratio allow us to compete on capabilities rather than price. Clients value the safety and convenience we provide and a significant share of balances remains in relationship based operating accounts and other low cost funding. Our deposit franchise remains an important competitor. Let's turn to the loan trends Brian mentioned on slide eight.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 626270,
@@ -575,6 +592,7 @@
    "t1_ms": 706540,
    "speaker": "Management",
    "text": "Here we show average loans up approximately 6% year over year led by broad based gain. Wealth related lending also remains strong and card balance. Commercial loans increased 8% year over year with growth across every line of business with small business up 2%. Global commercial up 6%. Global and GWIM custom lending was up 22%. Global banking, international commercial loans grew 15%. Further we saw broad based middle market growth",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 663700,
@@ -606,6 +624,7 @@
    "t1_ms": 750240,
    "speaker": "Management",
    "text": "across the commercial banking segments and key sectors including real estate, sports, technology, healthcare and biopharmaceuticals. Consumer card balances grew nearly 5% while higher consumer real estate balances and small business growth were more than offset by lower auto balances. Securities based lending and wealth management grew 21%. Growth remains consistent with our underwriting standards and credit discipline. It also supported another strong quarter for net interest income which we show on slide nine. As I noted earlier both net interest income of 16.6 billion",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 707100,
@@ -645,6 +664,7 @@
    "t1_ms": 795420,
    "speaker": "Management",
    "text": "and the net interest yield were up strongly from both Q2 and a year ago. Repricing and global markets activity both remain contributors and commercial loans, card balances and deposits have increasingly been the ones driving the growth. Looking forward we expect NII to improve sequentially in Q4 and again through 2027 based on anticipated modest loan and deposit growth and continued fixed rate asset repricing. This outlook also assumes 325 basis point rate increases through June of 2027. So in December 26 and March and June of next year.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 751040,
@@ -680,6 +700,7 @@
    "t1_ms": 839840,
    "speaker": "Management",
    "text": "Investor day last year we shared an expectation we would deliver five to seven in the medium term and during the course of 2026 we've raised that guidance first to 7% and then more recently to 8%. We still expect to hit that full year revised NII growth guidance of approximately 8% and for 2027 we currently expect full year growth of NII to be 8% or more higher than 2026 and again higher than our original five to seven percent range. The banking book remains asset sensitive on a dynamic deposit basis 100 basis point",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 795500,
@@ -715,6 +736,7 @@
    "t1_ms": 881700,
    "speaker": "Management",
    "text": "parallel shift above the forward curve would be expected to increase NII by 1.4 billion dollars over the following 12 months and that's a touch higher than the second quarter. When we turn to slide 10 we see expense we reported expense of 19.7 billion and that included the Tory settlement charge excluding that charge adjusted expense was a little more than 18.5 billion down nearly 100 million from Q2 and up slightly less than 7%. The year over year increase reflected higher revenue related costs in asset management and equities including",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 839840,
@@ -750,6 +772,7 @@
    "t1_ms": 925740,
    "speaker": "Management",
    "text": "incentive compensation and wealth management and brokerage clearing and exchange costs in equities respectively. We also invested in technology modernization AI client acquisition productivity continues to improve as evidenced by our headcount. Even as we add headcount in our sales forces our headcount was down nearly 3500 from a year ago as we automate processes and simplify work across the company. This means we don't need to hire quite as many people to refill roles. We remain focused on investing where we see the best long-term returns while we continue to improve the productivity of the organization and we expect to return to",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 881780,
@@ -789,6 +812,7 @@
    "t1_ms": 969500,
    "speaker": "Management",
    "text": "operating leverage in Q4. Let's move to credit quality on slides 11 and 12 and here you can see the credit quality remains stable and in fact improved modestly once again this quarter. Provision expense was approximately 1.3 billion lower than Q2 and the net charge off ratio improved to 44 basis points. Consumer credit improved in line with expectations. The 3.22% card loss rate improved from Q2 and along with delinquencies declined for the sixth consecutive quarter on a year over year basis. Commercial criticized assets declined to their",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 925740,
@@ -824,6 +848,7 @@
    "t1_ms": 1007580,
    "speaker": "Management",
    "text": "lowest level on a rate basis since 4Q19 and non-performing loans also fell from Q2. Together these trends continue to point to a healthy consumer and commercial client base and credit quality. With that credit backdrop let's now turn to each business beginning with consumer banking on slide 13. We covered another solid quarter combining the organic client growth and disciplined execution with continued investment in the franchise. Revenue rose about 4% to 11.6 billion and net income increased about 2% to 3.5 billion.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 969500,
@@ -859,6 +884,7 @@
    "t1_ms": 1049920,
    "speaker": "Management",
    "text": "Year-to-date results remain robust with revenue up 5% and net income up 10%. Year over year expense comparisons are tougher because we increased marketing beginning in the fourth quarter of 25 ahead of new sponsorships and the relaunch of B of A rewards with spending steady for the past. We opened 14 financial centers this quarter and plan to open about another 20 or more by year end. Since its May relaunch B of A rewards has enrolled nearly 6 million clients deepening engagement across. And as a result of these investments",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1008380,
@@ -894,6 +920,7 @@
    "t1_ms": 1088050,
    "speaker": "Management",
    "text": "we've seen continued account openings and non-interest bearing deposit growth, higher new card originations and card balance growth and higher digital engagement and client satisfaction. The business produced a 50% efficiency ratio and a 31% return on allocated capital. Our deposit franchise that remains a key strength with average deposits of about 949 billion marking a sixth consecutive quarter of year over year growth. Non-interest bearing deposits grew more than 4% while 59% of balances remained in checking accounts",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1050480,
@@ -929,6 +956,7 @@
    "t1_ms": 1125680,
    "speaker": "Management",
    "text": "and 92% of those relationships before a billion up 14% supported by market gains and about 18 billion of net flows over the past year. Digital adoption reached new highs with over 50 million actives are digitally active and digital channels generated 71% of sales. Erika, Zelle and AI enabled tools are helping clients and helping employees to complete more",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1088690,
@@ -956,6 +984,7 @@
    "t1_ms": 1166210,
    "speaker": "Management",
    "text": "activity faster. That mix of relationship growth, digital engagement and discipline to wealth management now on slide 14. This business continued to improve profitability through strong client flows, positive operating leverage and higher margins. Revenue rose about 13% to 7.1 billion and net income increased 22% to more than $1.5 billion. Pre-tax margin approached 29%, return on allocated capital reached about 28% and operating leverage",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1125680,
@@ -987,6 +1016,7 @@
    "t1_ms": 1210930,
    "speaker": "Management",
    "text": "was strongly positive as client activity and market levels lifted asset management fees and NII. Client balances climbed above $5 trillion for the first time up 9% while AUM rose 12% to about $2.4 trillion. Quarterly net client flows were about $38 billion including approximately 20 billion of AUM flows bringing four quarter AUM flows to about $74 billion. It was broad based. Merrill added about 4200 net new households with at least $500,000 in assets up 17% and the private bank added 470 net new relationships with at least $3 million",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1166210,
@@ -1022,6 +1052,7 @@
    "t1_ms": 1253440,
    "speaker": "Management",
    "text": "under management. These results reflect strong demand for advice and our ability to attract clients and experienced advisors to the platform has also deepened as now 67% of Merrill clients have banking relationships with us. This rose about 12% to more than $280 billion led by securities based lending. Private bank lending has now grown for 12 consecutive quarters as clients use more of our investment and banking capabilities. Advisor productivity, disciplined pricing, digital engagement, and AI tools continue to",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1211330,
@@ -1057,6 +1088,7 @@
    "t1_ms": 1291980,
    "speaker": "Management",
    "text": "expand our capacity to deliver personalized advice at scale. And that sustained organic growth leads us to global banking on slide 15 benefited from strong loan and deposit growth and treasury activity and results. Here today the commercial bank added more than 300 new companies and logos and in September we launched a gen AI tool designed to make prospecting and onboarding even more efficient. $2 billion was relatively flat year over year and net income",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1253440,
@@ -1088,6 +1120,7 @@
    "t1_ms": 1328660,
    "speaker": "Management",
    "text": "was just under $2 billion down modestly year over year and the broader year-to-date performance put this quarter's investment banking results in context. Here today global banking revenue is up 5% net income is up 7% and the total company investment banking fees are up 16% and balance sheet growth reflected the continued client momentum. Average deposits rose 6%",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1291980,
@@ -1115,6 +1148,7 @@
    "t1_ms": 1369120,
    "speaker": "Management",
    "text": "average loans increased 8% to $419 billion and $128 billion is broad based across commercial and corporate clients. Treasury services revenue increased 10% as we helped clients manage liquidity while creating more opportunities across lending investment banking and global markets. Total company investment banking fees excluding self-led transactions were about $1.8 billion. Fees declined from a strong year ago period driven by lower advisory and debt underwriting",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1328660,
@@ -1146,6 +1180,7 @@
    "t1_ms": 1412980,
    "speaker": "Management",
    "text": "fees. Looking forward our pipelines remained healthy. We continue to invest in bankers, technology and AI tools in an effort to improve research, preparation and opportunity identification. Client-cronic activity also supports global markets which we cover on slide 16. You can see solid results despite a tough comparison in our FIC credit businesses with slower trading activity this year. Excluding DVA revenue was $5.8 billion and net income was $1.2 billion both down from Q3 2025. Even so the year-to-day performance remains a record",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1369120,
@@ -1181,6 +1216,7 @@
    "t1_ms": 1454320,
    "speaker": "Management",
    "text": "for the firm with revenue up 11% and net income up 40%. Trading revenue excluding DVA was $5.1 billion down 5% year-over-year. It was a record third quarter for equities and it was a record third quarter for international revenue. 10% to $2.5 billion led by prime financing and strong client activity. The results reflect our investments in talent, technology and financing capabilities over time. $2.5 billion down 15%. FX and commodities benefited from",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1412980,
@@ -1212,6 +1248,7 @@
    "t1_ms": 1493440,
    "speaker": "Management",
    "text": "increased client activity lifting our macro businesses 4%. And that strength was more than offset by lower activity in mortgages, municipals and credit following a strong year ago period. The expense increase may seem counterintuitive given the revenue decline but it reflects higher transaction costs tied to the equities growth particularly in prime financing and in Asia reflecting our continued long-term investment and expansion. Average loans rose 5% demonstrating stronger financing relationships and connectivity across markets,",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1454320,
@@ -1247,6 +1284,7 @@
    "t1_ms": 1531900,
    "speaker": "Management",
    "text": "global banking and wealth. The segments results covered let's finish with all other and some closing thoughts on slide 17. All other reported a loss of $1.4 billion and that obviously includes the $1.2 billion regulatory settlement charge which is not tax deductible. Excluding the regulatory settlement charge all other shows a loss of $153 million compared with a loss of $103 million a year ago. Tax rate was 23% and excluding the regulatory settlement charge the adjusted effective tax rate was closer to 20%.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1493440,
@@ -1282,6 +1320,7 @@
    "t1_ms": 1576430,
    "speaker": "Management",
    "text": "But let me close then with some key takeaways from the quarter. A resilient U.S. economy relied on us for advice. Our clients remain active globally even though at a slower pace. Those trends were evident across the company and drove another solid quarter. Our pipelines and our client conversations reflect the same confidence we have in the economy even as clients keep a close eye on geopolitical uncertainty. Our balance sheet and capital",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1532940,
@@ -1313,6 +1352,7 @@
    "t1_ms": 1594430,
    "speaker": "Management",
    "text": "remain strong and we continue to invest in technology and develop A.I. capabilities to support long-term growth. This quarter demonstrates the strength of our franchise and the value of our diversified business model. With that I'll say thank you and we'll stop now to take your",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1576430,
@@ -1336,6 +1376,7 @@
    "t1_ms": 1621200,
    "speaker": "Operator",
    "text": "questions. Thank you. If you'd like to ask a question press star one on your keypad. To leave the queue at any time please press star two. Once again that is star one to ask a question and we'll pause for just a moment to allow everyone a chance to join the queue. Thank you. Our first question comes from Chris McGrady with KBW. Please go ahead your line",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1594430,
@@ -1363,6 +1404,7 @@
    "t1_ms": 1644900,
    "speaker": "Analyst",
    "text": "is open. Oh great good morning. Brian or Alistair on the capital outlook you talked about modest balance sheet growth. I'm wondering if you could dig into your assumptions between growth of the balance sheet and returning of capital balancing the CET1 and the TCE ratio. Thanks. I'd say",
+   "name": "Chris McGrady, KBW",
    "parts": [
     {
      "t0_ms": 1621200,
@@ -1386,6 +1428,7 @@
    "t1_ms": 1689260,
    "speaker": "Management",
    "text": "if you look at the course of the year we've obviously supported all the client growth that we've seen with the capital that we generate and if we look at where we stand today we've obviously got a considerable amount of flexibility on capital just recognizing that we're at 10.9 percent CET1 and reg minimum at 10 percent. We also generate substantial capital so if you look at this quarter for example Chris we supported 34 billion in loan growth. We obviously had a regulatory penalty. We saw rates go up 85 basis points. We paid an increased dividend and we bought back six billion in shares so we've got a lot of flexibility with the earnings that we generate to balance exactly what we've been doing through the course of this year and over the",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1644900,
@@ -1429,6 +1472,7 @@
    "t1_ms": 1698940,
    "speaker": "Management",
    "text": "course of time. Always our priority is going to be support the clients and the growth. We know we have to support the regulatory minimum and the dividend and then whatever",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1689260,
@@ -1448,6 +1492,7 @@
    "t1_ms": 1720510,
    "speaker": "Analyst",
    "text": "is left we're going to. And then on the operating leverage comment Q4 heard you there but could we revisit 2027? You gave us a pretty good NII update. I think the guided investor day was 200 to 300. Any changes of how you're feeling about that going into next year?",
+   "name": "Chris McGrady, KBW",
    "parts": [
     {
      "t0_ms": 1698940,
@@ -1471,6 +1516,7 @@
    "t1_ms": 1742000,
    "speaker": "Management",
    "text": "No, no change there. We've obviously had a very good first Q3 was slower and we're back on creating operating leverage in Q4. I think as we get into Q4 Chris I will likely provide guidance for next year but it's not going to change from the 200 to 300 based on what we see. It",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1721310,
@@ -1494,6 +1540,7 @@
    "t1_ms": 1759280,
    "speaker": "Operator",
    "text": "could be higher but we'll see as we get closer. Thank you. Thank you. We'll move on now to David Chavarini with Jeffries. Your line is open. Hi thanks for taking the questions. Wanted to",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1742000,
@@ -1513,6 +1560,7 @@
    "t1_ms": 1771360,
    "speaker": "Analyst",
    "text": "touch on the NII guide of 8% plus looking out to next year. I was curious on the drivers behind the improvement. Is it all rate driven or anything else driving that improvement?",
+   "name": "David Chiaverini, Jefferies",
    "parts": [
     {
      "t0_ms": 1759920,
@@ -1532,6 +1580,7 @@
    "t1_ms": 1815580,
    "speaker": "Management",
    "text": "No, it's not all rates. Rates are obviously a small component of that but same drivers as this year really David. All deposit growth this year and particularly where we've seen it is in non-interest bearing. So if you look at the non-interest bearing in consumer or you look at the non-interest bearing in return to something a little more normal. We'd always thought deposit growth should be in kind of the 4 to 5% in a normal type economy and that's kind of where the non-interest bearing is now over the course of the last year over year. So that's number one. Number two, so we've seen for example",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1772320,
@@ -1571,6 +1620,7 @@
    "t1_ms": 1853540,
    "speaker": "Management",
    "text": "consumers flattened out. It's now grown six quarters in a row. Wealth management, same thing. We've reached 20 billion a quarter over the course of time. We don't see that slowing at this point in time. Fixed rate asset repricing, loan in the residential mortgage portfolios but also in our mortgage backed securities and our cash flow swaps. And if end in the last quarter just increased and fixed rate yields. As we look into 2027",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1815580,
@@ -1602,6 +1652,7 @@
    "t1_ms": 1893260,
    "speaker": "Management",
    "text": "yes but it's the core underlying growth deposits and loans that help us. Recognize in 2027 if rates go up we would expect global markets. It's liability sensitive. It's entirely possible that global markets will go down but remember we continue to add loans in global markets and we continue to invest in global markets. So that will offset that just a little bit. The gains in banking are going to more than offset that. That's the core part. The core banking book is going to be stronger in 2027 than 2026. Yeah to be precise the 8%",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1853860,
@@ -1637,6 +1688,7 @@
    "t1_ms": 1907890,
    "speaker": "Management",
    "text": "includes it's an all-in number. Great thanks for that and on the consent order",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1894140,
@@ -1652,6 +1704,7 @@
    "t1_ms": 1915410,
    "speaker": "Analyst",
    "text": "are there any constraints or does this impede business operations in any way as we look forward?",
+   "name": "David Chiaverini, Jefferies",
    "parts": [
     {
      "t0_ms": 1908610,
@@ -1667,6 +1720,7 @@
    "t1_ms": 1923780,
    "speaker": "Management",
    "text": "Just repeat me your question one more time. I'm sorry I was writing a note to myself. Go ahead.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1920180,
@@ -1682,6 +1736,7 @@
    "t1_ms": 1929620,
    "speaker": "Analyst",
    "text": "Sure just on the consent order are there any constraints on the business? Does it impede",
+   "name": "David Chiaverini, Jefferies",
    "parts": [
     {
      "t0_ms": 1923780,
@@ -1697,6 +1752,7 @@
    "t1_ms": 1956100,
    "speaker": "Management",
    "text": "your normal business operations at all? No there's no asset cap here so there's nothing there. And then in terms of it won't crowd out anything either because we've invested the technology and we've invested the people that we feel like we need to get the work done. So that's in the run rate. We've made the decisions we need to. We've added the resources we feel like we need. So it should not impact our clients in any way. Great thanks very much.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 1929620,
@@ -1728,6 +1784,7 @@
    "t1_ms": 1965090,
    "speaker": "Operator",
    "text": "Thank you. We'll move next to Manan Gosalia with Morgan Stanley. Your line is now open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1958930,
@@ -1743,6 +1800,7 @@
    "t1_ms": 1993010,
    "speaker": "Analyst",
    "text": "Hi good morning. On the consumer side you noted that consumers continue to spend and consumers are healthy but maybe you can give us some more color on what you're seeing there with short end rates moving higher for longer gas prices. You know you're seeing any signs of pressure and are there any changes that you're making at the margin in terms of",
+   "name": "Manan Gosalia, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 1968450,
@@ -1770,6 +1828,7 @@
    "t1_ms": 1999410,
    "speaker": "Management",
    "text": "where you're leaning in or leaning out? I think you're let's separate two things.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1993010,
@@ -1785,6 +1844,7 @@
    "t1_ms": 2071540,
    "speaker": "Management",
    "text": "One on the credit quality or actually what their activity is but not quite at the rate.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1999410,
@@ -1800,6 +1860,7 @@
    "t1_ms": 2090800,
    "speaker": "Management",
    "text": "It crowds out a little bit but frankly you have different types of people in the overall five percent and on entertainment and other categories that you see.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2071540,
@@ -1819,6 +1880,7 @@
    "t1_ms": 2127360,
    "speaker": "Analyst",
    "text": "Got it and then if you could give us some more color on the positive operating levels for next year. You know what are the key drivers? Clearly you're dropping more of the NII growth to the bottom line so that's certainly a positive but if you could talk about some of the levels that you have on the expense side and if you could clarify that the 200 to 300 basis points is on the adjusted expense number for 2026 excluding the settlement charge. Well I think that's the best way to look at it",
+   "name": "Manan Gosalia, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2090800,
@@ -1854,6 +1916,7 @@
    "t1_ms": 2167470,
    "speaker": "Management",
    "text": "because we wouldn't view that as being a repeated. We view that as a one time. It's not a core operating expense so I think you've got to adjust for that but yes we still feel like 200 to 300 basis points is generally speaking the right kind of a zone. We put that out for investor day through the medium term. We'll get into what we want to guide for 2027 when we get into the fourth quarter but you've identified first a lot of it drops straight to the bottom line and that's really important. That's a very powerful driver for our company and then obviously we've got some terrific opportunities to continue to grow the",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2128000,
@@ -1893,6 +1956,7 @@
    "t1_ms": 2210850,
    "speaker": "Management",
    "text": "fee businesses as we have consistently invested there. So we've got a good opportunity across the board we feel like whether it's wealth, global banking and global markets to keep driving the fee side so that we feel good about. And then on the expense we've got a pretty good track record of headcount management all the way through this year. So if you look at what we've done in terms of what's the main driver of expense 60 to 70 percent of it is headcount. We've done a nice job of managing headcount with discipline all year. That management discipline into next year that allows us to create the operating leverage that we're talking about. Final thing",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2167470,
@@ -1932,6 +1996,7 @@
    "t1_ms": 2245150,
    "speaker": "Management",
    "text": "I'll just say is you know we obviously benefit a great deal from the fact that we've got a consumer business, a wealth business, small business, medium-sized business, large businesses and investors. And the interconnectedness of those the flows of business that go between them is another thing we've highlighted at investor day presentation and afterwards and another area of additional growth for us that we are we continue. Thank you. Thank you.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2210850,
@@ -1963,6 +2028,7 @@
    "t1_ms": 2251070,
    "speaker": "Operator",
    "text": "We'll move on now to Ben Gerlinger with Citi. Your line is now open. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2245710,
@@ -1978,6 +2044,7 @@
    "t1_ms": 2280110,
    "speaker": "Analyst",
    "text": "Good morning. I just wanted to double check. So you have the full year NII and the next year's is also strong. And then you also say that non-interest bearing deposit growth has been healthy. So are you kind of assuming that non-interest bearing deposit growth continues to be healthy despite the three additional heights your four expectations include? And if so can you also unpack some of the deposit bids you might be assuming in",
+   "name": "Ben Gerlinger, Citi",
    "parts": [
     {
      "t0_ms": 2252750,
@@ -2009,6 +2076,7 @@
    "t1_ms": 2322930,
    "speaker": "Management",
    "text": "next year's NII? Yep. So first with respect to we're assuming low single digits for deposit growth broadly bearing deposits as we have done over the course of the past year. Remember whether rates go up by 25 basis points or not at some point not more by inflation and GDP. We ought to see continued growth in non-interest bearing deposits through the course of time. A lot of the rotation of rates took place when rates went from 25 basis points to four and a",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2280110,
@@ -2040,6 +2108,7 @@
    "t1_ms": 2358850,
    "speaker": "Management",
    "text": "half or four years. There's been a lot of time for consumers and wealthy clients to sort of settle into that environment. So yes we anticipate continued growth in our deposits. In terms of deposit betas obviously we came from four and a half percent down to 3.75, 3.50. Now we're retracing steps. I would anticipate it'll look the same going back up as it did coming down. The areas to watch continue to be obviously in consumer it's about CD pricing. In wealth we tend to pass along pricing with interest rate.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2322930,
@@ -2075,6 +2144,7 @@
    "t1_ms": 2374900,
    "speaker": "Management",
    "text": "The Fed raises rates we're typically passing that through to our clients. So perspective on the way back up as there was originally nor in the way that we think about it on the way down.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2358850,
@@ -2094,6 +2164,7 @@
    "t1_ms": 2387200,
    "speaker": "Operator",
    "text": "So no change there. Thank you. Thank you. We'll move next to John McDonald with Truist",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2374900,
@@ -2109,6 +2180,7 @@
    "t1_ms": 2414850,
    "speaker": "Analyst",
    "text": "Securities. Your line is now open. Thanks. Good morning. Brian I was hoping you could give a little perspective in terms of the OCC and FinCEN orders. Like how it gets to this point. Is it kind of a misunderstanding of what regulators are asking for or disagreement on how to address the issues they're asking for in your processes. Just some perspective on you know how it comes about and your lessons learned takeaways that we should have from this.",
+   "name": "John McDonald, Truist Securities",
    "parts": [
     {
      "t0_ms": 2387200,
@@ -2140,6 +2212,7 @@
    "t1_ms": 2451420,
    "speaker": "Management",
    "text": "Look at the end of the day I think we what they need us to do we're deep in the process or media. Just for example this quarter a couple hundred million dollars and children thousands of employees. So we have a clear understanding of what we need to do. We're doing it. You know it is the focus of management to get it cleaned up.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2416290,
@@ -2167,6 +2240,7 @@
    "t1_ms": 2467760,
    "speaker": "Management",
    "text": "That beyond that there's not a lot to talk about entirely working away and this settlement",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2452380,
@@ -2182,6 +2256,7 @@
    "t1_ms": 2498260,
    "speaker": "Management",
    "text": "in the 2024 season. That was helpful context on the levers you pulled for capital management",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2467760,
@@ -2197,6 +2272,7 @@
    "t1_ms": 2518030,
    "speaker": "Analyst",
    "text": "this quarter. I just want to clarify as you look ahead what metrics you're going to be managing to and kind of which is governing. I think you're going to triangulate maybe is it CT1 of 11 ish and then also triangulating to TCE of 6 ish. What we're going to do is wait",
+   "name": "John McDonald, Truist Securities",
    "parts": [
     {
      "t0_ms": 2498260,
@@ -2220,6 +2296,7 @@
    "t1_ms": 2559620,
    "speaker": "Management",
    "text": "for the final rules. That will be important in terms of just clarifying exactly how and what we're calculating in terms of clarifying what the transition period looks like John. So we just have to consider that as we as we see that later this quarter. And then the reason that we look at both CT1 and tangible common equity is because we have a series of different constituencies and we have to manage all of just to keep an eye on all of these various metrics liquidity earnings as we make our decisions. But I'll go back to this point.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2518030,
@@ -2255,6 +2332,7 @@
    "t1_ms": 2569220,
    "speaker": "Management",
    "text": "We've got a lot of flexibility on capital right now. You saw what we could do in Q3. We generate a lot of capital that gives us a lot of flexibility going forward and our",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2560180,
@@ -2274,6 +2352,7 @@
    "t1_ms": 2580640,
    "speaker": "Operator",
    "text": "priorities remain the same. Thank you. Thank you. We'll now move on to Jim Mitchell with",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2569220,
@@ -2289,6 +2368,7 @@
    "t1_ms": 2620720,
    "speaker": "Analyst",
    "text": "Seaport Global Securities. Your line is open. Hey, good morning. Alastair, just good morning. Just on just thoughts. I appreciate the 2027 commentary on NII and just it sounds like I just wanted to confirm that it sounds like markets related NII could be down from 26 levels which would imply that X markets NII should be north of 8%. I just wanted to confirm that. And then when I think about your commentary around operating leverage in the past, that if that flows to the bottom line that all SQL does tend to push you towards the higher end of the operating leverage range. Not trying to put words in your mouth,",
+   "name": "Jim Mitchell, Seaport Global Securities",
    "parts": [
     {
      "t0_ms": 2580640,
@@ -2328,6 +2408,7 @@
    "t1_ms": 2625840,
    "speaker": "Analyst",
    "text": "but just trying to think through those puts and takes. Thanks. I agree with both broadly.",
+   "name": "Jim Mitchell, Seaport Global Securities",
    "parts": [
     {
      "t0_ms": 2620720,
@@ -2343,6 +2424,7 @@
    "t1_ms": 2669220,
    "speaker": "Management",
    "text": "I think both statements are probably true. The first one in terms of, yeah, we did anticipate global markets in an environment where rates go up another three hikes. That's liability sensitive, it is, but we just have to recognize we continue to add balance sheet there over time so it just gets bigger which tends to help NII. And then also we're adding loans. So that matters. In terms of global banking and the banking book broadly, yes, that would imply then that that would grow faster than 8%. So I think you're right. And then second, yes, we intend to drop as much of this to the bottom line as we possibly can.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2627120,
@@ -2382,6 +2464,7 @@
    "t1_ms": 2689140,
    "speaker": "Management",
    "text": "And that tends to be very good for operating leverage. But again, I don't want to get drawn into that right this second because we want to look at that as we go through the fourth quarter and then I think we'll give guidance next year. But the point is we're not coming off of our investor day expectations. And if you look at operating leverage over the course of the past couple of years, we've tended to do better year after year. We're positioned well",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2669220,
@@ -2413,6 +2496,7 @@
    "t1_ms": 2709780,
    "speaker": "Analyst",
    "text": "for next year. Okay, yeah, great. And then maybe just on FIC trading, you noted kind of higher rates hurt the micro businesses. Now, is that most negative marks or was the slowdown of volume because just trying to see if this pressure could linger or could we see a snap back if",
+   "name": "Jim Mitchell, Seaport Global Securities",
    "parts": [
     {
      "t0_ms": 2689140,
@@ -2436,6 +2520,7 @@
    "t1_ms": 2749890,
    "speaker": "Management",
    "text": "rates stabilize? Yeah, so generally speaking, we tend to benefit a lot from the fact that we're really big in credit, mortgages, and munis. Those are great leading franchises for us. It just happens when rates go up 85 basis points in a quarter, that tends not to be good for those businesses. Clients tend to slow their activity. It's not good for asset prices. So it's largely a client activity thing. We haven't seen the same kind of a performance in meaning meaning we haven't seen rates behavior quarter, having gone through the third,",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2709780,
@@ -2471,6 +2556,7 @@
    "t1_ms": 2760030,
    "speaker": "Management",
    "text": "and we retain leadership in those big businesses of ours. Thanks. Appreciate it. Thank you.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 2750530,
@@ -2486,6 +2572,7 @@
    "t1_ms": 2765310,
    "speaker": "Operator",
    "text": "We'll move on to Mike Mayo with Wells Fargo Securities. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2760590,
@@ -2501,6 +2588,7 @@
    "t1_ms": 2791310,
    "speaker": "Analyst",
    "text": "Hi, in this period of AI and AI deployment, you know, where can that take you guys? I see revenues per employee year to date are up 10%. And you would think with all the tools at your disposal, that you'd be able to take that much higher. So I know I've asked this question before, but AI is moving so quickly. And I think the banks have to keep up so much",
+   "name": "Mike Mayo, Wells Fargo Securities",
    "parts": [
     {
      "t0_ms": 2766590,
@@ -2528,6 +2616,7 @@
    "t1_ms": 2832850,
    "speaker": "Management",
    "text": "that I thought I'd ask it again. Thank you. If you like, I think so one just set the stage. If you look at you every year, the total expense base was up 1.2 billion. And the head count was down first in the 1.2 billion, 450 or so million of that, about 300 is in the markets business, the BCE. And that leaves 100 left, of which a couple hundred million plus in a third quarter were two things implementation. So, you know, there wasn't the overall",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2791310,
@@ -2559,6 +2648,7 @@
    "t1_ms": 2862000,
    "speaker": "Management",
    "text": "expense growth absent that was a couple hundred million dollars, maybe three on a base of you think about that have one, 2% expense growth with all the investor branches in Milwaukee this month and things like that, more head count front client facing. You see it already the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2832850,
@@ -2582,6 +2672,7 @@
    "t1_ms": 2897310,
    "speaker": "Management",
    "text": "numbers and we expect to continue going forward. And we expect that the 100 implemented, all of them have a payback. They're very detailed projects. None of them are huge contributors",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2862000,
@@ -2601,6 +2692,7 @@
    "t1_ms": 2913090,
    "speaker": "Management",
    "text": "overall. The benefits are venture giving out. We expect that number to go on and",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2897310,
@@ -2616,6 +2708,7 @@
    "t1_ms": 2948640,
    "speaker": "Management",
    "text": "sure we get 10% continue to invest in part of that. We're actually up here every year.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2913650,
@@ -2631,6 +2724,7 @@
    "t1_ms": 2963580,
    "speaker": "Management",
    "text": "So we feel very good about the operating dynamics and even the expense over time from the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2948640,
@@ -2646,6 +2740,7 @@
    "t1_ms": 2992060,
    "speaker": "Analyst",
    "text": "All right. And then just a separate question, Brian, this is, I think the 17th year of you being CEO. And I just was wondering about your thoughts on a successor. You know, how much longer do you plan on remaining CEO? What qualities do you look for in a successor? And for a successor, would you look outside the firm and you know, why not? Right?",
+   "name": "Mike Mayo, Wells Fargo Securities",
    "parts": [
     {
      "t0_ms": 2968860,
@@ -2673,6 +2768,7 @@
    "t1_ms": 3029410,
    "speaker": "Management",
    "text": "It's the board's decision. Ultimately, our job is managing to tee up the talent in this company, which there's a lot. We work on it all the time. I could get hit by a truck tomorrow too, Mike. So this company's success is due to the 209,000 people out there working every day. And there'll be a great leader for it next and the board will make the decision. But we feel very good about the team we have. And all right, thank you. You'll be the first to know, Mike, when I tell you when I decide. All right, thanks. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2992780,
@@ -2708,6 +2804,7 @@
    "t1_ms": 3035170,
    "speaker": "Operator",
    "text": "We'll move on to Ken Oosden with Autonomous Research. Please go ahead. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3030130,
@@ -2723,6 +2820,7 @@
    "t1_ms": 3075440,
    "speaker": "Analyst",
    "text": "Thanks. Good morning. Big picture question on the balance sheet. Alistair, last quarter you talked about working on balance sheet efficiency. And it seems like the last couple quarters you've done what you said in terms of really taking down the wholesale funding part of the balance sheet with an offset in NIM. I'm just wondering if there are any offsets to that in terms of either how much you can make in trading as a result of that? Does it change your intermediation potential? And any other thoughts you have about kind of like where the average earning assets goes from here in a totality perspective? Thanks.",
+   "name": "Ken Usdin, Autonomous Research",
    "parts": [
     {
      "t0_ms": 3038160,
@@ -2762,6 +2860,7 @@
    "t1_ms": 3119040,
    "speaker": "Management",
    "text": "Yeah, so those are obviously two different decisions. The markets business we're going to support with the balance sheet and the capital that they need to drive a job over the course of the past three or four years of growing and improving. Q2, I think, was a great example. It was a really extraordinary opportunity. We took advantage of that. Returns were terrific. And Q3, you know, returns aren't quite the same. We don't have the same activity going on. So markets we're going to keep investing in. We're going to keep giving balance sheet. We're",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3076480,
@@ -2797,6 +2896,7 @@
    "t1_ms": 3161650,
    "speaker": "Management",
    "text": "going to keep supporting the clients because it's an important growth opportunity for us. The second question is more just how do you manage short-term wholesale funding? And the direction of travel for us is down. You know, generally speaking, deposit growth, paydowns of securities as they come due. And every time that deposits plus paydowns is greater than loans, it allows us to just pay down a little bit of short-term wholesale funding. So look, most of the NIM improvement is coming from repricings and profitable deposit and loan growth over time. And a little bit of it is this short-term wholesale funding.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3119040,
@@ -2836,6 +2936,7 @@
    "t1_ms": 3164210,
    "speaker": "Management",
    "text": "But the two things are separate. They're not linked.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3161650,
@@ -2851,6 +2952,7 @@
    "t1_ms": 3171170,
    "speaker": "Analyst",
    "text": "And then if I could come back to this. Go ahead, Brian.",
+   "name": "Ken Usdin, Autonomous Research",
    "parts": [
     {
      "t0_ms": 3164210,
@@ -2866,6 +2968,7 @@
    "t1_ms": 3213710,
    "speaker": "Management",
    "text": "I was just going to add to that. Think about 15 basis points improvement on it. So from 2 percent to 2.15, you know, so that's a 15 basis points on two improvement, three trillion dollar balance sheet. That's the efficiency of what, so you're replacing low yielding 6 percent non-interest bearing and overall a couple percent. So your mix is even improving there. And, you know, to your colleague's question why back, is using and checking.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3171170,
@@ -2897,6 +3000,7 @@
    "t1_ms": 3269010,
    "speaker": "Management",
    "text": "That dynamic is back to the 6 percent TCE ratio. That gives you a chance.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3222670,
@@ -2912,6 +3016,7 @@
    "t1_ms": 3305330,
    "speaker": "Analyst",
    "text": "Okay. Understood. Thank you. And then just coming back to the third quarter markets results, as you mentioned, Alistair, you know, just that there weren't as many opportunities. One of the peers yesterday talked about that fourth quarter could still be down, you know, meaningfully for them, sequentially just based on what normal seasonality is. So I know this might not have been like the typical quarter, but can you just help provide any perspective on, you know, what you think versus the 5.1 in the third quarter, what your overall view of markets might be for the fourth quarter, just, you know, given what happened in the third and what normal seasonality might do in the fourth. Thanks.",
+   "name": "Ken Usdin, Autonomous Research",
    "parts": [
     {
      "t0_ms": 3269010,
@@ -2955,6 +3060,7 @@
    "t1_ms": 3349940,
    "speaker": "Management",
    "text": "Yeah. So we tend not to guide for any quarter in markets, recognizing that it's very, very challenging to forecast that business in particular. Third quarter, as I mentioned, you know, we were obviously hurt by our mix. We have strength and credit and mortgage and munis. So you'd sort of think if that was an extreme bear market for moderates, which it has done through the first couple of weeks, we wouldn't see the same impact in the fourth quarter. Now, the fourth quarter obviously has seasonality, but those two may offset one another. And at the end of the day, the market's business has done a really nice job of",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3306930,
@@ -2994,6 +3100,7 @@
    "t1_ms": 3371220,
    "speaker": "Management",
    "text": "18 or 17 quarters in a row of year-over-year growth. Looking forward to the fourth quarter, I think there'll probably be less seasonality this year than in prior years, just based off of the way third quarter turned out. But we don't predict because we're not great at predicting global markets performance in any quarter.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3349940,
@@ -3021,6 +3128,7 @@
    "t1_ms": 3375970,
    "speaker": "Analyst",
    "text": "That's good color. I appreciate that, Alistair. Thank you.",
+   "name": "Ken Usdin, Autonomous Research",
    "parts": [
     {
      "t0_ms": 3371220,
@@ -3036,6 +3144,7 @@
    "t1_ms": 3384180,
    "speaker": "Operator",
    "text": "Thank you. We'll move on now to Matt O'Connor with Deutsche Bank. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3379060,
@@ -3051,6 +3160,7 @@
    "t1_ms": 3404260,
    "speaker": "Analyst",
    "text": "Good morning. It seems like the loan growth accelerated towards the end of the quarter, both based on the H8 data that we can all see. And then also your spot loan growth was a lot stronger than average. Anything to read into that beyond just quarter-end noise?",
+   "name": "Matt O'Connor, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 3385940,
@@ -3074,6 +3184,7 @@
    "t1_ms": 3448460,
    "speaker": "Management",
    "text": "No, I don't think there is. The H8 data bounces around. We have things like lending to warehouse mortgage lenders that go up and come down. But if you look at it, you get away from that kind of volatility. The really middle market grew its segments and the business banking franchise, which the team's done a good job, the share miller team done a good job getting to grow again. It's balanced. The small business grows. The credit card grows. Those are, they may come in evidence flows, but generally they're stick-to-your-ribs type growth. And so that sets us up nice for next quarter. The business come in and out or more,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3404260,
@@ -3113,6 +3224,7 @@
    "t1_ms": 3459230,
    "speaker": "Management",
    "text": "though, gets taken out or most of that volatility is around that end. It keeps",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3448460,
@@ -3128,6 +3240,7 @@
    "t1_ms": 3503940,
    "speaker": "Analyst",
    "text": "coming out of your seat. Okay. And then a bigger picture question. As we think about this rising rate environment and the deposit beta, I feel like a lot of banks are assuming it's similar to what we saw a few years ago when rates went up. But I also feel like the loan and deposit environment is totally different because last environment when rates were going up, loans were paying down and everybody had excess deposits. And now, you know, loan growth is quite solid. And I think most people are expecting it to continue. And everyone wants to fund it with deposits. So I guess the long-winded question is, you know, isn't there a risk that deposit pricing, you know, picks up",
+   "name": "Matt O'Connor, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 3459230,
@@ -3171,6 +3284,7 @@
    "t1_ms": 3511300,
    "speaker": "Analyst",
    "text": "more than maybe you and others have assumed just because of more loan growth and, you know, therefore more deposit competition? Thank you.",
+   "name": "Matt O'Connor, Deutsche Bank",
    "parts": [
     {
      "t0_ms": 3503940,
@@ -3190,6 +3304,7 @@
    "t1_ms": 3555410,
    "speaker": "Management",
    "text": "You know, I think Alistair mentioned earlier, we have $2 trillion in deposits and a trillion two in loans. So there is a lot of room to grow loans without thinking about needing to raise money to fund them. And within that, we have attorney portfolios running off. So each day, week, month, you know, we have $9 billion a quarter, $36 billion a year just out of the mortgage. You know, there's plenty of cash to fund up the mortgage balance sheet. You look fund up the loan balance sheet. You look over year over year, you can see that in the balance sheet growth. So there's a lot of room in us. We're far different from most",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3512660,
@@ -3229,6 +3344,7 @@
    "t1_ms": 3590560,
    "speaker": "Management",
    "text": "people because we're true to that loan to deposit ratio is far less. And so, you know, as Alistair said, we ran off high rate funding. We place CDs from our clients' money in other people so that we take our clients' money who want higher rates and we give it to banks who pay them higher rates because they need the funding. So it's just not something we need to reach for. And I think, leave aside, you know, rates down a little bit, up a little bit, the nominal rate environment a few years, 1.8, I think after post pandemic, we hit 1.8",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3555410,
@@ -3264,6 +3380,7 @@
    "t1_ms": 3632240,
    "speaker": "Management",
    "text": "and a half, something like that, up to 2. If you look at the page on deposits, slide seven, you see it's 149 basis points in an environment which is, you know, 3.5, 4% around you. So this is core money and movement in core transaction accounts for those wealthy clients that is growing and very stable. So we don't see the dynamic because we have a lot of room to grow loans without having any pressure to raise funds for them. We have a lot of runoff of fixed rate assets that can help fund that. And on top of that, you know, very advantage.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3590560,
@@ -3299,6 +3416,7 @@
    "t1_ms": 3658420,
    "speaker": "Management",
    "text": "So 149 basis points against, it's a pretty good place. On top of that, what's different from us than... Okay, thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3632240,
@@ -3318,6 +3436,7 @@
    "t1_ms": 3666910,
    "speaker": "Operator",
    "text": "We'll move on now to Erika Najarian with UBS. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3658420,
@@ -3333,6 +3452,7 @@
    "t1_ms": 3699630,
    "speaker": "Analyst",
    "text": "Hi, good morning. Thank you for squeezing me in. I just want to apologize in advance. I have three questions. I'm going to ask short questions, but I think it's important given the stock opened down 8%. Number one, just a clarification question on NIIX markets. Alistair, given your comments on markets NII being down, I would essentially assume that core NII would be up around 10% year over year in 2027 in line with what JP Morgan said yesterday.",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 3668590,
@@ -3364,6 +3484,7 @@
    "t1_ms": 3741630,
    "speaker": "Management",
    "text": "Is that about the right geography? Well, look, we don't guide. I was asked to... We don't guide the two differently and independently for a variety of different reasons. I was asked the question earlier, do you think global markets could be down next year with respect to three or four rate hikes? One that just happened, three to come? The answer is yes, because it's liability sensitive. But again, I'm just reminding people they continue to add loans and we're likely to just continue adding. Our markets piece, yes, may be down. But that 8% is including markets. I would tell you that the number",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3699630,
@@ -3403,6 +3524,7 @@
    "t1_ms": 3762670,
    "speaker": "Management",
    "text": "is likely higher for the core banking book, but we don't break it out because... And they go between and we manage it for the entire company. That's how you should think about it. And we may provide more guidance around what the exact number looks like as we get into Q4. We're probably not going to break it out between the two.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3741630,
@@ -3430,6 +3552,7 @@
    "t1_ms": 3802350,
    "speaker": "Analyst",
    "text": "Thank you. And the second question is, down 7% implies, I think to the market that this is more than just the results, that there's sort of a confidence issue, perhaps deepened by the consent order. I guess, a compound question, and I apologize. One, are there any incremental expenses that we should expect coming out of the third party review that needs to happen? Appreciate that this has been an issue since the cease and desist in December 2024. You know, given that expenses have come in higher than expected,",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 3764350,
@@ -3465,6 +3588,7 @@
    "t1_ms": 3816990,
    "speaker": "Analyst",
    "text": "how would you instill confidence in investors that you could do the high end of 300 basis points of operating leverage next year, much less 200 to 300 basis points?",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 3805710,
@@ -3484,6 +3608,7 @@
    "t1_ms": 3862930,
    "speaker": "Management",
    "text": "We've tried to be as clear as we possibly can, but we've ramped up significantly the people required to handle the consent order work. We've been working on that for some time now. We've also tried to be clear that we've ramped up the technology spend required. So we feel like that is in the run rate. And just remember, Erica, we started the year with 3,000 more heads than we have currently, just to give some idea. So we've been able to do that within all going on underneath the surface by repositioning people with the productivity gains we've seen. The expense side, I think still holds together there. The operating leverage, we've said we intend to deliver 200 to 300 basis points through the medium term.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3820620,
@@ -3527,6 +3652,7 @@
    "t1_ms": 3867090,
    "speaker": "Management",
    "text": "We haven't changed from that. I think as we get into Q4, I'll give you a better sense for",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3862930,
@@ -3542,6 +3668,7 @@
    "t1_ms": 3911790,
    "speaker": "Analyst",
    "text": "what that looks like in 2027. And finally, on the capital on January 1st, 2027, you know, you're set to step up and GSIB surcharge, which would raise your minimum to $10.50. As we think about your shareholders have enjoyed about $6 billion in buybacks per quarter, and it's been supportive of the stock. As we think about the intersection of strong capital generation, sort of a TCE constraint at 6%, and that GSIB surcharge step up with the potential for reform to be finalized, how should we think about how your business as usual in buybacks",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 3867090,
@@ -3577,6 +3704,7 @@
    "t1_ms": 3933150,
    "speaker": "Analyst",
    "text": "over the near term, close to that 6 billion number, or are we waiting for the finalization of GSIB to see whether or not they'll treat your GSIB surcharge calculation only prospectively or retroactively to prevent that step up? All right. So there's a lot to unpack there.",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 3911790,
@@ -3600,6 +3728,7 @@
    "t1_ms": 3977120,
    "speaker": "Management",
    "text": "Um, we don't guide on share buyback for lots of different reasons. It's definitely business as usual in terms of how we think about that equation, with one exception. We need to wait for the final rules. I know we're all desperate for the final rules. I'm desperate for the final rules, but we don't have them yet. We need to understand first, how is it going to work? And then we need to understand the transition period. I think in your question, there's an assumption that the current, which will soon be the old rules capital might go. That may be the case. That may not be the case. We have to wait and we have to see.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3934670,
@@ -3639,6 +3768,7 @@
    "t1_ms": 4020510,
    "speaker": "Management",
    "text": "That having been said, if you look at this quarter, what did we manage to do? Well, we're looking at both tangible common equity and CET1. We've got plenty of flexibility on the CET1 number because we're 90 basis points above the regulatory minimum. And on tangible common equity, just think about it this quarter rates went up 80, 85 basis points. We dealt with a regulatory penalty at the end of the quarter. We added 34 billion of loans to support paid the dividend bought back six billion of shares. That gives you a sense for just how capital generative this company is every quarter. So I don't, none of that changes, Erica. We just have to see how the quarter develops.",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 3978000,
@@ -3682,6 +3812,7 @@
    "t1_ms": 4025340,
    "speaker": "Analyst",
    "text": "We have to wait for the final rule. Thank you for taking on my questions.",
+   "name": "Erika Najarian, UBS",
    "parts": [
     {
      "t0_ms": 4020510,
@@ -3697,6 +3828,7 @@
    "t1_ms": 4035150,
    "speaker": "Operator",
    "text": "Thank you. We'll move on now to Scott Seifers with TD Cowan Securities. Your line is open.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4029550,
@@ -3712,6 +3844,7 @@
    "t1_ms": 4065630,
    "speaker": "Analyst",
    "text": "Thanks, guys. Appreciate you taking the question. I know you've touched on the IB outlook at least a bit was hoping maybe just a little more. It's been such a strong year in the aggregate, but I think we're all fixated on this more recent pause in activity. Can you sort of speak to either what you all are discussing internally or with clients regarding anything that would kind of help distinguish between what's just hopefully a temporary pause as we all adjust to higher rates and something that might prove potentially more lasting?",
+   "name": "Scott Siefers, TD Cowen",
    "parts": [
     {
      "t0_ms": 4037390,
@@ -3747,6 +3880,7 @@
    "t1_ms": 4102930,
    "speaker": "Management",
    "text": "Nine months, our investment banking fees are up 16% year to date. So activity level, generally speaking, is pretty good. Is the second quarter a little softer than, sorry, is the third a little softer than the second? Yeah, a little of the magnitude that we saw. Impact, transactional activity from our clients? Yes, that does happen. And obviously, there's a period like that where buyers and sellers just need to readjust valuations",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4065630,
@@ -3778,6 +3912,7 @@
    "t1_ms": 4140540,
    "speaker": "Management",
    "text": "and expectations. So if you look at our businesses generally, we can see from the loan growth activity across the commercial side that the capex cycle continues. We know from the investment banking pipelines that they remain strong, and our team added more in the way of pipeline in the quarter. So it feels to us like we've got a good U.S. economy supported by the consumer and by the AI capex. And there's underneath it a lot of capital",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4103490,
@@ -3809,6 +3944,7 @@
    "t1_ms": 4165200,
    "speaker": "Management",
    "text": "requirement from these AI companies and the whole environment. We've been a very active participant in that. So we remain optimistic on investment banking. We've got a world-leading franchise in capital markets. I think we were third in announced M&A in the third quarter. So that tends to mean good things going forward. So we're pretty constructive,",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4140540,
@@ -3836,6 +3972,7 @@
    "t1_ms": 4170720,
    "speaker": "Analyst",
    "text": "and we'll see how the fourth quarter develops. All right. Perfect. No, I appreciate that. I think",
+   "name": "Scott Siefers, TD Cowen",
    "parts": [
     {
      "t0_ms": 4165200,
@@ -3851,6 +3988,7 @@
    "t1_ms": 4185010,
    "speaker": "Operator",
    "text": "that should do it for me. So thank you very much. Thank you. We'll move next to Stephen Chibak with Wolf Research. Your line is open. Hi, good morning, and thanks for squeezing me",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4170720,
@@ -3870,6 +4008,7 @@
    "t1_ms": 4213570,
    "speaker": "Analyst",
    "text": "in here. Maybe to start, Brian, I was hoping you could address some of the recent concerns on MUSE or agentic AI as potentially driving more yield-seeking behavior, the potential risk of flight for more idle consumer deposits, and whether you can create barriers that actually explicitly preclude agentic access, which could potentially help dampen the pace of sorting activity while also providing some additional layers of security to your customers as well.",
+   "name": "Steven Chubak, Wolfe Research",
    "parts": [
     {
      "t0_ms": 4185010,
@@ -3901,6 +4040,7 @@
    "t1_ms": 4258000,
    "speaker": "Management",
    "text": "Yeah, I think those are two different questions. One is, like we worked that the customers in control of the decision, the human remains in the loop before money is moved. That safety and security, look, we have a, the banking system has been the source of transactional accounts for people forever, and that safety and security people have knowing they can make a payment, it will go through the system, it'll be credited to the person they're making the payment for, they can receive payments, they have access 24 by 7, they can send money out,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4213570,
@@ -3936,6 +4076,7 @@
    "t1_ms": 4279260,
    "speaker": "Management",
    "text": "they can do wires right from their phone, but it's all safe and secure in the environment, and I think that's the key. And so what we've been using control because decayed,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4258000,
@@ -3955,6 +4096,7 @@
    "t1_ms": 4321090,
    "speaker": "Management",
    "text": "you know, on balance sheet, they want to do. And so why their checking balances continue to grow, that's their transactional money that they're making all their payments with, they have to keep that account active. And so optimizing that with the penalty being",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4279260,
@@ -3978,6 +4120,7 @@
    "t1_ms": 4362940,
    "speaker": "Management",
    "text": "transactions not going through, being not paid, and or overdraft penalties, and or other types of issues, it is not the optimization. They've already optimized their cash that they put with us for investment purposes, $3 billion of management customers, all of whom have a lot of money by definition, and if they, the market, when it doesn't know what the consumer's",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4321090,
@@ -4005,6 +4148,7 @@
    "t1_ms": 4400380,
    "speaker": "Management",
    "text": "doing, not worried about it, when consumers control their money, commercial clients, has been there, has always been there. And frankly, since the money market started,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4362940,
@@ -4024,6 +4168,7 @@
    "t1_ms": 4416740,
    "speaker": "Management",
    "text": "she don't turn it for example, our deposit process, our technology is really once because we are",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4400380,
@@ -4039,6 +4184,7 @@
    "t1_ms": 4461180,
    "speaker": "Analyst",
    "text": "talking to them all the time about that. Thanks for all that color, Brian, if I could just squeeze one quick clarifying question, there's been lots of discussion around the market's performance. There's also been a lot of focus on having to manage to multiple constituencies on capital. There was a lot of speculation inter corridor that efforts to manage to a 6% TCE may have weighed on market's performance in 3Q, as evidenced by the balance sheet contraction in this segment. And we're hoping you could speak to that linkage of how managing to a 6% TCE target informs your willingness to deploy more balance sheet in the market's business, or frankly, any other areas that are just more leverage versus RWA intensive.",
+   "name": "Steven Chubak, Wolfe Research",
    "parts": [
     {
      "t0_ms": 4416740,
@@ -4082,6 +4228,7 @@
    "t1_ms": 4502020,
    "speaker": "Management",
    "text": "Has no bearing at all, because the customer act leads to trading plus in their growth. That's what Alistair said earlier. So since it's up several hundred billion dollars over the last",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4461180,
@@ -4101,6 +4248,7 @@
    "t1_ms": 4532340,
    "speaker": "Management",
    "text": "few years, quarter to quarter in the market's contribution to that flatness was a helpful",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4502020,
@@ -4116,6 +4264,7 @@
    "t1_ms": 4541280,
    "speaker": "Operator",
    "text": "color. Brian, thanks for taking my questions. Thank you. We'll move on now to Vivek Janasia",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4532340,
@@ -4131,6 +4280,7 @@
    "t1_ms": 4561040,
    "speaker": "Analyst",
    "text": "with JP Morgan. Your line is open. Thanks. I want to follow up on two questions. Let me start with the first one. Brian and Alistair, the question that was just asked on the TCE ratio, how firm is that 6%? How much are you willing to let that go down? And under what",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4541280,
@@ -4154,6 +4304,7 @@
    "t1_ms": 4604080,
    "speaker": "Management",
    "text": "environments? It may drift down with outsized growth and 5.99 is not. It's much more flexible around that. But the real thing we talked about Vivek earlier in the call in multiple cases is there's lots of metrics around capital. We're waiting for the new capital rules. Alistair said that multiple times to ensure what happens there and it's interfaced between the two that you've got to work through. TCE, there is lots of optimization, a billion dollars worth,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4561040,
@@ -4185,6 +4336,7 @@
    "t1_ms": 4637940,
    "speaker": "Management",
    "text": "and a lot of that not needed for liquidity and a runoff of the growth within the balance sheet and push the efficiency of balance sheet up. And so that metric will not constrain our ability to continue the consistent buyback dividends business. Thanks on that one. Let",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4604080,
@@ -4208,6 +4360,7 @@
    "t1_ms": 4677860,
    "speaker": "Analyst",
    "text": "me just turn to the second one that I want to follow up on. As Erica mentioned earlier, there's a confidence issue which is reflecting their stock down over 7% this morning. Brian, it's obviously a surprise when you talked on the January 25 call, you talked about how everything was already in the run rate for fixing this issue, the AML issue. Yet clearly, you had a huge charge this morning. It's not that you can't absorb a billion too, but obviously it's a reputational and confidence issue. What should we think about? How should we get confidence that this is really in the run rate? Is there a timeline that you can give us some",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4637940,
@@ -4247,6 +4400,7 @@
    "t1_ms": 4694740,
    "speaker": "Analyst",
    "text": "that we should look to would give us some update on how far you've had a deliverable that was due and it is meeting requirements? What is that next timeline so we know that it's actually now truly behind us as opposed to the risk of more charges or more expenses?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4677860,
@@ -4270,6 +4424,7 @@
    "t1_ms": 4736260,
    "speaker": "Management",
    "text": "We just resolved the, if you look at the cost across all the quarters, basically, 18.5-ish is the last three quarters, 18.6 down to 18.5 and we're telling this relatively flat. So it's in the run rate. It's thousands of people, repositioned people from other units as we get the efficiencies to this and then they'll let the headcount drain down. And so, you know, it's in the run rate. You can see, and I just gave some statistics to one of your colleagues. So we're very confident that we're on the course. The key was to get agreement to",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4695700,
@@ -4305,6 +4460,7 @@
    "t1_ms": 4778940,
    "speaker": "Management",
    "text": "what the resolution was and that we have. We went back and forth on that a little bit earlier. We file a lot of SARS, et cetera, and we just had to be clear about what the metrics they were, modify the programs and- Thank you. Thank you. We'll move on now to Glenn Shore with Evercore ISI. Your line is open. Hi there. Thanks. Follow up on the fixed income",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4736260,
@@ -4332,6 +4488,7 @@
    "t1_ms": 4822900,
    "speaker": "Management",
    "text": "markets front. I do think you have a great corporate munis and mortgage business and the rate move was weird in the quarter. I get all that. So my question is, have you been pushing to build rates, currencies and commodities to be as big and broad as the other, as the micro franchises, just so you don't have this imbalance from time to time that will always happen in markets? Well, I should have said that earlier, Glenn. I mean, I feel like that's been a- We've started to lay it out over the course of the past two or three years. If you date back a while ago, Jimmy first started talking about we want to fill the gaps in our franchise,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4778940,
@@ -4371,6 +4528,7 @@
    "t1_ms": 4864860,
    "speaker": "Management",
    "text": "investing in people and technology. Trying to do is take the strengths that we have, use those, continue to add some other pieces. So, you know, we happen to have a bigger fixed income shop than we do equities. We know we can continue to invest in the equities business. As you point out, we feel like we can continue to do more with clients around the world in rates and foreign exchange and commodities. So this is one of the reasons that we stood up at investor day and said we see growth in all of our lines of business and contributor to us. And we've got pretty good growth opportunities in those areas. So yes is the answer. We've",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4822900,
@@ -4410,6 +4568,7 @@
    "t1_ms": 4868220,
    "speaker": "Management",
    "text": "known that for a while. We continue to invest there and I think you should expect to see us",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4864860,
@@ -4425,6 +4584,7 @@
    "t1_ms": 4886050,
    "speaker": "Operator",
    "text": "continue to grow. Okay. I appreciate that. Thank you. Thank you. We'll move on now to Gerard Cassidy of RBC Capital Markets. Your line is open. Thank you. Hi, Brian. Hi, Alastair.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4868220,
@@ -4444,6 +4604,7 @@
    "t1_ms": 4916530,
    "speaker": "Analyst",
    "text": "Hi there. Can you guys share with us, I noticed in your credit area, asset quality, I think it's slide 12, you show us the reservable criticized utilized exposure, about 19.9 billion down 25% year over year. Can you share with us the trends that drove that number lower? I know, Alastair, you talked about the consumer credits in great shape. We all see that. But what's driving these numbers this way? And you think those trends",
+   "name": "Gerard Cassidy, RBC Capital Markets",
    "parts": [
     {
      "t0_ms": 4886690,
@@ -4475,6 +4636,7 @@
    "t1_ms": 4960900,
    "speaker": "Management",
    "text": "continue into the 27th? Well, I think we've done across the commercial loan categories. And we've got pretty broad based improvement. I'd say, you know, one of the bigger areas of improvement over the course of the past year has been commercial. We're at the very tail end of that now. The res crit is, I think, down 50 or 60% in that one area. So that's been an important contributor. But when you're talking about a decline like this, i.e. an improvement like this in res crit, it's obviously broad based. It's helped a great deal that the consumer",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4916530,
@@ -4510,6 +4672,7 @@
    "t1_ms": 5002000,
    "speaker": "Management",
    "text": "is so strong and that the economy is strong. So that is just another piece of that evidence Gerard that the economy is in good place at this point. In terms of 2027, I'd say this res crit number is pretty low relative to even pre-COVID numbers. I think this is the lowest we've had since COVID. So can it improve? Yes. But if you look at the charge-offs today in commercial, they're at 220 million for the quarter. So can they go a lot lower? I mean, maybe a little lower. Good about 2027. We don't necessarily see any change right now to the underlying",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 4960900,
@@ -4545,6 +4708,7 @@
    "t1_ms": 5009710,
    "speaker": "Management",
    "text": "credit quality, but it's a really low number at this point. Very good. And then as a follow-up,",
+   "name": "Alastair Borthwick, CFO",
    "parts": [
     {
      "t0_ms": 5002000,
@@ -4560,6 +4724,7 @@
    "t1_ms": 5052590,
    "speaker": "Analyst",
    "text": "I know this is not necessarily an easy question to answer, but clearly the economy, and we're all benefiting from the boom in AI and capital expenditures we all see about the hyperscalers, what they're spending. Have you guys been able to get your arms or frame out? What kind of indirect exposure Bank of America might have to the food service companies that are going out to these sites that are being built or the lodging owners that are housing people that are building these sites? Is there any secondary derivative analysis that you guys can do so that when the AI boom slows down, those businesses probably will be impacted at",
+   "name": "Gerard Cassidy, RBC Capital Markets",
    "parts": [
     {
      "t0_ms": 5009710,
@@ -4599,6 +4764,7 @@
    "t1_ms": 5087900,
    "speaker": "Management",
    "text": "some point. Any thoughts on that? I think, Gerard, the last part of your question kind of hits the point, which is if a chunk of growth, and the question of how big it is, you can get different economists and different people to argue going on this year. And I think",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5052590,
@@ -4622,6 +4788,7 @@
    "t1_ms": 5130620,
    "speaker": "Management",
    "text": "right now the nominal economy growing five percent plus about new claims for unemployment, 190 something, which is lower nominally than prior to the pandemic. We're always looking about",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5087900,
@@ -4641,6 +4808,7 @@
    "t1_ms": 5171810,
    "speaker": "Management",
    "text": "in terms of where the revenues come from that they're beholden to, and if those change, how does that affect them as part of the underwriting? What's in the account? And you know our credit quality is something in the commercial side and the consumer side both, but it's better. Commercial real estate, remember a few true because the underlying underwriting we",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5130620,
@@ -4668,6 +4836,7 @@
    "t1_ms": 5180910,
    "speaker": "Management",
    "text": "do is strong. Thank you, Nell. I'm proud to have seen you guys at BAB in November in Boston.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5171810,
@@ -4683,6 +4852,7 @@
    "t1_ms": 5194340,
    "speaker": "Operator",
    "text": "Thank you, Brian. Thank you, Nell. Thank you. Thank you. At this time, there are no further questions in queue. I will now turn the meeting over to Brian Moynihan. So I want to thank all",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5180910,
@@ -4702,6 +4872,7 @@
    "t1_ms": 5232140,
    "speaker": "Management",
    "text": "of you. Just as you think about themes for the quarter, the key is we resolved the government discussion in the AML area. Third quarter, the expenses are in the run rate. Secondly, well, the Marcus activity's fixed income hit us. We still made a lot of money trading this quarter. We made it for very few days with low revenues, so we feel very good about it. As we look forward, as Alistair said, we expect that we may not see quite the seasonal drop we've seen. But the key",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5194340,
@@ -4733,6 +4904,7 @@
    "t1_ms": 5265360,
    "speaker": "Management",
    "text": "normalized base, we earned $8 billion plus, $3.5 billion in the consumer business, $2 billion in the commercial lending business, $1.5 billion in the wealth management business, all of which had strong deposits. Thank you. And we continue to drive this company for the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5236240,
@@ -4756,6 +4928,7 @@
    "t1_ms": 5276930,
    "speaker": "Operator",
    "text": "benefit of our clients. This brings us to the end of today's meeting. We appreciate your time and participation. You may now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 5265360,
@@ -8171,6 +8344,7 @@
    "quote": "We remain focused on investing where we see the best long-term returns while we continue to improve the productivity of the organization and we expect to return to",
    "adj_ret_5m": -0.017680314632641192,
    "speaker": "Management",
+   "name": "Alastair Borthwick, CFO",
    "vol_mult": 9.058590794764633,
    "spillover": "company"
   }
@@ -8184,6 +8358,7 @@
    "t0_ms": 915420,
    "speaker": "Management",
    "quote": "We remain focused on investing where we see the best long-term returns while we continue to improve the productivity of the organization and we expect to return to",
+   "name": "Alastair Borthwick, CFO",
    "metric": "Operating leverage",
    "kind": "guidance",
    "novel": true,
@@ -8216,6 +8391,7 @@
    "t0_ms": 588880,
    "speaker": "Management",
    "quote": "Despite our intentional runoff of $11 billion of higher cost deposits recorded in all other, global banking deposits grew 6% and consumer deposits increased modestly with low interest and non-interest bearing balances up nearly 3%.",
+   "name": "Alastair Borthwick, CFO",
    "metric": "global banking and consumer deposits",
    "kind": "result",
    "novel": true,
@@ -8341,7 +8517,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 11.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 1423,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 20841
+  },
+  "claude_usd": 0.0713
+ },
  "context": {
   "ts": [
    "2026-10-14T12:15:00Z",

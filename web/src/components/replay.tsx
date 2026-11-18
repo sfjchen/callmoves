@@ -48,7 +48,7 @@ function recordGuess(id: string, right: boolean): { scored: boolean; k: number; 
  */
 export default function Replay({ data: initial, baseline = false, initialRank, guess }: {
   data: CallOutput; baseline?: boolean; initialRank?: number;
-  guess?: { ms: number; quote: string; speaker: string; bench: string };
+  guess?: { ms: number; quote: string; speaker: string; name?: string | null; bench: string };
 }) {
   const [full, setFull] = useState<CallOutput | null>(null); // the whole call, fetched once the guess is in
   const [result, setResult] = useState<({ right: boolean } & ReturnType<typeof recordGuess>) | null>(null);
@@ -233,7 +233,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
             <>
               <p className="text-[15px] leading-snug">
                 <span className="font-semibold">Guess the move.</span> At {clock(new Date(start + guess.ms))} ET{" "}
-                {shortSpeaker(guess.speaker)} said &ldquo;{clip(guess.quote, 160)}&rdquo;. Over the next 5
+                {shortSpeaker(guess.speaker, guess.name)} said &ldquo;{clip(guess.quote, 160)}&rdquo;. Over the next 5
                 minutes, did {data.call.ticker} beat or trail {guess.bench}?
               </p>
               <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
@@ -270,7 +270,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 {GLYPH[dir(lead.adj_ret_5m)]} {pct(lead.adj_ret_5m)}</span>{" "}
               vs {benchLabel} in 5 min on {lead.vol_mult.toFixed(1)}x volume
               {lead.spillover && <span className="text-muted"> ({SPILL_LABEL[lead.spillover]})</span>}, after{" "}
-              {shortSpeaker(lead.speaker)} said &ldquo;{clip(lead.quote, 160)}&rdquo;
+              {shortSpeaker(lead.speaker, lead.name)} said &ldquo;{clip(lead.quote, 160)}&rdquo;
             </p>
           ) : (
             <p className="text-sm text-muted">No minute cleared the abnormal-move threshold during the call.</p>
@@ -551,7 +551,7 @@ function MomentCard({ m, atOpen, active, onSelect }: {
             {m.question && <p className="text-muted">
               <span className="font-medium">Analyst asked:</span> {m.question}</p>}
             <p>
-              <span className="font-medium">{shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
+              <span className="font-medium" title={m.speaker}>{m.name ?? shortSpeaker(m.speaker)}</span>, {m.vol_mult.toFixed(1)}x volume, adj.{" "}
               {atOpen ? "at next open" : "next 5 min"}: {pct(m.ret_5m)} raw vs{" "}
               {pct(m.bench_ret_5m ?? m.etf_ret_5m)}{" "}
               {m.bench_ret_5m != null && m.bench_ret_5m !== m.etf_ret_5m ? "benchmark" : "sector"}
@@ -625,8 +625,9 @@ function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelec
                     "text-xs font-medium mr-2 " +
                     (momentSegs.has(s.seg_id) ? "text-mark" : "text-ink")
                   }
+                  title={s.name ? s.speaker : undefined}
                 >
-                  {shortSpeaker(s.speaker)}
+                  {s.name ?? shortSpeaker(s.speaker)}
                 </span>
                 <span className="text-ink">{highlight(s.text, query)}</span>
               </span>

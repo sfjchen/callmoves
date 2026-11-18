@@ -62,7 +62,7 @@ function CallCard({ c }: { c: CallSummary }) {
         <div className="mt-2 border-t border-line pt-2">
           <div className="flex items-baseline gap-2 text-[11px] text-muted tabular">
             <span>Top moment {clock(top.ts)} ET</span>
-            {top.speaker && <span className="truncate">{shortSpeaker(top.speaker)}</span>}
+            {top.speaker && <span className="truncate">{shortSpeaker(top.speaker, top.name)}</span>}
             <span className={`ml-auto shrink-0 text-sm font-semibold ${DIR_TEXT[dir(top.adj_ret_5m)]}`}>
               {pct(top.adj_ret_5m)}</span>
             <span className="shrink-0">in 5 min</span>

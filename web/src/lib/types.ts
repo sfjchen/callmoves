@@ -13,6 +13,7 @@ export type Segment = {
   seg_id: number;
   t0_ms: number;
   speaker: string;
+  name?: string | null; // "Colette Kress, CFO" when the voice was named, speaker stays the role
   text: string;
   adj_ret_5m: number | null; // sector-adjusted return over the 5 min after the turn, as on the moment cards
 };
@@ -30,6 +31,7 @@ export type Moment = {
   ts: string;
   t0_ms: number;
   speaker: string;
+  name?: string | null;
   quote: string;
   novel: boolean;
   matched_doc: string | null;
@@ -126,6 +128,6 @@ export type CallSummary = {
   themes?: string[];
   n_moments?: number;
   spark: number[]; // cum_adj_ret over the call window, downsampled to about 60 points for the library sparkline
-  top_moment: (Pick<Moment, "ts" | "quote" | "adj_ret_5m" | "speaker"> &
+  top_moment: (Pick<Moment, "ts" | "quote" | "adj_ret_5m" | "speaker" | "name"> &
     Partial<Pick<Moment, "vol_mult" | "spillover">>) | null;
 };

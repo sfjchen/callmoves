@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-30T09:00:00-04:00",
   "etf": "XLV",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/ABBV_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/ABBV_Q3-2026.mp3",
   "company": "AbbVie",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 27720,
    "speaker": "Analyst",
    "text": "Good morning and thank you for standing by. Welcome to the ABBE third quarter 2026 earnings conference call. All participants will be able to listen only until the question and answer portion of this call. You may ask a question by pressing star one on your phone. Today's call is also being recorded. If you have any objections, you may disconnect at this time. I would now like to introduce Ms. Liz Shea, Senior Vice President, Investor Relations.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -71,6 +72,7 @@
    "t1_ms": 74360,
    "speaker": "Operator",
    "text": "Good morning and thanks for joining us. Also on the call with me today are Rob Michael, Chairman and Chief Executive Officer, Jeff Stewart, Executive Vice President, Chief Commercial Officer, Rupal Thakkar, Executive Vice President, Research and Development, Chief Scientific Officer, and Scott Rents, Executive Vice President, Chief Financial Officer. Before we get started, I'll note that some statements we make today may be considered forward-looking statements based on our current expectations. ABBE cautions that these forward-looking statements are subject to risks and uncertainties that may cause actual results for the company or the company itself. We would like to differ materially from those indicated in our forward-looking statements. Additional information about these risks and uncertainties is included in our SEC filings. ABBE undertakes no obligation to update these forward-looking statements",
+   "name": null,
    "parts": [
     {
      "t0_ms": 30440,
@@ -174,6 +176,7 @@
    "t1_ms": 97640,
    "speaker": "Operator",
    "text": "except as required by law. On today's conference call, non-GAAP financial measures will be used to help investors understand ABBE's business performance. These non-GAAP financial measures are reconciled with comparable GAAP financial measures in our earnings release and regulatory filings from today, which can be found on our website. Following our prepared remarks, we'll take your questions. So with that, I'll turn the call over to Rob.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 74360,
@@ -229,6 +232,7 @@
    "t1_ms": 141770,
    "speaker": "Management",
    "text": "Thank you, Liz. Good morning, everyone, and thank you for joining us. ABBE continues to perform above our expectations with another quarter of outstanding results. We are delivering top-tier sales and earnings growth and making significant progress advancing our pipeline. Given the strength of our business and our promising opportunity, we are once again raising our full-year guidance and increasing our quarterly dividend. Turning to our third-quarter performance, we achieved adjusted earnings per share of $3.82, which is 7 cents above our guidance midpoint.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 98000,
@@ -296,6 +300,7 @@
    "t1_ms": 186450,
    "speaker": "Management",
    "text": "Total net revenues were $17.4 billion, beating our expectations by $200 million and reflecting robust sales growth of more than 10%. This includes nine key products that delivered double-digit growth. Based on the strong performance across our business, including SkyRizzy, Renvoke, Braylar, Ubrelvi, Qlypta, and BenClexa, we are raising our full-year revenue guidance by $200 million and have now raised total revenue by $800 million since the start of the year. Further underscoring our confidence in our long-term business, we are raising our quarterly cash dividend. In addition to our long-term outlook,",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 142730,
@@ -367,6 +372,7 @@
    "t1_ms": 231090,
    "speaker": "Management",
    "text": "today we announced a 5.2% increase in our quarterly cash dividend, beginning with the dividend payable in February 2027. Since inception, we have grown our quarterly dividend by more than 350%. Turning now to R&D, we are making excellent progress advancing our pipeline to help drive growth in the 2030s and beyond. In immunology, we completed the acquisition of Apogee Therapeutics, adding multiple differentiated assets in dermatology, respiratory, and other related inflammatory diseases with significant sales potential.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 186450,
@@ -430,6 +436,7 @@
    "t1_ms": 276750,
    "speaker": "Management",
    "text": "The lead asset, Zumilokibar, will be starting Phase III development in atopic dermatitis later this year. Also in immunology, we received U.S. approval for SkyRizzy sub-Q induction in Crohn's. This new dosing option demonstrated exceptional efficacy and further strengthens SkyRizzy's robust growth outlook. We also continue to make substantial progress with our strategy to combine SkyRizzy with complementary mechanisms to further elevate the standard of care for patients with IBD. We have now started a large Phase IIB program in both Crohn's and U.C., with SkyRizzy Plus our own theme product, the U.C. program,",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 231890,
@@ -497,6 +504,7 @@
    "t1_ms": 318530,
    "speaker": "Management",
    "text": "alpha-4-beta-7-382, as well as SkyRizzi plus our TL1A-701. Moving to neuroscience, we recently expanded our Parkinson's portfolio with the FDA approval of Juvemo. Juvemo provides physicians and patients with a meaningful new treatment option and represents a sizable commercial opportunity for AbbVie. Along with Vylev and Duopa, we expect our Parkinson's therapies to collectively deliver peak sales of more than $5 billion. We are also making excellent progress with our oncology pipeline.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 276750,
@@ -532,6 +540,7 @@
    "t1_ms": 362190,
    "speaker": "Management",
    "text": "Etensimig and multiple myeloma has demonstrated very high efficacy, as well as differentiated safety and convenience. We have now submitted our application for Etensimig in the U.S. and anticipate approval in 2027. In addition, we reported positive Phase III data for Epkinley in frontline DLBCL and expect regulatory submission next year. In summary, we are delivering strong execution across our business and see numerous opportunities to drive long-term growth. With that, I'll turn the call over to Jeff for additional comments on our commercial highlights. Jeff?",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 319610,
@@ -571,6 +580,7 @@
    "t1_ms": 395810,
    "speaker": "Management",
    "text": "Thank you, Rob. I'll start with the quarterly results for immunology, which delivered total revenues approaching $9.2 billion, reflecting operational sales growth of 16.6%. Skyrizzy and RINVO continue to exceed our expectations, demonstrating robust growth across all indications. Skyrizzy total sales were nearly $5.8 billion, up 22.9% on an operational basis. In psoriasis, Skyrizzy prescription trends remain very strong. Recent oral competition is not having as substantial an impact on the overall health of our patients as it did in the past.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 362450,
@@ -606,6 +616,7 @@
    "t1_ms": 438290,
    "speaker": "Management",
    "text": "We believe that Skyrizzy's best-in-class profile, which delivers 100% skin clearance for the majority of psoriasis patients, high durability of response, very convenient quarterly dosing, exceptional long-term safety, and robust joint protection in psoriatic arthritis with strong data through five years of treatment. This is a very high bar relative to other therapies on the market or in development for psoriasis. In IBD, Skyrizzy is growing very robustly as well and continues to capture half of the new",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 395830,
@@ -641,6 +652,7 @@
    "t1_ms": 478490,
    "speaker": "Management",
    "text": "patient starts in the class. And we are very excited to be launching the subcutaneous induction dosing for Crohn's disease, which further strengthens our competitive position. The data supporting this new delivery is striking, including impressive rates of endoscopic response and remission. We are also very excited to be launching the subcutaneous induction dosing for Crohn's disease, which further strengthens our competitive position. This efficacy is clearly differentiated relative to our own Skyrizzy IV formulation and will allow us to be very competitive versus all induction therapies available for Crohn's today. Our sub-Q induction regimen is delivered with the same on-body injector as our IBD maintenance dose,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 438290,
@@ -688,6 +700,7 @@
    "t1_ms": 521789,
    "speaker": "Management",
    "text": "which has received very favorable feedback from gastroenterologists and patients both, including overall ease of use. We are also very excited to be launching the sub-Q induction dosing for Crohn's disease, which further strengthens our competitive position. Now, while access typically takes a couple months to ramp, our commercial and medical teams have already hit the ground running, and we expect the sub-Q induction will accelerate our new patient share in Crohn's over the next several quarters. Overall, we remain very competitively positioned in gastro and psoriatic disease. We are raising our Skyrizzy full-year sales guidance for the third time this year, and we see a substantial opportunity for both market and share growth well into the next few years. We are also looking forward to the next decade. Turning now to RINVOC, which delivered global sales of $2.7 billion,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 478490,
@@ -751,6 +764,7 @@
    "t1_ms": 564410,
    "speaker": "Management",
    "text": "reflecting operational growth of 24.3%. RINVOC is also exceeding our expectations with particularly strong momentum in both RA and IBD, where we continue to see growing in-play patient share. We are also excited for the indication expansion opportunities in dermatology, with commercialization of RINVOC for vitiligo and alopecia areata, underway already in Europe, and approvals expected for both diseases in the U.S. over the next several months. Recall these two new indications combined are expected to contribute nearly $2 billion of peak sales. Lastly, in immunology, Humira global sales were $683 million,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 522250,
@@ -798,6 +812,7 @@
    "t1_ms": 605790,
    "speaker": "Management",
    "text": "down 30.6% on an operational basis, reflecting continued biosimilar competition. Moving to neuroscience, where we continue to outperform expectations, across our leading portfolio, total revenues were nearly $3.4 billion, up 19.5% on an operational basis. In psychiatry, Vrelar global sales were nearly $1.1 billion, up 14.3%. Performance in both bipolar disorder and adjunctive MDD continues to be very strong, reflecting Vrelar's well-defined profile in terms of dosing flexibility, low sedation, and the ability to treat a full spectrum of symptoms.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 564690,
@@ -841,6 +856,7 @@
    "t1_ms": 646310,
    "speaker": "Management",
    "text": "In migraine, we continue to deliver robust sales growth, driven by share gains and underlying market growth as well. Botox therapeutic global revenues were approximately $1.1 billion, up 9.8%. Ubrelvi global sales were $449 million, up 26.9%, and QLipta global revenues were $398 million, up more than 38%. Menstrual migraine prevention represents another opportunity, to further strengthen our leading CGRP profiles. Recent positive data for QLipta and forthcoming results for Ubrelvi in this new potential indication",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 605830,
@@ -884,6 +900,7 @@
    "t1_ms": 689830,
    "speaker": "Management",
    "text": "could support approval and commercialization in late 2027. We also have substantial momentum in Parkinson's disease. Vylev total sales were $286 million, reflecting double-digit growth. We remain on track to exceed $1 billion in revenue this year. We are also launching Juvmo, another exciting new treatment for patients with Parkinson's. Juvmo selectively activates the D1, D5 dopamine receptors involved in motor control, and can be prescribed now as both a monotherapy in Parkinson's, as well as an add-on to standard of care. And given Juvmo's distinct profile, including strong durable motor control",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 646310,
@@ -931,6 +948,7 @@
    "t1_ms": 734830,
    "speaker": "Management",
    "text": "and low rates of debilitating side effects, such as impulse control disorder, somnolence and dyskinesia, it represents a sizable commercial opportunity. Sales for Juvmo are expected to ramp gradually over the next several quarters as we work to establish commercial and Medicare coverage, which is expected to be more broadly available starting in 2028. Turning now to oncology, where total revenues were $1.7 billion, up 0.9% on an operational basis. Van Clexte is performing very well, especially in CLL as combination use with BTK, which is a preferred fixed duration treatment globally. Total sales were $803 million, up 10.7%.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 689830,
@@ -982,6 +1000,7 @@
    "t1_ms": 778830,
    "speaker": "Management",
    "text": "Continued double-digit sales growth from Elahir and Epkinley also helped to offset the expected revenue decline for Imbruvica, which was down 26.1% due to IRA pricing and competitive share pressure. I'm also very excited for our developing portfolio in hematology, following positive data for both intensive care and long-term care. I'm also excited for our developing portfolio in hematology, following positive data for both intensive care and long-term care. We anticipate their potential approvals will be an important catalyst for next year and immediately supported by our existing commercial resources, including a substantial heme sales force and medical affairs team. Lastly, in aesthetics, global sales were nearly $1.2 billion,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 734830,
@@ -1037,6 +1056,7 @@
    "t1_ms": 821830,
    "speaker": "Management",
    "text": "down 1.8% on an operational basis. Botox cosmetic total revenues were $669 million, up 4.1% operationally, reflecting improving market growth globally. Juvederm global sales were $222 million, down 11.8% operationally, reflecting continued headwinds in key dermal filler markets. While economic uncertainty and lower consumer confidence have pressured the aesthetics category over the last several quarters, we are starting to see signs of stability. And we think that bringing forward innovation, like our new fast-acting, short-duration toxin, Bowie, represents a meaningful opportunity for more new patients to initiate an aesthetic treatment.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 778830,
@@ -1092,6 +1112,7 @@
    "t1_ms": 865830,
    "speaker": "Management",
    "text": "The commercial rollout of Bowie is now underway in Europe and Canada, and patient satisfaction has been very high, particularly with the rapid onset, which is consistent with the data from our clinical program. So overall, I'm very pleased with the execution and the continued strong performance across our commercial portfolio. And now I'll turn the call over to Rupal for comments on our R&D highlights. Rupal? Thank you, Jeff. I'll begin with gastroenterology programs in immunology. We further strengthened our leadership position in inflammatory bowel disease with the FDA approval of Skyrizzy subcutaneous induction in Crohn's disease, which was based on the Phase III AFFIRM study.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 821830,
@@ -1151,6 +1172,7 @@
    "t1_ms": 909830,
    "speaker": "Management",
    "text": "Detailed results from this trial were presented at the recent ACG and UEG meetings, demonstrating exceptional results across all clinical and endoscopic measures. We are extremely pleased with Skyrizzy's strong performance, particularly in patients who had not previously experienced advanced therapy. In this patient segment, unprecedented results were observed after just 16 weeks of therapy, with 60% endoscopic response, 43% endoscopic remission, and 74% for clinical remission. These results highlight the potential of subcutaneous induction",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 865830,
@@ -1194,6 +1216,7 @@
    "t1_ms": 951870,
    "speaker": "Management",
    "text": "to further enhance Skyrizzy's position in earlier lines of Crohn's disease. Additionally, the Skyrizzy label was updated to provide healthcare providers greater discretion in determining whether tuberculosis evaluation is appropriate prior to treatment initiation, rather than requiring mandatory subcutaneous TB evaluation for all patients. Also at the UEG conference, results were presented from the Phase II target CD study evaluating Skyrizzy plus our novel anti-alpha-4-beta-7 antibody, ABBV382, in Crohn's disease.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 909830,
@@ -1237,6 +1260,7 @@
    "t1_ms": 994870,
    "speaker": "Management",
    "text": "The combination resulted in a near doubling of endoscopic remission at week 24 compared to either monotherapy. Additionally, gut gene expression was improved, and gut gene expression data showed a clear improvement from active disease at baseline to early intestinal healing at week 12, followed by broader tissue restoration at week 24. Early changes reflected repair of the intestinal lining and restoration of the gut barrier, effects not observed with monotherapy. By week 24, these changes evolved into signatures associated with tissue repair, nerve recovery, and normalization of metabolic function.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 951870,
@@ -1288,6 +1312,7 @@
    "t1_ms": 1039250,
    "speaker": "Management",
    "text": "We believe this progression from inflammation to healing, and ultimately tissue restoration, may represent an important step toward modifying the underlying disease, rather than simply controlling symptoms. These results support our strategy of combining Skyrizzy with complementary mechanisms to achieve meaningfully higher levels of efficacy in IBD. A large multi-arm phase 2b trial is underway evaluating Skyrizzy plus 382 and Skyrizzy plus 701, an extended half-life anti-TL1a antibody, in both Crohn's disease and ulcerative colitis.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 994870,
@@ -1331,6 +1356,7 @@
    "t1_ms": 1082070,
    "speaker": "Management",
    "text": "In parallel, co-formulation work is ongoing in preparation for phase 3 trials. Moving to dermatology, positive top-line results were recently announced from a phase 3 study evaluating ludicizumab in Hidradenitis suppurativa. At week 16, ludicizumab demonstrated statistically significant and clinically meaningful improvements across multiple measures of disease activity. High score 75, which is a rigorous bar for defining clinical response, was achieved by 31% of ludicizumab patients. Ludicizumab also significantly improved skin pain,",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1039250,
@@ -1374,6 +1400,7 @@
    "t1_ms": 1121070,
    "speaker": "Management",
    "text": "disease flares, and quality of life measures, with improvement in pain reported as early as week 1. HS remains one of the most underserved diseases in dermatology, and these results support ludicizumab's potential to become an important new treatment option for patients with HS. Results from the 36-week blinded extension period will be available next year, with regulatory submissions to follow. In the second half of 2027. Based on these results, we plan to begin an HS platform study later this year",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1082070,
@@ -1421,6 +1448,7 @@
    "t1_ms": 1165730,
    "speaker": "Management",
    "text": "to evaluate ludicizumab in combination with our long-acting amylin analog 295. Other mechanisms, such as anti-TL1A antibody, are also being considered. The phase 3 program for RENVOQ in HS is also nearing completion, where we remain on track for 16-week top-line results near the end of the year. Moving to atopic dermatitis, zumilocobart phase 2 results were presented at the EADV Congress, demonstrating rapid and meaningful skin clearance and itch relief. Phase 3 studies are on track to begin later this year.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1121070,
@@ -1464,6 +1492,7 @@
    "t1_ms": 1208730,
    "speaker": "Management",
    "text": "Turning to neuroscience, where in the third quarter, juvmo was approved by the FDA for Parkinson's disease. Dopamine agonists have long been used to help manage symptoms and reduce reliance on oral levodopa escalation. However, currently available agents primarily target D2, D3 receptors, and their use has been limited by adverse events. As a selective D1, D5 receptor agonist, juvmo demonstrated strong motor control and a favorable tolerability profile, with low rates of dyskinesia, sedation, and impulse control disorder, which have historically impacted the use of dopamine agonists.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1165730,
@@ -1519,6 +1548,7 @@
    "t1_ms": 1251640,
    "speaker": "Management",
    "text": "Additionally, long-term data continue to support a reduced reliance on oral levodopa when taking juvmo. After more than a year and a half on juvmo, 93% of patients had not increased their levodopa dose, and 94% of patients with early Parkinson's disease had not started oral levodopa. Physicians and patients now have a treatment option that targets dopamine pathways differently and may reduce the difficult tradeoffs associated with D2, D3 agonists. In psychiatry, the amiraclidine dose escalation study has completed.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1208730,
@@ -1566,6 +1596,7 @@
    "t1_ms": 1296640,
    "speaker": "Management",
    "text": "The 150 mg dose will be utilized in the monotherapy and adjunctive phase 2 studies in schizophrenia, with enrollment expected to begin by the end of this year. This new dose is five times the highest dose evaluated in the previous two pivotal trials. The 150 mg dose was well tolerated, and no new safety signals were identified. We look forward to advancing this higher dose for schizophrenia, which may result in greater efficacy compared to prior studies. Doses have also been selected for the psychosis program, where phase 2 studies in Alzheimer's and Parkinson's disease are expected to begin early next year.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1251640,
@@ -1625,6 +1656,7 @@
    "t1_ms": 1339460,
    "speaker": "Management",
    "text": "Moving to our psychedelic acid, reticillin, a phase 3 trial evaluating a single course acute treatment in major depressive disorder is expected to begin later this year. We also remain on track for additional phase 2 data in monotherapy MDD by year end, which will help inform the phase 2 study evaluating repeat dosing for chronic use. This MDD study has a long history. As well as phase 2 proof of concepts in post-traumatic stress, generalized anxiety, and obsessive-compulsive disorders are expected to begin in 2027.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1296640,
@@ -1676,6 +1708,7 @@
    "t1_ms": 1379460,
    "speaker": "Management",
    "text": "In migraine, positive top-line results were announced from the phase 3 LUNA study, which evaluated QLIPTA for the preventive treatment of menstrual migraine. No medicines are currently approved for menstrual migraine attacks, which are considered more difficult to treat, more disabling, tend to last longer, and have a higher tendency to recur. This underscores the need for effective treatment strategies for this distinct disorder. In the LUNA trial, QLIPTA demonstrated meaningful and statistically significant reductions in migraine days associated with the menstrual period,",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1339460,
@@ -1731,6 +1764,7 @@
    "t1_ms": 1421800,
    "speaker": "Management",
    "text": "meeting the primary and all eight ranked secondary endpoints versus placebo. A regulatory application will be submitted soon in Europe. Additionally, phase 3 results for UBrelvi in menstrual migraine prevention are expected near the end of the year, which will potentially support a submission in the U.S. in early 2027. Moving to hematologic oncology, positive top-line results were announced from the phase 3 Cervino trial evaluating Atentimig monotherapy versus standard of care, in heavily pretreated, triple-class exposed multiple myeloma patients.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1379460,
@@ -1778,6 +1812,7 @@
    "t1_ms": 1462430,
    "speaker": "Management",
    "text": "Atentimig delivered statistically significant and clinically meaningful improvements in progression-free survival and overall response rates, with a manageable safety profile, supporting its potential to become an important new treatment option for multiple myeloma. BCMA-directed bispecifics and CAR-T therapies have transformed multiple myeloma treatment. However, their adoption, particularly among community-based centers, remains limited by adverse events such as CRS, neurotoxicity, and serious infections, as well as the need for specialized monitoring.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1421800,
@@ -1833,6 +1868,7 @@
    "t1_ms": 1505430,
    "speaker": "Management",
    "text": "With a differentiated safety profile, simplified onboarding, and a more convenient once-monthly dosing schedule after a single step-up dose, Atentimig has the potential to streamline treatment and expand access across settings, including community-based clinics. A regulatory application was recently submitted to the FDA, with an approval decision anticipated next year. Beyond the Cervino program, two new phase 3 trials were recently initiated for Atentimig, one in combination with pomalidomide in second-line plus multiple myeloma, and another as a monotherapy in patients with newly diagnosed,",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1462430,
@@ -1892,6 +1928,7 @@
    "t1_ms": 1549940,
    "speaker": "Management",
    "text": "light-chain amyloidosis. And at the upcoming ASH meeting, early results from a phase 2 study evaluating Atentimig plus daratumumab in frail, transplant-ineligible front-line multiple myeloma will be presented, with a third phase 3 study potentially starting next year. Continuing with other HEMONC programs, positive top-line results were announced from the phase 3 core DLBCL2 trial evaluating Epkinley in combination with RCHOP in front-line DLBCL. The study demonstrated a statistically significant and clinically meaningful improvement in progression-free survival",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1505430,
@@ -1951,6 +1988,7 @@
    "t1_ms": 1593340,
    "speaker": "Management",
    "text": "compared to RCHOP alone. Epkinley plus RCHOP showed an overwhelming treatment benefit at this interim analysis, reducing the risk of disease progression or death by 51% in a broad population covering patients with international prognostic index scores between 2 and 5. Importantly, this is the first phase 3 study with a bispecific antibody combination to demonstrate a progression-free survival benefit in front-line DLBCL2. Supporting the potential for Epkinley plus RCHOP to become a new standard of care in this setting, regulatory submissions are anticipated early next year.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1549940,
@@ -2018,6 +2056,7 @@
    "t1_ms": 1635330,
    "speaker": "Management",
    "text": "Turning to solid tumors, at the World Conference on Lung Cancer, results from a phase 1 study evaluating our PD-1 VEGF bispecific antibody, ABBV1480, in front-line non-small cell lung cancer were presented. These early data were particularly encouraging given the activity observed in PD-L1 negative patients, a group which has traditionally been more difficult to treat. A phase 3 study was recently initiated to evaluate the ADC in combination with chemotherapy in front-line squamous and non-squamous small cell lung cancer.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1593340,
@@ -2073,6 +2112,7 @@
    "t1_ms": 1678370,
    "speaker": "Management",
    "text": "We also intend to move quickly to evaluate 1480 in combination with our ADCs across several tumor types. Two phase 2 studies evaluating 1480 plus TMAB-A were recently initiated, one in non-small cell lung cancer and another in colorectal cancer. And a phase 2 combination study with ABBV706, our SES6 ADC, will begin next year in small cell lung cancer. Moving to obesity, detailed results were presented at EASD from a phase 1 multiple ascending dose study evaluating ABBV295",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1635330,
@@ -2136,6 +2176,7 @@
    "t1_ms": 1721620,
    "speaker": "Management",
    "text": "in adults with a mean BMI of less than 30. We continue to be encouraged by the emerging profile for this long-acting amylin amyloid. In the study, 295 demonstrated meaningful weight loss across multiple dosing regimens, a manageable tolerability profile, and a PK profile that supports potentially differentiating dosing intervals of every other week or monthly. A phase 1B study in obese patients is ongoing with interim data anticipated around the end of this year. Additionally, a phase 2 trial in obese patients was recently initiated. Turning to aesthetics,",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1678370,
@@ -2199,6 +2240,7 @@
    "t1_ms": 1762860,
    "speaker": "Management",
    "text": "we continue to work closely with the FDA to resolve outstanding matters related to the complete response letter for BOE. Resubmission to the FDA is anticipated before the end of this year, with a regulatory decision expected in mid-2027. Additionally, we are exploring a combination of Botox with BOE, which has the potential to deliver differentiated efficacy by combining the rapid onset of BOE with the durable effects of Botox. A phase 2 study recently began to evaluate this combination in glabellar lines. In summary, we continue to make meaningful progress",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 1721620,
@@ -2258,6 +2300,7 @@
    "t1_ms": 1804340,
    "speaker": "Management",
    "text": "across all stages and therapeutic areas of our pipeline and look forward to several more important pipeline milestones during the remainder of this year and into 2027. With that, I'll turn the call over to Scott. Thank you, Rupal. Starting with our third quarter results, we reported adjusted earnings per share of $3.82, which is 7 cents above our guidance midpoint. These results include an 11-cent unfavorable impact from acquired IPR&D expense. Total net revenues were $17.4 billion,",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1762860,
@@ -2313,6 +2356,7 @@
    "t1_ms": 1845710,
    "speaker": "Management",
    "text": "reflecting robust operational growth of 10.5%, excluding a 0.2% unfavorable impact from foreign exchange. Adjusted gross margin was 85.1% of sales. Adjusted R&D expense was 13.9% of sales. And adjusted SG&A expense was 21.2% of sales. The adjusted operating margin was 48.7% of sales, which includes a 1.2% unfavorable impact from acquired IPR&D expense. Adjusted net interest expense was $688 million.",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1804340,
@@ -2360,6 +2404,7 @@
    "t1_ms": 1886090,
    "speaker": "Management",
    "text": "The adjusted tax rate was 13.6%. Turning to our financial outlook, we are raising our full-year adjusted earnings per share guidance range by 11 cents at the midpoint to between $13.95 and $13.99. This guidance does not include acquired IPR&D expense that may be incurred beyond the threshold. We expect a total net revenue of approximately $67.8 billion, an increase of $200 million. At current rates, we continue to expect a roughly 0.5% favorable impact",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1845710,
@@ -2411,6 +2456,7 @@
    "t1_ms": 1927390,
    "speaker": "Management",
    "text": "from foreign exchange on full-year sales growth. Our revenue forecast now includes the following approximate assumptions for several of our key products and therapeutic areas. For immunology, we expect a total net revenue of $12.5 billion, we are increasing our global sales outlook to $34.9 billion. This assumes SkyRizzy revenue of $21.8 billion and Renvoke revenue of $10.3 billion, reflecting increases for both brands based on continued strong momentum. In neuroscience, we now anticipate global revenues of $13 billion",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1886090,
@@ -2458,6 +2504,7 @@
    "t1_ms": 1969390,
    "speaker": "Management",
    "text": "and increase of $300 million, reflecting Braylar sales of $4.2 billion, Botox therapeutic sales of $4.2 billion, and total oral CGRP sales of $3.1 billion. For oncology, we are raising our global sales guidance to $6.6 billion. This now contemplates higher Venclexta sales of $3.1 billion, as well as lower Imbruvica sales of $2.1 billion. In aesthetics, our global sales outlook remains unchanged at $5 billion and now assumes higher Botox cosmetic sales of $2.8 billion,",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1927390,
@@ -2501,6 +2548,7 @@
    "t1_ms": 2012670,
    "speaker": "Management",
    "text": "offset by lower expected revenues across products and other aesthetics. Moving to the P&L for 2026, we continue to forecast full-year adjusted gross margin above 84% of sales, adjusted R&D expense of approximately $9.8 billion, and adjusted SG&A expense of approximately $14.5 billion. We also anticipate an adjusted operating margin of approximately 46.7% of sales, which includes a roughly 1.8% unfavorable impact from acquired IPR&D expense incurred through the third quarter.",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 1970050,
@@ -2544,6 +2592,7 @@
    "t1_ms": 2051440,
    "speaker": "Management",
    "text": "Turning to the fourth quarter, we anticipate net revenues of approximately $18.4 billion, which includes a modestly unfavorable impact from foreign exchange. We also forecast adjusted earnings per share between $3.83 and $3.87. This guidance does not include acquired IPR&D expense that may be incurred in the quarter. Finally, AbbVie's strong business performance continues to support our capital allocation priorities. Our cash balance at the end of September was $10.8 billion,",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 2012670,
@@ -2579,6 +2628,7 @@
    "t1_ms": 2092440,
    "speaker": "Management",
    "text": "and we generated approximately $14 billion of free cash flow in the first nine months of the year, which includes nearly $2.7 billion of SkyBrizzy royalty payments. This robust free cash flow supports a strong and growing quarterly dividend, which we are increasing 5.2% to $1.82 per share, beginning with a dividend payable in February of 2027, as well as capacity. We are also increasing our capacity for additional business development, where we continue to assess external innovation across all of our key growth areas. Following the recent close of the Apigee transaction,",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 2051440,
@@ -2626,6 +2676,7 @@
    "t1_ms": 2110440,
    "speaker": "Management",
    "text": "we remain on track to achieve a net leverage ratio of two times over the next two to three years. In closing, AbbVie has once again delivered outstanding top and bottom line results, and our financial outlook remains very strong. With that, I'll turn the call back over to Liz. Thanks, Scott.",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 2092440,
@@ -2657,6 +2708,7 @@
    "t1_ms": 2123440,
    "speaker": "Operator",
    "text": "Thanks, Scott. We will now open the call for questions. In the interest of hearing from as many analysts as possible over the remainder of the call, we ask that you please limit your questions to one or two. Operator, we'll take the first question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2110440,
@@ -2688,6 +2740,7 @@
    "t1_ms": 2146770,
    "speaker": "Analyst",
    "text": "Thank you. If you would like to ask a question, please signal by pressing star 1 on your telephone keypad. If you're using a speakerphone, please make sure your mute function is turned off to allow your signal to reach our equipment. Again, please press star 1 to ask a question. We'll go first to Vamil Devon with Google. With Google, Guggenheim Securities.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2123440,
@@ -2727,6 +2780,7 @@
    "t1_ms": 2190250,
    "speaker": "Management",
    "text": "Great. Thanks for taking my questions, and thanks for all the information on the call. Maybe if I could, just as I know you're not giving formal guidance for next year yet, but if I could just ask about as we think about updating our models today, any sort of key pushes or pulls as we think about next year in terms of dynamics to keep in mind. And also just at this point, anything you can share around payer discussions when we should think about? Thanks, Vamal. This is Rob. I'll take the first question, and Jeff will take the second question. So as we typically do, we'll provide 2027 guidance on the Q4 call, but we are certainly exiting this year in a very strong position.",
+   "name": "Liz Shea, SVP, Investor Relations",
    "parts": [
     {
      "t0_ms": 2146770,
@@ -2782,6 +2836,7 @@
    "t1_ms": 2234530,
    "speaker": "Management",
    "text": "Our sales and earnings growth in 2026 will be the second highest relative to our peers, and we expect to deliver top-tier growth again next year. When I look at SkyRizzi and Renvoke, they're delivering incredible growth of $6 billion combined this year, despite already being on the market for eight years and with more competition. If you think about where that growth is coming from, that $6 billion, three of it is in IBD across Renvoke and SkyRizzi, with obviously competitive entry in that space. $2 billion of that growth is in SkyRizzi-Soriatic, with the competitive entry in that space as well. So we're seeing, despite increased competition, just tremendous growth from SkyRizzi and Renvoke. And we have several catalysts that will help drive their growth next year and beyond, including",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2190910,
@@ -2837,6 +2892,7 @@
    "t1_ms": 2274850,
    "speaker": "Management",
    "text": "sub-Q induction for SkyRizzi and Crohn's with higher efficacy and more convenient dosing that will give us an even stronger competitive position. We'll see SkyRizzi head-to-head data versus Intivio, which will bolster our position in UC, and we will launch two new derm indications for Renvoke, both Vitiligo and Alopecia areata. So we have very strong momentum in immunology to continue delivering robust growth next year and beyond. Then in neuroscience, we're on track to deliver growth. We have a growth of 20% this year, which has made us the industry leader. I expect the strong demand to continue for Raylar, Ubrella, V, Q-Lipta, and Vialev, in addition to Botox Therapeutic.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2234530,
@@ -2888,6 +2944,7 @@
    "t1_ms": 2319630,
    "speaker": "Management",
    "text": "Juvmo, as was mentioned on the call today, it's our new Parkinson's therapy. That will also contribute to the growth, although the ramp will be more significant in 28 and beyond, given timing of Medicare coverage. And then I would also keep in mind that the IRA price for Raylar will begin in 2027. So you should be modeling that in as well. Many of the sell-side models have appeared to model that in. But clearly, we have a lot of momentum across our business to drive strong, top-tier growth again next year. Yeah. Hi, Vamal. It's Jeff. So we are beginning to close all of the arrangements with the large PBMs and payers. And I would say overall, it's a very consistent story as prior years.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2275270,
@@ -2951,6 +3008,7 @@
    "t1_ms": 2359830,
    "speaker": "Management",
    "text": "Our portfolio of products will have very strong access. And it's based on a lot of the demand and the profiles that we have. The physicians really like these products. They're leading products across almost all of our categories. And so we anticipate very good payer access. In terms of the immunology approach, that low single-digit sort of rebate concession is something that I would continue to think about in your modeling. Channels move around a bit, but that's typically been our pattern. And we continue to think that that's a good. A good level of guidance there in terms of as we move into 27 in terms of payer access.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2320290,
@@ -3002,6 +3060,7 @@
    "t1_ms": 2381590,
    "speaker": "Management",
    "text": "And I couldn't fully hear your question, but in terms of RENVoQ, very consistent answer. And we anticipate with the pending approvals of Vitiligo and alopecia areata as we move into 27 that those new indications will also be reflected with favorable access as we move into the new year.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2359830,
@@ -3029,6 +3088,7 @@
    "t1_ms": 2385190,
    "speaker": "Operator",
    "text": "Thanks, Vamal. Operator Nguyen. Thanks, Jeff. Next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2382830,
@@ -3056,6 +3116,7 @@
    "t1_ms": 2429810,
    "speaker": "Analyst",
    "text": "We'll go next to Chris Schott with J.P. Morgan. Great. Thanks so much. I just wanted to follow up on the full data from the SkyRizzy sub-Q and dot approval opportunity here. I guess specific market share dynamics going full. Do you think that could play through as you think about just kind of the ramp of SkyRizzy from here? And my second question was on the pipeline and the role of SkyRizzy and the Alpha 4 Beta 7 and IBD. Yeah. Just following. I think that the phase two data. Are you thinking of this as a drug that's for later lines of therapy or something that could be earlier in the treatment paradigm?",
+   "name": "Chris Schott, J.P. Morgan",
    "parts": [
     {
      "t0_ms": 2386350,
@@ -3127,6 +3188,7 @@
    "t1_ms": 2437520,
    "speaker": "Analyst",
    "text": "Just maybe kind of.",
+   "name": "Chris Schott, J.P. Morgan",
    "parts": [
     {
      "t0_ms": 2429990,
@@ -3142,6 +3204,7 @@
    "t1_ms": 2476500,
    "speaker": "Management",
    "text": "Yeah. Hi, Chris. It's Jeff. I'll take the commercial stuff. And maybe Rupal can give a quick flavor over the new data that was announced at ACG and UEGW. Yeah. So on the sub-Q data set, what you heard from us was very strong data. And when we compare it with our own. SkyRizzy IV induction, it's numerically higher and quite substantially higher in that treatment naive setting, which is the current positioning of SkyRizzy currently in Crohn's and UC. So it'll further support that exact positioning.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2437780,
@@ -3201,6 +3264,7 @@
    "t1_ms": 2518180,
    "speaker": "Management",
    "text": "Because recall with Renvo having a little bit of a label expansion that has allowed us for those patients that are deemed inappropriate for an anti-T. And F who can then use Renvo potentially right after SkyRizzy. So that petition, that positioning, I should say, has been further substantially strengthened with this subcutaneous offering. So that's one point. And maybe I'll touch on the alpha four beta seven combo and then go back to Jeff. So, Chris, what we saw here was very strong efficacy in later lines, including patients who are.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2476640,
@@ -3248,6 +3312,7 @@
    "t1_ms": 2560460,
    "speaker": "Management",
    "text": "Already used P19s, already used JAK inhibitors like Renvo. However, we also saw strong data in earlier lines. And we anticipate being able to see that in Crohn's and in particular, a lot of excitement from our thought leaders and how this combination can look in earlier lines of ulcerative colitis. Can we get much stronger disease control early in patients rather than waiting for a step up in care? This can potentially modify the disease, as I was describing, based on gene expression. Could you have much better outcomes in the longer term reductions in hospital visits and surgeries?",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2518200,
@@ -3295,6 +3360,7 @@
    "t1_ms": 2602860,
    "speaker": "Management",
    "text": "So as we move this forward, we'd be looking at early patients and in later lines of patients. And that's in Crohn's and UC. We would explore that with 3A2, which is alpha four beta seven, as well as with our TL1A antibody as well. Yeah. And Chris, in terms of your. Commercial question. So we are excited about the recent sub-Q approval and our field teams already are out there promoting this affirmed data that's now reflected in the U.S. label. So I think what's important, as Rupal said, these endoscopic endpoints are really resonating for several years now with the gastroenterologists. And that's the single largest market value driver of what preference is.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2560980,
@@ -3354,6 +3420,7 @@
    "t1_ms": 2642460,
    "speaker": "Management",
    "text": "And so when our experts and our IBD experts, our gastros, look at this affirmed, it's quite striking. So it's sort of very, very high rates, higher than our IV. And when they look, of course, it's cross-study comparisons. When they look across not just IL-23 induction, but every single induction study that's been done to date, it really stands out. So as we've talked about over the last few quarters, you know, the in-play share is roughly 50-50 in IBD versus the main competitor. We would anticipate. Certainly an acceleration in crones where we have that approval.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2602980,
@@ -3405,6 +3472,7 @@
    "t1_ms": 2686340,
    "speaker": "Management",
    "text": "Now, in terms of timing as to when we'd see that, it will take us probably, you know, 60 days, maybe a little bit longer to get full access. That's just the normal cycle of the approval of something like this with our contracts. So certainly the first part of the year into the second quarter, we anticipate a pretty rapid share acceleration there. And Chris, let me add, we're also very pleased with the update. We're excited about that. And then recall, having the sub-Q option up front and then having every eight-week dosing,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2643020,
@@ -3448,6 +3516,7 @@
    "t1_ms": 2691240,
    "speaker": "Management",
    "text": "that's another area we can continue to emphasize that makes SkyRizzy so unique.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2686520,
@@ -3463,6 +3532,7 @@
    "t1_ms": 2695080,
    "speaker": "Operator",
    "text": "Thanks, Chris. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2692220,
@@ -3482,6 +3552,7 @@
    "t1_ms": 2729310,
    "speaker": "Analyst",
    "text": "We have Louise Chin from ESPN. This is from Scotia Bank. Hi. Thanks for taking my questions. I wanted to ask you for amiraclidine. What gives you confidence that the underdosing was really the issue in the prior studies and what you're thinking, your latest thinking on the market opportunity? And then the other thing I wanted to ask you is that you have a lot of potentially best in class assets in your pipeline. Maybe if you could highlight to us which one or which ones you're most excited about that you think are underappreciated by the street, that would be very helpful. Thank you.",
+   "name": "Louise Chen, Scotiabank",
    "parts": [
     {
      "t0_ms": 2695080,
@@ -3541,6 +3612,7 @@
    "t1_ms": 2771590,
    "speaker": "Management",
    "text": "Hey, Louise. This is Rupal. I'll take that. With amiraclidine, we did observe lower receptor occupancy and variability in PK. And again, that's one-fifth of the dose that we're going to take forward at 150 milligrams. So the confidence is more around the PK and receptor occupancy and less heterogeneity at the higher dose. So that will drive, hopefully, more predictability there. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. And I just want to point out that we don't have the benefits of once-a-day dosing and the fact that we don't need another complementary drug to offset adverse events.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2730670,
@@ -3668,6 +3740,7 @@
    "t1_ms": 2814310,
    "speaker": "Management",
    "text": "And thus far, we've seen low GI adverse events. So we think that will be a nice benefit in monotherapy and adjunctive. We are going into phase two, so we'll be able to test this out. So that's, I would say, drug-specific. And then also study-specific. We're able to do deep dives into the Empower studies and our own Vrelar studies. And from that, we can learn better approaches to reducing placebo responses. So there's a variety of factors that we're going to implement in all of our trials going forward. And hopefully that will also support favorable outcomes in the future.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2772190,
@@ -3715,6 +3788,7 @@
    "t1_ms": 2856990,
    "speaker": "Management",
    "text": "And if we see that, we would pivot very rapidly to phase three. Some things that we're excited about, staying in psychiatry. You heard us talk about bretacilicin. MDD is important, but also PTSD, anxiety, and OCD are where we're going to look at phase two. So that's potentially underappreciated. But I do have to, I would say, mention again, Intentamig. And that one is in our pipeline. We have multiple additional phase threes that are prepared and ready to go. And this asset is quite near term, has the potential to launch around the middle of next year.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2814410,
@@ -3766,6 +3840,7 @@
    "t1_ms": 2898130,
    "speaker": "Management",
    "text": "And that is a very exciting asset as we've described. The CRS rates are very low and grade, almost all grade one and very few grade two. And just a single case of ICANNs after a single step-up dose. And then you can immediately go to monthly dosing. So this is very well differentiated across anything available currently in the TCE space. So we're very excited about that one. And we believe that the street continues to underappreciate that asset and our opportunity in myeloma with Intentamig.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 2857430,
@@ -3809,6 +3884,7 @@
    "t1_ms": 2942350,
    "speaker": "Management",
    "text": "And then even potentially with our anti-CD38 BCMA T-cell engager tri-specific, which we are trying to move forward with. So that's a very exciting asset. And then we're very excited about that one. And we believe that the street continues to underappreciate that asset and our opportunity in myeloma with Intentamig. And we believe that the street continues to underappreciate that asset and our opportunity in myeloma with Intentamig. And we believe that the street continues to underappreciate that asset very quickly into phase three. That's also a very unique opportunity. And maybe Jeff wants to comment. Yeah, so I would agree. We've been surprised, maybe less so more recently, but Intentamig is a fantastic profile. And not only will it allow us to enter myeloma, I think, very, very rapidly here. We have multiple drugs behind it. And so this is a clear strategy that's underappreciated. I think more recently, because Ripple had such a phenomenal discussion",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2898310,
@@ -3896,6 +3972,7 @@
    "t1_ms": 2981430,
    "speaker": "Management",
    "text": "over some of these readouts, very excited about Epkinley and Frontline NHL. This is really the big market value driver in terms of that particular product. And the readout was spectacular. I would have to say as well, which is maybe not as big a surprise, but the ability to continue to raise the standard of care in IBD with 466, this combination platform. And we've got multiple shots on goal there with a combination TL1A that is very, very close. So the ability to bring multiple assets to basically navigate really the exceptional performance",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 2942350,
@@ -3939,6 +4016,7 @@
    "t1_ms": 3025990,
    "speaker": "Management",
    "text": "of Skyrizzy as we move into the 2030s is also a profound opportunity for the company. And Louise, this is Rob. Just to add on here, we've mentioned Intentamig. It's a multibillion-dollar opportunity that is significantly under-called in many street models. I would add TMAP-A to that as well. Similar, a multibillion-dollar opportunity, significantly under-called in many street models. And then if you look at the neuroscience business, we've said we believe we have three $5 billion-plus franchises covering psychiatry, migraine, and Parkinson's, and we're still not seeing that reflected in longer-term consensus. I would also add Zumi-LokiBar as upside to the street versus what we're expecting. So as I look at the portfolio,",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2981430,
@@ -3994,6 +4072,7 @@
    "t1_ms": 3035390,
    "speaker": "Management",
    "text": "we have, as we look at longer-term growth in the 2030s, we have a number of upside opportunities that are not yet reflected in street models.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3026130,
@@ -4013,6 +4092,7 @@
    "t1_ms": 3039730,
    "speaker": "Operator",
    "text": "Thank you, Louise. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3036730,
@@ -4032,6 +4112,7 @@
    "t1_ms": 3083950,
    "speaker": "Analyst",
    "text": "We'll go next to Trung Nguyen with RBC. Hi, guys. My first question is just on 340B. It's been a persistent challenge for the industry. So it was interesting to see that earlier in this month that you're taking part in this 340B, and you're now taking part in this pilot launch for next year. So that's for Imbruvica, Linzess, and Vrela. Can you just walk us through the strategic rationale for participating there? Are there any potential growth-to-net improvements from the reduced duplicate discounts, or do you think we could still expect a headwind from the broader 340B exposure? Just really wondering how material the benefits could be here.",
+   "name": "Trung Huynh, RBC",
    "parts": [
     {
      "t0_ms": 3040750,
@@ -4087,6 +4168,7 @@
    "t1_ms": 3087950,
    "speaker": "Analyst",
    "text": "And then on aesthetics, could you just give us an update on 20BOT?",
+   "name": "Trung Huynh, RBC",
    "parts": [
     {
      "t0_ms": 3083950,
@@ -4106,6 +4188,7 @@
    "t1_ms": 3131620,
    "speaker": "Management",
    "text": "And then on the 340B, following the CRL, and your timelines for resubmission. Just how should we think about that? Cheers. So, as I said, Imbruvica is a very, very successful program. We have a lot of great support from the public sector. We have a huge investment in healthcare costs for employers, taxpayers, and patients. And it takes our reinvestment away from the industry. But that said, we are encouraged by the bipartisan support we are seeing across both the House and Senate",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3087950,
@@ -4153,6 +4236,7 @@
    "t1_ms": 3174960,
    "speaker": "Management",
    "text": "on a few proposals that can bring greater transparency and accountability. And that's really what it's about. It's about driving more transparency and accountability, which is also what I believe this rebate pilot will accomplish. It's another opportunity to provide that transparency to benefit patients and not steal investment away from R&D. I think it's too early to call a financial impact. We'll have to see how this plays out. We certainly manage the duplicate discounts well. We have good visibility to that. So I'd say we've been managing through it. There has been, though, profound growth in this program that I think the entire industry has been seeing, which is why we're advocating for policies that curb the abuse that we're seeing. And it's Rupal on the TrendingBot question.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3131620,
@@ -4224,6 +4308,7 @@
    "t1_ms": 3211720,
    "speaker": "Management",
    "text": "Recall that the CRL was not due to any particular issues around safety or efficacy. It was on CMC assessments. And we're gathering that data for the agency, and we will resubmit at the end of this year. And we anticipate a six-month review, so we think the middle of next year in the U.S. And while this is ongoing, we are also submitting and other contributions. And we're also submitting and other contributions. across the globe. We already have European approval as well as Canada.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3175620,
@@ -4275,6 +4360,7 @@
    "t1_ms": 3215680,
    "speaker": "Operator",
    "text": "Thank you, Trung. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3212780,
@@ -4294,6 +4380,7 @@
    "t1_ms": 3220780,
    "speaker": "Analyst",
    "text": "Yes, we will go next to Jason Gerberry with Bank of America.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3216940,
@@ -4309,6 +4396,7 @@
    "t1_ms": 3265600,
    "speaker": "Management",
    "text": "Hey, guys. Thanks for taking my question. Mine was just on ABB 466. And if you could talk about are there any triggers to potentially move this into Phase 3 faster? I know you have the interim data for the Phase 2, and you're going to be with the higher dose integrin. Imagine that's something that you're curious to see the results from before going to Phase 3. But wondering to the extent that you might be rate limited just by the co-formulation work, and that puts a hard and fast kind of 2028 start on the Phase 3 program. Thanks. Hey, Jason. It's Rupal. So we do have built-in interims in this next data set that's going forward. A few things that we're going to talk about.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3222140,
@@ -4388,6 +4476,7 @@
    "t1_ms": 3309680,
    "speaker": "Management",
    "text": "One is what we're going to do to assess 382 exposure response. One thing to help speed things up is look at the data and run assays more often than you typically would and not waiting for the end. The other thing we will also see is for the Phase 2 study that we were just talking about here today. We've shown about 80% of the data. We'll get 100% of that data by the end of this year, early next year. And that will let us rerun some of these models and to see if we continue to observe that exposure response lack of plateau for 382. Sometimes with greater sample size, you could see things move in either direction.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3265620,
@@ -4439,6 +4528,7 @@
    "t1_ms": 3354080,
    "speaker": "Management",
    "text": "And while that's occurring, we'll start generating more data on the combo. So if something is looking good, then we can speed up the trial in a way by dropping the arm that's, you know, the current standard dose. Alternatively, if we're going to do a test, we're going to have to do a test. And that's going to be a little bit more complicated. But we're going to have to do a test. And that's going to be a little bit more complicated. If we are seeing that the efficacy is shouldering at a particular dose, then we don't have to continue the high dose. And then we can pivot to the standard dose that we've already studied, gather some more data there, be ready for regulators, and then potentially move into Phase 3 sooner. It's hard to commit now. I would say there is some potential that we could start Phase 3s at the end of 2027. We'll come back.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3309680,
@@ -4506,6 +4596,7 @@
    "t1_ms": 3362780,
    "speaker": "Management",
    "text": "We'll come back. We're going to look at the data to see if that's possible. But I haven't ruled that out based on our ability to look at the data on an interim basis.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3354080,
@@ -4529,6 +4620,7 @@
    "t1_ms": 3367200,
    "speaker": "Operator",
    "text": "Thanks, Jason. Thank you. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3363880,
@@ -4552,6 +4644,7 @@
    "t1_ms": 3402210,
    "speaker": "Analyst",
    "text": "We'll go next to Simon Baker with Rothschild & Company Redburn. Thanks for taking my question. This is Keto for Simon Baker. I have a quick question on AppKingly in first line large B3 informer. So given your competitors developing a different, combination regimen. Any thoughts about the competitiveness of Epkinley-based regimen? Maybe just a quick follow-up on Epkinley as well. So how should we think about the launch trajectory of Epkinley in first-line large B-syninformer? Thank you.",
+   "name": "Simon Baker, Rothschild & Company Redburn",
    "parts": [
     {
      "t0_ms": 3368640,
@@ -4595,6 +4688,7 @@
    "t1_ms": 3447250,
    "speaker": "Management",
    "text": "Maybe I'll start, and then Jeff will comment. What we like about the approach with Epkinley with RCHOP is that RCHOP is very familiar. It's very well-known across the globe. And there's a simplicity of just adding Epkinley to a very well-known treatment regimen. So we think there's already a benefit there. And then you also don't have to add two novel agents to a regimen. This would just be a single novel to RCHOP that people understand very well. So from an R&D standpoint, we're excited about that. And that's what we hear from clinicians, that for them, it'll be relatively... Simple approach.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3403430,
@@ -4638,6 +4732,7 @@
    "t1_ms": 3488750,
    "speaker": "Management",
    "text": "Yeah. And I think that, as I mentioned, I mean, that front-line potential is clearly the largest commercial opportunity. We had always known that that was a larger commercial opportunity with our partner, GenMab. But to see the strength of the data, it's quite striking. So we do believe, despite what we may see from the competitor readout, that this is a very, very simple approach. It's going to play extremely well around the world because there's a variability, over countries on how they view PalaV, the reimbursement of PalaV. And then again, you have a novel, two novel novels, it starts to build up the cost. So the exquisite simplicity",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 3448050,
@@ -4677,6 +4772,7 @@
    "t1_ms": 3530330,
    "speaker": "Management",
    "text": "of what we've done in front-line with Epkinley has resonated very much with the thought leaders around the world. I think it will resonate very, very rapidly with the HTAs and other payers. And so we anticipate, as we move towards approvals, and as Rupal mentioned, we'll be, moving quickly with the regulatory filings here, I would expect quite a rapid adoption of that transformational indication. And this is Scott. I would just make sure everyone recalls with respect to that product, the partnership that we have with GenMab, there's partnership economics. So we're not booking sales, the full sales in the U.S., Puerto Rico, and Japan. We're",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 3488750,
@@ -4716,6 +4812,7 @@
    "t1_ms": 3534390,
    "speaker": "Management",
    "text": "booking a profit share. So it's a little bit of a different impact on the revenue line.",
+   "name": "Scott Reents, EVP, Chief Financial Officer",
    "parts": [
     {
      "t0_ms": 3530330,
@@ -4731,6 +4828,7 @@
    "t1_ms": 3537910,
    "speaker": "Operator",
    "text": "Thank you for the question. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3535250,
@@ -4750,6 +4848,7 @@
    "t1_ms": 3576960,
    "speaker": "Analyst",
    "text": "We'll go next to Terrence Flynn with Morgan Stanley. Great. Thanks for taking the questions. Maybe a two-part for me. I guess, Rob, now that you've integrated Apogee, could you just provide your latest perspective on M&A and business development appetite and how you're thinking about size of potential deals from here? And then relatedly on obesity, a question we get a lot is, does AbbVie need a GLP-1 to be able to compete at scale? And if so, what are some of the things that you're thinking about? And then relatedly on obesity, a question we get a lot is, does AbbVie need a GLP-1 to be able to compete at scale? And if so, what are some of the things that you're thinking about? And then relatedly on obesity, a question we get a lot is, does AbbVie need a GLP-1 to be able to compete at scale? And if so, what are some of the things that you're thinking about? Obviously, you have the amylin. You talked about an interesting combination approach today. But how do you think about need for a GLP-1? Thank you.",
+   "name": "Terence Flynn, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 3538870,
@@ -4809,6 +4908,7 @@
    "t1_ms": 3620840,
    "speaker": "Management",
    "text": "Thanks, Terrence. I'll take the first question and Rupa will take the second one. So I would point to the Apogee deal and really the PD-1 VEGF from Remagen as great examples of the BD priorities that we've been communicating for a while now. And our focus really continues to be on differentiated assets in our core areas, immunology, neuroscience, and oncology. But we're also looking to expand in obesity as well. And I'd say across the portfolio, it could be an early-stage deal, late-stage, or even on market. And again, given that our existing products and pipeline give us a clear line of sight to strong, durable growth into the 2030s, we have ample financial capacity to pursue the deals we're interested in. Now, I would expect",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3578360,
@@ -4852,6 +4952,7 @@
    "t1_ms": 3665660,
    "speaker": "Management",
    "text": "these to be more bolt-on additions versus a large transformational deal like Allergan. And that's because our business already has good breadth. For us, it's really more about adding further depth to these areas to drive that long-term growth. Yeah, and it's Ripple. Yes, we continue to have an interest to build out obesity assets. We are open to anything that has a profile that's differentiated. Thank you. Thank you. That could match potentially our 295, especially when it comes to a co-formulation. That could be in Cretin class or anything else. And we want to continue to drive efficacy, but very importantly,",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3620840,
@@ -4899,6 +5000,7 @@
    "t1_ms": 3709360,
    "speaker": "Management",
    "text": "tolerability, because patients still continue to start and stop and spin off. And if we had other combo agents that continues to open the door in other indications that we already have leadership in, psoriasis, psoriatic arthritis. I already mentioned HS with an amylin, but if we had another agent, you could imagine us going into HS. Just for context, the mean BMI of our study with ludicizumab was almost 34. So on average, it already fits a category where one could anticipate either amylin use in the future or in Cretin use today. Okay.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3665840,
@@ -4926,6 +5028,7 @@
    "t1_ms": 3713020,
    "speaker": "Operator",
    "text": "Thanks, Terrence. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3710360,
@@ -4941,6 +5044,7 @@
    "t1_ms": 3717760,
    "speaker": "Analyst",
    "text": "We'll go next to Steve Scala with TD Cowan.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3713780,
@@ -4956,6 +5060,7 @@
    "t1_ms": 3756720,
    "speaker": "Management",
    "text": "Thank you so much. I have two questions. Can you help us create an expectation for the Renvoke efficacy readout in HS, specifically on high score 50 placebo adjusted benefit? Should we be thinking about something closer to 10% or 25%? So that's the first question. Second question is, what should be our expectation for Botox IRA pricing, both in percentage as well as issues revolving around the litigation? Presumably, Abby already knows the discount. So what can you tell us? Thank you so much.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3718460,
@@ -4975,6 +5080,7 @@
    "t1_ms": 3801020,
    "speaker": "Management",
    "text": "Hey, Steve, it's Rupal. For HS and Renvoke, we still anticipate the readout later this year. And as you mentioned, the primary endpoint is high score 50. Okay. So I would say it's difficult to know what the exact delta could be. We do see that drift in placebo. We observed it ourselves with ludicizumab that's probably driven by heterogeneity, larger patient populations, more sites, more countries. And it's difficult to know until we see the phase three data. But the way we think about it is that high score is just... Yeah.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3757560,
@@ -5006,6 +5112,7 @@
    "t1_ms": 3828920,
    "speaker": "Management",
    "text": "...just one parameter. And really, the key driver, the number one symptoms that patients have and that clinicians also reiterate is pain. And what we saw with Ludi has us very encouraged because the pain started to...patients had relief from pain as early as week one over the course of therapy. Quality of life is also important. Lack of flares is very important.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3801020,
@@ -5021,6 +5128,7 @@
    "t1_ms": 3859980,
    "speaker": "Management",
    "text": "And these are the things that we would look to in the Renvoke study as well. It will come down to totality of data and what are these key drivers for patients and for clinicians. And what I can say is we will be capturing this evidence in the Renvoke study just as we did in the ludicizumab study. And what Renvoke brings is an oral and recall that it's also coming in as a second line post-treatment. Okay.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3830020,
@@ -5040,6 +5148,7 @@
    "t1_ms": 3892020,
    "speaker": "Management",
    "text": "And it's just other advanced therapies like other biologics. So the setup there and the positioning is consistent with PSA, Crohn's, and UC where we have a biologic today. It's Skyrizzy that goes into more frontline earlier patients and then Renvoke comes in later. Same thing could develop here with ludicizumab going early and then Renvoke coming in later. And Steve, this is Rob. I'll take your question. Okay. Thank you.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3860020,
@@ -5067,6 +5176,7 @@
    "t1_ms": 3929820,
    "speaker": "Management",
    "text": "So we have a question on Botox IRA. Look, we feel the IRA is very clear that products derived from human blood or plasma are not eligible for selection. One of Botox's three ingredients is human serum albumin, which is a protein extracted from human blood plasma. And Botox has 100,000 times more human serum albumin than toxin, which is why we believe Botox is not eligible for selection under the IRA. And a federal district court just yesterday ruled in our favor. Now, that ruling is subject to appeal by the government. So I'll have to wait to see if that's true. Okay. So we'll have to wait to see if there are any more proceedings. But in the meantime, we would not expect a price to be published while this plays out. Thank you.",
+   "name": "Rob Michael, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3892020,
@@ -5094,6 +5204,7 @@
    "t1_ms": 3932820,
    "speaker": "Operator",
    "text": "Thanks, Steve. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3929820,
@@ -5109,6 +5220,7 @@
    "t1_ms": 3964660,
    "speaker": "Analyst",
    "text": "Our next question comes from the line of Dave Reisinger with LeeRinc Partners. Yes, thanks very much. And congrats on the performance and all the updates. So I have a question for Rupal, please. Rupal, can you just talk about the importance of the price? Sure. So I'm going to talk about INI pipeline candidate trial results to watch in 2027 after the RINVOC-HS results in coming months. Thanks very much.",
+   "name": "Dave Risinger, Leerink Partners",
    "parts": [
     {
      "t0_ms": 3932820,
@@ -5140,6 +5252,7 @@
    "t1_ms": 4008970,
    "speaker": "Management",
    "text": "Hey, thanks. It's Rupal here. I would say after we see this data set, we're going to be keeping – that's the RINVOC-HS – we're going to be keeping a close eye on the IBD combos. Okay. And as I stated before, we'd be looking for interim data to see if we can accelerate even further. The other important outcome next year is RINVOC in lupus. So I would be looking for that. And then we can anticipate hopefully some data out of our B-cell depletion portfolio that includes a CD19 depletion. Okay.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 3964660,
@@ -5175,6 +5288,7 @@
    "t1_ms": 4052770,
    "speaker": "Management",
    "text": "And then we can anticipate hopefully some data out of our B-cell depletion portfolio that includes a CD19 depletion. Okay. Dipleting antibody, the CD19 with an ADC and, of course, our INVIVOCAR-T against CD19. Okay. So beginning inيت so we're starting to see some patients starting to enroll post the first inhuman in healthies so that could be other very important data sets that we would see next year. Other readouts potentially are in rheumatoid arthritis. Okay. combos with lute and psoriatic arthritis as well. And I would say not necessarily readout, but we're going to be kicking off plenty of studies",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4008970,
@@ -5226,6 +5340,7 @@
    "t1_ms": 4097710,
    "speaker": "Management",
    "text": "post the Apogee acquisition. And you'll see the Phase III study starts with Zumi and atopic dermatitis. But we're also going to be doing either Phase IIb work quickly, I would say, and then moving into Phase III for pruritus, urticaria, prurigo nodularis, and then combination work with the TSLP in EOE, asthma, COPD, sinusitis, and then imagining as those move forward, you know, eight distinct Phase III programs that would be reading out",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4052770,
@@ -5265,6 +5380,7 @@
    "t1_ms": 4108790,
    "speaker": "Management",
    "text": "in late 2021. And then we're going to be doing a lot of studies with the and the and the",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4097710,
@@ -5296,6 +5412,7 @@
    "t1_ms": 4114609,
    "speaker": "Operator",
    "text": "and the and the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4108790,
@@ -5315,6 +5432,7 @@
    "t1_ms": 4118609,
    "speaker": "Analyst",
    "text": "and the and the",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4114609,
@@ -5334,6 +5452,7 @@
    "t1_ms": 4160210,
    "speaker": "Management",
    "text": "and the and the and the and the and the and the and the drug was able to spare patients from levodopa for a long time. So, holyagnes i would love to understand how you are thinking about positioning is this drug. I mean you have a five billion dollar. Guidance for the entire Pakistans franchiset device don't is a smaller part of this. So the Day Pr Babylon to take over. But what could be a surprise for us from the upside point of you. What? Where are you positioning it and what is the feedback you are getting so far from the physicians as you are launching this product. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4118609,
@@ -5409,6 +5528,7 @@
    "t1_ms": 4189250,
    "speaker": "Management",
    "text": "Yeah, Mohit, it's Rupal. I'll make a few comments and then Jeff can speak about the opportunity here. Yeah, you caught on to something very interesting and that's what our experts are quite excited about, that if you're an early patient and you start taking Tevapidon, very rarely will you need, and this is I think around 85 weeks or so, that you would need to start levocarbidopa.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4160609,
@@ -5424,6 +5544,7 @@
    "t1_ms": 4230050,
    "speaker": "Management",
    "text": "And many clinicians are interested in keeping that in pocket as long as possible due to the adverse events that can happen later. And we saw that same thing play out in a little different format on patients that were currently on levocarbidopa. You can effectively freeze that dose with Tevapidon for the same period of time, approximately a year and a half. So you have this setup in those patients that are trying to optimize oral therapy. And giving Tevapidon allows them to do that very quickly, which is really nice to see because that efficacy is observed early on.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4189250,
@@ -5451,6 +5572,7 @@
    "t1_ms": 4271390,
    "speaker": "Management",
    "text": "And then as time goes by, because this is likely, and Jeff will talk about this, where likely it will first get utilized and people will then recognize that there is a potential in earlier parts. And this is due to access elements. So there are a number of elements that Jeff can now speak about. Yeah, Mohit, the market feedback has been quite strikingly positive so far. And it is exactly that. There's two elements of it. The first is this data that Rupal described where when you add it on, you essentially freeze any dose escalations in almost all the patients for 85 weeks and counting.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4230270,
@@ -5490,6 +5612,7 @@
    "t1_ms": 4309150,
    "speaker": "Management",
    "text": "So the movement disorder experts and the neurologists, they know that as they continue to dose up. And you have to escalate levodopa carbidopa dosing. It just leads to the dyskinesia and it's not good. So the efficacy from the trials has been quite striking. And that's balanced really well with these low rates of really, we call it somnolence, but the Parkinson's experts know it's like a sleep attack. Like, you know, the patients can really get in trouble with the sleepiness, the sedation and the sleep attacks. And very little to no observed.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4271390,
@@ -5529,6 +5652,7 @@
    "t1_ms": 4350030,
    "speaker": "Management",
    "text": "And that's what really harmed the first generation of the agents that didn't focus on D1, D5, but D2, D3. So we actually have been quite surprised at how strong the profile has been reacted to. Now, it's only been a matter of a few weeks. What we also see that's been surprising is patients are aware of it and they're pushing some of their neurologists and movement disorder experts. So, you know, in terms of upside, we know that. We've missed it. We've missed sort of the Medicare window for 27. You know, we'd love to be able to sort of see if we can get some early ads. That's sort of speculative at this point.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4309150,
@@ -5576,6 +5700,7 @@
    "t1_ms": 4384450,
    "speaker": "Management",
    "text": "But we are very, very encouraged at the initial market reaction that we're seeing. And right now, because there is no access, all we can see is sort of enrollments and people are going through medical exception processes. Sort of the high level demand in the funnel. So we're seeing that the",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4350650,
@@ -5603,6 +5728,7 @@
    "t1_ms": 4388910,
    "speaker": "Operator",
    "text": "We are cognizant that another peer call is starting shortly. So we just have time for one final question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4384450,
@@ -5622,6 +5748,7 @@
    "t1_ms": 4394610,
    "speaker": "Analyst",
    "text": "Our last question comes from Gary Nachman with Canaccord Genuity.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4391130,
@@ -5637,6 +5764,7 @@
    "t1_ms": 4435620,
    "speaker": "Management",
    "text": "Thanks so much. Good morning. So with the new indications for RINVOC and vitiligo and alopecia, areata, will it be positioned as first line for both of those conditions? And I know you said two billion plus for that in terms of the market opportunity. But review how big those markets are a little bit more specifically and how much you'll be increasing your presence even more with the derms after those approvals. Yeah, thanks, Gary. Great questions. And so, as you know, as I mentioned in my remarks, we did raise the long term. And so I think there are some very important targets for both of those based on the quality of the data.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "parts": [
     {
      "t0_ms": 4395210,
@@ -5688,6 +5816,7 @@
    "t1_ms": 4477120,
    "speaker": "Management",
    "text": "So, you know, alopecia data was substantially better than we anticipated, really transformationally. This is that you have the ability on the so-called SALT score, in some cases, to completely regrow hair or get 90% hair regrowth at rates that we haven't seen before. So that's been positive. Vitiligo data, when we look at it, is going from strength to strength. So we continue to see through 76 weeks that we're progressive. improving the repigmentation. And as you may recall, it will be the first ever systemic treatment. There's some topical creams, but it's the one for, you know, higher body surface areas. So both of these markets are very, very small right now. I mean, if you look at the sales,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4436680,
@@ -5731,6 +5860,7 @@
    "t1_ms": 4517980,
    "speaker": "Management",
    "text": "you know, they're in the, you know, small hundreds of millions of dollars. But if you look at their prevalence, they're quite high. And so, you know, that's the same way Crohn's was back in the day, and, you know, ulcerative colitis, et cetera. So we see that, you know, we're going to have to build the market. We see that Renvoke will have, you know, the most favorable data in the category for the foreseeable future. So that's also very positive. And we are anticipating with the label that we will have more, you know, now for moderate to severe patients, more of a frontline type approach versus stepping through, because there's really, there's really nothing,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4477640,
@@ -5770,6 +5900,7 @@
    "t1_ms": 4560600,
    "speaker": "Management",
    "text": "to step through. You sort of have these, you sort of have a naive market. And it's quite similar to what we saw with our GCA label, which is the smallest of the next ones. So, you know, we believe that these markets can become quite meaningful. We have increased our guidance based on the quality of the data, but we'll be the ones with the heavy lifting. And we plan to do that with expanding our dermatology sales forces around the world, and that's been underway. So we are going to invest in that. And we're going to invest in that. And we're going to invest in that. And we're going to invest in that. And we're going to invest in that. And we're going to invest in that. And we're going to invest into these indications. And certainly in the U.S., we would also anticipate, you know, pretty robust consumer activation, because we find that the vitiligo and alopecia patients,",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4518080,
@@ -5817,6 +5948,7 @@
    "t1_ms": 4577260,
    "speaker": "Management",
    "text": "you know, there's been nothing for them. So they're sort of sitting on the sidelines. So that's the combination of the approaches there. We're certainly encouraged with the data and our ability to build those markets into the LRP. Thanks, Gary. That concludes today's conference",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "parts": [
     {
      "t0_ms": 4561040,
@@ -5840,6 +5972,7 @@
    "t1_ms": 4582400,
    "speaker": "Operator",
    "text": "call. If you'd like to add anything to that, please do so. If you'd like to listen to a replay of the call, please visit our website at investors.abv.com.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4577260,
@@ -5859,6 +5992,7 @@
    "t1_ms": 4589720,
    "speaker": "Analyst",
    "text": "Thanks again for joining us. This concludes today's call. Thank you for your participation. You may now disconnect.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 4582720,
@@ -8724,6 +8858,7 @@
    "quote": "We remain on track to exceed $1 billion in revenue this year.",
    "adj_ret_5m": 0.008164128469396292,
    "speaker": "Management",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "vol_mult": 5.318847489575913,
    "spillover": "company"
   }
@@ -8737,6 +8872,7 @@
    "t0_ms": 660950,
    "speaker": "Management",
    "quote": "We remain on track to exceed $1 billion in revenue this year.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "metric": "Vylev revenue",
    "kind": "guidance",
    "novel": true,
@@ -8769,6 +8905,7 @@
    "t0_ms": 760830,
    "speaker": "Management",
    "quote": "We anticipate their potential approvals will be an important catalyst for next year and immediately supported by our existing commercial resources, including a substantial heme sales force and medical affairs team.",
+   "name": "Jeff Stewart, EVP, Chief Commercial Officer",
    "metric": "hematology portfolio potential approvals",
    "kind": "guidance",
    "novel": true,
@@ -8801,6 +8938,7 @@
    "t0_ms": 1069070,
    "speaker": "Management",
    "quote": "High score 75, which is a rigorous bar for defining clinical response, was achieved by 31% of ludicizumab patients.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "metric": "Ludicizumab HiSCR 75 response in HS",
    "kind": "result",
    "novel": true,
@@ -8833,6 +8971,7 @@
    "t0_ms": 1482430,
    "speaker": "Management",
    "quote": "A regulatory application was recently submitted to the FDA, with an approval decision anticipated next year.",
+   "name": "Rupal Thakkar, EVP, R&D and Chief Scientific Officer",
    "metric": "Atentimig FDA approval decision",
    "kind": "guidance",
    "novel": true,
@@ -8967,14 +9106,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 451.0,
   "gpu_usd": 0.1598,
-  "claude_s": 45.0,
+  "claude_s": 9.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 10519,
-   "output_tokens": 8356,
-   "cache_read_input_tokens": 61308,
-   "cache_creation_input_tokens": 30654
+   "input_tokens": 2,
+   "output_tokens": 963,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 69278
   },
-  "claude_usd": 0.1874
+  "claude_usd": 0.1828
  },
  "context": {
   "ts": [

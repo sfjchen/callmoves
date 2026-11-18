@@ -4,7 +4,7 @@
   "quarter": "Q1-2027",
   "call_start": "2026-10-28T17:30:00-04:00",
   "etf": "XLK",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/MSFT_Q1-2027.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/MSFT_Q1-2027.mp3",
   "company": "Microsoft",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 30080,
    "speaker": "Operator",
    "text": "Greetings and welcome to the Microsoft Fiscal Year 2027 First Quarter Earnings Conference Call. At this time, all participants are in a listen-only mode. A question and answer session will follow the formal presentation. If anyone should require operator assistance, please press star zero on your telephone keypad. As a reminder, this conference is being recorded. It is now my pleasure to introduce Jonathan Nielsen, Vice President of Investor Relations.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -67,6 +68,7 @@
    "t1_ms": 73880,
    "speaker": "Management",
    "text": "Good afternoon and thank you for joining us today. On the call with me are Satya Nadella, Chairman and Chief Executive Officer, Amy Hood, Chief Financial Officer, Alice Joller, Chief Accounting Officer, and Brian Defoe, Deputy General Counsel and Corporate Secretary. On the Microsoft Investor Relations website, you can find our earnings press release and financial summary slide deck, which is intended to supplement our prepared remarks during today's call and provide the reconciliation of differences between GAAP and non-GAAP financial measures. More detailed outlook slides will be available on the Microsoft Investor Relations website when we provide outlook commentary on today's call.",
+   "name": "Jonathan Nielsen, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 31660,
@@ -146,6 +148,7 @@
    "t1_ms": 118400,
    "speaker": "Management",
    "text": "On this call, we will discuss certain non-GAAP items. The non-GAAP financial measures provided should not be considered as a substitute for or superior to the measures of financial performance prepared in accordance with GAAP. They are included as additional clarifying items to aid investors in further understanding the company's first course of performance, in addition to the impact these items and events have on the financial results. All growth comparisons we make on the call today relate to the corresponding period of last year, unless otherwise noted. We will also provide growth rates in constant currency when available as a framework for assessing how our underlying business performed,",
+   "name": "Jonathan Nielsen, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 75660,
@@ -221,6 +224,7 @@
    "t1_ms": 161260,
    "speaker": "Management",
    "text": "excluding the effect of foreign currency rate fluctuations. Where growth rates are the same in constant currency, we will refer to the growth rate only. We will post our prepared remarks to our website immediately following the call until the complete transcript is available. Today's call is being webcast live and recorded. If you ask a question, it will be included in our live transmission, in the transcript, and in any future use of the recording. You can replay the call and view the transcript on the Microsoft Investor Relations website. During this call, we will be making forward-looking statements, which are predictions, projections,",
+   "name": "Jonathan Nielsen, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 118400,
@@ -296,6 +300,7 @@
    "t1_ms": 204520,
    "speaker": "Management",
    "text": "or other statements about future events. These statements are based on current expectations and assumptions that are subjects to risks and uncertainties. Actual results could materially differ because of factors discussed in today's earnings press release, in the comments made during this conference call, and in the risk factor section of our Form 10K, Forms 10Q, and other reports and filings with the Securities and Exchange Commission. We do not undertake any duty to update any forward-looking statements. And with that, I'll turn the call over to Satya. Thank you very much, Jonathan. It was a fast start to our fiscal year. Microsoft Cloud Revenue surpassed $63 billion",
+   "name": "Jonathan Nielsen, Vice President of Investor Relations",
    "parts": [
     {
      "t0_ms": 161260,
@@ -375,6 +380,7 @@
    "t1_ms": 249160,
    "speaker": "Management",
    "text": "with growth accelerating to 30% year-over-year. We are focused on three things, designing AI to empower people, ensuring every organization has sovereignty over its own learning, and building trust with controls that ensure agent safety and security. Now let's talk about how we are making progress on those goals as we build a new tech stack, starting with Copilot. We announced our biggest update to Copilot to date, this quarter bringing together chat, co-work, autopilot, and code into one unified experience. It's one product experience across commercial and consumer, and comes with all of our office built in. We think of Copilot as the new OS for work. Customers are increasingly turning to Copilot to get real work done.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 204520,
@@ -462,6 +468,7 @@
    "t1_ms": 293920,
    "speaker": "Management",
    "text": "Automated tasks has nearly doubled since July. Daily users are up nearly 50% quarter-over-quarter and over 5x year-over-year. User satisfaction improved nearly 20% quarter-over-quarter to another all-time high, and 90% of Copilot queries use auto mode, which dynamically routes tasks across models optimizing for quality, speed, and cost. These improvements are translating into larger purchases. The number of customers with more than 50,000 Copilot seats increased over 8x year-over-year, including CAPGEMini, HCL Tech, Itachi Group, Truist Financial, and UK Revenue and Customs Department. And just last week,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 249160,
@@ -533,6 +540,7 @@
    "t1_ms": 336960,
    "speaker": "Management",
    "text": "Volkswagen announced plans to deploy Copilot to more than 330,000 employees, one of the largest deployments to date in Europe. We're also seeing strong momentum with E7, which brings together Copilot, E5, Entra, and Agent 365. Thousands of customers in every industry have purchased the suite to date, including Amadeus, BlackRock, Fiserv, and New South Wales Health Department and Zeiss. Our business model is expanding from per-seat subscriptions to include consumption, expanding our TAM and ARPU. The subscription brings increasingly capable everyday intelligence to every user. Typically, IT funds this, consolidating frontier advances",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 293920,
@@ -612,6 +620,7 @@
    "t1_ms": 380640,
    "speaker": "Management",
    "text": "for everyone across the organization. And as agents take on higher value work, consumption opens up business-funded demand with spending tied directly to the value these agents deliver. The number of Copilot customers actively consuming credits through usage-based billing grew over 75% over the quarter. When it comes to software development, all major coding agents have shown up to work on GitHub. Agent-generated PRs have increased 6x over the past six months, and agents now open more than a third of all PRs on the platform. We are very hard at work on reliability as agentic activity on GitHub source. At GitHub Universe this morning,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 336960,
@@ -695,6 +704,7 @@
    "t1_ms": 423800,
    "speaker": "Management",
    "text": "we shared how we are expanding capacity and rebuilding the core Git architecture for the agentic wave. Also at Universe, we announced broad availability of Copilot Fusion, which is all about bringing multimodal orchestration to software development. It delivers frontier-level quality up to 40% faster and at up to 77% lower cost. Credit consumption from agentic features on GitHub has more than doubled since usage-based billing went into effect. And we're also helping developers secure their code and turn AI-generated code into high-quality software. GitHub Advanced Security revenue increased over 50% year over year as customers use its AI capabilities to scan entire repos",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 380640,
@@ -778,6 +788,7 @@
    "t1_ms": 467160,
    "speaker": "Management",
    "text": "and fix vulnerabilities in real time. In the business application space, we are extending this vision of Copilot as the new OS for work, bringing the business logic and capabilities of Dynamics 365 directly into Copilot and helping every organization stand up their own infinite SaaS factory. This quarter, we introduced 30 new Copilot skills across Dynamics 365, which enables customers to access CRM and ERP capabilities directly in the flow of work. In recruiting, more than 10 million LinkedIn members use our LinkedIn AI-powered job search daily and 25,000 customers are using our agentic hiring solutions. Recruiters using hiring assistant",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 423800,
@@ -857,6 +868,7 @@
    "t1_ms": 512159,
    "speaker": "Management",
    "text": "are finding interview quality applicants 33% faster while reviewing 83% fewer profiles to find qualified match. In healthcare, we automated 30 million patient encounters this quarter up 70% year over year, helping clinicians spend less time on administrative work and more time with patients. 10 providers, including Advocate Health, Mass General Brigham, Mercy, Intermountain Health, and others have used our solutions to document over 1 million encounters each since the beginning of the calendar year. And in science, our FDE teams are working with customers to use discovery to accelerate scientific progress. A great example of Saint-Gobain, which used discovery to accelerate the development",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 467160,
@@ -932,6 +944,7 @@
    "t1_ms": 556600,
    "speaker": "Management",
    "text": "of low carbon construction materials. Underneath our first party agentic experience is a common platform. It starts with Foundry, which is becoming an increasingly important driver of our growth. Foundry helps organizations build learning loops grounded in their business context and deploy agents safely at scale. We now have over 120,000 Foundry customers with revenue more than tripling year over year. Foundry's model choice and feature set coupled with its deep integration across our stack is driving differentiation. Azure OpenAI directly benefited in the last quarter with big advances in OpenAI models. And when you couple this with our model choice built into Foundry,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 512159,
@@ -1015,6 +1028,7 @@
    "t1_ms": 601280,
    "speaker": "Management",
    "text": "customers are able to build solutions optimizing across quality, cost, and performance. In fact, the number of customers building agentic solutions with multiple models increased 5X year over year and revenue from open source models on Foundry increased 10X. We also continue to make rapid progress with our first party models. Our goal is to advance the cost to outcome frontier, which means delivering capabilities comparable to leading models within three to six months of their release at a fraction of the training cost, thereby allowing us to transfer those cost benefits to customers. And you see this in our products today. MAI Cyber now powers over 40% of the scans in our agentic M-Dash code scanner at 18% lower cost per scan.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 556600,
@@ -1098,6 +1112,7 @@
    "t1_ms": 644960,
    "speaker": "Management",
    "text": "MAI Transcribe is the most accurate and cheapest transcription model in the world, supporting Dragon Copilot's multilingual workflow. MAI Code Flash has 3 million users in GitHub Copilot last month alone, helping developers get more out of their AI credits. Microsoft Decision One is our new model for structured decision-making outperforming both LLMs and other decision models in latency and quality. Over 4,000 customers, including Atos Group, Equinor and RBI have already used it in the first month since its release. And we recently completed pre-training MAI Base 2, which outperforms other open weight models we tested with four to 12 times greater training compute efficiency.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 601280,
@@ -1173,6 +1188,7 @@
    "t1_ms": 688680,
    "speaker": "Management",
    "text": "This base model will be used in the upcoming MAI models across thinking, code and cyber. Beyond models, we're making the harness behind our own Copilot experience available to customers in Foundry. It gives customers a Microsoft managed way to build agents that reason, use tools, complete complex long running work while preserving their choice of model. Another critical layer is data. We now have 44,000 paid fabric customers up more than 50% year over year. We are bringing Foundry and Fabric closer together so you can build your own agents right next to data. Over 19,000 customers now use Foundry and Fabric",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 644960,
@@ -1244,6 +1260,7 @@
    "t1_ms": 729920,
    "speaker": "Management",
    "text": "as enterprises connect and operate agents over real time operational, analytical, and unstructured data. Customers are also rapidly deploying our AI optimized databases, including Postgres SQL, SQL DB, Hyperscale, Cosmos DB to give agents fast secure access to the data and context they need. Postgres SQL growth accelerated for the fourth consecutive quarter and the number of Postgres SQL customers also using Foundry accelerated to 90% year over year. We also have one of the most important databases for any enterprise, which is the knowledge underneath Microsoft 365 spanning people, their relationships, documents,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 688680,
@@ -1319,6 +1336,7 @@
    "t1_ms": 772120,
    "speaker": "Management",
    "text": "emails, meetings, chats, projects, and other artifacts. WorkIQ makes this context available to every agentic workload. And with Microsoft IQ, we're bringing together WorkIQ, FabricIQ, and FoundryIQ as a unified context for agentic systems. Nearly 60,000 customers are accessing context across Microsoft IQ up 25% quarter over quarter. As enterprises deploy more agents, they also need to govern them at scale. With Agent 365, we provide a platform for AI observability, enabling customers to manage, secure, and optimize the performance and cost of their agents.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 729920,
@@ -1382,6 +1400,7 @@
    "t1_ms": 816640,
    "speaker": "Management",
    "text": "Over 50 million agents are now in the registry up over 30% quarter over quarter. And finally, as agents gain greater access to enterprise data and systems, security becomes even more critical. Our approach is to separate intelligence from authority, enforcing identity permissions, monitoring, and containment outside the model itself. Last week, we expanded perception with new capabilities to help customers secure and contain agentic insiders, including expanded agent discovery across local and cloud environments, dynamic permissions that enforce least privileged access for each task, and continuous risk assessment. We also introduced teams of guardian agents",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 772120,
@@ -1453,6 +1472,7 @@
    "t1_ms": 860320,
    "speaker": "Management",
    "text": "that continuously monitor agent activity to help prevent unsafe actions before they occur. And we are seeing encouraging feedback on perception overall from preview customers, including KPMG, Nationwide Building Society, Northern Trust, CELENTAS. More broadly, we are helping customers secure and govern AI use across the enterprise. Customers have used Microsoft Purview to audit over 7.6 billion agent activities to date up 5X quarter over quarter. Underlying everything I've talked about so far is our infrastructure. We are building against a growing book of business with a fungible fleet that allows us to dynamically allocate capacity to the highest value opportunities",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 816640,
@@ -1528,6 +1548,7 @@
    "t1_ms": 903560,
    "speaker": "Management",
    "text": "across compute data, foundry, and co-pilot. Accelerating demand led to us adding 24 new data centers across five continents this quarter. And we are bringing capacity online faster, reducing doctor lifetimes by about 20% quarter over quarter for new GB 300s in our biggest regions, which make up the majority of the GPU deployments. At the same time, we continue to get more from the infrastructure we already have by optimizing across the data center design, silicon systems, software, and models. For example, we increased the throughput for co-pilot workloads by over 50% quarter over quarter. We continue to scale our fleet",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 860320,
@@ -1599,6 +1620,7 @@
    "t1_ms": 948440,
    "speaker": "Management",
    "text": "with the latest innovations from Nvidia AMD alongside our own Maya systems. We have docked our first Nvidia VeroRubin GPUs and are very excited about it. Maya 200 is already delivering up to 1.7 times more tokens per watt across the AI experiences in Teams and co-pilot, and Maya 300 will drive further gains delivering 40% more tokens per watt compared to the leading GPU-based systems. Our growth extends beyond GPUs. We continue to see strong adoption of our cloud native Cobalt CPUs, improving price performance for general purpose cloud workloads. All up Azure growth was brought based across both enterprises and small and medium business segments",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 903560,
@@ -1682,6 +1704,7 @@
    "t1_ms": 992840,
    "speaker": "Management",
    "text": "and spanning both core cloud services and AI infrastructure. Finally, let me turn to devices and consumer. In Windows, we are executing on our vision to bring hybrid intelligence to every desk and every home, making every PC the secure agent box. As more capable models run locally, we see an opportunity to make it more intelligence effectively unmetered. We are working with the broader hardware ecosystem to bring these capabilities to a new generation of PCs across AMD's Ryzen AI 400 series, Intel Core Ultra Series 3, Qualcomm Snapdragon X2 series. And earlier this month, we also announced new PCs powered by Nvidia's RTX Spark and DGX Station for Windows. With these new devices,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 948440,
@@ -1761,6 +1784,7 @@
    "t1_ms": 1035079,
    "speaker": "Management",
    "text": "you can run last year's frontier models on your laptop and last quarter's model at your desk. We are bringing together Windows and Agent 365 so agents can work with secure boundaries on device. We introduced Microsoft Execution Containers, a policy-driven execution layer that governs and contains agents across Windows and other platforms integrated with Agent 365 for governance and observability. Agents like OpenAI Codecs, Anthropic Cloud Code, Meta, Muse are adopting MXC, and customers like Meta are starting to deploy it across their enterprise environments. In search and advertising, Bing and Edge once again took share.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 992840,
@@ -1832,6 +1856,7 @@
    "t1_ms": 1077480,
    "speaker": "Management",
    "text": "In LinkedIn, engagement continues to deepen across our more than 1.4 billion members, with time spent viewing content in the feedup, 15% year over year. And finally in gaming, we remain focused on building great games and reaching players wherever they choose to play across console, PC, mobile, and cloud. Minecraft delivered a record quarter, reaching all-time highs in both engagement and revenue, while World of Warcraft had its largest beta in franchise history. We enter the holiday season with one of our strongest first and third party lineups in years, including Modern Warfare 4, which launched last week, to the best reviews for a Call of Duty game in more than a decade,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1035079,
@@ -1911,6 +1936,7 @@
    "t1_ms": 1122080,
    "speaker": "Management",
    "text": "and Grand Theft Auto 6, which is coming to Xbox next month. In closing, based on the demand we see, the strength of our products and the efficiency we are driving across the stack, I've never been more confident in the long-term returns for our investments. With that, let me turn it over to Amy. Thank you, Satya, and good afternoon, everyone. Our results exceeded expectations across revenue, operating income, and earnings per share, driven by strong demand across the Microsoft Cloud. This quarter, revenue was $92.3 billion, up 19%. Gross margin dollars increased 17%, and gross margin percentage was 68%. Operating income increased 21% and 22% in constant currency. Earnings per share was $4.89,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1077480,
@@ -1990,6 +2016,7 @@
    "t1_ms": 1165800,
    "speaker": "Management",
    "text": "an increase of 18% and 19% in constant currency when adjusted for the impact for our investment in OpenAI. And FX was roughly in line with guidance. Operating expenses increased 6%, driven by continued investments in R&D compute capacity and talent. Operating margins increased slightly year over year to 50%, driven by strong revenue growth, platform efficiency gains, and focused investments across our portfolio, partially offset by sales makeshift to Azure. When adjusted for the impact for our investments in OpenAI, other income and expense was negative $234 million, slightly lower than expected. Capital expenditures were $45.2 billion, as some third-party capacity deliveries",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1122080,
@@ -2073,6 +2100,7 @@
    "t1_ms": 1209880,
    "speaker": "Management",
    "text": "we expected in Q1 were delayed. Roughly three quarters of our CapEx was for short-lived assets, primarily CPUs and GPUs, including higher memory and storage costs, as we continue to invest in the infrastructure required for our customers to build and scale AI applications. The remaining spend was for long-lived assets. This quarter, finance leases were $7.4 billion. As a reminder, we recognize the full principal value of finance leases in CapEx at the time of lease commencement. And cash paid for PP&E was $39.4 billion. Cash flow from operations was $58 billion, up 29%, driven by strong cloud billings and collections. And free cash flow was $18.6 billion, reflecting higher capital expenditures.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1165800,
@@ -2152,6 +2180,7 @@
    "t1_ms": 1253080,
    "speaker": "Management",
    "text": "And finally, we returned $10.2 billion to shareholders through dividends and share repurchases. Now to our segment results, reported under the updated segment structure announced in September. Revenue from agents and infra was $76.8 billion and grew 25%, reflecting strength across the connected layers of our platform. Commercial bookings decreased 12% and 11% in constant currency, driven by the impact from large Azure commitments in the prior year, partially offset by healthy growth in our commercial sales motions, including a large Azure commitment this quarter. Commercial remaining performance obligation grew 73% to $677 billion, with a smaller sequential decline",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1209880,
@@ -2227,6 +2256,7 @@
    "t1_ms": 1296360,
    "speaker": "Management",
    "text": "relative to historical seasonality due to the large Azure commitment this quarter. Our RPO has a weighted average duration of 2.3 years, and roughly 30% will be recognized in revenue in the next 12 months, up 29% year over year. The remaining portion, recognized beyond the next 12 months, increased 98%. Now to Microsoft Cloud. Revenue was $63.9 billion and growth accelerated to 30% and 31% in constant currency, with sequential dollars added nearly doubling year over year, reflecting strong demand across Azure and M365 commercial cloud. Azure revenue was ahead of expectations and increased 48%, even with the 3P capacity delays",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1253080,
@@ -2302,6 +2332,7 @@
    "t1_ms": 1339720,
    "speaker": "Management",
    "text": "noted earlier, driven by Foundry and improved CPU monetization. Foundry revenue more than tripled year over year, with upside driven by efficiency gains across our GPU fleet that allowed us to allocate additional capacity to customers, as well as higher revenue per token that we benefited from in the quarter. Across our CPU fleet, engineering work enabled us to identify and monetize underutilized capacity this quarter, helping us serve more of the growing demand with our existing capacity. The timing of engineering efficiencies like these, as well as 3P GP lease deliveries, our own capacity build-outs, and ARPU changes from Model Mix can create quarterly variability",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1296360,
@@ -2373,6 +2404,7 @@
    "t1_ms": 1383080,
    "speaker": "Management",
    "text": "in the year over year growth rate. M365 commercial cloud revenue increased 18% and 19% in constant currency, when adjusted for the prior year comparable that benefited from one point of in period revenue recognition. On a reported basis, revenue growth was 17% and 18% in constant currency. Results were ahead of expectations, driven by stronger GitHub copilot adoption and usage, partially offset by weaker sales execution in our M365 E3 and standalone SKUs. We continue to evolve our sales motions to balance those more traditional SKU per seat rhythms with the newer premium E7, M365 copilot, and usage-based productivity offerings.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1339720,
@@ -2444,6 +2476,7 @@
    "t1_ms": 1424120,
    "speaker": "Management",
    "text": "Year over year growth was driven by both ARPU and seats. ARPU growth was led by our premium seat-based offerings, including M365 copilot, E5, and E7, which has already reached millions of paid seats, with additional contribution from usage-based offerings, primarily GitHub copilot. And copilot revenue growth accelerated quarter over quarter with continued adoption across M365, GitHub, and security. Paid M365 commercial seats grew 5%, with some impact from the weaker sales execution noted earlier. Growth was driven by install-based expansion across all customer segments, though primarily in our SMB and frontline worker offerings.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1383080,
@@ -2515,6 +2548,7 @@
    "t1_ms": 1468720,
    "speaker": "Management",
    "text": "M365 consumer cloud revenue increased 17% and 16% in constant currency, down sequentially as we begin to lap the benefit from the price increase in the prior year. Productivity and server licensing revenue decreased 3% and 2% in constant currency, primarily driven by a decrease in transactional purchasing, as we lapped the benefit from product launches in the prior year, partially offset by a greater mix of contracts that carry higher in-period revenue recognition. Industry Solutions Cloud revenue increased 10%, with growth in Dynamics 365 and LinkedIn Talent Solutions, though booking trends continued to moderate. And in Frontier and Support Services, revenue increased 4% and 5% in constant currency, driven by support.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1424120,
@@ -2598,6 +2632,7 @@
    "t1_ms": 1511880,
    "speaker": "Management",
    "text": "Microsoft Cloud gross margin percentage declined your over a year to 66%, driven by sales mix shift to Azure, partially offset by product level margin improvements, primarily in Azure. And for this segment, gross margin dollars increased 20% and 21% in constant currency, operating expenses increased 10%, driven by the R&D investments noted earlier. Operating income grew 24% and 25% in constant currency, and operating margins decreased slightly year over year to 53%, as strong revenue growth, platform efficiency gains, and focused investments across our portfolio were more than offset by sales mix shift to Azure. Now to devices and consumer.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1468720,
@@ -2677,6 +2712,7 @@
    "t1_ms": 1556240,
    "speaker": "Management",
    "text": "Revenue was $15.5 billion and declined 3%. Search and advertising revenue Extac increased 12% and was ahead of expectations, driven by higher volume and rate across LinkedIn, Edge, and Bing. Xbox revenue decreased 2%, and Xbox content and services revenue decreased 2% and 1% in constant currency, driven by declines in third-party content and partially offset by growth in first-party content. And Windows OEM and devices revenue decreased 22%. Windows OEM revenue was below expectations and decreased 27% and 28% in constant currency, driven by the Windows 10 end of support demand in the prior year, inventory drawdowns by OEM and channel partners,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1511880,
@@ -2752,6 +2788,7 @@
    "t1_ms": 1599600,
    "speaker": "Management",
    "text": "and weaker PC market demand. Inventory levels remain elevated. Segment gross margin dollars were relatively unchanged year over year, and operating margins increased 3%, driven by Xbox, partially offset by the continued investments in R&D, noted earlier. Operating income increased 2% and 3% in constant currency, and operating margins increased year over year to 35%, driven by lower amortization of intangible assets from the Activision acquisition, partially offset by the impact from a lower mix of Windows OEM revenue. Now, moving to the outlook for our second quarter, which, unless specifically noted otherwise, based on current rates, we expect FX to have no meaningful impact on total revenue,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1556240,
@@ -2831,6 +2868,7 @@
    "t1_ms": 1642520,
    "speaker": "Management",
    "text": "COGs, or operating expense growth, or on revenue growth in either segment. Starting with segment guidance, we expect revenue from agents and infra of 80.1 to 80.7 billion US dollars, or growth of 24 to 25%. In commercial bookings, we expect healthy growth in our commercial sales motions, though results will be impacted by the significant Azure commitments signed in the prior year. Timing related to significant Azure commitments like these will result in material volatility in bookings, making quarterly growth rates less indicative of underlying sales execution. In Azure, we expect revenue growth of 49 to 50% in constant currency, with continued efficiency gains",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1599600,
@@ -2914,6 +2952,7 @@
    "t1_ms": 1686600,
    "speaker": "Management",
    "text": "across our CPU and GPU fleet, helping to offset some 3P GPU as a service contracts that have been delayed to H2. Customer demand continues to exceed available supply. And looking beyond Q2, year over year growth will continue to reflect the timing and scale of engineering efficiencies delivered in the quarter, and new capacity adds, as well as a strong prior year comparable that included accelerating growth in the second half. In M365 commercial cloud, we expect growth of approximately 19% in constant currency, with FX expected to reduce reported growth by less than a point. We expect continued momentum across our premium per-seat offerings and usage-based offerings, along with some improvement in execution across E3",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1642520,
@@ -3001,6 +3040,7 @@
    "t1_ms": 1730880,
    "speaker": "Management",
    "text": "and our standalone SKUs. Growth will be driven primarily by ARPU, with additional contribution from SEATs. And we continue to expect revenue growth to accelerate through the year. M365 consumer cloud revenue should grow in the low teens, down sequentially as we lapped the price impact noted earlier. Productivity and server licensing revenue should decline in the mid to high single digits, down sequentially due to a lower expected mix of contracts that carry higher in period revenue recognition. Quarterly growth can vary materially based on contract mix, product launch timing, and other transactional purchasing trends. In industry solutions cloud, we expect revenue growth to be in the mid to high single digits, with continued impact from the bookings trends noted earlier.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1686600,
@@ -3092,6 +3132,7 @@
    "t1_ms": 1775760,
    "speaker": "Management",
    "text": "And in front tier and support services, we expect revenue to grow in the low to mid single digits. Microsoft cloud gross margin percentage should be roughly 65% down year over year, as continued improvement in product level margins is more than offset by sales mix shift to Azure. In devices and consumer, we expect revenue to be 15.9 to 16.4 billion US dollars. Search and advertising revenue ex-tech growth should be in the low double digits, driven by consistent trends in rate and volume. With overall search and advertising revenue expected to grow at a similar rate. And in Xbox content and services, we expect revenue growth to be in the mid to high single digits up sequentially, driven by the timing of content launches across both third and first party.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1730880,
@@ -3179,6 +3220,7 @@
    "t1_ms": 1817880,
    "speaker": "Management",
    "text": "With content launch patterns through the year, we expect growth to be the strongest in the second quarter with some deceleration in Q3 and further moderation in Q4. Hardware revenue in Q2 should decline year over year. Windows OEM and devices revenue should decline in the mid thirties. Growth will continue to be impacted by elevated inventory levels, PC market demand, and a prior year comparable that benefited from Windows 10 end of support. As in prior quarters, the range of potential outcomes remains wider than normal. We expect these trends to continue through the rest of the fiscal year. Therefore, at a total company level, revenue should be between 96 and 97.1 billion US dollars or growth of 18 to 19%.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1775760,
@@ -3262,6 +3304,7 @@
    "t1_ms": 1860880,
    "speaker": "Management",
    "text": "We expect COGS at 32.7 to 32.9 billion US dollars or growth of 26 to 27% and operating expense of 18.5 to 18.6 billion US dollars or growth of 9% driven by continued investment in R&D compute capacity and talent. Our cost guidance across both COGS and OPEX includes an estimate for the recently announced employee voluntary exit offer. Operating margins should be down slightly year over year. Excluding any impact from our investments in OpenAI, other income and expense is expected to be roughly negative $300 million as interest income will be more than offset by interest expense, which includes the interest payments related to data center finance leases. And we expect our Q2 effective tax rate",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1817880,
@@ -3337,6 +3380,7 @@
    "t1_ms": 1903240,
    "speaker": "Management",
    "text": "to be approximately 20%. Next, capital expenditures. In Q2, we expect CapEx spend will be over $50 billion. Therefore, for the calendar year, spend should be approximately $170 billion due to the three P capacity delays noted earlier. In the second half of the fiscal year, we currently expect CapEx spend to accelerate primarily from CPUs inclusive of higher memory and storage costs and GPUs, as well as the three P capacity deliveries that shifted to H2. And as we continue to improve the efficiencies of our infrastructure, each dollar of CapEx has the potential to support more revenue and higher returns over time. Given our strong business performance, we expect to continue to remain",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1860880,
@@ -3420,6 +3464,7 @@
    "t1_ms": 1947080,
    "speaker": "Management",
    "text": "free cashflow positive and FY27. To compliment cash generated by the business and preserve financial flexibility, we will access additional sources of funding when we believe it is attractive to do so. In closing, we are off to a strong start to FY27 with accelerated growth across the Microsoft cloud. Product improvements, along with efficiency gains across our data center infrastructure and our first party apps and agents are increasing the value and improving the outcomes we deliver to our customers. Delivering that value to our customers positions us for durable long-term growth. With that, let's go to Q&A, Jonathan. Thanks, Amy. We'll now move over to Q&A. Out of respect for others on the call,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 1903240,
@@ -3503,6 +3548,7 @@
    "t1_ms": 1955920,
    "speaker": "Management",
    "text": "we request the participants please only ask one question. Operator, can you please repeat your instructions?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1947080,
@@ -3522,6 +3568,7 @@
    "t1_ms": 1960000,
    "speaker": "Operator",
    "text": "Thank you. Ladies and gentlemen, if you would like to ask a question,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1955920,
@@ -3541,6 +3588,7 @@
    "t1_ms": 1964560,
    "speaker": "Analyst",
    "text": "please press star one on your telephone keypad",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1960000,
@@ -3556,6 +3604,7 @@
    "t1_ms": 1993330,
    "speaker": "Operator",
    "text": "and a confirmation tone will indicate your line is in the question queue. You may press star two if you would like to remove your question from the queue. For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys. One moment please as we pull for questions. And our first question comes from the line of Adam Wood with Morgan Stanley. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1964560,
@@ -3611,6 +3660,7 @@
    "t1_ms": 2022740,
    "speaker": "Analyst",
    "text": "Hi, thanks so much. Thank you. I'm very excited to be here alongside low-end expected capex and those better cloud growth volume sequentially. Can I ask as incremental AI capacity comes online, what do you see as likely to be the more important driver of returns over the next few years, improving utilization and unit costs within Azure or your ability to monetize more layers of each workload across fabric, foundry and co-pilot?",
+   "name": "Adam Wood, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 1993330,
@@ -3662,6 +3712,7 @@
    "t1_ms": 2066620,
    "speaker": "Management",
    "text": "Thanks for the question Adam. I'd say all of you about. But I think the way we're coming at this is we have one pool and we wanna get the pool to be as efficient and fungible. That's sort of the place where if I sort of think about all of the physics of how we're building out the data centers, all the operational rigor with which we can bring up the capacity. And then of course, how do we run the workloads that are optimized on that infrastructure? And once you do that, then it's just a function",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2022740,
@@ -3725,6 +3776,7 @@
    "t1_ms": 2111060,
    "speaker": "Management",
    "text": "of how we allocate it by looking at the demand signal. And even there, even in our new segment reporting, I think you kind of see it, which is co-pilot, co-pilot stateful database underneath it is work IQ. That gets used in foundry, which is where people will build, let's say a multi-agent system for supply chain that spans both unstructured and structured. Of course, it uses a post-cris database in Azure. And so, and then by the way, all the agentic work is registered in the agent 365 and perception manages the security of it.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2066620,
@@ -3784,6 +3836,7 @@
    "t1_ms": 2145140,
    "speaker": "Management",
    "text": "So to us at least, we look at all of this as the same infrastructure. Of course, we report to you in a variety of different products. But your core question of where is the margin gonna come from? Where's the leverage is gonna come from? It's not gonna come from any one, it's gonna come from every one of them. And it compounds when we work them across. I think that's, and Adam, I'm sorry if we missed the front half of your question. I think we at least cut. Thanks Adam.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2111060,
@@ -3851,6 +3904,7 @@
    "t1_ms": 2147660,
    "speaker": "Analyst",
    "text": "Yeah, it's very helpful, thank you.",
+   "name": "Adam Wood, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2145140,
@@ -3866,6 +3920,7 @@
    "t1_ms": 2151020,
    "speaker": "Management",
    "text": "All right, the next question please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2147660,
@@ -3881,6 +3936,7 @@
    "t1_ms": 2156060,
    "speaker": "Operator",
    "text": "The next question comes from the line of Carl Kirsted with UBS. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2151020,
@@ -3904,6 +3960,7 @@
    "t1_ms": 2188180,
    "speaker": "Analyst",
    "text": "Okay, thank you. Amy and Sasha, I'm wondering if you could unpack what I thought was one of the key metrics from this call and that is the guidance for Azure growth of 49 to 50% constant currency in December. I can imagine there's a number of variables, the capacity you're putting up, the allocation to third party customers, probably open AI strength, but perhaps you could comment a little bit on what some of the key drivers are given how good that number seems at least to me. Thank you.",
+   "name": "Carl Kirstead, UBS",
    "parts": [
     {
      "t0_ms": 2157260,
@@ -3967,6 +4024,7 @@
    "t1_ms": 2233740,
    "speaker": "Management",
    "text": "Thanks Carl for the question. Maybe I'll start by talking a little bit about Q1 and I think that'll help to think through Q2 and even going forward. And it's not unrelated really to Adam's question at some level as well. In Q1, I would say the engineering teams have really delivered very, very good work in terms of improving efficiency at the platform layer. That is not just a statement around the efficiency of GPUs. It's a statement around the efficiency of every layer, how the app utilizes the platform and how Foundry utilizes the platform as well as the Azure platform itself.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2189860,
@@ -4034,6 +4092,7 @@
    "t1_ms": 2277420,
    "speaker": "Management",
    "text": "Those efficiencies, they're sort of ground out every week and you have good ideas, a lot work, some don't, and you stay at it. So they're not maybe as predictable in terms of how much impact we'll get in quarter. Q1, they did a very good job and you saw some of that result in us being able to put more allocation into Foundry in the quarter. That's a great thing because we're, as I said in the call, we still have demand that exceeds supply. So where we can have our engineering teams deliver those efficiencies, we do really try to put it into Foundry when we can",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2234700,
@@ -4105,6 +4164,7 @@
    "t1_ms": 2319260,
    "speaker": "Management",
    "text": "because it's so important as Satya talked about into how customers broadly are building what I would call against the new stack. Secondly, and you mentioned it, token pricing will create a little bit of variability. We had higher token pricing than we expected in the quarter with some high quality models that we're able to take advantage of and see good margins on do benefit us in the quarter. That did happen in Q1. And I think also in that number in Q1 was the efficiency that I talked about applied not just to our GPU fleet, but I think people sort of underestimated",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2277420,
@@ -4176,6 +4236,7 @@
    "t1_ms": 2363980,
    "speaker": "Management",
    "text": "when the example Satya gave for Adam's question, that's a GPU, CPU storage memory workload. I mean, it takes all of the pieces. And so our ability to also create additional capacity within our existing fleet gave us some room to be able to convert that actually pretty quickly as well in Q1. So in Q2, we've got those efficiency grains, which is great, and those will continue into Q2. We need to find some more, which we're counting on, enable to get to that guidance that I gave because I have faith in the team's work in Q1 continuing into Q2, but we also need that work",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2319260,
@@ -4239,6 +4300,7 @@
    "t1_ms": 2395900,
    "speaker": "Management",
    "text": "to be able to help us a little bit because we had some supply we were counting on Q2 move out into H2. And so I think, and to your point, there's also some unknown on some token pricing through the quarter, that stuff can change. So I think I feel good in terms of the efficiency gains that we saw when we're able and when I'm able to see those and put them in, I feel good about guiding to that. But as other things are less predictable, I hope that's helpful on the levers, Carl.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2363980,
@@ -4298,6 +4360,7 @@
    "t1_ms": 2398910,
    "speaker": "Analyst",
    "text": "Yeah, it is. Thanks, Amy.",
+   "name": "Carl Kirstead, UBS",
    "parts": [
     {
      "t0_ms": 2395900,
@@ -4313,6 +4376,7 @@
    "t1_ms": 2401870,
    "speaker": "Management",
    "text": "Thanks, Carl. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2398910,
@@ -4332,6 +4396,7 @@
    "t1_ms": 2409390,
    "speaker": "Operator",
    "text": "The next question comes from the line of Mark Murdler with Bernstein Research. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2403590,
@@ -4355,6 +4420,7 @@
    "t1_ms": 2455190,
    "speaker": "Analyst",
    "text": "Thank you very much for taking my question. Congratulations on the solid quarter and the solid guidance. It's really nice to see how well you guys are executing. I'd like to get a sense on the drivers of the AI strength in Azure being from enterprise versus digitally native in general, or AI native. With inferencing starting to RAM and Microsoft to go to for enterprises, how should we think, Amy, about the mix of enterprise customer workloads within overall workloads at this point? And Satya, with the strong growth of the Azure AI platform offering, can you give us color on what's driving that? Is it, again, enterprise? Is it digitally native?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2410270,
@@ -4430,6 +4496,7 @@
    "t1_ms": 2460550,
    "speaker": "Analyst",
    "text": "Obviously, it's a mix of both, but any color that shows the ramp of that enterprise, I think, would be valuable.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2455190,
@@ -4453,6 +4520,7 @@
    "t1_ms": 2506190,
    "speaker": "Management",
    "text": "Yeah, thanks for the question, Mark. Maybe I'll start and maybe you can add to it. I was even in Europe just last week, and it was great to see the quality of the agentic systems that are just broadly getting deployed. When Uniliver deploys, what is their automated auto-taking and trade coupon dispute management stuff, all as a fully agentic, touchless system. Rolls-Royce deploys a system to really manage all of their maintenance of whatever their, their jet engines with 30,000 parts,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2461790,
@@ -4512,6 +4580,7 @@
    "t1_ms": 2550150,
    "speaker": "Management",
    "text": "a pretty complex supply chain, both planning, execution, inventory management systems, all built on foundry, agentic systems. RBI, which is an Austrian bank, showed me 20 plus business processes end to end, and they were talking about whether it's for credit or what have you, how they are able to now do that so much more optimally. So the breadth, the quality, their ability, oh, by the way, the multimodal nature of it. They start with a frontier model. Many of them, in fact, the Uniliver one, they just dropped an MAI model trained using our traces. So even the degree of sophistication",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2506190,
@@ -4579,6 +4648,7 @@
    "t1_ms": 2594590,
    "speaker": "Management",
    "text": "of what I think of as model optimization, workload optimization, token optimization, was just great to see. So the breadth is starting. Finally, it does feel like the enterprise workloads. They feel like to me, like the database, the applications enterprises built in the past that I grew up with, are happening now when it comes to AI. And in fact, if anything, some of the, the shiny object stuff is waning, right, which is not about the next big thing. They're really more about, wow, can I build a system? Can I own the weights? Can I manage my costs? Can I have reliability? What about security?",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2550150,
@@ -4658,6 +4728,7 @@
    "t1_ms": 2636030,
    "speaker": "Management",
    "text": "And so in that sense, the enterprise breadth motion is starting. But like everything else, the enterprise stuff is not like a quarter over quarter. It's a decade long thing. And that's what I've been waiting for as opposed to like four customers who buy a lot of capacity from you and you can show a few quarters of growth. And that's not a business as far as I'm concerned. So I want the breadth. We are well positioned on the breadth. And we have large customers who wanna buy from us and we're open for business with it. And as long as the pricing is right, we may sell them some. If not, we will be patient",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2594590,
@@ -4737,6 +4808,7 @@
    "t1_ms": 2645440,
    "speaker": "Management",
    "text": "about building the breadth business. Operator, next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2636030,
@@ -4756,6 +4828,7 @@
    "t1_ms": 2651880,
    "speaker": "Operator",
    "text": "The next question comes from the line of Gabriella Borges with Goldman Sachs. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2645440,
@@ -4779,6 +4852,7 @@
    "t1_ms": 2687040,
    "speaker": "Analyst",
    "text": "Hi, good evening. Thank you. Sachs, I wanna stay on this topic of breadth because you had a comment in the prepared remarks talking about how MEI can now be comparable to leading models within three to six months of their release. At the same time, you have OpenAI at 11% of revenue in the quarter. So maybe just take a step back and give us your latest thinking on how you think token mix and token value is going to evolve between the frontier MEI and maybe what some of your more sophisticated enterprise customers are doing from a proprietary AI strategy standpoint. Thank you.",
+   "name": "Gabriela Borges, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2652840,
@@ -4858,6 +4932,7 @@
    "t1_ms": 2731640,
    "speaker": "Management",
    "text": "Yeah, so I think, in fact, I would say you should think of three things perhaps in the toolbox for any workload. The first is a new model drops and it's got some great performance and you can eval max on whatever that matters to you, by the outcome that matters to you by using it, people should use it. We saw that with some of the OpenAI models in the last quarter, they were fantastic models and we're obviously very thrilled about the progress OpenAI has made with Astra and also what's to come and I thought we saw some good demand on that. Then the next thing people do is, hey, can I actually put multiple of the frontier models",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2688120,
@@ -4933,6 +5008,7 @@
    "t1_ms": 2773720,
    "speaker": "Management",
    "text": "because these have very different prices. In fact, this morning artificial analysis had what I think is the real benchmark which is the coding agents using our fusion and I think we were number two or number three there, which is awesome to see, right? Which is you can now get frontier performance 45% faster, 75% cheaper. Like who would want to not take that, right? Which is like if you're a coding agent user, you want in fact, Anthropic and OpenAI by the way, to compete for your workload, not like once a quarter, but for every task and that to me is what the value",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2732920,
@@ -4996,6 +5072,7 @@
    "t1_ms": 2816520,
    "speaker": "Management",
    "text": "of these routers and auto fusion stuff routing does and we are very excited about it. And then the last thing is another important one. A lot of customers are saying, hey look, take the Unilever one, right? It's their system. They will ultimately take even the traces after having done even a bunch with frontier models and they just want to train their own model. So it can be open weight or in this case, it was MAI model. And so I think all of that needs to be as options that are available and then depending on pricing, depending on the need of the customer, they will exercise it and there's a temporality to it.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2773760,
@@ -5071,6 +5148,7 @@
    "t1_ms": 2860070,
    "speaker": "Management",
    "text": "It's never like, oh, I start one place and that's where I stop, right? It's like I may start at the frontier, I may go to an open weight, I may go to an MAI model, I may go back to the frontier for the next drop for a few months, come out. Like that's how I think how dynamic these workloads are and that's where when we think about foundry or when we think about fabric or when we think about co-pilot and get a co-pilot, we really want to build a model system that delivers customers value continuously versus them being stuck in any one thing. Thank you for the talk. Thanks Gabriella. Operator, next question, please.",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 2816520,
@@ -5146,6 +5224,7 @@
    "t1_ms": 2865350,
    "speaker": "Operator",
    "text": "The next question comes from the line of Brent Phil with Jefferies. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2860070,
@@ -5169,6 +5248,7 @@
    "t1_ms": 2891110,
    "speaker": "Analyst",
    "text": "Thanks, Amy. Good to see as you're approaching 50%. You have another line item approaching 50% and that's your operating margin. I think many ask, how can you sustain this level of growth with a 50 on the top and a 50 on the bottom? Maybe you can discuss the operational improvements you continue to put forward to maintain that high level on the bottom line.",
+   "name": "Brent Thill, Jefferies",
    "parts": [
     {
      "t0_ms": 2866790,
@@ -5220,6 +5300,7 @@
    "t1_ms": 2936410,
    "speaker": "Management",
    "text": "Thanks, Brent. Let me first say, the best solution here is revenue growth. And so I would say I tend to start and focus there even though I think many people seem to think I start at the bottom of the P&L and work up. The right answer is you always start at the top of the P&L and work down. And so what we've been focused on, and I think really it's almost inherent in all of the commentary is we change segments because we're changing how we deliver products and services to customers. We're changing it because we're delivering new and different products with a lot of value in them. And those products are far more integrated than they were before.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2893550,
@@ -5299,6 +5380,7 @@
    "t1_ms": 2981050,
    "speaker": "Management",
    "text": "I think when you see that revenue accelerate at the top line, of course, it does in a pretty healthy way contribute to positive margin and positive margin dollars, which I think I need people to also focus on. The second piece is there's real focus on efficiency because efficiency, when we say the word, I think people believe it's cost related. The outcome is cost related, but the real benefit of efficiency is stability, it's security, it's reliability, is that it delivers the highest quality unit at the lowest possible cost. And so it's operational excellence. And so I think when you think about,",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2936410,
@@ -5370,6 +5452,7 @@
    "t1_ms": 3024130,
    "speaker": "Management",
    "text": "you can deliver product excellence, which is what we're really focused on. I think we did a very good job on product quality in the past quarter, which I think teams should be proud of in lots of places. I think then you have this sort of operational focus on improvement. And then it is a real focus. And I think that's what we've done in terms of operating expense to make sure it's going toward building the new thing or providing security and quality. And I think that's, we've made, I think a very active choice to be really focused on those two things, especially in this environment and how important it is. And I think when you do those things",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 2981050,
@@ -5453,6 +5536,7 @@
    "t1_ms": 3055640,
    "speaker": "Management",
    "text": "and you happen to be in a good market with breadth and breadth in customers and you're able to deliver good results, this quarter in particular, when you're delivering a lot of efficiency games in a quarter and you can deliver revenue growth without spending additional costs, you of course see a benefit, which we did. But I feel good about what's behind that number, which is I think a focus on the right levers. All right, next question please.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 3024130,
@@ -5508,6 +5592,7 @@
    "t1_ms": 3138440,
    "speaker": "Management",
    "text": "Sorry about that. Our next question comes from the line of Brad Reback with Steeple. Great, sorry about that. I did not hear my name. On M365 consumption, when you all shifted GitHub from a per-seat model to a consumption model, it unlocked a ton of revenue growth for y'all. As you think about the tools in place now, unlocked on the consumption side for the core M365 customer, do you think the unlocks as fast and without sales effort or is it gonna take a fair amount of effort to get those meters spinning? Thanks. Yeah, thanks for the question. I think on the coding side,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3093650,
@@ -5591,6 +5676,7 @@
    "t1_ms": 3181880,
    "speaker": "Management",
    "text": "it will be faster just because I think people are used to paying on this pay goal as the sort of the general market and how it works. And if anything, hopefully, some of the things that we announced even at GitHub Universe today with Fusion are a more attractive way, right? Because you even, if you think about it, ready to buy a bunch of credits and you wanna use those credits most efficiently. That's the promise of GitHub Copilot Fusion. So we are very optimistic about making progress on that. And then when it comes to Copilot itself, right? We are trying to make sure that we, in some sense,",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3139960,
@@ -5658,6 +5744,7 @@
    "t1_ms": 3225000,
    "speaker": "Management",
    "text": "are driving more and more value into the subscription with every model drop and essentially consolidating the frontier gains for broad deployment. And in many instances, as my remark said, IT funds this, right? That's the thing that you wanna have standard issue across the board. And at the same time, you have your pay as you go or consumption meters for places where you need it. And so both of those options are open. And I think that's why the fact, in the Copilot, they may reference which is we're trying to make sure that customers understand both options. They're able to use the two options",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3181880,
@@ -5725,6 +5812,7 @@
    "t1_ms": 3267480,
    "speaker": "Management",
    "text": "in the optimal way that benefits them. We don't want them to overbuy one thing and then feel like they're token maxing because that doesn't serve anybody's purpose. We wanna make sure that they understand the value of the subscription and how it is continually improving value, which is not even static. And at the same time, you can exercise this consumption meter. And so that's a little bit of the degree of sophistication in both in our sales motions, even a customer's understanding that's I think coming together. We feel very good about the progress, but a lot more to do. And I think I would say it's also why we've made the investment into the Frontier company",
+   "name": "Satya Nadella, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 3225000,
@@ -5804,6 +5892,7 @@
    "t1_ms": 3311760,
    "speaker": "Management",
    "text": "here coupled with changes in our sales motion, which I talked a little bit about. We need both of those things to make sure customers are, because what I think, Safia, is we want them to utilize both the Copilot license to its fullest and understand when the consumption meter is delivering value to them. The investment in the FDE organization or the Frontier core as well as new motions within our modern work in Microsoft 365 sales teams are both meant to do that. And I think Safia's point, it will be a slower move outside of coding, but I also still think we're still seeing encouraging signs",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 3267480,
@@ -5875,6 +5964,7 @@
    "t1_ms": 3324260,
    "speaker": "Management",
    "text": "and I feel positive about that. Thank you. Thanks, Brad. Operator, we have time for one last question.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 3311760,
@@ -5902,6 +5992,7 @@
    "t1_ms": 3331100,
    "speaker": "Operator",
    "text": "The next question will come from the line of Tal Lianing with Bank of America. Please proceed.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3324260,
@@ -5925,6 +6016,7 @@
    "t1_ms": 3359360,
    "speaker": "Analyst",
    "text": "Hey, just clarification on something you just said. Did you disclose the Copilot numbers this quarter? But my question is more about the capital commitment or the capital strategy. You said in the preferred remarks that you will approach raising capital if need be in the future. Can you discuss your strategy around it between debt and equity and other sources? How do you intend to raise capital if need be? Thanks.",
+   "name": "Tal Liani, Bank of America",
    "parts": [
     {
      "t0_ms": 3332820,
@@ -5980,6 +6072,7 @@
    "t1_ms": 3403820,
    "speaker": "Management",
    "text": "Great, I'll take that. Listen, I think what I said is if it's attractive and makes sense, we're lucky, we have a lot of flexibility in terms of our capacity to raise financing. I've talked about this before. There's a form of financing called leasing and we've been using that one as a vehicle. There's also, we're fortunate to have access in the debt markets, given that where our rates, ratings are and sort of we haven't been able to, and we haven't yet, I would say, tap that. And then of course, there's other options. But I think the way I see it is we're feeling good that we're free cashflow positive. We feel good that the return on every dollar",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 3360340,
@@ -6055,6 +6148,7 @@
    "t1_ms": 3439260,
    "speaker": "Management",
    "text": "of CapEx we're spending, we're confident in that. And therefore, we feel like we have lots of options to be able to tap the financing markets when they make sense and they're attractive. And we did not disclose, to answer your direct question, an update on the copilot number of this quarter. We talked about momentum and revenue and usage. Thank you. Thanks, Hal. That wraps up the Q&A portion of today's earnings call. Thank you for joining us today and we look forward to speaking with all of you soon. Thank you all.",
+   "name": "Amy Hood, CFO",
    "parts": [
     {
      "t0_ms": 3403820,
@@ -6118,6 +6212,7 @@
    "t1_ms": 3445860,
    "speaker": "Operator",
    "text": "Thank you, this concludes today's conference. You may disconnect your lines at this time and we thank you for your participation.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3439260,
@@ -10272,6 +10367,7 @@
    "quote": "In devices and consumer, we expect revenue to be 15.9 to 16.4 billion US dollars.",
    "adj_ret_5m": -0.02790251157631496,
    "speaker": "Management",
+   "name": "Satya Nadella, Chairman and CEO",
    "vol_mult": 11.742214891203222,
    "spillover": "company"
   }
@@ -10285,6 +10381,7 @@
    "t0_ms": 1747120,
    "speaker": "Management",
    "quote": "In devices and consumer, we expect revenue to be 15.9 to 16.4 billion US dollars.",
+   "name": "Satya Nadella, Chairman and CEO",
    "metric": "Devices and consumer revenue",
    "kind": "guidance",
    "novel": true,
@@ -10409,7 +10506,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 8.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 964,
+   "cache_read_input_tokens": 49776,
+   "cache_creation_input_tokens": 19563
+  },
+  "claude_usd": 0.0635
+ },
  "context": {
   "ts": [
    "2026-10-28T21:15:00Z",

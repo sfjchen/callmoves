@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-29T17:00:00-04:00",
   "etf": "XLY",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/AMZN_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/AMZN_Q3-2026.mp3",
   "company": "Amazon",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 27280,
    "speaker": "Operator",
    "text": "Thank you for standing by. Good day everyone and welcome to the Amazon.com Q3 2026 Financial Results teleconference. At this time all participants are in a listen-only mode. After the presentation we will conduct a question and answer session. Today's call is being recorded. For opening remarks I'll be turning the call over to the Vice President of Investor Relations Mr. Dave Files. Thank you sir. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -47,6 +48,7 @@
    "t1_ms": 72480,
    "speaker": "Management",
    "text": "Hello and welcome to our Q3 2026 Financial Results conference call. Joining us today to answer your questions is Andy Jassy our CEO and Brian Olsoski our CFO. As you listen to today's conference call we encourage you to have our press release in front of you which includes our financial results as well as metrics and commentary on the quarter. Please note unless otherwise stated all comparisons in this call will be against our results for the comparable period of 2025. Our comments and responses to your questions reflect management views as of today October 29th 2026 only and will include forward-looking statements. Actual results may differ materially. Additional information about factors that could potentially impact our financial results is included in today's press release and our filings with the SEC",
+   "name": "Dave Fildes, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 28240,
@@ -94,6 +96,7 @@
    "t1_ms": 113920,
    "speaker": "Management",
    "text": "including our most recent annual report on form 10k and subsequent filings. During this call we may discuss certain non-GAAP financial measures in our press release slide accompanying this webcast and our filings with the SEC each of which is posted on our IR website. You will find additional disclosures regarding these non-GAAP measures including reconciliations of these measures with comparable GAAP measures. Our guidance incorporates the order trends that we've seen to date and what we believe today to be appropriate assumptions. Our results are inherently unpredictable and may be materially affected by many factors including fluctuations in foreign exchange rates and energy prices, changes in global economic and geopolitical conditions, tariff and trade policies, resource and supply volatility",
+   "name": "Dave Fildes, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 72480,
@@ -141,6 +144,7 @@
    "t1_ms": 152960,
    "speaker": "Management",
    "text": "including from memory chips and customer demand and spending including the impact of recessionary fears, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the internet, online commerce, cloud services and new and emerging technologies and the various factors detailed in our filings with the SEC. Our guidance assumes among other things that we don't conclude any additional business acquisitions or structuring or legal settlements. It's not possible to accurately predict demand for our goods and services and therefore our actual results could differ materially from our guidance. And now I'll turn the call over to Andy. Thanks Dave. We're reporting $201.9",
+   "name": "Dave Fildes, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 113920,
@@ -184,6 +188,7 @@
    "t1_ms": 195680,
    "speaker": "Management",
    "text": "billion in revenue up 12% year over year. Operating income was $28.1 billion of 61% year over year. Q3 was another strong quarter for Amazon. In AWS our plan is working. Despite lapping a comparable year over year period where we added a lot of capacity, AWS grew 39.3% year over year, accelerating for the sixth straight quarter, our fastest growth in nearly five years. Backlog is $578 billion growing triple digits year over year and well diversified. We're installing an AI accelerator about every 14 seconds and almost as fast as we install capacity, customers are gobbling it up. Our core compute and storage",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 152960,
@@ -223,6 +228,7 @@
    "t1_ms": 236000,
    "speaker": "Management",
    "text": "revenue grew at their fastest rates in several years. Our operating margins have long been strong on our core offering but rapidly improving on the AI side too, well ahead of where they were on core at a similar time of evolution. Even with heightened component costs like memory, a significant depreciation from the capex we're investing. We continue to accelerate our capex payback and have even more conviction than we already had that the investment we're making in AWS will yield a much larger revenue and free cash flow generating business than we would have imagined a couple years ago with strong return on invested capital. We have a compelling flywheel spinning in AWS borrowing from Jim Collins flywheel definition",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 195680,
@@ -266,6 +272,7 @@
    "t1_ms": 278160,
    "speaker": "Management",
    "text": "and good to great where if you do A you almost can't help but do B and if you do B you almost can't help but do C and so on. In AWS having the leading functionality security and operational performance can't help but drive customers to run their apps and store their data in AWS which can't help but drive AWS AI demand because customers prefer their production inference to be near the rest of their data and apps which can't help but drive core AWS demand because AI uses core for work like reinforcement learning post-training tool usage which can't help but drive reinvestment back into our broader AWS functionality. This is a different model in primarily hosting GPUs or renting short-term data center capacity.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 236000,
@@ -309,6 +316,7 @@
    "t1_ms": 320640,
    "speaker": "Management",
    "text": "This is a long-term platform strategy that broadly helps customers invent and evolve their customer experiences operate stably and build a reliable partnership they can grow for many years and it also yields very attractive long-term economics for us regardless of supply scarcity. There are many examples that illustrate our progress in AWS but I'll share a few. On the core side it's important to remember that the vast majority of global IT spend about 85 percent is still on premises and we're in a 10 to 20 year cycle where that equation will flip to the cloud. Conventional wisdom has been that linchpin workloads like mainframes or storage array networks would never move to the cloud but these workloads",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 278720,
@@ -352,6 +360,7 @@
    "t1_ms": 365040,
    "speaker": "Management",
    "text": "are moving as AWS has built unique cloud substitutes and AI driven migration capabilities to make this transition much easier and enterprises get the benefits of less capex, lower operating costs, faster innovation, better developer productivity, and data accessibility to more easily leverage AI. Our core business has attractive margins because we've learned to run it very efficiently over the last 20 years. As our core business grows we keep reinvesting in our core and AI functionality. For example, as customers generate increasingly more data and seek to get value from it in analytics and AI the complexity of moving data between data stores and analytics engines is onerous and expensive. With our acquisition of Duck Labs,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 320640,
@@ -395,6 +404,7 @@
    "t1_ms": 405360,
    "speaker": "Management",
    "text": "DuckDB will become the universal SQL dialect of AWS storage analytics, simplifying data processing with a modern analytics engine that is fast, simple to use, and ubiquitous and where customers will be able to write SQL queries once and then execute using any AWS analytics service. For the first time in analytics, customers will have zero migration or portability cost between query engines. This is a big deal and you can imagine how it will also help agents do efficient querying as well. On the AI side we continue to expand the capabilities of our inference service Amazon Bedrock and it's leading to remarkable growth with Fortune 500 companies",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 365040,
@@ -434,6 +444,7 @@
    "t1_ms": 446720,
    "speaker": "Management",
    "text": "spending nearly seven times more on Bedrock year over year and total Bedrock token volume growing nearly 17 times year over year. Bedrock is the fastest growing multi-billion dollar service in AWS's history. We recently added OpenAI models to Bedrock and usage is growing quickly. We also just added Bedrock managed versions of Kimi, GLM, and SpaceX models. You can't have a conversation about AI today without talking about security. It's another reason customers keep choosing Bedrock. We've designed Bedrock so customers' data remains secure and private. Inputs and outputs are never shared with model providers or used to train base models. When customers tune a foundation model,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 405360,
@@ -477,6 +488,7 @@
    "t1_ms": 487360,
    "speaker": "Management",
    "text": "we create a private copy specifically for their use and data is fully encrypted both in transit and arrest. As frontier models get more powerful, their surfacing software vulnerability is previously not found and at unprecedented rates. We built AWS Continuum to discover, prioritize, validate, and remediate code vulnerabilities and machine speed. It's already being used by customers like Capital One, IBM, Infor, Luminate, and Robinhood. In Q3, we announced that we'll integrate it into the tools where code is being written, Anthropics Cloud Code, OpenAI's Codecs, and AWS's Cura. The interest from customers exceeds",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 446720,
@@ -516,6 +528,7 @@
    "t1_ms": 529200,
    "speaker": "Management",
    "text": "anything we've ever seen for a new security service. Agents continue to be deployed at accelerating rates, many of which are being built on Bedrock Agent Core's building blocks. Tens of thousands of customers currently use Agent Core, deploying two times more agents with it in Q3 than the prior three quarters combined. In addition to building their own purpose-built agents, most companies will also use turnkey agentic services and we offer several to customers as well. Cura for coding, Amazon Connect for contact center agents, and Amazon Transform for migrations. They're all iterating quickly and picking up customer momentum. As is Amazon Quick, our intelligent AI work companion, which is growing very",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 487360,
@@ -559,6 +572,7 @@
    "t1_ms": 572080,
    "speaker": "Management",
    "text": "rapidly as large enterprises like Mondelise, EchoStar, 3M, Southwest Airlines, and DXC are choosing Quick because it's purpose-built for work with no compromises on customer data. Finally, our chips business continues to grow triple digit percentages year over year, and revenue commitments for Graviton and Trainium have each increased more than 20 times year over year. AI continues to be a tailwind for Graviton because post-training reinforcement learning and agent tool use is mostly done on CPUs versus AI accelerators, and Graviton is the strongest CPU chip, offering up to 30 to 40 percent better price performance than alternatives. Customers using our custom silicon save more than two billion dollars",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 529200,
@@ -602,6 +616,7 @@
    "t1_ms": 614720,
    "speaker": "Management",
    "text": "in Q3 alone, and we just open source Torch Neuron so developers can run existing PyTorch code, which most already use, on Trainium without rewriting a thing. As we launch new generations of chips, demand for prior generations remains strong. After our launch of Graviton 5, backlog for prior generation Graviton instances still more than doubled quarter over quarter, and short-term capacity for prior generation Trainium instances sell at a premium compared to the first half of the year. With Trainium demand so strong, customers continue encouraging us to make it available outside of AWS. We intend to do so late in 2027. Overall demand",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 572080,
@@ -641,6 +656,7 @@
    "t1_ms": 655360,
    "speaker": "Management",
    "text": "for AWS capacity remains exceptionally strong. Enterprises are still very early in using inference of scale, and yet inference already counts for well over half of AWS's AI revenue and growing, and we have a lot of training revenue as well. We still expect 2026 cash capbacks of approximately 220 billion dollars, the majority for AWS, and expect to spend meaningfully more in 2027, with a clear line of sight to attractive financial returns as I laid out on our last call. AWS is a 184 billion dollar annualized revenue run rate business, yet the opportunity remains extraordinary. With our continued pace of innovation, new core and AI",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 614720,
@@ -680,6 +696,7 @@
    "t1_ms": 699840,
    "speaker": "Management",
    "text": "functionality, enterprises wanting to run their core and AI workloads in AWS, and the amount of capacity that we're adding each year, we believe that AWS can grow north of 40 percent in each of 2027 and in 2028, and be a trillion dollar revenue business in the next five to 10 years. We're in the very early days of this inflection. Our strategy is working, and I expect it will for the foreseeable future. In stores, I think some folks are sleeping a bit on how much progress that business has made and what it's become the last few years. I'm not aware of another retail business approaching Amazon's revenue size, hundreds of billions of dollars, with double digit operating margins inclusive of ads, that's growing at this pace. Year to date,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 655360,
@@ -723,6 +740,7 @@
    "t1_ms": 742240,
    "speaker": "Management",
    "text": "units have grown nearly 15 percent year over year, and that's on an enormous base, having sold more than 30 billion items last year. In absolute dollar terms, we've added more than 90 billion dollars in growth sales in the trailing 12 months, and we're growing meaningfully faster than other retail competitors, adding about double the growth sales per quarter than our next largest competitor in the U.S., and consistently taking retail market segment share. Over the past few years, our North American international segments have each expanded operating margins by nearly 10 percentage points, which enables us to reinvest in making the customer experience even better. Remember, it's still early. The significant majority of retail, nearly 80 percent,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 699840,
@@ -766,6 +784,7 @@
    "t1_ms": 784320,
    "speaker": "Management",
    "text": "currently occurs in physical stores. That will eventually flip to e-commerce over time. We're helping enable this shift by rapidly building out our efficient and speedy fulfillment network, providing delightful customer experiences while driving significant free cash flow and return on invested capital. Each of our priorities, from faster delivery, to cost to serve, to groceries and pharmacy, to AI shopping, are force multipliers, and we're firing on all cylinders. Our delivery speeds keep getting faster as we invest in our same-day network, as well as our Amazon Now and Amazon Prime Air ultra-fast services. We had our fastest Q3 ever globally, and we delivered more than 1.5 billion items to Prime",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 742240,
@@ -809,6 +828,7 @@
    "t1_ms": 824560,
    "speaker": "Management",
    "text": "customers same day or overnight in Q3. We're energized by the customer response to our rapid rollout of Amazon Now around the world. It's now available in over 450 towns and cities, and the number of items ordered through Amazon Now is up 10x year over year. We're on track to reduce cost to serve per unit for the fourth consecutive year, which enables us to continue meeting or beating competitors' prices, and cost-effectively deliver a broad selection of fresh groceries and everyday essentials. Increasing speed is fueling our grocery business, including perishables and everyday essentials, and growth sales grew to nearly $250 billion in the trail in 12 months.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 784320,
@@ -852,6 +872,7 @@
    "t1_ms": 868960,
    "speaker": "Management",
    "text": "In Q3, fresh groceries and everyday essentials grew about three times faster than the rest of our store, representing about half of all units sold. Customers who shop perishables with same-day delivery buy nearly seven times more everyday essential units than those who don't. Inactive grocery customers shop nearly four times more non-grocery categories, like home and apparel, and spend over two times more on those categories compared to non-grocery customers. Amazon Pharmacy is also growing fast. The number of customers using it is up over 60% year over year, with growth accelerating each quarter through 2026, and repeat customers grew more than 50% year over year. JD Power recently ranked Amazon",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 825360,
@@ -895,6 +916,7 @@
    "t1_ms": 910320,
    "speaker": "Management",
    "text": "Pharmacy the top mail order pharmacy for the third year in a row, and we keep making it even better, now offering three-hour prescription delivery in more than 350 cities. Over 400 million customers have used Alexa for shopping, our agentic shopping assistant, in the last 12 months, with customer interactions up 570% year over year. U.S. customers using Alexa for shopping are spending 50% more per order than those who don't. It researches products, compares options, checks a full year of price history, gets personalized gift recommendations, and tracks deals and price drops on customers' behalf. Though we anticipate working with horizontal agents, we believe Alexa for shopping is going",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 868960,
@@ -938,6 +960,7 @@
    "t1_ms": 948960,
    "speaker": "Management",
    "text": "to be the primary shopping agent customers use to shop Amazon. Having a shopping assistant constantly by your side as you browse, get inspired, have questions on product detail pages, and that you can simply ask to buy something based on your prior purchases that already has your history, your shipping address, and payment info is uniquely helpful and convenient for customers. Moving to Amazon ads, we generated $19.6 billion of revenue in Q3, up 12% year over year. Though there were some timing anomalies in this past quarter, we continue to be pleased with the overall momentum across our ad offerings.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 910320,
@@ -977,6 +1000,7 @@
    "t1_ms": 991360,
    "speaker": "Management",
    "text": "I'll mention three items impacting the growth rates. First, we shifted Prime Day into Q2 for most countries, moving significant sales and ad revenue that were in Q3 25 into Q2 26, a tailwind to our Q2 2026 rate and a headwind to Q3 2026. For advertising, that was 850 basis points sequential impact to Q3 year over year growth. Second, Q2 26 included the first season of NBA on Prime, which last year's Q2 didn't have, while Q3 does not include any NBA. It starts in Q4. And third, in Q3 2025, we changed our search engine marketing programs to drive",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 949680,
@@ -1012,6 +1036,7 @@
    "t1_ms": 1033119,
    "speaker": "Management",
    "text": "more traffic to search pages on Amazon. It's a better experience for customers. And we also monetize that traffic at a higher rate. That helped accelerate advertising revenue growth starting a year ago. We started lapping that in Q3. We expect year over year growth will return to the high teams in Q4. The natural question is whether agentic shopping from external horizontal agents is meaningfully impacting Amazon ads? And the answer is no. Few customers are doing much shopping this way yet, as the experience is still not great, nor more convenient than coming to a retailer directly to research a one click order there. Q3 was chock full of innovation from our ads team that we expect to have impact in the",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 991360,
@@ -1055,6 +1080,7 @@
    "t1_ms": 1075600,
    "speaker": "Management",
    "text": "coming months, headlined by Amazon ads agent, which brings together our full advertising offering under a single AI first platform. Backed by trillions of shopping, browsing, and streaming signals, it supports advertisers at every step with insights, answers, and the ability to optimize and act on their behalf. We also launched full funnel campaigns in Amazon ads agent, bringing sponsored ads, display, video, and streaming TV into a single campaign. Advertisers provide initial inputs, including budget and duration, and Amazon's AI plans, executes, and continually optimizes the rest. We're continuing to see momentum in several other areas. I'll mention just a few. Prime Video",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1033119,
@@ -1098,6 +1124,7 @@
    "t1_ms": 1119840,
    "speaker": "Management",
    "text": "has emerged as a significant business with a revenue run rate in the tens of billions of dollars and now profitable in its own right. We have momentum with hit shows like Carrie, The Summer I Turn Pretty, The Boys, Off Campus, Reacher, and Fall Out, and breakout movies like Project Hail Mary, along with compelling live sports, including Thursday Night Football, off to its best start ever in 2026, NBA on Prime, NASCAR, The Masters, and UEFA Champions League Soccer. We recently launched our most powerful devices lineup yet with 34 new products across Echo, Kindle, Alexa tablets, Fire TV, Ring and Bee. It's early, but we're off to a very strong start and excited for more customers to get their hands on these as we head into the",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1075600,
@@ -1141,6 +1168,7 @@
    "t1_ms": 1164080,
    "speaker": "Management",
    "text": "holidays. And finally, Amazon Leo remains on track to begin initial service this year. We're heading into one of our most exciting stretches of the year with both re-inventing the holidays, and I want to thank our teammates for their hard work and invention to make customers' lives better and easier every day. What we're building at Amazon is unlike anything that's ever been seen before. There has never been a business with a trillion dollars of annual revenue. Amazon is on a path to have two of them in AWS and stores. It's rare and we're energized by what's ahead. Over to you, Brian. Thank you, Andy. Let's start with our top-line financial results. Worldwide revenue is $201.9 billion, a 12% increase year over year,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1119840,
@@ -1184,6 +1212,7 @@
    "t1_ms": 1208960,
    "speaker": "Management",
    "text": "and a 13% increase year over year, excluding the impact of foreign exchange. Worldwide operating income was $28.1 billion, with an operating margin of 13.9%, which is our highest operating margin ever. Starting with our North American international segment results, first let me remind you that Prime Day shifted this year, with the sales event occurring in Q2 for most of our largest countries, including the United States. In 2025, Prime Day was entirely in Q3. Excluding the impact of this Prime Day time change, third quarter 2026 year-over-year growth would be approximately 400 basis points higher. In Q3, we saw strong customer engagement and a continuation of trends from the first half of",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1164080,
@@ -1227,6 +1256,7 @@
    "t1_ms": 1253760,
    "speaker": "Management",
    "text": "the year. In the North America segment, third quarter revenue was $112.9 billion, an increase of 6% year-over-year. International segment revenue was $43.1 billion, an increase of 8% year-over-year, excluding the impact of foreign exchange. Worldwide paid units grew 12% year-over-year. Prime remains a key pillar of our business. Hundreds of millions of Prime members are responding to our combination of vast selection, low prices, and record delivery speeds. Over the past year, monthly orders of fresh groceries placed by our Prime members for three same-day delivery have more than tripled. Let's shift to profitability. North America's segment operating income was $8.7 billion,",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1208960,
@@ -1270,6 +1300,7 @@
    "t1_ms": 1295920,
    "speaker": "Management",
    "text": "with an operating margin of 7.7%. International segment operating income was $1.6 billion, with an operating margin of 3.7%. In our fulfillment network, the team navigated higher transportation costs from fuel inflation and higher line haul rates. Even with these headwinds, we still lowered our overall cost to serve in Q3, through better inventory placement, shorter shipping distances, and package consolidation. Shipping costs increased 11% year-over-year versus a 12% increase in units. Excluding fuel and line haul inflation, shipping costs grew 8%, or approximately 400 basis points slower than",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1254720,
@@ -1309,6 +1340,7 @@
    "t1_ms": 1339360,
    "speaker": "Management",
    "text": "unit growth. Robotics and AI are delivering measurable gains in productivity and employee safety, which we will expect to compound in the future. In 2026, we doubled our fleet of robotic arms, like Cardinal and Sparrow. We're also developing robotics foundation models that enable faster programming and teach robots increasingly complex physical tasks, with the goal of delivering useful robotics at scale. Looking ahead, we see meaningful opportunities to improve productivity across our global fulfillment network and lower our cost to serve, while continuing to get products to customers faster. Our operating margin may fluctuate quarter to quarter, but we're focused on sustained",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1295920,
@@ -1352,6 +1384,7 @@
    "t1_ms": 1381840,
    "speaker": "Management",
    "text": "long-term improvement in our cost to serve per unit. Moving to our AWS segment, revenue was $46 billion and grew 39.3% year-over-year, driven by both core and AI services. We added $3.8 billion in quarter-over-quarter revenue. AWS now has an annualized revenue run rate of $184 billion. Customers continue to move to the cloud and scale their use of AWS core services, and increasingly customers who want the full benefits of AI are accelerating their transition to the cloud. We see a strong linkage between AI spend and growth in our revenue for core services. As customers invest in AI, we see a",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1339360,
@@ -1391,6 +1424,7 @@
    "t1_ms": 1421840,
    "speaker": "Management",
    "text": "corresponding increase in core consumption, and we expect that relationship to strengthen as more AI workloads move into production and drive additional demand for compute, storage, and networking. AWS operating income was $17.8 billion with an operating margin of 38.7%, reflecting strong growth and our focus on driving efficiencies. Our investments in custom chips and custom networking, along with software and process improvements, are helping us optimize capacity and build a more cost-efficient infrastructure. As we've long said, we expect AWS operating margins to fluctuate, driven in part by the level of investment we're making",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1381840,
@@ -1430,6 +1464,7 @@
    "t1_ms": 1463920,
    "speaker": "Management",
    "text": "at any point in time. Our AI offerings are gaining traction with customers, with AI revenue growing triple digits year over year. DEDROC has been a significant growth driver. Now turning to our cash catbacks, which was $75.9 billion in Q3. This primarily relates to AWS and AI as we invest to support strong customer demand. We continue to make significant investments, especially in AI, as we believe it to be a massive opportunity with the potential to drive long-term revenue and free cash flow, as well as return on invested capital. I'll finish with our financial guidance for Q4. Q4 net sales are expected to be between $240",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1421840,
@@ -1469,6 +1504,7 @@
    "t1_ms": 1506160,
    "speaker": "Management",
    "text": "billion and $247 billion. We estimate the year-over-year impact of changes in foreign exchange rates based on current rates, which we expect to be a headwind of approximately 60 basis points in the quarter. Q4 operating income is expected to be between $28.5 billion and $33.5 billion. I'll mention one factor impacting our Q4 guidance. Amazon Leo's commercial service is on track to begin initial service this year, and we expect to begin capitalizing certain costs in Q1 of next year, including production and launch costs. This is later than I've been predicting in earlier earnings calls. As a result,",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1463920,
@@ -1508,6 +1544,7 @@
    "t1_ms": 1530880,
    "speaker": "Management",
    "text": "we will continue to expense the majority of Leo-related costs in Q4. We're ready to serve customers this holiday season and to support the millions of customers building with AWS. I want to thank our teams across Amazon for their hard work and focus on customers. Our commitment to elevating the customer experience remains the only reliable way to create lasting value for our shareholders. With that, let's move on to your questions.",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1506160,
@@ -1539,6 +1576,7 @@
    "t1_ms": 1578290,
    "speaker": "Operator",
    "text": "Thank you. At this time, we will now open the call up for questions. We ask each caller to please limit yourself to one question. If you would like to ask a question, please press star one on your keypad. We ask that when you pose your question, you pick up your handsets to provide optimum sound quality. Once again, to initiate a question, please press star then one on your touchtone telephone at this time. Please hold while we pull for questions. Thank you. Our first question comes from the line of Justin Post with Bank of America.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1535470,
@@ -1578,6 +1616,7 @@
    "t1_ms": 1580770,
    "speaker": "Operator",
    "text": "Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1579170,
@@ -1593,6 +1632,7 @@
    "t1_ms": 1605010,
    "speaker": "Analyst",
    "text": "Great. Thank you. Andy, did you see the cloud business accelerate, which is really nice, but the quarter over quarter growth slowed? I'm just wondering if there's any call outs there on the customer side or token costs or anything that kind of drove that and how you're thinking about the capacity adds in Q4. Then Brian, maybe just any impact of fuel costs on your guidance in Q4. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1582050,
@@ -1624,6 +1664,7 @@
    "t1_ms": 1648850,
    "speaker": "Management",
    "text": "Thank you. Yeah, I'll start with the growth question. We're really pleased with the growth. 39.3% on a business that's got a $104 billion annual revenue run rate is quite unusual. Our fastest growth in about five years or six quarter consecutively of acceleration. We're adding quite a bit of capacity. I think if you look at what's driving the growth right now, it's a combination of a few things. First, on the AI side, the unusual top to bottom stack functionality we have, whether you're building your own model with SageMaker AI, which is the easiest way to build your own",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1605010,
@@ -1663,6 +1704,7 @@
    "t1_ms": 1689010,
    "speaker": "Management",
    "text": "model, or you want to leverage one of the leading frontier models with high security and very strong price performance, people can use Bedrock. Whether you are building your own agents where we have capabilities like Strands and Agent Core to build and to run those securely and scalably, or you're going to use turnkey agents, which most companies do. If you just look across Kero for coding and Connect for call center and Transform for migrations and Quick, which is growing incredibly fast as an AI companion at work, people are adopting those very quickly.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1648850,
@@ -1702,6 +1744,7 @@
    "t1_ms": 1727490,
    "speaker": "Management",
    "text": "And then we add a lot of capacity every quarter. Now the amount that we add every quarter is not equal. We're adding different amounts each quarter, but if I look at how much we've added this year and what we have planned over the next, I'll call it eight quarters or so, which is about as far out as we get, eight to ten quarters. We have a lot of capacity coming as well. And then I layer on top of that too just the impact of chips. We're very well positioned for what's happening in AI because increasingly what you're finding right now is most customers,",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1689010,
@@ -1737,6 +1780,7 @@
    "t1_ms": 1768450,
    "speaker": "Management",
    "text": "every customer that uses AI at scale, but particularly enterprises now as they're starting to deploy more inference into production, they are very eager to save on price performance. And Tranium, with the meaningful advantage it has in price performance versus other alternatives, is very compelling to people. And then as more and more people are using AI in a very broad way, it drives a lot of the core in capabilities like reinforcement learning and post-training and tool calling. And we have the leading CPU chip in Graviton, which is about 30 to 40 percent more price performance than their other x86 providers.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1727490,
@@ -1776,6 +1820,7 @@
    "t1_ms": 1812910,
    "speaker": "Management",
    "text": "So those things are really driving very significant growth. The amount of capacity we add each quarter will vary, but at this scale to be projecting growing over 40 percent year over year in each of 2027 and 2028 is pretty significant. And the fact that we believe that this can be a trillion dollar revenue business in five to ten years, it's an extraordinary unusual opportunity that we're very excited to be pursuing. And Justin, on your question about fuel and line hole inflation, I would say, I'm not going to give an exact number for you, but it is higher in Q4 than it was in Q3. If you remember, we instituted a fuel surcharge at the beginning of the year for",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1768450,
@@ -1819,6 +1864,7 @@
    "t1_ms": 1829230,
    "speaker": "Management",
    "text": "FDA sellers that recovers some but not all of the costs that we're seeing on fuel for those shipments. And then the remaining part is on the retail inbound shipments and outbound shipments. So it's in there. It's a little bit higher than Q3.",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 1813550,
@@ -1842,6 +1888,7 @@
    "t1_ms": 1839940,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Brian Nowak with Morgan Stanley. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1832980,
@@ -1861,6 +1908,7 @@
    "t1_ms": 1879380,
    "speaker": "Analyst",
    "text": "Thanks for my questions. I have two. Andy, your excitement about AWS is coming through the line. It's pretty rare you'd make comments about a trillion dollars of revenue five to ten years from now. It's more than you should give. So can you just maybe walk us through how you get to that trillion of dollars? Is it top down? Is it bottom is up? So what gives you confidence you're going to be able to put up that type of revenue growth and to get to that type of number in the next five to ten years? Then the second one just for either of you, on the robotic side, as we look into 27, what are the key milestones you're both focused on on the robotic side for the retail business?",
+   "name": "Brian Nowak, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 1841060,
@@ -1904,6 +1952,7 @@
    "t1_ms": 1925620,
    "speaker": "Management",
    "text": "Yeah, on the AWS side, if you just look at the growth rates, Brian, look at the growth rates on the run rate and then look at what we're projecting in 27 and 28. And as I've said a few times, we will always, despite how much capacity we're providing, the big chunks of capacity that people take, the hundreds of megawatts, or sometimes up to a gigawatt of capacity, those big chunks are reserved well in advance because you can't leave a gigawatt of capacity hanging around. And so we have very good visibility into 27 and 28 and some of 29 too with respect to what customers want in those",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1881060,
@@ -1943,6 +1992,7 @@
    "t1_ms": 1967220,
    "speaker": "Management",
    "text": "really big chunks of capacity. We will always leave a fair bit of capacity available for on demand on EC2 or in Bedrock and we're working closely with our customers and they'll have plenty of capacity to be able to use in AWS. But we have very good visibility into the next few years and what AWS looks like. Those types of growth rates when you do the math on the revenue and the revenue run rate we have, get you pretty quickly to escalating numbers. And then I'd say that on top of not believing that a lot of the usage we see today is going to attenuate anytime soon, we're still really early in enterprises using inference in their",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1925620,
@@ -1982,6 +2032,7 @@
    "t1_ms": 2008500,
    "speaker": "Management",
    "text": "production applications in a pervasive way. It's just, it is just really early. And some of that is enterprises having enough people who know how to operate in AI and post-trade and fine-tune models for the right applications. Some of it is the cost of inference. I think if we all want enterprises to be able to use inference the way we all believe they will, we have to keep working on taking the cost of inference down. That is a huge mission for AWS. It's one of the significant reasons why we're building our own custom silicon and tranium is that we just really believe it's incredibly important for customers to be able to use inference in a much more cost effective way. That has come down a lot, the cost of inference",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 1967220,
@@ -2025,6 +2076,7 @@
    "t1_ms": 2052179,
    "speaker": "Management",
    "text": "over the last couple of years. And I think it will come down meaningfully more. And so, you know, and then you just think about, just think about what you're seeing. You know, if you think about security as an example, just by itself, the models today are so advanced that the vulnerabilities that they're finding humans just haven't felt. And if you've had access to these models, it leads to you're using these models to both find them and ultimately to help with patching them and deploying. And there are some people who think that the amount, the total amount of tokens used over the next year or two, 20% of it, if some significant percent of it may end up being just security. And that's a relatively",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2008500,
@@ -2068,6 +2120,7 @@
    "t1_ms": 2091139,
    "speaker": "Management",
    "text": "new use case on top of what we're seeing with coding and how that continues to grow on top of what we're seeing with the various, I'll call it AI companions, both in the consumer space and in the workspace like with QUIC. And these are just the initial big use cases. And you layer on top of that what you're going to see with enterprises where I believe virtually every enterprise, modern enterprise production application will be rewritten to be agentically capable. Because that's the way you're going to have to deploy if you want to move quickly or you want to actually guard in the right way against some of the security risks. There is just",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2052179,
@@ -2107,6 +2160,7 @@
    "t1_ms": 2131220,
    "speaker": "Management",
    "text": "so much AI coming. So you can't predict with any certainty five to 10 years from now, especially these types of growth rates, but it's not a stretch for us to imagine that this could be over a trillion dollar business. On the robotics side, what I would say is that it's pretty remarkable what's happening in robotics right now. I'll say in general, but particularly at Amazon, we have over a million robots now in our fulfillment network. And while they're having very significant impact on our cost structure and on our productivity",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2091139,
@@ -2142,6 +2196,7 @@
    "t1_ms": 2171780,
    "speaker": "Management",
    "text": "and on safety, if you look at our safety numbers in our fulfillment network, they're at record low numbers. We've made huge progress over the last four to five years. And robotics has been a big piece of that. And yet I would tell you we're still so early with respect to both what we have deployed, built and deployed, and what we're working on. And I think that you'll see we will always have a lot of teammates in our fulfillment centers. But I think a lot of the jobs that we have that are more repetitive that we have humans doing will be done by robots. I think we're investing in all sorts of additional robotics of all different form",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2131220,
@@ -2181,6 +2236,7 @@
    "t1_ms": 2212340,
    "speaker": "Management",
    "text": "factors. I think we have the opportunity to also assist on some of the delivering of the last 100 yards to customer stores. We have a lot coming. And so for us, the way we measure robotics are does it lead to comparable or better productivity, safety, cost structure, and time to delivery. And when we like that combination of economics, we will deploy it at scale in our fulfillment network. And if I look at the new designs that we have coming in our fulfillment network, including our expansion of same day facilities, they are very heavy on",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2171780,
@@ -2216,6 +2272,7 @@
    "t1_ms": 2217060,
    "speaker": "Management",
    "text": "robotics. So we think it's had a big impact. And we think it's small compared to what it's",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2212340,
@@ -2231,6 +2288,7 @@
    "t1_ms": 2230750,
    "speaker": "Operator",
    "text": "going to be in the next five years. Thank you. Our next question comes from the line of Mark Mahaney with Evercore ISI. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2217060,
@@ -2250,6 +2308,7 @@
    "t1_ms": 2274910,
    "speaker": "Analyst",
    "text": "Two things. One, first, thanks a lot for the forward comments on AWS growth. Could I ask you to draw out on margins too? I know that margins can move up and down quarter to quarter. But over the next two years, do you think the current margin structure is relatively stable? We kind of hold at these kind of high 30s, 40% operating margins for AWS. And then on perishable checkout, I'm super excited about this opportunity just watching how it's rolled out in my neighborhood and in other areas. How much coverage do you have for perishable checkout? In other words, how many prime households do you think you've covered with perishable checkout? And for those that have used it, how much of a boost do you",
+   "name": "Mark Mahaney, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2232350,
@@ -2293,6 +2352,7 @@
    "t1_ms": 2285950,
    "speaker": "Analyst",
    "text": "think that is per prime household? Like, is this something that increases spend per prime household by 20%, 50%, 100%? Just given how large the fresh grocery category is. Thanks a lot.",
+   "name": "Mark Mahaney, Evercore ISI",
    "parts": [
     {
      "t0_ms": 2274910,
@@ -2312,6 +2372,7 @@
    "t1_ms": 2323630,
    "speaker": "Management",
    "text": "Hey, Mark, let me start with the operating margin outlook for AWS. So we're not guiding out beyond, we're not guiding at all on our margin for AWS. But I can tell you, give you my color on it. So, you know, very, it seems very strong out margin 38.7% this quarter. And I would add that the profitability you've been seeing recently is really not a random output. It's a result of a lot of discipline, efficiency gains, capacity optimization, closely managing our fixed cost. And as Andy said, you know,",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 2287230,
@@ -2347,6 +2408,7 @@
    "t1_ms": 2365630,
    "speaker": "Management",
    "text": "the inclusion of overtime more and more custom chips into our cost structure. However, you know, there are other things bouncing around. In fact, the, you know, the outsize growth of AI puts margin pressure on the business as a whole, because the margins are lower there. We are happy with the progression in both core and AI margins. And they're, as Andy said earlier, they're ahead of where the core was at a similar point in time, but they're still lower. So there's gonna be that mixed issue. There's also headwinds from component pricing that we've talked about. So cannot predict it, but there's going to be always a confluence of",
+   "name": "Brian Olsavsky, CFO",
    "parts": [
     {
      "t0_ms": 2323630,
@@ -2386,6 +2448,7 @@
    "t1_ms": 2406670,
    "speaker": "Management",
    "text": "these multiple factors that we're working very hard on the cost side and the efficiency side and dealing with investments and new product margins as they start up and launch and reach scale. On the perishables checkout, Mark, I share your enthusiasm about it. It's, you know, as you know, we've had a, you know, we've had a big grocery business for a while and it's mostly been in the middle aisles of what you'd find in a grocery store, consumables, canned goods, pharmaceutical items, beauty products. And we've had this, you know, leading organic grocery store and Whole Foods Market, which also is growing faster than the rest of the grocery",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2365630,
@@ -2425,6 +2488,7 @@
    "t1_ms": 2445630,
    "speaker": "Management",
    "text": "segment, both in the top line and the bottom line with a new format and daily shop in urban environments. It's doing really well that we're in the process of rolling out over next couple of years. We've always known if we wanted to be able to serve customers the way we think they want to be served and the way we want to, we have to have a mass offering. It starts with perishables. And, you know, if you look at the total spend per household, you know, when we look at the difference between the total amount of spend that we think our consumers and customers are spending on items that we could serve them on versus",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2406670,
@@ -2464,6 +2528,7 @@
    "t1_ms": 2485230,
    "speaker": "Management",
    "text": "what they spend on us, the biggest difference is grocery. And, you know, a lot of your shops, a lot of grocery starts with perishables. And so we are, we really are excited that we feel like we found something with shipping perishables out of our same day facilities. You know, we grown our everyday essentials about three times faster than the rest of our store. It represents about half of our units now, if I look at all the everyday essentials. We find as customers who shop perishables through our same day delivery, they buy about seven times more everyday essential units than those that don't. So again, if you're trying to close that",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2445630,
@@ -2503,6 +2568,7 @@
    "t1_ms": 2520590,
    "speaker": "Management",
    "text": "gap between what consumers spend overall, the items that we can provide versus what they spend with us, perishables has a huge impact on that. We also see that our grocery customers shop about four times more non-grocery categories, like home and apparel and a bunch of other categories, and spend about two times more on those categories compared to those who don't use us for grocery. So those are big differences. And we believe that the progress we're making on perishables and grocery is going to ultimately lead to more, you know, being more relevant to customers for more of their shopping missions.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2485230,
@@ -2542,6 +2608,7 @@
    "t1_ms": 2533970,
    "speaker": "Operator",
    "text": "Thank you. Our next question comes from the line of Eric Sheridan with Goldman Sachs. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2525730,
@@ -2561,6 +2628,7 @@
    "t1_ms": 2569090,
    "speaker": "Analyst",
    "text": "Thanks so much for taking the question. Maybe a two-parter on market opportunities within AWS. First, you know, with respect to bedrock, what have been your key learnings about the market opportunity around bedrock and how it might continue to scale in the years ahead? And then with respect to the decision to sell tranium externally, how do you think about balancing the market opportunity of external sales relative to the need for compute for that opportunity relative to other opportunities broadly across both internal use cases and AWS?",
+   "name": "Eric Sheridan, Goldman Sachs",
    "parts": [
     {
      "t0_ms": 2534930,
@@ -2596,6 +2664,7 @@
    "t1_ms": 2609250,
    "speaker": "Management",
    "text": "Thanks so much. Yeah, on the bedrock side, you know, I would tell you, you've probably heard this from us multiple times over the last couple years, but one of the lessons that we've learned, you know, I'll say for 20 plus years in offering technology to customers is that there is not one tool to rule the world. People always assume that whatever is in the lead early on is going to be the only thing or things that people use. And it's never the case. It's not true in database. It hasn't been true in analytics. In the beginning of AI, everyone said the only",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2569090,
@@ -2635,6 +2704,7 @@
    "t1_ms": 2652770,
    "speaker": "Management",
    "text": "framework people use is TensorFlow. It turns out, you know, PyTorch is much bigger now. And so it's not going to be true with models either. You know, in, you know, I'll say in the next two to three years, I think there's going to be six to eight models that are about as good as each other, or at least good enough for 95 plus percent of the workloads. And some will be better at reasoning and some will be better at coding and some will be better at visual pieces and some will be lower latency and some will be lower cost. And most customers are going to use multiple models and many will use multiple models in the same generative AI application. And so what customers really want to do, and we see this validated",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2610130,
@@ -2678,6 +2748,7 @@
    "t1_ms": 2693810,
    "speaker": "Management",
    "text": "over and over again when we talk to customers, is they want a service that has really broad selection of those frontier models and that has very good price performance and it has very strong security and access control. And they want that service so that they can kind of decide what combination of models they want to use and to swap them back and forth as they leapfrog each other as different constraints or their applications require them. And that's what we see with Bedrock. People are very excited about it. We have, you know, we have both closed models and models like Anthropic and OpenAI models. We have open models with Kimi and",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2652770,
@@ -2717,6 +2788,7 @@
    "t1_ms": 2733570,
    "speaker": "Management",
    "text": "GLM and others. I think the Western world is very hungry for additional open models that are Western open models. So I believe that will happen over time as well. But I think that the size of the opportunity in Bedrock is gigantic and it could be a service as large as EC2, which is a very large service today in AWS. So I think it's very large. On the balance of chips and what you sell externally versus what you use inside your cloud, it's a very good question. And it's a question that we're continuing to evaluate",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2693810,
@@ -2752,6 +2824,7 @@
    "t1_ms": 2777890,
    "speaker": "Management",
    "text": "as we speak. I would say that the number of companies who have a significant cloud business and chips strong enough to sell externally is effectively two. So there really aren't many customers that have to grapple with the same type of problem at this type of scale. And at this point, everybody is producing their advanced chips with the same provider. There's only so many chips that provider can provide each year. Everybody gets an allocation and you have to decide with that allocation how much of it you want to sell externally and how much of it you want to use in your cloud. And there's a trade-off. If you",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2733570,
@@ -2791,6 +2864,7 @@
    "t1_ms": 2821330,
    "speaker": "Management",
    "text": "sell externally, you're able to realize more revenue in the short term because you get to recognize the revenue as soon as it leaves your inventory. And on the flip side, if you decide to use it inside your cloud in the form of EC2 instances or bedrock, you actually will end up driving more absolute revenue and free cash flow from those chips because you get to use them over five to six years and drive revenue for a longer period of time. So you have to really think through what you want to do. To date, I would say that we've taken a different approach in how we've used our chips than the other provider who has this same type of balancing",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2777890,
@@ -2830,6 +2904,7 @@
    "t1_ms": 2857330,
    "speaker": "Management",
    "text": "act going on. And as I mentioned earlier, we believe we're going to have a very significant business selling chips externally and we're going to start in late 2027. And we will be thinking through that balance, I think, probably every year. But they'll both be very significant. Our ability to create price performance scalable chips is going to be a very significant strategic advantage for us at scale, both in our own cost structure as well as building a separate business and selling external chips. And selling external chips really is a very different",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2821330,
@@ -2865,6 +2940,7 @@
    "t1_ms": 2871460,
    "speaker": "Operator",
    "text": "business than your cloud infrastructure business. Thank you. Our next question comes from the line of Doug Anmuth with JP Morgan. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2857330,
@@ -2884,6 +2960,7 @@
    "t1_ms": 2899700,
    "speaker": "Analyst",
    "text": "Thanks for rotating questions. When you think about the 40% plus AWS revenue growth each of the next two years and then the multi-year path beyond that, can you just talk about the capex required to drive that kind of revenue over the next couple of years and beyond? And then also, Andy, any updates just to how you're thinking about the duration of returns on both servers and networking and then also data centers? Thanks.",
+   "name": "Doug Anmuth, JPMorgan",
    "parts": [
     {
      "t0_ms": 2871460,
@@ -2915,6 +2992,7 @@
    "t1_ms": 2938420,
    "speaker": "Management",
    "text": "Yeah, I'll take them in reverse order. So on the break even on our infrastructure, as I mentioned in my opening comments, we're continuing to move that left. We're continuing to make that shorter. There are a lot of cores a little bit different from AI, a little bit different from how you finance these things. It varies depending on which you're talking about. But we're continuing to make progress, as we historically have been pretty good at doing if you think about AWS, at finding ways to extend useful lives and to make the break even sooner. And we're making good progress there too.",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2899780,
@@ -2954,6 +3032,7 @@
    "t1_ms": 2982100,
    "speaker": "Management",
    "text": "On the capex involved to grow the way we're talking about, it's meaningful. I think that the way we think about it, Doug, is that this is a once in a lifetime opportunity. I think what we're seeing with AI, it's the biggest transformation in our lifetime. And if the idea of being able to grow 39% with $184 billion annual run rate and to grow 40% a year on top of that in each of the next two years and ultimately end up as a trillion dollar plus business, we're going to invest to continue being the leader. We are the leader",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2939220,
@@ -2989,6 +3068,7 @@
    "t1_ms": 3021860,
    "speaker": "Management",
    "text": "today in the infrastructure and AI space. And would it be more convenient if this type of acceleration and opportunity happened over 25 years and you could spread the capex over 25 years? Yeah, it might be more convenient, but that's not the world that we live in and that's not the opportunity. And we can fund this plan. And I think it will forever change the size of Amazon. It will forever change our revenue. It will forever change our free cash flow. And we're going to invest and we're going to pursue it to continue to be the significant",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 2982100,
@@ -3024,6 +3104,7 @@
    "t1_ms": 3036750,
    "speaker": "Operator",
    "text": "leader like we are today. Thank you. And our final question comes from the line of Ross Sandler with Barclays. Please proceed with your question.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3021860,
@@ -3043,6 +3124,7 @@
    "t1_ms": 3076350,
    "speaker": "Analyst",
    "text": "Great. Yeah, I thought I'd double down on the Bedrock question. So the token marketplace on Bedrock seems to be one of the hottest services in AI right now. And our understanding is the majority of these workloads are running on tranium. So as this becomes a bigger part of the overall AWS story, like you just mentioned, Andy, how might that impact both revenue growth, but especially margins at AWS as you kind of shift from selling bare metal to selling more inferences of service? Could you just talk about that? Thank you.",
+   "name": "Ross Sandler, Barclays",
    "parts": [
     {
      "t0_ms": 3037230,
@@ -3078,6 +3160,7 @@
    "t1_ms": 3119470,
    "speaker": "Management",
    "text": "Yeah. Well, you know, you're right that the majority and most of Bedrock today is being run on top of tranium. And we do that in meaningful part because we really like the price performance that we're getting. And it allows us to both keep prices as low as possible for customers, as well as our ability. You know, we like the margins associated with it. You know, if you think about margins in the cloud space and you're looking at different players and what their cost structure looks like, there are a few things to pay attention",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 3077390,
@@ -3113,6 +3196,7 @@
    "t1_ms": 3162750,
    "speaker": "Management",
    "text": "to. You know, the first is for their data centers, how many of them are they actually buying or long leasing versus doing COLO or NeoCloud? I mean, NeoCloud are about 3,500 basis points worse in operating margin than if you long lease them. So, you know, and then you look at, you know, what is the hardware on top of which they're running? And, you know, if you're using the hardware that everybody else is using, you'll have a comparable cost structure to what everybody is doing. And if you have the ability to use",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 3119470,
@@ -3148,6 +3232,7 @@
    "t1_ms": 3207550,
    "speaker": "Management",
    "text": "hardware that's different, you'll have an advantage. And so I think when you look at what we're doing, most of our capacity is either owned or long leased, which is, you know, it enjoys better operating margins than what you'll find when people are mostly doing COLO or Neo or a big chunk doing COLO or Neo. And the fact that we're running on top of our own chip that's providing both advantage price performance and more cost effective for ourselves because we own it, I think gives us some structural cost advantages that I think are going to be very helpful to customers as we pass them back to customers and helpful to the",
+   "name": "Andy Jassy, CEO",
    "parts": [
     {
      "t0_ms": 3163390,
@@ -3187,6 +3272,7 @@
    "t1_ms": 3228380,
    "speaker": "Management",
    "text": "overall economics of AWS. Thanks for joining us for the call today and for your questions. A replay will be available on our Invest Relations website for at least three months. We appreciate your interest in Amazon and look forward to speaking with you again next quarter.",
+   "name": "Dave Fildes, VP of Investor Relations",
    "parts": [
     {
      "t0_ms": 3207550,
@@ -6807,6 +6893,7 @@
    "quote": "39.3% on a business that's got a $104 billion annual revenue run rate is quite unusual.",
    "adj_ret_5m": 0.014985323652093152,
    "speaker": "Management",
+   "name": "Andy Jassy, CEO",
    "vol_mult": 1.4310247924359487,
    "spillover": "company"
   }
@@ -6820,6 +6907,7 @@
    "t0_ms": 1609410,
    "speaker": "Management",
    "quote": "39.3% on a business that's got a $104 billion annual revenue run rate is quite unusual.",
+   "name": "Andy Jassy, CEO",
    "metric": "AWS growth rate",
    "kind": "result",
    "novel": true,
@@ -6933,7 +7021,22 @@
    "source": "alphavantage"
   }
  ],
- "stats": null,
+ "stats": {
+  "audio_min": null,
+  "ingest_s": null,
+  "gpu": null,
+  "gpu_s": null,
+  "gpu_usd": null,
+  "claude_s": 9.0,
+  "claude_backend": "cli",
+  "claude_tokens": {
+   "input_tokens": 2,
+   "output_tokens": 743,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 22166
+  },
+  "claude_usd": 0.0628
+ },
  "context": {
   "ts": [
    "2026-10-29T20:45:00Z",

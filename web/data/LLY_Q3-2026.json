@@ -4,7 +4,7 @@
   "quarter": "Q3-2026",
   "call_start": "2026-10-29T10:00:00-04:00",
   "etf": "XLV",
-  "audio_url": "https://nzviiorrlsdtwzvzodpg.supabase.co/storage/v1/object/public/callmoves-audio/LLY_Q3-2026.mp3",
+  "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/LLY_Q3-2026.mp3",
   "company": "Eli Lilly",
   "audio_offset_ms": 0
  },
@@ -16,6 +16,7 @@
    "t1_ms": 37160,
    "speaker": "Operator",
    "text": "Ladies and gentlemen, thank you for standing by and welcome to the Eli Lilly 3rd Quarter 2026 Earnings Conference Call. At this time, all participants are on a listen-only mode. Later, we will be conducting a question and answer session and instructions will be given at that time. Should you require operator assistance during the call, please press star, then zero, and an operator will assist you offline. I would now like to turn the conference over to your host, Mike Sapar, Senior Vice President of Investor Relations. Please go ahead.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 0,
@@ -51,6 +52,7 @@
    "t1_ms": 82440,
    "speaker": "Management",
    "text": "Good morning. Thank you for joining us for Eli Lilly and Company's Q3 2026 Earnings Call. I'm Mike Sapar, Senior Vice President of Investor Relations. Joining me on today's call are Dave Ricks, Lilly's Chair and CEO, Lucas Montarse, Chief Financial Officer, Dr. Dan Skowronski, Chief Scientific and Product Officer, Adrian Brown, President of Lilly, Dr. Carol Ho, President of Lilly Neuroscience, Ilya Yufa, President of Lilly USA and Global Customer Capabilities, Jake Van Narden, President of Lilly Oncology and Head of Business Development, Patrick Johnson, President of Lilly International, and Ken Custer, President of Lilly Cardiometabolic Health. During this call, we anticipate making projections and forward-looking statements based on our current expectations.",
+   "name": "Mike Sapar, SVP Investor Relations",
    "parts": [
     {
      "t0_ms": 39380,
@@ -106,6 +108,7 @@
    "t1_ms": 127040,
    "speaker": "Management",
    "text": "Our actual results could differ materially due to several factors, including those listed on slide 4. Additionally, we would like to thank all of you for your support in this call. Additional information concerning factors that could cause actual results to differ is contained in our latest Form 10-K of Subsequent Filings with the SEC. The information we provide about our products and pipeline is for the benefit of the investment community. It is not intended to be promotional or otherwise influence prescribing decisions. Our commentary will focus on our non-GAAP financial measures. Now, I'll turn the call over to Dave. Thank you, Mike. Q3 was another quarter of solid execution. We delivered strong financial results, raised our full-year financial guidance, advanced our pipeline, and expanded our manufacturing footprint.",
+   "name": "Mike Sapar, SVP Investor Relations",
    "parts": [
     {
      "t0_ms": 83160,
@@ -161,6 +164,7 @@
    "t1_ms": 171260,
    "speaker": "Management",
    "text": "Revenue grew nearly $7 billion compared to Q3 2025, and our key product revenue increased by over $6 billion. Within key products, revenue from our oncology, immunology, and neuroscience portfolio doubled versus last year. We continued the global rollout of Foundaia, launching in the UK, Mexico, and Saudi Arabia for people with obesity, and in Mexico for people with type 2 diabetes. We achieved several key regulatory and pipeline milestones since our last call, including the U.S. approval of our new weekly insulin and new indications for Enlurio, J-PIRCA, and Manjaro. As part of the Medicare GLP-1 Bridge Program,",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 128039,
@@ -212,6 +216,7 @@
    "t1_ms": 215780,
    "speaker": "Management",
    "text": "we expanded access to obesity medicines in the U.S. for approximately 20 million seniors. Since the July 1 launch, we have been able to provide a full-year plan for the U.S. medicine industry. Since the July 1 launch, more than half a million people have filled a prescription for a Lilly medicine through this program. We've heard positive feedback from patients and physicians about the initial implementation. Within the GLP-1 Bridge Program, the Lilly portfolio is performing well. Among new Bridge patients, 7 out of 10 are starting on a Lilly obesity medicine. We're encouraged to see the strong uptake of the Bridge Program and believe it has the potential to both improve outcomes for seniors and seniors in the future. We're also excited to see the growth of the Bridge Program, and we're excited to see the growth of the Bridge Program. We're also excited to see the growth of the Bridge Program, and we're excited to see the growth of the Bridge Program, a recently published paper from the University of Southern California's Schaeffer Center",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 171620,
@@ -279,6 +284,7 @@
    "t1_ms": 257019,
    "speaker": "Management",
    "text": "for Health Policy and Economics estimated the expansion of anti-obesity medications in Medicare could deliver over $20 billion of cumulative savings over 10 years. This is an encouraging indicator of the magnitude of savings the GLP-1 Bridge Program could generate. We added to our pipeline through business development this quarter, acquiring a Ty Beckley and, Merida Biosciences. We also progressed our manufacturing build-out to support our long-term growth outlook. We broke ground on two new manufacturing facilities, a $6.5 billion facility in Houston, Texas, and a $5 billion facility in Richmond, Virginia. We distributed",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 215780,
@@ -330,6 +336,7 @@
    "t1_ms": 300660,
    "speaker": "Management",
    "text": "$1.5 billion in dividends in the third quarter and executed $400 million in share purchases. We launched the Lilly Change the Course Commitment. Through this new initiative, we set a new goal. It reaches many people in resource-limited settings who have obesity and related diseases as in high-income countries prior to 2040. Lastly, we announced Patrick Johnson, President of Lilly International, will retire at the end of 2026. Lilly UFA will expand its responsibilities to include Lilly International as part of a newly created role called President of Lilly International. We launched the Lilly Change the Course Commitment. Through this new initiative, we engaged many people in resource-limited settings who have obesity",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 257019,
@@ -373,6 +380,7 @@
    "t1_ms": 341080,
    "speaker": "Management",
    "text": "and related diseases as in high-income countries prior to 2040. We launched the Lilly Change the Course Commitment. Through this new initiative, we engaged many people in resource-limited settings who have obesity and related diseases as in high-income countries prior to 2040. Thanks Dave. As shown on slide 7, Q3 was another quarter of industry-leading financial results. Revenue grew 39% comparing to Q3 2025, driven by Monjaro, CEPAN, and a strong momentum of Gross margin as a percentage of revenue increased 80 basis points to 84.4%, as favorable product mix and improved cost of production were partially offset by lower realized prices. Marketing, selling, and administrative expenses increased 14%,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 300660,
@@ -416,6 +424,7 @@
    "t1_ms": 383080,
    "speaker": "Management",
    "text": "as we invested in promotional activities to support current and planned product launches. R&D expenses increased 23%, driven by investment in our growing pipeline of early and late-stage programs, and new molecules added through business development. Our non-GAAP performance margin was 54.2%, an increase of 5.9 percentage points from Q3 2025, driven by revenue growth. Non-GAAP earnings per share were $7.48, including acquired R&D charges of $4.57. These contributions were also added to our revenue growth. This compares to $7.02 in Q3 2025,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 341080,
@@ -467,6 +476,7 @@
    "t1_ms": 423920,
    "speaker": "Management",
    "text": "which included $0.71 of acquired R&D charges. On slide 8, we quantified the effect of price, rate, and volume on revenue growth. U.S. revenue increased 34% in Q3, primarily driven by volume growth from Zepan and Moncharo, partially offset by a 7% decline in price. U.S. price benefited from a favorable adjustment, to estimates from rebates and discounts. Excluding this adjustment, U.S. price declined 10%. Europe revenue grew 29% in constant currency, driven by sustained, strong volume growth of Moncharo.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 383720,
@@ -518,6 +528,7 @@
    "t1_ms": 469440,
    "speaker": "Management",
    "text": "Growth also benefited from a $410 million one-time milestone payment related to Jordians. No additional Jordians milestone payment remains under our agreement with Beringer England. In Japan, revenue grew 26% in constant currency, driven by Moncharo and Kisanlab. Moncharo posted robust volume growth, as share of new patient stocks increased to over 50%. In China, revenue grew 62% in constant currency, driven by the uptick of Moncharo. Moncharo is the first medicine in China to exceed $1 billion of revenue during its first full year. In the rest of the world, revenue grew 65% in constant currency,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 425080,
@@ -585,6 +596,7 @@
    "t1_ms": 510420,
    "speaker": "Management",
    "text": "grew 87% in constant currency driven by Monjaro, primarily in Korea, Turkey, and Brazil. U3 revenue was positively impacted by approximately $900 million of previously mentioned items, including milestones and changes to estimates for rebates and discounts. On slide 9, we provide an update on the performance of our key products. Within immunology, Eblis worldwide revenue grew 59% compared to Q3 2025. In the U.S., Eblis continued to gain share of new prescriptions in the specialty dermatology market and is the fastest growing medicine in atopic dermatitis.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 469440,
@@ -624,6 +636,7 @@
    "t1_ms": 555320,
    "speaker": "Management",
    "text": "In oncology, Jaipirka had another strong quarter as worldwide revenue increased 59% compared to Q3 2025. In the U.S., Jaipirka was the fastest growing Btk inhibitor, as measured by total prescriptions. In Lureo continued its impressive uptake in the metastatic breast cancer all-absorbed market, exiting Q3 with more than 60% share of new U.S. prescriptions and 40% of U.S. total prescriptions. In neuroscience, Kizondla revenue grew 175% compared to Q3 2025. Kizondla maintained its leadership position in U.S. amyloid therapy, and in the U.S. amyloid targeting therapies.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 512039,
@@ -667,6 +680,7 @@
    "t1_ms": 600320,
    "speaker": "Management",
    "text": "In diagnostic testing, momentum continues to build, and the number of pTL217 blood tests more than doubled compared to Q3 2025, translating to more people being diagnosed with Alzheimer's disease and accessing treatment. Finally, in cardiometabolic growth, Monjaro and Cepan combined for more than $16 billion of revenue, contributing $6 billion of growth compared to Q3 2025. As seen on slide 10, total prescriptions in the U.S. incretin market grew 32% compared to Q3 2025. All GLP-1s and the Medicare GLP-1 Bridge Program are expanding the number of people taking incretin therapy.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 555320,
@@ -706,6 +720,7 @@
    "t1_ms": 644320,
    "speaker": "Management",
    "text": "In the U.S., total incretin prescriptions for obesity grew 82% in Q3. Approximately 6 out of 10 total prescriptions, and more than 7 out of 10 injections, were for a Lilly medicine. In the U.S., type 2 diabetes incretin total prescription grew 8% compared to Q3 2025. And the Lilly portfolio continues to lead here with more than 60% share of market. Outside the U.S., Lilly's portfolio again performed well. Slide 11 shows aggregate trends in international incretins, which have increased by 53% since the same period last year,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 600320,
@@ -757,6 +772,7 @@
    "t1_ms": 688320,
    "speaker": "Management",
    "text": "as measured by IQ via gross sales. Lilly is strengthening its leadership position outside the U.S., gaining nearly 4 percentage points of share compared to Q2 2026, to reach approximately 58%. Slide 12 provides an update on the Fundayo launch. In the U.S., total prescriptions and the share of new patients continue to rise. Approximately 4 in 10 patients starting in Q3 2020, and 4 in 10 patients starting in an oral obesity medicine choose Fundayo. And the number of new Fundayo patients in Q3 doubled from the previous quarter. We look forward to launching Fundayo in type 2 diabetes in the U.S., and expect regulatory action in Q4.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 644320,
@@ -812,6 +828,7 @@
    "t1_ms": 729320,
    "speaker": "Management",
    "text": "Outside the U.S., Fundayo has launched in 4 countries, and is under regulatory review in more than 40 additional countries. We continue to expect a global rollout in all major markets in 2027. On slide 13, we provide an update on year-to-date capital allocation. Moving to slide 14 is our updated 2026 financial guidance. Based on strong underlying performance across our portfolio, we now expect full-year revenue to be between $91 and $92 billion. We saw strengths in the U.S. driven by rapid uptake of the Medicare GLP-1 Bridge program.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 688320,
@@ -859,6 +876,7 @@
    "t1_ms": 770320,
    "speaker": "Management",
    "text": "And outside of the U.S., from strong Moncharo performance. Given our updated revenue outlook, we now expect non-GAAP performance margin to be between 52% and 52.5%. We expect non-GAAP earnings per share of $35 to $36. This reflects an increase of $4.07 per share at the midpoint of the range, before updates to the Q3 acquired IPR&D charges of $4.00 and $0.057 per share. We are pleased with our Q3 results and confident in our ability to deliver another year of industry-leading growth.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 729320,
@@ -906,6 +924,7 @@
    "t1_ms": 813320,
    "speaker": "Management",
    "text": "We will share our 2027 financial guidance on our Q4 call in January. However, I will share highlights on our initial thoughts regarding some of the pushes and pulls that we expect to impact our 2027 financial outlook. Beginning with the U.S. revenue, we expect sustained volume growth in the increted market and the full-year impact of the Medicare GLP-1 Bridge access and the launch of Fondeo in Type 2 diabetes. Outside the U.S., we expect Moncharo's leadership position to continue. We expect to launch Fondeo, which will drive additional market growth. Consistent with previous years, we expect net realized price to be a headwind,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 770320,
@@ -961,6 +980,7 @@
    "t1_ms": 857320,
    "speaker": "Management",
    "text": "more than offset by volume growth. It is also worth noting that the 2027 revenue benefited from approximately $2 billion of one-time items primarily related to milestones, payments, and changes in estimates for rebates and discounts that we don't expect to record. Now, I will turn the call over to Dan to provide an update on our pipeline. Thanks, Lucas. Since our last earnings call, we've made progress across Lilly R&D. I'll begin in cardiometabolic health by recapping our most recent Phase III readout from our GIP GLP-1 glucagon triple agonist, Retatrutide. Just yesterday, we shared top-line results from Transcend T2D2,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 813320,
@@ -1028,6 +1048,7 @@
    "t1_ms": 898320,
    "speaker": "Management",
    "text": "a head-to-head trial of Retatrutide versus semaglutide in people with Type 2 diabetes. As shown on slide 15, Retatrutide delivered greater A1c reduction and more than doubled the weight loss of 2 mg semaglutide. Retatrutide reduced A1c by 2.2%. compared to 1.8% on 2 mg of semaglutide. These data demonstrate Retatrutide can provide even more glycemic control than an approved diabetes medicine and provide a potential new treatment option. What's even more striking was the 20 to 21% weight loss achieved in people taking Retatrutide",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 857320,
@@ -1087,6 +1108,7 @@
    "t1_ms": 940320,
    "speaker": "Management",
    "text": "compared to 9.4% weight loss in the semaglutide arm. For people with Type 2 diabetes who struggle to lose weight, Retatrutide continues to demonstrate powerful weight loss alongside compelling glycemic control in this difficult-to-treat population. Moving to another Lilly triple agonist, at last month's European Association for the Study of Diabetes meeting, we presented Phase 2 data for Elora TZP. Elora TZP is a combination of our selective amylin receptor agonist, Elora lintide, and our GIP GLP-1A2A2. Four years ago, Elora used our anion receptor hamutions",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 898320,
@@ -1146,6 +1168,7 @@
    "t1_ms": 983980,
    "speaker": "Management",
    "text": "as amäßig to increase in terms of cartilage production compared to our GIP GLP-1A2A1 dual agonist, Terze iceberg. As shown on slide 16, Elora TZP delivered weight loss of 23.3% at 48 weeks, for people with Type 2 diabetes and obesity. In a population that struggles to lose weight, this powerful combination delivered 57% more weight loss compared to Terze epitide, The highest dose combination of Alora TZP delivered A1C reduction of 2.9% at 48 weeks, and more than three out of four patients achieved an A1C below 5.7%, a level associated with normal blood glucose.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 940320,
@@ -1205,6 +1228,7 @@
    "t1_ms": 1026500,
    "speaker": "Management",
    "text": "Pending replication of these first-of-their-kind results in our Phase III trials, we believe this drug could meaningfully improve what is possible in the treatment of type 2 diabetes and obesity. And these data highlight the potential importance of treating with three physiologic hormones at once. Moving to Slide 17, as one might expect, when rapidly escalating doses of a medicine with multiple mechanisms, the highest dose Alora TZP arm had a higher discontinuation rate due to adverse events. As we move into Phase III, of course, we will use a slower, optimized, dose-escalation schedule, which we anticipate will improve tolerability.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 985100,
@@ -1256,6 +1280,7 @@
    "t1_ms": 1070840,
    "speaker": "Management",
    "text": "Note that monotherapy Alora Lentide showed excellent tolerability, with discontinuations due to adverse events lower than placebo. We look forward to beginning the Phase III trials of co-formulated Alora TZP imminently. We also presented results from ACHIEVE-4, the cardiovascular outcomes trial of Orpher glipron in people with type 2 diabetes and obesity with increased cardiovascular risk. As you can see, we have a lot of results. We have a lot of results. As shown on Slide 18, Orpher glipron met the primary endpoint of non-inferiority versus insulin glargine, reaffirming its cardiovascular safety profile. In additional pre-specified analysis, compared to insulin glargine, Orpher glipron showed a 16% lower risk of MACE-4.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1027579,
@@ -1311,6 +1336,7 @@
    "t1_ms": 1113120,
    "speaker": "Management",
    "text": "And for people fortunate enough to have been randomized to receive Orpher glipron in this trial, there was a 57% lower risk of all-cause death. These data complement the six previously presented Phase III trials for Orpher glipron and support the potential of Orpher glipron as a foundational daily oral treatment for people with obesity and people with type 2 diabetes. Also, in cardiometabolic health this quarter, in the U.S., we received two important FDA approvals. The FDA approved Terzepatide to reduce cardiovascular risk in adults with type 2 diabetes, and the FDA approved our once-weekly basal insulin, insulin F-satora-alpha.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1071980,
@@ -1358,6 +1384,7 @@
    "t1_ms": 1153360,
    "speaker": "Management",
    "text": "For adults with type 2 diabetes, under the brand name Onsweek. Weekly basal insulin could significantly improve patient experience by reducing the number of injections compared to daily basal insulin. Moving to oncology. The FDA approved protobrutinib for certain patients with previously untreated CLL or SLL based on the Bruin CLL313 Phase III trial. Protobrutinib reduced the risk of disease progression or death by 80%. Compared to bendamustine plus rituximab. This approval underscores protobrutinib's versatility across the CLL continuum of care.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1113120,
@@ -1405,6 +1432,7 @@
    "t1_ms": 1192920,
    "speaker": "Management",
    "text": "It can now be used in the first-line setting for appropriate patients, in addition to its valuable role in the relapsed or refractory post-covalent BTK inhibitor set. The FDA also approved Inglunestrin in combination with abemacyclib in ER-positive HER2-negative ESR1-mutated advanced. breast cancer. The all-oral combination of Inglunestrin and abemacyclib gives patients a treatment approach that targets the two central drivers of ER-positive breast cancer with an evidence-based treatment approach, an established tolerability profile, and no new monitoring requirements.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1153360,
@@ -1448,6 +1476,7 @@
    "t1_ms": 1235900,
    "speaker": "Management",
    "text": "We look forward to the results from EMBR4, ongoing Phase III trial of Inglunestrin in high-risk early breast cancer. Elsewhere in oncology. We initiated a Phase III trial with our PI3 kinase alpha inhibitor, Tersilisib, in combination with a CDK4-6 inhibitor and endocrine therapy in advanced breast cancer. Tersilisib is a mutant-selective PI3 kinase alpha inhibitor intended to target the PI3 kinase mutations in breast cancer while sparing normal PI3 kinase in healthy tissue. We believe this profile could lead to efficacy in the first-line metastatic setting without as much of a risk. However, in terms of the toxicity seen with other agents.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1193880,
@@ -1499,6 +1528,7 @@
    "t1_ms": 1279400,
    "speaker": "Management",
    "text": "We now have eight new oncology medicines or major new indications that are in Phase III trials, or will start Phase III shortly. Moving to neuroscience. We completed the acquisition of Atai-Beckley, adding a portfolio of neuroplastogens with potential to treat depression and other serious mental health conditions. We're pleased to welcome the Atai-Beckley team to Lilly and look forward to advancing multiple trials in the future. clinical programs together. Moving to immunology, we shared positive phase 3 results for lever kismap in people with moderate to severe atopic dermatitis of the hands and feet. Hand and foot atopic dermatitis is painful and difficult to treat, and these data show",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1236660,
@@ -1550,6 +1580,7 @@
    "t1_ms": 1316720,
    "speaker": "Management",
    "text": "lever kismap can be a new option for patients without the need for topical treatments. We've submitted these data to the FDA for potential label update. We also shared 52-week results from phase 3b trials of exokizumab and terzepatide used together in people with psoriasis or psoriatic arthritis and obesity. The exokizumab and terzepatide arm delivered greater improvements in skin and joint outcomes than exokizumab alone, highlighting the importance of immunometabolic health. Earlier this month, we closed the acquisition of Merida Biosciences, which is developing MER-511, a precision immunosuppressant.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1279400,
@@ -1593,6 +1624,7 @@
    "t1_ms": 1360860,
    "speaker": "Management",
    "text": "This drug was designed to selectively degrade the disease-causing autoantibodies while preserving normal immune function. We're excited about the potential to help patients here, and we're pleased to welcome the Merida team to Lilly. Sites 19 and 20 show pipeline movement since our last earnings call and the key events we expect in the remainder of 2026. We look forward to sharing more details about Merida Biosciences. We'll be back with more information about our pipeline at the upcoming Lilly Innovation Day on December 7. Although we won't have time to share everything we're working on, we'll do our best to curate a few examples that illustrate the depth and breadth of our capabilities and",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1317060,
@@ -1644,6 +1676,7 @@
    "t1_ms": 1404000,
    "speaker": "Management",
    "text": "our pipeline at Lilly. And I'll turn the call back to Dave for closing remarks. Thanks, Dan. We were pleased with the progress in Q3 and throughout 2026. Delivered another quarter of strong financial results, advanced our pipeline through Lilly Research Labs and business development. And we've been able to build two new manufacturing facilities in the U.S. to support our future growth. While we continue to make excellent progress during a period of industry-leading growth, we remain focused on investing now to support our long-term vision to redefine how a pharmaceutical company can improve human health at a global scale. We've developed differentiated capabilities in R&D, manufacturing and commercial operations,",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 1360860,
@@ -1703,6 +1736,7 @@
    "t1_ms": 1446940,
    "speaker": "Management",
    "text": "where we're engaging directly with patients through platforms like Lilly Direct. Thank you. Thank you, Dan. Thank you. Thank you, Sarah. Thank you, Kelsey. Thank you. Thank you. Thank you. Thank you, John. Thank you. Thank you. Thank you. Thank you, Nancy. Thank you. Thank you, Nathan. Thank you, Sean. Thank you, Debra. Thank you, Dr. Schin. What a whisky. I think it's a wonderful idea. This is a wonderful question, and I don't know that our radiation impacts the frequency of all of our COVID-19 vaccines. But I hope that we can look at it this way. I'm sure we have a very good record, and hopefully we can look at it this way. Thank you, Dennis. Thank you. Thank you. Thank you, Dr. Schin. Thank you. durable growth for Lilly and our shareholders. Q3 was another strong quarter, another step toward our long-term goals. Now I'll turn the call over to Mike",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 1404000,
@@ -1850,6 +1884,7 @@
    "t1_ms": 1465460,
    "speaker": "Management",
    "text": "to moderate the Q&A session. Great. Thank you, Dave. We'd like to take questions from as many callers as possible. So to that end, consistent with prior quarters, please limit yourself to one question. Operator, please provide the instructions for how to join the queue, and then we're ready for the first caller.",
+   "name": "Mike Sapar, SVP Investor Relations",
    "parts": [
     {
      "t0_ms": 1446940,
@@ -1893,6 +1928,7 @@
    "t1_ms": 1497460,
    "speaker": "Operator",
    "text": "Thank you. At this time, we will be conducting our question and answer session. If you have any questions, please press star 1 on your phone at this time. We ask that participants limit themselves to one question on today's call. If you have a follow-up question, please rejoin the queue by pressing star 1 at any time. We also ask if listening on speakerphone today, please pick up your handset while asking your questions to provide optimum sound quality. Please hold while we pull through the Q&A session. We will be back with more questions.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1465460,
@@ -1964,6 +2000,7 @@
    "t1_ms": 1498460,
    "speaker": "Management",
    "text": "Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1497460,
@@ -1979,6 +2016,7 @@
    "t1_ms": 1506500,
    "speaker": "Operator",
    "text": "Our first question today is coming from Chris Schott with J.P. Morgan. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1498460,
@@ -2002,6 +2040,7 @@
    "t1_ms": 1542890,
    "speaker": "Analyst",
    "text": "Great. Thanks so much, and congrats. You've raised guidance on the top line by roughly $10 billion year to date. I guess you reflect on what's happening here. Just talk a little bit about what's going on, et cetera. And probably as importantly, just when you think about these dynamics going fundamentally larger inkerton opportunity than you anticipated, or is this more of a pull forward of dinner addressable TAN for the company? Thanks so much.",
+   "name": "Chris Schott, J.P. Morgan",
    "parts": [
     {
      "t0_ms": 1506500,
@@ -2057,6 +2096,7 @@
    "t1_ms": 1587410,
    "speaker": "Management",
    "text": "Great. Thanks, Chris, for the question. To talk a bit about guidance and our outlook for inkertons in the future, we'll go to Lucas. Yeah, Chris, thank you for your question. And I think the starting point, if you go back when we set up the guide at the beginning of the year, you may remember that we have that slide with, again, the opportunities and still events that we had in front of us for 2026. We talk about the launch of FONDEO in Q2. We talk about the study in the Medicare Bridge Program. And then, of course, we talk about the variable of the growth OUS, in particular, on the inkertin out-of-pocket business and the runway of that growth. Again, what you see now in the latest guidance that we just shared today is actually a confirmation",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 1542890,
@@ -2132,6 +2172,7 @@
    "t1_ms": 1629150,
    "speaker": "Management",
    "text": "that we are tracking well across all of them, even better than what we anticipated. So that's, I think, a positive confirmation of the trends and the solid performance that we continue to see. Going back to your second part of the question about the runway of that, is that pulling forward or not, the way that we think about it, if you look at just the inkertin business, we're still scratching the surface on the number of patients that we can reach. You look at the U.S. and we're talking about one out of 10 patients that we are reaching nowadays. And in the OUS, we are talking about two patients out of 100 patients. So it's actually a really low base, though the number seems really big. Sixteen billion dollars. So as well as this quarter of inkertin business,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 1587410,
@@ -2211,6 +2252,7 @@
    "t1_ms": 1654510,
    "speaker": "Management",
    "text": "the runway of opportunity of growth is still so many years to come from my perspective. And on top of that, we continue to find the breadth across all the therapeutic areas. Super also happy to report the 100% growth on the rest of the key products across oncology, immunology, and neuroscience. So that's just to give you some color about the short term and how we think about also long term. Great. Next question, please.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 1629150,
@@ -2262,6 +2304,7 @@
    "t1_ms": 1659950,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Jeff Meacham with Citi. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1654510,
@@ -2289,6 +2332,7 @@
    "t1_ms": 1701990,
    "speaker": "Management",
    "text": "Oh, great. Hey, guys. Good morning. Thanks for the question. I want to ask about what data you have on terzapatide, persistency, and obesity just over the course of the past year or so. And importantly, when you look to next year, you know, would you expect foundeo and ritatratide to be different than that in terms of real-world experience? Thank you. Thanks, Jeff. To talk about terzapatide, persistency, and obesity, and thoughts on the pipeline looking at the future, we'll go to Ilya. Sure. Jeff, thanks for the question. What we've seen in persistency, and actually before we even launched ZEPBound, and we've had success with Trulicity in the past, and that was kind of the standard of what is possible",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 1659950,
@@ -2384,6 +2428,7 @@
    "t1_ms": 1746450,
    "speaker": "Management",
    "text": "for chronic medicine for adherence, which ended up becoming around 16 to 18 months of adherence. What we're seeing with ZEPBound is that in the covered space, we continue to see the trajectory of being just as beneficial in terms of adherence as we've seen in Trulicity. And even in the self-pay, we're seeing that close to the covered market. So the persistency actually for a chronic medication, ZEPBound is doing extraordinarily well. Now, expectations for oral, it's still early. But as typical chronic medications, as well as if you take a look at orals, they typically are lower adherence overall than the chronic medication.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 1701990,
@@ -2451,6 +2496,7 @@
    "t1_ms": 1777110,
    "speaker": "Management",
    "text": "So we're seeing that relative to weekly injectable therapies. And that's what we expect to see. One additional data point that I think will be important as we look at even the success of Bridge, early days in Bridge, having a low out-of-pocket helps with that friction point. And we're seeing improved adherence in Bridge. So that will all play out as part of the different friction points, both in terms of out-of-pocket as well as the benefits that people gain from these therapies. Great. Thanks, Ilya. Thank you.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 1746450,
@@ -2510,6 +2556,7 @@
    "t1_ms": 1783450,
    "speaker": "Operator",
    "text": "Our next question is coming from Seamus Fernandez with Guggenheim. Your line is live. Thanks so much.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1777110,
@@ -2533,6 +2580,7 @@
    "t1_ms": 1827470,
    "speaker": "Analyst",
    "text": "So I'm going to do the non-obesity question. Casinla is actually, you know, starting to show the prospect of becoming a blockbuster product and, you know, starting to grow faster, maybe a little bit faster overseas. But, you know, I was hoping, Dan, you might weigh in on the prospects for TB3, the prospects for success, and how you're seeing that program really evolving the treatment paradigm should it succeed, particularly in the context of some of the, you know, novel Tau biomarkers that we're starting to see. I think there are a lot of questions from investors that we get on, you know, what really is the market opportunity here, given the Casinla uptake.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1783450,
@@ -2592,6 +2640,7 @@
    "t1_ms": 1833470,
    "speaker": "Analyst",
    "text": "But it does seem like some of those behaviors are changing. Thanks. Great.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1827470,
@@ -2615,6 +2664,7 @@
    "t1_ms": 1876790,
    "speaker": "Management",
    "text": "Thanks, Seamus. Always welcome neuroscience questions. So we'll go to Carol to talk about prospects for Casinla and maybe even kind of the neuroscience space more broadly. Yes. We're very excited to see the growth of Casinla over the last year, and this growth is both driven by our confidence in this product with its convenient 30-minute infusion time, once monthly dosing, and the opportunity for treat to clear in this patient population. We've also seen a tremendous growth in the opportunity for diagnosis with blood-based biomarkers with blood-based biomarkers, and we see this becoming a diagnostic that enables access to early diagnosis, potentially even in primary care offices in the future.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1833470,
@@ -2686,6 +2736,7 @@
    "t1_ms": 1920810,
    "speaker": "Management",
    "text": "As we look at Trailblazer 3, which is our study looking at prevention in cognitively unimpaired people, looking at prevention of progression to early symptomatic Alzheimer's disease, these biomarkers will certainly also enable early diagnosis for people that have a very high risk of developing Alzheimer's disease. So we're excited to see that. We're also excited to see that we're able to provide evidence for people that have risk concerns about their cognition before loss of their cognition. So we're excited both about the growth in early symptomatic Alzheimer's disease, but also if Trailblazer 3 reads out positively, really expanding this market to earlier stages of disease where we already have preliminary evidence from our early symptomatic Alzheimer's disease space that treating",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1876790,
@@ -2757,6 +2808,7 @@
    "t1_ms": 1928790,
    "speaker": "Management",
    "text": "earlier will have a more significant impact on cognition. Thanks, Carol. Our next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1920810,
@@ -2780,6 +2832,7 @@
    "t1_ms": 1935790,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Evan Seegerman with BMO Capital Markets. Your line is live. Hi, guys.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1928790,
@@ -2811,6 +2864,7 @@
    "t1_ms": 1948790,
    "speaker": "Analyst",
    "text": "Thank you so much for taking my question. A bigger picture one here. So clearly the Inkerton franchise is becoming an enormous earnings driver, but it also raises the question of what comes next. When you look beyond the cardiometabolic disease, where do you see",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1935790,
@@ -2842,6 +2896,7 @@
    "t1_ms": 1952790,
    "speaker": "Management",
    "text": "the best opportunity to build Lilly's next multibillion-dollar growth pillar?",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1948790,
@@ -2861,6 +2916,7 @@
    "t1_ms": 1960790,
    "speaker": "Analyst",
    "text": "And does recent BD activity suggest that neuroscience and immunology are emerging as higher strategic priorities? Thank you so much. Great.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 1952790,
@@ -2888,6 +2944,7 @@
    "t1_ms": 2002790,
    "speaker": "Management",
    "text": "Thanks, Evan, for the question about the next big opportunity after Inkerton. We'll go to Dan to talk a bit about some of the pipeline opportunities he's excited about. Yeah. Thanks, Evan. I would say that we're excited about all three of our other therapeutic areas, which are immunology, neuroscience, and oncology. And the BD activity reflects not just our strategic intent to grow those areas, but the intersection of those areas. And we're excited about the intersection of that strategic intent with assets that are actually out there and are attractive to us. Oncology is probably the space where we've made the most progress, and we highlighted eight really important late-stage programs, several of which could be quite large in size.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 1960790,
@@ -2967,6 +3024,7 @@
    "t1_ms": 2046790,
    "speaker": "Management",
    "text": "For example, the recent colonia acquisition, which targets myeloma, is a huge opportunity if the data continue to hold out the way we expect them to. Neuroscience, of course, is a big part of that. Neuroscience, of course, is the area that has the largest unmet medical need and really the least progress in the pharmaceutical industry towards addressing that. We're firmly committed to making a difference for patients in this space, and you can see our acquisitions in sleep and psychiatry combined with our in-house expertise in neurodegeneration are aimed to really grow that market on behalf of patients. And then finally, immunology. I think there's been a lot of crowding in immunology on the market, and I think that's a big part of that. We've been working in immunology on a few probably important targets,",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 2002790,
@@ -3038,6 +3096,7 @@
    "t1_ms": 2069790,
    "speaker": "Management",
    "text": "but we also see a great opportunity actually to raise expectations in immunology with breakthrough therapies that I think can deliver efficacy that's never been seen before, and that's what we're trying to do with programs like the Merida acquisition or the Orna acquisition, which is aimed at immune reset. So lots of growth opportunities across those areas. Thank you, Dan. Next caller, please.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "parts": [
     {
      "t0_ms": 2046790,
@@ -3081,6 +3140,7 @@
    "t1_ms": 2077139,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Kerry Hart. This is from Anne Halford with Barenburg. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2069790,
@@ -3108,6 +3168,7 @@
    "t1_ms": 2113140,
    "speaker": "Analyst",
    "text": "Thank you for taking my question. I wonder if you can speak a little more about Medicare Bridge. How does the split between injectable and pill in that channel differ from others? It seems like the majority of Medicare demand is injectable. I wonder if that surprised you with regard to your products in that space. And also, could you talk to what proportion of patients in that Medicare channel for the Bridge program specifically are naive versus existing patients transferring from other channels?",
+   "name": "Anne Halford, Berenberg",
    "parts": [
     {
      "t0_ms": 2077139,
@@ -3151,6 +3212,7 @@
    "t1_ms": 2157830,
    "speaker": "Management",
    "text": "Thank you, Kerry. We'll go to Ilya to talk a bit about Bridge, the injectable versus pill split, as well as naive versus switches. Yeah. Thanks for the question. You know, for Bridge 1, it performed extraordinarily well. I think we knew that it was going to be a significant benefit for seniors. The program itself is simple and effective. It's very easy to understand. It's very easy to understand the criteria and the low out-of-pocket. And so all of those things combined, we have seen about three-quarters, 75% of people coming into Bridge going into injectable therapy, seven out of ten in total choosing Lilly Medicine.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2113140,
@@ -3214,6 +3276,7 @@
    "t1_ms": 2202830,
    "speaker": "Management",
    "text": "And so we've performed really well across Bridge. That is higher than maybe some of the self-paced segment. And so we've seen that the components of that is the same low out-of-pocket and getting the greatest efficacy and the standard of care that's been established in obesity has favored ZepBound in particular. But we're seeing good growth and uptake of Orals and Foundayu as well. In terms of expanding the number of people actually being treated, after the first bolus of people coming into Medicare, we're seeing now that about 80% of the people who are coming into Medicare and people getting treatment under Bridge are naive or have not been on inquitin therapy in the past.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2157830,
@@ -3269,6 +3332,7 @@
    "t1_ms": 2233830,
    "speaker": "Management",
    "text": "And so we see this as a significant driver of access long-term. And it's still early days. And while it's performing above our expectations, we see continued opportunity here to expand access and utilization and not only improve care of seniors, but as we shared earlier on independent study, also the potential of saving significant amount for Medicare overall. Thank you, Ilya. Next caller, please.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2202830,
@@ -3312,6 +3376,7 @@
    "t1_ms": 2239830,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Asad Haider with Goldman Sachs. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2233830,
@@ -3335,6 +3400,7 @@
    "t1_ms": 2281520,
    "speaker": "Management",
    "text": "Great. Thanks for taking the question and congrats on all the progress. Maybe just back to Foundayu. Thanks for the comments earlier. And I know that it's still very early in the trajectory. But just curious to hear any updated framing on how the launch is going. I think it's playing out both in the U.S. as well as internationally in the context of both competitive dynamics versus oral Bagovi and then your own internal expectations. And then on the titration schedule for Foundayu, the two lower doses still represent about 75% to 80% of TRXs in recent weeks. So where do you see that going at steady state? Thank you. Great. Thanks, Asad. I think we'll start maybe with international. We'll go to Patrick to talk a bit about some of the ex-U.S.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2239830,
@@ -3414,6 +3480,7 @@
    "t1_ms": 2324520,
    "speaker": "Management",
    "text": "launches and then, Ilya, maybe a couple of nuggets on the U.S. as well. Well, thank you very much. We have now launched in four markets outside the U.S. We started with the UAE very late in Q2. And the second half of Q3, we launched in the U.K., Saudi, and Mexico. I would say that so far, the launch is very much in line with our expectations. There are a lot of similarities with the learnings from the U.S. in terms of the orals are truly expanding the market. And we see a huge amount of patients actually being new to incretins. In the Middle East, I think we have the political situation to take into account, but we have a market leader in UAE with competition from the Gobi.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2281520,
@@ -3473,6 +3540,7 @@
    "t1_ms": 2365520,
    "speaker": "Management",
    "text": "In Saudi, we have launched in both Type II and chronic weight management, and we have a good uptake there. U.K., we have been subject to the pre-vetting requirements by the MHRA. So we have actually not been able to fully promote until now in October. But the signs here are also that the orals are expanding the market. Mexico, week six, a very good uptake and actually slightly above our expectations. But most importantly, I think we see that there is a lot of work to be done here, and we need to do all of the work that has been done in the U.S. as well. We recently got the CHMP positive opinion that should hopefully result in a regulatory approval by year end.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2324520,
@@ -3520,6 +3588,7 @@
    "t1_ms": 2408520,
    "speaker": "Management",
    "text": "And we are ready to launch across chronic weight management and Type II diabetes in more than 40 markets next year. But the initial focus is going to be on the chronic weight management. The initial focus is going to be on cash pay and chronic weight management since Type II reimbursement will take some time. In the U.S., we have made significant progress since last quarter. We have seen over half a million TRX in the quarter. But fundamentals and some of the key indicators that we have been talking about as part of our initial launch have been moving in a really positive direction. Consumer awareness and interest has improved with our investment and campaign with Martha Stewart. And we are seeing also number of trial lists have more than doubled since last quarter.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2365520,
@@ -3571,6 +3640,7 @@
    "t1_ms": 2453520,
    "speaker": "Management",
    "text": "And so we are seeing good progression of adoption from providers. And that is showing up in our share of markets. So our NBRX share of market is approaching around 4 out of 10. And so good progress overall for the growth of Fondeo in the oral segment. And even in the sequential growth of orals within, let's see, from Q2 to Q3, we are taking 45% of that growth with Fondeo. In terms of the titration, it is expected that it takes time to titrate to the maintenance doses. But we have actually seen good progress on our maintenance doses. We have multiple maintenance doses.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2408520,
@@ -3618,6 +3688,7 @@
    "t1_ms": 2498520,
    "speaker": "Management",
    "text": "So about 25% of people are at one of our maintenance doses. That is actually higher than what you see on the GovePill. And so we are encouraged by that. Of course, that is something to continue to monitor. But the experience overall that we are seeing both from provider and consumer has been positive. I would just add, you know, we are under review for type 2 diabetes. And we see that as an extraordinary opportunity for Fondeo as well. Remembering today in the U.S., roughly half the volume of GLP-1s is in diabetes. So that is a big market expansion. Of course, it needs access and reimbursement when we get that. But that is very important. And that is very promising, sort of another leg to the stool here for the Fondeo performance. Thank you all.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2453520,
@@ -3681,6 +3752,7 @@
    "t1_ms": 2500520,
    "speaker": "Management",
    "text": "Next question, please.",
+   "name": "Mike Sapar, SVP Investor Relations",
    "parts": [
     {
      "t0_ms": 2498520,
@@ -3696,6 +3768,7 @@
    "t1_ms": 2506520,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Steve Scala with TD Cowen. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2500520,
@@ -3719,6 +3792,7 @@
    "t1_ms": 2549520,
    "speaker": "Analyst",
    "text": "Thank you so much. This is a follow-up to Chris's earlier question. And with all due respect, Lilly's financial guidance hasn't been a good predictor on ultimate results. And I'm curious, what is the most frequent source of the surprise? So specifically, has it tended to be positive unit developments? Or has it been lack of negatives on price? Or is it some desire to just lean incredibly cautiously on guidance? And if it's the latter, why is that? A key for investors, I think, is to determine when the surprise factor runs its course. Any color would be appreciated. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2506520,
@@ -3774,6 +3848,7 @@
    "t1_ms": 2593240,
    "speaker": "Management",
    "text": "Great. Thanks, Steve, for the direct question. We'll go to Lucas to maybe provide a little extra color on guidance. And Dave, if you want to add anything, feel free to as well. Yeah, Steve, thank you for the question. I think in terms of the variables that I described on the first question are still, again, the variables that we had when we started the year. Of course, again, now with yesterday's newspaper, you think about that, again, we are performing way much better. that, again, what we had initially guided to. But if you look at the runway of that growth across the U.S. and our U.S., it has been all the events we were public about, again, that the unknowns associated with that. Starting with the bridge program, when that bridge program would start,",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 2549520,
@@ -3841,6 +3916,7 @@
    "t1_ms": 2636600,
    "speaker": "Management",
    "text": "the uptake of that as well, the progression of our U.S. markets, both in share and also penetration. And those all played out better than what we anticipated. So still the drivers are those ones. Again, we continue to guide to what we forecast in our internal bottom-up approach that we have on our forecasting model and try to be as public as possible about how we see the projections. And now we provided some perspective into 2027 as well. So I think from my perspective, we continue to drive, again, a very thorough process every single quarter and be public about, again, the variables that could affect positively or negatively as well our guidance projections. Yes, Steve. I'm sorry. I appreciate the question. You've followed the company a long time.",
+   "name": "Lucas Montarce, CFO",
    "parts": [
     {
      "t0_ms": 2593320,
@@ -3912,6 +3988,7 @@
    "t1_ms": 2682220,
    "speaker": "Management",
    "text": "Our goal is to give as accurate projections as we can. But, of course, there's asymmetry with missing on the downside. That's like everyone's impulse. But let's remember, we're in the middle of the largest new category expansion in the history of the pharmaceutical industry. And Lilly's leading that. So there's a number of things that have never actually happened before that we're trying to project. And, you know, we prefer to, you know, give a posture that investors can rely on versus one that, you know, is more speculative. And, you know, at the J.P. Morgan conference at the beginning of the year, I said there's like two big variables this year. If I knew the answer to it, we would have had a tighter range. One was the uptake in bridge, which we didn't really know.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2638240,
@@ -3983,6 +4060,7 @@
    "t1_ms": 2723320,
    "speaker": "Management",
    "text": "We weren't even sure about the start time of bridge at that point. And the other was the depth of the consumer purchasing internationally and whether we were really just skimming very high net worth individuals into the market. And I think that's a big question. And I think that's a big question. And I think that's a big question. And I think that's a big question. And I think that's a big question. And I think that's a big question. And I think that's a big question. It means out-of-pocket markets or if more middle-income households would be interested in improving their health and losing weight at scale. And I think both of those this year turned out to be positive for us, thus the roughly $10 billion improvement over first-time guide. You know, as time goes on, I suspect we'll have fewer and fewer of those never-before-done things, and the guidance can become more predictable. So I appreciate the question. But, you know, that's sort of how I've seen it over the last three years.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2683000,
@@ -4074,6 +4152,7 @@
    "t1_ms": 2741500,
    "speaker": "Management",
    "text": "three years and, you know, we're beating on the up, that's better than missing on the down. And I think that's good news, mostly not because of the earnings beats, but because we're actually executing against a really scaled opportunity and performing well. Thanks. Great. Thank you, David Lucas. Next question, please.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 2723320,
@@ -4101,6 +4180,7 @@
    "t1_ms": 2747200,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Terrence Flynn with Morgan Stanley. Your line is",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2742500,
@@ -4116,6 +4196,7 @@
    "t1_ms": 2775860,
    "speaker": "Analyst",
    "text": "live. Great. Thanks for taking the question. Maybe one on the pipeline for Dan. There's been a growing focus on longer acting incretins. You guys recently said you have three different programs in the clinic. So just wondering if we can expect any clinical data at the R&D day on these programs, or if you can tell us what the stage is of development, because I think that is probably the only hole you have in your incretin pipeline. Thank you.",
+   "name": "Terrence Flynn, Morgan Stanley",
    "parts": [
     {
      "t0_ms": 2747200,
@@ -4147,6 +4228,7 @@
    "t1_ms": 2818040,
    "speaker": "Management",
    "text": "Thanks, Terrence. We'll actually go to Ken to talk about the long acting approach and if there's anything to share beyond what's been public. Thanks for the question, Terrence. As we discussed previously, we do see an opportunity for longer acting incretins, particularly in a category that's big with such a consumer emphasis. And we're taking the same approach we usually do when we see an important square on the board that we want to fill, which is baking off several competing platforms to see which one provides the best product possible. This is a space where we think the molecule properties are really going to matter. And so that's why we haven't signaled anything yet, but it is true we have multiple efforts in the clinic. Those are a",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2777200,
@@ -4190,6 +4272,7 @@
    "t1_ms": 2837680,
    "speaker": "Management",
    "text": "range of different technological approaches, including existing time extension technologies, as well as ones that could be part of the future. And then we have other efforts that we've disclosed in business development around formulation technologies. Again, we'll look at all these data and make an informed decision on which effort or efforts to advance to phase three. Thank you, Ken. Next. Next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2818040,
@@ -4225,6 +4308,7 @@
    "t1_ms": 2845100,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Trung Hwing with RBC. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2838780,
@@ -4240,6 +4324,7 @@
    "t1_ms": 2877820,
    "speaker": "Analyst",
    "text": "Hi, guys. Thanks for taking my questions. So as you look to 27, what are you seeing in terms of opt-in trends for GLP-1 coverage amongst the larger employers in the U.S.? And with those dynamics in mind and bridge continuing to ramp, could your U.S. channel mix meaningfully evolve next year so it potentially creates a more stable and more stable business? And could that potentially create additional pricing pressure amongst the mid-teens decline that you've absorbed in 26? Or could we see pricing headwinds in the same range for 27? Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2846540,
@@ -4279,6 +4364,7 @@
    "t1_ms": 2921680,
    "speaker": "Management",
    "text": "Thanks, Trung. We'll go to Ilya to talk about 2027 early opt-in trends and maybe the broader access environment as well, as we look into the next year. Yeah. Overall, obviously there's been noise around a number of employers opting out of coverage at the same time. We're having positive discussions through our Connect and other channels, but we're seeing a lot of activity in the U.S. as well. And so we're seeing a lot of interest in the U.S. discussions to our employer connect and other channels on improving access there as well. Our expectation is that overall access on the commercial side will maintain relatively stable through 2027. Obviously, we continue to have conversations to improve on that. The main access improvements overall for 27 will most more likely be predominantly growth of Medicare",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2877820,
@@ -4326,6 +4412,7 @@
    "t1_ms": 2961160,
    "speaker": "Management",
    "text": "and Medicaid as opportunities for expanded coverage. That will have a segment mix more towards a lower price, lower net price, not about decreasing the price overall, but more just a segment mix. That as well as some level of self-pay in the lower net price per TRX. And in terms of commercial overall pricing, I would expect a modest and disciplined approach around pricing. And access to maintain, but overall stable on the commercial and increased coverage in Medicare and Medicaid. Great. Thank you, Ilya. Next question, please.",
+   "name": "Ilya Yuffa, President of Lilly USA and Global Customer Capabilities",
    "parts": [
     {
      "t0_ms": 2921680,
@@ -4369,6 +4456,7 @@
    "t1_ms": 2967400,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Akash Tiwari with Jefferies. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 2962060,
@@ -4384,6 +4472,7 @@
    "t1_ms": 3000020,
    "speaker": "Analyst",
    "text": "Hey, thanks so much. So your team's talked about generally predictable and consistent GLP-1 pricing declines in the U.S. out to the end of the decade. How does that look ex-U.S.? Could we see more stability there than maybe investors expect? And how do you think about the net price per patient in the U.S. versus international markets, ex-China, evolving over time? It currently seems quite similar. And Dave, you mentioned something interesting. Can you talk a bit more about the size of this emerging middle-income cash pay international market opportunity relative to what we've seen in the U.S. so far? Thank you.",
+   "name": "Akash Tiwari, Jefferies",
    "parts": [
     {
      "t0_ms": 2968920,
@@ -4423,6 +4512,7 @@
    "t1_ms": 3045760,
    "speaker": "Management",
    "text": "Thanks, Akash. Sounds like good questions for Patrick. So we'll talk a bit about pricing expectations kind of on the cadence from here, thinking about net price U.S. versus China. And then we'll talk a bit more about the size of the emerging middle-income cash pay in the U.S. and anything about the emergence of a middle-income cash pay market. Yeah. Thank you very much. You know, we have taken a very disciplined approach to pricing all U.S. And I think we have seen that both providers, consumers, and payers are willing to pay for a differentiated product. And we have seen that even after the launch of generics in India, Brazil, and Canada, we're holding our shares and continue to grow. And that's a discipline that we will continue to apply. In terms of the out-of-pocket willingness, we actually see quite a big willingness to pay out-of-pocket",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3001880,
@@ -4474,6 +4564,7 @@
    "t1_ms": 3085520,
    "speaker": "Management",
    "text": "all U.S. as well. Of course, when markets are getting further penetrated, and like the U.K., where we launched more than two years ago, and where we have a penetration very much along the lines of the U.S., we see a lower growth as we expected. But I think overall, taking into account where we are penetration-wise, low single-digit, long-term, we see a tremendous opportunity, all U.S., for the intratains. And, we will continue our efforts as well to gain type II reimbursement, which is very important. And we made some progress in Q3 here, now having nine European markets covered. But we will continue those efforts and continue to take a disciplined approach in terms of pricing.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3045760,
@@ -4517,6 +4608,7 @@
    "t1_ms": 3103700,
    "speaker": "Management",
    "text": "Maybe just a comment on the ex-U.S. versus U.S. I mean, our goal, because of the consumer nature of this, is to put a much tighter band of pricing on obesity medicines than maybe you've seen historically in other medicine categories. Thanks, Dave and Patrick. Next question, please.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3085520,
@@ -4540,6 +4632,7 @@
    "t1_ms": 3109980,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Umar Afaf with Evercore. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3103700,
@@ -4555,6 +4648,7 @@
    "t1_ms": 3137520,
    "speaker": "Analyst",
    "text": "Good morning, guys. I wanted to spend a quick second on a potentially sizable opportunity in early breast cancer for imlanestrant. And I understand there's a plan interim for you guys, a competitor trial stopped on interim. How should we think about early stoppage odds for your trial, and perhaps more importantly, if you could put the effect size comparisons versus Lydara, perspective, knowing that the treatment setting for you is a little more real world with meaningful post-CDK4 penetration. Thank you very much.",
+   "name": "Umer Raffat, Evercore ISI",
    "parts": [
     {
      "t0_ms": 3109980,
@@ -4594,6 +4688,7 @@
    "t1_ms": 3182300,
    "speaker": "Management",
    "text": "Great. Thank you, Umar. We'll go to Jake to talk a bit about EMBER4. Yeah, thanks, Umar. Super excited about in Lurio, both in its current actual commercial performance, where it's doing great and having lots of people with monotherapy and new combination with Fresenio. And as you mentioned, the real big opportunities in the adjuvant setting with the EMBER4 study. We've not talked about interim analyses on this study. We've been pretty consistent that we expect the study to read out in 2027, next year. So we're sticking with that. That is what we expect. I think you're raising a good point. The treatment setting that we're exploring is much more real world, I think, than what was examined in LIDERA, both in the context of the prevalent population that exists that",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3138820,
@@ -4665,6 +4760,7 @@
    "t1_ms": 3216060,
    "speaker": "Management",
    "text": "may want to switch from existing endocrine therapy to new oral SIRD and a study run in the context of... Of modern standard of care of CDK4-6 inhibitors like Fresenio, which our study had and theirs didn't. So a bunch of differences. I think when our study does read out successfully, I hope it will be much more relevant to clinical practice and easy to understand how to slot it in. I don't want to comment on anticipated effect sizes because we just need the study to read out and see what it shows us. But excited to get to that point. Thank you, Jake. Next question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3182300,
@@ -4724,6 +4820,7 @@
    "t1_ms": 3222020,
    "speaker": "Operator",
    "text": "Thank you. Thank you. Thank you. Our next question is coming from... Carter Gould with Cantor. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3217080,
@@ -4759,6 +4856,7 @@
    "t1_ms": 3262760,
    "speaker": "Management",
    "text": "Great. Good morning. Congrats on the quarter. Maybe just to go back to the BRIDGE program, have you had conversations with the admin or the various Plan D sponsors that give you confidence this program will either be extended or balance will be revisited in a different iteration? I guess to the point, just your confidence that there won't be a disruption at the end of 27? Thanks, Carter. I'll go to Dave to talk a bit about discussions with the administration. Yeah. Yeah. Well, I think we're... We're pretty optimistic about expansion, I think, for three reasons, Carter. One is the early uptake is strong, and I think you see both demand and appropriate on-label use of the medications.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3222940,
@@ -4834,6 +4932,7 @@
    "t1_ms": 3308020,
    "speaker": "Management",
    "text": "The administration did a fantastic job implementing the PA criteria in a way that was not kind of over-indexed or under-indexed. And I think if we look at the people using the medicines, relatively high BMI, comorbid people, and that leads to the second point. Yeah. Yeah. Yeah. So I think that's a great point, which is cost-effectiveness. And I think we highlight today the independent study from USC that estimates not just break-even, but like massive cost savings for Medicare due to this program. CMS will, because it's being done as a pilot program, will do their own analysis. But I think all signals now point to a pretty successful cost-effectiveness, which could yield either a legislative or a regulatory...",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3264300,
@@ -4897,6 +4996,7 @@
    "t1_ms": 3351760,
    "speaker": "Management",
    "text": "Or a monetary shift in the coverage permanently. In the meantime, I think there's a lot of energy with the people running CMS at the current point to continue this, and the right way to do that is put this into the Part D benefit. So I would expect, and it's probably a good conversation to have on our Q1 call, this to then shift to working with the carriers for the 28th calendar year. And we'll certainly work with the administration and all our partners. who supply Part D coverage to have good access across our portfolio and contain the success of the program so far. Thanks, Dave. We'll try to squeeze in two more if we could, please. Next question, please.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3308940,
@@ -4956,6 +5056,7 @@
    "t1_ms": 3357700,
    "speaker": "Operator",
    "text": "Thank you. Our next question is coming from Michael Yee with UBS Securities. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3352500,
@@ -4979,6 +5080,7 @@
    "t1_ms": 3386090,
    "speaker": "Analyst",
    "text": "Great. Thank you. Maybe just a long-term portfolio question around obesity and how you view a consumerism-driven market where people will gravitate towards differentiated or different options within your portfolio. So I'm thinking about Redditor, Ted, and Hamlin. Can you maybe just put on your prediction hat about what that portfolio would look like given various competition and price declines?",
+   "name": "Michael Yee, UBS",
    "parts": [
     {
      "t0_ms": 3358900,
@@ -5026,6 +5128,7 @@
    "t1_ms": 3430390,
    "speaker": "Management",
    "text": "Thank you. Thanks, Mike. We'll go to Ken to talk about the breadth of the obesity portfolio and how to think about what patients each are for. Thanks, Mike, for the question. Maybe let's start with the size of the problematization. The problem we're confronting here is 110 million or so people living in the U.S. with obesity or overweight and internationally. That number has a B at the start of it. That's why we're pursuing a portfolio approach knowing that many individuals will seek out and find over time what works best for them. Each of the molecules in our growing portfolio, they have unique features, and probably each of them can fill multiple roles. We've talked about how Foundeo is a great on-ramp for patients earlier in the weight loss journey but can be a great maintenance option as well. Trisapatide we see as sort of a cornerstone with a growing body of evidence to support it,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3386290,
@@ -5125,6 +5228,7 @@
    "t1_ms": 3475290,
    "speaker": "Management",
    "text": "including surmount MMO very soon. And then if we focus on RETA, this is a medicine that looks like it could do a lot of jobs on the high end delivering tremendous power, lower end delivering a lot of simplicity and really differentiated responses in some important subpopulations, including men and type 2 diabetics, where it's the first agent that's ever shown greater than 20% weight lowering. Beyond that, we have our selective amylin portfolio, which opens up a new pharmacological axis that can offer incretin-like weight lowering, with really more placebo-like GI tolerability. And then last but not least, the lower TZP, we see this as sort of the most physiological approach yet to weight loss that could also, again, play a lot of roles in this, including providing really differentiated HbA1c lowering in patients with type 2 diabetes.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3430470,
@@ -5216,6 +5320,7 @@
    "t1_ms": 3503850,
    "speaker": "Management",
    "text": "So again, all of these agents, we think they can play a lot of roles. We probably can't a priority stipulate for any individual patient what's going to work best for them, but what's important to us is that we offer all of them, we offer choice, put them on a really a platform with a consistent appearance experience that allows patients to start, switch, and step up to any Lilly Medicine that works best for them. And overall, no matter which one they choose, they'll still be on a Lilly Medicine. Great. Thanks, Ken. We'll go to the last question, please.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3475710,
@@ -5283,6 +5388,7 @@
    "t1_ms": 3509670,
    "speaker": "Operator",
    "text": "Thank you. Our final question is coming from Courtney Breen with Bernstein. Your line is live.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3504570,
@@ -5310,6 +5416,7 @@
    "t1_ms": 3556920,
    "speaker": "Analyst",
    "text": "Lilly team, thanks for the question today. I know we've spoken a little bit about the pipeline, but I instead wanted to think about other sources of innovation and mainly the M&A that you've been doing and licensing that you've been doing externally to support your pipeline. Obviously, there's been a rapid pace for the first part of this year. Can you just help us understand where you believe you're at in terms of the risk-reward balance across your portfolio, the types of areas that might be of interest to continue adding, and how you're kind of ensuring that you're keeping the bar high as you continue to take action? Thank you. I think we're going to have to take on and broaden this pipeline kind of beyond what we see in phase two right now. Thank you so much.",
+   "name": "Courtney Breen, Bernstein",
    "parts": [
     {
      "t0_ms": 3512000,
@@ -5393,6 +5500,7 @@
    "t1_ms": 3600020,
    "speaker": "Management",
    "text": "Yeah. Thanks, Courtney. We'll go to Jake to talk a bit about the kind of BD strategy, the process to assess different transactions, and kind of the interest across the board. Yeah. Thanks for the question. You know, it's funny. You mentioned risk-reward. Risk is really our friend here. Risk allows us to actually create value. And one of the ways we can deploy that, or the reasons we can, is because we're not just going to be able to do it, is we don't need revenue tomorrow. You know, I think, you know, we have this opportunity, while the Inkerton business and the rest of the commercial businesses are doing so well, to plan for the next decade or two ahead, which allows us to take more risk in a calculated way. And some of that is very early-stage deal-making, which, you know, oftentimes are not really even press released",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3557880,
@@ -5480,6 +5588,7 @@
    "t1_ms": 3643380,
    "speaker": "Management",
    "text": "by us, so some of them you don't maybe know as much about. And, you know, we've done a bunch of, I would say, clinical-stage, but not super late-stage clinical deals. And we've done a bunch of these this year, where we see enough risk still within the program for us to create value, but enough de-risking for us to feel confident that there's a real medicine, or maybe more than one medicine there. And, you know, we can point to a handful of deals, even on the year, this year, that fit that paradigm. So, you know, I think you'll see more of both of those categories from us across all the therapeutic areas. We're not solving for any one given therapeutic area. We're just solving for great products, great science, and great people that we can bring into the company and fuel growth. And I think that's what we're going to be doing both into the decades to come. I think that gives us a competitive advantage, frankly,",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3600020,
@@ -5567,6 +5676,7 @@
    "t1_ms": 3686860,
    "speaker": "Management",
    "text": "in how we look for what we want to take inside, relative to our peers. So, we have a pretty rigorous process to stay disciplined on a deal-by-deal basis. And I'm excited about what we've done so far, and what's to come. Thanks. Thank you. Brad, do you have a couple closing comments? Okay. Excellent. Thanks for joining us for today's call. Obviously, a strong quarter for the company. I want to take a moment, though, to promote an upcoming event, which is our December 7th, Investor Day. This will really be an R&D and pipeline-focused day. We'll have other sections in that as well. And I hope all of you can join us live, or if not, remotely for that event.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3643380,
@@ -5650,6 +5760,7 @@
    "t1_ms": 3709320,
    "speaker": "Management",
    "text": "I also want to take a minute just to, again, congratulate Patrick on a great career. And I think this will be your last earnings call with us. You played a big part in our success over the last, well, 30 years of your career, but certainly the most recent six or seven. So, thank you. Thank you, Patrick, for everything. Please follow up with the IR team if you have additional questions we didn't get to. And look forward to seeing everyone in early December.",
+   "name": "Dave Ricks, Chair and CEO",
    "parts": [
     {
      "t0_ms": 3686860,
@@ -5705,6 +5816,7 @@
    "t1_ms": 3746120,
    "speaker": "Operator",
    "text": "Thank you. This does conclude our conference for today. This conference will be made available for replay beginning at 1 p.m. today and running through 11-26-26 at midnight. You may access the replay system at any time by dialing 800-332-6854. And entering the access code 938904. International dialers can call 973-528-0005.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3709320,
@@ -5748,6 +5860,7 @@
    "t1_ms": 3763260,
    "speaker": "Operator",
    "text": "Again, those numbers are 800-332-6854 and 973-528-0005 with the access code 938904. Thank you for your participation.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3746740,
@@ -5771,6 +5884,7 @@
    "t1_ms": 3763420,
    "speaker": "Management",
    "text": "And you may now be able to access the Q&A session. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3763260,
@@ -5790,6 +5904,7 @@
    "t1_ms": 3764280,
    "speaker": "Operator",
    "text": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+   "name": null,
    "parts": [
     {
      "t0_ms": 3763420,
@@ -11162,6 +11277,7 @@
    "quote": "In Japan, revenue grew 26% in constant currency, driven by Moncharo and Kisanlab.",
    "adj_ret_5m": 0.008789731134520196,
    "speaker": "Management",
+   "name": "Lucas Montarce, CFO",
    "vol_mult": 2.7985458067864184,
    "spillover": "company"
   }
@@ -11175,6 +11291,7 @@
    "t0_ms": 438880,
    "speaker": "Management",
    "quote": "In Japan, revenue grew 26% in constant currency, driven by Moncharo and Kisanlab.",
+   "name": "Lucas Montarce, CFO",
    "metric": "Japan revenue growth (constant currency)",
    "kind": "result",
    "novel": true,
@@ -11207,6 +11324,7 @@
    "t0_ms": 128039,
    "speaker": "Management",
    "quote": "Revenue grew nearly $7 billion compared to Q3 2025, and our key product revenue increased by over $6 billion.",
+   "name": "Dave Ricks, Chair and CEO",
    "metric": "revenue growth",
    "kind": "result",
    "novel": true,
@@ -11239,6 +11357,7 @@
    "t0_ms": 1019100,
    "speaker": "Management",
    "quote": "As we move into Phase III, of course, we will use a slower, optimized, dose-escalation schedule, which we anticipate will improve tolerability.",
+   "name": "Dan Skovronsky, Chief Scientific and Product Officer",
    "metric": "Elora TZP Phase III tolerability",
    "kind": "guidance",
    "novel": true,
@@ -11271,6 +11390,7 @@
    "t0_ms": 2616540,
    "speaker": "Management",
    "quote": "And now we provided some perspective into 2027 as well.",
+   "name": "Lucas Montarce, CFO",
    "metric": "2027 guidance perspective",
    "kind": "guidance",
    "novel": true,
@@ -11303,6 +11423,7 @@
    "t0_ms": 1612930,
    "speaker": "Management",
    "quote": "You look at the U.S. and we're talking about one out of 10 patients that we are reaching nowadays.",
+   "name": "Lucas Montarce, CFO",
    "metric": "Inkertin US patient penetration",
    "kind": "result",
    "novel": true,
@@ -11527,14 +11648,15 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 403.0,
   "gpu_usd": 0.1428,
-  "claude_s": 131.0,
+  "claude_s": 18.0,
+  "claude_backend": "cli",
   "claude_tokens": {
-   "input_tokens": 32723,
-   "output_tokens": 22849,
-   "cache_read_input_tokens": 108155,
-   "cache_creation_input_tokens": 21631
+   "input_tokens": 2,
+   "output_tokens": 2268,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 60877
   },
-  "claude_usd": 0.3588
+  "claude_usd": 0.1749
  },
  "context": {
   "ts": [
