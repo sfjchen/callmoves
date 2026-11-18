@@ -44,6 +44,14 @@ PEERS = {
     "MCD": ["YUM", "SBUX", "CMG"], "W": ["CHWY", "ETSY", "RH"], "KO": ["PEP", "KDP"], "PG": ["CL", "KMB", "CHD"],
     "MO": ["PM", "BTI"], "PM": ["MO", "BTI"], "CVX": ["XOM", "COP"], "XOM": ["CVX", "COP"],
     "DUK": ["SO", "D", "AEP"], "NEE": ["DUK", "SO", "AEP"],
+    "NVDA": ["AMD", "AVGO", "TSM"], "AMD": ["NVDA", "INTC"], "AVGO": ["NVDA", "MRVL", "QCOM"], "QCOM": ["AVGO", "ARM"],
+    "MRVL": ["AVGO", "CRDO", "ALAB"], "ARM": ["QCOM", "NVDA"], "INTC": ["AMD", "TXN"], "TXN": ["ADI", "MCHP", "ON"],
+    "ADI": ["TXN", "MCHP", "NXPI"], "MCHP": ["TXN", "ADI"], "NXPI": ["ON", "ADI"], "ON": ["NXPI", "TXN"],
+    "MU": ["SNDK", "WDC", "STX"], "SNDK": ["MU", "WDC"], "WDC": ["STX", "SNDK"], "STX": ["WDC", "SNDK"],
+    "TSM": ["NVDA", "AMAT", "ASML"], "ASML": ["AMAT", "LRCX", "KLAC"], "AMAT": ["LRCX", "KLAC"],
+    "LRCX": ["AMAT", "KLAC"], "KLAC": ["AMAT", "LRCX"], "SMCI": ["DELL", "HPE"], "DELL": ["SMCI", "HPE"],
+    "ANET": ["CSCO", "CLS"], "VRT": ["ETN"], "COHR": ["LITE", "CRDO"], "CRDO": ["ALAB", "MRVL"],
+    "ALAB": ["CRDO", "MRVL"], "CLS": ["ANET", "SMCI"], "KXIAY": ["SNDK", "MU", "WDC"],
 }
 # liquid ETFs read as cross-asset context: the market, rates, the dollar, credit, gold and oil
 CROSS_ASSETS = {"SPY": "market", "TLT": "rates", "UUP": "dollar", "HYG": "credit", "GLD": "gold", "USO": "oil"}

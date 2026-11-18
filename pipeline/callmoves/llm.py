@@ -1,7 +1,11 @@
 """Shared Claude access for the claim extractor and the novelty judge: 1 model name, 1 structured-output call, and
-the tokens it used, so a run can record what its Claude calls cost."""
+the tokens it used, so a run can record what its Claude calls cost. CALLMOVES_LLM=cli sends the call through the
+logged-in Claude Code CLI (`claude -p`, the owner's subscription) instead of the API key, for calls the owner adds."""
 from __future__ import annotations
 
+import json
+import os
+import subprocess
 from collections import Counter
 
 from pydantic import BaseModel
@@ -11,12 +15,32 @@ MODEL = "claude-sonnet-5-5"
 PRICE = {"input_tokens": 2.0, "output_tokens": 10.0, "cache_read_input_tokens": 0.1,
          "cache_creation_input_tokens": 2.5}
 USAGE: Counter = Counter()   # tokens used by every parse() call in this process, keyed like PRICE
+CLI_TIMEOUT_S = 900
+
+
+def backend() -> str | None:
+    """Returns "cli" (Claude Code subscription), "api" (ANTHROPIC_API_KEY) or None when no Claude is configured."""
+    return "cli" if os.environ.get("CALLMOVES_LLM") == "cli" else "api" if os.environ.get("ANTHROPIC_API_KEY") else None
 
 
 def parse[T: BaseModel](system: str, content: str | list[dict], schema: type[T], max_tokens: int = 8000,
                          model: str = MODEL) -> T:
-    """Returns Claude's reply to `content` parsed into `schema`. Raises on API errors, callers fall back to rules.
-    USAGE counts tokens of every model, PRICE holds MODEL's rates."""
+    """Returns Claude's reply to `content` parsed into `schema`. Raises on API or CLI errors, callers fall back to
+    rules. USAGE counts tokens of every model, PRICE holds MODEL's rates. The CLI path joins the content blocks into
+    1 prompt (it has no cache_control) and strips ANTHROPIC_API_KEY so the CLI cannot bill the key."""
+    if backend() == "cli":
+        prompt = content if isinstance(content, str) else "\n\n".join(b["text"] for b in content)
+        env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}
+        proc = subprocess.run(
+            ["claude", "-p", "--model", model, "--system-prompt", system, "--tools", "", "--no-session-persistence",
+             "--output-format", "json", "--json-schema", json.dumps(schema.model_json_schema())],
+            input=prompt, capture_output=True, text=True, env=env, timeout=CLI_TIMEOUT_S, check=True)
+        out = json.loads(proc.stdout)
+        if out.get("is_error") or out.get("structured_output") is None:
+            raise RuntimeError(f"claude -p: {str(out.get('result'))[:200]}")
+        for k in PRICE:
+            USAGE[k] += out.get("usage", {}).get(k, 0) or 0
+        return schema.model_validate(out["structured_output"])
     import anthropic
 
     resp = anthropic.Anthropic().messages.parse(model=model, max_tokens=max_tokens, system=system,

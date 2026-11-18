@@ -17,9 +17,9 @@ cd web && npm run type-check && npm run lint
 ```
 
 ## Hard rules
-- Raw audio and PDFs go in `pipeline/raw/` (gitignored). Player audio is mono 48 kbps MP3 in the public Supabase bucket `callmoves-audio`, uploaded by `ingest --upload`, never committed or deployed.
+- Raw audio and PDFs go in `pipeline/raw/` (gitignored). Player audio is mono 48 kbps MP3, uploaded by `ingest --upload` to the public HF dataset `jchen04/callmoves-audio` (the first 45 calls stay in the Supabase bucket `callmoves-audio`, near its 1 GB cap), never committed or deployed.
 - Never commit `.env`, audio files or `pipeline/out/`. Do not weaken `.gitignore`.
-- Calls I add myself and demo work run on my Claude subscription, never on `ANTHROPIC_API_KEY` credits. Don't run `llm.parse` (claims, novelty, `labels.py`) or the worker for them. The Claude Code session does the extraction and novelty judging itself against `_SYSTEM` and the `_ClaimsLLM` / `_VerdictsLLM` schemas, then writes `data/<call>/llm_claims.json` in the `_cached` format (`key` = the `ckey` from `run.py`). `run.py` then hits the cache and makes no API call. Only public `/submit` jobs on the GitHub worker use the API key.
+- Calls I add myself and demo work run on my Claude subscription, never on `ANTHROPIC_API_KEY` credits or the GitHub worker: `CALLMOVES_LLM=cli python -m callmoves.worker --batch calls.json` (or `run`) sends every `llm.parse` through `claude -p` with the key stripped, and a failed Claude step stops the call instead of publishing rule-based claims. Only public `/submit` jobs on the GitHub worker use the API key.
 - No paid services. Keys live in `pipeline/.env` (list in `README.md`). Never print their values.
 - No look-ahead: an `after_call` consensus is display only, never scores a claim.
 - A claim must quote the transcript verbatim or it is dropped. Keep that check in both extractors.

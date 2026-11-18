@@ -1,0 +1,5039 @@
+{
+ "ticker": "SNDK",
+ "quarter": "Q1-2027",
+ "company": "Sandisk",
+ "call_start": "2026-10-29T16:30:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/SNDK_Q1-2027.mp3",
+ "audio_offset_ms": 80,
+ "segments": [
+  {
+   "t0_ms": 80,
+   "t1_ms": 41520,
+   "speaker": "Operator",
+   "text": "Good afternoon and welcome to SanDisk's first quarter fiscal year 2027 earnings conference call. All participants will be in a listen-only mode. Should you need assistance please send a conference specialist by pressing the star and then zero on your telephone keypads. After today's presentation there will be an opportunity to ask questions. To ask a question you may press star and then one on your telephone keypad. To withdraw your questions you may press star and two. Please also note today's event is being recorded. At this time I'd like to turn the floor over to Ivan Donaldson, Vice President of Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 80,
+     "text": "Good afternoon and welcome to SanDisk's first quarter fiscal year 2027 earnings conference call."
+    },
+    {
+     "t0_ms": 7680,
+     "text": "All participants will be in a listen-only mode. Should you need assistance please"
+    },
+    {
+     "t0_ms": 11840,
+     "text": "send a conference specialist by pressing the star and then zero on your telephone keypads."
+    },
+    {
+     "t0_ms": 18240,
+     "text": "After today's presentation there will be an opportunity to ask questions."
+    },
+    {
+     "t0_ms": 22240,
+     "text": "To ask a question you may press star and then one on your telephone keypad."
+    },
+    {
+     "t0_ms": 26240,
+     "text": "To withdraw your questions you may press star and two."
+    },
+    {
+     "t0_ms": 30000,
+     "text": "Please also note today's event is being recorded."
+    },
+    {
+     "t0_ms": 34000,
+     "text": "At this time I'd like to turn the floor over to Ivan Donaldson,"
+    },
+    {
+     "t0_ms": 38160,
+     "text": "Vice President of Investor Relations. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 43360,
+   "t1_ms": 84480,
+   "speaker": "Management",
+   "text": "Before we begin please note that today's discussion will contain forward-looking statements based on management's current assumptions and expectations which are subject to various risks and uncertainties. These forward-looking statements include expectations for our technology and product portfolio, our business plans and performance, our capital allocation priorities, market trends and opportunities and our financial results. We assume no obligation to update these statements. Please refer to our annual report on Form 10-K and our other filings with the SEC for more information on the risks and uncertainties that could cause actual results to differ materially from expectations.",
+   "parts": [
+    {
+     "t0_ms": 43360,
+     "text": "Before we begin please note that today's discussion will contain forward-looking statements"
+    },
+    {
+     "t0_ms": 48000,
+     "text": "based on management's current assumptions and expectations which are subject to various risks"
+    },
+    {
+     "t0_ms": 53280,
+     "text": "and uncertainties. These forward-looking statements include expectations for our technology"
+    },
+    {
+     "t0_ms": 59040,
+     "text": "and product portfolio,"
+    },
+    {
+     "t0_ms": 60640,
+     "text": "our business plans and performance, our capital allocation priorities,"
+    },
+    {
+     "t0_ms": 65040,
+     "text": "market trends and opportunities and our financial results. We assume"
+    },
+    {
+     "t0_ms": 69520,
+     "text": "no obligation to update these statements. Please refer to our annual report on Form 10-K"
+    },
+    {
+     "t0_ms": 75520,
+     "text": "and our other filings with the SEC for more information on the risks and uncertainties"
+    },
+    {
+     "t0_ms": 80640,
+     "text": "that could cause actual results to differ materially from expectations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 85360,
+   "t1_ms": 127640,
+   "speaker": "Management",
+   "text": "We will also make references to non-GAAP financial measures today. Reconciliation, between the non-GAAP and comparable GAAP financial measures are included in the written materials posted in the investor relations section of our website. With that, I'll turn the call over to David. Thanks, Ivan. Good afternoon, and thank you for joining Sandisk's Fiscal First Quarter 2027 Earnings Call. We began fiscal year 2027 with another strong quarter, creating value for customers and shareholders and delivering results above guidance. Our strategy is working, and our execution is delivering strong results. Revenue for the quarter was $11 billion,",
+   "parts": [
+    {
+     "t0_ms": 85360,
+     "text": "We will also make references to non-GAAP financial measures today."
+    },
+    {
+     "t0_ms": 89080,
+     "text": "Reconciliation,"
+    },
+    {
+     "t0_ms": 89920,
+     "text": "between the non-GAAP and comparable GAAP financial measures are included in the written materials"
+    },
+    {
+     "t0_ms": 95140,
+     "text": "posted in the investor relations section of our website. With that, I'll turn the call over to"
+    },
+    {
+     "t0_ms": 100300,
+     "text": "David. Thanks, Ivan. Good afternoon, and thank you for joining Sandisk's Fiscal First Quarter"
+    },
+    {
+     "t0_ms": 107480,
+     "text": "2027 Earnings Call. We began fiscal year 2027 with another strong quarter, creating value for"
+    },
+    {
+     "t0_ms": 115760,
+     "text": "customers and shareholders and delivering results above guidance. Our strategy is working,"
+    },
+    {
+     "t0_ms": 122060,
+     "text": "and our execution is delivering strong results. Revenue for the quarter was $11 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 128639,
+   "t1_ms": 166600,
+   "speaker": "Management",
+   "text": "non-GAAP gross margin was 85.1%, and non-GAAP earnings per share was $49.51. We generated $5.7 billion of adjusted free cash flow and returned $5 billion per share. We generated $5.7 billion of adjusted free cash flow and returned $5 billion per share. We generated $5.7 billion of adjusted free cash flow and returned $5.7 billion to shareholders through share repurchases. Our confidence in the long-term trajectory of the business is grounded in three enduring strengths, technology leadership, deep customer partnerships, and disciplined financial management. These strengths are reinforced by a structural increase",
+   "parts": [
+    {
+     "t0_ms": 128639,
+     "text": "non-GAAP gross margin was 85.1%, and non-GAAP earnings per share was $49.51."
+    },
+    {
+     "t0_ms": 138780,
+     "text": "We generated $5.7 billion of adjusted free cash flow and returned $5 billion"
+    },
+    {
+     "t0_ms": 145740,
+     "text": "per share. We generated $5.7 billion of adjusted free cash flow and returned $5 billion per share."
+    },
+    {
+     "t0_ms": 145760,
+     "text": "We generated $5.7 billion of adjusted free cash flow and returned $5.7 billion to shareholders"
+    },
+    {
+     "t0_ms": 146880,
+     "text": "through share repurchases. Our confidence in the long-term trajectory of the business"
+    },
+    {
+     "t0_ms": 152920,
+     "text": "is grounded in three enduring strengths, technology leadership, deep customer partnerships,"
+    },
+    {
+     "t0_ms": 160940,
+     "text": "and disciplined financial management. These strengths are reinforced by a structural increase"
+    }
+   ]
+  },
+  {
+   "t0_ms": 166600,
+   "t1_ms": 205080,
+   "speaker": "Management",
+   "text": "in NAND demand, driven particularly by AI, and by customer signals now extending beyond fiscal year 2030 through our non-GAAP and non-GAAP. We're also grounded in three enduring strengths, technology leadership, deep customer partnerships, deep customer signals now extending beyond fiscal year 2030 through our non-GAAP, new business model, or NBM partnerships. Together, they position us to invest with confidence in our technology roadmap, strengthen and expand our customer relationships, and deliver growing and durable free cash flow while returning capital to shareholders. It starts with our technology leadership. Bixate is the backbone of our current production portfolio in the industry benchmark for performance and density across TLC and QLC.",
+   "parts": [
+    {
+     "t0_ms": 166600,
+     "text": "in NAND demand, driven particularly by AI, and by customer signals now extending beyond fiscal year"
+    },
+    {
+     "t0_ms": 174040,
+     "text": "2030 through our non-GAAP and non-GAAP. We're also grounded in three enduring strengths, technology"
+    },
+    {
+     "t0_ms": 175740,
+     "text": "leadership, deep customer partnerships, deep customer signals now extending beyond fiscal year 2030 through our non-GAAP,"
+    },
+    {
+     "t0_ms": 175860,
+     "text": "new business model, or NBM partnerships. Together, they position us to invest with confidence in our"
+    },
+    {
+     "t0_ms": 182880,
+     "text": "technology roadmap, strengthen and expand our customer relationships, and deliver growing and"
+    },
+    {
+     "t0_ms": 189340,
+     "text": "durable free cash flow while returning capital to shareholders. It starts with our technology"
+    },
+    {
+     "t0_ms": 195700,
+     "text": "leadership. Bixate is the backbone of our current production portfolio in the industry benchmark for"
+    },
+    {
+     "t0_ms": 202060,
+     "text": "performance and density across TLC and QLC."
+    }
+   ]
+  },
+  {
+   "t0_ms": 205740,
+   "t1_ms": 250540,
+   "speaker": "Management",
+   "text": "BIX 8 introduced our CMOS directly bonded to array, our CBA architecture, enabling the performance required by AI data center customers and establishing the framework for future generations. BIX 9 pairs the proven BIX 8 cell array with next-generation CMOS, significantly increasing interface performance while retaining a mature memory architecture. BIX 10 advances the full-node architecture across both TLC and QLC with a 1-terabit TLC die designed for performance-intensive workloads and a 2-terabit QLC die delivering industry-leading density and twice the read and write bandwidth of BIX 8.",
+   "parts": [
+    {
+     "t0_ms": 205740,
+     "text": "BIX 8 introduced our CMOS directly bonded to array, our CBA architecture, enabling the performance required by AI data center customers and establishing the framework for future generations."
+    },
+    {
+     "t0_ms": 219800,
+     "text": "BIX 9 pairs the proven BIX 8 cell array with next-generation CMOS, significantly increasing interface performance while retaining a mature memory architecture."
+    },
+    {
+     "t0_ms": 231200,
+     "text": "BIX 10 advances the full-node architecture across both TLC and QLC with a 1-terabit TLC die designed for performance-intensive workloads and a 2-terabit QLC die delivering industry-leading density and twice the read and write bandwidth of BIX 8."
+    }
+   ]
+  },
+  {
+   "t0_ms": 250900,
+   "t1_ms": 291180,
+   "speaker": "Management",
+   "text": "Together, these technologies will extend the BIX 8 foundation to meet the evolving performance and capacity requirements of next-generation infrastructure. Thank you. Beyond the core roadmap, high-bandwidth flash, or HBF, reached an important milestone in the fiscal first quarter with the tape-out of our first HBF memory die, with fabrication now underway. As we outlined at Investor Day, HBF is a new memory architecture for inference that targets HBM-class read bandwidth with substantially greater capacity to support larger models, longer context lengths, and growing KB caches. It is a new architecture that will be used to support larger models, longer context lengths, and growing KB caches. It is a new architecture that will be used to support larger models, longer context lengths, and growing KB caches.",
+   "parts": [
+    {
+     "t0_ms": 250900,
+     "text": "Together, these technologies will extend the BIX 8 foundation to meet the evolving performance and capacity requirements of next-generation infrastructure."
+    },
+    {
+     "t0_ms": 261040,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 261200,
+     "text": "Beyond the core roadmap, high-bandwidth flash, or HBF, reached an important milestone in the fiscal first quarter with the tape-out of our first HBF memory die, with fabrication now underway."
+    },
+    {
+     "t0_ms": 273920,
+     "text": "As we outlined at Investor Day, HBF is a new memory architecture for inference that targets HBM-class read bandwidth with substantially greater capacity to support larger models, longer context lengths, and growing KB caches."
+    },
+    {
+     "t0_ms": 290800,
+     "text": "It is a new architecture that will be used to support larger models, longer context lengths, and growing KB caches."
+    },
+    {
+     "t0_ms": 291040,
+     "text": "It is a new architecture that will be used to support larger models, longer context lengths, and growing KB caches."
+    }
+   ]
+  },
+  {
+   "t0_ms": 291180,
+   "t1_ms": 328760,
+   "speaker": "Management",
+   "text": "It is designed to complement HBM by bringing NAND-class capacity closer to the processor, and we remain on track to deliver samples of our first HBF-based products next calendar year. HBF remains a future innovation and is not included in the long-term financial model we introduced at Investor Day. As customer adoption, product requirements, and manufacturing readiness become more clearly defined, we expect to provide further perspective on the market opportunity. As customer adoption, product requirements, and manufacturing needs become more clearly defined, we expect to provide further perspective on the market opportunity. Customers recognize the strength of our innovation and increasingly view Sandisk as an important partner in achieving their growth objectives.",
+   "parts": [
+    {
+     "t0_ms": 291180,
+     "text": "It is designed to complement HBM by bringing NAND-class capacity closer to the processor, and we remain on track to deliver samples of our first HBF-based products next calendar year."
+    },
+    {
+     "t0_ms": 304280,
+     "text": "HBF remains a future innovation and is not included in the long-term financial model we introduced at Investor Day."
+    },
+    {
+     "t0_ms": 310400,
+     "text": "As customer adoption, product requirements, and manufacturing readiness become more clearly defined, we expect to provide further perspective on the market opportunity."
+    },
+    {
+     "t0_ms": 320180,
+     "text": "As customer adoption, product requirements, and manufacturing needs become more clearly defined, we expect to provide further perspective on the market opportunity."
+    },
+    {
+     "t0_ms": 321480,
+     "text": "Customers recognize the strength of our innovation and increasingly view Sandisk as an important partner in achieving their growth objectives."
+    }
+   ]
+  },
+  {
+   "t0_ms": 329280,
+   "t1_ms": 369880,
+   "speaker": "Management",
+   "text": "Through our NBMs, we continue to evolve customer relationships into long-term partnerships grounded in innovation, collaboration, and shared commitment. Our most recent customers' engagements with the world's leading AI companies indicate further upside in demand for our technology. Our market leadership and productivity are shown in the interesting 2- clothing types. Our market leadership and productivity are shown in the interesting 2- clothing types. Our market leadership and productivity are shown in the interesting 2- clothing types. Our market leadership and productivity are shown in the similar 2- clothing types. leading technology, product portfolio, and customer partnerships are the backbone of our strong financial position, which allows us to reinvest to maintain our technology leadership and expand supply through R&D-focused CapEx. Each of these strengths is reinforced by Tailwinds from AI.",
+   "parts": [
+    {
+     "t0_ms": 329280,
+     "text": "Through our NBMs, we continue to evolve customer relationships into long-term partnerships grounded in innovation, collaboration, and shared commitment."
+    },
+    {
+     "t0_ms": 340540,
+     "text": "Our most recent customers' engagements with the world's leading AI companies indicate further upside in demand for our technology."
+    },
+    {
+     "t0_ms": 349360,
+     "text": "Our market leadership and productivity are shown in the interesting 2- clothing types."
+    },
+    {
+     "t0_ms": 349760,
+     "text": "Our market leadership and productivity are shown in the interesting 2- clothing types."
+    },
+    {
+     "t0_ms": 349980,
+     "text": "Our market leadership and productivity are shown in the interesting 2- clothing types."
+    },
+    {
+     "t0_ms": 350040,
+     "text": "Our market leadership and productivity are shown in the similar 2- clothing types."
+    },
+    {
+     "t0_ms": 350160,
+     "text": "leading technology, product portfolio, and customer partnerships are the backbone of"
+    },
+    {
+     "t0_ms": 354900,
+     "text": "our strong financial position, which allows us to reinvest to maintain our technology"
+    },
+    {
+     "t0_ms": 360340,
+     "text": "leadership and expand supply through R&D-focused CapEx."
+    },
+    {
+     "t0_ms": 366280,
+     "text": "Each of these strengths is reinforced by Tailwinds from AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 369880,
+   "t1_ms": 409400,
+   "speaker": "Management",
+   "text": "The need for scalable memory and storage is expanding as inference workloads grow, making NAN increasingly integral to AI infrastructure. During inference, each generated token must reference the context that precedes it, creating a growing KVCast that serves as the model's working memory. Longer prompts, more complex reasoning, multimodal inputs, and persistent user context materially increase these storage requirements. HBM and DRAM support the highest performance tier, while Flash provides the capacity required to retain broader context efficiently and avoid costly reconfiguration.",
+   "parts": [
+    {
+     "t0_ms": 369880,
+     "text": "The need for scalable memory and storage is expanding as inference workloads grow, making"
+    },
+    {
+     "t0_ms": 375300,
+     "text": "NAN increasingly integral to AI infrastructure."
+    },
+    {
+     "t0_ms": 379440,
+     "text": "During inference, each generated token must reference the context that precedes it, creating"
+    },
+    {
+     "t0_ms": 384680,
+     "text": "a growing KVCast that serves as the model's working memory."
+    },
+    {
+     "t0_ms": 389480,
+     "text": "Longer prompts, more complex reasoning, multimodal inputs, and persistent user context materially"
+    },
+    {
+     "t0_ms": 396140,
+     "text": "increase these storage requirements."
+    },
+    {
+     "t0_ms": 398620,
+     "text": "HBM and DRAM support the highest performance tier, while Flash provides the capacity required"
+    },
+    {
+     "t0_ms": 404900,
+     "text": "to retain broader context efficiently and avoid costly reconfiguration."
+    }
+   ]
+  },
+  {
+   "t0_ms": 409400,
+   "t1_ms": 442360,
+   "speaker": "Management",
+   "text": "We believe this is a secular dynamic that is expanding NAN's role across the AI stack. The memory hierarchy defines the role of each NAND architecture. TLC provides the lower latency, higher write performance, and greater endurance required for active datasets, checkpointing, and latency-sensitive KVCast workloads. In our AI lab comparison, we presented at Investor Day systems utilizing AI-based data processing and data processing. We also presented a data processing and data processing system, which is a very complex program. A concern for us is that the data processing and data processing systems are harder to fetch than the RSS key.",
+   "parts": [
+    {
+     "t0_ms": 409400,
+     "text": "We believe this is a secular dynamic that is expanding NAN's role across the AI stack."
+    },
+    {
+     "t0_ms": 418020,
+     "text": "The memory hierarchy defines the role of each NAND architecture."
+    },
+    {
+     "t0_ms": 422000,
+     "text": "TLC provides the lower latency, higher write performance, and greater endurance required"
+    },
+    {
+     "t0_ms": 427520,
+     "text": "for active datasets, checkpointing, and latency-sensitive KVCast workloads."
+    },
+    {
+     "t0_ms": 434000,
+     "text": "In our AI lab comparison, we presented at Investor Day systems utilizing AI-based data"
+    },
+    {
+     "t0_ms": 437440,
+     "text": "processing and data processing."
+    },
+    {
+     "t0_ms": 438440,
+     "text": "We also presented a data processing and data processing system, which is a very complex"
+    },
+    {
+     "t0_ms": 439360,
+     "text": "program."
+    },
+    {
+     "t0_ms": 440360,
+     "text": "A concern for us is that the data processing and data processing systems are harder to"
+    },
+    {
+     "t0_ms": 441360,
+     "text": "fetch than the RSS key."
+    }
+   ]
+  },
+  {
+   "t0_ms": 442360,
+   "t1_ms": 484080,
+   "speaker": "Management",
+   "text": "We are focusing on the lack of data processing and data processing solutions. We are also focusing on the lack of data processing administration in a Breastmob system. We see a number of claims that deliver the best data processing and data processing in the multi-layer applications, including the Real-Life Youtube and BVC. We also brought in a few other factors that are appropriate for AI, and they are the low memory, slow and complex memory. The high memory will make it impossible for the RSS key to be accessible for data processing and data processing. to be retained and recalled rather than regenerated. As inference costs decline, we expect the adoption and usage to expand, supporting our view that KVCash will represent approximately one-third",
+   "parts": [
+    {
+     "t0_ms": 442360,
+     "text": "We are"
+    },
+    {
+     "t0_ms": 460960,
+     "text": "focusing on the lack of data processing and data processing solutions."
+    },
+    {
+     "t0_ms": 461960,
+     "text": "We are also focusing on the lack of data processing administration in a Breastmob system."
+    },
+    {
+     "t0_ms": 462960,
+     "text": "We see a number of claims that deliver the best data processing and data processing in"
+    },
+    {
+     "t0_ms": 463960,
+     "text": "the multi-layer applications, including the Real-Life Youtube and BVC."
+    },
+    {
+     "t0_ms": 464960,
+     "text": "We also brought in a few other factors that are appropriate for AI, and they are the"
+    },
+    {
+     "t0_ms": 465960,
+     "text": "low memory, slow and complex memory."
+    },
+    {
+     "t0_ms": 466960,
+     "text": "The high memory will make it impossible for the RSS key to be accessible for data processing"
+    },
+    {
+     "t0_ms": 467960,
+     "text": "and data processing."
+    },
+    {
+     "t0_ms": 468960,
+     "text": "to be retained and recalled rather than regenerated."
+    },
+    {
+     "t0_ms": 473460,
+     "text": "As inference costs decline, we expect the adoption and usage to expand,"
+    },
+    {
+     "t0_ms": 479960,
+     "text": "supporting our view that KVCash will represent approximately one-third"
+    }
+   ]
+  },
+  {
+   "t0_ms": 484080,
+   "t1_ms": 526660,
+   "speaker": "Management",
+   "text": "of the AI data center flash market by the end of the decade and that the AI data center opportunity will approach the size of the NAND industry today. Turning to our end markets. In data center, our portfolio addresses the full range of AI infrastructure requirements, from performance-intensive enterprise SSDs to high-capacity platforms. Demand remains strong and continues to grow, and we estimate that data center has expanded from approximately 20% of industry bits early in the decade to roughly half of the industry bits today. This structural shift in customer mix is reshaping,",
+   "parts": [
+    {
+     "t0_ms": 484080,
+     "text": "of the AI data center flash market by the end of the decade"
+    },
+    {
+     "t0_ms": 487400,
+     "text": "and that the AI data center opportunity will approach the size of the NAND industry today."
+    },
+    {
+     "t0_ms": 495200,
+     "text": "Turning to our end markets."
+    },
+    {
+     "t0_ms": 496680,
+     "text": "In data center, our portfolio addresses the full range of AI infrastructure requirements,"
+    },
+    {
+     "t0_ms": 503460,
+     "text": "from performance-intensive enterprise SSDs to high-capacity platforms."
+    },
+    {
+     "t0_ms": 509100,
+     "text": "Demand remains strong and continues to grow,"
+    },
+    {
+     "t0_ms": 512419,
+     "text": "and we estimate that data center has expanded from approximately 20% of industry bits"
+    },
+    {
+     "t0_ms": 518000,
+     "text": "early in the decade to roughly half of the industry bits today."
+    },
+    {
+     "t0_ms": 523299,
+     "text": "This structural shift in customer mix is reshaping,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 526680,
+   "t1_ms": 570640,
+   "speaker": "Management",
+   "text": "industry economics and is central to the transformation underway at SanDisk. This quarter, data center again delivered strong growth and continued to outpace the broader market as we allocated more supply to address the growing demand from this end market. Edge is a large and strategically important market for SanDisk, spanning smartphones, PCs, automotive, tablets, and an expanding range of physical AI applications. Automotive is a large and strategically important market for SanDisk, and is a large and strategically important market for SanDisk, and is becoming an increasingly important growth vector in our edge business and a meaningful long-term growth opportunity. We have deepening engagements with leading customers, reinforcing our confidence that automotive can become",
+   "parts": [
+    {
+     "t0_ms": 526680,
+     "text": "industry economics and is central to the transformation underway at SanDisk."
+    },
+    {
+     "t0_ms": 532080,
+     "text": "This quarter, data center again delivered strong growth"
+    },
+    {
+     "t0_ms": 535900,
+     "text": "and continued to outpace the broader market"
+    },
+    {
+     "t0_ms": 538700,
+     "text": "as we allocated more supply to address the growing demand from this end market."
+    },
+    {
+     "t0_ms": 545080,
+     "text": "Edge is a large and strategically important market for SanDisk,"
+    },
+    {
+     "t0_ms": 548820,
+     "text": "spanning smartphones, PCs, automotive, tablets,"
+    },
+    {
+     "t0_ms": 552220,
+     "text": "and an expanding range of physical AI applications."
+    },
+    {
+     "t0_ms": 555860,
+     "text": "Automotive is a large and strategically important market for SanDisk,"
+    },
+    {
+     "t0_ms": 556560,
+     "text": "and is a large and strategically important market for SanDisk,"
+    },
+    {
+     "t0_ms": 556660,
+     "text": "and is becoming an increasingly important growth vector in our edge business"
+    },
+    {
+     "t0_ms": 561000,
+     "text": "and a meaningful long-term growth opportunity."
+    },
+    {
+     "t0_ms": 564520,
+     "text": "We have deepening engagements with leading customers,"
+    },
+    {
+     "t0_ms": 568020,
+     "text": "reinforcing our confidence that automotive can become"
+    }
+   ]
+  },
+  {
+   "t0_ms": 570640,
+   "t1_ms": 611760,
+   "speaker": "Management",
+   "text": "one of the largest markets within edge over time. Our consumer business remains a differentiated strategic asset, combining direct brand engagement with hundreds of millions of end users and broad shelf presence across the board. The consumer end market provides a durable foundation for our business, while its direct connection to the market informs product development and provides early insight into shifts in end user demand. Taken together, these results reinforce the durability of the model we outlined at our investor day. We have established a strong level of profitability in cash generation,",
+   "parts": [
+    {
+     "t0_ms": 570640,
+     "text": "one of the largest markets within edge over time."
+    },
+    {
+     "t0_ms": 575280,
+     "text": "Our consumer business remains a differentiated strategic asset,"
+    },
+    {
+     "t0_ms": 580240,
+     "text": "combining direct brand engagement with hundreds of millions of end users"
+    },
+    {
+     "t0_ms": 584260,
+     "text": "and broad shelf presence across the board."
+    },
+    {
+     "t0_ms": 586540,
+     "text": "The consumer end market provides a durable foundation for our business,"
+    },
+    {
+     "t0_ms": 593500,
+     "text": "while its direct connection to the market informs product development"
+    },
+    {
+     "t0_ms": 596780,
+     "text": "and provides early insight into shifts in end user demand."
+    },
+    {
+     "t0_ms": 601340,
+     "text": "Taken together, these results reinforce the durability of the model"
+    },
+    {
+     "t0_ms": 605900,
+     "text": "we outlined at our investor day."
+    },
+    {
+     "t0_ms": 608300,
+     "text": "We have established a strong level of profitability in cash generation,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 612080,
+   "t1_ms": 654530,
+   "speaker": "Management",
+   "text": "and our focus from here is consistent execution across the portfolio. With that, I'll turn the call over to Luis for a detailed update on our business and outlook. Thank you, David. We're executing the strategies and plans that we outlined at Investor Day, and we're delivering attractive financial results. In the first quarter, we closed two NBMs. Because both deals closed before our fourth quarter earnings call, we announced these partnerships on that call. We're in active conversations with existing NBM customers that are evaluating extending existing agreements, and with new customers that are evaluating new NBMs.",
+   "parts": [
+    {
+     "t0_ms": 612080,
+     "text": "and our focus from here is consistent execution across the portfolio."
+    },
+    {
+     "t0_ms": 616540,
+     "text": "With that, I'll turn the call over to Luis for a detailed update on our business and outlook."
+    },
+    {
+     "t0_ms": 622640,
+     "text": "Thank you, David."
+    },
+    {
+     "t0_ms": 626050,
+     "text": "We're executing the strategies and plans that we outlined at Investor Day,"
+    },
+    {
+     "t0_ms": 630170,
+     "text": "and we're delivering attractive financial results."
+    },
+    {
+     "t0_ms": 633430,
+     "text": "In the first quarter, we closed two NBMs."
+    },
+    {
+     "t0_ms": 636870,
+     "text": "Because both deals closed before our fourth quarter earnings call,"
+    },
+    {
+     "t0_ms": 640710,
+     "text": "we announced these partnerships on that call."
+    },
+    {
+     "t0_ms": 642910,
+     "text": "We're in active conversations with existing NBM customers"
+    },
+    {
+     "t0_ms": 647330,
+     "text": "that are evaluating extending existing agreements,"
+    },
+    {
+     "t0_ms": 650990,
+     "text": "and with new customers that are evaluating new NBMs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 655470,
+   "t1_ms": 698670,
+   "speaker": "Management",
+   "text": "These long-term partnerships provide greater visibility into demand and financial performance, supporting a more durable financial model. We will remain patient and disciplined in selecting the right long-term partners as we define the optimal percentage of our bids that we have in our business. We will also allocate to NBMs, which is likely higher than our current levels. Revenue for the first quarter was $11 billion, up 23% sequentially and 378% year-over-year. This compares favorably with our guidance range of $10.3 to $10.8 billion. Both volume growth and higher pricing contributed to revenue growth,",
+   "parts": [
+    {
+     "t0_ms": 655470,
+     "text": "These long-term partnerships provide greater visibility into demand and financial performance,"
+    },
+    {
+     "t0_ms": 661870,
+     "text": "supporting a more durable financial model."
+    },
+    {
+     "t0_ms": 664690,
+     "text": "We will remain patient and disciplined in selecting the right long-term partners"
+    },
+    {
+     "t0_ms": 669230,
+     "text": "as we define the optimal percentage of our bids"
+    },
+    {
+     "t0_ms": 672410,
+     "text": "that we have in our business."
+    },
+    {
+     "t0_ms": 672910,
+     "text": "We will also allocate to NBMs, which is likely higher than our current levels."
+    },
+    {
+     "t0_ms": 678630,
+     "text": "Revenue for the first quarter was $11 billion,"
+    },
+    {
+     "t0_ms": 681970,
+     "text": "up 23% sequentially and 378% year-over-year."
+    },
+    {
+     "t0_ms": 687410,
+     "text": "This compares favorably with our guidance range of $10.3 to $10.8 billion."
+    },
+    {
+     "t0_ms": 694750,
+     "text": "Both volume growth and higher pricing contributed to revenue growth,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 698670,
+   "t1_ms": 738170,
+   "speaker": "Management",
+   "text": "with approximately 60% of the increase attributable to the NBMs that we allocated to NBMs. We also added $10.8 billion to volume growth and 40% to higher pricing. Data center revenue was $4.8 billion, up 61% sequentially, outpacing estimated market growth for the quarter. Our leading products and strong customer partnerships, including three U.S. hyperscalers, underpin our continued expansion in this fast-growing end market. Edge revenue was $5.8 billion, up 7% sequentially, reflecting resilience in the market. We saw resilience in premium and mainstream markets, partially offset by contraction at the lower end.",
+   "parts": [
+    {
+     "t0_ms": 698670,
+     "text": "with approximately 60% of the increase attributable"
+    },
+    {
+     "t0_ms": 702490,
+     "text": "to the NBMs that we allocated to NBMs."
+    },
+    {
+     "t0_ms": 702910,
+     "text": "We also added $10.8 billion to volume growth and 40% to higher pricing."
+    },
+    {
+     "t0_ms": 706030,
+     "text": "Data center revenue was $4.8 billion, up 61% sequentially,"
+    },
+    {
+     "t0_ms": 712890,
+     "text": "outpacing estimated market growth for the quarter."
+    },
+    {
+     "t0_ms": 716290,
+     "text": "Our leading products and strong customer partnerships,"
+    },
+    {
+     "t0_ms": 719770,
+     "text": "including three U.S. hyperscalers, underpin our continued expansion"
+    },
+    {
+     "t0_ms": 724090,
+     "text": "in this fast-growing end market."
+    },
+    {
+     "t0_ms": 726770,
+     "text": "Edge revenue was $5.8 billion, up 7% sequentially,"
+    },
+    {
+     "t0_ms": 731670,
+     "text": "reflecting resilience in the market."
+    },
+    {
+     "t0_ms": 732670,
+     "text": "We saw resilience in premium and mainstream markets,"
+    },
+    {
+     "t0_ms": 735550,
+     "text": "partially offset by contraction at the lower end."
+    }
+   ]
+  },
+  {
+   "t0_ms": 739150,
+   "t1_ms": 781910,
+   "speaker": "Management",
+   "text": "Within Edge, we saw strong growth with automotive and IoT customers. Consumer revenue was $397 million, down 29% sequentially, as the market adjusts to higher pricing. We remain committed to serving all three end markets with a diversified portfolio that optimizes our performance over time. Not only that, we also have a strong growth in the market, and the market is growing rapidly. Non-GAAP gross margin for the first quarter was 85.1%, up from 84.6% in the prior quarter, driven by higher volumes and pricing. This compares favorably with our guidance range of 83 to 85%. Non-GAAP operating expenses were $513 million,",
+   "parts": [
+    {
+     "t0_ms": 739150,
+     "text": "Within Edge, we saw strong growth with automotive and IoT customers."
+    },
+    {
+     "t0_ms": 745190,
+     "text": "Consumer revenue was $397 million, down 29% sequentially,"
+    },
+    {
+     "t0_ms": 750650,
+     "text": "as the market adjusts to higher pricing."
+    },
+    {
+     "t0_ms": 753330,
+     "text": "We remain committed to serving all three end markets"
+    },
+    {
+     "t0_ms": 756610,
+     "text": "with a diversified portfolio that optimizes our performance over time."
+    },
+    {
+     "t0_ms": 762550,
+     "text": "Not only that, we also have a strong growth in the market,"
+    },
+    {
+     "t0_ms": 762650,
+     "text": "and the market is growing rapidly."
+    },
+    {
+     "t0_ms": 762690,
+     "text": "Non-GAAP gross margin for the first quarter was 85.1%,"
+    },
+    {
+     "t0_ms": 766570,
+     "text": "up from 84.6% in the prior quarter, driven by higher volumes and pricing."
+    },
+    {
+     "t0_ms": 773510,
+     "text": "This compares favorably with our guidance range of 83 to 85%."
+    },
+    {
+     "t0_ms": 778030,
+     "text": "Non-GAAP operating expenses were $513 million,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 782330,
+   "t1_ms": 827230,
+   "speaker": "Management",
+   "text": "representing 4.7% of revenue. Non-GAAP operating margin was 80.4%, compared to 79.2% in the prior quarter. Non-GAAP operating margin was 80.4%, compared to 79.2% in the prior quarter. Non-GAAP operating margin was 80.4%, compared to 79.2% in the prior quarter. Non-GAAP operating margin was 80.4%, compared to 79.2% in the prior quarter. Non-GAAP EPS was $49.51, up from $39.25 in the prior quarter, and $1.22 in the same quarter of the prior fiscal year. This compares favorably with our guidance range of $44 to $46. We closed the quarter with 154 million diluted shares outstanding. Key gap to non-GAAP reconciliation includes $91 million in non-GAAP reconciliation, which represents $55,000 in stock-based compensation, which represents $56,000 in stock-based compensation, representing 0.8% of revenue,",
+   "parts": [
+    {
+     "t0_ms": 782330,
+     "text": "representing 4.7% of revenue."
+    },
+    {
+     "t0_ms": 786230,
+     "text": "Non-GAAP operating margin was 80.4%,"
+    },
+    {
+     "t0_ms": 789790,
+     "text": "compared to 79.2% in the prior quarter."
+    },
+    {
+     "t0_ms": 791410,
+     "text": "Non-GAAP operating margin was 80.4%,"
+    },
+    {
+     "t0_ms": 791490,
+     "text": "compared to 79.2% in the prior quarter."
+    },
+    {
+     "t0_ms": 791570,
+     "text": "Non-GAAP operating margin was 80.4%,"
+    },
+    {
+     "t0_ms": 791770,
+     "text": "compared to 79.2% in the prior quarter."
+    },
+    {
+     "t0_ms": 791990,
+     "text": "Non-GAAP operating margin was 80.4%,"
+    },
+    {
+     "t0_ms": 792350,
+     "text": "compared to 79.2% in the prior quarter."
+    },
+    {
+     "t0_ms": 793970,
+     "text": "Non-GAAP EPS was $49.51,"
+    },
+    {
+     "t0_ms": 798030,
+     "text": "up from $39.25 in the prior quarter,"
+    },
+    {
+     "t0_ms": 801910,
+     "text": "and $1.22 in the same quarter of the prior fiscal year."
+    },
+    {
+     "t0_ms": 806950,
+     "text": "This compares favorably with our guidance range of $44 to $46."
+    },
+    {
+     "t0_ms": 811710,
+     "text": "We closed the quarter with 154 million diluted shares outstanding."
+    },
+    {
+     "t0_ms": 818110,
+     "text": "Key gap to non-GAAP reconciliation includes $91 million"
+    },
+    {
+     "t0_ms": 822050,
+     "text": "in non-GAAP reconciliation,"
+    },
+    {
+     "t0_ms": 822230,
+     "text": "which represents $55,000 in stock-based compensation,"
+    },
+    {
+     "t0_ms": 822950,
+     "text": "which represents $56,000 in stock-based compensation,"
+    },
+    {
+     "t0_ms": 824230,
+     "text": "representing 0.8% of revenue,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 827230,
+   "t1_ms": 867570,
+   "speaker": "Management",
+   "text": "and $513 million gain on equity securities, primarily attributable to our investment in NANIA . primarily attributable to our investment in NANIA . During the quarter, we repurchased approximately 3.2 million shares of our common stock, for $5 billion. Over the past two quarters, we have repurchased 6 million shares, representing approximately 4% of our total shares outstanding. representing approximately 4% of our total shares outstanding. Our purchases reflect our conviction in the long-term value of the business and our disciplined approach to capital allocation. We continue to invest appropriately in the business while returning 100% of excess cash to shareholders.",
+   "parts": [
+    {
+     "t0_ms": 827230,
+     "text": "and $513 million gain on equity securities,"
+    },
+    {
+     "t0_ms": 831610,
+     "text": "primarily attributable to our investment in NANIA ."
+    },
+    {
+     "t0_ms": 832610,
+     "text": "primarily attributable to our investment in NANIA ."
+    },
+    {
+     "t0_ms": 836070,
+     "text": "During the quarter,"
+    },
+    {
+     "t0_ms": 837390,
+     "text": "we repurchased approximately 3.2 million shares"
+    },
+    {
+     "t0_ms": 841230,
+     "text": "of our common stock, for $5 billion."
+    },
+    {
+     "t0_ms": 844210,
+     "text": "Over the past two quarters,"
+    },
+    {
+     "t0_ms": 845510,
+     "text": "we have repurchased 6 million shares,"
+    },
+    {
+     "t0_ms": 847790,
+     "text": "representing approximately 4% of our total shares outstanding."
+    },
+    {
+     "t0_ms": 849930,
+     "text": "representing approximately 4% of our total shares outstanding."
+    },
+    {
+     "t0_ms": 852230,
+     "text": "Our purchases reflect our conviction in the long-term value of the business and our disciplined approach to capital allocation."
+    },
+    {
+     "t0_ms": 860990,
+     "text": "We continue to invest appropriately in the business while returning 100% of excess cash to shareholders."
+    }
+   ]
+  },
+  {
+   "t0_ms": 868970,
+   "t1_ms": 912210,
+   "speaker": "Management",
+   "text": "Moving on to free cash flow, cash flow from operations was $6.4 billion. Gross capital expenditures totaled $378 million, representing 3.4% of revenue. We expect gross capital spending to increase during the balance of the year and represent mid-single-digit percentage of revenue for fiscal year 2027. During the quarter, we generated $5.7 billion in adjusted free cash flow, representing approximately 52% margin. We closed the quarter with $5.1 billion in cash and cash equivalents and no debt. Moving on to guidance, our confidence in the long-term value of our business was $6.4 billion.",
+   "parts": [
+    {
+     "t0_ms": 868970,
+     "text": "Moving on to free cash flow, cash flow from operations was $6.4 billion."
+    },
+    {
+     "t0_ms": 874410,
+     "text": "Gross capital expenditures totaled $378 million, representing 3.4% of revenue."
+    },
+    {
+     "t0_ms": 882230,
+     "text": "We expect gross capital spending to increase during the balance of the year and represent mid-single-digit percentage of revenue for fiscal year 2027."
+    },
+    {
+     "t0_ms": 893310,
+     "text": "During the quarter, we generated $5.7 billion in adjusted free cash flow, representing approximately 52% margin."
+    },
+    {
+     "t0_ms": 901430,
+     "text": "We closed the quarter with $5.1 billion in cash and cash equivalents and no debt."
+    },
+    {
+     "t0_ms": 908290,
+     "text": "Moving on to guidance, our confidence in the long-term value of our business was $6.4 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 912230,
+   "t1_ms": 952930,
+   "speaker": "Management",
+   "text": "The long-term health of the market is reinforced by the structural growth of the AI infrastructure and the expanding role of NAND across inference workloads. Before turning to our second quarter outlook, I will announce that the Sandys Board of Directors has approved an 8-for-1 stock split of the company's common stock. The additional shares are expected to be distributed on November 19, and trading on a split-adjusted basis is expected to begin, on November 20. For the second quarter of fiscal year 2027, we expect revenue between $12.2 billion and $12.6 billion.",
+   "parts": [
+    {
+     "t0_ms": 912230,
+     "text": "The long-term health of the market is reinforced by the structural growth of the AI infrastructure and the expanding role of NAND across inference workloads."
+    },
+    {
+     "t0_ms": 922890,
+     "text": "Before turning to our second quarter outlook, I will announce that the Sandys Board of Directors has approved an 8-for-1 stock split of the company's common stock."
+    },
+    {
+     "t0_ms": 933470,
+     "text": "The additional shares are expected to be distributed on November 19, and trading on a split-adjusted basis is expected to begin,"
+    },
+    {
+     "t0_ms": 942230,
+     "text": "on November 20."
+    },
+    {
+     "t0_ms": 944290,
+     "text": "For the second quarter of fiscal year 2027, we expect revenue between $12.2 billion and $12.6 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 953570,
+   "t1_ms": 996950,
+   "speaker": "Management",
+   "text": "We expect non-GAAP gross margin between 84.5% and 85.5%, which includes modest like-for-like price increases. On a pre-split basis, we expect non-GAAP EPS between $55 and $57, assuming $150 per share. On a pre-split basis, we expect non-GAAP EPS between $55 and $57, assuming approximately $1,208 million fully diluted shares. On an 8-for-1 split-adjusted basis, this equates to non-GAAP EPS between $6.88 and $7.13, assuming approximately $1,208 million fully diluted shares. For context, we expect a strong market in calendar year 2027.",
+   "parts": [
+    {
+     "t0_ms": 953570,
+     "text": "We expect non-GAAP gross margin between 84.5% and 85.5%, which includes modest like-for-like price increases."
+    },
+    {
+     "t0_ms": 963370,
+     "text": "On a pre-split basis, we expect non-GAAP EPS between $55 and $57,"
+    },
+    {
+     "t0_ms": 970790,
+     "text": "assuming $150 per share."
+    },
+    {
+     "t0_ms": 972210,
+     "text": "On a pre-split basis, we expect non-GAAP EPS between $55 and $57,"
+    },
+    {
+     "t0_ms": 972470,
+     "text": "assuming approximately $1,208 million fully diluted shares."
+    },
+    {
+     "t0_ms": 975230,
+     "text": "On an 8-for-1 split-adjusted basis, this equates to non-GAAP EPS between $6.88 and $7.13,"
+    },
+    {
+     "t0_ms": 985950,
+     "text": "assuming approximately $1,208 million fully diluted shares."
+    },
+    {
+     "t0_ms": 991390,
+     "text": "For context, we expect a strong market in calendar year 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 997330,
+   "t1_ms": 1041990,
+   "speaker": "Management",
+   "text": "Data Center is expected to be, again, the engine of growth and reputation, representing over 55% of the market, with bid demand growing about 40% year-on-year, enabled by higher AI-driven capital spending. This is after more than doubling in 2026. Our NBN pipeline exceeds our supply throughout the end of the decade. Without, let me turn the call back to David. Thank you, Luis. We continue to execute on the strategy we outlined at Investor Day. We continue to build on the strategy we outlined at Investor Day. We continue to build on the strategy we outlined at Investor Day. Our technology leadership, deep customer partnership, and disciplined financial management,",
+   "parts": [
+    {
+     "t0_ms": 997330,
+     "text": "Data Center is expected to be, again, the engine of growth and reputation,"
+    },
+    {
+     "t0_ms": 1002210,
+     "text": "representing over 55% of the market,"
+    },
+    {
+     "t0_ms": 1005190,
+     "text": "with bid demand growing about 40% year-on-year,"
+    },
+    {
+     "t0_ms": 1009290,
+     "text": "enabled by higher AI-driven capital spending."
+    },
+    {
+     "t0_ms": 1013010,
+     "text": "This is after more than doubling in 2026."
+    },
+    {
+     "t0_ms": 1016610,
+     "text": "Our NBN pipeline exceeds our supply throughout the end of the decade."
+    },
+    {
+     "t0_ms": 1022010,
+     "text": "Without, let me turn the call back to David."
+    },
+    {
+     "t0_ms": 1025650,
+     "text": "Thank you, Luis."
+    },
+    {
+     "t0_ms": 1027470,
+     "text": "We continue to execute on the strategy we outlined at Investor Day."
+    },
+    {
+     "t0_ms": 1032210,
+     "text": "We continue to build on the strategy we outlined at Investor Day."
+    },
+    {
+     "t0_ms": 1035490,
+     "text": "We continue to build on the strategy we outlined at Investor Day."
+    },
+    {
+     "t0_ms": 1036050,
+     "text": "Our technology leadership, deep customer partnership,"
+    },
+    {
+     "t0_ms": 1040270,
+     "text": "and disciplined financial management,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1042609,
+   "t1_ms": 1076550,
+   "speaker": "Management",
+   "text": "supported by a structural increase in NAND demand driven by AI, position us to serve our customers, deliver growing and durable free cash flow, and return capital to shareholders. Over the past year, we have transformed the earnings and cash generation power of the business and established a strong market for NAND. We have established a strong market for NAND, and established a strong market for NAND. We have established a strong foundation for durable performance. We remain focused on disciplined execution, sustained value creation, and delivering against our long-term financial objectives. With that, Ivan, let's open it up for questions.",
+   "parts": [
+    {
+     "t0_ms": 1042609,
+     "text": "supported by a structural increase in NAND demand driven by AI,"
+    },
+    {
+     "t0_ms": 1047069,
+     "text": "position us to serve our customers,"
+    },
+    {
+     "t0_ms": 1049390,
+     "text": "deliver growing and durable free cash flow,"
+    },
+    {
+     "t0_ms": 1051770,
+     "text": "and return capital to shareholders."
+    },
+    {
+     "t0_ms": 1054630,
+     "text": "Over the past year,"
+    },
+    {
+     "t0_ms": 1056130,
+     "text": "we have transformed the earnings and cash generation power of the business"
+    },
+    {
+     "t0_ms": 1060310,
+     "text": "and established a strong market for NAND."
+    },
+    {
+     "t0_ms": 1061050,
+     "text": "We have established a strong market for NAND,"
+    },
+    {
+     "t0_ms": 1061150,
+     "text": "and established a strong market for NAND."
+    },
+    {
+     "t0_ms": 1062190,
+     "text": "We have established a strong foundation for durable performance."
+    },
+    {
+     "t0_ms": 1065130,
+     "text": "We remain focused on disciplined execution,"
+    },
+    {
+     "t0_ms": 1068150,
+     "text": "sustained value creation,"
+    },
+    {
+     "t0_ms": 1069970,
+     "text": "and delivering against our long-term financial objectives."
+    },
+    {
+     "t0_ms": 1073770,
+     "text": "With that, Ivan, let's open it up for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1079050,
+   "t1_ms": 1111080,
+   "speaker": "Operator",
+   "text": "At this time, we'll begin the question and answer session. To ask a question, you may press star and then one on your telephone keypads. If you are using a speakerphone, we do ask that you please pick up the handset before pressing the keys. If at any time your question has been answered, you would like to withdraw your question, you may press star and two. At this time, we will pause momentarily to assemble the roster. Our first question today comes from Ben Rietes from Mellius. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 1079050,
+     "text": "At this time, we'll begin the question and answer session."
+    },
+    {
+     "t0_ms": 1082550,
+     "text": "To ask a question, you may press star and then one on your telephone keypads."
+    },
+    {
+     "t0_ms": 1087270,
+     "text": "If you are using a speakerphone,"
+    },
+    {
+     "t0_ms": 1088830,
+     "text": "we do ask that you please pick up the handset before pressing the keys."
+    },
+    {
+     "t0_ms": 1092650,
+     "text": "If at any time your question has been answered,"
+    },
+    {
+     "t0_ms": 1094110,
+     "text": "you would like to withdraw your question,"
+    },
+    {
+     "t0_ms": 1096490,
+     "text": "you may press star and two."
+    },
+    {
+     "t0_ms": 1098950,
+     "text": "At this time, we will pause momentarily to assemble the roster."
+    },
+    {
+     "t0_ms": 1105320,
+     "text": "Our first question today comes from Ben Rietes from Mellius."
+    },
+    {
+     "t0_ms": 1109740,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1112960,
+   "t1_ms": 1142860,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thank you very much. I appreciate it. Hey, Dave. I wanted to ask two if I could, one on the MBMs. You know, you signed two before the last call, so I'm just wondering if we're going to have a discussion about that. I'm just wondering if you're going to have a lot more of them, because it seems like you're already capacity constrained to agree to them. And then do you mind reminding us what the bits under contract will be the next few years, if that's changed at all? And then I have a quick follow-up. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1112960,
+     "text": "Hey, guys. Thank you very much. I appreciate it."
+    },
+    {
+     "t0_ms": 1116080,
+     "text": "Hey, Dave."
+    },
+    {
+     "t0_ms": 1117200,
+     "text": "I wanted to ask two if I could, one on the MBMs."
+    },
+    {
+     "t0_ms": 1121560,
+     "text": "You know, you signed two before the last call,"
+    },
+    {
+     "t0_ms": 1125080,
+     "text": "so I'm just wondering if we're going to have a discussion about that."
+    },
+    {
+     "t0_ms": 1126760,
+     "text": "I'm just wondering if you're going to have a lot more of them,"
+    },
+    {
+     "t0_ms": 1128380,
+     "text": "because it seems like you're already capacity constrained to agree to them."
+    },
+    {
+     "t0_ms": 1133280,
+     "text": "And then do you mind reminding us what the bits under contract will be"
+    },
+    {
+     "t0_ms": 1138600,
+     "text": "the next few years, if that's changed at all?"
+    },
+    {
+     "t0_ms": 1141140,
+     "text": "And then I have a quick follow-up. Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1144340,
+   "t1_ms": 1188760,
+   "speaker": "Management",
+   "text": "Yeah, I'll make a few contracts. Thanks, Ben. We appreciate it. Always good to hear from you. So I'll make a few comments on MBMs and then Luis will fill in. Yeah, we've got, you know, we've got a very strong partnership, pipeline of MBMs and, you know, you kind of hit on all the issues there as the portfolio gets more subscribed and more committed and, you know, we're at half the bits for this fiscal year and two thirds for next year. You know, it's a fitting exercise to get the next tranche of them in there, but the pipeline is very strong. I think we said last quarter, I know we said last quarter that we're going to be patient and consider the next set of customers. And that's exactly what we're doing. And, you know, we expect more of, you know, more of them over the next,",
+   "parts": [
+    {
+     "t0_ms": 1144340,
+     "text": "Yeah, I'll make a few contracts. Thanks, Ben. We appreciate it."
+    },
+    {
+     "t0_ms": 1147740,
+     "text": "Always good to hear from you."
+    },
+    {
+     "t0_ms": 1149800,
+     "text": "So I'll make a few comments on MBMs and then Luis will fill in."
+    },
+    {
+     "t0_ms": 1152940,
+     "text": "Yeah, we've got, you know,"
+    },
+    {
+     "t0_ms": 1155440,
+     "text": "we've got a very strong partnership,"
+    },
+    {
+     "t0_ms": 1156760,
+     "text": "pipeline of MBMs and, you know,"
+    },
+    {
+     "t0_ms": 1159260,
+     "text": "you kind of hit on all the issues there as the portfolio gets more subscribed"
+    },
+    {
+     "t0_ms": 1162660,
+     "text": "and more committed and, you know,"
+    },
+    {
+     "t0_ms": 1164700,
+     "text": "we're at half the bits for this fiscal year and two thirds for next year."
+    },
+    {
+     "t0_ms": 1169020,
+     "text": "You know,"
+    },
+    {
+     "t0_ms": 1169560,
+     "text": "it's a fitting exercise to get the next tranche of them in there,"
+    },
+    {
+     "t0_ms": 1173160,
+     "text": "but the pipeline is very strong."
+    },
+    {
+     "t0_ms": 1176000,
+     "text": "I think we said last quarter,"
+    },
+    {
+     "t0_ms": 1177620,
+     "text": "I know we said last quarter that we're going to be patient and consider the"
+    },
+    {
+     "t0_ms": 1180820,
+     "text": "next set of customers."
+    },
+    {
+     "t0_ms": 1182520,
+     "text": "And that's exactly what we're doing."
+    },
+    {
+     "t0_ms": 1184860,
+     "text": "And, you know,"
+    },
+    {
+     "t0_ms": 1185760,
+     "text": "we expect more of,"
+    },
+    {
+     "t0_ms": 1186760,
+     "text": "you know,"
+    },
+    {
+     "t0_ms": 1187760,
+     "text": "more of them over the next,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1188760,
+   "t1_ms": 1233760,
+   "speaker": "Management",
+   "text": "you know, several months, several quarters as we continue to allocate the rest of the, the rest of the portfolio. So the pipeline is very strong and growing, quite frankly, and it's become the predominant way we deal with our customers. And, you know, I expect that the percent of the portfolio committed to continue to go up over the next couple of quarters. So Luis. Yeah, I mean, just a few things, because I think David covered most of it. We feel very good about where we are. We're very good about where we are with the MBMs. As you know, we've been very selective, very strategic in who we chose to sign these deals with. We're looking at the companies we have and 95% of our MBMs are with companies that are investment grade.",
+   "parts": [
+    {
+     "t0_ms": 1188760,
+     "text": "you know,"
+    },
+    {
+     "t0_ms": 1189760,
+     "text": "several months,"
+    },
+    {
+     "t0_ms": 1190760,
+     "text": "several quarters as we continue to allocate the rest of the,"
+    },
+    {
+     "t0_ms": 1192760,
+     "text": "the rest of the portfolio."
+    },
+    {
+     "t0_ms": 1194760,
+     "text": "So the pipeline is very strong and growing,"
+    },
+    {
+     "t0_ms": 1197760,
+     "text": "quite frankly,"
+    },
+    {
+     "t0_ms": 1198760,
+     "text": "and it's become the predominant way we deal with our customers."
+    },
+    {
+     "t0_ms": 1201760,
+     "text": "And, you know,"
+    },
+    {
+     "t0_ms": 1202760,
+     "text": "I expect that the percent of the portfolio committed to continue to go up over the next couple of quarters."
+    },
+    {
+     "t0_ms": 1208760,
+     "text": "So Luis."
+    },
+    {
+     "t0_ms": 1209760,
+     "text": "Yeah, I mean,"
+    },
+    {
+     "t0_ms": 1210760,
+     "text": "just a few things,"
+    },
+    {
+     "t0_ms": 1211760,
+     "text": "because I think David covered most of it."
+    },
+    {
+     "t0_ms": 1213760,
+     "text": "We feel very good about where we are."
+    },
+    {
+     "t0_ms": 1215760,
+     "text": "We're very good about where we are with the MBMs."
+    },
+    {
+     "t0_ms": 1218760,
+     "text": "As you know,"
+    },
+    {
+     "t0_ms": 1219760,
+     "text": "we've been very selective,"
+    },
+    {
+     "t0_ms": 1220760,
+     "text": "very strategic in who we chose to sign these deals with."
+    },
+    {
+     "t0_ms": 1224760,
+     "text": "We're looking at the companies we have and 95% of our MBMs are with companies that are investment grade."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1233760,
+   "t1_ms": 1276760,
+   "speaker": "Management",
+   "text": "And they generated about $130 billion in operating cash flow. So we feel that we made the right choices. And as David just mentioned, we'll continue to be patient. We'll continue to be selective. And the pipeline is terrific. So you should expect us to continue to make progress. I think in my prepared remarks, I said that we expect the bids to continue to grow. We had shared with you that about 50% of our bids are under MBM for 27 and about two-thirds for 28. And we expect that number to continue to go a little bit higher from the two-thirds. Hey, Ben. I'll just make one comment. You got to ask two questions or I'll make two comments.",
+   "parts": [
+    {
+     "t0_ms": 1233760,
+     "text": "And they generated about $130 billion in operating cash flow."
+    },
+    {
+     "t0_ms": 1237760,
+     "text": "So we feel that we made the right choices."
+    },
+    {
+     "t0_ms": 1240760,
+     "text": "And as David just mentioned,"
+    },
+    {
+     "t0_ms": 1242760,
+     "text": "we'll continue to be patient."
+    },
+    {
+     "t0_ms": 1243760,
+     "text": "We'll continue to be selective."
+    },
+    {
+     "t0_ms": 1244760,
+     "text": "And the pipeline is terrific."
+    },
+    {
+     "t0_ms": 1246760,
+     "text": "So you should expect us to continue to make progress."
+    },
+    {
+     "t0_ms": 1250760,
+     "text": "I think in my prepared remarks,"
+    },
+    {
+     "t0_ms": 1253760,
+     "text": "I said that we expect the bids to continue to grow."
+    },
+    {
+     "t0_ms": 1256760,
+     "text": "We had shared with you that about 50% of our bids are under MBM for 27 and about two-thirds for 28."
+    },
+    {
+     "t0_ms": 1266760,
+     "text": "And we expect that number to continue to go a little bit higher from the two-thirds."
+    },
+    {
+     "t0_ms": 1272760,
+     "text": "Hey, Ben."
+    },
+    {
+     "t0_ms": 1273760,
+     "text": "I'll just make one comment."
+    },
+    {
+     "t0_ms": 1274760,
+     "text": "You got to ask two questions or I'll make two comments."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1276760,
+   "t1_ms": 1315760,
+   "speaker": "Management",
+   "text": "We're also balancing customers that are coming back for more. Like that is a real thing. And in general, we're hearing from our customers that they have underestimated the amount of NAN they need to run their infrastructure. And so we have multiple customers coming back for a second round. And then balancing that against bringing new customers into the portfolio. So there's a lot to sort out. And these are big, complicated agreements. But we feel very, very good about where the pipeline is, where the portfolio is at. The products are resonating.",
+   "parts": [
+    {
+     "t0_ms": 1276760,
+     "text": "We're also balancing customers that are coming back for more."
+    },
+    {
+     "t0_ms": 1283760,
+     "text": "Like that is a real thing."
+    },
+    {
+     "t0_ms": 1286760,
+     "text": "And in general,"
+    },
+    {
+     "t0_ms": 1287760,
+     "text": "we're hearing from our customers that they have underestimated the amount of NAN they need to run their infrastructure."
+    },
+    {
+     "t0_ms": 1294760,
+     "text": "And so we have multiple customers coming back for a second round."
+    },
+    {
+     "t0_ms": 1299760,
+     "text": "And then balancing that against bringing new customers into the portfolio."
+    },
+    {
+     "t0_ms": 1303760,
+     "text": "So there's a lot to sort out."
+    },
+    {
+     "t0_ms": 1305760,
+     "text": "And these are big, complicated agreements."
+    },
+    {
+     "t0_ms": 1307760,
+     "text": "But we feel very, very good about where the pipeline is, where the portfolio is at."
+    },
+    {
+     "t0_ms": 1313760,
+     "text": "The products are resonating."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1315760,
+   "t1_ms": 1325760,
+   "speaker": "Management",
+   "text": "And we'll continue to update you as we build out the portfolio of MBMs over the next couple of quarters. Okay, great.",
+   "parts": [
+    {
+     "t0_ms": 1315760,
+     "text": "And we'll continue to update you as we build out the portfolio of MBMs over the next couple of quarters."
+    },
+    {
+     "t0_ms": 1323760,
+     "text": "Okay, great."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1325760,
+   "t1_ms": 1368760,
+   "speaker": "Analyst",
+   "text": "And just a quick follow-up. You may have seen that Intel guided down for the next quarter due to PCI. And it really, you know, the impact of the memory is more than anybody thought, at least with their guidance. Don't know about anybody else. Just wondering if you are seeing NBM interest from those in the PC market more. And how you, if there's, if that market, you know, with regard to some of the device makers is something that will be, you know, become an NBM or is actually now getting more attractive because they're willing to pay for it. How should we think about that as it looks like they're starved for product and missing numbers in that segment?",
+   "parts": [
+    {
+     "t0_ms": 1325760,
+     "text": "And just a quick follow-up."
+    },
+    {
+     "t0_ms": 1327760,
+     "text": "You may have seen that Intel guided down for the next quarter due to PCI."
+    },
+    {
+     "t0_ms": 1332760,
+     "text": "And it really, you know, the impact of the memory is more than anybody thought, at least with their guidance."
+    },
+    {
+     "t0_ms": 1338760,
+     "text": "Don't know about anybody else."
+    },
+    {
+     "t0_ms": 1340760,
+     "text": "Just wondering if you are seeing NBM interest from those in the PC market more."
+    },
+    {
+     "t0_ms": 1347760,
+     "text": "And how you, if there's, if that market, you know, with regard to some of the device makers is something that will be, you know, become an NBM or is actually now getting more attractive because they're willing to pay for it."
+    },
+    {
+     "t0_ms": 1361760,
+     "text": "How should we think about that as it looks like they're starved for product and missing numbers in that segment?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1368760,
+   "t1_ms": 1409760,
+   "speaker": "Management",
+   "text": "Yeah, I mean, Ben, we have, we cannot talk about specific customers. What we've said in the past is we do have NBMs in the data center business. It's data center centric. But we also have customers on the edge. And we've offered this construct to any customer that wants it and started a process where it makes sense. So we're not trying to restrict it from that. Okay. So we're not trying to restrict it from any customer. We're open for business. So, Ben, the other thing I'll say to this, I mean, we were looking at this in our own reviews. You know, we know that units were down this year. They're going to be slightly down next year. You know, low single digits.",
+   "parts": [
+    {
+     "t0_ms": 1368760,
+     "text": "Yeah, I mean, Ben, we have, we cannot talk about specific customers."
+    },
+    {
+     "t0_ms": 1372760,
+     "text": "What we've said in the past is we do have NBMs in the data center business."
+    },
+    {
+     "t0_ms": 1377760,
+     "text": "It's data center centric."
+    },
+    {
+     "t0_ms": 1379760,
+     "text": "But we also have customers on the edge."
+    },
+    {
+     "t0_ms": 1381760,
+     "text": "And we've offered this construct to any customer that wants it and started a process where it makes sense."
+    },
+    {
+     "t0_ms": 1388760,
+     "text": "So we're not trying to restrict it from that."
+    },
+    {
+     "t0_ms": 1390760,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 1391760,
+     "text": "So we're not trying to restrict it from any customer."
+    },
+    {
+     "t0_ms": 1393760,
+     "text": "We're open for business."
+    },
+    {
+     "t0_ms": 1395760,
+     "text": "So, Ben, the other thing I'll say to this, I mean, we were looking at this in our own reviews."
+    },
+    {
+     "t0_ms": 1400760,
+     "text": "You know, we know that units were down this year."
+    },
+    {
+     "t0_ms": 1403760,
+     "text": "They're going to be slightly down next year."
+    },
+    {
+     "t0_ms": 1406760,
+     "text": "You know, low single digits."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1409760,
+   "t1_ms": 1453760,
+   "speaker": "Management",
+   "text": "I mean, these two calendar quarters right now are really the trough of the year over year compares where they're the most negative. And so, you know, this is where we're feeling the biggest amount of interest. We're seeing the biggest amount of change in that market on a unit basis, on a year over year basis. All that said, we expect the PC exabytes to grow next year. And, in fact, we think, you know, our internal models are every segment in the NAND market. You know, PCs, smartphones, data center will all show positive growth next year because of content for device continues to go up as, you know, part of that is mixing to premium. So, there's no doubt there's been a market adjustment in many ways.",
+   "parts": [
+    {
+     "t0_ms": 1409760,
+     "text": "I mean, these two calendar quarters right now are really the trough of the year over year compares where they're the most negative."
+    },
+    {
+     "t0_ms": 1417760,
+     "text": "And so, you know, this is where we're feeling the biggest amount of interest."
+    },
+    {
+     "t0_ms": 1420760,
+     "text": "We're seeing the biggest amount of change in that market on a unit basis, on a year over year basis."
+    },
+    {
+     "t0_ms": 1426760,
+     "text": "All that said, we expect the PC exabytes to grow next year."
+    },
+    {
+     "t0_ms": 1432760,
+     "text": "And, in fact, we think, you know, our internal models are every segment in the NAND market."
+    },
+    {
+     "t0_ms": 1438760,
+     "text": "You know, PCs, smartphones, data center will all show positive growth next year because of content for device continues to go up as, you know, part of that is mixing to premium."
+    },
+    {
+     "t0_ms": 1449760,
+     "text": "So, there's no doubt there's been a market adjustment in many ways."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1453760,
+   "t1_ms": 1464010,
+   "speaker": "Management",
+   "text": "We're in the, you know, as I said, from a unit basis, we're in the teeth of that on a year over year basis. But we see improvement from here.",
+   "parts": [
+    {
+     "t0_ms": 1453760,
+     "text": "We're in the, you know, as I said, from a unit basis, we're in the teeth of that on a year over year basis."
+    },
+    {
+     "t0_ms": 1459760,
+     "text": "But we see improvement from here."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1464010,
+   "t1_ms": 1465010,
+   "speaker": "Operator",
+   "text": "Thanks, guys.",
+   "parts": [
+    {
+     "t0_ms": 1464010,
+     "text": "Thanks, guys."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1465010,
+   "t1_ms": 1468010,
+   "speaker": "Management",
+   "text": "Thank you. Thanks, Ben.",
+   "parts": [
+    {
+     "t0_ms": 1465010,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1466010,
+     "text": "Thanks, Ben."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1468010,
+   "t1_ms": 1474010,
+   "speaker": "Operator",
+   "text": "Our next question comes from Joe Moore from Morgan Stanley. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 1468010,
+     "text": "Our next question comes from Joe Moore from Morgan Stanley."
+    },
+    {
+     "t0_ms": 1471010,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1474010,
+   "t1_ms": 1503010,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Seems like the underlying story here, in addition to just how good the market is, is your presence in data center. Yeah. You're up almost 20x year on year, up 61% sequentially. Can you talk about, obviously, the market's good, but it seems like your participation is also a lot better. Is that because of BICS-8? Is that just because the market's different? Just what is it that's allowing you to get to those levels of penetration? And if data center is half of BICS at some point, you know, will you get to that in your own mix as well?",
+   "parts": [
+    {
+     "t0_ms": 1474010,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 1475010,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1476010,
+     "text": "Seems like the underlying story here, in addition to just how good the market is, is your presence in data center."
+    },
+    {
+     "t0_ms": 1479010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1480010,
+     "text": "You're up almost 20x year on year, up 61% sequentially."
+    },
+    {
+     "t0_ms": 1485010,
+     "text": "Can you talk about, obviously, the market's good, but it seems like your participation is also a lot better."
+    },
+    {
+     "t0_ms": 1490010,
+     "text": "Is that because of BICS-8?"
+    },
+    {
+     "t0_ms": 1491010,
+     "text": "Is that just because the market's different?"
+    },
+    {
+     "t0_ms": 1493010,
+     "text": "Just what is it that's allowing you to get to those levels of penetration?"
+    },
+    {
+     "t0_ms": 1497010,
+     "text": "And if data center is half of BICS at some point, you know, will you get to that in your own mix as well?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1503010,
+   "t1_ms": 1541010,
+   "speaker": "Management",
+   "text": "Yeah, Joe, so thanks for the comment. We feel very good about where we're at in data center. I mean, anything where you see the kind of numbers we've posted. Yeah. I mean, the kind of numbers we've posted year over year is a combination of things. I mean, it starts with the fundamental NAND node. You know, BICS-8 is a very good node. You know, CBA gives you very clean CMOS, which is very good interface speeds, all those kinds of things. You know, we built the right products. We've had a TLC product in the market for several years now. You know, it was just a couple of quarters ago that we started selling our QLC product for revenue, and that, you know, we expected that to ramp, and that's happening. So we got the right product at the right time. We got the right technology.",
+   "parts": [
+    {
+     "t0_ms": 1503010,
+     "text": "Yeah, Joe, so thanks for the comment."
+    },
+    {
+     "t0_ms": 1505010,
+     "text": "We feel very good about where we're at in data center."
+    },
+    {
+     "t0_ms": 1507010,
+     "text": "I mean, anything where you see the kind of numbers we've posted."
+    },
+    {
+     "t0_ms": 1508010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1509010,
+     "text": "I mean, the kind of numbers we've posted year over year is a combination of things."
+    },
+    {
+     "t0_ms": 1512010,
+     "text": "I mean, it starts with the fundamental NAND node."
+    },
+    {
+     "t0_ms": 1514010,
+     "text": "You know, BICS-8 is a very good node."
+    },
+    {
+     "t0_ms": 1517010,
+     "text": "You know, CBA gives you very clean CMOS, which is very good interface speeds, all those kinds of things."
+    },
+    {
+     "t0_ms": 1524010,
+     "text": "You know, we built the right products."
+    },
+    {
+     "t0_ms": 1526010,
+     "text": "We've had a TLC product in the market for several years now."
+    },
+    {
+     "t0_ms": 1529010,
+     "text": "You know, it was just a couple of quarters ago that we started selling our QLC product for revenue, and that, you know, we expected that to ramp, and that's happening."
+    },
+    {
+     "t0_ms": 1537010,
+     "text": "So we got the right product at the right time."
+    },
+    {
+     "t0_ms": 1539010,
+     "text": "We got the right technology."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1541010,
+   "t1_ms": 1586010,
+   "speaker": "Management",
+   "text": "And then, you know, over the last quarter or so, there's been a lot more refinement of the AI inference architecture is what I would say. When I look at the market and we kind of decompose it internally, you know, customers are just getting more refined about how they're using NAND, where they're using TLC, where they're using QLC, you know, all different phases from KVCast, you know, to the TLC. So we're seeing that from KVCast to staging to fast data lakes and all the subparts of those markets, inference and agent orchestration, model pre-training, model post-training. There's just a general \u2013 we're seeing NAND be applied in a more, I would say, nuanced way.",
+   "parts": [
+    {
+     "t0_ms": 1541010,
+     "text": "And then, you know, over the last quarter or so, there's been a lot more refinement of the AI inference architecture is what I would say."
+    },
+    {
+     "t0_ms": 1550010,
+     "text": "When I look at the market and we kind of decompose it internally, you know, customers are just getting more refined about how they're using NAND, where they're using TLC, where they're using QLC, you know, all different phases from KVCast, you know, to the"
+    },
+    {
+     "t0_ms": 1567010,
+     "text": "TLC."
+    },
+    {
+     "t0_ms": 1568010,
+     "text": "So we're seeing that from KVCast to staging to fast data lakes and all the subparts of those markets, inference and agent orchestration, model pre-training, model post-training."
+    },
+    {
+     "t0_ms": 1579010,
+     "text": "There's just a general \u2013 we're seeing NAND be applied in a more, I would say, nuanced way."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1586010,
+   "t1_ms": 1630010,
+   "speaker": "Management",
+   "text": "In the past, you know, QLC is being used in the right places, and you're even seeing QLC from subcustomers even move into, like, KVCast, where they can \u2013 where it can be supported. Yeah. So, you know, we're seeing that. And then, you know, we're seeing NAND being supported. On the other side of the spectrum, we're seeing SLC being pulled into the architecture. It's not really in sales yet. It's more in architectural conversations. And it's not a performance type of conversation. It's more endurance, like during agentic workloads, the amount of endurance required. And in that place, it's kind of where can we substitute NAND for DRAM? You know, we think those kind of architectures will be very sticky over time.",
+   "parts": [
+    {
+     "t0_ms": 1586010,
+     "text": "In the past, you know, QLC is being used in the right places, and you're even seeing QLC from subcustomers even move into, like, KVCast, where they can \u2013 where it can be supported."
+    },
+    {
+     "t0_ms": 1596010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1597010,
+     "text": "So, you know, we're seeing that."
+    },
+    {
+     "t0_ms": 1598010,
+     "text": "And then, you know, we're seeing NAND being supported."
+    },
+    {
+     "t0_ms": 1599010,
+     "text": "On the other side of the spectrum, we're seeing SLC being pulled into the architecture."
+    },
+    {
+     "t0_ms": 1604010,
+     "text": "It's not really in sales yet."
+    },
+    {
+     "t0_ms": 1606010,
+     "text": "It's more in architectural conversations."
+    },
+    {
+     "t0_ms": 1609010,
+     "text": "And it's not a performance type of conversation."
+    },
+    {
+     "t0_ms": 1613010,
+     "text": "It's more endurance, like during agentic workloads, the amount of endurance required."
+    },
+    {
+     "t0_ms": 1618010,
+     "text": "And in that place, it's kind of where can we substitute NAND for DRAM?"
+    },
+    {
+     "t0_ms": 1625010,
+     "text": "You know, we think those kind of architectures will be very sticky over time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1630010,
+   "t1_ms": 1675010,
+   "speaker": "Management",
+   "text": "Once you make that transition, you're going to stick with it, given the price differential. So we see all of these things working together. And, you know, I think these NBMs set us up for these very deep and strategic level conversations with our customers about how they're using our product, deep discussions with our engineers about how they could use our product to solve different use cases. And all of that is leading to a tremendous pull on our portfolio. And like I said, our biggest customers, we've already signed one second tranche of an NBM, and we're in discussions in others. So the whole setup is very strong, and we feel good about it. And we appreciate your recognition of the performance on a year-over-year basis.",
+   "parts": [
+    {
+     "t0_ms": 1630010,
+     "text": "Once you make that transition, you're going to stick with it, given the price differential."
+    },
+    {
+     "t0_ms": 1635010,
+     "text": "So we see all of these things working together."
+    },
+    {
+     "t0_ms": 1638010,
+     "text": "And, you know, I think these NBMs set us up for these very deep and strategic level conversations with our customers about how they're using our product, deep discussions with our engineers about how they could use our product to solve different use cases."
+    },
+    {
+     "t0_ms": 1654010,
+     "text": "And all of that is leading to a tremendous pull on our portfolio."
+    },
+    {
+     "t0_ms": 1660010,
+     "text": "And like I said, our biggest customers, we've already signed one second tranche of an NBM, and we're in discussions in others."
+    },
+    {
+     "t0_ms": 1668010,
+     "text": "So the whole setup is very strong, and we feel good about it."
+    },
+    {
+     "t0_ms": 1672010,
+     "text": "And we appreciate your recognition of the performance on a year-over-year basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1675010,
+   "t1_ms": 1677010,
+   "speaker": "Management",
+   "text": "It really is quite outstanding.",
+   "parts": [
+    {
+     "t0_ms": 1675010,
+     "text": "It really is quite outstanding."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1677010,
+   "t1_ms": 1683260,
+   "speaker": "Analyst",
+   "text": "It is surprising. And where do you think the mix goes long-term in terms of could it overhappening?",
+   "parts": [
+    {
+     "t0_ms": 1677010,
+     "text": "It is surprising."
+    },
+    {
+     "t0_ms": 1680260,
+     "text": "And where do you think the mix goes long-term in terms of could it overhappening?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1683260,
+   "t1_ms": 1712260,
+   "speaker": "Management",
+   "text": "Oh, yeah. So, yeah. We're working hard to catch up, to have our portfolio mix, you know, equal what the market bits are. And, you know, we're going to continue to make progress throughout calendar year 27. We'll see if we actually catch up by the end of the quarter. But, you know, I think we'll get to a substantially higher number on mix than we are if we look back at fiscal year 26. We'll continue to make progress here. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1683260,
+     "text": "Oh, yeah."
+    },
+    {
+     "t0_ms": 1684260,
+     "text": "So, yeah."
+    },
+    {
+     "t0_ms": 1685260,
+     "text": "We're working hard to catch up, to have our portfolio mix, you know, equal what the market bits are."
+    },
+    {
+     "t0_ms": 1693260,
+     "text": "And, you know, we're going to continue to make progress throughout calendar year 27."
+    },
+    {
+     "t0_ms": 1697260,
+     "text": "We'll see if we actually catch up by the end of the quarter."
+    },
+    {
+     "t0_ms": 1699260,
+     "text": "But, you know, I think we'll get to a substantially higher number on mix than we are if we look back at fiscal year 26."
+    },
+    {
+     "t0_ms": 1709260,
+     "text": "We'll continue to make progress here."
+    },
+    {
+     "t0_ms": 1711260,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1712260,
+   "t1_ms": 1720180,
+   "speaker": "Operator",
+   "text": "Our next question comes from Mark Newman from the U.S. I'm Mark Newman from Bernstein. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 1712260,
+     "text": "Our next question comes from Mark Newman from the U.S."
+    },
+    {
+     "t0_ms": 1716180,
+     "text": "I'm Mark Newman from Bernstein."
+    },
+    {
+     "t0_ms": 1718180,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1720180,
+   "t1_ms": 1765180,
+   "speaker": "Analyst",
+   "text": "All right. Thanks so much for taking the question. On the \u2013 if I could just first of all talk about price and volume in the guidance. You talked about in the fiscal Q1 that you just reported, I think you said 60% of the revenue growth from volume and 40% from pricing. Baked into your guide. How do you expect that mix to progress? Any comments on pricing? Appreciate that you've got a very high portion of volumes on these NBMs, but still wanted to get some clarity on pricing. I think there was a comment that modest improvements in pricing in FQ2.",
+   "parts": [
+    {
+     "t0_ms": 1720180,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 1722180,
+     "text": "Thanks so much for taking the question."
+    },
+    {
+     "t0_ms": 1724180,
+     "text": "On the \u2013 if I could just first of all talk about price and volume in the guidance."
+    },
+    {
+     "t0_ms": 1731180,
+     "text": "You talked about in the fiscal Q1 that you just reported, I think you said 60% of the revenue growth from volume and 40% from pricing."
+    },
+    {
+     "t0_ms": 1742180,
+     "text": "Baked into your guide."
+    },
+    {
+     "t0_ms": 1744180,
+     "text": "How do you expect that mix to progress?"
+    },
+    {
+     "t0_ms": 1748180,
+     "text": "Any comments on pricing?"
+    },
+    {
+     "t0_ms": 1751180,
+     "text": "Appreciate that you've got a very high portion of volumes on these NBMs, but still wanted to get some clarity on pricing."
+    },
+    {
+     "t0_ms": 1759180,
+     "text": "I think there was a comment that modest improvements in pricing in FQ2."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1765180,
+   "t1_ms": 1773180,
+   "speaker": "Analyst",
+   "text": "Any further clarity on that? And then I have a follow-on question on HBF and some of the new NAND technologies as well. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 1765180,
+     "text": "Any further clarity on that?"
+    },
+    {
+     "t0_ms": 1767180,
+     "text": "And then I have a follow-on question on HBF and some of the new NAND technologies as well."
+    },
+    {
+     "t0_ms": 1772180,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1773180,
+   "t1_ms": 1809180,
+   "speaker": "Management",
+   "text": "So let me take the first one. Yes, you're right. We reported about 60% of the revenue growth came from volume and 40% from pricing in Q1 roughly. And we do expect both to contribute in the next quarter. We normally don't break this mark into its pieces, but we do expect some modest pricing as we put in our preparing marks. So we do expect both to contribute during the quarter. And we expect pricing to continue to increase modestly throughout the year. That's helpful.",
+   "parts": [
+    {
+     "t0_ms": 1773180,
+     "text": "So let me take the first one."
+    },
+    {
+     "t0_ms": 1775180,
+     "text": "Yes, you're right."
+    },
+    {
+     "t0_ms": 1776180,
+     "text": "We reported about 60% of the revenue growth came from volume and 40% from pricing in Q1 roughly."
+    },
+    {
+     "t0_ms": 1785180,
+     "text": "And we do expect both to contribute in the next quarter."
+    },
+    {
+     "t0_ms": 1790180,
+     "text": "We normally don't break this mark into its pieces, but we do expect some modest pricing as we put in our preparing marks."
+    },
+    {
+     "t0_ms": 1799180,
+     "text": "So we do expect both to contribute during the quarter."
+    },
+    {
+     "t0_ms": 1802180,
+     "text": "And we expect pricing to continue to increase modestly throughout the year."
+    },
+    {
+     "t0_ms": 1808180,
+     "text": "That's helpful."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1809180,
+   "t1_ms": 1854180,
+   "speaker": "Analyst",
+   "text": "Fair enough. And follow-on question is on HBF and other new NAND technologies in the data center. So there was a comment about some progress on HBF, which was great to hear. But I wondered if there's any more comments on progress and discussions with partners and customers, anything there. And the other thing. Dave, you mentioned about some of the other new NAND technologies in the data center, storage next, and then there's also this CMX context memory. Just what's your view on all these types of new NAND tiers in the data center?",
+   "parts": [
+    {
+     "t0_ms": 1809180,
+     "text": "Fair enough."
+    },
+    {
+     "t0_ms": 1810180,
+     "text": "And follow-on question is on HBF and other new NAND technologies in the data center."
+    },
+    {
+     "t0_ms": 1817180,
+     "text": "So there was a comment about some progress on HBF, which was great to hear."
+    },
+    {
+     "t0_ms": 1823180,
+     "text": "But I wondered if there's any more comments on progress and discussions with partners and customers, anything there."
+    },
+    {
+     "t0_ms": 1830180,
+     "text": "And the other thing."
+    },
+    {
+     "t0_ms": 1831180,
+     "text": "Dave, you mentioned about some of the other new NAND technologies in the data center, storage next, and then there's also this CMX context memory."
+    },
+    {
+     "t0_ms": 1846180,
+     "text": "Just what's your view on all these types of new NAND tiers in the data center?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1854180,
+   "t1_ms": 1864180,
+   "speaker": "Analyst",
+   "text": "Do you think that they all win? Just any kind of comments on the interplay of all these and the roles for each? And how SanDisk plays in them and the timing would be really appreciated. Thanks. Sure.",
+   "parts": [
+    {
+     "t0_ms": 1854180,
+     "text": "Do you think that they all win?"
+    },
+    {
+     "t0_ms": 1856180,
+     "text": "Just any kind of comments on the interplay of all these and the roles for each?"
+    },
+    {
+     "t0_ms": 1859180,
+     "text": "And how SanDisk plays in them and the timing would be really appreciated."
+    },
+    {
+     "t0_ms": 1862180,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1863180,
+     "text": "Sure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1864180,
+   "t1_ms": 1909180,
+   "speaker": "Management",
+   "text": "So, Mark, no, you know, the conversations with potential customers on HBF are robust and continue to be, you know, we'll continue to have those conversations as we go into putting product, you know, samples in their hands that they can start to use and understand how it's going to fit in their systems. So we'll continue to update on that. Thank you. So we'll continue to update on that. But, you know, it's kind of an always-on conversation. Your second question, I think this is, like, very, very healthy for where AI inference is, which is, as it scales out, it needs to be, the architecture is just being relentlessly refined for economics.",
+   "parts": [
+    {
+     "t0_ms": 1864180,
+     "text": "So, Mark, no, you know, the conversations with potential customers on HBF are robust and continue to be, you know, we'll continue to have those conversations as we go into putting product, you know, samples in their hands that they can start to use and understand how it's going to fit in their systems."
+    },
+    {
+     "t0_ms": 1886180,
+     "text": "So we'll continue to update on that."
+    },
+    {
+     "t0_ms": 1887180,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1888180,
+     "text": "So we'll continue to update on that."
+    },
+    {
+     "t0_ms": 1890180,
+     "text": "But, you know, it's kind of an always-on conversation."
+    },
+    {
+     "t0_ms": 1896180,
+     "text": "Your second question, I think this is, like, very, very healthy for where AI inference is, which is, as it scales out, it needs to be, the architecture is just being relentlessly refined for economics."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1909180,
+   "t1_ms": 1944720,
+   "speaker": "Management",
+   "text": "And that's a very good thing. Because it's going to make, you know, if it's going to scale, you know, the more economic it is, the better. And that's pulling NAND into more parts of the architecture because NAND is the most scalable semiconductor technology, right? So we're seeing, like I said, we're seeing, you know, if you would go back a couple years ago, it was all about going for more density again, going from TLC to QLC. We're still doing that, right? That's still a big part of the strategy, but now there's some of it even going in the other direction. How do I use, how do I get more endurance in specific parts of the architecture?",
+   "parts": [
+    {
+     "t0_ms": 1909180,
+     "text": "And that's a very good thing."
+    },
+    {
+     "t0_ms": 1912180,
+     "text": "Because it's going to make, you know, if it's going to scale, you know, the more economic it is, the better."
+    },
+    {
+     "t0_ms": 1916180,
+     "text": "And that's pulling NAND into more parts of the architecture because NAND is the most scalable semiconductor technology, right?"
+    },
+    {
+     "t0_ms": 1923560,
+     "text": "So we're seeing, like I said, we're seeing, you know, if you would go back a couple years ago, it was all about going for more density again, going from TLC to QLC."
+    },
+    {
+     "t0_ms": 1934000,
+     "text": "We're still doing that, right?"
+    },
+    {
+     "t0_ms": 1935620,
+     "text": "That's still a big part of the strategy, but now there's some of it even going in the other direction."
+    },
+    {
+     "t0_ms": 1939960,
+     "text": "How do I use, how do I get more endurance in specific parts of the architecture?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1944720,
+   "t1_ms": 1981740,
+   "speaker": "Management",
+   "text": "Is the endurance and the performance I get out of NAND good enough to solve the use case at a part of the architecture where I can use it over competing technologies that may be significantly more expensive and difficult to acquire? So I would say this is a very, very dynamic discussion. There's a lot of ideas on the table. I think there should be a lot of ideas on the table. I think they'll all be pursued. And I think that it's... The most important thing is to stay close to the people that are spending the money to scale the infrastructure.",
+   "parts": [
+    {
+     "t0_ms": 1944720,
+     "text": "Is the endurance and the performance I get out of NAND good enough to solve the use case at a part of the architecture where I can use it over competing technologies that may be significantly more expensive and difficult to acquire?"
+    },
+    {
+     "t0_ms": 1960860,
+     "text": "So I would say this is a very, very dynamic discussion."
+    },
+    {
+     "t0_ms": 1965860,
+     "text": "There's a lot of ideas on the table."
+    },
+    {
+     "t0_ms": 1968180,
+     "text": "I think there should be a lot of ideas on the table."
+    },
+    {
+     "t0_ms": 1970540,
+     "text": "I think they'll all be pursued."
+    },
+    {
+     "t0_ms": 1972420,
+     "text": "And I think that it's..."
+    },
+    {
+     "t0_ms": 1974360,
+     "text": "The most important thing is to stay close to the people that are spending the money to scale the infrastructure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1982000,
+   "t1_ms": 2023680,
+   "speaker": "Management",
+   "text": "Because in the end, they'll make the decisions of what's right for them based on the use cases they're trying to solve at scale and where they're putting all this money behind it. And we're deeply engaged in those conversations, and I expect them to continue to be very robust and have a lot of different ideas about how we could stretch our technology in different directions to fit more... to fit more... and more use cases. And in building a product, it's always the same thing. I want the right technology at the right time and the right intensity at the right cost, and really not anything less or anything more. And that's what building a product is all about, because you can deliver it at the right price, and then you can get the right return on it.",
+   "parts": [
+    {
+     "t0_ms": 1982000,
+     "text": "Because in the end, they'll make the decisions of what's right for them based on the use cases they're trying to solve at scale and where they're putting all this money behind it."
+    },
+    {
+     "t0_ms": 1990800,
+     "text": "And we're deeply engaged in those conversations, and I expect them to continue to be very robust and have a lot of different ideas about how we could stretch our technology in different directions to fit more..."
+    },
+    {
+     "t0_ms": 2002400,
+     "text": "to fit more..."
+    },
+    {
+     "t0_ms": 2004360,
+     "text": "and more use cases."
+    },
+    {
+     "t0_ms": 2005700,
+     "text": "And in building a product, it's always the same thing."
+    },
+    {
+     "t0_ms": 2008520,
+     "text": "I want the right technology at the right time and the right intensity at the right cost, and really not anything less or anything more."
+    },
+    {
+     "t0_ms": 2016480,
+     "text": "And that's what building a product is all about, because you can deliver it at the right price, and then you can get the right return on it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2023820,
+   "t1_ms": 2030660,
+   "speaker": "Management",
+   "text": "So that process is full on in AI inference architecture working with our customers.",
+   "parts": [
+    {
+     "t0_ms": 2023820,
+     "text": "So that process is full on in AI inference architecture working with our customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2032820,
+   "t1_ms": 2035200,
+   "speaker": "Analyst",
+   "text": "Fantastic. Thanks for the call. Sure.",
+   "parts": [
+    {
+     "t0_ms": 2032820,
+     "text": "Fantastic."
+    },
+    {
+     "t0_ms": 2033400,
+     "text": "Thanks for the call."
+    },
+    {
+     "t0_ms": 2034900,
+     "text": "Sure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2036660,
+   "t1_ms": 2041760,
+   "speaker": "Operator",
+   "text": "Our next question comes from David Gibson from MST Financial. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2036660,
+     "text": "Our next question comes from David Gibson from MST Financial."
+    },
+    {
+     "t0_ms": 2040440,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2044740,
+   "t1_ms": 2050860,
+   "speaker": "Analyst",
+   "text": "Thanks, guys. It's a really great call. Well done. I'm just curious. Can you hear me? Sorry? Yes, yes. Hi, David.",
+   "parts": [
+    {
+     "t0_ms": 2044740,
+     "text": "Thanks, guys."
+    },
+    {
+     "t0_ms": 2045600,
+     "text": "It's a really great call."
+    },
+    {
+     "t0_ms": 2046640,
+     "text": "Well done."
+    },
+    {
+     "t0_ms": 2047800,
+     "text": "I'm just curious."
+    },
+    {
+     "t0_ms": 2048580,
+     "text": "Can you hear me?"
+    },
+    {
+     "t0_ms": 2049360,
+     "text": "Sorry?"
+    },
+    {
+     "t0_ms": 2049820,
+     "text": "Yes, yes."
+    },
+    {
+     "t0_ms": 2050460,
+     "text": "Hi, David."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2050980,
+   "t1_ms": 2056000,
+   "speaker": "Management",
+   "text": "Just wondering if I... Thanks very much for your time today. Just a quick one.",
+   "parts": [
+    {
+     "t0_ms": 2050980,
+     "text": "Just wondering if I..."
+    },
+    {
+     "t0_ms": 2053380,
+     "text": "Thanks very much for your time today."
+    },
+    {
+     "t0_ms": 2055360,
+     "text": "Just a quick one."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2056080,
+   "t1_ms": 2069739,
+   "speaker": "Analyst",
+   "text": "Just wondering whether you're looking to accelerate the BICS transition from 8 to 9, 10, and so forth as a way to accelerate the BIC growth in the short term. And then satisfy some of that very strong customer demand?",
+   "parts": [
+    {
+     "t0_ms": 2056080,
+     "text": "Just wondering whether you're looking to accelerate the BICS transition from 8 to 9, 10, and so forth as a way to accelerate the BIC growth in the short term."
+    },
+    {
+     "t0_ms": 2066600,
+     "text": "And then satisfy some of that very strong customer demand?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2071949,
+   "t1_ms": 2113060,
+   "speaker": "Management",
+   "text": "No. I mean, we're committed to the BIC growth we talked about, you know, mid to high teens. Those, you know, those nodal transitions require a lot of planning and, you know, tool purchases and where lines are set up. So, you know, we're still... We have that FAB plan set up for the kind of BIC growth we've been talking about for a long time. So no plans to change that at this point. Okay. Thank you. Just one follow-up. You talked about earlier about allocating more supply to the data center in Q1. Are there any limits to increasingly allocating, you know, your BICs to data center?",
+   "parts": [
+    {
+     "t0_ms": 2071949,
+     "text": "No."
+    },
+    {
+     "t0_ms": 2072409,
+     "text": "I mean, we're committed to the BIC growth we talked about, you know, mid to high teens."
+    },
+    {
+     "t0_ms": 2076110,
+     "text": "Those, you know, those nodal transitions require a lot of planning and, you know, tool purchases and where lines are set up."
+    },
+    {
+     "t0_ms": 2085630,
+     "text": "So, you know, we're still..."
+    },
+    {
+     "t0_ms": 2087690,
+     "text": "We have that FAB plan set up for the kind of BIC growth we've been talking about for a long time."
+    },
+    {
+     "t0_ms": 2093330,
+     "text": "So no plans to change that at this point."
+    },
+    {
+     "t0_ms": 2098070,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 2100220,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2100760,
+     "text": "Just one follow-up."
+    },
+    {
+     "t0_ms": 2101840,
+     "text": "You talked about earlier about allocating more supply to the data center in Q1."
+    },
+    {
+     "t0_ms": 2107340,
+     "text": "Are there any limits to increasingly allocating, you know, your BICs to data center?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2115670,
+   "t1_ms": 2160370,
+   "speaker": "Management",
+   "text": "Well, I mean, it's, you know, very... In some ways, yes. I mean, out of the FAB, you come out with a certain mix of TLC, QLC, certain DIMEX, all these kinds of issues. So... It's a constant fitting exercise of getting the right product to the right customer. And there's a lot of, you know, magic that goes on in the organization. And Luis's organization is a big part of that, working with our sales teams of, you know, what is the available inventory? What's coming out of the FAB? What's the mix? And where is it all going to go? So you want to say a little bit more about that, Luis? Yeah, I think the only thing I would add, obviously, changes depending on the timeframe you're looking at. Over the short term, it's almost impossible to do anything.",
+   "parts": [
+    {
+     "t0_ms": 2115670,
+     "text": "Well, I mean, it's, you know, very..."
+    },
+    {
+     "t0_ms": 2121690,
+     "text": "In some ways, yes."
+    },
+    {
+     "t0_ms": 2123490,
+     "text": "I mean, out of the FAB, you come out with a certain mix of TLC, QLC, certain DIMEX, all these kinds of issues."
+    },
+    {
+     "t0_ms": 2130270,
+     "text": "So..."
+    },
+    {
+     "t0_ms": 2131430,
+     "text": "It's a constant fitting exercise of getting the right product to the right customer."
+    },
+    {
+     "t0_ms": 2136310,
+     "text": "And there's a lot of, you know, magic that goes on in the organization."
+    },
+    {
+     "t0_ms": 2140850,
+     "text": "And Luis's organization is a big part of that, working with our sales teams of, you know, what is the available inventory?"
+    },
+    {
+     "t0_ms": 2147190,
+     "text": "What's coming out of the FAB?"
+    },
+    {
+     "t0_ms": 2148510,
+     "text": "What's the mix?"
+    },
+    {
+     "t0_ms": 2149870,
+     "text": "And where is it all going to go?"
+    },
+    {
+     "t0_ms": 2151430,
+     "text": "So you want to say a little bit more about that, Luis?"
+    },
+    {
+     "t0_ms": 2152990,
+     "text": "Yeah, I think the only thing I would add, obviously, changes depending on the timeframe you're looking at."
+    },
+    {
+     "t0_ms": 2157410,
+     "text": "Over the short term, it's almost impossible to do anything."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2160370,
+   "t1_ms": 2167690,
+   "speaker": "Management",
+   "text": "It takes 120. It takes 120 days or so to produce a wafer. But obviously, as you look further out, there are more degrees of freedom.",
+   "parts": [
+    {
+     "t0_ms": 2160370,
+     "text": "It takes 120."
+    },
+    {
+     "t0_ms": 2161430,
+     "text": "It takes 120 days or so to produce a wafer."
+    },
+    {
+     "t0_ms": 2163810,
+     "text": "But obviously, as you look further out, there are more degrees of freedom."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2170580,
+   "t1_ms": 2170740,
+   "speaker": "Analyst",
+   "text": "Okay.",
+   "parts": [
+    {
+     "t0_ms": 2170580,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2170900,
+   "t1_ms": 2173300,
+   "speaker": "Management",
+   "text": "That's great. Thanks very much. Thank you, David.",
+   "parts": [
+    {
+     "t0_ms": 2170900,
+     "text": "That's great."
+    },
+    {
+     "t0_ms": 2171440,
+     "text": "Thanks very much."
+    },
+    {
+     "t0_ms": 2172680,
+     "text": "Thank you, David."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2174580,
+   "t1_ms": 2179440,
+   "speaker": "Operator",
+   "text": "Our next question comes from CJ Muse from Cantor Fitzgerald. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2174580,
+     "text": "Our next question comes from CJ Muse from Cantor Fitzgerald."
+    },
+    {
+     "t0_ms": 2178400,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2180680,
+   "t1_ms": 2222980,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thank you for taking the question. Sure. I get the question on the comment around your NBM pipeline exceeding supply through the end of the decade in the slide deck. I guess... You know, can you elaborate on that? And how is that changing kind of your thought process around what bit supply will look like for the industry over the next handful of years? And how are you adjusting, if at all, your CapEx plans? I know you talked about mid-single digits, which implies roughly two and a half to three billion gross CapEx. You know, fairly low kind of numbers. So we'd love to hear kind of your thoughts on how the visibility is impacting, you know,",
+   "parts": [
+    {
+     "t0_ms": 2180680,
+     "text": "Yeah, good afternoon."
+    },
+    {
+     "t0_ms": 2181500,
+     "text": "Thank you for taking the question."
+    },
+    {
+     "t0_ms": 2183160,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2183260,
+     "text": "I get the question on the comment around your NBM pipeline exceeding supply through the end of the decade in the slide deck."
+    },
+    {
+     "t0_ms": 2192320,
+     "text": "I guess..."
+    },
+    {
+     "t0_ms": 2193480,
+     "text": "You know, can you elaborate on that?"
+    },
+    {
+     "t0_ms": 2194980,
+     "text": "And how is that changing kind of your thought process around what bit supply will look like for the industry over the next handful of years?"
+    },
+    {
+     "t0_ms": 2203480,
+     "text": "And how are you adjusting, if at all, your CapEx plans?"
+    },
+    {
+     "t0_ms": 2208440,
+     "text": "I know you talked about mid-single digits, which implies roughly two and a half to three billion gross CapEx."
+    },
+    {
+     "t0_ms": 2214640,
+     "text": "You know, fairly low kind of numbers."
+    },
+    {
+     "t0_ms": 2216940,
+     "text": "So we'd love to hear kind of your thoughts on how the visibility is impacting, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2222980,
+   "t1_ms": 2225760,
+   "speaker": "Analyst",
+   "text": "your thoughts around bit growth and supply.",
+   "parts": [
+    {
+     "t0_ms": 2222980,
+     "text": "your thoughts around bit growth and supply."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2227540,
+   "t1_ms": 2265000,
+   "speaker": "Management",
+   "text": "Well, I mean, I think, you know, my first thing I say about it, CJ, is the process is working. I mean, it was only two or three quarters ago we talked about even instituting this kind of business model. And, you know, we had some customers that were like-minded, and we made some very good progress. And, you know, here we are a couple quarters later, and it's, you know, we talked about this after our investor day. We had customers coming to us offering NBMs. And that now becomes \u2013 it's not the only way we do business. You know, there's lots of customers with lots of different volume levels and different products. And, you know, we want to meet our customers where they are. There's no doubt about that.",
+   "parts": [
+    {
+     "t0_ms": 2227540,
+     "text": "Well, I mean, I think, you know, my first thing I say about it, CJ, is the process is working."
+    },
+    {
+     "t0_ms": 2232660,
+     "text": "I mean, it was only two or three quarters ago we talked about even instituting this kind of business model."
+    },
+    {
+     "t0_ms": 2238260,
+     "text": "And, you know, we had some customers that were like-minded, and we made some very good progress."
+    },
+    {
+     "t0_ms": 2245320,
+     "text": "And, you know, here we are a couple quarters later, and it's, you know, we talked about this after our investor day."
+    },
+    {
+     "t0_ms": 2250060,
+     "text": "We had customers coming to us offering NBMs."
+    },
+    {
+     "t0_ms": 2252980,
+     "text": "And that now becomes \u2013 it's not the only way we do business."
+    },
+    {
+     "t0_ms": 2256600,
+     "text": "You know, there's lots of customers with lots of different volume levels and different products."
+    },
+    {
+     "t0_ms": 2260660,
+     "text": "And, you know, we want to meet our customers where they are."
+    },
+    {
+     "t0_ms": 2263520,
+     "text": "There's no doubt about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2265500,
+   "t1_ms": 2310240,
+   "speaker": "Management",
+   "text": "But, you know, it's very good to see that we have a robust pipeline now through the end, you know, through 2030. And we're even getting beyond that, as we talked about, of customers that are really willing to give us their demand signals and financial commitments. And to the question earlier, you know, those kinds of things will allow us, you know, if we choose to, to eventually start changing supply and demand and all those kinds of things. But we're just not there yet, right? We've got to go through negotiations on all of those. We've got to get commitments. We've got to, you know, we've got to get everything all aligned. But I would say that, you know, the process is working well, and we're very happy with where it's at. And it gives us a lot more visibility into how we plan.",
+   "parts": [
+    {
+     "t0_ms": 2265500,
+     "text": "But, you know, it's very good to see that we have a robust pipeline now through the end, you know, through 2030."
+    },
+    {
+     "t0_ms": 2273360,
+     "text": "And we're even getting beyond that, as we talked about, of customers that are really willing to give us their demand signals and financial commitments."
+    },
+    {
+     "t0_ms": 2282980,
+     "text": "And to the question earlier, you know, those kinds of things will allow us, you know, if we choose to, to eventually start changing supply and demand and all those kinds of things."
+    },
+    {
+     "t0_ms": 2294120,
+     "text": "But we're just not there yet, right?"
+    },
+    {
+     "t0_ms": 2295700,
+     "text": "We've got to go through negotiations on all of those."
+    },
+    {
+     "t0_ms": 2298700,
+     "text": "We've got to get commitments."
+    },
+    {
+     "t0_ms": 2300280,
+     "text": "We've got to, you know, we've got to get everything all aligned."
+    },
+    {
+     "t0_ms": 2302680,
+     "text": "But I would say that, you know, the process is working well, and we're very happy with where it's at."
+    },
+    {
+     "t0_ms": 2307220,
+     "text": "And it gives us a lot more visibility into how we plan."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2310240,
+   "t1_ms": 2320360,
+   "speaker": "Management",
+   "text": "But the process is still underway, right? It's still underway. And, you know, as I said, we'll continue to update you over the next couple quarters as we make progress.",
+   "parts": [
+    {
+     "t0_ms": 2310240,
+     "text": "But the process is still underway, right?"
+    },
+    {
+     "t0_ms": 2312980,
+     "text": "It's still underway."
+    },
+    {
+     "t0_ms": 2315220,
+     "text": "And, you know, as I said, we'll continue to update you over the next couple quarters as we make progress."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2321500,
+   "t1_ms": 2333420,
+   "speaker": "Analyst",
+   "text": "Just a quick follow-up for Luis. On these contracts, and considering some have deposits, are you able to use those deposits for buybacks, or is that cash restricted? Thanks so much.",
+   "parts": [
+    {
+     "t0_ms": 2321500,
+     "text": "Just a quick follow-up for Luis."
+    },
+    {
+     "t0_ms": 2323800,
+     "text": "On these contracts, and considering some have deposits, are you able to use those deposits for buybacks, or is that cash restricted?"
+    },
+    {
+     "t0_ms": 2332820,
+     "text": "Thanks so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2334560,
+   "t1_ms": 2358280,
+   "speaker": "Management",
+   "text": "Yeah, in theory, we could, CJ. But as we explained at Analyst Day, the vast majority are financial guarantees, which are held by third parties. So, of course, financial institutions. So, they're not in my balance sheet. The only thing that's in the balance sheet is prepayments, and we, you know, that's by far the smallest amount. But there is no legal restriction on that.",
+   "parts": [
+    {
+     "t0_ms": 2334560,
+     "text": "Yeah, in theory, we could, CJ."
+    },
+    {
+     "t0_ms": 2336820,
+     "text": "But as we explained at Analyst Day, the vast majority are financial guarantees,"
+    },
+    {
+     "t0_ms": 2341900,
+     "text": "which are held by third parties."
+    },
+    {
+     "t0_ms": 2342980,
+     "text": "So, of course, financial institutions."
+    },
+    {
+     "t0_ms": 2344640,
+     "text": "So, they're not in my balance sheet."
+    },
+    {
+     "t0_ms": 2346560,
+     "text": "The only thing that's in the balance sheet is prepayments, and we, you know, that's by far the smallest amount."
+    },
+    {
+     "t0_ms": 2355700,
+     "text": "But there is no legal restriction on that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2359480,
+   "t1_ms": 2359600,
+   "speaker": "Analyst",
+   "text": "Great.",
+   "parts": [
+    {
+     "t0_ms": 2359480,
+     "text": "Great."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2359780,
+   "t1_ms": 2362200,
+   "speaker": "Management",
+   "text": "Thanks so much. Thank you. Thanks, CJ.",
+   "parts": [
+    {
+     "t0_ms": 2359780,
+     "text": "Thanks so much."
+    },
+    {
+     "t0_ms": 2361020,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2361680,
+     "text": "Thanks, CJ."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2363880,
+   "t1_ms": 2368800,
+   "speaker": "Operator",
+   "text": "Our next question comes from Carl Ackerman from BNP Paribas. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2363880,
+     "text": "Our next question comes from Carl Ackerman from BNP Paribas."
+    },
+    {
+     "t0_ms": 2367640,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2370100,
+   "t1_ms": 2390200,
+   "speaker": "Management",
+   "text": "Yeah, thank you. It's encouraging to see increasing NAND content per XPU and AI servers to support KD cash demand, which I think compares to reductions in memory content and some server SKUs. But, Dave, could you discuss how you see enterprise SSD content per server progressing in 2027",
+   "parts": [
+    {
+     "t0_ms": 2370100,
+     "text": "Yeah, thank you."
+    },
+    {
+     "t0_ms": 2370760,
+     "text": "It's encouraging to see increasing NAND content per XPU and AI servers to support KD cash demand,"
+    },
+    {
+     "t0_ms": 2379240,
+     "text": "which I think compares to reductions in memory content and some server SKUs."
+    },
+    {
+     "t0_ms": 2384120,
+     "text": "But, Dave, could you discuss how you see enterprise SSD content per server progressing in 2027"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2390200,
+   "t1_ms": 2396340,
+   "speaker": "Operator",
+   "text": "in the context of this agentic AI proliferation? Because it's certainly becoming a larger portion of your portfolio.",
+   "parts": [
+    {
+     "t0_ms": 2390200,
+     "text": "in the context of this agentic AI proliferation?"
+    },
+    {
+     "t0_ms": 2393440,
+     "text": "Because it's certainly becoming a larger portion of your portfolio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2399880,
+   "t1_ms": 2439400,
+   "speaker": "Management",
+   "text": "Yeah, that's a big question, Carl. I mean, look, what we're doing is, you know, there's no doubt in inference and agent orchestration that our product is tied to kind of CPU demand for those type of applications. I mean, we know at a pretty granular level the amount of demand that we expect per CPU, you know, something 60 to 90 gigabytes per CPU is what we see in those kind of applications. I haven't run the math. Again, I don't know what the server TAM is and kind of what the elasticity is between those two, but we can follow up on that.",
+   "parts": [
+    {
+     "t0_ms": 2399880,
+     "text": "Yeah, that's a big question, Carl."
+    },
+    {
+     "t0_ms": 2402140,
+     "text": "I mean,"
+    },
+    {
+     "t0_ms": 2402740,
+     "text": "look, what we're doing is, you know, there's no doubt in inference and agent orchestration that our product is tied to kind of CPU demand for those type of applications."
+    },
+    {
+     "t0_ms": 2416460,
+     "text": "I mean, we know at a pretty granular level the amount of demand that we expect per CPU, you know, something 60 to 90 gigabytes per CPU is what we see in those kind of applications."
+    },
+    {
+     "t0_ms": 2430700,
+     "text": "I haven't run the math."
+    },
+    {
+     "t0_ms": 2432320,
+     "text": "Again,"
+    },
+    {
+     "t0_ms": 2432740,
+     "text": "I don't know what the server TAM is and kind of what the elasticity is between those two, but we can follow up on that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2439720,
+   "t1_ms": 2476920,
+   "speaker": "Management",
+   "text": "But, you know, as I said earlier, we continue to see more NAND being pulled into the inference architecture in all parts of the architecture and in very different ways, right? TLC, QLC, and as I said earlier now, people looking for high endurance solutions that will fit parts of the workload. They don't need to use DRAM and they can use that type of NAND. So it's all very encouraging and we'll continue to stay close, but we'll do some work on the two TAM analysis and what the tradeoffs are between them. Sure.",
+   "parts": [
+    {
+     "t0_ms": 2439720,
+     "text": "But, you know, as I said earlier, we continue to see more NAND being pulled into the inference architecture in all parts of the architecture and in very different ways, right?"
+    },
+    {
+     "t0_ms": 2451260,
+     "text": "TLC, QLC, and as I said earlier now, people looking for high endurance solutions that will fit parts of the workload."
+    },
+    {
+     "t0_ms": 2462740,
+     "text": "They don't need to use DRAM and they can use that type of NAND."
+    },
+    {
+     "t0_ms": 2467060,
+     "text": "So it's all very encouraging and we'll continue to stay close, but we'll do some work on the two TAM analysis and what the tradeoffs are between them."
+    },
+    {
+     "t0_ms": 2476580,
+     "text": "Sure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2476920,
+   "t1_ms": 2483260,
+   "speaker": "Operator",
+   "text": "If I may, a quick follow-up. Do you have an updated view or progress on your goal for enterprise SSD share?",
+   "parts": [
+    {
+     "t0_ms": 2476920,
+     "text": "If I may, a quick follow-up."
+    },
+    {
+     "t0_ms": 2478820,
+     "text": "Do you have an updated view or progress on your goal for enterprise SSD share?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2483880,
+   "t1_ms": 2526280,
+   "speaker": "Management",
+   "text": "I mean, can you achieve perhaps that low to mid-teens share in 2027 because you're seeing quite success right now? Thank you. Yeah, we've tried not. I mean, in the past, like many, many years ago, we put some share goals out there and I've tried very hard not to put share goals out there because sometimes it leads to kind of perverse choices in the portfolio. We want to maximize the value of the portfolio across all time horizons, near-term, mid-term, long-term. So we want to keep some balance into it. Clearly, we're going to mix higher into data center. I mean, you see that. We talked about that earlier. I think 17x growth year over year. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. You don't see a 17x very often in a business at this scale.",
+   "parts": [
+    {
+     "t0_ms": 2483880,
+     "text": "I mean, can you achieve perhaps that low to mid-teens share in 2027 because you're seeing quite success right now?"
+    },
+    {
+     "t0_ms": 2490960,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2492740,
+     "text": "Yeah, we've tried not."
+    },
+    {
+     "t0_ms": 2493820,
+     "text": "I mean, in the past, like many, many years ago, we put some share goals out there and I've tried very hard not to put share goals out there because sometimes it leads to kind of perverse choices in the portfolio."
+    },
+    {
+     "t0_ms": 2504880,
+     "text": "We want to maximize the value of the portfolio across all time horizons, near-term, mid-term, long-term."
+    },
+    {
+     "t0_ms": 2512480,
+     "text": "So we want to keep some balance into it."
+    },
+    {
+     "t0_ms": 2515280,
+     "text": "Clearly, we're going to mix higher into data center."
+    },
+    {
+     "t0_ms": 2518260,
+     "text": "I mean, you see that."
+    },
+    {
+     "t0_ms": 2518980,
+     "text": "We talked about that earlier."
+    },
+    {
+     "t0_ms": 2520220,
+     "text": "I think 17x growth year over year."
+    },
+    {
+     "t0_ms": 2522560,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522620,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522640,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522660,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522700,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522720,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2522740,
+     "text": "You don't see a 17x very often in a business at this scale."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2526680,
+   "t1_ms": 2550860,
+   "speaker": "Management",
+   "text": "And as I said, I expect that to go higher as we go through 27. And the balance point in some ways will depend quarter by quarter of what we see and then what NBMs we sign, right? Those will give us a lot of visibility over the next several years where we see that mix going. So it's going higher, but I'm not going to put a specific target out there. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2526680,
+     "text": "And as I said, I expect that to go higher as we go through 27."
+    },
+    {
+     "t0_ms": 2532760,
+     "text": "And the balance point in some ways will depend quarter by quarter of what we see and then what NBMs we sign, right?"
+    },
+    {
+     "t0_ms": 2539400,
+     "text": "Those will give us a lot of visibility over the next several years where we see that mix going."
+    },
+    {
+     "t0_ms": 2544340,
+     "text": "So it's going higher, but I'm not going to put a specific target out there."
+    },
+    {
+     "t0_ms": 2550320,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2551320,
+   "t1_ms": 2557780,
+   "speaker": "Operator",
+   "text": "Our next question comes from... Vijay Rakesh from Mizzouho. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2551320,
+     "text": "Our next question comes from..."
+    },
+    {
+     "t0_ms": 2554480,
+     "text": "Vijay Rakesh from Mizzouho."
+    },
+    {
+     "t0_ms": 2556640,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2559060,
+   "t1_ms": 2599410,
+   "speaker": "Management",
+   "text": "Yeah. Hi, David. It's just a great quadrant guide. Just a quick question. As you look at data center, you know, your 2027 looks like you mentioned 40% demand with growth, which is massive. As you look at this BIX 8, BIX 9, BIX 10 transition, do they help you drive some bids to meet that demand? How is the supply on that side, I guess? A quick follow-up. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. BIX 9 is a big part of a data center strategy of being able to get, you know, faster interface speeds with the same cell and, you know, kind of what CBA gives us that flexibility. We talked about that in Vestor Day.",
+   "parts": [
+    {
+     "t0_ms": 2559060,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2559300,
+     "text": "Hi, David."
+    },
+    {
+     "t0_ms": 2560240,
+     "text": "It's just a great quadrant guide."
+    },
+    {
+     "t0_ms": 2562680,
+     "text": "Just a quick question."
+    },
+    {
+     "t0_ms": 2563680,
+     "text": "As you look at data center, you know, your 2027 looks like you mentioned 40% demand with growth, which is massive."
+    },
+    {
+     "t0_ms": 2571820,
+     "text": "As you look at this BIX 8, BIX 9, BIX 10 transition, do they help you drive some bids to meet that demand?"
+    },
+    {
+     "t0_ms": 2579080,
+     "text": "How is the supply on that side, I guess?"
+    },
+    {
+     "t0_ms": 2582200,
+     "text": "A quick follow-up."
+    },
+    {
+     "t0_ms": 2583060,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586130,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586610,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586630,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586650,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586710,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586730,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586750,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586770,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586790,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586810,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586830,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586850,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586870,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586890,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586930,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586970,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2586990,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587110,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587170,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587250,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587270,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587590,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587630,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587650,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587670,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587690,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587710,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2587750,
+     "text": "BIX 9 is a big part of a data center strategy of being able to get, you know, faster interface"
+    },
+    {
+     "t0_ms": 2592530,
+     "text": "speeds with the same cell and, you know, kind of what CBA gives us that flexibility."
+    },
+    {
+     "t0_ms": 2598050,
+     "text": "We talked about that in Vestor Day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2599750,
+   "t1_ms": 2639070,
+   "speaker": "Management",
+   "text": "So, you know, in that sense, yeah, those are big parts of the strategy. There's no doubt about it. So, as I said earlier, it's about getting the right product to the right customer. And, you know, the TLC product has been performing. It's been doing very, very well for quite some time now. And now we're seeing the ramping of QLC. And we'll see some ramp of BIX 9. But BIX 10 is still a little ways out, right? I mean, we announced BIX 10, but we're still ramping BIX 8. So, we've got a ways to go before we get out to some of those future BIX nodes. Got it.",
+   "parts": [
+    {
+     "t0_ms": 2599750,
+     "text": "So, you know, in that sense, yeah, those are big parts of the strategy."
+    },
+    {
+     "t0_ms": 2605790,
+     "text": "There's no doubt about it."
+    },
+    {
+     "t0_ms": 2607170,
+     "text": "So, as I said earlier, it's about getting the right product to the right customer."
+    },
+    {
+     "t0_ms": 2611690,
+     "text": "And, you know, the TLC product has been performing."
+    },
+    {
+     "t0_ms": 2617110,
+     "text": "It's been doing very, very well for quite some time now."
+    },
+    {
+     "t0_ms": 2620090,
+     "text": "And now we're seeing the ramping of QLC."
+    },
+    {
+     "t0_ms": 2625090,
+     "text": "And we'll see some ramp of BIX 9."
+    },
+    {
+     "t0_ms": 2626950,
+     "text": "But BIX 10 is still a little ways out, right?"
+    },
+    {
+     "t0_ms": 2629270,
+     "text": "I mean, we announced BIX 10, but we're still ramping BIX 8."
+    },
+    {
+     "t0_ms": 2632190,
+     "text": "So, we've got a ways to go before we get out to some of those future BIX nodes."
+    },
+    {
+     "t0_ms": 2638530,
+     "text": "Got it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2639070,
+   "t1_ms": 2681930,
+   "speaker": "Management",
+   "text": "And then on the endurance side, as you mentioned, you know, some of your peers are talking about SLC 9. So, you know, we're seeing that out there. You know, any thoughts how that plays out next year? Obviously, that could tighten up the demand market as well in addition to, you know, what you're seeing in just overall demand growth, I guess. Thanks. Yeah, I think it's a little early to have a very strong view on that, right? We are talking to some customers that are giving us some signals of, you know, demand for SLC. I mean, clearly, you start mixing. You're mixing SLC and you're going to take away, you know, there's a clear trade ratio",
+   "parts": [
+    {
+     "t0_ms": 2639070,
+     "text": "And then on the endurance side, as you mentioned, you know, some of your peers are talking about"
+    },
+    {
+     "t0_ms": 2646070,
+     "text": "SLC 9."
+    },
+    {
+     "t0_ms": 2647110,
+     "text": "So, you know, we're seeing that out there."
+    },
+    {
+     "t0_ms": 2648930,
+     "text": "You know, any thoughts how that plays out next year?"
+    },
+    {
+     "t0_ms": 2651390,
+     "text": "Obviously, that could tighten up the demand market as well in addition to, you know, what"
+    },
+    {
+     "t0_ms": 2656090,
+     "text": "you're seeing in just overall demand growth, I guess."
+    },
+    {
+     "t0_ms": 2659870,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2661050,
+     "text": "Yeah, I think it's a little early to have a very strong view on that, right?"
+    },
+    {
+     "t0_ms": 2666230,
+     "text": "We are talking to some customers that are giving us some signals of, you know, demand"
+    },
+    {
+     "t0_ms": 2672210,
+     "text": "for SLC."
+    },
+    {
+     "t0_ms": 2674410,
+     "text": "I mean, clearly, you start mixing."
+    },
+    {
+     "t0_ms": 2677110,
+     "text": "You're mixing SLC and you're going to take away, you know, there's a clear trade ratio"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2681930,
+   "t1_ms": 2719330,
+   "speaker": "Management",
+   "text": "of 3 to 1, 4 to 1, whether it's TLC or QLC. So, it will impact the overall supply in the market depending on how much SLC is used and how much really gets deployed. But it's a little early to put a specific forecast on it right now. What I would say, it's an architectural discussion and a request from customers of better understanding the technology and how it could fit into the market. So, I think it's a little early to have a very strong view on that. It's a little early to have a very strong view on that. It's a little early to have a very strong view on that. It's a little early to have a very strong view on that. It could fit, you know, parts of the use case as they build out their entrance architecture. So, we'll update you as we go over the next couple quarters and we'll see how this develops. But definitely something to keep an eye on. All right. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2681930,
+     "text": "of 3 to 1, 4 to 1, whether it's TLC or QLC."
+    },
+    {
+     "t0_ms": 2685850,
+     "text": "So, it will impact the overall supply in the market depending on how much SLC is used and"
+    },
+    {
+     "t0_ms": 2691870,
+     "text": "how much really gets deployed."
+    },
+    {
+     "t0_ms": 2693130,
+     "text": "But it's a little early to put a specific forecast on it right now."
+    },
+    {
+     "t0_ms": 2698550,
+     "text": "What I would say, it's an architectural discussion and a request from customers of better understanding"
+    },
+    {
+     "t0_ms": 2705590,
+     "text": "the technology and how it could fit into the market."
+    },
+    {
+     "t0_ms": 2706870,
+     "text": "So, I think it's a little early to have a very strong view on that."
+    },
+    {
+     "t0_ms": 2706970,
+     "text": "It's a little early to have a very strong view on that."
+    },
+    {
+     "t0_ms": 2706990,
+     "text": "It's a little early to have a very strong view on that."
+    },
+    {
+     "t0_ms": 2707050,
+     "text": "It's a little early to have a very strong view on that."
+    },
+    {
+     "t0_ms": 2707130,
+     "text": "It could fit, you know, parts of the use case as they build out their entrance architecture."
+    },
+    {
+     "t0_ms": 2711910,
+     "text": "So, we'll update you as we go over the next couple quarters and we'll see how this develops."
+    },
+    {
+     "t0_ms": 2715870,
+     "text": "But definitely something to keep an eye on."
+    },
+    {
+     "t0_ms": 2718630,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2718870,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2721380,
+   "t1_ms": 2725920,
+   "speaker": "Operator",
+   "text": "Our next question comes from Jim Schneider from Goldman Sachs. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2721380,
+     "text": "Our next question comes from Jim Schneider from Goldman Sachs."
+    },
+    {
+     "t0_ms": 2724860,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2727820,
+   "t1_ms": 2767560,
+   "speaker": "Management",
+   "text": "Good afternoon. Thanks for taking my question. I was wondering, maybe on a more tactical basis, you know, your consumer business obviously has seasonality in Q1 historically. And obviously the PC business does too, but data center is in sort of secular growth mode. So Luis, based on your visibility at this point, I'm just wondering if you could maybe give us any kind of color on whether you'd expect Q1 to be sequentially up, down, or sideways, roughly. So fiscal Q3, you mean? Yes, fiscal, the March quarter. Yeah, so if you look at historically, our Q3 is normally our weakest sequential quarter.",
+   "parts": [
+    {
+     "t0_ms": 2727820,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 2728720,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2730180,
+     "text": "I was wondering, maybe on a more tactical basis, you know, your consumer business obviously"
+    },
+    {
+     "t0_ms": 2735280,
+     "text": "has seasonality in Q1 historically."
+    },
+    {
+     "t0_ms": 2738440,
+     "text": "And obviously the PC business does too, but data center is in sort of secular growth mode."
+    },
+    {
+     "t0_ms": 2743820,
+     "text": "So Luis, based on your visibility at this point, I'm just wondering if you could maybe give us any kind of color on whether you'd expect Q1 to be sequentially up, down, or sideways, roughly."
+    },
+    {
+     "t0_ms": 2754640,
+     "text": "So fiscal Q3, you mean?"
+    },
+    {
+     "t0_ms": 2757320,
+     "text": "Yes, fiscal, the March quarter."
+    },
+    {
+     "t0_ms": 2758760,
+     "text": "Yeah, so if you look at historically, our Q3 is normally our weakest sequential quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2767560,
+   "t1_ms": 2812410,
+   "speaker": "Management",
+   "text": "So last quarter, for example, our bids were down 19% sequentially. So we're not guiding Q3, but for modeling purposes, I would be conservative in your sequential growth from Q2 to Q3. Thank you. And then just as a matter of principle, on the buyback, it's good to see the continued execution there. I'm sort of curious, as you sort of start to run down the authorization, would you expect the block to be down? Would you expect the board to re-up their authorization on a quarterly basis? Or maybe you could provide us any more color on how you're thinking about executing on the actual buybacks, given a much lower stock price today?",
+   "parts": [
+    {
+     "t0_ms": 2767560,
+     "text": "So last quarter, for example, our bids were down 19% sequentially."
+    },
+    {
+     "t0_ms": 2774240,
+     "text": "So we're not guiding Q3, but for modeling purposes, I would be conservative in your sequential growth from Q2 to Q3."
+    },
+    {
+     "t0_ms": 2783920,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2786830,
+     "text": "And then just as a matter of principle, on the buyback, it's good to see the continued execution there."
+    },
+    {
+     "t0_ms": 2794670,
+     "text": "I'm sort of curious, as you sort of start to run down the authorization,"
+    },
+    {
+     "t0_ms": 2798630,
+     "text": "would you expect the block to be down?"
+    },
+    {
+     "t0_ms": 2799590,
+     "text": "Would you expect the board to re-up their authorization on a quarterly basis?"
+    },
+    {
+     "t0_ms": 2802910,
+     "text": "Or maybe you could provide us any more color on how you're thinking about executing on the actual buybacks, given a much lower stock price today?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2812590,
+   "t1_ms": 2853850,
+   "speaker": "Management",
+   "text": "Thank you. Yeah, so we have a very clear strategy. 100% of excess cash is going to go back to shareholders. We're going to execute that aggressively or appropriately. And we know how to get a hold of the board. We have meetings every quarter. And so I don't expect any impedance on that side from us about how we execute. I expect us to continue to be \u2013 I don't expect us to be. We will continue to be faithful to our strategy, which is we're going to return 100% of excess cash to shareholders. We're off to a good start, I think, over the last couple quarters. Totally.",
+   "parts": [
+    {
+     "t0_ms": 2812590,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2814290,
+     "text": "Yeah, so we have a very clear strategy."
+    },
+    {
+     "t0_ms": 2817070,
+     "text": "100% of excess cash is going to go back to shareholders."
+    },
+    {
+     "t0_ms": 2820690,
+     "text": "We're going to execute that aggressively or appropriately."
+    },
+    {
+     "t0_ms": 2824450,
+     "text": "And we know how to get a hold of the board."
+    },
+    {
+     "t0_ms": 2827570,
+     "text": "We have meetings every quarter."
+    },
+    {
+     "t0_ms": 2829590,
+     "text": "And so I don't expect any impedance on that side from us about how we execute."
+    },
+    {
+     "t0_ms": 2837070,
+     "text": "I expect us to continue to be \u2013 I don't expect us to be."
+    },
+    {
+     "t0_ms": 2841650,
+     "text": "We will continue to be faithful to our strategy, which is we're going to return 100% of excess cash to shareholders."
+    },
+    {
+     "t0_ms": 2850170,
+     "text": "We're off to a good start, I think, over the last couple quarters."
+    },
+    {
+     "t0_ms": 2853610,
+     "text": "Totally."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2853850,
+   "t1_ms": 2866530,
+   "speaker": "Management",
+   "text": "I think we've bought back 4% of the market capital or of the shares outstanding of where we started. And we're going to continue to execute that program appropriately. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2853850,
+     "text": "I think we've bought back 4% of the market capital or of the shares outstanding of where we started."
+    },
+    {
+     "t0_ms": 2859590,
+     "text": "And we're going to continue to execute that program appropriately."
+    },
+    {
+     "t0_ms": 2865870,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2870750,
+   "t1_ms": 2876190,
+   "speaker": "Operator",
+   "text": "And our next question comes from Krish Sankar from TD Cowen. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 2870750,
+     "text": "And our next question comes from Krish Sankar from TD Cowen."
+    },
+    {
+     "t0_ms": 2875230,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2877810,
+   "t1_ms": 2902870,
+   "speaker": "Analyst",
+   "text": "Hi. Thanks so much for taking my questions. This is Steven calling on behalf of Krish. First question I have for Dave. I guess looking at your CSP customer base, I kind of wanted to get some color on what the prevailing demand currently is between the two. I mean, TLC versus QLC bits. And kind of going forward with the NBMs in place, does that TLC versus QLC mix shift meaningfully later this decade?",
+   "parts": [
+    {
+     "t0_ms": 2877810,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2878290,
+     "text": "Thanks so much for taking my questions."
+    },
+    {
+     "t0_ms": 2880090,
+     "text": "This is Steven calling on behalf of Krish."
+    },
+    {
+     "t0_ms": 2882250,
+     "text": "First question I have for Dave."
+    },
+    {
+     "t0_ms": 2884910,
+     "text": "I guess looking at your CSP customer base, I kind of wanted to get some color on what the prevailing demand currently is"
+    },
+    {
+     "t0_ms": 2892550,
+     "text": "between the two."
+    },
+    {
+     "t0_ms": 2893490,
+     "text": "I mean, TLC versus QLC bits."
+    },
+    {
+     "t0_ms": 2896070,
+     "text": "And kind of going forward with the NBMs in place, does that TLC versus QLC mix shift meaningfully later this decade?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2904960,
+   "t1_ms": 2944560,
+   "speaker": "Management",
+   "text": "You know, we're still like at that 70-30 number on TLC to QLC. TLC has been a big driver of the portfolio. We are hearing more from our customers about a reacceleration of QLC in different use cases. And so we'll see how that plays out. As you said, we're going to continue to do that. And I think that's what Dave said through the end of the decade. But, you know, that's where it is. I mean, that 70-30 number is a pretty good number. And, of course, you know, there's some fluctuation quarter to quarter, a little bit up and down here and there. But that's where it's been, and that's where we expect it to be, at least for the rest of this fiscal year.",
+   "parts": [
+    {
+     "t0_ms": 2904960,
+     "text": "You know, we're still like at that 70-30 number on TLC to QLC."
+    },
+    {
+     "t0_ms": 2909680,
+     "text": "TLC has been a big driver of the portfolio."
+    },
+    {
+     "t0_ms": 2912680,
+     "text": "We are hearing more from our customers about a reacceleration of QLC in different use cases."
+    },
+    {
+     "t0_ms": 2922560,
+     "text": "And so we'll see how that plays out."
+    },
+    {
+     "t0_ms": 2924280,
+     "text": "As you said, we're going to continue to do that."
+    },
+    {
+     "t0_ms": 2924780,
+     "text": "And I think that's what Dave said through the end of the decade."
+    },
+    {
+     "t0_ms": 2926280,
+     "text": "But, you know, that's where it is."
+    },
+    {
+     "t0_ms": 2930660,
+     "text": "I mean, that 70-30 number is a pretty good number."
+    },
+    {
+     "t0_ms": 2933520,
+     "text": "And, of course, you know, there's some fluctuation quarter to quarter, a little bit up and down here and there."
+    },
+    {
+     "t0_ms": 2938140,
+     "text": "But that's where it's been, and that's where we expect it to be, at least for the rest of this fiscal year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2944680,
+   "t1_ms": 2952760,
+   "speaker": "Management",
+   "text": "Let me put that time horizon on it, and then we'll see what customers are thinking about QLC as we continue to have those discussions.",
+   "parts": [
+    {
+     "t0_ms": 2944680,
+     "text": "Let me put that time horizon on it, and then we'll see what customers are thinking about QLC as we continue to have those discussions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2953900,
+   "t1_ms": 2954340,
+   "speaker": "Analyst",
+   "text": "Okay.",
+   "parts": [
+    {
+     "t0_ms": 2953900,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2954620,
+   "t1_ms": 2978400,
+   "speaker": "Management",
+   "text": "But I will say the Stargate product has been, which is our QLC product. I don't want to use too many internal names here. But it's been very well received. You know, it was not that many quarters ago that we were talking about going through qualifications. That's all 100% behind us. Customers are ramping. It's been a very, very well received product and a very key part of the portfolio.",
+   "parts": [
+    {
+     "t0_ms": 2954620,
+     "text": "But I will say the Stargate product has been, which is our QLC product."
+    },
+    {
+     "t0_ms": 2960220,
+     "text": "I don't want to use too many internal names here."
+    },
+    {
+     "t0_ms": 2962080,
+     "text": "But it's been very well received."
+    },
+    {
+     "t0_ms": 2964400,
+     "text": "You know, it was not that many quarters ago that we were talking about going through qualifications."
+    },
+    {
+     "t0_ms": 2969000,
+     "text": "That's all 100% behind us."
+    },
+    {
+     "t0_ms": 2971580,
+     "text": "Customers are ramping."
+    },
+    {
+     "t0_ms": 2973680,
+     "text": "It's been a very, very well received product and a very key part of the portfolio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2980160,
+   "t1_ms": 3006560,
+   "speaker": "Analyst",
+   "text": "Gotcha. And as a quick follow-up, a question on the molding. I know you're talking about the mobile edge market. Just given the double-digit unit declines in that market this year as well, but albeit concentrated in the kind of entry and mid-tier of the market, I'm kind of curious, like, from the demand signals that some of your customers in that market are giving you, can your mobile bits still grow next year overall?",
+   "parts": [
+    {
+     "t0_ms": 2980160,
+     "text": "Gotcha."
+    },
+    {
+     "t0_ms": 2980580,
+     "text": "And as a quick follow-up, a question on the molding."
+    },
+    {
+     "t0_ms": 2984660,
+     "text": "I know you're talking about the mobile edge market."
+    },
+    {
+     "t0_ms": 2987000,
+     "text": "Just given the double-digit unit declines in that market this year as well, but albeit concentrated in the kind of entry and mid-tier of the market, I'm kind of curious, like, from the demand signals that some of your customers in that market are giving you, can your mobile bits still grow next year overall?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3008140,
+   "t1_ms": 3048160,
+   "speaker": "Management",
+   "text": "Yeah, I think, you know, let's talk about the market first. I mean, you got it. I mean, the low end is understandable. It's under pressure. But, you know, that leads to a unit decline but a content per unit increasing. So when you add it all up, we expect growth of exabytes in that market next year on a slightly declining unit count. As far as our portfolio, I mean, you know, it's kind of like data center. I don't want to make projections on individual markets. We will manage the portfolio with agility. We've been very clear that we want balance in the portfolio.",
+   "parts": [
+    {
+     "t0_ms": 3008140,
+     "text": "Yeah, I think, you know, let's talk about the market first."
+    },
+    {
+     "t0_ms": 3011740,
+     "text": "I mean, you got it."
+    },
+    {
+     "t0_ms": 3012840,
+     "text": "I mean, the low end is understandable."
+    },
+    {
+     "t0_ms": 3014660,
+     "text": "It's under pressure."
+    },
+    {
+     "t0_ms": 3015660,
+     "text": "But, you know, that leads to a unit decline but a content per unit increasing."
+    },
+    {
+     "t0_ms": 3022020,
+     "text": "So when you add it all up, we expect growth of exabytes in that market next year on a slightly declining unit count."
+    },
+    {
+     "t0_ms": 3031640,
+     "text": "As far as our portfolio, I mean, you know, it's kind of like data center."
+    },
+    {
+     "t0_ms": 3036720,
+     "text": "I don't want to make projections on individual markets."
+    },
+    {
+     "t0_ms": 3040440,
+     "text": "We will manage the portfolio with agility."
+    },
+    {
+     "t0_ms": 3044280,
+     "text": "We've been very clear that we want balance in the portfolio."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3048560,
+   "t1_ms": 3061360,
+   "speaker": "Management",
+   "text": "But, you know, we're going to optimize the financial outcome over the short, mid, and long term, kind of integrate those to get the best outcome. And, you know, we'll update you on what the mix of mobile is as we go forward.",
+   "parts": [
+    {
+     "t0_ms": 3048560,
+     "text": "But, you know, we're going to optimize the financial outcome over the short, mid, and long term, kind of integrate those to get the best outcome."
+    },
+    {
+     "t0_ms": 3057440,
+     "text": "And, you know, we'll update you on what the mix of mobile is as we go forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3063060,
+   "t1_ms": 3065260,
+   "speaker": "Analyst",
+   "text": "Perfect. Thank you so much. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3063060,
+     "text": "Perfect."
+    },
+    {
+     "t0_ms": 3063640,
+     "text": "Thank you so much."
+    },
+    {
+     "t0_ms": 3064720,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3066540,
+   "t1_ms": 3071200,
+   "speaker": "Operator",
+   "text": "Our next question comes from Wamsi Mohan from Bank of America. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 3066540,
+     "text": "Our next question comes from Wamsi Mohan from Bank of America."
+    },
+    {
+     "t0_ms": 3070220,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3072880,
+   "t1_ms": 3093100,
+   "speaker": "Analyst",
+   "text": "Yes, thank you so much. In your slide, like you say, leading AI companies could indicate further demand upside. I was wondering if these are AI labs or NeoClouds. Are any of the credit concerns around the NeoClouds filtering back to you in any way that you can see at the moment? And I will follow up.",
+   "parts": [
+    {
+     "t0_ms": 3072880,
+     "text": "Yes, thank you so much."
+    },
+    {
+     "t0_ms": 3074280,
+     "text": "In your slide, like you say, leading AI companies could indicate further demand upside."
+    },
+    {
+     "t0_ms": 3080460,
+     "text": "I was wondering if these are AI labs or NeoClouds."
+    },
+    {
+     "t0_ms": 3084360,
+     "text": "Are any of the credit concerns around the NeoClouds filtering back to you in any way that you can see at the moment?"
+    },
+    {
+     "t0_ms": 3092420,
+     "text": "And I will follow up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3094960,
+   "t1_ms": 3123760,
+   "speaker": "Management",
+   "text": "Yeah, we haven't seen any of that. To the contrary, we're seeing very strong demand from our customers. And as I said, if I look at our largest... Our largest customers, they're basically all investment-grade companies, right, generating very strong cash. So we're not seeing any impacts from any credit issues whatsoever if they are out in the market. And demand from our customers is, if anything, strengthening versus what it was a quarter ago.",
+   "parts": [
+    {
+     "t0_ms": 3094960,
+     "text": "Yeah, we haven't seen any of that."
+    },
+    {
+     "t0_ms": 3096640,
+     "text": "To the contrary, we're seeing very strong demand from our customers."
+    },
+    {
+     "t0_ms": 3101060,
+     "text": "And as I said, if I look at our largest..."
+    },
+    {
+     "t0_ms": 3104280,
+     "text": "Our largest customers, they're basically all investment-grade companies, right, generating very strong cash."
+    },
+    {
+     "t0_ms": 3111000,
+     "text": "So we're not seeing any impacts from any credit issues whatsoever if they are out in the market."
+    },
+    {
+     "t0_ms": 3118040,
+     "text": "And demand from our customers is, if anything, strengthening versus what it was a quarter ago."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3124960,
+   "t1_ms": 3129620,
+   "speaker": "Analyst",
+   "text": "So to clarify there, Luis, when you say leading AI companies, are you referring to AI labs over there?",
+   "parts": [
+    {
+     "t0_ms": 3124960,
+     "text": "So to clarify there, Luis, when you say leading AI companies, are you referring to AI labs over there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3130620,
+   "t1_ms": 3140760,
+   "speaker": "Management",
+   "text": "We sell to everybody in our business. We sell to hyperscalers. We sell to model makers. We sell to everybody.",
+   "parts": [
+    {
+     "t0_ms": 3130620,
+     "text": "We sell to everybody in our business."
+    },
+    {
+     "t0_ms": 3134280,
+     "text": "We sell to hyperscalers."
+    },
+    {
+     "t0_ms": 3136280,
+     "text": "We sell to model makers."
+    },
+    {
+     "t0_ms": 3139500,
+     "text": "We sell to everybody."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3142180,
+   "t1_ms": 3157020,
+   "speaker": "Analyst",
+   "text": "Okay, thanks, Luis. And then just on linearity in the quarter, it seems like receivables picked up a little bit. Is that something that we should expect because of payment terms as more bits go under NBM, or was there something else in the quarter?",
+   "parts": [
+    {
+     "t0_ms": 3142180,
+     "text": "Okay, thanks, Luis."
+    },
+    {
+     "t0_ms": 3143100,
+     "text": "And then just on linearity in the quarter, it seems like receivables picked up a little bit."
+    },
+    {
+     "t0_ms": 3149520,
+     "text": "Is that something that we should expect because of payment terms as more bits go under NBM, or was there something else in the quarter?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3157660,
+   "t1_ms": 3169960,
+   "speaker": "Management",
+   "text": "No, we basically saw a little bit of a change in customer mix. And that happened. It has a little bit of an impact on our receivables, a little bit on linearity, but it's mostly customer mix.",
+   "parts": [
+    {
+     "t0_ms": 3157660,
+     "text": "No, we basically saw a little bit of a change in customer mix."
+    },
+    {
+     "t0_ms": 3162400,
+     "text": "And that happened."
+    },
+    {
+     "t0_ms": 3164280,
+     "text": "It has a little bit of an impact on our receivables, a little bit on linearity, but it's mostly customer mix."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3171320,
+   "t1_ms": 3172240,
+   "speaker": "Analyst",
+   "text": "Okay, thank you so much.",
+   "parts": [
+    {
+     "t0_ms": 3171320,
+     "text": "Okay, thank you so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3173520,
+   "t1_ms": 3181360,
+   "speaker": "Operator",
+   "text": "Thanks, Ramzi. Our next question comes from Amit Daryani from Evercore. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 3173520,
+     "text": "Thanks, Ramzi."
+    },
+    {
+     "t0_ms": 3175780,
+     "text": "Our next question comes from Amit Daryani from Evercore."
+    },
+    {
+     "t0_ms": 3180180,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3182980,
+   "t1_ms": 3225740,
+   "speaker": "Management",
+   "text": "Yep, thanks a lot, too, as well. I guess, David, just to start with on the capital allocation side, you know, as you transition towards becoming a more predictable NBM-driven business model, does that change how you think about... Yeah, I mean, we put a financial focus on the capital structure. And, you know, historically, I think memory is perceived to be more cyclical, so balance sheet flexibility has been important. But, you know, as you become structurally, I think, less cyclical, would that support a willingness to take on leverage and potentially accelerate the capital returns? Or is it comfort still with, you know, the $5 billion a quarter buyback, which is fairly impressive? I'm just wondering, at what point do you say we can take on more leverage and take advantage of the fact that we're less cyclical? Yeah, I mean, we put a financial... I mean, we just talked...",
+   "parts": [
+    {
+     "t0_ms": 3182980,
+     "text": "Yep, thanks a lot, too, as well."
+    },
+    {
+     "t0_ms": 3185120,
+     "text": "I guess, David, just to start with on the capital allocation side, you know, as you transition towards becoming a more predictable NBM-driven business model,"
+    },
+    {
+     "t0_ms": 3192800,
+     "text": "does that change how you think about..."
+    },
+    {
+     "t0_ms": 3194280,
+     "text": "Yeah, I mean, we put a financial focus on the capital structure."
+    },
+    {
+     "t0_ms": 3195500,
+     "text": "And, you know, historically, I think memory is perceived to be more cyclical, so balance sheet flexibility has been important."
+    },
+    {
+     "t0_ms": 3201120,
+     "text": "But, you know, as you become structurally, I think, less cyclical, would that support a willingness to take on leverage and potentially accelerate the capital returns?"
+    },
+    {
+     "t0_ms": 3209160,
+     "text": "Or is it comfort still with, you know, the $5 billion a quarter buyback, which is fairly impressive?"
+    },
+    {
+     "t0_ms": 3213760,
+     "text": "I'm just wondering, at what point do you say we can take on more leverage and take advantage of the fact that we're less cyclical?"
+    },
+    {
+     "t0_ms": 3220940,
+     "text": "Yeah, I mean, we put a financial..."
+    },
+    {
+     "t0_ms": 3224280,
+     "text": "I mean, we just talked..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3225740,
+   "t1_ms": 3267280,
+   "speaker": "Management",
+   "text": "We just spent three and a half hours talking about this in our analyst day, and we committed to a financial model through the end of the... You know, through 2030, which I think was pretty impressive. And we plan to execute that, and we're very comfortable with the strategy we have of staying debt-free, very strong balance sheet, and then returning... You know, investing in our business. We have a growing business and lots of opportunities for internal innovation, which we're going to continue to invest in, like HPV. And 3D matrix memory, in addition to the BIX roadmap and all the great products we build. And after we do that, we're going to return 100% of the cash flow to shareholders.",
+   "parts": [
+    {
+     "t0_ms": 3225740,
+     "text": "We just spent three and a half hours talking about this in our analyst day, and we committed to a financial model through the end of the..."
+    },
+    {
+     "t0_ms": 3233300,
+     "text": "You know, through 2030, which I think was pretty impressive."
+    },
+    {
+     "t0_ms": 3236860,
+     "text": "And we plan to execute that, and we're very comfortable with the strategy we have of staying debt-free, very strong balance sheet, and then returning..."
+    },
+    {
+     "t0_ms": 3246020,
+     "text": "You know, investing in our business."
+    },
+    {
+     "t0_ms": 3247160,
+     "text": "We have a growing business and lots of opportunities for internal innovation, which we're going to continue to invest in, like HPV."
+    },
+    {
+     "t0_ms": 3254280,
+     "text": "And 3D matrix memory, in addition to the BIX roadmap and all the great products we build."
+    },
+    {
+     "t0_ms": 3261400,
+     "text": "And after we do that, we're going to return 100% of the cash flow to shareholders."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3268500,
+   "t1_ms": 3311840,
+   "speaker": "Management",
+   "text": "And that's the plan, and we're going to go execute that for the foreseeable future until we get up at another point and tell you we're going to change it. But I don't anticipate that. I don't anticipate that happening in any kind of near-term timeframe. Fair enough. And then maybe just on HPF, and rather than trying to ask you to frame how big a stamp could be, could you just talk about what the scaling variable really is over here as inference models and context windows expand? Should we think HPF capacity will grow in line to GPU compute or potentially faster? And I think you said you'll start initial sampling in 27. What are the key milestones from there to becoming a meaningful revenue ramp as well? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3268500,
+     "text": "And that's the plan, and we're going to go execute that for the foreseeable future until we get up at another point and tell you we're going to change it."
+    },
+    {
+     "t0_ms": 3277660,
+     "text": "But I don't anticipate that."
+    },
+    {
+     "t0_ms": 3280160,
+     "text": "I don't anticipate that happening in any kind of near-term timeframe."
+    },
+    {
+     "t0_ms": 3284280,
+     "text": "Fair enough."
+    },
+    {
+     "t0_ms": 3286820,
+     "text": "And then maybe just on HPF, and rather than trying to ask you to frame how big a stamp could be, could you just talk about what the scaling variable really is over here as inference models and context windows expand?"
+    },
+    {
+     "t0_ms": 3297740,
+     "text": "Should we think HPF capacity will grow in line to GPU compute or potentially faster?"
+    },
+    {
+     "t0_ms": 3303440,
+     "text": "And I think you said you'll start initial sampling in 27."
+    },
+    {
+     "t0_ms": 3307400,
+     "text": "What are the key milestones from there to becoming a meaningful revenue ramp as well?"
+    },
+    {
+     "t0_ms": 3311460,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3314290,
+   "t1_ms": 3358170,
+   "speaker": "Management",
+   "text": "Well, I mean... So it's a little early for your first question. But on the second question, we get the die back. We have the base die, which we'll tape out, which is a controller. We'll put them together, put it in customers' hands, and then they start to see how the product's going to work in their infrastructure. We've obviously done a lot of modeling on that, but actually having the actual product and then doing the integration work, that will then lead... That kind of feedback... That kind of feedback from the customer will then lead to be able to start to answer some of the questions that people have, like what's the market opportunity? How fast is it going to happen? What's the TAM? Where exactly is the architecture going to fit? You know, we're going to follow our customers on that.",
+   "parts": [
+    {
+     "t0_ms": 3314290,
+     "text": "Well, I mean..."
+    },
+    {
+     "t0_ms": 3315390,
+     "text": "So it's a little early for your first question."
+    },
+    {
+     "t0_ms": 3319210,
+     "text": "But on the second question, we get the die back."
+    },
+    {
+     "t0_ms": 3325170,
+     "text": "We have the base die, which we'll tape out, which is a controller."
+    },
+    {
+     "t0_ms": 3328730,
+     "text": "We'll put them together, put it in customers' hands, and then they start to see how the product's going to work in their infrastructure."
+    },
+    {
+     "t0_ms": 3335790,
+     "text": "We've obviously done a lot of modeling on that, but actually having the actual product and then doing the integration work, that will then lead..."
+    },
+    {
+     "t0_ms": 3344430,
+     "text": "That kind of feedback..."
+    },
+    {
+     "t0_ms": 3345390,
+     "text": "That kind of feedback from the customer will then lead to be able to start to answer some of the questions that people have, like what's the market opportunity?"
+    },
+    {
+     "t0_ms": 3351350,
+     "text": "How fast is it going to happen?"
+    },
+    {
+     "t0_ms": 3352710,
+     "text": "What's the TAM?"
+    },
+    {
+     "t0_ms": 3354110,
+     "text": "Where exactly is the architecture going to fit?"
+    },
+    {
+     "t0_ms": 3356490,
+     "text": "You know, we're going to follow our customers on that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3358170,
+   "t1_ms": 3402310,
+   "speaker": "Management",
+   "text": "But the big step is to actually put a product in their hands, and then that leads to a whole other set of conversations with them. We actually have the device that we're... Instead of running simulations, we're seeing exactly how it performs in their infrastructure. And does it deliver the results of what they're expecting? And, you know, we'll also... That also helps you continue to expand the set of use cases, right? At this point in the development process, you want to be a little bit careful you don't engage too much, because you'll overwhelm your engineering team with a thousand ideas of how the product can be used. So as we get... Actually, as we get an actual device that we can put in people's hands, we can open the aperture on those kind of conversations,",
+   "parts": [
+    {
+     "t0_ms": 3358170,
+     "text": "But the big step is to actually put a product in their hands, and then that leads to a whole other set of conversations with them."
+    },
+    {
+     "t0_ms": 3366310,
+     "text": "We actually have the device that we're..."
+    },
+    {
+     "t0_ms": 3369810,
+     "text": "Instead of running simulations, we're seeing exactly how it performs in their infrastructure."
+    },
+    {
+     "t0_ms": 3374390,
+     "text": "And does it deliver the results of what they're expecting?"
+    },
+    {
+     "t0_ms": 3378910,
+     "text": "And, you know, we'll also..."
+    },
+    {
+     "t0_ms": 3381030,
+     "text": "That also helps you continue to expand the set of use cases, right?"
+    },
+    {
+     "t0_ms": 3384210,
+     "text": "At this point in the development process, you want to be a little bit careful you don't engage too much,"
+    },
+    {
+     "t0_ms": 3389570,
+     "text": "because you'll overwhelm your engineering team with a thousand ideas of how the product can be used."
+    },
+    {
+     "t0_ms": 3394930,
+     "text": "So as we get..."
+    },
+    {
+     "t0_ms": 3396610,
+     "text": "Actually, as we get an actual device that we can put in people's hands, we can open the aperture on those kind of conversations,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3402310,
+   "t1_ms": 3441340,
+   "speaker": "Management",
+   "text": "which will... I think will lead... Lead to more use cases for the product. But that's still TBD. So I think a lot of things start to happen when you get to that next milestone of actually having a real product that people can start to... They can start to use and understand how it impacts what they're trying to do, which is deliver a world-class inference architecture at the best cost point possible. And we think this is a fantastic technology for doing that. But, you know, we'll see when... We'll see when we get there and we produce it. Perfect. Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 3402310,
+     "text": "which will..."
+    },
+    {
+     "t0_ms": 3403310,
+     "text": "I think will lead..."
+    },
+    {
+     "t0_ms": 3404390,
+     "text": "Lead to more use cases for the product."
+    },
+    {
+     "t0_ms": 3407850,
+     "text": "But that's still TBD."
+    },
+    {
+     "t0_ms": 3410050,
+     "text": "So I think a lot of things start to happen when you get to that next milestone of actually having a real product that people can start to..."
+    },
+    {
+     "t0_ms": 3417710,
+     "text": "They can start to use and understand how it impacts what they're trying to do,"
+    },
+    {
+     "t0_ms": 3422410,
+     "text": "which is deliver a world-class inference architecture at the best cost point possible."
+    },
+    {
+     "t0_ms": 3428930,
+     "text": "And we think this is a fantastic technology for doing that."
+    },
+    {
+     "t0_ms": 3432610,
+     "text": "But, you know, we'll see when..."
+    },
+    {
+     "t0_ms": 3434270,
+     "text": "We'll see when we get there and we produce it."
+    },
+    {
+     "t0_ms": 3436410,
+     "text": "Perfect."
+    },
+    {
+     "t0_ms": 3440680,
+     "text": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3442480,
+   "t1_ms": 3450880,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question comes from Mehdi Hosini from SIG. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 3442480,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3444020,
+     "text": "Our next question comes from Mehdi Hosini from SIG."
+    },
+    {
+     "t0_ms": 3449680,
+     "text": "Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3451980,
+   "t1_ms": 3489200,
+   "speaker": "Analyst",
+   "text": "Yes. Thanks for taking my question. David, I want to go back to... Sorry for the audio. David, I want to go back to what you said earlier. You said that AI inferencing is being refined, having an impact. And more SLC needed. And my question to you is, is this having an adverse impact on adoption of TLC or the growth of TLC? Or SLC is additive to the demand by TLC and TLC?",
+   "parts": [
+    {
+     "t0_ms": 3451980,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 3452380,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 3453700,
+     "text": "David, I want to go back to..."
+    },
+    {
+     "t0_ms": 3456200,
+     "text": "Sorry for the audio."
+    },
+    {
+     "t0_ms": 3459080,
+     "text": "David, I want to go back to what you said earlier."
+    },
+    {
+     "t0_ms": 3463040,
+     "text": "You said that AI inferencing is being refined, having an impact."
+    },
+    {
+     "t0_ms": 3468140,
+     "text": "And more SLC needed."
+    },
+    {
+     "t0_ms": 3471980,
+     "text": "And my question to you is, is this having an adverse impact on adoption of TLC or the growth of TLC?"
+    },
+    {
+     "t0_ms": 3482520,
+     "text": "Or SLC is additive to the demand by TLC and TLC?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3490440,
+   "t1_ms": 3532100,
+   "speaker": "Management",
+   "text": "No, I don't think it's a cannibalization of other NAN products. I think it's an expansion of the TAM into areas... That you need different attributes of the technology. You need different endurance. You need different performance. And, you know, we can take our product and we can run anything out of the fab in an SLC mode. So there's a lot of flexibility in the product. And I think people are discovering that and starting to understand, how can I apply this in ways where I get... You know, I get the attributes I want for the problem I'm trying to solve. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. It's just a more refined view of the architecture.",
+   "parts": [
+    {
+     "t0_ms": 3490440,
+     "text": "No, I don't think it's a cannibalization of other NAN products."
+    },
+    {
+     "t0_ms": 3495180,
+     "text": "I think it's an expansion of the TAM into areas..."
+    },
+    {
+     "t0_ms": 3498140,
+     "text": "That you need different attributes of the technology."
+    },
+    {
+     "t0_ms": 3503420,
+     "text": "You need different endurance."
+    },
+    {
+     "t0_ms": 3505040,
+     "text": "You need different performance."
+    },
+    {
+     "t0_ms": 3507420,
+     "text": "And, you know, we can take our product and we can run anything out of the fab in an SLC mode."
+    },
+    {
+     "t0_ms": 3512520,
+     "text": "So there's a lot of flexibility in the product."
+    },
+    {
+     "t0_ms": 3515460,
+     "text": "And I think people are discovering that and starting to understand, how can I apply this in ways where I get..."
+    },
+    {
+     "t0_ms": 3523220,
+     "text": "You know, I get the attributes I want for the problem I'm trying to solve."
+    },
+    {
+     "t0_ms": 3527480,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527720,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527780,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527840,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527860,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527880,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527900,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527920,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527940,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527960,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3527980,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528000,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528020,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528140,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528200,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528240,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528260,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528280,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528300,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528320,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528340,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528360,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528400,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528420,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 3528440,
+     "text": "It's just a more refined view of the architecture."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3532280,
+   "t1_ms": 3575800,
+   "speaker": "Management",
+   "text": "But I don't see it as cannibalizing other parts of the NAN stack. If anything, I see it as, you know... And I want to be careful on this because it's still early. But it's... You know, is it good enough to replace places where I'm using DRAM, right? Can I get enough endurance? Can I get enough performance if I run NAN in an SLC mode? Because the cost differential is, like, you know, huge. 20 to 40x. 20 to 40x. So I take it as a very healthy sign on many ways, Mehdi. One is, like, very, very real about how you scale an architecture. When you scale an architecture, you've got to do it the most cost-effective way possible. And again, NAND is the most scalable semiconductor technology.",
+   "parts": [
+    {
+     "t0_ms": 3532280,
+     "text": "But I don't see it as cannibalizing other parts of the NAN stack."
+    },
+    {
+     "t0_ms": 3536740,
+     "text": "If anything, I see it as, you know..."
+    },
+    {
+     "t0_ms": 3539820,
+     "text": "And I want to be careful on this because it's still early."
+    },
+    {
+     "t0_ms": 3542180,
+     "text": "But it's..."
+    },
+    {
+     "t0_ms": 3543080,
+     "text": "You know, is it good enough to replace places where I'm using DRAM, right?"
+    },
+    {
+     "t0_ms": 3547560,
+     "text": "Can I get enough endurance?"
+    },
+    {
+     "t0_ms": 3548860,
+     "text": "Can I get enough performance if I run NAN in an SLC mode?"
+    },
+    {
+     "t0_ms": 3553740,
+     "text": "Because the cost differential is, like, you know, huge."
+    },
+    {
+     "t0_ms": 3557320,
+     "text": "20 to 40x."
+    },
+    {
+     "t0_ms": 3557880,
+     "text": "20 to 40x."
+    },
+    {
+     "t0_ms": 3558880,
+     "text": "So I take it as a very healthy sign on many ways, Mehdi."
+    },
+    {
+     "t0_ms": 3562500,
+     "text": "One is, like, very, very real about how you scale an architecture."
+    },
+    {
+     "t0_ms": 3567540,
+     "text": "When you scale an architecture, you've got to do it the most cost-effective way possible."
+    },
+    {
+     "t0_ms": 3571740,
+     "text": "And again, NAND is the most scalable semiconductor technology."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3576060,
+   "t1_ms": 3592520,
+   "speaker": "Management",
+   "text": "And so it doesn't surprise me that people are finding more ways to use it. In many ways, I think scalable technologies kind of attract TAM. And I think that that's what's happening here. As these architectures are getting more detailed and more refined.",
+   "parts": [
+    {
+     "t0_ms": 3576060,
+     "text": "And so it doesn't surprise me that people are finding more ways to use it."
+    },
+    {
+     "t0_ms": 3581180,
+     "text": "In many ways, I think scalable technologies kind of attract TAM."
+    },
+    {
+     "t0_ms": 3585040,
+     "text": "And I think that that's what's happening here."
+    },
+    {
+     "t0_ms": 3587880,
+     "text": "As these architectures are getting more detailed and more refined."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3593640,
+   "t1_ms": 3617440,
+   "speaker": "Analyst",
+   "text": "Okay. Let me come at it from a different angle. And if there is this demand for more enduring SLC, and as customers wait for commercialization of HVS, what is the JV's flexibility in adding some SLC capacity to meet that shortened demand?",
+   "parts": [
+    {
+     "t0_ms": 3593640,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 3594120,
+     "text": "Let me come at it from a different angle."
+    },
+    {
+     "t0_ms": 3596860,
+     "text": "And if there is this demand for more enduring SLC,"
+    },
+    {
+     "t0_ms": 3601880,
+     "text": "and as customers wait for commercialization of HVS,"
+    },
+    {
+     "t0_ms": 3606300,
+     "text": "what is the JV's flexibility in adding some SLC capacity"
+    },
+    {
+     "t0_ms": 3615580,
+     "text": "to meet that shortened demand?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3619130,
+   "t1_ms": 3662730,
+   "speaker": "Management",
+   "text": "Well, we don't, I mean, we don't, there is no, I mean, I wouldn't think of it as SLC capacity. You can take any, you can take any, our cells are flexible enough that we can run them in whatever mode we want. SLC, MLC, TLC. So we can supply the market with the waivers we have. Right? That's how we think about it. And, you know, I understand the question of wanting to go to the supply question right away. But it's just, like, super early for that. Right? Yeah. Yeah. So these are just conversations at this point. And customers exploring how they can use the technology, you know, starting to get some idea of what their demand would be if it uses this way. It's something to keep your eye on.",
+   "parts": [
+    {
+     "t0_ms": 3619130,
+     "text": "Well, we don't, I mean, we don't, there is no, I mean,"
+    },
+    {
+     "t0_ms": 3622590,
+     "text": "I wouldn't think of it as SLC capacity."
+    },
+    {
+     "t0_ms": 3624510,
+     "text": "You can take any, you can take any, our cells are flexible enough"
+    },
+    {
+     "t0_ms": 3628430,
+     "text": "that we can run them in whatever mode we want."
+    },
+    {
+     "t0_ms": 3630470,
+     "text": "SLC, MLC, TLC."
+    },
+    {
+     "t0_ms": 3633810,
+     "text": "So we can supply the market with the waivers we have."
+    },
+    {
+     "t0_ms": 3637510,
+     "text": "Right? That's how we think about it."
+    },
+    {
+     "t0_ms": 3640790,
+     "text": "And, you know, I understand the question of wanting to go"
+    },
+    {
+     "t0_ms": 3645010,
+     "text": "to the supply question right away."
+    },
+    {
+     "t0_ms": 3647010,
+     "text": "But it's just, like, super early for that."
+    },
+    {
+     "t0_ms": 3648890,
+     "text": "Right?"
+    },
+    {
+     "t0_ms": 3648970,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3649070,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3649130,
+     "text": "So these are just conversations at this point."
+    },
+    {
+     "t0_ms": 3652230,
+     "text": "And customers exploring how they can use the technology, you know,"
+    },
+    {
+     "t0_ms": 3656930,
+     "text": "starting to get some idea of what their demand would be"
+    },
+    {
+     "t0_ms": 3659250,
+     "text": "if it uses this way."
+    },
+    {
+     "t0_ms": 3661030,
+     "text": "It's something to keep your eye on."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3663590,
+   "t1_ms": 3677370,
+   "speaker": "Management",
+   "text": "It will impact the market. There's no doubt about that. Because SLC is, you know, a little bit of SLC is a lot of QLC. But I guess more to come, Eddie. Okay.",
+   "parts": [
+    {
+     "t0_ms": 3663590,
+     "text": "It will impact the market."
+    },
+    {
+     "t0_ms": 3665310,
+     "text": "There's no doubt about that."
+    },
+    {
+     "t0_ms": 3666310,
+     "text": "Because SLC is, you know, a little bit of SLC is a lot of QLC."
+    },
+    {
+     "t0_ms": 3673670,
+     "text": "But I guess more to come, Eddie."
+    },
+    {
+     "t0_ms": 3677170,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3677670,
+   "t1_ms": 3678990,
+   "speaker": "Analyst",
+   "text": "Got it. Thank you. Thanks, Will.",
+   "parts": [
+    {
+     "t0_ms": 3677670,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 3678030,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3678670,
+     "text": "Thanks, Will."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3678990,
+   "t1_ms": 3679490,
+   "speaker": "Management",
+   "text": "Thanks, Will.",
+   "parts": [
+    {
+     "t0_ms": 3678990,
+     "text": "Thanks, Will."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3679490,
+   "t1_ms": 3699180,
+   "speaker": "Operator",
+   "text": "And at this point, ladies and gentlemen, we'll be ending today's question and answer session. I'd like to turn the floor back over to management for any closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 3679490,
+     "text": "And at this point, ladies and gentlemen, we'll be ending today's question and answer session."
+    },
+    {
+     "t0_ms": 3694900,
+     "text": "I'd like to turn the floor back over to management for any closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3699920,
+   "t1_ms": 3707640,
+   "speaker": "Management",
+   "text": "All right, everyone. Thanks for joining us on the call. We appreciate it. Great conversation. And we look forward to seeing you throughout the quarter. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3699920,
+     "text": "All right, everyone."
+    },
+    {
+     "t0_ms": 3700580,
+     "text": "Thanks for joining us on the call."
+    },
+    {
+     "t0_ms": 3702140,
+     "text": "We appreciate it."
+    },
+    {
+     "t0_ms": 3703240,
+     "text": "Great conversation."
+    },
+    {
+     "t0_ms": 3705180,
+     "text": "And we look forward to seeing you throughout the quarter."
+    },
+    {
+     "t0_ms": 3707240,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3707640,
+   "t1_ms": 3716340,
+   "speaker": "Operator",
+   "text": "Thank you. And with that, we'll conclude today's conference call and presentation. We do thank you for joining. You may now disconnect your lines.",
+   "parts": [
+    {
+     "t0_ms": 3707640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3710000,
+     "text": "And with that, we'll conclude today's conference call and presentation."
+    },
+    {
+     "t0_ms": 3713060,
+     "text": "We do thank you for joining."
+    },
+    {
+     "t0_ms": 3714600,
+     "text": "You may now disconnect your lines."
+    }
+   ]
+  }
+ ]
+}

@@ -185,6 +185,7 @@ class Stats(BaseModel):
     gpu_s: float | None = None
     gpu_usd: float | None = None
     claude_s: float | None = None        # claim extraction and novelty judging
+    claude_backend: str | None = None    # "api" (key) or "cli" (owner's subscription), the USD is list price either way
     claude_tokens: dict[str, int] | None = None
     claude_usd: float | None = None
 

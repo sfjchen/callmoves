@@ -41,7 +41,7 @@ def main(argv=None):
     ap.add_argument("--company")
     ap.add_argument("--audio-url", help="public URL the web player should use, set by --upload")
     ap.add_argument("--upload", action="store_true",
-                    help="with --audio: transcode to <out>/<TICKER>_<quarter>.mp3, upload it to Supabase Storage, "
+                    help="with --audio: transcode to <out>/<TICKER>_<quarter>.mp3, upload it to the HF audio dataset, "
                          "use its URL")
     ap.add_argument("--model", default="medium", help="faster-whisper model size")
     ap.add_argument("--audio-offset", type=float,

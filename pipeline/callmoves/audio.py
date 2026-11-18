@@ -1,16 +1,16 @@
-"""Call audio for the web player: transcodes to small mono MP3 and uploads it to Supabase Storage.
+"""Call audio for the web player: transcodes to small mono MP3 and uploads it to the public Hugging Face dataset
+`jchen04/callmoves-audio`, which serves files with CORS and range requests and has no storage cap.
 
-The bucket `callmoves-audio` is public, so the returned URL plays on the deployed site without a key.
-Uploading needs SUPABASE_URL and SUPABASE_SERVICE_KEY in pipeline/.env.
+The first 45 calls stay in the public Supabase bucket `callmoves-audio`, which is nearly at the free plan's 1 GB.
+Uploading needs HF_TOKEN (write access to the dataset) in pipeline/.env.
 """
 from __future__ import annotations
 
+import os
 import subprocess
 from pathlib import Path
 
-from .publish import db_client
-
-BUCKET = "callmoves-audio"
+HF_REPO = "jchen04/callmoves-audio"
 
 
 def transcode(src: Path, dst: Path) -> Path:
@@ -26,10 +26,12 @@ def transcode(src: Path, dst: Path) -> Path:
 
 def upload(path: Path, object_name: str) -> str:
     """
-    Uploads `path` to the audio bucket as `object_name`, overwriting an earlier upload.
+    Uploads `path` to the audio dataset as `object_name`, replacing an earlier upload in a new commit.
     Returns the public URL.
     """
-    store = db_client().storage.from_(BUCKET)
-    store.upload(object_name, path.read_bytes(),
-                 file_options={"content-type": "audio/mpeg", "upsert": "true", "cache-control": "31536000"})
-    return store.get_public_url(object_name).rstrip("?")
+    from huggingface_hub import HfApi
+
+    HfApi(token=os.environ["HF_TOKEN"]).upload_file(
+        path_or_fileobj=str(path), path_in_repo=object_name, repo_id=HF_REPO, repo_type="dataset",
+        commit_message=f"Upload {object_name}")
+    return f"https://huggingface.co/datasets/{HF_REPO}/resolve/main/{object_name}"

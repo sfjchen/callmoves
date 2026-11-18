@@ -1,0 +1,3079 @@
+{
+ "ticker": "ADI",
+ "quarter": "Q3-2026",
+ "company": "Analog Devices",
+ "call_start": "2026-08-19T10:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/ADI_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 16000,
+   "speaker": "Operator",
+   "text": "Good morning, and welcome to the Analog Devices third quarter fiscal year 2026 earnings conference call, which is being audio webcast via telephone and over the web. I'd now like to introduce your host for today's call, Mr. Jeff Ambrose, head of investor relations. Sir, the floor is yours.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good morning, and welcome to the Analog Devices third quarter fiscal year 2026 earnings conference"
+    },
+    {
+     "t0_ms": 5560,
+     "text": "call, which is being audio webcast via telephone and over the web. I'd now like to introduce your"
+    },
+    {
+     "t0_ms": 10840,
+     "text": "host for today's call, Mr. Jeff Ambrose, head of investor relations. Sir, the floor is yours."
+    }
+   ]
+  },
+  {
+   "t0_ms": 17460,
+   "t1_ms": 58560,
+   "speaker": "Management",
+   "text": "Thank you, Danny, and good morning, everybody. Thank you for joining our third quarter fiscal 2026 conference call. Joining me today is ADI CEO and Chair Vincent Roche and ADI CFO Richard Puccio. For anyone who missed the release, you can find it at investor.analog.com, along with related financial schedules. The information we're about to discuss includes forward-looking statements, which are subject to certain risks and uncertainties as further described in our earnings release, periodic reports, and other materials filed with the SEC. Actual results could differ materially from the forward-looking information as these statements reflect our expectations only as of the date of this call. We undertake no obligation to update these statements except as required by law.",
+   "parts": [
+    {
+     "t0_ms": 17460,
+     "text": "Thank you, Danny, and good morning, everybody. Thank you for joining our third quarter fiscal"
+    },
+    {
+     "t0_ms": 22140,
+     "text": "2026 conference call. Joining me today is ADI CEO and Chair Vincent Roche and ADI CFO Richard"
+    },
+    {
+     "t0_ms": 28580,
+     "text": "Puccio. For anyone who missed the release, you can find it at investor.analog.com,"
+    },
+    {
+     "t0_ms": 33640,
+     "text": "along with related financial schedules. The information we're about to discuss includes"
+    },
+    {
+     "t0_ms": 38180,
+     "text": "forward-looking statements, which are subject to certain risks and uncertainties as further"
+    },
+    {
+     "t0_ms": 42460,
+     "text": "described in our earnings release, periodic reports, and other materials filed with the SEC."
+    },
+    {
+     "t0_ms": 48100,
+     "text": "Actual results could differ materially from the forward-looking information as these statements"
+    },
+    {
+     "t0_ms": 51680,
+     "text": "reflect our expectations only as of the date of this call. We undertake no obligation to update"
+    },
+    {
+     "t0_ms": 56680,
+     "text": "these statements except as required by law."
+    }
+   ]
+  },
+  {
+   "t0_ms": 58580,
+   "t1_ms": 98360,
+   "speaker": "Management",
+   "text": "References to gross margin, operating and non-operating expenses, operating margin, tax rate, earnings per share, and free cash flow in our comments today will be on a non-GAAP basis, which excludes special items. When comparing our results to our historical performance, special items are also excluded from prior periods. Reconciliations of these non-GAAP measures to their most directly comparable GAAP measures and additional information about our non-GAAP measures are included in today's earnings release. References to earnings per share are on a fully diluted basis. And with that, I will turn the call over to ADI's CEO and Chair, Vincent Roche. Vincent Roche, CEO, ADI, Inc. Thank you, Jeff, and a very good morning to you all. Well,",
+   "parts": [
+    {
+     "t0_ms": 58580,
+     "text": "References to gross margin, operating and non-operating expenses, operating margin,"
+    },
+    {
+     "t0_ms": 64580,
+     "text": "tax rate, earnings per share, and free cash flow in our comments today will be on a non-GAAP basis,"
+    },
+    {
+     "t0_ms": 69680,
+     "text": "which excludes special items. When comparing our results to our historical performance,"
+    },
+    {
+     "t0_ms": 74660,
+     "text": "special items are also excluded from prior periods. Reconciliations of these non-GAAP"
+    },
+    {
+     "t0_ms": 78860,
+     "text": "measures to their most directly comparable GAAP measures and additional information about our"
+    },
+    {
+     "t0_ms": 83120,
+     "text": "non-GAAP measures are included in today's earnings release. References to earnings per share are"
+    },
+    {
+     "t0_ms": 88520,
+     "text": "on a fully diluted basis. And with that, I will turn the call over to ADI's CEO and Chair, Vincent Roche."
+    },
+    {
+     "t0_ms": 94640,
+     "text": "Vincent Roche, CEO, ADI, Inc. Thank you, Jeff, and a very good morning to you all. Well,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 98380,
+   "t1_ms": 137980,
+   "speaker": "Management",
+   "text": "as you've seen, third quarter revenue, margin, and earnings all exceeded our outlook with growth across all of our end markets, led by data center and industrial, propelling us to the first $4 billion quarter in ADI's history. Demand for our solutions continues to grow, supported by robust AI and defense spending, cyclical momentum, and underlying secular content growth across our diversified end markets. Through targeted R&D, we continue to extend the limits of technology performance, and accelerate the pace with which we are delivering more",
+   "parts": [
+    {
+     "t0_ms": 98380,
+     "text": "as you've seen, third quarter revenue, margin, and earnings all exceeded our outlook with growth"
+    },
+    {
+     "t0_ms": 104260,
+     "text": "across all of our end markets, led by data center and industrial, propelling us to the first $4"
+    },
+    {
+     "t0_ms": 110660,
+     "text": "billion quarter in ADI's history. Demand for our solutions continues to grow, supported"
+    },
+    {
+     "t0_ms": 118520,
+     "text": "by robust AI and defense spending, cyclical momentum, and underlying secular content growth"
+    },
+    {
+     "t0_ms": 125540,
+     "text": "across our diversified end markets. Through targeted R&D, we continue to extend the limits"
+    },
+    {
+     "t0_ms": 132700,
+     "text": "of technology performance, and accelerate the pace with which we are delivering more"
+    }
+   ]
+  },
+  {
+   "t0_ms": 137980,
+   "t1_ms": 177250,
+   "speaker": "Management",
+   "text": "comprehensive solutions to our customers' toughest problems. In tandem, investments in our hybrid manufacturing network have enabled us to increase the cost of our services in possible times. While delivering EstherThat's smart solutions to processes needs together, uN ethical considerations But let's talk about saving operating costs, the\u307e\u3059, and inherent effects of their Content Affordability Bulletin because Eleanor increase the agility and responsiveness of our supply chain and consistently capture above-seasonal growth for more than two years. Now, for the rest of my remarks today, I'll focus on how we're helping customers meet unprecedented and still accelerating demand for AI infrastructure and energy systems. The fact that data center capacity is now measured in gigawatts rather than flops and",
+   "parts": [
+    {
+     "t0_ms": 137980,
+     "text": "comprehensive solutions to our customers' toughest problems. In tandem, investments in our"
+    },
+    {
+     "t0_ms": 145260,
+     "text": "hybrid manufacturing network have enabled us to increase the cost of our services in possible times."
+    },
+    {
+     "t0_ms": 146380,
+     "text": "While delivering EstherThat's smart solutions to processes needs together, uN ethical considerations"
+    },
+    {
+     "t0_ms": 147360,
+     "text": "But let's talk about saving operating costs, the\u307e\u3059, and inherent effects of their Content Affordability Bulletin because Eleanor"
+    },
+    {
+     "t0_ms": 148300,
+     "text": "increase the agility and responsiveness of our supply chain and consistently capture above-seasonal"
+    },
+    {
+     "t0_ms": 154960,
+     "text": "growth for more than two years. Now, for the rest of my remarks today, I'll focus on how we're"
+    },
+    {
+     "t0_ms": 162160,
+     "text": "helping customers meet unprecedented and still accelerating demand for AI infrastructure and"
+    },
+    {
+     "t0_ms": 169280,
+     "text": "energy systems. The fact that data center capacity is now measured in gigawatts rather than flops and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 177250,
+   "t1_ms": 215250,
+   "speaker": "Management",
+   "text": "tops underscores one of the most defining challenges of the AI era. Our availability has become the primary constraint to further AI progress. Solving this challenge requires more than simply adding more energy, however. It demands a grid-to-chip system-level approach that encompasses both improving the availability and delivery of energy and extracting the maximum computing power. Now, let me walk you through some of the key elements of our grid-to-chip strategy,",
+   "parts": [
+    {
+     "t0_ms": 177250,
+     "text": "tops underscores one of the most defining challenges of the AI era. Our availability"
+    },
+    {
+     "t0_ms": 184310,
+     "text": "has become the primary constraint to further AI progress. Solving this challenge requires more"
+    },
+    {
+     "t0_ms": 192990,
+     "text": "than simply adding more energy, however. It demands a grid-to-chip system-level approach"
+    },
+    {
+     "t0_ms": 199310,
+     "text": "that encompasses both improving the availability and delivery of energy and extracting the maximum"
+    },
+    {
+     "t0_ms": 206790,
+     "text": "computing power."
+    },
+    {
+     "t0_ms": 207250,
+     "text": "Now, let me walk you through some of the key elements of our grid-to-chip strategy,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 215750,
+   "t1_ms": 255980,
+   "speaker": "Management",
+   "text": "starting at the grid, where the AI bottleneck begins. As electricity networks become more complex, visibility, efficiency, and resilience are becoming critical challenges. Customers are turning to ADI's grid monitoring solutions to illuminate the flow of energy across the network, providing real-time, real-time, real-time energy. Thank you. In our grid, the AI can provide real-time insight into voltage, current, power quality, and system health. And our higher value solutions are helping utilities, energy operators, and infrastructure providers to improve efficiency, reliability, and utilization. An increasingly essential part",
+   "parts": [
+    {
+     "t0_ms": 215750,
+     "text": "starting at the grid, where the AI bottleneck begins. As electricity networks become more"
+    },
+    {
+     "t0_ms": 223270,
+     "text": "complex, visibility, efficiency, and resilience are becoming critical challenges. Customers are"
+    },
+    {
+     "t0_ms": 230310,
+     "text": "turning to ADI's grid monitoring solutions to illuminate the flow of energy across the network,"
+    },
+    {
+     "t0_ms": 236130,
+     "text": "providing real-time, real-time, real-time energy."
+    },
+    {
+     "t0_ms": 237230,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 237250,
+     "text": "In our grid, the AI can provide real-time insight into voltage, current, power quality, and system"
+    },
+    {
+     "t0_ms": 240850,
+     "text": "health. And our higher value solutions are helping utilities, energy operators, and infrastructure"
+    },
+    {
+     "t0_ms": 248230,
+     "text": "providers to improve efficiency, reliability, and utilization. An increasingly essential part"
+    }
+   ]
+  },
+  {
+   "t0_ms": 255980,
+   "t1_ms": 296520,
+   "speaker": "Management",
+   "text": "of the grid, and one of the fastest growing sectors, is energy storage. Here, customers choose ADI's industry-leading battery management technology to help maximize usable energy, improve system efficiency, extend battery life, enhance safety, and, of course, improve ROI. Expanding and modernizing the traditional grid alone, however, is not enough to keep pace with the speed of AI infrastructure deployment. To accelerate time to power, hyperscalers are increasingly exploring dedicated microgrids, which are opening up additional avenues of growth for ADI.",
+   "parts": [
+    {
+     "t0_ms": 255980,
+     "text": "of the grid, and one of the fastest growing sectors, is energy storage. Here, customers"
+    },
+    {
+     "t0_ms": 262320,
+     "text": "choose ADI's industry-leading battery management technology to help maximize usable energy,"
+    },
+    {
+     "t0_ms": 268700,
+     "text": "improve system efficiency, extend battery life, enhance safety, and, of course, improve ROI."
+    },
+    {
+     "t0_ms": 277520,
+     "text": "Expanding and modernizing the traditional grid alone, however,"
+    },
+    {
+     "t0_ms": 281360,
+     "text": "is not enough to keep pace with the speed of AI infrastructure deployment."
+    },
+    {
+     "t0_ms": 286820,
+     "text": "To accelerate time to power, hyperscalers are increasingly exploring dedicated microgrids,"
+    },
+    {
+     "t0_ms": 293160,
+     "text": "which are opening up additional avenues of growth for ADI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 296520,
+   "t1_ms": 336760,
+   "speaker": "Management",
+   "text": "We believe this trend of localizing power will augment our $500 million-plus energy business, which began inflecting in 2025 and has been delivering accelerating growth this year also. Importantly, our strong and growing positions across both energy and data center make us a more critical AI ecosystem player, spanning the entire electricity value chain from generation, transmission, and storage to distribution through rack power and ultimately processor power delivery, essentially the vascular system of the data center.",
+   "parts": [
+    {
+     "t0_ms": 296520,
+     "text": "We believe this trend of localizing power will augment our $500 million-plus energy business,"
+    },
+    {
+     "t0_ms": 303920,
+     "text": "which began inflecting in 2025 and has been delivering accelerating growth this year also."
+    },
+    {
+     "t0_ms": 311940,
+     "text": "Importantly, our strong and growing positions across both energy and data center"
+    },
+    {
+     "t0_ms": 317060,
+     "text": "make us a more critical AI ecosystem player,"
+    },
+    {
+     "t0_ms": 321160,
+     "text": "spanning the entire electricity value chain from generation,"
+    },
+    {
+     "t0_ms": 326040,
+     "text": "transmission,"
+    },
+    {
+     "t0_ms": 326520,
+     "text": "and storage to distribution through rack power and ultimately processor power delivery,"
+    },
+    {
+     "t0_ms": 333660,
+     "text": "essentially the vascular system of the data center."
+    }
+   ]
+  },
+  {
+   "t0_ms": 339940,
+   "t1_ms": 378050,
+   "speaker": "Management",
+   "text": "Now, once the grid makes contact with the data center, AI's extreme energy and information density requirements make ADI's deep expertise and innovation in high-performance power management, sensing and telemetry, as well as optical connectivity even more critical. So let me start with our optical franchise as I begin to unpack for you how we're growing our data center business and opportunity by helping our customers resolve the tremendous challenges of energy and information density. When we think about the journey of data through the infrastructure,",
+   "parts": [
+    {
+     "t0_ms": 339940,
+     "text": "Now, once the grid makes contact with the data center,"
+    },
+    {
+     "t0_ms": 343380,
+     "text": "AI's extreme energy and information density requirements make ADI's deep expertise and innovation"
+    },
+    {
+     "t0_ms": 350200,
+     "text": "in high-performance power management, sensing and telemetry, as well as optical connectivity even more critical."
+    },
+    {
+     "t0_ms": 358920,
+     "text": "So let me start with our optical franchise as I begin to unpack for you how we're growing our data center business and opportunity"
+    },
+    {
+     "t0_ms": 366540,
+     "text": "by helping our customers resolve the tremendous challenges of energy and information density."
+    },
+    {
+     "t0_ms": 372980,
+     "text": "When we think about the journey of data through the infrastructure,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 379270,
+   "t1_ms": 419690,
+   "speaker": "Management",
+   "text": "there are two critical pathways, the data path of electro-optics and the control path, which guides, optimizes, and ensures the integrity of the data path. Our focus is on the control path, where we've been setting and extending the industry's performance envelope for decades. Today, the complexity of efficiently moving data at ever higher speeds within and between racks and across data center campuses is growing exponentially. Customers are increasingly relying on ADI to provide essential timing, power management, data conversion, monitoring, and control capabilities, and the ability to monitor and control data.",
+   "parts": [
+    {
+     "t0_ms": 379270,
+     "text": "there are two critical pathways, the data path of electro-optics and the control path,"
+    },
+    {
+     "t0_ms": 385190,
+     "text": "which guides, optimizes, and ensures the integrity of the data path."
+    },
+    {
+     "t0_ms": 390170,
+     "text": "Our focus is on the control path,"
+    },
+    {
+     "t0_ms": 392670,
+     "text": "where we've been setting and extending the industry's performance envelope for decades."
+    },
+    {
+     "t0_ms": 398290,
+     "text": "Today, the complexity of efficiently moving data at ever higher speeds within and between racks"
+    },
+    {
+     "t0_ms": 406770,
+     "text": "and across data center campuses is growing exponentially."
+    },
+    {
+     "t0_ms": 410970,
+     "text": "Customers are increasingly relying on ADI to provide essential timing, power management, data conversion, monitoring, and control capabilities, and the ability to monitor and control data."
+    }
+   ]
+  },
+  {
+   "t0_ms": 420190,
+   "t1_ms": 463100,
+   "speaker": "Management",
+   "text": "that enable lasers and transceivers to operate with precision reliably, efficiently, and at the necessary scale for AI workloads. And as customers seek to further increase the amount of optical lanes, signal bandwidth, or both, to accelerate network speeds from 800 gig to 3.2 terabits per second, we believe that we're very well positioned to benefit threefold, from unit growth and pluggables, and coherent light modules, increasing BOM content, and greater share as these transitions unfold. As new architectures, such as optical circuit switching",
+   "parts": [
+    {
+     "t0_ms": 420190,
+     "text": "that enable lasers and transceivers to operate with precision reliably, efficiently, and at the necessary scale for AI workloads."
+    },
+    {
+     "t0_ms": 430190,
+     "text": "And as customers seek to further increase the amount of optical lanes, signal bandwidth, or both,"
+    },
+    {
+     "t0_ms": 437660,
+     "text": "to accelerate network speeds from 800 gig to 3.2 terabits per second,"
+    },
+    {
+     "t0_ms": 443540,
+     "text": "we believe that we're very well positioned to benefit threefold,"
+    },
+    {
+     "t0_ms": 448700,
+     "text": "from unit growth and pluggables,"
+    },
+    {
+     "t0_ms": 450740,
+     "text": "and coherent light modules, increasing BOM content,"
+    },
+    {
+     "t0_ms": 454560,
+     "text": "and greater share as these transitions unfold."
+    },
+    {
+     "t0_ms": 459780,
+     "text": "As new architectures, such as optical circuit switching"
+    }
+   ]
+  },
+  {
+   "t0_ms": 463100,
+   "t1_ms": 505580,
+   "speaker": "Management",
+   "text": "and co-packaged optics gain traction in next generation large scale AI clusters, complexity expands even further and our long-term opportunity continues to grow. Based on current design wins and customer commitments, our OCS revenue is poised to approximately double this year and we're targeting a similar level of growth in 27. In the nascent CPO space, which we view as a SEM expander, the criticality of ADIS precision control technology further increases as thermal and serviceability challenges rise. So in short, the combination of market growth,",
+   "parts": [
+    {
+     "t0_ms": 463100,
+     "text": "and co-packaged optics gain traction"
+    },
+    {
+     "t0_ms": 465660,
+     "text": "in next generation large scale AI clusters,"
+    },
+    {
+     "t0_ms": 469380,
+     "text": "complexity expands even further"
+    },
+    {
+     "t0_ms": 471660,
+     "text": "and our long-term opportunity continues to grow."
+    },
+    {
+     "t0_ms": 475420,
+     "text": "Based on current design wins and customer commitments,"
+    },
+    {
+     "t0_ms": 478540,
+     "text": "our OCS revenue is poised to approximately double this year"
+    },
+    {
+     "t0_ms": 483360,
+     "text": "and we're targeting a similar level of growth in 27."
+    },
+    {
+     "t0_ms": 488560,
+     "text": "In the nascent CPO space, which we view as a SEM expander,"
+    },
+    {
+     "t0_ms": 493180,
+     "text": "the criticality of ADIS precision control technology"
+    },
+    {
+     "t0_ms": 496800,
+     "text": "further increases as thermal"
+    },
+    {
+     "t0_ms": 499160,
+     "text": "and serviceability challenges rise."
+    },
+    {
+     "t0_ms": 502780,
+     "text": "So in short, the combination of market growth,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 505580,
+   "t1_ms": 547640,
+   "speaker": "Management",
+   "text": "expanding content, increasing share, and differentiated value creation across data center optics reinforces our confidence that this segment will remain a strong growth vector for ADI over the coming years. Now let me turn to our power franchise. The need for customers to convert and deliver precise, increasing levels of power at the rack and compute layers efficiently and safely is driving continued broad-based growth across our portfolio. Customers are leveraging ADI's products and solutions to push for greater than 98% conversion efficiencies, multi-kilowatt power delivery",
+   "parts": [
+    {
+     "t0_ms": 505580,
+     "text": "expanding content, increasing share,"
+    },
+    {
+     "t0_ms": 508540,
+     "text": "and differentiated value creation across data center optics"
+    },
+    {
+     "t0_ms": 512000,
+     "text": "reinforces our confidence that this segment"
+    },
+    {
+     "t0_ms": 514980,
+     "text": "will remain a strong growth vector for ADI"
+    },
+    {
+     "t0_ms": 518120,
+     "text": "over the coming years."
+    },
+    {
+     "t0_ms": 521020,
+     "text": "Now let me turn to our power franchise."
+    },
+    {
+     "t0_ms": 524200,
+     "text": "The need for customers to convert and deliver precise,"
+    },
+    {
+     "t0_ms": 527440,
+     "text": "increasing levels of power at the rack and compute layers"
+    },
+    {
+     "t0_ms": 530520,
+     "text": "efficiently and safely is driving continued broad-based growth"
+    },
+    {
+     "t0_ms": 535120,
+     "text": "across our portfolio."
+    },
+    {
+     "t0_ms": 537420,
+     "text": "Customers are leveraging"
+    },
+    {
+     "t0_ms": 538520,
+     "text": "ADI's products and solutions to push for greater than 98%"
+    },
+    {
+     "t0_ms": 543360,
+     "text": "conversion efficiencies, multi-kilowatt power delivery"
+    }
+   ]
+  },
+  {
+   "t0_ms": 547640,
+   "t1_ms": 591150,
+   "speaker": "Management",
+   "text": "with peak power levels up to two times the rated load, and comprehensive protection, telemetry, and fault recording capabilities that enhance system reliability and maximize uptime. To put just one of those differentiators in context, the 1% difference between 97 and 98% efficiency may not sound like very much, but a 97% conversion efficiency loses roughly 50% more energy through heat than a 98% solution. Over time, of course, that difference compounds in terms of the need for additional cooling infrastructure, stress on equipment, and operating costs.",
+   "parts": [
+    {
+     "t0_ms": 547640,
+     "text": "with peak power levels up to two times the rated load,"
+    },
+    {
+     "t0_ms": 551580,
+     "text": "and comprehensive protection, telemetry,"
+    },
+    {
+     "t0_ms": 554160,
+     "text": "and fault recording capabilities"
+    },
+    {
+     "t0_ms": 556460,
+     "text": "that enhance system reliability and maximize uptime."
+    },
+    {
+     "t0_ms": 561950,
+     "text": "To put just one of those differentiators in context,"
+    },
+    {
+     "t0_ms": 564790,
+     "text": "the 1% difference between 97 and 98% efficiency"
+    },
+    {
+     "t0_ms": 569890,
+     "text": "may not sound like very much,"
+    },
+    {
+     "t0_ms": 572030,
+     "text": "but a 97% conversion efficiency loses roughly 50% more energy"
+    },
+    {
+     "t0_ms": 577790,
+     "text": "through heat than a 98% solution."
+    },
+    {
+     "t0_ms": 580770,
+     "text": "Over time, of course, that difference compounds"
+    },
+    {
+     "t0_ms": 584330,
+     "text": "in terms of the need for additional cooling infrastructure,"
+    },
+    {
+     "t0_ms": 587310,
+     "text": "stress on equipment, and operating costs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 592650,
+   "t1_ms": 635790,
+   "speaker": "Management",
+   "text": "And we believe our opportunity will continue to grow substantially as power density demands of AI clusters continue to increase. The industry's architectural transition toward 800-volt DC power distribution, for example, plays directly into ADI's power management expertise and portfolio. And we're seeing a significant design and uptake for our protection and 800-volt to intermediate power conversion technologies, which can deliver 20 kilowatts of power at industry-leading power densities, exceeding 2.5 kW. That's a lot of power. And that's the number of kilowatts per cubic inch. And at the intermediate to core conversion layer,",
+   "parts": [
+    {
+     "t0_ms": 592650,
+     "text": "And we believe our opportunity will continue"
+    },
+    {
+     "t0_ms": 594490,
+     "text": "to grow substantially as power density demands of AI clusters"
+    },
+    {
+     "t0_ms": 598890,
+     "text": "continue to increase."
+    },
+    {
+     "t0_ms": 599770,
+     "text": "The industry's architectural transition toward 800-volt DC power distribution,"
+    },
+    {
+     "t0_ms": 605910,
+     "text": "for example, plays directly into ADI's power management expertise"
+    },
+    {
+     "t0_ms": 610990,
+     "text": "and portfolio."
+    },
+    {
+     "t0_ms": 613170,
+     "text": "And we're seeing a significant design and uptake for our protection"
+    },
+    {
+     "t0_ms": 617210,
+     "text": "and 800-volt to intermediate power conversion technologies,"
+    },
+    {
+     "t0_ms": 621670,
+     "text": "which can deliver 20 kilowatts of power at industry-leading power densities,"
+    },
+    {
+     "t0_ms": 627230,
+     "text": "exceeding 2.5 kW."
+    },
+    {
+     "t0_ms": 628650,
+     "text": "That's a lot of power."
+    },
+    {
+     "t0_ms": 629650,
+     "text": "And that's the number of kilowatts per cubic inch."
+    },
+    {
+     "t0_ms": 632130,
+     "text": "And at the intermediate to core conversion layer,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 635790,
+   "t1_ms": 679130,
+   "speaker": "Management",
+   "text": "which is one of the fastest and largest growing analog opportunities in the AI era, our combination of advanced power conversion, intelligent system control, and real-time telemetry is critical to achieving the necessary power density, efficiency, and reliability requirements for next-generation processors to operate at 6,000 amps and sub-1 volt. Our M-Power acquisition further enhances ADI's vertical power story by enabling us to take power into the processor package itself. In large-scale AI deployments, these architectural advantages can reduce compute power consumption and temperature",
+   "parts": [
+    {
+     "t0_ms": 635790,
+     "text": "which is one of the fastest and largest growing analog opportunities"
+    },
+    {
+     "t0_ms": 639450,
+     "text": "in the AI era,"
+    },
+    {
+     "t0_ms": 641370,
+     "text": "our combination of advanced power conversion,"
+    },
+    {
+     "t0_ms": 643890,
+     "text": "intelligent system control, and real-time telemetry"
+    },
+    {
+     "t0_ms": 647610,
+     "text": "is critical to achieving the necessary power density,"
+    },
+    {
+     "t0_ms": 651030,
+     "text": "efficiency, and reliability requirements"
+    },
+    {
+     "t0_ms": 653450,
+     "text": "for next-generation processors to operate at 6,000 amps and sub-1 volt."
+    },
+    {
+     "t0_ms": 659650,
+     "text": "Our M-Power acquisition further enhances ADI's vertical power story"
+    },
+    {
+     "t0_ms": 666330,
+     "text": "by enabling us to take power into the processor package itself."
+    },
+    {
+     "t0_ms": 671650,
+     "text": "In large-scale AI deployments, these architectural advantages"
+    },
+    {
+     "t0_ms": 675810,
+     "text": "can reduce compute power consumption and temperature"
+    }
+   ]
+  },
+  {
+   "t0_ms": 679130,
+   "t1_ms": 721030,
+   "speaker": "Management",
+   "text": "by approximately 10% to 15%, which equates to roughly $30 million in annual savings in a 1-gigawatt data center. Thank you. As with optical, our power pipeline is growing rapidly. And the direction and rate of our R&D investments reflects our belief in the size of the SAM opportunity before us and our confidence that data center power can remain a strong growth vector for ADI over the coming years. So in summary, we believe the architectural shifts underpinning the evolving AI era are increasing ADI's role as a critical partner across the grid-to-chip industry, and the future of AI.",
+   "parts": [
+    {
+     "t0_ms": 679130,
+     "text": "by approximately 10% to 15%, which equates to roughly $30 million"
+    },
+    {
+     "t0_ms": 684870,
+     "text": "in annual savings in a 1-gigawatt data center."
+    },
+    {
+     "t0_ms": 688530,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 689650,
+     "text": "As with optical, our power pipeline is growing rapidly."
+    },
+    {
+     "t0_ms": 693730,
+     "text": "And the direction and rate of our R&D investments"
+    },
+    {
+     "t0_ms": 697330,
+     "text": "reflects our belief in the size of the SAM opportunity before us"
+    },
+    {
+     "t0_ms": 701510,
+     "text": "and our confidence that data center power can remain"
+    },
+    {
+     "t0_ms": 705070,
+     "text": "a strong growth vector for ADI over the coming years."
+    },
+    {
+     "t0_ms": 710850,
+     "text": "So in summary, we believe the architectural shifts"
+    },
+    {
+     "t0_ms": 713750,
+     "text": "underpinning the evolving AI era are increasing ADI's role"
+    },
+    {
+     "t0_ms": 718110,
+     "text": "as a critical partner across the grid-to-chip industry,"
+    },
+    {
+     "t0_ms": 720830,
+     "text": "and the future of AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 721030,
+   "t1_ms": 763910,
+   "speaker": "Management",
+   "text": "We believe that the future of AI is a key part of the ecosystem and driving extraordinary opportunity. Our current assessment is that our 2030 data center and energy SAM has more than doubled from what we had envisioned just one year ago. This dramatic expansion is not simply a function of increased AI infrastructure capex. It reflects the impact of new markets and architectures that require orders of magnitude more analog content, and wildfire value solutions. Stepping back to frame this growth on the larger landscape of ADI's continued evolution, grid-to-chip is but one facet of the first generation",
+   "parts": [
+    {
+     "t0_ms": 721030,
+     "text": "We believe that the future of AI is a key part of the ecosystem"
+    },
+    {
+     "t0_ms": 724870,
+     "text": "and driving extraordinary opportunity."
+    },
+    {
+     "t0_ms": 727030,
+     "text": "Our current assessment is that our 2030 data center and energy SAM"
+    },
+    {
+     "t0_ms": 731530,
+     "text": "has more than doubled from what we had envisioned just one year ago."
+    },
+    {
+     "t0_ms": 736530,
+     "text": "This dramatic expansion is not simply a function of increased AI infrastructure capex."
+    },
+    {
+     "t0_ms": 742530,
+     "text": "It reflects the impact of new markets and architectures"
+    },
+    {
+     "t0_ms": 747530,
+     "text": "that require orders of magnitude more analog content,"
+    },
+    {
+     "t0_ms": 750830,
+     "text": "and wildfire value solutions."
+    },
+    {
+     "t0_ms": 755110,
+     "text": "Stepping back to frame this growth on the larger landscape of ADI's continued evolution,"
+    },
+    {
+     "t0_ms": 760070,
+     "text": "grid-to-chip is but one facet of the first generation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 763910,
+   "t1_ms": 804610,
+   "speaker": "Management",
+   "text": "of AI, characterized by applications largely focused on data centers. The A-to-E growth we've recently spoke to on these calls is yet another facet. As great as the impact of Generation 1 AI has been so far for ADI, however, we continue to believe that the bigger prize may be in the second generation, as AI extends its reach from the data center to the physical world in the form of pervasive robotics, digital health, autonomous mobility, and so on and so forth. In this now emerging phase, AI must not only support",
+   "parts": [
+    {
+     "t0_ms": 763910,
+     "text": "of AI, characterized by applications largely focused on data centers."
+    },
+    {
+     "t0_ms": 769930,
+     "text": "The A-to-E growth we've recently spoke to on these calls is yet another facet."
+    },
+    {
+     "t0_ms": 777270,
+     "text": "As great as the impact of Generation 1 AI has been so far for ADI, however, we continue to believe"
+    },
+    {
+     "t0_ms": 784570,
+     "text": "that the bigger prize may be in the second generation, as AI extends its reach from the"
+    },
+    {
+     "t0_ms": 790010,
+     "text": "data center to the physical world in the form of pervasive robotics, digital health,"
+    },
+    {
+     "t0_ms": 796350,
+     "text": "autonomous mobility, and so on and so forth. In this now emerging phase, AI must not only support"
+    }
+   ]
+  },
+  {
+   "t0_ms": 804610,
+   "t1_ms": 849170,
+   "speaker": "Management",
+   "text": "higher-level learning and analytics, but also real-time sensing, inference, and responsiveness to complex real-world signals. Our ability to tackle this challenge through our products and solutions in edge-based reasoning, informed by deep physical intelligence, will extend our AI value proposition across the entire addressable space. We're able to pursue this horizon of AI opportunity as a result of the tremendous optionality built into ADI's business model, which is designed to support both upside growth asymmetry and the ability to address the problem-solving challenge. As well as cyclical downside resiliency, this optionality is founded by leveraging our",
+   "parts": [
+    {
+     "t0_ms": 804610,
+     "text": "higher-level learning and analytics, but also real-time sensing, inference, and responsiveness"
+    },
+    {
+     "t0_ms": 811170,
+     "text": "to complex real-world signals. Our ability to tackle this challenge through our products and"
+    },
+    {
+     "t0_ms": 818290,
+     "text": "solutions in edge-based reasoning, informed by deep physical intelligence, will extend our"
+    },
+    {
+     "t0_ms": 824890,
+     "text": "AI value proposition across the entire addressable space. We're able to pursue this horizon of AI"
+    },
+    {
+     "t0_ms": 832190,
+     "text": "opportunity as a result of the tremendous optionality built into ADI's business model,"
+    },
+    {
+     "t0_ms": 838330,
+     "text": "which is designed to support both upside growth asymmetry"
+    },
+    {
+     "t0_ms": 842350,
+     "text": "and the ability to address the problem-solving challenge."
+    },
+    {
+     "t0_ms": 842450,
+     "text": "As well as cyclical downside resiliency, this optionality is founded by leveraging our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 849170,
+   "t1_ms": 889870,
+   "speaker": "Management",
+   "text": "cutting-edge technology stack and domain expertise at the electrophysical interface, as well as long-term partnerships with our customers. Our success in AI to date is the latest proof point, and I believe the best is yet to come. And with that, I will hand it over to Rich. Thank you, Vin. And let me add my welcome to our third quarter earnings call. Revenue in the third quarter was $4.02 billion, finishing above the high end of our outlook and increasing 11% sequentially and 40% year-over-year. Growth was broad-based across markets and regions. Industrial, which represented",
+   "parts": [
+    {
+     "t0_ms": 849170,
+     "text": "cutting-edge technology stack and domain expertise at the electrophysical interface,"
+    },
+    {
+     "t0_ms": 854790,
+     "text": "as well as long-term partnerships with our customers. Our success in AI to date is the"
+    },
+    {
+     "t0_ms": 862850,
+     "text": "latest proof point, and I believe the best is yet to come. And with that, I will hand it over to Rich."
+    },
+    {
+     "t0_ms": 871550,
+     "text": "Thank you, Vin."
+    },
+    {
+     "t0_ms": 872350,
+     "text": "And let me add my welcome to our third quarter earnings call. Revenue in the third quarter was"
+    },
+    {
+     "t0_ms": 877330,
+     "text": "$4.02 billion, finishing above the high end of our outlook and increasing 11% sequentially and 40%"
+    },
+    {
+     "t0_ms": 883550,
+     "text": "year-over-year. Growth was broad-based across markets and regions. Industrial, which represented"
+    }
+   ]
+  },
+  {
+   "t0_ms": 889870,
+   "t1_ms": 934390,
+   "speaker": "Management",
+   "text": "49% of our third quarter revenue, finished up 10% sequentially and 53% year-over-year. We saw year-over-year growth across all our industrial businesses, led by ATE, Electronics, and the AI. We saw a growth of over $1.5 trillion in the last year, and we saw a growth of over $1.5 trillion in the last year, including electronic test and measurement, aerospace and defense, and automation. Automotive represented 25% of revenue, finishing up 14% sequentially and 16% year-over-year. Our higher content and share positions globally continue to result in growth well above SAR. We are seeing diversified strength across customers and products in key secular growth areas, including next-gen ADAS and infotainment systems, and also in electric powertrains. Communications represented a lot of growth across the world, and we saw a growth of over $1.5 trillion in the last year, including",
+   "parts": [
+    {
+     "t0_ms": 889870,
+     "text": "49% of our third quarter revenue, finished up 10% sequentially and 53% year-over-year."
+    },
+    {
+     "t0_ms": 896530,
+     "text": "We saw year-over-year growth across all our industrial businesses, led by ATE,"
+    },
+    {
+     "t0_ms": 901970,
+     "text": "Electronics, and the AI. We saw a growth of over $1.5 trillion in the last year,"
+    },
+    {
+     "t0_ms": 902350,
+     "text": "and we saw a growth of over $1.5 trillion in the last year, including electronic test and measurement,"
+    },
+    {
+     "t0_ms": 903510,
+     "text": "aerospace and defense, and automation. Automotive represented 25% of revenue,"
+    },
+    {
+     "t0_ms": 909210,
+     "text": "finishing up 14% sequentially and 16% year-over-year. Our higher content and"
+    },
+    {
+     "t0_ms": 915070,
+     "text": "share positions globally continue to result in growth well above SAR. We are seeing diversified"
+    },
+    {
+     "t0_ms": 920630,
+     "text": "strength across customers and products in key secular growth areas, including next-gen ADAS"
+    },
+    {
+     "t0_ms": 926290,
+     "text": "and infotainment systems, and also in electric powertrains. Communications represented a lot of"
+    },
+    {
+     "t0_ms": 932330,
+     "text": "growth across the world, and we saw a growth of over $1.5 trillion in the last year, including"
+    }
+   ]
+  },
+  {
+   "t0_ms": 934390,
+   "t1_ms": 977930,
+   "speaker": "Management",
+   "text": "16% of revenue, finishing up 18% sequentially and 84% year-over-year. Data center, which now accounts for 80% of our communications revenue, continued to accelerate with more than 100% year-over-year growth in both optical and power. In wireless, we delivered more than 25% year-over-year growth as we continued to execute against cyclical tailwinds. Lastly, consumer represented 10% of quarterly revenue, flat sequentially and up to $1.5 trillion. We saw a growth of over $1.5 trillion in the last year, including next-gen ADAS and infotainment systems, including next-gen ADAS and infotainment systems, and also in electrical power. We saw a growth of over $1.5 trillion in the last year, and up 6% year-over-year. Our diversified consumer business showed strong resilience despite memory-driven challenges. We achieved year-over-year growth across smartphones, hearables, and wearables, and saw accelerated growth in our B2B-like prosumer franchise.",
+   "parts": [
+    {
+     "t0_ms": 934390,
+     "text": "16% of revenue, finishing up 18% sequentially and 84% year-over-year. Data center, which now accounts"
+    },
+    {
+     "t0_ms": 940430,
+     "text": "for 80% of our communications revenue, continued to accelerate with more than 100% year-over-year"
+    },
+    {
+     "t0_ms": 946150,
+     "text": "growth in both optical and power. In wireless, we delivered more than 25% year-over-year growth"
+    },
+    {
+     "t0_ms": 953110,
+     "text": "as we continued to execute against cyclical tailwinds. Lastly, consumer represented 10%"
+    },
+    {
+     "t0_ms": 959350,
+     "text": "of quarterly revenue, flat sequentially and up to $1.5 trillion. We saw a growth of over $1.5 trillion"
+    },
+    {
+     "t0_ms": 961470,
+     "text": "in the last year, including next-gen ADAS and infotainment systems, including next-gen ADAS and"
+    },
+    {
+     "t0_ms": 961490,
+     "text": "infotainment systems, and also in electrical power. We saw a growth of over $1.5 trillion in the last year,"
+    },
+    {
+     "t0_ms": 961570,
+     "text": "and up 6% year-over-year. Our diversified consumer business showed strong resilience"
+    },
+    {
+     "t0_ms": 967250,
+     "text": "despite memory-driven challenges. We achieved year-over-year growth across smartphones,"
+    },
+    {
+     "t0_ms": 972870,
+     "text": "hearables, and wearables, and saw accelerated growth in our B2B-like prosumer franchise."
+    }
+   ]
+  },
+  {
+   "t0_ms": 979590,
+   "t1_ms": 1021670,
+   "speaker": "Management",
+   "text": "Now on to the rest of the P&L. Third quarter gross margin was 72.5%, down 50 basis points sequentially, and up 330 basis points on a year-over-year basis. Third quarter gross margin was 72.5%, down 50 basis points sequentially, and up 330 basis points on a year-over-year basis. Our diversified consumer business showed strong resilience despite memory-driven challenges. Our diversified consumer business showed strong resilience by higher revenue, utilization, and favorable mix. OPEX in the quarter was $907 million, resulting in an operating margin at the high end of our outlook, or 50%, which is up 100 basis points sequentially and 780 basis points year-over-year, driven by improved gross margin and execution discipline. Non-operating expenses were $69 million, and the tax rate for the quarter was 13.1%. All told, EPS finished at the high end of our outlook, and we saw a growth of over $1.5 trillion. We saw a growth of over $1.5 trillion, and we saw a growth of over $1.5 trillion. We saw a growth of over $1.5 trillion. We saw a growth",
+   "parts": [
+    {
+     "t0_ms": 979590,
+     "text": "Now on to the rest of the P&L. Third quarter gross margin was 72.5%, down 50 basis points"
+    },
+    {
+     "t0_ms": 986770,
+     "text": "sequentially, and up 330 basis points on a year-over-year basis."
+    },
+    {
+     "t0_ms": 991410,
+     "text": "Third quarter gross margin was 72.5%, down 50 basis points sequentially, and up 330 basis points"
+    },
+    {
+     "t0_ms": 991550,
+     "text": "on a year-over-year basis. Our diversified consumer business showed strong resilience"
+    },
+    {
+     "t0_ms": 991610,
+     "text": "despite memory-driven challenges. Our diversified consumer business showed strong resilience"
+    },
+    {
+     "t0_ms": 991630,
+     "text": "by higher revenue, utilization, and favorable mix."
+    },
+    {
+     "t0_ms": 995770,
+     "text": "OPEX in the quarter was $907 million, resulting in an operating margin at the high end of our"
+    },
+    {
+     "t0_ms": 1000770,
+     "text": "outlook, or 50%, which is up 100 basis points sequentially and 780 basis points year-over-year,"
+    },
+    {
+     "t0_ms": 1008250,
+     "text": "driven by improved gross margin and execution discipline. Non-operating expenses were $69"
+    },
+    {
+     "t0_ms": 1014390,
+     "text": "million, and the tax rate for the quarter was 13.1%. All told, EPS finished at the high end"
+    },
+    {
+     "t0_ms": 1021070,
+     "text": "of our outlook, and we saw a growth of over $1.5 trillion. We saw a growth of over $1.5 trillion,"
+    },
+    {
+     "t0_ms": 1021530,
+     "text": "and we saw a growth of over $1.5 trillion. We saw a growth of over $1.5 trillion. We saw a growth"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1021670,
+   "t1_ms": 1062550,
+   "speaker": "Management",
+   "text": "for a record $3.45, up 12% sequentially and 68% year-over-year. Now I'd like to highlight a few items from our balance sheet and cash flow statements. Cash and short-term investments decreased to $2.3 billion, driven by the successful closing of our Empower semiconductor acquisition on July 7, where we paid $1.5 billion in an all-cash transaction. Our net leverage ratio now sits at 0.9. We increased inventory, and we've increased inventory $83 million sequentially as we continue to build strategic die bank to support accelerating demand. We exited fiscal Q3 with record balance sheet inventory and increased",
+   "parts": [
+    {
+     "t0_ms": 1021670,
+     "text": "for a record $3.45, up 12% sequentially and 68% year-over-year."
+    },
+    {
+     "t0_ms": 1029329,
+     "text": "Now I'd like to highlight a few items from our balance sheet and cash flow statements."
+    },
+    {
+     "t0_ms": 1033750,
+     "text": "Cash and short-term investments decreased to $2.3 billion, driven by the successful closing of our"
+    },
+    {
+     "t0_ms": 1039130,
+     "text": "Empower semiconductor acquisition on July 7, where we paid $1.5 billion in an all-cash transaction."
+    },
+    {
+     "t0_ms": 1046270,
+     "text": "Our net leverage ratio now sits at 0.9. We increased inventory, and we've increased"
+    },
+    {
+     "t0_ms": 1051510,
+     "text": "inventory $83 million sequentially as we continue to build strategic die bank to support"
+    },
+    {
+     "t0_ms": 1056490,
+     "text": "accelerating demand. We exited fiscal Q3 with record balance sheet inventory and increased"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1062550,
+   "t1_ms": 1107310,
+   "speaker": "Management",
+   "text": "inventory at our distributors. Despite the increases, our days declined to 156, and channel weeks fell below our six-to-seven-week target. Over the trailing 12 months, operating cash flow and CapEx were $5.5 billion and $0.6 billion, respectively. We continue to expect fiscal 26 CapEx to be within our long-term model of 4% to 6% of revenue. Free cash flow over the trailing 12 months was a record $4.9 billion, or 36% of revenue. Over that same period, we returned more than 100% to shareholders through dividends and share repurchases. As a reminder, the durability and strength of our financial model allows us to target 100% free cash flow return over the long",
+   "parts": [
+    {
+     "t0_ms": 1062550,
+     "text": "inventory at our distributors. Despite the increases, our days declined to 156, and channel"
+    },
+    {
+     "t0_ms": 1069050,
+     "text": "weeks fell below our six-to-seven-week target. Over the trailing 12 months, operating cash flow"
+    },
+    {
+     "t0_ms": 1075290,
+     "text": "and CapEx were $5.5 billion and $0.6 billion, respectively. We continue to expect fiscal"
+    },
+    {
+     "t0_ms": 1081510,
+     "text": "26 CapEx to be within our long-term model of 4% to 6% of revenue. Free cash flow over the trailing"
+    },
+    {
+     "t0_ms": 1088130,
+     "text": "12 months was a record $4.9 billion, or 36% of revenue. Over that same period, we returned more"
+    },
+    {
+     "t0_ms": 1095110,
+     "text": "than 100% to shareholders through dividends and share repurchases. As a reminder, the durability"
+    },
+    {
+     "t0_ms": 1100990,
+     "text": "and strength of our financial model allows us to target 100% free cash flow return over the long"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1107310,
+   "t1_ms": 1147430,
+   "speaker": "Management",
+   "text": "term, aiming to use 40% to 60% to support our annual dividend, and the remainder for share count reduction. Now moving on to our fourth quarter outlook. Revenue is expected to be $4.3 billion, plus or minus $100 million. Operating margin at the midpoint is expected to be 52%, plus or minus 100 basis points. We expect non-operating expenses of approximately $80 million and a tax rate of 12% to 14%. Based on these inputs, adjusted EPS is expected to be $3.86, plus or minus $0.15. In closing, our record results and outlook underscore our ability to capitalize on",
+   "parts": [
+    {
+     "t0_ms": 1107310,
+     "text": "term, aiming to use 40% to 60% to support our annual dividend,"
+    },
+    {
+     "t0_ms": 1111510,
+     "text": "and the remainder for share count reduction. Now moving on to our fourth quarter outlook."
+    },
+    {
+     "t0_ms": 1117730,
+     "text": "Revenue is expected to be $4.3 billion, plus or minus $100 million. Operating margin at the midpoint"
+    },
+    {
+     "t0_ms": 1123410,
+     "text": "is expected to be 52%, plus or minus 100 basis points. We expect non-operating expenses of"
+    },
+    {
+     "t0_ms": 1129730,
+     "text": "approximately $80 million and a tax rate of 12% to 14%. Based on these inputs, adjusted EPS is"
+    },
+    {
+     "t0_ms": 1137750,
+     "text": "expected to be $3.86, plus or minus $0.15."
+    },
+    {
+     "t0_ms": 1141510,
+     "text": "In closing, our record results and outlook underscore our ability to capitalize on"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1147430,
+   "t1_ms": 1179210,
+   "speaker": "Management",
+   "text": "cyclical and secular tailwinds across the AI ecosystem, defense, core industrial, and automotive markets. We will continue to balance execution discipline with strategic growth investments to navigate a dynamic macro and geopolitical environment while delivering on our attractive financial model. With that, I'll give it back to Jeff for Q&A. Thank you, Rich. Now let's get to our Q&A session. We ask that you limit yourself to one question in order to allow for additional participants on the call this morning. If you have a follow-up, please read Q, and we'll take your question if time allows. With that,",
+   "parts": [
+    {
+     "t0_ms": 1147430,
+     "text": "cyclical and secular tailwinds across the AI ecosystem, defense, core industrial,"
+    },
+    {
+     "t0_ms": 1153570,
+     "text": "and automotive markets. We will continue to balance execution discipline with strategic"
+    },
+    {
+     "t0_ms": 1158130,
+     "text": "growth investments to navigate a dynamic macro and geopolitical environment while delivering"
+    },
+    {
+     "t0_ms": 1163530,
+     "text": "on our attractive financial model. With that, I'll give it back to Jeff for Q&A."
+    },
+    {
+     "t0_ms": 1168390,
+     "text": "Thank you, Rich. Now let's get to our Q&A session. We ask that you limit yourself"
+    },
+    {
+     "t0_ms": 1171490,
+     "text": "to one question in order to allow for additional participants on the call this morning. If you"
+    },
+    {
+     "t0_ms": 1175550,
+     "text": "have a follow-up, please read Q, and we'll take your question if time allows. With that,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1179290,
+   "t1_ms": 1210830,
+   "speaker": "Operator",
+   "text": "operator, can we have our first question, please? For those participating by telephone dial-in, if you have a question, please press star 1-1 on your phone to enter the queue. If your question has been answered and you wish to be removed from the queue, please press star 1-1 again. If you're listening on a speakerphone, please pick up the handset when asking your question. We'll pause for just a moment to compile the Q&A. Our first question comes from Harlan Sirk with JP Morgan. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1179290,
+     "text": "operator, can we have our first question, please? For those participating by telephone dial-in,"
+    },
+    {
+     "t0_ms": 1184630,
+     "text": "if you have a question, please press star 1-1 on your phone to enter the queue."
+    },
+    {
+     "t0_ms": 1188850,
+     "text": "If your question has been answered and you wish to be removed from the queue,"
+    },
+    {
+     "t0_ms": 1192250,
+     "text": "please press star 1-1 again. If you're listening on a speakerphone, please pick up the handset"
+    },
+    {
+     "t0_ms": 1197770,
+     "text": "when asking your question. We'll pause for just a moment to compile the Q&A."
+    },
+    {
+     "t0_ms": 1201490,
+     "text": "Our first question comes from Harlan Sirk with JP Morgan. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1213040,
+   "t1_ms": 1253760,
+   "speaker": "Analyst",
+   "text": "Yeah, good morning and congratulations on the continued solid execution. On the strong operating margin guidance and therefore strong implied gross margins, I'm sort of rolling up to about 73.5% gross margins for October, 100 basis points improvement. Your utilizations are already at high levels. You've talked about mix in volume as the primary driver is going forward. Are these two, dynamics driving most of the 100 basis points plus step up in gross margins in October? Or is the team implementing more price increases beyond the actions that you took at the beginning of the year? And this is also maybe contributing to the strong gross margin profile as well.",
+   "parts": [
+    {
+     "t0_ms": 1213040,
+     "text": "Yeah, good morning and congratulations on the continued solid execution."
+    },
+    {
+     "t0_ms": 1217260,
+     "text": "On the strong operating margin guidance and therefore strong implied gross margins,"
+    },
+    {
+     "t0_ms": 1221980,
+     "text": "I'm sort of rolling up to about 73.5% gross margins for October, 100 basis points improvement."
+    },
+    {
+     "t0_ms": 1229420,
+     "text": "Your utilizations are already at high levels. You've talked about mix in volume"
+    },
+    {
+     "t0_ms": 1233740,
+     "text": "as the primary driver is going forward. Are these two,"
+    },
+    {
+     "t0_ms": 1237440,
+     "text": "dynamics driving most of the 100 basis points plus step up in gross margins in October? Or"
+    },
+    {
+     "t0_ms": 1243820,
+     "text": "is the team implementing more price increases beyond the actions that you took at the beginning"
+    },
+    {
+     "t0_ms": 1249320,
+     "text": "of the year? And this is also maybe contributing to the strong gross margin profile as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1256010,
+   "t1_ms": 1298990,
+   "speaker": "Management",
+   "text": "Thanks for the question, Harlan. I'll take this one. So, you know, as we described, you know, for Q3, gross margin came in as expected. We are actually expecting a gross margin increase of about 150 pips to about 74%. And you were spot on. This is driven by favorable mix, higher fixed cost absorption, obviously, following the higher revenue and our price adjustment. So if we look to sort of medium term, you know, I'd remind you that we do have a seasonal shutdown coming up in our first quarter, which does create some drag on gross margin and are expecting more cost increases coming. You know, inflation is still a persistent factor. That said, the full extent of our price action is still a persistent factor. That said, the full extent of our price action is still a persistent factor. That said, the full extent of our price action, which has been announced,",
+   "parts": [
+    {
+     "t0_ms": 1256010,
+     "text": "Thanks for the question, Harlan. I'll take this one. So, you know, as we described, you know,"
+    },
+    {
+     "t0_ms": 1260450,
+     "text": "for Q3, gross margin came in as expected. We are actually expecting a gross margin increase of"
+    },
+    {
+     "t0_ms": 1266310,
+     "text": "about 150 pips to about 74%. And you were spot on. This is driven by favorable mix,"
+    },
+    {
+     "t0_ms": 1273190,
+     "text": "higher fixed cost absorption, obviously, following the higher revenue and our price adjustment. So"
+    },
+    {
+     "t0_ms": 1278950,
+     "text": "if we look to sort of medium term, you know, I'd remind you that we do have a seasonal shutdown"
+    },
+    {
+     "t0_ms": 1283290,
+     "text": "coming up in our first quarter, which does create some drag on gross margin and are expecting more"
+    },
+    {
+     "t0_ms": 1289270,
+     "text": "cost increases coming. You know, inflation is still a persistent factor. That said,"
+    },
+    {
+     "t0_ms": 1294790,
+     "text": "the full extent of our price"
+    },
+    {
+     "t0_ms": 1296230,
+     "text": "action is still a persistent factor. That said, the full extent of our price action is still a"
+    },
+    {
+     "t0_ms": 1296290,
+     "text": "persistent factor. That said, the full extent of our price action, which has been announced,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1298990,
+   "t1_ms": 1318650,
+   "speaker": "Management",
+   "text": "is not captured in Q4. So we will get a full quarter of shipments in Q1 with some trailing impact as we review contracts. So overall, we see gross margin hanging in at the Q4 exit level, as long as we maintain the revenue and mix that we expect. Thank you, Harlan. Move to our next question, please.",
+   "parts": [
+    {
+     "t0_ms": 1298990,
+     "text": "is not captured in Q4. So we will get a full quarter of shipments in Q1 with some trailing"
+    },
+    {
+     "t0_ms": 1304510,
+     "text": "impact as we review contracts. So overall, we see gross margin hanging in at the Q4 exit level,"
+    },
+    {
+     "t0_ms": 1312010,
+     "text": "as long as we maintain the revenue and mix that we expect."
+    },
+    {
+     "t0_ms": 1316830,
+     "text": "Thank you, Harlan. Move to our next question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1320840,
+   "t1_ms": 1325840,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question comes from Vivek Arya with Bank of America Securities. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1320840,
+     "text": "Thank you. Our next question comes from Vivek Arya with Bank of America Securities. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1325840,
+   "t1_ms": 1366540,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. Winston, I'm very interested to hear your thoughts about fiscal 27. You know, if I look over the last two years, ADI's top line has accelerated, I think, almost every quarter on an year-on-year basis. And how much of that do you think has been kind of secular? How much of that has been cyclical? How much of that has been pricing? And if I were to just take your Q4 outlook midpoint and just assume normal seasonality, it suggests that the Q4 is going to be a little bit more of a sell-off. So I'm going to ask you, you know, at least like a 20%, you know, or so plus growth year into fiscal 27. So just curious to hear what your high-level thoughts are. You know, are there any areas of constraint? And if",
+   "parts": [
+    {
+     "t0_ms": 1325840,
+     "text": "Thanks for taking my question. Winston, I'm very interested to hear your thoughts about"
+    },
+    {
+     "t0_ms": 1332540,
+     "text": "fiscal 27. You know, if I look over the last two years, ADI's top line has accelerated,"
+    },
+    {
+     "t0_ms": 1338580,
+     "text": "I think, almost every quarter on an year-on-year basis. And how much of that do you think has been"
+    },
+    {
+     "t0_ms": 1344720,
+     "text": "kind of secular? How much of that has been cyclical? How much of that has been pricing?"
+    },
+    {
+     "t0_ms": 1349460,
+     "text": "And if I were to just take your Q4 outlook midpoint and just assume normal seasonality,"
+    },
+    {
+     "t0_ms": 1355360,
+     "text": "it suggests that the Q4 is going to be a little bit more of a sell-off. So I'm going to ask you,"
+    },
+    {
+     "t0_ms": 1355760,
+     "text": "you know, at least like a 20%, you know, or so plus growth year into fiscal 27. So just curious"
+    },
+    {
+     "t0_ms": 1361540,
+     "text": "to hear what your high-level thoughts are. You know, are there any areas of constraint? And if"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1366540,
+   "t1_ms": 1376420,
+   "speaker": "Analyst",
+   "text": "I could, you know, seek in something related to that, is there more operating leverage left if indeed your top line were to grow 20%? Thank you. Well, we'll take the rest of the call with",
+   "parts": [
+    {
+     "t0_ms": 1366540,
+     "text": "I could, you know, seek in something related to that, is there more operating leverage left if"
+    },
+    {
+     "t0_ms": 1371440,
+     "text": "indeed your top line were to grow 20%? Thank you. Well, we'll take the rest of the call with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1376420,
+   "t1_ms": 1416120,
+   "speaker": "Management",
+   "text": "answer to those questions. So what I'll say is let me unpack a little bit of the story and then Rich can add some of his own commentary. So, you know, since we called the bottom in the second quarter of 24, we've seen our particular strengths manifest through the following kind of areas. So we're clearly a beneficiary of the defense and the AI super cycles, which I think will persist for many, many years to come. You know, who knows what the trajectories will look like, but, you know, right now the aerospace and defense, the AI, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense,",
+   "parts": [
+    {
+     "t0_ms": 1376420,
+     "text": "answer to those questions. So what I'll say is let me unpack a little bit of the story and then"
+    },
+    {
+     "t0_ms": 1383080,
+     "text": "Rich can add some of his own commentary."
+    },
+    {
+     "t0_ms": 1385760,
+     "text": "So, you know, since we called the bottom in the second quarter of 24, we've seen our particular"
+    },
+    {
+     "t0_ms": 1393400,
+     "text": "strengths manifest through the following kind of areas. So we're clearly a beneficiary of the"
+    },
+    {
+     "t0_ms": 1401560,
+     "text": "defense and the AI super cycles, which I think will persist for many, many years to come. You"
+    },
+    {
+     "t0_ms": 1408160,
+     "text": "know, who knows what the trajectories will look like, but, you know, right now the aerospace and"
+    },
+    {
+     "t0_ms": 1414640,
+     "text": "defense, the AI, the defense, the defense, the defense, the defense, the defense, the defense,"
+    },
+    {
+     "t0_ms": 1415280,
+     "text": "the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense,"
+    },
+    {
+     "t0_ms": 1415760,
+     "text": "the defense, the defense, the defense, the defense, the defense, the defense, the defense, the defense,"
+    },
+    {
+     "t0_ms": 1416020,
+     "text": "the defense, the defense, the defense, the defense, the defense, the defense, the defense,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1416120,
+   "t1_ms": 1456100,
+   "speaker": "Management",
+   "text": "and your data center business is there about 30% of 80i and our portfolio is exposed and I think poised for greater growth and more content and more share gains. Although of course we're getting share right across the spectrum of the car types, the combustion as well as EVs. Also, in consumer, you know, we turned a corner in consumer two or three years ago, and we're seeing both and share gains there right across the the high-end mid-time smartphone gaming here those wearables and so on so forth I've mentioned several times before as",
+   "parts": [
+    {
+     "t0_ms": 1416120,
+     "text": "and your data center business is there about 30% of 80i and our portfolio is exposed and I think"
+    },
+    {
+     "t0_ms": 1423100,
+     "text": "poised for greater growth and more content and more share gains. Although of course we're getting"
+    },
+    {
+     "t0_ms": 1430700,
+     "text": "share right across the spectrum of the car types, the combustion as well as EVs. Also, in"
+    },
+    {
+     "t0_ms": 1440620,
+     "text": "consumer, you know, we turned a corner in consumer two or three years ago, and we're seeing both"
+    },
+    {
+     "t0_ms": 1445760,
+     "text": "and share gains there right across the the high-end mid-time smartphone gaming"
+    },
+    {
+     "t0_ms": 1451700,
+     "text": "here those wearables and so on so forth I've mentioned several times before as"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1456100,
+   "t1_ms": 1498980,
+   "speaker": "Management",
+   "text": "well the Maxon synergies so we had said our expectation when we announced the acquisition of Maxon that we would generate a billion dollars worth of synergies well we're well on track we'll generate about 700 million dollars this year and I expect that we'll hit a billion plus in 27 as well so you know I think as well the the overall cyclical tailwind I think is also very very strong across the board and given the breadth of our portfolio that lifts the you know all the bolts aside from the the asymmetric tailwinds that we have and as Rich talked a little bit about as well the the",
+   "parts": [
+    {
+     "t0_ms": 1456100,
+     "text": "well the Maxon synergies so we had said our expectation when we announced the"
+    },
+    {
+     "t0_ms": 1461720,
+     "text": "acquisition of Maxon that we would generate a billion dollars worth of"
+    },
+    {
+     "t0_ms": 1464780,
+     "text": "synergies well we're well on track we'll generate about 700 million dollars this"
+    },
+    {
+     "t0_ms": 1469000,
+     "text": "year and I expect that we'll hit a billion plus in 27 as well so you know I"
+    },
+    {
+     "t0_ms": 1476380,
+     "text": "think as well the the overall cyclical tailwind I think is also very very"
+    },
+    {
+     "t0_ms": 1483640,
+     "text": "strong across the board and given the breadth of our portfolio that lifts the"
+    },
+    {
+     "t0_ms": 1488240,
+     "text": "you know all the bolts aside from the the asymmetric tailwinds that we have"
+    },
+    {
+     "t0_ms": 1494020,
+     "text": "and as Rich talked a little bit about as well"
+    },
+    {
+     "t0_ms": 1498580,
+     "text": "the"
+    },
+    {
+     "t0_ms": 1498960,
+     "text": "the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1498980,
+   "t1_ms": 1539800,
+   "speaker": "Management",
+   "text": "we've got a very favorable backdrop in terms of pricing and so you know I think we've capitalized on the other vectors of growth you know I think our portfolio is more critical than ever to our customers I will point out as well that you know our lead times are in good shape as Rich said we're sitting on record inventories but at the same time our inventories are very intentionally placed built in place and that's thanks to the manufacturing agility that we've built in with our hybrid model and that we continue to extend the the the scope so Rich maybe",
+   "parts": [
+    {
+     "t0_ms": 1498980,
+     "text": "we've got a very favorable backdrop in terms of pricing and so you know I think"
+    },
+    {
+     "t0_ms": 1506480,
+     "text": "we've capitalized on the other vectors of growth you know I think our portfolio"
+    },
+    {
+     "t0_ms": 1512060,
+     "text": "is more critical than ever to our customers I will point out as well that"
+    },
+    {
+     "t0_ms": 1516460,
+     "text": "you know our lead times are in good shape as Rich said we're sitting on"
+    },
+    {
+     "t0_ms": 1521220,
+     "text": "record inventories but at the same time our inventories are very intentionally"
+    },
+    {
+     "t0_ms": 1526880,
+     "text": "placed built in place"
+    },
+    {
+     "t0_ms": 1528940,
+     "text": "and that's thanks to the manufacturing agility that we've built in with our"
+    },
+    {
+     "t0_ms": 1532540,
+     "text": "hybrid model and that we continue to extend the the the scope so Rich maybe"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1539800,
+   "t1_ms": 1582240,
+   "speaker": "Management",
+   "text": "you'll want to add a little more color yeah I guess what I would add is you know as we've been talking about this the inventory position you know that the important piece to consider is you know with the significant demand we're seeing we still think that we have not seen really any restocking activity from inventory to inventory from our customers they continue to run very lean and I think that our work over the last two years to balance out the inventory both on our balance and in the channel has really been helpful so we you know as we look into the next quarter we will continue to stage more inventory in the channel given the acceleration going there so I think there's still a lot of opportunity and",
+   "parts": [
+    {
+     "t0_ms": 1539800,
+     "text": "you'll want to add a little more color yeah I guess what I would add is you know"
+    },
+    {
+     "t0_ms": 1544480,
+     "text": "as we've been talking about this the inventory position you know that the"
+    },
+    {
+     "t0_ms": 1548340,
+     "text": "important piece to consider is you know with the significant demand we're seeing"
+    },
+    {
+     "t0_ms": 1553060,
+     "text": "we still think that we have not seen really any restocking activity from inventory to inventory"
+    },
+    {
+     "t0_ms": 1558900,
+     "text": "from our customers they continue to run very lean and I think that our work over the last two"
+    },
+    {
+     "t0_ms": 1566640,
+     "text": "years to balance out the inventory both on our balance and in the channel has really been helpful"
+    },
+    {
+     "t0_ms": 1571560,
+     "text": "so we you know as we look into the next quarter we will continue to stage more inventory in the"
+    },
+    {
+     "t0_ms": 1577320,
+     "text": "channel given the acceleration going there so I think there's still a lot of opportunity and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1582240,
+   "t1_ms": 1625860,
+   "speaker": "Management",
+   "text": "if you look at where we are from a you know from a consumption pattern you know as Vincent said I'm going to describe those three you know three big sec you know secular drivers that are specific to our business you know we can see real end demand right we're seeing the massive increase in AI infrastructure spend we're seeing the aerospace and defense business grow so if you extract those pieces out and then look at the broader parts of our business most of our business is still shipping well below historical consumption levels so we think we're still have room here on both the cyclical part of the upturn when we look at the broader markets I just described and we continue to see strength across",
+   "parts": [
+    {
+     "t0_ms": 1582240,
+     "text": "if you look at where we are from a you know from a consumption pattern you know as Vincent said I'm"
+    },
+    {
+     "t0_ms": 1588840,
+     "text": "going to describe those three you know three big sec you know secular drivers that are specific to"
+    },
+    {
+     "t0_ms": 1594780,
+     "text": "our business you know we can see real end demand right we're seeing the massive increase in AI"
+    },
+    {
+     "t0_ms": 1601020,
+     "text": "infrastructure spend we're seeing the aerospace and defense business grow so if you extract those"
+    },
+    {
+     "t0_ms": 1606660,
+     "text": "pieces out and then look at the broader parts of our business most of our business is still"
+    },
+    {
+     "t0_ms": 1611280,
+     "text": "shipping well below historical consumption levels so we think we're still have room here on both the"
+    },
+    {
+     "t0_ms": 1617880,
+     "text": "cyclical part of the"
+    },
+    {
+     "t0_ms": 1618840,
+     "text": "upturn when we look at the broader markets I just described and we continue to see strength across"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1625860,
+   "t1_ms": 1667380,
+   "speaker": "Management",
+   "text": "obviously the aerospace defense ATE and data center businesses so I think in summary you know we're we believe we're very very well positioned as a company but you know I think the things that are under our control I think we're executing well on but you know there's a lot of things that can happen with the macro there's heightened geopolitical risk and rate hikes of course a lot of volatility as we all know in the financial markets perhaps AI capex could slower decrease but all that said our expectation is that we'll have a brisk growth year in 27. all right thank you Vivek move to our next caller please thank you our next question comes from",
+   "parts": [
+    {
+     "t0_ms": 1625860,
+     "text": "obviously the aerospace defense ATE and data center businesses so I think in summary you know"
+    },
+    {
+     "t0_ms": 1632760,
+     "text": "we're we believe we're very very well positioned as a company but you know I think the things that"
+    },
+    {
+     "t0_ms": 1638700,
+     "text": "are under our control I think we're executing well on but you know there's a lot of things that can"
+    },
+    {
+     "t0_ms": 1643080,
+     "text": "happen with the macro there's heightened geopolitical risk and rate hikes of course"
+    },
+    {
+     "t0_ms": 1648840,
+     "text": "a lot of volatility as we all know in the financial markets perhaps AI capex could"
+    },
+    {
+     "t0_ms": 1654060,
+     "text": "slower decrease but all that said our expectation is that we'll have a brisk growth year in 27."
+    },
+    {
+     "t0_ms": 1660600,
+     "text": "all right thank you Vivek move to our next caller please thank you our next question comes from"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1667380,
+   "t1_ms": 1673380,
+   "speaker": "Operator",
+   "text": "Stacy Raskin with Bernstein Research your line is open hi guys thanks for taking my question",
+   "parts": [
+    {
+     "t0_ms": 1667380,
+     "text": "Stacy Raskin with Bernstein Research your line is open hi guys thanks for taking my question"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1674280,
+   "t1_ms": 1717120,
+   "speaker": "Management",
+   "text": "um on the data center side I you said that 80 percent of your comm business was now data center I found interesting and I mean that that data center pieces I know it's doubling you know ish growing 100 percent is that the kind of growth rate I ought to be thinking about now for at least the comm segment next year 27 given the vast majority of it is data center do you think that that comm segment should be growing you know close to 100 year-over-year as I start to think about 27 and I guess maybe within that question if you could give us any color on what you're expecting for the segments at least in the near term into into q4 that'd be helpful as well yes Stacy maybe we'll start with the the near-term stuff and kind of the end market Outlook and then",
+   "parts": [
+    {
+     "t0_ms": 1674280,
+     "text": "um on the data center side I you said that 80 percent of your comm business was now data center"
+    },
+    {
+     "t0_ms": 1680760,
+     "text": "I found interesting and I mean that that data center pieces I know it's doubling you know ish"
+    },
+    {
+     "t0_ms": 1684900,
+     "text": "growing 100 percent is that the kind of growth rate I ought to be thinking about now for at"
+    },
+    {
+     "t0_ms": 1690060,
+     "text": "least the comm segment next year 27 given the vast majority of it is data center do you think that"
+    },
+    {
+     "t0_ms": 1695940,
+     "text": "that comm segment should be growing you know close to 100 year-over-year as I start to think about"
+    },
+    {
+     "t0_ms": 1700980,
+     "text": "27 and I guess maybe within that question if you could give us any color on what you're"
+    },
+    {
+     "t0_ms": 1706440,
+     "text": "expecting for the segments at least in the near term into into q4 that'd be helpful as well"
+    },
+    {
+     "t0_ms": 1710760,
+     "text": "yes Stacy maybe we'll start with the the near-term stuff and kind of the end market Outlook and then"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1717120,
+   "t1_ms": 1760960,
+   "speaker": "Management",
+   "text": "we can maybe pass it to Vince for the AI Outlook or the data center great thank you what would that be yeah so yeah I guess I can take that one so basically at the midpoint of our Outlook you know we're expecting uh industrial to be up high single digits communications lead the growth obviously led by data center up about 10 consumer up high single digits and automotive to be up low single digits and then as for the growth and kind of how to model data center which is basically your question on a on a longer term basis you know at a high level there's many growth vectors um you know first of all the market's strong the end market's growing double digits if you look at",
+   "parts": [
+    {
+     "t0_ms": 1717120,
+     "text": "we can maybe pass it to Vince for the AI Outlook or the data center great thank you what would that be"
+    },
+    {
+     "t0_ms": 1727840,
+     "text": "yeah so yeah I guess I can take that one so basically at the midpoint of our Outlook you"
+    },
+    {
+     "t0_ms": 1732100,
+     "text": "know we're expecting uh industrial to be up high single digits communications lead the growth"
+    },
+    {
+     "t0_ms": 1738580,
+     "text": "obviously led by data center up about 10 consumer up high single digits and automotive to be up low"
+    },
+    {
+     "t0_ms": 1744160,
+     "text": "single digits"
+    },
+    {
+     "t0_ms": 1745780,
+     "text": "and then as for the growth and kind of how to model data center which is basically your question"
+    },
+    {
+     "t0_ms": 1749980,
+     "text": "on a on a longer term basis you know at a high level there's many growth vectors"
+    },
+    {
+     "t0_ms": 1756280,
+     "text": "um you know first of all the market's strong the end market's growing double digits if you look at"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1760960,
+   "t1_ms": 1804880,
+   "speaker": "Management",
+   "text": "cafex what have you and then importantly as Vince talked to on his call right the analog bomb content is increasing significantly particularly as we transition 800 volts Etc and obviously we're the investments we're making we're targeting to increase share in a lot of places right so at a high level we expect strength in data center for multiple years to come so I think Stacy rather than give you a number for you know 20 uh 27 um you know we're almost double X amount of pace to be 2X in 26 and uh my sense is that we'll see an extended runway to at least 2030 for strong double digit growth across the uh the data center market as well as the energy space by the way which today is about uh",
+   "parts": [
+    {
+     "t0_ms": 1760960,
+     "text": "cafex what have you and then importantly as Vince talked to on his call right the analog bomb content"
+    },
+    {
+     "t0_ms": 1765760,
+     "text": "is increasing significantly particularly as we transition 800 volts Etc and obviously we're the"
+    },
+    {
+     "t0_ms": 1772120,
+     "text": "investments we're making we're targeting to increase share in a lot of places right so at a"
+    },
+    {
+     "t0_ms": 1775540,
+     "text": "high level we expect strength in data center for multiple years to come so I think Stacy rather than"
+    },
+    {
+     "t0_ms": 1781240,
+     "text": "give you a number for you know 20 uh 27 um you know we're almost double X amount of pace to be"
+    },
+    {
+     "t0_ms": 1789400,
+     "text": "2X in 26 and uh my sense is that we'll see an extended runway to at least 2030 for strong double"
+    },
+    {
+     "t0_ms": 1798460,
+     "text": "digit growth across the uh the data center market as well as the energy space by the way which today"
+    },
+    {
+     "t0_ms": 1803980,
+     "text": "is about uh"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1805540,
+   "t1_ms": 1809440,
+   "speaker": "Management",
+   "text": "a half billion dollar revenue for ADI I think by the end of the decade that business will double",
+   "parts": [
+    {
+     "t0_ms": 1805540,
+     "text": "a half billion dollar revenue for ADI I think by the end of the decade that business will double"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1809440,
+   "t1_ms": 1821170,
+   "speaker": "Operator",
+   "text": "okay Stacy move to our next question please thank you our next question comes from Tori sponder with",
+   "parts": [
+    {
+     "t0_ms": 1809440,
+     "text": "okay Stacy move to our next question please thank you our next question comes from Tori sponder with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1821170,
+   "t1_ms": 1850390,
+   "speaker": "Analyst",
+   "text": "stifle your line is open yes thank you um Vince I I had a bit of a longer term question for you as it relates to to analog so I mean it's an industry that historically has grown high single digits uh but with analog not benefiting you know significantly more from AI infrastructure and then to your point eventually from physical AI um should we assume that the ANA the underlying growth of the analog industry is is clearly shifting upwards here uh both from a unit and a pricing perspective thank you",
+   "parts": [
+    {
+     "t0_ms": 1821170,
+     "text": "stifle your line is open yes thank you um Vince I I had a bit of a longer term question for you"
+    },
+    {
+     "t0_ms": 1827950,
+     "text": "as it relates to to analog so I mean it's an industry that historically has grown high single"
+    },
+    {
+     "t0_ms": 1832210,
+     "text": "digits uh but with analog not benefiting you know significantly more from AI infrastructure"
+    },
+    {
+     "t0_ms": 1837730,
+     "text": "and then to your point eventually from physical AI"
+    },
+    {
+     "t0_ms": 1840790,
+     "text": "um should we assume that the ANA the underlying growth of the analog industry"
+    },
+    {
+     "t0_ms": 1845270,
+     "text": "is is clearly shifting upwards here uh both from a unit and a pricing perspective thank you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1851170,
+   "t1_ms": 1892210,
+   "speaker": "Management",
+   "text": "yeah I think it is um Tori Thanks for the question um you know I think it's possible for the analog business to be in the the double digit zone compounded for several years to come um and uh you know you just look at data center alone if I just take take data You know, there's expected to be 100 gigawatts equivalent infrastructure built for data centers between now and kind of 2031. Each gigawatt generates a billion to a billion and a half analog SAN. And the problems are becoming more complicated in data centers.",
+   "parts": [
+    {
+     "t0_ms": 1851170,
+     "text": "yeah I think it is um Tori Thanks for the question um you know I think it's possible"
+    },
+    {
+     "t0_ms": 1856870,
+     "text": "for the analog business to be in the the double digit zone compounded for several years to come"
+    },
+    {
+     "t0_ms": 1864850,
+     "text": "um and uh you know you just look at data center alone if I just take take data"
+    },
+    {
+     "t0_ms": 1870790,
+     "text": "You know, there's expected to be 100 gigawatts equivalent infrastructure built for data centers between now and kind of 2031."
+    },
+    {
+     "t0_ms": 1882550,
+     "text": "Each gigawatt generates a billion to a billion and a half analog SAN."
+    },
+    {
+     "t0_ms": 1888750,
+     "text": "And the problems are becoming more complicated in data centers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1892630,
+   "t1_ms": 1917270,
+   "speaker": "Management",
+   "text": "So, you know, it's going to increase the sophistication and the pricing capabilities of the solution. So, you know, my sense is it's not unreasonable. You know, we had in our earnings day, which was what, 2021, I think it was, we had said we thought our business could grow 5 to 7 percent. You know, we're contemplating something higher in the out years from here.",
+   "parts": [
+    {
+     "t0_ms": 1892630,
+     "text": "So, you know, it's going to increase the sophistication and the pricing capabilities of the solution."
+    },
+    {
+     "t0_ms": 1900230,
+     "text": "So, you know, my sense is it's not unreasonable."
+    },
+    {
+     "t0_ms": 1903990,
+     "text": "You know, we had in our earnings day, which was what, 2021, I think it was, we had said we thought our business could grow 5 to 7 percent."
+    },
+    {
+     "t0_ms": 1912170,
+     "text": "You know, we're contemplating something higher in the out years from here."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1919600,
+   "t1_ms": 1920060,
+   "speaker": "Analyst",
+   "text": "Thank you so much.",
+   "parts": [
+    {
+     "t0_ms": 1919600,
+     "text": "Thank you so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1923710,
+   "t1_ms": 1927690,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question comes from Mark Lapassus with Evercore. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1923710,
+     "text": "Thank you. Our next question comes from Mark Lapassus with Evercore. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1929390,
+   "t1_ms": 1964570,
+   "speaker": "Analyst",
+   "text": "Hi, great. Thanks for taking my question. And maybe if I could follow up on that. And Vince, thanks for putting a number out there in a double digit range. The last time ADI revenues were above that long term 5 to 7 percent trend line was, you know, back in the late 90s to early 2000. And there were similar arguments being made about, you know, the build out of the Internet and, you know, there's telecom deregulation. And I'm wondering, Vince, if you could just, you know, go back in time.",
+   "parts": [
+    {
+     "t0_ms": 1929390,
+     "text": "Hi, great. Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1931650,
+     "text": "And maybe if I could follow up on that."
+    },
+    {
+     "t0_ms": 1934970,
+     "text": "And Vince, thanks for putting a number out there in a double digit range."
+    },
+    {
+     "t0_ms": 1940730,
+     "text": "The last time ADI revenues were above that long term 5 to 7 percent trend line was, you know, back in the late 90s to early 2000."
+    },
+    {
+     "t0_ms": 1953030,
+     "text": "And there were similar arguments being made about, you know, the build out of the Internet and, you know, there's telecom deregulation."
+    },
+    {
+     "t0_ms": 1960270,
+     "text": "And I'm wondering, Vince, if you could just, you know, go back in time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1964970,
+   "t1_ms": 1983130,
+   "speaker": "Analyst",
+   "text": "Compare, you know, what what is the difference between, you know, the secular dynamics you see today and what, you know, many people saw back then, which ended up bringing analog revenues, not just yours, but the industry back down to that 5 to 7 percent. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1964970,
+     "text": "Compare, you know, what what is the difference between, you know, the secular dynamics you see today and what, you know, many people saw back then, which ended up bringing analog revenues, not just yours, but the industry back down to that 5 to 7 percent."
+    },
+    {
+     "t0_ms": 1982770,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1983570,
+   "t1_ms": 2025650,
+   "speaker": "Management",
+   "text": "Yeah, I think first off, because I looked through that myself, the the concentration was much, you know, was quite high at the. At the time. At the time. At the time. At the time. At the time. At the time. What I'm seeing now, I mean, if you look at the industry in the intervening period of time. More and more intelligence has been brought into the world of information technology, more edge, more intelligent edge. And that's increased, I think, just the the Sam, the time and the Sam for the analog sector with every bit of information that's been processed. The value of that content has increased with every bit. With every watt.",
+   "parts": [
+    {
+     "t0_ms": 1983570,
+     "text": "Yeah, I think first off, because I looked through that myself, the the concentration was much, you know, was quite high at the."
+    },
+    {
+     "t0_ms": 1994750,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1994770,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1994810,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1994870,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1994930,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1994970,
+     "text": "At the time."
+    },
+    {
+     "t0_ms": 1996290,
+     "text": "What I'm seeing now, I mean, if you look at the industry in the intervening period of time."
+    },
+    {
+     "t0_ms": 2001970,
+     "text": "More and more intelligence has been brought into the world of information technology, more edge, more intelligent edge."
+    },
+    {
+     "t0_ms": 2010710,
+     "text": "And that's increased, I think, just the the Sam, the time and the Sam for the analog sector with every bit of information that's been processed."
+    },
+    {
+     "t0_ms": 2020170,
+     "text": "The value of that content has increased with every bit."
+    },
+    {
+     "t0_ms": 2024150,
+     "text": "With every watt."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2025650,
+   "t1_ms": 2067070,
+   "speaker": "Management",
+   "text": "And, you know, so what we're seeing on if you look at ADI just as a company, the portfolio, the breadth of our portfolio, the depth of our portfolio, the number of places in which we play is far, far greater. So, as I said in my prepared remarks, what we've built into this company's business model is optionality. We get to we get to pick or the markets chooses for the asymmetries. And then we have these compounding. Businesses that make the company extremely resilient. So I think from our perspective, the industry is just it's broader, it's deeper. Analog is much, much more important.",
+   "parts": [
+    {
+     "t0_ms": 2025650,
+     "text": "And, you know, so what we're seeing on if you look at ADI just as a company, the portfolio, the breadth of our portfolio, the depth of our portfolio, the number of places in which we play is far, far greater."
+    },
+    {
+     "t0_ms": 2040510,
+     "text": "So, as I said in my prepared remarks, what we've built into this company's business model is optionality."
+    },
+    {
+     "t0_ms": 2047650,
+     "text": "We get to we get to pick or the markets chooses for the asymmetries."
+    },
+    {
+     "t0_ms": 2052909,
+     "text": "And then we have these compounding."
+    },
+    {
+     "t0_ms": 2054150,
+     "text": "Businesses that make the company extremely resilient."
+    },
+    {
+     "t0_ms": 2057810,
+     "text": "So I think from our perspective, the industry is just it's broader, it's deeper."
+    },
+    {
+     "t0_ms": 2065070,
+     "text": "Analog is much, much more important."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2067650,
+   "t1_ms": 2108270,
+   "speaker": "Management",
+   "text": "And, you know, the whole we think over the next twenty five, fifty years, a lot of economic growth is going to be built on externalized intelligence. The the gravity field of pulling everything with it. But I think. The pervasiveness of what the the analog industry offers now in general is much, much greater. And we've got this gravity field, irrespective of what might happen from a cyclical perspective in the in the coming years. My sense is we have never, ever had a cycle like we've now got just its breadth, its depth and this gravity field of AI to pull it along.",
+   "parts": [
+    {
+     "t0_ms": 2067650,
+     "text": "And, you know, the whole we think over the next twenty five, fifty years, a lot of economic growth is going to be built on externalized intelligence."
+    },
+    {
+     "t0_ms": 2079350,
+     "text": "The the gravity field of pulling everything with it."
+    },
+    {
+     "t0_ms": 2083489,
+     "text": "But I think."
+    },
+    {
+     "t0_ms": 2084150,
+     "text": "The pervasiveness of what the the analog industry offers now in general is much, much greater."
+    },
+    {
+     "t0_ms": 2089969,
+     "text": "And we've got this gravity field, irrespective of what might happen from a cyclical perspective in the in the coming years."
+    },
+    {
+     "t0_ms": 2097770,
+     "text": "My sense is we have never, ever had a cycle like we've now got just its breadth, its depth and this gravity field of AI to pull it along."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2110070,
+   "t1_ms": 2118830,
+   "speaker": "Operator",
+   "text": "Thank you, Mark. Appreciate the thoughts. Take our next question, please. Thank you. Our next question comes from Blaine Curtis with Jefferies. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2110070,
+     "text": "Thank you, Mark."
+    },
+    {
+     "t0_ms": 2110910,
+     "text": "Appreciate the thoughts."
+    },
+    {
+     "t0_ms": 2112450,
+     "text": "Take our next question, please."
+    },
+    {
+     "t0_ms": 2114150,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2115610,
+     "text": "Our next question comes from Blaine Curtis with Jefferies."
+    },
+    {
+     "t0_ms": 2118170,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2119390,
+   "t1_ms": 2159140,
+   "speaker": "Management",
+   "text": "Hey, morning, guys. Next question. I want to ask just going back to the data center. But I guess you in the past referred to AI exposure that includes ATE. I'm just trying to as you look at the growth calculus and you have the data center part growing triple digits. Curious how to frame the opportunity for ATE. And I don't know if you're willing to break out how big that was. Yeah, Blaine. So in the in the past, you're right. We've talked about this AI exposure as ATE. Plus our data center business combined. Those are 20 percent of ADI, you know, without giving numbers for four years of growth. I mean, I think clearly we've got a lot of confidence, which importantly is backed up by our design and activity. Right. It's not just hopes and dreams.",
+   "parts": [
+    {
+     "t0_ms": 2119390,
+     "text": "Hey, morning, guys."
+    },
+    {
+     "t0_ms": 2120170,
+     "text": "Next question."
+    },
+    {
+     "t0_ms": 2121050,
+     "text": "I want to ask just going back to the data center."
+    },
+    {
+     "t0_ms": 2123150,
+     "text": "But I guess you in the past referred to AI exposure that includes ATE."
+    },
+    {
+     "t0_ms": 2127230,
+     "text": "I'm just trying to as you look at the growth calculus and you have the data center part growing triple digits."
+    },
+    {
+     "t0_ms": 2134130,
+     "text": "Curious how to frame the opportunity for ATE."
+    },
+    {
+     "t0_ms": 2137530,
+     "text": "And I don't know if you're willing to break out how big that was."
+    },
+    {
+     "t0_ms": 2141800,
+     "text": "Yeah, Blaine."
+    },
+    {
+     "t0_ms": 2142260,
+     "text": "So in the in the past, you're right."
+    },
+    {
+     "t0_ms": 2143420,
+     "text": "We've talked about this AI exposure as ATE."
+    },
+    {
+     "t0_ms": 2145280,
+     "text": "Plus our data center business combined."
+    },
+    {
+     "t0_ms": 2147060,
+     "text": "Those are 20 percent of ADI, you know, without giving numbers for four years of growth."
+    },
+    {
+     "t0_ms": 2153000,
+     "text": "I mean, I think clearly we've got a lot of confidence, which importantly is backed up by our design and activity."
+    },
+    {
+     "t0_ms": 2157860,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2157980,
+     "text": "It's not just hopes and dreams."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2159400,
+   "t1_ms": 2182200,
+   "speaker": "Management",
+   "text": "If we look at our pipeline, the design activity with customers is strong in ATE as well as across data center, not just in power, but optical as well. Right. You heard Vince on the prepared remarks. So at a high level, I mean, that 20 percent of ADI has got a really strong growth tailwind behind us. And we feel like it's multi-year. Right. And that's and again, that's confidence because of our design activity, because of our backlog, our pipeline and the bookings momentum.",
+   "parts": [
+    {
+     "t0_ms": 2159400,
+     "text": "If we look at our pipeline, the design activity with customers is strong in ATE as well as across data center, not just in power, but optical as well."
+    },
+    {
+     "t0_ms": 2166060,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2166220,
+     "text": "You heard Vince on the prepared remarks."
+    },
+    {
+     "t0_ms": 2168040,
+     "text": "So at a high level, I mean, that 20 percent of ADI has got a really strong growth tailwind behind us."
+    },
+    {
+     "t0_ms": 2173500,
+     "text": "And we feel like it's multi-year."
+    },
+    {
+     "t0_ms": 2175280,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2175980,
+     "text": "And that's and again, that's confidence because of our design activity, because of our backlog, our pipeline and the bookings momentum."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2182700,
+   "t1_ms": 2185930,
+   "speaker": "Operator",
+   "text": "OK, thank you.",
+   "parts": [
+    {
+     "t0_ms": 2182700,
+     "text": "OK, thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2186510,
+   "t1_ms": 2188290,
+   "speaker": "Management",
+   "text": "Thanks, Blaine. We'll take our next question, please.",
+   "parts": [
+    {
+     "t0_ms": 2186510,
+     "text": "Thanks, Blaine."
+    },
+    {
+     "t0_ms": 2187070,
+     "text": "We'll take our next question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2189070,
+   "t1_ms": 2193330,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question comes from Matthew Prisco with Cantor. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2189070,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2189690,
+     "text": "Our next question comes from Matthew Prisco with Cantor."
+    },
+    {
+     "t0_ms": 2192630,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2194950,
+   "t1_ms": 2239200,
+   "speaker": "Management",
+   "text": "Yeah, thanks for taking the question. So, you know, lots of talk about this really strong demand backdrop for years to come. So how do we think about ADI's supply capabilities today as these revenues continue to higher? At what point do we need to start? We're thinking about capacity additions. And are there any constraints arising in the supply chain today or any areas that you see potential pressure in as we move forward? Thank you. Yeah, well, clearly, Rich. Yeah, sure. I'll start, Matt. And then Vince maybe can talk some more about the longer term piece. But, you know, from our perspective, we really are executing well from a supply chain. As we've talked about, we've been able to deliver above seasonal growth for nine straight quarters. We're guiding to a tenth. We're continuing to build inventory.",
+   "parts": [
+    {
+     "t0_ms": 2194950,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 2196390,
+     "text": "So, you know, lots of talk about this really strong demand backdrop for years to come."
+    },
+    {
+     "t0_ms": 2200690,
+     "text": "So how do we think about ADI's supply capabilities today as these revenues continue to higher?"
+    },
+    {
+     "t0_ms": 2205550,
+     "text": "At what point do we need to start?"
+    },
+    {
+     "t0_ms": 2207290,
+     "text": "We're thinking about capacity additions."
+    },
+    {
+     "t0_ms": 2208970,
+     "text": "And are there any constraints arising in the supply chain today or any areas that you see potential pressure in as we move forward?"
+    },
+    {
+     "t0_ms": 2216130,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2219260,
+     "text": "Yeah, well, clearly, Rich."
+    },
+    {
+     "t0_ms": 2220900,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 2221420,
+     "text": "I'll start, Matt."
+    },
+    {
+     "t0_ms": 2222300,
+     "text": "And then Vince maybe can talk some more about the longer term piece."
+    },
+    {
+     "t0_ms": 2225140,
+     "text": "But, you know, from our perspective, we really are executing well from a supply chain."
+    },
+    {
+     "t0_ms": 2230740,
+     "text": "As we've talked about, we've been able to deliver above seasonal growth for nine straight quarters."
+    },
+    {
+     "t0_ms": 2235400,
+     "text": "We're guiding to a tenth."
+    },
+    {
+     "t0_ms": 2237340,
+     "text": "We're continuing to build inventory."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2239240,
+   "t1_ms": 2280480,
+   "speaker": "Management",
+   "text": "We're reflecting our ability to expand our internal capacity. We've talked about we continue to install new tools in available spaces as we are. And we're also getting more wafers externally. So we feel like we're very, very well positioned for the near and medium term demand. You know, obviously, across the industry, there's some soft spots and, you know, lead times have started to extend. But we're working really hard to keep them in check. Obviously, this demand acceleration is going to be a big part of that. And I think the demand acceleration is pretty unprecedented in recent memory. But, you know, we think we're very well positioned. You know, we have a book to bill, as we've talked about, that's above one.",
+   "parts": [
+    {
+     "t0_ms": 2239240,
+     "text": "We're reflecting our ability to expand our internal capacity."
+    },
+    {
+     "t0_ms": 2243240,
+     "text": "We've talked about we continue to install new tools in available spaces as we are."
+    },
+    {
+     "t0_ms": 2247480,
+     "text": "And we're also getting more wafers externally."
+    },
+    {
+     "t0_ms": 2251360,
+     "text": "So we feel like we're very, very well positioned for the near and medium term demand."
+    },
+    {
+     "t0_ms": 2256460,
+     "text": "You know, obviously, across the industry, there's some soft spots and, you know, lead times have started to extend."
+    },
+    {
+     "t0_ms": 2263180,
+     "text": "But we're working really hard to keep them in check."
+    },
+    {
+     "t0_ms": 2266920,
+     "text": "Obviously, this demand acceleration is going to be a big part of that."
+    },
+    {
+     "t0_ms": 2269020,
+     "text": "And I think the demand acceleration is pretty unprecedented in recent memory."
+    },
+    {
+     "t0_ms": 2273260,
+     "text": "But, you know, we think we're very well positioned."
+    },
+    {
+     "t0_ms": 2276600,
+     "text": "You know, we have a book to bill, as we've talked about, that's above one."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2280480,
+   "t1_ms": 2323960,
+   "speaker": "Management",
+   "text": "We're not in that sort of unusually high space from a book to bill perspective. You know, we are also, and this helps us from a manufacturing efficiency perspective, we are getting a bit better visibility. You know, we have some more orders coming in a bit longer term. Now, frankly, we asked our customers to help us. By doing that, it gives us the ability to be more precise in leveraging the capacity we have. So we think we feel like we're in a good position. We do continue to add capacity as we go. And I'll give my two cents. You know, we are scenario planning what this could look like if this kind of growth sustains and how we would balance across our hybrid manufacturing with additional external wafers.",
+   "parts": [
+    {
+     "t0_ms": 2280480,
+     "text": "We're not in that sort of unusually high space from a book to bill perspective."
+    },
+    {
+     "t0_ms": 2284640,
+     "text": "You know, we are also, and this helps us from a manufacturing efficiency perspective, we are getting a bit better visibility."
+    },
+    {
+     "t0_ms": 2293260,
+     "text": "You know, we have some more orders coming in a bit longer term."
+    },
+    {
+     "t0_ms": 2296460,
+     "text": "Now, frankly, we asked our customers to help us."
+    },
+    {
+     "t0_ms": 2299020,
+     "text": "By doing that, it gives us the ability to be more precise in leveraging the capacity we have."
+    },
+    {
+     "t0_ms": 2304120,
+     "text": "So we think we feel like we're in a good position."
+    },
+    {
+     "t0_ms": 2306880,
+     "text": "We do continue to add capacity as we go."
+    },
+    {
+     "t0_ms": 2309780,
+     "text": "And I'll give my two cents."
+    },
+    {
+     "t0_ms": 2311920,
+     "text": "You know, we are scenario planning what this could look like if this kind of growth sustains and how we would balance across our hybrid manufacturing with additional external wafers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2324200,
+   "t1_ms": 2358720,
+   "speaker": "Management",
+   "text": "But also whether we need to add capacity beyond what we're already doing. And I think that's something that we've been doing for the last three to four years. Yeah, I think in addition, not only do we look to continue to increase the scope of our internal manufacturing capabilities, we have a number of great partners externally as well that we work with both on the front ends and back ends. So we're, I would say, jointly planning with our partners to take a long view to how we support our partners. And I think that's something that we're looking to do. And I think that's something that we're looking to do. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2324200,
+     "text": "But also whether we need to add capacity beyond what we're already doing."
+    },
+    {
+     "t0_ms": 2329020,
+     "text": "And I think that's something that we've been doing for the last three to four years."
+    },
+    {
+     "t0_ms": 2332020,
+     "text": "Yeah, I think in addition, not only do we look to continue to increase the scope of our internal manufacturing capabilities,"
+    },
+    {
+     "t0_ms": 2342980,
+     "text": "we have a number of great partners externally as well that we work with both on the front ends and back ends."
+    },
+    {
+     "t0_ms": 2351040,
+     "text": "So we're, I would say, jointly planning with our partners to take a long view to how we support our partners."
+    },
+    {
+     "t0_ms": 2357040,
+     "text": "And I think that's something that we're looking to do."
+    },
+    {
+     "t0_ms": 2357920,
+     "text": "And I think that's something that we're looking to do."
+    },
+    {
+     "t0_ms": 2358280,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2358720,
+   "t1_ms": 2402600,
+   "speaker": "Management",
+   "text": "We support all the various nodes that are critical to ADI from, you know, the lithographically insensitive nodes, if you like, kind of six micrometers, that kind of level right down to five nanometers and three nanometers. So that's what we did during the COVID cycle, just that we continued to extend the capability of that hybrid manufacturing system. That is our strategy going ahead. And, you know, just... Remember, a couple of years ago, it was expected that the selling industry in totality might reach a trillion dollars by 2030. Well, that's kind of in the wake at this point. And we're looking to something much, much bigger.",
+   "parts": [
+    {
+     "t0_ms": 2358720,
+     "text": "We support all the various nodes that are critical to ADI from, you know, the lithographically insensitive nodes, if you like, kind of six micrometers, that kind of level right down to five nanometers and three nanometers."
+    },
+    {
+     "t0_ms": 2372580,
+     "text": "So that's what we did during the COVID cycle, just that we continued to extend the capability of that hybrid manufacturing system."
+    },
+    {
+     "t0_ms": 2383560,
+     "text": "That is our strategy going ahead."
+    },
+    {
+     "t0_ms": 2386780,
+     "text": "And, you know, just..."
+    },
+    {
+     "t0_ms": 2388720,
+     "text": "Remember, a couple of years ago, it was expected that the selling industry in totality might reach a trillion dollars by 2030."
+    },
+    {
+     "t0_ms": 2397220,
+     "text": "Well, that's kind of in the wake at this point."
+    },
+    {
+     "t0_ms": 2400560,
+     "text": "And we're looking to something much, much bigger."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2402600,
+   "t1_ms": 2414780,
+   "speaker": "Management",
+   "text": "So the industry has a big, big task to get ahead of what we now think the new growth trajectory is, including ADI. Thank you. We'll take our last question, please.",
+   "parts": [
+    {
+     "t0_ms": 2402600,
+     "text": "So the industry has a big, big task to get ahead of what we now think the new growth trajectory is, including ADI."
+    },
+    {
+     "t0_ms": 2411980,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2412880,
+     "text": "We'll take our last question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2415220,
+   "t1_ms": 2422900,
+   "speaker": "Operator",
+   "text": "Thank you. And our last question comes from... Joshua Buckhalter with TD Cowan. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2415220,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2418460,
+     "text": "And our last question comes from..."
+    },
+    {
+     "t0_ms": 2420580,
+     "text": "Joshua Buckhalter with TD Cowan."
+    },
+    {
+     "t0_ms": 2422260,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2424320,
+   "t1_ms": 2456380,
+   "speaker": "Management",
+   "text": "Hey, guys. Congratulations on the very strong results and guidance. Thanks for squeezing me in. The 74% gross margin outlook, you know, is pretty staggering. And we're back to those 2022 peak levels. It's also coming without all that much incremental utilization torque. I guess bigger picture, through cycle, is that a number that you think you can sort of hold and grow off of? And I guess as we think longer term, can you speak to how you're prioritizing revenue growth? Versus margins, if you are, like, is this low to mid 70% level, one that you intend to manage to long term, I guess?",
+   "parts": [
+    {
+     "t0_ms": 2424320,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 2424880,
+     "text": "Congratulations on the very strong results and guidance."
+    },
+    {
+     "t0_ms": 2427020,
+     "text": "Thanks for squeezing me in."
+    },
+    {
+     "t0_ms": 2428620,
+     "text": "The 74% gross margin outlook, you know, is pretty staggering."
+    },
+    {
+     "t0_ms": 2432380,
+     "text": "And we're back to those 2022 peak levels."
+    },
+    {
+     "t0_ms": 2435160,
+     "text": "It's also coming without all that much incremental utilization torque."
+    },
+    {
+     "t0_ms": 2439540,
+     "text": "I guess bigger picture, through cycle, is that a number that you think you can sort of hold and grow off of?"
+    },
+    {
+     "t0_ms": 2445300,
+     "text": "And I guess as we think longer term, can you speak to how you're prioritizing revenue growth?"
+    },
+    {
+     "t0_ms": 2450580,
+     "text": "Versus margins, if you are, like, is this low to mid 70% level, one that you intend to manage to long term, I guess?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2456600,
+   "t1_ms": 2457040,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2456600,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2458380,
+   "t1_ms": 2501760,
+   "speaker": "Management",
+   "text": "Sure. So I do think, as I previously mentioned, Joshua, we can continue to grow, excuse me, continue to maintain that sort of roughly 74% level. And we will continue to focus, and I said this in the last call, we will continue to focus on growth investments, which some of them may put some pressure on margins. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. Right. But when you look at the balance of our portfolio and the parts of the portfolio that continue to grow, the opportunity to maintain that margin exists. We are getting, as you mentioned, a ton of benefit by running the factories at the higher utilizations, which we expect we'll sustain throughout this upcycle. So, you know, we feel pretty good.",
+   "parts": [
+    {
+     "t0_ms": 2458380,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2458860,
+     "text": "So I do think, as I previously mentioned, Joshua, we can continue to grow, excuse me, continue to maintain that sort of roughly 74% level."
+    },
+    {
+     "t0_ms": 2469040,
+     "text": "And we will continue to focus, and I said this in the last call, we will continue to focus on growth investments, which some of them may put some pressure on margins."
+    },
+    {
+     "t0_ms": 2479240,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479420,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479500,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479540,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479600,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479660,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479680,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479740,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479800,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479820,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479880,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479900,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479920,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479960,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2479980,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480000,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480020,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480040,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480060,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480080,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480120,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480180,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480220,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2480580,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481580,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481620,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481640,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481680,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481740,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481880,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2481980,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482000,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482060,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482180,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482240,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482300,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482480,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482580,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482620,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482680,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482760,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482900,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2482980,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2483020,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 2483080,
+     "text": "But when you look at the balance of our portfolio and the parts of the portfolio that continue to grow, the opportunity to maintain that margin exists."
+    },
+    {
+     "t0_ms": 2491300,
+     "text": "We are getting, as you mentioned, a ton of benefit by running the factories at the higher utilizations, which we expect we'll sustain throughout this upcycle."
+    },
+    {
+     "t0_ms": 2500260,
+     "text": "So, you know, we feel pretty good."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2501820,
+   "t1_ms": 2545260,
+   "speaker": "Management",
+   "text": "We're going to balance the investments we need to make to grow with maintaining that, you know, relatively maintaining that margin. I said this last quarter, and I'll repeat it. I'll repeat it here. I don't think, for instance, there's a ton of room to get more margin accretion out of utilization. But we are, you know, we are still only in a 49% industrial mix. So if the mix shifts, there's potential for upside or at least to be able to offset any potential headwinds. Because the other thing that is going to happen is we expect that the inflationary environment will continue. Now, we'll continue to monitor and track and focus on that as we have historically. But I do think we're, you know, in a pretty balanced position for the medium and long term here.",
+   "parts": [
+    {
+     "t0_ms": 2501820,
+     "text": "We're going to balance the investments we need to make to grow with maintaining that, you know, relatively maintaining that margin."
+    },
+    {
+     "t0_ms": 2508040,
+     "text": "I said this last quarter, and I'll repeat it."
+    },
+    {
+     "t0_ms": 2510080,
+     "text": "I'll repeat it here."
+    },
+    {
+     "t0_ms": 2511180,
+     "text": "I don't think, for instance, there's a ton of room to get more margin accretion out of utilization."
+    },
+    {
+     "t0_ms": 2516780,
+     "text": "But we are, you know, we are still only in a 49% industrial mix."
+    },
+    {
+     "t0_ms": 2522120,
+     "text": "So if the mix shifts, there's potential for upside or at least to be able to offset any potential headwinds."
+    },
+    {
+     "t0_ms": 2528500,
+     "text": "Because the other thing that is going to happen is we expect that the inflationary environment will continue."
+    },
+    {
+     "t0_ms": 2534600,
+     "text": "Now, we'll continue to monitor and track and focus on that as we have historically."
+    },
+    {
+     "t0_ms": 2540080,
+     "text": "But I do think we're, you know, in a pretty balanced position for the medium and long term here."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2545700,
+   "t1_ms": 2576860,
+   "speaker": "Management",
+   "text": "Yeah, I think just one other comment. I mean, the origin of the high gross margin structures is the innovation premium that we attract. So our job is to keep that premium moving. And then, you know, the cycles help get the efficiency in manufacturing and so on and so forth. So those two things. One is obviously very strategic. The other operational. But those two parts we see having a lot of legs for a lot of years. The come our customers are asking us to tackle more difficult problems, take on more of the work, so to speak.",
+   "parts": [
+    {
+     "t0_ms": 2545700,
+     "text": "Yeah, I think just one other comment."
+    },
+    {
+     "t0_ms": 2547480,
+     "text": "I mean, the origin of the high gross margin structures is the innovation premium that we attract."
+    },
+    {
+     "t0_ms": 2553300,
+     "text": "So our job is to keep that premium moving."
+    },
+    {
+     "t0_ms": 2556660,
+     "text": "And then, you know, the cycles help get the efficiency in manufacturing and so on and so forth."
+    },
+    {
+     "t0_ms": 2561920,
+     "text": "So those two things."
+    },
+    {
+     "t0_ms": 2562940,
+     "text": "One is obviously very strategic."
+    },
+    {
+     "t0_ms": 2565180,
+     "text": "The other operational."
+    },
+    {
+     "t0_ms": 2565900,
+     "text": "But those two parts we see having a lot of legs for a lot of years."
+    },
+    {
+     "t0_ms": 2570080,
+     "text": "The come our customers are asking us to tackle more difficult problems, take on more of the work, so to speak."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2577960,
+   "t1_ms": 2600480,
+   "speaker": "Management",
+   "text": "And the breadth and the depth of the high performance portfolio have positions as well to continue to make that, you know, that early stage, the origin of the gross margin, a continuing critical part of ADO's value proposition. Thank you both and congrats again. Thank you. Thanks, Josh.",
+   "parts": [
+    {
+     "t0_ms": 2577960,
+     "text": "And the breadth and the depth of the high performance portfolio have positions as well to continue to make that, you know, that early stage, the origin of the gross margin, a continuing critical part of ADO's value proposition."
+    },
+    {
+     "t0_ms": 2597100,
+     "text": "Thank you both and congrats again."
+    },
+    {
+     "t0_ms": 2598640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2600080,
+     "text": "Thanks, Josh."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2602260,
+   "t1_ms": 2608020,
+   "speaker": "Operator",
+   "text": "Thank you. This concludes the question and answer session. I would now like to turn it back to Jeff Ambrose for closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 2602260,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2603000,
+     "text": "This concludes the question and answer session."
+    },
+    {
+     "t0_ms": 2605080,
+     "text": "I would now like to turn it back to Jeff Ambrose for closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2608960,
+   "t1_ms": 2625940,
+   "speaker": "Management",
+   "text": "Hey, thanks, everyone, for joining us. A copy of the transcript will be available on our website and all available reconciliations and additional information can also be found in the quarterly results section of our investor relations website, investor.analog.com. Thank you for your continued interest in analog devices and have a good day.",
+   "parts": [
+    {
+     "t0_ms": 2608960,
+     "text": "Hey, thanks, everyone, for joining us."
+    },
+    {
+     "t0_ms": 2610880,
+     "text": "A copy of the transcript will be available on our website and all available reconciliations and additional information can also be found in the quarterly results section of our investor relations website, investor.analog.com."
+    },
+    {
+     "t0_ms": 2622600,
+     "text": "Thank you for your continued interest in analog devices and have a good day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2626260,
+   "t1_ms": 2630880,
+   "speaker": "Operator",
+   "text": "This concludes today's analog devices conference call.",
+   "parts": [
+    {
+     "t0_ms": 2626260,
+     "text": "This concludes today's analog devices conference call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2631240,
+   "t1_ms": 2632160,
+   "speaker": "Management",
+   "text": "You may. Now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 2631240,
+     "text": "You may."
+    },
+    {
+     "t0_ms": 2631520,
+     "text": "Now disconnect."
+    }
+   ]
+  }
+ ]
+}

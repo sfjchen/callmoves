@@ -1,14 +1,14 @@
 // Server-only submission queue: validates a call submitted from the form or POST /api/calls, rate-limits by
 // hashed IP, and inserts it into callmoves_submissions for the GitHub Actions worker (pipeline/callmoves/worker.py).
 // Uses the service key: the table has row-level security with no policies, so the browser never reads it directly.
-import { TZ } from "./format";
+import { SECTOR, TZ } from "./format";
 import { count, field, hashIp, ipHourCount } from "./request";
 import { SB_SERVICE, SB_URL, sb } from "./supabase";
 
 const TABLE = "callmoves_submissions";
 const PER_IP_HOUR = 3;     // submissions per IP per hour
 const PER_DAY = 20;        // submissions per day across everyone, so a spam run cannot exhaust the worker
-export const ETFS = ["XLF", "XLK", "XLY", "XLC", "XLV", "XLE", "XLI", "XLP", "XLU", "XLB", "XLRE", "SPY"];
+export const ETFS = [...Object.keys(SECTOR), "SPY"];   // the sector ETFs the library groups by, or the market
 
 export const ERRORS = {
   config: [503, "Submissions are not configured here."],

@@ -67,7 +67,7 @@ export function shortQuarter(q: string): string {
 export const SECTOR: Record<string, string> = {
   XLF: "Financials", XLV: "Health care", XLI: "Industrials", XLK: "Technology", XLC: "Communication",
   XLY: "Consumer discretionary", XLP: "Consumer staples", XLE: "Energy", XLU: "Utilities", XLB: "Materials",
-  XLRE: "Real estate", IGV: "Software",
+  XLRE: "Real estate", IGV: "Software", SMH: "Semis and AI hardware",
 };
 
 // Typical wait for a submitted call, from README "Cost and speed" and the worker's cron in

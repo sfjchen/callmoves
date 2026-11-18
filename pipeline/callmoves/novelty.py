@@ -5,7 +5,6 @@ the claim's numbers appear in the document, or the sentence overlaps heavily wit
 """
 from __future__ import annotations
 
-import os
 import re
 
 from pydantic import BaseModel
@@ -141,10 +140,12 @@ def judge_novelty_llm(claims: list[Claim], release: str, prior: str) -> list[Cla
 
 
 def judge_novelty(claims: list[Claim], release: str, prior: str) -> list[Claim]:
-    """Judges every claim with Claude when ANTHROPIC_API_KEY is set, falling back to the rules on failure."""
-    if os.environ.get("ANTHROPIC_API_KEY"):
+    """Judges every claim with Claude when a Claude backend is set, falling back to the rules on failure."""
+    if llm.backend():
         try:
             return judge_novelty_llm(claims, release, prior)
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
+            if llm.backend() == "cli":   # an owner-added call publishes Claude's verdicts or nothing
+                raise
             print(f"claude novelty failed, using rules: {str(e)[:160]}")
     return [judge_novelty_rules(c, release, prior) for c in claims]

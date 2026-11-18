@@ -1,11 +1,10 @@
 """Pulls structured claims out of management's statements.
 
-Uses Claude (structured output) when ANTHROPIC_API_KEY is set, otherwise a rule-based extractor,
+Uses Claude (structured output) when llm.backend() is set, otherwise a rule-based extractor,
 so the pipeline and tests run offline. Both return the same Claim shape.
 """
 from __future__ import annotations
 
-import os
 import re
 from datetime import timedelta
 from typing import Literal
@@ -103,10 +102,10 @@ _SYSTEM = (
 
 
 def extract_claims(segments: list[Segment]) -> tuple[list[Claim], bool]:
-    """Returns (claims, llm_used). With ANTHROPIC_API_KEY, Claude extracts the claims, 1 call per chunk of management
+    """Returns (claims, llm_used). With a Claude backend, Claude extracts the claims, 1 call per chunk of management
     turns, and a claim whose quote is not verbatim in its turn is dropped. Falls back to the rules if the API call
     fails (no credits, network)."""
-    if os.environ.get("ANTHROPIC_API_KEY"):
+    if llm.backend():
         try:
             by_id = {s.seg_id: s for s in segments}
             chunks: list[list[Segment]] = []
@@ -128,6 +127,8 @@ def extract_claims(segments: list[Segment]) -> tuple[list[Claim], bool]:
                                         quote=c.quote.strip(), metric=c.metric, value=c.value, period=c.period,
                                         kind=c.kind, ts=_claim_ts(seg, c.quote)))
             return claims, True
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
+            if llm.backend() == "cli":   # an owner-added call publishes Claude's claims or nothing
+                raise
             print(f"claude extraction failed, using rules: {str(e)[:160]}")
     return extract_claims_rules(segments), False

@@ -98,7 +98,8 @@ def run(fixture: Path) -> CallOutput:
     ckey = hashlib.sha256((repr([(s.seg_id, s.text) for s in candidates]) + release + prior).encode()).hexdigest()[:16]
     claims, llm_used = _cached(fixture / "llm_claims.json", ckey, "claims", Claim, extract)
     if llm.USAGE:   # Claude ran this time (a cache hit costs nothing and keeps the recorded cost)
-        stats |= {"claude_s": round(time.time() - t0), "claude_tokens": dict(llm.USAGE),
+        stats |= {"claude_s": round(time.time() - t0), "claude_backend": llm.backend(),
+                  "claude_tokens": dict(llm.USAGE),
                   "claude_usd": round(sum(n * llm.PRICE[k] for k, n in llm.USAGE.items()) / 1e6, 4)}
         stats_path.write_text(json.dumps(stats))
 

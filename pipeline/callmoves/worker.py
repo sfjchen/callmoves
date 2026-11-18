@@ -4,10 +4,17 @@ callmoves_calls and marks the row done or failed. Runs on GitHub Actions (.githu
 per run, or locally:
 
     python -m callmoves.worker            # needs SUPABASE_URL and SUPABASE_SERVICE_KEY, the other keys optional
+    CALLMOVES_LLM=cli python -m callmoves.worker --batch calls.json   # owner-added calls, no queue, subscription
+
+A batch file is a JSON array of rows shaped like callmoves_submissions (ticker, quarter, company, etf, call_start,
+audio_url, release_url, prior_url). Batch calls skip the queue, so the GitHub worker never claims them, and land in
+data/<ticker>_<quarter> under CALLMOVES_WORK like the committed calls.
 """
 from __future__ import annotations
 
+import argparse
 import ipaddress
+import json
 import os
 import socket
 import sys
@@ -78,7 +85,8 @@ def download(url: str, dst: Path, max_mb: int) -> Path:
 def process(sub: dict, root: Path) -> str:
     """Builds the call folder for 1 submission, runs the pipeline, publishes it and returns the call id."""
     call_id = f"{sub['ticker']}_{sub['quarter']}"
-    raw, out = root / "raw" / call_id, root / "data" / call_id
+    folder = call_id.lower().replace("-", "_")   # the committed calls' folder style, e.g. wfc_q3_2026
+    raw, out = root / "raw" / folder, root / "data" / folder
     raw.mkdir(parents=True, exist_ok=True)
     release = download(sub["release_url"], raw / "release.html", MAX_DOC_MB)   # documents first: they fail fast
     prior = download(sub["prior_url"], raw / "prior.html", MAX_DOC_MB) if sub.get("prior_url") else None
@@ -95,8 +103,22 @@ def process(sub: dict, root: Path) -> str:
 
 
 def main() -> int:
-    """Processes at most 1 submission. Exits 0 when the queue is empty or the call is done, 1 when it failed."""
+    """Processes at most 1 queued submission, or every call in --batch. Exits 0 when the queue is empty or every
+    call is done, 1 when one failed."""
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--batch", type=Path, help="JSON array of calls to process locally, skipping the queue")
+    args = ap.parse_args()
     load_dotenv()
+    root = Path(os.environ.get("CALLMOVES_WORK", "work"))
+    if args.batch:
+        failed = 0
+        for sub in json.loads(args.batch.read_text()):
+            try:
+                print(f"done {process(sub, root)}", flush=True)
+            except Exception as e:  # noqa: BLE001 - 1 bad source must not stop the batch
+                failed += 1
+                print(f"failed {sub['ticker']} {sub['quarter']}: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
+        return int(failed > 0)
     db = db_client()
     rows = db.rpc("callmoves_claim_submission").execute().data
     if not rows:
@@ -105,7 +127,7 @@ def main() -> int:
     sub = rows[0]
     print(f"processing {sub['ticker']} {sub['quarter']} ({sub['id']})", flush=True)
     try:
-        call_id = process(sub, Path(os.environ.get("CALLMOVES_WORK", "work")))
+        call_id = process(sub, root)
     except Exception as e:  # noqa: BLE001 - any failure is recorded on the row, the submitter sees it on /submit
         db.table(TABLE).update({"finished_at": datetime.now(UTC).isoformat(), "status": "failed",
                                 "error": f"{type(e).__name__}: {e}"[:300]}).eq("id", sub["id"]).execute()
