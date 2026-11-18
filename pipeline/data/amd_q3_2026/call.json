@@ -1,0 +1,4663 @@
+{
+ "ticker": "AMD",
+ "quarter": "Q3-2026",
+ "company": "Advanced Micro Devices",
+ "call_start": "2026-11-03T17:00:00-05:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/AMD_Q3-2026.mp3",
+ "audio_offset_ms": 50,
+ "segments": [
+  {
+   "t0_ms": 50,
+   "t1_ms": 28250,
+   "speaker": "Operator",
+   "text": "Welcome to the AMD third quarter 2026 conference call. At this time, all participants are in a listen-only mode. A question and answer session will follow the formal presentation. If anyone should require operator assistance during the conference, please press star zero on your telephone keypad. And please note that this conference is being recorded. I will now turn the conference over to Matt Ramsey, VP Financial Strategy, NIR. Thank you, Matt. You may begin.",
+   "parts": [
+    {
+     "t0_ms": 50,
+     "text": "Welcome to the AMD third quarter 2026 conference call."
+    },
+    {
+     "t0_ms": 4570,
+     "text": "At this time, all participants are in a listen-only mode."
+    },
+    {
+     "t0_ms": 8150,
+     "text": "A question and answer session will follow the formal presentation."
+    },
+    {
+     "t0_ms": 11530,
+     "text": "If anyone should require operator assistance during the conference,"
+    },
+    {
+     "t0_ms": 14550,
+     "text": "please press star zero on your telephone keypad."
+    },
+    {
+     "t0_ms": 17510,
+     "text": "And please note that this conference is being recorded."
+    },
+    {
+     "t0_ms": 20510,
+     "text": "I will now turn the conference over to Matt Ramsey, VP Financial Strategy, NIR."
+    },
+    {
+     "t0_ms": 26250,
+     "text": "Thank you, Matt."
+    },
+    {
+     "t0_ms": 27490,
+     "text": "You may begin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 28250,
+   "t1_ms": 71450,
+   "speaker": "Management",
+   "text": "Thank you, and welcome to AMD's third quarter 2026 financial results conference call. By now, you should have had the opportunity to review a copy of our earnings press release and the accompanying slides. If you have not had the chance to review these materials, they can be found on the investor relations page of AMD.com. We will refer primarily to non-GAAP financial measures during today's call. The full non-GAAP-to-GAAP reconciliations are available in today's call. We will also review the results of today's press release and slides posted on our website. Participants on today's conference call include Dr. Lisa Hsu, our chair and CEO, and Gene Hu, Executive Vice President, CFO, and Treasurer.",
+   "parts": [
+    {
+     "t0_ms": 28250,
+     "text": "Thank you, and welcome to AMD's third quarter 2026 financial results conference call."
+    },
+    {
+     "t0_ms": 35890,
+     "text": "By now, you should have had the opportunity to review a copy of our earnings press release"
+    },
+    {
+     "t0_ms": 41030,
+     "text": "and the accompanying slides."
+    },
+    {
+     "t0_ms": 43210,
+     "text": "If you have not had the chance to review these materials,"
+    },
+    {
+     "t0_ms": 46050,
+     "text": "they can be found on the investor relations page of AMD.com."
+    },
+    {
+     "t0_ms": 50130,
+     "text": "We will refer primarily to non-GAAP financial measures during today's call."
+    },
+    {
+     "t0_ms": 54670,
+     "text": "The full non-GAAP-to-GAAP reconciliations are available"
+    },
+    {
+     "t0_ms": 57810,
+     "text": "in today's call."
+    },
+    {
+     "t0_ms": 58250,
+     "text": "We will also review the results of today's press release and slides posted on our website."
+    },
+    {
+     "t0_ms": 61830,
+     "text": "Participants on today's conference call include Dr. Lisa Hsu, our chair and CEO,"
+    },
+    {
+     "t0_ms": 68210,
+     "text": "and Gene Hu, Executive Vice President, CFO, and Treasurer."
+    }
+   ]
+  },
+  {
+   "t0_ms": 71990,
+   "t1_ms": 112910,
+   "speaker": "Management",
+   "text": "This is a live call and will be replayed via webcast on our website. Before we begin, I would like to note that AMD will participate in the following events with the financial community this quarter. The UBS Technology and AI Conference on Tuesday, December 1st, and Barclays' 24th Annual Global Technology Conference on Wednesday, December 9th. Today's discussion contains forward-looking statements based on our current beliefs, assumptions, and expectations, including forward-looking statements regarding financial projections, business and industry trends that speak only as of today and as such involve risks",
+   "parts": [
+    {
+     "t0_ms": 71990,
+     "text": "This is a live call and will be replayed via webcast on our website."
+    },
+    {
+     "t0_ms": 76790,
+     "text": "Before we begin, I would like to note that AMD will participate in the following events"
+    },
+    {
+     "t0_ms": 81670,
+     "text": "with the financial community this quarter."
+    },
+    {
+     "t0_ms": 83890,
+     "text": "The UBS Technology and AI Conference on Tuesday, December 1st,"
+    },
+    {
+     "t0_ms": 88250,
+     "text": "and Barclays' 24th Annual Global Technology Conference on Wednesday, December 9th."
+    },
+    {
+     "t0_ms": 96190,
+     "text": "Today's discussion contains forward-looking statements based on our current beliefs,"
+    },
+    {
+     "t0_ms": 101790,
+     "text": "assumptions, and expectations, including forward-looking statements regarding financial"
+    },
+    {
+     "t0_ms": 106430,
+     "text": "projections, business and industry trends that speak only as of today and as such involve risks"
+    }
+   ]
+  },
+  {
+   "t0_ms": 112910,
+   "t1_ms": 157230,
+   "speaker": "Management",
+   "text": "and uncertainties that could cause actual results to differ materially from our current expectations. Please refer to the UBS Technology and AI Conference on Tuesday, December 9th, and Barclays' 24th Annual Global Technology Conference on Wednesday, December 9th, to the cautionary statement in our press release for more information on the factors that could cause actual results to differ materially. With that, I will hand the call over to Lisa. Thank you, Matt, and good afternoon to all those listening today. The third quarter was the largest and most profitable in our history as we began ramping our next-generation data center products. Revenue increased 45% year-over-year to $13.4 billion, driven by record Epic and Instinct sales. We saw a significant growth in our revenue growth, and strong embedded growth. Earnings per share grew even faster, increasing 74% to $2.09.",
+   "parts": [
+    {
+     "t0_ms": 112910,
+     "text": "and uncertainties that could cause actual results to differ materially from our current expectations."
+    },
+    {
+     "t0_ms": 118430,
+     "text": "Please refer to the UBS Technology and AI Conference on Tuesday, December 9th,"
+    },
+    {
+     "t0_ms": 119730,
+     "text": "and Barclays' 24th Annual Global Technology Conference on Wednesday, December 9th,"
+    },
+    {
+     "t0_ms": 119770,
+     "text": "to the cautionary statement in our press release for more information on the factors that could"
+    },
+    {
+     "t0_ms": 123970,
+     "text": "cause actual results to differ materially."
+    },
+    {
+     "t0_ms": 126890,
+     "text": "With that, I will hand the call over to Lisa."
+    },
+    {
+     "t0_ms": 130090,
+     "text": "Thank you, Matt, and good afternoon to all those listening today."
+    },
+    {
+     "t0_ms": 134110,
+     "text": "The third quarter was the largest and most profitable in our history as we began ramping"
+    },
+    {
+     "t0_ms": 139130,
+     "text": "our next-generation data center products."
+    },
+    {
+     "t0_ms": 142390,
+     "text": "Revenue increased 45% year-over-year to $13.4 billion, driven by record Epic and Instinct"
+    },
+    {
+     "t0_ms": 149110,
+     "text": "sales."
+    },
+    {
+     "t0_ms": 149730,
+     "text": "We saw a significant growth in our revenue growth, and strong embedded growth."
+    },
+    {
+     "t0_ms": 152250,
+     "text": "Earnings per share grew even faster, increasing 74% to $2.09."
+    }
+   ]
+  },
+  {
+   "t0_ms": 158410,
+   "t1_ms": 200400,
+   "speaker": "Management",
+   "text": "We executed very well in the quarter, with Helios production ramping as planned and Epic adoption expanding across cloud, enterprise, and superintelligence workloads. Data center revenue growth has accelerated sequentially every quarter this year, with the segment contributing 64% of total revenue in the third quarter, up from 47% just one year ago. We expect that acceleration to continue in the fourth quarter, driven by increased demand for inference and agentic workloads, and the ramp of our newest products. Turning to our segments, data center revenue grew 97% year-over-year to a record $8.5 billion.",
+   "parts": [
+    {
+     "t0_ms": 158410,
+     "text": "We executed very well in the quarter, with Helios production ramping as planned and Epic"
+    },
+    {
+     "t0_ms": 163770,
+     "text": "adoption expanding across cloud, enterprise, and superintelligence workloads."
+    },
+    {
+     "t0_ms": 170580,
+     "text": "Data center revenue growth has accelerated sequentially every quarter this year, with"
+    },
+    {
+     "t0_ms": 174780,
+     "text": "the segment contributing 64% of total revenue in the third quarter, up from 47% just one year ago."
+    },
+    {
+     "t0_ms": 181240,
+     "text": "We expect that acceleration to continue in the fourth quarter, driven by increased demand"
+    },
+    {
+     "t0_ms": 187860,
+     "text": "for inference and agentic workloads, and the ramp of our newest products."
+    },
+    {
+     "t0_ms": 191680,
+     "text": "Turning to our segments, data center revenue grew 97% year-over-year to a record $8.5 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 200400,
+   "t1_ms": 241290,
+   "speaker": "Management",
+   "text": "In server, both cloud and enterprise sales more than doubled year-over-year. We significantly exceeded our previous outlook of more than 80% growth as we gained revenue share. We are now in the third quarter, with the segment contributing 64% to $2.09. We are now in the fourth quarter, with the segment contributing 64% to $2.09. We are now in the third quarter, with the segment contributing 64% to $2.09. We are now in the third quarter, with agentic workloads contributing significant growth. Hyperscalers deployed substantial volumes of Epic servers in the quarter to run more internal services and expand their public cloud offerings. TURN is now the most widely deployed Epic generation in the public cloud with more than 540 instance types available globally from the largest providers.",
+   "parts": [
+    {
+     "t0_ms": 200400,
+     "text": "In server, both cloud and enterprise sales more than doubled year-over-year."
+    },
+    {
+     "t0_ms": 207300,
+     "text": "We significantly exceeded our previous outlook of more than 80% growth as we gained revenue"
+    },
+    {
+     "t0_ms": 212240,
+     "text": "share."
+    },
+    {
+     "t0_ms": 214520,
+     "text": "We are now in the third quarter, with the segment contributing 64% to $2.09."
+    },
+    {
+     "t0_ms": 215520,
+     "text": "We are now in the fourth quarter, with the segment contributing 64% to $2.09."
+    },
+    {
+     "t0_ms": 216520,
+     "text": "We are now in the third quarter, with the segment contributing 64% to $2.09."
+    },
+    {
+     "t0_ms": 217520,
+     "text": "We are now in the third quarter, with agentic workloads contributing significant growth."
+    },
+    {
+     "t0_ms": 220080,
+     "text": "Hyperscalers deployed substantial volumes of Epic servers in the quarter to run more"
+    },
+    {
+     "t0_ms": 227410,
+     "text": "internal services and expand their public cloud offerings."
+    },
+    {
+     "t0_ms": 230870,
+     "text": "TURN is now the most widely deployed Epic generation in the public cloud with more than"
+    },
+    {
+     "t0_ms": 237070,
+     "text": "540 instance types available globally from the largest providers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 241290,
+   "t1_ms": 284840,
+   "speaker": "Management",
+   "text": "Cloud providers also added significant Epic capacity in the quarter for personal and enterprise agents, which are quickly becoming the next killer app for CPUs in the cloud. Meta's Muse and OpenAI's DOTS illustrate how quickly personal agents are growing, with more than 10 million people activating Muse agents in the first six weeks. Enterprises are moving fast as well, putting agents to work across software development, supply chain, and IT operations. These agents work continuously and in parallel across applications and enterprise systems, adding to accelerator demand while creating a substantial increase in CPU demand.",
+   "parts": [
+    {
+     "t0_ms": 241290,
+     "text": "Cloud providers also added significant Epic capacity in the quarter for personal and enterprise"
+    },
+    {
+     "t0_ms": 247620,
+     "text": "agents, which are quickly becoming the next killer app for CPUs in the cloud."
+    },
+    {
+     "t0_ms": 252080,
+     "text": "Meta's Muse and OpenAI's DOTS illustrate how quickly personal agents are growing, with"
+    },
+    {
+     "t0_ms": 258620,
+     "text": "more than 10 million people activating Muse agents in the first six weeks."
+    },
+    {
+     "t0_ms": 265170,
+     "text": "Enterprises are moving fast as well, putting agents to work across software development,"
+    },
+    {
+     "t0_ms": 269170,
+     "text": "supply chain, and IT operations."
+    },
+    {
+     "t0_ms": 273250,
+     "text": "These agents work continuously and in parallel across applications and enterprise systems,"
+    },
+    {
+     "t0_ms": 278050,
+     "text": "adding to accelerator demand while creating a substantial increase in CPU demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 284840,
+   "t1_ms": 328700,
+   "speaker": "Management",
+   "text": "Adoption is just starting, and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work. In head nodes, we won major deployments with several of the largest model developers and cloud providers in the quarter, which will ramp over the coming quarters. Epic's leadership performance and mature ecosystem, proven at scale, have made it the host CPU of choice for custom accelerators. As one example, OpenAI selected Turin Epic processors as the host CPU of choice for custom accelerators. In enterprise, Epic's server sell-through was a record, with strong demand from new and existing customers.",
+   "parts": [
+    {
+     "t0_ms": 284840,
+     "text": "Adoption is just starting, and we expect demand to grow sharply as agents are deployed"
+    },
+    {
+     "t0_ms": 289260,
+     "text": "more broadly and take on more complex work."
+    },
+    {
+     "t0_ms": 293870,
+     "text": "In head nodes, we won major deployments with several of the largest model developers and"
+    },
+    {
+     "t0_ms": 298050,
+     "text": "cloud providers in the quarter, which will ramp over the coming quarters."
+    },
+    {
+     "t0_ms": 302370,
+     "text": "Epic's leadership performance and mature ecosystem, proven at scale, have made it the"
+    },
+    {
+     "t0_ms": 308130,
+     "text": "host CPU of choice for custom accelerators."
+    },
+    {
+     "t0_ms": 312250,
+     "text": "As one example, OpenAI selected Turin Epic processors as the host CPU of choice for custom"
+    },
+    {
+     "t0_ms": 315250,
+     "text": "accelerators."
+    },
+    {
+     "t0_ms": 316190,
+     "text": "In enterprise, Epic's server sell-through was a record, with strong demand from new"
+    },
+    {
+     "t0_ms": 326080,
+     "text": "and existing customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 328700,
+   "t1_ms": 370430,
+   "speaker": "Management",
+   "text": "We added dozens of first-time Epic customers in the quarter, including large financial services, communications, retail, and healthcare companies. Existing customers are also making Epic their primary compute platform, extending adoption from specific workloads to a much larger share of their overall infrastructure. We began revenue sharing in the first quarter. We have more than 1,000 shipments of Epic Venice processors in the third quarter, and the first OEM systems are on track for availability this quarter. Early demand is the strongest we have seen for any new Epic generation. Our OEM and ODM partners have committed more than 240 Venice platforms, 20% more than Turin,",
+   "parts": [
+    {
+     "t0_ms": 328700,
+     "text": "We added dozens of first-time Epic customers in the quarter, including large financial"
+    },
+    {
+     "t0_ms": 333040,
+     "text": "services, communications, retail, and healthcare companies."
+    },
+    {
+     "t0_ms": 338220,
+     "text": "Existing customers are also making Epic their primary compute platform, extending adoption"
+    },
+    {
+     "t0_ms": 342900,
+     "text": "from specific workloads to a much larger share of their overall infrastructure."
+    },
+    {
+     "t0_ms": 349650,
+     "text": "We began revenue sharing in the first quarter."
+    },
+    {
+     "t0_ms": 350570,
+     "text": "We have more than 1,000 shipments of Epic Venice processors in the third quarter, and"
+    },
+    {
+     "t0_ms": 353510,
+     "text": "the first OEM systems are on track for availability this quarter."
+    },
+    {
+     "t0_ms": 358630,
+     "text": "Early demand is the strongest we have seen for any new Epic generation."
+    },
+    {
+     "t0_ms": 363090,
+     "text": "Our OEM and ODM partners have committed more than 240 Venice platforms, 20% more than Turin,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 370430,
+   "t1_ms": 412050,
+   "speaker": "Management",
+   "text": "and cloud providers are deploying Venice this quarter ahead of instance rollouts planned for early 2027. We recently launched Helion, a Venice reference design that enables the cloud to deploy its latest applications to the cloud. We have a new OEM system, which is a new OEM system, and we are working on developing a new OEM system for our customers. Helion is a new OEM system that enables turnkey Epic rack scale systems for agentic infrastructure. Customers can configure Helion for their workloads, from all-CPU racks for hyperscalers to enterprise systems combining Venice and Instinct GPUs that can run agents and models together. In the all-CPU configuration, a single Helion rack has up to 144 Venice processors with nearly 74,000 threads, delivering the highest agent density in the industry. Helion is a new OEM system that has been developed for the first time in the last 20 years. We are working on developing a new OEM system for our customers. We are working on developing a new OEM system for our customers.",
+   "parts": [
+    {
+     "t0_ms": 370430,
+     "text": "and cloud providers are deploying Venice this quarter ahead of instance rollouts planned"
+    },
+    {
+     "t0_ms": 374850,
+     "text": "for early 2027."
+    },
+    {
+     "t0_ms": 378930,
+     "text": "We recently launched Helion, a Venice reference design that enables the cloud to deploy its"
+    },
+    {
+     "t0_ms": 380490,
+     "text": "latest applications to the cloud."
+    },
+    {
+     "t0_ms": 381490,
+     "text": "We have a new OEM system, which is a new OEM system, and we are working on developing a"
+    },
+    {
+     "t0_ms": 382090,
+     "text": "new OEM system for our customers."
+    },
+    {
+     "t0_ms": 383090,
+     "text": "Helion is a new OEM system that enables turnkey Epic rack scale systems for agentic infrastructure."
+    },
+    {
+     "t0_ms": 387830,
+     "text": "Customers can configure Helion for their workloads, from all-CPU racks for hyperscalers to enterprise"
+    },
+    {
+     "t0_ms": 393870,
+     "text": "systems combining Venice and Instinct GPUs that can run agents and models together."
+    },
+    {
+     "t0_ms": 400710,
+     "text": "In the all-CPU configuration, a single Helion rack has up to 144 Venice processors with"
+    },
+    {
+     "t0_ms": 407290,
+     "text": "nearly 74,000 threads, delivering the highest agent density in the industry."
+    },
+    {
+     "t0_ms": 410150,
+     "text": "Helion is a new OEM system that has been developed for the first time in the last 20 years."
+    },
+    {
+     "t0_ms": 411150,
+     "text": "We are working on developing a new OEM system for our customers."
+    },
+    {
+     "t0_ms": 411650,
+     "text": "We are working on developing a new OEM system for our customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 412050,
+   "t1_ms": 451690,
+   "speaker": "Management",
+   "text": "Every major server OEM and ODM plans to offer Helion with the first systems shipping this quarter. Looking more broadly, demand for server compute is accelerating across cloud, enterprise, agentic, and superintelligence infrastructure. Epic is the industry's broadest portfolio, spanning all of these markets, with per-socket leadership for cloud and agents, per-core leadership for enterprise and head nodes, and memory and I.O. options tuned to each workload. Venice builds on that leadership with significantly better performance per watt, performance per",
+   "parts": [
+    {
+     "t0_ms": 412050,
+     "text": "Every major server OEM and ODM plans to offer Helion with the first systems shipping this"
+    },
+    {
+     "t0_ms": 419610,
+     "text": "quarter."
+    },
+    {
+     "t0_ms": 420350,
+     "text": "Looking more broadly, demand for server compute is accelerating across cloud, enterprise,"
+    },
+    {
+     "t0_ms": 427830,
+     "text": "agentic, and superintelligence infrastructure."
+    },
+    {
+     "t0_ms": 431930,
+     "text": "Epic is the industry's broadest portfolio, spanning all of these markets, with per-socket"
+    },
+    {
+     "t0_ms": 436910,
+     "text": "leadership for cloud and agents, per-core leadership for enterprise and head nodes,"
+    },
+    {
+     "t0_ms": 441890,
+     "text": "and memory and I.O. options tuned to each workload."
+    },
+    {
+     "t0_ms": 445510,
+     "text": "Venice builds on that leadership with significantly better performance per watt, performance per"
+    }
+   ]
+  },
+  {
+   "t0_ms": 451690,
+   "t1_ms": 495800,
+   "speaker": "Management",
+   "text": "core and performance per dollar than any other x86 or ARM server CPU, positioning us to gain share and significantly grow our server business as the TAM grows to approximately $220 billion by 2030. Turning to our data center AI business, Frontier Labs, hyperscalers and cloud providers expanded instinct deployments for inferencing and training, driving record revenue. We started shipping MI455X in volume in the quarter and lead customers including Anthropic, Meta, Microsoft, OpenAI and Oracle brought their first Helio racks online quickly.",
+   "parts": [
+    {
+     "t0_ms": 451690,
+     "text": "core and performance per dollar than any other x86 or ARM server CPU, positioning us to gain"
+    },
+    {
+     "t0_ms": 459310,
+     "text": "share and significantly grow our server business as the TAM grows to approximately $220 billion"
+    },
+    {
+     "t0_ms": 465990,
+     "text": "by 2030."
+    },
+    {
+     "t0_ms": 466990,
+     "text": "Turning to our data center AI business, Frontier Labs, hyperscalers and cloud providers expanded"
+    },
+    {
+     "t0_ms": 476340,
+     "text": "instinct deployments for inferencing and training, driving record revenue."
+    },
+    {
+     "t0_ms": 481580,
+     "text": "We started shipping MI455X in volume in the quarter and lead customers including Anthropic,"
+    },
+    {
+     "t0_ms": 488120,
+     "text": "Meta, Microsoft, OpenAI and Oracle brought their first Helio racks online quickly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 495800,
+   "t1_ms": 537290,
+   "speaker": "Management",
+   "text": "Customers are now running their latest models and workloads on Helios and we are seeing very strong performance with the initial deployments. We expect Helios deployments to increase substantially. In the fourth quarter, as production continues to ramp and HPE, Dell, Lenovo, Supermicro and other OEM and ODM partners begin shipping systems. We are very pleased with the overall performance we are seeing at the rack level. MI455X leads in compute flops, memory capacity and scale out bandwidth. And as Helios comes to market, it delivers an even larger lead in memory bandwidth and higher scale up bandwidth than the competition.",
+   "parts": [
+    {
+     "t0_ms": 495800,
+     "text": "Customers are now running their latest models and workloads on Helios and we are seeing"
+    },
+    {
+     "t0_ms": 499800,
+     "text": "very strong performance with the initial deployments."
+    },
+    {
+     "t0_ms": 503820,
+     "text": "We expect Helios deployments to increase substantially."
+    },
+    {
+     "t0_ms": 506320,
+     "text": "In the fourth quarter, as production continues to ramp and HPE, Dell, Lenovo, Supermicro and"
+    },
+    {
+     "t0_ms": 512940,
+     "text": "other OEM and ODM partners begin shipping systems."
+    },
+    {
+     "t0_ms": 518610,
+     "text": "We are very pleased with the overall performance we are seeing at the rack level."
+    },
+    {
+     "t0_ms": 522690,
+     "text": "MI455X leads in compute flops, memory capacity and scale out bandwidth."
+    },
+    {
+     "t0_ms": 529230,
+     "text": "And as Helios comes to market, it delivers an even larger lead in memory bandwidth and"
+    },
+    {
+     "t0_ms": 533990,
+     "text": "higher scale up bandwidth than the competition."
+    }
+   ]
+  },
+  {
+   "t0_ms": 537730,
+   "t1_ms": 582070,
+   "speaker": "Management",
+   "text": "We are working closely with our manufacturing and OEM partners to scale production as customers expand their deployments. In supercomputing, EuroHPC selected Instinct MI430X GPUs and 6th Gen EPYC processors for LumiAI, Europe's next flagship supercomputer planned to come online in the second half of 2027. MI430X delivers nearly nine times the double precision performance of the competition, which is critical for scientific simulations. As a result, MI430X has now been selected to power next generation systems around the world and we are well positioned to win additional designs as governments and research centers",
+   "parts": [
+    {
+     "t0_ms": 537730,
+     "text": "We are working closely with our manufacturing and OEM partners to scale production as customers"
+    },
+    {
+     "t0_ms": 542970,
+     "text": "expand their deployments."
+    },
+    {
+     "t0_ms": 546750,
+     "text": "In supercomputing, EuroHPC selected Instinct MI430X GPUs and 6th Gen EPYC processors for"
+    },
+    {
+     "t0_ms": 553890,
+     "text": "LumiAI, Europe's next flagship supercomputer planned to come online in the second half"
+    },
+    {
+     "t0_ms": 559390,
+     "text": "of 2027."
+    },
+    {
+     "t0_ms": 561390,
+     "text": "MI430X delivers nearly nine times the double precision performance of the competition,"
+    },
+    {
+     "t0_ms": 567310,
+     "text": "which is critical for scientific simulations."
+    },
+    {
+     "t0_ms": 569810,
+     "text": "As a result, MI430X has now been selected to power next generation systems around the"
+    },
+    {
+     "t0_ms": 575950,
+     "text": "world and we are well positioned to win additional designs as governments and research centers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 582070,
+   "t1_ms": 624480,
+   "speaker": "Management",
+   "text": "plan their next major investments. In software, we launched Rokom 10 with major enhancements for production deployments at scale, including faster startup across large GPU clusters and greater resilience for long running workloads. Rokom 10 also adds Agentech Performance. This is a great example of how Rokom 10 can be used to build a large GPU cluster. Rokom 10 is a very popular tool for performance tuning with Rokom.ai, which profiles workloads, identifies bottlenecks, and applies and validates improvements, turning weeks of engineering optimization into hours. Customers are also using their own agents to optimize models on our open software stack. For example, Anthropic highlighted that one engineer used Claude to bring up their latest",
+   "parts": [
+    {
+     "t0_ms": 582070,
+     "text": "plan their next major investments."
+    },
+    {
+     "t0_ms": 586640,
+     "text": "In software, we launched Rokom 10 with major enhancements for production deployments at"
+    },
+    {
+     "t0_ms": 591620,
+     "text": "scale, including faster startup across large GPU clusters and greater resilience for long"
+    },
+    {
+     "t0_ms": 597540,
+     "text": "running workloads."
+    },
+    {
+     "t0_ms": 598960,
+     "text": "Rokom 10 also adds Agentech Performance."
+    },
+    {
+     "t0_ms": 600960,
+     "text": "This is a great example of how Rokom 10 can be used to build a large GPU cluster."
+    },
+    {
+     "t0_ms": 601960,
+     "text": "Rokom 10 is a very popular tool for performance tuning with Rokom.ai, which profiles workloads,"
+    },
+    {
+     "t0_ms": 606780,
+     "text": "identifies bottlenecks, and applies and validates improvements, turning weeks of engineering"
+    },
+    {
+     "t0_ms": 611200,
+     "text": "optimization into hours."
+    },
+    {
+     "t0_ms": 613800,
+     "text": "Customers are also using their own agents to optimize models on our open software stack."
+    },
+    {
+     "t0_ms": 619020,
+     "text": "For example, Anthropic highlighted that one engineer used Claude to bring up their latest"
+    }
+   ]
+  },
+  {
+   "t0_ms": 624480,
+   "t1_ms": 668750,
+   "speaker": "Management",
+   "text": "model on Instinct MI355 XRacks over a single weekend with strong performance. Our work with Frontier Labs is already enabling their models to handle complex software development and performance tuning for Instinct. And as those capabilities continue to improve, the benefits extend to everyone in the AMD ecosystem. We announced two acquisitions in the quarter to strengthen our superintelligence portfolio. Talos brings a highly experienced engineering team and specialized silicon built for low latency, efficient inference. We plan to integrate their technology across our solutions portfolio to address the growing demand for low latency superintelligence applications.",
+   "parts": [
+    {
+     "t0_ms": 624480,
+     "text": "model on Instinct MI355 XRacks over a single weekend with strong performance."
+    },
+    {
+     "t0_ms": 630960,
+     "text": "Our work with Frontier Labs is already enabling their models to handle complex software development"
+    },
+    {
+     "t0_ms": 637500,
+     "text": "and performance tuning for Instinct."
+    },
+    {
+     "t0_ms": 639220,
+     "text": "And as those capabilities continue to improve, the benefits extend to everyone in the AMD ecosystem."
+    },
+    {
+     "t0_ms": 648050,
+     "text": "We announced two acquisitions in the quarter to strengthen our superintelligence portfolio."
+    },
+    {
+     "t0_ms": 653270,
+     "text": "Talos brings a highly experienced engineering team and specialized silicon built for low latency,"
+    },
+    {
+     "t0_ms": 658770,
+     "text": "efficient inference."
+    },
+    {
+     "t0_ms": 659490,
+     "text": "We plan to integrate their technology across our solutions portfolio to address the growing demand"
+    },
+    {
+     "t0_ms": 665890,
+     "text": "for low latency superintelligence applications."
+    }
+   ]
+  },
+  {
+   "t0_ms": 670800,
+   "t1_ms": 712920,
+   "speaker": "Management",
+   "text": "World Labs, led by co-founder and CEO Dr. Fei-Fei Li, brings a world-class research team with expertise in spatial intelligence and models that understand the physical world, giving us deeper insight into how Frontier models and workloads are evolving. Fei-Fei will join AMD as chief scientist, and will be working with us to develop a new model of software and systems for the future. We expect both acquisitions to close by the end of the year. Looking ahead, our focus is on execution at scale. The ramps of Venice, the MI450 series, and Helios are still early, and all three are on track to grow significantly.",
+   "parts": [
+    {
+     "t0_ms": 670800,
+     "text": "World Labs, led by co-founder and CEO Dr. Fei-Fei Li, brings a world-class research team"
+    },
+    {
+     "t0_ms": 676500,
+     "text": "with expertise in spatial intelligence and models that understand the physical world,"
+    },
+    {
+     "t0_ms": 681880,
+     "text": "giving us deeper insight into how Frontier models and workloads are evolving."
+    },
+    {
+     "t0_ms": 687060,
+     "text": "Fei-Fei will join AMD as chief scientist,"
+    },
+    {
+     "t0_ms": 691120,
+     "text": "and will be working with us to develop a new model of software and systems for the future."
+    },
+    {
+     "t0_ms": 695220,
+     "text": "We expect both acquisitions to close by the end of the year."
+    },
+    {
+     "t0_ms": 701620,
+     "text": "Looking ahead, our focus is on execution at scale."
+    },
+    {
+     "t0_ms": 705460,
+     "text": "The ramps of Venice, the MI450 series, and Helios are still early,"
+    },
+    {
+     "t0_ms": 710340,
+     "text": "and all three are on track to grow significantly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 714020,
+   "t1_ms": 757560,
+   "speaker": "Management",
+   "text": "We now expect data center segment revenue growth to accelerate in the fourth quarter, and full year segment revenue to more than double from 2025. Our visibility into 2027 also continues to strengthen. Last quarter, we said we expected annual server revenue to grow more than 70%, and data center segment revenue to more than double for the year. Since then, customers have expanded their Epic and Instinct deployment plans, and we have secured more supply to support that growth. We now expect server revenue to double year over year in 2027. And data center AI revenue to grow even faster than we projected 90 days ago.",
+   "parts": [
+    {
+     "t0_ms": 714020,
+     "text": "We now expect data center segment revenue growth to accelerate in the fourth quarter,"
+    },
+    {
+     "t0_ms": 718900,
+     "text": "and full year segment revenue to more than double from 2025."
+    },
+    {
+     "t0_ms": 722560,
+     "text": "Our visibility into 2027 also continues to strengthen."
+    },
+    {
+     "t0_ms": 729200,
+     "text": "Last quarter, we said we expected annual server revenue to grow more than 70%,"
+    },
+    {
+     "t0_ms": 734480,
+     "text": "and data center segment revenue to more than double for the year."
+    },
+    {
+     "t0_ms": 739120,
+     "text": "Since then, customers have expanded their Epic and Instinct deployment plans,"
+    },
+    {
+     "t0_ms": 743860,
+     "text": "and we have secured more supply to support that growth."
+    },
+    {
+     "t0_ms": 748620,
+     "text": "We now expect server revenue to double year over year in 2027."
+    },
+    {
+     "t0_ms": 752560,
+     "text": "And data center AI revenue to grow even faster than we projected 90 days ago."
+    }
+   ]
+  },
+  {
+   "t0_ms": 758580,
+   "t1_ms": 799400,
+   "speaker": "Management",
+   "text": "As a result, we expect data center to be more than 80% of our total revenue in 2027, and to drive the majority of our revenue and earnings growth. Looking further out, customer engagements for MI500 continue to progress very well. Interest is very high, as it is another significant leap forward in performance. We are working very closely with multiple frontiers, and we are working closely with our third-tier labs to optimize MI500 for their workloads, as they plan multi-gigawatt deployments. Turning to client and gaming, segment revenue decreased 8% year-over-year to $3.7 billion.",
+   "parts": [
+    {
+     "t0_ms": 758580,
+     "text": "As a result, we expect data center to be more than 80% of our total revenue in 2027,"
+    },
+    {
+     "t0_ms": 765200,
+     "text": "and to drive the majority of our revenue and earnings growth."
+    },
+    {
+     "t0_ms": 770310,
+     "text": "Looking further out, customer engagements for MI500 continue to progress very well."
+    },
+    {
+     "t0_ms": 776290,
+     "text": "Interest is very high, as it is another significant leap forward in performance."
+    },
+    {
+     "t0_ms": 781030,
+     "text": "We are working very closely with multiple frontiers,"
+    },
+    {
+     "t0_ms": 784070,
+     "text": "and we are working closely with our third-tier labs to optimize MI500 for their workloads,"
+    },
+    {
+     "t0_ms": 787870,
+     "text": "as they plan multi-gigawatt deployments."
+    },
+    {
+     "t0_ms": 790370,
+     "text": "Turning to client and gaming, segment revenue decreased 8% year-over-year to $3.7 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 800800,
+   "t1_ms": 844800,
+   "speaker": "Management",
+   "text": "In client, revenue increased 7% year-over-year to $2.9 billion, driven by strong sales of our Ryzen mobile processors. Commercial is becoming a larger part of our client business, as large enterprises adopt Ryzen Pro PCs across their entire business, and the market is growing rapidly. 8 of the 10 largest banks in the world, and 7 of the 10 largest healthcare and automotive companies, now use Ryzen Pro PCs. OEMs continue expanding their AMD-based commercial lineups, from everyday business PCs to high-end workstations. HP, Lenovo, and others launched the first commercial notebooks and small form factor desktops, featuring our newest Ryzen AI Max Pro 400 series processors.",
+   "parts": [
+    {
+     "t0_ms": 800800,
+     "text": "In client, revenue increased 7% year-over-year to $2.9 billion,"
+    },
+    {
+     "t0_ms": 805520,
+     "text": "driven by strong sales of our Ryzen mobile processors."
+    },
+    {
+     "t0_ms": 809960,
+     "text": "Commercial is becoming a larger part of our client business,"
+    },
+    {
+     "t0_ms": 812620,
+     "text": "as large enterprises adopt Ryzen Pro PCs across their entire business,"
+    },
+    {
+     "t0_ms": 815800,
+     "text": "and the market is growing rapidly."
+    },
+    {
+     "t0_ms": 817800,
+     "text": "8 of the 10 largest banks in the world, and 7 of the 10 largest healthcare and automotive companies,"
+    },
+    {
+     "t0_ms": 823800,
+     "text": "now use Ryzen Pro PCs."
+    },
+    {
+     "t0_ms": 827800,
+     "text": "OEMs continue expanding their AMD-based commercial lineups,"
+    },
+    {
+     "t0_ms": 830800,
+     "text": "from everyday business PCs to high-end workstations."
+    },
+    {
+     "t0_ms": 835800,
+     "text": "HP, Lenovo, and others launched the first commercial notebooks and small form factor desktops,"
+    },
+    {
+     "t0_ms": 840800,
+     "text": "featuring our newest Ryzen AI Max Pro 400 series processors."
+    }
+   ]
+  },
+  {
+   "t0_ms": 845800,
+   "t1_ms": 885430,
+   "speaker": "Management",
+   "text": "These systems deliver workstation-class performance, and run superintelligence models with up to 300 billion parameters locally. Looking at the market, PC sell-through slowed late in the quarter, as higher memory and component costs weighed on demand. We are managing the business accordingly, aligning sell-in with sell-through, to keep customer and channel inventory healthy. In 2027, we are planning for PC market unit shipments to decline by a double-digit factor. In this environment, we expect to outperform the market, as we deliver our Ryzen roadmap and grow our commercial footprint.",
+   "parts": [
+    {
+     "t0_ms": 845800,
+     "text": "These systems deliver workstation-class performance,"
+    },
+    {
+     "t0_ms": 848800,
+     "text": "and run superintelligence models with up to 300 billion parameters locally."
+    },
+    {
+     "t0_ms": 853800,
+     "text": "Looking at the market, PC sell-through slowed late in the quarter,"
+    },
+    {
+     "t0_ms": 859430,
+     "text": "as higher memory and component costs weighed on demand."
+    },
+    {
+     "t0_ms": 863430,
+     "text": "We are managing the business accordingly, aligning sell-in with sell-through,"
+    },
+    {
+     "t0_ms": 867430,
+     "text": "to keep customer and channel inventory healthy."
+    },
+    {
+     "t0_ms": 871430,
+     "text": "In 2027, we are planning for PC market unit shipments to decline by a double-digit factor."
+    },
+    {
+     "t0_ms": 877430,
+     "text": "In this environment, we expect to outperform the market,"
+    },
+    {
+     "t0_ms": 881430,
+     "text": "as we deliver our Ryzen roadmap and grow our commercial footprint."
+    }
+   ]
+  },
+  {
+   "t0_ms": 885430,
+   "t1_ms": 925210,
+   "speaker": "Management",
+   "text": "In gaming, revenue declined 40% year-over-year to $773 million, primarily due to lower semi-custom sales as expected at this stage of the console cycle. Gaming graphics revenue declined year-over-year, while Radeon GPU channel sell-through increased sequentially. Beyond gaming, Radeon AI Pro is a new technology, and its overall revenue grew significantly from the prior quarter, as more developers choose AMD to run and fine-tune models locally. We expect strong growth for Radeon AI Pro to continue, driven by our leadership performance per dollar,",
+   "parts": [
+    {
+     "t0_ms": 885430,
+     "text": "In gaming, revenue declined 40% year-over-year to $773 million,"
+    },
+    {
+     "t0_ms": 893210,
+     "text": "primarily due to lower semi-custom sales as expected at this stage of the console cycle."
+    },
+    {
+     "t0_ms": 900210,
+     "text": "Gaming graphics revenue declined year-over-year,"
+    },
+    {
+     "t0_ms": 903210,
+     "text": "while Radeon GPU channel sell-through increased sequentially."
+    },
+    {
+     "t0_ms": 907210,
+     "text": "Beyond gaming, Radeon AI Pro is a new technology,"
+    },
+    {
+     "t0_ms": 910210,
+     "text": "and its overall revenue grew significantly from the prior quarter,"
+    },
+    {
+     "t0_ms": 913210,
+     "text": "as more developers choose AMD to run and fine-tune models locally."
+    },
+    {
+     "t0_ms": 919210,
+     "text": "We expect strong growth for Radeon AI Pro to continue,"
+    },
+    {
+     "t0_ms": 922210,
+     "text": "driven by our leadership performance per dollar,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 925210,
+   "t1_ms": 969920,
+   "speaker": "Management",
+   "text": "and an open software stack optimized for the latest open-source models. Turning to our embedded segment, revenue increased 29% year-over-year to $1.1 billion, the fourth consecutive quarter of accelerating growth. Demand was very strong across all platforms, all of our end markets, led by strong growth with aerospace and defense, automotive, communications, and industrial customers. Data center build-outs are also driving higher demand for our embedded CPUs and adaptive SoCs in control plane and optical networking applications. We remain on track to close more than $18 billion of design wins in 2026, our third consecutive record year.",
+   "parts": [
+    {
+     "t0_ms": 925210,
+     "text": "and an open software stack optimized for the latest open-source models."
+    },
+    {
+     "t0_ms": 932250,
+     "text": "Turning to our embedded segment, revenue increased 29% year-over-year to $1.1 billion,"
+    },
+    {
+     "t0_ms": 937250,
+     "text": "the fourth consecutive quarter of accelerating growth."
+    },
+    {
+     "t0_ms": 941250,
+     "text": "Demand was very strong across all platforms,"
+    },
+    {
+     "t0_ms": 943250,
+     "text": "all of our end markets,"
+    },
+    {
+     "t0_ms": 944250,
+     "text": "led by strong growth with aerospace and defense, automotive, communications, and industrial customers."
+    },
+    {
+     "t0_ms": 952250,
+     "text": "Data center build-outs are also driving higher demand for our embedded CPUs"
+    },
+    {
+     "t0_ms": 956250,
+     "text": "and adaptive SoCs in control plane and optical networking applications."
+    },
+    {
+     "t0_ms": 962920,
+     "text": "We remain on track to close more than $18 billion of design wins in 2026,"
+    },
+    {
+     "t0_ms": 967920,
+     "text": "our third consecutive record year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 970920,
+   "t1_ms": 1013550,
+   "speaker": "Management",
+   "text": "Adaptive design wins have increased every year since we acquired Xilinx, with embedded x86 and semi-custom wins growing even faster. As these wins ramp over the next few years, we expect our embedded business to deliver strong double-digit annual revenue growth and continue outgrowing the market. In summary, we delivered an excellent third quarter and expect an even stronger fourth quarter, as data center and embedded segment growth more than offsets lower client CPU sales. We entered 2027 with the strongest product portfolio, and significant customer momentum. We have worked across our supply chain to secure the wafers, substrates,",
+   "parts": [
+    {
+     "t0_ms": 970920,
+     "text": "Adaptive design wins have increased every year since we acquired Xilinx,"
+    },
+    {
+     "t0_ms": 973920,
+     "text": "with embedded x86 and semi-custom wins growing even faster."
+    },
+    {
+     "t0_ms": 978920,
+     "text": "As these wins ramp over the next few years,"
+    },
+    {
+     "t0_ms": 980920,
+     "text": "we expect our embedded business to deliver strong double-digit annual revenue growth"
+    },
+    {
+     "t0_ms": 985920,
+     "text": "and continue outgrowing the market."
+    },
+    {
+     "t0_ms": 988920,
+     "text": "In summary, we delivered an excellent third quarter"
+    },
+    {
+     "t0_ms": 993550,
+     "text": "and expect an even stronger fourth quarter,"
+    },
+    {
+     "t0_ms": 995550,
+     "text": "as data center and embedded segment growth more than offsets lower client CPU sales."
+    },
+    {
+     "t0_ms": 1002550,
+     "text": "We entered 2027 with the strongest product portfolio,"
+    },
+    {
+     "t0_ms": 1004550,
+     "text": "and significant customer momentum."
+    },
+    {
+     "t0_ms": 1009550,
+     "text": "We have worked across our supply chain to secure the wafers, substrates,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1013550,
+   "t1_ms": 1056890,
+   "speaker": "Management",
+   "text": "advanced packaging, memory, and other key components needed to support much higher growth next year. Based on our current visibility, we now expect revenue to grow more than 80% in 2027, which is more than twice the long-term financial model we outlined at our Financial Analyst Day last November. Data center will be the largest contributor, driven by expanding Helios deployments and continued Epic Share gates. We also expect embedded growth to accelerate next year, driven by adoption of our adaptive and x86 solutions. Beyond 2027, we are increasing R&D investment across our silicon software",
+   "parts": [
+    {
+     "t0_ms": 1013550,
+     "text": "advanced packaging, memory, and other key components needed"
+    },
+    {
+     "t0_ms": 1017550,
+     "text": "to support much higher growth next year."
+    },
+    {
+     "t0_ms": 1021550,
+     "text": "Based on our current visibility,"
+    },
+    {
+     "t0_ms": 1023550,
+     "text": "we now expect revenue to grow more than 80% in 2027,"
+    },
+    {
+     "t0_ms": 1027550,
+     "text": "which is more than twice the long-term financial model we outlined"
+    },
+    {
+     "t0_ms": 1031550,
+     "text": "at our Financial Analyst Day last November."
+    },
+    {
+     "t0_ms": 1034550,
+     "text": "Data center will be the largest contributor,"
+    },
+    {
+     "t0_ms": 1037550,
+     "text": "driven by expanding Helios deployments and continued Epic Share gates."
+    },
+    {
+     "t0_ms": 1042550,
+     "text": "We also expect embedded growth to accelerate next year,"
+    },
+    {
+     "t0_ms": 1046550,
+     "text": "driven by adoption of our adaptive and x86 solutions."
+    },
+    {
+     "t0_ms": 1051890,
+     "text": "Beyond 2027, we are increasing R&D investment across our silicon software"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1056890,
+   "t1_ms": 1098890,
+   "speaker": "Management",
+   "text": "and systems roadmaps, and working closely with our largest customers to support their ambitious infrastructure plans for the next three to five years. We are also deepening our collaboration with our supply chain partners and investing alongside them to secure the long-term capacity our growth will require. Taken together, these give us strong confidence in our ability to sustain exceptional revenue growth for years to come, with earnings growing even faster. Now I will turn the call over to Jean to provide additional color on our third quarter results. Jean? Thank you, Lisa, and good afternoon, everyone. I'll start with a review of our financial results",
+   "parts": [
+    {
+     "t0_ms": 1056890,
+     "text": "and systems roadmaps, and working closely with our largest customers"
+    },
+    {
+     "t0_ms": 1060890,
+     "text": "to support their ambitious infrastructure plans for the next three to five years."
+    },
+    {
+     "t0_ms": 1065890,
+     "text": "We are also deepening our collaboration with our supply chain partners"
+    },
+    {
+     "t0_ms": 1069890,
+     "text": "and investing alongside them to secure the long-term capacity"
+    },
+    {
+     "t0_ms": 1073890,
+     "text": "our growth will require."
+    },
+    {
+     "t0_ms": 1075890,
+     "text": "Taken together, these give us strong confidence in our ability"
+    },
+    {
+     "t0_ms": 1079890,
+     "text": "to sustain exceptional revenue growth for years to come,"
+    },
+    {
+     "t0_ms": 1082890,
+     "text": "with earnings growing even faster."
+    },
+    {
+     "t0_ms": 1084890,
+     "text": "Now I will turn the call over to Jean to provide additional color"
+    },
+    {
+     "t0_ms": 1088890,
+     "text": "on our third quarter results."
+    },
+    {
+     "t0_ms": 1090890,
+     "text": "Jean?"
+    },
+    {
+     "t0_ms": 1092890,
+     "text": "Thank you, Lisa, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 1094890,
+     "text": "I'll start with a review of our financial results"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1098890,
+   "t1_ms": 1141890,
+   "speaker": "Management",
+   "text": "and then provide our outlook for the fourth quarter of fiscal 2026. We delivered an outstanding third quarter. Revenue increased 45% year-over-year to a record $13.4 billion, exceeding the high end of our guidance, driven by our data center segment, which nearly doubled year-over-year. Revenue increased 16% sequentially, driven by strong growth in the data center and embedded segments, partially offset by decline in the client and the gaming segment. Our data center segment accounted for approximately 64% of total revenue, up from 58% last quarter,",
+   "parts": [
+    {
+     "t0_ms": 1098890,
+     "text": "and then provide our outlook for the fourth quarter of fiscal 2026."
+    },
+    {
+     "t0_ms": 1103890,
+     "text": "We delivered an outstanding third quarter."
+    },
+    {
+     "t0_ms": 1106890,
+     "text": "Revenue increased 45% year-over-year to a record $13.4 billion,"
+    },
+    {
+     "t0_ms": 1112890,
+     "text": "exceeding the high end of our guidance, driven by our data center segment,"
+    },
+    {
+     "t0_ms": 1117890,
+     "text": "which nearly doubled year-over-year."
+    },
+    {
+     "t0_ms": 1120890,
+     "text": "Revenue increased 16% sequentially,"
+    },
+    {
+     "t0_ms": 1123890,
+     "text": "driven by strong growth in the data center and embedded segments,"
+    },
+    {
+     "t0_ms": 1127890,
+     "text": "partially offset by decline in the client and the gaming segment."
+    },
+    {
+     "t0_ms": 1132890,
+     "text": "Our data center segment accounted for approximately 64% of total revenue,"
+    },
+    {
+     "t0_ms": 1138890,
+     "text": "up from 58% last quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1141890,
+   "t1_ms": 1186890,
+   "speaker": "Management",
+   "text": "underscoring the continued shift in our business mix and its increasing contribution to AMD's growth. Growth margin was 56%, up 100%. We also had a growth of 390 basis points year-over-year, reflecting a richer product mix. Operating expenses were $3.6 billion, an increase of 29% year-over-year, as we continued to invest in R&D to expand our data center silicon systems and software capabilities. Operating income grew 75% year-over-year to a record $3.9 billion, significantly outpacing our revenue growth. Operating margin was 29%,",
+   "parts": [
+    {
+     "t0_ms": 1141890,
+     "text": "underscoring the continued shift in our business mix"
+    },
+    {
+     "t0_ms": 1145890,
+     "text": "and its increasing contribution to AMD's growth."
+    },
+    {
+     "t0_ms": 1149890,
+     "text": "Growth margin was 56%,"
+    },
+    {
+     "t0_ms": 1151890,
+     "text": "up 100%."
+    },
+    {
+     "t0_ms": 1153890,
+     "text": "We also had a growth of 390 basis points year-over-year,"
+    },
+    {
+     "t0_ms": 1157890,
+     "text": "reflecting a richer product mix."
+    },
+    {
+     "t0_ms": 1160890,
+     "text": "Operating expenses were $3.6 billion,"
+    },
+    {
+     "t0_ms": 1163890,
+     "text": "an increase of 29% year-over-year,"
+    },
+    {
+     "t0_ms": 1166890,
+     "text": "as we continued to invest in R&D to expand our data center silicon systems"
+    },
+    {
+     "t0_ms": 1171890,
+     "text": "and software capabilities."
+    },
+    {
+     "t0_ms": 1174890,
+     "text": "Operating income grew 75% year-over-year to a record $3.9 billion,"
+    },
+    {
+     "t0_ms": 1180890,
+     "text": "significantly outpacing our revenue growth."
+    },
+    {
+     "t0_ms": 1183890,
+     "text": "Operating margin was 29%,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1186890,
+   "t1_ms": 1228890,
+   "speaker": "Management",
+   "text": "expanding more than 5 percentage points year-over-year, underscoring the operating leverage in the business as we scale. In the third quarter, we began recognizing the counting impact of warrants issued and our previously announced customer agreement as we shipped MI450 series GPUs. Our GAAP diluted earnings per share were $1.46, which included $1.46 per share, which included $1.46 per share, which included $1.1 billion non-cash charge in other income and expense, primarily reflecting the increase in our share price and the changes in the estimated probability of meeting the warrant conditions.",
+   "parts": [
+    {
+     "t0_ms": 1186890,
+     "text": "expanding more than 5 percentage points year-over-year,"
+    },
+    {
+     "t0_ms": 1189890,
+     "text": "underscoring the operating leverage in the business as we scale."
+    },
+    {
+     "t0_ms": 1194890,
+     "text": "In the third quarter,"
+    },
+    {
+     "t0_ms": 1196890,
+     "text": "we began recognizing the counting impact of warrants issued"
+    },
+    {
+     "t0_ms": 1200890,
+     "text": "and our previously announced customer agreement"
+    },
+    {
+     "t0_ms": 1203890,
+     "text": "as we shipped MI450 series GPUs."
+    },
+    {
+     "t0_ms": 1207890,
+     "text": "Our GAAP diluted earnings per share were $1.46,"
+    },
+    {
+     "t0_ms": 1211890,
+     "text": "which included $1.46 per share, which included $1.46 per share,"
+    },
+    {
+     "t0_ms": 1212890,
+     "text": "which included $1.1 billion non-cash charge in other income and expense,"
+    },
+    {
+     "t0_ms": 1218890,
+     "text": "primarily reflecting the increase in our share price"
+    },
+    {
+     "t0_ms": 1221890,
+     "text": "and the changes in the estimated probability of meeting the warrant conditions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1228890,
+   "t1_ms": 1271890,
+   "speaker": "Management",
+   "text": "Going forward, this quarterly non-cash fair value adjustment I expect to increase as we and our customers progress under this agreement. The amounts will vary each quarter based on AMD's stock price and other valuation assumptions. These non-cash adjustments will not affect our non-GAAP results or free cash flow. Our non-GAAP diluted earnings per share were $2.09. Now turning to our reportable segment, starting with the data center. Data center segment revenue was a record of $8.5 billion, up 97% year-over-year, driven by record server revenue",
+   "parts": [
+    {
+     "t0_ms": 1228890,
+     "text": "Going forward, this quarterly non-cash fair value adjustment"
+    },
+    {
+     "t0_ms": 1232890,
+     "text": "I expect to increase as we and our customers progress under this agreement."
+    },
+    {
+     "t0_ms": 1239890,
+     "text": "The amounts will vary each quarter based on AMD's"
+    },
+    {
+     "t0_ms": 1242890,
+     "text": "stock price and other valuation assumptions."
+    },
+    {
+     "t0_ms": 1246890,
+     "text": "These non-cash adjustments will not affect our non-GAAP results or free cash flow."
+    },
+    {
+     "t0_ms": 1253890,
+     "text": "Our non-GAAP diluted earnings per share were $2.09."
+    },
+    {
+     "t0_ms": 1258890,
+     "text": "Now turning to our reportable segment, starting with the data center."
+    },
+    {
+     "t0_ms": 1262890,
+     "text": "Data center segment revenue was a record of $8.5 billion,"
+    },
+    {
+     "t0_ms": 1266890,
+     "text": "up 97% year-over-year, driven by record server revenue"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1271890,
+   "t1_ms": 1316890,
+   "speaker": "Management",
+   "text": "on strong demand for our fifth-generation EPYC processors and by record data center AI revenue, highlighted by the launch of our AMD Instinct MI450 series GPUs. On a sequential basis, data center revenue increased 27%, primarily driven by initial MI450 series sales and strong server revenue growth. The data center segment operating income was $2.9 billion, up 168% year-over-year, and operating margin increased to 34% compared to 25% a year ago, demonstrating strong operating leverage over data center business.",
+   "parts": [
+    {
+     "t0_ms": 1271890,
+     "text": "on strong demand for our fifth-generation EPYC processors"
+    },
+    {
+     "t0_ms": 1275890,
+     "text": "and by record data center AI revenue,"
+    },
+    {
+     "t0_ms": 1278890,
+     "text": "highlighted by the launch of our AMD Instinct MI450 series GPUs."
+    },
+    {
+     "t0_ms": 1284890,
+     "text": "On a sequential basis, data center revenue increased 27%,"
+    },
+    {
+     "t0_ms": 1289890,
+     "text": "primarily driven by initial MI450 series sales and strong server revenue growth."
+    },
+    {
+     "t0_ms": 1296890,
+     "text": "The data center segment operating income was $2.9 billion,"
+    },
+    {
+     "t0_ms": 1301890,
+     "text": "up 168% year-over-year, and operating margin increased to 34%"
+    },
+    {
+     "t0_ms": 1308890,
+     "text": "compared to 25% a year ago, demonstrating strong operating leverage"
+    },
+    {
+     "t0_ms": 1313890,
+     "text": "over data center business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1316890,
+   "t1_ms": 1361890,
+   "speaker": "Management",
+   "text": "Client gaming segment revenue was $3.7 billion, down 8% year-over-year due to lower semi-customer and graphic sales, partially offset by higher demand for the latest generation right-of-sale. In the client business, revenue was $2.9 billion, up 7% year-over-year, driven by higher sales of Ryzen mobile processors. Sequentially, client revenue was down 4%, as higher memory costs weighted on PC unit demand, partially offset by richer mix of high-end processors. Gaming revenue was $773 million, down 4% year-over-year, driven by higher sales of Ryzen mobile processors. Client gaming segment operating income was $573 million, down 40% year-over-year,",
+   "parts": [
+    {
+     "t0_ms": 1316890,
+     "text": "Client gaming segment revenue was $3.7 billion, down 8% year-over-year"
+    },
+    {
+     "t0_ms": 1322890,
+     "text": "due to lower semi-customer and graphic sales, partially offset by higher demand"
+    },
+    {
+     "t0_ms": 1328890,
+     "text": "for the latest generation right-of-sale."
+    },
+    {
+     "t0_ms": 1330890,
+     "text": "In the client business, revenue was $2.9 billion, up 7% year-over-year,"
+    },
+    {
+     "t0_ms": 1335890,
+     "text": "driven by higher sales of Ryzen mobile processors."
+    },
+    {
+     "t0_ms": 1339890,
+     "text": "Sequentially, client revenue was down 4%, as higher memory costs"
+    },
+    {
+     "t0_ms": 1344890,
+     "text": "weighted on PC unit demand, partially offset by richer mix of high-end processors."
+    },
+    {
+     "t0_ms": 1350890,
+     "text": "Gaming revenue was $773 million, down 4% year-over-year,"
+    },
+    {
+     "t0_ms": 1355890,
+     "text": "driven by higher sales of Ryzen mobile processors."
+    },
+    {
+     "t0_ms": 1358890,
+     "text": "Client gaming segment operating income was $573 million, down 40% year-over-year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1361890,
+   "t1_ms": 1402890,
+   "speaker": "Management",
+   "text": "due to lower semi-customer revenue and lower graphics demand. Sequentially, gaming revenue was essentially flat. Client gaming segment operating income was $573 million, up 15% year-over-year, compared to $867 million, up 21% year-ago. In-bed segment revenue was $1.1 billion, up 29% year-over-year, and 14% sequentially, as demand strengthened across several end markets, led by growth in aerospace and defense, automotive, communication, and the industrial end markets.",
+   "parts": [
+    {
+     "t0_ms": 1361890,
+     "text": "due to lower semi-customer revenue and lower graphics demand."
+    },
+    {
+     "t0_ms": 1366890,
+     "text": "Sequentially, gaming revenue was essentially flat."
+    },
+    {
+     "t0_ms": 1370890,
+     "text": "Client gaming segment operating income was $573 million, up 15% year-over-year,"
+    },
+    {
+     "t0_ms": 1377890,
+     "text": "compared to $867 million, up 21% year-ago."
+    },
+    {
+     "t0_ms": 1383890,
+     "text": "In-bed segment revenue was $1.1 billion, up 29% year-over-year,"
+    },
+    {
+     "t0_ms": 1386890,
+     "text": "and 14% sequentially, as demand strengthened across several end markets,"
+    },
+    {
+     "t0_ms": 1394890,
+     "text": "led by growth in aerospace and defense, automotive, communication,"
+    },
+    {
+     "t0_ms": 1399890,
+     "text": "and the industrial end markets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1402890,
+   "t1_ms": 1444890,
+   "speaker": "Management",
+   "text": "In-bed segment operating income was $453 million, or 41% of revenue, compared to $283 million, or 33% a year ago. Turning to balance sheet and cash flow. During the quarter, inventory increased approximately $3 billion, sequentially to $11.5 billion, to fulfill our strong data center demand. We generated $1.2 billion in cash from operating activities of continuing operations. Free cash flow was $554 million, reflecting increased working capital investment and ongoing capital expenditures",
+   "parts": [
+    {
+     "t0_ms": 1402890,
+     "text": "In-bed segment operating income was $453 million, or 41% of revenue,"
+    },
+    {
+     "t0_ms": 1409890,
+     "text": "compared to $283 million, or 33% a year ago."
+    },
+    {
+     "t0_ms": 1415890,
+     "text": "Turning to balance sheet and cash flow."
+    },
+    {
+     "t0_ms": 1417890,
+     "text": "During the quarter, inventory increased approximately $3 billion,"
+    },
+    {
+     "t0_ms": 1422890,
+     "text": "sequentially to $11.5 billion, to fulfill our strong data center demand."
+    },
+    {
+     "t0_ms": 1428890,
+     "text": "We generated $1.2 billion in cash from operating activities of continuing operations."
+    },
+    {
+     "t0_ms": 1435890,
+     "text": "Free cash flow was $554 million, reflecting increased working capital investment"
+    },
+    {
+     "t0_ms": 1442890,
+     "text": "and ongoing capital expenditures"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1444890,
+   "t1_ms": 1489430,
+   "speaker": "Management",
+   "text": "to secure equipment and capacity for the rapid growth of our data center business, including back-end capacity dedicated to support our data center demand. We expect to continue to invest in inventory and capacity to support our strong growth in 2027. At the end of the quarter, cash, cash equivalents, and short-term investment were $15.8 billion. Our total debt was $7.1 billion, including $4.75 billion senior notes offering we completed in August. Now turning to our fourth quarter 2026 outlook.",
+   "parts": [
+    {
+     "t0_ms": 1444890,
+     "text": "to secure equipment and capacity for the rapid growth of our data center business,"
+    },
+    {
+     "t0_ms": 1450890,
+     "text": "including back-end capacity dedicated to support our data center demand."
+    },
+    {
+     "t0_ms": 1457890,
+     "text": "We expect to continue to invest in inventory and capacity"
+    },
+    {
+     "t0_ms": 1461890,
+     "text": "to support our strong growth in 2027."
+    },
+    {
+     "t0_ms": 1465890,
+     "text": "At the end of the quarter, cash, cash equivalents, and short-term investment were $15.8 billion."
+    },
+    {
+     "t0_ms": 1473890,
+     "text": "Our total debt was $7.1 billion, including $4.75 billion senior notes offering we completed in August."
+    },
+    {
+     "t0_ms": 1484430,
+     "text": "Now turning to our fourth quarter 2026 outlook."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1489430,
+   "t1_ms": 1533430,
+   "speaker": "Management",
+   "text": "We expect revenue to be approximately $17 billion, plus or minus 3%. The middle point of our guidance represents approximately 66% year-over-year revenue growth, primarily driven by the growth of our capital investment. We expect revenue to be approximately $1.2 billion, and approximately $1.2 billion, driven by the acceleration of our data center segment. Sequentially, we expect revenue to grow by approximately 27%, driven by a sharp increase in our data center segment of approximately 50% growth, a decline in our client and gaming segment of greater than 20%,",
+   "parts": [
+    {
+     "t0_ms": 1489430,
+     "text": "We expect revenue to be approximately $17 billion, plus or minus 3%."
+    },
+    {
+     "t0_ms": 1496430,
+     "text": "The middle point of our guidance represents approximately 66% year-over-year revenue growth,"
+    },
+    {
+     "t0_ms": 1503430,
+     "text": "primarily driven by the growth of our capital investment."
+    },
+    {
+     "t0_ms": 1505430,
+     "text": "We expect revenue to be approximately $1.2 billion,"
+    },
+    {
+     "t0_ms": 1510430,
+     "text": "and approximately $1.2 billion,"
+    },
+    {
+     "t0_ms": 1515430,
+     "text": "driven by the acceleration of our data center segment."
+    },
+    {
+     "t0_ms": 1519430,
+     "text": "Sequentially, we expect revenue to grow by approximately 27%,"
+    },
+    {
+     "t0_ms": 1524430,
+     "text": "driven by a sharp increase in our data center segment of approximately 50% growth,"
+    },
+    {
+     "t0_ms": 1530430,
+     "text": "a decline in our client and gaming segment of greater than 20%,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1533430,
+   "t1_ms": 1572430,
+   "speaker": "Management",
+   "text": "and a decline in our capital investment. In addition, we expect fourth quarter non-GAAP growth margin to be approximately 55%. And we expect non-GAAP operating expenses to be approximately $3.75 billion. We expect non-GAAP net interest and other expenses to be a gain of approximately $4 million. We expect our non-GAAP effective tax rate to be 13%. We expect our non-GAAP effective share count to be approximately $1.67 billion, including the estimated impact of closing the Taylor's and the WorldLabs acquisition in the fourth quarter.",
+   "parts": [
+    {
+     "t0_ms": 1533430,
+     "text": "and a decline in our capital investment."
+    },
+    {
+     "t0_ms": 1535430,
+     "text": "In addition, we expect fourth quarter non-GAAP growth margin to be approximately 55%."
+    },
+    {
+     "t0_ms": 1540430,
+     "text": "And we expect non-GAAP operating expenses to be approximately $3.75 billion."
+    },
+    {
+     "t0_ms": 1547430,
+     "text": "We expect non-GAAP net interest and other expenses to be a gain of approximately $4 million."
+    },
+    {
+     "t0_ms": 1554430,
+     "text": "We expect our non-GAAP effective tax rate to be 13%."
+    },
+    {
+     "t0_ms": 1559430,
+     "text": "We expect our non-GAAP effective share count to be approximately $1.67 billion,"
+    },
+    {
+     "t0_ms": 1564430,
+     "text": "including the estimated impact of closing the Taylor's and the WorldLabs acquisition in the fourth quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1572430,
+   "t1_ms": 1606430,
+   "speaker": "Management",
+   "text": "We are not expecting our fourth quarter share count to be impacted by customer warrants. In closing, the third quarter was an outstanding quarter for AMD, with record revenue, significant operating margin expansion, and earnings growth. Reflecting disciplined execution across the business. As our data center business continues to scale, we are very well positioned to drive increased profitability and long-term shareholder value. With that, I'll turn it back to Matt for the Q&A session.",
+   "parts": [
+    {
+     "t0_ms": 1572430,
+     "text": "We are not expecting our fourth quarter share count to be impacted by customer warrants."
+    },
+    {
+     "t0_ms": 1579430,
+     "text": "In closing, the third quarter was an outstanding quarter for AMD,"
+    },
+    {
+     "t0_ms": 1584430,
+     "text": "with record revenue, significant operating margin expansion, and earnings growth."
+    },
+    {
+     "t0_ms": 1587430,
+     "text": "Reflecting disciplined execution across the business."
+    },
+    {
+     "t0_ms": 1593430,
+     "text": "As our data center business continues to scale,"
+    },
+    {
+     "t0_ms": 1596430,
+     "text": "we are very well positioned to drive increased profitability and long-term shareholder value."
+    },
+    {
+     "t0_ms": 1602430,
+     "text": "With that, I'll turn it back to Matt for the Q&A session."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1606430,
+   "t1_ms": 1649640,
+   "speaker": "Operator",
+   "text": "Thank you. We will now be conducting a question and answer session. We ask that you please limit yourself to one question and one follow-up. If you would like to ask a question, please press star 1 on your telephone keypad. A confirmation tone will indicate that your line is in the question queue. You may press star 2 if you'd like to remove your question from the queue. For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys. One moment, please, while we poll for questions. And the first question comes from the line of Tom O'Malley with Barclays.",
+   "parts": [
+    {
+     "t0_ms": 1606430,
+     "text": "Thank you. We will now be conducting a question and answer session."
+    },
+    {
+     "t0_ms": 1620210,
+     "text": "We ask that you please limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 1624210,
+     "text": "If you would like to ask a question, please press star 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1627210,
+     "text": "A confirmation tone will indicate that your line is in the question queue."
+    },
+    {
+     "t0_ms": 1631210,
+     "text": "You may press star 2 if you'd like to remove your question from the queue."
+    },
+    {
+     "t0_ms": 1634210,
+     "text": "For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys."
+    },
+    {
+     "t0_ms": 1640210,
+     "text": "One moment, please, while we poll for questions."
+    },
+    {
+     "t0_ms": 1642210,
+     "text": "And the first question comes from the line of Tom O'Malley with Barclays."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1649640,
+   "t1_ms": 1651640,
+   "speaker": "Operator",
+   "text": "Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1649640,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1651640,
+   "t1_ms": 1682640,
+   "speaker": "Analyst",
+   "text": "Hey, good evening, and thanks for taking my question. Congrats on the great results. I guess, Lisa, let's start off with the fact that you're giving some more color into 2027. It looks like revenue is growing 80%, but the data center component of that is growing much faster, where data center is going to be greater than 80% of your business next year. So maybe can you talk about, first and foremost, like is this backed up by supply, whether that be wafers, packaging, substrate, memory? And then if you look at the demand profile behind that, would demand outstrip that supply if you were able to get some more? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1651640,
+     "text": "Hey, good evening, and thanks for taking my question."
+    },
+    {
+     "t0_ms": 1653640,
+     "text": "Congrats on the great results."
+    },
+    {
+     "t0_ms": 1655640,
+     "text": "I guess, Lisa, let's start off with the fact that you're giving some more color into 2027."
+    },
+    {
+     "t0_ms": 1659640,
+     "text": "It looks like revenue is growing 80%, but the data center component of that is growing much faster,"
+    },
+    {
+     "t0_ms": 1663640,
+     "text": "where data center is going to be greater than 80% of your business next year."
+    },
+    {
+     "t0_ms": 1667640,
+     "text": "So maybe can you talk about, first and foremost, like is this backed up by supply,"
+    },
+    {
+     "t0_ms": 1671640,
+     "text": "whether that be wafers, packaging, substrate, memory?"
+    },
+    {
+     "t0_ms": 1674640,
+     "text": "And then if you look at the demand profile behind that,"
+    },
+    {
+     "t0_ms": 1677640,
+     "text": "would demand outstrip that supply if you were able to get some more? Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1682640,
+   "t1_ms": 1726640,
+   "speaker": "Management",
+   "text": "Yeah, sure, Tom. Thanks for the question. So look, we have a lot of momentum going into the fourth quarter and into 2020. We do see a situation where there is very strong demand. So we see demand across the data center business, across our CPU business, as well as our data center AI business. And when you look at the rate and pace of that growth, we've been planning for it for the last several years. So we've absolutely spent a significant amount of time with our customers, planning what their needs are in terms of their deployments and their deployment schedules, and also with our supply chain partners to ensure that we have, you know, the wafers, the substrates, the advanced packaging, the memory, all of the other components that go along with it.",
+   "parts": [
+    {
+     "t0_ms": 1682640,
+     "text": "Yeah, sure, Tom. Thanks for the question."
+    },
+    {
+     "t0_ms": 1684640,
+     "text": "So look, we have a lot of momentum going into the fourth quarter and into 2020."
+    },
+    {
+     "t0_ms": 1689640,
+     "text": "We do see a situation where there is very strong demand."
+    },
+    {
+     "t0_ms": 1694640,
+     "text": "So we see demand across the data center business, across our CPU business,"
+    },
+    {
+     "t0_ms": 1698640,
+     "text": "as well as our data center AI business."
+    },
+    {
+     "t0_ms": 1700640,
+     "text": "And when you look at the rate and pace of that growth,"
+    },
+    {
+     "t0_ms": 1703640,
+     "text": "we've been planning for it for the last several years."
+    },
+    {
+     "t0_ms": 1706640,
+     "text": "So we've absolutely spent a significant amount of time with our customers,"
+    },
+    {
+     "t0_ms": 1711640,
+     "text": "planning what their needs are in terms of their deployments and their deployment schedules,"
+    },
+    {
+     "t0_ms": 1715640,
+     "text": "and also with our supply chain partners to ensure that we have, you know,"
+    },
+    {
+     "t0_ms": 1719640,
+     "text": "the wafers, the substrates, the advanced packaging, the memory,"
+    },
+    {
+     "t0_ms": 1724640,
+     "text": "all of the other components that go along with it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1726640,
+   "t1_ms": 1771640,
+   "speaker": "Management",
+   "text": "It is true that demand is higher than supply. So we continue to work with our supply chain partners to increase supply. And I do believe that there is a good opportunity for us to do that, just given the strong relationships we have throughout the ecosystem. But sitting where we are today, to be able to say that the overall company will grow greater than 80% especially, you know, the server business will, you know, approximately double from a fairly high point in 2026. And then the data center AI business, we continue to have strong visibility, and we see strong demand from our customers, and we continue to see also, you know, good follow through on all of the other aspects of the infrastructure that are needed.",
+   "parts": [
+    {
+     "t0_ms": 1726640,
+     "text": "It is true that demand is higher than supply."
+    },
+    {
+     "t0_ms": 1729640,
+     "text": "So we continue to work with our supply chain partners to increase supply."
+    },
+    {
+     "t0_ms": 1734640,
+     "text": "And I do believe that there is a good opportunity for us to do that,"
+    },
+    {
+     "t0_ms": 1739640,
+     "text": "just given the strong relationships we have throughout the ecosystem."
+    },
+    {
+     "t0_ms": 1742640,
+     "text": "But sitting where we are today, to be able to say that the overall company will grow greater than 80%"
+    },
+    {
+     "t0_ms": 1749640,
+     "text": "especially, you know, the server business will, you know,"
+    },
+    {
+     "t0_ms": 1753640,
+     "text": "approximately double from a fairly high point in 2026."
+    },
+    {
+     "t0_ms": 1757640,
+     "text": "And then the data center AI business, we continue to have strong visibility,"
+    },
+    {
+     "t0_ms": 1762640,
+     "text": "and we see strong demand from our customers, and we continue to see also, you know,"
+    },
+    {
+     "t0_ms": 1767640,
+     "text": "good follow through on all of the other aspects of the infrastructure that are needed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1771640,
+   "t1_ms": 1778640,
+   "speaker": "Management",
+   "text": "So overall, we're very positive about the data center growth into 2027.",
+   "parts": [
+    {
+     "t0_ms": 1771640,
+     "text": "So overall, we're very positive about the data center growth into 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1778640,
+   "t1_ms": 1808640,
+   "speaker": "Analyst",
+   "text": "Super. Super helpful. And then just as a follow up on the client side, you're saying down greater than 20% in the fourth quarter. That's kind of in line with what we've heard from others so far in the market. But if you look at 2027, I think something that's difficult is that normally you see seasonality down in Q1, and then you wouldn't get a recovery kind of until Q2, Q3. So maybe talk about like what the longevity of this correction kind of looks like and why you've been able to kind of outperform a bit up until this point and how you see that kind of coming out of this trough into next year. Thanks, Lisa.",
+   "parts": [
+    {
+     "t0_ms": 1778640,
+     "text": "Super."
+    },
+    {
+     "t0_ms": 1779640,
+     "text": "Super helpful."
+    },
+    {
+     "t0_ms": 1780640,
+     "text": "And then just as a follow up on the client side, you're saying down greater than 20% in the fourth quarter."
+    },
+    {
+     "t0_ms": 1784640,
+     "text": "That's kind of in line with what we've heard from others so far in the market."
+    },
+    {
+     "t0_ms": 1788640,
+     "text": "But if you look at 2027, I think something that's difficult is that normally you see seasonality down in Q1,"
+    },
+    {
+     "t0_ms": 1794640,
+     "text": "and then you wouldn't get a recovery kind of until Q2, Q3."
+    },
+    {
+     "t0_ms": 1796640,
+     "text": "So maybe talk about like what the longevity of this correction kind of looks like"
+    },
+    {
+     "t0_ms": 1800640,
+     "text": "and why you've been able to kind of outperform a bit up until this point"
+    },
+    {
+     "t0_ms": 1804640,
+     "text": "and how you see that kind of coming out of this trough into next year."
+    },
+    {
+     "t0_ms": 1806640,
+     "text": "Thanks, Lisa."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1808640,
+   "t1_ms": 1848640,
+   "speaker": "Management",
+   "text": "Yeah, sure, Tom. So talking a little bit about the PC market, the PC market continues to be an important market to us. I think we were signaling all along in the last couple of calls that we were expecting a sub-seasonal second half of the year, and that's how it's played out. Our view is this is one of those times when component prices go up. It affects overall system pricing. One would expect the consumer markets to be more sensitive to that. And so we have seen a bit of slowdown in the sell through. We're just managing the business very prudently, and we want to ensure that inventory stays healthy throughout the channel and throughout our customers.",
+   "parts": [
+    {
+     "t0_ms": 1808640,
+     "text": "Yeah, sure, Tom."
+    },
+    {
+     "t0_ms": 1809640,
+     "text": "So talking a little bit about the PC market, the PC market continues to be an important market to us."
+    },
+    {
+     "t0_ms": 1815640,
+     "text": "I think we were signaling all along in the last couple of calls that we were expecting a sub-seasonal"
+    },
+    {
+     "t0_ms": 1821640,
+     "text": "second half of the year, and that's how it's played out."
+    },
+    {
+     "t0_ms": 1824640,
+     "text": "Our view is this is one of those times when component prices go up."
+    },
+    {
+     "t0_ms": 1829640,
+     "text": "It affects overall system pricing."
+    },
+    {
+     "t0_ms": 1831640,
+     "text": "One would expect the consumer markets to be more sensitive to that."
+    },
+    {
+     "t0_ms": 1835640,
+     "text": "And so we have seen a bit of slowdown in the sell through."
+    },
+    {
+     "t0_ms": 1838640,
+     "text": "We're just managing the business very prudently,"
+    },
+    {
+     "t0_ms": 1842640,
+     "text": "and we want to ensure that inventory stays healthy throughout the channel"
+    },
+    {
+     "t0_ms": 1846640,
+     "text": "and throughout our customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1848640,
+   "t1_ms": 1893640,
+   "speaker": "Management",
+   "text": "And so our planning assumption for 2027 is that the market will be double digit percentage down. We will certainly focus on the segments where we can add the most value, places like enterprise where we continue to be underrepresented, premium consumer, desktop channel. These are really good markets for us. But we are planning with the current environment for a down year for 2027, and we will work through that. The good part about it is our supply chain is quite fungible across our PC business and our data center business. And so that actually does afford us the ability to move supply around as we see these signals in the market.",
+   "parts": [
+    {
+     "t0_ms": 1848640,
+     "text": "And so our planning assumption for 2027 is that the market will be double digit percentage down."
+    },
+    {
+     "t0_ms": 1854640,
+     "text": "We will certainly focus on the segments where we can add the most value,"
+    },
+    {
+     "t0_ms": 1859640,
+     "text": "places like enterprise where we continue to be underrepresented, premium consumer, desktop channel."
+    },
+    {
+     "t0_ms": 1865640,
+     "text": "These are really good markets for us."
+    },
+    {
+     "t0_ms": 1867640,
+     "text": "But we are planning with the current environment for a down year for 2027,"
+    },
+    {
+     "t0_ms": 1874640,
+     "text": "and we will work through that."
+    },
+    {
+     "t0_ms": 1876640,
+     "text": "The good part about it is our supply chain is quite fungible across our PC business"
+    },
+    {
+     "t0_ms": 1883640,
+     "text": "and our data center business."
+    },
+    {
+     "t0_ms": 1885640,
+     "text": "And so that actually does afford us the ability to move supply around as we see these signals in the market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1893640,
+   "t1_ms": 1905640,
+   "speaker": "Management",
+   "text": "And overall, as I said earlier, we do have more demand. And we have supply. And so we're continuing to work all of the aspects to increase supply as we go through the next few quarters.",
+   "parts": [
+    {
+     "t0_ms": 1893640,
+     "text": "And overall, as I said earlier, we do have more demand."
+    },
+    {
+     "t0_ms": 1897640,
+     "text": "And we have supply."
+    },
+    {
+     "t0_ms": 1898640,
+     "text": "And so we're continuing to work all of the aspects to increase supply as we go through the next few quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1905640,
+   "t1_ms": 1917030,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of Vivek Arya with Bank of America Securities. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1905640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1910030,
+     "text": "And the next question comes from the line of Vivek Arya with Bank of America Securities."
+    },
+    {
+     "t0_ms": 1914030,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1917030,
+   "t1_ms": 1960030,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. Lisa, there's a lot of market debate about the financing of data centers and availability of land, power, and shell, etc. So kind of a two-parter, what's the level of confidence, right, that AMD has that your anchor customers have the financing and the physical infrastructure to support, I think it's roughly 3 gigawatts or so of planned AMD deployments into 2027? And then as we look beyond, many of your competitors are kind of investing in the ecosystem, providing residual value guarantees and such, and saying there is a lot more fungibility of their products. So does that create kind of a competitive dynamic for AMD? So just curious.",
+   "parts": [
+    {
+     "t0_ms": 1917030,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1919030,
+     "text": "Lisa, there's a lot of market debate about the financing of data centers"
+    },
+    {
+     "t0_ms": 1924030,
+     "text": "and availability of land, power, and shell, etc."
+    },
+    {
+     "t0_ms": 1927030,
+     "text": "So kind of a two-parter, what's the level of confidence,"
+    },
+    {
+     "t0_ms": 1930030,
+     "text": "right, that AMD has that your anchor customers have the financing"
+    },
+    {
+     "t0_ms": 1934030,
+     "text": "and the physical infrastructure to support, I think it's roughly 3 gigawatts or so"
+    },
+    {
+     "t0_ms": 1939030,
+     "text": "of planned AMD deployments into 2027?"
+    },
+    {
+     "t0_ms": 1942030,
+     "text": "And then as we look beyond, many of your competitors are kind of investing in the ecosystem,"
+    },
+    {
+     "t0_ms": 1948030,
+     "text": "providing residual value guarantees and such,"
+    },
+    {
+     "t0_ms": 1951030,
+     "text": "and saying there is a lot more fungibility of their products."
+    },
+    {
+     "t0_ms": 1955030,
+     "text": "So does that create kind of a competitive dynamic for AMD?"
+    },
+    {
+     "t0_ms": 1959030,
+     "text": "So just curious."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1960030,
+   "t1_ms": 1967030,
+   "speaker": "Analyst",
+   "text": "I want to hear your perspective on 27 readiness and the 28 competitive landscape.",
+   "parts": [
+    {
+     "t0_ms": 1960030,
+     "text": "I want to hear your perspective on 27 readiness and the 28 competitive landscape."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1967030,
+   "t1_ms": 2012030,
+   "speaker": "Management",
+   "text": "Sure, Vivek. Thanks for the question. So as I said earlier, we're seeing very strong demand from our lead data center AI customers. I think you can see that there's a strong demand for more compute, and MI455 is positioned extremely well. When we look at Venice, MI455, Helios, I think we feel extremely good about the competitiveness. We have been planning for this ramp with our customers jointly, so we have good visibility into the 2027, as you said, land, power, shells, all of those, the data center infrastructure, and we are very much working hand-in-hand with our customers, so we know where the GPUs are going in terms of which data centers and which locations and all of that stuff.",
+   "parts": [
+    {
+     "t0_ms": 1967030,
+     "text": "Sure, Vivek."
+    },
+    {
+     "t0_ms": 1968030,
+     "text": "Thanks for the question."
+    },
+    {
+     "t0_ms": 1969030,
+     "text": "So as I said earlier, we're seeing very strong demand from our lead data center AI customers."
+    },
+    {
+     "t0_ms": 1976030,
+     "text": "I think you can see that there's a strong demand for more compute,"
+    },
+    {
+     "t0_ms": 1981030,
+     "text": "and MI455 is positioned extremely well."
+    },
+    {
+     "t0_ms": 1984030,
+     "text": "When we look at Venice, MI455, Helios, I think we feel extremely good about the competitiveness."
+    },
+    {
+     "t0_ms": 1989030,
+     "text": "We have been planning for this ramp with our customers jointly,"
+    },
+    {
+     "t0_ms": 1993030,
+     "text": "so we have good visibility into the 2027, as you said, land, power, shells,"
+    },
+    {
+     "t0_ms": 2000030,
+     "text": "all of those, the data center infrastructure, and we are very much working hand-in-hand"
+    },
+    {
+     "t0_ms": 2005030,
+     "text": "with our customers, so we know where the GPUs are going in terms of which data centers"
+    },
+    {
+     "t0_ms": 2009030,
+     "text": "and which locations and all of that stuff."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2012030,
+   "t1_ms": 2056030,
+   "speaker": "Management",
+   "text": "Going into 2028 and beyond, I guess what I would say is the following. Look, I think we are seeing very strong demand for the GPUs. We have very strong growth overall. I think we have a very strong business. We have a very strong balance sheet. And from that standpoint, our goal is first and foremost, we're investing in our growth to support that, and that means investing in R&D, investing in supply chain and capacity, investing alongside our partners to ensure that we have the capacity for all of those things that we talked about earlier that are necessary for this type of ramp. And then we are selectively investing with our lead partners where we see, it's helpful to have, for example, the data center infrastructure identified way in advance, and that's multiple years in advance.",
+   "parts": [
+    {
+     "t0_ms": 2012030,
+     "text": "Going into 2028 and beyond, I guess what I would say is the following."
+    },
+    {
+     "t0_ms": 2016030,
+     "text": "Look, I think we are seeing very strong demand for the GPUs."
+    },
+    {
+     "t0_ms": 2018030,
+     "text": "We have very strong growth overall."
+    },
+    {
+     "t0_ms": 2020030,
+     "text": "I think we have a very strong business."
+    },
+    {
+     "t0_ms": 2022030,
+     "text": "We have a very strong balance sheet."
+    },
+    {
+     "t0_ms": 2024030,
+     "text": "And from that standpoint, our goal is first and foremost, we're investing in our growth"
+    },
+    {
+     "t0_ms": 2028030,
+     "text": "to support that, and that means investing in R&D, investing in supply chain and capacity,"
+    },
+    {
+     "t0_ms": 2034030,
+     "text": "investing alongside our partners to ensure that we have the capacity for all of those things"
+    },
+    {
+     "t0_ms": 2039030,
+     "text": "that we talked about earlier that are necessary for this type of ramp."
+    },
+    {
+     "t0_ms": 2043030,
+     "text": "And then we are selectively investing with our lead partners where we see,"
+    },
+    {
+     "t0_ms": 2047030,
+     "text": "it's helpful to have, for example, the data center infrastructure identified way in advance,"
+    },
+    {
+     "t0_ms": 2054030,
+     "text": "and that's multiple years in advance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2056030,
+   "t1_ms": 2071030,
+   "speaker": "Management",
+   "text": "And I think that's the right thing to do to ensure that we are jointly ensuring that there's the right infrastructure as our new chips become available. But we are being selective and strategic in how we do that, with the first principle being investing in our growth.",
+   "parts": [
+    {
+     "t0_ms": 2056030,
+     "text": "And I think that's the right thing to do to ensure that we are jointly ensuring"
+    },
+    {
+     "t0_ms": 2061030,
+     "text": "that there's the right infrastructure as our new chips become available."
+    },
+    {
+     "t0_ms": 2064030,
+     "text": "But we are being selective and strategic in how we do that,"
+    },
+    {
+     "t0_ms": 2067030,
+     "text": "with the first principle being investing in our growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2071030,
+   "t1_ms": 2105310,
+   "speaker": "Analyst",
+   "text": "Got it. And for my follow-up, Lisa, one more on the competitive landscape. Many of your Frontier Lab customers have been working on their custom ASICs. And I'm curious, how do they conceptually make the choice between using ASICs versus AMD products? What determines their allocation? Is it cost per token, power efficiency, software flexibility, time to deployment? Just what are the puts and takes in that decision making? And are there workloads where using an AMD GPU works better than the alternatives that they have? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2071030,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 2073310,
+     "text": "And for my follow-up, Lisa, one more on the competitive landscape."
+    },
+    {
+     "t0_ms": 2077310,
+     "text": "Many of your Frontier Lab customers have been working on their custom ASICs."
+    },
+    {
+     "t0_ms": 2083310,
+     "text": "And I'm curious, how do they conceptually make the choice between using ASICs"
+    },
+    {
+     "t0_ms": 2088310,
+     "text": "versus AMD products?"
+    },
+    {
+     "t0_ms": 2090310,
+     "text": "What determines their allocation?"
+    },
+    {
+     "t0_ms": 2092310,
+     "text": "Is it cost per token, power efficiency, software flexibility, time to deployment?"
+    },
+    {
+     "t0_ms": 2096310,
+     "text": "Just what are the puts and takes in that decision making?"
+    },
+    {
+     "t0_ms": 2099310,
+     "text": "And are there workloads where using an AMD GPU works better than the alternatives that they have?"
+    },
+    {
+     "t0_ms": 2104310,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2105310,
+   "t1_ms": 2144310,
+   "speaker": "Management",
+   "text": "Sure, Vivek. So look. I think we feel extremely good about where we're positioned in terms of our performance and our total cost of ownership that we're delivering with Helios. That is fundamentally the most important factor when we think about sort of deployment scale and deployments going forward. I think there was a significant investment that we've made in the rack scale systems in ensuring that Helios really ramped nicely. The third quarter was the first quarter that we shipped MI455 and Helios racks. For revenue, I think this is a very major milestone. We have a big step up in Q4. We'll continue to ramp throughout 2027.",
+   "parts": [
+    {
+     "t0_ms": 2105310,
+     "text": "Sure, Vivek."
+    },
+    {
+     "t0_ms": 2106310,
+     "text": "So look."
+    },
+    {
+     "t0_ms": 2107310,
+     "text": "I think we feel extremely good about where we're positioned in terms of our performance"
+    },
+    {
+     "t0_ms": 2112310,
+     "text": "and our total cost of ownership that we're delivering with Helios."
+    },
+    {
+     "t0_ms": 2115310,
+     "text": "That is fundamentally the most important factor when we think about sort of deployment scale"
+    },
+    {
+     "t0_ms": 2121310,
+     "text": "and deployments going forward."
+    },
+    {
+     "t0_ms": 2123310,
+     "text": "I think there was a significant investment that we've made in the rack scale systems"
+    },
+    {
+     "t0_ms": 2129310,
+     "text": "in ensuring that Helios really ramped nicely."
+    },
+    {
+     "t0_ms": 2132310,
+     "text": "The third quarter was the first quarter that we shipped MI455 and Helios racks."
+    },
+    {
+     "t0_ms": 2136310,
+     "text": "For revenue, I think this is a very major milestone."
+    },
+    {
+     "t0_ms": 2139310,
+     "text": "We have a big step up in Q4."
+    },
+    {
+     "t0_ms": 2141310,
+     "text": "We'll continue to ramp throughout 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2144310,
+   "t1_ms": 2184310,
+   "speaker": "Management",
+   "text": "And the key is for us to continue to show that TCO advantage across workloads. It is true that from a general purpose GPU standpoint that we have more fungibility as you think about various workloads that occur. There has been also very strong co-design. So beyond the MI450 series, we're working on MI500 and MI600 as well to ensure that our technology gets even more, let's call it, tuned to what the frontier labs need. So I think those are the key factors in terms of deployment choices.",
+   "parts": [
+    {
+     "t0_ms": 2144310,
+     "text": "And the key is for us to continue to show that TCO advantage across workloads."
+    },
+    {
+     "t0_ms": 2151310,
+     "text": "It is true that from a general purpose GPU standpoint that we have more fungibility"
+    },
+    {
+     "t0_ms": 2157310,
+     "text": "as you think about various workloads that occur."
+    },
+    {
+     "t0_ms": 2160310,
+     "text": "There has been also very strong co-design."
+    },
+    {
+     "t0_ms": 2164310,
+     "text": "So beyond the MI450 series, we're working on MI500 and MI600 as well to ensure that"
+    },
+    {
+     "t0_ms": 2172310,
+     "text": "our technology gets even more, let's call it, tuned to what the frontier labs need."
+    },
+    {
+     "t0_ms": 2179310,
+     "text": "So I think those are the key factors in terms of deployment choices."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2184310,
+   "t1_ms": 2194540,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of Joshua Buchalter with TD Cowen. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 2184310,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2188540,
+     "text": "And the next question comes from the line of Joshua Buchalter with TD Cowen."
+    },
+    {
+     "t0_ms": 2192540,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2194540,
+   "t1_ms": 2233200,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for taking my question. Congrats on the progress. I was wondering if you could give us insight into how we should be thinking about HBM costs impacting your model as the instinct business ramps. I think investors have been asking how your revenue per gigawatt contribution in the last year or so, your outlook has been so consistent in that $15 billion to $20 billion per gigawatt range, given what's going on with HBM pricing. Is that because early builds are fairly program specific and pricing was agreed upon a long time ago? And, again, as we think about that, And again, as we think about that business longer term, do you have the ability to pass on these higher input costs even to your big three customers? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2194540,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 2195540,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2196540,
+     "text": "Congrats on the progress."
+    },
+    {
+     "t0_ms": 2197540,
+     "text": "I was wondering if you could give us insight into how we should be thinking about HBM costs"
+    },
+    {
+     "t0_ms": 2202540,
+     "text": "impacting your model as the instinct business ramps."
+    },
+    {
+     "t0_ms": 2206540,
+     "text": "I think investors have been asking how your revenue per gigawatt contribution in the last year or so,"
+    },
+    {
+     "t0_ms": 2211540,
+     "text": "your outlook has been so consistent in that $15 billion to $20 billion per gigawatt range,"
+    },
+    {
+     "t0_ms": 2216540,
+     "text": "given what's going on with HBM pricing."
+    },
+    {
+     "t0_ms": 2218540,
+     "text": "Is that because early builds are fairly program specific and pricing was agreed upon a long time ago?"
+    },
+    {
+     "t0_ms": 2224540,
+     "text": "And, again, as we think about that,"
+    },
+    {
+     "t0_ms": 2225540,
+     "text": "And again, as we think about that business longer term,"
+    },
+    {
+     "t0_ms": 2228240,
+     "text": "do you have the ability to pass on these higher input costs"
+    },
+    {
+     "t0_ms": 2230940,
+     "text": "even to your big three customers?"
+    },
+    {
+     "t0_ms": 2232740,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2234840,
+   "t1_ms": 2279420,
+   "speaker": "Management",
+   "text": "Sure, Josh. So the way to think about it is as we ramp, we have had, let's call it long-term agreements with some of our suppliers as well as some of our customers. But given where the memory market is, and not just the memory market, by the way, other component costs are also seeing some inflationary pressures in the sense of as there's more CapEx that's put into the overall supply chain environment. We are also working with our customers to ensure that those costs are shared as we go forward. So from my perspective, back to the question that Vivek had, this is all about TCO and ensuring that from a tokens per dollar standpoint that we continue to offer very strong advantages",
+   "parts": [
+    {
+     "t0_ms": 2234840,
+     "text": "Sure, Josh."
+    },
+    {
+     "t0_ms": 2235780,
+     "text": "So the way to think about it is as we ramp,"
+    },
+    {
+     "t0_ms": 2240340,
+     "text": "we have had, let's call it long-term agreements"
+    },
+    {
+     "t0_ms": 2243560,
+     "text": "with some of our suppliers as well as some of our customers."
+    },
+    {
+     "t0_ms": 2246840,
+     "text": "But given where the memory market is,"
+    },
+    {
+     "t0_ms": 2248780,
+     "text": "and not just the memory market, by the way,"
+    },
+    {
+     "t0_ms": 2250300,
+     "text": "other component costs are also seeing some inflationary pressures"
+    },
+    {
+     "t0_ms": 2254580,
+     "text": "in the sense of as there's more CapEx that's put"
+    },
+    {
+     "t0_ms": 2258020,
+     "text": "into the overall supply chain environment."
+    },
+    {
+     "t0_ms": 2260360,
+     "text": "We are also working with our customers to ensure"
+    },
+    {
+     "t0_ms": 2264100,
+     "text": "that those costs are shared as we go forward."
+    },
+    {
+     "t0_ms": 2267500,
+     "text": "So from my perspective, back to the question that Vivek had,"
+    },
+    {
+     "t0_ms": 2271340,
+     "text": "this is all about TCO and ensuring that from a tokens per dollar standpoint"
+    },
+    {
+     "t0_ms": 2275640,
+     "text": "that we continue to offer very strong advantages"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2279420,
+   "t1_ms": 2295260,
+   "speaker": "Management",
+   "text": "for choosing AMD Instinct and our overall Helio system. And so I think that's a great question. Thank you. And even with some of the inflationary pressures that are out there, we certainly believe that we are offering leading TCO for the AI workloads.",
+   "parts": [
+    {
+     "t0_ms": 2279420,
+     "text": "for choosing AMD Instinct and our overall Helio system."
+    },
+    {
+     "t0_ms": 2284440,
+     "text": "And so I think that's a great question."
+    },
+    {
+     "t0_ms": 2284560,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2284580,
+     "text": "And even with some of the inflationary pressures"
+    },
+    {
+     "t0_ms": 2286660,
+     "text": "that are out there, we certainly believe"
+    },
+    {
+     "t0_ms": 2288980,
+     "text": "that we are offering leading TCO for the AI workloads."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2297780,
+   "t1_ms": 2330880,
+   "speaker": "Analyst",
+   "text": "Thank you, Lisa. Then maybe for Gene, it was good to see OpEx come in light in the third and fourth quarter. It's been a sticking point for investors for a little bit. But I guess given how steep the revenue growth is expected to be in 2027, we're flying a little blind given you're kind of at more than 2X your target. How should we think about OpEx growth in 2027? And you know, I guess while we're in the neighborhood, you know, do you think you can hold your target gross margin range, you know, sort of that 55% floor as we move through the year and Helios continues to ramp? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2297780,
+     "text": "Thank you, Lisa."
+    },
+    {
+     "t0_ms": 2298360,
+     "text": "Then maybe for Gene, it was good to see OpEx come in light"
+    },
+    {
+     "t0_ms": 2302400,
+     "text": "in the third and fourth quarter."
+    },
+    {
+     "t0_ms": 2303980,
+     "text": "It's been a sticking point for investors for a little bit."
+    },
+    {
+     "t0_ms": 2306100,
+     "text": "But I guess given how steep the revenue growth is expected"
+    },
+    {
+     "t0_ms": 2309600,
+     "text": "to be in 2027, we're flying a little blind given you're kind"
+    },
+    {
+     "t0_ms": 2314100,
+     "text": "of at more than 2X your target."
+    },
+    {
+     "t0_ms": 2316380,
+     "text": "How should we think about OpEx growth in 2027?"
+    },
+    {
+     "t0_ms": 2318960,
+     "text": "And you know, I guess while we're in the neighborhood, you know,"
+    },
+    {
+     "t0_ms": 2321380,
+     "text": "do you think you can hold your target gross margin range, you know,"
+    },
+    {
+     "t0_ms": 2325500,
+     "text": "sort of that 55% floor as we move through the year"
+    },
+    {
+     "t0_ms": 2328660,
+     "text": "and Helios continues to ramp?"
+    },
+    {
+     "t0_ms": 2330420,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2330880,
+   "t1_ms": 2373000,
+   "speaker": "Management",
+   "text": "Yeah. Josh, thank you for the question. On OpEx, as you said, we have been investing aggressively. What you're seeing is the investments are translating to accelerating revenue growth. We're seeing, you know, we're actually quite pleased with the 2026 operating leverage. We're expanding revenue much faster than OpEx growth, which is driving the operating margin increase. And if you think about the Q4 guide, we're guiding very significant revenue growth more than OpEx. That dynamic we believe will carry into 2027. Lisa talked about it.",
+   "parts": [
+    {
+     "t0_ms": 2330880,
+     "text": "Yeah. Josh, thank you for the question."
+    },
+    {
+     "t0_ms": 2334460,
+     "text": "On OpEx, as you said, we have been investing aggressively."
+    },
+    {
+     "t0_ms": 2338620,
+     "text": "What you're seeing is the investments are translating"
+    },
+    {
+     "t0_ms": 2343040,
+     "text": "to accelerating revenue growth."
+    },
+    {
+     "t0_ms": 2345160,
+     "text": "We're seeing, you know,"
+    },
+    {
+     "t0_ms": 2346240,
+     "text": "we're actually quite pleased with the 2026 operating leverage."
+    },
+    {
+     "t0_ms": 2353020,
+     "text": "We're expanding revenue much faster than OpEx growth,"
+    },
+    {
+     "t0_ms": 2356800,
+     "text": "which is driving the operating margin increase."
+    },
+    {
+     "t0_ms": 2359540,
+     "text": "And if you think about the Q4 guide,"
+    },
+    {
+     "t0_ms": 2361960,
+     "text": "we're guiding very significant revenue growth more than OpEx."
+    },
+    {
+     "t0_ms": 2366380,
+     "text": "That dynamic we believe will carry into 2027."
+    },
+    {
+     "t0_ms": 2371040,
+     "text": "Lisa talked about it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2373000,
+   "t1_ms": 2417020,
+   "speaker": "Management",
+   "text": "We expect the whole company growing more than 8% and 80%. We should expect OpEx to grow less than the top line revenue growth rate, less than half of the top line revenue growth rate. So that will drive a very significant operating margin expansion in 2027. Going back to gross margin, we are actually very happy about where we are with our gross margin. In Q3, we are ramping MI450 data center. We are ramping MI450 data center. We are ramping MI450 data center. We are ramping MI450 data center. We are ramping MI450 data center. We are ramping MI450 data center. We are ramping MI450 data center. AI business is doing very well, actually better than our expectation when we got into the Q3 quarter. And in Q4, we are guiding sequentially revenue",
+   "parts": [
+    {
+     "t0_ms": 2373000,
+     "text": "We expect the whole company growing more than 8%"
+    },
+    {
+     "t0_ms": 2376240,
+     "text": "and 80%."
+    },
+    {
+     "t0_ms": 2378340,
+     "text": "We should expect OpEx to grow less than the top line revenue growth rate,"
+    },
+    {
+     "t0_ms": 2384280,
+     "text": "less than half of the top line revenue growth rate."
+    },
+    {
+     "t0_ms": 2388020,
+     "text": "So that will drive a very significant operating margin expansion in 2027."
+    },
+    {
+     "t0_ms": 2394980,
+     "text": "Going back to gross margin, we are actually very happy"
+    },
+    {
+     "t0_ms": 2398720,
+     "text": "about where we are with our gross margin."
+    },
+    {
+     "t0_ms": 2401180,
+     "text": "In Q3, we are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2403020,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2404240,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2404940,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2405360,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2405860,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2406240,
+     "text": "We are ramping MI450 data center."
+    },
+    {
+     "t0_ms": 2406740,
+     "text": "AI business is doing very well, actually better than our"
+    },
+    {
+     "t0_ms": 2409740,
+     "text": "expectation when we got into the Q3 quarter."
+    },
+    {
+     "t0_ms": 2413260,
+     "text": "And in Q4, we are guiding sequentially revenue"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2417020,
+   "t1_ms": 2456260,
+   "speaker": "Management",
+   "text": "growing 50% for data center business. It's actually going to be the quarter data center AI business surpasses server business. So we all know there's a margin a little bit to corporate average, but the growth growth margin dollars are increasing very significantly. I think looking ahead of 2027, we actually think our data center business will be more than 80% of the total company revenue. So the mix of a data center business is going to drive the company's growth margin significantly.",
+   "parts": [
+    {
+     "t0_ms": 2417020,
+     "text": "growing 50% for data center business."
+    },
+    {
+     "t0_ms": 2421640,
+     "text": "It's actually going to be the quarter data center AI"
+    },
+    {
+     "t0_ms": 2424260,
+     "text": "business surpasses server business."
+    },
+    {
+     "t0_ms": 2427480,
+     "text": "So we all know there's a margin a little bit"
+    },
+    {
+     "t0_ms": 2432460,
+     "text": "to corporate average, but the growth"
+    },
+    {
+     "t0_ms": 2435860,
+     "text": "growth margin dollars are increasing very significantly."
+    },
+    {
+     "t0_ms": 2440200,
+     "text": "I think looking ahead of 2027, we actually think our data center business will be more"
+    },
+    {
+     "t0_ms": 2446460,
+     "text": "than 80% of the total company revenue."
+    },
+    {
+     "t0_ms": 2449640,
+     "text": "So the mix of a data center business is going to drive the company's growth margin significantly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2456820,
+   "t1_ms": 2495840,
+   "speaker": "Management",
+   "text": "The way to think about it is data center AI will continue to ramp through 2027. And the server business is expected to double. So quarter over quarter, there may be variations because the mix of those business will be a little bit different. In addition, embedded business is strengthening in 2027. I think that will also help our growth margin. Overall, when you put the whole business model together, what you should expect us to do is significant top-line revenue growth, significant growth profit expansion.",
+   "parts": [
+    {
+     "t0_ms": 2456820,
+     "text": "The way to think about it is data center AI will continue to ramp through 2027."
+    },
+    {
+     "t0_ms": 2462240,
+     "text": "And the server business is expected to double."
+    },
+    {
+     "t0_ms": 2465860,
+     "text": "So quarter over quarter, there may be variations because the mix of those business will be"
+    },
+    {
+     "t0_ms": 2472560,
+     "text": "a little bit different."
+    },
+    {
+     "t0_ms": 2475280,
+     "text": "In addition, embedded business is strengthening in 2027."
+    },
+    {
+     "t0_ms": 2480660,
+     "text": "I think that will also help our growth margin."
+    },
+    {
+     "t0_ms": 2483420,
+     "text": "Overall, when you put the whole business model together, what you should expect us to do"
+    },
+    {
+     "t0_ms": 2489260,
+     "text": "is significant top-line revenue growth, significant growth profit expansion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495860,
+   "t1_ms": 2507320,
+   "speaker": "Management",
+   "text": "And OPEX growing revenue growth, which will result in very significant operating margin expansion and profitability expansion.",
+   "parts": [
+    {
+     "t0_ms": 2495860,
+     "text": "And OPEX growing revenue growth, which will result in very significant operating margin"
+    },
+    {
+     "t0_ms": 2505040,
+     "text": "expansion and profitability expansion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2507580,
+   "t1_ms": 2517840,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of Timothy Arcuri with UBS. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 2507580,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2512720,
+     "text": "And the next question comes from the line of Timothy Arcuri with UBS."
+    },
+    {
+     "t0_ms": 2516720,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2518980,
+   "t1_ms": 2553260,
+   "speaker": "Analyst",
+   "text": "Thanks a lot. Lisa, I'm wondering if you can break down a little bit how a data center is going to look like next year. You did revise server CPU up from up 70 to up more than 100%. But you're not being super specific about. You know, data center AI. So is the right way to think about it that the GPU business will still be bigger in dollars than the server CPU business, but not much? Is that the right way to think about the split? And then how to think about the shape of the year? I know that the GPU business is lumpy, but I imagine it's probably pretty, you know, rattleable to the year. Is that kind of fair to think? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2518980,
+     "text": "Thanks a lot."
+    },
+    {
+     "t0_ms": 2520080,
+     "text": "Lisa, I'm wondering if you can break down a little bit how a data center is going to"
+    },
+    {
+     "t0_ms": 2523300,
+     "text": "look like next year."
+    },
+    {
+     "t0_ms": 2525180,
+     "text": "You did revise server CPU up from up 70 to up more than 100%."
+    },
+    {
+     "t0_ms": 2528720,
+     "text": "But you're not being super specific about."
+    },
+    {
+     "t0_ms": 2531720,
+     "text": "You know, data center AI."
+    },
+    {
+     "t0_ms": 2533980,
+     "text": "So is the right way to think about it that the GPU business will still be bigger in dollars"
+    },
+    {
+     "t0_ms": 2538560,
+     "text": "than the server CPU business, but not much?"
+    },
+    {
+     "t0_ms": 2541720,
+     "text": "Is that the right way to think about the split?"
+    },
+    {
+     "t0_ms": 2543180,
+     "text": "And then how to think about the shape of the year?"
+    },
+    {
+     "t0_ms": 2545720,
+     "text": "I know that the GPU business is lumpy, but I imagine it's probably pretty, you know,"
+    },
+    {
+     "t0_ms": 2550740,
+     "text": "rattleable to the year."
+    },
+    {
+     "t0_ms": 2551680,
+     "text": "Is that kind of fair to think?"
+    },
+    {
+     "t0_ms": 2553060,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2554420,
+   "t1_ms": 2596280,
+   "speaker": "Management",
+   "text": "Yeah, Tim, maybe let me break down a couple things. So first of all, we think 2027 is going to be a very strong momentum. And we're going to have a very strong year for both the CPU business as well as the data center AI business. And, you know, when we gave you some of the markers, you should just consider them markers, right? So we've said the overall company will grow greater than 80%. And for the data center CPU business, we will about double. And for the data center AI business, it will significantly more than double. And from that standpoint, you should expect that the data center AI business continues to be as a gene. Just. As I said, you know, Q4 is the first quarter where the data center AI business will cross",
+   "parts": [
+    {
+     "t0_ms": 2554420,
+     "text": "Yeah, Tim, maybe let me break down a couple things."
+    },
+    {
+     "t0_ms": 2557240,
+     "text": "So first of all, we think 2027 is going to be a very strong momentum."
+    },
+    {
+     "t0_ms": 2561720,
+     "text": "And we're going to have a very strong year for both the CPU business as well as the data"
+    },
+    {
+     "t0_ms": 2565180,
+     "text": "center AI business."
+    },
+    {
+     "t0_ms": 2566720,
+     "text": "And, you know, when we gave you some of the markers, you should just consider them markers,"
+    },
+    {
+     "t0_ms": 2570460,
+     "text": "right?"
+    },
+    {
+     "t0_ms": 2570660,
+     "text": "So we've said the overall company will grow greater than 80%."
+    },
+    {
+     "t0_ms": 2574680,
+     "text": "And for the data center CPU business, we will about double."
+    },
+    {
+     "t0_ms": 2580120,
+     "text": "And for the data center AI business, it will significantly more than double."
+    },
+    {
+     "t0_ms": 2584740,
+     "text": "And from that standpoint, you should expect that the data center AI business continues"
+    },
+    {
+     "t0_ms": 2589120,
+     "text": "to be as a gene."
+    },
+    {
+     "t0_ms": 2591520,
+     "text": "Just."
+    },
+    {
+     "t0_ms": 2591720,
+     "text": "As I said, you know, Q4 is the first quarter where the data center AI business will cross"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2596280,
+   "t1_ms": 2611400,
+   "speaker": "Management",
+   "text": "over in terms of size compared to the CPU business. And we would expect both businesses to grow nicely throughout the year. So hopefully that gives you a bit of, you know, shape as we go through the year.",
+   "parts": [
+    {
+     "t0_ms": 2596280,
+     "text": "over in terms of size compared to the CPU business."
+    },
+    {
+     "t0_ms": 2599920,
+     "text": "And we would expect both businesses to grow nicely throughout the year."
+    },
+    {
+     "t0_ms": 2604740,
+     "text": "So hopefully that gives you a bit of, you know, shape as we go through the year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2612780,
+   "t1_ms": 2627660,
+   "speaker": "Analyst",
+   "text": "Thanks a lot. And then, Gene, I guess, can you help us on the warrants? How are they going to layer into the year? Any sort of, like, you know, guardrails you can give us on sort of how to, you know, roll that into our model through the year and into 2027? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2612780,
+     "text": "Thanks a lot."
+    },
+    {
+     "t0_ms": 2613480,
+     "text": "And then, Gene, I guess, can you help us on the warrants?"
+    },
+    {
+     "t0_ms": 2617520,
+     "text": "How are they going to layer into the year?"
+    },
+    {
+     "t0_ms": 2619720,
+     "text": "Any sort of, like, you know,"
+    },
+    {
+     "t0_ms": 2621720,
+     "text": "guardrails you can give us on sort of how to, you know,"
+    },
+    {
+     "t0_ms": 2624300,
+     "text": "roll that into our model through the year and into 2027?"
+    },
+    {
+     "t0_ms": 2627600,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2628780,
+   "t1_ms": 2671060,
+   "speaker": "Management",
+   "text": "Yeah. Thanks for the question. I think the simple way to think about it is there are three parts for the warrant. The first one is, you know, we report net revenue, the Q3 revenue, Q4 guide. And whenever we talk about the revenue, it's always net revenue, which already incorporated the warrant revenue. And then the second part is the net revenue reduction piece, which is determined at the grant date of fair value. So that one, you should not worry about it. It's always incorporated in our revenue whenever we talk about the revenue. The second piece is probably you are asking is the share count.",
+   "parts": [
+    {
+     "t0_ms": 2628780,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2629560,
+     "text": "Thanks for the question."
+    },
+    {
+     "t0_ms": 2630980,
+     "text": "I think the simple way to think about it is there are three parts for the warrant."
+    },
+    {
+     "t0_ms": 2636620,
+     "text": "The first one is, you know, we report net revenue, the Q3 revenue, Q4 guide."
+    },
+    {
+     "t0_ms": 2642800,
+     "text": "And whenever we talk about the revenue, it's always net revenue, which already incorporated"
+    },
+    {
+     "t0_ms": 2649140,
+     "text": "the warrant revenue."
+    },
+    {
+     "t0_ms": 2651680,
+     "text": "And then the second part is the net revenue reduction piece, which is determined at the"
+    },
+    {
+     "t0_ms": 2657060,
+     "text": "grant date of fair value."
+    },
+    {
+     "t0_ms": 2658560,
+     "text": "So that one, you should not worry about it."
+    },
+    {
+     "t0_ms": 2661060,
+     "text": "It's always incorporated in our revenue whenever we talk about the revenue."
+    },
+    {
+     "t0_ms": 2666560,
+     "text": "The second piece is probably you are asking is the share count."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2671060,
+   "t1_ms": 2711480,
+   "speaker": "Management",
+   "text": "The way to think about it is the share count only coming to dilute the share once all the vesting conditions and the exercising conditions are met by our customers. That means, you know, the shipment need to be there and some commercial conditions need to be met. We are going to provide the guidance in 2027 to give you clear guidance when we believe the share vesting and the exercising conditions are met. That is something we'll provide transparency once we get into 2027. The last piece is it's a non-cash charge, quarterly non-cash charge, which is a remesherment of fair value.",
+   "parts": [
+    {
+     "t0_ms": 2671060,
+     "text": "The way to think about it is the share count only coming to dilute the share once all the"
+    },
+    {
+     "t0_ms": 2678140,
+     "text": "vesting conditions and the exercising conditions are met by our customers."
+    },
+    {
+     "t0_ms": 2681680,
+     "text": "That means, you know, the shipment need to be there and some commercial conditions need"
+    },
+    {
+     "t0_ms": 2686800,
+     "text": "to be met."
+    },
+    {
+     "t0_ms": 2687480,
+     "text": "We are going to provide the guidance in 2027 to give you clear guidance when we believe"
+    },
+    {
+     "t0_ms": 2694580,
+     "text": "the share vesting and the exercising conditions are met."
+    },
+    {
+     "t0_ms": 2698440,
+     "text": "That is something we'll provide transparency once we get into 2027."
+    },
+    {
+     "t0_ms": 2704420,
+     "text": "The last piece is it's a non-cash charge, quarterly non-cash charge, which is a remesherment"
+    },
+    {
+     "t0_ms": 2710940,
+     "text": "of fair value."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2711680,
+   "t1_ms": 2725440,
+   "speaker": "Management",
+   "text": "That actually does not impact our non-cash financial results and the free cash flow. So on the share count, just wait for us to provide you clear guidance when we get there.",
+   "parts": [
+    {
+     "t0_ms": 2711680,
+     "text": "That actually does not impact our non-cash financial results and the free cash flow."
+    },
+    {
+     "t0_ms": 2719440,
+     "text": "So on the share count, just wait for us to provide you clear guidance when we get there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2725440,
+   "t1_ms": 2735990,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of CJ Muse with Cantor Fitzgerald. Please proceed with your question. Yeah, good afternoon.",
+   "parts": [
+    {
+     "t0_ms": 2725440,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2729670,
+     "text": "And the next question comes from the line of CJ Muse with Cantor Fitzgerald."
+    },
+    {
+     "t0_ms": 2733990,
+     "text": "Please proceed with your question."
+    },
+    {
+     "t0_ms": 2734990,
+     "text": "Yeah, good afternoon."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2735990,
+   "t1_ms": 2758430,
+   "speaker": "Analyst",
+   "text": "Thank you for taking the question. I guess first question, on the server CPU side, you know, you've obviously taken your outlook higher. I'm curious how we should be thinking about units versus mix, including higher core count, as well as higher ASPs associated with Venice. Is there a way to, you know, break that down to help us understand that 100% growth?",
+   "parts": [
+    {
+     "t0_ms": 2735990,
+     "text": "Thank you for taking the question."
+    },
+    {
+     "t0_ms": 2736990,
+     "text": "I guess first question, on the server CPU side, you know, you've obviously taken your"
+    },
+    {
+     "t0_ms": 2743670,
+     "text": "outlook higher."
+    },
+    {
+     "t0_ms": 2744670,
+     "text": "I'm curious how we should be thinking about units versus mix, including higher core count,"
+    },
+    {
+     "t0_ms": 2750430,
+     "text": "as well as higher ASPs associated with Venice."
+    },
+    {
+     "t0_ms": 2752910,
+     "text": "Is there a way to, you know, break that down to help us understand that 100% growth?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2758430,
+   "t1_ms": 2785910,
+   "speaker": "Management",
+   "text": "Sure, CJ. So on the server CPU side, when we talk about 100% growth, you should imagine that we are definitely shipping significantly more units in that, of course, some of those units have higher core counts. So we're going to have to look at that as we go into Venice. But I would say the growth in revenue is mostly in units and core count and less so in ASPs, although there's an ASP uplift as we increase core count.",
+   "parts": [
+    {
+     "t0_ms": 2758430,
+     "text": "Sure, CJ."
+    },
+    {
+     "t0_ms": 2760910,
+     "text": "So on the server CPU side, when we talk about 100% growth, you should imagine that we are"
+    },
+    {
+     "t0_ms": 2767390,
+     "text": "definitely shipping significantly more units in that, of course, some of those units have"
+    },
+    {
+     "t0_ms": 2772670,
+     "text": "higher core counts."
+    },
+    {
+     "t0_ms": 2773670,
+     "text": "So we're going to have to look at that as we go into Venice."
+    },
+    {
+     "t0_ms": 2774910,
+     "text": "But I would say the growth in revenue is mostly in units and core count and less so in ASPs,"
+    },
+    {
+     "t0_ms": 2782750,
+     "text": "although there's an ASP uplift as we increase core count."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2785910,
+   "t1_ms": 2813690,
+   "speaker": "Analyst",
+   "text": "Great. Thanks. And I guess as a follow-up, just to button down 1Q seasonality, you know, based on what you said tonight, I'm interpreting that we should see kind of normal client and gaming down seasonally in Q1, kind of rateable data center, you know, above this. So I'm wondering if you have any thoughts on that. Yeah. Yeah. So, I think, you know, we're in December and I guess as part of that, any sort of vision for how to think about embedded?",
+   "parts": [
+    {
+     "t0_ms": 2785910,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2788350,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2789350,
+     "text": "And I guess as a follow-up, just to button down 1Q seasonality, you know, based on what"
+    },
+    {
+     "t0_ms": 2794730,
+     "text": "you said tonight, I'm interpreting that we should see kind of normal client and gaming"
+    },
+    {
+     "t0_ms": 2799770,
+     "text": "down seasonally in Q1, kind of rateable data center, you know, above this."
+    },
+    {
+     "t0_ms": 2802110,
+     "text": "So I'm wondering if you have any thoughts on that."
+    },
+    {
+     "t0_ms": 2803110,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2804110,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2805110,
+     "text": "So, I think, you know, we're in December and I guess as part of that, any sort of vision"
+    },
+    {
+     "t0_ms": 2809350,
+     "text": "for how to think about embedded?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2813690,
+   "t1_ms": 2834690,
+   "speaker": "Management",
+   "text": "For the embedded business, typically there's the seasonality. We do see overall when we look at the 2027 for the whole year, embedded business is actually going to grow significantly and also strengthening through the year. But typically Q1, actually, there's some seasonality for embedded business.",
+   "parts": [
+    {
+     "t0_ms": 2813690,
+     "text": "For the embedded business, typically there's the seasonality."
+    },
+    {
+     "t0_ms": 2818690,
+     "text": "We do see overall when we look at the 2027 for the whole year, embedded business is actually"
+    },
+    {
+     "t0_ms": 2824490,
+     "text": "going to grow significantly and also strengthening through the year."
+    },
+    {
+     "t0_ms": 2830510,
+     "text": "But typically Q1, actually, there's some seasonality for embedded business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2834690,
+   "t1_ms": 2844840,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of Stacy Razgon. Hi. Hi. Hi. Hi. Hi. Hi. Hi. Hi. I'm Stacy Razgon with Bernstein Research. Please proceed with your question. Hi, guys.",
+   "parts": [
+    {
+     "t0_ms": 2834690,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2840200,
+     "text": "And the next question comes from the line of Stacy Razgon."
+    },
+    {
+     "t0_ms": 2841200,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841360,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841460,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841600,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841700,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841860,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841920,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2841960,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2842100,
+     "text": "I'm Stacy Razgon with Bernstein Research."
+    },
+    {
+     "t0_ms": 2843100,
+     "text": "Please proceed with your question."
+    },
+    {
+     "t0_ms": 2844340,
+     "text": "Hi, guys."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2844840,
+   "t1_ms": 2871460,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my questions. I was wondering, I know you said that you did crossover for GPU versus CPU in Q4 within the context of that 50 percent. I was wondering if you could help us with the magnitude of that crossover? Is it just barely there or is it like significantly higher? I'm just trying to get the sizing in my head in terms of the entrance rate and the nif",
+   "parts": [
+    {
+     "t0_ms": 2844840,
+     "text": "Thanks for taking my questions."
+    },
+    {
+     "t0_ms": 2852420,
+     "text": "I was wondering, I know you said that you did crossover for GPU versus CPU in Q4 within"
+    },
+    {
+     "t0_ms": 2856600,
+     "text": "the context of that 50 percent."
+    },
+    {
+     "t0_ms": 2859920,
+     "text": "I was wondering if you could help us with the magnitude of that crossover?"
+    },
+    {
+     "t0_ms": 2863240,
+     "text": "Is it just barely there or is it like significantly higher?"
+    },
+    {
+     "t0_ms": 2866500,
+     "text": "I'm just trying to get the sizing in my head in terms of the entrance rate and the nif"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2871460,
+   "t1_ms": 2915740,
+   "speaker": "Management",
+   "text": "here. Yeah. Hi, Stacy. Yeah. I'll give you some color, right? The way to think about it is if you think about the MI450 ramp, it's a very significant step up sequentially from Q3 to Q4. And that really, compared to server-side, you know, servers are growing really nicely, strongly. But the ramp of data center AI, which surpasses the server in Q4, that is a very significant step up. I think the way, you know, server business, of course, is very strong, but the data center AI will be much higher than server business in Q4.",
+   "parts": [
+    {
+     "t0_ms": 2871460,
+     "text": "here."
+    },
+    {
+     "t0_ms": 2873740,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2874740,
+     "text": "Hi, Stacy."
+    },
+    {
+     "t0_ms": 2875760,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2875880,
+     "text": "I'll give you some color, right?"
+    },
+    {
+     "t0_ms": 2877380,
+     "text": "The way to think about it is if you think about the MI450 ramp,"
+    },
+    {
+     "t0_ms": 2883040,
+     "text": "it's a very significant step up sequentially from Q3 to Q4."
+    },
+    {
+     "t0_ms": 2888560,
+     "text": "And that really, compared to server-side,"
+    },
+    {
+     "t0_ms": 2892860,
+     "text": "you know, servers are growing really nicely, strongly."
+    },
+    {
+     "t0_ms": 2895800,
+     "text": "But the ramp of data center AI,"
+    },
+    {
+     "t0_ms": 2900060,
+     "text": "which surpasses the server in Q4,"
+    },
+    {
+     "t0_ms": 2903680,
+     "text": "that is a very significant step up."
+    },
+    {
+     "t0_ms": 2906560,
+     "text": "I think the way, you know, server business, of course, is very strong,"
+    },
+    {
+     "t0_ms": 2911480,
+     "text": "but the data center AI will be much higher than server business in Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2917060,
+   "t1_ms": 2918160,
+   "speaker": "Analyst",
+   "text": "In terms of dollars?",
+   "parts": [
+    {
+     "t0_ms": 2917060,
+     "text": "In terms of dollars?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2919500,
+   "t1_ms": 2921760,
+   "speaker": "Management",
+   "text": "Yeah, in terms of dollars, yeah. Okay, great.",
+   "parts": [
+    {
+     "t0_ms": 2919500,
+     "text": "Yeah, in terms of dollars, yeah."
+    },
+    {
+     "t0_ms": 2920940,
+     "text": "Okay, great."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2922380,
+   "t1_ms": 2948040,
+   "speaker": "Analyst",
+   "text": "And for my follow-up, Gene, there were some questions earlier about gross margins next year. I wasn't exactly quite sure how to interpret your answer in terms of the gross margins next year. Relative, I guess, to the Q4 rate. Do you think you could give us some colors, some highlights on like a good entrance rate and a good exit rate for gross margins in 2027? Given that the ramps of the different products and everything that are happening.",
+   "parts": [
+    {
+     "t0_ms": 2922380,
+     "text": "And for my follow-up,"
+    },
+    {
+     "t0_ms": 2925080,
+     "text": "Gene, there were some questions earlier about gross margins next year."
+    },
+    {
+     "t0_ms": 2927480,
+     "text": "I wasn't exactly quite sure how to interpret your answer"
+    },
+    {
+     "t0_ms": 2931780,
+     "text": "in terms of the gross margins next year."
+    },
+    {
+     "t0_ms": 2933740,
+     "text": "Relative, I guess, to the Q4 rate."
+    },
+    {
+     "t0_ms": 2935780,
+     "text": "Do you think you could give us some colors,"
+    },
+    {
+     "t0_ms": 2937740,
+     "text": "some highlights on like a good entrance rate"
+    },
+    {
+     "t0_ms": 2940220,
+     "text": "and a good exit rate for gross margins in 2027?"
+    },
+    {
+     "t0_ms": 2945300,
+     "text": "Given that the ramps of the different products and everything that are happening."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2949000,
+   "t1_ms": 2993660,
+   "speaker": "Management",
+   "text": "Yeah, Stacy, the reason we're not able to provide you quarter over quarter is really because when you think about the data center mix, it's the primary driver in 2027. When you have a data center business, revenue is more than 80% for the total company business. And then within data center, the interesting part is you have a data center AI business continue to ramp significantly. On the server side, we did mention, Lisa mentioned that we're going to double in 2027. Of course, we also know the supply constraint environment, and Lisa also mentioned that we're working with our suppliers to ensure we get most,",
+   "parts": [
+    {
+     "t0_ms": 2949000,
+     "text": "Yeah, Stacy, the reason we're not able to provide you quarter over quarter"
+    },
+    {
+     "t0_ms": 2954700,
+     "text": "is really because when you think about the data center mix,"
+    },
+    {
+     "t0_ms": 2959240,
+     "text": "it's the primary driver in 2027."
+    },
+    {
+     "t0_ms": 2961920,
+     "text": "When you have a data center business,"
+    },
+    {
+     "t0_ms": 2963680,
+     "text": "revenue is more than 80% for the total company business."
+    },
+    {
+     "t0_ms": 2969280,
+     "text": "And then within data center,"
+    },
+    {
+     "t0_ms": 2971080,
+     "text": "the interesting part is you have a data center AI business"
+    },
+    {
+     "t0_ms": 2974700,
+     "text": "continue to ramp significantly."
+    },
+    {
+     "t0_ms": 2977360,
+     "text": "On the server side, we did mention,"
+    },
+    {
+     "t0_ms": 2980140,
+     "text": "Lisa mentioned that we're going to double in 2027."
+    },
+    {
+     "t0_ms": 2984260,
+     "text": "Of course, we also know the supply constraint environment,"
+    },
+    {
+     "t0_ms": 2987940,
+     "text": "and Lisa also mentioned that we're working with our suppliers"
+    },
+    {
+     "t0_ms": 2991640,
+     "text": "to ensure we get most,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2993680,
+   "t1_ms": 3037910,
+   "speaker": "Management",
+   "text": "most of the supply. So the mix between those two business actually determine what the company's gross margin will be. Right now, I actually don't have that visibility. I think we hope both business are going to do great, and we know they're going to both doing great. Q4 actually is a good benchmark to think about it. It's because Q4 data center AI business is much higher than CPU business. So I think that, that give you some idea at that benchmark. Then in 2027, different quality could be different. There could be variation there.",
+   "parts": [
+    {
+     "t0_ms": 2993680,
+     "text": "most of the supply."
+    },
+    {
+     "t0_ms": 2994940,
+     "text": "So the mix between those two business actually determine"
+    },
+    {
+     "t0_ms": 2998920,
+     "text": "what the company's gross margin will be."
+    },
+    {
+     "t0_ms": 3001480,
+     "text": "Right now, I actually don't have that visibility."
+    },
+    {
+     "t0_ms": 3004860,
+     "text": "I think we hope both business are going to do great,"
+    },
+    {
+     "t0_ms": 3008420,
+     "text": "and we know they're going to both doing great."
+    },
+    {
+     "t0_ms": 3012680,
+     "text": "Q4 actually is a good benchmark to think about it."
+    },
+    {
+     "t0_ms": 3016240,
+     "text": "It's because Q4 data center AI business is much higher than CPU business."
+    },
+    {
+     "t0_ms": 3022500,
+     "text": "So I think that,"
+    },
+    {
+     "t0_ms": 3023440,
+     "text": "that give you some idea at that benchmark."
+    },
+    {
+     "t0_ms": 3027840,
+     "text": "Then in 2027, different quality could be different."
+    },
+    {
+     "t0_ms": 3032440,
+     "text": "There could be variation there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3037910,
+   "t1_ms": 3043870,
+   "speaker": "Operator",
+   "text": "Thank you. And the next question comes from the line of Joe Moore with Morgan Stanley. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 3037910,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3038750,
+     "text": "And the next question comes from the line of Joe Moore"
+    },
+    {
+     "t0_ms": 3040710,
+     "text": "with Morgan Stanley."
+    },
+    {
+     "t0_ms": 3042170,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3044750,
+   "t1_ms": 3067780,
+   "speaker": "Analyst",
+   "text": "Great, thank you. We've heard quite a bit of positive feedback on the Helion racks. And I wonder if you could talk a little bit about that. In the CPU only version of that, what's different for sort of these agentic workloads versus a traditional rack? And then do you anticipate an attach rate of the GPU blade in a lot of these?",
+   "parts": [
+    {
+     "t0_ms": 3044750,
+     "text": "Great, thank you."
+    },
+    {
+     "t0_ms": 3045790,
+     "text": "We've heard quite a bit of positive feedback"
+    },
+    {
+     "t0_ms": 3047790,
+     "text": "on the Helion racks."
+    },
+    {
+     "t0_ms": 3049790,
+     "text": "And I wonder if you could talk a little bit about that."
+    },
+    {
+     "t0_ms": 3052090,
+     "text": "In the CPU only version of that,"
+    },
+    {
+     "t0_ms": 3055030,
+     "text": "what's different for sort of these"
+    },
+    {
+     "t0_ms": 3056890,
+     "text": "agentic workloads versus a traditional rack?"
+    },
+    {
+     "t0_ms": 3059390,
+     "text": "And then do you anticipate an attach rate"
+    },
+    {
+     "t0_ms": 3062770,
+     "text": "of the GPU blade in a lot of these?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3067780,
+   "t1_ms": 3111200,
+   "speaker": "Management",
+   "text": "Sure, Joe. Yeah, there is quite a bit of positive excitement around the Helion racks. And I think the main point there is, these agentic racks, they really want to be optimized for the environment that they're in. So if they are in, let's call it hyperscaler or large cloud racks, you know, you're going to have them in all CPU configurations. It's going to be quite dense. You know, Venice is the, from a performance per socket standpoint, is the best in the industry. And so that will translate into a very strong agentic rack if you fully populate it with CPUs. But in enterprise areas, you will also see the opportunity",
+   "parts": [
+    {
+     "t0_ms": 3067780,
+     "text": "Sure, Joe."
+    },
+    {
+     "t0_ms": 3068620,
+     "text": "Yeah, there is quite a bit of positive excitement"
+    },
+    {
+     "t0_ms": 3071860,
+     "text": "around the Helion racks."
+    },
+    {
+     "t0_ms": 3073100,
+     "text": "And I think the main point there is,"
+    },
+    {
+     "t0_ms": 3075860,
+     "text": "these agentic racks, they really want to be optimized"
+    },
+    {
+     "t0_ms": 3081260,
+     "text": "for the environment that they're in."
+    },
+    {
+     "t0_ms": 3082980,
+     "text": "So if they are in, let's call it hyperscaler"
+    },
+    {
+     "t0_ms": 3085000,
+     "text": "or large cloud racks, you know, you're going to have them"
+    },
+    {
+     "t0_ms": 3087820,
+     "text": "in all CPU configurations."
+    },
+    {
+     "t0_ms": 3089380,
+     "text": "It's going to be quite dense."
+    },
+    {
+     "t0_ms": 3090480,
+     "text": "You know, Venice is the, from a performance per socket"
+    },
+    {
+     "t0_ms": 3095100,
+     "text": "standpoint, is the best in the industry."
+    },
+    {
+     "t0_ms": 3098320,
+     "text": "And so that will translate into a very strong agentic rack"
+    },
+    {
+     "t0_ms": 3103080,
+     "text": "if you fully populate it with CPUs."
+    },
+    {
+     "t0_ms": 3106340,
+     "text": "But in enterprise areas, you will also see the opportunity"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3111200,
+   "t1_ms": 3135540,
+   "speaker": "Management",
+   "text": "to mix CPUs and GPUs. And it just allows people to really optimize for the work, loads that they're in. And it is, you know, we have contributed to OCP. So it's a, you know, fully open rack. And I think that is viewed as a positive. And from that standpoint, we've gotten very positive feedback from both, you know, OEMs and ODMs as well as customers.",
+   "parts": [
+    {
+     "t0_ms": 3111200,
+     "text": "to mix CPUs and GPUs."
+    },
+    {
+     "t0_ms": 3113220,
+     "text": "And it just allows people to really optimize for the work,"
+    },
+    {
+     "t0_ms": 3117820,
+     "text": "loads that they're in."
+    },
+    {
+     "t0_ms": 3118780,
+     "text": "And it is, you know, we have contributed to OCP."
+    },
+    {
+     "t0_ms": 3122320,
+     "text": "So it's a, you know, fully open rack."
+    },
+    {
+     "t0_ms": 3126800,
+     "text": "And I think that is viewed as a positive."
+    },
+    {
+     "t0_ms": 3128880,
+     "text": "And from that standpoint, we've gotten very positive feedback"
+    },
+    {
+     "t0_ms": 3131720,
+     "text": "from both, you know, OEMs and ODMs as well as customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3137040,
+   "t1_ms": 3147680,
+   "speaker": "Analyst",
+   "text": "Okay, thank you. And if I could follow up that the 100% growth in server, do you think you're meeting demand at that level? Or do you think you still have kind of a shortage condition through all of next year?",
+   "parts": [
+    {
+     "t0_ms": 3137040,
+     "text": "Okay, thank you."
+    },
+    {
+     "t0_ms": 3137880,
+     "text": "And if I could follow up that the 100% growth in server,"
+    },
+    {
+     "t0_ms": 3141660,
+     "text": "do you think you're meeting demand at that level?"
+    },
+    {
+     "t0_ms": 3143580,
+     "text": "Or do you think you still have kind of a shortage condition"
+    },
+    {
+     "t0_ms": 3146240,
+     "text": "through all of next year?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3147820,
+   "t1_ms": 3192100,
+   "speaker": "Management",
+   "text": "Well, Joe, for us to grow that amount, we're meeting a lot of demand. And, you know, when you look at, when we talked about the TAM growing, let's call it, you know, about 50% CAGR over the next three or four years, you know, we saw growth in sort of three areas, right? So traditional cloud and enterprise, you know, agentic CPUs and agentic workloads and head nodes. We believe we're gaining share in each one of those segments as we give you that forecast of, you know, roughly 100% growth. I do believe there's more demand. And we are actively working with our supply chain partners to satisfy additional demand. You know, obviously, we also have to make sure that the squared sets are there and, you know,",
+   "parts": [
+    {
+     "t0_ms": 3147820,
+     "text": "Well, Joe, for us to grow that amount,"
+    },
+    {
+     "t0_ms": 3151280,
+     "text": "we're meeting a lot of demand."
+    },
+    {
+     "t0_ms": 3152700,
+     "text": "And, you know, when you look at,"
+    },
+    {
+     "t0_ms": 3155760,
+     "text": "when we talked about the TAM growing, let's call it,"
+    },
+    {
+     "t0_ms": 3158500,
+     "text": "you know, about 50% CAGR over the next three or four years,"
+    },
+    {
+     "t0_ms": 3161800,
+     "text": "you know, we saw growth in sort of three areas, right?"
+    },
+    {
+     "t0_ms": 3164200,
+     "text": "So traditional cloud and enterprise, you know,"
+    },
+    {
+     "t0_ms": 3166720,
+     "text": "agentic CPUs and agentic workloads and head nodes."
+    },
+    {
+     "t0_ms": 3170940,
+     "text": "We believe we're gaining share in each one of those segments"
+    },
+    {
+     "t0_ms": 3174420,
+     "text": "as we give you that forecast of, you know,"
+    },
+    {
+     "t0_ms": 3177120,
+     "text": "roughly 100% growth."
+    },
+    {
+     "t0_ms": 3177800,
+     "text": "I do believe there's more demand."
+    },
+    {
+     "t0_ms": 3180460,
+     "text": "And we are actively working with our supply chain partners"
+    },
+    {
+     "t0_ms": 3184500,
+     "text": "to satisfy additional demand."
+    },
+    {
+     "t0_ms": 3186980,
+     "text": "You know, obviously, we also have to make sure"
+    },
+    {
+     "t0_ms": 3189540,
+     "text": "that the squared sets are there and, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3192100,
+   "t1_ms": 3233470,
+   "speaker": "Management",
+   "text": "DDR5 and all of the other components are there. But my view is we are taking a big step up in terms of the demand forecast from our customers. I'm excited about the fact that our demand is broad-based. So it is, you know, virtually across every customer in terms of their expansion of their footprint with AMD. And so that's a positive. And we're going to continue to work on increasing supply to meet additional demand as it comes to fruition. John, I'm actually going to ask you to have one more caller join us, please. I think we have time for one more questioner. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3192100,
+     "text": "DDR5 and all of the other components are there."
+    },
+    {
+     "t0_ms": 3195020,
+     "text": "But my view is we are taking a big step up"
+    },
+    {
+     "t0_ms": 3197560,
+     "text": "in terms of the demand forecast from our customers."
+    },
+    {
+     "t0_ms": 3201700,
+     "text": "I'm excited about the fact that our demand is broad-based."
+    },
+    {
+     "t0_ms": 3206180,
+     "text": "So it is, you know,"
+    },
+    {
+     "t0_ms": 3207800,
+     "text": "virtually across every customer in terms of their expansion"
+    },
+    {
+     "t0_ms": 3212140,
+     "text": "of their footprint with AMD."
+    },
+    {
+     "t0_ms": 3213880,
+     "text": "And so that's a positive."
+    },
+    {
+     "t0_ms": 3215660,
+     "text": "And we're going to continue to work on increasing supply"
+    },
+    {
+     "t0_ms": 3218660,
+     "text": "to meet additional demand as it comes to fruition."
+    },
+    {
+     "t0_ms": 3224330,
+     "text": "John, I'm actually going to ask you"
+    },
+    {
+     "t0_ms": 3227670,
+     "text": "to have one more caller join us, please."
+    },
+    {
+     "t0_ms": 3229450,
+     "text": "I think we have time for one more questioner."
+    },
+    {
+     "t0_ms": 3230870,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3233470,
+   "t1_ms": 3245340,
+   "speaker": "Operator",
+   "text": "Thank you. And the final question comes from the line of Jim Schneider with Goldman Sachs. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 3233470,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3233870,
+     "text": "And the final question comes from the line of Jim Schneider"
+    },
+    {
+     "t0_ms": 3236810,
+     "text": "with Goldman Sachs."
+    },
+    {
+     "t0_ms": 3238190,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3245340,
+   "t1_ms": 3246380,
+   "speaker": "Analyst",
+   "text": "Hello, Jim. Your line is now live. Thank you. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3245340,
+     "text": "Hello, Jim."
+    },
+    {
+     "t0_ms": 3245740,
+     "text": "Your line is now live."
+    },
+    {
+     "t0_ms": 3246240,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3246360,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3246380,
+   "t1_ms": 3259250,
+   "speaker": "Operator",
+   "text": "Our final question comes from the line of Harsh Kumar with BMO Capital Markets. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 3246380,
+     "text": "Our final question comes from the line of Harsh Kumar"
+    },
+    {
+     "t0_ms": 3255190,
+     "text": "with BMO Capital Markets."
+    },
+    {
+     "t0_ms": 3256950,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3259250,
+   "t1_ms": 3286810,
+   "speaker": "Analyst",
+   "text": "Yeah. Hey, Lisa. Question is on Helios. So you're one of two companies shipping complete racks. Can I ask you about what your share aspirations is? And the reason why I'm asking is you've done a wonderful job in servers taking share from basically a very, you know, difficult competitor. And also, the second part of that question is, do you have aspirations to address the enterprise market? And I think you have a very interesting question. So, I think I'm going to start with you, and then I'm going to move to the next question.",
+   "parts": [
+    {
+     "t0_ms": 3259250,
+     "text": "Yeah. Hey, Lisa."
+    },
+    {
+     "t0_ms": 3260870,
+     "text": "Question is on Helios."
+    },
+    {
+     "t0_ms": 3262550,
+     "text": "So you're one of two companies shipping complete racks."
+    },
+    {
+     "t0_ms": 3265670,
+     "text": "Can I ask you about what your share aspirations is?"
+    },
+    {
+     "t0_ms": 3268290,
+     "text": "And the reason why I'm asking is you've done a wonderful job"
+    },
+    {
+     "t0_ms": 3270870,
+     "text": "in servers taking share from basically a very,"
+    },
+    {
+     "t0_ms": 3274250,
+     "text": "you know, difficult competitor."
+    },
+    {
+     "t0_ms": 3276110,
+     "text": "And also, the second part of that question is,"
+    },
+    {
+     "t0_ms": 3278970,
+     "text": "do you have aspirations to address the enterprise market?"
+    },
+    {
+     "t0_ms": 3281690,
+     "text": "And I think you have a very interesting question."
+    },
+    {
+     "t0_ms": 3284150,
+     "text": "So, I think I'm going to start with you,"
+    },
+    {
+     "t0_ms": 3285470,
+     "text": "and then I'm going to move to the next question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3286810,
+   "t1_ms": 3331630,
+   "speaker": "Management",
+   "text": "So, what is the biggest challenge you've faced with the market with this, with the Helios rack in the setup? And then I have a follow-up. Sure, Harsh. So, look, we're very happy with the progress that we've made with Helios. I think this is a significant, you know, rack scale solutions are significant, you know, R&D efforts. I think Helios has ramped very nicely. We saw a very good initial quarter in Q3. We're ramping nicely into Q4 and into 2027. You know, our aspirations are to be a, you know, a very significant compute supplier to our largest customers, both Frontier Labs as well as hyperscalers. And from that standpoint, you know, the focus on Helios and my 450 ramp is very much on our minds for Q4 and 2027. But we're in very active dialogues",
+   "parts": [
+    {
+     "t0_ms": 3286810,
+     "text": "So, what is the biggest challenge you've faced"
+    },
+    {
+     "t0_ms": 3287910,
+     "text": "with the market with this, with the Helios rack in the setup?"
+    },
+    {
+     "t0_ms": 3289030,
+     "text": "And then I have a follow-up."
+    },
+    {
+     "t0_ms": 3289790,
+     "text": "Sure, Harsh."
+    },
+    {
+     "t0_ms": 3290090,
+     "text": "So, look, we're very happy with the progress"
+    },
+    {
+     "t0_ms": 3291630,
+     "text": "that we've made with Helios."
+    },
+    {
+     "t0_ms": 3293630,
+     "text": "I think this is a significant, you know,"
+    },
+    {
+     "t0_ms": 3297550,
+     "text": "rack scale solutions are significant, you know,"
+    },
+    {
+     "t0_ms": 3300850,
+     "text": "R&D efforts."
+    },
+    {
+     "t0_ms": 3301770,
+     "text": "I think Helios has ramped very nicely."
+    },
+    {
+     "t0_ms": 3304290,
+     "text": "We saw a very good initial quarter in Q3."
+    },
+    {
+     "t0_ms": 3308490,
+     "text": "We're ramping nicely into Q4 and into 2027."
+    },
+    {
+     "t0_ms": 3311650,
+     "text": "You know, our aspirations are to be a, you know,"
+    },
+    {
+     "t0_ms": 3314710,
+     "text": "a very significant compute supplier"
+    },
+    {
+     "t0_ms": 3317270,
+     "text": "to our largest customers, both Frontier Labs"
+    },
+    {
+     "t0_ms": 3319930,
+     "text": "as well as hyperscalers."
+    },
+    {
+     "t0_ms": 3321430,
+     "text": "And from that standpoint, you know,"
+    },
+    {
+     "t0_ms": 3322970,
+     "text": "the focus on Helios and my 450 ramp"
+    },
+    {
+     "t0_ms": 3325810,
+     "text": "is very much on our minds for Q4 and 2027."
+    },
+    {
+     "t0_ms": 3329730,
+     "text": "But we're in very active dialogues"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3331630,
+   "t1_ms": 3372930,
+   "speaker": "Management",
+   "text": "with our largest customers on MI500 and MI600 and beyond. And, you know, our aspirations are to continue to have a larger and larger piece of, you know, their, you know, compute needs. And from everything that we see, demand continues to go up. So I think that's, you know, the overall view on Helios. Was there another part of that question? Enterprise. Oh, enterprise. Yeah, with the enterprise, yeah. Sure. Yes, certainly. I think we continue to see, you know, although enterprise is developing, let's call it a little bit slower than the largest Frontier Labs and hyperscalers, we do believe that the enterprise business is quite important.",
+   "parts": [
+    {
+     "t0_ms": 3331630,
+     "text": "with our largest customers on MI500 and MI600 and beyond."
+    },
+    {
+     "t0_ms": 3336850,
+     "text": "And, you know, our aspirations are"
+    },
+    {
+     "t0_ms": 3338430,
+     "text": "to continue to have a larger and larger"
+    },
+    {
+     "t0_ms": 3341650,
+     "text": "piece of, you know, their, you know, compute needs."
+    },
+    {
+     "t0_ms": 3344770,
+     "text": "And from everything that we see, demand continues to go up."
+    },
+    {
+     "t0_ms": 3348090,
+     "text": "So I think that's, you know, the overall view on Helios."
+    },
+    {
+     "t0_ms": 3350770,
+     "text": "Was there another part of that question?"
+    },
+    {
+     "t0_ms": 3352690,
+     "text": "Enterprise."
+    },
+    {
+     "t0_ms": 3353330,
+     "text": "Oh, enterprise."
+    },
+    {
+     "t0_ms": 3354010,
+     "text": "Yeah, with the enterprise, yeah."
+    },
+    {
+     "t0_ms": 3355870,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 3356470,
+     "text": "Yes, certainly."
+    },
+    {
+     "t0_ms": 3358210,
+     "text": "I think we continue to see, you know,"
+    },
+    {
+     "t0_ms": 3360610,
+     "text": "although enterprise is developing,"
+    },
+    {
+     "t0_ms": 3363190,
+     "text": "let's call it a little bit slower than the largest"
+    },
+    {
+     "t0_ms": 3367990,
+     "text": "Frontier Labs and hyperscalers, we do believe that the enterprise"
+    },
+    {
+     "t0_ms": 3371430,
+     "text": "business is quite important."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3372930,
+   "t1_ms": 3408570,
+   "speaker": "Management",
+   "text": "We have made a lot of progress in enterprise CPUs. Many of our enterprise customers are actually asking for our advice as to, you know, how to deploy AI and how to ensure that, you know, they're deploying it as efficiently as possible when you think about, you know, both, you know, on-prem as well as cloud deployments. So we are expanding our portfolio. We've introduced some enterprise-specific GPUs. And that will be a place where, you know, we would like to grow our footprint to, again, be a very strategic supplier to our largest enterprise customers.",
+   "parts": [
+    {
+     "t0_ms": 3372930,
+     "text": "We have made a lot of progress in enterprise CPUs."
+    },
+    {
+     "t0_ms": 3376830,
+     "text": "Many of our enterprise customers are actually"
+    },
+    {
+     "t0_ms": 3378990,
+     "text": "asking for our advice as to, you know, how to deploy AI"
+    },
+    {
+     "t0_ms": 3383970,
+     "text": "and how to ensure that, you know, they're deploying it"
+    },
+    {
+     "t0_ms": 3386070,
+     "text": "as efficiently as possible when you think about, you know,"
+    },
+    {
+     "t0_ms": 3388810,
+     "text": "both, you know, on-prem as well as cloud deployments."
+    },
+    {
+     "t0_ms": 3392410,
+     "text": "So we are expanding our portfolio."
+    },
+    {
+     "t0_ms": 3394530,
+     "text": "We've introduced some enterprise-specific GPUs."
+    },
+    {
+     "t0_ms": 3398490,
+     "text": "And that will be a place where, you know, we would like"
+    },
+    {
+     "t0_ms": 3401390,
+     "text": "to grow our footprint to, again, be a very strategic supplier"
+    },
+    {
+     "t0_ms": 3405530,
+     "text": "to our largest enterprise customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3408570,
+   "t1_ms": 3431390,
+   "speaker": "Analyst",
+   "text": "Understood. And my follow-up is on the client side. You know, historically, you've done a great job managing this business through situations like this. What would be your share-keep strategy if your chief competitor was to cut ASPs? Would you try to match them or would you be, you know, would you have to just gauge the situation as it goes? Just be curious about how you're going to manage this.",
+   "parts": [
+    {
+     "t0_ms": 3408570,
+     "text": "Understood."
+    },
+    {
+     "t0_ms": 3409130,
+     "text": "And my follow-up is on the client side."
+    },
+    {
+     "t0_ms": 3412150,
+     "text": "You know, historically, you've done a great job managing"
+    },
+    {
+     "t0_ms": 3414370,
+     "text": "this business through situations like this."
+    },
+    {
+     "t0_ms": 3417590,
+     "text": "What would be your share-keep strategy"
+    },
+    {
+     "t0_ms": 3420690,
+     "text": "if your chief competitor was to cut ASPs?"
+    },
+    {
+     "t0_ms": 3423910,
+     "text": "Would you try to match them or would you be, you know,"
+    },
+    {
+     "t0_ms": 3426830,
+     "text": "would you have to just gauge the situation as it goes?"
+    },
+    {
+     "t0_ms": 3429390,
+     "text": "Just be curious about how you're going to manage this."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3431390,
+   "t1_ms": 3474090,
+   "speaker": "Management",
+   "text": "Yeah, I think, Harsh, our view is, you know, PCs are an important market for us in the standpoint of, you know, I'm a big believer in end-to-end AI deployment, so from cloud to edge to client and, you know, we have a unique portfolio in that fashion. That being the case, I think we're always quite disciplined in how we manage. You know, our focus has really been on the most, the highest value and most profitable segments of the PC market. Enterprise. Premium consumer. Desktop channel. These are places that we do very well. We, you know, do recognize that there's a good amount of volatility in the low end of the market, and that's the place where we have the least exposure, frankly,",
+   "parts": [
+    {
+     "t0_ms": 3431390,
+     "text": "Yeah, I think, Harsh, our view is, you know,"
+    },
+    {
+     "t0_ms": 3435370,
+     "text": "PCs are an important market for us in the standpoint of,"
+    },
+    {
+     "t0_ms": 3439330,
+     "text": "you know, I'm a big believer in end-to-end AI deployment,"
+    },
+    {
+     "t0_ms": 3443530,
+     "text": "so from cloud to edge to client and, you know,"
+    },
+    {
+     "t0_ms": 3446210,
+     "text": "we have a unique portfolio in that fashion."
+    },
+    {
+     "t0_ms": 3449070,
+     "text": "That being the case, I think we're always quite disciplined"
+    },
+    {
+     "t0_ms": 3451570,
+     "text": "in how we manage."
+    },
+    {
+     "t0_ms": 3452570,
+     "text": "You know, our focus has really been on the most,"
+    },
+    {
+     "t0_ms": 3456390,
+     "text": "the highest value and most profitable segments"
+    },
+    {
+     "t0_ms": 3458790,
+     "text": "of the PC market."
+    },
+    {
+     "t0_ms": 3460330,
+     "text": "Enterprise."
+    },
+    {
+     "t0_ms": 3461330,
+     "text": "Premium consumer."
+    },
+    {
+     "t0_ms": 3462670,
+     "text": "Desktop channel."
+    },
+    {
+     "t0_ms": 3463670,
+     "text": "These are places that we do very well."
+    },
+    {
+     "t0_ms": 3465850,
+     "text": "We, you know, do recognize that there's a good amount"
+    },
+    {
+     "t0_ms": 3468510,
+     "text": "of volatility in the low end of the market,"
+    },
+    {
+     "t0_ms": 3470690,
+     "text": "and that's the place where we have the least exposure, frankly,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3474090,
+   "t1_ms": 3491090,
+   "speaker": "Management",
+   "text": "to that portion of the market. All right. Thank you, John, for organizing the Q&A. Thank you, everybody, for joining our call. We really appreciate you spending some time with AMD, and thank you very much for your questions and your attention. I'll let John go ahead and close the call. Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 3474090,
+     "text": "to that portion of the market."
+    },
+    {
+     "t0_ms": 3477430,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 3478530,
+     "text": "Thank you, John, for organizing the Q&A."
+    },
+    {
+     "t0_ms": 3480190,
+     "text": "Thank you, everybody, for joining our call."
+    },
+    {
+     "t0_ms": 3481550,
+     "text": "We really appreciate you spending some time with AMD,"
+    },
+    {
+     "t0_ms": 3484150,
+     "text": "and thank you very much for your questions and your attention."
+    },
+    {
+     "t0_ms": 3486830,
+     "text": "I'll let John go ahead and close the call."
+    },
+    {
+     "t0_ms": 3488130,
+     "text": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3491090,
+   "t1_ms": 3498410,
+   "speaker": "Operator",
+   "text": "Thank you, Matt, and ladies and gentlemen, thank you for your participation. This does conclude today's session. This is the last session of this teleconference. You may disconnect your lines at this time, and have a wonderful day. 1",
+   "parts": [
+    {
+     "t0_ms": 3491090,
+     "text": "Thank you, Matt, and ladies and gentlemen,"
+    },
+    {
+     "t0_ms": 3492630,
+     "text": "thank you for your participation."
+    },
+    {
+     "t0_ms": 3493970,
+     "text": "This does conclude today's session."
+    },
+    {
+     "t0_ms": 3494910,
+     "text": "This is the last session of this teleconference."
+    },
+    {
+     "t0_ms": 3495910,
+     "text": "You may disconnect your lines at this time,"
+    },
+    {
+     "t0_ms": 3496910,
+     "text": "and have a wonderful day."
+    },
+    {
+     "t0_ms": 3497910,
+     "text": "1"
+    }
+   ]
+  }
+ ]
+}

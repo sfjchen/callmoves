@@ -1,0 +1,4279 @@
+{
+ "ticker": "INTC",
+ "quarter": "Q3-2026",
+ "company": "Intel",
+ "call_start": "2026-10-29T17:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/INTC_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 9780,
+   "speaker": "Operator",
+   "text": "As a reminder, today's program is being recorded. And now I'd like to introduce your host for today's program, Mr. John Pitzer, Corporate Vice President of Investor Relations. Please go ahead, sir.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "As a reminder, today's program is being recorded."
+    },
+    {
+     "t0_ms": 3080,
+     "text": "And now I'd like to introduce your host for today's program, Mr. John Pitzer, Corporate Vice President of Investor Relations."
+    },
+    {
+     "t0_ms": 9080,
+     "text": "Please go ahead, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 10880,
+   "t1_ms": 55680,
+   "speaker": "Management",
+   "text": "Thank you, Jonathan, and good afternoon to everyone joining us today. By now, you should have received a copy of the Q3 earnings release and presentation. Both are available on our Investor Relations website, intc.com. For those joining us online today, the presentation is also available in our webcast window. I'm joined today by our CEO, Lipu Tan, and our CFO, Dave Zinsner. Lipu will open on comments on third quarter results and progress on our strategic priorities. Dave will then discuss overall financial results, including fourth quarter guidance, before we transition to answer your questions. Before we begin, please note that today's presentation does contain forward-looking statements based on the environment as we currently see it. As such, they are subject to various risks and uncertainties.",
+   "parts": [
+    {
+     "t0_ms": 10880,
+     "text": "Thank you, Jonathan, and good afternoon to everyone joining us today."
+    },
+    {
+     "t0_ms": 13980,
+     "text": "By now, you should have received a copy of the Q3 earnings release and presentation."
+    },
+    {
+     "t0_ms": 18260,
+     "text": "Both are available on our Investor Relations website, intc.com."
+    },
+    {
+     "t0_ms": 22460,
+     "text": "For those joining us online today, the presentation is also available in our webcast window."
+    },
+    {
+     "t0_ms": 26960,
+     "text": "I'm joined today by our CEO, Lipu Tan, and our CFO, Dave Zinsner."
+    },
+    {
+     "t0_ms": 32619,
+     "text": "Lipu will open on comments on third quarter results and progress on our strategic priorities."
+    },
+    {
+     "t0_ms": 38680,
+     "text": "Dave will then discuss overall financial results, including fourth quarter guidance, before we transition to answer your questions."
+    },
+    {
+     "t0_ms": 45300,
+     "text": "Before we begin, please note that today's presentation does contain forward-looking statements based on the environment as we currently see it."
+    },
+    {
+     "t0_ms": 52800,
+     "text": "As such, they are subject to various risks and uncertainties."
+    }
+   ]
+  },
+  {
+   "t0_ms": 55680,
+   "t1_ms": 98580,
+   "speaker": "Management",
+   "text": "It also contains references to non-GAAP financial measures that we believe provide useful information to our investors. Our earnings release, most recent annual report on Form 10-K, and other filings with the SEC provide more information on specific risk factors that could cause the actual results to differ materially from our expectations. They also provide additional information on our non-GAAP financial measures, including reconciliation where appropriate to our corresponding GAAP financial measures. Thank you. Thank you. Thank you. With that, let me turn it over to Lipu. Good afternoon, and thank you for joining us. The demand environment in Q3 was more balanced than previous quarters.",
+   "parts": [
+    {
+     "t0_ms": 55680,
+     "text": "It also contains references to non-GAAP financial measures that we believe provide useful information to our investors."
+    },
+    {
+     "t0_ms": 63220,
+     "text": "Our earnings release, most recent annual report on Form 10-K, and other filings with the SEC provide more information on specific risk factors that could cause the actual results to differ materially from our expectations."
+    },
+    {
+     "t0_ms": 76180,
+     "text": "They also provide additional information on our non-GAAP financial measures, including reconciliation where appropriate to our corresponding GAAP financial measures."
+    },
+    {
+     "t0_ms": 84440,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 85340,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 85640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 85680,
+     "text": "With that, let me turn it over to Lipu."
+    },
+    {
+     "t0_ms": 88420,
+     "text": "Good afternoon, and thank you for joining us."
+    },
+    {
+     "t0_ms": 92700,
+     "text": "The demand environment in Q3 was more balanced than previous quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 98580,
+   "t1_ms": 141000,
+   "speaker": "Management",
+   "text": "Strong momentum in DCAI drove upside and enabled the strongest revenue growth for the segment in 15 years. This was partially offset by weakness. In CCBG, driven by the industry-wide impacts from higher memory prices and limited IT budgets, the industry continues to navigate one of the most significant supply shortages in the history. Driven by the unprecedented demand for super intelligence.",
+   "parts": [
+    {
+     "t0_ms": 98580,
+     "text": "Strong momentum in DCAI drove upside and enabled the strongest revenue growth for the segment in 15 years."
+    },
+    {
+     "t0_ms": 112040,
+     "text": "This was partially offset by weakness."
+    },
+    {
+     "t0_ms": 115640,
+     "text": "In CCBG, driven by the industry-wide impacts from higher memory prices and limited IT budgets, the industry continues to navigate one of the most significant supply shortages in the history."
+    },
+    {
+     "t0_ms": 135700,
+     "text": "Driven by the unprecedented demand for super intelligence."
+    }
+   ]
+  },
+  {
+   "t0_ms": 141800,
+   "t1_ms": 183400,
+   "speaker": "Management",
+   "text": "Against this backdrop, I am pleased by the progress. We make growing our server supply in Q3. I am mindful about the ongoing challenges we face in the future quarters to keep pace with the server demand. The successful completion of our equity offering in August provided us with the necessary financial resources to capture the growth ahead. I am very pleased to add that we have a very strong financial support system. We have new sovereign funds and long-term growth investors in addition to our existing shareholders.",
+   "parts": [
+    {
+     "t0_ms": 141800,
+     "text": "Against this backdrop, I am pleased by the progress."
+    },
+    {
+     "t0_ms": 145620,
+     "text": "We make growing our server supply in Q3."
+    },
+    {
+     "t0_ms": 150580,
+     "text": "I am mindful about the ongoing challenges we face in the future quarters to keep pace with the server demand."
+    },
+    {
+     "t0_ms": 160920,
+     "text": "The successful completion of our equity offering in August provided us with the necessary financial resources to capture the growth ahead."
+    },
+    {
+     "t0_ms": 172540,
+     "text": "I am very pleased to add that we have a very strong financial support system."
+    },
+    {
+     "t0_ms": 175600,
+     "text": "We have new sovereign funds and long-term growth investors in addition to our existing shareholders."
+    }
+   ]
+  },
+  {
+   "t0_ms": 184480,
+   "t1_ms": 224880,
+   "speaker": "Management",
+   "text": "We are deploying this capital quickly and prudently. We expect CAC packs and purchase commitments for key components to increase significantly over the next several quarters. I want to thank our subscribers, Memory, foundry equipment suppliers for their strong partnership and collaborations as we work together to expand supply and support growing demands. Turning to business units, first DCAI within our",
+   "parts": [
+    {
+     "t0_ms": 184480,
+     "text": "We are deploying this capital quickly and prudently."
+    },
+    {
+     "t0_ms": 190120,
+     "text": "We expect CAC packs and purchase commitments for key components to increase significantly over the next several quarters."
+    },
+    {
+     "t0_ms": 201640,
+     "text": "I want to thank our subscribers, Memory,"
+    },
+    {
+     "t0_ms": 205600,
+     "text": "foundry equipment suppliers for their strong partnership and collaborations as we work together"
+    },
+    {
+     "t0_ms": 213200,
+     "text": "to expand supply and support growing demands. Turning to business units, first DCAI within our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 225680,
+   "t1_ms": 267060,
+   "speaker": "Management",
+   "text": "server business, we are making steady progress on our roadmap. Granite Rabbits on Intel 3 has become one of the farthest ramping server products. Clearwater Forest is the first Intel 18a server product that is available exclusively for revenue, and demand for 2027 is significant. Diamond Rabbits, our first Intel 18ap server product in terms of team oriented, detail, running internal disclosure, about what we call the",
+   "parts": [
+    {
+     "t0_ms": 225680,
+     "text": "server business, we are making steady progress on our roadmap. Granite Rabbits on Intel 3 has become"
+    },
+    {
+     "t0_ms": 235600,
+     "text": "one of the farthest ramping server products. Clearwater Forest is the first Intel 18a server"
+    },
+    {
+     "t0_ms": 245280,
+     "text": "product that is available exclusively for revenue, and demand for 2027 is"
+    },
+    {
+     "t0_ms": 251680,
+     "text": "significant. Diamond Rabbits, our first Intel 18ap"
+    },
+    {
+     "t0_ms": 266640,
+     "text": "server product in terms of team oriented, detail, running internal disclosure, about what we call the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 267060,
+   "t1_ms": 306160,
+   "speaker": "Management",
+   "text": "product is sampling and on track to RAM in 2027 with strong interest for inference and agentic workloads. We were pleased to recently announce an agreement with Oracle Cloud Infrastructure to deploy our latest generation CPUs to support their AI build-out. I also want to acknowledge headwinds limiting our progress to meet this extremely high AI-driven demand.",
+   "parts": [
+    {
+     "t0_ms": 267060,
+     "text": "product is sampling and on track to RAM in 2027 with strong interest for inference and"
+    },
+    {
+     "t0_ms": 276600,
+     "text": "agentic workloads."
+    },
+    {
+     "t0_ms": 280700,
+     "text": "We were pleased to recently announce an agreement with Oracle Cloud Infrastructure to deploy"
+    },
+    {
+     "t0_ms": 287560,
+     "text": "our latest generation CPUs to support their AI build-out."
+    },
+    {
+     "t0_ms": 295540,
+     "text": "I also want to acknowledge headwinds limiting our progress to meet this extremely high AI-driven"
+    },
+    {
+     "t0_ms": 304500,
+     "text": "demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 306160,
+   "t1_ms": 349580,
+   "speaker": "Management",
+   "text": "First, Intel 3 yield and cycle time continue to improve, but I am demanding significant execution from the team. Second, even as our Intel 3 wafer outputs RAMs quickly, an industry-wide market is still in the process of developing a new CPU. And we are also looking forward to the future of Intel 3.0. Third, the industry-wide shortage of advanced organic subscripts for our eMIB packaging is also impacting our ability to scale output. Finally, early this month, an unfortunate and tragic accident led to an extended shutdown in our Israel factory.",
+   "parts": [
+    {
+     "t0_ms": 306160,
+     "text": "First, Intel 3 yield and cycle time continue to improve, but I am demanding significant"
+    },
+    {
+     "t0_ms": 316200,
+     "text": "execution from the team."
+    },
+    {
+     "t0_ms": 319020,
+     "text": "Second, even as our Intel 3 wafer outputs RAMs quickly,"
+    },
+    {
+     "t0_ms": 325100,
+     "text": "an industry-wide market is still in the process of developing a new CPU."
+    },
+    {
+     "t0_ms": 325500,
+     "text": "And we are also looking forward to the future of Intel 3.0."
+    },
+    {
+     "t0_ms": 325520,
+     "text": "Third, the industry-wide shortage of advanced organic subscripts for our eMIB packaging is"
+    },
+    {
+     "t0_ms": 334220,
+     "text": "also impacting our ability to scale output."
+    },
+    {
+     "t0_ms": 338960,
+     "text": "Finally, early this month, an unfortunate and tragic accident led to an extended shutdown"
+    },
+    {
+     "t0_ms": 347700,
+     "text": "in our Israel factory."
+    }
+   ]
+  },
+  {
+   "t0_ms": 349580,
+   "t1_ms": 393800,
+   "speaker": "Management",
+   "text": "While the teams have worked quickly to address the situation, it will impact our Q4 10 nanometer server shipments. Purpose-built silicon remains our fastest-growing business segment, tripling over the last three years and post to triple again over the next few years. We see further growth opportunity with both existing and new potential customers, including AI Labs, and expanding our ideas to the next generation. We have a large IP portfolio to meet the needs of a wider array of customers.",
+   "parts": [
+    {
+     "t0_ms": 349580,
+     "text": "While the teams have worked quickly to address the situation,"
+    },
+    {
+     "t0_ms": 355480,
+     "text": "it will impact our Q4 10 nanometer server shipments."
+    },
+    {
+     "t0_ms": 361840,
+     "text": "Purpose-built silicon remains our fastest-growing business segment,"
+    },
+    {
+     "t0_ms": 367840,
+     "text": "tripling over the last three years and post to triple again over the next few years."
+    },
+    {
+     "t0_ms": 375920,
+     "text": "We see further growth opportunity with both existing and new potential customers,"
+    },
+    {
+     "t0_ms": 382960,
+     "text": "including AI Labs, and expanding our ideas to the next generation."
+    },
+    {
+     "t0_ms": 386680,
+     "text": "We have a large IP portfolio to meet the needs of a wider array of customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 393800,
+   "t1_ms": 432840,
+   "speaker": "Management",
+   "text": "Lastly, we recently unveiled our Crescent Island inference optimized GPU. Early feedback is encouraging. Performance is tracking well. This is a new market for us, and it will take time to scale, but customer engagements are progressing towards firm commitments. Turning to our client business, in recent weeks, our customers began signaling a PC slowdown based on the memory prices and availability.",
+   "parts": [
+    {
+     "t0_ms": 393800,
+     "text": "Lastly, we recently unveiled our Crescent Island inference optimized GPU."
+    },
+    {
+     "t0_ms": 402040,
+     "text": "Early feedback is encouraging."
+    },
+    {
+     "t0_ms": 405160,
+     "text": "Performance is tracking well."
+    },
+    {
+     "t0_ms": 406900,
+     "text": "This is a new market for us, and it will take time to scale, but customer engagements are"
+    },
+    {
+     "t0_ms": 414460,
+     "text": "progressing towards firm commitments."
+    },
+    {
+     "t0_ms": 416640,
+     "text": "Turning to our client business, in recent weeks, our customers began signaling a PC"
+    },
+    {
+     "t0_ms": 426780,
+     "text": "slowdown based on the memory prices and availability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 432840,
+   "t1_ms": 477140,
+   "speaker": "Management",
+   "text": "Year-to-date system endpoint prices have increased significantly, placing additional pressure on already limited IT budgets. The pace of the PC correction has been significantly improved. We are now in the early stages of the new market. The PC market has accelerated over the last two months, as our OEM partners are aggressively managing inventory to match the softer sell-through. We expect the current environment to persist until memory availability and prices begin to normalize. While the next few quarters will be challenging for the PC market, we have been working hard",
+   "parts": [
+    {
+     "t0_ms": 432840,
+     "text": "Year-to-date system endpoint prices have increased significantly, placing additional pressure"
+    },
+    {
+     "t0_ms": 440620,
+     "text": "on already limited IT budgets."
+    },
+    {
+     "t0_ms": 445640,
+     "text": "The pace of the PC correction has been significantly improved."
+    },
+    {
+     "t0_ms": 447140,
+     "text": "We are now in the early stages of the new market."
+    },
+    {
+     "t0_ms": 448020,
+     "text": "The PC market has accelerated over the last two months, as our OEM partners are aggressively"
+    },
+    {
+     "t0_ms": 456780,
+     "text": "managing inventory to match the softer sell-through."
+    },
+    {
+     "t0_ms": 462760,
+     "text": "We expect the current environment to persist until memory availability and prices begin"
+    },
+    {
+     "t0_ms": 470360,
+     "text": "to normalize."
+    },
+    {
+     "t0_ms": 471360,
+     "text": "While the next few quarters will be challenging for the PC market, we have been working hard"
+    }
+   ]
+  },
+  {
+   "t0_ms": 477140,
+   "t1_ms": 515480,
+   "speaker": "Management",
+   "text": "market, our roadmap continues to strengthen and our long-term outlook remains positive. We have successfully rammed Penta Lake on Intel 18A and demand for the Wildcat Lake is outstripping supply. Nova Lake, our first Intel 18AP client product, is tracking ahead of schedule, with design wins expecting to be twice those of Penta Lake at launch. We look forward to sharing more at CES in January.",
+   "parts": [
+    {
+     "t0_ms": 477140,
+     "text": "market, our roadmap continues to strengthen and our long-term outlook remains positive."
+    },
+    {
+     "t0_ms": 484560,
+     "text": "We have successfully rammed Penta Lake on Intel 18A and demand for the Wildcat Lake"
+    },
+    {
+     "t0_ms": 492640,
+     "text": "is outstripping supply."
+    },
+    {
+     "t0_ms": 495520,
+     "text": "Nova Lake, our first Intel 18AP client product, is tracking ahead of schedule, with design"
+    },
+    {
+     "t0_ms": 504320,
+     "text": "wins expecting to be twice those of Penta Lake at launch."
+    },
+    {
+     "t0_ms": 510320,
+     "text": "We look forward to sharing more at CES in January."
+    }
+   ]
+  },
+  {
+   "t0_ms": 515480,
+   "t1_ms": 559820,
+   "speaker": "Management",
+   "text": "As the market normalizes, we expect this portfolio drives meaningful share gains. Intel Foundry execution continues to improve consistently. During the quarter, Intel III and Intel 18A yields both increased again, with Intel 18A improving at a double-digit rate. Wafer output on both nodes exceeded expectations. Intel 18AP remains on track for launch by year-end across our internal product portfolio,",
+   "parts": [
+    {
+     "t0_ms": 515480,
+     "text": "As the market normalizes, we expect this portfolio drives meaningful share gains."
+    },
+    {
+     "t0_ms": 524860,
+     "text": "Intel Foundry execution continues to improve consistently."
+    },
+    {
+     "t0_ms": 529360,
+     "text": "During the quarter, Intel III and Intel 18A yields"
+    },
+    {
+     "t0_ms": 535760,
+     "text": "both increased again, with Intel 18A improving at a double-digit rate."
+    },
+    {
+     "t0_ms": 543760,
+     "text": "Wafer output on both nodes exceeded expectations."
+    },
+    {
+     "t0_ms": 550260,
+     "text": "Intel 18AP remains on track for launch by year-end across our internal product portfolio,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 559820,
+   "t1_ms": 602300,
+   "speaker": "Management",
+   "text": "and external customer engagement continues to build. We are engaged with Intel 18A. We have a couple of highly strategic customers, and I am increasingly confident that our Intel 18AP will be an attractive node for external Foundry customers. Intel 14As also remain on track. In October, as committed, we released our industry standard 0.9 PDK to select customers. It is our highest-performing product. We are committed to the future of Intel 18AP. Intel 18A's performance criteria is at its highest, in terms of performance criteria, but the performance criteria is not met. Our standard of performance is the highest-quality 0.9 PDK, meeting industry standard yield and",
+   "parts": [
+    {
+     "t0_ms": 559820,
+     "text": "and external customer engagement continues to build."
+    },
+    {
+     "t0_ms": 564260,
+     "text": "We are engaged with Intel 18A."
+    },
+    {
+     "t0_ms": 565760,
+     "text": "We have a couple of highly strategic customers, and I am increasingly confident that our Intel"
+    },
+    {
+     "t0_ms": 573260,
+     "text": "18AP will be an attractive node for external Foundry customers."
+    },
+    {
+     "t0_ms": 580760,
+     "text": "Intel 14As also remain on track."
+    },
+    {
+     "t0_ms": 584760,
+     "text": "In October, as committed, we released our industry standard 0.9 PDK to select customers."
+    },
+    {
+     "t0_ms": 593760,
+     "text": "It is our highest-performing product."
+    },
+    {
+     "t0_ms": 594760,
+     "text": "We are committed to the future of Intel 18AP."
+    },
+    {
+     "t0_ms": 595760,
+     "text": "Intel 18A's performance criteria is at its highest, in terms of performance criteria,"
+    },
+    {
+     "t0_ms": 596760,
+     "text": "but the performance criteria is not met."
+    },
+    {
+     "t0_ms": 597760,
+     "text": "Our standard of performance is the highest-quality 0.9 PDK, meeting industry standard yield and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 602300,
+   "t1_ms": 641820,
+   "speaker": "Management",
+   "text": "performance criteria at release. As is standard practice in the Foundry business, we have consistently maintained not to disclose customer details. That being said, I remain highly encouraged by the progress we are making with multiple potential customers on Foundry. customers on 14A. On advanced packaging, we are pleased by the progress we are making with eMIP and eMIP-T for our internal products. Both continue to see significant external",
+   "parts": [
+    {
+     "t0_ms": 602300,
+     "text": "performance criteria at release."
+    },
+    {
+     "t0_ms": 606700,
+     "text": "As is standard practice in the Foundry business, we have consistently maintained not to disclose"
+    },
+    {
+     "t0_ms": 614400,
+     "text": "customer details."
+    },
+    {
+     "t0_ms": 616520,
+     "text": "That being said, I remain highly encouraged by the progress we are making with multiple"
+    },
+    {
+     "t0_ms": 623760,
+     "text": "potential customers on Foundry."
+    },
+    {
+     "t0_ms": 624760,
+     "text": "customers on 14A. On advanced packaging, we are pleased by the progress we are making"
+    },
+    {
+     "t0_ms": 633380,
+     "text": "with eMIP and eMIP-T for our internal products. Both continue to see significant external"
+    }
+   ]
+  },
+  {
+   "t0_ms": 641820,
+   "t1_ms": 682020,
+   "speaker": "Management",
+   "text": "customer traction as well. We continue to improve on execution, working with our supply chain to secure the capacity to meet the needs of our advanced packaging customers. We are also seeing robust progress in the readiness of HBI, which is an enable of 3D chip stacking for our upcoming server products. Across our manufacturing network, additional capacity continues to come online. Intel 3.0",
+   "parts": [
+    {
+     "t0_ms": 641820,
+     "text": "customer traction as well. We continue to improve on execution, working with our supply"
+    },
+    {
+     "t0_ms": 649900,
+     "text": "chain to secure the capacity to meet the needs of our advanced packaging customers. We are"
+    },
+    {
+     "t0_ms": 657300,
+     "text": "also seeing robust progress in the readiness of HBI, which is an enable of 3D chip stacking"
+    },
+    {
+     "t0_ms": 667900,
+     "text": "for our upcoming server products. Across our manufacturing network, additional capacity"
+    },
+    {
+     "t0_ms": 677720,
+     "text": "continues to come online."
+    },
+    {
+     "t0_ms": 680840,
+     "text": "Intel 3.0"
+    }
+   ]
+  },
+  {
+   "t0_ms": 682020,
+   "t1_ms": 721080,
+   "speaker": "Management",
+   "text": "installation is progressing well in Ireland as is in the RAM of the 18A in both Oregon and Arizona, including FAB 62, our second high volume 18A FAB. In New Mexico and Malaysia, we are adding capacity to support strong customer RAMs for advanced packaging next year. In In New Albany, Ohio, the team recently achieved important construction milestones with installation",
+   "parts": [
+    {
+     "t0_ms": 682020,
+     "text": "installation is progressing well in Ireland as is in the RAM of the 18A in both Oregon"
+    },
+    {
+     "t0_ms": 692040,
+     "text": "and Arizona, including FAB 62, our second high volume 18A FAB. In New Mexico and Malaysia,"
+    },
+    {
+     "t0_ms": 702640,
+     "text": "we are adding capacity to support strong customer RAMs for advanced packaging next year. In"
+    },
+    {
+     "t0_ms": 712000,
+     "text": "In New Albany, Ohio, the team recently achieved important construction milestones with installation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 721080,
+   "t1_ms": 760400,
+   "speaker": "Management",
+   "text": "of the first major structural truss, and we continue to evaluate unique and highly differentiated opportunities to accelerate our Ohio build-out. And I hope to share more on this in the near future. Looking to the future, I have always emphasized that rebuilding Intel is going to be a multi-year journey, and I remain firmly committed to making it happen. We are only one year and a half into this journey.",
+   "parts": [
+    {
+     "t0_ms": 721080,
+     "text": "of the first major structural truss, and we continue to evaluate unique and highly differentiated"
+    },
+    {
+     "t0_ms": 729520,
+     "text": "opportunities to accelerate our Ohio build-out."
+    },
+    {
+     "t0_ms": 734720,
+     "text": "And I hope to share more on this in the near future."
+    },
+    {
+     "t0_ms": 740540,
+     "text": "Looking to the future, I have always emphasized that rebuilding Intel is going to be a multi-year"
+    },
+    {
+     "t0_ms": 749360,
+     "text": "journey, and I remain firmly committed to making it happen."
+    },
+    {
+     "t0_ms": 755860,
+     "text": "We are only one year and a half into this journey."
+    }
+   ]
+  },
+  {
+   "t0_ms": 760400,
+   "t1_ms": 802290,
+   "speaker": "Management",
+   "text": "We have made enormous strides in these 18 months, including a dramatic resizing of our workforce. You know, we are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We are still in the process of building Intel. We have been busy in the last 15 years, eliminating middle management and bureaucracy, streamlining our executive ranks and established an almost entirely new leadership team. We have installed, once again, an engineering-centric culture, streamlining our product portfolio, and put in place a more competitive roadmap for Intel products and Intel Foundry. We still have much more to do.",
+   "parts": [
+    {
+     "t0_ms": 760400,
+     "text": "We have made enormous strides in these 18 months, including a dramatic resizing of our"
+    },
+    {
+     "t0_ms": 769140,
+     "text": "workforce."
+    },
+    {
+     "t0_ms": 770140,
+     "text": "You know, we are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770340,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770380,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770500,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770520,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770600,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770780,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770880,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 770980,
+     "text": "We are still in the process of building Intel."
+    },
+    {
+     "t0_ms": 771360,
+     "text": "We have been busy in the last 15 years, eliminating middle management and bureaucracy,"
+    },
+    {
+     "t0_ms": 778820,
+     "text": "streamlining our executive ranks and established an almost entirely new leadership team."
+    },
+    {
+     "t0_ms": 783100,
+     "text": "We have installed, once again, an engineering-centric culture, streamlining our product portfolio,"
+    },
+    {
+     "t0_ms": 793450,
+     "text": "and put in place a more competitive roadmap for Intel products and Intel Foundry."
+    },
+    {
+     "t0_ms": 800750,
+     "text": "We still have much more to do."
+    }
+   ]
+  },
+  {
+   "t0_ms": 802290,
+   "t1_ms": 839570,
+   "speaker": "Management",
+   "text": "The resurgence in demand for CPU is a meaningful tailwind for us along our transformation journey. Increasingly, energy efficiency is becoming the most important matrix for the AI infrastructure to build out. While GPUs are great at thinking tasks, deterministic CPUs are far more efficient at finding tasks. While GPU reasoning queries run as high as multiple",
+   "parts": [
+    {
+     "t0_ms": 802290,
+     "text": "The resurgence in demand for CPU is a meaningful tailwind for us along our transformation journey."
+    },
+    {
+     "t0_ms": 814930,
+     "text": "Increasingly, energy efficiency is becoming the most important matrix for the AI infrastructure"
+    },
+    {
+     "t0_ms": 822290,
+     "text": "to build out. While GPUs are great at thinking tasks, deterministic CPUs are far more efficient"
+    },
+    {
+     "t0_ms": 832850,
+     "text": "at finding tasks. While GPU reasoning queries run as high as multiple"
+    }
+   ]
+  },
+  {
+   "t0_ms": 840690,
+   "t1_ms": 881890,
+   "speaker": "Management",
+   "text": "watt-hours of energy, a single CPU query could cost only joules of energy. Applying even conservative energy-saving algorithms to GPUs is a key step in the development of AI infrastructure. And that's why we are here today to talk about the most important aspect of GPUs. It is easy to anticipate a massive dollar and unit TAM for CPUs over the coming five years. By our estimates, server CPU TAM, largely driven by agentic workloads, could increase as much as five times from where it is today from",
+   "parts": [
+    {
+     "t0_ms": 840690,
+     "text": "watt-hours of energy, a single CPU query could cost only joules of energy."
+    },
+    {
+     "t0_ms": 850290,
+     "text": "Applying even conservative"
+    },
+    {
+     "t0_ms": 852210,
+     "text": "energy-saving algorithms to GPUs is a key step in the development of AI infrastructure."
+    },
+    {
+     "t0_ms": 852250,
+     "text": "And that's why we are here today to talk about the most important aspect of GPUs."
+    },
+    {
+     "t0_ms": 852290,
+     "text": "It is easy to anticipate a massive dollar and unit TAM for CPUs over the coming five years."
+    },
+    {
+     "t0_ms": 869650,
+     "text": "By our estimates, server CPU TAM, largely driven by agentic workloads,"
+    },
+    {
+     "t0_ms": 876690,
+     "text": "could increase as much as five times from where it is today from"
+    }
+   ]
+  },
+  {
+   "t0_ms": 881890,
+   "t1_ms": 923090,
+   "speaker": "Management",
+   "text": "$40 billion to more than $200 billion over five years. This makes the opportunity for Intel enormous. We are of course mindful of fierce competition underway as nearly every fabless company rages to meet this unprecedented demand with their own offering. But Intel is uniquely positioned to benefit from this demand in three ways. First, as a custodian of x86, the most widely deployed ISA in the world,",
+   "parts": [
+    {
+     "t0_ms": 881890,
+     "text": "$40 billion to more than $200 billion over five years."
+    },
+    {
+     "t0_ms": 889890,
+     "text": "This makes the opportunity for Intel enormous. We are of course mindful of fierce competition"
+    },
+    {
+     "t0_ms": 897970,
+     "text": "underway as nearly every fabless company rages to meet this unprecedented demand"
+    },
+    {
+     "t0_ms": 904770,
+     "text": "with their own offering. But Intel is uniquely positioned to benefit from this demand in three"
+    },
+    {
+     "t0_ms": 911810,
+     "text": "ways. First, as a custodian of x86, the most widely deployed ISA in the world,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 923090,
+   "t1_ms": 966730,
+   "speaker": "Management",
+   "text": "we are doubling down on x86 innovation, have an exciting tip-top group map of CPU innovations in the pipeline. In addition, for the first time, we are making fully modular, verified, instant-saving, and reliable CPUs available to the market. Because x86 is a very smart, user-friendly and powerful instrument, we are making sure you have the best possible CPUs in your market. They include the best available TAM, your own X86 CPU, and X86 S-MODE, built from hardware and software capability, with a wide range of features. We have a very well-organized network of customers, as one of the largest",
+   "parts": [
+    {
+     "t0_ms": 923090,
+     "text": "we are doubling down on x86 innovation, have an exciting tip-top group map of"
+    },
+    {
+     "t0_ms": 931250,
+     "text": "CPU innovations in the pipeline. In addition, for the first time, we are making fully modular,"
+    },
+    {
+     "t0_ms": 939970,
+     "text": "verified, instant-saving, and reliable CPUs available to the market."
+    },
+    {
+     "t0_ms": 941730,
+     "text": "Because x86 is a very smart, user-friendly and powerful instrument,"
+    },
+    {
+     "t0_ms": 944530,
+     "text": "we are making sure you have the best possible CPUs in your market."
+    },
+    {
+     "t0_ms": 946290,
+     "text": "They include the best available TAM, your own X86 CPU, and X86 S-MODE,"
+    },
+    {
+     "t0_ms": 950530,
+     "text": "built from hardware and software capability, with a wide range of features."
+    },
+    {
+     "t0_ms": 962690,
+     "text": "We have a very well-organized network of customers, as one of the largest"
+    }
+   ]
+  },
+  {
+   "t0_ms": 966730,
+   "t1_ms": 1005290,
+   "speaker": "Management",
+   "text": "chip manufacturers in the world. We also have a sky-high nest of friends in the mix of customers. We have a well- cobrared network of customers, as long as we think of thinking about the customers. We have a well-organized network of customers, as long as we think of thinking about the customers. In the early days of our 5.4th generation, Intel was a producer of amazing-atorial GPUs in the market, two of the most popular and most popular CPUs in the world, including the x86 hard drive. fabulous industry. We are also open to building any CPUs at scale for our customers, fully acoustic to underlying ISA. Third, as modern computing platforms increasingly become complex systems in the package, our leadership in advanced packaging offers highly differentiated solutions, especially to meet the requirements of the massive AI",
+   "parts": [
+    {
+     "t0_ms": 966730,
+     "text": "chip manufacturers in the world. We also have a sky-high nest of friends in the mix of customers."
+    },
+    {
+     "t0_ms": 969250,
+     "text": "We have a well- cobrared network of customers, as long as we think of thinking about the customers."
+    },
+    {
+     "t0_ms": 969490,
+     "text": "We have a well-organized network of customers, as long as we think of thinking about the customers."
+    },
+    {
+     "t0_ms": 969890,
+     "text": "In the early days of our 5.4th generation, Intel was a producer of amazing-atorial GPUs in the market,"
+    },
+    {
+     "t0_ms": 970530,
+     "text": "two of the most popular and most popular CPUs in the world, including the x86 hard drive."
+    },
+    {
+     "t0_ms": 970930,
+     "text": "fabulous industry. We are also open to building any CPUs at scale for our customers,"
+    },
+    {
+     "t0_ms": 980610,
+     "text": "fully acoustic to underlying ISA. Third, as modern computing platforms increasingly"
+    },
+    {
+     "t0_ms": 990370,
+     "text": "become complex systems in the package, our leadership in advanced packaging offers"
+    },
+    {
+     "t0_ms": 997410,
+     "text": "highly differentiated solutions, especially to meet the requirements of the massive AI"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1005290,
+   "t1_ms": 1048730,
+   "speaker": "Management",
+   "text": "infrastructure built out underway. This is why I remain optimistic on the opportunities ahead for Intel, even as we have work to do. Lastly, while we remain focused on executing against our near-term priorities, we cannot not focus on executing against our near-term priorities. We are on the absolute side of what comes next. Intel has a deep portfolio of technology and IP that positions us to drive the next wave of computing. We will continue to invest in breakthrough technologies, including silicon photonics, neuromorphic computing,",
+   "parts": [
+    {
+     "t0_ms": 1005290,
+     "text": "infrastructure built out underway. This is why I remain optimistic on the opportunities ahead"
+    },
+    {
+     "t0_ms": 1014170,
+     "text": "for Intel, even as we have work to do. Lastly, while we remain focused on executing"
+    },
+    {
+     "t0_ms": 1023530,
+     "text": "against our near-term priorities, we cannot"
+    },
+    {
+     "t0_ms": 1027349,
+     "text": "not focus on executing against our near-term priorities."
+    },
+    {
+     "t0_ms": 1027390,
+     "text": "We are on the absolute side of what comes next. Intel has a deep portfolio of technology"
+    },
+    {
+     "t0_ms": 1034650,
+     "text": "and IP that positions us to drive the next wave of computing. We will continue to invest"
+    },
+    {
+     "t0_ms": 1042490,
+     "text": "in breakthrough technologies, including silicon photonics, neuromorphic computing,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1049530,
+   "t1_ms": 1087270,
+   "speaker": "Management",
+   "text": "advanced materials, and quantum computing that we believe can unlock the important new opportunities over time. This week, we announced our intent to acquire Classic, an Israel-based quantum software provider, moving our quantum efforts from foundational research towards commercialization. Classic's overarching hardware-acoustic software platform layer provides a gateway for more consumers to explore the future of quantum technology. We are also looking forward to",
+   "parts": [
+    {
+     "t0_ms": 1049530,
+     "text": "advanced materials, and quantum computing that we believe can unlock the important new opportunities"
+    },
+    {
+     "t0_ms": 1057330,
+     "text": "over time. This week, we announced our intent to acquire Classic, an Israel-based quantum software"
+    },
+    {
+     "t0_ms": 1067030,
+     "text": "provider, moving our quantum efforts from foundational research towards commercialization."
+    },
+    {
+     "t0_ms": 1075910,
+     "text": "Classic's overarching hardware-acoustic software platform layer provides a gateway for more"
+    },
+    {
+     "t0_ms": 1085590,
+     "text": "consumers to explore the future of quantum technology. We are also looking forward to"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1087270,
+   "t1_ms": 1127030,
+   "speaker": "Management",
+   "text": "quantum computing and it is a wonderful complement to our already strong internal quantum hardware and software stacks and enable us to further extend our compute platform offerings to include qpus in addition to cpus gpus and asics post acquisition intel will become a full stack revenue generating quantum computing company in summary while we did well in q3 there's clearly",
+   "parts": [
+    {
+     "t0_ms": 1087270,
+     "text": "quantum computing and it is a wonderful complement to our already strong internal quantum hardware"
+    },
+    {
+     "t0_ms": 1095990,
+     "text": "and software stacks and enable us to further extend our compute platform offerings to include"
+    },
+    {
+     "t0_ms": 1105190,
+     "text": "qpus in addition to cpus gpus and asics post acquisition intel will become a full stack"
+    },
+    {
+     "t0_ms": 1116630,
+     "text": "revenue generating quantum computing company in summary while we did well in q3 there's clearly"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1127030,
+   "t1_ms": 1169430,
+   "speaker": "Management",
+   "text": "more work to do i'm disappointed that we were not able to meet strong customer demand in this quarter we face near-term challenges including manufacturing supply shortage the unprecedented memory crunch and the resulting softness in pc demand but i remain confident in our path forward we need to address these challenges with urgency without losing sight of the massive opportunity in front of us i want to thank our employees partners and suppliers for their",
+   "parts": [
+    {
+     "t0_ms": 1127030,
+     "text": "more work to do i'm disappointed that we were not able to meet strong customer demand in this"
+    },
+    {
+     "t0_ms": 1134390,
+     "text": "quarter we face near-term challenges including manufacturing supply shortage the unprecedented"
+    },
+    {
+     "t0_ms": 1143510,
+     "text": "memory crunch and the resulting"
+    },
+    {
+     "t0_ms": 1146630,
+     "text": "softness in pc demand but i remain confident in our path forward"
+    },
+    {
+     "t0_ms": 1154950,
+     "text": "we need to address these challenges with urgency without losing sight of the massive"
+    },
+    {
+     "t0_ms": 1161590,
+     "text": "opportunity in front of us i want to thank our employees partners and suppliers for their"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1169430,
+   "t1_ms": 1211830,
+   "speaker": "Management",
+   "text": "tireless effort in this quarter with that i will turn the call over to dave for additional details thank you lipu we delivered a strong quarter exceeding our guidance for revenue gross margin and earnings per share this marks the eighth consecutive quarter of exceeding our financial expectations our q3 results reinforce the essential role our server cpus play in the build out of super intelligence or ai infrastructure results also demonstrate our improving execution as we grow supply to capture the strong demand for ai compute in case of some representatives for support and use of the app as a solution",
+   "parts": [
+    {
+     "t0_ms": 1169430,
+     "text": "tireless effort in this quarter with that i will turn the call over to dave for additional"
+    },
+    {
+     "t0_ms": 1176630,
+     "text": "details thank you lipu we delivered a strong quarter exceeding our guidance for revenue gross"
+    },
+    {
+     "t0_ms": 1183750,
+     "text": "margin and earnings per share this marks the eighth consecutive quarter of exceeding our"
+    },
+    {
+     "t0_ms": 1188790,
+     "text": "financial expectations our q3 results reinforce the essential role our server cpus play in the"
+    },
+    {
+     "t0_ms": 1194870,
+     "text": "build out of super intelligence or ai infrastructure results also demonstrate"
+    },
+    {
+     "t0_ms": 1200230,
+     "text": "our improving execution as we grow supply to capture the strong demand for ai compute"
+    },
+    {
+     "t0_ms": 1208070,
+     "text": "in case of some representatives for support and use of the app as a solution"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1212550,
+   "t1_ms": 1256650,
+   "speaker": "Management",
+   "text": "we delivered over two thousand and fourteen point five billion dollars led by record year-over-year growth in dcai strong execution across our factory network and external supply chain drove better than expected server cpu output this strength was partially offset by weakness in client where industry-wide pc consumption is being impacted by memory shortages and limited it budgets third quarter non-gap gross margin was 44.1 percent approximately 200 basis points higher than q2 in our guidance by improved costs on Intel 3 and Intel 18A and a more favorable product mix. Third quarter non-gap EPS was 52 cents compared with our guidance of 38 cents. The upside was driven by higher revenue, stronger gross margin, and disciplined spending, which together produced better than expected",
+   "parts": [
+    {
+     "t0_ms": 1212550,
+     "text": "we delivered over two thousand and fourteen point five billion dollars led by record year-over-year"
+    },
+    {
+     "t0_ms": 1216630,
+     "text": "growth in dcai strong execution across our factory network and external supply chain drove better"
+    },
+    {
+     "t0_ms": 1221670,
+     "text": "than expected server cpu output this strength was partially offset by weakness in client"
+    },
+    {
+     "t0_ms": 1226310,
+     "text": "where industry-wide pc consumption is being impacted by memory shortages and limited it budgets"
+    },
+    {
+     "t0_ms": 1233350,
+     "text": "third quarter non-gap gross margin was 44.1 percent"
+    },
+    {
+     "t0_ms": 1236390,
+     "text": "approximately 200 basis points higher than q2 in our guidance"
+    },
+    {
+     "t0_ms": 1238070,
+     "text": "by improved costs on Intel 3 and Intel 18A and a more favorable product mix. Third quarter non-gap"
+    },
+    {
+     "t0_ms": 1245430,
+     "text": "EPS was 52 cents compared with our guidance of 38 cents. The upside was driven by higher revenue,"
+    },
+    {
+     "t0_ms": 1252270,
+     "text": "stronger gross margin, and disciplined spending, which together produced better than expected"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1256650,
+   "t1_ms": 1300090,
+   "speaker": "Management",
+   "text": "operating leverage. Operating cash flow was 5.1 billion dollars. We ended the quarter with approximately 54 billion dollars in cash and short-term investments, in addition to 15 billion dollars of borrowing capacity under our new extended revolvers, up from 10 billion dollars previously. In early August, we further strengthened our balance sheet through a 23 billion dollar equity offering. The incremental interest income associated with the offering contributed approximately one cent to Q3 EPS that was not contemplated in our original guidance. Now moving to segment results. DCAI revenue was 7.3 billion dollars, up 17 percent sequentially and nearly 80 percent year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 1256650,
+     "text": "operating leverage. Operating cash flow was 5.1 billion dollars. We ended the quarter with"
+    },
+    {
+     "t0_ms": 1263090,
+     "text": "approximately 54 billion dollars in cash and short-term investments, in addition to 15 billion"
+    },
+    {
+     "t0_ms": 1268290,
+     "text": "dollars of borrowing capacity under our new extended revolvers, up from 10 billion dollars"
+    },
+    {
+     "t0_ms": 1273550,
+     "text": "previously. In early August, we further strengthened our balance sheet through a 23 billion dollar"
+    },
+    {
+     "t0_ms": 1279390,
+     "text": "equity offering. The incremental interest income associated with the offering contributed"
+    },
+    {
+     "t0_ms": 1283910,
+     "text": "approximately one cent to Q3 EPS that was not contemplated in our original guidance."
+    },
+    {
+     "t0_ms": 1290170,
+     "text": "Now moving to segment results."
+    },
+    {
+     "t0_ms": 1291890,
+     "text": "DCAI revenue was 7.3 billion dollars, up 17 percent sequentially and nearly 80 percent year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1300910,
+   "t1_ms": 1343170,
+   "speaker": "Management",
+   "text": "Revenue was meaningfully ahead of our expectations as our factory network and external suppliers supported higher output. The work our teams have done to increase supply is having a tangible impact. Based on our current outlook, DCAI revenue is on track to finish 2026, nearly 10 billion dollars above expectations entering the year. Q3 growth was broad-based across hyperscale, enterprise, and neo-cloud customers. We also continued to see strong momentum in purpose-built silicon, with revenue increasing more than 50 percent sequentially and more than doubling year-over-year. Despite our progress to increased capacity, demand for DCAI products continues to meaningfully exceed available supply.",
+   "parts": [
+    {
+     "t0_ms": 1300910,
+     "text": "Revenue was meaningfully ahead of our expectations as our factory network and external suppliers"
+    },
+    {
+     "t0_ms": 1305510,
+     "text": "supported higher output. The work our teams have done to increase supply is having a tangible"
+    },
+    {
+     "t0_ms": 1311370,
+     "text": "impact. Based on our current outlook, DCAI revenue is on track to finish 2026, nearly 10 billion"
+    },
+    {
+     "t0_ms": 1318310,
+     "text": "dollars above expectations entering the year."
+    },
+    {
+     "t0_ms": 1321890,
+     "text": "Q3 growth was broad-based across hyperscale, enterprise, and neo-cloud customers. We also"
+    },
+    {
+     "t0_ms": 1327870,
+     "text": "continued to see strong momentum in purpose-built silicon, with revenue increasing more than 50"
+    },
+    {
+     "t0_ms": 1332870,
+     "text": "percent sequentially and more than doubling year-over-year. Despite our progress to increased"
+    },
+    {
+     "t0_ms": 1337990,
+     "text": "capacity, demand for DCAI products continues to meaningfully exceed available supply."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1344830,
+   "t1_ms": 1385110,
+   "speaker": "Management",
+   "text": "DCAI operating profit was 3 billion dollars, representing 42 percent of revenue and increasing approximately 600 million dollars in revenue. We have been working with Q3 growth for a long time, and we are now working with Q3 growth for a long time. We have been working with Q3 growth for a long time, and we are now working with Q3 growth for a long time, and we are working with Q3 growth for a long time. The improvement was driven by higher revenue and lower operating expenses. Granite Rapids is now the largest product family in our server portfolio, as we continue to increase output from our IR-Lint facility. Earlier this month, at the Open Compute Project Global Summit, we demonstrated select Clearwater Forest configurations that scale beyond 46,000 cores per rack at approximately 133 kilowatts of total rack power, delivering best-in-class performance and performance performance. We also demonstrated the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated",
+   "parts": [
+    {
+     "t0_ms": 1344830,
+     "text": "DCAI operating profit was 3 billion dollars, representing 42 percent of revenue and increasing"
+    },
+    {
+     "t0_ms": 1350230,
+     "text": "approximately 600 million dollars in revenue. We have been working with Q3 growth for a long time,"
+    },
+    {
+     "t0_ms": 1351890,
+     "text": "and we are now working with Q3 growth for a long time. We have been working with Q3 growth for a long time,"
+    },
+    {
+     "t0_ms": 1351910,
+     "text": "and we are now working with Q3 growth for a long time, and we are working with Q3 growth for a long time."
+    },
+    {
+     "t0_ms": 1352390,
+     "text": "The improvement was driven by higher revenue and lower operating expenses."
+    },
+    {
+     "t0_ms": 1358910,
+     "text": "Granite Rapids is now the largest product family in our server portfolio,"
+    },
+    {
+     "t0_ms": 1362750,
+     "text": "as we continue to increase output from our IR-Lint facility."
+    },
+    {
+     "t0_ms": 1366990,
+     "text": "Earlier this month, at the Open Compute Project Global Summit, we demonstrated select Clearwater"
+    },
+    {
+     "t0_ms": 1372390,
+     "text": "Forest configurations that scale beyond 46,000 cores per rack at approximately 133 kilowatts of total"
+    },
+    {
+     "t0_ms": 1379550,
+     "text": "rack power, delivering best-in-class performance and performance performance. We also demonstrated"
+    },
+    {
+     "t0_ms": 1380030,
+     "text": "the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated"
+    },
+    {
+     "t0_ms": 1380230,
+     "text": "the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated"
+    },
+    {
+     "t0_ms": 1380550,
+     "text": "the ability to use the Q3 growth to increase output from our IR-Lint facility. We also demonstrated"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1385110,
+   "t1_ms": 1425410,
+   "speaker": "Management",
+   "text": "the Intel GPU D-Series, formerly codenamed Crescent Island, which is designed to improve the economics of sustained memory-intensive AI inference. Customer interest in both product families is running ahead of our initial expectations. CCPG revenue was $8.1 billion, down 9% sequentially and below our expectations. We previously noted that memory shortages could pressure the performance of our IR-Lint system, and we are now working with Q3 growth for a long time. We are now working with Q3 growth for a long time. That pressure intensified during Q3, particularly late in the quarter, and resulted in a meaningful adjustment in customer purchasing patterns. Despite the near-term weakness, we saw several positive developments.",
+   "parts": [
+    {
+     "t0_ms": 1385110,
+     "text": "the Intel GPU D-Series, formerly codenamed Crescent Island, which is designed to improve the economics"
+    },
+    {
+     "t0_ms": 1391670,
+     "text": "of sustained memory-intensive AI inference. Customer interest in both product families"
+    },
+    {
+     "t0_ms": 1397350,
+     "text": "is running ahead of our initial expectations. CCPG revenue was $8.1 billion, down 9%"
+    },
+    {
+     "t0_ms": 1404790,
+     "text": "sequentially and below our expectations. We previously noted that memory shortages could"
+    },
+    {
+     "t0_ms": 1409990,
+     "text": "pressure the performance of our IR-Lint system, and we are now working with Q3 growth for a long time."
+    },
+    {
+     "t0_ms": 1410530,
+     "text": "We are now working with Q3 growth for a long time."
+    },
+    {
+     "t0_ms": 1412450,
+     "text": "That pressure intensified during Q3, particularly late in the quarter,"
+    },
+    {
+     "t0_ms": 1416930,
+     "text": "and resulted in a meaningful adjustment in customer purchasing patterns."
+    },
+    {
+     "t0_ms": 1421890,
+     "text": "Despite the near-term weakness, we saw several positive developments."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1426130,
+   "t1_ms": 1469810,
+   "speaker": "Management",
+   "text": "Our AIPC revenue grew 35% year-over-year, even as total CCPG revenue declined 5%. Our client products on Intel 18A continued to ramp well. Wildcat Lake, our cost-optimized Intel 18A client CPU, increased units by approximately 70% sequentially, and is sold out. Lastly, our edge business was more resilient, supported by continued momentum in edge and physical AI design winds. CCPG operating profit was $2.3 billion, representing 28% of revenue, and approximately flat sequentially, primarily due to lower inventory charges. Turning to Intel Foundry. Intel Foundry revenue was $6.7 billion,",
+   "parts": [
+    {
+     "t0_ms": 1426130,
+     "text": "Our AIPC revenue grew 35% year-over-year, even as total CCPG revenue declined 5%."
+    },
+    {
+     "t0_ms": 1433330,
+     "text": "Our client products on Intel 18A continued to ramp well. Wildcat Lake, our cost-optimized Intel"
+    },
+    {
+     "t0_ms": 1439970,
+     "text": "18A client CPU, increased units by approximately 70% sequentially, and is sold out. Lastly,"
+    },
+    {
+     "t0_ms": 1447410,
+     "text": "our edge business was more resilient, supported by continued momentum in edge and physical AI"
+    },
+    {
+     "t0_ms": 1452450,
+     "text": "design winds. CCPG operating profit was $2.3 billion, representing 28% of revenue,"
+    },
+    {
+     "t0_ms": 1460210,
+     "text": "and approximately flat sequentially, primarily due to lower inventory charges."
+    },
+    {
+     "t0_ms": 1465970,
+     "text": "Turning to Intel Foundry. Intel Foundry revenue was $6.7 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1469970,
+   "t1_ms": 1513590,
+   "speaker": "Management",
+   "text": "up 16% sequentially, driven by better than expected growth on Intel 3 and Intel 18A. External Foundry revenue was $411 million, an increase of $118 million sequentially, primarily due to a non-recurring customer program. Intel Foundry reported an operating loss of $1.9 billion, an improvement of $236 million sequentially, even as we continue to invest aggressively to prepare Intel 14A for risk production next year. Higher yields, better cycle times, and increased factory utilization continue to reduce waiver costs. Intel 3 costs improved approximately 15% from Q1 levels, while volumes increased in the mid-teens sequentially.",
+   "parts": [
+    {
+     "t0_ms": 1469970,
+     "text": "up 16% sequentially, driven by better than expected growth on Intel 3 and Intel 18A."
+    },
+    {
+     "t0_ms": 1476770,
+     "text": "External Foundry revenue was $411 million, an increase of $118 million sequentially,"
+    },
+    {
+     "t0_ms": 1483010,
+     "text": "primarily due to a non-recurring customer program."
+    },
+    {
+     "t0_ms": 1487510,
+     "text": "Intel Foundry reported an operating loss of $1.9 billion, an improvement of $236 million"
+    },
+    {
+     "t0_ms": 1493130,
+     "text": "sequentially, even as we continue to invest aggressively to prepare Intel 14A for risk"
+    },
+    {
+     "t0_ms": 1498770,
+     "text": "production next year."
+    },
+    {
+     "t0_ms": 1500590,
+     "text": "Higher yields, better cycle times, and increased factory utilization continue to reduce waiver"
+    },
+    {
+     "t0_ms": 1505630,
+     "text": "costs."
+    },
+    {
+     "t0_ms": 1507310,
+     "text": "Intel 3 costs improved approximately 15% from Q1 levels, while volumes increased in the"
+    },
+    {
+     "t0_ms": 1512630,
+     "text": "mid-teens sequentially."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1515090,
+   "t1_ms": 1559950,
+   "speaker": "Management",
+   "text": "Intel 18A costs have declined approximately 40% since Q1, reflecting continued yield and cycle time improvements. Intel 18A yields continue their upward trajectory to industry standard levels ahead of our internal projections. Since Q1, Intel 18A client CPUs have grown from less than 5% of revenue to now nearly one-third of client CPU revenue. These results represent meaningful progress, although we still have considerable work ahead of us to deliver a sustainably profitable Foundry business. Now turning to Outlook. Demand signals from our data center customers continue to strengthen. We expect the industry to remain supply constrained throughout 2027 and into 2028. As Lipu discussed, the adoption of a Gentic-A,",
+   "parts": [
+    {
+     "t0_ms": 1515090,
+     "text": "Intel 18A costs have declined approximately 40% since Q1, reflecting continued yield and"
+    },
+    {
+     "t0_ms": 1520610,
+     "text": "cycle time improvements."
+    },
+    {
+     "t0_ms": 1522670,
+     "text": "Intel 18A yields continue their upward trajectory to industry standard levels ahead of our internal"
+    },
+    {
+     "t0_ms": 1527570,
+     "text": "projections."
+    },
+    {
+     "t0_ms": 1528770,
+     "text": "Since Q1,"
+    },
+    {
+     "t0_ms": 1529970,
+     "text": "Intel 18A client CPUs have grown from less than 5% of revenue to now nearly one-third of client"
+    },
+    {
+     "t0_ms": 1535970,
+     "text": "CPU revenue."
+    },
+    {
+     "t0_ms": 1537570,
+     "text": "These results represent meaningful progress, although we still have considerable work ahead"
+    },
+    {
+     "t0_ms": 1542250,
+     "text": "of us to deliver a sustainably profitable Foundry business."
+    },
+    {
+     "t0_ms": 1546110,
+     "text": "Now turning to Outlook."
+    },
+    {
+     "t0_ms": 1548210,
+     "text": "Demand signals from our data center customers continue to strengthen."
+    },
+    {
+     "t0_ms": 1551830,
+     "text": "We expect the industry to remain supply constrained throughout 2027 and into 2028."
+    },
+    {
+     "t0_ms": 1557070,
+     "text": "As Lipu discussed, the adoption of a Gentic-A,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1559970,
+   "t1_ms": 1604470,
+   "speaker": "Management",
+   "text": "a multi-step AI, is broadening the role of CPU compute. AI workloads are moving beyond prompt-based responses toward multi-step reasoning, orchestration, and autonomous persistent action. Our CPUs play a central role in enabling these workloads. As a result, we continue to see strong demand for our DCAI products. We now expect industry server CPU units to grow more than 30% in both 2026 and 2027. Growth would be higher in both years if additional industry supply and demand increases. We expect industry server CPU units to grow more than 30% in both 2026 and 2027. Growth would be higher in both years if additional industry supply and demand increases. Growth would be higher in both years if additional industry supply and demand increases. At the same time, the PC market is weakening after remaining resilient during the first half of 2026. We expect the 2026 PC unit TAM to decline approximately 12%, with second half units down more than 20%.",
+   "parts": [
+    {
+     "t0_ms": 1559970,
+     "text": "a multi-step AI, is broadening the role of CPU compute."
+    },
+    {
+     "t0_ms": 1563170,
+     "text": "AI workloads are moving beyond prompt-based responses toward multi-step reasoning, orchestration,"
+    },
+    {
+     "t0_ms": 1568870,
+     "text": "and autonomous persistent action."
+    },
+    {
+     "t0_ms": 1571470,
+     "text": "Our CPUs play a central role in enabling these workloads."
+    },
+    {
+     "t0_ms": 1576270,
+     "text": "As a result, we continue to see strong demand for our DCAI products."
+    },
+    {
+     "t0_ms": 1580070,
+     "text": "We now expect industry server CPU units to grow more than 30% in both 2026 and 2027."
+    },
+    {
+     "t0_ms": 1587170,
+     "text": "Growth would be higher in both years if additional industry supply and demand increases."
+    },
+    {
+     "t0_ms": 1588970,
+     "text": "We expect industry server CPU units to grow more than 30% in both 2026 and 2027. Growth would be higher in both years if additional industry supply and demand increases."
+    },
+    {
+     "t0_ms": 1589470,
+     "text": "Growth would be higher in both years if additional industry supply and demand increases."
+    },
+    {
+     "t0_ms": 1591470,
+     "text": "At the same time, the PC market is weakening after remaining resilient during the first half of 2026."
+    },
+    {
+     "t0_ms": 1597670,
+     "text": "We expect the 2026 PC unit TAM to decline approximately 12%, with second half units down more than 20%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1605570,
+   "t1_ms": 1648870,
+   "speaker": "Management",
+   "text": "We do not expect a sustained recovery until memory availability improves and pricing begins to normalize. For 2027, we're planning for the PC unit TAM to decline roughly 10%. We expect year-over-year declines to be more pronounced than ever. We expect year-over-year declines to be more pronounced than ever. We expect year-over-year declines to be more pronounced than ever. We expect year-over-year declines to be more pronounced than ever. Our longer term view of the PC market remains unchanged. Traditional PCs will play an important role in enabling AI applications and driving strong returns on AI infrastructure spending. In addition, we're just now seeing new agentic systems in the market. We also continue to see attractive, longer term opportunities in Edge and physical AI as agentic applications spread across the economy. as agentic applications spread across the economy.",
+   "parts": [
+    {
+     "t0_ms": 1605570,
+     "text": "We do not expect a sustained recovery until memory availability improves and pricing begins to normalize."
+    },
+    {
+     "t0_ms": 1611870,
+     "text": "For 2027, we're planning for the PC unit TAM to decline roughly 10%."
+    },
+    {
+     "t0_ms": 1616970,
+     "text": "We expect year-over-year declines to be more pronounced than ever."
+    },
+    {
+     "t0_ms": 1618370,
+     "text": "We expect year-over-year declines to be more pronounced than ever."
+    },
+    {
+     "t0_ms": 1618870,
+     "text": "We expect year-over-year declines to be more pronounced than ever."
+    },
+    {
+     "t0_ms": 1619470,
+     "text": "We expect year-over-year declines to be more pronounced than ever."
+    },
+    {
+     "t0_ms": 1625770,
+     "text": "Our longer term view of the PC market remains unchanged."
+    },
+    {
+     "t0_ms": 1629270,
+     "text": "Traditional PCs will play an important role in enabling AI applications and driving strong returns on AI infrastructure spending."
+    },
+    {
+     "t0_ms": 1637170,
+     "text": "In addition, we're just now seeing new agentic systems in the market."
+    },
+    {
+     "t0_ms": 1641870,
+     "text": "We also continue to see attractive, longer term opportunities in Edge and physical AI"
+    },
+    {
+     "t0_ms": 1647470,
+     "text": "as agentic applications spread across the economy."
+    },
+    {
+     "t0_ms": 1648570,
+     "text": "as agentic applications spread across the economy."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1648870,
+   "t1_ms": 1689430,
+   "speaker": "Management",
+   "text": "across the economy. Taking these factors together, we're guiding Q4 revenue to a range of $15 billion to $16 billion. At the midpoint of $15.5 billion, we expect a gross margin of 38%, a tax rate of 11%, and EPS of 25 cents, all on a non-GAAP basis. Our guidance includes an impact of roughly $300 million to revenue and 200 basis points to gross margin based on our early assessment of the incident at Fab28. By segment, we expect DCAI revenue to grow mid-teens percent sequentially, with purpose-built silicon growing faster than DCAI overall. Please note, almost all",
+   "parts": [
+    {
+     "t0_ms": 1648870,
+     "text": "across the economy. Taking these factors together, we're guiding Q4 revenue to a range of $15 billion"
+    },
+    {
+     "t0_ms": 1655430,
+     "text": "to $16 billion. At the midpoint of $15.5 billion, we expect a gross margin of 38%,"
+    },
+    {
+     "t0_ms": 1662790,
+     "text": "a tax rate of 11%, and EPS of 25 cents, all on a non-GAAP basis. Our guidance includes an impact"
+    },
+    {
+     "t0_ms": 1670150,
+     "text": "of roughly $300 million to revenue and 200 basis points to gross margin based on our early"
+    },
+    {
+     "t0_ms": 1675750,
+     "text": "assessment of the incident at Fab28. By segment, we expect DCAI revenue to grow mid-teens percent"
+    },
+    {
+     "t0_ms": 1682950,
+     "text": "sequentially, with purpose-built silicon growing faster than DCAI overall. Please note, almost all"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1689430,
+   "t1_ms": 1732870,
+   "speaker": "Management",
+   "text": "of the $300 million impact from Fab28 is related to 10 nanometer server products. We expect CCPG revenue to decline greater than 20% sequentially as customers move quickly to reduce weeks of inventory and align purchases with their expectations for Q4. The sequential decline in Q4 gross margin primarily reflects lower overall revenue against our fixed cost base as we adjust client wafer starts to current demand conditions. In addition, revenue mix, especially the strong growth expected in purpose-built silicon, is creating difficult quarter-on-quarter compares. These headwinds will be partially offset by continued yield and cost improvements on Intel 3 and 18A.",
+   "parts": [
+    {
+     "t0_ms": 1689430,
+     "text": "of the $300 million impact from Fab28 is related to 10 nanometer server products. We expect CCPG"
+    },
+    {
+     "t0_ms": 1696710,
+     "text": "revenue to decline greater than 20% sequentially as customers move quickly to reduce weeks of"
+    },
+    {
+     "t0_ms": 1702390,
+     "text": "inventory and align purchases with their expectations for Q4."
+    },
+    {
+     "t0_ms": 1705750,
+     "text": "The sequential decline in Q4 gross margin primarily reflects lower overall revenue"
+    },
+    {
+     "t0_ms": 1712950,
+     "text": "against our fixed cost base as we adjust client wafer starts to current demand conditions."
+    },
+    {
+     "t0_ms": 1719030,
+     "text": "In addition, revenue mix, especially the strong growth expected in purpose-built silicon,"
+    },
+    {
+     "t0_ms": 1724150,
+     "text": "is creating difficult quarter-on-quarter compares. These headwinds will be partially"
+    },
+    {
+     "t0_ms": 1728550,
+     "text": "offset by continued yield and cost improvements on Intel 3 and 18A."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1734710,
+   "t1_ms": 1773030,
+   "speaker": "Management",
+   "text": "We expect non-GAAP operating expenses of approximately $4.4 billion in Q4 and approximately $16.3 billion for the full year. We expect non-controlling interest, or NCI, to be approximately $250 million in Q4, and we currently expect NCI of approximately $1.1 billion in both 2027 and 2028. Lastly, we expect Q4 fully diluted share count of $5.44 billion, representing a full quarter of shares issued for our August equity auction. We expect Q4 fully diluted share count of $5.44 billion, representing a full quarter of shares issued for our August equity auction. Moving to CapEx, our 2026 gross capital expenditures remains on track to be $20 billion,",
+   "parts": [
+    {
+     "t0_ms": 1734710,
+     "text": "We expect non-GAAP"
+    },
+    {
+     "t0_ms": 1735750,
+     "text": "operating expenses of approximately $4.4 billion in Q4 and approximately $16.3 billion for the full"
+    },
+    {
+     "t0_ms": 1742550,
+     "text": "year. We expect non-controlling interest, or NCI, to be approximately $250 million in Q4,"
+    },
+    {
+     "t0_ms": 1749430,
+     "text": "and we currently expect NCI of approximately $1.1 billion in both 2027 and 2028. Lastly, we expect"
+    },
+    {
+     "t0_ms": 1758070,
+     "text": "Q4 fully diluted share count of $5.44 billion, representing a full quarter of shares issued for"
+    },
+    {
+     "t0_ms": 1764790,
+     "text": "our August equity auction. We expect Q4 fully diluted share count of $5.44 billion, representing a full quarter of shares issued for our August equity auction."
+    },
+    {
+     "t0_ms": 1765750,
+     "text": "Moving to CapEx, our 2026 gross capital expenditures remains on track to be $20 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1773830,
+   "t1_ms": 1811910,
+   "speaker": "Management",
+   "text": "and we expect 2027 gross capital spending to be up strongly. We have made good progress securing the equipment required to support our growth plans, with firm purchase orders to equipment suppliers increasing nearly 40% sequentially. We're also accelerating clean room buildouts, including Fab 62 in Arizona, and exploring opportunities to accelerate in Ohio. Despite this increase in capital spending and working capital, we remain committed to deleveraging in 2027. We will remain disciplined as we invest, and we will not spend a dollar of capital unless we have confidence in the health of our products and process technologies, and clear evidence of",
+   "parts": [
+    {
+     "t0_ms": 1773830,
+     "text": "and we expect 2027 gross capital spending to be up strongly. We have made good progress securing"
+    },
+    {
+     "t0_ms": 1779750,
+     "text": "the equipment required to support our growth plans, with firm purchase orders to equipment"
+    },
+    {
+     "t0_ms": 1784310,
+     "text": "suppliers increasing nearly 40% sequentially. We're also accelerating clean room buildouts,"
+    },
+    {
+     "t0_ms": 1790070,
+     "text": "including Fab 62 in Arizona, and exploring opportunities to accelerate in Ohio."
+    },
+    {
+     "t0_ms": 1795750,
+     "text": "Despite this increase in capital spending and working capital, we remain committed to deleveraging in 2027."
+    },
+    {
+     "t0_ms": 1802310,
+     "text": "We will remain disciplined as we invest, and we will not spend a dollar of capital unless we have"
+    },
+    {
+     "t0_ms": 1807110,
+     "text": "confidence in the health of our products and process technologies, and clear evidence of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1811910,
+   "t1_ms": 1855350,
+   "speaker": "Management",
+   "text": "customer demand. Our confidence in all three is improving. In closing, I want to offer a few words outlining the opportunity we see ahead. Our core server CPU market is growing faster than ever, and edge and physical AI represent meaningful incremental opportunities for client-class CPUs, even as we navigate the current market conditions. Importantly, as we improve our product execution and roadmap, we have opportunities to regain share and grow even faster than our underlying markets. Beyond our core x86 franchise, we are investing in three large opportunities where we have meaningful momentum but relatively modest revenue today. Purpose-built silicon, advanced packaging,",
+   "parts": [
+    {
+     "t0_ms": 1811910,
+     "text": "customer demand. Our confidence in all three is improving. In closing, I want to offer a few words"
+    },
+    {
+     "t0_ms": 1819110,
+     "text": "outlining the opportunity we see ahead. Our core server CPU market is growing faster than ever,"
+    },
+    {
+     "t0_ms": 1825750,
+     "text": "and edge and physical AI represent meaningful incremental opportunities for client-class CPUs,"
+    },
+    {
+     "t0_ms": 1831510,
+     "text": "even as we navigate the current market conditions. Importantly, as we improve our product execution"
+    },
+    {
+     "t0_ms": 1837270,
+     "text": "and roadmap, we have opportunities to regain share and grow even faster than our underlying markets."
+    },
+    {
+     "t0_ms": 1844070,
+     "text": "Beyond our core x86 franchise, we are investing in three large opportunities where we have"
+    },
+    {
+     "t0_ms": 1849030,
+     "text": "meaningful momentum but relatively modest revenue today. Purpose-built silicon, advanced packaging,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1855750,
+   "t1_ms": 1897950,
+   "speaker": "Management",
+   "text": "and cost-benefit systems are being built at the core of the platform, which will take a moment to transform the entrepreneurial market. In addition, there are opening-door partnerships for our clients as well and external wafer foundry. Each represents tens of billions of dollars of new markets where our technology, manufacturing assets and customer relationships provide us a differentiated opportunity to participate. Taken together, we have line-of-sight to long-term, transparency, and discipline gives us increasing confidence in Intel's long-term earnings power and free cash flow growth, a solid foundation for building sustainable shareholder value. With that, I'll turn it over to John to begin the Q&A.",
+   "parts": [
+    {
+     "t0_ms": 1855750,
+     "text": "and cost-benefit systems are being built at the core of the platform, which will take a"
+    },
+    {
+     "t0_ms": 1865350,
+     "text": "moment to transform the entrepreneurial market. In addition, there are opening-door partnerships"
+    },
+    {
+     "t0_ms": 1869190,
+     "text": "for our clients as well and external wafer foundry. Each represents tens of billions of dollars of new"
+    },
+    {
+     "t0_ms": 1873910,
+     "text": "markets where our technology, manufacturing assets and customer relationships provide us a"
+    },
+    {
+     "t0_ms": 1879030,
+     "text": "differentiated opportunity to participate. Taken together, we have line-of-sight to long-term,"
+    },
+    {
+     "t0_ms": 1884070,
+     "text": "transparency, and discipline gives us increasing confidence in Intel's long-term earnings power"
+    },
+    {
+     "t0_ms": 1889670,
+     "text": "and free cash flow growth, a solid foundation for building sustainable shareholder value."
+    },
+    {
+     "t0_ms": 1895150,
+     "text": "With that, I'll turn it over to John to begin the Q&A."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1899010,
+   "t1_ms": 1909010,
+   "speaker": "Management",
+   "text": "Thank you, Dave. As a reminder, please ask one question and a brief follow-up in order to allow us to accommodate as many callers as possible. With that, Jonathan, can we take the first question?",
+   "parts": [
+    {
+     "t0_ms": 1899010,
+     "text": "Thank you, Dave. As a reminder, please ask one question and a brief follow-up in order to allow"
+    },
+    {
+     "t0_ms": 1903990,
+     "text": "us to accommodate as many callers as possible. With that, Jonathan, can we take the first question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1909010,
+   "t1_ms": 1915030,
+   "speaker": "Operator",
+   "text": "Certainly. And our first question comes from the line of Timothea Curry from UBS. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 1909010,
+     "text": "Certainly. And our first question comes from the line of Timothea Curry from UBS. Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1916250,
+   "t1_ms": 1940510,
+   "speaker": "Analyst",
+   "text": "Thanks a lot. Dave, I'm wondering, with all the puts and takes and what's going on in PC, I'm wondering if you can give us maybe some guardrails, maybe you could say it, next year. I mean, it seems like DCAI could grow $10 to $15 billion year over year, but PC, I'm guessing, is maybe down a touch. So can you just maybe give us guardrails for the year and sort of how to think about how to do that? You know, shape of the year.",
+   "parts": [
+    {
+     "t0_ms": 1916250,
+     "text": "Thanks a lot. Dave, I'm wondering, with all the puts and takes and what's going on in PC,"
+    },
+    {
+     "t0_ms": 1920630,
+     "text": "I'm wondering if you can give us maybe some guardrails, maybe you could say it, next year."
+    },
+    {
+     "t0_ms": 1928190,
+     "text": "I mean, it seems like DCAI could grow $10 to $15 billion year over year, but PC, I'm guessing,"
+    },
+    {
+     "t0_ms": 1933690,
+     "text": "is maybe down a touch. So can you just maybe give us guardrails for the year and sort of how to think"
+    },
+    {
+     "t0_ms": 1938850,
+     "text": "about how to do that?"
+    },
+    {
+     "t0_ms": 1939010,
+     "text": "You know, shape of the year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1941750,
+   "t1_ms": 1985870,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Tim. Yeah, I'm not obviously going to guide next year, but maybe I'll give you some qualitative information. I would say at a high level, we see next year as a growth year. You know, we feel like the momentum that we saw in data center this quarter and, you know, taking away the impact from Israel, that momentum would have continued into the fourth quarter. We see that continuing next year. The only little nuance is the first half of the year, we are still a bit constrained. You know, we talked about putting 40% more capacity in substrates, but a lot of that doesn't hit us until the back half of the year. In addition, we are still constrained on Intel 3. And, you know,",
+   "parts": [
+    {
+     "t0_ms": 1941750,
+     "text": "Yeah, thanks, Tim. Yeah, I'm not obviously going to guide next year, but maybe I'll give you some"
+    },
+    {
+     "t0_ms": 1946350,
+     "text": "qualitative information. I would say at a high level, we see next year as a growth year."
+    },
+    {
+     "t0_ms": 1953010,
+     "text": "You know, we feel like the momentum that we saw in data center this quarter and, you know,"
+    },
+    {
+     "t0_ms": 1958690,
+     "text": "taking away the impact from Israel, that momentum would have continued into the fourth quarter."
+    },
+    {
+     "t0_ms": 1965810,
+     "text": "We see that continuing next year."
+    },
+    {
+     "t0_ms": 1968670,
+     "text": "The only little nuance is the first half of the year, we are still a bit constrained."
+    },
+    {
+     "t0_ms": 1974790,
+     "text": "You know, we talked about putting 40% more capacity in substrates, but a lot of that doesn't hit us"
+    },
+    {
+     "t0_ms": 1979810,
+     "text": "until the back half of the year. In addition, we are still constrained on Intel 3. And, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1985870,
+   "t1_ms": 2028010,
+   "speaker": "Management",
+   "text": "we're going to work towards moving, as Lipu said, some of our supply into Oregon, but it's going to take a while before that, you know, comes out of the fab and gets into products. So, but we're very optimistic and enthusiastic about the opportunities for us next year in terms of growth on the data center business. In addition, you know, we talked about, you know, within DCAI, we also have purpose-built silicon. You know, that business has been growing at a 3x rate over the last three years. We see that growing at a 3x rate in the next three years. And so, we're really, you know, bullish about that throughout 2027. You know, obviously, the client is going to be the most difficult client to deal with. But, you know, we're going to have to work towards that. And, you know, we're going to have to work towards that. But, you know, we're going to have to work towards that. But, you know, we're going to have to work towards that. And so, we're going to have to work",
+   "parts": [
+    {
+     "t0_ms": 1985870,
+     "text": "we're going to work towards moving, as Lipu said, some of our supply into Oregon, but it's going to"
+    },
+    {
+     "t0_ms": 1991630,
+     "text": "take a while before that, you know, comes out of the fab and gets into products. So,"
+    },
+    {
+     "t0_ms": 1997970,
+     "text": "but we're very optimistic and enthusiastic about the opportunities for us next year in terms of"
+    },
+    {
+     "t0_ms": 2005530,
+     "text": "growth on the data center business. In addition, you know, we talked about, you know, within DCAI,"
+    },
+    {
+     "t0_ms": 2010590,
+     "text": "we also have purpose-built silicon. You know, that business has been growing at a 3x rate over"
+    },
+    {
+     "t0_ms": 2015530,
+     "text": "the last three years. We see that growing at a 3x rate in the next three years. And so, we're really,"
+    },
+    {
+     "t0_ms": 2020550,
+     "text": "you know, bullish about that throughout 2027. You know, obviously, the client is going to be the"
+    },
+    {
+     "t0_ms": 2027610,
+     "text": "most difficult client to deal with. But, you know, we're going to have to work towards that."
+    },
+    {
+     "t0_ms": 2027970,
+     "text": "And, you know, we're going to have to work towards that. But, you know, we're going to have to work towards"
+    },
+    {
+     "t0_ms": 2027990,
+     "text": "that. But, you know, we're going to have to work towards that. And so, we're going to have to work"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2028010,
+   "t1_ms": 2072710,
+   "speaker": "Management",
+   "text": "to call. As I talked about, you know, we see TAM declining in 26 by about 12% on a unit basis. We think that's going to be about 10% next year on a unit basis. So, that will be one dynamic. Then there's going to be this kind of inventory correction. We're in the throes of that right now. We felt a little bit of it in the third quarter. We're going to feel a lot of it in the fourth quarter. We think it extends at least out into the first quarter. After that, I think, you know, you'll start to see, like, the inventory correction part of this start to, you know, kind of wane. And we'll be back into more of, like, you know, what's going to go on on the TAM side, which, as I said, we're thinking about 10% down. The one added piece of this is, you know, we come into next year with NovaLake as our product offering. And we think this is the best",
+   "parts": [
+    {
+     "t0_ms": 2028010,
+     "text": "to call. As I talked about, you know, we see TAM declining in 26 by about 12% on a unit basis."
+    },
+    {
+     "t0_ms": 2035210,
+     "text": "We think that's going to be about 10% next year on a unit basis. So, that will be one dynamic."
+    },
+    {
+     "t0_ms": 2041150,
+     "text": "Then there's going to be this kind of inventory correction. We're in the throes of that right now."
+    },
+    {
+     "t0_ms": 2044850,
+     "text": "We felt a little bit of it in the third quarter. We're going to feel a lot of it in the fourth"
+    },
+    {
+     "t0_ms": 2048730,
+     "text": "quarter. We think it extends at least out into the first quarter. After that, I think, you know,"
+    },
+    {
+     "t0_ms": 2053250,
+     "text": "you'll start to see, like, the inventory correction part of this start to, you know,"
+    },
+    {
+     "t0_ms": 2057650,
+     "text": "kind of wane. And we'll be back into more of, like, you know, what's going to go on on the TAM"
+    },
+    {
+     "t0_ms": 2061730,
+     "text": "side, which, as I said, we're thinking about 10% down. The one added piece of this is, you know,"
+    },
+    {
+     "t0_ms": 2066949,
+     "text": "we come into next year with NovaLake as our product offering. And we think this is the best"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2072710,
+   "t1_ms": 2117630,
+   "speaker": "Management",
+   "text": "set of products we've had in a very long time. We think it covers the gamut of what's required to participate in client. We're very excited about it. We think, you know, next year and in the future years, we're in a kind of a market share gain type of environment. So, you know, obviously, I'm fortunate that, you know, we've run into this challenge on the memory side and its impact on client. But we are very enthusiastic about the product side. And I just, you know, you didn't ask this question, but I'll just extend it out beyond this year. You know, we do think that the PC is going to go through a renaissance despite this. And, you know, we think that as, you know, AI workloads start to shift around, there's going to be a lot of workload required in the client space. And, you know,",
+   "parts": [
+    {
+     "t0_ms": 2072710,
+     "text": "set of products we've had in a very long time. We think it covers the gamut of what's required"
+    },
+    {
+     "t0_ms": 2078050,
+     "text": "to participate in client. We're very excited about it. We think, you know, next year and"
+    },
+    {
+     "t0_ms": 2083570,
+     "text": "in the future years, we're in a kind of a market share gain type of"
+    },
+    {
+     "t0_ms": 2087350,
+     "text": "environment."
+    },
+    {
+     "t0_ms": 2087650,
+     "text": "So, you know, obviously, I'm fortunate that, you know, we've run into this challenge on"
+    },
+    {
+     "t0_ms": 2092110,
+     "text": "the memory side and its impact on client. But we are very enthusiastic about the product"
+    },
+    {
+     "t0_ms": 2098130,
+     "text": "side. And I just, you know, you didn't ask this question, but I'll just extend it out"
+    },
+    {
+     "t0_ms": 2101490,
+     "text": "beyond this year. You know, we do think that the PC is going to go through a renaissance"
+    },
+    {
+     "t0_ms": 2107750,
+     "text": "despite this. And, you know, we think that as, you know, AI workloads start to shift"
+    },
+    {
+     "t0_ms": 2113210,
+     "text": "around, there's going to be a lot of workload required in the client space. And, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2117650,
+   "t1_ms": 2132590,
+   "speaker": "Management",
+   "text": "it's either as a PC or as some kind of agentic box. And so we do see this market as being pretty interesting. You know, it's got to obviously get through this bit of challenge that we have. But longer term, you'll feel really good about the market. Tim, do you have a quick follow-up question?",
+   "parts": [
+    {
+     "t0_ms": 2117650,
+     "text": "it's either as a PC or as some kind of agentic box. And so we do see this market as being"
+    },
+    {
+     "t0_ms": 2122710,
+     "text": "pretty interesting. You know, it's got to obviously get through this bit of challenge"
+    },
+    {
+     "t0_ms": 2126450,
+     "text": "that we have. But longer term, you'll feel really good about the market."
+    },
+    {
+     "t0_ms": 2130150,
+     "text": "Tim, do you have a quick follow-up question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2132590,
+   "t1_ms": 2152110,
+   "speaker": "Analyst",
+   "text": "I do. Yeah. So, Dave, you did say that CapEx is going to be up a lot next year. I think a lot of us are thinking kind of like $30 billion. But, you know, I guess the real question is, are you committed to generating $4 billion? Are you committed to generating $4 billion? Are you committed to generating $4 billion? Are you committed to generating $4 billion? Are you committed to generating $4 billion free cash flow next year? Or do you think because of the CapEx burden that that'll be hard? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2132590,
+     "text": "I do. Yeah. So, Dave, you did say that CapEx is going to be up a lot next year. I think"
+    },
+    {
+     "t0_ms": 2137990,
+     "text": "a lot of us are thinking kind of like $30 billion. But, you know, I guess the real question"
+    },
+    {
+     "t0_ms": 2145530,
+     "text": "is, are you committed to generating $4 billion?"
+    },
+    {
+     "t0_ms": 2146650,
+     "text": "Are you committed to generating $4 billion? Are you committed to generating $4 billion?"
+    },
+    {
+     "t0_ms": 2147650,
+     "text": "Are you committed to generating $4 billion? Are you committed to generating $4 billion"
+    },
+    {
+     "t0_ms": 2148650,
+     "text": "free cash flow next year? Or do you think because of the CapEx burden that that'll be"
+    },
+    {
+     "t0_ms": 2151110,
+     "text": "hard? Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2152110,
+   "t1_ms": 2193570,
+   "speaker": "Management",
+   "text": "Yeah, that's a good question. Yeah. We haven't exactly locked into the number. You know, we don't do that until we get towards the end of this year. But we have a, you know, kind of a directional understanding of what's likely to happen. And we have been putting POs in place with equipment vendors given the lead time. So, you know, we have some sense of what's going to happen. I think next year is an investment year for us. You know, as we look at the year. You know, probably not a dynamic where we're going to have positive free cash flow next year. But it's because we see this as a tremendous opportunity to invest into the growth. And, you know, one thing that we have, you know, seen is you make the right investments, you",
+   "parts": [
+    {
+     "t0_ms": 2152110,
+     "text": "Yeah, that's a good question. Yeah. We haven't exactly locked into the number. You know,"
+    },
+    {
+     "t0_ms": 2157450,
+     "text": "we don't do that until we get towards the end of this year. But we have a, you know,"
+    },
+    {
+     "t0_ms": 2161610,
+     "text": "kind of a directional understanding of what's likely to happen. And we have been putting"
+    },
+    {
+     "t0_ms": 2165830,
+     "text": "POs in place with equipment vendors given the lead time. So, you know, we have some"
+    },
+    {
+     "t0_ms": 2170130,
+     "text": "sense of what's going to happen. I think next year is an investment year for us. You know,"
+    },
+    {
+     "t0_ms": 2174910,
+     "text": "as we look at the year."
+    },
+    {
+     "t0_ms": 2176650,
+     "text": "You know, probably not a dynamic where we're going to have positive free cash flow next"
+    },
+    {
+     "t0_ms": 2181670,
+     "text": "year. But it's because we see this as a tremendous opportunity to invest into the growth. And,"
+    },
+    {
+     "t0_ms": 2187910,
+     "text": "you know, one thing that we have, you know, seen is you make the right investments, you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2193570,
+   "t1_ms": 2234910,
+   "speaker": "Management",
+   "text": "ramp the node in the right way, you see profitability and you see return on invested capital. And we talked about this as we were doing the equity offering at the beginning of the session. And I think that's a really good point. I think that's a really good point. I think that's a really good point. And I think that's a really good point. I think that's a really good point. And I think that's a really good point. And I think that's a really good point. You know, we have a lot of what we're seeing at the beginning of August that we think we should be getting at least 20% ROI on all of these nodes as we invest in them. But this, you know, next year is going to be one of those years where there's a couple of things going on at the same time. We're ramping 18A, we're ramping Intel 3 to some extent, and we're making the appropriate investments to position 14A to begin production in 28. That's a lot of investment all, you know, kind of hitting us in one year. So I don't think that, you know, this will be a year in which we see positive cash flow. And by the way, that",
+   "parts": [
+    {
+     "t0_ms": 2193570,
+     "text": "ramp the node in the right way, you see profitability and you see return on invested capital. And"
+    },
+    {
+     "t0_ms": 2200130,
+     "text": "we talked about this as we were doing the equity offering at the beginning of the session."
+    },
+    {
+     "t0_ms": 2205110,
+     "text": "And I think that's a really good point. I think that's a really good point. I think"
+    },
+    {
+     "t0_ms": 2206110,
+     "text": "that's a really good point. And I think that's a really good point. I think that's a really good point."
+    },
+    {
+     "t0_ms": 2207110,
+     "text": "And I think that's a really good point. And I think that's a really good point."
+    },
+    {
+     "t0_ms": 2208110,
+     "text": "You know, we have a lot of what we're seeing at the beginning of August that we think"
+    },
+    {
+     "t0_ms": 2209110,
+     "text": "we should be getting at least 20% ROI on all of these nodes as we invest in them. But this,"
+    },
+    {
+     "t0_ms": 2214990,
+     "text": "you know, next year is going to be one of those years where there's a couple of things"
+    },
+    {
+     "t0_ms": 2217510,
+     "text": "going on at the same time. We're ramping 18A, we're ramping Intel 3 to some extent, and"
+    },
+    {
+     "t0_ms": 2222130,
+     "text": "we're making the appropriate investments to position 14A to begin production in 28. That's"
+    },
+    {
+     "t0_ms": 2226590,
+     "text": "a lot of investment all, you know, kind of hitting us in one year. So I don't think that,"
+    },
+    {
+     "t0_ms": 2231210,
+     "text": "you know, this will be a year in which we see positive cash flow. And by the way, that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2234910,
+   "t1_ms": 2270450,
+   "speaker": "Management",
+   "text": "why we raised the money that we did at the beginning of August was to get ourselves positioned to do this. Longer term though, these businesses generate lots of cashflow. And if you look at Intel 7 today, kind of 10 nanometers 7, that's already a profitable node to us. Intel 3 is going to be profitable next year for us. So we know we can make these businesses profitable. We know we can generate good cashflow from them. We know we can get 20% return. We just got to get through what is basically a knot hole here in 27 to go realize that. Thanks, Tim. Jonathan, can we have the next question, please?",
+   "parts": [
+    {
+     "t0_ms": 2234910,
+     "text": "why we raised the money that we did at the beginning of August was to get ourselves positioned"
+    },
+    {
+     "t0_ms": 2240710,
+     "text": "to do this. Longer term though, these businesses generate lots of cashflow. And if you look at"
+    },
+    {
+     "t0_ms": 2246210,
+     "text": "Intel 7 today, kind of 10 nanometers 7, that's already a profitable node to us. Intel 3 is going"
+    },
+    {
+     "t0_ms": 2253610,
+     "text": "to be profitable next year for us. So we know we can make these businesses profitable. We know we"
+    },
+    {
+     "t0_ms": 2258170,
+     "text": "can generate good cashflow from them. We know we can get 20% return. We just got to get through"
+    },
+    {
+     "t0_ms": 2263150,
+     "text": "what is basically a knot hole here in 27 to go realize that."
+    },
+    {
+     "t0_ms": 2268710,
+     "text": "Thanks, Tim. Jonathan, can we have the next question, please?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2271090,
+   "t1_ms": 2275730,
+   "speaker": "Operator",
+   "text": "Certainly. Our next question comes from the line of Ben Reiss from Melios. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2271090,
+     "text": "Certainly. Our next question comes from the line of Ben Reiss from Melios. Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2277530,
+   "t1_ms": 2321070,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks a lot, guys. I wanted to ask about some of the issues that you noted for 4Q and that may linger into 1Q and see if you can kind of size them versus prior expectations. And when they get better, you said... Yeah, I'm excited to execution. Obviously, the Israel situation, which is 300, wondering what that's going to be in the quarters after that and when that is solved. And sorry that that happened, by the way. And then the client. And in the context that the guide is about 1.8 below the street, maybe you can kind of go through those three things, how big they are to the cut of 1.8 and when they get better, that would be great. Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 2277530,
+     "text": "Yeah, thanks a lot, guys. I wanted to ask about some of the issues that you noted for"
+    },
+    {
+     "t0_ms": 2283910,
+     "text": "4Q and that may linger into 1Q and see if you can kind of size them versus prior expectations. And"
+    },
+    {
+     "t0_ms": 2291590,
+     "text": "when they get better, you said..."
+    },
+    {
+     "t0_ms": 2293150,
+     "text": "Yeah, I'm excited to execution. Obviously, the Israel situation, which is 300, wondering what"
+    },
+    {
+     "t0_ms": 2299050,
+     "text": "that's going to be in the quarters after that and when that is solved. And sorry that that happened,"
+    },
+    {
+     "t0_ms": 2304370,
+     "text": "by the way. And then the client. And in the context that the guide is about 1.8 below the"
+    },
+    {
+     "t0_ms": 2312010,
+     "text": "street, maybe you can kind of go through those three things, how big they are to the cut of 1.8"
+    },
+    {
+     "t0_ms": 2318430,
+     "text": "and when they get better, that would be great. Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2322940,
+   "t1_ms": 2329920,
+   "speaker": "Management",
+   "text": "Yeah. What was the... So Israel, the client, what was the third one? Just relative to the guide and street. Yeah. Okay.",
+   "parts": [
+    {
+     "t0_ms": 2322940,
+     "text": "Yeah. What was the..."
+    },
+    {
+     "t0_ms": 2324060,
+     "text": "So Israel, the client, what was the third one?"
+    },
+    {
+     "t0_ms": 2326480,
+     "text": "Just relative to the guide and street."
+    },
+    {
+     "t0_ms": 2329300,
+     "text": "Yeah. Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2330420,
+   "t1_ms": 2339740,
+   "speaker": "Analyst",
+   "text": "The execution, Dave. There was a comment around execution and Lipu made some comments. I'm wondering how big that was in terms of the guidance cut.",
+   "parts": [
+    {
+     "t0_ms": 2330420,
+     "text": "The execution, Dave. There was a comment around execution and Lipu made some comments. I'm"
+    },
+    {
+     "t0_ms": 2337180,
+     "text": "wondering how big that was in terms of the guidance cut."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2340280,
+   "t1_ms": 2384040,
+   "speaker": "Management",
+   "text": "Okay. Well, on Israel, we've been shut down for about two weeks. We feel like we're going to be starting up production here by the end of this week. Yeah. So we're... While we're doing that, we're trying to assess all the wafers that are in the line and what's usable and what's not usable from those materials. So this is somewhat of an early assessment, both really of 4Q and of 1Q. But I think the current thinking is that we'll have about a $300 million impact to the fourth quarter. That's likely to be similar in the first quarter. We think most of the write-offs of wafers or scrapping of wafers is likely to all kind of happen in the fourth quarter. And so we're trying to assess all the wafers that are in the line and",
+   "parts": [
+    {
+     "t0_ms": 2340280,
+     "text": "Okay. Well, on Israel, we've been shut down for about two weeks. We feel like we're"
+    },
+    {
+     "t0_ms": 2349180,
+     "text": "going to be starting up production here by the end of this week."
+    },
+    {
+     "t0_ms": 2354060,
+     "text": "Yeah. So we're... While we're doing that, we're trying to assess all the wafers that are in the"
+    },
+    {
+     "t0_ms": 2357380,
+     "text": "line and what's usable and what's not usable from those materials. So this is somewhat of an early"
+    },
+    {
+     "t0_ms": 2362620,
+     "text": "assessment, both really of 4Q and of 1Q. But I think the current thinking is that we'll have"
+    },
+    {
+     "t0_ms": 2369280,
+     "text": "about a $300 million impact to the fourth quarter. That's likely to be similar in the first quarter."
+    },
+    {
+     "t0_ms": 2375540,
+     "text": "We think most of the write-offs of wafers or scrapping of wafers is likely to all kind of"
+    },
+    {
+     "t0_ms": 2381800,
+     "text": "happen in the fourth quarter. And so we're trying to assess all the wafers that are in the line and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2384040,
+   "t1_ms": 2425060,
+   "speaker": "Management",
+   "text": "what's usable and what's not usable. So that's kind of what's driving the $200 million. So I wouldn't expect to see additional scrapping going on in the first quarter. But just keep in mind, it's early. We're going through all of that as we speak. And we'll, of course, update you as we go along. I think on the client side, obviously, it's going to kind of reset to this level. And we're going to have, I think, usually, you have a very similar inventory correction quarter to quarter. So I would expect it to be a little bit more of a slowdown. But I think it's going to generally be similar other than you will have a seasonality effect in Q1 on client as well. So the likelihood is that whatever the level that we're talking about for the fourth quarter,",
+   "parts": [
+    {
+     "t0_ms": 2384040,
+     "text": "what's usable and what's not usable. So that's kind of what's driving the $200 million. So I"
+    },
+    {
+     "t0_ms": 2386100,
+     "text": "wouldn't expect to see additional scrapping going on in the first quarter. But just keep in mind,"
+    },
+    {
+     "t0_ms": 2390780,
+     "text": "it's early. We're going through all of that as we speak. And we'll, of course, update you as we go"
+    },
+    {
+     "t0_ms": 2398720,
+     "text": "along. I think on the client side, obviously, it's going to kind of reset to this level. And"
+    },
+    {
+     "t0_ms": 2406240,
+     "text": "we're going to have, I think, usually, you have a very similar inventory correction quarter to"
+    },
+    {
+     "t0_ms": 2411680,
+     "text": "quarter. So I would expect it to be a little bit more of a slowdown. But I think it's going to"
+    },
+    {
+     "t0_ms": 2414040,
+     "text": "generally be similar other than you will have a seasonality effect in Q1 on client as well. So"
+    },
+    {
+     "t0_ms": 2420560,
+     "text": "the likelihood is that whatever the level that we're talking about for the fourth quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2425600,
+   "t1_ms": 2465100,
+   "speaker": "Management",
+   "text": "we'll see somewhat of a seasonal decline next quarter. Beyond that, I think from an execution perspective, I have to think about some of the negative things. But a lot of the execution has been really positive. I mean, Litboo and the team have done a very good job driving Intel 3 yields, driving 18A yields, and working the substrate vendors. Litboo was in Japan talking to many of the substrate vendors to make sure that we were getting allocated the appropriate supply. So I think we're as well positioned as anyone out there in terms of delivering supply. It's tight. It's going to be tight this next quarter. It's going to be tight into the first half. But I think we've",
+   "parts": [
+    {
+     "t0_ms": 2425600,
+     "text": "we'll see somewhat of a seasonal decline next quarter. Beyond that, I think from an execution"
+    },
+    {
+     "t0_ms": 2432300,
+     "text": "perspective, I have to think about some of the negative things. But a lot of the execution has"
+    },
+    {
+     "t0_ms": 2437020,
+     "text": "been really positive. I mean, Litboo and the team have done a very good job driving Intel 3 yields,"
+    },
+    {
+     "t0_ms": 2442920,
+     "text": "driving 18A yields, and working the substrate vendors. Litboo was in Japan talking to many of"
+    },
+    {
+     "t0_ms": 2450420,
+     "text": "the substrate vendors to make sure that we were getting allocated the appropriate supply. So I"
+    },
+    {
+     "t0_ms": 2454780,
+     "text": "think we're as well positioned as anyone out there in terms of delivering supply. It's tight. It's"
+    },
+    {
+     "t0_ms": 2461680,
+     "text": "going to be tight this next quarter. It's going to be tight into the first half. But I think we've"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2465100,
+   "t1_ms": 2474640,
+   "speaker": "Management",
+   "text": "positioned ourselves well that beyond that, we should start to see some pretty healthy growth in the data center business. Ben, do you have a quick follow-up?",
+   "parts": [
+    {
+     "t0_ms": 2465100,
+     "text": "positioned ourselves well that beyond that, we should start to see some pretty healthy growth"
+    },
+    {
+     "t0_ms": 2470860,
+     "text": "in the data center business."
+    },
+    {
+     "t0_ms": 2472920,
+     "text": "Ben, do you have a quick follow-up?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2476500,
+   "t1_ms": 2499700,
+   "speaker": "Analyst",
+   "text": "Yeah. Then just with regard to the server velocity, there's shortages and whatnot. But do you have an idea for when you think you can ramp and grow in line with the market that's going on that 200 bill plus? Is that more second half next year based on your commentary? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2476500,
+     "text": "Yeah. Then just with regard to the server velocity, there's shortages and whatnot. But"
+    },
+    {
+     "t0_ms": 2485220,
+     "text": "do you have an idea for when you think you can ramp and grow in line with the market"
+    },
+    {
+     "t0_ms": 2493280,
+     "text": "that's going on that 200 bill plus? Is that more second half next year based on your commentary?"
+    },
+    {
+     "t0_ms": 2499140,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2500620,
+   "t1_ms": 2538580,
+   "speaker": "Management",
+   "text": "Yeah, good question. I think Ben, first of all, I think the server, the biggest revenue for us is the Grand Rapids. That's on the Intel 3. Clearly, we are continuing to drive efficiency in terms of yield. And then secondly, we also try to expand the capacity. And I think Dave mentioned about Oregon. We're planning to have that Intel 3 in the second half of next year to be in the production. So that we can supply some of the demand from the customer. And so I think overall, I think",
+   "parts": [
+    {
+     "t0_ms": 2500620,
+     "text": "Yeah, good question. I think"
+    },
+    {
+     "t0_ms": 2502920,
+     "text": "Ben, first of all, I think the server, the biggest revenue for us is the Grand Rapids."
+    },
+    {
+     "t0_ms": 2512100,
+     "text": "That's on the Intel 3. Clearly, we are continuing to drive efficiency in terms of yield. And then"
+    },
+    {
+     "t0_ms": 2519420,
+     "text": "secondly, we also try to expand the capacity. And I think Dave mentioned about Oregon. We're"
+    },
+    {
+     "t0_ms": 2527500,
+     "text": "planning to have that Intel 3 in the second half of next year to be in the production."
+    },
+    {
+     "t0_ms": 2532920,
+     "text": "So that we can supply some of the demand from the customer. And so I think overall, I think"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2538580,
+   "t1_ms": 2569300,
+   "speaker": "Management",
+   "text": "will be good to address the Intel 3. And then clearly, we have the Clearwater Forush coming up, and then we are in the shipping in revenue that's on 18a. We should have capacity for that. And then Diamond Rapids, that will be 2027. We have 18ap. We'll be ready for that. And of course, the Cora Rapids coming up in 2028 and we are in the production range in terms of our services, so there's a lot of scope on that. Okay. And then, we're also trying to go to the industry, the Cora Rapids. And if you're interested, you can have a quick look at the industry for that as well. So that's what we're doing. Thank you very much, Ben. that will be on the 14A. So those, I think, will be in pretty good shape. Thanks, Ben. Jonathan, can we have the next question, please?",
+   "parts": [
+    {
+     "t0_ms": 2538580,
+     "text": "will be good to address the Intel 3. And then clearly, we have the Clearwater Forush coming up,"
+    },
+    {
+     "t0_ms": 2546100,
+     "text": "and then we are in the shipping in revenue that's on 18a. We should have capacity for that. And then"
+    },
+    {
+     "t0_ms": 2552540,
+     "text": "Diamond Rapids, that will be 2027. We have 18ap. We'll be ready for that. And of course, the Cora"
+    },
+    {
+     "t0_ms": 2559960,
+     "text": "Rapids coming up in 2028 and we are in the production range in terms of our services, so there's a lot of scope on that."
+    },
+    {
+     "t0_ms": 2560960,
+     "text": "Okay. And then, we're also trying to go to the industry, the Cora Rapids. And if you're interested,"
+    },
+    {
+     "t0_ms": 2561560,
+     "text": "you can have a quick look at the industry for that as well. So that's what we're doing. Thank you very much, Ben."
+    },
+    {
+     "t0_ms": 2562240,
+     "text": "that will be on the 14A."
+    },
+    {
+     "t0_ms": 2564340,
+     "text": "So those, I think, will be in pretty good shape."
+    },
+    {
+     "t0_ms": 2567300,
+     "text": "Thanks, Ben."
+    },
+    {
+     "t0_ms": 2567920,
+     "text": "Jonathan, can we have the next question, please?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2569880,
+   "t1_ms": 2574300,
+   "speaker": "Operator",
+   "text": "Certainly. Our next question comes from the line of Joseph Moore from Morgan Stanley. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2569880,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 2570440,
+     "text": "Our next question comes from the line of Joseph Moore from Morgan Stanley."
+    },
+    {
+     "t0_ms": 2573620,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2575340,
+   "t1_ms": 2583960,
+   "speaker": "Analyst",
+   "text": "Yeah, I mean, along those same lines, does the PC weakness give you the opportunity to reallocate wafers and sort of address some of this and accelerate that transition?",
+   "parts": [
+    {
+     "t0_ms": 2575340,
+     "text": "Yeah, I mean, along those same lines,"
+    },
+    {
+     "t0_ms": 2577040,
+     "text": "does the PC weakness give you the opportunity to reallocate wafers"
+    },
+    {
+     "t0_ms": 2581180,
+     "text": "and sort of address some of this and accelerate that transition?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2585780,
+   "t1_ms": 2618740,
+   "speaker": "Management",
+   "text": "Answer, yes. You know, we had what we're taking offline to put Intel 3 into Oregon is 18A wafers, which we're generally going to build Panther Lake products. So, you know, we see the opportunity with some of that capacity freed up to go produce more data center wafers. Just keep in mind that, you know, we're not only constrained on the wafer side, we're also constrained on the substrate side. So it's important we get the substrate piece of this ramped up to be able to meet the... the demand. Joe, do you have a follow-up question?",
+   "parts": [
+    {
+     "t0_ms": 2585780,
+     "text": "Answer, yes."
+    },
+    {
+     "t0_ms": 2586480,
+     "text": "You know, we had what we're taking offline to put Intel 3 into Oregon"
+    },
+    {
+     "t0_ms": 2592680,
+     "text": "is 18A wafers, which we're generally going to build Panther Lake products."
+    },
+    {
+     "t0_ms": 2597520,
+     "text": "So, you know, we see the opportunity with some of that capacity freed up"
+    },
+    {
+     "t0_ms": 2602260,
+     "text": "to go produce more data center wafers."
+    },
+    {
+     "t0_ms": 2605180,
+     "text": "Just keep in mind that, you know, we're not only constrained on the wafer side,"
+    },
+    {
+     "t0_ms": 2609140,
+     "text": "we're also constrained on the substrate side."
+    },
+    {
+     "t0_ms": 2611120,
+     "text": "So it's important we get the substrate piece of this ramped up"
+    },
+    {
+     "t0_ms": 2615020,
+     "text": "to be able to meet the..."
+    },
+    {
+     "t0_ms": 2616480,
+     "text": "the demand."
+    },
+    {
+     "t0_ms": 2617720,
+     "text": "Joe, do you have a follow-up question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2619560,
+   "t1_ms": 2636320,
+   "speaker": "Analyst",
+   "text": "Yeah, I do. How do you see server market share next year? I think you talked about 30% unit growth. AMD is guided to 70% revenue growth. The ARM camp seems to be growing quite quickly. Just, you know, I understand you're constrained, but, you know, how do you sort of see market share playing out?",
+   "parts": [
+    {
+     "t0_ms": 2619560,
+     "text": "Yeah, I do."
+    },
+    {
+     "t0_ms": 2621160,
+     "text": "How do you see server market share next year?"
+    },
+    {
+     "t0_ms": 2623260,
+     "text": "I think you talked about 30% unit growth."
+    },
+    {
+     "t0_ms": 2625940,
+     "text": "AMD is guided to 70% revenue growth."
+    },
+    {
+     "t0_ms": 2628780,
+     "text": "The ARM camp seems to be growing quite quickly."
+    },
+    {
+     "t0_ms": 2630580,
+     "text": "Just, you know, I understand you're constrained,"
+    },
+    {
+     "t0_ms": 2633280,
+     "text": "but, you know, how do you sort of see market share playing out?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2637280,
+   "t1_ms": 2682280,
+   "speaker": "Management",
+   "text": "Sure. I think that's a good question. So clearly we have a roadmap. We like what we have. In terms of Cora Rapid, we'll be competitive to AMD. And then next... next generation product, the Tip Talk, will be ahead of the AMD on that. So I think stay tuned. We'll continue to drive leadership. CPO is really our franchise. We are determined to drive success there. And then I think that's a good opportunity for us to really drive that. I'd say maybe one other addition is I really see market share next year being a function of supply. And so the more we can improve our supply on a relative basis, the better we'll do. In terms of market share. Can we have the next question, please, Jonathan?",
+   "parts": [
+    {
+     "t0_ms": 2637280,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2637760,
+     "text": "I think that's a good question."
+    },
+    {
+     "t0_ms": 2639000,
+     "text": "So clearly we have a roadmap."
+    },
+    {
+     "t0_ms": 2640860,
+     "text": "We like what we have."
+    },
+    {
+     "t0_ms": 2643080,
+     "text": "In terms of Cora Rapid, we'll be competitive to AMD."
+    },
+    {
+     "t0_ms": 2646620,
+     "text": "And then next..."
+    },
+    {
+     "t0_ms": 2648120,
+     "text": "next generation product, the Tip Talk,"
+    },
+    {
+     "t0_ms": 2651080,
+     "text": "will be ahead of the AMD on that."
+    },
+    {
+     "t0_ms": 2653880,
+     "text": "So I think stay tuned."
+    },
+    {
+     "t0_ms": 2654980,
+     "text": "We'll continue to drive leadership."
+    },
+    {
+     "t0_ms": 2656780,
+     "text": "CPO is really our franchise."
+    },
+    {
+     "t0_ms": 2658780,
+     "text": "We are determined to drive success there."
+    },
+    {
+     "t0_ms": 2661480,
+     "text": "And then I think that's a good opportunity for us to really drive that."
+    },
+    {
+     "t0_ms": 2666380,
+     "text": "I'd say maybe one other addition is I really see market share next year"
+    },
+    {
+     "t0_ms": 2670780,
+     "text": "being a function of supply."
+    },
+    {
+     "t0_ms": 2671980,
+     "text": "And so the more we can improve our supply on a relative basis,"
+    },
+    {
+     "t0_ms": 2675680,
+     "text": "the better we'll do."
+    },
+    {
+     "t0_ms": 2676580,
+     "text": "In terms of market share."
+    },
+    {
+     "t0_ms": 2679680,
+     "text": "Can we have the next question, please, Jonathan?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2682380,
+   "t1_ms": 2688380,
+   "speaker": "Operator",
+   "text": "Certainly. Our next question comes in the line of Stacy Raskin from Bernstein Research. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 2682380,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 2682880,
+     "text": "Our next question comes in the line of Stacy Raskin from Bernstein Research."
+    },
+    {
+     "t0_ms": 2686080,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2688480,
+   "t1_ms": 2730180,
+   "speaker": "Analyst",
+   "text": "Hi, guys. Thanks for taking my questions. I wanted to dig into gross margins a little bit. So I get that the 38% guidance, I guess, would have been 40% without the unfortunate situation in Israel. But as I'm looking into next year, how do I think about the overall drivers? I've got a... Clearly, I have a client. I've got a client. I've got a client flush and maybe utilization issue, which is a negative. I've got depreciation probably going up from CapEx, which is a negative. And then maybe, like, as 18A and 3 ramp, I get the yields are getting better, but I guess you can tell us if the gross margins on those parts are still below 10.7. And I wonder if that makes shift is a headwind plus ASICs and packaging and everything.",
+   "parts": [
+    {
+     "t0_ms": 2688480,
+     "text": "Hi, guys."
+    },
+    {
+     "t0_ms": 2688980,
+     "text": "Thanks for taking my questions."
+    },
+    {
+     "t0_ms": 2692080,
+     "text": "I wanted to dig into gross margins a little bit."
+    },
+    {
+     "t0_ms": 2693980,
+     "text": "So I get that the 38% guidance, I guess,"
+    },
+    {
+     "t0_ms": 2696480,
+     "text": "would have been 40% without the unfortunate situation in Israel."
+    },
+    {
+     "t0_ms": 2700480,
+     "text": "But as I'm looking into next year, how do I think about the overall drivers?"
+    },
+    {
+     "t0_ms": 2705080,
+     "text": "I've got a..."
+    },
+    {
+     "t0_ms": 2706380,
+     "text": "Clearly, I have a client."
+    },
+    {
+     "t0_ms": 2707320,
+     "text": "I've got a client."
+    },
+    {
+     "t0_ms": 2708180,
+     "text": "I've got a client flush and maybe utilization issue, which is a negative."
+    },
+    {
+     "t0_ms": 2711580,
+     "text": "I've got depreciation probably going up from CapEx, which is a negative."
+    },
+    {
+     "t0_ms": 2716280,
+     "text": "And then maybe, like, as 18A and 3 ramp, I get the yields are getting better,"
+    },
+    {
+     "t0_ms": 2721180,
+     "text": "but I guess you can tell us if the gross margins on those parts are still below 10.7."
+    },
+    {
+     "t0_ms": 2725480,
+     "text": "And I wonder if that makes shift is a headwind plus ASICs and packaging"
+    },
+    {
+     "t0_ms": 2729780,
+     "text": "and everything."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2730280,
+   "t1_ms": 2744980,
+   "speaker": "Analyst",
+   "text": "And maybe on the other side, though, maybe mixed towards servers as a positive, maybe pricing helps. Like, I'm just trying to get a feeling of... The gross margin evolution in this kind of an environment, given all of those puts and takes, because it just seems like there's a lot of them. I'm just hoping it can help us out a little bit.",
+   "parts": [
+    {
+     "t0_ms": 2730280,
+     "text": "And maybe on the other side, though, maybe mixed towards servers as a positive,"
+    },
+    {
+     "t0_ms": 2734680,
+     "text": "maybe pricing helps."
+    },
+    {
+     "t0_ms": 2735780,
+     "text": "Like, I'm just trying to get a feeling of..."
+    },
+    {
+     "t0_ms": 2738180,
+     "text": "The gross margin evolution in this kind of an environment,"
+    },
+    {
+     "t0_ms": 2740680,
+     "text": "given all of those puts and takes,"
+    },
+    {
+     "t0_ms": 2741780,
+     "text": "because it just seems like there's a lot of them."
+    },
+    {
+     "t0_ms": 2743080,
+     "text": "I'm just hoping it can help us out a little bit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2745080,
+   "t1_ms": 2789880,
+   "speaker": "Management",
+   "text": "That's a good question, Stacey. There are definitely a lot of moving pieces. You know, I think from a margin perspective, the Israel piece, you know, it's, you know, probably on a margin basis, it's going to be really more of a Q4 event. I don't expect a significant amount in Q1 in terms of scrapping. Usually, if we can identify it, we'll scrap it in the quarter we have. You know, Z on demand, remains, you know, really strong. And I think I mentioned Granite Rapids is now margin accretive for us. So growth in Granite Rapids is helpful to gross margins. And we will also, you know, continue to be focused on both Intel 3 and 18A. Their structural cost is what we can focus on more, is, you know, yields, throughput, all of those. We did very well in Q3. We expect to do better in Q4.",
+   "parts": [
+    {
+     "t0_ms": 2745080,
+     "text": "That's a good question, Stacey."
+    },
+    {
+     "t0_ms": 2746280,
+     "text": "There are definitely a lot of moving pieces."
+    },
+    {
+     "t0_ms": 2749080,
+     "text": "You know, I think from a margin perspective, the Israel piece,"
+    },
+    {
+     "t0_ms": 2752880,
+     "text": "you know, it's, you know, probably on a margin basis,"
+    },
+    {
+     "t0_ms": 2756880,
+     "text": "it's going to be really more of a Q4 event."
+    },
+    {
+     "t0_ms": 2759280,
+     "text": "I don't expect a significant amount in Q1 in terms of scrapping."
+    },
+    {
+     "t0_ms": 2763580,
+     "text": "Usually, if we can identify it, we'll scrap it in the quarter we have."
+    },
+    {
+     "t0_ms": 2767180,
+     "text": "You know, Z on demand,"
+    },
+    {
+     "t0_ms": 2768080,
+     "text": "remains, you know, really strong."
+    },
+    {
+     "t0_ms": 2769680,
+     "text": "And I think I mentioned Granite Rapids is now margin accretive for us."
+    },
+    {
+     "t0_ms": 2773280,
+     "text": "So growth in Granite Rapids is helpful to gross margins."
+    },
+    {
+     "t0_ms": 2776280,
+     "text": "And we will also, you know, continue to be focused on both Intel 3 and 18A."
+    },
+    {
+     "t0_ms": 2780880,
+     "text": "Their structural cost is what we can focus on more,"
+    },
+    {
+     "t0_ms": 2784180,
+     "text": "is, you know, yields, throughput, all of those."
+    },
+    {
+     "t0_ms": 2786380,
+     "text": "We did very well in Q3."
+    },
+    {
+     "t0_ms": 2788580,
+     "text": "We expect to do better in Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2789980,
+   "t1_ms": 2834280,
+   "speaker": "Management",
+   "text": "And, you know, the goal is to continue to drive that through the year. You're right on 18A, you know, the loading isn't going to be where we want it. We're fixing a little bit of that with putting Intel 3 in Oregon. But nevertheless, there will be a little bit of a underloading scenario for 18A. That's going to be a little bit of a headwind. The other headwind for us, which is, I think, a positive view the right way, is our purpose-built silicon business, and it's kind of in its early stages, its margins are below the corporate average. But we see tremendous growth there. And Lipu and I have really decided to focus on driving the gross profit. So we're just going to grow the gross profit. That'll grow the earnings. You know, it may put a little pressure on the operating margin percentage,",
+   "parts": [
+    {
+     "t0_ms": 2789980,
+     "text": "And, you know, the goal is to continue to drive that through the year."
+    },
+    {
+     "t0_ms": 2793280,
+     "text": "You're right on 18A, you know, the loading isn't going to be where we want it."
+    },
+    {
+     "t0_ms": 2797380,
+     "text": "We're fixing a little bit of that with putting Intel 3 in Oregon."
+    },
+    {
+     "t0_ms": 2801080,
+     "text": "But nevertheless, there will be a little bit of a underloading scenario for 18A."
+    },
+    {
+     "t0_ms": 2805780,
+     "text": "That's going to be a little bit of a headwind."
+    },
+    {
+     "t0_ms": 2808180,
+     "text": "The other headwind for us, which is, I think, a positive view the right way,"
+    },
+    {
+     "t0_ms": 2813080,
+     "text": "is our purpose-built silicon business, and it's kind of in its early stages,"
+    },
+    {
+     "t0_ms": 2816780,
+     "text": "its margins are below the corporate average."
+    },
+    {
+     "t0_ms": 2820180,
+     "text": "But we see tremendous growth there."
+    },
+    {
+     "t0_ms": 2822380,
+     "text": "And Lipu and I have really decided to focus on driving the gross profit."
+    },
+    {
+     "t0_ms": 2826580,
+     "text": "So we're just going to grow the gross profit."
+    },
+    {
+     "t0_ms": 2828380,
+     "text": "That'll grow the earnings."
+    },
+    {
+     "t0_ms": 2829580,
+     "text": "You know, it may put a little pressure on the operating margin percentage,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2834380,
+   "t1_ms": 2861780,
+   "speaker": "Management",
+   "text": "you know, through next year. But I think it will be goodness, you know, at the bottom line. I think when you put all that together, and it's so many puts and takes, it's hard to quantify, I'd still lean towards the 40 to 60 fall through. You know, that's probably what we're shooting for. So if we have a growth year next year, we should see gross margin expansion, given that kind of rule of thumb. It may not work out every quarter that way, but I think when you look at it on a year-over-year basis, it's going to be in that kind of range. Stacy, do you have a follow-up question?",
+   "parts": [
+    {
+     "t0_ms": 2834380,
+     "text": "you know, through next year."
+    },
+    {
+     "t0_ms": 2836580,
+     "text": "But I think it will be goodness, you know, at the bottom line."
+    },
+    {
+     "t0_ms": 2839580,
+     "text": "I think when you put all that together, and it's so many puts and takes,"
+    },
+    {
+     "t0_ms": 2842280,
+     "text": "it's hard to quantify, I'd still lean towards the 40 to 60 fall through."
+    },
+    {
+     "t0_ms": 2846080,
+     "text": "You know, that's probably what we're shooting for."
+    },
+    {
+     "t0_ms": 2848480,
+     "text": "So if we have a growth year next year, we should see gross margin expansion,"
+    },
+    {
+     "t0_ms": 2852380,
+     "text": "given that kind of rule of thumb."
+    },
+    {
+     "t0_ms": 2854380,
+     "text": "It may not work out every quarter that way,"
+    },
+    {
+     "t0_ms": 2856280,
+     "text": "but I think when you look at it on a year-over-year basis,"
+    },
+    {
+     "t0_ms": 2858580,
+     "text": "it's going to be in that kind of range."
+    },
+    {
+     "t0_ms": 2860180,
+     "text": "Stacy, do you have a follow-up question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2861880,
+   "t1_ms": 2897780,
+   "speaker": "Analyst",
+   "text": "I do, yeah. I just wanted to ask about PCs. So, I mean, Q3 was probably the worst Q3 I've seen for PCs in at least 20 years, maybe more sequentially. And so it does sound like customers probably built inventory in Q3. I guess, can you confirm that? And then it sounds like that they're flushing out a bunch in Q4. I kind of get \u2013 and maybe even in Q1. It sounds like you think things get better in the second half as, I suppose, memory supply. What gives you confidence that memory supply is actually going to improve? If you listen to the memory guys, they seem to be suggesting that it won't.",
+   "parts": [
+    {
+     "t0_ms": 2861880,
+     "text": "I do, yeah."
+    },
+    {
+     "t0_ms": 2862980,
+     "text": "I just wanted to ask about PCs."
+    },
+    {
+     "t0_ms": 2866380,
+     "text": "So, I mean, Q3 was probably the worst Q3 I've seen for PCs in at least 20 years,"
+    },
+    {
+     "t0_ms": 2871180,
+     "text": "maybe more sequentially."
+    },
+    {
+     "t0_ms": 2872380,
+     "text": "And so it does sound like customers probably built inventory in Q3."
+    },
+    {
+     "t0_ms": 2876780,
+     "text": "I guess, can you confirm that?"
+    },
+    {
+     "t0_ms": 2878880,
+     "text": "And then it sounds like that they're flushing out a bunch in Q4."
+    },
+    {
+     "t0_ms": 2881880,
+     "text": "I kind of get \u2013 and maybe even in Q1."
+    },
+    {
+     "t0_ms": 2884980,
+     "text": "It sounds like you think things get better in the second half as, I suppose, memory supply."
+    },
+    {
+     "t0_ms": 2890080,
+     "text": "What gives you confidence that memory supply is actually going to improve?"
+    },
+    {
+     "t0_ms": 2894580,
+     "text": "If you listen to the memory guys, they seem to be suggesting that it won't."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2897880,
+   "t1_ms": 2939780,
+   "speaker": "Management",
+   "text": "Yeah, let me be clear. Yeah, it's a good question. Stacy, let me be clear. You know, we think that, you know, when you're dead on, that Q4, Q1 are going to be likely the two quarters in which there's most of the inventory correction. And, you know, that impacts us more than the TAM declines. So we will see that in the first \u2013 call it Q4, Q1, maybe stretching a little bit into Q2. After that, it does recover back to where, you know, theoretically, where, you know, billings to us are somewhat equivalent to consumption. So we get a little bit of a recovery from that. But, you know, make no mistake, we are not optimistic about next year in terms of memory. You know, we think that it is going to impact the TAM.",
+   "parts": [
+    {
+     "t0_ms": 2897880,
+     "text": "Yeah, let me be clear."
+    },
+    {
+     "t0_ms": 2899180,
+     "text": "Yeah, it's a good question."
+    },
+    {
+     "t0_ms": 2901580,
+     "text": "Stacy, let me be clear."
+    },
+    {
+     "t0_ms": 2903280,
+     "text": "You know, we think that, you know, when you're dead on,"
+    },
+    {
+     "t0_ms": 2906480,
+     "text": "that Q4, Q1 are going to be likely the two quarters"
+    },
+    {
+     "t0_ms": 2908880,
+     "text": "in which there's most of the inventory correction."
+    },
+    {
+     "t0_ms": 2910980,
+     "text": "And, you know, that impacts us more than the TAM declines."
+    },
+    {
+     "t0_ms": 2914980,
+     "text": "So we will see that in the first \u2013 call it Q4, Q1,"
+    },
+    {
+     "t0_ms": 2918680,
+     "text": "maybe stretching a little bit into Q2."
+    },
+    {
+     "t0_ms": 2921180,
+     "text": "After that, it does recover back to where, you know, theoretically,"
+    },
+    {
+     "t0_ms": 2924580,
+     "text": "where, you know, billings to us are somewhat equivalent to consumption."
+    },
+    {
+     "t0_ms": 2929180,
+     "text": "So we get a little bit of a recovery from that."
+    },
+    {
+     "t0_ms": 2931480,
+     "text": "But, you know, make no mistake,"
+    },
+    {
+     "t0_ms": 2932680,
+     "text": "we are not optimistic about next year in terms of memory."
+    },
+    {
+     "t0_ms": 2935880,
+     "text": "You know, we think that it is going to impact the TAM."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2939880,
+   "t1_ms": 2954580,
+   "speaker": "Management",
+   "text": "We think TAM will be down 10% on a units basis next year. And then we'll, you know, we'll see in 2028, you know, whether things improve. But our expectation is that it does not improve in 2027. Thank you, Stacy. Jonathan, can we have the next question, please?",
+   "parts": [
+    {
+     "t0_ms": 2939880,
+     "text": "We think TAM will be down 10% on a units basis next year."
+    },
+    {
+     "t0_ms": 2943780,
+     "text": "And then we'll, you know,"
+    },
+    {
+     "t0_ms": 2944780,
+     "text": "we'll see in 2028, you know, whether things improve."
+    },
+    {
+     "t0_ms": 2947680,
+     "text": "But our expectation is that it does not improve in 2027."
+    },
+    {
+     "t0_ms": 2951680,
+     "text": "Thank you, Stacy."
+    },
+    {
+     "t0_ms": 2952680,
+     "text": "Jonathan, can we have the next question, please?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2954680,
+   "t1_ms": 2959580,
+   "speaker": "Operator",
+   "text": "Certainly. Our next question comes from the line of Vivek Arya from Bank of America Securities.",
+   "parts": [
+    {
+     "t0_ms": 2954680,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 2955680,
+     "text": "Our next question comes from the line of Vivek Arya"
+    },
+    {
+     "t0_ms": 2957680,
+     "text": "from Bank of America Securities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2959680,
+   "t1_ms": 3000100,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. For the first one, if I take your, I think, implied DC guidance for Q4, you know, that puts it at about $8.5 billion or so. And if I annualize that, that's like mid-30s, $8.5 billion in terms of a conceptual target for next year. So I'm curious, is that a doable floor? Can you do better? Is there kind of ASP expansion, you know, just given demand is outstripping supply? Or are there other factors we should keep in mind as we think about how large your data center business could be in 2027?",
+   "parts": [
+    {
+     "t0_ms": 2959680,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2961680,
+     "text": "For the first one, if I take your, I think, implied DC guidance for Q4,"
+    },
+    {
+     "t0_ms": 2967680,
+     "text": "you know, that puts it at about $8.5 billion or so."
+    },
+    {
+     "t0_ms": 2972680,
+     "text": "And if I annualize that, that's like mid-30s,"
+    },
+    {
+     "t0_ms": 2974480,
+     "text": "$8.5 billion in terms of a conceptual target for next year."
+    },
+    {
+     "t0_ms": 2980380,
+     "text": "So I'm curious, is that a doable floor?"
+    },
+    {
+     "t0_ms": 2983680,
+     "text": "Can you do better?"
+    },
+    {
+     "t0_ms": 2984980,
+     "text": "Is there kind of ASP expansion, you know,"
+    },
+    {
+     "t0_ms": 2987780,
+     "text": "just given demand is outstripping supply?"
+    },
+    {
+     "t0_ms": 2990480,
+     "text": "Or are there other factors we should keep in mind"
+    },
+    {
+     "t0_ms": 2992680,
+     "text": "as we think about how large your data center business could be in 2027?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3000200,
+   "t1_ms": 3044500,
+   "speaker": "Management",
+   "text": "Yeah, I think that's a good starting point. I think that's the right way to think about it. You know, what we would characterize as a 2027 is likely to be tighter in terms of wafers and substrates. But we've put a lot of work in place, both in terms of, as I talked about, increasing our wafer output of Intel 3, improving yields as a freeway to get more product, and the investments we've made in the substrates with vendors unlock that capacity in the back half year. So, you know, we do expect it to be a big growth year. I mean, keep in mind, also, that we roll our purpose-built silicon, our ASIC business in under that business unit. So, you know, that's part of what's driving",
+   "parts": [
+    {
+     "t0_ms": 3000200,
+     "text": "Yeah, I think that's a good starting point."
+    },
+    {
+     "t0_ms": 3002500,
+     "text": "I think that's the right way to think about it."
+    },
+    {
+     "t0_ms": 3004300,
+     "text": "You know, what we would characterize"
+    },
+    {
+     "t0_ms": 3006100,
+     "text": "as a 2027 is likely to be tighter in terms of wafers and substrates."
+    },
+    {
+     "t0_ms": 3012100,
+     "text": "But we've put a lot of work in place,"
+    },
+    {
+     "t0_ms": 3016100,
+     "text": "both in terms of, as I talked about,"
+    },
+    {
+     "t0_ms": 3018100,
+     "text": "increasing our wafer output of Intel 3,"
+    },
+    {
+     "t0_ms": 3021900,
+     "text": "improving yields as a freeway to get more product,"
+    },
+    {
+     "t0_ms": 3025400,
+     "text": "and the investments we've made in the substrates with vendors"
+    },
+    {
+     "t0_ms": 3029600,
+     "text": "unlock that capacity in the back half year."
+    },
+    {
+     "t0_ms": 3031400,
+     "text": "So, you know, we do expect it to be a big growth year."
+    },
+    {
+     "t0_ms": 3035000,
+     "text": "I mean, keep in mind, also,"
+    },
+    {
+     "t0_ms": 3035900,
+     "text": "that we roll our purpose-built silicon,"
+    },
+    {
+     "t0_ms": 3039200,
+     "text": "our ASIC business in under that business unit."
+    },
+    {
+     "t0_ms": 3041700,
+     "text": "So, you know, that's part of what's driving"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3044600,
+   "t1_ms": 3053800,
+   "speaker": "Management",
+   "text": "a lot of the growth in the fourth quarter. And, you know, again, we expect that to continue in 2027. Vivek, do you have a follow-up?",
+   "parts": [
+    {
+     "t0_ms": 3044600,
+     "text": "a lot of the growth in the fourth quarter."
+    },
+    {
+     "t0_ms": 3047500,
+     "text": "And, you know, again, we expect that to continue in 2027."
+    },
+    {
+     "t0_ms": 3051800,
+     "text": "Vivek, do you have a follow-up?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3053900,
+   "t1_ms": 3097300,
+   "speaker": "Analyst",
+   "text": "Yes, thank you. I was hoping to get an update on engagements with external customers in your foundry, both on the packaging side, and then also, more importantly, Libu, on the wafer processing side. Are you expecting external customers for 18AP, or should we assume that all the engagements will be on 14A? And when do you think Intel gets the confidence to move them from sort of the evaluation to the tape-out or tangible revenue column? So, you know, we are all kind of set in terms of when we should start modeling external revenue for Intel over the next few years. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3053900,
+     "text": "Yes, thank you."
+    },
+    {
+     "t0_ms": 3055500,
+     "text": "I was hoping to get an update on engagements"
+    },
+    {
+     "t0_ms": 3058700,
+     "text": "with external customers in your foundry,"
+    },
+    {
+     "t0_ms": 3062000,
+     "text": "both on the packaging side, and then also, more importantly,"
+    },
+    {
+     "t0_ms": 3065900,
+     "text": "Libu, on the wafer processing side."
+    },
+    {
+     "t0_ms": 3070800,
+     "text": "Are you expecting external customers for 18AP,"
+    },
+    {
+     "t0_ms": 3074400,
+     "text": "or should we assume that all the engagements will be on 14A?"
+    },
+    {
+     "t0_ms": 3078100,
+     "text": "And when do you think Intel gets the confidence to move them"
+    },
+    {
+     "t0_ms": 3081900,
+     "text": "from sort of the evaluation to the tape-out"
+    },
+    {
+     "t0_ms": 3084800,
+     "text": "or tangible revenue column?"
+    },
+    {
+     "t0_ms": 3087200,
+     "text": "So, you know, we are all kind of set in terms of"
+    },
+    {
+     "t0_ms": 3092100,
+     "text": "when we should start modeling external revenue for Intel"
+    },
+    {
+     "t0_ms": 3095600,
+     "text": "over the next few years."
+    },
+    {
+     "t0_ms": 3096800,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3097400,
+   "t1_ms": 3140400,
+   "speaker": "Management",
+   "text": "Good. Vivek, thank you so much for the question. So, I think, clearly, the first question you have is about the packaging. Our MAP making great progress. We have been very focused on capacity in the subscript, make sure that we can secure the capacity we need, and also the yield profile for the capacity from subscript material. Secondly, we focus on the yield, and we are improving substantially. And then, thirdly, is the cycle time. And then, so far, under the leadership of Shokhee Lee, he used to be CEO of SK Hynix, expert in the process integration. He's done a fabulous job, very dedicated.",
+   "parts": [
+    {
+     "t0_ms": 3097400,
+     "text": "Good."
+    },
+    {
+     "t0_ms": 3097900,
+     "text": "Vivek, thank you so much for the question."
+    },
+    {
+     "t0_ms": 3100200,
+     "text": "So, I think, clearly, the first question you have is about the packaging."
+    },
+    {
+     "t0_ms": 3104500,
+     "text": "Our MAP making great progress."
+    },
+    {
+     "t0_ms": 3108900,
+     "text": "We have been very focused on capacity in the subscript,"
+    },
+    {
+     "t0_ms": 3112600,
+     "text": "make sure that we can secure the capacity we need,"
+    },
+    {
+     "t0_ms": 3115600,
+     "text": "and also the yield profile for the capacity from subscript material."
+    },
+    {
+     "t0_ms": 3121300,
+     "text": "Secondly, we focus on the yield, and we are improving substantially."
+    },
+    {
+     "t0_ms": 3125600,
+     "text": "And then, thirdly, is the cycle time."
+    },
+    {
+     "t0_ms": 3128200,
+     "text": "And then, so far, under the leadership of Shokhee Lee,"
+    },
+    {
+     "t0_ms": 3132600,
+     "text": "he used to be CEO of SK Hynix, expert in the process integration."
+    },
+    {
+     "t0_ms": 3137800,
+     "text": "He's done a fabulous job, very dedicated."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3140500,
+   "t1_ms": 3185200,
+   "speaker": "Management",
+   "text": "I think we get a lot of capacity in the next two years in terms of the subscript material. And we're also improving the yield as the day goes by. And then, overall, I think we're going to have some stay tuned. We're going to have a couple of customers ready to announce the next two quarters. And then, so, clearly, we always want to wait for the customer. If they want to announce, we will respond to that. And then, secondly, on the 18 AP, we're making great progress in volume production from Penta Lake and then, clearly, on the Wildcat Lake. And so, I think those, I think, internally, we've been using. The yield, we are quite happy with the performance. And right now, we also have,",
+   "parts": [
+    {
+     "t0_ms": 3140500,
+     "text": "I think we get a lot of capacity in the next two years"
+    },
+    {
+     "t0_ms": 3144800,
+     "text": "in terms of the subscript material."
+    },
+    {
+     "t0_ms": 3147200,
+     "text": "And we're also improving the yield as the day goes by."
+    },
+    {
+     "t0_ms": 3151500,
+     "text": "And then, overall, I think we're going to have some stay tuned."
+    },
+    {
+     "t0_ms": 3155600,
+     "text": "We're going to have a couple of customers ready to announce the next two quarters."
+    },
+    {
+     "t0_ms": 3161200,
+     "text": "And then, so, clearly, we always want to wait for the customer."
+    },
+    {
+     "t0_ms": 3164400,
+     "text": "If they want to announce, we will respond to that."
+    },
+    {
+     "t0_ms": 3168300,
+     "text": "And then, secondly, on the 18 AP,"
+    },
+    {
+     "t0_ms": 3171000,
+     "text": "we're making great progress in volume production from Penta Lake"
+    },
+    {
+     "t0_ms": 3174800,
+     "text": "and then, clearly, on the Wildcat Lake."
+    },
+    {
+     "t0_ms": 3177700,
+     "text": "And so, I think those, I think, internally, we've been using."
+    },
+    {
+     "t0_ms": 3180600,
+     "text": "The yield, we are quite happy with the performance."
+    },
+    {
+     "t0_ms": 3183900,
+     "text": "And right now, we also have,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3185200,
+   "t1_ms": 3229100,
+   "speaker": "Management",
+   "text": "we are getting inbound interest from the external customer. And we are intensively working with them. And they are very pleased with the, you know, the yield. And right now, we are focused on the die size, make sure that we can deliver to them and also make sure that IP ready for that. So, I think 18 AP stay tuned. We have some good progress on that. On the 14 A, we make tremendous progress. I think we announced the 0.9 PDK. We already released to our select customers. They already respond very actively working with us. And then, the other part is also, I think, in terms of performance, yield, all the matrix and defect density and the, you know, the variation.",
+   "parts": [
+    {
+     "t0_ms": 3185200,
+     "text": "we are getting inbound interest from the external customer."
+    },
+    {
+     "t0_ms": 3189700,
+     "text": "And we are intensively working with them."
+    },
+    {
+     "t0_ms": 3192100,
+     "text": "And they are very pleased with the, you know, the yield."
+    },
+    {
+     "t0_ms": 3195600,
+     "text": "And right now, we are focused on the die size,"
+    },
+    {
+     "t0_ms": 3198200,
+     "text": "make sure that we can deliver to them"
+    },
+    {
+     "t0_ms": 3199900,
+     "text": "and also make sure that IP ready for that."
+    },
+    {
+     "t0_ms": 3202700,
+     "text": "So, I think 18 AP stay tuned."
+    },
+    {
+     "t0_ms": 3204900,
+     "text": "We have some good progress on that."
+    },
+    {
+     "t0_ms": 3206900,
+     "text": "On the 14 A, we make tremendous progress."
+    },
+    {
+     "t0_ms": 3209700,
+     "text": "I think we announced the 0.9 PDK."
+    },
+    {
+     "t0_ms": 3213000,
+     "text": "We already released to our select customers."
+    },
+    {
+     "t0_ms": 3215300,
+     "text": "They already respond very actively working with us."
+    },
+    {
+     "t0_ms": 3219200,
+     "text": "And then, the other part is also, I think,"
+    },
+    {
+     "t0_ms": 3221400,
+     "text": "in terms of performance, yield,"
+    },
+    {
+     "t0_ms": 3223700,
+     "text": "all the matrix and defect density and the, you know, the variation."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3229200,
+   "t1_ms": 3252200,
+   "speaker": "Management",
+   "text": "We are making daily improvement on that. So far, we are very pleased. We should be able to do the 1 PDK by Q1 next year. And we can start engaging with customer with products that they like to use our fab. And so, I think stay tuned. Again, we will have time to announce some of the customer when they are ready. Thanks, Vivek. Jonathan, can we have the next question, please?",
+   "parts": [
+    {
+     "t0_ms": 3229200,
+     "text": "We are making daily improvement on that."
+    },
+    {
+     "t0_ms": 3231700,
+     "text": "So far, we are very pleased."
+    },
+    {
+     "t0_ms": 3233400,
+     "text": "We should be able to do the 1 PDK by Q1 next year."
+    },
+    {
+     "t0_ms": 3238200,
+     "text": "And we can start engaging with customer with products"
+    },
+    {
+     "t0_ms": 3241700,
+     "text": "that they like to use our fab."
+    },
+    {
+     "t0_ms": 3243700,
+     "text": "And so, I think stay tuned."
+    },
+    {
+     "t0_ms": 3245200,
+     "text": "Again, we will have time to announce some of the customer"
+    },
+    {
+     "t0_ms": 3248300,
+     "text": "when they are ready."
+    },
+    {
+     "t0_ms": 3249500,
+     "text": "Thanks, Vivek."
+    },
+    {
+     "t0_ms": 3250200,
+     "text": "Jonathan, can we have the next question, please?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3252300,
+   "t1_ms": 3258100,
+   "speaker": "Operator",
+   "text": "Certainly, our next question comes from the line of Harlan Sir from JP Morgan. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 3252300,
+     "text": "Certainly, our next question comes from the line of Harlan Sir"
+    },
+    {
+     "t0_ms": 3254700,
+     "text": "from JP Morgan."
+    },
+    {
+     "t0_ms": 3255900,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3258200,
+   "t1_ms": 3300000,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thanks for taking my question. I'm seeing second half of this year, there's a number of new GPU and XPU platform launches. And most of these new launches are going to continue ramps through the first half of next year. Given the strong CPU attached to these platforms, and many of them are Intel x86 CPU-based platforms. And then additionally, you know, in addition to the overall sort of supply dynamics, which remain tight, but the team is bringing on more capacity, yields are improving, as you mentioned. Given all of this, should we anticipate continued sequential growth in DC AI in the first quarter?",
+   "parts": [
+    {
+     "t0_ms": 3258200,
+     "text": "Yeah, good afternoon."
+    },
+    {
+     "t0_ms": 3259000,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 3261700,
+     "text": "I'm seeing second half of this year,"
+    },
+    {
+     "t0_ms": 3264300,
+     "text": "there's a number of new GPU and XPU platform launches."
+    },
+    {
+     "t0_ms": 3267300,
+     "text": "And most of these new launches are going to continue ramps"
+    },
+    {
+     "t0_ms": 3270700,
+     "text": "through the first half of next year."
+    },
+    {
+     "t0_ms": 3273000,
+     "text": "Given the strong CPU attached to these platforms,"
+    },
+    {
+     "t0_ms": 3275200,
+     "text": "and many of them are Intel x86 CPU-based platforms."
+    },
+    {
+     "t0_ms": 3280300,
+     "text": "And then additionally, you know, in addition to the overall"
+    },
+    {
+     "t0_ms": 3285000,
+     "text": "sort of supply dynamics, which remain tight,"
+    },
+    {
+     "t0_ms": 3287800,
+     "text": "but the team is bringing on more capacity,"
+    },
+    {
+     "t0_ms": 3290700,
+     "text": "yields are improving, as you mentioned."
+    },
+    {
+     "t0_ms": 3293200,
+     "text": "Given all of this, should we anticipate"
+    },
+    {
+     "t0_ms": 3295500,
+     "text": "continued sequential growth in DC AI in the first quarter?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3300100,
+   "t1_ms": 3342690,
+   "speaker": "Management",
+   "text": "Yeah, I mean, I would avoid guiding too much the quarter. I think your overall premise is right. There's going to be a strong driver of demand for CPUs. We see that continuing all through next year. You know, we're working on the supply side of the equation to make sure that we can meet what customers need. We will likely not fully meet what they require. But I think we're going to be in a more challenging situation in the first half of the year than we are the second half. So maybe that's one added data point. I just make sure that you're using the right data when you're modeling. Outside of that, I'd prefer to wait for another quarter and see how things kind of play out",
+   "parts": [
+    {
+     "t0_ms": 3300100,
+     "text": "Yeah, I mean, I would avoid guiding too much the quarter."
+    },
+    {
+     "t0_ms": 3306990,
+     "text": "I think your overall premise is right."
+    },
+    {
+     "t0_ms": 3309890,
+     "text": "There's going to be a strong driver of demand for CPUs."
+    },
+    {
+     "t0_ms": 3315090,
+     "text": "We see that continuing all through next year."
+    },
+    {
+     "t0_ms": 3319790,
+     "text": "You know, we're working on the supply side of the equation"
+    },
+    {
+     "t0_ms": 3321690,
+     "text": "to make sure that we can meet what customers need."
+    },
+    {
+     "t0_ms": 3324390,
+     "text": "We will likely not fully meet what they require."
+    },
+    {
+     "t0_ms": 3327290,
+     "text": "But I think we're going to be in a more challenging situation"
+    },
+    {
+     "t0_ms": 3330790,
+     "text": "in the first half of the year than we are the second half."
+    },
+    {
+     "t0_ms": 3333090,
+     "text": "So maybe that's one added data point."
+    },
+    {
+     "t0_ms": 3335190,
+     "text": "I just make sure that you're using"
+    },
+    {
+     "t0_ms": 3336790,
+     "text": "the right data when you're modeling."
+    },
+    {
+     "t0_ms": 3338790,
+     "text": "Outside of that, I'd prefer to wait for another quarter"
+    },
+    {
+     "t0_ms": 3341290,
+     "text": "and see how things kind of play out"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3342790,
+   "t1_ms": 3369190,
+   "speaker": "Management",
+   "text": "before we guide Q1's data center. Just to add on that, I think clearly you saw our announcement with Oracle Cloud. And we also have multiple customers. They are all interested to sign up the LTA agreement with us so that we can secure the CPU rollout for them. So I think those are encouraging signs that, you know, CPU is high demand. Arlan, do you have a follow-up question?",
+   "parts": [
+    {
+     "t0_ms": 3342790,
+     "text": "before we guide Q1's data center."
+    },
+    {
+     "t0_ms": 3345990,
+     "text": "Just to add on that, I think clearly you saw our announcement"
+    },
+    {
+     "t0_ms": 3349590,
+     "text": "with Oracle Cloud."
+    },
+    {
+     "t0_ms": 3351990,
+     "text": "And we also have multiple customers."
+    },
+    {
+     "t0_ms": 3353890,
+     "text": "They are all interested to sign up the LTA agreement with us"
+    },
+    {
+     "t0_ms": 3358090,
+     "text": "so that we can secure the CPU rollout for them."
+    },
+    {
+     "t0_ms": 3363690,
+     "text": "So I think those are encouraging signs that, you know,"
+    },
+    {
+     "t0_ms": 3365790,
+     "text": "CPU is high demand."
+    },
+    {
+     "t0_ms": 3366790,
+     "text": "Arlan, do you have a follow-up question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3369290,
+   "t1_ms": 3407490,
+   "speaker": "Analyst",
+   "text": "Yeah. On the factors that the team has control over, and as a reflection of the continued yield, reliability, manufacturability improvements, I think back in Q2 both Panther Lake and Granite Rapids gross margins were below corporate average. But as Intel 3 and 18A saw further yield improvements in the third quarter, you did mention Xeon 6 Granite Rapids on Intel 3 accretive to gross margins in Q3. Did the team also drive Core Series 3 Panther Lake gross margins above the low slash mid 40% level in Q3 as well?",
+   "parts": [
+    {
+     "t0_ms": 3369290,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3370990,
+     "text": "On the factors that the team has control over,"
+    },
+    {
+     "t0_ms": 3373990,
+     "text": "and as a reflection of the continued yield,"
+    },
+    {
+     "t0_ms": 3376490,
+     "text": "reliability, manufacturability improvements,"
+    },
+    {
+     "t0_ms": 3379590,
+     "text": "I think back in Q2 both Panther Lake"
+    },
+    {
+     "t0_ms": 3382190,
+     "text": "and Granite Rapids gross margins were below corporate average."
+    },
+    {
+     "t0_ms": 3385490,
+     "text": "But as Intel 3 and 18A saw further yield improvements"
+    },
+    {
+     "t0_ms": 3390190,
+     "text": "in the third quarter, you did mention Xeon 6 Granite Rapids"
+    },
+    {
+     "t0_ms": 3394190,
+     "text": "on Intel 3 accretive to gross margins in Q3."
+    },
+    {
+     "t0_ms": 3396790,
+     "text": "Did the team also drive Core Series 3 Panther Lake gross margins"
+    },
+    {
+     "t0_ms": 3401990,
+     "text": "above the low slash mid 40% level in Q3 as well?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3407590,
+   "t1_ms": 3432990,
+   "speaker": "Management",
+   "text": "So we have definitely made meaningful improvement on the gross margins of Panther Lake. It's not yet at or above the corporate average, but we have made huge strides. And, you know, this is just a matter of, you know, grinding it out on yields and throughput and, you know, driving the right scale and so forth. And these will be accretive gross margins over time. It's just, you know, not quite there yet. Thanks, Harlan. Jonathan, we've got time for one last question, please.",
+   "parts": [
+    {
+     "t0_ms": 3407590,
+     "text": "So we have definitely made meaningful improvement"
+    },
+    {
+     "t0_ms": 3410590,
+     "text": "on the gross margins of Panther Lake."
+    },
+    {
+     "t0_ms": 3411890,
+     "text": "It's not yet at or above the corporate average,"
+    },
+    {
+     "t0_ms": 3414590,
+     "text": "but we have made huge strides."
+    },
+    {
+     "t0_ms": 3416590,
+     "text": "And, you know, this is just a matter of, you know,"
+    },
+    {
+     "t0_ms": 3418890,
+     "text": "grinding it out on yields and throughput and, you know,"
+    },
+    {
+     "t0_ms": 3422190,
+     "text": "driving the right scale and so forth."
+    },
+    {
+     "t0_ms": 3423790,
+     "text": "And these will be accretive gross margins over time."
+    },
+    {
+     "t0_ms": 3426190,
+     "text": "It's just, you know, not quite there yet."
+    },
+    {
+     "t0_ms": 3429690,
+     "text": "Thanks, Harlan."
+    },
+    {
+     "t0_ms": 3430390,
+     "text": "Jonathan, we've got time for one last question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3433090,
+   "t1_ms": 3439790,
+   "speaker": "Operator",
+   "text": "Certainly. Then our final question for today comes from the line of CJ Muse from Cantor Fitzgerald. Your question, please.",
+   "parts": [
+    {
+     "t0_ms": 3433090,
+     "text": "Certainly."
+    },
+    {
+     "t0_ms": 3433590,
+     "text": "Then our final question for today comes from the line"
+    },
+    {
+     "t0_ms": 3435790,
+     "text": "of CJ Muse from Cantor Fitzgerald."
+    },
+    {
+     "t0_ms": 3437690,
+     "text": "Your question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3439890,
+   "t1_ms": 3460990,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking the question. I guess first question, going back to the CapEx, you talked up significantly curious, you know, how you're thinking about spending on WFE versus buildings. I think in the past you talked about, you know, majority of the incremental spend on buildings. I think you wanted to confirm that that's still kind of the direction that we're going.",
+   "parts": [
+    {
+     "t0_ms": 3439890,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 3441590,
+     "text": "I guess first question, going back to the CapEx,"
+    },
+    {
+     "t0_ms": 3444490,
+     "text": "you talked up significantly curious, you know,"
+    },
+    {
+     "t0_ms": 3446890,
+     "text": "how you're thinking about spending on WFE versus buildings."
+    },
+    {
+     "t0_ms": 3450590,
+     "text": "I think in the past you talked about, you know,"
+    },
+    {
+     "t0_ms": 3452990,
+     "text": "majority of the incremental spend on buildings."
+    },
+    {
+     "t0_ms": 3455890,
+     "text": "I think you wanted to confirm that that's still kind of the direction"
+    },
+    {
+     "t0_ms": 3459090,
+     "text": "that we're going."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3461090,
+   "t1_ms": 3491890,
+   "speaker": "Management",
+   "text": "Yeah, so we have, I think, a significant ramp in equipment spend this quarter, and it's expected to be even more significant next quarter. So a lot of what we're spending on now is really equipment. You know, we have made the investments. I would call it putting, in a lot of cases, putting the finishing touches on some of the space and just, and most of the spend is going towards equipment, with the only exception, we're still, you know, in the heavy construction phase of Ohio. But outside of that, it's really about equipment.",
+   "parts": [
+    {
+     "t0_ms": 3461090,
+     "text": "Yeah, so we have, I think, a significant ramp in equipment spend this quarter,"
+    },
+    {
+     "t0_ms": 3466490,
+     "text": "and it's expected to be even more significant next quarter."
+    },
+    {
+     "t0_ms": 3469990,
+     "text": "So a lot of what we're spending on now is really equipment."
+    },
+    {
+     "t0_ms": 3473690,
+     "text": "You know, we have made the investments."
+    },
+    {
+     "t0_ms": 3475390,
+     "text": "I would call it putting, in a lot of cases,"
+    },
+    {
+     "t0_ms": 3477890,
+     "text": "putting the finishing touches on some of the space and just,"
+    },
+    {
+     "t0_ms": 3481290,
+     "text": "and most of the spend is going towards equipment,"
+    },
+    {
+     "t0_ms": 3483690,
+     "text": "with the only exception, we're still, you know,"
+    },
+    {
+     "t0_ms": 3485890,
+     "text": "in the heavy construction phase of Ohio."
+    },
+    {
+     "t0_ms": 3489290,
+     "text": "But outside of that, it's really about equipment."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3491990,
+   "t1_ms": 3509690,
+   "speaker": "Analyst",
+   "text": "CJ, do you have a quick follow-up? Yeah, I do. On the PC side, you know, I know you've talked about units down 10% next year for the industry. Curious if you could comment how you're thinking about, you know, your mix shift and what impact that might have on your pricing. Thanks so much.",
+   "parts": [
+    {
+     "t0_ms": 3491990,
+     "text": "CJ, do you have a quick follow-up?"
+    },
+    {
+     "t0_ms": 3494390,
+     "text": "Yeah, I do."
+    },
+    {
+     "t0_ms": 3494990,
+     "text": "On the PC side, you know,"
+    },
+    {
+     "t0_ms": 3496990,
+     "text": "I know you've talked about units down 10% next year for the industry."
+    },
+    {
+     "t0_ms": 3500690,
+     "text": "Curious if you could comment how you're thinking about,"
+    },
+    {
+     "t0_ms": 3503990,
+     "text": "you know, your mix shift and what impact that might have on your pricing."
+    },
+    {
+     "t0_ms": 3507790,
+     "text": "Thanks so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3509790,
+   "t1_ms": 3513990,
+   "speaker": "Management",
+   "text": "Mix shift in terms of, like, low-end versus high-end and so forth. Is that what you mean?",
+   "parts": [
+    {
+     "t0_ms": 3509790,
+     "text": "Mix shift in terms of, like, low-end versus high-end and so forth."
+    },
+    {
+     "t0_ms": 3512990,
+     "text": "Is that what you mean?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3514090,
+   "t1_ms": 3515790,
+   "speaker": "Analyst",
+   "text": "Yeah, exactly.",
+   "parts": [
+    {
+     "t0_ms": 3514090,
+     "text": "Yeah, exactly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3515990,
+   "t1_ms": 3559790,
+   "speaker": "Management",
+   "text": "Yeah, I mean, we have, I would say we have seen a, you know, we have seen strong demand in Panther Lake on a relative basis. You know, obviously the whole market is coming off, but Panther Lake is holding its own. You know, we also put a lot of effort into a product called Wildcat Lake, which is a cost-optimized part. We've seen significant growth in Wildcat Lake. It's coming exactly at the right time because it's cost-optimized, and we're seeing a lot of focus in that regard. You know, as we go into next year, you know, we'll have Nova Lake. And I think the important aspect of Nova Lake is, you know, we had a bit of a hole in our portfolio for high-end desktop, and Nova Lake filled in that gap.",
+   "parts": [
+    {
+     "t0_ms": 3515990,
+     "text": "Yeah, I mean, we have, I would say we have seen a, you know,"
+    },
+    {
+     "t0_ms": 3522490,
+     "text": "we have seen strong demand in Panther Lake on a relative basis."
+    },
+    {
+     "t0_ms": 3525990,
+     "text": "You know, obviously the whole market is coming off,"
+    },
+    {
+     "t0_ms": 3528890,
+     "text": "but Panther Lake is holding its own."
+    },
+    {
+     "t0_ms": 3530990,
+     "text": "You know, we also put a lot of effort into a product called Wildcat Lake,"
+    },
+    {
+     "t0_ms": 3535690,
+     "text": "which is a cost-optimized part."
+    },
+    {
+     "t0_ms": 3536990,
+     "text": "We've seen significant growth in Wildcat Lake."
+    },
+    {
+     "t0_ms": 3539290,
+     "text": "It's coming exactly at the right time because it's cost-optimized,"
+    },
+    {
+     "t0_ms": 3542190,
+     "text": "and we're seeing a lot of focus in that regard."
+    },
+    {
+     "t0_ms": 3545990,
+     "text": "You know, as we go into next year, you know, we'll have Nova Lake."
+    },
+    {
+     "t0_ms": 3549890,
+     "text": "And I think the important aspect of Nova Lake is, you know,"
+    },
+    {
+     "t0_ms": 3552890,
+     "text": "we had a bit of a hole in our portfolio for high-end desktop,"
+    },
+    {
+     "t0_ms": 3555890,
+     "text": "and Nova Lake filled in that gap."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3559890,
+   "t1_ms": 3601420,
+   "speaker": "Management",
+   "text": "So, you know, I would expect us to do pretty well on a mixed basis because we should see better traction on the high-end desktop as well. So, you know, we'll see how it goes. We do feel like we go into the year as a market share gainer. We're going to see some growth. We're going to see some growth in the market share gainer with our Nova Lake portfolio. And, you know, obviously, we'll kind of monitor the market and see how things kind of play out. With that, I want to thank everyone for joining us today. We make good progress this quarter on our journey to transform Intel, but we still have a lot to work ahead of us.",
+   "parts": [
+    {
+     "t0_ms": 3559890,
+     "text": "So, you know, I would expect us to do pretty well on a mixed basis"
+    },
+    {
+     "t0_ms": 3563890,
+     "text": "because we should see better traction on the high-end desktop as well."
+    },
+    {
+     "t0_ms": 3568890,
+     "text": "So, you know, we'll see how it goes."
+    },
+    {
+     "t0_ms": 3571890,
+     "text": "We do feel like we go into the year as a market share gainer."
+    },
+    {
+     "t0_ms": 3574090,
+     "text": "We're going to see some growth."
+    },
+    {
+     "t0_ms": 3575990,
+     "text": "We're going to see some growth in the market share gainer with our Nova Lake portfolio."
+    },
+    {
+     "t0_ms": 3579890,
+     "text": "And, you know, obviously, we'll kind of monitor the market and see how things kind of play out."
+    },
+    {
+     "t0_ms": 3587520,
+     "text": "With that, I want to thank everyone for joining us today."
+    },
+    {
+     "t0_ms": 3591520,
+     "text": "We make good progress this quarter on our journey to transform Intel,"
+    },
+    {
+     "t0_ms": 3597520,
+     "text": "but we still have a lot to work ahead of us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3601520,
+   "t1_ms": 3612010,
+   "speaker": "Management",
+   "text": "I'm looking forward to seeing many of you throughout the quarter and I think another update in January.",
+   "parts": [
+    {
+     "t0_ms": 3601520,
+     "text": "I'm looking forward to seeing many of you throughout the quarter"
+    },
+    {
+     "t0_ms": 3605620,
+     "text": "and I think another update in January."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3612110,
+   "t1_ms": 3619010,
+   "speaker": "Operator",
+   "text": "Thank you, ladies and gentlemen, for your participation in today's conference. This does conclude the program. You may now disconnect. Good day.",
+   "parts": [
+    {
+     "t0_ms": 3612110,
+     "text": "Thank you, ladies and gentlemen, for your participation in today's conference."
+    },
+    {
+     "t0_ms": 3615110,
+     "text": "This does conclude the program."
+    },
+    {
+     "t0_ms": 3617110,
+     "text": "You may now disconnect."
+    },
+    {
+     "t0_ms": 3618110,
+     "text": "Good day."
+    }
+   ]
+  }
+ ]
+}

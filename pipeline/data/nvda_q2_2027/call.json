@@ -1,0 +1,3639 @@
+{
+ "ticker": "NVDA",
+ "quarter": "Q2-2027",
+ "company": "NVIDIA",
+ "call_start": "2026-08-26T17:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/NVDA_Q2-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 36880,
+   "speaker": "Operator",
+   "text": "Good afternoon. My name is Tiffany, and I will be your conference operator today. At this time, I would like to welcome everyone to NVIDIA's second quarter earnings call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question and answer session. If you would like to ask a question during this time, simply press star, followed by the number one on your telephone keypad. If you would like to withdraw your question, press star one again. Thank you. Hoshi Ahari, you may begin your conference.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon. My name is Tiffany, and I will be your conference operator today."
+    },
+    {
+     "t0_ms": 4860,
+     "text": "At this time, I would like to welcome everyone to NVIDIA's second quarter earnings call."
+    },
+    {
+     "t0_ms": 11380,
+     "text": "All lines have been placed on mute to prevent any background noise."
+    },
+    {
+     "t0_ms": 15960,
+     "text": "After the speaker's remarks, there will be a question and answer session."
+    },
+    {
+     "t0_ms": 20480,
+     "text": "If you would like to ask a question during this time, simply press star, followed by the number one on your telephone keypad."
+    },
+    {
+     "t0_ms": 28340,
+     "text": "If you would like to withdraw your question, press star one again. Thank you."
+    },
+    {
+     "t0_ms": 34360,
+     "text": "Hoshi Ahari, you may begin your conference."
+    }
+   ]
+  },
+  {
+   "t0_ms": 38220,
+   "t1_ms": 78520,
+   "speaker": "Management",
+   "text": "Thank you. Good afternoon, and welcome to NVIDIA's conference call for the second quarter of fiscal 2027. With me today from NVIDIA are Jensen Wong, President and Chief Executive Officer, and Colette Kress, Executive Vice President and Chief Financial Officer. Our call is being webcast live on NVIDIA's Investor Relations website. The webcast will be available for replay until the conference call to discuss our financial results for the third quarter of fiscal 2027. The content of today's call is NVIDIA's property. It can't be reproduced or transcribed without our prior written consent. During this call, we may make forward-looking statements based on current expectations.",
+   "parts": [
+    {
+     "t0_ms": 38220,
+     "text": "Thank you. Good afternoon, and welcome to NVIDIA's conference call for the second quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 44800,
+     "text": "With me today from NVIDIA are Jensen Wong, President and Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 49860,
+     "text": "and Colette Kress, Executive Vice President and Chief Financial Officer."
+    },
+    {
+     "t0_ms": 53880,
+     "text": "Our call is being webcast live on NVIDIA's Investor Relations website."
+    },
+    {
+     "t0_ms": 58340,
+     "text": "The webcast will be available for replay until the conference call to discuss our financial results for the third quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 66000,
+     "text": "The content of today's call is NVIDIA's property."
+    },
+    {
+     "t0_ms": 69400,
+     "text": "It can't be reproduced or transcribed without our prior written consent."
+    },
+    {
+     "t0_ms": 73860,
+     "text": "During this call, we may make forward-looking statements based on current expectations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 79540,
+   "t1_ms": 118420,
+   "speaker": "Management",
+   "text": "These are subject to a number of significant risks and uncertainties, and our actual results may differ materially. For a discussion of factors that could affect our financial situation, we will be available for replay. Thank you. Thank you. Thank you. Thank you. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 79540,
+     "text": "These are subject to a number of significant risks and uncertainties, and our actual results may differ materially."
+    },
+    {
+     "t0_ms": 86140,
+     "text": "For a discussion of factors that could affect our financial situation, we will be available for replay."
+    },
+    {
+     "t0_ms": 88220,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 88260,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 88340,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 118340,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 118380,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 118420,
+   "t1_ms": 162740,
+   "speaker": "Management",
+   "text": "You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website. With that, let me turn the call over to Colette. Thanks, Toshia. We delivered another outstanding quarter with record revenue, operating income, and EPS. Total revenue of $96 billion, more than doubled year over year as growth accelerated for the fourth consecutive quarter. The surge... The surge in AI demand is driving a global infrastructure build-out, supported by an expanding and diverse set of growth opportunities, spanning hyperscalers, AI labs, AI natives, enterprises, and sovereign customers.",
+   "parts": [
+    {
+     "t0_ms": 118420,
+     "text": "You can find a reconciliation of these non-GAAP financial measures to GAAP financial measures in our CFO commentary, which is posted on our website."
+    },
+    {
+     "t0_ms": 126720,
+     "text": "With that, let me turn the call over to Colette."
+    },
+    {
+     "t0_ms": 129840,
+     "text": "Thanks, Toshia."
+    },
+    {
+     "t0_ms": 131380,
+     "text": "We delivered another outstanding quarter with record revenue, operating income, and EPS."
+    },
+    {
+     "t0_ms": 138100,
+     "text": "Total revenue of $96 billion, more than doubled year over year as growth accelerated for the fourth consecutive quarter."
+    },
+    {
+     "t0_ms": 147260,
+     "text": "The surge..."
+    },
+    {
+     "t0_ms": 148340,
+     "text": "The surge in AI demand is driving a global infrastructure build-out, supported by an expanding and diverse set of growth opportunities, spanning hyperscalers, AI labs, AI natives, enterprises, and sovereign customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 163740,
+   "t1_ms": 208320,
+   "speaker": "Management",
+   "text": "We expect to grow revenue by approximately 70% in fiscal 2028. This is a supply-constrained outlook. Q2 data center revenue increased 18%. Q2 data center revenue increased 18% quarter-over-quarter to $89 billion with strong contributions from both sub-segments, hyperscale and ACINE, which includes our neocloud, industrial, and enterprise customers. Hyperscale revenue of $49 billion grew 13% sequentially, driven by sustained strength in Blackwell. Reinforcing that more compute drives more revenue as new GPU capacity comes online. Reinforcing that more compute drives more revenue as new GPU capacity comes online.",
+   "parts": [
+    {
+     "t0_ms": 163740,
+     "text": "We expect to grow revenue by approximately 70% in fiscal 2028."
+    },
+    {
+     "t0_ms": 171520,
+     "text": "This is a supply-constrained outlook."
+    },
+    {
+     "t0_ms": 175720,
+     "text": "Q2 data center revenue increased 18%."
+    },
+    {
+     "t0_ms": 178340,
+     "text": "Q2 data center revenue increased 18% quarter-over-quarter to $89 billion with strong contributions from both sub-segments, hyperscale and ACINE, which includes our neocloud, industrial, and enterprise customers."
+    },
+    {
+     "t0_ms": 193120,
+     "text": "Hyperscale revenue of $49 billion grew 13% sequentially, driven by sustained strength in Blackwell."
+    },
+    {
+     "t0_ms": 201760,
+     "text": "Reinforcing that more compute drives more revenue as new GPU capacity comes online."
+    },
+    {
+     "t0_ms": 208000,
+     "text": "Reinforcing that more compute drives more revenue as new GPU capacity comes online."
+    }
+   ]
+  },
+  {
+   "t0_ms": 208320,
+   "t1_ms": 251680,
+   "speaker": "Management",
+   "text": "hyperscale customers delivered strong financial results in the quarter with accelerating revenue growth and expanding margins. With cloud industry backlog now greater than 2 trillion, Apex by the top five hyperscalers is expected to reach nearly 800 billion in 2026 and 1.3 trillion in 2027. Today, we are delighted to announce an expansion of our partnership with AWS, building on its already vast installed base of NVIDIA compute. AWS is deploying an additional 2 million GPUs starting this quarter through the second quarter of fiscal 29, along with Vera CPUs,",
+   "parts": [
+    {
+     "t0_ms": 208320,
+     "text": "hyperscale customers delivered strong financial results in the quarter with accelerating revenue"
+    },
+    {
+     "t0_ms": 213280,
+     "text": "growth and expanding margins. With cloud industry backlog now greater than 2 trillion,"
+    },
+    {
+     "t0_ms": 220760,
+     "text": "Apex by the top five hyperscalers is expected to reach nearly 800 billion in 2026 and 1.3 trillion"
+    },
+    {
+     "t0_ms": 229020,
+     "text": "in 2027. Today, we are delighted to announce an expansion of our partnership with AWS,"
+    },
+    {
+     "t0_ms": 236000,
+     "text": "building on its already vast installed base of NVIDIA compute. AWS is deploying an additional"
+    },
+    {
+     "t0_ms": 243340,
+     "text": "2 million GPUs starting this quarter through the second quarter of fiscal 29, along with Vera CPUs,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 252000,
+   "t1_ms": 295960,
+   "speaker": "Management",
+   "text": "some integrated with Ruben, others standalone. AWS will serve NVIDIA and Nematron family of open models on Amazon Bedrock and SageMaker. Amazon will also adopt our full physical and digital cloud infrastructure. We are also developing a new version of NVIDIA Nematron AI stack, Omniverse, Cosmos, Isaac, and Jetson to power its fleet of warehouse robots. ACI and E revenue of 40 billion increased 25% sequentially and 138% year over year. Growth was driven by NeoCloud capacity additions to meet the rising demand from enterprises, AI startups, and sovereigns, as well as hyperscalers purchasing capacity,",
+   "parts": [
+    {
+     "t0_ms": 252000,
+     "text": "some integrated with Ruben, others standalone. AWS will serve NVIDIA and Nematron family"
+    },
+    {
+     "t0_ms": 258320,
+     "text": "of open models on Amazon Bedrock and SageMaker. Amazon will also adopt our full physical"
+    },
+    {
+     "t0_ms": 265780,
+     "text": "and digital cloud infrastructure. We are also developing a new version of NVIDIA Nematron"
+    },
+    {
+     "t0_ms": 265980,
+     "text": "AI stack, Omniverse, Cosmos, Isaac, and Jetson to power its fleet of warehouse robots."
+    },
+    {
+     "t0_ms": 275020,
+     "text": "ACI and E revenue of 40 billion increased 25% sequentially and 138% year over year."
+    },
+    {
+     "t0_ms": 284520,
+     "text": "Growth was driven by NeoCloud capacity additions to meet the rising demand from enterprises,"
+    },
+    {
+     "t0_ms": 290120,
+     "text": "AI startups, and sovereigns, as well as hyperscalers purchasing capacity,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 295980,
+   "t1_ms": 335900,
+   "speaker": "Management",
+   "text": "to supplement their own build-outs. Using NVIDIA DSX reference designs, our NeoCloud partners are bringing capacity online faster and at lower token cost. They are expected to exit the year with 8 gigawatts in total installed capacity, up from approximately 3 gigawatts at the end of 2025. Incredibly, we are seeing demand acceleration even at our scale, and we are worried the time is running out. Customers' forecasts point to our growth doubling next year. However, as I mentioned earlier, we expect to grow approximately 70%",
+   "parts": [
+    {
+     "t0_ms": 295980,
+     "text": "to supplement their own build-outs. Using NVIDIA DSX reference designs,"
+    },
+    {
+     "t0_ms": 303040,
+     "text": "our NeoCloud partners are bringing capacity online faster and at lower token cost. They are expected"
+    },
+    {
+     "t0_ms": 310440,
+     "text": "to exit the year with 8 gigawatts in total installed capacity, up from approximately 3"
+    },
+    {
+     "t0_ms": 317280,
+     "text": "gigawatts at the end of 2025. Incredibly, we are seeing demand acceleration even at our scale,"
+    },
+    {
+     "t0_ms": 325980,
+     "text": "and we are worried the time is running out. Customers' forecasts point to our growth"
+    },
+    {
+     "t0_ms": 329540,
+     "text": "doubling next year. However, as I mentioned earlier, we expect to grow approximately 70%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 336540,
+   "t1_ms": 377360,
+   "speaker": "Management",
+   "text": "as we are supply-constrained. NVIDIA Compute is fully utilized across every cloud we serve. The economic value it generates for our hyperscale NeoCloud and AI Lab partners keeps rising. Besides building the best AI computing technologies and the most recovering systems, our cloud are also having a competitive lead over the future. This can be due to the fact that NVIDIA's use of large-scale cloud networks is increasing, without a doubt. They are also both building a major supply chain. Besides building the best AI computing technologies and the most capable supply chain, NVIDIA has three unique capabilities that are engines powering our growth. First, NVIDIA's architecture runs every model, and we're growing share as closed and open model adoption grow. Closed and open models alike, adoption is skyrocketing.",
+   "parts": [
+    {
+     "t0_ms": 336540,
+     "text": "as we are supply-constrained. NVIDIA Compute is fully utilized across every cloud we serve."
+    },
+    {
+     "t0_ms": 344220,
+     "text": "The economic value it generates for our hyperscale NeoCloud and AI Lab partners keeps rising."
+    },
+    {
+     "t0_ms": 351260,
+     "text": "Besides building the best AI computing technologies and the most recovering systems, our cloud are also having a competitive lead over the future. This can be due to the fact that NVIDIA's use of large-scale cloud networks is increasing, without a doubt. They are also both building a major supply chain."
+    },
+    {
+     "t0_ms": 352380,
+     "text": "Besides building the best AI computing technologies and the most capable supply chain,"
+    },
+    {
+     "t0_ms": 358140,
+     "text": "NVIDIA has three unique capabilities that are engines powering our growth."
+    },
+    {
+     "t0_ms": 363980,
+     "text": "First, NVIDIA's architecture runs every model,"
+    },
+    {
+     "t0_ms": 368360,
+     "text": "and we're growing share as closed and open model adoption grow."
+    },
+    {
+     "t0_ms": 373880,
+     "text": "Closed and open models alike, adoption is skyrocketing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 377360,
+   "t1_ms": 421450,
+   "speaker": "Management",
+   "text": "NVIDIA runs the leading closed models, OpenAI, Anthropic, Grok, Meta, Gemini, and the leading open models, TML, Mistral, Quinn, Kimi, GLM, DeepSeek, Minimax, and Nematron. We're great at small models and giant ones, large or video, auto, regressive, or diffusion, in the cloud or in the edge. NVIDIA is great at technology. NVIDIA is great at training, great at inference, great at agentic workloads. One platform, fungible for every model and workload, durable for the entire lifecycle of AI.",
+   "parts": [
+    {
+     "t0_ms": 377360,
+     "text": "NVIDIA runs the leading closed models, OpenAI, Anthropic, Grok, Meta, Gemini,"
+    },
+    {
+     "t0_ms": 385360,
+     "text": "and the leading open models, TML, Mistral, Quinn, Kimi, GLM, DeepSeek, Minimax, and Nematron."
+    },
+    {
+     "t0_ms": 396850,
+     "text": "We're great at small models and giant ones, large or video, auto, regressive, or diffusion,"
+    },
+    {
+     "t0_ms": 405110,
+     "text": "in the cloud or in the edge."
+    },
+    {
+     "t0_ms": 407770,
+     "text": "NVIDIA is great at technology."
+    },
+    {
+     "t0_ms": 409150,
+     "text": "NVIDIA is great at training, great at inference, great at agentic workloads."
+    },
+    {
+     "t0_ms": 413850,
+     "text": "One platform, fungible for every model and workload, durable for the entire lifecycle of AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 422070,
+   "t1_ms": 465150,
+   "speaker": "Management",
+   "text": "That combination of performance, fungibility, and durability is what makes NVIDIA the productive and financeable compute infrastructure. Our second unique capability is our full stack, AI factory-based, cloud-based, and cloud-based platform that is expanding our share of the data center town. Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell, to $40 billion with Vera Rubin, which now spans Vera CPU, Rubin GPU, Envy Link, InfiniBanner Ethernet, and Grok LPU,",
+   "parts": [
+    {
+     "t0_ms": 422070,
+     "text": "That combination of performance, fungibility, and durability is what makes NVIDIA"
+    },
+    {
+     "t0_ms": 428610,
+     "text": "the productive and financeable compute infrastructure."
+    },
+    {
+     "t0_ms": 432330,
+     "text": "Our second unique capability is our full stack,"
+    },
+    {
+     "t0_ms": 438390,
+     "text": "AI factory-based,"
+    },
+    {
+     "t0_ms": 439150,
+     "text": "cloud-based,"
+    },
+    {
+     "t0_ms": 439770,
+     "text": "and cloud-based platform that is expanding our share of the data center town."
+    },
+    {
+     "t0_ms": 443810,
+     "text": "Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt"
+    },
+    {
+     "t0_ms": 450430,
+     "text": "to $25 billion with Blackwell,"
+    },
+    {
+     "t0_ms": 453850,
+     "text": "to $40 billion with Vera Rubin,"
+    },
+    {
+     "t0_ms": 456850,
+     "text": "which now spans Vera CPU, Rubin GPU,"
+    },
+    {
+     "t0_ms": 461430,
+     "text": "Envy Link,"
+    },
+    {
+     "t0_ms": 462470,
+     "text": "InfiniBanner Ethernet,"
+    },
+    {
+     "t0_ms": 464290,
+     "text": "and Grok LPU,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 466590,
+   "t1_ms": 500950,
+   "speaker": "Management",
+   "text": "announced earlier this week. Our ability to extreme code design across GPU, CPU, Envy Link, scale up networking, scale out networking, systems, algorithms, and software enables us to deliver X-factor performance gain every generation. Vera Rubin exemplifies this, delivering 30X higher throughput per megawatt and 35X lower token costs relative to graceful performance. Our network population is starving.",
+   "parts": [
+    {
+     "t0_ms": 466590,
+     "text": "announced earlier this week."
+    },
+    {
+     "t0_ms": 469150,
+     "text": "Our ability to extreme code design across GPU, CPU, Envy Link, scale up networking, scale out networking,"
+    },
+    {
+     "t0_ms": 477390,
+     "text": "systems, algorithms, and software enables us to deliver X-factor performance gain every generation."
+    },
+    {
+     "t0_ms": 485270,
+     "text": "Vera Rubin exemplifies this, delivering 30X higher throughput per megawatt and 35X lower token costs relative to graceful performance."
+    },
+    {
+     "t0_ms": 497810,
+     "text": "Our network population is starving."
+    }
+   ]
+  },
+  {
+   "t0_ms": 516909,
+   "t1_ms": 558710,
+   "speaker": "Management",
+   "text": "Having already received purchase orders from every major hyperscaler, AI cloud, and system OEM, we expect Vera Rubin to mark THE fastest product ramp in NVIDIA's history. \u0435\u0442\u0440\u043e\u0432 Spectrum X Ethernet, which grew 2.6x on a year-over-year basis, is already helping us become the largest and fastest-growing network company in the world. Rising adoption of agentic AI is driving an acceleration in demand for data center CPUs. Our great CPU, introduced in 2021, has been a great success, with revenue on a trailing 12-month basis exceeding $5 billion.",
+   "parts": [
+    {
+     "t0_ms": 516909,
+     "text": "Having already received purchase orders from every major hyperscaler, AI cloud, and system OEM, we expect Vera Rubin to mark THE fastest product ramp in NVIDIA's history."
+    },
+    {
+     "t0_ms": 519770,
+     "text": "\u0435\u0442\u0440\u043e\u0432"
+    },
+    {
+     "t0_ms": 527810,
+     "text": "Spectrum X Ethernet, which grew 2.6x on a year-over-year basis, is already helping us become the largest and fastest-growing network company in the world."
+    },
+    {
+     "t0_ms": 541190,
+     "text": "Rising adoption of agentic AI is driving an acceleration in demand for data center CPUs."
+    },
+    {
+     "t0_ms": 548410,
+     "text": "Our great CPU, introduced in 2021, has been a great success, with revenue on a trailing 12-month basis exceeding $5 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 559310,
+   "t1_ms": 601310,
+   "speaker": "Management",
+   "text": "Today, we are in full production of our next-generation Vero CPU. As a standalone product, Vero expands our TAM even further. Vero completes agentic tasks 1.8x faster on the spec benchmark and provides five times the performance of a standard CPU. We expect Vero to be deployed by every major hyperscaler, neocloud, AI lab, and system OEM, with shipments already underway to our lead partners including OCI, SpaceX AI, and starting this quarter, AWS.",
+   "parts": [
+    {
+     "t0_ms": 559310,
+     "text": "Today, we are in full production of our next-generation Vero CPU."
+    },
+    {
+     "t0_ms": 564110,
+     "text": "As a standalone product, Vero expands our TAM even further."
+    },
+    {
+     "t0_ms": 568090,
+     "text": "Vero completes agentic tasks 1.8x faster on the spec benchmark and provides five times"
+    },
+    {
+     "t0_ms": 578350,
+     "text": "the performance of a standard CPU."
+    },
+    {
+     "t0_ms": 578410,
+     "text": "We expect Vero to be deployed by every major hyperscaler, neocloud, AI lab, and system OEM,"
+    },
+    {
+     "t0_ms": 591610,
+     "text": "with shipments already underway to our lead partners including OCI, SpaceX AI, and starting this quarter, AWS."
+    }
+   ]
+  },
+  {
+   "t0_ms": 602310,
+   "t1_ms": 639450,
+   "speaker": "Management",
+   "text": "We continue to see demand for approximately $20 billion in total server CPUs, and based on our customer demand and improving supply outlook, our preliminary expectation is for CPU revenue to more than double in fiscal 28, positioning us as one of the world's leading server CPU suppliers. Since the announcement of our Grok partnership last year, we've been working to unite NVIDIA's high-throughput and Grok's high-interactivity architectures. At Hotchips, earlier this week,",
+   "parts": [
+    {
+     "t0_ms": 602310,
+     "text": "We continue to see demand for approximately $20 billion in total server CPUs,"
+    },
+    {
+     "t0_ms": 608190,
+     "text": "and based on our customer demand and improving supply outlook,"
+    },
+    {
+     "t0_ms": 612110,
+     "text": "our preliminary expectation is for CPU revenue to more than double in fiscal 28,"
+    },
+    {
+     "t0_ms": 619490,
+     "text": "positioning us as one of the world's leading server CPU suppliers."
+    },
+    {
+     "t0_ms": 625090,
+     "text": "Since the announcement of our Grok partnership last year,"
+    },
+    {
+     "t0_ms": 629210,
+     "text": "we've been working to unite NVIDIA's high-throughput and Grok's high-interactivity architectures."
+    },
+    {
+     "t0_ms": 636370,
+     "text": "At Hotchips,"
+    },
+    {
+     "t0_ms": 638190,
+     "text": "earlier this week,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 639450,
+   "t1_ms": 682610,
+   "speaker": "Management",
+   "text": "we announced that Grok 3 LPX, our first rack-scale LPU system is in full production and already setting records \u2013 demonstrating nearly 4x the number of tokens per second against the next best alternative on our artificial analysis benchmark. We expect to ship Grok 3 LPX in volume later this quarter to early adopters. Nebius will be the first. Today, we're not just selling the best chips. We're selling a full-stack AI factory platform, offering superior economics for customers and capturing a bigger share of the",
+   "parts": [
+    {
+     "t0_ms": 639450,
+     "text": "we announced that Grok 3 LPX, our first rack-scale LPU system is in full production and already setting records \u2013"
+    },
+    {
+     "t0_ms": 650970,
+     "text": "demonstrating nearly 4x the number of tokens per second against the next best alternative"
+    },
+    {
+     "t0_ms": 657750,
+     "text": "on our artificial analysis benchmark."
+    },
+    {
+     "t0_ms": 661430,
+     "text": "We expect to ship Grok 3 LPX in volume later this quarter to early adopters."
+    },
+    {
+     "t0_ms": 668130,
+     "text": "Nebius will be the first. Today, we're not just selling the best chips. We're selling a full-stack"
+    },
+    {
+     "t0_ms": 675490,
+     "text": "AI factory platform, offering superior economics for customers and capturing a bigger share of the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 682610,
+   "t1_ms": 721170,
+   "speaker": "Management",
+   "text": "data center TAM. Our third unique capability is the combination of our full-stack AI factory and rich CUDA ecosystem, allowing us to extend AI into markets a single chip alone can never reach. Beyond the hyperscalers lies a massive market anxious to adopt AI, customers with no interest in designing their own custom silicon. NVIDIA's fully proven full-stack platform is uniquely suited to help sovereigns, neoclouds, and enterprises build their AI infrastructure, bring it to full operations, and make it a more efficient and more efficient system. We're also a big part of",
+   "parts": [
+    {
+     "t0_ms": 682610,
+     "text": "data center TAM. Our third unique capability is the combination of our full-stack AI factory"
+    },
+    {
+     "t0_ms": 691190,
+     "text": "and rich CUDA ecosystem, allowing us to extend AI into markets a single chip alone can never reach."
+    },
+    {
+     "t0_ms": 700670,
+     "text": "Beyond the hyperscalers lies a massive market anxious to adopt AI, customers with no interest"
+    },
+    {
+     "t0_ms": 707230,
+     "text": "in designing their own custom silicon. NVIDIA's fully proven full-stack platform is uniquely suited"
+    },
+    {
+     "t0_ms": 714090,
+     "text": "to help sovereigns, neoclouds, and enterprises build their AI infrastructure, bring it to full"
+    },
+    {
+     "t0_ms": 720970,
+     "text": "operations, and make it a more efficient and more efficient system. We're also a big part of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 721190,
+   "t1_ms": 766010,
+   "speaker": "Management",
+   "text": "continuously optimize it through CUDA software and connect it to offtake demand from our vast developer ecosystem. Hyperscalers will remain a major growth driver, but non-hyperscaler growth, our AIC&E segment spanning sovereign, regional neoclouds, enterprise, edge, and air gap data centers will represent roughly half of our data center business. Our AI native startup ecosystem, developed and running primarily on the NVIDIA compute platform, is scaling at a rapid pace. Global VC funding in AI, roughly 70% of which is spent on compute,",
+   "parts": [
+    {
+     "t0_ms": 721190,
+     "text": "continuously optimize it through CUDA software and connect it to offtake demand from our vast"
+    },
+    {
+     "t0_ms": 727950,
+     "text": "developer ecosystem. Hyperscalers will remain a major growth driver, but non-hyperscaler growth,"
+    },
+    {
+     "t0_ms": 735770,
+     "text": "our AIC&E segment spanning sovereign, regional neoclouds, enterprise, edge,"
+    },
+    {
+     "t0_ms": 743910,
+     "text": "and air gap data centers will represent roughly half of our data center business."
+    },
+    {
+     "t0_ms": 749070,
+     "text": "Our AI native startup ecosystem, developed and running primarily on the NVIDIA compute platform,"
+    },
+    {
+     "t0_ms": 757690,
+     "text": "is scaling at a rapid pace. Global VC funding in AI, roughly 70% of which is spent on compute,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 766510,
+   "t1_ms": 810790,
+   "speaker": "Management",
+   "text": "exceeded $400 billion in the first half of 2026, surpassing the $265 billion raised in all of 2025. Nearly 20 companies, including NVIDIA, are currently investing in NVIDIA. Nearly 20 companies, including NVIDIA, are investing in NVIDIA. Nearly 20 companies, including NVIDIA, are investing in NVIDIA. Including Cursor, owned by SpaceX, Figma, and Together AI, now exceed $1 billion in annualized run rate revenue, up from 13 companies in Q4 of last year, with vertical enterprise software logging the fastest growth. In enterprise, on a trailing 12-month basis, on-prem revenue in the automotive vertical reached $8 billion, while financial services, manufacturing, and healthcare combined by $1 billion. This is a great opportunity for us to build a new business. This is a great opportunity for us to build a new business. This is a great opportunity for us to build a new business.",
+   "parts": [
+    {
+     "t0_ms": 766510,
+     "text": "exceeded $400 billion in the first half of 2026, surpassing the $265 billion raised in all of 2025."
+    },
+    {
+     "t0_ms": 776850,
+     "text": "Nearly 20 companies, including NVIDIA, are currently investing in NVIDIA."
+    },
+    {
+     "t0_ms": 777630,
+     "text": "Nearly 20 companies, including NVIDIA, are investing in NVIDIA."
+    },
+    {
+     "t0_ms": 777750,
+     "text": "Nearly 20 companies, including NVIDIA, are investing in NVIDIA."
+    },
+    {
+     "t0_ms": 778850,
+     "text": "Including Cursor, owned by SpaceX, Figma, and Together AI, now exceed $1 billion in annualized"
+    },
+    {
+     "t0_ms": 786150,
+     "text": "run rate revenue, up from 13 companies in Q4 of last year, with vertical enterprise software"
+    },
+    {
+     "t0_ms": 794370,
+     "text": "logging the fastest growth. In enterprise, on a trailing 12-month basis, on-prem revenue in the"
+    },
+    {
+     "t0_ms": 803350,
+     "text": "automotive vertical reached $8 billion, while financial services, manufacturing, and healthcare"
+    },
+    {
+     "t0_ms": 808130,
+     "text": "combined by $1 billion. This is a great opportunity for us to build a new business."
+    },
+    {
+     "t0_ms": 808850,
+     "text": "This is a great opportunity for us to build a new business."
+    },
+    {
+     "t0_ms": 809370,
+     "text": "This is a great opportunity for us to build a new business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 810790,
+   "t1_ms": 854570,
+   "speaker": "Management",
+   "text": "Hudson River Trading and Jane Street are leveraging NVIDIA's powered AI factories to accelerate quantitative trading. Samsung Electronics is using NVIDIA Kulitho to achieve up to 20x greater performance in computational lithography, while Bristol Myers Squid is investing in Vera Reuben AI Factory, a fast follow to the Roche and Lilly buildouts. This is a great opportunity for us toadaxiloc asked\ufffd gro\u00dfehey, ch controlane zur, and k\ufffd\ufffd david, heb Posselp brown, to a fast follow jump to the roche and lily buildouts as rich\uc640g, bug R&D timelines compress from years to months. In sovereign AI, our business primarily through the regional neoclouds grew 35% sequentially and more than tripled year over year in Q2.",
+   "parts": [
+    {
+     "t0_ms": 810790,
+     "text": "Hudson River Trading and Jane Street are leveraging NVIDIA's powered AI factories"
+    },
+    {
+     "t0_ms": 816090,
+     "text": "to accelerate quantitative trading."
+    },
+    {
+     "t0_ms": 821590,
+     "text": "Samsung Electronics is using NVIDIA Kulitho to achieve up to 20x greater performance"
+    },
+    {
+     "t0_ms": 828090,
+     "text": "in computational lithography, while Bristol Myers Squid is investing in Vera Reuben AI Factory,"
+    },
+    {
+     "t0_ms": 834730,
+     "text": "a fast follow to the Roche and Lilly buildouts."
+    },
+    {
+     "t0_ms": 837910,
+     "text": "This is a great opportunity for us toadaxiloc asked\ufffd gro\u00dfehey, ch controlane zur,"
+    },
+    {
+     "t0_ms": 838290,
+     "text": "and k\ufffd\ufffd david, heb Posselp brown, to a fast follow jump to the roche and lily buildouts as rich\uc640g,"
+    },
+    {
+     "t0_ms": 838850,
+     "text": "bug R&D timelines compress from years to months."
+    },
+    {
+     "t0_ms": 844470,
+     "text": "In sovereign AI, our business primarily through the regional neoclouds"
+    },
+    {
+     "t0_ms": 849450,
+     "text": "grew 35% sequentially and more than tripled year over year in Q2."
+    }
+   ]
+  },
+  {
+   "t0_ms": 855390,
+   "t1_ms": 899430,
+   "speaker": "Management",
+   "text": "A country or region can allocate land and power directly to a regional cloud partner in ways it never would to a foreign hyperscaler. We don't own a cloud ourselves. We are a neutral partner to every sovereign and neocloud. And because NVIDIA compute is productive, fungible, rentable, and durable, regional cloud interest is surging around the world. We helped Quarweave, Nebius, and Nscale build entire infrastructure businesses, and neoclouds are emerging everywhere. Firebird in Armenia. Casaba Technologies across Africa. DMI Cloud in Taiwan.",
+   "parts": [
+    {
+     "t0_ms": 855390,
+     "text": "A country or region can allocate land and power directly to a regional cloud partner"
+    },
+    {
+     "t0_ms": 860910,
+     "text": "in ways it never would to a foreign hyperscaler."
+    },
+    {
+     "t0_ms": 865110,
+     "text": "We don't own a cloud ourselves."
+    },
+    {
+     "t0_ms": 866990,
+     "text": "We are a neutral partner to every sovereign and neocloud."
+    },
+    {
+     "t0_ms": 871950,
+     "text": "And because NVIDIA compute is productive, fungible, rentable, and durable,"
+    },
+    {
+     "t0_ms": 876990,
+     "text": "regional cloud interest is surging around the world."
+    },
+    {
+     "t0_ms": 880590,
+     "text": "We helped Quarweave, Nebius, and Nscale build entire infrastructure businesses,"
+    },
+    {
+     "t0_ms": 888070,
+     "text": "and neoclouds are emerging everywhere."
+    },
+    {
+     "t0_ms": 890970,
+     "text": "Firebird in Armenia."
+    },
+    {
+     "t0_ms": 893670,
+     "text": "Casaba Technologies across Africa."
+    },
+    {
+     "t0_ms": 896990,
+     "text": "DMI Cloud in Taiwan."
+    }
+   ]
+  },
+  {
+   "t0_ms": 900050,
+   "t1_ms": 941990,
+   "speaker": "Management",
+   "text": "Yoda and Nasa in India. Hermes in Australia. YTL AI Cloud in Malaysia. Pairing local land, power, and operating expertise with our platform. Last month, we announced a partnership with Noatra, Japan's national AI company, to build an NVIDIA DSX AI factory that will create open models, to power AI agents, digital twins, robotics, and physical AI applications. South Korea's LG and Hyundai Motor Group are partnering with NVIDIA to build and scale AI.",
+   "parts": [
+    {
+     "t0_ms": 900050,
+     "text": "Yoda and Nasa in India."
+    },
+    {
+     "t0_ms": 903010,
+     "text": "Hermes in Australia."
+    },
+    {
+     "t0_ms": 905210,
+     "text": "YTL AI Cloud in Malaysia."
+    },
+    {
+     "t0_ms": 907890,
+     "text": "Pairing local land, power, and operating expertise with our platform."
+    },
+    {
+     "t0_ms": 914690,
+     "text": "Last month, we announced a partnership with Noatra, Japan's national AI company,"
+    },
+    {
+     "t0_ms": 921590,
+     "text": "to build an NVIDIA DSX AI factory that will create open models,"
+    },
+    {
+     "t0_ms": 926990,
+     "text": "to power AI agents, digital twins, robotics, and physical AI applications."
+    },
+    {
+     "t0_ms": 932990,
+     "text": "South Korea's LG and Hyundai Motor Group are partnering with NVIDIA to build and scale AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 941990,
+   "t1_ms": 986850,
+   "speaker": "Management",
+   "text": "And in Europe, a record 35 new NVIDIA-powered AI supercomputers were unveiled to advance industry and scientific breakthroughs. Neoclouds are seeing strong demand pipelines for many diverse off-takers. We are also seeing a strong demand for AI. We are also seeing a strong demand for AI. At the same time, NVIDIA has begun to expand its performance in data centers. Rather than allocating their entire capacity to a single, long-term off-take guarantee that lenders typically require to finance a data center independently, we have introduced a revenue sharing structure. NVIDIA provides a take-or-pay commitment on a portion of the facility's capacity, a minimum revenue guarantee that gives lenders the confidence to underwrite the project. And in exchange, we share in a portion of the NeoCloud's revenue based on its efficiency, and also an exhaustive project. We are only investing in NVIDIA's platform. We are only investing in its capabilities for its own purposes. And this is why we are investing in DataCenter. And we know that NVIDIA provides essential security for our projects.",
+   "parts": [
+    {
+     "t0_ms": 941990,
+     "text": "And in Europe, a record 35 new NVIDIA-powered AI supercomputers were unveiled to advance industry and scientific breakthroughs."
+    },
+    {
+     "t0_ms": 951990,
+     "text": "Neoclouds are seeing strong demand pipelines for many diverse off-takers."
+    },
+    {
+     "t0_ms": 956050,
+     "text": "We are also seeing a strong demand for AI."
+    },
+    {
+     "t0_ms": 957450,
+     "text": "We are also seeing a strong demand for AI."
+    },
+    {
+     "t0_ms": 958230,
+     "text": "At the same time, NVIDIA has begun to expand its performance in data centers."
+    },
+    {
+     "t0_ms": 958610,
+     "text": "Rather than allocating their entire capacity to a single, long-term off-take guarantee"
+    },
+    {
+     "t0_ms": 962330,
+     "text": "that lenders typically require to finance a data center independently,"
+    },
+    {
+     "t0_ms": 966690,
+     "text": "we have introduced a revenue sharing structure."
+    },
+    {
+     "t0_ms": 970970,
+     "text": "NVIDIA provides a take-or-pay commitment on a portion of the facility's capacity,"
+    },
+    {
+     "t0_ms": 976490,
+     "text": "a minimum revenue guarantee that gives lenders the confidence to underwrite the project."
+    },
+    {
+     "t0_ms": 982290,
+     "text": "And in exchange, we share in a portion of the NeoCloud's revenue based on its efficiency,"
+    },
+    {
+     "t0_ms": 984890,
+     "text": "and also an exhaustive project."
+    },
+    {
+     "t0_ms": 985330,
+     "text": "We are only investing in NVIDIA's platform."
+    },
+    {
+     "t0_ms": 985850,
+     "text": "We are only investing in its capabilities for its own purposes."
+    },
+    {
+     "t0_ms": 986230,
+     "text": "And this is why we are investing in DataCenter."
+    },
+    {
+     "t0_ms": 986650,
+     "text": "And we know that NVIDIA provides essential security for our projects."
+    }
+   ]
+  },
+  {
+   "t0_ms": 986850,
+   "t1_ms": 1028990,
+   "speaker": "Management",
+   "text": "earned above that floor. Independent capital still underwrites every deal on its own merits. We're not making loans. In this model, we get paid twice, once on the hardware sale and again through the share of rental revenue, a highly reoccurring stream layered on top of a one-time equipment purchase. Over time, this model can expand our addressable market and create reoccurring usage-linked revenue stream alongside our core platform revenue, with the potential to drive billions in revenue over the medium to long term. Together, NVIDIA's three unique capabilities,",
+   "parts": [
+    {
+     "t0_ms": 986850,
+     "text": "earned above that floor. Independent capital still underwrites every deal on its own merits."
+    },
+    {
+     "t0_ms": 994310,
+     "text": "We're not making loans. In this model, we get paid twice, once on the hardware sale and again"
+    },
+    {
+     "t0_ms": 1001130,
+     "text": "through the share of rental revenue, a highly reoccurring stream layered on top of a one-time"
+    },
+    {
+     "t0_ms": 1007510,
+     "text": "equipment purchase. Over time, this model can expand our addressable market and create reoccurring"
+    },
+    {
+     "t0_ms": 1014190,
+     "text": "usage-linked revenue stream alongside our core platform revenue, with the potential to drive"
+    },
+    {
+     "t0_ms": 1021150,
+     "text": "billions in revenue over the medium to long term. Together, NVIDIA's three unique capabilities,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1029410,
+   "t1_ms": 1073450,
+   "speaker": "Management",
+   "text": "a platform that runs every model, a full-stack AI factory platform capturing more of the data center TAM, and a CUDA ecosystem that extends AI into markets no single chip could reach alone, reinforce the value of the data center. We're not making loans. In this model, we get paid twice, once on the hardware sale and again through the share of rental revenue, a highly reoccurring stream layered on top of a one-time Let me update you on our progress with our Frontier AI Labs. The Frontier AI Labs have extraordinary demand for training and inference compute, but they are growing faster than what their balance sheets and credit profiles can support. They have rapidly growing customer demand, yet still lack the decades-long infrastructure contracts and investment-grade financing capacity,",
+   "parts": [
+    {
+     "t0_ms": 1029410,
+     "text": "a platform that runs every model, a full-stack AI factory platform capturing more of the data"
+    },
+    {
+     "t0_ms": 1034690,
+     "text": "center TAM, and a CUDA ecosystem that extends AI into markets no single chip could reach alone,"
+    },
+    {
+     "t0_ms": 1043450,
+     "text": "reinforce the value of the data center."
+    },
+    {
+     "t0_ms": 1044190,
+     "text": "We're not making loans. In this model, we get paid twice, once on the hardware sale and again through the share of rental revenue, a highly reoccurring stream layered on top of a one-time"
+    },
+    {
+     "t0_ms": 1051190,
+     "text": "Let me update you on our progress with our Frontier AI Labs. The Frontier AI Labs have extraordinary demand for training and inference compute, but they are growing faster than what their balance sheets and credit profiles can support."
+    },
+    {
+     "t0_ms": 1064530,
+     "text": "They have rapidly growing customer demand, yet still lack the decades-long infrastructure contracts and investment-grade financing capacity,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1073450,
+   "t1_ms": 1110990,
+   "speaker": "Management",
+   "text": "needed to secure the AI factory infrastructure independently. In other words, their growth isn't limited by their technology or customer demand. It's limited by compute. For these companies, more compute means more and more intelligence, more users, and more revenue. NVIDIA is needed to help power this flywheel. First, we've invested nearly $50 billion in the Frontier AI Labs. This was a meaningful commitment, but it represented a small fraction of our expected free cash flow over the same period.",
+   "parts": [
+    {
+     "t0_ms": 1073450,
+     "text": "needed to secure the AI factory infrastructure independently. In other words, their growth isn't limited by their technology or customer demand. It's limited by compute."
+    },
+    {
+     "t0_ms": 1087390,
+     "text": "For these companies, more compute means more and more intelligence, more users, and more revenue. NVIDIA is needed to help power this flywheel."
+    },
+    {
+     "t0_ms": 1098730,
+     "text": "First, we've invested nearly $50 billion in the Frontier AI Labs."
+    },
+    {
+     "t0_ms": 1103450,
+     "text": "This was a meaningful commitment, but it represented a small fraction of our expected free cash flow over the same period."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1111630,
+   "t1_ms": 1150650,
+   "speaker": "Management",
+   "text": "Further, to support the Frontier Labs infrastructure build-outs, we recently announced partnerships with six of the world's leading infrastructure capital providers, Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, to establish financing platforms that will raise over $500 billion of third-party capital. With these partnerships, building on our unique, fungible, and durable computing platform, the AI Labs will be able to build and assess AI infrastructure funded by long-term institutional capital at relatively attractive rates.",
+   "parts": [
+    {
+     "t0_ms": 1111630,
+     "text": "Further, to support the Frontier Labs infrastructure build-outs, we recently announced partnerships with six of the world's leading infrastructure capital providers, Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR,"
+    },
+    {
+     "t0_ms": 1127770,
+     "text": "to establish financing platforms that will raise over $500 billion of third-party capital."
+    },
+    {
+     "t0_ms": 1133450,
+     "text": "With these partnerships, building on our unique, fungible, and durable computing platform, the AI Labs will be able to build and assess AI infrastructure funded by long-term institutional capital at relatively attractive rates."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1151670,
+   "t1_ms": 1191710,
+   "speaker": "Management",
+   "text": "Last week, we announced that we secured land power shell capacity through our partnership with SoftBank Energy to exclusively host NVIDIA Compute, at their Portsmouth campus. The initial deployment, expected to support 4.25 gigawatts of AI factory capacity, will be utilized by OpenAI. Each generation of NVIDIA AI factory systems deployed at Portsmouth could represent approximately 1.5 million NVIDIA GPUs. In over 20 years, the site could support multiple upgrade cycles. Here's the essential economic point.",
+   "parts": [
+    {
+     "t0_ms": 1151670,
+     "text": "Last week, we announced that we secured land power shell capacity through our partnership with SoftBank Energy to exclusively host NVIDIA Compute,"
+    },
+    {
+     "t0_ms": 1163450,
+     "text": "at their Portsmouth campus."
+    },
+    {
+     "t0_ms": 1164970,
+     "text": "The initial deployment, expected to support 4.25 gigawatts of AI factory capacity, will be utilized by OpenAI."
+    },
+    {
+     "t0_ms": 1174870,
+     "text": "Each generation of NVIDIA AI factory systems deployed at Portsmouth could represent approximately 1.5 million NVIDIA GPUs."
+    },
+    {
+     "t0_ms": 1184890,
+     "text": "In over 20 years, the site could support multiple upgrade cycles."
+    },
+    {
+     "t0_ms": 1189090,
+     "text": "Here's the essential economic point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1191710,
+   "t1_ms": 1230630,
+   "speaker": "Management",
+   "text": "The LPS commitment secures a long-lived AI factory site, while the NVIDIA compute within the data center can be upgraded repeatedly. This project deepens our longstanding partnership with OpenAI. OpenAI has committed to substantially deployments of NVIDIA AI infrastructure through 2030. OpenAI's existing and planned commitments represent approximately 12 gigawatts of NVIDIA compute. For another frontier AI lab, we will provide selective credit enhancement for nearly 2 gigawatts of compute.",
+   "parts": [
+    {
+     "t0_ms": 1191710,
+     "text": "The LPS commitment secures a long-lived AI factory site, while the NVIDIA compute within the data center can be upgraded repeatedly."
+    },
+    {
+     "t0_ms": 1201170,
+     "text": "This project deepens our longstanding partnership with OpenAI."
+    },
+    {
+     "t0_ms": 1206130,
+     "text": "OpenAI has committed to substantially deployments of NVIDIA AI infrastructure through 2030."
+    },
+    {
+     "t0_ms": 1214790,
+     "text": "OpenAI's existing and planned commitments represent approximately 12 gigawatts of NVIDIA compute."
+    },
+    {
+     "t0_ms": 1222530,
+     "text": "For another frontier AI lab, we will provide selective credit enhancement for nearly 2 gigawatts of compute."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1231150,
+   "t1_ms": 1274530,
+   "speaker": "Management",
+   "text": "This complements the substantial NVIDIA compute capacity they've secured independently without NVIDIA's credit support. We recognize the scale of this support. And we know some will call this circular financing. We see it differently. We're going through a major computing platform shift. The creation of one of the most important technologies in human history. And these are once-in-a-generation companies. Their technology leadership is proven. And their customer traction and usage are skyrocketing. We expect them to become the largest technology companies in history. We believe this.",
+   "parts": [
+    {
+     "t0_ms": 1231150,
+     "text": "This complements the substantial NVIDIA compute capacity they've secured independently without NVIDIA's credit support."
+    },
+    {
+     "t0_ms": 1241470,
+     "text": "We recognize the scale of this support."
+    },
+    {
+     "t0_ms": 1245210,
+     "text": "And we know some will call this circular financing."
+    },
+    {
+     "t0_ms": 1248670,
+     "text": "We see it differently."
+    },
+    {
+     "t0_ms": 1250570,
+     "text": "We're going through a major computing platform shift."
+    },
+    {
+     "t0_ms": 1254210,
+     "text": "The creation of one of the most important technologies in human history."
+    },
+    {
+     "t0_ms": 1257650,
+     "text": "And these are once-in-a-generation companies."
+    },
+    {
+     "t0_ms": 1261670,
+     "text": "Their technology leadership is proven."
+    },
+    {
+     "t0_ms": 1264370,
+     "text": "And their customer traction and usage are skyrocketing."
+    },
+    {
+     "t0_ms": 1268290,
+     "text": "We expect them to become the largest technology companies in history."
+    },
+    {
+     "t0_ms": 1274150,
+     "text": "We believe this."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1274530,
+   "t1_ms": 1311290,
+   "speaker": "Management",
+   "text": "We believe these investments, measured against the strength of their demand, the business they create for us, the ecosystem they build on NVIDIA's platform, and the equity returns on our invested capital, will be excellent. And our risk is limited. The NVIDIA compute platform is fungible and durable and can be redeployed to support other customers. For context, we expect demand from the AI labs. For which we expect to leverage our balance sheet to contribute toward roughly a quarter of our business next year.",
+   "parts": [
+    {
+     "t0_ms": 1274530,
+     "text": "We believe these investments, measured against the strength of their demand, the business they create for us, the ecosystem they build on NVIDIA's platform, and the equity returns on our invested capital, will be excellent."
+    },
+    {
+     "t0_ms": 1289970,
+     "text": "And our risk is limited."
+    },
+    {
+     "t0_ms": 1291930,
+     "text": "The NVIDIA compute platform is fungible and durable and can be redeployed to support other customers."
+    },
+    {
+     "t0_ms": 1299210,
+     "text": "For context, we expect demand from the AI labs."
+    },
+    {
+     "t0_ms": 1304530,
+     "text": "For which we expect to leverage our balance sheet to contribute toward roughly a quarter of our business next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1311590,
+   "t1_ms": 1351380,
+   "speaker": "Management",
+   "text": "This remains compute we ship will be consumed by investment-grade customers or those that are backed by one. In Q2, we ship less than 1% of our total data center revenue in Hopper 200 products to customers based in China in accordance with the U.S. government licenses. Current Hopper shipments. Our shipments are dilutive to corporate gross margins. And given ongoing geopolitical uncertainty, there is no China data center compute revenue in our forward outlook. Moving to the rest of the P&L.",
+   "parts": [
+    {
+     "t0_ms": 1311590,
+     "text": "This remains compute we ship will be consumed by investment-grade customers or those that are backed by one."
+    },
+    {
+     "t0_ms": 1321880,
+     "text": "In Q2, we ship less than 1% of our total data center revenue in Hopper 200 products to customers based in China in accordance with the U.S. government licenses."
+    },
+    {
+     "t0_ms": 1334320,
+     "text": "Current Hopper shipments."
+    },
+    {
+     "t0_ms": 1335620,
+     "text": "Our shipments are dilutive to corporate gross margins."
+    },
+    {
+     "t0_ms": 1339060,
+     "text": "And given ongoing geopolitical uncertainty, there is no China data center compute revenue in our forward outlook."
+    },
+    {
+     "t0_ms": 1349400,
+     "text": "Moving to the rest of the P&L."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1351880,
+   "t1_ms": 1396440,
+   "speaker": "Management",
+   "text": "Gap and non-gap gross margins were both 75%, largely unchanged from last quarter due to a similar product mix. Gap and non-gap operating expenses were up 10% and 11% sequentially. Primarily due to high demand. Compute infrastructure costs and compensation and benefits costs. Our non-gap effective tax rate of 16% increased from a year ago. Primarily due to higher revenue. On our balance sheet, inventory increased to 32 billion as we prepared for the Vera Rubin launch. Days of sales outstanding increased to 60 days reflecting extended payment terms for large purchases by certain investment-grade customers.",
+   "parts": [
+    {
+     "t0_ms": 1351880,
+     "text": "Gap and non-gap gross margins were both 75%, largely unchanged from last quarter due to a similar product mix."
+    },
+    {
+     "t0_ms": 1360320,
+     "text": "Gap and non-gap operating expenses were up 10% and 11% sequentially."
+    },
+    {
+     "t0_ms": 1365960,
+     "text": "Primarily due to high demand."
+    },
+    {
+     "t0_ms": 1367380,
+     "text": "Compute infrastructure costs and compensation and benefits costs."
+    },
+    {
+     "t0_ms": 1372960,
+     "text": "Our non-gap effective tax rate of 16% increased from a year ago."
+    },
+    {
+     "t0_ms": 1377900,
+     "text": "Primarily due to higher revenue."
+    },
+    {
+     "t0_ms": 1380360,
+     "text": "On our balance sheet, inventory increased to 32 billion as we prepared for the Vera Rubin launch."
+    },
+    {
+     "t0_ms": 1388000,
+     "text": "Days of sales outstanding increased to 60 days reflecting extended payment terms for large purchases by certain investment-grade customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1396440,
+   "t1_ms": 1435800,
+   "speaker": "Management",
+   "text": "We have a record of $26 billion in revenues to shareholders. In Q2, we returned a record $26 billion to shareholders, $20 billion through share repurchases and $6 billion through our quarterly dividend of $0.25 per share. Relative to our plan to return 50% or more of free cash flow, we have returned 60% on a year-to-date basis. And going forward, we intend to increase. and return excess free cash flow net of strategic uses. Let me turn to the outlook for the third quarter.",
+   "parts": [
+    {
+     "t0_ms": 1396440,
+     "text": "We have a record of $26 billion in revenues to shareholders."
+    },
+    {
+     "t0_ms": 1397440,
+     "text": "In Q2, we returned a record $26 billion to shareholders, $20 billion through share repurchases and $6 billion through our quarterly dividend of $0.25 per share."
+    },
+    {
+     "t0_ms": 1413880,
+     "text": "Relative to our plan to return 50% or more of free cash flow, we have returned 60% on a year-to-date basis."
+    },
+    {
+     "t0_ms": 1421880,
+     "text": "And going forward, we intend to increase."
+    },
+    {
+     "t0_ms": 1426440,
+     "text": "and return excess free cash flow net of strategic uses."
+    },
+    {
+     "t0_ms": 1432040,
+     "text": "Let me turn to the outlook for the third quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1436640,
+   "t1_ms": 1477960,
+   "speaker": "Management",
+   "text": "Total revenue is expected to be $108 billion, plus and minus 2%. We expect sequential growth to be driven primarily by ACINE with data center, while growth in hyperseal is expected to reaccelerate in Q4 and into fiscal year 28, as supply of Vera Rubin grows over time. We see Vera Rubin accounting for about 20% of data center revenue in Q3. Looking ahead, our preliminary expectation is for fiscal year 28 revenue to grow approximately 70% year over year. Although we will work to close the supply-demand gap,",
+   "parts": [
+    {
+     "t0_ms": 1436640,
+     "text": "Total revenue is expected to be $108 billion, plus and minus 2%."
+    },
+    {
+     "t0_ms": 1442300,
+     "text": "We expect sequential growth to be driven primarily by ACINE with data center,"
+    },
+    {
+     "t0_ms": 1448500,
+     "text": "while growth in hyperseal is expected to reaccelerate in Q4 and into fiscal year 28,"
+    },
+    {
+     "t0_ms": 1454680,
+     "text": "as supply of Vera Rubin grows over time."
+    },
+    {
+     "t0_ms": 1458960,
+     "text": "We see Vera Rubin accounting for about 20% of data center revenue in Q3."
+    },
+    {
+     "t0_ms": 1465660,
+     "text": "Looking ahead, our preliminary expectation is for fiscal year 28 revenue to grow approximately 70% year over year."
+    },
+    {
+     "t0_ms": 1474820,
+     "text": "Although we will work to close the supply-demand gap,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1477960,
+   "t1_ms": 1521370,
+   "speaker": "Management",
+   "text": "we expect supply to remain a bottleneck at least through the end of fiscal year 28. Many of you have expressed concerns regarding our gross margins as component costs have risen significantly. As you are already aware, we are experiencing extreme pricing conditions in memory. The magnitude of the price increase has exceeded our prior expectations and are headed even higher into next year. As a result, we are resetting expectations today. For Q3, we expect gap and non-gap. We expect gross margins to be 74% plus or minus 50 basis points.",
+   "parts": [
+    {
+     "t0_ms": 1477960,
+     "text": "we expect supply to remain a bottleneck at least through the end of fiscal year 28."
+    },
+    {
+     "t0_ms": 1484680,
+     "text": "Many of you have expressed concerns regarding our gross margins as component costs have risen significantly."
+    },
+    {
+     "t0_ms": 1494330,
+     "text": "As you are already aware, we are experiencing extreme pricing conditions in memory."
+    },
+    {
+     "t0_ms": 1500270,
+     "text": "The magnitude of the price increase has exceeded our prior expectations and are headed even higher into next year."
+    },
+    {
+     "t0_ms": 1507730,
+     "text": "As a result, we are resetting expectations today."
+    },
+    {
+     "t0_ms": 1511570,
+     "text": "For Q3, we expect gap and non-gap."
+    },
+    {
+     "t0_ms": 1516090,
+     "text": "We expect gross margins to be 74% plus or minus 50 basis points."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1521830,
+   "t1_ms": 1562670,
+   "speaker": "Management",
+   "text": "We expect margins to bottom in Q4 in the 71% to 72% range, before settling at 72% to 73% in fiscal year 28, as executed price increases take effect in Q1. We want to be direct about this rather than let it linger as an open question. Remember, we are not going to be direct about this. We are going to be direct about this. Memory scarcity today is being driven in large part by the AI build-out itself, and unlike a component that simply raises our costs with no offset benefit, tighter memory supply is a symptom of the same demand surge that's driving our own growth.",
+   "parts": [
+    {
+     "t0_ms": 1521830,
+     "text": "We expect margins to bottom in Q4 in the 71% to 72% range,"
+    },
+    {
+     "t0_ms": 1528810,
+     "text": "before settling at 72% to 73% in fiscal year 28,"
+    },
+    {
+     "t0_ms": 1534830,
+     "text": "as executed price increases take effect in Q1."
+    },
+    {
+     "t0_ms": 1540170,
+     "text": "We want to be direct about this rather than let it linger as an open question."
+    },
+    {
+     "t0_ms": 1545170,
+     "text": "Remember, we are not going to be direct about this."
+    },
+    {
+     "t0_ms": 1546070,
+     "text": "We are going to be direct about this."
+    },
+    {
+     "t0_ms": 1546570,
+     "text": "Memory scarcity today is being driven in large part by the AI build-out itself,"
+    },
+    {
+     "t0_ms": 1551230,
+     "text": "and unlike a component that simply raises our costs with no offset benefit,"
+    },
+    {
+     "t0_ms": 1557210,
+     "text": "tighter memory supply is a symptom of the same demand surge that's driving our own growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1563090,
+   "t1_ms": 1606050,
+   "speaker": "Management",
+   "text": "We have long-standing, deep relationships with all three major memory suppliers, and we're working closely with them to further increase the capacity our roadmap requires. Gap and non-gap operating expenses are expected to be approximately $9.2 billion and $9.0 billion, respectively. For the full year, we now expect OpEx to grow in the low 50s, driven by a broadening of our product portfolio and further increase in the usage of AI tools, which is already and will continue to enhance engineering productivity. For full year, fiscal year 27, we continue to expect gap and non-gap tax breaks, and we expect a growth of $1.5 billion.",
+   "parts": [
+    {
+     "t0_ms": 1563090,
+     "text": "We have long-standing, deep relationships with all three major memory suppliers,"
+    },
+    {
+     "t0_ms": 1568510,
+     "text": "and we're working closely with them to further increase the capacity our roadmap requires."
+    },
+    {
+     "t0_ms": 1576070,
+     "text": "Gap and non-gap operating expenses are expected to be approximately $9.2 billion and $9.0 billion, respectively."
+    },
+    {
+     "t0_ms": 1585350,
+     "text": "For the full year, we now expect OpEx to grow in the low 50s,"
+    },
+    {
+     "t0_ms": 1589950,
+     "text": "driven by a broadening of our product portfolio and further increase in the usage of AI tools,"
+    },
+    {
+     "t0_ms": 1595310,
+     "text": "which is already and will continue to enhance engineering productivity."
+    },
+    {
+     "t0_ms": 1599750,
+     "text": "For full year, fiscal year 27, we continue to expect gap and non-gap tax breaks,"
+    },
+    {
+     "t0_ms": 1605230,
+     "text": "and we expect a growth of $1.5 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1606070,
+   "t1_ms": 1622350,
+   "speaker": "Management",
+   "text": "We expect the growth of $1.5 billion in the future to be between 16% and 18%, excluding any discrete items and material changes to our tax environment. With that, we will now transition to Q&A. Operator, please poll for questions.",
+   "parts": [
+    {
+     "t0_ms": 1606070,
+     "text": "We expect the growth of $1.5 billion in the future to be between 16% and 18%,"
+    },
+    {
+     "t0_ms": 1609950,
+     "text": "excluding any discrete items and material changes to our tax environment."
+    },
+    {
+     "t0_ms": 1615830,
+     "text": "With that, we will now transition to Q&A."
+    },
+    {
+     "t0_ms": 1620330,
+     "text": "Operator, please poll for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1625970,
+   "t1_ms": 1645590,
+   "speaker": "Operator",
+   "text": "At this time, I would like to remind everyone, in order to ask a question, press star, then the number 1 on your telephone keypad. We'll pause for just a moment to compile the Q&A roster. Thank you, everyone. The first question comes from the line of Joseph Moore with Morgan Stanley. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1625970,
+     "text": "At this time, I would like to remind everyone, in order to ask a question,"
+    },
+    {
+     "t0_ms": 1630130,
+     "text": "press star, then the number 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1634090,
+     "text": "We'll pause for just a moment to compile the Q&A roster."
+    },
+    {
+     "t0_ms": 1637350,
+     "text": "Thank you, everyone."
+    },
+    {
+     "t0_ms": 1640290,
+     "text": "The first question comes from the line of Joseph Moore with Morgan Stanley."
+    },
+    {
+     "t0_ms": 1644470,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1648110,
+   "t1_ms": 1667810,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. I wonder if you could give us color on the 70%. What gives you the confidence to guide a full year out if you haven't been doing that? And then what's the gap between that amount of growth and the 100% demand growth? What is the kind of key constraint that separates those numbers, and could you close those gaps over time?",
+   "parts": [
+    {
+     "t0_ms": 1648110,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 1648490,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1649770,
+     "text": "I wonder if you could give us color on the 70%."
+    },
+    {
+     "t0_ms": 1652890,
+     "text": "What gives you the confidence to guide a full year out if you haven't been doing that?"
+    },
+    {
+     "t0_ms": 1657450,
+     "text": "And then what's the gap between that amount of growth and the 100% demand growth?"
+    },
+    {
+     "t0_ms": 1662830,
+     "text": "What is the kind of key constraint that separates those numbers,"
+    },
+    {
+     "t0_ms": 1665910,
+     "text": "and could you close those gaps over time?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1670090,
+   "t1_ms": 1713170,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Joe. As you probably are aware, AI has become useful. And the AI agents that are being adopted everywhere use an enormous amount of compute. First of all, the large language models are larger than ever because they're smarter than ever. And these agents go through reasoning and planning, multiple turns of tool use. The amount of compute necessary for an agent versus a human using it is probably 15%. And that's a hundred times, depending on the type of problem you're trying to solve. And so the amount of compute necessary is just extraordinary. That's a factor that almost everybody sees.",
+   "parts": [
+    {
+     "t0_ms": 1670090,
+     "text": "Yeah, thanks, Joe."
+    },
+    {
+     "t0_ms": 1670710,
+     "text": "As you probably are aware,"
+    },
+    {
+     "t0_ms": 1673430,
+     "text": "AI has become useful."
+    },
+    {
+     "t0_ms": 1676170,
+     "text": "And the AI agents that are being adopted everywhere use an enormous amount of compute."
+    },
+    {
+     "t0_ms": 1684490,
+     "text": "First of all, the large language models are larger than ever because they're smarter than ever."
+    },
+    {
+     "t0_ms": 1688670,
+     "text": "And these agents go through reasoning and planning, multiple turns of tool use."
+    },
+    {
+     "t0_ms": 1696510,
+     "text": "The amount of compute necessary for an agent versus a human using it is probably 15%."
+    },
+    {
+     "t0_ms": 1703430,
+     "text": "And that's a hundred times, depending on the type of problem you're trying to solve."
+    },
+    {
+     "t0_ms": 1707150,
+     "text": "And so the amount of compute necessary is just extraordinary."
+    },
+    {
+     "t0_ms": 1710210,
+     "text": "That's a factor that almost everybody sees."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1713570,
+   "t1_ms": 1756110,
+   "speaker": "Management",
+   "text": "The part that people don't see about our growth, because we're practically singular, because of the nature of how we deliver products. I mean, we're the only company in the world that creates and builds, offers an entire AI factory platform, a full stack system. And, you know, customers can still, mix and match. However, most companies just don't have the skills to do that or desire to do that. And so there's an entire part of the market that we experience growth. There's sovereign AI, the original AIs, their neo-clouds, their AI startups, their enterprises, where we're seeing, which represents about half of our business, and that's growing 100% a year.",
+   "parts": [
+    {
+     "t0_ms": 1713570,
+     "text": "The part that people don't see about our growth, because we're practically singular,"
+    },
+    {
+     "t0_ms": 1719590,
+     "text": "because of the nature of how we deliver products."
+    },
+    {
+     "t0_ms": 1722730,
+     "text": "I mean, we're the only company in the world that creates and builds,"
+    },
+    {
+     "t0_ms": 1725710,
+     "text": "offers an entire AI factory platform, a full stack system."
+    },
+    {
+     "t0_ms": 1731690,
+     "text": "And, you know, customers can still,"
+    },
+    {
+     "t0_ms": 1733270,
+     "text": "mix and match."
+    },
+    {
+     "t0_ms": 1734050,
+     "text": "However, most companies just don't have the skills to do that or desire to do that."
+    },
+    {
+     "t0_ms": 1740150,
+     "text": "And so there's an entire part of the market that we experience growth."
+    },
+    {
+     "t0_ms": 1744150,
+     "text": "There's sovereign AI, the original AIs, their neo-clouds, their AI startups, their enterprises,"
+    },
+    {
+     "t0_ms": 1749470,
+     "text": "where we're seeing, which represents about half of our business, and that's growing 100% a year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1756670,
+   "t1_ms": 1796250,
+   "speaker": "Management",
+   "text": "That part of the world's computing is likely to be larger over time than even the AI itself. So, you know, there's a lot of competition. And I think that's a big part of the market. Even what we're currently experiencing in the cloud. And so I think the demand that we see is driven by all of those factors. It is also the case that you can no longer procure technology per se and stand up these infrastructure. You've got to go secure the land power and shell, which, you know, oftentimes is a couple, two, three years out. All of the rest of the supply chain necessary to align the construction, the power, the cooling, you know, all of the labor that's necessary.",
+   "parts": [
+    {
+     "t0_ms": 1756670,
+     "text": "That part of the world's computing is likely to be larger over time"
+    },
+    {
+     "t0_ms": 1762790,
+     "text": "than even the AI itself."
+    },
+    {
+     "t0_ms": 1763030,
+     "text": "So, you know, there's a lot of competition."
+    },
+    {
+     "t0_ms": 1763050,
+     "text": "And I think that's a big part of the market."
+    },
+    {
+     "t0_ms": 1763230,
+     "text": "Even what we're currently experiencing in the cloud."
+    },
+    {
+     "t0_ms": 1766070,
+     "text": "And so I think the demand that we see is driven by all of those factors."
+    },
+    {
+     "t0_ms": 1772230,
+     "text": "It is also the case that you can no longer procure technology per se and stand up these infrastructure."
+    },
+    {
+     "t0_ms": 1780550,
+     "text": "You've got to go secure the land power and shell, which, you know, oftentimes is a couple, two, three years out."
+    },
+    {
+     "t0_ms": 1786850,
+     "text": "All of the rest of the supply chain necessary to align the construction, the power, the cooling,"
+    },
+    {
+     "t0_ms": 1793010,
+     "text": "you know, all of the labor that's necessary."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1796770,
+   "t1_ms": 1834410,
+   "speaker": "Management",
+   "text": "And with AI infrastructures creating so many jobs all over the United States and all around the world, it just takes a lot more planning. And so we're involved in securing infrastructure now further down the pipeline. You know, just as a long time ago, people asked me, why is it that we're working with memory suppliers when we're a chip company? And today people understand it's really quite genius that we were working, you know, we're working on our supply chain so far upstream. We work with power generator companies. We downstream, we work with work with land power and shell companies all around the world.",
+   "parts": [
+    {
+     "t0_ms": 1796770,
+     "text": "And with AI infrastructures creating so many jobs all over the United States and all around the world,"
+    },
+    {
+     "t0_ms": 1802990,
+     "text": "it just takes a lot more planning."
+    },
+    {
+     "t0_ms": 1805270,
+     "text": "And so we're involved in securing infrastructure now further down the pipeline."
+    },
+    {
+     "t0_ms": 1811270,
+     "text": "You know, just as a long time ago, people asked me,"
+    },
+    {
+     "t0_ms": 1814090,
+     "text": "why is it that we're working with memory suppliers when we're a chip company?"
+    },
+    {
+     "t0_ms": 1818810,
+     "text": "And today people understand it's really quite genius that we were working,"
+    },
+    {
+     "t0_ms": 1822970,
+     "text": "you know, we're working on our supply chain so far upstream."
+    },
+    {
+     "t0_ms": 1825270,
+     "text": "We work with power generator companies."
+    },
+    {
+     "t0_ms": 1827570,
+     "text": "We downstream, we work with work with land power and shell companies all around the world."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1834630,
+   "t1_ms": 1879630,
+   "speaker": "Management",
+   "text": "And that helps prepare all of this computing that's going to be built that will ultimately deploy for our ecosystem and our customers. And so we just have a lot greater visibility now upstream and downstream. It is the case that we've never forecasted or never guided. To a year in advance. And and even though our demand is much greater than 70 percent, our supply allows us to confidently deliver 70 percent. And we're going to continue to work with our supply chain to increase on that. But what we wanted to do is to be consistent with everybody from our customers, our shareholders, our supply chain. Everybody sees the same view.",
+   "parts": [
+    {
+     "t0_ms": 1834630,
+     "text": "And that helps prepare all of this computing that's going to be built that will ultimately deploy for our ecosystem and our customers."
+    },
+    {
+     "t0_ms": 1842830,
+     "text": "And so we just have a lot greater visibility now upstream and downstream."
+    },
+    {
+     "t0_ms": 1848530,
+     "text": "It is the case that we've never forecasted or never guided."
+    },
+    {
+     "t0_ms": 1852970,
+     "text": "To a year in advance."
+    },
+    {
+     "t0_ms": 1857090,
+     "text": "And and even though our demand is much greater than 70 percent,"
+    },
+    {
+     "t0_ms": 1861470,
+     "text": "our supply allows us to confidently deliver 70 percent."
+    },
+    {
+     "t0_ms": 1866010,
+     "text": "And we're going to continue to work with our supply chain to increase on that."
+    },
+    {
+     "t0_ms": 1869430,
+     "text": "But what we wanted to do is to be consistent with everybody from our customers, our shareholders, our supply chain."
+    },
+    {
+     "t0_ms": 1877650,
+     "text": "Everybody sees the same view."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1880350,
+   "t1_ms": 1896890,
+   "speaker": "Management",
+   "text": "And the reason why that's important is because, you know, everybody's putting a lot of resources at play. And so we wanted to make sure that everybody has the same set of information. And we've got a huge year coming up next year. And and it's going to be pretty extraordinary.",
+   "parts": [
+    {
+     "t0_ms": 1880350,
+     "text": "And the reason why that's important is because, you know,"
+    },
+    {
+     "t0_ms": 1882750,
+     "text": "everybody's putting a lot of resources at play."
+    },
+    {
+     "t0_ms": 1885730,
+     "text": "And so we wanted to make sure that everybody has the same set of information."
+    },
+    {
+     "t0_ms": 1890430,
+     "text": "And we've got a huge year coming up next year."
+    },
+    {
+     "t0_ms": 1894130,
+     "text": "And and it's going to be pretty extraordinary."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1901800,
+   "t1_ms": 1907600,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of CJ Muse with Cancer Fitzgerald. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1901800,
+     "text": "Your next question comes from the line of CJ Muse with Cancer Fitzgerald."
+    },
+    {
+     "t0_ms": 1906580,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1909080,
+   "t1_ms": 1933680,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thank you for taking the question. There's tremendous investor focus on your inference market share. Can you speak to the evolving workforce? You're seeing with the genetic AI and how you see your share evolving here over time, particularly when you reflect on the growing value of the TAM you're seeing with each new full stack generation, your expectation for greater growth from ACIE and then also including Grok three LPS. We'd love to hear your thoughts.",
+   "parts": [
+    {
+     "t0_ms": 1909080,
+     "text": "Yeah, good afternoon."
+    },
+    {
+     "t0_ms": 1909860,
+     "text": "Thank you for taking the question."
+    },
+    {
+     "t0_ms": 1911700,
+     "text": "There's tremendous investor focus on your inference market share."
+    },
+    {
+     "t0_ms": 1914700,
+     "text": "Can you speak to the evolving workforce?"
+    },
+    {
+     "t0_ms": 1916780,
+     "text": "You're seeing with the genetic AI and how you see your share evolving here over time,"
+    },
+    {
+     "t0_ms": 1921400,
+     "text": "particularly when you reflect on the growing value of the TAM you're seeing with each new full stack generation,"
+    },
+    {
+     "t0_ms": 1926980,
+     "text": "your expectation for greater growth from ACIE and then also including Grok three LPS."
+    },
+    {
+     "t0_ms": 1932560,
+     "text": "We'd love to hear your thoughts."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1935160,
+   "t1_ms": 1977840,
+   "speaker": "Management",
+   "text": "Yeah, thanks, CJ. The AI lifecycle is getting way more complex than it used to be. And and it's playing. You know, into NVIDIA's architecture much, much more greatly than it used to be. And and so you could kind of see it as four phases. You know, there's the first phase, which is preparing all of the data that you need. Some of it is synthetic. Some of it is real. Some of it is human labor and human labeled and generated pre-trained the models. And then there's post-training the third phase. And then there's the agentic inference and agentic inference is extremely important. Yeah. Yeah. Extremely complicated. And so every one of those phases are complicated.",
+   "parts": [
+    {
+     "t0_ms": 1935160,
+     "text": "Yeah, thanks, CJ."
+    },
+    {
+     "t0_ms": 1936700,
+     "text": "The AI lifecycle is getting way more complex than it used to be."
+    },
+    {
+     "t0_ms": 1942700,
+     "text": "And and it's playing."
+    },
+    {
+     "t0_ms": 1944080,
+     "text": "You know, into NVIDIA's architecture much, much more greatly than it used to be."
+    },
+    {
+     "t0_ms": 1950440,
+     "text": "And and so you could kind of see it as four phases."
+    },
+    {
+     "t0_ms": 1953800,
+     "text": "You know, there's the first phase, which is preparing all of the data that you need."
+    },
+    {
+     "t0_ms": 1958300,
+     "text": "Some of it is synthetic."
+    },
+    {
+     "t0_ms": 1959320,
+     "text": "Some of it is real."
+    },
+    {
+     "t0_ms": 1960360,
+     "text": "Some of it is human labor and human labeled and generated pre-trained the models."
+    },
+    {
+     "t0_ms": 1965500,
+     "text": "And then there's post-training the third phase."
+    },
+    {
+     "t0_ms": 1968440,
+     "text": "And then there's the agentic inference and agentic inference is extremely important."
+    },
+    {
+     "t0_ms": 1973480,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1973780,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1974080,
+     "text": "Extremely complicated."
+    },
+    {
+     "t0_ms": 1975380,
+     "text": "And so every one of those phases are complicated."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1977840,
+   "t1_ms": 2010400,
+   "speaker": "Management",
+   "text": "The thing that's really great about the NVIDIA architecture and we created this with MVLink 72. It was a big surprise on the world when we first created the first the world's first rack scale architecture. It was it was it was hardly easy and it was very challenging building the first generation. We're now in our third generation of MVLink 72 rack scale systems. We had to reinvent the entire supply chain. Reinvent. We had to reinvent the technology. We had to reinvent the technology. We had to reinvent the technology. We had to reinvent the technology. We had to reinvent the technology. Redistribute our software. Refactor our software. Everything. Every aspect of it was hard.",
+   "parts": [
+    {
+     "t0_ms": 1977840,
+     "text": "The thing that's really great about the NVIDIA architecture and we created this with MVLink 72."
+    },
+    {
+     "t0_ms": 1985200,
+     "text": "It was a big surprise on the world when we first created the first the world's first rack scale architecture."
+    },
+    {
+     "t0_ms": 1991680,
+     "text": "It was it was it was hardly easy and it was very challenging building the first generation."
+    },
+    {
+     "t0_ms": 1997900,
+     "text": "We're now in our third generation of MVLink 72 rack scale systems."
+    },
+    {
+     "t0_ms": 2001880,
+     "text": "We had to reinvent the entire supply chain."
+    },
+    {
+     "t0_ms": 2003780,
+     "text": "Reinvent."
+    },
+    {
+     "t0_ms": 2004080,
+     "text": "We had to reinvent the technology."
+    },
+    {
+     "t0_ms": 2005780,
+     "text": "We had to reinvent the technology."
+    },
+    {
+     "t0_ms": 2005860,
+     "text": "We had to reinvent the technology."
+    },
+    {
+     "t0_ms": 2005900,
+     "text": "We had to reinvent the technology."
+    },
+    {
+     "t0_ms": 2005960,
+     "text": "We had to reinvent the technology."
+    },
+    {
+     "t0_ms": 2006020,
+     "text": "Redistribute our software."
+    },
+    {
+     "t0_ms": 2007660,
+     "text": "Refactor our software."
+    },
+    {
+     "t0_ms": 2008760,
+     "text": "Everything."
+    },
+    {
+     "t0_ms": 2009300,
+     "text": "Every aspect of it was hard."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2011080,
+   "t1_ms": 2052540,
+   "speaker": "Management",
+   "text": "But what it allowed us to do was to create one fungible system that allows us to transition from data creation, data preparation, the pre-training, the post-training to agentic inference. The benefits to customers is incredible. And the reason for that is because you've just spent, you know, and we just mentioned. Each gigawatt of technology and videos revenue exposure in the hopper timeframe with hopper plus infinite band. And now there are Ruben and CPU and three types of different networking because it takes that many types of networking to address the entire world's data center.",
+   "parts": [
+    {
+     "t0_ms": 2011080,
+     "text": "But what it allowed us to do was to create one fungible system that allows us to transition from data creation, data preparation, the pre-training, the post-training to agentic inference."
+    },
+    {
+     "t0_ms": 2026760,
+     "text": "The benefits to customers is incredible."
+    },
+    {
+     "t0_ms": 2029060,
+     "text": "And the reason for that is because you've just spent, you know, and we just mentioned."
+    },
+    {
+     "t0_ms": 2032920,
+     "text": "Each gigawatt of technology and videos revenue exposure in the hopper timeframe with hopper plus infinite band."
+    },
+    {
+     "t0_ms": 2043120,
+     "text": "And now there are Ruben and CPU and three types of different networking because it takes that many types of networking to address the entire world's data center."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2052739,
+   "t1_ms": 2096679,
+   "speaker": "Management",
+   "text": "Not to mention the scale in security networking and the scale across multi-campus networking. So you could you could argue five different types of networking systems. And then, of course. And all of that increased our revenue contribution or revenue opportunity per gigawatt to $40 billion. So each gigawatt of data center increased from, say, $30 billion about five years ago to now $60 billion today. Of course, the productivity is tremendous. The performance is incredible. Incredible. And the cost of the data is incredible. And the cost of the data is incredible. But you're talking about a $60 billion investment.",
+   "parts": [
+    {
+     "t0_ms": 2052739,
+     "text": "Not to mention the scale in security networking and the scale across multi-campus networking."
+    },
+    {
+     "t0_ms": 2058699,
+     "text": "So you could you could argue five different types of networking systems."
+    },
+    {
+     "t0_ms": 2062100,
+     "text": "And then, of course."
+    },
+    {
+     "t0_ms": 2062920,
+     "text": "And all of that increased our revenue contribution or revenue opportunity per gigawatt to $40 billion."
+    },
+    {
+     "t0_ms": 2073340,
+     "text": "So each gigawatt of data center increased from, say, $30 billion about five years ago to now $60 billion today."
+    },
+    {
+     "t0_ms": 2086980,
+     "text": "Of course, the productivity is tremendous."
+    },
+    {
+     "t0_ms": 2089900,
+     "text": "The performance is incredible."
+    },
+    {
+     "t0_ms": 2092320,
+     "text": "Incredible."
+    },
+    {
+     "t0_ms": 2092920,
+     "text": "And the cost of the data is incredible."
+    },
+    {
+     "t0_ms": 2093920,
+     "text": "And the cost of the data is incredible."
+    },
+    {
+     "t0_ms": 2093960,
+     "text": "But you're talking about a $60 billion investment."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2097740,
+   "t1_ms": 2140120,
+   "speaker": "Management",
+   "text": "And to the extent that you could you could use it across multiple phases of the AI lifecycle, run every single type of model you can imagine running on it, whether it's diffusion or autoregressive or state space or some hybrid version of that. Every version of attention mechanism you can think of small or large models. The light that the the the the the investment that you make will be preserved and useful and productive for a lot longer time. And so so I think our our advantage in this new world is really quite extraordinary. And it could explain, you know, why it is that our growth is actually accelerating.",
+   "parts": [
+    {
+     "t0_ms": 2097740,
+     "text": "And to the extent that you could you could use it across multiple phases of the AI lifecycle, run every single type of model you can imagine running on it, whether it's diffusion or autoregressive or state space or some hybrid version of that."
+    },
+    {
+     "t0_ms": 2113860,
+     "text": "Every version of attention mechanism you can think of small or large models."
+    },
+    {
+     "t0_ms": 2119160,
+     "text": "The light that the the the the the investment that you make will be preserved and useful and productive for a lot longer time."
+    },
+    {
+     "t0_ms": 2130100,
+     "text": "And so so I think our our advantage in this new world is really quite extraordinary."
+    },
+    {
+     "t0_ms": 2135340,
+     "text": "And it could explain, you know, why it is that our growth is actually accelerating."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2140680,
+   "t1_ms": 2182480,
+   "speaker": "Management",
+   "text": "It was already large, but now it's accelerating. Let's see. You asked about Grok. Grok. Grok. Grok. Grok. Super excited about Grok 3. We achieved a record token interactive, interactive, interactivity rate, extremely low latency performance generation. The team is doing fantastically. We spent the last several months fusing the MVLink architecture, which will be the core and it'll be the core engine. And then for for services that would like to have super high interactivity. Super high speed token generation done.",
+   "parts": [
+    {
+     "t0_ms": 2140680,
+     "text": "It was already large, but now it's accelerating."
+    },
+    {
+     "t0_ms": 2145880,
+     "text": "Let's see."
+    },
+    {
+     "t0_ms": 2146600,
+     "text": "You asked about Grok."
+    },
+    {
+     "t0_ms": 2148280,
+     "text": "Grok."
+    },
+    {
+     "t0_ms": 2148320,
+     "text": "Grok."
+    },
+    {
+     "t0_ms": 2148520,
+     "text": "Grok."
+    },
+    {
+     "t0_ms": 2149000,
+     "text": "Grok."
+    },
+    {
+     "t0_ms": 2149160,
+     "text": "Super excited about Grok 3."
+    },
+    {
+     "t0_ms": 2152100,
+     "text": "We achieved a record token interactive, interactive, interactivity rate, extremely low latency performance generation."
+    },
+    {
+     "t0_ms": 2161360,
+     "text": "The team is doing fantastically."
+    },
+    {
+     "t0_ms": 2163340,
+     "text": "We spent the last several months fusing the MVLink architecture, which will be the core and it'll be the core engine."
+    },
+    {
+     "t0_ms": 2173220,
+     "text": "And then for for services that would like to have super high interactivity."
+    },
+    {
+     "t0_ms": 2179160,
+     "text": "Super high speed token generation done."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2182480,
+   "t1_ms": 2204960,
+   "speaker": "Management",
+   "text": "The throughput is going to be a lot lower. The cost per token will be higher. But you could you could associate it with high ASP services. And so for those companies you could bolt on one of our Grok accelerators. I'm super excited about that. But the vast majority of the world's data centers will just be Vera-Rubin MVLink 72.",
+   "parts": [
+    {
+     "t0_ms": 2182480,
+     "text": "The throughput is going to be a lot lower."
+    },
+    {
+     "t0_ms": 2185880,
+     "text": "The cost per token will be higher."
+    },
+    {
+     "t0_ms": 2188660,
+     "text": "But you could you could associate it with high ASP services."
+    },
+    {
+     "t0_ms": 2193980,
+     "text": "And so for those companies you could bolt on one of our Grok accelerators."
+    },
+    {
+     "t0_ms": 2198680,
+     "text": "I'm super excited about that."
+    },
+    {
+     "t0_ms": 2199940,
+     "text": "But the vast majority of the world's data centers will just be Vera-Rubin MVLink 72."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2204960,
+   "t1_ms": 2217210,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Stacy Rasgon with Bernie. I'm gonna ask the question. Raskon with Bernstein Research. Your line is open. Hi, guys. Thanks for taking my question.",
+   "parts": [
+    {
+     "t0_ms": 2204960,
+     "text": "Your next question comes from the line of Stacy Rasgon with Bernie."
+    },
+    {
+     "t0_ms": 2210190,
+     "text": "I'm gonna ask the question."
+    },
+    {
+     "t0_ms": 2211130,
+     "text": "Raskon with Bernstein Research. Your line is open. Hi, guys. Thanks for taking my question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2217870,
+   "t1_ms": 2257070,
+   "speaker": "Analyst",
+   "text": "So the 70% growth in fiscal 28, which I guess is sort of calendar 27, so that's something like, I don't know, a $200 billion uptick versus the prior outlook, if I back it up. The prior outlook was a trillion dollars over the three years, so this is probably $200 billion more. I was just wondering if you could talk us through the contributors to that increase across the different products, Avira and CPUs and Grok and everything else. And also, you talked about your price increase that takes effect in Q1, so I assume some of this is pricing. And I guess I'm also curious, maybe I'm squeezing too many questions in here, but I'm also curious, it's a constrained number. What would it be",
+   "parts": [
+    {
+     "t0_ms": 2217870,
+     "text": "So the 70% growth in fiscal 28, which I guess is sort of calendar 27,"
+    },
+    {
+     "t0_ms": 2224570,
+     "text": "so that's something like, I don't know, a $200 billion uptick versus the prior outlook,"
+    },
+    {
+     "t0_ms": 2230790,
+     "text": "if I back it up. The prior outlook was a trillion dollars over the three years,"
+    },
+    {
+     "t0_ms": 2233750,
+     "text": "so this is probably $200 billion more. I was just wondering if you could talk us through"
+    },
+    {
+     "t0_ms": 2237470,
+     "text": "the contributors to that increase across the different products, Avira and CPUs and"
+    },
+    {
+     "t0_ms": 2243170,
+     "text": "Grok and everything else. And also, you talked about your price increase that takes effect in"
+    },
+    {
+     "t0_ms": 2247350,
+     "text": "Q1, so I assume some of this is pricing. And I guess I'm also curious, maybe I'm squeezing too"
+    },
+    {
+     "t0_ms": 2253230,
+     "text": "many questions in here, but I'm also curious, it's a constrained number. What would it be"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2257070,
+   "t1_ms": 2300060,
+   "speaker": "Management",
+   "text": "if it wasn't constrained? The unconstrained would be a lot higher. We grew 100%. 100% year over year. This year, the unconstrained is significant. And so we're just going to have to go work hard to get more capacity. And we have a large supply chain. We have a really gigantic supply chain. And so we have incredible partners, and we've secured a lot of supply, but we just need a lot more. To break it down, the way to think about that is most people see just the supply chain as a whole. And so we have a really gigantic supply chain. And so we have",
+   "parts": [
+    {
+     "t0_ms": 2257070,
+     "text": "if it wasn't constrained? The unconstrained would be a lot higher."
+    },
+    {
+     "t0_ms": 2269280,
+     "text": "We grew 100%."
+    },
+    {
+     "t0_ms": 2270080,
+     "text": "100% year over year. This year, the unconstrained is significant. And so we're just going to have"
+    },
+    {
+     "t0_ms": 2279080,
+     "text": "to go work hard to get more capacity. And we have a large supply chain. We have a really gigantic"
+    },
+    {
+     "t0_ms": 2286460,
+     "text": "supply chain. And so we have incredible partners, and we've secured a lot of supply,"
+    },
+    {
+     "t0_ms": 2292340,
+     "text": "but we just need a lot more. To break it down, the way to think about that is most people see"
+    },
+    {
+     "t0_ms": 2299280,
+     "text": "just the supply chain as a whole. And so we have a really gigantic supply chain. And so we have"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2300080,
+   "t1_ms": 2340720,
+   "speaker": "Management",
+   "text": "hyper scalers. And that's half of the picture. The other half of the picture is what we call AC. And that's all the enterprise, the neo clouds, the sovereign AIs. That part of the world is invisible to everybody. And the reason for that is because they don't buy custom chips. They don't buy chips one at a time. They really need an entire factory platform built for them. And so that's... That's a space that we add just a tremendous amount of value. Now, of course, back in this hyperscale space, that's growing incredibly too, right? You know that they now have backlogs of",
+   "parts": [
+    {
+     "t0_ms": 2300080,
+     "text": "hyper scalers. And that's half of the picture. The other half of the picture is what we call AC."
+    },
+    {
+     "t0_ms": 2309180,
+     "text": "And that's all the enterprise, the neo clouds, the sovereign AIs. That part of the world is"
+    },
+    {
+     "t0_ms": 2316520,
+     "text": "invisible to everybody. And the reason for that is because they don't buy custom chips. They don't"
+    },
+    {
+     "t0_ms": 2322000,
+     "text": "buy chips one at a time. They really need an entire factory platform built for them."
+    },
+    {
+     "t0_ms": 2328960,
+     "text": "And so that's..."
+    },
+    {
+     "t0_ms": 2330080,
+     "text": "That's a space that we add just a tremendous amount of value. Now, of course, back in this"
+    },
+    {
+     "t0_ms": 2335180,
+     "text": "hyperscale space, that's growing incredibly too, right? You know that they now have backlogs of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2340720,
+   "t1_ms": 2379720,
+   "speaker": "Management",
+   "text": "$2 trillion. You know that when they stand up and video compute, when that happens, their revenues go up, their earnings contribution go up. Compute is profitable, very profitable today. And compute directly translates into increased revenues. And so there's a... There's a race to want to bring more NVIDIA compute online, both at the hyperscalers. But what you don't see is just really tremendous opportunities outside of the hyperscalers. But the other part of it is... And it's the reason why, you know, we mapped it out for you. In the case of Hopper, we were at",
+   "parts": [
+    {
+     "t0_ms": 2340720,
+     "text": "$2 trillion. You know that when they stand up and video compute, when that happens,"
+    },
+    {
+     "t0_ms": 2347660,
+     "text": "their revenues go up, their earnings contribution go up. Compute is profitable,"
+    },
+    {
+     "t0_ms": 2353320,
+     "text": "very profitable today. And compute directly translates into increased revenues. And so"
+    },
+    {
+     "t0_ms": 2359000,
+     "text": "there's a..."
+    },
+    {
+     "t0_ms": 2360080,
+     "text": "There's a race to want to bring more NVIDIA compute online, both at the hyperscalers. But what you don't"
+    },
+    {
+     "t0_ms": 2366760,
+     "text": "see is just really tremendous opportunities outside of the hyperscalers. But the other part of it is..."
+    },
+    {
+     "t0_ms": 2374620,
+     "text": "And it's the reason why, you know, we mapped it out for you. In the case of Hopper, we were at"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2379720,
+   "t1_ms": 2419920,
+   "speaker": "Management",
+   "text": "about $18 billion per gigawatt. For Grace Blackwell, we're about $25 billion per gigawatt. And for Vera Rubin, it's about $40 billion per gigawatt. And the productivity is, you know, X factors increase in each generation. And so customers want to race to the next generation as fast as they can. Meanwhile, because NVIDIA's compute is so productive, the tokens they're generating, the GPU hours they're renting out is insanely profitable, as you know. Their margins are fantastic. And so... And so...",
+   "parts": [
+    {
+     "t0_ms": 2379720,
+     "text": "about $18 billion per gigawatt. For Grace Blackwell, we're about $25 billion per gigawatt."
+    },
+    {
+     "t0_ms": 2386580,
+     "text": "And for Vera Rubin, it's about $40 billion per gigawatt."
+    },
+    {
+     "t0_ms": 2390080,
+     "text": "And the productivity is, you know, X factors increase in each generation. And so customers"
+    },
+    {
+     "t0_ms": 2399740,
+     "text": "want to race to the next generation as fast as they can. Meanwhile, because NVIDIA's compute"
+    },
+    {
+     "t0_ms": 2407400,
+     "text": "is so productive, the tokens they're generating, the GPU hours they're renting out is insanely"
+    },
+    {
+     "t0_ms": 2414540,
+     "text": "profitable, as you know. Their margins are fantastic. And so..."
+    },
+    {
+     "t0_ms": 2419080,
+     "text": "And so..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2420080,
+   "t1_ms": 2461780,
+   "speaker": "Management",
+   "text": "So all of that is just simultaneously happening. I think the big picture is that we're going through this platform shift, and it affects every computer company. And every industry in the world uses computers. So therefore, every industry is affected. Every company is affected. And this new way of doing computing is intelligent. It's not based on retrieval of files, but it's now generative, generating intelligence. And that requires compute, but the results you get is phenomenal. The results you get is tremendously better. And so, you know, we're just seeing that across the world. Everybody wants to be part of the AI revolution.",
+   "parts": [
+    {
+     "t0_ms": 2420080,
+     "text": "So all of that is just simultaneously happening. I think the big picture is that we're going"
+    },
+    {
+     "t0_ms": 2425960,
+     "text": "through this platform shift, and it affects every computer company. And every industry"
+    },
+    {
+     "t0_ms": 2432560,
+     "text": "in the world uses computers. So therefore, every industry is affected. Every company is affected."
+    },
+    {
+     "t0_ms": 2438780,
+     "text": "And this new way of doing computing is intelligent. It's not based on retrieval"
+    },
+    {
+     "t0_ms": 2444620,
+     "text": "of files, but it's now generative, generating intelligence. And that requires compute,"
+    },
+    {
+     "t0_ms": 2450080,
+     "text": "but the results you get is phenomenal. The results you get is tremendously better. And so,"
+    },
+    {
+     "t0_ms": 2455840,
+     "text": "you know, we're just seeing that across the world. Everybody wants to be part of the AI revolution."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2461780,
+   "t1_ms": 2467600,
+   "speaker": "Management",
+   "text": "Everybody will have to be part of this computing shift, and everybody has to build infrastructure.",
+   "parts": [
+    {
+     "t0_ms": 2461780,
+     "text": "Everybody will have to be part of this computing shift, and everybody has to build infrastructure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2467600,
+   "t1_ms": 2478870,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Vivek Arya with Bank of America Securities. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2467600,
+     "text": "Your next question comes from the line of Vivek Arya with Bank of America Securities."
+    },
+    {
+     "t0_ms": 2477710,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2478870,
+   "t1_ms": 2521150,
+   "speaker": "Analyst",
+   "text": "Thanks for taking my question. And thanks for providing all the transparency. I'm going to ask you a question. Sure. Sure. So, you know, I think the question is, you know, we're talking about the transparency and all the commitments and guarantees that you have for a number of years. When I just, you know, add up everything that's in the CFO commentary, I get to a number of about 500 billion or so, obviously, over the next several years. So I had a few questions related to that. First is, is that the takeaway, that the sum of all your ecosystem investments over the next several years is in that ballpark? Or are there other equity or other investments that could still be ahead? That's one. Secondly, if there is a specific cash part of that, that we should think about in fiscal 28. And then, Jensen, a lot of these",
+   "parts": [
+    {
+     "t0_ms": 2478870,
+     "text": "Thanks for taking my question. And thanks for providing all the transparency. I'm going"
+    },
+    {
+     "t0_ms": 2481210,
+     "text": "to ask you a question."
+    },
+    {
+     "t0_ms": 2482210,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2483210,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2484210,
+     "text": "So, you know, I think the question is, you know, we're talking about the"
+    },
+    {
+     "t0_ms": 2487210,
+     "text": "transparency and all the commitments and guarantees that you have for a number of years."
+    },
+    {
+     "t0_ms": 2488210,
+     "text": "When I just, you know, add up everything that's in the CFO commentary, I get to a number of"
+    },
+    {
+     "t0_ms": 2492910,
+     "text": "about 500 billion or so, obviously, over the next several years. So I had a few questions"
+    },
+    {
+     "t0_ms": 2498390,
+     "text": "related to that. First is, is that the takeaway, that the sum of all your ecosystem investments"
+    },
+    {
+     "t0_ms": 2504710,
+     "text": "over the next several years is in that ballpark? Or are there other equity or other investments"
+    },
+    {
+     "t0_ms": 2509550,
+     "text": "that could still be ahead? That's one."
+    },
+    {
+     "t0_ms": 2512210,
+     "text": "Secondly, if there is a specific cash"
+    },
+    {
+     "t0_ms": 2514210,
+     "text": "part of that, that we should think about in fiscal 28. And then, Jensen, a lot of these"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2521150,
+   "t1_ms": 2547670,
+   "speaker": "Analyst",
+   "text": "investments are, you know, designed to help the frontier labs, especially OpenAI and Anthropix. But both of them are designing their own custom chips. In fact, OpenAI just, you know, in the last few days spoke about jalapeno and their claims about being better than Blackwell and so forth. So how are you balancing this dynamic where you want to invest a lot of the ecosystem, but part of that ecosystem wants to develop a new ecosystem? Yeah, absolutely. So we have a lot of the industry that wants to develop competitive solutions. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2521150,
+     "text": "investments are, you know, designed to help the frontier labs, especially OpenAI and Anthropix."
+    },
+    {
+     "t0_ms": 2528190,
+     "text": "But both of them are designing their own custom chips. In fact, OpenAI just, you know, in"
+    },
+    {
+     "t0_ms": 2532350,
+     "text": "the last few days spoke about jalapeno and their claims about being better than Blackwell"
+    },
+    {
+     "t0_ms": 2536890,
+     "text": "and so forth. So how are you balancing this dynamic where you want to invest a lot of"
+    },
+    {
+     "t0_ms": 2541050,
+     "text": "the ecosystem, but part of that ecosystem wants to develop a new ecosystem?"
+    },
+    {
+     "t0_ms": 2542210,
+     "text": "Yeah, absolutely."
+    },
+    {
+     "t0_ms": 2543210,
+     "text": "So we have a lot of the industry that wants to develop competitive solutions. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2547670,
+   "t1_ms": 2579170,
+   "speaker": "Management",
+   "text": "Well, we're building something very different. You know, whereas many of these XPUs are inference-specific chips for one cloud or one service, NVIDIA is a platform, an entire AI factory platform that spans the entire AI lifecycle. Yeah. We build a wonderful world that you can use in any cloud, it's in every cloud. You can",
+   "parts": [
+    {
+     "t0_ms": 2547670,
+     "text": "Well, we're building something very different. You know, whereas many of these XPUs are inference-specific"
+    },
+    {
+     "t0_ms": 2557990,
+     "text": "chips for one cloud or one service, NVIDIA is a platform, an entire AI factory platform"
+    },
+    {
+     "t0_ms": 2569390,
+     "text": "that spans the entire AI lifecycle."
+    },
+    {
+     "t0_ms": 2572150,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2573210,
+     "text": "We build a wonderful world that you can use in any cloud, it's in every cloud. You can"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2579170,
+   "t1_ms": 2614280,
+   "speaker": "Management",
+   "text": "run anywhere, we'll help you set it up anywhere. And so we built something very different. All of the AI services at some point are going to want to go around the world, and those data centers won't necessarily be just built by them. Nice. And, and also, you know, I fully expect, and so they're, they're going to run, and I think they're going to run on NVIDIA all around the world.",
+   "parts": [
+    {
+     "t0_ms": 2579170,
+     "text": "run anywhere, we'll help you set it up anywhere. And so we built something very different."
+    },
+    {
+     "t0_ms": 2593380,
+     "text": "All of the AI services at some point are going to want to go around the world, and those"
+    },
+    {
+     "t0_ms": 2599740,
+     "text": "data centers won't necessarily be just built by them."
+    },
+    {
+     "t0_ms": 2603660,
+     "text": "Nice."
+    },
+    {
+     "t0_ms": 2604620,
+     "text": "And, and also, you know, I fully expect, and so they're, they're going to run, and I think they're going to run on NVIDIA all around the world."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2614280,
+   "t1_ms": 2643380,
+   "speaker": "Management",
+   "text": "And, and of course, I think our technology, I have 100% confidence that our technology will continue to be extraordinary for them. And that the economics of using our technology, you know, whether it's from data processing to, to training, to post training, to agentic processing, our technology is going to be extraordinary for them, they're going to use it. And so I'm very confident that they're going to be customers and partners of ours for a very long time. Now, having said that, taking a step backwards.",
+   "parts": [
+    {
+     "t0_ms": 2614280,
+     "text": "And, and of course, I think our technology, I have 100% confidence that our technology will continue to be extraordinary for them. And that the economics of using our technology, you know, whether it's from data processing to, to training, to post training, to agentic processing, our technology is going to be extraordinary for them, they're going to use it. And so I'm very confident that they're going to be customers and partners of ours for a very long time."
+    },
+    {
+     "t0_ms": 2641360,
+     "text": "Now, having said that, taking a step backwards."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2644280,
+   "t1_ms": 2674260,
+   "speaker": "Management",
+   "text": "So investing in these two companies, or there are several AI labs that we've invested in, investing in these companies are once in a generation opportunity. I think the only regret that I have is that I didn't invest more and sooner. And both of the two of the companies will likely go public soon, and others will follow. And these will be some of the most consequential technology companies in history. And so I'm delighted to be friend to be their friend. I'm delighted to partner with them. I'm delighted to partner with them.",
+   "parts": [
+    {
+     "t0_ms": 2644280,
+     "text": "So investing in these two companies, or there are several AI labs that we've invested in, investing in these companies are once in a generation opportunity. I think the only regret that I have is that I didn't invest more and sooner. And both of the two of the companies will likely go public soon, and others will follow."
+    },
+    {
+     "t0_ms": 2665840,
+     "text": "And these will be some of the most consequential technology companies in history. And so I'm delighted to be friend to be their friend. I'm delighted to partner with them."
+    },
+    {
+     "t0_ms": 2674240,
+     "text": "I'm delighted to partner with them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2674280,
+   "t1_ms": 2704240,
+   "speaker": "Management",
+   "text": "I'm delighted that they're building an ecosystem on top of the NVIDIA architecture. I'm delighted that that there's they're counting on us to scale up. And I, I have 100% confidence that, you know, through through quite a long period of time, they're going to be utilizing NVIDIA compute for a lot of their computing. And so I feel great about it. So Vivek, let me add a little bit more regarding the commitments and the portion with which we're going to be using the technology.",
+   "parts": [
+    {
+     "t0_ms": 2674280,
+     "text": "I'm delighted that they're building an ecosystem on top of the NVIDIA architecture. I'm delighted that that there's they're counting on us to scale up. And I, I have 100% confidence that, you know, through through quite a long period of time, they're going to be utilizing NVIDIA compute for a lot of their computing. And so I feel great about it."
+    },
+    {
+     "t0_ms": 2699140,
+     "text": "So Vivek, let me add a little bit more regarding the commitments and the portion with which we're going to be using the technology."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2704240,
+   "t1_ms": 2738980,
+   "speaker": "Management",
+   "text": "So Vivek, let me add a little bit more regarding the commitments and the portion with which we're going to be using the technology.",
+   "parts": [
+    {
+     "t0_ms": 2704240,
+     "text": "So Vivek, let me add a little bit more regarding the commitments and the portion with which we're going to be using the technology."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2739000,
+   "t1_ms": 2744920,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Timothy Arcuri with UBS. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2739000,
+     "text": "Your next question comes from the line of Timothy Arcuri with UBS. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2746160,
+   "t1_ms": 2774960,
+   "speaker": "Analyst",
+   "text": "Hi, thanks a lot. Jensen, I want to ask about open source. There's a lot of talk about that these models could gain share for workload in the US. You're obviously well positioned with Nemotron. But on the other hand, a lot of the end demand is being driven by these big frontier model companies. So there's a lot of investors that equate open models as being negative for the growth of those companies. So how do you see that? How do you sort of put in take that do you see the rise of open models as being good for NVIDIA or ultimately negative? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2746160,
+     "text": "Hi, thanks a lot. Jensen, I want to ask about open source. There's a lot of talk about that these models could gain share for workload in the US. You're obviously well positioned with Nemotron. But on the other hand, a lot of the end demand is being driven by these big frontier model companies. So there's a lot of investors that equate open models as being negative for the growth of those companies."
+    },
+    {
+     "t0_ms": 2768400,
+     "text": "So how do you see that?"
+    },
+    {
+     "t0_ms": 2768960,
+     "text": "How do you sort of put in take that do you see the rise of open models as being good for NVIDIA or ultimately negative? Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2777310,
+   "t1_ms": 2822140,
+   "speaker": "Management",
+   "text": "The world will need both closed models and open models. And both closed models and open models are skyrocketing in use. Near most I would say nearly all open models run on NVIDIA. And the reason for that is because NVIDIA's footprint around the world is the highest. And our architecture is the most fungible. It's everywhere. It's in PCs and edge devices like DGX Spark, which is doing great. All the way to robots and workstations and your on-prem data centers.",
+   "parts": [
+    {
+     "t0_ms": 2777310,
+     "text": "The world will need both closed models and open models. And both closed models and open models are skyrocketing in use."
+    },
+    {
+     "t0_ms": 2794500,
+     "text": "Near most I would say nearly all open models run on NVIDIA."
+    },
+    {
+     "t0_ms": 2799460,
+     "text": "And the reason for that is because NVIDIA's footprint around the world"
+    },
+    {
+     "t0_ms": 2803060,
+     "text": "is the highest."
+    },
+    {
+     "t0_ms": 2806140,
+     "text": "And our architecture is the most fungible."
+    },
+    {
+     "t0_ms": 2810840,
+     "text": "It's everywhere."
+    },
+    {
+     "t0_ms": 2812380,
+     "text": "It's in PCs and edge devices like DGX Spark, which is doing great."
+    },
+    {
+     "t0_ms": 2817360,
+     "text": "All the way to robots and workstations and your on-prem data centers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2823600,
+   "t1_ms": 2862740,
+   "speaker": "Management",
+   "text": "Open models are doing incredibly well. You know, closed models we know are doing incredibly well. The frontier labs, their scales, their sales are skyrocketing. Their margins are fantastic. They're generating profitable tokens. They're only limited by the amount of compute. That is equally true for open models. And our position in open models is very good, you know, because the CUDA ecosystem is literally everywhere. The open model open models are also foundational to just about every AI startup and every enterprise company around the world. It's vital to them.",
+   "parts": [
+    {
+     "t0_ms": 2823600,
+     "text": "Open models are doing incredibly well."
+    },
+    {
+     "t0_ms": 2826660,
+     "text": "You know, closed models we know are doing incredibly well."
+    },
+    {
+     "t0_ms": 2830240,
+     "text": "The frontier labs, their scales, their sales are skyrocketing."
+    },
+    {
+     "t0_ms": 2833140,
+     "text": "Their margins are fantastic."
+    },
+    {
+     "t0_ms": 2835880,
+     "text": "They're generating profitable tokens."
+    },
+    {
+     "t0_ms": 2838460,
+     "text": "They're only limited by the amount of compute."
+    },
+    {
+     "t0_ms": 2840880,
+     "text": "That is equally true for open models."
+    },
+    {
+     "t0_ms": 2844220,
+     "text": "And our position in open models is very good, you know, because the CUDA ecosystem is literally everywhere."
+    },
+    {
+     "t0_ms": 2851860,
+     "text": "The open model open models are also foundational to just about every AI startup and every enterprise company around the world."
+    },
+    {
+     "t0_ms": 2861540,
+     "text": "It's vital to them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2863060,
+   "t1_ms": 2905280,
+   "speaker": "Management",
+   "text": "And the reason for that is because you should rent intelligence, strong intelligence, smart intelligence, wherever you can, which is the reason why, you know, we rent it. And I encourage my employees to use the cloud service as much as they can. But every major company and surely every country and every startup needs to build their domain specific, their proprietary AI, their proprietary alpha. And the open models reaching frontier levels has made it possible, has enabled them to all do that. One of the areas where frontier models is vital is cybersecurity.",
+   "parts": [
+    {
+     "t0_ms": 2863060,
+     "text": "And the reason for that is because you should rent intelligence, strong intelligence, smart intelligence, wherever you can,"
+    },
+    {
+     "t0_ms": 2870640,
+     "text": "which is the reason why, you know, we rent it."
+    },
+    {
+     "t0_ms": 2872460,
+     "text": "And I encourage my employees to use the cloud service as much as they can."
+    },
+    {
+     "t0_ms": 2877980,
+     "text": "But every major company and surely every country and every startup needs to build their domain specific,"
+    },
+    {
+     "t0_ms": 2887880,
+     "text": "their proprietary AI, their proprietary alpha."
+    },
+    {
+     "t0_ms": 2893540,
+     "text": "And the open models reaching frontier levels has made it possible, has enabled them to all do that."
+    },
+    {
+     "t0_ms": 2901040,
+     "text": "One of the areas where frontier models is vital is cybersecurity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2906920,
+   "t1_ms": 2950020,
+   "speaker": "Management",
+   "text": "You see the number of cybersecurity companies that are enabled by frontier models so that they could have distributed, massively distributed, continuously running autonomous cybersecurity systems to defend. Um, it, Those companies are emerging. They're some amazing companies. They couldn't do it without open models. And so open models is both incredibly successful and has finally reached the frontier, but it's also vital to the American economy. It's vital to the world economy. It's vital to companies to build their own proprietary AI. You can't do it without one or the other. Both are going to be extraordinarily successful.",
+   "parts": [
+    {
+     "t0_ms": 2906920,
+     "text": "You see the number of cybersecurity companies that are enabled by frontier models so that they could have distributed,"
+    },
+    {
+     "t0_ms": 2913800,
+     "text": "massively distributed, continuously running autonomous cybersecurity systems to defend."
+    },
+    {
+     "t0_ms": 2921880,
+     "text": "Um,"
+    },
+    {
+     "t0_ms": 2922760,
+     "text": "it,"
+    },
+    {
+     "t0_ms": 2923060,
+     "text": "Those companies are emerging."
+    },
+    {
+     "t0_ms": 2924800,
+     "text": "They're some amazing companies."
+    },
+    {
+     "t0_ms": 2926700,
+     "text": "They couldn't do it without open models."
+    },
+    {
+     "t0_ms": 2929880,
+     "text": "And so open models is both incredibly successful and has finally reached the frontier, but it's also vital to the American economy."
+    },
+    {
+     "t0_ms": 2940640,
+     "text": "It's vital to the world economy."
+    },
+    {
+     "t0_ms": 2942360,
+     "text": "It's vital to companies to build their own proprietary AI."
+    },
+    {
+     "t0_ms": 2945720,
+     "text": "You can't do it without one or the other."
+    },
+    {
+     "t0_ms": 2947820,
+     "text": "Both are going to be extraordinarily successful."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2950020,
+   "t1_ms": 2992880,
+   "speaker": "Management",
+   "text": "And lastly, as you know, our market footprint of all AI models, I think we're the only platform, I'm fairly certain we're the only platform that runs every frontier model. And whether it's closed or open, most of them were built on NVIDIA. And so they run great on NVIDIA. And so we're delighted by that. By any model succeeding, so long as models succeed, I'm very happy. And both closed and open models are going to succeed. And they're both simultaneously driving our sales.",
+   "parts": [
+    {
+     "t0_ms": 2950020,
+     "text": "And lastly, as you know, our market footprint of all AI models, I think we're the only platform, I'm fairly certain we're the only platform that runs every frontier model."
+    },
+    {
+     "t0_ms": 2969220,
+     "text": "And whether it's closed or open, most of them were built on NVIDIA."
+    },
+    {
+     "t0_ms": 2974960,
+     "text": "And so they run great on NVIDIA."
+    },
+    {
+     "t0_ms": 2977780,
+     "text": "And so we're delighted by that."
+    },
+    {
+     "t0_ms": 2982160,
+     "text": "By any model succeeding, so long as models succeed, I'm very happy."
+    },
+    {
+     "t0_ms": 2987760,
+     "text": "And both closed and open models are going to succeed."
+    },
+    {
+     "t0_ms": 2990280,
+     "text": "And they're both simultaneously driving our sales."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2993260,
+   "t1_ms": 3003400,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Van Breitsis with Melius Research. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2993260,
+     "text": "Your next question comes from the line of Van Breitsis with Melius Research."
+    },
+    {
+     "t0_ms": 3002320,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3005020,
+   "t1_ms": 3046040,
+   "speaker": "Analyst",
+   "text": "Yeah, hey, thanks. I wanted to ask you a question, Jensen, about demand in a different way. You know, you talked about demand growing 100% next year. And I wanted to kind of get a sense for a couple things driving that and even beyond that. And there's two concepts here. There's recursive self-improvement, which apparently at Anthropic and OpenAI is going very well with, you know, AI that improves itself. And even OpenAI said they could hit AGI by the end of this year. And, you know, with the developments in RSI as well as AGI, what happens to industry demand? Does, you know, demand grow? Does it inflect further?",
+   "parts": [
+    {
+     "t0_ms": 3005020,
+     "text": "Yeah, hey, thanks."
+    },
+    {
+     "t0_ms": 3006700,
+     "text": "I wanted to ask you a question, Jensen, about demand in a different way."
+    },
+    {
+     "t0_ms": 3011720,
+     "text": "You know, you talked about demand growing 100% next year."
+    },
+    {
+     "t0_ms": 3014840,
+     "text": "And I wanted to kind of get a sense for a couple things driving that and even beyond that."
+    },
+    {
+     "t0_ms": 3020440,
+     "text": "And there's two concepts here."
+    },
+    {
+     "t0_ms": 3021780,
+     "text": "There's recursive self-improvement, which apparently at Anthropic and OpenAI is going very well with, you know, AI that improves itself."
+    },
+    {
+     "t0_ms": 3030440,
+     "text": "And even OpenAI said they could hit AGI by the end of this year."
+    },
+    {
+     "t0_ms": 3036360,
+     "text": "And, you know, with the developments in RSI as well as AGI, what happens to industry demand?"
+    },
+    {
+     "t0_ms": 3043160,
+     "text": "Does, you know, demand grow?"
+    },
+    {
+     "t0_ms": 3044900,
+     "text": "Does it inflect further?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3046320,
+   "t1_ms": 3053500,
+   "speaker": "Analyst",
+   "text": "And what does it mean for NVIDIA when those things take place? And how are you looking at that as a demand catalyst? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3046320,
+     "text": "And what does it mean for NVIDIA when those things take place?"
+    },
+    {
+     "t0_ms": 3050240,
+     "text": "And how are you looking at that as a demand catalyst?"
+    },
+    {
+     "t0_ms": 3053200,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3054520,
+   "t1_ms": 3095140,
+   "speaker": "Management",
+   "text": "I appreciate that. It's going to inflect further. Today, the vast majority of AI is prompted by people. I believe that this last month it has crossed. Most AI are now agentic. But in the future, in the future, every company will have. A whole bunch of agents. You know, we have we have 40,000 employees roughly in the future. We'll have 400,000 agents, 4 million agents. And those agents are running continuously. They're running in the background. If you have anybody who builds, if you know anybody who builds edge, you know, personal agents and they run it on their like a DGX Spark.",
+   "parts": [
+    {
+     "t0_ms": 3054520,
+     "text": "I appreciate that."
+    },
+    {
+     "t0_ms": 3055480,
+     "text": "It's going to inflect further."
+    },
+    {
+     "t0_ms": 3058340,
+     "text": "Today, the vast majority of AI is prompted by people."
+    },
+    {
+     "t0_ms": 3064420,
+     "text": "I believe that this last month it has crossed."
+    },
+    {
+     "t0_ms": 3069100,
+     "text": "Most AI are now agentic."
+    },
+    {
+     "t0_ms": 3071440,
+     "text": "But in the future, in the future, every company will have."
+    },
+    {
+     "t0_ms": 3074840,
+     "text": "A whole bunch of agents."
+    },
+    {
+     "t0_ms": 3076580,
+     "text": "You know, we have we have 40,000 employees roughly in the future."
+    },
+    {
+     "t0_ms": 3079780,
+     "text": "We'll have 400,000 agents, 4 million agents."
+    },
+    {
+     "t0_ms": 3082760,
+     "text": "And those agents are running continuously."
+    },
+    {
+     "t0_ms": 3084800,
+     "text": "They're running in the background."
+    },
+    {
+     "t0_ms": 3086600,
+     "text": "If you have anybody who builds, if you know anybody who builds edge, you know, personal agents and they run it on their like a DGX Spark."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3095720,
+   "t1_ms": 3139380,
+   "speaker": "Management",
+   "text": "And, you know, I know a lot of people who who run it on DGX stations, this incredible workstation that we've built and you can buy it from Dell. And and they're they're they're incredible. And these agents running on a DGX station runs 24 seven because you got stuff for them to do for it to do all the time. And so the when when the world goes to agentic, fully agentic agentic systems, you're going to have agents running all the time, working with other agents running all the time. And those would be working in the background, improving your company, improving your lives in a lot of ways where we're kind of recurring. Cursive at this point at this point. And you could argue it's it's coarse grained.",
+   "parts": [
+    {
+     "t0_ms": 3095720,
+     "text": "And, you know, I know a lot of people who who run it on DGX stations, this incredible workstation that we've built and you can buy it from Dell."
+    },
+    {
+     "t0_ms": 3104300,
+     "text": "And and they're they're they're incredible."
+    },
+    {
+     "t0_ms": 3107680,
+     "text": "And these agents running on a DGX station runs 24 seven because you got stuff for them to do for it to do all the time."
+    },
+    {
+     "t0_ms": 3116260,
+     "text": "And so the when when the world goes to agentic, fully agentic agentic systems, you're going to have agents running all the time, working with other agents running all the time."
+    },
+    {
+     "t0_ms": 3126140,
+     "text": "And those would be working in the background, improving your company, improving your lives in a lot of ways where we're kind of recurring."
+    },
+    {
+     "t0_ms": 3134300,
+     "text": "Cursive at this point at this point."
+    },
+    {
+     "t0_ms": 3137100,
+     "text": "And you could argue it's it's coarse grained."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3139780,
+   "t1_ms": 3176620,
+   "speaker": "Management",
+   "text": "But every time you run through an agent, it it reflects on how it could do a better job next time. And it updates the skill file. And so the skills document, the markdown is updated at the end of every single one of them. And so next time you run, it's going to get better. It's a it's a it's a, you know, kind of a loosely coarse grain self-improvement. And so you see that all all over all always. And and so in a lot of ways. And for many, for many tasks, we could say that we've already achieved AGI. I think all of those milestones and all those, you know, they're kind of senseless at this point.",
+   "parts": [
+    {
+     "t0_ms": 3139780,
+     "text": "But every time you run through an agent, it it reflects on how it could do a better job next time."
+    },
+    {
+     "t0_ms": 3144860,
+     "text": "And it updates the skill file."
+    },
+    {
+     "t0_ms": 3147260,
+     "text": "And so the skills document, the markdown is updated at the end of every single one of them."
+    },
+    {
+     "t0_ms": 3152820,
+     "text": "And so next time you run, it's going to get better."
+    },
+    {
+     "t0_ms": 3154860,
+     "text": "It's a it's a it's a, you know, kind of a loosely coarse grain self-improvement."
+    },
+    {
+     "t0_ms": 3161000,
+     "text": "And so you see that all all over all always."
+    },
+    {
+     "t0_ms": 3164300,
+     "text": "And and so in a lot of ways."
+    },
+    {
+     "t0_ms": 3166720,
+     "text": "And for many, for many tasks, we could say that we've already achieved AGI."
+    },
+    {
+     "t0_ms": 3171960,
+     "text": "I think all of those milestones and all those, you know, they're kind of senseless at this point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3176620,
+   "t1_ms": 3200540,
+   "speaker": "Management",
+   "text": "I think the most important thing that that that matters for the industry is that one, AI is now doing productive and useful work. Two, AI is generating profitable tokens. And three, if we had more compute, we could generate more profitable tokens. And so we're going to have more of that. And so we're going to have more of that. And so we're going to have more of that. This is the exact phase where we're at, which is the reason why everybody's leaning in.",
+   "parts": [
+    {
+     "t0_ms": 3176620,
+     "text": "I think the most important thing that that that matters for the industry is that one, AI is now doing productive and useful work."
+    },
+    {
+     "t0_ms": 3185740,
+     "text": "Two, AI is generating profitable tokens."
+    },
+    {
+     "t0_ms": 3189480,
+     "text": "And three, if we had more compute, we could generate more profitable tokens."
+    },
+    {
+     "t0_ms": 3194300,
+     "text": "And so we're going to have more of that."
+    },
+    {
+     "t0_ms": 3195680,
+     "text": "And so we're going to have more of that."
+    },
+    {
+     "t0_ms": 3196820,
+     "text": "And so we're going to have more of that."
+    },
+    {
+     "t0_ms": 3197060,
+     "text": "This is the exact phase where we're at, which is the reason why everybody's leaning in."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3205280,
+   "t1_ms": 3211320,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Jim Schneider with Goldman Sachs. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3205280,
+     "text": "Your next question comes from the line of Jim Schneider with Goldman Sachs."
+    },
+    {
+     "t0_ms": 3210280,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3212940,
+   "t1_ms": 3247420,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thank you for taking my question. If you think about the 100 percent growth you talked about in terms of the plus unconstrained demand growth, you're expecting the 70 percent you expect to fulfill in terms of supply. Can we talk about some of the around? Bank order? Some of the most acute constraints, whether that be things like data center, power and shell availability, DRAM, wafer foundry availability, et cetera. If you can maybe help us understand, you know, which are the biggest among those, that would be very helpful. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3212940,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 3213840,
+     "text": "Thank you for taking my question."
+    },
+    {
+     "t0_ms": 3215400,
+     "text": "If you think about the 100 percent growth you talked about in terms of the plus unconstrained demand growth, you're expecting the 70 percent you expect to fulfill in terms of supply."
+    },
+    {
+     "t0_ms": 3226140,
+     "text": "Can we talk about some of the around?"
+    },
+    {
+     "t0_ms": 3228520,
+     "text": "Bank order?"
+    },
+    {
+     "t0_ms": 3229160,
+     "text": "Some of the most acute constraints, whether that be things like data center, power and shell availability, DRAM, wafer foundry availability, et cetera."
+    },
+    {
+     "t0_ms": 3241960,
+     "text": "If you can maybe help us understand, you know, which are the biggest among those, that would be very helpful."
+    },
+    {
+     "t0_ms": 3247020,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3250000,
+   "t1_ms": 3294260,
+   "speaker": "Management",
+   "text": "There's something funny I could say, but I'm going to just not. The. You know, last year, one of the funnest things to do. It's just to go figure out. Where I go for dinner. And who I have dinner with. And their stock price doubles the next day. I think the answer is, is our entire supply chain is challenged. And it's everybody. Everybody is really running flat out. And more capacity is coming online all the time, which is one of the advantages. What's going to happen this year? It's not going to come online in just, you know. In an instance in time, but it's going to come online every, every day.",
+   "parts": [
+    {
+     "t0_ms": 3250000,
+     "text": "There's something funny I could say, but I'm going to just not."
+    },
+    {
+     "t0_ms": 3254160,
+     "text": "The."
+    },
+    {
+     "t0_ms": 3257060,
+     "text": "You know, last year, one of the funnest things to do."
+    },
+    {
+     "t0_ms": 3260540,
+     "text": "It's just to go figure out."
+    },
+    {
+     "t0_ms": 3262720,
+     "text": "Where I go for dinner."
+    },
+    {
+     "t0_ms": 3264620,
+     "text": "And who I have dinner with."
+    },
+    {
+     "t0_ms": 3266180,
+     "text": "And their stock price doubles the next day."
+    },
+    {
+     "t0_ms": 3269600,
+     "text": "I think the answer is, is our entire supply chain is challenged."
+    },
+    {
+     "t0_ms": 3275760,
+     "text": "And it's everybody."
+    },
+    {
+     "t0_ms": 3277320,
+     "text": "Everybody is really running flat out."
+    },
+    {
+     "t0_ms": 3281120,
+     "text": "And more capacity is coming online all the time, which is one of the advantages."
+    },
+    {
+     "t0_ms": 3286040,
+     "text": "What's going to happen this year?"
+    },
+    {
+     "t0_ms": 3287440,
+     "text": "It's not going to come online in just, you know."
+    },
+    {
+     "t0_ms": 3290540,
+     "text": "In an instance in time, but it's going to come online every, every day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3294920,
+   "t1_ms": 3337420,
+   "speaker": "Management",
+   "text": "Yields are going to get improved. We're going to be doing yield improvement. We're going to work hard on, on working with every one of our suppliers, you know? And so we just, we have a, it's not even next year yet. And so we've got lots and lots of time to work hard every day. And so at this moment, we have supply for 70%. We have, we have more supply than 70%. But about 70%. About 70%. Our demand is much higher than that. And we've got to go work hard or, you know, we're, we're going to be disappointing customers. And, and we would like not to disappoint our customers. And we'd like to work hard for them.",
+   "parts": [
+    {
+     "t0_ms": 3294920,
+     "text": "Yields are going to get improved."
+    },
+    {
+     "t0_ms": 3296580,
+     "text": "We're going to be doing yield improvement."
+    },
+    {
+     "t0_ms": 3298660,
+     "text": "We're going to work hard on, on working with every one of our suppliers, you know?"
+    },
+    {
+     "t0_ms": 3304060,
+     "text": "And so we just, we have a, it's not even next year yet."
+    },
+    {
+     "t0_ms": 3308560,
+     "text": "And so we've got lots and lots of time to work hard every day."
+    },
+    {
+     "t0_ms": 3311680,
+     "text": "And so at this moment, we have supply for 70%."
+    },
+    {
+     "t0_ms": 3316260,
+     "text": "We have, we have more supply than 70%."
+    },
+    {
+     "t0_ms": 3319620,
+     "text": "But about 70%."
+    },
+    {
+     "t0_ms": 3320320,
+     "text": "About 70%."
+    },
+    {
+     "t0_ms": 3321160,
+     "text": "Our demand is much higher than that."
+    },
+    {
+     "t0_ms": 3323620,
+     "text": "And we've got to go work hard or, you know, we're, we're going to be disappointing customers."
+    },
+    {
+     "t0_ms": 3332040,
+     "text": "And, and we would like not to disappoint our customers."
+    },
+    {
+     "t0_ms": 3336000,
+     "text": "And we'd like to work hard for them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3337520,
+   "t1_ms": 3359640,
+   "speaker": "Management",
+   "text": "And so I've got, I'm going to need the help of the entire supply chain to help me out here. But they all know that. What, what I'm telling you about, about our needs for next year is exactly consistent. With what I've told them. Everybody's on the exact same song sheet, song sheet. And I'm trying to be as, as transparent as we can, because we're talking about big numbers.",
+   "parts": [
+    {
+     "t0_ms": 3337520,
+     "text": "And so I've got, I'm going to need the help of the entire supply chain to help me out here."
+    },
+    {
+     "t0_ms": 3342280,
+     "text": "But they all know that."
+    },
+    {
+     "t0_ms": 3345100,
+     "text": "What, what I'm telling you about, about our needs for next year is exactly consistent."
+    },
+    {
+     "t0_ms": 3350320,
+     "text": "With what I've told them."
+    },
+    {
+     "t0_ms": 3353160,
+     "text": "Everybody's on the exact same song sheet, song sheet."
+    },
+    {
+     "t0_ms": 3355560,
+     "text": "And I'm trying to be as, as transparent as we can, because we're talking about big numbers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3364440,
+   "t1_ms": 3370180,
+   "speaker": "Operator",
+   "text": "Your final question comes from the line of Aaron Rakers with Wells Fargo. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3364440,
+     "text": "Your final question comes from the line of Aaron Rakers with Wells Fargo."
+    },
+    {
+     "t0_ms": 3369040,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3371880,
+   "t1_ms": 3413700,
+   "speaker": "Analyst",
+   "text": "Yeah. Thanks for taking the question. I want to go back to the gigawatts, the 25 to 40. And maybe try and understand, like, you know, I think Jensen, you said at some recent conferences that, you know, that's going to further scale. So, you know, as we think about the path, even beyond Vera Rubin, we think about Vera Rubin, ultra and so on and so forth. Like, should we really conceptualize like 40 billion goes to 60 billion, 80 billion. And then, you know, I guess, you know, underneath of that question is how do we kind of think about your ability to scale the capacity deployments? You know, is it, is it a linear function or is there something that, you know, kind of unlocks your ability to supply more demand as we look through fiscal 27?",
+   "parts": [
+    {
+     "t0_ms": 3371880,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3372360,
+     "text": "Thanks for taking the question."
+    },
+    {
+     "t0_ms": 3373900,
+     "text": "I want to go back to the gigawatts, the 25 to 40."
+    },
+    {
+     "t0_ms": 3378940,
+     "text": "And maybe try and understand, like, you know, I think Jensen, you said at some recent conferences that,"
+    },
+    {
+     "t0_ms": 3384480,
+     "text": "you know, that's going to further scale."
+    },
+    {
+     "t0_ms": 3386320,
+     "text": "So, you know, as we think about the path, even beyond Vera Rubin, we think about Vera Rubin, ultra and so on and so forth."
+    },
+    {
+     "t0_ms": 3393480,
+     "text": "Like, should we really conceptualize like 40 billion goes to 60 billion, 80 billion."
+    },
+    {
+     "t0_ms": 3397920,
+     "text": "And then, you know, I guess, you know, underneath of that question is how do we kind of think about your ability to scale the capacity deployments?"
+    },
+    {
+     "t0_ms": 3406860,
+     "text": "You know, is it, is it a linear function or is there something that, you know, kind of unlocks your ability to supply more demand as we look through fiscal 27?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3414480,
+   "t1_ms": 3455800,
+   "speaker": "Management",
+   "text": "Great question. 28. Sorry. Yeah. Great question. Great question. And very simple. Is our goal to put as much compute on a plot of land? Is our goal to put more compute into one gigawatt or less? And so, obviously, we would like that, you know, the speed of light answer. The perfect answer is actually infinity per gigawatt. And so, if we could literally. Get a trillion dollars of compute into one gigawatt and one piece of land power shell, it would be a fantastic outcome. And so, the answer is directionally in that direction.",
+   "parts": [
+    {
+     "t0_ms": 3414480,
+     "text": "Great question."
+    },
+    {
+     "t0_ms": 3415500,
+     "text": "28."
+    },
+    {
+     "t0_ms": 3416040,
+     "text": "Sorry."
+    },
+    {
+     "t0_ms": 3416700,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3416880,
+     "text": "Great question."
+    },
+    {
+     "t0_ms": 3417920,
+     "text": "Great question."
+    },
+    {
+     "t0_ms": 3419320,
+     "text": "And very simple."
+    },
+    {
+     "t0_ms": 3421280,
+     "text": "Is our goal to put as much compute on a plot of land?"
+    },
+    {
+     "t0_ms": 3425940,
+     "text": "Is our goal to put more compute into one gigawatt or less?"
+    },
+    {
+     "t0_ms": 3431300,
+     "text": "And so, obviously, we would like that, you know, the speed of light answer."
+    },
+    {
+     "t0_ms": 3437200,
+     "text": "The perfect answer is actually infinity per gigawatt."
+    },
+    {
+     "t0_ms": 3442320,
+     "text": "And so, if we could literally."
+    },
+    {
+     "t0_ms": 3444480,
+     "text": "Get a trillion dollars of compute into one gigawatt and one piece of land power shell, it would be a fantastic outcome."
+    },
+    {
+     "t0_ms": 3451380,
+     "text": "And so, the answer is directionally in that direction."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3456740,
+   "t1_ms": 3486940,
+   "speaker": "Management",
+   "text": "We started, we started in the world of general purpose computing during Moore's law. We were probably, you know, pick your favorite number, but I'm going to go with something like 5 billion, $3 billion per gigawatt of compute with, with general purpose computing. And, and then eventually with Hopper. It was 18. Now, Grace Blackwell is 25. Next, Vera Rubin is 40. And after that, it's going to be higher. And that's excellent. That's fantastic for the industry. It's fantastic for customers.",
+   "parts": [
+    {
+     "t0_ms": 3456740,
+     "text": "We started, we started in the world of general purpose computing during Moore's law."
+    },
+    {
+     "t0_ms": 3462040,
+     "text": "We were probably, you know, pick your favorite number, but I'm going to go with something like 5 billion, $3 billion per gigawatt of compute with, with general purpose computing."
+    },
+    {
+     "t0_ms": 3472200,
+     "text": "And, and then eventually with Hopper."
+    },
+    {
+     "t0_ms": 3474480,
+     "text": "It was 18."
+    },
+    {
+     "t0_ms": 3475920,
+     "text": "Now, Grace Blackwell is 25."
+    },
+    {
+     "t0_ms": 3478320,
+     "text": "Next, Vera Rubin is 40."
+    },
+    {
+     "t0_ms": 3480300,
+     "text": "And after that, it's going to be higher."
+    },
+    {
+     "t0_ms": 3482160,
+     "text": "And that's excellent."
+    },
+    {
+     "t0_ms": 3483880,
+     "text": "That's fantastic for the industry."
+    },
+    {
+     "t0_ms": 3485680,
+     "text": "It's fantastic for customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3486940,
+   "t1_ms": 3526860,
+   "speaker": "Management",
+   "text": "So long as the productivity of it continues to grow, the durability and the fungibility continues to grow, then people are happy to invest in, in assets that generates revenues, generates profits and helps them recoup their returns. So incredibly fast. I mean, I heard the other day that return on investment capital is now less than a year. And we're talking about $50 billion data centers. And so that tells you something about, about the, the, the productivity of NVIDIA's technology and the rentability of it. I want to thank all of you for joining us today.",
+   "parts": [
+    {
+     "t0_ms": 3486940,
+     "text": "So long as the productivity of it continues to grow, the durability and the fungibility continues to grow, then people are happy to invest in, in assets that generates revenues, generates profits and helps them recoup their returns."
+    },
+    {
+     "t0_ms": 3504480,
+     "text": "So incredibly fast."
+    },
+    {
+     "t0_ms": 3506080,
+     "text": "I mean, I heard the other day that return on investment capital is now less than a year."
+    },
+    {
+     "t0_ms": 3512100,
+     "text": "And we're talking about $50 billion data centers."
+    },
+    {
+     "t0_ms": 3515580,
+     "text": "And so that tells you something about, about the, the, the productivity of NVIDIA's technology and the rentability of it."
+    },
+    {
+     "t0_ms": 3524140,
+     "text": "I want to thank all of you for joining us today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3527300,
+   "t1_ms": 3536530,
+   "speaker": "Operator",
+   "text": "There are no further questions at this time. Tashi Ahari, I'll turn the call back over to you.",
+   "parts": [
+    {
+     "t0_ms": 3527300,
+     "text": "There are no further questions at this time."
+    },
+    {
+     "t0_ms": 3534130,
+     "text": "Tashi Ahari, I'll turn the call back over to you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3536530,
+   "t1_ms": 3563350,
+   "speaker": "Management",
+   "text": "Thank you. Before we close, please note that Jensen will be participating in a keynote fireside chat at the Goldman Sachs Communicopia and Technology Conference in San Francisco on September 10th. He'll also be giving a keynote at GTC Berlin on October 21st. Our earnings call to discuss the results of our third quarter of fiscal 2027 is scheduled for November 17th. Thank you for joining us today. Operator, please close the call.",
+   "parts": [
+    {
+     "t0_ms": 3536530,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3538610,
+     "text": "Before we close, please note that Jensen will be participating in a keynote fireside chat at the Goldman Sachs Communicopia and Technology Conference in San Francisco on September 10th."
+    },
+    {
+     "t0_ms": 3548690,
+     "text": "He'll also be giving a keynote at GTC Berlin on October 21st."
+    },
+    {
+     "t0_ms": 3553670,
+     "text": "Our earnings call to discuss the results of our third quarter of fiscal 2027 is scheduled for November 17th."
+    },
+    {
+     "t0_ms": 3560210,
+     "text": "Thank you for joining us today."
+    },
+    {
+     "t0_ms": 3561890,
+     "text": "Operator, please close the call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3566420,
+   "t1_ms": 3569300,
+   "speaker": "Operator",
+   "text": "This concludes today's conference call. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3566420,
+     "text": "This concludes today's conference call."
+    },
+    {
+     "t0_ms": 3568380,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

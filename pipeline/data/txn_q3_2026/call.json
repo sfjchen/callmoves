@@ -1,0 +1,3243 @@
+{
+ "ticker": "TXN",
+ "quarter": "Q3-2026",
+ "company": "Texas Instruments",
+ "call_start": "2026-10-21T16:30:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/TXN_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 43480,
+   "speaker": "Management",
+   "text": "Welcome to the Texas Instruments third quarter 2026 earnings conference call. I'm Mike Beckman, head of investor relations, and I'm joined by our chief executive officer, Haviv Vellan, and our chief financial officer, Julie Kinnett. For any of you who missed the release, you can find it on our website at ti.com slash IR. This call is being broadcast live over the web and can be accessed through our website. In addition, today's call is being recorded and will be available via replay on our website. This call will include forward-looking statements that involve risks and uncertainties that could cause TI's results to differ materially from management's current expectations. We encourage you to review the notice regarding forward-looking",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Welcome to the Texas Instruments third quarter 2026 earnings conference call. I'm Mike Beckman,"
+    },
+    {
+     "t0_ms": 6280,
+     "text": "head of investor relations, and I'm joined by our chief executive officer, Haviv Vellan,"
+    },
+    {
+     "t0_ms": 11000,
+     "text": "and our chief financial officer, Julie Kinnett. For any of you who missed the release,"
+    },
+    {
+     "t0_ms": 15900,
+     "text": "you can find it on our website at ti.com slash IR. This call is being broadcast live over the web"
+    },
+    {
+     "t0_ms": 23040,
+     "text": "and can be accessed through our website. In addition, today's call is being recorded and"
+    },
+    {
+     "t0_ms": 28040,
+     "text": "will be available via replay on our website. This call will include forward-looking statements"
+    },
+    {
+     "t0_ms": 33080,
+     "text": "that involve risks and uncertainties that could cause TI's results to differ materially from"
+    },
+    {
+     "t0_ms": 38120,
+     "text": "management's current expectations. We encourage you to review the notice regarding forward-looking"
+    }
+   ]
+  },
+  {
+   "t0_ms": 43480,
+   "t1_ms": 88000,
+   "speaker": "Management",
+   "text": "statements contained in the earnings release published today, as well as TI's most recent SEC filings for a more complete description. Today, we'll provide the following updates. First, Haviv will start with a quick overview of the quarter. Next, he will provide insight into third quarter revenue results with some details on what we are seeing with respect to our end markets. And lastly, Julie will cover the financial results and give an update on capital management, as well as share the guidance for fourth quarter 2026. With that, let me turn it over to Haviv. Thanks, Mike. Let me start with a quick overview of the third quarter. Revenue was $6.1 billion, an increase of 11% sequentially, and an increase of 28% year over year.",
+   "parts": [
+    {
+     "t0_ms": 43480,
+     "text": "statements contained in the earnings release published today, as well as TI's most recent"
+    },
+    {
+     "t0_ms": 48260,
+     "text": "SEC filings for a more complete description. Today, we'll provide the following updates."
+    },
+    {
+     "t0_ms": 53560,
+     "text": "First, Haviv will start with a quick overview of the quarter."
+    },
+    {
+     "t0_ms": 57480,
+     "text": "Next,"
+    },
+    {
+     "t0_ms": 58040,
+     "text": "he will provide insight into third quarter revenue results with some details on what we are seeing"
+    },
+    {
+     "t0_ms": 62920,
+     "text": "with respect to our end markets. And lastly, Julie will cover the financial results and give an update"
+    },
+    {
+     "t0_ms": 68180,
+     "text": "on capital management, as well as share the guidance for fourth quarter 2026. With that,"
+    },
+    {
+     "t0_ms": 73640,
+     "text": "let me turn it over to Haviv. Thanks, Mike. Let me start with a quick overview of the third quarter."
+    },
+    {
+     "t0_ms": 79740,
+     "text": "Revenue was $6.1 billion, an increase of 11% sequentially, and an increase of 28% year over"
+    },
+    {
+     "t0_ms": 87740,
+     "text": "year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 88040,
+   "t1_ms": 132340,
+   "speaker": "Management",
+   "text": "Analog and embedded processing both grew sequentially and year-on-year. Analog revenue grew 32% year-on-year, and embedded processing grew 21%. Our other segment declined 6% from the year-ago quarter. During the quarter, we saw broad demand with revenue growth across all end markets and regions. Secular growth of semiconductor content is continuing, and we are seeing a lot of growth in the end markets. We are seeing a lot of growth in the end markets, and we are seeing a lot of growth in the end regions. Now, in terms of revenue growth, the market is continuing alongside a strong cyclical recovery. We are working closely with our customers to support them during this time of increased demand. We are executing to our long-term manufacturing plan, and our investments have",
+   "parts": [
+    {
+     "t0_ms": 88040,
+     "text": "Analog and embedded processing both grew sequentially and year-on-year. Analog revenue"
+    },
+    {
+     "t0_ms": 95800,
+     "text": "grew 32% year-on-year, and embedded processing grew 21%. Our other segment declined 6% from the"
+    },
+    {
+     "t0_ms": 106100,
+     "text": "year-ago quarter. During the quarter, we saw broad demand with revenue growth across all end markets"
+    },
+    {
+     "t0_ms": 113180,
+     "text": "and regions. Secular growth of semiconductor content is continuing, and we are seeing a lot of growth in the end markets."
+    },
+    {
+     "t0_ms": 117480,
+     "text": "We are seeing a lot of growth in the end markets, and we are seeing a lot of growth in the end regions."
+    },
+    {
+     "t0_ms": 118020,
+     "text": "Now, in terms of revenue growth, the market is continuing alongside a strong cyclical"
+    },
+    {
+     "t0_ms": 120600,
+     "text": "recovery. We are working closely with our customers to support them during this time of increased"
+    },
+    {
+     "t0_ms": 126680,
+     "text": "demand. We are executing to our long-term manufacturing plan, and our investments have"
+    }
+   ]
+  },
+  {
+   "t0_ms": 132340,
+   "t1_ms": 173840,
+   "speaker": "Management",
+   "text": "positioned us to ramp our factories to support revenue growth. Now, I'll share some additional insights into third quarter revenue by end market. First, industry increased more than 40% year-on-year, and was up a 10% sequentially. Automotive increased mid-teens year-on-year and increased about 10% sequentially. Data center was up about 95% year-on-year and grew about 20% sequentially. Personal electronics was about flat year-on-year and grew upper single digits sequentially. And lastly, communications",
+   "parts": [
+    {
+     "t0_ms": 132340,
+     "text": "positioned us to ramp our factories to support revenue growth."
+    },
+    {
+     "t0_ms": 137220,
+     "text": "Now, I'll share some additional insights into third quarter revenue by end market."
+    },
+    {
+     "t0_ms": 142800,
+     "text": "First, industry increased more than 40% year-on-year, and was up a"
+    },
+    {
+     "t0_ms": 148020,
+     "text": "10% sequentially. Automotive increased mid-teens year-on-year and increased about 10% sequentially."
+    },
+    {
+     "t0_ms": 157480,
+     "text": "Data center was up about 95% year-on-year and grew about 20% sequentially. Personal electronics"
+    },
+    {
+     "t0_ms": 166580,
+     "text": "was about flat year-on-year and grew upper single digits sequentially. And lastly, communications"
+    }
+   ]
+  },
+  {
+   "t0_ms": 173840,
+   "t1_ms": 210900,
+   "speaker": "Management",
+   "text": "equipment grew both year-on-year and sequentially. With that, let me turn it over to Julie to review profitability and capital management. Thanks, Haviv, and good afternoon, everyone. As Haviv mentioned, third quarter revenue was $6.1 billion. Gross profit in the quarter was $3.9 billion, or 64% of revenue. Sequentially, gross profit margin increased 280 basis points. Operating expenses in the quarter were $1 billion. On a trailing 12-month basis, operating expenses were $4 billion, or 19% of",
+   "parts": [
+    {
+     "t0_ms": 173840,
+     "text": "equipment grew both year-on-year and sequentially. With that, let me turn it over to Julie to review"
+    },
+    {
+     "t0_ms": 180960,
+     "text": "profitability and capital management. Thanks, Haviv, and good afternoon, everyone. As Haviv"
+    },
+    {
+     "t0_ms": 187760,
+     "text": "mentioned, third quarter revenue was $6.1 billion. Gross profit in the quarter was $3.9 billion,"
+    },
+    {
+     "t0_ms": 194720,
+     "text": "or 64% of revenue. Sequentially, gross profit margin increased 280 basis points. Operating"
+    },
+    {
+     "t0_ms": 202400,
+     "text": "expenses in the quarter were"
+    },
+    {
+     "t0_ms": 203820,
+     "text": "$1 billion. On a trailing 12-month basis, operating expenses were $4 billion, or 19% of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 210900,
+   "t1_ms": 252460,
+   "speaker": "Management",
+   "text": "revenue. Operating profit was $2.9 billion in the quarter, or 47% of revenue, and it was up 73% from the year-ago quarter. Net income in the quarter was $2.4 billion, or $2.62 per share. Earnings per share included a one-cent reduction not in our original guidance due to discrete taxing. The net income in the quarter was $2.4 billion, or $2.62 per share. Earnings per share included a one-cent reduction not in our original guidance due to discrete fax items. Let me now comment on our capital management results, starting with our cash generation. Cash flow from operations was $3.4 billion in the quarter and $9.9 billion on a trailing 12-month basis. Capital expenditures were $463 million in the",
+   "parts": [
+    {
+     "t0_ms": 210900,
+     "text": "revenue. Operating profit was $2.9 billion in the quarter, or 47% of revenue, and it was up 73%"
+    },
+    {
+     "t0_ms": 219820,
+     "text": "from the year-ago quarter. Net income in the quarter was $2.4 billion, or $2.62 per share."
+    },
+    {
+     "t0_ms": 228620,
+     "text": "Earnings per share included a one-cent reduction not in our original guidance due to discrete"
+    },
+    {
+     "t0_ms": 233660,
+     "text": "taxing. The net income in the quarter was $2.4 billion, or $2.62 per share. Earnings per share"
+    },
+    {
+     "t0_ms": 233820,
+     "text": "included a one-cent reduction not in our original guidance due to discrete fax items."
+    },
+    {
+     "t0_ms": 235420,
+     "text": "Let me now comment on our capital management results, starting with our cash generation."
+    },
+    {
+     "t0_ms": 240460,
+     "text": "Cash flow from operations was $3.4 billion in the quarter"
+    },
+    {
+     "t0_ms": 244860,
+     "text": "and $9.9 billion on a trailing 12-month basis. Capital expenditures were $463 million in the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 252460,
+   "t1_ms": 296880,
+   "speaker": "Management",
+   "text": "quarter and $2.6 billion over the last 12 months. Free cash flow on a trailing 12-month basis was $8.4 billion, up from $23. Adjusters for $5 billion were $6.8 billion in the quarter, but cash growth from operations was $3.4 billion as of 2020. One-time-performing performance was $7.8 billion, higher than last year's results. Higher than that was our\u1ee9c upper bet. Free cash flow, billion in the third quarter of 2025. Free cash flow in the trailing 12 months includes $1.6 billion of CHIPS Act incentives, which includes both the investment tax credit and direct funding. In the quarter, we paid $1.3 billion in dividends. In September, we announced we would increase our dividend by 7% to $1.52 per share, marking our 23rd consecutive year of dividend increases. This reflects our continued commitment to return all free cash flow to owners over time.",
+   "parts": [
+    {
+     "t0_ms": 252460,
+     "text": "quarter and $2.6 billion over the last 12 months. Free cash flow on a trailing 12-month basis was"
+    },
+    {
+     "t0_ms": 260300,
+     "text": "$8.4 billion, up from $23. Adjusters for $5 billion were $6.8 billion in the quarter,"
+    },
+    {
+     "t0_ms": 261660,
+     "text": "but cash growth from operations was $3.4 billion as of 2020. One-time-performing performance was"
+    },
+    {
+     "t0_ms": 262540,
+     "text": "$7.8 billion, higher than last year's results. Higher than that was our\u1ee9c upper bet. Free cash flow,"
+    },
+    {
+     "t0_ms": 263660,
+     "text": "billion in the third quarter of 2025. Free cash flow in the trailing 12 months includes $1.6"
+    },
+    {
+     "t0_ms": 270640,
+     "text": "billion of CHIPS Act incentives, which includes both the investment tax credit and direct funding."
+    },
+    {
+     "t0_ms": 277380,
+     "text": "In the quarter, we paid $1.3 billion in dividends. In September, we announced we would increase our"
+    },
+    {
+     "t0_ms": 283640,
+     "text": "dividend by 7% to $1.52 per share, marking our 23rd consecutive year of dividend increases."
+    },
+    {
+     "t0_ms": 291100,
+     "text": "This reflects our continued commitment to return all free cash flow to owners over time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 297920,
+   "t1_ms": 341420,
+   "speaker": "Management",
+   "text": "In total, we returned $5.8 billion to our owners in the past 12 months. Our balance sheet remains strong with $8.1 billion of cash and short-term investments at the end of the third quarter. In the quarter, we repaid $500 million of debt. Total debt outstanding is $13.65 billion, with a weighted average coupon of $4.11. Inventory at the end of the quarter was $4.7 billion, up $67 million from the prior quarter, and days were $194, down two days sequentially. Turning to our outlook for the fourth quarter, we expect TI's revenue in the range of $5.8 billion to $6.3 billion,",
+   "parts": [
+    {
+     "t0_ms": 297920,
+     "text": "In total, we returned $5.8 billion to our owners in the past 12 months."
+    },
+    {
+     "t0_ms": 303500,
+     "text": "Our balance sheet remains strong with $8.1 billion of cash and short-term investments"
+    },
+    {
+     "t0_ms": 308860,
+     "text": "at the end of the third quarter. In the quarter, we repaid $500 million of debt."
+    },
+    {
+     "t0_ms": 313820,
+     "text": "Total debt outstanding is $13.65 billion, with a weighted average coupon of $4.11."
+    },
+    {
+     "t0_ms": 321920,
+     "text": "Inventory at the end of the quarter was $4.7 billion, up $67 million from the prior quarter,"
+    },
+    {
+     "t0_ms": 329620,
+     "text": "and days were $194, down two days sequentially. Turning to our outlook for the fourth quarter,"
+    },
+    {
+     "t0_ms": 336040,
+     "text": "we expect TI's revenue in the range of $5.8 billion to $6.3 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 342040,
+   "t1_ms": 385420,
+   "speaker": "Management",
+   "text": "and earnings per share to be in the range of $2.45 to $2.79. We expect our effective tax rate to be about 13% in the fourth quarter, and for 2027, we expect it to be about 13 to 14%. In closing, we will stay focused in the areas that add value in the long term. We continue to invest in our competitive advantages, which are manufacturing technology, a broad product portfolio, reach of our channels, and diverse and long-lived positions. We will continue to strengthen these advantages through disciplined capital allocation and by focusing on the best opportunities, which we believe will enable us to continue to deliver",
+   "parts": [
+    {
+     "t0_ms": 342040,
+     "text": "and earnings per share to be in the range of $2.45 to $2.79. We expect our effective tax rate to be"
+    },
+    {
+     "t0_ms": 350880,
+     "text": "about 13% in the fourth quarter, and for 2027, we expect it to be about 13 to 14%."
+    },
+    {
+     "t0_ms": 357740,
+     "text": "In closing, we will stay focused in the areas that add value in the long term."
+    },
+    {
+     "t0_ms": 363220,
+     "text": "We continue to invest in our competitive advantages, which are manufacturing technology,"
+    },
+    {
+     "t0_ms": 369200,
+     "text": "a broad product portfolio, reach of our channels, and diverse and long-lived positions."
+    },
+    {
+     "t0_ms": 375120,
+     "text": "We will continue to strengthen these advantages through disciplined capital allocation and by"
+    },
+    {
+     "t0_ms": 380300,
+     "text": "focusing on the best opportunities, which we believe will enable us to continue to deliver"
+    }
+   ]
+  },
+  {
+   "t0_ms": 385420,
+   "t1_ms": 405540,
+   "speaker": "Management",
+   "text": "free cash flow per share growth over the long term. With that, let me turn it back to Mike. Thanks, Julie. Operator, you can now open the line for questions. In order to provide as many of you as possible an opportunity to ask your questions, please limit yourself to a single question. After our response, we'll provide you with an opportunity for an additional follow-up.",
+   "parts": [
+    {
+     "t0_ms": 385420,
+     "text": "free cash flow per share growth over the long term. With that, let me turn it back to Mike."
+    },
+    {
+     "t0_ms": 391400,
+     "text": "Thanks, Julie. Operator, you can now open the line for questions. In order to provide as many"
+    },
+    {
+     "t0_ms": 396720,
+     "text": "of you as possible an opportunity to ask your questions, please limit yourself to a single"
+    },
+    {
+     "t0_ms": 401080,
+     "text": "question. After our response, we'll provide you with an opportunity for an additional follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 406060,
+   "t1_ms": 442730,
+   "speaker": "Operator",
+   "text": "Operator? Thank you. Again, we will now be conducting a Q&A. If you would like to ask a question, please press star 1 on your telephone keypad. A confirmation tone will indicate your line is in the question queue. You may press star 2 to remove yourself from the queue. For participants using speaker equipment, it may be necessary to pick up the handset before pressing the star keys. Again, we ask all those in the queue to limit themselves to one question and one follow-up question to allow everyone a chance to ask. And our first question comes from the line of Joe Moore with Morgan Stanley. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 406060,
+     "text": "Operator? Thank you. Again, we will now be conducting"
+    },
+    {
+     "t0_ms": 410060,
+     "text": "a Q&A."
+    },
+    {
+     "t0_ms": 410300,
+     "text": "If you would like to ask a question, please press star 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 415880,
+     "text": "A confirmation tone will indicate your line is in the question queue. You may press star 2 to remove"
+    },
+    {
+     "t0_ms": 420420,
+     "text": "yourself from the queue. For participants using speaker equipment, it may be necessary to pick"
+    },
+    {
+     "t0_ms": 424540,
+     "text": "up the handset before pressing the star keys. Again, we ask all those in the queue to limit"
+    },
+    {
+     "t0_ms": 429040,
+     "text": "themselves to one question and one follow-up question to allow everyone a chance to ask."
+    },
+    {
+     "t0_ms": 437510,
+     "text": "And our first question comes from the line of Joe Moore with Morgan Stanley."
+    },
+    {
+     "t0_ms": 441190,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 444010,
+   "t1_ms": 459250,
+   "speaker": "Analyst",
+   "text": "Yes. Hi. Thank you. I was a little surprised at the gross margins, kind of incremental gross margins of about 90% on incremental revenue. I know the long-term target is lower than that. Can you just give us a sense for, you know, what went right there and how sustainable that may be? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 444010,
+     "text": "Yes. Hi. Thank you. I was a little surprised at the gross margins, kind of incremental gross"
+    },
+    {
+     "t0_ms": 449750,
+     "text": "margins of about 90% on incremental revenue. I know the long-term target is lower than that."
+    },
+    {
+     "t0_ms": 454970,
+     "text": "Can you just give us a sense for, you know, what went right there and how sustainable that may be?"
+    },
+    {
+     "t0_ms": 458950,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 460390,
+   "t1_ms": 477530,
+   "speaker": "Management",
+   "text": "Sure. Thanks, Joe. Yes, our margin in third quarter were really driven by higher revenue. That's the largest reason for that increase. But we also did have some benefit from pricing, loadings, and some of the other things that we did. So, I'm going to go ahead and ask Joe to answer that question. And some product and end market mix. You have a follow-up, Joe?",
+   "parts": [
+    {
+     "t0_ms": 460390,
+     "text": "Sure. Thanks, Joe. Yes, our margin in third quarter were really driven by higher revenue."
+    },
+    {
+     "t0_ms": 466190,
+     "text": "That's the largest reason for that increase. But we also did have some benefit from pricing,"
+    },
+    {
+     "t0_ms": 472710,
+     "text": "loadings, and some of the other things that we did. So, I'm going to go ahead and ask Joe to"
+    },
+    {
+     "t0_ms": 473590,
+     "text": "answer that question. And some product and end market mix."
+    },
+    {
+     "t0_ms": 476690,
+     "text": "You have a follow-up, Joe?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 478750,
+   "t1_ms": 485530,
+   "speaker": "Analyst",
+   "text": "No, I'm good. So, that looks like about comparable gross margins embedded in the guidance. Is that kind of the right way to think of it?",
+   "parts": [
+    {
+     "t0_ms": 478750,
+     "text": "No, I'm good. So, that looks like about comparable gross margins embedded in the guidance. Is that"
+    },
+    {
+     "t0_ms": 484610,
+     "text": "kind of the right way to think of it?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 486750,
+   "t1_ms": 519030,
+   "speaker": "Management",
+   "text": "I think over the long term, the way to model continues to be looking at 75% to 85% extra appreciation fall through. It's easier to look at that more of a longer time horizon, so year over year. But, of course, there's puts and takes in this. For modeling, I would also share that OpEx for the fourth quarter, we're expecting to be flat to slightly up. Acquisition charges should look about similar to what we saw in third quarter, same with net OINE. Thanks, Joe. Moving on to our next caller, please.",
+   "parts": [
+    {
+     "t0_ms": 486750,
+     "text": "I think over the long term, the way to model continues to be looking at 75% to 85%"
+    },
+    {
+     "t0_ms": 492070,
+     "text": "extra appreciation fall through. It's easier to look at that more of a longer time horizon,"
+    },
+    {
+     "t0_ms": 498090,
+     "text": "so year over year. But, of course, there's puts and takes in this. For modeling,"
+    },
+    {
+     "t0_ms": 503250,
+     "text": "I would also share that OpEx for the fourth quarter, we're expecting to be flat to slightly up."
+    },
+    {
+     "t0_ms": 510130,
+     "text": "Acquisition charges should look about similar to what we saw in third quarter,"
+    },
+    {
+     "t0_ms": 513730,
+     "text": "same with net OINE."
+    },
+    {
+     "t0_ms": 516470,
+     "text": "Thanks, Joe. Moving on to our next caller, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 520110,
+   "t1_ms": 524150,
+   "speaker": "Operator",
+   "text": "Our next question comes from the line of Harlan Sur with J.P. Morgan. Please proceed.",
+   "parts": [
+    {
+     "t0_ms": 520110,
+     "text": "Our next question comes from the line of Harlan Sur with J.P. Morgan. Please proceed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 525230,
+   "t1_ms": 552050,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thank you for taking my question and great job on the quarterly execution. Both short time, both short lead time orders and long-term lead time orders are not going to be the same. Longer term duration orders have been positive for the TI team over the past few quarters. Lead times, I assume, are probably expanding a bit, so you're getting a bit more orders placed further out in time as well. Did the TI team drive another quarter of positive book to building Q3, and was the order activity pretty broad-based?",
+   "parts": [
+    {
+     "t0_ms": 525230,
+     "text": "Yeah, good afternoon. Thank you for taking my question and great job on the quarterly execution."
+    },
+    {
+     "t0_ms": 529670,
+     "text": "Both short time, both short lead time orders and long-term lead time orders are not going to be the same."
+    },
+    {
+     "t0_ms": 533250,
+     "text": "Longer term duration orders have been positive for the TI team over the past few quarters."
+    },
+    {
+     "t0_ms": 538690,
+     "text": "Lead times, I assume, are probably expanding a bit, so you're getting a bit more orders placed further out in time as well."
+    },
+    {
+     "t0_ms": 545890,
+     "text": "Did the TI team drive another quarter of positive book to building Q3, and was the order activity pretty broad-based?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 554120,
+   "t1_ms": 596000,
+   "speaker": "Management",
+   "text": "Hey, Leigh Harlan. This is Javi. Let me say a few words, and I'll let Mike offer some more comments. So, look, we are seeing, as I said, the broadening of the demand. Coming across the three main markets that we focus on for the long-term industrial automotive and data center. But in general, demand was growing across the board, across markets, sectors, and regions. That does put pressure on lead times, but I think they maybe ticked a little bit higher. I'll let Mike comment, but I still believe that TI is best positioned to support that growing demand. I think we are still the most competitive supplier in terms of lead time. Mike, I don't know if you can offer anything else here.",
+   "parts": [
+    {
+     "t0_ms": 554120,
+     "text": "Hey, Leigh Harlan. This is Javi. Let me say a few words, and I'll let Mike offer some more comments."
+    },
+    {
+     "t0_ms": 559440,
+     "text": "So, look, we are seeing, as I said, the broadening of the demand."
+    },
+    {
+     "t0_ms": 564560,
+     "text": "Coming across the three main markets that we focus on for the long-term industrial automotive and data center."
+    },
+    {
+     "t0_ms": 571560,
+     "text": "But in general, demand was growing across the board, across markets, sectors, and regions."
+    },
+    {
+     "t0_ms": 577560,
+     "text": "That does put pressure on lead times, but I think they maybe ticked a little bit higher."
+    },
+    {
+     "t0_ms": 584560,
+     "text": "I'll let Mike comment, but I still believe that TI is best positioned to support that growing demand."
+    },
+    {
+     "t0_ms": 590560,
+     "text": "I think we are still the most competitive supplier in terms of lead time."
+    },
+    {
+     "t0_ms": 594000,
+     "text": "Mike, I don't know if you can offer anything else here."
+    }
+   ]
+  },
+  {
+   "t0_ms": 596000,
+   "t1_ms": 610000,
+   "speaker": "Management",
+   "text": "I think you characterized it right, and I'd just also add the investments that we've made in inventory and capacity do position us to support growing demand. And we'll continue to ramp our factories to support revenue growth moving forward. Do you have a follow-up?",
+   "parts": [
+    {
+     "t0_ms": 596000,
+     "text": "I think you characterized it right, and I'd just also add the investments that we've made in inventory and capacity do position us to support growing demand."
+    },
+    {
+     "t0_ms": 604000,
+     "text": "And we'll continue to ramp our factories to support revenue growth moving forward."
+    },
+    {
+     "t0_ms": 608000,
+     "text": "Do you have a follow-up?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 610000,
+   "t1_ms": 651000,
+   "speaker": "Analyst",
+   "text": "I appreciate the answer. Last quarter, Javi, we talked about the potential for broader positive pricing initiatives as you hold your annual pricing negotiations for next year. That would overlay not just on your analog and product, but also on your overall pricing. I think you also touched on your analog and power products, but also on your embedded products as well. Can you give us an update here? I mean, industry supply dynamics feel like they're getting worse, not better. TI is in a great position to support customers' supply requirements, and I think they do value the team's supply capability. And I assume they're willing to pay a premium for the assurance and predictability offer, but I wanted to get an update from you there on annual pricing negotiations.",
+   "parts": [
+    {
+     "t0_ms": 610000,
+     "text": "I appreciate the answer."
+    },
+    {
+     "t0_ms": 612000,
+     "text": "Last quarter, Javi, we talked about the potential for broader positive pricing initiatives as you hold your annual pricing negotiations for next year."
+    },
+    {
+     "t0_ms": 620000,
+     "text": "That would overlay not just on your analog and product, but also on your overall pricing."
+    },
+    {
+     "t0_ms": 623000,
+     "text": "I think you also touched on your analog and power products, but also on your embedded products as well."
+    },
+    {
+     "t0_ms": 626000,
+     "text": "Can you give us an update here?"
+    },
+    {
+     "t0_ms": 628000,
+     "text": "I mean, industry supply dynamics feel like they're getting worse, not better."
+    },
+    {
+     "t0_ms": 633000,
+     "text": "TI is in a great position to support customers' supply requirements, and I think they do value the team's supply capability."
+    },
+    {
+     "t0_ms": 640000,
+     "text": "And I assume they're willing to pay a premium for the assurance and predictability offer, but I wanted to get an update from you there on annual pricing negotiations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 651000,
+   "t1_ms": 696000,
+   "speaker": "Management",
+   "text": "Yeah. So, first, a high-level picture, Holland, as you mentioned. There is a stronger demand environment right now. And if you look at the area of foundational chips, as I call it, but specifically analog, there hasn't been a lot of addition into capacity in the last four years since the previous peak of the market during the COVID days. So, especially if you do care about geopolitically dependable capacity, meaning usually factories outside of China and Taiwan. Yeah. So, in this case, TI has a good position. We are seeing our customers value our investment and also capacity to continue to grow them, not only in the next quarter, but also in the foreseeable future.",
+   "parts": [
+    {
+     "t0_ms": 651000,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 652000,
+     "text": "So, first, a high-level picture, Holland, as you mentioned."
+    },
+    {
+     "t0_ms": 656000,
+     "text": "There is a stronger demand environment right now."
+    },
+    {
+     "t0_ms": 660000,
+     "text": "And if you look at the area of foundational chips, as I call it, but specifically analog, there hasn't been a lot of addition into capacity in the last four years since the previous peak of the market during the COVID days."
+    },
+    {
+     "t0_ms": 674000,
+     "text": "So, especially if you do care about geopolitically dependable capacity, meaning usually factories outside of China and Taiwan."
+    },
+    {
+     "t0_ms": 680000,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 681000,
+     "text": "So, in this case, TI has a good position."
+    },
+    {
+     "t0_ms": 683000,
+     "text": "We are seeing our customers value our investment and also capacity to continue to grow them, not only in the next quarter, but also in the foreseeable future."
+    }
+   ]
+  },
+  {
+   "t0_ms": 696000,
+   "t1_ms": 739000,
+   "speaker": "Management",
+   "text": "So, that's a good characterization of the situation we are in. Regarding pricing specifically, look, most of our pricing discussions are done once a year with our customers, but we did see some areas in the middle of the year where we had the opportunity to do some pricing. We had the opportunity to talk to customers that wanted more supply more urgently. And in this case, and Julie indicated in her answer, we did see some price movement, I would say, many on the analog side in the second half. I would just characterize it the second half of 2026 after a flat pricing environment year over year in the first half of 2026. So, we are seeing a little bit of an uptick, not very significant for this year. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 696000,
+     "text": "So, that's a good characterization of the situation we are in."
+    },
+    {
+     "t0_ms": 699000,
+     "text": "Regarding pricing specifically, look, most of our pricing discussions are done once a year with our customers, but we did see some areas in the middle of the year where we had the opportunity to do some pricing."
+    },
+    {
+     "t0_ms": 709000,
+     "text": "We had the opportunity to talk to customers that wanted more supply more urgently."
+    },
+    {
+     "t0_ms": 715000,
+     "text": "And in this case, and Julie indicated in her answer, we did see some price movement, I would say, many on the analog side in the second half."
+    },
+    {
+     "t0_ms": 725000,
+     "text": "I would just characterize it the second half of 2026 after a flat pricing environment year over year in the first half of 2026."
+    },
+    {
+     "t0_ms": 734000,
+     "text": "So, we are seeing a little bit of an uptick, not very significant for this year."
+    },
+    {
+     "t0_ms": 738000,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 739000,
+   "t1_ms": 769000,
+   "speaker": "Management",
+   "text": "For 2027, yes, we are now engaged in the discussions you just mentioned. We are looking at the customer's demand and what type of supply they want to guarantee, if you will, or to get supported from TI. And that has a pricing element to it. So, I think we will report more of it when we provide our results, mainly our guidance during the January call. All right. Thank you, Harlan. We'll move on to our next caller, please. All right.",
+   "parts": [
+    {
+     "t0_ms": 739000,
+     "text": "For 2027, yes, we are now engaged in the discussions you just mentioned."
+    },
+    {
+     "t0_ms": 743000,
+     "text": "We are looking at the customer's demand and what type of supply they want to guarantee, if you will, or to get supported from TI."
+    },
+    {
+     "t0_ms": 752000,
+     "text": "And that has a pricing element to it."
+    },
+    {
+     "t0_ms": 754000,
+     "text": "So, I think we will report more of it when we provide our results, mainly our guidance during the January call."
+    },
+    {
+     "t0_ms": 765000,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 766000,
+     "text": "Thank you, Harlan."
+    },
+    {
+     "t0_ms": 767000,
+     "text": "We'll move on to our next caller, please."
+    },
+    {
+     "t0_ms": 768000,
+     "text": "All right."
+    }
+   ]
+  },
+  {
+   "t0_ms": 769000,
+   "t1_ms": 776000,
+   "speaker": "Operator",
+   "text": "Thank you, Harlan. Our next question comes from Stacy Rasgon with Bernstein Research. You may proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 769000,
+     "text": "Thank you, Harlan."
+    },
+    {
+     "t0_ms": 770000,
+     "text": "Our next question comes from Stacy Rasgon with Bernstein Research."
+    },
+    {
+     "t0_ms": 774000,
+     "text": "You may proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 776000,
+   "t1_ms": 814000,
+   "speaker": "Analyst",
+   "text": "Hi, guys. Thanks for taking my questions. I wanted to ask about the in-market outlook that's embedded in guidance. Usually Q4 just seasonally is down, I don't know, mid-single to high single, maybe even more sometimes. And I get it's calculators and personal electronics typically. You're guiding Flattish, which is well above. It's probably one of your stronger Q4s in quite a while, probably since the COVID cycle. What is embedded there that puts and takes on end markets, given those sort of typical seasonal patterns? And what are you seeing across the markets now that's driving things stronger?",
+   "parts": [
+    {
+     "t0_ms": 776000,
+     "text": "Hi, guys."
+    },
+    {
+     "t0_ms": 777000,
+     "text": "Thanks for taking my questions."
+    },
+    {
+     "t0_ms": 779000,
+     "text": "I wanted to ask about the in-market outlook that's embedded in guidance."
+    },
+    {
+     "t0_ms": 784000,
+     "text": "Usually Q4 just seasonally is down, I don't know, mid-single to high single, maybe even more sometimes."
+    },
+    {
+     "t0_ms": 790000,
+     "text": "And I get it's calculators and personal electronics typically."
+    },
+    {
+     "t0_ms": 794000,
+     "text": "You're guiding Flattish, which is well above."
+    },
+    {
+     "t0_ms": 797000,
+     "text": "It's probably one of your stronger Q4s in quite a while, probably since the COVID cycle."
+    },
+    {
+     "t0_ms": 802000,
+     "text": "What is embedded there that puts and takes on end markets, given those sort of typical seasonal patterns?"
+    },
+    {
+     "t0_ms": 808000,
+     "text": "And what are you seeing across the markets now that's driving things stronger?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 814000,
+   "t1_ms": 855000,
+   "speaker": "Management",
+   "text": "Stacy, I'll take a stab at it. I'm not going to guide by market. As you know, we don't. But I will just give a little bit of color. You know, the data center market. It's a... It's a market that we see strong secular growth. I don't think it's influenced by seasonality. The demand continues to be strong and growing. So, and it's just a bigger part of our business now. I think it was about 13% of revenue in Q3 or so. So, I think just you see that coming in and just helping, if you will, the transition from Q3 to Q4. But on top of it, I'm very excited about what we're seeing on the industrial market.",
+   "parts": [
+    {
+     "t0_ms": 814000,
+     "text": "Stacy, I'll take a stab at it."
+    },
+    {
+     "t0_ms": 816000,
+     "text": "I'm not going to guide by market."
+    },
+    {
+     "t0_ms": 820000,
+     "text": "As you know, we don't."
+    },
+    {
+     "t0_ms": 822000,
+     "text": "But I will just give a little bit of color."
+    },
+    {
+     "t0_ms": 824000,
+     "text": "You know, the data center market."
+    },
+    {
+     "t0_ms": 825000,
+     "text": "It's a..."
+    },
+    {
+     "t0_ms": 826000,
+     "text": "It's a market that we see strong secular growth."
+    },
+    {
+     "t0_ms": 830000,
+     "text": "I don't think it's influenced by seasonality."
+    },
+    {
+     "t0_ms": 834000,
+     "text": "The demand continues to be strong and growing."
+    },
+    {
+     "t0_ms": 837000,
+     "text": "So, and it's just a bigger part of our business now."
+    },
+    {
+     "t0_ms": 840000,
+     "text": "I think it was about 13% of revenue in Q3 or so."
+    },
+    {
+     "t0_ms": 843000,
+     "text": "So, I think just you see that coming in and just helping, if you will, the transition from Q3 to Q4."
+    },
+    {
+     "t0_ms": 851000,
+     "text": "But on top of it, I'm very excited about what we're seeing on the industrial market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 855000,
+   "t1_ms": 900000,
+   "speaker": "Management",
+   "text": "We are seeing a very strong momentum in industrial across the sectors, but specifically in areas like aerospace and defense, energy infrastructure, test and measurement, the robotics sector. So, this is where we see a combination of secular growth, but also sequential or cyclical recovery, I would say. So, this is why we're seeing an above seasonal forecast on PI. We also saw the automotive customers waking up. We saw the automotive customers waking up. We saw the automotive customers waking up, if you will, with a higher demand in Q3. And I think that may continue into Q4. So, again, the top three markets, industrial automotive and data center, are the ones that are driving our guys into Q4.",
+   "parts": [
+    {
+     "t0_ms": 855000,
+     "text": "We are seeing a very strong momentum in industrial across the sectors, but specifically in areas like aerospace and defense, energy infrastructure, test and measurement, the robotics sector."
+    },
+    {
+     "t0_ms": 868000,
+     "text": "So, this is where we see a combination of secular growth, but also sequential or cyclical recovery, I would say."
+    },
+    {
+     "t0_ms": 877000,
+     "text": "So, this is why we're seeing an above seasonal forecast on PI."
+    },
+    {
+     "t0_ms": 881000,
+     "text": "We also saw the automotive customers waking up."
+    },
+    {
+     "t0_ms": 883000,
+     "text": "We saw the automotive customers waking up."
+    },
+    {
+     "t0_ms": 884000,
+     "text": "We saw the automotive customers waking up, if you will, with a higher demand in Q3."
+    },
+    {
+     "t0_ms": 888000,
+     "text": "And I think that may continue into Q4."
+    },
+    {
+     "t0_ms": 890000,
+     "text": "So, again, the top three markets, industrial automotive and data center, are the ones that are driving our guys into Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 900000,
+   "t1_ms": 903000,
+   "speaker": "Management",
+   "text": "Do you have a follow-up, Jason? I do, thanks.",
+   "parts": [
+    {
+     "t0_ms": 900000,
+     "text": "Do you have a follow-up, Jason?"
+    },
+    {
+     "t0_ms": 902000,
+     "text": "I do, thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 903000,
+   "t1_ms": 924000,
+   "speaker": "Analyst",
+   "text": "I wanted to ask about CapEx. So, you've been talking about you'll be near the higher end of the $2 to $3 billion range for the year. And are you still going to be tracking there in the one quarter that we have left? And I guess in addition to that, you talked about continuing to invest in manufacturing to support demand. So, like, how do we think about CapEx in 27 relative to 26, given that statement?",
+   "parts": [
+    {
+     "t0_ms": 903000,
+     "text": "I wanted to ask about CapEx."
+    },
+    {
+     "t0_ms": 905000,
+     "text": "So, you've been talking about you'll be near the higher end of the $2 to $3 billion range for the year."
+    },
+    {
+     "t0_ms": 909000,
+     "text": "And are you still going to be tracking there in the one quarter that we have left?"
+    },
+    {
+     "t0_ms": 913000,
+     "text": "And I guess in addition to that, you talked about continuing to invest in manufacturing to support demand."
+    },
+    {
+     "t0_ms": 919000,
+     "text": "So, like, how do we think about CapEx in 27 relative to 26, given that statement?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 924000,
+   "t1_ms": 965000,
+   "speaker": "Management",
+   "text": "Yeah, let me start with 26 right now, Stacey. And, of course, we'll give some more color during our February call for capital management about what we're seeing. But high level, you're right. We are aiming to continue to invest right now in 26. Somewhere between two and three. And, yes, we want to aim higher. But also we are seeing lead times extending on tools and everything, especially on the back end side. So, that is very, very tactical situation. But we do want to expand capacity. As you know, we have plenty of clean room. And we are seeing strong demand, leaving the, you know, this quarter we grew in the high 20s.",
+   "parts": [
+    {
+     "t0_ms": 924000,
+     "text": "Yeah, let me start with 26 right now, Stacey."
+    },
+    {
+     "t0_ms": 928000,
+     "text": "And, of course, we'll give some more color during our February call for capital management about what we're seeing."
+    },
+    {
+     "t0_ms": 933000,
+     "text": "But high level, you're right."
+    },
+    {
+     "t0_ms": 935000,
+     "text": "We are aiming to continue to invest right now in 26."
+    },
+    {
+     "t0_ms": 942000,
+     "text": "Somewhere between two and three."
+    },
+    {
+     "t0_ms": 944000,
+     "text": "And, yes, we want to aim higher."
+    },
+    {
+     "t0_ms": 946000,
+     "text": "But also we are seeing lead times extending on tools and everything, especially on the back end side."
+    },
+    {
+     "t0_ms": 951000,
+     "text": "So, that is very, very tactical situation."
+    },
+    {
+     "t0_ms": 954000,
+     "text": "But we do want to expand capacity."
+    },
+    {
+     "t0_ms": 956000,
+     "text": "As you know, we have plenty of clean room."
+    },
+    {
+     "t0_ms": 959000,
+     "text": "And we are seeing strong demand, leaving the, you know, this quarter we grew in the high 20s."
+    }
+   ]
+  },
+  {
+   "t0_ms": 965000,
+   "t1_ms": 1008020,
+   "speaker": "Management",
+   "text": "So, you do want to make sure you continue to fill that clean room with tools, both on the back end, but also later on on the front end. Thank you. Thank you. And then, of course, we want to expand capacity. But also, you know, we're seeing a lot of demand from the top end side. So, we are leaning in. And, again, now, when we talk about CapEx, it's when tools are, you know, coming in, delivered by our suppliers. And that's what influences more or less the results. But you should expect somewhere between two to three billion this year and maybe on the higher end if we get that execution as planned. Now, regarding 27, I won't say anything right now about the numbers. and what our aspiration of growth is, Stacey. I think we've given a framework at the time of what CapEx will do",
+   "parts": [
+    {
+     "t0_ms": 965000,
+     "text": "So, you do want to make sure you continue to fill that clean room with tools, both on the back end, but also later on on the front end."
+    },
+    {
+     "t0_ms": 971000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 972000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 973000,
+     "text": "And then, of course, we want to expand capacity."
+    },
+    {
+     "t0_ms": 974000,
+     "text": "But also, you know, we're seeing a lot of demand from the top end side."
+    },
+    {
+     "t0_ms": 976000,
+     "text": "So, we are leaning in."
+    },
+    {
+     "t0_ms": 978000,
+     "text": "And, again, now, when we talk about CapEx, it's when tools are, you know, coming in, delivered by our suppliers."
+    },
+    {
+     "t0_ms": 985000,
+     "text": "And that's what influences more or less the results."
+    },
+    {
+     "t0_ms": 990000,
+     "text": "But you should expect somewhere between two to three billion this year and maybe on the higher end if we get that execution as planned."
+    },
+    {
+     "t0_ms": 998000,
+     "text": "Now, regarding 27, I won't say anything right now about the numbers."
+    },
+    {
+     "t0_ms": 1001000,
+     "text": "and what our aspiration of growth is, Stacey."
+    },
+    {
+     "t0_ms": 1003600,
+     "text": "I think we've given a framework at the time of what CapEx will do"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1008020,
+   "t1_ms": 1049720,
+   "speaker": "Management",
+   "text": "as a function of the expected longer-term revenue growth. Of course, you're investing ahead of demand, right? So there is a certain CapEx level to support the 10% growth versus a higher CapEx level to support mid-teens growth, for example. And this is where we want to provide some more color in our February call. I will say that we are in a position to control our destiny. We have taken care of the long lead time investments on clean rooms, including all the sub-fub and all the, to be fair, the equipment that takes right now a very long time to get and build and get qualified. So I'm very excited about that.",
+   "parts": [
+    {
+     "t0_ms": 1008020,
+     "text": "as a function of the expected longer-term revenue growth."
+    },
+    {
+     "t0_ms": 1011460,
+     "text": "Of course, you're investing ahead of demand, right?"
+    },
+    {
+     "t0_ms": 1014320,
+     "text": "So there is a certain CapEx level to support the 10% growth"
+    },
+    {
+     "t0_ms": 1018100,
+     "text": "versus a higher CapEx level to support mid-teens growth, for example."
+    },
+    {
+     "t0_ms": 1023420,
+     "text": "And this is where we want to provide some more color in our February call."
+    },
+    {
+     "t0_ms": 1028740,
+     "text": "I will say that we are in a position to control our destiny."
+    },
+    {
+     "t0_ms": 1035119,
+     "text": "We have taken care of the long lead time investments on clean rooms,"
+    },
+    {
+     "t0_ms": 1039000,
+     "text": "including all the sub-fub and all the, to be fair,"
+    },
+    {
+     "t0_ms": 1042359,
+     "text": "the equipment that takes right now a very long time to get and build and get qualified."
+    },
+    {
+     "t0_ms": 1047859,
+     "text": "So I'm very excited about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1050300,
+   "t1_ms": 1064520,
+   "speaker": "Management",
+   "text": "We do have the slot reserved for 27 and beyond, and we are going to modulate the incoming rate based on the revenue growth. We would like to support, okay? All right. Thank you for the question, Stacey. Moving on to our next caller, please.",
+   "parts": [
+    {
+     "t0_ms": 1050300,
+     "text": "We do have the slot reserved for 27 and beyond,"
+    },
+    {
+     "t0_ms": 1053120,
+     "text": "and we are going to modulate the incoming rate"
+    },
+    {
+     "t0_ms": 1056440,
+     "text": "based on the revenue growth."
+    },
+    {
+     "t0_ms": 1058500,
+     "text": "We would like to support, okay?"
+    },
+    {
+     "t0_ms": 1060560,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 1061260,
+     "text": "Thank you for the question, Stacey."
+    },
+    {
+     "t0_ms": 1062960,
+     "text": "Moving on to our next caller, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1065360,
+   "t1_ms": 1070500,
+   "speaker": "Operator",
+   "text": "Our next question comes from the line of Chris Caso with Wolf Research. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1065360,
+     "text": "Our next question comes from the line of Chris Caso with Wolf Research."
+    },
+    {
+     "t0_ms": 1069340,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1071700,
+   "t1_ms": 1103840,
+   "speaker": "Analyst",
+   "text": "Yes, thanks. Good evening. Our first question was to dig in a little more on the industrial market. And, you know, that market has been in recovery for some time now. You're seeing it up 40% year on year and a quarter. I guess the question is, you know, what's your level? What's your level of conviction that when this recovers, you know, how much of that recovery do you think was, has been driven by, you know, cyclical factors as opposed to secular factors, such as, you know, the growth in some of those individual segments?",
+   "parts": [
+    {
+     "t0_ms": 1071700,
+     "text": "Yes, thanks."
+    },
+    {
+     "t0_ms": 1072520,
+     "text": "Good evening."
+    },
+    {
+     "t0_ms": 1073200,
+     "text": "Our first question was to dig in a little more on the industrial market."
+    },
+    {
+     "t0_ms": 1076980,
+     "text": "And, you know, that market has been in recovery for some time now."
+    },
+    {
+     "t0_ms": 1081760,
+     "text": "You're seeing it up 40% year on year and a quarter."
+    },
+    {
+     "t0_ms": 1085440,
+     "text": "I guess the question is, you know,"
+    },
+    {
+     "t0_ms": 1087840,
+     "text": "what's your level?"
+    },
+    {
+     "t0_ms": 1088400,
+     "text": "What's your level of conviction that when this recovers,"
+    },
+    {
+     "t0_ms": 1092300,
+     "text": "you know, how much of that recovery do you think was,"
+    },
+    {
+     "t0_ms": 1094800,
+     "text": "has been driven by, you know, cyclical factors as opposed to secular factors,"
+    },
+    {
+     "t0_ms": 1100560,
+     "text": "such as, you know, the growth in some of those individual segments?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1105180,
+   "t1_ms": 1148300,
+   "speaker": "Management",
+   "text": "Yes. So let me start. And, Mike, maybe you can offer some more color on the sectors inside the industrial. But high level, the excitement I have about the industrial is growing very fast. But only now in Q3, 2026, it reached the same level of revenue we had in Q3, 2022. So this is the first time we created a new peak in industrial after, you know, four years. I do believe that systems that are being designed by our customers four years later than the COVID peak are much more rich with content. We are seeing end equipment by end equipment, sector by sector, that there is just more content per system as customers want to achieve higher precision, higher speed.",
+   "parts": [
+    {
+     "t0_ms": 1105180,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1105720,
+     "text": "So let me start."
+    },
+    {
+     "t0_ms": 1106520,
+     "text": "And, Mike, maybe you can offer some more color on the sectors inside the industrial."
+    },
+    {
+     "t0_ms": 1111740,
+     "text": "But high level, the excitement I have about the industrial is growing very fast."
+    },
+    {
+     "t0_ms": 1115920,
+     "text": "But only now in Q3, 2026,"
+    },
+    {
+     "t0_ms": 1118400,
+     "text": "it reached the same level of revenue we had in Q3, 2022."
+    },
+    {
+     "t0_ms": 1124120,
+     "text": "So this is the first time we created a new peak in industrial after, you know, four years."
+    },
+    {
+     "t0_ms": 1131080,
+     "text": "I do believe that systems that are being designed by our customers four years later than the COVID peak are much more rich with content."
+    },
+    {
+     "t0_ms": 1138380,
+     "text": "We are seeing end equipment by end equipment, sector by sector, that there is just more content per system as customers want to achieve higher precision, higher speed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1148400,
+   "t1_ms": 1184360,
+   "speaker": "Management",
+   "text": "Higher quality, more throughput, whatever they want to drive. Right. So that is there. I also believe our portfolio has done very well in terms of, you know, we've built more and more parts in the last several years invested in R&D. And I think we want a larger share per system based on our portfolio. So I'm excited about that as well. Now, there was also some, you know, secular areas of growth like aerospace and defense and also, you know, data center induced sectors. I'll let Mike comment. That's great. Thank you. Thank you. I'm going to share about the different sectors. Some of them, by the way, have not reached their previous peak yet. So we are in early innings. Right.",
+   "parts": [
+    {
+     "t0_ms": 1148400,
+     "text": "Higher quality, more throughput, whatever they want to drive."
+    },
+    {
+     "t0_ms": 1152620,
+     "text": "Right."
+    },
+    {
+     "t0_ms": 1152960,
+     "text": "So that is there."
+    },
+    {
+     "t0_ms": 1155120,
+     "text": "I also believe our portfolio has done very well in terms of, you know, we've built more and more parts in the last several years invested in R&D."
+    },
+    {
+     "t0_ms": 1161520,
+     "text": "And I think we want a larger share per system based on our portfolio."
+    },
+    {
+     "t0_ms": 1164920,
+     "text": "So I'm excited about that as well."
+    },
+    {
+     "t0_ms": 1167520,
+     "text": "Now, there was also some, you know, secular areas of growth like aerospace and defense and also, you know, data center induced sectors."
+    },
+    {
+     "t0_ms": 1175580,
+     "text": "I'll let Mike comment."
+    },
+    {
+     "t0_ms": 1176800,
+     "text": "That's great."
+    },
+    {
+     "t0_ms": 1177300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1177800,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1178400,
+     "text": "I'm going to share about the different sectors."
+    },
+    {
+     "t0_ms": 1179860,
+     "text": "Some of them, by the way, have not reached their previous peak yet."
+    },
+    {
+     "t0_ms": 1182460,
+     "text": "So we are in early innings."
+    },
+    {
+     "t0_ms": 1183720,
+     "text": "Right."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1184360,
+   "t1_ms": 1224020,
+   "speaker": "Management",
+   "text": "So some of the sectors, as you probably know, that have had, you know, industry level unit demand like aerospace and defense are the ones that are more closely adjacent to data center like energy infrastructure or test and measurement, you know, make all new highs over time. But even areas like industrial automation that are, you know, going through recovery have also had, as you described, four years of content. Increase, you know, gen to gen secular content growth. So as we look at the industrial end market, we see opportunity ahead there. And as you mentioned, it's just now reached a little bit above its previous peak. But again, that's four years of content expansion. So we look forward to serving that market well in the quarters ahead. So you have a follow up. You have a follow up, Mike. So another way we can give, with the market, is quickly, certainly, to give some insight into the health and safety of a product. And so what I think is really critical is really that we look at the whole market. We have three main factors that we really look forward to and we want to be able to provide for out there that can help us better. And so we have to have a market that can treat all of our products when and how they're used in their delivery market. reached a little bit above its previous peak, but again, that's four years of content expansion. So",
+   "parts": [
+    {
+     "t0_ms": 1184360,
+     "text": "So some of the sectors, as you probably know, that have had, you know, industry level unit demand like aerospace and defense are the ones that are more closely adjacent to data center like energy infrastructure or test and measurement, you know, make all new highs over time."
+    },
+    {
+     "t0_ms": 1200240,
+     "text": "But even areas like industrial automation that are, you know, going through recovery have also had, as you described, four years of content."
+    },
+    {
+     "t0_ms": 1208400,
+     "text": "Increase, you know, gen to gen secular content growth."
+    },
+    {
+     "t0_ms": 1209400,
+     "text": "So as we look at the industrial end market, we see opportunity ahead there."
+    },
+    {
+     "t0_ms": 1210400,
+     "text": "And as you mentioned, it's just now reached a little bit above its previous peak."
+    },
+    {
+     "t0_ms": 1211400,
+     "text": "But again, that's four years of content expansion."
+    },
+    {
+     "t0_ms": 1212400,
+     "text": "So we look forward to serving that market well in the quarters ahead."
+    },
+    {
+     "t0_ms": 1213400,
+     "text": "So you have a follow up."
+    },
+    {
+     "t0_ms": 1214400,
+     "text": "You have a follow up, Mike."
+    },
+    {
+     "t0_ms": 1215400,
+     "text": "So another way we can give, with the market, is quickly, certainly, to give some insight into the health and safety of a product."
+    },
+    {
+     "t0_ms": 1216400,
+     "text": "And so what I think is really critical is really that we look at the whole market."
+    },
+    {
+     "t0_ms": 1217400,
+     "text": "We have three main factors that we really look forward to and we want to be able to provide for out there that can help us better."
+    },
+    {
+     "t0_ms": 1218400,
+     "text": "And so we have to have a market that can treat all of our products when and how they're used in their delivery market."
+    },
+    {
+     "t0_ms": 1219400,
+     "text": "reached a little bit above its previous peak, but again, that's four years of content expansion. So"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1224020,
+   "t1_ms": 1229980,
+   "speaker": "Management",
+   "text": "we look forward to serving that market well in the quarters ahead. So do you have a follow-up?",
+   "parts": [
+    {
+     "t0_ms": 1224020,
+     "text": "we look forward to serving that market well in the quarters ahead. So do you have a follow-up?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1231180,
+   "t1_ms": 1255540,
+   "speaker": "Analyst",
+   "text": "I do, thanks. The follow-up question is on embedded. And now that I guess the second Lehigh shell will be ready by the end of the year, maybe you can talk about how you intend to deploy that as you're going to next year. And as you said, it does seem like industry capacity is getting tighter. What benefit does that bring to you? What are your plans for next year?",
+   "parts": [
+    {
+     "t0_ms": 1231180,
+     "text": "I do, thanks. The follow-up question is on embedded. And now that I guess the second"
+    },
+    {
+     "t0_ms": 1238860,
+     "text": "Lehigh shell will be ready by the end of the year, maybe you can talk about how you intend to deploy"
+    },
+    {
+     "t0_ms": 1243880,
+     "text": "that as you're going to next year. And as you said, it does seem like industry capacity is"
+    },
+    {
+     "t0_ms": 1249860,
+     "text": "getting tighter. What benefit does that bring to you? What are your plans for next year?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1256140,
+   "t1_ms": 1295910,
+   "speaker": "Management",
+   "text": "And does that have any margin impact? Yes. So on the embedded side, we are seeing that our investment in Lehigh, Lehigh 1 and Lehigh 2 is extremely beneficial. On Lehigh 1, as you remember, we have transferred a lot of our foundry-based business into Lehigh 1, but we still have plenty of clean room in Lehigh 1. So we are going to grow into that. That will carry us, you know, at least in the following, in the coming quarters. But we do have Lehigh 2, as you mentioned there, to continue to grow embedded",
+   "parts": [
+    {
+     "t0_ms": 1256140,
+     "text": "And does that have any margin impact? Yes. So on the embedded side, we are seeing that"
+    },
+    {
+     "t0_ms": 1265310,
+     "text": "our investment in Lehigh, Lehigh 1 and Lehigh 2 is extremely beneficial. On Lehigh 1, as you"
+    },
+    {
+     "t0_ms": 1272950,
+     "text": "remember, we have transferred a lot of our"
+    },
+    {
+     "t0_ms": 1275390,
+     "text": "foundry-based business into Lehigh 1, but we still have plenty of clean room in Lehigh 1. So"
+    },
+    {
+     "t0_ms": 1281210,
+     "text": "we are going to grow into that. That will carry us, you know, at least in the following, in the"
+    },
+    {
+     "t0_ms": 1287290,
+     "text": "coming quarters. But we do have Lehigh 2, as you mentioned there, to continue to grow embedded"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1295910,
+   "t1_ms": 1337130,
+   "speaker": "Management",
+   "text": "at the rate which demand will indicate. So we are right now looking at the numbers. I think that the embedded business, the embedded business, the embedded business, the embedded business, in general, I think this is not only a TI comment, but in terms of the cyclical recovery, I would call it maybe a year beyond, you know, later than analog. We saw that the embedded business peaked in 2023, while analog for TI, while analog peaked in 2022. I also believe that the supply, you know, demand mismatch is higher in analog because some of the analog supply, to be fair, went off the ground. So I think that's a good point. I think that's a good point. I think that's a very good point. So we have been off the ground in the last few years and",
+   "parts": [
+    {
+     "t0_ms": 1295910,
+     "text": "at the rate which demand will indicate. So we are right now looking at the numbers. I think that"
+    },
+    {
+     "t0_ms": 1304390,
+     "text": "the embedded business, the embedded business, the embedded business, the embedded business,"
+    },
+    {
+     "t0_ms": 1305370,
+     "text": "in general, I think this is not only a TI comment, but in terms of the cyclical recovery,"
+    },
+    {
+     "t0_ms": 1311210,
+     "text": "I would call it maybe a year beyond, you know, later than analog. We saw that"
+    },
+    {
+     "t0_ms": 1318130,
+     "text": "the embedded business peaked in 2023, while analog for TI, while analog peaked in 2022."
+    },
+    {
+     "t0_ms": 1326610,
+     "text": "I also believe that the supply, you know, demand mismatch is higher in analog because some of the"
+    },
+    {
+     "t0_ms": 1333670,
+     "text": "analog supply, to be fair, went off the ground. So I think that's a good point. I think that's a good"
+    },
+    {
+     "t0_ms": 1335370,
+     "text": "point. I think that's a very good point. So we have been off the ground in the last few years and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1337130,
+   "t1_ms": 1378810,
+   "speaker": "Management",
+   "text": "more is coming out as some of the foundries are transitioning their supply base to support non-analog, you know, portfolio parts. So with that stance, I think the pressure is now higher, and this is why we're seeing higher growth on analog. Having said that, embedded is well positioned. Our portfolio is growing. We have clean room in El Fabian. We, you know, have been in the market, you know, in the release. We have been in the market for a long time, so we have a lot of clients that are, you know, people that are interested in relations with us. So, we have a lot of clients that are interested in relations with us. We have a lot of clients that are interested in involving with us. So, we have a lot of clients that are \u0438\u0434\u0435\u0442 along with systems that We have the shell in LFAB2 that is the last stages of completion, so we can modulate now tool installations according to what demand says. Last but not least, I want to mention our plan with the Silicon Labs acquisition.",
+   "parts": [
+    {
+     "t0_ms": 1337130,
+     "text": "more is coming out as some of the foundries are transitioning their supply base to support"
+    },
+    {
+     "t0_ms": 1344430,
+     "text": "non-analog, you know, portfolio parts. So with that stance, I think the pressure is now higher,"
+    },
+    {
+     "t0_ms": 1353710,
+     "text": "and this is why we're seeing higher growth on analog. Having said that, embedded is well"
+    },
+    {
+     "t0_ms": 1358590,
+     "text": "positioned. Our portfolio is growing. We have clean room in El Fabian. We, you know, have been"
+    },
+    {
+     "t0_ms": 1362510,
+     "text": "in the market, you know, in the release. We have been in the market for a long time, so we have"
+    },
+    {
+     "t0_ms": 1363430,
+     "text": "a lot of clients that are, you know, people that are interested in relations with us. So,"
+    },
+    {
+     "t0_ms": 1363630,
+     "text": "we have a lot of clients that are interested in relations with us. We have a lot of clients that are"
+    },
+    {
+     "t0_ms": 1363710,
+     "text": "interested in involving with us. So, we have a lot of clients that are \u0438\u0434\u0435\u0442 along with systems that"
+    },
+    {
+     "t0_ms": 1364710,
+     "text": "We have the shell in LFAB2 that is the last stages of completion, so we can modulate now"
+    },
+    {
+     "t0_ms": 1371290,
+     "text": "tool installations according to what demand says."
+    },
+    {
+     "t0_ms": 1374470,
+     "text": "Last but not least, I want to mention our plan with the Silicon Labs acquisition."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1378810,
+   "t1_ms": 1419710,
+   "speaker": "Management",
+   "text": "That's another clean room that will serve the transitioning of the portfolio that right now is running in foundries into, again, into Lehigh. From a growth margin perspective, we are seeing strong progress. I think we've seen it in the last several quarters. Julie, right? Is it a couple of points per quarter that we are seeing lately? Yes. I think about 10.0 over a year or something. I do see that the embedded has room to grow in the sense of not only top line growth, but also growth margins as well. Moving on to our next caller, please.",
+   "parts": [
+    {
+     "t0_ms": 1378810,
+     "text": "That's another clean room that will serve the transitioning of the portfolio that right"
+    },
+    {
+     "t0_ms": 1384610,
+     "text": "now is running in foundries into, again, into Lehigh."
+    },
+    {
+     "t0_ms": 1390350,
+     "text": "From a growth margin perspective, we are seeing strong progress."
+    },
+    {
+     "t0_ms": 1393350,
+     "text": "I think we've seen it in the last several quarters."
+    },
+    {
+     "t0_ms": 1395590,
+     "text": "Julie, right?"
+    },
+    {
+     "t0_ms": 1396590,
+     "text": "Is it a couple of points per quarter that we are seeing lately?"
+    },
+    {
+     "t0_ms": 1398590,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1399590,
+     "text": "I think about 10.0 over a year or something."
+    },
+    {
+     "t0_ms": 1402550,
+     "text": "I do see that the embedded has room to grow in the sense of not only top line growth,"
+    },
+    {
+     "t0_ms": 1411670,
+     "text": "but also growth margins as well."
+    },
+    {
+     "t0_ms": 1416580,
+     "text": "Moving on to our next caller, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1419710,
+   "t1_ms": 1425930,
+   "speaker": "Operator",
+   "text": "Our next question comes from the line of Joe Quattrochi with Wells Fargo & Company. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1419710,
+     "text": "Our next question comes from the line of Joe Quattrochi with Wells Fargo & Company."
+    },
+    {
+     "t0_ms": 1423930,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1425930,
+   "t1_ms": 1448830,
+   "speaker": "Analyst",
+   "text": "Yes. Thanks for taking the questions. I wanted to ask about the auto demand commentary you provided, talking about you're seeing customers wake up a little bit. Can you give a little bit more color? Is that broad base demand that you're seeing, and are you seeing customers add more inventory, and is that across analog and embedded, or more concentrated? Yes.",
+   "parts": [
+    {
+     "t0_ms": 1425930,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1426590,
+     "text": "Thanks for taking the questions."
+    },
+    {
+     "t0_ms": 1428350,
+     "text": "I wanted to ask about the auto demand commentary you provided, talking about you're seeing"
+    },
+    {
+     "t0_ms": 1433510,
+     "text": "customers wake up a little bit."
+    },
+    {
+     "t0_ms": 1434830,
+     "text": "Can you give a little bit more color?"
+    },
+    {
+     "t0_ms": 1436990,
+     "text": "Is that broad base demand that you're seeing, and are you seeing customers add more inventory,"
+    },
+    {
+     "t0_ms": 1443270,
+     "text": "and is that across analog and embedded, or more concentrated?"
+    },
+    {
+     "t0_ms": 1447830,
+     "text": "Yes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1448830,
+   "t1_ms": 1492750,
+   "speaker": "Management",
+   "text": "Yes. I will start. Automotive, I think I will describe that. Automotive is a very important part of the business. Automotive is a very important part of the business. Automotive is a very important part of the business. Automotive is a very important part of the business. I will describe the demand we are seeing in automotive as such that keeping ... Demand is coming in pretty strong in Q3. We did see a nice sequential growth. We are seeing mid-teens year-over-year growth, but I think customers have not kept a lot of inventory on their side. When they saw maybe demand growing maybe a little bit more easy as fuel prices went up, they were not well positioned compared to customers we've seen in other markets. I think that's a good point. I think that's a good point. I think that's a good point. We are now supporting these customers as they are trying to ramp their production.",
+   "parts": [
+    {
+     "t0_ms": 1448830,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1449830,
+     "text": "I will start."
+    },
+    {
+     "t0_ms": 1450830,
+     "text": "Automotive, I think I will describe that."
+    },
+    {
+     "t0_ms": 1451830,
+     "text": "Automotive is a very important part of the business."
+    },
+    {
+     "t0_ms": 1452830,
+     "text": "Automotive is a very important part of the business."
+    },
+    {
+     "t0_ms": 1453830,
+     "text": "Automotive is a very important part of the business."
+    },
+    {
+     "t0_ms": 1454830,
+     "text": "Automotive is a very important part of the business."
+    },
+    {
+     "t0_ms": 1455830,
+     "text": "I will describe the demand we are seeing in automotive as such that keeping ... Demand"
+    },
+    {
+     "t0_ms": 1461330,
+     "text": "is coming in pretty strong in Q3."
+    },
+    {
+     "t0_ms": 1465070,
+     "text": "We did see a nice sequential growth."
+    },
+    {
+     "t0_ms": 1468710,
+     "text": "We are seeing mid-teens year-over-year growth, but I think customers have not kept a lot"
+    },
+    {
+     "t0_ms": 1474110,
+     "text": "of inventory on their side."
+    },
+    {
+     "t0_ms": 1476190,
+     "text": "When they saw maybe demand growing maybe a little bit more easy as fuel prices went up,"
+    },
+    {
+     "t0_ms": 1482790,
+     "text": "they were not well positioned compared to customers we've seen in other markets."
+    },
+    {
+     "t0_ms": 1484590,
+     "text": "I think that's a good point."
+    },
+    {
+     "t0_ms": 1485590,
+     "text": "I think that's a good point."
+    },
+    {
+     "t0_ms": 1486350,
+     "text": "I think that's a good point."
+    },
+    {
+     "t0_ms": 1486850,
+     "text": "We are now supporting these customers as they are trying to ramp their production."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1492750,
+   "t1_ms": 1536770,
+   "speaker": "Management",
+   "text": "I don't see any inventory build up. On the contrary, I wish they had a little bit more, but we are positioned to grow. Of course, the faster you ... You cannot flip a switch to get the output, the right mix immediately. This is where we help some customers with the existing inventory we've built ahead, but some of the parts are more unique and we need to react to customer demand. That's what I'm seeing right now. In terms of region, can you add a little bit, Mike? Yeah. Similar to last quarter, you may recall that we saw China and the US averaging up the overall growth. We continue to see that in third quarter as well. The common around EV mix, you can see it clearly in our sectors as well.",
+   "parts": [
+    {
+     "t0_ms": 1492750,
+     "text": "I don't see any inventory build up."
+    },
+    {
+     "t0_ms": 1495090,
+     "text": "On the contrary, I wish they had a little bit more, but we are positioned to grow."
+    },
+    {
+     "t0_ms": 1500830,
+     "text": "Of course, the faster you ... You cannot flip a switch to get the output, the right mix"
+    },
+    {
+     "t0_ms": 1507370,
+     "text": "immediately."
+    },
+    {
+     "t0_ms": 1508370,
+     "text": "This is where we help some customers with the existing inventory we've built ahead,"
+    },
+    {
+     "t0_ms": 1514850,
+     "text": "but some of the parts are more unique and we need to react to customer demand."
+    },
+    {
+     "t0_ms": 1518090,
+     "text": "That's what I'm seeing right now."
+    },
+    {
+     "t0_ms": 1520090,
+     "text": "In terms of region, can you add a little bit, Mike?"
+    },
+    {
+     "t0_ms": 1523090,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1524090,
+     "text": "Similar to last quarter, you may recall that we saw China and the US averaging up the overall"
+    },
+    {
+     "t0_ms": 1529090,
+     "text": "growth."
+    },
+    {
+     "t0_ms": 1530090,
+     "text": "We continue to see that in third quarter as well."
+    },
+    {
+     "t0_ms": 1532970,
+     "text": "The common around EV mix, you can see it clearly in our sectors as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1536770,
+   "t1_ms": 1551210,
+   "speaker": "Management",
+   "text": "The hybrid electric and powertrain systems sector grew about twice as fast as the overall did. It gives you a sense of the mix that has shifted toward EV inside of that. With that, you have a follow-up. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 1536770,
+     "text": "The hybrid electric and powertrain systems sector grew about twice as fast as the overall"
+    },
+    {
+     "t0_ms": 1543010,
+     "text": "did."
+    },
+    {
+     "t0_ms": 1544010,
+     "text": "It gives you a sense of the mix that has shifted toward EV inside of that."
+    },
+    {
+     "t0_ms": 1549210,
+     "text": "With that, you have a follow-up."
+    },
+    {
+     "t0_ms": 1550210,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1551210,
+   "t1_ms": 1577450,
+   "speaker": "Analyst",
+   "text": "Thanks. Then just to think about it, you talked about back-end tools, lead times starting to extend and things. Capacity, obviously, tight. Does that change any of your plans and how you're thinking about just moving more of your capacity on the back-end side to internal? Are you trying to flex some of your external capacity a little bit more? Just given the pretty significant increase in demand you're seeing?",
+   "parts": [
+    {
+     "t0_ms": 1551210,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1552210,
+     "text": "Then just to think about it, you talked about back-end tools, lead times starting to extend"
+    },
+    {
+     "t0_ms": 1558830,
+     "text": "and things."
+    },
+    {
+     "t0_ms": 1559830,
+     "text": "Capacity, obviously, tight."
+    },
+    {
+     "t0_ms": 1561830,
+     "text": "Does that change any of your plans and how you're thinking about just moving more of"
+    },
+    {
+     "t0_ms": 1567770,
+     "text": "your capacity on the back-end side to internal?"
+    },
+    {
+     "t0_ms": 1570250,
+     "text": "Are you trying to flex some of your external capacity a little bit more?"
+    },
+    {
+     "t0_ms": 1573250,
+     "text": "Just given the pretty significant increase in demand you're seeing?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1577450,
+   "t1_ms": 1618250,
+   "speaker": "Management",
+   "text": "Yeah. I think I commented before earlier this year. We've done it throughout the year. We are not getting as much as we wanted from our OSAT partners. I think it's also just tightness of supply, as you mentioned. We do have a new site in Malaysia that we are ramping very quickly. It's our largest AT site, newly built. I'm very glad we have it. The price is very high. It's a very good site. The parts are being qualified and ramped. We can continue and increase capacity every quarter thanks to the clean room we have. The rate of which we grow is a function of how quickly we add tools. That's also a function of the demand, I would say.",
+   "parts": [
+    {
+     "t0_ms": 1577450,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1578450,
+     "text": "I think I commented before earlier this year."
+    },
+    {
+     "t0_ms": 1581010,
+     "text": "We've done it throughout the year."
+    },
+    {
+     "t0_ms": 1583950,
+     "text": "We are not getting as much as we wanted from our OSAT partners."
+    },
+    {
+     "t0_ms": 1587690,
+     "text": "I think it's also just tightness of supply, as you mentioned."
+    },
+    {
+     "t0_ms": 1591410,
+     "text": "We do have a new site in Malaysia that we are ramping very quickly."
+    },
+    {
+     "t0_ms": 1595050,
+     "text": "It's our largest AT site, newly built."
+    },
+    {
+     "t0_ms": 1599450,
+     "text": "I'm very glad we have it."
+    },
+    {
+     "t0_ms": 1600450,
+     "text": "The price is very high."
+    },
+    {
+     "t0_ms": 1601450,
+     "text": "It's a very good site."
+    },
+    {
+     "t0_ms": 1602450,
+     "text": "The parts are being qualified and ramped."
+    },
+    {
+     "t0_ms": 1605890,
+     "text": "We can continue and increase capacity every quarter thanks to the clean room we have."
+    },
+    {
+     "t0_ms": 1611070,
+     "text": "The rate of which we grow is a function of how quickly we add tools."
+    },
+    {
+     "t0_ms": 1616190,
+     "text": "That's also a function of the demand, I would say."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1618250,
+   "t1_ms": 1642710,
+   "speaker": "Management",
+   "text": "In general, I'm very pleased with our situation, both front-end and back-end, because we control our destiny here. We've done the work during the down cycle, again, when lead times were very short on this type of equipment, to get ahead. To be ready for a range of scenarios, this scenario right now is a very strong demand scenario. All right. Thanks, Joe. Moving on to our next caller, please.",
+   "parts": [
+    {
+     "t0_ms": 1618250,
+     "text": "In general, I'm very pleased with our situation, both front-end and back-end, because we control"
+    },
+    {
+     "t0_ms": 1622550,
+     "text": "our destiny here."
+    },
+    {
+     "t0_ms": 1624170,
+     "text": "We've done the work during the down cycle, again, when lead times were very short on"
+    },
+    {
+     "t0_ms": 1629650,
+     "text": "this type of equipment, to get ahead."
+    },
+    {
+     "t0_ms": 1631650,
+     "text": "To be ready for a range of scenarios, this scenario right now is a very strong demand"
+    },
+    {
+     "t0_ms": 1636950,
+     "text": "scenario."
+    },
+    {
+     "t0_ms": 1637950,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 1638950,
+     "text": "Thanks, Joe."
+    },
+    {
+     "t0_ms": 1639950,
+     "text": "Moving on to our next caller, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1642710,
+   "t1_ms": 1650470,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question comes from the line of Torres van Berg with Stifel. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1642710,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1643710,
+     "text": "Our next question comes from the line of Torres van Berg with Stifel."
+    },
+    {
+     "t0_ms": 1646930,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1650470,
+   "t1_ms": 1674790,
+   "speaker": "Analyst",
+   "text": "Congratulations on the results. Just zooming in a little bit on data center, I think it almost doubled year over year. I think in the past you've talked about your exposure to data centers still kind of being more building block compliant. I do know you have some newer products that are starting to get designed in. How should we think about that in the context of the almost double year over year growth rate?",
+   "parts": [
+    {
+     "t0_ms": 1650470,
+     "text": "Congratulations on the results."
+    },
+    {
+     "t0_ms": 1653090,
+     "text": "Just zooming in a little bit on data center, I think it almost doubled year over year."
+    },
+    {
+     "t0_ms": 1658190,
+     "text": "I think in the past you've talked about your exposure to data centers still kind of being"
+    },
+    {
+     "t0_ms": 1662190,
+     "text": "more building block compliant."
+    },
+    {
+     "t0_ms": 1663190,
+     "text": "I do know you have some newer products that are starting to get designed in."
+    },
+    {
+     "t0_ms": 1668390,
+     "text": "How should we think about that in the context of the almost double year over year growth"
+    },
+    {
+     "t0_ms": 1673790,
+     "text": "rate?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1674790,
+   "t1_ms": 1717090,
+   "speaker": "Management",
+   "text": "Yeah. Look, I'm very excited about the market in the sense of you guys know exactly what's going on there. But what I would like to share is that we see a very high breadth of opportunity, and we are continuing to invest. Customers want new solutions to get more. These are very expensive. These are very expensive assets if you think about the compute rack or networking rack, and it needs a lot of telemetry and cooling, and efficiency is critical. Power density is critical. So we are seeing customers being very, very innovative on how they add parts that are mainly coming from our portfolio of foundational chips, of analog and embedded chips to do all of that.",
+   "parts": [
+    {
+     "t0_ms": 1674790,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1675790,
+     "text": "Look, I'm very excited about the market in the sense of you guys know exactly what's"
+    },
+    {
+     "t0_ms": 1680490,
+     "text": "going on there."
+    },
+    {
+     "t0_ms": 1681490,
+     "text": "But what I would like to share is that we see a very high breadth of opportunity, and"
+    },
+    {
+     "t0_ms": 1687690,
+     "text": "we are continuing to invest."
+    },
+    {
+     "t0_ms": 1689190,
+     "text": "Customers want new solutions to get more."
+    },
+    {
+     "t0_ms": 1691490,
+     "text": "These are very expensive."
+    },
+    {
+     "t0_ms": 1692490,
+     "text": "These are very expensive assets if you think about the compute rack or networking rack,"
+    },
+    {
+     "t0_ms": 1696590,
+     "text": "and it needs a lot of telemetry and cooling, and efficiency is critical."
+    },
+    {
+     "t0_ms": 1702090,
+     "text": "Power density is critical."
+    },
+    {
+     "t0_ms": 1703090,
+     "text": "So we are seeing customers being very, very innovative on how they add parts that are"
+    },
+    {
+     "t0_ms": 1709090,
+     "text": "mainly coming from our portfolio of foundational chips, of analog and embedded chips to do"
+    },
+    {
+     "t0_ms": 1716090,
+     "text": "all of that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1717090,
+   "t1_ms": 1760390,
+   "speaker": "Management",
+   "text": "So just a growing opportunity in terms of diversity of part numbers. We reviewed it earlier this week. And we have about 10,000 different GPMs or generic part numbers that we are selling into this market, and it's growing every quarter. So that's a very exciting opportunity. Now our focus is, again, we are a company that is trying to breadth of our portfolio is one of our competitive advantages. But of course, we also pay attention to the more application-specific sockets. We have developed the technology. For that, I think I've mentioned it. It's now earlier in Sherman. I think the execution is going well. So I'm excited about continuing to expand our portfolio in data center.",
+   "parts": [
+    {
+     "t0_ms": 1717090,
+     "text": "So just a growing opportunity in terms of diversity of part numbers."
+    },
+    {
+     "t0_ms": 1720090,
+     "text": "We reviewed it earlier this week."
+    },
+    {
+     "t0_ms": 1721090,
+     "text": "And we have about 10,000 different GPMs or generic part numbers that we are selling"
+    },
+    {
+     "t0_ms": 1728990,
+     "text": "into this market, and it's growing every quarter."
+    },
+    {
+     "t0_ms": 1731390,
+     "text": "So that's a very exciting opportunity."
+    },
+    {
+     "t0_ms": 1734490,
+     "text": "Now our focus is, again, we are a company that is trying to breadth of our portfolio"
+    },
+    {
+     "t0_ms": 1741490,
+     "text": "is one of our competitive advantages."
+    },
+    {
+     "t0_ms": 1742990,
+     "text": "But of course, we also pay attention to the more application-specific sockets."
+    },
+    {
+     "t0_ms": 1749390,
+     "text": "We have developed the technology."
+    },
+    {
+     "t0_ms": 1750490,
+     "text": "For that, I think I've mentioned it."
+    },
+    {
+     "t0_ms": 1752390,
+     "text": "It's now earlier in Sherman."
+    },
+    {
+     "t0_ms": 1754390,
+     "text": "I think the execution is going well."
+    },
+    {
+     "t0_ms": 1756390,
+     "text": "So I'm excited about continuing to expand our portfolio in data center."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1760390,
+   "t1_ms": 1769390,
+   "speaker": "Management",
+   "text": "Assuming the investments in data center continues in the US. And by the way, it's not only in the US. We are seeing it worldwide, but the US is leading. Your follow-up, Torrey?",
+   "parts": [
+    {
+     "t0_ms": 1760390,
+     "text": "Assuming the investments in data center continues in the US."
+    },
+    {
+     "t0_ms": 1763390,
+     "text": "And by the way, it's not only in the US."
+    },
+    {
+     "t0_ms": 1764890,
+     "text": "We are seeing it worldwide, but the US is leading."
+    },
+    {
+     "t0_ms": 1767390,
+     "text": "Your follow-up, Torrey?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1769390,
+   "t1_ms": 1791290,
+   "speaker": "Analyst",
+   "text": "Yes. Thank you, Mike. So in industrial, which is a little more than a third of your revenue, I know you talked about the cyclical growth and the cyclic growth. But I'm just also curious. If you look at it, what are the challenges? If you look at all the sub-segments there, how much of that, let's say, 35% of revenue is potentially being impacted by the data center built out as well?",
+   "parts": [
+    {
+     "t0_ms": 1769390,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1769890,
+     "text": "Thank you, Mike."
+    },
+    {
+     "t0_ms": 1770890,
+     "text": "So in industrial, which is a little more than a third of your revenue, I know you talked"
+    },
+    {
+     "t0_ms": 1775390,
+     "text": "about the cyclical growth and the cyclic growth."
+    },
+    {
+     "t0_ms": 1777890,
+     "text": "But I'm just also curious."
+    },
+    {
+     "t0_ms": 1779390,
+     "text": "If you look at it, what are the challenges?"
+    },
+    {
+     "t0_ms": 1780390,
+     "text": "If you look at all the sub-segments there, how much of that, let's say, 35% of revenue"
+    },
+    {
+     "t0_ms": 1786290,
+     "text": "is potentially being impacted by the data center built out as well?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1791290,
+   "t1_ms": 1835290,
+   "speaker": "Management",
+   "text": "So I think we have about nine or 10 sectors over there in industrial. The last one is kind of what we call other, all other end equipments. But of the nine, I think two are very much data center-specific, energy infrastructure and also test and measurement. But I think I see a lot of robustness there. I mean, people are building. They have, you know, memories and GPUs for the foreseeable future. They need to test them. That has been a very fast-growing sector for us, and we are doing well over there. And then the energy infrastructure, I think that, you know, the world is rebuilding its grid, and it's a very, the content is very rich with semiconductors. So that has been a very good sector growth for us.",
+   "parts": [
+    {
+     "t0_ms": 1791290,
+     "text": "So I think we have about nine or 10 sectors over there in industrial."
+    },
+    {
+     "t0_ms": 1796290,
+     "text": "The last one is kind of what we call other, all other end equipments."
+    },
+    {
+     "t0_ms": 1799290,
+     "text": "But of the nine, I think two are very much data center-specific, energy infrastructure"
+    },
+    {
+     "t0_ms": 1804290,
+     "text": "and also test and measurement."
+    },
+    {
+     "t0_ms": 1806290,
+     "text": "But I think I see a lot of robustness there."
+    },
+    {
+     "t0_ms": 1808290,
+     "text": "I mean, people are building."
+    },
+    {
+     "t0_ms": 1810390,
+     "text": "They have, you know, memories and GPUs for the foreseeable future."
+    },
+    {
+     "t0_ms": 1813290,
+     "text": "They need to test them."
+    },
+    {
+     "t0_ms": 1815290,
+     "text": "That has been a very fast-growing sector for us, and we are doing well over there."
+    },
+    {
+     "t0_ms": 1819290,
+     "text": "And then the energy infrastructure, I think that, you know, the world is rebuilding its"
+    },
+    {
+     "t0_ms": 1825290,
+     "text": "grid, and it's a very, the content is very rich with semiconductors."
+    },
+    {
+     "t0_ms": 1831290,
+     "text": "So that has been a very good sector growth for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1835290,
+   "t1_ms": 1878090,
+   "speaker": "Management",
+   "text": "I think data center influences it, but the world needs more energy, I think, in general, if you think about automation and later on physically and robotics and aerospace and defense, everything needs more energy, and I think that's going to continue. So I'm very excited about the progress over there. Now, we are seeing, as Mike mentioned before, we just see other secular trends that are not, I don't think, they may be related to data center because they have helped accelerate them, but, you know, what's going on in the aerospace and defense with autonomous end equipment, if you will, that are very content rich in the type of parts we make. Very early on the robotics side, but I think 27 is going to be a great deal of ramps.",
+   "parts": [
+    {
+     "t0_ms": 1835290,
+     "text": "I think data center influences it, but the world needs more energy, I think, in general,"
+    },
+    {
+     "t0_ms": 1840290,
+     "text": "if you think about automation and later on physically and robotics and aerospace and"
+    },
+    {
+     "t0_ms": 1845190,
+     "text": "defense, everything needs more energy, and I think that's going to continue."
+    },
+    {
+     "t0_ms": 1848190,
+     "text": "So I'm very excited about the progress over there."
+    },
+    {
+     "t0_ms": 1852190,
+     "text": "Now, we are seeing, as Mike mentioned before, we just see other secular trends that are"
+    },
+    {
+     "t0_ms": 1857190,
+     "text": "not, I don't think, they may be related to data center because they have helped accelerate"
+    },
+    {
+     "t0_ms": 1862190,
+     "text": "them, but, you know, what's going on in the aerospace and defense with autonomous end"
+    },
+    {
+     "t0_ms": 1869190,
+     "text": "equipment, if you will, that are very content rich in the type of parts we make."
+    },
+    {
+     "t0_ms": 1874090,
+     "text": "Very early on the robotics side, but I think 27 is going to be a great deal of ramps."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1878090,
+   "t1_ms": 1917990,
+   "speaker": "Management",
+   "text": "Our content over there is actually, for example, for humanoid is very high. I would say somewhere between $500 to $1,000 per content for TI1 on this type of system. So, you know, I don't know how many they'll build next year, but definitely the demand is they want to grow. So all of that is putting a lot of energy into the technology. I think that's a lot of providing a lot of tailwind on our industrial business, which I'm excited about because it also helps you. There was a question before on margins. This is our best market in terms of diversity and longevity, but also in terms of margins. So a very lucrative market. Thanks for the question, Story. Moving on to our next caller, please.",
+   "parts": [
+    {
+     "t0_ms": 1878090,
+     "text": "Our content over there is actually, for example, for humanoid is very high."
+    },
+    {
+     "t0_ms": 1884090,
+     "text": "I would say somewhere between $500 to $1,000 per content for TI1 on this type of system."
+    },
+    {
+     "t0_ms": 1892090,
+     "text": "So, you know, I don't know how many they'll build next year, but definitely the demand"
+    },
+    {
+     "t0_ms": 1896090,
+     "text": "is they want to grow."
+    },
+    {
+     "t0_ms": 1898090,
+     "text": "So all of that is putting a lot of energy into the technology."
+    },
+    {
+     "t0_ms": 1899090,
+     "text": "I think that's a lot of providing a lot of tailwind on our industrial business, which"
+    },
+    {
+     "t0_ms": 1901990,
+     "text": "I'm excited about because it also helps you."
+    },
+    {
+     "t0_ms": 1903990,
+     "text": "There was a question before on margins."
+    },
+    {
+     "t0_ms": 1905990,
+     "text": "This is our best market in terms of diversity and longevity, but also in terms of margins."
+    },
+    {
+     "t0_ms": 1911990,
+     "text": "So a very lucrative market."
+    },
+    {
+     "t0_ms": 1913990,
+     "text": "Thanks for the question, Story."
+    },
+    {
+     "t0_ms": 1915990,
+     "text": "Moving on to our next caller, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1917990,
+   "t1_ms": 1923990,
+   "speaker": "Operator",
+   "text": "Our next question comes from the line of William Stein with Truva Securities. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 1917990,
+     "text": "Our next question comes from the line of William Stein with Truva Securities."
+    },
+    {
+     "t0_ms": 1921990,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1923990,
+   "t1_ms": 1951990,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for taking my question. I'm hoping you can comment on customer service. I'm hoping you can comment on customer inventory levels and their ability to complete kits. We've heard some feedback from industry contacts that this is becoming a challenge the way it was, you know, a few years ago in the so-called golden screw era. I wonder to what degree you're seeing this and what is your ability to perhaps help customers deal with those challenges?",
+   "parts": [
+    {
+     "t0_ms": 1923990,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 1924990,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1926990,
+     "text": "I'm hoping you can comment on customer service."
+    },
+    {
+     "t0_ms": 1928990,
+     "text": "I'm hoping you can comment on customer inventory levels and their ability to complete kits."
+    },
+    {
+     "t0_ms": 1933990,
+     "text": "We've heard some feedback from industry contacts that this is becoming a challenge the way"
+    },
+    {
+     "t0_ms": 1938990,
+     "text": "it was, you know, a few years ago in the so-called golden screw era."
+    },
+    {
+     "t0_ms": 1943990,
+     "text": "I wonder to what degree you're seeing this and what is your ability to perhaps help customers"
+    },
+    {
+     "t0_ms": 1949990,
+     "text": "deal with those challenges?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1951990,
+   "t1_ms": 1995550,
+   "speaker": "Management",
+   "text": "First, you know, we all here in TI live through the previous upcycle during the COVID crisis. So we're still in the early stages of the pandemic. We're still in the early stages of the pandemic. We're still in the early stages of the pandemic. So I think, you know, we're still in the early stages. I think we're still in the early stages. The market is still in the early stages. I would not compare the situations. I think also we are earlier right now in terms of the cycle is so we'll have to go to see. But again, from a TI perspective, we are much better prepared in terms of we can grow our capacity every quarter. And we've built inventory during the down cycle. So we can run into situations like that. I think I gave an example before on the automotive market.",
+   "parts": [
+    {
+     "t0_ms": 1951990,
+     "text": "First, you know, we all here in TI live through the previous upcycle during the COVID crisis."
+    },
+    {
+     "t0_ms": 1961550,
+     "text": "So we're still in the early stages of the pandemic."
+    },
+    {
+     "t0_ms": 1964550,
+     "text": "We're still in the early stages of the pandemic."
+    },
+    {
+     "t0_ms": 1966550,
+     "text": "We're still in the early stages of the pandemic."
+    },
+    {
+     "t0_ms": 1968550,
+     "text": "So I think, you know, we're still in the early stages."
+    },
+    {
+     "t0_ms": 1970550,
+     "text": "I think we're still in the early stages."
+    },
+    {
+     "t0_ms": 1972550,
+     "text": "The market is still in the early stages."
+    },
+    {
+     "t0_ms": 1974550,
+     "text": "I would not compare the situations."
+    },
+    {
+     "t0_ms": 1976550,
+     "text": "I think also we are earlier right now in terms of the cycle is so we'll have to go to see."
+    },
+    {
+     "t0_ms": 1981550,
+     "text": "But again, from a TI perspective, we are much better prepared in terms of we can grow our"
+    },
+    {
+     "t0_ms": 1987550,
+     "text": "capacity every quarter."
+    },
+    {
+     "t0_ms": 1989550,
+     "text": "And we've built inventory during the down cycle."
+    },
+    {
+     "t0_ms": 1991550,
+     "text": "So we can run into situations like that."
+    },
+    {
+     "t0_ms": 1993550,
+     "text": "I think I gave an example before on the automotive market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1995550,
+   "t1_ms": 2036550,
+   "speaker": "Management",
+   "text": "That's the one place I would say that I see it right now versus in capital in the COVID cycle. We did see a much broader situation across almost every customer over every end market. So I would not compare them yet. I will say that, yes, we have come for help many times. We have been the solution many times right now in other markets. So some of our industrial customers, some of our data center customers have asked for help. And many times we have come for help. But we had the inventory and could also commit capacity or growth into 27 and beyond. So we are seeing early anecdotal feedback that we can help our customers. But we need to see how the situation develops.",
+   "parts": [
+    {
+     "t0_ms": 1995550,
+     "text": "That's the one place I would say that I see it right now versus in capital in the COVID cycle."
+    },
+    {
+     "t0_ms": 2002550,
+     "text": "We did see a much broader situation across almost every customer over every end market."
+    },
+    {
+     "t0_ms": 2007550,
+     "text": "So I would not compare them yet."
+    },
+    {
+     "t0_ms": 2009550,
+     "text": "I will say that, yes, we have come for help many times."
+    },
+    {
+     "t0_ms": 2012550,
+     "text": "We have been the solution many times right now in other markets."
+    },
+    {
+     "t0_ms": 2016550,
+     "text": "So some of our industrial customers, some of our data center customers have asked for help."
+    },
+    {
+     "t0_ms": 2019550,
+     "text": "And many times we have come for help."
+    },
+    {
+     "t0_ms": 2021550,
+     "text": "But we had the inventory and could also commit capacity or growth into 27 and beyond."
+    },
+    {
+     "t0_ms": 2027550,
+     "text": "So we are seeing early anecdotal feedback that we can help our customers."
+    },
+    {
+     "t0_ms": 2033550,
+     "text": "But we need to see how the situation develops."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2036550,
+   "t1_ms": 2079550,
+   "speaker": "Management",
+   "text": "I will say, as I said before, in terms of capacity addition outside of China, mainly on the analog side, it's not we don't see a lot of clean room and a lot of new capacity added in the last four years. And as I mentioned, the same thing. And as I mentioned, the cycle time to build from moving dirt to getting output from the sub, it's about four years. Not to mention about full ramp of the sub. So I think TI is in an advantage position here versus the rest of the market. I do think that customers, in the context of the question on kitting and making sure they have all the products they need, they will come to us and say, I need to make sure I have what I need from your portion to meet as I get what I need in maybe another area where they're having a challenge getting it. So this is all very important.",
+   "parts": [
+    {
+     "t0_ms": 2036550,
+     "text": "I will say, as I said before, in terms of capacity addition outside of China, mainly on the analog side,"
+    },
+    {
+     "t0_ms": 2043550,
+     "text": "it's not we don't see a lot of clean room and a lot of new capacity added in the last four years."
+    },
+    {
+     "t0_ms": 2049550,
+     "text": "And as I mentioned, the same thing."
+    },
+    {
+     "t0_ms": 2050550,
+     "text": "And as I mentioned, the cycle time to build from moving dirt to getting output from the sub, it's about four years."
+    },
+    {
+     "t0_ms": 2057550,
+     "text": "Not to mention about full ramp of the sub."
+    },
+    {
+     "t0_ms": 2060550,
+     "text": "So I think TI is in an advantage position here versus the rest of the market."
+    },
+    {
+     "t0_ms": 2065550,
+     "text": "I do think that customers, in the context of the question on kitting and making sure they have all the products they need,"
+    },
+    {
+     "t0_ms": 2071550,
+     "text": "they will come to us and say, I need to make sure I have what I need from your portion to meet as I get what I need in maybe another area where they're having a challenge getting it."
+    },
+    {
+     "t0_ms": 2078550,
+     "text": "So this is all very important."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2079550,
+   "t1_ms": 2091550,
+   "speaker": "Management",
+   "text": "So this is all part of what we're seeing in our markets overall. But I think we are in a good position to be able to help work with our customers to help them as they grow. So, Will, do you have a follow up?",
+   "parts": [
+    {
+     "t0_ms": 2079550,
+     "text": "So this is all part of what we're seeing in our markets overall."
+    },
+    {
+     "t0_ms": 2083550,
+     "text": "But I think we are in a good position to be able to help work with our customers to help them as they grow."
+    },
+    {
+     "t0_ms": 2089550,
+     "text": "So, Will, do you have a follow up?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2091550,
+   "t1_ms": 2117550,
+   "speaker": "Analyst",
+   "text": "I appreciate that helpful answer. And the next one you might have discussed already, but can you talk about where lead times might have changed in the last quarter and what your customers' willingness and ability to place backlog? With you has been, has the backlog duration extended materially in the last quarter? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2091550,
+     "text": "I appreciate that helpful answer."
+    },
+    {
+     "t0_ms": 2094550,
+     "text": "And the next one you might have discussed already, but can you talk about where lead times might have changed in the last quarter and what your customers' willingness and ability to place backlog?"
+    },
+    {
+     "t0_ms": 2107550,
+     "text": "With you has been, has the backlog duration extended materially in the last quarter?"
+    },
+    {
+     "t0_ms": 2116550,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2117550,
+   "t1_ms": 2151550,
+   "speaker": "Management",
+   "text": "So I'd characterize the backlog as consistent with the overall demand environment that we're seeing. And we have seen an uptick in lead times. And there are areas where you'll see just as you would expect in an environment like this where there may be more or less tightness in certain areas. But in terms of where we are from a lead time perspective, we're competitive right now. And again, we're in a position where we're not. And we're in a position where we can make investments into the clean room and the assembly and test facilities that we have to be able to support growth for our customers. And we'll continue to ramp those as we move into this quarter and beyond. With that, we'll move on to our next caller.",
+   "parts": [
+    {
+     "t0_ms": 2117550,
+     "text": "So I'd characterize the backlog as consistent with the overall demand environment that we're seeing."
+    },
+    {
+     "t0_ms": 2123550,
+     "text": "And we have seen an uptick in lead times."
+    },
+    {
+     "t0_ms": 2125550,
+     "text": "And there are areas where you'll see just as you would expect in an environment like this where there may be more or less tightness in certain areas."
+    },
+    {
+     "t0_ms": 2132550,
+     "text": "But in terms of where we are from a lead time perspective, we're competitive right now."
+    },
+    {
+     "t0_ms": 2135550,
+     "text": "And again, we're in a position where we're not."
+    },
+    {
+     "t0_ms": 2136550,
+     "text": "And we're in a position where we can make investments into the clean room and the assembly and test facilities that we have to be able to support growth for our customers."
+    },
+    {
+     "t0_ms": 2144550,
+     "text": "And we'll continue to ramp those as we move into this quarter and beyond."
+    },
+    {
+     "t0_ms": 2148550,
+     "text": "With that, we'll move on to our next caller."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2151550,
+   "t1_ms": 2157550,
+   "speaker": "Operator",
+   "text": "Our next question comes from the line of Nabil Aziz with Rothschild and Company. You may proceed.",
+   "parts": [
+    {
+     "t0_ms": 2151550,
+     "text": "Our next question comes from the line of Nabil Aziz with Rothschild and Company."
+    },
+    {
+     "t0_ms": 2156550,
+     "text": "You may proceed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2157550,
+   "t1_ms": 2177840,
+   "speaker": "Analyst",
+   "text": "Thanks for taking the question. I just had a question on supply-demand tightness through the quarter and what you're seeing in terms of socket wins. And your engagement with the market. And your engagements with customers there. Whether you've started to see incremental market share gains through the quarter. Thank you. Yeah, Nabil.",
+   "parts": [
+    {
+     "t0_ms": 2157550,
+     "text": "Thanks for taking the question."
+    },
+    {
+     "t0_ms": 2162010,
+     "text": "I just had a question on supply-demand tightness through the quarter and what you're seeing in terms of socket wins."
+    },
+    {
+     "t0_ms": 2167010,
+     "text": "And your engagement with the market."
+    },
+    {
+     "t0_ms": 2168010,
+     "text": "And your engagements with customers there."
+    },
+    {
+     "t0_ms": 2170010,
+     "text": "Whether you've started to see incremental market share gains through the quarter."
+    },
+    {
+     "t0_ms": 2174010,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2175010,
+     "text": "Yeah, Nabil."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2177840,
+   "t1_ms": 2217840,
+   "speaker": "Management",
+   "text": "I think when it goes to market share, we don't like to measure it. Of course, we look at the results internally. But I think we should look at it through the cycle. Again, if we are indeed better positioned than some of the competition to support demand, and if demand continues, we should be able to translate it to market share gains. But we cannot measure that. We cannot measure it yet. So I think we have to wait through the cycle and see when the next peak is. It will arrive one day and then see where we are. But I'm pleased with the momentum we are building. I'm pleased with the ability to continue to ramp our supply. And let's see how we do over the long term. Yeah, follow up, Nabil.",
+   "parts": [
+    {
+     "t0_ms": 2177840,
+     "text": "I think when it goes to market share, we don't like to measure it."
+    },
+    {
+     "t0_ms": 2182840,
+     "text": "Of course, we look at the results internally."
+    },
+    {
+     "t0_ms": 2184840,
+     "text": "But I think we should look at it through the cycle."
+    },
+    {
+     "t0_ms": 2187840,
+     "text": "Again, if we are indeed better positioned than some of the competition to support demand, and if demand continues, we should be able to translate it to market share gains."
+    },
+    {
+     "t0_ms": 2197840,
+     "text": "But we cannot measure that."
+    },
+    {
+     "t0_ms": 2198840,
+     "text": "We cannot measure it yet."
+    },
+    {
+     "t0_ms": 2200840,
+     "text": "So I think we have to wait through the cycle and see when the next peak is."
+    },
+    {
+     "t0_ms": 2205840,
+     "text": "It will arrive one day and then see where we are."
+    },
+    {
+     "t0_ms": 2208840,
+     "text": "But I'm pleased with the momentum we are building."
+    },
+    {
+     "t0_ms": 2210840,
+     "text": "I'm pleased with the ability to continue to ramp our supply."
+    },
+    {
+     "t0_ms": 2214840,
+     "text": "And let's see how we do over the long term."
+    },
+    {
+     "t0_ms": 2216840,
+     "text": "Yeah, follow up, Nabil."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2217840,
+   "t1_ms": 2236010,
+   "speaker": "Analyst",
+   "text": "Yeah. Just to follow up on the backend tool comments. Could you just confirm, is there a potential that backend tool availability could at all bottleneck your growth? And whether that is a gating factor for you over the next couple of quarters? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2217840,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2221010,
+     "text": "Just to follow up on the backend tool comments."
+    },
+    {
+     "t0_ms": 2224010,
+     "text": "Could you just confirm, is there a potential that backend tool availability could at all bottleneck your growth?"
+    },
+    {
+     "t0_ms": 2230010,
+     "text": "And whether that is a gating factor for you over the next couple of quarters?"
+    },
+    {
+     "t0_ms": 2234010,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2236010,
+   "t1_ms": 2281010,
+   "speaker": "Management",
+   "text": "I don't want to talk about gating items because a gate is when you don't have the clean room, right? A gate when you now are stuck for a couple of years to build your shell and to build a clean room and all the infrastructure behind it. We don't have a gating item like that. I think this is just people blocking and tackling, as we say, or execution of getting the equipment on time. Our suppliers also need, you know, their supply chain is complex and they have to get through it. It's just a period of high demand all over. And everybody is going through their challenges. But there is a very large opportunity to expand capacity, and we are. I would say that I don't see between frontend and backend, we are going to be balanced.",
+   "parts": [
+    {
+     "t0_ms": 2236010,
+     "text": "I don't want to talk about gating items because a gate is when you don't have the clean room, right?"
+    },
+    {
+     "t0_ms": 2241010,
+     "text": "A gate when you now are stuck for a couple of years to build your shell and to build a clean room and all the infrastructure behind it."
+    },
+    {
+     "t0_ms": 2249010,
+     "text": "We don't have a gating item like that."
+    },
+    {
+     "t0_ms": 2251010,
+     "text": "I think this is just people blocking and tackling, as we say, or execution of getting the equipment on time."
+    },
+    {
+     "t0_ms": 2258010,
+     "text": "Our suppliers also need, you know, their supply chain is complex and they have to get through it."
+    },
+    {
+     "t0_ms": 2263010,
+     "text": "It's just a period of high demand all over."
+    },
+    {
+     "t0_ms": 2266010,
+     "text": "And everybody is going through their challenges."
+    },
+    {
+     "t0_ms": 2270010,
+     "text": "But there is a very large opportunity to expand capacity, and we are."
+    },
+    {
+     "t0_ms": 2274010,
+     "text": "I would say that I don't see between frontend and backend, we are going to be balanced."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2281010,
+   "t1_ms": 2319010,
+   "speaker": "Management",
+   "text": "Of course, the higher investment we need to make when you think about CapEx for the longer term is always on the frontend. This is where the CapEx is. Yeah. CapEx is more expensive. And also, the lead times are always longer with the supply chain over there. And this is why we are not playing only 27 and 28. We are actually thinking through the rest of the decade, what is our plan and how are we going to slot our future tools and even, you know, new clean rooms. So we can continue to support a range of scenarios that the market may present to us. All right. Thanks, Nabil. We will move on to our final caller.",
+   "parts": [
+    {
+     "t0_ms": 2281010,
+     "text": "Of course, the higher investment we need to make when you think about CapEx for the longer term is always on the frontend."
+    },
+    {
+     "t0_ms": 2286010,
+     "text": "This is where the CapEx is."
+    },
+    {
+     "t0_ms": 2287010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2288010,
+     "text": "CapEx is more expensive."
+    },
+    {
+     "t0_ms": 2290010,
+     "text": "And also, the lead times are always longer with the supply chain over there."
+    },
+    {
+     "t0_ms": 2294010,
+     "text": "And this is why we are not playing only 27 and 28."
+    },
+    {
+     "t0_ms": 2297010,
+     "text": "We are actually thinking through the rest of the decade, what is our plan and how are we going to slot our future tools and even, you know, new clean rooms."
+    },
+    {
+     "t0_ms": 2308010,
+     "text": "So we can continue to support a range of scenarios that the market may present to us."
+    },
+    {
+     "t0_ms": 2315010,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2316010,
+     "text": "Thanks, Nabil."
+    },
+    {
+     "t0_ms": 2317010,
+     "text": "We will move on to our final caller."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2319010,
+   "t1_ms": 2326010,
+   "speaker": "Operator",
+   "text": "And our last question comes from the line of Vijay Rakesh with Mizuho Securities. Please proceed with your question.",
+   "parts": [
+    {
+     "t0_ms": 2319010,
+     "text": "And our last question comes from the line of Vijay Rakesh with Mizuho Securities."
+    },
+    {
+     "t0_ms": 2324010,
+     "text": "Please proceed with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2326010,
+   "t1_ms": 2344010,
+   "speaker": "Analyst",
+   "text": "Yeah. Hi. Just a quick question. I see your data center site is growing pretty strong. It's almost like a 2.5 billion run rate this year annualized. Just wondering, as you look at 27, do you expect that growth rate to continue under double from here? And a quick follow-up. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2326010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2327010,
+     "text": "Hi."
+    },
+    {
+     "t0_ms": 2328010,
+     "text": "Just a quick question."
+    },
+    {
+     "t0_ms": 2329010,
+     "text": "I see your data center site is growing pretty strong."
+    },
+    {
+     "t0_ms": 2331010,
+     "text": "It's almost like a 2.5 billion run rate this year annualized."
+    },
+    {
+     "t0_ms": 2335010,
+     "text": "Just wondering, as you look at 27, do you expect that growth rate to continue under double from here?"
+    },
+    {
+     "t0_ms": 2342010,
+     "text": "And a quick follow-up."
+    },
+    {
+     "t0_ms": 2343010,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2344010,
+   "t1_ms": 2386010,
+   "speaker": "Management",
+   "text": "Yeah. I mean, we are watching like a quarter. I mean, we are watching like everyone, you know, the CapEx investment into the data center market. It doesn't signal right now any \u2013 we are not seeing any slowdown. We are seeing continuing demand, actually growing demand. As I mentioned before, our portfolio is growing. That's why I'm excited about our investment. We are not sitting still. We are creating new parts. We are continuing to attack new subsystems. So we want to continue. And not only to grow with the market, but also playing more sockets and ultimately gain market share. So, so far so good. We'll see how the demand continues to develop into the next year.",
+   "parts": [
+    {
+     "t0_ms": 2344010,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2345010,
+     "text": "I mean, we are watching like a quarter."
+    },
+    {
+     "t0_ms": 2346010,
+     "text": "I mean, we are watching like everyone, you know, the CapEx investment into the data center market."
+    },
+    {
+     "t0_ms": 2352010,
+     "text": "It doesn't signal right now any \u2013 we are not seeing any slowdown."
+    },
+    {
+     "t0_ms": 2358010,
+     "text": "We are seeing continuing demand, actually growing demand."
+    },
+    {
+     "t0_ms": 2361010,
+     "text": "As I mentioned before, our portfolio is growing."
+    },
+    {
+     "t0_ms": 2364010,
+     "text": "That's why I'm excited about our investment."
+    },
+    {
+     "t0_ms": 2367010,
+     "text": "We are not sitting still."
+    },
+    {
+     "t0_ms": 2368010,
+     "text": "We are creating new parts."
+    },
+    {
+     "t0_ms": 2370010,
+     "text": "We are continuing to attack new subsystems."
+    },
+    {
+     "t0_ms": 2373010,
+     "text": "So we want to continue."
+    },
+    {
+     "t0_ms": 2374010,
+     "text": "And not only to grow with the market, but also playing more sockets and ultimately gain market share."
+    },
+    {
+     "t0_ms": 2379010,
+     "text": "So, so far so good."
+    },
+    {
+     "t0_ms": 2381010,
+     "text": "We'll see how the demand continues to develop into the next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2386010,
+   "t1_ms": 2407010,
+   "speaker": "Management",
+   "text": "And Vijay, just zooming out, you know, when there's more power, there's more opportunity for TI. When there's more power density, there's more opportunity for TI. When there's higher voltages, there's more opportunity for TI. And obviously, these are things that are all being worked on very heavily in this end market. And again, we look forward to that. We look forward to supporting. So you have a follow-up.",
+   "parts": [
+    {
+     "t0_ms": 2386010,
+     "text": "And Vijay, just zooming out, you know, when there's more power, there's more opportunity for TI."
+    },
+    {
+     "t0_ms": 2391010,
+     "text": "When there's more power density, there's more opportunity for TI."
+    },
+    {
+     "t0_ms": 2394010,
+     "text": "When there's higher voltages, there's more opportunity for TI."
+    },
+    {
+     "t0_ms": 2397010,
+     "text": "And obviously, these are things that are all being worked on very heavily in this end market."
+    },
+    {
+     "t0_ms": 2402010,
+     "text": "And again, we look forward to that."
+    },
+    {
+     "t0_ms": 2403010,
+     "text": "We look forward to supporting."
+    },
+    {
+     "t0_ms": 2405010,
+     "text": "So you have a follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2407010,
+   "t1_ms": 2426010,
+   "speaker": "Analyst",
+   "text": "Agreed. Thanks. And just a quick one. On the commentary on the EV side, is this more of a \u2013 does TI have more exposure on China, China export EV market as well? Like how would you characterize the EV strength just globally across regions? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2407010,
+     "text": "Agreed."
+    },
+    {
+     "t0_ms": 2408010,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2409010,
+     "text": "And just a quick one."
+    },
+    {
+     "t0_ms": 2410010,
+     "text": "On the commentary on the EV side, is this more of a \u2013 does TI have more exposure on China, China export EV market as well?"
+    },
+    {
+     "t0_ms": 2420010,
+     "text": "Like how would you characterize the EV strength just globally across regions?"
+    },
+    {
+     "t0_ms": 2425010,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2426010,
+   "t1_ms": 2469010,
+   "speaker": "Management",
+   "text": "No. As we \u2013 I talked many times over in the last several years. China industry for, you know, the automotive industry and especially EVs, you know, is leading in many ways. And they are not only building for their domestic market. This is why a supplier like TI was always something that was very, very important to them. We are a global company, very diverse supply chain across the globe. And we've continued to design in our part into their systems. I think I am excited about the fact that China is growing faster, their export business. Because these are usually just in terms of content, just higher content and also higher share for us there. So that also is driving the growth.",
+   "parts": [
+    {
+     "t0_ms": 2426010,
+     "text": "No."
+    },
+    {
+     "t0_ms": 2427010,
+     "text": "As we \u2013 I talked many times over in the last several years."
+    },
+    {
+     "t0_ms": 2431010,
+     "text": "China industry for, you know, the automotive industry and especially EVs, you know, is leading in many ways."
+    },
+    {
+     "t0_ms": 2439010,
+     "text": "And they are not only building for their domestic market."
+    },
+    {
+     "t0_ms": 2442010,
+     "text": "This is why a supplier like TI was always something that was very, very important to them."
+    },
+    {
+     "t0_ms": 2447010,
+     "text": "We are a global company, very diverse supply chain across the globe."
+    },
+    {
+     "t0_ms": 2451010,
+     "text": "And we've continued to design in our part into their systems."
+    },
+    {
+     "t0_ms": 2456010,
+     "text": "I think I am excited about the fact that China is growing faster, their export business."
+    },
+    {
+     "t0_ms": 2459010,
+     "text": "Because these are usually just in terms of content, just higher content and also higher share for us there."
+    },
+    {
+     "t0_ms": 2467010,
+     "text": "So that also is driving the growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2469010,
+   "t1_ms": 2500010,
+   "speaker": "Management",
+   "text": "Mike has mentioned before that, you know, automotive business for TI and Q3 was driven by China and the U.S. And we are excited about our position there. All right. With that, I'm going to have Naveeb close us out for the call. Okay. So let me wrap up with what we've said previously. At our core, we are engineers and technology is the foundation of our company. But ultimately, our objective and the best metric to measure progress and generate value to our owners is the long-term growth of free cash flow per share. Thank you and have a good evening.",
+   "parts": [
+    {
+     "t0_ms": 2469010,
+     "text": "Mike has mentioned before that, you know, automotive business for TI and Q3 was driven by China and the U.S."
+    },
+    {
+     "t0_ms": 2475010,
+     "text": "And we are excited about our position there."
+    },
+    {
+     "t0_ms": 2479010,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2480010,
+     "text": "With that, I'm going to have Naveeb close us out for the call."
+    },
+    {
+     "t0_ms": 2483010,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 2484010,
+     "text": "So let me wrap up with what we've said previously."
+    },
+    {
+     "t0_ms": 2486010,
+     "text": "At our core, we are engineers and technology is the foundation of our company."
+    },
+    {
+     "t0_ms": 2488010,
+     "text": "But ultimately, our objective and the best metric to measure progress and generate value to our owners is the long-term growth of free cash flow per share."
+    },
+    {
+     "t0_ms": 2497010,
+     "text": "Thank you and have a good evening."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2500010,
+   "t1_ms": 2506010,
+   "speaker": "Operator",
+   "text": "Thank you. And this concludes today's conference. And you may disconnect your lines at this time. We thank you for your participation.",
+   "parts": [
+    {
+     "t0_ms": 2500010,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2501010,
+     "text": "And this concludes today's conference."
+    },
+    {
+     "t0_ms": 2502010,
+     "text": "And you may disconnect your lines at this time."
+    },
+    {
+     "t0_ms": 2504010,
+     "text": "We thank you for your participation."
+    }
+   ]
+  }
+ ]
+}

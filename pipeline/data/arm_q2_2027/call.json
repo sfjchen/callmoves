@@ -1,0 +1,3403 @@
+{
+ "ticker": "ARM",
+ "quarter": "Q2-2027",
+ "company": "Arm Holdings",
+ "call_start": "2026-11-04T17:00:00-05:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/ARM_Q2-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 9800,
+   "speaker": "Operator",
+   "text": "Please be advised that today's conference is being recorded. I would now like to have the conference of your first speaker today, Ian Thornton, Vice President of Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Please be advised that today's conference is being recorded."
+    },
+    {
+     "t0_ms": 3240,
+     "text": "I would now like to have the conference of your first speaker today, Ian Thornton, Vice President of Investor Relations."
+    },
+    {
+     "t0_ms": 9040,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 11060,
+   "t1_ms": 51180,
+   "speaker": "Management",
+   "text": "Thank you very much and welcome to our second quarter fiscal 27 earnings call. On the call are Rennie Haas, Arms Chief Executive Officer and Jason Child, Arms Chief Financial Officer. Today's call contains forward looking information about the company and its financial results. While these statements represent our best current judgment, our business is subjected to many risks and uncertainties that could cause actual results of this material. Important risk factors that may affect our business and future financial results are described in our annual report on Form 20F filed with the SEC. Arms assumes no obligation to update any forward looking statements. We will also refer to non-GAAP financial measures.",
+   "parts": [
+    {
+     "t0_ms": 11060,
+     "text": "Thank you very much and welcome to our second quarter fiscal 27 earnings call."
+    },
+    {
+     "t0_ms": 16620,
+     "text": "On the call are Rennie Haas, Arms Chief Executive Officer and Jason Child, Arms Chief Financial Officer."
+    },
+    {
+     "t0_ms": 22940,
+     "text": "Today's call contains forward looking information about the company and its financial results."
+    },
+    {
+     "t0_ms": 27380,
+     "text": "While these statements represent our best current judgment, our business is subjected to many risks and uncertainties that could cause actual results of this material."
+    },
+    {
+     "t0_ms": 36620,
+     "text": "Important risk factors that may affect our business and future financial results are described in our annual report on Form 20F filed with the SEC."
+    },
+    {
+     "t0_ms": 44680,
+     "text": "Arms assumes no obligation to update any forward looking statements."
+    },
+    {
+     "t0_ms": 48620,
+     "text": "We will also refer to non-GAAP financial measures."
+    }
+   ]
+  },
+  {
+   "t0_ms": 51680,
+   "t1_ms": 90660,
+   "speaker": "Management",
+   "text": "Reconciliations of these non-GAAP financial measures to the most directly comparable GAAP measures can be found in our shareholder letter. As can the discussion of certain projected non-GAAP financial measures that we're not able to reconcile without unreasonable effort and supplemental financial information. Our earning materials are available at investors.arms.com. And with that, I'll turn the call over to Rennie. Thank you, Ian, and good afternoon, everyone. Arms delivered a record second quarter. Revenue reached 1.44 billion, up 27% year over year, marking our fifth straight quarter of the fiscal year. Thank you, Ian. And good afternoon, everyone. We're in the second quarter of growth above 20%.",
+   "parts": [
+    {
+     "t0_ms": 51680,
+     "text": "Reconciliations of these non-GAAP financial measures to the most directly comparable GAAP measures can be found in our shareholder letter."
+    },
+    {
+     "t0_ms": 57900,
+     "text": "As can the discussion of certain projected non-GAAP financial measures that we're not able to reconcile without unreasonable effort and supplemental financial information."
+    },
+    {
+     "t0_ms": 68620,
+     "text": "Our earning materials are available at investors.arms.com."
+    },
+    {
+     "t0_ms": 72620,
+     "text": "And with that, I'll turn the call over to Rennie."
+    },
+    {
+     "t0_ms": 76900,
+     "text": "Thank you, Ian, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 79900,
+     "text": "Arms delivered a record second quarter."
+    },
+    {
+     "t0_ms": 82900,
+     "text": "Revenue reached 1.44 billion, up 27% year over year,"
+    },
+    {
+     "t0_ms": 86900,
+     "text": "marking our fifth straight quarter of the fiscal year."
+    },
+    {
+     "t0_ms": 87900,
+     "text": "Thank you, Ian. And good afternoon, everyone."
+    },
+    {
+     "t0_ms": 88660,
+     "text": "We're in the second quarter of growth above 20%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 90660,
+   "t1_ms": 126660,
+   "speaker": "Management",
+   "text": "License and other revenue grew 50% to 773 million, driven by our partners increasing their investment in the Arm Compute platform. This strong licensing momentum is an important leading indicator of future royalties, which we expect to accelerate as these new designs enter production. Second quarter royalty revenue grew 8% to 670 million, with data center royalties doubling year over year. And non-GAAP earnings per share increased 33% to 52 cents, while we continue to increase our investment in R&D.",
+   "parts": [
+    {
+     "t0_ms": 90660,
+     "text": "License and other revenue grew 50% to 773 million, driven by our partners increasing their investment in the Arm Compute platform."
+    },
+    {
+     "t0_ms": 99660,
+     "text": "This strong licensing momentum is an important leading indicator of future royalties, which we expect to accelerate as these new designs enter production."
+    },
+    {
+     "t0_ms": 109660,
+     "text": "Second quarter royalty revenue grew 8% to 670 million, with data center royalties doubling year over year."
+    },
+    {
+     "t0_ms": 117660,
+     "text": "And non-GAAP earnings per share increased 33% to 52 cents, while we continue to increase our investment in R&D."
+    }
+   ]
+  },
+  {
+   "t0_ms": 128970,
+   "t1_ms": 167250,
+   "speaker": "Management",
+   "text": "AI is driving unprecedented demand for compute across the cloud, devices, and autonomous systems, with Arm being the compute platform of choice. Today, our business is now driven by two rapidly growing areas. The IP business, where partners are increasing investment in the Arm Compute platform, deploying record numbers of Arm-based chips, and our new silicon business, where demand for the Arm AGI CPU is extremely strong. Both leverage the same Arm Compute platform and software ecosystem. We are seeing these two growth vectors play out clearly in the data center,",
+   "parts": [
+    {
+     "t0_ms": 128970,
+     "text": "AI is driving unprecedented demand for compute across the cloud, devices, and autonomous systems, with Arm being the compute platform of choice."
+    },
+    {
+     "t0_ms": 138970,
+     "text": "Today, our business is now driven by two rapidly growing areas."
+    },
+    {
+     "t0_ms": 143970,
+     "text": "The IP business, where partners are increasing investment in the Arm Compute platform,"
+    },
+    {
+     "t0_ms": 148970,
+     "text": "deploying record numbers of Arm-based chips,"
+    },
+    {
+     "t0_ms": 151970,
+     "text": "and our new silicon business, where demand for the Arm AGI CPU is extremely strong."
+    },
+    {
+     "t0_ms": 157970,
+     "text": "Both leverage the same Arm Compute platform and software ecosystem."
+    },
+    {
+     "t0_ms": 164250,
+     "text": "We are seeing these two growth vectors play out clearly in the data center,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 168250,
+   "t1_ms": 211720,
+   "speaker": "Management",
+   "text": "where our partners are expanding their deployment of Arm-based infrastructure alongside strong demand for Arm-designed silicon. Oracle Cloud Infrastructure, OCI, is a key example of how these two businesses reinforce one another. Today, OCI offers NVIDIA Vera CPUs built on Arm, and in addition, plans to offer Arm AGI CPU instances in 2027. Since launching the Arm AGU CPU in March, customer demand has continued to strengthen. We have secured purchase orders for multiple customers extending through calendar 2027, and first commercial deliveries remain on track for fiscal Q4-27.",
+   "parts": [
+    {
+     "t0_ms": 168250,
+     "text": "where our partners are expanding their deployment of Arm-based infrastructure alongside strong demand for Arm-designed silicon."
+    },
+    {
+     "t0_ms": 176250,
+     "text": "Oracle Cloud Infrastructure, OCI,"
+    },
+    {
+     "t0_ms": 178250,
+     "text": "is a key example of how these two businesses reinforce one another."
+    },
+    {
+     "t0_ms": 183250,
+     "text": "Today, OCI offers NVIDIA Vera CPUs built on Arm,"
+    },
+    {
+     "t0_ms": 188250,
+     "text": "and in addition, plans to offer Arm AGI CPU instances in 2027."
+    },
+    {
+     "t0_ms": 195720,
+     "text": "Since launching the Arm AGU CPU in March,"
+    },
+    {
+     "t0_ms": 198720,
+     "text": "customer demand has continued to strengthen."
+    },
+    {
+     "t0_ms": 201720,
+     "text": "We have secured purchase orders for multiple customers extending through calendar 2027,"
+    },
+    {
+     "t0_ms": 205720,
+     "text": "and first commercial deliveries remain on track for fiscal Q4-27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 212720,
+   "t1_ms": 256160,
+   "speaker": "Management",
+   "text": "Our confidence in achieving up to $2 billion of revenue in Arm AGI CPU across fiscal 2027 and 2028 has increased over the last 90 days. Supported by additional supply and customer mix, we remain focused on expanding capacity to meet growing customer demand. Power availability makes performance and efficiency even more important. Morgan Stanley projects a 38 gigawatt global data center power shortfall through 2028. Arm is helping customers address this constraint by delivering more useful compute from the power already available. At OCP, independent testing by Signal 65",
+   "parts": [
+    {
+     "t0_ms": 212720,
+     "text": "Our confidence in achieving up to $2 billion of revenue in Arm AGI CPU across fiscal 2027 and 2028"
+    },
+    {
+     "t0_ms": 221720,
+     "text": "has increased over the last 90 days."
+    },
+    {
+     "t0_ms": 224720,
+     "text": "Supported by additional supply and customer mix,"
+    },
+    {
+     "t0_ms": 228720,
+     "text": "we remain focused on expanding capacity to meet growing customer demand."
+    },
+    {
+     "t0_ms": 232720,
+     "text": "Power availability makes performance and efficiency even more important."
+    },
+    {
+     "t0_ms": 239160,
+     "text": "Morgan Stanley projects a 38 gigawatt global data center power shortfall through 2028."
+    },
+    {
+     "t0_ms": 246160,
+     "text": "Arm is helping customers address this constraint"
+    },
+    {
+     "t0_ms": 249160,
+     "text": "by delivering more useful compute from the power already available."
+    },
+    {
+     "t0_ms": 253160,
+     "text": "At OCP, independent testing by Signal 65"
+    }
+   ]
+  },
+  {
+   "t0_ms": 257160,
+   "t1_ms": 297150,
+   "speaker": "Management",
+   "text": "showed the Arm AGI CPU delivering approximately twice the performance per act versus the AMD EPYC 9755. This type of improvement could reduce the projected global power shortfall by half. Our data center royalties doubled year over year, and Arm-based server market share at the top hyperscalers has more than tripled, from 15% in calendar 2024 to more than 50% in calendar 2025. Based upon expected ramps across Google Axion, AWS Graviton, Microsoft Cobalt, and Nvidia platforms,",
+   "parts": [
+    {
+     "t0_ms": 257160,
+     "text": "showed the Arm AGI CPU delivering approximately twice the performance per act"
+    },
+    {
+     "t0_ms": 262160,
+     "text": "versus the AMD EPYC 9755."
+    },
+    {
+     "t0_ms": 266160,
+     "text": "This type of improvement could reduce the projected global power shortfall by half."
+    },
+    {
+     "t0_ms": 271160,
+     "text": "Our data center royalties doubled year over year,"
+    },
+    {
+     "t0_ms": 277150,
+     "text": "and Arm-based server market share at the top hyperscalers has more than tripled,"
+    },
+    {
+     "t0_ms": 282150,
+     "text": "from 15% in calendar 2024 to more than 50% in calendar 2025."
+    },
+    {
+     "t0_ms": 288150,
+     "text": "Based upon expected ramps across Google Axion, AWS Graviton,"
+    },
+    {
+     "t0_ms": 294150,
+     "text": "Microsoft Cobalt, and Nvidia platforms,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 298150,
+   "t1_ms": 342150,
+   "speaker": "Management",
+   "text": "we now expect that share to exceed 60% by the end of calendar 2026. Beyond the data center, Arm's role in edge AI increases as AI agents become more capable and persistent. Arm-based PCs have now reached 20% of global shipments. Google recently announced Googlebook, a new category of AI-native laptops built for Gemini intelligence. With Arm serving as the primary compute platform for many models. Nvidia's RTX Spark systems, which are now available, further expand Arm into local AI, content creation, and gaming. In smartphones, Arm recently announced CSS for mobile 2,",
+   "parts": [
+    {
+     "t0_ms": 298150,
+     "text": "we now expect that share to exceed 60% by the end of calendar 2026."
+    },
+    {
+     "t0_ms": 304150,
+     "text": "Beyond the data center, Arm's role in edge AI increases"
+    },
+    {
+     "t0_ms": 309150,
+     "text": "as AI agents become more capable and persistent."
+    },
+    {
+     "t0_ms": 312150,
+     "text": "Arm-based PCs have now reached 20% of global shipments."
+    },
+    {
+     "t0_ms": 317150,
+     "text": "Google recently announced Googlebook,"
+    },
+    {
+     "t0_ms": 320150,
+     "text": "a new category of AI-native laptops built for Gemini intelligence."
+    },
+    {
+     "t0_ms": 324150,
+     "text": "With Arm serving as the primary compute platform for many models."
+    },
+    {
+     "t0_ms": 329150,
+     "text": "Nvidia's RTX Spark systems, which are now available,"
+    },
+    {
+     "t0_ms": 333150,
+     "text": "further expand Arm into local AI, content creation, and gaming."
+    },
+    {
+     "t0_ms": 338150,
+     "text": "In smartphones, Arm recently announced CSS for mobile 2,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 343150,
+   "t1_ms": 385590,
+   "speaker": "Management",
+   "text": "which improves performance of agentic AI workloads by up to 70% through SME2. Our first AI-native Mali GPU delivers up to 4,000 units and more than 20% of the frame rate at the same sustained power. These capabilities allow more AI and richer experiences to run directly on the device without compromising battery life. Arm is the platform of choice for physical AI. Royalty revenue grew 50% year over year, driven by advanced driver assistance and in-vehicle infotainment. We also launched Arm Total Design for Physical AI, bringing together more than 80 companies to accelerate the development and development of AI.",
+   "parts": [
+    {
+     "t0_ms": 343150,
+     "text": "which improves performance of agentic AI workloads by up to 70% through SME2."
+    },
+    {
+     "t0_ms": 350150,
+     "text": "Our first AI-native Mali GPU delivers up to 4,000 units"
+    },
+    {
+     "t0_ms": 354150,
+     "text": "and more than 20% of the frame rate at the same sustained power."
+    },
+    {
+     "t0_ms": 358150,
+     "text": "These capabilities allow more AI and richer experiences"
+    },
+    {
+     "t0_ms": 361150,
+     "text": "to run directly on the device without compromising battery life."
+    },
+    {
+     "t0_ms": 367590,
+     "text": "Arm is the platform of choice for physical AI."
+    },
+    {
+     "t0_ms": 370590,
+     "text": "Royalty revenue grew 50% year over year,"
+    },
+    {
+     "t0_ms": 373590,
+     "text": "driven by advanced driver assistance and in-vehicle infotainment."
+    },
+    {
+     "t0_ms": 377590,
+     "text": "We also launched Arm Total Design for Physical AI,"
+    },
+    {
+     "t0_ms": 381590,
+     "text": "bringing together more than 80 companies"
+    },
+    {
+     "t0_ms": 383590,
+     "text": "to accelerate the development and development of AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 386590,
+   "t1_ms": 430330,
+   "speaker": "Management",
+   "text": "And deployment of complete physical AI systems. For the first time, our partners reported more than 10 billion Arm-based chips shipped in a single quarter. An increase of 1.5 billion year on year, supported by a software ecosystem of more than 30 million developers. Demand for Arm technology has never been stronger, as AI is driven more complex designs and greater demand for power efficient compute. Our IP business generates licensing revenue as those designs begin and royalties as they enter production. And now, Arm AGI CPU as a new direct silicon business built on the same compute platform and software ecosystem.",
+   "parts": [
+    {
+     "t0_ms": 386590,
+     "text": "And deployment of complete physical AI systems."
+    },
+    {
+     "t0_ms": 391730,
+     "text": "For the first time, our partners reported more than 10 billion Arm-based chips"
+    },
+    {
+     "t0_ms": 395730,
+     "text": "shipped in a single quarter."
+    },
+    {
+     "t0_ms": 397730,
+     "text": "An increase of 1.5 billion year on year,"
+    },
+    {
+     "t0_ms": 400730,
+     "text": "supported by a software ecosystem of more than 30 million developers."
+    },
+    {
+     "t0_ms": 406330,
+     "text": "Demand for Arm technology has never been stronger,"
+    },
+    {
+     "t0_ms": 409330,
+     "text": "as AI is driven more complex designs and greater demand for power efficient compute."
+    },
+    {
+     "t0_ms": 415330,
+     "text": "Our IP business generates licensing revenue as those designs begin"
+    },
+    {
+     "t0_ms": 419330,
+     "text": "and royalties as they enter production."
+    },
+    {
+     "t0_ms": 422330,
+     "text": "And now, Arm AGI CPU as a new direct silicon business"
+    },
+    {
+     "t0_ms": 427330,
+     "text": "built on the same compute platform and software ecosystem."
+    }
+   ]
+  },
+  {
+   "t0_ms": 432330,
+   "t1_ms": 474740,
+   "speaker": "Management",
+   "text": "That gives Arm two powerful growth engines, which we expect to accelerate revenue at a faster pace in the future. And with that, I'll turn it over to Jason. Thank you, Rene. We delivered another strong quarter, with total revenue growing 27% year on year to $1.44 billion. This was a record for our second quarter and our second highest quarterly revenue ever, reflecting continued strength in our business. Licensed and other revenue was $773 million of 50% year on year, also a record for the second quarter and our second highest quarter ever. Licensed revenue was around $100 million higher than we had anticipated,",
+   "parts": [
+    {
+     "t0_ms": 432330,
+     "text": "That gives Arm two powerful growth engines,"
+    },
+    {
+     "t0_ms": 435330,
+     "text": "which we expect to accelerate revenue at a faster pace in the future."
+    },
+    {
+     "t0_ms": 440330,
+     "text": "And with that, I'll turn it over to Jason."
+    },
+    {
+     "t0_ms": 444740,
+     "text": "Thank you, Rene."
+    },
+    {
+     "t0_ms": 446740,
+     "text": "We delivered another strong quarter,"
+    },
+    {
+     "t0_ms": 447740,
+     "text": "with total revenue growing 27% year on year to $1.44 billion."
+    },
+    {
+     "t0_ms": 452740,
+     "text": "This was a record for our second quarter"
+    },
+    {
+     "t0_ms": 454740,
+     "text": "and our second highest quarterly revenue ever,"
+    },
+    {
+     "t0_ms": 457740,
+     "text": "reflecting continued strength in our business."
+    },
+    {
+     "t0_ms": 460740,
+     "text": "Licensed and other revenue was $773 million of 50% year on year,"
+    },
+    {
+     "t0_ms": 465740,
+     "text": "also a record for the second quarter and our second highest quarter ever."
+    },
+    {
+     "t0_ms": 471740,
+     "text": "Licensed revenue was around $100 million higher than we had anticipated,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 474740,
+   "t1_ms": 519740,
+   "speaker": "Management",
+   "text": "due to an acceleration of interest from customers wanting to sign long-term commitments to access Arm technology. During the quarter, we signed three new Arm total access agreements, bringing the total number of active ATA subscriptions to more than 60. This included one of our major customers signing their first ATA license. We also signed four additional compute subsystem licenses, two for data center chips and two for smartphones. For established customers, these agreements broaden and deepen access to our future technology roadmap and provide an important foundation for Arm's future royalty growth. In addition, we are seeing ATA and CSS as a way for newer customers",
+   "parts": [
+    {
+     "t0_ms": 474740,
+     "text": "due to an acceleration of interest from customers"
+    },
+    {
+     "t0_ms": 477740,
+     "text": "wanting to sign long-term commitments to access Arm technology."
+    },
+    {
+     "t0_ms": 481740,
+     "text": "During the quarter, we signed three new Arm total access agreements,"
+    },
+    {
+     "t0_ms": 485740,
+     "text": "bringing the total number of active ATA subscriptions to more than 60."
+    },
+    {
+     "t0_ms": 492740,
+     "text": "This included one of our major customers signing their first ATA license."
+    },
+    {
+     "t0_ms": 497740,
+     "text": "We also signed four additional compute subsystem licenses,"
+    },
+    {
+     "t0_ms": 500740,
+     "text": "two for data center chips and two for smartphones."
+    },
+    {
+     "t0_ms": 504740,
+     "text": "For established customers, these agreements broaden and deepen access"
+    },
+    {
+     "t0_ms": 508740,
+     "text": "to our future technology roadmap"
+    },
+    {
+     "t0_ms": 510740,
+     "text": "and provide an important foundation for Arm's future royalty growth."
+    },
+    {
+     "t0_ms": 514740,
+     "text": "In addition, we are seeing ATA and CSS as a way for newer customers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 519740,
+   "t1_ms": 562740,
+   "speaker": "Management",
+   "text": "who have previously made only limited use of Arm technology to accelerate their adoption with several signing ATA or CSS licenses during the quarter. Of the $773 million in license revenue, our agreement with SoftBank for technology licensing and design services contributed $209 million of 17% year-on-year. We expect a quarterly run rate for the rest of the year to remain around this level. Annualized contract value grew 12% year-on-year. As we have discussed before, license revenue can vary significantly from quarter to quarter based on the timing and accounting treatment of large agreements, so ACB remains a useful measure of the underlying licensing revenue.",
+   "parts": [
+    {
+     "t0_ms": 519740,
+     "text": "who have previously made only limited use of Arm technology"
+    },
+    {
+     "t0_ms": 523740,
+     "text": "to accelerate their adoption with several signing ATA or CSS licenses during the quarter."
+    },
+    {
+     "t0_ms": 530740,
+     "text": "Of the $773 million in license revenue,"
+    },
+    {
+     "t0_ms": 533740,
+     "text": "our agreement with SoftBank for technology licensing and design services"
+    },
+    {
+     "t0_ms": 537740,
+     "text": "contributed $209 million of 17% year-on-year."
+    },
+    {
+     "t0_ms": 543740,
+     "text": "We expect a quarterly run rate for the rest of the year to remain around this level."
+    },
+    {
+     "t0_ms": 548740,
+     "text": "Annualized contract value grew 12% year-on-year."
+    },
+    {
+     "t0_ms": 551740,
+     "text": "As we have discussed before,"
+    },
+    {
+     "t0_ms": 552740,
+     "text": "license revenue can vary significantly from quarter to quarter"
+    },
+    {
+     "t0_ms": 555740,
+     "text": "based on the timing and accounting treatment of large agreements,"
+    },
+    {
+     "t0_ms": 559740,
+     "text": "so ACB remains a useful measure of the underlying licensing revenue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 563740,
+   "t1_ms": 608150,
+   "speaker": "Management",
+   "text": "Turning now to royalty. Royalty revenue was $670 million, up 8% year-on-year, also our highest ever figure for Q2. Cloud AI remained the largest growth driver. Once again, data center royalty doubled year-on-year as Arm-based CPUs ramped across AI infrastructure and general-purpose cloud workloads. Physical AI royalty revenue grew 50% year-on-year, driven by increasing adoption of Arm technology in automotive and robotics. In Edge AI, royalty revenue was roughly flat year-on-year. Higher memory prices continued to pressure smartphone unit sales, particularly in the mid- and lower-tier segments. That headwind was offset by the benefit we continue to see from higher royalty rates",
+   "parts": [
+    {
+     "t0_ms": 563740,
+     "text": "Turning now to royalty."
+    },
+    {
+     "t0_ms": 567150,
+     "text": "Royalty revenue was $670 million, up 8% year-on-year,"
+    },
+    {
+     "t0_ms": 571150,
+     "text": "also our highest ever figure for Q2."
+    },
+    {
+     "t0_ms": 574150,
+     "text": "Cloud AI remained the largest growth driver."
+    },
+    {
+     "t0_ms": 577150,
+     "text": "Once again, data center royalty doubled year-on-year"
+    },
+    {
+     "t0_ms": 581150,
+     "text": "as Arm-based CPUs ramped across AI infrastructure and general-purpose cloud workloads."
+    },
+    {
+     "t0_ms": 586150,
+     "text": "Physical AI royalty revenue grew 50% year-on-year,"
+    },
+    {
+     "t0_ms": 590150,
+     "text": "driven by increasing adoption of Arm technology in automotive and robotics."
+    },
+    {
+     "t0_ms": 593150,
+     "text": "In Edge AI, royalty revenue was roughly flat year-on-year."
+    },
+    {
+     "t0_ms": 597150,
+     "text": "Higher memory prices continued to pressure smartphone unit sales,"
+    },
+    {
+     "t0_ms": 600150,
+     "text": "particularly in the mid- and lower-tier segments."
+    },
+    {
+     "t0_ms": 603150,
+     "text": "That headwind was offset by the benefit we continue to see from higher royalty rates"
+    }
+   ]
+  },
+  {
+   "t0_ms": 608150,
+   "t1_ms": 653150,
+   "speaker": "Management",
+   "text": "as our latest Arm v9 and CSS technologies are adopted. As smartphone market conditions normalize, we expect Edge AI royalty revenue to be around $209 million. We expect a return of $209 million in the next 10 years. We expect a return of $209 million in the next 10 years. As Rene discussed, customer demand for the Arm AGI CPU remains very strong. Last quarter, we said that we had increased confidence in achieving more than $1 billion across fiscal year 27 and 28. In the past 90 days, we have signed purchase orders from multiple customers and signed supply agreements with companies in our supply chain, giving us increased confidence in achieving up to $2 billion across fiscal year 27 and 28.",
+   "parts": [
+    {
+     "t0_ms": 608150,
+     "text": "as our latest Arm v9 and CSS technologies are adopted."
+    },
+    {
+     "t0_ms": 612150,
+     "text": "As smartphone market conditions normalize,"
+    },
+    {
+     "t0_ms": 616150,
+     "text": "we expect Edge AI royalty revenue to be around $209 million."
+    },
+    {
+     "t0_ms": 620150,
+     "text": "We expect a return of $209 million in the next 10 years."
+    },
+    {
+     "t0_ms": 623150,
+     "text": "We expect a return of $209 million in the next 10 years."
+    },
+    {
+     "t0_ms": 626150,
+     "text": "As Rene discussed, customer demand for the Arm AGI CPU remains very strong."
+    },
+    {
+     "t0_ms": 631150,
+     "text": "Last quarter, we said that we had increased confidence"
+    },
+    {
+     "t0_ms": 636150,
+     "text": "in achieving more than $1 billion across fiscal year 27 and 28."
+    },
+    {
+     "t0_ms": 641150,
+     "text": "In the past 90 days, we have signed purchase orders from multiple customers"
+    },
+    {
+     "t0_ms": 645150,
+     "text": "and signed supply agreements with companies in our supply chain,"
+    },
+    {
+     "t0_ms": 648150,
+     "text": "giving us increased confidence in achieving up to $2 billion"
+    },
+    {
+     "t0_ms": 651150,
+     "text": "across fiscal year 27 and 28."
+    }
+   ]
+  },
+  {
+   "t0_ms": 653150,
+   "t1_ms": 698150,
+   "speaker": "Management",
+   "text": "We will provide another update at our Q3 results, which is when we will have better visibility. Turning to operating expenses and profits, non-GAAP operating expense was $774 million, up 19% year-on-year, as we continue to expand our engineering capacity and invest in next-generation platforms, compute subsystems, and our Arm AGI CPU product family. Non-GAAP operating income was $638 million, up 37% year-on-year, as we continue to expand our engineering capacity and invest in next-generation platforms, compute subsystems, and our Arm AGI CPU product family. Non-GAAP operating margin was 44.2% of 300 basis points from a year ago, as revenue outpaced operating expense growth. Non-GAAP EPS was 52 cents, up 33% year-on-year.",
+   "parts": [
+    {
+     "t0_ms": 653150,
+     "text": "We will provide another update at our Q3 results,"
+    },
+    {
+     "t0_ms": 656150,
+     "text": "which is when we will have better visibility."
+    },
+    {
+     "t0_ms": 659150,
+     "text": "Turning to operating expenses and profits,"
+    },
+    {
+     "t0_ms": 662150,
+     "text": "non-GAAP operating expense was $774 million, up 19% year-on-year,"
+    },
+    {
+     "t0_ms": 667150,
+     "text": "as we continue to expand our engineering capacity"
+    },
+    {
+     "t0_ms": 670150,
+     "text": "and invest in next-generation platforms, compute subsystems,"
+    },
+    {
+     "t0_ms": 674150,
+     "text": "and our Arm AGI CPU product family."
+    },
+    {
+     "t0_ms": 677150,
+     "text": "Non-GAAP operating income was $638 million, up 37% year-on-year,"
+    },
+    {
+     "t0_ms": 683150,
+     "text": "as we continue to expand our engineering capacity and invest in next-generation platforms, compute subsystems,"
+    },
+    {
+     "t0_ms": 686150,
+     "text": "and our Arm AGI CPU product family."
+    },
+    {
+     "t0_ms": 688150,
+     "text": "Non-GAAP operating margin was 44.2% of 300 basis points from a year ago,"
+    },
+    {
+     "t0_ms": 691150,
+     "text": "as revenue outpaced operating expense growth."
+    },
+    {
+     "t0_ms": 694150,
+     "text": "Non-GAAP EPS was 52 cents, up 33% year-on-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 698150,
+   "t1_ms": 740150,
+   "speaker": "Management",
+   "text": "Importantly, even at these elevated levels of investment, we generate free cash flow of $1.1 billion over the trailing 12 months, giving us the flexibility to continue to invest for long-term growth. Turning now to guidance. For Q3, we expect revenue of $1.54 billion, plus or minus $50 million. At the midpoint, this represents growth of approximately 24% year-on-year. We expect continued strong growth in license and other revenue, up a little over 50% year-on-year, supported by strong customer demand and our visibility into the licensing pipeline. In royalties, we expect continued strength in cloud AI and physical AI,",
+   "parts": [
+    {
+     "t0_ms": 698150,
+     "text": "Importantly, even at these elevated levels of investment,"
+    },
+    {
+     "t0_ms": 702150,
+     "text": "we generate free cash flow of $1.1 billion over the trailing 12 months,"
+    },
+    {
+     "t0_ms": 706150,
+     "text": "giving us the flexibility to continue to invest for long-term growth."
+    },
+    {
+     "t0_ms": 711150,
+     "text": "Turning now to guidance."
+    },
+    {
+     "t0_ms": 713150,
+     "text": "For Q3, we expect revenue of $1.54 billion, plus or minus $50 million."
+    },
+    {
+     "t0_ms": 718150,
+     "text": "At the midpoint, this represents growth of approximately 24% year-on-year."
+    },
+    {
+     "t0_ms": 723150,
+     "text": "We expect continued strong growth in license and other revenue,"
+    },
+    {
+     "t0_ms": 727150,
+     "text": "up a little over 50% year-on-year,"
+    },
+    {
+     "t0_ms": 730150,
+     "text": "supported by strong customer demand and our visibility into the licensing pipeline."
+    },
+    {
+     "t0_ms": 736150,
+     "text": "In royalties, we expect continued strength in cloud AI and physical AI,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 740150,
+   "t1_ms": 783490,
+   "speaker": "Management",
+   "text": "offset by ongoing pressure and edge AI from weaker smartphone demand, and we have a tough year-on-year comp. As a result, we expect royalty revenue to grow low-teens sequentially and low single digits year-on-year. We expect non-GAAP operating expenses of approximately $825 million and non-GAAP EPS of 56 cents, plus or minus 4 cents. Looking further ahead, we continue to see strong customer demand across our business. Combined with the expansion of our technology portfolio and deepening strategic customer relationships, this gives us confidence and a long-term growth outlook. With that, I'll turn the call back to the operator for Q&A.",
+   "parts": [
+    {
+     "t0_ms": 740150,
+     "text": "offset by ongoing pressure and edge AI from weaker smartphone demand,"
+    },
+    {
+     "t0_ms": 744150,
+     "text": "and we have a tough year-on-year comp."
+    },
+    {
+     "t0_ms": 747150,
+     "text": "As a result, we expect royalty revenue to grow low-teens sequentially"
+    },
+    {
+     "t0_ms": 752150,
+     "text": "and low single digits year-on-year."
+    },
+    {
+     "t0_ms": 756490,
+     "text": "We expect non-GAAP operating expenses of approximately $825 million"
+    },
+    {
+     "t0_ms": 760490,
+     "text": "and non-GAAP EPS of 56 cents, plus or minus 4 cents."
+    },
+    {
+     "t0_ms": 765490,
+     "text": "Looking further ahead, we continue to see strong customer demand across our business."
+    },
+    {
+     "t0_ms": 770490,
+     "text": "Combined with the expansion of our technology portfolio"
+    },
+    {
+     "t0_ms": 773490,
+     "text": "and deepening strategic customer relationships,"
+    },
+    {
+     "t0_ms": 776490,
+     "text": "this gives us confidence and a long-term growth outlook."
+    },
+    {
+     "t0_ms": 780490,
+     "text": "With that, I'll turn the call back to the operator for Q&A."
+    }
+   ]
+  },
+  {
+   "t0_ms": 783490,
+   "t1_ms": 807960,
+   "speaker": "Operator",
+   "text": "Thank you. To ask a question, you will need to press star 1 and 1 on your telephone and wait for your name to be announced. To withdraw your question, please press star 1 and 1 again. We will now go to the first question. One moment, please. And your first question today comes from the line of Gary Mobley from Stonex Group. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 783490,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 785960,
+     "text": "To ask a question, you will need to press star 1 and 1 on your telephone"
+    },
+    {
+     "t0_ms": 789960,
+     "text": "and wait for your name to be announced."
+    },
+    {
+     "t0_ms": 791960,
+     "text": "To withdraw your question, please press star 1 and 1 again."
+    },
+    {
+     "t0_ms": 795960,
+     "text": "We will now go to the first question."
+    },
+    {
+     "t0_ms": 798960,
+     "text": "One moment, please."
+    },
+    {
+     "t0_ms": 801960,
+     "text": "And your first question today comes from the line of Gary Mobley from Stonex Group."
+    },
+    {
+     "t0_ms": 806960,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 807960,
+   "t1_ms": 850310,
+   "speaker": "Analyst",
+   "text": "Good afternoon, everybody. Thanks for taking my question. I think on the top of the mind for everybody is ARM AGI CPU, and you're obviously signaling something closer to $2 billion in revenue over the five-quarter period up to the end of fiscal year 28. So I'm wondering what's driving your confidence in that with respect to securing more supply. And I would assume most of the revenue initially goes to supporting meta, but maybe if you can talk about whether or not you've signed and committed contractually with additional customers.",
+   "parts": [
+    {
+     "t0_ms": 807960,
+     "text": "Good afternoon, everybody."
+    },
+    {
+     "t0_ms": 811310,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 813310,
+     "text": "I think on the top of the mind for everybody is ARM AGI CPU,"
+    },
+    {
+     "t0_ms": 817310,
+     "text": "and you're obviously signaling something closer to $2 billion in revenue"
+    },
+    {
+     "t0_ms": 822310,
+     "text": "over the five-quarter period up to the end of fiscal year 28."
+    },
+    {
+     "t0_ms": 827310,
+     "text": "So I'm wondering what's driving your confidence in that with respect to securing more supply."
+    },
+    {
+     "t0_ms": 833310,
+     "text": "And I would assume most of the revenue initially goes to supporting meta,"
+    },
+    {
+     "t0_ms": 840310,
+     "text": "but maybe if you can talk about whether or not you've signed"
+    },
+    {
+     "t0_ms": 844310,
+     "text": "and committed contractually with additional customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 850310,
+   "t1_ms": 893310,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Gary. I'll take that question, and Jason can add if I've missed anything. Each one of the quarters, as we talk about the ramp of the product, we've been careful. We've been able to make sure that we manage the expectations of supply and demand. I think there's no secret that in general demand is incredibly strong for the ARM AGI CPU, really driven by everything we see with agentic workloads and the CPU being central to that. Demand is stronger today than we talked about when we did the ARM Everywhere event in March, and subsequently demand for multiple customers,",
+   "parts": [
+    {
+     "t0_ms": 850310,
+     "text": "Yeah, thanks, Gary."
+    },
+    {
+     "t0_ms": 851310,
+     "text": "I'll take that question, and Jason can add if I've missed anything."
+    },
+    {
+     "t0_ms": 857310,
+     "text": "Each one of the quarters, as we talk about the ramp of the product,"
+    },
+    {
+     "t0_ms": 861310,
+     "text": "we've been careful."
+    },
+    {
+     "t0_ms": 863310,
+     "text": "We've been able to make sure that we manage the expectations of supply and demand."
+    },
+    {
+     "t0_ms": 870310,
+     "text": "I think there's no secret that in general demand is incredibly strong for the ARM AGI CPU,"
+    },
+    {
+     "t0_ms": 877310,
+     "text": "really driven by everything we see with agentic workloads and the CPU being central to that."
+    },
+    {
+     "t0_ms": 884310,
+     "text": "Demand is stronger today than we talked about when we did the ARM Everywhere event in March,"
+    },
+    {
+     "t0_ms": 891310,
+     "text": "and subsequently demand for multiple customers,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 893310,
+   "t1_ms": 937310,
+   "speaker": "Management",
+   "text": "meta being the chief customer, has also been beyond what we've expected. That being said, we've been working very hard over the last few quarters on securing what's necessary in the supply chain to address that demand. There's multiple components to it. There is wafer supply. There are substrates. There are testers. There's memory, et cetera. We have wanted to be confident. We've been very confident when we signal our ability to achieve this extra demand with supply in the ongoing quarters. So at ARM Everywhere Day, we talked about visibilities of $1 billion, and quickly we have seen that to about a $2 billion number.",
+   "parts": [
+    {
+     "t0_ms": 893310,
+     "text": "meta being the chief customer, has also been beyond what we've expected."
+    },
+    {
+     "t0_ms": 898310,
+     "text": "That being said, we've been working very hard over the last few quarters"
+    },
+    {
+     "t0_ms": 903310,
+     "text": "on securing what's necessary in the supply chain to address that demand."
+    },
+    {
+     "t0_ms": 908310,
+     "text": "There's multiple components to it."
+    },
+    {
+     "t0_ms": 910310,
+     "text": "There is wafer supply."
+    },
+    {
+     "t0_ms": 912310,
+     "text": "There are substrates."
+    },
+    {
+     "t0_ms": 914310,
+     "text": "There are testers."
+    },
+    {
+     "t0_ms": 915310,
+     "text": "There's memory, et cetera."
+    },
+    {
+     "t0_ms": 918310,
+     "text": "We have wanted to be confident."
+    },
+    {
+     "t0_ms": 921310,
+     "text": "We've been very confident when we signal our ability to achieve this extra demand with supply in the ongoing quarters."
+    },
+    {
+     "t0_ms": 928310,
+     "text": "So at ARM Everywhere Day, we talked about visibilities of $1 billion,"
+    },
+    {
+     "t0_ms": 933310,
+     "text": "and quickly we have seen that to about a $2 billion number."
+    }
+   ]
+  },
+  {
+   "t0_ms": 937310,
+   "t1_ms": 970310,
+   "speaker": "Management",
+   "text": "I can tell you today that the confidence is the strongest it's been to date, and it's definitely stronger than it was 90 days ago in terms of securing that supply. As I said, it's across all of those independent areas. But we didn't start working on it yesterday or the previous quarter. We've been working on it actually for the last number of quarters. We've got great partners who are supporting us here. And as you mentioned, meta is the chief customer, but there will be multiple customers beyond meta. Jason, I don't know if there's anything that you want to add. So if not, thanks, Gary, for the question.",
+   "parts": [
+    {
+     "t0_ms": 937310,
+     "text": "I can tell you today that the confidence is the strongest it's been to date,"
+    },
+    {
+     "t0_ms": 941310,
+     "text": "and it's definitely stronger than it was 90 days ago in terms of securing that supply."
+    },
+    {
+     "t0_ms": 946310,
+     "text": "As I said, it's across all of those independent areas."
+    },
+    {
+     "t0_ms": 950310,
+     "text": "But we didn't start working on it yesterday or the previous quarter."
+    },
+    {
+     "t0_ms": 954310,
+     "text": "We've been working on it actually for the last number of quarters."
+    },
+    {
+     "t0_ms": 957310,
+     "text": "We've got great partners who are supporting us here."
+    },
+    {
+     "t0_ms": 960310,
+     "text": "And as you mentioned, meta is the chief customer, but there will be multiple customers beyond meta."
+    },
+    {
+     "t0_ms": 965310,
+     "text": "Jason, I don't know if there's anything that you want to add."
+    },
+    {
+     "t0_ms": 967310,
+     "text": "So if not, thanks, Gary, for the question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 970310,
+   "t1_ms": 980200,
+   "speaker": "Operator",
+   "text": "Thank you. If I could ask \u2013 Please continue, Gary.",
+   "parts": [
+    {
+     "t0_ms": 970310,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 972750,
+     "text": "If I could ask \u2013"
+    },
+    {
+     "t0_ms": 978200,
+     "text": "Please continue, Gary."
+    }
+   ]
+  },
+  {
+   "t0_ms": 980200,
+   "t1_ms": 1005200,
+   "speaker": "Analyst",
+   "text": "My apologies. I was just hoping to ask a follow-up question briefly. You've given us enough information. You've given us enough information in the shareholder letter to calculate your royalty rate per unit on a year-over-year basis, and it looks like it's trending up at least to mid-single-digit percent. So I'm wondering if that's just sort of an anomaly with respect to Mixer. That should be how we view the royalty rate per unit growth over the long term.",
+   "parts": [
+    {
+     "t0_ms": 980200,
+     "text": "My apologies."
+    },
+    {
+     "t0_ms": 982200,
+     "text": "I was just hoping to ask a follow-up question briefly."
+    },
+    {
+     "t0_ms": 984200,
+     "text": "You've given us enough information."
+    },
+    {
+     "t0_ms": 985200,
+     "text": "You've given us enough information in the shareholder letter to calculate your royalty rate per unit on a year-over-year basis,"
+    },
+    {
+     "t0_ms": 991200,
+     "text": "and it looks like it's trending up at least to mid-single-digit percent."
+    },
+    {
+     "t0_ms": 995200,
+     "text": "So I'm wondering if that's just sort of an anomaly with respect to Mixer."
+    },
+    {
+     "t0_ms": 999200,
+     "text": "That should be how we view the royalty rate per unit growth over the long term."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1005200,
+   "t1_ms": 1048200,
+   "speaker": "Management",
+   "text": "Yeah, it's \u2013 I mean, it's mixed, but it's also \u2013 I think we said, what, $10 billion shipped in the quarter? And so it's going to bounce around based on any particular quarter. I would say certainly mobile on average is probably a little lower than certainly server and physical AI given the size and value of the chips. And so that probably has some impact. So I don't know that I would take the overall average across 10 billion ships and use that as the best way to forecast going forward. I do think if you break it out by the three different pieces, I do think if you break it out by the three different business units, as we said, pretty flattish growth in the mobile business,",
+   "parts": [
+    {
+     "t0_ms": 1005200,
+     "text": "Yeah, it's \u2013 I mean, it's mixed, but it's also \u2013 I think we said, what, $10 billion shipped in the quarter?"
+    },
+    {
+     "t0_ms": 1013200,
+     "text": "And so it's going to bounce around based on any particular quarter."
+    },
+    {
+     "t0_ms": 1018200,
+     "text": "I would say certainly mobile on average is probably a little lower than certainly server and physical AI given the size and value of the chips."
+    },
+    {
+     "t0_ms": 1029200,
+     "text": "And so that probably has some impact."
+    },
+    {
+     "t0_ms": 1031200,
+     "text": "So I don't know that I would take the overall average across 10 billion ships and use that as the best way to forecast going forward."
+    },
+    {
+     "t0_ms": 1040200,
+     "text": "I do think if you break it out by the three different pieces,"
+    },
+    {
+     "t0_ms": 1041200,
+     "text": "I do think if you break it out by the three different business units, as we said, pretty flattish growth in the mobile business,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1048200,
+   "t1_ms": 1091200,
+   "speaker": "Management",
+   "text": "very strong double-digit growth in server where we're also seeing increasing core accounts and more CSS revenue flowing through this quarter. But we're going to continue seeing that going forward. That's why we have high confidence that we're going to have triple-digit growth for the next few years. And then on physical AI, that one is also \u2013 we said growing to the next quarter, we're going to have a lot of growth in the mobile business. So if we're going to go 50% year on year, that's also going to, I'd say, be a bit of a tailwind to overall royalty rates and overall royalty growth. But, again, I would probably break into those three categories as opposed to just looking at it all combined together. Yeah, maybe, Gary, just a finer point on the data center growth.",
+   "parts": [
+    {
+     "t0_ms": 1048200,
+     "text": "very strong double-digit growth in server where we're also seeing increasing core accounts and more CSS revenue flowing through this quarter."
+    },
+    {
+     "t0_ms": 1058200,
+     "text": "But we're going to continue seeing that going forward."
+    },
+    {
+     "t0_ms": 1061200,
+     "text": "That's why we have high confidence that we're going to have triple-digit growth for the next few years."
+    },
+    {
+     "t0_ms": 1067200,
+     "text": "And then on physical AI, that one is also \u2013 we said growing to the next quarter,"
+    },
+    {
+     "t0_ms": 1070200,
+     "text": "we're going to have a lot of growth in the mobile business."
+    },
+    {
+     "t0_ms": 1071200,
+     "text": "So if we're going to go 50% year on year, that's also going to, I'd say, be a bit of a tailwind to overall royalty rates and overall royalty growth."
+    },
+    {
+     "t0_ms": 1079200,
+     "text": "But, again, I would probably break into those three categories as opposed to just looking at it all combined together."
+    },
+    {
+     "t0_ms": 1087200,
+     "text": "Yeah, maybe, Gary, just a finer point on the data center growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1091200,
+   "t1_ms": 1129700,
+   "speaker": "Management",
+   "text": "I think there's two vectors independent of the ARM AGI CPU on the royalty. One is ARM taking market share, which I mentioned before. mentioned before, now we think it's going to be 60% by the end of the year. That market share gain is driven both in terms of units going up, agentic AI driving increased design starts for Graviton, Cobalt, Axion, et cetera. But in addition, we are seeing a transition away from x86 to ARM for the head node CPU that connect to accelerators.",
+   "parts": [
+    {
+     "t0_ms": 1091200,
+     "text": "I think there's two vectors independent of the ARM AGI CPU on the royalty."
+    },
+    {
+     "t0_ms": 1096200,
+     "text": "One is ARM taking market share, which I mentioned before."
+    },
+    {
+     "t0_ms": 1100200,
+     "text": "mentioned before, now we think it's going to be 60% by the end of the year."
+    },
+    {
+     "t0_ms": 1105180,
+     "text": "That market share gain is driven both in terms of units going up, agentic AI driving increased"
+    },
+    {
+     "t0_ms": 1113280,
+     "text": "design starts for Graviton, Cobalt, Axion, et cetera."
+    },
+    {
+     "t0_ms": 1117840,
+     "text": "But in addition, we are seeing a transition away from x86 to ARM for the head node CPU"
+    },
+    {
+     "t0_ms": 1127900,
+     "text": "that connect to accelerators."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1129700,
+   "t1_ms": 1154180,
+   "speaker": "Management",
+   "text": "We already know about Vera Rubin, but Google has already announced the conversion of x86 to Axion connecting to GPU version 8. So to Jason's point, this is why we have a high degree of confidence on data center royalties growing triple digits over the next number of years. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1129700,
+     "text": "We already know about Vera Rubin, but Google has already announced the conversion of x86"
+    },
+    {
+     "t0_ms": 1136540,
+     "text": "to Axion connecting to GPU version 8."
+    },
+    {
+     "t0_ms": 1140320,
+     "text": "So to Jason's point, this is why we have a high degree of confidence on data center royalties"
+    },
+    {
+     "t0_ms": 1147500,
+     "text": "growing triple digits over the next number of years."
+    },
+    {
+     "t0_ms": 1151460,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1154180,
+   "t1_ms": 1177920,
+   "speaker": "Operator",
+   "text": "Thank you. As a reminder, if you would like to ask a question, please press star 1 and 1 on your telephone. In the interest of time, please limit yourself to one question only and rejoin the queue for any follow-ups. We will now go to our next question. And our next question comes from the line of Sebastian Nagy from William Blair. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1154180,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1155180,
+     "text": "As a reminder, if you would like to ask a question, please press star 1 and 1 on your"
+    },
+    {
+     "t0_ms": 1160740,
+     "text": "telephone."
+    },
+    {
+     "t0_ms": 1161420,
+     "text": "In the interest of time, please limit yourself to one question only and rejoin the queue"
+    },
+    {
+     "t0_ms": 1166480,
+     "text": "for any follow-ups."
+    },
+    {
+     "t0_ms": 1167480,
+     "text": "We will now go to our next question."
+    },
+    {
+     "t0_ms": 1172420,
+     "text": "And our next question comes from the line of Sebastian Nagy from William Blair."
+    },
+    {
+     "t0_ms": 1176920,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1177920,
+   "t1_ms": 1214210,
+   "speaker": "Analyst",
+   "text": "Good afternoon, and thanks for taking the question. I want to ask about how ARM wins versus x86 in the AI data center. At OCP, you introduced agentic AI benchmarks that showed your AGI CPUs and your CPUs. What are your thoughts on that? I think there are two things about ARM. One is that the ARM CPU can deliver twice the performance per rack versus a competing x86 solution. But then last night on its earnings call, AMD said that its then a CPU offers the best performance per watt. So maybe, Rene, could you talk about where you see the most meaningful opportunity for the ARM CPU to win in the data center versus x86?",
+   "parts": [
+    {
+     "t0_ms": 1177920,
+     "text": "Good afternoon, and thanks for taking the question."
+    },
+    {
+     "t0_ms": 1183070,
+     "text": "I want to ask about how ARM wins versus x86 in the AI data center."
+    },
+    {
+     "t0_ms": 1188710,
+     "text": "At OCP, you introduced agentic AI benchmarks that showed your AGI CPUs and your CPUs."
+    },
+    {
+     "t0_ms": 1192710,
+     "text": "What are your thoughts on that?"
+    },
+    {
+     "t0_ms": 1193710,
+     "text": "I think there are two things about ARM."
+    },
+    {
+     "t0_ms": 1194710,
+     "text": "One is that the ARM CPU can deliver twice the performance per rack versus a competing x86"
+    },
+    {
+     "t0_ms": 1198470,
+     "text": "solution."
+    },
+    {
+     "t0_ms": 1199470,
+     "text": "But then last night on its earnings call, AMD said that its then a CPU offers the best"
+    },
+    {
+     "t0_ms": 1204710,
+     "text": "performance per watt."
+    },
+    {
+     "t0_ms": 1205910,
+     "text": "So maybe, Rene, could you talk about where you see the most meaningful opportunity for"
+    },
+    {
+     "t0_ms": 1210870,
+     "text": "the ARM CPU to win in the data center versus x86?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1214210,
+   "t1_ms": 1254730,
+   "speaker": "Management",
+   "text": "Yeah. Sure. I'll take the question kind of from two angles. One is looking at it in the eyes of the AI. You know, we're talking about the AI and the CPU. We're trying to get something out of it. of a Amazon or a Google or Microsoft who are building custom CPUs for their own implementations and their own racks and their own systems. In those designs, particularly when an end customer is designing an SOC, the degree and flexibility that they have to innovate around their own system is extremely high. Tradeoffs that they can make in terms of what goes inside the SOC for data movement versus",
+   "parts": [
+    {
+     "t0_ms": 1214210,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1215210,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 1216210,
+     "text": "I'll take the question kind of from two angles."
+    },
+    {
+     "t0_ms": 1220730,
+     "text": "One is looking at it in the eyes of the AI."
+    },
+    {
+     "t0_ms": 1221770,
+     "text": "You know, we're talking about the AI and the CPU."
+    },
+    {
+     "t0_ms": 1222710,
+     "text": "We're trying to get something out of it."
+    },
+    {
+     "t0_ms": 1223710,
+     "text": "of a Amazon or a Google or Microsoft who are building custom CPUs for their own implementations"
+    },
+    {
+     "t0_ms": 1233370,
+     "text": "and their own racks and their own systems."
+    },
+    {
+     "t0_ms": 1236610,
+     "text": "In those designs, particularly when an end customer is designing an SOC, the degree and"
+    },
+    {
+     "t0_ms": 1242830,
+     "text": "flexibility that they have to innovate around their own system is extremely high."
+    },
+    {
+     "t0_ms": 1250010,
+     "text": "Tradeoffs that they can make in terms of what goes inside the SOC for data movement versus"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1254730,
+   "t1_ms": 1296510,
+   "speaker": "Management",
+   "text": "what takes place inside a DPU, which is what takes place inside a storage. At that level, you almost have to look at it in terms of performance per rack versus the chip basis. But at a chip level, Arm not only gives them the most efficient core on the planet, but allows them to design the most efficient SOC and subsequently the ultimate system. We've seen that just in-depth. In terms of how quickly these customers have been converting designs away from standard x86 to Arm. Now the Arm AGI CPU benchmark that we ran that was done through Signal at OCP was looking",
+   "parts": [
+    {
+     "t0_ms": 1254730,
+     "text": "what takes place inside a DPU, which is what takes place inside a storage."
+    },
+    {
+     "t0_ms": 1259570,
+     "text": "At that level, you almost have to look at it in terms of performance per rack versus"
+    },
+    {
+     "t0_ms": 1265450,
+     "text": "the chip basis."
+    },
+    {
+     "t0_ms": 1266450,
+     "text": "But at a chip level, Arm not only gives them the most efficient core on the planet, but"
+    },
+    {
+     "t0_ms": 1271870,
+     "text": "allows them to design the most efficient SOC and subsequently the ultimate system."
+    },
+    {
+     "t0_ms": 1278970,
+     "text": "We've seen that just in-depth."
+    },
+    {
+     "t0_ms": 1279970,
+     "text": "In terms of how quickly these customers have been converting designs away from standard"
+    },
+    {
+     "t0_ms": 1285570,
+     "text": "x86 to Arm."
+    },
+    {
+     "t0_ms": 1287890,
+     "text": "Now the Arm AGI CPU benchmark that we ran that was done through Signal at OCP was looking"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1296510,
+   "t1_ms": 1340180,
+   "speaker": "Management",
+   "text": "at the previous generation to Venice. And we are very confident in those numbers and we're very, very confident in terms of the choices that customers make vis-a-vis head-to-head against that design. So we're a great product, but we're very confident in terms of the demand we have for our product, Arm AGI CPU and the roadmap going forward. But I would say two vectors to look at it. One is just efficiency, cost per performance per dollar, performance per watt with AGI CPU. And then on the custom level, there are just simply things that end customers can do that a standard product is never going to be able to touch. And that's kind of the beauty of the Arm business model.",
+   "parts": [
+    {
+     "t0_ms": 1296510,
+     "text": "at the previous generation to Venice."
+    },
+    {
+     "t0_ms": 1301130,
+     "text": "And we are very confident in those numbers and we're very, very confident in terms of"
+    },
+    {
+     "t0_ms": 1304530,
+     "text": "the choices that customers make vis-a-vis head-to-head against that design."
+    },
+    {
+     "t0_ms": 1309970,
+     "text": "So we're a great product, but we're very confident in terms of the demand we have for"
+    },
+    {
+     "t0_ms": 1314310,
+     "text": "our product, Arm AGI CPU and the roadmap going forward."
+    },
+    {
+     "t0_ms": 1318650,
+     "text": "But I would say two vectors to look at it."
+    },
+    {
+     "t0_ms": 1320610,
+     "text": "One is just efficiency, cost per performance per dollar, performance per watt with AGI"
+    },
+    {
+     "t0_ms": 1326790,
+     "text": "CPU."
+    },
+    {
+     "t0_ms": 1327790,
+     "text": "And then on the custom level, there are just simply things that end customers can do that"
+    },
+    {
+     "t0_ms": 1333350,
+     "text": "a standard product is never going to be able to touch."
+    },
+    {
+     "t0_ms": 1335990,
+     "text": "And that's kind of the beauty of the Arm business model."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1340180,
+   "t1_ms": 1349020,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question today comes from the line of Chris Sankar from TD Cowen. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1340180,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1341700,
+     "text": "Your next question today comes from the line of Chris Sankar from TD Cowen."
+    },
+    {
+     "t0_ms": 1348020,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1349020,
+   "t1_ms": 1378100,
+   "speaker": "Analyst",
+   "text": "Hi, thanks for taking my question. Running on JSON, at OCP you introduced your AGI CPU reference server design. I'm just wondering, are you working with ODMs or server manufacturers? Are you targeting the enterprise private cloud? And along the same path on FY31, 15 billion AGI CPU revenues, which is the biggest factor? Is it core cost? Is it the amount increase? Or is it ASP increasing from the current version 1? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1349020,
+     "text": "Hi, thanks for taking my question."
+    },
+    {
+     "t0_ms": 1352020,
+     "text": "Running on JSON, at OCP you introduced your AGI CPU reference server design."
+    },
+    {
+     "t0_ms": 1357260,
+     "text": "I'm just wondering, are you working with ODMs or server manufacturers?"
+    },
+    {
+     "t0_ms": 1361820,
+     "text": "Are you targeting the enterprise private cloud?"
+    },
+    {
+     "t0_ms": 1364020,
+     "text": "And along the same path on FY31, 15 billion AGI CPU revenues, which is the biggest factor?"
+    },
+    {
+     "t0_ms": 1370700,
+     "text": "Is it core cost?"
+    },
+    {
+     "t0_ms": 1371700,
+     "text": "Is it the amount increase?"
+    },
+    {
+     "t0_ms": 1372700,
+     "text": "Or is it ASP increasing from the current version 1?"
+    },
+    {
+     "t0_ms": 1377100,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1378100,
+   "t1_ms": 1419580,
+   "speaker": "Management",
+   "text": "Yeah, no, thanks for the question. When I think about the partners that we're working with, it's Supermicro, Lenovo, and ASRock. They are building the racks for us and then are basically standing those up for deployment at data centers such as OCI. So they're the partners that we build with. As far as the revenue outlook, and Jason can speak to the specifics of where we think and when we think those numbers are going to land, there is clearly going to be an acceleration of number of cores inside these SOCs.",
+   "parts": [
+    {
+     "t0_ms": 1378100,
+     "text": "Yeah, no, thanks for the question."
+    },
+    {
+     "t0_ms": 1381400,
+     "text": "When I think about the partners that we're working with, it's Supermicro, Lenovo, and"
+    },
+    {
+     "t0_ms": 1388140,
+     "text": "ASRock."
+    },
+    {
+     "t0_ms": 1389380,
+     "text": "They are building the racks for us and then are basically standing those up for deployment"
+    },
+    {
+     "t0_ms": 1395920,
+     "text": "at data centers such as OCI."
+    },
+    {
+     "t0_ms": 1398020,
+     "text": "So they're the partners that we build with."
+    },
+    {
+     "t0_ms": 1401020,
+     "text": "As far as the revenue outlook, and Jason can speak to the specifics of where we think"
+    },
+    {
+     "t0_ms": 1408080,
+     "text": "and when we think those numbers are going to land, there is clearly going to be an acceleration"
+    },
+    {
+     "t0_ms": 1413340,
+     "text": "of number of cores inside these SOCs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1419580,
+   "t1_ms": 1463460,
+   "speaker": "Management",
+   "text": "And that is largely driven by agentic workloads and specifically the fact that each one of these agents, let's take a Muse agent that's running a specific job. Typically runs as a virtual machine on one CPU core. The software is rather complex to manage that across a single core or multiple cores, if you will. So if you can run that on a single core, it's a better thing. So do I see CPUs going from 128 cores to 256 cores to 500 plus cores? Absolutely. You can imagine that the average selling price of the chips with more cores is going to be a lot higher. The cores will be higher, certainly.",
+   "parts": [
+    {
+     "t0_ms": 1419580,
+     "text": "And that is largely driven by agentic workloads and specifically the fact that each one of"
+    },
+    {
+     "t0_ms": 1427200,
+     "text": "these agents, let's take a Muse agent that's running a specific job."
+    },
+    {
+     "t0_ms": 1431020,
+     "text": "Typically runs as a virtual machine on one CPU core."
+    },
+    {
+     "t0_ms": 1436020,
+     "text": "The software is rather complex to manage that across a single core or multiple cores, if"
+    },
+    {
+     "t0_ms": 1441600,
+     "text": "you will."
+    },
+    {
+     "t0_ms": 1442600,
+     "text": "So if you can run that on a single core, it's a better thing."
+    },
+    {
+     "t0_ms": 1445540,
+     "text": "So do I see CPUs going from 128 cores to 256 cores to 500 plus cores?"
+    },
+    {
+     "t0_ms": 1454780,
+     "text": "Absolutely."
+    },
+    {
+     "t0_ms": 1455820,
+     "text": "You can imagine that the average selling price of the chips with more cores is going to be"
+    },
+    {
+     "t0_ms": 1460080,
+     "text": "a lot higher."
+    },
+    {
+     "t0_ms": 1461020,
+     "text": "The cores will be higher, certainly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1463460,
+   "t1_ms": 1507180,
+   "speaker": "Management",
+   "text": "But I think what we will see is probably a more rapid acceleration to that, which will help grow the top line. And Jason, do you want to add on to that, numbers-wise? Yeah. We said back at the Arm Everywhere event last March that we had the line aside to a billion for the end of 27 and fiscal 28. And of course, now we're increased our confidence to deliver 2 billion. And then the following year, we haven't made any updates. But I think the original plan was that we were going to get to about 2 billion the year after that. And then we're going to go up to about 5 the year after that. And so to the extent that we're successful in delivering over 2, you should expect that",
+   "parts": [
+    {
+     "t0_ms": 1463460,
+     "text": "But I think what we will see is probably a more rapid acceleration to that, which will"
+    },
+    {
+     "t0_ms": 1467640,
+     "text": "help grow the top line."
+    },
+    {
+     "t0_ms": 1469240,
+     "text": "And Jason, do you want to add on to that, numbers-wise?"
+    },
+    {
+     "t0_ms": 1472600,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1473600,
+     "text": "We said back at the Arm Everywhere event last March that we had the line aside to a billion"
+    },
+    {
+     "t0_ms": 1481860,
+     "text": "for the end of 27 and fiscal 28."
+    },
+    {
+     "t0_ms": 1486600,
+     "text": "And of course, now we're increased our confidence to deliver 2 billion."
+    },
+    {
+     "t0_ms": 1490560,
+     "text": "And then the following year, we haven't made any updates."
+    },
+    {
+     "t0_ms": 1493600,
+     "text": "But I think the original plan was that we were going to get to about 2 billion the year"
+    },
+    {
+     "t0_ms": 1496520,
+     "text": "after that."
+    },
+    {
+     "t0_ms": 1497520,
+     "text": "And then we're going to go up to about 5 the year after that."
+    },
+    {
+     "t0_ms": 1501260,
+     "text": "And so to the extent that we're successful in delivering over 2, you should expect that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1507180,
+   "t1_ms": 1550140,
+   "speaker": "Management",
+   "text": "we'll probably have some upsides after that. That's something that we'll plan on providing in terms of updated possible targets when we have the next Arm Everywhere event. We're still in the process of doing that. We're still working on timing. But likely, probably in, say, spring or first half of next year is probably when we'll provide that update. Yeah. I think what we can say is when we did the Arm Everywhere Day in March, the conventional wisdom was the market was a $60 billion market and wasn't going to be growing all that much. When we did our calculations, we felt differently. And we talked about a number that day of 100 billion by 2030. I think that number is going to be growing. And I think that's going to be a big part of the future. So I think that's going to be a big part of the future.",
+   "parts": [
+    {
+     "t0_ms": 1507180,
+     "text": "we'll probably have some upsides after that."
+    },
+    {
+     "t0_ms": 1510200,
+     "text": "That's something that we'll plan on providing in terms of updated possible targets when"
+    },
+    {
+     "t0_ms": 1518140,
+     "text": "we have the next Arm Everywhere event."
+    },
+    {
+     "t0_ms": 1519220,
+     "text": "We're still in the process of doing that."
+    },
+    {
+     "t0_ms": 1520180,
+     "text": "We're still working on timing."
+    },
+    {
+     "t0_ms": 1521680,
+     "text": "But likely, probably in, say, spring or first half of next year is probably when we'll provide"
+    },
+    {
+     "t0_ms": 1527400,
+     "text": "that update."
+    },
+    {
+     "t0_ms": 1528400,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1529400,
+     "text": "I think what we can say is when we did the Arm Everywhere Day in March, the conventional"
+    },
+    {
+     "t0_ms": 1534060,
+     "text": "wisdom was the market was a $60 billion market and wasn't going to be growing all that much."
+    },
+    {
+     "t0_ms": 1541740,
+     "text": "When we did our calculations, we felt differently."
+    },
+    {
+     "t0_ms": 1545060,
+     "text": "And we talked about a number that day of 100 billion by 2030."
+    },
+    {
+     "t0_ms": 1547140,
+     "text": "I think that number is going to be growing."
+    },
+    {
+     "t0_ms": 1548140,
+     "text": "And I think that's going to be a big part of the future."
+    },
+    {
+     "t0_ms": 1549140,
+     "text": "So I think that's going to be a big part of the future."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1550140,
+   "t1_ms": 1591200,
+   "speaker": "Management",
+   "text": "And we know the number has been increased by various folks. I think Lisa may have even said $200 billion or more. I think that's about right and maybe even could be under-calling it. Who knows? What is obvious is that the agentic demands on AI jobs are CPU-bound. And the more agentic workloads that run, that's going to need more CPUs. So I think that's what's going to end up driving these higher core count devices. But, you know, we want to keep up. which I think will be very good for us because what's going to matter there is performance per watt at the core level, having the most efficient core on the planet, which is what we're very good at.",
+   "parts": [
+    {
+     "t0_ms": 1550140,
+     "text": "And we know the number has been increased by various folks."
+    },
+    {
+     "t0_ms": 1552740,
+     "text": "I think Lisa may have even said $200 billion or more."
+    },
+    {
+     "t0_ms": 1556680,
+     "text": "I think that's about right and maybe even could be under-calling it."
+    },
+    {
+     "t0_ms": 1562080,
+     "text": "Who knows?"
+    },
+    {
+     "t0_ms": 1563980,
+     "text": "What is obvious is that the agentic demands on AI jobs are CPU-bound."
+    },
+    {
+     "t0_ms": 1571000,
+     "text": "And the more agentic workloads that run, that's going to need more CPUs."
+    },
+    {
+     "t0_ms": 1575300,
+     "text": "So I think that's what's going to end up driving these higher core count devices."
+    },
+    {
+     "t0_ms": 1579340,
+     "text": "But, you know, we want to keep up."
+    },
+    {
+     "t0_ms": 1580140,
+     "text": "which I think will be very good for us because what's going to matter there is performance per watt at the core level,"
+    },
+    {
+     "t0_ms": 1587160,
+     "text": "having the most efficient core on the planet, which is what we're very good at."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1591500,
+   "t1_ms": 1601060,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question today comes from the line of Mehdi Husseini from Susquehanna. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1591500,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1594840,
+     "text": "Your next question today comes from the line of Mehdi Husseini from Susquehanna."
+    },
+    {
+     "t0_ms": 1600320,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1602480,
+   "t1_ms": 1621480,
+   "speaker": "Analyst",
+   "text": "Yes, two follow-ups. Going back to the new updated AGI silicon revenue target of $2 billion, should we assume any revenue contribution in September or December quarter of this year, FI27?",
+   "parts": [
+    {
+     "t0_ms": 1602480,
+     "text": "Yes, two follow-ups."
+    },
+    {
+     "t0_ms": 1605640,
+     "text": "Going back to the new updated AGI silicon revenue target of $2 billion,"
+    },
+    {
+     "t0_ms": 1610080,
+     "text": "should we assume any revenue contribution in September or December quarter of this year, FI27?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1622660,
+   "t1_ms": 1632580,
+   "speaker": "Management",
+   "text": "Assume that our shipments will start in Q4. If we have something in Q3, we'll let you know. It wouldn't be a lot. We're really targeting Q4.",
+   "parts": [
+    {
+     "t0_ms": 1622660,
+     "text": "Assume that our shipments will start in Q4."
+    },
+    {
+     "t0_ms": 1627220,
+     "text": "If we have something in Q3, we'll let you know."
+    },
+    {
+     "t0_ms": 1629520,
+     "text": "It wouldn't be a lot."
+    },
+    {
+     "t0_ms": 1630960,
+     "text": "We're really targeting Q4."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1633600,
+   "t1_ms": 1653970,
+   "speaker": "Analyst",
+   "text": "Okay. And then just a quick follow-up. Would it be fair to say that data center makes up the royalty revenue or is it just a matter of time before we get to Q4? Is tracking to a third or 30 to 35% and for next fiscal year, FI28, it could go up towards a mid-40%? I'm sorry.",
+   "parts": [
+    {
+     "t0_ms": 1633600,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 1634040,
+     "text": "And then just a quick follow-up."
+    },
+    {
+     "t0_ms": 1635400,
+     "text": "Would it be fair to say that data center makes up the royalty revenue"
+    },
+    {
+     "t0_ms": 1639440,
+     "text": "or is it just a matter of time before we get to Q4?"
+    },
+    {
+     "t0_ms": 1640080,
+     "text": "Is tracking to a third or 30 to 35% and for next fiscal year, FI28,"
+    },
+    {
+     "t0_ms": 1647080,
+     "text": "it could go up towards a mid-40%?"
+    },
+    {
+     "t0_ms": 1653490,
+     "text": "I'm sorry."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1654210,
+   "t1_ms": 1659490,
+   "speaker": "Management",
+   "text": "Are you asking what percentage of total royalties that are data center? Is that the question?",
+   "parts": [
+    {
+     "t0_ms": 1654210,
+     "text": "Are you asking what percentage of total royalties that are data center?"
+    },
+    {
+     "t0_ms": 1658950,
+     "text": "Is that the question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1659910,
+   "t1_ms": 1672630,
+   "speaker": "Analyst",
+   "text": "Yes. Would it be fair to assume that it's tracking to like a third in FI27 and it would step up again in 28 moving towards 45%?",
+   "parts": [
+    {
+     "t0_ms": 1659910,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 1661670,
+     "text": "Would it be fair to assume that it's tracking to like a third in FI27"
+    },
+    {
+     "t0_ms": 1667130,
+     "text": "and it would step up again in 28 moving towards 45%?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1675040,
+   "t1_ms": 1716940,
+   "speaker": "Management",
+   "text": "Yeah. I don't. Yeah. I mean, we look at them independently. So I would assume that royalties for edge are going to be pretty flattish this quarter. And I think we said we'll start to see some recovery in Q4. But if you have that in the kind of high single digits and then you have data center growing at double digits, I think we said last year we were kind of approaching 20% of total royalties. And then you have physical AI growing. You know, somewhere probably in the, you know, somewhere in the somewhere between 20, 30-ish percent range, then that's how you should build your model. I haven't done the math to look at the percentage.",
+   "parts": [
+    {
+     "t0_ms": 1675040,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1675700,
+     "text": "I don't."
+    },
+    {
+     "t0_ms": 1676320,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1676560,
+     "text": "I mean, we look at them independently."
+    },
+    {
+     "t0_ms": 1678520,
+     "text": "So I would assume that royalties for edge are going to be pretty flattish this quarter."
+    },
+    {
+     "t0_ms": 1688440,
+     "text": "And I think we said we'll start to see some recovery in Q4."
+    },
+    {
+     "t0_ms": 1690980,
+     "text": "But if you have that in the kind of high single digits"
+    },
+    {
+     "t0_ms": 1693460,
+     "text": "and then you have data center growing at double digits,"
+    },
+    {
+     "t0_ms": 1697280,
+     "text": "I think we said last year we were kind of approaching 20% of total royalties."
+    },
+    {
+     "t0_ms": 1702600,
+     "text": "And then you have physical AI growing."
+    },
+    {
+     "t0_ms": 1705040,
+     "text": "You know, somewhere probably in the, you know,"
+    },
+    {
+     "t0_ms": 1708360,
+     "text": "somewhere in the somewhere between 20, 30-ish percent range,"
+    },
+    {
+     "t0_ms": 1711580,
+     "text": "then that's how you should build your model."
+    },
+    {
+     "t0_ms": 1714640,
+     "text": "I haven't done the math to look at the percentage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1717180,
+   "t1_ms": 1726880,
+   "speaker": "Management",
+   "text": "I don't think data center will get quite to a third, but it will sometime soon. I just don't know if it's going to get there by the end of this year.",
+   "parts": [
+    {
+     "t0_ms": 1717180,
+     "text": "I don't think data center will get quite to a third,"
+    },
+    {
+     "t0_ms": 1721100,
+     "text": "but it will sometime soon."
+    },
+    {
+     "t0_ms": 1724680,
+     "text": "I just don't know if it's going to get there by the end of this year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1729400,
+   "t1_ms": 1737460,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from the line of Simon Leopold from Raymond James. Please. Go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1729400,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1731140,
+     "text": "Your next question comes from the line of Simon Leopold from Raymond James."
+    },
+    {
+     "t0_ms": 1736600,
+     "text": "Please."
+    },
+    {
+     "t0_ms": 1736860,
+     "text": "Go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1738740,
+   "t1_ms": 1767900,
+   "speaker": "Analyst",
+   "text": "Thank you very much. Appreciate you taking the question. I wanted to ask about the basically the cloud and AI group of products and how you might frame the customer concentration there to help us give us a better appreciation. For example, could we guess that maybe 60% of these royalties are coming from three customers? Any kind of quantification would be helpful to understand that? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1738740,
+     "text": "Thank you very much."
+    },
+    {
+     "t0_ms": 1739840,
+     "text": "Appreciate you taking the question."
+    },
+    {
+     "t0_ms": 1741120,
+     "text": "I wanted to ask about the basically the cloud and AI group of products"
+    },
+    {
+     "t0_ms": 1748780,
+     "text": "and how you might frame the customer concentration there"
+    },
+    {
+     "t0_ms": 1753500,
+     "text": "to help us give us a better appreciation."
+    },
+    {
+     "t0_ms": 1756420,
+     "text": "For example, could we guess that maybe 60% of these royalties"
+    },
+    {
+     "t0_ms": 1762220,
+     "text": "are coming from three customers?"
+    },
+    {
+     "t0_ms": 1764600,
+     "text": "Any kind of quantification would be helpful"
+    },
+    {
+     "t0_ms": 1766600,
+     "text": "to understand that?"
+    },
+    {
+     "t0_ms": 1767580,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1770760,
+   "t1_ms": 1791060,
+   "speaker": "Management",
+   "text": "I think we can say, and Jason, you know, chime in on this thing. Amazon, Google, and Microsoft are the largest contributors, and then you've now got NVIDIA ramping up quickly. They are the four guys inside the data center that command the majority of royalties. Correct.",
+   "parts": [
+    {
+     "t0_ms": 1770760,
+     "text": "I think we can say, and Jason, you know,"
+    },
+    {
+     "t0_ms": 1772520,
+     "text": "chime in on this thing."
+    },
+    {
+     "t0_ms": 1774860,
+     "text": "Amazon, Google, and Microsoft are the largest contributors,"
+    },
+    {
+     "t0_ms": 1781260,
+     "text": "and then you've now got NVIDIA ramping up quickly."
+    },
+    {
+     "t0_ms": 1784420,
+     "text": "They are the four guys inside the data center"
+    },
+    {
+     "t0_ms": 1787280,
+     "text": "that command the majority of royalties."
+    },
+    {
+     "t0_ms": 1790760,
+     "text": "Correct."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1794280,
+   "t1_ms": 1802040,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question today comes from the line of Harlan Furr from J.P. Morgan. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1794280,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1795900,
+     "text": "Your next question today comes from the line of Harlan Furr"
+    },
+    {
+     "t0_ms": 1800080,
+     "text": "from J.P. Morgan."
+    },
+    {
+     "t0_ms": 1801020,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1803480,
+   "t1_ms": 1846380,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thanks for taking my question. You know, with the strong success of your first-generation AGI CPU, I'm sure your customers are already looking towards your next-generation platform, right? Can you just give us an update on second-gen AGI? I think the plan was for the team to tape out either end of this year, beginning of next year for ramping calendar 28, and then maybe just as importantly, as you continue to add more capabilities, to your compute silicon portfolio. Does it actually make sense to add more networking and high-performance IO capabilities as well? More and more, we're seeing that compute and networking are very closely coupled to determine very good systems performance.",
+   "parts": [
+    {
+     "t0_ms": 1803480,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 1804320,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1805820,
+     "text": "You know, with the strong success of your first-generation AGI CPU,"
+    },
+    {
+     "t0_ms": 1808920,
+     "text": "I'm sure your customers are already looking towards"
+    },
+    {
+     "t0_ms": 1812920,
+     "text": "your next-generation platform, right?"
+    },
+    {
+     "t0_ms": 1814620,
+     "text": "Can you just give us an update on second-gen AGI?"
+    },
+    {
+     "t0_ms": 1817760,
+     "text": "I think the plan was for the team to tape out either end of this year,"
+    },
+    {
+     "t0_ms": 1822940,
+     "text": "beginning of next year for ramping calendar 28,"
+    },
+    {
+     "t0_ms": 1827040,
+     "text": "and then maybe just as importantly,"
+    },
+    {
+     "t0_ms": 1828960,
+     "text": "as you continue to add more capabilities,"
+    },
+    {
+     "t0_ms": 1831040,
+     "text": "to your compute silicon portfolio."
+    },
+    {
+     "t0_ms": 1833580,
+     "text": "Does it actually make sense to add more networking"
+    },
+    {
+     "t0_ms": 1836400,
+     "text": "and high-performance IO capabilities as well?"
+    },
+    {
+     "t0_ms": 1838920,
+     "text": "More and more, we're seeing that compute and networking"
+    },
+    {
+     "t0_ms": 1842300,
+     "text": "are very closely coupled to determine very good systems performance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1846380,
+   "t1_ms": 1851580,
+   "speaker": "Analyst",
+   "text": "So does the team, is the team going to add more networking and capabilities to the portfolio?",
+   "parts": [
+    {
+     "t0_ms": 1846380,
+     "text": "So does the team, is the team going to add more networking"
+    },
+    {
+     "t0_ms": 1849420,
+     "text": "and capabilities to the portfolio?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1853060,
+   "t1_ms": 1896360,
+   "speaker": "Management",
+   "text": "Yeah. Thank you, Harlan. Those are great questions. Without disclosing the precise schedule on the follow-on, Chip, you can think about this market goes at about an 18 to 24 month cadence in terms of production ramps. So as we are ramping into production now on the first one, you can kind of do the math and when the second one would be available. Regarding other things that you can add to the toolbox to improve performance, whether that's around connectivity, broadly speaking, whether that's around specific IO and or networking, and or other aspects of the system, we are absolutely looking at all of that.",
+   "parts": [
+    {
+     "t0_ms": 1853060,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1853480,
+     "text": "Thank you, Harlan."
+    },
+    {
+     "t0_ms": 1854560,
+     "text": "Those are great questions."
+    },
+    {
+     "t0_ms": 1856480,
+     "text": "Without disclosing the precise schedule on the follow-on,"
+    },
+    {
+     "t0_ms": 1860980,
+     "text": "Chip, you can think about this market goes at about an 18 to 24 month cadence"
+    },
+    {
+     "t0_ms": 1867340,
+     "text": "in terms of production ramps."
+    },
+    {
+     "t0_ms": 1869300,
+     "text": "So as we are ramping into production now on the first one,"
+    },
+    {
+     "t0_ms": 1872640,
+     "text": "you can kind of do the math and when the second one would be available."
+    },
+    {
+     "t0_ms": 1876580,
+     "text": "Regarding other things that you can add to the toolbox to improve performance,"
+    },
+    {
+     "t0_ms": 1882720,
+     "text": "whether that's around connectivity, broadly speaking,"
+    },
+    {
+     "t0_ms": 1886780,
+     "text": "whether that's around specific IO and or networking,"
+    },
+    {
+     "t0_ms": 1890540,
+     "text": "and or other aspects of the system, we are absolutely looking at all of that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1896360,
+   "t1_ms": 1924620,
+   "speaker": "Management",
+   "text": "When we think about developing these products, we're thinking about rack system performance. The chip, the CPU is a big part of it, but how you move data in and out of the system to your question is as large an area as any. And we have a lot of activity underway in all these areas. Nothing that we can announce here on this call, but completely on the ground. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. I'm certainly cognizant of that being an area that we could have even larger differentiation.",
+   "parts": [
+    {
+     "t0_ms": 1896360,
+     "text": "When we think about developing these products,"
+    },
+    {
+     "t0_ms": 1899840,
+     "text": "we're thinking about rack system performance."
+    },
+    {
+     "t0_ms": 1902960,
+     "text": "The chip, the CPU is a big part of it, but how you move data in and out of the system"
+    },
+    {
+     "t0_ms": 1909300,
+     "text": "to your question is as large an area as any."
+    },
+    {
+     "t0_ms": 1913200,
+     "text": "And we have a lot of activity underway in all these areas."
+    },
+    {
+     "t0_ms": 1917240,
+     "text": "Nothing that we can announce here on this call,"
+    },
+    {
+     "t0_ms": 1919240,
+     "text": "but completely on the ground."
+    },
+    {
+     "t0_ms": 1919860,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1919940,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920100,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920180,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920360,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920460,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1920540,
+     "text": "I'm certainly cognizant of that being an area"
+    },
+    {
+     "t0_ms": 1922260,
+     "text": "that we could have even larger differentiation."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1927350,
+   "t1_ms": 1935390,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from the line of Lee Simpson from Morgan Stanley. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1927350,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1928010,
+     "text": "Your next question comes from the line of Lee Simpson from Morgan Stanley."
+    },
+    {
+     "t0_ms": 1933270,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1935570,
+   "t1_ms": 1977050,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for squeezing me in. Maybe just two quick ones, if I could. Maybe the first one for Jason. You know, $773 million for licensing really stands out. Congratulations to everyone there. You did talk about total access. You did talk about CSS deals, particularly smartphones, and I think data, Center you mentioned, but do we have any sort of architecture license agreements in there? And could we look at 770 plus as a new level, a structural level? And maybe for follow on for Rene, maybe in line with some of the earlier questions, it's interesting that as we look to higher ASP CPUs in the future with higher core count, could it be that we see a higher per core",
+   "parts": [
+    {
+     "t0_ms": 1935570,
+     "text": "Great. Thanks for squeezing me in."
+    },
+    {
+     "t0_ms": 1937150,
+     "text": "Maybe just two quick ones, if I could."
+    },
+    {
+     "t0_ms": 1938730,
+     "text": "Maybe the first one for Jason."
+    },
+    {
+     "t0_ms": 1940810,
+     "text": "You know, $773 million for licensing really stands out."
+    },
+    {
+     "t0_ms": 1944350,
+     "text": "Congratulations to everyone there."
+    },
+    {
+     "t0_ms": 1946350,
+     "text": "You did talk about total access."
+    },
+    {
+     "t0_ms": 1948390,
+     "text": "You did talk about CSS deals, particularly smartphones, and I think data,"
+    },
+    {
+     "t0_ms": 1952510,
+     "text": "Center you mentioned, but do we have any sort of architecture license agreements in there?"
+    },
+    {
+     "t0_ms": 1957270,
+     "text": "And could we look at 770 plus as a new level, a structural level? And maybe for follow on for"
+    },
+    {
+     "t0_ms": 1964090,
+     "text": "Rene, maybe in line with some of the earlier questions, it's interesting that as we look to"
+    },
+    {
+     "t0_ms": 1969790,
+     "text": "higher ASP CPUs in the future with higher core count, could it be that we see a higher per core"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1977050,
+   "t1_ms": 1991250,
+   "speaker": "Analyst",
+   "text": "dollar equivalence in that pricing? In other words, playing off this capability that are associated capabilities, perhaps networking and IO, as mentioned in the last question, that drives that per core dollar value up. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1977050,
+     "text": "dollar equivalence in that pricing? In other words, playing off this capability that are"
+    },
+    {
+     "t0_ms": 1982690,
+     "text": "associated capabilities, perhaps networking and IO, as mentioned in the last question,"
+    },
+    {
+     "t0_ms": 1988110,
+     "text": "that drives that per core dollar value up. Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1994160,
+   "t1_ms": 2031460,
+   "speaker": "Management",
+   "text": "Okay. Thanks, Lee, on your first question around license. Yeah, we talk about ATA and CSS, which is the vast majority of everything that we're selling going forward. Architecture licenses are... Very, very few and far between. And so I would think of it as really being ATA and CSS. That is the bulk of most everything we're selling going forward. In terms of absolute magnitude of dollars, yeah, 773 was a great quarter. But if you, I think, kind of work out the details,",
+   "parts": [
+    {
+     "t0_ms": 1994160,
+     "text": "Okay. Thanks, Lee, on your first question around license."
+    },
+    {
+     "t0_ms": 1999400,
+     "text": "Yeah, we talk about ATA and CSS, which is the vast majority of everything that we're selling"
+    },
+    {
+     "t0_ms": 2005980,
+     "text": "going forward. Architecture licenses are..."
+    },
+    {
+     "t0_ms": 2009420,
+     "text": "Very, very few and far between. And so I would think of it as really being ATA and CSS. That is"
+    },
+    {
+     "t0_ms": 2015280,
+     "text": "the bulk of most everything we're selling going forward. In terms of absolute magnitude of"
+    },
+    {
+     "t0_ms": 2021380,
+     "text": "dollars, yeah, 773 was a great quarter. But if you, I think, kind of work out the details,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2031460,
+   "t1_ms": 2075780,
+   "speaker": "Management",
+   "text": "I said it was going to be increasing and going up from there in this next quarter. And even in key four... Yeah, I think it's going to be increasing and going up from there in this next quarter. And even in key four, it's going to step up again. So we're not... We haven't talked about next year, whether or not that's the new number every quarter. I don't know if I would say that, but I will say the pipeline has been surprisingly strong, stronger than we expected when we started the year. And a little bit like the last couple of years where we've had maybe deals that weren't initially... They were in the pipeline, but they weren't... They were not renewals. They were... They were not... They were these were incremental and new deals that are kind of hard to forecast. We're in that same situation",
+   "parts": [
+    {
+     "t0_ms": 2031460,
+     "text": "I said it was going to be increasing and going up from there in this next quarter. And even in key"
+    },
+    {
+     "t0_ms": 2039300,
+     "text": "four..."
+    },
+    {
+     "t0_ms": 2039420,
+     "text": "Yeah, I think it's going to be increasing and going up from there in this next quarter. And even in key"
+    },
+    {
+     "t0_ms": 2039920,
+     "text": "four, it's going to step up again. So we're not... We haven't talked about next year, whether or not"
+    },
+    {
+     "t0_ms": 2044680,
+     "text": "that's the new number every quarter. I don't know if I would say that, but I will say the pipeline"
+    },
+    {
+     "t0_ms": 2050940,
+     "text": "has been surprisingly strong, stronger than we expected when we started the year. And a little"
+    },
+    {
+     "t0_ms": 2057179,
+     "text": "bit like the last couple of years where we've had maybe deals that weren't initially... They were in"
+    },
+    {
+     "t0_ms": 2065659,
+     "text": "the pipeline, but they weren't... They were not renewals. They were... They were not... They were"
+    },
+    {
+     "t0_ms": 2069300,
+     "text": "these were incremental and new deals that are kind of hard to forecast. We're in that same situation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2075780,
+   "t1_ms": 2115380,
+   "speaker": "Management",
+   "text": "again. And so what's interesting is when we started this year, we thought it was going to be much more around royalties and that a lot of the license growth related to all the AI investments, we thought maybe we were kind of had passed a lot of that. Well, what's interesting is it seems to be that with AI and the consistent variability and now everyone's trying to get the money, you know, trying to get the money, you know, trying to get the money, you know, trying to get the money, you know, trying to get the money, you know, trying to get the money, you know, trying to address all the agentic workloads, we're seeing that the need for additional license and additional product, you know, variations and different technologies is not slowing down at all. And so that's particularly",
+   "parts": [
+    {
+     "t0_ms": 2075780,
+     "text": "again. And so what's interesting is when we started this year, we thought it was going to be"
+    },
+    {
+     "t0_ms": 2080179,
+     "text": "much more around royalties and that a lot of the license growth related to all the AI investments,"
+    },
+    {
+     "t0_ms": 2087139,
+     "text": "we thought maybe we were kind of had passed a lot of that. Well, what's interesting is it seems to"
+    },
+    {
+     "t0_ms": 2092179,
+     "text": "be that with AI and the consistent variability and now everyone's trying to get the money, you know,"
+    },
+    {
+     "t0_ms": 2099100,
+     "text": "trying to get the money, you know, trying to get the money, you know, trying to get the money, you"
+    },
+    {
+     "t0_ms": 2099180,
+     "text": "know, trying to get the money, you know, trying to get the money, you know, trying to address all the"
+    },
+    {
+     "t0_ms": 2100740,
+     "text": "agentic workloads, we're seeing that the need for additional license and additional product, you"
+    },
+    {
+     "t0_ms": 2108980,
+     "text": "know, variations and different technologies is not slowing down at all. And so that's particularly"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2115380,
+   "t1_ms": 2158780,
+   "speaker": "Management",
+   "text": "exciting, as you know, you know, any license speeds, especially with ATAs and CSSs, that will... Is very highly likely to turn into design wins and very likely to turn into even more royalties, you know, probably 12, 18 months, 24 months down the road. So that's a really good setup for next year and after. And so, you know, but we'll have to, I guess, get through the next couple of quarters before I can talk about next year. But the pipelines do look strong. And even with the memory issues that we've seen, you know, really kind of making for some tough comps,",
+   "parts": [
+    {
+     "t0_ms": 2115380,
+     "text": "exciting, as you know, you know, any license speeds, especially with ATAs and CSSs, that will..."
+    },
+    {
+     "t0_ms": 2124980,
+     "text": "Is very highly likely to turn into design wins and very likely to turn into even more"
+    },
+    {
+     "t0_ms": 2128980,
+     "text": "royalties, you know, probably 12, 18 months, 24 months down the road. So that's a really good"
+    },
+    {
+     "t0_ms": 2135900,
+     "text": "setup for next year and after. And so, you know, but we'll have to, I guess, get through the next"
+    },
+    {
+     "t0_ms": 2144860,
+     "text": "couple of quarters before I can talk about next year. But the pipelines do look strong. And even"
+    },
+    {
+     "t0_ms": 2151580,
+     "text": "with the memory issues that we've seen, you know, really kind of making for some tough comps,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2158980,
+   "t1_ms": 2197680,
+   "speaker": "Management",
+   "text": "in the mobile business, which really that does end mostly in this quarter that we're now in Q3, we start lapping those headwinds that really started in January, February of next year. So the comps also get easier. But overall, we think it's a really good setup for the balance of this year and likely going into next year as well. Yeah. On pricing, you know, it's a tricky one from the perspective of, you know, the price of the product. You know, it's a tricky one from the perspective of, you know, the price of the product. You know, it's a tricky one from the memory pricing has obviously increased a lot since we announced the Army GI CPU. Data centers",
+   "parts": [
+    {
+     "t0_ms": 2158980,
+     "text": "in the mobile business, which really that does end mostly in this quarter that we're now in Q3,"
+    },
+    {
+     "t0_ms": 2167740,
+     "text": "we start lapping those headwinds that really started in January, February of next year. So"
+    },
+    {
+     "t0_ms": 2174220,
+     "text": "the comps also get easier. But overall, we think it's a really good setup for the balance of this"
+    },
+    {
+     "t0_ms": 2179980,
+     "text": "year and likely going into next year as well. Yeah. On pricing, you know, it's a tricky"
+    },
+    {
+     "t0_ms": 2187180,
+     "text": "one from the perspective of, you know, the price of the product. You know, it's a tricky one from"
+    },
+    {
+     "t0_ms": 2187780,
+     "text": "the perspective of, you know, the price of the product. You know, it's a tricky one from the"
+    },
+    {
+     "t0_ms": 2188980,
+     "text": "memory pricing has obviously increased a lot since we announced the Army GI CPU. Data centers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2197680,
+   "t1_ms": 2230380,
+   "speaker": "Management",
+   "text": "are getting more and more complicated to build, whether it's through just, again, memory pricing slash finding laborers, etc, etc. So while we want to be cognizant of not pushing the pricing piece too hard, given all these other factors, I think it is fair to say that there's probably some pricing elasticity. And I think that's a good thing. I think that's a good thing. It's really good. And if you look at these different trials, I think this is a really good way to look at things and see if there's some complexity that we could potentially exercise on these larger chips and the chips that have higher core counts. We'll look at all of it, obviously. But I think it's fair to say that there probably is some headroom there.",
+   "parts": [
+    {
+     "t0_ms": 2197680,
+     "text": "are getting more and more complicated to build, whether it's through just, again, memory pricing"
+    },
+    {
+     "t0_ms": 2204820,
+     "text": "slash finding laborers, etc, etc. So while we want to be cognizant of not pushing the pricing"
+    },
+    {
+     "t0_ms": 2212260,
+     "text": "piece too hard, given all these other factors, I think it is fair to say that there's probably"
+    },
+    {
+     "t0_ms": 2217820,
+     "text": "some pricing elasticity. And I think that's a good thing. I think that's a good thing."
+    },
+    {
+     "t0_ms": 2218980,
+     "text": "It's really good. And if you look at these different trials, I think this is a really good"
+    },
+    {
+     "t0_ms": 2219540,
+     "text": "way to look at things and see if there's some complexity that we could potentially exercise"
+    },
+    {
+     "t0_ms": 2221740,
+     "text": "on these larger chips and the chips that have higher core counts. We'll look at all of it,"
+    },
+    {
+     "t0_ms": 2226460,
+     "text": "obviously. But I think it's fair to say that there probably is some headroom there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2230380,
+   "t1_ms": 2245380,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question today comes from the line of Vivek Ayya from Bank of America Securities. Please go ahead. Hi. Thanks, Oliver. I take my question,",
+   "parts": [
+    {
+     "t0_ms": 2230380,
+     "text": "Thank you. Your next question today comes from the line of Vivek Ayya from Bank of America"
+    },
+    {
+     "t0_ms": 2240420,
+     "text": "Securities. Please go ahead. Hi. Thanks, Oliver. I take my question,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2245380,
+   "t1_ms": 2288160,
+   "speaker": "Analyst",
+   "text": "one for each. Jason, let's say smartphone units are down again, double digit next year. Do you think royalties will kind of be similarly profiled to what we saw this year, or are there other dynamics at play? And then, Rene, on the AGI platform, let's assume we believe in the technical merits. My question is, does ARM have the scale in the ecosystem to secure supply? Because, for example, yesterday when AMD reported, they raised their server CPU business by several billions of dollars. So that tells me that they have the scale to go and get incremental supply, right? So how are you dealing with that question about does ARM have enough scale to go",
+   "parts": [
+    {
+     "t0_ms": 2245380,
+     "text": "one for each. Jason, let's say smartphone units are down again, double digit next year."
+    },
+    {
+     "t0_ms": 2250860,
+     "text": "Do you think royalties will kind of be similarly profiled to what we saw this year,"
+    },
+    {
+     "t0_ms": 2255660,
+     "text": "or are there other dynamics at play?"
+    },
+    {
+     "t0_ms": 2258000,
+     "text": "And then, Rene, on the AGI platform, let's assume we believe in the technical merits."
+    },
+    {
+     "t0_ms": 2264180,
+     "text": "My question is, does ARM have the scale in the ecosystem to secure supply?"
+    },
+    {
+     "t0_ms": 2268940,
+     "text": "Because, for example, yesterday when AMD reported,"
+    },
+    {
+     "t0_ms": 2272060,
+     "text": "they raised their server CPU business by several billions of dollars."
+    },
+    {
+     "t0_ms": 2276480,
+     "text": "So that tells me that they have the scale to go and get incremental supply, right?"
+    },
+    {
+     "t0_ms": 2282340,
+     "text": "So how are you dealing with that question about does ARM have enough scale to go"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2288160,
+   "t1_ms": 2297200,
+   "speaker": "Analyst",
+   "text": "and get the supply to be a meaningful player in the CPU markets, right, given your belief in the technical merits of the product? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2288160,
+     "text": "and get the supply to be a meaningful player in the CPU markets, right,"
+    },
+    {
+     "t0_ms": 2292780,
+     "text": "given your belief in the technical merits of the product?"
+    },
+    {
+     "t0_ms": 2296880,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2298380,
+   "t1_ms": 2338360,
+   "speaker": "Management",
+   "text": "Yeah, thank you, Vivek. I'll start, take your second part of your question first, and then Jason will talk about the \u2013 the smartphone scenario that you had described. Your question is a valid one. The way I think about it is that the ARM AGI CPU is our first product. AMD's been at it for a long time. They've got a lot of SKUs. They buy a lot of capacity from TSMC. They have a lot of relationships that they've built over decades. This is our first product. That said, it's not our first relationship. We've been working with folks like TSMC.",
+   "parts": [
+    {
+     "t0_ms": 2298380,
+     "text": "Yeah, thank you, Vivek."
+    },
+    {
+     "t0_ms": 2300080,
+     "text": "I'll start, take your second part of your question first,"
+    },
+    {
+     "t0_ms": 2303160,
+     "text": "and then Jason will talk about the \u2013"
+    },
+    {
+     "t0_ms": 2305160,
+     "text": "the smartphone scenario that you had described."
+    },
+    {
+     "t0_ms": 2309260,
+     "text": "Your question is a valid one."
+    },
+    {
+     "t0_ms": 2312860,
+     "text": "The way I think about it is that the ARM AGI CPU is our first product."
+    },
+    {
+     "t0_ms": 2319980,
+     "text": "AMD's been at it for a long time."
+    },
+    {
+     "t0_ms": 2321960,
+     "text": "They've got a lot of SKUs."
+    },
+    {
+     "t0_ms": 2323140,
+     "text": "They buy a lot of capacity from TSMC."
+    },
+    {
+     "t0_ms": 2325360,
+     "text": "They have a lot of relationships that they've built over decades."
+    },
+    {
+     "t0_ms": 2329460,
+     "text": "This is our first product."
+    },
+    {
+     "t0_ms": 2331060,
+     "text": "That said, it's not our first relationship."
+    },
+    {
+     "t0_ms": 2335160,
+     "text": "We've been working with folks like TSMC."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2338360,
+   "t1_ms": 2382980,
+   "speaker": "Management",
+   "text": "It's not our first relationship with memory vendors such as Micron, Samsung, and SK. They've known us for years and decades, and we've been working pretty diligently to share with them our long-term plans. I think supply for the industry is going to be tight, and as Jason mentioned, we'll talk a bit more about our future outlook in upcoming quarters. But we're going to be working with TSMC. We are going to be working very, very hard to secure the supply that we need for the expanded demand because we think it's very, very, very large. And our partners know that, and we've been talking to them not for weeks, not for months, but probably a year plus as we've talked about doing this platform.",
+   "parts": [
+    {
+     "t0_ms": 2338360,
+     "text": "It's not our first relationship with memory vendors such as Micron, Samsung, and SK."
+    },
+    {
+     "t0_ms": 2344540,
+     "text": "They've known us for years and decades, and we've been working pretty diligently"
+    },
+    {
+     "t0_ms": 2349600,
+     "text": "to share with them our long-term plans."
+    },
+    {
+     "t0_ms": 2352660,
+     "text": "I think supply for the industry is going to be tight, and as Jason mentioned,"
+    },
+    {
+     "t0_ms": 2358680,
+     "text": "we'll talk a bit more about our future outlook in upcoming quarters."
+    },
+    {
+     "t0_ms": 2364020,
+     "text": "But we're going to be working with TSMC."
+    },
+    {
+     "t0_ms": 2364860,
+     "text": "We are going to be working very, very hard to secure the supply that we need for the expanded demand"
+    },
+    {
+     "t0_ms": 2369600,
+     "text": "because we think it's very, very, very large."
+    },
+    {
+     "t0_ms": 2374640,
+     "text": "And our partners know that, and we've been talking to them not for weeks, not for months,"
+    },
+    {
+     "t0_ms": 2379960,
+     "text": "but probably a year plus as we've talked about doing this platform."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2383260,
+   "t1_ms": 2423500,
+   "speaker": "Management",
+   "text": "So we've looked at this as a long-term endeavor. It's not a one-year single project. It's a five- to ten-year endeavor that's going to require relationships across all the supply chains. And we're very, very serious about making sure we get all that done. Thanks, Vivek. So regarding the mobile business, when we look at some of the external forecasts, I think IDC has units in mobile growing basically flat. I think it's minus 1% next year. As we talk to partners, I'd say flat is generally what folks are expecting. There's already been kind of a hit.",
+   "parts": [
+    {
+     "t0_ms": 2383260,
+     "text": "So we've looked at this as a long-term endeavor."
+    },
+    {
+     "t0_ms": 2387800,
+     "text": "It's not a one-year single project."
+    },
+    {
+     "t0_ms": 2390100,
+     "text": "It's a five- to ten-year endeavor that's going to require relationships across all the supply chains."
+    },
+    {
+     "t0_ms": 2394860,
+     "text": "And we're very, very serious about making sure we get all that done."
+    },
+    {
+     "t0_ms": 2402300,
+     "text": "Thanks, Vivek."
+    },
+    {
+     "t0_ms": 2403600,
+     "text": "So regarding the mobile business, when we look at some of the external forecasts,"
+    },
+    {
+     "t0_ms": 2408500,
+     "text": "I think IDC has units in mobile growing basically flat."
+    },
+    {
+     "t0_ms": 2412240,
+     "text": "I think it's minus 1% next year."
+    },
+    {
+     "t0_ms": 2414180,
+     "text": "As we talk to partners, I'd say flat is generally what folks are expecting."
+    },
+    {
+     "t0_ms": 2421620,
+     "text": "There's already been kind of a hit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2424860,
+   "t1_ms": 2464780,
+   "speaker": "Management",
+   "text": "And the reduction due to the memory constraints, I think the expectations are those constraints stay relatively consistent, which basically means flat growth, not further deterioration. And then because we have, you know, we continue to have more B99 adoption. It's, you know, we're now getting over 50%, so it's a little less of a tail end. But CSS adoption continues to grow. We also have multiple partners on next generations of CSS. CSS, which are at slightly higher royalty rates and higher chip prices. So all that means that we will grow the overall business, you know, much faster than the market.",
+   "parts": [
+    {
+     "t0_ms": 2424860,
+     "text": "And the reduction due to the memory constraints, I think the expectations are those constraints stay relatively consistent,"
+    },
+    {
+     "t0_ms": 2432620,
+     "text": "which basically means flat growth, not further deterioration."
+    },
+    {
+     "t0_ms": 2437620,
+     "text": "And then because we have, you know, we continue to have more B99 adoption."
+    },
+    {
+     "t0_ms": 2442880,
+     "text": "It's, you know, we're now getting over 50%, so it's a little less of a tail end."
+    },
+    {
+     "t0_ms": 2448460,
+     "text": "But CSS adoption continues to grow."
+    },
+    {
+     "t0_ms": 2451520,
+     "text": "We also have multiple partners on next generations of CSS."
+    },
+    {
+     "t0_ms": 2454860,
+     "text": "CSS, which are at slightly higher royalty rates and higher chip prices."
+    },
+    {
+     "t0_ms": 2459140,
+     "text": "So all that means that we will grow the overall business, you know, much faster than the market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2465120,
+   "t1_ms": 2482500,
+   "speaker": "Management",
+   "text": "So think of it at least being in the kind of double digits, you know, plus in growth rate for next year. That's our best guess right now. You know, if we see anything that changes, of course, we'll let you guys know. But that's what industry as well as our partners all seem to think at this point.",
+   "parts": [
+    {
+     "t0_ms": 2465120,
+     "text": "So think of it at least being in the kind of double digits, you know, plus in growth rate for next year."
+    },
+    {
+     "t0_ms": 2471420,
+     "text": "That's our best guess right now."
+    },
+    {
+     "t0_ms": 2473860,
+     "text": "You know, if we see anything that changes, of course, we'll let you guys know."
+    },
+    {
+     "t0_ms": 2476820,
+     "text": "But that's what industry as well as our partners all seem to think at this point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2484830,
+   "t1_ms": 2494350,
+   "speaker": "Operator",
+   "text": "Thank you. Thank you. We will now take our final question for today. And the final question comes from the line of Joe Kachaki from Wells Fargo. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2484830,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2485930,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2486450,
+     "text": "We will now take our final question for today."
+    },
+    {
+     "t0_ms": 2489470,
+     "text": "And the final question comes from the line of Joe Kachaki from Wells Fargo."
+    },
+    {
+     "t0_ms": 2493610,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495810,
+   "t1_ms": 2509870,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking the question. You know, you talked about securing more supply on AGI. And I assume that comes at a higher cost. So can you just kind of talk us through the ability to offset that and how we should think about this, the gross margin puts and takes as you start to ship?",
+   "parts": [
+    {
+     "t0_ms": 2495810,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 2497830,
+     "text": "You know, you talked about securing more supply on AGI."
+    },
+    {
+     "t0_ms": 2500790,
+     "text": "And I assume that comes at a higher cost."
+    },
+    {
+     "t0_ms": 2502650,
+     "text": "So can you just kind of talk us through the ability to offset that and how we should think about this,"
+    },
+    {
+     "t0_ms": 2507710,
+     "text": "the gross margin puts and takes as you start to ship?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2511490,
+   "t1_ms": 2513650,
+   "speaker": "Management",
+   "text": "Yeah, I'm sorry. Could you repeat that one more time?",
+   "parts": [
+    {
+     "t0_ms": 2511490,
+     "text": "Yeah, I'm sorry."
+    },
+    {
+     "t0_ms": 2512350,
+     "text": "Could you repeat that one more time?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2515690,
+   "t1_ms": 2529110,
+   "speaker": "Analyst",
+   "text": "Yeah. I assume that the increased supply that you're getting for AGI is coming at a higher cost. So can you just talk about your ability to offset those higher costs, pass that through to customers in terms of pricing, and then the puts and takes on gross margin?",
+   "parts": [
+    {
+     "t0_ms": 2515690,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2516450,
+     "text": "I assume that the increased supply that you're getting for AGI is coming at a higher cost."
+    },
+    {
+     "t0_ms": 2522310,
+     "text": "So can you just talk about your ability to offset those higher costs,"
+    },
+    {
+     "t0_ms": 2525590,
+     "text": "pass that through to customers in terms of pricing, and then the puts and takes on gross margin?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2530370,
+   "t1_ms": 2575150,
+   "speaker": "Management",
+   "text": "Yeah. No, thank you. As I mentioned earlier, the overall cost of the systems, memory being probably the single largest contributor to all that, and then you've got kind of downstream other impacts to your point on. You've got a lot of different parts of the supply chain. Definitely put margin pressure. That being said, we do have some elasticity on pricing and the ability to increase it, which I think we've already demonstrated an ability to do that, as we've gotten started with the program. So I'm actually not as worried on that point relative to offsetting any constraints on supply and cost and managing it downstream. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 2530370,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2530910,
+     "text": "No, thank you."
+    },
+    {
+     "t0_ms": 2531770,
+     "text": "As I mentioned earlier, the overall cost of the systems, memory being probably the single largest contributor to all that,"
+    },
+    {
+     "t0_ms": 2541450,
+     "text": "and then you've got kind of downstream other impacts to your point on."
+    },
+    {
+     "t0_ms": 2546450,
+     "text": "You've got a lot of different parts of the supply chain."
+    },
+    {
+     "t0_ms": 2548650,
+     "text": "Definitely put margin pressure."
+    },
+    {
+     "t0_ms": 2550610,
+     "text": "That being said, we do have some elasticity on pricing and the ability to increase it,"
+    },
+    {
+     "t0_ms": 2556470,
+     "text": "which I think we've already demonstrated an ability to do that,"
+    },
+    {
+     "t0_ms": 2560750,
+     "text": "as we've gotten started with the program."
+    },
+    {
+     "t0_ms": 2562410,
+     "text": "So I'm actually not as worried on that point relative to offsetting any constraints on supply and cost and managing it downstream."
+    },
+    {
+     "t0_ms": 2574610,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2574830,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2574970,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2575030,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2575070,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2575130,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2575150,
+   "t1_ms": 2614870,
+   "speaker": "Management",
+   "text": "Yeah. comments from everybody else who's in this business that that's what we're doing. We'll be following where the market goes and making sure that we're not trailing common sense, but at the same time, not trying to cause too much pain on the end customers. It's our first product. We want to make sure everybody wins with it, but I'm not as worried about that piece impacting gross margins. Yeah. Maybe just to reiterate what we said was for this first version, we're expected to be somewhere in the high 30s to the low 40% gross margin. And for the first version, we expect it to be probably a little lower. And then as we develop more expertise,",
+   "parts": [
+    {
+     "t0_ms": 2575150,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2575690,
+     "text": "comments from everybody else who's in this business that that's what we're doing. We'll be"
+    },
+    {
+     "t0_ms": 2581170,
+     "text": "following where the market goes and making sure that we're not trailing common sense,"
+    },
+    {
+     "t0_ms": 2587470,
+     "text": "but at the same time, not trying to cause too much pain on the end customers. It's our first"
+    },
+    {
+     "t0_ms": 2592090,
+     "text": "product. We want to make sure everybody wins with it, but I'm not as worried about that piece"
+    },
+    {
+     "t0_ms": 2596610,
+     "text": "impacting gross margins. Yeah. Maybe just to reiterate what we said was for this first version,"
+    },
+    {
+     "t0_ms": 2602510,
+     "text": "we're expected to be somewhere in the high 30s to the low 40% gross margin. And for the first"
+    },
+    {
+     "t0_ms": 2608430,
+     "text": "version, we expect it to be probably a little lower. And then as we develop more expertise,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2615270,
+   "t1_ms": 2644270,
+   "speaker": "Management",
+   "text": "probably rely on doing a little more work ourselves and maybe less from partners over time, which others in the market do over time, we'll get ourselves to more of the market standard of 50% plus. But I don't expect that to happen on the first version. That's probably going to happen more on the next version. So for this version, I would stick to the kind of 30 to 40% range. And then we'll obviously give you updates on a quarterly basis as we start",
+   "parts": [
+    {
+     "t0_ms": 2615270,
+     "text": "probably rely on doing a little more work ourselves and maybe less from partners over time,"
+    },
+    {
+     "t0_ms": 2623150,
+     "text": "which others in the market do over time, we'll get ourselves to more of the market standard of 50%"
+    },
+    {
+     "t0_ms": 2628670,
+     "text": "plus. But I don't expect that to happen on the first version."
+    },
+    {
+     "t0_ms": 2632250,
+     "text": "That's probably going to happen more on the next version. So for this version, I would stick to the"
+    },
+    {
+     "t0_ms": 2638410,
+     "text": "kind of 30 to 40% range. And then we'll obviously give you updates on a quarterly basis as we start"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2644270,
+   "t1_ms": 2652120,
+   "speaker": "Operator",
+   "text": "shipping in Q4. Thank you. That was our final question for today. I will now hand the call",
+   "parts": [
+    {
+     "t0_ms": 2644270,
+     "text": "shipping in Q4. Thank you. That was our final question for today. I will now hand the call"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2652120,
+   "t1_ms": 2694120,
+   "speaker": "Management",
+   "text": "back to Rene for closing remarks. Thank you. And thank you for all the questions. They were very, very timely and excellent questions. Just to summarize, this was a great quarter for the company. 50% licensing growth means a lot of growth coming in the future in royalties, which we feel great about. We also feel very, very good about the fact that our data center business continues to flourish. We had talked for many, many years about ARM getting to 20% in data centers. The fact that we are 50% in the last year and we'll be 60 by the end of this year is also something we're very, very proud of. But most importantly, we're going to be able to do a lot of things. We're going to be able to do a lot of",
+   "parts": [
+    {
+     "t0_ms": 2652120,
+     "text": "back to Rene for closing remarks. Thank you. And thank you for all the questions."
+    },
+    {
+     "t0_ms": 2658660,
+     "text": "They were very, very timely and excellent questions."
+    },
+    {
+     "t0_ms": 2664140,
+     "text": "Just to summarize, this was a great quarter for the company. 50% licensing growth means a lot of"
+    },
+    {
+     "t0_ms": 2672900,
+     "text": "growth coming in the future in royalties, which we feel great about. We also feel very, very good"
+    },
+    {
+     "t0_ms": 2676980,
+     "text": "about the fact that our data center business continues to flourish. We had talked for many,"
+    },
+    {
+     "t0_ms": 2682340,
+     "text": "many years about ARM getting to 20% in data centers. The fact that we are 50% in the last"
+    },
+    {
+     "t0_ms": 2688540,
+     "text": "year and we'll be 60 by the end of this year is also something we're very, very proud of."
+    },
+    {
+     "t0_ms": 2693300,
+     "text": "But most importantly, we're going to be able to do a lot of things. We're going to be able to do a lot of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2694140,
+   "t1_ms": 2737720,
+   "speaker": "Management",
+   "text": "things. And most importantly, I think what we're now starting to see is what was one great business is now turning into two great businesses. The IP business continues to do very, very well. We're very confident in this growth going forward. But now with our new AGI CPU ramping into production, increased confidence to achieve the $2 billion number that we've been talking about, it just thrills me to be able to talk about two businesses now rather than one that are both going to be amazing growth paths and could not be prouder of what the company's achieved, thanking our employees, our partners and customers who helped make it happen. So thank you again for all the questions and comments and congratulations to the ARM team for a great quarter.",
+   "parts": [
+    {
+     "t0_ms": 2694140,
+     "text": "things. And most importantly, I think what we're now starting to see is what was one great"
+    },
+    {
+     "t0_ms": 2699540,
+     "text": "business is now turning into two great businesses. The IP business continues to do very, very well."
+    },
+    {
+     "t0_ms": 2706340,
+     "text": "We're very confident in this growth going forward. But now with our new AGI CPU ramping into"
+    },
+    {
+     "t0_ms": 2712180,
+     "text": "production, increased confidence to achieve the $2 billion number that we've been talking about,"
+    },
+    {
+     "t0_ms": 2717640,
+     "text": "it just thrills me to be able to talk about two businesses now rather than one that are both going"
+    },
+    {
+     "t0_ms": 2724140,
+     "text": "to be amazing growth paths and could not be prouder of what the company's achieved,"
+    },
+    {
+     "t0_ms": 2728680,
+     "text": "thanking our employees, our partners and customers who helped make it happen. So thank you again for"
+    },
+    {
+     "t0_ms": 2734260,
+     "text": "all the questions and comments and congratulations to the ARM team for a great quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2740140,
+   "t1_ms": 2744660,
+   "speaker": "Operator",
+   "text": "Thank you. This concludes today's conference call. Thank you for participating. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 2740140,
+     "text": "Thank you. This concludes today's conference call. Thank you for participating. You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

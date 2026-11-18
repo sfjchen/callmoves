@@ -1,0 +1,4983 @@
+{
+ "ticker": "STX",
+ "quarter": "Q1-2027",
+ "company": "Seagate Technology",
+ "call_start": "2026-10-27T17:00:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/STX_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 40700,
+   "speaker": "Operator",
+   "text": "Welcome to the Seagate Technology Fiscal First Quarter 2027 Conference Call. All participants will be in listen-only mode. Should you need assistance, please signal a conference specialist by pressing the star key followed by zero. After today's presentation, there will be an opportunity to ask questions. To ask a question, you may press star, then one on your telephone keypad. To withdraw your question, please press star, then two. Please note, this event is being recorded. I would now like to turn the conference over to Shani Hudson, Senior Vice President, Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Welcome to the Seagate Technology Fiscal First Quarter 2027 Conference Call."
+    },
+    {
+     "t0_ms": 5820,
+     "text": "All participants will be in listen-only mode."
+    },
+    {
+     "t0_ms": 9380,
+     "text": "Should you need assistance, please signal a conference specialist by pressing the star key followed by zero."
+    },
+    {
+     "t0_ms": 16680,
+     "text": "After today's presentation, there will be an opportunity to ask questions."
+    },
+    {
+     "t0_ms": 21300,
+     "text": "To ask a question, you may press star, then one on your telephone keypad."
+    },
+    {
+     "t0_ms": 26140,
+     "text": "To withdraw your question, please press star, then two."
+    },
+    {
+     "t0_ms": 30820,
+     "text": "Please note, this event is being recorded."
+    },
+    {
+     "t0_ms": 34540,
+     "text": "I would now like to turn the conference over to Shani Hudson, Senior Vice President, Investor Relations."
+    },
+    {
+     "t0_ms": 39800,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 42000,
+   "t1_ms": 84000,
+   "speaker": "Management",
+   "text": "Thank you. Hello, everyone, and welcome to today's call. Joining me are Dave Mosley, Seagate's Chair and Chief Executive Officer, and Gianluca Romano, our Chief Financial Officer. We've posted our earnings press release and detailed supplemental information for our September quarter results on the Investors Section, which you can find on the website. During today's call, we'll refer to GAAP and non-GAAP measures. Non-GAAP figures are reconciled to GAAP figures in the earnings press release posted on our website and included on our Form 8-K. We've not reconciled certain non-GAAP outlook measures because material items that may impact these measures are out of our control and or cannot be reasonably predicted.",
+   "parts": [
+    {
+     "t0_ms": 42000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 43100,
+     "text": "Hello, everyone, and welcome to today's call."
+    },
+    {
+     "t0_ms": 45640,
+     "text": "Joining me are Dave Mosley, Seagate's Chair and Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 49900,
+     "text": "and Gianluca Romano, our Chief Financial Officer."
+    },
+    {
+     "t0_ms": 52760,
+     "text": "We've posted our earnings press release and detailed supplemental information"
+    },
+    {
+     "t0_ms": 56940,
+     "text": "for our September quarter results on the Investors Section,"
+    },
+    {
+     "t0_ms": 60340,
+     "text": "which you can find on the website."
+    },
+    {
+     "t0_ms": 62300,
+     "text": "During today's call, we'll refer to GAAP and non-GAAP measures."
+    },
+    {
+     "t0_ms": 65900,
+     "text": "Non-GAAP figures are reconciled to GAAP figures in the earnings press release posted on our website"
+    },
+    {
+     "t0_ms": 71600,
+     "text": "and included on our Form 8-K."
+    },
+    {
+     "t0_ms": 74300,
+     "text": "We've not reconciled certain non-GAAP outlook measures because material items"
+    },
+    {
+     "t0_ms": 78800,
+     "text": "that may impact these measures are out of our control and or cannot be reasonably predicted."
+    }
+   ]
+  },
+  {
+   "t0_ms": 84400,
+   "t1_ms": 124980,
+   "speaker": "Management",
+   "text": "Therefore, reconciliation to the corresponding GAAP measures is not available without unreasonable effort. Before we begin, I'd like to remind you that today's call contains forward-looking statements that reflect management's current views and assumptions based on information available to us as of today and should not be relied upon as of any subsequent date. Actual results may differ materially from those contained in or implied by these forward-looking statements as they're subject to risks and uncertainties associated with our business. To learn more about the risks, uncertainties, and other factors that may affect future business, and to learn more about the risks, uncertainties, and other factors that may affect future business, please refer to the press release issued today and our SEC filings,",
+   "parts": [
+    {
+     "t0_ms": 84400,
+     "text": "Therefore, reconciliation to the corresponding GAAP measures is not available without unreasonable effort."
+    },
+    {
+     "t0_ms": 90200,
+     "text": "Before we begin, I'd like to remind you that today's call contains forward-looking statements"
+    },
+    {
+     "t0_ms": 95000,
+     "text": "that reflect management's current views and assumptions based on information available to us as of today"
+    },
+    {
+     "t0_ms": 101500,
+     "text": "and should not be relied upon as of any subsequent date."
+    },
+    {
+     "t0_ms": 105300,
+     "text": "Actual results may differ materially from those contained in or implied by these forward-looking statements"
+    },
+    {
+     "t0_ms": 111000,
+     "text": "as they're subject to risks and uncertainties associated with our business."
+    },
+    {
+     "t0_ms": 115300,
+     "text": "To learn more about the risks, uncertainties, and other factors"
+    },
+    {
+     "t0_ms": 118900,
+     "text": "that may affect future business,"
+    },
+    {
+     "t0_ms": 119900,
+     "text": "and to learn more about the risks, uncertainties, and other factors that may affect future business,"
+    },
+    {
+     "t0_ms": 120180,
+     "text": "please refer to the press release issued today and our SEC filings,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 125180,
+   "t1_ms": 169380,
+   "speaker": "Management",
+   "text": "including our most recent annual report on Form 10-K and quarterly report on Form 10-Q, as well as the supplemental information, all of which may be found on the Investors section of our website. Following our prepared remarks, we'll open the call up for questions. To provide as many analysts as possible the opportunity to participate, please limit yourself to one main question and a brief follow-up. With that, I'll hand the call over to you, Dave. Thank you, Shanie, and hello, everyone. Fiscal 27 is off to an outstanding start. September quarter revenue grew by more than 60% year-over-year, and non-GAAP EPS expanded by nearly three times to a record $7.68.",
+   "parts": [
+    {
+     "t0_ms": 125180,
+     "text": "including our most recent annual report on Form 10-K and quarterly report on Form 10-Q,"
+    },
+    {
+     "t0_ms": 131480,
+     "text": "as well as the supplemental information, all of which may be found on the Investors section of our website."
+    },
+    {
+     "t0_ms": 137880,
+     "text": "Following our prepared remarks, we'll open the call up for questions."
+    },
+    {
+     "t0_ms": 141580,
+     "text": "To provide as many analysts as possible the opportunity to participate,"
+    },
+    {
+     "t0_ms": 145780,
+     "text": "please limit yourself to one main question and a brief follow-up."
+    },
+    {
+     "t0_ms": 149380,
+     "text": "With that, I'll hand the call over to you, Dave."
+    },
+    {
+     "t0_ms": 153380,
+     "text": "Thank you, Shanie, and hello, everyone."
+    },
+    {
+     "t0_ms": 155580,
+     "text": "Fiscal 27 is off to an outstanding start."
+    },
+    {
+     "t0_ms": 158580,
+     "text": "September quarter revenue grew by more than 60% year-over-year,"
+    },
+    {
+     "t0_ms": 162580,
+     "text": "and non-GAAP EPS expanded by nearly three times to a record $7.68."
+    }
+   ]
+  },
+  {
+   "t0_ms": 169580,
+   "t1_ms": 211040,
+   "speaker": "Management",
+   "text": "We also achieved record gross and operating margins, demonstrating the earnings power of our business and ongoing demand strength for data storage. Both the data center and edge IoT markets delivered double-digit sequential revenue growth, up 18% and 13% respectively, reflecting ongoing demand and pricing strength. These trends support our expectation to deliver strong sequential revenue growth and gross margin expansion throughout fiscal 2027. Confidence is supported by an extremely strong demand environment, with visibility extending beyond 2030, and an aerial density drift,",
+   "parts": [
+    {
+     "t0_ms": 169580,
+     "text": "We also achieved record gross and operating margins,"
+    },
+    {
+     "t0_ms": 173580,
+     "text": "demonstrating the earnings power of our business and ongoing demand strength for data storage."
+    },
+    {
+     "t0_ms": 179380,
+     "text": "Both the data center and edge IoT markets delivered double-digit sequential revenue growth,"
+    },
+    {
+     "t0_ms": 185580,
+     "text": "up 18% and 13% respectively, reflecting ongoing demand and pricing strength."
+    },
+    {
+     "t0_ms": 192580,
+     "text": "These trends support our expectation to deliver strong sequential revenue growth"
+    },
+    {
+     "t0_ms": 196580,
+     "text": "and gross margin expansion throughout fiscal 2027."
+    },
+    {
+     "t0_ms": 200580,
+     "text": "Confidence is supported by an extremely strong demand environment,"
+    },
+    {
+     "t0_ms": 206440,
+     "text": "with visibility extending beyond 2030,"
+    },
+    {
+     "t0_ms": 209240,
+     "text": "and an aerial density drift,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 211240,
+   "t1_ms": 255600,
+   "speaker": "Management",
+   "text": "and a revenue-driven technology roadmap poised to capture this growth. In the September quarter, we shipped a record 198 exabytes of near-line capacity into data center customers, and we expect a meaningful step-up in the December quarter, supported by the continued ramp of Mosaic 4. As we stage new generations of Mosaic products and ship to a broader customer base, quarterly exabyte growth may vary. At the same time, we expect our technology roadmap to support near-line exabyte supply growth in the mid-20% range on a compound basis. In the fall, we delivered another very strong quarter, including record free cash flow generation of nearly $1.5 billion, driven by durable demand,",
+   "parts": [
+    {
+     "t0_ms": 211240,
+     "text": "and a revenue-driven technology roadmap poised to capture this growth."
+    },
+    {
+     "t0_ms": 216340,
+     "text": "In the September quarter, we shipped a record 198 exabytes of near-line capacity into data center customers,"
+    },
+    {
+     "t0_ms": 222740,
+     "text": "and we expect a meaningful step-up in the December quarter,"
+    },
+    {
+     "t0_ms": 226140,
+     "text": "supported by the continued ramp of Mosaic 4."
+    },
+    {
+     "t0_ms": 229140,
+     "text": "As we stage new generations of Mosaic products and ship to a broader customer base,"
+    },
+    {
+     "t0_ms": 234540,
+     "text": "quarterly exabyte growth may vary."
+    },
+    {
+     "t0_ms": 236940,
+     "text": "At the same time, we expect our technology roadmap to support near-line exabyte supply growth"
+    },
+    {
+     "t0_ms": 242740,
+     "text": "in the mid-20% range on a compound basis."
+    },
+    {
+     "t0_ms": 247800,
+     "text": "In the fall, we delivered another very strong quarter,"
+    },
+    {
+     "t0_ms": 249800,
+     "text": "including record free cash flow generation of nearly $1.5 billion,"
+    },
+    {
+     "t0_ms": 254000,
+     "text": "driven by durable demand,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 255800,
+   "t1_ms": 297400,
+   "speaker": "Management",
+   "text": "our continued technology innovation, and disciplined operational execution. Additionally, we significantly strengthened the balance sheet, achieved our primary debt reduction objectives, and regained investment-grade status. With those goals largely achieved, we are shifting our focus to the future of our business, and we expect to see a significant increase in our business capital returns, with share repurchases serving as our primary vehicle, complemented by dividends. This month, our board approved an increase in the quarterly dividend to $0.76 per share. This capital allocation strategy reflects our confidence in the cash flow potential of the business,",
+   "parts": [
+    {
+     "t0_ms": 255800,
+     "text": "our continued technology innovation,"
+    },
+    {
+     "t0_ms": 258200,
+     "text": "and disciplined operational execution."
+    },
+    {
+     "t0_ms": 260800,
+     "text": "Additionally, we significantly strengthened the balance sheet,"
+    },
+    {
+     "t0_ms": 265000,
+     "text": "achieved our primary debt reduction objectives,"
+    },
+    {
+     "t0_ms": 268000,
+     "text": "and regained investment-grade status."
+    },
+    {
+     "t0_ms": 270600,
+     "text": "With those goals largely achieved,"
+    },
+    {
+     "t0_ms": 273200,
+     "text": "we are shifting our focus"
+    },
+    {
+     "t0_ms": 274600,
+     "text": "to the future of our business,"
+    },
+    {
+     "t0_ms": 276400,
+     "text": "and we expect to see a significant increase in our business capital returns,"
+    },
+    {
+     "t0_ms": 279800,
+     "text": "with share repurchases serving as our primary vehicle,"
+    },
+    {
+     "t0_ms": 282800,
+     "text": "complemented by dividends."
+    },
+    {
+     "t0_ms": 284800,
+     "text": "This month, our board approved an increase in the quarterly dividend to $0.76 per share."
+    },
+    {
+     "t0_ms": 292400,
+     "text": "This capital allocation strategy reflects our confidence in the cash flow potential of the business,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 297600,
+   "t1_ms": 338100,
+   "speaker": "Management",
+   "text": "as well as the multi-year demand visibility afforded by our customer agreements. Demand strength continues to be driven by data center customers, and we expect to see a significant increase in our business capital returns. Within data center, cloud nearline products achieved a 12th consecutive quarter of revenue growth, while enterprise OEM revenue reached its second highest quarterly level in over a decade. Data growth is profound across a wide variety of applications. Behind these trends is a growing recognition that the value of data extends well beyond its original use. In a recent discussion with Seagate, a leading hyperscale customer observed that the value of data is increasingly increasing.",
+   "parts": [
+    {
+     "t0_ms": 297600,
+     "text": "as well as the multi-year demand visibility afforded by our customer agreements."
+    },
+    {
+     "t0_ms": 302600,
+     "text": "Demand strength continues to be driven by data center customers,"
+    },
+    {
+     "t0_ms": 306100,
+     "text": "and we expect to see a significant increase in our business capital returns."
+    },
+    {
+     "t0_ms": 308300,
+     "text": "Within data center,"
+    },
+    {
+     "t0_ms": 309500,
+     "text": "cloud nearline products achieved a 12th consecutive quarter of revenue growth,"
+    },
+    {
+     "t0_ms": 314300,
+     "text": "while enterprise OEM revenue reached its second highest quarterly level in over a decade."
+    },
+    {
+     "t0_ms": 320500,
+     "text": "Data growth is profound across a wide variety of applications."
+    },
+    {
+     "t0_ms": 325700,
+     "text": "Behind these trends is a growing recognition that the value of data extends well beyond its original use."
+    },
+    {
+     "t0_ms": 331900,
+     "text": "In a recent discussion with Seagate,"
+    },
+    {
+     "t0_ms": 334100,
+     "text": "a leading hyperscale customer observed"
+    },
+    {
+     "t0_ms": 335900,
+     "text": "that the value of data is increasingly increasing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 338300,
+   "t1_ms": 379700,
+   "speaker": "Management",
+   "text": "This is because the data center customers are increasingly discovering new ways to extract value from data long after it's initially stored, strengthening the incentive to retain it. And AI innovations are amplifying this dynamic. As AI adoption expands beyond model training and toward inference and agentic applications, persistent data becomes increasingly important. These systems rely on vast amounts of historical data to make informed decisions while constantly generating new output that must be governed, retained, and reused. Estimates suggest that billions of AI agents will be deployed worldwide over the next decade, executing hundreds of billions of actions daily.",
+   "parts": [
+    {
+     "t0_ms": 338300,
+     "text": "This is because the data center customers are increasingly discovering new ways to extract value from data long after it's initially stored,"
+    },
+    {
+     "t0_ms": 345500,
+     "text": "strengthening the incentive to retain it."
+    },
+    {
+     "t0_ms": 348100,
+     "text": "And AI innovations are amplifying this dynamic."
+    },
+    {
+     "t0_ms": 352100,
+     "text": "As AI adoption expands beyond model training and toward inference and agentic applications,"
+    },
+    {
+     "t0_ms": 358100,
+     "text": "persistent data becomes increasingly important."
+    },
+    {
+     "t0_ms": 361300,
+     "text": "These systems rely on vast amounts of historical data to make informed decisions"
+    },
+    {
+     "t0_ms": 365700,
+     "text": "while constantly generating new output that must be governed, retained, and reused."
+    },
+    {
+     "t0_ms": 371700,
+     "text": "Estimates suggest that billions of AI agents will be deployed worldwide over the next decade,"
+    },
+    {
+     "t0_ms": 377300,
+     "text": "executing hundreds of billions of actions daily."
+    }
+   ]
+  },
+  {
+   "t0_ms": 379900,
+   "t1_ms": 420280,
+   "speaker": "Management",
+   "text": "At that scale, agents will continuously consume, generate, and reuse data. We believe future storage demand will increasingly be tied to this new data lifecycle and compound again as physical AI applications proliferate. As persistent data grows, storage demand can extend well beyond the initial infrastructure build-out. These positive demand dynamics play directly into the strength of hard drives, which deliver the scalable, reliable, and cost-efficient foundation for data retention. Hyperscale customers have long recognized these benefits and continue to pursue higher-capacity storage architectures.",
+   "parts": [
+    {
+     "t0_ms": 379900,
+     "text": "At that scale, agents will continuously consume, generate, and reuse data."
+    },
+    {
+     "t0_ms": 386580,
+     "text": "We believe future storage demand will increasingly be tied to this new data lifecycle"
+    },
+    {
+     "t0_ms": 391780,
+     "text": "and compound again as physical AI applications proliferate."
+    },
+    {
+     "t0_ms": 395380,
+     "text": "As persistent data grows,"
+    },
+    {
+     "t0_ms": 399280,
+     "text": "storage demand can extend well beyond the initial infrastructure build-out."
+    },
+    {
+     "t0_ms": 403480,
+     "text": "These positive demand dynamics play directly into the strength of hard drives,"
+    },
+    {
+     "t0_ms": 408480,
+     "text": "which deliver the scalable, reliable, and cost-efficient foundation for data retention."
+    },
+    {
+     "t0_ms": 413080,
+     "text": "Hyperscale customers have long recognized these benefits"
+    },
+    {
+     "t0_ms": 417280,
+     "text": "and continue to pursue higher-capacity storage architectures."
+    }
+   ]
+  },
+  {
+   "t0_ms": 420480,
+   "t1_ms": 465480,
+   "speaker": "Management",
+   "text": "Our engineering teams work closely with leading cloud providers to align our product roadmap with future data storage requirements and simplify the adoption of higher-capacity drives. A recent example is Microsoft's qualification of a joint Seagate and Broadcom solution that combines our Hammer-based Mosaic drives configured with SMR technology and Broadcom's connectivity infrastructure. Microsoft already deploys Hammer drives, and this recent qualification validates the SMR-enabled solution at Hyperscale. Customers can benefit from additional capacity gains that SMR provides. However, broad adoption at higher drive capacities has been limited given the meaningful architectural and software changes required.",
+   "parts": [
+    {
+     "t0_ms": 420480,
+     "text": "Our engineering teams work closely with leading cloud providers"
+    },
+    {
+     "t0_ms": 425280,
+     "text": "to align our product roadmap with future data storage requirements"
+    },
+    {
+     "t0_ms": 429280,
+     "text": "and simplify the adoption of higher-capacity drives."
+    },
+    {
+     "t0_ms": 432480,
+     "text": "A recent example is Microsoft's qualification of a joint Seagate and Broadcom solution"
+    },
+    {
+     "t0_ms": 437680,
+     "text": "that combines our Hammer-based Mosaic drives configured with SMR technology"
+    },
+    {
+     "t0_ms": 442480,
+     "text": "and Broadcom's connectivity infrastructure."
+    },
+    {
+     "t0_ms": 445680,
+     "text": "Microsoft already deploys Hammer drives,"
+    },
+    {
+     "t0_ms": 448080,
+     "text": "and this recent qualification validates the SMR-enabled solution at Hyperscale."
+    },
+    {
+     "t0_ms": 453280,
+     "text": "Customers can benefit from additional capacity gains that SMR provides."
+    },
+    {
+     "t0_ms": 458080,
+     "text": "However, broad adoption at higher drive capacities has been limited"
+    },
+    {
+     "t0_ms": 461880,
+     "text": "given the meaningful architectural and software changes required."
+    }
+   ]
+  },
+  {
+   "t0_ms": 465680,
+   "t1_ms": 510430,
+   "speaker": "Management",
+   "text": "This joint solution provides a blueprint for implementing SMR storage to unlock additional capacity gains on top of our Hammer-based Mosaic platform. Beyond hyperscalers and CSPs, demand is expanding among a broader set of enterprise OEM customers that are managing increasingly large datasets. We are engaging more directly with many of these customers and developing reference architectures that pair proven compute and storage hardware with flexible, customer-selected software. These solutions offer a path to scale persistent data capacity, improve storage economics, and drive platform efficiencies. The strengthening demand environment is extending our customers' planning horizons,",
+   "parts": [
+    {
+     "t0_ms": 465680,
+     "text": "This joint solution provides a blueprint for implementing SMR storage"
+    },
+    {
+     "t0_ms": 469880,
+     "text": "to unlock additional capacity gains on top of our Hammer-based Mosaic platform."
+    },
+    {
+     "t0_ms": 476080,
+     "text": "Beyond hyperscalers and CSPs,"
+    },
+    {
+     "t0_ms": 478280,
+     "text": "demand is expanding among a broader set of enterprise OEM customers"
+    },
+    {
+     "t0_ms": 483080,
+     "text": "that are managing increasingly large datasets."
+    },
+    {
+     "t0_ms": 487390,
+     "text": "We are engaging more directly"
+    },
+    {
+     "t0_ms": 488490,
+     "text": "with many of these customers and developing reference architectures"
+    },
+    {
+     "t0_ms": 491690,
+     "text": "that pair proven compute and storage hardware with flexible, customer-selected software."
+    },
+    {
+     "t0_ms": 497890,
+     "text": "These solutions offer a path to scale persistent data capacity,"
+    },
+    {
+     "t0_ms": 501990,
+     "text": "improve storage economics, and drive platform efficiencies."
+    },
+    {
+     "t0_ms": 506830,
+     "text": "The strengthening demand environment is extending our customers' planning horizons,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 510630,
+   "t1_ms": 554640,
+   "speaker": "Management",
+   "text": "which is reflected in the supply agreements we now have in place. The vast majority of our Nearline exabyte supply is now allocated under long-term supply agreements through calendar 2028, with some cloud customer agreements extending through calendar 2030. Our strategic planning discussions extend even further. We are working closely with customers to address their growing storage needs across this time horizon by executing our Mosaic product roadmap. As we transition to Hammer-based Mosaic products, we are investing in additional tools and technologies necessary to offset longer manufacturing cycle times and maintain stable unit production. For Seagate, increasing capacity per disk is driving exabyte growth.",
+   "parts": [
+    {
+     "t0_ms": 510630,
+     "text": "which is reflected in the supply agreements we now have in place."
+    },
+    {
+     "t0_ms": 514630,
+     "text": "The vast majority of our Nearline exabyte supply is now allocated under long-term supply agreements"
+    },
+    {
+     "t0_ms": 519730,
+     "text": "through calendar 2028,"
+    },
+    {
+     "t0_ms": 521730,
+     "text": "with some cloud customer agreements extending through calendar 2030."
+    },
+    {
+     "t0_ms": 526330,
+     "text": "Our strategic planning discussions extend even further."
+    },
+    {
+     "t0_ms": 530940,
+     "text": "We are working closely with customers to address their growing storage needs"
+    },
+    {
+     "t0_ms": 534340,
+     "text": "across this time horizon by executing our Mosaic product roadmap."
+    },
+    {
+     "t0_ms": 538740,
+     "text": "As we transition to Hammer-based Mosaic products,"
+    },
+    {
+     "t0_ms": 541840,
+     "text": "we are investing in additional tools and technologies necessary"
+    },
+    {
+     "t0_ms": 545340,
+     "text": "to offset longer manufacturing cycle times and maintain stable unit production."
+    },
+    {
+     "t0_ms": 550140,
+     "text": "For Seagate, increasing capacity per disk is driving exabyte growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 556400,
+   "t1_ms": 601110,
+   "speaker": "Management",
+   "text": "Our build-to-order contracts establish specific configuration and pricing terms for Nearline shipments through calendar 2027. As we move through the next few quarters, we expect to begin finalizing configuration and pricing terms with customers for the exabyte supply that we've allocated to them for calendar 2028. Pricing continues to improve, reflecting both the execution of our value-based pricing framework and higher external component costs. We expect a stronger demand environment, evident in customers' multi-year commitments, to continue to support these healthy pricing dynamics. Taken together, these agreements provide customers with greater supply assurance while increasing visibility for both parties.",
+   "parts": [
+    {
+     "t0_ms": 556400,
+     "text": "Our build-to-order contracts establish specific configuration and pricing terms"
+    },
+    {
+     "t0_ms": 561400,
+     "text": "for Nearline shipments through calendar 2027."
+    },
+    {
+     "t0_ms": 564100,
+     "text": "As we move through the next few quarters,"
+    },
+    {
+     "t0_ms": 567700,
+     "text": "we expect to begin finalizing configuration and pricing terms"
+    },
+    {
+     "t0_ms": 570900,
+     "text": "with customers for the exabyte supply that we've allocated to them for calendar 2028."
+    },
+    {
+     "t0_ms": 575900,
+     "text": "Pricing continues to improve, reflecting both the execution of our value-based pricing framework"
+    },
+    {
+     "t0_ms": 581700,
+     "text": "and higher external component costs."
+    },
+    {
+     "t0_ms": 584700,
+     "text": "We expect a stronger demand environment,"
+    },
+    {
+     "t0_ms": 587600,
+     "text": "evident in customers' multi-year commitments,"
+    },
+    {
+     "t0_ms": 589900,
+     "text": "to continue to support these healthy pricing dynamics."
+    },
+    {
+     "t0_ms": 592600,
+     "text": "Taken together, these agreements provide customers with greater supply assurance"
+    },
+    {
+     "t0_ms": 598710,
+     "text": "while increasing visibility for both parties."
+    }
+   ]
+  },
+  {
+   "t0_ms": 601310,
+   "t1_ms": 644660,
+   "speaker": "Management",
+   "text": "They also reflect customer confidence in long-term demand growth and the increasingly strategic role that hard drive storage plays in the modern data ecosystem. Supporting this demand growth requires our storage solutions to deliver scale, efficiency, and economics. These very attributes serve as the foundation for our technology strategy. Increasing storage density within the same data center footprint is the most cost-efficient way to maximize bytes per square foot, as one large hyperscale customer put it, and our HAMR-enabled roadmap is designed to deliver on that objective. Advancing aerial density is our North Star. We are scaling drive capacity through aerial density,",
+   "parts": [
+    {
+     "t0_ms": 601310,
+     "text": "They also reflect customer confidence in long-term demand growth"
+    },
+    {
+     "t0_ms": 605510,
+     "text": "and the increasingly strategic role that hard drive storage plays in the modern data ecosystem."
+    },
+    {
+     "t0_ms": 611110,
+     "text": "Supporting this demand growth requires"
+    },
+    {
+     "t0_ms": 614860,
+     "text": "our storage solutions to deliver scale, efficiency, and economics."
+    },
+    {
+     "t0_ms": 620360,
+     "text": "These very attributes serve as the foundation for our technology strategy."
+    },
+    {
+     "t0_ms": 624860,
+     "text": "Increasing storage density within the same data center footprint"
+    },
+    {
+     "t0_ms": 628360,
+     "text": "is the most cost-efficient way to maximize bytes per square foot,"
+    },
+    {
+     "t0_ms": 632460,
+     "text": "as one large hyperscale customer put it,"
+    },
+    {
+     "t0_ms": 635160,
+     "text": "and our HAMR-enabled roadmap is designed to deliver on that objective."
+    },
+    {
+     "t0_ms": 639560,
+     "text": "Advancing aerial density is our North Star."
+    },
+    {
+     "t0_ms": 642160,
+     "text": "We are scaling drive capacity through aerial density,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 644660,
+   "t1_ms": 686960,
+   "speaker": "Management",
+   "text": "rather than relying on higher drive unit production. We believe that this is the most efficient way to help customers manage their extreme data growth and retention needs. The same approach supports profitable exabyte growth for Seagate. We are executing well on the product roadmap milestones that we've outlined. We continue to expect HAMR to represent roughly 50% of our near-line exabyte shipment run rate, exiting calendar 2026, with MOSAIC-4 representing roughly half of those HAMR shipments. MOSAIC-4, which offers up to 44 terabytes of capacity, is continuing to ramp with two leading CSPs. We are on track for additional qualifications to complete",
+   "parts": [
+    {
+     "t0_ms": 644660,
+     "text": "rather than relying on higher drive unit production."
+    },
+    {
+     "t0_ms": 648160,
+     "text": "We believe that this is the most efficient way"
+    },
+    {
+     "t0_ms": 650460,
+     "text": "to help customers manage their extreme data growth and retention needs."
+    },
+    {
+     "t0_ms": 654460,
+     "text": "The same approach supports profitable exabyte growth for Seagate."
+    },
+    {
+     "t0_ms": 659260,
+     "text": "We are executing well on the product roadmap milestones that we've outlined."
+    },
+    {
+     "t0_ms": 663660,
+     "text": "We continue to expect HAMR to represent roughly 50%"
+    },
+    {
+     "t0_ms": 667860,
+     "text": "of our near-line exabyte shipment run rate, exiting calendar 2026,"
+    },
+    {
+     "t0_ms": 672960,
+     "text": "with MOSAIC-4 representing"
+    },
+    {
+     "t0_ms": 674760,
+     "text": "roughly half of those HAMR shipments."
+    },
+    {
+     "t0_ms": 677560,
+     "text": "MOSAIC-4, which offers up to 44 terabytes of capacity,"
+    },
+    {
+     "t0_ms": 680860,
+     "text": "is continuing to ramp with two leading CSPs."
+    },
+    {
+     "t0_ms": 684060,
+     "text": "We are on track for additional qualifications to complete"
+    }
+   ]
+  },
+  {
+   "t0_ms": 687160,
+   "t1_ms": 730730,
+   "speaker": "Management",
+   "text": "over the next couple of months across multiple global CSPs and OEM enterprise customers. Product development for our third generation MOSAIC-5 product remains on track. These drives can deliver upwards of 50 terabytes of capacity and leverage our highly efficient 10-disc platform. We continue to expect customer qualification shipments to begin towards the end of calendar 2027. Reflecting on our ongoing advancements in photonics, we recently demonstrated 8 terabytes per disc in the lab. Providing further evidence that HAMR and the MOSAIC platform can deliver on customers' growing capacity needs and reinforces our conviction that increasing exabyte supply through aerial density growth is the right long-term strategy",
+   "parts": [
+    {
+     "t0_ms": 687160,
+     "text": "over the next couple of months across multiple global CSPs"
+    },
+    {
+     "t0_ms": 691360,
+     "text": "and OEM enterprise customers."
+    },
+    {
+     "t0_ms": 694630,
+     "text": "Product development for our third generation MOSAIC-5 product remains on track."
+    },
+    {
+     "t0_ms": 699430,
+     "text": "These drives can deliver upwards of 50 terabytes of capacity"
+    },
+    {
+     "t0_ms": 703030,
+     "text": "and leverage our highly efficient 10-disc platform."
+    },
+    {
+     "t0_ms": 706130,
+     "text": "We continue to expect customer qualification shipments"
+    },
+    {
+     "t0_ms": 708530,
+     "text": "to begin towards the end of calendar 2027."
+    },
+    {
+     "t0_ms": 712030,
+     "text": "Reflecting on our ongoing advancements in photonics,"
+    },
+    {
+     "t0_ms": 715030,
+     "text": "we recently demonstrated 8 terabytes per disc in the lab."
+    },
+    {
+     "t0_ms": 718930,
+     "text": "Providing further evidence that HAMR and the MOSAIC platform"
+    },
+    {
+     "t0_ms": 721730,
+     "text": "can deliver on customers' growing capacity needs"
+    },
+    {
+     "t0_ms": 724130,
+     "text": "and reinforces our conviction that increasing exabyte supply"
+    },
+    {
+     "t0_ms": 727830,
+     "text": "through aerial density growth is the right long-term strategy"
+    }
+   ]
+  },
+  {
+   "t0_ms": 730930,
+   "t1_ms": 774730,
+   "speaker": "Management",
+   "text": "for both our customers and for Seagate. Wrapping up, our results demonstrate both the durability of demand and the effectiveness of our strategy. Data creation, retention, and reuse are compounding demand for mass capacity storage. And based on the long-term visibility we have with customers, we believe we're still in the early days of a multi-year growth phase. Our technology roadmap, combined with disciplined supply management and a value-based pricing strategy, and the operational leverage in the business, gives us confidence in our ability to deliver strong profitability, cash generation, and shareholder returns. I'd like to recognize our global team for their execution",
+   "parts": [
+    {
+     "t0_ms": 730930,
+     "text": "for both our customers and for Seagate."
+    },
+    {
+     "t0_ms": 734530,
+     "text": "Wrapping up,"
+    },
+    {
+     "t0_ms": 735930,
+     "text": "our results demonstrate both the durability of demand"
+    },
+    {
+     "t0_ms": 738330,
+     "text": "and the effectiveness of our strategy."
+    },
+    {
+     "t0_ms": 740930,
+     "text": "Data creation, retention, and reuse are compounding demand"
+    },
+    {
+     "t0_ms": 745130,
+     "text": "for mass capacity storage."
+    },
+    {
+     "t0_ms": 746930,
+     "text": "And based on the long-term visibility we have with customers,"
+    },
+    {
+     "t0_ms": 750030,
+     "text": "we believe we're still in the early days of a multi-year growth phase."
+    },
+    {
+     "t0_ms": 755430,
+     "text": "Our technology roadmap, combined with disciplined supply management"
+    },
+    {
+     "t0_ms": 760030,
+     "text": "and a value-based pricing strategy,"
+    },
+    {
+     "t0_ms": 762030,
+     "text": "and the operational leverage in the business,"
+    },
+    {
+     "t0_ms": 765030,
+     "text": "gives us confidence"
+    },
+    {
+     "t0_ms": 766030,
+     "text": "in our ability to deliver strong profitability,"
+    },
+    {
+     "t0_ms": 768530,
+     "text": "cash generation, and shareholder returns."
+    },
+    {
+     "t0_ms": 772130,
+     "text": "I'd like to recognize our global team for their execution"
+    }
+   ]
+  },
+  {
+   "t0_ms": 774930,
+   "t1_ms": 816130,
+   "speaker": "Management",
+   "text": "in delivering a record quarter and a strong start to fiscal 27. I'd also like to thank our customers, suppliers, and shareholders for their continued trust and support. Now I'll turn the call over to Gianluca. Thank you, Dave. Seagate posted very strong results for the September quarter, exceeding the high end of our guidance range, for both revenue and earning per share, while continuing to establish new profitability records that translated into our highest ever free cash flow generation. September quarter revenue was $4.2 billion, up 17% sequentially, and up 61% year over year.",
+   "parts": [
+    {
+     "t0_ms": 774930,
+     "text": "in delivering a record quarter and a strong start to fiscal 27."
+    },
+    {
+     "t0_ms": 778930,
+     "text": "I'd also like to thank our customers, suppliers,"
+    },
+    {
+     "t0_ms": 781530,
+     "text": "and shareholders for their continued trust and support."
+    },
+    {
+     "t0_ms": 784730,
+     "text": "Now I'll turn the call over to Gianluca."
+    },
+    {
+     "t0_ms": 787930,
+     "text": "Thank you, Dave."
+    },
+    {
+     "t0_ms": 789330,
+     "text": "Seagate posted very strong results for the September quarter,"
+    },
+    {
+     "t0_ms": 793130,
+     "text": "exceeding the high end of our guidance range,"
+    },
+    {
+     "t0_ms": 796030,
+     "text": "for both revenue and earning per share,"
+    },
+    {
+     "t0_ms": 799030,
+     "text": "while continuing to establish new profitability records"
+    },
+    {
+     "t0_ms": 802430,
+     "text": "that translated into our highest ever free cash flow generation."
+    },
+    {
+     "t0_ms": 807230,
+     "text": "September quarter revenue was $4.2 billion,"
+    },
+    {
+     "t0_ms": 810830,
+     "text": "up 17% sequentially, and up 61% year over year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 816330,
+   "t1_ms": 857790,
+   "speaker": "Management",
+   "text": "Non-GAAP gross margin came in at 57.8%, up 510 basis points sequentially. Non-GAAP operating margin increased 610 basis points, sequentially, to 50.7%. And Non-GAAP EPS was $7.68, up 35% quarter over quarter, and 194% year over year. Sustained data center demand continues to drive strong company performance. In the September quarter, we shipped a total of 220 exabytes, up 21% year over year,",
+   "parts": [
+    {
+     "t0_ms": 816330,
+     "text": "Non-GAAP gross margin came in at 57.8%,"
+    },
+    {
+     "t0_ms": 820930,
+     "text": "up 510 basis points sequentially."
+    },
+    {
+     "t0_ms": 824930,
+     "text": "Non-GAAP operating margin increased 610 basis points,"
+    },
+    {
+     "t0_ms": 829530,
+     "text": "sequentially, to 50.7%."
+    },
+    {
+     "t0_ms": 833030,
+     "text": "And Non-GAAP EPS was $7.68,"
+    },
+    {
+     "t0_ms": 837630,
+     "text": "up 35% quarter over quarter, and 194% year over year."
+    },
+    {
+     "t0_ms": 845290,
+     "text": "Sustained data center demand continues to drive strong company performance."
+    },
+    {
+     "t0_ms": 850690,
+     "text": "In the September quarter, we shipped a total of 220 exabytes,"
+    },
+    {
+     "t0_ms": 855490,
+     "text": "up 21% year over year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 857990,
+   "t1_ms": 900190,
+   "speaker": "Management",
+   "text": "with data center representing 90% of that total. Data center revenue was $3.4 billion, up 18% sequentially, and 63% year over year, and representing 81% of total revenue. Data center shipments totaled 198 exabytes, up 24% year over year, and represented 90% of the company's overall exabyte volume. As Dave noted, we are staging Mosaic 4 products ahead of anticipated customer qualifications, and we expect capacity shipments to meaningfully step up in the December quarter.",
+   "parts": [
+    {
+     "t0_ms": 857990,
+     "text": "with data center representing 90% of that total."
+    },
+    {
+     "t0_ms": 863090,
+     "text": "Data center revenue was $3.4 billion,"
+    },
+    {
+     "t0_ms": 866690,
+     "text": "up 18% sequentially, and 63% year over year,"
+    },
+    {
+     "t0_ms": 871490,
+     "text": "and representing 81% of total revenue."
+    },
+    {
+     "t0_ms": 875690,
+     "text": "Data center shipments totaled 198 exabytes,"
+    },
+    {
+     "t0_ms": 879990,
+     "text": "up 24% year over year, and represented 90%"
+    },
+    {
+     "t0_ms": 884390,
+     "text": "of the company's overall exabyte volume."
+    },
+    {
+     "t0_ms": 887690,
+     "text": "As Dave noted, we are staging Mosaic 4 products"
+    },
+    {
+     "t0_ms": 890890,
+     "text": "ahead of anticipated customer qualifications,"
+    },
+    {
+     "t0_ms": 893990,
+     "text": "and we expect capacity shipments to meaningfully step up in the December quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 900390,
+   "t1_ms": 943690,
+   "speaker": "Management",
+   "text": "Global cloud customers accounted for the vast majority of data center revenue and exabyte demand, a trend that we expect to continue as we ramp Mosaic 4 volume. At the same time, demand across the entire world in the enterprise OEM data center market has continued to strengthen. As AI applications transition more toward inference and agent-based workloads, customers are seeking scalable, high-capacity storage solutions across hybrid cloud data center environments. In the September quarter, revenue from these markets increased for the sixth consecutive quarter, with double-digit growth, both sequentially and year over year.",
+   "parts": [
+    {
+     "t0_ms": 900390,
+     "text": "Global cloud customers accounted for the vast majority"
+    },
+    {
+     "t0_ms": 903790,
+     "text": "of data center revenue and exabyte demand,"
+    },
+    {
+     "t0_ms": 906990,
+     "text": "a trend that we expect to continue as we ramp Mosaic 4 volume."
+    },
+    {
+     "t0_ms": 911990,
+     "text": "At the same time, demand across the entire world"
+    },
+    {
+     "t0_ms": 914490,
+     "text": "in the enterprise OEM data center market has continued to strengthen."
+    },
+    {
+     "t0_ms": 918690,
+     "text": "As AI applications transition more toward inference and agent-based workloads,"
+    },
+    {
+     "t0_ms": 923890,
+     "text": "customers are seeking scalable, high-capacity storage solutions"
+    },
+    {
+     "t0_ms": 928590,
+     "text": "across hybrid cloud data center environments."
+    },
+    {
+     "t0_ms": 931890,
+     "text": "In the September quarter, revenue from these markets increased"
+    },
+    {
+     "t0_ms": 936890,
+     "text": "for the sixth consecutive quarter, with double-digit growth,"
+    },
+    {
+     "t0_ms": 941090,
+     "text": "both sequentially and year over year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 944490,
+   "t1_ms": 983090,
+   "speaker": "Management",
+   "text": "Complementing this trend in our data center business, our edge IoT markets also delivered solid revenue growth. Revenue totaled $784 million, representing 19% of total revenue. This was an increase of 13% sequentially and 52% year over year. Moving on to the rest of the income statement, non-GAAP gross profit increased significantly, to $2.4 billion, up 28% quarter over quarter, and more than doubling from $1.1 billion in a year-ago period.",
+   "parts": [
+    {
+     "t0_ms": 944490,
+     "text": "Complementing this trend in our data center business,"
+    },
+    {
+     "t0_ms": 947990,
+     "text": "our edge IoT markets also delivered solid revenue growth."
+    },
+    {
+     "t0_ms": 952890,
+     "text": "Revenue totaled $784 million, representing 19% of total revenue."
+    },
+    {
+     "t0_ms": 960390,
+     "text": "This was an increase of 13% sequentially and 52% year over year."
+    },
+    {
+     "t0_ms": 966990,
+     "text": "Moving on to the rest of the income statement,"
+    },
+    {
+     "t0_ms": 970390,
+     "text": "non-GAAP gross profit increased significantly,"
+    },
+    {
+     "t0_ms": 973290,
+     "text": "to $2.4 billion, up 28% quarter over quarter,"
+    },
+    {
+     "t0_ms": 978490,
+     "text": "and more than doubling from $1.1 billion in a year-ago period."
+    }
+   ]
+  },
+  {
+   "t0_ms": 983290,
+   "t1_ms": 1026790,
+   "speaker": "Management",
+   "text": "Non-GAAP gross margin expanded to 57.8%, up from 52.7% in the prior period, reflecting favorable pricing execution and an improving product mix as we ramp Mosaic 4 products. With factors more than offset, cost headwinds associated with certain externally sourced components. Looking ahead, we expect continued benefit from our value-based pricing strategy and product mix to support quarterly margin expansion for the rest of fiscal 2027. Non-GAAP operating expenses were $300 million, or about 7% of revenue.",
+   "parts": [
+    {
+     "t0_ms": 983290,
+     "text": "Non-GAAP gross margin expanded to 57.8%, up from 52.7% in the prior period,"
+    },
+    {
+     "t0_ms": 992290,
+     "text": "reflecting favorable pricing execution and an improving product mix"
+    },
+    {
+     "t0_ms": 996990,
+     "text": "as we ramp Mosaic 4 products."
+    },
+    {
+     "t0_ms": 999590,
+     "text": "With factors more than offset, cost headwinds"
+    },
+    {
+     "t0_ms": 1003390,
+     "text": "associated with certain externally sourced components."
+    },
+    {
+     "t0_ms": 1007390,
+     "text": "Looking ahead, we expect continued benefit from our value-based pricing strategy"
+    },
+    {
+     "t0_ms": 1013090,
+     "text": "and product mix to support quarterly margin expansion for the rest of fiscal 2027."
+    },
+    {
+     "t0_ms": 1020490,
+     "text": "Non-GAAP operating expenses were $300 million, or about 7% of revenue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1026990,
+   "t1_ms": 1064990,
+   "speaker": "Management",
+   "text": "The strong demand environment, combined with disciplined expense management, increased the cost of the operating profit by a substantial operating leverage, with non-GAAP operating profit up 33% sequentially to $2.1 billion, representing 50.7% of revenue. Other income and expenses totaled $38 million in the September quarter. Following the debt reduction we completed earlier in October, we anticipate other income and expenses to decrease further in the December quarter to approximately $25 million, benefiting from the lower interest expense.",
+   "parts": [
+    {
+     "t0_ms": 1026990,
+     "text": "The strong demand environment, combined with disciplined expense management,"
+    },
+    {
+     "t0_ms": 1032290,
+     "text": "increased the cost of the operating profit by a substantial operating leverage,"
+    },
+    {
+     "t0_ms": 1036290,
+     "text": "with non-GAAP operating profit up 33% sequentially to $2.1 billion,"
+    },
+    {
+     "t0_ms": 1041290,
+     "text": "representing 50.7% of revenue."
+    },
+    {
+     "t0_ms": 1045290,
+     "text": "Other income and expenses totaled $38 million in the September quarter."
+    },
+    {
+     "t0_ms": 1051290,
+     "text": "Following the debt reduction we completed earlier in October,"
+    },
+    {
+     "t0_ms": 1055290,
+     "text": "we anticipate other income and expenses to decrease further in the December quarter"
+    },
+    {
+     "t0_ms": 1060190,
+     "text": "to approximately $25 million, benefiting from the lower interest expense."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1065190,
+   "t1_ms": 1110070,
+   "speaker": "Management",
+   "text": "Non-GAAP net income grew to $1.8 billion, with corresponding non-GAAP EPS of $7.68 per share, based on tax expense of $328 million and a diluted share count of approximately 232 million shares. Turning now to cash flow and the balance sheet, operating cash flow was $1.7 billion, and capital expenditures were $211 million for the September quarter, or 5% of revenue. For fiscal 2027, we continue to expect CAPEX investment will remain within our target range of 4-6% of revenue,",
+   "parts": [
+    {
+     "t0_ms": 1065190,
+     "text": "Non-GAAP net income grew to $1.8 billion, with corresponding non-GAAP EPS of $7.68 per share,"
+    },
+    {
+     "t0_ms": 1075190,
+     "text": "based on tax expense of $328 million and a diluted share count of approximately 232 million shares."
+    },
+    {
+     "t0_ms": 1084190,
+     "text": "Turning now to cash flow and the balance sheet,"
+    },
+    {
+     "t0_ms": 1089270,
+     "text": "operating cash flow was $1.7 billion,"
+    },
+    {
+     "t0_ms": 1092270,
+     "text": "and capital expenditures were $211 million for the September quarter, or 5% of revenue."
+    },
+    {
+     "t0_ms": 1100270,
+     "text": "For fiscal 2027, we continue to expect CAPEX investment will remain within our target range of 4-6% of revenue,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1110270,
+   "t1_ms": 1152070,
+   "speaker": "Management",
+   "text": "as we support the ongoing transition to MR technology. Higher profitability and in-line CAPEX resulted in free cash flow generation of $1.5 billion, up 32% from the prior quarter and more than tripling year-over-year. We expect cash generation to further improve throughout fiscal 2027, supported by sustained demand, operational efficiencies, and CAPEX discipline. During the September quarter, we retired $1.2 billion in debt, including the remaining convertible notes and approximately $1 billion in high-yield debt. We exited the quarter with gross revenue of $1.2 billion,",
+   "parts": [
+    {
+     "t0_ms": 1110270,
+     "text": "as we support the ongoing transition to MR technology."
+    },
+    {
+     "t0_ms": 1114270,
+     "text": "Higher profitability and in-line CAPEX resulted in free cash flow generation of $1.5 billion,"
+    },
+    {
+     "t0_ms": 1122270,
+     "text": "up 32% from the prior quarter and more than tripling year-over-year."
+    },
+    {
+     "t0_ms": 1127270,
+     "text": "We expect cash generation to further improve throughout fiscal 2027,"
+    },
+    {
+     "t0_ms": 1133270,
+     "text": "supported by sustained demand, operational efficiencies, and CAPEX discipline."
+    },
+    {
+     "t0_ms": 1138270,
+     "text": "During the September quarter, we retired $1.2 billion in debt,"
+    },
+    {
+     "t0_ms": 1143270,
+     "text": "including the remaining convertible notes and approximately $1 billion in high-yield debt."
+    },
+    {
+     "t0_ms": 1150270,
+     "text": "We exited the quarter with gross revenue of $1.2 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1152270,
+   "t1_ms": 1197070,
+   "speaker": "Management",
+   "text": "and gross debt of approximately $2.4 billion, and a net leverage ratio of 0.2 times. Following the close of the September quarter, we retired an additional $750 million of high-yield senior notes, reducing principal debt to approximately $1.6 billion. As a result of our actions, we expect to be net cash positive exiting this calendar year. We have now delivered on our goal of strengthening the balance sheet, and are now focused on returning more of our free cash flow generation to our shareholders. During the September quarter, we returned $568 million to shareholders",
+   "parts": [
+    {
+     "t0_ms": 1152270,
+     "text": "and gross debt of approximately $2.4 billion,"
+    },
+    {
+     "t0_ms": 1156270,
+     "text": "and a net leverage ratio of 0.2 times."
+    },
+    {
+     "t0_ms": 1160270,
+     "text": "Following the close of the September quarter,"
+    },
+    {
+     "t0_ms": 1163270,
+     "text": "we retired an additional $750 million of high-yield senior notes,"
+    },
+    {
+     "t0_ms": 1168270,
+     "text": "reducing principal debt to approximately $1.6 billion."
+    },
+    {
+     "t0_ms": 1173270,
+     "text": "As a result of our actions, we expect to be net cash positive exiting this calendar year."
+    },
+    {
+     "t0_ms": 1180170,
+     "text": "We have now delivered on our goal of strengthening the balance sheet,"
+    },
+    {
+     "t0_ms": 1184170,
+     "text": "and are now focused on returning more of our free cash flow generation to our shareholders."
+    },
+    {
+     "t0_ms": 1190270,
+     "text": "During the September quarter, we returned $568 million to shareholders"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1197270,
+   "t1_ms": 1242070,
+   "speaker": "Management",
+   "text": "through dividend and share repurchases, roughly two times the amount returned in the June quarter. We are also increasing our quarterly dividend by approximately 3% to 76 cents per share. Reflecting our confidence, a strong cash generation is sustainable. We exited the September quarter with $4.4 billion, remaining on our existing share repurchase authorization, and expect to significantly increase share repurchases starting in calendar 2027. We ended September quarter with cash and cash equivalents of $1.3 billion, and total liquidity of $2.6 billion, including our undrawn revolving credit facility.",
+   "parts": [
+    {
+     "t0_ms": 1197270,
+     "text": "through dividend and share repurchases,"
+    },
+    {
+     "t0_ms": 1200270,
+     "text": "roughly two times the amount returned in the June quarter."
+    },
+    {
+     "t0_ms": 1203270,
+     "text": "We are also increasing our quarterly dividend by approximately 3%"
+    },
+    {
+     "t0_ms": 1208170,
+     "text": "to 76 cents per share."
+    },
+    {
+     "t0_ms": 1210170,
+     "text": "Reflecting our confidence,"
+    },
+    {
+     "t0_ms": 1212270,
+     "text": "a strong cash generation is sustainable."
+    },
+    {
+     "t0_ms": 1215270,
+     "text": "We exited the September quarter with $4.4 billion,"
+    },
+    {
+     "t0_ms": 1219270,
+     "text": "remaining on our existing share repurchase authorization,"
+    },
+    {
+     "t0_ms": 1223270,
+     "text": "and expect to significantly increase share repurchases starting in calendar 2027."
+    },
+    {
+     "t0_ms": 1229270,
+     "text": "We ended September quarter with cash and cash equivalents of $1.3 billion,"
+    },
+    {
+     "t0_ms": 1235270,
+     "text": "and total liquidity of $2.6 billion,"
+    },
+    {
+     "t0_ms": 1239170,
+     "text": "including our undrawn revolving credit facility."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1242270,
+   "t1_ms": 1284860,
+   "speaker": "Management",
+   "text": "Turning now to the December quarter outlook, we expect another quarter of strong sequential growth, underpinned by continued demand momentum, a significant increase in extra buy shipments, and ongoing execution of our value-based pricing strategy. We expect December quarter revenue to be in a range of $4.8 billion, plus or minus $100 million, which represents a 70% year-over-year improvement at the midpoint. Non-GAAP operating expenses are expected to remain flat at approximately $300 million. Based on the midpoint of our revenue guidance,",
+   "parts": [
+    {
+     "t0_ms": 1242270,
+     "text": "Turning now to the December quarter outlook,"
+    },
+    {
+     "t0_ms": 1247060,
+     "text": "we expect another quarter of strong sequential growth,"
+    },
+    {
+     "t0_ms": 1251060,
+     "text": "underpinned by continued demand momentum,"
+    },
+    {
+     "t0_ms": 1253060,
+     "text": "a significant increase in extra buy shipments,"
+    },
+    {
+     "t0_ms": 1256060,
+     "text": "and ongoing execution of our value-based pricing strategy."
+    },
+    {
+     "t0_ms": 1261060,
+     "text": "We expect December quarter revenue to be in a range of $4.8 billion,"
+    },
+    {
+     "t0_ms": 1267060,
+     "text": "plus or minus $100 million,"
+    },
+    {
+     "t0_ms": 1268960,
+     "text": "which represents a 70% year-over-year improvement at the midpoint."
+    },
+    {
+     "t0_ms": 1275060,
+     "text": "Non-GAAP operating expenses are expected to remain flat at approximately $300 million."
+    },
+    {
+     "t0_ms": 1282060,
+     "text": "Based on the midpoint of our revenue guidance,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1285060,
+   "t1_ms": 1326640,
+   "speaker": "Management",
+   "text": "non-GAAP operating margin is expected to expand towards the mid-50% range. Non-GAAP EPS is expected to be $9.20, plus or minus $0.20, based on a tax rate of about 16%, and non-GAAP diluted share count of 233 million shares. Our September quarter results and December quarter outlook reinforce our expectation for annual revenue growth to meaningfully outpace fiscal 2026. Durable demand, increasing mosaic adoption, and healthy operating leverage",
+   "parts": [
+    {
+     "t0_ms": 1285060,
+     "text": "non-GAAP operating margin is expected to expand towards the mid-50% range."
+    },
+    {
+     "t0_ms": 1291060,
+     "text": "Non-GAAP EPS is expected to be $9.20, plus or minus $0.20,"
+    },
+    {
+     "t0_ms": 1298960,
+     "text": "based on a tax rate of about 16%,"
+    },
+    {
+     "t0_ms": 1302060,
+     "text": "and non-GAAP diluted share count of 233 million shares."
+    },
+    {
+     "t0_ms": 1309050,
+     "text": "Our September quarter results and December quarter outlook"
+    },
+    {
+     "t0_ms": 1312050,
+     "text": "reinforce our expectation for annual revenue growth"
+    },
+    {
+     "t0_ms": 1316050,
+     "text": "to meaningfully outpace fiscal 2026."
+    },
+    {
+     "t0_ms": 1319050,
+     "text": "Durable demand, increasing mosaic adoption, and healthy operating leverage"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1326840,
+   "t1_ms": 1344640,
+   "speaker": "Management",
+   "text": "are supporting ongoing revenue growth, margin expansion, and strong cash generation. Together with our increasing focus on capital returns, we are well positioned to increase long-term shareholder value. Operator, let's open the call-out for questions.",
+   "parts": [
+    {
+     "t0_ms": 1326840,
+     "text": "are supporting ongoing revenue growth, margin expansion, and strong cash generation."
+    },
+    {
+     "t0_ms": 1332740,
+     "text": "Together with our increasing focus on capital returns,"
+    },
+    {
+     "t0_ms": 1336840,
+     "text": "we are well positioned to increase long-term shareholder value."
+    },
+    {
+     "t0_ms": 1340840,
+     "text": "Operator, let's open the call-out for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1344840,
+   "t1_ms": 1385640,
+   "speaker": "Operator",
+   "text": "We will now begin the question and answer session. To ask a question, you may press star, then 1 on your telephone keypad. If you are using a speakerphone, please pick up your handset before pressing the keys. To withdraw your question, please press star, then 2. In the interest of time, we ask that you limit yourself to one question and one follow-up. If you have further questions, you may re-enter the question queue. Once again, that was star, then 1 to ask a question. The first question today is from CJ Muse with Cantor Fitzgerald. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1344840,
+     "text": "We will now begin the question and answer session."
+    },
+    {
+     "t0_ms": 1348840,
+     "text": "To ask a question, you may press star, then 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1353840,
+     "text": "If you are using a speakerphone, please pick up your handset before pressing the keys."
+    },
+    {
+     "t0_ms": 1359840,
+     "text": "To withdraw your question, please press star,"
+    },
+    {
+     "t0_ms": 1362740,
+     "text": "then 2."
+    },
+    {
+     "t0_ms": 1364840,
+     "text": "In the interest of time, we ask that you limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 1370840,
+     "text": "If you have further questions, you may re-enter the question queue."
+    },
+    {
+     "t0_ms": 1374840,
+     "text": "Once again, that was star, then 1 to ask a question."
+    },
+    {
+     "t0_ms": 1379840,
+     "text": "The first question today is from CJ Muse with Cantor Fitzgerald."
+    },
+    {
+     "t0_ms": 1383840,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1385840,
+   "t1_ms": 1428640,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thank you for taking the question. I guess first question regarding exabyte deceleration. I'm curious, given your inventory days moved up to 97 from 83, was there kind of staging involved pre-building that's supporting your outlook for the accelerated exabytes into December? And then maybe as you think about calendar 27, you were kind of in the mid-30s range. You're reiterating kind of the mid-20s long-term. Curious, given the ramp of Mosaic weather, we should be kind of in the mid-30s range. Are you kind of in that 30-plus range, or do you think we will revert to that compounded number,",
+   "parts": [
+    {
+     "t0_ms": 1385840,
+     "text": "Yeah, good afternoon. Thank you for taking the question."
+    },
+    {
+     "t0_ms": 1387840,
+     "text": "I guess first question regarding exabyte deceleration."
+    },
+    {
+     "t0_ms": 1392740,
+     "text": "I'm curious, given your inventory days moved up to 97 from 83,"
+    },
+    {
+     "t0_ms": 1398840,
+     "text": "was there kind of staging involved pre-building that's supporting your outlook"
+    },
+    {
+     "t0_ms": 1404040,
+     "text": "for the accelerated exabytes into December?"
+    },
+    {
+     "t0_ms": 1407040,
+     "text": "And then maybe as you think about calendar 27,"
+    },
+    {
+     "t0_ms": 1411240,
+     "text": "you were kind of in the mid-30s range."
+    },
+    {
+     "t0_ms": 1414440,
+     "text": "You're reiterating kind of the mid-20s long-term."
+    },
+    {
+     "t0_ms": 1417640,
+     "text": "Curious, given the ramp of Mosaic weather,"
+    },
+    {
+     "t0_ms": 1420840,
+     "text": "we should be kind of in the mid-30s range."
+    },
+    {
+     "t0_ms": 1422640,
+     "text": "Are you kind of in that 30-plus range,"
+    },
+    {
+     "t0_ms": 1424840,
+     "text": "or do you think we will revert to that compounded number,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1428840,
+   "t1_ms": 1432950,
+   "speaker": "Analyst",
+   "text": "you know, at some point in calendar 27?",
+   "parts": [
+    {
+     "t0_ms": 1428840,
+     "text": "you know, at some point in calendar 27?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1433150,
+   "t1_ms": 1477750,
+   "speaker": "Management",
+   "text": "Hi, CJ. Thanks for the question. Yeah, if you think back to the June quarter, we had a pretty appreciable step-up in the September quarter. We were relatively flat, to your point. And the quarter we're in now, the December quarter, we'll step up again. So we are on a trajectory that, and I think 25% is a really good number for that. We're driving product transitions, and we're going to stage them quite a ways out in time. We make sure that we lock in with our customers on what they need to, and when those things have to hit their dock and sync up with all the other parts that they need to build the data center. So pretty happy with the progress and still staging very aggressive aerial density and product transition technologies so that we can get to those higher exabyte levels.",
+   "parts": [
+    {
+     "t0_ms": 1433150,
+     "text": "Hi, CJ. Thanks for the question."
+    },
+    {
+     "t0_ms": 1435150,
+     "text": "Yeah, if you think back to the June quarter,"
+    },
+    {
+     "t0_ms": 1437150,
+     "text": "we had a pretty appreciable step-up in the September quarter."
+    },
+    {
+     "t0_ms": 1440150,
+     "text": "We were relatively flat, to your point."
+    },
+    {
+     "t0_ms": 1442150,
+     "text": "And the quarter we're in now, the December quarter,"
+    },
+    {
+     "t0_ms": 1444150,
+     "text": "we'll step up again."
+    },
+    {
+     "t0_ms": 1446150,
+     "text": "So we are on a trajectory that,"
+    },
+    {
+     "t0_ms": 1448150,
+     "text": "and I think 25% is a really good number for that."
+    },
+    {
+     "t0_ms": 1451150,
+     "text": "We're driving product transitions,"
+    },
+    {
+     "t0_ms": 1453850,
+     "text": "and we're going to stage them quite a ways out in time."
+    },
+    {
+     "t0_ms": 1457050,
+     "text": "We make sure that we lock in with our customers"
+    },
+    {
+     "t0_ms": 1459250,
+     "text": "on what they need to,"
+    },
+    {
+     "t0_ms": 1460950,
+     "text": "and when those things have to hit their dock"
+    },
+    {
+     "t0_ms": 1462950,
+     "text": "and sync up with all the other parts"
+    },
+    {
+     "t0_ms": 1464950,
+     "text": "that they need to build the data center."
+    },
+    {
+     "t0_ms": 1466950,
+     "text": "So pretty happy with the progress"
+    },
+    {
+     "t0_ms": 1468950,
+     "text": "and still staging very aggressive aerial density"
+    },
+    {
+     "t0_ms": 1472950,
+     "text": "and product transition technologies"
+    },
+    {
+     "t0_ms": 1474950,
+     "text": "so that we can get to those higher exabyte levels."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1477950,
+   "t1_ms": 1492850,
+   "speaker": "Management",
+   "text": "Yeah, CJ, we have few customers that we qualify Mosaic for in the next quarter. And therefore, we are preparing manufacturing for those calls and the volume that we can shift to them in the December quarter and later.",
+   "parts": [
+    {
+     "t0_ms": 1477950,
+     "text": "Yeah, CJ, we have few customers that we qualify Mosaic for"
+    },
+    {
+     "t0_ms": 1481950,
+     "text": "in the next quarter."
+    },
+    {
+     "t0_ms": 1483850,
+     "text": "And therefore, we are preparing manufacturing"
+    },
+    {
+     "t0_ms": 1486050,
+     "text": "for those calls and the volume that we can shift to them"
+    },
+    {
+     "t0_ms": 1490050,
+     "text": "in the December quarter and later."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1493050,
+   "t1_ms": 1508550,
+   "speaker": "Analyst",
+   "text": "Perfect. And as a quick follow-up, Gianluca, on the operating margin guidance in the slide deck approaching or towards the mid-50s, should we be modeling 50% or are you suggesting something else?",
+   "parts": [
+    {
+     "t0_ms": 1493050,
+     "text": "Perfect. And as a quick follow-up,"
+    },
+    {
+     "t0_ms": 1495550,
+     "text": "Gianluca, on the operating margin guidance"
+    },
+    {
+     "t0_ms": 1499050,
+     "text": "in the slide deck approaching or towards the mid-50s,"
+    },
+    {
+     "t0_ms": 1502550,
+     "text": "should we be modeling 50%"
+    },
+    {
+     "t0_ms": 1505750,
+     "text": "or are you suggesting something else?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1508750,
+   "t1_ms": 1510550,
+   "speaker": "Management",
+   "text": "No, I think that's...",
+   "parts": [
+    {
+     "t0_ms": 1508750,
+     "text": "No, I think that's..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1510750,
+   "t1_ms": 1512850,
+   "speaker": "Analyst",
+   "text": "55%, sorry. 55, sorry.",
+   "parts": [
+    {
+     "t0_ms": 1510750,
+     "text": "55%, sorry. 55, sorry."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1513850,
+   "t1_ms": 1555050,
+   "speaker": "Management",
+   "text": "Well, we are suggesting something that is between 50 and 55. So of course, it's another improvement compared to what we have done this quarter. That was already above the 50%. So we are very happy on how we are managing the operating margin in particular. You have seen continuous improvement in revenue, in gross margin, very stable OPEX. So this is resulting in sequential strong improvement in operating margin. And we are approaching even higher results that we have guided for this December quarter. And as we said in prior calls,",
+   "parts": [
+    {
+     "t0_ms": 1513850,
+     "text": "Well, we are suggesting something that is between 50 and 55."
+    },
+    {
+     "t0_ms": 1520050,
+     "text": "So of course, it's another improvement"
+    },
+    {
+     "t0_ms": 1522050,
+     "text": "compared to what we have done this quarter."
+    },
+    {
+     "t0_ms": 1524050,
+     "text": "That was already above the 50%."
+    },
+    {
+     "t0_ms": 1526050,
+     "text": "So we are very happy on how we are managing"
+    },
+    {
+     "t0_ms": 1530050,
+     "text": "the operating margin in particular."
+    },
+    {
+     "t0_ms": 1533050,
+     "text": "You have seen continuous improvement in revenue,"
+    },
+    {
+     "t0_ms": 1537050,
+     "text": "in gross margin, very stable OPEX."
+    },
+    {
+     "t0_ms": 1540050,
+     "text": "So this is resulting in sequential strong improvement"
+    },
+    {
+     "t0_ms": 1542850,
+     "text": "in operating margin."
+    },
+    {
+     "t0_ms": 1544150,
+     "text": "And we are approaching even higher results"
+    },
+    {
+     "t0_ms": 1548350,
+     "text": "that we have guided for this December quarter."
+    },
+    {
+     "t0_ms": 1553050,
+     "text": "And as we said in prior calls,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1555250,
+   "t1_ms": 1564850,
+   "speaker": "Management",
+   "text": "we expect to improve even more in the rest of the fiscal year. Very helpful. Thank you. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1555250,
+     "text": "we expect to improve even more in the rest of the fiscal year."
+    },
+    {
+     "t0_ms": 1560450,
+     "text": "Very helpful. Thank you."
+    },
+    {
+     "t0_ms": 1562850,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1565050,
+   "t1_ms": 1569850,
+   "speaker": "Operator",
+   "text": "The next question is from Eric Woodring with Morgan Stanley. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1565050,
+     "text": "The next question is from Eric Woodring with Morgan Stanley."
+    },
+    {
+     "t0_ms": 1568050,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1570050,
+   "t1_ms": 1608250,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thank you so much for taking my questions. Really strong pricing, obviously, in the quarter. I'd love any commentary that you could provide there just on how to look forward on that price per terabyte metric. But separately also just to address the cost per terabyte decline. Over the last four quarters, you've done something like 15% annual cost declines or year-over-year cost declines. You just did kind of mid-single digits. So can you maybe help us understand any temporary factors that are impacting that related to the Mosaic transition or when we should expect that metric to accelerate? And then quick follow-up, please. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1570050,
+     "text": "Hey, guys. Thank you so much for taking my questions."
+    },
+    {
+     "t0_ms": 1572950,
+     "text": "Really strong pricing, obviously, in the quarter."
+    },
+    {
+     "t0_ms": 1575150,
+     "text": "I'd love any commentary that you could provide there"
+    },
+    {
+     "t0_ms": 1577850,
+     "text": "just on how to look forward on that price per terabyte metric."
+    },
+    {
+     "t0_ms": 1582250,
+     "text": "But separately also just to address the cost per terabyte decline."
+    },
+    {
+     "t0_ms": 1587550,
+     "text": "Over the last four quarters,"
+    },
+    {
+     "t0_ms": 1588950,
+     "text": "you've done something like 15% annual cost declines"
+    },
+    {
+     "t0_ms": 1591950,
+     "text": "or year-over-year cost declines."
+    },
+    {
+     "t0_ms": 1593550,
+     "text": "You just did kind of mid-single digits."
+    },
+    {
+     "t0_ms": 1595950,
+     "text": "So can you maybe help us understand any temporary factors"
+    },
+    {
+     "t0_ms": 1599350,
+     "text": "that are impacting that related to the Mosaic transition"
+    },
+    {
+     "t0_ms": 1602050,
+     "text": "or when we should expect that metric to accelerate?"
+    },
+    {
+     "t0_ms": 1605850,
+     "text": "And then quick follow-up, please. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1608450,
+   "t1_ms": 1651950,
+   "speaker": "Management",
+   "text": "Yeah. Thanks, Eric. It's a complicated question. So on the pricing side, I continue to believe that that's very dependent upon demand. And demand continues to be very strong, not just in quarter, but you look two, three, four quarters out, people are demanding that we go higher in exabytes as well. So it's a great long-term relationship. We have with the customers and we're able to predictably go through these product transitions and accelerate our technology the way we talked about. And I don't see that changing. In the past years ago, we would see product swaps and things like that. People saying, I don't need product in quarter. We're seeing none of that right now.",
+   "parts": [
+    {
+     "t0_ms": 1608450,
+     "text": "Yeah. Thanks, Eric."
+    },
+    {
+     "t0_ms": 1609350,
+     "text": "It's a complicated question."
+    },
+    {
+     "t0_ms": 1612150,
+     "text": "So on the pricing side,"
+    },
+    {
+     "t0_ms": 1613950,
+     "text": "I continue to believe that that's very dependent upon demand."
+    },
+    {
+     "t0_ms": 1616850,
+     "text": "And demand continues to be very strong,"
+    },
+    {
+     "t0_ms": 1619850,
+     "text": "not just in quarter, but you look two, three, four quarters out,"
+    },
+    {
+     "t0_ms": 1623750,
+     "text": "people are demanding that we go higher in exabytes as well."
+    },
+    {
+     "t0_ms": 1629050,
+     "text": "So it's a great long-term relationship."
+    },
+    {
+     "t0_ms": 1632050,
+     "text": "We have with the customers"
+    },
+    {
+     "t0_ms": 1634050,
+     "text": "and we're able to predictably go through these product transitions"
+    },
+    {
+     "t0_ms": 1639050,
+     "text": "and accelerate our technology the way we talked about."
+    },
+    {
+     "t0_ms": 1641650,
+     "text": "And I don't see that changing."
+    },
+    {
+     "t0_ms": 1643850,
+     "text": "In the past years ago,"
+    },
+    {
+     "t0_ms": 1646050,
+     "text": "we would see product swaps and things like that."
+    },
+    {
+     "t0_ms": 1648650,
+     "text": "People saying, I don't need product in quarter."
+    },
+    {
+     "t0_ms": 1650550,
+     "text": "We're seeing none of that right now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1652150,
+   "t1_ms": 1696250,
+   "speaker": "Management",
+   "text": "Absolutely everything we can make above and beyond our plans is being spoken for. On the cost side, you know that we can change and control our manufacturing efficiency of our critical technologies. And that's the largest driver of our costs. We get a lot of efficiency, especially in cost per terabyte, if that's a metric, as we transition platforms. But during some of the transitions, we get early cost things like scrap that go up. It doesn't dissuade us from driving the transitions. We continue to drive them very hard and then we go work those things down. Right now, I see more opportunity because the future transitions are even brighter than I would have said 90 days ago. So I'm pretty excited about that.",
+   "parts": [
+    {
+     "t0_ms": 1652150,
+     "text": "Absolutely everything we can make above and beyond our plans"
+    },
+    {
+     "t0_ms": 1656850,
+     "text": "is being spoken for."
+    },
+    {
+     "t0_ms": 1658350,
+     "text": "On the cost side,"
+    },
+    {
+     "t0_ms": 1660050,
+     "text": "you know that we can change"
+    },
+    {
+     "t0_ms": 1662050,
+     "text": "and control our manufacturing efficiency of our critical technologies."
+    },
+    {
+     "t0_ms": 1666650,
+     "text": "And that's the largest driver of our costs."
+    },
+    {
+     "t0_ms": 1669550,
+     "text": "We get a lot of efficiency,"
+    },
+    {
+     "t0_ms": 1671250,
+     "text": "especially in cost per terabyte,"
+    },
+    {
+     "t0_ms": 1672750,
+     "text": "if that's a metric,"
+    },
+    {
+     "t0_ms": 1673950,
+     "text": "as we transition platforms."
+    },
+    {
+     "t0_ms": 1675950,
+     "text": "But during some of the transitions,"
+    },
+    {
+     "t0_ms": 1678050,
+     "text": "we get early cost things like scrap that go up."
+    },
+    {
+     "t0_ms": 1680450,
+     "text": "It doesn't dissuade us from driving the transitions."
+    },
+    {
+     "t0_ms": 1683750,
+     "text": "We continue to drive them very hard"
+    },
+    {
+     "t0_ms": 1685250,
+     "text": "and then we go work those things down."
+    },
+    {
+     "t0_ms": 1687150,
+     "text": "Right now, I see more opportunity"
+    },
+    {
+     "t0_ms": 1690050,
+     "text": "because the future transitions"
+    },
+    {
+     "t0_ms": 1691950,
+     "text": "are even brighter than I would have said 90 days ago."
+    },
+    {
+     "t0_ms": 1694650,
+     "text": "So I'm pretty excited about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1696450,
+   "t1_ms": 1739950,
+   "speaker": "Management",
+   "text": "Yeah, Eric, I would say our cost decline for what we produce, so as a media, is continuing to be very, very strong. So we are happy with that. The cost of the external component, as you know, compared to a year ago, is now much higher. And therefore, nobody has at least a partial offset of our internal cost reduction from an higher external component. So we have to see where the external component cost will go in the future. But what we can control is actually performing very well. Now, when we have enough visibility and we have the time to include that cost increase",
+   "parts": [
+    {
+     "t0_ms": 1696450,
+     "text": "Yeah, Eric, I would say our cost decline for what we produce,"
+    },
+    {
+     "t0_ms": 1702250,
+     "text": "so as a media,"
+    },
+    {
+     "t0_ms": 1703450,
+     "text": "is continuing to be very, very strong."
+    },
+    {
+     "t0_ms": 1705350,
+     "text": "So we are happy with that."
+    },
+    {
+     "t0_ms": 1706750,
+     "text": "The cost of the external component, as you know,"
+    },
+    {
+     "t0_ms": 1710550,
+     "text": "compared to a year ago,"
+    },
+    {
+     "t0_ms": 1712350,
+     "text": "is now much higher."
+    },
+    {
+     "t0_ms": 1713650,
+     "text": "And therefore,"
+    },
+    {
+     "t0_ms": 1715250,
+     "text": "nobody has at least a partial offset"
+    },
+    {
+     "t0_ms": 1717650,
+     "text": "of our internal cost reduction"
+    },
+    {
+     "t0_ms": 1719850,
+     "text": "from an higher external component."
+    },
+    {
+     "t0_ms": 1721950,
+     "text": "So we have to see where the external component cost"
+    },
+    {
+     "t0_ms": 1725850,
+     "text": "will go in the future."
+    },
+    {
+     "t0_ms": 1728050,
+     "text": "But what we can control"
+    },
+    {
+     "t0_ms": 1730050,
+     "text": "is actually performing very well."
+    },
+    {
+     "t0_ms": 1732650,
+     "text": "Now, when we have enough visibility"
+    },
+    {
+     "t0_ms": 1735450,
+     "text": "and we have the time to include that cost increase"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1740150,
+   "t1_ms": 1758350,
+   "speaker": "Management",
+   "text": "for the external component into our pricing, of course, we do it. And this is also why we have seen a little bit higher cost increase, sorry, price increase to our customers in the current quarter. But sometimes it's not so predictable. So we need a little bit of time to adjust.",
+   "parts": [
+    {
+     "t0_ms": 1740150,
+     "text": "for the external component into our pricing,"
+    },
+    {
+     "t0_ms": 1743050,
+     "text": "of course, we do it."
+    },
+    {
+     "t0_ms": 1744250,
+     "text": "And this is also why we have seen"
+    },
+    {
+     "t0_ms": 1746050,
+     "text": "a little bit higher cost increase,"
+    },
+    {
+     "t0_ms": 1748850,
+     "text": "sorry, price increase to our customers"
+    },
+    {
+     "t0_ms": 1751550,
+     "text": "in the current quarter."
+    },
+    {
+     "t0_ms": 1753550,
+     "text": "But sometimes it's not so predictable."
+    },
+    {
+     "t0_ms": 1756550,
+     "text": "So we need a little bit of time to adjust."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1758550,
+   "t1_ms": 1794520,
+   "speaker": "Analyst",
+   "text": "Super. Thank you very much for the feedback there. And then, Dave, maybe just going back to CJ's question at the top of the Q&A, I just want to make sure I understand the kind of product staging dynamics in the September quarter. I just want to make sure, you know, there's no kind of right tail risk here in terms of any, you know, yield issues that we need to be thinking about, anything in terms of data center readiness. I just want to make sure there's none of those that are impacting. And this was generally just product transition leading to the slower sequential exabyte growth as opposed to anything. Maybe that would be a little more concerning. Thank you so much.",
+   "parts": [
+    {
+     "t0_ms": 1758550,
+     "text": "Super."
+    },
+    {
+     "t0_ms": 1762320,
+     "text": "Thank you very much for the feedback there."
+    },
+    {
+     "t0_ms": 1763720,
+     "text": "And then, Dave, maybe just going back to CJ's question"
+    },
+    {
+     "t0_ms": 1766320,
+     "text": "at the top of the Q&A,"
+    },
+    {
+     "t0_ms": 1767720,
+     "text": "I just want to make sure I understand"
+    },
+    {
+     "t0_ms": 1768920,
+     "text": "the kind of product staging dynamics"
+    },
+    {
+     "t0_ms": 1771720,
+     "text": "in the September quarter."
+    },
+    {
+     "t0_ms": 1773720,
+     "text": "I just want to make sure, you know,"
+    },
+    {
+     "t0_ms": 1775520,
+     "text": "there's no kind of right tail risk here"
+    },
+    {
+     "t0_ms": 1777320,
+     "text": "in terms of any, you know, yield issues"
+    },
+    {
+     "t0_ms": 1779720,
+     "text": "that we need to be thinking about,"
+    },
+    {
+     "t0_ms": 1780920,
+     "text": "anything in terms of data center readiness."
+    },
+    {
+     "t0_ms": 1783020,
+     "text": "I just want to make sure there's none of those"
+    },
+    {
+     "t0_ms": 1784720,
+     "text": "that are impacting."
+    },
+    {
+     "t0_ms": 1785720,
+     "text": "And this was generally just product transition"
+    },
+    {
+     "t0_ms": 1788720,
+     "text": "leading to the slower sequential exabyte growth"
+    },
+    {
+     "t0_ms": 1790920,
+     "text": "as opposed to anything."
+    },
+    {
+     "t0_ms": 1792120,
+     "text": "Maybe that would be a little more concerning."
+    },
+    {
+     "t0_ms": 1793720,
+     "text": "Thank you so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1794720,
+   "t1_ms": 1808900,
+   "speaker": "Management",
+   "text": "Yeah, there's none. The big step up in the June quarter, it tapered off a little bit in the September quarter, just timing, and then it'll be another big step up in the December quarter. And then, you know, as we get through these product transitions, we'll see exabyte growth.",
+   "parts": [
+    {
+     "t0_ms": 1794720,
+     "text": "Yeah, there's none."
+    },
+    {
+     "t0_ms": 1796720,
+     "text": "The big step up in the June quarter,"
+    },
+    {
+     "t0_ms": 1799120,
+     "text": "it tapered off a little bit in the September quarter,"
+    },
+    {
+     "t0_ms": 1801220,
+     "text": "just timing, and then it'll be another big step"
+    },
+    {
+     "t0_ms": 1803320,
+     "text": "up in the December quarter."
+    },
+    {
+     "t0_ms": 1804320,
+     "text": "And then, you know, as we get through"
+    },
+    {
+     "t0_ms": 1805720,
+     "text": "these product transitions, we'll see exabyte growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1809100,
+   "t1_ms": 1810500,
+   "speaker": "Analyst",
+   "text": "Awesome, guys. Thanks so much. Good luck.",
+   "parts": [
+    {
+     "t0_ms": 1809100,
+     "text": "Awesome, guys. Thanks so much. Good luck."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1812200,
+   "t1_ms": 1816600,
+   "speaker": "Operator",
+   "text": "The next question is from Amit Deryanani with Evercore. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1812200,
+     "text": "The next question is from Amit Deryanani with Evercore."
+    },
+    {
+     "t0_ms": 1815600,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1817600,
+   "t1_ms": 1851400,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thanks for taking my question. I guess the first one was really, you folks reiterated the 4% to 6% of revenue for CapEx in fiscal 27. Is that a sustainable framework to support mid-20% exabyte growth longer term beyond fiscal 27 as well, especially given the fact you need, you know, you talked about longer tooling needed to offset the longer hammer manufacturing cycles. Could you talk about, like, what the right framework would be longer term? And to the extent you need additional heads or media capacity, what is the kind of way between building it organically versus acquiring it?",
+   "parts": [
+    {
+     "t0_ms": 1817600,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 1819200,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 1820400,
+     "text": "I guess the first one was really,"
+    },
+    {
+     "t0_ms": 1821800,
+     "text": "you folks reiterated the 4% to 6% of revenue"
+    },
+    {
+     "t0_ms": 1825000,
+     "text": "for CapEx in fiscal 27."
+    },
+    {
+     "t0_ms": 1827200,
+     "text": "Is that a sustainable framework to support"
+    },
+    {
+     "t0_ms": 1829800,
+     "text": "mid-20% exabyte growth longer term"
+    },
+    {
+     "t0_ms": 1832400,
+     "text": "beyond fiscal 27 as well,"
+    },
+    {
+     "t0_ms": 1834000,
+     "text": "especially given the fact you need, you know,"
+    },
+    {
+     "t0_ms": 1835800,
+     "text": "you talked about longer tooling needed"
+    },
+    {
+     "t0_ms": 1838600,
+     "text": "to offset the longer hammer manufacturing cycles."
+    },
+    {
+     "t0_ms": 1841000,
+     "text": "Could you talk about, like, what the right framework"
+    },
+    {
+     "t0_ms": 1843000,
+     "text": "would be longer term?"
+    },
+    {
+     "t0_ms": 1844000,
+     "text": "And to the extent you need additional heads"
+    },
+    {
+     "t0_ms": 1846000,
+     "text": "or media capacity,"
+    },
+    {
+     "t0_ms": 1847600,
+     "text": "what is the kind of way between building it organically"
+    },
+    {
+     "t0_ms": 1850400,
+     "text": "versus acquiring it?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1853070,
+   "t1_ms": 1897870,
+   "speaker": "Management",
+   "text": "To first order, there's no way we can acquire the hammer technology, the leading edge technology. So we have to do that ourselves, exactly to your point. Yes, we see that 4% to 6% model being plenty for us to continue to grow according to our plans. Actually, the latest acquisition of new tools is really helping us drive aerial density because we get to buy a lot of remarkable new tools that are maybe more capable than what we're replacing in the factory. So that's cause for optimism. We are using some legacy technology from outside as on a case by case basis that will help us through some,",
+   "parts": [
+    {
+     "t0_ms": 1853070,
+     "text": "To first order, there's no way we can acquire"
+    },
+    {
+     "t0_ms": 1858470,
+     "text": "the hammer technology, the leading edge technology."
+    },
+    {
+     "t0_ms": 1861070,
+     "text": "So we have to do that ourselves, exactly to your point."
+    },
+    {
+     "t0_ms": 1863670,
+     "text": "Yes, we see that 4% to 6% model being plenty for us"
+    },
+    {
+     "t0_ms": 1868270,
+     "text": "to continue to grow according to our plans."
+    },
+    {
+     "t0_ms": 1870470,
+     "text": "Actually, the latest acquisition of new tools"
+    },
+    {
+     "t0_ms": 1875670,
+     "text": "is really helping us drive aerial density because we get to buy"
+    },
+    {
+     "t0_ms": 1879070,
+     "text": "a lot of remarkable new tools that are maybe more capable"
+    },
+    {
+     "t0_ms": 1883870,
+     "text": "than what we're replacing in the factory."
+    },
+    {
+     "t0_ms": 1885470,
+     "text": "So that's cause for optimism."
+    },
+    {
+     "t0_ms": 1888670,
+     "text": "We are using some legacy technology from outside"
+    },
+    {
+     "t0_ms": 1894670,
+     "text": "as on a case by case basis that will help us through some,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1898070,
+   "t1_ms": 1931100,
+   "speaker": "Management",
+   "text": "help us pivot some of our manufacturing technology to hammer. But I definitely think that 25% is the target for our exabyte growth. We can do that predominantly through the aerial density transitions that we're driving. Some of those components get, we've talked about this in the last couple of quarters, some of those components get a little bit longer time in the factory. And so therefore we have to adjust our output and accordingly, but we can do that all within the 4% to 6%.",
+   "parts": [
+    {
+     "t0_ms": 1898070,
+     "text": "help us pivot some of our manufacturing technology to hammer."
+    },
+    {
+     "t0_ms": 1903470,
+     "text": "But I definitely think that 25% is the target for our exabyte growth."
+    },
+    {
+     "t0_ms": 1909070,
+     "text": "We can do that predominantly through the aerial density transitions"
+    },
+    {
+     "t0_ms": 1913470,
+     "text": "that we're driving."
+    },
+    {
+     "t0_ms": 1914470,
+     "text": "Some of those components get, we've talked about this"
+    },
+    {
+     "t0_ms": 1917270,
+     "text": "in the last couple of quarters, some of those components"
+    },
+    {
+     "t0_ms": 1919670,
+     "text": "get a little bit longer time in the factory."
+    },
+    {
+     "t0_ms": 1921870,
+     "text": "And so therefore we have to adjust our output and accordingly,"
+    },
+    {
+     "t0_ms": 1926870,
+     "text": "but we can do that all within the 4% to 6%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1931300,
+   "t1_ms": 1952020,
+   "speaker": "Analyst",
+   "text": "That's helpful. And then you as hammer ramps, especially with Mosaic 4 becoming a bigger percent of exabyte for you folks, what's the right way to think about cost per bit, cost per bit decline? As you get through that transition, I get that the 4% to 6% range right now isn't the optimal one, but I'm just curious as hammer ramps up for you, what's the right cost per bit decline long-term?",
+   "parts": [
+    {
+     "t0_ms": 1931300,
+     "text": "That's helpful."
+    },
+    {
+     "t0_ms": 1932100,
+     "text": "And then you as hammer ramps, especially with Mosaic 4"
+    },
+    {
+     "t0_ms": 1934900,
+     "text": "becoming a bigger percent of exabyte for you folks,"
+    },
+    {
+     "t0_ms": 1937300,
+     "text": "what's the right way to think about cost per bit, cost per bit decline?"
+    },
+    {
+     "t0_ms": 1940900,
+     "text": "As you get through that transition,"
+    },
+    {
+     "t0_ms": 1942900,
+     "text": "I get that the 4% to 6% range right now isn't the optimal one,"
+    },
+    {
+     "t0_ms": 1946300,
+     "text": "but I'm just curious as hammer ramps up for you,"
+    },
+    {
+     "t0_ms": 1948100,
+     "text": "what's the right cost per bit decline long-term?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1952220,
+   "t1_ms": 1992420,
+   "speaker": "Management",
+   "text": "Yes, as I said before, the cost that for the components that we produce, of course, is continuing to decline. And when you go from only 3 terabytes per disk to a 4 terabytes per disk, you have a major impact in term of cost per terabyte decline. As I said before, right now, there is also an impact from external components. So you need to separate the two between internal efficiency and technology improvement that is driving cost reduction and the overall cost per terabyte that is, of course, also impacted by the external supply chain and external component cost.",
+   "parts": [
+    {
+     "t0_ms": 1952220,
+     "text": "Yes, as I said before, the cost that for the components that we produce,"
+    },
+    {
+     "t0_ms": 1958420,
+     "text": "of course, is continuing to decline."
+    },
+    {
+     "t0_ms": 1960220,
+     "text": "And when you go from only 3 terabytes per disk to a 4 terabytes per disk,"
+    },
+    {
+     "t0_ms": 1964820,
+     "text": "you have a major impact in term of cost per terabyte decline."
+    },
+    {
+     "t0_ms": 1970020,
+     "text": "As I said before, right now,"
+    },
+    {
+     "t0_ms": 1971820,
+     "text": "there is also an impact from external components."
+    },
+    {
+     "t0_ms": 1976020,
+     "text": "So you need to separate the two between internal efficiency"
+    },
+    {
+     "t0_ms": 1980220,
+     "text": "and technology improvement that is driving cost reduction"
+    },
+    {
+     "t0_ms": 1984620,
+     "text": "and the overall cost per terabyte that is, of course,"
+    },
+    {
+     "t0_ms": 1987820,
+     "text": "also impacted by the external supply chain and external component cost."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1992620,
+   "t1_ms": 2031620,
+   "speaker": "Management",
+   "text": "So you have seen a very good decline in the prior quarter, a little bit less in the September quarter. So I would say we need to understand the various drivers for the different components because we buy a lot of different components externally. But overall, when you go even longer term, the technology is what is driving cost per terabyte. And having a technology that continues to generate more terabytes per disk is exactly the way that we want to follow in order to reduce the cost per terabyte and improve our profitability.",
+   "parts": [
+    {
+     "t0_ms": 1992620,
+     "text": "So you have seen a very good decline in the prior quarter,"
+    },
+    {
+     "t0_ms": 1998220,
+     "text": "a little bit less in the September quarter."
+    },
+    {
+     "t0_ms": 2001820,
+     "text": "So I would say we need to understand the various drivers"
+    },
+    {
+     "t0_ms": 2006420,
+     "text": "for the different components because we buy a lot of different components externally."
+    },
+    {
+     "t0_ms": 2010620,
+     "text": "But overall, when you go even longer term,"
+    },
+    {
+     "t0_ms": 2014220,
+     "text": "the technology is what is driving cost per terabyte."
+    },
+    {
+     "t0_ms": 2018220,
+     "text": "And having a technology that continues to generate more terabytes per disk"
+    },
+    {
+     "t0_ms": 2025020,
+     "text": "is exactly the way that we want to follow in order to reduce the cost per terabyte"
+    },
+    {
+     "t0_ms": 2030220,
+     "text": "and improve our profitability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2033390,
+   "t1_ms": 2034390,
+   "speaker": "Analyst",
+   "text": "Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 2033390,
+     "text": "Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2034590,
+   "t1_ms": 2036590,
+   "speaker": "Management",
+   "text": "Thanks, Will.",
+   "parts": [
+    {
+     "t0_ms": 2034590,
+     "text": "Thanks, Will."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2036790,
+   "t1_ms": 2041190,
+   "speaker": "Operator",
+   "text": "The next question is from Krish Sankar with TD Cowen. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2036790,
+     "text": "The next question is from Krish Sankar with TD Cowen."
+    },
+    {
+     "t0_ms": 2040190,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2041390,
+   "t1_ms": 2086389,
+   "speaker": "Management",
+   "text": "Hi. Thanks for the question. Dave or John, I just want to follow up on the earlier question. I understand the dynamics of the cost with the product transition. But if we just look at it from a high level, you know, 50% of exabytes exiting the series is going to be hammered, which is growth margin accreted. Unlike your peer, you're sticking to 10 platters, not going to 12 or 14, which in theory, I think you said increases cost. So I was wondering, why are the cost downs being even better going forward? Or would you consider moving beyond the 10 platters? Was there any technical reason for not doing it? And then add a follow up. I'll start at the end. There's no technical reason for not moving beyond 10 platters. I mean, I think we like the platform and we get leverage, cost leverage, to your point.",
+   "parts": [
+    {
+     "t0_ms": 2041390,
+     "text": "Hi. Thanks for the question."
+    },
+    {
+     "t0_ms": 2043790,
+     "text": "Dave or John, I just want to follow up on the earlier question."
+    },
+    {
+     "t0_ms": 2046390,
+     "text": "I understand the dynamics of the cost with the product transition."
+    },
+    {
+     "t0_ms": 2050590,
+     "text": "But if we just look at it from a high level,"
+    },
+    {
+     "t0_ms": 2052790,
+     "text": "you know, 50% of exabytes exiting the series is going to be hammered,"
+    },
+    {
+     "t0_ms": 2056590,
+     "text": "which is growth margin accreted."
+    },
+    {
+     "t0_ms": 2058190,
+     "text": "Unlike your peer, you're sticking to 10 platters, not going to 12 or 14,"
+    },
+    {
+     "t0_ms": 2062590,
+     "text": "which in theory, I think you said increases cost."
+    },
+    {
+     "t0_ms": 2065590,
+     "text": "So I was wondering, why are the cost downs being even better going forward?"
+    },
+    {
+     "t0_ms": 2069590,
+     "text": "Or would you consider moving beyond the 10 platters?"
+    },
+    {
+     "t0_ms": 2073389,
+     "text": "Was there any technical reason for not doing it?"
+    },
+    {
+     "t0_ms": 2075590,
+     "text": "And then add a follow up."
+    },
+    {
+     "t0_ms": 2076790,
+     "text": "I'll start at the end."
+    },
+    {
+     "t0_ms": 2079590,
+     "text": "There's no technical reason for not moving beyond 10 platters."
+    },
+    {
+     "t0_ms": 2082590,
+     "text": "I mean, I think we like the platform and we get leverage, cost leverage, to your point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2086590,
+   "t1_ms": 2126590,
+   "speaker": "Management",
+   "text": "Going from product generation to product generation, we don't have to transition the mechanical piece parts and pay for new tooling and things like that. So we know the platform. We like it. We're going to stay on it. But there's no technical reason why we can't start adding platters. Actually, from a qualification perspective, it's much simpler, especially with our customers, to just qualify one thing that they don't have to, you know, go through any new risks on except for just the technology transition. They don't have to change the dynamics of how many heads and discs are in the drive. From my perspective, I probably should have said this on one of the earlier comments as well.",
+   "parts": [
+    {
+     "t0_ms": 2086590,
+     "text": "Going from product generation to product generation, we don't have to transition"
+    },
+    {
+     "t0_ms": 2091790,
+     "text": "the mechanical piece parts and pay for new tooling and things like that."
+    },
+    {
+     "t0_ms": 2094989,
+     "text": "So we know the platform. We like it."
+    },
+    {
+     "t0_ms": 2096989,
+     "text": "We're going to stay on it."
+    },
+    {
+     "t0_ms": 2098390,
+     "text": "But there's no technical reason why we can't start adding platters."
+    },
+    {
+     "t0_ms": 2101790,
+     "text": "Actually, from a qualification perspective, it's much simpler,"
+    },
+    {
+     "t0_ms": 2105990,
+     "text": "especially with our customers, to just qualify one thing that they don't have to,"
+    },
+    {
+     "t0_ms": 2110790,
+     "text": "you know, go through any new risks on except for just the technology transition."
+    },
+    {
+     "t0_ms": 2114790,
+     "text": "They don't have to change the dynamics of how many heads and discs are in the drive."
+    },
+    {
+     "t0_ms": 2120590,
+     "text": "From my perspective, I probably should have said this on one of the earlier comments as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2126790,
+   "t1_ms": 2170220,
+   "speaker": "Management",
+   "text": "There's not a significant cost increase in the hammer technology from one generation to the other. So the cost per terabyte takedown, you can pretty much calculate it if you go from 4 to 5, for example. And we are driving 5 very, very hard right now. Got it. Well, there's a quick follow up. I understand you're maintaining your capital intensity 4 to 6 percent. You know, obviously your peers talk about going into like 8 percent in the next couple of years. So obviously the distant third player talking about adding capacity in Japan. So I'm just wondering, is the 4 to 6 percent still a good buggy to use for the next few years? Or should we worry about any potential share loss?",
+   "parts": [
+    {
+     "t0_ms": 2126790,
+     "text": "There's not a significant cost increase in the hammer technology from one generation to the other."
+    },
+    {
+     "t0_ms": 2134790,
+     "text": "So the cost per terabyte takedown, you can pretty much calculate it if you go from 4 to 5, for example."
+    },
+    {
+     "t0_ms": 2140790,
+     "text": "And we are driving 5 very, very hard right now."
+    },
+    {
+     "t0_ms": 2146220,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 2147220,
+     "text": "Well, there's a quick follow up."
+    },
+    {
+     "t0_ms": 2148220,
+     "text": "I understand you're maintaining your capital intensity 4 to 6 percent."
+    },
+    {
+     "t0_ms": 2152020,
+     "text": "You know, obviously your peers talk about going into like 8 percent in the next couple of years."
+    },
+    {
+     "t0_ms": 2157220,
+     "text": "So obviously the distant third player talking about adding capacity in Japan."
+    },
+    {
+     "t0_ms": 2161420,
+     "text": "So I'm just wondering, is the 4 to 6 percent still a good buggy to use for the next few years?"
+    },
+    {
+     "t0_ms": 2167420,
+     "text": "Or should we worry about any potential share loss?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2170420,
+   "t1_ms": 2214220,
+   "speaker": "Management",
+   "text": "Or is the demand so much greater in supply that it should not matter? Well, I don't really speculate on what our competitors' plans are. I'll just say relative to ours, I think 4 to 6 percent is just fine. You know, I have a lot of respect for everybody in the industry, but their technology solutions may differ from ours. And you may see that over the next few years. From our perspective, demand remains really strong. And from a supply side, we continue to believe that bringing meaningful HDD capacity to market is a really complex process that requires substantial investment in R&D and technology. It's an intricate supply chain balance.",
+   "parts": [
+    {
+     "t0_ms": 2170420,
+     "text": "Or is the demand so much greater in supply that it should not matter?"
+    },
+    {
+     "t0_ms": 2174220,
+     "text": "Well, I don't really speculate on what our competitors' plans are."
+    },
+    {
+     "t0_ms": 2178420,
+     "text": "I'll just say relative to ours, I think 4 to 6 percent is just fine."
+    },
+    {
+     "t0_ms": 2182220,
+     "text": "You know, I have a lot of respect for everybody in the industry, but their technology solutions may differ from ours."
+    },
+    {
+     "t0_ms": 2188420,
+     "text": "And you may see that over the next few years."
+    },
+    {
+     "t0_ms": 2191420,
+     "text": "From our perspective, demand remains really strong."
+    },
+    {
+     "t0_ms": 2195620,
+     "text": "And from a supply side, we continue to believe that bringing meaningful HDD capacity to market is a really complex process that requires substantial investment in R&D and technology."
+    },
+    {
+     "t0_ms": 2212220,
+     "text": "It's an intricate supply chain balance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2214420,
+   "t1_ms": 2257820,
+   "speaker": "Management",
+   "text": "And, you know, the idea of just plugging in a few machines, I mean, it's orders of magnitude more difficult than that. It really requires tight coordination throughout our supply chain. So most of our, as I said in the prepared remarks, our nearline Exabyte supplies are already allocated through calendar year 2028. And we're having conversations much further out than that. So we have very, a lot of competition. And we have a lot of confidence that our customers are going to be there. And we believe supply will remain fairly tight for our products over that period. So we're just going to keep focusing on our technology roadmap and try to get the products out and up, meet exactly what the customers need when they do.",
+   "parts": [
+    {
+     "t0_ms": 2214420,
+     "text": "And, you know, the idea of just plugging in a few machines, I mean, it's orders of magnitude more difficult than that."
+    },
+    {
+     "t0_ms": 2221420,
+     "text": "It really requires tight coordination throughout our supply chain."
+    },
+    {
+     "t0_ms": 2224620,
+     "text": "So most of our, as I said in the prepared remarks, our nearline Exabyte supplies are already allocated through calendar year 2028."
+    },
+    {
+     "t0_ms": 2233820,
+     "text": "And we're having conversations much further out than that."
+    },
+    {
+     "t0_ms": 2237820,
+     "text": "So we have very, a lot of competition."
+    },
+    {
+     "t0_ms": 2242020,
+     "text": "And we have a lot of confidence that our customers are going to be there."
+    },
+    {
+     "t0_ms": 2244620,
+     "text": "And we believe supply will remain fairly tight for our products over that period."
+    },
+    {
+     "t0_ms": 2249020,
+     "text": "So we're just going to keep focusing on our technology roadmap and try to get the products out and up, meet exactly what the customers need when they do."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2258020,
+   "t1_ms": 2262170,
+   "speaker": "Management",
+   "text": "And I'm not really worried about anything else. Thanks a lot, Dave.",
+   "parts": [
+    {
+     "t0_ms": 2258020,
+     "text": "And I'm not really worried about anything else."
+    },
+    {
+     "t0_ms": 2261170,
+     "text": "Thanks a lot, Dave."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2264670,
+   "t1_ms": 2268670,
+   "speaker": "Operator",
+   "text": "The next question is from Asya Merchant with Citi. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2264670,
+     "text": "The next question is from Asya Merchant with Citi."
+    },
+    {
+     "t0_ms": 2267670,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2268870,
+   "t1_ms": 2290320,
+   "speaker": "Analyst",
+   "text": "Great. Thank you for taking my call. You mentioned a lot about KB cash adoption. And contributing to demand. So, you know, given that, how should we think about, you know, unconstrained demand and the impact to Exabyte demand given just this trend that you're seeing on KB caching? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2268870,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2270270,
+     "text": "Thank you for taking my call."
+    },
+    {
+     "t0_ms": 2271670,
+     "text": "You mentioned a lot about KB cash adoption."
+    },
+    {
+     "t0_ms": 2275270,
+     "text": "And contributing to demand."
+    },
+    {
+     "t0_ms": 2276670,
+     "text": "So, you know, given that, how should we think about, you know, unconstrained demand and the impact to Exabyte demand given just this trend that you're seeing on KB caching?"
+    },
+    {
+     "t0_ms": 2288270,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2290520,
+   "t1_ms": 2320520,
+   "speaker": "Management",
+   "text": "Yeah, thanks. I do think we are watching a lot of new technologies come out that are increasing the value of data very quickly. And so, and, you know, I know a lot of people toss around the letters AI. It gets really confusing. What I would say is the data sphere is growing leaps and bounds anyway. Just look at video on the internet or, you know, video analytics, for example, in places like our factory. It's growing very quickly. And then AI is an accelerator of that dynamic.",
+   "parts": [
+    {
+     "t0_ms": 2290520,
+     "text": "Yeah, thanks."
+    },
+    {
+     "t0_ms": 2291720,
+     "text": "I do think we are watching a lot of new technologies come out that are increasing the value of data very quickly."
+    },
+    {
+     "t0_ms": 2300720,
+     "text": "And so, and, you know, I know a lot of people toss around the letters AI."
+    },
+    {
+     "t0_ms": 2305320,
+     "text": "It gets really confusing."
+    },
+    {
+     "t0_ms": 2306520,
+     "text": "What I would say is the data sphere is growing leaps and bounds anyway."
+    },
+    {
+     "t0_ms": 2310720,
+     "text": "Just look at video on the internet or, you know, video analytics, for example, in places like our factory."
+    },
+    {
+     "t0_ms": 2316720,
+     "text": "It's growing very quickly."
+    },
+    {
+     "t0_ms": 2317720,
+     "text": "And then AI is an accelerator of that dynamic."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2320720,
+   "t1_ms": 2365320,
+   "speaker": "Management",
+   "text": "The ability to take data from the application layer and move it down to the storage layer and then promote data from the storage layer back up, we've never seen the systems be as efficient as they are. Right now with software not in the way with, you know, compute technologies that are much faster than they were in the past. And architecturally, things like the KB cache plug between those two layers only accelerates it even faster. So, very excited about that. I don't think any of us has ever lived in a world where things are this efficient above the storage layers. And I do think that'll drive a lot of future demand for us.",
+   "parts": [
+    {
+     "t0_ms": 2320720,
+     "text": "The ability to take data from the application layer and move it down to the storage layer and then promote data from the storage layer back up, we've never seen the systems be as efficient as they are."
+    },
+    {
+     "t0_ms": 2336520,
+     "text": "Right now with software not in the way with, you know, compute technologies that are much faster than they were in the past."
+    },
+    {
+     "t0_ms": 2345720,
+     "text": "And architecturally, things like the KB cache plug between those two layers only accelerates it even faster."
+    },
+    {
+     "t0_ms": 2353720,
+     "text": "So, very excited about that."
+    },
+    {
+     "t0_ms": 2355920,
+     "text": "I don't think any of us has ever lived in a world where things are this efficient above the storage layers."
+    },
+    {
+     "t0_ms": 2361520,
+     "text": "And I do think that'll drive a lot of future demand for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2365320,
+   "t1_ms": 2396320,
+   "speaker": "Management",
+   "text": "Yeah, we are seeing demand for storage in the different parts of the cloud growing very rapidly, even a little bit faster than what we were expecting. So, as we were discussing before, demand is stronger and stronger. I'll say the supply-demand gap is probably growing at this point. But as we said, we are really focused on our technology transition and we will ramp more of our 40 terabyte drive in the next few quarters. And this is how we want it. So, we're not going to address demand.",
+   "parts": [
+    {
+     "t0_ms": 2365320,
+     "text": "Yeah, we are seeing demand for storage in the different parts of the cloud growing very rapidly, even a little bit faster than what we were expecting."
+    },
+    {
+     "t0_ms": 2375320,
+     "text": "So, as we were discussing before, demand is stronger and stronger."
+    },
+    {
+     "t0_ms": 2379520,
+     "text": "I'll say the supply-demand gap is probably growing at this point."
+    },
+    {
+     "t0_ms": 2384920,
+     "text": "But as we said, we are really focused on our technology transition and we will ramp more of our 40 terabyte drive in the next few quarters."
+    },
+    {
+     "t0_ms": 2394320,
+     "text": "And this is how we want it."
+    },
+    {
+     "t0_ms": 2395320,
+     "text": "So, we're not going to address demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2396520,
+   "t1_ms": 2412630,
+   "speaker": "Analyst",
+   "text": "Okay. And just as a follow-up, could I just even ask about physical AI? I know that's probably a little bit longer term. But are you seeing any of that demand currently translate into, you know, meaningful inflections for your exabytes? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2396520,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 2399030,
+     "text": "And just as a follow-up, could I just even ask about physical AI?"
+    },
+    {
+     "t0_ms": 2401230,
+     "text": "I know that's probably a little bit longer term."
+    },
+    {
+     "t0_ms": 2403430,
+     "text": "But are you seeing any of that demand currently translate into, you know, meaningful inflections for your exabytes?"
+    },
+    {
+     "t0_ms": 2411630,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2412830,
+   "t1_ms": 2454430,
+   "speaker": "Management",
+   "text": "I would say not yet directly, but we're hopeful. I mean, we've had conversations for a long time with autonomous vehicles companies and people that are moving data around in the world. And the interesting thing to us about physical AI is not only the need to store the data for training, but it's also the need to store the data to make sure you've made the right decision. And that storage will probably be closer to where the data is actually created, which is the edge. So, there's maybe new products that are coming on the horizon. It's still very early days in this, but I think there's a lot of innovative companies out there driving for value-add solutions out at the edge.",
+   "parts": [
+    {
+     "t0_ms": 2412830,
+     "text": "I would say not yet directly, but we're hopeful."
+    },
+    {
+     "t0_ms": 2417030,
+     "text": "I mean, we've had conversations for a long time with autonomous vehicles companies and people that are moving data around in the world."
+    },
+    {
+     "t0_ms": 2425430,
+     "text": "And the interesting thing to us about physical AI is not only the need to store the data for training,"
+    },
+    {
+     "t0_ms": 2432630,
+     "text": "but it's also the need to store the data to make sure you've made the right decision."
+    },
+    {
+     "t0_ms": 2436430,
+     "text": "And that storage will probably be closer to where the data is actually created, which is the edge."
+    },
+    {
+     "t0_ms": 2442830,
+     "text": "So, there's maybe new products that are coming on the horizon."
+    },
+    {
+     "t0_ms": 2445830,
+     "text": "It's still very early days in this, but I think there's a lot of innovative companies out there driving for value-add solutions out at the edge."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2454430,
+   "t1_ms": 2460710,
+   "speaker": "Management",
+   "text": "And we're watching them carefully, you know, be a further driver of storage that we can use.",
+   "parts": [
+    {
+     "t0_ms": 2454430,
+     "text": "And we're watching them carefully, you know, be a further driver of storage that we can use."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2468080,
+   "t1_ms": 2473320,
+   "speaker": "Operator",
+   "text": "The next question is from Mark Newman with Bernstein. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2468080,
+     "text": "The next question is from Mark Newman with Bernstein."
+    },
+    {
+     "t0_ms": 2470480,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2473520,
+   "t1_ms": 2515920,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking my question. Congrats on the numbers. I just want to look a little bit deeper at this price and cost to gross margin. I mean, you've had another very, very strong order of gross margin appreciation. And it's obviously baked into the guidance as well. But when I look at the price, it seems to be accelerating significantly from what was something like a mid-single-digit Q&Q to something like a mid-teens Q&Q this September quarter. And I mean, while your cost, still slightly confused about that, appears to be actually up Q&Q,",
+   "parts": [
+    {
+     "t0_ms": 2473520,
+     "text": "Yeah, thanks for taking my question."
+    },
+    {
+     "t0_ms": 2475920,
+     "text": "Congrats on the numbers."
+    },
+    {
+     "t0_ms": 2477520,
+     "text": "I just want to look a little bit deeper at this price and cost to gross margin."
+    },
+    {
+     "t0_ms": 2482920,
+     "text": "I mean, you've had another very, very strong order of gross margin appreciation."
+    },
+    {
+     "t0_ms": 2488520,
+     "text": "And it's obviously baked into the guidance as well."
+    },
+    {
+     "t0_ms": 2492520,
+     "text": "But when I look at the price,"
+    },
+    {
+     "t0_ms": 2494120,
+     "text": "it seems to be accelerating significantly from what was something like a mid-single-digit Q&Q to something like a mid-teens Q&Q this September quarter."
+    },
+    {
+     "t0_ms": 2507320,
+     "text": "And I mean, while your cost, still slightly confused about that, appears to be actually up Q&Q,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2516120,
+   "t1_ms": 2543060,
+   "speaker": "Analyst",
+   "text": "you did point out about some of the component costs coming up. I understand that could be part of it. But is there anything else that we should be aware of, perhaps on the mix or something else that may have changed things, that may have boosted the price or hurt the cost temporarily that we should be aware of? And I have one follow up, thanks.",
+   "parts": [
+    {
+     "t0_ms": 2516120,
+     "text": "you did point out about some of the component costs coming up."
+    },
+    {
+     "t0_ms": 2521320,
+     "text": "I understand that could be part of it."
+    },
+    {
+     "t0_ms": 2523120,
+     "text": "But is there anything else"
+    },
+    {
+     "t0_ms": 2524120,
+     "text": "that we should be aware of, perhaps on the mix or something else that may have changed things,"
+    },
+    {
+     "t0_ms": 2531320,
+     "text": "that may have boosted the price or hurt the cost temporarily that we should be aware of?"
+    },
+    {
+     "t0_ms": 2539520,
+     "text": "And I have one follow up, thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2543260,
+   "t1_ms": 2585460,
+   "speaker": "Management",
+   "text": "No, thanks, Mark. So the first thing I would always say is that I'm really happy with the bottom line. We continue to drive the operating income really well, the free cash flow really well. As you get up into things like gross margin and then above its price, there could be some in-quarter dynamics going on about our product transitions. I've mentioned scrap already. As we drive these hard product transitions, we have to incur some of that scrap. And we actually incur a little bit of manufacturing, I'll call it lossiness, when that happens as well. The yields on the product transition may not be where we want. We go take a quarter or two and we go beat those back into what the old yields were.",
+   "parts": [
+    {
+     "t0_ms": 2543260,
+     "text": "No, thanks, Mark."
+    },
+    {
+     "t0_ms": 2544060,
+     "text": "So the first thing I would always say is that I'm really happy with the bottom line."
+    },
+    {
+     "t0_ms": 2548260,
+     "text": "We continue to drive the operating income really well, the free cash flow really well."
+    },
+    {
+     "t0_ms": 2552660,
+     "text": "As you get up into things like gross margin"
+    },
+    {
+     "t0_ms": 2555660,
+     "text": "and then above its price,"
+    },
+    {
+     "t0_ms": 2558460,
+     "text": "there could be some in-quarter dynamics going on about our product transitions."
+    },
+    {
+     "t0_ms": 2562460,
+     "text": "I've mentioned scrap already."
+    },
+    {
+     "t0_ms": 2564460,
+     "text": "As we drive these hard product transitions, we have to incur some of that scrap."
+    },
+    {
+     "t0_ms": 2568460,
+     "text": "And we actually incur a little bit of manufacturing,"
+    },
+    {
+     "t0_ms": 2571860,
+     "text": "I'll call it lossiness, when that happens as well."
+    },
+    {
+     "t0_ms": 2576660,
+     "text": "The yields on the product transition may not be where we want."
+    },
+    {
+     "t0_ms": 2581660,
+     "text": "We go take a quarter or two and we go beat those back into what the old yields were."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2585660,
+   "t1_ms": 2627460,
+   "speaker": "Management",
+   "text": "So there's a little lost capacity in that. From my perspective, the pricing dynamic is really still about long-term demand. It's not about in-quarter demand, it's about long-term demand. And we're having great conversations with our customers about staging these technologies, making sure that we get through the product transition and that their systems are ready for that product transition as well, because they have to make sure their architecture is ready for the higher capacity. And we have to make sure that we have the right technology drives, and we do that very carefully. And making sure we don't build too early for those transitions, make sure we just time it right.",
+   "parts": [
+    {
+     "t0_ms": 2585660,
+     "text": "So there's a little lost capacity in that."
+    },
+    {
+     "t0_ms": 2590660,
+     "text": "From my perspective, the pricing dynamic is really still about long-term demand."
+    },
+    {
+     "t0_ms": 2598060,
+     "text": "It's not about in-quarter demand, it's about long-term demand."
+    },
+    {
+     "t0_ms": 2600660,
+     "text": "And we're having great conversations with our customers about staging these technologies,"
+    },
+    {
+     "t0_ms": 2605260,
+     "text": "making sure that we get through the product transition"
+    },
+    {
+     "t0_ms": 2608660,
+     "text": "and that their systems are ready for that product transition as well,"
+    },
+    {
+     "t0_ms": 2611860,
+     "text": "because they have to make sure their architecture is ready for the higher capacity."
+    },
+    {
+     "t0_ms": 2615660,
+     "text": "And we have to make sure that we have the right technology drives,"
+    },
+    {
+     "t0_ms": 2618660,
+     "text": "and we do that very carefully."
+    },
+    {
+     "t0_ms": 2621660,
+     "text": "And making sure we don't build too early for those transitions,"
+    },
+    {
+     "t0_ms": 2625660,
+     "text": "make sure we just time it right."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2627660,
+   "t1_ms": 2669990,
+   "speaker": "Management",
+   "text": "It's very important because the size of the supply chains that we have out in the world are enormous. And in order to make sure you're doing what the customers want today, tomorrow, and next year, and the following year, you have to make sure you sync up the number of squared sets that you will. And that's what we're doing with those customers. We're working all of that very hard. And I think that all plays into the pricing and the cost dynamics. Yeah, that's correct. I think pricing and cost dynamics are always somehow correlated. And when we have visibility on some external cost increase, we try to pass that to customers, including that in our pricing.",
+   "parts": [
+    {
+     "t0_ms": 2627660,
+     "text": "It's very important because the size of the supply chains that we have out in the world are enormous."
+    },
+    {
+     "t0_ms": 2635660,
+     "text": "And in order to make sure you're doing what the customers want today, tomorrow, and next year,"
+    },
+    {
+     "t0_ms": 2641660,
+     "text": "and the following year, you have to make sure you sync up the number of squared sets that you will."
+    },
+    {
+     "t0_ms": 2645660,
+     "text": "And that's what we're doing with those customers."
+    },
+    {
+     "t0_ms": 2647660,
+     "text": "We're working all of that very hard."
+    },
+    {
+     "t0_ms": 2649660,
+     "text": "And I think that all plays into the pricing and the cost dynamics."
+    },
+    {
+     "t0_ms": 2655190,
+     "text": "Yeah, that's correct."
+    },
+    {
+     "t0_ms": 2657190,
+     "text": "I think pricing and cost dynamics are always somehow correlated."
+    },
+    {
+     "t0_ms": 2661190,
+     "text": "And when we have visibility on some external cost increase,"
+    },
+    {
+     "t0_ms": 2665190,
+     "text": "we try to pass that to customers, including that in our pricing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2670190,
+   "t1_ms": 2709990,
+   "speaker": "Management",
+   "text": "Sometimes the timing is not immediate because we have contracts in place and we have commitments. But over time, that additional cost from the supply chain, if any, is going to be passed to customers. This is why pricing now is increasing a little bit faster than what we have seen in the past. It's also to cover that additional cost. As I said before, there is nothing unusual internally. Our cost for producing as a media is declining as we were expecting. But there are additional costs. There are additional costs from external components.",
+   "parts": [
+    {
+     "t0_ms": 2670190,
+     "text": "Sometimes the timing is not immediate because we have contracts in place and we have commitments."
+    },
+    {
+     "t0_ms": 2677190,
+     "text": "But over time, that additional cost from the supply chain, if any,"
+    },
+    {
+     "t0_ms": 2682190,
+     "text": "is going to be passed to customers."
+    },
+    {
+     "t0_ms": 2685190,
+     "text": "This is why pricing now is increasing a little bit faster than what we have seen in the past."
+    },
+    {
+     "t0_ms": 2691190,
+     "text": "It's also to cover that additional cost."
+    },
+    {
+     "t0_ms": 2693190,
+     "text": "As I said before, there is nothing unusual internally."
+    },
+    {
+     "t0_ms": 2698190,
+     "text": "Our cost for producing as a media is declining as we were expecting."
+    },
+    {
+     "t0_ms": 2705190,
+     "text": "But there are additional costs."
+    },
+    {
+     "t0_ms": 2707190,
+     "text": "There are additional costs from external components."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2710190,
+   "t1_ms": 2735430,
+   "speaker": "Management",
+   "text": "And as you have said before, the improvement of gross margin is actually accelerating because of pricing more than offset that increasing cost. So I think we are managing this external component cost increase in the right way, in a way that is actually accelerating the profitability of the company.",
+   "parts": [
+    {
+     "t0_ms": 2710190,
+     "text": "And as you have said before, the improvement of gross margin is actually accelerating"
+    },
+    {
+     "t0_ms": 2716190,
+     "text": "because of pricing more than offset that increasing cost."
+    },
+    {
+     "t0_ms": 2720190,
+     "text": "So I think we are managing this external component cost increase in the right way,"
+    },
+    {
+     "t0_ms": 2728190,
+     "text": "in a way that is actually accelerating the profitability of the company."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2735630,
+   "t1_ms": 2770430,
+   "speaker": "Analyst",
+   "text": "I really appreciate that. And a follow-up on price. Given all that and the huge price increase you have been getting recently, should we expect this type of quarterly ASV growth to continue in the mid-teens range? Or is that more of a run-off? I appreciate strong pricing will continue, but that was extremely strong pricing you just printed. So I am just curious if that is realistic to consider. I would like to continue with that.",
+   "parts": [
+    {
+     "t0_ms": 2735630,
+     "text": "I really appreciate that."
+    },
+    {
+     "t0_ms": 2737630,
+     "text": "And a follow-up on price."
+    },
+    {
+     "t0_ms": 2738630,
+     "text": "Given all that and the huge price increase you have been getting recently,"
+    },
+    {
+     "t0_ms": 2744630,
+     "text": "should we expect this type of quarterly ASV growth to continue in the mid-teens range?"
+    },
+    {
+     "t0_ms": 2754630,
+     "text": "Or is that more of a run-off?"
+    },
+    {
+     "t0_ms": 2757630,
+     "text": "I appreciate strong pricing will continue, but that was extremely strong pricing you just printed."
+    },
+    {
+     "t0_ms": 2765630,
+     "text": "So I am just curious if that is realistic to consider."
+    },
+    {
+     "t0_ms": 2768630,
+     "text": "I would like to continue with that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2770630,
+   "t1_ms": 2813690,
+   "speaker": "Management",
+   "text": "As we talked about on supply, there will be step-ups as new contracts come up all the time. I said in the prepared remarks that we don't see any demand destruction at all. If anything, we see a lot more demand creation, kind of quarter over quarter. Then we get into the negotiations with the customers on the exabytes that we have allocated for them. We lock down the configuration and then lock down the pricing. I don't see the trend. Yeah, every quarter is a bit different. Every quarter is a bit different.",
+   "parts": [
+    {
+     "t0_ms": 2770630,
+     "text": "As we talked about on supply, there will be step-ups as new contracts come up all the time."
+    },
+    {
+     "t0_ms": 2776630,
+     "text": "I said in the prepared remarks that we don't see any demand destruction at all."
+    },
+    {
+     "t0_ms": 2783630,
+     "text": "If anything, we see a lot more demand creation, kind of quarter over quarter."
+    },
+    {
+     "t0_ms": 2787630,
+     "text": "Then we get into the negotiations with the customers on the exabytes that we have allocated for them."
+    },
+    {
+     "t0_ms": 2800170,
+     "text": "We lock down the configuration and then lock down the pricing."
+    },
+    {
+     "t0_ms": 2805170,
+     "text": "I don't see the trend."
+    },
+    {
+     "t0_ms": 2806170,
+     "text": "Yeah, every quarter is a bit different."
+    },
+    {
+     "t0_ms": 2810890,
+     "text": "Every quarter is a bit different."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2813890,
+   "t1_ms": 2844540,
+   "speaker": "Management",
+   "text": "Of course, everything is included in our guidance. So you see a strong revenue upside. Part of that is coming from exabytes, as Dave said before. Part is coming from pricing. And I think you can model another step-up in gross margin. And of course, that is coming from the price. At this point, mainly from pricing because we discussed about the cost and the offset from the external component cost increase.",
+   "parts": [
+    {
+     "t0_ms": 2813890,
+     "text": "Of course, everything is included in our guidance."
+    },
+    {
+     "t0_ms": 2816890,
+     "text": "So you see a strong revenue upside."
+    },
+    {
+     "t0_ms": 2819890,
+     "text": "Part of that is coming from exabytes, as Dave said before."
+    },
+    {
+     "t0_ms": 2822890,
+     "text": "Part is coming from pricing."
+    },
+    {
+     "t0_ms": 2824890,
+     "text": "And I think you can model another step-up in gross margin."
+    },
+    {
+     "t0_ms": 2830890,
+     "text": "And of course, that is coming from the price."
+    },
+    {
+     "t0_ms": 2832890,
+     "text": "At this point, mainly from pricing because we discussed about the cost and the offset from the external component cost increase."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2844740,
+   "t1_ms": 2848530,
+   "speaker": "Analyst",
+   "text": "Really great. Thanks very much.",
+   "parts": [
+    {
+     "t0_ms": 2844740,
+     "text": "Really great. Thanks very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2848730,
+   "t1_ms": 2853530,
+   "speaker": "Operator",
+   "text": "Next question is from Wamsi Mohan with Bank of America. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2848730,
+     "text": "Next question is from Wamsi Mohan with Bank of America."
+    },
+    {
+     "t0_ms": 2851730,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2853730,
+   "t1_ms": 2884530,
+   "speaker": "Analyst",
+   "text": "Yes, thank you. I wanted to touch on pricing as well. Maybe if you could just double-click a little bit on the pricing. How much of this would you say was achieved with already contracted pricing? What's the pricing versus what's floating? Any relative percentages on there? Or hyperscaler versus OEM versus edge? Or by capacity trenches? Any color incrementally just given the sheer magnitude of what we just saw? And I have a quick follow-up.",
+   "parts": [
+    {
+     "t0_ms": 2853730,
+     "text": "Yes, thank you."
+    },
+    {
+     "t0_ms": 2854730,
+     "text": "I wanted to touch on pricing as well."
+    },
+    {
+     "t0_ms": 2857730,
+     "text": "Maybe if you could just double-click a little bit on the pricing."
+    },
+    {
+     "t0_ms": 2861730,
+     "text": "How much of this would you say was achieved with already contracted pricing?"
+    },
+    {
+     "t0_ms": 2866730,
+     "text": "What's the pricing versus what's floating?"
+    },
+    {
+     "t0_ms": 2868730,
+     "text": "Any relative percentages on there?"
+    },
+    {
+     "t0_ms": 2870730,
+     "text": "Or hyperscaler versus OEM versus edge?"
+    },
+    {
+     "t0_ms": 2874730,
+     "text": "Or by capacity trenches?"
+    },
+    {
+     "t0_ms": 2876730,
+     "text": "Any color incrementally just given the sheer magnitude of what we just saw?"
+    },
+    {
+     "t0_ms": 2882730,
+     "text": "And I have a quick follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2884730,
+   "t1_ms": 2928980,
+   "speaker": "Management",
+   "text": "Yeah, I think most of it's on the, I'll call it the rolling, re-upping of the contract, Wamsi. It's not because we're getting more exabytes out or we're pushing more exabytes out. We're doing business very predictably on that front. So usually when we see a pricing upside, it'll be two or three quarters away because we'll be able to find a way to get a few more exabytes out, then we'll say who wants them. That comes because we are working operations really hard and just... Yeah, we have not changed our pricing strategy. The strategy is the same, but as we said before, when we have visibility",
+   "parts": [
+    {
+     "t0_ms": 2884730,
+     "text": "Yeah, I think most of it's on the, I'll call it the rolling, re-upping of the contract, Wamsi."
+    },
+    {
+     "t0_ms": 2891730,
+     "text": "It's not because we're getting more exabytes out or we're pushing more exabytes out."
+    },
+    {
+     "t0_ms": 2896730,
+     "text": "We're doing business very predictably on that front."
+    },
+    {
+     "t0_ms": 2899730,
+     "text": "So usually when we see a pricing upside, it'll be two or three quarters away"
+    },
+    {
+     "t0_ms": 2906730,
+     "text": "because we'll be able to find a way to get a few more exabytes out, then we'll say who wants them."
+    },
+    {
+     "t0_ms": 2913730,
+     "text": "That comes because we are working operations really hard and just..."
+    },
+    {
+     "t0_ms": 2922180,
+     "text": "Yeah, we have not changed our pricing strategy."
+    },
+    {
+     "t0_ms": 2924180,
+     "text": "The strategy is the same, but as we said before, when we have visibility"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2928980,
+   "t1_ms": 2956780,
+   "speaker": "Management",
+   "text": "and some of the external costs increase, we have to pass that through and include in our new pricing. So when we negotiate a new contract, of course, we also consider the current situation for the external supply chain cost and adjust the pricing according to that. But apart from that change, the strategy is exactly the same that we have followed for the last three years at this point.",
+   "parts": [
+    {
+     "t0_ms": 2928980,
+     "text": "and some of the external costs increase, we have to pass that through and include in our new pricing."
+    },
+    {
+     "t0_ms": 2935980,
+     "text": "So when we negotiate a new contract, of course, we also consider the current situation"
+    },
+    {
+     "t0_ms": 2941980,
+     "text": "for the external supply chain cost and adjust the pricing according to that."
+    },
+    {
+     "t0_ms": 2946980,
+     "text": "But apart from that change, the strategy is exactly the same that we have followed"
+    },
+    {
+     "t0_ms": 2952980,
+     "text": "for the last three years at this point."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2956980,
+   "t1_ms": 2988380,
+   "speaker": "Analyst",
+   "text": "Right, okay. And then just as a follow up on the exabyte growth, I understand that you're calling for an acceleration, meaningful step up again next quarter. As we think through the fiscal year, is it right to think that we should be seeing sort of improving exabyte growth trajectory as we go through the course of the year, given that this product transition issues would be behind you and you're still saying that you're meaningfully under shipping demand? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2956980,
+     "text": "Right, okay."
+    },
+    {
+     "t0_ms": 2957780,
+     "text": "And then just as a follow up on the exabyte growth,"
+    },
+    {
+     "t0_ms": 2961780,
+     "text": "I understand that you're calling for an acceleration, meaningful step up again next quarter."
+    },
+    {
+     "t0_ms": 2968780,
+     "text": "As we think through the fiscal year, is it right to think that we should be seeing"
+    },
+    {
+     "t0_ms": 2973780,
+     "text": "sort of improving exabyte growth trajectory as we go through the course of the year,"
+    },
+    {
+     "t0_ms": 2979780,
+     "text": "given that this product transition issues would be behind you"
+    },
+    {
+     "t0_ms": 2983780,
+     "text": "and you're still saying that you're meaningfully under shipping demand?"
+    },
+    {
+     "t0_ms": 2986580,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2988580,
+   "t1_ms": 3018770,
+   "speaker": "Management",
+   "text": "Yeah, I don't think we had any issues with product transitions. I think it's all been planned. I mean, to your point, the wafer cycle time is quite long. So we've known exactly what our exabyte output is going to be. Yes, you will see continued acceleration of Mosaic 4, and then we're going to start leaning into Mosaic 5 as well. So I'm very happy with the 25% number. We're going to keep driving it as hard as we can.",
+   "parts": [
+    {
+     "t0_ms": 2988580,
+     "text": "Yeah, I don't think we had any issues with product transitions."
+    },
+    {
+     "t0_ms": 2991580,
+     "text": "I think it's all been planned."
+    },
+    {
+     "t0_ms": 2992580,
+     "text": "I mean, to your point, the wafer cycle time is quite long."
+    },
+    {
+     "t0_ms": 2997580,
+     "text": "So we've known exactly what our exabyte output is going to be."
+    },
+    {
+     "t0_ms": 3002580,
+     "text": "Yes, you will see continued acceleration of Mosaic 4,"
+    },
+    {
+     "t0_ms": 3005580,
+     "text": "and then we're going to start leaning into Mosaic 5 as well."
+    },
+    {
+     "t0_ms": 3008580,
+     "text": "So I'm very happy with the 25% number."
+    },
+    {
+     "t0_ms": 3011580,
+     "text": "We're going to keep driving it as hard as we can."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3018970,
+   "t1_ms": 3022770,
+   "speaker": "Operator",
+   "text": "The next question is from Ben Reitzes with Milius. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3018970,
+     "text": "The next question is from Ben Reitzes with Milius."
+    },
+    {
+     "t0_ms": 3020970,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3022970,
+   "t1_ms": 3066770,
+   "speaker": "Analyst",
+   "text": "Yeah, hey, thanks a lot. Dave and Gianluca, you know, I want to talk about the buyback and the cash return pace because, you know, you say you're going to start in the March quarter. You actually don't have any debt that comes due, I believe, until June of 2029. So you probably start with like free cash flow of around a couple billion, maybe two billion at the start of this period. What does it imply for you? What are your buybacks? Are you going to do 100% of the free cash flow that we start with in that March quarter of 27? And can that continue, you know, up until you have to pay down that debt? What kind of percentages of the free cash flow are we looking at here?",
+   "parts": [
+    {
+     "t0_ms": 3022970,
+     "text": "Yeah, hey, thanks a lot."
+    },
+    {
+     "t0_ms": 3024970,
+     "text": "Dave and Gianluca, you know, I want to talk about the buyback"
+    },
+    {
+     "t0_ms": 3029970,
+     "text": "and the cash return pace because, you know, you say you're going to start in the March quarter."
+    },
+    {
+     "t0_ms": 3034970,
+     "text": "You actually don't have any debt that comes due, I believe, until June of 2029."
+    },
+    {
+     "t0_ms": 3041970,
+     "text": "So you probably start with like free cash flow of around a couple billion,"
+    },
+    {
+     "t0_ms": 3045970,
+     "text": "maybe two billion at the start of this period."
+    },
+    {
+     "t0_ms": 3048970,
+     "text": "What does it imply for you?"
+    },
+    {
+     "t0_ms": 3050970,
+     "text": "What are your buybacks?"
+    },
+    {
+     "t0_ms": 3051970,
+     "text": "Are you going to do 100% of the free cash flow that we start with in that March quarter of 27?"
+    },
+    {
+     "t0_ms": 3058970,
+     "text": "And can that continue, you know, up until you have to pay down that debt?"
+    },
+    {
+     "t0_ms": 3063970,
+     "text": "What kind of percentages of the free cash flow are we looking at here?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3066970,
+   "t1_ms": 3068770,
+   "speaker": "Analyst",
+   "text": "Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 3066970,
+     "text": "Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3068970,
+   "t1_ms": 3111570,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Ben. We're very happy to be through the period where we dealt with the debt, like you said, and we're back to, you know, being ourselves. Our model is 75%. And, you know, we should be able to get back to that model over some period of time. So that's great. Beyond that, it's opportunistic, you know, when we can, when we don't think we have any other needs for the free cash flow that we're generating above and beyond that 75%, we'll look at it. Yeah, I think that's correct. We had the last debt report earlier this month. But we are also active in the market. We are active in terms of share-by-debt this quarter.",
+   "parts": [
+    {
+     "t0_ms": 3068970,
+     "text": "Yeah, thanks, Ben."
+    },
+    {
+     "t0_ms": 3070970,
+     "text": "We're very happy to be through the period where we dealt with the debt, like you said,"
+    },
+    {
+     "t0_ms": 3074970,
+     "text": "and we're back to, you know, being ourselves."
+    },
+    {
+     "t0_ms": 3076970,
+     "text": "Our model is 75%."
+    },
+    {
+     "t0_ms": 3078770,
+     "text": "And, you know, we should be able to get back to that model over some period of time."
+    },
+    {
+     "t0_ms": 3082770,
+     "text": "So that's great."
+    },
+    {
+     "t0_ms": 3084770,
+     "text": "Beyond that, it's opportunistic, you know, when we can,"
+    },
+    {
+     "t0_ms": 3088770,
+     "text": "when we don't think we have any other needs for the free cash flow"
+    },
+    {
+     "t0_ms": 3093770,
+     "text": "that we're generating above and beyond that 75%, we'll look at it."
+    },
+    {
+     "t0_ms": 3098770,
+     "text": "Yeah, I think that's correct."
+    },
+    {
+     "t0_ms": 3100770,
+     "text": "We had the last debt report earlier this month."
+    },
+    {
+     "t0_ms": 3105770,
+     "text": "But we are also active in the market."
+    },
+    {
+     "t0_ms": 3108770,
+     "text": "We are active in terms of share-by-debt this quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3111770,
+   "t1_ms": 3127570,
+   "speaker": "Management",
+   "text": "But we said starting next quarter because we don't have any other debt activity planned, we will step up the share-by-debt program. So you will see much more happening on that side starting the March quarter.",
+   "parts": [
+    {
+     "t0_ms": 3111770,
+     "text": "But we said starting next quarter because we don't have any other debt activity planned,"
+    },
+    {
+     "t0_ms": 3118770,
+     "text": "we will step up the share-by-debt program."
+    },
+    {
+     "t0_ms": 3121770,
+     "text": "So you will see much more happening on that side starting the March quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3127770,
+   "t1_ms": 3158370,
+   "speaker": "Analyst",
+   "text": "Okay. And thanks a lot for that. You know, your customers, especially for most of your business, are the big hyperscalers. Are you hearing anything about, you know, in terms of their ability to purchase on time, are you hearing anything about land power shell delays? Or is it more, are you hostage to their timing of when they get chips or land power shell? And how are you managing that? And how would you characterize that? Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 3127770,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 3128770,
+     "text": "And thanks a lot for that."
+    },
+    {
+     "t0_ms": 3131770,
+     "text": "You know, your customers, especially for most of your business, are the big hyperscalers."
+    },
+    {
+     "t0_ms": 3136770,
+     "text": "Are you hearing anything about,"
+    },
+    {
+     "t0_ms": 3138570,
+     "text": "you know, in terms of their ability to purchase on time,"
+    },
+    {
+     "t0_ms": 3142570,
+     "text": "are you hearing anything about land power shell delays?"
+    },
+    {
+     "t0_ms": 3145570,
+     "text": "Or is it more, are you hostage to their timing of when they get chips or land power shell?"
+    },
+    {
+     "t0_ms": 3153570,
+     "text": "And how are you managing that?"
+    },
+    {
+     "t0_ms": 3155570,
+     "text": "And how would you characterize that?"
+    },
+    {
+     "t0_ms": 3157570,
+     "text": "Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3158570,
+   "t1_ms": 3202170,
+   "speaker": "Management",
+   "text": "Yeah, Ben, that's an interesting question. The answer to your question is no, but we are very mindful of the fact that we don't want to want any of our products sitting anywhere. And so it's very important that we don't overbuild, that we build exactly to what we think the demand is. The demand for exabytes will strengthen. The, you know, more exabytes in the box makes the data center much more efficient. The customers know that. They want that. In general, the storage layer doesn't use a whole lot of power compared to the compute layer. It doesn't use a whole lot of space, and it doesn't use a whole lot of money either. So, you know, we can calculate all those things, but we just do not want to, we don't want to over shift into a channel",
+   "parts": [
+    {
+     "t0_ms": 3158570,
+     "text": "Yeah, Ben, that's an interesting question."
+    },
+    {
+     "t0_ms": 3161570,
+     "text": "The answer to your question is no, but we are very mindful of the fact that we don't want to"
+    },
+    {
+     "t0_ms": 3168570,
+     "text": "want any of our products sitting anywhere."
+    },
+    {
+     "t0_ms": 3171570,
+     "text": "And so it's very important that we don't overbuild,"
+    },
+    {
+     "t0_ms": 3173570,
+     "text": "that we build exactly to what we think the demand is."
+    },
+    {
+     "t0_ms": 3176570,
+     "text": "The demand for exabytes will strengthen."
+    },
+    {
+     "t0_ms": 3179570,
+     "text": "The, you know, more exabytes in the box makes the data center much more efficient."
+    },
+    {
+     "t0_ms": 3183570,
+     "text": "The customers know that. They want that."
+    },
+    {
+     "t0_ms": 3185570,
+     "text": "In general, the storage layer doesn't use a whole lot of power compared to the compute layer."
+    },
+    {
+     "t0_ms": 3190570,
+     "text": "It doesn't use a whole lot of space, and it doesn't use a whole lot of money either."
+    },
+    {
+     "t0_ms": 3194570,
+     "text": "So, you know, we can calculate all those things,"
+    },
+    {
+     "t0_ms": 3197370,
+     "text": "but we just do not want to, we don't want to over shift into a channel"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3202370,
+   "t1_ms": 3226670,
+   "speaker": "Management",
+   "text": "that necessarily doesn't have the components elsewhere, right? We want to make sure we can. And I think we're doing a good job of that, giving our customers that predictability, not just for next quarter, but for the next few years now, so that they know exactly what they're going to have to go acquire, and they know what their footprint is. They know what their data requirements are, but also...",
+   "parts": [
+    {
+     "t0_ms": 3202370,
+     "text": "that necessarily doesn't have the components elsewhere, right?"
+    },
+    {
+     "t0_ms": 3206370,
+     "text": "We want to make sure we can."
+    },
+    {
+     "t0_ms": 3209870,
+     "text": "And I think we're doing a good job of that, giving our customers that predictability,"
+    },
+    {
+     "t0_ms": 3213870,
+     "text": "not just for next quarter, but for the next few years now,"
+    },
+    {
+     "t0_ms": 3216870,
+     "text": "so that they know exactly what they're going to have to go acquire,"
+    },
+    {
+     "t0_ms": 3219870,
+     "text": "and they know what their footprint is."
+    },
+    {
+     "t0_ms": 3222870,
+     "text": "They know what their data requirements are, but also..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3232340,
+   "t1_ms": 3233140,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3232340,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3234340,
+   "t1_ms": 3239140,
+   "speaker": "Operator",
+   "text": "The next question is from Carl Ackerman with BMP Paribas. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3234340,
+     "text": "The next question is from Carl Ackerman with BMP Paribas."
+    },
+    {
+     "t0_ms": 3237340,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3239340,
+   "t1_ms": 3273940,
+   "speaker": "Analyst",
+   "text": "Thank you. Obviously, hyperscale demand is robust, but you spoke about near record sales from on-prem enterprise. I'm cognizant that CPU providers have said traditional server demand supports 25% of the agentic CPU opportunity. So my question is, frankly, have you seen it yet? And as more of these CPU racks become deployed over the next 12 months across both hyperscale and on-prem, how is your penetration rate of high capacity hard drives changing due to this agentic CPU demand boom? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3239340,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3241340,
+     "text": "Obviously, hyperscale demand is robust,"
+    },
+    {
+     "t0_ms": 3243340,
+     "text": "but you spoke about near record sales from on-prem enterprise."
+    },
+    {
+     "t0_ms": 3246340,
+     "text": "I'm cognizant that CPU providers have said traditional server demand supports 25%"
+    },
+    {
+     "t0_ms": 3251340,
+     "text": "of the agentic CPU opportunity."
+    },
+    {
+     "t0_ms": 3254340,
+     "text": "So my question is, frankly, have you seen it yet?"
+    },
+    {
+     "t0_ms": 3258340,
+     "text": "And as more of these CPU racks become deployed over the next 12 months"
+    },
+    {
+     "t0_ms": 3263140,
+     "text": "across both hyperscale and on-prem,"
+    },
+    {
+     "t0_ms": 3266140,
+     "text": "how is your penetration rate of high capacity hard drives changing"
+    },
+    {
+     "t0_ms": 3269140,
+     "text": "due to this agentic CPU demand boom?"
+    },
+    {
+     "t0_ms": 3272140,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3274140,
+   "t1_ms": 3318380,
+   "speaker": "Management",
+   "text": "Yeah, it's an interesting question. I would say typically those enterprise and OEM customers lagged quite a bit, the highest capacity points, and they're starting to not lag as much. I mean, so the storage layers are much more data rich. And the products are... I think maybe inside of your question, there's some of this is that, is it truly just an on-prem instance where maybe service a larger scale? I think we're seeing both. And there's demand for both types of products.",
+   "parts": [
+    {
+     "t0_ms": 3274140,
+     "text": "Yeah, it's an interesting question."
+    },
+    {
+     "t0_ms": 3277140,
+     "text": "I would say typically those enterprise and OEM customers lagged quite a bit,"
+    },
+    {
+     "t0_ms": 3282140,
+     "text": "the highest capacity points, and they're starting to not lag as much."
+    },
+    {
+     "t0_ms": 3286140,
+     "text": "I mean, so the storage layers are much more data rich."
+    },
+    {
+     "t0_ms": 3293140,
+     "text": "And the products are..."
+    },
+    {
+     "t0_ms": 3296140,
+     "text": "I think maybe inside of your question, there's some of this is that,"
+    },
+    {
+     "t0_ms": 3302760,
+     "text": "is it truly just an on-prem instance where maybe service a larger scale?"
+    },
+    {
+     "t0_ms": 3313580,
+     "text": "I think we're seeing both."
+    },
+    {
+     "t0_ms": 3315580,
+     "text": "And there's demand for both types of products."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3318580,
+   "t1_ms": 3338940,
+   "speaker": "Management",
+   "text": "So there may be just on-prem meaning a small office or, you know, and then there may be some of these channels that are actually serving, you know, people who are doing software cloud instances. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3318580,
+     "text": "So there may be just on-prem meaning a small office or, you know,"
+    },
+    {
+     "t0_ms": 3326900,
+     "text": "and then there may be some of these channels that are actually serving,"
+    },
+    {
+     "t0_ms": 3332460,
+     "text": "you know, people who are doing software cloud instances."
+    },
+    {
+     "t0_ms": 3334460,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3339140,
+   "t1_ms": 3346630,
+   "speaker": "Operator",
+   "text": "The next question is from Joe Quattrochi with Wells Fargo. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3339140,
+     "text": "The next question is from Joe Quattrochi with Wells Fargo."
+    },
+    {
+     "t0_ms": 3344830,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3346830,
+   "t1_ms": 3358630,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking the question. I was wondering if you could just quantify what was the external component impact on gross margin, and then is that expected to be completely offset and embedded in the December quarter guide?",
+   "parts": [
+    {
+     "t0_ms": 3346830,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 3348830,
+     "text": "I was wondering if you could just quantify what was the external component impact"
+    },
+    {
+     "t0_ms": 3352830,
+     "text": "on gross margin, and then is that expected to be completely offset"
+    },
+    {
+     "t0_ms": 3355830,
+     "text": "and embedded in the December quarter guide?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3358830,
+   "t1_ms": 3400780,
+   "speaker": "Management",
+   "text": "Yeah, it is included in the December guidance. As I said before, there is the cost related to what we produce, and that is declining as rapidly as we said in the past. And then there is the cost of what we buy externally. And if you compare to the cost of the same component a year ago, today that cost is higher. And so it's partially offsetting the cost decline that we generate internally. But everything is included in the guidance, and the guidance is showing an improvement, not only strong improvement,",
+   "parts": [
+    {
+     "t0_ms": 3358830,
+     "text": "Yeah, it is included in the December guidance."
+    },
+    {
+     "t0_ms": 3364180,
+     "text": "As I said before, there is the cost related to what we produce,"
+    },
+    {
+     "t0_ms": 3371980,
+     "text": "and that is declining as rapidly as we said in the past."
+    },
+    {
+     "t0_ms": 3376980,
+     "text": "And then there is the cost of what we buy externally."
+    },
+    {
+     "t0_ms": 3379980,
+     "text": "And if you compare to the cost of the same component a year ago,"
+    },
+    {
+     "t0_ms": 3384980,
+     "text": "today that cost is higher."
+    },
+    {
+     "t0_ms": 3387980,
+     "text": "And so it's partially offsetting the cost decline that we generate internally."
+    },
+    {
+     "t0_ms": 3392980,
+     "text": "But everything is included in the guidance, and the guidance is showing an improvement,"
+    },
+    {
+     "t0_ms": 3398980,
+     "text": "not only strong improvement,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3400780,
+   "t1_ms": 3420580,
+   "speaker": "Management",
+   "text": "not only in revenue, but also in gross margin, in operating margin, and of course, EPS. So I think the trend of improvement is the same that you have seen in the past. And of course, we are managing this additional external cost as well as we can and still generating strong improvements.",
+   "parts": [
+    {
+     "t0_ms": 3400780,
+     "text": "not only in revenue, but also in gross margin, in operating margin, and of course, EPS."
+    },
+    {
+     "t0_ms": 3406780,
+     "text": "So I think the trend of improvement is the same that you have seen in the past."
+    },
+    {
+     "t0_ms": 3413780,
+     "text": "And of course, we are managing this additional external cost as well as we can"
+    },
+    {
+     "t0_ms": 3418780,
+     "text": "and still generating strong improvements."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3420780,
+   "t1_ms": 3441980,
+   "speaker": "Analyst",
+   "text": "And so then maybe as a follow-up, you know, apologies for another question coming from ASPs, but just thinking about just the increase in dollar per terabyte, can you help us understand, like, how much of the was maybe mix driven by, you know, higher hammer contributions relative to like for like price uplift?",
+   "parts": [
+    {
+     "t0_ms": 3420780,
+     "text": "And so then maybe as a follow-up, you know,"
+    },
+    {
+     "t0_ms": 3426180,
+     "text": "apologies for another question coming from ASPs,"
+    },
+    {
+     "t0_ms": 3428180,
+     "text": "but just thinking about just the increase in dollar per terabyte,"
+    },
+    {
+     "t0_ms": 3431180,
+     "text": "can you help us understand, like,"
+    },
+    {
+     "t0_ms": 3433180,
+     "text": "how much of the was maybe mix driven by, you know,"
+    },
+    {
+     "t0_ms": 3436180,
+     "text": "higher hammer contributions relative to like for like price uplift?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3443900,
+   "t1_ms": 3482790,
+   "speaker": "Management",
+   "text": "Yeah, let's see. It's going to be really hard on new capacity points that are much more efficient, better TCO proposition for their data centers. So we get the benefit from that. Relative to price per terabyte, you know, that's fairly well blended across the entire portfolio. So some of those contracts with the hyperscalers are more four quarters, if you will. But and some of the other stuff is a little less than that.",
+   "parts": [
+    {
+     "t0_ms": 3443900,
+     "text": "Yeah, let's see."
+    },
+    {
+     "t0_ms": 3446900,
+     "text": "It's going to be really hard on new capacity points that are much more efficient,"
+    },
+    {
+     "t0_ms": 3456550,
+     "text": "better TCO proposition for their data centers."
+    },
+    {
+     "t0_ms": 3459550,
+     "text": "So we get the benefit from that."
+    },
+    {
+     "t0_ms": 3462550,
+     "text": "Relative to price per terabyte, you know, that's fairly well blended across the entire portfolio."
+    },
+    {
+     "t0_ms": 3468550,
+     "text": "So some of those contracts with the hyperscalers are more four quarters,"
+    },
+    {
+     "t0_ms": 3476550,
+     "text": "if you will."
+    },
+    {
+     "t0_ms": 3479990,
+     "text": "But and some of the other stuff is a little less than that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3482990,
+   "t1_ms": 3503590,
+   "speaker": "Management",
+   "text": "So, you know, I don't know that you can really look at it different markets. But I think that relative to our ability to actually predict, we're going after the highest capacity points to make sure that we keep those big chunks of demand kind of.",
+   "parts": [
+    {
+     "t0_ms": 3482990,
+     "text": "So, you know, I don't know that you can really look at it different markets."
+    },
+    {
+     "t0_ms": 3490990,
+     "text": "But I think that relative to our ability to actually predict,"
+    },
+    {
+     "t0_ms": 3495990,
+     "text": "we're going after the highest capacity points"
+    },
+    {
+     "t0_ms": 3498790,
+     "text": "to make sure that we keep those big chunks of demand kind of."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3503790,
+   "t1_ms": 3517260,
+   "speaker": "Operator",
+   "text": "This question is from Joseph Cardoso with JPMorgan. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3503790,
+     "text": "This question is from Joseph Cardoso with JPMorgan."
+    },
+    {
+     "t0_ms": 3516460,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3519060,
+   "t1_ms": 3548860,
+   "speaker": "Analyst",
+   "text": "Hi, good afternoon. And thanks for the question here. Maybe just wanted to follow up. I think in the past you kind of hinted at maybe an outlook around hammer exiting your fiscal 27. But just curious if there's any update there on how we should be thinking about hammer share of nearline as we track through the fiscal year, just giving, you know, any ships and boats around the constraints. I'm getting there faster, like customer calls, headway for cycle times or any other variables. And then I do have a quick follow up. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3519060,
+     "text": "Hi, good afternoon."
+    },
+    {
+     "t0_ms": 3520060,
+     "text": "And thanks for the question here."
+    },
+    {
+     "t0_ms": 3522060,
+     "text": "Maybe just wanted to follow up."
+    },
+    {
+     "t0_ms": 3525060,
+     "text": "I think in the past you kind of hinted at maybe an outlook around hammer exiting your fiscal 27."
+    },
+    {
+     "t0_ms": 3531060,
+     "text": "But just curious if there's any update there on how we should be thinking about hammer share of nearline"
+    },
+    {
+     "t0_ms": 3535060,
+     "text": "as we track through the fiscal year,"
+    },
+    {
+     "t0_ms": 3537060,
+     "text": "just giving, you know, any ships and boats around the constraints."
+    },
+    {
+     "t0_ms": 3540060,
+     "text": "I'm getting there faster, like customer calls, headway for cycle times or any other variables."
+    },
+    {
+     "t0_ms": 3546060,
+     "text": "And then I do have a quick follow up."
+    },
+    {
+     "t0_ms": 3548060,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3549060,
+   "t1_ms": 3593860,
+   "speaker": "Management",
+   "text": "Thanks, Joseph. Everything on the four terabyte per platter is on track. So we're happy with the qualification progress. We're happy with the initial units we've shipped to the field and how they're doing in the field. Everything's on track there. The five terabyte is that we're actually more optimistic than we were last quarter. I'd say we see the ability to make this transition a little bit faster than we originally planned. And we'll get to talking to that when we get into fiscal 28. We're going to stage that and go as hard as we possibly can because that's yet another improvement for us. And I also see the five terabyte per platter extending fairly rapidly into six terabyte per platter. So love this platform.",
+   "parts": [
+    {
+     "t0_ms": 3549060,
+     "text": "Thanks, Joseph."
+    },
+    {
+     "t0_ms": 3551060,
+     "text": "Everything on the four terabyte per platter is on track."
+    },
+    {
+     "t0_ms": 3555060,
+     "text": "So we're happy with the qualification progress."
+    },
+    {
+     "t0_ms": 3558060,
+     "text": "We're happy with the initial units we've shipped to the field"
+    },
+    {
+     "t0_ms": 3561060,
+     "text": "and how they're doing in the field."
+    },
+    {
+     "t0_ms": 3562260,
+     "text": "Everything's on track there."
+    },
+    {
+     "t0_ms": 3564060,
+     "text": "The five terabyte is that we're actually more optimistic than we were last quarter."
+    },
+    {
+     "t0_ms": 3570060,
+     "text": "I'd say we see the ability to make this transition a little bit faster than we originally planned."
+    },
+    {
+     "t0_ms": 3576060,
+     "text": "And we'll get to talking to that when we get into fiscal 28."
+    },
+    {
+     "t0_ms": 3579060,
+     "text": "We're going to stage that and go as hard as we possibly can because that's yet another improvement for us."
+    },
+    {
+     "t0_ms": 3585060,
+     "text": "And I also see the five terabyte per platter extending fairly rapidly into six terabyte per platter."
+    },
+    {
+     "t0_ms": 3592060,
+     "text": "So love this platform."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3594060,
+   "t1_ms": 3614860,
+   "speaker": "Management",
+   "text": "The technology development is going quite well and we're pretty optimistic about it. We'll keep driving it. So I'll say there are no changes on our targets that we discussed in the prior report in terms of the percentage of total near-land exabytes for end of calendar 26 and then for fiscal 27.",
+   "parts": [
+    {
+     "t0_ms": 3594060,
+     "text": "The technology development is going quite well and we're pretty optimistic about it."
+    },
+    {
+     "t0_ms": 3598060,
+     "text": "We'll keep driving it."
+    },
+    {
+     "t0_ms": 3600060,
+     "text": "So I'll say there are no changes on our targets that we discussed in the prior report"
+    },
+    {
+     "t0_ms": 3605060,
+     "text": "in terms of the percentage of total near-land exabytes for end of calendar 26 and then for fiscal 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3615060,
+   "t1_ms": 3654860,
+   "speaker": "Analyst",
+   "text": "Got it. Makes sense. And then, you know, just wanted to touch on some of the comments and the prepared remarks that you guys had around agreements extending through calendar 30, if I heard correctly. Maybe just touch on, like, is there any changes or differences between, you know, the agreements going out all the way through calendar 30 versus maybe the ones that are more near-term in terms of calendar 28? Just curious in terms of how you guys are thinking about or, like, what's how we should be thinking about maybe more importantly around those agreements relative to locking in exabytes, pricing, et cetera, and maybe how these agreements are influencing your capacity plans. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3615060,
+     "text": "Got it. Makes sense."
+    },
+    {
+     "t0_ms": 3617060,
+     "text": "And then, you know, just wanted to touch on some of the comments"
+    },
+    {
+     "t0_ms": 3620060,
+     "text": "and the prepared remarks that you guys had around agreements extending through calendar 30,"
+    },
+    {
+     "t0_ms": 3625060,
+     "text": "if I heard correctly."
+    },
+    {
+     "t0_ms": 3627060,
+     "text": "Maybe just touch on, like, is there any changes"
+    },
+    {
+     "t0_ms": 3630060,
+     "text": "or differences between, you know, the agreements going out all the way through calendar 30"
+    },
+    {
+     "t0_ms": 3634060,
+     "text": "versus maybe the ones that are more near-term in terms of calendar 28?"
+    },
+    {
+     "t0_ms": 3639060,
+     "text": "Just curious in terms of how you guys are thinking about or, like,"
+    },
+    {
+     "t0_ms": 3642060,
+     "text": "what's how we should be thinking about maybe more importantly around those agreements"
+    },
+    {
+     "t0_ms": 3646060,
+     "text": "relative to locking in exabytes, pricing, et cetera,"
+    },
+    {
+     "t0_ms": 3649060,
+     "text": "and maybe how these agreements are influencing your capacity plans."
+    },
+    {
+     "t0_ms": 3654060,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3655060,
+   "t1_ms": 3698460,
+   "speaker": "Management",
+   "text": "Our process hasn't changed. So we're giving visibility to people about how what our exabyte growth will be. And then we're saying basically when you get within, say, 12 months, we lock in the configuration that we're going to be building in our factories. And then we lock in pricing. That's what I would call the build-to-order process that we have. As things roll forward, you know, if demand stays strong, as strong as it is, we may see that some of those contracts start, we lock them in at higher prices. That's fine. We also would understand very quickly if somebody wasn't pulling according to the plan, we could pull back. We don't see any evidence of that right now.",
+   "parts": [
+    {
+     "t0_ms": 3655060,
+     "text": "Our process hasn't changed."
+    },
+    {
+     "t0_ms": 3657060,
+     "text": "So we're giving visibility to people"
+    },
+    {
+     "t0_ms": 3658860,
+     "text": "about how what our exabyte growth will be."
+    },
+    {
+     "t0_ms": 3661860,
+     "text": "And then we're saying basically when you get within, say, 12 months,"
+    },
+    {
+     "t0_ms": 3666860,
+     "text": "we lock in the configuration that we're going to be building in our factories."
+    },
+    {
+     "t0_ms": 3670860,
+     "text": "And then we lock in pricing."
+    },
+    {
+     "t0_ms": 3673860,
+     "text": "That's what I would call the build-to-order process that we have."
+    },
+    {
+     "t0_ms": 3676860,
+     "text": "As things roll forward, you know, if demand stays strong, as strong as it is,"
+    },
+    {
+     "t0_ms": 3682860,
+     "text": "we may see that some of those contracts start, we lock them in at higher prices."
+    },
+    {
+     "t0_ms": 3688660,
+     "text": "That's fine."
+    },
+    {
+     "t0_ms": 3690260,
+     "text": "We also would understand very quickly if somebody wasn't pulling according to the plan,"
+    },
+    {
+     "t0_ms": 3695660,
+     "text": "we could pull back."
+    },
+    {
+     "t0_ms": 3696660,
+     "text": "We don't see any evidence of that right now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3698660,
+   "t1_ms": 3740460,
+   "speaker": "Management",
+   "text": "I think we're in a multi-year growth phase for data. And the reason I say that is just go back five years ago, the data storage products were roughly shipping half the exabytes on a quarterly basis of where we are today. And then we had this big downturn. So the world's making up for a lot of lost time. And there's growth, extreme growth in data everywhere. So I think the next five years will be very strong from that perspective. And the value of that data with some of these accelerated applications is, you know, it's becoming much more valuable. So I'm very excited about this. I think the customers are as well. So they know what they're planning for,",
+   "parts": [
+    {
+     "t0_ms": 3698660,
+     "text": "I think we're in a multi-year growth phase for data."
+    },
+    {
+     "t0_ms": 3702860,
+     "text": "And the reason I say that is just go back five years ago,"
+    },
+    {
+     "t0_ms": 3706460,
+     "text": "the data storage products were roughly shipping half the exabytes on a quarterly basis"
+    },
+    {
+     "t0_ms": 3712260,
+     "text": "of where we are today."
+    },
+    {
+     "t0_ms": 3713260,
+     "text": "And then we had this big downturn."
+    },
+    {
+     "t0_ms": 3714460,
+     "text": "So the world's making up for a lot of lost time."
+    },
+    {
+     "t0_ms": 3717460,
+     "text": "And"
+    },
+    {
+     "t0_ms": 3718660,
+     "text": "there's growth, extreme growth in data everywhere."
+    },
+    {
+     "t0_ms": 3722460,
+     "text": "So I think the next five years will be very strong from that perspective."
+    },
+    {
+     "t0_ms": 3725260,
+     "text": "And the value of that data with some of these accelerated applications is,"
+    },
+    {
+     "t0_ms": 3732260,
+     "text": "you know, it's becoming much more valuable."
+    },
+    {
+     "t0_ms": 3734660,
+     "text": "So I'm very excited about this."
+    },
+    {
+     "t0_ms": 3736860,
+     "text": "I think the customers are as well."
+    },
+    {
+     "t0_ms": 3738660,
+     "text": "So they know what they're planning for,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3740660,
+   "t1_ms": 3745460,
+   "speaker": "Management",
+   "text": "what they're going to install capacity for, and we'll work together with them on that.",
+   "parts": [
+    {
+     "t0_ms": 3740660,
+     "text": "what they're going to install capacity for, and we'll work together with them on that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3748180,
+   "t1_ms": 3751810,
+   "speaker": "Analyst",
+   "text": "Thank you. Appreciate the call.",
+   "parts": [
+    {
+     "t0_ms": 3748180,
+     "text": "Thank you. Appreciate the call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3752010,
+   "t1_ms": 3760610,
+   "speaker": "Operator",
+   "text": "This concludes our questions. And we'll be back with more questions and answers session. I would like to turn the conference back over to Dave Mosley for any closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 3752010,
+     "text": "This concludes our questions."
+    },
+    {
+     "t0_ms": 3753010,
+     "text": "And we'll be back with more questions and answers session."
+    },
+    {
+     "t0_ms": 3755610,
+     "text": "I would like to turn the conference back over to Dave Mosley for any closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3760810,
+   "t1_ms": 3787210,
+   "speaker": "Management",
+   "text": "Thanks, Gary. And thanks again to everyone for joining us. We're entering fiscal 2027 with really strong momentum ahead of what we believe is a multi-year growth phase for mass capacity storage. We're executing our strategy that positions Seagate to capture that opportunity through continued technology innovation and disciplined execution with a relentless focus on growth and creating value for our customers and shareholders. Thank you. And we'll talk to you next quarter.",
+   "parts": [
+    {
+     "t0_ms": 3760810,
+     "text": "Thanks, Gary."
+    },
+    {
+     "t0_ms": 3761810,
+     "text": "And thanks again to everyone for joining us."
+    },
+    {
+     "t0_ms": 3764010,
+     "text": "We're entering fiscal 2027 with really strong momentum ahead of what we believe"
+    },
+    {
+     "t0_ms": 3768810,
+     "text": "is a multi-year growth phase for mass capacity storage."
+    },
+    {
+     "t0_ms": 3771810,
+     "text": "We're executing our strategy that positions Seagate to capture that opportunity"
+    },
+    {
+     "t0_ms": 3775810,
+     "text": "through continued technology innovation and disciplined execution with a relentless focus"
+    },
+    {
+     "t0_ms": 3781610,
+     "text": "on growth and creating value for our customers and shareholders."
+    },
+    {
+     "t0_ms": 3784410,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3785010,
+     "text": "And we'll talk to you next quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3787410,
+   "t1_ms": 3792810,
+   "speaker": "Operator",
+   "text": "The conference is now concluded. Thank you for attending today's presentation. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3787410,
+     "text": "The conference is now concluded."
+    },
+    {
+     "t0_ms": 3789210,
+     "text": "Thank you for attending today's presentation."
+    },
+    {
+     "t0_ms": 3791610,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

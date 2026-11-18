@@ -1,0 +1,3639 @@
+{
+ "ticker": "MRVL",
+ "quarter": "Q2-2027",
+ "company": "Marvell Technology",
+ "call_start": "2026-08-27T16:45:00-04:00",
+ "etf": "SMH",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/MRVL_Q2-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 33940,
+   "speaker": "Operator",
+   "text": "Good afternoon and welcome to Marvell Technology Incorporated second quarter of fiscal year 2027 earnings conference call. At this time, all participants are in a listen-only mode. If anyone should require operator assistance during the conference, please press star zero on your telephone keypad. A question and answer session will follow a formal presentation. Please note, this event is being recorded. I will now turn the conference over to Mr. Ross Seymour, Senior Vice President of Investor Relations. Thank you. You may begin.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon and welcome to Marvell Technology Incorporated second quarter of fiscal year 2027 earnings conference call."
+    },
+    {
+     "t0_ms": 9060,
+     "text": "At this time, all participants are in a listen-only mode."
+    },
+    {
+     "t0_ms": 12660,
+     "text": "If anyone should require operator assistance during the conference, please press star zero on your telephone keypad."
+    },
+    {
+     "t0_ms": 19460,
+     "text": "A question and answer session will follow a formal presentation."
+    },
+    {
+     "t0_ms": 23180,
+     "text": "Please note, this event is being recorded."
+    },
+    {
+     "t0_ms": 25300,
+     "text": "I will now turn the conference over to Mr. Ross Seymour, Senior Vice President of Investor Relations."
+    },
+    {
+     "t0_ms": 32960,
+     "text": "Thank you. You may begin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 34960,
+   "t1_ms": 74180,
+   "speaker": "Management",
+   "text": "Thank you and good afternoon, everyone. Welcome to Marvell's second fiscal quarter 2027 earnings call. Joining me today are Matt Murphy, Marvell's Chairman and CEO, Dan Dern, CFO, Chris Koopmans, President and COO, and Sandeep Bharathi, President of our data center group. Let me remind everyone that certain comments made today. Include forward-looking statements which are subject to significant risks and uncertainties that could cause our actual results to differ materially from management's current expectations. Please review the cautionary statements and risk factors contained in our earnings press release which we filed with the SEC today and posted on our website.",
+   "parts": [
+    {
+     "t0_ms": 34960,
+     "text": "Thank you and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 37180,
+     "text": "Welcome to Marvell's second fiscal quarter 2027 earnings call."
+    },
+    {
+     "t0_ms": 41420,
+     "text": "Joining me today are Matt Murphy, Marvell's Chairman and CEO, Dan Dern, CFO, Chris Koopmans, President and COO, and Sandeep Bharathi, President of our data center group."
+    },
+    {
+     "t0_ms": 51660,
+     "text": "Let me remind everyone that certain comments made today."
+    },
+    {
+     "t0_ms": 55300,
+     "text": "Include forward-looking statements which are subject to significant risks and uncertainties that could cause our actual results to differ materially from management's current expectations."
+    },
+    {
+     "t0_ms": 65840,
+     "text": "Please review the cautionary statements and risk factors contained in our earnings press release which we filed with the SEC today and posted on our website."
+    }
+   ]
+  },
+  {
+   "t0_ms": 74180,
+   "t1_ms": 114940,
+   "speaker": "Management",
+   "text": "As well as our most recent 8K, 10K, 10Q, and other documents that we file from time to time with the SEC. We do not intend to update our forward-looking statements. During our call today, we will refer to certain non-GAAP financial measures. A reconciliation between our GAAP and non-GAAP financial measures is available in our earnings press release. Let me now turn the call over to Matt for his comments on the quarter. Matt? Thanks, Ross, and good afternoon, everyone. Before I discuss our results and outlook, I want to briefly highlight two management transitions that occurred during our last quarter. First, Willem Menke stepped down as Marvell's CFO in mid-June. I deeply appreciate Willem's support.",
+   "parts": [
+    {
+     "t0_ms": 74180,
+     "text": "As well as our most recent 8K, 10K, 10Q, and other documents that we file from time to time with the SEC."
+    },
+    {
+     "t0_ms": 81840,
+     "text": "We do not intend to update our forward-looking statements."
+    },
+    {
+     "t0_ms": 84960,
+     "text": "During our call today, we will refer to certain non-GAAP financial measures."
+    },
+    {
+     "t0_ms": 89820,
+     "text": "A reconciliation between our GAAP and non-GAAP financial measures is available in our earnings press release."
+    },
+    {
+     "t0_ms": 95800,
+     "text": "Let me now turn the call over to Matt for his comments on the quarter."
+    },
+    {
+     "t0_ms": 98900,
+     "text": "Matt?"
+    },
+    {
+     "t0_ms": 100900,
+     "text": "Thanks, Ross, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 103520,
+     "text": "Before I discuss our results and outlook, I want to briefly highlight two management transitions that occurred during our last quarter."
+    },
+    {
+     "t0_ms": 110100,
+     "text": "First, Willem Menke stepped down as Marvell's CFO in mid-June."
+    },
+    {
+     "t0_ms": 113080,
+     "text": "I deeply appreciate Willem's support."
+    }
+   ]
+  },
+  {
+   "t0_ms": 114960,
+   "t1_ms": 159400,
+   "speaker": "Management",
+   "text": "He has a steady hand, leadership, and tireless commitment to transforming Marvell over his decade with the company. And I greatly respect his desire to spend more time with his family. To ensure a seamless transition, we simultaneously welcome Dan Dern as our new CFO. Dan brings more than three decades of experience in senior finance roles across semiconductor and enterprise technology companies. And having most recently served on Marvell's board of directors, Dan comes into the role with a deep understanding of our business and strategy, as well as a unique appreciation of the role of our CFO. So, please take appreciation for the significant growth opportunities at Marvell ahead. Second, in July, we began a transition in our investor relations leadership. After eight years with Marvell, Ashish Saran will retire from the company in April 2027.",
+   "parts": [
+    {
+     "t0_ms": 114960,
+     "text": "He has a steady hand, leadership, and tireless commitment to transforming Marvell over his decade with the company."
+    },
+    {
+     "t0_ms": 120780,
+     "text": "And I greatly respect his desire to spend more time with his family."
+    },
+    {
+     "t0_ms": 123880,
+     "text": "To ensure a seamless transition, we simultaneously welcome Dan Dern as our new CFO."
+    },
+    {
+     "t0_ms": 129800,
+     "text": "Dan brings more than three decades of experience in senior finance roles across semiconductor and enterprise technology companies."
+    },
+    {
+     "t0_ms": 136680,
+     "text": "And having most recently served on Marvell's board of directors, Dan comes into the role with a deep understanding of our business and strategy,"
+    },
+    {
+     "t0_ms": 143800,
+     "text": "as well as a unique appreciation of the role of our CFO."
+    },
+    {
+     "t0_ms": 144740,
+     "text": "So, please take appreciation for the significant growth opportunities at Marvell ahead."
+    },
+    {
+     "t0_ms": 149520,
+     "text": "Second, in July, we began a transition in our investor relations leadership."
+    },
+    {
+     "t0_ms": 153720,
+     "text": "After eight years with Marvell, Ashish Saran will retire from the company in April 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 159400,
+   "t1_ms": 180560,
+   "speaker": "Management",
+   "text": "I want to personally thank Ashish for his leadership, partnership, and countless contributions to Marvell. I also appreciate the thoughtfulness and care he has brought to planning this transition, including helping us identify the right successor. On that front, I am very pleased to welcome Ross Seymour, the CEO of Marvell, into the board of directors. He is the CEO of Seymour, who comes to us from Deutsche Bank, where he covered the semiconductor industry for more than 25 years.",
+   "parts": [
+    {
+     "t0_ms": 159400,
+     "text": "I want to personally thank Ashish for his leadership, partnership, and countless contributions to Marvell."
+    },
+    {
+     "t0_ms": 164860,
+     "text": "I also appreciate the thoughtfulness and care he has brought to planning this transition,"
+    },
+    {
+     "t0_ms": 169360,
+     "text": "including helping us identify the right successor."
+    },
+    {
+     "t0_ms": 172300,
+     "text": "On that front, I am very pleased to welcome Ross Seymour, the CEO of Marvell, into the"
+    },
+    {
+     "t0_ms": 174560,
+     "text": "board of directors."
+    },
+    {
+     "t0_ms": 175560,
+     "text": "He is the CEO of Seymour, who comes to us from Deutsche Bank, where he covered the semiconductor industry for more than 25 years."
+    }
+   ]
+  },
+  {
+   "t0_ms": 180560,
+   "t1_ms": 183900,
+   "speaker": "Analyst",
+   "text": "Warm welcome to you, Dan and Ross.",
+   "parts": [
+    {
+     "t0_ms": 180560,
+     "text": "Warm welcome to you, Dan and Ross."
+    }
+   ]
+  },
+  {
+   "t0_ms": 183900,
+   "t1_ms": 227320,
+   "speaker": "Management",
+   "text": "Now let me move on to our results and outlook. For the second quarter of fiscal 2027, Marvell delivered record revenue of $2.739 billion, reflecting 13% sequential and 37% year-over-year growth. Revenue and non-GAAP earnings per share of $0.94 both exceeded the midpoint of guidance. Thank you. On our last earnings call, we increased our sequential revenue growth expectation for the third and fourth quarters of this fiscal year to double-digit percentage growth, up from our prior outlook of high single-digit growth. Since then, our outlook has continued to strengthen, and we now expect revenue growth to further accelerate in the second half. The strength is reflected in our guidance for the third quarter of fiscal 2027, where",
+   "parts": [
+    {
+     "t0_ms": 183900,
+     "text": "Now let me move on to our results and outlook."
+    },
+    {
+     "t0_ms": 185900,
+     "text": "For the second quarter of fiscal 2027, Marvell delivered record revenue of $2.739 billion,"
+    },
+    {
+     "t0_ms": 193020,
+     "text": "reflecting 13% sequential and 37% year-over-year growth."
+    },
+    {
+     "t0_ms": 198240,
+     "text": "Revenue and non-GAAP earnings per share of $0.94 both exceeded the midpoint of guidance."
+    },
+    {
+     "t0_ms": 203340,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 204560,
+     "text": "On our last earnings call, we increased our sequential revenue growth expectation for"
+    },
+    {
+     "t0_ms": 208800,
+     "text": "the third and fourth quarters of this fiscal year to double-digit percentage growth, up"
+    },
+    {
+     "t0_ms": 212740,
+     "text": "from our prior outlook of high single-digit growth."
+    },
+    {
+     "t0_ms": 215560,
+     "text": "Since then, our outlook has continued to strengthen, and we now expect revenue growth to further"
+    },
+    {
+     "t0_ms": 220340,
+     "text": "accelerate in the second half."
+    },
+    {
+     "t0_ms": 222660,
+     "text": "The strength is reflected in our guidance for the third quarter of fiscal 2027, where"
+    }
+   ]
+  },
+  {
+   "t0_ms": 227320,
+   "t1_ms": 265560,
+   "speaker": "Management",
+   "text": "we expect total company revenue of $3.15 billion at the midpoint, representing growth of 15% sequentially and more than 50% in the second half. Thank you. We expect growth to further accelerate in the fourth quarter, both sequentially and year-over-year. As a result, we now expect overall Marvell revenue in fiscal 2027 to grow approximately 45% year-over-year to roughly $12 billion, up from our prior outlook of approximately $11.5 billion just one quarter ago. The increase in our revenue outlook continues to be driven by our data center business, which we now expect to grow by approximately 60% this fiscal year. This is up from our prior expectation of approximately 50%. Importantly, this growth remains broad-based.",
+   "parts": [
+    {
+     "t0_ms": 227320,
+     "text": "we expect total company revenue of $3.15 billion at the midpoint, representing growth of 15%"
+    },
+    {
+     "t0_ms": 232560,
+     "text": "sequentially and more than 50% in the second half."
+    },
+    {
+     "t0_ms": 233560,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 234560,
+     "text": "We expect growth to further accelerate in the fourth quarter, both sequentially and"
+    },
+    {
+     "t0_ms": 240540,
+     "text": "year-over-year."
+    },
+    {
+     "t0_ms": 241540,
+     "text": "As a result, we now expect overall Marvell revenue in fiscal 2027 to grow approximately"
+    },
+    {
+     "t0_ms": 247740,
+     "text": "45% year-over-year to roughly $12 billion, up from our prior outlook of approximately"
+    },
+    {
+     "t0_ms": 253140,
+     "text": "$11.5 billion just one quarter ago."
+    },
+    {
+     "t0_ms": 257100,
+     "text": "The increase in our revenue outlook continues to be driven by our data center business,"
+    },
+    {
+     "t0_ms": 260760,
+     "text": "which we now expect to grow by approximately 60% this fiscal year."
+    },
+    {
+     "t0_ms": 263560,
+     "text": "This is up from our prior expectation of approximately 50%."
+    },
+    {
+     "t0_ms": 264560,
+     "text": "Importantly, this growth remains broad-based."
+    }
+   ]
+  },
+  {
+   "t0_ms": 265560,
+   "t1_ms": 308040,
+   "speaker": "Management",
+   "text": "InterConnect continues to lead the way, while our custom business is expected to ramp significantly in the second half. For our communications and other end markets, the trajectory remains largely as expected. Despite typical quarter-to-quarter lumpiness in these businesses, we currently expect fiscal 2027 growth to approach our 10% target. Looking ahead to fiscal 2028, aggregate revenue is expected to increase by about $1.5 billion. This is a good sign. We expect growth to continue to grow. Thank you. The demand continues to accelerate, and our operations team is doing an outstanding job securing additional supply despite pervasive industry-wide constraints. As a result, we now expect Marvell's data center revenue to grow more than 60% year-over-year",
+   "parts": [
+    {
+     "t0_ms": 265560,
+     "text": "InterConnect continues to lead the way, while our custom business is expected to ramp significantly"
+    },
+    {
+     "t0_ms": 276060,
+     "text": "in the second half."
+    },
+    {
+     "t0_ms": 277060,
+     "text": "For our communications and other end markets, the trajectory remains largely as expected."
+    },
+    {
+     "t0_ms": 283840,
+     "text": "Despite typical quarter-to-quarter lumpiness in these businesses, we currently expect fiscal"
+    },
+    {
+     "t0_ms": 287680,
+     "text": "2027 growth to approach our 10% target."
+    },
+    {
+     "t0_ms": 290000,
+     "text": "Looking ahead to fiscal 2028, aggregate revenue is expected to increase by about $1.5 billion."
+    },
+    {
+     "t0_ms": 292000,
+     "text": "This is a good sign."
+    },
+    {
+     "t0_ms": 293000,
+     "text": "We expect growth to continue to grow."
+    },
+    {
+     "t0_ms": 294000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 295000,
+     "text": "The demand continues to accelerate, and our operations team is doing an outstanding job"
+    },
+    {
+     "t0_ms": 299000,
+     "text": "securing additional supply despite pervasive industry-wide constraints."
+    },
+    {
+     "t0_ms": 302560,
+     "text": "As a result, we now expect Marvell's data center revenue to grow more than 60% year-over-year"
+    }
+   ]
+  },
+  {
+   "t0_ms": 308040,
+   "t1_ms": 347440,
+   "speaker": "Management",
+   "text": "in fiscal 2028, driven by strong growth across all of our key data center businesses. This includes custom more than doubling, as we indicated last quarter. We look forward to providing a deeper dive into the specific drivers of our longer-term growth at our investor day in New York City on October 6. but the key takeaway for today is clear. The strength of our data center business continues to exceed our prior expectations. Putting it all together, we now expect fiscal 2028 revenue of approximately $18 billion, up $1.5 billion from the $16.5 billion outlook we provided just one quarter ago. And importantly, even as our revenue base becomes significantly larger,",
+   "parts": [
+    {
+     "t0_ms": 308040,
+     "text": "in fiscal 2028, driven by strong growth across all of our key data center businesses."
+    },
+    {
+     "t0_ms": 314060,
+     "text": "This includes custom more than doubling, as we indicated last quarter."
+    },
+    {
+     "t0_ms": 317380,
+     "text": "We look forward to providing a deeper dive into the specific drivers of our longer-term"
+    },
+    {
+     "t0_ms": 322120,
+     "text": "growth at our investor day in New York City on October 6."
+    },
+    {
+     "t0_ms": 325000,
+     "text": "but the key takeaway for today is clear. The strength of our data center business continues"
+    },
+    {
+     "t0_ms": 330040,
+     "text": "to exceed our prior expectations. Putting it all together, we now expect fiscal 2028 revenue of"
+    },
+    {
+     "t0_ms": 336580,
+     "text": "approximately $18 billion, up $1.5 billion from the $16.5 billion outlook we provided just one"
+    },
+    {
+     "t0_ms": 342540,
+     "text": "quarter ago. And importantly, even as our revenue base becomes significantly larger,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 348000,
+   "t1_ms": 392000,
+   "speaker": "Management",
+   "text": "our growth rate is accelerating. We now expect fiscal 2028 revenue to grow approximately 50% year-over-year compared with approximately 45% in our prior outlook. With that, let me provide color on our current business, beginning with data center. In our data center end market, we delivered record second quarter revenue of $2.17 billion, representing 18% sequential growth and 46% year-over-year growth. Both sequential and year-over-year growth accelerated from the first fiscal quarter when data center revenue increased 11% sequentially and 27% year-over-year. Now, looking ahead to the next slide, we'll look at the data center revenue. Looking ahead to the third fiscal quarter, we expect this acceleration to continue, with data center revenue forecasted to grow more than 20% sequentially and roughly 75%",
+   "parts": [
+    {
+     "t0_ms": 348000,
+     "text": "our growth rate is accelerating. We now expect fiscal 2028 revenue to grow approximately 50%"
+    },
+    {
+     "t0_ms": 353740,
+     "text": "year-over-year compared with approximately 45% in our prior outlook. With that, let me provide"
+    },
+    {
+     "t0_ms": 359160,
+     "text": "color on our current business, beginning with data center. In our data center end market,"
+    },
+    {
+     "t0_ms": 364440,
+     "text": "we delivered record second quarter revenue of $2.17 billion, representing 18% sequential growth"
+    },
+    {
+     "t0_ms": 370380,
+     "text": "and 46% year-over-year growth. Both sequential and year-over-year growth accelerated from the"
+    },
+    {
+     "t0_ms": 375860,
+     "text": "first fiscal quarter when data center revenue increased 11% sequentially and 27% year-over-year."
+    },
+    {
+     "t0_ms": 382680,
+     "text": "Now, looking ahead to the next slide, we'll look at the data center revenue."
+    },
+    {
+     "t0_ms": 383720,
+     "text": "Looking ahead to the third fiscal quarter, we expect this acceleration to continue,"
+    },
+    {
+     "t0_ms": 387160,
+     "text": "with data center revenue forecasted to grow more than 20% sequentially and roughly 75%"
+    }
+   ]
+  },
+  {
+   "t0_ms": 392000,
+   "t1_ms": 431520,
+   "speaker": "Management",
+   "text": "year-over-year. The drivers of this growth remain very broad-based as AI demand for our products continues to rise. We are seeing strong tailwinds across each of our data center businesses, including interconnect, switching, and custom. Connectivity continues to be a critical enabler of AI performance, driven by robust demand for both our interconnect and switching products. Thus far, the largest driver of growth for these businesses has been for scale-out applications. Here, Marvell's market-leading franchises in optical DSPs, switching, and broadband analog components continue to see significant demand. On the optical DSP side, 800-gig demand remains strong, while our 1.6T",
+   "parts": [
+    {
+     "t0_ms": 392000,
+     "text": "year-over-year. The drivers of this growth remain very broad-based as AI demand for our products"
+    },
+    {
+     "t0_ms": 396840,
+     "text": "continues to rise. We are seeing strong tailwinds across each of our data center businesses,"
+    },
+    {
+     "t0_ms": 401940,
+     "text": "including interconnect, switching, and custom. Connectivity continues to be a critical enabler"
+    },
+    {
+     "t0_ms": 407600,
+     "text": "of AI performance, driven by robust demand for both our interconnect and switching products."
+    },
+    {
+     "t0_ms": 412420,
+     "text": "Thus far, the largest"
+    },
+    {
+     "t0_ms": 413720,
+     "text": "driver of growth for these businesses has been for scale-out applications. Here, Marvell's market-leading"
+    },
+    {
+     "t0_ms": 418880,
+     "text": "franchises in optical DSPs, switching, and broadband analog components continue to see"
+    },
+    {
+     "t0_ms": 423600,
+     "text": "significant demand. On the optical DSP side, 800-gig demand remains strong, while our 1.6T"
+    }
+   ]
+  },
+  {
+   "t0_ms": 431520,
+   "t1_ms": 473540,
+   "speaker": "Management",
+   "text": "business is ramping rapidly, a trend we expect to accelerate further in fiscal 2028. Within scale-out switching, our business remains on track to more than double this year, driven by a strong ramp in our 51.2T business. We are seeing a lot of growth in our optical DSP, and we expect to see a lot of growth in our optical DSP products across a broadening array of customers. And within broadband analog, demand for our industry-leading TIAs and drivers continues to exceed expectations. Now, moving beyond scale-out, we expect this connectivity strength to broaden as hyperscalers build significantly larger AI clusters that increasingly span multiple data centers. As we've discussed on prior calls, aggregate bandwidth requirements for these scale-across networks are projected to be more than 10 times greater than those of current front-end DCI-DISK.",
+   "parts": [
+    {
+     "t0_ms": 431520,
+     "text": "business is ramping rapidly, a trend we expect to accelerate further in fiscal 2028. Within scale-out"
+    },
+    {
+     "t0_ms": 438480,
+     "text": "switching, our business remains on track to more than double this year, driven by a strong ramp in"
+    },
+    {
+     "t0_ms": 442680,
+     "text": "our 51.2T business. We are seeing a lot of growth in our optical DSP, and we expect to see a lot of"
+    },
+    {
+     "t0_ms": 443700,
+     "text": "growth in our optical DSP products across a broadening array of customers. And within broadband analog,"
+    },
+    {
+     "t0_ms": 448140,
+     "text": "demand for our industry-leading TIAs and drivers continues to exceed expectations."
+    },
+    {
+     "t0_ms": 454420,
+     "text": "Now, moving beyond scale-out, we expect this connectivity strength to broaden as hyperscalers"
+    },
+    {
+     "t0_ms": 459040,
+     "text": "build significantly larger AI clusters that increasingly span multiple data centers."
+    },
+    {
+     "t0_ms": 464260,
+     "text": "As we've discussed on prior calls, aggregate bandwidth requirements for these scale-across"
+    },
+    {
+     "t0_ms": 468740,
+     "text": "networks are projected to be more than 10 times greater than those of current front-end DCI-DISK."
+    }
+   ]
+  },
+  {
+   "t0_ms": 473700,
+   "t1_ms": 513020,
+   "speaker": "Management",
+   "text": "networks. Marvell is ideally positioned to address this opportunity through our leadership in coherent DSP-enabled 1.6 TZR and ZR plus DCI modules. Finally, we continue to expect the adoption of scale-up networking and AI infrastructure to create a massive new TAM for Marvell. Scale-up domains are expected to become significantly larger, requiring high bandwidth interconnects closely coupled with high-radix, low-latency switches. Now, while customers are initially deploying copper interconnect for scale-up networking, as cluster sizes grow, the reach and bandwidth limitations of copper are increasingly driving customers towards optical",
+   "parts": [
+    {
+     "t0_ms": 473700,
+     "text": "networks. Marvell is ideally positioned to address this opportunity through our leadership"
+    },
+    {
+     "t0_ms": 478160,
+     "text": "in coherent DSP-enabled 1.6 TZR and ZR plus DCI modules. Finally, we continue to expect the"
+    },
+    {
+     "t0_ms": 488420,
+     "text": "adoption of scale-up networking and AI infrastructure to create a massive new TAM for Marvell."
+    },
+    {
+     "t0_ms": 494260,
+     "text": "Scale-up domains are expected to become significantly larger, requiring high bandwidth"
+    },
+    {
+     "t0_ms": 498520,
+     "text": "interconnects closely coupled with high-radix, low-latency switches. Now, while customers are"
+    },
+    {
+     "t0_ms": 503960,
+     "text": "initially deploying copper interconnect for scale-up networking, as cluster sizes grow,"
+    },
+    {
+     "t0_ms": 508220,
+     "text": "the reach and bandwidth limitations of copper are increasingly driving customers towards optical"
+    }
+   ]
+  },
+  {
+   "t0_ms": 513020,
+   "t1_ms": 553480,
+   "speaker": "Management",
+   "text": "interconnects, as well as purpose-built UA-Link, eSUN, and NV-Link scale-up switches. As a result, we are investing aggressively to lead the industry in next-generation scale-up optical interconnect and switching technologies. On the interconnect side, pluggable modulators are expected to be more efficient and more efficient than ever before. Scale-up modules remain the primary form factor for scale-out networks, and we do not expect that to change. However, the significantly higher bandwidth density required by scale-up networks is best served by bringing optics much closer to XPUs and switches. While the transition in scale-up networks from copper to optics is expected to take several years, with both technologies coexisting, customers are aggressively planning scale-up optics deployments starting as",
+   "parts": [
+    {
+     "t0_ms": 513020,
+     "text": "interconnects, as well as purpose-built UA-Link, eSUN, and NV-Link scale-up switches. As a result,"
+    },
+    {
+     "t0_ms": 519559,
+     "text": "we are investing aggressively to lead the industry in next-generation scale-up optical"
+    },
+    {
+     "t0_ms": 523940,
+     "text": "interconnect and switching technologies. On the interconnect side, pluggable"
+    },
+    {
+     "t0_ms": 528320,
+     "text": "modulators are expected to be more efficient and more efficient than ever before."
+    },
+    {
+     "t0_ms": 528520,
+     "text": "Scale-up modules remain the primary form factor for scale-out networks, and we do not expect that"
+    },
+    {
+     "t0_ms": 532780,
+     "text": "to change. However, the significantly higher bandwidth density required by scale-up networks"
+    },
+    {
+     "t0_ms": 537920,
+     "text": "is best served by bringing optics much closer to XPUs and switches. While the transition in"
+    },
+    {
+     "t0_ms": 543800,
+     "text": "scale-up networks from copper to optics is expected to take several years, with both"
+    },
+    {
+     "t0_ms": 547760,
+     "text": "technologies coexisting, customers are aggressively planning scale-up optics deployments starting as"
+    }
+   ]
+  },
+  {
+   "t0_ms": 553480,
+   "t1_ms": 588300,
+   "speaker": "Management",
+   "text": "early as next year. Given how early we are in this transition, customers are evaluating a broad range of potential solutions with multiple technologies under consideration, including NPO and CPO packaging options, with both leveraging advanced silicon photonics as well as three different modulator technologies, MZM, EAM, and MRM. Each of these choices has different considerations around cost, power, and technology maturity. Importantly, given the breadth of our optical portfolio across modulation technologies, fully supported by our broadband analog TIAs and drivers, we are looking to develop a range of technologies that will be able to meet the needs",
+   "parts": [
+    {
+     "t0_ms": 553480,
+     "text": "early as next year. Given how early we are in this transition, customers are"
+    },
+    {
+     "t0_ms": 558500,
+     "text": "evaluating a broad range of potential solutions with multiple technologies under consideration,"
+    },
+    {
+     "t0_ms": 563000,
+     "text": "including NPO and CPO packaging options, with both leveraging advanced silicon photonics as well as"
+    },
+    {
+     "t0_ms": 569380,
+     "text": "three different modulator technologies, MZM, EAM, and MRM. Each of these choices has different"
+    },
+    {
+     "t0_ms": 576320,
+     "text": "considerations around cost, power, and technology maturity. Importantly, given the breadth of our"
+    },
+    {
+     "t0_ms": 582000,
+     "text": "optical portfolio across modulation technologies, fully supported by our broadband analog TIAs and"
+    },
+    {
+     "t0_ms": 587500,
+     "text": "drivers, we are looking to develop a range of technologies that will be able to meet the needs"
+    }
+   ]
+  },
+  {
+   "t0_ms": 588300,
+   "t1_ms": 630730,
+   "speaker": "Management",
+   "text": "of our customers. In addition to our ongoing success in CPO, we are also seeing a strong adoption of our NPO solutions at multiple customers. As a result, our fiscal 2028 revenue outlook for scale-up optics has increased meaningfully compared to prior expectations, positioning Marvell to be one of the largest and most important companies in the world. Marvell is uniquely positioned to support all three purpose-built scale-up protocols through our",
+   "parts": [
+    {
+     "t0_ms": 588300,
+     "text": "of our customers. In addition to our ongoing success in CPO, we are also seeing a strong"
+    },
+    {
+     "t0_ms": 606360,
+     "text": "adoption of our NPO solutions at multiple customers. As a result, our fiscal 2028 revenue"
+    },
+    {
+     "t0_ms": 612100,
+     "text": "outlook for scale-up optics has increased meaningfully compared to prior expectations,"
+    },
+    {
+     "t0_ms": 616740,
+     "text": "positioning Marvell to be one of the largest and most important companies in the world."
+    },
+    {
+     "t0_ms": 618300,
+     "text": "Marvell is uniquely positioned to support all three purpose-built scale-up protocols through our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 630730,
+   "t1_ms": 675730,
+   "speaker": "Management",
+   "text": "internally developed UAL and eSUN switches, as well as our expanded partnership with NVIDIA around NVLink Fusion. Our scale-up switches leverage decades of experience developing large, reticle-sized switch silicon, combined with our in-house, best-in-class, high-performance CERTIs technology. The close coupling of optics and switching in scale-up networks provides another important differentiator for Marvell, given our market-leading positions in both technologies. This allows us to deliver highly optimized scale-up solutions designed to provide customers with exceptional performance and reliability while accelerating time to market. As a result, we are engaged in multiple deep discussions with Tier 1 customers across our scale-up switch portfolio, with each engagement representing a multi-billion dollar lifetime",
+   "parts": [
+    {
+     "t0_ms": 630730,
+     "text": "internally developed UAL and eSUN switches, as well as our expanded partnership with NVIDIA around"
+    },
+    {
+     "t0_ms": 635790,
+     "text": "NVLink Fusion. Our scale-up switches leverage decades of experience developing large,"
+    },
+    {
+     "t0_ms": 640890,
+     "text": "reticle-sized switch silicon, combined with our in-house, best-in-class,"
+    },
+    {
+     "t0_ms": 644470,
+     "text": "high-performance CERTIs technology. The close coupling of optics and switching in scale-up"
+    },
+    {
+     "t0_ms": 649610,
+     "text": "networks provides another important differentiator for Marvell, given our market-leading positions"
+    },
+    {
+     "t0_ms": 654590,
+     "text": "in both technologies. This allows us to deliver highly optimized scale-up solutions designed"
+    },
+    {
+     "t0_ms": 659970,
+     "text": "to provide customers with exceptional performance and reliability while accelerating time to"
+    },
+    {
+     "t0_ms": 665230,
+     "text": "market. As a result, we are engaged in multiple deep discussions with Tier 1 customers across"
+    },
+    {
+     "t0_ms": 671230,
+     "text": "our scale-up switch portfolio, with each engagement representing a multi-billion dollar lifetime"
+    }
+   ]
+  },
+  {
+   "t0_ms": 675730,
+   "t1_ms": 717370,
+   "speaker": "Management",
+   "text": "revenue opportunity, given the expected size of the scale-up TAM. Taken together, we are extremely excited about the continued acceleration and broadening of networking demand as AI architectures require ever-increasing performance across scale-out, scale-across, and scale-up domains. Okay, now let's turn to the custom business within our data center and market. As I mentioned earlier, we are seeing a significant acceleration in custom demand in the second half of this year. We remain confident that this business will more than double year-over-year in fiscal 2028 and accelerate significantly in the future. We expect this growth to be driven by both our XPU and XPU-attached products. At XPUs,",
+   "parts": [
+    {
+     "t0_ms": 675730,
+     "text": "revenue opportunity, given the expected size of the scale-up TAM."
+    },
+    {
+     "t0_ms": 679610,
+     "text": "Taken together, we are extremely excited about the continued acceleration and broadening"
+    },
+    {
+     "t0_ms": 684710,
+     "text": "of networking demand as AI architectures require ever-increasing performance across scale-out,"
+    },
+    {
+     "t0_ms": 690930,
+     "text": "scale-across, and scale-up domains. Okay, now let's turn to the custom business within our"
+    },
+    {
+     "t0_ms": 696710,
+     "text": "data center and market. As I mentioned earlier, we are seeing a significant acceleration in custom"
+    },
+    {
+     "t0_ms": 701250,
+     "text": "demand in the second half of this year. We remain confident that this business will more than double"
+    },
+    {
+     "t0_ms": 705870,
+     "text": "year-over-year in fiscal 2028 and accelerate significantly in the future."
+    },
+    {
+     "t0_ms": 709610,
+     "text": "We expect this growth to be driven by both our XPU and XPU-attached products. At XPUs,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 717370,
+   "t1_ms": 762270,
+   "speaker": "Management",
+   "text": "we continue to make strong progress across current and next-generation programs at multiple hyperscalers. And at XPU-attached, we are benefiting from increasing demand for both CXL and custom NICs. Looking further ahead, we expect our custom business to continue to deliver strong revenue growth as we see ongoing robust design activity with hyperscale customers. An example of this momentum is the 8K we filed last week, disclosing an expanded commercial agreement and associated warrant with a key hyperscaler, one of the largest adopters of custom silicon. The warrant agreement encompasses custom programs already in execution that were awarded to Marvell over the past several years, new design wins, and future potential programs.",
+   "parts": [
+    {
+     "t0_ms": 717370,
+     "text": "we continue to make strong progress across current and next-generation programs at multiple"
+    },
+    {
+     "t0_ms": 721870,
+     "text": "hyperscalers. And at XPU-attached, we are benefiting from increasing demand for both"
+    },
+    {
+     "t0_ms": 726650,
+     "text": "CXL and custom NICs. Looking further ahead, we expect our custom business to continue"
+    },
+    {
+     "t0_ms": 732650,
+     "text": "to deliver strong revenue growth as we see ongoing robust design activity with hyperscale"
+    },
+    {
+     "t0_ms": 737670,
+     "text": "customers."
+    },
+    {
+     "t0_ms": 739610,
+     "text": "An example of this momentum is the 8K we filed last week, disclosing an expanded commercial"
+    },
+    {
+     "t0_ms": 744070,
+     "text": "agreement and associated warrant with a key hyperscaler, one of the largest adopters of"
+    },
+    {
+     "t0_ms": 748590,
+     "text": "custom silicon."
+    },
+    {
+     "t0_ms": 750610,
+     "text": "The warrant agreement encompasses custom programs already in execution that were awarded to"
+    },
+    {
+     "t0_ms": 754870,
+     "text": "Marvell over the past several years, new design wins, and future potential programs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 762270,
+   "t1_ms": 804570,
+   "speaker": "Management",
+   "text": "The warrant structure reflects the scale and long-term potential of the relationship and further aligns common interests as our work together expands. It spans a broad range of custom silicon programs, including those that attach to the TPU ecosystem, such as AI inference accelerators, storage controllers, network interface controllers, memory interface controllers, and near-memory compute. We look forward to continue working closely with this customer to enable the next generation of AI infrastructure. This expanding range of attached products and the scale of this agreement provides significant validation of the XPU attached category. We are excited to see both the use cases and attach rates for this category of products continue to broaden.",
+   "parts": [
+    {
+     "t0_ms": 762270,
+     "text": "The warrant structure reflects the scale and long-term potential of the relationship and"
+    },
+    {
+     "t0_ms": 766310,
+     "text": "further aligns common interests as our work together expands."
+    },
+    {
+     "t0_ms": 769330,
+     "text": "It spans a broad range of custom silicon programs, including those that attach to the TPU ecosystem,"
+    },
+    {
+     "t0_ms": 775070,
+     "text": "such as AI inference accelerators, storage controllers, network interface controllers,"
+    },
+    {
+     "t0_ms": 780370,
+     "text": "memory interface controllers, and near-memory compute."
+    },
+    {
+     "t0_ms": 783650,
+     "text": "We look forward to continue working closely with this customer to enable the next generation"
+    },
+    {
+     "t0_ms": 788270,
+     "text": "of AI infrastructure."
+    },
+    {
+     "t0_ms": 790330,
+     "text": "This expanding range of attached products and the scale of this agreement provides significant"
+    },
+    {
+     "t0_ms": 794230,
+     "text": "validation of the XPU attached category."
+    },
+    {
+     "t0_ms": 796270,
+     "text": "We are excited to see both the use cases and attach rates for this category of products"
+    },
+    {
+     "t0_ms": 802810,
+     "text": "continue to broaden."
+    }
+   ]
+  },
+  {
+   "t0_ms": 804570,
+   "t1_ms": 847590,
+   "speaker": "Management",
+   "text": "These products are built upon a rich portfolio of Marvell IP and perform specialized functions designed to significantly improve the performance and efficiency of the overall AI data center. This is another strong confirmation of Marvell's leadership in connectivity, compute, and memory technologies and the increasingly important role they play in enabling our customers to design more advanced AI infrastructure. In terms of the impact of the new Warren Agreement, revenue from programs covered by the agreement through fiscal 2028 is already reflected in the overall custom revenue target we have previously provided. Looking at fiscal 2029 and beyond, this agreement, along with several additional programs, gives us even greater confidence in our ability to grow the custom business to a significantly",
+   "parts": [
+    {
+     "t0_ms": 804570,
+     "text": "These products are built upon a rich portfolio of Marvell IP and perform specialized functions"
+    },
+    {
+     "t0_ms": 808830,
+     "text": "designed to significantly improve the performance and efficiency of the overall AI data center."
+    },
+    {
+     "t0_ms": 814030,
+     "text": "This is another strong confirmation of Marvell's leadership in connectivity, compute, and memory"
+    },
+    {
+     "t0_ms": 818970,
+     "text": "technologies and the increasingly important role they play in enabling our customers to"
+    },
+    {
+     "t0_ms": 823390,
+     "text": "design more advanced AI infrastructure."
+    },
+    {
+     "t0_ms": 826270,
+     "text": "In terms of the impact of the new Warren Agreement, revenue from programs covered by"
+    },
+    {
+     "t0_ms": 830390,
+     "text": "the agreement through fiscal 2028 is already reflected in the overall custom revenue target"
+    },
+    {
+     "t0_ms": 835390,
+     "text": "we have previously provided."
+    },
+    {
+     "t0_ms": 837630,
+     "text": "Looking at fiscal 2029 and beyond, this agreement, along with several additional programs, gives"
+    },
+    {
+     "t0_ms": 843130,
+     "text": "us even greater confidence in our ability to grow the custom business to a significantly"
+    }
+   ]
+  },
+  {
+   "t0_ms": 847590,
+   "t1_ms": 889060,
+   "speaker": "Management",
+   "text": "larger scale in that timeframe. We look forward to sharing more details on the long-term trajectory of our custom business at our upcoming investor day. In addition to our communications and other end market, we delivered second quarter revenue of $568 million, down 3% sequentially and up 10% year-over-year. Going forward, we expect revenue to remain somewhat lumpy on a quarterly basis given the mix of businesses in this segment. For the third fiscal quarter, we expect revenue to decline in the low-to-mid teens percentage range both sequentially and year-over-year, followed by a solid sequential recovery in the fourth quarter. To summarize, the momentum across our business remains exceedingly high. We are looking forward to seeing the growth of our business in the next quarter. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 847590,
+     "text": "larger scale in that timeframe."
+    },
+    {
+     "t0_ms": 850570,
+     "text": "We look forward to sharing more details on the long-term trajectory of our custom business"
+    },
+    {
+     "t0_ms": 854870,
+     "text": "at our upcoming investor day."
+    },
+    {
+     "t0_ms": 856270,
+     "text": "In addition to our communications and other end market, we delivered second quarter revenue"
+    },
+    {
+     "t0_ms": 862030,
+     "text": "of $568 million, down 3% sequentially and up 10% year-over-year."
+    },
+    {
+     "t0_ms": 868210,
+     "text": "Going forward, we expect revenue to remain somewhat lumpy on a quarterly basis given"
+    },
+    {
+     "t0_ms": 872630,
+     "text": "the mix of businesses in this segment."
+    },
+    {
+     "t0_ms": 874510,
+     "text": "For the third fiscal quarter, we expect revenue to decline in the low-to-mid teens percentage"
+    },
+    {
+     "t0_ms": 878730,
+     "text": "range both sequentially and year-over-year, followed by a solid sequential recovery in"
+    },
+    {
+     "t0_ms": 883550,
+     "text": "the fourth quarter."
+    },
+    {
+     "t0_ms": 884550,
+     "text": "To summarize, the momentum across our business remains exceedingly high."
+    },
+    {
+     "t0_ms": 887980,
+     "text": "We are looking forward to seeing the growth of our business in the next quarter."
+    },
+    {
+     "t0_ms": 888980,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 889820,
+   "t1_ms": 932440,
+   "speaker": "Management",
+   "text": "In the near term, that strength is reflected in the significant increases to our outlook. Compared with the expectations we provided just one quarter ago, we have increased our fiscal 2027 revenue outlook by approximately $500 million and our fiscal 2028 outlook by approximately $1.5 billion. The center of this higher outlook is our data center business, where growth continues to both accelerate and broaden. We have increased our forecast for data center revenue growth in fiscal 2027 from our prior expectation of 50% to approximately 60%, and we see potential for further acceleration in fiscal 2028. Within connectivity, we continue to see strength established in areas such as optical DSPs,",
+   "parts": [
+    {
+     "t0_ms": 889820,
+     "text": "In the near term, that strength is reflected in the significant increases to our outlook."
+    },
+    {
+     "t0_ms": 895600,
+     "text": "Compared with the expectations we provided just one quarter ago, we have increased our"
+    },
+    {
+     "t0_ms": 899900,
+     "text": "fiscal 2027 revenue outlook by approximately $500 million and our fiscal 2028 outlook by"
+    },
+    {
+     "t0_ms": 906400,
+     "text": "approximately $1.5 billion."
+    },
+    {
+     "t0_ms": 908200,
+     "text": "The center of this higher outlook is our data center business, where growth continues to"
+    },
+    {
+     "t0_ms": 913360,
+     "text": "both accelerate and broaden."
+    },
+    {
+     "t0_ms": 915000,
+     "text": "We have increased our forecast for data center revenue growth in fiscal 2027 from our prior"
+    },
+    {
+     "t0_ms": 919820,
+     "text": "expectation of 50% to approximately 60%, and we see potential for further acceleration"
+    },
+    {
+     "t0_ms": 925320,
+     "text": "in fiscal 2028."
+    },
+    {
+     "t0_ms": 927740,
+     "text": "Within connectivity, we continue to see strength established in areas such as optical DSPs,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 932740,
+   "t1_ms": 974480,
+   "speaker": "Management",
+   "text": "while also seeing significant growth across broadband analog TIAs and drivers, scale across DCI modules, and scale-out switching. Each of these three businesses is on or ahead of the trajectory toward the billion-dollar annualized revenue run rate we highlighted last quarter. The scale-up opportunity remains massive and is still largely ahead of us. Marbella is ideally positioned for the transition toward NPO and CPO optical interconnects, as well as the adoption of purpose-built scale-out switches. This business, including both XPU and XPU attached, is also on a strong growth trajectory, both near-term and longer-term. The 8K we filed last week highlights the expanded scope of our relationship with a key hyperscaler",
+   "parts": [
+    {
+     "t0_ms": 932740,
+     "text": "while also seeing significant growth across broadband analog TIAs and drivers, scale across"
+    },
+    {
+     "t0_ms": 937660,
+     "text": "DCI modules, and scale-out switching."
+    },
+    {
+     "t0_ms": 940960,
+     "text": "Each of these three businesses is on or ahead of the trajectory toward the billion-dollar"
+    },
+    {
+     "t0_ms": 945300,
+     "text": "annualized revenue run rate we highlighted last quarter."
+    },
+    {
+     "t0_ms": 947860,
+     "text": "The scale-up opportunity remains massive and is still largely ahead of us."
+    },
+    {
+     "t0_ms": 953380,
+     "text": "Marbella is ideally positioned for the transition toward NPO and CPO optical interconnects,"
+    },
+    {
+     "t0_ms": 958220,
+     "text": "as well as the adoption of purpose-built scale-out switches."
+    },
+    {
+     "t0_ms": 961800,
+     "text": "This business, including both XPU and XPU attached, is also on a strong growth trajectory,"
+    },
+    {
+     "t0_ms": 967740,
+     "text": "both near-term and longer-term."
+    },
+    {
+     "t0_ms": 969780,
+     "text": "The 8K we filed last week highlights the expanded scope of our relationship with a key hyperscaler"
+    }
+   ]
+  },
+  {
+   "t0_ms": 974480,
+   "t1_ms": 1018690,
+   "speaker": "Management",
+   "text": "and reinforces our confidence in the increasingly important role custom silicon will play in the ongoing AI infrastructure build-out. We look forward to sharing more about the longer-term growth opportunities we see for Marbella at our Investor Day on October 6th in New York City, and we hope to see many of you there. Now, with that, I'll turn the call over to Dan for more details on our recent results and outlook. Thank you, Matt. Good afternoon, everyone. Before I get into the financials, since this is my first earnings call as Marbella's CFO, I want to spend a moment on three things. Why I joined Marbella. What I hope to accomplish as CFO, and what I believe that should ultimately mean for our stockholders.",
+   "parts": [
+    {
+     "t0_ms": 974480,
+     "text": "and reinforces our confidence in the increasingly important role custom silicon will play"
+    },
+    {
+     "t0_ms": 979480,
+     "text": "in the ongoing AI infrastructure build-out."
+    },
+    {
+     "t0_ms": 982360,
+     "text": "We look forward to sharing more about the longer-term growth opportunities we see for Marbella"
+    },
+    {
+     "t0_ms": 987000,
+     "text": "at our Investor Day on October 6th in New York City, and we hope to see many of you there."
+    },
+    {
+     "t0_ms": 992640,
+     "text": "Now, with that, I'll turn the call over to Dan for more details on our recent results and outlook."
+    },
+    {
+     "t0_ms": 999430,
+     "text": "Thank you, Matt."
+    },
+    {
+     "t0_ms": 1000310,
+     "text": "Good afternoon, everyone."
+    },
+    {
+     "t0_ms": 1002130,
+     "text": "Before I get into the financials, since this is my first earnings call as Marbella's CFO,"
+    },
+    {
+     "t0_ms": 1007290,
+     "text": "I want to spend a moment on three things."
+    },
+    {
+     "t0_ms": 1010070,
+     "text": "Why I joined Marbella."
+    },
+    {
+     "t0_ms": 1010950,
+     "text": "What I hope to accomplish as CFO, and what I believe that should ultimately mean for our stockholders."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1019690,
+   "t1_ms": 1064230,
+   "speaker": "Management",
+   "text": "First, I joined Marbella because I believe the company has incredible growth potential. I believe Marbella is at a unique inflection point with a broad and diverse set of capabilities that have been intentionally built and are ideally aligned to enable the future of AI infrastructure. Second, my goal as CFO is to help the company grow. My goal as CFO is to help the company grow. My goal as CFO is to help Marbella scale efficiently and effectively to capture what I expect to be a tremendous opportunity. The company has a strong history of disciplined execution, and maintaining that rigor will remain paramount as we strategically allocate capital to fuel our growth. And third, I expect that growth to translate into significant value creation for our stockholders.",
+   "parts": [
+    {
+     "t0_ms": 1019690,
+     "text": "First, I joined Marbella because I believe the company has incredible growth potential."
+    },
+    {
+     "t0_ms": 1025270,
+     "text": "I believe Marbella is at a unique inflection point with a broad and diverse set of capabilities"
+    },
+    {
+     "t0_ms": 1030810,
+     "text": "that have been intentionally built and are ideally aligned to enable the future of AI infrastructure."
+    },
+    {
+     "t0_ms": 1038630,
+     "text": "Second, my goal as CFO is to help the company grow."
+    },
+    {
+     "t0_ms": 1039829,
+     "text": "My goal as CFO is to help the company grow."
+    },
+    {
+     "t0_ms": 1040069,
+     "text": "My goal as CFO is to help Marbella scale efficiently and effectively to capture what I expect to be a tremendous opportunity."
+    },
+    {
+     "t0_ms": 1047550,
+     "text": "The company has a strong history of disciplined execution, and maintaining that rigor will remain paramount as we strategically allocate capital to fuel our growth."
+    },
+    {
+     "t0_ms": 1058630,
+     "text": "And third, I expect that growth to translate into significant value creation for our stockholders."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1065030,
+   "t1_ms": 1107850,
+   "speaker": "Management",
+   "text": "I recognize that the growth opportunity ahead must be matched by its quality. And I plan to remain intensely focused on expanding operating margins, growing cash flow and driving attractive stockholder returns. With that, let me turn to our financial results for the second quarter of fiscal 2027. Revenue was $2.739 billion, studying growing 37% year over year and 13% sequentially. Data Center was our largest end market, contributing 79% of total revenue and growing 46% year over year . Next on today's report are two reports for 2 more slides. Here's the first one, which will focus on anxiety and the secrets we must 112ys to stay safe from. percent year-over-year. Gap gross margin was 53.1 percent. Non-gap gross margin was 58.9",
+   "parts": [
+    {
+     "t0_ms": 1065030,
+     "text": "I recognize that the growth opportunity ahead must be matched by its quality."
+    },
+    {
+     "t0_ms": 1070070,
+     "text": "And I plan to remain intensely focused on expanding operating margins,"
+    },
+    {
+     "t0_ms": 1075010,
+     "text": "growing cash flow and driving attractive stockholder returns."
+    },
+    {
+     "t0_ms": 1080010,
+     "text": "With that, let me turn to our financial results for the second quarter of fiscal 2027."
+    },
+    {
+     "t0_ms": 1084270,
+     "text": "Revenue was $2.739 billion, studying"
+    },
+    {
+     "t0_ms": 1087090,
+     "text": "growing 37% year over year and 13% sequentially."
+    },
+    {
+     "t0_ms": 1090050,
+     "text": "Data Center was our largest end market, contributing 79% of total revenue"
+    },
+    {
+     "t0_ms": 1096010,
+     "text": "and growing 46% year over year ."
+    },
+    {
+     "t0_ms": 1098970,
+     "text": "Next on today's report are two reports for 2 more slides."
+    },
+    {
+     "t0_ms": 1099430,
+     "text": "Here's the first one, which will focus on anxiety and the secrets we must 112ys to stay safe from."
+    },
+    {
+     "t0_ms": 1099750,
+     "text": "percent year-over-year. Gap gross margin was 53.1 percent. Non-gap gross margin was 58.9"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1107850,
+   "t1_ms": 1151330,
+   "speaker": "Management",
+   "text": "percent, slightly above the midpoint of our guidance. Moving to operating expenses, gap operating expenses were $996 million, including stock-based comp, amortization of acquired intangible assets, restructuring costs, and acquisition-related costs. Non-gap operating expenses were $611 million, slightly above our guidance. Gap operating margin was 16.8 percent, while non-gap operating margin was 36.6 percent. Non-gap operating margin expanded 180 basis points year-over-year and 160 basis points sequentially, demonstrating the significant operating leverage",
+   "parts": [
+    {
+     "t0_ms": 1107850,
+     "text": "percent, slightly above the midpoint of our guidance. Moving to operating expenses, gap"
+    },
+    {
+     "t0_ms": 1114630,
+     "text": "operating expenses were $996 million, including stock-based comp, amortization of acquired"
+    },
+    {
+     "t0_ms": 1121370,
+     "text": "intangible assets, restructuring costs, and acquisition-related costs. Non-gap operating"
+    },
+    {
+     "t0_ms": 1128230,
+     "text": "expenses were $611 million, slightly above our guidance. Gap operating margin was 16.8 percent,"
+    },
+    {
+     "t0_ms": 1135870,
+     "text": "while non-gap operating margin was 36.6 percent. Non-gap operating margin expanded 180 basis points"
+    },
+    {
+     "t0_ms": 1144310,
+     "text": "year-over-year and 160 basis points sequentially, demonstrating the significant operating leverage"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1151330,
+   "t1_ms": 1193910,
+   "speaker": "Management",
+   "text": "in our model. For the second quarter, gap earnings per diluted share were $0.33. Non-gap earnings per diluted share were $0.94, a penny above the midpoint of our guidance, and up 40 percent year-over-year. Now, turning to cash flow in the balance sheet. Cash flow from operations was $606 million in the second quarter, down slightly quarter-over-quarter, primarily reflecting the higher capacity prepayments to suppliers in support of Marvell's future growth. Inventory at the end of the second quarter was $1.36 billion, just slightly from the prior quarter. During the quarter, we repurchased $200 million of",
+   "parts": [
+    {
+     "t0_ms": 1151330,
+     "text": "in our model. For the second quarter, gap earnings per diluted share were $0.33."
+    },
+    {
+     "t0_ms": 1158230,
+     "text": "Non-gap earnings per diluted share were $0.94, a penny above the midpoint of our guidance,"
+    },
+    {
+     "t0_ms": 1164210,
+     "text": "and up 40 percent year-over-year. Now, turning to cash flow in the balance sheet."
+    },
+    {
+     "t0_ms": 1169910,
+     "text": "Cash flow from operations was $606 million in the second quarter, down slightly quarter-over-quarter,"
+    },
+    {
+     "t0_ms": 1176430,
+     "text": "primarily reflecting the higher capacity prepayments to suppliers in support of Marvell's"
+    },
+    {
+     "t0_ms": 1181710,
+     "text": "future growth. Inventory at the end of the second quarter was $1.36 billion,"
+    },
+    {
+     "t0_ms": 1188230,
+     "text": "just slightly from the prior quarter. During the quarter, we repurchased $200 million of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1193910,
+   "t1_ms": 1232290,
+   "speaker": "Management",
+   "text": "our common stock through our ongoing capital return program, and returned $54 million to stockholders through cash dividends. At the end of the second quarter, total debt was $4.96 billion, with gross debt to EBITDA ratio of 1.32 times and net debt to EBITDA ratio of 0.27 times. Turning to our guidance for the third quarter, we reported a decline in fiscal year-over-year. We are forecasting revenue at $3.15 billion, plus or minus 5 percent. We expect gap gross margin to be between 52.9 percent and 53.9 percent.",
+   "parts": [
+    {
+     "t0_ms": 1193910,
+     "text": "our common stock through our ongoing capital return program, and returned $54 million to"
+    },
+    {
+     "t0_ms": 1199730,
+     "text": "stockholders through cash dividends. At the end of the second quarter, total debt was"
+    },
+    {
+     "t0_ms": 1205310,
+     "text": "$4.96 billion, with gross debt to EBITDA ratio of 1.32 times and net debt to EBITDA ratio"
+    },
+    {
+     "t0_ms": 1213610,
+     "text": "of 0.27 times. Turning to our guidance for the third quarter, we reported a decline in"
+    },
+    {
+     "t0_ms": 1218210,
+     "text": "fiscal year-over-year. We are forecasting revenue at $3.15 billion, plus or minus 5 percent."
+    },
+    {
+     "t0_ms": 1226190,
+     "text": "We expect gap gross margin to be between 52.9 percent and 53.9 percent."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1232970,
+   "t1_ms": 1271980,
+   "speaker": "Management",
+   "text": "We expect our non-gap gross margin to be between 57.5 percent and 58.5 percent. Revenue levels and product mix remain key determinants of gross margin in any given quarter, with the forecasted growth of $3.15 billion to $3.15 billion. We expected acceleration of our custom business, creating the sequential headwind in the fiscal third quarter. We currently expect to maintain gross margin in this range in the fourth quarter. We expect gap operating expense of approximately $1.015 billion in Q3 and non-gap operating",
+   "parts": [
+    {
+     "t0_ms": 1232970,
+     "text": "We expect our non-gap gross margin to be between 57.5 percent and 58.5 percent. Revenue levels"
+    },
+    {
+     "t0_ms": 1242130,
+     "text": "and product mix remain key determinants of gross margin in any given quarter,"
+    },
+    {
+     "t0_ms": 1246610,
+     "text": "with the forecasted growth of $3.15 billion to $3.15 billion."
+    },
+    {
+     "t0_ms": 1248210,
+     "text": "We expected acceleration of our custom business, creating the sequential headwind in the fiscal"
+    },
+    {
+     "t0_ms": 1256450,
+     "text": "third quarter. We currently expect to maintain gross margin in this range in the fourth quarter."
+    },
+    {
+     "t0_ms": 1264620,
+     "text": "We expect gap operating expense of approximately $1.015 billion in Q3 and non-gap operating"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1271980,
+   "t1_ms": 1311740,
+   "speaker": "Management",
+   "text": "expenses of approximately $655 million. We expect gap other income and expense, including including interest on our debt, to be an expense of approximately $86 million. On a non-GAAP basis, we expect other income and expense, including interest on our debt, to be an expense of approximately $36 million. We expect a non-GAAP tax rate of 11%. Looking ahead, given the significant increase in our revenue and earnings outlook, we expect non-GAAP tax rate of approximately 13% in fiscal 2028. We expect basic weighted average shares",
+   "parts": [
+    {
+     "t0_ms": 1271980,
+     "text": "expenses of approximately $655 million. We expect gap other income and expense, including"
+    },
+    {
+     "t0_ms": 1278700,
+     "text": "including interest on our debt, to be an expense of approximately $86 million."
+    },
+    {
+     "t0_ms": 1284220,
+     "text": "On a non-GAAP basis, we expect other income and expense, including interest on our debt,"
+    },
+    {
+     "t0_ms": 1289240,
+     "text": "to be an expense of approximately $36 million. We expect a non-GAAP tax rate of 11%."
+    },
+    {
+     "t0_ms": 1297280,
+     "text": "Looking ahead, given the significant increase in our revenue and earnings outlook, we expect"
+    },
+    {
+     "t0_ms": 1303400,
+     "text": "non-GAAP tax rate of approximately 13% in fiscal 2028. We expect basic weighted average shares"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1311740,
+   "t1_ms": 1356090,
+   "speaker": "Management",
+   "text": "outstanding of approximately $900 million and diluted weighted average shares outstanding of approximately $921 million, both roughly flat with the second quarter. We anticipate GAAP earnings per diluted share of $0.48 to $0.58. We expect non-GAAP earnings per diluted share of $1.05 to $1.05. As we look ahead, we intend to continue investing in our business to drive substantial revenue growth in the years ahead while delivering operating leverage. For fiscal 2027, we expect non-GAAP operating expenses of approximately $2.55 billion, slightly above our prior expectation",
+   "parts": [
+    {
+     "t0_ms": 1311740,
+     "text": "outstanding of approximately $900 million and diluted weighted average shares outstanding"
+    },
+    {
+     "t0_ms": 1317120,
+     "text": "of approximately $921 million, both roughly flat with the second quarter."
+    },
+    {
+     "t0_ms": 1323020,
+     "text": "We anticipate GAAP earnings per diluted share of $0.48 to $0.58. We expect non-GAAP earnings"
+    },
+    {
+     "t0_ms": 1330440,
+     "text": "per diluted share of $1.05 to $1.05."
+    },
+    {
+     "t0_ms": 1333400,
+     "text": "As we look ahead, we intend to continue investing in our business to drive substantial revenue"
+    },
+    {
+     "t0_ms": 1341450,
+     "text": "growth in the years ahead while delivering operating leverage. For fiscal 2027, we expect"
+    },
+    {
+     "t0_ms": 1349650,
+     "text": "non-GAAP operating expenses of approximately $2.55 billion, slightly above our prior expectation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1356090,
+   "t1_ms": 1400170,
+   "speaker": "Management",
+   "text": "of $2.45 billion, reflecting the significantly larger revenue opportunity we now see. Importantly, we expect revenue growth of approximately $1.5 billion to $1.5 billion. We expect revenue to continue growing substantially faster than operating expenses. As a result, we expect significant operating leverage, with non-GAAP operating margin likely to enter our 38% to 40% long-term target range in Q4 of this fiscal year. Looking ahead to fiscal 2028, we currently expect non-GAAP operating expenses to grow at roughly half the rate of revenue growth in percentage terms. This reflects continued investment against an expanding opportunity set, while yielding",
+   "parts": [
+    {
+     "t0_ms": 1356090,
+     "text": "of $2.45 billion, reflecting the significantly larger revenue opportunity we now see."
+    },
+    {
+     "t0_ms": 1363190,
+     "text": "Importantly, we expect revenue growth of approximately $1.5 billion to $1.5 billion."
+    },
+    {
+     "t0_ms": 1364850,
+     "text": "We expect revenue to continue growing substantially faster than operating expenses. As a result,"
+    },
+    {
+     "t0_ms": 1370330,
+     "text": "we expect significant operating leverage, with non-GAAP operating margin likely to enter"
+    },
+    {
+     "t0_ms": 1376070,
+     "text": "our 38% to 40% long-term target range in Q4 of this fiscal year."
+    },
+    {
+     "t0_ms": 1384330,
+     "text": "Looking ahead to fiscal 2028, we currently expect non-GAAP operating expenses to grow"
+    },
+    {
+     "t0_ms": 1390650,
+     "text": "at roughly half the rate of revenue growth in percentage terms."
+    },
+    {
+     "t0_ms": 1394850,
+     "text": "This reflects continued investment against an expanding opportunity set, while yielding"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1400170,
+   "t1_ms": 1425290,
+   "speaker": "Management",
+   "text": "continued operating leverage to achieve the upper end of our target non-GAAP operating model of 38% to 40% as we progress through the year. Moving to cash usage, based on the design wins we've secured and our confidence in the sustained customer demand, we're aggressively securing additional capacity to support our growth. We remain on pace to make a profitable investment in the future. We expect to see a significant growth in our cash usage. We expect to see a significant growth in our cash usage. We expect to see a significant growth in our cash usage. We expect to see a significant growth in our cash usage. We expect to see a significant growth in our cash usage.",
+   "parts": [
+    {
+     "t0_ms": 1400170,
+     "text": "continued operating leverage to achieve the upper end of our target non-GAAP operating"
+    },
+    {
+     "t0_ms": 1405850,
+     "text": "model of 38% to 40% as we progress through the year."
+    },
+    {
+     "t0_ms": 1412530,
+     "text": "Moving to cash usage, based on the design wins we've secured and our confidence in the"
+    },
+    {
+     "t0_ms": 1416970,
+     "text": "sustained customer demand, we're aggressively securing additional capacity to support our"
+    },
+    {
+     "t0_ms": 1422330,
+     "text": "growth. We remain on pace to make a profitable investment in the future. We expect to see"
+    },
+    {
+     "t0_ms": 1423330,
+     "text": "a significant growth in our cash usage. We expect to see a significant growth in our cash"
+    },
+    {
+     "t0_ms": 1424330,
+     "text": "usage. We expect to see a significant growth in our cash usage. We expect to see a significant"
+    },
+    {
+     "t0_ms": 1424850,
+     "text": "growth in our cash usage. We expect to see a significant growth in our cash usage."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1448090,
+   "t1_ms": 1492410,
+   "speaker": "Management",
+   "text": "Now, let me come back to where I started. I joined Marvell because I believe the company has an exceptional opportunity ahead of it. Having now stepped into the CFO role, I'm even more convinced of the incredible strength of our technology portfolio, our deep customer relationships, and the substantial long-term growth potential. Our job from here is to execute with discipline as we efficiently scale the company to capture that opportunity and ensure that our growth translates into expanding margins, strong cash flow, and compelling returns for our stockholders. I'm honored to be Marvell's CFO at such an important point in the company's evolution,",
+   "parts": [
+    {
+     "t0_ms": 1448090,
+     "text": "Now, let me come back to where I started. I joined Marvell because I believe the company"
+    },
+    {
+     "t0_ms": 1454330,
+     "text": "has an exceptional opportunity ahead of it. Having now stepped into the CFO role, I'm even more"
+    },
+    {
+     "t0_ms": 1460410,
+     "text": "convinced of the incredible strength of our technology portfolio, our deep customer relationships,"
+    },
+    {
+     "t0_ms": 1467850,
+     "text": "and the substantial long-term growth potential. Our job from here is to execute with discipline"
+    },
+    {
+     "t0_ms": 1474490,
+     "text": "as we efficiently scale the company to capture that opportunity and ensure that our growth"
+    },
+    {
+     "t0_ms": 1480170,
+     "text": "translates into expanding margins, strong cash flow, and compelling returns for our stockholders."
+    },
+    {
+     "t0_ms": 1487610,
+     "text": "I'm honored to be Marvell's CFO at such an important point in the company's evolution,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1492970,
+   "t1_ms": 1504650,
+   "speaker": "Management",
+   "text": "and I look forward to working with Matt and the rest of the team to deliver on the incredible opportunity we see ahead. With that, ready to start Q&A. Operator, please open the line",
+   "parts": [
+    {
+     "t0_ms": 1492970,
+     "text": "and I look forward to working with Matt and the rest of the team to deliver on the incredible"
+    },
+    {
+     "t0_ms": 1498490,
+     "text": "opportunity we see ahead. With that, ready to start Q&A. Operator, please open the line"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1504650,
+   "t1_ms": 1547450,
+   "speaker": "Operator",
+   "text": "and announce the instructions. Thank you. We will now be conducting a question and answer session. If you would like to ask a question, please press star 1 on your telephone keypad. A confirmation tone will indicate your line is in the question queue. You may press star 2 if you would like to remove your question from the queue. In the interest of time, please restrict yourself to one question only. If you have additional questions, please rejoin the queue. At this time, we will pause momentarily to assemble our roster. Our first question comes from",
+   "parts": [
+    {
+     "t0_ms": 1504650,
+     "text": "and announce the instructions. Thank you. We will now be conducting a question and"
+    },
+    {
+     "t0_ms": 1509850,
+     "text": "answer session."
+    },
+    {
+     "t0_ms": 1510170,
+     "text": "If you would like to ask a question, please press star 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1516810,
+     "text": "A confirmation tone will indicate your line is in the question queue. You may press star 2 if you"
+    },
+    {
+     "t0_ms": 1523130,
+     "text": "would like to remove your question from the queue. In the interest of time, please restrict yourself"
+    },
+    {
+     "t0_ms": 1529130,
+     "text": "to one question only. If you have additional questions, please rejoin the queue. At this time,"
+    },
+    {
+     "t0_ms": 1535850,
+     "text": "we will pause momentarily to assemble our roster. Our first question comes from"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1547850,
+   "t1_ms": 1551370,
+   "speaker": "Operator",
+   "text": "Tom O'Malley with Barclays. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 1547850,
+     "text": "Tom O'Malley with Barclays. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1551370,
+   "t1_ms": 1584570,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for taking my question. Appreciate it. Good results. I wanted to ask first on the warrants with Google. Obviously, a very robust relationship over a multiyear period of time. I'd love if you could give a little color on what's contributing to that revenue. Obviously, you have an inference accelerator, but you talked a lot about XPU Attach, which you guys did kind of start the industry standard on in terms of defining. So maybe what XPU Attach are you excited about? And any sort of color you can give us on the percentage of contribution between the inference accelerator and some of the attach that you're seeing there.",
+   "parts": [
+    {
+     "t0_ms": 1551370,
+     "text": "Hey, guys. Thanks for taking my question. Appreciate it. Good results. I wanted to ask"
+    },
+    {
+     "t0_ms": 1557050,
+     "text": "first on the warrants with Google. Obviously, a very robust relationship over a multiyear period"
+    },
+    {
+     "t0_ms": 1562090,
+     "text": "of time. I'd love if you could give a little color on what's contributing to that revenue."
+    },
+    {
+     "t0_ms": 1566730,
+     "text": "Obviously, you have an inference accelerator, but you talked a lot about XPU Attach, which you guys"
+    },
+    {
+     "t0_ms": 1571210,
+     "text": "did kind of start the industry standard on in terms of defining. So maybe what XPU Attach are you excited about?"
+    },
+    {
+     "t0_ms": 1577690,
+     "text": "And any sort of color you can give us on the percentage of contribution between the"
+    },
+    {
+     "t0_ms": 1582250,
+     "text": "inference accelerator and some of the attach that you're seeing there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1586570,
+   "t1_ms": 1626250,
+   "speaker": "Management",
+   "text": "Yeah, great. Hey, thanks, Tom. Good to hear from you. So I think you captured it well. It's a very exciting time for Marvell. This engagement and warrant is significant. You can see that in the scale of the opportunity we have. And as you pointed out, a couple things I would just validate. The first is it's very broad-based. It's a number of products and product lines, which is very exciting. It includes inference accelerators, as you mentioned. Also storage controllers, NICs, memory interface controllers, near memory compute, a whole bunch of different products. And you're right. We did define",
+   "parts": [
+    {
+     "t0_ms": 1586570,
+     "text": "Yeah, great. Hey, thanks, Tom. Good to hear from you. So I think you captured it well."
+    },
+    {
+     "t0_ms": 1590410,
+     "text": "It's a very exciting time for Marvell. This engagement and warrant is significant."
+    },
+    {
+     "t0_ms": 1598650,
+     "text": "You can see that in the scale of the opportunity we have. And as you pointed out, a couple"
+    },
+    {
+     "t0_ms": 1604250,
+     "text": "things I would just validate. The first is it's very broad-based."
+    },
+    {
+     "t0_ms": 1608970,
+     "text": "It's a number of products and product lines, which is very exciting. It includes inference"
+    },
+    {
+     "t0_ms": 1614170,
+     "text": "accelerators, as you mentioned. Also storage controllers, NICs, memory interface controllers,"
+    },
+    {
+     "t0_ms": 1620170,
+     "text": "near memory compute, a whole bunch of different products. And you're right. We did define"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1626250,
+   "t1_ms": 1668890,
+   "speaker": "Management",
+   "text": "what we call the XPU Attach category a couple of years back. And actually, we gave quite a detailed view of that in our June 2025 custom silicon event. And I think all of our projections to date have been under-called, meaning that that opportunity continues to get more and more significant. So it's a broad set of products, Tom, that are covered here. And it's very broad-based in terms of where we can engage and where we're going to contribute. And I wouldn't call out any one of them at the moment specifically, but all of them in total you can see represent, if you look at the total envelope of the opportunity, it's just massive for Marvell and game-changing at the sort of peak performance of",
+   "parts": [
+    {
+     "t0_ms": 1626250,
+     "text": "what we call the XPU Attach category a couple of years back. And actually, we gave"
+    },
+    {
+     "t0_ms": 1632250,
+     "text": "quite a detailed view of that in our June 2025 custom silicon event."
+    },
+    {
+     "t0_ms": 1638970,
+     "text": "And I think all of our projections to date have been under-called, meaning that that"
+    },
+    {
+     "t0_ms": 1643610,
+     "text": "opportunity continues to get more and more significant. So it's a broad set of products,"
+    },
+    {
+     "t0_ms": 1649130,
+     "text": "Tom, that are covered here. And it's very broad-based in terms of where we can engage"
+    },
+    {
+     "t0_ms": 1653370,
+     "text": "and where we're going to contribute. And I wouldn't call out any one of them at the moment"
+    },
+    {
+     "t0_ms": 1657450,
+     "text": "specifically, but all of them in total you can see represent, if you look at the total envelope"
+    },
+    {
+     "t0_ms": 1662810,
+     "text": "of the opportunity, it's just massive for Marvell and game-changing at the sort of peak performance of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1668970,
+   "t1_ms": 1672970,
+   "speaker": "Management",
+   "text": "what could be achieved now over the next six, six and a half years.",
+   "parts": [
+    {
+     "t0_ms": 1668970,
+     "text": "what could be achieved now over the next six, six and a half years."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1676010,
+   "t1_ms": 1682330,
+   "speaker": "Operator",
+   "text": "Thank you. And your next question comes from Harlan Suhr with JPMorgan. Please, set your question.",
+   "parts": [
+    {
+     "t0_ms": 1676010,
+     "text": "Thank you. And your next question comes from Harlan Suhr with JPMorgan. Please,"
+    },
+    {
+     "t0_ms": 1681850,
+     "text": "set your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1684170,
+   "t1_ms": 1726330,
+   "speaker": "Analyst",
+   "text": "Yeah, good afternoon. Thanks for taking my question. And welcome to the team, Dan and Ross. Matt, given the Google commercial program you signed back in late July, $120 billion in cumulative revs over six years, if you hit all of your milestones, right, that puts you in the top 10% of your revenue. And if you just annualize it at about $18.5 billion per year in revenues, just in Google XPU attached custom ASICs, right, I actually thought that that would start to show up in fiscal 28 or your calendar 27, but given your guidance, it looks like custom is still going to be around $5 to $6 billion in calendar 27. But maybe some of the big programs",
+   "parts": [
+    {
+     "t0_ms": 1684170,
+     "text": "Yeah, good afternoon. Thanks for taking my question. And welcome to the team, Dan and Ross."
+    },
+    {
+     "t0_ms": 1691370,
+     "text": "Matt, given the Google commercial program you signed back in late July, $120 billion in"
+    },
+    {
+     "t0_ms": 1696810,
+     "text": "cumulative revs over six years, if you hit all of your milestones, right, that puts you"
+    },
+    {
+     "t0_ms": 1701210,
+     "text": "in the top 10% of your revenue. And if you just annualize it at about $18.5 billion per year in"
+    },
+    {
+     "t0_ms": 1707770,
+     "text": "revenues, just in Google XPU attached custom ASICs, right, I actually thought that that would"
+    },
+    {
+     "t0_ms": 1713290,
+     "text": "start to show up in fiscal 28 or your calendar 27, but given your guidance, it looks like custom is"
+    },
+    {
+     "t0_ms": 1720730,
+     "text": "still going to be around $5 to $6 billion in calendar 27. But maybe some of the big programs"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1726330,
+   "t1_ms": 1746250,
+   "speaker": "Analyst",
+   "text": "associated with this commercial agreement are more back-end loaded. So maybe the better question is, if you're going to target $10 billion to $11 billion in custom revenues in fiscal 29 or calendar 28, what does that number look like now based on the Google commercial agreement and some of the new programs associated with the agreement?",
+   "parts": [
+    {
+     "t0_ms": 1726330,
+     "text": "associated with this commercial agreement are more back-end loaded. So maybe the better question is,"
+    },
+    {
+     "t0_ms": 1731210,
+     "text": "if you're going to target $10 billion to $11 billion in custom revenues in fiscal 29 or calendar 28,"
+    },
+    {
+     "t0_ms": 1739050,
+     "text": "what does that number look like now based on the Google commercial agreement"
+    },
+    {
+     "t0_ms": 1743210,
+     "text": "and some of the new programs associated with the agreement?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1748640,
+   "t1_ms": 1793600,
+   "speaker": "Management",
+   "text": "Yeah, great questions, Harlan. Thank you. So first, you're right. If you look out to next year, we have comprehended already revenue that would come as part of this warrant in our numbers. Now, that's because some of these programs obviously are already in flight or have already started, but the programs ahead of us that are either in execution or just starting production, those will contribute much more significantly in fiscal 29. And for next year, all I've said, by the way, is that custom is going to over double. So I haven't capped it, I haven't sized it exactly, but it is going to over double next year. And so then you look out to fiscal 29 where in our last year, we've had a lot of revenue that's already in flight, but we're going to over double that. So we're going to over double that. So we're going to over double that. So we're going to over double that. So we're going to over double that.",
+   "parts": [
+    {
+     "t0_ms": 1748640,
+     "text": "Yeah, great questions, Harlan. Thank you. So first, you're right. If you look out to next year,"
+    },
+    {
+     "t0_ms": 1755600,
+     "text": "we have comprehended already revenue that would come as part of this warrant in our numbers. Now,"
+    },
+    {
+     "t0_ms": 1763040,
+     "text": "that's because some of these programs obviously are already in flight or have already started,"
+    },
+    {
+     "t0_ms": 1767520,
+     "text": "but the programs ahead of us that are either in execution or just starting production,"
+    },
+    {
+     "t0_ms": 1774240,
+     "text": "those will contribute much more significantly in fiscal 29. And for next year, all I've said,"
+    },
+    {
+     "t0_ms": 1780000,
+     "text": "by the way, is that custom is going to over double. So I haven't capped it,"
+    },
+    {
+     "t0_ms": 1783840,
+     "text": "I haven't sized it exactly, but it is going to over double next year. And so then you look out"
+    },
+    {
+     "t0_ms": 1790320,
+     "text": "to fiscal 29 where in our last year, we've had a lot of revenue that's already in flight, but we're"
+    },
+    {
+     "t0_ms": 1792560,
+     "text": "going to over double that. So we're going to over double that. So we're going to over double that."
+    },
+    {
+     "t0_ms": 1792880,
+     "text": "So we're going to over double that. So we're going to over double that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1793600,
+   "t1_ms": 1833280,
+   "speaker": "Management",
+   "text": "I talked about a $10 billion kind of plus number for custom in fiscal 29, which isn't a new number, by the way. That was something that we outlined back in June 25. And even back in April 24, we were talking about custom revenues in the $8 to $10 billion range. So we've had a consistent view of what that can look like. This opportunity with this customer greatly increases revenue opportunity for us in custom with some of that potentially starting in 29. I'm not going to size it on the call here today, but you should assume with our investor day coming up, Harlan,",
+   "parts": [
+    {
+     "t0_ms": 1793600,
+     "text": "I talked about a $10 billion kind of plus number for custom in fiscal 29, which"
+    },
+    {
+     "t0_ms": 1799120,
+     "text": "isn't a new number, by the way. That was something that we outlined back in June 25. And even back in"
+    },
+    {
+     "t0_ms": 1805440,
+     "text": "April 24, we were talking about custom revenues in the $8 to $10 billion range. So we've had a"
+    },
+    {
+     "t0_ms": 1810560,
+     "text": "consistent view of what that can look like. This opportunity with this customer greatly increases"
+    },
+    {
+     "t0_ms": 1822560,
+     "text": "revenue opportunity for us in custom with some of that potentially starting in 29. I'm not going to"
+    },
+    {
+     "t0_ms": 1828480,
+     "text": "size it on the call here today, but you should assume with our investor day coming up, Harlan,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1833840,
+   "t1_ms": 1870960,
+   "speaker": "Management",
+   "text": "the Marvell team, we always do a thorough job in our analyst investor days. And so you should expect a very robust detailed review of how we step through the revenue, not just through fiscal 29, but really out until the end of the decade. And so we're excited to present that to everybody. Which will then really help us contextualize the scale of the warrant that we just signed, along with all the other exciting programs we have in custom. So if you don't mind, hold tight on that one. There'll be more to come. But clearly, there's a lot of upside bias in those numbers in fiscal 29 and beyond in custom.",
+   "parts": [
+    {
+     "t0_ms": 1833840,
+     "text": "the Marvell team, we always do a thorough job in our analyst investor days. And so you should"
+    },
+    {
+     "t0_ms": 1841680,
+     "text": "expect a very robust detailed review of how we step through the revenue, not just through fiscal 29,"
+    },
+    {
+     "t0_ms": 1847840,
+     "text": "but really out until the end of the decade. And so we're excited to present that to everybody."
+    },
+    {
+     "t0_ms": 1852560,
+     "text": "Which will then really help us contextualize the scale of the warrant that we just signed,"
+    },
+    {
+     "t0_ms": 1858400,
+     "text": "along with all the other exciting programs we have in custom. So if you don't mind,"
+    },
+    {
+     "t0_ms": 1863040,
+     "text": "hold tight on that one. There'll be more to come. But clearly, there's a lot of upside bias"
+    },
+    {
+     "t0_ms": 1867680,
+     "text": "in those numbers in fiscal 29 and beyond in custom."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1870960,
+   "t1_ms": 1873840,
+   "speaker": "Analyst",
+   "text": "Yeah, absolutely. Absolutely. Looking forward to it. Thanks, Matt.",
+   "parts": [
+    {
+     "t0_ms": 1870960,
+     "text": "Yeah, absolutely. Absolutely. Looking forward to it. Thanks, Matt."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1874480,
+   "t1_ms": 1881840,
+   "speaker": "Operator",
+   "text": "Yeah, you're welcome. Your next question comes from Vivek Arya with Bank of America Securities. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 1874480,
+     "text": "Yeah, you're welcome."
+    },
+    {
+     "t0_ms": 1876880,
+     "text": "Your next question comes from Vivek Arya with Bank of America Securities. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1883440,
+   "t1_ms": 1927120,
+   "speaker": "Analyst",
+   "text": "Thanks for the question and best wishes to Dan and Ross. Matt, I was hoping you could give us an update on the other large XPU program that you're planning to start in the next year. I think the assumptions there are quite modest for next year, six or 700 million or so, and I was hoping you could give us an update on that. And then what is the opportunity for that program over time? Because that hyperscaler is just getting started on their XPU. Yeah. Right. Like every one of their competitors, I imagine they want to make that XPU program much larger than what it is. So give us maybe an update on what the progress is. Can this be a really meaningful program, right, for you over time?",
+   "parts": [
+    {
+     "t0_ms": 1883440,
+     "text": "Thanks for the question and best wishes to Dan and Ross. Matt, I was hoping you could give us"
+    },
+    {
+     "t0_ms": 1889360,
+     "text": "an update on the other large XPU program that you're planning to start in the next year."
+    },
+    {
+     "t0_ms": 1896240,
+     "text": "I think the assumptions there are quite modest for next year, six or 700 million or so,"
+    },
+    {
+     "t0_ms": 1901040,
+     "text": "and I was hoping you could give us an update on that. And then what is the"
+    },
+    {
+     "t0_ms": 1905040,
+     "text": "opportunity for that program over time? Because that hyperscaler is just getting started on their"
+    },
+    {
+     "t0_ms": 1911600,
+     "text": "XPU. Yeah."
+    },
+    {
+     "t0_ms": 1912880,
+     "text": "Right. Like every one of their competitors, I imagine they want to make that XPU program"
+    },
+    {
+     "t0_ms": 1916560,
+     "text": "much larger than what it is. So give us maybe an update on what the progress is."
+    },
+    {
+     "t0_ms": 1922640,
+     "text": "Can this be a really meaningful program, right, for you over time?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1928880,
+   "t1_ms": 1972000,
+   "speaker": "Management",
+   "text": "Yeah. Thanks, Vivek. So yeah, we're very encouraged by our custom setup for next year on the double plus. That new program is clearly part of that. And we've been judging that, I think, in a very conservative and practical manner as we've made progress. But we continue to make progress every quarter, not only on design execution, but also supply commercials and figuring out the envelope for that opportunity. And that's only gotten better. So without quantifying it exactly, what I would say is from the last call, if you look at the billion and a half raise we're doing for next year, just at a high level, it's broad-based. So some of that,",
+   "parts": [
+    {
+     "t0_ms": 1928880,
+     "text": "Yeah. Thanks, Vivek. So yeah, we're very encouraged by our custom setup for next year"
+    },
+    {
+     "t0_ms": 1935200,
+     "text": "on the double plus. That new program is clearly part of that. And we've been judging that, I think,"
+    },
+    {
+     "t0_ms": 1942000,
+     "text": "in a very conservative and practical manner as we've made progress. But we continue to make"
+    },
+    {
+     "t0_ms": 1947600,
+     "text": "progress every quarter, not only on design execution, but also supply commercials and"
+    },
+    {
+     "t0_ms": 1955360,
+     "text": "figuring out the envelope for that opportunity. And that's only gotten better. So without"
+    },
+    {
+     "t0_ms": 1961440,
+     "text": "quantifying it exactly, what I would say is from the last call, if you look at the billion and a"
+    },
+    {
+     "t0_ms": 1966160,
+     "text": "half raise we're doing for next year, just at a high level, it's broad-based. So some of that,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1972000,
+   "t1_ms": 2014560,
+   "speaker": "Management",
+   "text": "is from custom next year. There's also actually, we get another question on this one, but probably the most meaningful part of the next year raise is actually from the scale-up optics, switching in other areas. But custom is definitely part of it, Vivek. So even when we size that opportunity, which goes back to a couple of years, we've always said that that is probably one of Marvell's largest revenue opportunity, opportunities we have. And that's the case. So we're very encouraged by the project, the prospects of this project. And there'll be more to come, but it certainly is tracking and we feel very good about next year and that layering",
+   "parts": [
+    {
+     "t0_ms": 1972000,
+     "text": "is from custom next year. There's also actually, we get another question on this one, but probably"
+    },
+    {
+     "t0_ms": 1978720,
+     "text": "the most meaningful part of the next year raise is actually from the scale-up optics,"
+    },
+    {
+     "t0_ms": 1984160,
+     "text": "switching in other areas. But custom is definitely part of it, Vivek. So even when we"
+    },
+    {
+     "t0_ms": 1989280,
+     "text": "size that opportunity, which goes back to a couple of years, we've always said that that"
+    },
+    {
+     "t0_ms": 1994480,
+     "text": "is probably one of Marvell's largest revenue opportunity, opportunities we have. And that's"
+    },
+    {
+     "t0_ms": 2002000,
+     "text": "the case. So we're very encouraged by the project, the prospects of this project. And there'll be"
+    },
+    {
+     "t0_ms": 2009200,
+     "text": "more to come, but it certainly is tracking and we feel very good about next year and that layering"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2014560,
+   "t1_ms": 2028350,
+   "speaker": "Operator",
+   "text": "in the year after and beyond. Thank you. Your next question comes from Aaron Rakers with Wells Fargo. Please state your question. Yeah, thanks for taking a question and",
+   "parts": [
+    {
+     "t0_ms": 2014560,
+     "text": "in the year after and beyond. Thank you. Your next question comes from Aaron Rakers with"
+    },
+    {
+     "t0_ms": 2023550,
+     "text": "Wells Fargo. Please state your question. Yeah, thanks for taking a question and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2028990,
+   "t1_ms": 2059949,
+   "speaker": "Analyst",
+   "text": "welcome, Dan and Ross. Maybe kind of building on that last question a little bit, Matt, if you can, maybe talk a little bit about what you're architecturally seeing in CXL and how that's evolving, obviously, with the Structera product and it seems to be a broadening ecosystem around that. And then similar on an architectural perspective, any update on, you just touched on scale-up optics, the celestial AI numbers that you've previously outlined, how have those progressed",
+   "parts": [
+    {
+     "t0_ms": 2028990,
+     "text": "welcome, Dan and Ross. Maybe kind of building on that last question a little bit, Matt, if you can,"
+    },
+    {
+     "t0_ms": 2035070,
+     "text": "maybe talk a little bit about what you're architecturally seeing in CXL and how that's"
+    },
+    {
+     "t0_ms": 2041550,
+     "text": "evolving, obviously, with the Structera product and it seems to be a broadening ecosystem around that."
+    },
+    {
+     "t0_ms": 2046990,
+     "text": "And then similar on an architectural perspective, any update on, you just touched on scale-up"
+    },
+    {
+     "t0_ms": 2054110,
+     "text": "optics, the celestial AI numbers that you've previously outlined, how have those progressed"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2059949,
+   "t1_ms": 2103400,
+   "speaker": "Management",
+   "text": "relative to your initial targets? Thank you. Sure. So let me start with CXL and then we'll talk about scale-up optics. So with respect to CXL, I mean, this investment we made organically over the years has really evolved and is turning out to be a home run for a couple reasons. As you might recall, this started off as a server-centric, traditional compute-centric memory architecture. It turns out all that investment we've made is just ideal for memory expansion and inferencing. And so we're seeing this technology now getting deployed at",
+   "parts": [
+    {
+     "t0_ms": 2059949,
+     "text": "relative to your initial targets? Thank you. Sure. So let me start with CXL and then we'll"
+    },
+    {
+     "t0_ms": 2067239,
+     "text": "talk about scale-up optics. So with respect to CXL, I mean, this investment we made"
+    },
+    {
+     "t0_ms": 2075320,
+     "text": "organically over the years has really evolved and is turning out to be a home run"
+    },
+    {
+     "t0_ms": 2081159,
+     "text": "for a couple reasons. As you might recall, this started off as a server-centric, traditional"
+    },
+    {
+     "t0_ms": 2086760,
+     "text": "compute-centric memory architecture. It turns out all that investment we've made is just ideal for"
+    },
+    {
+     "t0_ms": 2097240,
+     "text": "memory expansion and inferencing. And so we're seeing this technology now getting deployed at"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2103400,
+   "t1_ms": 2147240,
+   "speaker": "Management",
+   "text": "multiple hyperscalers, with varying architectures, by the way, in extremely high volumes. One is just the demands of inferencing require it. The other is what we're seeing is, as a result of the scarcity that's out there in memory, customers are modifying and adjusting their plans to actually use more of this. So this is continuing to have strong upward bias. We've actually secured additional design wins in this area in the last couple of quarters. We're going to outline all of that at the investor day, but that opportunity, Aaron, turns out to be massive. And I think it's a case where the pivot we made about five years ago, where we really put the pedal to the metal",
+   "parts": [
+    {
+     "t0_ms": 2103400,
+     "text": "multiple hyperscalers, with varying architectures, by the way, in extremely high volumes. One is just"
+    },
+    {
+     "t0_ms": 2110200,
+     "text": "the demands of inferencing require it. The other is what we're seeing is, as a result of the"
+    },
+    {
+     "t0_ms": 2116120,
+     "text": "scarcity that's out there in memory, customers are modifying and adjusting their plans to actually use more of this."
+    },
+    {
+     "t0_ms": 2127240,
+     "text": "So this is continuing to have strong upward bias. We've actually secured additional design"
+    },
+    {
+     "t0_ms": 2132440,
+     "text": "wins in this area in the last couple of quarters. We're going to outline all of that"
+    },
+    {
+     "t0_ms": 2137480,
+     "text": "at the investor day, but that opportunity, Aaron, turns out to be massive. And I think it's a case"
+    },
+    {
+     "t0_ms": 2142040,
+     "text": "where the pivot we made about five years ago, where we really put the pedal to the metal"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2147240,
+   "t1_ms": 2190500,
+   "speaker": "Management",
+   "text": "on organic internal investment on a number of new technologies, this is one that's really bearing fruit. So very exciting, and you should expect to see a very comprehensive memory expansion section in our investor day presentation. On scale-up optics, this is turning out to be, I think, one of the most exciting areas for us. Last quarter, the way we framed it was we had the Celestial AI CPO photonic fabric solution, which for reference was about $150 million for next year. We had actually said that overall scale-up optics including the scale-up optics, which is the scale-up optics, is going to be a lot more expensive than the scale-up optics. So we're going to have to make sure that we're doing the right thing. And so we're going to have to make sure that we're doing the right thing. And so we're going to have to make sure that we're doing the right thing. And so the inclusive of that was about $300 million as a category.",
+   "parts": [
+    {
+     "t0_ms": 2147240,
+     "text": "on organic internal investment on a number of new technologies, this is one that's really"
+    },
+    {
+     "t0_ms": 2152600,
+     "text": "bearing fruit. So very exciting, and you should expect to see a very comprehensive"
+    },
+    {
+     "t0_ms": 2157240,
+     "text": "memory expansion section in our investor day presentation. On scale-up optics,"
+    },
+    {
+     "t0_ms": 2166760,
+     "text": "this is turning out to be, I think, one of the most exciting areas for us. Last quarter, the way"
+    },
+    {
+     "t0_ms": 2172360,
+     "text": "we framed it was we had the Celestial AI CPO photonic fabric solution, which for"
+    },
+    {
+     "t0_ms": 2180520,
+     "text": "reference was about $150 million for next year. We had actually said that overall scale-up optics"
+    },
+    {
+     "t0_ms": 2187000,
+     "text": "including the scale-up optics, which is the scale-up optics, is going to be a lot more expensive than the scale-up optics."
+    },
+    {
+     "t0_ms": 2187160,
+     "text": "So we're going to have to make sure that we're doing the right thing. And so we're going to have to make sure that we're doing the right thing."
+    },
+    {
+     "t0_ms": 2187220,
+     "text": "And so we're going to have to make sure that we're doing the right thing. And so the inclusive of that was about $300 million as a category."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2190980,
+   "t1_ms": 2231240,
+   "speaker": "Management",
+   "text": "That includes NPO, by the way. And as I said in my prepared remarks, all of that together, scale-up optics, is accelerating even further from the number I gave you last quarter. And so a significant driver of the billion and a half raise we have for next year, Aaron, is coming from that area. And it's not just a one-trick pony. I think that's the thing I want to stress to you, is the CPO is absolutely a key part of it. It will will be for next year and certainly the year after. But if I look at the opportunity set that's happening now at a much faster pace, in parallel with the CPO programs we have, is for NPO.",
+   "parts": [
+    {
+     "t0_ms": 2190980,
+     "text": "That includes NPO, by the way. And as I said in my prepared remarks,"
+    },
+    {
+     "t0_ms": 2195220,
+     "text": "all of that together, scale-up optics, is accelerating even further from the number"
+    },
+    {
+     "t0_ms": 2200100,
+     "text": "I gave you last quarter. And so a significant driver of the billion and a half raise we have"
+    },
+    {
+     "t0_ms": 2207060,
+     "text": "for next year, Aaron, is coming from that area. And it's not just a one-trick pony. I think"
+    },
+    {
+     "t0_ms": 2212180,
+     "text": "that's the thing I want to stress to you, is the CPO is absolutely a key part of it. It will"
+    },
+    {
+     "t0_ms": 2217140,
+     "text": "will be for next year and certainly the year after."
+    },
+    {
+     "t0_ms": 2219780,
+     "text": "But if I look at the opportunity set that's happening now at a much faster pace, in parallel"
+    },
+    {
+     "t0_ms": 2226480,
+     "text": "with the CPO programs we have, is for NPO."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2231240,
+   "t1_ms": 2274800,
+   "speaker": "Management",
+   "text": "And in NPO, we participate through a wide variety of design wins we have and partners. Some of those are with our broadband analog products and silicon germanium, both TIAs and drivers, which we have significant market share and content. And also on our own organically developed NPO solution, which we call our light engine, which we've been in development on for several years and we've shown it off at OFC for several years. So all of that is a category, Aaron, is really how we think about the business. Certainly celestial and photonic fabric is a key part of that. But what I want to stress is that this is not an or. It's an and.",
+   "parts": [
+    {
+     "t0_ms": 2231240,
+     "text": "And in NPO, we participate through a wide variety of design wins we have and partners."
+    },
+    {
+     "t0_ms": 2237940,
+     "text": "Some of those are with our broadband analog products and silicon germanium, both TIAs"
+    },
+    {
+     "t0_ms": 2242480,
+     "text": "and drivers, which we have significant market share and content."
+    },
+    {
+     "t0_ms": 2248320,
+     "text": "And also on our own organically developed NPO solution, which we call our light engine,"
+    },
+    {
+     "t0_ms": 2254080,
+     "text": "which we've been in development on for several years and we've shown it off at OFC for several"
+    },
+    {
+     "t0_ms": 2258100,
+     "text": "years."
+    },
+    {
+     "t0_ms": 2259100,
+     "text": "So all of that is a category, Aaron, is really how we think about the business."
+    },
+    {
+     "t0_ms": 2263220,
+     "text": "Certainly celestial and photonic fabric is a key part of that."
+    },
+    {
+     "t0_ms": 2267220,
+     "text": "But what I want to stress is that this is not an or."
+    },
+    {
+     "t0_ms": 2272460,
+     "text": "It's an and."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2274800,
+   "t1_ms": 2317840,
+   "speaker": "Management",
+   "text": "And it's a little bit analogous to when people thought, well, there's 800 gig DSPs and then they're going to move to 1.6T and it's all going to just cut over. That's not how this works anymore. Our customers have varying architectures that they're pursuing. They have a number of different solutions that they're going to implement simultaneously. So we see this as an and, not an or. And I think the magnitude of our scale-up optics opportunity is a key part of that. Thank you. Thank you. So I think the next year is much larger than we thought just a quarter ago. The year after is going to be, I think, way larger than I sort of could have ever comprehended back even last year when we were looking at celestial. And if you look at the solution we're providing, which has been my last comment, we are pedal",
+   "parts": [
+    {
+     "t0_ms": 2274800,
+     "text": "And it's a little bit analogous to when people thought, well, there's 800 gig DSPs and then"
+    },
+    {
+     "t0_ms": 2279520,
+     "text": "they're going to move to 1.6T and it's all going to just cut over."
+    },
+    {
+     "t0_ms": 2283060,
+     "text": "That's not how this works anymore."
+    },
+    {
+     "t0_ms": 2284660,
+     "text": "Our customers have varying architectures that they're pursuing."
+    },
+    {
+     "t0_ms": 2289140,
+     "text": "They have a number of different solutions that they're going to implement simultaneously."
+    },
+    {
+     "t0_ms": 2296220,
+     "text": "So we see this as an and, not an or."
+    },
+    {
+     "t0_ms": 2299260,
+     "text": "And I think the magnitude of our scale-up optics opportunity is a key part of that."
+    },
+    {
+     "t0_ms": 2300300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2301300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2302300,
+     "text": "So I think the next year is much larger than we thought just a quarter ago."
+    },
+    {
+     "t0_ms": 2305240,
+     "text": "The year after is going to be, I think, way larger than I sort of could have ever comprehended"
+    },
+    {
+     "t0_ms": 2309940,
+     "text": "back even last year when we were looking at celestial."
+    },
+    {
+     "t0_ms": 2312900,
+     "text": "And if you look at the solution we're providing, which has been my last comment, we are pedal"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2317840,
+   "t1_ms": 2361700,
+   "speaker": "Management",
+   "text": "to the metal on our switching roadmap and coupling those optical solutions with our switches, both UAL and ESUN, as well as being able to seamlessly integrate an architect with our customers on the XPU. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. All you need is a good up-and-going speed here. Have you got any gone through the SuperTorque solution? I don't know. I may be in the room for a minute. All right.",
+   "parts": [
+    {
+     "t0_ms": 2317840,
+     "text": "to the metal on our switching roadmap and coupling those optical solutions with our"
+    },
+    {
+     "t0_ms": 2323300,
+     "text": "switches, both UAL and ESUN, as well as being able to seamlessly integrate an architect"
+    },
+    {
+     "t0_ms": 2330240,
+     "text": "with our customers on the XPU."
+    },
+    {
+     "t0_ms": 2331640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2331700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2331840,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2331940,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332000,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332100,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332160,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332600,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2332800,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2333100,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2333300,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2333540,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2333860,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2334200,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2334500,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2334680,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2334700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2334840,
+     "text": "All you need is a good up-and-going speed here."
+    },
+    {
+     "t0_ms": 2335940,
+     "text": "Have you got any gone through the SuperTorque"
+    },
+    {
+     "t0_ms": 2359160,
+     "text": "solution?"
+    },
+    {
+     "t0_ms": 2359840,
+     "text": "I don't know."
+    },
+    {
+     "t0_ms": 2360600,
+     "text": "I may be in the room for a minute."
+    },
+    {
+     "t0_ms": 2361500,
+     "text": "All right."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2361700,
+   "t1_ms": 2367540,
+   "speaker": "Management",
+   "text": "this thing is going to be a much bigger overall business for Marvell. Thanks. Thanks, Matt.",
+   "parts": [
+    {
+     "t0_ms": 2361700,
+     "text": "this thing is going to be a much bigger overall business for Marvell. Thanks. Thanks, Matt."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2367940,
+   "t1_ms": 2373390,
+   "speaker": "Operator",
+   "text": "Your next question comes from Joe Moore with Morgan Stanley. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 2367940,
+     "text": "Your next question comes from Joe Moore with Morgan Stanley. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2375750,
+   "t1_ms": 2394010,
+   "speaker": "Analyst",
+   "text": "Thank you. Along the same lines, can you talk about your progress in copper scale-up? And you mentioned the sort of success across the three protocols. How do you think about copper scale-up as it transitions to optical? Are those initial successes foundational to what you do in optical,",
+   "parts": [
+    {
+     "t0_ms": 2375750,
+     "text": "Thank you. Along the same lines, can you talk about your progress in copper scale-up? And you"
+    },
+    {
+     "t0_ms": 2382830,
+     "text": "mentioned the sort of success across the three protocols. How do you think about copper scale-up"
+    },
+    {
+     "t0_ms": 2388230,
+     "text": "as it transitions to optical? Are those initial successes foundational to what you do in optical,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2394010,
+   "t1_ms": 2438180,
+   "speaker": "Management",
+   "text": "or are those sort of two separate decisions? Yeah, thanks, Joe. I think you're talking about from a switching perspective, right, as we implement those electrical, you know, slash copper solutions. And then how does that success translate when we move to optical? So a couple things. One is on the Ethernet side, you know, we've seen great traction and success with our Terralinks architecture, which came from the acquisition we did of a company called Marvell. And we've seen great traction and success with our Terralinks architecture, which came from the acquisition we did of a company called Marvell. And we've seen great traction and success with our Terralinks architecture, which came from the acquisition we did of a company called Marvell. And we've seen great traction and success with our Terralinks architecture, which came from the acquisition we did of a company called Nobium back in 2021. That business has a significant head of steam on it. You know, we've expanded the customer base. We're driving, you know, significant revenue there. And we've proven to the market that we",
+   "parts": [
+    {
+     "t0_ms": 2394010,
+     "text": "or are those sort of two separate decisions? Yeah, thanks, Joe. I think you're talking about"
+    },
+    {
+     "t0_ms": 2399960,
+     "text": "from a switching perspective, right, as we implement those electrical, you know,"
+    },
+    {
+     "t0_ms": 2406620,
+     "text": "slash copper solutions. And then how does that success translate when we move to optical?"
+    },
+    {
+     "t0_ms": 2412500,
+     "text": "So a couple things. One is on the Ethernet side, you know, we've seen great traction and success"
+    },
+    {
+     "t0_ms": 2420400,
+     "text": "with our Terralinks architecture, which came from the acquisition we did of"
+    },
+    {
+     "t0_ms": 2425280,
+     "text": "a company called Marvell. And we've seen great traction and success with our Terralinks"
+    },
+    {
+     "t0_ms": 2425460,
+     "text": "architecture, which came from the acquisition we did of a company called Marvell. And we've seen"
+    },
+    {
+     "t0_ms": 2425480,
+     "text": "great traction and success with our Terralinks architecture, which came from the acquisition we did"
+    },
+    {
+     "t0_ms": 2425500,
+     "text": "of a company called Marvell. And we've seen great traction and success with our Terralinks"
+    },
+    {
+     "t0_ms": 2425880,
+     "text": "architecture, which came from the acquisition we did of a company called Nobium back in 2021."
+    },
+    {
+     "t0_ms": 2428020,
+     "text": "That business has a significant head of steam on it. You know, we've expanded the customer base."
+    },
+    {
+     "t0_ms": 2432540,
+     "text": "We're driving, you know, significant revenue there. And we've proven to the market that we"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2438180,
+   "t1_ms": 2481840,
+   "speaker": "Management",
+   "text": "can deliver these solutions in volume. So that translates itself, Joe, very seamlessly to scale-out. And in fact, we're seeing even at 100T, our scale-out solutions be applicable to scale-up as well. So we're driving that independently of the optics or not. Same thing on UAL. We're aggressively investing in UAL switching. That product development is coming along nicely. And we certainly can intercept any electrical or copper-based solution there. What customers really want to see, though, and that's why I'm spending time on it, is that's all great. And at this point, you know, they trust us that we can deliver these very complex switching products because we've done it already, which, by the way,",
+   "parts": [
+    {
+     "t0_ms": 2438180,
+     "text": "can deliver these solutions in volume. So that translates itself, Joe, very seamlessly to"
+    },
+    {
+     "t0_ms": 2444520,
+     "text": "scale-out. And in fact, we're seeing even at 100T, our scale-out solutions be applicable"
+    },
+    {
+     "t0_ms": 2450620,
+     "text": "to scale-up as well. So we're driving that independently of the optics or"
+    },
+    {
+     "t0_ms": 2455460,
+     "text": "not. Same thing on UAL. We're aggressively investing in UAL switching. That product"
+    },
+    {
+     "t0_ms": 2461600,
+     "text": "development is coming along nicely. And we certainly can intercept any electrical or"
+    },
+    {
+     "t0_ms": 2467220,
+     "text": "copper-based solution there. What customers really want to see, though, and that's why I'm"
+    },
+    {
+     "t0_ms": 2471920,
+     "text": "spending time on it, is that's all great. And at this point, you know, they trust us that we can"
+    },
+    {
+     "t0_ms": 2476720,
+     "text": "deliver these very complex switching products because we've done it already, which, by the way,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2481860,
+   "t1_ms": 2522000,
+   "speaker": "Management",
+   "text": "is no small feat. There's been a lot of companies that have tried and failed to do these reticle-size, very complex Ethernet switches, and it's only getting harder with the 30s performance and the speeds. But the next level of that, Joe, is that you then need to show a compelling, clear roadmap that you can execute with credibility on the optics side, both NPO and then all the way to full integration on CPO. And so our discussions, while certainly there's opportunities in the next few years that are going to come and we're going to have to do that, on the copper side, I think why we really win long-term is because we convince our customers",
+   "parts": [
+    {
+     "t0_ms": 2481860,
+     "text": "is no small feat. There's been a lot of companies that have tried and failed to do these"
+    },
+    {
+     "t0_ms": 2485420,
+     "text": "reticle-size, very complex Ethernet switches, and it's only getting harder with the 30s"
+    },
+    {
+     "t0_ms": 2492400,
+     "text": "performance and the speeds. But the next level of that, Joe, is that you then need to show a"
+    },
+    {
+     "t0_ms": 2498220,
+     "text": "compelling, clear roadmap that you can execute with credibility on the optics side, both NPO and"
+    },
+    {
+     "t0_ms": 2506380,
+     "text": "then all the way to full integration on CPO. And so our discussions, while certainly there's"
+    },
+    {
+     "t0_ms": 2511860,
+     "text": "opportunities in the next few years that are going to come and we're going to have to do that,"
+    },
+    {
+     "t0_ms": 2515420,
+     "text": "on the copper side, I think why we really win long-term is because we convince our customers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2522000,
+   "t1_ms": 2560860,
+   "speaker": "Management",
+   "text": "we can execute on the full end-to-end, which really is what our customers are looking for. At the end of the day, especially on scale-up, they need to bookend the link and they need to trust it on both sides of it and everything in between. They've got a partner that can handle that job. And point solutions at this juncture, we believe, are not going to get it done. You really have to have the end-to-end portfolio. And that's what we're hearing from the customers. So the existing silicon will do fine. It'll do great. But I'm even more excited about the optics attach once that gets going over the next few years because it just effectively almost doubles the SAM of the switching in terms of the attach you can get. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2522000,
+     "text": "we can execute on the full end-to-end, which really is what our customers are looking for."
+    },
+    {
+     "t0_ms": 2527900,
+     "text": "At the end of the day, especially on scale-up, they need to bookend the link and they need to"
+    },
+    {
+     "t0_ms": 2531680,
+     "text": "trust it on both sides of it and everything in between. They've got a partner that can handle"
+    },
+    {
+     "t0_ms": 2536400,
+     "text": "that job. And point solutions at this juncture, we believe, are not going to get it done. You"
+    },
+    {
+     "t0_ms": 2542300,
+     "text": "really have to have the end-to-end portfolio. And that's what we're hearing from the customers."
+    },
+    {
+     "t0_ms": 2545420,
+     "text": "So the existing silicon will do fine. It'll do great. But I'm even more excited about the optics"
+    },
+    {
+     "t0_ms": 2552060,
+     "text": "attach once that gets going over the next few years because it just effectively almost doubles"
+    },
+    {
+     "t0_ms": 2556420,
+     "text": "the SAM of the switching in terms of the attach you can get. Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2561280,
+   "t1_ms": 2568450,
+   "speaker": "Operator",
+   "text": "Your next question comes from Ben Reitzes with Melius Research. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 2561280,
+     "text": "Your next question comes from Ben Reitzes with Melius Research. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2570440,
+   "t1_ms": 2609240,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for the question. Hey, Dan and Ross. Hey, Matt. So I want to go back to the Google deal. I think people are going to want to go back to the Google deal. I think people are just wrestling with this. And I realize that you have a great analyst day coming. So don't shoot me. But for FY, if you look at the $120 billion over the course of the years, that's about $18 billion a year at the $120 billion divided by 6.5. And that's like adding an FY28 Marvell every year. And I realize that we don't know...",
+   "parts": [
+    {
+     "t0_ms": 2570440,
+     "text": "Hey, guys. Thanks for the question. Hey, Dan and Ross. Hey, Matt. So I want to go back to the"
+    },
+    {
+     "t0_ms": 2578080,
+     "text": "Google deal. I think people are going to want to go back to the Google deal. I think people are"
+    },
+    {
+     "t0_ms": 2579340,
+     "text": "just wrestling with this. And I realize that you have a great analyst day coming. So don't shoot me."
+    },
+    {
+     "t0_ms": 2586860,
+     "text": "But for FY, if you look at the $120 billion over the course of the years, that's about $18 billion"
+    },
+    {
+     "t0_ms": 2594860,
+     "text": "a year at the $120 billion divided by 6.5. And that's like adding an FY28 Marvell every year."
+    },
+    {
+     "t0_ms": 2606640,
+     "text": "And I realize that we don't know..."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2609340,
+   "t1_ms": 2643800,
+   "speaker": "Analyst",
+   "text": "How much is incremental versus what's already in your guides. But are we talking like FY29 and FY30 big step ups as a result of this incrementally? Because these numbers are huge. And I know you're going to tell us at the analyst day, but I think we're all just trying to figure out how high to go in those out years. And is it at the comparable margin? And just any more color if you're in our shoes, how we should handle it into analyst day or just wait. That'd be great. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2609340,
+     "text": "How much is incremental versus what's already in your guides. But are we talking like FY29 and"
+    },
+    {
+     "t0_ms": 2616940,
+     "text": "FY30 big step ups as a result of this incrementally? Because these numbers are huge. And I know you're"
+    },
+    {
+     "t0_ms": 2625000,
+     "text": "going to tell us at the analyst day, but I think we're all just trying to figure out"
+    },
+    {
+     "t0_ms": 2629240,
+     "text": "how high to go in those out years. And is it at the comparable margin? And just any more color"
+    },
+    {
+     "t0_ms": 2638860,
+     "text": "if you're in our shoes, how we should handle it into analyst day or just wait. That'd be great. Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2645360,
+   "t1_ms": 2689860,
+   "speaker": "Management",
+   "text": "Yeah. Hey, Ben, thanks. And by the way, fully valid question. I mean, when you look at the scale of this, your math is not wrong. And what you can conclude from what I'm saying is because most of this is comprehended already in next year, the big impact would be in 29 and beyond. So if you took the full performance and the full opportunity, then you're right. It's just a monster number. What I would say... And so we do need the analyst day though, I think you guys understand to contextualize it and probably show some ranges of outcomes. But you should assume in that timeframe that on the custom side, these numbers",
+   "parts": [
+    {
+     "t0_ms": 2645360,
+     "text": "Yeah. Hey, Ben, thanks. And by the way, fully valid question. I mean, when you look at the"
+    },
+    {
+     "t0_ms": 2650560,
+     "text": "scale of this, your math is not wrong. And what you can conclude from what I'm saying is"
+    },
+    {
+     "t0_ms": 2655620,
+     "text": "because most of this is comprehended already in next year, the big impact would be in 29 and"
+    },
+    {
+     "t0_ms": 2664280,
+     "text": "beyond. So if you took the full performance and the full"
+    },
+    {
+     "t0_ms": 2668860,
+     "text": "opportunity, then you're right. It's just a monster number. What I would say... And so we do need"
+    },
+    {
+     "t0_ms": 2678620,
+     "text": "the analyst day though, I think you guys understand to contextualize it and probably show some ranges"
+    },
+    {
+     "t0_ms": 2683280,
+     "text": "of outcomes. But you should assume in that timeframe that on the custom side, these numbers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2689860,
+   "t1_ms": 2728840,
+   "speaker": "Management",
+   "text": "would be a lot larger than overall custom than anybody's been modeling so far. I mean, I think there's been doubt for years that we could even do... Yeah. ...the 8 to 10 billion. This should give, I think, investors comfort that we secured a pretty big set of programs, not just here, but across the broad range of our customer set. On the margins, just in general, this is custom business and we've got a financial model for custom. We've got a financial model for our standard and merchant products. It would be in line with that. But it's significant. And I think that's a big part of the reason why we're doing this. Yeah. Yeah.",
+   "parts": [
+    {
+     "t0_ms": 2689860,
+     "text": "would be a lot larger than overall custom than anybody's been modeling so far. I mean, I think"
+    },
+    {
+     "t0_ms": 2695840,
+     "text": "there's been doubt for years that we could even do..."
+    },
+    {
+     "t0_ms": 2698860,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2699860,
+     "text": "...the 8 to 10 billion. This should give, I think, investors comfort that we secured a pretty big set of programs,"
+    },
+    {
+     "t0_ms": 2708860,
+     "text": "not just here, but across the broad range of our customer set. On the margins, just in general, this is custom"
+    },
+    {
+     "t0_ms": 2718360,
+     "text": "business and we've got a financial model for custom. We've got a financial model for our standard and merchant"
+    },
+    {
+     "t0_ms": 2723140,
+     "text": "products. It would be in line with that. But it's significant. And I think that's a big part of the reason why we're"
+    },
+    {
+     "t0_ms": 2728220,
+     "text": "doing this."
+    },
+    {
+     "t0_ms": 2728660,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2728760,
+     "text": "Yeah."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2728860,
+   "t1_ms": 2766280,
+   "speaker": "Management",
+   "text": "And I'm not able to quantify it today for you, but you should assume starting an FY29 beyond whatever you've modeled previously prior to the warrant for custom numbers definitely goes higher. How big, we'll be happy to show the range of outcomes. But in the context of where Marvell was, Ben, I mean, we were an $8 billion company last year. We just took everybody to $12 billion this year. We haven't even finished that year and 18 next year. And the rough math is... Yeah. ...you do at full performance provides an incredible step up to the scale of the company if all those programs",
+   "parts": [
+    {
+     "t0_ms": 2728860,
+     "text": "And I'm not able to quantify it today for you, but you should assume starting an FY29 beyond whatever you've"
+    },
+    {
+     "t0_ms": 2735400,
+     "text": "modeled previously prior to the warrant for custom numbers definitely goes higher. How big, we'll be happy to show"
+    },
+    {
+     "t0_ms": 2742760,
+     "text": "the range of outcomes. But in the context of where Marvell was, Ben, I mean, we were an $8 billion company last year."
+    },
+    {
+     "t0_ms": 2752300,
+     "text": "We just took everybody to $12 billion this year. We haven't even finished that year and 18 next year. And the rough"
+    },
+    {
+     "t0_ms": 2758740,
+     "text": "math is..."
+    },
+    {
+     "t0_ms": 2758760,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2759120,
+     "text": "...you do at full performance provides an incredible step up to the scale of the company if all those programs"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2766280,
+   "t1_ms": 2807760,
+   "speaker": "Management",
+   "text": "that come to fruition at their max performance, which...but I think what this is helpful to show is just the scale of the opportunity in general that Marvell is participating in because we have significant engagements across the customer base. This one's a little unique because of the warrant that given the magnitude and the equity side, we need to do this. We needed to disclose it. But I think you've seen over the last couple of years, we've entered into very strategic partnerships with other big players in the AI market. And some of that we've done publicly and some of that we're doing just on our own. So I think one takeaway I would have right now is just a significant validation of where Marvell sits in the market today.",
+   "parts": [
+    {
+     "t0_ms": 2766280,
+     "text": "that come to fruition at their max performance, which...but I think what this is helpful to show is just the scale of the"
+    },
+    {
+     "t0_ms": 2773960,
+     "text": "opportunity in general that Marvell is participating in because we have significant engagements across the customer base."
+    },
+    {
+     "t0_ms": 2782180,
+     "text": "This one's a little unique because of the warrant that given the magnitude and the equity side, we need to do this."
+    },
+    {
+     "t0_ms": 2788560,
+     "text": "We needed to disclose it. But I think you've seen over the last couple of years, we've entered into very strategic partnerships with other big players in the AI market."
+    },
+    {
+     "t0_ms": 2797920,
+     "text": "And some of that we've done publicly and some of that we're doing just on our own. So I think one takeaway I would have right now is just a significant validation of where Marvell sits in the market today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2807760,
+   "t1_ms": 2820500,
+   "speaker": "Management",
+   "text": "And we're very honored to be a part of the ecosystem, the TPU ecosystem. And we'll see how it plays out. But I hope that's enough for now. I want to save a little bit of firepower. For my investor day.",
+   "parts": [
+    {
+     "t0_ms": 2807760,
+     "text": "And we're very honored to be a part of the ecosystem, the TPU ecosystem. And we'll see how it plays out. But I hope that's enough for now. I want to save a little bit of firepower."
+    },
+    {
+     "t0_ms": 2818560,
+     "text": "For my investor day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2820500,
+   "t1_ms": 2826720,
+   "speaker": "Analyst",
+   "text": "No, thank you. And I appreciate that. And congrats on that deal. I'll see you soon.",
+   "parts": [
+    {
+     "t0_ms": 2820500,
+     "text": "No, thank you. And I appreciate that. And congrats on that deal. I'll see you soon."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2826720,
+   "t1_ms": 2835340,
+   "speaker": "Operator",
+   "text": "Yeah, thanks Ben. Your next question comes from CJ Muse with Kantor Fitzgerald. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 2826720,
+     "text": "Yeah, thanks Ben."
+    },
+    {
+     "t0_ms": 2829840,
+     "text": "Your next question comes from CJ Muse with Kantor Fitzgerald. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2835340,
+   "t1_ms": 2874600,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thank you for taking the question. I think one of the more interesting takeaways from NVIDIA's report last night is Jensen's view of the fungibility of compute networking and memory to deliver performance in the AI data center in a cost constrained environment. So I appreciate that. The other question is, what are your priorities for the future of your company? world. And considering your vast experience and expertise across all these three areas, you know, how is this backdrop, particularly in light of where memory pricing is today, you know, support your new design wins? And, you know, is it really focused on the memory controllers, custom HPM to increase shoreline, or is it also, you know, driving strength on the XPU side as well? We'd love to hear your thoughts there. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2835340,
+     "text": "Good afternoon. Thank you for taking the question. I think one of the more interesting takeaways from NVIDIA's report last night is Jensen's view of"
+    },
+    {
+     "t0_ms": 2842880,
+     "text": "the fungibility of compute networking and memory to deliver performance in the AI data center"
+    },
+    {
+     "t0_ms": 2848740,
+     "text": "in a cost constrained environment."
+    },
+    {
+     "t0_ms": 2849760,
+     "text": "So I appreciate that. The other question is, what are your priorities for the future of your company?"
+    },
+    {
+     "t0_ms": 2849800,
+     "text": "world. And considering your vast experience and expertise across all these three areas,"
+    },
+    {
+     "t0_ms": 2855300,
+     "text": "you know, how is this backdrop, particularly in light of where memory pricing is today,"
+    },
+    {
+     "t0_ms": 2859160,
+     "text": "you know, support your new design wins? And, you know, is it really focused on the memory"
+    },
+    {
+     "t0_ms": 2863800,
+     "text": "controllers, custom HPM to increase shoreline, or is it also, you know, driving strength on the"
+    },
+    {
+     "t0_ms": 2871100,
+     "text": "XPU side as well? We'd love to hear your thoughts there. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2874600,
+   "t1_ms": 2918140,
+   "speaker": "Management",
+   "text": "Yeah, thanks, CJ. No, first of all, I see the same thing. I'm very mind-melded with what they talked about. I think at the broadest level to start, it definitely, this fungibility requirement, given the dynamic nature of the market and some of the constraints we're seeing, some are supply constraints, some are power constraints, some are architectural constraints, having our ability to very quickly execute custom and safety requirements, semi-custom designs or modify our products or adapt to shifting architectures at Marvell, it's a key capability, this flexibility that the company has, because we've built a business around",
+   "parts": [
+    {
+     "t0_ms": 2874600,
+     "text": "Yeah, thanks, CJ. No, first of all, I see the same thing. I'm very mind-melded"
+    },
+    {
+     "t0_ms": 2881140,
+     "text": "with what they talked about. I think at the broadest level to start, it definitely,"
+    },
+    {
+     "t0_ms": 2887840,
+     "text": "this fungibility requirement, given the dynamic nature of the market and some of the constraints"
+    },
+    {
+     "t0_ms": 2893380,
+     "text": "we're seeing, some are supply constraints, some are power constraints, some are architectural"
+    },
+    {
+     "t0_ms": 2898120,
+     "text": "constraints, having our ability to very quickly execute custom and safety requirements,"
+    },
+    {
+     "t0_ms": 2904600,
+     "text": "semi-custom designs or modify our products or adapt to shifting architectures at Marvell,"
+    },
+    {
+     "t0_ms": 2910300,
+     "text": "it's a key capability, this flexibility that the company has, because we've built a business around"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2918140,
+   "t1_ms": 2960260,
+   "speaker": "Management",
+   "text": "being able to customize quickly. And it's been in our DNA even from 2021 Investor Day. You know, we talked about how every hop in the network at some point was going to get some level of customization, and it wasn't going to just be the accelerator. And here we are five years later, and that's playing out. CXL and memory, expansion is one example where very quickly customers are adapting. But there's also other opportunities where to optimize for inference, as an example, and this was one of the things that was in the warrant, but it's a trend in the market. AI inference accelerators, that's another trend in the market you see. So I think companies are all looking at how they can maximize their performance,",
+   "parts": [
+    {
+     "t0_ms": 2918140,
+     "text": "being able to customize quickly. And it's been in our DNA even from 2021 Investor Day. You know,"
+    },
+    {
+     "t0_ms": 2923580,
+     "text": "we talked about how every hop in the network at some point was going to get some level of"
+    },
+    {
+     "t0_ms": 2927760,
+     "text": "customization, and it wasn't going to just be the accelerator. And here we are five years later,"
+    },
+    {
+     "t0_ms": 2932300,
+     "text": "and that's playing out. CXL and memory,"
+    },
+    {
+     "t0_ms": 2934600,
+     "text": "expansion is one example where very quickly customers are adapting. But there's also other"
+    },
+    {
+     "t0_ms": 2943260,
+     "text": "opportunities where to optimize for inference, as an example, and this was one of the things that"
+    },
+    {
+     "t0_ms": 2948100,
+     "text": "was in the warrant, but it's a trend in the market. AI inference accelerators, that's another trend in"
+    },
+    {
+     "t0_ms": 2952640,
+     "text": "the market you see. So I think companies are all looking at how they can maximize their performance,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2960840,
+   "t1_ms": 3000760,
+   "speaker": "Management",
+   "text": "how they can maximize, you know, the cost and performance relative to the tokens generated. And we're in a monetization era. So this stuff really matters. It went from training very, very quickly to inference, and to companies now monetizing this. And so we're seeing a big pickup in activity. And it's not just on the custom side. I mean, this discussion we had earlier about CPO and NPO and optics and copper, that's all moving very, very fast. Because again, companies are architecting at a speed, you know, we really have to be able to do that. And so I think it's a big thing. And I think it's a big, big, big, huge thing to be able to do. So I think it's a big, big, huge thing to be able to do. So I think it's a big, big, big, huge thing to be able to do. And I think we're seeing, I think, a real, real big, huge opportunity for our customers, as well, to leverage this. And I think that's something that we haven't seen to make sure that they have the most competitive solutions. So Marvell fits right in there,",
+   "parts": [
+    {
+     "t0_ms": 2960840,
+     "text": "how they can maximize, you know,"
+    },
+    {
+     "t0_ms": 2964600,
+     "text": "the cost and performance relative to the tokens generated. And we're in a monetization era. So"
+    },
+    {
+     "t0_ms": 2970900,
+     "text": "this stuff really matters. It went from training very, very quickly to inference, and to companies"
+    },
+    {
+     "t0_ms": 2976040,
+     "text": "now monetizing this. And so we're seeing a big pickup in activity. And it's not just on the"
+    },
+    {
+     "t0_ms": 2980800,
+     "text": "custom side. I mean, this discussion we had earlier about CPO and NPO and optics and copper,"
+    },
+    {
+     "t0_ms": 2986780,
+     "text": "that's all moving very, very fast. Because again, companies are architecting at a speed, you know,"
+    },
+    {
+     "t0_ms": 2993800,
+     "text": "we really have to be able to do that. And so I think it's a big thing."
+    },
+    {
+     "t0_ms": 2994600,
+     "text": "And I think it's a big, big, big, huge thing to be able to do. So I think it's a big, big, huge thing to be able to do."
+    },
+    {
+     "t0_ms": 2995600,
+     "text": "So I think it's a big, big, big, huge thing to be able to do. And I think we're seeing, I think,"
+    },
+    {
+     "t0_ms": 2996600,
+     "text": "a real, real big, huge opportunity for our customers, as well, to leverage this. And I think that's"
+    },
+    {
+     "t0_ms": 2998600,
+     "text": "something that we haven't seen to make sure that they have the most competitive solutions. So Marvell fits right in there,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3000760,
+   "t1_ms": 3017720,
+   "speaker": "Management",
+   "text": "CJ, on a number of fronts. It's not just, quote, our custom revenue, but it's the solutions underneath we provide, including our networking and our storage and storage and memory in our compute.",
+   "parts": [
+    {
+     "t0_ms": 3000760,
+     "text": "CJ, on a number of fronts. It's not just, quote, our custom revenue, but it's the solutions underneath we provide,"
+    },
+    {
+     "t0_ms": 3007760,
+     "text": "including our networking and our storage and storage and memory in our compute."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3017720,
+   "t1_ms": 3025240,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from Jim Schneider with Goldman Sachs. Please go ahead with your question.",
+   "parts": [
+    {
+     "t0_ms": 3017720,
+     "text": "Thank you. Your next question comes from Jim Schneider with Goldman Sachs. Please go ahead with your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3025240,
+   "t1_ms": 3049020,
+   "speaker": "Analyst",
+   "text": "Good afternoon. Thanks for taking my question. I was wondering if you could maybe just give us a little bit of update in terms of the growth rate for connectivity. I think, Matt, you outlined those growth rates for both this fiscal year, next fiscal year, last quarter. Maybe just give us an update on where those are landing given the incremental strength. Sounds like most of that's being driven by that sub-techno right now.",
+   "parts": [
+    {
+     "t0_ms": 3025240,
+     "text": "Good afternoon. Thanks for taking my question. I was wondering if you could maybe just give us a little bit of update in terms of the growth rate for connectivity. I think, Matt, you outlined those growth rates for both this fiscal year, next fiscal year, last quarter. Maybe just give us an update on where those are landing given the incremental strength. Sounds like most of that's being driven by that sub-techno right now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3049020,
+   "t1_ms": 3089800,
+   "speaker": "Management",
+   "text": "Well, yeah, thanks, Jim. As I said, the way to think about it is the $500 million raise for this year and the $1.5 million for next year is broad-based. Connectivity clearly is a driver, and I say connectivity at a broader level because underneath that, we spent time talking about scale-up optics. That's one, which is our NPO and CPO and SIGI products. But it's also just the transceiver market for scale-out and optical DSPs going into that segment. That's upsized versus the prior growth rates we talked about. So that's in the $500 and the $1.5 billion.",
+   "parts": [
+    {
+     "t0_ms": 3049020,
+     "text": "Well, yeah, thanks, Jim. As I said, the way to think about it is the $500 million raise for this year and the $1.5 million for next year is broad-based."
+    },
+    {
+     "t0_ms": 3063420,
+     "text": "Connectivity clearly is a driver, and I say connectivity at a broader level because underneath that, we spent time talking about scale-up optics."
+    },
+    {
+     "t0_ms": 3071880,
+     "text": "That's one, which is our NPO and CPO and SIGI products."
+    },
+    {
+     "t0_ms": 3075200,
+     "text": "But it's also just the transceiver market for scale-out and optical DSPs going into that segment."
+    },
+    {
+     "t0_ms": 3083040,
+     "text": "That's upsized versus the prior growth rates we talked about."
+    },
+    {
+     "t0_ms": 3087220,
+     "text": "So that's in the $500 and the $1.5 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3090200,
+   "t1_ms": 3135180,
+   "speaker": "Management",
+   "text": "That business continues to be absolutely on fire, and we're executing well there. And then within connectivity as well as a broader segment, you also have our switching, which is biasing higher this year, but also higher in the next year. So that's a big part of the reason why we're doing this. And then we're also working on a lot of the new products that we're going to be releasing from our last quarter update again next year. So you really have those three plus, I'd say, custom that are all floating up versus our prior expectations. But, Jim, we're really seeing broad-based strength. I think it's across almost all of our product lines when we look out. But those are a few of the ones I'd highlight, and you're right. Connectivity is a bigger bucket, is probably the largest driver net-net of the $1.5 billion raise. If I just look at all those pieces I mentioned underneath, scale-out,",
+   "parts": [
+    {
+     "t0_ms": 3090200,
+     "text": "That business continues to be absolutely on fire, and we're executing well there."
+    },
+    {
+     "t0_ms": 3095960,
+     "text": "And then within connectivity as well as a broader segment, you also have our switching, which is biasing higher this year,"
+    },
+    {
+     "t0_ms": 3104340,
+     "text": "but also higher in the next year."
+    },
+    {
+     "t0_ms": 3105360,
+     "text": "So that's a big part of the reason why we're doing this."
+    },
+    {
+     "t0_ms": 3107200,
+     "text": "And then we're also working on a lot of the new products that we're going to be releasing from our last quarter update again next year."
+    },
+    {
+     "t0_ms": 3109220,
+     "text": "So you really have those three plus, I'd say, custom that are all floating up versus our prior expectations."
+    },
+    {
+     "t0_ms": 3116120,
+     "text": "But, Jim, we're really seeing broad-based strength."
+    },
+    {
+     "t0_ms": 3118860,
+     "text": "I think it's across almost all of our product lines when we look out."
+    },
+    {
+     "t0_ms": 3122840,
+     "text": "But those are a few of the ones I'd highlight, and you're right."
+    },
+    {
+     "t0_ms": 3125140,
+     "text": "Connectivity is a bigger bucket, is probably the largest driver net-net of the $1.5 billion raise."
+    },
+    {
+     "t0_ms": 3131040,
+     "text": "If I just look at all those pieces I mentioned underneath, scale-out,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3135200,
+   "t1_ms": 3139260,
+   "speaker": "Management",
+   "text": "scale-up, and switching.",
+   "parts": [
+    {
+     "t0_ms": 3135200,
+     "text": "scale-up, and switching."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3144640,
+   "t1_ms": 3149580,
+   "speaker": "Operator",
+   "text": "Thank you. And our last question for today comes from Quinn Bolton with Needham & Company. Please, to your question.",
+   "parts": [
+    {
+     "t0_ms": 3144640,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3145320,
+     "text": "And our last question for today comes from Quinn Bolton with Needham & Company."
+    },
+    {
+     "t0_ms": 3148900,
+     "text": "Please, to your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3150840,
+   "t1_ms": 3180240,
+   "speaker": "Analyst",
+   "text": "Thanks for squeezing me in. I guess, Matt, just wanted to come back to sort of the near-term guidance. Within data center, I think you guided up greater than 20% sequentially. But with margins coming down 90 basis points quarter-in-quarter, is custom the fastest-growing segment within data center that drives data center? Is that lower margin? Or is there some other mix going on within data center kind of driving the lower 90 basis point lower guidance for the October quarter? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3150840,
+     "text": "Thanks for squeezing me in."
+    },
+    {
+     "t0_ms": 3152580,
+     "text": "I guess, Matt, just wanted to come back to sort of the near-term guidance."
+    },
+    {
+     "t0_ms": 3156600,
+     "text": "Within data center, I think you guided up greater than 20% sequentially."
+    },
+    {
+     "t0_ms": 3161180,
+     "text": "But with margins coming down 90 basis points quarter-in-quarter, is custom the fastest-growing segment within data center"
+    },
+    {
+     "t0_ms": 3169160,
+     "text": "that drives data center?"
+    },
+    {
+     "t0_ms": 3170140,
+     "text": "Is that lower margin?"
+    },
+    {
+     "t0_ms": 3171340,
+     "text": "Or is there some other mix going on within data center kind of driving the lower 90 basis point lower guidance for the"
+    },
+    {
+     "t0_ms": 3178900,
+     "text": "October quarter?"
+    },
+    {
+     "t0_ms": 3179740,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3181940,
+   "t1_ms": 3226880,
+   "speaker": "Management",
+   "text": "Yeah, sure. Thanks. Let me, I'll tee it up, but I'm going to have Dan comment because you guys are sparing him too much on this call. I mean, he's the new CFO. You're supposed to be asking him questions, and you're asking me all the questions. So, joking aside, you can clearly see it in the numbers. I mean, you know, the stronger Q3 guide, you know, implied much stronger Q4 guide. We did say custom was ramping meaningfully in the second half. I said that. Dan said that. But, Dan, maybe why don't you make a few comments on the margins and how you see that playing out and also, you know, through next year as well as we, you know, as we grow. Thanks. Sure. So, just jumping in, we clearly see the performance of the company doing well.",
+   "parts": [
+    {
+     "t0_ms": 3181940,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 3182980,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 3183600,
+     "text": "Let me, I'll tee it up, but I'm going to have Dan comment because you guys are sparing him too much on this call."
+    },
+    {
+     "t0_ms": 3189640,
+     "text": "I mean, he's the new CFO."
+    },
+    {
+     "t0_ms": 3190700,
+     "text": "You're supposed to be asking him questions, and you're asking me all the questions."
+    },
+    {
+     "t0_ms": 3193040,
+     "text": "So, joking aside, you can clearly see it in the numbers."
+    },
+    {
+     "t0_ms": 3198620,
+     "text": "I mean, you know,"
+    },
+    {
+     "t0_ms": 3199420,
+     "text": "the stronger Q3 guide, you know, implied much stronger Q4 guide."
+    },
+    {
+     "t0_ms": 3204240,
+     "text": "We did say custom was ramping meaningfully in the second half."
+    },
+    {
+     "t0_ms": 3208300,
+     "text": "I said that."
+    },
+    {
+     "t0_ms": 3209100,
+     "text": "Dan said that."
+    },
+    {
+     "t0_ms": 3210300,
+     "text": "But, Dan, maybe why don't you make a few comments on the margins and how you see that playing out and also, you know,"
+    },
+    {
+     "t0_ms": 3216880,
+     "text": "through next year as well as we, you know, as we grow."
+    },
+    {
+     "t0_ms": 3221580,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 3222900,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 3223360,
+     "text": "So, just jumping in, we clearly see the performance of the company doing well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3226880,
+   "t1_ms": 3268200,
+   "speaker": "Management",
+   "text": "You see the acceleration in Q2. Follow with acceleration in Q3. Follow with acceleration in Q4. Part of the acceleration story in Q3, as you point out, mix is the primary driver. We've got a strong ramp in custom. And so, you can see that play out in the profiling of the margins. Not a surprise. We've been signaling that custom ramp for quite some time. As we window into Q4, that strength, we're signaling a bigger step up, much larger step up from a revenue standpoint if you roll in the $12 billion. That's an annual target. And that step up in Q4 is broad based. You see it not only in custom. You see it in connectivity.",
+   "parts": [
+    {
+     "t0_ms": 3226880,
+     "text": "You see the acceleration in Q2."
+    },
+    {
+     "t0_ms": 3229420,
+     "text": "Follow with acceleration in Q3."
+    },
+    {
+     "t0_ms": 3231420,
+     "text": "Follow with acceleration in Q4."
+    },
+    {
+     "t0_ms": 3233420,
+     "text": "Part of the acceleration story in Q3, as you point out, mix is the primary driver."
+    },
+    {
+     "t0_ms": 3238200,
+     "text": "We've got a strong ramp in custom."
+    },
+    {
+     "t0_ms": 3240200,
+     "text": "And so, you can see that play out in the profiling of the margins."
+    },
+    {
+     "t0_ms": 3244520,
+     "text": "Not a surprise."
+    },
+    {
+     "t0_ms": 3245340,
+     "text": "We've been signaling that custom ramp for quite some time."
+    },
+    {
+     "t0_ms": 3249100,
+     "text": "As we window into Q4, that strength, we're signaling a bigger step up, much larger step up from a revenue standpoint if you roll in the $12 billion."
+    },
+    {
+     "t0_ms": 3259420,
+     "text": "That's an annual target."
+    },
+    {
+     "t0_ms": 3261420,
+     "text": "And that step up in Q4 is broad based."
+    },
+    {
+     "t0_ms": 3265240,
+     "text": "You see it not only in custom."
+    },
+    {
+     "t0_ms": 3266720,
+     "text": "You see it in connectivity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3268200,
+   "t1_ms": 3308180,
+   "speaker": "Management",
+   "text": "You see it in a rebound in COMM and other. So broad based performance. Net it all out, we see Q4 gross margins in the same target range as Q3. If we use the back half of the year as a jumping off point and think about how that looks going into F3. Fy28. That broad based strength continues. We take the momentum exiting this year and we push that forward into next year. And it's cross custom. It's a cross connectivity. You know, all parts of the business are higher. They're up. Gross margin depends on ultimate mix.",
+   "parts": [
+    {
+     "t0_ms": 3268200,
+     "text": "You see it in a rebound in COMM and other."
+    },
+    {
+     "t0_ms": 3272000,
+     "text": "So broad based performance."
+    },
+    {
+     "t0_ms": 3274780,
+     "text": "Net it all out, we see Q4 gross margins in the same target range as Q3."
+    },
+    {
+     "t0_ms": 3282180,
+     "text": "If we use the back half of the year as a jumping off point and think about how that looks going"
+    },
+    {
+     "t0_ms": 3288560,
+     "text": "into F3."
+    },
+    {
+     "t0_ms": 3289360,
+     "text": "Fy28."
+    },
+    {
+     "t0_ms": 3290600,
+     "text": "That broad based strength continues."
+    },
+    {
+     "t0_ms": 3292800,
+     "text": "We take the momentum exiting this year and we push that forward into next year."
+    },
+    {
+     "t0_ms": 3297620,
+     "text": "And it's cross custom."
+    },
+    {
+     "t0_ms": 3298900,
+     "text": "It's a cross connectivity."
+    },
+    {
+     "t0_ms": 3301640,
+     "text": "You know, all parts of the business are higher."
+    },
+    {
+     "t0_ms": 3304320,
+     "text": "They're up."
+    },
+    {
+     "t0_ms": 3305760,
+     "text": "Gross margin depends on ultimate mix."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3308180,
+   "t1_ms": 3351920,
+   "speaker": "Management",
+   "text": "My preliminary view is gross margins next year are going to be in a similar range. Same range as we're exiting this year. So back half of this year, same range for Fy28. So, you know, we're going to be in a similar range. So we feel good about the performance of the company. We're going to drive growth at this company. We're going to do it with discipline. And we're going to deliver, you know, strong margins. But when we think about that margin profile, operating margin still has significant leverage embedded in it. You're going to see it up in Q3. You're going to see us entering our target long term model range, 38 to 40% exiting this year. You'll see us achieve the high end of that range. And we're going to do that range as we progress through Fy28.",
+   "parts": [
+    {
+     "t0_ms": 3308180,
+     "text": "My preliminary view is gross margins next year are going to be in a similar range."
+    },
+    {
+     "t0_ms": 3313340,
+     "text": "Same range as we're exiting this year."
+    },
+    {
+     "t0_ms": 3315500,
+     "text": "So back half of this year, same range for Fy28."
+    },
+    {
+     "t0_ms": 3318480,
+     "text": "So, you know, we're going to be in a similar range."
+    },
+    {
+     "t0_ms": 3319360,
+     "text": "So we feel good about the performance of the company."
+    },
+    {
+     "t0_ms": 3322600,
+     "text": "We're going to drive growth at this company."
+    },
+    {
+     "t0_ms": 3324320,
+     "text": "We're going to do it with discipline."
+    },
+    {
+     "t0_ms": 3326940,
+     "text": "And we're going to deliver, you know, strong margins."
+    },
+    {
+     "t0_ms": 3330880,
+     "text": "But when we think about that margin profile, operating margin still has significant leverage"
+    },
+    {
+     "t0_ms": 3337040,
+     "text": "embedded in it."
+    },
+    {
+     "t0_ms": 3338040,
+     "text": "You're going to see it up in Q3."
+    },
+    {
+     "t0_ms": 3340060,
+     "text": "You're going to see us entering our target long term model range, 38 to 40% exiting this"
+    },
+    {
+     "t0_ms": 3345600,
+     "text": "year."
+    },
+    {
+     "t0_ms": 3346600,
+     "text": "You'll see us achieve the high end of that range."
+    },
+    {
+     "t0_ms": 3348600,
+     "text": "And we're going to do that range as we progress through Fy28."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3351920,
+   "t1_ms": 3366520,
+   "speaker": "Management",
+   "text": "And we're going to reset that long term target model here in the coming weeks at the analyst day. So we feel good about the performance of the company and the broad base.",
+   "parts": [
+    {
+     "t0_ms": 3351920,
+     "text": "And we're going to reset that long term target model here in the coming weeks at the analyst"
+    },
+    {
+     "t0_ms": 3357560,
+     "text": "day."
+    },
+    {
+     "t0_ms": 3358560,
+     "text": "So we feel good about the performance of the company and the broad base."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3366520,
+   "t1_ms": 3374560,
+   "speaker": "Operator",
+   "text": "Thank you. And ladies and gentlemen, thank you all for your participation. This does conclude today's teleconference. You may disconnect and have a wonderful day.",
+   "parts": [
+    {
+     "t0_ms": 3366520,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3367520,
+     "text": "And ladies and gentlemen, thank you all for your participation."
+    },
+    {
+     "t0_ms": 3369940,
+     "text": "This does conclude today's teleconference."
+    },
+    {
+     "t0_ms": 3372280,
+     "text": "You may disconnect and have a wonderful day."
+    }
+   ]
+  }
+ ]
+}
