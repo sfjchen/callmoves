@@ -20,7 +20,7 @@ def fake_cli(out: dict, seen: dict):
     """Returns a subprocess.run stand-in that records its call and prints `out` as the CLI's JSON."""
     def run(cmd, **kw):
         seen.update(cmd=cmd, env=kw["env"], input=kw["input"])
-        return SimpleNamespace(stdout=json.dumps(out))
+        return SimpleNamespace(stdout=json.dumps(out), stderr="", returncode=1 if out.get("is_error") else 0)
     return run
 
 
@@ -44,3 +44,12 @@ def test_cli_failure_stops_the_call_instead_of_using_rules(monkeypatch):
     seg = Segment(seg_id=0, t0_ms=0, t1_ms=5000, speaker="CFO", text="We expect revenue of $4 billion next quarter.")
     with pytest.raises(RuntimeError, match="usage limit"):
         extract_claims([seg])
+
+
+def test_cli_crash_reports_the_cli_message(monkeypatch):
+    """A CLI that exits non-zero without JSON raises with its stderr, not a bare exit code."""
+    monkeypatch.setenv("CALLMOVES_LLM", "cli")
+    monkeypatch.setattr(subprocess, "run", lambda cmd, **kw: SimpleNamespace(
+        stdout="", stderr="getaddrinfo ENOTFOUND api.anthropic.com", returncode=1))
+    with pytest.raises(RuntimeError, match="exit 1.*ENOTFOUND"):
+        llm.parse("sys", "a", Nums)
