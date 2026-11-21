@@ -34,10 +34,14 @@ def parse[T: BaseModel](system: str, content: str | list[dict], schema: type[T],
         proc = subprocess.run(
             ["claude", "-p", "--model", model, "--system-prompt", system, "--tools", "", "--no-session-persistence",
              "--output-format", "json", "--json-schema", json.dumps(schema.model_json_schema())],
-            input=prompt, capture_output=True, text=True, env=env, timeout=CLI_TIMEOUT_S, check=True)
-        out = json.loads(proc.stdout)
-        if out.get("is_error") or out.get("structured_output") is None:
-            raise RuntimeError(f"claude -p: {str(out.get('result'))[:200]}")
+            input=prompt, capture_output=True, text=True, env=env, timeout=CLI_TIMEOUT_S, check=False)
+        try:
+            out = json.loads(proc.stdout)
+        except json.JSONDecodeError:
+            out = {"is_error": True, "result": proc.stderr or proc.stdout}
+        # the CLI's own message (a usage limit, a login prompt) is the diagnosis, a bare exit code hides it
+        if proc.returncode or out.get("is_error") or out.get("structured_output") is None:
+            raise RuntimeError(f"claude -p exit {proc.returncode}: {str(out.get('result')).strip()[-300:]}")
         for k in PRICE:
             USAGE[k] += out.get("usage", {}).get(k, 0) or 0
         return schema.model_validate(out["structured_output"])
