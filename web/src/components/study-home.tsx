@@ -15,7 +15,7 @@ export default function StudyHome({ ids }: { ids: string[] }) {
   // localStorage exists only in the browser, so the state loads after hydration
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setSt(loadState(ids)), [ids]);
-  if (!st) return <p className="text-muted">Loading.</p>;
+  if (!st) return <p role="status" className="text-muted">Loading.</p>;
   const next = st.trials.find((t) => !t.done);
   return (
     <div>
@@ -28,7 +28,7 @@ export default function StudyHome({ ids }: { ids: string[] }) {
       {next ? (
         <Link
           href={`/calls/${next.call_id}?study=${next.condition}&p=${st.pid}`}
-          className="inline-block rounded bg-brand px-4 py-1.5 text-white hover:bg-brand-dark"
+          className="tap inline-flex items-center rounded bg-brand px-4 py-1.5 text-white hover:bg-brand-dark"
         >
           Start trial {st.trials.indexOf(next) + 1}
         </Link>
@@ -36,7 +36,7 @@ export default function StudyHome({ ids }: { ids: string[] }) {
         <p className="rounded bg-up/5 px-3 py-2 text-up">Both trials are done. Thank you.</p>
       )}
       <button type="button" onClick={() => setSt(loadState(ids, true))}
-        className="block mt-4 text-xs text-muted underline underline-offset-2 hover:text-ink">
+        className="tap-min block mt-4 text-xs text-muted underline underline-offset-2 hover:text-ink">
         Next participant on this device</button>
     </div>
   );

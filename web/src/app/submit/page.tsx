@@ -23,8 +23,7 @@ async function submit(fd: FormData) {
 const STATUS = {
   queued: "text-muted", running: "text-accent", done: "text-up", failed: "text-down",
 };
-const INPUT = "w-full rounded border border-line px-2 py-1 placeholder:text-faint " +
-    "focus:outline-none focus:ring-1 focus:ring-accent/40";
+const INPUT = "tap-min w-full rounded border border-line px-2 py-1 placeholder:text-faint";
 
 /**
  * Renders the submission form, any error notice, and the latest submissions with their status.
@@ -61,7 +60,7 @@ export default async function Submit({ searchParams }: PageProps<"/submit">) {
         {field("release_url", "Earnings release (PDF or HTML)", "https://...", true, "url")}
         {field("prior_url", "Prior-quarter release", "https://...", false, "url")}
         <button
-          className="sm:col-span-2 justify-self-start rounded bg-brand px-3 py-1.5 text-white hover:bg-brand-dark">
+          className="tap sm:col-span-2 justify-self-start rounded bg-brand px-3 py-1.5 text-white hover:bg-brand-dark">
           Queue call</button>
       </form>
       <h2 className="font-semibold mb-1">Recent submissions</h2>
@@ -71,12 +70,12 @@ export default async function Submit({ searchParams }: PageProps<"/submit">) {
             {subs.map((s) => (
               <tr key={s.id} className="border-b border-rule">
                 <td className="py-1.5 pr-4 font-semibold"><Link href={`/submit/status?id=${s.id}`}
-                  className="hover:underline underline-offset-2">{s.ticker}</Link></td>
+                  className="tap hover:underline underline-offset-2">{s.ticker}</Link></td>
                 <td className="py-1.5 pr-4">{s.quarter}</td>
                 <td className="py-1.5 pr-4 text-muted">{new Date(s.created_at).toLocaleString("en-US",
                   { timeZone: TZ, month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })} ET</td>
                 <td className={`py-1.5 pr-4 ${STATUS[s.status]}`}>{s.status}</td>
-                <td className="py-1.5">{s.call_id && s.status === "done" ? <Link className="text-accent underline"
+                <td className="py-1.5">{s.call_id && s.status === "done" ? <Link className="tap text-accent underline"
                   href={`/calls/${s.call_id}`}>replay</Link> :
                   <span className="text-down">{s.error ?? ""}</span>}</td>
               </tr>

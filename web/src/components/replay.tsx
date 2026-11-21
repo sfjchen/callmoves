@@ -1,7 +1,10 @@
 // Replay view for 1 call (client component): price chart, audio player, ranked
-// moments and transcript on 1 shared cursor.
+// moments and transcript on 1 shared cursor. Its keyboard shortcuts are listed in KEYMAP.replay (lib/keymap.ts),
+// which also feeds the help dialog. The transcript follows the audio until the reader scrolls it, and the player
+// keeps its speed and, per call, its last position in localStorage.
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
   Bar, ComposedChart, Line, ReferenceArea, ReferenceDot, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis,
@@ -11,6 +14,9 @@ import {
   clock, dir, DIR_HEX, DIR_TEXT, mmss, PAL, pct, shortQuarter, shortSpeaker, SPILL_LABEL, TZ, WINDOW_MS,
 } from "@/lib/format";
 import Comps from "@/components/comps";
+import { usePageKeys } from "@/lib/hotkeys";
+import { ak } from "@/lib/keymap";
+import { getStored, setStored, useStored } from "@/lib/local";
 import { benchName, clip } from "@/lib/share";
 
 const MAX_TICKS = 40;  // more search matches than this would fill the chart with ticks, so it shows none
@@ -18,6 +24,10 @@ const BEFORE_MS = 45 * 60_000; // chart window: 45 min before the call ...
 const AFTER_MS = 30 * 60_000;  // ... to 30 min after it ends
 const VOL_AXIS_MAX = 12;       // volume multiples above this are block prints, let them clip
 const GLYPH = { up: "▲", down: "▼", flat: "" };
+const MIN_RATE = 0.5, MAX_RATE = 2, RATE_STEP = 0.25; // playback speed range and step of < and >
+const SEEK_S: Record<string, number> = { back: -5, fwd: 5, back30: -30, fwd30: 30 }; // seek shortcuts, in seconds
+const SAVE_MS = 5000;          // the playback position is saved at most this often while playing
+const RESUME_MIN_MS = 10_000;  // a saved position this close to the call start is not worth offering
 
 type Point = { t: number; cum: number; vol_mult: number; flagged: boolean };
 
@@ -35,6 +45,27 @@ function recordGuess(id: string, right: boolean): { scored: boolean; k: number; 
   const s = scored ? { ...prev, [id]: right } : prev;
   document.cookie = `cm_guesses=${encodeURIComponent(JSON.stringify(s))}; path=/; max-age=31536000; samesite=lax`;
   return { scored, k: Object.values(s).filter(Boolean).length, n: Object.keys(s).length };
+}
+
+/**
+ * Returns the scroll behavior for moving the page or the transcript: instant under prefers-reduced-motion.
+ */
+function motion(): ScrollBehavior {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+}
+
+/**
+ * Copies the link to moment `rank` without the study parameters, or shows it in a prompt where the clipboard is
+ * blocked. Resolves true when it reached the clipboard.
+ */
+function copyLink(rank: number): Promise<boolean> {
+  const url = `${window.location.origin}${window.location.pathname}?m=${rank}`;
+  // navigator.clipboard is undefined outside a secure context, such as plain http on a LAN address
+  return (navigator.clipboard?.writeText(url) ?? Promise.reject(new Error("no clipboard")))
+    .then(() => true, () => {
+      try { window.prompt("Copy this link", url); } catch { /* embedded browsers without prompt() */ }
+      return false;
+    });
 }
 
 /**
@@ -71,10 +102,20 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
   const searchRef = useRef<HTMLInputElement>(null);
   const [query, setQuery] = useState("");
   const [hit, setHit] = useState(-1); // index into hits of the last hit jumped to, -1 before the first jump
+  const router = useRouter();
+  const [follow, setFollow] = useState(true); // the transcript scrolls to the active turn until the reader scrolls it
+  const [resume, setResume] = useState<number | null>(null); // saved position (ms) on offer, null when none
+  const [note, setNote] = useState("");       // short confirmation read out by the status region
+  const lastSave = useRef(0);
+  const posKey = `cm_pos_${data.summary.id}`;
+  const rate = clamp(Math.round((Number(useStored("cm_rate")) || 1) / RATE_STEP) * RATE_STEP, MIN_RATE, MAX_RATE);
 
-  // Moves the cursor and, when the audio is more than 0.5 s off, the audio with it.
+  // Moves the cursor and, when the audio is more than 0.5 s off, the audio with it. Every seek is on purpose, so the
+  // transcript follows again and a saved position is no longer offered.
   function seek(ms: number) {
     setCursorMs(ms);
+    setFollow(true);
+    setResume(null);
     const a = audioRef.current;
     if (a && Math.abs(a.currentTime * 1000 - ms) > 500) a.currentTime = ms / 1000;
   }
@@ -100,6 +141,17 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
   const est = (data.estimates ?? []).filter((e) => e.role === "reported");
   const lead = data.moments[0];
   const benchLabel = benchName(data);
+  // The adjusted return of each stretch of the chart, so a reader sees where the day's move happened before reading
+  // any single moment: from the first bar to the call start, the prepared remarks, the Q&A and the bars after it.
+  const stretches = useMemo(() => {
+    const at = (t: number) => points.findLast((p) => p.t <= t) ?? points[0];
+    const cuts: [string, number, number][] = [
+      ["Before the call", points[0]?.t ?? 0, offset], ["Prepared remarks", offset, qaMs ?? endMs],
+      ["Q&A", qaMs ?? endMs, endMs], ["After", endMs, points[points.length - 1]?.t ?? 0],
+    ];
+    return cuts.filter(([, a, b]) => points.length > 1 && at(b).t > at(a).t)
+      .map(([name, a, b]) => ({ name, ret: (1 + at(b).cum / 100) / (1 + at(a).cum / 100) - 1 }));
+  }, [points, offset, qaMs, endMs]);
 
   // Moves the cursor to a moment, keeps it in the URL as ?m=<rank> without a reload so the link can be shared, and
   // on phones where the panels stack scrolls to the transcript.
@@ -108,40 +160,8 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
     const u = new URL(window.location.href);
     u.searchParams.set("m", String(m.rank));
     window.history.replaceState(null, "", u);
-    if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: "smooth" });
+    if (window.innerWidth < 1024) document.getElementById("transcript")?.scrollIntoView({ behavior: motion() });
   }
-
-  // Keyboard: j/k moments, 1 to 5 by rank, [ ] transcript turns, space audio, / search. Inputs keep their keys.
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      const el = e.target as HTMLElement | null;
-      if (
-        e.metaKey || e.ctrlKey || e.altKey ||
-        (el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable))
-      ) return;
-      if (e.key === "/") {
-        e.preventDefault();
-        searchRef.current?.focus();
-        return;
-      }
-      const idx = active ? data.segments.indexOf(active) : -1;
-      let to: number | undefined;
-      if (e.key === "j") to = byTime.find((m) => m.t0_ms > cursorMs)?.t0_ms;
-      else if (e.key === "k") to = [...byTime].reverse().find((m) => m.t0_ms < cursorMs)?.t0_ms;
-      else if (/^[1-5]$/.test(e.key)) to = data.moments.find((m) => m.rank === Number(e.key))?.t0_ms;
-      else if (e.key === "]") to = data.segments[idx + 1]?.t0_ms;
-      else if (e.key === "[") to = data.segments[Math.max(0, idx - 1)]?.t0_ms;
-      else if (e.key === " " && audioRef.current) {
-        e.preventDefault();
-        const a = audioRef.current;
-        if (a.paused) void a.play(); else a.pause();
-        return;
-      }
-      if (to !== undefined) { e.preventDefault(); seek(to); }
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  });
 
   // Moves the cursor, audio and transcript to search hit i, wrapping around at either end.
   function jump(i: number) {
@@ -161,6 +181,130 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
     e.preventDefault();
     jump(hit < 0 ? (e.shiftKey ? -1 : 0) : hit + (e.shiftKey ? -1 : 1));
   }
+
+  // Runs the shortcut with this id (KEYMAP.replay lists them) and returns whether it did anything, so a key with
+  // nothing to act on keeps its browser default.
+  function run(id: string, key: string): boolean {
+    const a = audioRef.current;
+    const idx = active ? data.segments.indexOf(active) : -1;
+    const m = data.moments.find((x) => x.seg_id === active?.seg_id) ?? lead;
+    const go = (ms: number | undefined) => {
+      if (ms === undefined) return false;
+      seek(ms);
+      return true;
+    };
+    if (id in SEEK_S) {
+      const to = (a ? a.currentTime * 1000 : cursorMs) + SEEK_S[id] * 1000;
+      return go(clamp(to, 0, a && isFinite(a.duration) ? a.duration * 1000 : endMs));
+    }
+    switch (id) {
+      case "moment-next": return go(byTime.find((x) => x.t0_ms > cursorMs)?.t0_ms);
+      case "moment-prev": return go([...byTime].reverse().find((x) => x.t0_ms < cursorMs)?.t0_ms);
+      case "rank": return go(data.moments.find((x) => x.rank === Number(key))?.t0_ms);
+      case "turn-next": return go(data.segments[idx + 1]?.t0_ms);
+      case "turn-prev": return go(data.segments[Math.max(0, idx - 1)]?.t0_ms);
+      case "play":
+        if (!a) return false;
+        if (a.paused) a.play().catch(() => {}); else a.pause();
+        return true;
+      case "slower":
+      case "faster": {
+        const next = clamp(rate + (id === "faster" ? RATE_STEP : -RATE_STEP), MIN_RATE, MAX_RATE);
+        if (next === rate) return false;
+        setStored("cm_rate", String(next));
+        return true;
+      }
+      case "search":
+        searchRef.current?.focus();
+        searchRef.current?.select();
+        return !!searchRef.current;
+      case "hit-next":
+      case "hit-prev":
+        if (!hits.length) return false;
+        jump(id === "hit-next" ? hit + 1 : hit < 0 ? -1 : hit - 1);
+        return true;
+      case "mute":
+        if (!a) return false;
+        a.muted = !a.muted;
+        return true;
+      case "follow":
+        setFollow((f) => !f);
+        return true;
+      case "copy":
+        if (!m) return false;
+        void copyLink(m.rank).then((ok) => ok && setNote(`Copied the link to moment ${m.rank}`));
+        return true;
+      case "library":
+        if (baseline) return false;
+        router.push("/");
+        return true;
+      default: return false;
+    }
+  }
+  usePageKeys("replay", run);
+  const runRef = useRef(run);
+  useEffect(() => {
+    runRef.current = run;
+  });
+
+  // Applies the saved playback speed to the player, as the speed of this load and of the next ones.
+  useEffect(() => {
+    const a = audioRef.current;
+    if (a) {
+      a.defaultPlaybackRate = rate;
+      a.playbackRate = rate;
+    }
+  }, [rate, audioOk]);
+
+  // Clears the status message after a moment.
+  useEffect(() => {
+    if (!note) return;
+    const t = setTimeout(() => setNote(""), 2500);
+    return () => clearTimeout(t);
+  }, [note]);
+
+  // Offers the position saved for this call, unless a shared ?m= link or guess mode chose where to start.
+  useEffect(() => {
+    const sp = new URLSearchParams(window.location.search);
+    const at = Number(getStored(posKey));
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (!hide && !sp.has("m") && !sp.has("guess") && at > offset + RESUME_MIN_MS) setResume(at);
+  }, [posKey, hide, offset]);
+
+  // Saves the playback position of a call that is not cut for a guess or the study.
+  function savePos(a: HTMLAudioElement) {
+    lastSave.current = Date.now();
+    if (!hide) setStored(posKey, String(Math.round(a.currentTime * 1000)));
+  }
+
+  // Shows the call to the system media controls (lock screen, headset): play, pause, 5 s back and forward, and
+  // previous and next moment. Each handler is set on its own because browsers differ in the actions they know.
+  useEffect(() => {
+    if (!audioOk || !("mediaSession" in navigator)) return;
+    const ms = navigator.mediaSession;
+    const via = (id: string) => () => {
+      runRef.current(id, "");
+    };
+    const handlers: [MediaSessionAction, () => void][] = [
+      ["play", () => void audioRef.current?.play().catch(() => {})], ["pause", () => audioRef.current?.pause()],
+      ["seekbackward", via("back")], ["seekforward", via("fwd")],
+      ["previoustrack", via("moment-prev")], ["nexttrack", via("moment-next")],
+    ];
+    try {
+      ms.metadata = new MediaMetadata({
+        title: `${data.call.ticker} ${shortQuarter(data.call.quarter)} earnings call`, artist: "CallMoves",
+      });
+    } catch { /* no metadata support */ }
+    for (const [name, f] of handlers) {
+      try { ms.setActionHandler(name, f); } catch { /* this browser lacks the action */ }
+    }
+    return () => {
+      for (const [name] of handlers) {
+        try { ms.setActionHandler(name, null); } catch { /* this browser lacks the action */ }
+      }
+      try { ms.metadata = null; } catch { /* no metadata support */ }
+    };
+  }, [audioOk, data.call.ticker, data.call.quarter]);
 
   const noAudio = !data.call.audio_url || audioOk === false;
 
@@ -239,7 +383,7 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
                 {([[true, "▲ Beat"], [false, "▼ Trail"]] as const).map(([up, label]) => (
                   <button key={label} onClick={() => answer(up)} disabled={guessState === "busy"}
-                    className="rounded-full bg-ink px-3 py-0.5 text-white hover:bg-ink/85 disabled:opacity-50">
+                    className="tap rounded-full bg-ink px-3 py-0.5 text-white hover:bg-ink/85 disabled:opacity-50">
                     {label}</button>
                 ))}
                 <span className="text-xs text-muted">{guessState === "error" ?
@@ -278,8 +422,8 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
           {data.moments.length > 0 && (
             <div className="mt-2 flex flex-wrap items-center gap-1.5 text-xs">
               {data.moments.map((m) => (
-                <button key={m.rank} onClick={() => select(m)}
-                  className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${active?.seg_id === m.seg_id ?
+                <button key={m.rank} onClick={() => select(m)} aria-keyshortcuts={String(m.rank)}
+                  className={`tap tabular rounded-full border px-2 py-0.5 hover:bg-white ${active?.seg_id === m.seg_id ?
                     "border-mark bg-white" : "border-line"}`}>
                   <span className="font-semibold text-mark">{m.rank}</span> {clock(m.ts)}{" "}
                   <span className={DIR_TEXT[dir(m.adj_ret_5m)]}>{pct(m.adj_ret_5m)}</span>
@@ -287,12 +431,9 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               ))}
               {audioOk && lead && (
                 <button onClick={() => { select(lead); void audioRef.current?.play(); }}
-                  className="rounded-full bg-brand px-2.5 py-0.5 text-white">▶ Play #1</button>
+                  className="tap rounded-full bg-brand px-2.5 py-0.5 text-white">▶ Play #1</button>
               )}
-              <span className="hidden lg:inline ml-auto text-muted">
-                <kbd>j</kbd> <kbd>k</kbd> next and previous moment · <kbd>1</kbd>-<kbd>5</kbd> rank
-                {audioOk && <> · <kbd>space</kbd> play</>}
-              </span>
+              <span className="hidden lg:inline ml-auto text-muted">Press <kbd>?</kbd> for keyboard shortcuts</span>
             </div>
           )}
         </section>
@@ -328,6 +469,16 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
               {cursorPoint && <> · {pct(cursorPoint.cum / 100)} · {cursorPoint.vol_mult.toFixed(1)}x volume</>}
             </div>
           </div>
+          {!hide && stretches.length > 1 && (
+            <p className="mb-1 flex flex-wrap gap-x-4 gap-y-0.5 text-xs text-muted tabular"
+              aria-label="Move by stretch">
+              {stretches.map((x) => (
+                <span key={x.name}>{x.name}{" "}
+                  <span className={`font-semibold ${DIR_TEXT[dir(x.ret)]}`}>{pct(x.ret)}</span></span>
+              ))}
+              <span>vs {benchLabel}</span>
+            </p>
+          )}
           <div className="h-48 lg:h-72">
             <ResponsiveContainer width="100%" height="100%">
               <ComposedChart
@@ -408,24 +559,45 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
                 "numbered dots moments with their 5-min window shaded"}
             {hits.length > 0 && hits.length <= MAX_TICKS && ", grey ticks at the bottom search matches"}.
             {" "}Click or tap the chart to jump there.
-            <span className="hidden lg:inline cursor-help ml-1 underline decoration-dotted"
-              title={`j / k: next and previous moment. 1 to 5: jump to a rank. [ / ]: previous and next turn.${audioOk ?
-                " Space: play or pause." : ""} /: search, Esc clears it.`}>?</span>
           </div>
         </section>
       )}
 
       {data.call.audio_url && audioOk && (
         <audio
-          ref={audioRef} controls src={data.call.audio_url} className="w-full mb-4" onError={() => setAudioOk(false)}
-          onTimeUpdate={(e) => setCursorMs(Math.round(e.currentTarget.currentTime * 1000))}
+          ref={audioRef} controls src={data.call.audio_url} className="w-full mb-1" onError={() => setAudioOk(false)}
+          aria-keyshortcuts={ak("play")} onPlay={() => setResume(null)} onPause={(e) => savePos(e.currentTarget)}
+          onEnded={() => setStored(posKey, "0")}
+          onTimeUpdate={(e) => {
+            setCursorMs(Math.round(e.currentTarget.currentTime * 1000));
+            if (Date.now() - lastSave.current >= SAVE_MS) savePos(e.currentTarget);
+          }}
         />
       )}
-      {noAudio && (
-        <p className="text-xs text-muted mb-4">
-          Audio is unavailable, click the chart or transcript to move the cursor.
-        </p>
-      )}
+      <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
+        {data.call.audio_url && audioOk === null && <span>Loading the audio.</span>}
+        {noAudio && <span>Audio is unavailable, click the chart or transcript to move the cursor.</span>}
+        {resume !== null && audioOk && (
+          <button
+            onClick={() => { seek(resume); void audioRef.current?.play().catch(() => {}); }}
+            className="tap rounded-full border border-mark bg-surface px-2.5 py-0.5 text-ink tabular"
+          >
+            Resume at {mmss(resume - offset)}</button>
+        )}
+        {audioOk && (
+          <span className="inline-flex items-center gap-1 tabular">
+            Speed
+            <button
+              aria-label="Slower" title="Slower (<)" aria-keyshortcuts={ak("slower")} onClick={() => run("slower", "")}
+              className="tap rounded border border-line px-2 hover:bg-surface">−</button>
+            <output className="w-10 text-center text-ink">{rate}x</output>
+            <button
+              aria-label="Faster" title="Faster (>)" aria-keyshortcuts={ak("faster")} onClick={() => run("faster", "")}
+              className="tap rounded border border-line px-2 hover:bg-surface">+</button>
+          </span>
+        )}
+        <span role="status" className="ml-auto text-ink">{note}</span>
+      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
         {!hide && <section className="lg:col-span-2 card p-3">
@@ -455,33 +627,32 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
             <h2 id="transcript" className="text-lg">Transcript</h2>
             <input
               ref={searchRef} type="search" value={query} placeholder="Search the transcript ( / )"
-              aria-label="Search the transcript" onChange={(e) => { setQuery(e.target.value); setHit(-1); }}
-              onKeyDown={onSearchKey}
-              className={
-                "ml-auto w-48 rounded border border-line px-2 py-0.5 text-xs placeholder:text-faint " +
-                "focus:outline-none focus:ring-1 focus:ring-accent/40"
-              }
+              aria-label="Search the transcript" aria-keyshortcuts={ak("search")}
+              onChange={(e) => { setQuery(e.target.value); setHit(-1); }} onKeyDown={onSearchKey}
+              className="tap-min ml-auto w-48 rounded border border-line px-2 py-0.5 text-xs placeholder:text-faint"
             />
             {q.length >= 2 && <span className="flex items-center gap-1 text-xs text-muted tabular">
               <span aria-live="polite">{hits.length === 0 ? "no match" : hit >= 0 ? `${hit + 1} of ${hits.length}` :
                 `${hits.length} match${hits.length === 1 ? "" : "es"}`}</span>
               {hits.length > 0 && <>
-                <button aria-label="Previous match" onClick={() => jump(hit < 0 ? -1 : hit - 1)}
-                  className="rounded border border-line px-1.5 hover:bg-white">↑</button>
-                <button aria-label="Next match" onClick={() => jump(hit + 1)}
-                  className="rounded border border-line px-1.5 hover:bg-white">↓</button>
+                <button
+                  aria-label="Previous match" aria-keyshortcuts={ak("hit-prev")} onClick={() => run("hit-prev", "")}
+                  className="tap rounded border border-line px-1.5 hover:bg-white">↑</button>
+                <button aria-label="Next match" aria-keyshortcuts={ak("hit-next")} onClick={() => run("hit-next", "")}
+                  className="tap rounded border border-line px-1.5 hover:bg-white">↓</button>
               </>}
             </span>}
           </div>
           <TranscriptList
             segments={data.segments} activeId={active?.seg_id ?? null}
             momentSegs={new Set(data.moments.map((m) => m.seg_id))}
-            offset={offset} query={q.length < 2 ? "" : q} onSelect={(s) => seek(s.t0_ms)}
+            offset={offset} query={q.length < 2 ? "" : q} onSelect={(s) => seek(s.t0_ms)} follow={follow}
+            onScroll={() => setFollow(false)} onFollow={() => setFollow(true)}
           />
         </section>
       </div>
       {!hide && <details className="mt-3 text-xs text-muted">
-        <summary className="cursor-pointer w-fit underline underline-offset-2 hover:text-ink">
+        <summary className="tap-min cursor-pointer w-fit underline underline-offset-2 hover:text-ink">
           How moments are found</summary>
         <ul className="mt-1 max-w-3xl space-y-0.5 tabular">
           <li>Price first: {flaggedCount} abnormal minutes → {data.candidate_seg_ids.length} turns spoken in the 5 min
@@ -497,6 +668,9 @@ export default function Replay({ data: initial, baseline = false, initialRank, g
             as much. Moments are picked for big moves, so a low count is expected: it says how unusual, not why.</li>
           <li>&ldquo;Move began earlier&rdquo; means the price may have shaped the statement. Associations, not
             causes.</li>
+          <li>What the tests support: call minutes are flagged far more often than ordinary minutes, so the moves
+            are real. Across the library, statements do not land on moves more often than chance (the README has the
+            test), so a moment shows a move and what was being said, not proof that the sentence moved the stock.</li>
           {data.stats?.gpu_usd != null && data.stats.claude_usd != null && <li>
             Processed {data.stats.audio_min} min of audio in{" "}
             {Math.round(((data.stats.ingest_s ?? 0) + (data.stats.claude_s ?? 0)) / 60)} min for $
@@ -517,24 +691,17 @@ function money(e: Estimate, x: number): string {
 
 /**
  * Renders 1 ranked moment: rank, time, quote and adjusted return, with the evidence and a Copy link button shown only
- * while it is active. Low-confidence moments are dimmed.
+ * while it is active. Low-confidence moments have a dashed border.
  */
 function MomentCard({ m, atOpen, active, onSelect }: {
   m: Moment; atOpen: boolean; active: boolean; onSelect: () => void;
 }) {
   const d = dir(m.adj_ret_5m);
   const [copied, setCopied] = useState(false);
-  // Copies the moment's link without the study parameters, or shows it in a prompt where the clipboard is blocked.
-  function copy() {
-    const url = `${window.location.origin}${window.location.pathname}?m=${m.rank}`;
-    // navigator.clipboard is undefined outside a secure context, such as plain http on a LAN address
-    (navigator.clipboard?.writeText(url) ?? Promise.reject(new Error("no clipboard")))
-      .then(() => setCopied(true), () => window.prompt("Copy this link", url));
-  }
   return (
     <li className="relative">
       <button onClick={onSelect} className={`w-full text-left rounded-md border p-2.5 hover:bg-white ${active ?
-        "border-mark bg-white" : `border-line ${m.confidence === "low" ? "opacity-60" : ""}`}`}>
+        "border-mark bg-white" : `border-line ${m.confidence === "low" ? "border-dashed" : ""}`}`}>
         <div className="flex items-center gap-2 text-xs text-muted">
           <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-mark text-white
             font-semibold">{m.rank}</span>
@@ -575,7 +742,8 @@ function MomentCard({ m, atOpen, active, onSelect }: {
         )}
       </button>
       {active && (
-        <button onClick={copy} onBlur={() => setCopied(false)}
+        <button onClick={() => void copyLink(m.rank).then(setCopied)} onBlur={() => setCopied(false)}
+          aria-keyshortcuts={ak("copy")}
           className="absolute bottom-2.5 right-2.5 text-xs text-accent hover:underline underline-offset-2">
           {copied ? "Copied" : "Copy link"}</button>
       )}
@@ -584,58 +752,76 @@ function MomentCard({ m, atOpen, active, onSelect }: {
 }
 
 /**
- * Renders the transcript as clickable turns with their 5-min adjusted return, scrolling the active turn to center.
+ * Renders the transcript as clickable turns with their 5-min adjusted return. While `follow` is on it scrolls the
+ * active turn to center. Wheel, touch or key scrolling of the list calls onScroll (the parent turns follow off), and
+ * then a Follow playback button calls onFollow.
  */
-function TranscriptList({ segments, activeId, momentSegs, offset, query, onSelect }: {
-  segments: Segment[]; activeId: number | null; momentSegs: Set<number>; offset: number;
-  query: string; onSelect: (s: Segment) => void;
+function TranscriptList({ segments, activeId, momentSegs, offset, query, follow, onSelect, onScroll, onFollow }: {
+  segments: Segment[]; activeId: number | null; momentSegs: Set<number>; offset: number; query: string;
+  follow: boolean; onSelect: (s: Segment) => void; onScroll: () => void; onFollow: () => void;
 }) {
   const listRef = useRef<HTMLOListElement>(null);
   const activeRef = useRef<HTMLLIElement>(null);
   // Scrolls the list, not the page, so the chart stays in view.
   useEffect(() => {
     const list = listRef.current, el = activeRef.current;
-    if (!list || !el) return;
-    list.scrollTo({ top: el.offsetTop - list.clientHeight / 2 + el.clientHeight / 2, behavior: "smooth" });
-  }, [activeId]);
+    if (!follow || !list || !el) return;
+    list.scrollTo({ top: el.offsetTop - list.clientHeight / 2 + el.clientHeight / 2, behavior: motion() });
+  }, [activeId, follow]);
   return (
-    <ol ref={listRef} className="relative max-h-[32rem] overflow-y-auto pr-1 space-y-1">
-      {segments.map((s) => {
-        const isActive = s.seg_id === activeId;
-        const ret = s.adj_ret_5m;
-        return (
-          <li key={s.seg_id} ref={isActive ? activeRef : undefined}>
-            <button
-              onClick={() => onSelect(s)}
-              className={
-                "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-white " +
-                (isActive ? "bg-white ring-1 ring-accent/40" : "")
-              }
-            >
-              <span
-                className="w-12 shrink-0 text-right text-[11px] text-faint tabular leading-5"
-                title={ret != null ? "adjusted return over the next 5 min" : undefined}
+    <div className="relative">
+      <ol
+        ref={listRef} className="relative max-h-[32rem] overflow-y-auto pr-1 space-y-1" onWheel={onScroll}
+        onTouchMove={onScroll}
+        onKeyDown={(e) => /^(ArrowUp|ArrowDown|PageUp|PageDown|Home|End)$/.test(e.key) && onScroll()}
+        onPointerDown={(e) => e.target === e.currentTarget && onScroll()}
+      >
+        {segments.map((s) => {
+          const isActive = s.seg_id === activeId;
+          const ret = s.adj_ret_5m;
+          return (
+            <li key={s.seg_id} ref={isActive ? activeRef : undefined}>
+              <button
+                onClick={() => onSelect(s)}
+                className={
+                  "flex w-full gap-2 text-left rounded px-2 py-1.5 text-sm hover:bg-white " +
+                  "focus-visible:-outline-offset-2 " +
+                  (isActive ? "bg-white ring-1 ring-accent/40" : "")
+                }
               >
-                {ret != null ? pct(ret) : ""}
-              </span>
-              <span className="min-w-0">
-                <span className="text-xs text-muted tabular mr-2">{mmss(s.t0_ms - offset)}</span>
                 <span
-                  className={
-                    "text-xs font-medium mr-2 " +
-                    (momentSegs.has(s.seg_id) ? "text-mark" : "text-ink")
-                  }
-                  title={s.name ? s.speaker : undefined}
+                  className="w-12 shrink-0 text-right text-[11px] text-faint tabular leading-5"
+                  title={ret != null ? "adjusted return over the next 5 min" : undefined}
                 >
-                  {s.name ?? shortSpeaker(s.speaker)}
+                  {ret != null ? pct(ret) : ""}
                 </span>
-                <span className="text-ink">{highlight(s.text, query)}</span>
-              </span>
-            </button>
-          </li>
-        );
-      })}
-    </ol>
+                <span className="min-w-0">
+                  <span className="text-xs text-muted tabular mr-2">{mmss(s.t0_ms - offset)}</span>
+                  <span
+                    className={
+                      "text-xs font-medium mr-2 " +
+                      (momentSegs.has(s.seg_id) ? "text-mark" : "text-ink")
+                    }
+                    title={s.name ? s.speaker : undefined}
+                  >
+                    {s.name ?? shortSpeaker(s.speaker)}
+                  </span>
+                  <span className="text-ink">{highlight(s.text, query)}</span>
+                </span>
+              </button>
+            </li>
+          );
+        })}
+      </ol>
+      {!follow && (
+        <button
+          onClick={onFollow} aria-keyshortcuts={ak("follow")}
+          className="tap absolute bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-ink px-3 py-1 text-xs text-white
+            shadow"
+        >
+          Follow playback <kbd>f</kbd></button>
+      )}
+    </div>
   );
 }
 

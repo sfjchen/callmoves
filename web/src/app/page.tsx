@@ -1,8 +1,10 @@
 // Library page: every processed call grouped by sector, as compact cards with the call's move against its sector
 // ETF, the top moment and the call's themes. Filter by ticker, company, quarter or sector, or by 1 theme with the chips
-// under the header, and sort by date or move size.
+// under the header, and sort by date or move size. j / k select a card, Enter opens it, / filters (LibraryKeys).
 import Link from "next/link";
+import LibraryKeys from "@/components/library-keys";
 import { listCalls } from "@/lib/data";
+import { ak } from "@/lib/keymap";
 import {
   clock, dir, DIR_HEX, DIR_TEXT, PAL, pct, SECTOR, shortQuarter, shortSpeaker, SPILL_LABEL, TZ,
 } from "@/lib/format";
@@ -41,7 +43,7 @@ function CallCard({ c }: { c: CallSummary }) {
   const end = c.spark[c.spark.length - 1] ?? 0, top = c.top_moment;
   const date = new Date(c.call_start).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: TZ });
   return (
-    <Link href={`/calls/${c.id}`} className="card card-hover block p-3 sm:p-3.5">
+    <Link href={`/calls/${c.id}`} data-row className="card card-hover block p-3 sm:p-3.5">
       <div className="flex items-start gap-3">
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline gap-2">
@@ -111,6 +113,7 @@ export default async function Library({ searchParams }: PageProps<"/">) {
   const ordered = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
   return (
     <div className="mx-auto max-w-6xl">
+      <LibraryKeys />
       <div className="flex flex-wrap items-end gap-x-4 gap-y-2 mb-4">
         <div className="mr-auto">
           <h1 className="text-2xl leading-tight">Call library</h1>
@@ -122,24 +125,24 @@ export default async function Library({ searchParams }: PageProps<"/">) {
         <form className="flex flex-wrap gap-2 text-sm w-full sm:w-auto">
           <input
             type="search" name="q" defaultValue={q} placeholder="Ticker, company or sector"
-            className={"min-w-0 basis-full sm:basis-auto sm:w-64 rounded border border-line bg-white px-2 py-1 " +
-              "placeholder:text-muted/70 focus:outline-none focus:ring-1 focus:ring-accent/40"}
-            aria-label="Filter calls"
+            className={"tap-min min-w-0 basis-full sm:basis-auto sm:w-64 rounded border border-line bg-white px-2 " +
+              "py-1 placeholder:text-faint"}
+            aria-label="Filter calls" aria-keyshortcuts={ak("search")}
           />
           <select name="sort" defaultValue={sort} aria-label="Sort calls"
-            className="rounded border border-line bg-white px-2 py-1">
+            className="tap-min rounded border border-line bg-white px-2 py-1">
             {Object.entries(SORTS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
           {theme && <input type="hidden" name="theme" value={theme} />}
-          <button className="rounded bg-brand px-3 py-1 text-white hover:bg-brand-dark">Apply</button>
+          <button className="tap rounded bg-brand px-3 py-1 text-white hover:bg-brand-dark">Apply</button>
         </form>
       </div>
       <nav className="-mt-2 mb-4 flex flex-wrap gap-1.5 text-xs" aria-label="Filter by theme">
         {[...themes].sort((a, b) => b[1] - a[1]).map(([t, n]) => (
           <Link key={t} href={href(t)} aria-current={t === theme || undefined}
-            className={`tabular rounded-full border px-2 py-0.5 hover:bg-white ${t === theme ?
+            className={`tap tabular rounded-full border px-2 py-0.5 hover:bg-white ${t === theme ?
               "border-brand bg-white text-ink" : "border-line text-muted"}`}>
-            {t} <span className="opacity-70">{n}</span>{t === theme && " ×"}</Link>
+            {t} <span className="ml-1 text-faint">{n}</span>{t === theme && " ×"}</Link>
         ))}
       </nav>
       {calls.length === 0 ? (
@@ -147,7 +150,7 @@ export default async function Library({ searchParams }: PageProps<"/">) {
           `No call matches${q ? ` "${q}"` : ""}${theme ? ` with theme ${theme}` : ""}.`}</p>
       ) : ordered.map(([sector, cs]) => (
         <details key={sector} open className="mb-5 group">
-          <summary className="flex cursor-pointer items-baseline gap-2 border-b border-line pb-1 mb-2.5
+          <summary className="tap-min flex cursor-pointer items-center gap-2 border-b border-line pb-1 mb-2.5
             list-none [&::-webkit-details-marker]:hidden">
             <span className="text-muted text-xs w-3 transition-transform group-open:rotate-90">▸</span>
             <h2 className="text-base">{sector}</h2>

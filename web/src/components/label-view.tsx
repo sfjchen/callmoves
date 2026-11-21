@@ -1,19 +1,16 @@
 // Blind labeling view (client component): the stock and ETF path around 1 flagged event and the numbered sentences
 // spoken before it. A click on a sentence, or n / r / m / o for none, release, market, other, saves the label and
-// loads the next flag.
+// loads the next flag (the keys are in KEYMAP.label, lib/keymap.ts).
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import type { LabelFlag } from "@/lib/labels";
 import { clock, PAL, shortSpeaker } from "@/lib/format";
+import { usePageKeys } from "@/lib/hotkeys";
+import { KEYMAP } from "@/lib/keymap";
 
-const KINDS = [
-  { key: "n", choice: "none", text: "None stands out" },
-  { key: "r", choice: "release", text: "Still digesting the release" },
-  { key: "m", choice: "market", text: "Market or sector moved too" },
-  { key: "o", choice: "other", text: "Other" },
-] as const;
+const KINDS = KEYMAP.label.filter((a) => a.id !== "conf"); // a shortcut's id is the choice it saves
 const CONF = { 1: "guess", 2: "plausible", 3: "clear" } as const;
 
 /**
@@ -39,15 +36,9 @@ export default function LabelView({ flag, k, done, total }: {
     else { setErr("Could not save, try again."); setBusy(false); }
   }
 
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.metaKey || e.ctrlKey || e.altKey) return;
-      const kind = KINDS.find((x) => x.key === e.key);
-      if (kind) void send(kind.choice);
-      else if (e.key === "1" || e.key === "2" || e.key === "3") setConf(Number(e.key) as 1 | 2 | 3);
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+  usePageKeys("label", (id, key) => {
+    if (id === "conf") setConf(Number(key) as 1 | 2 | 3);
+    else void send(id);
   });
 
   const start = new Date(flag.start).getTime();
@@ -62,13 +53,14 @@ export default function LabelView({ flag, k, done, total }: {
       <PathChart flag={flag} start={start} />
       <div className="my-2 flex flex-wrap items-center gap-1.5 text-sm">
         {KINDS.map((x) => (
-          <button key={x.key} disabled={busy} onClick={() => send(x.choice)}
-            className="rounded border border-line bg-white px-2 py-1 hover:border-brand disabled:opacity-50">
-            <kbd>{x.key}</kbd> {x.text}</button>
+          <button key={x.id} disabled={busy} onClick={() => send(x.id)} aria-keyshortcuts={x.keys[0]}
+            className="tap rounded border border-line bg-white px-2 py-1 hover:border-brand disabled:opacity-50">
+            <kbd>{x.keys[0]}</kbd> {x.text}</button>
         ))}
         <span className="ml-auto text-xs text-muted">confidence{" "}
           {([1, 2, 3] as const).map((c) => (
-            <button key={c} onClick={() => setConf(c)} className={`ml-1 rounded px-1.5 py-0.5 ${conf === c ?
+            <button key={c} onClick={() => setConf(c)} aria-keyshortcuts={String(c)}
+              className={`tap ml-1 rounded px-1.5 py-0.5 ${conf === c ?
               "bg-brand text-white" : "border border-line"}`}><kbd>{c}</kbd> {CONF[c]}</button>
           ))}
         </span>
@@ -82,7 +74,8 @@ export default function LabelView({ flag, k, done, total }: {
           return (
             <li key={s.n}>
               <button disabled={busy} onClick={() => send("statement", s.n)}
-                className="flex w-full gap-2 px-2 py-1.5 text-left text-sm hover:bg-white disabled:opacity-50">
+                className="flex w-full gap-2 px-2 py-1.5 text-left text-sm hover:bg-white disabled:opacity-50
+                  focus-visible:-outline-offset-2">
                 <span className={`w-16 shrink-0 tabular text-xs leading-5 ${
                   after ? "text-mark" : "text-muted"}`}>
                   {new Date(s.ts).toLocaleTimeString("en-US", { hour12: false, timeZone: "America/New_York" })}</span>
