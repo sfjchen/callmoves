@@ -8,9 +8,11 @@ minute is the percentile rank, among the call's own minutes, of the |adjusted re
 the mean rank at its event minutes, and its z is that statistic against a null that moves the events and keeps the
 bars:
 
-- local: every event shifted by the same 6 to 15 minutes either way, over the events at least 15 minutes from
-  either end of the call. Keeps the time of day and roughly the place in the call. A sharp peak shared by claims
-  and volatility (the first minutes of Q&A) can still pass it, so a positive local result counts only when the
+- local: every event shifted by the same 6 to 15 minutes either way, a shifted event that leaves the call dropped.
+  Keeps the time of day and roughly the place in the call. On random events it rejects at most as often as it
+  should (--calibrate). Trimming to events that every shift keeps inside the call was tried and rejected 13 to 21%
+  of the time, because the trimmed events sit in the middle and their shifted copies reach the quieter ends. A
+  sharp peak shared by claims and volatility can still pass it, so a positive local result counts only when the
   cross null agrees.
 - cross: the events laid at another call's positions (fractions of its prepared remarks and Q&A). Keeps the usual
   shape of a call.
@@ -21,8 +23,8 @@ Calls pool by the mean z. The test is across calls: a 95% interval and a 1-sided
 (calls on 1 day share market news), which needs nothing from the within-call null but its centre. The permutation p
 (1 null placement drawn per call, the same one for every family, so the max-statistic p across families is valid
 too) is printed for the local and cross nulls only: neighbouring rotations are correlated with each other and not
-with the real placement, so the rotate null's spread is too small and its permutation p rejects 12% of the time on
-random events (--calibrate measures this). The older sign test (eval --placebo) threw the effect size away and
+with the real placement, so the rotate null's spread is too small and it rejects 11 to 13% of the time on random
+events (--calibrate measures this). The older sign test (eval --placebo) threw the effect size away and
 needed a 64% hit rate for 80% power at 75 calls.
 
 The calibration part asks the opposite question, whether the price side is real: the share of regular-session call
@@ -51,7 +53,6 @@ from .transcript import qa_start_ms
 
 LOCAL_SHIFTS = [s for s in range(-15, 16) if abs(s) >= 6]   # past the 5-minute window, close enough to keep the
                                                             # place in the call
-EDGE = max(LOCAL_SHIFTS)
 MIN_EVENTS = 5       # fewer events than this in a call say nothing about its timing
 MIN_NULL = 10        # fewer null placements than this cannot give a z
 MIN_COVER = 0.25     # share of call minutes with a trade: under it most 5-minute windows read stale prices
@@ -204,8 +205,6 @@ def study(grids: list[Grid], null: str, seed: int = 0, draws: int = DRAWS, boot:
         pick = None   # the replicate's placement for this call, shared by its families
         for f in fams:
             idx = g.ev[f]
-            if null == "local":   # only events every shift keeps inside the call, so each placement has them all
-                idx = idx[(idx >= EDGE) & (idx < g.n - EDGE)]
             fake = np.array([stat(g, p) for p in placements(g, idx, null, grids, f)]) if len(idx) >= MIN_EVENTS \
                 else np.array([])
             if not len(fake):
