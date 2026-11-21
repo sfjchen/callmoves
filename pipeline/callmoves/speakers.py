@@ -118,8 +118,11 @@ def name_speakers(call: Path, segments: list[Segment], company: str | None) -> l
     else:
         return segments
     # the cache keeps Claude's raw answer, so a stricter check here applies to cached calls too
+    # Claude joins 2 quotes with "..." when the introduction and the handoff are apart ("Joining me are our CEO Rick
+    # Wallace ... I'll pass the call now to Rick"), so each piece must be verbatim, not the joined string
     named = {n.voice: n for n in names
-             if n.voice in first and _norm(n.evidence) in _norm(prompt) and spoken(n.name, prompt)}
+             if n.voice in first and spoken(n.name, prompt) and
+             all(_norm(q) in _norm(prompt) for q in re.split(r"\.{3,}|\u2026", n.evidence) if q.strip())}
 
     def relabel(s: Segment, n: VoiceName) -> Segment:
         """Returns s with the person's name and, for an analyst the call-shape rules took for management (a

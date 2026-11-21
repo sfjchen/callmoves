@@ -183,3 +183,14 @@ def test_an_announced_qa_does_not_start_it():
                         "questions. So with that, I'll turn the call over to Rob.")
     assert opens_qa("Thank you. Our first question comes from Chris Schott with JPMorgan.")
     assert opens_qa("Thanks, Chris. Operator, next question, please.")
+
+
+def test_asr_quality_reads_skipped_speech_as_a_low_rate_and_hold_music_as_a_gap():
+    from callmoves.transcript import MIN_WPM, asr_quality
+    talk = "we delivered record revenue this quarter and raised our outlook for the full year again"   # 15 words
+    sound = [{"t0_ms": i * 6000, "t1_ms": i * 6000 + 5500, "text": talk} for i in range(20)]
+    assert asr_quality(sound)["asr_wpm"] > MIN_WPM and asr_quality(sound)["asr_max_gap_s"] == 0.5
+    late = [*sound[:2], *({**s, "t0_ms": s["t0_ms"] + 600_000, "t1_ms": s["t1_ms"] + 600_000} for s in sound[2:])]
+    assert asr_quality(late)["asr_wpm"] == asr_quality(sound)["asr_wpm"] and asr_quality(late)["asr_max_gap_s"] > 600
+    skipped = [{**s, "t1_ms": s["t0_ms"] + 5500 * 4} for s in sound[::4]]   # same words over 4x the time
+    assert asr_quality(skipped)["asr_wpm"] < MIN_WPM

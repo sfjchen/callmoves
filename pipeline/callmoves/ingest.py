@@ -22,7 +22,15 @@ from dotenv import load_dotenv
 from .audio import transcode, upload
 from .docs import load_doc
 from .market import bars_for_call
-from .transcript import call_start_ms, diarize, label_speakers, merge_turns, transcribe
+from .transcript import (
+    MIN_WPM,
+    asr_quality,
+    call_start_ms,
+    diarize,
+    label_speakers,
+    merge_turns,
+    transcribe,
+)
 
 _MODAL_TIMEOUT_S = 2400   # the remote function stops at 1800 s, the rest covers waiting for a GPU
 
@@ -94,8 +102,11 @@ def main(argv=None):
                     voices = diarize(args.audio, os.environ["HF_TOKEN"])
                 except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
                     err = f"{type(e).__name__}: {str(e)[:200]}"
+        stats |= asr_quality(raw) | {"audio_min": round(raw[-1]["t1_ms"] / 60000, 1)}
+        if stats["asr_wpm"] < MIN_WPM:
+            raise RuntimeError(f"transcript has {stats['asr_wpm']} words per transcribed minute, under {MIN_WPM}: "
+                               f"the decoder skipped speech")
         raw_json.write_text(json.dumps(raw))
-        stats["audio_min"] = round(raw[-1]["t1_ms"] / 60000, 1)
         if voices:
             voices_json.write_text(json.dumps(voices))
         else:

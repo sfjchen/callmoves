@@ -10,6 +10,7 @@ import json
 import re
 from collections import Counter
 from datetime import timedelta
+from itertools import pairwise
 from pathlib import Path
 
 from .models import CallMeta, Segment
@@ -57,7 +58,11 @@ def transcribe(audio_path: Path, model_size: str = "medium", device: str = "cpu"
     )
 
     model = WhisperModel(model_size, device=device, compute_type="int8" if device == "cpu" else "float16")
-    segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1)
+    # Greedy decoding that conditions on its own previous text skipped up to 12.5 minutes of 4 calls (PM, AVGO,
+    # CMCSA, JNJ at 51 to 123 words a minute against a median of 157): 1 bad window fed the next. Each 30-second
+    # window now decodes on its own with a beam, and the CPU keeps the greedy search it can afford.
+    segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1 if device == "cpu" else 5,
+                                   condition_on_previous_text=False)
     return [
         {"t0_ms": int(s.start * 1000), "t1_ms": int(s.end * 1000), "speaker": "", "text": s.text.strip()}
         for s in segments
@@ -78,6 +83,20 @@ def diarize(audio_path: Path, token: str, device: str = "cpu") -> list[dict]:
     out = pipe({"waveform": torch.from_numpy(decode_audio(audio_path))[None], "sample_rate": 16000})
     return [{"t0_ms": int(t.start * 1000), "t1_ms": int(t.end * 1000), "cluster": c}
             for t, c in out.exclusive_speaker_diarization]
+
+
+MIN_WPM = 110   # words per transcribed minute: the slowest sound transcript of 77 calls ran 125, the 3 with skipped
+                # speech (JNJ, AVGO, CMCSA) 52 to 90
+
+
+def asr_quality(segments: list[dict]) -> dict:
+    """Returns the words per minute of transcribed time and the longest gap between segments in seconds. A decoder
+    that skips speech emits long segments with few words, so the rate drops, while hold music in a late-starting call
+    only adds a gap. Ingest stops under MIN_WPM instead of publishing a call with minutes missing."""
+    spoken_min = max(1e-9, sum(s["t1_ms"] - s["t0_ms"] for s in segments) / 60_000)
+    gaps = [(b["t0_ms"] - a["t1_ms"]) / 1000 for a, b in pairwise(segments)]
+    return {"asr_wpm": round(sum(len(s["text"].split()) for s in segments) / spoken_min, 1),
+            "asr_max_gap_s": round(max(gaps, default=0.0), 1)}
 
 
 # ---- speaker labels without diarization ----

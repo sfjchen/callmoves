@@ -41,11 +41,12 @@ def test_names_need_evidence_and_a_spoken_surname(tmp_path, monkeypatch):
     def fake(system, prompt, schema, **kw):
         seen.append(prompt)
         return VoiceNames(voices=[
-            VoiceName(voice="CEO", name="Jensen Huang", title="CEO", evidence="With me today are Jensen Wong, CEO",
-                      side="company"),
+            VoiceName(voice="CEO", name="Jensen Huang", title="CEO", side="company",   # 2 verbatim quotes, joined
+                      evidence="With me today are Jensen Wong, CEO ... Revenue was a record."),
             VoiceName(voice="A2", name="Atif Malik", title="Melius Research", evidence="Van Breitsis with Melius",
                       side="analyst"),
-            VoiceName(voice="IR", name="Toshia Hari", title="IR", evidence="Toshia Hari, head of IR", side="company"),
+            VoiceName(voice="IR", name="Toshia Hari", title="IR", evidence="over to Toshia Hari ... head of IR",
+                      side="company"),
             VoiceName(voice="A3", name="Joseph Moore", title="Morgan Stanley", evidence="Joseph Moore with Morgan",
                       side="analyst"),
             VoiceName(voice="A1", name="CJ Muse", title="Cantor Fitzgerald", evidence="CJ Muse with Cantor",
@@ -56,7 +57,7 @@ def test_names_need_evidence_and_a_spoken_surname(tmp_path, monkeypatch):
     names = [s.name for s in out]
     assert names[2] == "Jensen Huang, CEO"   # spelling fix kept, "Jensen Huang" is close to the spoken "Jensen Wong"
     assert names[6] is None                  # a different person swapped in by a "correction"
-    assert names[1] is None                  # evidence not verbatim
+    assert names[1] is None                  # 1 of the 2 joined quotes is not verbatim
     assert names[4] is None and "A1 (" not in seen[0]   # A1 was introduced twice, so it is never asked about
     assert names[9] == "Joseph Moore, Morgan Stanley" and out[9].speaker == "Analyst"
     assert out[2].speaker == "Management"

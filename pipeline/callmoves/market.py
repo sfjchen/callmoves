@@ -52,6 +52,11 @@ PEERS = {
     "LRCX": ["AMAT", "KLAC"], "KLAC": ["AMAT", "LRCX"], "SMCI": ["DELL", "HPE"], "DELL": ["SMCI", "HPE"],
     "ANET": ["CSCO", "CLS"], "VRT": ["ETN"], "COHR": ["LITE", "CRDO"], "CRDO": ["ALAB", "MRVL"],
     "ALAB": ["CRDO", "MRVL"], "CLS": ["ANET", "SMCI"], "KXIAY": ["SNDK", "MU", "WDC"],
+    "PLTR": ["SNOW", "DDOG", "CRM"], "NOW": ["CRM", "WDAY", "ADBE"], "CRWV": ["NBIS", "ORCL"],
+    "NET": ["AKAM", "FSLY", "ZS"], "DDOG": ["DT", "SNOW", "ESTC"], "TSLA": ["GM", "F", "RIVN"],
+    "IBM": ["ACN", "ORCL"], "NFLX": ["DIS", "WBD", "ROKU"], "PANW": ["CRWD", "FTNT", "ZS"],
+    "CSCO": ["ANET", "HPE"], "SHOP": ["AMZN", "EBAY", "ETSY"], "UBER": ["LYFT", "DASH"], "APP": ["TTD", "U"],
+    "INTU": ["ADP", "HRB"],
 }
 # liquid ETFs read as cross-asset context: the market, rates, the dollar, credit, gold and oil
 CROSS_ASSETS = {"SPY": "market", "TLT": "rates", "UUP": "dollar", "HYG": "credit", "GLD": "gold", "USO": "oil"}
