@@ -1,0 +1,3867 @@
+{
+ "ticker": "NET",
+ "quarter": "Q3-2026",
+ "company": "Cloudflare",
+ "call_start": "2026-11-05T17:00:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/NET_Q3-2026.mp3",
+ "audio_offset_ms": 306160,
+ "segments": [
+  {
+   "t0_ms": 20,
+   "t1_ms": 44060,
+   "speaker": "Management",
+   "text": "Thank you for joining us today to discuss CloudFlare's financial results for the third quarter of 2026. With me on the call, we have Matthew Prince, co-founder and CEO, Michelle Zatlin, co-founder and president, and Thomas Seifert, CFO. By now, everyone should have access to our earnings announcement. This announcement, as well as our supplemental financial information, may be found on our Investor Relations website. As a reminder, we'll be making forward-looking statements during today's discussion, including, but not limited to, our customers, vendors, and partners, operations, and future financial performance, our anticipated product launches and the timing and market potential of those products, our anticipated future financial and operating performance, and our expectations",
+   "parts": [
+    {
+     "t0_ms": 20,
+     "text": "Thank you for joining us today to discuss CloudFlare's financial results for the third quarter of 2026."
+    },
+    {
+     "t0_ms": 6040,
+     "text": "With me on the call, we have Matthew Prince, co-founder and CEO,"
+    },
+    {
+     "t0_ms": 10020,
+     "text": "Michelle Zatlin, co-founder and president, and Thomas Seifert, CFO."
+    },
+    {
+     "t0_ms": 14700,
+     "text": "By now, everyone should have access to our earnings announcement."
+    },
+    {
+     "t0_ms": 17940,
+     "text": "This announcement, as well as our supplemental financial information,"
+    },
+    {
+     "t0_ms": 21200,
+     "text": "may be found on our Investor Relations website."
+    },
+    {
+     "t0_ms": 24280,
+     "text": "As a reminder, we'll be making forward-looking statements during today's discussion,"
+    },
+    {
+     "t0_ms": 27980,
+     "text": "including, but not limited to, our customers, vendors, and partners, operations, and future"
+    },
+    {
+     "t0_ms": 33840,
+     "text": "financial performance, our anticipated product launches and the timing and market potential of"
+    },
+    {
+     "t0_ms": 38720,
+     "text": "those products, our anticipated future financial and operating performance, and our expectations"
+    }
+   ]
+  },
+  {
+   "t0_ms": 44060,
+   "t1_ms": 85040,
+   "speaker": "Management",
+   "text": "regarding future macroeconomic conditions. These statements and other comments are not guarantees of future performance and are subject to risks and uncertainty, much of which is beyond our control. Our actual results may differ significantly from those projected or suggested in any of our forward-looking statements. These forward-looking statements apply as of today, and you should not rely on them as representing our views in the future. We undertake no obligation to update these statements after this call. For a more complete discussion of the risks and uncertainties that could impact our future operating results and financial condition, please see our filings with the SEC, as well as in today's earnings press release.",
+   "parts": [
+    {
+     "t0_ms": 44060,
+     "text": "regarding future macroeconomic conditions. These statements and other comments are not"
+    },
+    {
+     "t0_ms": 49400,
+     "text": "guarantees of future performance and are subject to risks and uncertainty, much of which is beyond"
+    },
+    {
+     "t0_ms": 54420,
+     "text": "our control. Our actual results may differ significantly from those projected or suggested"
+    },
+    {
+     "t0_ms": 60060,
+     "text": "in any of our forward-looking statements. These forward-looking statements apply as of today,"
+    },
+    {
+     "t0_ms": 65660,
+     "text": "and you should not rely on them as representing our views in the future. We undertake no obligation"
+    },
+    {
+     "t0_ms": 70660,
+     "text": "to update these statements after this call. For a more complete discussion of the risks and"
+    },
+    {
+     "t0_ms": 76020,
+     "text": "uncertainties that could impact our future operating results and financial condition,"
+    },
+    {
+     "t0_ms": 79980,
+     "text": "please see our filings with the SEC, as well as in today's earnings press release."
+    }
+   ]
+  },
+  {
+   "t0_ms": 85920,
+   "t1_ms": 129240,
+   "speaker": "Management",
+   "text": "Unless otherwise noted, all financial numbers we talk about today, other than revenue, will be on an adjusted non-GAAP basis. You may find a reconciliation of GAAP to non-GAAP financial measures that are included in our earnings release on our investor relations website. For historical periods, a GAAP to non-GAAP reconciliation can be found in the supplemental financial information referenced a few moments ago. We would also like to inform you that we will be participating in RBC Capital Markets Global Technology, Internet, Media, and Telecommunications Conference on November 18th and Barclays Global Technology Conference on December 9th. Now with that, I'd like to turn the call over to Matthew. Thank you, Phil. There's no other way to say this.",
+   "parts": [
+    {
+     "t0_ms": 85920,
+     "text": "Unless otherwise noted, all financial numbers we talk about today, other than revenue,"
+    },
+    {
+     "t0_ms": 90340,
+     "text": "will be on an adjusted non-GAAP basis. You may find a reconciliation of GAAP to non-GAAP"
+    },
+    {
+     "t0_ms": 95840,
+     "text": "financial measures that are included in our earnings release on our investor relations website."
+    },
+    {
+     "t0_ms": 101320,
+     "text": "For historical periods, a GAAP to non-GAAP reconciliation can be found in the supplemental"
+    },
+    {
+     "t0_ms": 106160,
+     "text": "financial information referenced a few moments ago. We would also like to inform you that we"
+    },
+    {
+     "t0_ms": 111400,
+     "text": "will be participating in RBC Capital Markets Global Technology, Internet, Media, and Telecommunications"
+    },
+    {
+     "t0_ms": 117060,
+     "text": "Conference on November 18th and Barclays Global Technology Conference on December 9th. Now with"
+    },
+    {
+     "t0_ms": 123060,
+     "text": "that, I'd like to turn the call over to Matthew. Thank you, Phil. There's no other way to say this."
+    }
+   ]
+  },
+  {
+   "t0_ms": 129240,
+   "t1_ms": 173580,
+   "speaker": "Management",
+   "text": "By nearly every metric, we had our best quarter ever. We again accelerated growth and became more profitable at the same time, delivering our fastest revenue growth in nearly four years and achieving our highest operating margin in the history of the company. We crossed $3 billion in annualized revenue, generating $782 million in the third quarter. That's up 39% year over year. We now have more than 5,000 customers paying us more than $100,000 per year, a 25% increase year over year. Our dollar-based net retention was 122%, up 2% quarter-over-quarter, and up 3% year-over-year. Our gross margin was 72.4%.",
+   "parts": [
+    {
+     "t0_ms": 129240,
+     "text": "By nearly every metric, we had our best quarter ever. We again accelerated growth and became more"
+    },
+    {
+     "t0_ms": 136060,
+     "text": "profitable at the same time, delivering our fastest revenue growth in nearly four years"
+    },
+    {
+     "t0_ms": 141020,
+     "text": "and achieving our highest operating margin in the history of the company."
+    },
+    {
+     "t0_ms": 145100,
+     "text": "We crossed $3 billion in annualized revenue, generating $782 million in the third quarter."
+    },
+    {
+     "t0_ms": 152320,
+     "text": "That's up 39% year over year."
+    },
+    {
+     "t0_ms": 155060,
+     "text": "We now have more than 5,000 customers paying us more than $100,000 per year, a 25% increase"
+    },
+    {
+     "t0_ms": 161380,
+     "text": "year over year."
+    },
+    {
+     "t0_ms": 162080,
+     "text": "Our dollar-based net retention was 122%, up 2% quarter-over-quarter, and up 3% year-over-year."
+    },
+    {
+     "t0_ms": 170580,
+     "text": "Our gross margin was 72.4%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 173580,
+   "t1_ms": 218540,
+   "speaker": "Management",
+   "text": "We delivered an operating profit of $137.1 million, representing an operating margin of 17.5%. And we generated free cash flow of $82.1 million during the quarter, again, exceeding expectations. But that's just the start of what was a monster quarter. The strong momentum we've been seeing in our business continued to accelerate in the third quarter. It's like the engine was firing on all cylinders, and we found another gear. Some highlights. Sales productivity reached a new record in the third quarter and increased year over year for the 11th consecutive quarter. In Q3, we delivered our highest ACV growth ever and highest quota attainment in more than five years.",
+   "parts": [
+    {
+     "t0_ms": 173580,
+     "text": "We delivered an operating profit of $137.1 million, representing an operating margin of 17.5%."
+    },
+    {
+     "t0_ms": 182300,
+     "text": "And we generated free cash flow of $82.1 million during the quarter, again, exceeding expectations."
+    },
+    {
+     "t0_ms": 189540,
+     "text": "But that's just the start of what was a monster quarter."
+    },
+    {
+     "t0_ms": 193880,
+     "text": "The strong momentum we've been seeing in our business continued to accelerate in the third quarter."
+    },
+    {
+     "t0_ms": 199180,
+     "text": "It's like the engine was firing on all cylinders, and we found another gear."
+    },
+    {
+     "t0_ms": 203680,
+     "text": "Some highlights."
+    },
+    {
+     "t0_ms": 205080,
+     "text": "Sales productivity reached a new record in the third quarter and increased year over year for the 11th consecutive quarter."
+    },
+    {
+     "t0_ms": 211780,
+     "text": "In Q3, we delivered our highest ACV growth ever and highest quota attainment in more than five years."
+    }
+   ]
+  },
+  {
+   "t0_ms": 219500,
+   "t1_ms": 256100,
+   "speaker": "Management",
+   "text": "Bookings from new customers grew faster still, beating last quarter's five-year high. We added more than 158,000 paying customers this quarter. That's 110% growth in paying customers year-over-year and nearly double the previous record of more than 80,000 we added in Q2. We also achieved record year-over-year net additions across all our large customer annualized revenue cohorts, from $100,000 to $500,000 to $1 million to $5 million. Across every one of those, we grew at a new record pace.",
+   "parts": [
+    {
+     "t0_ms": 219500,
+     "text": "Bookings from new customers grew faster still, beating last quarter's five-year high."
+    },
+    {
+     "t0_ms": 225340,
+     "text": "We added more than 158,000 paying customers this quarter."
+    },
+    {
+     "t0_ms": 230020,
+     "text": "That's 110% growth in paying customers year-over-year and nearly double the previous record of more than 80,000 we added in Q2."
+    },
+    {
+     "t0_ms": 238740,
+     "text": "We also achieved record year-over-year net additions across all our large customer annualized revenue cohorts, from $100,000 to $500,000 to $1 million to $5 million."
+    },
+    {
+     "t0_ms": 252160,
+     "text": "Across every one of those, we grew at a new record pace."
+    }
+   ]
+  },
+  {
+   "t0_ms": 256820,
+   "t1_ms": 293140,
+   "speaker": "Management",
+   "text": "And as we already announced at our customer conference a few weeks ago, we passed 10 million active developers on our platform, more than doubling the number we had at the start of 2026. As I said, we seem to have found a new gear. These results speak for themselves and are the cumulative effect of our relentless focus on innovation combined with disciplined execution. Much of that execution improvement has come from the transformation of our go-to-market engine to match our already world-class product and engineering teams. Mark Anderson deserves a huge amount of credit for shepherding us through that transition.",
+   "parts": [
+    {
+     "t0_ms": 256820,
+     "text": "And as we already announced at our customer conference a few weeks ago, we passed 10 million active developers on our platform, more than doubling the number we had at the start of 2026."
+    },
+    {
+     "t0_ms": 266940,
+     "text": "As I said, we seem to have found a new gear. These results speak for themselves and are the cumulative effect of our relentless focus on innovation combined with disciplined execution. Much of that execution improvement has come from the transformation of our go-to-market engine to match our already world-class product and engineering teams."
+    },
+    {
+     "t0_ms": 288400,
+     "text": "Mark Anderson deserves a huge amount of credit for shepherding us through that transition."
+    }
+   ]
+  },
+  {
+   "t0_ms": 293740,
+   "t1_ms": 334660,
+   "speaker": "Management",
+   "text": "With his well-earned retirement coming at the end of this year, we wanted to find a successor with a proven track record of scaling global sales organizations to turbocharge our already robust go-to-market momentum. I'm incredibly excited to welcome Christian Smith to CloudFlare as our new President of Revenue. No one will ever replace Mark, but Christian's skill set and experience building and enabling world-class go-to-market organizations match perfectly with the current stage of Cloudflare to further accelerate our next wave of growth and scale. I wanted to invite Christian to the call to say a few words. Christian? Thank you, Matthew. I am thrilled to join the Cloudflare team.",
+   "parts": [
+    {
+     "t0_ms": 293740,
+     "text": "With his well-earned retirement coming at the end of this year, we wanted to find a successor with a proven track record of scaling global sales organizations to turbocharge our already robust go-to-market momentum."
+    },
+    {
+     "t0_ms": 306160,
+     "text": "I'm incredibly excited to welcome Christian Smith to CloudFlare as our new President of Revenue."
+    },
+    {
+     "t0_ms": 311440,
+     "text": "No one will ever replace Mark, but Christian's skill set and experience building and enabling world-class go-to-market organizations match perfectly with the current stage of Cloudflare to further accelerate our next wave of growth and scale."
+    },
+    {
+     "t0_ms": 326420,
+     "text": "I wanted to invite Christian to the call to say a few words. Christian?"
+    },
+    {
+     "t0_ms": 330960,
+     "text": "Thank you, Matthew. I am thrilled to join the Cloudflare team."
+    }
+   ]
+  },
+  {
+   "t0_ms": 334660,
+   "t1_ms": 375740,
+   "speaker": "Management",
+   "text": "What CloudFlare has built, the sheer scale of its world-class network, the company's unparalleled product innovation, and the clear vision for the future of the internet, it is truly unique. But what gets me most excited is the massive generational opportunity that's still in front of us to go and capture. I've spent my entire career scaling enterprise go-to-market engines with operational rigor, building world-class partner ecosystems, and driving intense customer focus. Mark Anderson has built an incredible foundation over the past three years of Cloudflare. My immediate priorities are to double down on go-to-market execution, further accelerate our enterprise momentum, and ensure our customers get even more rapid, compounding time to value",
+   "parts": [
+    {
+     "t0_ms": 334660,
+     "text": "What CloudFlare has built, the sheer scale of its world-class network, the company's unparalleled"
+    },
+    {
+     "t0_ms": 339580,
+     "text": "product innovation, and the clear vision for the future of the internet, it is truly unique."
+    },
+    {
+     "t0_ms": 345280,
+     "text": "But what gets me most excited is the massive generational opportunity that's still in front"
+    },
+    {
+     "t0_ms": 350020,
+     "text": "of us to go and capture. I've spent my entire career scaling enterprise go-to-market engines"
+    },
+    {
+     "t0_ms": 354600,
+     "text": "with operational rigor, building world-class partner ecosystems, and driving intense customer"
+    },
+    {
+     "t0_ms": 359600,
+     "text": "focus. Mark Anderson has built an incredible foundation over the past three years of Cloudflare."
+    },
+    {
+     "t0_ms": 366180,
+     "text": "My immediate priorities are to double down on go-to-market execution, further accelerate our"
+    },
+    {
+     "t0_ms": 370620,
+     "text": "enterprise momentum, and ensure our customers get even more rapid, compounding time to value"
+    }
+   ]
+  },
+  {
+   "t0_ms": 375740,
+   "t1_ms": 415920,
+   "speaker": "Management",
+   "text": "from our platform. With the rise of the agentic internet, Cloudflare was built for this moment. Now, it's about execution and scale, and I'm ready to go get to work with the team. Thanks, Christian. Under your leadership, I know we will continue to deliver on our vision that has never just been about selling products, but rather about helping solve some of our customers' toughest challenges, as only Cloudflare can. And to ensure the smoothest transition, Mark Anderson has agreed to stay on as an advisor for at least the next year. I know he'll always bleed orange and be there to help close a customer if we need him. That seems like a good segue to talk about some of Mark's team's big wins in the quarter.",
+   "parts": [
+    {
+     "t0_ms": 375740,
+     "text": "from our platform. With the rise of the agentic internet, Cloudflare was built for this moment."
+    },
+    {
+     "t0_ms": 382360,
+     "text": "Now, it's about execution and scale, and I'm ready to go get to work with the team."
+    },
+    {
+     "t0_ms": 386360,
+     "text": "Thanks, Christian. Under your leadership, I know we will continue to deliver on our vision that has never just been about selling products, but rather about helping solve some of our customers' toughest challenges, as only Cloudflare can."
+    },
+    {
+     "t0_ms": 400760,
+     "text": "And to ensure the smoothest transition, Mark Anderson has agreed to stay on as an advisor for at least the next year. I know he'll always bleed orange and be there to help close a customer if we need him."
+    },
+    {
+     "t0_ms": 411700,
+     "text": "That seems like a good segue to talk about some of Mark's team's big wins in the quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 416360,
+   "t1_ms": 460360,
+   "speaker": "Management",
+   "text": "A rapidly growing AI company expanded their relationship with Cloudflare, signing a one-year, $11 million pool of funds contract for a workers' developer platform. Tens of millions of AI-generated applications have been created on its platform, and legacy hyperscalers would charge this customer for massive amounts of idle compute. With Cloudflare's dynamic workers, apps start in milliseconds, and the customer pays only for the compute they actually use. One of their lead engineers said, quote, without CloudFlare's dynamic workers, we wouldn't be able to build what we want to build. When the cost of creating software drops to near zero, the number of applications explodes, and the most sophisticated builders are choosing to run them on CloudFlare.",
+   "parts": [
+    {
+     "t0_ms": 416360,
+     "text": "A rapidly growing AI company expanded their relationship with Cloudflare, signing a one-year, $11 million pool of funds contract for a workers' developer platform."
+    },
+    {
+     "t0_ms": 425920,
+     "text": "Tens of millions of AI-generated applications have been created on its platform, and legacy hyperscalers would charge this customer for massive amounts of idle compute."
+    },
+    {
+     "t0_ms": 435240,
+     "text": "With Cloudflare's dynamic workers, apps start in milliseconds, and the customer pays only for the compute they actually use."
+    },
+    {
+     "t0_ms": 442420,
+     "text": "One of their lead engineers said, quote, without CloudFlare's dynamic workers, we wouldn't be able to build what we want to build."
+    },
+    {
+     "t0_ms": 451340,
+     "text": "When the cost of creating software drops to near zero, the number of applications explodes, and the most sophisticated builders are choosing to run them on CloudFlare."
+    }
+   ]
+  },
+  {
+   "t0_ms": 461020,
+   "t1_ms": 504700,
+   "speaker": "Management",
+   "text": "A Fortune 100 cloud infrastructure provider expanded their relationship with us, signing a 13-month, $15.5 million contract for Magic Transit. As the customer aggressively scales its global footprint for AI, their legacy DDoS hardware applications simply could not keep up, failing to scale cost-effectively and missing low-level attacks that were quietly draining capacity. During the evaluation, our global network stopped attacks that their appliances simply could not, and we fully displaced the incumbent. As one of their technical leaders noted, CloudFlare's threat mitigation is one of our superpowers. When the world's biggest cloud operators build next-generation AI infrastructure,",
+   "parts": [
+    {
+     "t0_ms": 461020,
+     "text": "A Fortune 100 cloud infrastructure provider expanded their relationship with us, signing a 13-month, $15.5 million contract for Magic Transit."
+    },
+    {
+     "t0_ms": 470360,
+     "text": "As the customer aggressively scales its global footprint for AI, their legacy DDoS hardware applications simply could not keep up, failing to scale cost-effectively and missing low-level attacks that were quietly draining capacity."
+    },
+    {
+     "t0_ms": 486880,
+     "text": "During the evaluation, our global network stopped attacks that their appliances simply could not, and we fully displaced the incumbent."
+    },
+    {
+     "t0_ms": 493740,
+     "text": "As one of their technical leaders noted, CloudFlare's threat mitigation is one of our superpowers."
+    },
+    {
+     "t0_ms": 500360,
+     "text": "When the world's biggest cloud operators build next-generation AI infrastructure,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 505040,
+   "t1_ms": 548680,
+   "speaker": "Management",
+   "text": "they trust Cloudflare to protect it. A cabinet-level U.S. federal department signed a five-year, $10.3 million contract for our SASE portfolio. With their legacy VPN reaching end of life, the agency needed a modern replacement that could scale on a deadline it couldn't miss. They chose Cloudflare over a first-generation zero-trust provider for our speed, global scale, and simplicity. This win positions CloudFlare as the backbone of their new cybersecurity posture and underscores the federal government is ready to leave legacy hardware behind and that unified platforms like CloudFlare will win. A rapidly growing multinational neobank and fintech company expanded their relationship with CloudFlare, signing a three-year",
+   "parts": [
+    {
+     "t0_ms": 505040,
+     "text": "they trust Cloudflare to protect it. A cabinet-level U.S. federal department signed a"
+    },
+    {
+     "t0_ms": 510060,
+     "text": "five-year, $10.3 million contract for our SASE portfolio. With their legacy VPN reaching end"
+    },
+    {
+     "t0_ms": 516360,
+     "text": "of life, the agency needed a modern replacement that could scale on a deadline it couldn't miss."
+    },
+    {
+     "t0_ms": 522260,
+     "text": "They chose Cloudflare over a first-generation zero-trust provider for our speed, global scale,"
+    },
+    {
+     "t0_ms": 528100,
+     "text": "and simplicity. This win positions CloudFlare as the backbone of their new cybersecurity posture"
+    },
+    {
+     "t0_ms": 533660,
+     "text": "and underscores the federal government is ready to leave legacy hardware behind"
+    },
+    {
+     "t0_ms": 538280,
+     "text": "and that unified platforms like CloudFlare will win. A rapidly growing multinational"
+    },
+    {
+     "t0_ms": 544040,
+     "text": "neobank and fintech company expanded their relationship with CloudFlare, signing a three-year"
+    }
+   ]
+  },
+  {
+   "t0_ms": 548680,
+   "t1_ms": 592120,
+   "speaker": "Management",
+   "text": "pool of funds agreement with an average annual contract value of more than $3 million. dollars. Their initial use cases focus on our sassy portfolio. The latency that employees experienced with the incumbent first-generation zero-trust vendor was so bad that many simply turned it off, leaving the business exposed. They moved their entire workforce to Cloudflare in a single quarter. Since then, performance tickets per user have dropped 74 percent. It turns out the most secure zero-trust platform inherently is the one people actually leave on. And from this customer's feedback, it seems CloudFlare may be the only vendor that has that critical feature. A fast-growing technology company expanded their relationship with CloudFlare,",
+   "parts": [
+    {
+     "t0_ms": 548680,
+     "text": "pool of funds agreement with an average annual contract value of more than $3 million."
+    },
+    {
+     "t0_ms": 553080,
+     "text": "dollars. Their initial use cases focus on our sassy portfolio. The latency that employees"
+    },
+    {
+     "t0_ms": 559400,
+     "text": "experienced with the incumbent first-generation zero-trust vendor was so bad that many simply"
+    },
+    {
+     "t0_ms": 564900,
+     "text": "turned it off, leaving the business exposed. They moved their entire workforce to Cloudflare in a"
+    },
+    {
+     "t0_ms": 570300,
+     "text": "single quarter. Since then, performance tickets per user have dropped 74 percent. It turns out"
+    },
+    {
+     "t0_ms": 576980,
+     "text": "the most secure zero-trust platform inherently is the one people actually leave on. And from"
+    },
+    {
+     "t0_ms": 583060,
+     "text": "this customer's feedback, it seems CloudFlare may be the only vendor that has that critical feature."
+    },
+    {
+     "t0_ms": 588560,
+     "text": "A fast-growing technology company expanded their relationship with CloudFlare,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 592420,
+   "t1_ms": 632300,
+   "speaker": "Management",
+   "text": "signing a 39-month, $9.5 million pool of funds contract for application services and our workers' developer platform. For this customer, latency directly impacts their bottom line. As they prepared to expand internationally, they chose CloudFlare over a major hyperscaler for the speed and reliability of our global network. As their champion put it, there is no international expansion for them without Cloudflare's global network. When milliseconds impact users and in turn financials, the network is the business and Cloudflare runs the best network. A leading global consulting firm expanded their relationship with Cloudflare, signing a three-year pool of funds",
+   "parts": [
+    {
+     "t0_ms": 592420,
+     "text": "signing a 39-month, $9.5 million pool of funds contract for application services"
+    },
+    {
+     "t0_ms": 597760,
+     "text": "and our workers' developer platform. For this customer, latency directly impacts their bottom"
+    },
+    {
+     "t0_ms": 603480,
+     "text": "line. As they prepared to expand internationally, they chose CloudFlare over a major hyperscaler for"
+    },
+    {
+     "t0_ms": 609640,
+     "text": "the speed and reliability of our global network. As their champion put it, there is no international"
+    },
+    {
+     "t0_ms": 615820,
+     "text": "expansion for them without Cloudflare's global network. When milliseconds impact users and in"
+    },
+    {
+     "t0_ms": 621760,
+     "text": "turn financials, the network is the business and Cloudflare runs the best network. A leading global"
+    },
+    {
+     "t0_ms": 628020,
+     "text": "consulting firm expanded their relationship with Cloudflare, signing a three-year pool of funds"
+    }
+   ]
+  },
+  {
+   "t0_ms": 632300,
+   "t1_ms": 673300,
+   "speaker": "Management",
+   "text": "contract for more than $7 million for zero trust application services and our workers developer platform. After their legacy zero trust provider failed to manage the complexity of securing over 10,000 custom client applications, Cloudflare's effortless deployment drove rapid company-wide adoption. The firm is now aggressively consolidating vendors onto our unified platform, including migrating their main web properties from a long-standing incumbent by the end of next year. Drawn to our forward-looking AI and developer roadmap that they want to standardize on, The customer is already exploring workers' AI and Cloudflare OS to build next-generation applications and agents.",
+   "parts": [
+    {
+     "t0_ms": 632300,
+     "text": "contract for more than $7 million for zero trust application services and our workers developer"
+    },
+    {
+     "t0_ms": 638420,
+     "text": "platform. After their legacy zero trust provider failed to manage the complexity of securing over"
+    },
+    {
+     "t0_ms": 644520,
+     "text": "10,000 custom client applications, Cloudflare's effortless deployment drove rapid company-wide"
+    },
+    {
+     "t0_ms": 650960,
+     "text": "adoption. The firm is now aggressively consolidating vendors onto our unified platform,"
+    },
+    {
+     "t0_ms": 656660,
+     "text": "including migrating their main web properties from a long-standing incumbent by the end of next year."
+    },
+    {
+     "t0_ms": 662900,
+     "text": "Drawn to our forward-looking AI and developer roadmap that they want to standardize on,"
+    },
+    {
+     "t0_ms": 667200,
+     "text": "The customer is already exploring workers' AI and Cloudflare OS to build next-generation applications and agents."
+    }
+   ]
+  },
+  {
+   "t0_ms": 674000,
+   "t1_ms": 715320,
+   "speaker": "Management",
+   "text": "A leading European media company expanded their relationship with Cloudflare, signing a five-year, $8.1 million contract for application services and our workers' developer platform. Replacing a 17-year deployment with a legacy CDN vendor, they chose Cloudflare because our best-in-class bot management reliably identifies modern AI crawlers, giving this customer the control they need to protect their intellectual property, but also creating a direct on-ramp for paper crawl and paper use monetization. This win is a clear blueprint for how the world's largest media companies will protect and monetize their content and innovate in the agendic AI era. I could go on and on with more wins, but we'd be here all day.",
+   "parts": [
+    {
+     "t0_ms": 674000,
+     "text": "A leading European media company expanded their relationship with Cloudflare,"
+    },
+    {
+     "t0_ms": 677840,
+     "text": "signing a five-year, $8.1 million contract for application services and our workers' developer platform."
+    },
+    {
+     "t0_ms": 684180,
+     "text": "Replacing a 17-year deployment with a legacy CDN vendor,"
+    },
+    {
+     "t0_ms": 688320,
+     "text": "they chose Cloudflare because our best-in-class bot management reliably identifies modern AI crawlers,"
+    },
+    {
+     "t0_ms": 693840,
+     "text": "giving this customer the control they need to protect their intellectual property,"
+    },
+    {
+     "t0_ms": 697760,
+     "text": "but also creating a direct on-ramp for paper crawl and paper use monetization."
+    },
+    {
+     "t0_ms": 703600,
+     "text": "This win is a clear blueprint for how the world's largest media companies will protect and monetize their content"
+    },
+    {
+     "t0_ms": 709400,
+     "text": "and innovate in the agendic AI era."
+    },
+    {
+     "t0_ms": 712520,
+     "text": "I could go on and on with more wins, but we'd be here all day."
+    }
+   ]
+  },
+  {
+   "t0_ms": 715680,
+   "t1_ms": 757100,
+   "speaker": "Management",
+   "text": "To give you a sense, based on third-party data, between July 1st and today, we added approximately 5% of the entire web to CloudFlare. That's wild. It's more than the total market of all our reverse proxy competitors combined added to our network in a bit over a quarter. We've been growing throughout our entire history, but recently something changed. The rate of growth inflected in October of 2025, then accelerated again in July of 2026, and then again at the beginning of this October. So what's going on? I think it's the convergence of two things. First, we have built a development platform for the future of the AI-powered internet.",
+   "parts": [
+    {
+     "t0_ms": 715680,
+     "text": "To give you a sense, based on third-party data, between July 1st and today,"
+    },
+    {
+     "t0_ms": 720220,
+     "text": "we added approximately 5% of the entire web to CloudFlare. That's wild. It's more than the total"
+    },
+    {
+     "t0_ms": 727980,
+     "text": "market of all our reverse proxy competitors combined added to our network in a bit over a"
+    },
+    {
+     "t0_ms": 734480,
+     "text": "quarter. We've been growing throughout our entire history, but recently something changed. The rate"
+    },
+    {
+     "t0_ms": 740020,
+     "text": "of growth inflected in October of 2025, then accelerated again in July of 2026, and then again"
+    },
+    {
+     "t0_ms": 746560,
+     "text": "at the beginning of this October."
+    },
+    {
+     "t0_ms": 748520,
+     "text": "So what's going on?"
+    },
+    {
+     "t0_ms": 749760,
+     "text": "I think it's the convergence of two things."
+    },
+    {
+     "t0_ms": 752100,
+     "text": "First, we have built a development platform"
+    },
+    {
+     "t0_ms": 754700,
+     "text": "for the future of the AI-powered internet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 757100,
+   "t1_ms": 799160,
+   "speaker": "Management",
+   "text": "And second, the security landscape is getting so scary that the best viable strategy, regardless of who you are, is to ensure you have CloudFlare protecting you. To the first, hyperscalers and even NeoClouds were built around container technology. It was a significant improvement over bare metal or even virtual machines. Containers allowed these last-generation clouds to scale during the explosion of mobile devices that defined their heyday. But now we're in the era of AI and agents. I predicted last quarter that within five years, agents would outnumber humans online 1,000 to 1. A quarter later, I'll take the under on the timing of that bet based on everything",
+   "parts": [
+    {
+     "t0_ms": 757100,
+     "text": "And second, the security landscape is getting so scary"
+    },
+    {
+     "t0_ms": 761000,
+     "text": "that the best viable strategy, regardless of who you are,"
+    },
+    {
+     "t0_ms": 764440,
+     "text": "is to ensure you have CloudFlare protecting you."
+    },
+    {
+     "t0_ms": 767660,
+     "text": "To the first, hyperscalers and even NeoClouds"
+    },
+    {
+     "t0_ms": 771120,
+     "text": "were built around container technology."
+    },
+    {
+     "t0_ms": 773980,
+     "text": "It was a significant improvement over bare metal"
+    },
+    {
+     "t0_ms": 776460,
+     "text": "or even virtual machines. Containers allowed these last-generation clouds to scale during"
+    },
+    {
+     "t0_ms": 782040,
+     "text": "the explosion of mobile devices that defined their heyday. But now we're in the era of AI"
+    },
+    {
+     "t0_ms": 787640,
+     "text": "and agents. I predicted last quarter that within five years, agents would outnumber humans online"
+    },
+    {
+     "t0_ms": 793680,
+     "text": "1,000 to 1. A quarter later, I'll take the under on the timing of that bet based on everything"
+    }
+   ]
+  },
+  {
+   "t0_ms": 799160,
+   "t1_ms": 842680,
+   "speaker": "Management",
+   "text": "we're seeing today. The container-based architecture of the hyperscalers and neoclouds just can't keep up in a cost-effective way with the new agentic paradigms of today. Cloudflare's approach is different. We have based it on what we call isolates, not containers, which initially let us scale geographically to span the globe, but increasingly is allowing us to scale densely with a level of efficiency no hyperscaler or neocloud can match. The smartest developers, whether they're at frontier model companies or legacy enterprises, see that the world is changing and that they need a new type of cloud in order to keep up. In other words, CloudFlare isn't a neocloud. We're also not, as some of you have called us, the fourth public cloud.",
+   "parts": [
+    {
+     "t0_ms": 799160,
+     "text": "we're seeing today. The container-based architecture of the hyperscalers and neoclouds"
+    },
+    {
+     "t0_ms": 804040,
+     "text": "just can't keep up in a cost-effective way with the new agentic paradigms of today."
+    },
+    {
+     "t0_ms": 810020,
+     "text": "Cloudflare's approach is different."
+    },
+    {
+     "t0_ms": 811980,
+     "text": "We have based it on what we call isolates, not containers,"
+    },
+    {
+     "t0_ms": 815460,
+     "text": "which initially let us scale geographically to span the globe,"
+    },
+    {
+     "t0_ms": 819180,
+     "text": "but increasingly is allowing us to scale densely with a level of efficiency"
+    },
+    {
+     "t0_ms": 823600,
+     "text": "no hyperscaler or neocloud can match."
+    },
+    {
+     "t0_ms": 826860,
+     "text": "The smartest developers, whether they're at frontier model companies"
+    },
+    {
+     "t0_ms": 829760,
+     "text": "or legacy enterprises, see that the world is changing"
+    },
+    {
+     "t0_ms": 832740,
+     "text": "and that they need a new type of cloud in order to keep up."
+    },
+    {
+     "t0_ms": 836220,
+     "text": "In other words, CloudFlare isn't a neocloud."
+    },
+    {
+     "t0_ms": 838980,
+     "text": "We're also not, as some of you have called us, the fourth public cloud."
+    }
+   ]
+  },
+  {
+   "t0_ms": 843160,
+   "t1_ms": 887680,
+   "speaker": "Management",
+   "text": "We're something different. We're the first agentic cloud, and developers are flocking to us to build the agentic AI future. The second driver of our growth, inflection, has even broader applicability across every business. It may seem like the sky is falling with the number of new security vulnerabilities that have been reported over the last few weeks. I wish I could tell you we were through the worst, but we're not. Because of the vast percentage of the Internet that already sits behind Cloudflare, we are among the first to receive quiet disclosure of new vulnerabilities. We've partnered with nearly every major frontier AI lab and security company searching for flaws in existing software. When they find something, they notify us through a trusted reporter process,",
+   "parts": [
+    {
+     "t0_ms": 843160,
+     "text": "We're something different."
+    },
+    {
+     "t0_ms": 844700,
+     "text": "We're the first agentic cloud, and developers are flocking to us to build the agentic AI future."
+    },
+    {
+     "t0_ms": 851260,
+     "text": "The second driver of our growth, inflection, has even broader applicability across every business."
+    },
+    {
+     "t0_ms": 857120,
+     "text": "It may seem like the sky is falling with the number of new security vulnerabilities"
+    },
+    {
+     "t0_ms": 861460,
+     "text": "that have been reported over the last few weeks."
+    },
+    {
+     "t0_ms": 864020,
+     "text": "I wish I could tell you we were through the worst, but we're not."
+    },
+    {
+     "t0_ms": 868260,
+     "text": "Because of the vast percentage of the Internet that already sits behind Cloudflare,"
+    },
+    {
+     "t0_ms": 872660,
+     "text": "we are among the first to receive quiet disclosure of new vulnerabilities."
+    },
+    {
+     "t0_ms": 876860,
+     "text": "We've partnered with nearly every major frontier AI lab and security company"
+    },
+    {
+     "t0_ms": 881260,
+     "text": "searching for flaws in existing software."
+    },
+    {
+     "t0_ms": 883940,
+     "text": "When they find something, they notify us through a trusted reporter process,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 887680,
+   "t1_ms": 928440,
+   "speaker": "Management",
+   "text": "and we quietly put protection in place for all our customers, whether they pay us or not. We believe protecting everyone is important to fulfilling our mission of helping build a better internet. And living up to that mission has ensured that we are trusted and nearly always get early warning of the worst problems researchers discover. The bugs you read about over the last few weeks and the ones I suspect you will read about over the next few years were less impactful because Cloudflare has the internet's back. That, of creates a virtuous cycle. We know what bugs are coming. We protect our customers before the bugs are publicly disclosed. Companies increasingly know that if they are behind this, they are more",
+   "parts": [
+    {
+     "t0_ms": 887680,
+     "text": "and we quietly put protection in place for all our customers,"
+    },
+    {
+     "t0_ms": 890640,
+     "text": "whether they pay us or not. We believe protecting everyone is important to fulfilling our mission"
+    },
+    {
+     "t0_ms": 896400,
+     "text": "of helping build a better internet. And living up to that mission has ensured that we are trusted"
+    },
+    {
+     "t0_ms": 901360,
+     "text": "and nearly always get early warning of the worst problems researchers discover."
+    },
+    {
+     "t0_ms": 907040,
+     "text": "The bugs you read about over the last few weeks and the ones I suspect you will read about over"
+    },
+    {
+     "t0_ms": 911920,
+     "text": "the next few years were less impactful because Cloudflare has the internet's back. That, of"
+    },
+    {
+     "t0_ms": 918220,
+     "text": "creates a virtuous cycle. We know what bugs are coming. We protect our customers before the bugs"
+    },
+    {
+     "t0_ms": 923520,
+     "text": "are publicly disclosed. Companies increasingly know that if they are behind this, they are more"
+    }
+   ]
+  },
+  {
+   "t0_ms": 928440,
+   "t1_ms": 971860,
+   "speaker": "Management",
+   "text": "likely to be protected, whatever the future breaks. And so even legacy organizations that aren't pushing the bleeding edge of AI are signing up for CloudFlare at an accelerating rate. And of course, as more of the internet uses CloudFlare, it enables new opportunities. I'm proud to announce that we recorded in Q3 our first revenue for what we've called Act 4 products, those where we're helping invent the new business model of the Internet. And I expect we'll talk a lot more about that in the quarters to come. To sum up, our third quarter financial and operational results highlight the accelerating demand for Cloudflare solutions, our commitment to both innovation and operational excellence, and the inherent leverage in our business model. I could not be more proud of our team.",
+   "parts": [
+    {
+     "t0_ms": 928440,
+     "text": "likely to be protected, whatever the future breaks. And so even legacy organizations that"
+    },
+    {
+     "t0_ms": 933920,
+     "text": "aren't pushing the bleeding edge of AI are signing up for CloudFlare at an accelerating rate."
+    },
+    {
+     "t0_ms": 939420,
+     "text": "And of course, as more of the internet uses CloudFlare, it enables new opportunities."
+    },
+    {
+     "t0_ms": 943920,
+     "text": "I'm proud to announce that we recorded in Q3 our first revenue for what we've called Act 4 products,"
+    },
+    {
+     "t0_ms": 949780,
+     "text": "those where we're helping invent the new business model of the Internet."
+    },
+    {
+     "t0_ms": 953260,
+     "text": "And I expect we'll talk a lot more about that in the quarters to come."
+    },
+    {
+     "t0_ms": 957380,
+     "text": "To sum up, our third quarter financial and operational results highlight the accelerating demand for Cloudflare solutions,"
+    },
+    {
+     "t0_ms": 964040,
+     "text": "our commitment to both innovation and operational excellence, and the inherent leverage in our business model."
+    },
+    {
+     "t0_ms": 969900,
+     "text": "I could not be more proud of our team."
+    }
+   ]
+  },
+  {
+   "t0_ms": 971860,
+   "t1_ms": 1013000,
+   "speaker": "Management",
+   "text": "But as Michelle likes to say, we're just getting started. The opportunities ahead of us are more clear and massive than ever. And it's turning out CloudFlare was built for this moment. With that, I'll turn it over to Thomas. Thomas, take it away. Thank you, Matthew. And thank you to everyone for joining us. I want to take a moment to also extend my personal thanks to Mark Anderson for his leadership of our go-to-market transformation over the last three years and congratulate him on a well-deserved retirement. I'm also incredibly excited to welcome Christian Smith to our CloudFlare team. His proven track record of scaling global sales organizations and go-to-market",
+   "parts": [
+    {
+     "t0_ms": 971860,
+     "text": "But as Michelle likes to say, we're just getting started."
+    },
+    {
+     "t0_ms": 975860,
+     "text": "The opportunities ahead of us are more clear and massive than ever."
+    },
+    {
+     "t0_ms": 979460,
+     "text": "And it's turning out CloudFlare was built for this moment."
+    },
+    {
+     "t0_ms": 982660,
+     "text": "With that, I'll turn it over to Thomas."
+    },
+    {
+     "t0_ms": 984720,
+     "text": "Thomas, take it away."
+    },
+    {
+     "t0_ms": 987080,
+     "text": "Thank you, Matthew."
+    },
+    {
+     "t0_ms": 988320,
+     "text": "And thank you to everyone for joining us."
+    },
+    {
+     "t0_ms": 990780,
+     "text": "I want to take a moment to also extend my personal thanks to Mark Anderson for his leadership"
+    },
+    {
+     "t0_ms": 996000,
+     "text": "of our go-to-market transformation over the last three years and congratulate him on a"
+    },
+    {
+     "t0_ms": 1001240,
+     "text": "well-deserved retirement. I'm also incredibly excited to welcome Christian Smith to our"
+    },
+    {
+     "t0_ms": 1007080,
+     "text": "CloudFlare team. His proven track record of scaling global sales organizations and go-to-market"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1013000,
+   "t1_ms": 1054960,
+   "speaker": "Management",
+   "text": "operations is a perfect fit for CloudFlare to further accelerate our next phase of growth at scale. Turning to the results, we delivered an outstanding third quarter. In fact, Q3 was our best quarter as a public company to date. The strengths we again drove across the major metrics we tracked demonstrated not only the robust demand for Cloudflare's products, but also the operational leverage inherent in our business model. Total revenue for the third quarter increased 39% year-over-year to $782.5 million, driven in particular by another quarter of rapid",
+   "parts": [
+    {
+     "t0_ms": 1013000,
+     "text": "operations is a perfect fit for CloudFlare to further accelerate our next phase of growth at"
+    },
+    {
+     "t0_ms": 1018880,
+     "text": "scale. Turning to the results, we delivered an outstanding third quarter. In fact, Q3 was our"
+    },
+    {
+     "t0_ms": 1027200,
+     "text": "best quarter as a public company to date. The strengths we again drove across the major metrics"
+    },
+    {
+     "t0_ms": 1033420,
+     "text": "we tracked demonstrated not only the robust demand for Cloudflare's products, but also the"
+    },
+    {
+     "t0_ms": 1040040,
+     "text": "operational leverage inherent in our business model. Total revenue for the third quarter"
+    },
+    {
+     "t0_ms": 1045819,
+     "text": "increased 39% year-over-year to $782.5 million, driven in particular by another quarter of rapid"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1054960,
+   "t1_ms": 1095840,
+   "speaker": "Management",
+   "text": "growth in our workers developer platform and agentic workloads across our network continued momentum with our largest customer cohorts and robust go-to-market execution from a geographic perspective the us represented 52 percent of revenue and increased 44 percent year-over-year emea represented 26 percent of revenue and increased 32 percent year-over-year APAC represented 14% of revenue and increased 32% year-over-year. Turning to our customer metrics, we ended the quarter with approximately 5,000 large customers.",
+   "parts": [
+    {
+     "t0_ms": 1054960,
+     "text": "growth in our workers developer platform and agentic workloads across our network"
+    },
+    {
+     "t0_ms": 1060800,
+     "text": "continued momentum with our largest customer cohorts and robust go-to-market execution"
+    },
+    {
+     "t0_ms": 1067600,
+     "text": "from a geographic perspective the us represented 52 percent of revenue and increased 44 percent"
+    },
+    {
+     "t0_ms": 1074400,
+     "text": "year-over-year emea represented 26 percent of revenue and increased 32 percent year-over-year"
+    },
+    {
+     "t0_ms": 1082320,
+     "text": "APAC represented 14% of revenue and increased 32% year-over-year."
+    },
+    {
+     "t0_ms": 1089040,
+     "text": "Turning to our customer metrics, we ended the quarter with approximately 5,000 large customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1096480,
+   "t1_ms": 1140640,
+   "speaker": "Management",
+   "text": "We added 308 large customers in the quarter and nearly 1,000 year-over-year, the most we have ever added both in a single quarter and in a single year. In fact, as Matthew mentioned, every one of our large customer cohorts added a record number of net new customers year-over-year in the third quarter. The higher you go among these cohorts based on the amount of spending committed to Cloudflare, the faster revenue is growing year-over-year. In other words, the bigger the size of the customers annual spend with us, the faster they are growing with Cloudflare. Of particular note, we added almost as many five million dollar plus customers in",
+   "parts": [
+    {
+     "t0_ms": 1096480,
+     "text": "We added 308 large customers in the quarter and nearly 1,000 year-over-year, the most we"
+    },
+    {
+     "t0_ms": 1104160,
+     "text": "have ever added both in a single quarter and in a single year. In fact, as Matthew mentioned,"
+    },
+    {
+     "t0_ms": 1111280,
+     "text": "every one of our large customer cohorts added a record number of net new customers year-over-year"
+    },
+    {
+     "t0_ms": 1117760,
+     "text": "in the third quarter. The higher you go among these cohorts based on the amount of spending"
+    },
+    {
+     "t0_ms": 1123760,
+     "text": "committed to Cloudflare, the faster revenue is growing year-over-year. In other words,"
+    },
+    {
+     "t0_ms": 1129120,
+     "text": "the bigger the size of the customers annual spend with us, the faster they are growing with"
+    },
+    {
+     "t0_ms": 1134160,
+     "text": "Cloudflare. Of particular note, we added almost as many five million dollar plus customers in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1140640,
+   "t1_ms": 1183940,
+   "speaker": "Management",
+   "text": "the first three quarters of 2026 as we had five million dollar plus customers in total at the end of just last year revenue contribution from large customers was 75 percent of revenue during the quarter up from 73 percent in the third quarter last year the significant expansion with our large customers drove an acceleration in our dollar-based net retention rate to 122 percent in the third quarter, up from 120% last quarter and up from 119% in the same quarter last year. Moving to cross margin, third quarter cross margin was 72.4%, representing a decrease",
+   "parts": [
+    {
+     "t0_ms": 1140640,
+     "text": "the first three quarters of 2026 as we had five million dollar plus customers in total at the end"
+    },
+    {
+     "t0_ms": 1147360,
+     "text": "of just last year revenue contribution from large customers was 75 percent of revenue during the"
+    },
+    {
+     "t0_ms": 1154240,
+     "text": "quarter up from 73 percent in the third quarter last year the significant expansion with our"
+    },
+    {
+     "t0_ms": 1161200,
+     "text": "large customers drove an acceleration in our dollar-based net retention rate to 122 percent"
+    },
+    {
+     "t0_ms": 1167600,
+     "text": "in the third quarter, up from 120% last quarter and up from 119% in the same quarter last"
+    },
+    {
+     "t0_ms": 1175260,
+     "text": "year."
+    },
+    {
+     "t0_ms": 1176260,
+     "text": "Moving to cross margin, third quarter cross margin was 72.4%, representing a decrease"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1183940,
+   "t1_ms": 1228460,
+   "speaker": "Management",
+   "text": "of 70 basis points sequentially and 290 basis points year-over-year, and within our target long-term range of 70 to 77%. Our workers developer platform delivered another quarter of exceptional growth and we expect the unit economic margin of our developer products to continue to increase as evidenced by the strong operating margin we generated this quarter, which is a good segue to operating expenses. Third quarter operating expenses as a percentage of revenue decreased by 510 basis points year over year to 55%. Our total headcount ended the quarter at approximately $4,700.",
+   "parts": [
+    {
+     "t0_ms": 1183940,
+     "text": "of 70 basis points sequentially and 290 basis points year-over-year, and within our target"
+    },
+    {
+     "t0_ms": 1190420,
+     "text": "long-term range of 70 to 77%."
+    },
+    {
+     "t0_ms": 1194780,
+     "text": "Our workers developer platform delivered another quarter of exceptional growth and we expect"
+    },
+    {
+     "t0_ms": 1200200,
+     "text": "the unit economic margin of our developer products to continue to increase as evidenced"
+    },
+    {
+     "t0_ms": 1205940,
+     "text": "by the strong operating margin we generated this quarter, which is a good segue to operating"
+    },
+    {
+     "t0_ms": 1211900,
+     "text": "expenses."
+    },
+    {
+     "t0_ms": 1212900,
+     "text": "Third quarter operating expenses as a percentage of revenue decreased by 510 basis points year"
+    },
+    {
+     "t0_ms": 1219400,
+     "text": "over year to 55%."
+    },
+    {
+     "t0_ms": 1222220,
+     "text": "Our total headcount ended the quarter at approximately $4,700."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1228460,
+   "t1_ms": 1273020,
+   "speaker": "Management",
+   "text": "Sales and marketing expenses were $270.2 million for the quarter. Sales and marketing as a percentage of revenue decreased to 35 from 36% in the same quarter last year. Research and development expenses were $101.7 million in the quarter. R&D as a percentage of revenue decreased to 13 from 15% in the same quarter last year. General and administrative expenses were $57.5 million for the quarter. G&A as a percentage of revenue decreased to 7 from 10% in the same quarter last year. Operating income was $137.1 million, an increase of 60% year-over-year,",
+   "parts": [
+    {
+     "t0_ms": 1228460,
+     "text": "Sales and marketing expenses were $270.2 million for the quarter."
+    },
+    {
+     "t0_ms": 1233700,
+     "text": "Sales and marketing as a percentage of revenue decreased to 35 from 36% in the same quarter"
+    },
+    {
+     "t0_ms": 1239260,
+     "text": "last year."
+    },
+    {
+     "t0_ms": 1241260,
+     "text": "Research and development expenses were $101.7 million in the quarter."
+    },
+    {
+     "t0_ms": 1246660,
+     "text": "R&D as a percentage of revenue decreased to 13 from 15% in the same quarter last year."
+    },
+    {
+     "t0_ms": 1253620,
+     "text": "General and administrative expenses were $57.5 million for the quarter."
+    },
+    {
+     "t0_ms": 1259320,
+     "text": "G&A as a percentage of revenue decreased to 7 from 10% in the same quarter last year."
+    },
+    {
+     "t0_ms": 1265600,
+     "text": "Operating income was $137.1 million, an increase of 60% year-over-year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1273020,
+   "t1_ms": 1317060,
+   "speaker": "Management",
+   "text": "compared to 85.9 million dollars in the same period last year. Third quarter operating margin was 17.5 percent, an increase of 370 basis points sequentially and an increase of 220 basis points year over year. Turning to net income in the balance sheet. Our net income in the quarter was 143.7 million dollars or a diluted net income per share of 38 cents. Free cash flow was $82.1 million in the quarter, or 10% of revenue, compared to $75 million, or 13% of revenue, in the same period last year. We ended the third quarter with $5.1 billion in cash,",
+   "parts": [
+    {
+     "t0_ms": 1273020,
+     "text": "compared to 85.9 million dollars in the same period last year. Third quarter operating margin"
+    },
+    {
+     "t0_ms": 1279880,
+     "text": "was 17.5 percent, an increase of 370 basis points sequentially and an increase of 220 basis points"
+    },
+    {
+     "t0_ms": 1288040,
+     "text": "year over year. Turning to net income in the balance sheet. Our net income in the quarter"
+    },
+    {
+     "t0_ms": 1294200,
+     "text": "was 143.7 million dollars or a diluted net income per share of 38 cents. Free cash flow"
+    },
+    {
+     "t0_ms": 1302140,
+     "text": "was $82.1 million in the quarter, or 10% of revenue, compared to $75 million, or 13% of"
+    },
+    {
+     "t0_ms": 1310160,
+     "text": "revenue, in the same period last year. We ended the third quarter with $5.1 billion in cash,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1317320,
+   "t1_ms": 1359320,
+   "speaker": "Management",
+   "text": "cash equivalent, and available for sale securities. During the quarter, we issued $2.5 billion of convertible senior notes and repaid $1.3 billion of convertible senior notes. Network CapEx represented 15% of revenue in the third quarter. As a reminder, there can be some variability in this metric quarter to quarter, and we continue to expect Network CapEx to be 14% to 15% of revenue for full year 2026. Remaining performance obligations, or RPO, came in at $2,877,000,000, representing an increase of 5% sequentially and 34% year over year.",
+   "parts": [
+    {
+     "t0_ms": 1317320,
+     "text": "cash equivalent, and available for sale securities. During the quarter, we issued $2.5 billion of"
+    },
+    {
+     "t0_ms": 1324660,
+     "text": "convertible senior notes and repaid $1.3 billion of convertible senior notes."
+    },
+    {
+     "t0_ms": 1330820,
+     "text": "Network CapEx represented 15% of revenue in the third quarter."
+    },
+    {
+     "t0_ms": 1335260,
+     "text": "As a reminder, there can be some variability in this metric quarter to quarter, and we"
+    },
+    {
+     "t0_ms": 1339820,
+     "text": "continue to expect Network CapEx to be 14% to 15% of revenue for full year 2026."
+    },
+    {
+     "t0_ms": 1347980,
+     "text": "Remaining performance obligations, or RPO, came in at $2,877,000,000, representing an"
+    },
+    {
+     "t0_ms": 1355340,
+     "text": "increase of 5% sequentially and 34% year over year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1359940,
+   "t1_ms": 1404180,
+   "speaker": "Management",
+   "text": "Current RPO, or 65% of total RPO, includes 37% year-over-year, moving to guidance for the fourth quarter and full year 2026. For the fourth quarter, we expect revenue in the range of $845 to $846 million, representing an increase of 38% year-over-year. We expect operating income in the range of $156 to $157 million. dollars we expect an effective tax rate of 20 percent we expect diluted net income per share of 43 cents assuming approximately 379 million shares outstanding we also expect to achieve gap",
+   "parts": [
+    {
+     "t0_ms": 1359940,
+     "text": "Current RPO, or 65% of total RPO, includes 37% year-over-year, moving to guidance for"
+    },
+    {
+     "t0_ms": 1368720,
+     "text": "the fourth quarter and full year 2026."
+    },
+    {
+     "t0_ms": 1372180,
+     "text": "For the fourth quarter, we expect revenue in the range of $845 to $846 million, representing"
+    },
+    {
+     "t0_ms": 1379620,
+     "text": "an increase of 38% year-over-year."
+    },
+    {
+     "t0_ms": 1382700,
+     "text": "We expect operating income in the range of $156 to $157 million."
+    },
+    {
+     "t0_ms": 1388500,
+     "text": "dollars we expect an effective tax rate of 20 percent we expect diluted net income per share"
+    },
+    {
+     "t0_ms": 1395540,
+     "text": "of 43 cents assuming approximately 379 million shares outstanding we also expect to achieve gap"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1404180,
+   "t1_ms": 1443460,
+   "speaker": "Management",
+   "text": "profitability in the fourth quarter significantly earlier as compared to our outlook from this year's investor day to reach this milestone at the latest by 2028 for the full year 2026 We expect revenue in the range of $2,963,000,000 to $2,964,000,000, representing an increase of 37% year-over-year. We expect operating income for the full year in the range of 462 to 463 million dollars. We expect an effective tax rate of 20%. We expect diluted net income per share over that",
+   "parts": [
+    {
+     "t0_ms": 1404180,
+     "text": "profitability in the fourth quarter significantly earlier as compared to our outlook from this"
+    },
+    {
+     "t0_ms": 1410420,
+     "text": "year's investor day to reach this milestone at the latest by 2028 for the full year 2026"
+    },
+    {
+     "t0_ms": 1417940,
+     "text": "We expect revenue in the range of $2,963,000,000 to $2,964,000,000, representing an increase of 37%"
+    },
+    {
+     "t0_ms": 1428580,
+     "text": "year-over-year. We expect operating income for the full year in the range of 462 to 463 million"
+    },
+    {
+     "t0_ms": 1436100,
+     "text": "dollars. We expect an effective tax rate of 20%. We expect diluted net income per share over that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1443460,
+   "t1_ms": 1488380,
+   "speaker": "Management",
+   "text": "period to be $1.35. We expect approximately 376 million shares outstanding. In closing, we are consistently proving that scale, rapid innovation, profitability, and growth are not trade-offs, but rather a compound multipliers that provide us with meaningful competitive advantages. That is the winning formula Cloudflare continues to execute against to create significant value for both our shareholders and our customers. With our network and our developer platform at the core of the transition to the agentic Internet, we intend to capitalize on this generational opportunity with a continued focus on disciplined capital allocation,",
+   "parts": [
+    {
+     "t0_ms": 1443460,
+     "text": "period to be $1.35. We expect approximately 376 million shares outstanding. In closing,"
+    },
+    {
+     "t0_ms": 1453540,
+     "text": "we are consistently proving that scale, rapid innovation, profitability, and growth are not"
+    },
+    {
+     "t0_ms": 1459700,
+     "text": "trade-offs, but rather a compound multipliers that provide us with meaningful competitive advantages."
+    },
+    {
+     "t0_ms": 1466420,
+     "text": "That is the winning formula Cloudflare continues to execute against to create significant value"
+    },
+    {
+     "t0_ms": 1472180,
+     "text": "for both our shareholders and our customers."
+    },
+    {
+     "t0_ms": 1475760,
+     "text": "With our network and our developer platform"
+    },
+    {
+     "t0_ms": 1477980,
+     "text": "at the core of the transition to the agentic Internet,"
+    },
+    {
+     "t0_ms": 1481660,
+     "text": "we intend to capitalize on this generational opportunity"
+    },
+    {
+     "t0_ms": 1484520,
+     "text": "with a continued focus on disciplined capital allocation,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1488880,
+   "t1_ms": 1496080,
+   "speaker": "Management",
+   "text": "rigorous operational execution, and durable, efficient growth. And with that, operator, please poll for questions.",
+   "parts": [
+    {
+     "t0_ms": 1488880,
+     "text": "rigorous operational execution, and durable, efficient growth."
+    },
+    {
+     "t0_ms": 1493460,
+     "text": "And with that, operator, please poll for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1497280,
+   "t1_ms": 1537650,
+   "speaker": "Operator",
+   "text": "We will now begin the question and answer session. Please limit yourself to one question and one follow-up. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. We ask that you pick up your handset when asking a question to allow for optimum sound quality. If you are muted locally, please remember to unmute your device. Please stand by while we compile the Q&A roster. Your first question comes from the line of Matt Hedberg with RBC Capital Markets. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1497280,
+     "text": "We will now begin the question and answer session."
+    },
+    {
+     "t0_ms": 1500880,
+     "text": "Please limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 1504580,
+     "text": "If you would like to ask a question, please press star 1 to raise your hand."
+    },
+    {
+     "t0_ms": 1509820,
+     "text": "To withdraw your question, press star 1 again."
+    },
+    {
+     "t0_ms": 1513700,
+     "text": "We ask that you pick up your handset when asking a question to allow for optimum sound quality."
+    },
+    {
+     "t0_ms": 1518560,
+     "text": "If you are muted locally, please remember to unmute your device."
+    },
+    {
+     "t0_ms": 1524160,
+     "text": "Please stand by while we compile the Q&A roster."
+    },
+    {
+     "t0_ms": 1529150,
+     "text": "Your first question comes from the line of Matt Hedberg with RBC Capital Markets."
+    },
+    {
+     "t0_ms": 1535550,
+     "text": "Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1539370,
+   "t1_ms": 1575130,
+   "speaker": "Analyst",
+   "text": "Great, guys. Thanks. Just incredible results all around. And Christian, congrats on the new role. Excited to work with you again. I'm going to start, Matthew. You spent a lot of time talking about agents going 1,000x, and now I think you're taking the under on five years, which is great to hear. You know, when we see things like Muse and all these, you know, consumer AI agents, you know, with that as sort of the paradigm in the lens, what does that mean just for the Internet as a whole when we get into that era? And, you know, specifically on app four, it's great to see you're starting to monetize that. But how does that start to really kick in as we move towards that paradigm?",
+   "parts": [
+    {
+     "t0_ms": 1539370,
+     "text": "Great, guys. Thanks. Just incredible results all around."
+    },
+    {
+     "t0_ms": 1543450,
+     "text": "And Christian, congrats on the new role. Excited to work with you again."
+    },
+    {
+     "t0_ms": 1548470,
+     "text": "I'm going to start, Matthew. You spent a lot of time talking about agents going 1,000x,"
+    },
+    {
+     "t0_ms": 1553310,
+     "text": "and now I think you're taking the under on five years, which is great to hear."
+    },
+    {
+     "t0_ms": 1556470,
+     "text": "You know, when we see things like Muse and all these, you know, consumer AI agents, you know, with that as sort of the paradigm in the lens, what does that mean just for the Internet as a whole when we get into that era?"
+    },
+    {
+     "t0_ms": 1568510,
+     "text": "And, you know, specifically on app four, it's great to see you're starting to monetize that."
+    },
+    {
+     "t0_ms": 1572590,
+     "text": "But how does that start to really kick in as we move towards that paradigm?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1576390,
+   "t1_ms": 1619130,
+   "speaker": "Management",
+   "text": "Yeah, first of all, thanks, Matt. I really appreciate it and really proud of the team and also super excited to have Christian on board. As for Muse, I mean, first of all, if you haven't played with it yet, I mean, it's super cool, as are a number of the other agents that are out there. And in the case of Muse, I mean, Meta's a customer, and it's been incredibly fun to watch them and help them scale that product and just see the explosive growth that we're seeing. So we're benefiting as that product grows directly. I think that the second bit, though, is I think more to your question, which is, you know, we're in a really interesting position because the people who are building the agents are often building them on Cloudflare.",
+   "parts": [
+    {
+     "t0_ms": 1576390,
+     "text": "Yeah, first of all, thanks, Matt."
+    },
+    {
+     "t0_ms": 1577930,
+     "text": "I really appreciate it and really proud of the team and also super excited to have Christian on board."
+    },
+    {
+     "t0_ms": 1583950,
+     "text": "As for Muse, I mean, first of all, if you haven't played with it yet, I mean, it's super cool, as are a number of the other agents that are out there."
+    },
+    {
+     "t0_ms": 1591430,
+     "text": "And in the case of Muse, I mean, Meta's a customer, and it's been incredibly fun to watch them and help them scale that product and just see the explosive growth that we're seeing."
+    },
+    {
+     "t0_ms": 1602750,
+     "text": "So we're benefiting as that product grows directly."
+    },
+    {
+     "t0_ms": 1607890,
+     "text": "I think that the second bit, though, is I think more to your question, which is, you know, we're in a really interesting position because the people who are building the agents are often building them on Cloudflare."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1619370,
+   "t1_ms": 1662870,
+   "speaker": "Management",
+   "text": "And then the things that the agents want to get to are also on Cloudflare. And so we've had examples over the last several months in the case of Meta, in the case of Google, where at times there's been places where what they have been doing hasn't aligned exactly with what the content creators, publishers, application developers, financial services organizations, e-commerce companies, what they want to do. And Cloudflare is finding ourselves over and over and over again in the center of those questions and acting almost as a mediator between the two sides.",
+   "parts": [
+    {
+     "t0_ms": 1619370,
+     "text": "And then the things that the agents want to get to are also on Cloudflare."
+    },
+    {
+     "t0_ms": 1623590,
+     "text": "And so we've had examples over the last several months in the case of Meta, in the case of Google, where at times there's been places where what they have been doing hasn't aligned exactly with what the content creators, publishers, application developers, financial services organizations, e-commerce companies, what they want to do."
+    },
+    {
+     "t0_ms": 1649410,
+     "text": "And Cloudflare is finding ourselves over and over and over again in the center of those questions and acting almost as a mediator between the two sides."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1662990,
+   "t1_ms": 1690190,
+   "speaker": "Management",
+   "text": "And in the process of doing that, I think what's really powerful is we're getting to set the rules of the road for what the agentic Internet is going to look like. And the reality is that if agents are going to be 1,000 times human traffic online, that's going to require more bandwidth. That's going to require more servers. That's going to require more things to actually power it, and someone has to pay for it. It can't be a free ride for all the agents that are out there.",
+   "parts": [
+    {
+     "t0_ms": 1662990,
+     "text": "And in the process of doing that, I think what's really powerful is we're getting to set the rules of the road for what the agentic Internet is going to look like."
+    },
+    {
+     "t0_ms": 1671550,
+     "text": "And the reality is that if agents are going to be 1,000 times human traffic online, that's going to require more bandwidth."
+    },
+    {
+     "t0_ms": 1679750,
+     "text": "That's going to require more servers."
+    },
+    {
+     "t0_ms": 1682110,
+     "text": "That's going to require more things to actually power it, and someone has to pay for it."
+    },
+    {
+     "t0_ms": 1686650,
+     "text": "It can't be a free ride for all the agents that are out there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1690190,
+   "t1_ms": 1730210,
+   "speaker": "Management",
+   "text": "And what I'm encouraged by and what we're already seeing in terms of Act 4 revenue is that the agentic companies get that they have to compensate the creators and the banks and everyone else who's providing this information in order to be able to continue to access it. And so I think we are at the cusp of figuring out what that next generation business model of the Internet is going to look like. And because of the fact that we're helping the companies that are building the agents and because of the fact that so much of the rest of the Internet sits behind us, Cloudflare is the company that's going to define what that looks like.",
+   "parts": [
+    {
+     "t0_ms": 1690190,
+     "text": "And what I'm encouraged by and what we're already seeing in terms of Act 4 revenue is that the agentic companies get that they have to compensate the creators and the banks and everyone else who's providing this information in order to be able to continue to access it."
+    },
+    {
+     "t0_ms": 1709970,
+     "text": "And so I think we are at the cusp of figuring out what that next generation business model of the Internet is going to look like."
+    },
+    {
+     "t0_ms": 1718370,
+     "text": "And because of the fact that we're helping the companies that are building the agents and because of the fact that so much of the rest of the Internet sits behind us, Cloudflare is the company that's going to define what that looks like."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1732110,
+   "t1_ms": 1755850,
+   "speaker": "Analyst",
+   "text": "That's great. And then maybe, Thomas, just as a quick follow-up, you beat 3Q by more than 6%, and I think that was higher than last quarter's record beat. And you grew 39%. You're guiding to 38%. It's a very little decel. I guess from your perspective, you know, what are the most important drivers, not only to the quarter, but the guide, as we sort of like look at the exit rate this year? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1732110,
+     "text": "That's great."
+    },
+    {
+     "t0_ms": 1733310,
+     "text": "And then maybe, Thomas, just as a quick follow-up, you beat 3Q by more than 6%, and I think that was higher than last quarter's record beat."
+    },
+    {
+     "t0_ms": 1742550,
+     "text": "And you grew 39%."
+    },
+    {
+     "t0_ms": 1745190,
+     "text": "You're guiding to 38%."
+    },
+    {
+     "t0_ms": 1746470,
+     "text": "It's a very little decel."
+    },
+    {
+     "t0_ms": 1747430,
+     "text": "I guess from your perspective, you know, what are the most important drivers, not only to the quarter, but the guide, as we sort of like look at the exit rate this year?"
+    },
+    {
+     "t0_ms": 1755670,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1756870,
+   "t1_ms": 1793510,
+   "speaker": "Management",
+   "text": "Yeah. Well, you know, we always guide to what we see. You heard in both Matthew's and my script that the demand is driven by a highly diversified momentum. The developer count, the traffic on the network, 160,000 net new customers, the largest ad in every cohort we count from a revenue perspective, no concentration, customers in financial verticals, government, and across the globe.",
+   "parts": [
+    {
+     "t0_ms": 1756870,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 1757690,
+     "text": "Well, you know, we always guide to what we see."
+    },
+    {
+     "t0_ms": 1761470,
+     "text": "You heard in both Matthew's and my script that the demand is driven by a highly diversified momentum."
+    },
+    {
+     "t0_ms": 1770170,
+     "text": "The developer count, the traffic on the network, 160,000 net new customers, the largest ad in every cohort we count from a revenue perspective, no concentration, customers in financial verticals, government, and across the globe."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1793510,
+   "t1_ms": 1808130,
+   "speaker": "Management",
+   "text": "So we see a broad base for this momentum, and we are guiding to what we see, and this is reflected, I think, in this strong beat and raise you see from the third quarter into the fourth quarter.",
+   "parts": [
+    {
+     "t0_ms": 1793510,
+     "text": "So we see a broad base for this momentum, and we are guiding to what we see, and this is reflected, I think, in this strong beat and raise you see from the third quarter into the fourth quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1816890,
+   "t1_ms": 1826650,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Gabriela Borges with Goldman Sachs. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1816890,
+     "text": "Your next question comes from the line of Gabriela Borges with Goldman Sachs. Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1826650,
+   "t1_ms": 1855270,
+   "speaker": "Analyst",
+   "text": "hey good afternoon thanks so much for for taking my question matthew i want to stay on your point of a next generation business model for the internet maybe give us a little bit of a sense for timeline on when you think that act four can start to be monetized in real dollar amounts and some of the key levers that could perhaps make that timeline take longer or perhaps pull in relative to whatever your base case is thank you",
+   "parts": [
+    {
+     "t0_ms": 1826650,
+     "text": "hey good afternoon thanks so much for for taking my question matthew i want to stay on your point"
+    },
+    {
+     "t0_ms": 1834270,
+     "text": "of a next generation business model for the internet maybe give us a little bit of a sense"
+    },
+    {
+     "t0_ms": 1840030,
+     "text": "for timeline on when you think that act four can start to be monetized in real dollar amounts and"
+    },
+    {
+     "t0_ms": 1847750,
+     "text": "some of the key levers that could perhaps make that timeline"
+    },
+    {
+     "t0_ms": 1850570,
+     "text": "take longer or perhaps pull in relative to whatever your base case is thank you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1855270,
+   "t1_ms": 1897430,
+   "speaker": "Management",
+   "text": "Yeah, Gabriella, you know, again, I'm extremely excited for this, and I think we've got to figure it out. You know, a way of thinking of it is, you know, I'm sitting in Manhattan, and if I ask, you know, my agent, where am I going to go for dinner tonight after I'm done with, you know, earnings calls and callbacks? You know, it might go and scour the Internet and look at a thousand different restaurants, websites, pull down a thousand different menus. And then I might choose to only go to one of those. The problem is that 999 of those restaurants have now had a cost that's been applied to them, but they're not getting any benefit.",
+   "parts": [
+    {
+     "t0_ms": 1855270,
+     "text": "Yeah, Gabriella, you know, again, I'm extremely excited for this, and I think we've got to figure it out."
+    },
+    {
+     "t0_ms": 1862290,
+     "text": "You know, a way of thinking of it is, you know, I'm sitting in Manhattan, and if I ask, you know, my agent, where am I going to go for dinner tonight after I'm done with, you know, earnings calls and callbacks?"
+    },
+    {
+     "t0_ms": 1875790,
+     "text": "You know, it might go and scour the Internet and look at a thousand different restaurants, websites, pull down a thousand different menus."
+    },
+    {
+     "t0_ms": 1885270,
+     "text": "And then I might choose to only go to one of those."
+    },
+    {
+     "t0_ms": 1888330,
+     "text": "The problem is that 999 of those restaurants have now had a cost that's been applied to them, but they're not getting any benefit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1897810,
+   "t1_ms": 1942610,
+   "speaker": "Management",
+   "text": "And that was always true of the Internet, but the scale was different. It was, you know, a human might look at, you know, two or three things. But in this case, the scale is so high that we're going to have to figure out some additional way to pay for it. And so I think the ways of doing that are twofold. are twofold. So one where we're already recognizing revenue and recognizing significant amounts of revenue is how do we make that more efficient? So we talked last quarter about how we partnered with OpenAI to make sure that as they searched the internet, they didn't do it in the kind of dumb way of just crawling everything all the time over and over again. But instead, the cloud startup could actually give them hints when a page had changed, when a menu price had updated when anything had happened, and then they could get the freshest data",
+   "parts": [
+    {
+     "t0_ms": 1897810,
+     "text": "And that was always true of the Internet, but the scale was different."
+    },
+    {
+     "t0_ms": 1900870,
+     "text": "It was, you know, a human might look at, you know, two or three things."
+    },
+    {
+     "t0_ms": 1904450,
+     "text": "But in this case, the scale is so high that we're going to have to figure out some additional way to pay for it."
+    },
+    {
+     "t0_ms": 1911310,
+     "text": "And so I think the ways of doing that are twofold."
+    },
+    {
+     "t0_ms": 1913330,
+     "text": "are twofold. So one where we're already recognizing revenue and recognizing significant"
+    },
+    {
+     "t0_ms": 1918430,
+     "text": "amounts of revenue is how do we make that more efficient? So we talked last quarter about how"
+    },
+    {
+     "t0_ms": 1924310,
+     "text": "we partnered with OpenAI to make sure that as they searched the internet, they didn't do it"
+    },
+    {
+     "t0_ms": 1928450,
+     "text": "in the kind of dumb way of just crawling everything all the time over and over again."
+    },
+    {
+     "t0_ms": 1932590,
+     "text": "But instead, the cloud startup could actually give them hints when a page had changed, when a menu"
+    },
+    {
+     "t0_ms": 1938470,
+     "text": "price had updated when anything had happened, and then they could get the freshest data"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1942610,
+   "t1_ms": 1987130,
+   "speaker": "Management",
+   "text": "and they could actually crawl it. That helps OpenAI save money, and that actually helps the Cloudflare customers get the freshest data to them and make sure that it doesn't waste a ton of resources. And so I think that's a clear way where we're already seeing that, and that's helped, you know, OpenAI is paying for that, and a lot of other companies in the space I think you'll see do that as well. Beyond that, though, you know, I think that we're going to see some version of micropayments that exist where small payments get made when an agent comes. And I think it will be an exchange for the more that an agent is willing to tell you about why it's there, the more that you may be willing to charge it less to access the page.",
+   "parts": [
+    {
+     "t0_ms": 1942610,
+     "text": "and they could actually crawl it."
+    },
+    {
+     "t0_ms": 1944730,
+     "text": "That helps OpenAI save money, and that actually helps the Cloudflare customers get the freshest"
+    },
+    {
+     "t0_ms": 1951790,
+     "text": "data to them and make sure that it doesn't waste a ton of resources."
+    },
+    {
+     "t0_ms": 1956350,
+     "text": "And so I think that's a clear way where we're already seeing that, and that's helped, you"
+    },
+    {
+     "t0_ms": 1961610,
+     "text": "know, OpenAI is paying for that, and a lot of other companies in the space I think you'll"
+    },
+    {
+     "t0_ms": 1966090,
+     "text": "see do that as well."
+    },
+    {
+     "t0_ms": 1967650,
+     "text": "Beyond that, though, you know, I think that we're going to see some version of micropayments that exist where small payments get made when an agent comes."
+    },
+    {
+     "t0_ms": 1975410,
+     "text": "And I think it will be an exchange for the more that an agent is willing to tell you about why it's there, the more that you may be willing to charge it less to access the page."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1987130,
+   "t1_ms": 2025010,
+   "speaker": "Management",
+   "text": "So if you imagine that an agent comes to a travel site and says, hey, I'm looking for a vacation for my user and his or her family, it's family of four, they want to go to Hawaii, what do you have for me? That actually then might be something where you let the agent on for free, but it opens up all kinds of opportunities for advertising. And, again, I think CloudFlare is in the perfect position to help bring both of those things together, both the agent and the places that might have whatever the agent is looking for. And so, like, that is coming.",
+   "parts": [
+    {
+     "t0_ms": 1987130,
+     "text": "So if you imagine that an agent comes to a travel site and says, hey, I'm looking for a vacation for my user and his or her family, it's family of four, they want to go to Hawaii, what do you have for me?"
+    },
+    {
+     "t0_ms": 2004030,
+     "text": "That actually then might be something where you let the agent on for free, but it opens up all kinds of opportunities for advertising."
+    },
+    {
+     "t0_ms": 2012150,
+     "text": "And, again, I think CloudFlare is in the perfect position to help bring both of those things together, both the agent and the places that might have whatever the agent is looking for."
+    },
+    {
+     "t0_ms": 2023410,
+     "text": "And so, like, that is coming."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2025550,
+   "t1_ms": 2040730,
+   "speaker": "Management",
+   "text": "I don't know exactly how long it will be before it turns into, you know, major sources of revenue. But if you look out in the more distant horizon, if you look, you know, 10 years out, I would imagine that this becomes the largest part of CloudFlare's business.",
+   "parts": [
+    {
+     "t0_ms": 2025550,
+     "text": "I don't know exactly how long it will be before it turns into, you know, major sources of revenue."
+    },
+    {
+     "t0_ms": 2032850,
+     "text": "But if you look out in the more distant horizon, if you look, you know, 10 years out, I would imagine that this becomes the largest part of CloudFlare's business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2043230,
+   "t1_ms": 2072210,
+   "speaker": "Analyst",
+   "text": "I appreciate the color. And Thomas, the follow-up is for you on pool of funds revenue. And there are two dynamics that I think you've talked about happening at the same time. The first is more of your business is shifting towards consumption revenue. And the second is that it sounds like customers are burning through their pool of funds contracts faster than what the original base case might have been. And so talk to us about how that informs your forecasting going forward and any observations you can share with us on the pool of funds piece of the business in particular.",
+   "parts": [
+    {
+     "t0_ms": 2043230,
+     "text": "I appreciate the color."
+    },
+    {
+     "t0_ms": 2044210,
+     "text": "And Thomas, the follow-up is for you on pool of funds revenue."
+    },
+    {
+     "t0_ms": 2048290,
+     "text": "And there are two dynamics that I think you've talked about happening at the same time."
+    },
+    {
+     "t0_ms": 2051830,
+     "text": "The first is more of your business is shifting towards consumption revenue."
+    },
+    {
+     "t0_ms": 2055489,
+     "text": "And the second is that it sounds like customers are burning through their pool of funds contracts"
+    },
+    {
+     "t0_ms": 2060150,
+     "text": "faster than what the original base case might have been."
+    },
+    {
+     "t0_ms": 2064050,
+     "text": "And so talk to us about how that informs your forecasting going forward and any observations"
+    },
+    {
+     "t0_ms": 2069330,
+     "text": "you can share with us on the pool of funds piece of the business in particular."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2072489,
+   "t1_ms": 2115930,
+   "speaker": "Management",
+   "text": "you yeah um we saw continued strength in our variable revenue it was the primary contributor to the upside um and the surprising or or a positive uh part of that was it was driven a lot across a lot of customers either joining pool of funds or as you said uh burning to their pool of funds commitments faster and therefore have to renew earlier and as part of the renewal process sign up to even bigger pool of funds concepts because it has been driven by a long tale of customers you know this uh of course influences um how we built guidance for the",
+   "parts": [
+    {
+     "t0_ms": 2072489,
+     "text": "you yeah um we saw continued strength in our variable revenue it was the primary contributor"
+    },
+    {
+     "t0_ms": 2082170,
+     "text": "to the upside um and the surprising or or a positive uh part of that was it was driven"
+    },
+    {
+     "t0_ms": 2089290,
+     "text": "a lot across a lot of customers either joining pool of funds or as you said uh burning to their"
+    },
+    {
+     "t0_ms": 2096010,
+     "text": "pool of funds commitments faster and therefore have to renew earlier and as part of the renewal"
+    },
+    {
+     "t0_ms": 2102650,
+     "text": "process sign up to even bigger pool of funds concepts because it has been driven by a long"
+    },
+    {
+     "t0_ms": 2110170,
+     "text": "tale of customers you know this uh of course influences um how we built guidance for the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2115930,
+   "t1_ms": 2127150,
+   "speaker": "Management",
+   "text": "fourth quarter that it was not a concentrated event but a long tail of events across many customers and is part of the reason why we guided to what we guided.",
+   "parts": [
+    {
+     "t0_ms": 2115930,
+     "text": "fourth quarter that it was not a concentrated event but a long tail of events across many"
+    },
+    {
+     "t0_ms": 2121930,
+     "text": "customers and is part of the reason why we guided to what we guided."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2128090,
+   "t1_ms": 2131580,
+   "speaker": "Analyst",
+   "text": "Thank you, and congratulations to the team.",
+   "parts": [
+    {
+     "t0_ms": 2128090,
+     "text": "Thank you, and congratulations to the team."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2134510,
+   "t1_ms": 2142210,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Ryan McWilliams with Wells Fargo. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2134510,
+     "text": "Your next question comes from the line of Ryan McWilliams with Wells Fargo."
+    },
+    {
+     "t0_ms": 2139970,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 2141510,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2142630,
+   "t1_ms": 2165010,
+   "speaker": "Analyst",
+   "text": "Thank you for the question. So the contribution from net new customers over the last year seems to be growing strongly for CloudFlare. Are you seeing new AI native customers ramp across your acts compared to past cohorts? And are AI natives driving any stronger growth in any act for the third quarter? Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2142630,
+     "text": "Thank you for the question."
+    },
+    {
+     "t0_ms": 2147850,
+     "text": "So the contribution from net new customers over the last year seems to be growing strongly"
+    },
+    {
+     "t0_ms": 2152290,
+     "text": "for CloudFlare."
+    },
+    {
+     "t0_ms": 2153530,
+     "text": "Are you seeing new AI native customers ramp across your acts compared to past cohorts?"
+    },
+    {
+     "t0_ms": 2158570,
+     "text": "And are AI natives driving any stronger growth in any act for the third quarter?"
+    },
+    {
+     "t0_ms": 2164730,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2165870,
+   "t1_ms": 2209390,
+   "speaker": "Management",
+   "text": "Yeah, thanks, Ryan. You know, I would say that, you know, we're seeing real strength across just about every different vertical that's out there. And so, yeah, we're seeing AI growth, but by no means would I say that this is really concentrated around AI in particular. You know, we're seeing strong growth around financial services, government, manufacturing, healthcare, e-commerce, across the board. That's coming on board. And it is new customers. And so, as I talked about in the prepared remarks, you know, I think one of the biggest drivers is the fact that it's sort of a secondary effect of AI, which is AI is finding more and more security flaws that are out there.",
+   "parts": [
+    {
+     "t0_ms": 2165870,
+     "text": "Yeah, thanks, Ryan."
+    },
+    {
+     "t0_ms": 2167050,
+     "text": "You know, I would say that, you know, we're seeing real strength across just about every different vertical that's out there."
+    },
+    {
+     "t0_ms": 2176690,
+     "text": "And so, yeah, we're seeing AI growth, but by no means would I say that this is really concentrated around AI in particular."
+    },
+    {
+     "t0_ms": 2186930,
+     "text": "You know, we're seeing strong growth around financial services, government, manufacturing, healthcare, e-commerce, across the board."
+    },
+    {
+     "t0_ms": 2195630,
+     "text": "That's coming on board."
+    },
+    {
+     "t0_ms": 2197490,
+     "text": "And it is new customers."
+    },
+    {
+     "t0_ms": 2198630,
+     "text": "And so, as I talked about in the prepared remarks, you know, I think one of the biggest drivers is the fact that it's sort of a secondary effect of AI, which is AI is finding more and more security flaws that are out there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2209390,
+   "t1_ms": 2247690,
+   "speaker": "Management",
+   "text": "just last week and the week before, you know, we had six of the worst internet security bugs of all time announced over the course of fewer than 14 days. And we're not done. You know, we have already gotten disclosures of many, many, many more extremely scary bugs, which researchers have found have quietly disclosed to us and we have protected our customers from. And so at some level, I guess that's AI driving this because AI is helping find these bugs. But what else is",
+   "parts": [
+    {
+     "t0_ms": 2209390,
+     "text": "just last week and the week before, you know, we had six of the worst internet security bugs of all"
+    },
+    {
+     "t0_ms": 2217210,
+     "text": "time announced over the course of fewer than 14 days. And we're not done. You know, we have"
+    },
+    {
+     "t0_ms": 2225910,
+     "text": "already gotten disclosures of many, many, many more extremely scary bugs, which researchers have"
+    },
+    {
+     "t0_ms": 2235430,
+     "text": "found have quietly disclosed to us and we have protected our customers from. And so at some"
+    },
+    {
+     "t0_ms": 2242750,
+     "text": "level, I guess that's AI driving this because AI is helping find these bugs. But what else is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2247690,
+   "t1_ms": 2291310,
+   "speaker": "Management",
+   "text": "happening is the small bank in middle America that's like, how in the world do I stay in front of all of this tsunami of threats, which is coming, is getting advice from their peers, from government officials. I mean, it was discussed literally in the White House the other day where a bunch of AI leaders got together with the White House officials and asked, like, you know, and the White House was like, how are we going to make sure that everyone's protected against these vulnerabilities? And the answer came back, cloudflare, because we sit in front of so much of the Internet and we are such a responsible player protecting the Internet. I think that's what's driving, you know, a huge amount of our growth.",
+   "parts": [
+    {
+     "t0_ms": 2247690,
+     "text": "happening is the small bank in middle America that's like, how in the world do I stay in front"
+    },
+    {
+     "t0_ms": 2255370,
+     "text": "of all of this tsunami of threats, which is coming, is getting advice from their peers,"
+    },
+    {
+     "t0_ms": 2262770,
+     "text": "from government officials."
+    },
+    {
+     "t0_ms": 2264170,
+     "text": "I mean, it was discussed literally"
+    },
+    {
+     "t0_ms": 2266210,
+     "text": "in the White House the other day"
+    },
+    {
+     "t0_ms": 2267410,
+     "text": "where a bunch of AI leaders got together"
+    },
+    {
+     "t0_ms": 2269830,
+     "text": "with the White House officials"
+    },
+    {
+     "t0_ms": 2270990,
+     "text": "and asked, like, you know,"
+    },
+    {
+     "t0_ms": 2272990,
+     "text": "and the White House was like,"
+    },
+    {
+     "t0_ms": 2273890,
+     "text": "how are we going to make sure"
+    },
+    {
+     "t0_ms": 2275490,
+     "text": "that everyone's protected"
+    },
+    {
+     "t0_ms": 2276310,
+     "text": "against these vulnerabilities?"
+    },
+    {
+     "t0_ms": 2278590,
+     "text": "And the answer came back, cloudflare,"
+    },
+    {
+     "t0_ms": 2281170,
+     "text": "because we sit in front of so much of the Internet"
+    },
+    {
+     "t0_ms": 2283010,
+     "text": "and we are such a responsible player"
+    },
+    {
+     "t0_ms": 2285530,
+     "text": "protecting the Internet."
+    },
+    {
+     "t0_ms": 2287330,
+     "text": "I think that's what's driving, you know,"
+    },
+    {
+     "t0_ms": 2289450,
+     "text": "a huge amount of our growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2291310,
+   "t1_ms": 2309130,
+   "speaker": "Management",
+   "text": "And so, sure, AI companies are growing, and they're growing across, you know, all of our different sectors. But across the board, you know, this is a really broad-based win, not one which is entirely focused on, you know, just a small number of AI companies.",
+   "parts": [
+    {
+     "t0_ms": 2291310,
+     "text": "And so, sure, AI companies are growing, and they're growing across, you know, all of our different sectors."
+    },
+    {
+     "t0_ms": 2300250,
+     "text": "But across the board, you know, this is a really broad-based win, not one which is entirely focused on, you know, just a small number of AI companies."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2311400,
+   "t1_ms": 2329600,
+   "speaker": "Analyst",
+   "text": "Totally. Great to hear. And then we'll have to hear at a high level how your CDN customers are evaluating significantly more of their web traffic becoming agent-based or coming from agents. Like, are they happy to get more of that traffic, or are they working with Cloudflare to make sure they receive and then pay for, like, the right traffic coming in?",
+   "parts": [
+    {
+     "t0_ms": 2311400,
+     "text": "Totally. Great to hear."
+    },
+    {
+     "t0_ms": 2312280,
+     "text": "And then we'll have to hear at a high level how your CDN customers are evaluating significantly more of their web traffic becoming agent-based or coming from agents."
+    },
+    {
+     "t0_ms": 2322640,
+     "text": "Like, are they happy to get more of that traffic, or are they working with Cloudflare to make sure they receive and then pay for, like, the right traffic coming in?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2330720,
+   "t1_ms": 2372700,
+   "speaker": "Management",
+   "text": "Yeah, I think the answer depends on the customer. Some customers see agents as wonderful, and they want to have them, as many of them, come to them as possible. Others see them as a bane to their business and want to keep them away. And we need to be able to serve both of those needs. And so for those customers that want more agentic traffic, we're helping them with modern, you know, there are different terms for it, but sort of the new version of SEO, sort of how do you optimize to get as much agentic traffic as possible?",
+   "parts": [
+    {
+     "t0_ms": 2330720,
+     "text": "Yeah, I think the answer depends on the customer."
+    },
+    {
+     "t0_ms": 2334340,
+     "text": "Some customers see agents as wonderful, and they want to have them, as many of them, come to them as possible."
+    },
+    {
+     "t0_ms": 2344120,
+     "text": "Others see them as a bane to their business and want to keep them away."
+    },
+    {
+     "t0_ms": 2354300,
+     "text": "And we need to be able to serve both of those needs."
+    },
+    {
+     "t0_ms": 2357340,
+     "text": "And so for those customers that want more agentic traffic, we're helping them with modern, you know, there are different terms for it, but sort of the new version of SEO, sort of how do you optimize to get as much agentic traffic as possible?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2372700,
+   "t1_ms": 2414640,
+   "speaker": "Management",
+   "text": "Well, how do you make sure that it's being served in the most efficient way possible? And we're making that as easy as possible for them. On the other hand, customers that want to keep those agents away to see them as a threat, then we're blocking that, and then they're not getting charged for that traffic. And I think one of the things that's different from us, we've never been a CDN. The fact that we do caching is only because we were afraid that our security services would slow things down, and caching is an obvious computer science way of dealing with that. But we've really never been focused on charging for CDN traffic in any meaningful way. It's not a big driver of our business. And so when the traffic goes up or the traffic goes down,",
+   "parts": [
+    {
+     "t0_ms": 2372700,
+     "text": "Well, how do you make sure that it's being served in the most efficient way possible?"
+    },
+    {
+     "t0_ms": 2376340,
+     "text": "And we're making that as easy as possible for them."
+    },
+    {
+     "t0_ms": 2378400,
+     "text": "On the other hand, customers that want to keep those agents away to see them as a threat,"
+    },
+    {
+     "t0_ms": 2383800,
+     "text": "then we're blocking that, and then they're not getting charged for that traffic."
+    },
+    {
+     "t0_ms": 2387740,
+     "text": "And I think one of the things that's different from us, we've never been a CDN."
+    },
+    {
+     "t0_ms": 2392700,
+     "text": "The fact that we do caching is only because we were afraid that our security services would slow things down,"
+    },
+    {
+     "t0_ms": 2399880,
+     "text": "and caching is an obvious computer science way of dealing with that."
+    },
+    {
+     "t0_ms": 2403160,
+     "text": "But we've really never been focused on charging for CDN traffic in any meaningful way."
+    },
+    {
+     "t0_ms": 2410040,
+     "text": "It's not a big driver of our business."
+    },
+    {
+     "t0_ms": 2411920,
+     "text": "And so when the traffic goes up or the traffic goes down,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2415100,
+   "t1_ms": 2438620,
+   "speaker": "Management",
+   "text": "I think that more and more customers are flocking to CloudFlare because unlike some of the pure CDN plays that are out there where their bills are going up but they're not seeing the benefit, that we're able to give them real control over what customers come to them and not charge them for, you know, what frankly I don't think they should be charged for in the beginning. Appreciate the call. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2415100,
+     "text": "I think that more and more customers are flocking to CloudFlare"
+    },
+    {
+     "t0_ms": 2418620,
+     "text": "because unlike some of the pure CDN plays that are out there"
+    },
+    {
+     "t0_ms": 2422960,
+     "text": "where their bills are going up but they're not seeing the benefit,"
+    },
+    {
+     "t0_ms": 2425380,
+     "text": "that we're able to give them real control"
+    },
+    {
+     "t0_ms": 2428380,
+     "text": "over what customers come to them"
+    },
+    {
+     "t0_ms": 2430200,
+     "text": "and not charge them for, you know,"
+    },
+    {
+     "t0_ms": 2433240,
+     "text": "what frankly I don't think they should be charged for"
+    },
+    {
+     "t0_ms": 2435040,
+     "text": "in the beginning."
+    },
+    {
+     "t0_ms": 2437720,
+     "text": "Appreciate the call. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2440390,
+   "t1_ms": 2447530,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Saket Kalia with Barclays. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2440390,
+     "text": "Your next question comes from the line of"
+    },
+    {
+     "t0_ms": 2442850,
+     "text": "Saket Kalia with Barclays."
+    },
+    {
+     "t0_ms": 2445350,
+     "text": "Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2448950,
+   "t1_ms": 2493590,
+   "speaker": "Analyst",
+   "text": "Okay, great. Hey, guys. Thanks for taking my questions here and perhaps on another quarter of acceleration. Thank you. Matthew, maybe, absolutely. Matthew, maybe for you. You know, there's clearly a lot of questions out there about what happens if data center construction slows. And I want to touch on the comparison that you made in your prepared remarks between container-based clouds versus Cloudflare's isolate architecture. Now, a lot can happen in terms of data center construction in the future. But hypothetically, if it were to slow, it feels like it could make your agentic cloud more valuable. But I'm curious how you think about that scenario and how it could impact Cloudflare's business, if at all.",
+   "parts": [
+    {
+     "t0_ms": 2448950,
+     "text": "Okay, great. Hey, guys."
+    },
+    {
+     "t0_ms": 2450050,
+     "text": "Thanks for taking my questions here"
+    },
+    {
+     "t0_ms": 2451450,
+     "text": "and perhaps on another quarter of acceleration."
+    },
+    {
+     "t0_ms": 2455110,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2455850,
+     "text": "Matthew, maybe, absolutely."
+    },
+    {
+     "t0_ms": 2457750,
+     "text": "Matthew, maybe for you."
+    },
+    {
+     "t0_ms": 2459510,
+     "text": "You know, there's clearly a lot of questions out there about what happens if data center construction slows."
+    },
+    {
+     "t0_ms": 2466770,
+     "text": "And I want to touch on the comparison that you made in your prepared remarks between container-based clouds versus Cloudflare's isolate architecture."
+    },
+    {
+     "t0_ms": 2476130,
+     "text": "Now, a lot can happen in terms of data center construction in the future."
+    },
+    {
+     "t0_ms": 2479890,
+     "text": "But hypothetically, if it were to slow, it feels like it could make your agentic cloud more valuable."
+    },
+    {
+     "t0_ms": 2487330,
+     "text": "But I'm curious how you think about that scenario and how it could impact Cloudflare's business, if at all."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495740,
+   "t1_ms": 2537620,
+   "speaker": "Management",
+   "text": "Sure. So, I know we've gotten approached over and over again to say, you know, would we do something like what the neoclouds are doing? And I think that, you know, what our answer has always been is, you know, we're an engineering company. We're not a financial engineering company. And so we're focused on how we can actually deliver real operational excellence and get real advantages for every CapEx dollar that we spend in order to deliver more benefit. And so, you know, we've watched a bunch of really dumb deals get done.",
+   "parts": [
+    {
+     "t0_ms": 2495740,
+     "text": "Sure."
+    },
+    {
+     "t0_ms": 2496140,
+     "text": "So, I know we've gotten approached over and over again to say, you know, would we do something like what the neoclouds are doing?"
+    },
+    {
+     "t0_ms": 2508140,
+     "text": "And I think that, you know, what our answer has always been is, you know, we're an engineering company."
+    },
+    {
+     "t0_ms": 2513720,
+     "text": "We're not a financial engineering company."
+    },
+    {
+     "t0_ms": 2515640,
+     "text": "And so we're focused on how we can actually deliver real operational excellence and get real advantages for every CapEx dollar that we spend in order to deliver more benefit."
+    },
+    {
+     "t0_ms": 2532520,
+     "text": "And so, you know, we've watched a bunch of really dumb deals get done."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2537760,
+   "t1_ms": 2582400,
+   "speaker": "Management",
+   "text": "And obviously the market is digesting those right now. Those just aren't the sorts of deals that we would ever do. And I think as the market gets more rational and as we actually figure out, okay, you can't sell a dollar for 50 cents and be in business over the long term, what will happen is people will focus instead on where can we get more value, where can we drive more efficiency. and it turns out that we're the platform that has built that. As I said in the prepared remarks, the isolates technology allowed us to distribute our systems globally",
+   "parts": [
+    {
+     "t0_ms": 2537760,
+     "text": "And obviously the market is digesting those right now."
+    },
+    {
+     "t0_ms": 2543260,
+     "text": "Those just aren't the sorts of deals that we would ever do."
+    },
+    {
+     "t0_ms": 2545880,
+     "text": "And I think as the market gets more rational and as we actually figure out, okay, you can't sell a dollar for 50 cents and be in business over the long term, what will happen is people will focus instead on where can we get more value, where can we drive more efficiency."
+    },
+    {
+     "t0_ms": 2569940,
+     "text": "and it turns out that we're the platform that has built that."
+    },
+    {
+     "t0_ms": 2575160,
+     "text": "As I said in the prepared remarks,"
+    },
+    {
+     "t0_ms": 2577540,
+     "text": "the isolates technology allowed us to distribute our systems globally"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2582400,
+   "t1_ms": 2599460,
+   "speaker": "Management",
+   "text": "and do that in an incredibly efficient way, but what we're increasingly finding is in those places where we need more density, where agents are talking to agents and they might be in two data centers right next to each other, that density also benefits from that same isolates architecture.",
+   "parts": [
+    {
+     "t0_ms": 2582400,
+     "text": "and do that in an incredibly efficient way,"
+    },
+    {
+     "t0_ms": 2585120,
+     "text": "but what we're increasingly finding is in those places"
+    },
+    {
+     "t0_ms": 2588000,
+     "text": "where we need more density, where agents are talking to agents"
+    },
+    {
+     "t0_ms": 2592080,
+     "text": "and they might be in two data centers right next to each other,"
+    },
+    {
+     "t0_ms": 2595200,
+     "text": "that density also benefits from that same isolates architecture."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2599460,
+   "t1_ms": 2630640,
+   "speaker": "Management",
+   "text": "And so, again, my crystal ball isn't perfect, but your prediction that as some of the financial engineering that's driven this growth goes away, I think it will focus us more on who are the companies that have real operational excellence, can deliver, and have real engineering differentiation and a diversified business model. And I think that's exactly what Cloudflare has.",
+   "parts": [
+    {
+     "t0_ms": 2599460,
+     "text": "And so, again, my crystal ball isn't perfect, but your prediction that as some of the financial engineering that's driven this growth goes away, I think it will focus us more on who are the companies that have real operational excellence, can deliver, and have real engineering differentiation and a diversified business model."
+    },
+    {
+     "t0_ms": 2628500,
+     "text": "And I think that's exactly what Cloudflare has."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2632020,
+   "t1_ms": 2653260,
+   "speaker": "Analyst",
+   "text": "Makes a ton of sense. Thomas, maybe for my follow-up for you, great to see the dollar-based net retention continue to improve. I think we're back at levels that we haven't seen in almost four years. So congrats. Can you just maybe dig into where the cross-sell is particularly breaking out in terms of which acts or customer segments? And could that net retention continue to improve looking forward?",
+   "parts": [
+    {
+     "t0_ms": 2632020,
+     "text": "Makes a ton of sense."
+    },
+    {
+     "t0_ms": 2633420,
+     "text": "Thomas, maybe for my follow-up for you,"
+    },
+    {
+     "t0_ms": 2635540,
+     "text": "great to see the dollar-based net retention continue to improve."
+    },
+    {
+     "t0_ms": 2638820,
+     "text": "I think we're back at levels that we haven't seen in almost four years."
+    },
+    {
+     "t0_ms": 2641700,
+     "text": "So congrats."
+    },
+    {
+     "t0_ms": 2643060,
+     "text": "Can you just maybe dig into where the cross-sell is particularly breaking out"
+    },
+    {
+     "t0_ms": 2646900,
+     "text": "in terms of which acts or customer segments?"
+    },
+    {
+     "t0_ms": 2650060,
+     "text": "And could that net retention continue to improve looking forward?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2656790,
+   "t1_ms": 2699510,
+   "speaker": "Management",
+   "text": "Starting with your last part first. Yes, it can. You know, we have higher ambitions when it comes to DNR than what we're currently achieving. And I think the combination of pool of funds, the largest customers growing the fastest, and the friction that these concepts, the pool of funds contracts take out of the expansion process are driving that. Where do we see that? We see that across the portfolio currently, security is playing a heavier and heavier role, just following the remarks that Matthew made in his prepared statement, but also now in the Q&A session.",
+   "parts": [
+    {
+     "t0_ms": 2656790,
+     "text": "Starting with your last part first."
+    },
+    {
+     "t0_ms": 2659010,
+     "text": "Yes, it can. You know, we have higher ambitions when it comes to DNR than what we're currently achieving."
+    },
+    {
+     "t0_ms": 2664790,
+     "text": "And I think the combination of pool of funds, the largest customers growing the fastest,"
+    },
+    {
+     "t0_ms": 2674590,
+     "text": "and the friction that these concepts, the pool of funds contracts take out of the expansion process are driving that."
+    },
+    {
+     "t0_ms": 2682770,
+     "text": "Where do we see that?"
+    },
+    {
+     "t0_ms": 2684130,
+     "text": "We see that across the portfolio currently, security is playing a heavier and heavier role, just following the remarks that Matthew made in his prepared statement, but also now in the Q&A session."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2700070,
+   "t1_ms": 2712530,
+   "speaker": "Management",
+   "text": "So it's a broad-based expansion, especially in the large customer cohorts across all products, and especially with customers that are in pool of funds relationships with us.",
+   "parts": [
+    {
+     "t0_ms": 2700070,
+     "text": "So it's a broad-based expansion, especially in the large customer cohorts across all products, and especially with customers that are in pool of funds relationships with us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2712530,
+   "t1_ms": 2728510,
+   "speaker": "Operator",
+   "text": "very helpful. Thank you. Your next question comes from the line of Sanjit Singh with Morgan Stanley. Your line is now open. Please go ahead. Yeah, thank you for taking the questions. And on that",
+   "parts": [
+    {
+     "t0_ms": 2712530,
+     "text": "very helpful. Thank you. Your next question comes from the line of Sanjit Singh with Morgan Stanley."
+    },
+    {
+     "t0_ms": 2722530,
+     "text": "Your line is now open. Please go ahead. Yeah, thank you for taking the questions. And on that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2728510,
+   "t1_ms": 2759430,
+   "speaker": "Analyst",
+   "text": "point of engineering differentiation, you guys have disclosed that you guys are up to 10 million developers now on the platform. So just wanted to get a sense of how are you seeing that developer traction and that adoption translate into paid workers consumption and ultimately sort of enterprise revenue? And to that end, can you help us give us a sense of how much of agent or AI inferences contribute to workers growth today versus maybe a more traditional sort of developer use case? How quickly is that mix changing? If you give us any sort of a high-level view on that,",
+   "parts": [
+    {
+     "t0_ms": 2728510,
+     "text": "point of engineering differentiation, you guys have disclosed that you guys are up to 10 million"
+    },
+    {
+     "t0_ms": 2733330,
+     "text": "developers now on the platform. So just wanted to get a sense of how are you seeing that developer"
+    },
+    {
+     "t0_ms": 2738270,
+     "text": "traction and that adoption translate into paid workers consumption and ultimately sort of"
+    },
+    {
+     "t0_ms": 2743210,
+     "text": "enterprise revenue? And to that end, can you help us give us a sense of how much of agent or AI"
+    },
+    {
+     "t0_ms": 2749610,
+     "text": "inferences contribute to workers growth today versus maybe a more traditional sort of developer"
+    },
+    {
+     "t0_ms": 2754150,
+     "text": "use case? How quickly is that mix changing? If you give us any sort of a high-level view on that,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2759570,
+   "t1_ms": 2802510,
+   "speaker": "Management",
+   "text": "it'd be great. Yeah, Sanjay, I appreciate the question. You know, again, the rate at which developers are growing is just extraordinary. We went from 7 million to 10 million, you know, in just a quarter, and I'm just incredibly proud that when developers are looking for what the platform of the future is, they're choosing Cloudflare. The first way it's translating into it is in paying customer count. You can see that we had a record addition of new paying customers this quarter, up 158,000 paying customers, almost double our previous record from last quarter. And a lot of that is because those are developer customers that are there.",
+   "parts": [
+    {
+     "t0_ms": 2759570,
+     "text": "it'd be great. Yeah, Sanjay, I appreciate the question. You know, again, the rate at which"
+    },
+    {
+     "t0_ms": 2765050,
+     "text": "developers are growing is just extraordinary. We went from 7 million to 10 million, you know,"
+    },
+    {
+     "t0_ms": 2769370,
+     "text": "in just a quarter, and I'm just incredibly proud"
+    },
+    {
+     "t0_ms": 2773910,
+     "text": "that when developers are looking for what the platform"
+    },
+    {
+     "t0_ms": 2777350,
+     "text": "of the future is, they're choosing Cloudflare."
+    },
+    {
+     "t0_ms": 2780770,
+     "text": "The first way it's translating into it is in paying customer count."
+    },
+    {
+     "t0_ms": 2784350,
+     "text": "You can see that we had a record addition"
+    },
+    {
+     "t0_ms": 2787290,
+     "text": "of new paying customers this quarter,"
+    },
+    {
+     "t0_ms": 2790070,
+     "text": "up 158,000 paying customers,"
+    },
+    {
+     "t0_ms": 2793210,
+     "text": "almost double our previous record from last quarter."
+    },
+    {
+     "t0_ms": 2797250,
+     "text": "And a lot of that is because those are developer customers that are there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2802610,
+   "t1_ms": 2837170,
+   "speaker": "Management",
+   "text": "Some of those are going to stay small customers forever. Some of those are folks like my EA who's building her first app and using Cloudflare to do that. And she might pay $5 a month or something like that in order to do that. But it's great and it contributes to everything. But some of those are, you know, what are new startups that turn into larger businesses? And increasingly, what we're seeing is large existing businesses onboarding more of their developers to the CloudFlare platform.",
+   "parts": [
+    {
+     "t0_ms": 2802610,
+     "text": "Some of those are going to stay small customers forever."
+    },
+    {
+     "t0_ms": 2806310,
+     "text": "Some of those are folks like my EA who's building her first app"
+    },
+    {
+     "t0_ms": 2810110,
+     "text": "and using Cloudflare to do that."
+    },
+    {
+     "t0_ms": 2813250,
+     "text": "And she might pay $5 a month or something like that in order to do that."
+    },
+    {
+     "t0_ms": 2818410,
+     "text": "But it's great and it contributes to everything."
+    },
+    {
+     "t0_ms": 2821550,
+     "text": "But some of those are, you know, what are new startups that turn into larger businesses?"
+    },
+    {
+     "t0_ms": 2827690,
+     "text": "And increasingly, what we're seeing is large existing businesses onboarding more of their developers to the CloudFlare platform."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2837170,
+   "t1_ms": 2878610,
+   "speaker": "Management",
+   "text": "And that's driving, just as Thomas already talked about, faster pool of funds consumption, which is leading to earlier renewals, which is leading to better DNR, and again, driving the flywheel across all of our business. So we're really proud of the fact that the developer platform business is growing as well as it is, that we've, I think, hit what is critical mass and will continue to grow from here in terms of developer count. And I think more and more you're seeing that people are building full applications entirely on Cloudflare workers. And there are whole classes of startups. It was really fun at our customer conference.",
+   "parts": [
+    {
+     "t0_ms": 2837170,
+     "text": "And that's driving, just as Thomas already talked about, faster pool of funds consumption, which is leading to earlier renewals, which is leading to better DNR, and again, driving the flywheel across all of our business."
+    },
+    {
+     "t0_ms": 2852910,
+     "text": "So we're really proud of the fact that the developer platform business is growing as well as it is, that we've, I think, hit what is critical mass and will continue to grow from here in terms of developer count."
+    },
+    {
+     "t0_ms": 2867170,
+     "text": "And I think more and more you're seeing that people are building full applications entirely on Cloudflare workers."
+    },
+    {
+     "t0_ms": 2875010,
+     "text": "And there are whole classes of startups."
+    },
+    {
+     "t0_ms": 2876990,
+     "text": "It was really fun at our customer conference."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2879090,
+   "t1_ms": 2896970,
+   "speaker": "Management",
+   "text": "We actually did a little sort of mini kind of startup competition pitch. And, like, the companies that pitched were incredible, and they were entirely built on Cloudflare workers. And I think that's something you're just going to see more and more and more of over time. And the developer count is one way to measure it.",
+   "parts": [
+    {
+     "t0_ms": 2879090,
+     "text": "We actually did a little sort of mini kind of startup competition pitch."
+    },
+    {
+     "t0_ms": 2885330,
+     "text": "And, like, the companies that pitched were incredible, and they were entirely built on Cloudflare workers."
+    },
+    {
+     "t0_ms": 2890330,
+     "text": "And I think that's something you're just going to see more and more and more of over time."
+    },
+    {
+     "t0_ms": 2894830,
+     "text": "And the developer count is one way to measure it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2898170,
+   "t1_ms": 2921410,
+   "speaker": "Analyst",
+   "text": "Yeah, that's super encouraging, Matt. Tom, going back to the analyst day, you guys called out that the developer platform carries lower gross margin today, but ultimately could have really, really compelling superior unit economics. Given the acceleration that you're seeing in this part of the business, could you remind us of what the core levers or bidding levers you have to get workers unit economics at or above the core business?",
+   "parts": [
+    {
+     "t0_ms": 2898170,
+     "text": "Yeah, that's super encouraging, Matt."
+    },
+    {
+     "t0_ms": 2900450,
+     "text": "Tom, going back to the analyst day, you guys called out that the developer platform carries lower gross margin today, but ultimately could have really, really compelling superior unit economics."
+    },
+    {
+     "t0_ms": 2911110,
+     "text": "Given the acceleration that you're seeing in this part of the business, could you remind us of what the core levers or bidding levers you have to get workers unit economics at or above the core business?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2921410,
+   "t1_ms": 2959370,
+   "speaker": "Management",
+   "text": "Yeah. I mean, what we talked about at Investor Day and hinted to is that our products all have very different unit economics, some with very high cross-margin, longer sales cycles, but also higher cost of book, like our Zero Trust products. And our workers' product falls into this category where we have slightly lower cross-margins, but significantly lower cost of book, for example. And this is directly reflected in the operating margin we are achieving, and this quarter was a good testament of that.",
+   "parts": [
+    {
+     "t0_ms": 2921410,
+     "text": "Yeah. I mean, what we talked about at Investor Day and hinted to is that our products all have"
+    },
+    {
+     "t0_ms": 2930710,
+     "text": "very different unit economics, some with very high cross-margin, longer sales cycles, but also"
+    },
+    {
+     "t0_ms": 2937970,
+     "text": "higher cost of book, like our Zero Trust products. And our workers' product falls into this category"
+    },
+    {
+     "t0_ms": 2943550,
+     "text": "where we have slightly lower cross-margins, but significantly lower cost of book, for example."
+    },
+    {
+     "t0_ms": 2951090,
+     "text": "And this is directly reflected in the operating margin we are achieving, and this quarter was a good testament of that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2959510,
+   "t1_ms": 2997870,
+   "speaker": "Management",
+   "text": "The significant expansion of our operating margin is a result of our accelerated workers' developers' platform growth. And, you know, our guidance now to get to gap profitability in the fourth quarter is also a result of this. So there are a couple of levers to even make that stronger. their engineering is working really really hard to get more efficiency in in our compute infrastructure how compute infrastructure is utilized by workers and we are making really good progress so there is continued cross-margin expansion if you want to say so and then there is",
+   "parts": [
+    {
+     "t0_ms": 2959510,
+     "text": "The significant expansion of our operating margin is a result of our accelerated workers' developers' platform growth."
+    },
+    {
+     "t0_ms": 2968710,
+     "text": "And, you know, our guidance now to get to gap profitability in the fourth quarter is also a result of this."
+    },
+    {
+     "t0_ms": 2975350,
+     "text": "So there are a couple of levers to even make that stronger."
+    },
+    {
+     "t0_ms": 2979370,
+     "text": "their engineering is working really really hard to get more efficiency in in our compute"
+    },
+    {
+     "t0_ms": 2985990,
+     "text": "infrastructure how compute infrastructure is utilized by workers and we are making really"
+    },
+    {
+     "t0_ms": 2992070,
+     "text": "good progress so there is continued cross-margin expansion if you want to say so and then there is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2997870,
+   "t1_ms": 3032100,
+   "speaker": "Management",
+   "text": "improvements on the unit economic side below cross-margin if you want to say so and if you remember we said we would exit the year with momentum from a rule of 40 moving to a rule of 50 to a rule of 50 we are far ahead of that uh currently and that is a testament to both the growth in the platform the developer account and the business but also the significant improvement we're already making on the engineering platform and the computer platform appreciate the thought",
+   "parts": [
+    {
+     "t0_ms": 2997870,
+     "text": "improvements on the unit economic side below cross-margin if you want to say so and if you"
+    },
+    {
+     "t0_ms": 3005170,
+     "text": "remember we said we would exit the year with momentum from a rule of 40 moving to a rule of 50"
+    },
+    {
+     "t0_ms": 3013970,
+     "text": "to a rule of 50 we are far ahead of that uh currently and that is a testament to both the"
+    },
+    {
+     "t0_ms": 3019810,
+     "text": "growth in the platform the developer account and the business but also the significant improvement"
+    },
+    {
+     "t0_ms": 3025490,
+     "text": "we're already making on the engineering platform and the computer platform appreciate the thought"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3032100,
+   "t1_ms": 3040740,
+   "speaker": "Operator",
+   "text": "thank you your next question comes from the line of samik chatterji with jp morgan your line is now",
+   "parts": [
+    {
+     "t0_ms": 3032100,
+     "text": "thank you your next question comes from the line of samik chatterji with jp morgan your line is now"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3040740,
+   "t1_ms": 3072200,
+   "speaker": "Analyst",
+   "text": "open please go ahead hey thanks for taking my questions and congrats on the strong print here uh matthew you you and thomas both talked about the on the security side that is now playing a heavier role in terms of the ndr expansion can you just talk about sort of what you're seeing in terms of win rates in relation to Cloudflare? One, maybe, again, some of the first-generation zero-trust vendors, and why are your customers choosing overall Cloudflare products over some of the legacy vendors there at MFO?",
+   "parts": [
+    {
+     "t0_ms": 3040740,
+     "text": "open please go ahead hey thanks for taking my questions and congrats on the strong print here"
+    },
+    {
+     "t0_ms": 3048300,
+     "text": "uh matthew you you and thomas both talked about the on the security side that is now playing a"
+    },
+    {
+     "t0_ms": 3053820,
+     "text": "heavier role in terms of the ndr expansion can you just talk about sort of what you're seeing"
+    },
+    {
+     "t0_ms": 3059100,
+     "text": "in terms of win rates in relation to Cloudflare?"
+    },
+    {
+     "t0_ms": 3062320,
+     "text": "One, maybe, again, some of the first-generation"
+    },
+    {
+     "t0_ms": 3064360,
+     "text": "zero-trust vendors, and why are your customers"
+    },
+    {
+     "t0_ms": 3066700,
+     "text": "choosing overall Cloudflare products"
+    },
+    {
+     "t0_ms": 3069680,
+     "text": "over some of the legacy vendors there at MFO?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3073400,
+   "t1_ms": 3113360,
+   "speaker": "Management",
+   "text": "Yeah, Samik, I really appreciate it. I think that, you know, we were sort of a second-generation entrant into the zero-trust and SASE space. And so, as such, you know, a lot of what we had to do for a while was just get recognized, get in the conversation. And I think what's really helped us there is actually the developer platform that we've had. Being out there talking about here's how you build agents, here's how you think about agents, because it turns out those agents need identity. They need to have some way of being protected.",
+   "parts": [
+    {
+     "t0_ms": 3073400,
+     "text": "Yeah, Samik, I really appreciate it."
+    },
+    {
+     "t0_ms": 3076620,
+     "text": "I think that, you know, we were sort of"
+    },
+    {
+     "t0_ms": 3080720,
+     "text": "a second-generation entrant into the zero-trust"
+    },
+    {
+     "t0_ms": 3086460,
+     "text": "and SASE space."
+    },
+    {
+     "t0_ms": 3087920,
+     "text": "And so, as such, you know, a lot of what we had to do for a while was just get recognized, get in the conversation."
+    },
+    {
+     "t0_ms": 3096700,
+     "text": "And I think what's really helped us there is actually the developer platform that we've had."
+    },
+    {
+     "t0_ms": 3103060,
+     "text": "Being out there talking about here's how you build agents, here's how you think about agents, because it turns out those agents need identity."
+    },
+    {
+     "t0_ms": 3110260,
+     "text": "They need to have some way of being protected."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3113360,
+   "t1_ms": 3157160,
+   "speaker": "Management",
+   "text": "And if you're going to turn agents loose within your organization, you know, having the bulkheads that a zero trust system provides is more critical than it ever has before. And so as we were talking about, you know, the developer platform, what we found is more and more of the time, you know, the chief security officer was sitting in the room, you know, taking notes. And the number of meetings that I've been in where people have said, you know, I'm way down the RFP process with, you know, a traditional kind of Gen 1 zero trust vendor, and I'm going to tear it up because they really aren't thinking about agents and the agentic space and how that is different than human users.",
+   "parts": [
+    {
+     "t0_ms": 3113360,
+     "text": "And if you're going to turn agents loose within your organization, you know, having the bulkheads that a zero trust system provides is more critical than it ever has before."
+    },
+    {
+     "t0_ms": 3124760,
+     "text": "And so as we were talking about, you know, the developer platform, what we found is more and more of the time, you know, the chief security officer was sitting in the room, you know, taking notes."
+    },
+    {
+     "t0_ms": 3136960,
+     "text": "And the number of meetings that I've been in where people have said, you know, I'm way down the RFP process with, you know, a traditional kind of Gen 1 zero trust vendor, and I'm going to tear it up because they really aren't thinking about agents and the agentic space and how that is different than human users."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3157160,
+   "t1_ms": 3199440,
+   "speaker": "Management",
+   "text": "Whereas Cloudflare is, I think that's given us a significant leg up, and it's improved our win rates. But I think even more importantly, it's improved the number of deals that we're in. And so, you know, what we're seeing more than anything is people aren't buying just zero trust. They're not just buying, you know, apps. They're not just buying DDoS. They're not just buying the developer platform. They're buying the overall platform of Cloudflare. And they're seeing that if you incorporate and use all of what we do, that you get a much more holistic solution. And as a result, like the zero trust vendors effectively just become features within what is a much larger platform play.",
+   "parts": [
+    {
+     "t0_ms": 3157160,
+     "text": "Whereas Cloudflare is, I think that's given us a significant leg up, and it's improved our win rates."
+    },
+    {
+     "t0_ms": 3163580,
+     "text": "But I think even more importantly, it's improved the number of deals that we're in."
+    },
+    {
+     "t0_ms": 3168600,
+     "text": "And so, you know, what we're seeing more than anything is people aren't buying just zero trust."
+    },
+    {
+     "t0_ms": 3174760,
+     "text": "They're not just buying, you know, apps."
+    },
+    {
+     "t0_ms": 3176940,
+     "text": "They're not just buying DDoS."
+    },
+    {
+     "t0_ms": 3178020,
+     "text": "They're not just buying the developer platform."
+    },
+    {
+     "t0_ms": 3180160,
+     "text": "They're buying the overall platform of Cloudflare."
+    },
+    {
+     "t0_ms": 3183160,
+     "text": "And they're seeing that if you incorporate and use all of what we do, that you get a much more holistic solution."
+    },
+    {
+     "t0_ms": 3192440,
+     "text": "And as a result, like the zero trust vendors effectively just become features within what is a much larger platform play."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3199620,
+   "t1_ms": 3225360,
+   "speaker": "Management",
+   "text": "And so I think the biggest recognition is that the smartest companies in the world are increasingly seeing Cloudflare as a true strategic partner to provide one of their core platforms. And that's what's driving not only our wins in Zero Trust, but our wins across the entire platform and the increased adoption that we're seeing and the faster consumption that we're seeing out of the pool of fund deals that we sell.",
+   "parts": [
+    {
+     "t0_ms": 3199620,
+     "text": "And so I think the biggest recognition is that the smartest companies in the world are increasingly seeing Cloudflare as a true strategic partner to provide one of their core platforms."
+    },
+    {
+     "t0_ms": 3212980,
+     "text": "And that's what's driving not only our wins in Zero Trust, but our wins across the entire platform and the increased adoption that we're seeing and the faster consumption that we're seeing out of the pool of fund deals that we sell."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3227970,
+   "t1_ms": 3258090,
+   "speaker": "Analyst",
+   "text": "And for my follow-up, if I can go back to the workers product and you've seen strong traction with developers on that front. And in terms of the large customers that you work with and the new wins you have there, any way to sort of help us think about what portion of your new wins with large customers have work incorporated as part of the deal now versus maybe how that's progressed over time and where do you see more headroom in terms of incorporating that in some of your discussions and wins with new customers? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3227970,
+     "text": "And for my follow-up, if I can go back to the workers product and you've seen strong traction with developers on that front."
+    },
+    {
+     "t0_ms": 3234650,
+     "text": "And in terms of the large customers that you work with and the new wins you have there,"
+    },
+    {
+     "t0_ms": 3240410,
+     "text": "any way to sort of help us think about what portion of your new wins with large customers"
+    },
+    {
+     "t0_ms": 3244650,
+     "text": "have work incorporated as part of the deal now versus maybe how that's progressed over"
+    },
+    {
+     "t0_ms": 3250590,
+     "text": "time and where do you see more headroom in terms of incorporating that in some of your"
+    },
+    {
+     "t0_ms": 3255370,
+     "text": "discussions and wins with new customers?"
+    },
+    {
+     "t0_ms": 3257810,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3259130,
+   "t1_ms": 3302210,
+   "speaker": "Management",
+   "text": "Yeah, I mean, I think it is increasing. I don't think we're disclosing exactly what percentage of deals it attaches to, but almost every pool of funds deal that we sell, workers is a big component of it. And it's in the toolkit that's there. And what we find is even if somebody bought, you know, they bought the Cloudflare platform, they signed up for a pool of funds deal, they may not have even initially thought that they were signing up for workers. The minute their developer team hears that now they have access to workers, all of a sudden they're turning to it because it's such a powerful tool in their toolbox in order to get their job done. And so, you know, across the board, we're seeing much more adoption",
+   "parts": [
+    {
+     "t0_ms": 3259130,
+     "text": "Yeah, I mean, I think it is increasing."
+    },
+    {
+     "t0_ms": 3262670,
+     "text": "I don't think we're disclosing exactly what percentage of deals it attaches to,"
+    },
+    {
+     "t0_ms": 3266890,
+     "text": "but almost every pool of funds deal that we sell,"
+    },
+    {
+     "t0_ms": 3270370,
+     "text": "workers is a big component of it."
+    },
+    {
+     "t0_ms": 3273270,
+     "text": "And it's in the toolkit that's there."
+    },
+    {
+     "t0_ms": 3276330,
+     "text": "And what we find is even if somebody bought, you know,"
+    },
+    {
+     "t0_ms": 3279290,
+     "text": "they bought the Cloudflare platform, they signed up for a pool of funds deal,"
+    },
+    {
+     "t0_ms": 3282670,
+     "text": "they may not have even initially thought that they were signing up for workers."
+    },
+    {
+     "t0_ms": 3286590,
+     "text": "The minute their developer team hears that now they have access to workers,"
+    },
+    {
+     "t0_ms": 3290050,
+     "text": "all of a sudden they're turning to it because it's such a powerful tool in their toolbox in"
+    },
+    {
+     "t0_ms": 3296970,
+     "text": "order to get their job done. And so, you know, across the board, we're seeing much more adoption"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3302210,
+   "t1_ms": 3339230,
+   "speaker": "Management",
+   "text": "of workers. We're seeing it not just from, you know, small customers, but from very large customers as well. It's not just from AI companies. It's from across the board, you know, almost every industry that's out there. And more and more people are seeing that they need to have workers as a tool in the toolkit of their developers. Their developers are insisting on that, and that's driving not just the sale of workers, but then also the sale of our SASE products, the sale of our other products. Cloudflare is a platform, and increasingly, our customers are recognizing us as that key strategic vendor that is providing one of their",
+   "parts": [
+    {
+     "t0_ms": 3302210,
+     "text": "of workers. We're seeing it not just from, you know, small customers, but from very large"
+    },
+    {
+     "t0_ms": 3306890,
+     "text": "customers as well. It's not just from AI companies. It's from across the board, you know,"
+    },
+    {
+     "t0_ms": 3313490,
+     "text": "almost every industry that's out there. And more and more people are seeing that they need to have"
+    },
+    {
+     "t0_ms": 3319910,
+     "text": "workers as a tool in the toolkit of their developers. Their developers are insisting on"
+    },
+    {
+     "t0_ms": 3323990,
+     "text": "that, and that's driving not just the sale of workers, but then also the sale of our SASE"
+    },
+    {
+     "t0_ms": 3328810,
+     "text": "products, the sale of our other products. Cloudflare is a platform, and increasingly,"
+    },
+    {
+     "t0_ms": 3333890,
+     "text": "our customers are recognizing us as that key strategic vendor that is providing one of their"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3339230,
+   "t1_ms": 3353930,
+   "speaker": "Operator",
+   "text": "key platforms. Thank you. Congrats again. Your next question comes from the line of Joseph Gallo with Jefferies. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3339230,
+     "text": "key platforms. Thank you. Congrats again. Your next question comes from the line of"
+    },
+    {
+     "t0_ms": 3348530,
+     "text": "Joseph Gallo with Jefferies. Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3355230,
+   "t1_ms": 3373870,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for the question. Matthew, I want to follow up on your earlier cyber comments. You talked about the vulnerability tsunami. Are you seeing cyber budgets inflect? Like, what are CISOs doing right now or getting in terms of dollars to fix this never-ending avalanche? And then, you know, how can you attack that? Is the better market response to just offer",
+   "parts": [
+    {
+     "t0_ms": 3355230,
+     "text": "Hey, guys. Thanks for the question. Matthew, I want to follow up on your earlier cyber comments."
+    },
+    {
+     "t0_ms": 3360130,
+     "text": "You talked about the vulnerability tsunami. Are you seeing cyber budgets inflect?"
+    },
+    {
+     "t0_ms": 3364570,
+     "text": "Like, what are CISOs doing right now or getting in terms of dollars to fix this never-ending"
+    },
+    {
+     "t0_ms": 3369050,
+     "text": "avalanche? And then, you know, how can you attack that? Is the better market response to just offer"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3373870,
+   "t1_ms": 3413990,
+   "speaker": "Management",
+   "text": "free solutions and then cross sell into other acts? I think right now what CISOs are doing is panic. I mean, it feels like the sky is falling. And again, I think everyone is sort of holding their breath and saying, you know, hopefully the worst of it's over. I know for a fact the worst of it is not over. There are significant vulnerabilities that are coming and you've got to stay on top of them and you've got to be protected by them. And again, I think that the researcher community is doing a great job disclosing those things responsibly, getting",
+   "parts": [
+    {
+     "t0_ms": 3373870,
+     "text": "free solutions and then cross sell into other acts? I think right now what CISOs are doing is"
+    },
+    {
+     "t0_ms": 3383030,
+     "text": "panic. I mean, it feels like the sky is falling. And again, I think everyone is sort of holding"
+    },
+    {
+     "t0_ms": 3391150,
+     "text": "their breath and saying, you know, hopefully the worst of it's over. I know for a fact the worst"
+    },
+    {
+     "t0_ms": 3397090,
+     "text": "of it is not over. There are significant vulnerabilities that are coming and you've"
+    },
+    {
+     "t0_ms": 3402630,
+     "text": "got to stay on top of them and you've got to be protected by them. And again, I think that the"
+    },
+    {
+     "t0_ms": 3407590,
+     "text": "researcher community is doing a great job disclosing those things responsibly, getting"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3413990,
+   "t1_ms": 3458870,
+   "speaker": "Management",
+   "text": "the protections in place as early as possible. But there's scary things that are happening out there. You know, I think the good news of that is we're actually finding these vulnerabilities. You know, the story I keep telling is, you know, which is a more dangerous world to live in? one in which you live in a house where there are incredibly deadly monsters living under every bed and in every cabinet and you know uh in every closet but you don't know they're there or one in which someone is relentlessly going through every closet and cabinet and under every bed finding the monsters and killing them off like we had been for a long time living in that world where the monsters were out there these vulnerabilities like the php vulnerabilities that were disclosed the other day",
+   "parts": [
+    {
+     "t0_ms": 3413990,
+     "text": "the protections in place as early as possible. But there's scary things that are happening out"
+    },
+    {
+     "t0_ms": 3419790,
+     "text": "there. You know, I think the good news of that is we're actually finding these vulnerabilities."
+    },
+    {
+     "t0_ms": 3425330,
+     "text": "You know, the story I keep telling is, you know, which is a more dangerous world to live in?"
+    },
+    {
+     "t0_ms": 3431910,
+     "text": "one in which you live in a house where there are incredibly deadly monsters living under every bed"
+    },
+    {
+     "t0_ms": 3437950,
+     "text": "and in every cabinet and you know uh in every closet but you don't know they're there or one"
+    },
+    {
+     "t0_ms": 3445110,
+     "text": "in which someone is relentlessly going through every closet and cabinet and under every bed"
+    },
+    {
+     "t0_ms": 3450050,
+     "text": "finding the monsters and killing them off like we had been for a long time living in that world"
+    },
+    {
+     "t0_ms": 3454530,
+     "text": "where the monsters were out there these vulnerabilities like the php vulnerabilities"
+    },
+    {
+     "t0_ms": 3457750,
+     "text": "that were disclosed the other day"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3458870,
+   "t1_ms": 3497990,
+   "speaker": "Management",
+   "text": "had been in the wild for years. And we're going back to our logs looking for any evidence that hackers or nation state actors or others had been using them in the past. And I know that we're going to find examples of that. I think it's amazing that we're getting those things cleaned up. I think it's great that CloudFlare is protecting everyone. And I think what we're seeing is every company is turning to us. And, yeah, sure, we're going to provide the services for free, but if you're a major bank, you're not just going to sign up for a free service and think that that's good enough. They are turning to us saying, we need your help.",
+   "parts": [
+    {
+     "t0_ms": 3458870,
+     "text": "had been in the wild for years."
+    },
+    {
+     "t0_ms": 3461830,
+     "text": "And we're going back to our logs"
+    },
+    {
+     "t0_ms": 3463490,
+     "text": "looking for any evidence that hackers"
+    },
+    {
+     "t0_ms": 3466550,
+     "text": "or nation state actors or others"
+    },
+    {
+     "t0_ms": 3469350,
+     "text": "had been using them in the past."
+    },
+    {
+     "t0_ms": 3470950,
+     "text": "And I know that we're going to find examples of that."
+    },
+    {
+     "t0_ms": 3474590,
+     "text": "I think it's amazing"
+    },
+    {
+     "t0_ms": 3476150,
+     "text": "that we're getting those things cleaned up."
+    },
+    {
+     "t0_ms": 3479430,
+     "text": "I think it's great that CloudFlare is protecting everyone."
+    },
+    {
+     "t0_ms": 3483230,
+     "text": "And I think what we're seeing"
+    },
+    {
+     "t0_ms": 3484530,
+     "text": "is every company is turning to us."
+    },
+    {
+     "t0_ms": 3487290,
+     "text": "And, yeah, sure, we're going to provide the services for free, but if you're a major bank, you're not just going to sign up for a free service and think that that's good enough."
+    },
+    {
+     "t0_ms": 3495810,
+     "text": "They are turning to us saying, we need your help."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3498450,
+   "t1_ms": 3533870,
+   "speaker": "Management",
+   "text": "They're signing major contracts, and they're relying on Cloudflare to be that trusted party that gets information before everyone else and makes sure that they have protection in place for the tsunami that hasn't hit. It's coming, and it's going to be bad, and it's going to be bad for, I think, two years. But the good news is we're finding the monsters, we're cleaning them up, and the Internet is actually getting safer. And I'm incredibly proud of our team for staying on top of it, working incredibly hard because there's a lot of new vulnerabilities that are coming out there. And we want to make sure that every single one of our customers has the protection they need.",
+   "parts": [
+    {
+     "t0_ms": 3498450,
+     "text": "They're signing major contracts, and they're relying on Cloudflare to be that trusted party that gets information before everyone else and makes sure that they have protection in place for the tsunami that hasn't hit."
+    },
+    {
+     "t0_ms": 3511530,
+     "text": "It's coming, and it's going to be bad, and it's going to be bad for, I think, two years."
+    },
+    {
+     "t0_ms": 3515230,
+     "text": "But the good news is we're finding the monsters, we're cleaning them up, and the Internet is actually getting safer."
+    },
+    {
+     "t0_ms": 3522010,
+     "text": "And I'm incredibly proud of our team for staying on top of it, working incredibly hard because there's a lot of new vulnerabilities that are coming out there."
+    },
+    {
+     "t0_ms": 3529910,
+     "text": "And we want to make sure that every single one of our customers has the protection they need."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3536470,
+   "t1_ms": 3557330,
+   "speaker": "Analyst",
+   "text": "That's really helpful. Thank you. Maybe just as a follow-up, you know, exciting news on the appointment of Christian Smith. You highlighted doubling down on go-to-market execution. Where is the greatest opportunity to improve execution? And then do you envision a continuation of the current playbook? Or, you know, what tactical changes across enterprise sales or channel should we expect? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3536470,
+     "text": "That's really helpful."
+    },
+    {
+     "t0_ms": 3537530,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3538010,
+     "text": "Maybe just as a follow-up, you know, exciting news on the appointment of Christian Smith."
+    },
+    {
+     "t0_ms": 3542130,
+     "text": "You highlighted doubling down on go-to-market execution."
+    },
+    {
+     "t0_ms": 3545370,
+     "text": "Where is the greatest opportunity to improve execution?"
+    },
+    {
+     "t0_ms": 3549070,
+     "text": "And then do you envision a continuation of the current playbook?"
+    },
+    {
+     "t0_ms": 3552770,
+     "text": "Or, you know, what tactical changes across enterprise sales or channel should we expect?"
+    },
+    {
+     "t0_ms": 3556970,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3558190,
+   "t1_ms": 3596570,
+   "speaker": "Management",
+   "text": "Yeah, I mean, I think in the short term, you know, and I've talked with Christian about this, and Christian, I think, has an incredibly good vision for both, you know, what's the playbook that we should continue, But also, what changes in the future, given all of the changes in how sales is going to look, you know, driven in a world that is, you know, increasingly technical and increasingly, you know, has AI as a component of it? I think in the short term, it's how do we continue to hire at scale, make sure we're bringing on really great people?",
+   "parts": [
+    {
+     "t0_ms": 3558190,
+     "text": "Yeah, I mean, I think in the short term, you know, and I've talked with Christian about this,"
+    },
+    {
+     "t0_ms": 3564110,
+     "text": "and Christian, I think, has an incredibly good vision for both, you know, what's the playbook that we should continue,"
+    },
+    {
+     "t0_ms": 3571330,
+     "text": "But also, what changes in the future, given all of the changes in how sales is going to look, you know, driven in a world that is, you know, increasingly technical and increasingly, you know, has AI as a component of it?"
+    },
+    {
+     "t0_ms": 3590650,
+     "text": "I think in the short term, it's how do we continue to hire at scale, make sure we're bringing on really great people?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3596570,
+   "t1_ms": 3639570,
+   "speaker": "Management",
+   "text": "How do we increase our awareness, especially with our largest customers, to make sure that they know that we are a significant strategic platform and a partner to them? How do we make sure that people have awareness of all of the capabilities that CloudFlare has? And how do we continue to double down on what Mark Anderson has done just such a great job of? And I think Christian is leading that. But going forward, I think we're going to be experimenting with what's the shift? Like, how much are we, you know, doing what we're already doing but at greater scale? How many forward-deployed engineers do we have that are out there, which we already have at our largest customers, helping them get the most out of CloudFlare?",
+   "parts": [
+    {
+     "t0_ms": 3596570,
+     "text": "How do we increase our awareness, especially with our largest customers, to make sure that they know that we are a significant strategic platform and a partner to them?"
+    },
+    {
+     "t0_ms": 3607090,
+     "text": "How do we make sure that people have awareness of all of the capabilities that CloudFlare has?"
+    },
+    {
+     "t0_ms": 3612430,
+     "text": "And how do we continue to double down on what Mark Anderson has done just such a great job of?"
+    },
+    {
+     "t0_ms": 3617050,
+     "text": "And I think Christian is leading that."
+    },
+    {
+     "t0_ms": 3619570,
+     "text": "But going forward, I think we're going to be experimenting with what's the shift?"
+    },
+    {
+     "t0_ms": 3625230,
+     "text": "Like, how much are we, you know, doing what we're already doing but at greater scale?"
+    },
+    {
+     "t0_ms": 3630670,
+     "text": "How many forward-deployed engineers do we have that are out there,"
+    },
+    {
+     "t0_ms": 3635210,
+     "text": "which we already have at our largest customers, helping them get the most out of CloudFlare?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3639670,
+   "t1_ms": 3675070,
+   "speaker": "Management",
+   "text": "That certainly is going to increase. What's the ratio of solution engineers to AEs? Excuse me. What exactly are the specific technical overlays And how, you know, how specific do we want the individual salespeople to have knowledge in all of the different products that we have? I think that's all going to redefine what sales looks like in an increasingly, again, AI-driven and increasingly technical world. And I think that there will be an evolution.",
+   "parts": [
+    {
+     "t0_ms": 3639670,
+     "text": "That certainly is going to increase."
+    },
+    {
+     "t0_ms": 3641970,
+     "text": "What's the ratio of solution engineers to AEs?"
+    },
+    {
+     "t0_ms": 3646870,
+     "text": "Excuse me."
+    },
+    {
+     "t0_ms": 3648670,
+     "text": "What exactly are the specific technical overlays"
+    },
+    {
+     "t0_ms": 3652410,
+     "text": "And how, you know, how specific do we want the individual salespeople to have knowledge in all of the different products that we have?"
+    },
+    {
+     "t0_ms": 3662030,
+     "text": "I think that's all going to redefine what sales looks like in an increasingly, again, AI-driven and increasingly technical world."
+    },
+    {
+     "t0_ms": 3672750,
+     "text": "And I think that there will be an evolution."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3675070,
+   "t1_ms": 3700190,
+   "speaker": "Management",
+   "text": "And as we talked to, and we got to talk to so many incredible candidates, the thing that really stood out to me was Christian knew both how to continue to execute on what we need to deliver today, but also how do we stay malleable and adaptable to how sales is going to change and evolve over the next years to come. And I can't imagine a better partner than he is.",
+   "parts": [
+    {
+     "t0_ms": 3675070,
+     "text": "And as we talked to, and we got to talk to so many incredible candidates, the thing that really stood out to me was Christian knew both how to continue to execute on what we need to deliver today, but also how do we stay malleable and adaptable to how sales is going to change and evolve over the next years to come."
+    },
+    {
+     "t0_ms": 3698170,
+     "text": "And I can't imagine a better partner than he is."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3702070,
+   "t1_ms": 3712980,
+   "speaker": "Operator",
+   "text": "Thank you. And really nice job. Your next question comes from the line of Fatima Boulani with Citi. Your line is now open. Please",
+   "parts": [
+    {
+     "t0_ms": 3702070,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3702870,
+     "text": "And really nice job."
+    },
+    {
+     "t0_ms": 3703670,
+     "text": "Your next question comes from the line of Fatima Boulani with Citi. Your line is now open. Please"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3712980,
+   "t1_ms": 3756700,
+   "speaker": "Analyst",
+   "text": "go ahead. Thank you. I appreciate you taking my question. Matthew, I'd like to ask this of you. About six months ago, you made a decisive and difficult decision to restructure the organization, and certainly impetus was not to drive operating leverage, and that was certainly something you communicated uh but you know with six months under your belt with this change you know from a financial perspective it's not like we've seen margin expansion right and just kind of reiterating my point that that was not the impetus i'm curious if you can talk to us about um how this has fundamentally and structurally uh changed the way uh cloudflare goes to business and show that",
+   "parts": [
+    {
+     "t0_ms": 3712980,
+     "text": "go ahead. Thank you. I appreciate you taking my question. Matthew, I'd like to ask this of you."
+    },
+    {
+     "t0_ms": 3721120,
+     "text": "About six months ago, you made a decisive and difficult decision to restructure the organization,"
+    },
+    {
+     "t0_ms": 3727840,
+     "text": "and certainly impetus was not to drive operating leverage, and that was certainly something you"
+    },
+    {
+     "t0_ms": 3733760,
+     "text": "communicated uh but you know with six months under your belt with this change you know from"
+    },
+    {
+     "t0_ms": 3739680,
+     "text": "a financial perspective it's not like we've seen margin expansion right and just kind of reiterating"
+    },
+    {
+     "t0_ms": 3744540,
+     "text": "my point that that was not the impetus i'm curious if you can talk to us about um how this"
+    },
+    {
+     "t0_ms": 3750560,
+     "text": "has fundamentally and structurally uh changed the way uh cloudflare goes to business and show that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3756700,
+   "t1_ms": 3776720,
+   "speaker": "Analyst",
+   "text": "uh you know both in terms of your agility and you know some of the comments that you just made from the go-to-market perspective, how that, you know, colors your lens there. But just if you can give us some concrete examples of what the aftermath of some of those difficult restructuring moves has been in terms of your ability and your successes in operating the business at this level.",
+   "parts": [
+    {
+     "t0_ms": 3756700,
+     "text": "uh you know both in terms of your agility and you know some of the comments that you just made from"
+    },
+    {
+     "t0_ms": 3760920,
+     "text": "the go-to-market perspective, how that, you know, colors your lens there. But just if you can give"
+    },
+    {
+     "t0_ms": 3766100,
+     "text": "us some concrete examples of what the aftermath of some of those difficult restructuring moves"
+    },
+    {
+     "t0_ms": 3770820,
+     "text": "has been in terms of your ability and your successes in operating the business at this level."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3777120,
+   "t1_ms": 3814220,
+   "speaker": "Management",
+   "text": "Thank you. Yeah. So first of all, Fatima, you know, when we made the decision to lay people off, it was an incredibly hard decision. We let go of a number of people who were extremely talented, people who I considered friends. And I'm proud of the fact that we had, you know, an incredibly generous severance package. We continued to vest people's shares, which was something that most companies haven't done. And also that we worked with them to figure out great places that they could work because someone who is a middle manager at CloudFlare could be a great senior manager at a fast-growing startup.",
+   "parts": [
+    {
+     "t0_ms": 3777120,
+     "text": "Thank you. Yeah. So first of all, Fatima, you know, when we made the decision to lay people"
+    },
+    {
+     "t0_ms": 3782200,
+     "text": "off, it was an incredibly hard decision. We let go of a number of people who were extremely talented,"
+    },
+    {
+     "t0_ms": 3788060,
+     "text": "people who I considered friends."
+    },
+    {
+     "t0_ms": 3790540,
+     "text": "And I'm proud of the fact that we had, you know,"
+    },
+    {
+     "t0_ms": 3793200,
+     "text": "an incredibly generous severance package."
+    },
+    {
+     "t0_ms": 3795180,
+     "text": "We continued to vest people's shares,"
+    },
+    {
+     "t0_ms": 3797680,
+     "text": "which was something that most companies haven't done."
+    },
+    {
+     "t0_ms": 3802100,
+     "text": "And also that we worked with them to figure out great places that they could work"
+    },
+    {
+     "t0_ms": 3807600,
+     "text": "because someone who is a middle manager at CloudFlare"
+    },
+    {
+     "t0_ms": 3810900,
+     "text": "could be a great senior manager at a fast-growing startup."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3814220,
+   "t1_ms": 3857700,
+   "speaker": "Management",
+   "text": "And I'm proud of the fact that we really helped place a large number of the people who we let go because they are very talented and they deserve to be treated with respect. It really had less to do with the people. It had much more to do with what we saw as the way that organizations were going to be structured going forward. And, you know, I wrote an editorial in the Wall Street Journal about how Peter Drucker used to talk about how there were three types of functions within any company. There are people who build things, there are people who sell things, and there are people who measure things. And what we found with AI is that the builders are getting more efficient than ever. And so we're trying to hire as many great builders as we can.",
+   "parts": [
+    {
+     "t0_ms": 3814220,
+     "text": "And I'm proud of the fact that we really helped place a large number of the people who we let go because they are very talented and they deserve to be treated with respect."
+    },
+    {
+     "t0_ms": 3826700,
+     "text": "It really had less to do with the people."
+    },
+    {
+     "t0_ms": 3829140,
+     "text": "It had much more to do with what we saw as the way that organizations were going to be structured going forward."
+    },
+    {
+     "t0_ms": 3836620,
+     "text": "And, you know, I wrote an editorial in the Wall Street Journal about how Peter Drucker used to talk about how there were three types of functions within any company."
+    },
+    {
+     "t0_ms": 3845060,
+     "text": "There are people who build things, there are people who sell things, and there are people who measure things."
+    },
+    {
+     "t0_ms": 3849440,
+     "text": "And what we found with AI is that the builders are getting more efficient than ever."
+    },
+    {
+     "t0_ms": 3854480,
+     "text": "And so we're trying to hire as many great builders as we can."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3858000,
+   "t1_ms": 3902600,
+   "speaker": "Management",
+   "text": "And, again, as you said, we're not trying to cut headcount. We actually are just shifting headcount to more builders. Same thing with sellers. You know, in the past, sellers might have spent 60% of their time, you know, getting prepared for meetings, filling out Salesforce reports, doing all of that. That's not what they love doing. What they love doing is being in front of customers, and we've been able to dramatically increase the amount of time that sellers are in front of customers, and you see that in sales productivity. What's changed are the people who are the measurers, and AI is incredibly good at measuring things. And we have found across our business that in many cases it's better than what humans can do. AI has bias, but the bias is not correlated to the rest of the organization, unlike what everything else has done.",
+   "parts": [
+    {
+     "t0_ms": 3858000,
+     "text": "And, again, as you said, we're not trying to cut headcount."
+    },
+    {
+     "t0_ms": 3861400,
+     "text": "We actually are just shifting headcount to more builders."
+    },
+    {
+     "t0_ms": 3864480,
+     "text": "Same thing with sellers."
+    },
+    {
+     "t0_ms": 3865520,
+     "text": "You know, in the past, sellers might have spent 60% of their time, you know, getting prepared for meetings, filling out Salesforce reports, doing all of that."
+    },
+    {
+     "t0_ms": 3874900,
+     "text": "That's not what they love doing."
+    },
+    {
+     "t0_ms": 3876000,
+     "text": "What they love doing is being in front of customers, and we've been able to dramatically increase the amount of time that sellers are in front of customers, and you see that in sales productivity."
+    },
+    {
+     "t0_ms": 3885160,
+     "text": "What's changed are the people who are the measurers, and AI is incredibly good at measuring things."
+    },
+    {
+     "t0_ms": 3890320,
+     "text": "And we have found across our business that in many cases it's better than what humans can do."
+    },
+    {
+     "t0_ms": 3895760,
+     "text": "AI has bias, but the bias is not correlated to the rest of the organization, unlike what everything else has done."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3902740,
+   "t1_ms": 3944180,
+   "speaker": "Management",
+   "text": "And so, you know, for a very specific example, which I asked if I could tweet, and everybody said not until after earnings. And the person who \u2013 I'm staring at the person who knows I'm going to tell her story right now on a screen. But Heather on our team, who for a long time was on our IR team, built an agent now that has automated pulling together all the investor materials, all the sort of statistical cheat sheets that we have that make sure that we have all the metrics right at our fingertips, giving us suggestions on kind of our earnings scripts, being able to deliver that.",
+   "parts": [
+    {
+     "t0_ms": 3902740,
+     "text": "And so, you know, for a very specific example, which I asked if I could tweet, and everybody said not until after earnings."
+    },
+    {
+     "t0_ms": 3912700,
+     "text": "And the person who \u2013 I'm staring at the person who knows I'm going to tell her story right now on a screen."
+    },
+    {
+     "t0_ms": 3918000,
+     "text": "But Heather on our team, who for a long time was on our IR team, built an agent now that has automated pulling together all the investor materials, all the sort of statistical cheat sheets that we have that make sure that we have all the metrics right at our fingertips, giving us suggestions on kind of our earnings scripts, being able to deliver that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3944180,
+   "t1_ms": 3969680,
+   "speaker": "Management",
+   "text": "And, you know, and instead of that being something that took a large team, you know, a significant amount of time to do every single quarter, it now takes an agent less than a couple hundred bucks in token costs to be able to put that together. And we've seen a higher quality of what gets put out, more accuracy, fewer errors, and it's just better.",
+   "parts": [
+    {
+     "t0_ms": 3944180,
+     "text": "And, you know, and instead of that being something that took a large team, you know, a significant amount of time to do every single quarter, it now takes an agent less than a couple hundred bucks in token costs to be able to put that together."
+    },
+    {
+     "t0_ms": 3962780,
+     "text": "And we've seen a higher quality of what gets put out, more accuracy, fewer errors, and it's just better."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3969680,
+   "t1_ms": 4014420,
+   "speaker": "Management",
+   "text": "And so I think what we knew we needed to do was flatten Cloudflare's organization. We needed to double down on builders. We needed to double down on sellers. And we needed to get more efficient in those places where AI could help us be significantly more efficient. And so, again, as I said at the time when we laid people off, I think our headcount is going to be larger by the end of the year than it was even before the layoffs. We're hiring like crazy. It's who we're hiring and the roles that we're hiring for that are changing. And, frankly, I think that we were early in that, but just about every company is going to go through that transition. And as you come out the other side of it, I think our financial results show",
+   "parts": [
+    {
+     "t0_ms": 3969680,
+     "text": "And so I think what we knew we needed to do was flatten Cloudflare's organization. We needed to double down on builders. We needed to double down on sellers. And we needed to get more efficient in those places where AI could help us be significantly more efficient."
+    },
+    {
+     "t0_ms": 3989940,
+     "text": "And so, again, as I said at the time when we laid people off,"
+    },
+    {
+     "t0_ms": 3992820,
+     "text": "I think our headcount is going to be larger by the end of the year"
+    },
+    {
+     "t0_ms": 3996260,
+     "text": "than it was even before the layoffs."
+    },
+    {
+     "t0_ms": 3997840,
+     "text": "We're hiring like crazy."
+    },
+    {
+     "t0_ms": 3999620,
+     "text": "It's who we're hiring and the roles that we're hiring for that are changing."
+    },
+    {
+     "t0_ms": 4003460,
+     "text": "And, frankly, I think that we were early in that,"
+    },
+    {
+     "t0_ms": 4007100,
+     "text": "but just about every company is going to go through that transition."
+    },
+    {
+     "t0_ms": 4010520,
+     "text": "And as you come out the other side of it, I think our financial results show"
+    }
+   ]
+  },
+  {
+   "t0_ms": 4014420,
+   "t1_ms": 4029920,
+   "speaker": "Management",
+   "text": "you can become a much more nimble, much more innovative, just much more successful company if you get the right people in the right functions and use technology to help those people, not replace those people, but help those people do their jobs better.",
+   "parts": [
+    {
+     "t0_ms": 4014420,
+     "text": "you can become a much more nimble, much more innovative, just much more successful company"
+    },
+    {
+     "t0_ms": 4020980,
+     "text": "if you get the right people in the right functions and use technology to help those people,"
+    },
+    {
+     "t0_ms": 4026960,
+     "text": "not replace those people, but help those people do their jobs better."
+    }
+   ]
+  },
+  {
+   "t0_ms": 4034130,
+   "t1_ms": 4041430,
+   "speaker": "Operator",
+   "text": "We have now reached the end of this Q&A session. I would like to turn the call back to Matthew Prince for closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 4034130,
+     "text": "We have now reached the end of this Q&A session."
+    },
+    {
+     "t0_ms": 4037730,
+     "text": "I would like to turn the call back to Matthew Prince for closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 4042670,
+   "t1_ms": 4059090,
+   "speaker": "Management",
+   "text": "I want to thank the entire team and especially Mark Anderson for all of his service. We couldn't have done this without you. It's your last earnings call with us, but we're super happy to have you on the board. I mean, joked up. Thank you so much for everyone. It was an incredible quarter, a monster quarter. We'll see you back here next quarter.",
+   "parts": [
+    {
+     "t0_ms": 4042670,
+     "text": "I want to thank the entire team and especially Mark Anderson for all of his service."
+    },
+    {
+     "t0_ms": 4046650,
+     "text": "We couldn't have done this without you."
+    },
+    {
+     "t0_ms": 4048930,
+     "text": "It's your last earnings call with us, but we're super happy to have you on the board."
+    },
+    {
+     "t0_ms": 4052350,
+     "text": "I mean, joked up."
+    },
+    {
+     "t0_ms": 4053890,
+     "text": "Thank you so much for everyone."
+    },
+    {
+     "t0_ms": 4055430,
+     "text": "It was an incredible quarter, a monster quarter."
+    },
+    {
+     "t0_ms": 4057770,
+     "text": "We'll see you back here next quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 4060570,
+   "t1_ms": 4064850,
+   "speaker": "Operator",
+   "text": "This concludes today's call. Thank you for attending. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 4060570,
+     "text": "This concludes today's call."
+    },
+    {
+     "t0_ms": 4062690,
+     "text": "Thank you for attending."
+    },
+    {
+     "t0_ms": 4063930,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4343 @@
+{
+ "ticker": "DDOG",
+ "quarter": "Q3-2026",
+ "company": "Datadog",
+ "call_start": "2026-11-04T08:00:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/DDOG_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 33460,
+   "speaker": "Operator",
+   "text": "Good day and thank you for standing by. Welcome to the third quarter 2026 Data Dog Earnings Conference call. At this time, all participants are in a listen-only mode. After the speaker's presentation, we'll open up for questions. To ask a question during the session, you will need to press star 1-1 on your telephone. You will then hear an unadmitted message advising your hand is raised. To withdraw your question, please press star 1-1 again. Please be advised that today's call is being recorded. I want to hand it over to our first speaker, A.J. Lubitsch, Senior Vice President, Strategic Finance and Investor Relations. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good day and thank you for standing by. Welcome to the third quarter 2026 Data Dog Earnings Conference call."
+    },
+    {
+     "t0_ms": 5980,
+     "text": "At this time, all participants are in a listen-only mode."
+    },
+    {
+     "t0_ms": 9400,
+     "text": "After the speaker's presentation, we'll open up for questions."
+    },
+    {
+     "t0_ms": 12440,
+     "text": "To ask a question during the session, you will need to press star 1-1 on your telephone."
+    },
+    {
+     "t0_ms": 16780,
+     "text": "You will then hear an unadmitted message advising your hand is raised."
+    },
+    {
+     "t0_ms": 20440,
+     "text": "To withdraw your question, please press star 1-1 again."
+    },
+    {
+     "t0_ms": 23300,
+     "text": "Please be advised that today's call is being recorded."
+    },
+    {
+     "t0_ms": 25780,
+     "text": "I want to hand it over to our first speaker, A.J. Lubitsch, Senior Vice President, Strategic Finance and Investor Relations."
+    },
+    {
+     "t0_ms": 32780,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 35460,
+   "t1_ms": 79540,
+   "speaker": "Management",
+   "text": "Thank you, Victor. Good morning, and thank you for joining us to review Datadog's third quarter 2026 financial results, which we announced in our press release issued this morning. Joining me on the call today are Olivier Pommel, Datadog's co-founder and CEO, and David Oaksler, Datadog's CFO. First, I'd like to thank Yuka Broderick for her excellent work leading our IR function over the last five and a half years. as she takes on a new role within Datadog. I'm excited to step back into the IR function after having worked with many of you through the company's 2019 IPO. During this call, we will make forward-looking statements, including statements related to our future financial performance, our outlook for the fourth quarter and for the fiscal year of 2026, and related notes and assumptions, our product capabilities, and our ability to capitalize on market opportunities.",
+   "parts": [
+    {
+     "t0_ms": 35460,
+     "text": "Thank you, Victor."
+    },
+    {
+     "t0_ms": 36440,
+     "text": "Good morning, and thank you for joining us to review Datadog's third quarter 2026 financial results,"
+    },
+    {
+     "t0_ms": 41280,
+     "text": "which we announced in our press release issued this morning."
+    },
+    {
+     "t0_ms": 44160,
+     "text": "Joining me on the call today are Olivier Pommel, Datadog's co-founder and CEO, and David Oaksler, Datadog's CFO."
+    },
+    {
+     "t0_ms": 50860,
+     "text": "First, I'd like to thank Yuka Broderick for her excellent work leading our IR function over the last five and a half years."
+    },
+    {
+     "t0_ms": 56400,
+     "text": "as she takes on a new role within Datadog."
+    },
+    {
+     "t0_ms": 59460,
+     "text": "I'm excited to step back into the IR function"
+    },
+    {
+     "t0_ms": 61600,
+     "text": "after having worked with many of you"
+    },
+    {
+     "t0_ms": 63060,
+     "text": "through the company's 2019 IPO."
+    },
+    {
+     "t0_ms": 65600,
+     "text": "During this call,"
+    },
+    {
+     "t0_ms": 66540,
+     "text": "we will make forward-looking statements,"
+    },
+    {
+     "t0_ms": 68280,
+     "text": "including statements related"
+    },
+    {
+     "t0_ms": 69200,
+     "text": "to our future financial performance,"
+    },
+    {
+     "t0_ms": 71080,
+     "text": "our outlook for the fourth quarter"
+    },
+    {
+     "t0_ms": 72220,
+     "text": "and for the fiscal year of 2026,"
+    },
+    {
+     "t0_ms": 74140,
+     "text": "and related notes and assumptions,"
+    },
+    {
+     "t0_ms": 76040,
+     "text": "our product capabilities,"
+    },
+    {
+     "t0_ms": 77580,
+     "text": "and our ability to capitalize on market opportunities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 80200,
+   "t1_ms": 122000,
+   "speaker": "Management",
+   "text": "The words anticipate, believe, continue, estimate, expect, intend, will, and similar expressions are intended to identify forward-looking statements or similar indications of future expectations. These statements reflect our views as of today and are subject to a variety of risks and uncertainties that could cause actual results to differ materially. For discussion of the material risks and other important factors that could affect our actual results, please refer to our Form 10-Q for the quarter ended June 30, 2026. Additional information will be made available in our upcoming Form 10-Q for the fiscal quarter ended September 30th, 2026, and other filings with the SEC. This information is also available on the investor relations section of our website, along with a replay of this call. We will discuss non-GAAP",
+   "parts": [
+    {
+     "t0_ms": 80200,
+     "text": "The words anticipate, believe, continue,"
+    },
+    {
+     "t0_ms": 82120,
+     "text": "estimate, expect, intend, will,"
+    },
+    {
+     "t0_ms": 84280,
+     "text": "and similar expressions are intended"
+    },
+    {
+     "t0_ms": 85500,
+     "text": "to identify forward-looking statements or similar indications of future expectations."
+    },
+    {
+     "t0_ms": 90220,
+     "text": "These statements reflect our views as of today and are subject to a variety of risks"
+    },
+    {
+     "t0_ms": 93980,
+     "text": "and uncertainties that could cause actual results to differ materially."
+    },
+    {
+     "t0_ms": 97580,
+     "text": "For discussion of the material risks and other important factors that could affect our actual"
+    },
+    {
+     "t0_ms": 101020,
+     "text": "results, please refer to our Form 10-Q for the quarter ended June 30, 2026. Additional"
+    },
+    {
+     "t0_ms": 106460,
+     "text": "information will be made available in our upcoming Form 10-Q for the fiscal quarter ended September"
+    },
+    {
+     "t0_ms": 111180,
+     "text": "30th, 2026, and other filings with the SEC. This information is also available on the"
+    },
+    {
+     "t0_ms": 117280,
+     "text": "investor relations section of our website, along with a replay of this call. We will discuss non-GAAP"
+    }
+   ]
+  },
+  {
+   "t0_ms": 122000,
+   "t1_ms": 164600,
+   "speaker": "Management",
+   "text": "financial measures, which are reconciled for the most directly comparable GAAP financial measures in our earnings release, which are available at investors.datadoghq.com. With that, I'd like to turn the call over to Olivier. Thanks, AJ, and thank you all for joining us today to go over our Q3 results. Let me begin with this quarter's business drivers. I am pleased to say that we executed a strong Q3. We saw strength across our business, including across our product lines and across our diverse customer base. Revenue growth from our non-AI customers accelerated for the fifth straight quarter and was in the high 20% year-over-year, up about one percentage point from last quarter, and up from about 20% in the year-ago quarter.",
+   "parts": [
+    {
+     "t0_ms": 122000,
+     "text": "financial measures, which are reconciled for the most directly comparable GAAP financial measures"
+    },
+    {
+     "t0_ms": 126180,
+     "text": "in our earnings release, which are available at investors.datadoghq.com. With that, I'd like to"
+    },
+    {
+     "t0_ms": 132200,
+     "text": "turn the call over to Olivier. Thanks, AJ, and thank you all for joining us today to go over"
+    },
+    {
+     "t0_ms": 137180,
+     "text": "our Q3 results. Let me begin with this quarter's business drivers. I am pleased to say that we"
+    },
+    {
+     "t0_ms": 143600,
+     "text": "executed a strong Q3. We saw strength across our business, including across our product lines and"
+    },
+    {
+     "t0_ms": 148360,
+     "text": "across our diverse customer base. Revenue growth from our non-AI customers accelerated for the"
+    },
+    {
+     "t0_ms": 154800,
+     "text": "fifth straight quarter and was in the high 20% year-over-year, up about one percentage point"
+    },
+    {
+     "t0_ms": 160860,
+     "text": "from last quarter, and up from about 20% in the year-ago quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 166020,
+   "t1_ms": 210240,
+   "speaker": "Management",
+   "text": "Additionally, our AI customer cohort remains a strong growth driver. This cohort continues to grow and diversify, both in the number of customers we serve and in the scale of those customers. Overall, we continue to see healthy demand, as customers from the most tech-forward startups to the largest enterprises in the world are building with AI and with modern technologies, which we believe is fueling expanded adoption of the cloud and of the data platform. Regarding our Q3 financial performance and key metrics, revenue was $1.2 billion, an increase of 35% year-over-year and above the high end of our guidance range. We ended Q3 with about 33,500 customers, up from about 32,000 a year ago.",
+   "parts": [
+    {
+     "t0_ms": 166020,
+     "text": "Additionally, our AI customer cohort remains a strong growth driver."
+    },
+    {
+     "t0_ms": 170120,
+     "text": "This cohort continues to grow and diversify, both in the number of customers we serve and"
+    },
+    {
+     "t0_ms": 175020,
+     "text": "in the scale of those customers."
+    },
+    {
+     "t0_ms": 177560,
+     "text": "Overall, we continue to see healthy demand, as customers from the most tech-forward startups"
+    },
+    {
+     "t0_ms": 182020,
+     "text": "to the largest enterprises in the world are building with AI and with modern technologies,"
+    },
+    {
+     "t0_ms": 186740,
+     "text": "which we believe is fueling expanded adoption of the cloud and of the data platform."
+    },
+    {
+     "t0_ms": 190860,
+     "text": "Regarding our Q3 financial performance and key metrics, revenue was $1.2 billion, an increase of 35% year-over-year and above the high end of our guidance range."
+    },
+    {
+     "t0_ms": 204740,
+     "text": "We ended Q3 with about 33,500 customers, up from about 32,000 a year ago."
+    }
+   ]
+  },
+  {
+   "t0_ms": 211000,
+   "t1_ms": 254980,
+   "speaker": "Management",
+   "text": "We also ended with about 4,860 customers with an ARR of $100,000 or more, up from about 4,060 a year ago. These customers generated about 91% of our ARR. And we generated free cash flow of $251 million, with a free cash flow margin of 21%. Turning to product adoption, our platform strategy continues to resonate in the market. 61% of our customers now use four or more products, up from 54% a year ago. 41% of our customers use six or more products, up from 31% a year ago. And 16% of our customers use 10 or more products, up from 8% a year ago.",
+   "parts": [
+    {
+     "t0_ms": 211000,
+     "text": "We also ended with about 4,860 customers with an ARR of $100,000 or more, up from about 4,060 a year ago."
+    },
+    {
+     "t0_ms": 219580,
+     "text": "These customers generated about 91% of our ARR."
+    },
+    {
+     "t0_ms": 225520,
+     "text": "And we generated free cash flow of $251 million, with a free cash flow margin of 21%."
+    },
+    {
+     "t0_ms": 233000,
+     "text": "Turning to product adoption, our platform strategy continues to resonate in the market."
+    },
+    {
+     "t0_ms": 237820,
+     "text": "61% of our customers now use four or more products, up from 54% a year ago."
+    },
+    {
+     "t0_ms": 243700,
+     "text": "41% of our customers use six or more products, up from 31% a year ago."
+    },
+    {
+     "t0_ms": 249340,
+     "text": "And 16% of our customers use 10 or more products, up from 8% a year ago."
+    }
+   ]
+  },
+  {
+   "t0_ms": 256120,
+   "t1_ms": 300560,
+   "speaker": "Management",
+   "text": "So we're landing more customers and delivering value across more products through our unified platform. One milestone we're very proud of, our infrastructure monitoring suite of products, now exceeds $2 billion in ARR, growing in the mid-30s percent year over year. Infrastructure monitoring was the first product we brought to market more than 10 years ago. Today, our customers rely on Datadog for visibility across their environments, including cloud infrastructure, on-prem servers, containers, serverless applications, and GPU fleets. And while we're thrilled to reach this milestone, we still feel that we're just getting started. According to industry analysts, we are the market share leader in global observability, but with a percentage market share still in the teens.",
+   "parts": [
+    {
+     "t0_ms": 256120,
+     "text": "So we're landing more customers and delivering value across more products through our unified platform."
+    },
+    {
+     "t0_ms": 262480,
+     "text": "One milestone we're very proud of, our infrastructure monitoring suite of products,"
+    },
+    {
+     "t0_ms": 266980,
+     "text": "now exceeds $2 billion in ARR, growing in the mid-30s percent year over year."
+    },
+    {
+     "t0_ms": 273340,
+     "text": "Infrastructure monitoring was the first product we brought to market more than 10 years ago."
+    },
+    {
+     "t0_ms": 277760,
+     "text": "Today, our customers rely on Datadog for visibility across their environments,"
+    },
+    {
+     "t0_ms": 282000,
+     "text": "including cloud infrastructure, on-prem servers, containers, serverless applications, and GPU fleets."
+    },
+    {
+     "t0_ms": 288900,
+     "text": "And while we're thrilled to reach this milestone, we still feel that we're just getting started."
+    },
+    {
+     "t0_ms": 294220,
+     "text": "According to industry analysts, we are the market share leader in global observability,"
+    },
+    {
+     "t0_ms": 298300,
+     "text": "but with a percentage market share still in the teens."
+    }
+   ]
+  },
+  {
+   "t0_ms": 302990,
+   "t1_ms": 344960,
+   "speaker": "Management",
+   "text": "Moving on to R&D. As AI changes how our customers build and run software, we've been investing and executing on two fronts. AI for Datadog and Datadog for AI. First, AI for Datadog. These are AI products and capabilities that make the Datadog platform more useful and increasingly automated for our customers. First off, our flagship agent, Bits.ai, is off to a very strong start. Since we launched With BITS, it has become the fastest-adopted product in our history. And in October, BITS testing became generally available. With a single click, it discovers the critical user",
+   "parts": [
+    {
+     "t0_ms": 302990,
+     "text": "Moving on to R&D."
+    },
+    {
+     "t0_ms": 303950,
+     "text": "As AI changes how our customers build and run software, we've been investing and executing"
+    },
+    {
+     "t0_ms": 311330,
+     "text": "on two fronts. AI for Datadog and Datadog for AI. First, AI for Datadog. These are AI products and"
+    },
+    {
+     "t0_ms": 320810,
+     "text": "capabilities that make the Datadog platform more useful and increasingly automated for our"
+    },
+    {
+     "t0_ms": 325610,
+     "text": "customers. First off, our flagship agent, Bits.ai, is off to a very strong start. Since we launched"
+    },
+    {
+     "t0_ms": 334660,
+     "text": "With BITS, it has become the fastest-adopted product"
+    },
+    {
+     "t0_ms": 337460,
+     "text": "in our history."
+    },
+    {
+     "t0_ms": 339300,
+     "text": "And in October, BITS testing became generally available."
+    },
+    {
+     "t0_ms": 342500,
+     "text": "With a single click, it discovers the critical user"
+    }
+   ]
+  },
+  {
+   "t0_ms": 344960,
+   "t1_ms": 387020,
+   "speaker": "Management",
+   "text": "flows in an application and generates tests to cover them. Meanwhile, our AI research team is hard at work pushing the boundaries of what BITS and our platform can do. Last month, we introduced Scout, our own reasoning model specifically optimized for SRA tasks. CART was built using our in-house distributed reinforcement learning infrastructure and now powers our BITS investigations. This is exciting for two reasons. First, it performs on par or even better than frontier models on alert investigations at a fraction of the inference cost. This is valuable, as it allows BITS to investigate many more alerts, start earlier,",
+   "parts": [
+    {
+     "t0_ms": 344960,
+     "text": "flows in an application and generates tests to cover them."
+    },
+    {
+     "t0_ms": 349780,
+     "text": "Meanwhile, our AI research team is hard at work"
+    },
+    {
+     "t0_ms": 352940,
+     "text": "pushing the boundaries of what BITS and our platform can do."
+    },
+    {
+     "t0_ms": 356840,
+     "text": "Last month, we introduced Scout, our own reasoning model"
+    },
+    {
+     "t0_ms": 360000,
+     "text": "specifically optimized for SRA tasks."
+    },
+    {
+     "t0_ms": 363460,
+     "text": "CART was built using our in-house distributed reinforcement"
+    },
+    {
+     "t0_ms": 366100,
+     "text": "learning infrastructure and now powers our BITS investigations."
+    },
+    {
+     "t0_ms": 370900,
+     "text": "This is exciting for two reasons."
+    },
+    {
+     "t0_ms": 373680,
+     "text": "First, it performs on par or even better"
+    },
+    {
+     "t0_ms": 376500,
+     "text": "than frontier models on alert investigations"
+    },
+    {
+     "t0_ms": 379440,
+     "text": "at a fraction of the inference cost."
+    },
+    {
+     "t0_ms": 382220,
+     "text": "This is valuable, as it allows BITS"
+    },
+    {
+     "t0_ms": 384060,
+     "text": "to investigate many more alerts, start earlier,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 387020,
+   "t1_ms": 429830,
+   "speaker": "Management",
+   "text": "and go deeper on incidents as an always-on first responder for our customers. Second, this is also exciting as a demonstration of what we can achieve when we train models with our own production data, critical user workflows, and internal tooling. SCARP is only the beginning. With the Adaptive ML team, which joined us in June, we are broadly accelerating our work on reinforcement learning and model post-training. Over time, we expect our research efforts to drive a step change in capabilities across our platform and move us closer to our goal of autonomous operations. Moving on next to Datadog for AI. These are the products that deliver end-to-end",
+   "parts": [
+    {
+     "t0_ms": 387020,
+     "text": "and go deeper on incidents as an always-on first responder"
+    },
+    {
+     "t0_ms": 390820,
+     "text": "for our customers."
+    },
+    {
+     "t0_ms": 393630,
+     "text": "Second, this is also exciting as a demonstration of what we can achieve when we train models with our own production data, critical user workflows, and internal tooling."
+    },
+    {
+     "t0_ms": 404050,
+     "text": "SCARP is only the beginning."
+    },
+    {
+     "t0_ms": 406090,
+     "text": "With the Adaptive ML team, which joined us in June, we are broadly accelerating our work on reinforcement learning and model post-training."
+    },
+    {
+     "t0_ms": 413790,
+     "text": "Over time, we expect our research efforts to drive a step change in capabilities across our platform and move us closer to our goal of autonomous operations."
+    },
+    {
+     "t0_ms": 421890,
+     "text": "Moving on next to Datadog for AI. These are the products that deliver end-to-end"
+    }
+   ]
+  },
+  {
+   "t0_ms": 429830,
+   "t1_ms": 471910,
+   "speaker": "Management",
+   "text": "observability and security across the new AI stack. As AI moves from experimentation into production, customers today need to answer three key questions. How is it performing? Is it secure? And what's the ROI or is it worth the spend? And because AI doesn't run in isolation, they want these answers on on the same platform as the rest of their tech stack. On performance, we covered a whole AI stack, from compute all the way to agents. GPU monitoring now goes beyond hardware reliability, with new capabilities that help customers maximize fleet utilization, increase training throughput,",
+   "parts": [
+    {
+     "t0_ms": 429830,
+     "text": "observability and security across the new AI stack. As AI moves from"
+    },
+    {
+     "t0_ms": 435790,
+     "text": "experimentation into production, customers today need to answer three key"
+    },
+    {
+     "t0_ms": 440890,
+     "text": "questions. How is it performing? Is it secure? And what's the ROI or is it worth"
+    },
+    {
+     "t0_ms": 446530,
+     "text": "the spend? And because AI doesn't run in isolation, they want these answers on"
+    },
+    {
+     "t0_ms": 452350,
+     "text": "on the same platform as the rest of their tech stack."
+    },
+    {
+     "t0_ms": 456830,
+     "text": "On performance, we covered a whole AI stack,"
+    },
+    {
+     "t0_ms": 459850,
+     "text": "from compute all the way to agents."
+    },
+    {
+     "t0_ms": 463010,
+     "text": "GPU monitoring now goes beyond hardware reliability,"
+    },
+    {
+     "t0_ms": 466570,
+     "text": "with new capabilities that help customers"
+    },
+    {
+     "t0_ms": 468370,
+     "text": "maximize fleet utilization, increase training throughput,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 471910,
+   "t1_ms": 513440,
+   "speaker": "Management",
+   "text": "and save inference at a lower cost per request. The number of GPU devices monitored is up by a factor of eight so far this year. and some of our Frontier Lab customers are working with us as design partners on these capabilities. Going up the stack, agent observability helps teams monitor and evaluate their agents in production, including the quality of their responses, latency, and token usage. The number of spans sent to agent observability is now up by a factor of nine this year. We've also made agent observability available in the Anthropic Marketplace, and we're a launch partner to open AI's new enterprise marketplace as well.",
+   "parts": [
+    {
+     "t0_ms": 471910,
+     "text": "and save inference at a lower cost per request."
+    },
+    {
+     "t0_ms": 476030,
+     "text": "The number of GPU devices monitored"
+    },
+    {
+     "t0_ms": 478030,
+     "text": "is up by a factor of eight so far this year."
+    },
+    {
+     "t0_ms": 480710,
+     "text": "and some of our Frontier Lab customers are working with us"
+    },
+    {
+     "t0_ms": 483450,
+     "text": "as design partners on these capabilities."
+    },
+    {
+     "t0_ms": 487230,
+     "text": "Going up the stack,"
+    },
+    {
+     "t0_ms": 488550,
+     "text": "agent observability helps teams monitor"
+    },
+    {
+     "t0_ms": 491910,
+     "text": "and evaluate their agents in production,"
+    },
+    {
+     "t0_ms": 494130,
+     "text": "including the quality of their responses,"
+    },
+    {
+     "t0_ms": 496210,
+     "text": "latency, and token usage."
+    },
+    {
+     "t0_ms": 499450,
+     "text": "The number of spans sent to agent observability"
+    },
+    {
+     "t0_ms": 502190,
+     "text": "is now up by a factor of nine this year."
+    },
+    {
+     "t0_ms": 506240,
+     "text": "We've also made agent observability available"
+    },
+    {
+     "t0_ms": 508240,
+     "text": "in the Anthropic Marketplace,"
+    },
+    {
+     "t0_ms": 510080,
+     "text": "and we're a launch partner"
+    },
+    {
+     "t0_ms": 511200,
+     "text": "to open AI's new enterprise marketplace as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 514500,
+   "t1_ms": 557740,
+   "speaker": "Management",
+   "text": "So now, customers can buy our product directly through the Frontier Labs they already work with. On the security side, our AI Guard product discovers the custom agents running across an organization and protects them at runtime against prompt injection and data exfiltration, throwing on the same real-time data we collect to observe them. And on the cost side, companies everywhere are grappling with a very fast growth in token and AI spend. Beyond the three major clouds, AI providers are now the largest category of spend our customers monitor in Datadog Cloud Cost Management, or CCM. Now, with AI costs in CCM, customers",
+   "parts": [
+    {
+     "t0_ms": 514500,
+     "text": "So now, customers can buy our product directly"
+    },
+    {
+     "t0_ms": 516960,
+     "text": "through the Frontier Labs they already work with."
+    },
+    {
+     "t0_ms": 520700,
+     "text": "On the security side, our AI Guard product"
+    },
+    {
+     "t0_ms": 523840,
+     "text": "discovers the custom agents running across an organization"
+    },
+    {
+     "t0_ms": 526540,
+     "text": "and protects them at runtime"
+    },
+    {
+     "t0_ms": 528580,
+     "text": "against prompt injection and data exfiltration,"
+    },
+    {
+     "t0_ms": 532180,
+     "text": "throwing on the same real-time data"
+    },
+    {
+     "t0_ms": 533820,
+     "text": "we collect to observe them."
+    },
+    {
+     "t0_ms": 536540,
+     "text": "And on the cost side, companies everywhere"
+    },
+    {
+     "t0_ms": 539400,
+     "text": "are grappling with a very fast growth"
+    },
+    {
+     "t0_ms": 541160,
+     "text": "in token and AI spend."
+    },
+    {
+     "t0_ms": 544700,
+     "text": "Beyond the three major clouds, AI providers"
+    },
+    {
+     "t0_ms": 547440,
+     "text": "are now the largest category of spend our customers monitor"
+    },
+    {
+     "t0_ms": 550880,
+     "text": "in Datadog Cloud Cost Management, or CCM."
+    },
+    {
+     "t0_ms": 555000,
+     "text": "Now, with AI costs in CCM, customers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 557740,
+   "t1_ms": 602660,
+   "speaker": "Management",
+   "text": "can see which teams, models, and agents drive their AI spend, can govern that spend with budgets, forecasts, and anomaly alerts. More than a third of our CCM customers now track AI costs. The number of customers doing so is up more than 11 times. Moving up the stack again, our agent console adds to our CCM data and shows exactly which agents are actually used, by whom, for what tasks, at what cost, and most importantly, with what outcomes. As we continue to innovate across AI for Datadog and Datadog for AI, independent research is taking note. Forrester named Datadog a leader in its 2026 Forrester Wave for AIOps platform.",
+   "parts": [
+    {
+     "t0_ms": 557740,
+     "text": "can see which teams, models, and agents drive their AI spend,"
+    },
+    {
+     "t0_ms": 561100,
+     "text": "can govern that spend with budgets, forecasts,"
+    },
+    {
+     "t0_ms": 563480,
+     "text": "and anomaly alerts."
+    },
+    {
+     "t0_ms": 565900,
+     "text": "More than a third of our CCM customers now track AI costs."
+    },
+    {
+     "t0_ms": 570380,
+     "text": "The number of customers doing so is up more than 11 times."
+    },
+    {
+     "t0_ms": 575780,
+     "text": "Moving up the stack again,"
+    },
+    {
+     "t0_ms": 577220,
+     "text": "our agent console adds to our CCM data"
+    },
+    {
+     "t0_ms": 579940,
+     "text": "and shows exactly which agents are actually used,"
+    },
+    {
+     "t0_ms": 582760,
+     "text": "by whom, for what tasks, at what cost,"
+    },
+    {
+     "t0_ms": 585760,
+     "text": "and most importantly, with what outcomes."
+    },
+    {
+     "t0_ms": 589900,
+     "text": "As we continue to innovate across AI for Datadog"
+    },
+    {
+     "t0_ms": 592440,
+     "text": "and Datadog for AI, independent research is taking note."
+    },
+    {
+     "t0_ms": 597320,
+     "text": "Forrester named Datadog a leader in its 2026"
+    },
+    {
+     "t0_ms": 600420,
+     "text": "Forrester Wave for AIOps platform."
+    }
+   ]
+  },
+  {
+   "t0_ms": 603420,
+   "t1_ms": 647480,
+   "speaker": "Management",
+   "text": "and Gartner's August 2026 AI Vendor Race report called Datadog, the Company to Beat for Observability Platform. We believe this validates our leadership in observability, as well as our ability to have customers manage complexity in the age of AI. Let's move on to sales and marketing and look at a few of the deals our go-to-market teams have closed in what has been a very strong quarter. First, we signed a seven-figure analyzed expansion with a leading software company, more than doubling their annual commitment. This customer is moving AI agents into production and will replace a standalone commercial tool",
+   "parts": [
+    {
+     "t0_ms": 603420,
+     "text": "and Gartner's August 2026 AI Vendor Race report called Datadog, the Company to Beat for Observability Platform."
+    },
+    {
+     "t0_ms": 613400,
+     "text": "We believe this validates our leadership in observability, as well as our ability to have customers manage complexity in the age of AI."
+    },
+    {
+     "t0_ms": 623480,
+     "text": "Let's move on to sales and marketing and look at a few of the deals our go-to-market teams have closed in what has been a very strong quarter."
+    },
+    {
+     "t0_ms": 631880,
+     "text": "First, we signed a seven-figure analyzed expansion with a leading software company, more than"
+    },
+    {
+     "t0_ms": 639760,
+     "text": "doubling their annual commitment."
+    },
+    {
+     "t0_ms": 642060,
+     "text": "This customer is moving AI agents into production and will replace a standalone commercial tool"
+    }
+   ]
+  },
+  {
+   "t0_ms": 647480,
+   "t1_ms": 689330,
+   "speaker": "Management",
+   "text": "with Datadog agent observability to monitor their costs and quality. And by using FlexLogs, they can gather and correlate larger log volumes at a lower cost. In total, they will consolidate three tools onto Datadog and grow to 20 Datadog products, including Oncall and Bits.ai. Next, we landed a five-year, seven-figure annualized deal with a US federal defense agency. This customer runs thousands of cloud accounts across hundreds of mission owners. And as they've modernized, their manual tooling left them with fragmented visibility and security blind spots. They chose Datadog as their enterprise observability",
+   "parts": [
+    {
+     "t0_ms": 647480,
+     "text": "with Datadog agent observability to monitor their costs and quality."
+    },
+    {
+     "t0_ms": 652840,
+     "text": "And by using FlexLogs, they can gather and correlate larger log volumes at a lower cost."
+    },
+    {
+     "t0_ms": 659100,
+     "text": "In total, they will consolidate three tools onto Datadog"
+    },
+    {
+     "t0_ms": 662160,
+     "text": "and grow to 20 Datadog products, including Oncall and Bits.ai."
+    },
+    {
+     "t0_ms": 668170,
+     "text": "Next, we landed a five-year, seven-figure annualized deal"
+    },
+    {
+     "t0_ms": 672090,
+     "text": "with a US federal defense agency."
+    },
+    {
+     "t0_ms": 675690,
+     "text": "This customer runs thousands of cloud accounts"
+    },
+    {
+     "t0_ms": 677970,
+     "text": "across hundreds of mission owners."
+    },
+    {
+     "t0_ms": 680430,
+     "text": "And as they've modernized, their manual tooling"
+    },
+    {
+     "t0_ms": 682630,
+     "text": "left them with fragmented visibility and security blind"
+    },
+    {
+     "t0_ms": 685150,
+     "text": "spots."
+    },
+    {
+     "t0_ms": 686850,
+     "text": "They chose Datadog as their enterprise observability"
+    }
+   ]
+  },
+  {
+   "t0_ms": 689330,
+   "t1_ms": 734170,
+   "speaker": "Management",
+   "text": "security platform and we'll start with nine products including infrastructure monitoring and cloud security I want to congratulate our public sector team on this milestone win which was a direct result of our investment in government and the FedRAMP high certification we secured earlier in the year and we're actively expanding our government platform to support workloads up to impact level 5 or IL 5 the highest level of accreditation for unclassified data data, which is part of our long-term investment in the U.S. public sector. Next, we landed a seven-figure annualized deal with a leading home healthcare software company. As this customer has grown, fragmented tools have slowed incident response and hurt customer",
+   "parts": [
+    {
+     "t0_ms": 689330,
+     "text": "security platform and we'll start with nine products including infrastructure"
+    },
+    {
+     "t0_ms": 693650,
+     "text": "monitoring and cloud security I want to congratulate our public sector team on"
+    },
+    {
+     "t0_ms": 699230,
+     "text": "this milestone win which was a direct result of our investment in government"
+    },
+    {
+     "t0_ms": 703370,
+     "text": "and the FedRAMP high certification we secured earlier in the year and we're"
+    },
+    {
+     "t0_ms": 708590,
+     "text": "actively expanding our government platform to support workloads up to"
+    },
+    {
+     "t0_ms": 711710,
+     "text": "impact level 5 or IL 5 the highest level of accreditation for unclassified data"
+    },
+    {
+     "t0_ms": 717330,
+     "text": "data, which is part of our long-term investment in the U.S. public sector."
+    },
+    {
+     "t0_ms": 722010,
+     "text": "Next, we landed a seven-figure annualized deal with a leading home healthcare software"
+    },
+    {
+     "t0_ms": 728090,
+     "text": "company."
+    },
+    {
+     "t0_ms": 729090,
+     "text": "As this customer has grown, fragmented tools have slowed incident response and hurt customer"
+    }
+   ]
+  },
+  {
+   "t0_ms": 734170,
+   "t1_ms": 777660,
+   "speaker": "Management",
+   "text": "experience. They will consolidate four tools into Datadog, replacing their legacy log and security vendor with FlexLogs and CloudSIM, and relying on our sensitive data scanner to help them stay HIPAA compliant. This customer will start with nine Datadog products, including Incident Management and Bits.ai for faster resolution. Next, we signed a seven-figure analyze expansion with the leading online entertainment company. This customer is seeing a surge in traffic with their peak season and is scaling effectively with Datadog. Their own AI agents already use our MCP server, and today they are also adding Bits.ai. This customer will grow to 23 Datadog products, including agent observability and cloud cost management.",
+   "parts": [
+    {
+     "t0_ms": 734170,
+     "text": "experience."
+    },
+    {
+     "t0_ms": 735170,
+     "text": "They will consolidate four tools into Datadog, replacing their legacy log and security vendor"
+    },
+    {
+     "t0_ms": 740450,
+     "text": "with FlexLogs and CloudSIM, and relying on our sensitive data scanner to help them stay"
+    },
+    {
+     "t0_ms": 744910,
+     "text": "HIPAA compliant."
+    },
+    {
+     "t0_ms": 745910,
+     "text": "This customer will start with nine Datadog products, including Incident Management and"
+    },
+    {
+     "t0_ms": 750910,
+     "text": "Bits.ai for faster resolution."
+    },
+    {
+     "t0_ms": 754260,
+     "text": "Next, we signed a seven-figure analyze expansion with the leading online entertainment company."
+    },
+    {
+     "t0_ms": 759260,
+     "text": "This customer is seeing a surge in traffic with their peak season and is scaling effectively"
+    },
+    {
+     "t0_ms": 764260,
+     "text": "with Datadog."
+    },
+    {
+     "t0_ms": 765260,
+     "text": "Their own AI agents already use our MCP server, and today they are also adding Bits.ai."
+    },
+    {
+     "t0_ms": 772260,
+     "text": "This customer will grow to 23 Datadog products, including agent observability and cloud cost management."
+    }
+   ]
+  },
+  {
+   "t0_ms": 779860,
+   "t1_ms": 821800,
+   "speaker": "Management",
+   "text": "Next, we landed seven figure-analyzed deals with two of Japan's most important banks. As they modernize their core financial systems, both banks are standardizing on Datadog for unified visibility across cloud and on-prem environments. Both customers are adopting the full Datadog platform, including all three pillars, digital experience, security, software delivery, service management, and bits.ai, as they move towards AI-driven operations. Next, we landed a six-figure annualized deal with a top European AI lab. These customers' developers were losing valuable time to slow builds and flaky tests, which Datadog releases in a highly competitive market.",
+   "parts": [
+    {
+     "t0_ms": 779860,
+     "text": "Next, we landed seven figure-analyzed deals with two of Japan's most important banks."
+    },
+    {
+     "t0_ms": 785920,
+     "text": "As they modernize their core financial systems, both banks are standardizing on Datadog for unified visibility across cloud and on-prem environments."
+    },
+    {
+     "t0_ms": 793360,
+     "text": "Both customers are adopting the full Datadog platform, including all three pillars, digital experience, security, software delivery, service management, and bits.ai, as they move towards AI-driven operations."
+    },
+    {
+     "t0_ms": 806360,
+     "text": "Next, we landed a six-figure annualized deal with a top European AI lab."
+    },
+    {
+     "t0_ms": 813800,
+     "text": "These customers' developers were losing valuable time to slow builds and flaky tests, which Datadog releases in a highly competitive market."
+    }
+   ]
+  },
+  {
+   "t0_ms": 821800,
+   "t1_ms": 866440,
+   "speaker": "Management",
+   "text": "They chose Datadog's CI visibility and test optimization, replacing a commercial tool and freeing their own engineers to focus on shipping products. Their engineers also used Bits.ai to quickly build monitors and custom analytics. Next, we signed a seven-figure analyze expansion for an eight-figure analyze deal with a leading AI coding company. This customer is growing rapidly and renewed early to keep pace with their expanding footprint. With this expansion, they will adopt FlexLogs and our new infinite cardinality metrics to scale costs effectively with volume. And they are also one of the largest users of our MCP server.",
+   "parts": [
+    {
+     "t0_ms": 821800,
+     "text": "They chose Datadog's CI visibility and test optimization, replacing a commercial tool"
+    },
+    {
+     "t0_ms": 828800,
+     "text": "and freeing their own engineers to focus on shipping products."
+    },
+    {
+     "t0_ms": 832680,
+     "text": "Their engineers also used Bits.ai to quickly build monitors and custom analytics."
+    },
+    {
+     "t0_ms": 838470,
+     "text": "Next, we signed a seven-figure analyze expansion for an eight-figure analyze deal with a leading"
+    },
+    {
+     "t0_ms": 844710,
+     "text": "AI coding company."
+    },
+    {
+     "t0_ms": 847670,
+     "text": "This customer is growing rapidly and renewed early to keep pace with their expanding footprint."
+    },
+    {
+     "t0_ms": 853930,
+     "text": "With this expansion, they will adopt FlexLogs and our new infinite cardinality metrics to"
+    },
+    {
+     "t0_ms": 858790,
+     "text": "scale costs effectively with volume."
+    },
+    {
+     "t0_ms": 862800,
+     "text": "And they are also one of the largest users of our MCP server."
+    }
+   ]
+  },
+  {
+   "t0_ms": 866440,
+   "t1_ms": 910890,
+   "speaker": "Management",
+   "text": "This customer will grow to 13 Datadog products. Finally, we signed an eight-figure annualized expansion with the AI division of one of the world's largest technology companies, which nearly tripled their annual commitment. Just two quarters after we landed them, they are scaling Datadog across a large number of AI training workloads. They are also adopting APM and Bits.ai to further reduce engineering friction. Alongside these wins, on the other side of the customer spectrum, we are leaning into the large number of new AI native companies we see created every day by investing in our Datadog for Startups program. We are broadening its reach to a larger number of startups that are early on in your lifecycle",
+   "parts": [
+    {
+     "t0_ms": 866440,
+     "text": "This customer will grow to 13 Datadog products."
+    },
+    {
+     "t0_ms": 870790,
+     "text": "Finally, we signed an eight-figure annualized expansion with the AI division of one of the"
+    },
+    {
+     "t0_ms": 875910,
+     "text": "world's largest technology companies, which nearly tripled their annual commitment."
+    },
+    {
+     "t0_ms": 881590,
+     "text": "Just two quarters after we landed them, they are scaling Datadog across a large number"
+    },
+    {
+     "t0_ms": 885750,
+     "text": "of AI training workloads."
+    },
+    {
+     "t0_ms": 887890,
+     "text": "They are also adopting APM and Bits.ai to further reduce engineering friction."
+    },
+    {
+     "t0_ms": 892030,
+     "text": "Alongside these wins, on the other side of the customer spectrum, we are leaning into"
+    },
+    {
+     "t0_ms": 898630,
+     "text": "the large number of new AI native companies we see created every day by investing in our"
+    },
+    {
+     "t0_ms": 903650,
+     "text": "Datadog for Startups program."
+    },
+    {
+     "t0_ms": 906150,
+     "text": "We are broadening its reach to a larger number of startups"
+    },
+    {
+     "t0_ms": 908830,
+     "text": "that are early on in your lifecycle"
+    }
+   ]
+  },
+  {
+   "t0_ms": 910890,
+   "t1_ms": 952710,
+   "speaker": "Management",
+   "text": "and offering deeper engineering collaboration with the ones that are seeing explosive growth. This is a truly exciting time to partner with startups. Now, before I turn it over to David for a financial review, I'd like to say a few words on the longer-term outlook. There is no change to our overall view that digital transformation and cloud migration long-term growth drivers for our business. And AI is another large growth driver for us today, as AI workloads move into production to drive more cloud consumption and more usage of the data platform. And we see that today across our business. All 15 of the top 15 AI leaders",
+   "parts": [
+    {
+     "t0_ms": 910890,
+     "text": "and offering deeper engineering collaboration"
+    },
+    {
+     "t0_ms": 912870,
+     "text": "with the ones that are seeing explosive growth."
+    },
+    {
+     "t0_ms": 915790,
+     "text": "This is a truly exciting time to partner with startups."
+    },
+    {
+     "t0_ms": 920270,
+     "text": "Now, before I turn it over to David for a financial review,"
+    },
+    {
+     "t0_ms": 924270,
+     "text": "I'd like to say a few words on the longer-term outlook."
+    },
+    {
+     "t0_ms": 928250,
+     "text": "There is no change to our overall view"
+    },
+    {
+     "t0_ms": 931190,
+     "text": "that digital transformation and cloud migration"
+    },
+    {
+     "t0_ms": 933430,
+     "text": "long-term growth drivers for our business. And AI is another large growth driver for us today,"
+    },
+    {
+     "t0_ms": 940630,
+     "text": "as AI workloads move into production to drive more cloud consumption and more usage of the"
+    },
+    {
+     "t0_ms": 945430,
+     "text": "data platform. And we see that today across our business. All 15 of the top 15 AI leaders"
+    }
+   ]
+  },
+  {
+   "t0_ms": 952710,
+   "t1_ms": 994840,
+   "speaker": "Management",
+   "text": "are our customers. And more broadly, we now serve over 850 AI customers, up from about 750 last border and across our broader customer base we also see a activity going substantially about a third of our customers now use one or more of our ai products including three quarters of our hundred thousand dollar plus customers with many of these customers still just getting started with these products leaving a large opportunity for future expansion and we continue to see rapid growth in identity activity with the number of mcp tool calls up by a factor of 50 so so far this year. We are tremendously excited about where this is going.",
+   "parts": [
+    {
+     "t0_ms": 952710,
+     "text": "are our customers. And more broadly, we now serve over 850 AI customers, up from about 750 last"
+    },
+    {
+     "t0_ms": 961830,
+     "text": "border and across our broader customer base we also see a activity going substantially"
+    },
+    {
+     "t0_ms": 968310,
+     "text": "about a third of our customers now use one or more of our ai products including three quarters"
+    },
+    {
+     "t0_ms": 973270,
+     "text": "of our hundred thousand dollar plus customers with many of these customers still just getting"
+    },
+    {
+     "t0_ms": 977590,
+     "text": "started with these products leaving a large opportunity for future expansion and we continue"
+    },
+    {
+     "t0_ms": 982550,
+     "text": "to see rapid growth in identity activity with the number of mcp tool calls up by a factor of 50 so"
+    },
+    {
+     "t0_ms": 987990,
+     "text": "so far this year."
+    },
+    {
+     "t0_ms": 990960,
+     "text": "We are tremendously excited about where this is going."
+    }
+   ]
+  },
+  {
+   "t0_ms": 994840,
+   "t1_ms": 1038420,
+   "speaker": "Management",
+   "text": "As AI writes and runs more of our customers' software, they're shipping more code faster across a growing mix of models, agents, and infrastructure. Of course, it generates complexity that is very quickly outpacing what even the best engineering teams can track on their own. And that's exactly the problem we're investing to solve. AI for Datadog takes on more of that work for them. Datadog for AI has then run their AI with confidence. And our AI research turns our data into models that will deliver more autonomy over time. Because of that, now more than ever, we feel ideally positioned to have customers of every size and every industry, as well as every type of user, whether humans or AI agents,",
+   "parts": [
+    {
+     "t0_ms": 994840,
+     "text": "As AI writes and runs more of our customers' software,"
+    },
+    {
+     "t0_ms": 998040,
+     "text": "they're shipping more code faster"
+    },
+    {
+     "t0_ms": 1000040,
+     "text": "across a growing mix of models, agents, and infrastructure."
+    },
+    {
+     "t0_ms": 1004080,
+     "text": "Of course, it generates complexity"
+    },
+    {
+     "t0_ms": 1006000,
+     "text": "that is very quickly outpacing what even the best engineering"
+    },
+    {
+     "t0_ms": 1008640,
+     "text": "teams can track on their own."
+    },
+    {
+     "t0_ms": 1010740,
+     "text": "And that's exactly the problem we're investing to solve."
+    },
+    {
+     "t0_ms": 1013800,
+     "text": "AI for Datadog takes on more of that work for them."
+    },
+    {
+     "t0_ms": 1017680,
+     "text": "Datadog for AI has then run their AI with confidence."
+    },
+    {
+     "t0_ms": 1021520,
+     "text": "And our AI research turns our data"
+    },
+    {
+     "t0_ms": 1023900,
+     "text": "into models that will deliver more autonomy over time."
+    },
+    {
+     "t0_ms": 1028000,
+     "text": "Because of that, now more than ever,"
+    },
+    {
+     "t0_ms": 1030619,
+     "text": "we feel ideally positioned to have customers"
+    },
+    {
+     "t0_ms": 1032680,
+     "text": "of every size and every industry,"
+    },
+    {
+     "t0_ms": 1034920,
+     "text": "as well as every type of user, whether humans or AI agents,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1038420,
+   "t1_ms": 1067420,
+   "speaker": "Management",
+   "text": "so they can transform, innovate, and drive value through AI and cloud adoption. And with that, I will turn it over to our CFO, David. Thanks, Olivier, and good morning to everybody. Our Q3 revenue was $1.197 billion, up 35% year over year. We continued to see robust usage growth from existing customers, as well as a strong ramp in our new customers.",
+   "parts": [
+    {
+     "t0_ms": 1038420,
+     "text": "so they can transform, innovate, and drive value"
+    },
+    {
+     "t0_ms": 1040780,
+     "text": "through AI and cloud adoption."
+    },
+    {
+     "t0_ms": 1043099,
+     "text": "And with that, I will turn it over to our CFO, David."
+    },
+    {
+     "t0_ms": 1047300,
+     "text": "Thanks, Olivier, and good morning to everybody."
+    },
+    {
+     "t0_ms": 1051100,
+     "text": "Our Q3 revenue was $1.197 billion, up 35% year over year."
+    },
+    {
+     "t0_ms": 1058900,
+     "text": "We continued to see robust usage growth from existing customers, as well as a strong ramp in our new customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1068360,
+   "t1_ms": 1111060,
+   "speaker": "Management",
+   "text": "Revenue growth accelerated within our broad base of customers, excluding AI customers, to the high 20% year-over-year, up about one percentage point from last quarter, and up from about 20% in the year-ago quarter. And we saw robust growth with broad-based strength across customer segments, spending bands, and industries. And, excluding our largest customer, revenue growth accelerated again. As we communicated in August, our largest customer reduced their usage in the third quarter, while their usage remained above their minimum commitment.",
+   "parts": [
+    {
+     "t0_ms": 1068360,
+     "text": "Revenue growth accelerated within our broad base of customers, excluding AI customers, to the high 20% year-over-year, up about one percentage point from last quarter, and up from about 20% in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1085800,
+     "text": "And we saw robust growth with broad-based strength across customer segments, spending bands, and industries."
+    },
+    {
+     "t0_ms": 1093060,
+     "text": "And, excluding our largest customer, revenue growth accelerated again."
+    },
+    {
+     "t0_ms": 1101060,
+     "text": "As we communicated in August, our largest customer reduced their usage in the third quarter, while their usage remained above their minimum commitment."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1112060,
+   "t1_ms": 1150900,
+   "speaker": "Management",
+   "text": "Meanwhile, our AI customers' growth continues to significantly outpace the rest of the business. business. This over 850 strong group continues to diversify and grow, including 39 customers spending more than $1 million annually with us. And we continue to land larger and grow faster with new logos, contributing more to revenue growth. The portion of our year-over-year revenue growth that relates to new customers was about 30% in Q3, up from 25% in the year ago quarter.",
+   "parts": [
+    {
+     "t0_ms": 1112060,
+     "text": "Meanwhile, our AI customers' growth continues to significantly outpace the rest of the business."
+    },
+    {
+     "t0_ms": 1119060,
+     "text": "business. This over 850 strong group continues to diversify and grow, including 39 customers"
+    },
+    {
+     "t0_ms": 1128220,
+     "text": "spending more than $1 million annually with us. And we continue to land larger and grow faster"
+    },
+    {
+     "t0_ms": 1135680,
+     "text": "with new logos, contributing more to revenue growth. The portion of our year-over-year"
+    },
+    {
+     "t0_ms": 1142060,
+     "text": "revenue growth that relates to new customers was about 30% in Q3, up from 25% in the year"
+    },
+    {
+     "t0_ms": 1150300,
+     "text": "ago quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1152120,
+   "t1_ms": 1189620,
+   "speaker": "Management",
+   "text": "And now regarding our retention metrics, our trailing 12-month net revenue retention percentage was in the low 120s percent, similar to last quarter, and SHRM remains low, with gross retention stable, gross revenue retention stable in the mid to high 90s. We believe this metric highlights the mission critical nature of our platform for our customers. And now moving on to our financial results. Billings in the quarter were $1.16 billion, up 30% year over year.",
+   "parts": [
+    {
+     "t0_ms": 1152120,
+     "text": "And now regarding our retention metrics, our trailing 12-month net revenue retention percentage"
+    },
+    {
+     "t0_ms": 1158840,
+     "text": "was in the low 120s percent, similar to last quarter, and SHRM remains low, with gross"
+    },
+    {
+     "t0_ms": 1167780,
+     "text": "retention stable, gross revenue retention stable in the mid to high 90s. We believe this metric"
+    },
+    {
+     "t0_ms": 1175740,
+     "text": "highlights the mission critical nature of our platform for our customers. And now moving on to"
+    },
+    {
+     "t0_ms": 1182060,
+     "text": "our financial results. Billings in the quarter were $1.16 billion, up 30% year over year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1190360,
+   "t1_ms": 1228160,
+   "speaker": "Management",
+   "text": "Remaining performance obligations, or RPO, was $3.85 billion, up 38% year-over-year. And current RPO grew in the mid-30s percent year-over-year. RPO duration increased slightly year-over-year. As a reminder, we continue to believe revenue is a better indication of our business trends than billings or RPO. Let's review some of the key income statement results. Unless otherwise noted, all metrics are non-GAAP. We have provided a reconciliation of GAAP to non-GAAP financials in our earnings release.",
+   "parts": [
+    {
+     "t0_ms": 1190360,
+     "text": "Remaining performance obligations, or RPO, was $3.85 billion, up 38% year-over-year."
+    },
+    {
+     "t0_ms": 1199420,
+     "text": "And current RPO grew in the mid-30s percent year-over-year."
+    },
+    {
+     "t0_ms": 1204720,
+     "text": "RPO duration increased slightly year-over-year."
+    },
+    {
+     "t0_ms": 1208560,
+     "text": "As a reminder, we continue to believe revenue is a better indication of our business trends than billings or RPO."
+    },
+    {
+     "t0_ms": 1215820,
+     "text": "Let's review some of the key income statement results."
+    },
+    {
+     "t0_ms": 1219620,
+     "text": "Unless otherwise noted, all metrics are non-GAAP."
+    },
+    {
+     "t0_ms": 1223480,
+     "text": "We have provided a reconciliation of GAAP to non-GAAP financials in our earnings release."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1228680,
+   "t1_ms": 1269060,
+   "speaker": "Management",
+   "text": "For Q3, our gross profit was $972 million, and the gross margin was 81.2%. This compares to a gross margin of 79.6% last quarter and 81.2% in the year-ago quarter. Q3 OPEX grew 25% year-over-year, versus 26% last quarter and 32% in the year-ago quarter. And Q3 operating income was $334 million, or a 28% operating margin, compared to 23% last quarter and 23% in the year-ago quarter. And now turning to the balance sheet and cash flow statements.",
+   "parts": [
+    {
+     "t0_ms": 1228680,
+     "text": "For Q3, our gross profit was $972 million, and the gross margin was 81.2%."
+    },
+    {
+     "t0_ms": 1236600,
+     "text": "This compares to a gross margin of 79.6% last quarter and 81.2% in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1244960,
+     "text": "Q3 OPEX grew 25% year-over-year, versus 26% last quarter and 32% in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1253360,
+     "text": "And Q3 operating income was $334 million, or a 28% operating margin, compared to 23% last quarter and 23% in the year-ago quarter."
+    },
+    {
+     "t0_ms": 1265980,
+     "text": "And now turning to the balance sheet and cash flow statements."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1269060,
+   "t1_ms": 1312080,
+   "speaker": "Management",
+   "text": "We ended the quarter with $5.2 billion in cash, cash equivalents, and marketable securities. Cash flow from operations was $290 million in the quarter. After taking into consideration capital expenditures and capitalized software, free cash flow was $251 million, with a free cash flow margin of 21%. Quarterly, the timing of collections and payments vary, and on a trailing 12-month basis, pre-cash flow margin was 26%. And now for our outlook for the fourth quarter and for fiscal year 2026.",
+   "parts": [
+    {
+     "t0_ms": 1269060,
+     "text": "We ended the quarter with $5.2 billion in cash, cash equivalents, and marketable securities."
+    },
+    {
+     "t0_ms": 1277060,
+     "text": "Cash flow from operations was $290 million in the quarter."
+    },
+    {
+     "t0_ms": 1282460,
+     "text": "After taking into consideration capital expenditures and capitalized software, free cash flow was $251 million, with a free cash flow margin of 21%."
+    },
+    {
+     "t0_ms": 1293840,
+     "text": "Quarterly, the timing of collections and payments vary, and on a trailing 12-month basis, pre-cash"
+    },
+    {
+     "t0_ms": 1302600,
+     "text": "flow margin was 26%."
+    },
+    {
+     "t0_ms": 1306560,
+     "text": "And now for our outlook for the fourth quarter and for fiscal year 2026."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1312080,
+   "t1_ms": 1356440,
+   "speaker": "Management",
+   "text": "First, our guidance philosophy overall remains unchanged. As a reminder, we base our guidance on trends observed in recent months and apply conservatism on these growth trends. Regarding our largest customer, our Q4 guidance contemplates their revenue at their minimum commitment. Now for the fourth quarter, we expect revenue to be in the range of $1.19 to $1.2 billion, which represents a 25% to 26% year-over-year growth. Excluding our largest customer, Q4 revenue growth implied in our guidance",
+   "parts": [
+    {
+     "t0_ms": 1312080,
+     "text": "First, our guidance philosophy overall remains unchanged."
+    },
+    {
+     "t0_ms": 1318180,
+     "text": "As a reminder, we base our guidance on trends observed in recent months and apply conservatism"
+    },
+    {
+     "t0_ms": 1324500,
+     "text": "on these growth trends."
+    },
+    {
+     "t0_ms": 1327480,
+     "text": "Regarding our largest customer, our Q4 guidance contemplates their revenue at their minimum"
+    },
+    {
+     "t0_ms": 1334880,
+     "text": "commitment."
+    },
+    {
+     "t0_ms": 1337060,
+     "text": "Now for the fourth quarter, we expect revenue to be in the range of $1.19 to $1.2 billion,"
+    },
+    {
+     "t0_ms": 1344320,
+     "text": "which represents a 25% to 26% year-over-year growth."
+    },
+    {
+     "t0_ms": 1349980,
+     "text": "Excluding our largest customer, Q4 revenue growth implied in our guidance"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1356440,
+   "t1_ms": 1399680,
+   "speaker": "Management",
+   "text": "is in the low to mid-30s percent range. Non-GAAP operating income is expected to be in the range of $280 to $290 million, which implies an operating margin of 24%. The fourth quarter includes large marketing investments, including AWS reInvent. Our non-GAAP net income per share is expected to be in the $0.69 to $0.71 per share range, based on approximately 379 million weighted average diluted shares outstanding. For the fiscal year 2026, we expect revenue to be in the range of $4.515 to $4.525 billion,",
+   "parts": [
+    {
+     "t0_ms": 1356440,
+     "text": "is in the low to mid-30s percent range."
+    },
+    {
+     "t0_ms": 1362040,
+     "text": "Non-GAAP operating income is expected to be in the range of $280 to $290 million,"
+    },
+    {
+     "t0_ms": 1367000,
+     "text": "which implies an operating margin of 24%."
+    },
+    {
+     "t0_ms": 1370760,
+     "text": "The fourth quarter includes large marketing investments, including AWS reInvent."
+    },
+    {
+     "t0_ms": 1378060,
+     "text": "Our non-GAAP net income per share is expected to be in the $0.69 to $0.71 per share range, based on approximately 379 million weighted average diluted shares outstanding."
+    },
+    {
+     "t0_ms": 1390440,
+     "text": "For the fiscal year 2026, we expect revenue to be in the range of $4.515 to $4.525 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1400220,
+   "t1_ms": 1442440,
+   "speaker": "Management",
+   "text": "which represents approximately 32% year-over-year growth. And non-GAAP operating income is expected to be in the range of $1.095 to $1.105 billion, which implies an operating margin of 24%. Finally, non-GAAP net income per share is expected to be in the range of $2.73 to $2.75 per share based on approximately 375 million weighted average diluted shares outstanding. Now some additional notes on our guidance, we expect net interest and other income for the fiscal year 2026 to be approximately $200 million.",
+   "parts": [
+    {
+     "t0_ms": 1400220,
+     "text": "which represents approximately 32% year-over-year growth."
+    },
+    {
+     "t0_ms": 1404980,
+     "text": "And non-GAAP operating income is expected to be in the range of $1.095 to $1.105 billion,"
+    },
+    {
+     "t0_ms": 1411680,
+     "text": "which implies an operating margin of 24%."
+    },
+    {
+     "t0_ms": 1414440,
+     "text": "Finally, non-GAAP net income per share is expected to be in the range of $2.73 to $2.75"
+    },
+    {
+     "t0_ms": 1426040,
+     "text": "per share based on approximately 375 million weighted average diluted shares outstanding."
+    },
+    {
+     "t0_ms": 1433120,
+     "text": "Now some additional notes on our guidance, we expect net interest and other income for"
+    },
+    {
+     "t0_ms": 1437320,
+     "text": "the fiscal year 2026 to be approximately $200 million."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1442440,
+   "t1_ms": 1485700,
+   "speaker": "Management",
+   "text": "We expect cash taxes to be about $30 to $40 million, and we continue to apply a 21% non-GAAP tax rate for 2026 and going forward. And finally, we expect capital expenditures and capitalized software together to be in the 3 to 4% of revenue range in fiscal year 2026. To summarize, we are pleased with our execution in Q3, which combines strong growth with strong profitability. We continue to invest to capture a long-term opportunity in the cloud and in AI. And I want to thank Datadogs worldwide for their efforts. Now with that, we will open the call",
+   "parts": [
+    {
+     "t0_ms": 1442440,
+     "text": "We expect cash taxes to be about $30 to $40 million, and we continue to apply a 21% non-GAAP"
+    },
+    {
+     "t0_ms": 1449680,
+     "text": "tax rate for 2026 and going forward."
+    },
+    {
+     "t0_ms": 1454100,
+     "text": "And finally, we expect capital expenditures and capitalized software together to be in"
+    },
+    {
+     "t0_ms": 1458460,
+     "text": "the 3 to 4% of revenue range in fiscal year 2026."
+    },
+    {
+     "t0_ms": 1464560,
+     "text": "To summarize, we are pleased with our execution in Q3, which combines strong growth with strong"
+    },
+    {
+     "t0_ms": 1471580,
+     "text": "profitability. We continue to invest to capture a long-term opportunity in the cloud and in AI."
+    },
+    {
+     "t0_ms": 1478920,
+     "text": "And I want to thank Datadogs worldwide for their efforts. Now with that, we will open the call"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1485700,
+   "t1_ms": 1492960,
+   "speaker": "Management",
+   "text": "for questions. Operator, let's begin the Q&A. Thank you. To ask a question, you need to press",
+   "parts": [
+    {
+     "t0_ms": 1485700,
+     "text": "for questions. Operator, let's begin the Q&A. Thank you. To ask a question, you need to press"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1492960,
+   "t1_ms": 1510820,
+   "speaker": "Operator",
+   "text": "star 1-1 on your telephone and wait for your name to be announced. To withdraw your question, please press star one one again please stand by we'll compile the q a roster one moment for our first question our first question will come from the line of sanji singh from morgan stanley your",
+   "parts": [
+    {
+     "t0_ms": 1492960,
+     "text": "star 1-1 on your telephone and wait for your name to be announced. To withdraw your question,"
+    },
+    {
+     "t0_ms": 1497880,
+     "text": "please press star one one again please stand by we'll compile the q a roster one moment for our"
+    },
+    {
+     "t0_ms": 1503320,
+     "text": "first question our first question will come from the line of sanji singh from morgan stanley your"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1510820,
+   "t1_ms": 1550630,
+   "speaker": "Analyst",
+   "text": "line is open yeah thank you for taking the questions and congrats on the strong results on q3 david i want to start with the q4 guide if we rewind back on 90 days ago have anything changed uh with respect to um your underlying assumptions between the the different cohorts so between the the core business and the sort of largest customer versus 90 days ago or is this outlook um just sort of a reflection of that sort of minimum commitment uh methodology that you're applying into you for just kind of a sense of has anything changed with respect to yeah yeah",
+   "parts": [
+    {
+     "t0_ms": 1510820,
+     "text": "line is open yeah thank you for taking the questions and congrats on the strong results on"
+    },
+    {
+     "t0_ms": 1516470,
+     "text": "q3 david i want to start with the q4 guide if we rewind back on 90 days ago have anything changed"
+    },
+    {
+     "t0_ms": 1524710,
+     "text": "uh with respect to um your underlying assumptions between the the different cohorts so between the"
+    },
+    {
+     "t0_ms": 1532630,
+     "text": "the core business and the sort of largest customer versus 90 days ago or is this"
+    },
+    {
+     "t0_ms": 1538550,
+     "text": "outlook um just sort of a reflection of that sort of minimum commitment uh methodology that you're"
+    },
+    {
+     "t0_ms": 1544950,
+     "text": "applying into you for just kind of a sense of has anything changed with respect to yeah yeah"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1550630,
+   "t1_ms": 1587790,
+   "speaker": "Management",
+   "text": "There are a couple things to talk about. First of all, I think we said versus our largest customer that they renewed and they were spending above the minimum commit, and that happened in Q3. We said that in our guidance, we were going to only include the minimum commit, despite the fact that in Q3, they were spending above the minimum commit. um the uh as we talked about we've accelerated in q3 um excluding the uh largest customer",
+   "parts": [
+    {
+     "t0_ms": 1550630,
+     "text": "There are a couple things to talk about."
+    },
+    {
+     "t0_ms": 1556430,
+     "text": "First of all, I think we said versus our largest customer that they renewed and they were spending above the minimum commit, and that happened in Q3."
+    },
+    {
+     "t0_ms": 1568170,
+     "text": "We said that in our guidance, we were going to only include the minimum commit, despite the fact that in Q3, they were spending above the minimum commit."
+    },
+    {
+     "t0_ms": 1578890,
+     "text": "um the uh as we talked about we've accelerated in q3 um excluding the uh largest customer"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1587790,
+   "t1_ms": 1629770,
+   "speaker": "Management",
+   "text": "um so i would say the only thing that has changed was in uh in sort of q3 we did some renewals extensions with some large and large ai customers where as normal we essentially extend and increase the commit, but do better pricing for that. And that happened in a number of large customers. It's our normal behavior, and that's really the only thing that changed since our last communication. Ali, do you want to add anything? Yeah, there's a few we discussed on the call. I could bring up a few of those large customers where we saw renewals way earlier than we thought we would.",
+   "parts": [
+    {
+     "t0_ms": 1587790,
+     "text": "um so i would say the only thing that has changed was in uh in sort of q3 we did some"
+    },
+    {
+     "t0_ms": 1596930,
+     "text": "renewals extensions with some large and large ai customers where as normal we essentially"
+    },
+    {
+     "t0_ms": 1604150,
+     "text": "extend and increase the commit, but do better pricing for that."
+    },
+    {
+     "t0_ms": 1609850,
+     "text": "And that happened in a number of large customers."
+    },
+    {
+     "t0_ms": 1613810,
+     "text": "It's our normal behavior, and that's really the only thing that changed since our last"
+    },
+    {
+     "t0_ms": 1619350,
+     "text": "communication."
+    },
+    {
+     "t0_ms": 1619990,
+     "text": "Ali, do you want to add anything?"
+    },
+    {
+     "t0_ms": 1620770,
+     "text": "Yeah, there's a few we discussed on the call."
+    },
+    {
+     "t0_ms": 1624590,
+     "text": "I could bring up a few of those large customers where we saw renewals way earlier than we"
+    },
+    {
+     "t0_ms": 1629350,
+     "text": "thought we would."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1629770,
+   "t1_ms": 1655770,
+   "speaker": "Management",
+   "text": "There's another one that happened in October that we're not discussing. So these are all good news, but these do create headwind into the short term, into the revenue, and that's one change from last quarter. Other than that, everything else played out pretty much the way we were expecting, with some happy surprises, including, in particular, the continued acceleration of the non-AI customer, which has been very good overall.",
+   "parts": [
+    {
+     "t0_ms": 1629770,
+     "text": "There's another one that happened in October that we're not discussing."
+    },
+    {
+     "t0_ms": 1633770,
+     "text": "So these are all good news, but these do create headwind into the short term, into the revenue,"
+    },
+    {
+     "t0_ms": 1639770,
+     "text": "and that's one change from last quarter."
+    },
+    {
+     "t0_ms": 1642770,
+     "text": "Other than that, everything else played out pretty much the way we were expecting,"
+    },
+    {
+     "t0_ms": 1647770,
+     "text": "with some happy surprises, including, in particular, the continued acceleration of the non-AI customer,"
+    },
+    {
+     "t0_ms": 1652770,
+     "text": "which has been very good overall."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1655770,
+   "t1_ms": 1689590,
+   "speaker": "Analyst",
+   "text": "I understand. And if we think about the ex-AI native customer growth, that's been on an accelerating trend for several quarters now. As we think about this, you know, this core non-AI native business, you obviously have a lot of tailwinds on the AI portfolio. It seems like the 100K customer quarter is definitely more of the AI product. Do you feel that that can continue to drive a sustained trajectory, or are we, you know, after multiple quarters of acceleration, do you sort of see a level off in that XAI data cohort? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1655770,
+     "text": "I understand. And if we think about the ex-AI native customer growth, that's been on an accelerating trend for several quarters now. As we think about this, you know, this core non-AI native business, you obviously have a lot of tailwinds on the AI portfolio. It seems like the 100K customer quarter is definitely more of the AI product."
+    },
+    {
+     "t0_ms": 1676130,
+     "text": "Do you feel that that can continue to drive a sustained trajectory, or are we, you know,"
+    },
+    {
+     "t0_ms": 1682050,
+     "text": "after multiple quarters of acceleration, do you sort of see a level off in that XAI data"
+    },
+    {
+     "t0_ms": 1688710,
+     "text": "cohort?"
+    },
+    {
+     "t0_ms": 1689270,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1691230,
+   "t1_ms": 1719610,
+   "speaker": "Management",
+   "text": "I mean, look, in the shoe zoom out, like, all of these customers are adopting AI, and they're consuming more cloud, and they're building more software, and they're changing the way they work, you know. So we expect, like, a long period of growth, you know, for these customers. Now, with the overall growth rate is, you know, does it keep going up a lot? Does it stay stable? You know, it's a very high growth rate already, and we feel pretty good about it. It's hard to tell where it's going to go. But we're very confident in the broader trend that is underpinning that.",
+   "parts": [
+    {
+     "t0_ms": 1691230,
+     "text": "I mean, look, in the shoe zoom out, like, all of these customers are adopting AI, and"
+    },
+    {
+     "t0_ms": 1696650,
+     "text": "they're consuming more cloud, and they're building more software, and they're changing"
+    },
+    {
+     "t0_ms": 1699170,
+     "text": "the way they work, you know."
+    },
+    {
+     "t0_ms": 1700210,
+     "text": "So we expect, like, a long period of growth, you know, for these customers."
+    },
+    {
+     "t0_ms": 1706510,
+     "text": "Now, with the overall growth rate is, you know, does it keep going up a lot?"
+    },
+    {
+     "t0_ms": 1710470,
+     "text": "Does it stay stable?"
+    },
+    {
+     "t0_ms": 1711430,
+     "text": "You know, it's a very high growth rate already, and we feel pretty good about it."
+    },
+    {
+     "t0_ms": 1714590,
+     "text": "It's hard to tell where it's going to go."
+    },
+    {
+     "t0_ms": 1715730,
+     "text": "But we're very confident in the broader trend that is underpinning that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1720010,
+   "t1_ms": 1735560,
+   "speaker": "Operator",
+   "text": "All right. Thank you. One moment for our next question. Next question will come from Gabriela Borges from Waterman Sachs. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1720010,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 1727700,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1728500,
+     "text": "One moment for our next question."
+    },
+    {
+     "t0_ms": 1730600,
+     "text": "Next question will come from Gabriela Borges from Waterman Sachs."
+    },
+    {
+     "t0_ms": 1734940,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1735560,
+   "t1_ms": 1780500,
+   "speaker": "Analyst",
+   "text": "hi good good morning thank you for taking the question david i want to stay on this point on the ai native cohort because i think you've been very transparent and how you talk about your largest customers versus the rest of the cohort and my question for you is you have these funky sequentials because you have had this incredible growth rate in this cohort over the last 12 months and now you've got this renewal dynamic with your largest customer you're also talking about the renewal dynamics on the early renewals. My question for you is, what can you tell us about how to think about modeling the sequentials in this business? Is it that we get through the next, call it two quarters, and then we're back to steady state? Is it that maybe we see another step",
+   "parts": [
+    {
+     "t0_ms": 1735560,
+     "text": "hi good good morning thank you for taking the question david i want to stay on this point on"
+    },
+    {
+     "t0_ms": 1742660,
+     "text": "the ai native cohort because i think you've been very transparent and how you talk about your"
+    },
+    {
+     "t0_ms": 1748200,
+     "text": "largest customers versus the rest of the cohort and my question for you is you have these funky"
+    },
+    {
+     "t0_ms": 1754080,
+     "text": "sequentials because you have had this incredible growth rate in this cohort over the last 12 months"
+    },
+    {
+     "t0_ms": 1760060,
+     "text": "and now you've got this renewal dynamic with your largest customer you're also talking about the"
+    },
+    {
+     "t0_ms": 1764380,
+     "text": "renewal dynamics on the early"
+    },
+    {
+     "t0_ms": 1766340,
+     "text": "renewals. My question for you is, what"
+    },
+    {
+     "t0_ms": 1768400,
+     "text": "can you tell us about how to think about"
+    },
+    {
+     "t0_ms": 1770240,
+     "text": "modeling the sequentials in this"
+    },
+    {
+     "t0_ms": 1772480,
+     "text": "business? Is it that we get through"
+    },
+    {
+     "t0_ms": 1774520,
+     "text": "the next, call it two quarters, and"
+    },
+    {
+     "t0_ms": 1776420,
+     "text": "then we're back to steady state? Is it"
+    },
+    {
+     "t0_ms": 1778440,
+     "text": "that maybe we see another step"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1780500,
+   "t1_ms": 1803780,
+   "speaker": "Analyst",
+   "text": "function down every year in the sequential because you have this earlier renewal dynamic, which again is a really good place to be because you're getting these really large deals that the only way you get better pricing is because the dollar volume is going up. So maybe just to put some takes to how we think about the sequentials for the AI native cohort and when we'll be back to something that looks like normal, which I get is a tricky definition of the word",
+   "parts": [
+    {
+     "t0_ms": 1780500,
+     "text": "function down every year"
+    },
+    {
+     "t0_ms": 1782340,
+     "text": "in the sequential because you"
+    },
+    {
+     "t0_ms": 1784480,
+     "text": "have this earlier renewal dynamic, which again"
+    },
+    {
+     "t0_ms": 1786420,
+     "text": "is a really good place to be because"
+    },
+    {
+     "t0_ms": 1788200,
+     "text": "you're getting these really large deals that"
+    },
+    {
+     "t0_ms": 1790440,
+     "text": "the only way you get better pricing is because"
+    },
+    {
+     "t0_ms": 1792380,
+     "text": "the dollar volume is going up. So maybe just"
+    },
+    {
+     "t0_ms": 1794380,
+     "text": "to put some takes to how we think about the sequentials for the AI native cohort and when"
+    },
+    {
+     "t0_ms": 1799400,
+     "text": "we'll be back to something that looks like normal, which I get is a tricky definition of the word"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1803780,
+   "t1_ms": 1838760,
+   "speaker": "Management",
+   "text": "normal anyway. Yeah, so good question. So in terms of the largest customer, I think as we said, the customer renewed, the customer, we decided to put only the commitment, the minimum commitment. So the customer in Q3 spent substantially above the minimum commitment. So one thing that is very important in the sequentials is what happens there. We don't control that. The customer, you know, can't go below the minimum commitment, but can be various degrees above the minimum commitment.",
+   "parts": [
+    {
+     "t0_ms": 1803780,
+     "text": "normal anyway. Yeah, so good question. So in terms of the largest customer, I think as we said,"
+    },
+    {
+     "t0_ms": 1811900,
+     "text": "the customer renewed, the customer, we decided to put only the commitment, the minimum commitment."
+    },
+    {
+     "t0_ms": 1821040,
+     "text": "So the customer in Q3 spent substantially above the minimum commitment."
+    },
+    {
+     "t0_ms": 1826980,
+     "text": "So one thing that is very important in the sequentials is what happens there."
+    },
+    {
+     "t0_ms": 1831680,
+     "text": "We don't control that."
+    },
+    {
+     "t0_ms": 1832800,
+     "text": "The customer, you know, can't go below the minimum commitment, but can be various degrees"
+    },
+    {
+     "t0_ms": 1837660,
+     "text": "above the minimum commitment."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1838760,
+   "t1_ms": 1881620,
+   "speaker": "Management",
+   "text": "So that is one factor that we, so essentially one thing that will create less of a sequential guidance or actual would be that that number uh stabilizes and isn't running above the minimum commitment so that's one i would say you know broaden it i mean the yeah the the point here is is that one part that is very usual you know which is that we have all these customers that are spending and they're growing and they're renewing and then when they renew they get better deal you know and they also adjust their traffic over time on the with an underpinning of growth you know which is what we've seen since the beginning of the company there's something",
+   "parts": [
+    {
+     "t0_ms": 1838760,
+     "text": "So that is one factor that we, so essentially one thing that will create less of a"
+    },
+    {
+     "t0_ms": 1849900,
+     "text": "sequential guidance or actual would be that that number uh stabilizes and isn't running above the"
+    },
+    {
+     "t0_ms": 1860660,
+     "text": "minimum commitment so that's one i would say you know broaden it i mean the yeah the the point here"
+    },
+    {
+     "t0_ms": 1865680,
+     "text": "is is that one part that is very usual you know which is that we have all these customers that"
+    },
+    {
+     "t0_ms": 1870460,
+     "text": "are spending and they're growing and they're renewing and then when they renew they get"
+    },
+    {
+     "t0_ms": 1873680,
+     "text": "better deal you know and they also adjust their traffic over time on the with an underpinning of"
+    },
+    {
+     "t0_ms": 1878320,
+     "text": "growth you know which is what we've seen since the beginning of the company there's something"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1881620,
+   "t1_ms": 1925480,
+   "speaker": "Management",
+   "text": "that is new that we have some of these companies that are scaling incredibly fast uh to a level that we've never seen in the industry or any industry really before which creates new dynamics you know this is why we can be a bit surprised when we see a customer you know when you're only just a few a few quarters into their you know starting to add up the product um in general though we're getting a larger number of these customers like the ai native cohort is broadening We have many more customers, many more large customers into that cohort. We called out a few wins that we landed in another AI lab, for example, this quarter that's in the notes. So the long-term, this is going to broaden. This is going to represent the most larger fraction of our customer base. And as a result, there will be more stability over time.",
+   "parts": [
+    {
+     "t0_ms": 1881620,
+     "text": "that is new that we have some of these companies that are scaling incredibly fast uh to a level"
+    },
+    {
+     "t0_ms": 1885980,
+     "text": "that we've never seen in the industry or any industry really before which creates new dynamics"
+    },
+    {
+     "t0_ms": 1891520,
+     "text": "you know this is why we can be a bit surprised when we see a customer you know when you're only"
+    },
+    {
+     "t0_ms": 1895820,
+     "text": "just a few a few quarters into their you know starting to add up the product um in general"
+    },
+    {
+     "t0_ms": 1901780,
+     "text": "though we're getting a larger number of these customers like the ai native cohort is broadening"
+    },
+    {
+     "t0_ms": 1906720,
+     "text": "We have many more customers, many more large customers into that cohort."
+    },
+    {
+     "t0_ms": 1910460,
+     "text": "We called out a few wins that we landed in another AI lab, for example, this quarter that's in the notes."
+    },
+    {
+     "t0_ms": 1915780,
+     "text": "So the long-term, this is going to broaden."
+    },
+    {
+     "t0_ms": 1920040,
+     "text": "This is going to represent the most larger fraction of our customer base."
+    },
+    {
+     "t0_ms": 1923320,
+     "text": "And as a result, there will be more stability over time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1926160,
+   "t1_ms": 1970360,
+   "speaker": "Management",
+   "text": "I still don't think it's a very unstable business. I mean, we're talking about a chance of a few percentage, you know, quarter to quarter in terms of where we end up versus where we think we're going to be. but you know we we think at the end of the day this is a usage-based model and we get more visibility into the mid to long term than we do into the very short term i do want to remind everybody that all things being equal the sequential between q3 and q4 tends to be less because of the late december effect when our usage-based products and vacations so and and some code freezes so that could that can be transparent based on the other factors or it might be underneath of that but we do have that effect in q4",
+   "parts": [
+    {
+     "t0_ms": 1926160,
+     "text": "I still don't think it's a very unstable business."
+    },
+    {
+     "t0_ms": 1928880,
+     "text": "I mean, we're talking about a chance of a few percentage, you know, quarter to quarter in terms of where we end up versus where we think we're going to be."
+    },
+    {
+     "t0_ms": 1935480,
+     "text": "but you know we we think at the end of the day this is a usage-based model and we get more"
+    },
+    {
+     "t0_ms": 1941920,
+     "text": "visibility into the mid to long term than we do into the very short term i do want to remind"
+    },
+    {
+     "t0_ms": 1945800,
+     "text": "everybody that all things being equal the sequential between q3 and q4 tends to be less"
+    },
+    {
+     "t0_ms": 1952900,
+     "text": "because of the late december effect when our usage-based products and vacations so and and"
+    },
+    {
+     "t0_ms": 1960040,
+     "text": "some code freezes so that could that can be transparent based on the other"
+    },
+    {
+     "t0_ms": 1964960,
+     "text": "factors or it might be underneath of that but we do have that effect in q4"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1970360,
+   "t1_ms": 1974320,
+   "speaker": "Management",
+   "text": "which we don't have in the other quarters these are really helpful",
+   "parts": [
+    {
+     "t0_ms": 1970360,
+     "text": "which we don't have in the other quarters these are really helpful"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1974320,
+   "t1_ms": 1987260,
+   "speaker": "Operator",
+   "text": "comments thank you yeah thank you thank you our next question will come from line of Ramo Lencho from Barclays your line is open thanks thanks can I stay on",
+   "parts": [
+    {
+     "t0_ms": 1974320,
+     "text": "comments thank you yeah thank you thank you our next question will come from"
+    },
+    {
+     "t0_ms": 1979780,
+     "text": "line of Ramo Lencho from Barclays your line is open thanks thanks can I stay on"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1987260,
+   "t1_ms": 2021860,
+   "speaker": "Analyst",
+   "text": "One last time, one last question on this one. So if I think about the customers renewed early, so they get better pricing, but obviously the volume is kind of going crazy there, but it kind of creates a short-term headwind because the same volume is now on a lower price, but then the volume grows, and from then on, in a couple of quarters, we should see the normal progression. Is that kind of the right thing to think about? I think we had that in the past, but I just wanted to clarify that. And then I have one follow-up.",
+   "parts": [
+    {
+     "t0_ms": 1987260,
+     "text": "One last time, one last question on this one."
+    },
+    {
+     "t0_ms": 1989860,
+     "text": "So if I think about the customers renewed early,"
+    },
+    {
+     "t0_ms": 1995120,
+     "text": "so they get better pricing,"
+    },
+    {
+     "t0_ms": 1996940,
+     "text": "but obviously the volume is kind of going crazy there,"
+    },
+    {
+     "t0_ms": 2001380,
+     "text": "but it kind of creates a short-term headwind"
+    },
+    {
+     "t0_ms": 2003660,
+     "text": "because the same volume is now on a lower price,"
+    },
+    {
+     "t0_ms": 2006900,
+     "text": "but then the volume grows,"
+    },
+    {
+     "t0_ms": 2008880,
+     "text": "and from then on, in a couple of quarters,"
+    },
+    {
+     "t0_ms": 2011480,
+     "text": "we should see the normal progression."
+    },
+    {
+     "t0_ms": 2013680,
+     "text": "Is that kind of the right thing to think about?"
+    },
+    {
+     "t0_ms": 2017360,
+     "text": "I think we had that in the past, but I just wanted to clarify that."
+    },
+    {
+     "t0_ms": 2020340,
+     "text": "And then I have one follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2022060,
+   "t1_ms": 2060300,
+   "speaker": "Management",
+   "text": "Yeah, that's probably what happens. There's a few other things that typically happen in those situations, which is they try to understand what it is they're going to need. So they look at what they're using and they think, okay, this part maybe we don't need that much of. This part we're probably more of. Or maybe in some situations we tell them, hey, maybe you should use this different tier of retention for this type of data because of the way you're using it. so there's a bit of account optimization there when we work with them. But the tech DCs, on the background of growth, these customers are growing and they're deploying much larger workloads and they're looking at doubling, tripling, decoupling their footprint with us over time, and this is basically what we're working on with them.",
+   "parts": [
+    {
+     "t0_ms": 2022060,
+     "text": "Yeah, that's probably what happens."
+    },
+    {
+     "t0_ms": 2023840,
+     "text": "There's a few other things that typically happen in those situations,"
+    },
+    {
+     "t0_ms": 2025940,
+     "text": "which is they try to understand what it is they're going to need."
+    },
+    {
+     "t0_ms": 2028460,
+     "text": "So they look at what they're using and they think, okay,"
+    },
+    {
+     "t0_ms": 2030680,
+     "text": "this part maybe we don't need that much of."
+    },
+    {
+     "t0_ms": 2032400,
+     "text": "This part we're probably more of."
+    },
+    {
+     "t0_ms": 2033620,
+     "text": "Or maybe in some situations we tell them, hey,"
+    },
+    {
+     "t0_ms": 2036600,
+     "text": "maybe you should use this different tier of retention for this type of data"
+    },
+    {
+     "t0_ms": 2039760,
+     "text": "because of the way you're using it."
+    },
+    {
+     "t0_ms": 2040940,
+     "text": "so there's a bit of account optimization there"
+    },
+    {
+     "t0_ms": 2043060,
+     "text": "when we work with them."
+    },
+    {
+     "t0_ms": 2045080,
+     "text": "But the tech DCs, on the background of growth,"
+    },
+    {
+     "t0_ms": 2049179,
+     "text": "these customers are growing"
+    },
+    {
+     "t0_ms": 2050199,
+     "text": "and they're deploying much larger workloads"
+    },
+    {
+     "t0_ms": 2051719,
+     "text": "and they're looking at doubling, tripling, decoupling"
+    },
+    {
+     "t0_ms": 2056080,
+     "text": "their footprint with us over time,"
+    },
+    {
+     "t0_ms": 2058239,
+     "text": "and this is basically what we're working on with them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2060940,
+   "t1_ms": 2098720,
+   "speaker": "Analyst",
+   "text": "Okay, perfect. And then the main question for me was, on the XAI part, like historically, from cloud migration, people modernize and doing more stuff, you mentioned another aspect which is kind of because of ai etc we can code more uh there's more application modernization all this stuff's happening so it is kind of changing in the way it's kind of evolving for you from you know classically with people modernize you have to go to datadog thank you very much well now actually the companies are working differently and that's also starting to drive the x.ai business can you speak to that please",
+   "parts": [
+    {
+     "t0_ms": 2060940,
+     "text": "Okay, perfect."
+    },
+    {
+     "t0_ms": 2061580,
+     "text": "And then the main question for me was,"
+    },
+    {
+     "t0_ms": 2063380,
+     "text": "on the XAI part, like historically,"
+    },
+    {
+     "t0_ms": 2066659,
+     "text": "from cloud migration, people modernize"
+    },
+    {
+     "t0_ms": 2071940,
+     "text": "and doing more stuff,"
+    },
+    {
+     "t0_ms": 2072659,
+     "text": "you mentioned another aspect which is kind of because of ai etc we can code more uh there's"
+    },
+    {
+     "t0_ms": 2079659,
+     "text": "more application modernization all this stuff's happening so it is kind of changing in the way"
+    },
+    {
+     "t0_ms": 2085179,
+     "text": "it's kind of evolving for you from you know classically with people modernize you have to"
+    },
+    {
+     "t0_ms": 2090280,
+     "text": "go to datadog thank you very much well now actually the companies are working differently"
+    },
+    {
+     "t0_ms": 2094380,
+     "text": "and that's also starting to drive the x.ai business can you speak to that please"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2098720,
+   "t1_ms": 2142500,
+   "speaker": "Management",
+   "text": "Yeah, I mean, well, there's one thing I didn't mention on the call that's always true. We also do more things for our customers. We consolidate a lot of what they were using. We have more products to cover more of the surface area. As it comes to customers building more with AI, it also brings some of our other products more into the front and center. So an example is customers are building a lot more software. so they're putting a lot more pressure on their CI and deployment and testing and so they're trying also to adopt more of our CI products. I think we'll call that a few wins around that too in the goal. So that opens the door for more products beyond core observability for us.",
+   "parts": [
+    {
+     "t0_ms": 2098720,
+     "text": "Yeah, I mean, well, there's one thing I didn't mention on the call that's always true."
+    },
+    {
+     "t0_ms": 2104860,
+     "text": "We also do more things for our customers."
+    },
+    {
+     "t0_ms": 2106700,
+     "text": "We consolidate a lot of what they were using."
+    },
+    {
+     "t0_ms": 2108720,
+     "text": "We have more products to cover more of the surface area."
+    },
+    {
+     "t0_ms": 2111840,
+     "text": "As it comes to customers building more with AI, it also brings some of our other products more into the front and center."
+    },
+    {
+     "t0_ms": 2121180,
+     "text": "So an example is customers are building a lot more software."
+    },
+    {
+     "t0_ms": 2124200,
+     "text": "so they're putting a lot more pressure on their CI and deployment and testing"
+    },
+    {
+     "t0_ms": 2129580,
+     "text": "and so they're trying also to adopt more of our CI products."
+    },
+    {
+     "t0_ms": 2134000,
+     "text": "I think we'll call that a few wins around that too in the goal."
+    },
+    {
+     "t0_ms": 2137300,
+     "text": "So that opens the door for more products beyond core observability for us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2143200,
+   "t1_ms": 2144340,
+   "speaker": "Analyst",
+   "text": "Yeah, okay, perfect. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2143200,
+     "text": "Yeah, okay, perfect. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2147210,
+   "t1_ms": 2153550,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question will come from the line of Samir Chatterjee from J.P. Morgan. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2147210,
+     "text": "Thank you. Our next question will come from the line of Samir Chatterjee"
+    },
+    {
+     "t0_ms": 2151210,
+     "text": "from J.P. Morgan. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2153550,
+   "t1_ms": 2180230,
+   "speaker": "Analyst",
+   "text": "Hi. Thanks for taking my questions. I had a couple. Maybe for the first one, I know you mentioned your largest customer did spend above their commit in Q3. Is there any way to tell us how much of the beat rate of your guidance in Q3 was because of the large customer spending of the commit relative to the rest of the business rate, depending on how you forecasted them in Q3? And have a quick follow-up.",
+   "parts": [
+    {
+     "t0_ms": 2153550,
+     "text": "Hi. Thanks for taking my questions. I had a couple. Maybe for the first one, I know"
+    },
+    {
+     "t0_ms": 2161050,
+     "text": "you mentioned your largest customer did spend above their commit in Q3. Is there any way"
+    },
+    {
+     "t0_ms": 2166930,
+     "text": "to tell us how much of the beat rate of your guidance in Q3 was because of the large customer"
+    },
+    {
+     "t0_ms": 2172070,
+     "text": "spending of the commit relative to the rest of the business rate, depending on how you"
+    },
+    {
+     "t0_ms": 2176670,
+     "text": "forecasted them in Q3? And have a quick follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2180230,
+   "t1_ms": 2224530,
+   "speaker": "Management",
+   "text": "Yeah, we're not, we're not, we're not answering, we're not being specific, but it is true. It just, it is true that if you're basically guiding, like in, in, in below there, we said we'd be conservative in Q3, we said conservative relative to what they were spending. And in Q4, we've been explicit and said minimum commitment. It is true that if they spend more than that, that would be implicit B mathematically. Yeah. Yeah, we didn't change the assumption there over time. We kept waiting on change. I think the one difference we brought up earlier, the one difference since the last quarter, is some positive trends on the overall customer growth, but also some early renewals of larger customers,",
+   "parts": [
+    {
+     "t0_ms": 2180230,
+     "text": "Yeah, we're not, we're not, we're not answering, we're not being specific, but it is true."
+    },
+    {
+     "t0_ms": 2184830,
+     "text": "It just, it is true that if you're basically guiding, like in, in, in below there, we said"
+    },
+    {
+     "t0_ms": 2192950,
+     "text": "we'd be conservative in Q3, we said conservative relative to what they were spending."
+    },
+    {
+     "t0_ms": 2197750,
+     "text": "And in Q4, we've been explicit and said minimum commitment."
+    },
+    {
+     "t0_ms": 2201670,
+     "text": "It is true that if they spend more than that, that would be implicit B mathematically."
+    },
+    {
+     "t0_ms": 2207090,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2207150,
+     "text": "Yeah, we didn't change the assumption there over time."
+    },
+    {
+     "t0_ms": 2210510,
+     "text": "We kept waiting on change."
+    },
+    {
+     "t0_ms": 2212010,
+     "text": "I think the one difference we brought up earlier,"
+    },
+    {
+     "t0_ms": 2215310,
+     "text": "the one difference since the last quarter,"
+    },
+    {
+     "t0_ms": 2217990,
+     "text": "is some positive trends on the overall customer growth,"
+    },
+    {
+     "t0_ms": 2222110,
+     "text": "but also some early renewals of larger customers,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2224610,
+   "t1_ms": 2230110,
+   "speaker": "Management",
+   "text": "which includes some other AI customers. That's the one thing we should remember as being the difference.",
+   "parts": [
+    {
+     "t0_ms": 2224610,
+     "text": "which includes some other AI customers."
+    },
+    {
+     "t0_ms": 2226150,
+     "text": "That's the one thing we should remember as being the difference."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2231370,
+   "t1_ms": 2256250,
+   "speaker": "Analyst",
+   "text": "Yeah, sure. And from a follow-up, I mean, the contribution of revenue from new customers continues to ramp up steadily. Can you just talk about sort of what is the average land size that you're seeing now with new customers and how that's changed and what sort of behavior you're seeing on that front? How are you thinking about it as you sort of move into next year in terms of how much new customers contribute to your overall growth? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2231370,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 2231890,
+     "text": "And from a follow-up,"
+    },
+    {
+     "t0_ms": 2232770,
+     "text": "I mean, the contribution of revenue from new customers continues to ramp up steadily."
+    },
+    {
+     "t0_ms": 2239790,
+     "text": "Can you just talk about sort of what is the average land size that you're seeing now with"
+    },
+    {
+     "t0_ms": 2243770,
+     "text": "new customers and how that's changed and what sort of behavior you're seeing on that front?"
+    },
+    {
+     "t0_ms": 2249150,
+     "text": "How are you thinking about it as you sort of move into next year in terms of how much"
+    },
+    {
+     "t0_ms": 2253090,
+     "text": "new customers contribute to your overall growth?"
+    },
+    {
+     "t0_ms": 2255930,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2257270,
+   "t1_ms": 2299210,
+   "speaker": "Management",
+   "text": "We haven't provided guidance on what we said over time. and we've seen an increase of average land size due to the increase of the platform and as we give the metrics on the adoption of products, the adoption of more parts of the platform. Ali, do you want to? Yeah, I think, look, this is something we see in the customer base that we see that one is with the new and the innovative companies, some of them start with more scale earlier. It's like we discussed it before, but, you know, we see companies scaling faster than used to, so they represent more of the revenue faster. But we also are developing new segments and lending large customers from day one.",
+   "parts": [
+    {
+     "t0_ms": 2257270,
+     "text": "We haven't provided guidance on what we said over time."
+    },
+    {
+     "t0_ms": 2260450,
+     "text": "and we've seen an increase of average land size due to the increase of the platform"
+    },
+    {
+     "t0_ms": 2267610,
+     "text": "and as we give the metrics on the adoption of products,"
+    },
+    {
+     "t0_ms": 2271010,
+     "text": "the adoption of more parts of the platform."
+    },
+    {
+     "t0_ms": 2273150,
+     "text": "Ali, do you want to?"
+    },
+    {
+     "t0_ms": 2274010,
+     "text": "Yeah, I think, look, this is something we see in the customer base"
+    },
+    {
+     "t0_ms": 2276590,
+     "text": "that we see that one is with the new and the innovative companies,"
+    },
+    {
+     "t0_ms": 2282710,
+     "text": "some of them start with more scale earlier."
+    },
+    {
+     "t0_ms": 2284910,
+     "text": "It's like we discussed it before, but, you know,"
+    },
+    {
+     "t0_ms": 2287050,
+     "text": "we see companies scaling faster than used to,"
+    },
+    {
+     "t0_ms": 2288990,
+     "text": "so they represent more of the revenue faster."
+    },
+    {
+     "t0_ms": 2292250,
+     "text": "But we also are developing new segments"
+    },
+    {
+     "t0_ms": 2295730,
+     "text": "and lending large customers from day one."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2299430,
+   "t1_ms": 2332150,
+   "speaker": "Management",
+   "text": "So we called out a few on the script today. We mentioned, I think, a defense agency in the U.S. government. We mentioned Japanese banks, like two of the three largest Japanese banks in the same quarters. Those are all sizable low-land deals. And if you compare the business to what it was, say, five years ago, like, this is definitely a new salary business that we didn't necessarily have before. And, by the way, those wins I mentioned, they don't even register into the revenue yet, you know, because these are plans, but these are not customers that are ramped users yet.",
+   "parts": [
+    {
+     "t0_ms": 2299430,
+     "text": "So we called out a few on the script today."
+    },
+    {
+     "t0_ms": 2302950,
+     "text": "We mentioned, I think, a defense agency in the U.S. government."
+    },
+    {
+     "t0_ms": 2307570,
+     "text": "We mentioned Japanese banks,"
+    },
+    {
+     "t0_ms": 2309730,
+     "text": "like two of the three largest Japanese banks in the same quarters."
+    },
+    {
+     "t0_ms": 2313390,
+     "text": "Those are all sizable low-land deals."
+    },
+    {
+     "t0_ms": 2315910,
+     "text": "And if you compare the business to what it was, say, five years ago, like, this is definitely a new salary business that we didn't necessarily have before."
+    },
+    {
+     "t0_ms": 2323190,
+     "text": "And, by the way, those wins I mentioned, they don't even register into the revenue yet, you know, because these are plans, but these are not customers that are ramped users yet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2333130,
+   "t1_ms": 2335210,
+   "speaker": "Operator",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2333130,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2337900,
+   "t1_ms": 2338480,
+   "speaker": "Management",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2337900,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2339000,
+   "t1_ms": 2343800,
+   "speaker": "Operator",
+   "text": "Our next question comes from Matt Hedberg from RBC. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2339000,
+     "text": "Our next question comes from Matt Hedberg from RBC."
+    },
+    {
+     "t0_ms": 2343120,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2345000,
+   "t1_ms": 2388700,
+   "speaker": "Management",
+   "text": "Great. Thanks for taking my questions, guys. Appreciate it. I wanted to start with training. You noted in your script you had an eight-figure, I think, annualized expansion with an AI division of a large software company. So I think they're using you guys for AI training workloads. I guess this is, to us, it seems like a really interesting growth opportunity. Can you step back and kind of talk about what that training opportunity is and what could it mean for your growth? I mean, it's been evolving positively. You know, if you look, you know, a year or two years ago, basically nobody was doing training. It was only a few frontier labs were doing their own training and nobody else was.",
+   "parts": [
+    {
+     "t0_ms": 2345000,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2345480,
+     "text": "Thanks for taking my questions, guys."
+    },
+    {
+     "t0_ms": 2346480,
+     "text": "Appreciate it."
+    },
+    {
+     "t0_ms": 2347560,
+     "text": "I wanted to start with training."
+    },
+    {
+     "t0_ms": 2350780,
+     "text": "You noted in your script you had an eight-figure, I think, annualized expansion with an AI division of a large software company."
+    },
+    {
+     "t0_ms": 2356680,
+     "text": "So I think they're using you guys for AI training workloads."
+    },
+    {
+     "t0_ms": 2359620,
+     "text": "I guess this is, to us, it seems like a really interesting growth opportunity."
+    },
+    {
+     "t0_ms": 2363640,
+     "text": "Can you step back and kind of talk about what that training opportunity is and what could it mean for your growth?"
+    },
+    {
+     "t0_ms": 2371740,
+     "text": "I mean, it's been evolving positively."
+    },
+    {
+     "t0_ms": 2373600,
+     "text": "You know, if you look, you know, a year or two years ago,"
+    },
+    {
+     "t0_ms": 2378920,
+     "text": "basically nobody was doing training."
+    },
+    {
+     "t0_ms": 2380620,
+     "text": "It was only a few frontier labs were doing their own training"
+    },
+    {
+     "t0_ms": 2387360,
+     "text": "and nobody else was."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2389540,
+   "t1_ms": 2431300,
+   "speaker": "Management",
+   "text": "Now we see an order of magnitude more large-ish labs or neo-labs that are doing training at a large scale. And then there's another whole category of companies below that that are starting to do their own, you know, including us you know we we started doing training at a pretty decent scale and you know we showed some of the results we discussed some of the results on the call as well so i think there's some interesting potential development there where training becomes a part of everybody's business and everybody's customizing model and building their own and so we're investing um i would say fillory to call it as a mass market you know right now we see some interesting indications of it we We also see that we can be extremely useful to some very large customers.",
+   "parts": [
+    {
+     "t0_ms": 2389540,
+     "text": "Now we see an order of magnitude more large-ish labs or neo-labs"
+    },
+    {
+     "t0_ms": 2395040,
+     "text": "that are doing training at a large scale."
+    },
+    {
+     "t0_ms": 2399140,
+     "text": "And then there's another whole category of companies below that"
+    },
+    {
+     "t0_ms": 2401840,
+     "text": "that are starting to do their own, you know,"
+    },
+    {
+     "t0_ms": 2403240,
+     "text": "including us you know we we started doing training at a pretty decent scale and you know we showed"
+    },
+    {
+     "t0_ms": 2408520,
+     "text": "some of the results we discussed some of the results on the call as well so i think there's"
+    },
+    {
+     "t0_ms": 2412360,
+     "text": "some interesting potential development there where training becomes a part of everybody's business"
+    },
+    {
+     "t0_ms": 2417240,
+     "text": "and everybody's customizing model and building their own and so we're investing um i would say"
+    },
+    {
+     "t0_ms": 2422040,
+     "text": "fillory to call it as a mass market you know right now we see some interesting indications of it we"
+    },
+    {
+     "t0_ms": 2428760,
+     "text": "We also see that we can be extremely useful to some very large customers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2432180,
+   "t1_ms": 2473560,
+   "speaker": "Management",
+   "text": "But I think we still have to invest. We still have to build. We still have to see all that market develops. Got it. And actually, David, if I can just have one more follow-up. You know, on your largest customer, you use the word substantially above their minimums, which I find interesting. And I know you're assuming, you know, only the minimums for 4Q. But philosophically, looking at this customer and their recent consumption patterns, you know, Does this perhaps change your opinion about, you know, how they might use Datadog longer term, maybe new use cases above and beyond what they're using today that, you know, could, you know, make that growth opportunity really interesting for this customer? I think that's true for any customer that, you know, there are many different use cases.",
+   "parts": [
+    {
+     "t0_ms": 2432180,
+     "text": "But I think we still have to invest."
+    },
+    {
+     "t0_ms": 2435300,
+     "text": "We still have to build."
+    },
+    {
+     "t0_ms": 2436060,
+     "text": "We still have to see all that market develops."
+    },
+    {
+     "t0_ms": 2439060,
+     "text": "Got it."
+    },
+    {
+     "t0_ms": 2439620,
+     "text": "And actually, David, if I can just have one more follow-up."
+    },
+    {
+     "t0_ms": 2442260,
+     "text": "You know, on your largest customer, you use the word substantially above their minimums, which I find interesting."
+    },
+    {
+     "t0_ms": 2447440,
+     "text": "And I know you're assuming, you know, only the minimums for 4Q."
+    },
+    {
+     "t0_ms": 2450740,
+     "text": "But philosophically, looking at this customer and their recent consumption patterns, you know,"
+    },
+    {
+     "t0_ms": 2455280,
+     "text": "Does this perhaps change your opinion about, you know, how they might use Datadog longer term, maybe new use cases above and beyond what they're using today that, you know, could, you know, make that growth opportunity really interesting for this customer?"
+    },
+    {
+     "t0_ms": 2468080,
+     "text": "I think that's true for any customer that, you know, there are many different use cases."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2473960,
+   "t1_ms": 2498460,
+   "speaker": "Management",
+   "text": "For that in particular, we, as we said all along for many quarters, we don't control. We have, you know, the contract, the renewal, and we're not in the business of projecting that. But it is true from, you know, across our customer base that there are many use cases in a company, whether it be division, end user, et cetera. Ali, you went.",
+   "parts": [
+    {
+     "t0_ms": 2473960,
+     "text": "For that in particular, we, as we said all along for many quarters, we don't control."
+    },
+    {
+     "t0_ms": 2480240,
+     "text": "We have, you know, the contract, the renewal, and we're not in the business of projecting that."
+    },
+    {
+     "t0_ms": 2487340,
+     "text": "But it is true from, you know, across our customer base that there are many use cases in a company, whether it be division, end user, et cetera."
+    },
+    {
+     "t0_ms": 2498000,
+     "text": "Ali, you went."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2498920,
+   "t1_ms": 2504290,
+   "speaker": "Operator",
+   "text": "All right.",
+   "parts": [
+    {
+     "t0_ms": 2498920,
+     "text": "All right."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2504330,
+   "t1_ms": 2504870,
+   "speaker": "Management",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2504330,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2505090,
+   "t1_ms": 2510170,
+   "speaker": "Operator",
+   "text": "Our next question will come from the line of Carl Kirsten from UBS. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2505090,
+     "text": "Our next question will come from the line of Carl Kirsten from UBS."
+    },
+    {
+     "t0_ms": 2509510,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2510630,
+   "t1_ms": 2553420,
+   "speaker": "Management",
+   "text": "Thank you. Maybe, Olivier, for you, you mentioned in your comments that customers are, grappling with higher token costs, higher AI spend, and are trying to get it under control. I'm just wondering, based on all your customer interactions, how enterprise spending behavior is changing in light of the fact that they're trying to get their token costs under control, and to the extent that any of the customers that early renewed to try to get price discounts were not AI natives they were traditional enterprises do you think that might be because they're trying to grapple with budget pressure thanks so",
+   "parts": [
+    {
+     "t0_ms": 2510630,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2512460,
+     "text": "Maybe, Olivier, for you, you mentioned in your comments that customers are,"
+    },
+    {
+     "t0_ms": 2517920,
+     "text": "grappling with higher token costs, higher AI spend, and are trying to get it under control."
+    },
+    {
+     "t0_ms": 2524800,
+     "text": "I'm just wondering, based on all your customer interactions, how enterprise spending behavior"
+    },
+    {
+     "t0_ms": 2530600,
+     "text": "is changing in light of the fact that they're trying to get their token costs under control,"
+    },
+    {
+     "t0_ms": 2537000,
+     "text": "and to the extent that any of the customers that early renewed to try to get price discounts"
+    },
+    {
+     "t0_ms": 2543160,
+     "text": "were not AI natives they were traditional enterprises do you think"
+    },
+    {
+     "t0_ms": 2548200,
+     "text": "that might be because they're trying to grapple with budget pressure thanks so"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2553420,
+   "t1_ms": 2596520,
+   "speaker": "Management",
+   "text": "much yes I think look this is a very widespread problem I think what we've seen is there's been an explosion of adoption of AI in particular coding agents and that was not planned largely like you know a year ago nobody had the the amount they spend in their budget on AI. So everybody has to try and figure out what that works and what part of that they actually need and what they get from that. So there's a strong need for tooling, which is something we provide. It's a great opportunity for us, and we see great growth and adoption of our cloud cost management products on that, or agent console, that these are all products that . Now in terms of the early renewal dynamics we've seen, they're not directly related to that. I think they come from large customers",
+   "parts": [
+    {
+     "t0_ms": 2553420,
+     "text": "much yes I think look this is a very widespread problem I think what we've"
+    },
+    {
+     "t0_ms": 2558580,
+     "text": "seen is there's been an explosion of adoption of AI in particular coding"
+    },
+    {
+     "t0_ms": 2563260,
+     "text": "agents and that was not planned largely like you know a year ago nobody had the"
+    },
+    {
+     "t0_ms": 2568960,
+     "text": "the amount they spend in their budget on AI."
+    },
+    {
+     "t0_ms": 2572820,
+     "text": "So everybody has to try and figure out"
+    },
+    {
+     "t0_ms": 2575160,
+     "text": "what that works and what part of that they actually need"
+    },
+    {
+     "t0_ms": 2577560,
+     "text": "and what they get from that."
+    },
+    {
+     "t0_ms": 2578900,
+     "text": "So there's a strong need for tooling,"
+    },
+    {
+     "t0_ms": 2580220,
+     "text": "which is something we provide."
+    },
+    {
+     "t0_ms": 2581360,
+     "text": "It's a great opportunity for us,"
+    },
+    {
+     "t0_ms": 2582480,
+     "text": "and we see great growth and adoption"
+    },
+    {
+     "t0_ms": 2585340,
+     "text": "of our cloud cost management products on that,"
+    },
+    {
+     "t0_ms": 2587380,
+     "text": "or agent console, that these are all products that ."
+    },
+    {
+     "t0_ms": 2591240,
+     "text": "Now in terms of the early renewal dynamics we've seen,"
+    },
+    {
+     "t0_ms": 2593560,
+     "text": "they're not directly related to that."
+    },
+    {
+     "t0_ms": 2594540,
+     "text": "I think they come from large customers"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2596520,
+   "t1_ms": 2618880,
+   "speaker": "Management",
+   "text": "that are either AI labs or that are focused on, that are tech companies in general, I would say. And that doesn't really have anything to do with their own token consumption. It has more to do with their own growth as a business.",
+   "parts": [
+    {
+     "t0_ms": 2596520,
+     "text": "that are either AI labs or that are focused on,"
+    },
+    {
+     "t0_ms": 2599520,
+     "text": "that are tech companies in general, I would say."
+    },
+    {
+     "t0_ms": 2602280,
+     "text": "And that doesn't really have anything to do"
+    },
+    {
+     "t0_ms": 2606080,
+     "text": "with their own token consumption."
+    },
+    {
+     "t0_ms": 2608240,
+     "text": "It has more to do with their own growth as a business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2618880,
+   "t1_ms": 2623000,
+   "speaker": "Operator",
+   "text": "And we'll come from the line of Fatima Boulani from Citi.",
+   "parts": [
+    {
+     "t0_ms": 2618880,
+     "text": "And we'll come from the line of Fatima Boulani from Citi."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2623000,
+   "t1_ms": 2658560,
+   "speaker": "Analyst",
+   "text": "Your line is open. Hi, good morning everyone. This is Joel on for Fatima. I'll maybe just ask two real quick. So firstly, just on margins and operating in gross income leverage, maybe for you, David, strong results this quarter, at least relative to our expectations. But we do know there's also certain areas that you are investing fairly heavily in. So just curious what some of the drivers of the performance were specifically this quarter and then what your updated or what your latest investment posture is.",
+   "parts": [
+    {
+     "t0_ms": 2623000,
+     "text": "Your line is open."
+    },
+    {
+     "t0_ms": 2625380,
+     "text": "Hi, good morning everyone."
+    },
+    {
+     "t0_ms": 2626340,
+     "text": "This is Joel on for Fatima."
+    },
+    {
+     "t0_ms": 2629380,
+     "text": "I'll maybe just ask two real quick."
+    },
+    {
+     "t0_ms": 2632060,
+     "text": "So firstly, just on margins and operating in gross income leverage, maybe for you, David,"
+    },
+    {
+     "t0_ms": 2638320,
+     "text": "strong results this quarter, at least relative to our expectations."
+    },
+    {
+     "t0_ms": 2642060,
+     "text": "But we do know there's also certain areas that you are investing fairly heavily in."
+    },
+    {
+     "t0_ms": 2648060,
+     "text": "So just curious what some of the drivers of the performance were specifically this quarter"
+    },
+    {
+     "t0_ms": 2653620,
+     "text": "and then what your updated or what your latest investment posture is."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2658560,
+   "t1_ms": 2669400,
+   "speaker": "Analyst",
+   "text": "And then just the quick second question, I'll just throw it in now, is any data points on BITS AI penetration specifically in the customer base? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2658560,
+     "text": "And then just the quick second question, I'll just throw it in now, is any data points on BITS AI penetration specifically in the customer base?"
+    },
+    {
+     "t0_ms": 2669000,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2671660,
+   "t1_ms": 2716340,
+   "speaker": "Management",
+   "text": "I'll go margins first. It's very similar to what we said. We are investing aggressively in the go-to-market. We continue to have white space uncovered, both from a geographical or an end market, for instance, Fed. And we are continuing to be successful in scaling our quoted capacity, and you see that in the growth. In addition, we're continuing to invest in R&D. In this case, it's a combination of AI, of investments in a combination of AI and people. We see lots of opportunities.",
+   "parts": [
+    {
+     "t0_ms": 2671660,
+     "text": "I'll go margins first."
+    },
+    {
+     "t0_ms": 2674280,
+     "text": "It's very similar to what we said."
+    },
+    {
+     "t0_ms": 2676340,
+     "text": "We are investing aggressively in the go-to-market."
+    },
+    {
+     "t0_ms": 2681340,
+     "text": "We continue to have white space uncovered, both from a geographical or an end market, for instance, Fed."
+    },
+    {
+     "t0_ms": 2687820,
+     "text": "And we are continuing to be successful in scaling our quoted capacity, and you see that in the growth."
+    },
+    {
+     "t0_ms": 2699840,
+     "text": "In addition, we're continuing to invest in R&D."
+    },
+    {
+     "t0_ms": 2703980,
+     "text": "In this case, it's a combination of AI, of investments in a combination of AI and people."
+    },
+    {
+     "t0_ms": 2715120,
+     "text": "We see lots of opportunities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2716460,
+   "t1_ms": 2759160,
+   "speaker": "Management",
+   "text": "I think Ali will now go talk about the products, but we continue to see a lot of opportunity for us to get market share, get platform penetration, and increase our feed on the street or on a global basis. Do you want to go over the bits? Yeah, and on this, I mean, we've mentioned on the call, we see an amazing adoption of it, like this is. When you look at the number of individual customers or users that are using it. This has been the strongest launch we've ever had as a product, so we feel very good about it. We've also revamped the way we package it over the past quarter, so we used to charge specifically for investigations.",
+   "parts": [
+    {
+     "t0_ms": 2716460,
+     "text": "I think Ali will now go talk about the products,"
+    },
+    {
+     "t0_ms": 2718660,
+     "text": "but we continue to see a lot of opportunity for us to get market share,"
+    },
+    {
+     "t0_ms": 2725640,
+     "text": "get platform penetration, and increase our feed on the street"
+    },
+    {
+     "t0_ms": 2731720,
+     "text": "or on a global basis."
+    },
+    {
+     "t0_ms": 2733500,
+     "text": "Do you want to go over the bits?"
+    },
+    {
+     "t0_ms": 2734840,
+     "text": "Yeah, and on this, I mean, we've mentioned on the call,"
+    },
+    {
+     "t0_ms": 2736880,
+     "text": "we see an amazing adoption of it, like this is."
+    },
+    {
+     "t0_ms": 2740760,
+     "text": "When you look at the number of individual customers or users"
+    },
+    {
+     "t0_ms": 2743900,
+     "text": "that are using it."
+    },
+    {
+     "t0_ms": 2746560,
+     "text": "This has been the strongest launch"
+    },
+    {
+     "t0_ms": 2748000,
+     "text": "we've ever had as a product,"
+    },
+    {
+     "t0_ms": 2750220,
+     "text": "so we feel very good about it."
+    },
+    {
+     "t0_ms": 2751900,
+     "text": "We've also revamped the way we package it"
+    },
+    {
+     "t0_ms": 2754140,
+     "text": "over the past quarter,"
+    },
+    {
+     "t0_ms": 2755500,
+     "text": "so we used to charge specifically"
+    },
+    {
+     "t0_ms": 2758260,
+     "text": "for investigations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2760100,
+   "t1_ms": 2793540,
+   "speaker": "Management",
+   "text": "Now we have a model of AI credits that cover a whole different set of use cases that involve a BITS as our agent, and we've seen great results thanks to that. So it's super encouraging. You know, I would say still early because there's still so much that we work building into it. So many things our customers want us to do for them, so many opportunities to automate their workflows. But we feel very, very good about the current status. Let me just circle back on one thing I think I neglected to go over gross margins you mentioned.",
+   "parts": [
+    {
+     "t0_ms": 2760100,
+     "text": "Now we have a model of AI credits"
+    },
+    {
+     "t0_ms": 2762220,
+     "text": "that cover a whole different set of use cases"
+    },
+    {
+     "t0_ms": 2764880,
+     "text": "that involve a BITS as our agent,"
+    },
+    {
+     "t0_ms": 2767860,
+     "text": "and we've seen great results thanks to that."
+    },
+    {
+     "t0_ms": 2771000,
+     "text": "So it's super encouraging."
+    },
+    {
+     "t0_ms": 2773080,
+     "text": "You know, I would say still early because there's still so much that we work building into it."
+    },
+    {
+     "t0_ms": 2777540,
+     "text": "So many things our customers want us to do for them, so many opportunities to automate their workflows."
+    },
+    {
+     "t0_ms": 2784820,
+     "text": "But we feel very, very good about the current status."
+    },
+    {
+     "t0_ms": 2788580,
+     "text": "Let me just circle back on one thing I think I neglected to go over gross margins you mentioned."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2793540,
+   "t1_ms": 2831500,
+   "speaker": "Management",
+   "text": "I think it's very similar to what we said before that through a combination of the penetration of our platform as well as our engineering, we have been, you know, plus or minus in this 80% range. I think you see in this quarter, we ended up around 81. And so this is common practice for us. We invest, optimize, do engineering projects. And what was communicated in gross margin indicates stability there, which we've evidenced in previous quarters.",
+   "parts": [
+    {
+     "t0_ms": 2793540,
+     "text": "I think it's very similar to what we said before that through a combination of the penetration of our platform as well as our engineering, we have been, you know, plus or minus in this 80% range."
+    },
+    {
+     "t0_ms": 2809540,
+     "text": "I think you see in this quarter, we ended up around 81."
+    },
+    {
+     "t0_ms": 2816800,
+     "text": "And so this is common practice for us."
+    },
+    {
+     "t0_ms": 2820160,
+     "text": "We invest, optimize, do engineering projects."
+    },
+    {
+     "t0_ms": 2824720,
+     "text": "And what was communicated in gross margin indicates stability there, which we've evidenced"
+    },
+    {
+     "t0_ms": 2830800,
+     "text": "in previous quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2837020,
+   "t1_ms": 2844360,
+   "speaker": "Operator",
+   "text": "Thank you. One moment for our next question. Our next question will come from Kirk Materni from Evercore ISI. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2837020,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2837500,
+     "text": "One moment for our next question."
+    },
+    {
+     "t0_ms": 2839000,
+     "text": "Our next question will come from Kirk Materni from Evercore ISI."
+    },
+    {
+     "t0_ms": 2843680,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2845120,
+   "t1_ms": 2889120,
+   "speaker": "Management",
+   "text": "Yeah, thanks very much for taking the question. I guess, David, or Ali, on this native AI cohort that's renewing a little bit early, obviously they're coming back because they're spending so much with you all and obviously want to get better economics. I'm just curious, what's the sort of attach rate on some of those newer renewals? When they come back and renew early, do you still have time to sort of cross-sell them, some of the other products? I guess, what are you seeing in that dynamic? I realize it creates some near-term headwinds from a revenue perspective, but it would also, I think, open up the opportunity to have a discussion about expanding their usage across multiple products. Thanks. Yeah, I mean, look, if you look at these cohorts, and if you compare them in particular to the plant-native cohorts we might have had like five or six years ago,",
+   "parts": [
+    {
+     "t0_ms": 2845120,
+     "text": "Yeah, thanks very much for taking the question."
+    },
+    {
+     "t0_ms": 2847780,
+     "text": "I guess, David, or Ali, on this native AI cohort that's renewing a little bit early,"
+    },
+    {
+     "t0_ms": 2854200,
+     "text": "obviously they're coming back because they're spending so much with you all"
+    },
+    {
+     "t0_ms": 2857180,
+     "text": "and obviously want to get better economics."
+    },
+    {
+     "t0_ms": 2859020,
+     "text": "I'm just curious, what's the sort of attach rate on some of those newer renewals?"
+    },
+    {
+     "t0_ms": 2862820,
+     "text": "When they come back and renew early, do you still have time to sort of cross-sell them,"
+    },
+    {
+     "t0_ms": 2867360,
+     "text": "some of the other products?"
+    },
+    {
+     "t0_ms": 2868700,
+     "text": "I guess, what are you seeing in that dynamic?"
+    },
+    {
+     "t0_ms": 2870240,
+     "text": "I realize it creates some near-term headwinds from a revenue perspective,"
+    },
+    {
+     "t0_ms": 2873420,
+     "text": "but it would also, I think, open up the opportunity"
+    },
+    {
+     "t0_ms": 2875540,
+     "text": "to have a discussion about expanding their usage"
+    },
+    {
+     "t0_ms": 2878200,
+     "text": "across multiple products."
+    },
+    {
+     "t0_ms": 2879960,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2881300,
+     "text": "Yeah, I mean, look, if you look at these cohorts,"
+    },
+    {
+     "t0_ms": 2883780,
+     "text": "and if you compare them in particular"
+    },
+    {
+     "t0_ms": 2885180,
+     "text": "to the plant-native cohorts we might have had"
+    },
+    {
+     "t0_ms": 2888000,
+     "text": "like five or six years ago,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2890080,
+   "t1_ms": 2930380,
+   "speaker": "Management",
+   "text": "like these are adopting many more products. You know, so we've seen much broader product adoption and platform adoption with those customers than, you know, we saw five, six years ago. so that that's definitely something that is happening sometimes happening at renewal time sometimes just happening organically you know as new needs emerge and and always spread to more teams you know inside those companies but i think it's important to clarify these are renewals but they are at higher levels than their previous commit which is how they're getting you know the the volume discounts but we are we are renewing these customers at higher commits",
+   "parts": [
+    {
+     "t0_ms": 2890080,
+     "text": "like these are adopting many more products."
+    },
+    {
+     "t0_ms": 2893220,
+     "text": "You know, so we've seen much broader product adoption"
+    },
+    {
+     "t0_ms": 2895200,
+     "text": "and platform adoption with those customers"
+    },
+    {
+     "t0_ms": 2897980,
+     "text": "than, you know, we saw five, six years ago."
+    },
+    {
+     "t0_ms": 2900000,
+     "text": "so that that's definitely something that is happening sometimes happening at renewal time"
+    },
+    {
+     "t0_ms": 2906220,
+     "text": "sometimes just happening organically you know as new needs emerge and and always spread to"
+    },
+    {
+     "t0_ms": 2911200,
+     "text": "more teams you know inside those companies but i think it's important to clarify these are"
+    },
+    {
+     "t0_ms": 2915580,
+     "text": "renewals but they are at higher levels than their previous commit which is how they're getting"
+    },
+    {
+     "t0_ms": 2923600,
+     "text": "you know the the volume discounts but we are we are renewing these customers at higher commits"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2930380,
+   "t1_ms": 2972580,
+   "speaker": "Management",
+   "text": "okay and david i guess just for you i mean this would seem this cohort coming up for renewal earlier it's all good over the long term i'd imagine just visibility is a little bit harder from a sequential perspective is that sort of you know to ollie's comments on the long term i'd imagine it's all good from a longer term perspective but just creates a little more volatility for you on a sort of quarter out guidance perspective? Is that fair? I would say it has a small, you know, small amount of variation in the timing of the revenue path of these customers. The sequential here was really three things. It was really one, that factor,",
+   "parts": [
+    {
+     "t0_ms": 2930380,
+     "text": "okay and david i guess just for you i mean this would seem this cohort coming up for renewal"
+    },
+    {
+     "t0_ms": 2935940,
+     "text": "earlier it's all good over the long term i'd imagine just visibility is a little bit harder"
+    },
+    {
+     "t0_ms": 2939980,
+     "text": "from a sequential perspective is that sort of you know to ollie's comments on the long term i'd"
+    },
+    {
+     "t0_ms": 2945080,
+     "text": "imagine it's all good from a longer term perspective but just creates a little more"
+    },
+    {
+     "t0_ms": 2949360,
+     "text": "volatility for you on a sort of quarter out guidance perspective? Is that fair?"
+    },
+    {
+     "t0_ms": 2955460,
+     "text": "I would say it has a small, you know, small amount of variation in the timing of the revenue path of"
+    },
+    {
+     "t0_ms": 2963640,
+     "text": "these customers. The sequential here was really three things. It was really one, that factor,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2972820,
+   "t1_ms": 3016820,
+   "speaker": "Management",
+   "text": "two, I think we mentioned the largest customer in the guide, which, you know, we're not predicting what they're going to do. And three is we know about the small amount of seasonality. So it's one of the factors. We try to get a good sense of that. But of course, as our PO and as our contract, as we extend, it does create some volatility around the edges in the sequential nature but again it's all it's all it's all good news you know yeah look we are using space model and when we did with fast growth customers these customers themselves don't know exactly how they're going to grow over the next the next few months and what part of their business and",
+   "parts": [
+    {
+     "t0_ms": 2972820,
+     "text": "two, I think we mentioned the largest customer in the guide, which, you know, we're not predicting"
+    },
+    {
+     "t0_ms": 2979040,
+     "text": "what they're going to do. And three is we know about the small amount of seasonality. So it's"
+    },
+    {
+     "t0_ms": 2986060,
+     "text": "one of the factors. We try to get a good sense of that. But of course, as our PO and as our"
+    },
+    {
+     "t0_ms": 2996860,
+     "text": "contract, as we extend, it does create some volatility around the edges in the sequential"
+    },
+    {
+     "t0_ms": 3002820,
+     "text": "nature but again it's all it's all it's all good news you know yeah look we are using space model"
+    },
+    {
+     "t0_ms": 3008260,
+     "text": "and when we did with fast growth customers these customers themselves don't know exactly"
+    },
+    {
+     "t0_ms": 3012580,
+     "text": "how they're going to grow over the next the next few months and what part of their business and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3016820,
+   "t1_ms": 3060840,
+   "speaker": "Management",
+   "text": "what whole their consumption is going to change you know so we we happily uh work with them and make sure that we support their growth and you know we do everything that's right the the only Anytime we think about it in difficult terms, when we prepare for a new school, we have to figure out, okay, so, you know, what part can we communicate, what part do we know, what part do we not know, you know. But overall, these are all great news, great customers, great growth, great adoption, amazing trends that are underpinning the industry as a whole, so we feel very good about it. And this is similar to what we've in the company's existence that you talked about. I mean, our motion is to increase the commitment of customers, broaden the platform and extend the contract.",
+   "parts": [
+    {
+     "t0_ms": 3016820,
+     "text": "what whole their consumption is going to change you know so we we happily uh work with them and"
+    },
+    {
+     "t0_ms": 3022420,
+     "text": "make sure that we support their growth and you know we do everything that's right the the only"
+    },
+    {
+     "t0_ms": 3027380,
+     "text": "Anytime we think about it in difficult terms, when we prepare for a new school, we have to figure out, okay, so, you know, what part can we communicate, what part do we know, what part do we not know, you know."
+    },
+    {
+     "t0_ms": 3038420,
+     "text": "But overall, these are all great news, great customers, great growth, great adoption, amazing trends that are underpinning the industry as a whole, so we feel very good about it."
+    },
+    {
+     "t0_ms": 3048200,
+     "text": "And this is similar to what we've in the company's existence that you talked about."
+    },
+    {
+     "t0_ms": 3051880,
+     "text": "I mean, our motion is to increase the commitment of customers, broaden the platform and extend the contract."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3060960,
+   "t1_ms": 3074740,
+   "speaker": "Management",
+   "text": "So that's what we do all the time. It has some variability, but is very similar to what we've been doing, you know, in in the company, you know, throughout its history. And it's a good thing. Thanks very much. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3060960,
+     "text": "So that's what we do all the time. It has some variability, but is very similar to what we've been doing, you know, in in the company, you know, throughout its history."
+    },
+    {
+     "t0_ms": 3069400,
+     "text": "And it's a good thing. Thanks very much. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3074740,
+   "t1_ms": 3081000,
+   "speaker": "Operator",
+   "text": "And our next question will come from the line of Peter Weed from Bannerstein Research. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3074740,
+     "text": "And our next question will come from the line of Peter Weed from Bannerstein Research."
+    },
+    {
+     "t0_ms": 3080360,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3083550,
+   "t1_ms": 3119250,
+   "speaker": "Management",
+   "text": "Thank you so much. We talked about it a little bit, but, you know, it's really exciting to hear about the release of the Bits.ai Scout and the strong early adoption. Could you help enumerate that a little bit and maybe remind us how the pricing works there? Is it kind of directly monetized, or does it really drive the adoption or use of Bits.ai overall? It would be really exciting to kind of appreciate how broad this AI adoption is now and how it might move the needle on overall growth and perhaps become another major pillar for the business. Yeah, so it's actually a bit of both, you know.",
+   "parts": [
+    {
+     "t0_ms": 3083550,
+     "text": "Thank you so much."
+    },
+    {
+     "t0_ms": 3085330,
+     "text": "We talked about it a little bit, but, you know, it's really exciting to hear about the release of the Bits.ai Scout and the strong early adoption."
+    },
+    {
+     "t0_ms": 3094270,
+     "text": "Could you help enumerate that a little bit and maybe remind us how the pricing works there?"
+    },
+    {
+     "t0_ms": 3099610,
+     "text": "Is it kind of directly monetized, or does it really drive the adoption or use of Bits.ai overall?"
+    },
+    {
+     "t0_ms": 3106470,
+     "text": "It would be really exciting to kind of appreciate how broad this AI adoption is now and how it might move the needle on overall growth and perhaps become another major pillar for the business."
+    },
+    {
+     "t0_ms": 3117230,
+     "text": "Yeah, so it's actually a bit of both, you know."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3119370,
+   "t1_ms": 3159430,
+   "speaker": "Management",
+   "text": "So, look, it not only sits on all of the data we acquire and the way we can process it and all the various products we have, you know, so that's the core. but we also have a model where we charge for AI credit specifically for what BIT does on top of that. And the model we've chosen is a model where we stay fairly close to inference costs there so that we can pass on the savings as the models become more efficient to our customers and so we can run many more investigations. And the reason we've done that is the field is changing so fast and we're improving the efficiency of those models so fast",
+   "parts": [
+    {
+     "t0_ms": 3119370,
+     "text": "So, look, it not only sits on all of the data we acquire and the way we can process it and all the various products we have, you know, so that's the core."
+    },
+    {
+     "t0_ms": 3130130,
+     "text": "but we also have a model where we charge for AI credit"
+    },
+    {
+     "t0_ms": 3134170,
+     "text": "specifically for what BIT does on top of that."
+    },
+    {
+     "t0_ms": 3139130,
+     "text": "And the model we've chosen is a model"
+    },
+    {
+     "t0_ms": 3140710,
+     "text": "where we stay fairly close to inference costs there"
+    },
+    {
+     "t0_ms": 3144250,
+     "text": "so that we can pass on the savings"
+    },
+    {
+     "t0_ms": 3146130,
+     "text": "as the models become more efficient to our customers"
+    },
+    {
+     "t0_ms": 3149710,
+     "text": "and so we can run many more investigations."
+    },
+    {
+     "t0_ms": 3153490,
+     "text": "And the reason we've done that is"
+    },
+    {
+     "t0_ms": 3154730,
+     "text": "the field is changing so fast"
+    },
+    {
+     "t0_ms": 3156810,
+     "text": "and we're improving the efficiency of those models so fast"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3159430,
+   "t1_ms": 3201590,
+   "speaker": "Management",
+   "text": "that it's not very productive to have a fixed price on the strategic thing you do as you expect the volume of things you do to increase by orders of magnitude while the price goes down by orders of magnitude as well. And so we saw it in that mode, which works really well. So long-term, we expect both to monetize this directly, as we do today, and to drive broader adoption of the platform and deliver more value to our customers. In terms of what becomes the dominant monetization, it's hard to tell, and we don't really care. Again, we're fully user-based, you know, so as long as we get more usage, deliver more value, we'll be fine.",
+   "parts": [
+    {
+     "t0_ms": 3159430,
+     "text": "that it's not very productive to have a fixed price"
+    },
+    {
+     "t0_ms": 3164510,
+     "text": "on the strategic thing you do"
+    },
+    {
+     "t0_ms": 3165970,
+     "text": "as you expect the volume of things you do"
+    },
+    {
+     "t0_ms": 3169430,
+     "text": "to increase by orders of magnitude"
+    },
+    {
+     "t0_ms": 3171530,
+     "text": "while the price goes down by orders of magnitude as well."
+    },
+    {
+     "t0_ms": 3174830,
+     "text": "And so we saw it in that mode,"
+    },
+    {
+     "t0_ms": 3177510,
+     "text": "which works really well."
+    },
+    {
+     "t0_ms": 3179370,
+     "text": "So long-term, we expect both to monetize this directly,"
+    },
+    {
+     "t0_ms": 3183870,
+     "text": "as we do today,"
+    },
+    {
+     "t0_ms": 3184910,
+     "text": "and to drive broader adoption of the platform"
+    },
+    {
+     "t0_ms": 3187410,
+     "text": "and deliver more value to our customers."
+    },
+    {
+     "t0_ms": 3190950,
+     "text": "In terms of what becomes the dominant monetization,"
+    },
+    {
+     "t0_ms": 3193690,
+     "text": "it's hard to tell, and we don't really care."
+    },
+    {
+     "t0_ms": 3196150,
+     "text": "Again, we're fully user-based, you know,"
+    },
+    {
+     "t0_ms": 3197710,
+     "text": "so as long as we get more usage, deliver more value, we'll be fine."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3204850,
+   "t1_ms": 3205190,
+   "speaker": "Management",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3204850,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3205590,
+   "t1_ms": 3207970,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3205590,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3208150,
+   "t1_ms": 3213610,
+   "speaker": "Operator",
+   "text": "Our next question will come from Koji Fikida from Bank of America. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3208150,
+     "text": "Our next question will come from Koji Fikida from Bank of America."
+    },
+    {
+     "t0_ms": 3212950,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3215230,
+   "t1_ms": 3258270,
+   "speaker": "Management",
+   "text": "Yeah, hey, thanks, guys. I wanted to ask a question on infrastructure monitoring. So you guys disclosed it's now exceeding $2 billion in ARR and growing in the mid-30s. Could you quantify how different that growth rate is from when you last disclosed the scale of this business at $1.5 billion earlier this year? How much of that growth is coming from AI infrastructure, and how sustainable is that growth rate as GPU efficiency improves? Thank you. So, I mean, look, we've seen acceleration of the business in general. and not just thanks to AI and IT, but also thanks to the rest of the customer base. So we mentioned that, and that applies to infrastructure monitoring also.",
+   "parts": [
+    {
+     "t0_ms": 3215230,
+     "text": "Yeah, hey, thanks, guys."
+    },
+    {
+     "t0_ms": 3216350,
+     "text": "I wanted to ask a question on infrastructure monitoring."
+    },
+    {
+     "t0_ms": 3219230,
+     "text": "So you guys disclosed it's now exceeding $2 billion in ARR and growing in the mid-30s."
+    },
+    {
+     "t0_ms": 3225570,
+     "text": "Could you quantify how different that growth rate is from when you last disclosed the scale of this business at $1.5 billion earlier this year?"
+    },
+    {
+     "t0_ms": 3233470,
+     "text": "How much of that growth is coming from AI infrastructure, and how sustainable is that growth rate as GPU efficiency improves?"
+    },
+    {
+     "t0_ms": 3240330,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3243790,
+     "text": "So, I mean, look, we've seen acceleration of the business in general."
+    },
+    {
+     "t0_ms": 3246890,
+     "text": "and not just thanks to AI and IT,"
+    },
+    {
+     "t0_ms": 3251290,
+     "text": "but also thanks to the rest of the customer base."
+    },
+    {
+     "t0_ms": 3253790,
+     "text": "So we mentioned that,"
+    },
+    {
+     "t0_ms": 3254590,
+     "text": "and that applies to infrastructure monitoring also."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3259430,
+   "t1_ms": 3284550,
+   "speaker": "Management",
+   "text": "Today, that growth is not actually related directly to GPUs. The GPUs are still largely on, we see them for our customers on training. We have products there, but we don't monetize those products widely yet. And so for us, that's an opportunity we have in front of us. That's not something that's baked into the current growth and the current numbers.",
+   "parts": [
+    {
+     "t0_ms": 3259430,
+     "text": "Today, that growth is not actually related directly to GPUs."
+    },
+    {
+     "t0_ms": 3266690,
+     "text": "The GPUs are still largely on,"
+    },
+    {
+     "t0_ms": 3270350,
+     "text": "we see them for our customers on training."
+    },
+    {
+     "t0_ms": 3273650,
+     "text": "We have products there,"
+    },
+    {
+     "t0_ms": 3275930,
+     "text": "but we don't monetize those products widely yet."
+    },
+    {
+     "t0_ms": 3279210,
+     "text": "And so for us, that's an opportunity we have in front of us."
+    },
+    {
+     "t0_ms": 3281790,
+     "text": "That's not something that's baked into the current growth"
+    },
+    {
+     "t0_ms": 3283810,
+     "text": "and the current numbers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3290780,
+   "t1_ms": 3297460,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question will come from Patrick Colville from Scotiabank. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3290780,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3291720,
+     "text": "Our next question will come from Patrick Colville"
+    },
+    {
+     "t0_ms": 3295420,
+     "text": "from Scotiabank."
+    },
+    {
+     "t0_ms": 3296860,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3299460,
+   "t1_ms": 3344320,
+   "speaker": "Analyst",
+   "text": "Thank you so much for having me on. To me, one of the most interesting points in the prepared remarks was about data dog training, your own frontier models. And then, Olivia, your comments around, you know, this behavior is not mass market but seeing how the market develops i guess i want to ask you because you know you're at the forefront of you know how things are changing how does this affect data dogs use of proprietary tokens internally or for customers versus open weight tokens and then i guess david if this shift that you know olivia is describing picks up steam what might that mean for Datadog profitability that it mostly increased this quarter,",
+   "parts": [
+    {
+     "t0_ms": 3299460,
+     "text": "Thank you so much for having me on."
+    },
+    {
+     "t0_ms": 3301920,
+     "text": "To me, one of the most interesting points"
+    },
+    {
+     "t0_ms": 3303540,
+     "text": "in the prepared remarks was about data dog training,"
+    },
+    {
+     "t0_ms": 3307400,
+     "text": "your own frontier models."
+    },
+    {
+     "t0_ms": 3310900,
+     "text": "And then, Olivia, your comments around, you know,"
+    },
+    {
+     "t0_ms": 3312680,
+     "text": "this behavior is not mass market but seeing how the market develops i guess i want to ask you"
+    },
+    {
+     "t0_ms": 3318320,
+     "text": "because you know you're at the forefront of you know how things are changing how does this affect"
+    },
+    {
+     "t0_ms": 3324500,
+     "text": "data dogs use of proprietary tokens internally or for customers versus open weight tokens and then"
+    },
+    {
+     "t0_ms": 3332140,
+     "text": "i guess david if this shift that you know olivia is describing picks up steam what might that mean"
+    },
+    {
+     "t0_ms": 3340480,
+     "text": "for Datadog profitability that it mostly increased this quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3344460,
+   "t1_ms": 3349400,
+   "speaker": "Analyst",
+   "text": "but is there potential that this might help the bottom line as well? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3344460,
+     "text": "but is there potential that this might help the bottom line as well?"
+    },
+    {
+     "t0_ms": 3349000,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3351930,
+   "t1_ms": 3395390,
+   "speaker": "Management",
+   "text": "So, look, what we see internally and what we see with customers is there's a mix of models that are being used. So, you know, I can say we and include both customers and us into that collective we because the behaviors are fairly similar. we're big consumers of the top labs top models but we also consume open weight models a growing amount of open weight models and we train on and post train on and I think it's probably representative of where the industry as a whole is going we do that because there are certain things you can only get from the top of the line models",
+   "parts": [
+    {
+     "t0_ms": 3351930,
+     "text": "So, look, what we see internally and what we see with customers"
+    },
+    {
+     "t0_ms": 3354610,
+     "text": "is there's a mix of models that are being used."
+    },
+    {
+     "t0_ms": 3358910,
+     "text": "So, you know, I can say we and include both customers and us"
+    },
+    {
+     "t0_ms": 3364550,
+     "text": "into that collective we because the behaviors are fairly similar."
+    },
+    {
+     "t0_ms": 3369310,
+     "text": "we're big consumers of the top labs"
+    },
+    {
+     "t0_ms": 3374570,
+     "text": "top models"
+    },
+    {
+     "t0_ms": 3377690,
+     "text": "but we also consume open weight models"
+    },
+    {
+     "t0_ms": 3381390,
+     "text": "a growing amount of open weight models"
+    },
+    {
+     "t0_ms": 3383410,
+     "text": "and we train on and post train on"
+    },
+    {
+     "t0_ms": 3385210,
+     "text": "and I think it's probably representative of where the industry as a whole is going"
+    },
+    {
+     "t0_ms": 3390010,
+     "text": "we do that because there are certain things"
+    },
+    {
+     "t0_ms": 3393090,
+     "text": "you can only get from the top of the line models"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3395390,
+   "t1_ms": 3433290,
+   "speaker": "Management",
+   "text": "that are being generally trained by others And there are a number of things that are good enough and very cost-efficient with open-weight models you can just pick up and run. And there's finally a number of other things that you can make way more efficient with your own data, your own workflow, and your own post-training, which is what we've done with some of the models we've announced. So I expect that mix to remain about the same. In terms of the impact on margin, look at today, you get some control on what you spend your money on. If it's very proprietary to you and you can deliver superior economics, you should absolutely do so.",
+   "parts": [
+    {
+     "t0_ms": 3395390,
+     "text": "that are being generally trained by others"
+    },
+    {
+     "t0_ms": 3397470,
+     "text": "And there are a number of things that are good enough and very cost-efficient with open-weight models you can just pick up and run."
+    },
+    {
+     "t0_ms": 3408610,
+     "text": "And there's finally a number of other things that you can make way more efficient with your own data, your own workflow, and your own post-training, which is what we've done with some of the models we've announced."
+    },
+    {
+     "t0_ms": 3418190,
+     "text": "So I expect that mix to remain about the same."
+    },
+    {
+     "t0_ms": 3421630,
+     "text": "In terms of the impact on margin, look at today, you get some control on what you spend your money on."
+    },
+    {
+     "t0_ms": 3427950,
+     "text": "If it's very proprietary to you and you can deliver superior economics, you should absolutely do so."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3433630,
+   "t1_ms": 3453830,
+   "speaker": "Management",
+   "text": "If not, like if it's very undifferentiated and applies broadly in some parts of your business that are the same to millions of other businesses, then it's fine probably to use off-the-shelf models and keep consuming those. It's okay. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3433630,
+     "text": "If not, like if it's very undifferentiated and applies broadly in some parts of your business that are the same to millions of other businesses, then it's fine probably to use off-the-shelf models and keep consuming those."
+    },
+    {
+     "t0_ms": 3453090,
+     "text": "It's okay."
+    },
+    {
+     "t0_ms": 3453530,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3455130,
+   "t1_ms": 3462230,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question will come from the line of Alex Zukin from Wolf Research. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3455130,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 3456350,
+     "text": "Our next question will come from the line of Alex Zukin from Wolf Research."
+    },
+    {
+     "t0_ms": 3461570,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3464440,
+   "t1_ms": 3488480,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks for getting me in. Ali, maybe a quick one for you and David to follow up. To what extent are you seeing the demand for agent observability from both AI natives and the core driving demand for offerings like your Traces product? And what has changed here longer term, just given the kind of elevated adoption levels and maybe also any comments on cybersecurity and the plans there?",
+   "parts": [
+    {
+     "t0_ms": 3464440,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 3464880,
+     "text": "Thanks for getting me in."
+    },
+    {
+     "t0_ms": 3466020,
+     "text": "Ali, maybe a quick one for you and David to follow up."
+    },
+    {
+     "t0_ms": 3468840,
+     "text": "To what extent are you seeing the demand for agent observability from both AI natives and the core driving demand for offerings like your Traces product?"
+    },
+    {
+     "t0_ms": 3477900,
+     "text": "And what has changed here longer term, just given the kind of elevated adoption levels"
+    },
+    {
+     "t0_ms": 3483900,
+     "text": "and maybe also any comments on cybersecurity and the plans there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3489640,
+   "t1_ms": 3531460,
+   "speaker": "Management",
+   "text": "Yeah, so we see growing demand for agent observability. And so there was always interesting demand from the AI, etc. But what's most interesting here is the non-AI entities are consuming more and more. And because they're getting deeper into AI, we see real demand, real volumes, and a really exciting pipeline for these products, actually. So we think that this is crossing the chasm, so to speak, and that's exciting for these products, even though we didn't mention any hard numbers today on that. On cybersecurity, look, there's so many new opportunities with AI.",
+   "parts": [
+    {
+     "t0_ms": 3489640,
+     "text": "Yeah, so we see growing demand for agent observability."
+    },
+    {
+     "t0_ms": 3494760,
+     "text": "And so there was always interesting demand from the AI, etc."
+    },
+    {
+     "t0_ms": 3499180,
+     "text": "But what's most interesting here is the non-AI entities are consuming more and more."
+    },
+    {
+     "t0_ms": 3505480,
+     "text": "And because they're getting deeper into AI, we see real demand, real volumes, and a really exciting pipeline for these products, actually."
+    },
+    {
+     "t0_ms": 3514340,
+     "text": "So we think that this is crossing the chasm, so to speak, and that's exciting for these products, even though we didn't mention any hard numbers today on that."
+    },
+    {
+     "t0_ms": 3527780,
+     "text": "On cybersecurity, look, there's so many new opportunities with AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3531460,
+   "t1_ms": 3562000,
+   "speaker": "Management",
+   "text": "we're very happy to see that we can land the full platform with large customers we mentioned that for a defense agency we mentioned that also for a couple of other wins when we landed not just observability but security platform at the same time so we feel good about the market fit there and we feel good about the way the whole retooling and rebuild that is taking place where AI is playing in our favor.",
+   "parts": [
+    {
+     "t0_ms": 3531460,
+     "text": "we're very happy to see that"
+    },
+    {
+     "t0_ms": 3534740,
+     "text": "we can land the full platform"
+    },
+    {
+     "t0_ms": 3536440,
+     "text": "with large customers"
+    },
+    {
+     "t0_ms": 3538100,
+     "text": "we mentioned that for"
+    },
+    {
+     "t0_ms": 3539460,
+     "text": "a defense agency"
+    },
+    {
+     "t0_ms": 3542720,
+     "text": "we mentioned"
+    },
+    {
+     "t0_ms": 3544900,
+     "text": "that also for a couple of other wins"
+    },
+    {
+     "t0_ms": 3546700,
+     "text": "when we landed not just"
+    },
+    {
+     "t0_ms": 3548700,
+     "text": "observability but"
+    },
+    {
+     "t0_ms": 3549760,
+     "text": "security platform at the same time"
+    },
+    {
+     "t0_ms": 3551820,
+     "text": "so we feel good about the market fit there"
+    },
+    {
+     "t0_ms": 3554440,
+     "text": "and we feel good about the way"
+    },
+    {
+     "t0_ms": 3555640,
+     "text": "the whole retooling"
+    },
+    {
+     "t0_ms": 3558700,
+     "text": "and rebuild that is taking place"
+    },
+    {
+     "t0_ms": 3560220,
+     "text": "where AI is playing in our favor."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3564530,
+   "t1_ms": 3604710,
+   "speaker": "Analyst",
+   "text": "Perfect. And then, David, maybe for you, just a clarification. If we think about, first of all, it's great to hear about the renewal with your largest customer. I think we totally understand the guiding for the minimum for Q4. Any pearls of wisdom on how to think about modeling that for 27? Because presumably that's a one-year contract. And is that something we should think about kind of maintaining at some level? Is that something that you guys are going to take out of the model? And then if I think about how you're guiding with respect to some of those other early renewals for the AI natives that renewed, are those also at the minimum commitment level? Are those slightly above? Just any help on those two items I think would be helpful for.",
+   "parts": [
+    {
+     "t0_ms": 3564530,
+     "text": "Perfect."
+    },
+    {
+     "t0_ms": 3565030,
+     "text": "And then, David, maybe for you, just a clarification."
+    },
+    {
+     "t0_ms": 3568230,
+     "text": "If we think about, first of all,"
+    },
+    {
+     "t0_ms": 3569330,
+     "text": "it's great to hear about the renewal with your largest customer."
+    },
+    {
+     "t0_ms": 3572310,
+     "text": "I think we totally understand the guiding for the minimum for Q4."
+    },
+    {
+     "t0_ms": 3575730,
+     "text": "Any pearls of wisdom on how to think about modeling that for 27?"
+    },
+    {
+     "t0_ms": 3580050,
+     "text": "Because presumably that's a one-year contract."
+    },
+    {
+     "t0_ms": 3582790,
+     "text": "And is that something we should think about kind of maintaining at some level?"
+    },
+    {
+     "t0_ms": 3587510,
+     "text": "Is that something that you guys are going to take out of the model?"
+    },
+    {
+     "t0_ms": 3589790,
+     "text": "And then if I think about how you're guiding with respect to some of those other early renewals for the AI natives that renewed, are those also at the minimum commitment level?"
+    },
+    {
+     "t0_ms": 3601190,
+     "text": "Are those slightly above?"
+    },
+    {
+     "t0_ms": 3602250,
+     "text": "Just any help on those two items I think would be helpful for."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3604810,
+   "t1_ms": 3641690,
+   "speaker": "Management",
+   "text": "Yeah, reminding everybody. Yeah, yeah. Sorry. Yeah, we'll give guidance for 2027 on our year-end call. Um, you know, I think, uh, we've said in the last couple of quarters that we're guiding at whatever the contractual minimums and, you know, we've repeated that this, this quarter, we'll give some more, um, flavor on that, um, when we do 27. And in terms of the rest of the business, what we do is, and we've said this over the many years, is we take the growth rate of those customers and we discount that.",
+   "parts": [
+    {
+     "t0_ms": 3604810,
+     "text": "Yeah, reminding everybody."
+    },
+    {
+     "t0_ms": 3606830,
+     "text": "Yeah, yeah."
+    },
+    {
+     "t0_ms": 3607650,
+     "text": "Sorry."
+    },
+    {
+     "t0_ms": 3608410,
+     "text": "Yeah, we'll give guidance for 2027 on our year-end call."
+    },
+    {
+     "t0_ms": 3613410,
+     "text": "Um, you know, I think, uh, we've said in the last couple of quarters that we're guiding at whatever the contractual minimums and, you know, we've repeated that this, this quarter, we'll give some more, um, flavor on that, um, when we do 27."
+    },
+    {
+     "t0_ms": 3628210,
+     "text": "And in terms of the rest of the business, what we do is, and we've said this over the many years, is we take the growth rate of those customers and we discount that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3642110,
+   "t1_ms": 3684470,
+   "speaker": "Management",
+   "text": "So that would be how we apply it across the customer base in taking the most recent organic growth and then discount it. And we would certainly be doing that for both the early renewal customers and our broader customer base. All right. And I think that's it for our questions today. So thank you all for listening. I also want to thank everybody at Datadog for a great Q3. I know we are right in the middle of an even greater Q4. We're all very, very busy. I'm going to meet a lot of our customers at the largest B2S conference in a few weeks.",
+   "parts": [
+    {
+     "t0_ms": 3642110,
+     "text": "So that would be how we apply it across the customer base in taking the most recent organic growth and then discount it."
+    },
+    {
+     "t0_ms": 3651630,
+     "text": "And we would certainly be doing that for both the early renewal customers and our broader customer base."
+    },
+    {
+     "t0_ms": 3658210,
+     "text": "All right. And I think that's it for our questions today. So thank you all for listening. I also want to thank everybody at Datadog for a great Q3. I know we are right in the middle of an even greater Q4."
+    },
+    {
+     "t0_ms": 3676970,
+     "text": "We're all very, very busy."
+    },
+    {
+     "t0_ms": 3679250,
+     "text": "I'm going to meet a lot of our customers at the largest B2S conference in a few weeks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3685810,
+   "t1_ms": 3698070,
+   "speaker": "Management",
+   "text": "And we hope to have many more exciting product announcements to share soon. So thank you very much all, and see you next quarter. Thank you for your participation in today's conference.",
+   "parts": [
+    {
+     "t0_ms": 3685810,
+     "text": "And we hope to have many more exciting product announcements to share soon."
+    },
+    {
+     "t0_ms": 3691190,
+     "text": "So thank you very much all, and see you next quarter."
+    },
+    {
+     "t0_ms": 3695390,
+     "text": "Thank you for your participation in today's conference."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3698270,
+   "t1_ms": 3701850,
+   "speaker": "Operator",
+   "text": "This does conclude the program. You may now disconnect. Everyone have a great day.",
+   "parts": [
+    {
+     "t0_ms": 3698270,
+     "text": "This does conclude the program."
+    },
+    {
+     "t0_ms": 3699650,
+     "text": "You may now disconnect."
+    },
+    {
+     "t0_ms": 3700790,
+     "text": "Everyone have a great day."
+    }
+   ]
+  }
+ ]
+}

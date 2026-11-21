@@ -1,0 +1,4275 @@
+{
+ "ticker": "SHOP",
+ "quarter": "Q3-2026",
+ "company": "Shopify",
+ "call_start": "2026-11-03T08:30:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/SHOP_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 42920,
+   "speaker": "Management",
+   "text": "Good morning, and thank you for joining Shopify's third quarter 2026 conference call. I'm Shane Kleinstein, Director of Investor Relations, and joining us today are Harley Finkelstein, Shopify's President, and Jeff Hoffmeister, our CFO. After their prepared remarks, we will open it up for your questions. Today's call will include certain forward-looking statements that are based on assumptions and therefore subject to risks and uncertainties that could cause actual results to differ materially from those projected. Under-reliance should not be placed on these forward-looking statements. We undertake no obligation to update or revise these statements except as required by law. You can read about these assumptions, risks, and uncertainties in our press release this morning, as well as in our filings with U.S. and Canadian regulators. We will also speak to adjusted financial measures and other non-GAAP measures,",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good morning, and thank you for joining Shopify's third quarter 2026 conference call."
+    },
+    {
+     "t0_ms": 4400,
+     "text": "I'm Shane Kleinstein, Director of Investor Relations, and joining us today are Harley"
+    },
+    {
+     "t0_ms": 7760,
+     "text": "Finkelstein, Shopify's President, and Jeff Hoffmeister, our CFO."
+    },
+    {
+     "t0_ms": 11640,
+     "text": "After their prepared remarks, we will open it up for your questions."
+    },
+    {
+     "t0_ms": 15080,
+     "text": "Today's call will include certain forward-looking statements that are based on assumptions and"
+    },
+    {
+     "t0_ms": 18680,
+     "text": "therefore subject to risks and uncertainties that could cause actual results to differ"
+    },
+    {
+     "t0_ms": 22480,
+     "text": "materially from those projected."
+    },
+    {
+     "t0_ms": 24520,
+     "text": "Under-reliance should not be placed on these forward-looking statements."
+    },
+    {
+     "t0_ms": 27720,
+     "text": "We undertake no obligation to update or revise these statements except as required by law."
+    },
+    {
+     "t0_ms": 32220,
+     "text": "You can read about these assumptions, risks, and uncertainties in our press release this morning,"
+    },
+    {
+     "t0_ms": 36340,
+     "text": "as well as in our filings with U.S. and Canadian regulators."
+    },
+    {
+     "t0_ms": 39340,
+     "text": "We will also speak to adjusted financial measures and other non-GAAP measures,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 43220,
+   "t1_ms": 86020,
+   "speaker": "Management",
+   "text": "which are not a substitute for GAAP financial measures. Reconciliations between the two are provided in our press release. And finally, we're reporting U.S. dollars, so all amounts discussed today are in U.S. dollars unless otherwise noted. And with that, I'll turn the call over to Harley. Good morning, everyone. And as always, thank you for joining this call. It has been an incredible quarter for commerce. The velocity of development we are seeing across the entire industry is nothing short of remarkable. From the adoption of personal agents to the start of delegated purchasing to new tools that help entrepreneurs turn any idea into a business overnight, we've seen an avalanche of new interfaces. But it's all powered by the same load-bearing commerce operating system.",
+   "parts": [
+    {
+     "t0_ms": 43220,
+     "text": "which are not a substitute for GAAP financial measures."
+    },
+    {
+     "t0_ms": 46320,
+     "text": "Reconciliations between the two are provided in our press release."
+    },
+    {
+     "t0_ms": 49160,
+     "text": "And finally, we're reporting U.S. dollars, so all amounts discussed today are in U.S. dollars unless otherwise noted."
+    },
+    {
+     "t0_ms": 55440,
+     "text": "And with that, I'll turn the call over to Harley."
+    },
+    {
+     "t0_ms": 60100,
+     "text": "Good morning, everyone."
+    },
+    {
+     "t0_ms": 61080,
+     "text": "And as always, thank you for joining this call."
+    },
+    {
+     "t0_ms": 63440,
+     "text": "It has been an incredible quarter for commerce."
+    },
+    {
+     "t0_ms": 65379,
+     "text": "The velocity of development we are seeing across the entire industry is nothing short"
+    },
+    {
+     "t0_ms": 69940,
+     "text": "of remarkable."
+    },
+    {
+     "t0_ms": 71020,
+     "text": "From the adoption of personal agents to the start of delegated purchasing to new tools"
+    },
+    {
+     "t0_ms": 75980,
+     "text": "that help entrepreneurs turn any idea into a business overnight, we've seen an avalanche"
+    },
+    {
+     "t0_ms": 81200,
+     "text": "of new interfaces."
+    },
+    {
+     "t0_ms": 82380,
+     "text": "But it's all powered by the same load-bearing commerce operating system."
+    }
+   ]
+  },
+  {
+   "t0_ms": 86020,
+   "t1_ms": 127440,
+   "speaker": "Management",
+   "text": "and that is Shopify. I'll get into the numbers shortly, but I want to take a moment at the top of the call to really land the significance of all of this and why it matters so much for merchants. Imagine for a moment that you are a retail business owner in 2026. Here are just a few things that might be on your mind today. How is your online store performing? Is ChatGPT surfacing your products correctly? How can you drive up conversion in your physical retail stores? Is it time to start thinking about expanding into new markets? Now, don't get me wrong. These are all very good problems to have. This is truly the greatest time in history to be a founder. There is opportunity everywhere. And the more opportunity there is, the more complexity there is.",
+   "parts": [
+    {
+     "t0_ms": 86020,
+     "text": "and that is Shopify. I'll get into the numbers shortly, but I want to take a moment at the top"
+    },
+    {
+     "t0_ms": 90580,
+     "text": "of the call to really land the significance of all of this and why it matters so much for"
+    },
+    {
+     "t0_ms": 95200,
+     "text": "merchants. Imagine for a moment that you are a retail business owner in 2026. Here are just a"
+    },
+    {
+     "t0_ms": 100680,
+     "text": "few things that might be on your mind today. How is your online store performing? Is ChatGPT"
+    },
+    {
+     "t0_ms": 107000,
+     "text": "surfacing your products correctly? How can you drive up conversion in your physical retail stores?"
+    },
+    {
+     "t0_ms": 111820,
+     "text": "Is it time to start thinking about expanding into new markets?"
+    },
+    {
+     "t0_ms": 115300,
+     "text": "Now, don't get me wrong."
+    },
+    {
+     "t0_ms": 116500,
+     "text": "These are all very good problems to have."
+    },
+    {
+     "t0_ms": 118680,
+     "text": "This is truly the greatest time in history to be a founder."
+    },
+    {
+     "t0_ms": 122040,
+     "text": "There is opportunity everywhere."
+    },
+    {
+     "t0_ms": 124060,
+     "text": "And the more opportunity there is, the more complexity there is."
+    }
+   ]
+  },
+  {
+   "t0_ms": 127800,
+   "t1_ms": 170360,
+   "speaker": "Management",
+   "text": "And the more complexity there is, the more our value goes up. The value of one unified commerce operating system connected to every surface area that customers want to shop on and every tool that teams want to build with. That is the real story behind this moment. For Shopify, that is what matters most. As the world is finding its feet in this new era, there is simply no better place to be than where we are, and that is everywhere. Okay, let's talk about the numbers. Q3 was another signature Shopify quarter. GMV was up 29.5% to $119 billion. Revenue was up 32% to $3.7 billion, and our free cash flow margin was 22%.",
+   "parts": [
+    {
+     "t0_ms": 127800,
+     "text": "And the more complexity there is, the more our value goes up."
+    },
+    {
+     "t0_ms": 131980,
+     "text": "The value of one unified commerce operating system connected to every surface area that customers want to shop on and every tool that teams want to build with."
+    },
+    {
+     "t0_ms": 141000,
+     "text": "That is the real story behind this moment."
+    },
+    {
+     "t0_ms": 144060,
+     "text": "For Shopify, that is what matters most."
+    },
+    {
+     "t0_ms": 147240,
+     "text": "As the world is finding its feet in this new era,"
+    },
+    {
+     "t0_ms": 150080,
+     "text": "there is simply no better place to be than where we are,"
+    },
+    {
+     "t0_ms": 152840,
+     "text": "and that is everywhere."
+    },
+    {
+     "t0_ms": 155000,
+     "text": "Okay, let's talk about the numbers."
+    },
+    {
+     "t0_ms": 156740,
+     "text": "Q3 was another signature Shopify quarter."
+    },
+    {
+     "t0_ms": 159900,
+     "text": "GMV was up 29.5% to $119 billion."
+    },
+    {
+     "t0_ms": 164140,
+     "text": "Revenue was up 32% to $3.7 billion,"
+    },
+    {
+     "t0_ms": 167480,
+     "text": "and our free cash flow margin was 22%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 171100,
+   "t1_ms": 212360,
+   "speaker": "Management",
+   "text": "And we saw more of the biggest names in retail from Balmain to Mac to Clinique to Lululemon all go live on Shopify. So we delivered exactly what we said we would, consistent, durable growth yet again. But the real story is hiding in between the numbers, and it is this. Shopify is uncommonly good at operating in two realities at the same time. The agentic future we're building towards and that everyone on this call is excited about, and the current reality for most of our merchants today. And here's what that looks like in practice. Since our last earnings call, personal agents hit the mainstream. Muse, Instinct, Claw Duet, Grokbot all partnered with Shopify.",
+   "parts": [
+    {
+     "t0_ms": 171100,
+     "text": "And we saw more of the biggest names in retail from Balmain to Mac to Clinique to Lululemon all go live on Shopify."
+    },
+    {
+     "t0_ms": 179400,
+     "text": "So we delivered exactly what we said we would, consistent, durable growth yet again."
+    },
+    {
+     "t0_ms": 185240,
+     "text": "But the real story is hiding in between the numbers, and it is this."
+    },
+    {
+     "t0_ms": 189600,
+     "text": "Shopify is uncommonly good at operating in two realities at the same time."
+    },
+    {
+     "t0_ms": 194280,
+     "text": "The agentic future we're building towards and that everyone on this call is excited about,"
+    },
+    {
+     "t0_ms": 198600,
+     "text": "and the current reality for most of our merchants today."
+    },
+    {
+     "t0_ms": 202720,
+     "text": "And here's what that looks like in practice."
+    },
+    {
+     "t0_ms": 204820,
+     "text": "Since our last earnings call, personal agents hit the mainstream."
+    },
+    {
+     "t0_ms": 208520,
+     "text": "Muse, Instinct, Claw Duet, Grokbot all partnered with Shopify."
+    }
+   ]
+  },
+  {
+   "t0_ms": 212860,
+   "t1_ms": 256240,
+   "speaker": "Management",
+   "text": "So our merchants' checkouts are supported and buyers can use ShopPay as their wallet. And we're powering product discovery across all major AI channels, from ChatGBT to Microsoft to Muse. These are the things that could drive real merchant success in the future. At the same time, we also rolled out an incredible range of new products and features across Shopify, growing our presence internationally, strengthening our offline business, and making our online store builder even more powerful. Those are the things that drive merchant success today. And importantly, we balance both of these realities while running an exceptionally strong business. 32% revenue growth, 22% free cash flow margin at our scale. That is not common.",
+   "parts": [
+    {
+     "t0_ms": 212860,
+     "text": "So our merchants' checkouts are supported and buyers can use ShopPay as their wallet."
+    },
+    {
+     "t0_ms": 217720,
+     "text": "And we're powering product discovery across all major AI channels,"
+    },
+    {
+     "t0_ms": 221860,
+     "text": "from ChatGBT to Microsoft to Muse."
+    },
+    {
+     "t0_ms": 225260,
+     "text": "These are the things that could drive real merchant success in the future."
+    },
+    {
+     "t0_ms": 229680,
+     "text": "At the same time, we also rolled out an incredible range of new products and features across Shopify,"
+    },
+    {
+     "t0_ms": 234840,
+     "text": "growing our presence internationally, strengthening our offline business,"
+    },
+    {
+     "t0_ms": 238120,
+     "text": "and making our online store builder even more powerful."
+    },
+    {
+     "t0_ms": 242000,
+     "text": "Those are the things that drive merchant success today."
+    },
+    {
+     "t0_ms": 245320,
+     "text": "And importantly, we balance both of these realities while running an exceptionally strong business."
+    },
+    {
+     "t0_ms": 250720,
+     "text": "32% revenue growth, 22% free cash flow margin at our scale."
+    },
+    {
+     "t0_ms": 255160,
+     "text": "That is not common."
+    }
+   ]
+  },
+  {
+   "t0_ms": 256720,
+   "t1_ms": 300540,
+   "speaker": "Management",
+   "text": "And yet I get to repeat numbers like this every quarter. So I mentioned merchant success in the future and merchant success today. Let's start by talking about the future first, specifically agentic shopping. Now, while the volume is still small here, adoption is growing. And the early signals show that this is the potential to become a very powerful surface area. Here's what we're seeing. AI traffic is up 2.6x year over year. Orders are growing even faster at 3.3x. AI channels are sending shoppers straight to product pages at 3x the rate of organic search, and shoppers are converting 64% more often. So the numbers are certainly encouraging, but what's even more interesting is what products are being surfaced.",
+   "parts": [
+    {
+     "t0_ms": 256720,
+     "text": "And yet I get to repeat numbers like this every quarter."
+    },
+    {
+     "t0_ms": 259920,
+     "text": "So I mentioned merchant success in the future and merchant success today."
+    },
+    {
+     "t0_ms": 264080,
+     "text": "Let's start by talking about the future first, specifically agentic shopping."
+    },
+    {
+     "t0_ms": 268500,
+     "text": "Now, while the volume is still small here, adoption is growing."
+    },
+    {
+     "t0_ms": 271800,
+     "text": "And the early signals show that this is the potential to become a very powerful surface area."
+    },
+    {
+     "t0_ms": 278240,
+     "text": "Here's what we're seeing."
+    },
+    {
+     "t0_ms": 279340,
+     "text": "AI traffic is up 2.6x year over year."
+    },
+    {
+     "t0_ms": 283100,
+     "text": "Orders are growing even faster at 3.3x."
+    },
+    {
+     "t0_ms": 286080,
+     "text": "AI channels are sending shoppers straight to product pages at 3x the rate of organic search,"
+    },
+    {
+     "t0_ms": 291220,
+     "text": "and shoppers are converting 64% more often."
+    },
+    {
+     "t0_ms": 295300,
+     "text": "So the numbers are certainly encouraging,"
+    },
+    {
+     "t0_ms": 297720,
+     "text": "but what's even more interesting is what products are being surfaced."
+    }
+   ]
+  },
+  {
+   "t0_ms": 300920,
+   "t1_ms": 343360,
+   "speaker": "Management",
+   "text": "And it's not the obvious categories. AI channels are surfacing highly specific products that fit specific customers with a specific need. Here is where Shopify Catalog comes in. Catalog-powered searches are converting a 2x the rate of general AI search. That is because Catalog is quite literally written for agents. It turns over a billion product pages into structured data set, translating details like size, color, and material into numerical values that an agent can read and understand. And it is not just a linear product feed. It is live, cross-merchant map for what is available across all of Shopify, with current pricing and inventory that helps AI channels make more accurate recommendations.",
+   "parts": [
+    {
+     "t0_ms": 300920,
+     "text": "And it's not the obvious categories."
+    },
+    {
+     "t0_ms": 303120,
+     "text": "AI channels are surfacing highly specific products"
+    },
+    {
+     "t0_ms": 305780,
+     "text": "that fit specific customers with a specific need."
+    },
+    {
+     "t0_ms": 309340,
+     "text": "Here is where Shopify Catalog comes in."
+    },
+    {
+     "t0_ms": 312440,
+     "text": "Catalog-powered searches are converting a 2x the rate of general AI search."
+    },
+    {
+     "t0_ms": 317320,
+     "text": "That is because Catalog is quite literally written for agents."
+    },
+    {
+     "t0_ms": 321260,
+     "text": "It turns over a billion product pages into structured data set,"
+    },
+    {
+     "t0_ms": 324820,
+     "text": "translating details like size, color, and material"
+    },
+    {
+     "t0_ms": 327360,
+     "text": "into numerical values that an agent can read and understand."
+    },
+    {
+     "t0_ms": 331600,
+     "text": "And it is not just a linear product feed."
+    },
+    {
+     "t0_ms": 333720,
+     "text": "It is live, cross-merchant map for what is available across all of Shopify,"
+    },
+    {
+     "t0_ms": 337960,
+     "text": "with current pricing and inventory that helps AI channels make more accurate recommendations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 343860,
+   "t1_ms": 388820,
+   "speaker": "Management",
+   "text": "And that makes it insanely powerful. And here's what is really exciting. AI is no longer just a discovery channel. As I mentioned earlier, Q3 was the first time we saw shoppers experimenting with delegated purchasing through personal agents who can also act on behalf of their users with their permission. In order to do that, they must earn their trust. Does it know what I like? Will it get my size right? Can I trust it with my personal information? For Muse, Instinct, ClawDuet, and GrokBot, the answer is yes, thanks to Shop. Through your Shop account, the agent knows your preferences and shopping history. Through the Shop app, you can track all your orders placed by your agent listed right next to your other orders. And with ShopPay as your wallet, your payment details are already saved.",
+   "parts": [
+    {
+     "t0_ms": 343860,
+     "text": "And that makes it insanely powerful."
+    },
+    {
+     "t0_ms": 346940,
+     "text": "And here's what is really exciting."
+    },
+    {
+     "t0_ms": 348940,
+     "text": "AI is no longer just a discovery channel."
+    },
+    {
+     "t0_ms": 351020,
+     "text": "As I mentioned earlier, Q3 was the first time we saw shoppers experimenting"
+    },
+    {
+     "t0_ms": 355560,
+     "text": "with delegated purchasing through personal agents"
+    },
+    {
+     "t0_ms": 358140,
+     "text": "who can also act on behalf of their users with their permission."
+    },
+    {
+     "t0_ms": 362120,
+     "text": "In order to do that, they must earn their trust."
+    },
+    {
+     "t0_ms": 364740,
+     "text": "Does it know what I like? Will it get my size right?"
+    },
+    {
+     "t0_ms": 366960,
+     "text": "Can I trust it with my personal information?"
+    },
+    {
+     "t0_ms": 369860,
+     "text": "For Muse, Instinct, ClawDuet, and GrokBot, the answer is yes, thanks to Shop."
+    },
+    {
+     "t0_ms": 375240,
+     "text": "Through your Shop account, the agent knows your preferences and shopping history."
+    },
+    {
+     "t0_ms": 379640,
+     "text": "Through the Shop app, you can track all your orders placed by your agent"
+    },
+    {
+     "t0_ms": 383020,
+     "text": "listed right next to your other orders."
+    },
+    {
+     "t0_ms": 385180,
+     "text": "And with ShopPay as your wallet, your payment details are already saved."
+    }
+   ]
+  },
+  {
+   "t0_ms": 389140,
+   "t1_ms": 429600,
+   "speaker": "Management",
+   "text": "You stay in control of your purchases, and your agent never sees your card details. And with Claude Duet, Insync, and GrotBot, that reach even extends beyond stores built on Shopify. Shoppers can now use ShopPay as their chosen wallet for any merchant. No extra setup required. It just works. For merchants, this means reach, a huge new pool of customers with zero lift for them. For buyers, this means trust, a familiar way to buy in an unfamiliar channel. And for developers and AI companies, this means access to world-class infrastructure. Now, all the tools they need to build a shopping experience, including catalog, checkout, and the shop network, are in one place.",
+   "parts": [
+    {
+     "t0_ms": 389140,
+     "text": "You stay in control of your purchases, and your agent never sees your card details."
+    },
+    {
+     "t0_ms": 392740,
+     "text": "And with Claude Duet, Insync, and GrotBot, that reach even extends beyond stores built on Shopify."
+    },
+    {
+     "t0_ms": 399020,
+     "text": "Shoppers can now use ShopPay as their chosen wallet for any merchant."
+    },
+    {
+     "t0_ms": 402980,
+     "text": "No extra setup required. It just works."
+    },
+    {
+     "t0_ms": 406360,
+     "text": "For merchants, this means reach, a huge new pool of customers with zero lift for them."
+    },
+    {
+     "t0_ms": 411980,
+     "text": "For buyers, this means trust, a familiar way to buy in an unfamiliar channel."
+    },
+    {
+     "t0_ms": 417400,
+     "text": "And for developers and AI companies, this means access to world-class infrastructure."
+    },
+    {
+     "t0_ms": 421920,
+     "text": "Now, all the tools they need to build a shopping experience, including catalog, checkout, and the shop network, are in one place."
+    }
+   ]
+  },
+  {
+   "t0_ms": 430100,
+   "t1_ms": 474240,
+   "speaker": "Management",
+   "text": "We call it shop.dev, one-stop, all-commerce complexity handled. Okay, switching gears, now let's talk about how we're helping merchants to build and operate more effectively with AI. As we predicted in previous quarters, commerce is fragmenting. AI is not just creating new ways for buyers to shop, it is also creating new ways for merchants to operate. And that is what Shopify was built for. We have always been an open ecosystem, and that now extends to agentic tools. We have connectors with agents like Muse, ChatGBT, Claude, Google Gemini, giving merchants complete optionality over how and where they run their business. Now, this doesn't just give our current merchants optionality. It is also becoming an on-ramp for new merchants.",
+   "parts": [
+    {
+     "t0_ms": 430100,
+     "text": "We call it shop.dev, one-stop, all-commerce complexity handled."
+    },
+    {
+     "t0_ms": 435820,
+     "text": "Okay, switching gears, now let's talk about how we're helping merchants to build and operate more effectively with AI."
+    },
+    {
+     "t0_ms": 441920,
+     "text": "As we predicted in previous quarters, commerce is fragmenting."
+    },
+    {
+     "t0_ms": 446020,
+     "text": "AI is not just creating new ways for buyers to shop, it is also creating new ways for merchants to operate."
+    },
+    {
+     "t0_ms": 451660,
+     "text": "And that is what Shopify was built for."
+    },
+    {
+     "t0_ms": 453660,
+     "text": "We have always been an open ecosystem, and that now extends to agentic tools."
+    },
+    {
+     "t0_ms": 459500,
+     "text": "We have connectors with agents like Muse, ChatGBT, Claude, Google Gemini,"
+    },
+    {
+     "t0_ms": 463680,
+     "text": "giving merchants complete optionality over how and where they run their business."
+    },
+    {
+     "t0_ms": 468780,
+     "text": "Now, this doesn't just give our current merchants optionality."
+    },
+    {
+     "t0_ms": 471440,
+     "text": "It is also becoming an on-ramp for new merchants."
+    }
+   ]
+  },
+  {
+   "t0_ms": 474940,
+   "t1_ms": 519159,
+   "speaker": "Management",
+   "text": "Imagine an aspiring entrepreneur talking to ChatGBT or Claude or Muse about starting a retail business. The agents suggest they start building with Shopify, and then it helps them build their store inside the chat. And once they're ready to start selling, they sign up for a Shopify account. Agents can effectively become ambassadors for Shopify, connecting new entrepreneurs to the platform at precisely the right moment. Now, of course, this is still a small source of new merchants today relative to our scale. But as more people use more tools to turn ideas into businesses, Shopify is part of that journey right from the start. Now, talking about turning ideas into businesses, this quarter, we launched the biggest update to our online store builder in our 20-year history.",
+   "parts": [
+    {
+     "t0_ms": 474940,
+     "text": "Imagine an aspiring entrepreneur talking to ChatGBT or Claude or Muse about starting a retail business."
+    },
+    {
+     "t0_ms": 481160,
+     "text": "The agents suggest they start building with Shopify, and then it helps them build their store inside the chat."
+    },
+    {
+     "t0_ms": 487780,
+     "text": "And once they're ready to start selling, they sign up for a Shopify account."
+    },
+    {
+     "t0_ms": 492100,
+     "text": "Agents can effectively become ambassadors for Shopify, connecting new entrepreneurs to the platform at precisely the right moment."
+    },
+    {
+     "t0_ms": 500120,
+     "text": "Now, of course, this is still a small source of new merchants today relative to our scale."
+    },
+    {
+     "t0_ms": 504300,
+     "text": "But as more people use more tools to turn ideas into businesses, Shopify is part of that journey right from the start."
+    },
+    {
+     "t0_ms": 511160,
+     "text": "Now, talking about turning ideas into businesses, this quarter, we launched the biggest update to our online store builder in our 20-year history."
+    }
+   ]
+  },
+  {
+   "t0_ms": 519559,
+   "t1_ms": 564180,
+   "speaker": "Management",
+   "text": "It's called Canvas. Canvas lets merchants build a fully bespoke online store simply by describing what they want to sidekick. No coding or design expertise required. Now, the store you can picture is the store you can build. It's only been live for about a month, but here is what we are seeing. Merchants are launching stores that are more personalized and they're doing it 20% faster. Anecdotally, this has been one of the most exciting things for me to watch roll out in a while. I asked merchants to tag me on X with what they built using Canvas. And the quality and the sheer variety has been truly remarkable. From handmade pottery to pet treats to banned merch to vintage comic books. This is the Shopify that Toby and I imagined almost two decades ago.",
+   "parts": [
+    {
+     "t0_ms": 519559,
+     "text": "It's called Canvas."
+    },
+    {
+     "t0_ms": 520940,
+     "text": "Canvas lets merchants build a fully bespoke online store simply by describing what they want to sidekick."
+    },
+    {
+     "t0_ms": 526960,
+     "text": "No coding or design expertise required."
+    },
+    {
+     "t0_ms": 529840,
+     "text": "Now, the store you can picture is the store you can build."
+    },
+    {
+     "t0_ms": 533420,
+     "text": "It's only been live for about a month, but here is what we are seeing."
+    },
+    {
+     "t0_ms": 537120,
+     "text": "Merchants are launching stores that are more personalized and they're doing it 20% faster."
+    },
+    {
+     "t0_ms": 543020,
+     "text": "Anecdotally, this has been one of the most exciting things for me to watch roll out in a while."
+    },
+    {
+     "t0_ms": 547100,
+     "text": "I asked merchants to tag me on X with what they built using Canvas."
+    },
+    {
+     "t0_ms": 551820,
+     "text": "And the quality and the sheer variety has been truly remarkable."
+    },
+    {
+     "t0_ms": 555680,
+     "text": "From handmade pottery to pet treats to banned merch to vintage comic books."
+    },
+    {
+     "t0_ms": 561020,
+     "text": "This is the Shopify that Toby and I imagined almost two decades ago."
+    }
+   ]
+  },
+  {
+   "t0_ms": 564760,
+   "t1_ms": 608880,
+   "speaker": "Management",
+   "text": "Anyone selling anything from anywhere gets their own beautiful, functional home on the internet. Now, I want to talk a bit more about Sidekick, which is still overwhelmingly the most widely used tool for our merchants to run their business. And usage continues to grow at an even faster clip in Q3. Daily active merchants are up 3.7x year over year, and daily sessions are up 4.2x. But there's an even more important story here than adoption. And it is just how capable Sidekick is becoming. In Q3, Sidekick created around two-thirds of all Shopify flows. Now remember, flows are those automations merchants use to take repetitive tasks off of their plates. And here's how that shows up in practice.",
+   "parts": [
+    {
+     "t0_ms": 564760,
+     "text": "Anyone selling anything from anywhere gets their own beautiful, functional home on the"
+    },
+    {
+     "t0_ms": 570020,
+     "text": "internet."
+    },
+    {
+     "t0_ms": 571380,
+     "text": "Now, I want to talk a bit more about Sidekick, which is still overwhelmingly the most widely"
+    },
+    {
+     "t0_ms": 575700,
+     "text": "used tool for our merchants to run their business."
+    },
+    {
+     "t0_ms": 578300,
+     "text": "And usage continues to grow at an even faster clip in Q3."
+    },
+    {
+     "t0_ms": 582840,
+     "text": "Daily active merchants are up 3.7x year over year, and daily sessions are up 4.2x."
+    },
+    {
+     "t0_ms": 589000,
+     "text": "But there's an even more important story here than adoption."
+    },
+    {
+     "t0_ms": 592980,
+     "text": "And it is just how capable Sidekick is becoming."
+    },
+    {
+     "t0_ms": 596740,
+     "text": "In Q3, Sidekick created around two-thirds of all Shopify flows."
+    },
+    {
+     "t0_ms": 601260,
+     "text": "Now remember, flows are those automations merchants use to take repetitive tasks off of their plates."
+    },
+    {
+     "t0_ms": 607340,
+     "text": "And here's how that shows up in practice."
+    }
+   ]
+  },
+  {
+   "t0_ms": 609380,
+   "t1_ms": 652800,
+   "speaker": "Management",
+   "text": "I recently met a large furniture retailer who has built custom Sidekick flows for everything from warehouse inventory snapshots to delivery fee analysis to regional pricing checks. This is what makes Sidekick so powerful. It can be completely tailored to power a merchant's particular business. And now these flows extend beyond the admin into supported apps that merchants use to run their business. Sidekick is the only AI tool that can connect to them without the merchant having to set up manual integrations. We want merchants getting the benefits of AI, not spending their time figuring out how to get those benefits. This is what makes Sidekick truly feel like an extension of their team. So there are obviously a lot of tools in the market,",
+   "parts": [
+    {
+     "t0_ms": 609380,
+     "text": "I recently met a large furniture retailer who has built custom Sidekick flows for everything"
+    },
+    {
+     "t0_ms": 614380,
+     "text": "from warehouse inventory snapshots to delivery fee analysis to regional pricing checks."
+    },
+    {
+     "t0_ms": 620900,
+     "text": "This is what makes Sidekick so powerful."
+    },
+    {
+     "t0_ms": 623300,
+     "text": "It can be completely tailored to power a merchant's particular business."
+    },
+    {
+     "t0_ms": 628060,
+     "text": "And now these flows extend beyond the admin into supported apps that merchants use to run their business."
+    },
+    {
+     "t0_ms": 633720,
+     "text": "Sidekick is the only AI tool that can connect to them without the merchant having to set up manual integrations."
+    },
+    {
+     "t0_ms": 639340,
+     "text": "We want merchants getting the benefits of AI, not spending their time figuring out how to get those benefits."
+    },
+    {
+     "t0_ms": 644920,
+     "text": "This is what makes Sidekick truly feel like an extension of their team."
+    },
+    {
+     "t0_ms": 649540,
+     "text": "So there are obviously a lot of tools in the market,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 653100,
+   "t1_ms": 695840,
+   "speaker": "Management",
+   "text": "and there's a lot of noise about which ones will come up on top. But here's what really matters. Shopify's critical advantage is that we do not have to choose because all of them connect back to our platform. And that is what makes our incredible growth durable in the long term. Now, I want to bring us right back to what merchants are focused on today. I recently hosted a forum for some of our largest and most active merchants alongside some of Shopify's leadership team. And guess what? The merchants did not spend much time talking about personal agents or even AI power discovery or even delegating purchasing. They talked about the fundamentals, trust, growth, and simplicity. And we never lose sight of that. Let's first talk about how we're building trust.",
+   "parts": [
+    {
+     "t0_ms": 653100,
+     "text": "and there's a lot of noise about which ones will come up on top."
+    },
+    {
+     "t0_ms": 656400,
+     "text": "But here's what really matters."
+    },
+    {
+     "t0_ms": 658800,
+     "text": "Shopify's critical advantage is that we do not have to choose"
+    },
+    {
+     "t0_ms": 662000,
+     "text": "because all of them connect back to our platform."
+    },
+    {
+     "t0_ms": 664860,
+     "text": "And that is what makes our incredible growth durable in the long term."
+    },
+    {
+     "t0_ms": 669040,
+     "text": "Now, I want to bring us right back to what merchants are focused on today."
+    },
+    {
+     "t0_ms": 672520,
+     "text": "I recently hosted a forum for some of our largest and most active merchants"
+    },
+    {
+     "t0_ms": 676300,
+     "text": "alongside some of Shopify's leadership team."
+    },
+    {
+     "t0_ms": 678780,
+     "text": "And guess what?"
+    },
+    {
+     "t0_ms": 679880,
+     "text": "The merchants did not spend much time talking about personal agents or even AI power discovery"
+    },
+    {
+     "t0_ms": 684560,
+     "text": "or even delegating purchasing."
+    },
+    {
+     "t0_ms": 686340,
+     "text": "They talked about the fundamentals, trust, growth, and simplicity."
+    },
+    {
+     "t0_ms": 691960,
+     "text": "And we never lose sight of that."
+    },
+    {
+     "t0_ms": 694060,
+     "text": "Let's first talk about how we're building trust."
+    }
+   ]
+  },
+  {
+   "t0_ms": 696340,
+   "t1_ms": 737680,
+   "speaker": "Management",
+   "text": "I mentioned earlier that ShopPay is bringing trust to an unfamiliar surface with agentic shopping. That trust is built on 20 years of commerce experience. And it is also why we continue to see incredible brands bringing ShopPay into their ecosystem, including one of my favorite brands, as I mentioned earlier, Lululemon, who just selected ShopPay for their North American online store. And as history has proven, once we have a toe in the door, the upside is clear. More broadly, in Q3, GMV accelerated with ShopPay grew over 50% year over year. Both the number of buyers and the number of purchases per buyer keeps growing with ShopPay. And ShopPay installments expanded beyond the U.S., Canada, and the U.K. into Australia.",
+   "parts": [
+    {
+     "t0_ms": 696340,
+     "text": "I mentioned earlier that ShopPay is bringing trust to an unfamiliar surface with agentic"
+    },
+    {
+     "t0_ms": 700980,
+     "text": "shopping."
+    },
+    {
+     "t0_ms": 701700,
+     "text": "That trust is built on 20 years of commerce experience."
+    },
+    {
+     "t0_ms": 704040,
+     "text": "And it is also why we continue to see incredible brands bringing ShopPay into their ecosystem, including one of my favorite brands, as I mentioned earlier, Lululemon, who just selected ShopPay for their North American online store."
+    },
+    {
+     "t0_ms": 717820,
+     "text": "And as history has proven, once we have a toe in the door, the upside is clear."
+    },
+    {
+     "t0_ms": 722840,
+     "text": "More broadly, in Q3, GMV accelerated with ShopPay grew over 50% year over year."
+    },
+    {
+     "t0_ms": 728420,
+     "text": "Both the number of buyers and the number of purchases per buyer keeps growing with ShopPay."
+    },
+    {
+     "t0_ms": 733260,
+     "text": "And ShopPay installments expanded beyond the U.S., Canada, and the U.K. into Australia."
+    }
+   ]
+  },
+  {
+   "t0_ms": 738740,
+   "t1_ms": 780800,
+   "speaker": "Management",
+   "text": "Now, trust also comes from the work we do in enhancing fraud detection. It is not sexy, but it is the stuff that really matters to merchants. We've drawn signals across millions of businesses to help merchants spot risks. And in Q3, we added tools to automatically cancel high-risk orders even before checkout and explain why an order looks suspicious, helping merchants protect their inventory and their revenue. And of course, trust comes from the connected shopping experience that shop has become known for. So whether you're shopping on a merchant's website, the shop app, or the newly announced shop.com, your preferences, your payment and shipping information, and even carts and viewed items all come together to make the shopping experience feel seamless and personalized.",
+   "parts": [
+    {
+     "t0_ms": 738740,
+     "text": "Now, trust also comes from the work we do in enhancing fraud detection."
+    },
+    {
+     "t0_ms": 742480,
+     "text": "It is not sexy, but it is the stuff that really matters to merchants."
+    },
+    {
+     "t0_ms": 746080,
+     "text": "We've drawn signals across millions of businesses to help merchants spot risks."
+    },
+    {
+     "t0_ms": 750220,
+     "text": "And in Q3, we added tools to automatically cancel high-risk orders even before checkout"
+    },
+    {
+     "t0_ms": 755220,
+     "text": "and explain why an order looks suspicious, helping merchants protect their inventory and their revenue."
+    },
+    {
+     "t0_ms": 761240,
+     "text": "And of course, trust comes from the connected shopping experience that shop has become known for."
+    },
+    {
+     "t0_ms": 766400,
+     "text": "So whether you're shopping on a merchant's website, the shop app, or the newly announced shop.com,"
+    },
+    {
+     "t0_ms": 771700,
+     "text": "your preferences, your payment and shipping information, and even carts and viewed items"
+    },
+    {
+     "t0_ms": 776340,
+     "text": "all come together to make the shopping experience feel seamless and personalized."
+    }
+   ]
+  },
+  {
+   "t0_ms": 782260,
+   "t1_ms": 824840,
+   "speaker": "Management",
+   "text": "Now, speaking of shop, GMV and Q3 more than doubled year on year. This is shop's network effect at play. More shop buyers, more seamless shopping experiences, more benefits for merchants. And we continue to invest to make the experience even better. The second thing I mentioned that our merchants really care about is growth. These merchants are growing across channels, and as they grow, so do we. Let's start with our offline business. We hit a key milestone, crossing $200 billion in lifetime offline GMV this quarter. In this past quarter alone, Canada Goose, The Body Shop, BevMo, all launched retail locations powered by Shopify. Skims launched its first international flagship in London with us.",
+   "parts": [
+    {
+     "t0_ms": 782260,
+     "text": "Now, speaking of shop, GMV and Q3 more than doubled year on year."
+    },
+    {
+     "t0_ms": 786600,
+     "text": "This is shop's network effect at play."
+    },
+    {
+     "t0_ms": 788900,
+     "text": "More shop buyers, more seamless shopping experiences, more benefits for merchants."
+    },
+    {
+     "t0_ms": 793680,
+     "text": "And we continue to invest to make the experience even better."
+    },
+    {
+     "t0_ms": 798280,
+     "text": "The second thing I mentioned that our merchants really care about is growth."
+    },
+    {
+     "t0_ms": 801940,
+     "text": "These merchants are growing across channels, and as they grow, so do we."
+    },
+    {
+     "t0_ms": 806160,
+     "text": "Let's start with our offline business."
+    },
+    {
+     "t0_ms": 808280,
+     "text": "We hit a key milestone, crossing $200 billion in lifetime offline GMV this quarter."
+    },
+    {
+     "t0_ms": 813840,
+     "text": "In this past quarter alone, Canada Goose, The Body Shop, BevMo, all launched retail locations powered by Shopify."
+    },
+    {
+     "t0_ms": 821820,
+     "text": "Skims launched its first international flagship in London with us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 825240,
+   "t1_ms": 865460,
+   "speaker": "Management",
+   "text": "And MAC Cosmetics launched 84 locations just 120 days after signing with us. That is remarkable speed. And in Q3, we made real progress on one of the oldest problems for physical retailers, not knowing their customers. We're changing that. Now when a customer taps their card in a Shopify-powered store and opts in to receive a digital receipt, a customer profile is then created, so the merchant has a record of the shopper and their purchase history. They can get to know them, understand what they like, and they can even reach out to eligible customers to bring them back. And the payoff is real. In fact, a known in-store customer has a meaningfully higher lifetime value than an unknown one.",
+   "parts": [
+    {
+     "t0_ms": 825240,
+     "text": "And MAC Cosmetics launched 84 locations just 120 days after signing with us."
+    },
+    {
+     "t0_ms": 831680,
+     "text": "That is remarkable speed."
+    },
+    {
+     "t0_ms": 833720,
+     "text": "And in Q3, we made real progress on one of the oldest problems for physical retailers, not knowing their customers."
+    },
+    {
+     "t0_ms": 840380,
+     "text": "We're changing that."
+    },
+    {
+     "t0_ms": 841060,
+     "text": "Now when a customer taps their card in a Shopify-powered store and opts in to receive a digital receipt, a customer profile is then created, so the merchant has a record of the shopper and their purchase history."
+    },
+    {
+     "t0_ms": 852720,
+     "text": "They can get to know them, understand what they like, and they can even reach out to eligible customers to bring them back."
+    },
+    {
+     "t0_ms": 858820,
+     "text": "And the payoff is real."
+    },
+    {
+     "t0_ms": 860500,
+     "text": "In fact, a known in-store customer has a meaningfully higher lifetime value than an unknown one."
+    }
+   ]
+  },
+  {
+   "t0_ms": 865940,
+   "t1_ms": 909760,
+   "speaker": "Management",
+   "text": "This is Shopify turning point of sale from a sales channel into a growth engine. And that is a very powerful advantage for merchants. Now let's talk about growth internationally. Our goal there is simple, to make global and cross-border selling possible, simple, and localized. And the impact is clear. International GMV grew 32% in the quarter. And the work here continues. In Q3, we launched mobile-first solutions like Sign-In with WhatsApp and WhatsApp Marketing and Messaging, which will be huge unlocks globally. We also launched a localized version of the shop app in Japan, which became the number one shopping app in the Japan app store the week after full rollout, which I think is really cool. And we launched new payment offerings globally",
+   "parts": [
+    {
+     "t0_ms": 865940,
+     "text": "This is Shopify turning point of sale from a sales channel into a growth engine."
+    },
+    {
+     "t0_ms": 870300,
+     "text": "And that is a very powerful advantage for merchants."
+    },
+    {
+     "t0_ms": 873300,
+     "text": "Now let's talk about growth internationally."
+    },
+    {
+     "t0_ms": 876460,
+     "text": "Our goal there is simple, to make global and cross-border selling possible, simple, and localized."
+    },
+    {
+     "t0_ms": 882260,
+     "text": "And the impact is clear."
+    },
+    {
+     "t0_ms": 884320,
+     "text": "International GMV grew 32% in the quarter."
+    },
+    {
+     "t0_ms": 887080,
+     "text": "And the work here continues."
+    },
+    {
+     "t0_ms": 888660,
+     "text": "In Q3, we launched mobile-first solutions like Sign-In with WhatsApp and WhatsApp Marketing and Messaging,"
+    },
+    {
+     "t0_ms": 894140,
+     "text": "which will be huge unlocks globally."
+    },
+    {
+     "t0_ms": 896740,
+     "text": "We also launched a localized version of the shop app in Japan,"
+    },
+    {
+     "t0_ms": 899840,
+     "text": "which became the number one shopping app in the Japan app store"
+    },
+    {
+     "t0_ms": 903320,
+     "text": "the week after full rollout, which I think is really cool."
+    },
+    {
+     "t0_ms": 906920,
+     "text": "And we launched new payment offerings globally"
+    }
+   ]
+  },
+  {
+   "t0_ms": 909760,
+   "t1_ms": 953700,
+   "speaker": "Management",
+   "text": "that reflect important global nuances, like the rollout of OXO as another local payment method across Mexico, allowing shoppers to place an order online and pay for it in cash at an OXO convenience store. There'll be a lot more of this to come in 2027. The last point I'll make on growth is about discovery. As I talked about at the top of the call, shopping is spreading across more channels, more opportunity, more complexity, more ways for Shopify to help our merchants. Shopify Campaigns offers a risk-free way to reach customers across 10 channels, from shop to Instagram to chat GBT. That means full optionality for merchants. We're not biased towards any one particular channel. and they only pay when a sale happens.",
+   "parts": [
+    {
+     "t0_ms": 909760,
+     "text": "that reflect important global nuances,"
+    },
+    {
+     "t0_ms": 912160,
+     "text": "like the rollout of OXO as another local payment method across Mexico,"
+    },
+    {
+     "t0_ms": 916180,
+     "text": "allowing shoppers to place an order online"
+    },
+    {
+     "t0_ms": 918280,
+     "text": "and pay for it in cash at an OXO convenience store."
+    },
+    {
+     "t0_ms": 922600,
+     "text": "There'll be a lot more of this to come in 2027."
+    },
+    {
+     "t0_ms": 926000,
+     "text": "The last point I'll make on growth is about discovery."
+    },
+    {
+     "t0_ms": 929240,
+     "text": "As I talked about at the top of the call,"
+    },
+    {
+     "t0_ms": 931000,
+     "text": "shopping is spreading across more channels,"
+    },
+    {
+     "t0_ms": 933560,
+     "text": "more opportunity, more complexity,"
+    },
+    {
+     "t0_ms": 936000,
+     "text": "more ways for Shopify to help our merchants."
+    },
+    {
+     "t0_ms": 939300,
+     "text": "Shopify Campaigns offers a risk-free way"
+    },
+    {
+     "t0_ms": 941380,
+     "text": "to reach customers across 10 channels,"
+    },
+    {
+     "t0_ms": 943540,
+     "text": "from shop to Instagram to chat GBT."
+    },
+    {
+     "t0_ms": 946360,
+     "text": "That means full optionality for merchants."
+    },
+    {
+     "t0_ms": 948580,
+     "text": "We're not biased towards any one particular channel."
+    },
+    {
+     "t0_ms": 950920,
+     "text": "and they only pay when a sale happens."
+    }
+   ]
+  },
+  {
+   "t0_ms": 954400,
+   "t1_ms": 998680,
+   "speaker": "Management",
+   "text": "And the momentum there is really building. Year-to-date orders through shop campaigns more than doubled year over year, accelerating in the third quarter. That means more merchants getting discovered without needing to become advertising experts. It also means more traffic coming to the shop app. Finally, I said our merchants really care about simplicity. And whether you're looking at the present reality of most merchants or the direction of travel we're heading in, in both cases, one thing becomes very clear. Our simple, connected, unified operating system is the moat. No one merchant can manage the increasing volume of surface areas to build and sell across, and nor should they. And that is true for merchants of all sizes, including larger merchants.",
+   "parts": [
+    {
+     "t0_ms": 954400,
+     "text": "And the momentum there is really building."
+    },
+    {
+     "t0_ms": 956320,
+     "text": "Year-to-date orders through shop campaigns"
+    },
+    {
+     "t0_ms": 957920,
+     "text": "more than doubled year over year,"
+    },
+    {
+     "t0_ms": 960120,
+     "text": "accelerating in the third quarter."
+    },
+    {
+     "t0_ms": 961780,
+     "text": "That means more merchants getting discovered"
+    },
+    {
+     "t0_ms": 963420,
+     "text": "without needing to become advertising experts."
+    },
+    {
+     "t0_ms": 966320,
+     "text": "It also means more traffic coming to the shop app."
+    },
+    {
+     "t0_ms": 971560,
+     "text": "Finally, I said our merchants really care about simplicity."
+    },
+    {
+     "t0_ms": 974740,
+     "text": "And whether you're looking at the present reality"
+    },
+    {
+     "t0_ms": 976620,
+     "text": "of most merchants or the direction of travel"
+    },
+    {
+     "t0_ms": 978920,
+     "text": "we're heading in, in both cases,"
+    },
+    {
+     "t0_ms": 980780,
+     "text": "one thing becomes very clear."
+    },
+    {
+     "t0_ms": 982680,
+     "text": "Our simple, connected, unified operating system is the moat."
+    },
+    {
+     "t0_ms": 987920,
+     "text": "No one merchant can manage the increasing volume of surface areas to build and sell across, and nor should they."
+    },
+    {
+     "t0_ms": 993940,
+     "text": "And that is true for merchants of all sizes, including larger merchants."
+    }
+   ]
+  },
+  {
+   "t0_ms": 999440,
+   "t1_ms": 1042900,
+   "speaker": "Management",
+   "text": "These businesses want their online stores and their physical locations to work together. They want their teams spending more time improving the customer experience and less time maintaining the technology behind it. And as AI creates new ways to shop, they want a platform that keeps them ready for what comes next. And that is why we continue to see large merchants join and scale across the platform, like Balmain, Givenchy, Jacquemus, Chaumet, and Acne Studios, these iconic names in luxury retail that all chose Shopify and Q3. Or Alice and Olivia, who scaled from a single founder to a globally recognized fashion label and who just decided to fully re-platform onto Shopify after starting with ShopPay",
+   "parts": [
+    {
+     "t0_ms": 999440,
+     "text": "These businesses want their online stores and their physical locations to work together."
+    },
+    {
+     "t0_ms": 1004040,
+     "text": "They want their teams spending more time improving the customer experience and less time maintaining the technology behind it."
+    },
+    {
+     "t0_ms": 1010040,
+     "text": "And as AI creates new ways to shop, they want a platform that keeps them ready for what comes next."
+    },
+    {
+     "t0_ms": 1016520,
+     "text": "And that is why we continue to see large merchants join and scale across the platform, like Balmain, Givenchy, Jacquemus, Chaumet, and Acne Studios, these iconic names in luxury retail that all chose Shopify and Q3."
+    },
+    {
+     "t0_ms": 1032180,
+     "text": "Or Alice and Olivia, who scaled from a single founder to a globally recognized fashion label"
+    },
+    {
+     "t0_ms": 1038000,
+     "text": "and who just decided to fully re-platform onto Shopify after starting with ShopPay"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1042900,
+   "t1_ms": 1083180,
+   "speaker": "Management",
+   "text": "and seeing it become their most used payment method. Or Omaha Steaks. I love this story. This is a 109-year-old company that was running on a custom stack built by their own CEO. They wanted a platform that can keep up with the pace of technology and allow them to focus on their business. So, of course, Omaha Steaks is coming to us as well. Okay, I'll end on this note. There is a very special energy inside of Shopify right now. Toby talks about it openly. We're giving people the tools and the room to tinker, to try an idea, to turn it into something useful for merchants. AI is changing what our teams can build and how quickly they can get an idea into someone's hands.",
+   "parts": [
+    {
+     "t0_ms": 1042900,
+     "text": "and seeing it become their most used payment method."
+    },
+    {
+     "t0_ms": 1045920,
+     "text": "Or Omaha Steaks."
+    },
+    {
+     "t0_ms": 1047920,
+     "text": "I love this story."
+    },
+    {
+     "t0_ms": 1048680,
+     "text": "This is a 109-year-old company that was running on a custom stack built by their own CEO."
+    },
+    {
+     "t0_ms": 1054520,
+     "text": "They wanted a platform that can keep up with the pace of technology"
+    },
+    {
+     "t0_ms": 1057160,
+     "text": "and allow them to focus on their business."
+    },
+    {
+     "t0_ms": 1059740,
+     "text": "So, of course, Omaha Steaks is coming to us as well."
+    },
+    {
+     "t0_ms": 1063760,
+     "text": "Okay, I'll end on this note."
+    },
+    {
+     "t0_ms": 1065920,
+     "text": "There is a very special energy inside of Shopify right now."
+    },
+    {
+     "t0_ms": 1068840,
+     "text": "Toby talks about it openly."
+    },
+    {
+     "t0_ms": 1070720,
+     "text": "We're giving people the tools and the room to tinker, to try an idea,"
+    },
+    {
+     "t0_ms": 1074960,
+     "text": "to turn it into something useful for merchants."
+    },
+    {
+     "t0_ms": 1078360,
+     "text": "AI is changing what our teams can build"
+    },
+    {
+     "t0_ms": 1080200,
+     "text": "and how quickly they can get an idea into someone's hands."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1083420,
+   "t1_ms": 1125500,
+   "speaker": "Management",
+   "text": "Small teams can try more things, learn from what works, and build again. That makes taste and judgment even more valuable. Seeing a problem we're solving, knowing what a great solution looks like, and then having the curiosity to go after it. And that mindset extends well beyond engineering. All across Shopify, our team is rethinking how they work and what they can accomplish with these amazing tools. Toby put it this way in a recent note. The early answer to how we make commerce common turned out to be simple. Just build great products for them. This is what we continue to do every damn day. And with that, I'll turn the call over to Jeff. Thanks, Harley.",
+   "parts": [
+    {
+     "t0_ms": 1083420,
+     "text": "Small teams can try more things, learn from what works, and build again."
+    },
+    {
+     "t0_ms": 1088460,
+     "text": "That makes taste and judgment even more valuable."
+    },
+    {
+     "t0_ms": 1091720,
+     "text": "Seeing a problem we're solving, knowing what a great solution looks like,"
+    },
+    {
+     "t0_ms": 1095380,
+     "text": "and then having the curiosity to go after it."
+    },
+    {
+     "t0_ms": 1097920,
+     "text": "And that mindset extends well beyond engineering."
+    },
+    {
+     "t0_ms": 1101780,
+     "text": "All across Shopify, our team is rethinking how they work"
+    },
+    {
+     "t0_ms": 1105020,
+     "text": "and what they can accomplish with these amazing tools."
+    },
+    {
+     "t0_ms": 1108580,
+     "text": "Toby put it this way in a recent note."
+    },
+    {
+     "t0_ms": 1110200,
+     "text": "The early answer to how we make commerce common turned out to be simple."
+    },
+    {
+     "t0_ms": 1115300,
+     "text": "Just build great products for them."
+    },
+    {
+     "t0_ms": 1117920,
+     "text": "This is what we continue to do every damn day."
+    },
+    {
+     "t0_ms": 1121680,
+     "text": "And with that, I'll turn the call over to Jeff."
+    },
+    {
+     "t0_ms": 1124760,
+     "text": "Thanks, Harley."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1126060,
+   "t1_ms": 1170360,
+   "speaker": "Management",
+   "text": "Q3 was another quarter of strong, consistent execution. Before turning to the results, I'm going to step back and provide some perspectives on our addressable market, as we've not discussed that in a while, and I believe that agentic commerce will expand our market. Commerce continues to grow globally, but in addition to that, there are two important things to keep in mind regarding Shopify's role and our future opportunity. First, we continue to power a larger share of commerce overall. And second, we are expanding commerce itself by helping more merchants survive and thrive, helping them discover new buyers, and lowering barriers to entrepreneurship. To my first point, the quality and capabilities of our solutions help our merchants drive a disproportionate share of global commerce growth.",
+   "parts": [
+    {
+     "t0_ms": 1126060,
+     "text": "Q3 was another quarter of strong, consistent execution."
+    },
+    {
+     "t0_ms": 1130160,
+     "text": "Before turning to the results, I'm going to step back and provide some perspectives on our addressable market,"
+    },
+    {
+     "t0_ms": 1135820,
+     "text": "as we've not discussed that in a while, and I believe that agentic commerce will expand our market."
+    },
+    {
+     "t0_ms": 1140740,
+     "text": "Commerce continues to grow globally, but in addition to that,"
+    },
+    {
+     "t0_ms": 1143740,
+     "text": "there are two important things to keep in mind regarding Shopify's role and our future"
+    },
+    {
+     "t0_ms": 1147840,
+     "text": "opportunity. First, we continue to power a larger share of commerce overall. And second, we are"
+    },
+    {
+     "t0_ms": 1153960,
+     "text": "expanding commerce itself by helping more merchants survive and thrive, helping them discover new"
+    },
+    {
+     "t0_ms": 1159120,
+     "text": "buyers, and lowering barriers to entrepreneurship. To my first point, the quality and capabilities"
+    },
+    {
+     "t0_ms": 1165280,
+     "text": "of our solutions help our merchants drive a disproportionate share of global commerce growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1171160,
+   "t1_ms": 1209840,
+   "speaker": "Management",
+   "text": "Over the last three years, our U.S. merchants' online sales grew at a compound annual growth rate of 23%, compared to 8% for U.S. e-commerce overall. In Europe, we saw a similar pattern. Our merchants grew online GMV at a compound annual growth rate of 37%, compared to a market growth of 8%, doubling their share of e-commerce in just three years. And these trends have accelerated. Three years ago, Shopify merchants drove nearly a fifth of incremental e-commerce sales in the U.S. and nearly a quarter in Europe. Since the start of 2025, they now capture nearly half in the U.S. and more than 40% in Europe.",
+   "parts": [
+    {
+     "t0_ms": 1171160,
+     "text": "Over the last three years, our U.S. merchants' online sales grew at a compound annual growth rate of 23%,"
+    },
+    {
+     "t0_ms": 1178000,
+     "text": "compared to 8% for U.S. e-commerce overall."
+    },
+    {
+     "t0_ms": 1181620,
+     "text": "In Europe, we saw a similar pattern."
+    },
+    {
+     "t0_ms": 1183620,
+     "text": "Our merchants grew online GMV at a compound annual growth rate of 37%,"
+    },
+    {
+     "t0_ms": 1188120,
+     "text": "compared to a market growth of 8%, doubling their share of e-commerce in just three years."
+    },
+    {
+     "t0_ms": 1193940,
+     "text": "And these trends have accelerated."
+    },
+    {
+     "t0_ms": 1196300,
+     "text": "Three years ago, Shopify merchants drove nearly a fifth of incremental e-commerce sales in the U.S."
+    },
+    {
+     "t0_ms": 1201480,
+     "text": "and nearly a quarter in Europe."
+    },
+    {
+     "t0_ms": 1203980,
+     "text": "Since the start of 2025, they now capture nearly half in the U.S. and more than 40% in Europe."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1210720,
+   "t1_ms": 1251640,
+   "speaker": "Management",
+   "text": "To illustrate the platform scale today, in the third quarter alone, our merchants sold over $119 billion through Shopify, almost as much as they sold in all of 2020, the year everything went online due to COVID. An entire year of Shopify GMV has now become a single quarter and not even the holiday shopping quarter. And to my second point, measuring our opportunity against the market potential that exists today misses a critical component. Our products do more than help merchants compete for existing commerce. We help create new commerce. AI is an accelerant for our market, simultaneously making entrepreneurship easier to try, but also raising the stakes for what",
+   "parts": [
+    {
+     "t0_ms": 1210720,
+     "text": "To illustrate the platform scale today, in the third quarter alone, our merchants sold over $119 billion through Shopify,"
+    },
+    {
+     "t0_ms": 1219680,
+     "text": "almost as much as they sold in all of 2020, the year everything went online due to COVID."
+    },
+    {
+     "t0_ms": 1224680,
+     "text": "An entire year of Shopify GMV has now become a single quarter and not even the holiday shopping"
+    },
+    {
+     "t0_ms": 1231240,
+     "text": "quarter. And to my second point, measuring our opportunity against the market potential that"
+    },
+    {
+     "t0_ms": 1236880,
+     "text": "exists today misses a critical component. Our products do more than help merchants compete"
+    },
+    {
+     "t0_ms": 1241760,
+     "text": "for existing commerce. We help create new commerce. AI is an accelerant for our market,"
+    },
+    {
+     "t0_ms": 1247080,
+     "text": "simultaneously making entrepreneurship easier to try, but also raising the stakes for what"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1251640,
+   "t1_ms": 1292980,
+   "speaker": "Management",
+   "text": "success requires. In that context, Shopify is a merchant's not-so-secret weapon. We make the complex simple so that our merchants can focus on what matters, building strong businesses. We have always and will continue to change the economics of entrepreneurship. When your niche passion products can more easily find the customers they're meant for, you're more likely to build that business. Smaller niche markets are now not only addressable, They're not so small anymore. With Shopify Catalog and how it is optimized for LLMs, more long-tail merchants succeed by matching buyers' specific needs, however unique, with our merchants' tailored solutions.",
+   "parts": [
+    {
+     "t0_ms": 1251640,
+     "text": "success requires. In that context, Shopify is a merchant's not-so-secret weapon. We make the"
+    },
+    {
+     "t0_ms": 1258340,
+     "text": "complex simple so that our merchants can focus on what matters, building strong businesses."
+    },
+    {
+     "t0_ms": 1265020,
+     "text": "We have always and will continue to change the economics of entrepreneurship."
+    },
+    {
+     "t0_ms": 1270060,
+     "text": "When your niche passion products can more easily find the customers they're meant for,"
+    },
+    {
+     "t0_ms": 1274820,
+     "text": "you're more likely to build that business. Smaller niche markets are now not only addressable,"
+    },
+    {
+     "t0_ms": 1279720,
+     "text": "They're not so small anymore."
+    },
+    {
+     "t0_ms": 1282380,
+     "text": "With Shopify Catalog and how it is optimized for LLMs, more long-tail merchants succeed"
+    },
+    {
+     "t0_ms": 1287460,
+     "text": "by matching buyers' specific needs, however unique, with our merchants' tailored solutions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1294180,
+   "t1_ms": 1333820,
+   "speaker": "Management",
+   "text": "Extending the long tail of commerce is helping create new commerce. In Q3, three-quarters of AI-referred sales yet again came from product categories outside our top 100. And as entrepreneurship has become more accessible, that access has manifested inside our platform. Since 2018, the number of first-time sellers on Shopify has increased seven times. Moreover, we help new entrepreneurs reach that milestone faster than ever before. Last year, compared to just three years ago, 43% more stores made their first sale within a single day of signing up. We're not just finding high-intent entrepreneurs. We're bending the",
+   "parts": [
+    {
+     "t0_ms": 1294180,
+     "text": "Extending the long tail of commerce is helping create new commerce."
+    },
+    {
+     "t0_ms": 1297520,
+     "text": "In Q3, three-quarters of AI-referred sales yet again came from product categories outside"
+    },
+    {
+     "t0_ms": 1303100,
+     "text": "our top 100."
+    },
+    {
+     "t0_ms": 1304500,
+     "text": "And as entrepreneurship has become more accessible, that access has manifested inside our"
+    },
+    {
+     "t0_ms": 1309440,
+     "text": "platform. Since 2018, the number of first-time sellers on Shopify has increased seven times."
+    },
+    {
+     "t0_ms": 1317280,
+     "text": "Moreover, we help new entrepreneurs reach that milestone faster than ever before."
+    },
+    {
+     "t0_ms": 1321920,
+     "text": "Last year, compared to just three years ago, 43% more stores made their first sale within a single"
+    },
+    {
+     "t0_ms": 1328080,
+     "text": "day of signing up. We're not just finding high-intent entrepreneurs. We're bending the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1333820,
+   "t1_ms": 1374120,
+   "speaker": "Management",
+   "text": "curve for how quickly they reach early success. AI and the AI products that we build are a rising tide lifting all boats. And we saw that wave coming a long time ago. It's why we started building Catalog three years ago, before Agentic was ever in the lexicon of commerce, to make our merchants' product data reachable across all AI channels with high fidelity and high consistency. It's why we co-led the creation of the Universal Commerce Protocol, because we knew that in order for our merchants to take advantage of the opportunities inside agentic commerce, agentic commerce needed a shared language across the internet. It's also why we're actively driving",
+   "parts": [
+    {
+     "t0_ms": 1333820,
+     "text": "curve for how quickly they reach early success. AI and the AI products that we build are a rising"
+    },
+    {
+     "t0_ms": 1340580,
+     "text": "tide lifting all boats. And we saw that wave coming a long time ago. It's why we started"
+    },
+    {
+     "t0_ms": 1346660,
+     "text": "building Catalog three years ago, before Agentic was ever in the lexicon of commerce, to make our"
+    },
+    {
+     "t0_ms": 1352340,
+     "text": "merchants' product data reachable across all AI channels with high fidelity and high consistency."
+    },
+    {
+     "t0_ms": 1358740,
+     "text": "It's why we co-led the creation of the Universal Commerce Protocol, because we knew that in order"
+    },
+    {
+     "t0_ms": 1363640,
+     "text": "for our merchants to take advantage of the opportunities inside agentic commerce,"
+    },
+    {
+     "t0_ms": 1368180,
+     "text": "agentic commerce needed a shared language across the internet. It's also why we're actively driving"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1374120,
+   "t1_ms": 1414760,
+   "speaker": "Management",
+   "text": "other standards like the personal agent protocol alongside other technology and retail partners, and why we have embedded Shopify into personal agents like Instinct, Muse, and more. We also recently released Shop.dev and the Shop MCP, giving developers one easy connection to add Shopify's AI tooling, sign-ins, and checkout into their apps or agents. We are embedding commerce across more channels and more surfaces. Our growing buyer network extends this leadership. With ShopPay, customers can explore new merchants through new channels while maintaining the safety of the wallet they already know and trust, and businesses of all sizes benefit from the complex",
+   "parts": [
+    {
+     "t0_ms": 1374120,
+     "text": "other standards like the personal agent protocol alongside other technology and retail partners,"
+    },
+    {
+     "t0_ms": 1379720,
+     "text": "and why we have embedded Shopify into personal agents like Instinct, Muse, and more. We also"
+    },
+    {
+     "t0_ms": 1386320,
+     "text": "recently released Shop.dev and the Shop MCP, giving developers one easy connection to add"
+    },
+    {
+     "t0_ms": 1392480,
+     "text": "Shopify's AI tooling, sign-ins, and checkout into their apps or agents. We are embedding"
+    },
+    {
+     "t0_ms": 1398740,
+     "text": "commerce across more channels and more surfaces. Our growing buyer network extends this leadership."
+    },
+    {
+     "t0_ms": 1404800,
+     "text": "With ShopPay, customers can explore new merchants through new channels while maintaining the safety"
+    },
+    {
+     "t0_ms": 1409820,
+     "text": "of the wallet they already know and trust, and businesses of all sizes benefit from the complex"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1414760,
+   "t1_ms": 1452860,
+   "speaker": "Management",
+   "text": "commerce ecosystem Shopify has built at scale. You may have seen our latest additions theme was exponential, apt when you reflect on the compounding return of our massive network of both merchants and buyers. These examples are all different expressions of the same underlying business model. We build more of what merchants need, expand what they can accomplish with Shopify, and participate in their success alongside them. Wherever commerce happens, however complex it becomes, we will continue to be the force behind it. Ultimately, the thesis is simple. To believe in Shopify, you really just need to believe in commerce. Now let's take a",
+   "parts": [
+    {
+     "t0_ms": 1414760,
+     "text": "commerce ecosystem Shopify has built at scale. You may have seen our latest additions theme was"
+    },
+    {
+     "t0_ms": 1420040,
+     "text": "exponential, apt when you reflect on the compounding return of our massive network"
+    },
+    {
+     "t0_ms": 1425400,
+     "text": "of both merchants and buyers. These examples are all different expressions of the same"
+    },
+    {
+     "t0_ms": 1430000,
+     "text": "underlying business model. We build more of what merchants need, expand what they can accomplish"
+    },
+    {
+     "t0_ms": 1435240,
+     "text": "with Shopify, and participate in their success alongside them. Wherever commerce happens,"
+    },
+    {
+     "t0_ms": 1441300,
+     "text": "however complex it becomes, we will continue to be the force behind it. Ultimately, the thesis"
+    },
+    {
+     "t0_ms": 1447060,
+     "text": "is simple. To believe in Shopify, you really just need to believe in commerce. Now let's take a"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1452860,
+   "t1_ms": 1496420,
+   "speaker": "Management",
+   "text": "closer look at our third quarter results. Q3 GMB was $119 billion, up 30% in constant currency, our sixth consecutive quarter at these levels of growth. The trends across all vantage points are very consistent with recent quarters. Growth was broad-based across merchant sizes and geographies and remain evenly split among new and same-store sales. Starting with merchant size, the $2 to $25 million cohort contributed the most incremental GMV and is the largest slice. Growth in this band was mostly from existing shops growing into this size. The $25 million and greater band is the fastest growing, albeit off of a smaller base. North America continues to deliver strong growth at scale,",
+   "parts": [
+    {
+     "t0_ms": 1452860,
+     "text": "closer look at our third quarter results. Q3 GMB was $119 billion, up 30% in constant currency,"
+    },
+    {
+     "t0_ms": 1460860,
+     "text": "our sixth consecutive quarter at these levels of growth. The trends across all vantage points are"
+    },
+    {
+     "t0_ms": 1466920,
+     "text": "very consistent with recent quarters. Growth was broad-based across merchant sizes and geographies"
+    },
+    {
+     "t0_ms": 1472140,
+     "text": "and remain evenly split among new and same-store sales."
+    },
+    {
+     "t0_ms": 1476120,
+     "text": "Starting with merchant size, the $2 to $25 million cohort contributed the most incremental GMV"
+    },
+    {
+     "t0_ms": 1481120,
+     "text": "and is the largest slice."
+    },
+    {
+     "t0_ms": 1483460,
+     "text": "Growth in this band was mostly from existing shops growing into this size."
+    },
+    {
+     "t0_ms": 1487760,
+     "text": "The $25 million and greater band is the fastest growing, albeit off of a smaller base."
+    },
+    {
+     "t0_ms": 1493880,
+     "text": "North America continues to deliver strong growth at scale,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1496800,
+   "t1_ms": 1541360,
+   "speaker": "Management",
+   "text": "with GMV growing 28% in constant currency for the third consecutive quarter. GMB in Europe grew 33% in constant currency, aided by our continued addition of local payment offerings across several markets. Similarly, we continue to build our presence in Asia and Latin America, with more tailored local offerings like those Harley mentioned. We also launched local currency billing in 10 new countries over the past few months. Merchants in these markets can now pay for their Shopify subscription in their local currency, making it easier for merchants to get started on our platform. Finally, looking by channel, beyond just online. Offline GMP grew 30% year-over-year, consistent with last quarter's constant currency growth. Large, complex, multi-location merchants continue to be our fastest-growing segment,",
+   "parts": [
+    {
+     "t0_ms": 1496800,
+     "text": "with GMV growing 28% in constant currency for the third consecutive quarter."
+    },
+    {
+     "t0_ms": 1501780,
+     "text": "GMB in Europe grew 33% in constant currency, aided by our continued addition of local payment offerings across several markets."
+    },
+    {
+     "t0_ms": 1509000,
+     "text": "Similarly, we continue to build our presence in Asia and Latin America, with more tailored local offerings like those Harley mentioned."
+    },
+    {
+     "t0_ms": 1515980,
+     "text": "We also launched local currency billing in 10 new countries over the past few months."
+    },
+    {
+     "t0_ms": 1520440,
+     "text": "Merchants in these markets can now pay for their Shopify subscription in their local currency, making it easier for merchants to get started on our platform."
+    },
+    {
+     "t0_ms": 1527840,
+     "text": "Finally, looking by channel, beyond just online."
+    },
+    {
+     "t0_ms": 1531300,
+     "text": "Offline GMP grew 30% year-over-year, consistent with last quarter's constant currency growth."
+    },
+    {
+     "t0_ms": 1537020,
+     "text": "Large, complex, multi-location merchants continue to be our fastest-growing segment,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1541840,
+   "t1_ms": 1585780,
+   "speaker": "Management",
+   "text": "with our total locations on Shopify up 52% year-over-year. Importantly, we are having greater success expanding our point-of-sale merchant base beyond just those merchants that started with us online and then adopted our offline solutions. In Q3, 55% of merchants that added our point-of-sale were new to Shopify, and of those already selling, half are selling only in-store. B2B GMV grew 74%. We consider B2B a significant opportunity to expand the verticals that Shopify addresses. Interestingly, B2B GMV is much more distributed by industry vertical than online and the fastest growing verticals include home improvement and hardware, electronics, and business supplies for verticals such as retail",
+   "parts": [
+    {
+     "t0_ms": 1541840,
+     "text": "with our total locations on Shopify up 52% year-over-year."
+    },
+    {
+     "t0_ms": 1546280,
+     "text": "Importantly, we are having greater success expanding our point-of-sale merchant base"
+    },
+    {
+     "t0_ms": 1549740,
+     "text": "beyond just those merchants that started with us online and then adopted our offline solutions."
+    },
+    {
+     "t0_ms": 1555140,
+     "text": "In Q3, 55% of merchants that added our point-of-sale were new to Shopify,"
+    },
+    {
+     "t0_ms": 1560180,
+     "text": "and of those already selling, half are selling only in-store. B2B GMV grew 74%. We consider B2B"
+    },
+    {
+     "t0_ms": 1567940,
+     "text": "a significant opportunity to expand the verticals that Shopify addresses. Interestingly, B2B GMV is"
+    },
+    {
+     "t0_ms": 1574300,
+     "text": "much more distributed by industry vertical than online and the fastest growing verticals include"
+    },
+    {
+     "t0_ms": 1579560,
+     "text": "home improvement and hardware, electronics, and business supplies for verticals such as retail"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1585780,
+   "t1_ms": 1629660,
+   "speaker": "Management",
+   "text": "stores, laboratories and medical, food service, and agriculture. These are categories that take us beyond our most prevalent online categories. Turning to revenue. Q3 revenue grew 32%, both reported and in constant currency, delivering on the expectations we laid out and accelerating on top of last year's strong 31% constant currency growth rate. Merchant solutions revenue grew 35%, driven substantially by the strength in GMV and increased payments penetration. Our FX revenue contributed nicely this quarter again, commensurate with our increasing international scale, and has consistently been a source of growth within payments. Payments penetration surpassed 68%, up three points year-over-year, and shop paid GMB",
+   "parts": [
+    {
+     "t0_ms": 1585780,
+     "text": "stores, laboratories and medical, food service, and agriculture. These are categories that take"
+    },
+    {
+     "t0_ms": 1592220,
+     "text": "us beyond our most prevalent online categories. Turning to revenue. Q3 revenue grew 32%,"
+    },
+    {
+     "t0_ms": 1598880,
+     "text": "both reported and in constant currency, delivering on the expectations we laid out"
+    },
+    {
+     "t0_ms": 1603360,
+     "text": "and accelerating on top of last year's strong 31% constant currency growth rate. Merchant"
+    },
+    {
+     "t0_ms": 1608480,
+     "text": "solutions revenue grew 35%, driven substantially by the strength in GMV and increased payments"
+    },
+    {
+     "t0_ms": 1613800,
+     "text": "penetration. Our FX revenue contributed nicely this quarter again, commensurate with our"
+    },
+    {
+     "t0_ms": 1619200,
+     "text": "increasing international scale, and has consistently been a source of growth within"
+    },
+    {
+     "t0_ms": 1623060,
+     "text": "payments. Payments penetration surpassed 68%, up three points year-over-year, and shop paid GMB"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1629660,
+   "t1_ms": 1674340,
+   "speaker": "Management",
+   "text": "grew 50% year-over-year. We also saw growth in the broader set of services merchants use on Shopify, most notably this quarter in advertising. Subscription solutions revenue grew 20%, led by standard plan subscriptions. Equivalent size increases in plus subscriptions and variable platform fees rounded out the growth in subscription solutions, with the variable platform fees growth balanced between more merchants exceeding their minimum volume thresholds and continued sales growth among merchants already above them. Q3 MRR grew 19% year-over-year, plus MRR represented 34% of MRR, growing 18% year-over-year. As a reminder, MRR comparatively underrepresents the impact we're seeing from larger GMB merchants.",
+   "parts": [
+    {
+     "t0_ms": 1629660,
+     "text": "grew 50% year-over-year. We also saw growth in the broader set of services merchants use on"
+    },
+    {
+     "t0_ms": 1634800,
+     "text": "Shopify, most notably this quarter in advertising. Subscription solutions revenue grew 20%,"
+    },
+    {
+     "t0_ms": 1640820,
+     "text": "led by standard plan subscriptions."
+    },
+    {
+     "t0_ms": 1643640,
+     "text": "Equivalent size increases in plus subscriptions"
+    },
+    {
+     "t0_ms": 1645780,
+     "text": "and variable platform fees"
+    },
+    {
+     "t0_ms": 1647480,
+     "text": "rounded out the growth in subscription solutions,"
+    },
+    {
+     "t0_ms": 1650140,
+     "text": "with the variable platform fees growth balanced"
+    },
+    {
+     "t0_ms": 1652300,
+     "text": "between more merchants exceeding their minimum volume thresholds"
+    },
+    {
+     "t0_ms": 1655780,
+     "text": "and continued sales growth among merchants already above them."
+    },
+    {
+     "t0_ms": 1659140,
+     "text": "Q3 MRR grew 19% year-over-year,"
+    },
+    {
+     "t0_ms": 1662580,
+     "text": "plus MRR represented 34% of MRR,"
+    },
+    {
+     "t0_ms": 1665740,
+     "text": "growing 18% year-over-year."
+    },
+    {
+     "t0_ms": 1667740,
+     "text": "As a reminder, MRR comparatively underrepresents the impact we're seeing from larger GMB merchants."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1674860,
+   "t1_ms": 1714900,
+   "speaker": "Management",
+   "text": "Turning to profitability, gross profit grew 28%, in line with our guidance, and gross margins came in at 47.6%, consistent with the second quarter. Merchant Solutions' gross profit grew 37%, with gross margins expanding year-over-year for the third consecutive quarter. Our year-over-year and sequential margin improvements were driven by margin expansion in Shopify payments from savings negotiated with partners across the full payments ecosystem. We also saw a margin uplift from increased FX activity in our advertising products. Subscription Solutions' gross profit grew 16%. Gross margins were 79%.",
+   "parts": [
+    {
+     "t0_ms": 1674860,
+     "text": "Turning to profitability, gross profit grew 28%, in line with our guidance, and gross margins came in at 47.6%, consistent with the second quarter."
+    },
+    {
+     "t0_ms": 1686140,
+     "text": "Merchant Solutions' gross profit grew 37%, with gross margins expanding year-over-year for the third consecutive quarter."
+    },
+    {
+     "t0_ms": 1694000,
+     "text": "Our year-over-year and sequential margin improvements were driven by margin expansion in Shopify payments"
+    },
+    {
+     "t0_ms": 1699560,
+     "text": "from savings negotiated with partners across the full payments ecosystem."
+    },
+    {
+     "t0_ms": 1704640,
+     "text": "We also saw a margin uplift from increased FX activity in our advertising products."
+    },
+    {
+     "t0_ms": 1709740,
+     "text": "Subscription Solutions' gross profit grew 16%."
+    },
+    {
+     "t0_ms": 1712400,
+     "text": "Gross margins were 79%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1714900,
+   "t1_ms": 1755760,
+   "speaker": "Management",
+   "text": "On a year-over-year basis, Subscription Solutions' gross margins compressed primarily from incremental AI spend on Sidekick, partially offset by efficiencies and support. On a sequential basis, our margins declined mainly due to higher hosting costs as we added capacity ahead of BFCM and some enhancements to our storefront resiliency and global surge capabilities. Although Sidekick drove year-over-year pressure and margins, on a sequential basis, we've been able to offset that pressure with efficiencies we've built into how we deliver Sidekick. We've made improvements in model selection, distillation, and caching to support more usage at a lower cost. From Q2 to Q3,",
+   "parts": [
+    {
+     "t0_ms": 1714900,
+     "text": "On a year-over-year basis, Subscription Solutions' gross margins compressed primarily from incremental AI spend on Sidekick,"
+    },
+    {
+     "t0_ms": 1722260,
+     "text": "partially offset by efficiencies and support. On a sequential basis, our margins declined mainly"
+    },
+    {
+     "t0_ms": 1728180,
+     "text": "due to higher hosting costs as we added capacity ahead of BFCM and some enhancements to our"
+    },
+    {
+     "t0_ms": 1734180,
+     "text": "storefront resiliency and global surge capabilities. Although Sidekick drove year-over-year"
+    },
+    {
+     "t0_ms": 1739300,
+     "text": "pressure and margins, on a sequential basis, we've been able to offset that pressure with"
+    },
+    {
+     "t0_ms": 1743600,
+     "text": "efficiencies we've built into how we deliver Sidekick. We've made improvements in model"
+    },
+    {
+     "t0_ms": 1748440,
+     "text": "selection, distillation, and caching to support more usage at a lower cost. From Q2 to Q3,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1756260,
+   "t1_ms": 1797340,
+   "speaker": "Management",
+   "text": "merchant conversations increased 14% while cost per conversation declined 28% and total sidekick cost fell 18%. But cost is only one part of the sidekick story. The more important measure is what merchants accomplish with it. That is our focus, but that of course also translates into our financials. Sidekick attracts more merchants to Shopify, which manifests in the financials and subscription solutions, and it propels more merchant success, which materializes in merchant solutions. Last quarter, we shared that using Sidekick's onboarding guide results in an 8% lift in merchants reaching five sales within 15 days. This quarter, we can demonstrate benefits",
+   "parts": [
+    {
+     "t0_ms": 1756260,
+     "text": "merchant conversations increased 14% while cost per conversation declined 28% and total sidekick"
+    },
+    {
+     "t0_ms": 1763400,
+     "text": "cost fell 18%. But cost is only one part of the sidekick story. The more important measure is"
+    },
+    {
+     "t0_ms": 1769060,
+     "text": "what merchants accomplish with it. That is our focus, but that of course also translates into"
+    },
+    {
+     "t0_ms": 1774140,
+     "text": "our financials. Sidekick attracts more merchants to Shopify, which manifests in the financials and"
+    },
+    {
+     "t0_ms": 1779920,
+     "text": "subscription solutions, and it propels more merchant success, which materializes in merchant"
+    },
+    {
+     "t0_ms": 1785400,
+     "text": "solutions. Last quarter, we shared that using Sidekick's onboarding guide results in an 8%"
+    },
+    {
+     "t0_ms": 1790900,
+     "text": "lift in merchants reaching five sales within 15 days. This quarter, we can demonstrate benefits"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1797340,
+   "t1_ms": 1841920,
+   "speaker": "Management",
+   "text": "beyond that. After their first sales, Sidekick offers merchants a dynamic conversion guide to prompt additional conversion tactics in those critical early months as a business is launching. Examples include help with answering customers' questions, reaching out to customers with abandoned carts, and more. This resulted in a 3% lift in merchants reaching their next five orders in 60 days after using the guide. Incrementally small, but off large cohorts. That benefit makes a difference and shows the value Sidekick can bring in targeted, proactive merchant communication. Our gross margins in the third quarter reflect our deliberate work. We maintain discipline in the quality of our spend and discipline in the long-term value that we believe will accrue to Shopify.",
+   "parts": [
+    {
+     "t0_ms": 1797340,
+     "text": "beyond that. After their first sales, Sidekick offers merchants a dynamic conversion guide to"
+    },
+    {
+     "t0_ms": 1802800,
+     "text": "prompt additional conversion tactics in those critical early months as a business is launching."
+    },
+    {
+     "t0_ms": 1809040,
+     "text": "Examples include help with answering customers' questions, reaching out to customers with"
+    },
+    {
+     "t0_ms": 1813560,
+     "text": "abandoned carts, and more. This resulted in a 3% lift in merchants reaching their next five orders"
+    },
+    {
+     "t0_ms": 1819900,
+     "text": "in 60 days after using the guide. Incrementally small, but off large cohorts. That benefit makes"
+    },
+    {
+     "t0_ms": 1826860,
+     "text": "a difference and shows the value Sidekick can bring in targeted, proactive merchant communication."
+    },
+    {
+     "t0_ms": 1832700,
+     "text": "Our gross margins in the third quarter reflect our deliberate work."
+    },
+    {
+     "t0_ms": 1836400,
+     "text": "We maintain discipline in the quality of our spend and discipline in the long-term value that we believe will accrue to Shopify."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1842640,
+   "t1_ms": 1885160,
+   "speaker": "Management",
+   "text": "Now turning to operating expenses. We continue to deliver operating leverage with operating expenses at 32% of revenue in the third quarter, down from 37% last year. Throughout the year, gross profit growth has outpaced operating expense growth by approximately 12 points each quarter. That consistency reflects our ability to scale efficiently while continuing to invest in the platform. The year-over-year dollar increase in R&D expenses quarter reflects continued investment in AI in our infrastructure and employee costs. Sales and marketing grew 14% year-over-year. The slightly slower Q3 growth rate resulted from testing that we did in the U.S. We paused spending for a couple of weeks in some channels and geographies in order to test the incrementality of our marketing efforts,",
+   "parts": [
+    {
+     "t0_ms": 1842640,
+     "text": "Now turning to operating expenses."
+    },
+    {
+     "t0_ms": 1844020,
+     "text": "We continue to deliver operating leverage with operating expenses at 32% of revenue in the third quarter, down from 37% last year."
+    },
+    {
+     "t0_ms": 1853180,
+     "text": "Throughout the year, gross profit growth has outpaced operating expense growth by approximately 12 points each quarter."
+    },
+    {
+     "t0_ms": 1859320,
+     "text": "That consistency reflects our ability to scale efficiently while continuing to invest in the platform."
+    },
+    {
+     "t0_ms": 1864760,
+     "text": "The year-over-year dollar increase in R&D expenses quarter reflects continued investment in AI in our infrastructure and employee costs."
+    },
+    {
+     "t0_ms": 1871900,
+     "text": "Sales and marketing grew 14% year-over-year."
+    },
+    {
+     "t0_ms": 1874340,
+     "text": "The slightly slower Q3 growth rate resulted from testing that we did in the U.S."
+    },
+    {
+     "t0_ms": 1878760,
+     "text": "We paused spending for a couple of weeks in some channels and geographies in order to test the incrementality of our marketing efforts,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1885160,
+   "t1_ms": 1929820,
+   "speaker": "Management",
+   "text": "which allows us to drive even greater precision into how we deploy to spend. Some of the reduced spend will effectively shift to Q4, but nothing has changed about our marketing approach. Our free cash flow was $816 million, a 22% margin. I should point out that approximately 150 basis points of the year-over-year improvement in free cash flow margins stems from the structural operating discipline and expense leverage that we've been delivering. The remainder of the improvement results from items that are more temporary. The marketing test that we did this past quarter, the timing of certain tax receivables, and the accounting change to merchant cash advances, with each of these three being roughly equally sized. The point remains, a very strong quarter of profitability.",
+   "parts": [
+    {
+     "t0_ms": 1885160,
+     "text": "which allows us to drive even greater precision into how we deploy to spend."
+    },
+    {
+     "t0_ms": 1890040,
+     "text": "Some of the reduced spend will effectively shift to Q4,"
+    },
+    {
+     "t0_ms": 1893200,
+     "text": "but nothing has changed about our marketing approach."
+    },
+    {
+     "t0_ms": 1896040,
+     "text": "Our free cash flow was $816 million, a 22% margin."
+    },
+    {
+     "t0_ms": 1900660,
+     "text": "I should point out that approximately 150 basis points of the year-over-year improvement"
+    },
+    {
+     "t0_ms": 1904300,
+     "text": "in free cash flow margins stems from the structural operating discipline"
+    },
+    {
+     "t0_ms": 1908100,
+     "text": "and expense leverage that we've been delivering."
+    },
+    {
+     "t0_ms": 1911340,
+     "text": "The remainder of the improvement results from items that are more temporary."
+    },
+    {
+     "t0_ms": 1914040,
+     "text": "The marketing test that we did this past quarter, the timing of certain tax receivables, and the accounting change to merchant cash advances, with each of these three being roughly equally sized."
+    },
+    {
+     "t0_ms": 1926200,
+     "text": "The point remains, a very strong quarter of profitability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1930420,
+   "t1_ms": 1974680,
+   "speaker": "Management",
+   "text": "With that, let's move to our fourth quarter outlook. We expect Q4 revenue growth in the low 30s year over year. Our guidance reflects less than a point of FX headwind. This outlook compares to a 29% constant currency growth rate last year. We expect gross profit dollars to grow in the high 20s. We expect Q4 operating expenses to be 29% to 30% of revenue, reflecting higher marketing expenses, including some initiatives in advance of BFCM. And finally, we expect free cash flow margin for Q4 to be in line with Q4 of last year. Our free cash flow performance in the fourth quarter primarily reflects a continuation of the trends we saw in Q3, but with higher taxes from the timing of payments in certain jurisdictions that get paid in the fourth quarter.",
+   "parts": [
+    {
+     "t0_ms": 1930420,
+     "text": "With that, let's move to our fourth quarter outlook."
+    },
+    {
+     "t0_ms": 1933640,
+     "text": "We expect Q4 revenue growth in the low 30s year over year."
+    },
+    {
+     "t0_ms": 1937820,
+     "text": "Our guidance reflects less than a point of FX headwind."
+    },
+    {
+     "t0_ms": 1941200,
+     "text": "This outlook compares to a 29% constant currency growth rate last year."
+    },
+    {
+     "t0_ms": 1945640,
+     "text": "We expect gross profit dollars to grow in the high 20s."
+    },
+    {
+     "t0_ms": 1948860,
+     "text": "We expect Q4 operating expenses to be 29% to 30% of revenue, reflecting higher marketing expenses, including some initiatives in advance of BFCM."
+    },
+    {
+     "t0_ms": 1958260,
+     "text": "And finally, we expect free cash flow margin for Q4 to be in line with Q4 of last year."
+    },
+    {
+     "t0_ms": 1963020,
+     "text": "Our free cash flow performance in the fourth quarter primarily reflects a continuation of the trends we saw in Q3,"
+    },
+    {
+     "t0_ms": 1969620,
+     "text": "but with higher taxes from the timing of payments in certain jurisdictions that get paid in the fourth quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1975360,
+   "t1_ms": 2020200,
+   "speaker": "Management",
+   "text": "We don't expect any meaningful impact from the accounting change in merchant cash advances in Q4. A few thoughts in closing. Our opportunity remains substantial. We are serving more merchants and building more of what they need to grow. We continue to drive a larger share of commerce. We continue to expand commerce itself. We continue delivering top-line results with proven consistency. Consistency of GMV growth, consistency of revenue growth, and consistency in the breadth of strength across regions, merchant sizes, and channels. Lastly, we continue to demonstrate strong discipline in our expenses. Our profitability is a combination of that discipline and the thoughtful, planned investment as we build for the future. It took Shopify 18 years to reach our first trillion dollars in cumulative GMV.",
+   "parts": [
+    {
+     "t0_ms": 1975360,
+     "text": "We don't expect any meaningful impact from the accounting change in merchant cash advances in Q4."
+    },
+    {
+     "t0_ms": 1980820,
+     "text": "A few thoughts in closing."
+    },
+    {
+     "t0_ms": 1982800,
+     "text": "Our opportunity remains substantial."
+    },
+    {
+     "t0_ms": 1984860,
+     "text": "We are serving more merchants and building more of what they need to grow."
+    },
+    {
+     "t0_ms": 1988560,
+     "text": "We continue to drive a larger share of commerce."
+    },
+    {
+     "t0_ms": 1991660,
+     "text": "We continue to expand commerce itself."
+    },
+    {
+     "t0_ms": 1993880,
+     "text": "We continue delivering top-line results with proven consistency."
+    },
+    {
+     "t0_ms": 1997360,
+     "text": "Consistency of GMV growth, consistency of revenue growth,"
+    },
+    {
+     "t0_ms": 2001000,
+     "text": "and consistency in the breadth of strength across regions,"
+    },
+    {
+     "t0_ms": 2004220,
+     "text": "merchant sizes, and channels."
+    },
+    {
+     "t0_ms": 2006640,
+     "text": "Lastly, we continue to demonstrate strong discipline in our expenses."
+    },
+    {
+     "t0_ms": 2010700,
+     "text": "Our profitability is a combination of that discipline"
+    },
+    {
+     "t0_ms": 2012800,
+     "text": "and the thoughtful, planned investment as we build for the future."
+    },
+    {
+     "t0_ms": 2016320,
+     "text": "It took Shopify 18 years to reach our first trillion dollars in cumulative GMV."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2020200,
+   "t1_ms": 2032360,
+   "speaker": "Management",
+   "text": "we expect to pass the second trillion by the end of this year, less than two and a half years later. That gives you a sense of how the scale of our merchants' businesses have compounded. With that, I'll turn the call back to Shane for your questions.",
+   "parts": [
+    {
+     "t0_ms": 2020200,
+     "text": "we expect to pass the second trillion by the end of this year, less than two and a half years later."
+    },
+    {
+     "t0_ms": 2025720,
+     "text": "That gives you a sense of how the scale of our merchants' businesses have compounded."
+    },
+    {
+     "t0_ms": 2030140,
+     "text": "With that, I'll turn the call back to Shane for your questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2033700,
+   "t1_ms": 2059820,
+   "speaker": "Operator",
+   "text": "Thanks, Jeff. We'll now take your questions before turning the call back to Harley for some final words. Please use the raise hand feature in Zoom to ask your question. If you're dialing in by phone, you'll need to press star nine to join the queue and star six to unmute yourself. Please limit yourself to one question so we can get to as many questions as possible our first question will come from samad samana from jeffries samad your line is open hi good morning and thanks for taking my",
+   "parts": [
+    {
+     "t0_ms": 2033700,
+     "text": "Thanks, Jeff. We'll now take your questions before turning the call back to Harley for some final"
+    },
+    {
+     "t0_ms": 2037660,
+     "text": "words. Please use the raise hand feature in Zoom to ask your question. If you're dialing in by phone,"
+    },
+    {
+     "t0_ms": 2042400,
+     "text": "you'll need to press star nine to join the queue and star six to unmute yourself. Please limit"
+    },
+    {
+     "t0_ms": 2046780,
+     "text": "yourself to one question so we can get to as many questions as possible our first question will come"
+    },
+    {
+     "t0_ms": 2051679,
+     "text": "from samad samana from jeffries samad your line is open hi good morning and thanks for taking my"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2059820,
+   "t1_ms": 2087860,
+   "speaker": "Analyst",
+   "text": "question uh congrats on another strong quarter from the team i wanted to see harley if we could dig into the relationship with meta and muse it's been a key investor focus how is shop working with meta on development how does it impact the payment economics depending on whether they use shop pay or MetaPay or another option and any early signals on what merchants are seeing from this channel in terms of conversion, we think it's a big focus and it'd be very helpful. Thank you for taking my",
+   "parts": [
+    {
+     "t0_ms": 2059820,
+     "text": "question uh congrats on another strong quarter from the team i wanted to see harley if we could"
+    },
+    {
+     "t0_ms": 2065500,
+     "text": "dig into the relationship with meta and muse it's been a key investor focus how is shop working with"
+    },
+    {
+     "t0_ms": 2071800,
+     "text": "meta on development how does it impact the payment economics depending on whether they use shop pay"
+    },
+    {
+     "t0_ms": 2077060,
+     "text": "or MetaPay or another option and any early signals on what merchants are seeing from this channel"
+    },
+    {
+     "t0_ms": 2082340,
+     "text": "in terms of conversion, we think it's a big focus and it'd be very helpful. Thank you for taking my"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2087860,
+   "t1_ms": 2132800,
+   "speaker": "Management",
+   "text": "question. Yeah, so thanks for the question. Specifically on personal agents, I mean, as I mentioned in my remarks, certainly the last quarter you've seen a lot of them, whether it's Muse or Instinct or CloudDuet. And I think one of the things we're most excited about is that this feels like a brand new channel for merchants. It feels like a new place where they can actually find new customers. And the fact that ShopPay is integrated as a wallet means that the agent knows your size, knows your style, knows your shopping history, and then all orders get tracked by the Shop app as well. So I would say it's still quite early. Momentum is certainly strong. The quality of traffic is really, really quite high. And that we think is really, really important. But the agent is really just this new front door here. We are everything beyond that. So every new interface needs this commerce infrastructure running underneath it.",
+   "parts": [
+    {
+     "t0_ms": 2087860,
+     "text": "question. Yeah, so thanks for the question. Specifically on personal agents, I mean,"
+    },
+    {
+     "t0_ms": 2092739,
+     "text": "as I mentioned in my remarks, certainly the last quarter you've seen a lot of them, whether it's"
+    },
+    {
+     "t0_ms": 2096800,
+     "text": "Muse or Instinct or CloudDuet. And I think one of the things we're most excited about is that this"
+    },
+    {
+     "t0_ms": 2102340,
+     "text": "feels like a brand new channel for merchants. It feels like a new place where they can actually"
+    },
+    {
+     "t0_ms": 2105640,
+     "text": "find new customers. And the fact that ShopPay is integrated as a wallet means that the agent knows"
+    },
+    {
+     "t0_ms": 2110460,
+     "text": "your size, knows your style, knows your shopping history, and then all orders get tracked by the"
+    },
+    {
+     "t0_ms": 2114680,
+     "text": "Shop app as well. So I would say it's still quite early. Momentum is certainly strong."
+    },
+    {
+     "t0_ms": 2119020,
+     "text": "The quality of traffic is really, really quite high. And that we think is really,"
+    },
+    {
+     "t0_ms": 2123200,
+     "text": "really important. But the agent is really just this new front door here. We are everything"
+    },
+    {
+     "t0_ms": 2128180,
+     "text": "beyond that. So every new interface needs this commerce infrastructure running underneath it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2132800,
+   "t1_ms": 2174060,
+   "speaker": "Management",
+   "text": "and that's what we're doing. And I think the value is an enormous complexity of commerce. So, you know, the millions of lines of code that give the platform its power allows these agents to have provide the best experience to the new consumer. And I think that'll only continue as well. In terms of just agentic, you know, in general, not just the agents, I think what you're seeing is that, you know, every week or two, you're seeing a new agent or a new personal agent show up. And hopefully you're noticing that Shopify is the commerce infrastructure behind all of them we're partnering with all of them volume again is small but traffic you know we saw in the last quarter was 2.6x year on year orders were up 3.3x and then shop like catalog is powering discovery in almost every single major ai channel the other thing that's really cool is",
+   "parts": [
+    {
+     "t0_ms": 2132800,
+     "text": "and that's what we're doing. And I think the value is an enormous complexity of commerce. So,"
+    },
+    {
+     "t0_ms": 2137840,
+     "text": "you know, the millions of lines of code that give the platform its power allows these agents to have"
+    },
+    {
+     "t0_ms": 2142120,
+     "text": "provide the best experience to the new consumer. And I think that'll only continue as well."
+    },
+    {
+     "t0_ms": 2146480,
+     "text": "In terms of just agentic, you know, in general, not just the agents, I think what you're seeing"
+    },
+    {
+     "t0_ms": 2152160,
+     "text": "is that, you know, every week or two, you're seeing a new agent or a new personal agent"
+    },
+    {
+     "t0_ms": 2155240,
+     "text": "show up. And hopefully you're noticing that Shopify is the commerce infrastructure behind"
+    },
+    {
+     "t0_ms": 2159840,
+     "text": "all of them we're partnering with all of them volume again is small but traffic you know we"
+    },
+    {
+     "t0_ms": 2163680,
+     "text": "saw in the last quarter was 2.6x year on year orders were up 3.3x and then shop like catalog"
+    },
+    {
+     "t0_ms": 2169380,
+     "text": "is powering discovery in almost every single major ai channel the other thing that's really cool is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2174060,
+   "t1_ms": 2217900,
+   "speaker": "Management",
+   "text": "conversion from catalog is actually 2x the rate of general ai search sort of you know what people call scraping maybe the last point i'll sort of end on here is that you know we are seeing that these ai channels are really rewarding specificity which is really really important for the long tail of Commerce, which is most of our merchant base. So as we said, 74% of AI-attributed purchases in Q3 were from outside our top 100 categories. So we're really seeing that these more nuanced niche products are getting found, and we have a ton of those on Shopify. So the way that we see it is Q3 saw personal agents hit the mainstream, and all the major ones are partnered with Shopify. Our merchant checkouts are supported, and the fact that buyers can use a very familiar paying",
+   "parts": [
+    {
+     "t0_ms": 2174060,
+     "text": "conversion from catalog is actually 2x the rate of general ai search sort of you know what people"
+    },
+    {
+     "t0_ms": 2179500,
+     "text": "call scraping maybe the last point i'll sort of end on here is that you know we are seeing that"
+    },
+    {
+     "t0_ms": 2184980,
+     "text": "these ai channels are really rewarding specificity which is really really important for the long tail"
+    },
+    {
+     "t0_ms": 2189580,
+     "text": "of Commerce, which is most of our merchant base. So as we said, 74% of AI-attributed purchases in"
+    },
+    {
+     "t0_ms": 2195460,
+     "text": "Q3 were from outside our top 100 categories. So we're really seeing that these more nuanced niche"
+    },
+    {
+     "t0_ms": 2202060,
+     "text": "products are getting found, and we have a ton of those on Shopify. So the way that we see it is"
+    },
+    {
+     "t0_ms": 2206980,
+     "text": "Q3 saw personal agents hit the mainstream, and all the major ones are partnered with Shopify."
+    },
+    {
+     "t0_ms": 2213180,
+     "text": "Our merchant checkouts are supported, and the fact that buyers can use a very familiar paying"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2217900,
+   "t1_ms": 2226140,
+   "speaker": "Management",
+   "text": "opportunity with ShopPay as their wallet on an uncommon surface or a new surface, we think is going to be a huge advantage to both merchants and consumers.",
+   "parts": [
+    {
+     "t0_ms": 2217900,
+     "text": "opportunity with ShopPay as their wallet on an uncommon surface or a new surface,"
+    },
+    {
+     "t0_ms": 2222220,
+     "text": "we think is going to be a huge advantage to both merchants and consumers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2226760,
+   "t1_ms": 2232830,
+   "speaker": "Operator",
+   "text": "Our next question will be from Andrew Boone at Citizens. Andrew, your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2226760,
+     "text": "Our next question will be from Andrew Boone at Citizens. Andrew, your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2235950,
+   "t1_ms": 2255890,
+   "speaker": "Analyst",
+   "text": "Thanks, Harley. I wanted to stay on the agentic topic. As I think about the potential, and you talked about the potential of agents at large of moving towards what is a headless version of commerce. Can you talk about how that changes maybe the mode of Shopify? What happens to ShopPay or the infrastructure and how you guys prioritize the roadmap. Thanks so much.",
+   "parts": [
+    {
+     "t0_ms": 2235950,
+     "text": "Thanks, Harley. I wanted to stay on the agentic topic. As I think about the potential,"
+    },
+    {
+     "t0_ms": 2241370,
+     "text": "and you talked about the potential of agents at large of moving towards what is a headless"
+    },
+    {
+     "t0_ms": 2246050,
+     "text": "version of commerce. Can you talk about how that changes maybe the mode of Shopify? What happens"
+    },
+    {
+     "t0_ms": 2251630,
+     "text": "to ShopPay or the infrastructure"
+    },
+    {
+     "t0_ms": 2253070,
+     "text": "and how you guys prioritize the roadmap."
+    },
+    {
+     "t0_ms": 2255410,
+     "text": "Thanks so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2257350,
+   "t1_ms": 2300430,
+   "speaker": "Management",
+   "text": "Thanks for the question on that. So here's, let me be really clear about that because I think one thing that maybe is getting missed here is that with this entrance of sort of these personal agents and the beginning of delegated purchasing, this is where agents don't just recommend products, but they're also buying on behalf of some of the users. And again, I said this in the last answer, but this is really the newest front door into commerce. This is very new behavior. Volume is, of course, small, but it's growing. But in the new world of personal agents, shop is not just a wallet. It is your complete buyer profile. So when you connect shop to Muse or Instinct or CloudDuet or Grokbot, the agent gets three things. First of all, it gets your entire shopping history across any Shopify merchant,",
+   "parts": [
+    {
+     "t0_ms": 2257350,
+     "text": "Thanks for the question on that."
+    },
+    {
+     "t0_ms": 2258770,
+     "text": "So here's, let me be really clear about that"
+    },
+    {
+     "t0_ms": 2261530,
+     "text": "because I think one thing"
+    },
+    {
+     "t0_ms": 2262870,
+     "text": "that maybe is getting missed here"
+    },
+    {
+     "t0_ms": 2264350,
+     "text": "is that with this entrance"
+    },
+    {
+     "t0_ms": 2268530,
+     "text": "of sort of these personal agents"
+    },
+    {
+     "t0_ms": 2269890,
+     "text": "and the beginning of delegated purchasing,"
+    },
+    {
+     "t0_ms": 2273130,
+     "text": "this is where agents don't just recommend products,"
+    },
+    {
+     "t0_ms": 2275410,
+     "text": "but they're also buying on behalf of some of the users."
+    },
+    {
+     "t0_ms": 2277770,
+     "text": "And again, I said this in the last answer,"
+    },
+    {
+     "t0_ms": 2280350,
+     "text": "but this is really the newest front door into commerce."
+    },
+    {
+     "t0_ms": 2281970,
+     "text": "This is very new behavior. Volume is, of course, small, but it's growing."
+    },
+    {
+     "t0_ms": 2285510,
+     "text": "But in the new world of personal agents, shop is not just a wallet. It is your complete buyer"
+    },
+    {
+     "t0_ms": 2290510,
+     "text": "profile. So when you connect shop to Muse or Instinct or CloudDuet or Grokbot, the agent gets"
+    },
+    {
+     "t0_ms": 2295870,
+     "text": "three things. First of all, it gets your entire shopping history across any Shopify merchant,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2300530,
+   "t1_ms": 2344210,
+   "speaker": "Management",
+   "text": "so it can deliver these incredibly personalized recommendations. Second, with ShopPay, it gets saved payment details. You can pay the way you want with confidence. The agent doesn't get that information and then the connection to the shop app means even afterwards you're able to track everything you purchased so the fact that we have 400 million shoppers already trusting shop and shop pay now that trust goes with them into every single agent we think that's really really important so we actually think in a world of agents in a world of agentic shopping these tools specifically the shop tool and and the toolkit that comes with shop shop pay the shop app even ucp so your your checkout is exactly what you want it to be what it is on your website we think these become even more important the one thing i want to zoom up just for a sec because i suspect",
+   "parts": [
+    {
+     "t0_ms": 2300530,
+     "text": "so it can deliver these incredibly personalized recommendations. Second, with ShopPay,"
+    },
+    {
+     "t0_ms": 2304890,
+     "text": "it gets saved payment details. You can pay the way you want with confidence. The agent doesn't"
+    },
+    {
+     "t0_ms": 2308930,
+     "text": "get that information and then the connection to the shop app means even afterwards you're able"
+    },
+    {
+     "t0_ms": 2313710,
+     "text": "to track everything you purchased so the fact that we have 400 million shoppers already trusting shop"
+    },
+    {
+     "t0_ms": 2318830,
+     "text": "and shop pay now that trust goes with them into every single agent we think that's really really"
+    },
+    {
+     "t0_ms": 2323770,
+     "text": "important so we actually think in a world of agents in a world of agentic shopping these tools"
+    },
+    {
+     "t0_ms": 2329390,
+     "text": "specifically the shop tool and and the toolkit that comes with shop shop pay the shop app even"
+    },
+    {
+     "t0_ms": 2335110,
+     "text": "ucp so your your checkout is exactly what you want it to be what it is on your website we think"
+    },
+    {
+     "t0_ms": 2339890,
+     "text": "these become even more important the one thing i want to zoom up just for a sec because i suspect"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2344210,
+   "t1_ms": 2385730,
+   "speaker": "Management",
+   "text": "i'm going to get a lot of great questions about agentic on this call the way we think about this is that agentic ultimately is this incredible new opportunity for merchants it is a new surface area that otherwise does not exist as jeff mentioned earlier this is we think um going to be an incremental increase to commerce he mentioned on the call on his remarks but since the start of 2025, we've seen an average, we've captured nearly half of all incremental e-com in the U.S., despite only being 14%. Part of what you're seeing is a strategy to make sure that wherever consumers are purchasing, whether online or offline, on agents, on social, Shopify helps merchants connect to it. So with more opportunity comes more complexity. And actually, that is where",
+   "parts": [
+    {
+     "t0_ms": 2344210,
+     "text": "i'm going to get a lot of great questions about agentic on this call the way we think about this"
+    },
+    {
+     "t0_ms": 2348830,
+     "text": "is that agentic ultimately is this incredible new opportunity for merchants it is a new surface area"
+    },
+    {
+     "t0_ms": 2353050,
+     "text": "that otherwise does not exist as jeff mentioned earlier this is we think um going to be an"
+    },
+    {
+     "t0_ms": 2359810,
+     "text": "incremental increase to commerce he mentioned on the call on his remarks but since the start of"
+    },
+    {
+     "t0_ms": 2364470,
+     "text": "2025, we've seen an average, we've captured nearly half of all incremental e-com in the U.S.,"
+    },
+    {
+     "t0_ms": 2369750,
+     "text": "despite only being 14%. Part of what you're seeing is a strategy to make sure that wherever"
+    },
+    {
+     "t0_ms": 2375130,
+     "text": "consumers are purchasing, whether online or offline, on agents, on social, Shopify helps"
+    },
+    {
+     "t0_ms": 2380470,
+     "text": "merchants connect to it. So with more opportunity comes more complexity. And actually, that is where"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2385730,
+   "t1_ms": 2400490,
+   "speaker": "Management",
+   "text": "Shopify's value goes up. By simplifying more complexity, where there's more front doors, that allows us to play a larger role in the lives of the merchants that use Shopify. So we think actually with more of these channels and more of these front doors, we will actually play a larger role in the lives of the merchants that use Shopify.",
+   "parts": [
+    {
+     "t0_ms": 2385730,
+     "text": "Shopify's value goes up. By simplifying more complexity, where there's more front doors,"
+    },
+    {
+     "t0_ms": 2390630,
+     "text": "that allows us to play a larger role in the lives of the merchants that use Shopify."
+    },
+    {
+     "t0_ms": 2393670,
+     "text": "So we think actually with more of these channels and more of these front doors, we will actually play a larger role in the lives of the merchants that use Shopify."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2405620,
+   "t1_ms": 2410420,
+   "speaker": "Operator",
+   "text": "Great. Our next question will come from Mike Morton from Moffitt Nathanson. Mike, your line's open.",
+   "parts": [
+    {
+     "t0_ms": 2405620,
+     "text": "Great. Our next question will come from Mike Morton from Moffitt Nathanson. Mike, your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2413030,
+   "t1_ms": 2457810,
+   "speaker": "Analyst",
+   "text": "Good morning. Thanks for the question. Maybe just a little bit of follow up, Jeff, on the sidekick costs. You talk about doing a good job getting some leverage there on your token expenses. It's something that comes up a fair amount in the investor base. So just would love to maybe have some kind of guidance, not like the financial way, but just you've talked in the past about subscription solution trend line, 80% of gross margins. It's kind of two quarters in a row. It's been below that and trending down. When you look forward and you think about your ability to serve merchants with sidekick, but also get leverage on the token expenses has your philosophy on that 80 gross margin trend",
+   "parts": [
+    {
+     "t0_ms": 2413030,
+     "text": "Good morning. Thanks for the question. Maybe just a little bit of follow up, Jeff, on the sidekick costs."
+    },
+    {
+     "t0_ms": 2421530,
+     "text": "You talk about doing a good job getting some leverage there on your token expenses."
+    },
+    {
+     "t0_ms": 2426070,
+     "text": "It's something that comes up a fair amount in the investor base."
+    },
+    {
+     "t0_ms": 2429130,
+     "text": "So just would love to maybe have some kind of guidance, not like the financial way, but"
+    },
+    {
+     "t0_ms": 2435370,
+     "text": "just you've talked in the past about subscription solution trend line, 80% of gross margins."
+    },
+    {
+     "t0_ms": 2440850,
+     "text": "It's kind of two quarters in a row."
+    },
+    {
+     "t0_ms": 2442350,
+     "text": "It's been below that and trending down."
+    },
+    {
+     "t0_ms": 2444370,
+     "text": "When you look forward and you think about your ability to serve merchants with sidekick,"
+    },
+    {
+     "t0_ms": 2449770,
+     "text": "but also get leverage on the token expenses has your philosophy on that 80 gross margin trend"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2457810,
+   "t1_ms": 2499610,
+   "speaker": "Management",
+   "text": "line changed at all no i guess mike from my vantage point what i would point i said that's a little bit of my prepared remarks i would go back to a couple of things number one on subscription solutions i talked about what we saw in sidekick costs as well as also that being a blend of some of the other things we're doing from a hosting perspective uh and so i feel really good in terms of what we're doing on subscription solutions. And again, I gave some detail in terms of some of the impact we're seeing on Sidekick. I really think we're doing some interesting things. And I reflect back to my comments in terms of essentially what we're doing in cost per additional inquiry versus usage. And we're really trying to drive usage on Sidekick because we see significant benefit.",
+   "parts": [
+    {
+     "t0_ms": 2457810,
+     "text": "line changed at all no i guess mike from my vantage point what i would point i said that's"
+    },
+    {
+     "t0_ms": 2463790,
+     "text": "a little bit of my prepared remarks i would go back to a couple of things number one on"
+    },
+    {
+     "t0_ms": 2468770,
+     "text": "subscription solutions i talked about what we saw in sidekick costs as well as also that being a"
+    },
+    {
+     "t0_ms": 2473750,
+     "text": "blend of some of the other things we're doing from a hosting perspective uh and so i feel really good"
+    },
+    {
+     "t0_ms": 2479090,
+     "text": "in terms of what we're doing on subscription solutions."
+    },
+    {
+     "t0_ms": 2481530,
+     "text": "And again, I gave some detail in terms of some of the impact we're seeing on Sidekick."
+    },
+    {
+     "t0_ms": 2484710,
+     "text": "I really think we're doing some interesting things."
+    },
+    {
+     "t0_ms": 2486510,
+     "text": "And I reflect back to my comments in terms of essentially what we're doing in cost per additional inquiry versus usage."
+    },
+    {
+     "t0_ms": 2494990,
+     "text": "And we're really trying to drive usage on Sidekick because we see significant benefit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2500270,
+   "t1_ms": 2541290,
+   "speaker": "Management",
+   "text": "Not only, and this is, Sidekick may be one of these few products, not the only product, but it's just from a pure accounting perspective. Obviously, the costs sit within subscription solutions, but the impact is really felt on both sides of our business, both the merchant solutions as well as on subscription solutions. And I tried to do some of this in my remarks earlier in the call to just speak to kind of the benefit we're seeing and how that value is going to accrue more and more over time in terms of the success of the business. You also saw from the outlook I gave when you look at the gross margin implications for Q4 of this year and you think about what that trend looks like both on a quarter-over-quarter basis as well as a year-over-year basis, we feel",
+   "parts": [
+    {
+     "t0_ms": 2500270,
+     "text": "Not only, and this is, Sidekick may be one of these few products, not the only product,"
+    },
+    {
+     "t0_ms": 2504750,
+     "text": "but it's just from a pure accounting perspective. Obviously, the costs sit within subscription"
+    },
+    {
+     "t0_ms": 2509530,
+     "text": "solutions, but the impact is really felt on both sides of our business, both the merchant solutions"
+    },
+    {
+     "t0_ms": 2514750,
+     "text": "as well as on subscription solutions. And I tried to do some of this in my remarks earlier in the"
+    },
+    {
+     "t0_ms": 2520110,
+     "text": "call to just speak to kind of the benefit we're seeing and how that value is going to accrue more"
+    },
+    {
+     "t0_ms": 2525170,
+     "text": "and more over time in terms of the success of the business. You also saw from the outlook I gave"
+    },
+    {
+     "t0_ms": 2532350,
+     "text": "when you look at the gross margin implications for Q4 of this year and you think about what that"
+    },
+    {
+     "t0_ms": 2537390,
+     "text": "trend looks like both on a quarter-over-quarter basis as well as a year-over-year basis, we feel"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2541290,
+   "t1_ms": 2572610,
+   "speaker": "Management",
+   "text": "really good about what we're doing here on the core elements of the business. Some of what we're seeing in Q4 is going to be, and again, I also alluded to this earlier as well, some of what we're going to see in Q4 is some infrastructure spend, which really speaks to us making sure in this super important quarter, the Q4 quarter, where obviously the big holiday shopping season that we have extreme resiliency. We're ready to do everything our merchants need. So some of that's factored into the margins as well. But again, I think we feel really good about where we're",
+   "parts": [
+    {
+     "t0_ms": 2541290,
+     "text": "really good about what we're doing here on the core elements of the business. Some of what we're"
+    },
+    {
+     "t0_ms": 2547090,
+     "text": "seeing in Q4 is going to be, and again, I also alluded to this earlier as well, some of what"
+    },
+    {
+     "t0_ms": 2552670,
+     "text": "we're going to see in Q4 is some infrastructure spend, which really speaks to us making sure in"
+    },
+    {
+     "t0_ms": 2558110,
+     "text": "this super important quarter, the Q4 quarter, where obviously the big holiday shopping season"
+    },
+    {
+     "t0_ms": 2562750,
+     "text": "that we have extreme resiliency. We're ready to do everything our merchants need. So some of that's"
+    },
+    {
+     "t0_ms": 2568030,
+     "text": "factored into the margins as well. But again, I think we feel really good about where we're"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2572610,
+   "t1_ms": 2579740,
+   "speaker": "Operator",
+   "text": "heading on all this. Great. Our next question comes from Mark Mahaney at Evercore ISI. Mark,",
+   "parts": [
+    {
+     "t0_ms": 2572610,
+     "text": "heading on all this. Great. Our next question comes from Mark Mahaney at Evercore ISI. Mark,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2579920,
+   "t1_ms": 2588440,
+   "speaker": "Analyst",
+   "text": "your line's open. Okay. You may have just answered the question I wanted to ask, which is your",
+   "parts": [
+    {
+     "t0_ms": 2579920,
+     "text": "your line's open. Okay. You may have just answered the question I wanted to ask, which is your"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2588440,
+   "t1_ms": 2600050,
+   "speaker": "Operator",
+   "text": "guidance implies this. I think your line just cut out. Mark, if you come back in the queue,",
+   "parts": [
+    {
+     "t0_ms": 2588440,
+     "text": "guidance implies this. I think your line just cut out. Mark, if you come back in the queue,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2600150,
+   "t1_ms": 2636680,
+   "speaker": "Analyst",
+   "text": "we'll get you back in. Mark, you should be able to. Yeah, I'm back. Can you hear me now? Yes. Yes. Sorry about that. Hey, just a little bit more on the free cash flow margin for Q4. You typically have free cash flow margins up sequentially. And maybe you just answered it with the last question about a little bit of extra infrastructure spending Q4. And I know you had some small one-time items in the free cash flow margin in Q3. But just any more clarification on why you wouldn't have your normal sequentially up free cashflow margin in Q4. Thank",
+   "parts": [
+    {
+     "t0_ms": 2600150,
+     "text": "we'll get you back in. Mark, you should be able to. Yeah, I'm back. Can you hear me now?"
+    },
+    {
+     "t0_ms": 2613380,
+     "text": "Yes. Yes. Sorry about that. Hey, just a little bit more on the free cash flow margin for Q4."
+    },
+    {
+     "t0_ms": 2617880,
+     "text": "You typically have free cash flow margins up sequentially. And maybe you just answered it"
+    },
+    {
+     "t0_ms": 2622340,
+     "text": "with the last question about a little bit of extra infrastructure spending Q4. And I know"
+    },
+    {
+     "t0_ms": 2626100,
+     "text": "you had some small one-time items in the free cash flow margin in Q3. But just any more"
+    },
+    {
+     "t0_ms": 2631140,
+     "text": "clarification on why you wouldn't have your normal sequentially up free cashflow margin in Q4. Thank"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2636680,
+   "t1_ms": 2680260,
+   "speaker": "Management",
+   "text": "you. Yeah, I think there's a couple of things, Mark. I alluded to this in my comments earlier that there is some marketing spend that has shifted effectively from Q3 to Q4 in terms of some of the testing we did. But more importantly, when you look what we're doing on the performance marketing side, the returns have been very, very good. There are some opportunities just going into holiday shopping season, what we've already seen in terms of putting some marketing dollars to work in a highly effective way, and that's Shopify. We're going to lean into opportunities like that, and I think that's exactly what you would want us to do. And even with that opportunity on the marketing side and some of the things I alluded to on the infrastructure side, we're still getting to these margins. So, again, there's a little bit of timing differential between the two,",
+   "parts": [
+    {
+     "t0_ms": 2636680,
+     "text": "you. Yeah, I think there's a couple of things, Mark. I alluded to this in my comments earlier"
+    },
+    {
+     "t0_ms": 2640620,
+     "text": "that there is some marketing spend that has shifted effectively from Q3 to Q4 in terms of"
+    },
+    {
+     "t0_ms": 2646460,
+     "text": "some of the testing we did. But more importantly, when you look what we're doing on the performance"
+    },
+    {
+     "t0_ms": 2650980,
+     "text": "marketing side, the returns have been very, very good. There are some opportunities just going into"
+    },
+    {
+     "t0_ms": 2656140,
+     "text": "holiday shopping season, what we've already seen in terms of putting some marketing dollars to work"
+    },
+    {
+     "t0_ms": 2661040,
+     "text": "in a highly effective way, and that's Shopify."
+    },
+    {
+     "t0_ms": 2664240,
+     "text": "We're going to lean into opportunities like that,"
+    },
+    {
+     "t0_ms": 2665820,
+     "text": "and I think that's exactly what you would want us to do."
+    },
+    {
+     "t0_ms": 2668440,
+     "text": "And even with that opportunity on the marketing side"
+    },
+    {
+     "t0_ms": 2671240,
+     "text": "and some of the things I alluded to on the infrastructure side,"
+    },
+    {
+     "t0_ms": 2673920,
+     "text": "we're still getting to these margins."
+    },
+    {
+     "t0_ms": 2676760,
+     "text": "So, again, there's a little bit of timing differential between the two,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2680440,
+   "t1_ms": 2701640,
+   "speaker": "Management",
+   "text": "but between some of the investments on the infrastructure side and some of the investments on the marketing side, we're still delivering these margins. So and when you look what that implies for where we will end for the full year, again, I think from a overall expense perspective, from a profitability perspective, nothing's fundamentally changed. We feel I feel very good about where we are with this business right now.",
+   "parts": [
+    {
+     "t0_ms": 2680440,
+     "text": "but between some of the investments on the infrastructure side"
+    },
+    {
+     "t0_ms": 2683720,
+     "text": "and some of the investments on the marketing side,"
+    },
+    {
+     "t0_ms": 2685180,
+     "text": "we're still delivering these margins."
+    },
+    {
+     "t0_ms": 2686640,
+     "text": "So and when you look what that implies for where we will end for the full year, again, I think from a overall expense perspective, from a profitability perspective, nothing's fundamentally changed."
+    },
+    {
+     "t0_ms": 2698060,
+     "text": "We feel I feel very good about where we are with this business right now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2704350,
+   "t1_ms": 2709010,
+   "speaker": "Operator",
+   "text": "Great. Our next question is coming from Ken Gretzky from Wells Fargo. Ken, your line's open.",
+   "parts": [
+    {
+     "t0_ms": 2704350,
+     "text": "Great. Our next question is coming from Ken Gretzky from Wells Fargo."
+    },
+    {
+     "t0_ms": 2708230,
+     "text": "Ken, your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2710250,
+   "t1_ms": 2754670,
+   "speaker": "Analyst",
+   "text": "Thank you. If I could ask just two quick, please. First is just on the industry side, there's a fair amount of debate between horizontal kind of general purpose agents and vertical agents. With the full acknowledgement that shop remains largely agnostic here, you have a unique vantage point and would appreciate your perspective maybe, Harley, on that one. And very quickly, just one more on the subscription solutions revenue. Could you talk a little bit about kind of the disconnect between subscriptions revenues decelerating while GMB remains so robust? Could you talk about the outlook as you think you fork you into next year for that lineup? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2710250,
+     "text": "Thank you. If I could ask just two quick, please."
+    },
+    {
+     "t0_ms": 2713650,
+     "text": "First is just on the industry side, there's a fair amount of debate between horizontal kind of general purpose agents and vertical agents."
+    },
+    {
+     "t0_ms": 2722770,
+     "text": "With the full acknowledgement that shop remains largely agnostic here, you have a unique vantage point and would appreciate your perspective maybe, Harley, on that one."
+    },
+    {
+     "t0_ms": 2732830,
+     "text": "And very quickly, just one more on the subscription solutions revenue."
+    },
+    {
+     "t0_ms": 2738370,
+     "text": "Could you talk a little bit about kind of the disconnect between subscriptions revenues decelerating while GMB remains so robust?"
+    },
+    {
+     "t0_ms": 2748290,
+     "text": "Could you talk about the outlook as you think you fork you into next year for that lineup?"
+    },
+    {
+     "t0_ms": 2754270,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2756450,
+   "t1_ms": 2798730,
+   "speaker": "Management",
+   "text": "And maybe I'll take the first question. Look, I mean, I think you sort of answered the question yourself, which is our job is to be channel agnostic. The fact, I mentioned this in my early remarks, but while we're all talking and excited about Agentica and what's to come, there's so much white space here. At the same time, our merchants are still selling online, they're selling offline. Our job is not necessarily to predict exactly what channel will be the next big channel. Our responsibility to the merchant you shop with is to make sure they're everywhere. So obviously, when there are some very large new agents that come out from some of the largest companies, we want to make sure we're front and center that's the muse and instinct and claude duet style but beyond that i mean we're also building web mcp which enables agentic checkout any agent can complete a checkout with any store",
+   "parts": [
+    {
+     "t0_ms": 2756450,
+     "text": "And maybe I'll take the first question."
+    },
+    {
+     "t0_ms": 2758110,
+     "text": "Look, I mean, I think you sort of answered the question yourself, which is our job is to be channel agnostic."
+    },
+    {
+     "t0_ms": 2762830,
+     "text": "The fact, I mentioned this in my early remarks, but while we're all talking and excited about"
+    },
+    {
+     "t0_ms": 2768970,
+     "text": "Agentica and what's to come, there's so much white space here. At the same time,"
+    },
+    {
+     "t0_ms": 2773310,
+     "text": "our merchants are still selling online, they're selling offline. Our job is not necessarily to"
+    },
+    {
+     "t0_ms": 2777350,
+     "text": "predict exactly what channel will be the next big channel. Our responsibility to the merchant"
+    },
+    {
+     "t0_ms": 2782590,
+     "text": "you shop with is to make sure they're everywhere. So obviously, when there are some very large new"
+    },
+    {
+     "t0_ms": 2786490,
+     "text": "agents that come out from some of the largest companies, we want to make sure we're front and"
+    },
+    {
+     "t0_ms": 2789150,
+     "text": "center that's the muse and instinct and claude duet style but beyond that i mean we're also"
+    },
+    {
+     "t0_ms": 2793870,
+     "text": "building web mcp which enables agentic checkout any agent can complete a checkout with any store"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2798730,
+   "t1_ms": 2842470,
+   "speaker": "Management",
+   "text": "we also build shop.dev which are these and shop.md in fact which are these these are specifically for developers one file that can turn any surface area into a commerce experience shop.md on the shopper side is one prompt that turns your agent into your personal shopper so you're seeing us ensure that whatever comes out, if there's commerce integration or there's a commerce component that Shopify is either directly integrated at day one, or we're creating these tooling like shop.dev and shop.md so that any third-party developer who wants to bring commerce into their application, whether it's a vertical agent or it's a horizontal agent, is able to do so very easily. The idea really here is to be too good to ignore, whether it's UCP or it's catalog",
+   "parts": [
+    {
+     "t0_ms": 2798730,
+     "text": "we also build shop.dev which are these and shop.md in fact which are these these are specifically for"
+    },
+    {
+     "t0_ms": 2804570,
+     "text": "developers one file that can turn any surface area into a commerce experience shop.md on the"
+    },
+    {
+     "t0_ms": 2810230,
+     "text": "shopper side is one prompt that turns your agent into your personal shopper so you're seeing us"
+    },
+    {
+     "t0_ms": 2815830,
+     "text": "ensure that whatever comes out, if there's commerce integration or there's a commerce"
+    },
+    {
+     "t0_ms": 2820590,
+     "text": "component that Shopify is either directly integrated at day one, or we're creating these"
+    },
+    {
+     "t0_ms": 2825830,
+     "text": "tooling like shop.dev and shop.md so that any third-party developer who wants to bring commerce"
+    },
+    {
+     "t0_ms": 2832330,
+     "text": "into their application, whether it's a vertical agent or it's a horizontal agent, is able to do"
+    },
+    {
+     "t0_ms": 2836570,
+     "text": "so very easily. The idea really here is to be too good to ignore, whether it's UCP or it's catalog"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2842470,
+   "t1_ms": 2885190,
+   "speaker": "Management",
+   "text": "or it's the shop app or shop pay, make it so that any type of agentic tooling that wants to incorporate commerce comes to Shopify first and foremost. Yeah. And I would just add to your question on the subscription solutions piece versus GMB. Obviously, most of the GMB gets manifested in the payments revenue, which ends up on the merchant solution side. As I alluded to in my comments earlier, we don't try from a pure accounting perspective, manage to one piece of the business versus the other. The subscription solutions generally captures, again, the merchants which are being added to the platform as well as variable platform fees. And then everything from payments, tax, shipping, capital, et cetera, all that ends up in merchant solutions. So",
+   "parts": [
+    {
+     "t0_ms": 2842470,
+     "text": "or it's the shop app or shop pay, make it so that any type of agentic tooling that wants to"
+    },
+    {
+     "t0_ms": 2847810,
+     "text": "incorporate commerce comes to Shopify first and foremost. Yeah. And I would just add to your"
+    },
+    {
+     "t0_ms": 2853610,
+     "text": "question on the subscription solutions piece versus GMB. Obviously, most of the GMB gets"
+    },
+    {
+     "t0_ms": 2858630,
+     "text": "manifested in the payments revenue, which ends up on the merchant solution side. As I alluded to"
+    },
+    {
+     "t0_ms": 2864150,
+     "text": "in my comments earlier, we don't try from a pure accounting perspective, manage to one piece of"
+    },
+    {
+     "t0_ms": 2871390,
+     "text": "the business versus the other. The subscription solutions generally captures, again, the merchants"
+    },
+    {
+     "t0_ms": 2876350,
+     "text": "which are being added to the platform as well as variable platform fees. And then everything from"
+    },
+    {
+     "t0_ms": 2880810,
+     "text": "payments, tax, shipping, capital, et cetera, all that ends up in merchant solutions. So"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2885190,
+   "t1_ms": 2929010,
+   "speaker": "Management",
+   "text": "you see this in the MRR growth. I mentioned in my comments and you see in the press release that MRR was up 19% year over year. We talked a little bit about the marketing element of this too. So from a merchant ads perspective. We feel really good about what we're seeing there. When you look at the revenue growth in terms of what we delivered in Q3, it being 32%, the guidance we talked about low 30s, that would mark the seventh consecutive quarter of revenue in the low 30s. We feel really good about where we are. And then the only other thing I would add, as you know, as we get some of the larger merchants, the ones who just do more GMV, there's even a larger disproportionate share of value that comes on the payment side versus on the subscription solution side.",
+   "parts": [
+    {
+     "t0_ms": 2885190,
+     "text": "you see this in the MRR growth. I mentioned in my comments and you see in the press release that MRR"
+    },
+    {
+     "t0_ms": 2891450,
+     "text": "was up 19% year over year. We talked a little bit about the marketing element of this too. So from"
+    },
+    {
+     "t0_ms": 2896730,
+     "text": "a merchant ads perspective. We feel really good about what we're seeing there. When you look at"
+    },
+    {
+     "t0_ms": 2903070,
+     "text": "the revenue growth in terms of what we delivered in Q3, it being 32%, the guidance we talked about"
+    },
+    {
+     "t0_ms": 2907950,
+     "text": "low 30s, that would mark the seventh consecutive quarter of revenue in the low 30s. We feel really"
+    },
+    {
+     "t0_ms": 2914410,
+     "text": "good about where we are. And then the only other thing I would add, as you know, as we get some of"
+    },
+    {
+     "t0_ms": 2919870,
+     "text": "the larger merchants, the ones who just do more GMV, there's even a larger disproportionate share"
+    },
+    {
+     "t0_ms": 2924810,
+     "text": "of value that comes on the payment side versus on the subscription solution side."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2929170,
+   "t1_ms": 2941370,
+   "speaker": "Management",
+   "text": "So we think about these two together and we want to add great merchants to the platform. And then obviously over time, and we've talked about cohorts in the past, over time that continues to generate more and more revenues for us. So we feel really good about where it is.",
+   "parts": [
+    {
+     "t0_ms": 2929170,
+     "text": "So we think about these two together and we want to add great merchants to the platform."
+    },
+    {
+     "t0_ms": 2933550,
+     "text": "And then obviously over time, and we've talked about cohorts in the past, over time that"
+    },
+    {
+     "t0_ms": 2936890,
+     "text": "continues to generate more and more revenues for us."
+    },
+    {
+     "t0_ms": 2940010,
+     "text": "So we feel really good about where it is."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2944060,
+   "t1_ms": 2948260,
+   "speaker": "Operator",
+   "text": "Great. Our next question will come from Jim Callahan from Piper Sandler. Jim, your line's open.",
+   "parts": [
+    {
+     "t0_ms": 2944060,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2944300,
+     "text": "Our next question will come from Jim Callahan from Piper Sandler."
+    },
+    {
+     "t0_ms": 2947480,
+     "text": "Jim, your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2950690,
+   "t1_ms": 2961490,
+   "speaker": "Analyst",
+   "text": "Hi, thanks for taking the question. I'm just kind of curious on the marketing tests, understand some of this will reverse in 4Q. But curious what the conclusion of the test was, and maybe could this have had any",
+   "parts": [
+    {
+     "t0_ms": 2950690,
+     "text": "Hi, thanks for taking the question."
+    },
+    {
+     "t0_ms": 2952590,
+     "text": "I'm just kind of curious on the marketing tests, understand some of this will reverse"
+    },
+    {
+     "t0_ms": 2955870,
+     "text": "in 4Q. But curious what the conclusion of the test was, and maybe could this have had any"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2961490,
+   "t1_ms": 3004910,
+   "speaker": "Management",
+   "text": "top-line impact in the quarter? Thank you. No, no top-line impact. This was testing in some channels and some geographies. And I would just say what we're always trying to do, Jim, is just get smarter and hone even further the accuracy of our analysis. And it gives us a lot of confidence in the returns we're seeing. No change in marketing philosophy, no change in terms of how we lean on performance marketing. We just want to always be smarter and better at what we're doing. And again, the returns have been very compelling. So every now and then you make sure you're doing your best to analyze returns and make sure that next incremental dollar of marketing spend is employed very wisely. One of the things that I think is most remarkable",
+   "parts": [
+    {
+     "t0_ms": 2961490,
+     "text": "top-line impact in the quarter? Thank you. No, no top-line impact. This was testing in"
+    },
+    {
+     "t0_ms": 2968610,
+     "text": "some channels and some geographies. And I would just say what we're always trying to do, Jim,"
+    },
+    {
+     "t0_ms": 2972970,
+     "text": "is just get smarter and hone even further the accuracy of our analysis. And it gives us"
+    },
+    {
+     "t0_ms": 2978590,
+     "text": "a lot of confidence in the returns we're seeing. No change in marketing philosophy,"
+    },
+    {
+     "t0_ms": 2982750,
+     "text": "no change in terms of how we lean on performance marketing. We just want to always be smarter and"
+    },
+    {
+     "t0_ms": 2989970,
+     "text": "better at what we're doing. And again, the returns have been very compelling. So every now and then"
+    },
+    {
+     "t0_ms": 2994370,
+     "text": "you make sure you're doing your best to analyze returns and make sure that next incremental dollar"
+    },
+    {
+     "t0_ms": 2999650,
+     "text": "of marketing spend is employed very wisely. One of the things that I think is most remarkable"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3004910,
+   "t1_ms": 3048370,
+   "speaker": "Management",
+   "text": "about the business model here is that our model has this breadth of growth levers. It is not a single bet on one growth curve we have sort of this portfolio of core commerce and payments international agentic enterprise and any given quarter some will be stronger than the others but the durability i think of the story is the compounding strength across that set you know international gmb was up 32 b2b saw 74 growth offline gmv was up 30 we crossed the 200 billion dollar mark for offline gmv and then you have enterprise as well so what we try to think about is sort of this portfolio of bets and making sure that whatever is to come, we're front and center, but also making sure that we're able to... Shoplight ultimately is a growth company and we want to stay focused on driving merchants' growth.",
+   "parts": [
+    {
+     "t0_ms": 3004910,
+     "text": "about the business model here is that our model has this breadth of growth levers. It is not a"
+    },
+    {
+     "t0_ms": 3011050,
+     "text": "single bet on one growth curve we have sort of this portfolio of core commerce and payments"
+    },
+    {
+     "t0_ms": 3015270,
+     "text": "international agentic enterprise and any given quarter some will be stronger than the others but"
+    },
+    {
+     "t0_ms": 3019790,
+     "text": "the durability i think of the story is the compounding strength across that set you know"
+    },
+    {
+     "t0_ms": 3024430,
+     "text": "international gmb was up 32 b2b saw 74 growth offline gmv was up 30 we crossed the 200 billion"
+    },
+    {
+     "t0_ms": 3032150,
+     "text": "dollar mark for offline gmv and then you have enterprise as well so what we try to think about"
+    },
+    {
+     "t0_ms": 3036790,
+     "text": "is sort of this portfolio of bets"
+    },
+    {
+     "t0_ms": 3038350,
+     "text": "and making sure that whatever is to come,"
+    },
+    {
+     "t0_ms": 3040610,
+     "text": "we're front and center,"
+    },
+    {
+     "t0_ms": 3041950,
+     "text": "but also making sure that we're able to..."
+    },
+    {
+     "t0_ms": 3044590,
+     "text": "Shoplight ultimately is a growth company"
+    },
+    {
+     "t0_ms": 3046030,
+     "text": "and we want to stay focused"
+    },
+    {
+     "t0_ms": 3047350,
+     "text": "on driving merchants' growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3048810,
+   "t1_ms": 3059250,
+   "speaker": "Management",
+   "text": "In turn, that fuels our growth, but there's never necessarily one particular place we put our eggs in because we have this portfolio of opportunities. And I think that actually talks to the, you know, the durability of this business model.",
+   "parts": [
+    {
+     "t0_ms": 3048810,
+     "text": "In turn, that fuels our growth,"
+    },
+    {
+     "t0_ms": 3050690,
+     "text": "but there's never necessarily"
+    },
+    {
+     "t0_ms": 3051810,
+     "text": "one particular place we put our eggs in"
+    },
+    {
+     "t0_ms": 3054070,
+     "text": "because we have this portfolio of opportunities."
+    },
+    {
+     "t0_ms": 3056130,
+     "text": "And I think that actually talks to the,"
+    },
+    {
+     "t0_ms": 3057570,
+     "text": "you know, the durability of this business model."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3062060,
+   "t1_ms": 3065440,
+   "speaker": "Operator",
+   "text": "Our next question is from Shweta Kajuria with Wolf Research. Your line's open.",
+   "parts": [
+    {
+     "t0_ms": 3062060,
+     "text": "Our next question is from Shweta Kajuria"
+    },
+    {
+     "t0_ms": 3063720,
+     "text": "with Wolf Research."
+    },
+    {
+     "t0_ms": 3064840,
+     "text": "Your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3069920,
+   "t1_ms": 3110840,
+   "speaker": "Analyst",
+   "text": "Thank you for taking my question. could I please follow up on agentic commerce? So when we think about the economics and how economics will evolve, how will it work in your view? Will the merchants be paying a certain take rate or will you be sharing the economics with these agents? How does this evolve in the near term and maybe mid to long term? And then how do the agents choose shop pay? If I as a consumer have set up shop pay and other forms of payment, how do these agents default to shop pay",
+   "parts": [
+    {
+     "t0_ms": 3069920,
+     "text": "Thank you for taking my question."
+    },
+    {
+     "t0_ms": 3071100,
+     "text": "could I please follow up on agentic commerce? So when we think about the economics and how"
+    },
+    {
+     "t0_ms": 3076720,
+     "text": "economics will evolve, how will it work in your view? Will the merchants be paying a certain"
+    },
+    {
+     "t0_ms": 3087820,
+     "text": "take rate or will you be sharing the economics with these agents? How does this evolve in the"
+    },
+    {
+     "t0_ms": 3095320,
+     "text": "near term and maybe mid to long term? And then how do the agents choose shop pay? If I as a"
+    },
+    {
+     "t0_ms": 3102500,
+     "text": "consumer have set up shop pay and other forms of payment, how do these agents default to shop pay"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3110840,
+   "t1_ms": 3152880,
+   "speaker": "Management",
+   "text": "as the option? Thank you. Maybe I'll take the second part of the question and then Jeff can do the first part of monetization. That's the best part of shop pay because we have 400 million consumers that are using it constantly across all their favorite brands. We want to make sure that when the consumer is using any agent that they want and ShopPay is available, that's when they select. And so that's, you know, ultimately this is about ensuring that consumers have an amazing experience, that they have, that they're able to get the right credit card information, the right sizing, the right, you know, merchandising of the product they want and able to purchase it. Part of the reason why we're beginning to talk more about shop as the suite of products with ShopPay, with your preferences, with your order tracking is that ultimately we",
+   "parts": [
+    {
+     "t0_ms": 3110840,
+     "text": "as the option? Thank you. Maybe I'll take the second part of the question and then Jeff can"
+    },
+    {
+     "t0_ms": 3115060,
+     "text": "do the first part of monetization. That's the best part of shop pay because we have 400 million"
+    },
+    {
+     "t0_ms": 3120240,
+     "text": "consumers that are using it constantly across all their favorite brands. We want to make sure that"
+    },
+    {
+     "t0_ms": 3124740,
+     "text": "when the consumer is using any agent that they want and ShopPay is available, that's"
+    },
+    {
+     "t0_ms": 3129180,
+     "text": "when they select."
+    },
+    {
+     "t0_ms": 3130760,
+     "text": "And so that's, you know, ultimately this is about ensuring that consumers have an amazing"
+    },
+    {
+     "t0_ms": 3134660,
+     "text": "experience, that they have, that they're able to get the right credit card information,"
+    },
+    {
+     "t0_ms": 3139080,
+     "text": "the right sizing, the right, you know, merchandising of the product they want and able to purchase"
+    },
+    {
+     "t0_ms": 3143000,
+     "text": "it."
+    },
+    {
+     "t0_ms": 3143540,
+     "text": "Part of the reason why we're beginning to talk more about shop as the suite of products"
+    },
+    {
+     "t0_ms": 3147520,
+     "text": "with ShopPay, with your preferences, with your order tracking is that ultimately we"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3152880,
+   "t1_ms": 3195300,
+   "speaker": "Management",
+   "text": "think that when consumers are given a number of different options they're going to pick the option that is best for them that results with the highest you know the best experience high security it is fast but it also knows the details of their purchase history and that's what they get with shop pay so this is about merit and we believe that we can compete on merit to get more consumers to use it yeah and to harley's point on that very uh that very point he just made what we're trying to do is make sure of course more and more merchants use shopify as their core platform If you start to your questions, if you start, for example, on Muse and if you as a consumer then do a search which leads to a merchant which is using Shopify, then the economics are exactly the same. Essentially, this is another form of discovery.",
+   "parts": [
+    {
+     "t0_ms": 3152880,
+     "text": "think that when consumers are given a number of different options they're going to pick the option"
+    },
+    {
+     "t0_ms": 3156160,
+     "text": "that is best for them that results with the highest you know the best experience high security"
+    },
+    {
+     "t0_ms": 3160800,
+     "text": "it is fast but it also knows the details of their purchase history and that's what they get with"
+    },
+    {
+     "t0_ms": 3165740,
+     "text": "shop pay so this is about merit and we believe that we can compete on merit to get more consumers"
+    },
+    {
+     "t0_ms": 3170180,
+     "text": "to use it yeah and to harley's point on that very uh that very point he just made what we're trying"
+    },
+    {
+     "t0_ms": 3177340,
+     "text": "to do is make sure of course more and more merchants use shopify as their core platform"
+    },
+    {
+     "t0_ms": 3181200,
+     "text": "If you start to your questions, if you start, for example, on Muse and if you as a consumer then do a search which leads to a merchant which is using Shopify, then the economics are exactly the same."
+    },
+    {
+     "t0_ms": 3193060,
+     "text": "Essentially, this is another form of discovery."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3195440,
+   "t1_ms": 3210600,
+   "speaker": "Management",
+   "text": "They're sending you to the merchant's website and everything else that you would have done in any other form of discovery ends up to the same economics back to Shopify. And then to Harley's point, what we're trying to make sure we do is get shop pay out there more and more in terms of a wallet perspective and continue to expand the economics on that front as well.",
+   "parts": [
+    {
+     "t0_ms": 3195440,
+     "text": "They're sending you to the merchant's website and everything else that you would have done in any other form of discovery ends up to the same economics back to Shopify."
+    },
+    {
+     "t0_ms": 3202820,
+     "text": "And then to Harley's point, what we're trying to make sure we do is get shop pay out there more and more in terms of a wallet perspective and continue to expand the economics on that front as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3214690,
+   "t1_ms": 3218410,
+   "speaker": "Operator",
+   "text": "Our next question is from Paul Treber with RBC Capital Markets. Your line's open.",
+   "parts": [
+    {
+     "t0_ms": 3214690,
+     "text": "Our next question is from Paul Treber with RBC Capital Markets."
+    },
+    {
+     "t0_ms": 3217830,
+     "text": "Your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3222270,
+   "t1_ms": 3249110,
+   "speaker": "Analyst",
+   "text": "Good morning. Thanks for taking the question. Shopify, during the quarter, bought Shop.com for about $100 million. It's a fairly sizable amount. How do you think about Shop.com coexisting with merchant websites and other channels? And then the second question is, why now, particularly in light of the rise of AI agents? What's the importance of having a centralized location?",
+   "parts": [
+    {
+     "t0_ms": 3222270,
+     "text": "Good morning."
+    },
+    {
+     "t0_ms": 3222850,
+     "text": "Thanks for taking the question."
+    },
+    {
+     "t0_ms": 3224310,
+     "text": "Shopify, during the quarter, bought Shop.com for about $100 million."
+    },
+    {
+     "t0_ms": 3228570,
+     "text": "It's a fairly sizable amount."
+    },
+    {
+     "t0_ms": 3230270,
+     "text": "How do you think about Shop.com coexisting with merchant websites and other channels?"
+    },
+    {
+     "t0_ms": 3238390,
+     "text": "And then the second question is, why now, particularly in light of the rise of AI agents?"
+    },
+    {
+     "t0_ms": 3245570,
+     "text": "What's the importance of having a centralized location?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3249630,
+   "t1_ms": 3294390,
+   "speaker": "Management",
+   "text": "Yeah. Look, in the physical retail world, location, location, location matters. We think the same thing applies on the internet as well, and we think shop.com is an incredible prime address for us. I think the way you should view this is this is a declaration that we're ready for more ambitious posture for shop. We wanted to make a deliberate investment to shop's credibility and discoverability as a consumer shopping destination, not just a tracking utility. And we think this is a really convenient, very easy entry point for shoppers to discover incredible brands and products. The transition required no action from merchants and shopper traffic to shop is growing even faster on the web than in the app. So this was us moving, you know, moving basically the shop. You know, we were at shop.app previously, we're moving to shop.com.",
+   "parts": [
+    {
+     "t0_ms": 3249630,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3250410,
+     "text": "Look, in the physical retail world, location, location, location matters."
+    },
+    {
+     "t0_ms": 3254630,
+     "text": "We think the same thing applies on the internet as well, and we think shop.com is an incredible prime address for us."
+    },
+    {
+     "t0_ms": 3259290,
+     "text": "I think the way you should view this is this is a declaration that we're ready for more ambitious posture for shop."
+    },
+    {
+     "t0_ms": 3267090,
+     "text": "We wanted to make a deliberate investment to shop's credibility and discoverability as a consumer shopping destination, not just a tracking utility."
+    },
+    {
+     "t0_ms": 3274550,
+     "text": "And we think this is a really convenient, very easy entry point for shoppers to discover incredible brands and products."
+    },
+    {
+     "t0_ms": 3281010,
+     "text": "The transition required no action from merchants and shopper traffic to shop is growing even faster on the web than in the app."
+    },
+    {
+     "t0_ms": 3286890,
+     "text": "So this was us moving, you know, moving basically the shop."
+    },
+    {
+     "t0_ms": 3291930,
+     "text": "You know, we were at shop.app previously, we're moving to shop.com."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3294570,
+   "t1_ms": 3303490,
+   "speaker": "Management",
+   "text": "We think this is one of the most important locations on the internet and that really matters to us. But I think you can sort of glean from this what our ambition is with shop.",
+   "parts": [
+    {
+     "t0_ms": 3294570,
+     "text": "We think this is one of the most important locations on the internet and that really matters to us."
+    },
+    {
+     "t0_ms": 3299570,
+     "text": "But I think you can sort of glean from this what our ambition is with shop."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3303950,
+   "t1_ms": 3308800,
+   "speaker": "Operator",
+   "text": "Our next question is from Colin Sebastian with Baird. Your line's open.",
+   "parts": [
+    {
+     "t0_ms": 3303950,
+     "text": "Our next question is from Colin Sebastian with Baird."
+    },
+    {
+     "t0_ms": 3308180,
+     "text": "Your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3312900,
+   "t1_ms": 3347140,
+   "speaker": "Analyst",
+   "text": "Thanks. Good morning, and I appreciate the questions. I guess, Harley, what's helping Shopify win more of these point-of-sale merchants that didn't start with you online? And I guess, is that changing your approach to acquiring those? And then maybe a follow-up on all the questions around variable economics with the GenTech. I guess, as Sidekick takes on more merchant workflows and the product catalog is now really critical for powering agentic. Are you thinking about translating that value into higher monetization, or is it more about expanding Shopify's share of overall retail? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3312900,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 3313420,
+     "text": "Good morning, and I appreciate the questions."
+    },
+    {
+     "t0_ms": 3315660,
+     "text": "I guess, Harley, what's helping Shopify win more of these point-of-sale merchants that"
+    },
+    {
+     "t0_ms": 3320140,
+     "text": "didn't start with you online?"
+    },
+    {
+     "t0_ms": 3321700,
+     "text": "And I guess, is that changing your approach to acquiring those?"
+    },
+    {
+     "t0_ms": 3326080,
+     "text": "And then maybe a follow-up on all the questions around variable economics with the GenTech."
+    },
+    {
+     "t0_ms": 3331220,
+     "text": "I guess, as Sidekick takes on more merchant workflows and the product catalog is now really"
+    },
+    {
+     "t0_ms": 3336760,
+     "text": "critical for powering agentic. Are you thinking about translating that value into higher"
+    },
+    {
+     "t0_ms": 3342000,
+     "text": "monetization, or is it more about expanding Shopify's share of overall retail? Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3348440,
+   "t1_ms": 3391700,
+   "speaker": "Management",
+   "text": "I mean, on the point of sale and the retail side, this certainly was an incredible quarter for Offline. I mean, I mentioned that lifetime POS GMB crossed $300 billion in Q3. GMB was up 30%. We had Canada Goose, who brought on dozens of locations. BevMo brought over 150 locations. The Body Shop, Mac Cosmetics added 83 locations in under 90 days. So what we're seeing is that offline is not a separate business. It is the same platform, the same catalog, the same buyer relationships. It's just extended into the physical world. And I think we're seeing more businesses with very established brick-and-mortar businesses of their own coming to Shopify for this unified commerce capability. It's great when we get a point-of-sale-only merchant to come on first and foremost and expand.",
+   "parts": [
+    {
+     "t0_ms": 3348440,
+     "text": "I mean, on the point of sale and the retail side, this certainly was an incredible quarter"
+    },
+    {
+     "t0_ms": 3352140,
+     "text": "for Offline. I mean, I mentioned that lifetime POS GMB crossed $300 billion in Q3. GMB was up"
+    },
+    {
+     "t0_ms": 3357480,
+     "text": "30%. We had Canada Goose, who brought on dozens of locations. BevMo brought over 150 locations."
+    },
+    {
+     "t0_ms": 3364100,
+     "text": "The Body Shop, Mac Cosmetics added 83 locations in under 90 days."
+    },
+    {
+     "t0_ms": 3369320,
+     "text": "So what we're seeing is that offline is not a separate business."
+    },
+    {
+     "t0_ms": 3372980,
+     "text": "It is the same platform, the same catalog, the same buyer relationships."
+    },
+    {
+     "t0_ms": 3376220,
+     "text": "It's just extended into the physical world."
+    },
+    {
+     "t0_ms": 3378420,
+     "text": "And I think we're seeing more businesses with very established brick-and-mortar businesses of their own coming to Shopify for this unified commerce capability."
+    },
+    {
+     "t0_ms": 3387980,
+     "text": "It's great when we get a point-of-sale-only merchant to come on first and foremost and expand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3391700,
+   "t1_ms": 3427900,
+   "speaker": "Management",
+   "text": "But also what is happening is the fact that, you know, new features, we just announced something recently at our auditions, but point of sale now automatically recognizes customers at checkout by using Shopify payment network in the actual physical store. That's never happened before. So this brings sort of this digital style, you know, customer context to physical retail, which frankly has never been the case. And I think ultimately, whether it's expanding customer recognition and point of sale or it's expanding locations, we are now becoming one of the default places that mall and retail goes, not just for online, but also for offline as well.",
+   "parts": [
+    {
+     "t0_ms": 3391700,
+     "text": "But also what is happening is the fact that, you know, new features, we just announced something recently at our auditions, but point of sale now automatically recognizes customers at checkout by using Shopify payment network in the actual physical store."
+    },
+    {
+     "t0_ms": 3405280,
+     "text": "That's never happened before."
+    },
+    {
+     "t0_ms": 3406980,
+     "text": "So this brings sort of this digital style, you know, customer context to physical retail, which frankly has never been the case."
+    },
+    {
+     "t0_ms": 3414300,
+     "text": "And I think ultimately, whether it's expanding customer recognition and point of sale or it's expanding locations, we are now becoming one of the default places that mall and retail goes, not just for online, but also for offline as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3428880,
+   "t1_ms": 3472940,
+   "speaker": "Management",
+   "text": "I think generally around enterprise, just because a lot of these very large point of sale installations are coming from enterprise, enterprise is getting some incredible momentum here. we're able to not only get some of the you know the up-and-comers uh that are that are expanding sort of the homegrown success stories are staying with us but the fact that we're bringing on the lululemons of the world for example or burton or ball main or or canada goose uh who all went live in q3 i mean the the pace of that again it is it takes longer to bring enterprise merchant to migrate on but we've really figured out how to get them on as quickly as possible given the context and all their their integrations um so i think both point of sale and enterprise is going really, really well. And yeah, what is the second part of your question? I think I missed that.",
+   "parts": [
+    {
+     "t0_ms": 3428880,
+     "text": "I think generally around enterprise, just because a lot of these very large point of sale installations are coming from enterprise, enterprise is getting some incredible momentum here."
+    },
+    {
+     "t0_ms": 3438200,
+     "text": "we're able to not only get some of the you know the up-and-comers uh that are that are expanding"
+    },
+    {
+     "t0_ms": 3443020,
+     "text": "sort of the homegrown success stories are staying with us but the fact that we're bringing on the"
+    },
+    {
+     "t0_ms": 3446960,
+     "text": "lululemons of the world for example or burton or ball main or or canada goose uh who all went"
+    },
+    {
+     "t0_ms": 3452240,
+     "text": "live in q3 i mean the the pace of that again it is it takes longer to bring enterprise merchant"
+    },
+    {
+     "t0_ms": 3457840,
+     "text": "to migrate on but we've really figured out how to get them on as quickly as possible given the"
+    },
+    {
+     "t0_ms": 3462340,
+     "text": "context and all their their integrations um so i think both point of sale and enterprise is going"
+    },
+    {
+     "t0_ms": 3467040,
+     "text": "really, really well. And yeah, what is the second part of your question? I think I missed that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3475880,
+   "t1_ms": 3477520,
+   "speaker": "Operator",
+   "text": "I think you got it, Harley. I think you got it.",
+   "parts": [
+    {
+     "t0_ms": 3475880,
+     "text": "I think you got it, Harley. I think you got it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3477620,
+   "t1_ms": 3477760,
+   "speaker": "Management",
+   "text": "Okay.",
+   "parts": [
+    {
+     "t0_ms": 3477620,
+     "text": "Okay."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3479100,
+   "t1_ms": 3483620,
+   "speaker": "Operator",
+   "text": "We're now going to go to Brian Smilick at J.P. Morgan for our final question. Brian, your line's open.",
+   "parts": [
+    {
+     "t0_ms": 3479100,
+     "text": "We're now going to go to Brian Smilick at J.P. Morgan for our final question. Brian,"
+    },
+    {
+     "t0_ms": 3483060,
+     "text": "your line's open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3487540,
+   "t1_ms": 3510880,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for taking the question. I'm just curious on Sidekick, very good to see it continue to gain efficacy. Can you just talk about the product roadmap into 27 across analytics, co-generation, and Canvas more broadly? And then Jeff, just more near term, can you just elaborate on where you're going to allocate the incremental infrastructure spend into Black Friday, Cyber Monday. Will that be more across Sidekick or just broader platform volume? Thank",
+   "parts": [
+    {
+     "t0_ms": 3487540,
+     "text": "Great. Thanks for taking the question. I'm just curious on Sidekick, very good to see it continue"
+    },
+    {
+     "t0_ms": 3492080,
+     "text": "to gain efficacy. Can you just talk about the product roadmap into 27 across analytics,"
+    },
+    {
+     "t0_ms": 3497580,
+     "text": "co-generation, and Canvas more broadly? And then Jeff, just more near term, can you just"
+    },
+    {
+     "t0_ms": 3502280,
+     "text": "elaborate on where you're going to allocate the incremental infrastructure spend into Black"
+    },
+    {
+     "t0_ms": 3506540,
+     "text": "Friday, Cyber Monday. Will that be more across Sidekick or just broader platform volume? Thank"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3510880,
+   "t1_ms": 3555880,
+   "speaker": "Management",
+   "text": "you. Yeah, it is amazing. I mean, for new merchants, Sidekick is helping get the first sale much faster, community to grow. In Q3, we saw a 3% lift in the number of merchants reaching five orders within 60 days after using the guide. That's on a very, very large base. So it is becoming obviously incredibly powerful for new merchants, but also for complex tasks inside the flow of running a business, whether it's these third-party apps that are now able to integrate merchants on average, use eight apps, help them run their day-to-day business, that all integrates into Sidekick. Beyond that, you're seeing these incredible examples of power users who are pushing into this advanced design, doing SEO, product creation. And so I think generally, you're just going to see Sidekick continue to provide more value over time, both for new merchants, but",
+   "parts": [
+    {
+     "t0_ms": 3510880,
+     "text": "you. Yeah, it is amazing. I mean, for new merchants, Sidekick is helping get the first sale"
+    },
+    {
+     "t0_ms": 3516280,
+     "text": "much faster, community to grow. In Q3, we saw a 3% lift in the number of merchants reaching five"
+    },
+    {
+     "t0_ms": 3521440,
+     "text": "orders within 60 days after using the guide. That's on a very, very large base. So it is"
+    },
+    {
+     "t0_ms": 3526460,
+     "text": "becoming obviously incredibly powerful for new merchants, but also for complex tasks inside the"
+    },
+    {
+     "t0_ms": 3532480,
+     "text": "flow of running a business, whether it's these third-party apps that are now able to integrate"
+    },
+    {
+     "t0_ms": 3536120,
+     "text": "merchants on average, use eight apps, help them run their day-to-day business, that all integrates"
+    },
+    {
+     "t0_ms": 3539800,
+     "text": "into Sidekick. Beyond that, you're seeing these incredible examples of power users who are pushing"
+    },
+    {
+     "t0_ms": 3545220,
+     "text": "into this advanced design, doing SEO, product creation. And so I think generally, you're just"
+    },
+    {
+     "t0_ms": 3550600,
+     "text": "going to see Sidekick continue to provide more value over time, both for new merchants, but"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3555880,
+   "t1_ms": 3593420,
+   "speaker": "Management",
+   "text": "I mean, two-thirds of all Shopify flows were created by Sidekick in this past quarter. So the pattern should be very clear. More merchants are using it, and each merchant is finding more ways to use it. And over time, that value will only compound. Again, it's powered by 20 years of commerce experience. So there's that intelligence, and it also knows the full context of everything about your particular store. Yeah, and Brian, to your question about source of the spend, some of it is Sidekick. There's also some interesting things we're doing on search capabilities. We've had search capabilities for merchants for a while. We're continuing to enhance that, make that even stronger and storefront resiliency.",
+   "parts": [
+    {
+     "t0_ms": 3555880,
+     "text": "I mean, two-thirds of all Shopify flows were created by Sidekick in this past quarter."
+    },
+    {
+     "t0_ms": 3561200,
+     "text": "So the pattern should be very clear."
+    },
+    {
+     "t0_ms": 3563360,
+     "text": "More merchants are using it, and each merchant is finding more ways to use it."
+    },
+    {
+     "t0_ms": 3566760,
+     "text": "And over time, that value will only compound."
+    },
+    {
+     "t0_ms": 3569240,
+     "text": "Again, it's powered by 20 years of commerce experience."
+    },
+    {
+     "t0_ms": 3571980,
+     "text": "So there's that intelligence, and it also knows the full context of everything about your particular store."
+    },
+    {
+     "t0_ms": 3578100,
+     "text": "Yeah, and Brian, to your question about source of the spend, some of it is Sidekick."
+    },
+    {
+     "t0_ms": 3581680,
+     "text": "There's also some interesting things we're doing on search capabilities."
+    },
+    {
+     "t0_ms": 3585680,
+     "text": "We've had search capabilities for merchants for a while."
+    },
+    {
+     "t0_ms": 3588040,
+     "text": "We're continuing to enhance that, make that even stronger and storefront resiliency."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3593620,
+   "t1_ms": 3606160,
+   "speaker": "Management",
+   "text": "Again, as I alluded to, as you go into the big holiday shopping season, we want to make sure we are extremely ready to let merchants do everything they can in terms of sell as much as possible. And so there's some things on the storefront infrastructure that we're doing.",
+   "parts": [
+    {
+     "t0_ms": 3593620,
+     "text": "Again, as I alluded to, as you go into the big holiday shopping season, we want to make sure we are extremely ready to let merchants do everything they can in terms of sell as much as possible."
+    },
+    {
+     "t0_ms": 3603120,
+     "text": "And so there's some things on the storefront infrastructure that we're doing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3607040,
+   "t1_ms": 3608080,
+   "speaker": "Analyst",
+   "text": "Great. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3607040,
+     "text": "Great. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3611780,
+   "t1_ms": 3613520,
+   "speaker": "Operator",
+   "text": "And now we'll go to Harley for some closing comments.",
+   "parts": [
+    {
+     "t0_ms": 3611780,
+     "text": "And now we'll go to Harley for some closing comments."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3613760,
+   "t1_ms": 3654040,
+   "speaker": "Management",
+   "text": "Yeah. Thanks, Shane. Maybe before I close, I just want to leave you all with something. First and foremost, I think today's results reflect decisions that we've made probably three years ago. And the work that we're doing right now, the new projects, new products, the new enhancements you're seeing coming out with things like additions, that's going to show up for the next three, six, maybe even nine years. Retail is obviously changing completely. New channels seem to keep emerging. Old channels are becoming big again. And I think I can appreciate from the outside it may be hard to sort of keep pace of this. But through it all, I hope it is very clear that Shopify is unequivocally at the epicenter of all of this. We deeply believe this is one of the most exciting times in retail and commerce in a very long time.",
+   "parts": [
+    {
+     "t0_ms": 3613760,
+     "text": "Yeah. Thanks, Shane."
+    },
+    {
+     "t0_ms": 3614460,
+     "text": "Maybe before I close, I just want to leave you all with something."
+    },
+    {
+     "t0_ms": 3617080,
+     "text": "First and foremost, I think today's results reflect decisions that we've made probably three years ago."
+    },
+    {
+     "t0_ms": 3622400,
+     "text": "And the work that we're doing right now, the new projects, new products, the new enhancements you're seeing coming out with things like additions, that's going to show up for the next three, six, maybe even nine years."
+    },
+    {
+     "t0_ms": 3632000,
+     "text": "Retail is obviously changing completely."
+    },
+    {
+     "t0_ms": 3634060,
+     "text": "New channels seem to keep emerging."
+    },
+    {
+     "t0_ms": 3635740,
+     "text": "Old channels are becoming big again."
+    },
+    {
+     "t0_ms": 3638120,
+     "text": "And I think I can appreciate from the outside it may be hard to sort of keep pace of this."
+    },
+    {
+     "t0_ms": 3642540,
+     "text": "But through it all, I hope it is very clear that Shopify is unequivocally at the epicenter of all of this."
+    },
+    {
+     "t0_ms": 3649000,
+     "text": "We deeply believe this is one of the most exciting times in retail and commerce in a very long time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3654760,
+   "t1_ms": 3698040,
+   "speaker": "Management",
+   "text": "And as you see, new companies or new technologies or even new models launch, where commerce is involved, Shopify will be integrated. And that is not by accident. We work really, really hard to be the de facto partner for commerce on the internet, whether that means partnering or building it ourselves or collaboration. And so for those listening, if you're a shareholder, this is what you should want from us, to be the company, not just betting on commerce, but also helping to architect for what is coming and executing on that vision. And the one that is constantly doing things, hopefully, that surprise you, which is how we stay ahead. I said in the press release this morning that Shopify is uncommonly good at operating in two realities at the same time, the world that our merchants exist in today and the ones that they are moving towards.",
+   "parts": [
+    {
+     "t0_ms": 3654760,
+     "text": "And as you see, new companies or new technologies or even new models launch, where commerce is involved, Shopify will be integrated."
+    },
+    {
+     "t0_ms": 3662200,
+     "text": "And that is not by accident."
+    },
+    {
+     "t0_ms": 3663520,
+     "text": "We work really, really hard to be the de facto partner for commerce on the internet, whether that means partnering or building it ourselves or collaboration."
+    },
+    {
+     "t0_ms": 3672140,
+     "text": "And so for those listening, if you're a shareholder, this is what you should want from us, to be"
+    },
+    {
+     "t0_ms": 3676120,
+     "text": "the company, not just betting on commerce, but also helping to architect for what is"
+    },
+    {
+     "t0_ms": 3681080,
+     "text": "coming and executing on that vision."
+    },
+    {
+     "t0_ms": 3683100,
+     "text": "And the one that is constantly doing things, hopefully, that surprise you, which is how"
+    },
+    {
+     "t0_ms": 3687080,
+     "text": "we stay ahead."
+    },
+    {
+     "t0_ms": 3688280,
+     "text": "I said in the press release this morning that Shopify is uncommonly good at operating in"
+    },
+    {
+     "t0_ms": 3693260,
+     "text": "two realities at the same time, the world that our merchants exist in today and the"
+    },
+    {
+     "t0_ms": 3696960,
+     "text": "ones that they are moving towards."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3698040,
+   "t1_ms": 3739060,
+   "speaker": "Management",
+   "text": "And we do it for both new entrepreneurs making their very first sale. You heard the call from Dell at the top of this call, who just had his first sale, or the biggest brands in the world. But I think commerce of all shapes and all sizes are coming to Shopify. There is no floor, no ceiling. And the products we're building is not just to help them right now, but also to future proof them long into the future. Many of you have been betting on Shopify for almost 12 years now since the IPO. And I think in that time, I believe we've earned the right to be considered a highly trusted public company because we do what we say we're going to do. And we do that reliably. I think we do that durably. And we will absolutely keep doing that. So thanks for joining us on this call. And we will talk to you all next quarter.",
+   "parts": [
+    {
+     "t0_ms": 3698040,
+     "text": "And we do it for both new entrepreneurs making their very first sale."
+    },
+    {
+     "t0_ms": 3701960,
+     "text": "You heard the call from Dell at the top of this call, who just had his first sale, or"
+    },
+    {
+     "t0_ms": 3706140,
+     "text": "the biggest brands in the world."
+    },
+    {
+     "t0_ms": 3707420,
+     "text": "But I think commerce of all shapes and all sizes are coming to Shopify."
+    },
+    {
+     "t0_ms": 3711260,
+     "text": "There is no floor, no ceiling."
+    },
+    {
+     "t0_ms": 3712840,
+     "text": "And the products we're building is not just to help them right now, but also to future"
+    },
+    {
+     "t0_ms": 3717020,
+     "text": "proof them long into the future."
+    },
+    {
+     "t0_ms": 3719140,
+     "text": "Many of you have been betting on Shopify for almost 12 years now since the IPO."
+    },
+    {
+     "t0_ms": 3723760,
+     "text": "And I think in that time, I believe we've earned the right to be considered a highly"
+    },
+    {
+     "t0_ms": 3727940,
+     "text": "trusted public company because we do what we say we're going to do."
+    },
+    {
+     "t0_ms": 3731160,
+     "text": "And we do that reliably."
+    },
+    {
+     "t0_ms": 3732480,
+     "text": "I think we do that durably."
+    },
+    {
+     "t0_ms": 3733760,
+     "text": "And we will absolutely keep doing that."
+    },
+    {
+     "t0_ms": 3735300,
+     "text": "So thanks for joining us on this call."
+    },
+    {
+     "t0_ms": 3737380,
+     "text": "And we will talk to you all next quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3740520,
+   "t1_ms": 3748220,
+   "speaker": "Operator",
+   "text": "Great. Thanks, Harley. Thanks, Jeff. This wraps our third quarter of 2026 conference call. Thanks, everyone, for joining. And we look forward to speaking to you all soon. Have a great day.",
+   "parts": [
+    {
+     "t0_ms": 3740520,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3741040,
+     "text": "Thanks, Harley."
+    },
+    {
+     "t0_ms": 3741540,
+     "text": "Thanks, Jeff."
+    },
+    {
+     "t0_ms": 3742060,
+     "text": "This wraps our third quarter of 2026 conference call."
+    },
+    {
+     "t0_ms": 3744880,
+     "text": "Thanks, everyone, for joining."
+    },
+    {
+     "t0_ms": 3745980,
+     "text": "And we look forward to speaking to you all soon."
+    },
+    {
+     "t0_ms": 3747620,
+     "text": "Have a great day."
+    }
+   ]
+  }
+ ]
+}

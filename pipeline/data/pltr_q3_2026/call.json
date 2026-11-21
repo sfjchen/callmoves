@@ -1,0 +1,2759 @@
+{
+ "ticker": "PLTR",
+ "quarter": "Q3-2026",
+ "company": "Palantir Technologies",
+ "call_start": "2026-11-02T17:00:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/PLTR_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 41100,
+   "speaker": "Operator",
+   "text": "Good afternoon, I'm Ana Saro from Palantir's finance team, and I'd like to welcome you to our third quarter 2026 earnings call. We'll be discussing the results announced in our press release issued after the market closed and posted on our investor relations website. During the call, we will make statements regarding our business that may be considered forward-looking within applicable securities laws, including statements regarding our fourth quarter and fiscal 2026 results, management's expectations for our future financial and operational performance, which does not constitute formal guidance unless indicated as such in the accompanying written materials, and other statements regarding our plans, prospects, expectations, goals, and aspirations. These statements are not promises or guarantees and are subject to risks and uncertainties, which could cause them to differ materially from actual results.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon, I'm Ana Saro from Palantir's finance team,"
+    },
+    {
+     "t0_ms": 2900,
+     "text": "and I'd like to welcome you"
+    },
+    {
+     "t0_ms": 3700,
+     "text": "to our third quarter 2026 earnings call."
+    },
+    {
+     "t0_ms": 6540,
+     "text": "We'll be discussing the results announced"
+    },
+    {
+     "t0_ms": 7920,
+     "text": "in our press release issued after the market closed"
+    },
+    {
+     "t0_ms": 9860,
+     "text": "and posted on our investor relations website."
+    },
+    {
+     "t0_ms": 12500,
+     "text": "During the call, we will make statements"
+    },
+    {
+     "t0_ms": 14120,
+     "text": "regarding our business that may be considered"
+    },
+    {
+     "t0_ms": 15680,
+     "text": "forward-looking within applicable securities laws,"
+    },
+    {
+     "t0_ms": 18020,
+     "text": "including statements regarding our fourth quarter"
+    },
+    {
+     "t0_ms": 19700,
+     "text": "and fiscal 2026 results, management's expectations"
+    },
+    {
+     "t0_ms": 22740,
+     "text": "for our future financial and operational performance,"
+    },
+    {
+     "t0_ms": 25420,
+     "text": "which does not constitute formal guidance"
+    },
+    {
+     "t0_ms": 27000,
+     "text": "unless indicated as such"
+    },
+    {
+     "t0_ms": 28060,
+     "text": "in the accompanying written materials,"
+    },
+    {
+     "t0_ms": 29360,
+     "text": "and other statements regarding our plans, prospects, expectations, goals, and aspirations."
+    },
+    {
+     "t0_ms": 34540,
+     "text": "These statements are not promises or guarantees and are subject to risks and uncertainties,"
+    },
+    {
+     "t0_ms": 38740,
+     "text": "which could cause them to differ materially from actual results."
+    }
+   ]
+  },
+  {
+   "t0_ms": 42120,
+   "t1_ms": 86340,
+   "speaker": "Operator",
+   "text": "Information concerning those risks is available in our earnings press release distributed after the market closed today and in our SEC filings. We undertake no obligation to update forward-looking statements except as required by law. Further, during the course of today's call, we will refer to certain adjusted financial measures. These non-GAAP financial measures should be considered in addition to, not as a substitute for, or in isolation from, GAAP measures. Additional information about these non-GAAP measures, including reconciliation of non-GAAP to comparable GAAP measures, is included in our press release and investor presentation provided today. Our press release, investor presentation, and other earnings materials are available on our investor relations website at investors.palantir.com. Over the course of the call, we will refer to various growth rates when discussing our business.",
+   "parts": [
+    {
+     "t0_ms": 42120,
+     "text": "Information concerning those risks is available in our earnings press release"
+    },
+    {
+     "t0_ms": 45180,
+     "text": "distributed after the market closed today and in our SEC filings."
+    },
+    {
+     "t0_ms": 48740,
+     "text": "We undertake no obligation to update forward-looking statements except as required by law."
+    },
+    {
+     "t0_ms": 53920,
+     "text": "Further, during the course of today's call, we will refer to certain adjusted financial measures."
+    },
+    {
+     "t0_ms": 57620,
+     "text": "These non-GAAP financial measures should be considered in addition to, not as a substitute for, or in isolation from, GAAP measures."
+    },
+    {
+     "t0_ms": 65040,
+     "text": "Additional information about these non-GAAP measures, including reconciliation of non-GAAP to comparable GAAP measures, is included in our press release and investor presentation provided today."
+    },
+    {
+     "t0_ms": 74640,
+     "text": "Our press release, investor presentation, and other earnings materials are available on our investor relations website at investors.palantir.com."
+    },
+    {
+     "t0_ms": 82380,
+     "text": "Over the course of the call, we will refer to various growth rates when discussing our business."
+    }
+   ]
+  },
+  {
+   "t0_ms": 87060,
+   "t1_ms": 104400,
+   "speaker": "Operator",
+   "text": "These rates reflect year-over-year comparisons unless otherwise stated. Joining me on today's call are Alex Karp, Chief Executive Officer, Shyam Sankar, Chief Technology Officer, Dave Glazer, Chief Financial Officer, and Ryan Taylor, Chief Revenue Officer and Chief Legal Officer. I'll now turn it over to Ryan to start the call.",
+   "parts": [
+    {
+     "t0_ms": 87060,
+     "text": "These rates reflect year-over-year comparisons unless otherwise stated."
+    },
+    {
+     "t0_ms": 91120,
+     "text": "Joining me on today's call are Alex Karp, Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 94920,
+     "text": "Shyam Sankar, Chief Technology Officer,"
+    },
+    {
+     "t0_ms": 97220,
+     "text": "Dave Glazer, Chief Financial Officer,"
+    },
+    {
+     "t0_ms": 99220,
+     "text": "and Ryan Taylor, Chief Revenue Officer and Chief Legal Officer."
+    },
+    {
+     "t0_ms": 102640,
+     "text": "I'll now turn it over to Ryan to start the call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 106320,
+   "t1_ms": 150260,
+   "speaker": "Management",
+   "text": "Humanity is facing world-historic crossroads in how it chooses to deal with AI. And through it all, our genre-defining technology has led the way, redefining the industry. We've been shaping the AI revolution from its start. And despite being only at the very beginning of the sovereign AI revolution, we already see how it is transforming the size of the market. We achieved revenue growth of 96% year-over-year and 20% sequentially, the highest growth rates we've ever delivered as a public company. These results are the continued financial expression of the transformational impact we're delivering for our customers, which is also evident in the depth of our customer relationships.",
+   "parts": [
+    {
+     "t0_ms": 106320,
+     "text": "Humanity is facing world-historic crossroads in how it chooses to deal with AI."
+    },
+    {
+     "t0_ms": 111020,
+     "text": "And through it all, our genre-defining technology has led the way, redefining the industry."
+    },
+    {
+     "t0_ms": 117460,
+     "text": "We've been shaping the AI revolution from its start."
+    },
+    {
+     "t0_ms": 121300,
+     "text": "And despite being only at the very beginning of the sovereign AI revolution,"
+    },
+    {
+     "t0_ms": 125140,
+     "text": "we already see how it is transforming the size of the market."
+    },
+    {
+     "t0_ms": 129740,
+     "text": "We achieved revenue growth of 96% year-over-year and 20% sequentially,"
+    },
+    {
+     "t0_ms": 134640,
+     "text": "the highest growth rates we've ever delivered as a public company."
+    },
+    {
+     "t0_ms": 138920,
+     "text": "These results are the continued financial expression"
+    },
+    {
+     "t0_ms": 141820,
+     "text": "of the transformational impact we're delivering for our customers,"
+    },
+    {
+     "t0_ms": 145860,
+     "text": "which is also evident in the depth of our customer relationships."
+    }
+   ]
+  },
+  {
+   "t0_ms": 151340,
+   "t1_ms": 193140,
+   "speaker": "Management",
+   "text": "The third quarter average trade lane 12-month revenue from our top 20 customers increased 76% year-over-year to $146 million per customer. Our U.S. business is in overdrive. We brought in $1.9 billion in U.S. revenue, which grew 119% year-over-year and 23% sequentially representing 84% of our total revenue. This is led by our U.S. commercial business which grew 148% year-over-year and 29% sequentially and surpassed our U.S. government business revenue in quarter for the first time. In U.S. commercial, the average trailing 12-month revenue per customer",
+   "parts": [
+    {
+     "t0_ms": 151340,
+     "text": "The third quarter average trade lane 12-month revenue"
+    },
+    {
+     "t0_ms": 153900,
+     "text": "from our top 20 customers increased 76% year-over-year"
+    },
+    {
+     "t0_ms": 157660,
+     "text": "to $146 million per customer."
+    },
+    {
+     "t0_ms": 161300,
+     "text": "Our U.S. business is in overdrive."
+    },
+    {
+     "t0_ms": 164440,
+     "text": "We brought in $1.9 billion in U.S. revenue,"
+    },
+    {
+     "t0_ms": 167460,
+     "text": "which grew 119% year-over-year and 23% sequentially"
+    },
+    {
+     "t0_ms": 171880,
+     "text": "representing 84% of our total revenue."
+    },
+    {
+     "t0_ms": 176000,
+     "text": "This is led by our U.S. commercial business"
+    },
+    {
+     "t0_ms": 178580,
+     "text": "which grew 148% year-over-year and 29% sequentially"
+    },
+    {
+     "t0_ms": 183540,
+     "text": "and surpassed our U.S. government business revenue in quarter for the first time."
+    },
+    {
+     "t0_ms": 188900,
+     "text": "In U.S. commercial, the average trailing 12-month revenue per customer"
+    }
+   ]
+  },
+  {
+   "t0_ms": 193140,
+   "t1_ms": 230320,
+   "speaker": "Management",
+   "text": "grew 88% year-over-year and 20% sequentially. The U.S. continues to be the epicenter of the AI revolution. I won't repeat what I said last quarter, because it has become self-evident in our unparalleled results. Two years ago, we led the way with our commoditized cognition thesis. And today, the market is only beginning to recognize the full force of sovereign AI. It's pervasive in the conversations I'm having with customers, and undeniable in the results they've shared. The COO of OptumServe highlighted,",
+   "parts": [
+    {
+     "t0_ms": 193140,
+     "text": "grew 88% year-over-year and 20% sequentially."
+    },
+    {
+     "t0_ms": 197460,
+     "text": "The U.S. continues to be the epicenter of the AI revolution."
+    },
+    {
+     "t0_ms": 202460,
+     "text": "I won't repeat what I said last quarter,"
+    },
+    {
+     "t0_ms": 205240,
+     "text": "because it has become self-evident in our unparalleled results."
+    },
+    {
+     "t0_ms": 210020,
+     "text": "Two years ago, we led the way with our commoditized cognition thesis."
+    },
+    {
+     "t0_ms": 214380,
+     "text": "And today, the market is only beginning to recognize the full force of sovereign AI."
+    },
+    {
+     "t0_ms": 221100,
+     "text": "It's pervasive in the conversations I'm having with customers,"
+    },
+    {
+     "t0_ms": 224780,
+     "text": "and undeniable in the results they've shared."
+    },
+    {
+     "t0_ms": 227460,
+     "text": "The COO of OptumServe highlighted,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 230760,
+   "t1_ms": 271880,
+   "speaker": "Management",
+   "text": "L3 Harris noted that by fine-tuning open-source models on its own data, a sovereign model outperformed the frontier model it had been using in less than 48 hours and cut costs by 95% in preliminary results. NVIDIA reported that by evaluating and post-training its open models,",
+   "parts": [
+    {
+     "t0_ms": 230760,
+     "text": "L3 Harris noted that by fine-tuning open-source models on its own data,"
+    },
+    {
+     "t0_ms": 257959,
+     "text": "a sovereign model outperformed the frontier model it had been using in less than 48 hours"
+    },
+    {
+     "t0_ms": 262540,
+     "text": "and cut costs by 95% in preliminary results."
+    },
+    {
+     "t0_ms": 267440,
+     "text": "NVIDIA reported that by evaluating and post-training its open models,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 271880,
+   "t1_ms": 313060,
+   "speaker": "Management",
+   "text": "it was able to get its smallest, most efficient model to outperform its largest model by a large gap and can now retrain that model on just a single GPU in a couple of hours, enabling them to retrain any time they have data to improve the decision intelligence. They stated, quote, We captured our alpha and we trained it into a model. We couldn't have started this process until we built the workflows in Palantir. And our customers are choosing Palantir and our sovereign AI to transform their organizations at a furious pace. An industrial materials company piloted a nearly $3 million engagement",
+   "parts": [
+    {
+     "t0_ms": 271880,
+     "text": "it was able to get its smallest, most efficient model to outperform its largest model by a large gap"
+    },
+    {
+     "t0_ms": 278500,
+     "text": "and can now retrain that model on just a single GPU in a couple of hours,"
+    },
+    {
+     "t0_ms": 284180,
+     "text": "enabling them to retrain any time they have data to improve the decision intelligence."
+    },
+    {
+     "t0_ms": 289760,
+     "text": "They stated, quote,"
+    },
+    {
+     "t0_ms": 291020,
+     "text": "We captured our alpha and we trained it into a model."
+    },
+    {
+     "t0_ms": 294040,
+     "text": "We couldn't have started this process until we built the workflows in Palantir."
+    },
+    {
+     "t0_ms": 299520,
+     "text": "And our customers are choosing Palantir and our sovereign AI"
+    },
+    {
+     "t0_ms": 303420,
+     "text": "to transform their organizations at a furious pace."
+    },
+    {
+     "t0_ms": 308140,
+     "text": "An industrial materials company piloted a nearly $3 million engagement"
+    }
+   ]
+  },
+  {
+   "t0_ms": 313060,
+   "t1_ms": 352020,
+   "speaker": "Management",
+   "text": "in Q2 2026, before converting to a $29 million ACV deal last quarter. A global athletic company converted a $1.6 million pilot that began in Q1 2026 into an approximately $21 million ACV deal last quarter. A global home appliance company converted a $1 million pilot that began in Q2 2026 into a $3 million ACV deal within the same quarter, then expanded nearly five-fold to a $15 million ACV deal in Q3 across commercial, finance, and supply chain workflows. After an agent camp in",
+   "parts": [
+    {
+     "t0_ms": 313060,
+     "text": "in Q2 2026, before converting to a $29 million ACV deal last quarter."
+    },
+    {
+     "t0_ms": 320340,
+     "text": "A global athletic company converted a $1.6 million pilot that began in Q1 2026 into an"
+    },
+    {
+     "t0_ms": 327200,
+     "text": "approximately $21 million ACV deal last quarter."
+    },
+    {
+     "t0_ms": 331120,
+     "text": "A global home appliance company converted a $1 million pilot that began in Q2 2026 into"
+    },
+    {
+     "t0_ms": 337880,
+     "text": "a $3 million ACV deal within the same quarter, then expanded nearly five-fold to a $15 million"
+    },
+    {
+     "t0_ms": 344600,
+     "text": "ACV deal in Q3 across commercial, finance, and supply chain workflows. After an agent camp in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 352020,
+   "t1_ms": 396300,
+   "speaker": "Management",
+   "text": "Q2 2026, an apparel company signed a $2.5 million pilot, then last quarter they converted to an $11.5 million ACV deal. These commitments are downstream of the measurable impact we're delivering with our customers. With Palantir Sovereign AI, McCarthy building companies will save 30,000 hours annually by using post-trained Nematron to help turn complex project requirements into contract language that allocates risk and clearly defines subcontractor obligations. Tampa General is deploying Sovereign AI to keep sensitive data and model processing local while enforcing its own risk and privacy standards for LLM traffic",
+   "parts": [
+    {
+     "t0_ms": 352020,
+     "text": "Q2 2026, an apparel company signed a $2.5 million pilot, then last quarter they converted to an"
+    },
+    {
+     "t0_ms": 358780,
+     "text": "$11.5 million ACV deal. These commitments are downstream of the measurable impact we're"
+    },
+    {
+     "t0_ms": 366440,
+     "text": "delivering with our customers. With Palantir Sovereign AI, McCarthy building companies will"
+    },
+    {
+     "t0_ms": 372260,
+     "text": "save 30,000 hours annually by using post-trained Nematron to help turn complex project requirements"
+    },
+    {
+     "t0_ms": 378960,
+     "text": "into contract language that allocates risk and clearly defines subcontractor obligations."
+    },
+    {
+     "t0_ms": 386200,
+     "text": "Tampa General is deploying Sovereign AI to keep sensitive data and model processing local"
+    },
+    {
+     "t0_ms": 391640,
+     "text": "while enforcing its own risk and privacy standards for LLM traffic"
+    }
+   ]
+  },
+  {
+   "t0_ms": 396300,
+   "t1_ms": 439300,
+   "speaker": "Management",
+   "text": "and supporting the granular controls Tampa General wants to define for itself. Using fine-tuned and post-trained Nematron to achieve this outcome, together we also improve model performance by 7% and reduce latency by 22x. Turning to our U.S. government business, revenue grew 96% year-over-year and 18% sequentially, demonstrating continued extraordinary impact across civil and defense, with MAVEN as our foundational work. In Q3, the Army awarded Palantir a prime agreement to produce eight Titan systems. And last quarter, FAA highlighted the impact of our work together, stating, quote,",
+   "parts": [
+    {
+     "t0_ms": 396300,
+     "text": "and supporting the granular controls Tampa General wants to define for itself."
+    },
+    {
+     "t0_ms": 401940,
+     "text": "Using fine-tuned and post-trained Nematron to achieve this outcome,"
+    },
+    {
+     "t0_ms": 406400,
+     "text": "together we also improve model performance by 7% and reduce latency by 22x."
+    },
+    {
+     "t0_ms": 413300,
+     "text": "Turning to our U.S. government business,"
+    },
+    {
+     "t0_ms": 416360,
+     "text": "revenue grew 96% year-over-year and 18% sequentially,"
+    },
+    {
+     "t0_ms": 420940,
+     "text": "demonstrating continued extraordinary impact across civil and defense,"
+    },
+    {
+     "t0_ms": 425780,
+     "text": "with MAVEN as our foundational work."
+    },
+    {
+     "t0_ms": 428660,
+     "text": "In Q3, the Army awarded Palantir a prime agreement to produce eight Titan systems."
+    },
+    {
+     "t0_ms": 434660,
+     "text": "And last quarter, FAA highlighted the impact of our work together, stating,"
+    },
+    {
+     "t0_ms": 438800,
+     "text": "quote,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 439900,
+   "t1_ms": 479120,
+   "speaker": "Management",
+   "text": "That shift from scattered data to an embedded ontology is what changes the game. This is a modernization in operational form, changing how safety work gets done. and noted that the work they can do now would require hundreds of analysts without Palantir. As I reflect on our results, I see the furious pace continuing unabated. I'm invigorated, unlike ever before, by the ambition I'm hearing from our customers and their demand for Sovereign AI, a revolution we should remember is barely one quarter old. As extraordinary as these results are, they are only the opening chapter of Sovereign AI. I'll now turn it over to Shom.",
+   "parts": [
+    {
+     "t0_ms": 439900,
+     "text": "That shift from scattered data to an embedded ontology is what changes the game."
+    },
+    {
+     "t0_ms": 445220,
+     "text": "This is a modernization in operational form, changing how safety work gets done."
+    },
+    {
+     "t0_ms": 449500,
+     "text": "and noted that the work they can do now would require hundreds of analysts without Palantir."
+    },
+    {
+     "t0_ms": 455860,
+     "text": "As I reflect on our results, I see the furious pace continuing unabated."
+    },
+    {
+     "t0_ms": 461360,
+     "text": "I'm invigorated, unlike ever before, by the ambition I'm hearing from our customers"
+    },
+    {
+     "t0_ms": 465980,
+     "text": "and their demand for Sovereign AI, a revolution we should remember is barely one quarter old."
+    },
+    {
+     "t0_ms": 472280,
+     "text": "As extraordinary as these results are, they are only the opening chapter of Sovereign AI."
+    },
+    {
+     "t0_ms": 477900,
+     "text": "I'll now turn it over to Shom."
+    }
+   ]
+  },
+  {
+   "t0_ms": 480280,
+   "t1_ms": 522220,
+   "speaker": "Management",
+   "text": "Thanks, Ryan. Palantir is obsessed with turning tokens into economic value. It's clear that the vast majority of economically valuable problems that LLMs can solve can be solved with intelligence at or below the frontier. So what's preventing this from happening? On one end, you have the model makers who can't conceive of solving any problem except through model improvement. So they aren't even trying. And on the other end, you have the hard work of diffusion, which sounds passive, but is anything but. All the value comes from the elegant integration of AI, software, and humans. And this requires not a harness for the model, but something closer to",
+   "parts": [
+    {
+     "t0_ms": 480280,
+     "text": "Thanks, Ryan. Palantir is obsessed with turning tokens into economic value. It's clear that the"
+    },
+    {
+     "t0_ms": 487120,
+     "text": "vast majority of economically valuable problems that LLMs can solve can be solved with intelligence"
+    },
+    {
+     "t0_ms": 493260,
+     "text": "at or below the frontier. So what's preventing this from happening? On one end, you have the"
+    },
+    {
+     "t0_ms": 499800,
+     "text": "model makers who can't conceive of solving any problem except through model improvement."
+    },
+    {
+     "t0_ms": 504020,
+     "text": "So they aren't even trying. And on the other end, you have the hard work of diffusion,"
+    },
+    {
+     "t0_ms": 509060,
+     "text": "which sounds passive, but is anything but. All the value comes from the elegant integration of AI,"
+    },
+    {
+     "t0_ms": 516320,
+     "text": "software, and humans. And this requires not a harness for the model, but something closer to"
+    }
+   ]
+  },
+  {
+   "t0_ms": 522220,
+   "t1_ms": 563440,
+   "speaker": "Management",
+   "text": "a harness for the enterprise, which is exactly what AIP is. Most profoundly, the conceit that the labs have wrong is the belief that the atomic unit of the enterprise is the individual knowledge worker. It is not. The fundamental unit of the enterprise is the workflow. You can make any set of workers more productive and generate no actual ROI. For some things like coding, the knowledge worker is the workflow. So there's perfect product market fit. But for the vast majority of the enterprise, it is not. Given this, it is incredibly valuable that AIP implements enterprise workflows and is able to bring AI to it in a way that generates objective, quantifiable value. For",
+   "parts": [
+    {
+     "t0_ms": 522220,
+     "text": "a harness for the enterprise, which is exactly what AIP is. Most profoundly, the conceit that"
+    },
+    {
+     "t0_ms": 529380,
+     "text": "the labs have wrong is the belief that the atomic unit of the enterprise is the individual knowledge"
+    },
+    {
+     "t0_ms": 535060,
+     "text": "worker. It is not. The fundamental unit of the enterprise is the workflow. You can make any set"
+    },
+    {
+     "t0_ms": 540720,
+     "text": "of workers more productive and generate no actual ROI. For some things like coding, the knowledge"
+    },
+    {
+     "t0_ms": 547260,
+     "text": "worker is the workflow. So there's perfect product market fit. But for the vast majority of the"
+    },
+    {
+     "t0_ms": 551860,
+     "text": "enterprise, it is not. Given this, it is incredibly valuable that AIP implements enterprise workflows"
+    },
+    {
+     "t0_ms": 557820,
+     "text": "and is able to bring AI to it in a way that generates objective, quantifiable value. For"
+    }
+   ]
+  },
+  {
+   "t0_ms": 563440,
+   "t1_ms": 603620,
+   "speaker": "Management",
+   "text": "For example, page 209 of Anthropix S1 talks about AIG's automation of insurance underwriting processes for complex commercial lines of business. That entire workflow and the elegant application of AI, software, and humans runs in AIP and was implemented by Palantir and AIG. We are the diffusion layer, not just of choice, but of necessity. There's a clear pattern emerging amongst our customers who are most successful at getting value from AI. They have enormous ambition. Their goal is not something lame like OPEX reduction. It's market domination. And the opposite is true. Customers that struggle the most",
+   "parts": [
+    {
+     "t0_ms": 563440,
+     "text": "For example, page 209 of Anthropix S1 talks about AIG's automation of insurance underwriting"
+    },
+    {
+     "t0_ms": 569640,
+     "text": "processes for complex commercial lines of business."
+    },
+    {
+     "t0_ms": 573260,
+     "text": "That entire workflow and the elegant application of AI, software, and humans runs in AIP and"
+    },
+    {
+     "t0_ms": 579780,
+     "text": "was implemented by Palantir and AIG."
+    },
+    {
+     "t0_ms": 582420,
+     "text": "We are the diffusion layer, not just of choice, but of necessity."
+    },
+    {
+     "t0_ms": 587420,
+     "text": "There's a clear pattern emerging amongst our customers who are most successful at getting"
+    },
+    {
+     "t0_ms": 592080,
+     "text": "value from AI."
+    },
+    {
+     "t0_ms": 592880,
+     "text": "They have enormous ambition. Their goal is not something lame like OPEX reduction."
+    },
+    {
+     "t0_ms": 598860,
+     "text": "It's market domination. And the opposite is true. Customers that struggle the most"
+    }
+   ]
+  },
+  {
+   "t0_ms": 603620,
+   "t1_ms": 643940,
+   "speaker": "Management",
+   "text": "are narrowly focused on reducing costs. AI is a new type of intelligence. Simply trying to shoehorn it to replacing the human misses the moment completely. The error of conflating human and machine intelligence locks you into a poorly chosen goal, one that limits your ambition and still remains out of reach. Instead, we're attacking all the work the enterprise knows it should be doing but historically lack the economic resources or capabilities to take on. An agent swarm watching each patient in the ICU ward to help clinicians avoid potential signs of sepsis earlier and improve patient outcomes. An agent swarm per wellhead in the Permian Basin",
+   "parts": [
+    {
+     "t0_ms": 603620,
+     "text": "are narrowly focused on reducing costs. AI is a new type of intelligence. Simply trying to"
+    },
+    {
+     "t0_ms": 610140,
+     "text": "shoehorn it to replacing the human misses the moment completely. The error of conflating human"
+    },
+    {
+     "t0_ms": 616840,
+     "text": "and machine intelligence locks you into a poorly chosen goal, one that limits your ambition and"
+    },
+    {
+     "t0_ms": 622380,
+     "text": "still remains out of reach. Instead, we're attacking all the work the enterprise knows"
+    },
+    {
+     "t0_ms": 627340,
+     "text": "it should be doing but historically lack the economic resources or capabilities to take on."
+    },
+    {
+     "t0_ms": 633520,
+     "text": "An agent swarm watching each patient in the ICU ward to help clinicians avoid potential signs of"
+    },
+    {
+     "t0_ms": 639160,
+     "text": "sepsis earlier and improve patient outcomes. An agent swarm per wellhead in the Permian Basin"
+    }
+   ]
+  },
+  {
+   "t0_ms": 643940,
+   "t1_ms": 683740,
+   "speaker": "Management",
+   "text": "to maximize production. An agent swarm for every customer of our customer to drive growth. This is not about doing the same thing cheaper. It's about defining the productive work that goes beyond yesterday's frontier and capturing and compounding the new economic value it creates. And doing so with sovereign AI. The examples are everywhere now. It's clear that post-training on your specific operational data in ontology enables better-than-frontier performance on weights you control, protecting your alpha. Yes, it's cheaper, but the dominant variable is that more use cases can actually get to the threshold of viability for machine intelligence to generate economic value",
+   "parts": [
+    {
+     "t0_ms": 643940,
+     "text": "to maximize production. An agent swarm for every customer of our customer to drive growth. This is"
+    },
+    {
+     "t0_ms": 650460,
+     "text": "not about doing the same thing cheaper. It's about defining the productive work that goes beyond"
+    },
+    {
+     "t0_ms": 655460,
+     "text": "yesterday's frontier and capturing and compounding the new economic value it creates. And doing so"
+    },
+    {
+     "t0_ms": 661920,
+     "text": "with sovereign AI. The examples are everywhere now. It's clear that post-training on your specific"
+    },
+    {
+     "t0_ms": 667380,
+     "text": "operational data in ontology enables better-than-frontier performance on weights you"
+    },
+    {
+     "t0_ms": 671940,
+     "text": "control, protecting your alpha. Yes, it's cheaper, but the dominant variable is that more use cases"
+    },
+    {
+     "t0_ms": 679120,
+     "text": "can actually get to the threshold of viability for machine intelligence to generate economic value"
+    }
+   ]
+  },
+  {
+   "t0_ms": 683740,
+   "t1_ms": 723720,
+   "speaker": "Management",
+   "text": "when elegantly integrated into your enterprise. And our product investments in AIP to create a closed-loop model factory are making this easy and fast. The specific post-trained model is a commodity item. The compounding value is in the post-training pipeline that is constantly fed from your operational exhaust captured in the ontology that drives automated post-training runs, model checkpoints, evaluations, and deployment across yesterday's, today's, and tomorrow's open-weight ecosystem. Our new feature of auto-research and continued investment in AIP Evolve push us closer and closer to an automated loop to build, deploy,",
+   "parts": [
+    {
+     "t0_ms": 683740,
+     "text": "when elegantly integrated into your enterprise. And our product investments in AIP to create a"
+    },
+    {
+     "t0_ms": 689500,
+     "text": "closed-loop model factory are making this easy and fast. The specific post-trained model is a"
+    },
+    {
+     "t0_ms": 696440,
+     "text": "commodity item. The compounding value is in the post-training pipeline that is constantly fed"
+    },
+    {
+     "t0_ms": 702300,
+     "text": "from your operational exhaust captured in the ontology that drives automated post-training"
+    },
+    {
+     "t0_ms": 707380,
+     "text": "runs, model checkpoints, evaluations, and deployment across yesterday's, today's,"
+    },
+    {
+     "t0_ms": 712860,
+     "text": "and tomorrow's open-weight ecosystem. Our new feature of auto-research and continued"
+    },
+    {
+     "t0_ms": 718140,
+     "text": "investment in AIP Evolve push us closer and closer to an automated loop to build, deploy,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 723720,
+   "t1_ms": 767340,
+   "speaker": "Management",
+   "text": "and evaluate intelligence continuously against ROI. In AIP and sovereign AI, the Pareto optimal frontier is no longer an unachievable academic aspiration. It is a simple function call and one we can invoke automatically on your behalf. At a recent Paycom exercise, we deployed a 30 billion parameter post-train model into space, weight, power, cooling-constrained compute, ready for the disconnected fight, with superior task-specific performance than GPT-56 Sol, a 3 trillion parameter model. L3Harris realized 95% cost reduction with Sovereign AI. McCarthy will save 30,000 hours a",
+   "parts": [
+    {
+     "t0_ms": 723720,
+     "text": "and evaluate intelligence continuously against ROI. In AIP and sovereign AI, the Pareto optimal"
+    },
+    {
+     "t0_ms": 731280,
+     "text": "frontier is no longer an unachievable academic aspiration. It is a simple function call and one"
+    },
+    {
+     "t0_ms": 738420,
+     "text": "we can invoke automatically on your behalf. At a recent Paycom exercise, we deployed a 30 billion"
+    },
+    {
+     "t0_ms": 745460,
+     "text": "parameter post-train model into space, weight, power, cooling-constrained compute, ready for"
+    },
+    {
+     "t0_ms": 752020,
+     "text": "the disconnected fight, with superior task-specific performance than GPT-56 Sol, a 3 trillion parameter"
+    },
+    {
+     "t0_ms": 759320,
+     "text": "model. L3Harris realized 95% cost reduction with Sovereign AI. McCarthy will save 30,000 hours a"
+    }
+   ]
+  },
+  {
+   "t0_ms": 767340,
+   "t1_ms": 811780,
+   "speaker": "Management",
+   "text": "year on subcontractor drafting, achieving better than frontier performance for RFI classification and subcontractor drafting on a post-trained Nemotron 4 billion parameter model, where again, the real value is the substantially greater number of demand events they can process now. MAVEN continues to deliver for the Joint Force, exceeding 100,000 users. MAVEN is now available to all of the services, beyond just the combatant commands and many combat support agencies. We just concluded a MAVEN hackathon. 46 teams across the Joint Force participated. Many amazing projects were built by our 25,000-strong builder community. The winning two teams were both Army teams, one building an edge planning and simulation capability for force protection,",
+   "parts": [
+    {
+     "t0_ms": 767340,
+     "text": "year on subcontractor drafting, achieving better than frontier performance for RFI classification"
+    },
+    {
+     "t0_ms": 772760,
+     "text": "and subcontractor drafting on a post-trained Nemotron 4 billion parameter model, where again,"
+    },
+    {
+     "t0_ms": 778680,
+     "text": "the real value is the substantially greater number of demand events they can process now."
+    },
+    {
+     "t0_ms": 784580,
+     "text": "MAVEN continues to deliver for the Joint Force, exceeding 100,000 users."
+    },
+    {
+     "t0_ms": 789540,
+     "text": "MAVEN is now available to all of the services, beyond just the combatant commands and many combat support agencies."
+    },
+    {
+     "t0_ms": 795260,
+     "text": "We just concluded a MAVEN hackathon. 46 teams across the Joint Force participated."
+    },
+    {
+     "t0_ms": 800900,
+     "text": "Many amazing projects were built by our 25,000-strong builder community."
+    },
+    {
+     "t0_ms": 805340,
+     "text": "The winning two teams were both Army teams, one building an edge planning and simulation capability for force protection,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 811780,
+   "t1_ms": 853020,
+   "speaker": "Management",
+   "text": "and a second place in incredible platform to analyze drone incursions to drive force protection insights. And we continue to feel demand for Maven down to the tactical edge and disconnected environments ashore and afloat. We have seen incredible success with DORA, Disconnected Ontology Resilient Architecture, including in the Army's jailbreak effort. DORA is an embedded compute device that brings Maven's capabilities to disconnected operations. Using AIFD, service members can build read-write integrations with legacy sensors and effectors and bring them online in hours, entirely unassisted. With that, I'll turn it over to Dave. Thanks, Sean. We had an outstanding third quarter.",
+   "parts": [
+    {
+     "t0_ms": 811780,
+     "text": "and a second place in incredible platform to analyze drone incursions to drive force"
+    },
+    {
+     "t0_ms": 816300,
+     "text": "protection insights. And we continue to feel demand for Maven down to the tactical edge"
+    },
+    {
+     "t0_ms": 821080,
+     "text": "and disconnected environments ashore and afloat. We have seen incredible success with DORA,"
+    },
+    {
+     "t0_ms": 827160,
+     "text": "Disconnected Ontology Resilient Architecture, including in the Army's jailbreak effort."
+    },
+    {
+     "t0_ms": 832200,
+     "text": "DORA is an embedded compute device that brings Maven's capabilities to disconnected operations."
+    },
+    {
+     "t0_ms": 837640,
+     "text": "Using AIFD, service members can build read-write integrations with legacy sensors and effectors"
+    },
+    {
+     "t0_ms": 843700,
+     "text": "and bring them online in hours, entirely unassisted."
+    },
+    {
+     "t0_ms": 847300,
+     "text": "With that, I'll turn it over to Dave."
+    },
+    {
+     "t0_ms": 849920,
+     "text": "Thanks, Sean."
+    },
+    {
+     "t0_ms": 851280,
+     "text": "We had an outstanding third quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 853520,
+   "t1_ms": 894020,
+   "speaker": "Management",
+   "text": "We delivered our highest ever reported year-over-year revenue growth rate of 96% and our highest ever reported sequential revenue growth rate of 20%. Quarterly revenue crossed the $2 billion mark for the first time, and we surpassed additional billion-dollar milestones in commercial revenue, government revenue, and GAAP operating income. Revenue in our U.S. business accelerated yet again, growing 119% year-over-year and 23% sequentially. Our U.S. commercial business grew 148% year-over-year and accelerated to 29% growth sequentially, and our U.S. government business grew 96% year-over-year and 18% sequentially. Demand for our sovereign AI offering is accelerating our U.S. commercial momentum,",
+   "parts": [
+    {
+     "t0_ms": 853520,
+     "text": "We delivered our highest ever reported year-over-year revenue growth rate of 96%"
+    },
+    {
+     "t0_ms": 857840,
+     "text": "and our highest ever reported sequential revenue growth rate of 20%."
+    },
+    {
+     "t0_ms": 861620,
+     "text": "Quarterly revenue crossed the $2 billion mark for the first time,"
+    },
+    {
+     "t0_ms": 864940,
+     "text": "and we surpassed additional billion-dollar milestones in commercial revenue, government revenue, and GAAP operating income."
+    },
+    {
+     "t0_ms": 871440,
+     "text": "Revenue in our U.S. business accelerated yet again, growing 119% year-over-year and 23% sequentially."
+    },
+    {
+     "t0_ms": 878740,
+     "text": "Our U.S. commercial business grew 148% year-over-year and accelerated to 29% growth sequentially,"
+    },
+    {
+     "t0_ms": 884580,
+     "text": "and our U.S. government business grew 96% year-over-year and 18% sequentially."
+    },
+    {
+     "t0_ms": 889980,
+     "text": "Demand for our sovereign AI offering is accelerating our U.S. commercial momentum,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 894520,
+   "t1_ms": 938420,
+   "speaker": "Management",
+   "text": "helping to make this our first-ever quarter that U.S. commercial revenue eclipsed U.S. government revenue, a critical milestone in the history of our company. On top of this, we are raising our full-year U.S. commercial revenue guidance to an excess of $3.559 billion, representing a growth rate of at least 143%. We are also raising our full-year 2026 revenue guidance midpoint to $8.532 billion, representing 91% growth year-over-year, a 9-point increase over our full-year 2026 revenue guidance from last quarter. Turning to our global top-line results, third-quarter revenue grew 96% year-over-year and 20% sequentially to $2.313 billion. Third-quarter U.S. revenue grew 119% year-over-year",
+   "parts": [
+    {
+     "t0_ms": 894520,
+     "text": "helping to make this our first-ever quarter that U.S. commercial revenue eclipsed U.S. government revenue,"
+    },
+    {
+     "t0_ms": 899560,
+     "text": "a critical milestone in the history of our company."
+    },
+    {
+     "t0_ms": 902440,
+     "text": "On top of this, we are raising our full-year U.S. commercial revenue guidance to an excess of $3.559 billion,"
+    },
+    {
+     "t0_ms": 909540,
+     "text": "representing a growth rate of at least 143%."
+    },
+    {
+     "t0_ms": 912620,
+     "text": "We are also raising our full-year 2026 revenue guidance midpoint to $8.532 billion,"
+    },
+    {
+     "t0_ms": 918460,
+     "text": "representing 91% growth year-over-year, a 9-point increase over our full-year 2026 revenue guidance"
+    },
+    {
+     "t0_ms": 924480,
+     "text": "from last quarter. Turning to our global top-line results, third-quarter revenue grew 96% year-over-year"
+    },
+    {
+     "t0_ms": 930880,
+     "text": "and 20% sequentially to $2.313 billion. Third-quarter U.S. revenue grew 119% year-over-year"
+    }
+   ]
+  },
+  {
+   "t0_ms": 938420,
+   "t1_ms": 974240,
+   "speaker": "Management",
+   "text": "and 23% sequentially to $1.937 billion. Revenue from our largest customers continues to expand. Third quarter trailing 12-month revenue from our top 20 customers increased 76% year-over-year to $146 million per customer. Now moving to our commercial segment. Third quarter commercial revenue grew 113% year-over-year and 24% sequentially to $1.168 billion, crossing the billion-dollar mark for the first time. We closed $1.652 billion in commercial TCV bookings in the third quarter, representing 17% growth year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 938420,
+     "text": "and 23% sequentially to $1.937 billion. Revenue from our largest customers continues to expand."
+    },
+    {
+     "t0_ms": 945440,
+     "text": "Third quarter trailing 12-month revenue from our top 20 customers increased 76% year-over-year to $146 million per customer."
+    },
+    {
+     "t0_ms": 953940,
+     "text": "Now moving to our commercial segment."
+    },
+    {
+     "t0_ms": 956660,
+     "text": "Third quarter commercial revenue grew 113% year-over-year and 24% sequentially to $1.168 billion, crossing the billion-dollar mark for the first time."
+    },
+    {
+     "t0_ms": 967200,
+     "text": "We closed $1.652 billion in commercial TCV bookings in the third quarter, representing 17% growth year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 974240,
+   "t1_ms": 1012640,
+   "speaker": "Management",
+   "text": "Our AI platform continues to dominate the U.S. markets as the only real choice for operationalizing LLMs while still giving customers full control over the data, logic, actions, and security of their enterprise. Third quarter U.S. commercial revenue grew 148% year-over-year and accelerated sequentially to 29% quarter-over-quarter, totaling $984 million. U.S. commercial revenue was $397 million in the third quarter of 2025, meaning it increased by $587 million in just one year. We closed $1.463 billion of U.S. commercial TCV bookings, representing growth of 11% year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 974240,
+     "text": "Our AI platform continues to dominate the U.S. markets as the only real choice for operationalizing LLMs while still giving customers full control over the data, logic, actions, and security of their enterprise."
+    },
+    {
+     "t0_ms": 987660,
+     "text": "Third quarter U.S. commercial revenue grew 148% year-over-year and accelerated sequentially to 29% quarter-over-quarter, totaling $984 million."
+    },
+    {
+     "t0_ms": 996680,
+     "text": "U.S. commercial revenue was $397 million in the third quarter of 2025, meaning it increased by $587 million in just one year."
+    },
+    {
+     "t0_ms": 1006440,
+     "text": "We closed $1.463 billion of U.S. commercial TCV bookings, representing growth of 11% year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1013260,
+   "t1_ms": 1057300,
+   "speaker": "Management",
+   "text": "Over the past 12 months, we closed $6.114 billion of U.S. commercial TCV bookings, a 62% increase from the prior 12 months, highlighting the accelerating demand for AI that creates real operational value while also moving power away from the labs and back into your enterprise. Total remaining deal value in our U.S. commercial business grew 79% year over year and 4% sequentially. We believe sovereign AI is the latest and largest tech revolution of our generation. We signed multiple eight-figure deals in the quarter that were shorter in duration than usual as customers rapidly adopted initial sovereign AI capabilities in their enterprise. It is important to remember that the sovereign AI revolution is only one quarter old. As we continue to deliver value as sovereign AI,",
+   "parts": [
+    {
+     "t0_ms": 1013260,
+     "text": "Over the past 12 months, we closed $6.114 billion of U.S. commercial TCV bookings, a 62% increase from the prior 12 months,"
+    },
+    {
+     "t0_ms": 1021240,
+     "text": "highlighting the accelerating demand for AI that creates real operational value while also moving"
+    },
+    {
+     "t0_ms": 1025900,
+     "text": "power away from the labs and back into your enterprise. Total remaining deal value in our"
+    },
+    {
+     "t0_ms": 1030640,
+     "text": "U.S. commercial business grew 79% year over year and 4% sequentially. We believe sovereign AI is"
+    },
+    {
+     "t0_ms": 1037319,
+     "text": "the latest and largest tech revolution of our generation. We signed multiple eight-figure"
+    },
+    {
+     "t0_ms": 1042280,
+     "text": "deals in the quarter that were shorter in duration than usual as customers rapidly adopted initial"
+    },
+    {
+     "t0_ms": 1047760,
+     "text": "sovereign AI capabilities in their enterprise. It is important to remember that the sovereign"
+    },
+    {
+     "t0_ms": 1052500,
+     "text": "AI revolution is only one quarter old. As we continue to deliver value as sovereign AI,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1057580,
+   "t1_ms": 1101220,
+   "speaker": "Management",
+   "text": "over time, we expect both the duration and size of these contracts to increase. Our U.S. commercial customer count grew to 686 customers, reflecting growth of 29% year-over-year and 5% sequentially. Third quarter international commercial revenue grew 21% year-over-year and 1% sequentially to $184 million. Revenue from strategic commercial contracts was approximately $400,000 for the quarter, representing less than 0.02% of overall revenue. We continue to expect revenue from these contracts to be less than $500,000 in the fourth quarter, and we anticipate no further revenue from these contracts beyond the fourth quarter of this year. Shifting to our government segment, third quarter government revenue grew 81% year-over-year and",
+   "parts": [
+    {
+     "t0_ms": 1057580,
+     "text": "over time, we expect both the duration and size of these contracts to increase."
+    },
+    {
+     "t0_ms": 1061660,
+     "text": "Our U.S. commercial customer count grew to 686 customers, reflecting growth of 29% year-over-year"
+    },
+    {
+     "t0_ms": 1067160,
+     "text": "and 5% sequentially. Third quarter international commercial revenue grew 21% year-over-year and"
+    },
+    {
+     "t0_ms": 1073420,
+     "text": "1% sequentially to $184 million. Revenue from strategic commercial contracts was approximately"
+    },
+    {
+     "t0_ms": 1080120,
+     "text": "$400,000 for the quarter, representing less than 0.02% of overall revenue. We continue to expect"
+    },
+    {
+     "t0_ms": 1087160,
+     "text": "revenue from these contracts to be less than $500,000 in the fourth quarter, and we anticipate"
+    },
+    {
+     "t0_ms": 1091740,
+     "text": "no further revenue from these contracts beyond the fourth quarter of this year."
+    },
+    {
+     "t0_ms": 1095500,
+     "text": "Shifting to our government segment, third quarter government revenue grew 81% year-over-year and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1101220,
+   "t1_ms": 1145420,
+   "speaker": "Management",
+   "text": "16% sequentially to $1.146 billion, crossing the billion-dollar mark for the first time. Third-quarter U.S. government revenue grew 96% year-over-year and 18% sequentially to $953 million. This growth was driven by continued execution in existing programs and new awards reflecting growing demand for our AI platform and government. Third-quarter international government revenue grew in 31% year-over-year and 6% sequentially to $192 million. We closed $2.918 billion of TCV bookings up 6% year-over-year. Net dollar retention was 165%, an increase of 800 basis points from last quarter. We ended the third quarter with $13.4 billion in total remaining deal value,",
+   "parts": [
+    {
+     "t0_ms": 1101220,
+     "text": "16% sequentially to $1.146 billion, crossing the billion-dollar mark for the first time."
+    },
+    {
+     "t0_ms": 1107480,
+     "text": "Third-quarter U.S. government revenue grew 96% year-over-year and 18% sequentially to $953 million."
+    },
+    {
+     "t0_ms": 1114360,
+     "text": "This growth was driven by continued execution in existing programs and new awards reflecting"
+    },
+    {
+     "t0_ms": 1119140,
+     "text": "growing demand for our AI platform and government. Third-quarter international government revenue"
+    },
+    {
+     "t0_ms": 1124320,
+     "text": "grew in 31% year-over-year and 6% sequentially to $192 million."
+    },
+    {
+     "t0_ms": 1129660,
+     "text": "We closed $2.918 billion of TCV bookings up 6% year-over-year."
+    },
+    {
+     "t0_ms": 1135540,
+     "text": "Net dollar retention was 165%,"
+    },
+    {
+     "t0_ms": 1138000,
+     "text": "an increase of 800 basis points from last quarter."
+    },
+    {
+     "t0_ms": 1141260,
+     "text": "We ended the third quarter with $13.4 billion in total remaining deal value,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1145780,
+   "t1_ms": 1186380,
+   "speaker": "Management",
+   "text": "an increase of 55% year-over-year and 2% sequentially, and $4.9 billion in remaining performance obligations, an increase of 88% year-over-year and flat sequentially. As a reminder, RPO is primarily comprised of our commercial business, as it does not take into account contracts with an initial term of less than 12 months and contractual obligations that fall beyond termination for convenience clauses, both of which are common in most of our government business. Turning to margin and expense. Adjusted gross margin, which excludes stock-based compensation expense, was 85% for the quarter. Adjusted income from operations, which excludes stock-based compensation expense in related employer payroll taxes was $1.427 billion in the third quarter, representing",
+   "parts": [
+    {
+     "t0_ms": 1145780,
+     "text": "an increase of 55% year-over-year and 2% sequentially,"
+    },
+    {
+     "t0_ms": 1149060,
+     "text": "and $4.9 billion in remaining performance obligations,"
+    },
+    {
+     "t0_ms": 1151720,
+     "text": "an increase of 88% year-over-year and flat sequentially."
+    },
+    {
+     "t0_ms": 1156160,
+     "text": "As a reminder, RPO is primarily comprised of our commercial business,"
+    },
+    {
+     "t0_ms": 1159420,
+     "text": "as it does not take into account contracts with an initial term of less than 12 months"
+    },
+    {
+     "t0_ms": 1162680,
+     "text": "and contractual obligations that fall beyond termination for convenience clauses,"
+    },
+    {
+     "t0_ms": 1166900,
+     "text": "both of which are common in most of our government business."
+    },
+    {
+     "t0_ms": 1170160,
+     "text": "Turning to margin and expense."
+    },
+    {
+     "t0_ms": 1172060,
+     "text": "Adjusted gross margin, which excludes stock-based compensation expense, was 85% for the quarter."
+    },
+    {
+     "t0_ms": 1177520,
+     "text": "Adjusted income from operations, which excludes stock-based compensation expense"
+    },
+    {
+     "t0_ms": 1181280,
+     "text": "in related employer payroll taxes was $1.427 billion in the third quarter, representing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1186380,
+   "t1_ms": 1226540,
+   "speaker": "Management",
+   "text": "adjusted operating margin of 62%. Q3 adjusted expense was $887 million, up 20% sequentially and 53% year-over-year, primarily driven by the continued investment in our AI platform and technical hiring as we welcomed our latest class of new grad hires. We remain committed to investing in the most elite technical talent, as well as R&D for our product pipeline and sovereign AI efforts, all while delivering on our goals of sustained gap profitability. Third quarter gap operating income was $1.085 billion, representing a 47% margin and surpassing the billion-dollar mark for the first time. Third quarter gap net income was $1.128 billion, representing a 49% margin.",
+   "parts": [
+    {
+     "t0_ms": 1186380,
+     "text": "adjusted operating margin of 62%. Q3 adjusted expense was $887 million, up 20% sequentially"
+    },
+    {
+     "t0_ms": 1193180,
+     "text": "and 53% year-over-year, primarily driven by the continued investment in our AI platform"
+    },
+    {
+     "t0_ms": 1197800,
+     "text": "and technical hiring as we welcomed our latest class of new grad hires. We remain committed"
+    },
+    {
+     "t0_ms": 1203000,
+     "text": "to investing in the most elite technical talent, as well as R&D for our product pipeline and"
+    },
+    {
+     "t0_ms": 1207160,
+     "text": "sovereign AI efforts, all while delivering on our goals of sustained gap profitability."
+    },
+    {
+     "t0_ms": 1212020,
+     "text": "Third quarter gap operating income was $1.085 billion, representing a 47% margin and surpassing the billion-dollar mark for the first time."
+    },
+    {
+     "t0_ms": 1221700,
+     "text": "Third quarter gap net income was $1.128 billion, representing a 49% margin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1227520,
+   "t1_ms": 1268380,
+   "speaker": "Management",
+   "text": "Net income has increased nearly eight-fold over the last 24 months, from $144 million in the third quarter of 2024. Third-quarter stock-based compensation expense was $319 million, and equity-related employer payroll tax expense was $23 million. Third-quarter gap earnings per share was $0.44. Third-quarter adjusted earnings per share was $0.44. Additionally, our combined revenue growth and adjusted operating margin accelerated to 158% in the third quarter, a three-point increase to our Rule of 40 score from the prior quarter and our 13th consecutive quarter of an expanding Rule of 40 score. Turning to our cash flow. In the third quarter, we generated $1.205 billion in",
+   "parts": [
+    {
+     "t0_ms": 1227520,
+     "text": "Net income has increased nearly eight-fold over the last 24 months, from $144 million in the third quarter of 2024."
+    },
+    {
+     "t0_ms": 1233380,
+     "text": "Third-quarter stock-based compensation expense was $319 million, and equity-related employer"
+    },
+    {
+     "t0_ms": 1239880,
+     "text": "payroll tax expense was $23 million. Third-quarter gap earnings per share was $0.44. Third-quarter"
+    },
+    {
+     "t0_ms": 1246300,
+     "text": "adjusted earnings per share was $0.44. Additionally, our combined revenue growth"
+    },
+    {
+     "t0_ms": 1251200,
+     "text": "and adjusted operating margin accelerated to 158% in the third quarter, a three-point increase to"
+    },
+    {
+     "t0_ms": 1256520,
+     "text": "our Rule of 40 score from the prior quarter and our 13th consecutive quarter of an expanding Rule"
+    },
+    {
+     "t0_ms": 1261100,
+     "text": "of 40 score. Turning to our cash flow. In the third quarter, we generated $1.205 billion in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1268380,
+   "t1_ms": 1312340,
+   "speaker": "Management",
+   "text": "cash from operations and $1.216 billion in adjusted free cash flow, representing margins of 52% and 53% respectively. We ended the quarter with $10.4 billion in cash, cash equivalents, and U.S. Treasury securities. Now turning to our outlook. For Q4 2026, we expect revenue of between $2.649 and $2.653 billion, and adjusted income from operations of between $1.640 and $1.644 billion. For full year 2026, we are raising our revenue guidance to between $8.530 and $8.534 billion. We are raising our U.S. commercial revenue guidance to in excess of $3.559 billion,",
+   "parts": [
+    {
+     "t0_ms": 1268380,
+     "text": "cash from operations and $1.216 billion in adjusted free cash flow, representing margins"
+    },
+    {
+     "t0_ms": 1274040,
+     "text": "of 52% and 53% respectively. We ended the quarter with $10.4 billion in cash, cash equivalents,"
+    },
+    {
+     "t0_ms": 1281120,
+     "text": "and U.S. Treasury securities. Now turning to our outlook. For Q4 2026, we expect revenue of between"
+    },
+    {
+     "t0_ms": 1288820,
+     "text": "$2.649 and $2.653 billion, and adjusted income from operations of between $1.640 and $1.644"
+    },
+    {
+     "t0_ms": 1298500,
+     "text": "billion. For full year 2026, we are raising our revenue guidance to between $8.530 and $8.534"
+    },
+    {
+     "t0_ms": 1306920,
+     "text": "billion. We are raising our U.S. commercial revenue guidance to in excess of $3.559 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1312760,
+   "t1_ms": 1352100,
+   "speaker": "Management",
+   "text": "representing a growth rate of at least 143%. We are raising our adjusted income from operations guidance to between $5.245 and $5.249 billion. We're raising our adjusted free cash flow guidance to between $4.8 and $5 billion. And we continue to expect gap property income and income in each quarter of this year. With that, I'll turn it over to Alex for a few remarks, and then Ana will kick off the Q&A. Welcome to our earnings call. And, you know, I think for many, many years, our earnings calls were really about our earnings. Now it is the focal point of tech society and",
+   "parts": [
+    {
+     "t0_ms": 1312760,
+     "text": "representing a growth rate of at least 143%. We are raising our adjusted income from operations"
+    },
+    {
+     "t0_ms": 1317560,
+     "text": "guidance to between $5.245 and $5.249 billion. We're raising our adjusted free cash flow guidance"
+    },
+    {
+     "t0_ms": 1324940,
+     "text": "to between $4.8 and $5 billion. And we continue to expect gap property income and income in each"
+    },
+    {
+     "t0_ms": 1331040,
+     "text": "quarter of this year. With that, I'll turn it over to Alex for a few remarks, and then Ana will kick"
+    },
+    {
+     "t0_ms": 1335820,
+     "text": "off the Q&A. Welcome to our earnings call. And, you know, I think for many, many years,"
+    },
+    {
+     "t0_ms": 1344740,
+     "text": "our earnings calls were really about our earnings. Now it is the focal point of tech society and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1352100,
+   "t1_ms": 1390260,
+   "speaker": "Management",
+   "text": "general trends. And I think many, if not most people who are watching this, and it is by far the most watched earnings call in the world. It's the one where people come to figure out what's going on on the ground floor. And given that AI and sovereign AI is changing the universe, in our case for tremendous good and is showing up in our numbers, people really want to have a sense of, well, what is actually happening in the world politically, sociologically, anthropologically, and, of course, financially. So, you know, given that demand and interest",
+   "parts": [
+    {
+     "t0_ms": 1352100,
+     "text": "general trends. And I think many, if not most people who are watching this, and it is by far"
+    },
+    {
+     "t0_ms": 1359520,
+     "text": "the most watched earnings call in the world. It's the one where people come to figure out what's"
+    },
+    {
+     "t0_ms": 1364040,
+     "text": "going on on the ground floor. And given that AI and sovereign AI is changing the universe,"
+    },
+    {
+     "t0_ms": 1370420,
+     "text": "in our case for tremendous good and is showing up in our numbers, people really want to have a"
+    },
+    {
+     "t0_ms": 1378100,
+     "text": "sense of, well, what is actually happening in the world politically, sociologically,"
+    },
+    {
+     "t0_ms": 1382800,
+     "text": "anthropologically, and, of course, financially. So, you know, given that demand and interest"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1390260,
+   "t1_ms": 1434140,
+   "speaker": "Management",
+   "text": "in Palantir and the reality that this moment has become a real focal point of understanding, And quite frankly, many investors watching this are watching it to figure out what's going on with their investments and not even primarily Palantir. And so there's this larger question of what does it mean to have a business that was built around what we believed and believe now is the most important mission in the world, supporting our warfighters, bringing them home, where even as much, even a year ago, two years ago, that people even involved inside Palantir viewed the core value of our business economically, as Glazer would look at it. And quite frankly, you know, in a very helpful way, he's the force",
+   "parts": [
+    {
+     "t0_ms": 1390260,
+     "text": "in Palantir and the reality that this moment has become a real focal point of understanding,"
+    },
+    {
+     "t0_ms": 1397600,
+     "text": "And quite frankly, many investors watching this are watching it to figure out what's going on with their investments and not even primarily Palantir."
+    },
+    {
+     "t0_ms": 1406620,
+     "text": "And so there's this larger question of what does it mean to have a business that was built around what we believed and believe now is the most important mission in the world,"
+    },
+    {
+     "t0_ms": 1416740,
+     "text": "supporting our warfighters, bringing them home, where even as much, even a year ago, two years ago,"
+    },
+    {
+     "t0_ms": 1423420,
+     "text": "that people even involved inside Palantir viewed the core value of our business economically,"
+    },
+    {
+     "t0_ms": 1428840,
+     "text": "as Glazer would look at it. And quite frankly, you know, in a very helpful way, he's the force"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1434140,
+   "t1_ms": 1478140,
+   "speaker": "Management",
+   "text": "of greed. You know, Glazer's view of our business was, could you talk a little more about commercial over the past year \u2013 the past couple of years. And in this quarter, our commercial business eclipsed our government business. And in fact, the market value of that is probably \u2013 justifies our current valuation given we're growing at 90 \u2013 our aggregate business is growing at 96 percent. The juggernaut of U.S. commercial \u2013 I mean these numbers are so far outside the bounds of what you could, I mean, outside the bounds of what even the most optimistic people could think a business like ours could do, while maintaining a way of going to market that",
+   "parts": [
+    {
+     "t0_ms": 1434140,
+     "text": "of greed. You know, Glazer's view of our business was, could you talk a little more about commercial"
+    },
+    {
+     "t0_ms": 1439960,
+     "text": "over the past year \u2013 the past couple of years."
+    },
+    {
+     "t0_ms": 1443200,
+     "text": "And in this quarter, our commercial business eclipsed our government business."
+    },
+    {
+     "t0_ms": 1450500,
+     "text": "And in fact, the market value of that is probably \u2013 justifies our current valuation"
+    },
+    {
+     "t0_ms": 1457200,
+     "text": "given we're growing at 90 \u2013 our aggregate business is growing at 96 percent."
+    },
+    {
+     "t0_ms": 1461800,
+     "text": "The juggernaut of U.S. commercial \u2013 I mean these numbers are so far outside the bounds"
+    },
+    {
+     "t0_ms": 1467600,
+     "text": "of what you could, I mean, outside the bounds of what even the most optimistic people could"
+    },
+    {
+     "t0_ms": 1473260,
+     "text": "think a business like ours could do, while maintaining a way of going to market that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1478140,
+   "t1_ms": 1522060,
+   "speaker": "Management",
+   "text": "is completely Syria-generous. We have products that are unique. We have ways of going to the market that are unique. We were the leader of a revolution that was in front of us, but none of us really were able to put our name on the sovereign revolution, meaning people need to understand how AI can create value, how you can create value out of tokens, how you can keep the value of your own alpha, how is it not transferred to anyone else, and how can you expand it? That revolution, of course, is happening in America. And then these out-of-bounds results, of which we're a metaphor, really show you the future is becoming the present, and the present is now. You see it in Europe, which, you know, it's been half my life, and at this point we should kind of avoid talking about it because of what's going on, and it doesn't help to just",
+   "parts": [
+    {
+     "t0_ms": 1478140,
+     "text": "is completely Syria-generous."
+    },
+    {
+     "t0_ms": 1480580,
+     "text": "We have products that are unique."
+    },
+    {
+     "t0_ms": 1482600,
+     "text": "We have ways of going to the market that are unique."
+    },
+    {
+     "t0_ms": 1484480,
+     "text": "We were the leader of a revolution that was in front of us, but none of us really were"
+    },
+    {
+     "t0_ms": 1489360,
+     "text": "able to put our name on the sovereign revolution, meaning people need to understand how AI can"
+    },
+    {
+     "t0_ms": 1494900,
+     "text": "create value, how you can create value out of tokens, how you can keep the value of your"
+    },
+    {
+     "t0_ms": 1499020,
+     "text": "own alpha, how is it not transferred to anyone else, and how can you expand it?"
+    },
+    {
+     "t0_ms": 1503360,
+     "text": "That revolution, of course, is happening in America."
+    },
+    {
+     "t0_ms": 1506520,
+     "text": "And then these out-of-bounds results, of which we're a metaphor, really show you the future"
+    },
+    {
+     "t0_ms": 1511460,
+     "text": "is becoming the present, and the present is now."
+    },
+    {
+     "t0_ms": 1513780,
+     "text": "You see it in Europe, which, you know, it's been half my life, and at this point we should"
+    },
+    {
+     "t0_ms": 1517780,
+     "text": "kind of avoid talking about it because of what's going on, and it doesn't help to just"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1522060,
+   "t1_ms": 1561880,
+   "speaker": "Management",
+   "text": "stamp on them. But you see it across America. You see the reaction to AI. You see the polarization politically. It's because all the value in the market is actually moving to the vehicles, in this case Palantir, and really very few others, Anthropic, OpenAI, us, others, that where you can actually make a claim that there is some value creation. Again, it's so extreme that a business that was viewed as a nice-to-have part of our business as late as three years ago is now the dominant part of our business. That business grew 29 percent quarter-on-quarter.",
+   "parts": [
+    {
+     "t0_ms": 1522060,
+     "text": "stamp on them."
+    },
+    {
+     "t0_ms": 1523220,
+     "text": "But you see it across America."
+    },
+    {
+     "t0_ms": 1525340,
+     "text": "You see the reaction to AI."
+    },
+    {
+     "t0_ms": 1526920,
+     "text": "You see the polarization politically."
+    },
+    {
+     "t0_ms": 1529100,
+     "text": "It's because all the value in the market is actually moving to the vehicles, in this case Palantir, and really very few others, Anthropic, OpenAI, us, others, that where you can actually make a claim that there is some value creation."
+    },
+    {
+     "t0_ms": 1545880,
+     "text": "Again, it's so extreme that a business that was viewed as a nice-to-have part of our business as late as three years ago is now the dominant part of our business."
+    },
+    {
+     "t0_ms": 1558920,
+     "text": "That business grew 29 percent quarter-on-quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1562680,
+   "t1_ms": 1603280,
+   "speaker": "Management",
+   "text": "It's almost at 150 percent growth, and it's dragging our U.S. growth number over 100 percent. These are just \u2013 and we did this while attacking the market the way we attack it, very few salespeople, an impossible way to understand how we're capturing this juggernaut unless you view it as a completely new and different moment. And so when people are watching this, what is happening in the market? What is happening in our society? It really is the case that the playbook, the products, the way of going to market do not work in most cases, but the things that do just spring alive.",
+   "parts": [
+    {
+     "t0_ms": 1562680,
+     "text": "It's almost at 150 percent growth, and it's dragging our U.S. growth number over 100 percent."
+    },
+    {
+     "t0_ms": 1570700,
+     "text": "These are just \u2013 and we did this while attacking the market the way we attack it, very few salespeople, an impossible way to understand how we're capturing this juggernaut unless you view it as a completely new and different moment."
+    },
+    {
+     "t0_ms": 1586900,
+     "text": "And so when people are watching this, what is happening in the market?"
+    },
+    {
+     "t0_ms": 1590920,
+     "text": "What is happening in our society?"
+    },
+    {
+     "t0_ms": 1592920,
+     "text": "It really is the case that the playbook, the products, the way of going to market do not work in most cases, but the things that do just spring alive."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1603900,
+   "t1_ms": 1641800,
+   "speaker": "Management",
+   "text": "And, you know, our somewhat crazy aspiration to take the whole market doesn't look that crazy right now. You know, and, you know, we believe at this company and many of the people watching it, we do not only have a financial reason for taking the whole market, which Glazer is salivating at. We, on the mission side, we believe we have a mission reason for taking the market. And that mission reason is we support your alpha. We support your sovereignty. We've done this for over 20 years. We support the warfighter. We are delighted that we can support the warfighter even more because we're making so much money.",
+   "parts": [
+    {
+     "t0_ms": 1603900,
+     "text": "And, you know, our somewhat crazy aspiration to take the whole market doesn't look that crazy right now."
+    },
+    {
+     "t0_ms": 1610940,
+     "text": "You know, and, you know, we believe at this company and many of the people watching it, we do not only have a financial reason for taking the whole market, which Glazer is salivating at."
+    },
+    {
+     "t0_ms": 1622820,
+     "text": "We, on the mission side, we believe we have a mission reason for taking the market."
+    },
+    {
+     "t0_ms": 1627220,
+     "text": "And that mission reason is we support your alpha."
+    },
+    {
+     "t0_ms": 1631460,
+     "text": "We support your sovereignty."
+    },
+    {
+     "t0_ms": 1633020,
+     "text": "We've done this for over 20 years."
+    },
+    {
+     "t0_ms": 1635820,
+     "text": "We support the warfighter."
+    },
+    {
+     "t0_ms": 1637160,
+     "text": "We are delighted that we can support the warfighter even more because we're making so much money."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1642240,
+   "t1_ms": 1686760,
+   "speaker": "Management",
+   "text": "But we believe we have a moral imperative to be the dominant player in our industry, broadly defined, including all AI applications and the use of model open and closed, especially training open weight models. And that moral imperative drives every part of our business. The interesting thing about the internal dynamic of our business, it's not only that the sum of the parts in our business is stronger. That's obvious, 96 percent growth. Look at our rule of 40. It's 158. It's almost like jaw-dropping. But we \u2013 the parts of our business, the individual parts, the parts that the people at this company are running, those parts are stronger than they were before, every part.",
+   "parts": [
+    {
+     "t0_ms": 1642240,
+     "text": "But we believe we have a moral imperative to be the dominant player in our industry, broadly defined, including all AI applications and the use of model open and closed, especially training open weight models."
+    },
+    {
+     "t0_ms": 1657200,
+     "text": "And that moral imperative drives every part of our business."
+    },
+    {
+     "t0_ms": 1660860,
+     "text": "The interesting thing about the internal dynamic of our business, it's not only that the sum of the parts in our business is stronger."
+    },
+    {
+     "t0_ms": 1667500,
+     "text": "That's obvious, 96 percent growth."
+    },
+    {
+     "t0_ms": 1671200,
+     "text": "Look at our rule of 40."
+    },
+    {
+     "t0_ms": 1673260,
+     "text": "It's 158."
+    },
+    {
+     "t0_ms": 1674740,
+     "text": "It's almost like jaw-dropping."
+    },
+    {
+     "t0_ms": 1676940,
+     "text": "But we \u2013 the parts of our business, the individual parts, the parts that the people at this company are running, those parts are stronger than they were before, every part."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1687260,
+   "t1_ms": 1724520,
+   "speaker": "Management",
+   "text": "And that's what you're seeing in these numbers, and arguably for most people watching that, that's what you're seeing in broader society. And this move from the future to the present is the reason why many of the classical approaches to business, there was an idea they were going to fail in five years. That doesn't work. You have to execute now and in the present. And this company, Palantir, and everyone involved and all the people watching this who are on our side, of which there are many, many people, are part of that movement. And that's why we're so really happy and, honestly, quite optimistic about the future, especially in the U.S.",
+   "parts": [
+    {
+     "t0_ms": 1687260,
+     "text": "And that's what you're seeing in these numbers, and arguably for most people watching that, that's what you're seeing in broader society."
+    },
+    {
+     "t0_ms": 1694660,
+     "text": "And this move from the future to the present is the reason why many of the classical approaches to business, there was an idea they were going to fail in five years."
+    },
+    {
+     "t0_ms": 1704460,
+     "text": "That doesn't work."
+    },
+    {
+     "t0_ms": 1705380,
+     "text": "You have to execute now and in the present."
+    },
+    {
+     "t0_ms": 1707340,
+     "text": "And this company, Palantir, and everyone involved and all the people watching this who are on our side, of which there are many, many people, are part of that movement."
+    },
+    {
+     "t0_ms": 1716760,
+     "text": "And that's why we're so really happy and, honestly, quite optimistic about the future, especially in the U.S."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1725960,
+   "t1_ms": 1732700,
+   "speaker": "Operator",
+   "text": "Thanks, Alex. Our first question is from Dan with Yorkville Ives. Dan, please turn on your camera, and then you'll receive a prompt to unmute your line.",
+   "parts": [
+    {
+     "t0_ms": 1725960,
+     "text": "Thanks, Alex."
+    },
+    {
+     "t0_ms": 1727180,
+     "text": "Our first question is from Dan with Yorkville Ives."
+    },
+    {
+     "t0_ms": 1729660,
+     "text": "Dan, please turn on your camera, and then you'll receive a prompt to unmute your line."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1734920,
+   "t1_ms": 1766920,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks. And obviously just another phenomenal quarter. So my question is, with the Sovereignty AI bootcamps, I mean, I've been to a few. It seems like they're really becoming huge for converting customers. Can you just walk through, like Alex, you talk to so many of these customers. Do they come into a boot camp, they're trying to understand their AI path, and then they leave, and they're actually a customer? Can you just walk through, like, just from your perspective?",
+   "parts": [
+    {
+     "t0_ms": 1734920,
+     "text": "Yeah, thanks."
+    },
+    {
+     "t0_ms": 1735860,
+     "text": "And obviously just another phenomenal quarter."
+    },
+    {
+     "t0_ms": 1738620,
+     "text": "So my question is, with the Sovereignty AI bootcamps, I mean, I've been to a few."
+    },
+    {
+     "t0_ms": 1744220,
+     "text": "It seems like they're really becoming huge for converting customers."
+    },
+    {
+     "t0_ms": 1749180,
+     "text": "Can you just walk through, like Alex, you talk to so many of these customers."
+    },
+    {
+     "t0_ms": 1755100,
+     "text": "Do they come into a boot camp, they're trying to understand their AI path, and then they leave, and they're actually a customer?"
+    },
+    {
+     "t0_ms": 1763860,
+     "text": "Can you just walk through, like, just from your perspective?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1766920,
+   "t1_ms": 1809520,
+   "speaker": "Management",
+   "text": "Well, you know, I mean what's really shifted on the front line is like there used to be this long walk-up to people like talking to us and then you do a pilot and then you try to get a long pilot and then you kind of lock that in because the same way you lock in like hire all these salespeople so that the market believes you're going to have sales kind of thing. Now it's much more \u2013 people are \u2013 it's super heterogeneous. So some people \u2013 everybody basically comes in on the spectrum of what I have doesn't work now. and I've heard what you have does work. That's usually where it starts. They also strongly believe and are quite tired of what they believe their reality is. My IP is in danger and I'm getting no value.",
+   "parts": [
+    {
+     "t0_ms": 1766920,
+     "text": "Well, you know, I mean what's really shifted on the front line is like there used to be this long walk-up to people like talking to us and then you do a pilot and then you try to get a long pilot and then you kind of lock that in because the same way you lock in like hire all these salespeople so that the market believes you're going to have sales kind of thing."
+    },
+    {
+     "t0_ms": 1787700,
+     "text": "Now it's much more \u2013 people are \u2013 it's super heterogeneous."
+    },
+    {
+     "t0_ms": 1791500,
+     "text": "So some people \u2013 everybody basically comes in on the spectrum of what I have doesn't work now."
+    },
+    {
+     "t0_ms": 1796400,
+     "text": "and I've heard what you have does work."
+    },
+    {
+     "t0_ms": 1798780,
+     "text": "That's usually where it starts."
+    },
+    {
+     "t0_ms": 1800600,
+     "text": "They also strongly believe and are quite tired of what they believe their reality is."
+    },
+    {
+     "t0_ms": 1806680,
+     "text": "My IP is in danger and I'm getting no value."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1810160,
+   "t1_ms": 1845940,
+   "speaker": "Management",
+   "text": "And this is \u2013 when we started talking about sovereignty, this was kind of an \u2013 this was something that was being expressed. They felt, but they didn't know how to articulate. Now it's something they articulate and they've gone from anger to action. Like it's like, you know, it's like they've gone from thinking, hey, I'm not in a great marriage to I'm at the divorce. And like they come and then what's very special now is they're surrounded by people who've had the same journey. And the timeline from interaction to them buying pilots or going into production is completely shifted.",
+   "parts": [
+    {
+     "t0_ms": 1810160,
+     "text": "And this is \u2013 when we started talking about sovereignty, this was kind of an \u2013"
+    },
+    {
+     "t0_ms": 1813740,
+     "text": "this was something that was being expressed."
+    },
+    {
+     "t0_ms": 1816320,
+     "text": "They felt, but they didn't know how to articulate."
+    },
+    {
+     "t0_ms": 1818360,
+     "text": "Now it's something they articulate and they've gone from anger to action."
+    },
+    {
+     "t0_ms": 1823300,
+     "text": "Like it's like, you know, it's like they've gone from thinking, hey, I'm not in a great marriage to I'm at the divorce."
+    },
+    {
+     "t0_ms": 1828900,
+     "text": "And like they come and then what's very special now is they're surrounded by people who've had the same journey."
+    },
+    {
+     "t0_ms": 1837900,
+     "text": "And the timeline from interaction to them buying pilots or going into production is completely shifted."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1845940,
+   "t1_ms": 1881400,
+   "speaker": "Management",
+   "text": "And so what, like, Ryan and I are seeing on the front line in commercial is, you know, this much quicker interaction, much quicker to deployment, shorter duration of the contract, but then an ability to expand that contract dramatically. Because as soon as you go in there and you show them that you can, for example, train open-weight models in our ontology, those models are valuable, and you have beyond frontier capacity without losing the alpha, you just are hooked. What we have to do internally is figure out how to re-resource our company to focus exclusively on those people because we don't have even the bandwidth to do that.",
+   "parts": [
+    {
+     "t0_ms": 1845940,
+     "text": "And so what, like, Ryan and I are seeing on the front line in commercial is, you know, this much quicker interaction, much quicker to deployment, shorter duration of the contract, but then an ability to expand that contract dramatically."
+    },
+    {
+     "t0_ms": 1858520,
+     "text": "Because as soon as you go in there and you show them that you can, for example, train open-weight models in our ontology, those models are valuable, and you have beyond frontier capacity without losing the alpha, you just are hooked."
+    },
+    {
+     "t0_ms": 1872500,
+     "text": "What we have to do internally is figure out how to re-resource our company to focus exclusively on those people because we don't have even the bandwidth to do that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1882040,
+   "t1_ms": 1922620,
+   "speaker": "Management",
+   "text": "So \u2013 but that's because like every single time we go into the conference, like in the past, you would be \u2013 we go into conference and people are like warm leads turn into hot leads. This is like first date into bed kind of thing. Maybe that's not the right metaphor for this, but it's like \u2013 it's a very different jam. It's like we've gone from being the most attractive person in the physics department to being the captain of the football team kind of thing. I mean not that I did that, but this is like a completely different jam of like what's going on. And then it's also different on our end because we know we can deliver on use cases no one else can deliver on.",
+   "parts": [
+    {
+     "t0_ms": 1882040,
+     "text": "So \u2013 but that's because like every single time we go into the conference, like in the past, you would be \u2013 we go into conference and people are like warm leads turn into hot leads."
+    },
+    {
+     "t0_ms": 1892080,
+     "text": "This is like first date into bed kind of thing."
+    },
+    {
+     "t0_ms": 1896160,
+     "text": "Maybe that's not the right metaphor for this, but it's like \u2013 it's a very different jam."
+    },
+    {
+     "t0_ms": 1901180,
+     "text": "It's like we've gone from being the most attractive person in the physics department to being the captain of the football team kind of thing."
+    },
+    {
+     "t0_ms": 1909900,
+     "text": "I mean not that I did that, but this is like a completely different jam of like what's going on."
+    },
+    {
+     "t0_ms": 1916820,
+     "text": "And then it's also different on our end because we know we can deliver on use cases no one else can deliver on."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1922940,
+   "t1_ms": 1967260,
+   "speaker": "Management",
+   "text": "So like even today, we're going over use case after use case with like a super \u2013 like one of the most important companies, and I'm going to go see them. And basically it's like I'm going to \u2013 instead of saying, hey, let's just get started, you have this crucial problem for your business. We know we can deliver on this in weeks. This will change the trajectory of your business. And in a weird way, it's much, much closer to what we were doing in the beginning in the US government where we were like, hey, we're just going to get started. We knew we could prove it with PG and then we \u2013 but it's like at a much more massive scale. So instead of being like $250K, it's like $25 million to start. And honestly, the general vibe is if this actually works, it's worth of infinite value, and it will work.",
+   "parts": [
+    {
+     "t0_ms": 1922940,
+     "text": "So like even today, we're going over use case after use case with like a super \u2013 like one of the most important companies, and I'm going to go see them."
+    },
+    {
+     "t0_ms": 1929860,
+     "text": "And basically it's like I'm going to \u2013 instead of saying, hey, let's just get started, you have this crucial problem for your business."
+    },
+    {
+     "t0_ms": 1937380,
+     "text": "We know we can deliver on this in weeks."
+    },
+    {
+     "t0_ms": 1940200,
+     "text": "This will change the trajectory of your business."
+    },
+    {
+     "t0_ms": 1942660,
+     "text": "And in a weird way, it's much, much closer to what we were doing in the beginning in the US government where we were like, hey, we're just going to get started."
+    },
+    {
+     "t0_ms": 1951000,
+     "text": "We knew we could prove it with PG and then we \u2013 but it's like at a much more massive scale."
+    },
+    {
+     "t0_ms": 1956580,
+     "text": "So instead of being like $250K, it's like $25 million to start."
+    },
+    {
+     "t0_ms": 1961700,
+     "text": "And honestly, the general vibe is if this actually works, it's worth of infinite value, and it will work."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1967900,
+   "t1_ms": 2009620,
+   "speaker": "Management",
+   "text": "And quite frankly, I do not see how other offerings are going to work because this is both product and artistry. That's why these numbers are so bombastic. It's not like some static \u2013 like when Shams is on the front line doing implementations or Ryan is structuring these \u2013 I mean Ryan was so busy the last couple of days of last quarter. He couldn't get out of his car. We were like \u2013 I was about to send over a bottle so he could like take care of nature. It was like \u2013 it's like that on the front line. I'm not even \u2013 I'm not exaggerating. It's like \u2013 I'm like Ryan was on his way to work and like he had to pull over. He drives a fancy car. I mean look at that.",
+   "parts": [
+    {
+     "t0_ms": 1967900,
+     "text": "And quite frankly, I do not see how other offerings are going to work because this is both product and artistry."
+    },
+    {
+     "t0_ms": 1976880,
+     "text": "That's why these numbers are so bombastic."
+    },
+    {
+     "t0_ms": 1978780,
+     "text": "It's not like some static \u2013 like when Shams is on the front line doing implementations or Ryan is structuring these \u2013 I mean Ryan was so busy the last couple of days of last quarter."
+    },
+    {
+     "t0_ms": 1990580,
+     "text": "He couldn't get out of his car."
+    },
+    {
+     "t0_ms": 1992100,
+     "text": "We were like \u2013 I was about to send over a bottle so he could like take care of nature."
+    },
+    {
+     "t0_ms": 1997800,
+     "text": "It was like \u2013 it's like that on the front line."
+    },
+    {
+     "t0_ms": 2000780,
+     "text": "I'm not even \u2013 I'm not exaggerating."
+    },
+    {
+     "t0_ms": 2003000,
+     "text": "It's like \u2013 I'm like Ryan was on his way to work and like he had to pull over."
+    },
+    {
+     "t0_ms": 2007920,
+     "text": "He drives a fancy car."
+    },
+    {
+     "t0_ms": 2009080,
+     "text": "I mean look at that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2009960,
+   "t1_ms": 2053260,
+   "speaker": "Management",
+   "text": "But it's \u2013 but he literally had to pull over and that's just what's going on. And it \u2013 but again, I know like the primary focus of your interest here is financial. But there's the flip side. The other stuff is not working. That's part of \u2013 it's not just that our thing is unique. There's a very strong sense in the market that these other approaches, fake deploy codes, token raw usage, lightweight companies reselling tokens, software companies that are reselling tokens and it counts as revenue. People are just tired of it. And I'll tell you, last not least, the taste of the market is shifting.",
+   "parts": [
+    {
+     "t0_ms": 2009960,
+     "text": "But it's \u2013 but he literally had to pull over and that's just what's going on."
+    },
+    {
+     "t0_ms": 2016760,
+     "text": "And it \u2013 but again, I know like the primary focus of your interest here is financial."
+    },
+    {
+     "t0_ms": 2023080,
+     "text": "But there's the flip side."
+    },
+    {
+     "t0_ms": 2024600,
+     "text": "The other stuff is not working."
+    },
+    {
+     "t0_ms": 2026140,
+     "text": "That's part of \u2013 it's not just that our thing is unique."
+    },
+    {
+     "t0_ms": 2029060,
+     "text": "There's a very strong sense in the market that these other approaches, fake deploy codes, token raw usage, lightweight companies reselling tokens, software companies that are reselling tokens and it counts as revenue."
+    },
+    {
+     "t0_ms": 2047940,
+     "text": "People are just tired of it."
+    },
+    {
+     "t0_ms": 2050060,
+     "text": "And I'll tell you, last not least, the taste of the market is shifting."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2053800,
+   "t1_ms": 2076400,
+   "speaker": "Management",
+   "text": "Like people really do grow to like what works. I mean, look at the success in the Department of War. You know, it's like that was it. We shifted the taste. That's what's happening in U.S. Com. That's what's explaining the numbers. And that's what if you like people watching this, you should come. You should come to one of our, you know, AIP sovereign. You know, it's a little bit like a rock concert.",
+   "parts": [
+    {
+     "t0_ms": 2053800,
+     "text": "Like people really do grow to like what works."
+    },
+    {
+     "t0_ms": 2057920,
+     "text": "I mean, look at the success in the Department of War."
+    },
+    {
+     "t0_ms": 2061580,
+     "text": "You know, it's like that was it."
+    },
+    {
+     "t0_ms": 2063060,
+     "text": "We shifted the taste."
+    },
+    {
+     "t0_ms": 2064679,
+     "text": "That's what's happening in U.S."
+    },
+    {
+     "t0_ms": 2065739,
+     "text": "Com."
+    },
+    {
+     "t0_ms": 2065980,
+     "text": "That's what's explaining the numbers."
+    },
+    {
+     "t0_ms": 2067620,
+     "text": "And that's what if you like people watching this, you should come."
+    },
+    {
+     "t0_ms": 2069900,
+     "text": "You should come to one of our, you know, AIP sovereign."
+    },
+    {
+     "t0_ms": 2073179,
+     "text": "You know, it's a little bit like a rock concert."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2080540,
+   "t1_ms": 2086880,
+   "speaker": "Operator",
+   "text": "Thank you. Our next question is from Gil with D.A. Davidson. Gil, please turn on your camera and then you'll receive a prompt to unmute your line.",
+   "parts": [
+    {
+     "t0_ms": 2080540,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2081199,
+     "text": "Our next question is from Gil with D.A."
+    },
+    {
+     "t0_ms": 2083179,
+     "text": "Davidson."
+    },
+    {
+     "t0_ms": 2083960,
+     "text": "Gil, please turn on your camera and then you'll receive a prompt to unmute your line."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2089130,
+   "t1_ms": 2133930,
+   "speaker": "Analyst",
+   "text": "Thank you. Good afternoon. I want to build on that conversation you had with Dan. You talked to him about one type of CEO, the one that comes to you with an urgency around sovereignty. But as reading the Anthropic S1 will tell us, about half of their customers work directly with Anthropic. So when you have a CEO, which means there's a lot of CEOs that haven't gotten the message. To your point, you're in the first inning of this conversation. When you get a CEO that's still unconvinced, what kind of analogies and metaphors can you use to help them understand the importance of this diffusion layer, orchestration, harnesses coming from you and not directly from the lab? What kind of examples do you have to provide them to understand the risk?",
+   "parts": [
+    {
+     "t0_ms": 2089130,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2089750,
+     "text": "Good afternoon."
+    },
+    {
+     "t0_ms": 2090389,
+     "text": "I want to build on that conversation you had with Dan."
+    },
+    {
+     "t0_ms": 2094310,
+     "text": "You talked to him about one type of CEO, the one that comes to you with an urgency around sovereignty."
+    },
+    {
+     "t0_ms": 2100070,
+     "text": "But as reading the Anthropic S1 will tell us, about half of their customers work directly with Anthropic."
+    },
+    {
+     "t0_ms": 2109330,
+     "text": "So when you have a CEO, which means there's a lot of CEOs that haven't gotten the message."
+    },
+    {
+     "t0_ms": 2113030,
+     "text": "To your point, you're in the first inning of this conversation."
+    },
+    {
+     "t0_ms": 2115570,
+     "text": "When you get a CEO that's still unconvinced, what kind of analogies and metaphors can you use to help them understand the importance of this diffusion layer, orchestration, harnesses coming from you and not directly from the lab?"
+    },
+    {
+     "t0_ms": 2130550,
+     "text": "What kind of examples do you have to provide them to understand the risk?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2134050,
+   "t1_ms": 2176150,
+   "speaker": "Management",
+   "text": "There's two parts to your question, which is like, you know, the person who's not convinced or not yet convinced, and then what do we do? The weird thing here, though, is we really cannot satiate demand. So this is a market that is growing so rapidly. We don't need the people who aren't convinced. We really don't. And by the way, and again, I say this every time, Dario is someone I get along very well with. I think he's one of the most important business people of my generation, if not multiple generations. They are also selling our product because people interact with them. And, again, some people want that approach.",
+   "parts": [
+    {
+     "t0_ms": 2134050,
+     "text": "There's two parts to your question, which is like, you know, the person who's not convinced or not yet convinced, and then what do we do?"
+    },
+    {
+     "t0_ms": 2144970,
+     "text": "The weird thing here, though, is we really cannot satiate demand."
+    },
+    {
+     "t0_ms": 2150110,
+     "text": "So this is a market that is growing so rapidly."
+    },
+    {
+     "t0_ms": 2153830,
+     "text": "We don't need the people who aren't convinced."
+    },
+    {
+     "t0_ms": 2157210,
+     "text": "We really don't."
+    },
+    {
+     "t0_ms": 2157990,
+     "text": "And by the way, and again, I say this every time, Dario is someone I get along very well with."
+    },
+    {
+     "t0_ms": 2163130,
+     "text": "I think he's one of the most important business people of my generation, if not multiple generations."
+    },
+    {
+     "t0_ms": 2168690,
+     "text": "They are also selling our product because people interact with them."
+    },
+    {
+     "t0_ms": 2173610,
+     "text": "And, again, some people want that approach."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2176690,
+   "t1_ms": 2221250,
+   "speaker": "Management",
+   "text": "But a lot of people are super concerned about their alpha being transferred to them. And the results, even the results they talk about, are often already in our application later. We work very effectively with Anthropic and the Department of War and at AIG and all over the place. But, again, the primary \u2013 what they're doing is increasing the size of the market. What we're doing is servicing the market that's gotten real, and we are actually in a symbiotic relationship with them commercially because they're growing a market that's probably much, much bigger than it is today, and we're taking advantage of the market where you really need delivery, where delivery also includes.",
+   "parts": [
+    {
+     "t0_ms": 2176690,
+     "text": "But a lot of people are super concerned about their alpha being transferred to them."
+    },
+    {
+     "t0_ms": 2181690,
+     "text": "And the results, even the results they talk about, are often already in our application later."
+    },
+    {
+     "t0_ms": 2185750,
+     "text": "We work very effectively with Anthropic and the Department of War and at AIG and all over the place."
+    },
+    {
+     "t0_ms": 2192090,
+     "text": "But, again, the primary \u2013 what they're doing is increasing the size of the market."
+    },
+    {
+     "t0_ms": 2200550,
+     "text": "What we're doing is servicing the market that's gotten real, and we are actually in a symbiotic relationship with them commercially because they're growing a market that's probably much, much bigger than it is today, and we're taking advantage of the market where you really need delivery, where delivery also includes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2221250,
+   "t1_ms": 2265030,
+   "speaker": "Management",
+   "text": "Now, if there is somebody \u2013 we don't \u2013 we really do convincing in the government space. Like we've been on the front line. Like certain agencies didn't want to adopt, and we knew that warfighters would die if they didn't adopt, so we went to convince them. In commercial, our real approach is, hey, enjoy the one you're with until you find out it's not the one you want. There are very, very, very few times where we're trying to go and compete and take their customer away. It really is not happening. And conversely, you know, once you go pound here, you don't go back. And that's just \u2013 that's how it is. And you can see it in our numbers, which is \u2013 so this is a very different thing.",
+   "parts": [
+    {
+     "t0_ms": 2221250,
+     "text": "Now, if there is somebody \u2013 we don't \u2013 we really do convincing in the government space."
+    },
+    {
+     "t0_ms": 2227130,
+     "text": "Like we've been on the front line."
+    },
+    {
+     "t0_ms": 2229070,
+     "text": "Like certain agencies didn't want to adopt, and we knew that warfighters would die if they didn't adopt, so we went to convince them."
+    },
+    {
+     "t0_ms": 2235310,
+     "text": "In commercial, our real approach is, hey, enjoy the one you're with until you find out it's not the one you want."
+    },
+    {
+     "t0_ms": 2244690,
+     "text": "There are very, very, very few times where we're trying to go and compete and take their customer away."
+    },
+    {
+     "t0_ms": 2250090,
+     "text": "It really is not happening."
+    },
+    {
+     "t0_ms": 2252530,
+     "text": "And conversely, you know, once you go pound here, you don't go back."
+    },
+    {
+     "t0_ms": 2257670,
+     "text": "And that's just \u2013 that's how it is."
+    },
+    {
+     "t0_ms": 2259850,
+     "text": "And you can see it in our numbers, which is \u2013 so this is a very different thing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2265310,
+   "t1_ms": 2296430,
+   "speaker": "Management",
+   "text": "I don't know at what point we become competitive with each other, but at this point in the U.S., the market for us is insatiable. And it's insatiable and growing and growing and growing. You know, there's two ways to look at our numbers. One is to say we are just sublime at what we do. Another way is to say we're very unique and the market is exploding around us. I'm much more in the latter camp. Like I don't \u2013 we are a creative colony. We're not perfect. But the market is exploding around us, and they are helping it explode.",
+   "parts": [
+    {
+     "t0_ms": 2265310,
+     "text": "I don't know at what point we become competitive with each other, but at this point in the U.S., the market for us is insatiable."
+    },
+    {
+     "t0_ms": 2271970,
+     "text": "And it's insatiable and growing and growing and growing."
+    },
+    {
+     "t0_ms": 2275410,
+     "text": "You know, there's two ways to look at our numbers."
+    },
+    {
+     "t0_ms": 2277930,
+     "text": "One is to say we are just sublime at what we do."
+    },
+    {
+     "t0_ms": 2281670,
+     "text": "Another way is to say we're very unique and the market is exploding around us."
+    },
+    {
+     "t0_ms": 2285750,
+     "text": "I'm much more in the latter camp."
+    },
+    {
+     "t0_ms": 2288530,
+     "text": "Like I don't \u2013 we are a creative colony."
+    },
+    {
+     "t0_ms": 2290950,
+     "text": "We're not perfect."
+    },
+    {
+     "t0_ms": 2292190,
+     "text": "But the market is exploding around us, and they are helping it explode."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2296430,
+   "t1_ms": 2340150,
+   "speaker": "Management",
+   "text": "And the only area where we do anything that looks competitive is we are spending a lot of time educating clients, partners that are non-partners around the risks of using closed models without an application layer. That's the one thing we do do actively. But we're not really saying, hey, you're going to \u2013 the value creation people know we own. It's certainly an industry. I think less on Wall Street, actually, honestly. I think on Wall Street, I don't mean you, but I think really what happened on Wall Street is everybody invested in these firms early. Bless you guys. It's hard to see the reality when you're getting rich on something that's not actually working the way you think it is. And the reality",
+   "parts": [
+    {
+     "t0_ms": 2296430,
+     "text": "And the only area where we do anything that looks competitive is we are spending a lot of time educating clients, partners that are non-partners around the risks of using closed models without an application layer."
+    },
+    {
+     "t0_ms": 2312910,
+     "text": "That's the one thing we do do actively."
+    },
+    {
+     "t0_ms": 2315330,
+     "text": "But we're not really saying, hey, you're going to \u2013 the value creation people know we own."
+    },
+    {
+     "t0_ms": 2321290,
+     "text": "It's certainly an industry."
+    },
+    {
+     "t0_ms": 2322910,
+     "text": "I think less on Wall Street, actually, honestly."
+    },
+    {
+     "t0_ms": 2325010,
+     "text": "I think on Wall Street, I don't mean you, but I think really what happened on Wall Street is"
+    },
+    {
+     "t0_ms": 2330590,
+     "text": "everybody invested in these firms early. Bless you guys. It's hard to see the reality when you're"
+    },
+    {
+     "t0_ms": 2335990,
+     "text": "getting rich on something that's not actually working the way you think it is. And the reality"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2340150,
+   "t1_ms": 2352920,
+   "speaker": "Management",
+   "text": "is, though, in industry, people realize when it gets real, you need us. And that market is much larger than we can service. Thank you. Our last question is from Brad",
+   "parts": [
+    {
+     "t0_ms": 2340150,
+     "text": "is, though, in industry, people realize when it gets real, you need us. And that market is"
+    },
+    {
+     "t0_ms": 2346810,
+     "text": "much larger than we can service. Thank you. Our last question is from Brad"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2352920,
+   "t1_ms": 2356580,
+   "speaker": "Operator",
+   "text": "of Deutsche Bank. Brad, please turn on your camera and then you'll receive a prompt to unmute your",
+   "parts": [
+    {
+     "t0_ms": 2352920,
+     "text": "of Deutsche Bank. Brad, please turn on your camera and then you'll receive a prompt to unmute your"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2356580,
+   "t1_ms": 2376100,
+   "speaker": "Analyst",
+   "text": "line. Great. Thanks so much for including me. Congrats on another rocket ship quarter. Alex, in your shareholder letter, you said that you see Palantir as the pioneers of a genuine and viable anti-war movement. Can you expand on what that means and what it might mean for your government",
+   "parts": [
+    {
+     "t0_ms": 2356580,
+     "text": "line. Great. Thanks so much for including me. Congrats on another rocket ship quarter. Alex,"
+    },
+    {
+     "t0_ms": 2365180,
+     "text": "in your shareholder letter, you said that you see Palantir as the pioneers of a genuine and viable"
+    },
+    {
+     "t0_ms": 2371440,
+     "text": "anti-war movement. Can you expand on what that means and what it might mean for your government"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2376100,
+   "t1_ms": 2420140,
+   "speaker": "Management",
+   "text": "business? Well, you know, one of, and I'll let Sean talk about this. You know, I'll go back to the beginning of our pound here pg you know we and we build products that would protect civil liberties and stop terrorism for the very simple reason that you don't want to do one or the other if you don't stop terrorism you're going to get a radical fringe on the right if you stop terrorism without rights none of us want that okay you could say it's an anti-terror product or you could say it's a product for social cohesion it's this product our products are built to avoid war meaning the adversary knows that they will have such pain inflicted upon them that in fact it's",
+   "parts": [
+    {
+     "t0_ms": 2376100,
+     "text": "business? Well, you know, one of, and I'll let Sean talk about this. You know, I'll go back to"
+    },
+    {
+     "t0_ms": 2383520,
+     "text": "the beginning of our pound here pg you know we and we build products that would protect civil"
+    },
+    {
+     "t0_ms": 2391380,
+     "text": "liberties and stop terrorism for the very simple reason that you don't want to do one or the other"
+    },
+    {
+     "t0_ms": 2395800,
+     "text": "if you don't stop terrorism you're going to get a radical fringe on the right if you stop terrorism"
+    },
+    {
+     "t0_ms": 2401420,
+     "text": "without rights none of us want that okay you could say it's an anti-terror product or you could say"
+    },
+    {
+     "t0_ms": 2407280,
+     "text": "it's a product for social cohesion it's this product our products are built to avoid war"
+    },
+    {
+     "t0_ms": 2414600,
+     "text": "meaning the adversary knows that they will have such pain inflicted upon them that in fact it's"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2420140,
+   "t1_ms": 2459100,
+   "speaker": "Management",
+   "text": "not worth going to war and also to create social cohesion because we're going to bring back our troops healthier safer non-damaged and that makes our society much more effective and i would say as a person, not as like Palantir. I grew up as a lefty. I don't actually like war. I want to avoid war. I don't support wars. Sometimes they are necessary. And when they are necessary, American allies need the very, very, very best tools. And we have competitors, adversaries, and enemies out there. They need to know our stuff works. The way to stop a war is for them",
+   "parts": [
+    {
+     "t0_ms": 2420140,
+     "text": "not worth going to war and also to create social cohesion because we're going to bring back our"
+    },
+    {
+     "t0_ms": 2425120,
+     "text": "troops healthier safer non-damaged and that makes our society much more effective and i would say as"
+    },
+    {
+     "t0_ms": 2433480,
+     "text": "a person, not as like Palantir. I grew up as a lefty. I don't actually like war. I want to avoid"
+    },
+    {
+     "t0_ms": 2442440,
+     "text": "war. I don't support wars. Sometimes they are necessary. And when they are necessary,"
+    },
+    {
+     "t0_ms": 2448160,
+     "text": "American allies need the very, very, very best tools. And we have competitors, adversaries,"
+    },
+    {
+     "t0_ms": 2454300,
+     "text": "and enemies out there. They need to know our stuff works. The way to stop a war is for them"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2459100,
+   "t1_ms": 2502320,
+   "speaker": "Management",
+   "text": "to know these things work. And also, part of the problem that we've had in the AI discussion in this country is we do have a rival, an adversary on the battlefield. I happen to respect their culture quite a bit, China, but it is us or them. And they have a dynamic, interesting, super high IQ scaled culture that is doing exceedingly well at AI. and we've got to make sure we're the leaders and somehow we have to drag our European and other allies with us which is going to be hard because they're going to have to also learn how these things work and that probably means a real interaction with the leader of the sovereign movement",
+   "parts": [
+    {
+     "t0_ms": 2459100,
+     "text": "to know these things work. And also, part of the problem that we've had in the AI discussion"
+    },
+    {
+     "t0_ms": 2465580,
+     "text": "in this country is we do have a rival, an adversary on the battlefield. I happen to"
+    },
+    {
+     "t0_ms": 2472540,
+     "text": "respect their culture quite a bit, China, but it is us or them. And they have a dynamic,"
+    },
+    {
+     "t0_ms": 2480460,
+     "text": "interesting, super high IQ scaled culture that is doing exceedingly well at AI."
+    },
+    {
+     "t0_ms": 2485400,
+     "text": "and we've got to make sure we're the leaders"
+    },
+    {
+     "t0_ms": 2488340,
+     "text": "and somehow we have to drag our European and other allies with us"
+    },
+    {
+     "t0_ms": 2492660,
+     "text": "which is going to be hard"
+    },
+    {
+     "t0_ms": 2493860,
+     "text": "because they're going to have to also learn how these things work"
+    },
+    {
+     "t0_ms": 2497420,
+     "text": "and that probably means a real interaction"
+    },
+    {
+     "t0_ms": 2499740,
+     "text": "with the leader of the sovereign movement"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2502320,
+   "t1_ms": 2518060,
+   "speaker": "Management",
+   "text": "not some fake bureaucratic thing made up by people who have no idea what they're talking about and think you can regulate these things like a telecom industry when in fact this is galvanizing a new transformative technology that is transferring every part of society and transferring our numbers and everything it touches.",
+   "parts": [
+    {
+     "t0_ms": 2502320,
+     "text": "not some fake bureaucratic thing made up by people"
+    },
+    {
+     "t0_ms": 2505060,
+     "text": "who have no idea what they're talking about"
+    },
+    {
+     "t0_ms": 2506460,
+     "text": "and think you can regulate these things like a telecom industry"
+    },
+    {
+     "t0_ms": 2509180,
+     "text": "when in fact this is galvanizing a new transformative technology"
+    },
+    {
+     "t0_ms": 2512860,
+     "text": "that is transferring every part of society"
+    },
+    {
+     "t0_ms": 2515260,
+     "text": "and transferring our numbers and everything it touches."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2520900,
+   "t1_ms": 2528500,
+   "speaker": "Operator",
+   "text": "Thank you. Alex, as always, we have a lot of individual investors on the line. Somebody else has got to talk. Is there anything anyone would like to say before we end the call?",
+   "parts": [
+    {
+     "t0_ms": 2520900,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2521640,
+     "text": "Alex, as always, we have a lot of individual investors on the line."
+    },
+    {
+     "t0_ms": 2523640,
+     "text": "Somebody else has got to talk."
+    },
+    {
+     "t0_ms": 2526140,
+     "text": "Is there anything anyone would like to say before we end the call?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2528500,
+   "t1_ms": 2570240,
+   "speaker": "Management",
+   "text": "Maybe you guys can say a couple words. Sean, would you like to say? Well, I mean, you spoke about deterrence really well. I guess I would just add that, of course, the objective is to deter conflict. Deterrence is not something you accomplish by hope. You actually have to build it brick by brick. And so on one end, in the foxhole, that's about having a capability that's 10 times, 100 times better than your adversary. Should they choose to fight, they're going to lose, and therefore they should not choose to fight. And on the other end, it comes down to the factory floor. You know, deterring conflict, as we've seen with Russia and Ukraine, is really about your ability to produce the materiel. And we are in a period where we need to reinvent how we do production.",
+   "parts": [
+    {
+     "t0_ms": 2528500,
+     "text": "Maybe you guys can say a couple words."
+    },
+    {
+     "t0_ms": 2530100,
+     "text": "Sean, would you like to say?"
+    },
+    {
+     "t0_ms": 2531340,
+     "text": "Well, I mean, you spoke about deterrence really well."
+    },
+    {
+     "t0_ms": 2533520,
+     "text": "I guess I would just add that, of course,"
+    },
+    {
+     "t0_ms": 2535620,
+     "text": "the objective is to deter conflict."
+    },
+    {
+     "t0_ms": 2539860,
+     "text": "Deterrence is not something you accomplish by hope."
+    },
+    {
+     "t0_ms": 2541880,
+     "text": "You actually have to build it brick by brick."
+    },
+    {
+     "t0_ms": 2545260,
+     "text": "And so on one end, in the foxhole, that's about having a capability that's 10 times, 100 times better than your adversary."
+    },
+    {
+     "t0_ms": 2551300,
+     "text": "Should they choose to fight, they're going to lose, and therefore they should not choose to fight."
+    },
+    {
+     "t0_ms": 2555440,
+     "text": "And on the other end, it comes down to the factory floor."
+    },
+    {
+     "t0_ms": 2558220,
+     "text": "You know, deterring conflict, as we've seen with Russia and Ukraine, is really about your ability to produce the materiel."
+    },
+    {
+     "t0_ms": 2565000,
+     "text": "And we are in a period where we need to reinvent how we do production."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2570240,
+   "t1_ms": 2604300,
+   "speaker": "Management",
+   "text": "We have gone through 30, 40 years of essentially deindustrialization in the nation beyond just their defense industrial base. And the work that we're doing with War Machine and working with commercial and private and public sector companies in order to enable production using a modern American manufacturing stack, these are two parts of the same coin here. And I think it comes down to, yes, freedom driven through the foxhole, but also prosperity, the growth of the American economy on the back of that. You want to say something? Would you like to talk about your greed?",
+   "parts": [
+    {
+     "t0_ms": 2570240,
+     "text": "We have gone through 30, 40 years of essentially deindustrialization in the nation beyond just their defense industrial base."
+    },
+    {
+     "t0_ms": 2577340,
+     "text": "And the work that we're doing with War Machine and working with commercial and private and public sector companies in order to enable production using a modern American manufacturing stack, these are two parts of the same coin here."
+    },
+    {
+     "t0_ms": 2593100,
+     "text": "And I think it comes down to, yes, freedom driven through the foxhole, but also prosperity, the growth of the American economy on the back of that."
+    },
+    {
+     "t0_ms": 2601940,
+     "text": "You want to say something?"
+    },
+    {
+     "t0_ms": 2603100,
+     "text": "Would you like to talk about your greed?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2604840,
+   "t1_ms": 2646580,
+   "speaker": "Management",
+   "text": "I'll just add the sovereign AI revolution we launched this last quarter and the felt version on the ground is \u2013 and what we're seeing at sovereign AI boot camps when we actually show and don't tell is the momentum and the urgency of customers. they get it and see it, adopting quickly, moving quickly, moving with urgency because they realize how much it matters. And we're feeling that on the ground, and we're at the very beginning of this, and we only see that continuing and expanding from here. And because I can't help myself, I'll say one more thing going back to Gil's question. You know, I mentioned this earlier in my comments, but it really is the case that I think one of the conceits that the labs don't have right, and that perhaps the customers who don't quite yet realize that the return is",
+   "parts": [
+    {
+     "t0_ms": 2604840,
+     "text": "I'll just add the sovereign AI revolution we launched this last quarter and the felt version on the ground is \u2013 and what we're seeing at sovereign AI boot camps when we actually show and don't tell is the momentum and the urgency of customers."
+    },
+    {
+     "t0_ms": 2617260,
+     "text": "they get it and see it, adopting quickly, moving quickly, moving with urgency because they realize"
+    },
+    {
+     "t0_ms": 2622900,
+     "text": "how much it matters. And we're feeling that on the ground, and we're at the very beginning of this,"
+    },
+    {
+     "t0_ms": 2626840,
+     "text": "and we only see that continuing and expanding from here. And because I can't help myself,"
+    },
+    {
+     "t0_ms": 2632120,
+     "text": "I'll say one more thing going back to Gil's question. You know, I mentioned this earlier"
+    },
+    {
+     "t0_ms": 2636760,
+     "text": "in my comments, but it really is the case that I think one of the conceits that the labs"
+    },
+    {
+     "t0_ms": 2640660,
+     "text": "don't have right, and that perhaps the customers who don't quite yet realize that the return is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2646580,
+   "t1_ms": 2689540,
+   "speaker": "Management",
+   "text": "not there is that the atomic unit of the enterprise is not the knowledge worker you know you can make people more productive and generate no actual return on investment if you're measuring the inputs it can feel really good to see that productivity of the person you actually the atomic unit is the workflow and having a platform like AIP where you're already managing your supply chain or your SNOP or your key enterprise processes the exhaust of those processes then enable you to go through the post-training loop to have a model that's better than frontier at that We give you the tools to elegantly integrate your people, your AI, and the software to actually drive objective, quantifiable value against the workflow. This is the compounding loop that the customers who are coming to us in the sovereign boot camps really understand.",
+   "parts": [
+    {
+     "t0_ms": 2646580,
+     "text": "not there is that the atomic unit of the enterprise is not the knowledge worker you know you can make"
+    },
+    {
+     "t0_ms": 2651920,
+     "text": "people more productive and generate no actual return on investment if you're measuring the"
+    },
+    {
+     "t0_ms": 2656080,
+     "text": "inputs it can feel really good to see that productivity of the person you actually the"
+    },
+    {
+     "t0_ms": 2660180,
+     "text": "atomic unit is the workflow and having a platform like AIP where you're already managing your"
+    },
+    {
+     "t0_ms": 2664920,
+     "text": "supply chain or your SNOP or your key enterprise processes the exhaust of those processes then"
+    },
+    {
+     "t0_ms": 2670940,
+     "text": "enable you to go through the post-training loop to have a model that's better than frontier at that"
+    },
+    {
+     "t0_ms": 2675420,
+     "text": "We give you the tools to elegantly integrate your people, your AI, and the software to actually drive objective, quantifiable value against the workflow."
+    },
+    {
+     "t0_ms": 2685360,
+     "text": "This is the compounding loop that the customers who are coming to us in the sovereign boot camps really understand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2689540,
+   "t1_ms": 2730600,
+   "speaker": "Management",
+   "text": "Just at our most recent DevCon down in Miami, we had a customer who, on their stack in production as a Hack Week project, built a production-ready model that's better than Frontier for their use case in the 48 hours, single person in the 48 hours that was DevCon. So the proof is everywhere on this. And I guess two financial metrics to leave you with. I'd say two years ago on net income and to today, we've 8x-ed our net income over the last two years, which I am incredibly proud of, as well as everything else that was said. And also, as we look at sort of this year, to basically guide to almost $5 billion in cash flow for the full year is, I think, something we all can be excited about.",
+   "parts": [
+    {
+     "t0_ms": 2689540,
+     "text": "Just at our most recent DevCon down in Miami, we had a customer who, on their stack in production as a Hack Week project, built a production-ready model that's better than Frontier for their use case in the 48 hours, single person in the 48 hours that was DevCon."
+    },
+    {
+     "t0_ms": 2706620,
+     "text": "So the proof is everywhere on this."
+    },
+    {
+     "t0_ms": 2709500,
+     "text": "And I guess two financial metrics to leave you with."
+    },
+    {
+     "t0_ms": 2711680,
+     "text": "I'd say two years ago on net income and to today, we've 8x-ed our net income over the last two years,"
+    },
+    {
+     "t0_ms": 2718700,
+     "text": "which I am incredibly proud of, as well as everything else that was said."
+    },
+    {
+     "t0_ms": 2721660,
+     "text": "And also, as we look at sort of this year, to basically guide to almost $5 billion in cash flow for the full year is, I think, something we all can be excited about."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2730600,
+   "t1_ms": 2775500,
+   "speaker": "Management",
+   "text": "And to close, I just \u2013 the people who invested in us early, many of them were investing their own money and would otherwise be called retail, and many now and recently have reinvested in us. The sovereign revolution is a metaphor for your interaction with Palantir and the fact that we've been able to help you and you've been able to help us in your own wealth creation and in our journey and that you've defended us against what obviously now look like ridiculously stupid and malicious, incredibly hard-to-understand attacks is something that we will never forget. And part of the delivery here, part of what motivates me, is helping to make sure we are fighting for you and, quite frankly, making sure that the people that made fun of you",
+   "parts": [
+    {
+     "t0_ms": 2730600,
+     "text": "And to close, I just \u2013 the people who invested in us early, many of them were investing their own money and would otherwise be called retail, and many now and recently have reinvested in us."
+    },
+    {
+     "t0_ms": 2743860,
+     "text": "The sovereign revolution is a metaphor for your interaction with Palantir and the fact that we've been able to help you and you've been able to help us in your own wealth creation and in our journey"
+    },
+    {
+     "t0_ms": 2754520,
+     "text": "and that you've defended us against what obviously now look like ridiculously stupid"
+    },
+    {
+     "t0_ms": 2759540,
+     "text": "and malicious, incredibly hard-to-understand attacks is something that we will never forget."
+    },
+    {
+     "t0_ms": 2765520,
+     "text": "And part of the delivery here, part of what motivates me,"
+    },
+    {
+     "t0_ms": 2768640,
+     "text": "is helping to make sure we are fighting for you"
+    },
+    {
+     "t0_ms": 2771500,
+     "text": "and, quite frankly, making sure that the people that made fun of you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2775500,
+   "t1_ms": 2784000,
+   "speaker": "Management",
+   "text": "and made fun of us are suffering. And I'm very proud of that, and I'm very proud to have all of you along with us. And thank you for that support.",
+   "parts": [
+    {
+     "t0_ms": 2775500,
+     "text": "and made fun of us are suffering."
+    },
+    {
+     "t0_ms": 2777680,
+     "text": "And I'm very proud of that, and I'm very proud to have all of you along with us."
+    },
+    {
+     "t0_ms": 2782280,
+     "text": "And thank you for that support."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2784520,
+   "t1_ms": 2786820,
+   "speaker": "Operator",
+   "text": "Thank you. That concludes today's call.",
+   "parts": [
+    {
+     "t0_ms": 2784520,
+     "text": "Thank you. That concludes today's call."
+    }
+   ]
+  }
+ ]
+}

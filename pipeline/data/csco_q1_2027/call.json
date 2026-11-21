@@ -1,0 +1,3351 @@
+{
+ "ticker": "CSCO",
+ "quarter": "Q1-2027",
+ "company": "Cisco Systems",
+ "call_start": "2026-11-12T16:30:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/CSCO_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 16780,
+   "speaker": "Operator",
+   "text": "Welcome to Cisco's first quarter fiscal year 2027 financial results conference call. At the request of Cisco, today's conference is being recorded. If you have any objections, you may disconnect. Now I would like to introduce Sammy Badri, Head of Investor Relations. Sir, you may begin.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Welcome to Cisco's first quarter fiscal year 2027 financial results conference call."
+    },
+    {
+     "t0_ms": 5560,
+     "text": "At the request of Cisco, today's conference is being recorded."
+    },
+    {
+     "t0_ms": 9300,
+     "text": "If you have any objections, you may disconnect."
+    },
+    {
+     "t0_ms": 11920,
+     "text": "Now I would like to introduce Sammy Badri, Head of Investor Relations."
+    },
+    {
+     "t0_ms": 15940,
+     "text": "Sir, you may begin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 17620,
+   "t1_ms": 61720,
+   "speaker": "Management",
+   "text": "Good afternoon, everyone. This is Sammy Badri, Cisco's Head of Investor Relations, and I'm joined by Chuck Robbins, our Chair and CEO, and Mark Patterson, our CFO. Cisco's earnings press release and supplemental information, including GAAP to non-GAAP reconciliations, are available on our Investor Relations website. Today's call is also being live-streamed on YouTube, LinkedIn, and X. Following this call, we will also make the recorded webcast and slides available on the website. Throughout today's call, we'll be referencing both GAAP and non-GAAP financial results. We will discuss product results in terms of revenue and geographic and customer results in terms of product orders, unless stated otherwise all comparisons will be made on a year-on-year basis unless stated",
+   "parts": [
+    {
+     "t0_ms": 17620,
+     "text": "Good afternoon, everyone."
+    },
+    {
+     "t0_ms": 19100,
+     "text": "This is Sammy Badri, Cisco's Head of Investor Relations, and I'm joined by Chuck Robbins,"
+    },
+    {
+     "t0_ms": 23440,
+     "text": "our Chair and CEO, and Mark Patterson, our CFO."
+    },
+    {
+     "t0_ms": 27180,
+     "text": "Cisco's earnings press release and supplemental information, including GAAP to non-GAAP reconciliations,"
+    },
+    {
+     "t0_ms": 32220,
+     "text": "are available on our Investor Relations website."
+    },
+    {
+     "t0_ms": 35060,
+     "text": "Today's call is also being live-streamed on YouTube, LinkedIn, and X."
+    },
+    {
+     "t0_ms": 40280,
+     "text": "Following this call, we will also make the recorded webcast and slides available on the website."
+    },
+    {
+     "t0_ms": 46040,
+     "text": "Throughout today's call, we'll be referencing both GAAP and non-GAAP financial results."
+    },
+    {
+     "t0_ms": 50120,
+     "text": "We will discuss product results in terms of revenue and geographic and customer results in terms of product orders,"
+    },
+    {
+     "t0_ms": 56280,
+     "text": "unless stated otherwise all comparisons will be made on a year-on-year basis unless stated"
+    }
+   ]
+  },
+  {
+   "t0_ms": 61720,
+   "t1_ms": 104600,
+   "speaker": "Management",
+   "text": "otherwise please note that our discussion today will include forward-looking statements including our guidance for the second quarter and fiscal year 2027. these statements are subject to risks and uncertainties detailed in our sec filings particularly our most recent 10k report which identify important risk factors that could cause actual results to differ materially from those contained in our forward-looking statements. With respect to guidance, please also see the slides and press release that accompany this call for further details. Cisco will not comment on its financial guidance during the quarter unless it is done through an explicit public disclosure. Now, I'll turn it over to Chuck. Thanks, Sammy, and thank you all for joining us today. I'm pleased to report that Cisco delivered an impressive start to fiscal 27.",
+   "parts": [
+    {
+     "t0_ms": 61720,
+     "text": "otherwise please note that our discussion today will include forward-looking statements including"
+    },
+    {
+     "t0_ms": 66520,
+     "text": "our guidance for the second quarter and fiscal year 2027. these statements are subject to risks"
+    },
+    {
+     "t0_ms": 71240,
+     "text": "and uncertainties detailed in our sec filings particularly our most recent 10k report which"
+    },
+    {
+     "t0_ms": 76760,
+     "text": "identify important risk factors that could cause actual results to differ materially from those"
+    },
+    {
+     "t0_ms": 81160,
+     "text": "contained in our forward-looking statements. With respect to guidance, please also see the"
+    },
+    {
+     "t0_ms": 86020,
+     "text": "slides and press release that accompany this call for further details. Cisco will not comment on"
+    },
+    {
+     "t0_ms": 91120,
+     "text": "its financial guidance during the quarter unless it is done through an explicit public disclosure."
+    },
+    {
+     "t0_ms": 95640,
+     "text": "Now, I'll turn it over to Chuck. Thanks, Sammy, and thank you all for joining us today."
+    },
+    {
+     "t0_ms": 100640,
+     "text": "I'm pleased to report that Cisco delivered an impressive start to fiscal 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 105160,
+   "t1_ms": 148000,
+   "speaker": "Management",
+   "text": "We're executing against our strategy and seeing growing demand as customers invest in the infrastructure they need for the AI or SI era. What gives me the greatest confidence is not just the results we're seeing today, but also the opportunities we see ahead. In Q1, we delivered record quarterly revenue of $18.5 billion, up 24% year-over-year, and record non-gap earnings per share of $1.40, up 40% year-over-year. These are our strongest top and bottom line growth rates in over 15 years. We are demonstrating strong operating leverage and enhanced earnings power with earnings growing faster than revenue. As a result of this strong performance, we are",
+   "parts": [
+    {
+     "t0_ms": 105160,
+     "text": "We're executing against our strategy and seeing growing demand as customers invest in the"
+    },
+    {
+     "t0_ms": 110020,
+     "text": "infrastructure they need for the AI or SI era. What gives me the greatest confidence is not just"
+    },
+    {
+     "t0_ms": 116460,
+     "text": "the results we're seeing today, but also the opportunities we see ahead. In Q1, we delivered"
+    },
+    {
+     "t0_ms": 122040,
+     "text": "record quarterly revenue of $18.5 billion, up 24% year-over-year, and record non-gap earnings per"
+    },
+    {
+     "t0_ms": 129220,
+     "text": "share of $1.40, up 40% year-over-year. These are our strongest top and bottom line growth rates"
+    },
+    {
+     "t0_ms": 136900,
+     "text": "in over 15 years. We are demonstrating strong operating leverage and enhanced earnings power"
+    },
+    {
+     "t0_ms": 142740,
+     "text": "with earnings growing faster than revenue. As a result of this strong performance, we are"
+    }
+   ]
+  },
+  {
+   "t0_ms": 148000,
+   "t1_ms": 192740,
+   "speaker": "Management",
+   "text": "significantly increasing our fiscal year 27 guidance, which Mark will cover shortly. Our probable growth generates robust cash flows and fuels consistent capital returns to our shareholders. In Q1, we returned $3.7 billion in value through dividends and share repurchases, representing 95 percent of free cash flow. Our strong start to fiscal year 27 demonstrates the criticality of networking and security together as agentic AI accelerates. As customers look to manage increasing traffic costs and threats, they are turning to Cisco for our networking expertise, security, and observability solutions and services. They trust us to help scale, secure, and optimize their environments for the agendic AI era ahead.",
+   "parts": [
+    {
+     "t0_ms": 148000,
+     "text": "significantly increasing our fiscal year 27 guidance, which Mark will cover shortly."
+    },
+    {
+     "t0_ms": 153480,
+     "text": "Our probable growth generates robust cash flows and fuels consistent capital returns to our"
+    },
+    {
+     "t0_ms": 158020,
+     "text": "shareholders. In Q1, we returned $3.7 billion in value through dividends and share repurchases,"
+    },
+    {
+     "t0_ms": 164260,
+     "text": "representing 95 percent of free cash flow. Our strong start to fiscal year 27 demonstrates the"
+    },
+    {
+     "t0_ms": 170740,
+     "text": "criticality of networking and security together as agentic AI accelerates. As customers look to"
+    },
+    {
+     "t0_ms": 177240,
+     "text": "manage increasing traffic costs and threats, they are turning to Cisco for our networking expertise,"
+    },
+    {
+     "t0_ms": 182880,
+     "text": "security, and observability solutions and services. They trust us to help scale, secure,"
+    },
+    {
+     "t0_ms": 189080,
+     "text": "and optimize their environments for the agendic AI era ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 193740,
+   "t1_ms": 235760,
+   "speaker": "Management",
+   "text": "The depth and breadth of our portfolio enables us to support our customers however they choose to deploy AI, whether in the public cloud, through neoclouds or sovereign clouds, on premise, or at the edge. We believe we are still early in the networking super cycle driven by AI deployments, with enterprise adoption just beginning. In Q1, we saw strong demand, with total product orders growing 21% year over year. on top of 13% growth a year ago. We saw strong demand excluding hyperscalers, with product orders up 14% year-over-year, on top of 9% growth a year ago. We also saw double-digit growth across all geographies and customer markets.",
+   "parts": [
+    {
+     "t0_ms": 193740,
+     "text": "The depth and breadth of our portfolio enables us to support our customers however they choose"
+    },
+    {
+     "t0_ms": 198380,
+     "text": "to deploy AI, whether in the public cloud, through neoclouds or sovereign clouds, on"
+    },
+    {
+     "t0_ms": 204380,
+     "text": "premise, or at the edge."
+    },
+    {
+     "t0_ms": 206240,
+     "text": "We believe we are still early in the networking super cycle driven by AI deployments, with"
+    },
+    {
+     "t0_ms": 211100,
+     "text": "enterprise adoption just beginning."
+    },
+    {
+     "t0_ms": 213320,
+     "text": "In Q1, we saw strong demand, with total product orders growing 21% year over year."
+    },
+    {
+     "t0_ms": 219080,
+     "text": "on top of 13% growth a year ago."
+    },
+    {
+     "t0_ms": 221960,
+     "text": "We saw strong demand excluding hyperscalers,"
+    },
+    {
+     "t0_ms": 225280,
+     "text": "with product orders up 14% year-over-year,"
+    },
+    {
+     "t0_ms": 228260,
+     "text": "on top of 9% growth a year ago."
+    },
+    {
+     "t0_ms": 231100,
+     "text": "We also saw double-digit growth across all geographies and customer markets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 237160,
+   "t1_ms": 277500,
+   "speaker": "Management",
+   "text": "Enterprise product orders in Q1 were up 15% year-over-year, on top of 4% growth a year ago, with double-digit growth across all geographies and in networking and security. Public sector orders were up 13% year-over-year, on top of 12% growth a year ago. We saw double-digit public sector growth in the Americas and APJC, as well as in networking, security, and collaboration. Product orders from service provider and cloud customers continue to be broad-based, growing 47% year-over-year. This is on top of 44% growth a year ago, with triple-digit growth in APJC and double-digit growth in the Americas and EMEA.",
+   "parts": [
+    {
+     "t0_ms": 237160,
+     "text": "Enterprise product orders in Q1 were up 15% year-over-year,"
+    },
+    {
+     "t0_ms": 240820,
+     "text": "on top of 4% growth a year ago,"
+    },
+    {
+     "t0_ms": 243440,
+     "text": "with double-digit growth across all geographies and in networking and security."
+    },
+    {
+     "t0_ms": 248560,
+     "text": "Public sector orders were up 13% year-over-year, on top of 12% growth a year ago."
+    },
+    {
+     "t0_ms": 254200,
+     "text": "We saw double-digit public sector growth in the Americas and APJC, as well as in networking, security, and collaboration."
+    },
+    {
+     "t0_ms": 262660,
+     "text": "Product orders from service provider and cloud customers continue to be broad-based, growing 47% year-over-year."
+    },
+    {
+     "t0_ms": 269040,
+     "text": "This is on top of 44% growth a year ago, with triple-digit growth in APJC and double-digit growth in the Americas and EMEA."
+    }
+   ]
+  },
+  {
+   "t0_ms": 277780,
+   "t1_ms": 318600,
+   "speaker": "Management",
+   "text": "We continue to see healthy demand from telcos with orders up approximately 20% year-over-year in Q1 on top of 24% growth a year ago. Turning to demand across our product categories, networking product orders grew 28% in Q1, delivering our ninth consecutive quarter of double-digit growth. In fact, we saw double-digit growth across every product family. Service provider routing, compute, compute, enterprise routing, wireless data center switching, and campus switching. These broad-based results support our view that we are in the early stages of a multi-year, multi-billion-dollar networking super cycle, as I referenced earlier, and we are executing",
+   "parts": [
+    {
+     "t0_ms": 277780,
+     "text": "We continue to see healthy demand from telcos with orders up approximately 20%"
+    },
+    {
+     "t0_ms": 282880,
+     "text": "year-over-year in Q1 on top of 24% growth a year ago. Turning to demand"
+    },
+    {
+     "t0_ms": 288460,
+     "text": "across our product categories, networking product orders grew 28% in Q1,"
+    },
+    {
+     "t0_ms": 293320,
+     "text": "delivering our ninth consecutive quarter of double-digit growth. In fact, we saw"
+    },
+    {
+     "t0_ms": 298340,
+     "text": "double-digit growth across every product family. Service provider routing, compute,"
+    },
+    {
+     "t0_ms": 303460,
+     "text": "compute, enterprise routing, wireless data center switching, and campus switching."
+    },
+    {
+     "t0_ms": 309080,
+     "text": "These broad-based results support our view that we are in the early stages of a multi-year,"
+    },
+    {
+     "t0_ms": 313740,
+     "text": "multi-billion-dollar networking super cycle, as I referenced earlier, and we are executing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 318600,
+   "t1_ms": 360780,
+   "speaker": "Management",
+   "text": "with focus and urgency to capture this incremental opportunity. Overall, our hyperscaler business continues to show strong momentum, with AI infrastructure revenue projected to grow to $9 billion in fiscal year 27, more than double fiscal year 26 levels. Hyperscalers are now deploying our scale-across networking architecture in production environments as they extend coordinated AI workloads across data centers. This architecture combines our silicon-1 P200 deep buffered systems, market-leading acacia coherence optics, and open-line systems with multi-rail optical systems coming soon. Together, these products provide a single unified compute fabric",
+   "parts": [
+    {
+     "t0_ms": 318600,
+     "text": "with focus and urgency to capture this incremental opportunity."
+    },
+    {
+     "t0_ms": 322960,
+     "text": "Overall, our hyperscaler business continues to show strong momentum, with AI infrastructure"
+    },
+    {
+     "t0_ms": 328420,
+     "text": "revenue projected to grow to $9 billion in fiscal year 27, more than double fiscal year 26 levels."
+    },
+    {
+     "t0_ms": 335760,
+     "text": "Hyperscalers are now deploying our scale-across networking architecture in production environments"
+    },
+    {
+     "t0_ms": 340260,
+     "text": "as they extend coordinated AI workloads across data centers. This architecture combines our"
+    },
+    {
+     "t0_ms": 346400,
+     "text": "silicon-1 P200 deep buffered systems, market-leading acacia coherence optics, and open-line systems"
+    },
+    {
+     "t0_ms": 353960,
+     "text": "with multi-rail optical systems coming soon."
+    },
+    {
+     "t0_ms": 357300,
+     "text": "Together, these products provide a single unified compute fabric"
+    }
+   ]
+  },
+  {
+   "t0_ms": 360780,
+   "t1_ms": 401800,
+   "speaker": "Management",
+   "text": "with deep programmability and embedded security. In Q1, we secured three new AI design wins. Two were for our P200-powered systems in data center interconnect and scale across use cases. The third was for 1.6 terabit optics for a scale-out use case. In addition to hyperscaler demand, We saw accelerated growth in AI infrastructure orders from NeoCloud, Sovereign, and Enterprise customers in Q1, with Nexus data center switches tagged for AI deployments up 47% year-over-year. During the quarter, we announced a new partnership with Supermicro, which expands our secure AI factory with NVIDIA.",
+   "parts": [
+    {
+     "t0_ms": 360780,
+     "text": "with deep programmability and embedded security."
+    },
+    {
+     "t0_ms": 364800,
+     "text": "In Q1, we secured three new AI design wins."
+    },
+    {
+     "t0_ms": 369320,
+     "text": "Two were for our P200-powered systems in data center interconnect"
+    },
+    {
+     "t0_ms": 372920,
+     "text": "and scale across use cases."
+    },
+    {
+     "t0_ms": 375320,
+     "text": "The third was for 1.6 terabit optics for a scale-out use case."
+    },
+    {
+     "t0_ms": 380240,
+     "text": "In addition to hyperscaler demand,"
+    },
+    {
+     "t0_ms": 382020,
+     "text": "We saw accelerated growth in AI infrastructure orders from NeoCloud, Sovereign, and Enterprise customers in Q1,"
+    },
+    {
+     "t0_ms": 389360,
+     "text": "with Nexus data center switches tagged for AI deployments up 47% year-over-year."
+    },
+    {
+     "t0_ms": 395460,
+     "text": "During the quarter, we announced a new partnership with Supermicro, which expands our secure AI factory with NVIDIA."
+    }
+   ]
+  },
+  {
+   "t0_ms": 402420,
+   "t1_ms": 442300,
+   "speaker": "Management",
+   "text": "By integrating Supermicro's high-density, liquid, and air-cooled compute into an NVIDIA Cloud partner-compliant full-stack architecture, We're delivering more efficient end-to-end infrastructure for massive AI workloads. As agentic AI expands, security threats are becoming more complex, and conversations around sovereignty are intensifying. Our focus is delivering trusted, sovereign solutions to help customers scale their data center build-outs with confidence. During the quarter, together with AMD and Humane, we announced that AMD GPU-based AI infrastructure built on silicon-1-based systems is now in production in Saudi Arabia.",
+   "parts": [
+    {
+     "t0_ms": 402420,
+     "text": "By integrating Supermicro's high-density, liquid, and air-cooled compute into an NVIDIA Cloud partner-compliant full-stack architecture,"
+    },
+    {
+     "t0_ms": 410960,
+     "text": "We're delivering more efficient end-to-end infrastructure for massive AI workloads."
+    },
+    {
+     "t0_ms": 417000,
+     "text": "As agentic AI expands, security threats are becoming more complex, and conversations around sovereignty are intensifying."
+    },
+    {
+     "t0_ms": 424560,
+     "text": "Our focus is delivering trusted, sovereign solutions to help customers scale their data center build-outs with confidence."
+    },
+    {
+     "t0_ms": 431520,
+     "text": "During the quarter, together with AMD and Humane, we announced that AMD GPU-based AI infrastructure built on silicon-1-based systems is now in production in Saudi Arabia."
+    }
+   ]
+  },
+  {
+   "t0_ms": 442900,
+   "t1_ms": 481440,
+   "speaker": "Management",
+   "text": "This enables Humane to offer GPU as a service across training and inference use cases. To meet our customers' evolving needs, we also introduced our sovereign critical infrastructure portfolio in Europe a year ago. This portfolio spans networking, security, compute, collaboration, and observability, and can be configured for on-premise, air-gapped environments. In Q1, we expanded to Canada, with additional countries to follow, giving government agencies and critical infrastructure providers more control, choice, security, and resilience. Customers are also focused on modernizing their workplaces for humans and agents.",
+   "parts": [
+    {
+     "t0_ms": 442900,
+     "text": "This enables Humane to offer GPU as a service across training and inference use cases."
+    },
+    {
+     "t0_ms": 449000,
+     "text": "To meet our customers' evolving needs, we also introduced our sovereign critical infrastructure portfolio in Europe a year ago."
+    },
+    {
+     "t0_ms": 456040,
+     "text": "This portfolio spans networking, security, compute, collaboration, and observability,"
+    },
+    {
+     "t0_ms": 461440,
+     "text": "and can be configured for on-premise, air-gapped environments."
+    },
+    {
+     "t0_ms": 465440,
+     "text": "In Q1, we expanded to Canada, with additional countries to follow,"
+    },
+    {
+     "t0_ms": 469940,
+     "text": "giving government agencies and critical infrastructure providers more control, choice, security, and resilience."
+    },
+    {
+     "t0_ms": 477480,
+     "text": "Customers are also focused on modernizing their workplaces for humans and agents."
+    }
+   ]
+  },
+  {
+   "t0_ms": 481440,
+   "t1_ms": 522080,
+   "speaker": "Management",
+   "text": "We continue to see robust demand for our campus networking solutions in Q1 with 14% year-over-year growth in product orders. Our next-generation portfolio continues to ramp faster than prior product launches, and we believe we are still very early in this refresh cycle. Orders for our industrial IoT portfolio grew approximately 50% year-over-year in Q1 and have now grown at double-digit rates for 10 consecutive quarters. Now shifting to security, orders excluding Splunk were up in the mid-teens. Within our security platform, orders for firewalls grew over 30% for the third consecutive quarter.",
+   "parts": [
+    {
+     "t0_ms": 481440,
+     "text": "We continue to see robust demand for our campus networking solutions in Q1 with 14% year-over-year growth in product orders."
+    },
+    {
+     "t0_ms": 490380,
+     "text": "Our next-generation portfolio continues to ramp faster than prior product launches, and we believe we are still very early in this refresh cycle."
+    },
+    {
+     "t0_ms": 499740,
+     "text": "Orders for our industrial IoT portfolio grew approximately 50% year-over-year in Q1 and have now grown at double-digit rates for 10 consecutive quarters."
+    },
+    {
+     "t0_ms": 510320,
+     "text": "Now shifting to security, orders excluding Splunk were up in the mid-teens."
+    },
+    {
+     "t0_ms": 516620,
+     "text": "Within our security platform, orders for firewalls grew over 30% for the third consecutive quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 523220,
+   "t1_ms": 564580,
+   "speaker": "Management",
+   "text": "Cisco AI Defense is helping customers guard against unmanaged AI use across the enterprise and is protecting more than 2 trillion tokens per month. Our work with Workday Agent Passport, ServiceNow, and Defense Claw with NVIDIA OpenShield demonstrates how we're expanding our ecosystem and building trust into the use of agents in daily operations. Earlier this week, we announced that we are integrating Anthropic's Claude Mythos cybersecurity model into Cisco AI Defense for adaptive AI red teaming. This provides automated continuous testing across enterprise systems, empowering defenders to stress test AI systems with frontier adversary reasoning.",
+   "parts": [
+    {
+     "t0_ms": 523220,
+     "text": "Cisco AI Defense is helping customers guard against unmanaged AI use across the enterprise"
+    },
+    {
+     "t0_ms": 528040,
+     "text": "and is protecting more than 2 trillion tokens per month."
+    },
+    {
+     "t0_ms": 531740,
+     "text": "Our work with Workday Agent Passport, ServiceNow, and Defense Claw with NVIDIA OpenShield"
+    },
+    {
+     "t0_ms": 537760,
+     "text": "demonstrates how we're expanding our ecosystem and building trust into the use of agents in"
+    },
+    {
+     "t0_ms": 542940,
+     "text": "daily operations. Earlier this week, we announced that we are integrating Anthropic's Claude"
+    },
+    {
+     "t0_ms": 548440,
+     "text": "Mythos cybersecurity model into Cisco AI Defense for adaptive AI red teaming. This provides"
+    },
+    {
+     "t0_ms": 554960,
+     "text": "automated continuous testing across enterprise systems, empowering defenders to stress test AI"
+    },
+    {
+     "t0_ms": 561040,
+     "text": "systems with frontier adversary reasoning."
+    }
+   ]
+  },
+  {
+   "t0_ms": 565500,
+   "t1_ms": 609400,
+   "speaker": "Management",
+   "text": "Turning to Splunk, the platform is helping solve some of the most pressing challenges organizations face in the AI era. A Splunk study found that urgency to deploy agents is outpacing enterprises' ability to monitor and secure them. With Splunk, we deliver a common data platform that enables customers to monitor and enforce guardrails on agent behavior while also helping them understand and manage tokenomics. This gives them greater confidence and predictability as they look to optimize both the business value and the cost of AI. In collaboration with the leading hyperscalers, Splunk is exploring how AI agents can help security teams investigate threats and coordinate responses more efficiently while keeping analysts in control.",
+   "parts": [
+    {
+     "t0_ms": 565500,
+     "text": "Turning to Splunk, the platform is helping solve some of the most pressing challenges"
+    },
+    {
+     "t0_ms": 569400,
+     "text": "organizations face in the AI era."
+    },
+    {
+     "t0_ms": 572220,
+     "text": "A Splunk study found that urgency to deploy agents is outpacing enterprises' ability"
+    },
+    {
+     "t0_ms": 577080,
+     "text": "to monitor and secure them."
+    },
+    {
+     "t0_ms": 579780,
+     "text": "With Splunk, we deliver a common data platform that enables customers to monitor and enforce"
+    },
+    {
+     "t0_ms": 584800,
+     "text": "guardrails on agent behavior while also helping them understand and manage tokenomics."
+    },
+    {
+     "t0_ms": 589680,
+     "text": "This gives them greater confidence and predictability as they look to optimize both the business value and the cost of AI."
+    },
+    {
+     "t0_ms": 597700,
+     "text": "In collaboration with the leading hyperscalers, Splunk is exploring how AI agents can help security teams investigate threats"
+    },
+    {
+     "t0_ms": 604940,
+     "text": "and coordinate responses more efficiently while keeping analysts in control."
+    }
+   ]
+  },
+  {
+   "t0_ms": 610020,
+   "t1_ms": 651080,
+   "speaker": "Management",
+   "text": "This builds on our strategy to strengthen security operations as threats grow more complex. We'll have more to share later this month. Now, on to our innovation. We are focused on four often overlapping objectives. Number one, simplifying network operations. Number two, scaling infrastructure for agentic AI. Number three, reimagining security and trust for agentic AI. And four, delivering intelligent workplace experiences. Last quarter, we highlighted Cisco Cloud Control as a breakthrough in simplifying operations. Since launch, more than 6,000 customers have signed up and can increase productivity by",
+   "parts": [
+    {
+     "t0_ms": 610020,
+     "text": "This builds on our strategy to strengthen security operations as threats grow more complex."
+    },
+    {
+     "t0_ms": 615720,
+     "text": "We'll have more to share later this month."
+    },
+    {
+     "t0_ms": 617420,
+     "text": "Now, on to our innovation."
+    },
+    {
+     "t0_ms": 621460,
+     "text": "We are focused on four often overlapping objectives."
+    },
+    {
+     "t0_ms": 625140,
+     "text": "Number one, simplifying network operations."
+    },
+    {
+     "t0_ms": 628100,
+     "text": "Number two, scaling infrastructure for agentic AI."
+    },
+    {
+     "t0_ms": 632260,
+     "text": "Number three, reimagining security and trust for agentic AI."
+    },
+    {
+     "t0_ms": 637100,
+     "text": "And four, delivering intelligent workplace experiences."
+    },
+    {
+     "t0_ms": 641240,
+     "text": "Last quarter, we highlighted Cisco Cloud Control as a breakthrough in simplifying operations."
+    },
+    {
+     "t0_ms": 646720,
+     "text": "Since launch, more than 6,000 customers have signed up and can increase productivity by"
+    }
+   ]
+  },
+  {
+   "t0_ms": 651080,
+   "t1_ms": 691520,
+   "speaker": "Management",
+   "text": "accessing multiple Cisco and partner products through a single user interface. We're building integrations within the platform, including AI Canvas, Cisco IQ, and the recently launched Cisco Model Foundry. Cisco IQ now has more than 17,000 customers, nearly doubling quarter over quarter, and and visibility into 23 million devices, accelerating vulnerability tracking from days to minutes. To scale infrastructure and improve the efficiency of AI factories, we recently announced plans with NVIDIA to develop the ultra-dense small form factor pluggable, or USFP, optical module.",
+   "parts": [
+    {
+     "t0_ms": 651080,
+     "text": "accessing multiple Cisco and partner products through a single user interface."
+    },
+    {
+     "t0_ms": 656720,
+     "text": "We're building integrations within the platform, including AI Canvas, Cisco IQ, and the recently"
+    },
+    {
+     "t0_ms": 662640,
+     "text": "launched Cisco Model Foundry."
+    },
+    {
+     "t0_ms": 665220,
+     "text": "Cisco IQ now has more than 17,000 customers, nearly doubling quarter over quarter, and"
+    },
+    {
+     "t0_ms": 671080,
+     "text": "and visibility into 23 million devices, accelerating vulnerability tracking from days to minutes."
+    },
+    {
+     "t0_ms": 678900,
+     "text": "To scale infrastructure and improve the efficiency of AI factories, we recently announced plans"
+    },
+    {
+     "t0_ms": 684200,
+     "text": "with NVIDIA to develop the ultra-dense small form factor pluggable, or USFP, optical module."
+    }
+   ]
+  },
+  {
+   "t0_ms": 691520,
+   "t1_ms": 733430,
+   "speaker": "Management",
+   "text": "We expect USFP to deliver 4x the bandwidth density and 1.3 times the power efficiency of current models. We also plan to create an open industry USFP specification to drive adoption. Our advances in security and trust are ongoing as we continue to introduce resilient and quantum-safe innovations. We've expanded support for Live Protect across more of our campus networking portfolio, extended quantum readiness to Wi-Fi 7 access points, and plan to provide quantum-safe communications across most of our core portfolio by the end of this calendar year. We continue to develop intelligent workplace experiences, recently launching Clawed Managed",
+   "parts": [
+    {
+     "t0_ms": 691520,
+     "text": "We expect USFP to deliver 4x the bandwidth density and 1.3 times the power efficiency"
+    },
+    {
+     "t0_ms": 697980,
+     "text": "of current models."
+    },
+    {
+     "t0_ms": 699840,
+     "text": "We also plan to create an open industry USFP specification to drive adoption."
+    },
+    {
+     "t0_ms": 705800,
+     "text": "Our advances in security and trust are ongoing as we continue to introduce resilient and"
+    },
+    {
+     "t0_ms": 710140,
+     "text": "quantum-safe innovations."
+    },
+    {
+     "t0_ms": 712400,
+     "text": "We've expanded support for Live Protect across more of our campus networking portfolio, extended"
+    },
+    {
+     "t0_ms": 717900,
+     "text": "quantum readiness to Wi-Fi 7 access points, and plan to provide quantum-safe communications"
+    },
+    {
+     "t0_ms": 723640,
+     "text": "across most of our core portfolio by the end of this calendar year."
+    },
+    {
+     "t0_ms": 728810,
+     "text": "We continue to develop intelligent workplace experiences, recently launching Clawed Managed"
+    }
+   ]
+  },
+  {
+   "t0_ms": 733430,
+   "t1_ms": 772950,
+   "speaker": "Management",
+   "text": "Agents and Dialogue, an agentic harness in Webex. Our teams continue to drive this work forward through their innovation, productivity and commitment to leveraging AI tools. At the start of fiscal 27, we provided an AI agent for every employee. We expect to continue accelerating AI adoption, helping our employees execute as a team. Now I'll turn it over to Mark for more detail on the quarter and our outlook. Thanks, Chuck. I'm proud to report that we delivered another record quarter, exceeding the high end of our guidance across revenue, operating margin, and DPS, while also delivering strong operating cash flow.",
+   "parts": [
+    {
+     "t0_ms": 733430,
+     "text": "Agents and Dialogue, an agentic harness in Webex."
+    },
+    {
+     "t0_ms": 737990,
+     "text": "Our teams continue to drive this work forward through their innovation, productivity and"
+    },
+    {
+     "t0_ms": 742030,
+     "text": "commitment to leveraging AI tools."
+    },
+    {
+     "t0_ms": 744590,
+     "text": "At the start of fiscal 27, we provided an AI agent for every employee."
+    },
+    {
+     "t0_ms": 749550,
+     "text": "We expect to continue accelerating AI adoption, helping our employees execute as a team."
+    },
+    {
+     "t0_ms": 755570,
+     "text": "Now I'll turn it over to Mark for more detail on the quarter and our outlook."
+    },
+    {
+     "t0_ms": 759010,
+     "text": "Thanks, Chuck."
+    },
+    {
+     "t0_ms": 760650,
+     "text": "I'm proud to report that we delivered another record quarter, exceeding the high end of"
+    },
+    {
+     "t0_ms": 765110,
+     "text": "our guidance across revenue, operating margin, and DPS, while also delivering strong operating"
+    },
+    {
+     "t0_ms": 771310,
+     "text": "cash flow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 772950,
+   "t1_ms": 816810,
+   "speaker": "Management",
+   "text": "For the quarter, total revenue of $18.5 billion was an all-time high, up 24% year-on-year. operating margin rose to 37.8%, and non-GAAP earnings per share was $1.40, up 40% year-over-year, demonstrating continued operating leverage. Total product revenue was $14.7 billion, up 32% year-over-year, and services revenue was $3.9 billion, up 1% year-over-year. Product revenue growth was led by networking, accelerating to 43% year-over-year growth and with broad strength across the portfolio, led by triple-digit growth in AI infrastructure",
+   "parts": [
+    {
+     "t0_ms": 772950,
+     "text": "For the quarter, total revenue of $18.5 billion was an all-time high, up 24% year-on-year."
+    },
+    {
+     "t0_ms": 781590,
+     "text": "operating margin rose to 37.8%, and non-GAAP earnings per share was $1.40, up 40% year-over-year,"
+    },
+    {
+     "t0_ms": 790110,
+     "text": "demonstrating continued operating leverage. Total product revenue was $14.7 billion,"
+    },
+    {
+     "t0_ms": 795930,
+     "text": "up 32% year-over-year, and services revenue was $3.9 billion, up 1% year-over-year."
+    },
+    {
+     "t0_ms": 804290,
+     "text": "Product revenue growth was led by networking, accelerating to 43% year-over-year growth"
+    },
+    {
+     "t0_ms": 810150,
+     "text": "and with broad strength across the portfolio, led by triple-digit growth in AI infrastructure"
+    }
+   ]
+  },
+  {
+   "t0_ms": 816810,
+   "t1_ms": 858790,
+   "speaker": "Management",
+   "text": "and double-digit growth in data center switching and campus networking. Security delivered a strong quarter, up 7%, reflecting growth in Splunk, network security, and SASE. Collaboration was up 8% with double-digit growth in devices and growth in contact center. Turning to our recurring metrics. Total RPO was $46.2 billion, up 8%, with product RPO up 7%. Total ARR ended the quarter at $32.7 billion, an increase of 4%, with product ARR also up 4%.",
+   "parts": [
+    {
+     "t0_ms": 816810,
+     "text": "and double-digit growth in data center switching and campus networking."
+    },
+    {
+     "t0_ms": 822230,
+     "text": "Security delivered a strong quarter, up 7%, reflecting growth in Splunk, network security, and SASE."
+    },
+    {
+     "t0_ms": 831030,
+     "text": "Collaboration was up 8% with double-digit growth in devices and growth in contact center."
+    },
+    {
+     "t0_ms": 838110,
+     "text": "Turning to our recurring metrics."
+    },
+    {
+     "t0_ms": 840150,
+     "text": "Total RPO was $46.2 billion, up 8%, with product RPO up 7%."
+    },
+    {
+     "t0_ms": 848490,
+     "text": "Total ARR ended the quarter at $32.7 billion, an increase of 4%, with product ARR also up 4%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 858790,
+   "t1_ms": 897590,
+   "speaker": "Management",
+   "text": "Total subscription revenue represented 44% of Cisco's total revenue. Total software revenue was $6.1 billion, up 8%. Q1 product orders were up 21% year-over-year, with a broad-based strength across geographies, technologies, and customer markets. All geographies saw double-digit growth, with the Americas up 18%, EMEA up 12%, and APJC up 57%. Across customer markets, growth was led by service provider and cloud, up 47%.",
+   "parts": [
+    {
+     "t0_ms": 858790,
+     "text": "Total subscription revenue represented 44% of Cisco's total revenue."
+    },
+    {
+     "t0_ms": 864590,
+     "text": "Total software revenue was $6.1 billion, up 8%."
+    },
+    {
+     "t0_ms": 870150,
+     "text": "Q1 product orders were up 21% year-over-year, with a broad-based strength across geographies, technologies, and customer markets."
+    },
+    {
+     "t0_ms": 880230,
+     "text": "All geographies saw double-digit growth, with the Americas up 18%, EMEA up 12%, and APJC up 57%."
+    },
+    {
+     "t0_ms": 890370,
+     "text": "Across customer markets, growth was led by service provider and cloud, up 47%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 897590,
+   "t1_ms": 937570,
+   "speaker": "Management",
+   "text": "We also saw strength in enterprise and public sector, which were up 15% and 13%, respectively. Total non-GAAP gross margin came in at 65.6%, slightly above the midpoint of our guide, and down 250 basis points year-over-year, as hardware revenue growth significantly outpaced software and services revenue growth. Non-GAAP product gross margin was 63.7%, down 350 basis points, primarily driven by higher hardware mix and elevated memory costs, partially offset by productivity improvements and price increases.",
+   "parts": [
+    {
+     "t0_ms": 897590,
+     "text": "We also saw strength in enterprise and public sector, which were up 15% and 13%, respectively."
+    },
+    {
+     "t0_ms": 906490,
+     "text": "Total non-GAAP gross margin came in at 65.6%, slightly above the midpoint of our guide,"
+    },
+    {
+     "t0_ms": 915010,
+     "text": "and down 250 basis points year-over-year, as hardware revenue growth significantly outpaced software and services revenue growth."
+    },
+    {
+     "t0_ms": 921850,
+     "text": "Non-GAAP product gross margin was 63.7%, down 350 basis points, primarily driven by higher"
+    },
+    {
+     "t0_ms": 930550,
+     "text": "hardware mix and elevated memory costs, partially offset by productivity improvements and price"
+    },
+    {
+     "t0_ms": 937110,
+     "text": "increases."
+    }
+   ]
+  },
+  {
+   "t0_ms": 938690,
+   "t1_ms": 975810,
+   "speaker": "Management",
+   "text": "Non-GAAP services gross margin was 72.9%, up 220 basis points. As hardware continues to increase as a percentage of our overall revenue mix, and with hyperscale revenue expected to more than double year over year in FY27, we are driving record scale and profitability in our business. In FY27, we expect AI hyperscale revenue to represent 12% of total revenue, up from 6% in FY26. At the same time, total headcount has declined by a low single-digit",
+   "parts": [
+    {
+     "t0_ms": 938690,
+     "text": "Non-GAAP services gross margin was 72.9%, up 220 basis points."
+    },
+    {
+     "t0_ms": 946190,
+     "text": "As hardware continues to increase as a percentage of our overall revenue mix, and with hyperscale"
+    },
+    {
+     "t0_ms": 951830,
+     "text": "revenue expected to more than double year over year in FY27, we are driving record scale and"
+    },
+    {
+     "t0_ms": 958630,
+     "text": "profitability in our business. In FY27, we expect AI hyperscale revenue to represent 12% of total"
+    },
+    {
+     "t0_ms": 966230,
+     "text": "revenue, up from 6% in FY26. At the same time, total headcount has declined by a low single-digit"
+    }
+   ]
+  },
+  {
+   "t0_ms": 975810,
+   "t1_ms": 1018810,
+   "speaker": "Management",
+   "text": "percentage, driving an expected revenue per employee increase of approximately 19% based on our updated FY27 guidance. The acceleration of these outsized growth opportunities balanced with financial discipline enables us to increase our operating margin from 34.8% in FY26 to an expected 36% in FY27. Our non-GAAP tax rate was 18.5% for the quarter. Shifting to the balance sheet, we ended Q1 with total cash, cash equivalents, and investments of $15.8 billion.",
+   "parts": [
+    {
+     "t0_ms": 975810,
+     "text": "percentage, driving an expected revenue per employee increase of approximately 19% based"
+    },
+    {
+     "t0_ms": 983830,
+     "text": "on our updated FY27 guidance."
+    },
+    {
+     "t0_ms": 987530,
+     "text": "The acceleration of these outsized growth opportunities balanced with financial discipline"
+    },
+    {
+     "t0_ms": 992290,
+     "text": "enables us to increase our operating margin from 34.8% in FY26 to an expected 36% in FY27."
+    },
+    {
+     "t0_ms": 1004890,
+     "text": "Our non-GAAP tax rate was 18.5% for the quarter."
+    },
+    {
+     "t0_ms": 1009750,
+     "text": "Shifting to the balance sheet, we ended Q1 with total cash, cash equivalents, and investments"
+    },
+    {
+     "t0_ms": 1015770,
+     "text": "of $15.8 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1018810,
+   "t1_ms": 1059510,
+   "speaker": "Management",
+   "text": "Operating cash flow was $4.4 billion, up 36%, driven by strong revenue growth and net income. From a capital allocation perspective, we returned $3.7 billion to our shareholders during the quarter, comprised of $1.7 billion for our quarterly cash dividend and $2 billion through share repurchases. There is $6.1 billion remaining under our share repurchase program. We remain focused on making strategic investments in organic innovation to capitalize on the significant growth opportunities we see ahead, as well as complementary M&A opportunities.",
+   "parts": [
+    {
+     "t0_ms": 1018810,
+     "text": "Operating cash flow was $4.4 billion, up 36%, driven by strong revenue growth and net income."
+    },
+    {
+     "t0_ms": 1027970,
+     "text": "From a capital allocation perspective, we returned $3.7 billion to our shareholders"
+    },
+    {
+     "t0_ms": 1033089,
+     "text": "during the quarter, comprised of $1.7 billion for our quarterly cash dividend and $2 billion"
+    },
+    {
+     "t0_ms": 1039390,
+     "text": "through share repurchases. There is $6.1 billion remaining under our share repurchase program."
+    },
+    {
+     "t0_ms": 1046550,
+     "text": "We remain focused on making strategic investments in organic innovation to capitalize on the"
+    },
+    {
+     "t0_ms": 1053550,
+     "text": "significant growth opportunities we see ahead, as well as complementary M&A opportunities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1059510,
+   "t1_ms": 1100630,
+   "speaker": "Management",
+   "text": "In Q1, we closed the acquisition of Wide Field Security to accelerate our Splunk-Agentic SOC and help stop identity threats at machine speed. These investments continue to be underpinned by our commitment to disciplined spend management. It is this powerful combination that continues to strengthen the robust earnings power of our business, support strong cash flow, and enable us to return significant value to our shareholders. in summary we achieved record performance for the quarter with top and bottom line results that exceeded our expectations this performance reflects our accelerated pace of innovation",
+   "parts": [
+    {
+     "t0_ms": 1059510,
+     "text": "In Q1, we closed the acquisition of Wide Field Security to accelerate our Splunk-Agentic SOC and help stop identity threats at machine speed."
+    },
+    {
+     "t0_ms": 1070350,
+     "text": "These investments continue to be underpinned by our commitment to disciplined spend management."
+    },
+    {
+     "t0_ms": 1075790,
+     "text": "It is this powerful combination that continues to strengthen the robust earnings power of our business,"
+    },
+    {
+     "t0_ms": 1083150,
+     "text": "support strong cash flow, and enable us to return significant value to our shareholders."
+    },
+    {
+     "t0_ms": 1089510,
+     "text": "in summary we achieved record performance for the quarter with top and bottom line results that"
+    },
+    {
+     "t0_ms": 1095110,
+     "text": "exceeded our expectations this performance reflects our accelerated pace of innovation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1100630,
+   "t1_ms": 1143150,
+   "speaker": "Management",
+   "text": "across our portfolio strong order momentum and disciplined expense management looking ahead you can expect us to remain focused on delivering durable growth and maintaining financial discipline while driving operating leverage and continued capital returns. Turning to guidance, for Fiscal Q2, our guidance is as follows. We expect revenue to be in the range of $18 billion to $18.2 billion. We anticipate non-GAAP gross margin to be in the range of 65% to 66%. Non-GAAP operating margin is expected to be in the range of 36% to 37%.",
+   "parts": [
+    {
+     "t0_ms": 1100630,
+     "text": "across our portfolio strong order momentum and disciplined expense management looking ahead you"
+    },
+    {
+     "t0_ms": 1107750,
+     "text": "can expect us to remain focused on delivering durable growth and maintaining financial"
+    },
+    {
+     "t0_ms": 1113430,
+     "text": "discipline while driving operating leverage and continued capital returns."
+    },
+    {
+     "t0_ms": 1118950,
+     "text": "Turning to guidance, for Fiscal Q2, our guidance is as follows."
+    },
+    {
+     "t0_ms": 1124650,
+     "text": "We expect revenue to be in the range of $18 billion to $18.2 billion."
+    },
+    {
+     "t0_ms": 1129510,
+     "text": "We anticipate non-GAAP gross margin to be in the range of 65% to 66%."
+    },
+    {
+     "t0_ms": 1137250,
+     "text": "Non-GAAP operating margin is expected to be in the range of 36% to 37%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1143150,
+   "t1_ms": 1187510,
+   "speaker": "Management",
+   "text": "Non-GAAP earnings per share is expected to range from $1.34 to $1.36. We are assuming a non-GAAP effective tax rate of approximately 18.5%. Our raised guidance for fiscal year 27 is as follows. We expect revenue to be in the range of $74.8 billion to $75.8 billion. Non-GAAP earnings per share is expected to range from $5.47 to $5.53. Sammy, let's now move into the Q&A. Thank you, Mark. Before we start the Q&A portion of the call, I'd like to remind analysts to ask one question and a single follow-up question at the same time.",
+   "parts": [
+    {
+     "t0_ms": 1143150,
+     "text": "Non-GAAP earnings per share is expected to range from $1.34 to $1.36."
+    },
+    {
+     "t0_ms": 1150350,
+     "text": "We are assuming a non-GAAP effective tax rate of approximately 18.5%."
+    },
+    {
+     "t0_ms": 1155730,
+     "text": "Our raised guidance for fiscal year 27 is as follows."
+    },
+    {
+     "t0_ms": 1161490,
+     "text": "We expect revenue to be in the range of $74.8 billion to $75.8 billion."
+    },
+    {
+     "t0_ms": 1168770,
+     "text": "Non-GAAP earnings per share is expected to range from $5.47 to $5.53."
+    },
+    {
+     "t0_ms": 1176570,
+     "text": "Sammy, let's now move into the Q&A."
+    },
+    {
+     "t0_ms": 1179230,
+     "text": "Thank you, Mark."
+    },
+    {
+     "t0_ms": 1180690,
+     "text": "Before we start the Q&A portion of the call, I'd like to remind analysts to ask one question"
+    },
+    {
+     "t0_ms": 1185390,
+     "text": "and a single follow-up question at the same time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1188290,
+   "t1_ms": 1190730,
+   "speaker": "Management",
+   "text": "Operator, can we move to the first analyst in the queue?",
+   "parts": [
+    {
+     "t0_ms": 1188290,
+     "text": "Operator, can we move to the first analyst in the queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1192090,
+   "t1_ms": 1196630,
+   "speaker": "Operator",
+   "text": "Thank you, sir. I'm at Darinani with Evercore ISI. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1192090,
+     "text": "Thank you, sir."
+    },
+    {
+     "t0_ms": 1192930,
+     "text": "I'm at Darinani with Evercore ISI."
+    },
+    {
+     "t0_ms": 1195870,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1197850,
+   "t1_ms": 1240890,
+   "speaker": "Management",
+   "text": "Yep. Thanks a lot. Good afternoon, everyone, and congrats on some really impressive numbers. I guess maybe to start with, you know, you folks are raising your fiscal 27 AI revenue target to $9 billion. I think it was $7.5 billion last quarter. Could you spend a little bit of time on what's changed in the 90 days? Is it just larger deployments of existing customers, or you have better visibility with TSMC in terms of allocation? Look and decide, like, what's getting better? Is there any skew in Silicon One versus Optics that would be helpful? And then my follow-up, really, Mark, on your side, the back half guide implies revenues will actually accelerate really well to like $19.3 billion run rate versus the 18.1 and Q2. But I think the EPS uptake in the back half is a bit more muted at $1.38.",
+   "parts": [
+    {
+     "t0_ms": 1197850,
+     "text": "Yep. Thanks a lot. Good afternoon, everyone, and congrats on some really impressive numbers."
+    },
+    {
+     "t0_ms": 1203750,
+     "text": "I guess maybe to start with, you know, you folks are raising your fiscal 27 AI revenue target to $9 billion."
+    },
+    {
+     "t0_ms": 1209490,
+     "text": "I think it was $7.5 billion last quarter."
+    },
+    {
+     "t0_ms": 1211650,
+     "text": "Could you spend a little bit of time on what's changed in the 90 days?"
+    },
+    {
+     "t0_ms": 1214410,
+     "text": "Is it just larger deployments of existing customers, or you have better visibility with TSMC in terms of allocation?"
+    },
+    {
+     "t0_ms": 1219830,
+     "text": "Look and decide, like, what's getting better?"
+    },
+    {
+     "t0_ms": 1221930,
+     "text": "Is there any skew in Silicon One versus Optics that would be helpful?"
+    },
+    {
+     "t0_ms": 1225950,
+     "text": "And then my follow-up, really, Mark, on your side,"
+    },
+    {
+     "t0_ms": 1229350,
+     "text": "the back half guide implies revenues will actually accelerate really well"
+    },
+    {
+     "t0_ms": 1233270,
+     "text": "to like $19.3 billion run rate versus the 18.1 and Q2."
+    },
+    {
+     "t0_ms": 1237250,
+     "text": "But I think the EPS uptake in the back half is a bit more muted at $1.38."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1241610,
+   "t1_ms": 1285540,
+   "speaker": "Management",
+   "text": "Can you just talk about the puts and takes in the back half that's happening under the revenue line? That would be really helpful. Thanks, and congrats again. Hey, this is Chuck. I'll take the first one. Thank you, and thank you for the kind words. Teams are doing a fantastic job. I think on the $9 billion, I think it's being 90 days in, having a little more clarity. We had solid order growth in Q1, and we're just further along in the year. And so I think it's nothing more than just continued strength in the flow from those customers and 90 days more visibility that gave us the confidence to raise it from 7.5 to 9. Mark, on the second one? Yeah, sure. Just to give you a little bit of color, obviously, you know, second half,",
+   "parts": [
+    {
+     "t0_ms": 1241610,
+     "text": "Can you just talk about the puts and takes in the back half"
+    },
+    {
+     "t0_ms": 1243710,
+     "text": "that's happening under the revenue line?"
+    },
+    {
+     "t0_ms": 1245130,
+     "text": "That would be really helpful."
+    },
+    {
+     "t0_ms": 1246230,
+     "text": "Thanks, and congrats again."
+    },
+    {
+     "t0_ms": 1247530,
+     "text": "Hey, this is Chuck."
+    },
+    {
+     "t0_ms": 1250540,
+     "text": "I'll take the first one."
+    },
+    {
+     "t0_ms": 1251340,
+     "text": "Thank you, and thank you for the kind words."
+    },
+    {
+     "t0_ms": 1253920,
+     "text": "Teams are doing a fantastic job."
+    },
+    {
+     "t0_ms": 1255580,
+     "text": "I think on the $9 billion, I think it's being 90 days in, having a little more clarity."
+    },
+    {
+     "t0_ms": 1260100,
+     "text": "We had solid order growth in Q1, and we're just further along in the year."
+    },
+    {
+     "t0_ms": 1266720,
+     "text": "And so I think it's nothing more than just continued strength in the flow from those customers"
+    },
+    {
+     "t0_ms": 1274020,
+     "text": "and 90 days more visibility that gave us the confidence to raise it from 7.5 to 9."
+    },
+    {
+     "t0_ms": 1280760,
+     "text": "Mark, on the second one?"
+    },
+    {
+     "t0_ms": 1281900,
+     "text": "Yeah, sure."
+    },
+    {
+     "t0_ms": 1282600,
+     "text": "Just to give you a little bit of color, obviously, you know, second half,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1285580,
+   "t1_ms": 1330340,
+   "speaker": "Management",
+   "text": "we do have a tougher comparison and a little bit less visibility than we would have in Q2 anyway. But overall, I think if you kind of just take a step back, you know, FY26 was a record year for us on both the revenue side as well as EPS and growing the top line 12% and the bottom line 14%. And both of those with our updated guide, you're seeing significant acceleration. So, the top line moving from 12% all the way up to 19%, and the bottom line moving from 14% growth to 27% growth. So, really strong operating leverage and really good acceleration off of what was a record year last year. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 1285580,
+     "text": "we do have a tougher comparison and a little bit less visibility than we would have in Q2 anyway."
+    },
+    {
+     "t0_ms": 1292700,
+     "text": "But overall, I think if you kind of just take a step back, you know, FY26 was a record year for us"
+    },
+    {
+     "t0_ms": 1300400,
+     "text": "on both the revenue side as well as EPS and growing the top line 12% and the bottom line 14%."
+    },
+    {
+     "t0_ms": 1308100,
+     "text": "And both of those with our updated guide, you're seeing significant acceleration."
+    },
+    {
+     "t0_ms": 1314280,
+     "text": "So, the top line moving from 12% all the way up to 19%, and the bottom line moving from 14% growth to 27% growth."
+    },
+    {
+     "t0_ms": 1324040,
+     "text": "So, really strong operating leverage and really good acceleration off of what was a record year last year."
+    },
+    {
+     "t0_ms": 1330120,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1331160,
+   "t1_ms": 1334280,
+   "speaker": "Management",
+   "text": "Thank you, Ahmed. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 1331160,
+     "text": "Thank you, Ahmed."
+    },
+    {
+     "t0_ms": 1332380,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1335380,
+   "t1_ms": 1339720,
+   "speaker": "Operator",
+   "text": "Thank you, sir. Ben writes us with Milius Research. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 1335380,
+     "text": "Thank you, sir."
+    },
+    {
+     "t0_ms": 1336520,
+     "text": "Ben writes us with Milius Research."
+    },
+    {
+     "t0_ms": 1338680,
+     "text": "Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1340940,
+   "t1_ms": 1367560,
+   "speaker": "Management",
+   "text": "Yeah, hey, guys. Thanks. It's a pleasure to be speaking with you and some nice results here. Chuck, could you talk about your exposure to the neocloud space and whether that's in the AI revenues you're guiding to? And, you know, there's some folks that think that that could decelerate, you know, as they try to see what their funding situation is like throughout the year and wondering what your exposure is there.",
+   "parts": [
+    {
+     "t0_ms": 1340940,
+     "text": "Yeah, hey, guys."
+    },
+    {
+     "t0_ms": 1341900,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1342200,
+     "text": "It's a pleasure to be speaking with you and some nice results here."
+    },
+    {
+     "t0_ms": 1345960,
+     "text": "Chuck, could you talk about your exposure to the neocloud space and whether that's in the AI revenues you're guiding to?"
+    },
+    {
+     "t0_ms": 1355720,
+     "text": "And, you know, there's some folks that think that that could decelerate, you know, as they try to see what their funding situation is like throughout the year and wondering what your exposure is there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1367560,
+   "t1_ms": 1411130,
+   "speaker": "Management",
+   "text": "And then just overall, with regard to the campus cycle, my follow-up is with regard to where are we in it, you know, is there \u2013 why would it decelerate, you know, from here in terms of the campus upgrades, given all the security concerns that are out there? Just a little more color around where we are in that cycle. That would be great. And thanks again, guys. Thank you, Ben. And so I would say I would characterize our neocloud exposure to being relatively immaterial. We certainly have business with them, but we've been very conservative relative to credit situations.",
+   "parts": [
+    {
+     "t0_ms": 1367560,
+     "text": "And then just overall, with regard to the campus cycle, my follow-up is with regard to where are we in it, you know, is there \u2013 why would it decelerate, you know, from here in terms of the campus upgrades, given all the security concerns that are out there?"
+    },
+    {
+     "t0_ms": 1387220,
+     "text": "Just a little more color around where we are in that cycle."
+    },
+    {
+     "t0_ms": 1390200,
+     "text": "That would be great."
+    },
+    {
+     "t0_ms": 1390980,
+     "text": "And thanks again, guys."
+    },
+    {
+     "t0_ms": 1394150,
+     "text": "Thank you, Ben."
+    },
+    {
+     "t0_ms": 1394690,
+     "text": "And so I would say I would characterize our neocloud exposure to being relatively immaterial."
+    },
+    {
+     "t0_ms": 1404210,
+     "text": "We certainly have business with them, but we've been very conservative relative to credit situations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1412090,
+   "t1_ms": 1455530,
+   "speaker": "Management",
+   "text": "And to answer the second part of that question, the neoclouds we do not include in our AI revenue. That's simply the hyperscalers. Secondly, on the campus cycle, I think you're right. We are, you know, we saw very strong results across the enterprise networking portfolio this quarter. I think double digits across all of networking, all the networking categories. In the campus switching side, I believe that we are, in the quarter we saw of the switching, we sold only 9% was really coming from the new portfolio. And so, again, we see this being very early, and I think your assumption relative to the impact of mythos",
+   "parts": [
+    {
+     "t0_ms": 1412090,
+     "text": "And to answer the second part of that question, the neoclouds we do not include in our AI revenue."
+    },
+    {
+     "t0_ms": 1419210,
+     "text": "That's simply the hyperscalers."
+    },
+    {
+     "t0_ms": 1420450,
+     "text": "Secondly, on the campus cycle, I think you're right."
+    },
+    {
+     "t0_ms": 1426330,
+     "text": "We are, you know, we saw very strong results across the enterprise networking portfolio this quarter."
+    },
+    {
+     "t0_ms": 1432710,
+     "text": "I think double digits across all of networking, all the networking categories."
+    },
+    {
+     "t0_ms": 1438050,
+     "text": "In the campus switching side, I believe that we are, in the quarter we saw of the switching,"
+    },
+    {
+     "t0_ms": 1445010,
+     "text": "we sold only 9% was really coming from the new portfolio."
+    },
+    {
+     "t0_ms": 1448790,
+     "text": "And so, again, we see this being very early,"
+    },
+    {
+     "t0_ms": 1451370,
+     "text": "and I think your assumption relative to the impact of mythos"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1455530,
+   "t1_ms": 1483790,
+   "speaker": "Management",
+   "text": "and some of the upgrade stuff I think are quite accurate. We don't anticipate any meaningful change and likely just more customers looking at modernization for bandwidth reasons relative to their rollout of agentic as well as just security issues and modernization relative to the post-mythos era. Thank you, Ben. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 1455530,
+     "text": "and some of the upgrade stuff I think are quite accurate."
+    },
+    {
+     "t0_ms": 1459710,
+     "text": "We don't anticipate any meaningful change"
+    },
+    {
+     "t0_ms": 1463490,
+     "text": "and likely just more customers looking at modernization for bandwidth reasons"
+    },
+    {
+     "t0_ms": 1469830,
+     "text": "relative to their rollout of agentic as well as just security issues"
+    },
+    {
+     "t0_ms": 1474470,
+     "text": "and modernization relative to the post-mythos era."
+    },
+    {
+     "t0_ms": 1477910,
+     "text": "Thank you, Ben."
+    },
+    {
+     "t0_ms": 1479910,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1483790,
+   "t1_ms": 1487710,
+   "speaker": "Operator",
+   "text": "Thank you. Tal Liani with Bank of America. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1483790,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1484790,
+     "text": "Tal Liani with Bank of America."
+    },
+    {
+     "t0_ms": 1486710,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1487710,
+   "t1_ms": 1525070,
+   "speaker": "Management",
+   "text": "Hi, guys. I hope you can hear me. I have two questions. First, Chuck, you said in the prepared remarks that this is a multi-year where the beginning of a multi-year cycle. And the question is what gives you the confidence to say and the alternative would be this is just a cycle where at the peak of a cycle, et cetera. I'm just giving kind of the alternative view. So what gives you the confidence to think that this is a multi-year cycle and this is not just peak cycle of spending by hyperscalers? And the second question that is, we speak a lot",
+   "parts": [
+    {
+     "t0_ms": 1487710,
+     "text": "Hi, guys."
+    },
+    {
+     "t0_ms": 1488710,
+     "text": "I hope you can hear me."
+    },
+    {
+     "t0_ms": 1491710,
+     "text": "I have two questions."
+    },
+    {
+     "t0_ms": 1494290,
+     "text": "First, Chuck, you said in the prepared remarks that this is a multi-year where the beginning"
+    },
+    {
+     "t0_ms": 1499190,
+     "text": "of a multi-year cycle."
+    },
+    {
+     "t0_ms": 1501930,
+     "text": "And the question is what gives you the confidence to say and the alternative would be this is"
+    },
+    {
+     "t0_ms": 1507290,
+     "text": "just a cycle where at the peak of a cycle, et cetera. I'm just giving kind of the alternative"
+    },
+    {
+     "t0_ms": 1512770,
+     "text": "view. So what gives you the confidence to think that this is a multi-year cycle and this is not"
+    },
+    {
+     "t0_ms": 1517770,
+     "text": "just peak cycle of spending by hyperscalers? And the second question that is, we speak a lot"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1525070,
+   "t1_ms": 1565070,
+   "speaker": "Management",
+   "text": "about campus, but can you talk about the readiness or the deployment of enterprise networks for AI? Meaning, are you seeing enterprises preparing for AI, updating networks, or what are your expectations on that front? Thanks. Thank you, Tal. We do think it's a multi-year cycle, and we think that it's obviously billions of dollars. And let me give you five drivers that I think are the key to why I have a high degree of confidence around the sustainability of this growth.",
+   "parts": [
+    {
+     "t0_ms": 1525070,
+     "text": "about campus, but can you talk about the readiness or the deployment of enterprise networks for AI?"
+    },
+    {
+     "t0_ms": 1535850,
+     "text": "Meaning, are you seeing enterprises preparing for AI, updating networks, or what are your expectations on that front?"
+    },
+    {
+     "t0_ms": 1544230,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1545990,
+     "text": "Thank you, Tal."
+    },
+    {
+     "t0_ms": 1547210,
+     "text": "We do think it's a multi-year cycle, and we think that it's obviously billions of dollars."
+    },
+    {
+     "t0_ms": 1554650,
+     "text": "And let me give you five drivers that I think are the key to why I have a high degree of confidence around the sustainability of this growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1565070,
+   "t1_ms": 1606130,
+   "speaker": "Management",
+   "text": "versus the hyperscale success. We've had 18 AI design wins in the last five quarters, and obviously we raised the AI guide to $9 billion, more than double what it was last year. So that's the first that we expect to continue. The second is the campus network refresh and modernization. We've seen double-digit order growth multiple quarters. We're still in the very early stages, less than 10% on the transition. So that's the second big driver. The third, and somewhat connected to that but more broad, is the post-mythos opportunity. We're beginning to hear customers that are attributing orders to early mythos implications.",
+   "parts": [
+    {
+     "t0_ms": 1565070,
+     "text": "versus the hyperscale success. We've had 18 AI design wins in the last five quarters,"
+    },
+    {
+     "t0_ms": 1570910,
+     "text": "and obviously we raised the AI guide to $9 billion, more than double what it was last year."
+    },
+    {
+     "t0_ms": 1575910,
+     "text": "So that's the first that we expect to continue. The second is the campus network refresh and"
+    },
+    {
+     "t0_ms": 1581550,
+     "text": "modernization. We've seen double-digit order growth multiple quarters. We're still in the"
+    },
+    {
+     "t0_ms": 1586910,
+     "text": "very early stages, less than 10% on the transition. So that's the second big driver."
+    },
+    {
+     "t0_ms": 1593690,
+     "text": "The third, and somewhat connected to that but more broad, is the post-mythos opportunity."
+    },
+    {
+     "t0_ms": 1598450,
+     "text": "We're beginning to hear customers that are attributing orders to early mythos implications."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1606670,
+   "t1_ms": 1650890,
+   "speaker": "Management",
+   "text": "We heard it in Europe, as an example, with service providers relative to the managed services CPE that they're needing to upgrade for their customers. And while customers want to move fast, they want to do this right. So they're taking the appropriate time to plan, to design the right architecture, because they know if they're going to go through doing this, they've got to get the architecture exactly right. So that's the third. The fourth is sovereign infrastructure. We all know that countries around the world, beginning in Europe, are looking for infrastructure that they feel like they have operational control over. and we're fortunate that we're one of the few companies",
+   "parts": [
+    {
+     "t0_ms": 1606670,
+     "text": "We heard it in Europe, as an example, with service providers relative to the managed services CPE"
+    },
+    {
+     "t0_ms": 1614370,
+     "text": "that they're needing to upgrade for their customers."
+    },
+    {
+     "t0_ms": 1617370,
+     "text": "And while customers want to move fast, they want to do this right."
+    },
+    {
+     "t0_ms": 1621650,
+     "text": "So they're taking the appropriate time to plan, to design the right architecture, because they know if they're going to go through doing this, they've got to get the architecture exactly right."
+    },
+    {
+     "t0_ms": 1631430,
+     "text": "So that's the third."
+    },
+    {
+     "t0_ms": 1632690,
+     "text": "The fourth is sovereign infrastructure."
+    },
+    {
+     "t0_ms": 1636050,
+     "text": "We all know that countries around the world, beginning in Europe, are looking for infrastructure that they feel like they have operational control over."
+    },
+    {
+     "t0_ms": 1647450,
+     "text": "and we're fortunate that we're one of the few companies"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1650890,
+   "t1_ms": 1692190,
+   "speaker": "Management",
+   "text": "that has maintained a robust on-premise portfolio so we're able to deliver. We announced a year ago sovereign critical infrastructure for Europe. We expanded and launched it for Canada. I recently pre-announced it in India and we'll continue to roll it out around the world. In addition to the work we're doing with sovereign cloud providers like Humane, G42, and other sovereign nations. The fifth and final one is this acceleration we're seeing of the hybrid data center architecture with our enterprise customers. So our enterprise customers will be running AI applications in the cloud,",
+   "parts": [
+    {
+     "t0_ms": 1650890,
+     "text": "that has maintained a robust on-premise portfolio"
+    },
+    {
+     "t0_ms": 1655690,
+     "text": "so we're able to deliver."
+    },
+    {
+     "t0_ms": 1657250,
+     "text": "We announced a year ago sovereign critical infrastructure for Europe."
+    },
+    {
+     "t0_ms": 1661290,
+     "text": "We expanded and launched it for Canada."
+    },
+    {
+     "t0_ms": 1664030,
+     "text": "I recently pre-announced it in India"
+    },
+    {
+     "t0_ms": 1666250,
+     "text": "and we'll continue to roll it out around the world."
+    },
+    {
+     "t0_ms": 1670430,
+     "text": "In addition to the work we're doing with sovereign cloud providers"
+    },
+    {
+     "t0_ms": 1673710,
+     "text": "like Humane, G42, and other sovereign nations."
+    },
+    {
+     "t0_ms": 1677970,
+     "text": "The fifth and final one is this acceleration we're seeing"
+    },
+    {
+     "t0_ms": 1682590,
+     "text": "of the hybrid data center architecture with our enterprise customers."
+    },
+    {
+     "t0_ms": 1686790,
+     "text": "So our enterprise customers will be running AI applications in the cloud,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1692450,
+   "t1_ms": 1729230,
+   "speaker": "Management",
+   "text": "but they are also investing heavily in private data centers. They want to run open-weight and open-source models in their own data center. They want to train on their own data in their own data centers. And that's why we've seen nine out of the last 11 quarters, we've seen double-digit order growth in our enterprise data center and working business. So we feel like each of these areas, all five of these, each are multi-year, multi-billion. And they all feel like they're in relatively early stages. So that's what gives us the confidence on the sustainability.",
+   "parts": [
+    {
+     "t0_ms": 1692450,
+     "text": "but they are also investing heavily in private data centers."
+    },
+    {
+     "t0_ms": 1697310,
+     "text": "They want to run open-weight and open-source models in their own data center."
+    },
+    {
+     "t0_ms": 1701590,
+     "text": "They want to train on their own data in their own data centers."
+    },
+    {
+     "t0_ms": 1706090,
+     "text": "And that's why we've seen nine out of the last 11 quarters, we've seen double-digit order growth in our enterprise data center and working business."
+    },
+    {
+     "t0_ms": 1715730,
+     "text": "So we feel like each of these areas, all five of these, each are multi-year, multi-billion."
+    },
+    {
+     "t0_ms": 1722110,
+     "text": "And they all feel like they're in relatively early stages."
+    },
+    {
+     "t0_ms": 1726190,
+     "text": "So that's what gives us the confidence on the sustainability."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1729230,
+   "t1_ms": 1766630,
+   "speaker": "Management",
+   "text": "And I think on the readiness of the enterprise for AI, I think it's a lot of what I just described, as well as a real focus on agentic security, agentic identity, agentic observability, as well as just the new security architecture that's needed for the AI era. And so I was at one of the major banks in New York just a few hours ago before earnings, and we had a long discussion about this very topic, and I think that's generally what we see going on. Thank you, Tal. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 1729230,
+     "text": "And I think on the readiness of the enterprise for AI, I think it's a lot of what I just described, as well as a real focus on agentic security, agentic identity, agentic observability, as well as just the new security architecture that's needed for the AI era."
+    },
+    {
+     "t0_ms": 1750790,
+     "text": "And so I was at one of the major banks in New York just a few hours ago before earnings, and we had a long discussion about this very topic, and I think that's generally what we see going on."
+    },
+    {
+     "t0_ms": 1763710,
+     "text": "Thank you, Tal. Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1767850,
+   "t1_ms": 1771250,
+   "speaker": "Operator",
+   "text": "Thank you. Mita Marshall with Morgan Stanley. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 1767850,
+     "text": "Thank you. Mita Marshall with Morgan Stanley. Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1771250,
+   "t1_ms": 1812440,
+   "speaker": "Management",
+   "text": "Great. Thanks. Just a couple of questions. Just in terms of the strength in the Asia PAC orders this quarter, I assume kind of most of that is due to the sovereign clouds, but just wanted to kind of get any further detail there. And then just on the security business and kind of what you're seeing there in terms of the Splunk business, I know We've had some, you know, license to subscription transitions. If you could just kind of give an update as to where we are there and kind of the impact of that to the security growth. Thanks. Thanks, Mita.",
+   "parts": [
+    {
+     "t0_ms": 1771250,
+     "text": "Great. Thanks. Just a couple of questions. Just in terms of the strength in the Asia"
+    },
+    {
+     "t0_ms": 1779390,
+     "text": "PAC orders this quarter, I assume kind of most of that is due to the sovereign clouds,"
+    },
+    {
+     "t0_ms": 1785390,
+     "text": "but just wanted to kind of get any further detail there. And then just on the security"
+    },
+    {
+     "t0_ms": 1791470,
+     "text": "business and kind of what you're seeing there in terms of the Splunk business, I know"
+    },
+    {
+     "t0_ms": 1797050,
+     "text": "We've had some, you know, license to subscription transitions."
+    },
+    {
+     "t0_ms": 1802750,
+     "text": "If you could just kind of give an update as to where we are there"
+    },
+    {
+     "t0_ms": 1805910,
+     "text": "and kind of the impact of that to the security growth."
+    },
+    {
+     "t0_ms": 1808850,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 1811740,
+     "text": "Thanks, Mita."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1812860,
+   "t1_ms": 1857280,
+   "speaker": "Management",
+   "text": "I'd say APJC did show incredible growth, and, you know, it was very balanced. If you look across the segments, we had enterprise in excess of 30%, public sector in excess of 70%, service product and cloud in triple digits. And it was all theaters, all architectures, all segments. And, again, I think to your point, it was sovereign demand, public sector demand, telco investment, and great performance in the campus networking side. And so we see them also focused on the last day of support opportunity and some of the post-mythos refresh early activity. As it relates to \u2013 what was the second question again?",
+   "parts": [
+    {
+     "t0_ms": 1812860,
+     "text": "I'd say APJC did show incredible growth, and, you know, it was very balanced."
+    },
+    {
+     "t0_ms": 1819560,
+     "text": "If you look across the segments, we had enterprise in excess of 30%,"
+    },
+    {
+     "t0_ms": 1822900,
+     "text": "public sector in excess of 70%, service product and cloud in triple digits."
+    },
+    {
+     "t0_ms": 1827380,
+     "text": "And it was all theaters, all architectures, all segments."
+    },
+    {
+     "t0_ms": 1832400,
+     "text": "And, again, I think to your point, it was sovereign demand, public sector demand, telco investment, and great performance in the campus networking side."
+    },
+    {
+     "t0_ms": 1842100,
+     "text": "And so we see them also focused on the last day of support opportunity and some of the post-mythos refresh early activity."
+    },
+    {
+     "t0_ms": 1853340,
+     "text": "As it relates to \u2013 what was the second question again?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1857380,
+   "t1_ms": 1897020,
+   "speaker": "Management",
+   "text": "security. Oh yeah, security, sorry. I'll let Mark talk a little bit about the Splunk numbers, but we actually saw some really good signs this quarter on the security front. So the first is that our core Cisco security ex-Splunk order growth was 15%, which is the best it's been in probably three years. We saw the firewall business, which is something the teams worked hard on refreshing and really becoming competitive again. We saw the third consecutive quarter in excess of 30% growth. And then our Zero Trust Secure Access portfolio,",
+   "parts": [
+    {
+     "t0_ms": 1857380,
+     "text": "security. Oh yeah, security, sorry. I'll let Mark talk a little bit about the Splunk numbers, but"
+    },
+    {
+     "t0_ms": 1863760,
+     "text": "we actually saw some really good signs this quarter on the security front."
+    },
+    {
+     "t0_ms": 1868800,
+     "text": "So the first is that our core Cisco security ex-Splunk order growth was 15%, which is the"
+    },
+    {
+     "t0_ms": 1876920,
+     "text": "best it's been in probably three years. We saw the firewall business, which is something the"
+    },
+    {
+     "t0_ms": 1884120,
+     "text": "teams worked hard on refreshing and really becoming competitive again. We saw the third"
+    },
+    {
+     "t0_ms": 1889640,
+     "text": "consecutive quarter in excess of 30% growth. And then our Zero Trust Secure Access portfolio,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1897760,
+   "t1_ms": 1942440,
+   "speaker": "Management",
+   "text": "this is a product that didn't exist three years ago. We now have 5,400 customers. We added almost 800 more customers in Q1. And that's a technology that is Zero Trust. And there's also an element of it that is AI defense related. And at the AI defense layer, we're now protecting 2 trillion tokens per month, and we're approaching 500 customers that have AI defense. And so we're seeing good activity there. We're using Splunk as a platform for AI security. And we're also seeing customers really buy into the security and networking coming together on monitoring",
+   "parts": [
+    {
+     "t0_ms": 1897760,
+     "text": "this is a product that didn't exist three years ago. We now have 5,400 customers. We added almost"
+    },
+    {
+     "t0_ms": 1902820,
+     "text": "800 more customers in Q1. And that's a technology that is Zero Trust. And there's also an element"
+    },
+    {
+     "t0_ms": 1912160,
+     "text": "of it that is AI defense related. And at the AI defense layer, we're now protecting 2 trillion"
+    },
+    {
+     "t0_ms": 1919780,
+     "text": "tokens per month, and we're approaching 500 customers that have AI defense. And so we're"
+    },
+    {
+     "t0_ms": 1926320,
+     "text": "seeing good activity there. We're using Splunk as a platform for AI security. And we're also"
+    },
+    {
+     "t0_ms": 1935460,
+     "text": "seeing customers really buy into the security and networking coming together on monitoring"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1942440,
+   "t1_ms": 1983320,
+   "speaker": "Management",
+   "text": "workloads, east-west traffic segmentation with technologies like HyperShield and LiveProtect. And so we see a lot of good positive momentum on the security front. Mark, you want to talk about Splunk and just the data there? Yeah, and just to add one data point to the AsiaPAC question that you had, we saw really good strength in several countries actually within Asia. Japan, really strong. China, Singapore, Korea, and then Australia is part of that as well. And they had a really good quarter too. So really good breadth in terms of the overall growth. And then on the security front, you know, I think as we exited last year and we gave you the outlook",
+   "parts": [
+    {
+     "t0_ms": 1942440,
+     "text": "workloads, east-west traffic segmentation with technologies like HyperShield and LiveProtect."
+    },
+    {
+     "t0_ms": 1948820,
+     "text": "And so we see a lot of good positive momentum on the security front. Mark, you want to talk"
+    },
+    {
+     "t0_ms": 1953200,
+     "text": "about Splunk and just the data there? Yeah, and just to add one data point to the"
+    },
+    {
+     "t0_ms": 1957640,
+     "text": "AsiaPAC question that you had, we saw really good strength in several countries actually within Asia."
+    },
+    {
+     "t0_ms": 1964320,
+     "text": "Japan, really strong. China, Singapore, Korea, and then Australia is part of that as well. And"
+    },
+    {
+     "t0_ms": 1972040,
+     "text": "they had a really good quarter too. So really good breadth in terms of the overall growth."
+    },
+    {
+     "t0_ms": 1977020,
+     "text": "And then on the security front, you know, I think as we exited last year and we gave you the outlook"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1983320,
+   "t1_ms": 2023460,
+   "speaker": "Management",
+   "text": "for this year, we said that, you know, Q1 to really expect kind of low single digit revenue growth and that Splunk would turn positive and begin to improve as we move through the year, as well as the overall security number to really improve as we went through the year. So I'd say with the 7% that we posted in Q1, I think we're at or really a little bit above the expectations that we set out for the year. And we feel good about turning the corner on both of those and starting to see improved growth as we move through the year. Thank you, Mita. Michelle, can we move to the next analyst in the queue?",
+   "parts": [
+    {
+     "t0_ms": 1983320,
+     "text": "for this year, we said that, you know, Q1 to really expect kind of low single digit"
+    },
+    {
+     "t0_ms": 1989520,
+     "text": "revenue growth and that Splunk would turn positive and begin to improve as we move"
+    },
+    {
+     "t0_ms": 1996120,
+     "text": "through the year, as well as the overall security number to really improve as we went through the"
+    },
+    {
+     "t0_ms": 2003760,
+     "text": "year. So I'd say with the 7% that we posted in Q1, I think we're at or really a little bit above"
+    },
+    {
+     "t0_ms": 2010260,
+     "text": "the expectations that we set out for the year. And we feel good about turning the corner on both"
+    },
+    {
+     "t0_ms": 2015740,
+     "text": "of those and starting to see improved growth as we move through the year."
+    },
+    {
+     "t0_ms": 2020600,
+     "text": "Thank you, Mita."
+    },
+    {
+     "t0_ms": 2021600,
+     "text": "Michelle, can we move to the next analyst in the queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2024660,
+   "t1_ms": 2028300,
+   "speaker": "Operator",
+   "text": "Thank you. Joseph Cardoso with J.P. Morgan. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 2024660,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2025440,
+     "text": "Joseph Cardoso with J.P. Morgan."
+    },
+    {
+     "t0_ms": 2027420,
+     "text": "Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2029840,
+   "t1_ms": 2072320,
+   "speaker": "Management",
+   "text": "Hey, good afternoon, gentlemen, and thanks for the questions here. For the first one, I wanted to just get a temperature check on the supply side of things. I think over the last couple of quarters, you sounded pretty confident around your ability to secure what you need and then some probably. And I was just curious, you know, with a couple more months of visibility on the bell, any change on that front, particularly around things around silicon memory and whether you're seeing anything tightening. And then as the second question, and maybe this is piggybacking off of Amit's earlier question, gross margins are holding up much better than envisioned, even relative to the two are looking at the 2Q guide there. I was hoping you can maybe help bridge between pricing cost and mix behind that. And then as we think about the larger AI target for the year, any way to think about gross margin progression through fiscal 27 and how we should be thinking about",
+   "parts": [
+    {
+     "t0_ms": 2029840,
+     "text": "Hey, good afternoon, gentlemen, and thanks for the questions here."
+    },
+    {
+     "t0_ms": 2033180,
+     "text": "For the first one, I wanted to just get a temperature check on the supply side of things."
+    },
+    {
+     "t0_ms": 2036360,
+     "text": "I think over the last couple of quarters, you sounded pretty confident around your ability"
+    },
+    {
+     "t0_ms": 2039580,
+     "text": "to secure what you need and then some probably."
+    },
+    {
+     "t0_ms": 2042700,
+     "text": "And I was just curious, you know, with a couple more months of visibility on the bell,"
+    },
+    {
+     "t0_ms": 2045740,
+     "text": "any change on that front, particularly around things around silicon memory and whether you're"
+    },
+    {
+     "t0_ms": 2050139,
+     "text": "seeing anything tightening. And then as the second question, and maybe this is piggybacking off of"
+    },
+    {
+     "t0_ms": 2054199,
+     "text": "Amit's earlier question, gross margins are holding up much better than envisioned, even relative to"
+    },
+    {
+     "t0_ms": 2059360,
+     "text": "the two are looking at the 2Q guide there. I was hoping you can maybe help bridge between pricing"
+    },
+    {
+     "t0_ms": 2063840,
+     "text": "cost and mix behind that. And then as we think about the larger AI target for the year, any way"
+    },
+    {
+     "t0_ms": 2068460,
+     "text": "to think about gross margin progression through fiscal 27 and how we should be thinking about"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2072320,
+   "t1_ms": 2113820,
+   "speaker": "Management",
+   "text": "the exit run right in the puts and takes. Thank you. Yeah, let me take the first one and then I may get you to just repeat the second one real quick. The first one just around supply, we feel really good. You know, the team's done a great job in really leveraging our financial strength and looking all, you know, up and down the supply chain, whether it's silicon, it's PCBs, it's power supplies, it's memory and optics as well, and really engaging where we need to in terms of long-term strategic supply agreements. You saw a new multi-year memory agreement that we entered into this quarter, so a big, big increase, obviously, in our advanced purchase commitments",
+   "parts": [
+    {
+     "t0_ms": 2072320,
+     "text": "the exit run right in the puts and takes. Thank you. Yeah, let me take the first one and then I"
+    },
+    {
+     "t0_ms": 2077400,
+     "text": "may get you to just repeat the second one real quick. The first one just around supply, we feel"
+    },
+    {
+     "t0_ms": 2083320,
+     "text": "really good. You know, the team's done a great job in really leveraging our financial strength and"
+    },
+    {
+     "t0_ms": 2088239,
+     "text": "looking all, you know, up and down the supply chain, whether it's silicon, it's PCBs, it's"
+    },
+    {
+     "t0_ms": 2094060,
+     "text": "power supplies, it's memory and optics as well, and really engaging where we need to in terms of"
+    },
+    {
+     "t0_ms": 2100940,
+     "text": "long-term strategic supply agreements. You saw a new multi-year memory agreement that we entered"
+    },
+    {
+     "t0_ms": 2107700,
+     "text": "into this quarter, so a big, big increase, obviously, in our advanced purchase commitments"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2113820,
+   "t1_ms": 2148020,
+   "speaker": "Management",
+   "text": "as a result. We're seeing, you know, not a lot of issues at all, really, in terms of supply. The biggest one there is probably optics, and I think that we see that improving here over the next quarter, but overall feel really good about the supply that we have and the ability to meet Not only the raised guide for the year, but I think that if demand turns out to be stronger, we can probably meet that as well. And the second one, I'm sorry. He was asking, he said gross margins are holding up better than perhaps were expected. What are the contributors to it staying?",
+   "parts": [
+    {
+     "t0_ms": 2113820,
+     "text": "as a result. We're seeing, you know, not a lot of issues at all, really, in terms of supply. The"
+    },
+    {
+     "t0_ms": 2120240,
+     "text": "biggest one there is probably optics, and I think that we see that improving here over the next"
+    },
+    {
+     "t0_ms": 2124400,
+     "text": "quarter, but overall feel really good about the supply that we have and the ability to meet"
+    },
+    {
+     "t0_ms": 2130520,
+     "text": "Not only the raised guide for the year, but I think that if demand turns out to be stronger, we can probably meet that as well."
+    },
+    {
+     "t0_ms": 2138980,
+     "text": "And the second one, I'm sorry."
+    },
+    {
+     "t0_ms": 2141940,
+     "text": "He was asking, he said gross margins are holding up better than perhaps were expected."
+    },
+    {
+     "t0_ms": 2145900,
+     "text": "What are the contributors to it staying?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2148020,
+   "t1_ms": 2185730,
+   "speaker": "Management",
+   "text": "Yeah, I think \u2013 so we still have the same headwinds in terms of component prices and mix is the big thing in terms of hardware growth just in general really outpacing the software growth that you're seeing. And I think that for the year, most of the expectations were for a gross margin number at just under, just shy of the 65%. And we were comfortable with that for the full year. Thank you, Joe. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 2148020,
+     "text": "Yeah, I think \u2013 so we still have the same headwinds in terms of component prices and mix is the big thing in terms of hardware growth just in general really outpacing the software growth that you're seeing."
+    },
+    {
+     "t0_ms": 2167180,
+     "text": "And I think that for the year, most of the expectations were for a gross margin number"
+    },
+    {
+     "t0_ms": 2174340,
+     "text": "at just under, just shy of the 65%."
+    },
+    {
+     "t0_ms": 2177760,
+     "text": "And we were comfortable with that for the full year."
+    },
+    {
+     "t0_ms": 2182970,
+     "text": "Thank you, Joe."
+    },
+    {
+     "t0_ms": 2183910,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2186850,
+   "t1_ms": 2190650,
+   "speaker": "Operator",
+   "text": "Thank you. Simon Leopold with Raymond James. Your line is open.",
+   "parts": [
+    {
+     "t0_ms": 2186850,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2187690,
+     "text": "Simon Leopold with Raymond James."
+    },
+    {
+     "t0_ms": 2189850,
+     "text": "Your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2192250,
+   "t1_ms": 2237050,
+   "speaker": "Management",
+   "text": "Thank you very much for taking the questions. First one I wanted to ask was, you guys have shown some real progress with the AI backend success. Within the systems value, can you give us a rough idea of the mix between top of rack, switching in the spine versus the routing used for scale across, rough order of magnitude split is all I'm looking for. And then as a follow-up, I'm just wondering if you could update us on how much of your growth has come from price changes versus unit growth. I know it's not precise, but also rough idea of that would be appreciated. Thank you. Yeah, I'll take the first one and Mark, you can",
+   "parts": [
+    {
+     "t0_ms": 2192250,
+     "text": "Thank you very much for taking the questions."
+    },
+    {
+     "t0_ms": 2195090,
+     "text": "First one I wanted to ask was, you guys have shown some real progress with the AI backend"
+    },
+    {
+     "t0_ms": 2201290,
+     "text": "success."
+    },
+    {
+     "t0_ms": 2202650,
+     "text": "Within the systems value, can you give us a rough idea of the mix between top of rack,"
+    },
+    {
+     "t0_ms": 2209390,
+     "text": "switching in the spine versus the routing used for scale across, rough order of magnitude"
+    },
+    {
+     "t0_ms": 2215550,
+     "text": "split is all I'm looking for."
+    },
+    {
+     "t0_ms": 2217690,
+     "text": "And then as a follow-up, I'm just wondering if you could update us on how much of your"
+    },
+    {
+     "t0_ms": 2222670,
+     "text": "growth has come from price changes versus unit growth. I know it's not precise, but also rough"
+    },
+    {
+     "t0_ms": 2229610,
+     "text": "idea of that would be appreciated. Thank you. Yeah, I'll take the first one and Mark, you can"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2237050,
+   "t1_ms": 2279410,
+   "speaker": "Management",
+   "text": "take the second one. I don't have the breakdown exactly between those technologies. I think the way I would think about it is in the last five quarters, we've had 18 design wins and we've had them across, you know, scale-out architectures, both systems and then scale-across in systems as well as optics. We talked about in the prepared remarks two wins with a P200 for scale-across and then a 1.6 terabit scale-out optics win. And so we just, we're actually active in all the places that you mentioned. We just haven't given those numbers at that level of detail. So, Mark, you want to talk about gross margin?",
+   "parts": [
+    {
+     "t0_ms": 2237050,
+     "text": "take the second one. I don't have the breakdown exactly between those technologies. I think the"
+    },
+    {
+     "t0_ms": 2243230,
+     "text": "way I would think about it is in the last five quarters, we've had 18 design wins and we've had"
+    },
+    {
+     "t0_ms": 2249650,
+     "text": "them across, you know, scale-out architectures, both systems and then scale-across in systems"
+    },
+    {
+     "t0_ms": 2256390,
+     "text": "as well as optics."
+    },
+    {
+     "t0_ms": 2257910,
+     "text": "We talked about in the prepared remarks two wins with a P200 for scale-across and then"
+    },
+    {
+     "t0_ms": 2264610,
+     "text": "a 1.6 terabit scale-out optics win."
+    },
+    {
+     "t0_ms": 2268630,
+     "text": "And so we just, we're actually active in all the places that you mentioned."
+    },
+    {
+     "t0_ms": 2274510,
+     "text": "We just haven't given those numbers at that level of detail."
+    },
+    {
+     "t0_ms": 2276650,
+     "text": "So, Mark, you want to talk about gross margin?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2279650,
+   "t1_ms": 2314830,
+   "speaker": "Management",
+   "text": "And maybe just to reiterate, you know, we've talked about just the split between optics and systems being roughly 50-50. That'll vary on any given quarter, but that continues to be sort of what we're seeing. You know, in terms of the price versus unit, and Simon, appreciate that you mentioned it, it's certainly an imperfect science. But I think that the estimate that we gave you a quarter ago was that we expected revenue to be impacted about five points for the full year. I think that's probably a pretty good estimate still for the year. Thank you, Simon. Michelle, can we move to the next analyst in Q&A?",
+   "parts": [
+    {
+     "t0_ms": 2279650,
+     "text": "And maybe just to reiterate, you know, we've talked about just the split between optics and systems being roughly 50-50."
+    },
+    {
+     "t0_ms": 2285970,
+     "text": "That'll vary on any given quarter, but that continues to be sort of what we're seeing."
+    },
+    {
+     "t0_ms": 2290890,
+     "text": "You know, in terms of the price versus unit, and Simon, appreciate that you mentioned it, it's certainly an imperfect science."
+    },
+    {
+     "t0_ms": 2299210,
+     "text": "But I think that the estimate that we gave you a quarter ago was that we expected revenue to be impacted about five points for the full year."
+    },
+    {
+     "t0_ms": 2308230,
+     "text": "I think that's probably a pretty good estimate still for the year."
+    },
+    {
+     "t0_ms": 2312090,
+     "text": "Thank you, Simon."
+    },
+    {
+     "t0_ms": 2313230,
+     "text": "Michelle, can we move to the next analyst in Q&A?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2316650,
+   "t1_ms": 2319610,
+   "speaker": "Operator",
+   "text": "David, vote with UBS. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 2316650,
+     "text": "David, vote with UBS."
+    },
+    {
+     "t0_ms": 2318550,
+     "text": "Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2321230,
+   "t1_ms": 2365750,
+   "speaker": "Management",
+   "text": "Great. Thanks, guys, for taking my questions. So maybe, Chuck, the first question. I know you don't want to be on this AI order treadmill, but just by doing some really quick math, it looks like we had a little bit of a sequential downtick in AI orders taken from hyperscalers in the quarter. I know the industry is somewhat lumpy and not linear. Can you maybe talk to kind of how you're seeing that develop as the year progresses and characterize kind of like the depth of your conversations? Because I think later in the deck, you talked about potential wins for not only P200, but T200, T300, and other programs. So I'd just love to kind of get your thoughts on how those conversations are progressing. And I'll give Mark my follow-up quickly. No, Mark, maybe just as a follow-up to Simon's question, I'll just kind of take your AI revenue guide. It looks like the incremental growth coming from AI revenue today is about",
+   "parts": [
+    {
+     "t0_ms": 2321230,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2321690,
+     "text": "Thanks, guys, for taking my questions."
+    },
+    {
+     "t0_ms": 2323050,
+     "text": "So maybe, Chuck, the first question."
+    },
+    {
+     "t0_ms": 2324350,
+     "text": "I know you don't want to be on this AI order treadmill, but just by doing some really quick math,"
+    },
+    {
+     "t0_ms": 2330170,
+     "text": "it looks like we had a little bit of a sequential downtick in AI orders taken from hyperscalers in the quarter."
+    },
+    {
+     "t0_ms": 2336110,
+     "text": "I know the industry is somewhat lumpy and not linear."
+    },
+    {
+     "t0_ms": 2338550,
+     "text": "Can you maybe talk to kind of how you're seeing that develop as the year progresses and characterize"
+    },
+    {
+     "t0_ms": 2342390,
+     "text": "kind of like the depth of your conversations?"
+    },
+    {
+     "t0_ms": 2344750,
+     "text": "Because I think later in the deck, you talked about potential wins for not only P200, but"
+    },
+    {
+     "t0_ms": 2349010,
+     "text": "T200, T300, and other programs."
+    },
+    {
+     "t0_ms": 2351010,
+     "text": "So I'd just love to kind of get your thoughts on how those conversations are progressing."
+    },
+    {
+     "t0_ms": 2354250,
+     "text": "And I'll give Mark my follow-up quickly."
+    },
+    {
+     "t0_ms": 2356790,
+     "text": "No, Mark, maybe just as a follow-up to Simon's question, I'll just kind of take your AI"
+    },
+    {
+     "t0_ms": 2360490,
+     "text": "revenue guide. It looks like the incremental growth coming from AI revenue today is about"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2365750,
+   "t1_ms": 2408510,
+   "speaker": "Management",
+   "text": "two points faster than we thought 90 days ago, and pricing is relatively the same. Is it sort of the assumption that campus is kind of that incremental driver that kind of rounds out the upside to the outlook versus 90 days ago? Is that the right way to think about kind of the moving parts in the revenue guide? Thank you. Yeah, David, on the AI order front, I'd say on a year-over-year basis, we saw really nice growth. And I think if you look back at last year, I don't remember the exact number, but it was a billion and some change in first quarter. And then we ended up at 9.3 billion as it escalated during the year. So while I don't expect there's normal linearity in this",
+   "parts": [
+    {
+     "t0_ms": 2365750,
+     "text": "two points faster than we thought 90 days ago, and pricing is relatively the same. Is it sort"
+    },
+    {
+     "t0_ms": 2371870,
+     "text": "of the assumption that campus is kind of that incremental driver that kind of rounds out the"
+    },
+    {
+     "t0_ms": 2375850,
+     "text": "upside to the outlook versus 90 days ago? Is that the right way to think about kind of the moving"
+    },
+    {
+     "t0_ms": 2380030,
+     "text": "parts in the revenue guide? Thank you. Yeah, David, on the AI order front, I'd say on a year-over-year"
+    },
+    {
+     "t0_ms": 2388610,
+     "text": "basis, we saw really nice growth. And I think if you look back at last year, I don't remember the"
+    },
+    {
+     "t0_ms": 2395110,
+     "text": "exact number, but it was a billion and some change in first quarter. And then we ended up at 9.3"
+    },
+    {
+     "t0_ms": 2402590,
+     "text": "billion as it escalated during the year. So while I don't expect there's normal linearity in this"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2408510,
+   "t1_ms": 2451630,
+   "speaker": "Management",
+   "text": "business at all, I think you're right. It's going to be lumpy and there's going to be some quarters that are going to be big, others that are going to be smaller. And that's why we made the decision just to go to the revenue side so that it's just cleaner and we don't get into these gyrations about how many orders did you take in week seven of Q1. Some color around the different technologies. Obviously, the P200 is being very successful. We've had lots of wins with the G200 in the scale-out space, as we talked about. I will say that we've begun to ship the G300 now, and it's now in labs. which is a really good sign for us, and we feel really good about that. And obviously, we continue to have more wins in the optics space.",
+   "parts": [
+    {
+     "t0_ms": 2408510,
+     "text": "business at all, I think you're right. It's going to be lumpy and there's going to be some quarters"
+    },
+    {
+     "t0_ms": 2413950,
+     "text": "that are going to be big, others that are going to be smaller."
+    },
+    {
+     "t0_ms": 2417590,
+     "text": "And that's why we made the decision just to go to the revenue side"
+    },
+    {
+     "t0_ms": 2420630,
+     "text": "so that it's just cleaner and we don't get into these gyrations"
+    },
+    {
+     "t0_ms": 2424570,
+     "text": "about how many orders did you take in week seven of Q1."
+    },
+    {
+     "t0_ms": 2429570,
+     "text": "Some color around the different technologies."
+    },
+    {
+     "t0_ms": 2432990,
+     "text": "Obviously, the P200 is being very successful."
+    },
+    {
+     "t0_ms": 2435690,
+     "text": "We've had lots of wins with the G200 in the scale-out space,"
+    },
+    {
+     "t0_ms": 2438550,
+     "text": "as we talked about."
+    },
+    {
+     "t0_ms": 2439870,
+     "text": "I will say that we've begun to ship the G300 now,"
+    },
+    {
+     "t0_ms": 2442330,
+     "text": "and it's now in labs."
+    },
+    {
+     "t0_ms": 2443950,
+     "text": "which is a really good sign for us, and we feel really good about that."
+    },
+    {
+     "t0_ms": 2448130,
+     "text": "And obviously, we continue to have more wins in the optics space."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2451630,
+   "t1_ms": 2494990,
+   "speaker": "Management",
+   "text": "The design win we had this quarter at the 1.6 terabit optic was a client-side win, and it was our first client-side optics win at this particular hyperscaler. So we feel good about the continued progress that we make in that space. Yeah, David, just coming back to you on the numbers. So, you know, we've taken our guide up to 19% on the top line. About eight points of that growth is attributable to hyperscale, and 11 points then would be attributable to our ex-hyperscale or more sort of our core business. So if you break down, you know, the overall guide, we raised by $2.5 billion.",
+   "parts": [
+    {
+     "t0_ms": 2451630,
+     "text": "The design win we had this quarter at the 1.6 terabit optic was a client-side win,"
+    },
+    {
+     "t0_ms": 2458390,
+     "text": "and it was our first client-side optics win at this particular hyperscaler."
+    },
+    {
+     "t0_ms": 2462490,
+     "text": "So we feel good about the continued progress that we make in that space."
+    },
+    {
+     "t0_ms": 2467170,
+     "text": "Yeah, David, just coming back to you on the numbers."
+    },
+    {
+     "t0_ms": 2470770,
+     "text": "So, you know, we've taken our guide up to 19% on the top line."
+    },
+    {
+     "t0_ms": 2477770,
+     "text": "About eight points of that growth is attributable to hyperscale,"
+    },
+    {
+     "t0_ms": 2483390,
+     "text": "and 11 points then would be attributable to our ex-hyperscale or more sort of our core business."
+    },
+    {
+     "t0_ms": 2490210,
+     "text": "So if you break down, you know, the overall guide, we raised by $2.5 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495410,
+   "t1_ms": 2536490,
+   "speaker": "Management",
+   "text": "$1.5 billion of that was hyperscale, and $1 billion was our core sort of X hyperscale business. And in terms of what's driving it, you mentioned campus, but it's much broader than that. It's not just campus. I think if you look at really all of the product families within networking, for example, every one of them grew double digits this past quarter. So we also saw double-digit growth across every region and double-digit growth across every market, customer market as well. So it's broad-based, and the core continues to do quite well. Thank you, David. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 2495410,
+     "text": "$1.5 billion of that was hyperscale, and $1 billion was our core sort of X hyperscale business."
+    },
+    {
+     "t0_ms": 2503070,
+     "text": "And in terms of what's driving it, you mentioned campus, but it's much broader than that."
+    },
+    {
+     "t0_ms": 2508390,
+     "text": "It's not just campus."
+    },
+    {
+     "t0_ms": 2509410,
+     "text": "I think if you look at really all of the product families within networking, for example,"
+    },
+    {
+     "t0_ms": 2517090,
+     "text": "every one of them grew double digits this past quarter."
+    },
+    {
+     "t0_ms": 2519870,
+     "text": "So we also saw double-digit growth across every region and double-digit growth across every market, customer market as well."
+    },
+    {
+     "t0_ms": 2528290,
+     "text": "So it's broad-based, and the core continues to do quite well."
+    },
+    {
+     "t0_ms": 2533430,
+     "text": "Thank you, David."
+    },
+    {
+     "t0_ms": 2534630,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2537850,
+   "t1_ms": 2541970,
+   "speaker": "Operator",
+   "text": "Thank you. Carl Ackerman with BNP Paribas. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 2537850,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2538610,
+     "text": "Carl Ackerman with BNP Paribas."
+    },
+    {
+     "t0_ms": 2541010,
+     "text": "Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2544300,
+   "t1_ms": 2567580,
+   "speaker": "Analyst",
+   "text": "Hi, this is Sam Feldman. I'm for Carl Ackerman. Thanks for taking my question. So we believe that silicon one is primarily integrated into your AI products while enterprise products rely on external silicon. First, has there been any change in thinking to the fiscal 29 integration timeline? And then second, what does the $9 billion of AI sales imply with respect to your mix of internal silicon?",
+   "parts": [
+    {
+     "t0_ms": 2544300,
+     "text": "Hi, this is Sam Feldman."
+    },
+    {
+     "t0_ms": 2545700,
+     "text": "I'm for Carl Ackerman."
+    },
+    {
+     "t0_ms": 2546920,
+     "text": "Thanks for taking my question."
+    },
+    {
+     "t0_ms": 2548820,
+     "text": "So we believe that silicon one is primarily integrated into your AI products while enterprise products rely on external silicon."
+    },
+    {
+     "t0_ms": 2556980,
+     "text": "First, has there been any change in thinking to the fiscal 29 integration timeline?"
+    },
+    {
+     "t0_ms": 2561700,
+     "text": "And then second, what does the $9 billion of AI sales imply with respect to your mix of internal silicon?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2572950,
+   "t1_ms": 2610550,
+   "speaker": "Management",
+   "text": "Okay, let me answer the first one, and I'm not sure I know the answer to the second one. yeah yeah so on uh on the first one we do have now silicon one that has begun to be implemented in portions of our enterprise networking portfolio and the fiscal year 29 target of having all of it converted is still on track so we're we feel good about where we're headed with that on the second question uh you asked a split between silicon one revenue and and non-silicon one revenue obviously in the hyperscaler space in the nine billion that's that's other than optics",
+   "parts": [
+    {
+     "t0_ms": 2572950,
+     "text": "Okay, let me answer the first one, and I'm not sure I know the answer to the second one."
+    },
+    {
+     "t0_ms": 2577090,
+     "text": "yeah yeah so on uh on the first one we do have now silicon one that has begun to be implemented"
+    },
+    {
+     "t0_ms": 2587470,
+     "text": "in portions of our enterprise networking portfolio and the fiscal year 29 target of having all of it"
+    },
+    {
+     "t0_ms": 2593490,
+     "text": "converted is still on track so we're we feel good about where we're headed with that"
+    },
+    {
+     "t0_ms": 2598270,
+     "text": "on the second question uh you asked a split between silicon one revenue and and non-silicon"
+    },
+    {
+     "t0_ms": 2605910,
+     "text": "one revenue obviously in the hyperscaler space in the nine billion that's that's other than optics"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2611270,
+   "t1_ms": 2618310,
+   "speaker": "Management",
+   "text": "uh it's a hundred percent silicon one based platforms so thank you sam michelle can we move",
+   "parts": [
+    {
+     "t0_ms": 2611270,
+     "text": "uh it's a hundred percent silicon one based platforms so thank you sam michelle can we move"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2618310,
+   "t1_ms": 2623990,
+   "speaker": "Operator",
+   "text": "to the next analyst in queue thank you johnny conti with deutsche bank your line is open",
+   "parts": [
+    {
+     "t0_ms": 2618310,
+     "text": "to the next analyst in queue thank you johnny conti with deutsche bank your line is open"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2625590,
+   "t1_ms": 2645010,
+   "speaker": "Analyst",
+   "text": "yeah thank you for giving me some time to ask some questions congrats reporter um perhaps uh one on P200 and Scalacross. You won three P200 Scalacross design wins with separate hyperscalers. My question is, what's the catalyst to Silicon One winning those sockets? And how big could",
+   "parts": [
+    {
+     "t0_ms": 2625590,
+     "text": "yeah thank you for giving me some time to ask some questions congrats reporter um perhaps uh one on"
+    },
+    {
+     "t0_ms": 2632150,
+     "text": "P200 and Scalacross. You won three P200 Scalacross design wins with separate hyperscalers. My"
+    },
+    {
+     "t0_ms": 2639230,
+     "text": "question is, what's the catalyst to Silicon One winning those sockets? And how big could"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2645010,
+   "t1_ms": 2684730,
+   "speaker": "Management",
+   "text": "Scalacross become as the model gets larger? Thank you, Johnny. I think that it's about performance, it's about power consumption, and I think that's it. I mean, it's really about performance and power. And also there's just this whole focus on diversity of silicon inside this space. And I'd say if you want to talk about the size of this market, we did a study and we think that the bandwidth requirements are going to increase 14x in this space. So the TAM is",
+   "parts": [
+    {
+     "t0_ms": 2645010,
+     "text": "Scalacross become as the model gets larger? Thank you, Johnny. I think that it's about"
+    },
+    {
+     "t0_ms": 2655990,
+     "text": "performance, it's about power consumption, and I think that's it. I mean, it's really"
+    },
+    {
+     "t0_ms": 2665050,
+     "text": "about performance and power. And also there's just this whole focus on diversity of silicon"
+    },
+    {
+     "t0_ms": 2672650,
+     "text": "inside this space. And I'd say if you want to talk about the size of this market, we did a study and"
+    },
+    {
+     "t0_ms": 2678610,
+     "text": "we think that the bandwidth requirements are going to increase 14x in this space. So the TAM is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2684730,
+   "t1_ms": 2720630,
+   "speaker": "Management",
+   "text": "quite large and continues to grow. So we see this as a great opportunity. We're really optimistic and pleased with the number of wins that we're getting with the P200. Yeah, and the other thing I'd just add is I think as you look at our offering, it's probably the most complete offering in the industry with silicon, the Acacia Optics, optical, multi-rail to come, and calendar 27. So I think we do a really \u2013 we really measure up quite well here. Thank you, Johnny. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 2684730,
+     "text": "quite large and continues to grow. So we see this as a great opportunity. We're really optimistic"
+    },
+    {
+     "t0_ms": 2692610,
+     "text": "and pleased with the number of wins that we're getting with the P200."
+    },
+    {
+     "t0_ms": 2696010,
+     "text": "Yeah, and the other thing I'd just add is I think as you look at our offering,"
+    },
+    {
+     "t0_ms": 2700090,
+     "text": "it's probably the most complete offering in the industry with silicon,"
+    },
+    {
+     "t0_ms": 2704910,
+     "text": "the Acacia Optics, optical, multi-rail to come, and calendar 27."
+    },
+    {
+     "t0_ms": 2711510,
+     "text": "So I think we do a really \u2013 we really measure up quite well here."
+    },
+    {
+     "t0_ms": 2717330,
+     "text": "Thank you, Johnny."
+    },
+    {
+     "t0_ms": 2718930,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2720630,
+   "t1_ms": 2729860,
+   "speaker": "Operator",
+   "text": "Thank you. Atif Malik with Citi. Your line is open. Hi, it's Adrienne Colby for Atif Malik. Thank you",
+   "parts": [
+    {
+     "t0_ms": 2720630,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2722430,
+     "text": "Atif Malik with Citi. Your line is open. Hi, it's Adrienne Colby for Atif Malik. Thank you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2729860,
+   "t1_ms": 2751520,
+   "speaker": "Analyst",
+   "text": "for the question. I wanted to ask about the optic side of the business. I know in the past you've talked about Acacia at about $1 billion or a little bit above that order run rate. Didn't know if you could talk to us about expanding and then hoping to get a little bit of an update on the timing of Cisco's newer multi-rail line system and also timing around the USFP product. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2729860,
+     "text": "for the question. I wanted to ask about the optic side of the business. I know in the past you've"
+    },
+    {
+     "t0_ms": 2734700,
+     "text": "talked about Acacia at about $1 billion or a little bit above that order run rate. Didn't"
+    },
+    {
+     "t0_ms": 2739160,
+     "text": "know if you could talk to us about expanding and then hoping to get a little bit of an update on"
+    },
+    {
+     "t0_ms": 2743880,
+     "text": "the timing of Cisco's newer multi-rail line system and also timing around the USFP product. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2751520,
+   "t1_ms": 2794970,
+   "speaker": "Management",
+   "text": "Yeah, so thanks, Adrian, for the question. I think on the optics side, yeah, we see this as a really sizable opportunity for us and seeing a ton of growth there. We actually had a billion-dollar quarter just last quarter on the optics side. So it's growing substantially. Q1 was a record Q1 for us as well and really see the demand increasing there as we move forward. And the USPF platform is still a couple years out, probably a few years out.",
+   "parts": [
+    {
+     "t0_ms": 2751520,
+     "text": "Yeah, so thanks, Adrian, for the question. I think on the optics side, yeah, we see this as a really sizable opportunity for us and seeing a ton of growth there."
+    },
+    {
+     "t0_ms": 2767440,
+     "text": "We actually had a billion-dollar quarter just last quarter on the optics side."
+    },
+    {
+     "t0_ms": 2773080,
+     "text": "So it's growing substantially."
+    },
+    {
+     "t0_ms": 2776500,
+     "text": "Q1 was a record Q1 for us as well and really see the demand increasing there as we move forward."
+    },
+    {
+     "t0_ms": 2788710,
+     "text": "And the USPF platform is still a couple years out, probably a few years out."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2794970,
+   "t1_ms": 2809350,
+   "speaker": "Management",
+   "text": "And the multi-rail system, as I think Mark mentioned earlier, is the first few months of calendar 27. Thank you, Adrian. Michelle, can we move to the next analyst in queue?",
+   "parts": [
+    {
+     "t0_ms": 2794970,
+     "text": "And the multi-rail system, as I think Mark mentioned earlier, is the first few months"
+    },
+    {
+     "t0_ms": 2802030,
+     "text": "of calendar 27."
+    },
+    {
+     "t0_ms": 2803730,
+     "text": "Thank you, Adrian."
+    },
+    {
+     "t0_ms": 2805730,
+     "text": "Michelle, can we move to the next analyst in queue?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2809350,
+   "t1_ms": 2812930,
+   "speaker": "Operator",
+   "text": "Thank you. Ben Bolin with Cleveland Research. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 2809350,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2810350,
+     "text": "Ben Bolin with Cleveland Research."
+    },
+    {
+     "t0_ms": 2811930,
+     "text": "Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2812930,
+   "t1_ms": 2857650,
+   "speaker": "Analyst",
+   "text": "Thanks. Good afternoon, everyone. I appreciate you taking the question. Could you talk about what we should expect from services? It's kind of come off its lows, but really not intensifying or accelerating. Any thoughts on, you know, when and how that gets better? And then as a follow-up, a little bit of a bigger picture question. It does seem like there's some high-level thoughts that raw material capacity ads are happening in the kind of picks and shovels or raw material side of things, but maybe the volume of data center shells that come online into 2027, well, I guess 2028 and beyond, and maybe there's more questions there. Curious how you think about the potential imbalance",
+   "parts": [
+    {
+     "t0_ms": 2812930,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2815370,
+     "text": "Good afternoon, everyone."
+    },
+    {
+     "t0_ms": 2816370,
+     "text": "I appreciate you taking the question."
+    },
+    {
+     "t0_ms": 2820250,
+     "text": "Could you talk about what we should expect from services?"
+    },
+    {
+     "t0_ms": 2824570,
+     "text": "It's kind of come off its lows, but really not intensifying or accelerating."
+    },
+    {
+     "t0_ms": 2829610,
+     "text": "Any thoughts on, you know, when and how that gets better?"
+    },
+    {
+     "t0_ms": 2832610,
+     "text": "And then as a follow-up, a little bit of a bigger picture question."
+    },
+    {
+     "t0_ms": 2835910,
+     "text": "It does seem like there's some high-level thoughts that raw material capacity ads are"
+    },
+    {
+     "t0_ms": 2841650,
+     "text": "happening in the kind of picks and shovels or raw material side of things, but maybe"
+    },
+    {
+     "t0_ms": 2846430,
+     "text": "the volume of data center shells that come online into 2027, well, I guess 2028 and beyond,"
+    },
+    {
+     "t0_ms": 2852630,
+     "text": "and maybe there's more questions there."
+    },
+    {
+     "t0_ms": 2855230,
+     "text": "Curious how you think about the potential imbalance"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2857650,
+   "t1_ms": 2865970,
+   "speaker": "Analyst",
+   "text": "where maybe we are in an oversupply situation from a raw material perspective and don't have anywhere to put that stuff in 2028 and beyond. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2857650,
+     "text": "where maybe we are in an oversupply situation"
+    },
+    {
+     "t0_ms": 2860410,
+     "text": "from a raw material perspective"
+    },
+    {
+     "t0_ms": 2861890,
+     "text": "and don't have anywhere to put that stuff in 2028 and beyond."
+    },
+    {
+     "t0_ms": 2865730,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2868000,
+   "t1_ms": 2909750,
+   "speaker": "Management",
+   "text": "Yeah, I'll take the first one, Ben. Thanks for the question. So on the services piece, you know, we've seen a significant uptick in hardware revenue. Hardware revenue actually grew over 50% for Q1. And the thing with services is it's ratable. And our Harper scalers don't attach a lot of services as well. But what you're going to see is that business is going to continue to improve. We broke into the positive territory this quarter. I'd look for that to have some continued improvement as we move through the year. And on the demand side from a data center perspective, and especially as we get out to 28 and beyond, I actually don't foresee.",
+   "parts": [
+    {
+     "t0_ms": 2868000,
+     "text": "Yeah, I'll take the first one, Ben."
+    },
+    {
+     "t0_ms": 2869660,
+     "text": "Thanks for the question."
+    },
+    {
+     "t0_ms": 2870500,
+     "text": "So on the services piece, you know,"
+    },
+    {
+     "t0_ms": 2872800,
+     "text": "we've seen a significant uptick in hardware revenue."
+    },
+    {
+     "t0_ms": 2877380,
+     "text": "Hardware revenue actually grew over 50% for Q1."
+    },
+    {
+     "t0_ms": 2881340,
+     "text": "And the thing with services is it's ratable."
+    },
+    {
+     "t0_ms": 2885520,
+     "text": "And our Harper scalers don't attach a lot of services as well."
+    },
+    {
+     "t0_ms": 2889040,
+     "text": "But what you're going to see is that business is going to continue to improve."
+    },
+    {
+     "t0_ms": 2892560,
+     "text": "We broke into the positive territory this quarter."
+    },
+    {
+     "t0_ms": 2895780,
+     "text": "I'd look for that to have some continued improvement as we move through the year."
+    },
+    {
+     "t0_ms": 2902510,
+     "text": "And on the demand side from a data center perspective,"
+    },
+    {
+     "t0_ms": 2905630,
+     "text": "and especially as we get out to 28 and beyond, I actually don't foresee."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2910430,
+   "t1_ms": 2939590,
+   "speaker": "Management",
+   "text": "I think the geopolitical side of it is going to get worked out. And I think that given the demand that we see today, these data centers are going to get built. And so I don't think we \u2013 we don't feel like there's much risk on the resources side and anything that would surprise us relative to the data center build-out over the next two years. Thank you, Ben. Michelle, can we move to the final analyst question?",
+   "parts": [
+    {
+     "t0_ms": 2910430,
+     "text": "I think the geopolitical side of it is going to get worked out."
+    },
+    {
+     "t0_ms": 2913390,
+     "text": "And I think that given the demand that we see today, these data centers are going to get built."
+    },
+    {
+     "t0_ms": 2920930,
+     "text": "And so I don't think we \u2013 we don't feel like there's much risk on the resources side"
+    },
+    {
+     "t0_ms": 2928850,
+     "text": "and anything that would surprise us relative to the data center build-out over the next two years."
+    },
+    {
+     "t0_ms": 2936030,
+     "text": "Thank you, Ben."
+    },
+    {
+     "t0_ms": 2937110,
+     "text": "Michelle, can we move to the final analyst question?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2940730,
+   "t1_ms": 2944850,
+   "speaker": "Operator",
+   "text": "Thank you. Michael Eng with Goldman Sachs. Your line is open, sir.",
+   "parts": [
+    {
+     "t0_ms": 2940730,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2941530,
+     "text": "Michael Eng with Goldman Sachs. Your line is open, sir."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2945710,
+   "t1_ms": 2988110,
+   "speaker": "Analyst",
+   "text": "Hi, good afternoon. Thanks for the question. First for Mark, I was just wondering if you could just provide a little bit more color around the margin outlook for the second quarter and for the full year. I think it was better than expectations despite the growing hardware and hyperscale mix. So what's been coming in better? And then Chuck, just as a follow-up, I was just wondering if you were seeing any early signs of demand shifting outside of the United States for data center AI networking, just given, you know, the results of the midterms and the risk of capacity becoming harder to originate in the U.S. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2945710,
+     "text": "Hi, good afternoon. Thanks for the question. First for Mark, I was just wondering if you could"
+    },
+    {
+     "t0_ms": 2951050,
+     "text": "just provide a little bit more color around the margin outlook for the second quarter and for"
+    },
+    {
+     "t0_ms": 2956570,
+     "text": "the full year. I think it was better than expectations despite the growing hardware"
+    },
+    {
+     "t0_ms": 2961970,
+     "text": "and hyperscale mix. So what's been coming in better? And then Chuck, just as a follow-up,"
+    },
+    {
+     "t0_ms": 2968770,
+     "text": "I was just wondering if you were seeing any early signs of demand shifting outside of the United States for data center AI networking, just given, you know, the results of the midterms and the risk of capacity becoming harder to originate in the U.S."
+    },
+    {
+     "t0_ms": 2987710,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2990400,
+   "t1_ms": 3034620,
+   "speaker": "Management",
+   "text": "Hey, Michael. So I'll take the first one. Yeah, I think that, you know, the two big factors, obviously, impacting gross margin or the component costs increases that we've been seeing. There's a lot of efforts to combat that, including some of the price increases that you've seen, but also these long-term agreements that we're entering into to get supply and, in some cases, prices as well. And then there's the mix. But offsetting that is really a number of productivity improvements that we've had around memory, as well as just the scale and efficiency that we're able to drive at this much higher revenue level than we've seen in the past. I actually think that gross margins are pretty much right on target.",
+   "parts": [
+    {
+     "t0_ms": 2990400,
+     "text": "Hey, Michael."
+    },
+    {
+     "t0_ms": 2990820,
+     "text": "So I'll take the first one."
+    },
+    {
+     "t0_ms": 2992340,
+     "text": "Yeah, I think that, you know, the two big factors, obviously, impacting gross margin or the component costs increases that we've been seeing."
+    },
+    {
+     "t0_ms": 3002180,
+     "text": "There's a lot of efforts to combat that, including some of the price increases that you've seen, but also these long-term agreements that we're entering into to get supply and, in some cases, prices as well."
+    },
+    {
+     "t0_ms": 3013900,
+     "text": "And then there's the mix."
+    },
+    {
+     "t0_ms": 3015880,
+     "text": "But offsetting that is really a number of productivity improvements that we've had around memory,"
+    },
+    {
+     "t0_ms": 3020880,
+     "text": "as well as just the scale and efficiency that we're able to drive at this much higher revenue level than we've seen in the past."
+    },
+    {
+     "t0_ms": 3029800,
+     "text": "I actually think that gross margins are pretty much right on target."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3036000,
+   "t1_ms": 3080060,
+   "speaker": "Management",
+   "text": "You know, we were just slightly above the midpoint of our guide for Q1, And I think that most have expectations of a full year gross margin of just shy of 65%. And I think that's a reasonable expectation. I think that we should be right on there. And then, Michael, on the data center question that you have, we have not seen a shift of demand that we expected in the United States to go outside the country as of yet. And I candidly don't expect that to be the case. I think you've got a combination of you still have, you know, plenty of states that have not declared moratoriums.",
+   "parts": [
+    {
+     "t0_ms": 3036000,
+     "text": "You know, we were just slightly above the midpoint of our guide for Q1,"
+    },
+    {
+     "t0_ms": 3041140,
+     "text": "And I think that most have expectations of a full year gross margin of just shy of 65%."
+    },
+    {
+     "t0_ms": 3048280,
+     "text": "And I think that's a reasonable expectation."
+    },
+    {
+     "t0_ms": 3050640,
+     "text": "I think that we should be right on there."
+    },
+    {
+     "t0_ms": 3055100,
+     "text": "And then, Michael, on the data center question that you have, we have not seen a shift of demand that we expected in the United States to go outside the country as of yet."
+    },
+    {
+     "t0_ms": 3067740,
+     "text": "And I candidly don't expect that to be the case."
+    },
+    {
+     "t0_ms": 3071000,
+     "text": "I think you've got a combination of you still have, you know, plenty of states that have not declared moratoriums."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3080140,
+   "t1_ms": 3124420,
+   "speaker": "Management",
+   "text": "You have obviously you've got to have the energy right in those states. But we've also seen some of the at least one of the governors has come out and said that they're open to data center bills. They just need to be done in the right way with concern and commitments to the community, concerns and commitment to maintaining energy costs and things of that nature. And I think this is too important to our country, and it's too important to the industry. It'll get resolved, and I think that the last thing we want is for data centers to end up being built outside the United States. And I think that's how this will end up. But obviously, there's a lot of political dynamics in it right now.",
+   "parts": [
+    {
+     "t0_ms": 3080140,
+     "text": "You have obviously you've got to have the energy right in those states."
+    },
+    {
+     "t0_ms": 3085600,
+     "text": "But we've also seen some of the at least one of the governors has come out and said that they're open to data center bills."
+    },
+    {
+     "t0_ms": 3094380,
+     "text": "They just need to be done in the right way with concern and commitments to the community, concerns and commitment to maintaining energy costs and things of that nature."
+    },
+    {
+     "t0_ms": 3104060,
+     "text": "And I think this is too important to our country, and it's too important to the industry."
+    },
+    {
+     "t0_ms": 3110220,
+     "text": "It'll get resolved, and I think that the last thing we want is for data centers to end up being built outside the United States."
+    },
+    {
+     "t0_ms": 3118040,
+     "text": "And I think that's how this will end up."
+    },
+    {
+     "t0_ms": 3121460,
+     "text": "But obviously, there's a lot of political dynamics in it right now."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3124680,
+   "t1_ms": 3162680,
+   "speaker": "Management",
+   "text": "So thank you for the question. Thank you, Mike. I'm going to hand it over to Chuck for some closing remarks. Yeah, I just want to thank everyone for joining us today. And I want to reinforce just how confident I am in Cisco's future and, candidly, the sustainability of the performance that we've seen. We're executing really well against our strategy. The teams are doing a great job. we're delivering strong results, and we're seeing the investments that we've made over the past several years, in some cases a decade, they're translating into real momentum. The other thing I would point out is that this business is more efficient and has greater scale than anything",
+   "parts": [
+    {
+     "t0_ms": 3124680,
+     "text": "So thank you for the question."
+    },
+    {
+     "t0_ms": 3127320,
+     "text": "Thank you, Mike."
+    },
+    {
+     "t0_ms": 3127960,
+     "text": "I'm going to hand it over to Chuck for some closing remarks."
+    },
+    {
+     "t0_ms": 3131640,
+     "text": "Yeah, I just want to thank everyone for joining us today."
+    },
+    {
+     "t0_ms": 3134340,
+     "text": "And I want to reinforce just how confident I am in Cisco's future and, candidly, the"
+    },
+    {
+     "t0_ms": 3139680,
+     "text": "sustainability of the performance that we've seen."
+    },
+    {
+     "t0_ms": 3143140,
+     "text": "We're executing really well against our strategy."
+    },
+    {
+     "t0_ms": 3145820,
+     "text": "The teams are doing a great job."
+    },
+    {
+     "t0_ms": 3147040,
+     "text": "we're delivering strong results, and we're seeing the investments that we've made over the past"
+    },
+    {
+     "t0_ms": 3151600,
+     "text": "several years, in some cases a decade, they're translating into real momentum. The other thing"
+    },
+    {
+     "t0_ms": 3157840,
+     "text": "I would point out is that this business is more efficient and has greater scale than anything"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3162680,
+   "t1_ms": 3207580,
+   "speaker": "Management",
+   "text": "I've seen. If you just look at our revenue based on the guide we put up today, and you go back two years, we're going to generate $19 billion in incremental revenue, and we're going to do that with less headcount than we had at the beginning two years ago, and so the efficiency that we're seeing is just unprecedented, and the teams are doing an incredible job of scaling the business and also driving productivity. I also gained a lot of confidence from what I'm hearing from our customers and our partners. We are truly in the very early stages of a multi-year networking super cycle, and we're confident in our ability to continue capturing the opportunity that it represents for Cisco. I believe we have the right strategy. We have the innovation, the right team,",
+   "parts": [
+    {
+     "t0_ms": 3162680,
+     "text": "I've seen. If you just look at our revenue based on the guide we put up today, and you go back two"
+    },
+    {
+     "t0_ms": 3170420,
+     "text": "years, we're going to generate $19 billion in incremental revenue, and we're going to do that"
+    },
+    {
+     "t0_ms": 3175940,
+     "text": "with less headcount than we had at the beginning two years ago, and so the efficiency that we're"
+    },
+    {
+     "t0_ms": 3181760,
+     "text": "seeing is just unprecedented, and the teams are doing an incredible job of scaling the business"
+    },
+    {
+     "t0_ms": 3188040,
+     "text": "and also driving productivity. I also gained a lot of confidence from what I'm hearing from our"
+    },
+    {
+     "t0_ms": 3193320,
+     "text": "customers and our partners. We are truly in the very early stages of a multi-year networking"
+    },
+    {
+     "t0_ms": 3197440,
+     "text": "super cycle, and we're confident in our ability to continue capturing the opportunity that it"
+    },
+    {
+     "t0_ms": 3202700,
+     "text": "represents for Cisco. I believe we have the right strategy. We have the innovation, the right team,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3207580,
+   "t1_ms": 3238800,
+   "speaker": "Management",
+   "text": "and we're focused on translating that into sustained profitable growth. I want to thank our teams for their continued execution and thank our customers, partners, and shareholders for their trust. And Sammy, I'll turn it back over to you. Thank you, Chuck. Cisco's next quarterly call, which will outline our second quarter fiscal year 2027 results, will be on Wednesday, February 10, 2027 at 1 30 p.m pacific time 4 30 p.m eastern time this concludes today's call if you have any further questions please feel free to contact the cisco investor relations department and we thank",
+   "parts": [
+    {
+     "t0_ms": 3207580,
+     "text": "and we're focused on translating that into sustained profitable growth. I want to thank"
+    },
+    {
+     "t0_ms": 3213100,
+     "text": "our teams for their continued execution and thank our customers, partners, and shareholders for their"
+    },
+    {
+     "t0_ms": 3217020,
+     "text": "trust. And Sammy, I'll turn it back over to you. Thank you, Chuck. Cisco's next quarterly call,"
+    },
+    {
+     "t0_ms": 3222340,
+     "text": "which will outline our second quarter fiscal year 2027 results, will be on Wednesday, February 10,"
+    },
+    {
+     "t0_ms": 3226900,
+     "text": "2027 at 1 30 p.m pacific time 4 30 p.m eastern time this concludes today's call if you have any"
+    },
+    {
+     "t0_ms": 3234080,
+     "text": "further questions please feel free to contact the cisco investor relations department and we thank"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3238800,
+   "t1_ms": 3264760,
+   "speaker": "Operator",
+   "text": "you very much for joining the call today thank you for participating on today's conference call if you would like to listen to the call in its entirety you may call 800-839-2232 For participants dialing from outside the U.S., please dial 203-369-3662. This concludes today's call. You may disconnect at this time.",
+   "parts": [
+    {
+     "t0_ms": 3238800,
+     "text": "you very much for joining the call today thank you for participating on today's conference call"
+    },
+    {
+     "t0_ms": 3244760,
+     "text": "if you would like to listen to the call in its entirety you may call 800-839-2232"
+    },
+    {
+     "t0_ms": 3252380,
+     "text": "For participants dialing from outside the U.S., please dial 203-369-3662."
+    },
+    {
+     "t0_ms": 3261720,
+     "text": "This concludes today's call."
+    },
+    {
+     "t0_ms": 3263220,
+     "text": "You may disconnect at this time."
+    }
+   ]
+  }
+ ]
+}

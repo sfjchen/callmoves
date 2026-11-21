@@ -1,0 +1,3955 @@
+{
+ "ticker": "TSLA",
+ "quarter": "Q3-2026",
+ "company": "Tesla",
+ "call_start": "2026-10-21T17:30:00-04:00",
+ "etf": "XLY",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/TSLA_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 40620,
+   "speaker": "Operator",
+   "text": "Good afternoon, everyone, and welcome to Tesla's third quarter 2026 Q&A webcast. My name is Travis Axelrod, Head of Investor Relations, and I'm joined today by Elon Musk, Vibhav Taneja, and a number of other executives. Our Q3 results were announced at about 3 p.m. Central Time in the update deck we published at the same link as this webcast. During this call, we will discuss our business outlook and make forward-looking statements. These comments are based on our predictions and expectations as of today. Actual events or results could differ materially due to a number of risks and uncertainties, including those mentioned in our most recent filings with the SEC.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon, everyone, and welcome to Tesla's third quarter 2026 Q&A webcast."
+    },
+    {
+     "t0_ms": 5760,
+     "text": "My name is Travis Axelrod, Head of Investor Relations, and I'm joined today by Elon Musk,"
+    },
+    {
+     "t0_ms": 10880,
+     "text": "Vibhav Taneja, and a number of other executives."
+    },
+    {
+     "t0_ms": 14100,
+     "text": "Our Q3 results were announced at about 3 p.m. Central Time in the update deck we published"
+    },
+    {
+     "t0_ms": 20900,
+     "text": "at the same link as this webcast."
+    },
+    {
+     "t0_ms": 23060,
+     "text": "During this call, we will discuss our business outlook and make forward-looking statements."
+    },
+    {
+     "t0_ms": 27280,
+     "text": "These comments are based on our predictions and expectations as of today."
+    },
+    {
+     "t0_ms": 32700,
+     "text": "Actual events or results could differ materially due to a number of risks and uncertainties,"
+    },
+    {
+     "t0_ms": 37820,
+     "text": "including those mentioned in our most recent filings with the SEC."
+    }
+   ]
+  },
+  {
+   "t0_ms": 41720,
+   "t1_ms": 55140,
+   "speaker": "Operator",
+   "text": "During the question and answer portion of today's call, please limit yourself to one question and one follow-up. Please use the raise hand button to join the question queue. Before we jump into Q&A, Elon has some opening remarks. Elon?",
+   "parts": [
+    {
+     "t0_ms": 41720,
+     "text": "During the question and answer portion of today's call, please limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 48240,
+     "text": "Please use the raise hand button to join the question queue."
+    },
+    {
+     "t0_ms": 51780,
+     "text": "Before we jump into Q&A, Elon has some opening remarks. Elon?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 55140,
+   "t1_ms": 96740,
+   "speaker": "Management",
+   "text": "Thank you. So the third quarter was very strong, and I'd like to give a big congratulations to the whole Tesla team for working hard to make it happen. Demand is growing rapidly for our vehicles. It's exceeding our production by a significant margin. And obviously, we're going to be ramping, and we are ramping production meaningfully. The biggest driver for demand is full self-driving. And today, there's really no competitor for FSD in any car that you can buy. And to be clear, we are producing and delivering as many cards as we can, and we're pushing very hard for FSD approval in additional markets.",
+   "parts": [
+    {
+     "t0_ms": 55140,
+     "text": "Thank you. So the third quarter was very strong, and I'd like to give a big congratulations to the whole Tesla team for working hard to make it happen."
+    },
+    {
+     "t0_ms": 63620,
+     "text": "Demand is growing rapidly for our vehicles. It's exceeding our production by a significant margin."
+    },
+    {
+     "t0_ms": 70160,
+     "text": "And obviously, we're going to be ramping, and we are ramping production meaningfully."
+    },
+    {
+     "t0_ms": 75220,
+     "text": "The biggest driver for demand is full self-driving."
+    },
+    {
+     "t0_ms": 80140,
+     "text": "And today, there's really no competitor for FSD in any car that you can buy."
+    },
+    {
+     "t0_ms": 85140,
+     "text": "And to be clear, we are producing and delivering as many cards as we can, and we're pushing"
+    },
+    {
+     "t0_ms": 91800,
+     "text": "very hard for FSD approval in additional markets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 96740,
+   "t1_ms": 139800,
+   "speaker": "Management",
+   "text": "We're now approved in many countries in Europe, and we're hoping for an EU-wide approval. It's hard to predict, but maybe within a few months, but I would be surprised if it takes longer than Q1, but obviously that's not a timeframe we control, but we do anticipate being fully approved throughout Europe and many other countries. We also began production of the Tesla semi-truck in Q3 and did the new Roadster demo, which was, I think, one of the most exciting events. I mean, arguably the coolest demo of any product ever, and that's a testament to amazing work by the Tesla and SpaceX teams.",
+   "parts": [
+    {
+     "t0_ms": 96740,
+     "text": "We're now approved in many countries in Europe, and we're hoping for an EU-wide approval."
+    },
+    {
+     "t0_ms": 103740,
+     "text": "It's hard to predict, but maybe within a few months, but I would be surprised if it takes"
+    },
+    {
+     "t0_ms": 108760,
+     "text": "longer than Q1, but obviously that's not a timeframe we control, but we do anticipate"
+    },
+    {
+     "t0_ms": 113980,
+     "text": "being fully approved throughout Europe"
+    },
+    {
+     "t0_ms": 116280,
+     "text": "and many other countries."
+    },
+    {
+     "t0_ms": 119900,
+     "text": "We also began production of the Tesla semi-truck in Q3"
+    },
+    {
+     "t0_ms": 123300,
+     "text": "and did the new Roadster demo,"
+    },
+    {
+     "t0_ms": 128060,
+     "text": "which was, I think, one of the most exciting events."
+    },
+    {
+     "t0_ms": 132020,
+     "text": "I mean, arguably the coolest demo of any product ever,"
+    },
+    {
+     "t0_ms": 135360,
+     "text": "and that's a testament to amazing work"
+    },
+    {
+     "t0_ms": 138020,
+     "text": "by the Tesla and SpaceX teams."
+    }
+   ]
+  },
+  {
+   "t0_ms": 139800,
+   "t1_ms": 184260,
+   "speaker": "Management",
+   "text": "So we've also been laying the groundwork for a lot more manufacturing capacity. We're, I think, aiming for 5 million vehicles a year by approximately 2030. And I think we've got a good shot of achieving that goal. and energy demand is very strong we're actually almost sold out of all mega packs for 2027 and we're ramping production as quickly as possible to meet demand",
+   "parts": [
+    {
+     "t0_ms": 139800,
+     "text": "So we've also been laying the groundwork"
+    },
+    {
+     "t0_ms": 144800,
+     "text": "for a lot more manufacturing capacity."
+    },
+    {
+     "t0_ms": 150460,
+     "text": "We're, I think, aiming for 5 million vehicles a year"
+    },
+    {
+     "t0_ms": 157720,
+     "text": "by approximately 2030."
+    },
+    {
+     "t0_ms": 161980,
+     "text": "And I think we've got a good shot of achieving that goal."
+    },
+    {
+     "t0_ms": 166300,
+     "text": "and"
+    },
+    {
+     "t0_ms": 171220,
+     "text": "energy demand is very strong"
+    },
+    {
+     "t0_ms": 176020,
+     "text": "we're actually almost sold out of all"
+    },
+    {
+     "t0_ms": 179260,
+     "text": "mega packs for 2027 and we're ramping"
+    },
+    {
+     "t0_ms": 182340,
+     "text": "production as quickly as possible to meet demand"
+    }
+   ]
+  },
+  {
+   "t0_ms": 184260,
+   "t1_ms": 226840,
+   "speaker": "Management",
+   "text": "we also expect gross margins on that to increase meaningfully so in a nutshell after many years of sort of grind and things being fairly flat, I think we're now headed for a lot of fun and significant growth. Regarding RoboTaxi, we're seeing the RoboTaxi miles driven, fully autonomous miles driven, scale exponentially, meaning scaling very rapidly. and it would be hard to",
+   "parts": [
+    {
+     "t0_ms": 184260,
+     "text": "we also expect gross margins on that to"
+    },
+    {
+     "t0_ms": 188160,
+     "text": "increase meaningfully"
+    },
+    {
+     "t0_ms": 189800,
+     "text": "so in a nutshell"
+    },
+    {
+     "t0_ms": 194180,
+     "text": "after many years of sort of"
+    },
+    {
+     "t0_ms": 196680,
+     "text": "grind and things being fairly flat,"
+    },
+    {
+     "t0_ms": 200780,
+     "text": "I think we're now headed for a lot of fun"
+    },
+    {
+     "t0_ms": 203760,
+     "text": "and significant growth."
+    },
+    {
+     "t0_ms": 208160,
+     "text": "Regarding RoboTaxi,"
+    },
+    {
+     "t0_ms": 210420,
+     "text": "we're seeing the RoboTaxi miles driven,"
+    },
+    {
+     "t0_ms": 216100,
+     "text": "fully autonomous miles driven,"
+    },
+    {
+     "t0_ms": 218480,
+     "text": "scale exponentially,"
+    },
+    {
+     "t0_ms": 221200,
+     "text": "meaning scaling very rapidly."
+    },
+    {
+     "t0_ms": 222700,
+     "text": "and it would be hard to"
+    }
+   ]
+  },
+  {
+   "t0_ms": 226840,
+   "t1_ms": 270840,
+   "speaker": "Management",
+   "text": "overstate this point. It really is an extremely fast week-over-week growth in autonomous miles. And I don't think there's any company in the world that can match our scale with autonomous vehicles as we continue to ramp. The cyber cab fleet in Austin, for example, has grown by a factor of 10 since launch about a month ago. And the cumulative mileage is really, when I look at the weekly chart, it's wow. I mean, it looks like a rocket going to orbit, basically. It's growing very fast. And I recommend, if you want to try it out, come into Austin,",
+   "parts": [
+    {
+     "t0_ms": 226840,
+     "text": "overstate this point. It really is an extremely fast"
+    },
+    {
+     "t0_ms": 230480,
+     "text": "week-over-week growth in autonomous miles."
+    },
+    {
+     "t0_ms": 234660,
+     "text": "And I don't think there's any company in the world that can match our scale with autonomous vehicles"
+    },
+    {
+     "t0_ms": 238540,
+     "text": "as we continue to ramp. The cyber"
+    },
+    {
+     "t0_ms": 242080,
+     "text": "cab fleet in Austin, for example, has grown by a factor"
+    },
+    {
+     "t0_ms": 246880,
+     "text": "of 10 since launch about a month ago."
+    },
+    {
+     "t0_ms": 250320,
+     "text": "And the cumulative mileage is really, when I look at the weekly chart, it's wow."
+    },
+    {
+     "t0_ms": 258579,
+     "text": "I mean, it looks like a rocket going to orbit, basically."
+    },
+    {
+     "t0_ms": 261120,
+     "text": "It's growing very fast."
+    },
+    {
+     "t0_ms": 264820,
+     "text": "And I recommend, if you want to try it out, come into Austin,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 271220,
+   "t1_ms": 311300,
+   "speaker": "Management",
+   "text": "and you'll see Sapa Cavs in use at scale in Austin. as I think a lot of people saw with the Austin City Limits concert recently so this is really going to a very good place and regarding Optimus we've started what I'd call early production on our high volume line in Fremont I want to elaborate on this point because the and i've said this before that the the growth of optimus it's an it's an s curve but the initial",
+   "parts": [
+    {
+     "t0_ms": 271220,
+     "text": "and you'll see Sapa Cavs in use at scale in Austin."
+    },
+    {
+     "t0_ms": 274280,
+     "text": "as I think a lot of people saw"
+    },
+    {
+     "t0_ms": 277260,
+     "text": "with the Austin City Limits"
+    },
+    {
+     "t0_ms": 279340,
+     "text": "concert recently"
+    },
+    {
+     "t0_ms": 280560,
+     "text": "so"
+    },
+    {
+     "t0_ms": 282760,
+     "text": "this is really going to a very good"
+    },
+    {
+     "t0_ms": 289280,
+     "text": "place"
+    },
+    {
+     "t0_ms": 289720,
+     "text": "and"
+    },
+    {
+     "t0_ms": 291580,
+     "text": "regarding Optimus"
+    },
+    {
+     "t0_ms": 294760,
+     "text": "we've started"
+    },
+    {
+     "t0_ms": 296680,
+     "text": "what I'd call early production"
+    },
+    {
+     "t0_ms": 299020,
+     "text": "on our high volume line"
+    },
+    {
+     "t0_ms": 301060,
+     "text": "in Fremont"
+    },
+    {
+     "t0_ms": 302000,
+     "text": "I want to elaborate on this point because"
+    },
+    {
+     "t0_ms": 304140,
+     "text": "the and i've said this before that the the growth of optimus it's an it's an s curve but the initial"
+    }
+   ]
+  },
+  {
+   "t0_ms": 311300,
+   "t1_ms": 354180,
+   "speaker": "Management",
+   "text": "part of the s curve is uh has a shallow slope and is somewhat bumpy because it is such a radically new product so um that you know the way to think about it is there's like 10 000 things that have to go right for production of the of the robot and it'll move as fast as the slowest least lucky of the 10,000, but we do have the vast majority of a million unit per line, production line, landed in Fremont right now, but I would expect that it takes us probably at least a year, maybe a little longer to get to that annualized rate, to get to 20,000 units a week.",
+   "parts": [
+    {
+     "t0_ms": 311300,
+     "text": "part of the s curve is uh has a shallow slope and is somewhat bumpy because it is such a radically"
+    },
+    {
+     "t0_ms": 317200,
+     "text": "new product so um that you know the way to think about it is there's like 10 000 things that have"
+    },
+    {
+     "t0_ms": 324300,
+     "text": "to go right for production of the of the robot and it'll move as fast as the slowest least lucky"
+    },
+    {
+     "t0_ms": 328940,
+     "text": "of the 10,000, but we do have"
+    },
+    {
+     "t0_ms": 331860,
+     "text": "the vast majority of a million"
+    },
+    {
+     "t0_ms": 336900,
+     "text": "unit per line, production line, landed"
+    },
+    {
+     "t0_ms": 341060,
+     "text": "in Fremont right now, but"
+    },
+    {
+     "t0_ms": 344400,
+     "text": "I would expect that it takes us probably at least a"
+    },
+    {
+     "t0_ms": 349000,
+     "text": "year, maybe a little longer to get to that annualized rate, to get to"
+    },
+    {
+     "t0_ms": 353020,
+     "text": "20,000 units a week."
+    }
+   ]
+  },
+  {
+   "t0_ms": 354180,
+   "t1_ms": 398160,
+   "speaker": "Management",
+   "text": "um so this is just a fundamentally because there's you know there's there's still parts of the design that are changing um like a lot of people ask me about optimus that's why i think i've got to kind of um sort of belabor this point um because uh if people aren't don't sort of understand like new technology that well or volume production of complex new hardware that well it sort of seems like well can't you just make a whole bunch of these things immediately and send them out and it's like no you've got to basically build up an entire gigantic global supply chain and have domestically",
+   "parts": [
+    {
+     "t0_ms": 354180,
+     "text": "um so this is just a fundamentally because there's you know there's there's still parts"
+    },
+    {
+     "t0_ms": 362020,
+     "text": "of the design that are changing um like a lot of people ask me about optimus that's why i think i've"
+    },
+    {
+     "t0_ms": 367900,
+     "text": "got to kind of um sort of belabor this point um because uh if people aren't don't sort of"
+    },
+    {
+     "t0_ms": 376680,
+     "text": "understand like new technology that well or volume production of complex new hardware that well"
+    },
+    {
+     "t0_ms": 382520,
+     "text": "it sort of seems like well can't you just make a whole bunch"
+    },
+    {
+     "t0_ms": 385040,
+     "text": "of these things immediately and send them out"
+    },
+    {
+     "t0_ms": 386760,
+     "text": "and it's like no"
+    },
+    {
+     "t0_ms": 388800,
+     "text": "you've got to"
+    },
+    {
+     "t0_ms": 390400,
+     "text": "basically build up an entire"
+    },
+    {
+     "t0_ms": 393180,
+     "text": "gigantic global supply chain"
+    },
+    {
+     "t0_ms": 394640,
+     "text": "and have"
+    },
+    {
+     "t0_ms": 396960,
+     "text": "domestically"
+    }
+   ]
+  },
+  {
+   "t0_ms": 398160,
+   "t1_ms": 438320,
+   "speaker": "Management",
+   "text": "a very big factory and everything's got to work and there's still some things we need to tweak about the design because you need to deliver a robot that is safe and reliable and has long duration. So it can't wear out after a month. And there's still quite a lot of work to do with regard to the AI and the robot for it to be truly useful for open-ended tasks. But like I said, I would expect that the AI, the electromechanical design,",
+   "parts": [
+    {
+     "t0_ms": 398160,
+     "text": "a very big factory"
+    },
+    {
+     "t0_ms": 401240,
+     "text": "and everything's got to work"
+    },
+    {
+     "t0_ms": 402780,
+     "text": "and there's"
+    },
+    {
+     "t0_ms": 405140,
+     "text": "still some things we need to tweak about the design"
+    },
+    {
+     "t0_ms": 407360,
+     "text": "because you need to deliver"
+    },
+    {
+     "t0_ms": 408980,
+     "text": "a robot that is safe"
+    },
+    {
+     "t0_ms": 410740,
+     "text": "and reliable and has long duration."
+    },
+    {
+     "t0_ms": 414480,
+     "text": "So it can't wear out after a month."
+    },
+    {
+     "t0_ms": 418160,
+     "text": "And there's still quite a lot of work to do"
+    },
+    {
+     "t0_ms": 420360,
+     "text": "with regard to the AI and the robot"
+    },
+    {
+     "t0_ms": 422600,
+     "text": "for it to be truly useful for open-ended tasks."
+    },
+    {
+     "t0_ms": 428640,
+     "text": "But like I said,"
+    },
+    {
+     "t0_ms": 430320,
+     "text": "I would expect that the AI,"
+    },
+    {
+     "t0_ms": 434540,
+     "text": "the electromechanical design,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 438320,
+   "t1_ms": 480420,
+   "speaker": "Management",
+   "text": "and the reliability and usage duration, like the usage life of the robot. I do expect these issues to be solved around the end of next year. So that's the time to expect when we're delivering Optimus to companies outside of Tesla. and I remain convinced that Optimus will be the biggest product on Earth and humanoid robots in general will be the biggest product on Earth so Optimus is a very big deal",
+   "parts": [
+    {
+     "t0_ms": 438320,
+     "text": "and the reliability and usage duration,"
+    },
+    {
+     "t0_ms": 447700,
+     "text": "like the usage life of the robot."
+    },
+    {
+     "t0_ms": 449220,
+     "text": "I do expect these issues to be solved around the end of next year."
+    },
+    {
+     "t0_ms": 454580,
+     "text": "So that's the time to expect when we're delivering Optimus"
+    },
+    {
+     "t0_ms": 460120,
+     "text": "to companies outside of Tesla."
+    },
+    {
+     "t0_ms": 462860,
+     "text": "and I remain convinced"
+    },
+    {
+     "t0_ms": 467380,
+     "text": "that Optimus will be"
+    },
+    {
+     "t0_ms": 468980,
+     "text": "the biggest product on Earth"
+    },
+    {
+     "t0_ms": 470580,
+     "text": "and humanoid robots in general"
+    },
+    {
+     "t0_ms": 475220,
+     "text": "will be the biggest product on Earth"
+    },
+    {
+     "t0_ms": 476380,
+     "text": "so Optimus is a very big deal"
+    }
+   ]
+  },
+  {
+   "t0_ms": 480420,
+   "t1_ms": 523210,
+   "speaker": "Management",
+   "text": "but I don't want to temper expectations that we still have a lot to get through and it's about a year or so that it will take us to get through all that stuff But as to the best of my knowledge There is no one that is even close to Tesla With respect to a general purpose humanoid robot Regarding the TerraFab The Austin-based research fab Is progressing quickly We'll begin commissioning machinery in the first half of next year And hopefully if things go well We'll make our first test chip Just to see if we can make any chip at all around May or June.",
+   "parts": [
+    {
+     "t0_ms": 480420,
+     "text": "but I don't want to temper expectations"
+    },
+    {
+     "t0_ms": 483800,
+     "text": "that we still have a lot to get through"
+    },
+    {
+     "t0_ms": 486380,
+     "text": "and it's about a year or so"
+    },
+    {
+     "t0_ms": 487860,
+     "text": "that it will take us to get through all that stuff"
+    },
+    {
+     "t0_ms": 489620,
+     "text": "But as to the best of my knowledge"
+    },
+    {
+     "t0_ms": 494900,
+     "text": "There is no one that is even close to Tesla"
+    },
+    {
+     "t0_ms": 496920,
+     "text": "With respect to a general purpose humanoid robot"
+    },
+    {
+     "t0_ms": 499480,
+     "text": "Regarding the TerraFab"
+    },
+    {
+     "t0_ms": 504690,
+     "text": "The Austin-based research fab"
+    },
+    {
+     "t0_ms": 508590,
+     "text": "Is progressing quickly"
+    },
+    {
+     "t0_ms": 509730,
+     "text": "We'll begin commissioning machinery in the first half of next year"
+    },
+    {
+     "t0_ms": 513330,
+     "text": "And hopefully if things go well"
+    },
+    {
+     "t0_ms": 516289,
+     "text": "We'll make our first test chip"
+    },
+    {
+     "t0_ms": 518890,
+     "text": "Just to see if we can make any chip at all"
+    },
+    {
+     "t0_ms": 521250,
+     "text": "around May or June."
+    }
+   ]
+  },
+  {
+   "t0_ms": 524750,
+   "t1_ms": 568250,
+   "speaker": "Management",
+   "text": "So that's pretty exciting. And then our aspiration is to be making some kind of useful chip at volume around Q3 of 2028. And as I said publicly on X, The Tower 5, I think, will be the most valuable building in the world and will probably have an economic value that will place it in the top 20 of countries. So it's an epic project. And this will be an incredibly important asset,",
+   "parts": [
+    {
+     "t0_ms": 524750,
+     "text": "So that's pretty exciting."
+    },
+    {
+     "t0_ms": 528330,
+     "text": "And then our aspiration is to be making"
+    },
+    {
+     "t0_ms": 533910,
+     "text": "some kind of useful chip at volume"
+    },
+    {
+     "t0_ms": 536810,
+     "text": "around Q3 of 2028."
+    },
+    {
+     "t0_ms": 543810,
+     "text": "And as I said publicly on X,"
+    },
+    {
+     "t0_ms": 547710,
+     "text": "The Tower 5, I think, will be the most valuable building in the world"
+    },
+    {
+     "t0_ms": 552650,
+     "text": "and will probably have an economic value"
+    },
+    {
+     "t0_ms": 556330,
+     "text": "that will place it in the top 20 of countries."
+    },
+    {
+     "t0_ms": 560290,
+     "text": "So it's an epic project."
+    },
+    {
+     "t0_ms": 565450,
+     "text": "And this will be an incredibly important asset,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 568250,
+   "t1_ms": 610930,
+   "speaker": "Management",
+   "text": "if not a necessary asset, in order to scale, especially Optimus. As we can address bottlenecks in semiconductors, whether it's memory, packaging, logic, or whatever the case may be. With regard to a potential mojo with FaceX, I think I said everything that should be said yesterday, tap dancing through a minefield there. And, yeah, that's it. In conclusion, we're super excited about our autonomy and robotics roadmap. There's a lot of incredibly awesome stuff coming, and I'd like to once again thank the Tesla team for their strong execution and all of our supporters for joining us on this journey.",
+   "parts": [
+    {
+     "t0_ms": 568250,
+     "text": "if not a necessary asset, in order to scale, especially Optimus."
+    },
+    {
+     "t0_ms": 573630,
+     "text": "As we can address bottlenecks in semiconductors,"
+    },
+    {
+     "t0_ms": 576610,
+     "text": "whether it's memory, packaging, logic, or whatever the case may be."
+    },
+    {
+     "t0_ms": 583170,
+     "text": "With regard to a potential mojo with FaceX,"
+    },
+    {
+     "t0_ms": 586670,
+     "text": "I think I said everything that should be said yesterday,"
+    },
+    {
+     "t0_ms": 589670,
+     "text": "tap dancing through a minefield there."
+    },
+    {
+     "t0_ms": 593550,
+     "text": "And, yeah, that's it."
+    },
+    {
+     "t0_ms": 599030,
+     "text": "In conclusion, we're super excited about our autonomy and robotics roadmap."
+    },
+    {
+     "t0_ms": 603730,
+     "text": "There's a lot of incredibly awesome stuff coming,"
+    },
+    {
+     "t0_ms": 605550,
+     "text": "and I'd like to once again thank the Tesla team for their strong execution"
+    },
+    {
+     "t0_ms": 608590,
+     "text": "and all of our supporters for joining us on this journey."
+    }
+   ]
+  },
+  {
+   "t0_ms": 613620,
+   "t1_ms": 618000,
+   "speaker": "Operator",
+   "text": "Great. Thanks very much, Elon. And Vedbhav has opening remarks as well. Vedbhav?",
+   "parts": [
+    {
+     "t0_ms": 613620,
+     "text": "Great. Thanks very much, Elon."
+    },
+    {
+     "t0_ms": 615720,
+     "text": "And Vedbhav has opening remarks as well. Vedbhav?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 618400,
+   "t1_ms": 663080,
+   "speaker": "Management",
+   "text": "Thanks, Travis. We continued our progress on a lot of fronts in Q3. Elon already covered a lot of them. Additionally, which I'd like to add is we also started deliveries of megapacks with our in-house LFP batteries. And for the first time, two consecutive quarters of vehicle deliveries of over 480K. On the automotive business, we exited the quarter with our highest backlog in four years, with deliveries constrained primarily by production. We are therefore focused on increasing production at all our factories to meet this growing demand. While we are actively working to increase production, it does take some time to get every aspect dialed in, from supply",
+   "parts": [
+    {
+     "t0_ms": 618400,
+     "text": "Thanks, Travis."
+    },
+    {
+     "t0_ms": 619900,
+     "text": "We continued our progress on a lot of fronts in Q3."
+    },
+    {
+     "t0_ms": 624360,
+     "text": "Elon already covered a lot of them."
+    },
+    {
+     "t0_ms": 626480,
+     "text": "Additionally, which I'd like to add is we also started deliveries of megapacks"
+    },
+    {
+     "t0_ms": 630400,
+     "text": "with our in-house LFP batteries."
+    },
+    {
+     "t0_ms": 633000,
+     "text": "And for the first time, two consecutive quarters of vehicle deliveries"
+    },
+    {
+     "t0_ms": 636840,
+     "text": "of over 480K. On the automotive business, we exited the quarter with our highest backlog in"
+    },
+    {
+     "t0_ms": 644640,
+     "text": "four years, with deliveries constrained primarily by production. We are therefore focused on"
+    },
+    {
+     "t0_ms": 650020,
+     "text": "increasing production at all our factories to meet this growing demand. While we are actively"
+    },
+    {
+     "t0_ms": 655800,
+     "text": "working to increase production, it does take some time to get every aspect dialed in, from supply"
+    }
+   ]
+  },
+  {
+   "t0_ms": 663080,
+   "t1_ms": 706000,
+   "speaker": "Management",
+   "text": "chain to manufacturing to delivery logistics. The Model Y continued to outperform in the quarter and set delivery records in several key markets. Based on the preliminary data which we've gathered, we believe that it was the number one selling BEV in Europe and the number one selling passenger car in South Korea. We also set new records in key markets including Australia, Japan, and Taiwan. As Elon said, FSD continues to be the key driver for demand. In Q3, over 75% of deliveries in North America included a sign-up for paid FSD subscription at the time of delivery,",
+   "parts": [
+    {
+     "t0_ms": 663080,
+     "text": "chain to manufacturing to delivery logistics. The Model Y continued to outperform in the quarter"
+    },
+    {
+     "t0_ms": 670300,
+     "text": "and set delivery records in several key markets. Based on the preliminary data which we've gathered,"
+    },
+    {
+     "t0_ms": 676200,
+     "text": "we believe that it was the number one selling BEV in Europe and the number one selling"
+    },
+    {
+     "t0_ms": 681400,
+     "text": "passenger car in South Korea. We also set new records in key markets including Australia,"
+    },
+    {
+     "t0_ms": 689980,
+     "text": "Japan, and Taiwan. As Elon said, FSD continues to be the key driver for demand. In Q3, over 75%"
+    },
+    {
+     "t0_ms": 698460,
+     "text": "of deliveries in North America included a sign-up for paid FSD subscription at the time of delivery,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 706320,
+   "t1_ms": 749160,
+   "speaker": "Management",
+   "text": "which is approximately 20% higher than Q2. Overall, the FSD attached rate continued to improve, reaching over 1.7 million paid customers globally, of which, for the first time, 50% is based on subscriptions. Given the strength of FSD in the U.S., we are taking extra steps to sell certain cars in Europe with some benefits to try and get more fleet out there before a broader FSD approval is obtained. On automotive margins, excluding credits, increase sequentially from 16.3% to 18.1%.",
+   "parts": [
+    {
+     "t0_ms": 706320,
+     "text": "which is approximately 20% higher than Q2. Overall, the FSD attached rate continued to"
+    },
+    {
+     "t0_ms": 712540,
+     "text": "improve, reaching over 1.7 million paid customers globally, of which, for the first time, 50%"
+    },
+    {
+     "t0_ms": 719800,
+     "text": "is based on subscriptions."
+    },
+    {
+     "t0_ms": 722560,
+     "text": "Given the strength of FSD in the U.S.,"
+    },
+    {
+     "t0_ms": 725680,
+     "text": "we are taking extra steps to sell certain cars in Europe"
+    },
+    {
+     "t0_ms": 730940,
+     "text": "with some benefits to try and get more fleet out there"
+    },
+    {
+     "t0_ms": 737060,
+     "text": "before a broader FSD approval is obtained."
+    },
+    {
+     "t0_ms": 741160,
+     "text": "On automotive margins, excluding credits,"
+    },
+    {
+     "t0_ms": 744500,
+     "text": "increase sequentially from 16.3% to 18.1%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 749160,
+   "t1_ms": 789120,
+   "speaker": "Management",
+   "text": "The improvement in margins is driven by a higher mix of deliveries in APAC. While commodity price increases and interest rate changes continue to add to our costs and create further headwinds, we have adjusted the vehicle financing programs to partially offset for such costs. On the energy business, we had a second-best quarter of deployments of 13.7 GWh of energy storage. Energy gross margins improved from 20.4% to 33.1%. The sequential margin improvement is primarily attributed to tariff-free funds recognized in the quarter",
+   "parts": [
+    {
+     "t0_ms": 749160,
+     "text": "The improvement in margins is driven by a higher mix of deliveries in APAC."
+    },
+    {
+     "t0_ms": 755140,
+     "text": "While commodity price increases and interest rate changes continue to add to our costs and create further headwinds,"
+    },
+    {
+     "t0_ms": 763140,
+     "text": "we have adjusted the vehicle financing programs to partially offset for such costs."
+    },
+    {
+     "t0_ms": 769420,
+     "text": "On the energy business, we had a second-best quarter of deployments of 13.7 GWh of energy storage."
+    },
+    {
+     "t0_ms": 778300,
+     "text": "Energy gross margins improved from 20.4% to 33.1%."
+    },
+    {
+     "t0_ms": 783180,
+     "text": "The sequential margin improvement is primarily attributed to tariff-free funds recognized in the quarter"
+    }
+   ]
+  },
+  {
+   "t0_ms": 789120,
+   "t1_ms": 832620,
+   "speaker": "Management",
+   "text": "and warranty true downs resulting from alignment with a vendor on certain cell-related costs to be reimbursed by them. As Elon said, the business is witnessing extreme demand from data centers, And we are doing our best to increase production, and accordingly, we'll see, you know, improvements in ASP and further improvements in margins as we move forward. Services and other margins improved sequentially from 14.1% to 15.9%, an all-time high. This was the result of strength across several of the businesses and services and other, including supercharging and insurance.",
+   "parts": [
+    {
+     "t0_ms": 789120,
+     "text": "and warranty true downs resulting from alignment with a vendor on certain cell-related costs to be reimbursed by them."
+    },
+    {
+     "t0_ms": 796940,
+     "text": "As Elon said, the business is witnessing extreme demand from data centers,"
+    },
+    {
+     "t0_ms": 802740,
+     "text": "And we are doing our best to increase production, and accordingly, we'll see, you know, improvements in ASP and further improvements in margins as we move forward."
+    },
+    {
+     "t0_ms": 815380,
+     "text": "Services and other margins improved sequentially from 14.1% to 15.9%, an all-time high."
+    },
+    {
+     "t0_ms": 823420,
+     "text": "This was the result of strength across several of the businesses and services and other, including supercharging and insurance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 832740,
+   "t1_ms": 875640,
+   "speaker": "Management",
+   "text": "The Robotaxi business, which is part of services and others, continued to grow with the launch of CyberCab Rides in Austin. Accumulated unsupervised miles 8x in the quarter, and we had weekly double-digit growth throughout the quarter. We're taking all the learnings from our Austin expansion to help us prepare for broader CyberCab launch in other markets. Our priority is progressing the density and expansion of the network through vehicles that provide the best experience, like the cybercap. We will also continue to augment the fleet with other variants over time to address the terrestrial transportation needs of the total population.",
+   "parts": [
+    {
+     "t0_ms": 832740,
+     "text": "The Robotaxi business, which is part of services and others, continued to grow with the launch"
+    },
+    {
+     "t0_ms": 839020,
+     "text": "of CyberCab Rides in Austin."
+    },
+    {
+     "t0_ms": 841320,
+     "text": "Accumulated unsupervised miles 8x in the quarter, and we had weekly double-digit growth throughout"
+    },
+    {
+     "t0_ms": 848160,
+     "text": "the quarter."
+    },
+    {
+     "t0_ms": 850220,
+     "text": "We're taking all the learnings from our Austin expansion to help us prepare for broader CyberCab"
+    },
+    {
+     "t0_ms": 855460,
+     "text": "launch in other markets."
+    },
+    {
+     "t0_ms": 857540,
+     "text": "Our priority is progressing the density and expansion of the network through vehicles that provide the best experience, like the cybercap."
+    },
+    {
+     "t0_ms": 866440,
+     "text": "We will also continue to augment the fleet with other variants over time to address the terrestrial transportation needs of the total population."
+    }
+   ]
+  },
+  {
+   "t0_ms": 875640,
+   "t1_ms": 920300,
+   "speaker": "Management",
+   "text": "I'd like to stress that, you know, what we are trying to do is literally take over every part of terrestrial transportation. not just getting people we are starting with getting people from one place to the other but we want to basically own this transportation of any kind on earth we are in a huge investment cycle to set ourselves up for the future therefore as previously guided operating expenses continue to increase sequentially most of the increase came from significant research and development related activities including SI development costs such as depreciation from a digital compute, chip development, and pre-production ramp costs for new products",
+   "parts": [
+    {
+     "t0_ms": 875640,
+     "text": "I'd like to stress that, you know, what we are trying to do is literally take over every part of terrestrial transportation."
+    },
+    {
+     "t0_ms": 884280,
+     "text": "not just getting people"
+    },
+    {
+     "t0_ms": 887260,
+     "text": "we are starting with getting people from one place to the other"
+    },
+    {
+     "t0_ms": 889880,
+     "text": "but we want to basically own this transportation of any kind"
+    },
+    {
+     "t0_ms": 894460,
+     "text": "on earth"
+    },
+    {
+     "t0_ms": 895980,
+     "text": "we are in a huge investment cycle"
+    },
+    {
+     "t0_ms": 900180,
+     "text": "to set ourselves up for the future"
+    },
+    {
+     "t0_ms": 901900,
+     "text": "therefore as previously guided"
+    },
+    {
+     "t0_ms": 903600,
+     "text": "operating expenses continue to increase sequentially"
+    },
+    {
+     "t0_ms": 906420,
+     "text": "most of the increase came from significant research and development related activities"
+    },
+    {
+     "t0_ms": 911720,
+     "text": "including SI development costs such as depreciation from a digital compute,"
+    },
+    {
+     "t0_ms": 916700,
+     "text": "chip development, and pre-production ramp costs for new products"
+    }
+   ]
+  },
+  {
+   "t0_ms": 920300,
+   "t1_ms": 965300,
+   "speaker": "Management",
+   "text": "like the Optimus, Megapack 3, and Symetra. This trend of growing OPEX would continue till we commercialize these new products. Net income was impacted from a mark-to-market reduction of our SpaceX holding of $142 million, which was offset by a Bitcoin mark-to-market gain of approximately $290 million. We continued our efforts to manage cash efficiently and responsibly. We ended the quarter with positive free cash flow of over $1.5 billion and an overall cash and investment balance of over $45 billion. We're revising our CapEx guidance to be approximately $20 billion for the current year as a result of managing our capital deployment efficiently",
+   "parts": [
+    {
+     "t0_ms": 920300,
+     "text": "like the Optimus, Megapack 3, and Symetra."
+    },
+    {
+     "t0_ms": 924000,
+     "text": "This trend of growing OPEX would continue"
+    },
+    {
+     "t0_ms": 927360,
+     "text": "till we commercialize these new products."
+    },
+    {
+     "t0_ms": 931680,
+     "text": "Net income was impacted from a mark-to-market reduction"
+    },
+    {
+     "t0_ms": 934880,
+     "text": "of our SpaceX holding of $142 million,"
+    },
+    {
+     "t0_ms": 938140,
+     "text": "which was offset by a Bitcoin mark-to-market gain of approximately $290 million."
+    },
+    {
+     "t0_ms": 943000,
+     "text": "We continued our efforts to manage cash efficiently and responsibly."
+    },
+    {
+     "t0_ms": 948380,
+     "text": "We ended the quarter with positive free cash flow of over $1.5 billion and an overall cash and investment balance of over $45 billion."
+    },
+    {
+     "t0_ms": 957460,
+     "text": "We're revising our CapEx guidance to be approximately $20 billion for the current year as a result of managing our capital deployment efficiently"
+    }
+   ]
+  },
+  {
+   "t0_ms": 965300,
+   "t1_ms": 1009000,
+   "speaker": "Management",
+   "text": "and plan to fund it primarily from our cash flows from operations. additionally during the quarter we secured capacity to borrow up to 30 billion to support the expected growth in capex our confidence in the cash generation capacity of our business and the investments we are making grow our belief to secure shorter term financing we don't plan to make any draws under any of the new facilities in this calendar year the money that we received from the tariff refunds is being reinvested to expand production capacity in the U.S. I like to stress on this that, you know, we like to do a lot of hardcore, real grunt work to get",
+   "parts": [
+    {
+     "t0_ms": 965300,
+     "text": "and plan to fund it primarily from our cash flows from operations."
+    },
+    {
+     "t0_ms": 969160,
+     "text": "additionally during the quarter we secured capacity to borrow up to 30 billion to support"
+    },
+    {
+     "t0_ms": 976240,
+     "text": "the expected growth in capex our confidence in the cash generation capacity of our business"
+    },
+    {
+     "t0_ms": 982500,
+     "text": "and the investments we are making grow our belief to secure shorter term financing we don't plan to"
+    },
+    {
+     "t0_ms": 989500,
+     "text": "make any draws under any of the new facilities in this calendar year the money that we received"
+    },
+    {
+     "t0_ms": 995620,
+     "text": "from the tariff refunds is being reinvested to expand production capacity in the U.S."
+    },
+    {
+     "t0_ms": 1001560,
+     "text": "I like to stress on this that, you know, we like to do a lot of hardcore, real grunt work to get"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1009000,
+   "t1_ms": 1053120,
+   "speaker": "Management",
+   "text": "production facilities up and running. And so, you know, our CapEx for the next few years would continue to expand as we add more Robotaxi fleet, we expand our production capacity for optimus install manufacturing capacity for solar purchase additional si compute infrastructure and build a semiconductor fab this strategy will position the company for the next era of growth and disrupt many existing markets while creating new ones this is by far the most exciting time to be a tesla the foundation being laid around autonomy robotics and energy is setting us up for an extremely bright future. I would like to end by thanking the Tesla team,",
+   "parts": [
+    {
+     "t0_ms": 1009000,
+     "text": "production facilities up and running. And so, you know, our CapEx for the next few years"
+    },
+    {
+     "t0_ms": 1015220,
+     "text": "would continue to expand as we add more Robotaxi fleet, we expand our production capacity for"
+    },
+    {
+     "t0_ms": 1021220,
+     "text": "optimus install manufacturing capacity for solar purchase additional si compute infrastructure and"
+    },
+    {
+     "t0_ms": 1028240,
+     "text": "build a semiconductor fab this strategy will position the company for the next era of growth"
+    },
+    {
+     "t0_ms": 1033960,
+     "text": "and disrupt many existing markets while creating new ones this is by far the most exciting time to"
+    },
+    {
+     "t0_ms": 1041420,
+     "text": "be a tesla the foundation being laid around autonomy robotics and energy is setting us up"
+    },
+    {
+     "t0_ms": 1048300,
+     "text": "for an extremely bright future."
+    },
+    {
+     "t0_ms": 1050840,
+     "text": "I would like to end by thanking the Tesla team,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1053580,
+   "t1_ms": 1058280,
+   "speaker": "Management",
+   "text": "our customers, investors, and suppliers for their confidence in us on this journey.",
+   "parts": [
+    {
+     "t0_ms": 1053580,
+     "text": "our customers, investors, and suppliers"
+    },
+    {
+     "t0_ms": 1056060,
+     "text": "for their confidence in us on this journey."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1060740,
+   "t1_ms": 1078760,
+   "speaker": "Operator",
+   "text": "Fantastic. Thank you, Vibhav. Now we're going to go to questions from say.com. The first question is, how does the cyber cab fleet scale past Austin, and what's the regulatory path outside Texas given NHTSA's open safety review? Ashok, did you want to take that?",
+   "parts": [
+    {
+     "t0_ms": 1060740,
+     "text": "Fantastic. Thank you, Vibhav."
+    },
+    {
+     "t0_ms": 1063240,
+     "text": "Now we're going to go to questions from say.com."
+    },
+    {
+     "t0_ms": 1067000,
+     "text": "The first question is,"
+    },
+    {
+     "t0_ms": 1068800,
+     "text": "how does the cyber cab fleet scale past Austin,"
+    },
+    {
+     "t0_ms": 1071700,
+     "text": "and what's the regulatory path outside Texas"
+    },
+    {
+     "t0_ms": 1075040,
+     "text": "given NHTSA's open safety review?"
+    },
+    {
+     "t0_ms": 1077760,
+     "text": "Ashok, did you want to take that?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1079180,
+   "t1_ms": 1120960,
+   "speaker": "Analyst",
+   "text": "Yeah, I'll start here. First of all, we launched CyberCab this quarter, which is very exciting. We achieved that by mostly learning from data from the other vehicle platforms, for example, Model Y, Model 3, et cetera. All of the data helped make the CyberCab without requiring a ridiculous amount of vehicles to produce the data. So we are seeing very good scaling in terms of CyberCab's AI capabilities. We launched in Austin, but that's only because we had some cabs and we want to swarm Austin with CyberCabs everywhere. But there's no fundamental reason that we are limited to Austin. In fact, next month we'll be launching in Dallas, and then the same software will just scale to lots of other cities along with the Model Y robot axes.",
+   "parts": [
+    {
+     "t0_ms": 1079180,
+     "text": "Yeah, I'll start here."
+    },
+    {
+     "t0_ms": 1080060,
+     "text": "First of all, we launched CyberCab this quarter, which is very exciting."
+    },
+    {
+     "t0_ms": 1083940,
+     "text": "We achieved that by mostly learning from data from the other vehicle platforms,"
+    },
+    {
+     "t0_ms": 1088780,
+     "text": "for example, Model Y, Model 3, et cetera."
+    },
+    {
+     "t0_ms": 1090960,
+     "text": "All of the data helped make the CyberCab"
+    },
+    {
+     "t0_ms": 1092860,
+     "text": "without requiring a ridiculous amount of vehicles to produce the data."
+    },
+    {
+     "t0_ms": 1097520,
+     "text": "So we are seeing very good scaling in terms of CyberCab's AI capabilities."
+    },
+    {
+     "t0_ms": 1104000,
+     "text": "We launched in Austin, but that's only because we had some cabs"
+    },
+    {
+     "t0_ms": 1107240,
+     "text": "and we want to swarm Austin with CyberCabs everywhere."
+    },
+    {
+     "t0_ms": 1110060,
+     "text": "But there's no fundamental reason that we are limited to Austin."
+    },
+    {
+     "t0_ms": 1113220,
+     "text": "In fact, next month we'll be launching in Dallas,"
+    },
+    {
+     "t0_ms": 1115900,
+     "text": "and then the same software will just scale to lots of other cities"
+    },
+    {
+     "t0_ms": 1118740,
+     "text": "along with the Model Y robot axes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1124580,
+   "t1_ms": 1139740,
+   "speaker": "Operator",
+   "text": "Great. Thanks very much. The next question is, what are your thoughts on crowdsourcing training data for Optimus versus your internal Optimus Academy approach? Is data currently the primary bottleneck? I think you covered this quite a bit, but any other color there?",
+   "parts": [
+    {
+     "t0_ms": 1124580,
+     "text": "Great. Thanks very much."
+    },
+    {
+     "t0_ms": 1126680,
+     "text": "The next question is,"
+    },
+    {
+     "t0_ms": 1128580,
+     "text": "what are your thoughts on crowdsourcing training data for Optimus"
+    },
+    {
+     "t0_ms": 1131640,
+     "text": "versus your internal Optimus Academy approach?"
+    },
+    {
+     "t0_ms": 1134320,
+     "text": "Is data currently the primary bottleneck?"
+    },
+    {
+     "t0_ms": 1137280,
+     "text": "I think you covered this quite a bit, but any other color there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1139740,
+   "t1_ms": 1179060,
+   "speaker": "Management",
+   "text": "I've mostly talked about this already, But it's not crowdsourcing is not the issue for Optimus. There's a lot of things we have to get right about the AI architecture that we're still working on. We're making good progress, but that needs to be sorted out. And really, in order for Optimus to get the training data we need, we actually need to make a lot of OptiMai. So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play.",
+   "parts": [
+    {
+     "t0_ms": 1139740,
+     "text": "I've mostly talked about this already,"
+    },
+    {
+     "t0_ms": 1142280,
+     "text": "But it's not crowdsourcing is not the issue for Optimus."
+    },
+    {
+     "t0_ms": 1149880,
+     "text": "There's a lot of things we have to get right about the AI architecture that we're still working on."
+    },
+    {
+     "t0_ms": 1158660,
+     "text": "We're making good progress, but that needs to be sorted out."
+    },
+    {
+     "t0_ms": 1164920,
+     "text": "And really, in order for Optimus to get the training data we need, we actually need to make a lot of OptiMai."
+    },
+    {
+     "t0_ms": 1171680,
+     "text": "So we need to make, I think, on the order of 10,000 or 20,000 bots and then have them do self-play."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1179380,
+   "t1_ms": 1224120,
+   "speaker": "Management",
+   "text": "And we're building up an Optimus Academy where Optimus can practice doing a very wide range of tasks. And then we can use that data in sort of a flywheel to make it better and better at these various tasks. um the you know a big difference with optimus versus the cars is we don't we don't have um this vast fleet of cars from which we can gather training data so with optimus we we have to bootstrap it by making the robots um and and having them do self-play which is really how a human learns to navigate the world you know it's that's uh you can you can see this when you have a toddler and they grow up and they initially are sort of wobbly",
+   "parts": [
+    {
+     "t0_ms": 1179380,
+     "text": "And we're building up an Optimus Academy where Optimus can practice doing a very wide range of tasks."
+    },
+    {
+     "t0_ms": 1186940,
+     "text": "And then we can use that data in sort of a flywheel to make it better and better at these various tasks."
+    },
+    {
+     "t0_ms": 1193780,
+     "text": "um the you know a big difference with optimus versus the cars is we don't we don't have"
+    },
+    {
+     "t0_ms": 1200420,
+     "text": "um this vast fleet of cars from which we can gather training data so with optimus"
+    },
+    {
+     "t0_ms": 1205960,
+     "text": "we we have to bootstrap it by making the robots um and and having them do self-play which is"
+    },
+    {
+     "t0_ms": 1213440,
+     "text": "really how a human learns to navigate the world you know it's that's uh you can you can see this"
+    },
+    {
+     "t0_ms": 1219500,
+     "text": "when you have a toddler and they grow up"
+    },
+    {
+     "t0_ms": 1222000,
+     "text": "and they initially are sort of wobbly"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1224120,
+   "t1_ms": 1255780,
+   "speaker": "Management",
+   "text": "and they don't know how to do things and eventually they learn to wipe their own ass, which is a big milestone. Has anyone ever had kids? Who knows? And then they learn to read and do all sorts of things and be able to do these things. And they learn this by playing. And we actually need optimists to play at scale in order to have it be really good at tasks in the real world. And Ashok, you may want to add to that.",
+   "parts": [
+    {
+     "t0_ms": 1224120,
+     "text": "and they don't know how to do things"
+    },
+    {
+     "t0_ms": 1225500,
+     "text": "and eventually they learn to wipe their own ass,"
+    },
+    {
+     "t0_ms": 1230440,
+     "text": "which is a big milestone."
+    },
+    {
+     "t0_ms": 1234260,
+     "text": "Has anyone ever had kids?"
+    },
+    {
+     "t0_ms": 1235520,
+     "text": "Who knows?"
+    },
+    {
+     "t0_ms": 1237460,
+     "text": "And then they learn to read and do all sorts of things"
+    },
+    {
+     "t0_ms": 1240340,
+     "text": "and be able to do these things."
+    },
+    {
+     "t0_ms": 1243620,
+     "text": "And they learn this by playing."
+    },
+    {
+     "t0_ms": 1245860,
+     "text": "And we actually need optimists to play at scale"
+    },
+    {
+     "t0_ms": 1248280,
+     "text": "in order to have it be really good at tasks in the real world."
+    },
+    {
+     "t0_ms": 1254560,
+     "text": "And Ashok, you may want to add to that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1256500,
+   "t1_ms": 1299480,
+   "speaker": "Analyst",
+   "text": "Yeah, like you mentioned, Elon, for the car, we actually have the data from the car's embodiment itself. But for Optimus, there's no exhaust agent for humans to get into and make Optimus into a puppet or something like that. We have to learn, Optimus has to learn by watching other people do tasks initially and then start practicing the task yourself. For example, if you're watching a soccer game, just because you're watching it doesn't mean you'll be good at soccer yourself. You've got to start practicing and get good at the game and learn from the bot's own experience. And we are setting up this huge reinforcement learning cycle with initial-based training done from humans to Bootstrap and then put it on Optimus and do a lot of self-play, both in simulation and in the real world,",
+   "parts": [
+    {
+     "t0_ms": 1256500,
+     "text": "Yeah, like you mentioned, Elon, for the car,"
+    },
+    {
+     "t0_ms": 1259180,
+     "text": "we actually have the data from the car's embodiment itself."
+    },
+    {
+     "t0_ms": 1262500,
+     "text": "But for Optimus, there's no exhaust agent for humans to get into"
+    },
+    {
+     "t0_ms": 1265720,
+     "text": "and make Optimus into a puppet or something like that."
+    },
+    {
+     "t0_ms": 1269100,
+     "text": "We have to learn, Optimus has to learn"
+    },
+    {
+     "t0_ms": 1271960,
+     "text": "by watching other people do tasks initially"
+    },
+    {
+     "t0_ms": 1274080,
+     "text": "and then start practicing the task yourself."
+    },
+    {
+     "t0_ms": 1276200,
+     "text": "For example, if you're watching a soccer game,"
+    },
+    {
+     "t0_ms": 1279860,
+     "text": "just because you're watching it"
+    },
+    {
+     "t0_ms": 1280740,
+     "text": "doesn't mean you'll be good at soccer yourself."
+    },
+    {
+     "t0_ms": 1282340,
+     "text": "You've got to start practicing and get good at the game"
+    },
+    {
+     "t0_ms": 1284820,
+     "text": "and learn from the bot's own experience."
+    },
+    {
+     "t0_ms": 1287380,
+     "text": "And we are setting up this huge reinforcement learning cycle"
+    },
+    {
+     "t0_ms": 1290680,
+     "text": "with initial-based training done from humans to Bootstrap"
+    },
+    {
+     "t0_ms": 1294040,
+     "text": "and then put it on Optimus and do a lot of self-play,"
+    },
+    {
+     "t0_ms": 1297800,
+     "text": "both in simulation and in the real world,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1299920,
+   "t1_ms": 1305460,
+   "speaker": "Analyst",
+   "text": "to learn on the embodiment of Optimus itself. I think we're pretty close to having very good results",
+   "parts": [
+    {
+     "t0_ms": 1299920,
+     "text": "to learn on the embodiment of Optimus itself."
+    },
+    {
+     "t0_ms": 1303340,
+     "text": "I think we're pretty close to having very good results"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1305460,
+   "t1_ms": 1348140,
+   "speaker": "Management",
+   "text": "in this big loop yeah i think we may be ready to release like an optimist video um in a month or so um i want to make sure that like when we release this video that it's not like a canned demo that um you know like when you see these robot humanoid robot uh demonstrations some of them look very impressive but they're they're they're not really using uh any kind of advanced ai or si i mean they're they're like pre-programmed deterministic tasks um and if you actually try to use that humanoid robot in the real world you would have a lot of trouble it wouldn't work basically so i want to release a video that's where it's optimus doing things that",
+   "parts": [
+    {
+     "t0_ms": 1305460,
+     "text": "in this big loop yeah i think we may be ready to release like an optimist video"
+    },
+    {
+     "t0_ms": 1310660,
+     "text": "um in a month or so um i want to make sure that like when we release this video that it's not"
+    },
+    {
+     "t0_ms": 1317520,
+     "text": "like a canned demo that um you know like when you see these robot humanoid robot uh demonstrations"
+    },
+    {
+     "t0_ms": 1324860,
+     "text": "some of them look very impressive but they're they're they're not really using uh any kind of"
+    },
+    {
+     "t0_ms": 1329980,
+     "text": "advanced ai or si i mean they're they're like pre-programmed deterministic tasks um and if you"
+    },
+    {
+     "t0_ms": 1337260,
+     "text": "actually try to use that humanoid robot in the real world you would have a lot of trouble it"
+    },
+    {
+     "t0_ms": 1341620,
+     "text": "wouldn't work basically so i want to release a video that's where it's optimus doing things that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1348140,
+   "t1_ms": 1389960,
+   "speaker": "Management",
+   "text": "um that are not pre-programmed um and i think that's that that would be it's maybe a month or to for that um to to have a a demo that you can believe what you see type of thing um and and then uh there's another milestone that's i think important we want to get to which is to integrate our the tesla ai5 chip into optimus which if things go according to plan will be in approximately uh april of next year um and that that's a giant improvement in capability with an order of magnitude more operations per second.",
+   "parts": [
+    {
+     "t0_ms": 1348140,
+     "text": "um that are not pre-programmed um and i think that's that that would be it's maybe a month or"
+    },
+    {
+     "t0_ms": 1355080,
+     "text": "to for that um to to have a a demo that you can believe what you see type of thing um"
+    },
+    {
+     "t0_ms": 1362060,
+     "text": "and and then uh there's another milestone that's i think important we want to get to which is to"
+    },
+    {
+     "t0_ms": 1369080,
+     "text": "integrate our the tesla ai5 chip into optimus which if things go according to plan will be in"
+    },
+    {
+     "t0_ms": 1379020,
+     "text": "approximately uh april of next year um and that that's a giant improvement in capability with"
+    },
+    {
+     "t0_ms": 1384560,
+     "text": "an order of magnitude more"
+    },
+    {
+     "t0_ms": 1386300,
+     "text": "operations per second."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1390120,
+   "t1_ms": 1432840,
+   "speaker": "Management",
+   "text": "It's an order of magnitude more compute, AI5 versus AI4. And that will help Optimus a lot because the degrees of freedom that a human or a robot has to deal with are far greater than what a car has to deal with. So it is a bit of a struggle to squeeze everything needed to operate with all the degrees of freedom of Optimus and the wide range of tasks. Can you think of like a humanoid robot is going to do like a thousand times more things than a car would do? That's some very big number, basically. So I think the additional compute of AI5 will make a big difference. And that comes in, hopefully in volume around April of next year.",
+   "parts": [
+    {
+     "t0_ms": 1390120,
+     "text": "It's an order of magnitude more compute, AI5 versus AI4."
+    },
+    {
+     "t0_ms": 1393900,
+     "text": "And that will help Optimus a lot"
+    },
+    {
+     "t0_ms": 1396740,
+     "text": "because the degrees of freedom"
+    },
+    {
+     "t0_ms": 1399380,
+     "text": "that a human or a robot has to deal with"
+    },
+    {
+     "t0_ms": 1402280,
+     "text": "are far greater than what a car has to deal with."
+    },
+    {
+     "t0_ms": 1404920,
+     "text": "So it is a bit of a struggle to squeeze"
+    },
+    {
+     "t0_ms": 1407580,
+     "text": "everything needed to operate with"
+    },
+    {
+     "t0_ms": 1410440,
+     "text": "all the degrees of freedom of Optimus"
+    },
+    {
+     "t0_ms": 1412600,
+     "text": "and the wide range of tasks."
+    },
+    {
+     "t0_ms": 1416060,
+     "text": "Can you think of like a humanoid robot"
+    },
+    {
+     "t0_ms": 1417320,
+     "text": "is going to do like a thousand times more things"
+    },
+    {
+     "t0_ms": 1419600,
+     "text": "than a car would do?"
+    },
+    {
+     "t0_ms": 1421140,
+     "text": "That's some very big number, basically."
+    },
+    {
+     "t0_ms": 1423260,
+     "text": "So I think the additional compute of AI5"
+    },
+    {
+     "t0_ms": 1426100,
+     "text": "will make a big difference."
+    },
+    {
+     "t0_ms": 1428180,
+     "text": "And that comes in,"
+    },
+    {
+     "t0_ms": 1429840,
+     "text": "hopefully in volume around April of next year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1434820,
+   "t1_ms": 1470240,
+   "speaker": "Management",
+   "text": "And that's why I think like all the pieces, like the refinements in the electromechanical dexterity, making sure Optimus can operate for long periods of time without wearing out, getting the AI software right, and the AI5 chip integrated. All of these things kind of come together. That's why I think about a year from now is when it's something that you could ship to customers. And it would also be reaching scale in production. So that's probably the right timing to think about.",
+   "parts": [
+    {
+     "t0_ms": 1434820,
+     "text": "And that's why I think like all the pieces,"
+    },
+    {
+     "t0_ms": 1437620,
+     "text": "like the refinements in the electromechanical dexterity,"
+    },
+    {
+     "t0_ms": 1441900,
+     "text": "making sure Optimus can operate for long periods of time"
+    },
+    {
+     "t0_ms": 1445540,
+     "text": "without wearing out,"
+    },
+    {
+     "t0_ms": 1448260,
+     "text": "getting the AI software right,"
+    },
+    {
+     "t0_ms": 1451780,
+     "text": "and the AI5 chip integrated."
+    },
+    {
+     "t0_ms": 1454140,
+     "text": "All of these things kind of come together."
+    },
+    {
+     "t0_ms": 1456780,
+     "text": "That's why I think about a year from now"
+    },
+    {
+     "t0_ms": 1458820,
+     "text": "is when it's something that you could ship to customers."
+    },
+    {
+     "t0_ms": 1464960,
+     "text": "And it would also be reaching scale in production."
+    },
+    {
+     "t0_ms": 1468000,
+     "text": "So that's probably the right timing to think about."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1471260,
+   "t1_ms": 1507640,
+   "speaker": "Management",
+   "text": "And in terms of the initial customers for Optimus, I think it probably would be things that are industrial applications at first, things that are like dangerous, repetitive tasks, things that people really don't want to do, and that you want done basically 24-7, so like around-the-clock stuff. That's going to be the highest value for Optimus in the beginning. As we scale production, of course, it would be something that people can buy, you know, for their home.",
+   "parts": [
+    {
+     "t0_ms": 1471260,
+     "text": "And in terms of the initial customers for Optimus, I think it probably would be things that are industrial applications at first, things that are like dangerous, repetitive tasks, things that people really don't want to do, and that you want done basically 24-7, so like around-the-clock stuff."
+    },
+    {
+     "t0_ms": 1497680,
+     "text": "That's going to be the highest value for Optimus in the beginning."
+    },
+    {
+     "t0_ms": 1501260,
+     "text": "As we scale production, of course, it would be something that people can buy, you know, for their home."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1508300,
+   "t1_ms": 1528980,
+   "speaker": "Management",
+   "text": "But the initial high value use will be the highest value use, I think, will be kind of heavy industry, dangerous tasks or things that may cause repetitive stress injuries. And that you want done 24-7. So that's, you know, the way to think about it.",
+   "parts": [
+    {
+     "t0_ms": 1508300,
+     "text": "But the initial high value use will be the highest value use, I think, will be kind of heavy industry, dangerous tasks or things that may cause repetitive stress injuries."
+    },
+    {
+     "t0_ms": 1518920,
+     "text": "And that you want done 24-7."
+    },
+    {
+     "t0_ms": 1525220,
+     "text": "So that's, you know, the way to think about it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1529880,
+   "t1_ms": 1547320,
+   "speaker": "Operator",
+   "text": "Great. Thank you, guys. The next question is very similar. It's about Optimus Scaling, so we can go past that one. And the next question is, when can we anticipate FSD unsupervised in customer cars? Ashok, did you want to kick that off?",
+   "parts": [
+    {
+     "t0_ms": 1529880,
+     "text": "Great. Thank you, guys."
+    },
+    {
+     "t0_ms": 1531260,
+     "text": "The next question is very similar."
+    },
+    {
+     "t0_ms": 1534580,
+     "text": "It's about Optimus Scaling, so we can go past that one."
+    },
+    {
+     "t0_ms": 1538780,
+     "text": "And the next question is,"
+    },
+    {
+     "t0_ms": 1541340,
+     "text": "when can we anticipate FSD unsupervised in customer cars?"
+    },
+    {
+     "t0_ms": 1546160,
+     "text": "Ashok, did you want to kick that off?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1547880,
+   "t1_ms": 1579900,
+   "speaker": "Analyst",
+   "text": "Yeah, like I mentioned earlier, the software for cybercaps and Model Y is the same. And pretty soon we'll be able to release the same software as part of the V15 release to customers. the only additional requirement is to make sure that, for example, the customer model-wise can be part of the geofences and the fleet management that Tesla has for it to be fully autonomous. We suspect somewhere around Q2 next year is when we can turn on some of the first customer vehicles to be part of the Robotaxi fleet.",
+   "parts": [
+    {
+     "t0_ms": 1547880,
+     "text": "Yeah, like I mentioned earlier,"
+    },
+    {
+     "t0_ms": 1549120,
+     "text": "the software for cybercaps and Model Y is the same."
+    },
+    {
+     "t0_ms": 1553020,
+     "text": "And pretty soon we'll be able to release the same software"
+    },
+    {
+     "t0_ms": 1555700,
+     "text": "as part of the V15 release to customers."
+    },
+    {
+     "t0_ms": 1557660,
+     "text": "the only additional requirement is to make sure"
+    },
+    {
+     "t0_ms": 1563380,
+     "text": "that, for example, the customer model-wise"
+    },
+    {
+     "t0_ms": 1566680,
+     "text": "can be part of the geofences"
+    },
+    {
+     "t0_ms": 1569560,
+     "text": "and the fleet management that Tesla has for it to be"
+    },
+    {
+     "t0_ms": 1572380,
+     "text": "fully autonomous. We suspect somewhere around Q2"
+    },
+    {
+     "t0_ms": 1575240,
+     "text": "next year is when we can turn on some of the first customer"
+    },
+    {
+     "t0_ms": 1578320,
+     "text": "vehicles to be part of the Robotaxi fleet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1582700,
+   "t1_ms": 1595640,
+   "speaker": "Operator",
+   "text": "Great. Thank you, Ashok. The next question is, when will the CyberCAD be available for customer purchase ownership. Lars, did you want to kick this one off? Sure. Thanks, Travis. I think it builds a",
+   "parts": [
+    {
+     "t0_ms": 1582700,
+     "text": "Great. Thank you, Ashok. The next question is,"
+    },
+    {
+     "t0_ms": 1586240,
+     "text": "when will the CyberCAD be available for customer purchase"
+    },
+    {
+     "t0_ms": 1588900,
+     "text": "ownership. Lars, did you want to kick this one off? Sure. Thanks, Travis. I think it builds a"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1595640,
+   "t1_ms": 1628420,
+   "speaker": "Analyst",
+   "text": "little bit on what Ashok just said. But in short, we're trying to get CyberCabs to customers by the end of this year, 2026. Obviously, we're producing them in our line in Texas, but all of those are currently going to our own internal robo-taxi fleet. And as Tesla grows, we'll mainly deliver fully designed autonomous vehicles to our customers. And CyberCab will be the first. And so as we start small this year and we learn about all the things Ashok mentioned about delivery and ownership and fleet management of autonomous vehicles and customer hands, we'll continue to scale that. Elon, I don't know if there's anything you want to add to that.",
+   "parts": [
+    {
+     "t0_ms": 1595640,
+     "text": "little bit on what Ashok just said. But in short, we're trying to get CyberCabs to customers by the"
+    },
+    {
+     "t0_ms": 1602060,
+     "text": "end of this year, 2026. Obviously, we're producing them in our line in Texas, but all of those are"
+    },
+    {
+     "t0_ms": 1606420,
+     "text": "currently going to our own internal robo-taxi fleet. And as Tesla grows, we'll mainly deliver"
+    },
+    {
+     "t0_ms": 1612120,
+     "text": "fully designed autonomous vehicles to our customers. And CyberCab will be the first."
+    },
+    {
+     "t0_ms": 1616580,
+     "text": "And so as we start small this year and we learn about all the things Ashok mentioned about delivery and ownership and fleet management of autonomous vehicles and customer hands, we'll continue to scale that."
+    },
+    {
+     "t0_ms": 1627040,
+     "text": "Elon, I don't know if there's anything you want to add to that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1630960,
+   "t1_ms": 1658120,
+   "speaker": "Management",
+   "text": "No, I mean, Savicab is primarily going to be something that is offered as like transport as a service. You know, whereas our other cars would be more, you know, the cars that you'd want to own, like the 3 and the Y and whatnot. and the roadster, obviously. But the vast majority of the cyber-cap stuff will be essentially Tesla-owned and transported as a service. Great. Thanks, guys.",
+   "parts": [
+    {
+     "t0_ms": 1630960,
+     "text": "No, I mean, Savicab is primarily going to be something that is offered as like transport as a service."
+    },
+    {
+     "t0_ms": 1639840,
+     "text": "You know, whereas our other cars would be more, you know, the cars that you'd want to own, like the 3 and the Y and whatnot."
+    },
+    {
+     "t0_ms": 1645680,
+     "text": "and the roadster, obviously."
+    },
+    {
+     "t0_ms": 1647480,
+     "text": "But the vast majority of the cyber-cap stuff"
+    },
+    {
+     "t0_ms": 1650280,
+     "text": "will be essentially Tesla-owned"
+    },
+    {
+     "t0_ms": 1652640,
+     "text": "and transported as a service."
+    },
+    {
+     "t0_ms": 1657100,
+     "text": "Great. Thanks, guys."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1659380,
+   "t1_ms": 1681580,
+   "speaker": "Operator",
+   "text": "The next two questions are quite similar around unit economic costs. The first one is on per paid robo-taxi mile, and the second one is cost per Optimus unit. And we already covered what the first paying customer looks like. So, VT, did you want to get into the unit economics question here?",
+   "parts": [
+    {
+     "t0_ms": 1659380,
+     "text": "The next two questions are quite similar"
+    },
+    {
+     "t0_ms": 1661780,
+     "text": "around unit economic costs."
+    },
+    {
+     "t0_ms": 1665400,
+     "text": "The first one is on per paid robo-taxi mile,"
+    },
+    {
+     "t0_ms": 1669600,
+     "text": "and the second one is cost per Optimus unit."
+    },
+    {
+     "t0_ms": 1674120,
+     "text": "And we already covered what the first paying customer"
+    },
+    {
+     "t0_ms": 1677040,
+     "text": "looks like. So, VT, did you want to get into the unit economics question here?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1681940,
+   "t1_ms": 1721180,
+   "speaker": "Management",
+   "text": "Yeah. So, on the robo-taxi side, the main geographies where we are operating, we're already seeing utilization improving. And week by week, as Elon was talking about, we look at the miles and how many paid rides are happening. So, are we at our goal of 30 sense today? No. But do we see a path to get to that? Yes, we do. And it's all about scaling operations. And what you'll see over the next few months is that today, CyberCab, which is",
+   "parts": [
+    {
+     "t0_ms": 1681940,
+     "text": "Yeah. So, on the robo-taxi side, the main geographies where we are operating, we're"
+    },
+    {
+     "t0_ms": 1689180,
+     "text": "already seeing utilization improving. And week by week, as Elon was talking about, we"
+    },
+    {
+     "t0_ms": 1695520,
+     "text": "look at the miles and how many paid rides are happening. So, are we at our goal of 30"
+    },
+    {
+     "t0_ms": 1703000,
+     "text": "sense today? No. But do we see a path to get to that? Yes, we do. And it's all about scaling"
+    },
+    {
+     "t0_ms": 1711540,
+     "text": "operations. And what you'll see over the next few months is that today, CyberCab, which is"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1721180,
+   "t1_ms": 1763780,
+   "speaker": "Management",
+   "text": "the primary Robotaxi product, is available only in Austin. But we do plan to bring it out in some other cities before the end of this year and you know as we add more cyber caps you know we are also learning from the operational experience of managing a fleet pick up and drop off you know cleaning all those things so all those costs are being dialed in and that's why like i said before we definitely see a path to get to our 30 cent target and then did you want to cover the optimist costs yeah i mean i think optimus cost uh internally we are tracking pretty well in terms",
+   "parts": [
+    {
+     "t0_ms": 1721180,
+     "text": "the primary Robotaxi product, is available only in Austin. But we do plan to bring it out in some"
+    },
+    {
+     "t0_ms": 1728220,
+     "text": "other cities before the end of this year and you know as we add more cyber caps you know we are"
+    },
+    {
+     "t0_ms": 1737100,
+     "text": "also learning from the operational experience of managing a fleet pick up and drop off you know"
+    },
+    {
+     "t0_ms": 1744460,
+     "text": "cleaning all those things so all those costs are being dialed in and that's why like i said before"
+    },
+    {
+     "t0_ms": 1750140,
+     "text": "we definitely see a path to get to our 30 cent target and then did you want to cover the optimist"
+    },
+    {
+     "t0_ms": 1757480,
+     "text": "costs yeah i mean i think optimus cost uh internally we are tracking pretty well in terms"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1763780,
+   "t1_ms": 1785460,
+   "speaker": "Management",
+   "text": "of how the design has matured but it would be a little too early to say that we have got there because like elon was saying we're still making a lot of design iterations the good thing is you know when you look at it from a cost perspective we're trending closer to where we would say our cybercap costs would end up being.",
+   "parts": [
+    {
+     "t0_ms": 1763780,
+     "text": "of how the design has matured but it would be a little too early to say that we have got there"
+    },
+    {
+     "t0_ms": 1770900,
+     "text": "because like elon was saying we're still making a lot of design iterations the good thing is"
+    },
+    {
+     "t0_ms": 1776360,
+     "text": "you know when you look at it from a cost perspective we're trending closer to where"
+    },
+    {
+     "t0_ms": 1782300,
+     "text": "we would say our cybercap costs would end up being."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1786460,
+   "t1_ms": 1824840,
+   "speaker": "Operator",
+   "text": "Great. Thank you very much, Rilav. The next question is when do you, we kind of already answered this, when do you anticipate Optimus will be generating revenue? So we covered that in a prior question. The next one is mapping for FSD continues to be a problem. The three biggest issues are recognizing proper speed limits, parking, and typical routes i understand you use various third-party maps but why not use your own maps authorized trusted trusted or and verified tesla owners to provide the input ashok did you want to kick off",
+   "parts": [
+    {
+     "t0_ms": 1786460,
+     "text": "Great. Thank you very much, Rilav. The next question is"
+    },
+    {
+     "t0_ms": 1791880,
+     "text": "when do you, we kind of already answered this, when do you anticipate"
+    },
+    {
+     "t0_ms": 1796240,
+     "text": "Optimus will be generating revenue? So we covered that in a prior question."
+    },
+    {
+     "t0_ms": 1801840,
+     "text": "The next one is mapping"
+    },
+    {
+     "t0_ms": 1803920,
+     "text": "for FSD continues to be a problem. The three biggest issues"
+    },
+    {
+     "t0_ms": 1807800,
+     "text": "are recognizing proper speed limits, parking, and typical"
+    },
+    {
+     "t0_ms": 1811980,
+     "text": "routes i understand you use various third-party maps but why not use your own maps authorized"
+    },
+    {
+     "t0_ms": 1818780,
+     "text": "trusted trusted or and verified tesla owners to provide the input ashok did you want to kick off"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1824840,
+   "t1_ms": 1867800,
+   "speaker": "Analyst",
+   "text": "here yep yeah you're totally right that we shouldn't be depending on external people's maps so we are building our own maps but not like the same way as one more maps we are building a entirely new architecture with essentially ai based mapping and navigation it's going to be super awesome it's going to be integrated with voice you can like talk to it ask for different routes it's going to learn your personalized preferences uh plus also the fleet preferences uh the collective intelligence of all the cars are going to flow into making the maps and navigation be super cool um we'll start you'll see uh the start and end of trips already use this technology uh pretty soon as part of the v15 release uh and over the next several months it's just going to take over all of the navigation functions parking destination handling uh and just",
+   "parts": [
+    {
+     "t0_ms": 1824840,
+     "text": "here yep yeah you're totally right that we shouldn't be depending on external people's maps"
+    },
+    {
+     "t0_ms": 1828540,
+     "text": "so we are building our own maps but not like the same way as one more maps we are building a"
+    },
+    {
+     "t0_ms": 1833220,
+     "text": "entirely new architecture with essentially ai based mapping and navigation it's going to be"
+    },
+    {
+     "t0_ms": 1838360,
+     "text": "super awesome it's going to be integrated with voice you can like talk to it ask for different"
+    },
+    {
+     "t0_ms": 1842080,
+     "text": "routes it's going to learn your personalized preferences uh plus also the fleet preferences"
+    },
+    {
+     "t0_ms": 1846860,
+     "text": "uh the collective intelligence of all the cars are going to flow into making the maps and"
+    },
+    {
+     "t0_ms": 1851500,
+     "text": "navigation be super cool um we'll start you'll see uh the start and end of trips already use"
+    },
+    {
+     "t0_ms": 1857360,
+     "text": "this technology uh pretty soon as part of the v15 release uh and over the next several months"
+    },
+    {
+     "t0_ms": 1862440,
+     "text": "it's just going to take over all of the navigation functions parking destination handling uh and just"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1867800,
+   "t1_ms": 1876920,
+   "speaker": "Analyst",
+   "text": "We'll know you better than you know yourself in some regard for the driving task and handle it fully.",
+   "parts": [
+    {
+     "t0_ms": 1867800,
+     "text": "We'll know you better than you know yourself in some regard for the driving task and handle it fully."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1879920,
+   "t1_ms": 1894120,
+   "speaker": "Operator",
+   "text": "Great. Thank you, Ashok. And then our last question is, what is the current production rate for existing factories? Do you anticipate building new ones? Lars, do you want to kick that off?",
+   "parts": [
+    {
+     "t0_ms": 1879920,
+     "text": "Great. Thank you, Ashok."
+    },
+    {
+     "t0_ms": 1881720,
+     "text": "And then our last question is, what is the current production rate for existing factories?"
+    },
+    {
+     "t0_ms": 1890340,
+     "text": "Do you anticipate building new ones?"
+    },
+    {
+     "t0_ms": 1893040,
+     "text": "Lars, do you want to kick that off?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1895380,
+   "t1_ms": 1937980,
+   "speaker": "Analyst",
+   "text": "Yeah, sure. I think Vybov kind of touched a little bit on this in his opening remarks. and I'll say our factories are operating at record rates on this quarter. And of course, they can only build at the rate of the least likely process or component. And Vaibhav mentioned that we are actively managing all the aspects of production. You know, as we've spoken in our past calls, we've made strategic investments globally to increase rates of our current factories over the last year plus. And, you know, this quarter, we are starting to see that and we expect that to continue in coming quarters as those investments come to fruition. I mean, beyond that, we also are working to ramp CyberCab, obviously, in Giga, Texas. And we applied for the proper permits to expand the factories in Berlin.",
+   "parts": [
+    {
+     "t0_ms": 1895380,
+     "text": "Yeah, sure. I think Vybov kind of touched a little bit on this in his opening remarks."
+    },
+    {
+     "t0_ms": 1899240,
+     "text": "and I'll say our factories are operating at record rates"
+    },
+    {
+     "t0_ms": 1903460,
+     "text": "on this quarter."
+    },
+    {
+     "t0_ms": 1904860,
+     "text": "And of course, they can only build at the rate"
+    },
+    {
+     "t0_ms": 1906900,
+     "text": "of the least likely process or component."
+    },
+    {
+     "t0_ms": 1909480,
+     "text": "And Vaibhav mentioned that we are actively managing"
+    },
+    {
+     "t0_ms": 1912620,
+     "text": "all the aspects of production."
+    },
+    {
+     "t0_ms": 1915160,
+     "text": "You know, as we've spoken in our past calls,"
+    },
+    {
+     "t0_ms": 1916640,
+     "text": "we've made strategic investments globally"
+    },
+    {
+     "t0_ms": 1918160,
+     "text": "to increase rates of our current factories"
+    },
+    {
+     "t0_ms": 1920300,
+     "text": "over the last year plus."
+    },
+    {
+     "t0_ms": 1922140,
+     "text": "And, you know, this quarter, we are starting to see that"
+    },
+    {
+     "t0_ms": 1924440,
+     "text": "and we expect that to continue in coming quarters"
+    },
+    {
+     "t0_ms": 1926660,
+     "text": "as those investments come to fruition."
+    },
+    {
+     "t0_ms": 1928240,
+     "text": "I mean, beyond that, we also are working to ramp CyberCab, obviously, in Giga, Texas."
+    },
+    {
+     "t0_ms": 1935040,
+     "text": "And we applied for the proper permits to expand the factories in Berlin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1938800,
+   "t1_ms": 1948760,
+   "speaker": "Analyst",
+   "text": "And as also Elon mentioned, we just started our new semi-factory in Reno. So in short, we are building new factories, yes. And we're aiming to hit that 5 million goal by 2030, as Elon said.",
+   "parts": [
+    {
+     "t0_ms": 1938800,
+     "text": "And as also Elon mentioned, we just started our new semi-factory in Reno."
+    },
+    {
+     "t0_ms": 1942180,
+     "text": "So in short, we are building new factories, yes."
+    },
+    {
+     "t0_ms": 1944600,
+     "text": "And we're aiming to hit that 5 million goal by 2030, as Elon said."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1952220,
+   "t1_ms": 1974620,
+   "speaker": "Operator",
+   "text": "Great. Thank you very much. That's it for the say.com questions. Now we will be going to analyst questions. As a reminder, as Elon said, we will not be addressing any questions today on a potential merger with SpaceX. With that, the first question comes from Tom from RBC. Tom, please unmute yourself when you're ready.",
+   "parts": [
+    {
+     "t0_ms": 1952220,
+     "text": "Great. Thank you very much."
+    },
+    {
+     "t0_ms": 1954560,
+     "text": "That's it for the say.com questions."
+    },
+    {
+     "t0_ms": 1957820,
+     "text": "Now we will be going to analyst questions."
+    },
+    {
+     "t0_ms": 1961120,
+     "text": "As a reminder, as Elon said, we will not be addressing any questions today on a potential merger with SpaceX."
+    },
+    {
+     "t0_ms": 1968340,
+     "text": "With that, the first question comes from Tom from RBC."
+    },
+    {
+     "t0_ms": 1972920,
+     "text": "Tom, please unmute yourself when you're ready."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1975980,
+   "t1_ms": 2015100,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks for taking the question. It's on FSD. So the attach rate, I think according to my math, is like 30 to 40% in North America on a paid basis. It's becoming a flywheel, as you said, for more car sales. and the attach rate exceeds other automakers subscription-based autonomy by by a lot um i guess in a weird way could could you guys be a victim of your own success and seeing other car makers noting the success and trying to aggressively come up with similar l2 plus you know type products maybe partnering with nvidia or qualcomm and if that happens could that be deflationary for fsd pricing",
+   "parts": [
+    {
+     "t0_ms": 1975980,
+     "text": "Yeah, thanks for taking the question."
+    },
+    {
+     "t0_ms": 1977940,
+     "text": "It's on FSD."
+    },
+    {
+     "t0_ms": 1979280,
+     "text": "So the attach rate, I think according to my math, is like 30 to 40% in North America on a paid basis."
+    },
+    {
+     "t0_ms": 1985760,
+     "text": "It's becoming a flywheel, as you said, for more car sales."
+    },
+    {
+     "t0_ms": 1988920,
+     "text": "and the attach rate exceeds other automakers subscription-based autonomy by by a lot"
+    },
+    {
+     "t0_ms": 1994520,
+     "text": "um i guess in a weird way could could you guys be a victim of your own success and"
+    },
+    {
+     "t0_ms": 2000260,
+     "text": "seeing other car makers noting the success and trying to aggressively come up with"
+    },
+    {
+     "t0_ms": 2004980,
+     "text": "similar l2 plus you know type products maybe partnering with nvidia or qualcomm and"
+    },
+    {
+     "t0_ms": 2010760,
+     "text": "if that happens could that be deflationary for fsd pricing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2015100,
+   "t1_ms": 2032980,
+   "speaker": "Management",
+   "text": "i think the people take this thing very simply that you know you can ease if the software can be solved it's there it's it's not because i mean i'll let ashok get into it but basically",
+   "parts": [
+    {
+     "t0_ms": 2015100,
+     "text": "i think the people take this thing very simply that you know you can ease if the software can"
+    },
+    {
+     "t0_ms": 2024960,
+     "text": "be solved it's there it's it's not because i mean i'll let ashok get into it but basically"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2032980,
+   "t1_ms": 2068940,
+   "speaker": "Analyst",
+   "text": "it's a very hard problem it's super hard problem yeah it's easy to get to the first 90 percent and make a cool-looking demo, but when you get in the long tail of this problem, it's so long that people don't realize. Anyone with their same mind should not attempt to solve this problem. It's so difficult and so long-tailed, and especially to get to a safety point where you can drive safely for millions of miles with no injuries and so on, that's going to be extremely hard. As we release unsupervised FSD to the product customer fleet, it's just going to be... I don't think anyone can match it",
+   "parts": [
+    {
+     "t0_ms": 2032980,
+     "text": "it's a very hard problem it's super hard problem yeah it's easy to get to the first 90 percent and"
+    },
+    {
+     "t0_ms": 2039880,
+     "text": "make a cool-looking demo,"
+    },
+    {
+     "t0_ms": 2042160,
+     "text": "but when you get in the long tail of"
+    },
+    {
+     "t0_ms": 2043900,
+     "text": "this problem, it's so long that"
+    },
+    {
+     "t0_ms": 2045800,
+     "text": "people don't realize. Anyone with their same mind"
+    },
+    {
+     "t0_ms": 2047880,
+     "text": "should not attempt to solve this problem. It's so"
+    },
+    {
+     "t0_ms": 2049760,
+     "text": "difficult and"
+    },
+    {
+     "t0_ms": 2051540,
+     "text": "so long-tailed, and especially to get"
+    },
+    {
+     "t0_ms": 2053920,
+     "text": "to a safety point where you can drive"
+    },
+    {
+     "t0_ms": 2055860,
+     "text": "safely for millions of miles with"
+    },
+    {
+     "t0_ms": 2057739,
+     "text": "no injuries and so on,"
+    },
+    {
+     "t0_ms": 2060060,
+     "text": "that's going to be extremely hard."
+    },
+    {
+     "t0_ms": 2061639,
+     "text": "As we release unsupervised FSD"
+    },
+    {
+     "t0_ms": 2063820,
+     "text": "to the product customer fleet, it's just going to be..."
+    },
+    {
+     "t0_ms": 2066800,
+     "text": "I don't think anyone"
+    },
+    {
+     "t0_ms": 2067920,
+     "text": "can match it"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2068940,
+   "t1_ms": 2108320,
+   "speaker": "Management",
+   "text": "in several years and one other thing which i'll say if it wasn't clear that you know when especially in our showrooms here in the u.s customers are now coming in and saying can we get into an fsd drive they're not asking for 3y or cyber truck they're saying can we get an fsd drive. And that has become the key driver because what it does is it actually opens up a lot more flexibility for different parts of the population wherein they had issues driving",
+   "parts": [
+    {
+     "t0_ms": 2068940,
+     "text": "in several years and one other thing which i'll say if it wasn't clear that you know when"
+    },
+    {
+     "t0_ms": 2076199,
+     "text": "especially in our showrooms here in the u.s customers are now coming in and saying can we"
+    },
+    {
+     "t0_ms": 2083679,
+     "text": "get into an fsd drive they're not asking for 3y or cyber truck they're saying can we get an fsd"
+    },
+    {
+     "t0_ms": 2090900,
+     "text": "drive. And that has become the key driver because what it does is it actually opens up a lot more"
+    },
+    {
+     "t0_ms": 2098960,
+     "text": "flexibility for different parts of the population wherein they had issues driving"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2108320,
+   "t1_ms": 2129080,
+   "speaker": "Management",
+   "text": "conveniently before. Now they're getting their freedom back by being able to use FSD. And a lot the folks are just like i mean it's a game changer i mean if you haven't tried it i keep saying it every time if you do it you won't be able to go back to driving any other car you know",
+   "parts": [
+    {
+     "t0_ms": 2108320,
+     "text": "conveniently before. Now they're getting their freedom back by being able to use FSD. And a lot"
+    },
+    {
+     "t0_ms": 2115060,
+     "text": "the folks are just like i mean it's a game changer i mean if you haven't tried it i keep saying it"
+    },
+    {
+     "t0_ms": 2121280,
+     "text": "every time if you do it you won't be able to go back to driving any other car you know"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2129080,
+   "t1_ms": 2154760,
+   "speaker": "Analyst",
+   "text": "yeah um follow-up is similar to that question um on china i mean there it seems like autonomy is is like table stakes um is it is it the same kind of answer on this question one that you know they're not going to be able those those car makers aren't going to be able to develop the similar products you guys have had on fsd or or do you see there that being definitely",
+   "parts": [
+    {
+     "t0_ms": 2129080,
+     "text": "yeah um follow-up is similar to that question um on china i mean there it seems like autonomy is"
+    },
+    {
+     "t0_ms": 2138600,
+     "text": "is like table stakes um is it is it the same kind of answer on this question one that"
+    },
+    {
+     "t0_ms": 2144620,
+     "text": "you know they're not going to be able those those car makers aren't going to be able to"
+    },
+    {
+     "t0_ms": 2149160,
+     "text": "develop the similar products you guys have had on fsd or or do you see there that being definitely"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2154760,
+   "t1_ms": 2195460,
+   "speaker": "Management",
+   "text": "a different pricing uh dynamic i mean at the beginning uh like definitely the the the leaf frog which we have in terms of this technology isn't there with any of the other chinese oems today and you know we're like we're working very diligently to try and get broader i mean fsd approval in china it is hard but you know for for certain uh cars we have been able to have fsd operating and whatever people have tried whoever has tried it there they understand how much better",
+   "parts": [
+    {
+     "t0_ms": 2154760,
+     "text": "a different pricing uh dynamic i mean at the beginning uh like definitely the the the leaf"
+    },
+    {
+     "t0_ms": 2164720,
+     "text": "frog which we have in terms of this technology isn't there with any of the other chinese oems"
+    },
+    {
+     "t0_ms": 2170320,
+     "text": "today and you know we're like we're working very diligently to try and get broader i mean fsd"
+    },
+    {
+     "t0_ms": 2178880,
+     "text": "approval in china it is hard but you know for for certain uh cars we have been able to have fsd"
+    },
+    {
+     "t0_ms": 2187540,
+     "text": "operating and whatever people have tried whoever has tried it there they understand how much better"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2195460,
+   "t1_ms": 2235060,
+   "speaker": "Management",
+   "text": "it is as compared to any of the competition. In fact, I don't know if you've seen this, there have been some competitor CEOs who have come and done FSD drives here in the U.S. And they themselves have been blown up as to what FSD is capable of doing. So it is a similar answer. And again, we're not taking it lightly. We're actively working with the regulators in China, because I don't know if you saw this, but we did release our safety report on FSD before, but we've also released our unsupervised or robo-taxi safety report.",
+   "parts": [
+    {
+     "t0_ms": 2195460,
+     "text": "it is as compared to any of the competition. In fact, I don't know if you've seen this,"
+    },
+    {
+     "t0_ms": 2201240,
+     "text": "there have been some competitor CEOs who have come and done FSD drives here in the U.S."
+    },
+    {
+     "t0_ms": 2206980,
+     "text": "And they themselves have been blown up as to what FSD is capable of doing. So it is a similar"
+    },
+    {
+     "t0_ms": 2214140,
+     "text": "answer. And again, we're not taking it lightly. We're actively working with the regulators in"
+    },
+    {
+     "t0_ms": 2219840,
+     "text": "China, because I don't know if you saw this, but we did release our safety report on FSD"
+    },
+    {
+     "t0_ms": 2229600,
+     "text": "before, but we've also released our unsupervised or robo-taxi safety report."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2235540,
+   "t1_ms": 2259760,
+   "speaker": "Management",
+   "text": "We just think this is the right way to get people into a safe environment, because you know the amount of accidents which happen because of driver that is not being alert. And this is the only way we can ensure that there are less casualties in the world. And any regulator who looks at the data, it would be very hard for them to refute it.",
+   "parts": [
+    {
+     "t0_ms": 2235540,
+     "text": "We just think this is the right way to get people into a safe environment, because you"
+    },
+    {
+     "t0_ms": 2241240,
+     "text": "know the amount of accidents which happen because of driver that is not being alert."
+    },
+    {
+     "t0_ms": 2248960,
+     "text": "And this is the only way we can ensure that there are less casualties in the world."
+    },
+    {
+     "t0_ms": 2254920,
+     "text": "And any regulator who looks at the data, it would be very hard for them to refute it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2262740,
+   "t1_ms": 2270020,
+   "speaker": "Operator",
+   "text": "Great. Thanks so much. Our next question comes from Emmanuel from Wolf. Emmanuel, please unmute yourself.",
+   "parts": [
+    {
+     "t0_ms": 2262740,
+     "text": "Great. Thanks so much."
+    },
+    {
+     "t0_ms": 2264300,
+     "text": "Our next question comes from Emmanuel from Wolf."
+    },
+    {
+     "t0_ms": 2268580,
+     "text": "Emmanuel, please unmute yourself."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2272980,
+   "t1_ms": 2300700,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Hi, team. So on Robotaxi, you've talked about sustaining double-digit week-over-week growth in unsupervised miles. I'm curious if there's a way you can triangulate that for us into revenue and maybe profitability of the robo-taxi business. If you sustain, let's say, 15% week-over-week growth in these miles, you'll probably cross 10 million miles by the end of the year. How many miles would you need to generate gross profit?",
+   "parts": [
+    {
+     "t0_ms": 2272980,
+     "text": "Great. Thank you. Hi, team."
+    },
+    {
+     "t0_ms": 2275320,
+     "text": "So on Robotaxi, you've talked about sustaining double-digit week-over-week growth in unsupervised miles."
+    },
+    {
+     "t0_ms": 2281500,
+     "text": "I'm curious if there's a way you can triangulate that for us into revenue and maybe profitability of the robo-taxi business."
+    },
+    {
+     "t0_ms": 2288400,
+     "text": "If you sustain, let's say, 15% week-over-week growth in these miles, you'll probably cross 10 million miles by the end of the year."
+    },
+    {
+     "t0_ms": 2297300,
+     "text": "How many miles would you need to generate gross profit?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2300700,
+   "t1_ms": 2337630,
+   "speaker": "Management",
+   "text": "Right. I mean, so I think Elon talked about this a little bit at the beginning that, you know, using exponential math, this would become a significant part of our revenue and profitability in 27. Yeah. I would say it's not going to move the needle this quarter, but if you say maybe, I think it starts to become noticeable probably in Q2 and then probably a big deal by Q3 or Q4 of next year. Exactly.",
+   "parts": [
+    {
+     "t0_ms": 2300700,
+     "text": "Right. I mean, so I think Elon talked about this a little bit at the beginning that, you know, using exponential math, this would become a significant part of our revenue and profitability in 27."
+    },
+    {
+     "t0_ms": 2320230,
+     "text": "Yeah. I would say it's not going to move the needle this quarter, but if you say maybe, I think it starts to become noticeable probably in Q2 and then probably a big deal by Q3 or Q4 of next year."
+    },
+    {
+     "t0_ms": 2337270,
+     "text": "Exactly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2338110,
+   "t1_ms": 2360890,
+   "speaker": "Analyst",
+   "text": "Got it. And then if I think about it in terms of fleet size, so I think your cyber cab line capacity is listed at more than 125,000 units a year. production production just recently started um how do you expect the um um ramp up curve to be on",
+   "parts": [
+    {
+     "t0_ms": 2338110,
+     "text": "Got it. And then if I think about it in terms of fleet size, so I think your cyber cab line capacity is listed at more than 125,000 units a year."
+    },
+    {
+     "t0_ms": 2353210,
+     "text": "production production just recently started um how do you expect the um um ramp up curve to be on"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2360890,
+   "t1_ms": 2399590,
+   "speaker": "Management",
+   "text": "the cyber cab line i mean i'll kick it off but then i'll also let large time in but you know i would give kudos to the engineering team they have designed a product because not only do i talk to the engineers i also talk to the manufacturing guys they think this is one of the easiest product for them to scale in terms of manufacturing. So scaling would not be that much of a challenge. I think the key thing which we're trying to make sure is that we have all the regulatory approvals where we can start deploying the cybercaps as fast as we can produce them. And again, Lars, feel free to chime in.",
+   "parts": [
+    {
+     "t0_ms": 2360890,
+     "text": "the cyber cab line i mean i'll kick it off but then i'll also let large time in but you know"
+    },
+    {
+     "t0_ms": 2368670,
+     "text": "i would give kudos to the engineering team they have designed a product because not only do i"
+    },
+    {
+     "t0_ms": 2375330,
+     "text": "talk to the engineers i also talk to the manufacturing guys they think this is one of"
+    },
+    {
+     "t0_ms": 2379630,
+     "text": "the easiest product for them to scale in terms of manufacturing."
+    },
+    {
+     "t0_ms": 2384230,
+     "text": "So scaling would not be that much of a"
+    },
+    {
+     "t0_ms": 2387630,
+     "text": "challenge. I think the key thing which we're trying to make sure is that we have all the"
+    },
+    {
+     "t0_ms": 2391450,
+     "text": "regulatory approvals where we can start deploying the cybercaps"
+    },
+    {
+     "t0_ms": 2395530,
+     "text": "as fast as we can produce them. And again, Lars, feel free to chime in."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2401130,
+   "t1_ms": 2443630,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks, Saibam. I appreciate the accolades. The team definitely crushed it on the cybercab design and manufacturing. Just to beat your point, we have 50% less parts than any other vehicle we've ever built. So that's 50% less things to go wrong. We've definitely been bursting the CyberCat line to see how fast we can run it. I think the listed capacity is more of a rate at which we're capable of running today, but the actual capacity of that vehicle line is significantly higher. Right now, we're building at the rate that the Robotaxi service needs the vehicles. And I'll say Ashok and I are in a bit of a race of who's going to stay ahead. He's got exponential growth coming on the miles, you know, month over month. And we're going to look to meet that as well with",
+   "parts": [
+    {
+     "t0_ms": 2401130,
+     "text": "Yeah, thanks, Saibam. I appreciate the accolades. The team definitely"
+    },
+    {
+     "t0_ms": 2403470,
+     "text": "crushed it on the cybercab design and manufacturing. Just to beat your point, we have 50%"
+    },
+    {
+     "t0_ms": 2407750,
+     "text": "less parts than any other vehicle we've ever built. So that's 50% less things to go wrong."
+    },
+    {
+     "t0_ms": 2412650,
+     "text": "We've definitely been bursting the CyberCat line to see how fast we can run it."
+    },
+    {
+     "t0_ms": 2416590,
+     "text": "I think the listed capacity is more of a rate at which we're capable of running today,"
+    },
+    {
+     "t0_ms": 2422110,
+     "text": "but the actual capacity of that vehicle line is significantly higher. Right now,"
+    },
+    {
+     "t0_ms": 2426990,
+     "text": "we're building at the rate that the Robotaxi service needs the vehicles. And I'll say Ashok"
+    },
+    {
+     "t0_ms": 2434110,
+     "text": "and I are in a bit of a race of who's going to stay ahead. He's got exponential growth coming"
+    },
+    {
+     "t0_ms": 2438110,
+     "text": "on the miles, you know, month over month. And we're going to look to meet that as well with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2443630,
+   "t1_ms": 2459440,
+   "speaker": "Operator",
+   "text": "the vehicle production. Great. Thanks, guys. The next question is going to come from Andrew from Morgan Stanley. Andrew, please unmute yourself. Great. Thanks so much for taking",
+   "parts": [
+    {
+     "t0_ms": 2443630,
+     "text": "the vehicle production. Great. Thanks, guys. The next question is going to come from Andrew"
+    },
+    {
+     "t0_ms": 2451510,
+     "text": "from Morgan Stanley. Andrew, please unmute yourself. Great. Thanks so much for taking"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2459440,
+   "t1_ms": 2495840,
+   "speaker": "Analyst",
+   "text": "the question. So I want to start on your energy business. You know, you're clearly seeing a lot of demand on the energy storage or mega pack side, and you've got some goals to bring on your own solar manufacturing. But I was just hoping to get a little bit more insight in terms of how you're thinking about Tesla's role in enabling both distributed power, but also distributed compute. I think last quarter you alluded to a Megapod product. So just hoping to get a little bit more insight in terms of what you're envisioning there and ultimately how big this could be for",
+   "parts": [
+    {
+     "t0_ms": 2459440,
+     "text": "the question. So I want to start on your energy business. You know, you're clearly seeing a lot"
+    },
+    {
+     "t0_ms": 2467020,
+     "text": "of demand on the energy storage or mega pack side, and you've got some goals to bring on your"
+    },
+    {
+     "t0_ms": 2472040,
+     "text": "own solar manufacturing. But I was just hoping to get a little bit more insight in terms of how"
+    },
+    {
+     "t0_ms": 2477200,
+     "text": "you're thinking about Tesla's role in enabling both distributed power, but also distributed"
+    },
+    {
+     "t0_ms": 2485260,
+     "text": "compute. I think last quarter you alluded to a Megapod product. So just hoping to get a little"
+    },
+    {
+     "t0_ms": 2491140,
+     "text": "bit more insight in terms of what you're envisioning there and ultimately how big this could be for"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495840,
+   "t1_ms": 2527380,
+   "speaker": "Management",
+   "text": "Tesla um I think it's still early days on that front um we don't we don't know the full extent of how you know what what that'll how that'll unfold um I think we'll we'll have a better sense for that probably in you know maybe in a q1 or q2 uh but it does have a lot of potential um it's just it's just hard to say how much potential right now okay understood and then",
+   "parts": [
+    {
+     "t0_ms": 2495840,
+     "text": "Tesla um I think it's still early days on that front um we don't we don't know the full extent"
+    },
+    {
+     "t0_ms": 2506910,
+     "text": "of how you know what what that'll how that'll unfold um I think we'll we'll have a better"
+    },
+    {
+     "t0_ms": 2513350,
+     "text": "sense for that probably in you know maybe in a q1 or q2 uh but it does have a lot of potential"
+    },
+    {
+     "t0_ms": 2519830,
+     "text": "um it's just it's just hard to say how much potential right now okay understood and then"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2527380,
+   "t1_ms": 2560980,
+   "speaker": "Analyst",
+   "text": "And maybe just to follow up on RoboTaxi, it does seem like you've kind of hit an inflection point here in Austin over the last month or so since you launched the cyber cab. So would you generally say the bottlenecks at this point to growth are more regulatory driven as you think about expanding into new geographies and that you've kind of gotten through most of the hurdles on the software side? I'm just kind of curious how you would generally kind of categorize some of those growth hurdles in some of the incremental regions you're planning on scaling into over the next few months.",
+   "parts": [
+    {
+     "t0_ms": 2527380,
+     "text": "And maybe just to follow up on RoboTaxi, it does seem like you've kind of hit an inflection point here in Austin over the last month or so since you launched the cyber cab."
+    },
+    {
+     "t0_ms": 2537860,
+     "text": "So would you generally say the bottlenecks at this point to growth are more regulatory driven as you think about expanding into new geographies and that you've kind of gotten through most of the hurdles on the software side?"
+    },
+    {
+     "t0_ms": 2552360,
+     "text": "I'm just kind of curious how you would generally kind of categorize some of those growth hurdles"
+    },
+    {
+     "t0_ms": 2556920,
+     "text": "in some of the incremental regions you're planning on scaling into over the next few months."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2563880,
+   "t1_ms": 2573920,
+   "speaker": "Management",
+   "text": "I think there are still certain software challenges which we are still working through. Ashok talked about it, so maybe Ashok.",
+   "parts": [
+    {
+     "t0_ms": 2563880,
+     "text": "I think there are still certain software challenges which we are still working through."
+    },
+    {
+     "t0_ms": 2571280,
+     "text": "Ashok talked about it, so maybe Ashok."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2574680,
+   "t1_ms": 2618640,
+   "speaker": "Analyst",
+   "text": "For example, we initially had the robot active service from 6 a.m. to 9 p.m. and then we expanded it to 10 p.m., 11 p.m. Now it's going to be pretty soon, 2 a.m. So we're slowly expanding the availability of Robotaxi, and that is driven by the capability of the AI software. And we just want to make sure that there's not a single safety incident. That is our operating principle. And even if there's the slightest possible risk at all, we don't, like, take on that risk. And so we are very risk-averse in that sense, and we want zero injuries or anything bad happening. And that is the driving principle. And we will see that over the rest of this year, we will unlock 24 across seven operation,",
+   "parts": [
+    {
+     "t0_ms": 2574680,
+     "text": "For example, we initially had the robot active service from 6 a.m. to 9 p.m."
+    },
+    {
+     "t0_ms": 2582320,
+     "text": "and then we expanded it to 10 p.m., 11 p.m."
+    },
+    {
+     "t0_ms": 2584380,
+     "text": "Now it's going to be pretty soon, 2 a.m."
+    },
+    {
+     "t0_ms": 2586200,
+     "text": "So we're slowly expanding the availability of Robotaxi,"
+    },
+    {
+     "t0_ms": 2590860,
+     "text": "and that is driven by the capability of the AI software."
+    },
+    {
+     "t0_ms": 2595120,
+     "text": "And we just want to make sure"
+    },
+    {
+     "t0_ms": 2596440,
+     "text": "that there's not a single safety incident."
+    },
+    {
+     "t0_ms": 2598500,
+     "text": "That is our operating principle."
+    },
+    {
+     "t0_ms": 2600180,
+     "text": "And even if there's the slightest possible risk at all,"
+    },
+    {
+     "t0_ms": 2603220,
+     "text": "we don't, like, take on that risk."
+    },
+    {
+     "t0_ms": 2605640,
+     "text": "And so we are very risk-averse in that sense,"
+    },
+    {
+     "t0_ms": 2608460,
+     "text": "and we want zero injuries or anything bad happening."
+    },
+    {
+     "t0_ms": 2612180,
+     "text": "And that is the driving principle."
+    },
+    {
+     "t0_ms": 2614300,
+     "text": "And we will see that over the rest of this year,"
+    },
+    {
+     "t0_ms": 2616240,
+     "text": "we will unlock 24 across seven operation,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2619040,
+   "t1_ms": 2658200,
+   "speaker": "Analyst",
+   "text": "go to higher speed roads. And we think all of that is necessary to sort of scale and offer a great product to a lot of users. And that's why we wanted to both do the breadth first of doing multiple cities. We do six cities now. We are also doing the depth of like having a lot of vehicles in a single city, which is in Austin. And we'll expand to more weather conditions day and night conditions highways and high speeds and all of that will be done hopefully by the end of this year at which point you will see a lot more scaling a lot more cities being covered by robotaxi so it's not purely regulatory or something like that it is technology driven but we do see",
+   "parts": [
+    {
+     "t0_ms": 2619040,
+     "text": "go to higher speed roads."
+    },
+    {
+     "t0_ms": 2620520,
+     "text": "And we think all of that is necessary"
+    },
+    {
+     "t0_ms": 2621780,
+     "text": "to sort of scale and offer a great product"
+    },
+    {
+     "t0_ms": 2624560,
+     "text": "to a lot of users."
+    },
+    {
+     "t0_ms": 2626760,
+     "text": "And that's why we wanted to both do the breadth first"
+    },
+    {
+     "t0_ms": 2629820,
+     "text": "of doing multiple cities."
+    },
+    {
+     "t0_ms": 2630920,
+     "text": "We do six cities now."
+    },
+    {
+     "t0_ms": 2632940,
+     "text": "We are also doing the depth of like having a lot of vehicles"
+    },
+    {
+     "t0_ms": 2635920,
+     "text": "in a single city, which is in Austin."
+    },
+    {
+     "t0_ms": 2638080,
+     "text": "And we'll expand to more weather conditions"
+    },
+    {
+     "t0_ms": 2641460,
+     "text": "day and night conditions highways and high speeds and all of that will be done hopefully by the end"
+    },
+    {
+     "t0_ms": 2647060,
+     "text": "of this year at which point you will see a lot more scaling a lot more cities being covered by"
+    },
+    {
+     "t0_ms": 2652580,
+     "text": "robotaxi so it's not purely regulatory or something like that it is technology driven but we do see"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2658200,
+   "t1_ms": 2668630,
+   "speaker": "Analyst",
+   "text": "that that pretty quickly become regulatory perhaps in like q1 q2 time frames great thanks guys the",
+   "parts": [
+    {
+     "t0_ms": 2658200,
+     "text": "that that pretty quickly become regulatory perhaps in like q1 q2 time frames great thanks guys the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2668630,
+   "t1_ms": 2674630,
+   "speaker": "Operator",
+   "text": "The next question is going to come from Edison from Deutsche Bank. Edison, please unmute yourself.",
+   "parts": [
+    {
+     "t0_ms": 2668630,
+     "text": "The next question is going to come from Edison from Deutsche Bank."
+    },
+    {
+     "t0_ms": 2672810,
+     "text": "Edison, please unmute yourself."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2677320,
+   "t1_ms": 2698660,
+   "speaker": "Analyst",
+   "text": "Great. Thank you for taking our questions. First, I want to ask about TerraFab. I know, Elon, you mentioned that you had an aspirational goal of 2Q28. Do you have a sense on how much capital needs to be invested to get there? And also, what kind of milestones we should be on the lookout for on the way there?",
+   "parts": [
+    {
+     "t0_ms": 2677320,
+     "text": "Great. Thank you for taking our questions."
+    },
+    {
+     "t0_ms": 2679940,
+     "text": "First, I want to ask about TerraFab."
+    },
+    {
+     "t0_ms": 2682940,
+     "text": "I know, Elon, you mentioned that you had an aspirational goal of 2Q28."
+    },
+    {
+     "t0_ms": 2687140,
+     "text": "Do you have a sense on how much capital needs to be invested to get there?"
+    },
+    {
+     "t0_ms": 2692880,
+     "text": "And also, what kind of milestones we should be on the lookout for on the way there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2703590,
+   "t1_ms": 2745330,
+   "speaker": "Management",
+   "text": "Well, it's going to be some pretty significant capital. It's certainly in the tens of billions for TeraFab. Although we've got to figure out what the relative split is between SpaceX and Tesla in terms of who pays for what at TeraFab. But it's not going to be less than tens of billions in capital equipment. you know, up through early 2028. And then it will, it'll probably be north of $100 billion long-term.",
+   "parts": [
+    {
+     "t0_ms": 2703590,
+     "text": "Well, it's going to be some pretty significant capital."
+    },
+    {
+     "t0_ms": 2710850,
+     "text": "It's certainly in the tens of billions for TeraFab."
+    },
+    {
+     "t0_ms": 2717370,
+     "text": "Although we've got to figure out what the relative split is between SpaceX and Tesla"
+    },
+    {
+     "t0_ms": 2723590,
+     "text": "in terms of who pays for what at TeraFab."
+    },
+    {
+     "t0_ms": 2727090,
+     "text": "But it's not going to be less than tens of billions in capital equipment."
+    },
+    {
+     "t0_ms": 2733590,
+     "text": "you know, up through early 2028."
+    },
+    {
+     "t0_ms": 2738330,
+     "text": "And then it will,"
+    },
+    {
+     "t0_ms": 2741150,
+     "text": "it'll probably be north of $100 billion long-term."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2747050,
+   "t1_ms": 2784600,
+   "speaker": "Management",
+   "text": "Yeah, and I'll just add, you know, the first set of equipment for the fab, which Tesla is building, we've actually already placed most of the orders. And that's why when Elon was talking about middle of next year, that is from the first fab which the research research fab yeah um that's what we're just we're just figuring out how to work the equipment type of thing yeah um but real production would be um late 28 which is lightning fast by fab standards i understand that's good and then just",
+   "parts": [
+    {
+     "t0_ms": 2747050,
+     "text": "Yeah, and I'll just add, you know,"
+    },
+    {
+     "t0_ms": 2749830,
+     "text": "the first set of equipment for the fab,"
+    },
+    {
+     "t0_ms": 2754010,
+     "text": "which Tesla is building,"
+    },
+    {
+     "t0_ms": 2755850,
+     "text": "we've actually already placed most of the orders."
+    },
+    {
+     "t0_ms": 2759150,
+     "text": "And that's why when Elon was talking about"
+    },
+    {
+     "t0_ms": 2761570,
+     "text": "middle of next year,"
+    },
+    {
+     "t0_ms": 2762710,
+     "text": "that is from the first fab which the research research fab yeah um that's what we're just"
+    },
+    {
+     "t0_ms": 2770400,
+     "text": "we're just figuring out how to work the equipment type of thing yeah um but real production would"
+    },
+    {
+     "t0_ms": 2775660,
+     "text": "be um late 28 which is lightning fast by fab standards i understand that's good and then just"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2784600,
+   "t1_ms": 2807860,
+   "speaker": "Analyst",
+   "text": "a quick follow-up on on optimus i i know you mentioned that we could see a video soon that There's quite a bit of progress, but you're still making some refinements. I guess just generally speaking, where do you see most of the design changes still happening going forward? Is it still the hand that's an issue, anything you can call out there?",
+   "parts": [
+    {
+     "t0_ms": 2784600,
+     "text": "a quick follow-up on on optimus i i know you mentioned that we could see a video soon that"
+    },
+    {
+     "t0_ms": 2792780,
+     "text": "There's quite a bit of progress, but you're still making some refinements."
+    },
+    {
+     "t0_ms": 2796440,
+     "text": "I guess just generally speaking, where do you see most of the design changes still happening going forward?"
+    },
+    {
+     "t0_ms": 2803660,
+     "text": "Is it still the hand that's an issue, anything you can call out there?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2809120,
+   "t1_ms": 2846960,
+   "speaker": "Management",
+   "text": "Yeah, it's mostly the difficulty. I mean, Constantine, why don't you ask this question? So hand is one of the most challenging hardware areas, actually. um most of the electromechanical system i would say um is relatively high confidence meaning like that it's it has converted to something that works decently well and the hand is from an electronic point of view um more complicated than actuators for the locomotion",
+   "parts": [
+    {
+     "t0_ms": 2809120,
+     "text": "Yeah, it's mostly the difficulty."
+    },
+    {
+     "t0_ms": 2811020,
+     "text": "I mean, Constantine, why don't you ask this question?"
+    },
+    {
+     "t0_ms": 2815260,
+     "text": "So hand is one of the most challenging hardware areas, actually."
+    },
+    {
+     "t0_ms": 2818760,
+     "text": "um most of the electromechanical system i would say um is relatively high confidence meaning like"
+    },
+    {
+     "t0_ms": 2828380,
+     "text": "that it's it has converted to something that works decently well and the hand is"
+    },
+    {
+     "t0_ms": 2837820,
+     "text": "from an electronic point of view um more complicated than actuators for the locomotion"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2846960,
+   "t1_ms": 2886340,
+   "speaker": "Management",
+   "text": "system for example um also there are some bespoke years that are carrying a lot of burden for consumption and for um reliability that we are developing still and yeah this would be the most yeah it's supposed it's mostly the hand um and uh and just the kind of the fine tuning of the of the hand design um and the fingers especially just it's a hard problem because you know humans have self-repair like our you know our hands repair our body repairs itself but robots don't",
+   "parts": [
+    {
+     "t0_ms": 2846960,
+     "text": "system for example um also there are some bespoke years that are carrying a lot of burden for"
+    },
+    {
+     "t0_ms": 2856560,
+     "text": "consumption and for um reliability that we are developing still and yeah this would be the most"
+    },
+    {
+     "t0_ms": 2867020,
+     "text": "yeah it's supposed it's mostly the hand um and uh and just the kind of the fine tuning of the"
+    },
+    {
+     "t0_ms": 2874080,
+     "text": "of the hand design um and the fingers especially just it's a hard problem because you know humans"
+    },
+    {
+     "t0_ms": 2880640,
+     "text": "have self-repair like our you know our hands repair our body repairs itself but robots don't"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2886340,
+   "t1_ms": 2926120,
+   "speaker": "Management",
+   "text": "so you have to and and and our you know fingers are kind of squishy and have lots of sensors in our skin um it's it's hard to make a make a hand that is that can handle lots of wear and tear but it's still squishy enough to pick up delicate objects and has all the sensors and doesn't damage the sensors when you do repeated actions. There's a lot of little things that you realize actually what an incredible thing the human hand is at the end of the day. So it's mostly from an electromechanical standpoint, the hands. There are other things that are improving as well throughout the robot, but that's the main thing.",
+   "parts": [
+    {
+     "t0_ms": 2886340,
+     "text": "so you have to and and and our you know fingers are kind of squishy and have lots of sensors in"
+    },
+    {
+     "t0_ms": 2892760,
+     "text": "our skin um it's it's hard to make a make a hand that is that can handle lots of wear and tear"
+    },
+    {
+     "t0_ms": 2899600,
+     "text": "but it's still squishy enough to pick up delicate objects"
+    },
+    {
+     "t0_ms": 2903080,
+     "text": "and has all the sensors and doesn't damage the sensors"
+    },
+    {
+     "t0_ms": 2906360,
+     "text": "when you do repeated actions."
+    },
+    {
+     "t0_ms": 2910400,
+     "text": "There's a lot of little things that you realize"
+    },
+    {
+     "t0_ms": 2915080,
+     "text": "actually what an incredible thing the human hand is"
+    },
+    {
+     "t0_ms": 2917040,
+     "text": "at the end of the day."
+    },
+    {
+     "t0_ms": 2918840,
+     "text": "So it's mostly from an electromechanical standpoint, the hands."
+    },
+    {
+     "t0_ms": 2922060,
+     "text": "There are other things that are improving as well"
+    },
+    {
+     "t0_ms": 2924420,
+     "text": "throughout the robot, but that's the main thing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2926120,
+   "t1_ms": 2967880,
+   "speaker": "Management",
+   "text": "And then, as I mentioned, upgrading the intelligence, the onboard intelligence of the robot with AI5, which is a big step change in intelligence that will help a lot with the capabilities of Optimus. um so you know i've said before that like you know humanoid robots biggest product on earth um and but it's in its usefulness will be you know it's rough approximation um multiple of the electromechanical dexterity the ai software and the ai chip hardware um and all three of those things are improving exponentially i think we use that word a lot",
+   "parts": [
+    {
+     "t0_ms": 2926120,
+     "text": "And then, as I mentioned, upgrading the intelligence, the onboard intelligence of the robot with AI5, which is a big step change in intelligence that will help a lot with the capabilities of Optimus."
+    },
+    {
+     "t0_ms": 2942180,
+     "text": "um so you know i've said before that like you know humanoid robots biggest product on earth"
+    },
+    {
+     "t0_ms": 2949600,
+     "text": "um and but it's in its usefulness will be you know it's rough approximation"
+    },
+    {
+     "t0_ms": 2955140,
+     "text": "um multiple of the electromechanical dexterity the ai software and the ai chip hardware um"
+    },
+    {
+     "t0_ms": 2963300,
+     "text": "and all three of those things are improving exponentially i think we use that word a lot"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2967880,
+   "t1_ms": 2995200,
+   "speaker": "Management",
+   "text": "And the value is roughly those three things multiplied by each other. And then the optimist robots will build the future optimist robots so you have a recursive function. So when you have a recursive multiplicative exponential, things will really grow extremely fast. They may start from a small base, but they're going to grow to crazy levels. And I think at some point there will be more humanoid robots on Earth than there are humans.",
+   "parts": [
+    {
+     "t0_ms": 2967880,
+     "text": "And the value is roughly those three things multiplied by each other."
+    },
+    {
+     "t0_ms": 2973620,
+     "text": "And then the optimist robots will build the future optimist robots"
+    },
+    {
+     "t0_ms": 2978000,
+     "text": "so you have a recursive function."
+    },
+    {
+     "t0_ms": 2980100,
+     "text": "So when you have a recursive multiplicative exponential,"
+    },
+    {
+     "t0_ms": 2983140,
+     "text": "things will really grow extremely fast."
+    },
+    {
+     "t0_ms": 2986140,
+     "text": "They may start from a small base, but they're going to grow to crazy levels."
+    },
+    {
+     "t0_ms": 2991680,
+     "text": "And I think at some point there will be more humanoid robots on Earth"
+    },
+    {
+     "t0_ms": 2994560,
+     "text": "than there are humans."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2999110,
+   "t1_ms": 3005750,
+   "speaker": "Operator",
+   "text": "Great. Thanks so much. the next question comes from alex from bank of america alex please unmute yourself",
+   "parts": [
+    {
+     "t0_ms": 2999110,
+     "text": "Great. Thanks so much."
+    },
+    {
+     "t0_ms": 3000430,
+     "text": "the next question comes from alex from bank of america alex please unmute yourself"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3005750,
+   "t1_ms": 3029950,
+   "speaker": "Analyst",
+   "text": "hi thanks for taking our questions here um i guess just first on robo taxi so it looks like for robo taxi you're pricing lower than competitor ride share and other robo taxi players at most markets um is that the plan to do longer term to take market share given uh some of your structural",
+   "parts": [
+    {
+     "t0_ms": 3005750,
+     "text": "hi thanks for taking our questions here um i guess just first on robo taxi so it looks like"
+    },
+    {
+     "t0_ms": 3016430,
+     "text": "for robo taxi you're pricing lower than competitor ride share and other robo taxi players at most"
+    },
+    {
+     "t0_ms": 3022830,
+     "text": "markets um is that the plan to do longer term to take market share given uh some of your structural"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3029950,
+   "t1_ms": 3062270,
+   "speaker": "Management",
+   "text": "cost advantages yeah i mean remember in when you're comparing you're comparing us with right share which has a driver in there and we don't plus we are manufacturing the car ourselves so our cost basis overall is different and i i think i said it in my opening remarks and i'll say it Again, just don't want to be too repetitive, but basically our goal is to take over any kind of transportation.",
+   "parts": [
+    {
+     "t0_ms": 3029950,
+     "text": "cost advantages yeah i mean remember in when you're comparing you're comparing us with right"
+    },
+    {
+     "t0_ms": 3037310,
+     "text": "share which has a driver in there and we don't plus we are manufacturing the car ourselves so"
+    },
+    {
+     "t0_ms": 3044870,
+     "text": "our cost basis overall is different and i i think i said it in my opening remarks and i'll say it"
+    },
+    {
+     "t0_ms": 3053110,
+     "text": "Again, just don't want to be too repetitive, but basically our goal is to take over any kind of transportation."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3062550,
+   "t1_ms": 3087610,
+   "speaker": "Management",
+   "text": "I mean, I think we, unless we are stopped by governments, which is certainly a possibility, like if they're trying to protect a domestic industry, I think Tesla will end up doing a majority of all passenger miles on earth in any country where it is allowed to operate freely. And you can come back and look at this prediction, but I feel confident about this prediction.",
+   "parts": [
+    {
+     "t0_ms": 3062550,
+     "text": "I mean, I think we, unless we are stopped by governments, which is certainly a possibility, like if they're trying to protect a domestic industry, I think Tesla will end up doing a majority of all passenger miles on earth in any country where it is allowed to operate freely."
+    },
+    {
+     "t0_ms": 3083110,
+     "text": "And you can come back and look at this prediction, but I feel confident about this prediction."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3088130,
+   "t1_ms": 3132390,
+   "speaker": "Analyst",
+   "text": "Really helpful. And then just my follow-up question, I guess just on the key metric here, so unsupervised, miles-driven. So, you know, I think it grew at a high teen, so we could grow three since late July. Is this still the expectation you'll continue to grow that at a double-digit weekly rate through the balance of the year? And then what is really enabling that type of growth? It seems like you've definitely hit a comfort level in scaling much more rapidly. You know, how much of that is CyberCab? How much of that is better safety validation with the latest version of FSD? And then just on fleet composition, do you expect CyberCab to represent, you know,",
+   "parts": [
+    {
+     "t0_ms": 3088130,
+     "text": "Really helpful. And then just my follow-up question, I guess just on the key metric here, so unsupervised, miles-driven."
+    },
+    {
+     "t0_ms": 3099670,
+     "text": "So, you know, I think it grew at a high teen, so we could grow three since late July."
+    },
+    {
+     "t0_ms": 3104810,
+     "text": "Is this still the expectation you'll continue to grow that at a double-digit weekly rate through the balance of the year?"
+    },
+    {
+     "t0_ms": 3112010,
+     "text": "And then what is really enabling that type of growth?"
+    },
+    {
+     "t0_ms": 3115130,
+     "text": "It seems like you've definitely hit a comfort level in scaling much more rapidly."
+    },
+    {
+     "t0_ms": 3120710,
+     "text": "You know, how much of that is CyberCab?"
+    },
+    {
+     "t0_ms": 3122710,
+     "text": "How much of that is better safety validation with the latest version of FSD?"
+    },
+    {
+     "t0_ms": 3127970,
+     "text": "And then just on fleet composition, do you expect CyberCab to represent, you know,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3132430,
+   "t1_ms": 3177310,
+   "speaker": "Analyst",
+   "text": "majority of the RoboTaxi fleet over time? Yes. We will continue the scaling for the foreseeable future. We don't see any hurdles along the way. Obviously, there's work required. But we do see a clear path towards scaling to millions of vehicles for the next several months. This is happening due to primarily the technology investments we have made over the last several years and also in V15 stack that we alluded to earlier this year. Like all of the foundations, it's like hard to see. It's like an iceberg. People only see the tip of the iceberg. There's a ton of work that goes into it. and like now we're starting to see the payoff of all that work",
+   "parts": [
+    {
+     "t0_ms": 3132430,
+     "text": "majority of the RoboTaxi fleet over time?"
+    },
+    {
+     "t0_ms": 3137650,
+     "text": "Yes."
+    },
+    {
+     "t0_ms": 3138970,
+     "text": "We will continue the scaling for the foreseeable future."
+    },
+    {
+     "t0_ms": 3142770,
+     "text": "We don't see any hurdles along the way."
+    },
+    {
+     "t0_ms": 3145230,
+     "text": "Obviously, there's work required."
+    },
+    {
+     "t0_ms": 3146990,
+     "text": "But we do see a clear path towards scaling to millions of vehicles for the next several months."
+    },
+    {
+     "t0_ms": 3155330,
+     "text": "This is happening due to primarily the technology investments we have made over the last several years"
+    },
+    {
+     "t0_ms": 3161350,
+     "text": "and also in V15 stack that we alluded to earlier this year."
+    },
+    {
+     "t0_ms": 3167610,
+     "text": "Like all of the foundations, it's like hard to see."
+    },
+    {
+     "t0_ms": 3169490,
+     "text": "It's like an iceberg."
+    },
+    {
+     "t0_ms": 3170590,
+     "text": "People only see the tip of the iceberg."
+    },
+    {
+     "t0_ms": 3172090,
+     "text": "There's a ton of work that goes into it."
+    },
+    {
+     "t0_ms": 3173530,
+     "text": "and like now we're starting to see the payoff of all that work"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3177310,
+   "t1_ms": 3197730,
+   "speaker": "Analyst",
+   "text": "of like, you know, developing end-to-end neural networks, learning from humans and so on, all of that is paying off. So that's what you're seeing. You're seeing the result of many years of work. It didn't just like happen in the last several months. Yeah, and the same technology should scale to millions of vehicles across all over, like wherever we are allowed to operate.",
+   "parts": [
+    {
+     "t0_ms": 3177310,
+     "text": "of like, you know, developing end-to-end neural networks,"
+    },
+    {
+     "t0_ms": 3180850,
+     "text": "learning from humans and so on, all of that is paying off."
+    },
+    {
+     "t0_ms": 3183630,
+     "text": "So that's what you're seeing."
+    },
+    {
+     "t0_ms": 3184870,
+     "text": "You're seeing the result of many years of work."
+    },
+    {
+     "t0_ms": 3186730,
+     "text": "It didn't just like happen in the last several months."
+    },
+    {
+     "t0_ms": 3192130,
+     "text": "Yeah, and the same technology should scale to millions of vehicles"
+    },
+    {
+     "t0_ms": 3194670,
+     "text": "across all over, like wherever we are allowed to operate."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3200490,
+   "t1_ms": 3208050,
+   "speaker": "Operator",
+   "text": "Great. Our next question is going to come from Pierre from New Street. Pierre, please unmute yourself.",
+   "parts": [
+    {
+     "t0_ms": 3200490,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 3202090,
+     "text": "Our next question is going to come from Pierre from New Street."
+    },
+    {
+     "t0_ms": 3206610,
+     "text": "Pierre, please unmute yourself."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3209850,
+   "t1_ms": 3249330,
+   "speaker": "Analyst",
+   "text": "Thanks for taking the question, guys. I just wanted to come back. I'm really fascinated by 75% of U.S. cars selling with FSD. And the interesting thing is that if you get the car, they probably generate on sale, they sell like $7,000 of gross profit. But then, of course, FSD generates more than $1,000 a year. And so it makes like a minimum impact on numbers in the quarter the car is sold. But over the lifetime of the car, it probably at least doubles the profit per car.",
+   "parts": [
+    {
+     "t0_ms": 3209850,
+     "text": "Thanks for taking the question, guys."
+    },
+    {
+     "t0_ms": 3212270,
+     "text": "I just wanted to come back."
+    },
+    {
+     "t0_ms": 3214210,
+     "text": "I'm really fascinated by 75% of U.S. cars selling with FSD."
+    },
+    {
+     "t0_ms": 3222610,
+     "text": "And the interesting thing is that if you get the car,"
+    },
+    {
+     "t0_ms": 3226250,
+     "text": "they probably generate on sale,"
+    },
+    {
+     "t0_ms": 3229310,
+     "text": "they sell like $7,000 of gross profit."
+    },
+    {
+     "t0_ms": 3233430,
+     "text": "But then, of course, FSD generates more than $1,000 a year."
+    },
+    {
+     "t0_ms": 3237970,
+     "text": "And so it makes like a minimum impact on numbers in the quarter the car is sold."
+    },
+    {
+     "t0_ms": 3244650,
+     "text": "But over the lifetime of the car, it probably at least doubles the profit per car."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3250010,
+   "t1_ms": 3272750,
+   "speaker": "Analyst",
+   "text": "And so the place where I want to get to is, am I looking at it the right way? And are you at some point going to disclose for us, like, the annual recurring revenues that FSD represents? And I did my own math, and I'm thinking it's probably now approaching a billion dollars of ARR. Is that the right order of magnitude?",
+   "parts": [
+    {
+     "t0_ms": 3250010,
+     "text": "And so the place where I want to get to is, am I looking at it the right way?"
+    },
+    {
+     "t0_ms": 3256530,
+     "text": "And are you at some point going to disclose for us, like, the annual recurring revenues that FSD represents?"
+    },
+    {
+     "t0_ms": 3265570,
+     "text": "And I did my own math, and I'm thinking it's probably now approaching a billion dollars of ARR."
+    },
+    {
+     "t0_ms": 3271330,
+     "text": "Is that the right order of magnitude?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3273970,
+   "t1_ms": 3291590,
+   "speaker": "Management",
+   "text": "Yeah, I think the numbers which you shared are correct. And, you know, as it scales further, we will start sharing more metrics around FSD, not just the revenue, but also other key metrics around it.",
+   "parts": [
+    {
+     "t0_ms": 3273970,
+     "text": "Yeah, I think the numbers which you shared are correct."
+    },
+    {
+     "t0_ms": 3279230,
+     "text": "And, you know, as it scales further, we will start sharing more metrics around FSD, not just the revenue, but also other key metrics around it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3294420,
+   "t1_ms": 3316100,
+   "speaker": "Analyst",
+   "text": "Okay. And as a quick follow-up, do you have, like, a good sense already, and can you tell us about, like, the retention rate? Like, do how many people, like, three or six months down the line stick to the monthly subscription? And if you see the percentage of drivers falling off?",
+   "parts": [
+    {
+     "t0_ms": 3294420,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 3295880,
+     "text": "And as a quick follow-up, do you have, like, a good sense already, and can you tell us about, like, the retention rate?"
+    },
+    {
+     "t0_ms": 3301860,
+     "text": "Like, do how many people, like, three or six months down the line stick to the monthly subscription?"
+    },
+    {
+     "t0_ms": 3311540,
+     "text": "And if you see the percentage of drivers falling off?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3316800,
+   "t1_ms": 3352140,
+   "speaker": "Management",
+   "text": "Yeah, I mean, you know, like I said, we will share more metrics around churn rates and whatnot. But the reason we're not doing it at this stage is there are a lot of things which we're doing, especially with new countries being added, that we offer free trials. And one thing which I'd also like to make sure it's clear, when I say in North America that more than 75% attach rate at the time of delivery, this is like every car which we're delivering comes with a month of free FSA subscription.",
+   "parts": [
+    {
+     "t0_ms": 3316800,
+     "text": "Yeah, I mean, you know, like I said, we will share more metrics around churn rates and whatnot."
+    },
+    {
+     "t0_ms": 3322600,
+     "text": "But the reason we're not doing it at this stage is there are a lot of things which we're doing, especially with new countries being added, that we offer free trials."
+    },
+    {
+     "t0_ms": 3335200,
+     "text": "And one thing which I'd also like to make sure it's clear, when I say in North America that more than 75% attach rate at the time of delivery,"
+    },
+    {
+     "t0_ms": 3345920,
+     "text": "this is like every car which we're delivering comes with a month of free FSA subscription."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3352600,
+   "t1_ms": 3365110,
+   "speaker": "Management",
+   "text": "and still people are signing up even though they have that free available great um our next question",
+   "parts": [
+    {
+     "t0_ms": 3352600,
+     "text": "and still people are signing up even though they have that free available great um our next question"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3365110,
+   "t1_ms": 3374350,
+   "speaker": "Operator",
+   "text": "is going to come from colin at oppenheimer colin please unmute yourself thanks so much guys you",
+   "parts": [
+    {
+     "t0_ms": 3365110,
+     "text": "is going to come from colin at oppenheimer colin please unmute yourself thanks so much guys you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3374350,
+   "t1_ms": 3393090,
+   "speaker": "Analyst",
+   "text": "know you can talk about the strategy around ramping optimus production just a little bit to start training even if the hands aren't fully baked with with the final design it seems like There's a lot that you could end up doing in terms of the training cycle and maturing some of the simulation technology, even without perfected hands.",
+   "parts": [
+    {
+     "t0_ms": 3374350,
+     "text": "know you can talk about the strategy around ramping optimus production just a little bit"
+    },
+    {
+     "t0_ms": 3379410,
+     "text": "to start training even if the hands aren't fully baked with with the final design it seems like"
+    },
+    {
+     "t0_ms": 3384850,
+     "text": "There's a lot that you could end up doing in terms of the training cycle"
+    },
+    {
+     "t0_ms": 3388910,
+     "text": "and maturing some of the simulation technology, even without perfected hands."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3394270,
+   "t1_ms": 3438810,
+   "speaker": "Management",
+   "text": "Well, that's what we're doing. We're building robots that do not have perfected hands, and we are making progress with Optimus training and ironing out all aspects of the supply chain and the production system. So we're doing all these things in parallel, like this giant production line at our Fremont factory, massive supply chain, and then fine-tuning the design and engineering simultaneously with the AI software.",
+   "parts": [
+    {
+     "t0_ms": 3394270,
+     "text": "Well, that's what we're doing."
+    },
+    {
+     "t0_ms": 3395550,
+     "text": "We're building robots that do not have perfected hands,"
+    },
+    {
+     "t0_ms": 3399270,
+     "text": "and we are making progress with Optimus training"
+    },
+    {
+     "t0_ms": 3402530,
+     "text": "and ironing out all aspects of the supply chain and the production system."
+    },
+    {
+     "t0_ms": 3409250,
+     "text": "So we're doing all these things in parallel, like this giant production line at our Fremont factory, massive supply chain, and then fine-tuning the design and engineering simultaneously with the AI software."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3439250,
+   "t1_ms": 3482390,
+   "speaker": "Management",
+   "text": "So all these things are happening simultaneously. And we're going as fast as humanly possible here. I don't think anyone's going to have, and in fact I'd be stunned if anyone has a robot that is remotely competitive with Optimus when we start delivering it to customers, which is likely to be towards the end of next year. yeah and you should know that you know not only the Fremont factory we've also started constructing a factory here in Austin which would be able to do a lot more robots as compared to the Fremont one so going back to what Elon was saying we're doing whatever we can we're not stopping we're",
+   "parts": [
+    {
+     "t0_ms": 3439250,
+     "text": "So all these things are happening simultaneously."
+    },
+    {
+     "t0_ms": 3444170,
+     "text": "And we're going as fast as humanly possible here."
+    },
+    {
+     "t0_ms": 3448130,
+     "text": "I don't think anyone's going to have, and in fact I'd be stunned if anyone has a robot that is remotely competitive with Optimus"
+    },
+    {
+     "t0_ms": 3455130,
+     "text": "when we start delivering it to customers, which is likely to be towards the end of next year."
+    },
+    {
+     "t0_ms": 3461750,
+     "text": "yeah and you should know that you know not only the Fremont factory we've also started constructing"
+    },
+    {
+     "t0_ms": 3470110,
+     "text": "a factory here in Austin which would be able to do a lot more robots as compared to the Fremont"
+    },
+    {
+     "t0_ms": 3476810,
+     "text": "one so going back to what Elon was saying we're doing whatever we can we're not stopping we're"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3482390,
+   "t1_ms": 3487690,
+   "speaker": "Management",
+   "text": "just going at the fastest pace as we can yeah we're definitely we're definitely as I say in",
+   "parts": [
+    {
+     "t0_ms": 3482390,
+     "text": "just going at the fastest pace as we can yeah we're definitely we're definitely as I say in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3487690,
+   "t1_ms": 3516310,
+   "speaker": "Analyst",
+   "text": "vegas betting on the come awesome and then you know in terms of the semi-caps um you know capacity availability if you talk about how you're navigating that you know with the suppliers you know obviously seeing some some deposits get put down on equipment and getting deliveries moving forward is a net positive on tariff out but are there some more aggressive things that you can do to to start getting ready for the larger ramp now and how should we think about that, going through the CapEx budget.",
+   "parts": [
+    {
+     "t0_ms": 3487690,
+     "text": "vegas betting on the come awesome and then you know in terms of the semi-caps um you know"
+    },
+    {
+     "t0_ms": 3494830,
+     "text": "capacity availability if you talk about how you're navigating that you know with the suppliers you"
+    },
+    {
+     "t0_ms": 3500570,
+     "text": "know obviously seeing some some deposits get put down on equipment and getting deliveries"
+    },
+    {
+     "t0_ms": 3504790,
+     "text": "moving forward is a net positive on tariff out but are there some more aggressive things that"
+    },
+    {
+     "t0_ms": 3510310,
+     "text": "you can do to to start getting ready for the larger ramp now and how should we think about"
+    },
+    {
+     "t0_ms": 3514930,
+     "text": "that, going through the CapEx budget."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3520350,
+   "t1_ms": 3538370,
+   "speaker": "Management",
+   "text": "It's not a massive impact right now. I think CapEx is actually ending up being a little lower than we anticipated. But we'll see it become more meaningful next year and then noticeable like in the tens of billions in 28.",
+   "parts": [
+    {
+     "t0_ms": 3520350,
+     "text": "It's not a"
+    },
+    {
+     "t0_ms": 3521130,
+     "text": "massive impact right now."
+    },
+    {
+     "t0_ms": 3523490,
+     "text": "I think CapEx is actually"
+    },
+    {
+     "t0_ms": 3524930,
+     "text": "ending up being a little lower"
+    },
+    {
+     "t0_ms": 3527210,
+     "text": "than we anticipated."
+    },
+    {
+     "t0_ms": 3529830,
+     "text": "But we'll see it become"
+    },
+    {
+     "t0_ms": 3531470,
+     "text": "more meaningful next year"
+    },
+    {
+     "t0_ms": 3533370,
+     "text": "and then"
+    },
+    {
+     "t0_ms": 3534190,
+     "text": "noticeable like"
+    },
+    {
+     "t0_ms": 3537250,
+     "text": "in the tens of billions in 28."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3542080,
+   "t1_ms": 3552460,
+   "speaker": "Operator",
+   "text": "All right. We are coming up on time here. We appreciate everyone's questions and we look forward to talking to you next quarter. Thank you very much and goodbye.",
+   "parts": [
+    {
+     "t0_ms": 3542080,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 3544520,
+     "text": "We are coming up on time here."
+    },
+    {
+     "t0_ms": 3546660,
+     "text": "We appreciate everyone's"
+    },
+    {
+     "t0_ms": 3548360,
+     "text": "questions and we look forward to talking to you"
+    },
+    {
+     "t0_ms": 3550380,
+     "text": "next quarter. Thank you very much and goodbye."
+    }
+   ]
+  }
+ ]
+}

@@ -168,7 +168,7 @@
    "t1_ms": 147960,
    "speaker": "Management",
    "text": "Thank you, Wendy. Good evening. Thank you, everyone, for joining us. Our recent significant achievement, across models and applications, has settled Tencent's evolution for new AI. Hi4 has achieved China's state-of-the-art AI model status, and Hi4 Flash brings down inferences cost to deliver cost performance for real-world use cases. We believe WorkBuddy has grown to become the largest AI application in China, measured by the...",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 110520,
@@ -224,7 +224,7 @@
    "t1_ms": 186820,
    "speaker": "Management",
    "text": "Our core services revenue growth rate increased, driven by WorkBuddy, and as we allocate more compute to model as a service, and GPU rental. Our core businesses remained resilient and violent, as several evergreen games reached lifetime heights in DAU, and as video games, accounts increased engagement rapidly, particularly among young users, by enriching its content offering.",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 148220,
@@ -272,7 +272,7 @@
    "t1_ms": 232440,
    "speaker": "Management",
    "text": "Looking at our financial numbers for the third quarter, total revenue was 207 billion RMB, up 8% year-on-year. Gross profit was 116 billion RMB, up 7% year-on-year. Excluding new AI products, gross profit was 118 billion RMB, up 8% year-on-year. Non-IFIs operating profit was 68 billion RMB, down 6% year-on-year. Excluding new AI products, non-IFIs operating profit was 83 billion RMB, up 8% year-on-year. And non-IFIs net profit attributable to equity holders was 66%.",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 188200,
@@ -312,7 +312,7 @@
    "t1_ms": 274260,
    "speaker": "Management",
    "text": "In the last quarter, total revenue was 27 billion RMB, down 6% year-on-year. Turning to our key services for communication and social networks, combined MAU operation and WeChat grew year-on-year and quarter-on-quarter to 1.4 billion. In games, DataForce exceeded 58 million PAU in October, demonstrating our ability to expand our new game system's popularity for years after games. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. For productivity tools, WorldBody has become the most used AI product in China, measured by large language model token usage.",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 232640,
@@ -376,7 +376,7 @@
    "t1_ms": 319820,
    "speaker": "Management",
    "text": "On the foundation model front, we released a production version of HunYuan4 earlier this month. The model ranked first among Chinese models based on Asian Arena leaderboard at launch, achieving China's state of the art. I will now hand over to Martin for the strategy review. Thank you, Pony. And good morning and good evening, everybody. In the past three months, we have achieved transformational breakthroughs in our AI-native businesses. And today, I want to provide some important and exciting updates on our initiatives across",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "parts": [
     {
      "t0_ms": 275220,
@@ -10040,7 +10040,7 @@
    "t0_ms": 126780,
    "speaker": "Management",
    "quote": "Hi4 has achieved China's state-of-the-art AI model status, and Hi4 Flash brings down inferences cost to deliver cost performance for real-world use cases.",
-   "name": null,
+   "name": "Pony Ma, Chairman and CEO",
    "metric": "AI model position",
    "kind": "qualitative",
    "novel": false,
@@ -10209,6 +10209,8 @@
   "gpu": "NVIDIA A10",
   "gpu_s": 477.0,
   "gpu_usd": 0.169,
+  "asr_wpm": null,
+  "asr_thin_s": null,
   "claude_s": 207.0,
   "claude_backend": "cli",
   "claude_tokens": {

@@ -1,0 +1,2291 @@
+{
+ "ticker": "NFLX",
+ "quarter": "Q3-2026",
+ "company": "Netflix",
+ "call_start": "2026-10-20T16:45:00-04:00",
+ "etf": "XLC",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/NFLX_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 40740,
+   "speaker": "Operator",
+   "text": "Good afternoon and welcome to the Netflix Q3 2026 Earnings Interview. I'm Spencer Wong, VP of Finance and Capital Markets. Joining me today are co-CEOs Ted Sarandos and Greg Peters and CFO Spence Newman. As a reminder, we will be taking forward-looking statements and actual results may vary. We'll now take questions submitted by the analyst community. Our first question comes from David Joyce of Seaport Research Partners. His question is, investors are looking for more clarity in what has typically been netflix's industry leading strategy what role do live events or becoming a centralized streaming portal or offering short",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good afternoon and welcome to the Netflix Q3 2026 Earnings Interview. I'm Spencer Wong,"
+    },
+    {
+     "t0_ms": 5420,
+     "text": "VP of Finance and Capital Markets. Joining me today are co-CEOs Ted Sarandos and Greg Peters"
+    },
+    {
+     "t0_ms": 10940,
+     "text": "and CFO Spence Newman. As a reminder, we will be taking forward-looking statements and actual"
+    },
+    {
+     "t0_ms": 16740,
+     "text": "results may vary. We'll now take questions submitted by the analyst community. Our first"
+    },
+    {
+     "t0_ms": 21940,
+     "text": "question comes from David Joyce of Seaport Research Partners. His question is,"
+    },
+    {
+     "t0_ms": 28460,
+     "text": "investors are looking for more clarity in what has typically been netflix's industry leading"
+    },
+    {
+     "t0_ms": 34340,
+     "text": "strategy what role do live events or becoming a centralized streaming portal or offering short"
+    }
+   ]
+  },
+  {
+   "t0_ms": 40740,
+   "t1_ms": 48080,
+   "speaker": "Operator",
+   "text": "form video third party or user generated content play in how you see netflix regaining a competitive",
+   "parts": [
+    {
+     "t0_ms": 40740,
+     "text": "form video third party or user generated content play in how you see netflix regaining a competitive"
+    }
+   ]
+  },
+  {
+   "t0_ms": 48080,
+   "t1_ms": 90360,
+   "speaker": "Analyst",
+   "text": "edge that can help sentiment i'll take that and thank you david for the question it gives us an opportunity to clarify obviously but uh our strategy is unchanged and it's always been and It continues to be to combine best-in-class entertainment with industry-leading discovery, global distribution, and the best possible monetization. We want to be the must-have entertainment service, the first one members check for a great series or a great film and the last service they'd ever cancel. Now, the anchor of that strategy are the Netflix originals, differentiated, exclusive, ambitious, professionally produced series and films and live events. Now, we've already ended the market to expect something great and new to watch every week.",
+   "parts": [
+    {
+     "t0_ms": 48080,
+     "text": "edge that can help sentiment i'll take that and thank you david for the question it gives us an"
+    },
+    {
+     "t0_ms": 53380,
+     "text": "opportunity to clarify obviously but uh our strategy is unchanged and it's always been and"
+    },
+    {
+     "t0_ms": 58120,
+     "text": "It continues to be to combine best-in-class entertainment with industry-leading discovery, global distribution, and the best possible monetization."
+    },
+    {
+     "t0_ms": 66920,
+     "text": "We want to be the must-have entertainment service, the first one members check for a great series or a great film and the last service they'd ever cancel."
+    },
+    {
+     "t0_ms": 75260,
+     "text": "Now, the anchor of that strategy are the Netflix originals, differentiated, exclusive, ambitious, professionally produced series and films and live events."
+    },
+    {
+     "t0_ms": 86020,
+     "text": "Now, we've already ended the market to expect something great and new to watch every week."
+    }
+   ]
+  },
+  {
+   "t0_ms": 90440,
+   "t1_ms": 123540,
+   "speaker": "Analyst",
+   "text": "So we have to deliver on quality and quantity always. And as for the live events, in a world of so much choice, you know, we have titles like K-pop and Wednesday and Bridgerton. And with all those things to choose from, live events like the Canelo Crawford fight or the eventized sports that we do with the NFL and the MLB, these events break through. You know, and they stand out. They drive new membership. They add fuel to our ad revenues. They please our existing members. And they just generally enhance the value of Netflix. So we take all of that strategy.",
+   "parts": [
+    {
+     "t0_ms": 90440,
+     "text": "So we have to deliver on quality and quantity always."
+    },
+    {
+     "t0_ms": 94960,
+     "text": "And as for the live events, in a world of so much choice, you know, we have titles like K-pop and Wednesday and Bridgerton."
+    },
+    {
+     "t0_ms": 101620,
+     "text": "And with all those things to choose from, live events like the Canelo Crawford fight or the eventized sports that we do with the NFL and the MLB, these events break through."
+    },
+    {
+     "t0_ms": 111220,
+     "text": "You know, and they stand out."
+    },
+    {
+     "t0_ms": 112380,
+     "text": "They drive new membership."
+    },
+    {
+     "t0_ms": 113860,
+     "text": "They add fuel to our ad revenues."
+    },
+    {
+     "t0_ms": 116240,
+     "text": "They please our existing members."
+    },
+    {
+     "t0_ms": 118080,
+     "text": "And they just generally enhance the value of Netflix."
+    },
+    {
+     "t0_ms": 121280,
+     "text": "So we take all of that strategy."
+    }
+   ]
+  },
+  {
+   "t0_ms": 124440,
+   "t1_ms": 168140,
+   "speaker": "Analyst",
+   "text": "We pair that exclusive programming with kind of a broad offering of third-party programming, including, you know, second-run titles, deals we just did with Sony, Disney, Universal, and others. And in addition to that, we look to new ways to bring third-party content onto the service as well to complement those originals, like we just did with TF1 in France, where you're ingesting a full network of programming. Now, all that said, it's really important to remember, roughly 95% of our spend and nearly all of our revenue is focused on that core, where we see a long runway for future growth. Now, other areas that you mentioned, these are early stage initiatives meant to explore future programming expansions.",
+   "parts": [
+    {
+     "t0_ms": 124440,
+     "text": "We pair that exclusive programming with kind of a broad offering of third-party programming, including, you know, second-run titles, deals we just did with Sony, Disney, Universal, and others."
+    },
+    {
+     "t0_ms": 136480,
+     "text": "And in addition to that, we look to new ways to bring third-party content onto the service as well to complement those originals, like we just did with TF1 in France, where you're ingesting a full network of programming."
+    },
+    {
+     "t0_ms": 148900,
+     "text": "Now, all that said, it's really important to remember, roughly 95% of our spend and nearly all of our revenue is focused on that core, where we see a long runway for future growth."
+    },
+    {
+     "t0_ms": 161940,
+     "text": "Now, other areas that you mentioned, these are early stage initiatives meant to explore"
+    },
+    {
+     "t0_ms": 166020,
+     "text": "future programming expansions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 168140,
+   "t1_ms": 174960,
+   "speaker": "Analyst",
+   "text": "And we keep our focus and our investment in those areas very tight because the core is the critical growth engine.",
+   "parts": [
+    {
+     "t0_ms": 168140,
+     "text": "And we keep our focus and our investment in those areas very tight because the core is"
+    },
+    {
+     "t0_ms": 173900,
+     "text": "the critical growth engine."
+    }
+   ]
+  },
+  {
+   "t0_ms": 176180,
+   "t1_ms": 198980,
+   "speaker": "Operator",
+   "text": "Great. Thank you, Ted. Our next question comes from Eric Sheridan of Goldman Sachs. How would you characterize recent engagement trends in the U.S. relative to other geographies? How would you frame any variables such as content, seasonality, competition that might be driving any such divergences in engagement by region?",
+   "parts": [
+    {
+     "t0_ms": 176180,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 176940,
+     "text": "Thank you, Ted."
+    },
+    {
+     "t0_ms": 177960,
+     "text": "Our next question comes from Eric Sheridan of Goldman Sachs."
+    },
+    {
+     "t0_ms": 182960,
+     "text": "How would you characterize recent engagement trends in the U.S. relative to other geographies?"
+    },
+    {
+     "t0_ms": 189000,
+     "text": "How would you frame any variables such as content, seasonality, competition that might be driving any such divergences in engagement by region?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 199760,
+   "t1_ms": 242000,
+   "speaker": "Analyst",
+   "text": "I'll pick up this one and start with just overall engagement, which we think of as the sum total of actual value that we are delivering to members. So this is quality, quantity and variety of viewing that remains healthy and it drives our business model. And the best evidence that we've got that we're delivering that value is churn. We've got healthy retention in every region. Q3 churn, both globally and in the United States, improved year on year. It was better than forecast. It's already industry leading. And the ultimate determinant of are we delivering that value is the reaction to price changes. And those recent price changes that we did, including in the United States, have gone well.",
+   "parts": [
+    {
+     "t0_ms": 199760,
+     "text": "I'll pick up this one and start with just overall engagement, which we think of as the sum total of actual value that we are delivering to members."
+    },
+    {
+     "t0_ms": 210020,
+     "text": "So this is quality, quantity and variety of viewing that remains healthy and it drives our business model."
+    },
+    {
+     "t0_ms": 217080,
+     "text": "And the best evidence that we've got that we're delivering that value is churn."
+    },
+    {
+     "t0_ms": 221600,
+     "text": "We've got healthy retention in every region."
+    },
+    {
+     "t0_ms": 224220,
+     "text": "Q3 churn, both globally and in the United States, improved year on year."
+    },
+    {
+     "t0_ms": 228600,
+     "text": "It was better than forecast."
+    },
+    {
+     "t0_ms": 229760,
+     "text": "It's already industry leading."
+    },
+    {
+     "t0_ms": 231800,
+     "text": "And the ultimate determinant of are we delivering that value is the reaction to price changes."
+    },
+    {
+     "t0_ms": 237820,
+     "text": "And those recent price changes that we did, including in the United States, have gone well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 242240,
+   "t1_ms": 281400,
+   "speaker": "Analyst",
+   "text": "We've seen results that are consistent with past changes and our expectations. And consistent with all that performance, we do plan on delivering our full year guidance. You talked about sort of specific engagement trends by geography. And as you saw from the letter, we had great results in APAC, LATAM, and EMEA. Our local titles from those regions are driving engagement and they're driving business growth. And you can see how our business model works here. We specifically highlighted India, which had a strong slate with a couple titles really, really performing. And as a result, view hours in Q3 in India grew 24% on an absolute basis.",
+   "parts": [
+    {
+     "t0_ms": 242240,
+     "text": "We've seen results that are consistent with past changes and our expectations."
+    },
+    {
+     "t0_ms": 246200,
+     "text": "And consistent with all that performance, we do plan on delivering our full year guidance."
+    },
+    {
+     "t0_ms": 251960,
+     "text": "You talked about sort of specific engagement trends by geography."
+    },
+    {
+     "t0_ms": 255400,
+     "text": "And as you saw from the letter, we had great results in APAC, LATAM, and EMEA."
+    },
+    {
+     "t0_ms": 261519,
+     "text": "Our local titles from those regions are driving engagement and they're driving business growth."
+    },
+    {
+     "t0_ms": 266040,
+     "text": "And you can see how our business model works here."
+    },
+    {
+     "t0_ms": 269220,
+     "text": "We specifically highlighted India, which had a strong slate with a couple titles really, really performing."
+    },
+    {
+     "t0_ms": 274960,
+     "text": "And as a result, view hours in Q3 in India grew 24% on an absolute basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 282020,
+   "t1_ms": 326720,
+   "speaker": "Analyst",
+   "text": "They were also up on a per-member basis, all of which drives membership, a drove membership, and nearly 20% year-over-year revenue growth. So that's a great example of how the core model works. We deliver on member value, and we get the business outcomes that we are looking for. turning to the US, the other region, our engagement is solid and it will allow us to continue to grow as we have for the last several years. But we know that we can do better and that better is our upside. It's our goal to go from very good to great on the performance of that slate. But I just want to note that we are quite excited about what we've got coming. So coming from the US in Q4, on series side, we're already off to a great start with limited series east of",
+   "parts": [
+    {
+     "t0_ms": 282020,
+     "text": "They were also up on a per-member basis, all of which drives membership, a drove membership, and nearly 20% year-over-year revenue growth."
+    },
+    {
+     "t0_ms": 290860,
+     "text": "So that's a great example of how the core model works."
+    },
+    {
+     "t0_ms": 294280,
+     "text": "We deliver on member value, and we get the business outcomes that we are looking for."
+    },
+    {
+     "t0_ms": 298300,
+     "text": "turning to the US, the other region, our engagement is solid and it will allow us to"
+    },
+    {
+     "t0_ms": 303660,
+     "text": "continue to grow as we have for the last several years. But we know that we can do better and that"
+    },
+    {
+     "t0_ms": 309420,
+     "text": "better is our upside. It's our goal to go from very good to great on the performance of that"
+    },
+    {
+     "t0_ms": 315940,
+     "text": "slate. But I just want to note that we are quite excited about what we've got coming. So coming"
+    },
+    {
+     "t0_ms": 321380,
+     "text": "from the US in Q4, on series side, we're already off to a great start with limited series east of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 326720,
+   "t1_ms": 371400,
+   "speaker": "Analyst",
+   "text": "Eden. My whole social group is talking about that. We've got season four of The Diplomat, the best season yet of the show. Later this quarter, we've got The Body. We've got Murder of JonBenet Ramsey. We've got the final season of Emily in Paris. On the film side, we've got further misadventures of Cliff Booth with Brad Pitt, directed by David Fincher, written by Quentin Tarantino. You can't ask for a more star-studded lineup than that. We've got Bad Day with Cameron Diaz. And then we've got Steps, which is our new animated film featuring Ali Wong, Stephanie Hsu, and Amanda Seyfried. In addition to all that, we've got our Christmas Day NFL games, and we'll now have the first Thanksgiving Eve game, which we are going to spice up with U2",
+   "parts": [
+    {
+     "t0_ms": 326720,
+     "text": "Eden. My whole social group is talking about that. We've got season four of The Diplomat,"
+    },
+    {
+     "t0_ms": 331700,
+     "text": "the best season yet of the show. Later this quarter, we've got The Body. We've got Murder"
+    },
+    {
+     "t0_ms": 337460,
+     "text": "of JonBenet Ramsey. We've got the final season of Emily in Paris. On the film side, we've got"
+    },
+    {
+     "t0_ms": 343160,
+     "text": "further misadventures of Cliff Booth with Brad Pitt, directed by David Fincher, written by"
+    },
+    {
+     "t0_ms": 347980,
+     "text": "Quentin Tarantino. You can't ask for a more star-studded lineup than that. We've got Bad"
+    },
+    {
+     "t0_ms": 352920,
+     "text": "Day with Cameron Diaz. And then we've got Steps, which is our new animated film featuring Ali Wong,"
+    },
+    {
+     "t0_ms": 358620,
+     "text": "Stephanie Hsu, and Amanda Seyfried. In addition to all that, we've got our Christmas Day NFL games,"
+    },
+    {
+     "t0_ms": 364820,
+     "text": "and we'll now have the first Thanksgiving Eve game, which we are going to spice up with U2"
+    }
+   ]
+  },
+  {
+   "t0_ms": 371400,
+   "t1_ms": 400800,
+   "speaker": "Analyst",
+   "text": "as the halftime show. And U2 is just, you know, legendary, one of my favorites. And then moving to 2027, our slate includes Narnia. We've got Charlie and the Chocolate Factory. Here comes the flood grown-ups three fifth season of bridgerton third season of wednesday michael fastbender starring in a new series about the kennedys god of woods rabbit rabbit just to name a few we're gonna have nfl games uh one nfl game in the final week of the regular season this is the first time we're doing that and of course the women's world cup in the u.s and canada so there",
+   "parts": [
+    {
+     "t0_ms": 371400,
+     "text": "as the halftime show. And U2 is just, you know, legendary, one of my favorites. And then moving"
+    },
+    {
+     "t0_ms": 376660,
+     "text": "to 2027, our slate includes Narnia. We've got Charlie and the Chocolate Factory. Here comes"
+    },
+    {
+     "t0_ms": 380700,
+     "text": "the flood grown-ups three fifth season of bridgerton third season of wednesday michael"
+    },
+    {
+     "t0_ms": 386360,
+     "text": "fastbender starring in a new series about the kennedys god of woods rabbit rabbit just to name"
+    },
+    {
+     "t0_ms": 390900,
+     "text": "a few we're gonna have nfl games uh one nfl game in the final week of the regular season this is"
+    },
+    {
+     "t0_ms": 396140,
+     "text": "the first time we're doing that and of course the women's world cup in the u.s and canada so there"
+    }
+   ]
+  },
+  {
+   "t0_ms": 400800,
+   "t1_ms": 444820,
+   "speaker": "Operator",
+   "text": "is just a lot to look forward to um thanks craig um that was a impressive uh you know overview of the slate in Q4 in 2027. I think you made Ted proud. But maybe to build on that, we do have a set of questions building off the theme of engagement to some of the executive changes. This next question comes from Rob Sanderson of Lube Capital. As Netflix is a massive and global content production operation, in what ways can a fresh perspective at the top influence the organization. What elements of success from his tenure at Disney are you most optimistic that",
+   "parts": [
+    {
+     "t0_ms": 400800,
+     "text": "is just a lot to look forward to um thanks craig um that was a impressive uh you know overview of"
+    },
+    {
+     "t0_ms": 409400,
+     "text": "the slate in Q4 in 2027. I think you made Ted proud. But maybe to build on that, we do have a"
+    },
+    {
+     "t0_ms": 419520,
+     "text": "set of questions building off the theme of engagement to some of the executive changes."
+    },
+    {
+     "t0_ms": 425100,
+     "text": "This next question comes from Rob Sanderson of Lube Capital. As Netflix is a massive and global"
+    },
+    {
+     "t0_ms": 431900,
+     "text": "content production operation, in what ways can a fresh perspective at the top influence the"
+    },
+    {
+     "t0_ms": 438320,
+     "text": "organization. What elements of success from his tenure at Disney are you most optimistic that"
+    }
+   ]
+  },
+  {
+   "t0_ms": 444820,
+   "t1_ms": 450620,
+   "speaker": "Operator",
+   "text": "Peter Rice can replicate at Netflix? Are there particular aspects you think the content or can",
+   "parts": [
+    {
+     "t0_ms": 444820,
+     "text": "Peter Rice can replicate at Netflix? Are there particular aspects you think the content or can"
+    }
+   ]
+  },
+  {
+   "t0_ms": 450620,
+   "t1_ms": 491940,
+   "speaker": "Analyst",
+   "text": "perform better under new leadership? Well, Rob, that's a great question. And first, let me start by taking this opportunity to thank Bella Bejeria for all of her incredible contributions to Netflix. Bella had an incredible decade-long run here. She put a lot of great hits on the board. She led the teams through a lot of expansions of new types of content. She also did the hard work of building this incredible international team who's been making local-for-local content around the world, which has become a great competitive differentiator for us over the last decade. So I just want to take that moment to thank Bella. And also, you know, calling back to that great list you just heard from Greg,",
+   "parts": [
+    {
+     "t0_ms": 450620,
+     "text": "perform better under new leadership? Well, Rob, that's a great question. And first, let me start"
+    },
+    {
+     "t0_ms": 456960,
+     "text": "by taking this opportunity to thank Bella Bejeria for all of her incredible contributions to Netflix."
+    },
+    {
+     "t0_ms": 464340,
+     "text": "Bella had an incredible decade-long run here."
+    },
+    {
+     "t0_ms": 467560,
+     "text": "She put a lot of great hits on the board."
+    },
+    {
+     "t0_ms": 469620,
+     "text": "She led the teams through a lot of expansions of new types of content."
+    },
+    {
+     "t0_ms": 473400,
+     "text": "She also did the hard work of building this incredible international team who's been making local-for-local content around the world,"
+    },
+    {
+     "t0_ms": 480480,
+     "text": "which has become a great competitive differentiator for us over the last decade."
+    },
+    {
+     "t0_ms": 484560,
+     "text": "So I just want to take that moment to thank Bella."
+    },
+    {
+     "t0_ms": 488700,
+     "text": "And also, you know, calling back to that great list you just heard from Greg,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 491940,
+   "t1_ms": 536760,
+   "speaker": "Analyst",
+   "text": "there's a lot to be excited about but i know that we could do better and we want to build on that momentum now we've seen an opportunity to take our slate to the next level especially in the u.s where we can have an outsized impact when we create a big buzzy show that members love and talk about all over the world now i'm i'm incredibly thrilled to have peter rice joining as our new chief content officer i mean what give you some history is i've known peter for about 15 years. And I've got to tell you, the outpouring of excitement for him about him coming to Netflix from across the industry and from the creative community has been nothing short of overwhelming. He's one of the really rare people in the industry who's led TV networks, movie studios,",
+   "parts": [
+    {
+     "t0_ms": 491940,
+     "text": "there's a lot to be excited about but i know that we could do better and we want to build on that"
+    },
+    {
+     "t0_ms": 498080,
+     "text": "momentum now we've seen an opportunity to take our slate to the next level especially in the u.s"
+    },
+    {
+     "t0_ms": 503840,
+     "text": "where we can have an outsized impact when we create a big buzzy show that members love and"
+    },
+    {
+     "t0_ms": 509300,
+     "text": "talk about all over the world now i'm i'm incredibly thrilled to have peter rice joining"
+    },
+    {
+     "t0_ms": 514940,
+     "text": "as our new chief content officer i mean what give you some history is i've known peter for about 15"
+    },
+    {
+     "t0_ms": 520080,
+     "text": "years. And I've got to tell you, the outpouring of excitement for him about him coming to Netflix"
+    },
+    {
+     "t0_ms": 525120,
+     "text": "from across the industry and from the creative community has been nothing short of overwhelming."
+    },
+    {
+     "t0_ms": 531420,
+     "text": "He's one of the really rare people in the industry who's led TV networks, movie studios,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 537020,
+   "t1_ms": 581920,
+   "speaker": "Analyst",
+   "text": "streaming services. His creative instinct and his business acumen are remarkable. He's really an at-scale quality and volume operator and he does it across every imaginable form of entertainment you know network prestige cable streaming theatrical and tv films and live sports so but most importantly rob peter rice understands talent relations and in a competitive market creative talent have choices of where they want to work and we want netflix to always be the place that they love to do the best work of their life. Peter is the exact right person to lead those efforts in the U.S. and around the world. Now, that's a key aspect of what I believe Peter",
+   "parts": [
+    {
+     "t0_ms": 537020,
+     "text": "streaming services. His creative instinct and his business acumen are remarkable. He's really an"
+    },
+    {
+     "t0_ms": 544820,
+     "text": "at-scale quality and volume operator and he does it across every imaginable form of entertainment"
+    },
+    {
+     "t0_ms": 551060,
+     "text": "you know network prestige cable streaming theatrical and tv films and live sports"
+    },
+    {
+     "t0_ms": 557840,
+     "text": "so but most importantly rob peter rice understands talent relations and in a competitive market"
+    },
+    {
+     "t0_ms": 565780,
+     "text": "creative talent have choices of where they want to work and we want netflix to always be the place"
+    },
+    {
+     "t0_ms": 571400,
+     "text": "that they love to do the best work of their life."
+    },
+    {
+     "t0_ms": 574760,
+     "text": "Peter is the exact right person to lead those efforts"
+    },
+    {
+     "t0_ms": 577460,
+     "text": "in the U.S. and around the world."
+    },
+    {
+     "t0_ms": 579660,
+     "text": "Now, that's a key aspect of what I believe Peter"
+    }
+   ]
+  },
+  {
+   "t0_ms": 581920,
+   "t1_ms": 583800,
+   "speaker": "Analyst",
+   "text": "can improve on looking forward.",
+   "parts": [
+    {
+     "t0_ms": 581920,
+     "text": "can improve on looking forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 584900,
+   "t1_ms": 617120,
+   "speaker": "Operator",
+   "text": "Thanks, Ted. We have a follow-up question that's on the same topic. This comes from Matt Condon of Citizens Bank. With Peter Rice stepping in as chief content officer, what do you see as the biggest opportunities to evolve Netflix's content strategy under his leadership. Should we anticipate any meaningful changes in the types of content you prioritize, how you allocate content spending, or your overall approach to driving engagement? Or is this more about improving execution within the existing strategy?",
+   "parts": [
+    {
+     "t0_ms": 584900,
+     "text": "Thanks, Ted."
+    },
+    {
+     "t0_ms": 586660,
+     "text": "We have a follow-up question that's on the same topic."
+    },
+    {
+     "t0_ms": 590320,
+     "text": "This comes from Matt Condon of Citizens Bank."
+    },
+    {
+     "t0_ms": 593660,
+     "text": "With Peter Rice stepping in as chief content officer,"
+    },
+    {
+     "t0_ms": 596920,
+     "text": "what do you see as the biggest opportunities"
+    },
+    {
+     "t0_ms": 598720,
+     "text": "to evolve Netflix's content strategy"
+    },
+    {
+     "t0_ms": 601100,
+     "text": "under his leadership. Should we anticipate any meaningful changes in the types of content you"
+    },
+    {
+     "t0_ms": 606440,
+     "text": "prioritize, how you allocate content spending, or your overall approach to driving engagement?"
+    },
+    {
+     "t0_ms": 613000,
+     "text": "Or is this more about improving execution within the existing strategy?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 617920,
+   "t1_ms": 658060,
+   "speaker": "Analyst",
+   "text": "Yeah, thanks, Matthew. Look, our business and our business flywheel are working. There's no need for a fundamental shift in the strategy. We do need better execution in the U.S. Our content around the world is largely working, as you heard a couple examples there from Greg. But we see titles across Latin America, EMEA, APAC, driving engagement, subscriber growth, revenue, and profit. Now, the U.S. is also working. It's just not growing as fast as it could or as fast as we'd like. So we had some really solid doubles and triples this year. But the other territories count on some of those titles being home runs so that they'll travel around the world. So we really have got to, you know, we're focusing on that execution.",
+   "parts": [
+    {
+     "t0_ms": 617920,
+     "text": "Yeah, thanks, Matthew. Look, our business and our business flywheel are working."
+    },
+    {
+     "t0_ms": 622640,
+     "text": "There's no need for a fundamental shift in the strategy. We do need better execution in the U.S."
+    },
+    {
+     "t0_ms": 628000,
+     "text": "Our content around the world is largely working, as you heard a couple examples there from Greg."
+    },
+    {
+     "t0_ms": 632640,
+     "text": "But we see titles across Latin America, EMEA, APAC, driving engagement, subscriber growth, revenue, and profit."
+    },
+    {
+     "t0_ms": 640040,
+     "text": "Now, the U.S. is also working."
+    },
+    {
+     "t0_ms": 642100,
+     "text": "It's just not growing as fast as it could or as fast as we'd like."
+    },
+    {
+     "t0_ms": 645820,
+     "text": "So we had some really solid doubles and triples this year."
+    },
+    {
+     "t0_ms": 649360,
+     "text": "But the other territories count on some of those titles being home runs so that they'll travel around the world."
+    },
+    {
+     "t0_ms": 654840,
+     "text": "So we really have got to, you know, we're focusing on that execution."
+    }
+   ]
+  },
+  {
+   "t0_ms": 658920,
+   "t1_ms": 700260,
+   "speaker": "Analyst",
+   "text": "And when we talk about, like, success in APAC, India is a great example, but that success is also happening in Korea and Japan. And when you look to EMEA, we look to the Nordics, which is a very mature market for us, and that content slate is killing it there. And it's proof that when we have the right focus, make the right choices, and deliver creatively, we can drive outsized impact on the business around the world. Now, Peter brings expertise in both art and commerce, television and film. It's kind of that exact balanced skill set that will help guide us through our next chapter. Now, there's a ton to be excited about in our Q4 slate and a ton to be excited about in 2027.",
+   "parts": [
+    {
+     "t0_ms": 658920,
+     "text": "And when we talk about, like, success in APAC, India is a great example, but that success is also happening in Korea and Japan."
+    },
+    {
+     "t0_ms": 667020,
+     "text": "And when you look to EMEA, we look to the Nordics, which is a very mature market for us, and that content slate is killing it there."
+    },
+    {
+     "t0_ms": 674020,
+     "text": "And it's proof that when we have the right focus, make the right choices, and deliver creatively, we can drive outsized impact on the business around the world."
+    },
+    {
+     "t0_ms": 683300,
+     "text": "Now, Peter brings expertise in both art and commerce, television and film."
+    },
+    {
+     "t0_ms": 690420,
+     "text": "It's kind of that exact balanced skill set that will help guide us through our next chapter."
+    },
+    {
+     "t0_ms": 695540,
+     "text": "Now, there's a ton to be excited about in our Q4 slate and a ton to be excited about in 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 700260,
+   "t1_ms": 709400,
+   "speaker": "Analyst",
+   "text": "And I believe that Peter will actually be able to have an impact on that project, those projects that are in the works, even in the short term. So we're very excited to have him join.",
+   "parts": [
+    {
+     "t0_ms": 700260,
+     "text": "And I believe that Peter will actually be able to have an impact on that project, those projects that are in the works, even in the short term."
+    },
+    {
+     "t0_ms": 707660,
+     "text": "So we're very excited to have him join."
+    }
+   ]
+  },
+  {
+   "t0_ms": 710580,
+   "t1_ms": 732480,
+   "speaker": "Operator",
+   "text": "Thanks, Ted. The next question comes from Dan Kernos of StoneX. The question is, I wanted to touch on your recent headcount reductions, which is the largest since 2022. I recognize that you may not want to get into specifics, but how should we think about the thinking behind it?",
+   "parts": [
+    {
+     "t0_ms": 710580,
+     "text": "Thanks, Ted."
+    },
+    {
+     "t0_ms": 711960,
+     "text": "The next question comes from Dan Kernos of StoneX."
+    },
+    {
+     "t0_ms": 717180,
+     "text": "The question is, I wanted to touch on your recent headcount reductions, which is the largest since 2022."
+    },
+    {
+     "t0_ms": 724400,
+     "text": "I recognize that you may not want to get into specifics, but how should we think about the thinking behind it?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 733580,
+   "t1_ms": 773800,
+   "speaker": "Analyst",
+   "text": "I can provide some color here. Go back to we've got a big and ambitious mission. we aspire to entertain literally the whole world. Now, fulfilling on that big mission requires us to be incredibly disciplined about where we focus, where we invest, how our people work, where resources go. And when you've driven considerable top-line growth, as we have over the last several years, and you're in a highly dynamic market that's constantly changing, I don't think it's unusual then to find that there are some areas that we built quickly and we ended up over-invested in, or there are opportunities to adjust how we are operating to best drive the",
+   "parts": [
+    {
+     "t0_ms": 733580,
+     "text": "I can provide some color here."
+    },
+    {
+     "t0_ms": 736740,
+     "text": "Go back to we've got a big and ambitious mission."
+    },
+    {
+     "t0_ms": 739260,
+     "text": "we aspire to entertain literally the whole world. Now, fulfilling on that big mission requires us"
+    },
+    {
+     "t0_ms": 746560,
+     "text": "to be incredibly disciplined about where we focus, where we invest, how our people work,"
+    },
+    {
+     "t0_ms": 751220,
+     "text": "where resources go. And when you've driven considerable top-line growth, as we have"
+    },
+    {
+     "t0_ms": 756720,
+     "text": "over the last several years, and you're in a highly dynamic market that's constantly changing,"
+    },
+    {
+     "t0_ms": 761480,
+     "text": "I don't think it's unusual then to find that there are some areas that we built quickly and we ended"
+    },
+    {
+     "t0_ms": 767240,
+     "text": "up over-invested in, or there are opportunities to adjust how we are operating to best drive the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 773800,
+   "t1_ms": 815680,
+   "speaker": "Analyst",
+   "text": "business through the next stage of growth. Now, we prefer to make these adjustments organically and iteratively. That's the best way to do it. We think it's our mission basically to constantly be trying to tune and adjust. But sometimes the team needs a forcing function. The company needs a mandate that requires the whole organization to ask hard questions about where can we be more efficient? Where can we make tough decisions about where we can trim or redirect how we're investing? We do not take these decisions lightly, but we also believe we have a responsibility to make hard trade-offs in service of our members, our partners, our employees, our investors,",
+   "parts": [
+    {
+     "t0_ms": 773800,
+     "text": "business through the next stage of growth. Now, we prefer to make these adjustments organically"
+    },
+    {
+     "t0_ms": 780620,
+     "text": "and iteratively. That's the best way to do it. We think it's our mission basically to constantly be"
+    },
+    {
+     "t0_ms": 785500,
+     "text": "trying to tune and adjust. But sometimes the team needs a forcing function. The company needs a"
+    },
+    {
+     "t0_ms": 792040,
+     "text": "mandate that requires the whole organization to ask hard questions about where can we be more"
+    },
+    {
+     "t0_ms": 797780,
+     "text": "efficient? Where can we make tough decisions about where we can trim or redirect how we're"
+    },
+    {
+     "t0_ms": 802540,
+     "text": "investing? We do not take these decisions lightly, but we also believe we have a responsibility to"
+    },
+    {
+     "t0_ms": 810380,
+     "text": "make hard trade-offs in service of our members, our partners, our employees, our investors,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 815680,
+   "t1_ms": 820860,
+   "speaker": "Analyst",
+   "text": "and ultimately our long-term growth. And that was the simple thinking behind it and what motivated",
+   "parts": [
+    {
+     "t0_ms": 815680,
+     "text": "and ultimately our long-term growth. And that was the simple thinking behind it and what motivated"
+    }
+   ]
+  },
+  {
+   "t0_ms": 820860,
+   "t1_ms": 839920,
+   "speaker": "Operator",
+   "text": "these recent changes. Thanks, Greg. Building off of that, our next question comes from Doug Anmuth of JP Morgan. Can Netflix increase revenue growth at a double-digit pace in 2027? What are the key levers to get there, and is it sustainable?",
+   "parts": [
+    {
+     "t0_ms": 820860,
+     "text": "these recent changes. Thanks, Greg. Building off of that, our next question comes from Doug"
+    },
+    {
+     "t0_ms": 829060,
+     "text": "Anmuth of JP Morgan. Can Netflix increase revenue growth at a double-digit pace in"
+    },
+    {
+     "t0_ms": 835160,
+     "text": "2027? What are the key levers to get there, and is it sustainable?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 841720,
+   "t1_ms": 881640,
+   "speaker": "Analyst",
+   "text": "Spencer, I'll take this one. Got to contribute a little bit to this call. So, Doug, I appreciate the question. We're delivering strong growth in 2026 to start with, and that's because all three revenue levers that we have, they're working and they're contributing. That's member growth, pricing, and ads. And we expect to deliver strong revenue growth into 2027 as well with those same three levers. And we know there's questions about view hour growth. We've spoken about that. Greg and Ted talked about it just now. And to be clear, we want to grow view hours faster. We're not satisfied. We're working on it. But again, as both Greg and Ted articulated, that would be an accelerant",
+   "parts": [
+    {
+     "t0_ms": 841720,
+     "text": "Spencer, I'll take this one. Got to contribute a little bit to this call."
+    },
+    {
+     "t0_ms": 846660,
+     "text": "So, Doug, I appreciate the question."
+    },
+    {
+     "t0_ms": 848640,
+     "text": "We're delivering strong growth in 2026 to start with,"
+    },
+    {
+     "t0_ms": 852000,
+     "text": "and that's because all three revenue levers that we have,"
+    },
+    {
+     "t0_ms": 854500,
+     "text": "they're working and they're contributing."
+    },
+    {
+     "t0_ms": 855860,
+     "text": "That's member growth, pricing, and ads."
+    },
+    {
+     "t0_ms": 858440,
+     "text": "And we expect to deliver strong revenue growth into 2027 as well"
+    },
+    {
+     "t0_ms": 862860,
+     "text": "with those same three levers."
+    },
+    {
+     "t0_ms": 864620,
+     "text": "And we know there's questions about view hour growth."
+    },
+    {
+     "t0_ms": 867640,
+     "text": "We've spoken about that."
+    },
+    {
+     "t0_ms": 869000,
+     "text": "Greg and Ted talked about it just now."
+    },
+    {
+     "t0_ms": 870900,
+     "text": "And to be clear, we want to grow view hours faster."
+    },
+    {
+     "t0_ms": 874020,
+     "text": "We're not satisfied."
+    },
+    {
+     "t0_ms": 875000,
+     "text": "We're working on it. But again, as both Greg and Ted articulated, that would be an accelerant"
+    }
+   ]
+  },
+  {
+   "t0_ms": 881640,
+   "t1_ms": 925260,
+   "speaker": "Analyst",
+   "text": "to what is already underlying healthy revenue growth. We saw that in India. We just talked about that strong slate, big bump in view hour growth, nearly 20% revenue growth. And that's just one of those multiple success stories across regions that Ted also mentioned. But even with modest view hour growth, the modest view hour growth that we're delivering, we're delivering that increasing value to our members across quality, quantity, and variety viewing with a steady drumbeat of big hits in most regions. And that's really the great thing about our model. It's that stability of our growth engine. We're not overly dependent on any kind of one title, nor kind of outsized performance by any one region to deliver healthy growth.",
+   "parts": [
+    {
+     "t0_ms": 881640,
+     "text": "to what is already underlying healthy revenue growth. We saw that in India. We just talked"
+    },
+    {
+     "t0_ms": 886800,
+     "text": "about that strong slate, big bump in view hour growth, nearly 20% revenue growth. And that's"
+    },
+    {
+     "t0_ms": 892920,
+     "text": "just one of those multiple success stories across regions that Ted also mentioned. But even with"
+    },
+    {
+     "t0_ms": 899120,
+     "text": "modest view hour growth, the modest view hour growth that we're delivering, we're delivering"
+    },
+    {
+     "t0_ms": 904480,
+     "text": "that increasing value to our members across quality, quantity, and variety viewing with a"
+    },
+    {
+     "t0_ms": 909500,
+     "text": "steady drumbeat of big hits in most regions. And that's really the great thing about our model."
+    },
+    {
+     "t0_ms": 915740,
+     "text": "It's that stability of our growth engine. We're not overly dependent on any kind of one title,"
+    },
+    {
+     "t0_ms": 921060,
+     "text": "nor kind of outsized performance by any one region to deliver healthy growth."
+    }
+   ]
+  },
+  {
+   "t0_ms": 925920,
+   "t1_ms": 940880,
+   "speaker": "Analyst",
+   "text": "So, you know, it's premature to issue full year 2027 guidance. We'll do that on our kind of next call or our Q4 call. But our financial objectives are unchanged. We look to sustain double-digit revenue growth. We look to expand margins. And we look to increase free cash flow.",
+   "parts": [
+    {
+     "t0_ms": 925920,
+     "text": "So, you know, it's premature to issue full year 2027 guidance."
+    },
+    {
+     "t0_ms": 929960,
+     "text": "We'll do that on our kind of next call or our Q4 call."
+    },
+    {
+     "t0_ms": 933080,
+     "text": "But our financial objectives are unchanged."
+    },
+    {
+     "t0_ms": 935320,
+     "text": "We look to sustain double-digit revenue growth."
+    },
+    {
+     "t0_ms": 937860,
+     "text": "We look to expand margins."
+    },
+    {
+     "t0_ms": 939220,
+     "text": "And we look to increase free cash flow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 942340,
+   "t1_ms": 969980,
+   "speaker": "Operator",
+   "text": "Thanks, Spence. The next question probably falls in your court as well. This one comes from Michael Morris of Guggenheim. the fourth quarter guidance includes about 120 basis points of cost tied to the headcount reductions. What annual run rate savings do you expect and how much of that should we assume is reinvested versus supporting operating margin expansion in 2027? Well, made to the point again",
+   "parts": [
+    {
+     "t0_ms": 942340,
+     "text": "Thanks, Spence."
+    },
+    {
+     "t0_ms": 943880,
+     "text": "The next question probably falls in your court as well."
+    },
+    {
+     "t0_ms": 946600,
+     "text": "This one comes from Michael Morris of Guggenheim."
+    },
+    {
+     "t0_ms": 949840,
+     "text": "the fourth quarter guidance includes about 120 basis points of cost tied to the headcount"
+    },
+    {
+     "t0_ms": 956620,
+     "text": "reductions. What annual run rate savings do you expect and how much of that should we assume is"
+    },
+    {
+     "t0_ms": 962080,
+     "text": "reinvested versus supporting operating margin expansion in 2027? Well, made to the point again"
+    }
+   ]
+  },
+  {
+   "t0_ms": 969980,
+   "t1_ms": 1006700,
+   "speaker": "Analyst",
+   "text": "in terms of specific guidance, we're not going to specifically quantify the expense impact in 2027. But as we did note in our letter, that work, that hard work that Greg walked through, that prioritization ensures that we can continue to invest aggressively into the highest impact areas to improve our service, drive innovation, drive growth. So we're really focused on finishing this year strong. We'll provide 2027 guidance in January, including that margin guidance. But there's no change to our philosophy of obviously investing in our business to drive that growth and innovation and also steadily growing margin each year.",
+   "parts": [
+    {
+     "t0_ms": 969980,
+     "text": "in terms of specific guidance, we're not going to specifically quantify the expense impact in"
+    },
+    {
+     "t0_ms": 974600,
+     "text": "2027. But as we did note in our letter, that work, that hard work that Greg walked through,"
+    },
+    {
+     "t0_ms": 980700,
+     "text": "that prioritization ensures that we can continue to invest aggressively into the highest impact"
+    },
+    {
+     "t0_ms": 986060,
+     "text": "areas to improve our service, drive innovation, drive growth. So we're really focused on finishing"
+    },
+    {
+     "t0_ms": 992540,
+     "text": "this year strong. We'll provide 2027 guidance in January, including that margin guidance. But"
+    },
+    {
+     "t0_ms": 998740,
+     "text": "there's no change to our philosophy of obviously investing in our business to drive that growth"
+    },
+    {
+     "t0_ms": 1003860,
+     "text": "and innovation and also steadily growing margin each year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1007780,
+   "t1_ms": 1050680,
+   "speaker": "Operator",
+   "text": "Thanks, Spence. We have two questions that are somewhat related, so I'll bunch them together. The first version comes from Vikram Kesavabola of Baird. How has the integration with TF1 in France performed in its first few months? How has this experience impacted your perspective on distributing other services through Netflix? and what are the guidelines you are using to evaluate these types of partnerships going forward? The related question comes from Matthew Condon of Citizens Bank. As you think about the evolution of the Netflix offering, what is your appetite for third-party content partnerships or",
+   "parts": [
+    {
+     "t0_ms": 1007780,
+     "text": "Thanks, Spence."
+    },
+    {
+     "t0_ms": 1009400,
+     "text": "We have two questions that are somewhat related, so I'll bunch them together."
+    },
+    {
+     "t0_ms": 1014980,
+     "text": "The first version comes from Vikram Kesavabola of Baird."
+    },
+    {
+     "t0_ms": 1020580,
+     "text": "How has the integration with TF1 in France performed in its first few months?"
+    },
+    {
+     "t0_ms": 1025880,
+     "text": "How has this experience impacted your perspective on distributing other services through Netflix?"
+    },
+    {
+     "t0_ms": 1031560,
+     "text": "and what are the guidelines you are using to evaluate these types of partnerships going"
+    },
+    {
+     "t0_ms": 1036359,
+     "text": "forward? The related question comes from Matthew Condon of Citizens Bank. As you think about the"
+    },
+    {
+     "t0_ms": 1044359,
+     "text": "evolution of the Netflix offering, what is your appetite for third-party content partnerships or"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1050680,
+   "t1_ms": 1061840,
+   "speaker": "Operator",
+   "text": "add-on services that could be integrated into the Netflix experience? Do you see an opportunity to broaden the value of the platform through aggregation without necessarily owning or",
+   "parts": [
+    {
+     "t0_ms": 1050680,
+     "text": "add-on services that could be integrated into the Netflix experience? Do you see an opportunity to"
+    },
+    {
+     "t0_ms": 1056860,
+     "text": "broaden the value of the platform through aggregation without necessarily owning or"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1061840,
+   "t1_ms": 1101320,
+   "speaker": "Analyst",
+   "text": "directly licensing all that content yeah maybe to start uh with the answer to this one just stepping back with a little context because i know these seem like new and novel techniques for us or approaches but they actually serve uh a goal that's been with us for you know it was long going way back to when we started the streaming service and that's been consistently expand the entertainment offering provide more value to members. Our members consistently tell us that they want more from us. We see that in the preferences of how they use the service. So delivering on that desire over many, many years has been a goal. And I'd say it's been the primary",
+   "parts": [
+    {
+     "t0_ms": 1061840,
+     "text": "directly licensing all that content yeah maybe to start uh with the answer to this one just"
+    },
+    {
+     "t0_ms": 1069340,
+     "text": "stepping back with a little context because i know these seem like new and novel techniques"
+    },
+    {
+     "t0_ms": 1073500,
+     "text": "for us or approaches but they actually serve uh a goal that's been with us for you know it was long"
+    },
+    {
+     "t0_ms": 1079800,
+     "text": "going way back to when we started the streaming service and that's been consistently expand the"
+    },
+    {
+     "t0_ms": 1084960,
+     "text": "entertainment offering provide more value to members. Our members consistently tell us that"
+    },
+    {
+     "t0_ms": 1090400,
+     "text": "they want more from us. We see that in the preferences of how they use the service. So"
+    },
+    {
+     "t0_ms": 1095600,
+     "text": "delivering on that desire over many, many years has been a goal. And I'd say it's been the primary"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1101320,
+   "t1_ms": 1144620,
+   "speaker": "Analyst",
+   "text": "driver of our industry-leading subscriber reach and retention. So we are totally focused on that. We are always seeking new ways to expand our offering, new ways to provide more professionally produced film, TV, live events, more core entertainment value. And that means we do things like licensing. It also means like we look for new creative partnerships like we did with TF1. Maybe one second on why partners are interested in working with us. We have broad distribution reach. We've got a top of class product experience, which is a good home for all the work that they do and the content that they create. We've got industry leading monetization",
+   "parts": [
+    {
+     "t0_ms": 1101320,
+     "text": "driver of our industry-leading subscriber reach and retention. So we are totally focused on that."
+    },
+    {
+     "t0_ms": 1108200,
+     "text": "We are always seeking new ways to expand our offering, new ways to provide more professionally"
+    },
+    {
+     "t0_ms": 1113680,
+     "text": "produced film, TV, live events, more core entertainment value. And that means we do"
+    },
+    {
+     "t0_ms": 1121540,
+     "text": "things like licensing. It also means like we look for new creative partnerships like we did"
+    },
+    {
+     "t0_ms": 1127540,
+     "text": "with TF1. Maybe one second on why partners are interested in working with us. We have broad"
+    },
+    {
+     "t0_ms": 1134960,
+     "text": "distribution reach. We've got a top of class product experience, which is a good home for"
+    },
+    {
+     "t0_ms": 1139980,
+     "text": "all the work that they do and the content that they create. We've got industry leading monetization"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1144620,
+   "t1_ms": 1185780,
+   "speaker": "Analyst",
+   "text": "and all of that makes us a great partner for studios, for networks, for creative talent. We can find new audiences. We can drive incremental revenue for them. That's why they want to partner with us. So specifically to your question on TF1, we are very pleased with the early performance that we've seen in that integration. We have been able to enhance an already very compelling service for our French members with even more local popular French programming. We've seamlessly integrated the TF1 product experience in a way where it supports their brand, but it also keeps things distinct. And we think this approach is advantageous for",
+   "parts": [
+    {
+     "t0_ms": 1144620,
+     "text": "and all of that makes us a great partner for studios, for networks, for creative talent."
+    },
+    {
+     "t0_ms": 1151380,
+     "text": "We can find new audiences. We can drive incremental revenue for them. That's why"
+    },
+    {
+     "t0_ms": 1156920,
+     "text": "they want to partner with us. So specifically to your question on TF1, we are very pleased with"
+    },
+    {
+     "t0_ms": 1163820,
+     "text": "the early performance that we've seen in that integration. We have been able to enhance an"
+    },
+    {
+     "t0_ms": 1169440,
+     "text": "already very compelling service for our French members with even more local popular French"
+    },
+    {
+     "t0_ms": 1174960,
+     "text": "programming. We've seamlessly integrated the TF1 product experience in a way where it supports"
+    },
+    {
+     "t0_ms": 1180800,
+     "text": "their brand, but it also keeps things distinct. And we think this approach is advantageous for"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1185780,
+   "t1_ms": 1229080,
+   "speaker": "Analyst",
+   "text": "both them, supports their value proposition and us. It's good for the customer too, because it signals what they're getting. And we are growing the TF1 viewing on our service every month. So we're constantly improving that product experience. We see a whole runway and line of improvement that we know we'll be able to fulfill from our previous history about being able to improve these things. Additionally, the early analysis and testing that we've done indicates that the TF1 engagement is incremental to our platform. So essentially, all things are working about that partnership. As for what to expect going forward, we certainly believe we can replicate similar positive results with other partners where this approach meets the needs of the partner as well.",
+   "parts": [
+    {
+     "t0_ms": 1185780,
+     "text": "both them, supports their value proposition and us. It's good for the customer too, because it"
+    },
+    {
+     "t0_ms": 1190780,
+     "text": "signals what they're getting. And we are growing the TF1 viewing on our service every month. So"
+    },
+    {
+     "t0_ms": 1196560,
+     "text": "we're constantly improving that product experience. We see a whole runway and line of improvement"
+    },
+    {
+     "t0_ms": 1201960,
+     "text": "that we know we'll be able to fulfill from our previous history about being able to improve"
+    },
+    {
+     "t0_ms": 1206100,
+     "text": "these things. Additionally, the early analysis and testing that we've done indicates that the"
+    },
+    {
+     "t0_ms": 1211420,
+     "text": "TF1 engagement is incremental to our platform. So essentially, all things are working about that"
+    },
+    {
+     "t0_ms": 1217360,
+     "text": "partnership. As for what to expect going forward, we certainly believe we can replicate similar"
+    },
+    {
+     "t0_ms": 1223400,
+     "text": "positive results with other partners where this approach meets the needs of the partner as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1229420,
+   "t1_ms": 1269980,
+   "speaker": "Analyst",
+   "text": "Those are opportunities that we're going to sequence. We'll prioritize with all the other growth opportunities we have. We have a lot going on that we're going after. And then for the second question, add-on services, by which I believe that Matthew was asking about, which I think are like other subscription or hybrid ads, subscription services that the customer could choose to add to their offering. Those would be yet another way to expand our entertainment offering. We think that the same core benefits to the partner, incremental reach, incremental monetization, would apply in that model as well. We also think that there's much about the product experience that we built that works for, that will work, that would work for that kind of service integration as",
+   "parts": [
+    {
+     "t0_ms": 1229420,
+     "text": "Those are opportunities that we're going to sequence. We'll prioritize with all the other"
+    },
+    {
+     "t0_ms": 1233760,
+     "text": "growth opportunities we have. We have a lot going on that we're going after. And then for the second"
+    },
+    {
+     "t0_ms": 1238880,
+     "text": "question, add-on services, by which I believe that Matthew was asking about, which I think are like"
+    },
+    {
+     "t0_ms": 1245000,
+     "text": "other subscription or hybrid ads, subscription services that the customer could choose to add"
+    },
+    {
+     "t0_ms": 1249980,
+     "text": "to their offering. Those would be yet another way to expand our entertainment offering. We think"
+    },
+    {
+     "t0_ms": 1255460,
+     "text": "that the same core benefits to the partner, incremental reach, incremental monetization,"
+    },
+    {
+     "t0_ms": 1260020,
+     "text": "would apply in that model as well. We also think that there's much about the product experience"
+    },
+    {
+     "t0_ms": 1264620,
+     "text": "that we built that works for, that will work, that would work for that kind of service integration as"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1269980,
+   "t1_ms": 1283940,
+   "speaker": "Analyst",
+   "text": "well. So there's nothing to announce today, but you should expect that we are going to continue to find new ways to bring more core entertainment value to our members thanks greg uh i'll uh follow",
+   "parts": [
+    {
+     "t0_ms": 1269980,
+     "text": "well. So there's nothing to announce today, but you should expect that we are going to continue"
+    },
+    {
+     "t0_ms": 1275780,
+     "text": "to find new ways to bring more core entertainment value to our members thanks greg uh i'll uh follow"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1283940,
+   "t1_ms": 1315520,
+   "speaker": "Operator",
+   "text": "up next with a couple questions on uh content from sean diffley of morgan stanley uh please discuss how you are approaching theatrical going forward i believe you have released 30 movies in the box office uh excited for clip booth with imax and narnia next year do you see the potential to build more buzz by going to theaters first or is it very much a project by project decision and what is the right amount of time uh with respect to the theatrical window that's a great",
+   "parts": [
+    {
+     "t0_ms": 1283940,
+     "text": "up next with a couple questions on uh content from sean diffley of morgan stanley uh please"
+    },
+    {
+     "t0_ms": 1290400,
+     "text": "discuss how you are approaching theatrical going forward i believe you have released 30 movies in"
+    },
+    {
+     "t0_ms": 1296460,
+     "text": "the box office uh excited for clip booth with imax and narnia next year do you see the potential to"
+    },
+    {
+     "t0_ms": 1302720,
+     "text": "build more buzz by going to theaters first or is it very much a project by project decision"
+    },
+    {
+     "t0_ms": 1308960,
+     "text": "and what is the right amount of time uh with respect to the theatrical window that's a great"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1315520,
+   "t1_ms": 1360400,
+   "speaker": "Analyst",
+   "text": "question great set great set of questions i should say uh but reminder we are a streaming first business that is our core uh but we consider every time we have a new film the film itself the audience for the film and the filmmaker when we're trying to come up with the release plan And, yes, we're going to release about 30 films theatrically this year, pretty much what we did last year. And each one of these have their own kind of bespoke release pattern. So we start off by looking at the projects we have, asking ourselves, how do we best serve movie lovers, many of whom are our members, who want to see that movie in a theater? And how do we do it without actually harming the view value to Netflix? So part of that is looking at specialty theatrical releasing.",
+   "parts": [
+    {
+     "t0_ms": 1315520,
+     "text": "question great set great set of questions i should say uh but reminder we are a streaming"
+    },
+    {
+     "t0_ms": 1320540,
+     "text": "first business that is our core uh but we consider every time we have a new film the film itself"
+    },
+    {
+     "t0_ms": 1326820,
+     "text": "the audience for the film and the filmmaker when we're trying to come up with the release plan"
+    },
+    {
+     "t0_ms": 1331480,
+     "text": "And, yes, we're going to release about 30 films theatrically this year, pretty much what we did last year."
+    },
+    {
+     "t0_ms": 1336960,
+     "text": "And each one of these have their own kind of bespoke release pattern."
+    },
+    {
+     "t0_ms": 1340980,
+     "text": "So we start off by looking at the projects we have, asking ourselves, how do we best serve movie lovers, many of whom are our members, who want to see that movie in a theater?"
+    },
+    {
+     "t0_ms": 1351620,
+     "text": "And how do we do it without actually harming the view value to Netflix?"
+    },
+    {
+     "t0_ms": 1356840,
+     "text": "So part of that is looking at specialty theatrical releasing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1360400,
+   "t1_ms": 1402080,
+   "speaker": "Analyst",
+   "text": "um we've we've done that for the better part of a decade and at the other end of the spectrum are the big family movies that get a ton of re-watching as well as first time streaming on netflix and we look at these two categories of film and treat them totally differently so for specialty releases we're doing a 47 day window platform theatrical release for la bola negra right right now it's fantastic spanish language film um and then we also upcoming have a theatrical release for mosquito ball a bit shorter uh and we're partnering with imax to release the david fincher film the further adventures misadventures of clip booth worth repeating over and over again because it's",
+   "parts": [
+    {
+     "t0_ms": 1360400,
+     "text": "um we've we've done that for the better part of a decade and at the other end of the spectrum are"
+    },
+    {
+     "t0_ms": 1366260,
+     "text": "the big family movies that get a ton of re-watching as well as first time streaming on netflix and we"
+    },
+    {
+     "t0_ms": 1373200,
+     "text": "look at these two categories of film and treat them totally differently so for specialty releases"
+    },
+    {
+     "t0_ms": 1378860,
+     "text": "we're doing a 47 day window platform theatrical release for la bola negra right right now it's"
+    },
+    {
+     "t0_ms": 1386420,
+     "text": "fantastic spanish language film um and then we also upcoming have a theatrical release for"
+    },
+    {
+     "t0_ms": 1391840,
+     "text": "mosquito ball a bit shorter uh and we're partnering with imax to release the david fincher film the"
+    },
+    {
+     "t0_ms": 1397200,
+     "text": "further adventures misadventures of clip booth worth repeating over and over again because it's"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1402080,
+   "t1_ms": 1442560,
+   "speaker": "Analyst",
+   "text": "so exciting for us too um uh and we in that one we've done a deal with imax to put them uh on the biggest screens for a for a couple of weeks four weeks before the netflix release Now, for those big family movies I talked about, we've already announced we have a 45-day window and a wide theatrical release for Greta Gerwig's new movie, Narnia, the Magician's Nephew, and for our animated feature, Charlie vs. the Chocolate Factory. Both films have big global IP and big global fandom. So we're very excited about how they'll play out next year. So our theatrical strategy has evolved. It's evolved to include a traditional 45-day window for a handful of films.",
+   "parts": [
+    {
+     "t0_ms": 1402080,
+     "text": "so exciting for us too um uh and we in that one we've done a deal with imax to put them"
+    },
+    {
+     "t0_ms": 1407800,
+     "text": "uh on the biggest screens for a for a couple of weeks four weeks before the netflix release"
+    },
+    {
+     "t0_ms": 1414440,
+     "text": "Now, for those big family movies I talked about, we've already announced we have a 45-day window and a wide theatrical release for Greta Gerwig's new movie, Narnia, the Magician's Nephew, and for our animated feature, Charlie vs. the Chocolate Factory."
+    },
+    {
+     "t0_ms": 1427800,
+     "text": "Both films have big global IP and big global fandom."
+    },
+    {
+     "t0_ms": 1431060,
+     "text": "So we're very excited about how they'll play out next year."
+    },
+    {
+     "t0_ms": 1433880,
+     "text": "So our theatrical strategy has evolved."
+    },
+    {
+     "t0_ms": 1437820,
+     "text": "It's evolved to include a traditional 45-day window for a handful of films."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1443340,
+   "t1_ms": 1486480,
+   "speaker": "Analyst",
+   "text": "But the other one that's been important to folks is that we are also now reporting box office grosses for those releases when we do it. So that's new, and it looks like we picked a good title to start with, with La Bola Negra. We reported our first box office reporting this week for its opening weekend. It opened it with more than $69,000 per screen average, which is the second highest per screen average ever for a non-English language film in the U.S. Second only to Parasite, a film that went on to win the Oscar for Best Picture. So we're really excited about where we sit. Now, of course, we have one week of public reporting of box office under our belt, and we're real happy about it. So let's check it again in about six months.",
+   "parts": [
+    {
+     "t0_ms": 1443340,
+     "text": "But the other one that's been important to folks is that we are also now reporting box office grosses for those releases when we do it."
+    },
+    {
+     "t0_ms": 1450380,
+     "text": "So that's new, and it looks like we picked a good title to start with, with La Bola Negra."
+    },
+    {
+     "t0_ms": 1456740,
+     "text": "We reported our first box office reporting this week for its opening weekend."
+    },
+    {
+     "t0_ms": 1462000,
+     "text": "It opened it with more than $69,000 per screen average, which is the second highest per screen average ever for a non-English language film in the U.S."
+    },
+    {
+     "t0_ms": 1472480,
+     "text": "Second only to Parasite, a film that went on to win the Oscar for Best Picture."
+    },
+    {
+     "t0_ms": 1477040,
+     "text": "So we're really excited about where we sit."
+    },
+    {
+     "t0_ms": 1479800,
+     "text": "Now, of course, we have one week of public reporting of box office under our belt, and we're real happy about it."
+    },
+    {
+     "t0_ms": 1484460,
+     "text": "So let's check it again in about six months."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1487820,
+   "t1_ms": 1511840,
+   "speaker": "Operator",
+   "text": "Thanks, Ted. Sean also has a follow-up question. How would you describe the third-party licensing market? It seems the Disney deal for Ice Age and other content is a win-win, and this follows renewing The Walking Dead and getting power. How should we think about the mix of self-produced versus licensed content on a go-forward basis?",
+   "parts": [
+    {
+     "t0_ms": 1487820,
+     "text": "Thanks, Ted."
+    },
+    {
+     "t0_ms": 1488820,
+     "text": "Sean also has a follow-up question."
+    },
+    {
+     "t0_ms": 1491360,
+     "text": "How would you describe the third-party licensing market?"
+    },
+    {
+     "t0_ms": 1496160,
+     "text": "It seems the Disney deal for Ice Age and other content is a win-win,"
+    },
+    {
+     "t0_ms": 1500380,
+     "text": "and this follows renewing The Walking Dead and getting power."
+    },
+    {
+     "t0_ms": 1504760,
+     "text": "How should we think about the mix of self-produced versus licensed content on a go-forward basis?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1512580,
+   "t1_ms": 1557020,
+   "speaker": "Analyst",
+   "text": "Yeah, well, remember, original exclusive titles have always been the anchor of the service. We saw that value more than a decade ago when we got into the original production business. And it's why we continue to expand our original content investment across all different kinds of genres and all geographies. But we're very happy to license second-run titles that complement our original exclusive offering. It's our broad distribution, our best-in-class technology. This makes us ideal partners for studios and networks and creative talent. As a result of those things, we continue to have strong access around the world to content. I want to tell you about it because those are great examples on The Walking Dead. That's an evergreen franchise with lots of episodes and people love it.",
+   "parts": [
+    {
+     "t0_ms": 1512580,
+     "text": "Yeah, well, remember, original exclusive titles have always been the anchor of the service."
+    },
+    {
+     "t0_ms": 1516920,
+     "text": "We saw that value more than a decade ago when we got into the original production business."
+    },
+    {
+     "t0_ms": 1521560,
+     "text": "And it's why we continue to expand our original content investment across all different kinds of genres and all geographies."
+    },
+    {
+     "t0_ms": 1527360,
+     "text": "But we're very happy to license second-run titles that complement our original exclusive offering."
+    },
+    {
+     "t0_ms": 1534700,
+     "text": "It's our broad distribution, our best-in-class technology."
+    },
+    {
+     "t0_ms": 1538740,
+     "text": "This makes us ideal partners for studios and networks and creative talent."
+    },
+    {
+     "t0_ms": 1543580,
+     "text": "As a result of those things, we continue to have strong access around the world to content."
+    },
+    {
+     "t0_ms": 1549200,
+     "text": "I want to tell you about it because those are great examples on The Walking Dead."
+    },
+    {
+     "t0_ms": 1552100,
+     "text": "That's an evergreen franchise with lots of episodes and people love it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1557360,
+   "t1_ms": 1602260,
+   "speaker": "Analyst",
+   "text": "Power is a great show that was just under-distributed. And on Netflix, it will introduce a whole new wave of viewers to the Power universe. So that's really exciting. But I really want to focus on two recent deals that we're very excited about. You mentioned the Disney deal we just launched in October. Now, that deal brought all the Ice Age films to Netflix, along with a bunch of other Disney films or Disney series and some upcoming films. And to your point, it is a win-win deal. And the reason it's a win-win deal is that we benefit by expanding the entertainment offering for sure. Disney benefits from the revenue and from putting that content in front of our large global member base. Now, our members benefit, of course, because they get the addition of Disney content.",
+   "parts": [
+    {
+     "t0_ms": 1557360,
+     "text": "Power is a great show that was just under-distributed."
+    },
+    {
+     "t0_ms": 1560960,
+     "text": "And on Netflix, it will introduce a whole new wave of viewers to the Power universe."
+    },
+    {
+     "t0_ms": 1565580,
+     "text": "So that's really exciting."
+    },
+    {
+     "t0_ms": 1566940,
+     "text": "But I really want to focus on two recent deals that we're very excited about."
+    },
+    {
+     "t0_ms": 1571280,
+     "text": "You mentioned the Disney deal we just launched in October."
+    },
+    {
+     "t0_ms": 1575100,
+     "text": "Now, that deal brought all the Ice Age films to Netflix, along with a bunch of other Disney films or Disney series and some upcoming films."
+    },
+    {
+     "t0_ms": 1582480,
+     "text": "And to your point, it is a win-win deal."
+    },
+    {
+     "t0_ms": 1584720,
+     "text": "And the reason it's a win-win deal is that we benefit by expanding the entertainment offering for sure."
+    },
+    {
+     "t0_ms": 1590980,
+     "text": "Disney benefits from the revenue and from putting that content in front of our large global member base."
+    },
+    {
+     "t0_ms": 1597420,
+     "text": "Now, our members benefit, of course, because they get the addition of Disney content."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1602980,
+   "t1_ms": 1647240,
+   "speaker": "Analyst",
+   "text": "And we're already seeing some of those benefits from the Ice Age movies. All five of them hit our top ten. That's really exciting. Now, this benefits Disney because as they gear up to release their next Ice Age movie in the theaters in February, it's called Ice Age, The Boiling Point, more people will be recent fans of the Ice Age franchise. And by the way, yes, Netflix just plugged a Disney movie on our earnings call. You're welcome, Josh. Another deal to talk about is actually in Brazil. Last week, we in Globo announced our largest content license agreement between the two of us ever. Now, this is the most meaningful licensing deal we've ever done in Brazil. We're excited to work with Globo. They're the leading series and film producer and distributor in that country.",
+   "parts": [
+    {
+     "t0_ms": 1602980,
+     "text": "And we're already seeing some of those benefits from the Ice Age movies."
+    },
+    {
+     "t0_ms": 1606380,
+     "text": "All five of them hit our top ten."
+    },
+    {
+     "t0_ms": 1609060,
+     "text": "That's really exciting."
+    },
+    {
+     "t0_ms": 1610600,
+     "text": "Now, this benefits Disney because as they gear up to release their next Ice Age movie in the theaters in February, it's called Ice Age, The Boiling Point, more people will be recent fans of the Ice Age franchise."
+    },
+    {
+     "t0_ms": 1622520,
+     "text": "And by the way, yes, Netflix just plugged a Disney movie on our earnings call."
+    },
+    {
+     "t0_ms": 1627080,
+     "text": "You're welcome, Josh."
+    },
+    {
+     "t0_ms": 1629220,
+     "text": "Another deal to talk about is actually in Brazil."
+    },
+    {
+     "t0_ms": 1632680,
+     "text": "Last week, we in Globo announced our largest content license agreement between the two of us ever."
+    },
+    {
+     "t0_ms": 1638260,
+     "text": "Now, this is the most meaningful licensing deal we've ever done in Brazil."
+    },
+    {
+     "t0_ms": 1642380,
+     "text": "We're excited to work with Globo."
+    },
+    {
+     "t0_ms": 1644300,
+     "text": "They're the leading series and film producer and distributor in that country."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1648140,
+   "t1_ms": 1692980,
+   "speaker": "Analyst",
+   "text": "And they have also been a long holdout licensing content to us locally. We have in the past put a lot of Globo content on Netflix around Latin America and around the world, but just not in Brazil. So we're excited to be in this new stage of our business. We believe it's going to benefit both of us and our members in Brazil. It includes local titles from across all different genres. The Oscar-winning movie, I'm Still Here, is in there. The international Emmy-winning telenovela, India, A Love Story. And this deal spans a healthy mix of local, regional, and global rights. So we're very excited about that. And just to step forward with Globo in Brazil is a very exciting time in our existence together.",
+   "parts": [
+    {
+     "t0_ms": 1648140,
+     "text": "And they have also been a long holdout licensing content to us locally."
+    },
+    {
+     "t0_ms": 1652560,
+     "text": "We have in the past put a lot of Globo content on Netflix around Latin America and around the world, but just not in Brazil."
+    },
+    {
+     "t0_ms": 1660960,
+     "text": "So we're excited to be in this new stage of our business."
+    },
+    {
+     "t0_ms": 1664260,
+     "text": "We believe it's going to benefit both of us and our members in Brazil."
+    },
+    {
+     "t0_ms": 1669160,
+     "text": "It includes local titles from across all different genres."
+    },
+    {
+     "t0_ms": 1673300,
+     "text": "The Oscar-winning movie, I'm Still Here, is in there."
+    },
+    {
+     "t0_ms": 1676240,
+     "text": "The international Emmy-winning telenovela, India, A Love Story."
+    },
+    {
+     "t0_ms": 1681080,
+     "text": "And this deal spans a healthy mix of local, regional, and global rights."
+    },
+    {
+     "t0_ms": 1686180,
+     "text": "So we're very excited about that."
+    },
+    {
+     "t0_ms": 1687820,
+     "text": "And just to step forward with Globo in Brazil is a very exciting time in our existence together."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1692980,
+   "t1_ms": 1733300,
+   "speaker": "Analyst",
+   "text": "Now, the access to licensed content and which titles are available, this will always have some ebb and flow to it. But we expect to have opportunities throughout for the best series and the best films with all the suppliers. It's a little complicated because all of our suppliers are also our competitors. But our deals bring in much needed revenue. They certainly build awareness, and the benefit of that awareness transfers back to them because it helps grow the value of their IP. So these deals really are win-win. And as we sit here today, we're not really dependent on any single supplier, but we are thrilled to be in business with just about every supplier in the world.",
+   "parts": [
+    {
+     "t0_ms": 1692980,
+     "text": "Now, the access to licensed content and which titles are available, this will always have some ebb and flow to it."
+    },
+    {
+     "t0_ms": 1701520,
+     "text": "But we expect to have opportunities throughout for the best series and the best films with all the suppliers."
+    },
+    {
+     "t0_ms": 1709040,
+     "text": "It's a little complicated because all of our suppliers are also our competitors."
+    },
+    {
+     "t0_ms": 1713760,
+     "text": "But our deals bring in much needed revenue."
+    },
+    {
+     "t0_ms": 1717660,
+     "text": "They certainly build awareness, and the benefit of that awareness transfers back to them because"
+    },
+    {
+     "t0_ms": 1722240,
+     "text": "it helps grow the value of their IP."
+    },
+    {
+     "t0_ms": 1724380,
+     "text": "So these deals really are win-win."
+    },
+    {
+     "t0_ms": 1726560,
+     "text": "And as we sit here today, we're not really dependent on any single supplier, but we are"
+    },
+    {
+     "t0_ms": 1730660,
+     "text": "thrilled to be in business with just about every supplier in the world."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1735180,
+   "t1_ms": 1768000,
+   "speaker": "Operator",
+   "text": "Thank you, Ted. I'll now move us on to the topic of advertising. We have several questions on advertising, given the slight change in the outlook for this year. But we'll go with the question from Vikram Kesavabotla of Baird. He asks, how is the advertising business progressing relative to your expectations this year? What are you observing with respect to the demand for your inventory and the breadth of advertisers on the platform? How are your recent technology investments influencing performance at this stage?",
+   "parts": [
+    {
+     "t0_ms": 1735180,
+     "text": "Thank you, Ted."
+    },
+    {
+     "t0_ms": 1736520,
+     "text": "I'll now move us on to the topic of advertising."
+    },
+    {
+     "t0_ms": 1739160,
+     "text": "We have several questions on advertising, given the slight change in the outlook for"
+    },
+    {
+     "t0_ms": 1744440,
+     "text": "this year."
+    },
+    {
+     "t0_ms": 1745200,
+     "text": "But we'll go with the question from Vikram Kesavabotla of Baird."
+    },
+    {
+     "t0_ms": 1751120,
+     "text": "He asks, how is the advertising business progressing relative to your expectations this year?"
+    },
+    {
+     "t0_ms": 1756320,
+     "text": "What are you observing with respect to the demand for your inventory and the breadth of advertisers on the platform?"
+    },
+    {
+     "t0_ms": 1763780,
+     "text": "How are your recent technology investments influencing performance at this stage?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1769200,
+   "t1_ms": 1811040,
+   "speaker": "Analyst",
+   "text": "So our ads business has delivered really impressive growth since we've launched. And we do see a long road of continued growth ahead of us. And then since that launch point, we've been committed to building an innovative advertising platform, differentiated offering for our clients, bringing the best of digital advertising to the best of TV advertising, all while respecting our member privacy and ensuring that we also retain our first party data advantage. So our integration models, our partner integration models preserve that advantage while getting to the best targeting that we can. We set big growth targets for our ads business this year.",
+   "parts": [
+    {
+     "t0_ms": 1769200,
+     "text": "So our ads business has delivered really impressive growth since we've launched."
+    },
+    {
+     "t0_ms": 1774700,
+     "text": "And we do see a long road of continued growth ahead of us."
+    },
+    {
+     "t0_ms": 1779020,
+     "text": "And then since that launch point, we've been committed to building an innovative advertising platform,"
+    },
+    {
+     "t0_ms": 1785040,
+     "text": "differentiated offering for our clients, bringing the best of digital advertising to the best of TV advertising,"
+    },
+    {
+     "t0_ms": 1791640,
+     "text": "all while respecting our member privacy and ensuring that we also retain our first party data advantage."
+    },
+    {
+     "t0_ms": 1798760,
+     "text": "So our integration models, our partner integration models preserve that advantage while getting to the best targeting that we can."
+    },
+    {
+     "t0_ms": 1807120,
+     "text": "We set big growth targets for our ads business this year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1811180,
+   "t1_ms": 1855060,
+   "speaker": "Analyst",
+   "text": "We established an aggressive product roadmap that was consistent with that strategy. And just note, I think that the build out that we've been on is the fastest build out of a comparable ad stack in our industry. But we are currently a bit behind our aggressive target for the year. We're still growing, just to set the context or put this in perspective. We're still growing our ads business over 80% this year. So excited about the rate that we're going on. And I think noting that if you are sufficiently aggressive with your roadmap, you're going to occasionally be behind some milestones. And specifically in this case, we've seen some delays in the rollout and partner integrations for some of those new ads products. So getting to the integration model that we want sometimes takes a bit more work with",
+   "parts": [
+    {
+     "t0_ms": 1811180,
+     "text": "We established an aggressive product roadmap that was consistent with that strategy."
+    },
+    {
+     "t0_ms": 1815280,
+     "text": "And just note, I think that the build out that we've been on is the fastest build out of a comparable ad stack in our industry."
+    },
+    {
+     "t0_ms": 1821800,
+     "text": "But we are currently a bit behind our aggressive target for the year."
+    },
+    {
+     "t0_ms": 1825840,
+     "text": "We're still growing, just to set the context or put this in perspective."
+    },
+    {
+     "t0_ms": 1829300,
+     "text": "We're still growing our ads business over 80% this year."
+    },
+    {
+     "t0_ms": 1832360,
+     "text": "So excited about the rate that we're going on."
+    },
+    {
+     "t0_ms": 1835140,
+     "text": "And I think noting that if you are sufficiently aggressive with your roadmap, you're going"
+    },
+    {
+     "t0_ms": 1839180,
+     "text": "to occasionally be behind some milestones."
+    },
+    {
+     "t0_ms": 1842080,
+     "text": "And specifically in this case, we've seen some delays in the rollout and partner integrations"
+    },
+    {
+     "t0_ms": 1847860,
+     "text": "for some of those new ads products."
+    },
+    {
+     "t0_ms": 1849680,
+     "text": "So getting to the integration model that we want sometimes takes a bit more work with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1855060,
+   "t1_ms": 1896920,
+   "speaker": "Analyst",
+   "text": "our partners, but we strongly believe that a modest short-term hit for a better long-term strategic position is a good ultimate trade-off. We also don't see this impacting our long-term gains. In fact, pushing for this barely achievable deliverables model tends to maximize our overall velocity. It's a strategy that we've used to good effect historically many, many times. We see the benefits when we continue to roll out other products like new ad formats, which help with our growth. So stepping back, just to take a look, our priorities for this ad business are unchanged. We want to advance our full funnel optimization solutions. We want to deliver new ad formats, new ad products. We want to increase the availability of our first party measurement",
+   "parts": [
+    {
+     "t0_ms": 1855060,
+     "text": "our partners, but we strongly believe that a modest short-term hit for a better long-term"
+    },
+    {
+     "t0_ms": 1860800,
+     "text": "strategic position is a good ultimate trade-off. We also don't see this impacting our long-term"
+    },
+    {
+     "t0_ms": 1866320,
+     "text": "gains. In fact, pushing for this barely achievable deliverables model tends to maximize our overall"
+    },
+    {
+     "t0_ms": 1872860,
+     "text": "velocity. It's a strategy that we've used to good effect historically many, many times."
+    },
+    {
+     "t0_ms": 1877700,
+     "text": "We see the benefits when we continue to roll out other products like new ad formats, which help"
+    },
+    {
+     "t0_ms": 1881760,
+     "text": "with our growth. So stepping back, just to take a look, our priorities for this ad business are"
+    },
+    {
+     "t0_ms": 1887540,
+     "text": "unchanged. We want to advance our full funnel optimization solutions. We want to deliver new"
+    },
+    {
+     "t0_ms": 1892340,
+     "text": "ad formats, new ad products. We want to increase the availability of our first party measurement"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1896920,
+   "t1_ms": 1916000,
+   "speaker": "Analyst",
+   "text": "and reporting. To the question specifically, general demand remains strong. Breadths of advertisers continues to expand. And ultimately, advertisers want our new products and features. And that's a big mechanism of growth for us. So we are very focused on getting those out to them as quickly as we possibly can.",
+   "parts": [
+    {
+     "t0_ms": 1896920,
+     "text": "and reporting. To the question specifically, general demand remains strong. Breadths of"
+    },
+    {
+     "t0_ms": 1903220,
+     "text": "advertisers continues to expand. And ultimately, advertisers want our new products and features."
+    },
+    {
+     "t0_ms": 1908680,
+     "text": "And that's a big mechanism of growth for us."
+    },
+    {
+     "t0_ms": 1911540,
+     "text": "So we are very focused on getting those out to them as quickly as we possibly can."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1917120,
+   "t1_ms": 1940340,
+   "speaker": "Operator",
+   "text": "Thanks, Greg. Another question on the advertising business. This is from Robert Fishman of Moffitt Nathanson. Ahead of launching ad tiers in 15 new countries next year, any update on the gap in average revenue per membership between the ad tier and the standard non-ad tier in the US and other",
+   "parts": [
+    {
+     "t0_ms": 1917120,
+     "text": "Thanks, Greg."
+    },
+    {
+     "t0_ms": 1918480,
+     "text": "Another question on the advertising business."
+    },
+    {
+     "t0_ms": 1921600,
+     "text": "This is from Robert Fishman of Moffitt Nathanson."
+    },
+    {
+     "t0_ms": 1925160,
+     "text": "Ahead of launching ad tiers in 15 new countries next year, any update on the gap in average"
+    },
+    {
+     "t0_ms": 1933900,
+     "text": "revenue per membership between the ad tier and the standard non-ad tier in the US and other"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1940340,
+   "t1_ms": 1983800,
+   "speaker": "Analyst",
+   "text": "existing international markets? Yeah, super excited to do our first expansion of ads countries since we launched. But to answer the question, just start by noting that we manage the ads business for total revenue and growth. So we look at arm and fill rates as means to an end, not an end goal in and of itself. Now that said, there's still a gap between the combined ad tier arm and then arm for standard without ads, but that gap is narrowing. And that gap means under-realized revenue growth for us in the near term. It means we can, it's an opportunity. We can improve our ads capabilities. We can close that gap over time. And we've seen exactly that process happen over",
+   "parts": [
+    {
+     "t0_ms": 1940340,
+     "text": "existing international markets? Yeah, super excited to do our first expansion of ads countries since"
+    },
+    {
+     "t0_ms": 1947520,
+     "text": "we launched. But to answer the question, just start by noting that we manage the ads business"
+    },
+    {
+     "t0_ms": 1953860,
+     "text": "for total revenue and growth. So we look at arm and fill rates as means to an end, not an end goal"
+    },
+    {
+     "t0_ms": 1961640,
+     "text": "in and of itself. Now that said, there's still a gap between the combined ad tier arm and then"
+    },
+    {
+     "t0_ms": 1968140,
+     "text": "arm for standard without ads, but that gap is narrowing. And that gap means under-realized"
+    },
+    {
+     "t0_ms": 1973580,
+     "text": "revenue growth for us in the near term. It means we can, it's an opportunity. We can improve our"
+    },
+    {
+     "t0_ms": 1978120,
+     "text": "ads capabilities. We can close that gap over time. And we've seen exactly that process happen over"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1983800,
+   "t1_ms": 2026220,
+   "speaker": "Analyst",
+   "text": "this last year. We've expanded demand sources. We continue to execute quickly on our own ad tech stack. We're adding more features, more ads products, more measurement. We're making it easier for folks to transact with us. All of those things drive demand. They drive competitiveness. Those yields increased fill rates. Those push ad arm higher. And of course, while we are doing that, we're also signing up more ads plan members. So that drives inventory up. That creates more room for us to grow into. So this dual growth phenomenon where we're growing inventory and growing into our monetization on that inventory. I expect that that's going to persist for some time, likely with gradual closing of that arm gap, as we've seen, because we're going to drive improved",
+   "parts": [
+    {
+     "t0_ms": 1983800,
+     "text": "this last year. We've expanded demand sources. We continue to execute quickly on our own ad tech"
+    },
+    {
+     "t0_ms": 1989380,
+     "text": "stack. We're adding more features, more ads products, more measurement. We're making it"
+    },
+    {
+     "t0_ms": 1993400,
+     "text": "easier for folks to transact with us. All of those things drive demand. They drive competitiveness."
+    },
+    {
+     "t0_ms": 1999020,
+     "text": "Those yields increased fill rates. Those push ad arm higher. And of course, while we are doing that,"
+    },
+    {
+     "t0_ms": 2006400,
+     "text": "we're also signing up more ads plan members. So that drives inventory up. That creates more room"
+    },
+    {
+     "t0_ms": 2012220,
+     "text": "for us to grow into. So this dual growth phenomenon where we're growing inventory and growing into our"
+    },
+    {
+     "t0_ms": 2017680,
+     "text": "monetization on that inventory. I expect that that's going to persist for some time,"
+    },
+    {
+     "t0_ms": 2021140,
+     "text": "likely with gradual closing of that arm gap, as we've seen, because we're going to drive improved"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2026220,
+   "t1_ms": 2036920,
+   "speaker": "Analyst",
+   "text": "ad tech product, go-to-market capabilities, all which drive better unit performance and monetization for the next several years. Thanks, Greg. We'll take one last question.",
+   "parts": [
+    {
+     "t0_ms": 2026220,
+     "text": "ad tech product, go-to-market capabilities, all which drive better unit performance and"
+    },
+    {
+     "t0_ms": 2030820,
+     "text": "monetization for the next several years. Thanks, Greg. We'll take one last question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2037300,
+   "t1_ms": 2062219,
+   "speaker": "Operator",
+   "text": "This one is from Sean Diffley of Morgan Stanley. What have you learned about churn and engagement following the most recent round of price increases compared with higher pricing cycles. As penetration increases in more mature markets, where do you see the largest remaining sources of membership and revenue growth? Is it pricing, advertising, or international penetration?",
+   "parts": [
+    {
+     "t0_ms": 2037300,
+     "text": "This one is from Sean Diffley of Morgan Stanley. What have you learned about churn and engagement"
+    },
+    {
+     "t0_ms": 2044380,
+     "text": "following the most recent round of price increases compared with higher pricing cycles."
+    },
+    {
+     "t0_ms": 2050219,
+     "text": "As penetration increases in more mature markets, where do you see the largest remaining sources"
+    },
+    {
+     "t0_ms": 2056460,
+     "text": "of membership and revenue growth? Is it pricing, advertising, or international penetration?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2062219,
+   "t1_ms": 2104720,
+   "speaker": "Analyst",
+   "text": "Question mark. Okay. So on the first part of Sean's question, the price changes in 26 have gone well. So across all market, all market types where we've done price changes, the member response, you mentioned churn engagement, engagement usually isn't really impacted by these things. But that member response is consistent with prior price changes and our expectations. And again, we think that this is a strong indicator of the value that we're delivering to members as measured by the quality, the quantity, the variety of viewing that is healthy. And maybe just want also an external reference point for that value. Take the US as an example, Netflix subscribers are paying the least per hour of viewing compared to other SVOD",
+   "parts": [
+    {
+     "t0_ms": 2062219,
+     "text": "Question mark. Okay. So on the first part of Sean's question, the price changes in 26 have"
+    },
+    {
+     "t0_ms": 2069400,
+     "text": "gone well. So across all market, all market types where we've done price changes, the member"
+    },
+    {
+     "t0_ms": 2074639,
+     "text": "response, you mentioned churn engagement, engagement usually isn't really impacted by"
+    },
+    {
+     "t0_ms": 2077940,
+     "text": "these things. But that member response is consistent with prior price changes and our"
+    },
+    {
+     "t0_ms": 2082980,
+     "text": "expectations. And again, we think that this is a strong indicator of the value that we're"
+    },
+    {
+     "t0_ms": 2087699,
+     "text": "delivering to members as measured by the quality, the quantity, the variety of viewing that is"
+    },
+    {
+     "t0_ms": 2092580,
+     "text": "healthy. And maybe just want also an external reference point for that value. Take the US as"
+    },
+    {
+     "t0_ms": 2098020,
+     "text": "an example, Netflix subscribers are paying the least per hour of viewing compared to other SVOD"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2104720,
+   "t1_ms": 2149660,
+   "speaker": "Analyst",
+   "text": "offerings in the country. In some cases, they would have to pay more than double per hour for a competitive service. We think that that's a really good marker of how much value we are delivering per price. Also note that we saw continued healthy retention in every region churn globally in the U.S. improved year over year, so better than forecast. Those things also reinforce the signs of that value and make us increasingly confident in that. Okay, so to the second part of your question, we operate around the world, roughly 190 countries globally. These countries vary a lot. They vary by our penetration level there. They vary by market maturity, which means the presence of necessary or enabling market conditions. Think smart TVs,",
+   "parts": [
+    {
+     "t0_ms": 2104720,
+     "text": "offerings in the country. In some cases, they would have to pay more than double per hour for"
+    },
+    {
+     "t0_ms": 2109880,
+     "text": "a competitive service. We think that that's a really good marker of how much value we are"
+    },
+    {
+     "t0_ms": 2115940,
+     "text": "delivering per price. Also note that we saw continued healthy retention in every region"
+    },
+    {
+     "t0_ms": 2122320,
+     "text": "churn globally in the U.S. improved year over year, so better than forecast. Those things also"
+    },
+    {
+     "t0_ms": 2127060,
+     "text": "reinforce the signs of that value and make us increasingly confident in that."
+    },
+    {
+     "t0_ms": 2131560,
+     "text": "Okay, so to the second part of your question, we operate around the world, roughly 190 countries"
+    },
+    {
+     "t0_ms": 2136780,
+     "text": "globally. These countries vary a lot. They vary by our penetration level there. They vary by market"
+    },
+    {
+     "t0_ms": 2142320,
+     "text": "maturity, which means the presence of necessary or enabling market conditions. Think smart TVs,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2150260,
+   "t1_ms": 2193100,
+   "speaker": "Analyst",
+   "text": "I think good connectivity, payments methods, all the things that enable customers, consumers to sign up for our service and have a good experience. These countries vary also by whether we currently have an ads product. We're seeking to expand the number of countries there, but that's an important part of the mix. So as such, the drivers of business growth really have different weights across all those different countries and country types. So you can take our most mature markets, you think the US, UK, Australia, we're more deeply penetrated. So our revenue growth drivers in those markets are going to skew towards arm and advertising growth. And then in newer markets, think India, Indonesia, Colombia, we've got plenty of room to grow members. So we're going",
+   "parts": [
+    {
+     "t0_ms": 2150260,
+     "text": "I think good connectivity, payments methods, all the things that enable customers, consumers to"
+    },
+    {
+     "t0_ms": 2155180,
+     "text": "sign up for our service and have a good experience. These countries vary also by whether"
+    },
+    {
+     "t0_ms": 2160340,
+     "text": "we currently have an ads product. We're seeking to expand the number of countries there, but that's"
+    },
+    {
+     "t0_ms": 2164840,
+     "text": "an important part of the mix. So as such, the drivers of business growth really have different"
+    },
+    {
+     "t0_ms": 2171060,
+     "text": "weights across all those different countries and country types. So you can take our most mature"
+    },
+    {
+     "t0_ms": 2175120,
+     "text": "markets, you think the US, UK, Australia, we're more deeply penetrated. So our revenue growth"
+    },
+    {
+     "t0_ms": 2180200,
+     "text": "drivers in those markets are going to skew towards arm and advertising growth. And then in newer"
+    },
+    {
+     "t0_ms": 2185700,
+     "text": "markets, think India, Indonesia, Colombia, we've got plenty of room to grow members. So we're going"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2193100,
+   "t1_ms": 2237080,
+   "speaker": "Analyst",
+   "text": "to continue to offer plans with accessible entry points. We expect member growth to be the most significant driver of overall revenue growth in those kinds of countries. And then we have a lot of markets that are in the middle where we believe we can get really a balanced combination of both member and arm growth. And that includes ads countries like Mexico and Japan. We've got a lot more folks that we can sign up in those countries. And we can also deliver a lot more value into the offering in those countries, which drives arm and ads monetization, as well as countries without ads like Philippines and the Turkey, where the same both member growth and arm growth opportunities we believe exist there as well. Thanks, Greg. And I want to thank everybody",
+   "parts": [
+    {
+     "t0_ms": 2193100,
+     "text": "to continue to offer plans with accessible entry points. We expect member growth to be the most"
+    },
+    {
+     "t0_ms": 2198400,
+     "text": "significant driver of overall revenue growth in those kinds of countries. And then we have a lot"
+    },
+    {
+     "t0_ms": 2203380,
+     "text": "of markets that are in the middle where we believe we can get really a balanced combination of both"
+    },
+    {
+     "t0_ms": 2208660,
+     "text": "member and arm growth. And that includes ads countries like Mexico and Japan. We've got a"
+    },
+    {
+     "t0_ms": 2214360,
+     "text": "lot more folks that we can sign up in those countries. And we can also deliver a lot more"
+    },
+    {
+     "t0_ms": 2217780,
+     "text": "value into the offering in those countries, which drives arm and ads monetization, as well as"
+    },
+    {
+     "t0_ms": 2226420,
+     "text": "countries without ads like Philippines and the Turkey, where the same both member growth and"
+    },
+    {
+     "t0_ms": 2231400,
+     "text": "arm growth opportunities we believe exist there as well. Thanks, Greg. And I want to thank everybody"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2237080,
+   "t1_ms": 2244140,
+   "speaker": "Operator",
+   "text": "for joining us for our third quarter earnings call. And we look forward to speaking with you next quarter in January. Thanks. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2237080,
+     "text": "for joining us for our third quarter earnings call."
+    },
+    {
+     "t0_ms": 2239700,
+     "text": "And we look forward to speaking with you"
+    },
+    {
+     "t0_ms": 2241660,
+     "text": "next quarter in January."
+    },
+    {
+     "t0_ms": 2243000,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2243860,
+     "text": "Thanks."
+    }
+   ]
+  }
+ ]
+}

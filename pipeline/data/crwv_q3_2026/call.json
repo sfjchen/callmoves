@@ -1,0 +1,3583 @@
+{
+ "ticker": "CRWV",
+ "quarter": "Q3-2026",
+ "company": "CoreWeave",
+ "call_start": "2026-11-10T17:00:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/CRWV_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 26380,
+   "speaker": "Operator",
+   "text": "Hello everyone. Thank you for joining us and welcome to CoreWeave's third quarter 2026 earnings call. After today's prepared remarks, we will host a question and answer session. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. I will now hand the conference over to CoreWeave. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Hello everyone. Thank you for joining us and welcome to CoreWeave's third quarter 2026"
+    },
+    {
+     "t0_ms": 5900,
+     "text": "earnings call. After today's prepared remarks, we will host a question and answer session."
+    },
+    {
+     "t0_ms": 12280,
+     "text": "If you would like to ask a question, please press star 1 to raise your hand. To withdraw your"
+    },
+    {
+     "t0_ms": 18580,
+     "text": "question, press star 1 again. I will now hand the conference over to CoreWeave. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 26380,
+   "t1_ms": 68750,
+   "speaker": "Management",
+   "text": "Thank you. Good afternoon and welcome to CoreWeave's third quarter 2026 earnings conference call. Joining the call today to discuss our results are Mike Intrader, CEO, and Ethan Agrawal, CFO. Before we get started, I would like to take this opportunity to remind you that our remarks today will include forward-looking statements. Actual results may differ materially from those contemplated by these forward-looking statements because of factors that are set forth in today's earnings press release and in our quarterly report on Form 10Q to be filed with the SEC. Any forward-looking statements that we make on this call are based on assumptions as of today, and we undertake no obligation to update these statements as a result of new information or future events.",
+   "parts": [
+    {
+     "t0_ms": 26380,
+     "text": "Thank you. Good afternoon and welcome to CoreWeave's third quarter 2026 earnings conference call."
+    },
+    {
+     "t0_ms": 34910,
+     "text": "Joining the call today to discuss our results are Mike Intrader, CEO, and Ethan Agrawal, CFO."
+    },
+    {
+     "t0_ms": 41230,
+     "text": "Before we get started, I would like to take this opportunity to remind you that our remarks today will include forward-looking statements."
+    },
+    {
+     "t0_ms": 47670,
+     "text": "Actual results may differ materially from those contemplated by these forward-looking statements because of factors that are set forth in today's earnings press release"
+    },
+    {
+     "t0_ms": 54770,
+     "text": "and in our quarterly report on Form 10Q to be filed with the SEC."
+    },
+    {
+     "t0_ms": 59530,
+     "text": "Any forward-looking statements that we make on this call are based on assumptions as of today,"
+    },
+    {
+     "t0_ms": 63390,
+     "text": "and we undertake no obligation to update these statements as a result of new information or future events."
+    }
+   ]
+  },
+  {
+   "t0_ms": 69810,
+   "t1_ms": 113370,
+   "speaker": "Management",
+   "text": "During this call, we will present both GAAP and certain non-GAAP financial measures. A reconciliation of GAAP to non-GAAP measures is included in today's earnings press release. The earnings press release and an accompanying investor presentation are available on our website at investors.coreweave.com. A replay of this call will also be available on our investor relations website. And now, I'd like to turn the call over to Mike. Good afternoon, everyone, and thank you for joining us. CoreWeave delivered an exceptional third quarter. Revenue is growing rapidly. Margins are rising faster than planned. Customer demand remains extremely strong, and our newest contracts are among the most profitable",
+   "parts": [
+    {
+     "t0_ms": 69810,
+     "text": "During this call, we will present both GAAP and certain non-GAAP financial measures."
+    },
+    {
+     "t0_ms": 74590,
+     "text": "A reconciliation of GAAP to non-GAAP measures is included in today's earnings press release."
+    },
+    {
+     "t0_ms": 79730,
+     "text": "The earnings press release and an accompanying investor presentation are available on our website"
+    },
+    {
+     "t0_ms": 83990,
+     "text": "at investors.coreweave.com."
+    },
+    {
+     "t0_ms": 87190,
+     "text": "A replay of this call will also be available"
+    },
+    {
+     "t0_ms": 89170,
+     "text": "on our investor relations website."
+    },
+    {
+     "t0_ms": 91650,
+     "text": "And now, I'd like to turn the call over to Mike."
+    },
+    {
+     "t0_ms": 94870,
+     "text": "Good afternoon, everyone, and thank you for joining us."
+    },
+    {
+     "t0_ms": 98730,
+     "text": "CoreWeave delivered an exceptional third quarter."
+    },
+    {
+     "t0_ms": 102390,
+     "text": "Revenue is growing rapidly."
+    },
+    {
+     "t0_ms": 104730,
+     "text": "Margins are rising faster than planned."
+    },
+    {
+     "t0_ms": 107830,
+     "text": "Customer demand remains extremely strong,"
+    },
+    {
+     "t0_ms": 110690,
+     "text": "and our newest contracts are among the most profitable"
+    }
+   ]
+  },
+  {
+   "t0_ms": 113370,
+   "t1_ms": 152670,
+   "speaker": "Management",
+   "text": "we have ever underwritten. Our original fleet of cloud infrastructure is recontracting at premiums, producing cash flow in excess of what we assumed when we made those early investments. And our funding is anchored by secured lending, customer prepayments, and operating cash flows. Together, this momentum leaves our business resilient and well-positioned to navigate the current environment. Now, the specifics. Revenue reached $3.7 billion, up 168% year-over-year and above the high end of our guidance. We added more than $1 billion",
+   "parts": [
+    {
+     "t0_ms": 113370,
+     "text": "we have ever underwritten. Our original fleet of cloud infrastructure is"
+    },
+    {
+     "t0_ms": 118390,
+     "text": "recontracting at premiums, producing cash flow in excess of what we"
+    },
+    {
+     "t0_ms": 123450,
+     "text": "assumed when we made those early investments. And our funding is anchored by"
+    },
+    {
+     "t0_ms": 128449,
+     "text": "secured lending, customer prepayments, and operating cash flows."
+    },
+    {
+     "t0_ms": 133810,
+     "text": "Together, this momentum leaves our business resilient and well-positioned"
+    },
+    {
+     "t0_ms": 138530,
+     "text": "to navigate the current environment. Now, the specifics. Revenue reached $3.7 billion,"
+    },
+    {
+     "t0_ms": 145550,
+     "text": "up 168% year-over-year and above the high end of our guidance. We added more than $1 billion"
+    }
+   ]
+  },
+  {
+   "t0_ms": 152670,
+   "t1_ms": 195690,
+   "speaker": "Management",
+   "text": "quarter-over-quarter. Adjusted operating income reached $379 million, well above our $200 to $260 million guidance, with margins moving into the low double digits a quarter earlier than planned. Revenue backlog grew to approximately $133 billion, and we grew active power to more than 1.7 gigawatts, doubling our active footprint since the start of the year. Last quarter, we talked about the operating leverage that would emerge as our infrastructure reached scale, and we diversified our business across short- and long-term contracts. This quarter, you can see that progress in our results and the guidance we've provided.",
+   "parts": [
+    {
+     "t0_ms": 152670,
+     "text": "quarter-over-quarter. Adjusted operating income reached $379 million, well above our $200 to $260"
+    },
+    {
+     "t0_ms": 161490,
+     "text": "million guidance, with margins moving into the low double digits a quarter earlier than planned."
+    },
+    {
+     "t0_ms": 167750,
+     "text": "Revenue backlog grew to approximately $133 billion,"
+    },
+    {
+     "t0_ms": 172650,
+     "text": "and we grew active power to more than 1.7 gigawatts,"
+    },
+    {
+     "t0_ms": 176870,
+     "text": "doubling our active footprint since the start of the year."
+    },
+    {
+     "t0_ms": 180190,
+     "text": "Last quarter, we talked about the operating leverage that would emerge"
+    },
+    {
+     "t0_ms": 183750,
+     "text": "as our infrastructure reached scale,"
+    },
+    {
+     "t0_ms": 186150,
+     "text": "and we diversified our business across short- and long-term contracts."
+    },
+    {
+     "t0_ms": 190390,
+     "text": "This quarter, you can see that progress in our results and the guidance we've provided."
+    }
+   ]
+  },
+  {
+   "t0_ms": 195690,
+   "t1_ms": 240530,
+   "speaker": "Management",
+   "text": "We also talked about the conviction behind CoreWeave, that AI would become part of how organizations across the economy work, and that the people building that future would need a different kind of cloud. That conviction is becoming more tangible every quarter. Our customers are using AI to advance biological research, support patient care, develop autonomous systems, and help people learn. Our AI cloud platform gives them the ability to pursue those ambitions and bring their useful applications into everyday life. Powering these promising ideas requires the tools to build and deploy AI on reliable compute at attractive economics.",
+   "parts": [
+    {
+     "t0_ms": 195690,
+     "text": "We also talked about the conviction behind CoreWeave, that AI would become part of how organizations across the economy work, and that the people building that future would need a different kind of cloud."
+    },
+    {
+     "t0_ms": 209810,
+     "text": "That conviction is becoming more tangible every quarter."
+    },
+    {
+     "t0_ms": 214050,
+     "text": "Our customers are using AI to advance biological research, support patient care, develop autonomous systems, and help people learn."
+    },
+    {
+     "t0_ms": 223570,
+     "text": "Our AI cloud platform gives them the ability to pursue those ambitions and bring their useful applications into everyday life."
+    },
+    {
+     "t0_ms": 232070,
+     "text": "Powering these promising ideas requires the tools to build and deploy AI on reliable compute at attractive economics."
+    }
+   ]
+  },
+  {
+   "t0_ms": 240890,
+   "t1_ms": 281050,
+   "speaker": "Management",
+   "text": "Our job is to provide that foundation and earn compelling returns on our capital. Given the recent volatility in the capital markets, I want to explain how these fit together. The value we deliver to customers earns their long-term commitments to CoreWeave. Those commitments underpin our financing approach, and disciplined investment allows us to keep expanding the platform our customers depend on while compounding shareholder value. Underneath it all is one central principle. At every decision, we look for the optimal economic choice, how we fund, what we charge, and how fast we build.",
+   "parts": [
+    {
+     "t0_ms": 240890,
+     "text": "Our job is to provide that foundation and earn compelling returns on our capital."
+    },
+    {
+     "t0_ms": 247610,
+     "text": "Given the recent volatility in the capital markets, I want to explain how these fit together."
+    },
+    {
+     "t0_ms": 253430,
+     "text": "The value we deliver to customers earns their long-term commitments to CoreWeave."
+    },
+    {
+     "t0_ms": 258370,
+     "text": "Those commitments underpin our financing approach, and disciplined investment allows us to keep"
+    },
+    {
+     "t0_ms": 264190,
+     "text": "expanding the platform our customers depend on while compounding shareholder value."
+    },
+    {
+     "t0_ms": 269890,
+     "text": "Underneath it all is one central principle."
+    },
+    {
+     "t0_ms": 272490,
+     "text": "At every decision, we look for the optimal economic choice, how we fund, what we charge, and how fast we build."
+    }
+   ]
+  },
+  {
+   "t0_ms": 281570,
+   "t1_ms": 320290,
+   "speaker": "Management",
+   "text": "Building an AI cloud at hyperscale requires substantial capital and disciplined execution. We understood that at CoreWeave's inception and designed our business model and financing strategy around the long-term customer contracts that capital would serve. This strategy allows us to evaluate every new source of capital. choosing to pursue the opportunities that optimize returns depending on market conditions. At the end of Q3, our weighted average cost of debt across our entire business was 7.9%, down 250 basis points year over year.",
+   "parts": [
+    {
+     "t0_ms": 281570,
+     "text": "Building an AI cloud at hyperscale requires substantial capital and disciplined execution."
+    },
+    {
+     "t0_ms": 287990,
+     "text": "We understood that at CoreWeave's inception and designed our business model and financing strategy around the long-term customer contracts that capital would serve."
+    },
+    {
+     "t0_ms": 297990,
+     "text": "This strategy allows us to evaluate every new source of capital."
+    },
+    {
+     "t0_ms": 302490,
+     "text": "choosing to pursue the opportunities that optimize returns depending on market conditions."
+    },
+    {
+     "t0_ms": 309750,
+     "text": "At the end of Q3, our weighted average cost of debt across our entire business was 7.9%,"
+    },
+    {
+     "t0_ms": 316730,
+     "text": "down 250 basis points year over year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 321270,
+   "t1_ms": 363010,
+   "speaker": "Management",
+   "text": "Looking ahead, we will not use the unsecured debt market to fund our business at current yields, nor do we need to. Consistent with our historical approach, we expect to finance the majority of the remaining CapEx needed to deliver our backlog through delayed draw of term loans matched to specific customer contracts. Through 2027, more than 75% of committed CapEx is tied to investment-grade and enterprise customers, with the remainder tied to the world's leading AI labs and AI-native companies. The pricing of these facilities reflects the underlying customer commitments and our proven ability to deliver.",
+   "parts": [
+    {
+     "t0_ms": 321270,
+     "text": "Looking ahead, we will not use the unsecured debt market to fund our business at current yields,"
+    },
+    {
+     "t0_ms": 327790,
+     "text": "nor do we need to."
+    },
+    {
+     "t0_ms": 329390,
+     "text": "Consistent with our historical approach, we expect to finance the majority of the remaining CapEx"
+    },
+    {
+     "t0_ms": 334990,
+     "text": "needed to deliver our backlog through delayed draw of term loans matched to specific customer contracts."
+    },
+    {
+     "t0_ms": 342670,
+     "text": "Through 2027, more than 75% of committed CapEx is tied to investment-grade and enterprise customers,"
+    },
+    {
+     "t0_ms": 350690,
+     "text": "with the remainder tied to the world's leading AI labs and AI-native companies."
+    },
+    {
+     "t0_ms": 356210,
+     "text": "The pricing of these facilities reflects the underlying customer commitments and our proven ability to deliver."
+    }
+   ]
+  },
+  {
+   "t0_ms": 363850,
+   "t1_ms": 407990,
+   "speaker": "Management",
+   "text": "They can finance anywhere from 70% to 100% of the associated CapEx, and since our IPO, have priced somewhere from 225 to 550 basis points above SOFR, with high-quality, investment-grade customers at the tight end of that range and AI labs towards the wide end. Today, that translates to less than 10% at the high end based on current rates. These facilities allow us to draw capital as the equipment is purchased and delivered. The cash flow from those contracts pays interest and repays the principal over the contract term while generating additional cash flow for Corweave.",
+   "parts": [
+    {
+     "t0_ms": 363850,
+     "text": "They can finance anywhere from 70% to 100% of the associated CapEx,"
+    },
+    {
+     "t0_ms": 369630,
+     "text": "and since our IPO, have priced somewhere from 225 to 550 basis points above SOFR,"
+    },
+    {
+     "t0_ms": 377570,
+     "text": "with high-quality, investment-grade customers at the tight end of that range and AI labs towards the wide end."
+    },
+    {
+     "t0_ms": 385650,
+     "text": "Today, that translates to less than 10% at the high end based on current rates."
+    },
+    {
+     "t0_ms": 392170,
+     "text": "These facilities allow us to draw capital as the equipment is purchased and delivered."
+    },
+    {
+     "t0_ms": 398490,
+     "text": "The cash flow from those contracts pays interest and repays the principal over the contract term"
+    },
+    {
+     "t0_ms": 404530,
+     "text": "while generating additional cash flow for Corweave."
+    }
+   ]
+  },
+  {
+   "t0_ms": 408810,
+   "t1_ms": 452330,
+   "speaker": "Management",
+   "text": "As planned, we have already paid down more than $4 billion of debt through this mechanism. This includes paying down nearly half of our first two delayed draw term loans, which are our most expensive facilities. For the facilities funding long-term commitments, by the time the customer contract ends, the debt is repaid and the infrastructure is owned free and clear by Corweave. That paid-off infrastructure is becoming a meaningful source of capital in its own right. More of it comes off contract every year and generates revenue without new investment. The equipment is bought. The data centers are built. That lowers our capital intensity as we grow.",
+   "parts": [
+    {
+     "t0_ms": 408810,
+     "text": "As planned, we have already paid down more than $4 billion of debt through this mechanism."
+    },
+    {
+     "t0_ms": 414790,
+     "text": "This includes paying down nearly half of our first two delayed draw term loans, which are our most expensive facilities."
+    },
+    {
+     "t0_ms": 423190,
+     "text": "For the facilities funding long-term commitments, by the time the customer contract ends,"
+    },
+    {
+     "t0_ms": 428830,
+     "text": "the debt is repaid and the infrastructure is owned free and clear by Corweave."
+    },
+    {
+     "t0_ms": 433890,
+     "text": "That paid-off infrastructure is becoming a meaningful source of capital in its own right."
+    },
+    {
+     "t0_ms": 440250,
+     "text": "More of it comes off contract every year and generates revenue without new investment."
+    },
+    {
+     "t0_ms": 445990,
+     "text": "The equipment is bought."
+    },
+    {
+     "t0_ms": 447370,
+     "text": "The data centers are built."
+    },
+    {
+     "t0_ms": 449330,
+     "text": "That lowers our capital intensity as we grow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 452910,
+   "t1_ms": 496030,
+   "speaker": "Management",
+   "text": "We also have several other material sources of capital, including prepayments. We take an economic approach to prepayments, weighing the impact of pricing against the cost of financing. In the past, that has led us to the unsecured debt markets. In the current environment, prepayments are more attractive. This year, we have collected prepayments on 70% of our deals, with customers funding up to 100% of the contract value up front. In the next three months alone, we will collect approximately $9 billion in prepayments and deposits from signed customer contracts. This includes more than $3 billion that relate to recontracting existing cloud infrastructure,",
+   "parts": [
+    {
+     "t0_ms": 452910,
+     "text": "We also have several other material sources of capital, including prepayments."
+    },
+    {
+     "t0_ms": 458070,
+     "text": "We take an economic approach to prepayments, weighing the impact of pricing against the cost of financing."
+    },
+    {
+     "t0_ms": 465310,
+     "text": "In the past, that has led us to the unsecured debt markets."
+    },
+    {
+     "t0_ms": 468730,
+     "text": "In the current environment, prepayments are more attractive."
+    },
+    {
+     "t0_ms": 472930,
+     "text": "This year, we have collected prepayments on 70% of our deals, with customers funding up to 100% of the contract value up front."
+    },
+    {
+     "t0_ms": 482150,
+     "text": "In the next three months alone, we will collect approximately $9 billion in prepayments and deposits from signed customer contracts."
+    },
+    {
+     "t0_ms": 489970,
+     "text": "This includes more than $3 billion that relate to recontracting existing cloud infrastructure,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 496410,
+   "t1_ms": 539810,
+   "speaker": "Management",
+   "text": "which we sold at meaningful premiums to their original price. We also expect EBITDA, less interest, which excludes the benefit of prepayments, to more than double in 2027, increasing our ability to internally fund capital needs. Further, OEM financing supports additional deployments, particularly as an efficient means to fund capacity serving short-term opportunities. Taken together, we expect these sources to fund the significant majority of our capital needs through 2027, with only a limited amount expected to be raised at the parent company level. Our spending discipline matters just as much as our access to capital.",
+   "parts": [
+    {
+     "t0_ms": 496410,
+     "text": "which we sold at meaningful premiums to their original price."
+    },
+    {
+     "t0_ms": 500910,
+     "text": "We also expect EBITDA, less interest, which excludes the benefit of prepayments,"
+    },
+    {
+     "t0_ms": 506270,
+     "text": "to more than double in 2027, increasing our ability to internally fund capital needs."
+    },
+    {
+     "t0_ms": 513010,
+     "text": "Further, OEM financing supports additional deployments,"
+    },
+    {
+     "t0_ms": 516789,
+     "text": "particularly as an efficient means to fund capacity serving short-term opportunities."
+    },
+    {
+     "t0_ms": 523830,
+     "text": "Taken together, we expect these sources to fund the significant majority of our capital needs through 2027,"
+    },
+    {
+     "t0_ms": 531090,
+     "text": "with only a limited amount expected to be raised at the parent company level."
+    },
+    {
+     "t0_ms": 535910,
+     "text": "Our spending discipline matters just as much as our access to capital."
+    }
+   ]
+  },
+  {
+   "t0_ms": 540730,
+   "t1_ms": 581250,
+   "speaker": "Management",
+   "text": "Beyond our contracted commitments, our success-based CapEx model allows us to adjust the pace of our investment based on customer demand for CoreWeave Cloud and supply constraints, including regulatory impacts and the capital markets. That is a risk mitigant. We commit the large majority of our capital only once the contracts and infrastructure are in place. Nitin will address this in more detail shortly. Now, let me connect that financing model to the economics you are seeing in our results. As more contracted infrastructure enters service, revenue grows against investments we have already made,",
+   "parts": [
+    {
+     "t0_ms": 540730,
+     "text": "Beyond our contracted commitments, our success-based CapEx model allows us to adjust the pace of our investment"
+    },
+    {
+     "t0_ms": 547970,
+     "text": "based on customer demand for CoreWeave Cloud and supply constraints, including regulatory impacts and the capital markets."
+    },
+    {
+     "t0_ms": 556730,
+     "text": "That is a risk mitigant."
+    },
+    {
+     "t0_ms": 559130,
+     "text": "We commit the large majority of our capital only once the contracts and infrastructure are in place."
+    },
+    {
+     "t0_ms": 566170,
+     "text": "Nitin will address this in more detail shortly."
+    },
+    {
+     "t0_ms": 569430,
+     "text": "Now, let me connect that financing model to the economics you are seeing in our results."
+    },
+    {
+     "t0_ms": 574690,
+     "text": "As more contracted infrastructure enters service, revenue grows against investments we have already made,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 581250,
+   "t1_ms": 623390,
+   "speaker": "Management",
+   "text": "and each new deployment becomes a smaller share of a much larger business. That is the operating leverage we described last quarter. Adjusted operating margin was approximately 1% in Q1, 5% in Q2, and exceeded 10% in Q3. The economics of new business are strengthening as well. In July, we increased pricing across SKUs by approximately 25%, followed by another 10% increase later in the quarter. Pricing has continued to move higher in Q4, more than offsetting cost increases. We are also allocating more capacity to short-term opportunities where the pricing justifies it.",
+   "parts": [
+    {
+     "t0_ms": 581250,
+     "text": "and each new deployment becomes a smaller share of a much larger business."
+    },
+    {
+     "t0_ms": 586410,
+     "text": "That is the operating leverage we described last quarter."
+    },
+    {
+     "t0_ms": 590090,
+     "text": "Adjusted operating margin was approximately 1% in Q1, 5% in Q2, and exceeded 10% in Q3."
+    },
+    {
+     "t0_ms": 599210,
+     "text": "The economics of new business are strengthening as well."
+    },
+    {
+     "t0_ms": 602250,
+     "text": "In July, we increased pricing across SKUs by approximately 25%, followed by another 10% increase later in the quarter."
+    },
+    {
+     "t0_ms": 612090,
+     "text": "Pricing has continued to move higher in Q4, more than offsetting cost increases."
+    },
+    {
+     "t0_ms": 616890,
+     "text": "We are also allocating more capacity to short-term opportunities where the pricing justifies it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 623990,
+   "t1_ms": 668110,
+   "speaker": "Management",
+   "text": "Selling capacity at more than $40 million per megawatt annually, while pricing for new infrastructure on four- and five-year contracts is moving to $20 to $25 million per megawatt. Long-term commitments provide the visibility that supports our build-out. Short-term contracts let us respond to a strong pricing environment and earn premium returns. We weigh that trade-off contract by contract, assessing the full economics of an investment, the revenue it can earn, the cost of operating it, and the cost of financing it. Strong demand gives us choices in how we best create durable value. We see the same strength in our prior generation fleet.",
+   "parts": [
+    {
+     "t0_ms": 623990,
+     "text": "Selling capacity at more than $40 million per megawatt annually,"
+    },
+    {
+     "t0_ms": 627970,
+     "text": "while pricing for new infrastructure on four- and five-year contracts is moving to $20 to $25 million per megawatt."
+    },
+    {
+     "t0_ms": 636830,
+     "text": "Long-term commitments provide the visibility that supports our build-out."
+    },
+    {
+     "t0_ms": 641950,
+     "text": "Short-term contracts let us respond to a strong pricing environment and earn premium returns."
+    },
+    {
+     "t0_ms": 648130,
+     "text": "We weigh that trade-off contract by contract, assessing the full economics of an investment,"
+    },
+    {
+     "t0_ms": 653530,
+     "text": "the revenue it can earn, the cost of operating it, and the cost of financing it."
+    },
+    {
+     "t0_ms": 659430,
+     "text": "Strong demand gives us choices in how we best create durable value."
+    },
+    {
+     "t0_ms": 664830,
+     "text": "We see the same strength in our prior generation fleet."
+    }
+   ]
+  },
+  {
+   "t0_ms": 668110,
+   "t1_ms": 711410,
+   "speaker": "Management",
+   "text": "In Q3, pricing for Amperes and Hoppers increased 30% to 50% quarter over quarter and at prices above their original contracts. Different workloads require different combinations of performance and cost. Earlier generations continue to offer compelling economics, particularly when they are part of a reliable, scaled cloud. We are signing multi-year commitments extending beyond the GPU's depreciable lives, driving margins even higher in their later years as price and operating costs remain fixed, but depreciation dissipates. More than 130,000 GPUs come off contract in 2027,",
+   "parts": [
+    {
+     "t0_ms": 668110,
+     "text": "In Q3, pricing for Amperes and Hoppers increased 30% to 50% quarter over quarter"
+    },
+    {
+     "t0_ms": 674710,
+     "text": "and at prices above their original contracts."
+    },
+    {
+     "t0_ms": 678550,
+     "text": "Different workloads require different combinations of performance and cost."
+    },
+    {
+     "t0_ms": 683470,
+     "text": "Earlier generations continue to offer compelling economics,"
+    },
+    {
+     "t0_ms": 687090,
+     "text": "particularly when they are part of a reliable, scaled cloud."
+    },
+    {
+     "t0_ms": 691330,
+     "text": "We are signing multi-year commitments extending beyond the GPU's depreciable lives,"
+    },
+    {
+     "t0_ms": 696570,
+     "text": "driving margins even higher in their later years as price and operating costs remain fixed,"
+    },
+    {
+     "t0_ms": 703570,
+     "text": "but depreciation dissipates. More than 130,000 GPUs come off contract in 2027,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 711930,
+   "t1_ms": 756310,
+   "speaker": "Management",
+   "text": "as do another approximately 170,000 GPUs in 2028. We already have a robust pipeline of customers competing for this capacity. At current pricing levels, 2027 renewals would generate approaching $4 billion of incremental annualized revenue with no additional CapEx required. This grows to nearly $10 billion of annualized incremental revenue when including 2028 renewals. Furthermore, if data center construction across the sector were to slow, installed compute becomes scarcer, and the knock-on effect is that GPU pricing may stay higher for longer. In that scenario, being first matters.",
+   "parts": [
+    {
+     "t0_ms": 711930,
+     "text": "as do another approximately 170,000 GPUs in 2028. We already have a robust pipeline of customers"
+    },
+    {
+     "t0_ms": 720550,
+     "text": "competing for this capacity. At current pricing levels, 2027 renewals would generate approaching"
+    },
+    {
+     "t0_ms": 727270,
+     "text": "$4 billion of incremental annualized revenue with no additional CapEx required. This grows to nearly"
+    },
+    {
+     "t0_ms": 735070,
+     "text": "$10 billion of annualized incremental revenue when including 2028 renewals. Furthermore,"
+    },
+    {
+     "t0_ms": 741930,
+     "text": "if data center construction across the sector were to slow, installed compute becomes scarcer,"
+    },
+    {
+     "t0_ms": 747730,
+     "text": "and the knock-on effect is that GPU pricing may stay higher for longer."
+    },
+    {
+     "t0_ms": 753550,
+     "text": "In that scenario, being first matters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 757010,
+   "t1_ms": 801650,
+   "speaker": "Management",
+   "text": "Our installed base comes off contract, fully paid, years ahead of most others in the market. We're well positioned across a range of market conditions. If the industry builds quickly, we grow with it. If supply is delayed, our installed, paid-off fleet becomes more valuable. We do not build our plan on that scenario. The plan rests on contracted demand, success-based CapEx, and the contracts we are already signing. Last quarter, I described how training, inference, evaluation, and improvement are becoming a continuous AI development loop. An application in production generates information about where it works and where it falls short.",
+   "parts": [
+    {
+     "t0_ms": 757010,
+     "text": "Our installed base comes off contract, fully paid, years ahead of most others in the market."
+    },
+    {
+     "t0_ms": 763770,
+     "text": "We're well positioned across a range of market conditions."
+    },
+    {
+     "t0_ms": 767890,
+     "text": "If the industry builds quickly, we grow with it."
+    },
+    {
+     "t0_ms": 771030,
+     "text": "If supply is delayed, our installed, paid-off fleet becomes more valuable."
+    },
+    {
+     "t0_ms": 775690,
+     "text": "We do not build our plan on that scenario."
+    },
+    {
+     "t0_ms": 779430,
+     "text": "The plan rests on contracted demand, success-based CapEx, and the contracts we are already signing."
+    },
+    {
+     "t0_ms": 786630,
+     "text": "Last quarter, I described how training, inference, evaluation, and improvement are becoming a continuous AI development loop."
+    },
+    {
+     "t0_ms": 795950,
+     "text": "An application in production generates information about where it works and where it falls short."
+    }
+   ]
+  },
+  {
+   "t0_ms": 802470,
+   "t1_ms": 841150,
+   "speaker": "Management",
+   "text": "Developers use that information to improve it, test the changes, and put a better application back into use. That process requires sophisticated software that helps people learn from each experiment and highly dependable cloud infrastructure throughout the life of the application. This is what CoreWeave does best. We deliver a unified platform that makes hundreds of thousands of GPUs work together as a high-performance, full-stack cloud integrating networking, cooling, orchestration, and observability. This is why customers choose CoreWeave for their most important workloads.",
+   "parts": [
+    {
+     "t0_ms": 802470,
+     "text": "Developers use that information to improve it, test the changes, and put a better application back into use."
+    },
+    {
+     "t0_ms": 809790,
+     "text": "That process requires sophisticated software that helps people learn from each experiment"
+    },
+    {
+     "t0_ms": 815490,
+     "text": "and highly dependable cloud infrastructure throughout the life of the application."
+    },
+    {
+     "t0_ms": 820830,
+     "text": "This is what CoreWeave does best."
+    },
+    {
+     "t0_ms": 823350,
+     "text": "We deliver a unified platform that makes hundreds of thousands of GPUs work together"
+    },
+    {
+     "t0_ms": 828590,
+     "text": "as a high-performance, full-stack cloud integrating networking, cooling, orchestration, and observability."
+    },
+    {
+     "t0_ms": 837190,
+     "text": "This is why customers choose CoreWeave for their most important workloads."
+    }
+   ]
+  },
+  {
+   "t0_ms": 841150,
+   "t1_ms": 884870,
+   "speaker": "Management",
+   "text": "In September, we introduced CoreWeave Forge to bring our AI development capabilities together in one environment. We are making the products and services we developed alongside leading AI labs accessible to enterprise customers so they too can build leveraging their own expertise and data. In Q3, 70% of the new cloud customers we added were already Forge customers. Wave is one example of how our relationship expands as the work becomes more demanding. They began using our software and development tools to experiment and assess model performance and now use CoreWeave Cloud to train their family of world models for autonomous driving.",
+   "parts": [
+    {
+     "t0_ms": 841150,
+     "text": "In September, we introduced CoreWeave Forge to bring our AI development capabilities together in one environment."
+    },
+    {
+     "t0_ms": 849190,
+     "text": "We are making the products and services we developed alongside leading AI labs accessible to enterprise customers"
+    },
+    {
+     "t0_ms": 855910,
+     "text": "so they too can build leveraging their own expertise and data."
+    },
+    {
+     "t0_ms": 860970,
+     "text": "In Q3, 70% of the new cloud customers we added were already Forge customers."
+    },
+    {
+     "t0_ms": 867610,
+     "text": "Wave is one example of how our relationship expands as the work becomes more demanding."
+    },
+    {
+     "t0_ms": 873610,
+     "text": "They began using our software and development tools to experiment and assess model performance"
+    },
+    {
+     "t0_ms": 878930,
+     "text": "and now use CoreWeave Cloud to train their family of world models for autonomous driving."
+    }
+   ]
+  },
+  {
+   "t0_ms": 884870,
+   "t1_ms": 925470,
+   "speaker": "Management",
+   "text": "The Chan Zuckerberg Initiative is using CoreWeave for computational biology research. Hippocratic AI is training and deploying agents to support patient communication and care navigation. These are efforts to understand disease more deeply and help people get the information and support they need through their care. In engineering, our teams work with organizations including Nissan and Aston Martin Aramco Formula One to shorten testing cycles and reduce the data required to reach target accuracy. The broader promise of physical AI is to help engineers develop better systems",
+   "parts": [
+    {
+     "t0_ms": 884870,
+     "text": "The Chan Zuckerberg Initiative is using CoreWeave for computational biology research."
+    },
+    {
+     "t0_ms": 891610,
+     "text": "Hippocratic AI is training and deploying agents to support patient communication and care"
+    },
+    {
+     "t0_ms": 897750,
+     "text": "navigation."
+    },
+    {
+     "t0_ms": 898990,
+     "text": "These are efforts to understand disease more deeply and help people get the information"
+    },
+    {
+     "t0_ms": 904010,
+     "text": "and support they need through their care."
+    },
+    {
+     "t0_ms": 907630,
+     "text": "In engineering, our teams work with organizations including Nissan and Aston Martin Aramco"
+    },
+    {
+     "t0_ms": 913790,
+     "text": "Formula One to shorten testing cycles and reduce the data required to reach target accuracy."
+    },
+    {
+     "t0_ms": 920050,
+     "text": "The broader promise of physical AI is to help engineers develop better systems"
+    }
+   ]
+  },
+  {
+   "t0_ms": 925470,
+   "t1_ms": 968790,
+   "speaker": "Management",
+   "text": "and bring useful capabilities into the real world sooner. Masterclass uses Forge to evaluate conversations with its teaching agents and improve the experiences they run on CoreWeave Cloud. The opportunity is to make learning more responsive to the individual, with help available when a person needs it. These customers are doing the scientific, clinical, engineering, and educational work that combines human discovery with AI. CoreWeave gives them a platform on which they can pursue it at scale and speed. That is why both the platform and the infrastructure of our AI cloud matters.",
+   "parts": [
+    {
+     "t0_ms": 925470,
+     "text": "and bring useful capabilities into the real world sooner. Masterclass uses Forge to evaluate"
+    },
+    {
+     "t0_ms": 932610,
+     "text": "conversations with its teaching agents and improve the experiences they run on CoreWeave Cloud."
+    },
+    {
+     "t0_ms": 939470,
+     "text": "The opportunity is to make learning more responsive to the individual,"
+    },
+    {
+     "t0_ms": 943970,
+     "text": "with help available when a person needs it."
+    },
+    {
+     "t0_ms": 946910,
+     "text": "These customers are doing the scientific, clinical, engineering, and educational work"
+    },
+    {
+     "t0_ms": 953450,
+     "text": "that combines human discovery with AI."
+    },
+    {
+     "t0_ms": 957430,
+     "text": "CoreWeave gives them a platform on which they can pursue it at scale and speed."
+    },
+    {
+     "t0_ms": 963230,
+     "text": "That is why both the platform and the infrastructure of our AI cloud matters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 969490,
+   "t1_ms": 1012510,
+   "speaker": "Management",
+   "text": "The distance between a promising idea and a useful application depends in part on whether people can run the experiments, evaluate the results, and afford to serve the application reliably. More than half of our new customers this year came from industries outside AI labs and technology, and 10% of Fortune 500 companies are now CoreWeave customers. The number of organizations committing more than $100 million to CoreWeave Cloud increased more than 2.5 times year over year. As customers find more valuable uses for AI, they need more from the platform. That broadens our opportunities and deepens our relationships.",
+   "parts": [
+    {
+     "t0_ms": 969490,
+     "text": "The distance between a promising idea and a useful application depends in part on whether people can run the experiments,"
+    },
+    {
+     "t0_ms": 977010,
+     "text": "evaluate the results, and afford to serve the application reliably."
+    },
+    {
+     "t0_ms": 981670,
+     "text": "More than half of our new customers this year came from industries outside AI labs and technology,"
+    },
+    {
+     "t0_ms": 987850,
+     "text": "and 10% of Fortune 500 companies are now CoreWeave customers."
+    },
+    {
+     "t0_ms": 993610,
+     "text": "The number of organizations committing more than $100 million to CoreWeave Cloud"
+    },
+    {
+     "t0_ms": 998430,
+     "text": "increased more than 2.5 times year over year."
+    },
+    {
+     "t0_ms": 1002790,
+     "text": "As customers find more valuable uses for AI, they need more from the platform."
+    },
+    {
+     "t0_ms": 1008970,
+     "text": "That broadens our opportunities and deepens our relationships."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1012510,
+   "t1_ms": 1054150,
+   "speaker": "Management",
+   "text": "We have 10 times as much qualified demand as available capacity through the end of 2027, and demand for 2028 is already several times larger than our available capacity, even before we have brought it formally to market. We now have more than 1.7 gigawatts of active power. We continue to expect to reach more than 1.85 gigawatts of active power by year-end. We also do not see material risks to our 2027 deliveries based on ongoing construction at fully permitted sites. This year, we made international expansion a strategic priority.",
+   "parts": [
+    {
+     "t0_ms": 1012510,
+     "text": "We have 10 times as much qualified demand as available capacity through the end of 2027,"
+    },
+    {
+     "t0_ms": 1020010,
+     "text": "and demand for 2028 is already several times larger than our available capacity,"
+    },
+    {
+     "t0_ms": 1025869,
+     "text": "even before we have brought it formally to market."
+    },
+    {
+     "t0_ms": 1028970,
+     "text": "We now have more than 1.7 gigawatts of active power."
+    },
+    {
+     "t0_ms": 1033410,
+     "text": "We continue to expect to reach more than 1.85 gigawatts of active power by year-end."
+    },
+    {
+     "t0_ms": 1039710,
+     "text": "We also do not see material risks to our 2027 deliveries based on ongoing construction at fully permitted sites."
+    },
+    {
+     "t0_ms": 1049670,
+     "text": "This year, we made international expansion a strategic priority."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1054810,
+   "t1_ms": 1097650,
+   "speaker": "Management",
+   "text": "Among our 4.6 gigawatts of contracted power, we now have more than 1.3 gigawatts outside of the U.S., spanning Canada, Europe, and Asia, built where our customers asked us to be present. In Q3, we entered new markets like Indonesia and India, while growing our footprint in Denmark and Spain. Our global AI backbone connects our infrastructure across all regions, giving customers consistent performance, software, and reliability, regardless of where their compute infrastructure is located. Our focus remains on delivering the capacity customers have committed to use and earning strong returns on every deployment.",
+   "parts": [
+    {
+     "t0_ms": 1054810,
+     "text": "Among our 4.6 gigawatts of contracted power, we now have more than 1.3 gigawatts outside of the U.S.,"
+    },
+    {
+     "t0_ms": 1062350,
+     "text": "spanning Canada, Europe, and Asia, built where our customers asked us to be present."
+    },
+    {
+     "t0_ms": 1068090,
+     "text": "In Q3, we entered new markets like Indonesia and India, while growing our footprint in Denmark and Spain."
+    },
+    {
+     "t0_ms": 1076870,
+     "text": "Our global AI backbone connects our infrastructure across all regions, giving customers consistent performance, software, and reliability, regardless of where their compute infrastructure is located."
+    },
+    {
+     "t0_ms": 1089490,
+     "text": "Our focus remains on delivering the capacity customers have committed to use and earning strong returns on every deployment."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1098090,
+   "t1_ms": 1142390,
+   "speaker": "Management",
+   "text": "Before I turn it over to Nitin, let me return to where I started. We built CoreWeave to be an enduring business. We are growing profitably on an operating basis and at scale. Our financing strategy will continue to link capital to committed customer contracts underpinned by attractive returns and drawn from a broad and diverse set of sources. Tying these together allows us to calibrate our pace of investment to customer demand, the regulatory landscape, and the capital markets. We are delivering capacity ahead of plan, and the value of that capacity is increasing with our original fleet recontracting at a premium.",
+   "parts": [
+    {
+     "t0_ms": 1098090,
+     "text": "Before I turn it over to Nitin, let me return to where I started."
+    },
+    {
+     "t0_ms": 1103530,
+     "text": "We built CoreWeave to be an enduring business."
+    },
+    {
+     "t0_ms": 1107330,
+     "text": "We are growing profitably on an operating basis and at scale."
+    },
+    {
+     "t0_ms": 1112470,
+     "text": "Our financing strategy will continue to link capital to committed customer contracts underpinned by attractive returns and drawn from a broad and diverse set of sources."
+    },
+    {
+     "t0_ms": 1123970,
+     "text": "Tying these together allows us to calibrate our pace of investment to customer demand,"
+    },
+    {
+     "t0_ms": 1129230,
+     "text": "the regulatory landscape, and the capital markets."
+    },
+    {
+     "t0_ms": 1133170,
+     "text": "We are delivering capacity ahead of plan, and the value of that capacity is increasing"
+    },
+    {
+     "t0_ms": 1139010,
+     "text": "with our original fleet recontracting at a premium."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1143110,
+   "t1_ms": 1182560,
+   "speaker": "Management",
+   "text": "We continue to work to earn the trust of the communities where we invest and the customers we serve. And our cloud platform combines leading price performance and reliability with the innovation, software, and development tools enterprises depend on to accelerate their AI strategies. We have reached an inflection point, with our business becoming increasingly durable while the fundamentals accelerate. We are confident in our ability to deliver for the customers, shareholders, and the communities we are partnering with for the long term. With that, here's Nitin. And good afternoon, everyone.",
+   "parts": [
+    {
+     "t0_ms": 1143110,
+     "text": "We continue to work to earn the trust of the communities where we invest and the customers we serve."
+    },
+    {
+     "t0_ms": 1148750,
+     "text": "And our cloud platform combines leading price performance and reliability with the innovation, software, and development tools enterprises depend on to accelerate their AI strategies."
+    },
+    {
+     "t0_ms": 1161090,
+     "text": "We have reached an inflection point, with our business becoming increasingly durable while the fundamentals accelerate."
+    },
+    {
+     "t0_ms": 1168710,
+     "text": "We are confident in our ability to deliver for the customers, shareholders, and the communities we are partnering with for the long term."
+    },
+    {
+     "t0_ms": 1177310,
+     "text": "With that, here's Nitin."
+    },
+    {
+     "t0_ms": 1181260,
+     "text": "And good afternoon, everyone."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1183180,
+   "t1_ms": 1225240,
+   "speaker": "Management",
+   "text": "Mike shared the momentum in our business across revenue growth, margin growth, demand and rising contribution margins, renewals on our original infrastructure, and our capital plan. I will put the numbers behind them. Q3 demonstrated that our model is delivering the operating leverage we said it would as we scale. We grew active power to more than 1.7 gigawatts of critical IT load. increased revenue by more than $1 billion sequentially, and expanded adjusted operating margins into the double digits, five percentage points higher than Q2. Three things drove the quarter. First, we continue to convert contracted power to active power",
+   "parts": [
+    {
+     "t0_ms": 1183180,
+     "text": "Mike shared the momentum in our business across revenue growth, margin growth, demand and rising contribution margins,"
+    },
+    {
+     "t0_ms": 1190460,
+     "text": "renewals on our original infrastructure, and our capital plan."
+    },
+    {
+     "t0_ms": 1194280,
+     "text": "I will put the numbers behind them."
+    },
+    {
+     "t0_ms": 1196700,
+     "text": "Q3 demonstrated that our model is delivering the operating leverage we said it would as we scale."
+    },
+    {
+     "t0_ms": 1202620,
+     "text": "We grew active power to more than 1.7 gigawatts of critical IT load."
+    },
+    {
+     "t0_ms": 1208280,
+     "text": "increased revenue by more than $1 billion sequentially,"
+    },
+    {
+     "t0_ms": 1211600,
+     "text": "and expanded adjusted operating margins into the double digits,"
+    },
+    {
+     "t0_ms": 1215560,
+     "text": "five percentage points higher than Q2."
+    },
+    {
+     "t0_ms": 1218640,
+     "text": "Three things drove the quarter."
+    },
+    {
+     "t0_ms": 1221240,
+     "text": "First, we continue to convert contracted power to active power"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1225240,
+   "t1_ms": 1268380,
+   "speaker": "Management",
+   "text": "and revenue-generating capacity at a rapid pace. Second, demand and pricing are strengthening, driven by the returns customers are realizing from their AI spend with CoreWeave. Our expanded operating footprint gives us the flexibility to capture more of that upside through premium-priced and short-term opportunities. Third, platform adoption continues to broaden and deepen with customers across industries using a wider range of our products and services. Our AI products and services continue to scale as customers consolidate more of their AI spending with CoreWeave. Customers are moving from experimentation to production, and the returns they measure are driving our demand.",
+   "parts": [
+    {
+     "t0_ms": 1225240,
+     "text": "and revenue-generating capacity at a rapid pace."
+    },
+    {
+     "t0_ms": 1229200,
+     "text": "Second, demand and pricing are strengthening,"
+    },
+    {
+     "t0_ms": 1231900,
+     "text": "driven by the returns customers are realizing from their AI spend with CoreWeave."
+    },
+    {
+     "t0_ms": 1236800,
+     "text": "Our expanded operating footprint gives us the flexibility to capture more of that upside through premium-priced and short-term opportunities."
+    },
+    {
+     "t0_ms": 1246440,
+     "text": "Third, platform adoption continues to broaden and deepen with customers across industries using a wider range of our products and services."
+    },
+    {
+     "t0_ms": 1255540,
+     "text": "Our AI products and services continue to scale as customers consolidate more of their AI spending with CoreWeave."
+    },
+    {
+     "t0_ms": 1262700,
+     "text": "Customers are moving from experimentation to production, and the returns they measure are driving our demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1269140,
+   "t1_ms": 1310720,
+   "speaker": "Management",
+   "text": "Our managed inference platform, launched earlier this year, has already exceeded $250 million of booked ARR. Growth of this business is constrained primarily by the capacity allocated to it. Taken together, these dynamics are increasing the returns on our product and capacity investments and reinforcing our confidence in the long-term economics of the business. We recognize we are operating in a dynamic macro environment. We are not a growth-at-all-costs business. But today's environment is very profitable for companies that have demand for their differentiated technology and that can execute. Our success-based CapEx model ties investment to customer commitments.",
+   "parts": [
+    {
+     "t0_ms": 1269140,
+     "text": "Our managed inference platform, launched earlier this year, has already exceeded $250 million of booked ARR."
+    },
+    {
+     "t0_ms": 1276640,
+     "text": "Growth of this business is constrained primarily by the capacity allocated to it."
+    },
+    {
+     "t0_ms": 1281140,
+     "text": "Taken together, these dynamics are increasing the returns on our product and capacity investments"
+    },
+    {
+     "t0_ms": 1286840,
+     "text": "and reinforcing our confidence in the long-term economics of the business."
+    },
+    {
+     "t0_ms": 1291200,
+     "text": "We recognize we are operating in a dynamic macro environment."
+    },
+    {
+     "t0_ms": 1295880,
+     "text": "We are not a growth-at-all-costs business."
+    },
+    {
+     "t0_ms": 1298780,
+     "text": "But today's environment is very profitable for companies that have demand for their differentiated technology and that can execute."
+    },
+    {
+     "t0_ms": 1306520,
+     "text": "Our success-based CapEx model ties investment to customer commitments."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1311560,
+   "t1_ms": 1355530,
+   "speaker": "Management",
+   "text": "Each contract we enter is underwritten to cover its associated expenses and produce a profit. In each underwriting, we account for the GPUs, the data centers, the power, and the corporate overhead behind the contract. That has not changed. So, to reaffirm what we have said previously, we expect the contracted cash flow from our existing customer commitments to be sufficient to service and repay the debt we have outstanding today, as well as any additional debt we expect to raise to deliver these contracts. For the avoidance of doubt, that includes both asset-level secured debt and unsecured debt sitting at the parent level, before counting renewals.",
+   "parts": [
+    {
+     "t0_ms": 1311560,
+     "text": "Each contract we enter is underwritten to cover its associated expenses and produce a profit."
+    },
+    {
+     "t0_ms": 1317220,
+     "text": "In each underwriting, we account for the GPUs, the data centers, the power, and the corporate overhead behind the contract."
+    },
+    {
+     "t0_ms": 1326140,
+     "text": "That has not changed."
+    },
+    {
+     "t0_ms": 1328300,
+     "text": "So, to reaffirm what we have said previously,"
+    },
+    {
+     "t0_ms": 1331780,
+     "text": "we expect the contracted cash flow from our existing customer commitments to be sufficient to service and repay the debt we have outstanding today,"
+    },
+    {
+     "t0_ms": 1340660,
+     "text": "as well as any additional debt we expect to raise to deliver these contracts."
+    },
+    {
+     "t0_ms": 1345100,
+     "text": "For the avoidance of doubt, that includes both asset-level secured debt and unsecured debt sitting at the parent level,"
+    },
+    {
+     "t0_ms": 1352960,
+     "text": "before counting renewals."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1356030,
+   "t1_ms": 1400230,
+   "speaker": "Management",
+   "text": "Now turning to our third quarter results. Revenue was $3.7 billion, up 168% year-over-year and above the high end of our guidance, reflecting strong execution and a favorable demand and pricing environment for Covi's AI cloud platform and services. Revenue backlog ended the quarter at approximately $133 billion, up 138% year-over-year, reaching another record high. Of this backlog, more than 50% is attached to a contract where we expect customer delivery to commence by the end of this year. Operating expenses were $3.5 billion, including stock-based compensation expense of $160 million.",
+   "parts": [
+    {
+     "t0_ms": 1356030,
+     "text": "Now turning to our third quarter results."
+    },
+    {
+     "t0_ms": 1359130,
+     "text": "Revenue was $3.7 billion, up 168% year-over-year and above the high end of our guidance,"
+    },
+    {
+     "t0_ms": 1366730,
+     "text": "reflecting strong execution and a favorable demand and pricing environment for Covi's AI cloud platform and services."
+    },
+    {
+     "t0_ms": 1373750,
+     "text": "Revenue backlog ended the quarter at approximately $133 billion, up 138% year-over-year, reaching another record high."
+    },
+    {
+     "t0_ms": 1385450,
+     "text": "Of this backlog, more than 50% is attached to a contract where we expect customer delivery to commence by the end of this year."
+    },
+    {
+     "t0_ms": 1393110,
+     "text": "Operating expenses were $3.5 billion, including stock-based compensation expense of $160 million."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1400230,
+   "t1_ms": 1444330,
+   "speaker": "Management",
+   "text": "The increase primarily reflects the cost of scaling our active power and converting backlog into revenue, driving corresponding increases in our cost of revenue and technology and infrastructure spend. Sales and marketing expense continues to support our go-to-market strategy and diversification of our customer base and multi-product adoption. G&A increased primarily due to investments required to support our scale, while continuing to moderate versus revenue growth. Adjusted operating income was $379 million and adjusted operating margin was 10%, expanding sequentially from 5% in the second quarter and 1% in the first quarter of 2026.",
+   "parts": [
+    {
+     "t0_ms": 1400230,
+     "text": "The increase primarily reflects the cost of scaling our active power and converting backlog into revenue,"
+    },
+    {
+     "t0_ms": 1407930,
+     "text": "driving corresponding increases in our cost of revenue and technology and infrastructure spend."
+    },
+    {
+     "t0_ms": 1414410,
+     "text": "Sales and marketing expense continues to support our go-to-market strategy"
+    },
+    {
+     "t0_ms": 1418710,
+     "text": "and diversification of our customer base and multi-product adoption."
+    },
+    {
+     "t0_ms": 1423790,
+     "text": "G&A increased primarily due to investments required to support our scale,"
+    },
+    {
+     "t0_ms": 1427910,
+     "text": "while continuing to moderate versus revenue growth."
+    },
+    {
+     "t0_ms": 1431610,
+     "text": "Adjusted operating income was $379 million"
+    },
+    {
+     "t0_ms": 1434710,
+     "text": "and adjusted operating margin was 10%,"
+    },
+    {
+     "t0_ms": 1437730,
+     "text": "expanding sequentially from 5% in the second quarter"
+    },
+    {
+     "t0_ms": 1441190,
+     "text": "and 1% in the first quarter of 2026."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1445190,
+   "t1_ms": 1489850,
+   "speaker": "Management",
+   "text": "We achieved low double-digit margins one quarter ahead of the plan we stated to start the year. Our margin outperformance reflects strong execution, a favorable demand and pricing environment, and the operating leverage that comes with scale. We continue to see attractive opportunities across both long- and short-term contracts. The scale and flexibility of our platform allow us to allocate available capacity strategically to higher-margin, short-term contracts when those opportunities arise. This portfolio approach contributed meaningfully to our strong Q3 results. Adjusted EBITDA for Q3 was $2.3 billion compared to $838 million in Q3 of 2025,",
+   "parts": [
+    {
+     "t0_ms": 1445190,
+     "text": "We achieved low double-digit margins"
+    },
+    {
+     "t0_ms": 1447330,
+     "text": "one quarter ahead of the plan we stated to start the year."
+    },
+    {
+     "t0_ms": 1451270,
+     "text": "Our margin outperformance reflects strong execution,"
+    },
+    {
+     "t0_ms": 1455010,
+     "text": "a favorable demand and pricing environment,"
+    },
+    {
+     "t0_ms": 1456970,
+     "text": "and the operating leverage that comes with scale."
+    },
+    {
+     "t0_ms": 1460410,
+     "text": "We continue to see attractive opportunities across both long- and short-term contracts."
+    },
+    {
+     "t0_ms": 1465810,
+     "text": "The scale and flexibility of our platform allow us to allocate available capacity strategically"
+    },
+    {
+     "t0_ms": 1471810,
+     "text": "to higher-margin, short-term contracts when those opportunities arise."
+    },
+    {
+     "t0_ms": 1476970,
+     "text": "This portfolio approach contributed meaningfully to our strong Q3 results."
+    },
+    {
+     "t0_ms": 1482330,
+     "text": "Adjusted EBITDA for Q3 was $2.3 billion compared to $838 million in Q3 of 2025,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1490590,
+   "t1_ms": 1532890,
+   "speaker": "Management",
+   "text": "up 169% year-over-year and 49% sequentially. Our adjusted EBITDA margin was 62%, the highest it has been in the last five quarters. This strong performance translated into $2 billion of operating cash flow in Q3. As we scale, operating cash flow will continue to grow and become an increasingly important source of funding for our growth. Net loss for Q3 was $709 million compared to a net loss of $110 million in Q3 of 2025. Interest expense for Q3 was $846 million compared to $310 million in Q3 of 2025.",
+   "parts": [
+    {
+     "t0_ms": 1490590,
+     "text": "up 169% year-over-year and 49% sequentially."
+    },
+    {
+     "t0_ms": 1496210,
+     "text": "Our adjusted EBITDA margin was 62%, the highest it has been in the last five quarters."
+    },
+    {
+     "t0_ms": 1503030,
+     "text": "This strong performance translated into $2 billion of operating cash flow in Q3."
+    },
+    {
+     "t0_ms": 1509190,
+     "text": "As we scale, operating cash flow will continue to grow"
+    },
+    {
+     "t0_ms": 1512410,
+     "text": "and become an increasingly important source of funding for our growth."
+    },
+    {
+     "t0_ms": 1516170,
+     "text": "Net loss for Q3 was $709 million compared to a net loss of $110 million in Q3 of 2025."
+    },
+    {
+     "t0_ms": 1525130,
+     "text": "Interest expense for Q3 was $846 million compared to $310 million in Q3 of 2025."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1533650,
+   "t1_ms": 1571810,
+   "speaker": "Management",
+   "text": "Adjusted operating income at $379 million nearly tripled from the second quarter, while interest expense rose about a third. That is the path to earnings. The same driver runs through adjusted net loss, $529 million against $41 million a year ago. We recorded an income tax provision despite a net loss due to valuation allowance on net deferred tax assets. As noted last quarter, absent significant discrete items or a change in circumstances, our tax rate should remain broadly consistent over 2026.",
+   "parts": [
+    {
+     "t0_ms": 1533650,
+     "text": "Adjusted operating income at $379 million nearly tripled from the second quarter,"
+    },
+    {
+     "t0_ms": 1540030,
+     "text": "while interest expense rose about a third."
+    },
+    {
+     "t0_ms": 1543310,
+     "text": "That is the path to earnings."
+    },
+    {
+     "t0_ms": 1545510,
+     "text": "The same driver runs through adjusted net loss, $529 million against $41 million a year ago."
+    },
+    {
+     "t0_ms": 1553350,
+     "text": "We recorded an income tax provision despite a net loss due to valuation allowance on net deferred tax assets."
+    },
+    {
+     "t0_ms": 1560710,
+     "text": "As noted last quarter, absent significant discrete items or a change in circumstances, our tax rate should remain broadly consistent over 2026."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1572630,
+   "t1_ms": 1617010,
+   "speaker": "Management",
+   "text": "Turning to capital expenditures, CapEx totaled $14.5 billion in Q3, above the high end of our guided range, reflecting strong execution that allowed us to pull forward certain deliveries from Q4. That same execution drove Construction in Progress, CIP, down to $9.3 billion from $11.9 billion last quarter as we deployed significant infrastructure against power that became available late in Q2. Year-to-date, we've brought online more than 850 megawatts of power, bringing our total life footprint to more than 1.7 gigawatts, doubling our active power footprint from year-end 2025 in just three quarters.",
+   "parts": [
+    {
+     "t0_ms": 1572630,
+     "text": "Turning to capital expenditures, CapEx totaled $14.5 billion in Q3, above the high end of our guided range, reflecting strong execution that allowed us to pull forward certain deliveries from Q4."
+    },
+    {
+     "t0_ms": 1586690,
+     "text": "That same execution drove Construction in Progress, CIP, down to $9.3 billion from $11.9 billion last quarter as we deployed significant infrastructure against power that became available late in Q2."
+    },
+    {
+     "t0_ms": 1601770,
+     "text": "Year-to-date, we've brought online more than 850 megawatts of power, bringing our total life footprint to more than 1.7 gigawatts, doubling our active power footprint from year-end 2025 in just three quarters."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1618130,
+   "t1_ms": 1661370,
+   "speaker": "Management",
+   "text": "This pace of deployment reflects the strength and repeatability of our execution model, powered by the full-stack solution we developed to accelerate the speed at which we ramp new capacity. Turning to our balance sheet and strong liquidity position. As of September 30th, we had $6.5 billion in cash, cash equivalents, restricted cash, and marketable securities. In addition, we have nearly $5 billion of undrawn capacity under committed DDTL facilities and significant customer prepayments and deposits arriving over the next three months. Since our IPO last year, we have demonstrated continued access to the capital markets.",
+   "parts": [
+    {
+     "t0_ms": 1618130,
+     "text": "This pace of deployment reflects the strength and repeatability of our execution model, powered by the full-stack solution we developed to accelerate the speed at which we ramp new capacity."
+    },
+    {
+     "t0_ms": 1630510,
+     "text": "Turning to our balance sheet and strong liquidity position."
+    },
+    {
+     "t0_ms": 1634290,
+     "text": "As of September 30th, we had $6.5 billion in cash, cash equivalents, restricted cash, and marketable securities."
+    },
+    {
+     "t0_ms": 1642630,
+     "text": "In addition, we have nearly $5 billion of undrawn capacity under committed DDTL facilities"
+    },
+    {
+     "t0_ms": 1649430,
+     "text": "and significant customer prepayments and deposits arriving over the next three months."
+    },
+    {
+     "t0_ms": 1654730,
+     "text": "Since our IPO last year, we have demonstrated continued access to the capital markets."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1662010,
+   "t1_ms": 1704510,
+   "speaker": "Management",
+   "text": "This is a direct result of our consistent track record of execution as we convert our $133 billion of revenue backlog into cash flow. We expect approximately $9 billion of customer prepayments and deposits in the next three months alone, and for that number to continue to grow in 2027. As Mike noted, more than $3 billion of these prepayments are related to existing cloud infrastructure where no additional capex is needed. We expect EBITDA less interest, which excludes the benefit from growing prepayments, to more than double in 2027. This increase contributes to our growing ability to internally fund our capital needs.",
+   "parts": [
+    {
+     "t0_ms": 1662010,
+     "text": "This is a direct result of our consistent track record of execution as we convert our $133 billion of revenue backlog into cash flow."
+    },
+    {
+     "t0_ms": 1670710,
+     "text": "We expect approximately $9 billion of customer prepayments and deposits in the next three months alone, and for that number to continue to grow in 2027."
+    },
+    {
+     "t0_ms": 1681630,
+     "text": "As Mike noted, more than $3 billion of these prepayments are related to existing cloud infrastructure"
+    },
+    {
+     "t0_ms": 1687230,
+     "text": "where no additional capex is needed."
+    },
+    {
+     "t0_ms": 1689670,
+     "text": "We expect EBITDA less interest, which excludes the benefit from growing prepayments,"
+    },
+    {
+     "t0_ms": 1695850,
+     "text": "to more than double in 2027."
+    },
+    {
+     "t0_ms": 1698910,
+     "text": "This increase contributes to our growing ability to internally fund our capital needs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1705250,
+   "t1_ms": 1746870,
+   "speaker": "Management",
+   "text": "We expect asset-level debt to cover the significant majority of our remaining capital needs. We have two fundamentally different types of debt sitting on our balance sheet. Debt that sits at the asset level, directly financing our customer contracts backed by committed cash flow and cloud infrastructure. And debt that sits at the parent company that is serviced by parent-level cash flow. Over the last year, we used parent-level unsecured debt to help fund our growth as these instruments priced at levels that optimized our overall economics. As Mike noted, at current yields, we do not intend to issue additional parent-level unsecured debt through 2027.",
+   "parts": [
+    {
+     "t0_ms": 1705250,
+     "text": "We expect asset-level debt to cover the significant majority of our remaining capital needs."
+    },
+    {
+     "t0_ms": 1710930,
+     "text": "We have two fundamentally different types of debt sitting on our balance sheet."
+    },
+    {
+     "t0_ms": 1715610,
+     "text": "Debt that sits at the asset level, directly financing our customer contracts backed by committed cash flow and cloud infrastructure."
+    },
+    {
+     "t0_ms": 1724030,
+     "text": "And debt that sits at the parent company that is serviced by parent-level cash flow."
+    },
+    {
+     "t0_ms": 1729290,
+     "text": "Over the last year, we used parent-level unsecured debt to help fund our growth as these instruments priced at levels that optimized our overall economics."
+    },
+    {
+     "t0_ms": 1739530,
+     "text": "As Mike noted, at current yields, we do not intend to issue additional parent-level unsecured debt through 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1746950,
+   "t1_ms": 1780110,
+   "speaker": "Management",
+   "text": "By contrast, the asset-level secured debt market has remained stable, with our loans continuing to trade around par value. Lenders have direct visibility to the cash flow we are generating as we deliver on our committed customer contracts. This market remains robust, and its depth for CoreWeave has grown since our IPO. In fact, we expect to launch our next DDTL in the coming weeks. This will be an investment-grade facility with multiple rating agencies indicating a high investment-grade rating.",
+   "parts": [
+    {
+     "t0_ms": 1746950,
+     "text": "By contrast, the asset-level secured debt market has remained stable, with our loans continuing to trade around par value."
+    },
+    {
+     "t0_ms": 1755870,
+     "text": "Lenders have direct visibility to the cash flow we are generating as we deliver on our committed customer contracts."
+    },
+    {
+     "t0_ms": 1762850,
+     "text": "This market remains robust, and its depth for CoreWeave has grown since our IPO."
+    },
+    {
+     "t0_ms": 1768110,
+     "text": "In fact, we expect to launch our next DDTL in the coming weeks."
+    },
+    {
+     "t0_ms": 1773610,
+     "text": "This will be an investment-grade facility with multiple rating agencies indicating a high investment-grade rating."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1780710,
+   "t1_ms": 1824810,
+   "speaker": "Management",
+   "text": "Based on our early discussions, we expect the facility to price at a spread that implies a 7% to 7.5% yield based on current SOFR while financing more than 90% of the associated CapEx. More than 75% of our remaining committed CapEx for 2027 not yet attached to an existing DDTL is tied to these types of investment-grade and enterprise customers. For the remainder of our backlog, we expect to leverage similarly structured DDTLs as customer prepayments and OEM financings serve as the other primary sources of capital to fund our growth. As we look beyond our committed customer backlog, we see other avenues we can also utilize.",
+   "parts": [
+    {
+     "t0_ms": 1780710,
+     "text": "Based on our early discussions, we expect the facility to price at a spread that implies a 7% to 7.5% yield based on current SOFR while financing more than 90% of the associated CapEx."
+    },
+    {
+     "t0_ms": 1794710,
+     "text": "More than 75% of our remaining committed CapEx for 2027 not yet attached to an existing DDTL"
+    },
+    {
+     "t0_ms": 1802270,
+     "text": "is tied to these types of investment-grade and enterprise customers."
+    },
+    {
+     "t0_ms": 1806970,
+     "text": "For the remainder of our backlog, we expect to leverage similarly structured DDTLs"
+    },
+    {
+     "t0_ms": 1811890,
+     "text": "as customer prepayments and OEM financings serve as the other primary sources of capital to fund our growth."
+    },
+    {
+     "t0_ms": 1818910,
+     "text": "As we look beyond our committed customer backlog, we see other avenues we can also utilize."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1825570,
+   "t1_ms": 1865050,
+   "speaker": "Management",
+   "text": "CoWeave Omni provides an additional lever to grow with significantly lower capital intensity. By extending the CoWeave platform to third-party infrastructure, Omni allows us to monetize incremental customer demand without funding the purchase of the underlying assets ourselves. We have already signed our first customer and have received significant interest from a number of others who want to run their workloads on CoreWeave while maintaining direct ownership of their infrastructure. This is another tool in our toolkit, allowing us to balance our capital needs with customer demand based on the prevailing environment. Turning to guidance.",
+   "parts": [
+    {
+     "t0_ms": 1825570,
+     "text": "CoWeave Omni provides an additional lever to grow with significantly lower capital intensity."
+    },
+    {
+     "t0_ms": 1831430,
+     "text": "By extending the CoWeave platform to third-party infrastructure,"
+    },
+    {
+     "t0_ms": 1835170,
+     "text": "Omni allows us to monetize incremental customer demand without funding the purchase of the underlying assets ourselves."
+    },
+    {
+     "t0_ms": 1841870,
+     "text": "We have already signed our first customer and have received significant interest from a number of others who want to run their workloads on CoreWeave while maintaining direct ownership of their infrastructure."
+    },
+    {
+     "t0_ms": 1855330,
+     "text": "This is another tool in our toolkit, allowing us to balance our capital needs with customer demand based on the prevailing environment."
+    },
+    {
+     "t0_ms": 1864130,
+     "text": "Turning to guidance."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1865050,
+   "t1_ms": 1908010,
+   "speaker": "Management",
+   "text": "Our strong third quarter performance and continued execution give us confidence to raise our full year 2026 revenue guidance to $13 to $13.3 billion and adjusted operating income guidance to $1.275 to $1.375 billion, which represents a 26% increase midpoint to midpoint. We continue to expect more than 1.85 gigawatts of active power at year-end. We expect capex of $37 to $39 billion, raising the low end of our prior range of $35 to $39 billion. This is as a result of our expectation to deploy infrastructure and deliver it to customers sooner than planned.",
+   "parts": [
+    {
+     "t0_ms": 1865050,
+     "text": "Our strong third quarter performance and continued execution give us confidence to raise our full year 2026 revenue guidance to $13 to $13.3 billion and adjusted operating income guidance to $1.275 to $1.375 billion, which represents a 26% increase midpoint to midpoint."
+    },
+    {
+     "t0_ms": 1886790,
+     "text": "We continue to expect more than 1.85 gigawatts of active power at year-end."
+    },
+    {
+     "t0_ms": 1893650,
+     "text": "We expect capex of $37 to $39 billion, raising the low end of our prior range of $35 to $39 billion."
+    },
+    {
+     "t0_ms": 1901910,
+     "text": "This is as a result of our expectation to deploy infrastructure and deliver it to customers sooner than planned."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1908890,
+   "t1_ms": 1950250,
+   "speaker": "Management",
+   "text": "For the fourth quarter, we expect interest expense of $1.05 to $1.15 billion. Based on the capacity we expect to deploy and the contracted revenue embedded in our backlog, we are raising our ARR guidance and we expect to exit 2026 with annualized run rate revenue of $20 to $21 billion. Looking ahead, we expect adjusted net loss to reduce meaningfully in 2027 and to become adjusted net income positive in the first half of 2028 and for the full year 2028. Looking at 2027 specifically, we retain flexibility in how quickly we execute our growth plan.",
+   "parts": [
+    {
+     "t0_ms": 1908890,
+     "text": "For the fourth quarter, we expect interest expense of $1.05 to $1.15 billion."
+    },
+    {
+     "t0_ms": 1915190,
+     "text": "Based on the capacity we expect to deploy and the contracted revenue embedded in our backlog,"
+    },
+    {
+     "t0_ms": 1921990,
+     "text": "we are raising our ARR guidance and we expect to exit 2026 with annualized run rate revenue of $20 to $21 billion."
+    },
+    {
+     "t0_ms": 1930790,
+     "text": "Looking ahead, we expect adjusted net loss to reduce meaningfully in 2027"
+    },
+    {
+     "t0_ms": 1935830,
+     "text": "and to become adjusted net income positive in the first half of 2028 and for the full year 2028."
+    },
+    {
+     "t0_ms": 1943110,
+     "text": "Looking at 2027 specifically, we retain flexibility in how quickly we execute our growth plan."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1951290,
+   "t1_ms": 1991870,
+   "speaker": "Management",
+   "text": "We will deploy capital only where we have robust demand, access to financing on attractive terms, and expected returns that meet our thresholds. As market conditions evolve, we can calibrate our future capital commitments accordingly. This does not impact our ability to deliver on our existing customer commitments or to meaningfully exceed our ARR target for 2027. This means we have levers to control our CapEx. Should we choose to focus only on our committed backlog, we would expect CapEx for 2027 to remain in line with our 2026 CapEx investment, while revenue and EBITDA grow significantly.",
+   "parts": [
+    {
+     "t0_ms": 1951290,
+     "text": "We will deploy capital only where we have robust demand, access to financing on attractive terms, and expected returns that meet our thresholds."
+    },
+    {
+     "t0_ms": 1960550,
+     "text": "As market conditions evolve, we can calibrate our future capital commitments accordingly."
+    },
+    {
+     "t0_ms": 1966190,
+     "text": "This does not impact our ability to deliver on our existing customer commitments"
+    },
+    {
+     "t0_ms": 1970230,
+     "text": "or to meaningfully exceed our ARR target for 2027."
+    },
+    {
+     "t0_ms": 1975170,
+     "text": "This means we have levers to control our CapEx."
+    },
+    {
+     "t0_ms": 1979010,
+     "text": "Should we choose to focus only on our committed backlog,"
+    },
+    {
+     "t0_ms": 1981810,
+     "text": "we would expect CapEx for 2027 to remain in line with our 2026 CapEx investment,"
+    },
+    {
+     "t0_ms": 1988890,
+     "text": "while revenue and EBITDA grow significantly."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1991870,
+   "t1_ms": 2036630,
+   "speaker": "Management",
+   "text": "To deliver this capacity, we already have nearly $5 billion available to draw under already raised DDTLs, and more than $9 billion of the required infrastructure is already on our balance sheet, sitting in construction in progress, awaiting placement into service. Our spend is further supported by the approximately $9 billion of prepayments and deposits we expect to collect in the next three months from signed customer contracts, growth in cash flows from EBITDA, and additional DDTL and asset-backed facilities we expect to raise, including the near-term transaction I mentioned earlier. Accounting for these sources, we expect to raise less than $5 billion in incremental parent-level capital through 2027.",
+   "parts": [
+    {
+     "t0_ms": 1991870,
+     "text": "To deliver this capacity, we already have nearly $5 billion available to draw under already raised DDTLs, and more than $9 billion of the required infrastructure is already on our balance sheet, sitting in construction in progress, awaiting placement into service."
+    },
+    {
+     "t0_ms": 2008630,
+     "text": "Our spend is further supported by the approximately $9 billion of prepayments and deposits we expect to collect in the next three months from signed customer contracts, growth in cash flows from EBITDA, and additional DDTL and asset-backed facilities we expect to raise, including the near-term transaction I mentioned earlier."
+    },
+    {
+     "t0_ms": 2029290,
+     "text": "Accounting for these sources, we expect to raise less than $5 billion in incremental parent-level capital through 2027."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2036630,
+   "t1_ms": 2078630,
+   "speaker": "Management",
+   "text": "In short, we feel confident in our ability to fund our business for growth, even in the current macroeconomic conditions. Our performance this quarter is the result of deliberate choices we made years ago about how to build and fund this business with attractive returns. We built differentiated technology, purpose-built for AI. We developed the operating capabilities to bring highly performant cloud infrastructure online at speed and scale. And we designed a success-based CapEx model that ties investment to contracted demand with a diverse set of capital sources that ensure CoreWeave can finance its growth with discipline and at reasonable cost.",
+   "parts": [
+    {
+     "t0_ms": 2036630,
+     "text": "In short, we feel confident in our ability to fund our business for growth, even in the current macroeconomic conditions."
+    },
+    {
+     "t0_ms": 2044890,
+     "text": "Our performance this quarter is the result of deliberate choices we made years ago about how to build and fund this business with attractive returns."
+    },
+    {
+     "t0_ms": 2054050,
+     "text": "We built differentiated technology, purpose-built for AI."
+    },
+    {
+     "t0_ms": 2058230,
+     "text": "We developed the operating capabilities to bring highly performant cloud infrastructure online at speed and scale."
+    },
+    {
+     "t0_ms": 2065190,
+     "text": "And we designed a success-based CapEx model that ties investment to contracted demand with a diverse set of capital sources that ensure CoreWeave can finance its growth with discipline and at reasonable cost."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2078989,
+   "t1_ms": 2117710,
+   "speaker": "Management",
+   "text": "We take our role in the AI build-out extremely seriously. This is a capital-intensive business, and we are stewards of that capital. We deploy it against committed customer contracts at targeted contribution margins, profitably and at scale. We have the ability to accelerate or moderate that pace based on market conditions. That discipline will continue to guide how we grow. The opportunity ahead is extraordinary. AI is transforming how the world builds, discovers, and creates. And CoreWeave was built to power that transformation. With that, we will open up for questions.",
+   "parts": [
+    {
+     "t0_ms": 2078989,
+     "text": "We take our role in the AI build-out extremely seriously."
+    },
+    {
+     "t0_ms": 2083230,
+     "text": "This is a capital-intensive business, and we are stewards of that capital."
+    },
+    {
+     "t0_ms": 2087570,
+     "text": "We deploy it against committed customer contracts at targeted contribution margins, profitably and at scale."
+    },
+    {
+     "t0_ms": 2095090,
+     "text": "We have the ability to accelerate or moderate that pace based on market conditions."
+    },
+    {
+     "t0_ms": 2100510,
+     "text": "That discipline will continue to guide how we grow."
+    },
+    {
+     "t0_ms": 2103990,
+     "text": "The opportunity ahead is extraordinary."
+    },
+    {
+     "t0_ms": 2107190,
+     "text": "AI is transforming how the world builds, discovers, and creates."
+    },
+    {
+     "t0_ms": 2111970,
+     "text": "And CoreWeave was built to power that transformation."
+    },
+    {
+     "t0_ms": 2115490,
+     "text": "With that, we will open up for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2117950,
+   "t1_ms": 2159120,
+   "speaker": "Operator",
+   "text": "We will now begin the question and answer session. Please limit yourself to one question and one follow-up. If you would like to ask a question, please press star 1 on your telephone keypad. To withdraw your question, press star 1 again. Please pick up your handset when asking a question. If you are muted locally, please remember to unmute your device. Please stand by while we compile the Q&A roster. Your first question comes from the line of Gabriela Borges with Goldman Sachs. Gabriela, your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2117950,
+     "text": "We will now begin the question and answer session."
+    },
+    {
+     "t0_ms": 2123780,
+     "text": "Please limit yourself to one question and one follow-up."
+    },
+    {
+     "t0_ms": 2128300,
+     "text": "If you would like to ask a question, please press star 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 2134240,
+     "text": "To withdraw your question, press star 1 again."
+    },
+    {
+     "t0_ms": 2139300,
+     "text": "Please pick up your handset when asking a question."
+    },
+    {
+     "t0_ms": 2142360,
+     "text": "If you are muted locally, please remember to unmute your device."
+    },
+    {
+     "t0_ms": 2146340,
+     "text": "Please stand by while we compile the Q&A roster."
+    },
+    {
+     "t0_ms": 2152080,
+     "text": "Your first question comes from the line of Gabriela Borges with Goldman Sachs."
+    },
+    {
+     "t0_ms": 2156580,
+     "text": "Gabriela, your line is open."
+    },
+    {
+     "t0_ms": 2158320,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2160060,
+   "t1_ms": 2203020,
+   "speaker": "Analyst",
+   "text": "Hey, good afternoon, and thanks for all the incremental detail that you shared here. Mike, I want to start with a high-level industry question, which is all of the supply demand data points that you shared sound very attractive. One of the concerns that I hear from investors is there is a wall of new supply coming online in the industry, in the next one to two years. And we don't have perfect visibility into the demand algorithm. So we could have a debate around when supply demand normalizes, whether it's next year or five years from now. My question for you is walk us through the implications for the CoreWeave model, if and when the industry gets into a period of normalized or oversupply, thank you.",
+   "parts": [
+    {
+     "t0_ms": 2160060,
+     "text": "Hey, good afternoon, and thanks for all the incremental detail that you shared here."
+    },
+    {
+     "t0_ms": 2164780,
+     "text": "Mike, I want to start with a high-level industry question,"
+    },
+    {
+     "t0_ms": 2168720,
+     "text": "which is all of the supply demand data points that you shared sound very attractive."
+    },
+    {
+     "t0_ms": 2174080,
+     "text": "One of the concerns that I hear from investors is there is a wall of new supply coming online in the industry,"
+    },
+    {
+     "t0_ms": 2181220,
+     "text": "in the next one to two years."
+    },
+    {
+     "t0_ms": 2183820,
+     "text": "And we don't have perfect visibility"
+    },
+    {
+     "t0_ms": 2185680,
+     "text": "into the demand algorithm."
+    },
+    {
+     "t0_ms": 2187400,
+     "text": "So we could have a debate around"
+    },
+    {
+     "t0_ms": 2189460,
+     "text": "when supply demand normalizes,"
+    },
+    {
+     "t0_ms": 2191240,
+     "text": "whether it's next year or five years from now."
+    },
+    {
+     "t0_ms": 2193380,
+     "text": "My question for you is walk us through the implications"
+    },
+    {
+     "t0_ms": 2196220,
+     "text": "for the CoreWeave model,"
+    },
+    {
+     "t0_ms": 2198160,
+     "text": "if and when the industry gets into a period of normalized"
+    },
+    {
+     "t0_ms": 2201580,
+     "text": "or oversupply, thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2204700,
+   "t1_ms": 2242870,
+   "speaker": "Management",
+   "text": "Thank you for the question. And thank you for everyone who's come. It was an extraordinary quarter for us. And we're absolutely excited to share the results. With regards to your question, you know, the concept that there is infrastructure coming to market faster than demand has been a prevailing view that has existed now for several years. And what we have seen and what I think you're seeing across the board from other providers of infrastructure,",
+   "parts": [
+    {
+     "t0_ms": 2204700,
+     "text": "Thank you for the question."
+    },
+    {
+     "t0_ms": 2205820,
+     "text": "And thank you for everyone who's come."
+    },
+    {
+     "t0_ms": 2211290,
+     "text": "It was an extraordinary quarter for us."
+    },
+    {
+     "t0_ms": 2213710,
+     "text": "And we're absolutely excited to share the results."
+    },
+    {
+     "t0_ms": 2216610,
+     "text": "With regards to your question, you know, the concept that there is infrastructure coming to market faster than demand has been a prevailing view that has existed now for several years."
+    },
+    {
+     "t0_ms": 2234790,
+     "text": "And what we have seen and what I think you're seeing across the board from other providers of infrastructure,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2243430,
+   "t1_ms": 2282750,
+   "speaker": "Management",
+   "text": "from other consumers of infrastructure, is that demand for compute is growing faster than the capacity to deliver that infrastructure. And that is being echoed by the expansion of the margins that we are seeing on each additional contract. And so, yes, you're correct, there is a significant amount of infrastructure that is coming to market, but the proliferation of this technology, the diffusion of this technology across the economy is outpacing the ability of that infrastructure to be able to deliver the tokens,",
+   "parts": [
+    {
+     "t0_ms": 2243430,
+     "text": "from other consumers of infrastructure, is that demand for compute is growing faster than the capacity to deliver that infrastructure."
+    },
+    {
+     "t0_ms": 2253830,
+     "text": "And that is being echoed by the expansion of the margins that we are seeing on each additional contract."
+    },
+    {
+     "t0_ms": 2263470,
+     "text": "And so, yes, you're correct, there is a significant amount of infrastructure that is coming to market,"
+    },
+    {
+     "t0_ms": 2270070,
+     "text": "but the proliferation of this technology, the diffusion of this technology across the economy"
+    },
+    {
+     "t0_ms": 2276810,
+     "text": "is outpacing the ability of that infrastructure to be able to deliver the tokens,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2282890,
+   "t1_ms": 2325790,
+   "speaker": "Management",
+   "text": "to be able to deliver the infrastructure and the clusters to be able to train and deliver infrastructure. We are largely sold out through 2027. There is overwhelming demand for that, and we are also sold out through 2028. We're not sold out through 2028, but any infrastructure that we have placed on the market has been sold, and so we have significant demand that we could deliver that infrastructure into. A couple of data points on that piece is as we see the demand across the industry, what we are seeing that demand is transforming into pricing power. Pricing",
+   "parts": [
+    {
+     "t0_ms": 2282890,
+     "text": "to be able to deliver the infrastructure and the clusters to be able to train and deliver infrastructure."
+    },
+    {
+     "t0_ms": 2288450,
+     "text": "We are largely sold out through 2027."
+    },
+    {
+     "t0_ms": 2294070,
+     "text": "There is overwhelming demand for that, and we are also sold out through 2028."
+    },
+    {
+     "t0_ms": 2302910,
+     "text": "We're not sold out through 2028, but any infrastructure that we have placed on the market has been sold,"
+    },
+    {
+     "t0_ms": 2308690,
+     "text": "and so we have significant demand that we could deliver that infrastructure into."
+    },
+    {
+     "t0_ms": 2313370,
+     "text": "A couple of data points on that piece is"
+    },
+    {
+     "t0_ms": 2317250,
+     "text": "as we see the demand across the industry, what we are seeing"
+    },
+    {
+     "t0_ms": 2321730,
+     "text": "that demand is transforming into pricing power. Pricing"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2325790,
+   "t1_ms": 2348930,
+   "speaker": "Management",
+   "text": "for long-dated customer contracts is going up to $20 to $25 million per megawatt for a four- and five-year contract. And for shorter-duration contracts, it's up to $40 million per megawatt. So we're seeing that demand translate into pricing power and our ability to kind of extract margin for our, you know, premium product infrastructure and cloud products.",
+   "parts": [
+    {
+     "t0_ms": 2325790,
+     "text": "for long-dated customer contracts is going up to $20 to $25 million per"
+    },
+    {
+     "t0_ms": 2329790,
+     "text": "megawatt for a four- and five-year contract. And for shorter-duration"
+    },
+    {
+     "t0_ms": 2333710,
+     "text": "contracts, it's up to $40 million per megawatt."
+    },
+    {
+     "t0_ms": 2338110,
+     "text": "So we're seeing that demand translate into pricing"
+    },
+    {
+     "t0_ms": 2341710,
+     "text": "power and our ability to kind of extract margin for our, you know,"
+    },
+    {
+     "t0_ms": 2346110,
+     "text": "premium product infrastructure and cloud products."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2350150,
+   "t1_ms": 2351710,
+   "speaker": "Analyst",
+   "text": "That's all good. Yeah, please.",
+   "parts": [
+    {
+     "t0_ms": 2350150,
+     "text": "That's all good."
+    },
+    {
+     "t0_ms": 2351250,
+     "text": "Yeah, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2352090,
+   "t1_ms": 2375470,
+   "speaker": "Management",
+   "text": "The final point there is we could sell all of the capacity that we have to current buyers that are in the queue. We are choosing not to. We're choosing to be patient. We're choosing to bring the infrastructure to market when it is further along along because we believe that that will result in better economic output for the outstanding",
+   "parts": [
+    {
+     "t0_ms": 2352090,
+     "text": "The final point there is we could sell all of the capacity that we have to"
+    },
+    {
+     "t0_ms": 2357850,
+     "text": "current buyers that are in the queue."
+    },
+    {
+     "t0_ms": 2359670,
+     "text": "We are choosing not to."
+    },
+    {
+     "t0_ms": 2360850,
+     "text": "We're choosing to be patient."
+    },
+    {
+     "t0_ms": 2362150,
+     "text": "We're choosing to bring the infrastructure to market when it is further along"
+    },
+    {
+     "t0_ms": 2368150,
+     "text": "along because we believe that that will result in better economic output for the outstanding"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2375470,
+   "t1_ms": 2411750,
+   "speaker": "Analyst",
+   "text": "infrastructure that we have. That will make sense. And then my follow-up for you is, I really like this 20 to 25 updated megawatt data point. My question is on the contracts that you've already signed at committed megawatt monetization prices. How do you manage the risk between when you lock in that number on the revenue monetization side versus the cost side of the equation, which can sometimes be ephemeral and or move up in the period of time between when you contract the megawatts with the customer versus when you actually bring it online. How do you manage that disconnect in timing?",
+   "parts": [
+    {
+     "t0_ms": 2375470,
+     "text": "infrastructure that we have. That will make sense. And then my follow-up for you is,"
+    },
+    {
+     "t0_ms": 2381490,
+     "text": "I really like this 20 to 25 updated megawatt data point. My question is on the contracts that you've"
+    },
+    {
+     "t0_ms": 2388670,
+     "text": "already signed at committed megawatt monetization prices. How do you manage the risk between when"
+    },
+    {
+     "t0_ms": 2395110,
+     "text": "you lock in that number on the revenue monetization side versus the cost side of the equation,"
+    },
+    {
+     "t0_ms": 2401090,
+     "text": "which can sometimes be ephemeral and or move up in the period of time between when you"
+    },
+    {
+     "t0_ms": 2406170,
+     "text": "contract the megawatts with the customer versus when you actually bring it online."
+    },
+    {
+     "t0_ms": 2410010,
+     "text": "How do you manage that disconnect in timing?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2412450,
+   "t1_ms": 2457000,
+   "speaker": "Management",
+   "text": "Yeah, thank you so much for the question. And you're right. The way we manage that is, you know, our tactics is fundamentally success-based. as we sign customer contracts, basically making sure that the economics stay relatively locked for those happens.",
+   "parts": [
+    {
+     "t0_ms": 2412450,
+     "text": "Yeah, thank you so much for the question."
+    },
+    {
+     "t0_ms": 2413830,
+     "text": "And you're right."
+    },
+    {
+     "t0_ms": 2414970,
+     "text": "The way we manage that is, you know, our tactics is fundamentally success-based."
+    },
+    {
+     "t0_ms": 2420410,
+     "text": "as we sign customer contracts,"
+    },
+    {
+     "t0_ms": 2450300,
+     "text": "basically making sure that the economics stay relatively locked for those happens."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2459330,
+   "t1_ms": 2461170,
+   "speaker": "Analyst",
+   "text": "Thank you for the detail. I appreciate the updates.",
+   "parts": [
+    {
+     "t0_ms": 2459330,
+     "text": "Thank you for the detail."
+    },
+    {
+     "t0_ms": 2460330,
+     "text": "I appreciate the updates."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2461630,
+   "t1_ms": 2474010,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Brad Zalmick with Deutsche Bank. Brad, your line is open. Please go ahead. Great.",
+   "parts": [
+    {
+     "t0_ms": 2461630,
+     "text": "Your next question comes from the line of Brad Zalmick with Deutsche Bank."
+    },
+    {
+     "t0_ms": 2469390,
+     "text": "Brad, your line is open."
+    },
+    {
+     "t0_ms": 2471090,
+     "text": "Please go ahead."
+    },
+    {
+     "t0_ms": 2473490,
+     "text": "Great."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2474130,
+   "t1_ms": 2496590,
+   "speaker": "Analyst",
+   "text": "Thank you so much, and a lot of great disclosure and a lot of comforting details. I wanted to ask, how, if at all, as some of the recent concerns in credit markets across the industry impact your approach to contracting new capacity beyond 2027? Perhaps, you know, as we think around time to power, customer types, duration, and when you line up the funding.",
+   "parts": [
+    {
+     "t0_ms": 2474130,
+     "text": "Thank you so much, and a lot of great disclosure and a lot of comforting details."
+    },
+    {
+     "t0_ms": 2479270,
+     "text": "I wanted to ask, how, if at all,"
+    },
+    {
+     "t0_ms": 2481490,
+     "text": "as some of the recent concerns in credit markets across the industry impact your approach to"
+    },
+    {
+     "t0_ms": 2486890,
+     "text": "contracting new capacity beyond 2027? Perhaps, you know, as we think around time to power,"
+    },
+    {
+     "t0_ms": 2493270,
+     "text": "customer types, duration, and when you line up the funding."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2498090,
+   "t1_ms": 2541210,
+   "speaker": "Management",
+   "text": "Yeah, thank you for the question. And it's a great opportunity for us to clarify that we haven't brought 2028 to market because we are waiting for that to season further. With regards to how we think about power and capacity on an ongoing basis, we have a number of levers that we use to ensure that we are staying in sync with the demand signals that we have. And you can see that in the pipeline of power that we're bringing to market, the timing of that power relative to where we're providing guidance on what demand looks like.",
+   "parts": [
+    {
+     "t0_ms": 2498090,
+     "text": "Yeah, thank you for the question. And it's a great opportunity for us to clarify"
+    },
+    {
+     "t0_ms": 2504790,
+     "text": "that we haven't brought 2028 to market because we are waiting for that to season further."
+    },
+    {
+     "t0_ms": 2513090,
+     "text": "With regards to how we think about power and capacity on an ongoing basis,"
+    },
+    {
+     "t0_ms": 2519570,
+     "text": "we have a number of levers that we use to ensure that we are staying in sync with the demand signals that we have."
+    },
+    {
+     "t0_ms": 2529210,
+     "text": "And you can see that in the pipeline of power that we're bringing to market, the timing of that power relative to where we're providing guidance on what demand looks like."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2541310,
+   "t1_ms": 2579390,
+   "speaker": "Management",
+   "text": "And so we're not getting out too far on the curve in terms of where we're locking in power because we're trying to coordinate our roadmap for capacity with the roadmap of the clients. One of the things that you'll hear us speak about again and again is our focus on maintaining a broad, diversified client base, which allows us to have incredibly accurate information flow in terms of who's going to need compute when, how much compute they need across multiple industries,",
+   "parts": [
+    {
+     "t0_ms": 2541310,
+     "text": "And so we're not getting out too far on the curve in terms of where we're locking in power because we're trying to coordinate our roadmap for capacity with the roadmap of the clients."
+    },
+    {
+     "t0_ms": 2556490,
+     "text": "One of the things that you'll hear us speak about again and again is our focus on maintaining a broad, diversified client base, which allows us to have incredibly accurate information flow in terms of who's going to need compute when, how much compute they need across multiple industries,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2579390,
+   "t1_ms": 2597850,
+   "speaker": "Management",
+   "text": "whether it's the AI labs, whether it's robotics, whether it's the S&P 500 clients. It's a really, really robust information flow that's coming across our desk as we think about how we're going to enter into power contracts on a go-forward basis.",
+   "parts": [
+    {
+     "t0_ms": 2579390,
+     "text": "whether it's the AI labs, whether it's robotics, whether it's the S&P 500 clients."
+    },
+    {
+     "t0_ms": 2588590,
+     "text": "It's a really, really robust information flow that's coming across our desk"
+    },
+    {
+     "t0_ms": 2593250,
+     "text": "as we think about how we're going to enter into power contracts on a go-forward basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2600480,
+   "t1_ms": 2617660,
+   "speaker": "Analyst",
+   "text": "Thank you. That's helpful. And, Mike, if I could just ask a follow-up for you. With some of the less established AI clouds going through various growing pains out there, Does this potentially present opportunity for you ahead, like either in terms of customer choice, consolidation, or pricing power that you have? Thanks again.",
+   "parts": [
+    {
+     "t0_ms": 2600480,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2600820,
+     "text": "That's helpful."
+    },
+    {
+     "t0_ms": 2601300,
+     "text": "And, Mike, if I could just ask a follow-up for you."
+    },
+    {
+     "t0_ms": 2603580,
+     "text": "With some of the less established AI clouds going through various growing pains out there,"
+    },
+    {
+     "t0_ms": 2608800,
+     "text": "Does this potentially present opportunity for you ahead, like either in terms of customer choice, consolidation, or pricing power that you have?"
+    },
+    {
+     "t0_ms": 2617160,
+     "text": "Thanks again."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2618500,
+   "t1_ms": 2655180,
+   "speaker": "Management",
+   "text": "Yeah, so I think that's also a great question. One of the things that we have done is we have gotten to scale. And with that, we have positioned ourselves very well to be able to take advantage of this market that's going through a degree of volatility. At the end of the day, an AI cloud is a combination of a software layer that allows people to effectively manage their infrastructure as well as a infrastructure build in and of itself.",
+   "parts": [
+    {
+     "t0_ms": 2618500,
+     "text": "Yeah, so I think that's also a great question."
+    },
+    {
+     "t0_ms": 2621120,
+     "text": "One of the things that we have done is we have gotten to scale."
+    },
+    {
+     "t0_ms": 2628040,
+     "text": "And with that, we have positioned ourselves very well to be able to take advantage of this market that's going through a degree of volatility."
+    },
+    {
+     "t0_ms": 2641180,
+     "text": "At the end of the day, an AI cloud is a combination of a software layer that allows people to effectively manage their infrastructure as well as a infrastructure build in and of itself."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2655180,
+   "t1_ms": 2693740,
+   "speaker": "Management",
+   "text": "And what we believe is that, you know, we have done a wonderful job, probably the best in the market, delivering the software layer that's required. And as far as the infrastructure goes, that is a scale game. That is a game where you're going to need to get to material scale in order to be an effective player. We've known that since the beginning. We have built our business around that concept in terms of matching our long-term contracts with a diversified group of buyers as we sit here and try to continue to drive to scale.",
+   "parts": [
+    {
+     "t0_ms": 2655180,
+     "text": "And what we believe is that, you know, we have done a wonderful job, probably the best in the market, delivering the software layer that's required."
+    },
+    {
+     "t0_ms": 2666620,
+     "text": "And as far as the infrastructure goes, that is a scale game."
+    },
+    {
+     "t0_ms": 2671940,
+     "text": "That is a game where you're going to need to get to material scale in order to be an effective player."
+    },
+    {
+     "t0_ms": 2678000,
+     "text": "We've known that since the beginning."
+    },
+    {
+     "t0_ms": 2679320,
+     "text": "We have built our business around that concept in terms of matching our long-term contracts with a diversified group of buyers as we sit here and try to continue to drive to scale."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2694000,
+   "t1_ms": 2714060,
+   "speaker": "Management",
+   "text": "The end result is our software is the best solution, and the hardware is available at scale. Both of those give us an opportunity to be very selective about which clients we want to work with, which clients we want to pull onto our infrastructure and partner with as they begin their AI journey or as they continue to scale it.",
+   "parts": [
+    {
+     "t0_ms": 2694000,
+     "text": "The end result is our software is the best solution, and the hardware is available at scale."
+    },
+    {
+     "t0_ms": 2700400,
+     "text": "Both of those give us an opportunity to be very selective about which clients we want to work with,"
+    },
+    {
+     "t0_ms": 2706560,
+     "text": "which clients we want to pull onto our infrastructure and partner with as they begin their AI journey"
+    },
+    {
+     "t0_ms": 2712060,
+     "text": "or as they continue to scale it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2717290,
+   "t1_ms": 2728310,
+   "speaker": "Operator",
+   "text": "Thank you very much. Your next question comes from the line of Samik Chatterjee with J.P. Morgan. Samik, your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2717290,
+     "text": "Thank you very much."
+    },
+    {
+     "t0_ms": 2720290,
+     "text": "Your next question comes from the line of Samik Chatterjee with J.P. Morgan."
+    },
+    {
+     "t0_ms": 2725890,
+     "text": "Samik, your line is open."
+    },
+    {
+     "t0_ms": 2727530,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2729410,
+   "t1_ms": 2767210,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Thanks for taking my questions. Michael, I think strong margins in the quarter, you're guiding to also significant acceleration or improvement in the margins into the next quarter as well. I was just wondering if you can sort of flesh out the role that the short-term contracts are playing in this margin upside that you're seeing. You historically talked about also bringing capacity earlier in the quarter. That tends to drive margin upside. but how should we think about maybe execution versus the contribution from shorter-term contracts in terms of the upside on margin, both in the third quarter and going into the fourth quarter, Guy? I'll have a follow-up.",
+   "parts": [
+    {
+     "t0_ms": 2729410,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2730170,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2730610,
+     "text": "Thanks for taking my questions."
+    },
+    {
+     "t0_ms": 2731830,
+     "text": "Michael, I think strong margins in the quarter, you're guiding to also significant acceleration or improvement in the margins into the next quarter as well."
+    },
+    {
+     "t0_ms": 2742210,
+     "text": "I was just wondering if you can sort of flesh out the role that the short-term contracts are playing in this margin upside that you're seeing."
+    },
+    {
+     "t0_ms": 2750330,
+     "text": "You historically talked about also bringing capacity earlier in the quarter."
+    },
+    {
+     "t0_ms": 2753730,
+     "text": "That tends to drive margin upside."
+    },
+    {
+     "t0_ms": 2755350,
+     "text": "but how should we think about maybe execution versus the contribution from shorter-term contracts"
+    },
+    {
+     "t0_ms": 2760910,
+     "text": "in terms of the upside on margin, both in the third quarter and going into the fourth quarter, Guy?"
+    },
+    {
+     "t0_ms": 2766470,
+     "text": "I'll have a follow-up."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2767670,
+   "t1_ms": 2810170,
+   "speaker": "Management",
+   "text": "Thanks, Amit, for the question. You know, our margin performance this quarter was a reflection of our strong execution, you know, and both a favorable demand and pricing environment, as well as our ability to sell premium products to our end customers. All three of those vectors contributed to our overperformance this quarter, and we continue to expect, you know, those vectors to kind of continue in our favor through the course of the near term. One of the things that we think about a lot here is, you know, we really like the stability associated with the long-term contracts. We really like the margin additions that come with the short-term contracts,",
+   "parts": [
+    {
+     "t0_ms": 2767670,
+     "text": "Thanks, Amit, for the question."
+    },
+    {
+     "t0_ms": 2769010,
+     "text": "You know, our margin performance this quarter was a reflection of our strong execution, you know,"
+    },
+    {
+     "t0_ms": 2774450,
+     "text": "and both a favorable demand and pricing environment,"
+    },
+    {
+     "t0_ms": 2777850,
+     "text": "as well as our ability to sell premium products to our end customers."
+    },
+    {
+     "t0_ms": 2781730,
+     "text": "All three of those vectors contributed to our overperformance this quarter,"
+    },
+    {
+     "t0_ms": 2785750,
+     "text": "and we continue to expect, you know, those vectors to kind of continue in our favor through the course of the near term."
+    },
+    {
+     "t0_ms": 2793490,
+     "text": "One of the things that we think about a lot here is, you know,"
+    },
+    {
+     "t0_ms": 2798590,
+     "text": "we really like the stability associated with the long-term contracts."
+    },
+    {
+     "t0_ms": 2804210,
+     "text": "We really like the margin additions that come with the short-term contracts,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2810170,
+   "t1_ms": 2854050,
+   "speaker": "Management",
+   "text": "And we really like the ability to deliver compute through our services like Managed Inference. And all three of those are growing very rapidly. And all three of those provide an incredible opportunity for us to build and scale our business. We think that, you know, our ability to provide additional volume into the short-term business, additional volume into our managed inference product is a function of the scale of the business that we have built on the back of the long-term contracts. And so you'll continue to see us work through the process of how we're going to allocate",
+   "parts": [
+    {
+     "t0_ms": 2810170,
+     "text": "And we really like the ability to deliver compute through our services like Managed Inference."
+    },
+    {
+     "t0_ms": 2817970,
+     "text": "And all three of those are growing very rapidly."
+    },
+    {
+     "t0_ms": 2821330,
+     "text": "And all three of those provide an incredible opportunity for us to build and scale our business."
+    },
+    {
+     "t0_ms": 2828590,
+     "text": "We think that, you know, our ability to provide additional volume into the short-term business,"
+    },
+    {
+     "t0_ms": 2838430,
+     "text": "additional volume into our managed inference product is a function of the scale of the"
+    },
+    {
+     "t0_ms": 2844270,
+     "text": "business that we have built on the back of the long-term contracts."
+    },
+    {
+     "t0_ms": 2848510,
+     "text": "And so you'll continue to see us work through the process of how we're going to allocate"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2854050,
+   "t1_ms": 2861950,
+   "speaker": "Management",
+   "text": "this valuable infrastructure across the three main vectors of opportunity that are in front of us.",
+   "parts": [
+    {
+     "t0_ms": 2854050,
+     "text": "this valuable infrastructure across the three main vectors of opportunity that are in front"
+    },
+    {
+     "t0_ms": 2861570,
+     "text": "of us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2861950,
+   "t1_ms": 2896730,
+   "speaker": "Analyst",
+   "text": "yes and michael um a lot of concerns recently following the elections about what the regulatory environment or predatory pressures in the u.s would mean any way to sort of help us uh with how you're thinking about things particularly as you look at your long-term plans for a 20 30 sort of 8 gigawatts and what role maybe your international expansion plays to given this current of macro backdrop that you have? Thank you. So, to begin with, we do not anticipate",
+   "parts": [
+    {
+     "t0_ms": 2861950,
+     "text": "yes and michael um a lot of concerns recently following the elections about what the"
+    },
+    {
+     "t0_ms": 2870110,
+     "text": "regulatory environment or predatory pressures in the u.s would mean any way to sort of help us uh"
+    },
+    {
+     "t0_ms": 2877230,
+     "text": "with how you're thinking about things particularly as you look at your long-term plans for a 20 30"
+    },
+    {
+     "t0_ms": 2883310,
+     "text": "sort of 8 gigawatts and what role maybe your international expansion plays to given this"
+    },
+    {
+     "t0_ms": 2888830,
+     "text": "current of macro backdrop that you have? Thank you. So, to begin with, we do not anticipate"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2896730,
+   "t1_ms": 2941650,
+   "speaker": "Management",
+   "text": "any impact from the seismic regulatory shift that's occurred. We believe that based on the permitting status as well as the construction status of the data centers that our backlog is going to go into, we are very comfortable with our pipeline. And so that's a high-level comment. You know, we believe that what has occurred is a statement around how you build. We want to build responsibly. It's been a hallmark of how we've entered communities early, how we've worked with the communities that host our data centers,",
+   "parts": [
+    {
+     "t0_ms": 2896730,
+     "text": "any impact from the seismic regulatory shift that's occurred. We believe that based on"
+    },
+    {
+     "t0_ms": 2907290,
+     "text": "the permitting status as well as the construction status of the data centers that our backlog"
+    },
+    {
+     "t0_ms": 2913570,
+     "text": "is going to go into, we are very comfortable with our pipeline."
+    },
+    {
+     "t0_ms": 2919890,
+     "text": "And so that's a high-level comment."
+    },
+    {
+     "t0_ms": 2922530,
+     "text": "You know, we believe that what has occurred is a statement around how you build."
+    },
+    {
+     "t0_ms": 2930510,
+     "text": "We want to build responsibly."
+    },
+    {
+     "t0_ms": 2932350,
+     "text": "It's been a hallmark of how we've entered communities early,"
+    },
+    {
+     "t0_ms": 2936690,
+     "text": "how we've worked with the communities that host our data centers,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2941650,
+   "t1_ms": 2978970,
+   "speaker": "Management",
+   "text": "how we go about building and interfacing and being good neighbors. And so we think that that is an opportunity for us to continue to scale our business within the new political reality that exists. And as you correctly identified, CoreWeave made it a priority to begin to scale our footprint globally. We have added an additional 1.3 gigawatts outside of the U.S. You saw us enter Indonesia.",
+   "parts": [
+    {
+     "t0_ms": 2941650,
+     "text": "how we go about building and interfacing and being good neighbors."
+    },
+    {
+     "t0_ms": 2948190,
+     "text": "And so we think that that is an opportunity for us to continue to scale our business"
+    },
+    {
+     "t0_ms": 2955130,
+     "text": "within the new political reality that exists."
+    },
+    {
+     "t0_ms": 2960690,
+     "text": "And as you correctly identified,"
+    },
+    {
+     "t0_ms": 2965310,
+     "text": "CoreWeave made it a priority to begin to scale our footprint globally."
+    },
+    {
+     "t0_ms": 2971650,
+     "text": "We have added an additional 1.3 gigawatts outside of the U.S."
+    },
+    {
+     "t0_ms": 2977430,
+     "text": "You saw us enter Indonesia."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2979470,
+   "t1_ms": 3013150,
+   "speaker": "Management",
+   "text": "You saw us begin our voyage in India, in Spain, in Denmark, in Canada. All of these locations are an opportunity for us to build a diversified portfolio of infrastructure that is required by our clients, but also provides us the ability to build infrastructure in communities that are excited about us coming and expanding our footprint with them.",
+   "parts": [
+    {
+     "t0_ms": 2979470,
+     "text": "You saw us begin our voyage in India, in Spain, in Denmark, in Canada."
+    },
+    {
+     "t0_ms": 2987830,
+     "text": "All of these locations are an opportunity for us to build a diversified portfolio of infrastructure"
+    },
+    {
+     "t0_ms": 2996250,
+     "text": "that is required by our clients, but also provides us the ability to build infrastructure"
+    },
+    {
+     "t0_ms": 3006110,
+     "text": "in communities that are excited about us coming and expanding our footprint with them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3015740,
+   "t1_ms": 3017520,
+   "speaker": "Analyst",
+   "text": "Great. Thank you. Thanks for taking my question.",
+   "parts": [
+    {
+     "t0_ms": 3015740,
+     "text": "Great. Thank you. Thanks for taking my question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3019770,
+   "t1_ms": 3027170,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Carl Kirsten with UBS. Carl, your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3019770,
+     "text": "Your next question comes from the line of Carl Kirsten with UBS."
+    },
+    {
+     "t0_ms": 3024910,
+     "text": "Carl, your line is open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3027170,
+   "t1_ms": 3069870,
+   "speaker": "Analyst",
+   "text": "Okay. Thanks very much, Mike. You made a comment about a desire to diversify your client base. I think as everybody on the call hears the Frontier Labs signal a desire to lease and stand up their own compute going forward, I think we'd all love a little bit of color on how CoreWeave is going to react to that and the pace at which you would like CoreWeave to allocate incremental capacity. to non-lab, specifically enterprise customers. So perhaps you could articulate that planned mix shift and tie it maybe to the growth and the backlog that you saw in the third quarter",
+   "parts": [
+    {
+     "t0_ms": 3027170,
+     "text": "Okay. Thanks very much, Mike. You made a comment about a desire to diversify your client base. I think as everybody on the call hears the Frontier Labs signal a desire to lease and stand up their own compute going forward, I think we'd all love a little bit of color on how CoreWeave is going to react to that and the pace at which you would like CoreWeave to allocate incremental capacity."
+    },
+    {
+     "t0_ms": 3057170,
+     "text": "to non-lab, specifically enterprise customers."
+    },
+    {
+     "t0_ms": 3061670,
+     "text": "So perhaps you could articulate that planned mix shift and tie it maybe to the growth"
+    },
+    {
+     "t0_ms": 3067410,
+     "text": "and the backlog that you saw in the third quarter"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3069870,
+   "t1_ms": 3076510,
+   "speaker": "Analyst",
+   "text": "and offer a little color on what the customer composition of that backlog growth looked like. Thanks so much.",
+   "parts": [
+    {
+     "t0_ms": 3069870,
+     "text": "and offer a little color on what the customer composition of that backlog growth looked like."
+    },
+    {
+     "t0_ms": 3075970,
+     "text": "Thanks so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3077570,
+   "t1_ms": 3116230,
+   "speaker": "Management",
+   "text": "Yeah. One of the things that you hear me talk about, almost regardless of what part of the business we're talking, what we're focused on, is the concept of, you know, diversifying our customer concentration, our data center concentration, so forth and so on. Look, you know, it's pretty incredible that CoreWeave gets to stand in front of you guys and say, hey, 10% of the Fortune 500 are CoreWeave customers. 10% of our backlog is from financial services. Like, there is real diversification there.",
+   "parts": [
+    {
+     "t0_ms": 3077570,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 3078310,
+     "text": "One of the things that you hear me talk about,"
+    },
+    {
+     "t0_ms": 3080910,
+     "text": "almost regardless of what part of the business we're talking, what we're focused on,"
+    },
+    {
+     "t0_ms": 3084870,
+     "text": "is the concept of, you know, diversifying our customer concentration,"
+    },
+    {
+     "t0_ms": 3092450,
+     "text": "our data center concentration, so forth and so on."
+    },
+    {
+     "t0_ms": 3095170,
+     "text": "Look, you know, it's pretty incredible that CoreWeave gets to stand in front of you guys"
+    },
+    {
+     "t0_ms": 3100330,
+     "text": "and say, hey, 10% of the Fortune 500 are CoreWeave customers."
+    },
+    {
+     "t0_ms": 3106470,
+     "text": "10% of our backlog is from financial services."
+    },
+    {
+     "t0_ms": 3113610,
+     "text": "Like, there is real diversification there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3116910,
+   "t1_ms": 3160620,
+   "speaker": "Management",
+   "text": "More than half of the new customers that we added this year are not within the AI space. You know, it's really been a focus of ours as we've understood, you know, right from the beginning, that in order to build a cloud, you have to be able to enterprise clients that are going to need this type of infrastructure, that are going to need the type of software that we can provide through Forge as they begin to build out the tools that they need in order to be able to build and grow their business. And so, you know, we see that we're going to have long-term relationships with the AI labs.",
+   "parts": [
+    {
+     "t0_ms": 3116910,
+     "text": "More than half of the new customers that we added this year are not within the AI space."
+    },
+    {
+     "t0_ms": 3123830,
+     "text": "You know, it's really been a focus of ours as we've understood, you know, right from the beginning,"
+    },
+    {
+     "t0_ms": 3130930,
+     "text": "that in order to build a cloud, you have to be able to enterprise clients that are going to need this type of infrastructure,"
+    },
+    {
+     "t0_ms": 3141040,
+     "text": "that are going to need the type of software that we can provide through Forge"
+    },
+    {
+     "t0_ms": 3145720,
+     "text": "as they begin to build out the tools that they need in order to be able to build and grow their business."
+    },
+    {
+     "t0_ms": 3152200,
+     "text": "And so, you know, we see that we're going to have long-term relationships with the AI labs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3160780,
+   "t1_ms": 3203700,
+   "speaker": "Management",
+   "text": "We're going to have long-term relationships with hyperscale clouds. We're going to have long-term relationships with the social media companies. but we've also made it a priority across the company to really begin to build out and diversify those types of companies that are running on our infrastructure. Just to add, like, Forge is a great vehicle for us to make entry into the enterprise customer base, and we are already seeing great results come out of that. In Q3, 70% of our new cloud customers that we added were already Forge customers. or just how enterprise customers start to begin to deploy infrastructure",
+   "parts": [
+    {
+     "t0_ms": 3160780,
+     "text": "We're going to have long-term relationships with hyperscale clouds."
+    },
+    {
+     "t0_ms": 3167180,
+     "text": "We're going to have long-term relationships with the social media companies."
+    },
+    {
+     "t0_ms": 3170480,
+     "text": "but we've also made it a priority across the company to really begin to build out"
+    },
+    {
+     "t0_ms": 3176400,
+     "text": "and diversify those types of companies that are running on our infrastructure."
+    },
+    {
+     "t0_ms": 3182460,
+     "text": "Just to add, like, Forge is a great vehicle for us to make entry into the enterprise customer base,"
+    },
+    {
+     "t0_ms": 3190020,
+     "text": "and we are already seeing great results come out of that."
+    },
+    {
+     "t0_ms": 3193220,
+     "text": "In Q3, 70% of our new cloud customers that we added were already Forge customers."
+    },
+    {
+     "t0_ms": 3199340,
+     "text": "or just how enterprise customers start to begin to deploy infrastructure"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3203700,
+   "t1_ms": 3210200,
+   "speaker": "Management",
+   "text": "and that's a great opportunity for us to make headway into the",
+   "parts": [
+    {
+     "t0_ms": 3203700,
+     "text": "and that's a great opportunity for us to make headway into the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3210200,
+   "t1_ms": 3216470,
+   "speaker": "Analyst",
+   "text": "enterprise market. Okay, thank you both. I'll leave it at one question and give some room to others.",
+   "parts": [
+    {
+     "t0_ms": 3210200,
+     "text": "enterprise market. Okay, thank you both. I'll leave it at one question and give some room to others."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3216550,
+   "t1_ms": 3226510,
+   "speaker": "Operator",
+   "text": "Thank you. Your next question comes from the line of Ben Rietseve with Mellius Research. Ben, your line is open.",
+   "parts": [
+    {
+     "t0_ms": 3216550,
+     "text": "Thank you. Your next question comes from the line of Ben"
+    },
+    {
+     "t0_ms": 3222490,
+     "text": "Rietseve with Mellius Research. Ben, your line is open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3226770,
+   "t1_ms": 3261910,
+   "speaker": "Analyst",
+   "text": "Please go ahead. Hey, Mike and team, thank you. Nice to be speaking with you. Hey, Mike, you gave a lot of detail. I do know that you guys reached out to Texas, the new governor-elect there, and was just wondering if you could clarify, you know, how that went and also what your exposure is there. I know you mentioned that you don't see any delays. I was wondering what gave you that conviction, maybe after that reach out, just a little more specific in what your exposure is to that state? And a quick follow-up. Sure.",
+   "parts": [
+    {
+     "t0_ms": 3226770,
+     "text": "Please go ahead. Hey, Mike and team, thank you."
+    },
+    {
+     "t0_ms": 3230990,
+     "text": "Nice to be speaking with you. Hey, Mike, you gave a lot of"
+    },
+    {
+     "t0_ms": 3234690,
+     "text": "detail. I do know that you guys reached out to Texas, the new governor-elect there, and"
+    },
+    {
+     "t0_ms": 3241670,
+     "text": "was just wondering if you could clarify, you know, how that went and also what your exposure is"
+    },
+    {
+     "t0_ms": 3249510,
+     "text": "there. I know you mentioned that you don't see any delays. I was wondering what gave you that"
+    },
+    {
+     "t0_ms": 3253750,
+     "text": "conviction, maybe after that reach out, just a little more specific in what your exposure is"
+    },
+    {
+     "t0_ms": 3258830,
+     "text": "to that state? And a quick follow-up. Sure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3263510,
+   "t1_ms": 3304590,
+   "speaker": "Management",
+   "text": "So within Texas specifically, the overwhelming majority of our power is either online or fully permitted and under construction. And that is where our statements around that we do not believe or do not anticipate impact to the data centers that will ultimately host the backlog that we've brought to market. Having said that, we also believe that it's important to establish relationships with",
+   "parts": [
+    {
+     "t0_ms": 3263510,
+     "text": "So within Texas specifically,"
+    },
+    {
+     "t0_ms": 3267710,
+     "text": "the overwhelming majority of"
+    },
+    {
+     "t0_ms": 3271050,
+     "text": "our power is either online or"
+    },
+    {
+     "t0_ms": 3274570,
+     "text": "fully permitted and under construction. And that is where"
+    },
+    {
+     "t0_ms": 3278990,
+     "text": "our statements around"
+    },
+    {
+     "t0_ms": 3282170,
+     "text": "that we do not believe or do not anticipate"
+    },
+    {
+     "t0_ms": 3286270,
+     "text": "impact to the data centers that will ultimately host the backlog that we've brought to market."
+    },
+    {
+     "t0_ms": 3297030,
+     "text": "Having said that, we also believe that it's important to establish relationships with"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3304590,
+   "t1_ms": 3346270,
+   "speaker": "Management",
+   "text": "new governors that come in or new politicians, new regulators that are going to be in charge of or in oversight of their jurisdictions, just like we had with politicians and governors and other regulators that sit over infrastructure historically. And so, you know, our letter, my letter to her was to reach out and say, hey, you know, we are nonpartisan. We are looking to continue to build our infrastructure. We are a good operator, and we are ready to work with you",
+   "parts": [
+    {
+     "t0_ms": 3304590,
+     "text": "new governors that come in or new politicians, new regulators that are going to be in charge"
+    },
+    {
+     "t0_ms": 3314190,
+     "text": "of or in oversight of their jurisdictions, just like we had with politicians and governors"
+    },
+    {
+     "t0_ms": 3323150,
+     "text": "and other regulators that sit over infrastructure historically."
+    },
+    {
+     "t0_ms": 3328870,
+     "text": "And so, you know, our letter, my letter to her was to reach out and say, hey, you know,"
+    },
+    {
+     "t0_ms": 3335810,
+     "text": "we are nonpartisan."
+    },
+    {
+     "t0_ms": 3338270,
+     "text": "We are looking to continue to build our infrastructure."
+    },
+    {
+     "t0_ms": 3341290,
+     "text": "We are a good operator, and we are ready to work with you"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3346270,
+   "t1_ms": 3350750,
+   "speaker": "Management",
+   "text": "and the communities within which host our facilities, and we're excited about that.",
+   "parts": [
+    {
+     "t0_ms": 3346270,
+     "text": "and the communities within which host our facilities, and we're excited about that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3352910,
+   "t1_ms": 3372410,
+   "speaker": "Analyst",
+   "text": "Okay. Thanks, Mike. And then just, you know, I may have missed it, but just a little more color on whether you've received your VERA ribbons and ramping them and maybe even the VERA CPU racks and how important that was for the RAISE guidance, you know, in the near term and even through your ARR next year. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3352910,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 3353490,
+     "text": "Thanks, Mike."
+    },
+    {
+     "t0_ms": 3354710,
+     "text": "And then just, you know, I may have missed it,"
+    },
+    {
+     "t0_ms": 3356950,
+     "text": "but just a little more color on whether you've received your VERA ribbons and ramping them"
+    },
+    {
+     "t0_ms": 3362510,
+     "text": "and maybe even the VERA CPU racks and how important that was for the RAISE guidance, you know,"
+    },
+    {
+     "t0_ms": 3369010,
+     "text": "in the near term and even through your ARR next year."
+    },
+    {
+     "t0_ms": 3371930,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3372890,
+   "t1_ms": 3412570,
+   "speaker": "Management",
+   "text": "Yeah, so I'll start it out here. You know, Corwee was very proud to be the first company, first cloud, to bring the Vera Rubin online and to deliver it to Cognition, which was the first client in the world to have Vera Rubin in production. That was really exciting. It was really exciting for Cognition. It was really exciting, you know, I think for the space of March. You know, it's the introduction of a new, incredibly powerful architecture that will be one of the defining components of the next leg of artificial intelligence.",
+   "parts": [
+    {
+     "t0_ms": 3372890,
+     "text": "Yeah, so I'll start it out here."
+    },
+    {
+     "t0_ms": 3374590,
+     "text": "You know, Corwee was very proud to be the first company, first cloud,"
+    },
+    {
+     "t0_ms": 3381190,
+     "text": "to bring the Vera Rubin online and to deliver it to Cognition,"
+    },
+    {
+     "t0_ms": 3387150,
+     "text": "which was the first client in the world to have Vera Rubin in production."
+    },
+    {
+     "t0_ms": 3393170,
+     "text": "That was really exciting."
+    },
+    {
+     "t0_ms": 3395150,
+     "text": "It was really exciting for Cognition."
+    },
+    {
+     "t0_ms": 3398550,
+     "text": "It was really exciting, you know, I think for the space of March."
+    },
+    {
+     "t0_ms": 3401210,
+     "text": "You know, it's the introduction of a new, incredibly powerful architecture that will be one of the defining components of the next leg of artificial intelligence."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3413350,
+   "t1_ms": 3455070,
+   "speaker": "Management",
+   "text": "You know, we're also very excited about deploying the Vera CPU independently. We think that it's got, you know, a tremendous amount of infrastructure space that is really exciting and growing incredibly rapidly. And so, you know, we're there. It's a big part of what we're going to be building over the next several years. I think it's a big part of what everyone is going to be building over the next several years. And it was our privilege to be the first ones to actually bring it online and deliver it into production.",
+   "parts": [
+    {
+     "t0_ms": 3413350,
+     "text": "You know, we're also very excited about deploying the Vera CPU independently."
+    },
+    {
+     "t0_ms": 3419850,
+     "text": "We think that it's got, you know, a tremendous amount of infrastructure space that is really exciting and growing incredibly rapidly."
+    },
+    {
+     "t0_ms": 3438790,
+     "text": "And so, you know, we're there."
+    },
+    {
+     "t0_ms": 3441090,
+     "text": "It's a big part of what we're going to be building over the next several years."
+    },
+    {
+     "t0_ms": 3445450,
+     "text": "I think it's a big part of what everyone is going to be building over the next several years."
+    },
+    {
+     "t0_ms": 3449350,
+     "text": "And it was our privilege to be the first ones to actually bring it online and deliver it into production."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3456070,
+   "t1_ms": 3499610,
+   "speaker": "Management",
+   "text": "And, Ben, to answer your second question around, like, you know, the contribution around what drove the performance this quarter as well as our race guidance for next quarter, and as I mentioned, three things drove our quarter. First, we continue to convert contracted power to active power and revenue-generating capacity at a very rapid pace. Second, the demand and the pricing environments are strengthening, and that is helping us kind of realize better returns on our investments. And third is that our platform adoption is continuing and broadening across the domain with our customers across different industries using a wider range of our products and services. All three vectors contributed to this quarter, as well as expected to contribute further as we raise our guidance for Q4 as well.",
+   "parts": [
+    {
+     "t0_ms": 3456070,
+     "text": "And, Ben, to answer your second question around, like, you know,"
+    },
+    {
+     "t0_ms": 3459070,
+     "text": "the contribution around what drove the performance this quarter as well as our race guidance for next quarter,"
+    },
+    {
+     "t0_ms": 3464930,
+     "text": "and as I mentioned, three things drove our quarter."
+    },
+    {
+     "t0_ms": 3467590,
+     "text": "First, we continue to convert contracted power to active power"
+    },
+    {
+     "t0_ms": 3470850,
+     "text": "and revenue-generating capacity at a very rapid pace."
+    },
+    {
+     "t0_ms": 3475030,
+     "text": "Second, the demand and the pricing environments are strengthening,"
+    },
+    {
+     "t0_ms": 3478570,
+     "text": "and that is helping us kind of realize better returns on our investments."
+    },
+    {
+     "t0_ms": 3482670,
+     "text": "And third is that our platform adoption is continuing and broadening across the domain"
+    },
+    {
+     "t0_ms": 3487110,
+     "text": "with our customers across different industries using a wider range of our products and services."
+    },
+    {
+     "t0_ms": 3492030,
+     "text": "All three vectors contributed to this quarter, as well as expected to contribute further as we raise our guidance for Q4 as well."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3501210,
+   "t1_ms": 3513320,
+   "speaker": "Operator",
+   "text": "Thanks, Nitin. Your next question comes from the line of Amit Daryani-Ani with Evercore ISI. Amit, your line is open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3501210,
+     "text": "Thanks, Nitin."
+    },
+    {
+     "t0_ms": 3504660,
+     "text": "Your next question comes from the line of Amit Daryani-Ani with Evercore ISI."
+    },
+    {
+     "t0_ms": 3510880,
+     "text": "Amit, your line is open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3514600,
+   "t1_ms": 3537460,
+   "speaker": "Analyst",
+   "text": "Perfect. Thanks a lot, and thanks for all the details as well. I have two hopefully quick ones. The first thing you folks cited, 40 million of annual revenue per megawatt on short-term contracts versus 2025 on the longer-term. On a comparable hardware utilization basis, how do the returns differ after financing costs? And then, Mike, can you just talk about what portion of capacity are you comfortable having on shorter-term contracts?",
+   "parts": [
+    {
+     "t0_ms": 3514600,
+     "text": "Perfect. Thanks a lot, and thanks for all the details as well."
+    },
+    {
+     "t0_ms": 3518080,
+     "text": "I have two hopefully quick ones."
+    },
+    {
+     "t0_ms": 3519480,
+     "text": "The first thing you folks cited, 40 million of annual revenue per megawatt on short-term contracts versus 2025 on the longer-term."
+    },
+    {
+     "t0_ms": 3527060,
+     "text": "On a comparable hardware utilization basis, how do the returns differ after financing costs?"
+    },
+    {
+     "t0_ms": 3532820,
+     "text": "And then, Mike, can you just talk about what portion of capacity are you comfortable having on shorter-term contracts?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3538840,
+   "t1_ms": 3580320,
+   "speaker": "Management",
+   "text": "Yeah, so as Mike mentioned, look, our business is built on the three fundamental elements of the predictable cash flows for long-term committed customer contracts, the premium products in terms of the highest tax services like managed inference, as well as the short-dated customer contracts. When you look at our business, we manage that effectively in terms of looking at each opportunity, understanding the returns it will generate, the cost of financing that infrastructure, and the demand environment for each one of those vectors. That is how we internally allocate capacity. When we think about, you know, the returns, of course, when you're looking for a shorter-duration contract,",
+   "parts": [
+    {
+     "t0_ms": 3538840,
+     "text": "Yeah, so as Mike mentioned, look, our business is built on the three fundamental elements of the predictable cash flows"
+    },
+    {
+     "t0_ms": 3546540,
+     "text": "for long-term committed customer contracts,"
+    },
+    {
+     "t0_ms": 3550480,
+     "text": "the premium products in terms of the highest tax services"
+    },
+    {
+     "t0_ms": 3553800,
+     "text": "like managed inference,"
+    },
+    {
+     "t0_ms": 3555760,
+     "text": "as well as the short-dated customer contracts."
+    },
+    {
+     "t0_ms": 3558540,
+     "text": "When you look at our business,"
+    },
+    {
+     "t0_ms": 3559780,
+     "text": "we manage that effectively in terms of"
+    },
+    {
+     "t0_ms": 3562700,
+     "text": "looking at each opportunity,"
+    },
+    {
+     "t0_ms": 3565140,
+     "text": "understanding the returns it will generate,"
+    },
+    {
+     "t0_ms": 3567480,
+     "text": "the cost of financing that infrastructure,"
+    },
+    {
+     "t0_ms": 3569180,
+     "text": "and the demand environment for each one of those vectors."
+    },
+    {
+     "t0_ms": 3572500,
+     "text": "That is how we internally allocate capacity."
+    },
+    {
+     "t0_ms": 3575580,
+     "text": "When we think about, you know, the returns, of course,"
+    },
+    {
+     "t0_ms": 3578400,
+     "text": "when you're looking for a shorter-duration contract,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3580940,
+   "t1_ms": 3619470,
+   "speaker": "Management",
+   "text": "they kind of pay back CapEx in a much faster duration, somewhere in the tune of 6 to 18 months. And when you look at the longer-dated customer contracts, they pay back CapEx somewhere in the domain of hardware CapEx, somewhere in the domain of 1 to 2 years at the current pricing levels that we are seeing for long-dated customer contracts. The other piece of it that is actually really interesting, is that the initial contract to a conclusion, like we said earlier, 130,000 GPUs are coming off",
+   "parts": [
+    {
+     "t0_ms": 3580940,
+     "text": "they kind of pay back CapEx in a much faster duration,"
+    },
+    {
+     "t0_ms": 3584520,
+     "text": "somewhere in the tune of 6 to 18 months."
+    },
+    {
+     "t0_ms": 3587720,
+     "text": "And when you look at the longer-dated customer contracts,"
+    },
+    {
+     "t0_ms": 3590700,
+     "text": "they pay back CapEx somewhere in the domain of hardware CapEx,"
+    },
+    {
+     "t0_ms": 3594180,
+     "text": "somewhere in the domain of 1 to 2 years at the current pricing levels"
+    },
+    {
+     "t0_ms": 3597120,
+     "text": "that we are seeing for long-dated customer contracts."
+    },
+    {
+     "t0_ms": 3602100,
+     "text": "The other piece of it that is actually really interesting,"
+    },
+    {
+     "t0_ms": 3606400,
+     "text": "is that the initial contract to a conclusion, like we said earlier, 130,000 GPUs are coming off"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3619470,
+   "t1_ms": 3654110,
+   "speaker": "Management",
+   "text": "contracts in 2027, and then an additional 170,000 are coming off contracts in 2028. Those GPUs are going to make exceptionally great opportunities for us to be able to monetize into short-term contracts. I'd also like to highlight all of that infrastructure has been fully paid off at the end of their initial contract. That was the construction of the delayed draw of loans. And so they are fully amortized and gives us the opportunity to really have a meaningful impact",
+   "parts": [
+    {
+     "t0_ms": 3619470,
+     "text": "contracts in 2027, and then an additional 170,000 are coming off contracts in 2028. Those GPUs are"
+    },
+    {
+     "t0_ms": 3629410,
+     "text": "going to make exceptionally great opportunities for us to be able to monetize into short-term"
+    },
+    {
+     "t0_ms": 3635650,
+     "text": "contracts. I'd also like to highlight all of that infrastructure has been fully paid off"
+    },
+    {
+     "t0_ms": 3641390,
+     "text": "at the end of their initial contract. That was the construction of the delayed draw of loans."
+    },
+    {
+     "t0_ms": 3648270,
+     "text": "And so they are fully amortized and gives us the opportunity to really have a meaningful impact"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3654110,
+   "t1_ms": 3679410,
+   "speaker": "Analyst",
+   "text": "on cash flow. Absolutely. And maybe just on that topic, I think you said initially $4 billion of incremental revenues from renewed contracts in 27, 10 billion in 28. Is that just the total revenue contribution or is that the uplift you expect? And is this thing they've already renewed or you expect to do them? Just any color of that, because those numbers seem very powerful and you certainly have a lot of EBITDA margins with those, I think.",
+   "parts": [
+    {
+     "t0_ms": 3654110,
+     "text": "on cash flow. Absolutely. And maybe just on that topic, I think you said initially $4 billion of"
+    },
+    {
+     "t0_ms": 3662830,
+     "text": "incremental revenues from renewed contracts in 27, 10 billion in 28."
+    },
+    {
+     "t0_ms": 3668050,
+     "text": "Is that just the total revenue contribution or is that the uplift you expect?"
+    },
+    {
+     "t0_ms": 3671830,
+     "text": "And is this thing they've already renewed or you expect to do them?"
+    },
+    {
+     "t0_ms": 3674770,
+     "text": "Just any color of that, because those numbers seem very powerful"
+    },
+    {
+     "t0_ms": 3677310,
+     "text": "and you certainly have a lot of EBITDA margins with those, I think."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3679410,
+   "t1_ms": 3722890,
+   "speaker": "Management",
+   "text": "Yeah, but those are outside our revenue backlog that you see because that is for contracted capacity today. As we recontract this capacity, that is the available opportunity at the current pricing levels for the ARR to be generated against that infrastructure, which, as you highlighted, is deployed infrastructure for which we do not have incremental cap-ex? For clarity, I want to make sure that it's understood that in our $9 billion prepayment and deposit, there is in excess of $3 billion that was prepayment for existing infrastructure that has been fully paid off. And so that's $3 billion that comes into the company",
+   "parts": [
+    {
+     "t0_ms": 3679410,
+     "text": "Yeah, but those are outside our revenue backlog that you see"
+    },
+    {
+     "t0_ms": 3682910,
+     "text": "because that is for contracted capacity today."
+    },
+    {
+     "t0_ms": 3685410,
+     "text": "As we recontract this capacity, that is the available opportunity"
+    },
+    {
+     "t0_ms": 3689490,
+     "text": "at the current pricing levels for the ARR to be generated against that"
+    },
+    {
+     "t0_ms": 3693530,
+     "text": "infrastructure, which, as you highlighted, is deployed infrastructure for which"
+    },
+    {
+     "t0_ms": 3697670,
+     "text": "we do not have incremental cap-ex? For clarity,"
+    },
+    {
+     "t0_ms": 3702270,
+     "text": "I want to make sure that it's understood that"
+    },
+    {
+     "t0_ms": 3704570,
+     "text": "in our $9 billion prepayment and deposit,"
+    },
+    {
+     "t0_ms": 3709870,
+     "text": "there is in excess of $3 billion"
+    },
+    {
+     "t0_ms": 3713050,
+     "text": "that was prepayment for existing infrastructure"
+    },
+    {
+     "t0_ms": 3717170,
+     "text": "that has been fully paid off."
+    },
+    {
+     "t0_ms": 3720210,
+     "text": "And so that's $3 billion that comes into the company"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3722890,
+   "t1_ms": 3738650,
+   "speaker": "Management",
+   "text": "that doesn't require any debt service whatsoever, and it's for infrastructure that has already run through a full cycle within the DDTLs in the initial contracts that makes it so powerful.",
+   "parts": [
+    {
+     "t0_ms": 3722890,
+     "text": "that doesn't require any debt service whatsoever,"
+    },
+    {
+     "t0_ms": 3728210,
+     "text": "and it's for infrastructure that has already run through a full cycle"
+    },
+    {
+     "t0_ms": 3732970,
+     "text": "within the DDTLs in the initial contracts that makes it so powerful."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3742390,
+   "t1_ms": 3743430,
+   "speaker": "Analyst",
+   "text": "Perfect. Thank you very much.",
+   "parts": [
+    {
+     "t0_ms": 3742390,
+     "text": "Perfect. Thank you very much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3745650,
+   "t1_ms": 3752450,
+   "speaker": "Operator",
+   "text": "This concludes the Q&A session. I will now turn the call back to Mike Intrader for closing remarks.",
+   "parts": [
+    {
+     "t0_ms": 3745650,
+     "text": "This concludes the Q&A session."
+    },
+    {
+     "t0_ms": 3748490,
+     "text": "I will now turn the call back to Mike Intrader for closing remarks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3754300,
+   "t1_ms": 3782340,
+   "speaker": "Management",
+   "text": "Before we sign off, I want to thank our team, customers, and partners for their trust in CoreWeave and their commitment to what we are building together. None of these achievements would have been possible without you. I am incredibly proud of what we have accomplished and for what comes next as we build the essential cloud for AI. Thank you all for joining today. We appreciate your support, and we look forward to updating you on our progress in the quarters to come.",
+   "parts": [
+    {
+     "t0_ms": 3754300,
+     "text": "Before we sign off, I want to thank our team, customers, and partners"
+    },
+    {
+     "t0_ms": 3758540,
+     "text": "for their trust in CoreWeave and their commitment to what we are building together."
+    },
+    {
+     "t0_ms": 3763880,
+     "text": "None of these achievements would have been possible without you."
+    },
+    {
+     "t0_ms": 3767340,
+     "text": "I am incredibly proud of what we have accomplished"
+    },
+    {
+     "t0_ms": 3769840,
+     "text": "and for what comes next as we build the essential cloud for AI."
+    },
+    {
+     "t0_ms": 3774480,
+     "text": "Thank you all for joining today."
+    },
+    {
+     "t0_ms": 3776160,
+     "text": "We appreciate your support, and we look forward to updating you on our progress in the quarters to come."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3785140,
+   "t1_ms": 3789980,
+   "speaker": "Operator",
+   "text": "This concludes today's call. Thank you for attending. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 3785140,
+     "text": "This concludes today's call."
+    },
+    {
+     "t0_ms": 3787020,
+     "text": "Thank you for attending."
+    },
+    {
+     "t0_ms": 3788560,
+     "text": "You may now disconnect."
+    }
+   ]
+  }
+ ]
+}

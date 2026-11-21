@@ -1,0 +1,3495 @@
+{
+ "ticker": "IBM",
+ "quarter": "Q3-2026",
+ "company": "IBM",
+ "call_start": "2026-10-21T17:00:00-04:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/IBM_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 21220,
+   "speaker": "Operator",
+   "text": "Welcome, and thank you for standing by. At this time, all participants are in a listen-only mode. Today's conference is being recorded. If you have any objections, you may disconnect at this time. Now, I will turn the meeting over to Olympia McNerney, IBM's Global Head of Investor Relations. Olympia, you may begin.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Welcome, and thank you for standing by."
+    },
+    {
+     "t0_ms": 3040,
+     "text": "At this time, all participants are in a listen-only mode."
+    },
+    {
+     "t0_ms": 6800,
+     "text": "Today's conference is being recorded."
+    },
+    {
+     "t0_ms": 9460,
+     "text": "If you have any objections, you may disconnect at this time."
+    },
+    {
+     "t0_ms": 13000,
+     "text": "Now, I will turn the meeting over to Olympia McNerney,"
+    },
+    {
+     "t0_ms": 17020,
+     "text": "IBM's Global Head of Investor Relations."
+    },
+    {
+     "t0_ms": 19880,
+     "text": "Olympia, you may begin."
+    }
+   ]
+  },
+  {
+   "t0_ms": 22520,
+   "t1_ms": 63940,
+   "speaker": "Management",
+   "text": "Thank you. I'd like to welcome you to IBM's third quarter 2026 earnings presentation. I'm Olympia McNerney, and I'm here today with Arvind Krishna, IBM's Chairman, President, and Chief Executive Officer, and Jim Cavanaugh, IBM's Senior Vice President and Chief Financial Officer. We'll post today's prepared remarks and a replay of today's webcast on the IBM Investor website within a couple of hours. The earnings presentation is already available. To provide additional information to our investors, our presentation includes certain non-GAAP measures. For example, all of our references to revenue and signings growth are at constant currency. We provided reconciliation charts for these and other non-GAAP financial measures at the end of the presentation, which is posted to our investor website.",
+   "parts": [
+    {
+     "t0_ms": 22520,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 23540,
+     "text": "I'd like to welcome you to IBM's third quarter"
+    },
+    {
+     "t0_ms": 25740,
+     "text": "2026 earnings presentation."
+    },
+    {
+     "t0_ms": 28020,
+     "text": "I'm Olympia McNerney, and I'm here today with Arvind Krishna, IBM's Chairman, President, and Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 34260,
+     "text": "and Jim Cavanaugh, IBM's Senior Vice President and Chief Financial Officer."
+    },
+    {
+     "t0_ms": 38220,
+     "text": "We'll post today's prepared remarks and a replay of today's webcast on the IBM Investor website within a couple of hours."
+    },
+    {
+     "t0_ms": 44440,
+     "text": "The earnings presentation is already available."
+    },
+    {
+     "t0_ms": 47080,
+     "text": "To provide additional information to our investors, our presentation includes certain non-GAAP measures."
+    },
+    {
+     "t0_ms": 51760,
+     "text": "For example, all of our references to revenue and signings growth are at constant currency."
+    },
+    {
+     "t0_ms": 56420,
+     "text": "We provided reconciliation charts for these and other non-GAAP financial measures at the end of the presentation, which is posted to our investor website."
+    }
+   ]
+  },
+  {
+   "t0_ms": 64500,
+   "t1_ms": 108920,
+   "speaker": "Management",
+   "text": "Finally, some comments made in this presentation may be considered forward-looking under the Private Securities Litigation Reform Act of 1995. These statements involve factors that could cause our actual results to differ materially. Additional information about these factors is included in the company's SEC filings. So with that, I'll turn the call over to Arvind. Thank you for joining us today. Revenue growth in the third quarter accelerated to 6% above the base case we laid out in July. This performance reflects acceleration across our segments, led by software growth of 9%, infrastructure growth of 5%, and modest improvement in consulting. We entered the quarter focused on disciplined execution,",
+   "parts": [
+    {
+     "t0_ms": 64500,
+     "text": "Finally, some comments made in this presentation may be considered forward-looking under the Private Securities Litigation Reform Act of 1995."
+    },
+    {
+     "t0_ms": 72440,
+     "text": "These statements involve factors that could cause our actual results to differ materially."
+    },
+    {
+     "t0_ms": 77180,
+     "text": "Additional information about these factors is included in the company's SEC filings."
+    },
+    {
+     "t0_ms": 81440,
+     "text": "So with that, I'll turn the call over to Arvind."
+    },
+    {
+     "t0_ms": 83560,
+     "text": "Thank you for joining us today."
+    },
+    {
+     "t0_ms": 87620,
+     "text": "Revenue growth in the third quarter accelerated to 6% above the base case we laid out in July."
+    },
+    {
+     "t0_ms": 94340,
+     "text": "This performance reflects acceleration across our segments,"
+    },
+    {
+     "t0_ms": 98480,
+     "text": "led by software growth of 9%, infrastructure growth of 5%, and modest improvement in consulting."
+    },
+    {
+     "t0_ms": 105840,
+     "text": "We entered the quarter focused on disciplined execution,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 108920,
+   "t1_ms": 153560,
+   "speaker": "Management",
+   "text": "which also drove strong performance in profitability and free cash flow. These results demonstrate the strength of our portfolio, the continued value of clients' place in mission-critical platforms, and our confidence in both our strategy and the outlook for the balance of the year. Technology innovation in both hybrid infrastructure and superintelligence is leading to better business performance. This quarter's results reinforce the strategic choices we have made over the last several years to advance IBM as a software-led hybrid cloud and AI platform company. In software, Red Hat again grew 11%, with bookings growth accelerating back to the high teens.",
+   "parts": [
+    {
+     "t0_ms": 108920,
+     "text": "which also drove strong performance in profitability and free cash flow."
+    },
+    {
+     "t0_ms": 114600,
+     "text": "These results demonstrate the strength of our portfolio,"
+    },
+    {
+     "t0_ms": 117900,
+     "text": "the continued value of clients' place in mission-critical platforms,"
+    },
+    {
+     "t0_ms": 121480,
+     "text": "and our confidence in both our strategy and the outlook for the balance of the year."
+    },
+    {
+     "t0_ms": 127360,
+     "text": "Technology innovation in both hybrid infrastructure and superintelligence"
+    },
+    {
+     "t0_ms": 131980,
+     "text": "is leading to better business performance."
+    },
+    {
+     "t0_ms": 135100,
+     "text": "This quarter's results reinforce the strategic choices we have made over the last several years"
+    },
+    {
+     "t0_ms": 140620,
+     "text": "to advance IBM as a software-led hybrid cloud and AI platform company."
+    },
+    {
+     "t0_ms": 146760,
+     "text": "In software, Red Hat again grew 11%, with bookings growth accelerating back to the high teens."
+    }
+   ]
+  },
+  {
+   "t0_ms": 154560,
+   "t1_ms": 197660,
+   "speaker": "Management",
+   "text": "OpenShift ARR growth accelerated to over 30% as organizations scaled superintelligence applications and agents into production. reinforcing our conviction that we remain in the early stages of a long-term application modernization cycle. Transaction processing grew 10%, underscoring the strategic importance of the mainframe and validating our view that the softness we saw in the second quarter reflected timing rather than underlying demand. Data grew 20%, supported by continued strength and confluent. Infrastructure was up 5%, driven by continued momentum in distributed infrastructure, growing 32% this quarter.",
+   "parts": [
+    {
+     "t0_ms": 154560,
+     "text": "OpenShift ARR growth accelerated to over 30% as organizations scaled superintelligence applications and agents into production."
+    },
+    {
+     "t0_ms": 164540,
+     "text": "reinforcing our conviction that we remain in the early stages of a long-term application modernization cycle."
+    },
+    {
+     "t0_ms": 171600,
+     "text": "Transaction processing grew 10%, underscoring the strategic importance of the mainframe"
+    },
+    {
+     "t0_ms": 176860,
+     "text": "and validating our view that the softness we saw in the second quarter reflected timing rather than underlying demand."
+    },
+    {
+     "t0_ms": 185460,
+     "text": "Data grew 20%, supported by continued strength and confluent."
+    },
+    {
+     "t0_ms": 189260,
+     "text": "Infrastructure was up 5%, driven by continued momentum in distributed infrastructure, growing 32% this quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 198340,
+   "t1_ms": 240140,
+   "speaker": "Management",
+   "text": "AI continues to increase demand for storage, and we are gaining share through differentiated offerings across Flash, Fusion, Tape, and IBM Z Storage, including AI-enabled capabilities that help clients scale and manage data for AI. Consulting revenue grew 2% as clients modernized to deploy AI securely and at scale. The durability of our portfolio remains a defining feature of IBM today. Z17 continued the strongest innovation cycle in the platform's history, generating more than a billion dollars of incremental revenue over six quarters compared with prior programs.",
+   "parts": [
+    {
+     "t0_ms": 198340,
+     "text": "AI continues to increase demand for storage, and we are gaining share through differentiated offerings across Flash, Fusion, Tape, and IBM Z Storage,"
+    },
+    {
+     "t0_ms": 209160,
+     "text": "including AI-enabled capabilities that help clients scale and manage data for AI."
+    },
+    {
+     "t0_ms": 215120,
+     "text": "Consulting revenue grew 2% as clients modernized to deploy AI securely and at scale."
+    },
+    {
+     "t0_ms": 222360,
+     "text": "The durability of our portfolio remains a defining feature of IBM today."
+    },
+    {
+     "t0_ms": 228680,
+     "text": "Z17 continued the strongest innovation cycle in the platform's history,"
+    },
+    {
+     "t0_ms": 233900,
+     "text": "generating more than a billion dollars of incremental revenue over six quarters compared with prior programs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 240140,
+   "t1_ms": 284820,
+   "speaker": "Management",
+   "text": "This reflects the security, reliability, scalability, and compelling economics of the platform. As infrastructure costs rise, IBM Z delivers a 2 to 15 times total cost of ownership advantage versus off-platform alternatives, positioning us to capture additional value as AI workloads grow. Building on that advantage, we introduced new single-frame and rack-mount IBM Z systems in July that help clients address data center space, cost, and deployment constraints without compromising performance or security. Client response has been strong, contributing to the highest mid-range revenue launch in IBM Z this quarter",
+   "parts": [
+    {
+     "t0_ms": 240140,
+     "text": "This reflects the security, reliability, scalability, and compelling economics of the platform."
+    },
+    {
+     "t0_ms": 248240,
+     "text": "As infrastructure costs rise, IBM Z delivers a 2 to 15 times total cost of ownership advantage"
+    },
+    {
+     "t0_ms": 256240,
+     "text": "versus off-platform alternatives, positioning us to capture additional value as AI workloads grow."
+    },
+    {
+     "t0_ms": 263540,
+     "text": "Building on that advantage, we introduced new single-frame and rack-mount IBM Z systems in July"
+    },
+    {
+     "t0_ms": 269700,
+     "text": "that help clients address data center space, cost, and deployment constraints"
+    },
+    {
+     "t0_ms": 274480,
+     "text": "without compromising performance or security."
+    },
+    {
+     "t0_ms": 278380,
+     "text": "Client response has been strong,"
+    },
+    {
+     "t0_ms": 280640,
+     "text": "contributing to the highest mid-range revenue launch in IBM Z this quarter"
+    }
+   ]
+  },
+  {
+   "t0_ms": 284820,
+   "t1_ms": 327540,
+   "speaker": "Management",
+   "text": "in nearly two decades. Last quarter, we told you Lightwell represents a multibillion-dollar opportunity for IBM and Red Hat to help clients secure their open-source software. since then some of the world's largest enterprises have signed up as clients and we have built a pipeline approaching 700 million dollars in a short period of time we have released more than 40 000 remediated packages to the lightwell network demonstrating the rapid scale up of our remediation capabilities now turning to our ai strategy enterprise ai is entering its next phase Deploying more models or building more agents will not be enough.",
+   "parts": [
+    {
+     "t0_ms": 284820,
+     "text": "in nearly two decades."
+    },
+    {
+     "t0_ms": 287860,
+     "text": "Last quarter, we told you Lightwell represents a multibillion-dollar opportunity"
+    },
+    {
+     "t0_ms": 292180,
+     "text": "for IBM and Red Hat to help clients secure their open-source software."
+    },
+    {
+     "t0_ms": 296380,
+     "text": "since then some of the world's largest enterprises have signed up as clients and we have built a"
+    },
+    {
+     "t0_ms": 303560,
+     "text": "pipeline approaching 700 million dollars in a short period of time we have released more than"
+    },
+    {
+     "t0_ms": 309380,
+     "text": "40 000 remediated packages to the lightwell network demonstrating the rapid scale up of"
+    },
+    {
+     "t0_ms": 315460,
+     "text": "our remediation capabilities now turning to our ai strategy enterprise ai is entering its next phase"
+    },
+    {
+     "t0_ms": 324000,
+     "text": "Deploying more models or building more agents will not be enough."
+    }
+   ]
+  },
+  {
+   "t0_ms": 327700,
+   "t1_ms": 370740,
+   "speaker": "Management",
+   "text": "The advantage will belong to a company that can operate AI securely, efficiently, and sustainably across the enterprise. Organizations are recognizing that AI is only as effective as the system around it. The data that provides context, the workflows that orchestrate action, the infrastructure that secures and optimizes operations, and the hybrid cloud foundation that provides flexibility without lock-in. IBM has assembled these capabilities across four platforms. Confluent provides continuous business context through a real-time data foundation. Watson X, including Bob and Orchestrate, support AI-driven software development and agent orchestration.",
+   "parts": [
+    {
+     "t0_ms": 327700,
+     "text": "The advantage will belong to a company that can operate AI securely, efficiently, and sustainably across the enterprise."
+    },
+    {
+     "t0_ms": 336120,
+     "text": "Organizations are recognizing that AI is only as effective as the system around it."
+    },
+    {
+     "t0_ms": 342300,
+     "text": "The data that provides context, the workflows that orchestrate action, the infrastructure that secures and optimizes operations,"
+    },
+    {
+     "t0_ms": 349440,
+     "text": "and the hybrid cloud foundation that provides flexibility without lock-in."
+    },
+    {
+     "t0_ms": 354940,
+     "text": "IBM has assembled these capabilities across four platforms."
+    },
+    {
+     "t0_ms": 359040,
+     "text": "Confluent provides continuous business context through a real-time data foundation."
+    },
+    {
+     "t0_ms": 363940,
+     "text": "Watson X, including Bob and Orchestrate,"
+    },
+    {
+     "t0_ms": 366940,
+     "text": "support AI-driven software development and agent orchestration."
+    }
+   ]
+  },
+  {
+   "t0_ms": 371780,
+   "t1_ms": 412780,
+   "speaker": "Management",
+   "text": "HashiCorp and Apptio automate identity, access, and policy while optimizing cost and performance. Red Hat provides the open hybrid architecture spanning public cloud, on-premises, sovereign environments, and the edge. Together, these platforms help clients move from isolated deployments to AI operating at enterprise scale. Data sits at the center of the AI operating model. 72% of organizations report insufficient real-time data infrastructure, which holds back AI at scale. Agents need the current state of the business That is why we are excited about StreamHouse",
+   "parts": [
+    {
+     "t0_ms": 371780,
+     "text": "HashiCorp and Apptio automate identity, access, and policy"
+    },
+    {
+     "t0_ms": 375780,
+     "text": "while optimizing cost and performance."
+    },
+    {
+     "t0_ms": 379040,
+     "text": "Red Hat provides the open hybrid architecture spanning public cloud, on-premises, sovereign environments, and the edge."
+    },
+    {
+     "t0_ms": 387060,
+     "text": "Together, these platforms help clients move from isolated deployments to AI operating at enterprise scale."
+    },
+    {
+     "t0_ms": 395120,
+     "text": "Data sits at the center of the AI operating model."
+    },
+    {
+     "t0_ms": 399080,
+     "text": "72% of organizations report insufficient real-time data infrastructure, which holds back AI at scale."
+    },
+    {
+     "t0_ms": 406780,
+     "text": "Agents need the current state of the business"
+    },
+    {
+     "t0_ms": 409960,
+     "text": "That is why we are excited about StreamHouse"
+    }
+   ]
+  },
+  {
+   "t0_ms": 412780,
+   "t1_ms": 454200,
+   "speaker": "Management",
+   "text": "a capability from Confluent that continuously captures, transforms and queries real-time data It complements warehouses and lakehouses A StreamHouse makes real-time governed data continuously available to applications, analytics and AI unifying operational and analytical data into a single architecture We believe Confluent is uniquely positioned with a complete open and hybrid approach that helps clients avoid lock-in while deploying wherever the data resides. As AI scales, clients ask two questions. What will it cost and who controls it? We are innovating on both.",
+   "parts": [
+    {
+     "t0_ms": 412780,
+     "text": "a capability from Confluent that continuously captures, transforms and queries real-time data"
+    },
+    {
+     "t0_ms": 419220,
+     "text": "It complements warehouses and lakehouses"
+    },
+    {
+     "t0_ms": 422280,
+     "text": "A StreamHouse makes real-time governed data"
+    },
+    {
+     "t0_ms": 425260,
+     "text": "continuously available to applications, analytics and AI"
+    },
+    {
+     "t0_ms": 429140,
+     "text": "unifying operational and analytical data into a single architecture"
+    },
+    {
+     "t0_ms": 434800,
+     "text": "We believe Confluent is uniquely positioned with a complete open and hybrid approach"
+    },
+    {
+     "t0_ms": 439320,
+     "text": "that helps clients avoid lock-in while deploying wherever the data resides."
+    },
+    {
+     "t0_ms": 445740,
+     "text": "As AI scales, clients ask two questions."
+    },
+    {
+     "t0_ms": 449560,
+     "text": "What will it cost and who controls it?"
+    },
+    {
+     "t0_ms": 452640,
+     "text": "We are innovating on both."
+    }
+   ]
+  },
+  {
+   "t0_ms": 455640,
+   "t1_ms": 495150,
+   "speaker": "Management",
+   "text": "Apptio now connects AI spend to business results, providing visibility into AI usage, token consumption, and the cost of running it across the enterprise. LLMD, an open-source project developed with Red Hat and Google, reuses previously processed context, helping clients run large AI models at 5 to 10 times lower cost by making more efficient use of existing GPU infrastructure. And Bob now runs on-prem, so clients in regulated and sovereign environments can keep code and models on their own infrastructure. Governance matters as much as intelligence.",
+   "parts": [
+    {
+     "t0_ms": 455640,
+     "text": "Apptio now connects AI spend to business results,"
+    },
+    {
+     "t0_ms": 458560,
+     "text": "providing visibility into AI usage, token consumption,"
+    },
+    {
+     "t0_ms": 461700,
+     "text": "and the cost of running it across the enterprise."
+    },
+    {
+     "t0_ms": 465660,
+     "text": "LLMD, an open-source project developed with Red Hat and Google,"
+    },
+    {
+     "t0_ms": 470420,
+     "text": "reuses previously processed context,"
+    },
+    {
+     "t0_ms": 472980,
+     "text": "helping clients run large AI models at 5 to 10 times lower cost"
+    },
+    {
+     "t0_ms": 477800,
+     "text": "by making more efficient use of existing GPU infrastructure."
+    },
+    {
+     "t0_ms": 482380,
+     "text": "And Bob now runs on-prem,"
+    },
+    {
+     "t0_ms": 484160,
+     "text": "so clients in regulated and sovereign environments"
+    },
+    {
+     "t0_ms": 487620,
+     "text": "can keep code and models on their own infrastructure."
+    },
+    {
+     "t0_ms": 493130,
+     "text": "Governance matters as much as intelligence."
+    }
+   ]
+  },
+  {
+   "t0_ms": 495450,
+   "t1_ms": 539230,
+   "speaker": "Management",
+   "text": "As agents multiply, enterprises need to know who each agent is, what authority it has, and what it can access. HashiCorp Vault allows clients to register, authorize, audit, and revoke agents and secure their credentials. IBM Agent Identity and HashiCorp Vault are partnering with the NVIDIA Open Agent Safety Platform to strengthen agent security. We believe agent identity will become as foundational to enterprise AI as identity has become to the Internet. Finally, quantum remains a strategic area of differentiation for IBM and a significant long-term opportunity.",
+   "parts": [
+    {
+     "t0_ms": 495450,
+     "text": "As agents multiply, enterprises need to know who each agent is, what authority it has, and what it can access."
+    },
+    {
+     "t0_ms": 504530,
+     "text": "HashiCorp Vault allows clients to register, authorize, audit, and revoke agents and secure their credentials."
+    },
+    {
+     "t0_ms": 513230,
+     "text": "IBM Agent Identity and HashiCorp Vault are partnering with the NVIDIA Open Agent Safety Platform to strengthen agent security."
+    },
+    {
+     "t0_ms": 523070,
+     "text": "We believe agent identity will become as foundational to enterprise AI as identity has become to the Internet."
+    },
+    {
+     "t0_ms": 531550,
+     "text": "Finally, quantum remains a strategic area of differentiation for IBM and a significant long-term opportunity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 539230,
+   "t1_ms": 578470,
+   "speaker": "Management",
+   "text": "In July, three independent demonstrations of quantum advantage were achieved on IBM hardware with the University of Chicago, Algorithmic, and KEDMA, providing further evidence that quantum computing is moving from scientific promise towards practical value. Our Nighthawk R2 processor has achieved important roadmap milestones across speed, scale, and quality, delivering 7,500 gigs, executing 100,000 circuits per second, and enabling performance improvements of up to 19 times over prior generation systems.",
+   "parts": [
+    {
+     "t0_ms": 539230,
+     "text": "In July, three independent demonstrations of quantum advantage were achieved on IBM hardware with the University of Chicago, Algorithmic, and KEDMA, providing further evidence that quantum computing is moving from scientific promise towards practical value."
+    },
+    {
+     "t0_ms": 557430,
+     "text": "Our Nighthawk R2 processor has achieved important roadmap milestones across speed, scale, and quality,"
+    },
+    {
+     "t0_ms": 566710,
+     "text": "delivering 7,500 gigs, executing 100,000 circuits per second,"
+    },
+    {
+     "t0_ms": 572350,
+     "text": "and enabling performance improvements of up to 19 times over prior generation systems."
+    }
+   ]
+  },
+  {
+   "t0_ms": 579210,
+   "t1_ms": 620330,
+   "speaker": "Management",
+   "text": "That performance changes both time to solution and the economics of quantum computation. Workloads costing approximately $100 to run on IBM could cost up to $10 million on slower competitive modalities. Recently, IBM was selected for Stage C, the third phase of the quantum benchmarking initiative led by DARPA, the United States Defense Advanced Research Projects Agency, another validation of the strength of IBM's path to building a fault-tolerant quantum computer. commercial momentum is also growing this year ibm quantum has signed 16 enterprise engagements",
+   "parts": [
+    {
+     "t0_ms": 579210,
+     "text": "That performance changes both time to solution and the economics of quantum computation."
+    },
+    {
+     "t0_ms": 585190,
+     "text": "Workloads costing approximately $100 to run on IBM could cost up to $10 million on slower competitive modalities."
+    },
+    {
+     "t0_ms": 594990,
+     "text": "Recently, IBM was selected for Stage C, the third phase of the quantum benchmarking initiative led by DARPA,"
+    },
+    {
+     "t0_ms": 602990,
+     "text": "the United States Defense Advanced Research Projects Agency,"
+    },
+    {
+     "t0_ms": 607550,
+     "text": "another validation of the strength of IBM's path to building a fault-tolerant quantum computer."
+    },
+    {
+     "t0_ms": 612290,
+     "text": "commercial momentum is also growing this year ibm quantum has signed 16 enterprise engagements"
+    }
+   ]
+  },
+  {
+   "t0_ms": 620330,
+   "t1_ms": 662810,
+   "speaker": "Management",
+   "text": "across industries including automotive aerospace telecommunications financial services and manufacturing this includes at&t and general motors amongst many others who are now all part of the ibm quantum network the world's largest network of quantum innovators we are also advancing the technology and infrastructure required for industrial-scale fault-tolerant computing, including the successful connection of our first modular cryogenic systems and continued progress on our 300,000-square-foot Poughkeepsie manufacturing facility. This, along with the closing of the $1 billion award from the Department of Commerce",
+   "parts": [
+    {
+     "t0_ms": 620330,
+     "text": "across industries including automotive aerospace telecommunications financial services and"
+    },
+    {
+     "t0_ms": 626630,
+     "text": "manufacturing this includes at&t and general motors amongst many others who are now all part"
+    },
+    {
+     "t0_ms": 633790,
+     "text": "of the ibm quantum network the world's largest network of quantum innovators we are also advancing"
+    },
+    {
+     "t0_ms": 640830,
+     "text": "the technology and infrastructure required for industrial-scale fault-tolerant computing,"
+    },
+    {
+     "t0_ms": 646450,
+     "text": "including the successful connection of our first modular cryogenic systems"
+    },
+    {
+     "t0_ms": 650210,
+     "text": "and continued progress on our 300,000-square-foot Poughkeepsie manufacturing facility."
+    },
+    {
+     "t0_ms": 657190,
+     "text": "This, along with the closing of the $1 billion award from the Department of Commerce"
+    }
+   ]
+  },
+  {
+   "t0_ms": 662810,
+   "t1_ms": 705950,
+   "speaker": "Management",
+   "text": "in Anderon for manufacturing quantum wafers, gives us confidence that after the Starling demonstration, we are ready to scale. We look forward to talking more about our progress at our quantum day on December 10th. In closing, our third quarter performance reflects the strength of our portfolio and the progress we are making against our strategic priorities of delivering both sustainable revenue growth and higher profitability. Our results reinforce our confidence in delivering revenue growth for 2026 in a range of 4% to 5% and enable us to raise our year-over-year free cash flow growth expectation",
+   "parts": [
+    {
+     "t0_ms": 662810,
+     "text": "in Anderon for manufacturing quantum wafers, gives us confidence"
+    },
+    {
+     "t0_ms": 667590,
+     "text": "that after the Starling demonstration, we are ready to scale."
+    },
+    {
+     "t0_ms": 671630,
+     "text": "We look forward to talking more about our progress"
+    },
+    {
+     "t0_ms": 674210,
+     "text": "at our quantum day on December 10th."
+    },
+    {
+     "t0_ms": 677670,
+     "text": "In closing, our third quarter performance reflects the strength of our portfolio"
+    },
+    {
+     "t0_ms": 682850,
+     "text": "and the progress we are making against our strategic priorities"
+    },
+    {
+     "t0_ms": 686610,
+     "text": "of delivering both sustainable revenue growth and higher profitability."
+    },
+    {
+     "t0_ms": 691970,
+     "text": "Our results reinforce our confidence in delivering revenue growth for 2026"
+    },
+    {
+     "t0_ms": 697310,
+     "text": "in a range of 4% to 5% and enable us to raise our year-over-year free cash flow growth expectation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 705950,
+   "t1_ms": 750290,
+   "speaker": "Management",
+   "text": "to more than a billion dollars. With that, let me hand it over to Jim. Thanks, Arvind. In the third quarter, we delivered solid results with 6% revenue growth, 70 basis points of operating pre-tax margin expansion, and 11% diluted operating earnings per share growth. And through the first nine months, we generated about $8 billion of free cash flow, up 8% year over year. These results reflect strength across our portfolio and solid execution against our priorities. Let me walk through the performance in each of our segments. Software revenue growth accelerated four points sequentially to 9% this quarter,",
+   "parts": [
+    {
+     "t0_ms": 705950,
+     "text": "to more than a billion dollars. With that, let me hand it over to Jim."
+    },
+    {
+     "t0_ms": 711990,
+     "text": "Thanks, Arvind. In the third quarter, we delivered solid results with 6% revenue growth,"
+    },
+    {
+     "t0_ms": 718250,
+     "text": "70 basis points of operating pre-tax margin expansion, and 11% diluted operating earnings"
+    },
+    {
+     "t0_ms": 724470,
+     "text": "per share growth. And through the first nine months, we generated about $8 billion of free"
+    },
+    {
+     "t0_ms": 730630,
+     "text": "cash flow, up 8% year over year. These results reflect strength across our portfolio and solid"
+    },
+    {
+     "t0_ms": 738530,
+     "text": "execution against our priorities. Let me walk through the performance in each of our segments."
+    },
+    {
+     "t0_ms": 745610,
+     "text": "Software revenue growth accelerated four points sequentially to 9% this quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 750290,
+   "t1_ms": 792270,
+   "speaker": "Management",
+   "text": "including over four points of organic growth. This performance was driven by our high value annual recurring revenue base which grew 8% to $24.9 billion. Three of our four software sub-segments grew revenue double digits led by the combination of strong new business performance and pipeline closure rates including the successful closure of around two-thirds of the large deals that slipped from the second quarter. Our results represent the high end of the range we outlined in July, reinforcing our confidence in the strength of our portfolio. Turning to our",
+   "parts": [
+    {
+     "t0_ms": 750290,
+     "text": "including over four points of organic growth. This performance was driven by our high value"
+    },
+    {
+     "t0_ms": 757030,
+     "text": "annual recurring revenue base which grew 8% to $24.9 billion. Three of our four software"
+    },
+    {
+     "t0_ms": 765870,
+     "text": "sub-segments grew revenue double digits led by the combination of strong new business performance"
+    },
+    {
+     "t0_ms": 771970,
+     "text": "and pipeline closure rates including the successful closure of around two-thirds of the"
+    },
+    {
+     "t0_ms": 778770,
+     "text": "large deals that slipped from the second quarter. Our results represent the high end of the range"
+    },
+    {
+     "t0_ms": 785270,
+     "text": "we outlined in July, reinforcing our confidence in the strength of our portfolio. Turning to our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 792270,
+   "t1_ms": 830430,
+   "speaker": "Management",
+   "text": "sub-segments, Red Hat revenue grew 11% again this quarter, fueled by bookings accelerating back to the high teens. Lightwell was recently made generally available, and we have strong early demand, with a pipeline that is already approaching $700 million. OpenShift is now $2.4 billion ARR business, with growth accelerating to more than 30%. Our virtualization offering continues to scale, with nearly $800 million in contracts signed since early 2024, and about",
+   "parts": [
+    {
+     "t0_ms": 792270,
+     "text": "sub-segments, Red Hat revenue grew 11% again this quarter, fueled by bookings accelerating back"
+    },
+    {
+     "t0_ms": 799230,
+     "text": "to the high teens. Lightwell was recently made generally available, and we have strong early"
+    },
+    {
+     "t0_ms": 806190,
+     "text": "demand, with a pipeline that is already approaching $700 million. OpenShift is now"
+    },
+    {
+     "t0_ms": 813590,
+     "text": "$2.4 billion ARR business, with growth accelerating to more than 30%. Our virtualization offering"
+    },
+    {
+     "t0_ms": 822390,
+     "text": "continues to scale, with nearly $800 million in contracts signed since early 2024, and about"
+    }
+   ]
+  },
+  {
+   "t0_ms": 830430,
+   "t1_ms": 871530,
+   "speaker": "Management",
+   "text": "$750 million in pipeline. Data grew 20 percent, driven by another strong performance from Confluent, with bookings growth of about 20 percent. Transaction processing grew 10 percent in the quarter, driven by demand for this mission-critical software and strong execution against our pipeline. HashiCorp continues to perform well, growing bookings across all geographies and accelerating revenue growth sequentially. However, automation was impacted by a tougher compare. Turning to infrastructure, revenue growth accelerated to 5%,",
+   "parts": [
+    {
+     "t0_ms": 830430,
+     "text": "$750 million in pipeline. Data grew 20 percent, driven by another strong performance from"
+    },
+    {
+     "t0_ms": 838950,
+     "text": "Confluent, with bookings growth of about 20 percent. Transaction processing grew 10 percent"
+    },
+    {
+     "t0_ms": 845750,
+     "text": "in the quarter, driven by demand for this mission-critical software and strong execution"
+    },
+    {
+     "t0_ms": 851530,
+     "text": "against our pipeline. HashiCorp continues to perform well, growing bookings across all"
+    },
+    {
+     "t0_ms": 858250,
+     "text": "geographies and accelerating revenue growth sequentially. However, automation was impacted"
+    },
+    {
+     "t0_ms": 864950,
+     "text": "by a tougher compare. Turning to infrastructure, revenue growth accelerated to 5%,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 872150,
+   "t1_ms": 915090,
+   "speaker": "Management",
+   "text": "driven by 32% growth in distributed infrastructure. Storage delivered record revenue growth and continued to gain market share, with broad-based demand across Flash, Fusion, Tape, and IBM Z storage. Strength across storage and power reflects the growing importance of differentiated infrastructure as clients modernize their environments, address data growth, and support AI at scale. With a sizable backlog in distributed infrastructure exiting the quarter, we are well positioned for continued momentum in the fourth quarter. Z17 continues to perform exceptionally",
+   "parts": [
+    {
+     "t0_ms": 872150,
+     "text": "driven by 32% growth in distributed infrastructure. Storage delivered record revenue growth and"
+    },
+    {
+     "t0_ms": 879450,
+     "text": "continued to gain market share, with broad-based demand across Flash, Fusion, Tape, and IBM Z"
+    },
+    {
+     "t0_ms": 887050,
+     "text": "storage. Strength across storage and power reflects the growing importance of differentiated"
+    },
+    {
+     "t0_ms": 893910,
+     "text": "infrastructure as clients modernize their environments, address data growth, and support"
+    },
+    {
+     "t0_ms": 900530,
+     "text": "AI at scale. With a sizable backlog in distributed infrastructure exiting the quarter, we are well"
+    },
+    {
+     "t0_ms": 907970,
+     "text": "positioned for continued momentum in the fourth quarter. Z17 continues to perform exceptionally"
+    }
+   ]
+  },
+  {
+   "t0_ms": 915090,
+   "t1_ms": 959670,
+   "speaker": "Management",
+   "text": "well, wrapping on the strongest start to a Z program last year. Program-to-date performance remains well ahead of the prior generation, up over $1 billion, and this quarter, we had the strongest mid-range launch in IBM Z in nearly two decades. Beyond the strength of the program, IBM mainframe clients, representing approximately 85% of installed MIPS capacity, are maintaining or growing their capacity, and aggregated installed capacity has tripled over the last few programs. Consulting revenue grew 2% this quarter, reflecting continued client demand",
+   "parts": [
+    {
+     "t0_ms": 915090,
+     "text": "well, wrapping on the strongest start to a Z program last year. Program-to-date performance"
+    },
+    {
+     "t0_ms": 922030,
+     "text": "remains well ahead of the prior generation, up over $1 billion, and this quarter, we had the"
+    },
+    {
+     "t0_ms": 929390,
+     "text": "strongest mid-range launch in IBM Z in nearly two decades. Beyond the strength of the program,"
+    },
+    {
+     "t0_ms": 937170,
+     "text": "IBM mainframe clients, representing approximately 85% of installed MIPS capacity, are maintaining"
+    },
+    {
+     "t0_ms": 944870,
+     "text": "or growing their capacity, and aggregated installed capacity has tripled over the last"
+    },
+    {
+     "t0_ms": 951930,
+     "text": "few programs. Consulting revenue grew 2% this quarter, reflecting continued client demand"
+    }
+   ]
+  },
+  {
+   "t0_ms": 959670,
+   "t1_ms": 1004230,
+   "speaker": "Management",
+   "text": "for AI-enabled transformation. Growth was led by strategy and technology, up 4%, with strength in application modernization and data and AI transformation, while cybersecurity deliver nearly double digit growth in intelligent operations. AI is increasingly embedded in broader transformations our clients are undertaking, representing about 30% of our consulting revenue in the quarter and 35% of our backlog. We are also expanding the ecosystem of capabilities we bring to clients, including through our new strategic partnerships with OpenAI and our expanded relationship with Google Cloud",
+   "parts": [
+    {
+     "t0_ms": 959670,
+     "text": "for AI-enabled transformation. Growth was led by strategy and technology, up 4%,"
+    },
+    {
+     "t0_ms": 967030,
+     "text": "with strength in application modernization and data and AI transformation, while cybersecurity"
+    },
+    {
+     "t0_ms": 974030,
+     "text": "deliver nearly double digit growth in intelligent operations. AI is increasingly embedded in broader"
+    },
+    {
+     "t0_ms": 982210,
+     "text": "transformations our clients are undertaking, representing about 30% of our consulting"
+    },
+    {
+     "t0_ms": 987650,
+     "text": "revenue in the quarter and 35% of our backlog. We are also expanding the ecosystem of capabilities"
+    },
+    {
+     "t0_ms": 995710,
+     "text": "we bring to clients, including through our new strategic partnerships with OpenAI"
+    },
+    {
+     "t0_ms": 1000670,
+     "text": "and our expanded relationship with Google Cloud"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1004230,
+   "t1_ms": 1044270,
+   "speaker": "Management",
+   "text": "as we help clients scale enterprise AI. Clients remain at different stages of adoption, but we continue to see them modernizing applications, strengthening their data foundations, and reengineering workflows as they move forward toward embedding AI into core business processes at scale. Our integrated model, combining deep domain expertise, technology, and reusable assets positions us to help clients capture business value from AI while accelerating time to value. Let me now discuss profitability. Adjusted EBITDA",
+   "parts": [
+    {
+     "t0_ms": 1004230,
+     "text": "as we help clients scale enterprise AI."
+    },
+    {
+     "t0_ms": 1008070,
+     "text": "Clients remain at different stages of adoption,"
+    },
+    {
+     "t0_ms": 1011550,
+     "text": "but we continue to see them modernizing applications,"
+    },
+    {
+     "t0_ms": 1015590,
+     "text": "strengthening their data foundations,"
+    },
+    {
+     "t0_ms": 1017850,
+     "text": "and reengineering workflows as they move forward"
+    },
+    {
+     "t0_ms": 1021210,
+     "text": "toward embedding AI into core business processes at scale."
+    },
+    {
+     "t0_ms": 1025910,
+     "text": "Our integrated model, combining deep domain expertise,"
+    },
+    {
+     "t0_ms": 1029250,
+     "text": "technology, and reusable assets positions us to help clients capture business value"
+    },
+    {
+     "t0_ms": 1035490,
+     "text": "from AI while accelerating time to value. Let me now discuss profitability. Adjusted EBITDA"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1044270,
+   "t1_ms": 1086270,
+   "speaker": "Management",
+   "text": "and operating pre-tax margins expanded by 60 and 70 basis point, respectively. As I mentioned last quarter, we accelerated our productivity initiatives to help enhance our operating profit margin and free cash flow commitments while continuing to invest for growth. We made significant progress this quarter, driving efficiencies across G&A and sales, reinforcing the power of our productivity flywheel. Segment profit margins expanded by 210 basis points in software and 120 basis points in infrastructure, driven by ongoing productivity actions.",
+   "parts": [
+    {
+     "t0_ms": 1044270,
+     "text": "and operating pre-tax margins expanded by 60 and 70 basis point, respectively. As I mentioned last"
+    },
+    {
+     "t0_ms": 1052630,
+     "text": "quarter, we accelerated our productivity initiatives to help enhance our operating"
+    },
+    {
+     "t0_ms": 1057490,
+     "text": "profit margin and free cash flow commitments while continuing to invest for growth. We made"
+    },
+    {
+     "t0_ms": 1064150,
+     "text": "significant progress this quarter, driving efficiencies across G&A and sales, reinforcing"
+    },
+    {
+     "t0_ms": 1071170,
+     "text": "the power of our productivity flywheel. Segment profit margins expanded by 210 basis points in"
+    },
+    {
+     "t0_ms": 1078930,
+     "text": "software and 120 basis points in infrastructure, driven by ongoing productivity actions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1087070,
+   "t1_ms": 1129950,
+   "speaker": "Management",
+   "text": "Consulting segment profit margin declined modestly as we reinvested productivity gains into digital assets, accelerating our transition towards a services as software model to capture the growing AI opportunity. Through the first nine months of the year, we generated about $8 billion of free cash flow, up about $600 million year-over-year, driven by about $1 billion increase in adjusted EBITDA, offset by higher capex, cash taxes, and net interest expense. Our free cash flow margin for the first nine months of the year is the highest in reported history,",
+   "parts": [
+    {
+     "t0_ms": 1087070,
+     "text": "Consulting segment profit margin declined modestly as we reinvested productivity gains into digital assets,"
+    },
+    {
+     "t0_ms": 1095670,
+     "text": "accelerating our transition towards a services as software model to capture the growing AI opportunity."
+    },
+    {
+     "t0_ms": 1103710,
+     "text": "Through the first nine months of the year, we generated about $8 billion of free cash flow,"
+    },
+    {
+     "t0_ms": 1109290,
+     "text": "up about $600 million year-over-year, driven by about $1 billion increase in adjusted EBITDA,"
+    },
+    {
+     "t0_ms": 1117870,
+     "text": "offset by higher capex, cash taxes, and net interest expense."
+    },
+    {
+     "t0_ms": 1124210,
+     "text": "Our free cash flow margin for the first nine months of the year is the highest in reported history,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1130730,
+   "t1_ms": 1172230,
+   "speaker": "Management",
+   "text": "highlighting our strong execution against productivity initiatives and laser focus on operational discipline. We exited the third quarter with a strong liquidity position and a solid investment-grade balance sheet with cash of $11.1 billion. We returned $4.8 billion to shareholders in the form of dividends through the first nine months of the year. Our debt balance ending the quarter was $63.8 billion, including debt of $12.7 billion for our financing business, with a receivables portfolio that is almost 80% investment grade.",
+   "parts": [
+    {
+     "t0_ms": 1130730,
+     "text": "highlighting our strong execution against productivity initiatives"
+    },
+    {
+     "t0_ms": 1134930,
+     "text": "and laser focus on operational discipline."
+    },
+    {
+     "t0_ms": 1139290,
+     "text": "We exited the third quarter with a strong liquidity position"
+    },
+    {
+     "t0_ms": 1143090,
+     "text": "and a solid investment-grade balance sheet with cash of $11.1 billion."
+    },
+    {
+     "t0_ms": 1149510,
+     "text": "We returned $4.8 billion to shareholders in the form of dividends"
+    },
+    {
+     "t0_ms": 1154630,
+     "text": "through the first nine months of the year."
+    },
+    {
+     "t0_ms": 1157070,
+     "text": "Our debt balance ending the quarter was $63.8 billion,"
+    },
+    {
+     "t0_ms": 1162470,
+     "text": "including debt of $12.7 billion for our financing business,"
+    },
+    {
+     "t0_ms": 1166930,
+     "text": "with a receivables portfolio that is almost 80% investment grade."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1173450,
+   "t1_ms": 1218290,
+   "speaker": "Management",
+   "text": "Now, let me talk about what we are seeing going forward. The strength and diversity of our portfolio, disciplined capital allocation, and sustained productivity execution underpin our revenue growth, earnings expansion, and free cash flow performance. Through the first nine months of the year, we delivered over 4% revenue growth, 9% operating pre-tax income growth, 10% operating earnings per share growth, and 8% free cash flow growth. We continue to expect revenue growth for 2026 in the range of 4% to 5% and are raising our expectation for free cash flow growth to more than $1 billion.",
+   "parts": [
+    {
+     "t0_ms": 1173450,
+     "text": "Now, let me talk about what we are seeing going forward."
+    },
+    {
+     "t0_ms": 1178130,
+     "text": "The strength and diversity of our portfolio, disciplined capital allocation,"
+    },
+    {
+     "t0_ms": 1183190,
+     "text": "and sustained productivity execution underpin our revenue growth, earnings expansion, and free cash flow performance."
+    },
+    {
+     "t0_ms": 1191690,
+     "text": "Through the first nine months of the year, we delivered over 4% revenue growth,"
+    },
+    {
+     "t0_ms": 1196930,
+     "text": "9% operating pre-tax income growth, 10% operating earnings per share growth, and 8% free cash flow growth."
+    },
+    {
+     "t0_ms": 1206150,
+     "text": "We continue to expect revenue growth for 2026 in the range of 4% to 5% and are raising our expectation for free cash flow growth to more than $1 billion."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1218290,
+   "t1_ms": 1254790,
+   "speaker": "Management",
+   "text": "Ninety days ago, we provided a full-year revenue growth range, with profit and free cash flow expectations anchored to a 4% base case. We continue to take the same approach for the full year, anchoring profit, free cash flow, and segment expectations to that base case. Given our strong third-quarter software performance, our confidence in the full-year outlook has increased. We now expect full-year software growth of approximately 7% to 8%,",
+   "parts": [
+    {
+     "t0_ms": 1218290,
+     "text": "Ninety days ago, we provided a full-year revenue growth range, with profit and free cash flow"
+    },
+    {
+     "t0_ms": 1226870,
+     "text": "expectations anchored to a 4% base case. We continue to take the same approach for the full"
+    },
+    {
+     "t0_ms": 1233450,
+     "text": "year, anchoring profit, free cash flow, and segment expectations to that base case."
+    },
+    {
+     "t0_ms": 1241590,
+     "text": "Given our strong third-quarter software performance, our confidence in the full-year"
+    },
+    {
+     "t0_ms": 1246310,
+     "text": "outlook has increased. We now expect full-year software growth of approximately 7% to 8%,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1254790,
+   "t1_ms": 1293590,
+   "speaker": "Management",
+   "text": "with about 7% as the revised base case. For the full year, we expect double-digit growth in hybrid cloud, mid-teens growth in data, and low single-digit growth in automation. For transaction processing, we are raising our expectations for the full year with growth expected to be flat. Infrastructure growth accelerated in the third quarter with significantly stronger program-to-program performance of Z17, underscoring the durability of the platform and the value it delivers to clients.",
+   "parts": [
+    {
+     "t0_ms": 1254790,
+     "text": "with about 7% as the revised base case. For the full year, we expect double-digit growth in hybrid"
+    },
+    {
+     "t0_ms": 1263670,
+     "text": "cloud, mid-teens growth in data, and low single-digit growth in automation. For transaction"
+    },
+    {
+     "t0_ms": 1271630,
+     "text": "processing, we are raising our expectations for the full year with growth expected to be flat."
+    },
+    {
+     "t0_ms": 1279710,
+     "text": "Infrastructure growth accelerated in the third quarter with significantly stronger program-to-program"
+    },
+    {
+     "t0_ms": 1285470,
+     "text": "performance of Z17, underscoring the durability of the platform and the value it delivers to clients."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1294490,
+   "t1_ms": 1337270,
+   "speaker": "Management",
+   "text": "Combined with continued strength in distributed infrastructure, we continue to expect low single-digit infrastructure revenue growth for the full year. In consulting, backlog quality and momentum-generative AI continue to support a modest acceleration to low to mid-single-digit revenue growth for the year. In the third quarter, our operational discipline and accelerated productivity initiatives allowed us to enhance margins and deliver free cash flow commitments while continuing to invest for growth. These actions include deploying AI and automation at scale across our company,",
+   "parts": [
+    {
+     "t0_ms": 1294490,
+     "text": "Combined with continued strength in distributed infrastructure, we continue to expect low"
+    },
+    {
+     "t0_ms": 1299990,
+     "text": "single-digit infrastructure revenue growth for the full year. In consulting, backlog quality"
+    },
+    {
+     "t0_ms": 1307130,
+     "text": "and momentum-generative AI continue to support a modest acceleration to low to mid-single-digit"
+    },
+    {
+     "t0_ms": 1314770,
+     "text": "revenue growth for the year. In the third quarter, our operational discipline and accelerated"
+    },
+    {
+     "t0_ms": 1322630,
+     "text": "productivity initiatives allowed us to enhance margins and deliver free cash flow commitments"
+    },
+    {
+     "t0_ms": 1328470,
+     "text": "while continuing to invest for growth."
+    },
+    {
+     "t0_ms": 1331830,
+     "text": "These actions include deploying AI and automation at scale across our company,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1338050,
+   "t1_ms": 1377170,
+   "speaker": "Management",
+   "text": "reducing third-party spend, improving sales and marketing efficiency, using AI to drive more efficient software development, optimizing our supply chain, and enhancing services delivery. We continue to expect 100 basis points of operating pre-tax margin expansion for the full year, reflecting the flow through from the third quarter earnings beat and continued operational discipline. And our operating tax rate expectation for the year remains in the mid-teens. For the full year, we are raising our expectation for free cash flow",
+   "parts": [
+    {
+     "t0_ms": 1338050,
+     "text": "reducing third-party spend, improving sales and marketing efficiency,"
+    },
+    {
+     "t0_ms": 1343270,
+     "text": "using AI to drive more efficient software development,"
+    },
+    {
+     "t0_ms": 1347170,
+     "text": "optimizing our supply chain, and enhancing services delivery."
+    },
+    {
+     "t0_ms": 1351290,
+     "text": "We continue to expect 100 basis points of operating pre-tax margin expansion"
+    },
+    {
+     "t0_ms": 1357570,
+     "text": "for the full year, reflecting the flow through from the third quarter earnings beat"
+    },
+    {
+     "t0_ms": 1362870,
+     "text": "and continued operational discipline. And our operating tax rate expectation for the year"
+    },
+    {
+     "t0_ms": 1370150,
+     "text": "remains in the mid-teens. For the full year, we are raising our expectation for free cash flow"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1377170,
+   "t1_ms": 1415090,
+   "speaker": "Management",
+   "text": "growth to more than $1 billion. The primary driver of this growth will be adjusted EBITDA, offset by higher capex, higher cash tax, and net interest expense. Our free cash flow continues to be driven by growth in adjusted EBITDA and demonstrates consistent free cash flow realization of about 130% over the last few years. Let me close by saying that our third quarter performance reinforces our confidence in our portfolio, the resilience of our business model, and our outlook for the year.",
+   "parts": [
+    {
+     "t0_ms": 1377170,
+     "text": "growth to more than $1 billion. The primary driver of this growth will be adjusted EBITDA,"
+    },
+    {
+     "t0_ms": 1384570,
+     "text": "offset by higher capex, higher cash tax, and net interest expense."
+    },
+    {
+     "t0_ms": 1390930,
+     "text": "Our free cash flow continues to be driven by growth in adjusted EBITDA"
+    },
+    {
+     "t0_ms": 1395410,
+     "text": "and demonstrates consistent free cash flow realization of about 130% over the last few years."
+    },
+    {
+     "t0_ms": 1403970,
+     "text": "Let me close by saying that our third quarter performance reinforces our confidence in our portfolio,"
+    },
+    {
+     "t0_ms": 1410410,
+     "text": "the resilience of our business model, and our outlook for the year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1415870,
+   "t1_ms": 1460730,
+   "speaker": "Management",
+   "text": "At the same time, we continue to invest in the technologies that will shape IBM's next chapter of growth. As Arvind mentioned, quantum continues to advance across technology, ecosystem adoption, and scale-up. While still early, the progress we're seeing from enterprise engagements to government validation reinforces our confidence in both our roadmap and the long-term opportunity ahead. We look forward to discussing in more detail at our Quantum Day in December. Arvind and I are now happy to take questions. Olympia, let's get started. Thank you, Jim. Before we begin Q&A, I'd like to mention a couple of items.",
+   "parts": [
+    {
+     "t0_ms": 1415870,
+     "text": "At the same time, we continue to invest in the technologies that will shape IBM's next chapter of growth."
+    },
+    {
+     "t0_ms": 1423090,
+     "text": "As Arvind mentioned, quantum continues to advance across technology, ecosystem adoption, and scale-up."
+    },
+    {
+     "t0_ms": 1431870,
+     "text": "While still early, the progress we're seeing from enterprise engagements to government validation"
+    },
+    {
+     "t0_ms": 1438810,
+     "text": "reinforces our confidence in both our roadmap and the long-term opportunity ahead."
+    },
+    {
+     "t0_ms": 1445570,
+     "text": "We look forward to discussing in more detail at our Quantum Day in December."
+    },
+    {
+     "t0_ms": 1451170,
+     "text": "Arvind and I are now happy to take questions."
+    },
+    {
+     "t0_ms": 1454210,
+     "text": "Olympia, let's get started."
+    },
+    {
+     "t0_ms": 1456670,
+     "text": "Thank you, Jim."
+    },
+    {
+     "t0_ms": 1457810,
+     "text": "Before we begin Q&A, I'd like to mention a couple of items."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1461110,
+   "t1_ms": 1470530,
+   "speaker": "Management",
+   "text": "First, supplemental information is provided at the end of the presentation. And then second, as always, I'd ask you to refrain from multi-part questions. Operator, let's please open it up for questions.",
+   "parts": [
+    {
+     "t0_ms": 1461110,
+     "text": "First, supplemental information is provided at the end of the presentation."
+    },
+    {
+     "t0_ms": 1464830,
+     "text": "And then second, as always, I'd ask you to refrain from multi-part questions."
+    },
+    {
+     "t0_ms": 1468610,
+     "text": "Operator, let's please open it up for questions."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1472420,
+   "t1_ms": 1504360,
+   "speaker": "Operator",
+   "text": "Thank you. At this time, we'll begin the question and answer session of the conference. If you would like to ask a question, please press star 1 on your telephone keypad. A confirmation tone will indicate that your line is in the question queue. You may press star 2 if you would like to remove your question from the queue. For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys. And our first question comes from Amit Daryanani with Evercore. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1472420,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1473700,
+     "text": "At this time, we'll begin the question and answer session of the conference."
+    },
+    {
+     "t0_ms": 1477160,
+     "text": "If you would like to ask a question, please press star 1 on your telephone keypad."
+    },
+    {
+     "t0_ms": 1483120,
+     "text": "A confirmation tone will indicate that your line is in the question queue."
+    },
+    {
+     "t0_ms": 1486880,
+     "text": "You may press star 2 if you would like to remove your question from the queue."
+    },
+    {
+     "t0_ms": 1491640,
+     "text": "For participants using speaker equipment, it may be necessary to pick up your handset before pressing the star keys."
+    },
+    {
+     "t0_ms": 1500440,
+     "text": "And our first question comes from Amit Daryanani with Evercore."
+    },
+    {
+     "t0_ms": 1503820,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1506700,
+   "t1_ms": 1549340,
+   "speaker": "Analyst",
+   "text": "Yep. Thanks a lot. Good afternoon, everyone. And great to see some nice software acceleration here. You know, Arvind, I think last quarter we discussed a lot about customers prioritizing infrastructure over software purchases. This quarter, it seems like transaction processing is at double-digit growth, while infrastructure has remained very strong for you folks. Can you just talk about, you know, what changed in customer spending priorities? Are you primarily just recovering before transactions at this point, or are you actually starting to see infrastructure investments starting to create more incremental demand for IBM software? And with Red Hat bookings actually growing at high teens, is that an early indication that software can actually accelerate as you go into 27? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 1506700,
+     "text": "Yep. Thanks a lot. Good afternoon, everyone."
+    },
+    {
+     "t0_ms": 1508800,
+     "text": "And great to see some nice software acceleration here."
+    },
+    {
+     "t0_ms": 1512200,
+     "text": "You know, Arvind, I think last quarter we discussed a lot about"
+    },
+    {
+     "t0_ms": 1514780,
+     "text": "customers prioritizing infrastructure over software purchases."
+    },
+    {
+     "t0_ms": 1519700,
+     "text": "This quarter, it seems like transaction processing is at double-digit growth,"
+    },
+    {
+     "t0_ms": 1524100,
+     "text": "while infrastructure has remained very strong for you folks."
+    },
+    {
+     "t0_ms": 1527180,
+     "text": "Can you just talk about, you know, what changed in customer spending priorities?"
+    },
+    {
+     "t0_ms": 1530540,
+     "text": "Are you primarily just recovering before transactions at this point, or are you actually starting to see infrastructure investments starting to create more incremental demand for IBM software?"
+    },
+    {
+     "t0_ms": 1541440,
+     "text": "And with Red Hat bookings actually growing at high teens, is that an early indication that software can actually accelerate as you go into 27?"
+    },
+    {
+     "t0_ms": 1548880,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1550100,
+   "t1_ms": 1593780,
+   "speaker": "Management",
+   "text": "So, Amit, thanks for that question, and also thank you for observing the numbers. Let me comment on the overall customer priorities, the tie towards infrastructure and Red Hat. And I'm going to ask Jim to cover the transaction processing piece a little bit. So first, as we look at customer spending priorities, customer spending priorities in trying to leverage AI remain strong. But as you begin to leverage it, how does the average customer get value? They have to rewrite an application. they have to modernize an existing application, and you then ask the question, where do those run? That tends to be a tailwind for Red Hat OpenShift, and I think we are at the very beginning of this cycle,",
+   "parts": [
+    {
+     "t0_ms": 1550100,
+     "text": "So, Amit, thanks for that question, and also thank you for observing the numbers."
+    },
+    {
+     "t0_ms": 1554780,
+     "text": "Let me comment on the overall customer priorities, the tie towards infrastructure and Red Hat."
+    },
+    {
+     "t0_ms": 1562560,
+     "text": "And I'm going to ask Jim to cover the transaction processing piece a little bit."
+    },
+    {
+     "t0_ms": 1566700,
+     "text": "So first, as we look at customer spending priorities, customer spending priorities in trying to leverage AI remain strong."
+    },
+    {
+     "t0_ms": 1575400,
+     "text": "But as you begin to leverage it, how does the average customer get value?"
+    },
+    {
+     "t0_ms": 1579820,
+     "text": "They have to rewrite an application."
+    },
+    {
+     "t0_ms": 1581420,
+     "text": "they have to modernize an existing application, and you then ask the question, where do those run?"
+    },
+    {
+     "t0_ms": 1587300,
+     "text": "That tends to be a tailwind for Red Hat OpenShift, and I think we are at the very beginning of this cycle,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1594020,
+   "t1_ms": 1635420,
+   "speaker": "Management",
+   "text": "so I expect that to carry on for a long time. Then the moment they get to saying, okay, I'll write the application on Red Hat OpenShift, you then get to, how do I unlock the data from all of the enterprise data that I need to power that AI application? Remember, 90% of enterprise data is not on the cloud. It's very much inside the enterprise. So confluent tends to be a tailwind. I expect these to carry on for a long time. The automation portfolio will get a benefit when these applications all get to scale and people start worrying about managing hundreds and thousands of them. At that point, automation will also get a tailwind.",
+   "parts": [
+    {
+     "t0_ms": 1594020,
+     "text": "so I expect that to carry on for a long time."
+    },
+    {
+     "t0_ms": 1597620,
+     "text": "Then the moment they get to saying, okay, I'll write the application on Red Hat OpenShift,"
+    },
+    {
+     "t0_ms": 1602560,
+     "text": "you then get to, how do I unlock the data from all of the enterprise data that I need to power that AI application?"
+    },
+    {
+     "t0_ms": 1610480,
+     "text": "Remember, 90% of enterprise data is not on the cloud."
+    },
+    {
+     "t0_ms": 1614200,
+     "text": "It's very much inside the enterprise."
+    },
+    {
+     "t0_ms": 1616140,
+     "text": "So confluent tends to be a tailwind."
+    },
+    {
+     "t0_ms": 1618580,
+     "text": "I expect these to carry on for a long time."
+    },
+    {
+     "t0_ms": 1622180,
+     "text": "The automation portfolio will get a benefit when these applications all get to scale"
+    },
+    {
+     "t0_ms": 1627900,
+     "text": "and people start worrying about managing hundreds and thousands of them."
+    },
+    {
+     "t0_ms": 1631620,
+     "text": "At that point, automation will also get a tailwind."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1635980,
+   "t1_ms": 1680020,
+   "speaker": "Management",
+   "text": "On the point you're making on Red Hat, look, we're very comfortable saying that based on what we can see, we are comfortable about double-digit growth in the fourth quarter of this year. Right now, we don't really want to comment on 27 growth, but generally speaking, I can say when we get these kinds of booking growths, it translates into good revenue growth going forward. Jim, maybe a comment on TP. Yeah, just to build on your points, Arvind, and Amit, thank you very much for the comment and the question. You know, we're very pleased overall with our software performance. Team executed extremely well. Four points sequentially to 9% printed here in third quarter. And it was all organically driven. Pervasively across our",
+   "parts": [
+    {
+     "t0_ms": 1635980,
+     "text": "On the point you're making on Red Hat, look, we're very comfortable saying"
+    },
+    {
+     "t0_ms": 1639840,
+     "text": "that based on what we can see, we are comfortable about double-digit growth in the fourth quarter"
+    },
+    {
+     "t0_ms": 1645900,
+     "text": "of this year. Right now, we don't really want to comment on 27 growth, but generally speaking,"
+    },
+    {
+     "t0_ms": 1652360,
+     "text": "I can say when we get these kinds of booking growths, it translates into good revenue growth"
+    },
+    {
+     "t0_ms": 1657180,
+     "text": "going forward. Jim, maybe a comment on TP. Yeah, just to build on your points, Arvind,"
+    },
+    {
+     "t0_ms": 1663340,
+     "text": "and Amit, thank you very much for the comment and the question. You know, we're very pleased"
+    },
+    {
+     "t0_ms": 1667700,
+     "text": "overall with our software performance. Team executed extremely well. Four points sequentially"
+    },
+    {
+     "t0_ms": 1673060,
+     "text": "to 9% printed here in third quarter. And it was all organically driven. Pervasively across our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1680020,
+   "t1_ms": 1723760,
+   "speaker": "Management",
+   "text": "portfolio, three of our four subcategories accelerated and grew double digits overall. And that was a reflection of both. We talked a lot last quarter about the 80% high value recurring revenue growing nicely at high single digit, but we saw a very nice rebound in our transactional business, that remaining 20% that grew actually double digits led by our ELAs that were up north of 20% with an NRR of north of 130% overall. That's a function of, yes, discipline execution on slip deals, but also a function of net new business contribution in the quarter.",
+   "parts": [
+    {
+     "t0_ms": 1680020,
+     "text": "portfolio, three of our four subcategories accelerated and grew double digits overall."
+    },
+    {
+     "t0_ms": 1686300,
+     "text": "And that was a reflection of both. We talked a lot last quarter about the 80% high value recurring"
+    },
+    {
+     "t0_ms": 1692900,
+     "text": "revenue growing nicely at high single digit, but we saw a very nice rebound in our transactional"
+    },
+    {
+     "t0_ms": 1700520,
+     "text": "business, that remaining 20% that grew actually double digits led by our ELAs that were up north"
+    },
+    {
+     "t0_ms": 1708140,
+     "text": "of 20% with an NRR of north of 130% overall. That's a function of, yes, discipline execution"
+    },
+    {
+     "t0_ms": 1717780,
+     "text": "on slip deals, but also a function of net new business contribution in the quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1724160,
+   "t1_ms": 1758520,
+   "speaker": "Management",
+   "text": "And I would tell you before all of you ask, about a quarter of it is the slip deals with regards to overall software acceleration, and about three quarters of it is net new business that we are capturing overall. So to build on Arvind's point. Now on TP, TP, we're obviously pleased, double digit growth. I think this instantiates the demand for our mission-critical strategic mainframe software. A lot of discussions a quarter ago about demand destruction versus timing.",
+   "parts": [
+    {
+     "t0_ms": 1724160,
+     "text": "And I would tell you before all of you ask, about a quarter of it is the slip deals with"
+    },
+    {
+     "t0_ms": 1730200,
+     "text": "regards to overall software acceleration, and about three quarters of it is net new"
+    },
+    {
+     "t0_ms": 1736480,
+     "text": "business that we are capturing overall."
+    },
+    {
+     "t0_ms": 1738960,
+     "text": "So to build on Arvind's point."
+    },
+    {
+     "t0_ms": 1741040,
+     "text": "Now on TP, TP, we're obviously pleased, double digit growth."
+    },
+    {
+     "t0_ms": 1745460,
+     "text": "I think this instantiates the demand for our mission-critical strategic mainframe software."
+    },
+    {
+     "t0_ms": 1753420,
+     "text": "A lot of discussions a quarter ago about demand destruction versus timing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1758820,
+   "t1_ms": 1800560,
+   "speaker": "Management",
+   "text": "I think this puts us to rest right now because when you take a look at it, we've been talking all year long about the reinforcement of confidence we have in our mainframe platform. and how we monetize the strong Z17 performance, right? That model is, the monetization model is, the more capacity you put in the marketplace, the higher monetization opportunity, the higher price opportunity, the higher value creation opportunity. Z17 today, install MIPS are up high teens, six quarters in. Ship MIPS are up over 100%. That is the future monetization opportunity",
+   "parts": [
+    {
+     "t0_ms": 1758820,
+     "text": "I think this puts us to rest right now because when you take a look at it, we've been talking all year long about the reinforcement of confidence we have in our mainframe platform."
+    },
+    {
+     "t0_ms": 1771040,
+     "text": "and how we monetize the strong Z17 performance, right?"
+    },
+    {
+     "t0_ms": 1776620,
+     "text": "That model is, the monetization model is,"
+    },
+    {
+     "t0_ms": 1779600,
+     "text": "the more capacity you put in the marketplace,"
+    },
+    {
+     "t0_ms": 1782240,
+     "text": "the higher monetization opportunity,"
+    },
+    {
+     "t0_ms": 1784480,
+     "text": "the higher price opportunity,"
+    },
+    {
+     "t0_ms": 1786060,
+     "text": "the higher value creation opportunity."
+    },
+    {
+     "t0_ms": 1788400,
+     "text": "Z17 today, install MIPS are up high teens,"
+    },
+    {
+     "t0_ms": 1793180,
+     "text": "six quarters in."
+    },
+    {
+     "t0_ms": 1794740,
+     "text": "Ship MIPS are up over 100%."
+    },
+    {
+     "t0_ms": 1797280,
+     "text": "That is the future monetization opportunity"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1800560,
+   "t1_ms": 1813100,
+   "speaker": "Management",
+   "text": "that we feel extremely confident about is to the acceleration potential of TP in the future. So appreciate the question and great place to start. Operator, let's take the next question.",
+   "parts": [
+    {
+     "t0_ms": 1800560,
+     "text": "that we feel extremely confident about is to the acceleration potential of TP in the future."
+    },
+    {
+     "t0_ms": 1807880,
+     "text": "So appreciate the question and great place to start."
+    },
+    {
+     "t0_ms": 1811400,
+     "text": "Operator, let's take the next question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1813800,
+   "t1_ms": 1818740,
+   "speaker": "Operator",
+   "text": "Your next question comes from Wamsi Mohan with Bank of America. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 1813800,
+     "text": "Your next question comes from Wamsi Mohan with Bank of America."
+    },
+    {
+     "t0_ms": 1818160,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1820220,
+   "t1_ms": 1861480,
+   "speaker": "Analyst",
+   "text": "Yes, thank you so much. Thanks for the color you just shared on TP, but maybe if we could just double click on that. Last quarter, you were thinking that TP might be down low to mid-single digits for the second half, and you called it a 27 growth vector. It grew 10% instead. So maybe, Jim, as part of those, a quarter of software upside really came from those push deals. Could you share some color more specifically with respect to TP, if that was similar or higher in relation to the deals that closed from those push deals? And how many of those low tens of slip deals have now closed?",
+   "parts": [
+    {
+     "t0_ms": 1820220,
+     "text": "Yes, thank you so much."
+    },
+    {
+     "t0_ms": 1822400,
+     "text": "Thanks for the color you just shared on TP, but maybe if we could just double click on that."
+    },
+    {
+     "t0_ms": 1826740,
+     "text": "Last quarter, you were thinking that TP might be down low to mid-single digits for the second half, and you called it a 27 growth vector."
+    },
+    {
+     "t0_ms": 1835900,
+     "text": "It grew 10% instead."
+    },
+    {
+     "t0_ms": 1838220,
+     "text": "So maybe, Jim, as part of those, a quarter of software upside really came from those push deals."
+    },
+    {
+     "t0_ms": 1846360,
+     "text": "Could you share some color more specifically with respect to TP, if that was similar or higher in relation to the deals that closed from those push deals?"
+    },
+    {
+     "t0_ms": 1856360,
+     "text": "And how many of those low tens of slip deals have now closed?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1861540,
+   "t1_ms": 1885460,
+   "speaker": "Analyst",
+   "text": "Because you've not really changed your 4% to 5% for the year, but your commentary and your numbers would suggest that you're gravitating much more towards the higher end of that, if you could share any more incremental color. And on two-cycle TP performance, is that still something that we should think of as mid-single-digit? That would be great. Thank you so much.",
+   "parts": [
+    {
+     "t0_ms": 1861540,
+     "text": "Because you've not really changed your 4% to 5% for the year, but your commentary and your numbers would suggest that you're gravitating much more towards the higher end of that, if you could share any more incremental color."
+    },
+    {
+     "t0_ms": 1878100,
+     "text": "And on two-cycle TP performance, is that still something that we should think of as mid-single-digit?"
+    },
+    {
+     "t0_ms": 1884320,
+     "text": "That would be great."
+    },
+    {
+     "t0_ms": 1884960,
+     "text": "Thank you so much."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1886360,
+   "t1_ms": 1926480,
+   "speaker": "Management",
+   "text": "Bamsi, I know you addressed the question to Jim, but I'm going to start and then ask Jim to color, give a lot of color on both the slip deals, the TP performance, and the cycle-to-cycle compare, if I sort of paraphrase your question short. So let's just talk about TP. The questions everybody had last quarter was, does this imply that overall demand for mainframe has gone down? And we were very confident that this was a timing question, not a destruction question. And so at the macro level, as people deploy all of that hardware, as they deploy that MIPS, as the volumes of the underlying transactions increase,",
+   "parts": [
+    {
+     "t0_ms": 1886360,
+     "text": "Bamsi, I know you addressed the question to Jim, but I'm going to start and then ask Jim to color, give a lot of color on both the slip deals, the TP performance, and the cycle-to-cycle compare, if I sort of paraphrase your question short."
+    },
+    {
+     "t0_ms": 1902080,
+     "text": "So let's just talk about TP."
+    },
+    {
+     "t0_ms": 1904060,
+     "text": "The questions everybody had last quarter was, does this imply that overall demand for mainframe has gone down?"
+    },
+    {
+     "t0_ms": 1910380,
+     "text": "And we were very confident that this was a timing question, not a destruction question."
+    },
+    {
+     "t0_ms": 1917100,
+     "text": "And so at the macro level, as people deploy all of that hardware, as they deploy that MIPS, as the volumes of the underlying transactions increase,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1926480,
+   "t1_ms": 1956000,
+   "speaker": "Management",
+   "text": "They need this mainframe software to support that mission-critical business. That's why we were confident it would come back. Now, to your point of us saying low to mid-single-digit decline, we want to be cautious and we want to be prudent. We want to see the absolute baseline, and we don't want to call above it. I think what really happened was we got not only the deferral from 2Q, we got a normal 3Q buying cycle on mainframe.",
+   "parts": [
+    {
+     "t0_ms": 1926480,
+     "text": "They need this mainframe software to support that mission-critical business."
+    },
+    {
+     "t0_ms": 1932160,
+     "text": "That's why we were confident it would come back."
+    },
+    {
+     "t0_ms": 1935120,
+     "text": "Now, to your point of us saying low to mid-single-digit decline, we want to be cautious and we want to be prudent."
+    },
+    {
+     "t0_ms": 1942700,
+     "text": "We want to see the absolute baseline, and we don't want to call above it."
+    },
+    {
+     "t0_ms": 1947420,
+     "text": "I think what really happened was we got not only the deferral from 2Q, we got a normal 3Q buying cycle on mainframe."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1956000,
+   "t1_ms": 1995400,
+   "speaker": "Management",
+   "text": "So it kind of got it both together. I would be candid and tell you, I don't expect double digit performance in TP to keep going, but I would expect to see now more normalized performance, especially going into next year, and perhaps moderation from 3Q going into the fourth quarter. But it speaks to the underlying demand for the mainframe around resilience, around the economics, around the architecture that supports eight nines of availability. Let me point that out, eight nines of availability. But the transactions in the mainframe tend to be almost the opposite of what happens in AI.",
+   "parts": [
+    {
+     "t0_ms": 1956000,
+     "text": "So it kind of got it both together. I would be candid and tell you, I don't expect double digit performance in TP to keep going, but I would expect to see now more normalized performance, especially going into next year, and perhaps moderation from 3Q going into the fourth quarter."
+    },
+    {
+     "t0_ms": 1975760,
+     "text": "But it speaks to the underlying demand for the mainframe around resilience, around the economics, around the architecture that supports eight nines of availability."
+    },
+    {
+     "t0_ms": 1987240,
+     "text": "Let me point that out, eight nines of availability."
+    },
+    {
+     "t0_ms": 1990220,
+     "text": "But the transactions in the mainframe tend to be almost the opposite of what happens in AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1996020,
+   "t1_ms": 2040100,
+   "speaker": "Management",
+   "text": "Here you need things that are completely deterministic, that are repeatable, and that you can look at it with a financial cold eye, that they're meeting all the requirements of those kinds of transactions. And there's plenty of other things that will happen on distributed infrastructure. I think in terms of the numerics, I'm going to hand it to Jim to cover with you. Yeah, Wamsi, thanks for the question overall. Let me just kind of reiterate a little bit about where I ended the last question to Amit. You know, when you look at the health of our software business that accelerated four points quarter to quarter, it was a function of both the high value recurring revenue, and again, the underpinnings of that is the Red Hat strength and acceleration. It's excellent start to our",
+   "parts": [
+    {
+     "t0_ms": 1996020,
+     "text": "Here you need things that are completely deterministic, that are repeatable, and that you can look at it with a financial cold eye, that they're meeting all the requirements of those kinds of transactions."
+    },
+    {
+     "t0_ms": 2007860,
+     "text": "And there's plenty of other things that will happen on distributed infrastructure."
+    },
+    {
+     "t0_ms": 2011820,
+     "text": "I think in terms of the numerics, I'm going to hand it to Jim to cover with you."
+    },
+    {
+     "t0_ms": 2016320,
+     "text": "Yeah, Wamsi, thanks for the question overall."
+    },
+    {
+     "t0_ms": 2018180,
+     "text": "Let me just kind of reiterate a little bit about where I ended the last question to Amit."
+    },
+    {
+     "t0_ms": 2023320,
+     "text": "You know, when you look at the health of our software business that accelerated four points"
+    },
+    {
+     "t0_ms": 2028320,
+     "text": "quarter to quarter, it was a function of both the high value recurring revenue, and again,"
+    },
+    {
+     "t0_ms": 2033300,
+     "text": "the underpinnings of that is the Red Hat strength and acceleration. It's excellent start to our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2040100,
+   "t1_ms": 2084120,
+   "speaker": "Management",
+   "text": "Confluent acquisition. It's record performances in Hashi overall, and that part of the business is doing well. The transactional is where the big difference changed. Last quarter, it impacted our software growth by four to five points when we were down double-digit transactional. This quarter, we were up double-digit transactional. And I'll remind you, that's 20% of our software book, annual books, about $32 billion, give or take. And that today offers about two-thirds to three-quarters of that is ELA's. ELA's are strong incumbency positions that we've earned trust of our clients for decades around mainframe running their core",
+   "parts": [
+    {
+     "t0_ms": 2040100,
+     "text": "Confluent acquisition. It's record performances in Hashi overall, and that part of the business"
+    },
+    {
+     "t0_ms": 2045920,
+     "text": "is doing well. The transactional is where the big difference changed. Last quarter,"
+    },
+    {
+     "t0_ms": 2050780,
+     "text": "it impacted our software growth by four to five points when we were down double-digit"
+    },
+    {
+     "t0_ms": 2055360,
+     "text": "transactional. This quarter, we were up double-digit transactional. And I'll remind you,"
+    },
+    {
+     "t0_ms": 2060260,
+     "text": "that's 20% of our software book, annual books, about $32 billion, give or take. And that today"
+    },
+    {
+     "t0_ms": 2067780,
+     "text": "offers about two-thirds to three-quarters of that is ELA's. ELA's are strong incumbency positions"
+    },
+    {
+     "t0_ms": 2076679,
+     "text": "that we've earned trust of our clients for decades around mainframe running their core"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2084120,
+   "t1_ms": 2125340,
+   "speaker": "Management",
+   "text": "architectures. On top of that, we build a moat and we build a software distributed business model that captures that very attractive economic multiplier of $3 to $5 of software for every we land on mainframe. Now, within that, TP is disproportionate. But with that moat, we give clients flexibility on where they want to choose that ELA spend as to where it goes between data, between automation, and between TP. Red Hat's not part of our ELAs overall. And what we saw here, Bolt is a contribution in the quarter on slip deals. Let's put this",
+   "parts": [
+    {
+     "t0_ms": 2084120,
+     "text": "architectures. On top of that, we build a moat and we build a software distributed business model"
+    },
+    {
+     "t0_ms": 2092600,
+     "text": "that captures that very attractive economic multiplier of $3 to $5 of software for every"
+    },
+    {
+     "t0_ms": 2100100,
+     "text": "we land on mainframe. Now, within that, TP is disproportionate. But with that moat,"
+    },
+    {
+     "t0_ms": 2106300,
+     "text": "we give clients flexibility on where they want to choose that ELA spend as to where it goes"
+    },
+    {
+     "t0_ms": 2112080,
+     "text": "between data, between automation, and between TP. Red Hat's not part of our ELAs overall."
+    },
+    {
+     "t0_ms": 2119480,
+     "text": "And what we saw here, Bolt is a contribution in the quarter on slip deals. Let's put this"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2125340,
+   "t1_ms": 2165620,
+   "speaker": "Management",
+   "text": "in perspective. We printed a number, what, $7.6 billion of software. The slip deals were tens of slip deals. So let's kind of put that in a ballpark from 2Q of what, 400 million, which is what we missed software by. We closed two thirds of those. That's 250 plus million dollars. That is the 25% of the contribution of the growth that we've had of four points. By the way, that was disproportionate to TP. That's why you see TP well up at double digits overall. We didn't get a lot out of that in data and in automation. And some of that should be fourth quarter. Now, fourth quarter,",
+   "parts": [
+    {
+     "t0_ms": 2125340,
+     "text": "in perspective. We printed a number, what, $7.6 billion of software. The slip deals were tens of"
+    },
+    {
+     "t0_ms": 2132620,
+     "text": "slip deals. So let's kind of put that in a ballpark from 2Q of what, 400 million, which is what we"
+    },
+    {
+     "t0_ms": 2138600,
+     "text": "missed software by. We closed two thirds of those. That's 250 plus million dollars. That is the 25%"
+    },
+    {
+     "t0_ms": 2147260,
+     "text": "of the contribution of the growth that we've had of four points. By the way, that was disproportionate"
+    },
+    {
+     "t0_ms": 2153300,
+     "text": "to TP. That's why you see TP well up at double digits overall. We didn't get a lot out of that"
+    },
+    {
+     "t0_ms": 2159800,
+     "text": "in data and in automation. And some of that should be fourth quarter. Now, fourth quarter,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2166020,
+   "t1_ms": 2193660,
+   "speaker": "Management",
+   "text": "you know, we gave a guide, I think to use Arvin's word, anchored in our philosophy 90 days ago. Prudent, cautious. We're anchoring this thing at the low end, approximately 7%. By the way, Put that in perspective, I think the current street estimates for the year are about $32 billion of revenue. We feel comfortable with that $32 billion of revenue. So that's kind of where we're at. I think I covered most of your questions. Great. Operator, next question.",
+   "parts": [
+    {
+     "t0_ms": 2166020,
+     "text": "you know, we gave a guide, I think to use Arvin's word, anchored in our philosophy 90 days ago."
+    },
+    {
+     "t0_ms": 2172380,
+     "text": "Prudent, cautious. We're anchoring this thing at the low end, approximately 7%. By the way,"
+    },
+    {
+     "t0_ms": 2179880,
+     "text": "Put that in perspective, I think the current street estimates for the year are about $32 billion of revenue."
+    },
+    {
+     "t0_ms": 2184800,
+     "text": "We feel comfortable with that $32 billion of revenue."
+    },
+    {
+     "t0_ms": 2188060,
+     "text": "So that's kind of where we're at."
+    },
+    {
+     "t0_ms": 2189240,
+     "text": "I think I covered most of your questions."
+    },
+    {
+     "t0_ms": 2192360,
+     "text": "Great."
+    },
+    {
+     "t0_ms": 2192600,
+     "text": "Operator, next question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2194640,
+   "t1_ms": 2199420,
+   "speaker": "Operator",
+   "text": "Your next question comes from Ben Reitzis with Melius Research. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 2194640,
+     "text": "Your next question comes from Ben Reitzis with Melius Research."
+    },
+    {
+     "t0_ms": 2198580,
+     "text": "Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2200880,
+   "t1_ms": 2235820,
+   "speaker": "Analyst",
+   "text": "Hey, guys. Thanks. I appreciate the question. I wanted to ask about your long-term, you know, the short-term puts and takes we get. But at your latest analyst day, you laid out that you would approach double digits in software as a long-term target. You know, based on what you're seeing, do you still feel confident in that? And how is M&A going to play a role in terms of achieving that? Because in order to hit it, I guess you've got to accelerate a point or two after this year. So a lot of folks are wondering where M&A plays in that. Thanks a lot.",
+   "parts": [
+    {
+     "t0_ms": 2200880,
+     "text": "Hey, guys."
+    },
+    {
+     "t0_ms": 2201360,
+     "text": "Thanks."
+    },
+    {
+     "t0_ms": 2201660,
+     "text": "I appreciate the question."
+    },
+    {
+     "t0_ms": 2203160,
+     "text": "I wanted to ask about your long-term, you know, the short-term puts and takes we get."
+    },
+    {
+     "t0_ms": 2211260,
+     "text": "But at your latest analyst day, you laid out that you would approach double digits in software as a long-term target."
+    },
+    {
+     "t0_ms": 2217700,
+     "text": "You know, based on what you're seeing, do you still feel confident in that?"
+    },
+    {
+     "t0_ms": 2221380,
+     "text": "And how is M&A going to play a role in terms of achieving that?"
+    },
+    {
+     "t0_ms": 2226320,
+     "text": "Because in order to hit it, I guess you've got to accelerate a point or two after this year."
+    },
+    {
+     "t0_ms": 2231960,
+     "text": "So a lot of folks are wondering where M&A plays in that."
+    },
+    {
+     "t0_ms": 2235360,
+     "text": "Thanks a lot."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2237160,
+   "t1_ms": 2281820,
+   "speaker": "Management",
+   "text": "Thanks, Ben. I appreciate the question overall. Obviously, and this is not going to surprise you, we'll spend a lot more time on this question here in January. We've got the team extremely focused already. We're 21 days into arguably the most important quarter we have in a fourth quarter overall. But let me take a step back first around IBM, and then as Arvin and I have been talking here, as we're heading into our planning cycle and laying out all of our investment and capital structure strategies for 27. Talk a little bit about IBM, then hit your question on software. We've got a lot of confidence in our strategy and our portfolio is well-positioned to deliver sustainable, durable growth on our model.",
+   "parts": [
+    {
+     "t0_ms": 2237160,
+     "text": "Thanks, Ben."
+    },
+    {
+     "t0_ms": 2238340,
+     "text": "I appreciate the question overall."
+    },
+    {
+     "t0_ms": 2240480,
+     "text": "Obviously, and this is not going to surprise you,"
+    },
+    {
+     "t0_ms": 2242780,
+     "text": "we'll spend a lot more time on this question here in January."
+    },
+    {
+     "t0_ms": 2246040,
+     "text": "We've got the team extremely focused already."
+    },
+    {
+     "t0_ms": 2249540,
+     "text": "We're 21 days into arguably the most important quarter we have"
+    },
+    {
+     "t0_ms": 2253400,
+     "text": "in a fourth quarter overall."
+    },
+    {
+     "t0_ms": 2254840,
+     "text": "But let me take a step back first around IBM,"
+    },
+    {
+     "t0_ms": 2258040,
+     "text": "and then as Arvin and I have been talking here,"
+    },
+    {
+     "t0_ms": 2260200,
+     "text": "as we're heading into our planning cycle and laying out all of our investment"
+    },
+    {
+     "t0_ms": 2265120,
+     "text": "and capital structure strategies for 27."
+    },
+    {
+     "t0_ms": 2268860,
+     "text": "Talk a little bit about IBM, then hit your question on software."
+    },
+    {
+     "t0_ms": 2273300,
+     "text": "We've got a lot of confidence in our strategy and our portfolio is well-positioned"
+    },
+    {
+     "t0_ms": 2278520,
+     "text": "to deliver sustainable, durable growth on our model."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2282280,
+   "t1_ms": 2318020,
+   "speaker": "Management",
+   "text": "We feel extremely confident in that. Why? We've got an attractive TAM, market backdrop of technology, The diversity of our portfolio, leveraging our hybrid cloud and AI platform-centric model, our continued portfolio optimization to shift the higher growth in markets, new innovation. We continue to bring the market around Lightwell, around Gen AI, and around, to your question, M&A growth synergies. All of that will play out. But from a segment perspective, since you asked about software, I'll give you some early indicators.",
+   "parts": [
+    {
+     "t0_ms": 2282280,
+     "text": "We feel extremely confident in that."
+    },
+    {
+     "t0_ms": 2284700,
+     "text": "Why? We've got an attractive TAM, market backdrop of technology,"
+    },
+    {
+     "t0_ms": 2290200,
+     "text": "The diversity of our portfolio, leveraging our hybrid cloud and AI platform-centric model,"
+    },
+    {
+     "t0_ms": 2296520,
+     "text": "our continued portfolio optimization to shift the higher growth in markets, new innovation."
+    },
+    {
+     "t0_ms": 2302300,
+     "text": "We continue to bring the market around Lightwell, around Gen AI, and around, to your question, M&A growth synergies."
+    },
+    {
+     "t0_ms": 2310100,
+     "text": "All of that will play out."
+    },
+    {
+     "t0_ms": 2311880,
+     "text": "But from a segment perspective, since you asked about software, I'll give you some early indicators."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2318020,
+   "t1_ms": 2361960,
+   "speaker": "Management",
+   "text": "One, we got a high value recurring revenue stream that's been accelerating all year long, $25 billion ARR book of business, high single digit growth. We execute to what our guide is here. We should be approaching double digits here in the fourth quarter on that 80% high value. That's one critical indicator. Two, new innovation we're bringing to market. We're extremely excited, to Arvind's point, around Red Hat, the acceleration, the high teens growth. We've got $700 million worth of pipeline on Lightwell alone in front of us right now with a trillion dollar TAM opportunity around open source vulnerabilities.",
+   "parts": [
+    {
+     "t0_ms": 2318020,
+     "text": "One, we got a high value recurring revenue stream that's been accelerating all year long, $25 billion ARR book of business, high single digit growth. We execute to what our guide is here. We should be approaching double digits here in the fourth quarter on that 80% high value. That's one critical indicator."
+    },
+    {
+     "t0_ms": 2340920,
+     "text": "Two, new innovation we're bringing to market. We're extremely excited, to Arvind's point, around Red Hat, the acceleration, the high teens growth. We've got $700 million worth of pipeline on Lightwell alone in front of us right now with a trillion dollar TAM opportunity around open source vulnerabilities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2361960,
+   "t1_ms": 2406480,
+   "speaker": "Management",
+   "text": "We got virtualization, a tremendous opportunity. We got hybrid cloud containerization opportunity. So we feel pretty good about the markets we're in, the investment in the portfolio that we had built up overall. Three, we got 2027 is the year of growth synergies, right? 2026 was about integrating and getting a confluent into our mode of operation and go to market and scale. 2027 is around the growth synergies. And finally, to the TP question, you know, we've got high teens growth in installed MIPS out in the marketplace. Last five years, our MIPS are up 2x. Last 10 years, our installed MIPS are up 10x.",
+   "parts": [
+    {
+     "t0_ms": 2361960,
+     "text": "We got virtualization, a tremendous opportunity."
+    },
+    {
+     "t0_ms": 2365740,
+     "text": "We got hybrid cloud containerization opportunity."
+    },
+    {
+     "t0_ms": 2369680,
+     "text": "So we feel pretty good about the markets we're in, the investment in the portfolio that we"
+    },
+    {
+     "t0_ms": 2375960,
+     "text": "had built up overall."
+    },
+    {
+     "t0_ms": 2377760,
+     "text": "Three, we got 2027 is the year of growth synergies, right?"
+    },
+    {
+     "t0_ms": 2382060,
+     "text": "2026 was about integrating and getting a confluent into our mode of operation and go to market"
+    },
+    {
+     "t0_ms": 2388880,
+     "text": "and scale."
+    },
+    {
+     "t0_ms": 2390040,
+     "text": "2027 is around the growth synergies."
+    },
+    {
+     "t0_ms": 2391960,
+     "text": "And finally, to the TP question, you know, we've got high teens growth in installed MIPS out in the marketplace."
+    },
+    {
+     "t0_ms": 2399820,
+     "text": "Last five years, our MIPS are up 2x."
+    },
+    {
+     "t0_ms": 2403220,
+     "text": "Last 10 years, our installed MIPS are up 10x."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2406840,
+   "t1_ms": 2428120,
+   "speaker": "Management",
+   "text": "That is the monetization vehicle of TP. And Arvind talked about it. I talked about it. We think that's a growth acceleration back to our model overall. We'll quantify that in January, but that gives you a little bit of perspective of our early thinking about 27 on software and IBM. Great. Operator, let's take the next question.",
+   "parts": [
+    {
+     "t0_ms": 2406840,
+     "text": "That is the monetization vehicle of TP."
+    },
+    {
+     "t0_ms": 2410360,
+     "text": "And Arvind talked about it."
+    },
+    {
+     "t0_ms": 2411520,
+     "text": "I talked about it."
+    },
+    {
+     "t0_ms": 2412440,
+     "text": "We think that's a growth acceleration back to our model overall."
+    },
+    {
+     "t0_ms": 2416720,
+     "text": "We'll quantify that in January, but that gives you a little bit of perspective of our early thinking about 27 on software and IBM."
+    },
+    {
+     "t0_ms": 2426300,
+     "text": "Great. Operator, let's take the next question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2429080,
+   "t1_ms": 2433320,
+   "speaker": "Operator",
+   "text": "The next question comes from Remo Lenshow with Barclays. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2429080,
+     "text": "The next question comes from Remo Lenshow with Barclays. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2433980,
+   "t1_ms": 2461520,
+   "speaker": "Analyst",
+   "text": "Perfect. Two quick ones that I made. Obviously, some of that is Confluent, but what are you seeing there on upsell, cross-sell on Confluent? We have it for a few quarters now, but that looks like it's starting to click for you. So can you kind of double-click on that one? And then one for Jim, gross margins came up with investors. Can you just give us a comment there, what drove the performance there? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2433980,
+     "text": "Perfect. Two quick ones that I made."
+    },
+    {
+     "t0_ms": 2442700,
+     "text": "Obviously, some of that is Confluent, but what are you seeing there on upsell, cross-sell on Confluent?"
+    },
+    {
+     "t0_ms": 2448500,
+     "text": "We have it for a few quarters now, but that looks like it's starting to click for you."
+    },
+    {
+     "t0_ms": 2453140,
+     "text": "So can you kind of double-click on that one?"
+    },
+    {
+     "t0_ms": 2455280,
+     "text": "And then one for Jim, gross margins came up with investors."
+    },
+    {
+     "t0_ms": 2458280,
+     "text": "Can you just give us a comment there, what drove the performance there?"
+    },
+    {
+     "t0_ms": 2461160,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2462900,
+   "t1_ms": 2505840,
+   "speaker": "Management",
+   "text": "Rimo, thanks for the question, and thanks for noticing the data growth. If I look at Confluent, I actually want to broaden it. There is Confluent, which is important for moving data in real time, allows data to remain in place but still be available for AI. But coupled to that are what are called lake houses, and we are very excited about the upcoming cross-sell opportunity with StreamHouse, which is also another way to store data that is sort of in flight. So the Confluent piece unlocks your data, be it inside the enterprise, be it in an application, be it in a SaaS application, be it on a cloud, but still have it completely available for AI agents as well as for inferencing.",
+   "parts": [
+    {
+     "t0_ms": 2462900,
+     "text": "Rimo, thanks for the question, and thanks for noticing the data growth."
+    },
+    {
+     "t0_ms": 2466400,
+     "text": "If I look at Confluent, I actually want to broaden it."
+    },
+    {
+     "t0_ms": 2470020,
+     "text": "There is Confluent, which is important for moving data in real time,"
+    },
+    {
+     "t0_ms": 2473780,
+     "text": "allows data to remain in place but still be available for AI."
+    },
+    {
+     "t0_ms": 2478080,
+     "text": "But coupled to that are what are called lake houses,"
+    },
+    {
+     "t0_ms": 2481100,
+     "text": "and we are very excited about the upcoming cross-sell opportunity with StreamHouse,"
+    },
+    {
+     "t0_ms": 2486000,
+     "text": "which is also another way to store data that is sort of in flight."
+    },
+    {
+     "t0_ms": 2491800,
+     "text": "So the Confluent piece unlocks your data, be it inside the enterprise,"
+    },
+    {
+     "t0_ms": 2496440,
+     "text": "be it in an application, be it in a SaaS application, be it on a cloud,"
+    },
+    {
+     "t0_ms": 2500800,
+     "text": "but still have it completely available for AI agents as well as for inferencing."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2506160,
+   "t1_ms": 2550920,
+   "speaker": "Management",
+   "text": "Really important capability, and you saw that growth pull through. but lake houses are also important as people are beginning to cleanse their data for leverage in ai and we saw growth there also and then we're excited about what is going to come with the capability we're about to announce in a couple of weeks around the stream house which is also then going to be directly across cell and upsell on top of confluent so unlocking data for ai making sure that you don't have to create multiple copies because that creates a lot of extra cost, but still have it available as quickly as you need it is the fundamental capability we believe is going to be unlocked in the enterprise, leveraging all of these",
+   "parts": [
+    {
+     "t0_ms": 2506160,
+     "text": "Really important capability, and you saw that growth pull through."
+    },
+    {
+     "t0_ms": 2509720,
+     "text": "but lake houses are also important as people are beginning to cleanse their data"
+    },
+    {
+     "t0_ms": 2515640,
+     "text": "for leverage in ai and we saw growth there also and then we're excited about what is going to come"
+    },
+    {
+     "t0_ms": 2522280,
+     "text": "with the capability we're about to announce in a couple of weeks around the stream house"
+    },
+    {
+     "t0_ms": 2527020,
+     "text": "which is also then going to be directly across cell and upsell on top of confluent so unlocking"
+    },
+    {
+     "t0_ms": 2534040,
+     "text": "data for ai making sure that you don't have to create multiple copies because that creates a"
+    },
+    {
+     "t0_ms": 2539260,
+     "text": "lot of extra cost, but still have it available as quickly as you need it is the fundamental"
+    },
+    {
+     "t0_ms": 2545360,
+     "text": "capability we believe is going to be unlocked in the enterprise, leveraging all of these"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2550920,
+   "t1_ms": 2595660,
+   "speaker": "Management",
+   "text": "capabilities. And that contributes to the overall growth there. Jim, I'll give it to you for the gross margins question. Right. Well, thank you very much for noticing the operating leverage engine that we've been driving across this company. You look at what the last four years we're probably up, what, about 1,000 basis points of operating leverage across this company. By the way, that has delivered high-quality, sustainable cash generation. Over the last four years, our cash is up roughly $7 billion of growth in 700 basis points of free cash flow margin on that 1,000 basis points of operating leverage. But when you look underneath it, We continue to improve the structural competitiveness of this business model.",
+   "parts": [
+    {
+     "t0_ms": 2550920,
+     "text": "capabilities. And that contributes to the overall growth there. Jim, I'll give it to you for the"
+    },
+    {
+     "t0_ms": 2556140,
+     "text": "gross margins question. Right. Well, thank you very much for noticing the operating leverage"
+    },
+    {
+     "t0_ms": 2561520,
+     "text": "engine that we've been driving across this company. You look at what the last four years"
+    },
+    {
+     "t0_ms": 2566380,
+     "text": "we're probably up, what, about 1,000 basis points of operating leverage across this company."
+    },
+    {
+     "t0_ms": 2572100,
+     "text": "By the way, that has delivered high-quality, sustainable cash generation. Over the last"
+    },
+    {
+     "t0_ms": 2578540,
+     "text": "four years, our cash is up roughly $7 billion of growth in 700 basis points of free cash flow"
+    },
+    {
+     "t0_ms": 2586780,
+     "text": "margin on that 1,000 basis points of operating leverage. But when you look underneath it,"
+    },
+    {
+     "t0_ms": 2592180,
+     "text": "We continue to improve the structural competitiveness of this business model."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2596000,
+   "t1_ms": 2638440,
+   "speaker": "Management",
+   "text": "We still believe we got a lot of headroom here. When you take a look at our profit earnings up double digits, our operating margins are up 70 basis points. It's delivered by we are driving in the third quarter 500 basis points of gross productivity in our model. We've always said in our model about a third is for margin protection. about two-thirds enables us to drive that productivity flywheel where we reinvest back into the business around R&D, innovation, go-to-market model ecosystem to drive that flywheel of growth and competitive advantage. 500 basis points is well above what",
+   "parts": [
+    {
+     "t0_ms": 2596000,
+     "text": "We still believe we got a lot of headroom here."
+    },
+    {
+     "t0_ms": 2598620,
+     "text": "When you take a look at our profit earnings up double digits, our operating margins are"
+    },
+    {
+     "t0_ms": 2602820,
+     "text": "up 70 basis points."
+    },
+    {
+     "t0_ms": 2604500,
+     "text": "It's delivered by we are driving in the third quarter 500 basis points of gross productivity"
+    },
+    {
+     "t0_ms": 2612200,
+     "text": "in our model."
+    },
+    {
+     "t0_ms": 2613440,
+     "text": "We've always said in our model about a third is for margin protection."
+    },
+    {
+     "t0_ms": 2617780,
+     "text": "about two-thirds enables us to drive that productivity flywheel where we reinvest"
+    },
+    {
+     "t0_ms": 2624560,
+     "text": "back into the business around R&D, innovation, go-to-market model ecosystem"
+    },
+    {
+     "t0_ms": 2629860,
+     "text": "to drive that flywheel of growth and competitive advantage. 500 basis points is well above what"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2638440,
+   "t1_ms": 2683260,
+   "speaker": "Management",
+   "text": "our model is overall. How are we doing that? We're running our playbook. That playbook we believe has headroom. It's reimagining everything between Arvind and myself about how we execute and run this company. And that gets into leveraging data, a whole new way of workflow reimagination, embedding technology, digitization, AI into our company. We've been talking about and prepared marks. How do you reimagine a whole new way for software development? How do we reimagine a whole new way on go-to-market models? How do we redesign the G&A structure, the way we run our company? And I think there's a lot of headroom there. A few years in, we are now north of five",
+   "parts": [
+    {
+     "t0_ms": 2638440,
+     "text": "our model is overall. How are we doing that? We're running our playbook. That playbook we"
+    },
+    {
+     "t0_ms": 2644040,
+     "text": "believe has headroom. It's reimagining everything between Arvind and myself about how we execute"
+    },
+    {
+     "t0_ms": 2651200,
+     "text": "and run this company. And that gets into leveraging data, a whole new way of workflow reimagination,"
+    },
+    {
+     "t0_ms": 2659120,
+     "text": "embedding technology, digitization, AI into our company. We've been talking about and prepared"
+    },
+    {
+     "t0_ms": 2664780,
+     "text": "marks. How do you reimagine a whole new way for software development? How do we reimagine a whole"
+    },
+    {
+     "t0_ms": 2670460,
+     "text": "new way on go-to-market models? How do we redesign the G&A structure, the way we run"
+    },
+    {
+     "t0_ms": 2675940,
+     "text": "our company? And I think there's a lot of headroom there. A few years in, we are now north of five"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2683260,
+   "t1_ms": 2707240,
+   "speaker": "Management",
+   "text": "and a half billion dollars of productivity out of this company. That is a great flywheel for investment flexibility and capability. So most important thing is it provides that free cashflow generation engine, and it applies that investment flexibility so we can continue to compete both organically and inorganically to invest. Operator, next question, please.",
+   "parts": [
+    {
+     "t0_ms": 2683260,
+     "text": "and a half billion dollars of productivity out of this company. That is a great flywheel for"
+    },
+    {
+     "t0_ms": 2689180,
+     "text": "investment flexibility and capability. So most important thing is it provides that free cashflow"
+    },
+    {
+     "t0_ms": 2695760,
+     "text": "generation engine, and it applies that investment flexibility so we can continue to compete"
+    },
+    {
+     "t0_ms": 2702400,
+     "text": "both organically and inorganically to invest. Operator, next question, please."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2707920,
+   "t1_ms": 2711900,
+   "speaker": "Operator",
+   "text": "Your next question comes from Brent Thill with Jefferies. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 2707920,
+     "text": "Your next question comes from Brent Thill with Jefferies. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2713540,
+   "t1_ms": 2751180,
+   "speaker": "Analyst",
+   "text": "Thanks, Arvin. I'm curious in some of the deals, maybe early in the year, there was a little bit of AI bright light. I don't know what to do. I need to wait and investigate. Maybe the investigation period went on and they realized maybe some of the systems couldn't actually achieve what the claims were. I'm curious if you're maybe seeing some element of this in some of the deals recouping where the claims were big but perhaps the reality wasn't matching the claim and you're able to deliver on that. Is that something you've seen, or is that not a scenario that you've experienced?",
+   "parts": [
+    {
+     "t0_ms": 2713540,
+     "text": "Thanks, Arvin. I'm curious in some of the deals, maybe early in the year, there was a little bit of"
+    },
+    {
+     "t0_ms": 2718600,
+     "text": "AI bright light. I don't know what to do. I need to"
+    },
+    {
+     "t0_ms": 2722640,
+     "text": "wait and investigate. Maybe the investigation period"
+    },
+    {
+     "t0_ms": 2726700,
+     "text": "went on and they realized maybe some of the systems couldn't actually"
+    },
+    {
+     "t0_ms": 2730640,
+     "text": "achieve what the claims were. I'm curious if you're maybe seeing"
+    },
+    {
+     "t0_ms": 2734480,
+     "text": "some element of this in some of the deals recouping where the claims were big"
+    },
+    {
+     "t0_ms": 2738740,
+     "text": "but perhaps the reality wasn't matching the claim and"
+    },
+    {
+     "t0_ms": 2742500,
+     "text": "you're able to deliver on that. Is that something"
+    },
+    {
+     "t0_ms": 2746640,
+     "text": "you've seen, or is that not a scenario that you've experienced?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2752340,
+   "t1_ms": 2793180,
+   "speaker": "Management",
+   "text": "So, Brent, let me make sure I pass the question correctly, but I'm going to sort of maybe answer it in my own words. I think what we're seeing is that at least larger enterprises are becoming a lot more cognizant and a lot more aware of what is the true ROI of all of their AI spend. they're also getting worried is some of the AI spending completely out of control with no real return but the way I've always characterized it is there is no question to us and this is the advice I give every c-suite member that I meet that what we're trying to give people on AI the productivity",
+   "parts": [
+    {
+     "t0_ms": 2752340,
+     "text": "So, Brent, let me make sure I pass the question correctly, but I'm going to sort of maybe"
+    },
+    {
+     "t0_ms": 2757500,
+     "text": "answer it in my own words."
+    },
+    {
+     "t0_ms": 2759880,
+     "text": "I think what we're seeing is that at least larger enterprises are becoming a lot more"
+    },
+    {
+     "t0_ms": 2766840,
+     "text": "cognizant and a lot more aware of what is the true ROI of all of their AI spend."
+    },
+    {
+     "t0_ms": 2772560,
+     "text": "they're also getting worried is some of the AI spending completely out of control with no real"
+    },
+    {
+     "t0_ms": 2778680,
+     "text": "return but the way I've always characterized it is there is no question to us and this is the advice"
+    },
+    {
+     "t0_ms": 2785440,
+     "text": "I give every c-suite member that I meet that what we're trying to give people on AI the productivity"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2793180,
+   "t1_ms": 2835960,
+   "speaker": "Management",
+   "text": "the advantages of AI the way it's going to change work is very real so so let me not make any confusion around that. That said, a lot of people are underplaying how much work it is to integrate AI into your workflows, to fundamentally sit back and say, how do I redesign the workflow to take advantage of AI? It's not a little RPA tool that you bolt on and you get something. If you do not spend the time and energy to redesign your workflow, you're not going to get the full benefit. So if you're willing to do that, there's a huge benefit to be had. But that implies you've got to pick a few. You've got to learn how to scale them for full impact across the enterprise.",
+   "parts": [
+    {
+     "t0_ms": 2793180,
+     "text": "the advantages of AI the way it's going to change work is very real so so let me not make any"
+    },
+    {
+     "t0_ms": 2801160,
+     "text": "confusion around that. That said, a lot of people are underplaying how much work it is to integrate"
+    },
+    {
+     "t0_ms": 2808200,
+     "text": "AI into your workflows, to fundamentally sit back and say, how do I redesign the workflow to take"
+    },
+    {
+     "t0_ms": 2814500,
+     "text": "advantage of AI? It's not a little RPA tool that you bolt on and you get something. If you do not"
+    },
+    {
+     "t0_ms": 2820360,
+     "text": "spend the time and energy to redesign your workflow, you're not going to get the full benefit."
+    },
+    {
+     "t0_ms": 2825700,
+     "text": "So if you're willing to do that, there's a huge benefit to be had."
+    },
+    {
+     "t0_ms": 2829720,
+     "text": "But that implies you've got to pick a few."
+    },
+    {
+     "t0_ms": 2832480,
+     "text": "You've got to learn how to scale them for full impact across the enterprise."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2836300,
+   "t1_ms": 2876720,
+   "speaker": "Management",
+   "text": "And don't do 100 little experiments where you then do not have enough investment to get them to scale. That is what I think we are seeing. So I think what we're seeing, Brent, is now enterprises, as they're getting mature, as they're stopping the experimentation, are saying, all right, who can help me get through this bigger piece of workflow design as well as integration into our existing systems? Because you're not likely going to throw out your ERP system. So how do you leverage it but still get the benefits of AI? And then they're picking their partners in terms of which software are they willing to trust to do this, which people",
+   "parts": [
+    {
+     "t0_ms": 2836300,
+     "text": "And don't do 100 little experiments where you then do not have enough investment to get them to scale."
+    },
+    {
+     "t0_ms": 2842920,
+     "text": "That is what I think we are seeing."
+    },
+    {
+     "t0_ms": 2845060,
+     "text": "So I think what we're seeing, Brent, is now enterprises, as they're getting mature, as they're stopping the experimentation, are saying,"
+    },
+    {
+     "t0_ms": 2851500,
+     "text": "all right, who can help me get through this bigger piece of workflow design as well as"
+    },
+    {
+     "t0_ms": 2858340,
+     "text": "integration into our existing systems? Because you're not likely going to throw out your ERP"
+    },
+    {
+     "t0_ms": 2863600,
+     "text": "system. So how do you leverage it but still get the benefits of AI? And then they're picking"
+    },
+    {
+     "t0_ms": 2869680,
+     "text": "their partners in terms of which software are they willing to trust to do this, which people"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2876720,
+   "t1_ms": 2914280,
+   "speaker": "Management",
+   "text": "have the knowledge to come do this with them as well as can you be really efficient about your token spend as opposed to leave it completely uncontrolled so i agree i think with your thesis but maybe a slight redirection in terms of why we're seeing that change and yes that is the tailwind for us that is why i kind of repeat what i said at the beginning that is why open shift confluent, mainframe with fraud, are all seeing the benefits of that play go on as we are proceeding down this path. Great. Operator, let's take the next question. The next question comes from Fatima",
+   "parts": [
+    {
+     "t0_ms": 2876720,
+     "text": "have the knowledge to come do this with them as well as can you be really efficient about your"
+    },
+    {
+     "t0_ms": 2882600,
+     "text": "token spend as opposed to leave it completely uncontrolled so i agree i think with your thesis"
+    },
+    {
+     "t0_ms": 2887860,
+     "text": "but maybe a slight redirection in terms of why we're seeing that change and yes that is the"
+    },
+    {
+     "t0_ms": 2894480,
+     "text": "tailwind for us that is why i kind of repeat what i said at the beginning that is why open shift"
+    },
+    {
+     "t0_ms": 2899680,
+     "text": "confluent, mainframe with fraud, are all seeing the benefits of that play go on as we are proceeding"
+    },
+    {
+     "t0_ms": 2907720,
+     "text": "down this path. Great. Operator, let's take the next question. The next question comes from Fatima"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2914280,
+   "t1_ms": 2919940,
+   "speaker": "Operator",
+   "text": "Boulani with Citi. Please state your question. Good afternoon. Thank you for taking my question.",
+   "parts": [
+    {
+     "t0_ms": 2914280,
+     "text": "Boulani with Citi. Please state your question. Good afternoon. Thank you for taking my question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2920600,
+   "t1_ms": 2965040,
+   "speaker": "Analyst",
+   "text": "I wanted to go back to the discussion around transaction processing simply because it was such a remarkable sequential recovery in that franchise. And, Jim, I understand so much of that was piggybacking off of the ELA momentum that you regained in the quarter from the transactional side of the business. But I'm curious if you can help us unpack a little bit more on that strength. I think you talked about high teens' growth in MIPS SHIP. So wondering if you could unpack and break down for us the quantity and shipped MIPS growth in some of those slip deals because those were existing customers. And to the extent you've been able to leverage",
+   "parts": [
+    {
+     "t0_ms": 2920600,
+     "text": "I wanted to go back to the discussion around transaction processing simply because it was"
+    },
+    {
+     "t0_ms": 2925980,
+     "text": "such a remarkable sequential recovery in that franchise."
+    },
+    {
+     "t0_ms": 2929560,
+     "text": "And, Jim, I understand so much of that was piggybacking off of the ELA momentum"
+    },
+    {
+     "t0_ms": 2935140,
+     "text": "that you regained in the quarter from the transactional side of the business."
+    },
+    {
+     "t0_ms": 2939600,
+     "text": "But I'm curious if you can help us unpack a little bit more on that strength."
+    },
+    {
+     "t0_ms": 2945160,
+     "text": "I think you talked about high teens' growth in MIPS SHIP."
+    },
+    {
+     "t0_ms": 2949840,
+     "text": "So wondering if you could unpack and break down for us the quantity"
+    },
+    {
+     "t0_ms": 2954660,
+     "text": "and shipped MIPS growth in some of those slip deals"
+    },
+    {
+     "t0_ms": 2959080,
+     "text": "because those were existing customers."
+    },
+    {
+     "t0_ms": 2961360,
+     "text": "And to the extent you've been able to leverage"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2965040,
+   "t1_ms": 2982540,
+   "speaker": "Analyst",
+   "text": "a little bit of pricing power in this situation because I know that's not historically a lever that you've used. So we'd love to get a little bit more second-order detail on that transaction processing slope of recovery between the quantity and quantity growth as well as pricing uplift. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2965040,
+     "text": "a little bit of pricing power in this situation"
+    },
+    {
+     "t0_ms": 2967880,
+     "text": "because I know that's not historically a lever that you've used."
+    },
+    {
+     "t0_ms": 2971400,
+     "text": "So we'd love to get a little bit more second-order detail"
+    },
+    {
+     "t0_ms": 2974440,
+     "text": "on that transaction processing slope of recovery"
+    },
+    {
+     "t0_ms": 2977440,
+     "text": "between the quantity and quantity growth"
+    },
+    {
+     "t0_ms": 2979960,
+     "text": "as well as pricing uplift."
+    },
+    {
+     "t0_ms": 2982000,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2982540,
+   "t1_ms": 3023520,
+   "speaker": "Management",
+   "text": "Okay, thanks, Fatima. Appreciate the question. Let's double click back down on TP. First, let me just reiterate, what is the modernization model, right? TP is transaction processing that runs a mission critical software on top of the most enduring platform, that being mainframe. By the way, as we've talked about many times before, Mainframe runs 70% of the industry's transaction volumes in terms of value. 45 of the top 50 banks, 4 to 5 top airlines, 7 of the top 10 retailers around the world.",
+   "parts": [
+    {
+     "t0_ms": 2982540,
+     "text": "Okay, thanks, Fatima. Appreciate the question. Let's double click back down on TP. First, let me just reiterate, what is the modernization model, right? TP is transaction processing that runs a mission critical software on top of the most enduring platform, that being mainframe."
+    },
+    {
+     "t0_ms": 3002560,
+     "text": "By the way, as we've talked about many times before, Mainframe runs 70% of the industry's transaction volumes in terms of value."
+    },
+    {
+     "t0_ms": 3015520,
+     "text": "45 of the top 50 banks, 4 to 5 top airlines, 7 of the top 10 retailers around the world."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3023680,
+   "t1_ms": 3066540,
+   "speaker": "Management",
+   "text": "I think 75, 78% last number I've seen of the Fortune 100 run Mainframe as a core architecture. So TP is the core mission-critical software that enables the most secure, reliable, and scalable platform around. The way we monetize that value is the more capacity out there, the more opportunity to monetize value, the more opportunity to monetize price, the more opportunity to monetize value creation of TP. So when you take a look at our last two or three cycles, we run 145 million MIPS around the world.",
+   "parts": [
+    {
+     "t0_ms": 3023680,
+     "text": "I think 75, 78% last number I've seen of the Fortune 100 run Mainframe as a core architecture."
+    },
+    {
+     "t0_ms": 3030900,
+     "text": "So TP is the core mission-critical software that enables the most secure, reliable, and scalable platform around."
+    },
+    {
+     "t0_ms": 3041920,
+     "text": "The way we monetize that value is the more capacity out there, the more opportunity to monetize value, the more opportunity to monetize price, the more opportunity to monetize value creation of TP."
+    },
+    {
+     "t0_ms": 3056660,
+     "text": "So when you take a look at our last two or three cycles, we run 145 million MIPS around the world."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3066980,
+   "t1_ms": 3111400,
+   "speaker": "Management",
+   "text": "Some of those are standard MIPS on the platform. Some of those are new Linux specialty MIPS, new cloud native applications, which is why the mainframe has been a growth vehicle over the last two to three cycles overall. That 145 million MIPS, our Z17, six quarters in, 125%, the highest recorded program to date above Z16, which was the prior highest program to date. We're up, I think, 18% ship MIPS through six quarters. We're up over 100% of ship MIPS. Why do I differentiate between them?",
+   "parts": [
+    {
+     "t0_ms": 3066980,
+     "text": "Some of those are standard MIPS on the platform."
+    },
+    {
+     "t0_ms": 3070120,
+     "text": "Some of those are new Linux specialty MIPS, new cloud native applications, which is why the mainframe has been a growth vehicle over the last two to three cycles overall."
+    },
+    {
+     "t0_ms": 3082300,
+     "text": "That 145 million MIPS, our Z17, six quarters in, 125%, the highest recorded program to date above Z16, which was the prior highest program to date."
+    },
+    {
+     "t0_ms": 3100680,
+     "text": "We're up, I think, 18% ship MIPS through six quarters."
+    },
+    {
+     "t0_ms": 3104680,
+     "text": "We're up over 100% of ship MIPS."
+    },
+    {
+     "t0_ms": 3109500,
+     "text": "Why do I differentiate between them?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3111400,
+   "t1_ms": 3153080,
+   "speaker": "Management",
+   "text": "Read the first one as consumption, capacity, and workload. We can monetize value immediately. The second is the opportunity. It's the TAM, right, and us driving workloads on that. So when you take a look at it, that's what's been driving the step function change and growing meaningful over time. It was only a handful of years that our TP portfolio was down what? Mid-single-digit, high-single-digit growth. We then stabilized that growth about four years ago, and then through Z16, we saw an acceleration. But I'll reiterate that Z16, when you look at the launch year, it was about flat the launch year.",
+   "parts": [
+    {
+     "t0_ms": 3111400,
+     "text": "Read the first one as consumption, capacity, and workload."
+    },
+    {
+     "t0_ms": 3114780,
+     "text": "We can monetize value immediately."
+    },
+    {
+     "t0_ms": 3116860,
+     "text": "The second is the opportunity."
+    },
+    {
+     "t0_ms": 3118820,
+     "text": "It's the TAM, right, and us driving workloads on that."
+    },
+    {
+     "t0_ms": 3123040,
+     "text": "So when you take a look at it, that's what's been driving the step function change and growing meaningful over time."
+    },
+    {
+     "t0_ms": 3130300,
+     "text": "It was only a handful of years that our TP portfolio was down what?"
+    },
+    {
+     "t0_ms": 3135640,
+     "text": "Mid-single-digit, high-single-digit growth."
+    },
+    {
+     "t0_ms": 3138120,
+     "text": "We then stabilized that growth about four years ago, and then through Z16, we saw an acceleration."
+    },
+    {
+     "t0_ms": 3145760,
+     "text": "But I'll reiterate that Z16, when you look at the launch year, it was about flat the launch year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3153560,
+   "t1_ms": 3187640,
+   "speaker": "Management",
+   "text": "Then it kind of went up to about mid-single-digit year plus one, and then it went up to high single-digit year plus two. Right now in Z17, we were about flat launch year. we got different dynamics playing out right now so we're about prudently cautious calling flat for the year but with 100 ship mips and 18 installed mips i would say that's a pretty good future modernization opportunity in 2027 going forward great operator let's take the next",
+   "parts": [
+    {
+     "t0_ms": 3153560,
+     "text": "Then it kind of went up to about mid-single-digit year plus one, and then it went up to high single-digit year plus two."
+    },
+    {
+     "t0_ms": 3162220,
+     "text": "Right now in Z17, we were about flat launch year."
+    },
+    {
+     "t0_ms": 3166340,
+     "text": "we got different dynamics playing out right now so we're about prudently cautious calling"
+    },
+    {
+     "t0_ms": 3173120,
+     "text": "flat for the year but with 100 ship mips and 18 installed mips i would say that's a pretty"
+    },
+    {
+     "t0_ms": 3181100,
+     "text": "good future modernization opportunity in 2027 going forward great operator let's take the next"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3187640,
+   "t1_ms": 3194060,
+   "speaker": "Operator",
+   "text": "question your next question comes from brian essex with jp morgan please see your question",
+   "parts": [
+    {
+     "t0_ms": 3187640,
+     "text": "question your next question comes from brian essex with jp morgan please see your question"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3195040,
+   "t1_ms": 3235240,
+   "speaker": "Analyst",
+   "text": "Hi, good afternoon. Thank you for taking the question, and congrats on the software acceleration from me as well. Arvind, I caught the prepared remarks, at least some of the news remarks that you had about clients deploying superintelligence in ways that transform entire operating models. And I appreciate that that's more than just increasing operating efficiency. But the question I have for you is, as your customers assess those transformation efforts, How focused are they on Sovereign AI? Is that becoming a more meaningful part of your conversations? And how are you seeing your customers focus on the protection of their data and IP as they assess how they deploy AI for their transformation efforts?",
+   "parts": [
+    {
+     "t0_ms": 3195040,
+     "text": "Hi, good afternoon."
+    },
+    {
+     "t0_ms": 3196140,
+     "text": "Thank you for taking the question, and congrats on the software acceleration from me as well."
+    },
+    {
+     "t0_ms": 3201540,
+     "text": "Arvind, I caught the prepared remarks, at least some of the news remarks that you had about clients deploying superintelligence in ways that transform entire operating models."
+    },
+    {
+     "t0_ms": 3211580,
+     "text": "And I appreciate that that's more than just increasing operating efficiency."
+    },
+    {
+     "t0_ms": 3217500,
+     "text": "But the question I have for you is, as your customers assess those transformation efforts,"
+    },
+    {
+     "t0_ms": 3221820,
+     "text": "How focused are they on Sovereign AI? Is that becoming a more meaningful part of your conversations?"
+    },
+    {
+     "t0_ms": 3227880,
+     "text": "And how are you seeing your customers focus on the protection of their data and IP as they assess how they deploy AI for their transformation efforts?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3236960,
+   "t1_ms": 3276680,
+   "speaker": "Management",
+   "text": "Brian, thank you first for the question, and thank you for noticing the precise words I did use in the prepared remarks. so to get to sovereign ai sovereign ai is definitely becoming a much larger conversation while we have talked about it for the last year and a half i would not tell you that in 24 it had much traction in 25 a few people began to pay some attention and in 26 it is now beginning to pick up and let me explain for everybody else exactly what we mean by that if you're going to use a large public LLM. Effectively, while they're certainly not stealing your data,",
+   "parts": [
+    {
+     "t0_ms": 3236960,
+     "text": "Brian, thank you first for the question, and thank you for noticing the precise words I did use in the prepared remarks."
+    },
+    {
+     "t0_ms": 3244060,
+     "text": "so to get to sovereign ai sovereign ai is definitely becoming a much larger conversation"
+    },
+    {
+     "t0_ms": 3252240,
+     "text": "while we have talked about it for the last year and a half i would not tell you that in 24 it had"
+    },
+    {
+     "t0_ms": 3258200,
+     "text": "much traction in 25 a few people began to pay some attention and in 26 it is now beginning to"
+    },
+    {
+     "t0_ms": 3264540,
+     "text": "pick up and let me explain for everybody else exactly what we mean by that if you're going to"
+    },
+    {
+     "t0_ms": 3270540,
+     "text": "use a large public LLM. Effectively, while they're certainly not stealing your data,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3277000,
+   "t1_ms": 3318180,
+   "speaker": "Management",
+   "text": "though they're implicitly maybe learning what kind of questions are asked, there are traces left in the underlying logs and so on that are not the full, but that do give some indication of what all it is being used for, as well as some elements of the data that is being used. So sovereign becomes, how do you make sure that none of that happens? So people are turning now to two kinds of answers. That is why I think there is such a big boom in AI infrastructure on-premise, and we can see some of the companies that benefit from that. But so will we in our mainframe with our SPIRE cards as time goes on. The other part of this is what is driving the boom behind open-weight",
+   "parts": [
+    {
+     "t0_ms": 3277000,
+     "text": "though they're implicitly maybe learning what kind of questions are asked, there are traces left in"
+    },
+    {
+     "t0_ms": 3282160,
+     "text": "the underlying logs and so on that are not the full, but that do give some indication of what"
+    },
+    {
+     "t0_ms": 3288320,
+     "text": "all it is being used for, as well as some elements of the data that is being used. So sovereign"
+    },
+    {
+     "t0_ms": 3294400,
+     "text": "becomes, how do you make sure that none of that happens? So people are turning now to two kinds"
+    },
+    {
+     "t0_ms": 3299740,
+     "text": "of answers. That is why I think there is such a big boom in AI infrastructure on-premise, and we"
+    },
+    {
+     "t0_ms": 3306760,
+     "text": "can see some of the companies that benefit from that. But so will we in our mainframe with our"
+    },
+    {
+     "t0_ms": 3311920,
+     "text": "SPIRE cards as time goes on. The other part of this is what is driving the boom behind open-weight"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3318180,
+   "t1_ms": 3360520,
+   "speaker": "Management",
+   "text": "models, because there you have the permission and the IP rights to run them on either on-premise infrastructure or on private clouds where the enterprise controls what is happening to the underlying logs and data that is definitely what is happening there and we can see that and the boom behind some of the companies that are creating open weight models is also increasing behind that i'll reflect on a conversation i had with a large bank ceo in this case it was outside the u.s but it's a very large and friendly country and their view was look we'll do some early experiments on the larger frontier LLMs, but for what we're doing inside the bank, we need to run",
+   "parts": [
+    {
+     "t0_ms": 3318180,
+     "text": "models, because there you have the permission and the IP rights to run them on either on-premise"
+    },
+    {
+     "t0_ms": 3324960,
+     "text": "infrastructure or on private clouds where the enterprise controls what is happening to the"
+    },
+    {
+     "t0_ms": 3330740,
+     "text": "underlying logs and data that is definitely what is happening there and we can see that"
+    },
+    {
+     "t0_ms": 3335820,
+     "text": "and the boom behind some of the companies that are creating open weight models is also increasing"
+    },
+    {
+     "t0_ms": 3341380,
+     "text": "behind that i'll reflect on a conversation i had with a large bank ceo in this case it was outside"
+    },
+    {
+     "t0_ms": 3349260,
+     "text": "the u.s but it's a very large and friendly country and their view was look we'll do some early"
+    },
+    {
+     "t0_ms": 3354660,
+     "text": "experiments on the larger frontier LLMs, but for what we're doing inside the bank, we need to run"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3360520,
+   "t1_ms": 3394480,
+   "speaker": "Management",
+   "text": "it in a way that is sovereign, meaning nobody can take any of the underlying data or underlying logs that are there. I was talking to somebody who does trading, and they're on, we're not going to expose our underlying proprietary models, anything outside, but we need to run this in a sovereign way. I believe this is going to turn into a tailwind for many players in the industry, certainly the infrastructure and semiconductor players, but also for those of us who help enterprises deploy in a secure and in a private way. Great. Operator, let's take one last question.",
+   "parts": [
+    {
+     "t0_ms": 3360520,
+     "text": "it in a way that is sovereign, meaning nobody can take any of the underlying data or underlying"
+    },
+    {
+     "t0_ms": 3365540,
+     "text": "logs that are there. I was talking to somebody who does trading, and they're on, we're not going"
+    },
+    {
+     "t0_ms": 3370560,
+     "text": "to expose our underlying proprietary models, anything outside, but we need to run this in a"
+    },
+    {
+     "t0_ms": 3375760,
+     "text": "sovereign way. I believe this is going to turn into a tailwind for many players in the industry,"
+    },
+    {
+     "t0_ms": 3381880,
+     "text": "certainly the infrastructure and semiconductor players,"
+    },
+    {
+     "t0_ms": 3384480,
+     "text": "but also for those of us who help enterprises deploy"
+    },
+    {
+     "t0_ms": 3388020,
+     "text": "in a secure and in a private way."
+    },
+    {
+     "t0_ms": 3391480,
+     "text": "Great. Operator, let's take one last question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3395400,
+   "t1_ms": 3400840,
+   "speaker": "Operator",
+   "text": "Thank you. And our last question comes from Matt Swanson with RBC Capital Markets. Please state your question.",
+   "parts": [
+    {
+     "t0_ms": 3395400,
+     "text": "Thank you. And our last question comes from Matt Swanson"
+    },
+    {
+     "t0_ms": 3398140,
+     "text": "with RBC Capital Markets. Please state your question."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3401260,
+   "t1_ms": 3437770,
+   "speaker": "Analyst",
+   "text": "Thank you. And maybe this is just kind of a natural follow-up to what Brent was asking, but you had mentioned earlier that what AI costs and who controls it have kind of been like the two primary questions that I'm impressed to start off with you. Who controls it obviously fits right into that sovereign AI conversation. But could you just kind of talk a little bit about how people are addressing the trade-offs if there are trade-offs between those two segments and how they're architecturing their networks in order to maximize for both those things and just how kind of like symbiotic they can be.",
+   "parts": [
+    {
+     "t0_ms": 3401260,
+     "text": "Thank you. And maybe this is just kind of a natural follow-up"
+    },
+    {
+     "t0_ms": 3407890,
+     "text": "to what Brent was asking, but you had mentioned earlier"
+    },
+    {
+     "t0_ms": 3410230,
+     "text": "that what AI costs and who controls it have kind of been"
+    },
+    {
+     "t0_ms": 3413950,
+     "text": "like the two primary questions"
+    },
+    {
+     "t0_ms": 3415670,
+     "text": "that I'm impressed to start off with you."
+    },
+    {
+     "t0_ms": 3417990,
+     "text": "Who controls it obviously fits right"
+    },
+    {
+     "t0_ms": 3419830,
+     "text": "into that sovereign AI conversation."
+    },
+    {
+     "t0_ms": 3421570,
+     "text": "But could you just kind of talk a little bit"
+    },
+    {
+     "t0_ms": 3423630,
+     "text": "about how people are addressing the trade-offs"
+    },
+    {
+     "t0_ms": 3426570,
+     "text": "if there are trade-offs between those two segments"
+    },
+    {
+     "t0_ms": 3429290,
+     "text": "and how they're architecturing their networks"
+    },
+    {
+     "t0_ms": 3432470,
+     "text": "in order to maximize for both those things"
+    },
+    {
+     "t0_ms": 3435690,
+     "text": "and just how kind of like symbiotic they can be."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3439010,
+   "t1_ms": 3480690,
+   "speaker": "Management",
+   "text": "So Matt, thanks for that question and also allowing me to give a bit more detail on this topic. If I go back to late 24, the difference between the most advanced model, which let's acknowledge is mostly a frontier LLM model, and alternate models was a two-is-to-one or three-is-to-one gap, meaning if you ran some assessment, some benchmark, and it was broad-based, not narrow, the top model might score a 70 and the open model might score a 20 or a 30 you kind of react with that's a lot of capability we're giving up and we all know that performance in some sense outcome",
+   "parts": [
+    {
+     "t0_ms": 3439010,
+     "text": "So Matt, thanks for that question"
+    },
+    {
+     "t0_ms": 3440830,
+     "text": "and also allowing me to give a bit more detail on this topic."
+    },
+    {
+     "t0_ms": 3447110,
+     "text": "If I go back to late 24, the difference between the most advanced model,"
+    },
+    {
+     "t0_ms": 3453970,
+     "text": "which let's acknowledge is mostly a frontier LLM model,"
+    },
+    {
+     "t0_ms": 3457050,
+     "text": "and alternate models was a two-is-to-one or three-is-to-one gap,"
+    },
+    {
+     "t0_ms": 3461690,
+     "text": "meaning if you ran some assessment, some benchmark, and it was broad-based, not narrow,"
+    },
+    {
+     "t0_ms": 3467350,
+     "text": "the top model might score a 70 and the open model might score a 20 or a 30 you kind of react with"
+    },
+    {
+     "t0_ms": 3475170,
+     "text": "that's a lot of capability we're giving up and we all know that performance in some sense outcome"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3480690,
+   "t1_ms": 3524050,
+   "speaker": "Management",
+   "text": "for the enterprise is highly dependent upon that that's too big a gap nobody's going to accept that in late 25 we began to see that gap shrink where maybe the gap was not 70 to 20 or 30 it was 70 to 50. But when you looked at those curves and you looked at the improvement and you looked upon the sequential improvement, we were very comfortable that we'd get us to probably 100 for the top and 90 for the alternate model. So now the question becomes, how do you do that? Now the question that the enterprise struggles with is, where are my kernel engineers? Where are the people who worry about the underlying network? Who can make sure that the model is clustered on GPUs that are",
+   "parts": [
+    {
+     "t0_ms": 3480690,
+     "text": "for the enterprise is highly dependent upon that that's too big a gap nobody's going to accept that"
+    },
+    {
+     "t0_ms": 3485930,
+     "text": "in late 25 we began to see that gap shrink where maybe the gap was not 70 to 20 or 30 it was 70 to"
+    },
+    {
+     "t0_ms": 3494110,
+     "text": "50. But when you looked at those curves and you looked at the improvement and you looked upon the"
+    },
+    {
+     "t0_ms": 3500010,
+     "text": "sequential improvement, we were very comfortable that we'd get us to probably 100 for the top and"
+    },
+    {
+     "t0_ms": 3506950,
+     "text": "90 for the alternate model. So now the question becomes, how do you do that? Now the question"
+    },
+    {
+     "t0_ms": 3513910,
+     "text": "that the enterprise struggles with is, where are my kernel engineers? Where are the people who worry"
+    },
+    {
+     "t0_ms": 3519130,
+     "text": "about the underlying network? Who can make sure that the model is clustered on GPUs that are"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3524050,
+   "t1_ms": 3565990,
+   "speaker": "Management",
+   "text": "close to each other in network proximity? Who can make sure that you're doing the right caching of results so you get an incredible response? I'm telling you that that gap is probably still there except for the most sophisticated enterprise. So then you kind of go to, all right, I got it that the answer is four times more expensive, but it's the easy answer. As those of us who work in this world produce much more sort of easy button software that can give you that capability for the alternate models and i would say it's not a huge amount of infrastructure our competition is that for an average large enterprise you can get going with maybe two or three racks which is not",
+   "parts": [
+    {
+     "t0_ms": 3524050,
+     "text": "close to each other in network proximity? Who can make sure that you're doing the right caching of"
+    },
+    {
+     "t0_ms": 3529990,
+     "text": "results so you get an incredible response? I'm telling you that that gap is probably still there"
+    },
+    {
+     "t0_ms": 3535650,
+     "text": "except for the most sophisticated enterprise. So then you kind of go to, all right, I got it that"
+    },
+    {
+     "t0_ms": 3540710,
+     "text": "the answer is four times more expensive, but it's the easy answer. As those of us who work in this"
+    },
+    {
+     "t0_ms": 3546610,
+     "text": "world produce much more sort of easy button software that can give you that capability for"
+    },
+    {
+     "t0_ms": 3553650,
+     "text": "the alternate models and i would say it's not a huge amount of infrastructure our competition is"
+    },
+    {
+     "t0_ms": 3560170,
+     "text": "that for an average large enterprise you can get going with maybe two or three racks which is not"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3565990,
+   "t1_ms": 3609990,
+   "speaker": "Management",
+   "text": "a huge amount of infrastructure but it gives you the ability to run those open weight models currently anywhere from 25 to 10 of the token cost of the frontier models that is very attractive given that they are now 90% as effective? It's a simple question for any enterprise. Would you like something that's 10% of the cost if it's 90% as good as the best? Or do you want to pay that 10 times higher cost? And then the question is, how many tasks require that? I would tell you some do, but the vast majority, summarizing an email, examining a contract, answering a customer call, composing an email, all of those can be done as well",
+   "parts": [
+    {
+     "t0_ms": 3565990,
+     "text": "a huge amount of infrastructure but it gives you the ability to run those open weight models"
+    },
+    {
+     "t0_ms": 3571330,
+     "text": "currently anywhere from 25 to 10 of the token cost of the frontier models that is very attractive"
+    },
+    {
+     "t0_ms": 3580550,
+     "text": "given that they are now 90% as effective?"
+    },
+    {
+     "t0_ms": 3585030,
+     "text": "It's a simple question for any enterprise."
+    },
+    {
+     "t0_ms": 3587290,
+     "text": "Would you like something that's 10% of the cost"
+    },
+    {
+     "t0_ms": 3589290,
+     "text": "if it's 90% as good as the best?"
+    },
+    {
+     "t0_ms": 3591730,
+     "text": "Or do you want to pay that 10 times higher cost?"
+    },
+    {
+     "t0_ms": 3594230,
+     "text": "And then the question is, how many tasks require that?"
+    },
+    {
+     "t0_ms": 3597090,
+     "text": "I would tell you some do, but the vast majority,"
+    },
+    {
+     "t0_ms": 3600390,
+     "text": "summarizing an email, examining a contract,"
+    },
+    {
+     "t0_ms": 3603870,
+     "text": "answering a customer call, composing an email,"
+    },
+    {
+     "t0_ms": 3607130,
+     "text": "all of those can be done as well"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3609990,
+   "t1_ms": 3646790,
+   "speaker": "Management",
+   "text": "with the much cheaper answer, and that is what is going to drive a lot of this. So Matt and everybody else, thank you for those questions. Look, we are pleased with our performance this quarter and all our segments' accelerated growth. Our portfolio strength, disciplined execution, and relentless focus on productivity reinforce my confidence in our trajectory. I look forward to sharing our progress with you as you close out the year, and we'll talk to you in January about that. Thank you, Arvind. Operator, let me turn it back to you to close out the call.",
+   "parts": [
+    {
+     "t0_ms": 3609990,
+     "text": "with the much cheaper answer,"
+    },
+    {
+     "t0_ms": 3611630,
+     "text": "and that is what is going to drive a lot of this."
+    },
+    {
+     "t0_ms": 3616630,
+     "text": "So Matt and everybody else,"
+    },
+    {
+     "t0_ms": 3618410,
+     "text": "thank you for those questions."
+    },
+    {
+     "t0_ms": 3620870,
+     "text": "Look, we are pleased with our performance this quarter"
+    },
+    {
+     "t0_ms": 3623610,
+     "text": "and all our segments' accelerated growth."
+    },
+    {
+     "t0_ms": 3627770,
+     "text": "Our portfolio strength, disciplined execution,"
+    },
+    {
+     "t0_ms": 3630950,
+     "text": "and relentless focus on productivity"
+    },
+    {
+     "t0_ms": 3632730,
+     "text": "reinforce my confidence in our trajectory."
+    },
+    {
+     "t0_ms": 3637010,
+     "text": "I look forward to sharing our progress with you"
+    },
+    {
+     "t0_ms": 3639490,
+     "text": "as you close out the year, and we'll talk to you in January about that."
+    },
+    {
+     "t0_ms": 3643570,
+     "text": "Thank you, Arvind. Operator, let me turn it back to you to close out the call."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3647790,
+   "t1_ms": 3653210,
+   "speaker": "Operator",
+   "text": "Thank you for participating on today's call. The conference has now ended. You may disconnect at this time.",
+   "parts": [
+    {
+     "t0_ms": 3647790,
+     "text": "Thank you for participating on today's call. The conference has now ended."
+    },
+    {
+     "t0_ms": 3651930,
+     "text": "You may disconnect at this time."
+    }
+   ]
+  }
+ ]
+}

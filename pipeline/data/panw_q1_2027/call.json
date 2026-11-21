@@ -1,0 +1,4159 @@
+{
+ "ticker": "PANW",
+ "quarter": "Q1-2027",
+ "company": "Palo Alto Networks",
+ "call_start": "2026-11-18T16:30:00-05:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/PANW_Q1-2027.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 44480,
+   "speaker": "Operator",
+   "text": "Good day, everyone, and welcome to Palo Alto Network's Fiscal First Quarter 2027 Earnings Conference Call. I'm Hamza Farawala, Senior Vice President and Head of Investor Relations. Please note that this call is being recorded today, Wednesday, November 18th, 2026, at 1.30 p.m. Pacific Time. With me on today's call to discuss our Fiscal First Quarter results are Nikesh Arora, our Chairman and Chief Executive Officer, and Deepak Alecha, our Chief Financial Officer. Following our prepared remarks, Lee Klarich, our Chief Product and Technology Officer, will join us for the question and answer portion. You can find the press release and other information to supplement today's discussion",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Good day, everyone, and welcome to Palo Alto Network's Fiscal First Quarter 2027 Earnings"
+    },
+    {
+     "t0_ms": 4640,
+     "text": "Conference Call."
+    },
+    {
+     "t0_ms": 5600,
+     "text": "I'm Hamza Farawala, Senior Vice President and Head of Investor Relations."
+    },
+    {
+     "t0_ms": 10420,
+     "text": "Please note that this call is being recorded today, Wednesday, November 18th, 2026, at"
+    },
+    {
+     "t0_ms": 16340,
+     "text": "1.30 p.m. Pacific Time."
+    },
+    {
+     "t0_ms": 18960,
+     "text": "With me on today's call to discuss our Fiscal First Quarter results are Nikesh Arora, our"
+    },
+    {
+     "t0_ms": 24380,
+     "text": "Chairman and Chief Executive Officer, and Deepak Alecha, our Chief Financial Officer."
+    },
+    {
+     "t0_ms": 30000,
+     "text": "Following our prepared remarks, Lee Klarich, our Chief Product and Technology Officer,"
+    },
+    {
+     "t0_ms": 35640,
+     "text": "will join us for the question and answer portion."
+    },
+    {
+     "t0_ms": 39600,
+     "text": "You can find the press release and other information to supplement today's discussion"
+    }
+   ]
+  },
+  {
+   "t0_ms": 44480,
+   "t1_ms": 85040,
+   "speaker": "Operator",
+   "text": "on our website at investors.paloaltonetworks.com. While there, please click on the link for quarterly results to find the Q127 Supplemental Financial Information and Q127 Earnings Presentation. During the course of today's call, we'll be making forward-looking statements and projections regarding the company's business operations and financial performance, as well as the company's recent acquisitions. These statements made today are subject to a number of risks and uncertainties that could cause our actual results to differ from these forward-looking statements. Please review our press release and recent SEC filings for a description of these risks and uncertainties.",
+   "parts": [
+    {
+     "t0_ms": 44480,
+     "text": "on our website at investors.paloaltonetworks.com."
+    },
+    {
+     "t0_ms": 49520,
+     "text": "While there, please click on the link for quarterly results to find the Q127 Supplemental"
+    },
+    {
+     "t0_ms": 55240,
+     "text": "Financial Information and Q127 Earnings Presentation."
+    },
+    {
+     "t0_ms": 60000,
+     "text": "During the course of today's call, we'll be making forward-looking statements and projections regarding the company's business operations and financial performance, as well as the company's recent acquisitions."
+    },
+    {
+     "t0_ms": 70540,
+     "text": "These statements made today are subject to a number of risks and uncertainties that could cause our actual results to differ from these forward-looking statements."
+    },
+    {
+     "t0_ms": 79200,
+     "text": "Please review our press release and recent SEC filings for a description of these risks and uncertainties."
+    }
+   ]
+  },
+  {
+   "t0_ms": 85040,
+   "t1_ms": 127620,
+   "speaker": "Operator",
+   "text": "We assume no obligation to update any forward-looking statements made in today's presentation. This presentation also contains non-GAAP financial measures and key metrics relating to the company's past and expected future performance. Non-GAAP financial measures should not be considered a substitute for financial measures prepared in accordance with GAAP. The most directly comparable GAAP financial measures and reconciliations are in the press release and the appendix of the investor presentation. Unless specifically noted otherwise, all results and comparisons are on a fiscal year-over-year basis.",
+   "parts": [
+    {
+     "t0_ms": 85040,
+     "text": "We assume no obligation to update any forward-looking statements made in today's presentation."
+    },
+    {
+     "t0_ms": 91820,
+     "text": "This presentation also contains non-GAAP financial measures and key metrics relating to the company's"
+    },
+    {
+     "t0_ms": 98780,
+     "text": "past and expected future performance."
+    },
+    {
+     "t0_ms": 101800,
+     "text": "Non-GAAP financial measures should not be considered a substitute for financial measures"
+    },
+    {
+     "t0_ms": 106760,
+     "text": "prepared in accordance with GAAP."
+    },
+    {
+     "t0_ms": 108920,
+     "text": "The most directly comparable GAAP financial measures and reconciliations are in the press release and the appendix of the investor presentation."
+    },
+    {
+     "t0_ms": 120340,
+     "text": "Unless specifically noted otherwise, all results and comparisons are on a fiscal year-over-year basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 128380,
+   "t1_ms": 131280,
+   "speaker": "Operator",
+   "text": "With that, I will now turn the call over to Nikesh.",
+   "parts": [
+    {
+     "t0_ms": 128380,
+     "text": "With that, I will now turn the call over to Nikesh."
+    }
+   ]
+  },
+  {
+   "t0_ms": 132060,
+   "t1_ms": 176400,
+   "speaker": "Management",
+   "text": "Thank you, Hamza. Good afternoon, everyone. As you can all see, we had a strong start to our first quarter of the fiscal year. We beat guidance across every metric. NGSAR was up 66%, and we delivered one of the largest NGSAR beats in our history. Total revenue was up 39%, and RPO grew 35%, both of which accelerated versus the prior quarter. Delivering that kind of result in a seasonally slower Q1 speaks to the strength of the demand function. As AI accelerates cyber attacks, enterprises are moving with urgency to replace disjointed tools with unified platforms. That momentum gives us confidence to materially raise our guidance for the year. Top line strength also translated directly to the bottom line.",
+   "parts": [
+    {
+     "t0_ms": 132060,
+     "text": "Thank you, Hamza. Good afternoon, everyone."
+    },
+    {
+     "t0_ms": 133920,
+     "text": "As you can all see, we had a strong start to our first quarter of the fiscal year."
+    },
+    {
+     "t0_ms": 140240,
+     "text": "We beat guidance across every metric."
+    },
+    {
+     "t0_ms": 143120,
+     "text": "NGSAR was up 66%, and we delivered one of the largest NGSAR beats in our history."
+    },
+    {
+     "t0_ms": 148580,
+     "text": "Total revenue was up 39%, and RPO grew 35%, both of which accelerated versus the prior quarter."
+    },
+    {
+     "t0_ms": 155980,
+     "text": "Delivering that kind of result in a seasonally slower Q1 speaks to the strength of the demand function."
+    },
+    {
+     "t0_ms": 162260,
+     "text": "As AI accelerates cyber attacks,"
+    },
+    {
+     "t0_ms": 163980,
+     "text": "enterprises are moving with urgency"
+    },
+    {
+     "t0_ms": 165460,
+     "text": "to replace disjointed tools with unified platforms."
+    },
+    {
+     "t0_ms": 168880,
+     "text": "That momentum gives us confidence"
+    },
+    {
+     "t0_ms": 170780,
+     "text": "to materially raise our guidance for the year."
+    },
+    {
+     "t0_ms": 173600,
+     "text": "Top line strength also translated directly to the bottom line."
+    }
+   ]
+  },
+  {
+   "t0_ms": 176780,
+   "t1_ms": 212400,
+   "speaker": "Management",
+   "text": "In Q1, we once again exceeded 30% operating margin, setting a new record for operating profitability while integrating large acquisitions. Most encouraging is how demand was bought based across our platforms, all of which delivered accelerating revenue growth. Starting with our largest business, Network and AI Security, which grew 20% with strength across SASE, software, and hardware firewalls. Customers are moving beyond point products and recognizing that running fragmented perimeter defense across multiple vendors leaves critical gaps in visibility and enforcement. We're also seeing a fundamental shift in what traverses the network.",
+   "parts": [
+    {
+     "t0_ms": 176780,
+     "text": "In Q1, we once again exceeded 30% operating margin,"
+    },
+    {
+     "t0_ms": 180300,
+     "text": "setting a new record for operating profitability"
+    },
+    {
+     "t0_ms": 181960,
+     "text": "while integrating large acquisitions."
+    },
+    {
+     "t0_ms": 184860,
+     "text": "Most encouraging is how demand was bought based across our platforms,"
+    },
+    {
+     "t0_ms": 188860,
+     "text": "all of which delivered accelerating revenue growth."
+    },
+    {
+     "t0_ms": 191400,
+     "text": "Starting with our largest business, Network and AI Security, which grew 20% with strength across SASE, software, and hardware firewalls."
+    },
+    {
+     "t0_ms": 199400,
+     "text": "Customers are moving beyond point products and recognizing that running fragmented perimeter defense across multiple vendors leaves critical gaps in visibility and enforcement."
+    },
+    {
+     "t0_ms": 208400,
+     "text": "We're also seeing a fundamental shift in what traverses the network."
+    }
+   ]
+  },
+  {
+   "t0_ms": 212400,
+   "t1_ms": 257279,
+   "speaker": "Management",
+   "text": "A genetic traffic on SASE is up approximately nine times year-over-year as autonomous agents continuously connect to applications, APIs, and enterprise data, all of which require real-time inspection. That surge in traffic reflects enterprises moving AI into production, and securing this new surface area has propelled Prisma Airs to nearly $170 million in ARR in five quarters since it was generally available, making it the fastest-growing product in the history of Palo Alto networks. Cortex grew over 50% in Q1, led by XIM and observability. As AI-driven attacks move at machine speed, band-aid reactive solutions across multiple data lakes are not a plan. We need solutions that run real-time analytics and observability, do dynamic correlation, and are able to deliver real-time correlation and verdicts.",
+   "parts": [
+    {
+     "t0_ms": 212400,
+     "text": "A genetic traffic on SASE is up approximately nine times year-over-year as autonomous agents continuously connect to applications, APIs, and enterprise data, all of which require real-time inspection."
+    },
+    {
+     "t0_ms": 224340,
+     "text": "That surge in traffic reflects enterprises moving AI into production, and securing this new surface area has propelled Prisma Airs to nearly $170 million in ARR in five quarters since it was generally available, making it the fastest-growing product in the history of Palo Alto networks."
+    },
+    {
+     "t0_ms": 239460,
+     "text": "Cortex grew over 50% in Q1, led by XIM and observability."
+    },
+    {
+     "t0_ms": 244220,
+     "text": "As AI-driven attacks move at machine speed,"
+    },
+    {
+     "t0_ms": 246780,
+     "text": "band-aid reactive solutions across multiple data lakes are not a plan."
+    },
+    {
+     "t0_ms": 250540,
+     "text": "We need solutions that run real-time analytics and observability,"
+    },
+    {
+     "t0_ms": 252980,
+     "text": "do dynamic correlation, and are able to deliver real-time correlation and verdicts."
+    }
+   ]
+  },
+  {
+   "t0_ms": 257380,
+   "t1_ms": 302300,
+   "speaker": "Management",
+   "text": "XIM now ingests over 20 petabytes of daily telemetry, leveraging AI to reduce response times from days to under 10 minutes. Turning to Idea, our identity security platform, revenue here grew 23% in Q1 on a pro forma basis. We continue to execute on our integration plan since closing the CyberArk acquisition earlier this year. We added more than 100 net new logos from existing Palo Alto Networks installed base in Q1, our best cross-cell quarter to date between Idira and Palo Alto Networks. The rise of AI agents introduces an entirely new class of non-human identities that must be secured in real time. Maintaining effective oversight requires complete visibility and the capability to instantly revoke access when suspicious activity occurs. To address this exact challenge, in Q1, we",
+   "parts": [
+    {
+     "t0_ms": 257380,
+     "text": "XIM now ingests over 20 petabytes of daily telemetry,"
+    },
+    {
+     "t0_ms": 261060,
+     "text": "leveraging AI to reduce response times from days to under 10 minutes."
+    },
+    {
+     "t0_ms": 264540,
+     "text": "Turning to Idea, our identity security platform,"
+    },
+    {
+     "t0_ms": 267580,
+     "text": "revenue here grew 23% in Q1 on a pro forma basis. We continue to execute on our integration plan"
+    },
+    {
+     "t0_ms": 273000,
+     "text": "since closing the CyberArk acquisition earlier this year. We added more than 100 net new logos"
+    },
+    {
+     "t0_ms": 277780,
+     "text": "from existing Palo Alto Networks installed base in Q1, our best cross-cell quarter to date between"
+    },
+    {
+     "t0_ms": 283660,
+     "text": "Idira and Palo Alto Networks. The rise of AI agents introduces an entirely new class of non-human"
+    },
+    {
+     "t0_ms": 288760,
+     "text": "identities that must be secured in real time. Maintaining effective oversight requires complete"
+    },
+    {
+     "t0_ms": 294240,
+     "text": "visibility and the capability to instantly revoke access when suspicious"
+    },
+    {
+     "t0_ms": 298220,
+     "text": "activity occurs. To address this exact challenge, in Q1, we"
+    }
+   ]
+  },
+  {
+   "t0_ms": 302300,
+   "t1_ms": 345620,
+   "speaker": "Management",
+   "text": "launched the general availability of IDERA's Agentech IDP, integrated directly into our Prisma AI Gateway, enabling real-time enforcement against Agentech permissions. Across all of our three platforms, customers are solving the same core problem, compressing the time between spotting an explosion and shutting it down. Point products simply cannot keep up when attacks move at machine speed. Enterprises are responding by consolidating their security architecture onto a unified platform, an ongoing shift that continues to provide momentum for platformization. Yes, that word, platformization. In Q1, net new platformizations hit a record of approximately 170, which was more than the last two Q1s combined. Platformized customers now represent",
+   "parts": [
+    {
+     "t0_ms": 302300,
+     "text": "launched the general availability of IDERA's Agentech IDP,"
+    },
+    {
+     "t0_ms": 306380,
+     "text": "integrated directly into our Prisma AI Gateway, enabling real-time enforcement"
+    },
+    {
+     "t0_ms": 310340,
+     "text": "against Agentech permissions. Across all of our three platforms,"
+    },
+    {
+     "t0_ms": 315000,
+     "text": "customers are solving the same core problem, compressing the time between"
+    },
+    {
+     "t0_ms": 318340,
+     "text": "spotting an explosion and shutting it down. Point products simply cannot keep up"
+    },
+    {
+     "t0_ms": 322320,
+     "text": "when attacks move at machine speed."
+    },
+    {
+     "t0_ms": 324400,
+     "text": "Enterprises are responding by consolidating"
+    },
+    {
+     "t0_ms": 326220,
+     "text": "their security architecture onto a unified platform,"
+    },
+    {
+     "t0_ms": 329540,
+     "text": "an ongoing shift that continues to provide momentum"
+    },
+    {
+     "t0_ms": 331820,
+     "text": "for platformization."
+    },
+    {
+     "t0_ms": 334080,
+     "text": "Yes, that word, platformization."
+    },
+    {
+     "t0_ms": 336140,
+     "text": "In Q1, net new platformizations"
+    },
+    {
+     "t0_ms": 338640,
+     "text": "hit a record of approximately 170,"
+    },
+    {
+     "t0_ms": 341340,
+     "text": "which was more than the last two Q1s combined."
+    },
+    {
+     "t0_ms": 344120,
+     "text": "Platformized customers now represent"
+    }
+   ]
+  },
+  {
+   "t0_ms": 345620,
+   "t1_ms": 386920,
+   "speaker": "Management",
+   "text": "two-thirds of our next-generation security IRR and continue to expand at a robust rate with net retention above 120%. Our largest deals detail the platformization strength we saw in the quarter. In Q1, we closed an $83 million deal with a global financial institution. This customer platformized our network security, adopting frontier virtual patching, and expanded identity security, signing the largest ever deal in CyberArk history. A global consulting firm signed a $46 million transaction, which included our largest ever Prisma Airs deal as they moved AI into production across their organization. Finally, we signed a $20 million deal with a global IT services firm to help unify their security stack and reduce their point product sprawl and modernize their defenses.",
+   "parts": [
+    {
+     "t0_ms": 345620,
+     "text": "two-thirds of our next-generation security IRR"
+    },
+    {
+     "t0_ms": 347720,
+     "text": "and continue to expand at a robust rate"
+    },
+    {
+     "t0_ms": 349720,
+     "text": "with net retention above 120%."
+    },
+    {
+     "t0_ms": 352780,
+     "text": "Our largest deals detail the platformization strength we saw in the quarter."
+    },
+    {
+     "t0_ms": 357100,
+     "text": "In Q1, we closed an $83 million deal with a global financial institution."
+    },
+    {
+     "t0_ms": 360880,
+     "text": "This customer platformized our network security, adopting frontier virtual patching,"
+    },
+    {
+     "t0_ms": 365200,
+     "text": "and expanded identity security, signing the largest ever deal in CyberArk history."
+    },
+    {
+     "t0_ms": 369840,
+     "text": "A global consulting firm signed a $46 million transaction,"
+    },
+    {
+     "t0_ms": 372980,
+     "text": "which included our largest ever Prisma Airs deal as they moved AI into production across their organization."
+    },
+    {
+     "t0_ms": 378400,
+     "text": "Finally, we signed a $20 million deal with a global IT services firm"
+    },
+    {
+     "t0_ms": 382340,
+     "text": "to help unify their security stack and reduce their point product sprawl"
+    },
+    {
+     "t0_ms": 385720,
+     "text": "and modernize their defenses."
+    }
+   ]
+  },
+  {
+   "t0_ms": 388100,
+   "t1_ms": 432220,
+   "speaker": "Management",
+   "text": "This customer purchased Prisma Airs and SASE to secure AI deployments and access across their global workforce. Customers are making long-term architectural bets with us and our responsibility grows with every commitment. They expect us to keep sharpening the products we rely on today while staying ahead of what comes next. Six months ago, when cyber-capable models like Mythos were first released, we predicted that an equally powerful offensive AI capability would rapidly diffuse through open source within three to six months, a prediction that has now materialized. Now, I want to be clear. There are two distinct parallel effects that are driving this environment. The first effect is a massive surge in vulnerabilities and patches being deployed. We're seeing critical and severe vulnerabilities discovered nearly seven times the monthly average of last year.",
+   "parts": [
+    {
+     "t0_ms": 388100,
+     "text": "This customer purchased Prisma Airs and SASE to secure AI deployments"
+    },
+    {
+     "t0_ms": 391240,
+     "text": "and access across their global workforce."
+    },
+    {
+     "t0_ms": 394300,
+     "text": "Customers are making long-term architectural bets with us"
+    },
+    {
+     "t0_ms": 396680,
+     "text": "and our responsibility grows with every commitment."
+    },
+    {
+     "t0_ms": 399280,
+     "text": "They expect us to keep sharpening the products we rely on today"
+    },
+    {
+     "t0_ms": 401500,
+     "text": "while staying ahead of what comes next."
+    },
+    {
+     "t0_ms": 403740,
+     "text": "Six months ago, when cyber-capable models like Mythos were first released, we predicted that an equally powerful offensive AI capability would rapidly diffuse through open source within three to six months, a prediction that has now materialized."
+    },
+    {
+     "t0_ms": 418060,
+     "text": "Now, I want to be clear. There are two distinct parallel effects that are driving this environment."
+    },
+    {
+     "t0_ms": 422720,
+     "text": "The first effect is a massive surge in vulnerabilities and patches being deployed."
+    },
+    {
+     "t0_ms": 427220,
+     "text": "We're seeing critical and severe vulnerabilities discovered nearly seven times the monthly average of last year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 432860,
+   "t1_ms": 477580,
+   "speaker": "Management",
+   "text": "These discoveries are happening at a speed and intensity which is hard for IT teams to cope with. If you believe, many of the major disruptions over the last few weeks, including outages across major enterprises and governments, were partially due to unintended consequences of patching and configuration changes, as IT teams simply cannot patch these vulnerabilities fast enough without compromising their production environments. The second effect is the rise of AI-assisted cyber attacks. Bad actors are using open-weight models and new agentic frameworks to find and exploit vulnerabilities at unprecedented speed and scale. New agentic frameworks like Artex are enabling bad actors to turn simple instructions into autonomous, multi-stage attacks, allowing a handful of operators to compromise dozens of targets simultaneously. We saw an example of that just days ago",
+   "parts": [
+    {
+     "t0_ms": 432860,
+     "text": "These discoveries are happening at a speed and intensity which is hard for IT teams to cope with."
+    },
+    {
+     "t0_ms": 438180,
+     "text": "If you believe, many of the major disruptions over the last few weeks,"
+    },
+    {
+     "t0_ms": 441240,
+     "text": "including outages across major enterprises and governments,"
+    },
+    {
+     "t0_ms": 444040,
+     "text": "were partially due to unintended consequences of patching and configuration changes,"
+    },
+    {
+     "t0_ms": 448820,
+     "text": "as IT teams simply cannot patch these vulnerabilities fast enough"
+    },
+    {
+     "t0_ms": 451600,
+     "text": "without compromising their production environments."
+    },
+    {
+     "t0_ms": 454240,
+     "text": "The second effect is the rise of AI-assisted cyber attacks."
+    },
+    {
+     "t0_ms": 457900,
+     "text": "Bad actors are using open-weight models and new agentic frameworks"
+    },
+    {
+     "t0_ms": 460600,
+     "text": "to find and exploit vulnerabilities at unprecedented speed and scale."
+    },
+    {
+     "t0_ms": 464880,
+     "text": "New agentic frameworks like Artex are enabling bad actors"
+    },
+    {
+     "t0_ms": 467780,
+     "text": "to turn simple instructions into autonomous, multi-stage attacks,"
+    },
+    {
+     "t0_ms": 471560,
+     "text": "allowing a handful of operators to compromise dozens of targets simultaneously."
+    },
+    {
+     "t0_ms": 475700,
+     "text": "We saw an example of that just days ago"
+    }
+   ]
+  },
+  {
+   "t0_ms": 477580,
+   "t1_ms": 521679,
+   "speaker": "Management",
+   "text": "when our Unit 42 team published research on a campaign that involved a small team of foreign-linked hackers that were able to infiltrate 19 organizations at the same time. As we look ahead, we anticipate an elevated threat environment, but we believe enterprises have multiple ways to adapt to this new paradigm. First, the significant volume of patches will continue to be required for at least the next 18 months, carrying ongoing risks of collateral damage. We expect the collateral damage will decrease over time as customers get smarter about understanding exactly what to patch and when to patch. Second, the need for virtual patching will grow across all industries and software categories, allowing organizations to securely and comfortably shield their infrastructure in line before applying their patch. In Q1, we saw strong demand for our advanced virtual patching service,",
+   "parts": [
+    {
+     "t0_ms": 477580,
+     "text": "when our Unit 42 team published research on a campaign"
+    },
+    {
+     "t0_ms": 480680,
+     "text": "that involved a small team of foreign-linked hackers"
+    },
+    {
+     "t0_ms": 483100,
+     "text": "that were able to infiltrate 19 organizations at the same time."
+    },
+    {
+     "t0_ms": 487820,
+     "text": "As we look ahead, we anticipate an elevated threat environment,"
+    },
+    {
+     "t0_ms": 491320,
+     "text": "but we believe enterprises have multiple ways to adapt to this new paradigm."
+    },
+    {
+     "t0_ms": 494520,
+     "text": "First, the significant volume of patches will continue to be required for at least the next 18 months,"
+    },
+    {
+     "t0_ms": 499500,
+     "text": "carrying ongoing risks of collateral damage."
+    },
+    {
+     "t0_ms": 501940,
+     "text": "We expect the collateral damage will decrease over time"
+    },
+    {
+     "t0_ms": 504600,
+     "text": "as customers get smarter about understanding exactly what to patch and when to patch."
+    },
+    {
+     "t0_ms": 508260,
+     "text": "Second, the need for virtual patching will grow across all industries and software categories,"
+    },
+    {
+     "t0_ms": 512659,
+     "text": "allowing organizations to securely and comfortably shield their infrastructure in line"
+    },
+    {
+     "t0_ms": 516480,
+     "text": "before applying their patch."
+    },
+    {
+     "t0_ms": 518100,
+     "text": "In Q1, we saw strong demand for our advanced virtual patching service,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 522080,
+   "t1_ms": 564140,
+   "speaker": "Management",
+   "text": "and we see a large opportunity to deliver this to our nearly 70,000 network security customers. Third, the reality for every enterprise is that there's no silver bullet for preventing an attack, and organizations can no longer assume it won't happen to them. When an attack hits, because it will, defenders have to be ready to detect and remediate in record time, rather than relying on reactive Band-Aids. Therefore, we believe the third part of the antidote is most important, which is modernizing the north of $1 trillion of legacy security and IT infrastructure onto real-time platforms. Despite the heightened threat environment, demand for AI remains insatiable. Every drop in inference cost unlocks thousands of new agentic workflows,",
+   "parts": [
+    {
+     "t0_ms": 522080,
+     "text": "and we see a large opportunity to deliver this"
+    },
+    {
+     "t0_ms": 523799,
+     "text": "to our nearly 70,000 network security customers."
+    },
+    {
+     "t0_ms": 526840,
+     "text": "Third, the reality for every enterprise is that"
+    },
+    {
+     "t0_ms": 529020,
+     "text": "there's no silver bullet for preventing an attack,"
+    },
+    {
+     "t0_ms": 531540,
+     "text": "and organizations can no longer assume it won't happen to them."
+    },
+    {
+     "t0_ms": 534860,
+     "text": "When an attack hits, because it will,"
+    },
+    {
+     "t0_ms": 537380,
+     "text": "defenders have to be ready to detect and remediate in record time,"
+    },
+    {
+     "t0_ms": 540380,
+     "text": "rather than relying on reactive Band-Aids."
+    },
+    {
+     "t0_ms": 542980,
+     "text": "Therefore, we believe the third part of the antidote is most important,"
+    },
+    {
+     "t0_ms": 545480,
+     "text": "which is modernizing the north of $1 trillion of legacy security and IT infrastructure onto real-time platforms."
+    },
+    {
+     "t0_ms": 556180,
+     "text": "Despite the heightened threat environment, demand for AI remains insatiable."
+    },
+    {
+     "t0_ms": 560780,
+     "text": "Every drop in inference cost unlocks thousands of new agentic workflows,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 564560,
+   "t1_ms": 606740,
+   "speaker": "Management",
+   "text": "putting industry token revenue on a trajectory to surpass $1 trillion by 2029. While the market is focused on the AI trade, we are focused on the AI inflection, the shift from building AI infrastructure to real enterprise consumption. Until recently, most AI activity has been concentrated in consumer use cases and horizontal applications like coding, where there is virtually no security around these tokens. Going forward, we believe the currently deployed AI infrastructure will also begin to show vulnerabilities, and we have seen recent examples of these exploits among AI infrastructure providers. As coding becomes more agentic, these lack of security controls will bring agentic risks into enterprise environments. It is imperative that we ensure AI adoption is in lockstep with AI security.",
+   "parts": [
+    {
+     "t0_ms": 564560,
+     "text": "putting industry token revenue on a trajectory to surpass $1 trillion by 2029."
+    },
+    {
+     "t0_ms": 569640,
+     "text": "While the market is focused on the AI trade, we are focused on the AI inflection,"
+    },
+    {
+     "t0_ms": 573760,
+     "text": "the shift from building AI infrastructure to real enterprise consumption."
+    },
+    {
+     "t0_ms": 577720,
+     "text": "Until recently, most AI activity has been concentrated in consumer use cases"
+    },
+    {
+     "t0_ms": 581540,
+     "text": "and horizontal applications like coding, where there is virtually no security around these tokens."
+    },
+    {
+     "t0_ms": 586920,
+     "text": "Going forward, we believe the currently deployed AI infrastructure will also begin to show vulnerabilities,"
+    },
+    {
+     "t0_ms": 591920,
+     "text": "and we have seen recent examples of these exploits among AI infrastructure providers."
+    },
+    {
+     "t0_ms": 595960,
+     "text": "As coding becomes more agentic, these lack of security controls will bring agentic risks into enterprise environments."
+    },
+    {
+     "t0_ms": 602760,
+     "text": "It is imperative that we ensure AI adoption is in lockstep with AI security."
+    }
+   ]
+  },
+  {
+   "t0_ms": 607680,
+   "t1_ms": 651780,
+   "speaker": "Management",
+   "text": "We're already helping our customers close the gap with Prisma Airs, reaching near $170 million in ARR across north of 1,000 customers within the last five quarters. Today, Prisma Airs delivers comprehensive AI security across five pillars, giving enterprises a single platform to see, assess, and control their entire AI footprint. It starts with AI discovery and AI risk assessment. First, can you find every AI artifact in the enterprise? Prisma Airs then discovers models and autonomous agents running anywhere, then continuously evaluates the risk across your supply chain, security posture, and automated AI red teaming. From there, we move to real-time enforcement through AI protection and AI governance. Can you consolidate all that traffic into a single enforcement point? With on-time security, identity security,",
+   "parts": [
+    {
+     "t0_ms": 607680,
+     "text": "We're already helping our customers close the gap with Prisma Airs,"
+    },
+    {
+     "t0_ms": 611100,
+     "text": "reaching near $170 million in ARR across north of 1,000 customers within the last five quarters."
+    },
+    {
+     "t0_ms": 618060,
+     "text": "Today, Prisma Airs delivers comprehensive AI security across five pillars,"
+    },
+    {
+     "t0_ms": 622440,
+     "text": "giving enterprises a single platform to see, assess, and control their entire AI footprint."
+    },
+    {
+     "t0_ms": 627180,
+     "text": "It starts with AI discovery and AI risk assessment."
+    },
+    {
+     "t0_ms": 629860,
+     "text": "First, can you find every AI artifact in the enterprise?"
+    },
+    {
+     "t0_ms": 633600,
+     "text": "Prisma Airs then discovers models and autonomous agents running anywhere,"
+    },
+    {
+     "t0_ms": 636900,
+     "text": "then continuously evaluates the risk across your supply chain,"
+    },
+    {
+     "t0_ms": 639980,
+     "text": "security posture, and automated AI red teaming."
+    },
+    {
+     "t0_ms": 642740,
+     "text": "From there, we move to real-time enforcement"
+    },
+    {
+     "t0_ms": 644800,
+     "text": "through AI protection and AI governance."
+    },
+    {
+     "t0_ms": 646840,
+     "text": "Can you consolidate all that traffic into a single enforcement point?"
+    },
+    {
+     "t0_ms": 649760,
+     "text": "With on-time security, identity security,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 651900,
+   "t1_ms": 695580,
+   "speaker": "Management",
+   "text": "and our AI gateway working together, customers inspect prompts, block sensitive data leaks, secure agent identities, and enforce policy across every interaction in real time. This is the industry's first AI security platform. And tying it all together is AI observability, capturing and observing every prompt, response, and log so organizations maintain complete accountability at AI scale. While Prisma Airs encompasses important pillars of AI security today, we expect that as models continue to get smarter, they will obviate static human controls. Because of this, AI security models will need to be equipped with advanced reasoning capabilities that are on par with the frontier. Trusting LLMs will require that we can independently verify, explain, and audit AI implementations.",
+   "parts": [
+    {
+     "t0_ms": 651900,
+     "text": "and our AI gateway working together,"
+    },
+    {
+     "t0_ms": 653580,
+     "text": "customers inspect prompts, block sensitive data leaks,"
+    },
+    {
+     "t0_ms": 656840,
+     "text": "secure agent identities, and enforce policy"
+    },
+    {
+     "t0_ms": 658860,
+     "text": "across every interaction in real time."
+    },
+    {
+     "t0_ms": 660380,
+     "text": "This is the industry's first AI security platform."
+    },
+    {
+     "t0_ms": 664240,
+     "text": "And tying it all together is AI observability,"
+    },
+    {
+     "t0_ms": 666540,
+     "text": "capturing and observing every prompt, response, and log"
+    },
+    {
+     "t0_ms": 669400,
+     "text": "so organizations maintain complete accountability at AI scale."
+    },
+    {
+     "t0_ms": 674060,
+     "text": "While Prisma Airs encompasses important pillars of AI security today,"
+    },
+    {
+     "t0_ms": 678540,
+     "text": "we expect that as models continue to get smarter,"
+    },
+    {
+     "t0_ms": 681240,
+     "text": "they will obviate static human controls."
+    },
+    {
+     "t0_ms": 683560,
+     "text": "Because of this, AI security models will need to be equipped"
+    },
+    {
+     "t0_ms": 686480,
+     "text": "with advanced reasoning capabilities that are on par with the frontier."
+    },
+    {
+     "t0_ms": 690380,
+     "text": "Trusting LLMs will require that we can independently verify,"
+    },
+    {
+     "t0_ms": 693580,
+     "text": "explain, and audit AI implementations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 696080,
+   "t1_ms": 741000,
+   "speaker": "Management",
+   "text": "We believe both trust and control will be essential to driving enterprise adoption of AI. We're already seeing the desire for sovereignty and control compel enterprises to adopt open-weight and open-source models. And early signs of that shift are clear, with open-weight models growing from under 5% of token traffic to more than 60% over the past year. When organizations put AI at the center of their operations, they want to retain control of their proprietary data, institutional judgment, and competitive edge inside their own four walls. We expect a future with a serving opportunity in the hundreds of billions of dollars where enterprise applications are driven by open-weight and open-source adoption. Trust, coupled with ability to control the AI implementation, where it's both trainable and available on-prem or in a sovereign stack, will accelerate enterprise adoption of AI.",
+   "parts": [
+    {
+     "t0_ms": 696080,
+     "text": "We believe both trust and control will be essential to driving enterprise adoption of AI."
+    },
+    {
+     "t0_ms": 701960,
+     "text": "We're already seeing the desire for sovereignty and control compel enterprises to adopt open-weight and open-source models."
+    },
+    {
+     "t0_ms": 708560,
+     "text": "And early signs of that shift are clear, with open-weight models growing from under 5% of token traffic to more than 60% over the past year."
+    },
+    {
+     "t0_ms": 715860,
+     "text": "When organizations put AI at the center of their operations, they want to retain control of their proprietary data,"
+    },
+    {
+     "t0_ms": 720840,
+     "text": "institutional judgment, and competitive edge inside their own four walls."
+    },
+    {
+     "t0_ms": 724140,
+     "text": "We expect a future with a serving opportunity in the hundreds of billions of dollars"
+    },
+    {
+     "t0_ms": 728140,
+     "text": "where enterprise applications are driven by open-weight and open-source adoption."
+    },
+    {
+     "t0_ms": 732480,
+     "text": "Trust, coupled with ability to control the AI implementation,"
+    },
+    {
+     "t0_ms": 736140,
+     "text": "where it's both trainable and available on-prem or in a sovereign stack,"
+    },
+    {
+     "t0_ms": 739300,
+     "text": "will accelerate enterprise adoption of AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 741520,
+   "t1_ms": 783980,
+   "speaker": "Management",
+   "text": "That means that these models must be delivered securely and very acquired in a sovereign fashion with control strictly in the hands of the enterprise. When we looked at training custom open-weight models ourselves, we looked for partners across the entire AI ecosystem, looking for rare engineering rigor and a proven ability to address enterprise challenges. We landed on Applied Compute because no other team matched their technical pedigree in post-training open-weight models. We are now bringing a world-class team of frontier AI researchers in-house and expect to reach 100 researchers by year-end. Every enterprise sits on decades of proprietary data, internal playbooks, and institutional judgment that cannot be exposed to public models. But until now, they have lacked a trusted partner to post-train, run, and supervise open-weight models safely on their own.",
+   "parts": [
+    {
+     "t0_ms": 741520,
+     "text": "That means that these models must be delivered securely and very acquired in a sovereign fashion"
+    },
+    {
+     "t0_ms": 745660,
+     "text": "with control strictly in the hands of the enterprise."
+    },
+    {
+     "t0_ms": 749200,
+     "text": "When we looked at training custom open-weight models ourselves,"
+    },
+    {
+     "t0_ms": 751740,
+     "text": "we looked for partners across the entire AI ecosystem,"
+    },
+    {
+     "t0_ms": 754860,
+     "text": "looking for rare engineering rigor"
+    },
+    {
+     "t0_ms": 756120,
+     "text": "and a proven ability to address enterprise challenges."
+    },
+    {
+     "t0_ms": 759080,
+     "text": "We landed on Applied Compute"
+    },
+    {
+     "t0_ms": 760320,
+     "text": "because no other team matched their technical pedigree"
+    },
+    {
+     "t0_ms": 762440,
+     "text": "in post-training open-weight models."
+    },
+    {
+     "t0_ms": 764760,
+     "text": "We are now bringing a world-class team"
+    },
+    {
+     "t0_ms": 766180,
+     "text": "of frontier AI researchers in-house"
+    },
+    {
+     "t0_ms": 768120,
+     "text": "and expect to reach 100 researchers by year-end."
+    },
+    {
+     "t0_ms": 771160,
+     "text": "Every enterprise sits on decades of proprietary data,"
+    },
+    {
+     "t0_ms": 774080,
+     "text": "internal playbooks, and institutional judgment"
+    },
+    {
+     "t0_ms": 776100,
+     "text": "that cannot be exposed to public models."
+    },
+    {
+     "t0_ms": 778360,
+     "text": "But until now, they have lacked a trusted partner"
+    },
+    {
+     "t0_ms": 780680,
+     "text": "to post-train, run, and supervise open-weight models safely on their own."
+    }
+   ]
+  },
+  {
+   "t0_ms": 784480,
+   "t1_ms": 824760,
+   "speaker": "Management",
+   "text": "We believe Applied Compute is the right partner for us to address this opportunity. The team has already seen great traction with large enterprises and AI natives alike, achieving north of $100 million in annualized revenue with the last 18 months of founding, putting them in rarefied air. Applied Compute will allow us to execute on two major fronts. First, we will embed AI across all of our security capabilities and are in the process of training north of 35 specialized use cases and making them available to our customers to fight AI with AI. Secondly, we will help train and serve secure, sovereign implementations of open-weight models to the enterprise. Open-weight model implementations will allow us to deliver secure, open-weight models to our customers to enable adoption of secure AI in the enterprise.",
+   "parts": [
+    {
+     "t0_ms": 784480,
+     "text": "We believe Applied Compute is the right partner for us to address this opportunity."
+    },
+    {
+     "t0_ms": 787880,
+     "text": "The team has already seen great traction with large enterprises and AI natives alike,"
+    },
+    {
+     "t0_ms": 791680,
+     "text": "achieving north of $100 million in annualized revenue with the last 18 months of founding,"
+    },
+    {
+     "t0_ms": 795800,
+     "text": "putting them in rarefied air."
+    },
+    {
+     "t0_ms": 797700,
+     "text": "Applied Compute will allow us to execute on two major fronts."
+    },
+    {
+     "t0_ms": 800000,
+     "text": "First, we will embed AI across all of our security capabilities"
+    },
+    {
+     "t0_ms": 803160,
+     "text": "and are in the process of training north of 35 specialized use cases"
+    },
+    {
+     "t0_ms": 806920,
+     "text": "and making them available to our customers to fight AI with AI."
+    },
+    {
+     "t0_ms": 810520,
+     "text": "Secondly, we will help train and serve secure, sovereign implementations of open-weight models"
+    },
+    {
+     "t0_ms": 815320,
+     "text": "to the enterprise. Open-weight model implementations will allow us to deliver"
+    },
+    {
+     "t0_ms": 819080,
+     "text": "secure, open-weight models to our customers to enable adoption of secure AI in the enterprise."
+    }
+   ]
+  },
+  {
+   "t0_ms": 825320,
+   "t1_ms": 867480,
+   "speaker": "Management",
+   "text": "To support our efforts, we plan to build out a diversified global inference capability of north of 100 plus megawatts over the next three to five years. This will be supported by a MODX CAPEX commitment of less than $3 billion through fiscal 2030, representing approximately half a year of our annual free cash flow. By pairing their platform with our global go-to-market reach and the trust we have earned with CIOs worldwide, we expect Applied Compute to continue scaling rapidly and add over north of a billion dollars of ARR to our next-generation security ARR by fiscal 2029. In closing, Q1 was a defining inflection point for cybersecurity. AI-driven attacks have stripped away the luxury of incremental change, proving that fragmented decade-old tools cannot stop",
+   "parts": [
+    {
+     "t0_ms": 825320,
+     "text": "To support our efforts, we plan to build out a diversified global inference capability"
+    },
+    {
+     "t0_ms": 830040,
+     "text": "of north of 100 plus megawatts over the next three to five years. This will be supported"
+    },
+    {
+     "t0_ms": 833800,
+     "text": "by a MODX CAPEX commitment of less than $3 billion through fiscal 2030,"
+    },
+    {
+     "t0_ms": 838840,
+     "text": "representing approximately half a year of our annual free cash flow."
+    },
+    {
+     "t0_ms": 842040,
+     "text": "By pairing their platform with our global go-to-market reach and the trust we have earned"
+    },
+    {
+     "t0_ms": 845080,
+     "text": "with CIOs worldwide, we expect Applied Compute to continue scaling rapidly and add over north"
+    },
+    {
+     "t0_ms": 850280,
+     "text": "of a billion dollars of ARR to our next-generation security ARR by fiscal 2029. In closing,"
+    },
+    {
+     "t0_ms": 858760,
+     "text": "Q1 was a defining inflection point for cybersecurity. AI-driven attacks have stripped"
+    },
+    {
+     "t0_ms": 863080,
+     "text": "away the luxury of incremental change, proving that fragmented decade-old tools cannot stop"
+    }
+   ]
+  },
+  {
+   "t0_ms": 867480,
+   "t1_ms": 910080,
+   "speaker": "Management",
+   "text": "stop autonomous threats, and creating an urgent mandate to modernize $1 trillion of legacy infrastructure. At the same time, to unleash AI adoption across the enterprise, AI security must evolve from visibility enforcement to ensuring trust in the model itself. Organizations will be reluctant to put mission-critical workflows on AI until they can rely on how those models behave in production. Lastly, we see a massive opportunity in enabling secure adoption of open way models as sovereignty and control become increasingly important pillars in the enterprise By bringing that foundation to our customers alongside our core security platforms, we sit at the center of both their security modernization and their AI transformation for years to come. With that, I'll turn it over to Deepak to cover financial details in more depth and share our updated outlook.",
+   "parts": [
+    {
+     "t0_ms": 867480,
+     "text": "stop autonomous threats, and creating an urgent mandate to modernize $1 trillion of legacy"
+    },
+    {
+     "t0_ms": 871960,
+     "text": "infrastructure. At the same time, to unleash AI adoption across the enterprise, AI security must"
+    },
+    {
+     "t0_ms": 877020,
+     "text": "evolve from visibility enforcement to ensuring trust in the model itself. Organizations will"
+    },
+    {
+     "t0_ms": 881400,
+     "text": "be reluctant to put mission-critical workflows on AI until they can rely on how those models"
+    },
+    {
+     "t0_ms": 885380,
+     "text": "behave in production. Lastly, we see a massive opportunity in enabling secure adoption of open"
+    },
+    {
+     "t0_ms": 890440,
+     "text": "way models as sovereignty and control become increasingly important pillars in the enterprise"
+    },
+    {
+     "t0_ms": 894860,
+     "text": "By bringing that foundation to our customers alongside our core security platforms, we sit at the center of both their security modernization and their AI transformation for years to come."
+    },
+    {
+     "t0_ms": 905100,
+     "text": "With that, I'll turn it over to Deepak to cover financial details in more depth and share our updated outlook."
+    }
+   ]
+  },
+  {
+   "t0_ms": 911100,
+   "t1_ms": 949560,
+   "speaker": "Management",
+   "text": "Thank you, Nikesh, and good afternoon, everyone. We delivered a record Q1 result with accelerating growth on all of our key top-line metrics. RPO grew 35% year-over-year to $21.0 billion Current RPO was up 36% year-over-year to $9.4 billion Contract durations remained flat year-over-year NGS ARR reached $9.73 billion, up 66% year-over-year and net new NGS ARR more than doubled year-over-year We significantly exceeded our guidance to deliver one of the highest quarterly NGS ARR beats in our history",
+   "parts": [
+    {
+     "t0_ms": 911100,
+     "text": "Thank you, Nikesh, and good afternoon, everyone."
+    },
+    {
+     "t0_ms": 914000,
+     "text": "We delivered a record Q1 result with accelerating growth on all of our key top-line metrics."
+    },
+    {
+     "t0_ms": 919580,
+     "text": "RPO grew 35% year-over-year to $21.0 billion"
+    },
+    {
+     "t0_ms": 924640,
+     "text": "Current RPO was up 36% year-over-year to $9.4 billion"
+    },
+    {
+     "t0_ms": 929300,
+     "text": "Contract durations remained flat year-over-year"
+    },
+    {
+     "t0_ms": 932320,
+     "text": "NGS ARR reached $9.73 billion, up 66% year-over-year"
+    },
+    {
+     "t0_ms": 938640,
+     "text": "and net new NGS ARR more than doubled year-over-year"
+    },
+    {
+     "t0_ms": 942640,
+     "text": "We significantly exceeded our guidance to deliver one of the highest quarterly NGS ARR beats in our history"
+    }
+   ]
+  },
+  {
+   "t0_ms": 949560,
+   "t1_ms": 991940,
+   "speaker": "Management",
+   "text": "total revenue was up 39 year over year reaching 3.44 billion in q1 as we announced last quarter we're now reporting revenue across our three segments network and ai security cortex and idea q1 revenue performance was truly broad-based with all three of our segments delivering growth acceleration on network and ai security that delivered growth acceleration at scale in q1 coming off a very strong Q4. Revenue grew 20% year-over-year to $2.3 billion. We saw strong growth across all form factors in network security. Starting with SASE, ARR grew",
+   "parts": [
+    {
+     "t0_ms": 949560,
+     "text": "total revenue was up 39 year over year reaching 3.44 billion in q1 as we announced last quarter"
+    },
+    {
+     "t0_ms": 958740,
+     "text": "we're now reporting revenue across our three segments network and ai security cortex and"
+    },
+    {
+     "t0_ms": 964780,
+     "text": "idea q1 revenue performance was truly broad-based with all three of our segments delivering growth"
+    },
+    {
+     "t0_ms": 971420,
+     "text": "acceleration on network and ai security that delivered growth acceleration at scale in q1"
+    },
+    {
+     "t0_ms": 978740,
+     "text": "coming off a very strong Q4. Revenue grew 20% year-over-year to $2.3 billion."
+    },
+    {
+     "t0_ms": 985260,
+     "text": "We saw strong growth across all form factors in network security. Starting with SASE, ARR grew"
+    }
+   ]
+  },
+  {
+   "t0_ms": 991940,
+   "t1_ms": 1033380,
+   "speaker": "Management",
+   "text": "30% year-over-year, and we added over $100 million in net new NGS ARR. Demand was particularly strong for SD-WAN and secure browser, as customers continue to favor our comprehensive SASE platform over point product vendors. In firewall, we saw strength across hardware and software with trailing 12-month bookings up 28% year-over-year. We are continuing to gain share as the desire for unified visibility and prevention is driving vendor consolidation within our customer base. Software firewall ARR accelerated for the third consecutive quarter and grew 34% year-over-year. This was largely driven by Prisma RAS,",
+   "parts": [
+    {
+     "t0_ms": 991940,
+     "text": "30% year-over-year, and we added over $100 million in net new NGS ARR. Demand was particularly strong"
+    },
+    {
+     "t0_ms": 999120,
+     "text": "for SD-WAN and secure browser, as customers continue to favor our comprehensive SASE platform"
+    },
+    {
+     "t0_ms": 1005140,
+     "text": "over point product vendors."
+    },
+    {
+     "t0_ms": 1007620,
+     "text": "In firewall, we saw strength across hardware and software"
+    },
+    {
+     "t0_ms": 1010620,
+     "text": "with trailing 12-month bookings up 28% year-over-year."
+    },
+    {
+     "t0_ms": 1015000,
+     "text": "We are continuing to gain share"
+    },
+    {
+     "t0_ms": 1016920,
+     "text": "as the desire for unified visibility and prevention"
+    },
+    {
+     "t0_ms": 1020020,
+     "text": "is driving vendor consolidation within our customer base."
+    },
+    {
+     "t0_ms": 1024700,
+     "text": "Software firewall ARR accelerated"
+    },
+    {
+     "t0_ms": 1026579,
+     "text": "for the third consecutive quarter"
+    },
+    {
+     "t0_ms": 1028280,
+     "text": "and grew 34% year-over-year."
+    },
+    {
+     "t0_ms": 1030900,
+     "text": "This was largely driven by Prisma RAS,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1033380,
+   "t1_ms": 1077310,
+   "speaker": "Management",
+   "text": "which continues to be our fastest-growing product, reaching nearly $170 million in ARR. Turning to Cortex, our security operations and observability platform, Q1 revenue grew 53% year-over-year and 40% year-over-year on a pro forma basis. XIAM ARR grew over 65% year-over-year to approximately $800 million as customers prioritized their SOC modernization projects to combat the heightened threat environment driven by AI. Furthermore, our observability platform, recently relaunched as Cortex-XCore, continued its strong growth. ARR was up approximately four times year over year,",
+   "parts": [
+    {
+     "t0_ms": 1033380,
+     "text": "which continues to be our fastest-growing product, reaching nearly $170 million in ARR."
+    },
+    {
+     "t0_ms": 1041109,
+     "text": "Turning to Cortex, our security operations and observability platform,"
+    },
+    {
+     "t0_ms": 1045630,
+     "text": "Q1 revenue grew 53% year-over-year and 40% year-over-year on a pro forma basis."
+    },
+    {
+     "t0_ms": 1052530,
+     "text": "XIAM ARR grew over 65% year-over-year to approximately $800 million"
+    },
+    {
+     "t0_ms": 1058190,
+     "text": "as customers prioritized their SOC modernization projects"
+    },
+    {
+     "t0_ms": 1061930,
+     "text": "to combat the heightened threat environment driven by AI."
+    },
+    {
+     "t0_ms": 1066470,
+     "text": "Furthermore, our observability platform,"
+    },
+    {
+     "t0_ms": 1068930,
+     "text": "recently relaunched as Cortex-XCore,"
+    },
+    {
+     "t0_ms": 1072090,
+     "text": "continued its strong growth."
+    },
+    {
+     "t0_ms": 1074390,
+     "text": "ARR was up approximately four times year over year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1077310,
+   "t1_ms": 1122110,
+   "speaker": "Management",
+   "text": "and as we commented last quarter, that includes an approximately nine figures of net new ARR from a large Frontier Lab customer migrating to Chronosphere from an incumbent provider. In IDERA, our identity security platform, Q1 revenue grew 23% year-over-year on a pro-forma basis. We continue to see strong go-to-market collaboration between our core sales team and IDERA. In Q1, this resulted in over 100 net new logo wins for IDERA, which came from our existing core install base, representing our largest number of cross-sell wins since the acquisition closed. we're also seeing synergies strong synergies on the bottom line as a reminder when we announced",
+   "parts": [
+    {
+     "t0_ms": 1077310,
+     "text": "and as we commented last quarter,"
+    },
+    {
+     "t0_ms": 1079690,
+     "text": "that includes an approximately nine figures of net new ARR"
+    },
+    {
+     "t0_ms": 1083330,
+     "text": "from a large Frontier Lab customer"
+    },
+    {
+     "t0_ms": 1085590,
+     "text": "migrating to Chronosphere from an incumbent provider."
+    },
+    {
+     "t0_ms": 1088610,
+     "text": "In IDERA, our identity security platform, Q1 revenue grew 23% year-over-year on a pro-forma basis."
+    },
+    {
+     "t0_ms": 1097710,
+     "text": "We continue to see strong go-to-market collaboration between our core sales team and IDERA."
+    },
+    {
+     "t0_ms": 1103570,
+     "text": "In Q1, this resulted in over 100 net new logo wins for IDERA, which came from our existing core install base,"
+    },
+    {
+     "t0_ms": 1111670,
+     "text": "representing our largest number of cross-sell wins since the acquisition closed."
+    },
+    {
+     "t0_ms": 1115490,
+     "text": "we're also seeing synergies strong synergies on the bottom line as a reminder when we announced"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1122110,
+   "t1_ms": 1162020,
+   "speaker": "Management",
+   "text": "the acquisition we targeted idea operating margin converging with our core business within 18 to 24 months post-close and on track to do that in approximately half the time from a geographic perspective we saw broad-based strength america's grew 42 percent year-over-year emir grew 40 percent year-over-year and JPAC grew 26% year-over-year. Complementing our record top-line performance in Q1 was our continued focus on profitable growth. This discipline yielded continued operating leverage year-over-year, reinforcing our confidence in our margin guidance targets",
+   "parts": [
+    {
+     "t0_ms": 1122110,
+     "text": "the acquisition we targeted idea operating margin converging with our core business within 18 to 24"
+    },
+    {
+     "t0_ms": 1128410,
+     "text": "months post-close and on track to do that in approximately half the time from a geographic"
+    },
+    {
+     "t0_ms": 1135650,
+     "text": "perspective we saw broad-based strength america's grew 42 percent year-over-year emir grew 40 percent"
+    },
+    {
+     "t0_ms": 1142230,
+     "text": "year-over-year and JPAC grew 26% year-over-year. Complementing our record top-line performance"
+    },
+    {
+     "t0_ms": 1150400,
+     "text": "in Q1 was our continued focus on profitable growth. This discipline yielded continued"
+    },
+    {
+     "t0_ms": 1157140,
+     "text": "operating leverage year-over-year, reinforcing our confidence in our margin guidance targets"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1162020,
+   "t1_ms": 1204140,
+   "speaker": "Management",
+   "text": "for the full year. Our scale, our diversified business model helps us mitigate gross margin headwinds, and we continue to deliver gross margin in the mid-70% range. In Q1, our total gross margin was 75.2%, down 170 basis points year-over-year. As we noted last quarter, we continue to actively manage multiple factors impacting our gross margin over the near to medium term. First, we are seeing industry-wide elevated component costs within our hardware business, which we're proactively leveraging our scale and strategic supplier relationships. While hardware represents approximately 10% of our total revenue, we expect the elevated",
+   "parts": [
+    {
+     "t0_ms": 1162020,
+     "text": "for the full year. Our scale, our diversified business model helps us mitigate gross margin"
+    },
+    {
+     "t0_ms": 1167880,
+     "text": "headwinds, and we continue to deliver gross margin in the mid-70% range. In Q1, our total"
+    },
+    {
+     "t0_ms": 1174560,
+     "text": "gross margin was 75.2%, down 170 basis points year-over-year. As we noted last quarter, we"
+    },
+    {
+     "t0_ms": 1181920,
+     "text": "continue to actively manage multiple factors impacting our gross margin over the near to"
+    },
+    {
+     "t0_ms": 1186940,
+     "text": "medium term. First, we are seeing industry-wide elevated component costs within our hardware"
+    },
+    {
+     "t0_ms": 1193060,
+     "text": "business, which we're proactively leveraging our scale and strategic supplier relationships."
+    },
+    {
+     "t0_ms": 1198360,
+     "text": "While hardware represents approximately 10% of our total revenue, we expect the elevated"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1204140,
+   "t1_ms": 1248300,
+   "speaker": "Management",
+   "text": "component costs to impact our gross margins throughout the course of the fiscal year. Second, our gross margins are impacted by a greater mix of higher growth SaaS offerings that are earlier in their maturity curve. This is particularly true for the Cortex segment, where we are seeing our XAM and observability business grow rapidly as we focus on taking share. Additionally, our ongoing Prisma to Cortex crowd migration remains a temporary drag on our segment margins. Given the migration and shifting product mix, we expect our gross margin in Cortex to remain below our overall company average over the medium term before returning to 70% plus gross margins longer term. From an operating margin",
+   "parts": [
+    {
+     "t0_ms": 1204140,
+     "text": "component costs to impact our gross margins throughout the course of the fiscal year."
+    },
+    {
+     "t0_ms": 1208900,
+     "text": "Second, our gross margins are impacted by a greater mix of higher growth SaaS offerings"
+    },
+    {
+     "t0_ms": 1214100,
+     "text": "that are earlier in their maturity curve."
+    },
+    {
+     "t0_ms": 1217020,
+     "text": "This is particularly true for the Cortex segment, where we are seeing our XAM and observability"
+    },
+    {
+     "t0_ms": 1222680,
+     "text": "business grow rapidly as we focus on taking share. Additionally, our ongoing Prisma to Cortex"
+    },
+    {
+     "t0_ms": 1228760,
+     "text": "crowd migration remains a temporary drag on our segment margins. Given the migration and shifting"
+    },
+    {
+     "t0_ms": 1234840,
+     "text": "product mix, we expect our gross margin in Cortex to remain below our overall company average over"
+    },
+    {
+     "t0_ms": 1240980,
+     "text": "the medium term before returning to 70% plus gross margins longer term. From an operating margin"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1248300,
+   "t1_ms": 1291520,
+   "speaker": "Management",
+   "text": "standpoint, we continue to offset higher COGS with improving OPEX leverage as we scale efficiency. In Q1, our non-gap operating margin was 30.7%, a 50 basis point increase year over year, despite higher costs related to M&A and gross margin impacts. We are also driving a number of AI efficiency plays targeted in areas across our business. As an example, this includes our AI quoting efforts to accelerate our time to close in an effort to drive higher sales productivity, in addition worth driving AI efficiencies in procurement, and have already identified significant savings through our vendor rationalization efforts. Turning to the bottom",
+   "parts": [
+    {
+     "t0_ms": 1248300,
+     "text": "standpoint, we continue to offset higher COGS with improving OPEX leverage as we scale efficiency."
+    },
+    {
+     "t0_ms": 1254840,
+     "text": "In Q1, our non-gap operating margin was 30.7%, a 50 basis point increase year over year,"
+    },
+    {
+     "t0_ms": 1262220,
+     "text": "despite higher costs related to M&A and gross margin impacts. We are also driving a number of"
+    },
+    {
+     "t0_ms": 1268600,
+     "text": "AI efficiency plays targeted in areas across our business. As an example, this includes our AI"
+    },
+    {
+     "t0_ms": 1275480,
+     "text": "quoting efforts to accelerate our time to close in an effort to drive higher sales productivity,"
+    },
+    {
+     "t0_ms": 1281660,
+     "text": "in addition worth driving AI efficiencies in procurement, and have already identified"
+    },
+    {
+     "t0_ms": 1286220,
+     "text": "significant savings through our vendor rationalization efforts. Turning to the bottom"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1291520,
+   "t1_ms": 1329580,
+   "speaker": "Management",
+   "text": "line, non-GAAP diluted EPS was $1.05, up 13% year-over-year, beating guidance by $0.08, while GAAP EPS was $0.57, up 21% year-over-year. Our improving profitability contributed to strong Q1 cash generation with adjusted free cash flow of $1.9 billion, representing a 56% margin. Regarding capital allocation, we had no share repurchases in the quarter, and our approach continues to be opportunistic. We continue to have authorization of up to $1 billion,",
+   "parts": [
+    {
+     "t0_ms": 1291520,
+     "text": "line, non-GAAP diluted EPS was $1.05, up 13% year-over-year, beating guidance by $0.08,"
+    },
+    {
+     "t0_ms": 1300100,
+     "text": "while GAAP EPS was $0.57, up 21% year-over-year."
+    },
+    {
+     "t0_ms": 1308100,
+     "text": "Our improving profitability contributed to strong Q1 cash generation"
+    },
+    {
+     "t0_ms": 1312180,
+     "text": "with adjusted free cash flow of $1.9 billion, representing a 56% margin."
+    },
+    {
+     "t0_ms": 1319340,
+     "text": "Regarding capital allocation, we had no share repurchases in the quarter,"
+    },
+    {
+     "t0_ms": 1324080,
+     "text": "and our approach continues to be opportunistic."
+    },
+    {
+     "t0_ms": 1326300,
+     "text": "We continue to have authorization of up to $1 billion,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1330100,
+   "t1_ms": 1370050,
+   "speaker": "Management",
+   "text": "in share repurchase until december 2027. our overall performance is the direct result of our continued focus on innovation through organic investments and targeted m a we strive to continually stay ahead of technology inflections and anticipate our customers needs years in advance as nikesh noted earlier we're excited to announce our intent to acquire applied compute to position ourselves as the pioneer in delivering secure ai the total consideration is 4.5 billion dollars paid entirely in stock and we expect to close in our third quarter of fiscal 27.",
+   "parts": [
+    {
+     "t0_ms": 1330100,
+     "text": "in share repurchase until december 2027. our overall performance is the direct result of"
+    },
+    {
+     "t0_ms": 1338290,
+     "text": "our continued focus on innovation through organic investments and targeted m a we strive to"
+    },
+    {
+     "t0_ms": 1344290,
+     "text": "continually stay ahead of technology inflections and anticipate our customers needs years in"
+    },
+    {
+     "t0_ms": 1349970,
+     "text": "advance as nikesh noted earlier we're excited to announce our intent to acquire applied"
+    },
+    {
+     "t0_ms": 1355970,
+     "text": "compute to position ourselves as the pioneer in delivering secure ai the total consideration is"
+    },
+    {
+     "t0_ms": 1363010,
+     "text": "4.5 billion dollars paid entirely in stock and we expect to close in our third quarter of fiscal 27."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1371010,
+   "t1_ms": 1414530,
+   "speaker": "Management",
+   "text": "the acquisition includes approximately 500 million in cash and prepaid compute commitments owned by applied compute the company has already achieved impressive growth reaching 100 million dollars in annualized revenue within 18 months of their founding this transaction will be top line growth accretive from day one and we expect this to scale the business to add a billion dollars in ngs arr by fiscal year 29. longer term we believe this is our next multi-billion dollar arr business and positions us up to be at the frontier of ai security while we expect our compute needs will grow to deliver secure post-training and inference for our customers we intend to remain capital",
+   "parts": [
+    {
+     "t0_ms": 1371010,
+     "text": "the acquisition includes approximately 500 million in cash and prepaid compute commitments owned by"
+    },
+    {
+     "t0_ms": 1376850,
+     "text": "applied compute the company has already achieved impressive growth reaching 100 million dollars"
+    },
+    {
+     "t0_ms": 1383010,
+     "text": "in annualized revenue within 18 months of their founding this transaction will be top line growth"
+    },
+    {
+     "t0_ms": 1388930,
+     "text": "accretive from day one and we expect this to scale the business to add a billion dollars in ngs arr"
+    },
+    {
+     "t0_ms": 1394930,
+     "text": "by fiscal year 29. longer term we believe this is our next multi-billion dollar arr business"
+    },
+    {
+     "t0_ms": 1402770,
+     "text": "and positions us up to be at the frontier of ai security while we expect our compute needs will"
+    },
+    {
+     "t0_ms": 1409010,
+     "text": "grow to deliver secure post-training and inference for our customers we intend to remain capital"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1414530,
+   "t1_ms": 1451330,
+   "speaker": "Management",
+   "text": "light and will maintain strong free cash flow margins through and beyond the capex cycle to meet our compute needs we will continue to source from our cloud partners and over time our dedicated capacity of our own that investment will mostly go to gpus and servers with a smaller share in the facilities that house them we intend to build our capacity in stages against demand we have visibility into. In total, we anticipate our cumulative CapEx needs through fiscal 2030 to be less than $3 billion, which is approximately half of our expected free cash flow this year.",
+   "parts": [
+    {
+     "t0_ms": 1414530,
+     "text": "light and will maintain strong free cash flow margins through and beyond the capex cycle"
+    },
+    {
+     "t0_ms": 1421330,
+     "text": "to meet our compute needs we will continue to source from our cloud partners and over time"
+    },
+    {
+     "t0_ms": 1426850,
+     "text": "our dedicated capacity of our own that investment will mostly go to gpus and servers with a smaller"
+    },
+    {
+     "t0_ms": 1433170,
+     "text": "share in the facilities that house them we intend to build our capacity in stages against demand"
+    },
+    {
+     "t0_ms": 1438930,
+     "text": "we have visibility into. In total, we anticipate our cumulative CapEx needs through fiscal 2030"
+    },
+    {
+     "t0_ms": 1445230,
+     "text": "to be less than $3 billion, which is approximately half of our expected free cash flow this year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1453190,
+   "t1_ms": 1495630,
+   "speaker": "Management",
+   "text": "Assuming a Q3 27 close, we expect the transaction to lower our operating margin by up to 100 basis points in fiscal 27 and up to 200 basis points in fiscal 28 before returning to our current 29% 30% operating margin in 29. Lastly, from a free cash flow perspective, we expect to maintain 38% plus margins, excluding data center capex in fiscal 28 and beyond. We will provide more details and precise modeling points once we close the transactions. With that, I will turn to guidance. Our guidance is for standalone Palo Alto networks excluding the pending applied compute",
+   "parts": [
+    {
+     "t0_ms": 1453190,
+     "text": "Assuming a Q3 27 close, we expect the transaction to lower our operating margin by up to 100 basis"
+    },
+    {
+     "t0_ms": 1459850,
+     "text": "points in fiscal 27 and up to 200 basis points in fiscal 28 before returning to our current 29%"
+    },
+    {
+     "t0_ms": 1466750,
+     "text": "30% operating margin in 29. Lastly, from a free cash flow perspective, we expect to maintain"
+    },
+    {
+     "t0_ms": 1474430,
+     "text": "38% plus margins, excluding data center capex in fiscal 28 and beyond. We will provide more"
+    },
+    {
+     "t0_ms": 1482670,
+     "text": "details and precise modeling points once we close the transactions. With that, I will turn to"
+    },
+    {
+     "t0_ms": 1489390,
+     "text": "guidance. Our guidance is for standalone Palo Alto networks excluding the pending applied compute"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1495630,
+   "t1_ms": 1537190,
+   "speaker": "Management",
+   "text": "acquisition for the fiscal second quarter 2027 we expect ngs ar between 10.2 to 10.22 billion dollars or 61 growth rpo between 21.5 to 21.6 billion dollars or 35 to 30 34 to 35 percent growth revenue between 3.53 billion to 3.55 billion or 36 to 37 percent growth Our fully diluted share count between 837 to 842 million shares and our diluted non-gap EPS in the range of 1.01 cents to 1.03 cents.",
+   "parts": [
+    {
+     "t0_ms": 1495630,
+     "text": "acquisition for the fiscal second quarter 2027 we expect ngs ar between 10.2 to 10.22 billion dollars"
+    },
+    {
+     "t0_ms": 1505710,
+     "text": "or 61 growth rpo between 21.5 to 21.6 billion dollars or 35 to 30 34 to 35 percent growth"
+    },
+    {
+     "t0_ms": 1516830,
+     "text": "revenue between 3.53 billion to 3.55 billion or 36 to 37 percent growth"
+    },
+    {
+     "t0_ms": 1524030,
+     "text": "Our fully diluted share count between 837 to 842 million shares and our diluted non-gap EPS in the range of 1.01 cents to 1.03 cents."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1537190,
+   "t1_ms": 1578090,
+   "speaker": "Management",
+   "text": "For the fiscal year 2027, we expect NGS ARR between $11.475 billion to $11.52 billion, or 26% to 27% growth, RPO between $25.3 billion to $25.5 billion, or 19% to 20% growth, revenue between 14.52 billion to 14.57 billion dollars or 26 to 27 percent growth our operating margin of 29.5 percent diluted non-gap eps in the range of 4.26 to 4.30 dollars and our fully",
+   "parts": [
+    {
+     "t0_ms": 1537190,
+     "text": "For the fiscal year 2027, we expect NGS ARR between $11.475 billion to $11.52 billion, or 26% to 27% growth, RPO between $25.3 billion to $25.5 billion, or 19% to 20% growth,"
+    },
+    {
+     "t0_ms": 1559130,
+     "text": "revenue between 14.52 billion to 14.57 billion dollars or 26 to 27 percent growth our operating"
+    },
+    {
+     "t0_ms": 1568650,
+     "text": "margin of 29.5 percent diluted non-gap eps in the range of 4.26 to 4.30 dollars and our fully"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1578090,
+   "t1_ms": 1598410,
+   "speaker": "Management",
+   "text": "diluted share count between 844 to 847 million shares we expect our adjusted free cash flow margin of 38%. With that, I will turn it back over to Hamza for Q&A. All right. Thank you,",
+   "parts": [
+    {
+     "t0_ms": 1578090,
+     "text": "diluted share count between 844 to 847 million shares we expect our adjusted free cash flow"
+    },
+    {
+     "t0_ms": 1585410,
+     "text": "margin of 38%. With that, I will turn it back over to Hamza for Q&A. All right. Thank you,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1598450,
+   "t1_ms": 1603610,
+   "speaker": "Operator",
+   "text": "Deepak. For our first question, we'll go to Saket Kalia from Barclays, followed by Brian",
+   "parts": [
+    {
+     "t0_ms": 1598450,
+     "text": "Deepak. For our first question, we'll go to Saket Kalia from Barclays, followed by Brian"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1603610,
+   "t1_ms": 1641670,
+   "speaker": "Analyst",
+   "text": "Essex from JP Morgan. Okay, great. Hey, guys, thanks for taking my question here. And congrats on a super strong start to the year. Really great to see. Nikesh, maybe for you, you've talked about the trillion dollars of tech debt for some time now. And maybe that feels even more relevant, just given the outages that we've seen. Based on some of your recent customer conversations, where are CEOs and CIOs going to focus that modernization on most in 2027, as the new threat environment gets clearly more active? Okay, thanks for the question. Look, first and foremost,",
+   "parts": [
+    {
+     "t0_ms": 1603610,
+     "text": "Essex from JP Morgan. Okay, great. Hey, guys, thanks for taking my question here. And congrats"
+    },
+    {
+     "t0_ms": 1609530,
+     "text": "on a super strong start to the year. Really great to see. Nikesh, maybe for you, you've talked about"
+    },
+    {
+     "t0_ms": 1617590,
+     "text": "the trillion dollars of tech debt for some time now. And maybe that feels even more relevant,"
+    },
+    {
+     "t0_ms": 1623650,
+     "text": "just given the outages that we've seen. Based on some of your recent customer conversations,"
+    },
+    {
+     "t0_ms": 1629290,
+     "text": "where are CEOs and CIOs going to focus that modernization on most in 2027, as the new"
+    },
+    {
+     "t0_ms": 1635550,
+     "text": "threat environment gets clearly more active? Okay, thanks for the question. Look, first and foremost,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1642530,
+   "t1_ms": 1684090,
+   "speaker": "Management",
+   "text": "we're seeing a lot of interest in frontier AI defense. Almost every company is making sure that they're testing their infrastructure with pen testing, red teaming, to make sure that all these new AI capabilities, they can inflict upon themselves before bad actors inflict on them. I think the challenge, as we highlighted right now, is that there are so many vulnerabilities being discovered on a daily basis that it's impossible for enterprises to patch them. So I think a bit of them are caught in the current sort of crisis of the moment, the short term. There are people who are beginning to think about how does that impact their long-term architecture. And you can see that that's reflected in the way we talk to our platformizations.",
+   "parts": [
+    {
+     "t0_ms": 1642530,
+     "text": "we're seeing a lot of interest in frontier AI defense."
+    },
+    {
+     "t0_ms": 1646750,
+     "text": "Almost every company is making sure that they're testing their infrastructure"
+    },
+    {
+     "t0_ms": 1652550,
+     "text": "with pen testing, red teaming, to make sure that all these new AI capabilities,"
+    },
+    {
+     "t0_ms": 1658010,
+     "text": "they can inflict upon themselves before bad actors inflict on them."
+    },
+    {
+     "t0_ms": 1661390,
+     "text": "I think the challenge, as we highlighted right now,"
+    },
+    {
+     "t0_ms": 1664570,
+     "text": "is that there are so many vulnerabilities being discovered on a daily basis"
+    },
+    {
+     "t0_ms": 1668590,
+     "text": "that it's impossible for enterprises to patch them."
+    },
+    {
+     "t0_ms": 1671410,
+     "text": "So I think a bit of them are caught in the current sort of crisis of the moment, the short term."
+    },
+    {
+     "t0_ms": 1676630,
+     "text": "There are people who are beginning to think about how does that impact their long-term architecture."
+    },
+    {
+     "t0_ms": 1681050,
+     "text": "And you can see that that's reflected in the way we talk to our platformizations."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1684090,
+   "t1_ms": 1703450,
+   "speaker": "Management",
+   "text": "We've done 170 this quarter, which means people say, listen, I cannot manage a fragmented infrastructure. How do we get all this stuff put together? The problem is whatever they do today is going to take three to six months, maybe nine months, depending on how complex and how tired their environment is. So they're all embarking on that journey. And I think we're going to see more of that over the next foreseeable future.",
+   "parts": [
+    {
+     "t0_ms": 1684090,
+     "text": "We've done 170 this quarter, which means people say, listen, I cannot manage a fragmented infrastructure."
+    },
+    {
+     "t0_ms": 1689570,
+     "text": "How do we get all this stuff put together?"
+    },
+    {
+     "t0_ms": 1691310,
+     "text": "The problem is whatever they do today is going to take three to six months, maybe nine months, depending on how complex and how tired their environment is."
+    },
+    {
+     "t0_ms": 1697990,
+     "text": "So they're all embarking on that journey."
+    },
+    {
+     "t0_ms": 1699830,
+     "text": "And I think we're going to see more of that over the next foreseeable future."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1704810,
+   "t1_ms": 1715310,
+   "speaker": "Operator",
+   "text": "Very helpful. Congrats, Ken. All right. Thank you, Socket. Next, we'll go to Brian Essex from J.P. Morgan, followed by Rob Owens from Piper Sandler.",
+   "parts": [
+    {
+     "t0_ms": 1704810,
+     "text": "Very helpful. Congrats, Ken."
+    },
+    {
+     "t0_ms": 1708370,
+     "text": "All right. Thank you, Socket."
+    },
+    {
+     "t0_ms": 1710290,
+     "text": "Next, we'll go to Brian Essex from J.P. Morgan, followed by Rob Owens from Piper Sandler."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1716490,
+   "t1_ms": 1736850,
+   "speaker": "Analyst",
+   "text": "I thank you, Hamza. Thank you for taking the question. Nikesh, for you, it would love to, you know, really interesting to see the acquisition. We'd love to understand conversations with customers you've had that led to your interest in sovereign AI. and maybe the nature of those conversations and how you're approaching AI sovereignty?",
+   "parts": [
+    {
+     "t0_ms": 1716490,
+     "text": "I thank you, Hamza. Thank you for taking the question."
+    },
+    {
+     "t0_ms": 1719390,
+     "text": "Nikesh, for you, it would love to, you know, really interesting to see the acquisition."
+    },
+    {
+     "t0_ms": 1723090,
+     "text": "We'd love to understand conversations with customers you've had that led to your interest in sovereign AI."
+    },
+    {
+     "t0_ms": 1730430,
+     "text": "and maybe the nature of those conversations"
+    },
+    {
+     "t0_ms": 1732730,
+     "text": "and how you're approaching AI sovereignty?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1738070,
+   "t1_ms": 1781830,
+   "speaker": "Management",
+   "text": "That's a good question, Brian. Look, we started this journey where we said, you know, we have built Prisma Air. So what Prisma Air does is it gives you visibility, shows you all the AI artifacts that you have in enterprise. That's easy to do. That's kind of deterministic. You can find it. It's discrete. Then we started to say, can we bring all the traffic so we can build an enforcement point and stop all this activity, bad activity from happening? and we figured out the common techniques of LLM sort of hacking through prompt injection, et cetera, and we built controls against that. That was also okay. When the Hugging Face incident happened, it made us realize that we need to build something other than deterministic controls to intercept AI because deterministic controls cannot anticipate every scenario that an agent is going to conduct,",
+   "parts": [
+    {
+     "t0_ms": 1738070,
+     "text": "That's a good question, Brian."
+    },
+    {
+     "t0_ms": 1739170,
+     "text": "Look, we started this journey where we said,"
+    },
+    {
+     "t0_ms": 1742550,
+     "text": "you know, we have built Prisma Air."
+    },
+    {
+     "t0_ms": 1743850,
+     "text": "So what Prisma Air does is it gives you visibility,"
+    },
+    {
+     "t0_ms": 1745870,
+     "text": "shows you all the AI artifacts that you have in enterprise."
+    },
+    {
+     "t0_ms": 1748550,
+     "text": "That's easy to do."
+    },
+    {
+     "t0_ms": 1749810,
+     "text": "That's kind of deterministic."
+    },
+    {
+     "t0_ms": 1751010,
+     "text": "You can find it."
+    },
+    {
+     "t0_ms": 1751770,
+     "text": "It's discrete."
+    },
+    {
+     "t0_ms": 1753190,
+     "text": "Then we started to say, can we bring all the traffic"
+    },
+    {
+     "t0_ms": 1755010,
+     "text": "so we can build an enforcement point"
+    },
+    {
+     "t0_ms": 1756330,
+     "text": "and stop all this activity, bad activity from happening?"
+    },
+    {
+     "t0_ms": 1758810,
+     "text": "and we figured out the common techniques of LLM sort of hacking"
+    },
+    {
+     "t0_ms": 1762550,
+     "text": "through prompt injection, et cetera, and we built controls against that."
+    },
+    {
+     "t0_ms": 1765310,
+     "text": "That was also okay."
+    },
+    {
+     "t0_ms": 1767490,
+     "text": "When the Hugging Face incident happened, it made us realize"
+    },
+    {
+     "t0_ms": 1771310,
+     "text": "that we need to build something other than deterministic controls"
+    },
+    {
+     "t0_ms": 1774430,
+     "text": "to intercept AI because deterministic controls cannot anticipate"
+    },
+    {
+     "t0_ms": 1778890,
+     "text": "every scenario that an agent is going to conduct,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1781910,
+   "t1_ms": 1825590,
+   "speaker": "Management",
+   "text": "every deception that it's going to try and do. We figured that it was not just a moniker to say fight AI with AI. We actually would have to have an LLM trained to interpret, understand, and stop AI from misbehaving. And as we went down that journey, we started looking at, well, how do we go ahead and train models for ourselves? And we went on a journey to look for multiple companies to see who could do it, and we looked at the capabilities across the market, and Applied Compute stood out. And then we came to the conclusion that as we train our models for enterprise applications, you will have to train a supervisory AI model at the same time. So it's almost like having AI, build AI and have built AI that watches this AI. You can't do it independently.",
+   "parts": [
+    {
+     "t0_ms": 1781910,
+     "text": "every deception that it's going to try and do."
+    },
+    {
+     "t0_ms": 1783850,
+     "text": "We figured that it was not just a moniker to say fight AI with AI."
+    },
+    {
+     "t0_ms": 1787310,
+     "text": "We actually would have to have an LLM trained to interpret, understand, and stop AI from misbehaving."
+    },
+    {
+     "t0_ms": 1797410,
+     "text": "And as we went down that journey, we started looking at, well, how do we go ahead and train models for ourselves?"
+    },
+    {
+     "t0_ms": 1802630,
+     "text": "And we went on a journey to look for multiple companies to see who could do it,"
+    },
+    {
+     "t0_ms": 1805450,
+     "text": "and we looked at the capabilities across the market, and Applied Compute stood out."
+    },
+    {
+     "t0_ms": 1809690,
+     "text": "And then we came to the conclusion that as we train our models for enterprise applications,"
+    },
+    {
+     "t0_ms": 1814390,
+     "text": "you will have to train a supervisory AI model at the same time."
+    },
+    {
+     "t0_ms": 1818570,
+     "text": "So it's almost like having AI, build AI and have built AI that watches this AI."
+    },
+    {
+     "t0_ms": 1824510,
+     "text": "You can't do it independently."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1826070,
+   "t1_ms": 1869050,
+   "speaker": "Management",
+   "text": "I cannot go in and intercept and understand somebody else's application because I don't know how it's supposed to behave because I didn't train it. So imagine if you can train your application and have the same team train something that supervises your application, I think that's the future of AI security. So in that context, we have to get in the training business to be able to build a good supervision business. And that's our bet. And we were delighted the Applied Compute team thought that was the right idea. We're excited at what got the deal sort of done and announced today. And I think it's going to be a huge opportunity. In fact, while I'm sitting here, I had a CEO text me saying he met them this morning and he's really excited now that their concern would have been how do we go to a small team of 100 people and trust our large enterprise application on them. Now they feel with Palo Alto behind them,",
+   "parts": [
+    {
+     "t0_ms": 1826070,
+     "text": "I cannot go in and intercept and understand somebody else's application"
+    },
+    {
+     "t0_ms": 1829790,
+     "text": "because I don't know how it's supposed to behave because I didn't train it."
+    },
+    {
+     "t0_ms": 1833550,
+     "text": "So imagine if you can train your application and have the same team train something"
+    },
+    {
+     "t0_ms": 1837610,
+     "text": "that supervises your application, I think that's the future of AI security."
+    },
+    {
+     "t0_ms": 1841650,
+     "text": "So in that context, we have to get in the training business"
+    },
+    {
+     "t0_ms": 1843990,
+     "text": "to be able to build a good supervision business."
+    },
+    {
+     "t0_ms": 1846630,
+     "text": "And that's our bet."
+    },
+    {
+     "t0_ms": 1847890,
+     "text": "And we were delighted the Applied Compute team thought that was the right idea."
+    },
+    {
+     "t0_ms": 1851810,
+     "text": "We're excited at what got the deal sort of done and announced today."
+    },
+    {
+     "t0_ms": 1855470,
+     "text": "And I think it's going to be a huge opportunity."
+    },
+    {
+     "t0_ms": 1856830,
+     "text": "In fact, while I'm sitting here, I had a CEO text me saying he met them this morning"
+    },
+    {
+     "t0_ms": 1859830,
+     "text": "and he's really excited now that their concern would have been"
+    },
+    {
+     "t0_ms": 1862770,
+     "text": "how do we go to a small team of 100 people"
+    },
+    {
+     "t0_ms": 1865130,
+     "text": "and trust our large enterprise application on them."
+    },
+    {
+     "t0_ms": 1867310,
+     "text": "Now they feel with Palo Alto behind them,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1869050,
+   "t1_ms": 1881390,
+   "speaker": "Management",
+   "text": "they can rest assured that this is going to be a long-term play for them. So I'm very excited. Hopefully this is the right bet for us. And if it works, I think this will dwarf the ability that we have in cybersecurity. This could be bigger than what we do today.",
+   "parts": [
+    {
+     "t0_ms": 1869050,
+     "text": "they can rest assured that this is going to be a long-term play for them."
+    },
+    {
+     "t0_ms": 1871950,
+     "text": "So I'm very excited."
+    },
+    {
+     "t0_ms": 1873750,
+     "text": "Hopefully this is the right bet for us."
+    },
+    {
+     "t0_ms": 1875130,
+     "text": "And if it works, I think this will dwarf the ability that we have in cybersecurity."
+    },
+    {
+     "t0_ms": 1879910,
+     "text": "This could be bigger than what we do today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1882190,
+   "t1_ms": 1911510,
+   "speaker": "Operator",
+   "text": "Great. I have follow-ups, but I'll leave it for later. Thank you. Thank you, Brian. Next, we'll go to Rob Owens from Piper Sandler, followed by Mita Marshall from Morgan Stanley. Rob, you're on? Okay. Mita will go to the next person in the queue. We'll go to Mita Marshall from Morgan Stanley, followed by Patrick Colville from Scotiabank.",
+   "parts": [
+    {
+     "t0_ms": 1882190,
+     "text": "Great. I have follow-ups, but I'll leave it for later."
+    },
+    {
+     "t0_ms": 1884010,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 1885430,
+     "text": "Thank you, Brian."
+    },
+    {
+     "t0_ms": 1886670,
+     "text": "Next, we'll go to Rob Owens from Piper Sandler,"
+    },
+    {
+     "t0_ms": 1888970,
+     "text": "followed by Mita Marshall from Morgan Stanley."
+    },
+    {
+     "t0_ms": 1902090,
+     "text": "Rob, you're on?"
+    },
+    {
+     "t0_ms": 1903350,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 1905070,
+     "text": "Mita will go to the next person in the queue."
+    },
+    {
+     "t0_ms": 1906890,
+     "text": "We'll go to Mita Marshall from Morgan Stanley,"
+    },
+    {
+     "t0_ms": 1909130,
+     "text": "followed by Patrick Colville from Scotiabank."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1913090,
+   "t1_ms": 1947130,
+   "speaker": "Analyst",
+   "text": "Great. Thanks for the question. Maybe I just wanted to ask, Nikesh, how you think customers are handling the fact that some of this virtual patching or accelerated patching is clearly causing more outages, just as there are errors kind of as they bring some of this online. So do you see kind of a slowdown? Do you see some form of grouping? Do you see more kind of services involvement? Just how do you see kind of the pickup and outages changing how the patching process is going to go?",
+   "parts": [
+    {
+     "t0_ms": 1913090,
+     "text": "Great. Thanks for the question."
+    },
+    {
+     "t0_ms": 1915510,
+     "text": "Maybe I just wanted to ask, Nikesh,"
+    },
+    {
+     "t0_ms": 1918010,
+     "text": "how you think customers are handling the fact"
+    },
+    {
+     "t0_ms": 1922090,
+     "text": "that some of this virtual patching or accelerated patching"
+    },
+    {
+     "t0_ms": 1925050,
+     "text": "is clearly causing more outages,"
+    },
+    {
+     "t0_ms": 1928610,
+     "text": "just as there are errors kind of as they bring some of this online."
+    },
+    {
+     "t0_ms": 1933150,
+     "text": "So do you see kind of a slowdown?"
+    },
+    {
+     "t0_ms": 1935550,
+     "text": "Do you see some form of grouping?"
+    },
+    {
+     "t0_ms": 1939290,
+     "text": "Do you see more kind of services involvement?"
+    },
+    {
+     "t0_ms": 1941550,
+     "text": "Just how do you see kind of the pickup and outages changing how the patching process"
+    },
+    {
+     "t0_ms": 1946430,
+     "text": "is going to go?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1949550,
+   "t1_ms": 1994530,
+   "speaker": "Management",
+   "text": "Thank you, Nikesh. Thank you for the question. Let me first separate the two things that you just mentioned. The virtual patching is actually the solution to the challenges associated with patching too quickly and some of the operational impact that comes with that. So take a step back. All of the vulnerabilities that are being found by AI is creating this new wave of patches. That wave of patches then drives the operational challenge of how fast can companies patch everything that they have. And that is what is putting the strain on operations teams. And that is what then leads to some of the types of outages we've been seeing recently is just organizations trying to move too fast on applying the patches.",
+   "parts": [
+    {
+     "t0_ms": 1949550,
+     "text": "Thank you, Nikesh."
+    },
+    {
+     "t0_ms": 1950830,
+     "text": "Thank you for the question."
+    },
+    {
+     "t0_ms": 1952510,
+     "text": "Let me first separate the two things that you just mentioned."
+    },
+    {
+     "t0_ms": 1955130,
+     "text": "The virtual patching is actually the solution to the challenges associated with patching"
+    },
+    {
+     "t0_ms": 1960790,
+     "text": "too quickly and some of the operational impact that comes with that."
+    },
+    {
+     "t0_ms": 1964790,
+     "text": "So take a step back. All of the vulnerabilities that are being found by AI is creating this new wave of patches. That wave of patches then drives the operational challenge of how fast can companies patch everything that they have."
+    },
+    {
+     "t0_ms": 1979750,
+     "text": "And that is what is putting the strain on operations teams. And that is what then leads to some of the types of outages we've been seeing recently is just organizations trying to move too fast on applying the patches."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1994790,
+   "t1_ms": 2034170,
+   "speaker": "Management",
+   "text": "What virtual patching allows is for companies to have a mitigation that is safe to deploy, giving their operations teams time to actually apply the real patches. And so what, in essence, we're able to provide is the security they need real time and immediate to the vulnerabilities being discovered, giving them time for the patches to be applied. And to put this in context, our virtual patching already has thousands of virtual patches as part of the service. By the end of this calendar year, we expect that to be tens of thousands. And it's ramping up very quickly to keep pace with the vulnerabilities that are being discovered.",
+   "parts": [
+    {
+     "t0_ms": 1994790,
+     "text": "What virtual patching allows is for companies to have a mitigation that is safe to deploy, giving their operations teams time to actually apply the real patches."
+    },
+    {
+     "t0_ms": 2007310,
+     "text": "And so what, in essence, we're able to provide is the security they need real time and immediate to the vulnerabilities being discovered, giving them time for the patches to be applied."
+    },
+    {
+     "t0_ms": 2019350,
+     "text": "And to put this in context, our virtual patching already has thousands of virtual patches as part of the service."
+    },
+    {
+     "t0_ms": 2025990,
+     "text": "By the end of this calendar year, we expect that to be tens of thousands."
+    },
+    {
+     "t0_ms": 2029890,
+     "text": "And it's ramping up very quickly to keep pace with the vulnerabilities that are being discovered."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2038000,
+   "t1_ms": 2038500,
+   "speaker": "Analyst",
+   "text": "Great. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 2038000,
+     "text": "Great. Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2040460,
+   "t1_ms": 2045460,
+   "speaker": "Operator",
+   "text": "Thank you, Mita. Next, we'll go to Patrick Colwell from Scotiabank, followed by Shaul Yal from Cowan.",
+   "parts": [
+    {
+     "t0_ms": 2040460,
+     "text": "Thank you, Mita. Next, we'll go to Patrick Colwell from Scotiabank, followed by Shaul Yal from Cowan."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2047860,
+   "t1_ms": 2090840,
+   "speaker": "Analyst",
+   "text": "Thanks, Hamza. I guess, Nikesh, and possibly Deepak as well, you know i want to stick on this theme of the real world impacts from the heightened cyber risk um in our latest conversations with your largest customers um it's clear that continuous frontier ai defense is like white hot as a product and so i guess i just want to hear um a little bit of where you think you know the scope of this product could be is it something that is applicable to all enterprises mid and large is this going to be a category that could mature into like a pretty substantial category or is it a november 2026 kind of pain point seeing spend but might you know level",
+   "parts": [
+    {
+     "t0_ms": 2047860,
+     "text": "Thanks, Hamza. I guess, Nikesh, and possibly Deepak as well,"
+    },
+    {
+     "t0_ms": 2052260,
+     "text": "you know i want to stick on this theme of the real world impacts from the heightened cyber risk um"
+    },
+    {
+     "t0_ms": 2058020,
+     "text": "in our latest conversations with your largest customers um it's clear that continuous frontier"
+    },
+    {
+     "t0_ms": 2064420,
+     "text": "ai defense is like white hot as a product and so i guess i just want to hear um a little bit of"
+    },
+    {
+     "t0_ms": 2071400,
+     "text": "where you think you know the scope of this product could be is it something that is applicable to all"
+    },
+    {
+     "t0_ms": 2076600,
+     "text": "enterprises mid and large is this going to be a category that could mature into like a pretty"
+    },
+    {
+     "t0_ms": 2082360,
+     "text": "substantial category or is it a november 2026 kind of pain point seeing spend but might you know level"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2090840,
+   "t1_ms": 2131620,
+   "speaker": "Management",
+   "text": "out over time thank you it has been a notion of vulnerability management historically which was an industry dam which was more sort of a set of professionals finding vulnerabilities institutionalizing them and selling them as feeds for others to be able to go look at their infrastructure and match them. Now, what's happened is with the capabilities we've seen with Frontier LLNs in the last few months is that it's become an institutionalized capability which you don't need to go outsource, and you can custom check your infrastructure and configuration. Unfortunately, it's in such a way that even bad actors can do it. So there's a mad rush for every enterprise to go make sure that they have a robust perimeter, robust infrastructure to make sure they don't get breached.",
+   "parts": [
+    {
+     "t0_ms": 2090840,
+     "text": "out over time thank you it has been a notion of vulnerability management historically which was"
+    },
+    {
+     "t0_ms": 2098000,
+     "text": "an industry dam which was more sort of a set of professionals finding vulnerabilities"
+    },
+    {
+     "t0_ms": 2101880,
+     "text": "institutionalizing them and selling them as feeds"
+    },
+    {
+     "t0_ms": 2104640,
+     "text": "for others to be able to go look at their infrastructure and match them."
+    },
+    {
+     "t0_ms": 2108440,
+     "text": "Now, what's happened is with the capabilities we've seen"
+    },
+    {
+     "t0_ms": 2111040,
+     "text": "with Frontier LLNs in the last few months"
+    },
+    {
+     "t0_ms": 2113520,
+     "text": "is that it's become an institutionalized capability"
+    },
+    {
+     "t0_ms": 2116180,
+     "text": "which you don't need to go outsource,"
+    },
+    {
+     "t0_ms": 2118400,
+     "text": "and you can custom check your infrastructure and configuration."
+    },
+    {
+     "t0_ms": 2121460,
+     "text": "Unfortunately, it's in such a way that even bad actors can do it."
+    },
+    {
+     "t0_ms": 2124600,
+     "text": "So there's a mad rush for every enterprise to go make sure"
+    },
+    {
+     "t0_ms": 2127180,
+     "text": "that they have a robust perimeter, robust infrastructure"
+    },
+    {
+     "t0_ms": 2130280,
+     "text": "to make sure they don't get breached."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2131880,
+   "t1_ms": 2174600,
+   "speaker": "Management",
+   "text": "is a mad rush for vendors to make sure that they can plug any holes from a vulnerability perspective i think the progression in the last six months has been such that a lot more are getting found now with the most recent models than there were six months ago so i don't think the the capabilities of models has plateaued yet and i don't expect it will plateau for another six to nine months which means you will keep getting better models over the next six to nine months smarter models which you'll find much more sort of can simul do much more from a simulation perspective, find new attack paths. I think for the next 12 months, or pick your number, 12 to 18 months, there is going to be the need for persistent frontier AI testing, which is why we call it continuous frontier AI defense, because we don't think it's going to stop in the short term.",
+   "parts": [
+    {
+     "t0_ms": 2131880,
+     "text": "is a mad rush for vendors to make sure that they can plug any holes from a vulnerability perspective"
+    },
+    {
+     "t0_ms": 2138040,
+     "text": "i think the progression in the last six months has been such that a lot more are getting found"
+    },
+    {
+     "t0_ms": 2141880,
+     "text": "now with the most recent models than there were six months ago so i don't think the"
+    },
+    {
+     "t0_ms": 2145640,
+     "text": "the capabilities of models has plateaued yet and i don't expect it will plateau for another six to"
+    },
+    {
+     "t0_ms": 2150680,
+     "text": "nine months which means you will keep getting better models over the next six to nine months"
+    },
+    {
+     "t0_ms": 2154840,
+     "text": "smarter models which you'll find much more sort of can simul do much more from a simulation"
+    },
+    {
+     "t0_ms": 2160040,
+     "text": "perspective, find new attack paths. I think for the next 12 months, or pick your number, 12 to 18"
+    },
+    {
+     "t0_ms": 2165500,
+     "text": "months, there is going to be the need for persistent frontier AI testing, which is why we call it"
+    },
+    {
+     "t0_ms": 2170140,
+     "text": "continuous frontier AI defense, because we don't think it's going to stop in the short term."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2175340,
+   "t1_ms": 2212500,
+   "speaker": "Management",
+   "text": "I do believe from an industry structure perspective over time, the continuous frontier defense will morph into a capability that every company would have delivered to them by their platform providers, whether it's through our XIM platform, through our perimeter security platform, because our platforms will have to constantly check and stress test their infrastructure and start self-healing over time as opposed to expecting them to find them and then talk to us about fixing it. So you'll feel all of us in the industry will absorb that into our capabilities, but I think that's two years out. And until then, there's going to be this constant desire or need for customers to use either open-weight, open-source models or frontier LLMs to test their infrastructure.",
+   "parts": [
+    {
+     "t0_ms": 2175340,
+     "text": "I do believe from an industry structure perspective over time, the continuous frontier"
+    },
+    {
+     "t0_ms": 2180240,
+     "text": "defense will morph into a capability that every company would have delivered to them by their"
+    },
+    {
+     "t0_ms": 2185460,
+     "text": "platform providers, whether it's through our XIM platform, through our perimeter security platform,"
+    },
+    {
+     "t0_ms": 2189160,
+     "text": "because our platforms will have to constantly check"
+    },
+    {
+     "t0_ms": 2191720,
+     "text": "and stress test their infrastructure"
+    },
+    {
+     "t0_ms": 2193440,
+     "text": "and start self-healing over time"
+    },
+    {
+     "t0_ms": 2195300,
+     "text": "as opposed to expecting them to find them"
+    },
+    {
+     "t0_ms": 2197400,
+     "text": "and then talk to us about fixing it."
+    },
+    {
+     "t0_ms": 2199600,
+     "text": "So you'll feel all of us in the industry"
+    },
+    {
+     "t0_ms": 2201160,
+     "text": "will absorb that into our capabilities,"
+    },
+    {
+     "t0_ms": 2203000,
+     "text": "but I think that's two years out."
+    },
+    {
+     "t0_ms": 2204000,
+     "text": "And until then, there's going to be this constant desire"
+    },
+    {
+     "t0_ms": 2206780,
+     "text": "or need for customers to use"
+    },
+    {
+     "t0_ms": 2208980,
+     "text": "either open-weight, open-source models"
+    },
+    {
+     "t0_ms": 2210420,
+     "text": "or frontier LLMs to test their infrastructure."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2216960,
+   "t1_ms": 2226880,
+   "speaker": "Operator",
+   "text": "Thank you, Patrick. Next, we have Shaul Eyal from Cowen, followed by Fatima Balani from Citi. Ciao.",
+   "parts": [
+    {
+     "t0_ms": 2216960,
+     "text": "Thank you, Patrick."
+    },
+    {
+     "t0_ms": 2219080,
+     "text": "Next, we have Shaul Eyal from Cowen,"
+    },
+    {
+     "t0_ms": 2221340,
+     "text": "followed by Fatima Balani from Citi."
+    },
+    {
+     "t0_ms": 2226680,
+     "text": "Ciao."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2227920,
+   "t1_ms": 2254000,
+   "speaker": "Analyst",
+   "text": "Yeah. Hey, good afternoon. Congrats, guys. So firewall bookings grew 28% on a TTM basis. How much reflects AI-related demand versus the refresh cycle? What supports continued growth? So maybe in other words, Nikesh, the cyclical versus the structural question. Cyclical versus structural demand.",
+   "parts": [
+    {
+     "t0_ms": 2227920,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2228980,
+     "text": "Hey, good afternoon."
+    },
+    {
+     "t0_ms": 2230380,
+     "text": "Congrats, guys."
+    },
+    {
+     "t0_ms": 2233340,
+     "text": "So firewall bookings grew 28% on a TTM basis."
+    },
+    {
+     "t0_ms": 2239280,
+     "text": "How much reflects AI-related demand"
+    },
+    {
+     "t0_ms": 2242040,
+     "text": "versus the refresh cycle?"
+    },
+    {
+     "t0_ms": 2244500,
+     "text": "What supports continued growth?"
+    },
+    {
+     "t0_ms": 2246580,
+     "text": "So maybe in other words, Nikesh,"
+    },
+    {
+     "t0_ms": 2248700,
+     "text": "the cyclical versus the structural question."
+    },
+    {
+     "t0_ms": 2252380,
+     "text": "Cyclical versus structural demand."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2254060,
+   "t1_ms": 2297140,
+   "speaker": "Management",
+   "text": "First and foremost, you have to understand hardware is a very small part of our business, right? And our product number includes both software capability as well as hardware. So it's not pure hardware that you're seeing in there. And the software firewalls are being driven by AI securities. Just keep that in mind as you think about the balance between product of hardware and software. Having said that, yes, we have seen an uptake in hardware as the industry has seen as well. I think part of it is people accelerating purchases because prices are going up because of competent pricing. Competent pricing is high across the industry, as you know, because of the AI sort of factor. There is increase in demand. There is a bunch of neoclouds which are needing to make their infrastructure robust over time.",
+   "parts": [
+    {
+     "t0_ms": 2254060,
+     "text": "First and foremost, you have to understand hardware is a very small part of our business, right?"
+    },
+    {
+     "t0_ms": 2258780,
+     "text": "And our product number includes both software capability as well as hardware."
+    },
+    {
+     "t0_ms": 2263140,
+     "text": "So it's not pure hardware that you're seeing in there."
+    },
+    {
+     "t0_ms": 2265900,
+     "text": "And the software firewalls are being driven by AI securities."
+    },
+    {
+     "t0_ms": 2269280,
+     "text": "Just keep that in mind as you think about the balance between product of hardware and software."
+    },
+    {
+     "t0_ms": 2273320,
+     "text": "Having said that, yes, we have seen an uptake in hardware as the industry has seen as well."
+    },
+    {
+     "t0_ms": 2278980,
+     "text": "I think part of it is people accelerating purchases because prices are going up because of competent pricing."
+    },
+    {
+     "t0_ms": 2286020,
+     "text": "Competent pricing is high across the industry, as you know, because of the AI sort of factor."
+    },
+    {
+     "t0_ms": 2290660,
+     "text": "There is increase in demand."
+    },
+    {
+     "t0_ms": 2292200,
+     "text": "There is a bunch of neoclouds which are needing to make their infrastructure robust over time."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2297200,
+   "t1_ms": 2339240,
+   "speaker": "Management",
+   "text": "So you're seeing that we are sort of benefiting from the neocloud build cycle. And I think there is an element of consolidation. People want to start ripping out part of the old infrastructure and replacing it. So I think we're seeing all three effects because we've never seen this level of hardware growth historically. We think this persists at least for the next 12 months, if not longer. Yeah, thank you so much. If I can maybe just add one other piece is what we're also seeing is we're seeing customers that may have said, look, let me have two vendors, you know, like just to say, look, it's much easier for me to have one vendor so that I can get all the patching and everything else done better as well. So multiple different factors,",
+   "parts": [
+    {
+     "t0_ms": 2297200,
+     "text": "So you're seeing that we are sort of benefiting from the neocloud build cycle."
+    },
+    {
+     "t0_ms": 2304240,
+     "text": "And I think there is an element of consolidation."
+    },
+    {
+     "t0_ms": 2306760,
+     "text": "People want to start ripping out part of the old infrastructure and replacing it."
+    },
+    {
+     "t0_ms": 2310500,
+     "text": "So I think we're seeing all three effects because we've never seen this level of hardware growth historically."
+    },
+    {
+     "t0_ms": 2315760,
+     "text": "We think this persists at least for the next 12 months, if not longer."
+    },
+    {
+     "t0_ms": 2320720,
+     "text": "Yeah, thank you so much."
+    },
+    {
+     "t0_ms": 2322440,
+     "text": "If I can maybe just add one other piece is what we're also seeing is we're seeing customers that may have said,"
+    },
+    {
+     "t0_ms": 2328620,
+     "text": "look, let me have two vendors, you know, like just to say, look, it's much easier for me to have one vendor"
+    },
+    {
+     "t0_ms": 2333760,
+     "text": "so that I can get all the patching"
+    },
+    {
+     "t0_ms": 2335540,
+     "text": "and everything else done better as well."
+    },
+    {
+     "t0_ms": 2337960,
+     "text": "So multiple different factors,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2339460,
+   "t1_ms": 2345000,
+   "speaker": "Management",
+   "text": "but I think the overall point is we think this is very, very robust and will continue.",
+   "parts": [
+    {
+     "t0_ms": 2339460,
+     "text": "but I think the overall point is"
+    },
+    {
+     "t0_ms": 2342300,
+     "text": "we think this is very, very robust"
+    },
+    {
+     "t0_ms": 2344220,
+     "text": "and will continue."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2347730,
+   "t1_ms": 2348110,
+   "speaker": "Analyst",
+   "text": "Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2347730,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2351390,
+   "t1_ms": 2356010,
+   "speaker": "Operator",
+   "text": "Thank you, Shabal. Next, we'll go to Fatima Balani from Citi, followed by Jonathan Ho from Bullion Blair.",
+   "parts": [
+    {
+     "t0_ms": 2351390,
+     "text": "Thank you, Shabal."
+    },
+    {
+     "t0_ms": 2352550,
+     "text": "Next, we'll go to Fatima Balani from Citi,"
+    },
+    {
+     "t0_ms": 2354390,
+     "text": "followed by Jonathan Ho from Bullion Blair."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2357210,
+   "t1_ms": 2397350,
+   "speaker": "Analyst",
+   "text": "Thank you. Good afternoon. I appreciate you taking my question. Nikesh, I wanted to go back to the impetus and the rationale for applied compute. I think it's pretty clear what the strategy is certainly to me, but I wanted to get a sense from you on how this evolves or diminishes or changes your value proposition as a Switzerland-esque cybersecurity platform to the AI infrastructure platform ecosystem, because necessarily this could devolve into a competitive, co-optative relationship with some of your customers and partners? And then as a",
+   "parts": [
+    {
+     "t0_ms": 2357210,
+     "text": "Thank you. Good afternoon."
+    },
+    {
+     "t0_ms": 2358610,
+     "text": "I appreciate you taking my question."
+    },
+    {
+     "t0_ms": 2360950,
+     "text": "Nikesh, I wanted to go back to the impetus"
+    },
+    {
+     "t0_ms": 2362930,
+     "text": "and the rationale for applied compute."
+    },
+    {
+     "t0_ms": 2365030,
+     "text": "I think it's pretty clear"
+    },
+    {
+     "t0_ms": 2365970,
+     "text": "what the strategy is certainly to me, but I wanted to get a sense from you on how this evolves or"
+    },
+    {
+     "t0_ms": 2374410,
+     "text": "diminishes or changes your value proposition as a Switzerland-esque cybersecurity platform"
+    },
+    {
+     "t0_ms": 2382170,
+     "text": "to the AI infrastructure platform ecosystem, because necessarily this could devolve into a"
+    },
+    {
+     "t0_ms": 2391170,
+     "text": "competitive, co-optative relationship with some of your customers and partners? And then as a"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2397350,
+   "t1_ms": 2420530,
+   "speaker": "Analyst",
+   "text": "related matter, maybe for Lee, to what extent should we think about the outputs of applied compute being fed back into the business for the purposes of generating new SKUs and new capabilities and products that burnish your own platform and your security offerings and capabilities.",
+   "parts": [
+    {
+     "t0_ms": 2397350,
+     "text": "related matter, maybe for Lee, to what extent should we think about the outputs of applied"
+    },
+    {
+     "t0_ms": 2404590,
+     "text": "compute being fed back into the business for the purposes of generating new SKUs and new"
+    },
+    {
+     "t0_ms": 2413150,
+     "text": "capabilities and products that burnish your own platform and your security offerings and"
+    },
+    {
+     "t0_ms": 2420010,
+     "text": "capabilities."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2422030,
+   "t1_ms": 2466680,
+   "speaker": "Management",
+   "text": "I'm trying to parse Switzerland and cooperative and competitive. All right, good. Let me parse that. That's it. First and foremost, Fatima, look, there's not enough AI skill in the market at Frontier Lab level that any one of us have. So just at the outset, the basic thing these people will do is they will significantly increase our AI capabilities as an organization because these people have been working at Frontier Labs and that's the mindset they're arriving in. We've been working hard to train our products with LLMs, and I think this team will supercharge and turbocharge our abilities, allowing us to deliver AI capabilities to our customers. So that's number one. If we do nothing else, that's a win.",
+   "parts": [
+    {
+     "t0_ms": 2422030,
+     "text": "I'm trying to parse Switzerland"
+    },
+    {
+     "t0_ms": 2423750,
+     "text": "and cooperative"
+    },
+    {
+     "t0_ms": 2425510,
+     "text": "and competitive."
+    },
+    {
+     "t0_ms": 2428050,
+     "text": "All right, good. Let me parse that."
+    },
+    {
+     "t0_ms": 2429570,
+     "text": "That's it. First and foremost,"
+    },
+    {
+     "t0_ms": 2432370,
+     "text": "Fatima, look,"
+    },
+    {
+     "t0_ms": 2435220,
+     "text": "there's not enough AI skill"
+    },
+    {
+     "t0_ms": 2437080,
+     "text": "in the market at Frontier Lab"
+    },
+    {
+     "t0_ms": 2439220,
+     "text": "level that any one of us have."
+    },
+    {
+     "t0_ms": 2441560,
+     "text": "So just at the outset, the"
+    },
+    {
+     "t0_ms": 2443220,
+     "text": "basic thing these people will do is"
+    },
+    {
+     "t0_ms": 2445160,
+     "text": "they will significantly increase our AI capabilities"
+    },
+    {
+     "t0_ms": 2447320,
+     "text": "as an organization because these people"
+    },
+    {
+     "t0_ms": 2449380,
+     "text": "have been working at Frontier Labs and"
+    },
+    {
+     "t0_ms": 2451100,
+     "text": "that's the mindset they're arriving in. We've been working hard"
+    },
+    {
+     "t0_ms": 2455280,
+     "text": "to train our products with LLMs, and I think this team"
+    },
+    {
+     "t0_ms": 2459200,
+     "text": "will supercharge and turbocharge our abilities, allowing us to deliver AI"
+    },
+    {
+     "t0_ms": 2463040,
+     "text": "capabilities to our customers. So that's number one. If we do nothing else, that's a win."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2467260,
+   "t1_ms": 2504460,
+   "speaker": "Management",
+   "text": "I think the second part, as we said, we discovered that there's a market out there where we looked for this. We looked at nine different providers, and we figured out these guys are the best at training. But even the best of them who are still in their early stages evolving as enterprises and organizations. And we know from our life in enterprise that customers want a reliable partner who has all the bells and whistles to be able to provide accountability, to provide capability at speed. So I think enveloping them with our capabilities from a go-to-market perspective, resilience perspective, cybersecurity perspective, I think is going to expand their existing business itself without doing anything else. Again, that's a win.",
+   "parts": [
+    {
+     "t0_ms": 2467260,
+     "text": "I think the second part, as we said, we discovered that there's a"
+    },
+    {
+     "t0_ms": 2471180,
+     "text": "market out there where we looked for this. We looked at nine different"
+    },
+    {
+     "t0_ms": 2475140,
+     "text": "providers, and we figured out these guys are the best at training. But even the best of them"
+    },
+    {
+     "t0_ms": 2478940,
+     "text": "who are still in their early stages evolving as enterprises and organizations."
+    },
+    {
+     "t0_ms": 2482820,
+     "text": "And we know from our life in enterprise that customers want a reliable partner"
+    },
+    {
+     "t0_ms": 2487280,
+     "text": "who has all the bells and whistles to be able to provide accountability,"
+    },
+    {
+     "t0_ms": 2490720,
+     "text": "to provide capability at speed."
+    },
+    {
+     "t0_ms": 2492500,
+     "text": "So I think enveloping them with our capabilities from a go-to-market perspective,"
+    },
+    {
+     "t0_ms": 2496920,
+     "text": "resilience perspective, cybersecurity perspective,"
+    },
+    {
+     "t0_ms": 2498920,
+     "text": "I think is going to expand their existing business itself without doing anything else."
+    },
+    {
+     "t0_ms": 2503500,
+     "text": "Again, that's a win."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2504460,
+   "t1_ms": 2547680,
+   "speaker": "Management",
+   "text": "I think the third part, which excites me the most, is as we go down the journey of AI security, I'm coming to the conclusion that before you start building a Switzerland product, let's make sure your Apple product works well, right? Because right now, the end-to-end capability does not exist in the industry. You need to make sure you have the same vendor doing discovery of your AI assets, the same vendor aggregating that traffic into a choke point, and the same vendor understanding the activities of an alarm so it can decide what to allow or what to block. I think the idea that I can deliver a security product to somebody who's built their own AI intelligence and I have no visibility into what's happening in there, yet I can somehow interpret what that AI is trying to do",
+   "parts": [
+    {
+     "t0_ms": 2504460,
+     "text": "I think the third part, which excites me the most, is as we go down the journey of AI security, I'm coming to the conclusion that before you start building a Switzerland product, let's make sure your Apple product works well, right?"
+    },
+    {
+     "t0_ms": 2517940,
+     "text": "Because right now, the end-to-end capability does not exist in the industry."
+    },
+    {
+     "t0_ms": 2523180,
+     "text": "You need to make sure you have the same vendor"
+    },
+    {
+     "t0_ms": 2524920,
+     "text": "doing discovery of your AI assets,"
+    },
+    {
+     "t0_ms": 2526860,
+     "text": "the same vendor aggregating that traffic into a choke point,"
+    },
+    {
+     "t0_ms": 2530080,
+     "text": "and the same vendor understanding the activities of an alarm"
+    },
+    {
+     "t0_ms": 2534940,
+     "text": "so it can decide what to allow or what to block."
+    },
+    {
+     "t0_ms": 2537300,
+     "text": "I think the idea that I can deliver a security product"
+    },
+    {
+     "t0_ms": 2540560,
+     "text": "to somebody who's built their own AI intelligence"
+    },
+    {
+     "t0_ms": 2542580,
+     "text": "and I have no visibility into what's happening in there,"
+    },
+    {
+     "t0_ms": 2545120,
+     "text": "yet I can somehow interpret what that AI is trying to do"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2547680,
+   "t1_ms": 2589640,
+   "speaker": "Management",
+   "text": "and try and stop it is insane. It's not going to happen. And as you can see, there's a whole science developing in AI around evals, around traces. If you saw most recently, two days ago, OpenAI announced that they've done a deal with four different companies who are going to have early access to their models so that they can understand how the models are behaving. And if the models misbehave, they'll be able to tell OpenAI how to train them better. That's the level of intelligence we need to be able to stop AI. So if I don't understand when the model is behaving or not behaving, how am I going to be able to stop it? For that, I need frontier LLM capability or frontier LLM skills. That's what makes sense. That's what we're doing. I think that's what you will see, that eventually that's where the industry is going to want to go. And you'll see a lot of people try and follow our lead on this one.",
+   "parts": [
+    {
+     "t0_ms": 2547680,
+     "text": "and try and stop it is insane."
+    },
+    {
+     "t0_ms": 2549900,
+     "text": "It's not going to happen."
+    },
+    {
+     "t0_ms": 2551240,
+     "text": "And as you can see, there's a whole science developing in AI around evals, around traces."
+    },
+    {
+     "t0_ms": 2557340,
+     "text": "If you saw most recently, two days ago, OpenAI announced that they've done a deal with four different companies"
+    },
+    {
+     "t0_ms": 2561520,
+     "text": "who are going to have early access to their models so that they can understand how the models are behaving."
+    },
+    {
+     "t0_ms": 2566100,
+     "text": "And if the models misbehave, they'll be able to tell OpenAI how to train them better."
+    },
+    {
+     "t0_ms": 2570000,
+     "text": "That's the level of intelligence we need to be able to stop AI."
+    },
+    {
+     "t0_ms": 2572900,
+     "text": "So if I don't understand when the model is behaving or not behaving, how am I going to be able to stop it?"
+    },
+    {
+     "t0_ms": 2576780,
+     "text": "For that, I need frontier LLM capability or frontier LLM skills."
+    },
+    {
+     "t0_ms": 2581040,
+     "text": "That's what makes sense."
+    },
+    {
+     "t0_ms": 2582540,
+     "text": "That's what we're doing."
+    },
+    {
+     "t0_ms": 2583720,
+     "text": "I think that's what you will see, that eventually that's where the industry is going to want to go."
+    },
+    {
+     "t0_ms": 2587660,
+     "text": "And you'll see a lot of people try and follow our lead on this one."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2591120,
+   "t1_ms": 2592780,
+   "speaker": "Management",
+   "text": "And then we'll build on to it, don't worry.",
+   "parts": [
+    {
+     "t0_ms": 2591120,
+     "text": "And then we'll build on to it, don't worry."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2593740,
+   "t1_ms": 2594860,
+   "speaker": "Analyst",
+   "text": "I appreciate it. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2593740,
+     "text": "I appreciate it."
+    },
+    {
+     "t0_ms": 2594580,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2597620,
+   "t1_ms": 2604640,
+   "speaker": "Operator",
+   "text": "Thank you, Fatima. Next, we'll go to Jonathan Ho from William Blair, followed by Michael Turin from Wells Fargo.",
+   "parts": [
+    {
+     "t0_ms": 2597620,
+     "text": "Thank you, Fatima."
+    },
+    {
+     "t0_ms": 2599740,
+     "text": "Next, we'll go to Jonathan Ho from William Blair, followed by Michael Turin from Wells Fargo."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2607050,
+   "t1_ms": 2642230,
+   "speaker": "Analyst",
+   "text": "Excellent. Good afternoon and congratulations on the strong results. You know, with Prisma Airs, this is now your fastest product to $170 million. Is there a way to understand where we are in the adoption curve of AI? And do you see 2027 as maybe a potential inflection point for this to accelerate even further as folks move from developer use cases to now true enterprise agentic and inference use cases? and maybe help us understand why the demand curve changes as you change between these new use cases. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2607050,
+     "text": "Excellent."
+    },
+    {
+     "t0_ms": 2607850,
+     "text": "Good afternoon and congratulations on the strong results."
+    },
+    {
+     "t0_ms": 2610590,
+     "text": "You know, with Prisma Airs, this is now your fastest product to $170 million."
+    },
+    {
+     "t0_ms": 2616330,
+     "text": "Is there a way to understand where we are in the adoption curve of AI?"
+    },
+    {
+     "t0_ms": 2621230,
+     "text": "And do you see 2027 as maybe a potential inflection point for this to accelerate even further as folks move from developer use cases to now true enterprise agentic and inference use cases?"
+    },
+    {
+     "t0_ms": 2634530,
+     "text": "and maybe help us understand why the demand curve changes"
+    },
+    {
+     "t0_ms": 2638870,
+     "text": "as you change between these new use cases."
+    },
+    {
+     "t0_ms": 2641870,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2647620,
+   "t1_ms": 2692020,
+   "speaker": "Management",
+   "text": "As I said, if you ask any enterprise you guys know of, if you ask them, say, are you using coding applications, they'll tell you they are. Ask them are they secure, and the answer is going to be, what do you mean? People haven't figured out how to secure cloud code or codex or cursor yet. I think that's the starting point. You've got to make sure as these coding applications get agentic capabilities, they're going to be respond agents. How are you going to control them? And I don't think most enterprises have figured that problem out and they're busy using coding tools. And I expect that you will see some of those agents created as part of coding tools misbehave. I think that's where we start. That's the first application of Prisma IaaS, is don't let your coding agents run amok into your enterprise. But I'm going to let Lee talk about future use cases and how that applies. Yeah. I think, first of all, I agree with Nikesh.",
+   "parts": [
+    {
+     "t0_ms": 2647620,
+     "text": "As I said, if you ask any enterprise you guys know of,"
+    },
+    {
+     "t0_ms": 2651040,
+     "text": "if you ask them, say, are you using coding applications,"
+    },
+    {
+     "t0_ms": 2654080,
+     "text": "they'll tell you they are."
+    },
+    {
+     "t0_ms": 2655140,
+     "text": "Ask them are they secure, and the answer is going to be, what do you mean?"
+    },
+    {
+     "t0_ms": 2657960,
+     "text": "People haven't figured out how to secure cloud code or codex or cursor yet."
+    },
+    {
+     "t0_ms": 2661600,
+     "text": "I think that's the starting point."
+    },
+    {
+     "t0_ms": 2663140,
+     "text": "You've got to make sure as these coding applications get agentic capabilities,"
+    },
+    {
+     "t0_ms": 2667460,
+     "text": "they're going to be respond agents."
+    },
+    {
+     "t0_ms": 2668720,
+     "text": "How are you going to control them?"
+    },
+    {
+     "t0_ms": 2670360,
+     "text": "And I don't think most enterprises have figured that problem out"
+    },
+    {
+     "t0_ms": 2673020,
+     "text": "and they're busy using coding tools."
+    },
+    {
+     "t0_ms": 2674860,
+     "text": "And I expect that you will see some of those agents created"
+    },
+    {
+     "t0_ms": 2677740,
+     "text": "as part of coding tools misbehave."
+    },
+    {
+     "t0_ms": 2679700,
+     "text": "I think that's where we start."
+    },
+    {
+     "t0_ms": 2681040,
+     "text": "That's the first application of Prisma IaaS,"
+    },
+    {
+     "t0_ms": 2683180,
+     "text": "is don't let your coding agents run amok into your enterprise."
+    },
+    {
+     "t0_ms": 2686300,
+     "text": "But I'm going to let Lee talk about future use cases and how that applies."
+    },
+    {
+     "t0_ms": 2689260,
+     "text": "Yeah."
+    },
+    {
+     "t0_ms": 2690380,
+     "text": "I think, first of all, I agree with Nikesh."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2692120,
+   "t1_ms": 2724840,
+   "speaker": "Management",
+   "text": "This is still a good strategy. We're still very early. Companies are still very early in their AI adoption. The AI-coded use case is really the first one that has gotten across the line to being somewhat common from a production perspective. The vast majority of other AI-agented use cases are still very much in the experimentation, piloting, development stage. And what's often blocking them from moving to full production is, number one, can they be secured?",
+   "parts": [
+    {
+     "t0_ms": 2692120,
+     "text": "This is still a good strategy."
+    },
+    {
+     "t0_ms": 2696780,
+     "text": "We're still very early."
+    },
+    {
+     "t0_ms": 2697860,
+     "text": "Companies are still very early in their AI adoption."
+    },
+    {
+     "t0_ms": 2701280,
+     "text": "The AI-coded use case is really the first one that has gotten across the line to being somewhat common from a production perspective."
+    },
+    {
+     "t0_ms": 2709520,
+     "text": "The vast majority of other AI-agented use cases are still very much in the experimentation, piloting, development stage."
+    },
+    {
+     "t0_ms": 2718200,
+     "text": "And what's often blocking them from moving to full production is, number one, can they be secured?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2724840,
+   "t1_ms": 2749960,
+   "speaker": "Management",
+   "text": "And two, do they perform accurately? And I think both of those challenges can be solved. And I think part of what we're doing with Applied Compute will actually provide a significant part of the answer to how we can get solved both of those problems to address the broader enterprise use cases of adopting agents and AI overall.",
+   "parts": [
+    {
+     "t0_ms": 2724840,
+     "text": "And two, do they perform accurately? And I think both of those challenges can be solved. And I think part of what we're doing with Applied Compute will actually provide a significant part of the answer to how we can get solved both of those problems to address the broader enterprise use cases of adopting agents and AI overall."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2752350,
+   "t1_ms": 2760190,
+   "speaker": "Operator",
+   "text": "Thank you. Thank you for the question, Jonathan. Next, we'll go to Michael Turn from Wells Fargo, followed by Josh Tilton from Wolf Research.",
+   "parts": [
+    {
+     "t0_ms": 2752350,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2752670,
+     "text": "Thank you for the question, Jonathan. Next, we'll go to Michael Turn from Wells Fargo, followed by Josh Tilton from Wolf Research."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2761610,
+   "t1_ms": 2783690,
+   "speaker": "Analyst",
+   "text": "Thank you, Hamza. Nikesh, it looks like some of the warning signs you were flashing are now here. So maybe speak to where the budget comes from an enterprise, how much consolidation of the platformization strategy helps drive those discussions forward. and if the company is tooled to handle a persistent surge in demand or how you yourself and the industry just work through all of this going forward. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2761610,
+     "text": "Thank you, Hamza. Nikesh, it looks like some of the warning signs you were flashing are now here."
+    },
+    {
+     "t0_ms": 2766750,
+     "text": "So maybe speak to where the budget comes from an enterprise, how much consolidation of the platformization strategy helps drive those discussions forward."
+    },
+    {
+     "t0_ms": 2775630,
+     "text": "and if the company is tooled to handle a persistent surge in demand"
+    },
+    {
+     "t0_ms": 2779890,
+     "text": "or how you yourself and the industry just work through all of this going forward."
+    },
+    {
+     "t0_ms": 2783270,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2784550,
+   "t1_ms": 2826490,
+   "speaker": "Management",
+   "text": "I think the frontier AI defense budgets have just come out of emergency funds. I think there is no leadership team that has sat there and says, we don't want to do this, we can't do this. They said we have to do this. So I don't know where they found them, but they actually found the money to make sure they can check for vulnerabilities. And I think, as you see, just the events the last two weeks, if somebody has been sleeping under a rock, they must have come out and said, holy shit, if we are not doing this, we better go out and test ourselves. So I'm not worried about the fact that we're going to see people show up with money. I think the longer term question is still live. A lot of CEOs are going to see us saying, listen, how do we fix this for the long term? And I think that's where you're seeing consolidation. That's where you're seeing,",
+   "parts": [
+    {
+     "t0_ms": 2784550,
+     "text": "I think the frontier AI defense budgets have just come out of emergency funds."
+    },
+    {
+     "t0_ms": 2790330,
+     "text": "I think there is no leadership team that has sat there and says,"
+    },
+    {
+     "t0_ms": 2793190,
+     "text": "we don't want to do this, we can't do this."
+    },
+    {
+     "t0_ms": 2794830,
+     "text": "They said we have to do this."
+    },
+    {
+     "t0_ms": 2796070,
+     "text": "So I don't know where they found them,"
+    },
+    {
+     "t0_ms": 2797610,
+     "text": "but they actually found the money to make sure they can check for vulnerabilities."
+    },
+    {
+     "t0_ms": 2800990,
+     "text": "And I think, as you see, just the events the last two weeks,"
+    },
+    {
+     "t0_ms": 2803770,
+     "text": "if somebody has been sleeping under a rock,"
+    },
+    {
+     "t0_ms": 2806210,
+     "text": "they must have come out and said,"
+    },
+    {
+     "t0_ms": 2807230,
+     "text": "holy shit, if we are not doing this,"
+    },
+    {
+     "t0_ms": 2808810,
+     "text": "we better go out and test ourselves."
+    },
+    {
+     "t0_ms": 2809910,
+     "text": "So I'm not worried about the fact"
+    },
+    {
+     "t0_ms": 2811430,
+     "text": "that we're going to see people show up with money."
+    },
+    {
+     "t0_ms": 2814130,
+     "text": "I think the longer term question is still live."
+    },
+    {
+     "t0_ms": 2818770,
+     "text": "A lot of CEOs are going to see us saying,"
+    },
+    {
+     "t0_ms": 2821170,
+     "text": "listen, how do we fix this for the long term?"
+    },
+    {
+     "t0_ms": 2823190,
+     "text": "And I think that's where you're seeing consolidation."
+    },
+    {
+     "t0_ms": 2825730,
+     "text": "That's where you're seeing,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2826950,
+   "t1_ms": 2842530,
+   "speaker": "Management",
+   "text": "how do I sweat my dollar further? How do I make sure that I'm not spending inconsistently with where I want to be in the long term. So you'll see cyber budgets rise, I'm sure, in the next two years. And you will also see a degree of consolidation because the spray and pray strategy has not worked in cyber.",
+   "parts": [
+    {
+     "t0_ms": 2826950,
+     "text": "how do I sweat my dollar further?"
+    },
+    {
+     "t0_ms": 2829730,
+     "text": "How do I make sure that I'm not spending inconsistently"
+    },
+    {
+     "t0_ms": 2832610,
+     "text": "with where I want to be in the long term."
+    },
+    {
+     "t0_ms": 2833890,
+     "text": "So you'll see cyber budgets rise,"
+    },
+    {
+     "t0_ms": 2836090,
+     "text": "I'm sure, in the next two years."
+    },
+    {
+     "t0_ms": 2837810,
+     "text": "And you will also see a degree of consolidation"
+    },
+    {
+     "t0_ms": 2839510,
+     "text": "because the spray and pray strategy"
+    },
+    {
+     "t0_ms": 2841650,
+     "text": "has not worked in cyber."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2844390,
+   "t1_ms": 2853670,
+   "speaker": "Operator",
+   "text": "Thank you. All right. Thank you, Michael. Next, we'll go to Josh Chilton from Wolf Research, followed by Gabrielle Borges from Goldman Sachs.",
+   "parts": [
+    {
+     "t0_ms": 2844390,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2847050,
+     "text": "All right."
+    },
+    {
+     "t0_ms": 2848030,
+     "text": "Thank you, Michael."
+    },
+    {
+     "t0_ms": 2848650,
+     "text": "Next, we'll go to Josh Chilton from Wolf Research,"
+    },
+    {
+     "t0_ms": 2851570,
+     "text": "followed by Gabrielle Borges from Goldman Sachs."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2856370,
+   "t1_ms": 2857050,
+   "speaker": "Analyst",
+   "text": "Hey, guys, can you hear me?",
+   "parts": [
+    {
+     "t0_ms": 2856370,
+     "text": "Hey, guys, can you hear me?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2859800,
+   "t1_ms": 2861720,
+   "speaker": "Operator",
+   "text": "Yes, we can hear you, Josh. We can hear you.",
+   "parts": [
+    {
+     "t0_ms": 2859800,
+     "text": "Yes, we can hear you, Josh."
+    },
+    {
+     "t0_ms": 2860640,
+     "text": "We can hear you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2861920,
+   "t1_ms": 2896520,
+   "speaker": "Analyst",
+   "text": "Awesome. I kind of want to touch on a comment I heard in the prepared remarks. I think you guys mentioned that Agentic traffic on SASE took a decent spike in the quarter over some recent time period. I think when we talk to investors, I don't really think they view SASE as kind of this market that may be what you would call an AI winner. Can you guys talk to what you're seeing in kind of this agentic opportunity specifically in SASE? Clearly, you have something going on the platform today. And just maybe, you know, one level deeper, are we monetizing these agents on the SASE platform? Are they incremental to the human traffic? How do we think about that opportunity specifically for SASE?",
+   "parts": [
+    {
+     "t0_ms": 2861920,
+     "text": "Awesome."
+    },
+    {
+     "t0_ms": 2863060,
+     "text": "I kind of want to touch on a comment"
+    },
+    {
+     "t0_ms": 2865220,
+     "text": "I heard in the prepared remarks."
+    },
+    {
+     "t0_ms": 2866380,
+     "text": "I think you guys mentioned that"
+    },
+    {
+     "t0_ms": 2868040,
+     "text": "Agentic traffic on SASE took a decent spike in the quarter over some recent time period."
+    },
+    {
+     "t0_ms": 2873100,
+     "text": "I think when we talk to investors, I don't really think they view SASE as kind of this"
+    },
+    {
+     "t0_ms": 2876480,
+     "text": "market that may be what you would call an AI winner."
+    },
+    {
+     "t0_ms": 2880140,
+     "text": "Can you guys talk to what you're seeing in kind of this agentic opportunity specifically"
+    },
+    {
+     "t0_ms": 2884220,
+     "text": "in SASE?"
+    },
+    {
+     "t0_ms": 2885240,
+     "text": "Clearly, you have something going on the platform today."
+    },
+    {
+     "t0_ms": 2887740,
+     "text": "And just maybe, you know, one level deeper, are we monetizing these agents on the SASE"
+    },
+    {
+     "t0_ms": 2891740,
+     "text": "platform?"
+    },
+    {
+     "t0_ms": 2892340,
+     "text": "Are they incremental to the human traffic?"
+    },
+    {
+     "t0_ms": 2894280,
+     "text": "How do we think about that opportunity specifically for SASE?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2897460,
+   "t1_ms": 2937460,
+   "speaker": "Management",
+   "text": "I thought you wanted to understand industry, but you really want to know money. Okay. So, look, historically, SASE has been a per-user pricing model, right? Because the traffic per user has a capacity limit. Human beings can only transact so much traffic over a period of a month or a period of a year. So, SASE was sold on a per-user, per-seat basis. You saw, you can see as an industry parallel, that traffic to WAFs has increased because there's a bunch of agents running around in the public domain trying to go drive traffic. So imagine the same activity happening inside the enterprise. You have agents that are going to start running on enterprises as well, and that's going to put load on the SASE fabric.",
+   "parts": [
+    {
+     "t0_ms": 2897460,
+     "text": "I thought you wanted to understand industry, but you really want to know money."
+    },
+    {
+     "t0_ms": 2900600,
+     "text": "Okay."
+    },
+    {
+     "t0_ms": 2901120,
+     "text": "So, look, historically, SASE has been a per-user pricing model, right?"
+    },
+    {
+     "t0_ms": 2906540,
+     "text": "Because the traffic per user has a capacity limit."
+    },
+    {
+     "t0_ms": 2910240,
+     "text": "Human beings can only transact so much traffic over a period of a month or a period of a year."
+    },
+    {
+     "t0_ms": 2913980,
+     "text": "So, SASE was sold on a per-user, per-seat basis."
+    },
+    {
+     "t0_ms": 2918840,
+     "text": "You saw, you can see as an industry parallel, that traffic to WAFs has increased because there's a bunch of agents running around in the public domain trying to go drive traffic."
+    },
+    {
+     "t0_ms": 2927460,
+     "text": "So imagine the same activity happening inside the enterprise."
+    },
+    {
+     "t0_ms": 2931020,
+     "text": "You have agents that are going to start running on enterprises as well, and that's going to put load on the SASE fabric."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2939340,
+   "t1_ms": 2983680,
+   "speaker": "Management",
+   "text": "To embrace that, I think we have done this, and I suspect others in the industry are also doing that. We used to sell a certain amount of free network capacity as part of SASE, but we're going to get more diligent about metering it because, in the end, it increases cogs if you drive more traffic through our SASE fabric. So you will see us monetize the traffic. Right now, we've seen a 9x spike. Even at 9x, it's sort of on an organizational level, it's not increased compared to where the licensing thing is. But I expect in a short period of time, they will start blowing past the total capacity of licensed capacity of traffic in SASE. And as they see more agents in the enterprise, we will see SASE will start seeing some traffic monetization, I suspect. It's still six to nine months out, but it's going to happen.",
+   "parts": [
+    {
+     "t0_ms": 2939340,
+     "text": "To embrace that, I think we have done this, and I suspect others in the industry are also doing that."
+    },
+    {
+     "t0_ms": 2944820,
+     "text": "We used to sell a certain amount of free network capacity as part of SASE, but we're going to get more diligent about metering it because, in the end, it increases cogs if you drive more traffic through our SASE fabric."
+    },
+    {
+     "t0_ms": 2955860,
+     "text": "So you will see us monetize the traffic. Right now, we've seen a 9x spike. Even at 9x, it's sort of on an organizational level, it's not increased compared to where the licensing thing is. But I expect in a short period of time, they will start blowing past the total capacity of licensed capacity of traffic in SASE. And as they see more agents in the enterprise, we will see SASE will start seeing some traffic monetization, I suspect. It's still six to nine months out, but it's going to happen."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2983680,
+   "t1_ms": 2994230,
+   "speaker": "Operator",
+   "text": "All right. Thank you, Josh. Next, we'll go to Gabrielle Borges from Goldman Sachs, followed by John DeFucci from Guggenheim.",
+   "parts": [
+    {
+     "t0_ms": 2983680,
+     "text": "All right. Thank you, Josh. Next, we'll go to Gabrielle Borges from Goldman Sachs, followed by John DeFucci from Guggenheim."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2995450,
+   "t1_ms": 3020990,
+   "speaker": "Analyst",
+   "text": "Hey, good afternoon. Thank you. Nikesh, I want to follow up on a comment you've made in the recent past on wanting to be more in the token flow. And certainly, Chronosphere and Observability fits that. Certainly, I would think something like Applied Compute fits that. But maybe just zoom out for us. As you see more AI adoption, do you think more categories are going to intersect with security? And talk to us a little bit about what that convergence of security and infrastructure looks like.",
+   "parts": [
+    {
+     "t0_ms": 2995450,
+     "text": "Hey, good afternoon. Thank you. Nikesh, I want to follow up on a comment you've made in the recent past on wanting to be more in the token flow."
+    },
+    {
+     "t0_ms": 3004250,
+     "text": "And certainly, Chronosphere and Observability fits that. Certainly, I would think something like Applied Compute fits that."
+    },
+    {
+     "t0_ms": 3009830,
+     "text": "But maybe just zoom out for us."
+    },
+    {
+     "t0_ms": 3011730,
+     "text": "As you see more AI adoption, do you think more categories are going to intersect with security?"
+    },
+    {
+     "t0_ms": 3017190,
+     "text": "And talk to us a little bit about what that convergence of security and infrastructure looks like."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3021950,
+   "t1_ms": 3065970,
+   "speaker": "Management",
+   "text": "Look, if you look at our historical business model for cybersecurity, it's been more of an enterprise license model. It's also been a per-user-based model. As you know, per-user-based models are going to morph because of agents that come into play. and the enterprise license model had in certain cases a sort of a volume orientation so for example software firewalls are volume oriented the more traffic you send through them the more capacity is needed the more you have to buy prisma airs is you know exhibit a prisma airs is fundamentally based on inspecting tokens the more tokens you use in enterprise the more you have to have inspection tokens inspection tokens cost and prisma airs is possibly going to be two to five percent of your spend or the long term of your token spend. If you believe there's a trillion",
+   "parts": [
+    {
+     "t0_ms": 3021950,
+     "text": "Look, if you look at our historical business model for cybersecurity, it's been more of an enterprise license model."
+    },
+    {
+     "t0_ms": 3028630,
+     "text": "It's also been a per-user-based model."
+    },
+    {
+     "t0_ms": 3030530,
+     "text": "As you know, per-user-based models are going to morph because of agents that come into play."
+    },
+    {
+     "t0_ms": 3035230,
+     "text": "and the enterprise license model had in certain cases a sort of a volume orientation so for"
+    },
+    {
+     "t0_ms": 3043730,
+     "text": "example software firewalls are volume oriented the more traffic you send through them the more"
+    },
+    {
+     "t0_ms": 3047590,
+     "text": "capacity is needed the more you have to buy prisma airs is you know exhibit a prisma airs is"
+    },
+    {
+     "t0_ms": 3053070,
+     "text": "fundamentally based on inspecting tokens the more tokens you use in enterprise the more you have to"
+    },
+    {
+     "t0_ms": 3057390,
+     "text": "have inspection tokens inspection tokens cost and prisma airs is possibly going to be two to five"
+    },
+    {
+     "t0_ms": 3061990,
+     "text": "percent of your spend or the long term of your token spend. If you believe there's a trillion"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3065970,
+   "t1_ms": 3110130,
+   "speaker": "Management",
+   "text": "dollars of tokens that's going to be sold in the next few years, then by definition, the industry must see a three to five percent security spend associated with the tokens. I think the same thing applies to applied compute, no pun intended. You've seen that you yourself said it, that applied compute is effectively in the training business. The more models you train, the more models you run through inference. But on top of that, applied compute is going to come with a security capability in the future where you'll have to pay both for training your regular application in LLM and you'll have to pay for security. I think in any one of our products where we're going to see increased traffic, increased tokens, we're going to get in the token flow. So if you look at our three businesses, from a network security, from a Cortex, and from identity and observability and",
+   "parts": [
+    {
+     "t0_ms": 3065970,
+     "text": "dollars of tokens that's going to be sold in the next few years, then by definition, the industry"
+    },
+    {
+     "t0_ms": 3069850,
+     "text": "must see a three to five percent security spend associated with the tokens. I think the same"
+    },
+    {
+     "t0_ms": 3075850,
+     "text": "thing applies to applied compute, no pun intended. You've seen that you yourself said it, that"
+    },
+    {
+     "t0_ms": 3080510,
+     "text": "applied compute is effectively in the training business. The more models you train, the more"
+    },
+    {
+     "t0_ms": 3084130,
+     "text": "models you run through inference. But on top of that, applied compute is going to come with a"
+    },
+    {
+     "t0_ms": 3087590,
+     "text": "security capability in the future where you'll have to pay both for"
+    },
+    {
+     "t0_ms": 3091670,
+     "text": "training your regular application in LLM and you'll have to pay for security."
+    },
+    {
+     "t0_ms": 3095290,
+     "text": "I think in any one of our products where we're going to see increased"
+    },
+    {
+     "t0_ms": 3099570,
+     "text": "traffic, increased tokens, we're going to get in the token flow. So if you look at our three businesses,"
+    },
+    {
+     "t0_ms": 3103510,
+     "text": "from a network security, from a Cortex, and from"
+    },
+    {
+     "t0_ms": 3106430,
+     "text": "identity and observability and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3110130,
+   "t1_ms": 3152570,
+   "speaker": "Management",
+   "text": "the new business of Applied Compute, observability and Applied Compute are both traffic determined. The more traffic that flows to the AI ecosystem, observability wins. The more traffic that is needed in the AI ecosystem, applied compute wins. The more traffic that is run through an organization, Cortex wins because you ingest it. So the more traffic you see, Prisma airs and network security wins because you need bigger firewalls on software, hardware, and SASE. So the only place where you don't see a direct correlation outside of enterprise licensing is Idara, but Idara also, that's why we're building agentic capabilities. the more number of agents you see is going to drive more non-human identity and ideas. So we're pivoting to ensure all of our businesses are aligned towards token flow",
+   "parts": [
+    {
+     "t0_ms": 3110130,
+     "text": "the new business of Applied Compute, observability and Applied Compute are both"
+    },
+    {
+     "t0_ms": 3115610,
+     "text": "traffic determined. The more traffic that flows to the AI ecosystem, observability wins."
+    },
+    {
+     "t0_ms": 3119610,
+     "text": "The more traffic that is needed in the AI ecosystem, applied compute wins."
+    },
+    {
+     "t0_ms": 3123670,
+     "text": "The more traffic that is run through an organization, Cortex wins because you ingest it."
+    },
+    {
+     "t0_ms": 3128090,
+     "text": "So the more traffic you see, Prisma"
+    },
+    {
+     "t0_ms": 3131470,
+     "text": "airs and network security wins because you need bigger firewalls on software, hardware, and SASE."
+    },
+    {
+     "t0_ms": 3135890,
+     "text": "So the only place where you don't see a direct correlation outside of"
+    },
+    {
+     "t0_ms": 3139470,
+     "text": "enterprise licensing is Idara, but Idara also, that's why we're building agentic capabilities."
+    },
+    {
+     "t0_ms": 3143570,
+     "text": "the more number of agents you see is going to drive more non-human identity and ideas."
+    },
+    {
+     "t0_ms": 3147610,
+     "text": "So we're pivoting to ensure all of our businesses are aligned towards token flow"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3152570,
+   "t1_ms": 3163250,
+   "speaker": "Management",
+   "text": "because over time, as AI gets more and more ubiquitous and as it gets more and more consumptive, we think Palo Alto's business model will align with the consumption of AI.",
+   "parts": [
+    {
+     "t0_ms": 3152570,
+     "text": "because over time, as AI gets more and more ubiquitous and as it gets more and more consumptive,"
+    },
+    {
+     "t0_ms": 3159090,
+     "text": "we think Palo Alto's business model will align with the consumption of AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3163950,
+   "t1_ms": 3165390,
+   "speaker": "Analyst",
+   "text": "I like the framing. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3163950,
+     "text": "I like the framing. Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3167210,
+   "t1_ms": 3171450,
+   "speaker": "Operator",
+   "text": "Thank you, Gabriella. And we'll take our last question from John DeFucci at Guggenheim.",
+   "parts": [
+    {
+     "t0_ms": 3167210,
+     "text": "Thank you, Gabriella."
+    },
+    {
+     "t0_ms": 3168490,
+     "text": "And we'll take our last question from John DeFucci at Guggenheim."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3171450,
+   "t1_ms": 3205050,
+   "speaker": "Analyst",
+   "text": "Thanks, Hansa. And nice job, everybody. This is a really strong result. Everybody can see that. But this acquisition is so different from what you do today in a lot of ways. And that became apparent with Deepak's prepared comments. But Nikesh, is the compute realm something we should think about you personally having experience with, given your experience prior to Palo? And Deepak, how should we think about the financial profile of Palo Alto over time? especially if this business matches your aspirations?",
+   "parts": [
+    {
+     "t0_ms": 3171450,
+     "text": "Thanks, Hansa. And nice job, everybody. This is a really strong result. Everybody can see that."
+    },
+    {
+     "t0_ms": 3178730,
+     "text": "But this acquisition is so different from what you do today in a lot of ways. And that became"
+    },
+    {
+     "t0_ms": 3183110,
+     "text": "apparent with Deepak's prepared comments. But Nikesh, is the compute realm something we should"
+    },
+    {
+     "t0_ms": 3190210,
+     "text": "think about you personally having experience with, given your experience prior to Palo?"
+    },
+    {
+     "t0_ms": 3195770,
+     "text": "And Deepak, how should we think about the financial profile of Palo Alto over time?"
+    },
+    {
+     "t0_ms": 3201450,
+     "text": "especially if this business"
+    },
+    {
+     "t0_ms": 3202870,
+     "text": "matches your aspirations?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3206110,
+   "t1_ms": 3250130,
+   "speaker": "Management",
+   "text": "Jonathan, as you know, I made a career out of doing things which I don't have experience in. So you can rely on my lack of experience in compute to make me win in compute. Sorry, that was a joke because he asked about my experience in compute. It's not hard to understand compute. You take a large piece of land, you make sure it's got power, you make sure that it's got water so you can air cool the, water cool the chips, you make sure you get some chips from one of your friends, and you go out and build a large data center. Well, good news is there's a lot of people doing that building right now. So Applied Compute currently has a bunch of compute contracts available with these large players. In addition to that, obviously, we are a large consumer of AWS Compute and a large consumer of GCP Compute. We have not had to have compute experience to run our capabilities so far.",
+   "parts": [
+    {
+     "t0_ms": 3206110,
+     "text": "Jonathan, as you know,"
+    },
+    {
+     "t0_ms": 3206750,
+     "text": "I made a career out of doing things"
+    },
+    {
+     "t0_ms": 3208090,
+     "text": "which I don't have experience in."
+    },
+    {
+     "t0_ms": 3210750,
+     "text": "So you can rely on my lack of experience"
+    },
+    {
+     "t0_ms": 3213270,
+     "text": "in compute to make me win in compute."
+    },
+    {
+     "t0_ms": 3215690,
+     "text": "Sorry, that was a joke"
+    },
+    {
+     "t0_ms": 3216350,
+     "text": "because he asked about my experience in compute."
+    },
+    {
+     "t0_ms": 3218930,
+     "text": "It's not hard to understand compute."
+    },
+    {
+     "t0_ms": 3220750,
+     "text": "You take a large piece of land,"
+    },
+    {
+     "t0_ms": 3222470,
+     "text": "you make sure it's got power,"
+    },
+    {
+     "t0_ms": 3223510,
+     "text": "you make sure that it's got water"
+    },
+    {
+     "t0_ms": 3224710,
+     "text": "so you can air cool the,"
+    },
+    {
+     "t0_ms": 3225810,
+     "text": "water cool the chips,"
+    },
+    {
+     "t0_ms": 3227090,
+     "text": "you make sure you get some chips"
+    },
+    {
+     "t0_ms": 3228110,
+     "text": "from one of your friends,"
+    },
+    {
+     "t0_ms": 3229290,
+     "text": "and you go out and build a large data center."
+    },
+    {
+     "t0_ms": 3231170,
+     "text": "Well, good news is there's a lot of people doing that building right now."
+    },
+    {
+     "t0_ms": 3233430,
+     "text": "So Applied Compute currently has a bunch of compute contracts available with these large players."
+    },
+    {
+     "t0_ms": 3238930,
+     "text": "In addition to that, obviously, we are a large consumer of AWS Compute and a large consumer of GCP Compute."
+    },
+    {
+     "t0_ms": 3246850,
+     "text": "We have not had to have compute experience to run our capabilities so far."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3250570,
+   "t1_ms": 3295330,
+   "speaker": "Management",
+   "text": "Maybe we don't, and maybe we will do some inference partnerships to get more compute as we grow. The first thing in my mind in Applied Compute is generate demand. Generating demand requires us to convince enterprises that they need to go with Palo Alto and Applied Compute because they need to get secure inference delivered to them and secure training. And we can build that on pay-as-you-go compute. We can build that on three-year contracts on compute, which are already in place with Applied Compute. It doesn't require us to become compute experts. Of course, as we see demand grow, if you want to extract more margin from the compute line, then we can make sure that we get into the risk business of aggregating compute. That becomes a different conversation. And again, we've said that we aspire to have 100 to 150 megawatts of compute. I can do that with a new cloud. I can do that with all the cloud providers out there.",
+   "parts": [
+    {
+     "t0_ms": 3250570,
+     "text": "Maybe we don't, and maybe we will do some inference partnerships to get more compute as we grow."
+    },
+    {
+     "t0_ms": 3256030,
+     "text": "The first thing in my mind in Applied Compute is generate demand."
+    },
+    {
+     "t0_ms": 3259430,
+     "text": "Generating demand requires us to convince enterprises that they need to go with Palo Alto and Applied Compute"
+    },
+    {
+     "t0_ms": 3263990,
+     "text": "because they need to get secure inference delivered to them and secure training."
+    },
+    {
+     "t0_ms": 3268530,
+     "text": "And we can build that on pay-as-you-go compute."
+    },
+    {
+     "t0_ms": 3271890,
+     "text": "We can build that on three-year contracts on compute, which are already in place with Applied Compute."
+    },
+    {
+     "t0_ms": 3276310,
+     "text": "It doesn't require us to become compute experts."
+    },
+    {
+     "t0_ms": 3278090,
+     "text": "Of course, as we see demand grow, if you want to extract more margin from the compute line,"
+    },
+    {
+     "t0_ms": 3282390,
+     "text": "then we can make sure that we get into the risk business of aggregating compute."
+    },
+    {
+     "t0_ms": 3286970,
+     "text": "That becomes a different conversation."
+    },
+    {
+     "t0_ms": 3288230,
+     "text": "And again, we've said that we aspire to have 100 to 150 megawatts of compute."
+    },
+    {
+     "t0_ms": 3292210,
+     "text": "I can do that with a new cloud."
+    },
+    {
+     "t0_ms": 3293690,
+     "text": "I can do that with all the cloud providers out there."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3295510,
+   "t1_ms": 3311750,
+   "speaker": "Management",
+   "text": "I don't need to be an expert yet. If you go past that and you start talking gigawatts, yes, then I have to worry about being a compute specialist. Until then, I think we can manage. I think the key here is to drive more top-line growth, which is going to be driven by secure delivery of inference to the enterprise and training.",
+   "parts": [
+    {
+     "t0_ms": 3295510,
+     "text": "I don't need to be an expert yet."
+    },
+    {
+     "t0_ms": 3297210,
+     "text": "If you go past that and you start talking gigawatts, yes,"
+    },
+    {
+     "t0_ms": 3299550,
+     "text": "then I have to worry about being a compute specialist."
+    },
+    {
+     "t0_ms": 3301730,
+     "text": "Until then, I think we can manage."
+    },
+    {
+     "t0_ms": 3303670,
+     "text": "I think the key here is to drive more top-line growth,"
+    },
+    {
+     "t0_ms": 3306990,
+     "text": "which is going to be driven by secure delivery of inference to the enterprise and training."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3312830,
+   "t1_ms": 3318310,
+   "speaker": "Analyst",
+   "text": "Okay. Thanks. And Deepak, how is that going to affect the financial profile over time?",
+   "parts": [
+    {
+     "t0_ms": 3312830,
+     "text": "Okay. Thanks."
+    },
+    {
+     "t0_ms": 3313850,
+     "text": "And Deepak, how is that going to affect the financial profile over time?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3319130,
+   "t1_ms": 3356310,
+   "speaker": "Management",
+   "text": "Look, I think the most important part, John, is to understand that we're taking a capital light approach. Right. I think we do have many options. I think I talked about in my prepared remarks what we think the impact is going to be on our financials in the short term and the medium term and more broadly in the long term. But I think our North Star is to make sure that we provide the security profile that's needed for enterprises to act. And that's where we think the money will be made. And that continues to be a profit zone. Then we'll just have another segment that's very profitable.",
+   "parts": [
+    {
+     "t0_ms": 3319130,
+     "text": "Look, I think the most important part, John, is to understand that we're taking a capital light approach."
+    },
+    {
+     "t0_ms": 3326050,
+     "text": "Right. I think we do have many options."
+    },
+    {
+     "t0_ms": 3329430,
+     "text": "I think I talked about in my prepared remarks what we think the impact is going to be on our financials in the short term and the medium term and more broadly in the long term."
+    },
+    {
+     "t0_ms": 3338850,
+     "text": "But I think our North Star is to make sure that we provide the security profile that's needed for enterprises to act."
+    },
+    {
+     "t0_ms": 3347530,
+     "text": "And that's where we think the money will be made."
+    },
+    {
+     "t0_ms": 3351530,
+     "text": "And that continues to be a profit zone."
+    },
+    {
+     "t0_ms": 3353470,
+     "text": "Then we'll just have another segment that's very profitable."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3357430,
+   "t1_ms": 3366170,
+   "speaker": "Analyst",
+   "text": "Well, you guys have made a lot of bold moves. And so far, at least from my observation, they've been pretty right on. So we'll see how this goes. Thank you.",
+   "parts": [
+    {
+     "t0_ms": 3357430,
+     "text": "Well, you guys have made a lot of bold moves."
+    },
+    {
+     "t0_ms": 3359930,
+     "text": "And so far, at least from my observation, they've been pretty right on."
+    },
+    {
+     "t0_ms": 3364010,
+     "text": "So we'll see how this goes."
+    },
+    {
+     "t0_ms": 3365810,
+     "text": "Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3367230,
+   "t1_ms": 3371830,
+   "speaker": "Operator",
+   "text": "Thank you, John. that concludes the Q&A portion of the call I'll turn it back to Nikesh for concluding remarks",
+   "parts": [
+    {
+     "t0_ms": 3367230,
+     "text": "Thank you, John."
+    },
+    {
+     "t0_ms": 3367970,
+     "text": "that concludes the Q&A portion of the call"
+    },
+    {
+     "t0_ms": 3370050,
+     "text": "I'll turn it back to Nikesh for concluding remarks"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3371830,
+   "t1_ms": 3386690,
+   "speaker": "Management",
+   "text": "I just want to say thank you to all of our employees and our partners and our customers for trusting in us and our employees for doing a lot of hard work to get us here this is a great start to our fiscal year and I hope we continue to work hard to deliver again. Thanks everyone thanks for joining the call",
+   "parts": [
+    {
+     "t0_ms": 3371830,
+     "text": "I just want to say thank you to all"
+    },
+    {
+     "t0_ms": 3374330,
+     "text": "of our employees and our partners"
+    },
+    {
+     "t0_ms": 3375970,
+     "text": "and our customers for trusting in us"
+    },
+    {
+     "t0_ms": 3377790,
+     "text": "and our employees for doing a lot of hard work to get us here"
+    },
+    {
+     "t0_ms": 3380250,
+     "text": "this is a great start to our fiscal year"
+    },
+    {
+     "t0_ms": 3382470,
+     "text": "and I hope we continue to work hard"
+    },
+    {
+     "t0_ms": 3384350,
+     "text": "to deliver again. Thanks everyone"
+    },
+    {
+     "t0_ms": 3385990,
+     "text": "thanks for joining the call"
+    }
+   ]
+  }
+ ]
+}

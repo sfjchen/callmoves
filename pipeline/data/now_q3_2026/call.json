@@ -1,0 +1,3835 @@
+{
+ "ticker": "NOW",
+ "quarter": "Q3-2026",
+ "company": "ServiceNow",
+ "call_start": "2026-10-28T17:00:00-04:00",
+ "etf": "XLK",
+ "audio_url": "https://huggingface.co/datasets/jchen04/callmoves-audio/resolve/main/NOW_Q3-2026.mp3",
+ "audio_offset_ms": 0,
+ "segments": [
+  {
+   "t0_ms": 0,
+   "t1_ms": 24060,
+   "speaker": "Operator",
+   "text": "Hello, everyone. Thank you for joining us and welcome to the third quarter 2026 ServiceNow Earnings Conference Call. After today's prepared remarks, we will host a question and answer session. If you would like to ask a question, please press star 1 to raise your hand. To withdraw your question, press star 1 again. I will now hand the conference over to Darren Yip, Senior Vice President, Investor Relations and Market Insights. Darren, please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 0,
+     "text": "Hello, everyone. Thank you for joining us and welcome to the third quarter 2026 ServiceNow"
+    },
+    {
+     "t0_ms": 4600,
+     "text": "Earnings Conference Call. After today's prepared remarks, we will host a question and answer"
+    },
+    {
+     "t0_ms": 9380,
+     "text": "session. If you would like to ask a question, please press star 1 to raise your hand. To"
+    },
+    {
+     "t0_ms": 15020,
+     "text": "withdraw your question, press star 1 again. I will now hand the conference over to Darren Yip,"
+    },
+    {
+     "t0_ms": 20160,
+     "text": "Senior Vice President, Investor Relations and Market Insights. Darren, please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 24960,
+   "t1_ms": 66700,
+   "speaker": "Management",
+   "text": "Good afternoon and thank you for joining ServiceNow's third quarter 2026 Earnings conference call. Joining me are Bill McDermott, our Chairman and Chief Executive Officer, Gina Mastantuno, our President and Chief Financial Officer, and Amit Zaveri, President, Chief Product Officer, and Chief Operating Officer. During today's call, we will review our third quarter 2026 results and discuss our guidance for the fourth quarter and full year 2026. Before we get started, we want to emphasize that the information discussed on this call, including our guidance, is based on information as of today and contains forward-looking statements that involve risks, uncertainties, and assumptions. We undertake no duty or obligation to update such",
+   "parts": [
+    {
+     "t0_ms": 24960,
+     "text": "Good afternoon and thank you for joining ServiceNow's third quarter 2026 Earnings"
+    },
+    {
+     "t0_ms": 29440,
+     "text": "conference call. Joining me are Bill McDermott, our Chairman and Chief Executive Officer,"
+    },
+    {
+     "t0_ms": 34660,
+     "text": "Gina Mastantuno, our President and Chief Financial Officer, and Amit Zaveri, President,"
+    },
+    {
+     "t0_ms": 39960,
+     "text": "Chief Product Officer, and Chief Operating Officer. During today's call, we will review"
+    },
+    {
+     "t0_ms": 45040,
+     "text": "our third quarter 2026 results and discuss our guidance for the fourth quarter and full year"
+    },
+    {
+     "t0_ms": 49740,
+     "text": "2026. Before we get started, we want to emphasize that the information discussed on this call,"
+    },
+    {
+     "t0_ms": 55420,
+     "text": "including our guidance, is based on information as of today and contains forward-looking statements"
+    },
+    {
+     "t0_ms": 60440,
+     "text": "that involve risks, uncertainties, and assumptions. We undertake no duty or obligation to update such"
+    }
+   ]
+  },
+  {
+   "t0_ms": 66700,
+   "t1_ms": 109640,
+   "speaker": "Management",
+   "text": "statements as a result of new information or future events. Please refer to today's earnings press release and our SEC filings, including our most recent 10-Q and 10-K, for factors that may cause actual results to differ materially from our forward-looking statements. We'd also like point out that we present non-GAAP measures in addition to and not as a substitute for financial measures calculated in accordance with GAAP. Unless otherwise noted, all financial measures and related growth rates we discussed today are non-GAAP except for revenues, remaining performance obligations or RPO, current RPO, and cash and investments. To see the reconciliation between these non-GAAP and GAAP measures, please refer to today's earnings press release and",
+   "parts": [
+    {
+     "t0_ms": 66700,
+     "text": "statements as a result of new information or future events. Please refer to today's earnings"
+    },
+    {
+     "t0_ms": 72180,
+     "text": "press release and our SEC filings, including our most recent 10-Q and 10-K, for factors that may"
+    },
+    {
+     "t0_ms": 77720,
+     "text": "cause actual results to differ materially from our forward-looking statements. We'd also like"
+    },
+    {
+     "t0_ms": 83160,
+     "text": "point out that we present non-GAAP measures in addition to and not as a substitute for"
+    },
+    {
+     "t0_ms": 88280,
+     "text": "financial measures calculated in accordance with GAAP. Unless otherwise noted, all financial"
+    },
+    {
+     "t0_ms": 93480,
+     "text": "measures and related growth rates we discussed today are non-GAAP except for revenues, remaining"
+    },
+    {
+     "t0_ms": 98120,
+     "text": "performance obligations or RPO, current RPO, and cash and investments. To see the reconciliation"
+    },
+    {
+     "t0_ms": 105320,
+     "text": "between these non-GAAP and GAAP measures, please refer to today's earnings press release and"
+    }
+   ]
+  },
+  {
+   "t0_ms": 109640,
+   "t1_ms": 154380,
+   "speaker": "Management",
+   "text": "and investor presentation, which are both posted on our website at investors.servicenow.com. A replay of today's call will also be posted on our website. With that, I'll turn the call over to Bill. Thank you, Darren, and thank you everyone for joining today's call. For more than seven years now, I've said ServiceNow is a one-on-one company, one of one. As you'll hear, these Q3 results represent a trifecta moment for ServiceNow. Quarterly results beating expectations across the board again, significantly accelerating AI performance at the largest quantum yet, a hybrid business model shifting more to consumption. So let's do the standard results",
+   "parts": [
+    {
+     "t0_ms": 109640,
+     "text": "and investor presentation, which are both posted on our website at investors.servicenow.com."
+    },
+    {
+     "t0_ms": 116420,
+     "text": "A replay of today's call will also be posted on our website. With that, I'll turn the call over"
+    },
+    {
+     "t0_ms": 121420,
+     "text": "to Bill. Thank you, Darren, and thank you everyone for joining today's call. For more than seven"
+    },
+    {
+     "t0_ms": 126440,
+     "text": "years now, I've said ServiceNow is a one-on-one company, one of one. As you'll hear, these Q3"
+    },
+    {
+     "t0_ms": 132740,
+     "text": "results represent a trifecta moment for ServiceNow. Quarterly results beating expectations"
+    },
+    {
+     "t0_ms": 139080,
+     "text": "across the board again, significantly accelerating AI performance at the largest quantum yet,"
+    },
+    {
+     "t0_ms": 148160,
+     "text": "a hybrid business model shifting more to consumption. So let's do the standard results"
+    }
+   ]
+  },
+  {
+   "t0_ms": 154380,
+   "t1_ms": 196960,
+   "speaker": "Management",
+   "text": "first. Subscription revenue growth was 20.5% in constant currency, 50 basis points above the high of our guidance CRPO was 21% in constant currency 100 basis points above our guidance operating margin was 32 and a half percent 150 basis points above our guidance free cash flow margin was 20% we had 19 deals greater than 5 million net new ACV in Q3, up 135% year-over-year. We have a $30 billion remaining performance obligation",
+   "parts": [
+    {
+     "t0_ms": 154380,
+     "text": "first. Subscription revenue growth was 20.5% in constant currency, 50 basis points above the high"
+    },
+    {
+     "t0_ms": 162900,
+     "text": "of our guidance CRPO was 21% in constant currency 100 basis points above our"
+    },
+    {
+     "t0_ms": 172660,
+     "text": "guidance operating margin was 32 and a half percent 150 basis points above our"
+    },
+    {
+     "t0_ms": 179940,
+     "text": "guidance free cash flow margin was 20% we had 19 deals greater than 5 million"
+    },
+    {
+     "t0_ms": 186600,
+     "text": "net new ACV in Q3, up 135% year-over-year. We have a $30 billion remaining performance obligation"
+    }
+   ]
+  },
+  {
+   "t0_ms": 196960,
+   "t1_ms": 235740,
+   "speaker": "Management",
+   "text": "growing at 23% year-over-year. That's growth at scale. To my trifecta point, here is where the Q3 print gets even more dynamic. For many quarters now, we've been aggressively building the consumption engine into the business model. Our ambition is to be the governed execution layer for enterprise AI, with multiple commercialization paths, all driven by customer choice. Q3 is the banner achievement to date. The strategy is working. We have tangible AI monetization.",
+   "parts": [
+    {
+     "t0_ms": 196960,
+     "text": "growing at 23% year-over-year. That's growth at scale. To my trifecta point, here is where the"
+    },
+    {
+     "t0_ms": 205840,
+     "text": "Q3 print gets even more dynamic. For many quarters now, we've been aggressively building the"
+    },
+    {
+     "t0_ms": 211900,
+     "text": "consumption engine into the business model. Our ambition is to be the governed execution layer"
+    },
+    {
+     "t0_ms": 219280,
+     "text": "for enterprise AI, with multiple commercialization paths, all driven by customer choice."
+    },
+    {
+     "t0_ms": 228400,
+     "text": "Q3 is the banner achievement to date. The strategy is working. We have tangible AI monetization."
+    }
+   ]
+  },
+  {
+   "t0_ms": 236640,
+   "t1_ms": 276340,
+   "speaker": "Management",
+   "text": "AI, net new, ACV, was 65% year-over-year growth in Q3. Control Tower, net new, ACV, grew over 6x year-over-year. Our agentic front door, Employee Works, reached 100 million ACV in less than three quarters. The number of 1 million-plus AI deals grew 4.5x year-over-year. Year-to-date, agentic AI consumption in production is up 13x year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 236640,
+     "text": "AI, net new, ACV, was 65% year-over-year growth in Q3."
+    },
+    {
+     "t0_ms": 243880,
+     "text": "Control Tower, net new, ACV, grew over 6x year-over-year."
+    },
+    {
+     "t0_ms": 249800,
+     "text": "Our agentic front door, Employee Works, reached 100 million ACV in less than three quarters."
+    },
+    {
+     "t0_ms": 258740,
+     "text": "The number of 1 million-plus AI deals grew 4.5x year-over-year."
+    },
+    {
+     "t0_ms": 268720,
+     "text": "Year-to-date, agentic AI consumption in production is up 13x year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 276860,
+   "t1_ms": 321440,
+   "speaker": "Management",
+   "text": "If you look at the consumption of action fabric assists alone, that number is up 500% month-over-month. This is not only the direction of our customers, this is where they want us to go. It's the right direction for long-term shareholder value creation as well. As a reminder, we began the year with a billion-dollar AI target by year end. We raised that target to $1.5 billion at Financial Analyst Day in May. Today, we are raising that target again, this time to $1.7 billion plus by year end.",
+   "parts": [
+    {
+     "t0_ms": 276860,
+     "text": "If you look at the consumption of action fabric assists alone, that number is up 500% month-over-month."
+    },
+    {
+     "t0_ms": 288080,
+     "text": "This is not only the direction of our customers, this is where they want us to go."
+    },
+    {
+     "t0_ms": 294340,
+     "text": "It's the right direction for long-term shareholder value creation as well."
+    },
+    {
+     "t0_ms": 300240,
+     "text": "As a reminder, we began the year with a billion-dollar AI target by year end."
+    },
+    {
+     "t0_ms": 305860,
+     "text": "We raised that target to $1.5 billion at Financial Analyst Day in May."
+    },
+    {
+     "t0_ms": 312400,
+     "text": "Today, we are raising that target again, this time to $1.7 billion plus by year end."
+    }
+   ]
+  },
+  {
+   "t0_ms": 321440,
+   "t1_ms": 362720,
+   "speaker": "Management",
+   "text": "And as you've come to know me pretty well by now, I've challenged the team to even surpass that number. Overall, the company is now full speed in our Q4, and Gina will give you the guide shortly. But I don't want you to wait too long. She will raise. As everyone on this call knows, ServiceNow always closes strong. We have no intention of delivering anything less than the best year in our history. Let's spend a few minutes on what remains a very complex environment for the enterprise. We hosted our biannual CEO event with more than 125 CEOs a few weeks ago. Here's what I heard.",
+   "parts": [
+    {
+     "t0_ms": 321440,
+     "text": "And as you've come to know me pretty well by now, I've challenged the team to even surpass that number."
+    },
+    {
+     "t0_ms": 329140,
+     "text": "Overall, the company is now full speed in our Q4, and Gina will give you the guide shortly."
+    },
+    {
+     "t0_ms": 335740,
+     "text": "But I don't want you to wait too long."
+    },
+    {
+     "t0_ms": 337880,
+     "text": "She will raise."
+    },
+    {
+     "t0_ms": 339500,
+     "text": "As everyone on this call knows, ServiceNow always closes strong."
+    },
+    {
+     "t0_ms": 344520,
+     "text": "We have no intention of delivering anything less than the best year in our history."
+    },
+    {
+     "t0_ms": 349280,
+     "text": "Let's spend a few minutes on what remains a very complex environment for the enterprise."
+    },
+    {
+     "t0_ms": 355100,
+     "text": "We hosted our biannual CEO event with more than 125 CEOs a few weeks ago."
+    },
+    {
+     "t0_ms": 361840,
+     "text": "Here's what I heard."
+    }
+   ]
+  },
+  {
+   "t0_ms": 363180,
+   "t1_ms": 395040,
+   "speaker": "Management",
+   "text": "All of them are investing in the intelligence revolution. They've spent billions on it so far. They all went through the token maxing phase. Here's the big lesson they all learned. All of the vibe slop flops. Sprawl and lack of integration are even greater risks in the AI world. When I spoke to them about ServiceNow's role as a super intelligence control tower for business reinvention, their endorsement was universal.",
+   "parts": [
+    {
+     "t0_ms": 363180,
+     "text": "All of them are investing in the intelligence revolution."
+    },
+    {
+     "t0_ms": 367400,
+     "text": "They've spent billions on it so far."
+    },
+    {
+     "t0_ms": 370220,
+     "text": "They all went through the token maxing phase."
+    },
+    {
+     "t0_ms": 373760,
+     "text": "Here's the big lesson they all learned."
+    },
+    {
+     "t0_ms": 376280,
+     "text": "All of the vibe slop flops."
+    },
+    {
+     "t0_ms": 380480,
+     "text": "Sprawl and lack of integration are even greater risks in the AI world."
+    },
+    {
+     "t0_ms": 385840,
+     "text": "When I spoke to them about ServiceNow's role as a super intelligence control tower for business reinvention,"
+    },
+    {
+     "t0_ms": 392880,
+     "text": "their endorsement was universal."
+    }
+   ]
+  },
+  {
+   "t0_ms": 395900,
+   "t1_ms": 434360,
+   "speaker": "Management",
+   "text": "Our SICT, Super Intelligent Control Tower, brings together the right model for the right workload to solve the right problem and unlock the right opportunity for our customers. Businesses in every industry need a harness for enterprise AI. This is more than orchestration, governance, or security alone. It's the nexus of all three categories coming together. We're now in the rules and rails phase of enterprise intelligence. 94% of enterprises report gaps in AI visibility.",
+   "parts": [
+    {
+     "t0_ms": 395900,
+     "text": "Our SICT, Super Intelligent Control Tower, brings together the right model for the right workload to solve the right problem and unlock the right opportunity for our customers."
+    },
+    {
+     "t0_ms": 409620,
+     "text": "Businesses in every industry need a harness for enterprise AI."
+    },
+    {
+     "t0_ms": 414120,
+     "text": "This is more than orchestration, governance, or security alone."
+    },
+    {
+     "t0_ms": 419400,
+     "text": "It's the nexus of all three categories coming together."
+    },
+    {
+     "t0_ms": 425040,
+     "text": "We're now in the rules and rails phase of enterprise intelligence."
+    },
+    {
+     "t0_ms": 429420,
+     "text": "94% of enterprises report gaps in AI visibility."
+    }
+   ]
+  },
+  {
+   "t0_ms": 434360,
+   "t1_ms": 478240,
+   "speaker": "Management",
+   "text": "88% can't even distinguish personal AI accounts from corporate instances. ServiceNow's control tower discovers and inventories the entire AI estate. As stories of rogue agents persist, ServiceNow controls what agents can do. That's why we introduced AI Passport to issue every agent an official attested record based on context in our platform. Who owns the agent? What's it allowed to do? What data can it access? How much risk exposure is it allowed to take?",
+   "parts": [
+    {
+     "t0_ms": 434360,
+     "text": "88% can't even distinguish personal AI accounts from corporate instances."
+    },
+    {
+     "t0_ms": 443060,
+     "text": "ServiceNow's control tower discovers and inventories the entire AI estate."
+    },
+    {
+     "t0_ms": 449840,
+     "text": "As stories of rogue agents persist, ServiceNow controls what agents can do."
+    },
+    {
+     "t0_ms": 458540,
+     "text": "That's why we introduced AI Passport to issue every agent an official attested record based on context in our platform."
+    },
+    {
+     "t0_ms": 469900,
+     "text": "Who owns the agent?"
+    },
+    {
+     "t0_ms": 471600,
+     "text": "What's it allowed to do?"
+    },
+    {
+     "t0_ms": 473300,
+     "text": "What data can it access?"
+    },
+    {
+     "t0_ms": 475280,
+     "text": "How much risk exposure is it allowed to take?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 478240,
+   "t1_ms": 522240,
+   "speaker": "Management",
+   "text": "This enables the most capable kill switch available in the enterprise today. When our control tower revokes a passport, NVIDIA Century stops honoring it, and the agent stops at the infrastructure layer. We are scaling that capacity everywhere. Our control tower signals Okta, Microsoft Azure AI Foundry, and Google Gemini enterprise agent platform so they can cut off the agent's access wherever it runs. ServiceNow already sits at the operational core of the world's largest enterprises, the CMDB, the Workflow Data Fabric,",
+   "parts": [
+    {
+     "t0_ms": 478240,
+     "text": "This enables the most capable kill switch available in the enterprise today."
+    },
+    {
+     "t0_ms": 483780,
+     "text": "When our control tower revokes a passport, NVIDIA Century stops honoring it, and the agent stops at the infrastructure layer."
+    },
+    {
+     "t0_ms": 494840,
+     "text": "We are scaling that capacity everywhere."
+    },
+    {
+     "t0_ms": 497600,
+     "text": "Our control tower signals Okta, Microsoft Azure AI Foundry, and Google Gemini enterprise agent platform so they can cut off the agent's access wherever it runs."
+    },
+    {
+     "t0_ms": 512700,
+     "text": "ServiceNow already sits at the operational core of the world's largest enterprises, the CMDB, the Workflow Data Fabric,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 522240,
+   "t1_ms": 557720,
+   "speaker": "Management",
+   "text": "20-plus years of embedded operational intelligence and context across IT, security, and risk. With Armis and VASA, we can now pinpoint specific known vulnerabilities against the cybersecurity landscape that has irreversibly changed. We call this Shift Zero. It moves security from remediation to prevention, from human speed to machine speed, and from blind to governed.",
+   "parts": [
+    {
+     "t0_ms": 522240,
+     "text": "20-plus years of embedded operational intelligence and context across IT, security, and risk."
+    },
+    {
+     "t0_ms": 533900,
+     "text": "With Armis and VASA, we can now pinpoint specific known vulnerabilities against the cybersecurity landscape that has irreversibly changed."
+    },
+    {
+     "t0_ms": 544700,
+     "text": "We call this Shift Zero. It moves security from remediation to prevention, from human speed to machine speed, and from blind to governed."
+    }
+   ]
+  },
+  {
+   "t0_ms": 558260,
+   "t1_ms": 601740,
+   "speaker": "Management",
+   "text": "The average enterprise runs more than 70 security tools. ServiceNow offers a single governed system with proof of what acted, why, and who is accountable. This is not an incremental improvement to a reactive model. It is the replacement to consolidate a fragmented market. It is the gateway to autonomous defense. That's why we're the fastest-growing cybersecurity company at scale and why the growth is accelerating so rapidly. When you're operating in the superintelligence era, the pace of innovation has to keep pace with the growing size of the opportunity.",
+   "parts": [
+    {
+     "t0_ms": 558260,
+     "text": "The average enterprise runs more than 70 security tools. ServiceNow offers a single governed system with proof of what acted, why, and who is accountable."
+    },
+    {
+     "t0_ms": 572720,
+     "text": "This is not an incremental improvement to a reactive model."
+    },
+    {
+     "t0_ms": 576140,
+     "text": "It is the replacement to consolidate a fragmented market."
+    },
+    {
+     "t0_ms": 581300,
+     "text": "It is the gateway to autonomous defense."
+    },
+    {
+     "t0_ms": 584860,
+     "text": "That's why we're the fastest-growing cybersecurity company at scale"
+    },
+    {
+     "t0_ms": 588720,
+     "text": "and why the growth is accelerating so rapidly."
+    },
+    {
+     "t0_ms": 593580,
+     "text": "When you're operating in the superintelligence era,"
+    },
+    {
+     "t0_ms": 596600,
+     "text": "the pace of innovation has to keep pace with the growing size of the opportunity."
+    }
+   ]
+  },
+  {
+   "t0_ms": 601900,
+   "t1_ms": 642180,
+   "speaker": "Management",
+   "text": "I'm really proud of what the ServiceNow team has delivered. Our level one service desk specialist resolves incidents 85% faster than human agents. This is now in full autonomous production across customers of varying size and sector, from a global automotive leader to a leading enterprise technology company. Our AI Ops Specialist has already reduced median time to resolution by 40% within the first month. We now have over 100 customers actively innovating with our AI Specialists.",
+   "parts": [
+    {
+     "t0_ms": 601900,
+     "text": "I'm really proud of what the ServiceNow team has delivered."
+    },
+    {
+     "t0_ms": 606800,
+     "text": "Our level one service desk specialist resolves incidents 85% faster than human agents."
+    },
+    {
+     "t0_ms": 614320,
+     "text": "This is now in full autonomous production across customers of varying size and sector,"
+    },
+    {
+     "t0_ms": 620640,
+     "text": "from a global automotive leader to a leading enterprise technology company."
+    },
+    {
+     "t0_ms": 625420,
+     "text": "Our AI Ops Specialist has already reduced median time to resolution by 40% within the first month."
+    },
+    {
+     "t0_ms": 636140,
+     "text": "We now have over 100 customers actively innovating with our AI Specialists."
+    }
+   ]
+  },
+  {
+   "t0_ms": 642820,
+   "t1_ms": 687100,
+   "speaker": "Management",
+   "text": "AI Ops, HRSD, and CRM Specialists are expected to become generally available in Q4. As enterprises rethink the mandate of their CRM systems, service now is leading the way. The old CRM was built for sales teams. The new one has to work across your entire business. That's a different product. That's a different architecture. And that's why we're seeing customers rip and replace, not just add, alongside. side. Conversational voice AI is the next big leap in connecting the front office to the entire enterprise. The customer conversation is where the work starts. The platform has to carry it",
+   "parts": [
+    {
+     "t0_ms": 642820,
+     "text": "AI Ops, HRSD, and CRM Specialists are expected to become generally available in Q4."
+    },
+    {
+     "t0_ms": 651620,
+     "text": "As enterprises rethink the mandate of their CRM systems, service now is leading the way."
+    },
+    {
+     "t0_ms": 658300,
+     "text": "The old CRM was built for sales teams."
+    },
+    {
+     "t0_ms": 661320,
+     "text": "The new one has to work across your entire business."
+    },
+    {
+     "t0_ms": 665140,
+     "text": "That's a different product."
+    },
+    {
+     "t0_ms": 666580,
+     "text": "That's a different architecture."
+    },
+    {
+     "t0_ms": 667860,
+     "text": "And that's why we're seeing customers rip and replace, not just add, alongside."
+    },
+    {
+     "t0_ms": 673580,
+     "text": "side. Conversational voice AI is the next big leap in connecting the front office to the entire"
+    },
+    {
+     "t0_ms": 680460,
+     "text": "enterprise. The customer conversation is where the work starts. The platform has to carry it"
+    }
+   ]
+  },
+  {
+   "t0_ms": 687100,
+   "t1_ms": 729620,
+   "speaker": "Management",
+   "text": "through every system and workflow behind it. We're redefining how enterprises engage with customers. Our tuck-in of sweep adds deep expertise in rapid agentic deployments, giving us another gear to accelerate while improving customer outcomes. And one year after we brought Logic AI into service now, we've been named the leader and customer favorite in the forest away for configure, price, and quote solutions. We see a similar change in gravity for the employee experience. For the Fortune 500,000, we introduced Flow.",
+   "parts": [
+    {
+     "t0_ms": 687100,
+     "text": "through every system and workflow behind it. We're redefining how enterprises engage with customers."
+    },
+    {
+     "t0_ms": 695020,
+     "text": "Our tuck-in of sweep adds deep expertise in rapid agentic deployments, giving us another gear"
+    },
+    {
+     "t0_ms": 702880,
+     "text": "to accelerate while improving customer outcomes."
+    },
+    {
+     "t0_ms": 707200,
+     "text": "And one year after we brought Logic AI into service now,"
+    },
+    {
+     "t0_ms": 712740,
+     "text": "we've been named the leader and customer favorite in the forest away for configure, price, and quote solutions."
+    },
+    {
+     "t0_ms": 721140,
+     "text": "We see a similar change in gravity for the employee experience."
+    },
+    {
+     "t0_ms": 724640,
+     "text": "For the Fortune 500,000, we introduced Flow."
+    }
+   ]
+  },
+  {
+   "t0_ms": 729620,
+   "t1_ms": 772820,
+   "speaker": "Management",
+   "text": "There are many enterprises that want leading domain expertise but aren't ready for formalized ITSM. Flow fills the gap, a new conversational service desk that is self-serve and consumption-built. A customer that signs up for Flow today can begin using Flow today. That's a big reason it's off to a lightning-fast start with businesses and government agencies around the world. ServiceNow Employee Works continues to be a fast-growth machine. This gives enterprises one place to search, knowledge, get things done, and route work",
+   "parts": [
+    {
+     "t0_ms": 729620,
+     "text": "There are many enterprises that want leading domain expertise but aren't ready for formalized ITSM."
+    },
+    {
+     "t0_ms": 739140,
+     "text": "Flow fills the gap, a new conversational service desk that is self-serve and consumption-built."
+    },
+    {
+     "t0_ms": 747880,
+     "text": "A customer that signs up for Flow today can begin using Flow today."
+    },
+    {
+     "t0_ms": 753720,
+     "text": "That's a big reason it's off to a lightning-fast start with businesses and government agencies"
+    },
+    {
+     "t0_ms": 760400,
+     "text": "around the world."
+    },
+    {
+     "t0_ms": 762340,
+     "text": "ServiceNow Employee Works continues to be a fast-growth machine."
+    },
+    {
+     "t0_ms": 767000,
+     "text": "This gives enterprises one place to search, knowledge, get things done, and route work"
+    }
+   ]
+  },
+  {
+   "t0_ms": 772820,
+   "t1_ms": 816780,
+   "speaker": "Management",
+   "text": "across IT, HR, finance, and procurement. It also becomes the destination for employees to build AI assistance, agents, and automations, all secured by enterprise guardrails. This is only scratching the surface of the groundbreaking innovation on the ServiceNow platform. Even the best platform won't deliver for enterprises alone. ServiceNow Control Tower Alliance is a new ecosystem of leading companies in AI, cloud infrastructure, security, governance, and token management, who will help customers adopt trusted enterprise AI",
+   "parts": [
+    {
+     "t0_ms": 772820,
+     "text": "across IT, HR, finance, and procurement."
+    },
+    {
+     "t0_ms": 777400,
+     "text": "It also becomes the destination for employees"
+    },
+    {
+     "t0_ms": 780120,
+     "text": "to build AI assistance, agents, and automations,"
+    },
+    {
+     "t0_ms": 784860,
+     "text": "all secured by enterprise guardrails."
+    },
+    {
+     "t0_ms": 788560,
+     "text": "This is only scratching the surface"
+    },
+    {
+     "t0_ms": 791200,
+     "text": "of the groundbreaking innovation on the ServiceNow platform."
+    },
+    {
+     "t0_ms": 795800,
+     "text": "Even the best platform won't deliver for enterprises alone."
+    },
+    {
+     "t0_ms": 800840,
+     "text": "ServiceNow Control Tower Alliance is a new ecosystem"
+    },
+    {
+     "t0_ms": 805460,
+     "text": "of leading companies in AI, cloud infrastructure,"
+    },
+    {
+     "t0_ms": 809380,
+     "text": "security, governance, and token management,"
+    },
+    {
+     "t0_ms": 813180,
+     "text": "who will help customers adopt trusted enterprise AI"
+    }
+   ]
+  },
+  {
+   "t0_ms": 816780,
+   "t1_ms": 861720,
+   "speaker": "Management",
+   "text": "safely at scale. Founding partners include Anthropic, AWS, Cisco, Hidden Layer, Kong, Okta, OpenAI, Witness AI, and Zenity. Today's service now announced an expanded partnership with OpenAI to help enterprises move seamlessly from AI reasoning to governed action. The partnership expansion starts with a new ServiceNow plugin for ChatGPT, enabled by ActionFabric. We aim to develop security and risk solutions powered by OpenAI cyber models, a codex integration and AI workflow factory,",
+   "parts": [
+    {
+     "t0_ms": 816780,
+     "text": "safely at scale."
+    },
+    {
+     "t0_ms": 819000,
+     "text": "Founding partners include Anthropic, AWS, Cisco,"
+    },
+    {
+     "t0_ms": 823940,
+     "text": "Hidden Layer, Kong, Okta, OpenAI, Witness AI, and Zenity."
+    },
+    {
+     "t0_ms": 829740,
+     "text": "Today's service now announced an expanded partnership"
+    },
+    {
+     "t0_ms": 833480,
+     "text": "with OpenAI to help enterprises move seamlessly"
+    },
+    {
+     "t0_ms": 837720,
+     "text": "from AI reasoning to governed action."
+    },
+    {
+     "t0_ms": 841600,
+     "text": "The partnership expansion starts"
+    },
+    {
+     "t0_ms": 844580,
+     "text": "with a new ServiceNow plugin for ChatGPT,"
+    },
+    {
+     "t0_ms": 848660,
+     "text": "enabled by ActionFabric."
+    },
+    {
+     "t0_ms": 851340,
+     "text": "We aim to develop security and risk solutions"
+    },
+    {
+     "t0_ms": 854840,
+     "text": "powered by OpenAI cyber models,"
+    },
+    {
+     "t0_ms": 857740,
+     "text": "a codex integration and AI workflow factory,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 861720,
+   "t1_ms": 905960,
+   "speaker": "Management",
+   "text": "and voice-driven governance for ServiceNow's superintelligence control tower. We have very big plans for this partnership, especially in cybersecurity. We expanded the partnership between Google Gemini Enterprise and ServiceNow Action Fabric. Gemini Enterprise provides the conversational front end, while ServiceNow provides the governed industry workflow execution. Our partnership with INRI, a C-prime company, shows what happens when a partner builds on ServiceNow before they sell it. INRI went live on employee works in six weeks. That's the new bar",
+   "parts": [
+    {
+     "t0_ms": 861720,
+     "text": "and voice-driven governance for ServiceNow's superintelligence"
+    },
+    {
+     "t0_ms": 866800,
+     "text": "control tower."
+    },
+    {
+     "t0_ms": 868500,
+     "text": "We have very big plans for this partnership,"
+    },
+    {
+     "t0_ms": 872140,
+     "text": "especially in cybersecurity."
+    },
+    {
+     "t0_ms": 874980,
+     "text": "We expanded the partnership between Google Gemini"
+    },
+    {
+     "t0_ms": 878320,
+     "text": "Enterprise and ServiceNow Action Fabric."
+    },
+    {
+     "t0_ms": 882320,
+     "text": "Gemini Enterprise provides the conversational front end,"
+    },
+    {
+     "t0_ms": 886240,
+     "text": "while ServiceNow provides the governed industry workflow"
+    },
+    {
+     "t0_ms": 890640,
+     "text": "execution. Our partnership with INRI, a C-prime company, shows what happens when a partner builds"
+    },
+    {
+     "t0_ms": 898620,
+     "text": "on ServiceNow before they sell it. INRI went live on employee works in six weeks. That's the new bar"
+    }
+   ]
+  },
+  {
+   "t0_ms": 905960,
+   "t1_ms": 945660,
+   "speaker": "Management",
+   "text": "for time to value rather than the exception. They didn't sell the solution until they lived on it themselves. Median submission time is now down 60%. Completion rates, 97%. ServiceNow and Aramco Digital established an agreement to standardize and govern digital workflows across Aramco's affiliates, subsidiaries, and joint ventures in more than 50 countries. And the list goes on and on. I could end on the countless industry accolades we've earned. Three new Gartner",
+   "parts": [
+    {
+     "t0_ms": 905960,
+     "text": "for time to value rather than the exception. They didn't sell the solution until they lived on it"
+    },
+    {
+     "t0_ms": 913300,
+     "text": "themselves. Median submission time is now down 60%. Completion rates, 97%. ServiceNow and Aramco"
+    },
+    {
+     "t0_ms": 923920,
+     "text": "Digital established an agreement to standardize and govern digital workflows across Aramco's"
+    },
+    {
+     "t0_ms": 931500,
+     "text": "affiliates, subsidiaries, and joint ventures in more than 50 countries. And the list goes on and"
+    },
+    {
+     "t0_ms": 939160,
+     "text": "on. I could end on the countless industry accolades we've earned. Three new Gartner"
+    }
+   ]
+  },
+  {
+   "t0_ms": 945660,
+   "t1_ms": 983520,
+   "speaker": "Management",
+   "text": "Magic Quadrants, two new Forrester Waves, IDC Reports, and many more. Instead, I'll close with the ultimate measure of a defining enterprise technology company, our customers. A major Asian telecommunications leader with over 130,000 employees and contractors became the first enterprise in the region to deploy ServiceNow Autonomous Workforce for a zero-touch help desk in IT and HR. This will handle 70,000 IT requests and 6,000 HR inquiries annually.",
+   "parts": [
+    {
+     "t0_ms": 945660,
+     "text": "Magic Quadrants, two new Forrester Waves, IDC Reports, and many more. Instead, I'll"
+    },
+    {
+     "t0_ms": 953660,
+     "text": "close with the ultimate measure of a defining enterprise technology company, our customers."
+    },
+    {
+     "t0_ms": 960020,
+     "text": "A major Asian telecommunications leader with over 130,000 employees and contractors became"
+    },
+    {
+     "t0_ms": 966740,
+     "text": "the first enterprise in the region to deploy ServiceNow Autonomous Workforce for a zero-touch"
+    },
+    {
+     "t0_ms": 973780,
+     "text": "help desk in IT and HR. This will handle 70,000 IT requests and 6,000 HR inquiries annually."
+    }
+   ]
+  },
+  {
+   "t0_ms": 984440,
+   "t1_ms": 1024180,
+   "speaker": "Management",
+   "text": "The Salvation Army Australia is using ServiceNow AI Specialists to give frontline employees more than 5,000 hours back. So far, time that is redirected towards supporting community members that are in need. Germany's professional soccer league expanded with ServiceNow as its official CRM partner. It's about one month, only one month, they've already consolidated fan services from seven digital channels into a single ServiceNow platform, resolving 89% of inquiries",
+   "parts": [
+    {
+     "t0_ms": 984440,
+     "text": "The Salvation Army Australia is using ServiceNow AI Specialists to give frontline employees more"
+    },
+    {
+     "t0_ms": 991880,
+     "text": "than 5,000 hours back. So far, time that is redirected towards supporting community members"
+    },
+    {
+     "t0_ms": 1000480,
+     "text": "that are in need. Germany's professional soccer league expanded with ServiceNow as its official"
+    },
+    {
+     "t0_ms": 1007660,
+     "text": "CRM partner. It's about one month, only one month, they've already consolidated fan services"
+    },
+    {
+     "t0_ms": 1016140,
+     "text": "from seven digital channels into a single ServiceNow platform, resolving 89% of inquiries"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1024180,
+   "t1_ms": 1063220,
+   "speaker": "Management",
+   "text": "at first contact, cutting previous case volumes in half. When a global logistics leader, Shipman operations were drawing terrible manual work processes across siloed systems that were soul-crushing. ServiceNow built them an AI partner, the shipment issue analyzer. The result is nearly 100,000 hours saved annually, resolution from three days to less than 30 minutes. Jack Henry and Associates, one of the leading financial technology companies in the U.S., chose ServiceNow",
+   "parts": [
+    {
+     "t0_ms": 1024180,
+     "text": "at first contact, cutting previous case volumes in half. When a global logistics leader, Shipman"
+    },
+    {
+     "t0_ms": 1031760,
+     "text": "operations were drawing terrible manual work processes across siloed systems that were"
+    },
+    {
+     "t0_ms": 1040700,
+     "text": "soul-crushing. ServiceNow built them an AI partner, the shipment issue analyzer. The result is nearly"
+    },
+    {
+     "t0_ms": 1048800,
+     "text": "100,000 hours saved annually, resolution from three days to less than 30 minutes. Jack Henry"
+    },
+    {
+     "t0_ms": 1056960,
+     "text": "and Associates, one of the leading financial technology companies in the U.S., chose ServiceNow"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1063220,
+   "t1_ms": 1105380,
+   "speaker": "Management",
+   "text": "CRM to modernize its CRM capabilities with AI that automates routine tasks and strengthens post-sale operations. At a consumer finance company, spotting risk meant sending it nowhere, multiple channels, unclear ownership, legacy systems swallowing signals. Our applied AI FDE team, fully deployed engineers, built them the AI RISC front door, a two-layer agent architecture targeting 85% accuracy. It compressed signal to routed case time by more than 85%.",
+   "parts": [
+    {
+     "t0_ms": 1063220,
+     "text": "CRM to modernize its CRM capabilities with AI that automates routine tasks and strengthens"
+    },
+    {
+     "t0_ms": 1071820,
+     "text": "post-sale operations."
+    },
+    {
+     "t0_ms": 1074040,
+     "text": "At a consumer finance company, spotting risk meant sending it nowhere, multiple channels,"
+    },
+    {
+     "t0_ms": 1080900,
+     "text": "unclear ownership, legacy systems swallowing signals."
+    },
+    {
+     "t0_ms": 1085580,
+     "text": "Our applied AI FDE team, fully deployed engineers, built them the AI RISC front door, a two-layer"
+    },
+    {
+     "t0_ms": 1094400,
+     "text": "agent architecture targeting 85% accuracy."
+    },
+    {
+     "t0_ms": 1099560,
+     "text": "It compressed signal to routed case time by more than 85%."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1105380,
+   "t1_ms": 1149560,
+   "speaker": "Management",
+   "text": "Nestle has started to leverage our control tower to scale AI with strong governance across its operations. They are progressively deploying agentic marketing operations across 60 countries with the potential to reduce marketing campaign coordination by 25%. And together, we continue to drive innovation across all key business functions. Intercontinental Hotels Group, one of the world's largest hospitality and travel services companies is using VASA from ServiceNow to govern who and what can access its systems so it can safely scale across its 7,000 hotels worldwide.",
+   "parts": [
+    {
+     "t0_ms": 1105380,
+     "text": "Nestle has started to leverage our control tower to scale AI with strong governance across"
+    },
+    {
+     "t0_ms": 1111900,
+     "text": "its operations."
+    },
+    {
+     "t0_ms": 1113520,
+     "text": "They are progressively deploying agentic marketing operations across 60 countries with the potential"
+    },
+    {
+     "t0_ms": 1120880,
+     "text": "to reduce marketing campaign coordination by 25%."
+    },
+    {
+     "t0_ms": 1125860,
+     "text": "And together, we continue to drive innovation across all key business functions."
+    },
+    {
+     "t0_ms": 1132180,
+     "text": "Intercontinental Hotels Group, one of the world's largest hospitality and travel services"
+    },
+    {
+     "t0_ms": 1137440,
+     "text": "companies is using VASA from ServiceNow to govern who and what can access its systems"
+    },
+    {
+     "t0_ms": 1143820,
+     "text": "so it can safely scale across its 7,000 hotels worldwide."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1150320,
+   "t1_ms": 1194480,
+   "speaker": "Management",
+   "text": "These amazing enterprises are putting AI to work for people. They're doing it with ServiceNow on our AI platform with the security of our super intelligence control tower. We see clear momentum in AI monetization driven by our organic innovation, our pricing, and our intelligent packaging. Our security business is differentiated with the potential to be even bigger in a few years than all of ServiceNow is today. We're strong across industries, including the public sector, which once again delivered in its biggest quarter of the year. We're not compute constrained.",
+   "parts": [
+    {
+     "t0_ms": 1150320,
+     "text": "These amazing enterprises are putting AI to work for people."
+    },
+    {
+     "t0_ms": 1154200,
+     "text": "They're doing it with ServiceNow on our AI platform with the security of our super intelligence"
+    },
+    {
+     "t0_ms": 1162540,
+     "text": "control tower."
+    },
+    {
+     "t0_ms": 1163480,
+     "text": "We see clear momentum in AI monetization driven by our organic innovation, our pricing, and our intelligent packaging."
+    },
+    {
+     "t0_ms": 1175080,
+     "text": "Our security business is differentiated with the potential to be even bigger in a few years than all of ServiceNow is today."
+    },
+    {
+     "t0_ms": 1184160,
+     "text": "We're strong across industries, including the public sector, which once again delivered in its biggest quarter of the year."
+    },
+    {
+     "t0_ms": 1192400,
+     "text": "We're not compute constrained."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1194980,
+   "t1_ms": 1235800,
+   "speaker": "Management",
+   "text": "We don't have capital constraints. We're activating a hybrid business model. As you'll hear in the raised full-year guidance, we're a company going from the rule of 56 to the rule of 57, on our way to the rule of 60. That, of course, is free cash flow plus revenue growth. We have six businesses that have now surpassed more than a billion run rate with a TAM that continues to multiply and expand. What other businesses are there that can even contemplate these fundamentals? And it's only getting better.",
+   "parts": [
+    {
+     "t0_ms": 1194980,
+     "text": "We don't have capital constraints."
+    },
+    {
+     "t0_ms": 1197420,
+     "text": "We're activating a hybrid business model."
+    },
+    {
+     "t0_ms": 1201040,
+     "text": "As you'll hear in the raised full-year guidance, we're a company going from the rule of 56 to the rule of 57, on our way to the rule of 60."
+    },
+    {
+     "t0_ms": 1214180,
+     "text": "That, of course, is free cash flow plus revenue growth."
+    },
+    {
+     "t0_ms": 1217440,
+     "text": "We have six businesses that have now surpassed more than a billion run rate with a TAM that continues to multiply and expand."
+    },
+    {
+     "t0_ms": 1228360,
+     "text": "What other businesses are there that can even contemplate these fundamentals?"
+    },
+    {
+     "t0_ms": 1234500,
+     "text": "And it's only getting better."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1236120,
+   "t1_ms": 1278000,
+   "speaker": "Management",
+   "text": "As the cost of intelligence falls, the tailwind for software is strengthening. We are a one-of-one growth company. We have deep incumbency in the enterprise with proven global distribution. We're honoring the principle and the promise that the world works with ServiceNow. I really appreciate your belief and support. I look forward to your questions. And now I'll turn things over to our President and Chief Financial Officer, Gina Mastantuno. Gina, over to you. Thank you, Bill. We delivered another strong quarter, exceeding the high end of our guidance across every top-line and profitability metric.",
+   "parts": [
+    {
+     "t0_ms": 1236120,
+     "text": "As the cost of intelligence falls, the tailwind for software is strengthening."
+    },
+    {
+     "t0_ms": 1242120,
+     "text": "We are a one-of-one growth company."
+    },
+    {
+     "t0_ms": 1244380,
+     "text": "We have deep incumbency in the enterprise with proven global distribution."
+    },
+    {
+     "t0_ms": 1250400,
+     "text": "We're honoring the principle and the promise that the world works with ServiceNow."
+    },
+    {
+     "t0_ms": 1255440,
+     "text": "I really appreciate your belief and support."
+    },
+    {
+     "t0_ms": 1258620,
+     "text": "I look forward to your questions."
+    },
+    {
+     "t0_ms": 1260560,
+     "text": "And now I'll turn things over to our President and Chief Financial Officer, Gina Mastantuno."
+    },
+    {
+     "t0_ms": 1267540,
+     "text": "Gina, over to you."
+    },
+    {
+     "t0_ms": 1269600,
+     "text": "Thank you, Bill."
+    },
+    {
+     "t0_ms": 1270520,
+     "text": "We delivered another strong quarter, exceeding the high end of our guidance across every top-line and profitability metric."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1278580,
+   "t1_ms": 1322000,
+   "speaker": "Management",
+   "text": "Q3's results reinforce that ServiceNow is becoming even more strategic as enterprises move from experimenting with AI to deploying it at scale. Customers want the productivity and growth that come with superintelligence, but they also need the visibility and security to do so with confidence. With the ServiceNow AI platform at the operational core of the world's largest enterprises, we are perfectly positioned to help customers put AI to work across their business, govern every agent in action, and translate intelligence into secure, measurable outcomes. Q3 subscription revenues with $3.988 billion growing 20.5% year-over-year in constant currency",
+   "parts": [
+    {
+     "t0_ms": 1278580,
+     "text": "Q3's results reinforce that ServiceNow is becoming even more strategic as enterprises move from experimenting with AI to deploying it at scale."
+    },
+    {
+     "t0_ms": 1288100,
+     "text": "Customers want the productivity and growth that come with superintelligence, but they also need the visibility and security to do so with confidence."
+    },
+    {
+     "t0_ms": 1296540,
+     "text": "With the ServiceNow AI platform at the operational core of the world's largest enterprises, we are perfectly positioned to help customers put AI to work across their business, govern every agent in action, and translate intelligence into secure, measurable outcomes."
+    },
+    {
+     "t0_ms": 1314540,
+     "text": "Q3 subscription revenues with $3.988 billion growing 20.5% year-over-year in constant currency"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1322000,
+   "t1_ms": 1363160,
+   "speaker": "Management",
+   "text": "and 50 basis points above the high end of our guidance. RPO ended the quarter at $29.7 billion, representing 22.5% year-over-year constant currency growth as average customer contract duration continues to expand. Current RPO is $13.65 billion, representing 21% year-over-year constant currency growth, a 100 basis point beat versus our guidance. Across our workflows, we saw widespread demand. Technology workflows had 54 deals over a million, including six over 5 million. Demand for our core workflows remains robust, as every new AI asset",
+   "parts": [
+    {
+     "t0_ms": 1322000,
+     "text": "and 50 basis points above the high end of our guidance."
+    },
+    {
+     "t0_ms": 1326260,
+     "text": "RPO ended the quarter at $29.7 billion, representing 22.5% year-over-year constant currency growth"
+    },
+    {
+     "t0_ms": 1333780,
+     "text": "as average customer contract duration continues to expand."
+    },
+    {
+     "t0_ms": 1338160,
+     "text": "Current RPO is $13.65 billion, representing 21% year-over-year constant currency growth,"
+    },
+    {
+     "t0_ms": 1346160,
+     "text": "a 100 basis point beat versus our guidance."
+    },
+    {
+     "t0_ms": 1349160,
+     "text": "Across our workflows, we saw widespread demand."
+    },
+    {
+     "t0_ms": 1352160,
+     "text": "Technology workflows had 54 deals over a million, including six over 5 million."
+    },
+    {
+     "t0_ms": 1358160,
+     "text": "Demand for our core workflows remains robust, as every new AI asset"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1363160,
+   "t1_ms": 1406360,
+   "speaker": "Management",
+   "text": "Asset and agent introduces greater requirements to manage, monitor, secure, and govern the enterprise. ITSM was in 11 of our top 20 deals. ITOM was in 9 of our top 20 deals with 14 deals over a million. Asset management crossed $1 billion in ACV this quarter. It was in 13 of our top 20 deals with 11 deals over a million. And our security and risk solutions were in 16 of our top 20 deals, with 13 deals over a million. CRM and industry workflows maintained its rapid growth trajectory and were in 13 of our top 20 deals, with 1 million-plus deals surging to 28 in the quarter.",
+   "parts": [
+    {
+     "t0_ms": 1363160,
+     "text": "Asset and agent introduces greater requirements to manage, monitor, secure, and govern the enterprise."
+    },
+    {
+     "t0_ms": 1370980,
+     "text": "ITSM was in 11 of our top 20 deals."
+    },
+    {
+     "t0_ms": 1374220,
+     "text": "ITOM was in 9 of our top 20 deals with 14 deals over a million."
+    },
+    {
+     "t0_ms": 1378780,
+     "text": "Asset management crossed $1 billion in ACV this quarter."
+    },
+    {
+     "t0_ms": 1382140,
+     "text": "It was in 13 of our top 20 deals with 11 deals over a million."
+    },
+    {
+     "t0_ms": 1386640,
+     "text": "And our security and risk solutions were in 16 of our top 20 deals, with 13 deals over a million."
+    },
+    {
+     "t0_ms": 1395560,
+     "text": "CRM and industry workflows maintained its rapid growth trajectory and were in 13 of our top 20 deals, with 1 million-plus deals surging to 28 in the quarter."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1407480,
+   "t1_ms": 1450220,
+   "speaker": "Management",
+   "text": "Core business workflows had 15 deals in the top 20, with 24 deals over a million. and creator workflows had 19 deals in the top 20, with 13 over a million. From an industry perspective, business and consumer services led the way with net new ACV growing over 3X year over year. Technology had robust growth as well at nearly 40%. Our U.S. federal business also delivered an excellent quarter with deals over a million growing over 30% year over year. We expect federal net new ACV growth to accelerate further in Q4, as agencies increasingly see ServiceNow as the AI operating system for the enterprise.",
+   "parts": [
+    {
+     "t0_ms": 1407480,
+     "text": "Core business workflows had 15 deals in the top 20, with 24 deals over a million."
+    },
+    {
+     "t0_ms": 1412120,
+     "text": "and creator workflows had 19 deals in the top 20, with 13 over a million."
+    },
+    {
+     "t0_ms": 1419300,
+     "text": "From an industry perspective, business and consumer services led the way"
+    },
+    {
+     "t0_ms": 1423260,
+     "text": "with net new ACV growing over 3X year over year."
+    },
+    {
+     "t0_ms": 1426960,
+     "text": "Technology had robust growth as well at nearly 40%."
+    },
+    {
+     "t0_ms": 1430760,
+     "text": "Our U.S. federal business also delivered an excellent quarter"
+    },
+    {
+     "t0_ms": 1435080,
+     "text": "with deals over a million growing over 30% year over year."
+    },
+    {
+     "t0_ms": 1439220,
+     "text": "We expect federal net new ACV growth to accelerate further in Q4, as agencies increasingly see ServiceNow as the AI operating system for the enterprise."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1450220,
+   "t1_ms": 1492400,
+   "speaker": "Management",
+   "text": "In Q3, our renewal rate remained best in class at 98%, reflecting the enduring value we deliver to our customers. We ended the quarter with 680 customers generating more than 5 million in ACV, with 31 additional customers surpassing 20 million in ACV over the past year. As our largest customers continue to scale with ServiceNow, they're expanding their platform adoption with 19 of our top 20 deals, including six or more products. The momentum in our AI solutions continues to build. We continue to exceed our AI expectations for the year,",
+   "parts": [
+    {
+     "t0_ms": 1450220,
+     "text": "In Q3, our renewal rate remained best in class at 98%, reflecting the enduring value we deliver to our customers."
+    },
+    {
+     "t0_ms": 1460220,
+     "text": "We ended the quarter with 680 customers generating more than 5 million in ACV,"
+    },
+    {
+     "t0_ms": 1466220,
+     "text": "with 31 additional customers surpassing 20 million in ACV over the past year."
+    },
+    {
+     "t0_ms": 1473040,
+     "text": "As our largest customers continue to scale with ServiceNow,"
+    },
+    {
+     "t0_ms": 1476720,
+     "text": "they're expanding their platform adoption with 19 of our top 20 deals,"
+    },
+    {
+     "t0_ms": 1480800,
+     "text": "including six or more products."
+    },
+    {
+     "t0_ms": 1483940,
+     "text": "The momentum in our AI solutions continues to build."
+    },
+    {
+     "t0_ms": 1488620,
+     "text": "We continue to exceed our AI expectations for the year,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1492400,
+   "t1_ms": 1530840,
+   "speaker": "Management",
+   "text": "with AI net new ACV growing 65% year-over-year in Q3, allowing us to raise our AI ACV target for the second time this year, from a billion at the start of the year to now 1.7 billion by the end of 2026. In Q3, the number of AI deals over a million grew 4.5x year-over-year. We're also seeing customers embrace AI more broadly across their enterprises, with deals spanning five or more AI products, increasing over 8.5x year over year. AI adoption is pervasive across the platform,",
+   "parts": [
+    {
+     "t0_ms": 1492400,
+     "text": "with AI net new ACV growing 65% year-over-year in Q3, allowing us to raise our AI ACV target for"
+    },
+    {
+     "t0_ms": 1500600,
+     "text": "the second time this year, from a billion at the start of the year to now 1.7 billion by the end"
+    },
+    {
+     "t0_ms": 1506460,
+     "text": "of 2026. In Q3, the number of AI deals over a million grew 4.5x year-over-year. We're also"
+    },
+    {
+     "t0_ms": 1515260,
+     "text": "seeing customers embrace AI more broadly across their enterprises, with deals spanning five or"
+    },
+    {
+     "t0_ms": 1521540,
+     "text": "more AI products, increasing over 8.5x year over year. AI adoption is pervasive across the platform,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1531080,
+   "t1_ms": 1574060,
+   "speaker": "Management",
+   "text": "evident in every workflow. ITSM AI deal volume increased nearly 80% year over year. HRSD AI deal volume nearly doubled. Newer AI solutions saw deal volume grow even faster, with ITOM growing more than 7x and portfolio management more than 6.5x. We also saw strong net new ACV momentum with security and risk AI growing more than 4.5x year-over-year, app engine AI more than 4x, and asset management AI nearly tripling. CRM AI had a standout quarter as well, with net new ACV tripling both quarter-over-quarter and year-over-year.",
+   "parts": [
+    {
+     "t0_ms": 1531080,
+     "text": "evident in every workflow. ITSM AI deal volume increased nearly 80% year over year."
+    },
+    {
+     "t0_ms": 1538440,
+     "text": "HRSD AI deal volume nearly doubled. Newer AI solutions saw deal volume grow even faster,"
+    },
+    {
+     "t0_ms": 1545560,
+     "text": "with ITOM growing more than 7x and portfolio management more than 6.5x."
+    },
+    {
+     "t0_ms": 1551540,
+     "text": "We also saw strong net new ACV momentum with security and risk AI growing more than 4.5x"
+    },
+    {
+     "t0_ms": 1558720,
+     "text": "year-over-year, app engine AI more than 4x, and asset management AI nearly tripling."
+    },
+    {
+     "t0_ms": 1566860,
+     "text": "CRM AI had a standout quarter as well, with net new ACV tripling both quarter-over-quarter"
+    },
+    {
+     "t0_ms": 1572760,
+     "text": "and year-over-year."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1575300,
+   "t1_ms": 1618020,
+   "speaker": "Management",
+   "text": "Just as importantly, customers are moving rapidly from adoption to production. As Bill mentioned, our year-to-date consumption of agentic AI in production is up more than 13x year-over-year. We're passionate about helping customers realize value faster. With the help of our forward-deployed engineers, we've seen an accelerated time-to-value of 80% year-to-date. For example, one European customer went live in just 12 weeks and is on track to consume nearly 1.5 million in annual assists. When we provide deployment expertise, as we've seen, AI adoption moved twice as fast in just the first five weeks of involvement.",
+   "parts": [
+    {
+     "t0_ms": 1575300,
+     "text": "Just as importantly, customers are moving rapidly from adoption to production."
+    },
+    {
+     "t0_ms": 1580820,
+     "text": "As Bill mentioned, our year-to-date consumption of agentic AI in production is up more than 13x year-over-year."
+    },
+    {
+     "t0_ms": 1588780,
+     "text": "We're passionate about helping customers realize value faster."
+    },
+    {
+     "t0_ms": 1592520,
+     "text": "With the help of our forward-deployed engineers, we've seen an accelerated time-to-value of 80% year-to-date."
+    },
+    {
+     "t0_ms": 1600400,
+     "text": "For example, one European customer went live in just 12 weeks and is on track to consume nearly 1.5 million in annual assists."
+    },
+    {
+     "t0_ms": 1608780,
+     "text": "When we provide deployment expertise, as we've seen, AI adoption moved twice as fast in just the first five weeks of involvement."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1619360,
+   "t1_ms": 1661020,
+   "speaker": "Management",
+   "text": "Turning to profitability, non-GAAP operating margin was 32.5%, 150 basis points above our guidance, driven by the revenue outperformance, efficiency gains, and timing of spend. From a productivity standpoint, our internal use of AI is now generating more than $1 billion in annualized value, more than double the level we exited 2025. Free cash flow margin was 20%. Together, these results continue to demonstrate our ability to drive a strong balance of world-class growth, profitability, and shareholder value. Moving to our outlook.",
+   "parts": [
+    {
+     "t0_ms": 1619360,
+     "text": "Turning to profitability, non-GAAP operating margin was 32.5%, 150 basis points above our guidance, driven by the revenue outperformance, efficiency gains, and timing of spend."
+    },
+    {
+     "t0_ms": 1632780,
+     "text": "From a productivity standpoint, our internal use of AI is now generating more than $1 billion in annualized value,"
+    },
+    {
+     "t0_ms": 1641700,
+     "text": "more than double the level we exited 2025."
+    },
+    {
+     "t0_ms": 1646020,
+     "text": "Free cash flow margin was 20%."
+    },
+    {
+     "t0_ms": 1648760,
+     "text": "Together, these results continue to demonstrate our ability to drive a strong balance of world-class growth,"
+    },
+    {
+     "t0_ms": 1656100,
+     "text": "profitability, and shareholder value."
+    },
+    {
+     "t0_ms": 1659440,
+     "text": "Moving to our outlook."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1661020,
+   "t1_ms": 1701280,
+   "speaker": "Management",
+   "text": "For 2026, we're raising our subscription revenues by $15 million at the midpoint, from $15.77 billion to $15.785 billion, representing 21% year-over-year growth on a constant currency basis. We are raising our full-year free cash on margin target by 100 basis points, from 35% to 36%, driven by lower CapEx spend. Against a backdrop of growing investor scrutiny around AI-related infrastructure spend and leverage, ServiceNow is positioned to capture the AI opportunity while reducing its capex and expanding free cash flow margins.",
+   "parts": [
+    {
+     "t0_ms": 1661020,
+     "text": "For 2026, we're raising our subscription revenues by $15 million at the midpoint, from $15.77 billion to $15.785 billion, representing 21% year-over-year growth on a constant currency basis."
+    },
+    {
+     "t0_ms": 1676300,
+     "text": "We are raising our full-year free cash on margin target by 100 basis points, from 35% to 36%, driven by lower CapEx spend."
+    },
+    {
+     "t0_ms": 1686440,
+     "text": "Against a backdrop of growing investor scrutiny around AI-related infrastructure spend and leverage, ServiceNow is positioned to capture the AI opportunity while reducing its capex and expanding free cash flow margins."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1702480,
+   "t1_ms": 1745040,
+   "speaker": "Management",
+   "text": "We continue to expect subscription gross margin of 81% and operating margin of 31.5%, up 50 basis points year over year. Our execution has enabled us to fully offset the dilution from acquisitions this year and still deliver meaningful margin expansion across both operating and free cash flow margins, reinforcing the strength and scalability of our business model. Finally, we expect GAAP-diluted weighted average outstanding shares of $1.04 billion. For Q4, we expect subscription revenues between $4.245 billion and $4.255 billion, representing 21.5 year-over-year growth on a constant currency basis.",
+   "parts": [
+    {
+     "t0_ms": 1702480,
+     "text": "We continue to expect subscription gross margin of 81% and operating margin of 31.5%, up 50 basis points year over year."
+    },
+    {
+     "t0_ms": 1711160,
+     "text": "Our execution has enabled us to fully offset the dilution from acquisitions this year and still deliver meaningful margin expansion across both operating and free cash flow margins, reinforcing the strength and scalability of our business model."
+    },
+    {
+     "t0_ms": 1727160,
+     "text": "Finally, we expect GAAP-diluted weighted average outstanding shares of $1.04 billion."
+    },
+    {
+     "t0_ms": 1733740,
+     "text": "For Q4, we expect subscription revenues between $4.245 billion and $4.255 billion,"
+    },
+    {
+     "t0_ms": 1740980,
+     "text": "representing 21.5 year-over-year growth on a constant currency basis."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1745780,
+   "t1_ms": 1782060,
+   "speaker": "Management",
+   "text": "We expect CRPO growth of 18.5% on a constant currency basis. This reflects a higher mix of on-prem deals and excludes a rising balance of T4C backlogs, both of which contribute to revenue but not CRPO. We expect an operating margin of 32%, and we expect $1.05 billion gap-diluted weighted average outstanding shares for the quarter. In closing, Q3 was another strong quarter of execution and accelerating AI adoption. What excites us even more is the scale of the opportunities still in front of us.",
+   "parts": [
+    {
+     "t0_ms": 1745780,
+     "text": "We expect CRPO growth of 18.5% on a constant currency basis."
+    },
+    {
+     "t0_ms": 1750600,
+     "text": "This reflects a higher mix of on-prem deals and excludes a rising balance of T4C backlogs,"
+    },
+    {
+     "t0_ms": 1757160,
+     "text": "both of which contribute to revenue but not CRPO."
+    },
+    {
+     "t0_ms": 1762100,
+     "text": "We expect an operating margin of 32%,"
+    },
+    {
+     "t0_ms": 1764600,
+     "text": "and we expect $1.05 billion gap-diluted weighted average outstanding shares for the quarter."
+    },
+    {
+     "t0_ms": 1771040,
+     "text": "In closing, Q3 was another strong quarter of execution and accelerating AI adoption."
+    },
+    {
+     "t0_ms": 1777580,
+     "text": "What excites us even more is the scale of the opportunities still in front of us."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1782060,
+   "t1_ms": 1823860,
+   "speaker": "Management",
+   "text": "From SI control tower and autonomous security to employee works and our growing portfolio of AI specialists, we're helping customers operationalize AI across the enterprise, turning innovation into measurable business outcomes and ROI. Just as important, we're helping customers accelerate adoption without losing control. This is where ServiceNow is differentiated. By combining workflow, data, AI, and governance on a single platform, we can help customers manage the complexity of the AI era while unlocking its full potential. This gives us confidence in the substantial growth opportunity ahead",
+   "parts": [
+    {
+     "t0_ms": 1782060,
+     "text": "From SI control tower and autonomous security to employee works and our growing portfolio of AI specialists, we're helping customers operationalize AI across the enterprise, turning innovation into measurable business outcomes and ROI."
+    },
+    {
+     "t0_ms": 1799800,
+     "text": "Just as important, we're helping customers accelerate adoption without losing control."
+    },
+    {
+     "t0_ms": 1805060,
+     "text": "This is where ServiceNow is differentiated."
+    },
+    {
+     "t0_ms": 1808180,
+     "text": "By combining workflow, data, AI, and governance on a single platform,"
+    },
+    {
+     "t0_ms": 1813620,
+     "text": "we can help customers manage the complexity of the AI era while unlocking its full potential."
+    },
+    {
+     "t0_ms": 1820340,
+     "text": "This gives us confidence in the substantial growth opportunity ahead"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1823860,
+   "t1_ms": 1848720,
+   "speaker": "Management",
+   "text": "and our ability to create long-term value for customers and shareholders. Bill and I would like to thank our employees around the world for their continued focus execution, and commitment. Their ability to innovate while operating with discipline is what enables us to consistently deliver quarter after quarter. With that, I'll open it up for Q&A.",
+   "parts": [
+    {
+     "t0_ms": 1823860,
+     "text": "and our ability to create long-term value for customers and shareholders."
+    },
+    {
+     "t0_ms": 1829620,
+     "text": "Bill and I would like to thank our employees around the world for their continued focus"
+    },
+    {
+     "t0_ms": 1834580,
+     "text": "execution, and commitment. Their ability to innovate while operating with discipline"
+    },
+    {
+     "t0_ms": 1840540,
+     "text": "is what enables us to consistently deliver quarter after quarter. With that, I'll open it up for Q&A."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1851960,
+   "t1_ms": 1889730,
+   "speaker": "Operator",
+   "text": "We will now begin the question and answer session. Please limit yourself to one question. If you would like to ask a question, please press star one to raise your hand. To withdraw your question, press star 1 again. We ask that you pick up your handset when asking a question to allow for optimal sound quality. If you are muted locally, please remember to unmute your device. Please stand by while we compile the Q&A roster. Your first question comes from the line of Brad Zelnick from Deutsche Bank. Your line is now open. Please go ahead. Fantastic. Thank you so much for",
+   "parts": [
+    {
+     "t0_ms": 1851960,
+     "text": "We will now begin the question and answer session. Please limit yourself to one question."
+    },
+    {
+     "t0_ms": 1857540,
+     "text": "If you would like to ask a question, please press star one to raise your hand. To withdraw your"
+    },
+    {
+     "t0_ms": 1862600,
+     "text": "question, press star 1 again. We ask that you pick up your handset when asking a question to allow"
+    },
+    {
+     "t0_ms": 1868040,
+     "text": "for optimal sound quality. If you are muted locally, please remember to unmute your device."
+    },
+    {
+     "t0_ms": 1873880,
+     "text": "Please stand by while we compile the Q&A roster. Your first question comes from the line of Brad"
+    },
+    {
+     "t0_ms": 1883790,
+     "text": "Zelnick from Deutsche Bank. Your line is now open. Please go ahead. Fantastic. Thank you so much for"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1889730,
+   "t1_ms": 1914530,
+   "speaker": "Analyst",
+   "text": "taking my question. Bill, we increasingly hear about AI-native applications companies implementing outcome or value-based pricing, and I'm just curious to what extent you're seeing customers asking you to go down this path. I know you have a perfect mix of subscription and consumption, but it seems like the market is moving in this direction, and maybe for Gina, I imagine this is something you've contemplated internally. What would the impact of something",
+   "parts": [
+    {
+     "t0_ms": 1889730,
+     "text": "taking my question. Bill, we increasingly hear about AI-native applications companies"
+    },
+    {
+     "t0_ms": 1894470,
+     "text": "implementing outcome or value-based pricing, and I'm just curious to what extent you're seeing"
+    },
+    {
+     "t0_ms": 1899910,
+     "text": "customers asking you to go down this path. I know you have a perfect mix of subscription and"
+    },
+    {
+     "t0_ms": 1905930,
+     "text": "consumption, but it seems like the market is moving in this direction, and maybe for Gina,"
+    },
+    {
+     "t0_ms": 1910070,
+     "text": "I imagine this is something you've contemplated internally. What would the impact of something"
+    }
+   ]
+  },
+  {
+   "t0_ms": 1914530,
+   "t1_ms": 1958370,
+   "speaker": "Management",
+   "text": "like this be on the financial model? Thank you. Brad, thank you. We have the best of both worlds in the sense that the customer likes the predictability of the seed-based pricing model for their budgeting purposes. People that run Fortune 2000 companies run on budget, so we give them that. And also, we're driving consumption, and the idea is simple. You know, get the customer live fast, and once they're live, the token economics take off, whereby we have a chance to improve our revenue per user by a factor of 5X, and that's only because the customer derives substantially more value than that. So it's kind of a win-win.",
+   "parts": [
+    {
+     "t0_ms": 1914530,
+     "text": "like this be on the financial model? Thank you. Brad, thank you. We have the best of both worlds"
+    },
+    {
+     "t0_ms": 1920470,
+     "text": "in the sense that the customer likes the predictability of the seed-based pricing model for their budgeting purposes."
+    },
+    {
+     "t0_ms": 1927870,
+     "text": "People that run Fortune 2000 companies run on budget, so we give them that."
+    },
+    {
+     "t0_ms": 1933490,
+     "text": "And also, we're driving consumption, and the idea is simple."
+    },
+    {
+     "t0_ms": 1938650,
+     "text": "You know, get the customer live fast, and once they're live, the token economics take off,"
+    },
+    {
+     "t0_ms": 1944530,
+     "text": "whereby we have a chance to improve our revenue per user by a factor of 5X,"
+    },
+    {
+     "t0_ms": 1952010,
+     "text": "and that's only because the customer derives substantially more value than that."
+    },
+    {
+     "t0_ms": 1956890,
+     "text": "So it's kind of a win-win."
+    }
+   ]
+  },
+  {
+   "t0_ms": 1958830,
+   "t1_ms": 2001630,
+   "speaker": "Management",
+   "text": "I would also point out that with the announcement of Flow, the native AI standalone autonomous service desk type of provider are no longer required, as we have that now shipping it globally so you can buy it online and you can go live in the same day. So that'll be yet another net new ACV engine for the company and obviously a problem for the competition. So again, best of both worlds. One thing that really is interesting with the superintelligence control tower, you should know a 500% growth month over month in terms of the AI",
+   "parts": [
+    {
+     "t0_ms": 1958830,
+     "text": "I would also point out that with the announcement of Flow,"
+    },
+    {
+     "t0_ms": 1963010,
+     "text": "the native AI standalone autonomous service desk type of provider are no longer required,"
+    },
+    {
+     "t0_ms": 1970470,
+     "text": "as we have that now shipping it globally so you can buy it online and you can go live in the same"
+    },
+    {
+     "t0_ms": 1977230,
+     "text": "day. So that'll be yet another net new ACV engine for the company and obviously a problem for the"
+    },
+    {
+     "t0_ms": 1985750,
+     "text": "competition. So again, best of both worlds. One thing that really is interesting with the"
+    },
+    {
+     "t0_ms": 1992050,
+     "text": "superintelligence control tower, you should know a 500% growth month over month in terms of the AI"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2001630,
+   "t1_ms": 2041790,
+   "speaker": "Management",
+   "text": "action that's activated in that superintelligence control tower, coupled with a 13x improvement in AI consumption. So clearly, we're benefiting from our current model because we're growing 21% year over year. And this hockey stick formation has yet to be fully realized. And so I think that is yet another exciting point for the investors to contemplate. And then, Brad, from the impact on the financial model, as Bill said, our customers are very focused and quite happy",
+   "parts": [
+    {
+     "t0_ms": 2001630,
+     "text": "action that's activated in that superintelligence control tower, coupled with a 13x improvement"
+    },
+    {
+     "t0_ms": 2010210,
+     "text": "in AI consumption. So clearly, we're benefiting from our current model because we're growing 21%"
+    },
+    {
+     "t0_ms": 2018330,
+     "text": "year over year. And this hockey stick formation has yet to be fully realized. And so I think that"
+    },
+    {
+     "t0_ms": 2025410,
+     "text": "is yet another exciting point for the investors to contemplate. And then, Brad, from the impact"
+    },
+    {
+     "t0_ms": 2036030,
+     "text": "on the financial model, as Bill said, our customers are very focused and quite happy"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2041790,
+   "t1_ms": 2060449,
+   "speaker": "Management",
+   "text": "with the hybrid model that we have today and are not asking at all for outcome pricing. And so you would imagine if the day were to change that we'd be ready and waiting for that. But as of now, our customers are very, very happy with the hybrid model, as Bill talked about.",
+   "parts": [
+    {
+     "t0_ms": 2041790,
+     "text": "with the hybrid model that we have today and are not asking at all for outcome pricing. And so"
+    },
+    {
+     "t0_ms": 2048770,
+     "text": "you would imagine if the day were to change that we'd be ready and waiting for that. But as of now,"
+    },
+    {
+     "t0_ms": 2055489,
+     "text": "our customers are very, very happy with the hybrid model, as Bill talked about."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2065949,
+   "t1_ms": 2070710,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Alec Zukin from Wolf Research. Your line is now open.",
+   "parts": [
+    {
+     "t0_ms": 2065949,
+     "text": "Your next question comes from the line of Alec Zukin from Wolf Research. Your line is now open."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2070889,
+   "t1_ms": 2114400,
+   "speaker": "Analyst",
+   "text": "Please go ahead. Hey, guys, thanks for taking the questions and congrats on another strong performance. I guess maybe, Bill or Gina, for you, there was some nuance on kind of some of the impacts that you're seeing on the numbers in the guide, particularly for Q4 on CRPO and subscription revenue. Maybe to the extent that, again, all of the metrics that you're citing sound like you're expanding your growth opportunity, expanding your growth potential. Obviously, the stock is down pretty meaningfully after market on some of the, I think, the 4Q guide but any constant kind of comments on your confidence in growth going kind of either staying",
+   "parts": [
+    {
+     "t0_ms": 2070889,
+     "text": "Please go ahead. Hey, guys, thanks for taking the questions and congrats"
+    },
+    {
+     "t0_ms": 2075860,
+     "text": "on another strong performance. I guess maybe, Bill or Gina, for you, there was some nuance on"
+    },
+    {
+     "t0_ms": 2082780,
+     "text": "kind of some of the impacts that you're seeing on the numbers in the guide, particularly for Q4 on"
+    },
+    {
+     "t0_ms": 2087880,
+     "text": "CRPO and subscription revenue. Maybe to the extent that, again, all of the metrics that you're citing"
+    },
+    {
+     "t0_ms": 2095020,
+     "text": "sound like you're expanding your growth opportunity, expanding your growth potential."
+    },
+    {
+     "t0_ms": 2100320,
+     "text": "Obviously, the stock is down pretty meaningfully after market on some of the, I think, the 4Q"
+    },
+    {
+     "t0_ms": 2106000,
+     "text": "guide but any constant kind of comments on your confidence in growth going kind of either staying"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2114400,
+   "t1_ms": 2126400,
+   "speaker": "Analyst",
+   "text": "high or going higher particularly even for next year as as some of these nuances normalize and they don't necessarily impact subscription revenue as much as maybe the CRPO deceleration would imply",
+   "parts": [
+    {
+     "t0_ms": 2114400,
+     "text": "high or going higher particularly even for next year as as some of these nuances normalize and"
+    },
+    {
+     "t0_ms": 2120240,
+     "text": "they don't necessarily impact subscription revenue as much as maybe the CRPO deceleration would imply"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2127600,
+   "t1_ms": 2172320,
+   "speaker": "Management",
+   "text": "I thank you Alex and appreciate the question and yes so first and foremost we remain as confident as ever in our growth opportunities, as I hope came through very clearly in both Bill and my prepared remarks. We had strong beats across the board, revenue, CRPO, op margin, free cash flow. We raised free cash flow margin. On the revenue beat, what I'd say is that while we actually passed through half of the beat, all of the FX and a half of the beat that we saw in Q3 to the full year guide. With respect to why we didn't raise by the entire beat, there's a couple of",
+   "parts": [
+    {
+     "t0_ms": 2127600,
+     "text": "I thank you Alex and appreciate the question and yes so first and foremost we remain as"
+    },
+    {
+     "t0_ms": 2134640,
+     "text": "confident as ever in our growth opportunities, as I hope came through very clearly in both Bill and"
+    },
+    {
+     "t0_ms": 2141640,
+     "text": "my prepared remarks. We had strong beats across the board, revenue, CRPO, op margin, free cash flow."
+    },
+    {
+     "t0_ms": 2149900,
+     "text": "We raised free cash flow margin. On the revenue beat, what I'd say is that while we actually"
+    },
+    {
+     "t0_ms": 2158960,
+     "text": "passed through half of the beat, all of the FX and a half of the beat that we saw in Q3 to the"
+    },
+    {
+     "t0_ms": 2164580,
+     "text": "full year guide. With respect to why we didn't raise by the entire beat, there's a couple of"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2172320,
+   "t1_ms": 2209760,
+   "speaker": "Management",
+   "text": "things. And so number one, with our scale, the speed is really strong and we feel really good about that. But to help our customers realize value even faster at scale, we've made the strategic decision to invest in their success by including delivery expertise with our platform solutions to accelerate AI deployments for select large deals. From an accounting perspective only, the value of those deployments are carved out of subscription revenue, and they're included in professional services rather than subscription revenue. Notably, upon renewal of those contracts,",
+   "parts": [
+    {
+     "t0_ms": 2172320,
+     "text": "things. And so number one, with our scale, the speed is really strong and we feel really good"
+    },
+    {
+     "t0_ms": 2177840,
+     "text": "about that. But to help our customers realize value even faster at scale, we've made the"
+    },
+    {
+     "t0_ms": 2183600,
+     "text": "strategic decision to invest in their success by including delivery expertise with our platform"
+    },
+    {
+     "t0_ms": 2189360,
+     "text": "solutions to accelerate AI deployments for select large deals. From an accounting perspective only,"
+    },
+    {
+     "t0_ms": 2197400,
+     "text": "the value of those deployments are carved out of subscription revenue, and they're included"
+    },
+    {
+     "t0_ms": 2202720,
+     "text": "in professional services rather than subscription revenue. Notably, upon renewal of those contracts,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2209760,
+   "t1_ms": 2253040,
+   "speaker": "Management",
+   "text": "The value of those services costs return to subscription revenue, so it provides a structural acceleration to growth, and it's not huge, about 25 BIPs in Q3, and expecting it to have approximately 50 BIPs in Q4, which is the only reason why we didn't pass through the full beat in Q3 into the rest of the year. So, subscription revenue, feel really, really strong about that. With respect to CRPO, we saw strong early renewals in Q3 that contributed about half of the beat in Q3. Now, that has a negative impact in Q4 because we pulled those deals out of Q4 and into Q3, so that growth is already in Q3.",
+   "parts": [
+    {
+     "t0_ms": 2209760,
+     "text": "The value of those services costs return to subscription revenue, so it provides a structural acceleration to growth, and it's not huge, about 25 BIPs in Q3, and expecting it to have approximately 50 BIPs in Q4, which is the only reason why we didn't pass through the full beat in Q3 into the rest of the year."
+    },
+    {
+     "t0_ms": 2232080,
+     "text": "So, subscription revenue, feel really, really strong about that."
+    },
+    {
+     "t0_ms": 2235980,
+     "text": "With respect to CRPO, we saw strong early renewals in Q3 that contributed about half of the beat in Q3."
+    },
+    {
+     "t0_ms": 2245520,
+     "text": "Now, that has a negative impact in Q4 because we pulled those deals out of Q4 and into Q3, so that growth is already in Q3."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2253600,
+   "t1_ms": 2298260,
+   "speaker": "Management",
+   "text": "A couple other things to factor in. strong public sector demand is driving higher on-prem mix in Q4, which is actually a great result. But that is driving a 25 basis points headwind in Q4 CRPO, but will absolutely hit revenue and be part of revenue. The other thing is those incremental investments in deployment expertise, a small, modest RPO headwind also does not impact revenue in the long term. And just more generally, I'd note, and we've talked about this before, right, CRPO is a very nuanced accounting metric, and it doesn't necessarily capture all of the momentum in the",
+   "parts": [
+    {
+     "t0_ms": 2253600,
+     "text": "A couple other things to factor in."
+    },
+    {
+     "t0_ms": 2255300,
+     "text": "strong public sector demand is driving higher on-prem mix in Q4, which is actually a great"
+    },
+    {
+     "t0_ms": 2261840,
+     "text": "result. But that is driving a 25 basis points headwind in Q4 CRPO, but will absolutely hit"
+    },
+    {
+     "t0_ms": 2271900,
+     "text": "revenue and be part of revenue. The other thing is those incremental investments in deployment"
+    },
+    {
+     "t0_ms": 2278860,
+     "text": "expertise, a small, modest RPO headwind also does not impact revenue in the long term."
+    },
+    {
+     "t0_ms": 2286640,
+     "text": "And just more generally, I'd note, and we've talked about this before, right, CRPO is a very"
+    },
+    {
+     "t0_ms": 2292920,
+     "text": "nuanced accounting metric, and it doesn't necessarily capture all of the momentum in the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2298260,
+   "t1_ms": 2337020,
+   "speaker": "Management",
+   "text": "business. A good example for that is there's approximately 50 basis points of year-over-year subscription backlog growth that's excluded from CRPO in Q4 due to T4C provisions, but absolutely will be included in revenue. And so while CRPO is a good indicator of next year's revenue, it's certainly not perfect. And the momentum you're hearing in the business, especially around all of the AI amazing things, will absolutely translate to strong revenue growth in 2027 and beyond. And at the end of the day, we feel as confident, if not more confident today,",
+   "parts": [
+    {
+     "t0_ms": 2298260,
+     "text": "business. A good example for that is there's approximately 50 basis points of year-over-year"
+    },
+    {
+     "t0_ms": 2304020,
+     "text": "subscription backlog growth that's excluded from CRPO in Q4 due to T4C provisions, but absolutely"
+    },
+    {
+     "t0_ms": 2311700,
+     "text": "will be included in revenue. And so while CRPO is a good indicator of next year's revenue,"
+    },
+    {
+     "t0_ms": 2318740,
+     "text": "it's certainly not perfect. And the momentum you're hearing in the business, especially around"
+    },
+    {
+     "t0_ms": 2324040,
+     "text": "all of the AI amazing things, will absolutely translate to strong revenue growth in 2027"
+    },
+    {
+     "t0_ms": 2331180,
+     "text": "and beyond. And at the end of the day, we feel as confident, if not more confident today,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2337360,
+   "t1_ms": 2348310,
+   "speaker": "Management",
+   "text": "in our growth opportunities than ever before. Your next question comes from the line of Adam",
+   "parts": [
+    {
+     "t0_ms": 2337360,
+     "text": "in our growth opportunities than ever before. Your next question comes from the line of Adam"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2348310,
+   "t1_ms": 2355340,
+   "speaker": "Operator",
+   "text": "Wood from Morgan Stanley. Your line is now open. Please go ahead. Yeah, thank you for taking the",
+   "parts": [
+    {
+     "t0_ms": 2348310,
+     "text": "Wood from Morgan Stanley. Your line is now open. Please go ahead. Yeah, thank you for taking the"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2355340,
+   "t1_ms": 2398660,
+   "speaker": "Analyst",
+   "text": "questions for Adam. I wanted to just zoom out a little bit and just talk about the momentum you're seeing on the AIECV side. Gina, as you noted, you've raised the guidance twice now to 1.7 billion in revenue. At the same time, if we look at just the broad story of CRPO, we can call it stable, maybe on an organic basis, modestly decelerating, but sort of generally stable. So my high-level question, Bill, is just when do you think the AI momentum will start to translate to overall offline acceleration, CRTO acceleration. And with respect to that, in terms of the go-to-market motion, you guys have made a lot of pricing and packaging changes.",
+   "parts": [
+    {
+     "t0_ms": 2355340,
+     "text": "questions for Adam. I wanted to just zoom out a little bit and just talk about the momentum you're"
+    },
+    {
+     "t0_ms": 2362980,
+     "text": "seeing on the AIECV side. Gina, as you noted, you've raised the guidance twice now to 1.7"
+    },
+    {
+     "t0_ms": 2370120,
+     "text": "billion in revenue. At the same time, if we look at just the broad story of CRPO,"
+    },
+    {
+     "t0_ms": 2376060,
+     "text": "we can call it stable, maybe on an organic basis, modestly decelerating, but sort of generally"
+    },
+    {
+     "t0_ms": 2380640,
+     "text": "stable. So my high-level question, Bill, is just when do you think the AI momentum will start to"
+    },
+    {
+     "t0_ms": 2387480,
+     "text": "translate to overall offline acceleration, CRTO acceleration. And with respect to that,"
+    },
+    {
+     "t0_ms": 2394600,
+     "text": "in terms of the go-to-market motion, you guys have made a lot of pricing and packaging changes."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2398960,
+   "t1_ms": 2410980,
+   "speaker": "Analyst",
+   "text": "You guys just noted that you're doubling down on delivery. Do you feel you have the sort of AI-agentic sale go-to-market motion, right? Or is there room for improvement on that one? Thank you.",
+   "parts": [
+    {
+     "t0_ms": 2398960,
+     "text": "You guys just noted that you're doubling down on delivery. Do you feel you have the sort of"
+    },
+    {
+     "t0_ms": 2404340,
+     "text": "AI-agentic sale go-to-market motion, right? Or is there room for improvement on that one? Thank you."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2410980,
+   "t1_ms": 2455460,
+   "speaker": "Management",
+   "text": "Thank you very much, Adam. First of all, let me just be extremely clear. The business has never been in better shape than it is right now. And I think one of the luxuries that you have when you have the superintelligence control tower and every partner that's a hyperscaler or a lab company, these are great companies, from NVIDIA all the way through to the labs are teaming up with ServiceNow and realize the importance of coming through our super intelligence control tower to drive enterprise value for their customers also. And that's where the network effect is really starting to kick in to extra high gear. So I want you to please register that as a significant",
+   "parts": [
+    {
+     "t0_ms": 2410980,
+     "text": "Thank you very much, Adam. First of all, let me just be extremely clear. The business has never"
+    },
+    {
+     "t0_ms": 2418080,
+     "text": "been in better shape than it is right now. And I think one of the luxuries that you have when you"
+    },
+    {
+     "t0_ms": 2423320,
+     "text": "have the superintelligence control tower and every partner that's a hyperscaler or a lab company,"
+    },
+    {
+     "t0_ms": 2431260,
+     "text": "these are great companies, from NVIDIA all the way through to the labs are teaming up with"
+    },
+    {
+     "t0_ms": 2437100,
+     "text": "ServiceNow and realize the importance of coming through our super intelligence control tower"
+    },
+    {
+     "t0_ms": 2441800,
+     "text": "to drive enterprise value for their customers also. And that's where the network effect is"
+    },
+    {
+     "t0_ms": 2448220,
+     "text": "really starting to kick in to extra high gear. So I want you to please register that as a significant"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2455460,
+   "t1_ms": 2495280,
+   "speaker": "Management",
+   "text": "momentum advantage that we are experiencing. And also, we are very cognizant of the importance of getting these customers live fast. They have to get value out of AI now. And so, as Gina said, we've made the necessary decisions strategically to get them live fast, invest in doing that, so ultimately they can not only derive the benefit from the license, but they can also activate the tokens to create the tokenomics that our shareholders are looking",
+   "parts": [
+    {
+     "t0_ms": 2455460,
+     "text": "momentum advantage that we are experiencing. And also, we are very cognizant of the importance"
+    },
+    {
+     "t0_ms": 2465180,
+     "text": "of getting these customers live fast. They have to get value out of AI now."
+    },
+    {
+     "t0_ms": 2473140,
+     "text": "And so, as Gina said, we've made the necessary decisions strategically to get them live fast,"
+    },
+    {
+     "t0_ms": 2481080,
+     "text": "invest in doing that, so ultimately they can not only derive the benefit from the license,"
+    },
+    {
+     "t0_ms": 2487860,
+     "text": "but they can also activate the tokens to create the tokenomics that our shareholders are looking"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2495280,
+   "t1_ms": 2536280,
+   "speaker": "Management",
+   "text": "for and also that their shareholders are looking for. So that virtuous cycle is kicking into high gear. And as I mentioned, we have a 500% month-over-month increase in the activity on the superintelligence control tower and a 13x improvement on the AI consumption itself. So the strategy is working, and yet we're still in the early days. You will absolutely see in some now but also in 2027, as Gina said, the true acceleration because it's all about the customer getting these implementations",
+   "parts": [
+    {
+     "t0_ms": 2495280,
+     "text": "for and also that their shareholders are looking for. So that virtuous cycle is kicking into high"
+    },
+    {
+     "t0_ms": 2502100,
+     "text": "gear. And as I mentioned, we have a 500% month-over-month increase in the activity"
+    },
+    {
+     "t0_ms": 2510620,
+     "text": "on the superintelligence control tower and a 13x improvement on the AI consumption itself."
+    },
+    {
+     "t0_ms": 2517860,
+     "text": "So the strategy is working, and yet we're still in the early days."
+    },
+    {
+     "t0_ms": 2522980,
+     "text": "You will absolutely see in some now but also in 2027, as Gina said, the true acceleration"
+    },
+    {
+     "t0_ms": 2531920,
+     "text": "because it's all about the customer getting these implementations"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2536280,
+   "t1_ms": 2577650,
+   "speaker": "Management",
+   "text": "and getting these tokens activated in their workflows or their business processes. But we have made a decision as a company and our ecosystem to do that because that's where the long-term value creation exists for us, for the shareholders. So I feel great about it. And I'll just take you back to Financial Analyst Day, Adam. When we talked about by 2030, our AI business would be 30% of our ACV. And so we're absolutely on path and trajectory to get there, if not actually ahead of schedule, as you can tell by our continued raise of AI. But we are well on our path.",
+   "parts": [
+    {
+     "t0_ms": 2536280,
+     "text": "and getting these tokens activated in their workflows or their business processes."
+    },
+    {
+     "t0_ms": 2541440,
+     "text": "But we have made a decision as a company and our ecosystem to do that"
+    },
+    {
+     "t0_ms": 2546980,
+     "text": "because that's where the long-term value creation exists for us, for the shareholders."
+    },
+    {
+     "t0_ms": 2552860,
+     "text": "So I feel great about it."
+    },
+    {
+     "t0_ms": 2556390,
+     "text": "And I'll just take you back to Financial Analyst Day, Adam."
+    },
+    {
+     "t0_ms": 2560010,
+     "text": "When we talked about by 2030, our AI business would be 30% of our ACV."
+    },
+    {
+     "t0_ms": 2566850,
+     "text": "And so we're absolutely on path and trajectory to get there, if not actually ahead of schedule,"
+    },
+    {
+     "t0_ms": 2572590,
+     "text": "as you can tell by our continued raise of AI."
+    },
+    {
+     "t0_ms": 2575930,
+     "text": "But we are well on our path."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2577650,
+   "t1_ms": 2588600,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Sumik Chatterjee from JP Morgan. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2577650,
+     "text": "Your next question comes from the line of Sumik Chatterjee from JP Morgan."
+    },
+    {
+     "t0_ms": 2586700,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 2587760,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2590480,
+   "t1_ms": 2622600,
+   "speaker": "Analyst",
+   "text": "Hi, thanks for taking my question. Maybe if I can just go back to the strategic decision to invest with your customers to accelerate AI adoption with them. Sounds like you did some of that investment in Q3 already. Any early data points in terms of those engagements that is driving the confidence about sort expansion on ai adoption from them and uh what you what are sort of the ideal metrics you've been focusing on to uh measure the that outcome there uh with the customer thank you absolutely",
+   "parts": [
+    {
+     "t0_ms": 2590480,
+     "text": "Hi, thanks for taking my question."
+    },
+    {
+     "t0_ms": 2592860,
+     "text": "Maybe if I can just go back to the strategic decision to invest with your customers to"
+    },
+    {
+     "t0_ms": 2597820,
+     "text": "accelerate AI adoption with them."
+    },
+    {
+     "t0_ms": 2600300,
+     "text": "Sounds like you did some of that investment in Q3 already."
+    },
+    {
+     "t0_ms": 2604080,
+     "text": "Any early data points in terms of those engagements that is driving the confidence about sort"
+    },
+    {
+     "t0_ms": 2609960,
+     "text": "expansion on ai adoption from them and uh what you what are sort of the ideal metrics you've"
+    },
+    {
+     "t0_ms": 2615560,
+     "text": "been focusing on to uh measure the that outcome there uh with the customer thank you absolutely"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2622600,
+   "t1_ms": 2667000,
+   "speaker": "Management",
+   "text": "and and as you can imagine this market for ai is moving very quickly and so are we and we noticed that customers receiving the support saw ai adoption progress twice as fast during just the first five weeks of that support with multiples higher of assist consumption and product usage versus those without support. So that assist consumption and product usage are the metrics that we're looking at. And when we're seeing accelerating customer AI consumption, as you would expect, it unlocks a significantly larger monetization opportunity, making the ROI very compelling. Therefore, we're reacting by building more of these deployment teams into our",
+   "parts": [
+    {
+     "t0_ms": 2622600,
+     "text": "and and as you can imagine this market for ai is moving very quickly and so are we and we noticed"
+    },
+    {
+     "t0_ms": 2629480,
+     "text": "that customers receiving the support saw ai adoption progress twice as fast during just the"
+    },
+    {
+     "t0_ms": 2637240,
+     "text": "first five weeks of that support with multiples higher of assist consumption and product usage"
+    },
+    {
+     "t0_ms": 2643480,
+     "text": "versus those without support. So that assist consumption and product usage are the metrics"
+    },
+    {
+     "t0_ms": 2649160,
+     "text": "that we're looking at. And when we're seeing accelerating customer AI consumption, as you"
+    },
+    {
+     "t0_ms": 2655520,
+     "text": "would expect, it unlocks a significantly larger monetization opportunity, making the ROI very"
+    },
+    {
+     "t0_ms": 2662040,
+     "text": "compelling. Therefore, we're reacting by building more of these deployment teams into our"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2667000,
+   "t1_ms": 2709840,
+   "speaker": "Management",
+   "text": "forecast because we're seeing such incredible results. And I would add to that, Samik, just one very interesting move that we made, which was the acquisition of Sweep. And as you know, one of the big reasons why customers sometimes have a more difficult time changing from one CRM system to another is they have a long implementation cycle. And nobody wants to have a long implementation cycle, especially when it relates to taking care of their customers. And so now we're able to accelerate the deployment times for CRM to, instead of talking years, we're talking a month.",
+   "parts": [
+    {
+     "t0_ms": 2667000,
+     "text": "forecast because we're seeing such incredible results. And I would add to that, Samik, just one"
+    },
+    {
+     "t0_ms": 2673900,
+     "text": "very interesting move that we made, which was the acquisition of Sweep. And as you know,"
+    },
+    {
+     "t0_ms": 2681300,
+     "text": "one of the big reasons why customers sometimes have a more difficult time changing from one CRM"
+    },
+    {
+     "t0_ms": 2689060,
+     "text": "system to another is they have a long implementation cycle. And nobody wants to have a long"
+    },
+    {
+     "t0_ms": 2695900,
+     "text": "implementation cycle, especially when it relates to taking care of their customers."
+    },
+    {
+     "t0_ms": 2700760,
+     "text": "And so now we're able to accelerate the deployment times for CRM to, instead of talking years,"
+    },
+    {
+     "t0_ms": 2708940,
+     "text": "we're talking a month."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2709840,
+   "t1_ms": 2750680,
+   "speaker": "Management",
+   "text": "We're talking like days, 30 days, 60 days for a serious company of serious scale. This same logic also applies to the enterprise superintelligence control tower and all of the workflow processes on ITSM as an example in 24 hours we activated that so what we're looking at here is a super intelligence control tower a completely open ecosystem feeding into the rules and the rails of the way the enterprise runs connecting the fabric of the data and the processes and we're going to do",
+   "parts": [
+    {
+     "t0_ms": 2709840,
+     "text": "We're talking like days, 30 days, 60 days for a serious company of serious scale."
+    },
+    {
+     "t0_ms": 2716920,
+     "text": "This same logic also applies to the enterprise superintelligence control tower and all"
+    },
+    {
+     "t0_ms": 2725880,
+     "text": "of the workflow processes on ITSM as an example in 24 hours we activated that so"
+    },
+    {
+     "t0_ms": 2733800,
+     "text": "what we're looking at here is a super intelligence control tower a completely"
+    },
+    {
+     "t0_ms": 2739680,
+     "text": "open ecosystem feeding into the rules and the rails of the way the enterprise"
+    },
+    {
+     "t0_ms": 2744920,
+     "text": "runs connecting the fabric of the data and the processes and we're going to do"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2750680,
+   "t1_ms": 2793940,
+   "speaker": "Management",
+   "text": "this at record pace so it's going to drive implementation cycles to record speeds which is necessary to get the tokens fully consumed activated and generating revenue but as I always want to remind everybody in our company and otherwise there's no other company growing at the rule of 57 in the enterprise software industry if you could find them please let me know I want to talk to them I want to get the best practices with 21% growth on revenue and 36% growth on free cash flow, all while building the most superior, super intelligent control tower that the world has ever known. So I want to meet that company.",
+   "parts": [
+    {
+     "t0_ms": 2750680,
+     "text": "this at record pace so it's going to drive implementation cycles to record"
+    },
+    {
+     "t0_ms": 2756780,
+     "text": "speeds which is necessary to get the tokens fully consumed activated and"
+    },
+    {
+     "t0_ms": 2762420,
+     "text": "generating revenue but as I always want to remind everybody in our company and"
+    },
+    {
+     "t0_ms": 2768500,
+     "text": "otherwise there's no other company growing at the rule of 57 in the"
+    },
+    {
+     "t0_ms": 2772520,
+     "text": "enterprise software industry if you could find them please let me know I"
+    },
+    {
+     "t0_ms": 2775480,
+     "text": "want to talk to them I want to get the best practices with 21% growth on"
+    },
+    {
+     "t0_ms": 2780440,
+     "text": "revenue and 36% growth on free cash flow, all while building the most superior, super"
+    },
+    {
+     "t0_ms": 2789300,
+     "text": "intelligent control tower that the world has ever known."
+    },
+    {
+     "t0_ms": 2792440,
+     "text": "So I want to meet that company."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2796720,
+   "t1_ms": 2797100,
+   "speaker": "Management",
+   "text": "Thanks, Amit.",
+   "parts": [
+    {
+     "t0_ms": 2796720,
+     "text": "Thanks, Amit."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2799410,
+   "t1_ms": 2804830,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Peter Weed at Bernstein. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 2799410,
+     "text": "Your next question comes from the line of Peter Weed at Bernstein."
+    },
+    {
+     "t0_ms": 2803010,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 2804050,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2807590,
+   "t1_ms": 2843430,
+   "speaker": "Analyst",
+   "text": "Thank you. You know, I think one of the impressive things you've been doing is investing internally in productivity optimization, and I think we're seeing that come through pretty significantly in some of the headcount numbers. Can you help us understand how that's playing out? Because it looks like a lot of it is actually focused in maybe front office, product and sales and marketing. And how are you able to get that productivity in these areas to the level that you want while this is also what will be driving revenue",
+   "parts": [
+    {
+     "t0_ms": 2807590,
+     "text": "Thank you."
+    },
+    {
+     "t0_ms": 2808530,
+     "text": "You know, I think one of the impressive things you've been doing is investing internally"
+    },
+    {
+     "t0_ms": 2814250,
+     "text": "in productivity optimization,"
+    },
+    {
+     "t0_ms": 2817370,
+     "text": "and I think we're seeing that come through"
+    },
+    {
+     "t0_ms": 2819430,
+     "text": "pretty significantly in some of the headcount numbers."
+    },
+    {
+     "t0_ms": 2823250,
+     "text": "Can you help us understand how that's playing out?"
+    },
+    {
+     "t0_ms": 2827150,
+     "text": "Because it looks like a lot of it is actually focused"
+    },
+    {
+     "t0_ms": 2829170,
+     "text": "in maybe front office, product and sales and marketing."
+    },
+    {
+     "t0_ms": 2833050,
+     "text": "And how are you able to get that productivity"
+    },
+    {
+     "t0_ms": 2836070,
+     "text": "in these areas to the level that you want"
+    },
+    {
+     "t0_ms": 2838370,
+     "text": "while this is also what will be driving revenue"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2843430,
+   "t1_ms": 2884620,
+   "speaker": "Management",
+   "text": "looking forward? Thanks, Peter. So first and foremost, so, so excited to say that we've crossed a billion dollars in efficiency gains through our own internal use of AI. And the lion's share of that is coming from our own use of our own products now on now. So it's just incredible. And yes, that efficiency gains means that we're able to not hire as many people. That being said, we're absolutely hiring folks in the right spots. And so while you might see total sales and marketing headcount come down, actually quota-bearing heads are up double digits while",
+   "parts": [
+    {
+     "t0_ms": 2843430,
+     "text": "looking forward? Thanks, Peter. So first and foremost, so, so excited to say that we've"
+    },
+    {
+     "t0_ms": 2851640,
+     "text": "crossed a billion dollars in efficiency gains through our own internal use of AI. And the"
+    },
+    {
+     "t0_ms": 2857620,
+     "text": "lion's share of that is coming from our own use of our own products now on now. So it's just"
+    },
+    {
+     "t0_ms": 2863060,
+     "text": "incredible. And yes, that efficiency gains means that we're able to not hire as many people. That"
+    },
+    {
+     "t0_ms": 2871180,
+     "text": "being said, we're absolutely hiring folks in the right spots. And so while you might see total"
+    },
+    {
+     "t0_ms": 2877100,
+     "text": "sales and marketing headcount come down, actually quota-bearing heads are up double digits while"
+    }
+   ]
+  },
+  {
+   "t0_ms": 2884620,
+   "t1_ms": 2921000,
+   "speaker": "Management",
+   "text": "sales operations, for example, is down significantly. And very similar in the R&D organization. As you would imagine, real increases in AI engineers in top talent, But there's lots of efficiency gains that we're driving through AI. That means that we don't have to hire as many support people, for example, or overhead in the R&D organization. And so we're absolutely still hiring across the board in both go-to-market and R&D. We're hiring in the right places.",
+   "parts": [
+    {
+     "t0_ms": 2884620,
+     "text": "sales operations, for example, is down significantly. And very similar in the R&D"
+    },
+    {
+     "t0_ms": 2890660,
+     "text": "organization. As you would imagine, real increases in AI engineers in top talent,"
+    },
+    {
+     "t0_ms": 2897860,
+     "text": "But there's lots of efficiency gains that we're driving through AI."
+    },
+    {
+     "t0_ms": 2904120,
+     "text": "That means that we don't have to hire as many support people, for example, or overhead in the R&D organization."
+    },
+    {
+     "t0_ms": 2913980,
+     "text": "And so we're absolutely still hiring across the board in both go-to-market and R&D."
+    },
+    {
+     "t0_ms": 2919360,
+     "text": "We're hiring in the right places."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2921000,
+   "t1_ms": 2949720,
+   "speaker": "Management",
+   "text": "But that's being offset by incredible efficiencies that allow us to bring those more operational roles, those headcount roles, down significantly. And I would build, just to share with you, Peter, a couple of things that are very interesting. We have our own employee works solution in the company. And so if you think about our great go-to-market machine, which is the best in the industry by far, they all have a coach.",
+   "parts": [
+    {
+     "t0_ms": 2921000,
+     "text": "But that's being offset by incredible efficiencies that allow us to bring those more operational roles, those headcount roles, down significantly."
+    },
+    {
+     "t0_ms": 2931740,
+     "text": "And I would build, just to share with you, Peter, a couple of things that are very interesting."
+    },
+    {
+     "t0_ms": 2937180,
+     "text": "We have our own employee works solution in the company."
+    },
+    {
+     "t0_ms": 2941180,
+     "text": "And so if you think about our great go-to-market machine, which is the best in the industry by far, they all have a coach."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2949720,
+   "t1_ms": 2978040,
+   "speaker": "Management",
+   "text": "And that happens to be employee works. And so it is autonomously activating all of the controls that are necessary to build relationships and bring all of our innovation to the customer. This is being done autonomously, not that they have to even request it. They're also getting the insight pushed to them to make them more productive on the front line.",
+   "parts": [
+    {
+     "t0_ms": 2949720,
+     "text": "And that happens to be employee works. And so it is autonomously activating all of the controls that are necessary to build relationships and bring all of our innovation to the customer. This is being done autonomously, not that they have to even request it. They're also getting the insight pushed to them to make them more productive on the front line."
+    }
+   ]
+  },
+  {
+   "t0_ms": 2978040,
+   "t1_ms": 3022200,
+   "speaker": "Management",
+   "text": "Think about it. If you go back three years, that was like 100 people in the sales operations department moving around information on email. That is now completely autonomous. It's a sales coach in the pocket. It's driving enormous productivity. And just to be clear, we're actually significantly improving and increasing feed on the street, and while our ultimate headcount has actually slightly declined, which is a gorgeous situation, as Gina pointed out, the 90% response time to customer service or employee service inquiries is now done autonomously in a way that is so much easier for people to deal with,",
+   "parts": [
+    {
+     "t0_ms": 2978040,
+     "text": "Think about it. If you go back three years, that was like 100 people in the sales operations department moving around information on email. That is now completely autonomous. It's a sales coach in the pocket. It's driving enormous productivity."
+    },
+    {
+     "t0_ms": 2994860,
+     "text": "And just to be clear, we're actually significantly improving and increasing feed on the street, and while our ultimate headcount has actually slightly declined, which is a gorgeous situation, as Gina pointed out, the 90% response time to customer service or employee service inquiries is now done autonomously in a way that is so much easier for people to deal with,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3022200,
+   "t1_ms": 3063820,
+   "speaker": "Management",
+   "text": "And it gives them an improvement in their life experience here at ServiceNow. Finally, while the headcount may remain consistent, we continue to strengthen the workforce. So we continue to bring in net new talent in AI on the innovation side and on the quota-bearing side. We have a higher standard for the kind of individuals we need to take us from here to there. So while the headcount is steady, the innovation and the improvement of the human capital condition has only increased substantially. So that's a very important thing that sometimes doesn't show up in the numbers.",
+   "parts": [
+    {
+     "t0_ms": 3022200,
+     "text": "And it gives them an improvement in their life experience here at ServiceNow."
+    },
+    {
+     "t0_ms": 3026700,
+     "text": "Finally, while the headcount may remain consistent, we continue to strengthen the workforce."
+    },
+    {
+     "t0_ms": 3034920,
+     "text": "So we continue to bring in net new talent in AI on the innovation side and on the quota-bearing side."
+    },
+    {
+     "t0_ms": 3044060,
+     "text": "We have a higher standard for the kind of individuals we need to take us from here to there."
+    },
+    {
+     "t0_ms": 3050680,
+     "text": "So while the headcount is steady, the innovation and the improvement of the human capital condition has only increased substantially. So that's a very important thing that sometimes doesn't show up in the numbers."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3068460,
+   "t1_ms": 3074100,
+   "speaker": "Operator",
+   "text": "Your next question is from the line of Arjun Bhatia from William Blair. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3068460,
+     "text": "Your next question is from the line of Arjun Bhatia from William Blair. Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3076760,
+   "t1_ms": 3119940,
+   "speaker": "Analyst",
+   "text": "Perfect. Thank you so much. And I'll add my congrats on a good two, three. I want to go back to an earlier question. Bill, you know, one of the most important and sort of biggest debates and questions that we get from investors is whether AI is, you know, cannibalistic or accretive to software companies. And, you know, we're kind of seeing this in your results where the AI adoption is increasing and accelerating and you're seeing raises on that guidance and then some of the other metrics are sort of not yet inflecting. And I'm just curious, and I'm sure there's a timing mismatch there, but when you look at your early adopters",
+   "parts": [
+    {
+     "t0_ms": 3076760,
+     "text": "Perfect. Thank you so much."
+    },
+    {
+     "t0_ms": 3078120,
+     "text": "And I'll add my congrats on a good two, three."
+    },
+    {
+     "t0_ms": 3082300,
+     "text": "I want to go back to an earlier question."
+    },
+    {
+     "t0_ms": 3085720,
+     "text": "Bill, you know, one of the most important"
+    },
+    {
+     "t0_ms": 3088980,
+     "text": "and sort of biggest debates and questions"
+    },
+    {
+     "t0_ms": 3090440,
+     "text": "that we get from investors is whether AI is, you know,"
+    },
+    {
+     "t0_ms": 3095020,
+     "text": "cannibalistic or accretive to software companies."
+    },
+    {
+     "t0_ms": 3098080,
+     "text": "And, you know, we're kind of seeing this in your results"
+    },
+    {
+     "t0_ms": 3102200,
+     "text": "where the AI adoption is increasing and accelerating"
+    },
+    {
+     "t0_ms": 3106220,
+     "text": "and you're seeing raises on that guidance"
+    },
+    {
+     "t0_ms": 3109320,
+     "text": "and then some of the other metrics are sort of not yet inflecting."
+    },
+    {
+     "t0_ms": 3114140,
+     "text": "And I'm just curious, and I'm sure there's a timing mismatch there,"
+    },
+    {
+     "t0_ms": 3118020,
+     "text": "but when you look at your early adopters"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3119940,
+   "t1_ms": 3133240,
+   "speaker": "Analyst",
+   "text": "and your most advanced AI customers, what are you seeing in terms of how their overall spend with ServiceNow is changing as they've adopted Now Assist in your AI capabilities?",
+   "parts": [
+    {
+     "t0_ms": 3119940,
+     "text": "and your most advanced AI customers,"
+    },
+    {
+     "t0_ms": 3124060,
+     "text": "what are you seeing in terms of how their overall spend"
+    },
+    {
+     "t0_ms": 3127360,
+     "text": "with ServiceNow is changing as they've adopted Now Assist"
+    },
+    {
+     "t0_ms": 3131740,
+     "text": "in your AI capabilities?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3134640,
+   "t1_ms": 3178680,
+   "speaker": "Management",
+   "text": "Yeah, there's no doubt. First of all, I really remind people, including at the CEO meeting that I referenced, the world GDP rests on superintelligence and this intelligence, really this intelligence generation that we'll look back on 10 years from now and say that was a renaissance moment. And so all the business cases that are tied to return on invested capital from AI are a factor 10x greater than anything that preceded AI solutions. So this is really, like, unbelievable stuff. I mean, just take ourselves, you know. Gina talks about a billion. A billion is a lot, you know. A billion in a year is a lot of money.",
+   "parts": [
+    {
+     "t0_ms": 3134640,
+     "text": "Yeah, there's no doubt."
+    },
+    {
+     "t0_ms": 3136640,
+     "text": "First of all, I really remind people,"
+    },
+    {
+     "t0_ms": 3139580,
+     "text": "including at the CEO meeting that I referenced,"
+    },
+    {
+     "t0_ms": 3142320,
+     "text": "the world GDP rests on superintelligence"
+    },
+    {
+     "t0_ms": 3145320,
+     "text": "and this intelligence, really this intelligence generation"
+    },
+    {
+     "t0_ms": 3149960,
+     "text": "that we'll look back on 10 years from now"
+    },
+    {
+     "t0_ms": 3152080,
+     "text": "and say that was a renaissance moment."
+    },
+    {
+     "t0_ms": 3154800,
+     "text": "And so all the business cases that are tied"
+    },
+    {
+     "t0_ms": 3157140,
+     "text": "to return on invested capital from AI"
+    },
+    {
+     "t0_ms": 3160200,
+     "text": "are a factor 10x greater than anything that preceded AI solutions."
+    },
+    {
+     "t0_ms": 3167160,
+     "text": "So this is really, like, unbelievable stuff."
+    },
+    {
+     "t0_ms": 3170040,
+     "text": "I mean, just take ourselves, you know."
+    },
+    {
+     "t0_ms": 3172840,
+     "text": "Gina talks about a billion."
+    },
+    {
+     "t0_ms": 3174160,
+     "text": "A billion is a lot, you know."
+    },
+    {
+     "t0_ms": 3176140,
+     "text": "A billion in a year is a lot of money."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3179380,
+   "t1_ms": 3221760,
+   "speaker": "Management",
+   "text": "And what's unbelievable in terms of the operational performance of the company, we continue to grow the company at a pace consistent on a much larger base than we were growing before we saved a billion. So less people doing extraordinary things, enjoying their work much more, because the autonomy of the AI platform has taken the pressure off of them so they can do the work that really matters. So we're one example. But the business cases, and we review them all the time with Ahmed and Paul, they have a 10x improvement over anything that we've seen before. And, Ahmed, you know, feel free, comment on it. Yes, Arjun, on your question about the use cases and how we're seeing that adoption grow,",
+   "parts": [
+    {
+     "t0_ms": 3179380,
+     "text": "And what's unbelievable in terms of the operational performance of the company,"
+    },
+    {
+     "t0_ms": 3183720,
+     "text": "we continue to grow the company at a pace consistent on a much larger base"
+    },
+    {
+     "t0_ms": 3188520,
+     "text": "than we were growing before we saved a billion."
+    },
+    {
+     "t0_ms": 3191880,
+     "text": "So less people doing extraordinary things, enjoying their work much more,"
+    },
+    {
+     "t0_ms": 3198000,
+     "text": "because the autonomy of the AI platform has taken the pressure off of them"
+    },
+    {
+     "t0_ms": 3202320,
+     "text": "so they can do the work that really matters."
+    },
+    {
+     "t0_ms": 3204420,
+     "text": "So we're one example."
+    },
+    {
+     "t0_ms": 3206100,
+     "text": "But the business cases, and we review them all the time with Ahmed and Paul,"
+    },
+    {
+     "t0_ms": 3211000,
+     "text": "they have a 10x improvement over anything that we've seen before."
+    },
+    {
+     "t0_ms": 3214660,
+     "text": "And, Ahmed, you know, feel free, comment on it."
+    },
+    {
+     "t0_ms": 3216760,
+     "text": "Yes, Arjun, on your question about the use cases and how we're seeing that adoption grow,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3222020,
+   "t1_ms": 3265580,
+   "speaker": "Management",
+   "text": "many of the customers typically start with one or two use cases where we help them or they decide, like, incident management or triaging or resolution planning. And once they see that go live, we've seen that go up to 3x, 4x usage, but also new use cases emerge because now they're seeing it in the production environment. So that's really been the growth. I mean, if you see a lot of the customers we talked about in the last quarter as well as now, they're re-upping their licenses and the new renewals with higher tokens because they're seeing the adoption go up as well. We have customers like Nestle, for example, they went live in six weeks with this marketing optimization agentic workflow. And now they are unleashing that in 90 different countries. And they're starting to now use it across the world to get value out",
+   "parts": [
+    {
+     "t0_ms": 3222020,
+     "text": "many of the customers typically start with one or two use cases where we help them"
+    },
+    {
+     "t0_ms": 3225420,
+     "text": "or they decide, like, incident management or triaging or resolution planning."
+    },
+    {
+     "t0_ms": 3230220,
+     "text": "And once they see that go live, we've seen that go up to 3x, 4x usage,"
+    },
+    {
+     "t0_ms": 3235040,
+     "text": "but also new use cases emerge because now they're seeing it in the production environment."
+    },
+    {
+     "t0_ms": 3239780,
+     "text": "So that's really been the growth."
+    },
+    {
+     "t0_ms": 3241120,
+     "text": "I mean, if you see a lot of the customers we talked about in the last quarter as well as now,"
+    },
+    {
+     "t0_ms": 3244600,
+     "text": "they're re-upping their licenses and the new renewals with higher tokens because they're"
+    },
+    {
+     "t0_ms": 3250920,
+     "text": "seeing the adoption go up as well. We have customers like Nestle, for example, they went"
+    },
+    {
+     "t0_ms": 3254900,
+     "text": "live in six weeks with this marketing optimization agentic workflow. And now they are unleashing that"
+    },
+    {
+     "t0_ms": 3260960,
+     "text": "in 90 different countries. And they're starting to now use it across the world to get value out"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3265580,
+   "t1_ms": 3287040,
+   "speaker": "Management",
+   "text": "of one time the use case they built and grow it significantly across the world as well. So those are kind of the common patterns we see. And then we've seen this autonomous IT, for example, and then with that kind of use case going into AI ops, CRM optimization, and other industrial use cases as well. So very, very easy to kind of start seeing that growth come through.",
+   "parts": [
+    {
+     "t0_ms": 3265580,
+     "text": "of one time the use case they built and grow it significantly across the world as well."
+    },
+    {
+     "t0_ms": 3270960,
+     "text": "So those are kind of the common patterns we see. And then we've seen this autonomous IT, for example, and then with that kind of use case going into AI ops, CRM optimization, and other industrial use cases as well. So very, very easy to kind of start seeing that growth come through."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3292600,
+   "t1_ms": 3298260,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Samad Samana from Jefferies. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3292600,
+     "text": "Your next question comes from the line of Samad Samana from Jefferies. Your line is now open. Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3299260,
+   "t1_ms": 3340240,
+   "speaker": "Analyst",
+   "text": "Hi, good evening, and thanks for taking my question. So, Gina, I just wanted to ask about the decision to have resources for large customers to accelerate AI deployment. I'm curious, I guess, when was that decision made? And I'm just curious how we should think about modeling that. Is this something that will be broadly available? Is it something that's on a customer-by-customer basis? And then is there anything that we need to make a consideration for, given the rev rec on the margin side as well? Maybe just help unpack that for us and what you're assuming in the forward guidance, given \u2013 I know it's not the biggest thing that happened, but it did sway, I think, the guidance a little bit. And so I think investors would get some more comfort if we had more color on how to unpack that.",
+   "parts": [
+    {
+     "t0_ms": 3299260,
+     "text": "Hi, good evening, and thanks for taking my question."
+    },
+    {
+     "t0_ms": 3301840,
+     "text": "So, Gina, I just wanted to ask about the decision to have resources for large customers to accelerate AI deployment."
+    },
+    {
+     "t0_ms": 3309880,
+     "text": "I'm curious, I guess, when was that decision made?"
+    },
+    {
+     "t0_ms": 3312600,
+     "text": "And I'm just curious how we should think about modeling that."
+    },
+    {
+     "t0_ms": 3315600,
+     "text": "Is this something that will be broadly available?"
+    },
+    {
+     "t0_ms": 3317960,
+     "text": "Is it something that's on a customer-by-customer basis?"
+    },
+    {
+     "t0_ms": 3321900,
+     "text": "And then is there anything that we need to make a consideration for, given the rev rec on the margin side as well?"
+    },
+    {
+     "t0_ms": 3326840,
+     "text": "Maybe just help unpack that for us and what you're assuming in the forward guidance, given \u2013 I know it's not the biggest thing that happened, but it did sway, I think, the guidance a little bit."
+    },
+    {
+     "t0_ms": 3336500,
+     "text": "And so I think investors would get some more comfort if we had more color on how to unpack that."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3341620,
+   "t1_ms": 3383000,
+   "speaker": "Management",
+   "text": "Yeah, perfect. So, yes, as I said earlier, Samad, the market for AI is moving very quickly, and so are we. So when we saw the real inflection with customers that were receiving this support, we decided to double down because that consumption flywheel is going to drive significant incremental growth, right? And so deployment times are rapidly improving, and these services are being, as you say, provided for a select number of large deals, and we talked about it in the number, 25 BIPs in Q3 and 50 BIPs in Q4. And we don't expect to include this delivery expertise over",
+   "parts": [
+    {
+     "t0_ms": 3341620,
+     "text": "Yeah, perfect."
+    },
+    {
+     "t0_ms": 3342780,
+     "text": "So, yes, as I said earlier, Samad, the market for AI is moving very quickly, and so are we."
+    },
+    {
+     "t0_ms": 3348640,
+     "text": "So when we saw the real inflection with customers that were receiving this support,"
+    },
+    {
+     "t0_ms": 3355820,
+     "text": "we decided to double down because that consumption flywheel is going to drive significant incremental growth, right?"
+    },
+    {
+     "t0_ms": 3363280,
+     "text": "And so deployment times are rapidly improving, and these services are being, as you say,"
+    },
+    {
+     "t0_ms": 3370060,
+     "text": "provided for a select number of large deals, and we talked about it in the number,"
+    },
+    {
+     "t0_ms": 3375240,
+     "text": "25 BIPs in Q3 and 50 BIPs in Q4. And we don't expect to include this delivery expertise over"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3383000,
+   "t1_ms": 3424160,
+   "speaker": "Management",
+   "text": "the long term. As with other new technology adoption cycles, it's really about optimizing the first wave of adopters and leveraging the know-how in a repeatable and scalable way. And as the AI gets better, the ability to autonomously deploy gets easier and easier. And so we don't expect this to be long-term, but we absolutely believe it's the right thing for the business and is going to continue to help drive that consumption flywheel. One thing I'll add on this one, Samad, we're also building using AI implementation agents. So when we help our customers go live, a lot of the heavy lifting is done by AI.",
+   "parts": [
+    {
+     "t0_ms": 3383000,
+     "text": "the long term. As with other new technology adoption cycles, it's really about optimizing"
+    },
+    {
+     "t0_ms": 3389200,
+     "text": "the first wave of adopters and leveraging the know-how in a repeatable and scalable way."
+    },
+    {
+     "t0_ms": 3394180,
+     "text": "And as the AI gets better, the ability to autonomously deploy gets easier and easier."
+    },
+    {
+     "t0_ms": 3402760,
+     "text": "And so we don't expect this to be long-term, but we absolutely believe it's the right thing for the business"
+    },
+    {
+     "t0_ms": 3409120,
+     "text": "and is going to continue to help drive that consumption flywheel."
+    },
+    {
+     "t0_ms": 3414200,
+     "text": "One thing I'll add on this one, Samad, we're also building using AI implementation agents."
+    },
+    {
+     "t0_ms": 3419140,
+     "text": "So when we help our customers go live, a lot of the heavy lifting is done by AI."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3424460,
+   "t1_ms": 3441720,
+   "speaker": "Management",
+   "text": "This is really identifying the early use cases and make it simple for them to go live with it. And once they get one or two of these live, then the volume goes up very quickly. So this is not a long-term engagement. It's very short, but we get that value quickly for our customers. Thanks, Samad.",
+   "parts": [
+    {
+     "t0_ms": 3424460,
+     "text": "This is really identifying the early use cases and make it simple for them to go live with it."
+    },
+    {
+     "t0_ms": 3428780,
+     "text": "And once they get one or two of these live, then the volume goes up very quickly."
+    },
+    {
+     "t0_ms": 3432560,
+     "text": "So this is not a long-term engagement."
+    },
+    {
+     "t0_ms": 3435480,
+     "text": "It's very short, but we get that value quickly for our customers."
+    },
+    {
+     "t0_ms": 3440860,
+     "text": "Thanks, Samad."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3443450,
+   "t1_ms": 3458830,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Kirk Matern from Evercore ISI. Your line is now open. Please go ahead. As a reminder, please remember to unmute your device.",
+   "parts": [
+    {
+     "t0_ms": 3443450,
+     "text": "Your next question comes from the line of Kirk Matern from Evercore ISI."
+    },
+    {
+     "t0_ms": 3447870,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 3448870,
+     "text": "Please go ahead."
+    },
+    {
+     "t0_ms": 3456310,
+     "text": "As a reminder, please remember to unmute your device."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3466170,
+   "t1_ms": 3494930,
+   "speaker": "Analyst",
+   "text": "Sorry about that. Sorry, couldn't hit the mute button. Bill, I was just wondering on Control Tower, obviously everybody is getting ready to have to build an orchestration layer to sort of manage their agents at scale. Are they doing that now, or are they waiting until they get more deployment and production? I was just wondering how you guys see that playing out, where they're going to lay out sort of a baseline, and then they can drive consumption once the agentic population builds up. I was just wondering if you could give some color on that front. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3466170,
+     "text": "Sorry about that."
+    },
+    {
+     "t0_ms": 3467170,
+     "text": "Sorry, couldn't hit the mute button."
+    },
+    {
+     "t0_ms": 3469370,
+     "text": "Bill, I was just wondering on Control Tower,"
+    },
+    {
+     "t0_ms": 3472190,
+     "text": "obviously everybody is getting ready to have to build an orchestration layer"
+    },
+    {
+     "t0_ms": 3476050,
+     "text": "to sort of manage their agents at scale."
+    },
+    {
+     "t0_ms": 3479950,
+     "text": "Are they doing that now,"
+    },
+    {
+     "t0_ms": 3481530,
+     "text": "or are they waiting until they get more deployment and production?"
+    },
+    {
+     "t0_ms": 3484390,
+     "text": "I was just wondering how you guys see that playing out,"
+    },
+    {
+     "t0_ms": 3486750,
+     "text": "where they're going to lay out sort of a baseline,"
+    },
+    {
+     "t0_ms": 3488770,
+     "text": "and then they can drive consumption once the agentic population builds up."
+    },
+    {
+     "t0_ms": 3492810,
+     "text": "I was just wondering if you could give some color on that front."
+    },
+    {
+     "t0_ms": 3494670,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3495910,
+   "t1_ms": 3535010,
+   "speaker": "Management",
+   "text": "Yeah, sure, sure. You know, first, I'll just say big picture. The superintelligence control tower is basically redesigning redesigning what the enterprise visibility, governance, and security posture is of these major corporations. And if you look at the partnerships we announced today across the board and especially OpenAI, it's clear that the best and smartest companies in the world realize that this control tower and activating that across rules and rails that are deterministic and companies rely on to run their business is a pretty important thing to do to grow their",
+   "parts": [
+    {
+     "t0_ms": 3495910,
+     "text": "Yeah, sure, sure."
+    },
+    {
+     "t0_ms": 3496790,
+     "text": "You know, first, I'll just say big picture."
+    },
+    {
+     "t0_ms": 3499530,
+     "text": "The superintelligence control tower is basically redesigning"
+    },
+    {
+     "t0_ms": 3502790,
+     "text": "redesigning what the enterprise visibility, governance, and security posture is of these"
+    },
+    {
+     "t0_ms": 3509130,
+     "text": "major corporations. And if you look at the partnerships we announced today across the"
+    },
+    {
+     "t0_ms": 3515090,
+     "text": "board and especially OpenAI, it's clear that the best and smartest companies in the world realize"
+    },
+    {
+     "t0_ms": 3522090,
+     "text": "that this control tower and activating that across rules and rails that are deterministic"
+    },
+    {
+     "t0_ms": 3529770,
+     "text": "and companies rely on to run their business is a pretty important thing to do to grow their"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3535010,
+   "t1_ms": 3578310,
+   "speaker": "Management",
+   "text": "businesses. So, Ahmed can give you some color on exactly how we're driving this and the impact that it's having. Yeah, thank you, Bill. So, Kirk, usually, I think if you look at last year, the concerns many customers had when we speak to them is they had no idea of what's going on with AI, how many shadow projects are going on, what agents are doing. So, Control Tower really resonated very well when we introduced it last year because we are kind of putting this in front of the AI deployment. This is really the governance, the trust, and the safety layer, which gives you a lot of confidence and the ability to really have trust in the system. And as we build out the discovery capabilities across multiple third-party AI systems out there, any kind of in-house build",
+   "parts": [
+    {
+     "t0_ms": 3535010,
+     "text": "businesses. So, Ahmed can give you some color on exactly how we're driving this and the impact"
+    },
+    {
+     "t0_ms": 3541490,
+     "text": "that it's having. Yeah, thank you, Bill. So, Kirk, usually, I think if you look at last year,"
+    },
+    {
+     "t0_ms": 3546750,
+     "text": "the concerns many customers had when we speak to them is they had no idea of what's going on with"
+    },
+    {
+     "t0_ms": 3551870,
+     "text": "AI, how many shadow projects are going on, what agents are doing. So, Control Tower really"
+    },
+    {
+     "t0_ms": 3558130,
+     "text": "resonated very well when we introduced it last year because we are kind of putting this in front"
+    },
+    {
+     "t0_ms": 3562630,
+     "text": "of the AI deployment. This is really the governance, the trust, and the safety layer, which gives you"
+    },
+    {
+     "t0_ms": 3568390,
+     "text": "a lot of confidence and the ability to really have trust in the system. And as we build out the"
+    },
+    {
+     "t0_ms": 3573090,
+     "text": "discovery capabilities across multiple third-party AI systems out there, any kind of in-house build"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3578310,
+   "t1_ms": 3621850,
+   "speaker": "Management",
+   "text": "AI agents, you have one place to monitor, manage, including cost, but also really have the ability you kill any agents which should not be going and doing something which they're not allowed to. So it's become a very strong part of a governance layer, but also the runtime layer. And this is where the difference comes in. So it's coming in first before AI goes in production. And the volume of usage just starts going up because as you start building out more AI, as you get confidence, we are really helping them manage it. It's not about orchestration, really. It's really the visibility, the control, and the safety. And then we can orchestrate many things underneath the covers, depending on what our systems customers might be using. So this really upfront, first investment customers are doing and unlocking a lot of value for us going forward.",
+   "parts": [
+    {
+     "t0_ms": 3578310,
+     "text": "AI agents, you have one place to monitor, manage, including cost, but also really have the ability"
+    },
+    {
+     "t0_ms": 3585270,
+     "text": "you kill any agents which should not be going and doing something which they're not allowed to."
+    },
+    {
+     "t0_ms": 3589430,
+     "text": "So it's become a very strong part of a governance layer, but also the runtime layer. And this is"
+    },
+    {
+     "t0_ms": 3594990,
+     "text": "where the difference comes in. So it's coming in first before AI goes in production. And the volume"
+    },
+    {
+     "t0_ms": 3600350,
+     "text": "of usage just starts going up because as you start building out more AI, as you get confidence,"
+    },
+    {
+     "t0_ms": 3604770,
+     "text": "we are really helping them manage it. It's not about orchestration, really. It's really the"
+    },
+    {
+     "t0_ms": 3608830,
+     "text": "visibility, the control, and the safety. And then we can orchestrate many things underneath the"
+    },
+    {
+     "t0_ms": 3612590,
+     "text": "covers, depending on what our systems customers might be using."
+    },
+    {
+     "t0_ms": 3615710,
+     "text": "So this really upfront, first investment customers are doing and unlocking a lot of value for"
+    },
+    {
+     "t0_ms": 3620750,
+     "text": "us going forward."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3621970,
+   "t1_ms": 3666870,
+   "speaker": "Management",
+   "text": "And it's built on a core competence we had with CMDB and asset management. And we have an interesting ability to do any kind of physical assets, as well as physical AI and non-human identity in one place. So it really resonates and works very well for our customers if they want to really scale AI. And if it helps you, you know, an example might be, you know, think about AI adoption, unifying IT, audit, legal risk, and this single governance framework that Ahmed is discussing. Accenture has over 800,000 employees, I believe, and every single corporate function now is running on ServiceNow. So they use the control tower to govern nearly 900 ServiceNow native AI assets,",
+   "parts": [
+    {
+     "t0_ms": 3621970,
+     "text": "And it's built on a core competence we had with CMDB and asset management."
+    },
+    {
+     "t0_ms": 3625570,
+     "text": "And we have an interesting ability to do any kind of physical assets, as well as physical"
+    },
+    {
+     "t0_ms": 3630330,
+     "text": "AI and non-human identity in one place."
+    },
+    {
+     "t0_ms": 3633170,
+     "text": "So it really resonates and works very well for our customers if they want to really scale"
+    },
+    {
+     "t0_ms": 3638150,
+     "text": "AI."
+    },
+    {
+     "t0_ms": 3638350,
+     "text": "And if it helps you, you know, an example might be, you know, think about AI adoption, unifying IT, audit, legal risk, and this single governance framework that Ahmed is discussing."
+    },
+    {
+     "t0_ms": 3650630,
+     "text": "Accenture has over 800,000 employees, I believe, and every single corporate function now is running on ServiceNow."
+    },
+    {
+     "t0_ms": 3657990,
+     "text": "So they use the control tower to govern nearly 900 ServiceNow native AI assets,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3667250,
+   "t1_ms": 3709550,
+   "speaker": "Management",
+   "text": "and they measure the business outcomes across all of their departments. And what it's done for them is like it's done for us, a substantial increase in productivity across the enterprise as they scale agentic AI. I can also tell you about a global tech leader that's basically using the superintelligence control tower, and their driver was Armis and Vesa because they wanted to manage the identities of, obviously, the people and the agents, but at the same time, they wanted to secure the operating technology environment of the company, networks, devices, critical infrastructure, and so forth,",
+   "parts": [
+    {
+     "t0_ms": 3667250,
+     "text": "and they measure the business outcomes across all of their departments."
+    },
+    {
+     "t0_ms": 3672290,
+     "text": "And what it's done for them is like it's done for us,"
+    },
+    {
+     "t0_ms": 3675850,
+     "text": "a substantial increase in productivity across the enterprise as they scale agentic AI."
+    },
+    {
+     "t0_ms": 3681870,
+     "text": "I can also tell you about a global tech leader that's basically using the superintelligence control tower,"
+    },
+    {
+     "t0_ms": 3690930,
+     "text": "and their driver was Armis and Vesa because they wanted to manage the identities of, obviously, the people and the agents,"
+    },
+    {
+     "t0_ms": 3699650,
+     "text": "but at the same time, they wanted to secure the operating technology environment of the company, networks, devices, critical infrastructure, and so forth,"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3709550,
+   "t1_ms": 3749850,
+   "speaker": "Management",
+   "text": "and lower their costs to serve, drive their productivity, and remediate things at machine speed. That's going to be a consistent theme that you're going to hear. And when you think about it, you know, this particular company had about 80 different security tools, and that's pretty dangerous. And I use Nestle as an example in my remarks, but they've expanded their footprint of service now through the prism of the superintelligence control tower, and they're running their governance across a very complex, large global corporation and all of their operations are governed by the Superintelligence Control Tower and we're just getting started with them.",
+   "parts": [
+    {
+     "t0_ms": 3709550,
+     "text": "and lower their costs to serve, drive their productivity, and remediate things at machine speed."
+    },
+    {
+     "t0_ms": 3716370,
+     "text": "That's going to be a consistent theme that you're going to hear."
+    },
+    {
+     "t0_ms": 3718870,
+     "text": "And when you think about it, you know, this particular company had about 80 different security tools,"
+    },
+    {
+     "t0_ms": 3725090,
+     "text": "and that's pretty dangerous."
+    },
+    {
+     "t0_ms": 3726770,
+     "text": "And I use Nestle as an example in my remarks,"
+    },
+    {
+     "t0_ms": 3731090,
+     "text": "but they've expanded their footprint of service now through the prism of the superintelligence control tower,"
+    },
+    {
+     "t0_ms": 3737450,
+     "text": "and they're running their governance across a very complex, large global corporation"
+    },
+    {
+     "t0_ms": 3742770,
+     "text": "and all of their operations are governed by the Superintelligence Control Tower"
+    },
+    {
+     "t0_ms": 3748230,
+     "text": "and we're just getting started with them."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3750430,
+   "t1_ms": 3784890,
+   "speaker": "Management",
+   "text": "So there's just so much in front of us, so much bandwidth that we bring to the customer and the word's out there now, we're ready to roll. I'll just add one thing, sorry Bill, on the idea that we can discover but also the SecOps products we have built for many years, You're combining this ability to discover, preempt any kind of issues, as well as proactively remediate in one platform. And that's when you combine the control tower with what we do in SecOps, Beza, and Armis. Suddenly, you have a platform which completely has visibility, but also the ability to save you if something goes wrong.",
+   "parts": [
+    {
+     "t0_ms": 3750430,
+     "text": "So there's just so much in front of us, so much bandwidth that we bring to the customer"
+    },
+    {
+     "t0_ms": 3757190,
+     "text": "and the word's out there now, we're ready to roll."
+    },
+    {
+     "t0_ms": 3760110,
+     "text": "I'll just add one thing, sorry Bill, on the idea that we can discover"
+    },
+    {
+     "t0_ms": 3763930,
+     "text": "but also the SecOps products we have built for many years,"
+    },
+    {
+     "t0_ms": 3766350,
+     "text": "You're combining this ability to discover, preempt any kind of issues, as well as proactively remediate in one platform."
+    },
+    {
+     "t0_ms": 3775370,
+     "text": "And that's when you combine the control tower with what we do in SecOps, Beza, and Armis."
+    },
+    {
+     "t0_ms": 3780130,
+     "text": "Suddenly, you have a platform which completely has visibility, but also the ability to save you if something goes wrong."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3788620,
+   "t1_ms": 3794020,
+   "speaker": "Operator",
+   "text": "Your next question comes from the line of Michael Ternan from Wells Fargo. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3788620,
+     "text": "Your next question comes from the line of Michael Ternan from Wells Fargo."
+    },
+    {
+     "t0_ms": 3792160,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 3793180,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3795300,
+   "t1_ms": 3817120,
+   "speaker": "Analyst",
+   "text": "Hey, thanks very much. Bill, given it's nearly November, I'd just be curious to hear how you characterize the tone of overall IT budget discussions you're hearing, how ServiceNow specifically is positioned, where Armis and some of the agentic offerings we're talking about fit, and just how that impacts where you focus the company both into end of year and towards a successful 27. Thanks.",
+   "parts": [
+    {
+     "t0_ms": 3795300,
+     "text": "Hey, thanks very much."
+    },
+    {
+     "t0_ms": 3797420,
+     "text": "Bill, given it's nearly November, I'd just be curious to hear how you characterize the tone of overall IT budget discussions you're hearing,"
+    },
+    {
+     "t0_ms": 3804060,
+     "text": "how ServiceNow specifically is positioned, where Armis and some of the agentic offerings we're talking about fit,"
+    },
+    {
+     "t0_ms": 3810680,
+     "text": "and just how that impacts where you focus the company both into end of year and towards a successful 27."
+    },
+    {
+     "t0_ms": 3816860,
+     "text": "Thanks."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3818260,
+   "t1_ms": 3857400,
+   "speaker": "Management",
+   "text": "Yeah, thank you very much for the question, Michael. Yeah, I feel really great. You know, the most important thing is strategic relevance. and that's what we have. We have a system of record that has been trusted for a couple of decades, and the net new innovation from ServiceNow is truly breathtaking. And what I see is solutions that don't matter or point solutions, they will get eliminated, while strategically relevant platforms will not only do well, they'll do a lot better, especially if they're relevant in this era of superintelligence.",
+   "parts": [
+    {
+     "t0_ms": 3818260,
+     "text": "Yeah, thank you very much for the question, Michael."
+    },
+    {
+     "t0_ms": 3820800,
+     "text": "Yeah, I feel really great."
+    },
+    {
+     "t0_ms": 3822140,
+     "text": "You know, the most important thing is strategic relevance."
+    },
+    {
+     "t0_ms": 3825780,
+     "text": "and that's what we have."
+    },
+    {
+     "t0_ms": 3828140,
+     "text": "We have a system of record that has been trusted for a couple of decades,"
+    },
+    {
+     "t0_ms": 3834400,
+     "text": "and the net new innovation from ServiceNow is truly breathtaking."
+    },
+    {
+     "t0_ms": 3839600,
+     "text": "And what I see is solutions that don't matter or point solutions, they will get eliminated,"
+    },
+    {
+     "t0_ms": 3847360,
+     "text": "while strategically relevant platforms will not only do well, they'll do a lot better,"
+    },
+    {
+     "t0_ms": 3852520,
+     "text": "especially if they're relevant in this era of superintelligence."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3857580,
+   "t1_ms": 3898860,
+   "speaker": "Management",
+   "text": "So we are seeing our pipelines grow extremely well, the superintelligence control tower, VASA, ARMIS, MoveWorks. I mean, in three quarters, you created $100 million in ACV. All these businesses are way ahead of what we had anticipated when we brought them into the family. So, too, is Logic AI. So what you're seeing is we're building lots of innovation thanks to our great innovation machine led by Amit. We made the right strategic choices to complement what we were building, and our customers really love it.",
+   "parts": [
+    {
+     "t0_ms": 3857580,
+     "text": "So we are seeing our pipelines grow extremely well, the superintelligence control tower, VASA, ARMIS, MoveWorks."
+    },
+    {
+     "t0_ms": 3868660,
+     "text": "I mean, in three quarters, you created $100 million in ACV."
+    },
+    {
+     "t0_ms": 3874020,
+     "text": "All these businesses are way ahead of what we had anticipated when we brought them into the family."
+    },
+    {
+     "t0_ms": 3880820,
+     "text": "So, too, is Logic AI."
+    },
+    {
+     "t0_ms": 3883480,
+     "text": "So what you're seeing is we're building lots of innovation thanks to our great innovation machine led by Amit."
+    },
+    {
+     "t0_ms": 3890520,
+     "text": "We made the right strategic choices to complement what we were building, and our customers really love it."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3899160,
+   "t1_ms": 3938680,
+   "speaker": "Management",
+   "text": "So our biggest opportunity right now is to get out there in front of the customer and make sure they understand because they're getting hit from all angles. But the one angle that is consistent everywhere is they want ROI now. And we're past the proof-of-concept phase. We're past experimentation phase. And we're past point solution or vibe coding or do-it-yourself phase. We're now in serious enterprise phase where it's all about get the job done, deliver real value. And this platform is one of a few that will do extraordinarily well now and in the future.",
+   "parts": [
+    {
+     "t0_ms": 3899160,
+     "text": "So our biggest opportunity right now is to get out there in front of the customer and make sure they understand because they're getting hit from all angles."
+    },
+    {
+     "t0_ms": 3908040,
+     "text": "But the one angle that is consistent everywhere is they want ROI now."
+    },
+    {
+     "t0_ms": 3913600,
+     "text": "And we're past the proof-of-concept phase."
+    },
+    {
+     "t0_ms": 3916800,
+     "text": "We're past experimentation phase."
+    },
+    {
+     "t0_ms": 3919440,
+     "text": "And we're past point solution or vibe coding or do-it-yourself phase."
+    },
+    {
+     "t0_ms": 3924760,
+     "text": "We're now in serious enterprise phase where it's all about get the job done, deliver real value."
+    },
+    {
+     "t0_ms": 3931940,
+     "text": "And this platform is one of a few that will do extraordinarily well now and in the future."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3942030,
+   "t1_ms": 3949370,
+   "speaker": "Operator",
+   "text": "We have time for one more question. Your last question comes from the line of Mike Sikos at Needham. Your line is now open. Please go ahead.",
+   "parts": [
+    {
+     "t0_ms": 3942030,
+     "text": "We have time for one more question."
+    },
+    {
+     "t0_ms": 3944110,
+     "text": "Your last question comes from the line of Mike Sikos at Needham."
+    },
+    {
+     "t0_ms": 3947250,
+     "text": "Your line is now open."
+    },
+    {
+     "t0_ms": 3948470,
+     "text": "Please go ahead."
+    }
+   ]
+  },
+  {
+   "t0_ms": 3949590,
+   "t1_ms": 3982450,
+   "speaker": "Analyst",
+   "text": "Hi, I'm Mike Sikos over at Needham. Thank you for taking our questions. We want to ask on action fabric monetization, particularly with the OpenAI partnership expansion announcement that came out with earnings tonight. What sort of spread are you seeing between early adopters that are moving with EmployeeWorks versus using external agents? And what are the monetization implications of this?",
+   "parts": [
+    {
+     "t0_ms": 3949590,
+     "text": "Hi, I'm Mike Sikos over at Needham."
+    },
+    {
+     "t0_ms": 3954970,
+     "text": "Thank you for taking our questions."
+    },
+    {
+     "t0_ms": 3958230,
+     "text": "We want to ask on action fabric monetization,"
+    },
+    {
+     "t0_ms": 3961970,
+     "text": "particularly with the OpenAI partnership expansion announcement"
+    },
+    {
+     "t0_ms": 3967830,
+     "text": "that came out with earnings tonight."
+    },
+    {
+     "t0_ms": 3970230,
+     "text": "What sort of spread are you seeing between early adopters"
+    },
+    {
+     "t0_ms": 3974390,
+     "text": "that are moving with EmployeeWorks versus using external agents?"
+    },
+    {
+     "t0_ms": 3979630,
+     "text": "And what are the monetization implications of this?"
+    }
+   ]
+  },
+  {
+   "t0_ms": 3983950,
+   "t1_ms": 4018690,
+   "speaker": "Management",
+   "text": "Sure, Matt. I think the R view always has been that provide customer choice. Customers should be able to use whatever tools they want to access capabilities in ServiceNow and be able to do actioning, which is where we have really great differentiator and capabilities. So with ActionFabric, what we've allowed customers to do is to go through MCP and A2A kind of interactions and build any interface they want. What we're doing with OpenAI is allowing ChatGPT as a way to interface into ServiceNow. But all of the work happens inside ServiceNow. It's just a call coming from ChatGPT.",
+   "parts": [
+    {
+     "t0_ms": 3983950,
+     "text": "Sure, Matt."
+    },
+    {
+     "t0_ms": 3985430,
+     "text": "I think the R view always has been that provide customer choice."
+    },
+    {
+     "t0_ms": 3989350,
+     "text": "Customers should be able to use whatever tools they want to access capabilities in ServiceNow"
+    },
+    {
+     "t0_ms": 3994150,
+     "text": "and be able to do actioning, which is where we have really great differentiator and capabilities."
+    },
+    {
+     "t0_ms": 4000030,
+     "text": "So with ActionFabric, what we've allowed customers to do is to go through MCP and A2A kind of interactions"
+    },
+    {
+     "t0_ms": 4006130,
+     "text": "and build any interface they want."
+    },
+    {
+     "t0_ms": 4008530,
+     "text": "What we're doing with OpenAI is allowing ChatGPT as a way to interface into ServiceNow."
+    },
+    {
+     "t0_ms": 4014330,
+     "text": "But all of the work happens inside ServiceNow."
+    },
+    {
+     "t0_ms": 4016990,
+     "text": "It's just a call coming from ChatGPT."
+    }
+   ]
+  },
+  {
+   "t0_ms": 4018790,
+   "t1_ms": 4061830,
+   "speaker": "Management",
+   "text": "And then the work which we were doing typically through our user experience now happens through this interface, and we get full value for it from the monetization perspective because you're burning down assist for every work you'd ask ServiceNow to do. And that work is not able to be done anywhere else because we have the context, we have the ability to understand what you're trying to do, and all the connectivity to all the third-party systems as well as the workflows which are running already inside ServiceNow for any enterprise customers. So we are opening up the ability for any ways to access ServiceNow, and we get an opportunity to monetize this much more than we typically would have done just providing our own interface. Of course, EmployeeWorks is also another option for customers to use, but EmployeeWorks provides",
+   "parts": [
+    {
+     "t0_ms": 4018790,
+     "text": "And then the work which we were doing typically through our user experience now happens through this interface, and we get full value for it from the monetization perspective because you're burning down assist for every work you'd ask ServiceNow to do."
+    },
+    {
+     "t0_ms": 4033050,
+     "text": "And that work is not able to be done anywhere else because we have the context, we have the ability to understand what you're trying to do, and all the connectivity to all the third-party systems as well as the workflows which are running already inside ServiceNow for any enterprise customers."
+    },
+    {
+     "t0_ms": 4046870,
+     "text": "So we are opening up the ability for any ways to access ServiceNow, and we get an opportunity"
+    },
+    {
+     "t0_ms": 4052630,
+     "text": "to monetize this much more than we typically would have done just providing our own interface."
+    },
+    {
+     "t0_ms": 4057090,
+     "text": "Of course, EmployeeWorks is also another option for customers to use, but EmployeeWorks provides"
+    }
+   ]
+  },
+  {
+   "t0_ms": 4061830,
+   "t1_ms": 4106130,
+   "speaker": "Management",
+   "text": "a lot more capabilities than ChatGPT can provide or Gemini Enterprise can provide because they're just the calling part of it. What we do with EmployeeWorks, we are doing a lot of the reasoning, the orchestration, planning as well as providing specialized agents which gives you again as an employee a lot more capability than you would get typically from other third-party front doors so there's a lot of differentiation built in in employee works but again we do want allowing customers to use action fabric in another way to interface and still get value out of service now investment they made and we continue to monetize so we get ability to really grow our revenue through many many mechanisms now as a partnership with open ai is great i mean i think there's a lot of of capabilities we'll deliver with them from skills perspective, but they're depending on us",
+   "parts": [
+    {
+     "t0_ms": 4061830,
+     "text": "a lot more capabilities than ChatGPT can provide or Gemini Enterprise can provide because they're"
+    },
+    {
+     "t0_ms": 4067730,
+     "text": "just the calling part of it."
+    },
+    {
+     "t0_ms": 4069310,
+     "text": "What we do with EmployeeWorks, we are doing a lot of the reasoning, the orchestration,"
+    },
+    {
+     "t0_ms": 4073970,
+     "text": "planning as well as providing specialized agents which gives you again as an employee a lot more"
+    },
+    {
+     "t0_ms": 4079730,
+     "text": "capability than you would get typically from other third-party front doors so there's a lot"
+    },
+    {
+     "t0_ms": 4083650,
+     "text": "of differentiation built in in employee works but again we do want allowing customers to use"
+    },
+    {
+     "t0_ms": 4089010,
+     "text": "action fabric in another way to interface and still get value out of service now investment"
+    },
+    {
+     "t0_ms": 4093170,
+     "text": "they made and we continue to monetize so we get ability to really grow our revenue through many"
+    },
+    {
+     "t0_ms": 4098130,
+     "text": "many mechanisms now as a partnership with open ai is great i mean i think there's a lot of"
+    },
+    {
+     "t0_ms": 4102290,
+     "text": "of capabilities we'll deliver with them from skills perspective, but they're depending on us"
+    }
+   ]
+  },
+  {
+   "t0_ms": 4106130,
+   "t1_ms": 4141990,
+   "speaker": "Management",
+   "text": "to really do the work. And that's where the value gets created. And if you think about it, as Ahmed said, you know, ServiceNow basically is the execution layer. And I believe we're the execution layer for the entire AI economy. And if you look at what's happening with the partnerships we announced today and many more to come, it's not just where the work gets done, but it's where every human and every agent in the enterprise is coming to get things done. And that's a large market. We're positioned at the center of it. And if you say, well, how should we know? Just keep in",
+   "parts": [
+    {
+     "t0_ms": 4106130,
+     "text": "to really do the work. And that's where the value gets created. And if you think about it, as Ahmed"
+    },
+    {
+     "t0_ms": 4111430,
+     "text": "said, you know, ServiceNow basically is the execution layer. And I believe we're the execution"
+    },
+    {
+     "t0_ms": 4118090,
+     "text": "layer for the entire AI economy. And if you look at what's happening with the partnerships we"
+    },
+    {
+     "t0_ms": 4123010,
+     "text": "announced today and many more to come, it's not just where the work gets done, but it's where"
+    },
+    {
+     "t0_ms": 4128930,
+     "text": "every human and every agent in the enterprise is coming to get things done. And that's a large"
+    },
+    {
+     "t0_ms": 4135310,
+     "text": "market. We're positioned at the center of it. And if you say, well, how should we know? Just keep in"
+    }
+   ]
+  },
+  {
+   "t0_ms": 4141990,
+   "t1_ms": 4164630,
+   "speaker": "Management",
+   "text": "mind that Action Fabric has seen a 500% growth in assists in less than 30 days. So it's multiplying so, so quickly. And I think this represents a business model innovation that will be substantially larger in a very short period of time than the entirety of ServiceNow is today.",
+   "parts": [
+    {
+     "t0_ms": 4141990,
+     "text": "mind that Action Fabric has seen a 500% growth in assists in less than 30 days. So it's multiplying"
+    },
+    {
+     "t0_ms": 4152490,
+     "text": "so, so quickly. And I think this represents a business model innovation that will be substantially"
+    },
+    {
+     "t0_ms": 4159529,
+     "text": "larger in a very short period of time than the entirety of ServiceNow is today."
+    }
+   ]
+  },
+  {
+   "t0_ms": 4171490,
+   "t1_ms": 4177490,
+   "speaker": "Operator",
+   "text": "We have reached the end of the Q&A session, and this concludes today's call. Thank you for attending. You may now disconnect.",
+   "parts": [
+    {
+     "t0_ms": 4171490,
+     "text": "We have reached the end of the Q&A session, and this concludes today's call."
+    },
+    {
+     "t0_ms": 4175310,
+     "text": "Thank you for attending. You may now disconnect."
+    }
+   ]
+  }
+ ]
+}
