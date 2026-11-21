@@ -59,3 +59,7 @@ Tickers split in 2 halves by the parity of a hash of the ticker, fixed before an
 ## Amendment, same day, before any bar was fetched
 
 The first version of this plan (`b0eea3b`) was reviewed by 2 models before the fetch. They found that a bar stamped at its minute's start put the call's first minute in the window before it, that a stale after-hours price could carry an earlier move into the call hour, that empty control hours read as quiet ones, that `call` and `fwd` shared a price (which fakes a reversal), that a morning call whose 8-K is filed that evening was placed on the next day, and that elevation against ordinary days cannot fail and does not isolate the call. This version fixes each, adds the in-call lift as the primary test, and moves the size and share numbers to descriptive. `out/panel/bars/` still did not exist at this commit.
+
+## Event table, before any bar
+
+`panel events` gives 1,094 events on 138 tickers (log `callmoves-panel-events3.log`, not stamped: it reads SEC and yfinance live). 153 releases stated no call time and were dropped. Against the library's hand-set starts the first parser was within 5 minutes on 74 of 77 calls. The 3 misses were 2 parser bugs (a release filed the evening before its date, a later investor event's time picked over the call's), fixed before the fetch, after which it matches 76 of 76. That score is in-sample, since the fixes came from the same check.

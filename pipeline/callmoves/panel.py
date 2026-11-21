@@ -27,7 +27,7 @@ import json
 import os
 import re
 import time
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 import httpx
@@ -75,18 +75,19 @@ ZONE_REACH = 40      # characters between a time and its zone
 REPLAY_REACH = 80    # "replay" this close before the keyword or the time marks a replay's time, not the call's
 LATE_TOL_MIN = 15    # a release accepted this long after the stated call time still belongs to that call
 DAY_REACH = 100      # characters around the keyword and time searched for the call's day
+OTHER_EVENT_DAYS = 120   # a time dated this far after the release is an investor day or a conference
 MAX_AHEAD_DAYS = 5   # a dated call further from the release than this is some other date in the text
 MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
 MONTH_DAY = re.compile(r"\b(" + "|".join(MONTHS) + r")[a-z]*\.?\s+(\d{1,2})\b", re.IGNORECASE)
 
 
-def _get(url: str, cache: Path, wait: float = SEC_WAIT_S) -> bytes | None:
-    """Returns the body of an SEC URL, from the cache when present, None on a 404 or an oversized file. SEC refuses
-    requests without a contact User-Agent, so SEC_USER_AGENT must be set."""
+def _get(url: str, cache: Path, cap: int | None = None) -> bytes | None:
+    """Returns the body of an SEC URL, from the cache when present, None on a 404 or a body over `cap` bytes. SEC
+    refuses requests without a contact User-Agent, so SEC_USER_AGENT must be set."""
     if cache.exists():
         return cache.read_bytes()
     for attempt in range(NET_RETRIES + 1):
-        time.sleep(wait if not attempt else NET_WAIT_S)
+        time.sleep(NET_WAIT_S if attempt else SEC_WAIT_S)
         try:
             r = httpx.get(url, headers={"User-Agent": os.environ["SEC_USER_AGENT"]}, timeout=60,
                           follow_redirects=True)
@@ -96,7 +97,7 @@ def _get(url: str, cache: Path, wait: float = SEC_WAIT_S) -> bytes | None:
             continue
         if r.status_code not in (429, 500, 502, 503) or attempt == NET_RETRIES:
             break
-    if r.status_code == 404 or len(r.content) > MAX_DOC_BYTES:
+    if r.status_code == 404 or (cap and len(r.content) > cap):
         return None
     r.raise_for_status()
     cache.parent.mkdir(parents=True, exist_ok=True)
@@ -104,12 +105,27 @@ def _get(url: str, cache: Path, wait: float = SEC_WAIT_S) -> bytes | None:
     return r.content
 
 
-def call_time(text: str) -> tuple[int, int, object] | None:
+def dated(hint: tuple[int, int], near: date, lo: int = -1, hi: int = MAX_AHEAD_DAYS) -> date | None:
+    """Returns the (month, day) hint as a date `lo` to `hi` days from `near`, None when it is no real date or lies
+    outside that range, as the quarter's end or a later investor event does."""
+    for year in (near.year, near.year + 1):
+        try:
+            day = date(year, *hint)
+        except ValueError:      # "February 30" from a table
+            return None
+        if lo <= (day - near).days <= hi:
+            return day
+    return None
+
+
+def call_time(text: str, near: date) -> tuple[int, int, object] | None:
     """Returns the call's start as (hour, minute, day hint) US Eastern from a release's text, None when it states
     none. A time counts when a zone follows it within ZONE_REACH characters and a call keyword sits within
     KEY_REACH, and no "replay" stands between or just before them. The time nearest its keyword wins, and both
     halves of a pair such as "2:00 p.m. PT (5:00 p.m. ET)" read the same Eastern time. The day hint is what the
-    text within DAY_REACH says about the day: "tomorrow", a (month, day) pair, "today", or None."""
+    text within DAY_REACH says about the day: "tomorrow", the nearest (month, day) when it is near the release's
+    day (`dated`), "today", or None. A time dated up to OTHER_EVENT_DAYS later belongs to some other event and is
+    skipped, and an earlier date (the quarter's end) is ignored."""
     keys = [m.start() for m in KEYWORD.finditer(text)]
     best = None
     for m in CLOCK.finditer(text):
@@ -122,43 +138,45 @@ def call_time(text: str) -> tuple[int, int, object] | None:
         if dist > KEY_REACH or "replay" in text[max(0, min(key, m.start()) - REPLAY_REACH):m.start()].lower():
             continue
         h24 = hour % 12 + (12 if m.group(3).lower() == "p" else 0) + ZONES[zone.group(1).lower()]
+        lo = max(0, min(key, m.start()) - DAY_REACH)
+        around = text[lo:m.end() + DAY_REACH]
+        day = min(MONTH_DAY.finditer(around), key=lambda d: abs(d.start() + lo - m.start()), default=None)
+        md = (MONTHS.index(day.group(1)[:3].lower()) + 1, int(day.group(2))) if day else None
+        if md and dated(md, near, MAX_AHEAD_DAYS + 1, OTHER_EVENT_DAYS):
+            continue
+        hint = "tomorrow" if re.search(r"\btomorrow\b", around, re.IGNORECASE) else \
+            md if md and dated(md, near) else "today" if re.search(r"\btoday\b", around, re.IGNORECASE) else None
         if h24 < 24 and (best is None or dist < best[0]):
-            best = (dist, h24, int(m.group(2) or 0), min(key, m.start()), m.end())
-    if best is None:
-        return None
-    near = text[max(0, best[3] - DAY_REACH):best[4] + DAY_REACH]
-    date = MONTH_DAY.search(near)
-    hint = "tomorrow" if re.search(r"\btomorrow\b", near, re.IGNORECASE) else \
-        (MONTHS.index(date.group(1)[:3].lower()) + 1, int(date.group(2))) if date else \
-        "today" if re.search(r"\btoday\b", near, re.IGNORECASE) else None
-    return best[1], best[2], hint
+            best = (dist, h24, int(m.group(2) or 0), hint)
+    return best[1:] if best else None
 
 
-def call_start(accepted: datetime, clock: tuple[int, int, object]) -> tuple[datetime, bool, str]:
-    """Returns the call's start, whether the filing reached EDGAR after it, and where the day came from. A date in
-    the text wins when it falls from 1 day before the acceptance to MAX_AHEAD_DAYS after, then "tomorrow" (the next
-    weekday) and "today". With no hint the day is a rule: the release's own day, unless it came after 15:30 Eastern
-    and the call is before noon, which is read as the next weekday's morning. That rule is wrong for an 8-K filed
-    the evening after a morning call, so rule days are reported apart. A start more than LATE_TOL_MIN before the
-    acceptance means the 8-K was filed after the call began."""
+def call_start(accepted: datetime, clock: tuple[int, int, object],
+               earn_days: frozenset[date] = frozenset()) -> tuple[datetime, bool, str]:
+    """Returns the call's start, whether the filing reached EDGAR after it, and where the day came from: a date in
+    the text, "tomorrow" (the next weekday), "today", the earnings calendar, or a rule.
+
+    A morning call whose 8-K arrived after 15:30 Eastern is ambiguous even with "today" in the text: the release
+    was filed either the evening before its date (Danaher, Duke) or the evening after the call. `earn_days`, the
+    company's earnings days from yfinance, settles it when one of the 2 days is in it. Otherwise "today" is the
+    filing's day and no hint means the next weekday, and those rule days are reported apart. A start more than
+    LATE_TOL_MIN before the acceptance means the 8-K was filed after the call began."""
     acc = accepted.astimezone(ET)
     start = acc.replace(hour=clock[0], minute=clock[1], second=0, microsecond=0)
-    hint, src = clock[2], "rule"
+    nxt = start + timedelta(days=1)
+    while nxt.weekday() >= 5:
+        nxt += timedelta(days=1)
+    hint, src = clock[2], clock[2] or "rule"
     if isinstance(hint, tuple):
-        try:
-            dated = start.replace(year=acc.year + (hint[0] < acc.month - 6), month=hint[0], day=hint[1])
-        except ValueError:      # "February 30" from a table, not a date
-            dated = None
-        if dated and -1 <= (dated.date() - acc.date()).days <= MAX_AHEAD_DAYS:
-            return dated, dated < acc - timedelta(minutes=LATE_TOL_MIN), "date"
-        hint = None
-    if hint == "tomorrow" or (hint is None and acc.hour * 60 + acc.minute >= 930 and clock[0] < 12):
-        src = hint or src
-        start += timedelta(days=1)
-        while start.weekday() >= 5:
-            start += timedelta(days=1)
-    elif hint == "today":
-        src = hint
+        day = dated(hint, acc.date())
+        start, src = start.replace(year=day.year, month=day.month, day=day.day), "date"
+    elif hint == "tomorrow":
+        start = nxt
+    elif acc.hour * 60 + acc.minute >= 930 and clock[0] < 12:
+        if nxt.date() in earn_days or start.date() in earn_days:
+            start, src = nxt if nxt.date() in earn_days else start, "calendar"
+        elif hint is None:
+            start = nxt
     return start, start < acc - timedelta(minutes=LATE_TOL_MIN), src
 
 
@@ -178,7 +196,7 @@ def filings(cik: int) -> pd.DataFrame:
     return df[df["accepted"] >= FIRST_DAY].drop_duplicates("accession")[["accession", "accepted"]]
 
 
-def release_clock(cik: int, accession: str) -> tuple[int, int, object] | None:
+def release_clock(cik: int, accession: str, near: date) -> tuple[int, int, object] | None:
     """Returns the call time stated in any HTML document of 1 filing: files named like an exhibit 99 first, then
     the smallest, since the release is shorter than the financial supplement."""
     acc = accession.replace("-", "")
@@ -189,8 +207,8 @@ def release_clock(cik: int, accession: str) -> tuple[int, int, object] | None:
     items = [i for i in json.loads(index)["directory"]["item"]
              if i["name"].lower().endswith((".htm", ".html")) and not SKIP_DOC.search(i["name"])]
     for item in sorted(items, key=lambda i: (not EXHIBIT.search(i["name"]), int(i.get("size") or 0))):
-        raw = _get(f"{base}/{item['name']}", RAW / "doc" / acc / item["name"])
-        clock = call_time(html_to_text(raw.decode("utf-8", "replace"))) if raw else None
+        raw = _get(f"{base}/{item['name']}", RAW / "doc" / acc / item["name"], MAX_DOC_BYTES)
+        clock = call_time(html_to_text(raw.decode("utf-8", "replace")), near) if raw else None
         if clock:
             return clock
     return None
@@ -239,11 +257,11 @@ def build_events() -> pd.DataFrame:
             continue
         fl, sur = filings(ciks[tk]), surprises(tk)
         for f in fl.itertuples():
-            clock = release_clock(ciks[tk], f.accession)
+            clock = release_clock(ciks[tk], f.accession, f.accepted.tz_convert(ET).date())
             if clock is None:
                 no_time += 1
                 continue
-            start, late, src = call_start(f.accepted.to_pydatetime(), clock)
+            start, late, src = call_start(f.accepted.to_pydatetime(), clock, frozenset(sur["day"].dt.date))
             day = pd.Timestamp(start.date())
             near = sur[(sur["day"] - day).abs() <= pd.Timedelta(days=1)]
             s = near.iloc[0] if len(near) else {}

@@ -1,6 +1,6 @@
 """Tests for the price-only panel on synthetic text and bars: the call time read from a release, the call's day,
 and 1 event's features."""
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 import numpy as np
 import pandas as pd
@@ -19,10 +19,12 @@ from callmoves.market import ET
     ("A replay of the conference call will be available at 8:00 p.m. ET", None),
     ("Revenue rose 12% and the dividend is payable at 9:00 a.m. ET", None),
     ("conference call at 13:00 a.m. ET", None),
+    ("webcast at 11:40 a.m. PT on December 9. A conference call begins at 2 p.m. Pacific Time on October 13, 2026.",
+     (17, 0, (10, 13))),
 ])
 def test_call_time(text, want):
     """Reads the Eastern call time and day hint next to a call keyword, skipping replays and other times."""
-    assert panel.call_time(text) == want
+    assert panel.call_time(text, date(2026, 10, 13)) == want
 
 
 def test_call_start_day():
@@ -39,9 +41,12 @@ def test_call_start_day():
     assert day(fri_eve, (8, 30, "today")) == ("2026-10-23", True, "today")    # 8-K filed the evening after its call
     assert day(fri_eve, (8, 30, (10, 23))) == ("2026-10-23", True, "date")
     assert day(fri_eve, (8, 30, (10, 27))) == ("2026-10-27", False, "date")
-    assert day(fri_eve, (8, 30, (9, 30))) == ("2026-10-26", False, "rule")    # the quarter's end, not the call
+    assert day(fri_eve, (8, 30, "tomorrow")) == ("2026-10-26", False, "tomorrow")
     assert day(datetime(2026, 10, 23, 11, 40, tzinfo=ET), (10, 0, None)) == ("2026-10-23", True, "rule")
     assert day(datetime(2026, 12, 30, 16, 5, tzinfo=ET), (8, 30, (1, 2)))[0] == "2027-01-02"
+    filed_before = panel.call_start(fri_eve, (8, 30, "today"), frozenset({date(2026, 10, 26)}))
+    assert (filed_before[0].date().isoformat(), filed_before[1:]) == ("2026-10-26", (False, "calendar"))
+    assert panel.dated((9, 30), date(2026, 10, 23)) is None                   # the quarter's end, not the call
 
 
 def bars(jump_at: datetime, days: int = 17) -> pd.DataFrame:
