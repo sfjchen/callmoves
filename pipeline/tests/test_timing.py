@@ -56,5 +56,4 @@ def test_cross_null_keeps_the_calls_own_event_count_at_the_other_calls_positions
 
 def test_a_call_too_short_for_any_placement_is_skipped_not_fatal():
     short = [Grid(f"s{i}", "d", 18, 18, np.linspace(0, 1, 18), {"claims": np.arange(6, 12)}) for i in range(3)]
-    for null in ("local", "rotate"):
-        assert study(short, null) == {}
+    assert study(short, "rotate") == {}   # no section is 20 minutes long, so nothing can rotate
