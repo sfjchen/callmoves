@@ -188,7 +188,7 @@ class Stats(BaseModel):
     gpu_s: float | None = None
     gpu_usd: float | None = None
     asr_wpm: float | None = None         # words per transcribed minute (transcript.asr_quality)
-    asr_max_gap_s: float | None = None
+    asr_thin_s: float | None = None      # seconds in long gaps or near-empty segments
     claude_s: float | None = None        # claim extraction and novelty judging
     claude_backend: str | None = None    # "api" (key) or "cli" (owner's subscription), the USD is list price either way
     claude_tokens: dict[str, int] | None = None

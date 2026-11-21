@@ -185,12 +185,12 @@ def test_an_announced_qa_does_not_start_it():
     assert opens_qa("Thanks, Chris. Operator, next question, please.")
 
 
-def test_asr_quality_reads_skipped_speech_as_a_low_rate_and_hold_music_as_a_gap():
-    from callmoves.transcript import MIN_WPM, asr_quality
+def test_asr_quality_counts_gaps_and_near_empty_segments_as_thin_time():
+    from callmoves.transcript import RETRY_THIN_S, asr_quality
     talk = "we delivered record revenue this quarter and raised our outlook for the full year again"   # 15 words
     sound = [{"t0_ms": i * 6000, "t1_ms": i * 6000 + 5500, "text": talk} for i in range(20)]
-    assert asr_quality(sound)["asr_wpm"] > MIN_WPM and asr_quality(sound)["asr_max_gap_s"] == 0.5
+    assert asr_quality(sound) == {"asr_wpm": round(15 / 5.5 * 60, 1), "asr_thin_s": 0.0}
     late = [*sound[:2], *({**s, "t0_ms": s["t0_ms"] + 600_000, "t1_ms": s["t1_ms"] + 600_000} for s in sound[2:])]
-    assert asr_quality(late)["asr_wpm"] == asr_quality(sound)["asr_wpm"] and asr_quality(late)["asr_max_gap_s"] > 600
-    skipped = [{**s, "t1_ms": s["t0_ms"] + 5500 * 4} for s in sound[::4]]   # same words over 4x the time
-    assert asr_quality(skipped)["asr_wpm"] < MIN_WPM
+    assert asr_quality(late)["asr_thin_s"] == 600.5   # hold music: 1 long gap
+    dropped = [*sound[:5], {"t0_ms": 30_000, "t1_ms": 352_000, "text": "tens of billions,"}]
+    assert asr_quality(dropped)["asr_thin_s"] == 322.0 >= RETRY_THIN_S   # the filter kept 3 words of 5 minutes

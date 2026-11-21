@@ -50,23 +50,49 @@ def decode_audio(audio_path: Path, rate: int = 16000):
     return np.concatenate(chunks).astype(np.float32) / 32768.0
 
 
+THIN_GAP_S = 20     # a silence this long inside a call, or a segment this long under 1 word a second, is suspect
+RETRY_THIN_S = 60   # this much suspect time reruns the audio without the voice filter
+RETRY_GAIN = 1.1    # and the rerun is kept when it has this many times the words
+
+
+def asr_quality(segments: list[dict]) -> dict:
+    """Returns the words per minute of transcribed time and the thin seconds: time in gaps of THIN_GAP_S or more
+    between segments, or in segments that long with under 1 word a second. Thin time is speech the voice filter or
+    the decoder dropped, or hold music: the numbers cannot tell which, so ingest records them and warns."""
+    spoken_min = max(1e-9, sum(s["t1_ms"] - s["t0_ms"] for s in segments) / 60_000)
+    gaps = [(b["t0_ms"] - a["t1_ms"]) / 1000 for a, b in pairwise(segments)]
+    slow = [(s["t1_ms"] - s["t0_ms"]) / 1000 for s in segments
+            if len(s["text"].split()) < (s["t1_ms"] - s["t0_ms"]) / 1000]
+    return {"asr_wpm": round(sum(len(s["text"].split()) for s in segments) / spoken_min, 1),
+            "asr_thin_s": round(sum(x for x in gaps + slow if x >= THIN_GAP_S), 1)}
+
+
 def transcribe(audio_path: Path, model_size: str = "medium", device: str = "cpu") -> list[dict]:
     """Transcribes audio with faster-whisper (int8 on CPU, float16 on a GPU) and returns segments with ms offsets
-    and empty speakers."""
+    and empty speakers. Each 30-second window decodes on its own, with a beam on a GPU: greedy decoding conditioned
+    on its own previous text let 1 bad window feed the next. The voice filter (Silero VAD) drops hold music, and on
+    AVGO Q3-2026 it also dropped 10 minutes of the CEO (52 words against 251 without it in 1 3-minute clip), so a
+    transcript with RETRY_THIN_S of thin time is decoded again without the filter and the fuller one is kept."""
     from faster_whisper import (
         WhisperModel,  # optional dependency, pip install -e ".[asr]"
     )
 
-    model = WhisperModel(model_size, device=device, compute_type="int8" if device == "cpu" else "float16")
-    # Greedy decoding that conditions on its own previous text skipped up to 12.5 minutes of 4 calls (PM, AVGO,
-    # CMCSA, JNJ at 51 to 123 words a minute against a median of 157): 1 bad window fed the next. Each 30-second
-    # window now decodes on its own with a beam, and the CPU keeps the greedy search it can afford.
-    segments, _ = model.transcribe(decode_audio(audio_path), vad_filter=True, beam_size=1 if device == "cpu" else 5,
-                                   condition_on_previous_text=False)
-    return [
-        {"t0_ms": int(s.start * 1000), "t1_ms": int(s.end * 1000), "speaker": "", "text": s.text.strip()}
-        for s in segments
-    ]
+    model, wav = WhisperModel(model_size, device=device, compute_type="int8" if device == "cpu" else "float16"), \
+        decode_audio(audio_path)
+
+    def run(vad: bool) -> list[dict]:
+        """Returns the segments decoded with or without the voice filter."""
+        segments, _ = model.transcribe(wav, vad_filter=vad, beam_size=1 if device == "cpu" else 5,
+                                       condition_on_previous_text=False)
+        return [{"t0_ms": int(s.start * 1000), "t1_ms": int(s.end * 1000), "speaker": "", "text": s.text.strip()}
+                for s in segments]
+
+    out = run(True)
+    if out and asr_quality(out)["asr_thin_s"] >= RETRY_THIN_S:
+        loose = run(False)
+        n_out, n_loose = (sum(len(s["text"].split()) for s in segs) for segs in (out, loose))
+        out = loose if n_loose >= RETRY_GAIN * n_out else out
+    return out
 
 
 DIARIZATION_MODEL = "pyannote/speaker-diarization-community-1"   # gated: accept its terms on Hugging Face once
@@ -83,20 +109,6 @@ def diarize(audio_path: Path, token: str, device: str = "cpu") -> list[dict]:
     out = pipe({"waveform": torch.from_numpy(decode_audio(audio_path))[None], "sample_rate": 16000})
     return [{"t0_ms": int(t.start * 1000), "t1_ms": int(t.end * 1000), "cluster": c}
             for t, c in out.exclusive_speaker_diarization]
-
-
-MIN_WPM = 110   # words per transcribed minute: the slowest sound transcript of 77 calls ran 125, the 3 with skipped
-                # speech (JNJ, AVGO, CMCSA) 52 to 90
-
-
-def asr_quality(segments: list[dict]) -> dict:
-    """Returns the words per minute of transcribed time and the longest gap between segments in seconds. A decoder
-    that skips speech emits long segments with few words, so the rate drops, while hold music in a late-starting call
-    only adds a gap. Ingest stops under MIN_WPM instead of publishing a call with minutes missing."""
-    spoken_min = max(1e-9, sum(s["t1_ms"] - s["t0_ms"] for s in segments) / 60_000)
-    gaps = [(b["t0_ms"] - a["t1_ms"]) / 1000 for a, b in pairwise(segments)]
-    return {"asr_wpm": round(sum(len(s["text"].split()) for s in segments) / spoken_min, 1),
-            "asr_max_gap_s": round(max(gaps, default=0.0), 1)}
 
 
 # ---- speaker labels without diarization ----

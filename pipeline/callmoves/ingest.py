@@ -23,7 +23,7 @@ from .audio import transcode, upload
 from .docs import load_doc
 from .market import bars_for_call
 from .transcript import (
-    MIN_WPM,
+    RETRY_THIN_S,
     asr_quality,
     call_start_ms,
     diarize,
@@ -103,9 +103,9 @@ def main(argv=None):
                 except Exception as e:  # noqa: BLE001 - gated model not accepted or no [diarize] extra
                     err = f"{type(e).__name__}: {str(e)[:200]}"
         stats |= asr_quality(raw) | {"audio_min": round(raw[-1]["t1_ms"] / 60000, 1)}
-        if stats["asr_wpm"] < MIN_WPM:
-            raise RuntimeError(f"transcript has {stats['asr_wpm']} words per transcribed minute, under {MIN_WPM}: "
-                               f"the decoder skipped speech")
+        if stats["asr_thin_s"] >= RETRY_THIN_S:
+            print(f"  warning: {stats['asr_thin_s']:.0f} s of gaps or near-empty segments, {stats['asr_wpm']} words "
+                  f"per transcribed minute: check for speech the transcript lost", flush=True)
         raw_json.write_text(json.dumps(raw))
         if voices:
             voices_json.write_text(json.dumps(voices))
