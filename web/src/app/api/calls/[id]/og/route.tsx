@@ -52,7 +52,7 @@ export async function GET(req: Request, { params }: RouteContext<"/api/calls/[id
         )}
         <div style={{ display: "flex", marginTop: 24, fontSize: 24, color: PAL.muted }}>
           <span style={{ fontSize: 30, fontWeight: 700, color: PAL.brand, marginRight: 16 }}>CallMoves</span>
-          <span style={{ alignSelf: "center" }}>what moved the stock during the earnings call</span>
+          <span style={{ alignSelf: "center" }}>when the stock moved during the earnings call, and what was being said</span>
         </div>
       </div>
     ),

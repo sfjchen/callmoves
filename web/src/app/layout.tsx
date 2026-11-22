@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col font-sans">
         <header className="bg-brand text-white px-4 sm:px-6 py-1 lg:py-2.5 flex items-baseline gap-4">
           <Link href="/" className="tap text-xl font-semibold tracking-tight">CallMoves</Link>
-          <span className="hidden sm:inline text-sm text-white/80">what moved the stock during the earnings call</span>
+          <span className="hidden sm:inline text-sm text-white/80">when the stock moved during the earnings call, and what was being said</span>
           <a href="/guess" className={`ml-auto ${NAV}`}>
             Guess the move</a>
           <Link href="/submit" className={NAV}>

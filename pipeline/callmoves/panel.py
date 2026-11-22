@@ -470,8 +470,8 @@ def describe(f: pd.DataFrame, rng: np.random.Generator, draws: int = BOOT) -> di
 
     est, lo, hi = one(f), {}, {}
     for by in ("day", "ticker"):
-        parts = [g for _, g in f.groupby(by)]
-        sims = pd.DataFrame([one(pd.concat([parts[i] for i in rng.integers(0, len(parts), len(parts))]))
+        parts = list(f.groupby(by).indices.values())      # row positions per cluster, far faster than concat
+        sims = pd.DataFrame([one(f.iloc[np.concatenate([parts[i] for i in rng.integers(0, len(parts), len(parts))])])
                              for _ in range(draws)])
         for k in est:
             a, z = np.nanpercentile(sims[k], [2.5, 97.5]) if sims[k].notna().any() else (np.nan, np.nan)
