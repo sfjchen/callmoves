@@ -2,11 +2,19 @@ from datetime import datetime, timedelta, timezone
 
 import numpy as np
 import pandas as pd
+import pytest
 
 from callmoves.models import CallMeta, Claim, Segment
 
 ET = timezone(timedelta(hours=-4))
 T0 = datetime(2026, 10, 13, 10, 0, tzinfo=ET)
+
+
+@pytest.fixture(autouse=True)
+def no_keys(monkeypatch):
+    """Hides the Claude settings a shell may export, so no test reaches a real model or rewrites a fixture's cache."""
+    for k in ("ANTHROPIC_API_KEY", "CALLMOVES_LLM"):
+        monkeypatch.delenv(k, raising=False)
 
 
 def meta(**kw) -> CallMeta:
