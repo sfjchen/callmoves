@@ -63,3 +63,14 @@ The first version of this plan (`b0eea3b`) was reviewed by 2 models before the f
 ## Event table, before any bar
 
 `panel events` gives 1,094 events on 138 tickers (log `callmoves-panel-events3.log`, not stamped: it reads SEC and yfinance live). 153 releases stated no call time and were dropped. Against the library's hand-set starts the first parser was within 5 minutes on 74 of 77 calls. The 3 misses were 2 parser bugs (a release filed the evening before its date, a later investor event's time picked over the call's), fixed before the fetch, after which it matches 76 of 76. That score is in-sample, since the fixes came from the same check.
+
+## Result, 2026-11-22
+
+Log `callmoves-panel-stats-e9b4c23-20261122-2133.log`. 1,090 events have bars and 459 pass the freshness rule (dropped 321 of 422 pre-market, 5 of 164 regular, 305 of 504 after hours). By the rule above:
+
+- In-call lift: 0.24 (0.16, 0.31), halves 0.25 (0.15, 0.35) and 0.26 (0.10, 0.41). Finding.
+- Elevation: `abs x` 4.97 (4.20, 5.94), halves 5.06 and 4.81, `rank` 0.84 (0.81, 0.87), halves 0.82 and 0.87, all intervals clear of the null. Finding, as predicted.
+- Surprise: 0.28 (0.13, 0.43), halves 0.35 (0.16, 0.54) and 0.16 (-0.04, 0.34). Not shown, the predicted sign in both halves.
+- Persistence: 0.12 (0.02, 0.23), halves 0.08 (-0.04, 0.20) and 0.21 (0.04, 0.39). Not shown.
+
+The first stats run was stopped before it printed anything (the bootstrap rebuilt each sample with `concat` and took hours), and the resampling was changed to row positions with the same draws. No statistic, window or rule changed after bars existed.
