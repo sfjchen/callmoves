@@ -128,7 +128,7 @@ def extract_claims(segments: list[Segment]) -> tuple[list[Claim], bool]:
                                         kind=c.kind, ts=_claim_ts(seg, c.quote)))
             return claims, True
         except Exception as e:
-            if llm.backend() == "cli":   # an owner-added call publishes Claude's claims or nothing
+            if llm.strict():   # an owner-added call publishes Claude's claims or nothing
                 raise
             print(f"claude extraction failed, using rules: {str(e)[:160]}")
     return extract_claims_rules(segments), False

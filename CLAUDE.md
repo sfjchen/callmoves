@@ -20,7 +20,7 @@ cd web && npm run type-check && npm run lint
 ## Hard rules
 - Raw audio and PDFs go in `pipeline/raw/` (gitignored). Player audio is mono 48 kbps MP3, uploaded by `ingest --upload` to the public HF dataset `jchen04/callmoves-audio` (the first 45 calls stay in the Supabase bucket `callmoves-audio`, near its 1 GB cap), never committed or deployed.
 - Never commit `.env`, audio files or `pipeline/out/`. Do not weaken `.gitignore`.
-- Calls I add myself and demo work run on my Claude subscription, never on `ANTHROPIC_API_KEY` credits or the GitHub worker: `CALLMOVES_LLM=cli python -m callmoves.worker --batch calls.json` (or `run`) sends every `llm.parse` through `claude -p` with the key stripped, and a failed Claude step stops the call instead of publishing rule-based claims. Only public `/submit` jobs on the GitHub worker use the API key.
+- Calls I add myself and demo work run on my plan's monthly API credits first, then my Claude subscription, never on the GitHub worker: `CALLMOVES_LLM=auto python -m callmoves.worker --batch calls.json` (or `run`) bills `ANTHROPIC_API_KEY` until it reports no credit, then sends every later `llm.parse` through `claude -p` with the key stripped (`CALLMOVES_LLM=cli` skips the credits). A failed Claude step stops the call instead of publishing rule-based claims. Public `/submit` jobs on the GitHub worker use only the API key, never the subscription.
 - No paid services. Keys live in `pipeline/.env` (list in `README.md`). Never print their values.
 - No look-ahead: an `after_call` consensus is display only, never scores a claim.
 - A claim must quote the transcript verbatim or it is dropped. Keep that check in both extractors.

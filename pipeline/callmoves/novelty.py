@@ -145,7 +145,7 @@ def judge_novelty(claims: list[Claim], release: str, prior: str) -> list[Claim]:
         try:
             return judge_novelty_llm(claims, release, prior)
         except Exception as e:
-            if llm.backend() == "cli":   # an owner-added call publishes Claude's verdicts or nothing
+            if llm.strict():   # an owner-added call publishes Claude's verdicts or nothing
                 raise
             print(f"claude novelty failed, using rules: {str(e)[:160]}")
     return [judge_novelty_rules(c, release, prior) for c in claims]

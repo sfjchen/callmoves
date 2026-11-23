@@ -4,7 +4,7 @@ callmoves_calls and marks the row done or failed. Runs on GitHub Actions (.githu
 per run, or locally:
 
     python -m callmoves.worker            # needs SUPABASE_URL and SUPABASE_SERVICE_KEY, the other keys optional
-    CALLMOVES_LLM=cli python -m callmoves.worker --batch calls.json   # owner-added calls, no queue, subscription
+    CALLMOVES_LLM=auto python -m callmoves.worker --batch calls.json   # owner-added calls, no queue, credits then plan
 
 A batch file is a JSON array of rows shaped like callmoves_submissions (ticker, quarter, company, etf, call_start,
 audio_url, release_url, prior_url). Batch calls skip the queue, so the GitHub worker never claims them, and land in

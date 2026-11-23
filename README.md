@@ -32,7 +32,7 @@ npm run dev        # http://localhost:3000
 
 Every call folder in `pipeline/data/` and the fixture ship with bars and cached Claude output (`llm_claims.json`), so a rerun needs no key. Keys go in `pipeline/.env`, each optional:
 
-- `ANTHROPIC_API_KEY`: Claude extracts claims and judges novelty for a new call, otherwise the rules run. `CALLMOVES_LLM=cli` uses the Claude Code login instead, and a failed Claude step then stops the call.
+- `ANTHROPIC_API_KEY`: Claude extracts claims and judges novelty for a new call, otherwise the rules run. `CALLMOVES_LLM=auto` uses the key until its credits run out, then the Claude Code login, `CALLMOVES_LLM=cli` only the login. In both a failed Claude step stops the call.
 - `POLYGON_API_KEY`: 1-minute bars from Massive (formerly Polygon), free plan. Required to ingest a call.
 - `ALPHA_VANTAGE_KEY`: analyst consensus (25 requests a day), otherwise no consensus.
 - `HF_TOKEN`: audio upload (`ingest --upload`) and the pyannote speaker model.

@@ -1,6 +1,10 @@
 """Shared Claude access for the claim extractor and the novelty judge: 1 model name, 1 structured-output call, and
-the tokens it used, so a run can record what its Claude calls cost. CALLMOVES_LLM=cli sends the call through the
-logged-in Claude Code CLI (`claude -p`, the owner's subscription) instead of the API key, for calls the owner adds."""
+the tokens it used, so a run can record what its Claude calls cost. Modes, from CALLMOVES_LLM:
+  unset  ANTHROPIC_API_KEY only (the public worker), a failed Claude step falls back to the rules
+  auto   the key first (the plan's monthly API credits), then the logged-in Claude Code CLI (`claude -p`, the owner's
+         subscription) once the key reports no credit left, for calls the owner adds
+  cli    the CLI only
+In auto and cli a failed Claude step stops the call instead of publishing rule-based output (see strict())."""
 from __future__ import annotations
 
 import json
@@ -16,18 +20,29 @@ PRICE = {"input_tokens": 2.0, "output_tokens": 10.0, "cache_read_input_tokens": 
          "cache_creation_input_tokens": 2.5}
 USAGE: Counter = Counter()   # tokens used by every parse() call in this process, keyed like PRICE
 CLI_TIMEOUT_S = 900
+credit_out = False   # set once the key reports an empty credit balance in this process, auto mode then uses the CLI
 
 
 def backend() -> str | None:
-    """Returns "cli" (Claude Code subscription), "api" (ANTHROPIC_API_KEY) or None when no Claude is configured."""
-    return "cli" if os.environ.get("CALLMOVES_LLM") == "cli" else "api" if os.environ.get("ANTHROPIC_API_KEY") else None
+    """Returns "cli" (Claude Code subscription), "api" (ANTHROPIC_API_KEY) or None when no Claude is configured.
+    Auto mode returns "api" while the key has credit and "cli" after, so stats record what each call billed."""
+    mode, key = os.environ.get("CALLMOVES_LLM"), os.environ.get("ANTHROPIC_API_KEY")
+    if mode == "cli" or (mode == "auto" and (not key or credit_out)):
+        return "cli"
+    return "api" if key else None
+
+
+def strict() -> bool:
+    """Returns whether a failed Claude step must stop the call (owner-added calls, auto and cli modes)."""
+    return os.environ.get("CALLMOVES_LLM") in ("auto", "cli")
 
 
 def parse[T: BaseModel](system: str, content: str | list[dict], schema: type[T], max_tokens: int = 8000,
                          model: str = MODEL) -> T:
     """Returns Claude's reply to `content` parsed into `schema`. Raises on API or CLI errors, callers fall back to
-    rules. USAGE counts tokens of every model, PRICE holds MODEL's rates. The CLI path joins the content blocks into
-    1 prompt (it has no cache_control) and strips ANTHROPIC_API_KEY so the CLI cannot bill the key."""
+    rules unless strict(). USAGE counts tokens of every model, PRICE holds MODEL's rates. The CLI path joins the
+    content blocks into 1 prompt (it has no cache_control) and strips ANTHROPIC_API_KEY so the CLI cannot bill the
+    key."""
     if backend() == "cli":
         prompt = content if isinstance(content, str) else "\n\n".join(b["text"] for b in content)
         env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}
@@ -47,8 +62,18 @@ def parse[T: BaseModel](system: str, content: str | list[dict], schema: type[T],
         return schema.model_validate(out["structured_output"])
     import anthropic
 
-    resp = anthropic.Anthropic().messages.parse(model=model, max_tokens=max_tokens, system=system,
-                                                messages=[{"role": "user", "content": content}], output_format=schema)
+    try:
+        resp = anthropic.Anthropic().messages.parse(model=model, max_tokens=max_tokens, system=system,
+                                                    messages=[{"role": "user", "content": content}],
+                                                    output_format=schema)
+    except anthropic.APIStatusError as e:
+        # the monthly credits ran out: auto mode moves this and every later call to the subscription
+        if os.environ.get("CALLMOVES_LLM") != "auto" or "credit balance" not in str(e).lower():
+            raise
+        global credit_out
+        credit_out = True
+        print("  API credits used up, switching to the Claude Code subscription", flush=True)
+        return parse(system, content, schema, max_tokens, model)
     for k in PRICE:
         USAGE[k] += getattr(resp.usage, k, 0) or 0
     return resp.parsed_output
