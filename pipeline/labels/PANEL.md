@@ -69,7 +69,7 @@ The first version of this plan (`b0eea3b`) was reviewed by 2 models before the f
 Log `callmoves-panel-stats-e9b4c23-20261122-2133.log`. 1,090 events have bars and 459 pass the freshness rule (dropped 321 of 422 pre-market, 5 of 164 regular, 305 of 504 after hours). By the rule above:
 
 - In-call lift: 0.24 (0.16, 0.31), halves 0.25 (0.15, 0.35) and 0.26 (0.10, 0.41). Finding.
-- Elevation: `abs x` 4.97 (4.20, 5.94), halves 5.06 and 4.81, `rank` 0.84 (0.81, 0.87), halves 0.82 and 0.87, all intervals clear of the null. Finding, as predicted.
+- Elevation: `abs x` 4.97 (4.20, 5.94), halves 5.06 and 4.81, `rank` 0.84 (0.81, 0.87), halves 0.82 and 0.87, all intervals clear of the null. Finding, as predicted, for release plus call together.
 - Surprise: 0.28 (0.13, 0.43), halves 0.35 (0.16, 0.54) and 0.16 (-0.04, 0.34). Not shown, the predicted sign in both halves.
 - Persistence: 0.12 (0.02, 0.23), halves 0.08 (-0.04, 0.20) and 0.21 (0.04, 0.39). Not shown.
 
